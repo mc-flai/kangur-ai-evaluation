@@ -1,0 +1,30 @@
+Per determinar el màxim comú divisor (MCD) de tots els nombres palindròmics de sis xifres, hem de seguir aquests passos:
+
+1. **Identificar els nombres palindròmics de sis xifres**: Un nombre palindròmic de sis xifres té la forma ABCDCA, on A, B, C, D, E i F són xifres, i A=F, B=E i C=D.
+
+2. **Examinar les propietats dels nombres palindròmics de sis xifres**: Un nombre palindròmic de sis xifres es pot expressar com ABCDCA = 100001A + 10010B + 1100C.
+
+3. **Determinar el MCD**: Per trobar el MCD de tots els nombres palindròmics de sis xifres, hem de trobar el MCD dels coeficients dels termes que componen el nombre palindròmic.
+
+   - El primer terme és 100001.
+   - El segon terme és 10010.
+   - El tercer terme és 1100.
+
+4. **Calcular el MCD dels coeficients**:
+   - El MCD de 100001, 10010 i 1100 es pot trobar utilitzant l'algorisme d'Euclides.
+   - MCD(100001, 10010):
+     - 100001 = 10010 * 10 + 1
+     - 10010 = 1 * 10010 + 0
+     - MCD(100001, 10010) = 1
+   - MCD(10010, 1100):
+     - 10010 = 1100 * 9 + 10
+     - 1100 = 10 * 110 + 0
+     - MCD(10010, 1100) = 10
+   - MCD(100001, 10010, 1100):
+     - MCD(1, 10) = 1
+
+5. **Conclusió**: El MCD de tots els nombres palindròmics de sis xifres és 1.
+
+Raonament: El MCD dels coeficients dels termes que componen els nombres palindròmics de sis xifres és 1.
+
+Resposta: A).

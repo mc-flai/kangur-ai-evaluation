@@ -1,0 +1,56 @@
+Per resoldre aquest problema, hem de determinar quina alçària permet que el dipòsit tingui un volum de 82 m³. El dipòsit és un paral·lelepípede rectangular amb una base de 5 m × 7 m, i té tres sòlids en forma de prisma recte amb bases quadrades d'1 m de costat i alçades respectives d'1 m, 2 m i 3 m.
+
+**Raonament:**
+1. Calculem el volum del dipòsit sense els sòlids interiors:
+   \[
+   \text{Volum del dipòsit} = \text{Àrea de la base} \times \text{Alçària}
+   \]
+   L'àrea de la base és:
+   \[
+   \text{Àrea de la base} = 5 \, \text{m} \times 7 \, \text{m} = 35 \, \text{m}^2
+   \]
+   Sigui \( h \) l'alçària del dipòsit, el volum del dipòsit és:
+   \[
+   \text{Volum del dipòsit} = 35 \, \text{m}^2 \times h
+   \]
+
+2. Calculem el volum dels tres sòlids interiors:
+   - Volum del primer sòlid (1 m × 1 m × 1 m):
+     \[
+     \text{Volum} = 1 \, \text{m} \times 1 \, \text{m} \times 1 \, \text{m} = 1 \, \text{m}^3
+     \]
+   - Volum del segon sòlid (1 m × 1 m × 2 m):
+     \[
+     \text{Volum} = 1 \, \text{m} \times 1 \, \text{m} \times 2 \, \text{m} = 2 \, \text{m}^3
+     \]
+   - Volum del tercer sòlid (1 m × 1 m × 3 m):
+     \[
+     \text{Volum} = 1 \, \text{m} \times 1 \, \text{m} \times 3 \, \text{m} = 3 \, \text{m}^3
+     \]
+   - Volum total dels sòlids interiors:
+     \[
+     \text{Volum total} = 1 \, \text{m}^3 + 2 \, \text{m}^3 + 3 \, \text{m}^3 = 6 \, \text{m}^3
+     \]
+
+3. El volum de l'aigua dins del dipòsit és el volum del dipòsit menys el volum dels sòlids interiors:
+   \[
+   \text{Volum de l'aigua} = 35h - 6
+   \]
+   Sabem que el volum de l'aigua és 82 m³:
+   \[
+   35h - 6 = 82
+   \]
+   Resolent per \( h \):
+   \[
+   35h = 82 + 6
+   \]
+   \[
+   35h = 88
+   \]
+   \[
+   h = \frac{88}{35} \approx 2.51
+   \]
+
+La resposta més propera a 2.51 m és 2.5 m.
+
+**Resposta:** C) 2,5 m.

@@ -1,0 +1,14 @@
+El problema pide identificar cuáles de los números dados son seguros de que Vikingo los pueda escribir de manera que la suma de ninguna pareja de esos números sea 10.
+
+**Razonamiento**:
+Para determinar si Vikingo puede escribir los números de manera que la suma de ninguna pareja sea 10, debemos verificar cada opción:
+
+1. Para A) 1: La pareja (9, 1) suma 10. Por lo tanto, no es seguro.
+2. Para B) 2: La pareja (8, 2) suma 10. Por lo tanto, no es seguro.
+3. Para C) 3: No existe ningún número entre 1 y 9 tal que sumado con 3 de 10 (ni 7, ya que 7 y 3 suman 10). Por lo tanto, es seguro.
+4. Para D) 4: La pareja (6, 4) suma 10. Por lo tanto, no es seguro.
+5. Para E) 5: La pareja (5, 5) suma 10. Por lo tanto, no es seguro.
+
+A partir de este análisis, el número seguro que Vikingo puede escribir es 3.
+
+**Respuesta**: C).

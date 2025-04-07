@@ -1,0 +1,37 @@
+Per resoldre aquesta pregunta, primer hem de comprendre que l'operació TALENT consisteix a multiplicar cada xifra del nombre per la seva posició, sumar els resultats i finalment sumar el valor de L. La fórmula es pot escriure com:
+
+\[ TALENT(X) = \sum_{i=1}^{n} (d_i \cdot i) + L \]
+
+on \( d_i \) és la i-èssima xifra de X i n és la quantitat de xifres.
+
+Per 746136, calculem:
+
+\[ TALENT(746136) = (7 \cdot 6) + (4 \cdot 5) + (6 \cdot 4) + (1 \cdot 3) + (3 \cdot 2) + (6 \cdot 1) + L \]
+
+Realitzem els càlculs:
+
+\[ (7 \cdot 6) = 42 \]
+\[ (4 \cdot 5) = 20 \]
+\[ (6 \cdot 4) = 24 \]
+\[ (1 \cdot 3) = 3 \]
+\[ (3 \cdot 2) = 6 \]
+\[ (6 \cdot 1) = 6 \]
+
+Sumem els resultats:
+
+\[ 42 + 20 + 24 + 3 + 6 + 6 = 101 \]
+
+Ara, 746136 és el resultat de sumar 101 amb L:
+
+\[ 101 + L = 746136 \]
+
+Per tant, hem de trobar quin és el valor de L que fa que la suma sigui 746136.
+
+\[ L = 746136 - 101 \]
+\[ L = 746035 \]
+
+La resposta correcta és aquella que correspon al valor de L:
+
+Raonament: El procés de càlcul mostra que el valor de L és 746035. De les opcions donades, la que més s'acosta a aquest valor és 6, ja que la resta de les opcions no concorden amb el resultat.
+
+Resposta: C).

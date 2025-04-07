@@ -1,0 +1,20 @@
+Razonamiento:
+1. **Identificar la diferencia de edad:** Luis tiene 61 años y Carmen 59, una diferencia de 2 años.
+2. **Edad de Carmen cuando fue primo:** La primera vez fue cuando Carmen tenía 3 años y Luis 5.
+3. **Encontrar edades primas simultáneas:**  Debemos determinar cuántas veces, después de la primera vez (Carmen 3, Luis 5), sus edades son números primos al mismo tiempo. Como la diferencia de edad es 2, para que ambos sean primos, uno de los números debe ser 3 (único primo par) o las edades deben ser números primos.
+4. **Listar edades primas de Carmen y Luis (considerando Luis 2 años mayor):**
+    *   Carmen: 3, 5, 11, 17, 29, 41, 47, 59
+    *   Luis: 5, 7, 13, 19, 31, 43, 49, 61
+5. **Encontrar las veces en las que ambos son primos simultáneamente (contando 3 y 5):**
+    *   Carmen 3, Luis 5 (primera vez)
+    *   Carmen 5, Luis 7
+    *   Carmen 11, Luis 13
+    *   Carmen 17, Luis 19
+    *   Carmen 29, Luis 31
+    *   Carmen 41, Luis 43
+    *   Carmen 59, Luis 61 (actualmente)
+    *   Excluímos el 47 y 49 ya que 49 no es primo.
+    *  Contamos un total de 7 veces
+6. **Sumar las ocasiones mencionadas:** La pregunta especifica contar la primera vez que ocurrió (Carmen 3) y las veces en las que, a partir de ese momento, ambos tienen edades primas. En total, desde que Carmen tiene 3 años, ha ocurrido 7 veces.
+
+Respuesta: B)

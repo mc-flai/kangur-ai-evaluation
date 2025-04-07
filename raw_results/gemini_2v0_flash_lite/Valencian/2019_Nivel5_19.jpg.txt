@@ -1,0 +1,7 @@
+Raonament:
+La pregunta ens diu que tenim 60 pomes i 60 peres per a distribuir en caixes. A més, cada caixa ha de contenir el mateix nombre de pomes, però cap caixa pot tenir el mateix nombre de peres.  Això vol dir que el nombre de caixes està limitat pel nombre de peres que podem posar en cada caixa, de manera que cada caixa ha de tenir un nombre diferent de peres, i hem d'utilitzar totes les peres.  Per tant, el nombre de caixes que podem utilitzar és igual al nombre de peres que podem posar en la caixa que en té més. En aquest cas, el nombre de peres per a distribuir és de 60, i la suma de nombres naturals fins a un cert nombre, n, ha de ser menor o igual a 60. Aquesta suma és n(n+1)/2.
+Si n = 10, la suma és 10(11)/2 = 55, que és menor que 60.
+Si n = 11, la suma és 11(12)/2 = 66, que és major que 60.
+Per tant, el nombre més gran de caixes possibles és 10. Així tindrem 10 caixes, i en cada caixa hi haurà el mateix nombre de pomes (60 pomes / 10 caixes = 6 pomes per caixa).  Les peres es distribuiran en les 10 caixes de manera que cada caixa tingui un nombre de peres diferent: 1+2+3+4+5+6+7+8+9+10 = 55 peres.  Ens sobren 5 peres que es poden distribuir en les caixes, augmentant en una el nombre de peres de les primeres 5 caixes, per exemple.
+
+Resposta: D)

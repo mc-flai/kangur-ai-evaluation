@@ -1,0 +1,13 @@
+
+Reasoning:
+1. Let's denote the total number of marbles as M.
+2. When Lea places the marbles in groups of three, two marbles are left over. This means M % 3 = 2.
+3. When Lea places the marbles in groups of five, two marbles are left over. This means M % 5 = 2.
+4. We need to find the smallest number M such that both conditions are satisfied.
+5. The smallest number that leaves a remainder of 2 when divided by both 3 and 5 is 22 (since 22 % 3 = 2 and 22 % 5 = 2).
+6. To find out how many more marbles Lea needs to have both groups of three and groups of five without any marbles left over, we need to find the smallest number greater than 22 that is divisible by both 3 and 5.
+7. The least common multiple (LCM) of 3 and 5 is 15.
+8. The next multiple of 15 after 22 is 30.
+9. Therefore, Lea needs 30 - 22 = 8 more marbles to have groups of three and five without any marbles left over.
+
+Answer: D)

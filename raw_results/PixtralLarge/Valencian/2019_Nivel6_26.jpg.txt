@@ -1,0 +1,33 @@
+Per determinar quants nombres enters \( n \) tenen la propietat que \( |n^2 - 2n - 3| \) és un nombre primer, hem de descompondre l'expressió i analitzar els valors possibles.
+
+**Raonament**:
+
+1. Primer, calculem l'expressió \( |n^2 - 2n - 3| \).
+2. \( n^2 - 2n - 3 \) es pot reescriure com \( (n-1)^2 - 4 \).
+3. Perquè \( |(n-1)^2 - 4| \) sigui un nombre primer, hem de considerar els casos següents:
+   - Quan \( (n-1)^2 - 4 \) és positiu.
+   - Quan \( (n-1)^2 - 4 \) és negatiu (i per tant necessitem el valor absolut).
+
+4. Analitzem el primer cas:
+   - \( (n-1)^2 - 4 \) és positiu quan \( (n-1)^2 > 4 \), és a dir, \( n-1 > 2 \) o \( n-1 < -2 \), que significa \( n > 3 \) o \( n < -1 \).
+   - \( (n-1)^2 - 4 \) és positiu per \( n \geq 4 \) o \( n \leq -2 \).
+
+5. Analitzem el segon cas:
+   - \( (n-1)^2 - 4 \) és negatiu quan \( -2 \leq n-1 \leq 2 \), que significa \( -1 \leq n \leq 3 \).
+
+6. Per cada valor de \( n \) en el rang \( -1 \leq n \leq 3 \), calculem \( |n^2 - 2n - 3| \):
+   - \( n = -1 \): \( |(-1)^2 - 2(-1) - 3| = |1 + 2 - 3| = |0| = 0 \) (no és primer).
+   - \( n = 0 \): \( |0^2 - 2(0) - 3| = |-3| = 3 \) (és primer).
+   - \( n = 1 \): \( |1^2 - 2(1) - 3| = |1 - 2 - 3| = |-4| = 4 \) (no és primer).
+   - \( n = 2 \): \( |2^2 - 2(2) - 3| = |4 - 4 - 3| = |-3| = 3 \) (és primer).
+   - \( n = 3 \): \( |3^2 - 2(3) - 3| = |9 - 6 - 3| = |0| = 0 \) (no és primer).
+
+7. Per \( n \geq 4 \) o \( n \leq -2 \), l'expressió \( (n-1)^2 - 4 \) és positiva i hem de verificar si és un nombre primer.
+   - Per \( n = 4 \): \( |4^2 - 2(4) - 3| = |16 - 8 - 3| = |5| = 5 \) (és primer).
+   - Per \( n = -2 \): \( |(-2)^2 - 2(-2) - 3| = |4 + 4 - 3| = |5| = 5 \) (és primer).
+
+8. Podem veure que els valors de \( n \) que satisfan la condició són \( n = 0, 2, 4, -2 \).
+
+Com que hi ha diversos valors de \( n \) que satisfan la condició, la resposta és:
+
+**Resposta**: E) Infinites.

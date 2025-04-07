@@ -1,0 +1,24 @@
+La pregunta 6 involucra una imagen que es esencialmente un mosaico en forma de cuadrado con cuatro círculos en la matriz de áreas. Hay una región central de color negro, \( N \), y una región lateral de color gris, \( G \). Se nos pide calcular la relación entre el área negra y el área gris.
+
+Para resolver esto, necesitamos entender las áreas involucradas:
+- El área total del cuadrado es \( N + G \).
+- El área de cada círculo es \( \pi r^2 \), donde \( r \) es el radio del círculo.
+
+Dado que hay cuatro círculos, el área total de los círculos es \( 4 \pi r^2 \).
+
+La imagen muestra que el área negra \( N \) es el área central ocupada por los cuatro círculos. Por lo tanto, \( N = 4 \pi r^2 \).
+
+La región gris \( G \) es el área lateral, que es el área total del cuadrado menos el área negra. Por lo tanto, \( G = N + G - N = G \).
+
+La relación entre el área negra y el área gris se puede expresar como:
+\[ \frac{N}{G} \]
+
+Dado que \( N = 4 \pi r^2 \) y \( G \) es el área lateral, la relación es:
+\[ \frac{4 \pi r^2}{G} \]
+
+La opción correcta es:
+\[ \frac{1}{\pi} \]
+
+Raonament: La imagen muestra que el área negra \( N \) es el área ocupada por los cuatro círculos, y el área gris \( G \) es el área lateral. La relación entre estas áreas es \( \frac{N}{G} \), que se simplifica a \( \frac{4 \pi r^2}{G} \), resultando en \( \frac{1}{\pi} \).
+
+Resposta: E)

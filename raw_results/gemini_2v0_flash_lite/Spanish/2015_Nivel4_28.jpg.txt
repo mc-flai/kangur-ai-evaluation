@@ -1,0 +1,28 @@
+Razonamiento:
+Let 'x' be the mass of silver and 'y' be the mass of copper in the initial alloy.
+From the problem, we know that x = y + 400.
+After adding 100g of silver and 100g of copper, the proportion of silver is 90% of the initial proportion.
+The initial proportion of silver is x / (x + y).
+After adding silver and copper, the mass of silver becomes x + 100, and the mass of copper becomes y + 100. The total mass becomes x + y + 200.
+The new proportion of silver is (x + 100) / (x + y + 200).
+The problem states that the new proportion is 90% of the initial proportion.
+Therefore, (x + 100) / (x + y + 200) = 0.9 * [x / (x + y)].
+Since x = y + 400, we have y = x - 400.
+Substitute y = x - 400 into the proportion equation:
+(x + 100) / (x + x - 400 + 200) = 0.9 * [x / (x + x - 400)]
+(x + 100) / (2x - 200) = 0.9 * [x / (2x - 400)]
+(x + 100) / (2x - 200) = 0.9x / (2x - 400)
+Cross-multiply:
+(x + 100) * (2x - 400) = 0.9x * (2x - 200)
+2x^2 - 400x + 200x - 40000 = 1.8x^2 - 180x
+2x^2 - 200x - 40000 = 1.8x^2 - 180x
+0.2x^2 - 20x - 40000 = 0
+Multiply by 5:
+x^2 - 100x - 200000 = 0
+Using the quadratic formula: x = (-b ± sqrt(b^2 - 4ac)) / 2a
+x = (100 ± sqrt(10000 + 800000)) / 2
+x = (100 ± sqrt(810000)) / 2
+x = (100 ± 900) / 2
+Since mass can't be negative, we have x = (100 + 900) / 2 = 1000 / 2 = 500g
+
+Respuesta: D)

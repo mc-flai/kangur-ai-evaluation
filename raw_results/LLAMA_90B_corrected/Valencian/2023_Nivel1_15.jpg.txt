@@ -1,0 +1,15 @@
+*   **Raonament**:
+    *   L'anterior problema es pot reescriure matemàticament com
+
+    a·b·c ≈ k
+
+    on k = 4800 .
+    *   De la descomposició factorial de k recallem que 4800 = 2^6 \* 3^1 \* 5^2 i de les dades que tenim, 4 = 2^2; 5 = 5^1; 6 = 2^1 \* 3^1; 7 = 7^1.
+    *   Per aconseguir que a\*b\*c siga el màxim possible es pot veure que com més practibles facis a, b i c, la solució que es tindrà també serà més practicable i per tant més propera a K.
+    *   Es pot observar que per aconseguir tants 2's com siga possible, multiplica 6 per 4, obtenim (6 \* 4) amb la idea de no apartar de subjecció aquestes unitats, deixantitary assignando com aquests la multiplicació de 7, ja que no conté facteur de 2, per tant obtenim 
+
+    a \* b \* c = (6 \cdot 4) \cdot 7 
+
+    Recordeu que si el producte d'una successió és el mateix, somos lliures de reorganitzar el producte, eventualment.
+    *   Per tant, multiplicant tot el que tenim, ens queda 168 que és molt menys aproximat a k de totes les opcions donades en el pregunta.
+*   **Resposta**: No Answer

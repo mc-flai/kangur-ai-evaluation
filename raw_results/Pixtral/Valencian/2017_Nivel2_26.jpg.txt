@@ -1,0 +1,35 @@
+**Pregunta:** Hem d'omplir la graella adient amb un nom enter positiu en cadascuna de les cèl·lules de manera que la suma dels nombres de tres cèl·lules veïnes qualssevol, (en horitzontal, en qualssevol fila, o bé en vertical, en qualssevol columna), sigui sempre igual a 12. Quina és la suma de tots els nombres de la segona fila, si hem de respectar els nombres que ja tenen posats?
+
+A) 35
+B) 36
+C) 30
+D) 40
+E) No es pot saber noms amb els noms ja posats.
+
+**Racionalització:**
+1. Observa els nombres ja posats a la graella:
+   - Primera fila: 5, 1
+   - Segona fila: 6, 2
+
+2. Cal trobar un nombre per a la tercera cèl·lula de la primera fila que, sumat als seus veïns (5 i 1), doni 12.
+   - 5 + 1 + x = 12
+   - x = 12 - 6 = 6
+   - Per tant, la tercera cèl·lula de la primera fila ha de ser 6.
+
+3. Ara, la graella completa és:
+   - Primera fila: 5, 1, 6
+   - Segona fila: 6, 2, _
+
+4. Cal trobar un nombre per a la tercera cèl·lula de la segona fila que, sumat als seus veïns (6 i 2), doni 12.
+   - 6 + 2 + x = 12
+   - x = 12 - 8 = 4
+   - Per tant, la tercera cèl·lula de la segona fila ha de ser 4.
+
+5. Ara, la graella completa és:
+   - Primera fila: 5, 1, 6
+   - Segona fila: 6, 2, 4
+
+6. La suma dels nombres de la segona fila és:
+   - 6 + 2 + 4 = 12
+
+**Resposta:** C)

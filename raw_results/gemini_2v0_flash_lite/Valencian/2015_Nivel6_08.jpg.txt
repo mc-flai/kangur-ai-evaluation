@@ -1,0 +1,25 @@
+Raonament:
+El nombre A consisteix en 2015 uns. Quan es multiplica A per 2015, es crea un nou nombre. La pregunta demana la suma de les xifres d'aquest nou nombre.
+Podem simplificar aquest problema:
+Si A = 11, i es multiplica per 2, el resultat és 22. La suma de les xifres és 4.
+Si A = 111, i es multiplica per 3, el resultat és 333. La suma de les xifres és 9.
+Si A = 1111, i es multiplica per 4, el resultat és 4444. La suma de les xifres és 16.
+Podem deduir que el nombre format per 2015 uns, multiplicat per 2015 tindrà una suma de xifres, propera a 2015^2.
+Calculem algunes multiplicacions més:
+11 * 2 = 22. Suma = 4 = 2 * 2
+111 * 3 = 333. Suma = 9 = 3 * 3
+1111 * 4 = 4444. Suma = 16 = 4 * 4
+Per tant, el resultat serà, aproximadament, 2015 * (2015/1) = 4060225. La suma de les xifres serà prop de 2+0+1+5+0+0+0+0 = 8, però pot ser diferent.
+Podem deduir que el nombre és format per 2015 dígits 1. Així, el nombre és A = 1111...111 (2015 uns).
+Quan A es multiplica per 2015, el resultat és: A * 2015.
+Ara, considerem el cas més senzill:
+Si tenim 1 * 2 = 2 (suma de les xifres = 2)
+Si tenim 11 * 2 = 22 (suma de les xifres = 4)
+Si tenim 111 * 3 = 333 (suma de les xifres = 9)
+Si tenim 1111 * 4 = 4444 (suma de les xifres = 16)
+Si tenim 11111 * 5 = 55555 (suma de les xifres = 25)
+Sembla que la suma de les xifres és sempre el nombre que multiplica per si mateix. Per tant 2015 * 2015 tindrà una suma de xifres que correspon al valor de 2015 * (xifra). La suma de xifres ha de ser propera a un valor de l'ordre de 16000.
+La multiplicació de 1111...11 (2015 uns) per 2015 donarà un nombre la suma de les xifres del qual és 16000.
+Per tant, hem de seleccionar la opció que estigui més propera a 16000.
+
+Resposta: A)

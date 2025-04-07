@@ -1,0 +1,810 @@
+Raonament:
+Siguin $a, b, c, d, e, f$ les posicions dels punts $A, B, C, D, E, F$ respectivament.
+Sabem que $a < b < c < d < e < f$.
+Ens donen $AD = CF$, que significa $d - a = f - c$.
+També ens donen $BD = DF$, que significa $d - b = f - d$.
+Volem veure quina de les opcions és conseqüència d'aquests fets.
+A) $AB = BC$ equival a $b - a = c - b$, que és $2b = a + c$.
+B) $BC = DE$ equival a $c - b = e - d$.
+C) $BD = EF$ equival a $d - b = f - e$.
+D) $AB = CD$ equival a $b - a = d - c$.
+E) $CD = EF$ equival a $d - c = f - e$.
+
+De $d - a = f - c$, tenim $d + c = f + a$.
+De $d - b = f - d$, tenim $2d = f + b$.
+Llavors $f = 2d - b$.
+Substituint a la primera equació, $d + c = 2d - b + a$, d'on $c = d - b + a$.
+Així, $c - b = d - 2b + a$ i $b - a = d - c$.
+Ara analitzem l'opció B): $c - b = e - d$. Això implica $d - 2b + a = e - d$, d'on $2d - 2b + a = e$. No tenim prou informació per a saber si això és cert.
+
+Per a analitzar l'opció E), usem que $f = 2d - b$ i $c = d - b + a$.
+Llavors $d - c = d - (d - b + a) = b - a$.
+I $f - e = 2d - b - e$. Per tant, la condició seria $b - a = 2d - b - e$, d'on $2b - a = 2d - e$.
+
+Analitzem l'opció A): Volem veure si $b - a = c - b$, és a dir, si $2b = a + c$.
+Substituint $c = d - b + a$, tenim $2b = a + d - b + a$, que és $3b = 2a + d$.
+De $2d = f + b$, tenim $d = (f + b)/2$. Llavors $3b = 2a + (f + b)/2$, d'on $6b = 4a + f + b$, així $5b = 4a + f$.
+Analitzem l'opció B): $BC = DE$, que és $c - b = e - d$. Però $c = d - b + a$, així $d - b + a - b = e - d$. És a dir, $d - 2b + a = e - d$, que dona $2d - 2b + a = e$.
+
+Analitzem l'opció E): $CD = EF$, és a dir, $d - c = f - e$. Però $c = d - b + a$, així $d - (d - b + a) = f - e$, que és $b - a = f - e$.
+De $d - b = f - d$, tenim $f = 2d - b$. Així $b - a = 2d - b - e$, que és $2b - a = 2d - e$.
+Analitzem amb $AD = CF$ i $BD = DF$, llavors $D$ és el punt mig entre $B$ i $F$, i $D$ és la mitjana entre $A$ i $C$ amb $CF$.
+$AD = AB + BC + CD$
+$CF = CD + DE + EF$
+$AB + BC = DE + EF$
+$BD = BC + CD$
+$DF = DE + EF$
+$BC + CD = DE + EF$
+Si $BC = DE$, llavors $CD = EF$.
+
+Raonament:
+$AD=CF \rightarrow AB+BC+CD = CD+DE+EF \rightarrow AB+BC=DE+EF$
+$BD=DF \rightarrow BC+CD = DE+EF$
+Així, $AB+BC = BC+CD$, així $AB = CD$.
+
+Resposta: D)
+Raonament:
+$AD = CF \implies AB+BC+CD = CD+DE+EF \implies AB+BC = DE+EF$
+$BD = DF \implies BC+CD = DE+EF$
+$AB+BC=BC+CD$
+$AB=CD$
+
+Resposta: D)
+Raonament:
+AD = CF => d - a = f - c  (1)
+BD = DF => d - b = f - d => 2d = f + b (2)
+L'opció D és AB = CD <=> b - a = d - c <=> b + c = a + d
+
+De (1):  f = d - a + c.
+Substituint a (2): 2d = d - a + c + b => d = b + c - a => b + c = a + d
+Llavors,  AB = CD
+
+Resposta: D)
+Raonament:
+Sigui la recta un eix numèric, A=0, B=x, C=y, D=z, E=u, F=v.
+AD = CF => z - 0 = v - y
+BD = DF => z - x = v - z => 2z = x + v
+AB = CD => x = z - y. No és cert.
+BC = DE => y - x = u - z. No és cert.
+BD = EF => z - x = v - u. No és cert.
+AB = CD => x = z - y => y + x = z
+CD = EF => z - y = v - u
+v = z + y - u
+z = v - y
+
+Resposta: D)
+Raonament:
+AD = CF  => AB + BC + CD = CD + DE + EF => AB+BC=DE+EF
+BD=DF  => BC+CD=DE+EF
+=> AB+BC=BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+=> AB+BC = BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF
+=> AB+BC+CD = CD+DE+EF
+=> AB+BC = DE+EF
+BD=DF
+=> BC+CD=DE+EF
+
+Per tant, AB+BC = BC+CD
+AB=CD
+
+Resposta: D)
+Raonament: AD=CF --> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+BD=DF --> BC+CD = DE+EF
+AB+BC = BC+CD --> AB=CD
+
+Resposta: D)
+Raonament:
+$AD = CF  => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF$
+$BD = DF  => BC+CD = DE+EF$
+Implica que: $AB+BC=BC+CD$, llavors $AB=CD$
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD = CD+DE+EF => AB+BC=DE+EF
+BD=DF => BC+CD = DE+EF
+
+Per tant AB+BC = BC+CD  => AB = CD.
+
+Resposta: D)
+Raonament:
+AD = CF --> AB + BC + CD = CD + DE + EF --> AB + BC = DE + EF
+BD = DF --> BC + CD = DE + EF
+
+Entonces: AB + BC = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  -> AB+BC+CD = CD+DE+EF -> AB+BC=DE+EF
+BD = DF  -> BC+CD = DE+EF
+
+===> AB+BC = BC+CD
+===> AB=CD
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD = CD+DE+EF => AB+BC=DE+EF
+BD=DF => BC+CD = DE+EF
+AB+BC=BC+CD => AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD=CD+DE+EF  =>  AB+BC=DE+EF
+BD = DF => BC+CD=DE+EF
+AB+BC = BC+CD
+AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF ==> AB + BC + CD = CD + DE + EF ==> AB + BC = DE + EF
+BD = DF ==> BC + CD = DE + EF
+AB + BC = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF --> AB + BC + CD = CD + DE + EF  --> AB + BC = DE + EF
+
+BD = DF --> BC + CD = DE + EF
+
+Hence AB + BC = BC + CD --> AB = CD
+
+Resposta: D)
+Raonament:
+Si AD = CF entonces AB+BC+CD = CD+DE+EF por lo tanto AB+BC=DE+EF.
+Si BD = DF entonces BC+CD=DE+EF.
+Por lo tanto AB+BC = BC+CD.
+Restando BC en ambos lados queda AB=CD
+
+Resposta: D)
+Raonament:
+$AD = CF  => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF$
+$BD = DF  => BC+CD = DE+EF$
+Therefore, $AB+BC=BC+CD$, and therefore $AB=CD$.
+
+Resposta: D)
+Raonament:
+AD=CF --> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+BD=DF --> BC+CD = DE+EF
+--> AB+BC = BC+CD
+--> AB = CD
+
+Resposta: D)
+Raonament:
+Siguin A,B,C,D,E,F els punts a la recta amb posicions a, b, c, d, e, f respectivament.
+AD = CF -> d-a = f-c
+BD = DF -> d-b = f-d
+
+Sumem les dues equacions:
+d-a + d-b = f-c + f-d
+2d - a - b = 2f - c - d
+3d + c = 2f + a + b
+A=0,
+D=z
+A=AB+BC+CD=AB+BC+CD=CF+DE+EF
+AD=CF, BC+CD=DE+EF
+z=x+v
+d-a=f-c
+d-b=f-d
+d-a+c = f
+
+AB=CD -> b-a=d-c --> b=d-c
+a=0
+d-b=f-d
+2d=f+b
+
+Resposta: D)
+Raonament:
+Dado que AD = CF --> AB+BC+CD = DE+EF+CD --> AB+BC = DE+EF
+Dado que BD = DF --> BC+CD=DE+EF
+Por lo tanto: AB+BC = BC+CD --> AB = CD
+
+Resposta: D)
+Raonament:
+Tenemos que AD = CF y BD = DF. Por lo tanto:
+AD = CF => AB + BC + CD = DE + EF + CD => AB + BC = DE + EF
+BD = DF => BC + CD = DE + EF
+Igualando AB + BC = BC + CD => AB = CD.
+
+Respuesta: D)
+Raonament:
+$AD = CF \implies AB+BC+CD = CD+DE+EF \implies AB+BC = DE+EF$
+$BD = DF \implies BC+CD = DE+EF$
+$AB+BC=BC+CD$
+$AB=CD$
+
+Resposta: D)
+Raonament:
+AD=CF => AB + BC + CD = CD + DE + EF => AB + BC = DE + EF
+BD = DF => BC + CD = DE + EF
+=> AB + BC = BC + CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF -> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+BD = DF -> BC+CD = DE+EF
+Therefore, AB+BC = BC+CD; and AB = CD.
+
+Resposta: D)
+Raonament:
+AD = CF  => AB + BC + CD = CD + DE + EF  => AB + BC = DE + EF
+BD = DF  => BC + CD = DE + EF
+
+AB + BC = BC + CD  => AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF --> AB + BC + CD = CD + DE + EF  => AB + BC = DE + EF
+BD = DF --> BC + CD = DE + EF
+
+Por lo tanto AB + BC = BC + CD --> AB = CD
+
+Respuesta: D)
+Raonament:
+
+AD=CF => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF
+BD=DF => BC+CD = DE+EF
+
+AB+BC = BC+CD
+AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF  => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD = DF  => BC+CD = DE+EF
+De lo anterior => AB + BC = BC + CD => AB = CD
+
+Respuesta: D)
+Raonament:
+AD = CF, por lo tanto AB + BC + CD = CD + DE + EF, por lo tanto AB + BC = DE + EF
+BD = DF, por lo tanto BC + CD = DE + EF
+Por transitividad AB + BC = BC + CD
+Restamos BC a ambos lados de la igualdad y obtenemos AB = CD
+
+Resposta: D)
+Raonament:
+
+Si AD=CF, entonces AB+BC+CD = CD+DE+EF, simplificando AB+BC = DE+EF (1)
+Si BD=DF, entonces BC+CD = DE+EF (2)
+
+Igualando (1) y (2): AB+BC = BC+CD
+Restando BC: AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF, entonces AB+BC+CD = CD+DE+EF, por tanto AB+BC=DE+EF
+BD = DF, entonces BC+CD = DE+EF, por tanto BC+CD= AB+BC
+Por lo tanto CD= AB
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD=DE+EF+CD => AB+BC = DE+EF
+BD=DF => BC+CD=DE+EF
+Entonces, AB+BC = BC+CD
+Así, AB=CD
+
+Resposta: D)
+Raonament:
+* AD = CF   =>   AB + BC + CD = CD + DE + EF    =>   AB + BC = DE + EF
+* BD = DF    =>    BC + CD = DE + EF
+=> AB + BC = BC + CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF  entonces AB+BC+CD = CD+DE+EF  por lo tanto AB+BC=DE+EF
+BD = DF entonces BC+CD = DE+EF
+
+Por tanto AB+BC = BC+CD
+=> AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF  implica AB+BC+CD = CD+DE+EF, entonces AB+BC = DE+EF
+BD = DF implica BC+CD = DE+EF
+por lo tanto AB+BC=BC+CD
+restando BC a cada lado de la ecuación obtenemos AB = CD
+
+Resposta: D)
+Raonament:
+$AD=CF \implies AB+BC+CD=CD+DE+EF \implies AB+BC=DE+EF$
+$BD=DF \implies BC+CD=DE+EF$
+
+Then $AB+BC = BC+CD$
+$AB = CD$
+
+Resposta: D)
+Raonament:
+AD=CF  => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD=DF  => BC+CD = DE+EF
+=> AB+BC = BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF --> AB+BC+CD = CD + DE + EF --> AB + BC = DE + EF
+BD = DF --> BC+CD = DE + EF
+AB + BC = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD=CD+DE+EF -> AB+BC=DE+EF
+BD=DF -> BC+CD=DE+EF
+Por lo tanto, AB+BC=BC+CD y AB=CD.
+
+Resposta: D)
+Raonament:
+AD=CF entonces AB+BC+CD=CD+DE+EF entonces AB+BC=DE+EF
+BD=DF entonces BC+CD=DE+EF
+luego AB+BC=BC+CD simplificando AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF ⇒ AB+BC+CD = CD + DE + EF  ⇒ AB+BC = DE+EF
+
+BD = DF  ⇒ BC + CD = DE + EF
+
+Luego, AB+BC = BC+CD ⇒ AB = CD.
+
+Resposta: D)
+Raonament:
+Si AD = CF, entonces AB + BC + CD = CD + DE + EF
+Si BD = DF, entonces BC + CD = DE + EF
+Entonces AB + BC = DE + EF = BC + CD, lo que implica AB = CD
+
+Resposta: D)
+Raonament:
+Si $AD = CF$, entonces $AB + BC + CD = CD + DE + EF$.  Simplificando, $AB + BC = DE + EF$.
+
+Si $BD = DF$, entonces $BC + CD = DE + EF$.
+
+Entonces $AB + BC = BC + CD$, por lo que $AB = CD$.
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD = CD+DE+EF => AB+BC=DE+EF
+BD=DF => BC+CD = DE+EF
+AB+BC = BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+Si AD = CF entonces AB+BC+CD = DE+EF+CD de donde AB+BC = DE+EF
+Si BD = DF entonces BC+CD = DE+EF
+De lo anterior tenemos que AB+BC = BC+CD por lo tanto AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  => AB + BC + CD = CD + DE + EF  => AB + BC = DE + EF
+BD = DF  => BC + CD = DE + EF
+=>  AB + BC = BC + CD
+=>  AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF implica AB + BC + CD = DE + EF + CD implica AB + BC = DE + EF
+BD = DF implica BC + CD = DE + EF
+entonces AB+BC= BC+CD entonces AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF  implica  AB+BC+CD = CD+DE+EF  lo cual implica AB+BC = DE+EF
+BD = DF  implica BC+CD = DE+EF
+De  AB+BC = DE+EF  i BC+CD = DE+EF => AB+BC = BC+CD que implica AB=CD.
+
+Resposta: D)
+Raonament:
+
+AD = CF --> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+BD = DF --> BC+CD = DE+EF
+
+Luego AB + BC = BC + CD
+Entonces AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF --> AB + BC + CD = CD + DE + EF => AB + BC = DE + EF
+BD = DF --> BC + CD = DE + EF
+Por lo tanto: AB + BC = BC + CD
+Eliminando BC a ambos lados: AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF  =>  AB + BC + CD = CD + DE + EF  =>  AB + BC = DE + EF
+BD = DF  =>  BC + CD = DE + EF
+--> AB+BC = BC+CD
+--> AB=CD
+
+Resposta: D)
+Raonament:
+
+AD = CF  ==> AB+BC+CD = CD+DE+EF  ==> AB+BC = DE+EF
+BD = DF  ==> BC+CD = DE+EF
+
+Entonces AB+BC=BC+CD
+Por tanto AB=CD
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD=CD+DE+EF => AB+BC=DE+EF
+BD=DF => BC+CD=DE+EF
+
+Therefore, AB+BC=BC+CD, and thus AB=CD.
+
+Resposta: D)
+Raonament:
+AD = CF => AB + BC + CD = CD + DE + EF
+BD = DF => BC + CD = DE + EF
+AB + BC = DE + EF = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+Si AD = CF, entonces AB+BC+CD = CD+DE+EF, por lo tanto AB+BC = DE+EF.
+Si BD = DF, entonces BC+CD = DE+EF.
+
+Por lo tanto, AB+BC = BC+CD.
+Entonces AB = CD.
+
+Resposta: D)
+Raonament:
+AD=CF -> AB + BC + CD = CD + DE + EF -> AB + BC = DE + EF
+BD=DF -> BC + CD = DE + EF
+por transitividad: AB+BC = BC + CD -> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  => AB + BC + CD = CD + DE + EF  => AB+BC = DE+EF
+BD = DF => BC + CD = DE + EF
+
+AB + BC = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+Dado AD = CF, entonces AB+BC+CD = CD+DE+EF por lo que AB+BC = DE+EF.
+Dado BD = DF, entonces BC+CD = DE+EF
+De lo anterior AB+BC = BC+CD, entonces AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+
+=> AB+BC = BC+CD
+
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF, entonces AB+BC+CD = CD+DE+EF por lo que AB+BC = DE+EF
+BD = DF, entonces BC+CD = DE+EF.
+Por lo tanto AB+BC = BC+CD entonces AB = CD
+
+Resposta: D)
+Raonament:
+Sabem que AD = CF, llavors AB + BC + CD = CD + DE + EF, pel que AB + BC = DE + EF
+Sabem que BD = DF, llavors BC + CD = DE + EF
+AB+BC = BC+CD llavors AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+Luego AB+BC = BC+CD y cancelando BC en ambos lados AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF => AB+BC=DE+EF
+BD = DF => BC+CD = DE+EF
+Therefore, AB+BC = BC+CD; hence AB = CD
+
+Resposta: D)
+Raonament:
+$AD = CF => AB + BC + CD = CD + DE + EF => AB + BC = DE + EF$
+$BD = DF => BC + CD = DE + EF$
+
+Así, $AB + BC = BC + CD$, es decir, $AB = CD$
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+
+Therefore: AB+BC = BC+CD  => AB = CD
+
+Resposta: D)
+Raonament:
+- AD = CF  -->  AB+BC+CD = CD+DE+EF  -->  AB+BC = DE+EF
+- BD = DF  -->  BC+CD = DE+EF
+AB+BC = BC+CD  -->  AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF  => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD=DF  => BC+CD = DE+EF
+=> AB+BC = BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF -> AB+BC+CD = CD+DE+EF -> AB+BC=DE+EF
+BD = DF -> BC+CD = DE+EF
+So AB+BC = BC+CD, which gives AB = CD
+
+Resposta: D)
+Raonament:
+Sabem que AD = CF i BD = DF, llavors:
+AD = CF -> AB + BC + CD = DE + EF + CD, llavors AB + BC = DE + EF.
+BD = DF -> BC + CD = DE + EF.
+Per tant: AB + BC = BC + CD, i AB = CD.
+
+Resposta: D)
+Raonament:
+
+$AD = CF \longrightarrow AB+BC+CD=CD+DE+EF \longrightarrow AB+BC = DE+EF$
+$BD = DF \longrightarrow BC+CD = DE+EF$
+
+Entonces AB+BC = BC+CD.
+
+Por lo tanto AB = CD.
+
+Resposta: D)
+Raonament:
+AD = CF ⇔ AB + BC + CD = CD + DE + EF ⇔ AB + BC = DE + EF
+BD = DF ⇔ BC + CD = DE + EF
+Per tant, AB + BC = BC + CD ⇔ AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF, so AB + BC + CD = DE + EF + CD,  so AB + BC = DE + EF.
+BD = DF, so BC + CD = DE + EF.
+Hence AB + BC = BC + CD,  which gives AB = CD.
+
+Resposta: D)
+Raonament:
+AD = CF, entonces AB + BC + CD = CD + DE + EF
+Despejando tenemos que AB + BC = DE + EF
+También sabemos que BD = DF, entonces BC + CD = DE + EF
+Juntando ambas ecuaciones AB + BC = BC + CD
+Finalmente AB = CD
+
+Resposta: D)
+Raonament:
+Si AD = CF , AB+BC+CD = CD+DE+EF => AB+BC = DE+EF (1)
+Si BD = DF,  BC+CD = DE+EF (2)
+Usant (1) i (2): AB+BC = BC+CD --> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF -> AB + BC + CD = CD + DE + EF -> AB + BC = DE + EF
+BD = DF -> BC + CD = DE + EF
+
+==> AB + BC = BC + CD
+==> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  =>  AB+BC+CD=CD+DE+EF  =>  AB+BC=DE+EF
+BD = DF  =>  BC+CD=DE+EF
+=> AB+BC = BC+CD
+=> AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD = CD+DE+EF --> AB+BC=DE+EF
+BD=DF -> BC+CD = DE+EF
+Entonces, AB+BC=BC+CD
+AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD=DE+EF+CD -> AB+BC=DE+EF (1)
+BD=DF -> BC+CD=DE+EF (2)
+
+Usant 1 i 2
+
+AB+BC = BC+CD
+AB = CD
+
+Resposta: D)
+Raonament:
+
+AD = CF => AB+BC+CD = CD + DE+EF => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+
+So AB+BC = BC+CD
+--> AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF implica que AB+BC+CD = CD+DE+EF => AB+BC = DE+EF (i)
+BD=DF implica que BC+CD = DE+EF (ii)
+
+=> de (i) i (ii) AB+BC = BC+CD => AB = CD
+
+Resposta: D)
+Raonament:
+Sabem que $AD=CF$, per tant $AB+BC+CD = DE+EF+CD$ que implica $AB+BC = DE+EF$.
+Sabem que $BD=DF$, per tant $BC+CD=DE+EF$.
+
+Per tant, $AB+BC=BC+CD$.
+
+Finalment $AB=CD$.
+
+Resposta: D)
+Raonament:
+Sabemos que AD = CF y BD = DF
+AD = CF --> AB + BC + CD = CD + DE + EF --> AB + BC = DE + EF
+BD = DF --> BC + CD = DE + EF
+AB + BC = BC + CD --> AB = CD
+
+Respuesta: D)
+Raonament:
+$AD = CF \rightarrow AB+BC+CD = CD+DE+EF \rightarrow AB+BC = DE+EF$
+$BD = DF \rightarrow BC+CD = DE+EF$
+$AB + BC = BC + CD$
+$AB = CD$
+
+Resposta: D)
+Raonament:
+
+AD=CF --> AB+BC+CD = DE+EF+CD --> AB+BC = DE+EF
+
+BD=DF --> BC+CD = DE+EF
+
+AB+BC = BC+CD --> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+=> AB+BC = BC+CD => AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF  implica AB+BC+CD = CD+DE+EF 
+Implica AB+BC = DE+EF 
+BD = DF  implica BC+CD = DE+EF
+Implica AB+BC = BC+CD 
+Implica AB = CD
+
+Resposta: D)
+Raonament:
+
+AD=CF => AB+BC+CD=CD+DE+EF => AB+BC=DE+EF
+BD=DF => BC+CD=DE+EF
+
+Therefore AB+BC=BC+CD y AB=CD
+
+Resposta: D)
+Raonament:
+$AD = CF \longrightarrow AB+BC+CD = CD+DE+EF \longrightarrow AB+BC = DE+EF$
+$BD = DF \longrightarrow BC+CD = DE+EF$
+
+$AB+BC = BC+CD$
+
+$\therefore AB = CD$
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = DE+EF+CD => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+AB + BC = BC + CD
+AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD = DE+EF+CD -> AB+BC = DE+EF (1)
+BD=DF -> BC+CD = DE+EF (2)
+
+Since AB+BC = DE+EF = BC+CD, then AB=CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD=DE+EF+CD => AB+BC=DE+EF  (1)
+BD=DF -> BC+CD=DE+EF  (2)
+
+Entonces de (1) y (2):
+
+AB+BC=BC+CD
+AB=CD
+
+Resposta: D)
+Raonament:
+AD = CF  => AB+BC+CD = CD+DE+EF  => AB+BC = DE+EF
+BD = DF  => BC+CD = DE+EF
+AB+BC=BC+CD
+AB = CD
+
+Resposta: D)
+Raonament:
+*AD = CF --> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+*BD = DF --> BC+CD = DE+EF
+
+Por lo tanto, AB+BC=BC+CD => AB=CD.
+
+Resposta: D)
+Raonament:
+Given AD = CF, then AB + BC + CD = CD + DE + EF and thus AB + BC = DE + EF
+Also given BD = DF, then BC + CD = DE + EF
+So AB + BC = BC + CD, which means AB = CD
+
+Resposta: D)
+Raonament:
+* AD = CF => AB+BC+CD = DE+EF+CD  => AB+BC = DE+EF
+* BD = DF => BC+CD = DE+EF
+* AB+BC = BC+CD
+* AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF, then AB+BC+CD = CD+DE+EF, which implies AB+BC = DE+EF.
+BD=DF, then BC+CD = DE+EF.
+Therefore AB+BC = BC+CD, which means AB=CD
+
+Resposta: D)
+Raonament:
+*AD = CF --> AB+BC+CD = CD+DE+EF --> AB+BC = DE+EF
+*BD = DF --> BC+CD = DE+EF
+
+Hence, AB+BC = BC+CD
+--> AB = CD
+
+Resposta: D)
+Raonament:
+AD = CF => AB+BC+CD = CD+DE+EF => AB+BC = DE+EF
+BD = DF => BC+CD = DE+EF
+Entonces AB+BC = BC+CD
+Finalmente, AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF --> AB+BC+CD=CD+DE+EF --> AB+BC=DE+EF
+BD=DF --> BC+CD=DE+EF
+Entonces: AB+BC=BC+CD
+Simplificando: AB=CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD=CD+DE+EF => AB+BC=DE+EF
+BD=DF -> BC+CD=DE+EF
+=> AB+BC = BC+CD
+=> AB=CD
+
+Resposta: D)
+Raonament:
+AD=CF -> AB+BC+CD = CD+DE+EF, therefore AB+BC = DE+EF.
+BD=DF -> BC+CD = DE+EF.
+Therefore, AB+BC=BC+CD or AB=CD
+
+Resposta: D)
+Raonament:
+Since AD = CF then AB + BC + CD = CD + DE + EF therefore AB + BC = DE + EF
+Since BD = DF then BC + CD = DE + EF
+Then AB + BC = BC + CD so AB = CD
+
+Resposta: D)
+Raonament:
+AD=CF => AB+BC+CD=DE+EF+CD => AB+BC=DE+EF
+BD=DF => BC+CD=DE+EF
+
+Therefore, AB+BC=BC+CD => AB=CD
+

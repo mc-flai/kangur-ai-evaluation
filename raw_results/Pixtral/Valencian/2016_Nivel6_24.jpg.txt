@@ -1,0 +1,39 @@
+
+La pregunta solicita el valor del número dado por \( n \) si \( \frac{1}{n} + \frac{2}{n-1} + \frac{3}{n-2} + \ldots + \frac{n-1}{2} + \frac{n}{1} = 11.15 \).
+
+Para resolver esto, debemos simplificar la expresión y encontrar el valor de \( n \) que satisfaga la igualdad.
+
+### Razonamiento:
+
+1. **Identificar el patrón de la serie**:
+   La serie dada es una progresión donde cada término es una fracción con el numerador incrementando y el denominador decrementando.
+
+2. **Simplificar la serie**:
+   Podemos observar que cada término puede ser reescrito como:
+   \[
+   \frac{n}{1} = n, \quad \frac{n-1}{2} = \frac{n-1}{2}, \quad \frac{n-2}{3} = \frac{n-2}{3}, \quad \ldots, \quad \frac{1}{n}
+   \]
+
+3. **Sumar los términos**:
+   La suma de estos términos es:
+   \[
+   n + \frac{n-1}{2} + \frac{n-2}{3} + \ldots + \frac{1}{n}
+   \]
+
+4. **Evaluar la suma**:
+   Para encontrar el valor de \( n \) que satisface la igualdad \( 11.15 \), debemos probar diferentes valores de \( n \) hasta encontrar el correcto.
+
+   - Para \( n = 5 \):
+     \[
+     5 + \frac{4}{2} + \frac{3}{3} + \frac{2}{4} + \frac{1}{5} = 5 + 2 + 1 + 0.5 + 0.2 = 8.7
+     \]
+     Esto no satisface la igualdad.
+
+   - Para \( n = 6 \):
+     \[
+     6 + \frac{5}{2} + \frac{4}{3} + \frac{3}{4} + \frac{2}{5} + \frac{1}{6} = 6 + 2.5 + 1.33 + 0.75 + 0.4 + 0.1667 \approx 11.15
+     \]
+     Esto satisface la igualdad.
+
+### Respuesta:
+B)

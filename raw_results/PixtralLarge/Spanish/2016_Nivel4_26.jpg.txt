@@ -1,0 +1,35 @@
+Para resolver la pregunta 26, debemos determinar cuáles son los números naturales \( N \) tales que la suma de sus cifras y la suma de las cifras de \( N^2 \) den el mismo resultado.
+
+Primero, consideremos un número natural \( N \) y su cuadrado \( N^2 \).
+
+Vamos a analizar el ejemplo mostrado en el número de la recta numérica proporcionada:
+
+1. El valor de \( x \) en la recta numérica es 14 (ya que 174 - 14 = 160 y 160 es múltiplo de 10).
+2. \( x^2 = 14^2 = 196 \).
+
+Ahora, sumemos las cifras de \( x \) y \( x^2 \):
+
+- Cifras de \( x = 14 \): \( 1 + 4 = 5 \).
+- Cifras de \( x^2 = 196 \): \( 1 + 9 + 6 = 16 \).
+
+Claramente, \( 5 \neq 16 \), así que 14 no es el valor correcto.
+
+Analicemos las opciones dadas:
+
+A) 98  
+B) 99  
+C) 100  
+D) 101  
+E) 102
+
+Vamos a probar una de estas opciones. Probemos con 99:
+
+- Cifras de \( 99 \): \( 9 + 9 = 18 \).
+- \( 99^2 = 9801 \).
+- Cifras de \( 9801 \): \( 9 + 8 + 0 + 1 = 18 \).
+
+Aquí, las sumas son iguales (18).
+
+Razonamiento: Al calcular las sumas de las cifras de 99 y de \( 99^2 \), ambos resultados son iguales (18).
+
+Respuesta: B).

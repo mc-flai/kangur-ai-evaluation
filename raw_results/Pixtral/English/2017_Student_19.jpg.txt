@@ -1,0 +1,52 @@
+### Reasoning:
+
+1. **Understanding the Problem**:
+   - We are given a convex quadrilateral \(ABCD\) where the diagonals are perpendicular to each other.
+   - The lengths of the edges are \(AB = 2017\), \(BC = 2018\), and \(CD = 2019\).
+
+2. **Using the Pythagorean Theorem**:
+   - Since the diagonals are perpendicular, \(ABCD\) can be divided into two right-angled triangles by the diagonals.
+   - Let's denote the intersection of the diagonals as \(O\).
+   - In triangle \(AOB\), we have \(AO^2 + BO^2 = AB^2\).
+   - In triangle \(BOC\), we have \(BO^2 + CO^2 = BC^2\).
+   - In triangle \(COD\), we have \(CO^2 + DO^2 = CD^2\).
+
+3. **Calculating \(BO^2\) and \(CO^2\)**:
+   - From triangle \(AOB\), \(BO^2 = AB^2 - AO^2\).
+   - From triangle \(BOC\), \(BO^2 = BC^2 - CO^2\).
+   - Equating the two expressions for \(BO^2\), we get:
+     \[
+     AB^2 - AO^2 = BC^2 - CO^2
+     \]
+   - Rearranging, we find:
+     \[
+     AO^2 - CO^2 = BC^2 - AB^2
+     \]
+   - Factoring the left side as a difference of squares:
+     \[
+     (AO + CO)(AO - CO) = BC^2 - AB^2
+     \]
+
+4. **Solving for \(AO + CO\) and \(AO - CO\)**:
+   - Similarly, from triangle \(BOC\) and \(COD\):
+     \[
+     (BO + DO)(BO - DO) = CD^2 - BC^2
+     \]
+   - Rearranging and solving these equations will give us the lengths \(AO\), \(BO\), \(CO\), and \(DO\).
+
+5. **Finding \(AD\)**:
+   - \(AD\) is the hypotenuse of right-angled triangle \(AOD\):
+     \[
+     AD^2 = AO^2 + DO^2
+     \]
+   - Substituting the values and solving for \(AD\).
+
+### Answer:
+   - After performing the calculations, we find that the length of \(AD\) is:
+     \[
+     \sqrt{2020^2 - 4}
+     \]
+   - Therefore, the correct answer is:
+     \[
+     \text{Answer: C}
+     \]

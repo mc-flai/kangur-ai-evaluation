@@ -1,0 +1,20 @@
+**Razonamiento:**
+1. La pregunta solicita el número de nombres que entran positivamente en los meses en los que 2015 tiene divisibles por 2, 3 y 5.
+2. Para determinar los meses en los que 2015 tiene divisibles por 2, 3 y 5, debemos identificar los meses en los que el año 2015 es divisible por 30 (2 * 3 * 5).
+3. El año 2015 es divisible por 30 en los meses de abril, julio, octubre y enero.
+4. Contamos los días de estos meses:
+   - Abril: 30 días
+   - Julio: 31 días
+   - Octubre: 31 días
+   - Enero: 31 días
+5. Sumamos los días de estos meses:
+   - 30 (abril) + 31 (julio) + 31 (octubre) + 31 (enero) = 123 días
+6. Ahora, contamos el número de nombres que entran en estos días:
+   - Abril: 30 días → 30 nombres
+   - Julio: 31 días → 31 nombres
+   - Octubre: 31 días → 31 nombres
+   - Enero: 31 días → 31 nombres
+7. Sumamos los nombres de estos meses:
+   - 30 (abril) + 31 (julio) + 31 (octubre) + 31 (enero) = 123 nombres
+
+**Respuesta:** D)

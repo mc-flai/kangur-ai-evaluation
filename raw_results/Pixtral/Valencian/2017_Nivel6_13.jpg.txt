@@ -1,0 +1,22 @@
+**Razonamiento:**
+1. Identificamos los valores posibles para \( N \) y \( M \) dados en el problema:
+   - \( 51 \leq N \leq 101 \)
+   - \( 19 \leq M \leq 49 \)
+
+2. Calculamos el valor de la expresión \(\frac{N + M}{N - M}\) utilizando los valores extremos de \( N \) y \( M \).
+
+3. Para el valor máximo de \( N \) y el valor mínimo de \( M \):
+   - \( N = 101 \)
+   - \( M = 19 \)
+   - \(\frac{N + M}{N - M} = \frac{101 + 19}{101 - 19} = \frac{120}{82} \approx 1.46\)
+
+4. Para el valor mínimo de \( N \) y el valor máximo de \( M \):
+   - \( N = 51 \)
+   - \( M = 49 \)
+   - \(\frac{N + M}{N - M} = \frac{51 + 49}{51 - 49} = \frac{100}{2} = 50\)
+
+5. Evaluamos los valores intermedios de \( N \) y \( M \) para asegurarnos de que el valor de la expresión permanezca dentro del rango calculado.
+
+6. Dado que el valor más bajo es 1.46 y el más alto es 50, la respuesta correcta es la que cae dentro de este rango.
+
+**Respuesta:** D)

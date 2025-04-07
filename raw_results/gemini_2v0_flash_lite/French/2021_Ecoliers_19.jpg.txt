@@ -1,0 +1,14 @@
+Raisonnement : Calculons d'abord la somme des nombres du haut : 7 + 8 + 4 + 2 + 5 = 26. Calculons ensuite la somme des nombres du bas : 4 + 7 + 5 + 5 + 3 = 24. La différence est de 2. On doit trouver une carte pour inverser les nombres de telle sorte que la somme des nombres soit égale.
+
+A) Si on retourne la carte A, on a 4-7. La différence est 3. Le changement dans la somme des nombres du bas est 7-4 = 3. La différence totale des sommes sera 26 - (24+3) = -1, ce n'est pas ça.
+B) Si on retourne la carte B, on a 7-8. La différence est 1. Le changement dans la somme des nombres du bas est 7-8 = -1. La différence totale des sommes sera 26 - (24-1) = 3, ce n'est pas ça.
+C) Si on retourne la carte C, on a 5-4. La différence est 1. Le changement dans la somme des nombres du bas est 5-4 = 1. La différence totale des sommes sera 26 - (24+1) = 1, ce n'est pas ça.
+D) Si on retourne la carte D, on a 5-2. La différence est 3. Le changement dans la somme des nombres du bas est 5-2 = 3. La différence totale des sommes sera 26 - (24+3) = -1, ce n'est pas ça.
+E) Si on retourne la carte E, on a 3-5. La différence est 2. Le changement dans la somme des nombres du bas est 3-5 = -2. La différence totale des sommes sera 26 - (24-2) = 4, ce n'est pas ça.
+
+Il faut chercher à changer une carte qui va diminuer la somme du haut et augmenter la somme du bas. La carte B est la plus proche de ce but, mais la somme des deux côtés ne sera pas égal. En effet, la question est fausse, aucune carte peut faire que la somme des nombres soit la même. L'erreur est probablement la soustraction dans l'énoncé. On va changer une carte pour égaliser la somme. On peut essayer de retourner la carte A. 
+Si on retourne A, 4+8+4+2+5=23 et 7+7+5+5+3=27.
+
+Si on retourne B, 7+7+4+2+5=25 et 4+8+5+5+3=25.
+
+Réponse : B)

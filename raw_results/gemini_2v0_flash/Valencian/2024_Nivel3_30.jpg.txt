@@ -1,0 +1,41 @@
+Raonament: Siguin A_negra = 13 i A_grisa = 10.
+Els segments AB estan dividits en 5 parts iguals.
+L'àrea del rectangle negre correspon a 1/5 de l'àrea total de la figura central (un rectangle).
+L'àrea del rectangle gris correspon a 1/5 de l'àrea total de la figura central.
+Com que hi ha 5 regions d'aquest tipus, l'àrea del rectangle central és A_central = 5/1 * A_negra.
+L'àrea de la figura gris correspon a 10 cm². Com que hi ha una altra regió gris, l'àrea de l'altra regió gris hauria de ser també de 10 cm². L'àrea total de la figura central es pot deduir de la següent manera:
+Siguin A_negra = x, A_grisa = y. Llavors la proporció respecte la àrea del rectangle gran és 1/5, i A_total = 5/1 * A.
+A_negra = 13. L'àrea total del rectangle negre és 13 * 5 = 65.
+A_grisa = 10. Com que hi ha dues regions grises, les dos juntes sumen 20 cm².
+L'àrea del rectangle central no sembla que tingui molt a veure amb la àrea total.
+L'àrea de la regió negre es pot interpretar com una regió, hi ha dues regions grises, llavors la regió restant sense color és el total - 13 - 20 = total - 33.
+L'àrea dels dos costats són iguals.
+Les dues regions grises sumen 20.
+L'àrea de la regió central (negre) és 13.
+L'àrea d'un dels triangles és A_triangle = 1/2 * (5 - 2) / 2 = 3/4
+Les dues àrees laterals són A_lateral = 20 * 2 + A_quadrat.
+A_total = A_negra + 2*A_grisa + A_dos rectangles blancs.
+Si A_AB = 1, AB = 5x.
+Si l'àrea de la regió negra és 13, llavors l'àrea del rectangle negre es pot calcular de la següent manera:
+La longitud de la regió negra és h. La base és x. llavors la area és x * h = 13.
+De forma similar, l'àrea gris és x*h' = 10.
+Si l'àrea del rectangle negre fos tot igual llavors el rectangle gris seria = 10+10+13+13 = 46+20 = 66
+Com que A = B = 90, llavors la figura té 5 regions.
+Àrea total = 10+10+13 + A_rect + A_rect = 33 + A_rect * 2
+A_rect = x*h'/2. Però necessitem h'.
+Les àrees dels dos rectangles als costats grisos son iguals.
+L'àrea del pentagon sencer és de 2 * àrea dels dos rectangles a més de l'àrea del rectangle central.
+L'àrea del pentagon sencer és 10+10+13+15 = 48.
+No hi ha l'opció de 48, per tant hi ha algo mal.
+Els rectangles laterals semblen ser de longitud similar. Pot ser que siguin d'àrea similar a les regions laterals grises i la región central negra (de mida 13).
+L'àrea de la regió central és 13. Les dues regions laterals són 10+10.
+L'àrea del pentàgon sencer és 13 + 10 +10 + 12 + 13. L'àrea dels dos rectangles restants.
+La figura és simètrica per tant aquestes dues àrees laterals son iguals. Si fossin de mida similar a les anteriors (13),
+llavors 10+10+13 + 13/2 +13/2.
+50 per les dues regions blanques, que serien de valor similar als laterals.
+
+No tinc una resposta correcta.
+Considerant l'area de 58:
+58 - 13 - 10 - 10 = 25
+
+Resposta: D)

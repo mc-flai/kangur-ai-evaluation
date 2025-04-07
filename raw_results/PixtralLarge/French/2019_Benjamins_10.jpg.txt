@@ -1,0 +1,18 @@
+**Raisonnement** :
+La question demande de déterminer combien de façons différentes Laura peut colorier un carré composé de quatre petits carrés (en utilisant les couleurs de la figure ci-contre). Pour déterminer la réponse, nous devons d'abord comprendre les possibilités de coloriage.
+
+Chaque petit carré peut être colorié de trois manières différentes (en utilisant les trois couleurs disponibles). En utilisant le principe de multiplication (ou règle du produit), le nombre total de façons de colorier les quatre carrés est calculé comme suit :
+
+- Chaque petit carré a 3 possibilités de couleurs.
+- Pour 4 carrés, le nombre total de combinaisons est : 3 × 3 × 3 × 3 = 3^4 = 81.
+
+Cependant, la question ne fournit pas de choix pour 81 combinaisons. Il semble que les options proposées soient limitées, probablement en raison d'une contrainte implicite. Si nous considérons que chaque petit carré doit être d'une couleur différente (ce qui n'est pas spécifié mais pourrait être une interprétation), alors :
+
+- Le premier carré peut être colorié de 3 façons.
+- Le deuxième carré peut être colorié de 2 façons restantes.
+- Le troisième carré peut être colorié de 1 façon restante.
+- Le quatrième carré peut être colorié de 1 façon restante.
+
+Ainsi, le nombre total de combinaisons serait : 3 × 2 × 1 × 1 = 6.
+
+**Réponse** : B) 6.

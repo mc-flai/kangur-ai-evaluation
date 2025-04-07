@@ -1,0 +1,20 @@
+Pour résoudre cette question, il faut comprendre comment le grand cube est constitué à partir des petits cubes.
+
+Le gros cube a des trous traversants, ce qui signifie qu'une partie de l'intérieur du cube est vide. Le cube est de dimensions 5x5x5, donc il contient potentiellement 5*5*5 = 125 petits cubes.
+
+Pour trouver le nombre de petits cubes qui restent après avoir enlevé les trous, nous devons déterminer le nombre de petits cubes qui sont retirés pour chaque trou. 
+
+Étant donné que chaque trou est un trou traversant, il enlève une colonne de 5 petits cubes. Le cube a trois trous traversants, donc il y a un total de 3 * 5 = 15 petits cubes retirés.
+
+Par conséquent, le nombre de petits cubes restants est 125 - 15 = 110.
+
+Cependant, il faut également tenir compte du fait que trois trous traversants se croisent en un point, retirant ainsi un seul petit cube trois fois. Donc, en réalité, seuls 12 petits cubes sont enlevés (car 3 petits cubes sont retirés en triple).
+
+Enfin, le nombre de petits cubes restants est 125 - 12 = 113.
+
+Or, en regardant l'image, on peut voir que les trous traversent l'intérieur du cube sans se croiser. Ainsi, chaque trou enlève effectivement 5 petits cubes, donc:
+
+125 - 3 * 5 = 125 - 15 = 110.
+
+Raisonnement: Le gros cube a 125 petits cubes. Trois faces ont des trous traversants qui enlèvent chacun 5 petits cubes. Donc, le nombre de petits cubes restants est 125 - 15 = 110.
+Réponse : B) 80.

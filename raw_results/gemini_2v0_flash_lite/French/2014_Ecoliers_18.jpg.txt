@@ -1,0 +1,19 @@
+Raisonnement :
+1. **Compter les cases grises et noires existantes**:
+    *   Cases grises : 4 cases complètes et 2 demi-cases (équivalent à 1 case) donc un total de 5 cases grises.
+    *   Cases noires : 4 cases complètes et 2 demi-cases (équivalent à 1 case) donc un total de 5 cases noires.
+
+2. **Déterminer ce qui est nécessaire**:
+    *   Actuellement, l'aire grise est déjà égale à l'aire noire.
+    *   Pour que l'aire grise reste égale à l'aire noire avec le neuvième carreau, il faudrait ajouter une case qui n'ajoute aucune des deux couleurs à la figure.
+
+3. **Analyser les options proposées**:
+    *   A) Ajoute une case grise.
+    *   B) Ajoute une case noire.
+    *   C) Ajoute une demi case grise et une demi case noire.
+    *   D) Ajoute une demi case grise et une demi case noire.
+    *   E) Ajoute une case noire.
+
+4. **Choisir la bonne réponse**: Pour que l'aire grise reste égale à l'aire noire, le carreau ajouté doit avoir la même proportion de gris et de noir que le nombre de cases, or seulement l'option C) répond à cette exigence.
+
+Réponse : C)

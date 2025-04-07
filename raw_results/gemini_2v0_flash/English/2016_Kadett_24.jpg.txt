@@ -1,0 +1,24 @@
+Let $x$ be the amount of waffles each grandmother gets.
+Let $W$ be the original amount of waffles.
+Before the third grandmother's house, the basket had $2x$ waffles (since the wolf ate half before she arrived and she gave $x$ to the third grandmother).
+Before the second grandmother's house, the basket had $2(2x + x) = 2(3x) = 6x$ waffles.
+Before the first grandmother's house, the basket had $2(6x + x) = 2(7x) = 14x$ waffles.
+So, $W = 14x$.
+Each grandmother received $x$ waffles, so $3x$ waffles were given out.
+The wolf ate $\frac{1}{2}W = 7x$ waffles before the first grandmother's house.
+The wolf ate $\frac{1}{2}(W - 7x) = \frac{1}{2}(14x - 7x) = \frac{1}{2}(6x+x) = \frac{6x}{2}$ before the second grandmother's house which are $3x$ waffles. Thus $6x$ before the second grandmother house. The wolf ate half of that amount, which is equal to $3x$.
+The wolf ate $\frac{1}{2}(6x) = 3x$ waffles before the second grandmother's house.
+The wolf ate $\frac{1}{2}(2x+x) = \frac{2x+x}{2}$ before the third grandmother's house, which are $1/2$ of $2x$. The wolf ate $x$.
+The wolf ate $\frac{1}{2}(2x)$ before the third grandmother's house, which is $x$ waffles.
+The total waffles eaten by the wolf is $7x + 3x + x = 11x$.
+Since the grandmothers receive $3x$ waffles total, and the wolf eats $11x$ waffles total, the original amount of waffles is $14x$. The important thing is that each grandmother receives an equal whole number of waffles, $x$. Thus, the total number of waffles $14x$ must be divisible by 14.
+Since $W = 14x$, the original amount of waffles is $14x$. Since $x$ is an integer, $W$ is divisible by 14. We need to find which of the options must divide $14x$ for all possible integer values of x.
+If x=1, then W = 14, which is divisible by 7.
+If x=2, then W = 28, which is divisible by 4 and 7.
+If x=3, then W = 42, which is divisible by 6 and 7.
+
+We know that $W = 14x$, and we want to know which of the answer choices *definitely* divides $W$.  Since $14 = 2\cdot 7$, we know that $W = 2\cdot 7 \cdot x$. So, 7 is the only number that divides $W$ regardless of what $x$ is.
+
+Reasoning: The original amount of waffles is $14x$, where x is an integer representing the number of waffles each grandmother received. Thus, the original amount is always divisible by 14. Since 14 = 2*7, the original amount is also divisible by 7. Among the answer choices, only 7 divides $14x$ for all integer values of $x$.
+
+Answer: D)

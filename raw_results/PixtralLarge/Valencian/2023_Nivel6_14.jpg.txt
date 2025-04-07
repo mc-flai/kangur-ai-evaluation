@@ -1,0 +1,37 @@
+Analitzem la pregunta i les opcions donades pas a pas.
+
+1. El trapezi \(ABCD\) té costats paral·lels de longituds 3 cm i 5 cm i una altura de 4 cm.
+2. El trapezi es divideix en dues parts:
+    - Dos triangles blancs.
+    - Dos triangles ombrats.
+
+S'ha de determinar si l'àrea blanca és igual a l'àrea ombrada per a diferents valors de \(h\), la distància del punt \(P\) al costat \(AB\).
+
+Per trobar l'àrea del trapezi, utilitzem la fórmula de l'àrea d'un trapezi:
+\[ \text{Àrea del trapezi} = \frac{1}{2} \times (\text{Base Major} + \text{Base Menor}) \times \text{Altura} \]
+\[ \text{Àrea del trapezi} = \frac{1}{2} \times (5 + 3) \times 4 = \frac{1}{2} \times 8 \times 4 = 16 \, \text{cm}^2 \]
+
+A continuació, calculem l'àrea de les regions blanques i ombrades en funció de \(h\):
+
+**Àrea de les regions blanques:**
+- Les regions blanques constitueixen dos triangles amb base 3 cm i altura \(h\).
+- L'àrea d'un triangle és \(\frac{1}{2} \times \text{base} \times \text{altura}\).
+- L'àrea total de les regions blanques és:
+\[ 2 \times \left(\frac{1}{2} \times 3 \times h\right) = 3h \]
+
+**Àrea de les regions ombrades:**
+- Les regions ombrades constitueixen dos triangles amb base 5 cm i altura \(4 - h\).
+- L'àrea total de les regions ombrades és:
+\[ 2 \times \left(\frac{1}{2} \times 5 \times (4 - h)\right) = 5 \times (4 - h) = 20 - 5h \]
+
+Perquè l'àrea blanca sigui igual a l'àrea ombrada, hem d'igualar les dues expressions:
+\[ 3h = 20 - 5h \]
+\[ 3h + 5h = 20 \]
+\[ 8h = 20 \]
+\[ h = \frac{20}{8} = 2,5 \, \text{cm} \]
+
+Per tant, l'àrea blanca és igual a l'àrea ombrada quan \(h = 2,5 \, \text{cm}\).
+
+**Raonament:** Calculem l'àrea del trapezi i després les àrees de les regions blanques i ombrades basant-nos en \(h\). Igualem les dues àrees i resolem per \(h\).
+
+**Resposta:** C) Si \(h = 2,5 \, \text{cm}\).

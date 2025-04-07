@@ -1,0 +1,12 @@
+Reasoning:
+To find the smallest positive integer N whose digits sum to 2021, we want to maximize the number of 9s in the digits. Dividing 2021 by 9 gives us 2021 = 9 * 224 + 5. Therefore, the smallest integer N will have 224 nines and a 5. To minimize the number, we put the 5 in the most significant digit place. Thus, N is 5 followed by 224 nines: N = 5999...9 (224 nines).
+Now, let's add 2021 to N. N + 2021 = 5999...9 (224 nines) + 2021. Since there are so many nines in the end, we have the following addition:
+  5999...999
++  2021
+--------------
+  8000...020
+So, let's do the addition more precisely:
+5999...9 (224 nines) + 2021 = 5 * 10^224 + (10^224 - 1)/9 * 9 + 2021 = 5 * 10^224 + 10^224 - 1 + 2021 = 6 * 10^224 + 2020 = 6000...02020 where there are 221 zeros.
+The sum of the digits is 6 + 2 + 0 + 2 + 0 = 10.
+
+Answer: A)

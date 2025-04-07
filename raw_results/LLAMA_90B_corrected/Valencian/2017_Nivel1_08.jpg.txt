@@ -1,0 +1,12 @@
+**Raonament:**
+1.  El laberint té 5 posicions entrada i 5 posicions sortida.
+2.  Cada posició és independent de les altres i per tant cada entrada generara un recorregut únic.
+3.  Hi haurà tanta de sortides com de trobaes.
+4.  Cal mirar el laberint de dalt a baix per determinar les sortides possibles des de cada una de les posicions entrada.
+5.  A la pregunta falta la pregunta 8.
+*   La pregunta menciona que hi ha tres formatges però no indica ni on ni quantes són les formades entrades i sortides. Hem d'analitzar la pregunta OLV esmentada per determinar si les 5 entrades proporcionen sortides.
+*   La teoria de grafos deixa dues possibilitats:
+    *   Si hi ha tants nodes entrades i sortides, hi haurá un recorregut únic, i ja determinem una possible resposta.
+    *   Com hem vist, la sortida per tots és màxima acompanyant-la amb la pregunta 7 d'OLVAbronsPress
+
+**Resposta: E)**

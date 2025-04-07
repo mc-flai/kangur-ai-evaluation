@@ -1,0 +1,22 @@
+Raonament:
+Let Maria's current age be M, her daughter's current age be D, and her granddaughter's age be 0.
+The problem states that M and D are even numbers.
+In two years, Maria's age will be M+2, her daughter's age will be D+2, and the granddaughter's age will be 2.
+The product of their ages in two years will be 2024, so (M+2)(D+2)(2) = 2024.
+Therefore, (M+2)(D+2) = 1012.
+Since M and D are even, M+2 and D+2 are also even.
+We must find two even factors of 1012.
+1012 = 2 * 506 = 2 * 2 * 253 = 2 * 2 * 11 * 23
+We can try different combinations:
+If M+2 = 22 and D+2 = 46, then M = 20 and D = 44. But this is not possible as the daughter is older than the mother.
+
+If we try values for M, we can deduce the correct one through the options:
+A) If M=42, (42+2)(D+2) = 1012  =>  44(D+2)=1012  =>  D+2 = 23, D = 21.  This is impossible as D should be an even number
+B) If M=44, (44+2)(D+2) = 1012  =>  46(D+2) = 1012  => D+2 = 22, D = 20.
+C) If M=46, (46+2)(D+2) = 1012 => 48(D+2) = 1012  =>  D+2 = 1012/48 which is not an integer.
+D) If M=48, (48+2)(D+2) = 1012  =>  50(D+2) = 1012, then D+2 = 1012/50 which is not an integer.
+E) If M=50, (50+2)(D+2) = 1012  => 52(D+2) = 1012, then D+2 = 1012/52, this is not an integer.
+The only possible option, is B) where M = 44 and D = 20.
+The daughter is 20 years old, which is also older than the granddaughter (0).
+
+Resposta: B)

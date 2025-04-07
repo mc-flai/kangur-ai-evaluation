@@ -1,0 +1,21 @@
+Raonament:
+
+Per resoldre aquest problema, hem de convertir el valor total de 21 monedes de 2 o 5 cèntims d'euro en cèntims.
+
+1. Primer, identifiquem els valors possibles de les monedes: 2 o 5 cèntims d'euro.
+2. El valor total en cèntims d'euro serà la suma de 21 monedes de 2 o 5 cèntims.
+3. Calculem tots els possibles valors totals:
+   - Si totes les monedes són de 2 cèntims: \(21 \times 2 = 42\) cèntims.
+   - Si totes les monedes són de 5 cèntims: \(21 \times 5 = 105\) cèntims.
+   - Si hi ha una combinació de monedes de 2 i 5 cèntims, el valor total estarà entre 42 i 105 cèntims.
+
+Per descartar les opcions, mirem les opcions donades:
+- A) 45
+- B) 60
+- C) 70
+- D) 81
+- E) 102
+
+Totes aquestes opcions estan dins del rang possible (42 a 105 cèntims).
+
+Resposta: E) 102.

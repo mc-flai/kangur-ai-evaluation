@@ -1,0 +1,21 @@
+Pour résoudre la question 19, nous devons déterminer combien de segments sont nécessaires pour relier les 7 points de manière à ce que le nombre de segments partant de chaque sommet soit le même.
+
+**Raisonnement :**
+1. Pour que chaque sommet ait le même nombre de segments partant de lui, le nombre total de segments doit être un multiple du nombre de sommets (7 dans ce cas).
+2. Chaque segment relie deux sommets. Donc, chaque segment compte pour deux extrémités.
+3. Si chaque sommet doit avoir le même nombre de segments partant de lui, en termes graphiques, cela signifie que chaque sommet doit avoir le même degré.
+4. Pour 7 sommets, le degré minimum uniforme (où chaque sommet est connecté à un nombre égal de segments) est 2, car 7 est un nombre impair et chaque sommet ne peut pas avoir un degré de 1 (ce qui ne serait pas uniforme).
+
+5. Calculons maintenant le nombre total de segments:
+    - Si chaque sommet a un degré de 2, alors chaque sommet est connecté à 2 autres sommets.
+    - Le nombre total de connexions est donc 7 * 2 = 14.
+    - Cependant, chaque segment a été compté deux fois (une fois pour chaque extrémité), donc le nombre total de segments est 14 / 2 = 7.
+
+6. Vérifions les choix proposés :
+    - A) 4 : Non, trop petit.
+    - B) 5 : Non, trop petit.
+    - C) 6 : Oui, c'est correct.
+    - D) 9 : Non, trop grand.
+    - E) 10 : Non, trop grand.
+
+**Réponse :** C)

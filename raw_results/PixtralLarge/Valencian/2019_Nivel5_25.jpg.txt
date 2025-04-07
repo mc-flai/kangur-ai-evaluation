@@ -1,0 +1,9 @@
+Raonament:
+1. La pregunta planteja identificar quin dels vèrtexs (P, Q, R, S o T) té la forma després de fer 2019 moviments.
+2. Un moviment consisteix a anar d'un vèrtex a un altre seguint el segment que els connecta.
+3. El gràf té 16 vèrtexs i cada moviment es fa en el sentit horari, recorrent els vèrtexs de la següent manera: A → B → C → D → E → F → G → H → I → J → K → L → M → N → O → P → Q → R → S → T → A, i així successivament.
+4. Per trobar la posició després de 2019 moviments, es pot calcular el residu de la divisió de 2019 entre 16 (el nombre de vèrtexs).
+5. 2019 ÷ 16 = 126 amb un residu de 7. Això significa que després de 2019 moviments, el vèrtex en el qual estem és el 7è en el sentit horari des del vèrtex inicial A.
+6. Si comptem els vèrtexs des de A en el sentit horari, el 7è vèrtex és Q.
+
+Resposta: C)

@@ -1,0 +1,23 @@
+**Razonamiento**:
+
+La operación ⨀ se define como:
+\[ n ⨀ m = (n-1) \cdot (n-2) \cdot \ldots \cdot (n-m) \]
+
+Para resolver \( 8 ⨀ x = 210 \), necesitamos identificar el valor de \( x \) tal que el producto:
+\[ (8-1) \cdot (8-2) \cdot \ldots \cdot (8-x) = 210 \]
+
+Esto se puede escribir como:
+\[ 7 \cdot 6 \cdot 5 \cdot \ldots \cdot (8-x) = 210 \]
+
+Ahora, descomponemos 210 en factores primos:
+\[ 210 = 2 \cdot 3 \cdot 5 \cdot 7 \]
+
+Observamos que los números que estamos multiplicando son consecutivos y comenzando desde 7. Entonces, la descomposición de 210 implica que solo debemos incluir hasta el número 5 para obtener 210:
+\[ 7 \cdot 6 \cdot 5 = 210 \]
+
+Por lo tanto, el producto \( 7 \cdot 6 \cdot 5 \) llega hasta 5, lo que significa que \( 8-x = 5 \). Resolviendo para \( x \):
+\[ 8 - x = 5 \]
+\[ x = 8 - 5 \]
+\[ x = 3 \]
+
+**Respuesta**: B)

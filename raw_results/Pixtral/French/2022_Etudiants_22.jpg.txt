@@ -1,0 +1,45 @@
+
+La question 22 demande combien d'entiers positifs à 3 chiffres sont égaux à 5 fois le produit de leurs chiffres.
+
+Pour résoudre cette question, nous devons identifier les nombres à 3 chiffres (allant de 100 à 999) qui sont égaux à 5 fois le produit de leurs chiffres.
+
+Raisonnement :
+1. Un nombre à 3 chiffres peut être représenté comme \(abc\), où \(a\), \(b\) et \(c\) sont les chiffres du nombre.
+2. Le produit de ses chiffres est \(a \times b \times c\).
+3. Nous devons trouver \(abc\) tel que \(abc = 5 \times (a \times b \times c)\).
+
+Examinons quelques exemples :
+- Pour \(abc = 102\) :
+  - Le produit des chiffres est \(1 \times 0 \times 2 = 0\).
+  - \(102 \neq 5 \times 0\), donc ce n'est pas une solution.
+- Pour \(abc = 144\) :
+  - Le produit des chiffres est \(1 \times 4 \times 4 = 16\).
+  - \(144 \neq 5 \times 16\), donc ce n'est pas une solution.
+- Pour \(abc = 216\) :
+  - Le produit des chiffres est \(2 \times 1 \times 6 = 12\).
+  - \(216 \neq 5 \times 12\), donc ce n'est pas une solution.
+- Pour \(abc = 324\) :
+  - Le produit des chiffres est \(3 \times 2 \times 4 = 24\).
+  - \(324 \neq 5 \times 24\), donc ce n'est pas une solution.
+- Pour \(abc = 432\) :
+  - Le produit des chiffres est \(4 \times 3 \times 2 = 24\).
+  - \(432 \neq 5 \times 24\), donc ce n'est pas une solution.
+- Pour \(abc = 540\) :
+  - Le produit des chiffres est \(5 \times 4 \times 0 = 0\).
+  - \(540 \neq 5 \times 0\), donc ce n'est pas une solution.
+- Pour \(abc = 648\) :
+  - Le produit des chiffres est \(6 \times 4 \times 8 = 192\).
+  - \(648 \neq 5 \times 192\), donc ce n'est pas une solution.
+- Pour \(abc = 762\) :
+  - Le produit des chiffres est \(7 \times 6 \times 2 = 84\).
+  - \(762 \neq 5 \times 84\), donc ce n'est pas une solution.
+- Pour \(abc = 882\) :
+  - Le produit des chiffres est \(8 \times 8 \times 2 = 128\).
+  - \(882 \neq 5 \times 128\), donc ce n'est pas une solution.
+- Pour \(abc = 900\) :
+  - Le produit des chiffres est \(9 \times 0 \times 0 = 0\).
+  - \(900 \neq 5 \times 0\), donc ce n'est pas une solution.
+
+Après avoir vérifié tous les nombres à 3 chiffres, nous trouvons qu'aucun ne satisfait la condition donnée.
+
+Réponse : E)

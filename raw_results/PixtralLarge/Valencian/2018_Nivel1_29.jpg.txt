@@ -1,0 +1,43 @@
+Per resoldre la pregunta, analitzem el problema passo a passo.
+
+1. La distància total recorreguda per Guillem és de 187569 km.
+2. Volem trobar el nombre mínim de quilòmetres que ha de conduir Guillem perquè tots els dígits que apareixen en el comptaquilòmetres siguin diferents.
+3. Analitzem els dígits actuals del comptaquilòmetres: 1, 8, 7, 5, 6, 9.
+4. Els dígits que manquen perquè tots siguin diferents són: 0, 2, 3, 4.
+5. Per fer que apareguin tots els dígits en el comptaquilòmetres, cal afegir almenys els dígits que manquen: 0, 2, 3, 4.
+6. Ara, busquem el nombre més petit que conté els dígits 0, 2, 3, 4 i que es pugui afegir a 187569 perquè tots els dígits siguin diferents.
+7. El nombre més petit que conté els dígits 0, 2, 3, 4 és 2340.
+8. Afegim 2340 a 187569 per veure si tots els dígits són diferents: 187569 + 2340 = 189909.
+9. Els dígits de 189909 són: 1, 8, 9, 0, 9. No tots els dígits són diferents; falta el dígit 3.
+10. Provem ara amb el nombre més petit que conté els dígits 0, 2, 3, 4 en un altre ordre: 3024.
+11. Afegim 3024 a 187569: 187569 + 3024 = 190593.
+12. Els dígits de 190593 són: 1, 9, 0, 5, 9, 3. No tots els dígits són diferents; falta el dígit 2.
+13. Provem amb el nombre 2304.
+14. Afegim 2304 a 187569: 187569 + 2304 = 189873.
+15. Els dígits de 189873 són: 1, 8, 9, 8, 7, 3. No tots els dígits són diferents; falta el dígit 0.
+16. Provem amb el nombre 2340 de nou.
+17. Afegim 2340 a 187569: 187569 + 2340 = 189909.
+18. Els dígits de 189909 són: 1, 8, 9, 0, 9. No tots els dígits són diferents; falta el dígit 3.
+19. Provem amb el nombre 3240.
+20. Afegim 3240 a 187569: 187569 + 3240 = 190809.
+21. Els dígits de 190809 són: 1, 9, 0, 8, 0, 9. No tots els dígits són diferents; falta el dígit 3.
+22. Provem amb el nombre 2340 de nou.
+23. Afegim 2340 a 187569: 187569 + 2340 = 189909.
+24. Els dígits de 189909 són: 1, 8, 9, 0, 9. No tots els dígits són diferents; falta el dígit 3.
+25. Provem amb el nombre 3240 de nou.
+26. Afegim 3240 a 187569: 187569 + 3240 = 190809.
+27. Els dígits de 190809 són: 1, 9, 0, 8, 0, 9. No tots els dígits són diferents; falta el dígit 3.
+28. Provem amb el nombre 3204.
+29. Afegim 3204 a 187569: 187569 + 3204 = 190773.
+30. Els dígits de 190773 són: 1, 9, 0, 7, 7, 3. No tots els dígits són diferents; falta el dígit 2.
+31. Provem amb el nombre 2304 de nou.
+32. Afegim 2304 a 187569: 187569 + 2304 = 189873.
+33. Els dígits de 189873 són: 1, 8, 9, 8, 7, 3. No tots els dígits són diferents; falta el dígit 0.
+34. Provem amb el nombre 2034.
+35. Afegim 2034 a 187569: 187569 + 2034 = 189603.
+36. Els dígits de 189603 són: 1, 8, 9, 6, 0, 3. Tots els dígits són diferents.
+
+Per tant, el nombre mínim de quilòmetres que ha de conduir Guillem perquè tots els dígits que apareixen en el comptaquilòmetres siguin diferents és 2034.
+
+Raonament: Hem analitzat els dígits que manquen i hem provat diferents combinacions per trobar el nombre mínim que conté tots els dígits que falten i hem arribat a la conclusió que el nombre mínim és 2034.
+Resposta: C)

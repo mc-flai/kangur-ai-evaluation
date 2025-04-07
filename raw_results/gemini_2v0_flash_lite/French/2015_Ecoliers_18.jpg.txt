@@ -1,0 +1,10 @@
+Raisonnement : On cherche à maximiser le nombre de carrés noirs visibles lorsque les trois feuilles sont superposées. On observe les trois feuilles :
+*   Feuille 1 : 3 carrés noirs.
+*   Feuille 2 : 3 carrés noirs.
+*   Feuille 3 : 3 carrés noirs.
+
+L'objectif est de faire se superposer le plus possible de carrés noirs de différentes feuilles. On peut imaginer tourner ou retourner les feuilles pour obtenir une superposition optimale. On remarque que les carrés noirs des trois feuilles peuvent être alignés sur les coins, les côtés ou au centre.
+Il est possible de superposer les feuilles de manière à ce qu'un maximum de carrés noirs soient visibles. En orientant les feuilles de manière judicieuse, il est possible de faire en sorte que les carrés noirs ne se superposent pas systématiquement, et ainsi, le nombre de carrés noirs visibles soit le plus grand possible. Si l'on superpose les carrés noirs des 3 feuilles de sorte que les carrés noirs ne se recouvrent pas, on aurait 3 + 3 + 3 = 9. Cependant, si l'on place les 3 carrés noirs de chaque feuille dans des positions différentes, et qu'on superpose les feuilles, il est possible de ne pas avoir de superposition.
+On peut tourner et retourner les feuilles pour faire en sorte que les carrés noirs ne se chevauchent pas au maximum. Si on place les feuilles de sorte que aucun carré noir ne se chevauche, on verra 9 carrés noirs.
+
+Réponse : E)

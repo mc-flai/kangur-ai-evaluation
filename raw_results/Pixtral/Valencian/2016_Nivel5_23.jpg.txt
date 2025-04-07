@@ -1,0 +1,24 @@
+### Raonament:
+La pregunta nos pide encontrar el número mínimo de preguntas que necesitamos hacer para determinar si un nombre dado está entre 1 y 15. Para hacer esto, debemos considerar cómo podemos eliminar sistemáticamente los números fuera del rango deseado con cada pregunta.
+
+1. **Primera pregunta**: Preguntamos si el número es mayor que 7.5.
+   - Si la respuesta es "sí", entonces el número está en el rango de 8 a 15.
+   - Si la respuesta es "no", entonces el número está en el rango de 1 a 7.
+
+2. **Segunda pregunta**: Dependiendo de la respuesta anterior, preguntamos si el número es mayor que el valor medio del rango restante.
+   - Si la respuesta es "sí", reducimos el rango a la mitad superior.
+   - Si la respuesta es "no", reducimos el rango a la mitad inferior.
+
+3. **Tercera pregunta**: Volvemos a preguntar si el número es mayor que el valor medio del rango restante.
+   - Esto reduce el rango a un cuarto del rango original.
+
+4. **Cuarta pregunta**: Volvemos a preguntar si el número es mayor que el valor medio del rango restante.
+   - Esto reduce el rango a un octavo del rango original.
+
+5. **Quinta pregunta**: Volvemos a preguntar si el número es mayor que el valor medio del rango restante.
+   - Esto reduce el rango a un dieciseisavo del rango original.
+
+Cada pregunta reduce el rango a la mitad, por lo que el número mínimo de preguntas necesarias es 4.
+
+### Resposta:
+D) 4

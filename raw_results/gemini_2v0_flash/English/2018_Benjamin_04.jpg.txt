@@ -1,0 +1,92 @@
+Reasoning:
+The slow snail crawls 1 m/h, and the fast snail crawls 2 m/h. Let's denote the time when they meet by *t* (in hours).
+The perimeter of the rectangle is 2 * (6 + 3) = 18 meters.
+Since they move in opposite directions from corner S, when they meet, the sum of the distances they covered will be equal to the perimeter of the rectangle.
+Distance covered by the slow snail = 1 * *t*
+Distance covered by the fast snail = 2 * *t*
+So, 1*t + 2*t = 18
+3*t = 18
+t = 6 hours
+In 6 hours, the slow snail will have crawled 1 * 6 = 6 meters. Starting from S, it will reach point A.
+In 6 hours, the fast snail will have crawled 2 * 6 = 12 meters. Starting from S, it will reach point D (6+3+3 = 12 meters).
+Since the slow snail has moved 6 meters, it is at point A. Since the fast snail has moved 12 meters, it is at point D. However, it has to move along the perimeter of the garden. It would move 6 meters to the right, and 6 more meters. Thus, it would move 3 meters upwards to get to point E, but then it cannot meet with snail 1 at point A.
+
+However, since we're looking for when the two snails *meet* for the first time, we need to clarify the direction they are crawling in. The image indicates that the slow snail goes upwards along the shorter edge and the fast snail goes to the right along the longer edge.
+
+We are looking for when the two snails are in the same location at the same time, which means they meet. The slow snail's position is at the corner S at t=0. The fast snail's position is at the corner S at t=0.
+
+The slow snail moves along the side of length 3, and the fast snail moves along the side of length 6. Let's measure the distance they have traveled along the perimeter of the garden. Let the perimeter be P.
+
+Slow snail: speed = 1 m/h
+Fast snail: speed = 2 m/h
+Let d1 be the distance traveled by the slow snail, and d2 be the distance traveled by the fast snail when they meet. d1 + d2 = P
+t = d1/1 = d2/2
+d2 = 2*d1
+d1 + 2*d1 = 18
+3*d1 = 18
+d1 = 6 m
+The slow snail is at position A (6 meters traveled from S).
+t = 6 hours
+d2 = 2*6 = 12 m
+The fast snail will travel from S, 6 meters to point A, 3 meters to point D, then 3 meters to point E.
+So it won't meet the slow snail in point A.
+
+Let's try to check the meeting at each position.
+A. Slow snail distance = 6. Fast snail distance = 18-6 = 12. Time = 6, Fast snail's speed = 2 m/h. 2*6 = 12. This works.
+B. Slow snail distance = 6+1 = 7.
+Fast snail distance = 18-7 = 11. Not a whole number.
+C. Slow snail distance = 8.
+Fast snail distance = 10. Then t=8 for the first, and t=5 for the second. NO
+D. Fast Snail = 6+3 = 9. Slow snail = 9. Since they meet, t=9. Fast Snail would need 2, so not possible.
+E. Fast Snail distance = 3.5 + 6 = 9.5 = 5+2.
+It has to happen at A since the slower snail only has to traverse 6 m/h.
+Since the faster snail is at 2 m/h it needs to travel 12 m/h. The slower snail moves upwards and the faster snail moves along the horizontal side.
+
+Reasoning:
+The slow snail travels along the perimeter as 1m/h.
+The fast snail travels along the perimeter as 2m/h.
+
+The total perimeter is 2*(6+3) = 18.
+
+Lets call the distance travelled by the slower snail d_s and the distance traveled by the faster snail d_f.
+The time it takes for each of them to reach the meeting point is the same.
+
+Thus: d_s/1 = d_f/2 --> d_f = 2 * d_s
+We also know that d_s + d_f = 18. Substituting the first into the second, we get: d_s + 2 * d_s = 18 --> 3 * d_s = 18,
+thus d_s = 6.
+Now we can say that d_f = 2 * d_s = 2*6 = 12.
+
+After 6 meters, the slower snail is at position A.
+After 12 meters, the faster snail is at position D.
+Since we only see A on the top of the garden, we want the snails to go up and over until their distances sum up to the entire perimeter.
+
+The error lies in that d_s + d_f = 18 only works if they travel the entire shape. Which we assume is that when the point of the meeting has been at a total distance of 18. This means, given their position in the garden at S, their final meeting position must have been at A.
+Since the slow snail's distance matches at 6, its position is correct at 6. The faster snail traverses the entirety of the perimeter to have moved at 12 distance as well.
+Reasoning:
+Answer: A)
+Reasoning:
+The sum of the snails' distances must be the total perimeter to find the point at where they will meet. Thus their respective travel times will equate to the same position at point A, which is given as a location in the diagram.
+Answer: A)
+Reasoning:
+The slow snail travels 1 m/h. The fast snail travels 2 m/h. They start at S. The perimeter is 18m. Let d_s be the distance traveled by the slow snail, and d_f be the distance traveled by the fast snail. Let t be the time they travel until they meet. Then d_s = t, and d_f = 2t. d_s + d_f = 18, so t + 2t = 18, so 3t = 18, so t = 6. Then d_s = 6, and d_f = 12. The slow snail travels 6m from S to A. The fast snail travels 12m from S. This is S->A (6m) -> D (6+3=9m) ->E (9m) -> S (0) so it cannot occur in their respective positions from given options.
+
+Thus we must assume their distances travel across to one another on each side of the shape.
+A. At A. The distance of Snail s : d =6/h x h =6. The disntace of Snail f : d= 2m/h x t =2d = 2 x6 =12. Thus the two snail's distances account for perimeter distances where the position of the meeting is defined at A.
+Answer: A)
+Reasoning:
+Let the time they meet be t. Then slow snail travels t meters and fast snail travels 2t meters. Together they cover the perimeter, which is 2(6+3)=18. So t+2t=18 => 3t=18 => t=6. Then the slow snail travels 6m and the fast snail travels 12m. 6m from S is A. 12m from S is S-A (6m), A-D(3) So, at E=0.75h is the other side. Since we are looking for A that means 18+ A +D == their position. The slow snail meets at location A , from 6 hours.
+
+Answer: A)
+Reasoning:
+Let d1 be the distance traveled by slow snail. d2 be the distance traveled by fast snail.
+Their speeds are 1 m/h and 2 m/h.
+Perimeter = 2(6+3) = 18 m
+They meet, d1+d2 = 18
+d1 = t
+d2 = 2t
+t+2t = 18 => 3t=18 => t=6.
+Thus slow snail's distance is 6 m.
+Fast snail's distance is 12 m.
+Starting from S, 6m is at A. starting from S, 12 m = A(6), + A->D (3=9m) -> D_E1 (D-12), So they meet at location A
+Reasoning:
+Answer: A)

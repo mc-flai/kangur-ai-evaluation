@@ -1,0 +1,53 @@
+Per resoldre el problema, hem de determinar el màxim nombre possible de signes + que poden aparèixer en l'expressió 1 + 2 + 3 + 4 + ... + 64 + 65 + 66, de manera que el resultat de la nova expressió sigui 2020.
+
+**Raonament:**
+
+1. **Suma total dels números de 1 a 66:**
+
+   La suma dels primers \( n \) nombres naturals es dona per la fórmula:
+   \[
+   S = \frac{n(n+1)}{2}
+   \]
+   Per a \( n = 66 \):
+   \[
+   S = \frac{66 \cdot 67}{2} = 2211
+   \]
+
+2. **Determinar la diferència entre la suma total i el resultat desitjat:**
+
+   Volem que el resultat sigui 2020. La diferència entre la suma total i el resultat desitjat és:
+   \[
+   2211 - 2020 = 191
+   \]
+
+3. **Canviar signes per aconseguir la diferència de 191:**
+
+   Cada vegada que canviem un signe + per un signe -, disminuïm la suma en \( 2 \times \text{el nombre} \). Per tant, hem de trobar una combinació de nombres que sumin 191 quan es multipliquen per 2.
+
+4. **Trobar la combinació de nombres que sumin 191:**
+
+   Hem de trobar una combinació de nombres de l'1 al 66 que sumin 95.5 (ja que \( 191 \div 2 = 95.5 \)). Com que no podem tenir fraccions de nombres enters, hem de considerar combinacions de nombres que sumin 95 o 96.
+
+   Una possible combinació és:
+   \[
+   66 + 18 + 11 = 95
+   \]
+
+   Això significa que podem canviar els signes dels nombres 66, 18 i 11 per aconseguir una reducció de \( 2 \times 95 = 190 \). Tanmateix, necessitam una reducció de 191, per la qual cosa hem de canviar un nombre addicional que sigui 1.
+
+   Per tant, canviem els signes dels nombres 66, 18, 11 i 1.
+
+5. **Comptar els signes + restants:**
+
+   Hi ha 66 nombres en total. Hem canviat 4 signes + a -, per la qual cosa ens queden:
+   \[
+   66 - 4 = 62
+   \]
+
+   Per tant, el màxim nombre possible de signes + és 62.
+
+**Resposta:**
+
+No hi ha cap opció que coincideixi amb 62, per la qual cosa la resposta correcta és:
+
+E) No és possible aconseguir el que demana l'enunciat.

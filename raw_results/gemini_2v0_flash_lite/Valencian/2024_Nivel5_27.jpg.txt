@@ -1,0 +1,21 @@
+Raonament:
+Per tal que el producte de dos grups sigui el mateix, és necessari que el producte total sigui un quadrat perfecte. El producte de tots els números de l'1 al 25 és 25!. Per fer que aquest producte sigui un quadrat perfecte, hem d'eliminar els números que tenen exponents senars en la seva factorització prima. Aquests números són:
+* 2, 3, 5, 7, 11, 13, 17, 19, 23.
+Considerant la potència de cada número primer a la factorització prima de 25!:
+* 2: 22
+* 3: 10
+* 5: 6
+* 7: 3
+* 11: 2
+* 13: 1
+* 17: 1
+* 19: 1
+* 23: 1
+Hem d'eliminar els números que tenen exponents senars. Aquests són 7, 13, 17, 19, 23.
+Però també podem notar que 1, 4, 9, 16 i 25 tenen exponents parells.
+El primer nombre que hauria de ser eliminat és el 7.
+Els nombres prims superiors a 12 són 13, 17, 19, 23.
+Els nombres a eliminar són 7, 13, 17, 19, 23.
+La quantitat mínima de nombres que hem d'esborrar és 5.
+
+Resposta: B)

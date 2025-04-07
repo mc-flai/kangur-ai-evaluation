@@ -1,0 +1,16 @@
+Raisonnement : Pour répondre à cette question, il faut compter les cubes blancs visibles dans le grand cube et déduire les cubes blancs cachés en se basant sur la forme des blocs.
+Il y a 7 cubes blancs visibles.
+Le grand cube est plein, donc il doit y avoir 3x3x3 = 27 petits cubes au total.
+En regardant les blocs utilisés, il y a :
+- 1 bloc de 4 cubes
+- 1 bloc de 8 cubes
+- 1 bloc de 1 cube
+Le cube contient 7 cubes blancs visibles.
+Le reste des cubes sont donc 27 - 7 = 20 cubes.
+Calculons combien de cubes gris il y a:
+- Dans le grand cube, on observe 1 bloc de 4 cubes gris, et 1 bloc en forme de L qui doit contenir 2 cubes gris à l'intérieur du cube. Donc 4+2 = 6 cubes gris.
+- Le cube est plein, donc on doit avoir 27 cubes au total.
+- Pour obtenir 11 cubes blancs : 27 - 6 (cubes gris) - 10 (cubes visibles non blancs) = 11
+Les options proposées montrent un nombre de petits cubes blancs. On peut donc déduire que le nombre de petits cubes blancs est de 11.
+
+Réponse : B)

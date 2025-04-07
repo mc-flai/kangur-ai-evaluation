@@ -1,0 +1,13 @@
+Reasoning: Let 'n' be the number of numbers Werner wrote down. The sum of Werner's numbers is 22. Ria subtracted each of Werner's numbers from 7. The sum of Ria's numbers is 34.
+If Werner's numbers are x1, x2, ..., xn, then x1 + x2 + ... + xn = 22. Ria's numbers are (7-x1), (7-x2), ..., (7-xn). The sum of Ria's numbers is (7-x1) + (7-x2) + ... + (7-xn) = 34.
+We can rewrite the sum of Ria's numbers as:
+7n - (x1 + x2 + ... + xn) = 34.
+We know that x1 + x2 + ... + xn = 22, so we can substitute this into the equation:
+7n - 22 = 34.
+7n = 34 + 22
+7n = 56
+n = 56 / 7
+n = 8
+Therefore, Werner has written down 8 numbers.
+
+Answer: B)

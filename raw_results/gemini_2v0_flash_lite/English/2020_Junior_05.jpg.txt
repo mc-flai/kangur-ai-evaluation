@@ -1,0 +1,10 @@
+Reasoning:
+Let $s$ be the number of squares and $t$ be the number of triangles. We are given that Maria has 10 pieces of paper, so $s + t = 10$. When a square is cut along a diagonal, it becomes two triangles. A square has 4 vertices and a triangle has 3 vertices. After cutting the squares, each square becomes two triangles, each with 3 vertices. So, the total number of vertices is $2s \times 3 + t \times 3 = 48$.
+We can simplify the second equation to $6s + 3t = 48$. Dividing by 3, we get $2s + t = 16$.
+Now we have a system of equations:
+$s + t = 10$
+$2s + t = 16$
+Subtracting the first equation from the second, we get $(2s + t) - (s + t) = 16 - 10$, which simplifies to $s = 6$.
+Therefore, the number of squares Maria had before making the cuts is 6.
+
+Answer: D)

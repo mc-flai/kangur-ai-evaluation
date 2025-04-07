@@ -1,0 +1,9 @@
+Reasoning: The cube in question has these neighbors: two above it, and one beside it on both sides. Since the same color cubes do not touch, we can look at what colors can be next to each other and what cubes would be left for the cube with the question mark.
+The cube above the question mark can't have the same color.
+There are two cubes of the same color above the question mark, if they are red, that means there are no available reds, as red cubes can't touch. Then it can't be red.
+The question mark is surrounded by other cubes.
+The question mark's location must be a color that is left.
+The cube can't be green as there are not enough cubes to be placed, if it was green then its neighbors would have to be non-green which would have to be red, which is not enough. Also the question can not be yellow, as there are not any of the cubes.
+There are 3 blue cubes, so we could have used those in place. This would leave one green cube for the final space.
+If we consider the cube to be blue, we can satisfy this with red cubes above and red to the side, along with blue.
+Answer: B)

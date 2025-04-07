@@ -1,0 +1,24 @@
+Reasoning:
+Let the original volume be V = abc.
+If we increase 'a' by 5, the new volume is V1 = (a+5)bc = abc + 5bc. The increase is 5bc.
+If we increase 'b' by 5, the new volume is V2 = a(b+5)c = abc + 5ac. The increase is 5ac.
+If we increase 'c' by 5, the new volume is V3 = ab(c+5) = abc + 5ab. The increase is 5ab.
+
+Since a < b < c, we have ab < ac < bc.
+Therefore, 5ab < 5ac < 5bc, implying that the increase is greatest when we increase 'a' by 5.
+
+Reasoning:
+The volume increases are:
+- Increase a: 5bc
+- Increase b: 5ac
+- Increase c: 5ab
+Since a < b < c, bc > ac > ab. Thus 5bc > 5ac > 5ab.
+
+Reasoning:
+Given that $a < b < c$, the initial volume of the cuboid is $V = abc$. When we increase one of the dimensions by 5, the increase in volume is:
+- Increasing $a$ by 5: $\Delta V_a = (a+5)bc - abc = 5bc$
+- Increasing $b$ by 5: $\Delta V_b = a(b+5)c - abc = 5ac$
+- Increasing $c$ by 5: $\Delta V_c = ab(c+5) - abc = 5ab$
+Since $a < b < c$, it follows that $bc > ac > ab$. Therefore, $5bc > 5ac > 5ab$, which means $\Delta V_a > \Delta V_b > \Delta V_c$. Thus, the largest increase in volume occurs when we increase $a$ by 5.
+
+Answer: A)

@@ -1,0 +1,23 @@
+Raonament: Sembla que el problema descriu una distribució de 60 pomes en 60 caixes. Això significa que cada caixa tindria exactament el mateix nombre de pomes i no hi hauria dues caixes amb la mateixa quantitat de peres. Per resoldre-ho, podem pensar en la forma en què es distribuirien les peres.
+
+Per trobar el nombre més gran de caixes permès en aquesta distribució, observem que cada caixa té un nombre diferent de peres, començant per 1 pera, 2 peres, 3 peres, i així successivament. Si sumem aquestes quantitats, obtenim una seqüència aritmètica:
+
+1 + 2 + 3 + ... + n
+
+La suma dels primers n nombres naturals és donada per la fórmula:
+
+\[ S_n = \frac{n(n+1)}{2} \]
+
+Volem trobar el valor màxim de n tal que la suma no superi 60. Provem diferents valors:
+
+Per n = 10:
+
+\[ S_{10} = \frac{10(10+1)}{2} = \frac{10 \cdot 11}{2} = 55 \]
+
+Per n = 11:
+
+\[ S_{11} = \frac{11(11+1)}{2} = \frac{11 \cdot 12}{2} = 66 \]
+
+Com que 66 és més gran que 60, el màxim valor de n és 10. Per tant, el nombre més gran de caixes permès en aquesta distribució és 10.
+
+Resposta: D) 10

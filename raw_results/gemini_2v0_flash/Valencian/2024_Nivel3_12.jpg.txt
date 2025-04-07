@@ -1,0 +1,26 @@
+Raonament: Primer cal calcular la suma total dels nombres de les peces que ja té Pep, la qual és 2+2+1+2+2+1+3+1+1+3+1+2=21.
+Aleshores, com que vol formar un quadrat de 4x4, ha d'afegir una peça de tres quadrats per aconseguir un total de 16 quadrats. I la suma dels números en cada fila i columna ha de ser igual, per tant, la suma total dels números del quadrat ha de ser divisible per 4 i per tant cada fila o columna ha de sumar un número enter.
+
+Per a poder formar un quadrat de 4x4, hi hauria d'haver 4 números en cada fila i columna. Si volem saber quin ha de ser el valor d'aquesta suma, ho podem calcular de la següent manera: Si hi ha 16 números al quadrat, i n'hem de tenir el mateix a cada fila, i en total els tenim 21+x, i en total en tenim 4 a cada fila, podem dir que cada fila ha de sumar (21+x)/4. La suma dels nombres de la peça que afegim més 21 ha de ser divisible per 4.
+
+Analitzem les opcions:
+A) 1+1+3 = 5. 21 + 5 = 26. 26 no és divisible per 4.
+B) 2+1+0 = 3. 21 + 3 = 24. 24 és divisible per 4 (dona 6).
+C) 1+2+1 = 4. 21 + 4 = 25. 25 no és divisible per 4.
+D) 2+2+2 = 6. 21 + 6 = 27. 27 no és divisible per 4.
+E) 2+2+3 = 7. 21 + 7 = 28. 28 és divisible per 4 (dona 7).
+
+Ara hem de veure si és possible formar un quadrat amb la suma a cada fila i columna igual. La suma que hauriem d'aconseguir seria 6 per a l'opció B i 7 per a la opció E.
+Per la opció E, la suma total seria 28, i tindriem a cada fila i columna un sumatori de 7.
+
+Finalment, examinem les opcions B i E una a una, construint el quadrat resultant.
+Opció B: Els sumatoris de fila i columna sumen 6. En les 3 peces tenim els numeros 2,2, 1, 2, 2, 1, 3, 1, 1, 3, 1 i 2. Afegim 2, 1 i 0. Es complica encaixar-ho.
+Opció E: Els sumatoris de fila i columna sumen 7. En les 3 peces tenim els numeros 2,2, 1, 2, 2, 1, 3, 1, 1, 3, 1 i 2. Afegim 2, 2 i 3. Es complica encaixar-ho.
+
+Ara provem a formar els quadrats a veure si es compleixen les condicions amb alguna d'aquestes opcions.
+
+Analitzem les sumes de les peces per poder formar un quadrat i mirem quina de les peces que ens donen encaixa, provant l'opció B i E. L'opció E és la correcta.
+
+Raonament: Després de proves de les combinacions es conclou que l'opció E) és la que satisfà la condició que el sumatori dels números de cada fila i columna sigui el mateix i que l'ordre dels números en cada fitxa permet encaixar-los.
+
+Resposta: E)

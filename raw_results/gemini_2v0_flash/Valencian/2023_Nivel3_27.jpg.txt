@@ -1,0 +1,30 @@
+Raonament: Sigui a l'amplada del rectangle esquerre i b l'amplada del rectangle dret. Sigui c l'alçada del rectangle superior i d l'alçada del rectangle inferior. Llavors els perímetres dels quatre rectangles petits són 2(a+c), 2(b+c), 2(a+d) i 2(b+d). El perímetre del rectangle gran és 2(a+b+c+d). Sabem que els perímetres de tres dels rectangles petits són 11, 16 i 19, i que el quart perímetre no és ni el més gran ni el més petit. Per tant, 11 < quart < 19.
+
+L'equació 2(a+c) + 2(b+c) + 2(a+d) + 2(b+d) = 2(a+b+c+d) + 2(a+b+c+d) = 2(A), on A és el perímetre del rectangle gran.
+També, 2(a+c) + 2(b+c) + 2(a+d) + 2(b+d) = 11 + 16 + 19 + quart = 46 + quart.
+Per tant, 2A = 46 + quart, o A = 23 + quart/2. Com que quart ha de ser un nombre parell, 2(a+c)=11, 2(b+c)=16, 2(a+d)=19 o qualsevol combinació d'aquests, el problema no té solució si a,b,c,d són enters. Hem d'entendre que a,b,c,d poden ser nombres racionals.
+El quart perímetre és entre 11 i 19. Suposem que el quart perímetre és x. Si la suma dels quatre perímetres és la suma dels parells oposats que són iguals a tot el perímetre. Així que podem dir:
+11+19 = 16+x, llavors x = 30-16 = 14. Això està entre 11 i 19.
+Per tant, el perímetre és 11+19=30 o 16+14 = 30.
+Resposta: B)
+Però si l'altra manera fora 11+16 = 19+x, x = 27-19 = 8, que no és entre 11 i 19.
+
+Raonament:
+Si sumem els perímetres dels quatre rectangles petits, estem sumant dues vegades l'alçada i dues vegades l'amplada de cada rectangle petit. Això significa que estem sumant dues vegades l'alçada i l'amplada de tot el rectangle gran. Això vol dir que la suma dels perímetres dels rectangles petits és igual a dues vegades el perímetre del rectangle gran. Sia X el perímetre del rectangle original. Llavors, si els tres perímetres coneguts són 11, 16 i 19, i el quart és Y, llavors X = (11+16+19+Y)/2 = (46+Y)/2.
+Com que sabem que Y no és ni el més gran ni el més petit, 11 < Y < 19. Llavors si provem les opcions donades i despejem per Y, si Y està entre 11 i 19 llavors és la resposta correcta.
+A) 28 = (46+Y)/2 -> 56=46+Y -> Y=10 (no està entre 11 i 19)
+B) 30 = (46+Y)/2 -> 60=46+Y -> Y=14 (està entre 11 i 19)
+C) 32 = (46+Y)/2 -> 64=46+Y -> Y=18 (està entre 11 i 19)
+D) 38 = (46+Y)/2 -> 76=46+Y -> Y=30 (no està entre 11 i 19)
+E) 40 = (46+Y)/2 -> 80=46+Y -> Y=34 (no està entre 11 i 19)
+Ara tenim dues opcions que funcionen.
+Si els costats originals sumen un valor concret, llavors a+c = 5.5, b+c=8 i a+d=9.5.
+Si escollim l'opció B) llavors y=14, b+d=7. Llavors a=5.5-c i b=8-c i 5.5-c+d=9.5 -> d-c=4 i 8-c+d=7 -> d-c=-1. Per tant no funciona.
+Si escollim l'opció C) llavors y=18, b+d=9. Llavors a=5.5-c i b=8-c i 5.5-c+d=9.5 -> d-c=4 i 8-c+d=9 -> d-c=1. Per tant tampoc funciona.
+Error!
+Si agafem 11+16=19+x, això significa que els dos quadrats són iguals, llavors això ens porta al que hem fet abans.
+Sia rectangle superior esquerra a, el superior dret b, l'inferior esquerra c i l'inferior dret d. Suposem que a és el més petit i d el més gran. Llavors tenim b i c. 11, 16 i 19.
+2(l+w)
+Sumem els perímetres: 2L + 2W.
+
+Resposta: B)

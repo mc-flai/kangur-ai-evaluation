@@ -1,0 +1,25 @@
+Raonament:
+Siguin v_A i v_B les velocitats d'Alícia i Baldiri, respectivament, i d la distància entre els punts A i B. Se sap que v_A = 3*v_B.
+
+La primera vegada que es troben, han passat 15 minuts. En aquest temps, Alícia va d'A a un punt X, i Baldiri va de B al mateix punt X. Siguin d_A i d_B les distàncies que han recorregut Alícia i Baldiri, respectivament. Llavors, d_A + d_B = d.
+
+Tenim d_A = v_A * 15 i d_B = v_B * 15. Com que v_A = 3*v_B, tenim d_A = 3*v_B * 15 = 3*d_B.
+Substituint a d_A + d_B = d, obtenim 3*d_B + d_B = d, per tant, 4*d_B = d, o d_B = d/4. Això vol dir que d_A = 3d/4.
+
+Després de la primera trobada, Alícia torna cap a A, i Baldiri torna cap a B. L'objectiu és trobar el temps t després de l'inici per a la segona trobada.
+
+En el moment de la segona trobada, la suma de les distàncies recorregudes per Alícia i Baldiri és 3d.
+Distancia recorreguda per Alicia = d + distancia_alicia_tornada
+Distancia recorreguda per Baldiri = d + distancia_baldiri_tornada
+Distancia_Alicia + Distancia_Baldiri = 2d + distància tornada total
+
+Sigui t el temps total que passa fins a la segona trobada.
+Llavors, v_A * t + v_B * t = d + d + d = 3d.
+Substituint v_A = 3*v_B, tenim 3*v_B * t + v_B * t = 3d, o 4*v_B * t = 3d.
+
+Sabem que v_B * 15 = d/4. Així, v_B = d / (4 * 15). Substituint això a l'equació anterior:
+4 * (d / (4 * 15)) * t = 3d,
+(d / 15) * t = 3d,
+t = 3 * 15 = 45.
+
+Resposta: E)

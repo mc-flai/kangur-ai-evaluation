@@ -1,0 +1,26 @@
+Razonamiento: El cubo grande se construye con 27 cubos pequeños, lo que significa que es un cubo de 3x3x3. Cada cubo pequeño tiene dos caras adyacentes rojas. Para maximizar el número de caras rojas en el cubo grande, debemos colocar los cubos pequeños con sus caras rojas expuestas.  Los cubos en las esquinas tendrán 3 caras visibles y dos de ellas rojas. Los cubos en los bordes (sin esquinas) tendrán 2 caras visibles y una de ellas roja. Los cubos en el centro de cada cara tendrán una cara visible y no estará pintada. El cubo grande tiene 6 caras. Los cubos en las esquinas son 8, los cubos en los bordes (sin esquinas) son 12, los cubos en el centro de cada cara son 6 y el cubo del centro es 1. Los cubos de las esquinas pueden poner dos caras rojas a la vista, lo cual son 8*2 = 16 caras rojas, los cubos del borde pueden poner una cara roja, es decir, 12*1=12 caras rojas. El total de caras rojas es 16+12=28. Como el cubo tiene 6 caras, y cada cara puede tener un máximo de 9 cuadrados. Las caras de los 8 cubos de las esquinas (8 cubos con dos caras rojas) se cuentan 2 veces cada uno, lo que nos da 2x8 = 16 caras rojas, y las caras rojas de los 12 cubos de los bordes (12 cubos con una cara roja) son 12x1=12. Por lo tanto, 16+12 = 28. Pero el cubo grande tiene solo 6 caras. Por lo tanto, hay 6 caras * 9 cubos por cara = 54 caras en el cubo grande. Solo el cubo grande puede tener 6 caras rojas. Por lo tanto, debemos tener 5 caras rojas, ya que en una de ellas tenemos 5*9=45 caras.
+Los 8 cubos de las esquinas tienen 2 caras rojas visibles.
+Los 12 cubos de los bordes tienen 1 cara roja visible.
+Los 6 cubos del centro de cada cara tienen 0 caras rojas visibles.
+El cubo del centro no tiene caras rojas visibles.
+El cubo grande puede tener 6 caras rojas. Cada cara está formada por 9 cubos. Si cada cara tiene un número máximo de caras rojas, entonces puede haber como máximo 24 caras rojas.
+Los cubos con 2 caras rojas son 8 (esquinas).
+Los cubos con 1 cara roja son 12 (bordes).
+Las 6 caras del cubo grande pueden ser rojas.
+6 caras * 9 cubos/cara.
+6 * (1 cara roja/cubo) = 6
+Las esquinas tienen 2 caras rojas. 8 esquinas.
+2 x 4 = 8 caras rojas.
+12 x 1 = 12. 8+12 = 20.
+Los cubos pequeños que están en las esquinas, tienen 2 caras pintadas. Hay 8 esquinas, cada una con 2 caras rojas.  8x2 = 16 caras rojas.
+Hay 12 bordes, y cada uno de ellos tiene 1 cara roja. 12x1 = 12.
+En total, 16+12 = 28. Pero el cubo grande solo tiene 6 caras. Por lo tanto, la respuesta debe ser la suma de los cubos pequeños. 22+2+2=26.
+Hay 6 caras en total.
+Las esquinas contribuyen con 2.
+Los bordes con 1.
+Las esquinas son 8, por lo que son 2*8=16
+Hay 12 bordes, con 1 cara roja. 1*12=12
+16+12=28.
+El número de caras rojas es 24.
+
+Respuesta: C) 24

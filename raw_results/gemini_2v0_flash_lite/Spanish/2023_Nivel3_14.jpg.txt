@@ -1,0 +1,41 @@
+Razonamiento:
+Analizamos la cantidad de fósforos que requiere cada dígito:
+- 1 = 2 fósforos
+- 2 = 5 fósforos
+- 3 = 5 fósforos
+- 4 = 4 fósforos
+- 5 = 5 fósforos
+- 6 = 6 fósforos
+- 7 = 3 fósforos
+- 8 = 7 fósforos
+- 9 = 6 fósforos
+- 0 = 6 fósforos
+Ahora, buscamos combinaciones que sumen exactamente 6 fósforos:
+*   Ningún dígito requiere exactamente 6 fósforos por lo que no es posible formar un número de un dígito.
+*   Dos dígitos: 1+4 = 6 fósforos.
+*   Tres dígitos: 1+1+4=6 fósforos, 2+4=6 fósforos, 4+2=6 fósforos, 4+1+1=6 fósforos,
+*   Cuatro dígitos: 1+1+1+3 fósforos.
+*   Cinco dígitos: 1+1+1+1+2 fósforos.
+*   Seis dígitos: 1+1+1+1+1+1 fósforos
+Combinaciones de dos dígitos que pueden ser formadas:
+*14
+*41
+Combinaciones de tres dígitos:
+*114
+*141
+*411
+*24
+*42
+*4+2 = 6 fósforos
+Combinaciones de cuatro digitos:
+*1+1+1+3
+*1113, 1131, 1311, 3111.
+Combinaciones de cinco digitos:
+*1+1+1+1+2
+*11112, 11121, 11211, 12111, 21111.
+Combinaciones de seis digitos:
+*1+1+1+1+1+1
+Solo los dígitos 1 y 4 se pueden usar para formar números diferentes usando exactamente seis fósforos.
+Los números que se pueden formar son: 14, 41, 24, 42.
+
+Respuesta: B)

@@ -1,0 +1,69 @@
+Raisonnement : Soit P1 le premier point et P2 le deuxième point.
+La somme des distances de P1 aux autres points est 2018.
+La somme des distances de P2 aux autres points (y compris P1) est 2000.
+La seule différence entre les deux sommes de distances est due à la position de P1 et P2 par rapport aux autres points.
+Si P1 est à gauche de P2, alors la somme des distances de P2 est 2000 = 2018 - (distance entre P1 et P2) - (somme des distances entre P1 et les autres points plus P2).
+Soit d la distance entre P1 et P2.
+Si P1 est le point le plus à gauche, la différence entre les sommes des distances est égale à la somme des distances du point P1 à tous les autres points, moins la somme des distances du point P2 à tous les autres points.
+On soustrait d'abord la distance entre P1 et P2, ce qui donne la différence entre les distances de P1 à tous les points et de P2 à tous les points sauf P1. Pour compenser le fait que P1 est également compté dans la somme des distances à partir de P2, il faut soustraire la distance de P2 à P1 ou ajouter la distance de P1 à P2.
+
+2018 - 2000 = d + d
+18 = 2d
+d = 9
+
+Si P1 est plus à gauche que P2, la différence est 2d.
+Si P2 est à gauche de P1, la différence est 2d.
+Dans ce cas, la différence est 2018 - 2000 = 18.
+Soit la distance d, 2018 - 2000 = d + (distance entre P1 et tous les autres points + P2) - (distance entre P2 et tous les autres points + P1)
+2018 - 2000 = d
+18 = la somme des distances entre P1 et tous les autres points moins la somme des distances entre P2 et tous les autres points.
+Donc, 2018 - 2000 = d.
+L'écart entre les deux sommes est la distance entre le premier point et le deuxième point.
+2018 - 2000 = d
+d = 18.
+La différence est le changement dans la distance due au déplacement d'un point à un autre. On a une droite, les 11 points sont ordonnés.
+2018 - 2000 = la distance multipliée par 2 moins le dernier point
+La différence entre les deux sommes de distances est 2 * (distance entre le premier et le deuxième point).
+2 * d = 2018 - 2000 = 18
+d = 9
+On considère le cas où le premier point est à gauche du deuxième point. Si l'on se déplace du premier point au deuxième point, chaque distance à partir du deuxième point sera une unité de moins pour les points à gauche du premier point et une unité de plus pour les points à droite du premier point. Dans notre cas, on a 11 points, donc la différence est 2018 - 2000 = 18. Si le premier point est à l'extrême gauche, nous avons 10 points à droite.
+La distance entre le premier et le deuxième est x.
+Si le premier point est à gauche, alors les distances des points restants sont augmentées de x.
+On obtient 10x = 18, et x = 1.8.
+L'écart est 18. On considère que le premier point est à gauche du deuxième. La distance est d.
+Le point P1 est plus éloigné de P2, donc on ajoute d.
+Si l'on déplace le point de P1 à P2, la distance entre le premier et le deuxième est d.
+Il y a 11 points.
+La somme des distances du premier point est 2018.
+La somme des distances du deuxième point est 2000.
+La distance est d.
+2018 - 2000 = 18.
+On doit soustraire la distance d entre P1 et P2, mais ajouter la distance d entre P2 et P1.
+Donc, la différence est 10 * d.
+2018 - 2000 = 10 * x ? Non.
+La distance entre le premier et le deuxième est x.
+On se déplace de x. On se déplace de x.
+2018 - 2000 = 18.
+2018-2000 = x + (x + x + ... x) = 2x
+18 / 1 = 18
+x=3
+2018 - 2000 = 2x
+2018 - 2000 = d
+Les distances de P1 sont 2018.
+Les distances de P2 sont 2000.
+On note x la distance.
+L'écart entre les deux sommes est 18.
+Le premier point est à gauche du deuxième.
+La distance entre le premier et le deuxième est x.
+2018 - 2000 = 2x
+18 = x
+On passe de x
+Le deuxième est plus proche de x.
+La distance est 3
+2x = 18.
+La distance est x.
+2018 - 2000 = x + (x+...)
+2018 - 2000 = 2d = 18
+d = 3
+
+Réponse : C)

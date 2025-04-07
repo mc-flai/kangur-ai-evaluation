@@ -1,0 +1,8 @@
+
+Razonamiento: El problema describe que Juan Felipe tiene n^3 pequeños cubos cuadrados. Estos pequeños cubos se disponen para formar un cubo grande, donde cada vértice de la superficie exterior del cubo grande tiene un pequeño cubo pintado. El número de pequeños cubos pintados con una sola cara pintada es igual al número de aquellos que no tienen ninguna cara pintada.
+
+Para resolver esto, consideramos que un cubo grande tiene 8 vértices. En cada vértice, hay un pequeño cubo pintado. Por lo tanto, hay 8 pequeños cubos pintados con una sola cara pintada. Además, hay 8 pequeños cubos que no tienen ninguna cara pintada.
+
+Dado que el número de pequeños cubos pintados con una sola cara pintada es igual al número de aquellos que no tienen ninguna cara pintada, podemos concluir que n^3 debe ser igual a 16, ya que 8 pintados y 8 no pintados suman 16.
+
+Respuesta: D)

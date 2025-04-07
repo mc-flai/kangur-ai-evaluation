@@ -1,0 +1,8 @@
+Razonamiento:
+1. **Consider the 2x2 squares**: The table has three 2x2 squares. Each letter (A, B, C, D) must appear once in each square.
+2. **First 2x2 square**: There are 4! = 24 ways to arrange A, B, C, and D in the first 2x2 square.
+3. **Second 2x2 square**: Given the first square, the second square is determined by the restrictions on rows.  For example, if the first row of the first square has A and B, then the second square must have C and D in its first row. The rows can be switched (e.g., first row C, D and second row A, B). But, the combinations of letters in the first square defines the others, so the second square is decided, with its two possible arrangements (switch the order in the rows). So, 2 options.
+4. **Third 2x2 square**: The remaining letters and their locations in the third square will also be decided by the previous squares. With two choices for each 2 x 2 square after the first, the number of total possibilities is 2*24= 96
+Therefore the total ways will be 4! * 2 * 1.
+
+Answer: D) 96

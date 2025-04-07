@@ -1,0 +1,26 @@
+Raonament: Primer reescriurem les equacions:
+1) 600/y + x/5 = 11
+2) 600/x + y/5 = 44
+A partir de la primera equació podem expressar x en funció de y:
+x = 5(11 - 600/y) = 55 - 3000/y
+A partir de la segona equació podem expressar y en funció de x:
+y = 5(44 - 600/x) = 220 - 3000/x
+Substituïm x en la segona equació:
+y = 220 - 3000/(55 - 3000/y)
+y = 220 - 3000y / (55y - 3000)
+y(55y - 3000) = 220(55y - 3000) - 3000y
+55y^2 - 3000y = 12100y - 660000 - 3000y
+55y^2 - 3000y - 12100y + 660000 + 3000y = 0
+55y^2 - 12100y + 660000 = 0
+Dividim per 55:
+y^2 - 220y + 12000 = 0
+Resol la equació quadràtica:
+y = (220 +- sqrt(220^2 - 4*12000)) / 2
+y = (220 +- sqrt(48400 - 48000)) / 2
+y = (220 +- sqrt(400)) / 2
+y = (220 +- 20) / 2
+y1 = (220 + 20) / 2 = 240 / 2 = 120
+y2 = (220 - 20) / 2 = 200 / 2 = 100
+El valor mínim de y és 100.
+
+Resposta: E)

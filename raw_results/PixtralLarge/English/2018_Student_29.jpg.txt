@@ -1,0 +1,38 @@
+**Reasoning**:
+1. The problem states that there are 40% more girls than boys in the class. Let's denote the number of girls by G and the number of boys by B. This can be expressed as:
+   G = 1.4B
+
+2. The probability that a randomly selected team of two students consists of exactly one girl and one boy is given as 1/2. The probability of selecting one girl and one boy, assuming large numbers, can be calculated using combinations.
+
+3. The total number of ways to choose two students from the entire class is given by:
+   C(G+B, 2) = (G+B)(G+B-1) / 2
+
+4. The number of ways to choose one girl and one boy is given by:
+   C(G, 1) * C(B, 1) = G * B
+
+5. The probability of this event is therefore:
+   P(1 girl and 1 boy) = (G * B) / C(G+B, 2) = (G * B) / ((G+B)(G+B-1) / 2) = 2 * (G * B) / ((G+B)(G+B-1))
+
+6. Given P(1 girl and 1 boy) = 1/2, we have:
+   2 * (G * B) / ((G+B)(G+B-1)) = 1/2
+
+   Simplifying this equation:
+   4 * (G * B) = (G+B)(G+B-1)
+
+7. Substituting G = 1.4B into the equation:
+   4 * (1.4B * B) = (1.4B + B)(1.4B + B - 1)
+   4 * 1.4B^2 = (2.4B)(2.4B - 1)
+   5.6B^2 = 5.76B^2 - 2.4B
+   5.76B^2 - 5.6B^2 = 2.4B
+   0.16B^2 = 2.4B
+   B^2 / B = 2.4 / 0.16
+   B = 2.4 / 0.16
+   B = 15
+
+8. Using B = 15, we find G:
+   G = 1.4B = 1.4 * 15 = 21
+
+9. Total number of children in the class:
+   G + B = 21 + 15 = 36
+
+**Answer**: C) 36.

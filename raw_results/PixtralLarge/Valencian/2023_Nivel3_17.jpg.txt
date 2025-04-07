@@ -1,0 +1,14 @@
+Per resoldre la pregunta 17, hem de determinar quina atleta obre la darrera porta, que és la més propera a l'arribada.
+
+**Raonament**:
+1. El problema diu que les atletes caminen en fila i que després de passar les altres, la darrera atleta passa a ocupar el darrer lloc de la fila.
+2. Això significa que la primera atleta de la fila és la que obre la primera porta. Després de passar per la porta, passa al final de la fila.
+3. Aquesta seqüència es repeteix fins que s'arriba a la darrera porta.
+4. Si inicialment la fila és: Ariadna, Berta, Caterina, Diana, Elena.
+5. Aquí, la primera atleta, Ariadna, obre la primera porta i es va al final de la fila, quedant així: Berta, Caterina, Diana, Elena, Ariadna.
+6. Després, Berta obre la segona porta i es va al final de la fila, quedant així: Caterina, Diana, Elena, Ariadna, Berta.
+7. Després, Caterina obre la tercera porta i es va al final de la fila, quedant així: Diana, Elena, Ariadna, Berta, Caterina.
+8. Després, Diana obre la quarta porta i es va al final de la fila, quedant així: Elena, Ariadna, Berta, Caterina, Diana.
+9. Finalment, Elena és la primera de la fila i obre la darrera porta.
+
+**Resposta**: E)

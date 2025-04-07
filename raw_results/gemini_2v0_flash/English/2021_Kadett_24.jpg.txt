@@ -1,0 +1,13 @@
+Reasoning:
+Let the 6-digit number be $N = 2ABCDE$.
+We are given that $3 \times N = ABCDE2$.
+We can write $N = 200000 + ABCDE$.
+Then $3 \times (200000 + ABCDE) = ABCDE \times 10 + 2$.
+$600000 + 3 \times ABCDE = ABCDE \times 10 + 2$.
+$599998 = 7 \times ABCDE$.
+$ABCDE = \frac{599998}{7} = 85714$.
+So, the number $N = 285714$. The sum of the digits is $2+8+5+7+1+4 = 27$.
+Also, $ABCDE2 = 857142$. We can verify that $285714 \times 3 = 857142$.
+The sum of the digits is $2+8+5+7+1+4 = 27$.
+
+Answer: B)

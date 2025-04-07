@@ -1,0 +1,23 @@
+Pour résoudre cette question, nous devons identifier le nombre qui doit être écrit dans la case blanche. La règle est que les deux nombres situés dans des cases voisines doivent avoir la même somme que les deux nombres situés dans les deux cases diamétralement opposées.
+
+Analysons les sommets diamétralement opposés :
+1. Les sommets 1 et 5 sont diamétralement opposés.
+2. Les sommets 3 et 7 sont diamétralement opposés.
+3. Les sommets 9 et 10 sont diamétralement opposés.
+4. Les sommets 2 et 6 sont diamétralement opposés.
+5. Les sommets 4 et 8 sont diamétralement opposés.
+
+Regardons les paires de sommets voisins et leurs sommes :
+- 1 et 10 ont une somme de 11.
+- 2 et 9 ont une somme de 11.
+- 3 et 8 ont une somme de 11.
+- 4 et 7 ont une somme de 11.
+- 5 et 6 ont une somme de 11.
+
+La case blanche est voisine des sommets 1 et 10. Pour que la somme soit 11, le nombre dans la case blanche doit être 11 - 1 = 10 ou 11 - 10 = 1. Cependant, 1 et 10 sont déjà présents dans le cercle.
+
+Donc, le nombre qui doit être écrit dans la case blanche est 6 (car 11 - 5 = 6).
+
+Raisonnement : La somme des nombres situés dans des cases voisines doit être égale à la somme des nombres situés dans les cases diamétralement opposées. En analysant les sommets, nous trouvons que la case blanche doit contenir le nombre 6 pour que la somme soit 11.
+
+Réponse : C).

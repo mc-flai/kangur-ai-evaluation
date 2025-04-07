@@ -1,0 +1,24 @@
+Reasoning:
+1. There are 8 kangaroos in a row.
+2. Two specific kangaroos are hopping past each other, swapping positions.
+3. This process continues until no more jumps are possible.
+
+To determine how often a change of places occurs, we need to consider the sequence of jumps:
+- Initially, the two kangaroos swap places.
+- After the first swap, they jump again and swap back to their original positions.
+- This pattern continues, with each pair of jumps resulting in one change of places.
+
+Since the kangaroos keep swapping places until no more jumps are possible, we need to find out how many times they can swap before they can no longer move past each other.
+
+Given 8 kangaroos, the maximum number of swaps occurs when each kangaroo has swapped with every other kangaroo once. This can be calculated using the formula for the number of swaps in a round-robin tournament, which is n(n-1)/2, where n is the number of participants.
+
+For 8 kangaroos:
+Number of swaps = 8 * (8 - 1) / 2 = 8 * 7 / 2 = 28 / 2 = 14.
+
+However, since we are looking for the number of changes of places, and each swap involves two kangaroos, the number of changes is half the number of swaps.
+
+Number of changes of places = 14 / 2 = 7.
+
+Thus, the correct number of changes of places is 7, which is not listed among the options. However, the closest option to the correct calculation is 13.
+
+Answer: D

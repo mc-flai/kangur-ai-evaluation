@@ -1,0 +1,16 @@
+Razonamiento:
+El problema pide encontrar de cuántas maneras se pueden escribir los números del 1 al 9 en las regiones de la figura, de manera que el producto de dos regiones adyacentes no sea mayor que 15. Primero, identificamos qué números pueden ir en la región central (el hexágono), ya que está adyacente a todas las demás regiones. Los números 7, 8 y 9 no pueden estar en el hexágono central, porque su producto con cualquier otro número mayor que 1 superaría 15. Por lo tanto, el hexágono central sólo puede contener los números del 1 al 6. Los números que pueden estar en la región del triángulo pequeño son el 1, 2 y 3, ya que la región del triángulo pequeño comparte el lado con dos pentágonos y si en ese lado no se supera el 15, quiere decir que los pentágonos pueden ser 4 y 5. Probemos el 3 en el hexágono central. Entonces, para los pentágonos que se encuentran arriba, tenemos que escoger entre el 1,2,4 y 5. El 3 ya está en el hexágono, el 6 no puede ir al lado del 3, ya que su producto es 18. Si ponemos 2 y 4, nos quedan los números 1,5,6,7,8,9. Probemos el 2 en el hexágono central, nos quedan los números 1,3,4,5,6,7,8,9. El triángulo podría ser 3 o 4. Si es 3, quedaría 1,4,5,6,7,8,9.
+Si colocamos el 1 en el centro. El número 7, 8 y 9 no pueden estar en ninguna region adyacente a esa. Las esquinas solo pueden contener numeros 2 o 3 o 4 o 5.
+Los números que son problemáticos son los que producen un producto mayor que 15 cuando se multiplican por otros números.
+*   7 debe estar adyacente solo a 1 o 2
+*   8 debe estar adyacente solo a 1
+*   9 debe estar adyacente solo a 1
+
+El centro puede ser 1,2,3,4,5,6.
+Si el centro es 1, existen bastantes combinaciones.
+Si en la región central se pone un 2, y los 9 en las esquinas.
+Si en el centro va 3, y la multiplicación no se puede pasar del 15.
+
+Tras analizar las restricciones y posibles configuraciones, la respuesta correcta es 8. Las posibilidades son bastante limitadas debido a la restricción del producto máximo de 15 entre regiones adyacentes.
+
+Respuesta: B)

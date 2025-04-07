@@ -1,0 +1,21 @@
+Reasoning: To determine the day of the week for a specific date, such as Thursday, we can use the concept of Zeller's Congruence. This formula calculates the day of the week for any date from January 1 through December 31 of any year.
+
+**Zeller's Congruence Formula:**
+
+Z = [(14 - m) / 12] + y + [(y + y/4) - (c + c/4)] + 2
+
+Where:
+
+• Z is the day of the week (0 = Sunday, 1 = Monday, ..., 6 = Saturday)  
+• m is the month (3 = March, 4 = April, ..., 12 = December, 13 = January)  
+• y is the year of the century (y century = year)  
+
+To find the day of the week for Thursday, we can plug in the values for the day and month as follows:
+
+Z = [(14 - 10) / 12] + 2023 + [(2023 + 2023/4) - (2 + 2/4)] + 2  
+Z = 4  
+
+So, Thursday corresponds to Z = 4.
+
+The final answer is B) **Thursday**.  
+Answer: B)

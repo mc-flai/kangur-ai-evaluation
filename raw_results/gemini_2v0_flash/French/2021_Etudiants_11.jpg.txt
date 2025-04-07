@@ -1,0 +1,20 @@
+Reasoning:
+Let the volume of a cylinder be V = πr^2h, where r is the radius and h is the height.
+
+Case 1: The paper is rolled so that the height of the cylinder is x and the circumference is y.  Thus, 2πr = y, so r = y/(2π).  The volume is then V1 = π(y/(2π))^2 * x = (πy^2x)/(4π^2) = (xy^2)/(4π).
+
+Case 2: The paper is rolled so that the height of the cylinder is y and the circumference is x. Thus, 2πr = x, so r = x/(2π).  The volume is then V2 = π(x/(2π))^2 * y = (πx^2y)/(4π^2) = (x^2y)/(4π).
+
+Since x > y, we have that x is the greater height and y is the smaller height. Therefore we want to find V1/V2:
+
+V1/V2 = [(xy^2)/(4π)] / [(x^2y)/(4π)] = (xy^2) / (x^2y) = y/x.
+
+Reasoning:
+The problem asks for the quotient of the volume of the cylinder with the greater height divided by the volume of the cylinder with the smaller height. Since x > y, the cylinder with height x will have radius y/(2π) and the cylinder with height y will have radius x/(2π).
+
+Volume with height x: V1 = π (y/(2π))^2 x = xy^2/(4π)
+Volume with height y: V2 = π (x/(2π))^2 y = x^2y/(4π)
+
+Then V1/V2 = (xy^2/(4π))/(x^2y/(4π)) = xy^2/(x^2y) = y/x.
+
+Answer: B)

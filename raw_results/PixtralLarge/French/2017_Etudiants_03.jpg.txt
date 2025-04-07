@@ -1,0 +1,11 @@
+La question 3 demande quel est le plus petit nombre de ponts à supprimer pour qu'il ne soit plus possible d'aller d'une des îles colorées en gris à l'autre.
+
+**Raisonnement** :
+Pour résoudre ce problème, nous devons identifier les ponts qui connectent les îles colorées en gris. L'objectif est de trouver le plus petit nombre de ponts à supprimer pour qu'il ne soit plus possible de se rendre d'une île grise à l'autre. En observant la figure, nous remarquons qu'il y a trois chemins distincts (ou ponts) reliant les îles grises. Ces chemins passent par les ponts suivants :
+1. Le pont reliant directement les deux îles grises.
+2. Le pont reliant une île grise à une île blanche qui est elle-même reliée à l'autre île grise.
+3. Le pont reliant une île grise à une autre île blanche qui est elle-même reliée à l'autre île grise par un autre pont.
+
+En supprimant ces trois ponts, il devient impossible d'aller d'une île grise à l'autre.
+
+**Réponse** : C) 3

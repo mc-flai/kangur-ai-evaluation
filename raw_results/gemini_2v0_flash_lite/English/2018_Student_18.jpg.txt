@@ -1,0 +1,16 @@
+Reasoning: We are looking for the number that is *not* a factor of 18^2017 + 18^2018.  We can simplify the expression: 18^2017 + 18^2018 = 18^2017 (1 + 18) = 18^2017 * 19.
+Now let's check each option:
+A) 8: Since 18 = 2*3^2, 18^2017 = 2^2017 * 3^4034.  18^2017*19 will have factors of 2 but to determine if 8 is a factor, we need at least three 2's so 8 is NOT a factor.
+B) 18: 18 = 18^1, and 18^2017 * 19 clearly contains 18 as a factor.
+C) 28 = 4 * 7 = 2^2 * 7.  18^2017 * 19 = 2^2017 * 3^4034 * 19. Since there is a factor of 19, but not a 7, this is not a factor.
+D) 38 = 2 * 19.  Since we have 2 and 19 as factors of 18^2017 * 19, then 38 is a factor.
+E) 48 = 16 * 3 = 2^4 * 3.  Since 18^2017 has 2^2017 and 3^4034, it must have factors of 2^4, and 3, so 48 can be a factor.
+
+To see why 8 is not a factor of 18^2017 + 18^2018, we can check the power of 2 in the expression:  18^2017 + 18^2018 = (2 * 3^2)^2017 + (2*3^2)^2018 = 2^2017 * 3^4034 + 2^2018 * 3^4036 = 2^2017 * 3^4034 * (1 + 2 * 3^2) = 2^2017 * 3^4034 * 19.
+The highest power of 2 is 2^2017, which is less than 2^3=8 so it is not divisible by 8.
+Now, we can check C. 18^2017 * 19 = 2^2017 * 3^4034 * 19. 28 = 2^2 * 7. So 7 is not a factor, and thus 28 is not.
+Therefore, 8, and 28 should be the answer.
+Also, if 18^2017 * 19 can be divided by 8, then 18^2017 should have at least three 2's as a factor.
+But 18^2017= (2*3*3)^2017 = 2^2017 * 3^4034.  Thus it does not have 2^3 as factor.
+
+Answer: A)

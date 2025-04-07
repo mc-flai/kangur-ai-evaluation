@@ -1,0 +1,20 @@
+Raonament: Per respondre aquesta pregunta, hem de considerar les cartes que ha tret el primer estudiant i les cartes que ha tret el segon estudiant. El primer estudiant ha tret 3 cartes, i el segon estudiant ha tret 2 cartes. Per tant, hi ha 5 cartes en total.
+
+L'enunciat diu que la suma dels nombres de les cartes del primer estudiant és un nombre parell. Ara hem de trobar la suma dels nombres de les cartes que podrien ser tretes per satisfer aquesta condició i provar tots els casos possibles.
+
+Les cartes estan numerades de l'1 al 7, per tant, les combinacions possibles de 3 cartes que sumen un nombre parell són:
+
+1. 1+2+3 = 6 (parell)
+2. 1+2+5 = 8 (parell)
+3. 1+2+7 = 10 (parell)
+4. 1+3+4 = 8 (parell)
+5. 1+3+6 = 10 (parell)
+6. 1+4+5 = 10 (parell)
+7. 2+3+4 = 9 (imparell)
+8. 2+3+5 = 10 (parell)
+9. 2+4+6 = 12 (parell)
+10. 3+4+5 = 12 (parell)
+
+D'aquestes combinacions, la suma dels nombres que són parells són 6, 8, 10 i 12. La suma dels nombres de les cartes del primer estudiant ha de ser un nombre parell.
+
+Resposta: B).

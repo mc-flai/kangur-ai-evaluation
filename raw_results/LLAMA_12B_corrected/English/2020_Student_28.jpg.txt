@@ -1,0 +1,15 @@
+**Reasoning:**
+
+To solve this problem, we need to understand the concept of divisors. A positive divisor of a number is a number that divides evenly into that number without leaving a remainder. For example, the divisors of 2020 are 1, 2, 4, 5, 10, 20, 101, 202, 404, 505, 1010, and 2020.
+
+Maria writes all the positive divisors of 2020 on cards and puts them in a box. Then she closes her eyes and starts taking these cards out of the box, one by one. She needs to find the number of cards she must take out of the box to make sure that among the cards taken there are two with numbers $a$ and $b$ such that $a$ is not a divisor of $b$ and $b$ is not a divisor of $a$.
+
+Let's analyze the situation:
+
+*   If Maria takes out only one card, it will not satisfy the condition because there will not be two cards with numbers $a$ and $b$ such that $a$ is not a divisor of $b$ and $b$ is not a divisor of $a$.
+*   If Maria takes out two cards, she might get lucky and get two cards where one is not a divisor of the other. However, this is not guaranteed because there might be pairs of numbers that are divisors of each other (e.g., 2 and 4).
+*   If Maria takes out three cards, she can guarantee that among these three cards there will be two cards with numbers $a$ and $b$ such that $a$ is not a divisor of $b$ and $b$ is not a divisor of $a$. This is because if she chooses any three numbers, one of them will not divide the others. For example, if a is a divisor of c, and b is also a divisor of a, then b will not divide c.
+
+Therefore, the correct answer is C) 3. Maria must take out at least three cards from the box to ensure that among them there are two cards with numbers $a$ and $b$ such that $a$ is not a divisor of $b$ and $b$ is not a divisor of $a$.
+
+**Answer:** C)

@@ -1,0 +1,21 @@
+Raonament:
+El nombre A és format per 2015 uns. Multiplicar A per 2015 és el mateix que multiplicar 2015 per 111...1 (2015 uns).
+Un exemple per entendre el patró:
+*   1111 * 2 = 2222. La suma de les xifres és 8.
+*   1111 * 3 = 3333. La suma de les xifres és 12.
+*   11 * 2 = 22. La suma de les xifres és 4.
+*   11 * 3 = 33. La suma de les xifres és 6.
+*   111 * 2 = 222. La suma de les xifres és 6.
+*   111 * 3 = 333. La suma de les xifres és 9.
+Observant aquests patrons, podem inferir que per calcular la suma de les xifres del producte, podem multiplicar la suma de les xifres del multiplicador original (2015) per 1 (ja que hi ha 2015 unos en A)
+La suma de les xifres de 2015 és 2+0+1+5 = 8.
+Si multipliquem A (2015 unos) per 2015, podem aproximar la solució a la suma de les xifres resultant com a (suma de les xifres de 2015) * (nombre d'uns en A) = 8 * 2015, el qual seria molt gran. Però cal entendre com es pot calcular la suma de les xifres del producte.
+En el cas de multiplicar 111 * 2 = 222 (suma xifres = 6 = 3*2)
+111 * 3 = 333 (suma xifres = 9 = 3 * 3)
+111 * 4 = 444 (suma xifres = 12 = 3 * 4)
+1111 * 2 = 2222 (suma xifres = 8 = 2*4)
+1111 * 3 = 3333 (suma xifres = 12 = 3*4)
+Podem deduir que el resultat es podrà expressar com la suma de les xifres de 2015 multiplicada per el nombre de xifres del primer factor.
+Aleshores, per a A * 2015, tenim (2+0+1+5) * (xifres A) = 8 * 2015 = 16120.
+
+Resposta: B)

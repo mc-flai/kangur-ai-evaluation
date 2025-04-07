@@ -1,0 +1,10 @@
+Reasoning:
+Let's analyze the given condition (a ◊ b) ◊ c = a ◊ (b ◊ c) using the definition x ◊ y = y - x.
+(a ◊ b) ◊ c = (b - a) ◊ c = c - (b - a) = c - b + a
+a ◊ (b ◊ c) = a ◊ (c - b) = (c - b) - a = c - b - a
+Now, we have c - b + a = c - b - a.
+Adding b to both sides gives c + a = c - a.
+Subtracting c from both sides gives a = -a.
+This is only true if a = 0.
+
+Answer: D)

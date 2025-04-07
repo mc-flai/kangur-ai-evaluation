@@ -1,0 +1,11 @@
+Raisonnement :
+La question nous demande quel motif ne peut pas être réalisé avec cinq pièces du modèle fourni. Chaque pièce a deux cases. Donc, avec cinq pièces, on peut couvrir 10 cases.
+On compte le nombre de cases dans chaque option. Ensuite, on vérifie si le motif peut être réalisé avec les pièces en forme d'un carré avec une étoile et un carré avec un cercle.
+
+Option A: 3x3 cases, total 9 cases, utilisable
+Option B: 3x3 cases, total 9 cases, utilisable
+Option C: 3x4 cases, total 12 cases, non utilisable car on a que 10 cases disponibles, ou car il y a 2 étoiles et 2 cercles côte à côte.
+Option D: 3x4 cases, total 12 cases, non utilisable car on a que 10 cases disponibles, ou car il y a 2 étoiles et 2 cercles côte à côte.
+Option E: 3x3 cases, total 9 cases, utilisable
+
+Réponse : C)

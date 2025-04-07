@@ -1,0 +1,10 @@
+**Raonament**:
+1. El problema ens demana trobar el número més gran i el més petit de 3 xifres tal que la suma dels seus dígits sigui 8.
+2. El número més gran possible amb tres xifres és 999. Per trobar el número més gran amb dígits que sumin 8, hem de començar amb el dígit més gran possible al lloc de les centenes i després distribuir els dígits restants de manera que els dígits sumin 8.
+3. Si posem 9 al lloc de les centenes, necessitem que la suma dels dos dígits restants sigui 8 - 9 = -1, que no és possible. Per tant, el dígit de les centenes no pot ser 9.
+4. Provem amb 8 al lloc de les centenes. La suma dels dos dígits restants ha de ser 8 - 8 = 0. Per tant, els dígits restants són 0 i 0. Així, el número més gran és 800.
+5. Ara, per trobar el número més petit amb dígits que sumin 8, hem de començar amb el dígit més petit possible al lloc de les centenes i després distribuir els dígits restants de manera que els dígits sumin 8.
+6. Si posem 1 al lloc de les centenes, necessitem que la suma dels dos dígits restants sigui 8 - 1 = 7. El número més petit que podem formar és 170.
+7. Finalment, sumem aquests dos números: 800 + 170 = 970.
+
+**Resposta**: C) 970.

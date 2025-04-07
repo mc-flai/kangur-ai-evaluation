@@ -1,0 +1,25 @@
+### Raonament:
+L'expressió general donada és \( n = 10^m + 1 \) que és un múltiple de 11. Per comprovar si un nombre és un múltiple de 11, podem usar la regla del 11, que diu que un nombre és divisible per 11 si la suma de les seves xifres en posicions parells menys la suma de les seves xifres en posicions imparells és divisible per 11.
+
+Comencem amb l'expressió \( 10^m + 1 \):
+1. \( 10^m \) és un nombre que té un 1 seguit de \( m \) zeros.
+2. La suma de les xifres de \( 10^m \) és 1.
+3. Afegeix 1 a aquest nombre: 1 + 1 = 2.
+
+Per tant, la suma de les xifres de \( 10^m + 1 \) és 2. Ara, comprovem si 2 és divisible per 11:
+- 2 no és divisible per 11.
+
+Però, si considerem \( 10^m + 1 \) com un nombre general, podem comprovar si és divisible per 11 mitjançant la regla del 11. Si \( 10^m + 1 \) és divisible per 11, llavors \( n \) ha de ser una expressió que compleixi aquesta condició.
+
+Comprovem les opcions:
+- A) \( n = 2m \): No és una expressió que compleixi \( 10^m + 1 \).
+- B) \( n = 2m + 1 \): No és una expressió que compleixi \( 10^m + 1 \).
+- C) \( n = 4m \): No és una expressió que compleixi \( 10^m + 1 \).
+- D) \( n = 4m + 1 \): No és una expressió que compleixi \( 10^m + 1 \).
+- E) \( n = 4m + 2 \): No és una expressió que compleixi \( 10^m + 1 \).
+
+Comprovem si alguna d'aquestes opcions és divisible per 11:
+- \( 10^m + 1 \) no és divisible per 11 directament, però si considerem \( 10^m + 1 \) com un nombre general, podem comprovar si és divisible per 11 mitjançant la regla del 11.
+
+### Resposta:
+E) \( n = 4m + 2 \)

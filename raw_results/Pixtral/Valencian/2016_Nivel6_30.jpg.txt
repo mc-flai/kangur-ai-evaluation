@@ -1,0 +1,18 @@
+La pregunta 30 pregunta sobre el nom màxim de cordes que es poden dibuixar entre parelles d'aquells punts en una circumferència, sense que s'intersequen en el punt interior al cercle.
+
+Per resoldre aquesta pregunta, primer cal entendre el concepte de cordes en una circumferència. Una corda és una línia recta que connecta dos punts en la circumferència. El nom màxim de cordes que es poden dibuixar sense que s'intersequen és quan connectem cada punt amb cada altre punt, formant un gràfic complet.
+
+Per a un nombre de punts \( n \), el nombre de cordes és donat per la fórmula:
+\[ \text{Nombre de cordes} = \frac{n(n-1)}{2} \]
+
+Per a \( n = 4029 \):
+\[ \text{Nombre de cordes} = \frac{4029 \times (4029-1)}{2} = \frac{4029 \times 4028}{2} = 8057188 \]
+
+Per a \( n = 4031 \):
+\[ \text{Nombre de cordes} = \frac{4031 \times (4031-1)}{2} = \frac{4031 \times 4030}{2} = 8121485 \]
+
+Per tant, el nom màxim de cordes que es poden dibuixar sense que s'intersequen en el punt interior al cercle és 8057188 per a 4029 punts.
+
+Raonament: El concepte de cordes en una circumferència i el càlcul del nom màxim de cordes són claus per resoldre aquesta pregunta. La resposta correcta és l'opció que correspon al nombre de punts 4029.
+
+Resposta: C)

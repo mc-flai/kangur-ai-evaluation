@@ -1,0 +1,29 @@
+Para resolver este problema, debemos determinar cuántos números de tres cifras de la forma ABA (donde A y B son iguales o diferentes) podemos escribir. Consideremos las siguientes restricciones:
+
+1. A no debe ser 0, ya que se trata de un número de tres cifras.
+2. A y B pueden ser iguales o diferentes.
+3. A puede tomar cualquier valor del 1 al 9.
+4. B puede tomar cualquier valor del 0 al 9.
+
+Primero, vamos a considerar los casos en los que A y B son iguales:
+
+- Los dígitos posibles para A son del 1 al 9 (9 opciones).
+- Por lo tanto, hay 9 números posibles donde A y B son iguales.
+
+Ahora, consideremos los casos en los que A y B son diferentes:
+
+- A puede tomar cualquiera de los 9 valores.
+- B puede tomar cualquiera de los 10 valores.
+- Sin embargo, en el caso de que A y B sean diferentes, tenemos que multiplicar las opciones para A y para B y restar los casos donde A y B son iguales.
+
+Por lo tanto, el número total de combinaciones posibles es:
+
+Total = (opciones para A) * (opciones para B) - (casos donde A y B son iguales)
+
+Total = 9 * 10 - 9 = 90 - 9 = 81
+
+Por lo tanto, el número total de números capicúas de tres cifras es 81.
+
+Razonamiento: El número total de números capicúas de tres cifras se calcula considerando los casos en los que A y B son iguales y los casos en los que son diferentes. Se multiplica el número de opciones para A y B y se restan los casos en los que A y B son iguales.
+
+Respuesta: D)

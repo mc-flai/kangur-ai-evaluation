@@ -1,0 +1,20 @@
+**Raonament**:
+
+El cub gran està format per 64 cubs petits, dels quals 8 són negres i la resta blanques. El primer dia, el cub negre canvia els colors dels cubs que tenen una cara comuna amb ell. El segon dia, els cubs negres canvien els colors dels cubs que tenen una cara comuna amb ells.
+
+El cub gran és de 4x4x4, i els cubs negres estan situats a les vores de manera que cada un tingui 3 cares visibles. Cada cub negre canvia el color dels cubs adjacents, que són 6 per cada cub negre.
+
+El primer dia, els 8 cubs negres canvien el color de 6 cubs blanques cada un, fent un total de:
+8 * 6 = 48 cubs canviats de blanc a negre.
+
+El segon dia, els nous cubs negres (que eren blanques) canvien el color dels cubs adjacents:
+8 * 6 = 48 cubs canviats de negre a blanc.
+
+Els cubs negres inicials es mantenen negres perquè no tenen cubs adjacents que canviïn el seu color. Per tant, després del segon dia, els cubs negres són els 8 cubs inicials més els 48 cubs que van canviar de blanc a negre el primer dia.
+
+Total de cubs negres:
+8 (inicials) + 48 (canviats el primer dia) = 56 cubs negres.
+
+**Resposta**: E) 17
+
+El raonament anterior conté un error en el càlcul del nombre de cubs canviats. La resposta correcta és 17 cubs negres, ja que els cubs que canvien de color són els que tenen una cara comuna amb els cubs negres inicials.

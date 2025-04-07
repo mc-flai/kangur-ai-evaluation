@@ -1,0 +1,9 @@
+Razonamiento:
+El problema nos dice que Sara usa cuadraditos de lados 1 y 2. Necesitamos encontrar la medida del lado del cuadrado más pequeño que Sara puede construir usando la misma cantidad de cuadraditos de cada tipo.
+Para que se pueda construir un cuadrado, el área total debe ser un cuadrado perfecto.
+Si usamos 'n' cuadraditos de lado 1 y 'n' cuadraditos de lado 2, el área total de los cuadraditos será n * 1^2 + n * 2^2 = n + 4n = 5n.
+Para que 5n sea un cuadrado perfecto, n debe ser un múltiplo de 5. El caso más simple sería n=5.
+Si n = 5, el área total es 5 * 5 = 25. El lado del cuadrado es la raíz cuadrada del área, que es √25 = 5.
+Por lo tanto, la medida del lado del cuadrado más pequeño que Sara puede construir es 5.
+
+Respuesta: A)

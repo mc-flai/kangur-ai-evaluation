@@ -1,0 +1,11 @@
+Reasoning:
+Let $T$ be the sum of the numbers covered by triangles, $S$ be the sum of the numbers covered by squares, and $C$ be the number covered by the circle.
+We are given that $T = S$ and $C = \frac{1}{4}S$. Also, the numbers on the board are 1 to 8, and their sum is $1+2+3+4+5+6+7+8 = \frac{8(8+1)}{2} = \frac{8 \times 9}{2} = 36$.
+Since the triangles, squares, and circle cover all the numbers from 1 to 8, we have $T + S + C = 36$.
+Substituting $T = S$ and $C = \frac{1}{4}S$, we get $S + S + \frac{1}{4}S = 36$.
+This simplifies to $\frac{9}{4}S = 36$, so $S = \frac{4}{9} \times 36 = 4 \times 4 = 16$.
+Since $T = S$, we have $T = 16$.
+And since $C = \frac{1}{4}S$, we have $C = \frac{1}{4} \times 16 = 4$.
+We need to find the sum of the numbers covered with the triangles and the circle, which is $T + C = 16 + 4 = 20$.
+
+Answer: C)

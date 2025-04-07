@@ -1,0 +1,28 @@
+### Raonament:
+
+1. **Identificar el problema**: Estem treballant amb un cuboide (rectàngul parel·lelepípede) que té exactament 2020 petits cubs. El problema és determinar el nombre màxim de cubs interiors que no tenen cap cara visible des de l'exterior del cuboide.
+
+2. **Entendre el concepte de cubs interiors**: Els cubs interiors són aquells que no són part de la capa exterior del cuboide. Per maximitzar el nombre de cubs interiors, hem de minimitzar la mida de la capa exterior.
+
+3. **Calcular la mida de la capa exterior**:
+   - La capa exterior d'un cuboide consisteix en les capes més externes de cubs.
+   - Per a un cuboide amb dimensions \( l \times w \times h \), la capa exterior té \( 2(lw + lh + wh) \) cubs.
+
+4. **Determinar les dimensions del cuboide**:
+   - Si el cuboide té 2020 cubs, llavors \( l \times w \times h = 2020 \).
+   - Per minimitzar la mida de la capa exterior, hem de trobar dimensions \( l, w, h \) que maximitzin el volum interior.
+
+5. **Calcular el nombre de cubs interiors**:
+   - El nombre de cubs interiors és \( 2020 - 2(lw + lh + wh) \).
+   - Per maximitzar el nombre de cubs interiors, minimitzem \( 2(lw + lh + wh) \).
+
+6. **Probar les opcions**:
+   - A) 505: No és una opció viable perquè no és un nombre que es pugui obtenir amb una combinació de dimensions que sumin 2020.
+   - B) 606: No és una opció viable perquè no és un nombre que es pugui obtenir amb una combinació de dimensions que sumin 2020.
+   - C) 303: No és una opció viable perquè no és un nombre que es pugui obtenir amb una combinació de dimensions que sumin 2020.
+   - D) 570: No és una opció viable perquè no és un nombre que es pugui obtenir amb una combinació de dimensions que sumin 2020.
+   - E) 594: No és una opció viable perquè no és un nombre que es pugui obtenir amb una combinació de dimensions que sumin 2020.
+
+### Resposta:
+
+E) 594

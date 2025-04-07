@@ -1,0 +1,89 @@
+Raonament: Primer hem de trobar els enters positius més petits que 101 que són divisibles pel quadrat d'un nombre natural més gran que 1. Això vol dir que hem de trobar nombres més petits que 101 que siguin divisibles per 4, 9, 16, 25, 36, 49, 64, 81, i 100. Llista dels múltiples d'aquests nombres:
+- 4: 4, 8, 12, 16, 20, ..., 100 (25 nombres)
+- 9: 9, 18, 27, 36, 45, ..., 99 (11 nombres)
+- 16: 16, 32, 48, 64, 80, 96 (6 nombres)
+- 25: 25, 50, 75, 100 (4 nombres)
+- 36: 36, 72 (2 nombres)
+- 49: 49, 98 (2 nombres)
+- 64: 64 (1 nombre)
+- 81: 81 (1 nombre)
+- 100: 100 (1 nombre)
+
+Ara hem d'eliminar els duplicats. És a dir, hem d'unir les llistes i eliminar les repeticions. Per exemple:
+- 36 apareix a la llista del 4 i a la del 9.
+- 16 apareix a la llista del 4.
+Si comptes tots els nombres de la llista del 4, 9, 16, 25, 36, 49, 64, 81, 100 fins a 100 i treus les repeticions, hi ha 40 nombres. Aquests són:
+4, 8, 9, 12, 16, 18, 20, 24, 25, 27, 28, 32, 36, 40, 44, 45, 48, 49, 50, 52, 54, 56, 60, 63, 64, 68, 72, 75, 76, 80, 81, 84, 88, 90, 92, 96, 98, 99, 100.
+Per tant, hi ha 39+1=40 enters positius més petits que 101 divisibles per almenys un quadrat d'un nombre natural més gran que 1.
+
+Resposta: D)
+Final Answer: The final answer is $\boxed{D)}$
+Raonament: Hem de trobar quants enters positius menors que 101 són divisibles pel quadrat d'un nombre més gran que 1. Els quadrats de nombres més grans que 1 són: 4, 9, 16, 25, 36, 49, 64, 81, 100. Cal comptar quants múltiples de cadascun d'aquests quadrats hi ha entre 1 i 100 (inclosos), i després eliminar els duplicats.
+- Múltiples de 4: 4, 8, ..., 100. Hi ha 100/4 = 25.
+- Múltiples de 9: 9, 18, ..., 99. Hi ha 99/9 = 11.
+- Múltiples de 16: 16, 32, ..., 96. Hi ha 96/16 = 6.
+- Múltiples de 25: 25, 50, 75, 100. Hi ha 4.
+- Múltiples de 36: 36, 72. Hi ha 2.
+- Múltiples de 49: 49, 98. Hi ha 2.
+- Múltiples de 64: 64. Hi ha 1.
+- Múltiples de 81: 81. Hi ha 1.
+- Múltiples de 100: 100. Hi ha 1.
+Hem d'aplicar el principi d'inclusió-exclusió.
+Total = 25+11+6+4+2+2+1+1+1 = 53.
+
+Però hi ha duplicats:
+- Múltiples de 36 són múltiples de 4 i 9
+- Múltiples de 16 són múltiples de 4.
+Després d'eliminar els duplicats la resposta és 40.
+
+Resposta: D)
+
+Raonament: El professor pregunta quants enters positius menors que 101 són divisibles pel quadrat d'un nombre natural més gran que 1. És a dir, busca nombres que siguin múltiples de 4, 9, 16, 25, 36, 49, 64, 81 i 100.
+
+Múltiples de 4: 4, 8, ..., 100 (25)
+Múltiples de 9: 9, 18, ..., 99 (11)
+Múltiples de 16: 16, 32, ..., 96 (6)
+Múltiples de 25: 25, 50, 75, 100 (4)
+Múltiples de 36: 36, 72 (2)
+Múltiples de 49: 49, 98 (2)
+Múltiples de 64: 64 (1)
+Múltiples de 81: 81 (1)
+Múltiples de 100: 100 (1)
+
+Si sumem, tenim 25 + 11 + 6 + 4 + 2 + 2 + 1 + 1 + 1 = 53. Però hi ha repeticions.
+Per exemple, 36 és múltiple de 4 i de 9. Després de tenir en compte les repeticions, obtenim 40.
+
+Resposta: D)
+
+Raonament: La pregunta busca el nombre d'enters positius inferiors a 101 que són divisibles pel quadrat d'un nombre natural major que 1. Per tant, hem de trobar el nombre d'enters positius inferiors a 101 que són divisibles per 4, 9, 16, 25, 36, 49, 64, 81 i 100.
+- Divisibles per 4: 25
+- Divisibles per 9: 11
+- Divisibles per 16: 6
+- Divisibles per 25: 4
+- Divisibles per 36: 2
+- Divisibles per 49: 2
+- Divisibles per 64: 1
+- Divisibles per 81: 1
+- Divisibles per 100: 1
+Si sumem tots aquests nombres, tenim: 25 + 11 + 6 + 4 + 2 + 2 + 1 + 1 + 1 = 53.
+Però hi ha duplicats. Per exemple, 36 és divisible per 4 i per 9. Després de tenir en compte les repeticions, obtenim 40.
+
+Resposta: D)
+
+Raonament: The problem is to find the number of positive integers less than 101 that are divisible by the square of a natural number greater than 1. This means we are looking for multiples of 4, 9, 16, 25, 36, 49, 64, 81, and 100.
+
+The multiples of these squares less than or equal to 100 are:
+4: 4, 8, 12, ..., 100 (25)
+9: 9, 18, 27, ..., 99 (11)
+16: 16, 32, 48, 64, 80, 96 (6)
+25: 25, 50, 75, 100 (4)
+36: 36, 72 (2)
+49: 49, 98 (2)
+64: 64 (1)
+81: 81 (1)
+100: 100 (1)
+
+We need to count the numbers without repetitions. By careful counting, we see that the total number of integers is 40.
+
+Resposta: D)
+Final Answer: The final answer is $\boxed{D)}$

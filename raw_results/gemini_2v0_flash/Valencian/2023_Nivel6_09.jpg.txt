@@ -1,0 +1,4 @@
+Raonament: Sigui el polinomi de grau 5 donat per $P(x) = a_5 x^5 + a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0$, on cada coeficient $a_i$ és 1 o -1. Si 1 és una arrel de $P(x)$, llavors $P(1) = 0$.
+Això significa que $a_5 + a_4 + a_3 + a_2 + a_1 + a_0 = 0$. Com que cada $a_i$ és 1 o -1, per a que la suma sigui 0, necessitem que hi hagi 3 coeficients iguals a 1 i 3 coeficients iguals a -1. El nombre de maneres de triar 3 posicions (per a que els coeficients corresponents siguin iguals a 1) entre 6 posicions és $\binom{6}{3} = \frac{6!}{3!3!} = \frac{6 \times 5 \times 4}{3 \times 2 \times 1} = 20$.
+
+Resposta: D)

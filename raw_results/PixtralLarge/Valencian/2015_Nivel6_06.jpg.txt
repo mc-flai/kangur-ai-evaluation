@@ -1,0 +1,45 @@
+Per trobar el valor de \( f(5) \) donada la funció \( f(x) = ax^{2015} + bx - 1010 \), necessitem determinar els valors de \( a \) i \( b \).
+
+Primer, sabem que \( f(-5) = 5 \). Això significa:
+\[
+f(-5) = a(-5)^{2015} + b(-5) - 1010 = 5
+\]
+
+Observa que \((-5)^{2015} = -5^{2015}\) perquè 2015 és un número imparell. Per tant, l'equació esdevé:
+\[
+-a(5^{2015}) - 5b - 1010 = 5
+\]
+
+Simplifiquem:
+\[
+-a(5^{2015}) - 5b = 1015
+\]
+
+Per trobar \( f(5) \), substituïm \( x = 5 \) en la funció \( f(x) \):
+\[
+f(5) = a(5)^{2015} + 5b - 1010
+\]
+
+De l'equació anterior, sabem que:
+\[
+-a(5^{2015}) - 5b = 1015
+\]
+
+Per tant,
+\[
+a(5^{2015}) + 5b = -1015
+\]
+
+Sabem que:
+\[
+f(5) = a(5)^{2015} + 5b - 1010
+\]
+
+Substituïm \( a(5^{2015}) + 5b \) per \(-1015\):
+\[
+f(5) = -1015 - 1010 = -2025
+\]
+
+Raonament: Hem utilitzat el valor conegut de \( f(-5) \) per determinar la relació entre \( a(5^{2015}) \) i \( 5b \), i això ens ha permès calcular \( f(5) \).
+
+Resposta: B) -2025

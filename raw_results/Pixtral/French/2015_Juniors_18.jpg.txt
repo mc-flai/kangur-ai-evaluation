@@ -1,0 +1,19 @@
+
+Raisonnement :
+1. Le problème indique que le carré WXYZ a une aire de 16.
+2. Les points S, T, U et V sont sur les côtés du carré tels que WS = XT = YU = ZV.
+3. L'aire de la partie grisée de la figure est donnée par WS * SX.
+4. Nous devons déterminer l'aire de la partie grisée en utilisant l'équation WS = 3 * SX.
+
+Pour trouver l'aire de la partie grisée :
+- L'aire totale du carré est de 16.
+- L'aire de la partie grisée est WS * SX.
+- D'après l'équation WS = 3 * SX, nous pouvons écrire l'aire de la partie grisée comme 3 * SX * SX = 3 * (SX)^2.
+- En utilisant l'aire totale du carré, nous avons (SX + WS) * (SX + XS) = 16.
+- En substituant WS = 3 * SX, nous obtenons (SX + 3 * SX) * (SX + XS) = 16.
+- Simplifiant, nous obtenons 4 * SX * (SX + XS) = 16.
+- En supposant que XS = SX (car il s'agit d'un carré), nous obtenons 4 * (SX)^2 = 16.
+- En résolvant pour SX, nous obtenons (SX)^2 = 4, donc SX = 2.
+- Par conséquent, l'aire de la partie grisée est 3 * (SX)^2 = 3 * 4 = 12.
+
+Réponse : C

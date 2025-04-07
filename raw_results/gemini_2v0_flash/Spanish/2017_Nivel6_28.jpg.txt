@@ -1,0 +1,22 @@
+Razonamiento:
+Tenemos dos ecuaciones:
+1) |x| + x + y = 5
+2) x + |y| - y = 10
+
+Consideremos dos casos para la ecuación 1:
+Caso 1: x >= 0. Entonces |x| = x. La ecuación se convierte en 2x + y = 5, o y = 5 - 2x
+Caso 2: x < 0. Entonces |x| = -x. La ecuación se convierte en -x + x + y = 5, o y = 5
+
+Ahora consideremos dos casos para la ecuación 2:
+Caso A: y >= 0. Entonces |y| = y. La ecuación se convierte en x + y - y = 10, o x = 10
+Caso B: y < 0. Entonces |y| = -y. La ecuación se convierte en x - y - y = 10, o x - 2y = 10, o x = 10 + 2y
+
+Combinemos los casos:
+1A: x >= 0, y >= 0.  y = 5 - 2x y x = 10.  Entonces y = 5 - 2(10) = 5 - 20 = -15.  Esto contradice y >= 0, por lo que esta combinación no es válida.
+1B: x >= 0, y < 0.  y = 5 - 2x y x = 10 + 2y. Sustituyendo x = 10 + 2y en y = 5 - 2x, obtenemos y = 5 - 2(10 + 2y) = 5 - 20 - 4y, o y = -15 - 4y, o 5y = -15, o y = -3.  Luego x = 10 + 2(-3) = 10 - 6 = 4.  En este caso, x + y = 4 + (-3) = 1.
+2A: x < 0, y >= 0.  y = 5 y x = 10. Esto contradice x < 0, por lo que esta combinación no es válida.
+2B: x < 0, y < 0.  y = 5 y x = 10 + 2y.  Esto contradice y < 0, por lo que esta combinación no es válida.
+
+Por lo tanto, la única solución es x = 4 y y = -3.  Entonces x + y = 4 + (-3) = 1.
+
+Respuesta: A)

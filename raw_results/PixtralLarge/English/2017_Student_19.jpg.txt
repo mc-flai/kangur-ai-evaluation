@@ -1,0 +1,39 @@
+To solve for the length of side AD in the convex quadrilateral ABCD with perpendicular diagonals, we use the Pythagorean theorem. The diagonals of a quadrilateral that are perpendicular intersect at a right angle, allowing us to treat the quadrilateral as two right triangles.
+
+Given:
+- AB = 2017
+- BC = 2018
+- CD = 2019
+
+We can split the problem into two right triangles: triangle ABD and triangle BCD.
+
+Using the Pythagorean theorem in triangles ABD and BCD:
+
+1. For triangle ABD:
+\[ AD^2 = AB^2 + BD^2 \]
+
+2. For triangle BCD:
+\[ AD^2 = CD^2 + BD^2 \]
+
+Since the diagonals are perpendicular, BD is the common side for both triangles.
+
+Let's denote BD as x. Then we have:
+\[ AD^2 = 2017^2 + x^2 \]
+\[ AD^2 = 2019^2 + x^2 \]
+
+Equating the two expressions for AD, we get:
+\[ 2017^2 + x^2 = 2019^2 + x^2 \]
+
+Simplifying:
+\[ 2017^2 = 2019^2 \]
+
+Calculating the difference:
+\[ 2019^2 - 2017^2 = (2019 - 2017)(2019 + 2017) = 2(4036) = 8072 \]
+
+Therefore, the correct length of AD is:
+\[ \sqrt{2020^2 - 4} = \sqrt{2019^2 + 1} = 2019 \]
+
+Thus, the correct answer is C), \(\sqrt{2020^2 - 4}\).
+
+Reasoning: Using the Pythagorean theorem and the properties of perpendicular diagonals in a quadrilateral, we can determine the length of side AD.
+Answer: C)

@@ -1,0 +1,24 @@
+To determine the gradient of the straight line that goes through the point (75,30) and divides the remaining part of the rectangle into two parts with equal area, we need to consider the symmetry and geometry of the problem.
+
+The given rectangle has vertices at (0,0), (100,0), (100,50), and (0,50). The circle with midpoint (75,30) and radius 10 is symmetrically placed within this rectangle.
+
+For the line to divide the remaining part of the rectangle into two equal areas, it must pass through the midpoint of the rectangle, which is the center of the rectangle. The center of the rectangle can be calculated as the average of the x-coordinates and the y-coordinates of the vertices:
+
+Center = ((0+100)/2, (0+50)/2) = (50, 25)
+
+The line must pass through both (75,30) and (50,25).
+
+To find the gradient (slope) of the line, we use the formula for the slope between two points (x1, y1) and (x2, y2):
+
+Slope (m) = (y2 - y1) / (x2 - x1)
+
+Substituting the points (75,30) and (50,25):
+
+m = (25 - 30) / (50 - 75)
+m = (-5) / (-25)
+m = 1/5
+
+Therefore, the gradient of the line is 1/5.
+
+Reasoning: The gradient of the line that passes through the points (75,30) and (50,25) is calculated to be 1/5.
+Answer: A).

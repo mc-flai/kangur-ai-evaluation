@@ -1,0 +1,16 @@
+Raonament: Siguin $x, y, z$ els pesos dels tres cangurs, amb $x < y < z$. Volem trobar el màxim valor possible de $x$ tal que $x + y + z = 97$. Per maximitzar $x$, hem de minimitzar $y$ i $z$. Atès que els pesos són diferents, podem expressar $y$ com $x+1$ i $z$ com $y+1 = x+2$.
+Aleshores, tenim $x + (x+1) + (x+2) = 97$, que simplifica a $3x + 3 = 97$, o $3x = 94$. En aquest cas, $x = 94/3 \approx 31.33$. Atès que $x$ ha de ser un nombre enter, $x$ pot ser com a màxim 31.
+Si $x=31$, llavors $y=32$ i $z=33$. La suma és $31+32+33 = 96$. Això no compleix la condició que la suma ha de ser 97.
+
+Si $x=31$, hem de buscar tres nombres enters diferents, el més petit dels quals és 31, i que sumin 97.
+Si volem que 31 sigui el màxim possible del més lleuger, hem de prendre $x=31$, i minimitzar $y$ i $z$. Per tant, $y=x+1=32$ i $z=x+2=33$. Això dóna una suma de $31+32+33 = 96$, que és inferior a 97.
+Necessitem augmentar un dels valors en 1 per obtenir 97. Si augmentem $z$, podem tenir $x=31, y=32, z=34$. Llavors $31+32+34=97$. Per tant, el pes màxim que pot tenir el cangur més lleuger és 31.
+
+Considerem si la resposta pogués ser 32. Aleshores, $x=32$. Hem de tenir $x=32, y>32, z>y$. Si volem minimitzar $y$ i $z$, podem tenir $y=33$ i $z=34$. Llavors $32+33+34=99>97$.
+Si intentem que la resposta sigui 33, aleshores $x=33$. Hem de tenir $y>33$ i $z>y$. Si volem minimitzar $y$ i $z$, podem tenir $y=34$ i $z=35$. Llavors $33+34+35=102>97$.
+
+Per tant, la màxima que pot tenir el cangur més lleuger és 31 kg.
+
+Raonament: Hem de trobar el màxim possible del valor més petit, $x$, dels tres cangurs que tenen pesos diferents i sumen 97. Sigui $x$ el pes del cangur més lleuger. El següent cangur ha de pesar almenys $x+1$, i el més pesat almenys $x+2$. La suma d'aquests pesos mínims és $x + (x+1) + (x+2) = 3x + 3$. Per maximitzar $x$, hem de tenir $3x + 3 \le 97$. Això implica $3x \le 94$, o $x \le 94/3 = 31.333...$. Com que $x$ ha de ser un enter, el màxim possible per a $x$ és 31. Si $x=31$, llavors els altres cangurs han de pesar més de 31. Perquè la suma sigui 97, podem tenir $31 + 32 + 34 = 97$. Aquesta és una solució vàlida. Si $x=32$, llavors els altres cangurs han de pesar més de 32, per exemple, 33 i 34, donant $32 + 33 + 34 = 99 > 97$. Per tant, 32 no pot ser el màxim possible.
+
+Resposta: C)

@@ -1,0 +1,64 @@
+**Pregunta:** Una corda de longitud 40 m es divideix en dos de longituds diferents. Amb les dues cordes resultants es formen dos quadrats diferents que tenen com a longitud del costat un nombre enter. La suma de les àrees dels dos quadrats és 68 m². Quina és la diferència entre les àrees dels dos quadrats?
+
+**Opcions:**
+A) 20 m²
+B) 28 m²
+C) 36 m²
+D) 40 m²
+E) 60 m²
+
+**Racionalització:**
+1. Denotem les longituds dels costats dels quadrats com \( a \) i \( b \), on \( a \) i \( b \) són enteres.
+2. La suma de les àrees dels dos quadrats és donada com 68 m². D'aquí, tenim:
+   \[
+   a^2 + b^2 = 68
+   \]
+3. La longitud total de la corda és 40 m, així que:
+   \[
+   a + b = 40
+   \]
+4. Per trobar la diferència entre les àrees dels dos quadrats, calculem \( a^2 - b^2 \):
+   \[
+   a^2 - b^2 = (a + b)(a - b)
+   \]
+5. Sabem que \( a + b = 40 \). Substituïm aquest valor:
+   \[
+   a^2 - b^2 = 40(a - b)
+   \]
+6. Per trobar \( a - b \), usem les dues equacions:
+   \[
+   a^2 + b^2 = 68
+   \]
+   \[
+   a + b = 40
+   \]
+7. Squerem la segona equació:
+   \[
+   (a + b)^2 = 40^2
+   \]
+   \[
+   a^2 + 2ab + b^2 = 1600
+   \]
+8. Substituïm \( a^2 + b^2 = 68 \) a la fórmula anterior:
+   \[
+   68 + 2ab = 1600
+   \]
+   \[
+   2ab = 1532
+   \]
+   \[
+   ab = 766
+   \]
+9. Ara, usem \( a + b = 40 \) i \( ab = 766 \) per trobar \( a - b \):
+   \[
+   (a + b)(a - b) = 40(a - b) = 1532
+   \]
+   \[
+   a - b = \frac{1532}{40} = 38.3
+   \]
+10. La diferència entre les àrees dels dos quadrats és:
+    \[
+    a^2 - b^2 = 40(a - b) = 40 \times 38.3 = 1532
+    \]
+
+**Resposta:** D) 40 m²

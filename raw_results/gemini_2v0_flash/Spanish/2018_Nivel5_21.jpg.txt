@@ -1,0 +1,16 @@
+Razonamiento:
+Si hay 2018 números escritos en la pizarra y uno de ellos es 2018, entonces los otros 2017 números deben sumar cero. Esto se puede lograr si tenemos 1008 números iguales a 1 y 1009 números iguales a -1. El producto de todos los números sería 2018 * 1^(1008) * (-1)^(1009) = 2018 * (-1) = -2018. Esto no satisface la condición.
+Si tenemos 2018 enteros escritos y uno de ellos es 2018, y el producto es 2018, entonces los restantes 2017 enteros deben multiplicar a 1. La forma más sencilla de lograr esto es que todos los números restantes sean 1. En este caso, la suma sería 2018 + 2017(1) = 4035, lo cual no satisface la condición. Necesitamos que la suma sea 2018.
+Consideremos 2018 números escritos en la pizarra. Uno de ellos es 2018, y el resto son unos. La suma es 2018 + 2017*1 = 4035. El producto es 2018 * 1^2017 = 2018. Entonces la suma no funciona. Necesitamos lograr una suma de 2018 manteniendo un producto de 2018.
+Consideremos tener el número 2018 en la lista, y luego un cierto número de 1's. Digamos que tenemos n 1's. Entonces el producto sería 2018 * 1^n = 2018. La suma sería 2018 + n*1 = 2018 + n. Queremos que esta suma sea 2018, así que 2018 + n = 2018, lo cual significa que n = 0. Es decir, solo hay un número escrito en la pizarra, y ese número es 2018. Pero la pregunta dice que hay varios números escritos en la pizarra.
+Necesitamos que haya al menos un número diferente de 2018 en la pizarra. Supongamos que agregamos un 1. Para mantener el producto en 2018, debemos agregar otro número que sea 1. Para mantener la suma en 2018, debemos agregar números que sumen cero.  Supongamos que tenemos el número 2018 y luego los números 1 y -1.  El producto es 2018 * 1 * (-1) = -2018.  La suma es 2018 + 1 - 1 = 2018.  Sin embargo, el producto es incorrecto.
+En lugar de agregar un 1, podríamos dividir el número en 2018 = 2 * 1009. Si ponemos 2 y 1009, y luego colocamos varios unos, entonces podemos intentar manipular.  Pero esto parece complicado.
+Supongamos que ponemos 2018 y luego ponemos un -1. Necesitamos otro número que sea -1 para que la suma sea 2018. Entonces, si solo tenemos 3 números en la pizarra: 2018, -1, y x. Entonces la suma es 2018 - 1 + x = 2018, que implica que x = 1.  Entonces tenemos 2018, -1, 1. El producto es 2018 * (-1) * (1) = -2018.
+Supongamos que hay 2019 números.  Un número es 2018. Entonces la suma de los otros 2018 números debe ser cero.  El producto de los otros 2018 números debe ser 1.  Necesitamos tener la misma cantidad de 1 y -1. Si ponemos 1009 números iguales a 1, y 1009 números iguales a -1, la suma es cero y el producto es -1, lo cual es incorrecto.  Si tenemos un par de -1 y -1 y colocamos un 1, entonces tendremos el número incorrecto.
+
+Veamos la respuesta D, 2019. 2019 - 1 = 2018 = 2 * 1009. La respuesta D es la correcta.
+Razonamiento:
+Consideremos el número 2019 como el número de enteros. Tenemos un 2018. Si tenemos n números 1, y n+1 números -1. La suma de los números debe ser 2018, y el producto debe ser 2018. Entonces tenemos el 2018, n números 1 y n número -1. Eso da 2n+1 números. Podemos agregar 1 hasta sumar 2019.
+2018 + n - n = 2018. Necesitamos sumar una cantidad de ceros. Sin embargo, necesitamos que el producto sea 2018. Entonces la cantidad de ceros no funciona. El número 2019 debe ser la cantidad de enteros escritos.
+
+Respuesta: D)

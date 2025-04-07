@@ -1,0 +1,24 @@
+Raonament: Siguin els cinc nombres naturals a < b < c < d < e.
+Les sumes de dos en dos seran:
+a+b, a+c, a+d, a+e, b+c, b+d, b+e, c+d, c+e, d+e.
+Això fa un total de 10 sumes diferents.
+La suma més petita és a+b, la segona més petita és a+c, la més gran és d+e, la segona més gran és c+e.
+
+Per tant, a+b = 22 i d+e = 124.
+També tenim que a+c = 48 i c+e = 117.
+
+Sumant totes les sumes donades: 22+48+50+55+57+83+89+91+117+124 = 736.
+Observem que cada nombre apareix 4 vegades.
+4(a+b+c+d+e) = 736
+a+b+c+d+e = 736/4 = 184
+
+Sabem que a+b = 22 i d+e = 124, per tant, c = 184 - (22+124) = 184 - 146 = 38.
+També sabem que a+c=48, per tant, a = 48 - c = 48 - 38 = 10.
+Com a+b = 22, per tant, b = 22 - a = 22 - 10 = 12.
+Com c+e = 117, per tant, e = 117 - c = 117 - 38 = 79.
+Com d+e = 124, per tant, d = 124 - e = 124 - 79 = 45.
+
+Els cinc nombres són a=10, b=12, c=38, d=45, e=79.
+El segon nombre més gran és d = 45.
+
+Resposta: A)

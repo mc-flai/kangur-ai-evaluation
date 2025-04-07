@@ -1,0 +1,8 @@
+**Reasoning**: To solve this problem, we need to find the number of integer coordinate points on the circumference of the circle. The equation of a circle centered at the origin with radius \( r \) is given by \( x^2 + y^2 = r^2 \). In this case, the radius \( r \) is 5, so the equation becomes \( x^2 + y^2 = 25 \).
+
+To find the integer solutions, we consider the integer pairs \((x, y)\) such that both \( x \) and \( y \) are integers. We need to solve the equation \( x^2 + y^2 = 25 \) for integer values. These pairs can be found by checking each possible integer value for \( x \) and \( y \) from \(-5\) to \( 5 \). The possible pairs are:
+\( (0, 5), (5, 0), (0, -5), (-5, 0), (3, 4), (4, 3), (-3, 4), (-4, 3), (-3, -4), (-4, -3), (3, -4), (4, -3) \).
+
+Counting these pairs, we find that there are 12 such points.
+
+**Answer**: C)

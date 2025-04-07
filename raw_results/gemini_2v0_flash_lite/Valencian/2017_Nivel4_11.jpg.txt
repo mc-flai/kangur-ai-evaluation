@@ -1,0 +1,10 @@
+Raonament:
+1. La boleta inicial té els nombres 1 i 2 als costats. Això significa que la suma dels nombres a les boletes adjacents ha de ser 1 + 2 = 3.
+2. La boleta següent, per tant, tindrà el nombre 3. Ara tenim la seqüència 1, 2, 3.
+3. Si hi ha un collar, l'última boleta haurà de estar adjunta a la primera. La boleta adjacent al 3 haurà de sumar 3 amb un nombre de la seqüència anterior. Si és amb el 1, haurem de sumar 2 a la boleta adjacent al 3, el que ens donaria 1, 2, 3, 2.
+4. La boleta següent adjacent al 2 ha de sumar 2 amb una de les boletes anteriors, en aquest cas, el 3 o l'1.
+5. Podem suposar que l'adjuntem amb el 1, la suma seria 1+2, i l'últim nombre seria 1. Per tant, tenim 1, 2, 3, 2, 1.
+6. Ara, la boleta adjacent a l'1 ha d'estar connectada amb el 2, el que ens donaria la seqüència 1, 2, 3, 2.
+7. Per tant, per formar un cercle, haurem d'usar 5 boletes, 1, 2, 3, 2, 1.
+
+Resposta: C)

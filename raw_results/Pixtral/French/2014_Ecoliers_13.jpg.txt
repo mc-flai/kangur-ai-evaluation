@@ -1,0 +1,14 @@
+
+La question 13 demande de déterminer combien de figures peuvent être formées en utilisant des triangles noirs, où chaque figure suivante est créée en ajoutant une ligne de triangles à la figure précédente. Les figures sont construites en ajoutant des triangles de manière montante et contiguë, avec les trois premières figures déjà dessinées.
+
+Pour déterminer la réponse, nous devons compter le nombre de triangles dans chaque figure et voir combien de figures peuvent être créées jusqu'à la figure 6.
+
+- **Figure 1** : 1 triangle
+- **Figure 2** : 3 triangles
+- **Figure 3** : 6 triangles
+
+En suivant le modèle, chaque figure suivante ajoute une ligne de triangles à la figure précédente. Par conséquent, la figure 4 aura 10 triangles, la figure 5 aura 15 triangles, et la figure 6 aura 21 triangles.
+
+Raisonnement : En comptant les triangles dans chaque figure, nous trouvons que la figure 6 a 21 triangles. Cela signifie que nous pouvons former six figures avant d'atteindre la figure 6.
+
+Réponse : D

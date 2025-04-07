@@ -1,0 +1,29 @@
+**Razonamiento:**
+1. Primero, calculamos el número 3^32.
+   \[
+   3^{32} = 95367431640625
+   \]
+2. Luego, restamos 1 de este número.
+   \[
+   95367431640625 - 1 = 95367431640624
+   \]
+3. A continuación, calculamos los divisores entre 75 y 84. Los divisores de un número son todos los números que pueden dividirlo sin dejar residuo. Los divisores de los números entre 75 y 84 son:
+   - 75: 1, 3, 5, 15, 25, 75
+   - 76: 1, 2, 4, 19, 38, 76
+   - 77: 1, 7, 11, 77
+   - 78: 1, 2, 13, 26, 39, 78
+   - 79: 1, 79
+   - 80: 1, 2, 4, 5, 8, 10, 16, 20, 40, 80
+   - 81: 1, 3, 9, 27, 81
+   - 82: 1, 2, 41, 82
+   - 83: 1, 7, 9, 29, 83
+   - 84: 1, 2, 3, 4, 6, 12, 14, 21, 28, 42, 70, 84
+4. Ahora, calculamos el producto de estos divisores.
+   - Para simplificar, observamos que los divisores comunes pueden ser combinados para formar el producto total.
+   - El producto de los divisores de 75 a 84 es:
+   \[
+   1 \times 3 \times 5 \times 15 \times 25 \times 75 \times 1 \times 2 \times 4 \times 19 \times 38 \times 76 \times 1 \times 7 \times 11 \times 77 \times 1 \times 2 \times 13 \times 26 \times 39 \times 78 \times 1 \times 79 \times 1 \times 2 \times 4 \times 5 \times 8 \times 10 \times 16 \times 20 \times 40 \times 80 \times 1 \times 3 \times 9 \times 27 \times 81 \times 1 \times 2 \times 41 \times 82 \times 1 \times 7 \times 9 \times 29 \times 83 \times 1 \times 2 \times 3 \times 4 \times 6 \times 12 \times 14 \times 21 \times 28 \times 42 \times 70 \times 84
+   \]
+   - Este producto es extremadamente grande y no se puede calcular manualmente de manera eficiente. Sin embargo, podemos usar herramientas de cálculo para encontrar el resultado exacto.
+
+**Respuesta:** D) 6972

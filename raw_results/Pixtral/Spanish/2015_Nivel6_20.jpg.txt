@@ -1,0 +1,24 @@
+La pregunta 20 en la imagen presenta un problema de lógica basado en dados. Los dados muestran los resultados de lanzar dos dados, y se pide al lector que determine cuál de las afirmaciones sobre los resultados de los dados es correcta.
+
+Para resolver este problema, necesitamos evaluar cada afirmación basada en los resultados posibles de lanzar dos dados.
+
+- **A) Solo 5**: Esto significa que solo se obtiene un 5 en un lanzamiento de dos dados.
+- **B) Solo 2**: Esto significa que solo se obtiene un 2 en un lanzamiento de dos dados.
+- **C) Cualquiera de los números 2, 5**: Esto significa que se obtiene un 2 o un 5 en un lanzamiento de dos dados.
+- **D) Cualquiera de los números 1, 2, 3, 5**: Esto significa que se obtiene un 1, 2, 3 o 5 en un lanzamiento de dos dados.
+- **E) Cualquiera de los números 2, 3, 5**: Esto significa que se obtiene un 2, 3 o 5 en un lanzamiento de dos dados.
+
+Razonamiento:
+1. Al lanzar dos dados, hay un total de 36 combinaciones posibles (6 dados x 6 dados).
+2. Para determinar qué números se obtienen, consideramos las combinaciones posibles para cada número en los dos dados.
+3. Para el número 5: Las combinaciones posibles son (1, 5) y (5, 1), lo que suma 2 combinaciones.
+4. Para el número 2: Las combinaciones posibles son (1, 2) y (2, 1), lo que suma 2 combinaciones.
+5. Para los números 1, 2, 3 y 5: Sumamos las combinaciones posibles para cada número.
+   - Para el número 1: (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6) - 6 combinaciones.
+   - Para el número 2: (1, 2), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6) - 7 combinaciones.
+   - Para el número 3: (1, 3), (2, 3), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6) - 8 combinaciones.
+   - Para el número 5: (1, 5), (2, 5), (3, 5), (4, 5), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6) - 10 combinaciones.
+6. Sumando todas estas combinaciones, obtenemos 33 combinaciones posibles que incluyen los números 1, 2, 3 y 5.
+7. Por lo tanto, la afirmación correcta es la que incluye los números 2, 3 y 5.
+
+Respuesta: E)

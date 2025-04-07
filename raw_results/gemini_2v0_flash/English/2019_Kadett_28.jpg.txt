@@ -1,0 +1,18 @@
+Reasoning:
+Let $n$ be the number of teams of three.
+The total number of participants is $3n$.
+Each participant plays against each participant from each of the teams of three exactly once.
+The number of games played is the number of pairs of participants from different teams.
+For any two teams, there are $3 \times 3 = 9$ games.
+The number of ways to choose 2 teams from $n$ teams is $\binom{n}{2} = \frac{n(n-1)}{2}$.
+The total number of games played is $9 \times \binom{n}{2} = 9 \times \frac{n(n-1)}{2} = \frac{9n(n-1)}{2}$.
+We are given that the number of games is no more than 250.
+$\frac{9n(n-1)}{2} \le 250$
+$9n(n-1) \le 500$
+$n(n-1) \le \frac{500}{9} \approx 55.56$
+We need to find the maximum integer $n$ such that $n(n-1) \le 55.56$.
+If $n=7$, $n(n-1) = 7 \times 6 = 42 \le 55.56$.
+If $n=8$, $n(n-1) = 8 \times 7 = 56 > 55.56$.
+Therefore, the maximum number of teams is 7.
+
+Answer: E)

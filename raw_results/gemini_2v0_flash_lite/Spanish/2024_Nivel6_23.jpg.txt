@@ -1,0 +1,13 @@
+Razonamiento:
+La longitud de la tira de papel es de 12 cm y el ancho es de 2 cm. Al doblar la tira, se crea un triángulo rectángulo isósceles con un ángulo de 45 grados. La longitud XY es la hipotenusa del triángulo rectángulo.
+
+La tira se pliega a 45 grados, lo que significa que el triángulo formado tiene dos lados de 2 cm (el ancho de la tira). La hipotenusa de este triángulo se calcula utilizando el teorema de Pitágoras: a^2 + b^2 = c^2.
+En este caso, a = 2, b = 2, entonces c^2 = 2^2 + 2^2 = 4 + 4 = 8.  Por lo tanto, c = sqrt(8) = 2*sqrt(2).
+
+El resto de la tira después del doblez es de 12-2=10 cm, se dividen en 2 segmentos de 5 cm cada uno.
+
+Si proyectamos el punto Z hacia el exterior, para que el triángulo formado sea rectángulo, podemos calcular la longitud del segmento XY usando el teorema de Pitágoras, donde un cateto es 2, el otro es 5+2=7. La longitud de XY sería: sqrt(2^2 + (12-2-2+2)^2)=sqrt(4+36).
+
+Por lo tanto, la longitud de XY es la suma de los lados del triángulo rectángulo más la mitad de lo restante (10/2=5), entonces XY=2+5+sqrt(8)=5+2+2*sqrt(2)=7*sqrt(2)
+
+Respuesta: B)

@@ -1,0 +1,20 @@
+Per determinar quantes rectangles diferents es poden fer amb una àrea de 60 cm² i costats de longituds naturals, hem de trobar tots els parells de nombres naturals (longitud i amplada) que multiplicats donen 60.
+
+1. Comencem llistant tots els divisors de 60, ja que aquests seran les possibles longituds i amplades. Els divisors de 60 són:
+   1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60.
+
+2. Cada parell de divisors (a, b) tal que a * b = 60, amb a ≤ b, és un rectangle diferent.
+
+3. Els parells de divisors de 60 són:
+   - (1, 60)
+   - (2, 30)
+   - (3, 20)
+   - (4, 15)
+   - (5, 12)
+   - (6, 10)
+
+4. Aquests són 6 rectangles diferents.
+
+Raonament: Hem llistat els divisors de 60 i hem trobat els parells que multiplicats donen 60. N'hi ha 6.
+
+Resposta: B)

@@ -1,0 +1,19 @@
+**Razonamiento:**
+1. La pregunta se refiere a una secuencia de nombres que comienza en el 11 y termina en el 100, con un número específico de ceros en cada posición.
+2. Se nos dice que los números que no tienen ceros se mantienen en el mismo orden en el que aparecen en la secuencia original.
+3. Se nos pide encontrar el número máximo de ceros que se pueden obtener al sumar los números correspondientes a cada posición.
+
+Para resolver esto, debemos entender cómo se distribuyen los ceros en los números de la secuencia. La secuencia comienza en el 11 y termina en el 100, lo que significa que hay 90 números en total (11 a 100).
+
+Los números que tienen ceros en la secuencia son aquellos que terminan en 0, 20, 30, 40, 50, 60, 70, 80, y 90. Esto da un total de 9 números con ceros.
+
+Para encontrar el número máximo de ceros, sumamos los números correspondientes a cada posición de estos números con ceros:
+
+- 10 (1º posición) + 20 (2º posición) + 30 (3º posición) + 40 (4º posición) + 50 (5º posición) + 60 (6º posición) + 70 (7º posición) + 80 (8º posición) + 90 (9º posición)
+
+Sumando estos números:
+10 + 20 + 30 + 40 + 50 + 60 + 70 + 80 + 90 = 450
+
+Por lo tanto, el número máximo de ceros que se pueden obtener es 450.
+
+**Respuesta:** E)

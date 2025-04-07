@@ -1,0 +1,23 @@
+Reasoning: The question asks for the highest power of $x-1$ that divides the polynomial $x^5 - 11x^4 + x^3 - 7$. To determine this, we can analyze the polynomial and look for patterns or factors that can help us identify its divisibility.
+
+The polynomial $x^5 - 11x^4 + x^3 - 7$ has five terms, and we are interested in finding the highest power of $x-1$ that divides it. One approach to this problem is to use synthetic division or long division to divide the polynomial by $x-1$ and see how many times it goes in without leaving a remainder.
+
+By performing synthetic division with the divisor $x-1$, we get:
+
+```
+     -3 | 1   -11   1   -7
+      1   -9    6   -7
+    ----------
+         1   -9   6   -7
+```
+
+We can see that the quotient obtained by dividing the polynomial by $x-1$ is $x^4 - 9x^3 + 6x^2 - 7x + 9$, with a remainder of $0$. This means that $x^5 - 11x^4 + x^3 - 7$ is divisible by $x-1$.
+
+Next, we can analyze the quotient obtained from the division to determine if $x-1$ can be factored out further. By looking at the quotient, we notice that it contains a common factor of $x^2-1$, which can be factored as $(x-1)(x+1)$.
+
+Therefore, we can factor out $x-1$ from the quotient, resulting in:
+
+$$x^4 - 9x^3 + 6x^2 - 7x + 9 = (x-1)(x+1)(x^2-7)$$
+
+This shows that $x-1$ divides the polynomial with a highest power of $x^3$. Hence, the correct answer is D) $(x-1)^3$.
+Answer: D)

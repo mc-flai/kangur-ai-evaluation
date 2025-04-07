@@ -1,0 +1,21 @@
+Raonament:
+Tenim les equacions:
+1) 2^x = 3
+2) 2^y = 7
+3) 6^z = 7
+
+Volem trobar una expressió per z en termes de x i y.
+Substituïm 7 de l'equació (2) a l'equació (3):
+6^z = 2^y
+(2*3)^z = 2^y
+2^z * 3^z = 2^y
+Ara, substituïm 3 de l'equació (1):
+2^z * (2^x)^z = 2^y
+2^z * 2^(xz) = 2^y
+2^(z + xz) = 2^y
+Prenem logaritmes base 2 a ambdós costats:
+z + xz = y
+z(1+x) = y
+z = y / (1+x)
+
+Resposta: A)

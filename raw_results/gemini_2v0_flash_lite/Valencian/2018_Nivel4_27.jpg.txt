@@ -1,0 +1,22 @@
+Raonament:
+Anem a manipular l'equació donada i a simplificar l'expressió de l'enunciat:
+Tenim que:
+```
+a/(b+1) + b/(a+1) = 1
+```
+Multipliquem per (b+1)(a+1) ambdós costats de l'equació:
+```
+a(a+1) + b(b+1) = (b+1)(a+1)
+a^2 + a + b^2 + b = ab + a + b + 1
+a^2 + b^2 - ab = 1
+```
+Ara simplifiquem l'expressió que ens demanen:
+```
+a/b + b/a - 1/ab = (a^2 + b^2 - 1) / ab
+```
+Substituïm `a^2 + b^2 = ab + 1`:
+```
+(a^2 + b^2 - 1) / ab = (ab + 1 - 1) / ab = (ab) / ab = 1
+```
+
+Resposta: C)

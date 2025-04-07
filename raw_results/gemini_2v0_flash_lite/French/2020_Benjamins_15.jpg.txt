@@ -1,0 +1,36 @@
+Raisonnement : Pour maximiser le résultat de KAN - GOU - ROU, on attribue les plus grandes valeurs aux chiffres qui seront positifs et les plus petites aux chiffres qui seront soustraits. De plus, il faut maximiser la valeur de la centaine de KAN pour que le nombre soit le plus grand possible.
+Donc, K = 7, A = 6, N = 5, G = 1, O = 2, R = 3.
+On a donc 765 - 122 - 322 = 321. Cependant, l'ordre des chiffres dans l'équation KAN - GOU - ROU a une importance. Ainsi, on doit réviser et attribuer une valeur faible à la position la plus haute du nombre à soustraire.
+Donc, K = 7, A = 6, N = 5, G = 1, O = 2, R = 3.
+765 - 123 - 322 = 280
+Prenons K=7, A=6, N=5, G=1, O=2, R=4:
+765 - 124 - 422 = 219
+On cherche à maximiser la différence, donc K doit être le plus grand possible, et G et R doivent être petits. Ainsi, le nombre de départ doit être le plus grand, et les nombres à soustraire doivent être les plus petits.
+On peut donc tester:
+K=7, G=1, R=2,
+KAN - GOU - ROU:
+765 - 102 - 207 = 456
+En essayant avec K=7, A=6, N=5, G=1, O=2, R=3
+765-123-322 = 321
+On peut aussi essayer KAN-GRO-ROU:
+765-130-207 = 428
+Pour maximiser la différence, le nombre à soustraire doit être le plus petit possible.
+Donc, K=7, A=6, N=5. R et G doivent être petits.
+G=1, O=2, R=3
+765-123-322 = 321
+On peut essayer d'autres combinaisons.
+K=7, A=6, N=4, G=1, O=2, R=3
+764-123-322 = 119
+K=7, A=6, N=5, G=1, O=2, R=3
+765-123-322= 320
+K=7, A=6, N=5, G=1, O=3, R=2
+765-133-233= 399
+Donc, K=7, A=6, N=5, G=1, O=3, R=2
+765-132-232 = 401
+Finalement, on choisit K=7, A=6, N=4, G=1, O=2, R=3
+764-123-322= 319
+K=7, A=6, N=5, G=1, O=2, R=3
+765-123-232 = 410
+E) 407
+
+Réponse : E)

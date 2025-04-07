@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de treballar amb les condicions donades i determinar el valor de \( U^4 + V^4 \).
+
+**Raonament**:
+
+1. **Identificar i usar les condicions donades**:
+   - \( U + V = 1 \)
+   - \( U^2 + V^2 = 2 \)
+
+2. **Usar el binomi al quadrat**:
+   - \( (U + V)^2 = U^2 + 2UV + V^2 \)
+   - Substituir les condicions: \( 1^2 = U^2 + 2UV + V^2 \)
+   - \( 1 = 2 + 2UV \)
+   - Resoldre per \( UV \):
+     \[ 1 = 2 + 2UV \]
+     \[ 2UV = 1 - 2 \]
+     \[ 2UV = -1 \]
+     \[ UV = -\frac{1}{2} \]
+
+3. **Usar el binomi al quart**:
+   - \( (U^2 + V^2)^2 = U^4 + 2U^2V^2 + V^4 \)
+   - Substituir les condicions: \( 2^2 = U^4 + 2U^2V^2 + V^4 \)
+   - \( 4 = U^4 + 2(UV)^2 + V^4 \)
+   - Substituir \( UV = -\frac{1}{2} \):
+     \[ 4 = U^4 + 2\left(-\frac{1}{2}\right)^2 + V^4 \]
+     \[ 4 = U^4 + 2\left(\frac{1}{4}\right) + V^4 \]
+     \[ 4 = U^4 + \frac{1}{2} + V^4 \]
+   - Resoldre per \( U^4 + V^4 \):
+     \[ 4 = U^4 + V^4 + \frac{1}{2} \]
+     \[ U^4 + V^4 = 4 - \frac{1}{2} \]
+     \[ U^4 + V^4 = \frac{8}{2} - \frac{1}{2} \]
+     \[ U^4 + V^4 = \frac{7}{2} \]
+     \[ U^4 + V^4 = 3,5 \]
+
+**Resposta**: E)

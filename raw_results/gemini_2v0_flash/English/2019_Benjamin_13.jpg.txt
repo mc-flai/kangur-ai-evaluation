@@ -1,0 +1,18 @@
+Reasoning:
+Let $d$, $c$, and $m$ be the number of dogs, cats, and mice initially.
+We know that $d + c + m = 30$.
+After the witch's changes, the number of dogs is $d - 6$, the number of cats is $c + 6 - 5 = c + 1$, and the number of mice is $m + 5$.
+We are told that the number of dogs, cats, and mice are now equal, so
+$d - 6 = c + 1 = m + 5$.
+Let $x$ be the number of each animal after the changes.
+Then $d - 6 = x$, so $d = x + 6$.
+Also, $c + 1 = x$, so $c = x - 1$.
+And $m + 5 = x$, so $m = x - 5$.
+Substituting these expressions into the equation $d + c + m = 30$, we get
+$(x+6) + (x-1) + (x-5) = 30$
+$3x = 30$
+$x = 10$
+Therefore, $c = x - 1 = 10 - 1 = 9$.
+The number of cats to start with was 9.
+
+Answer: C)

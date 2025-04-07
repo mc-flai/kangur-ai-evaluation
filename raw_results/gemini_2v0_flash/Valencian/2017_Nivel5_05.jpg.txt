@@ -1,0 +1,44 @@
+Raonament: La pregunta busca la mínima diferència entre dos nombres naturals consecutius tals que la suma dels seus dígits sigui divisible per 5.
+Veiem els exemples que ens dona l'enunciat:
+*   5
+*   14 (1 + 4 = 5, divisible per 5)
+*   19 (1 + 9 = 10, divisible per 5)
+*   23 (2 + 3 = 5, divisible per 5)
+*   28 (2 + 8 = 10, divisible per 5)
+Les diferències entre els nombres consecutius de la llista són:
+*   14 - 5 = 9
+*   19 - 14 = 5
+*   23 - 19 = 4
+*   28 - 23 = 5
+
+Per tal de trobar una diferència més petita, podem continuar la llista i fer prova i error per determinar la mínima diferència. També, podem buscar números tals que la seva suma sigui divisible per 5 i que siguin consecutius, i comprovar si aquests números poden ser dos números consecutius de la llista.
+
+Provemos amb 32 (3+2 = 5). El següent seria 37 (3+7 = 10). La seva diferència es 5.
+Provemos con 33 (3+3 = 6, no divisible per 5), 34 (3+4=7, no divisible per 5), 35 (3+5=8, no divisible per 5). 36 (3+6=9, no divisible per 5). 37 (3+7=10, sí divisible per 5). No hem trobat de més petits entre 32 i 37.
+
+Continuem buscant: després del 5 ve el 14.
+Busquem valors petits i consecutius.
+5, 10, 15, 20, 25, 30 ...
+Podem provar amb 1. Si un nombre acaba en 9, el següent acaba en 0. Per exemple, 19 (1+9=10) i 20 (2+0=2). La diferencia entre 19 i 20 és 1. Però 2 no és divisible per 5. Per tant, aquesta no és la resposta correcta.
+Podem provar amb 2.
+7 i 9 no cumpleixen amb la condició de què la suma dels seus dígits sigui divisible per 5.
+Per exemple, 23 (2+3=5). Per tal d'obtenir una diferencia de 1, necessitem el número 22 (2+2 = 4). Però 4 no és divisible per 5.
+
+Consideremos los números que terminan en 0 o 5.
+Si un número termina en 0, la suma de los dígitos es divisible por 5. Si le sumamos 1, el resultado es divisible por 5.
+Ejemplo: 10 (1+0=1), 11 (1+1=2). No funcionaría.
+
+Si un número es 4, el siguiente es 5, ambos números serían correctos. 4 no funciona ya que no es divisible por 5.
+14, 15. 1+4=5, 1+5=6. La diferencia seria 1. Però 6 no és divisible per 5.
+
+Provem amb el 1.
+El número 4 i el número 5 tenen sumes de dígits respectives 4 i 5. La diferència és 1, però 4 no és divisible per 5.
+
+Sembla que la mínima diferència és 4, com veiem a la llista amb 19 i 23.
+
+Si ens fixem 10 és divisible entre 5. 11 té suma de digits 2 (no divisible). 12 (3), 13 (4), 14 (5).
+Hem trobat un número que segueix la seqüencia a la llista i la seva resta és 14-10 = 4.
+
+Raonament: Analitzant la llista i provant diferents casos, trobem la seqüencia 19 i 23, on la diferència és de 4 unitats. No trobem cap cas on la diferència sigui menor a 4 units.
+
+Resposta: D)

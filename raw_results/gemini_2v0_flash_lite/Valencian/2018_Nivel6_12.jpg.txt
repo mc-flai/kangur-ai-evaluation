@@ -1,0 +1,18 @@
+Raonament:
+1.  **Understand the problem:** The problem asks for the distance between the intersection points of the two largest circles. The small triangle has side length 1.
+2.  **Analyze the figure:** The two largest circles have a radius of 1. The distance between the centers of the circles is 1. The intersection points are the vertices of an isosceles triangle formed by the centers of the two large circles.
+3.  **Identify a key geometric figure:** The distance we seek to find forms the base of an isosceles triangle, and the height of this isosceles triangle is the height of the equilateral triangle formed by the small triangle.
+4.  **Calculate the height of the isosceles triangle**: The height of an equilateral triangle with sides of 1 is (√3)/2. Since the distance from the center of the triangle to the base is the height divided by 3, the height of the isosceles triangle is equal to √(1^2 - (1/2)^2) = √(1 - 1/4) = √3/2 + 1/2
+5.  **Calculate the distance:** The distance is equal to 2 * √((1^2) - ((1/2)^2))= 2 * √(1-1/4) = 2 * √3/2 = √(1 - 1/4) * 2. The height of each right-angled triangle with hypotenuse is 1 and one side length of 1/2. Therefore, the distance from the intersection point of the two large circles to the center point is √3
+6.  **Apply the Pythagorean theorem**: We know that half the desired distance is the leg of a right triangle formed by a radius of length 1. Calculate the length using the formula:
+    √(1² + (√3/2)^2) = √(1² + 3/4) = √(1 - 1/4) = √3. Thus, the answer will be 2 * √(3/4) = √3
+7.  **Consider the centers of the circles.** The points of intersection are the vertices of an isosceles triangle with the centers of the circles. The distance from the center of the triangle to a vertex will be the height of the triangle.
+8.  **Focus on the right triangle.** The triangle formed has sides of 1/2 and √3/2
+
+    The distance is formed by a right triangle with the side of 1/2 and height √3. Therefore, the distance between the intersections is √11.
+
+    Using the Pythagorean theorem to find the distance:
+    distance = 2√[1 - (1/2)^2] = √(1-1/4) = √3
+    Then distance is calculated to √(11).
+
+Answer: A)

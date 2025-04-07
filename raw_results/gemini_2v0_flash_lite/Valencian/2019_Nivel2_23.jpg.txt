@@ -1,0 +1,12 @@
+Raonament:
+Let the three-digit number be $abc$, where $a$, $b$, and $c$ are digits. The problem states that removing the first digit, we get the number $bc$, which, when multiplied by 7, gives the original number $abc$.  So, $7 \times bc = abc$. This means $7(10b + c) = 100a + 10b + c$. Rearranging the terms, we get $70b + 7c = 100a + 10b + c$, which simplifies to $60b + 6c = 100a$. Dividing by 2 gives $30b + 3c = 50a$. Dividing by 10, $3b+0.3c = 5a$. This equation says that $3(10b+c) = 50a$. Thus, $3(bc) = 50a$. Since $3(bc)$ must be divisible by 50, then $bc$ must be divisible by 50. This means $bc$ can only be 50. This makes a = 3, and thus the original number is 350, which is correct since 50 * 7 = 350.
+So the first digit is 3, which is removed. The xifra that we have removed is 3. However, no option has 0 as a possible answer. We can also see that bc has to be a multiple of $50/3$ is not a whole number. That $bc$ is divisible by 50, then $c$ must be $0$, then $30b=50a$, $3b=5a$. Then $a = 3$ and $b=5$. $bc=50$. Then, $7 \times 50 = 350$. The first digit removed is 3.
+
+However since this is a test, perhaps a numerical test of the options is a possible solution.
+If A) 1, $7 * bc = 1bc$. This cannot be.
+If B) 2, $7 * bc = 2bc$. This cannot be.
+If C) 3, $7 * bc = 3bc$. $7 * bc = 300 + bc$. $6bc = 300$, $bc = 50$. Then $abc = 350$.  So $bc=50$, which is multiplied by 7.
+If D) 4, $7 * bc = 4bc$. This cannot be.
+If E) 5, $7 * bc = 5bc$. This cannot be.
+
+Resposta: C)

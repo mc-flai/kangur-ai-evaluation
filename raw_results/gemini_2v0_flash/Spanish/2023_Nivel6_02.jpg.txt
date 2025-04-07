@@ -1,0 +1,5 @@
+Razonamiento: Para maximizar el número de seises, necesitamos minimizar el valor de los otros dados. Como los dados tienen un mínimo de 1, el número de otros dados distintos de seis debe tener el valor más bajo posible, que es 1.
+Si Julia saca tres seises, eso suma 3 * 6 = 18 puntos. Para obtener un total de 19, los dos dados restantes deben sumar 1. Pero cada dado debe ser al menos 1, por lo que el mínimo posible para los otros dos es 1+1=2, que es mayor que 1. Luego no puede tener tres seises.
+Si Julia saca dos seises, eso suma 2 * 6 = 12 puntos. Para obtener un total de 19, los tres dados restantes deben sumar 19 - 12 = 7. Para minimizar las caras de los dados, podríamos tener 1 + 1 + 5 = 7 o 1+2+4 = 7, o 2+2+3=7, o 1+3+3=7. Entonces es posible obtener dos seises.
+
+Respuesta: C)

@@ -1,0 +1,29 @@
+**Razonamiento:**
+1. Primero, calculamos el valor del número dado: \(7! + 8! + 9!\).
+2. Calculamos \(7!\):
+   \[
+   7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5040
+   \]
+3. Calculamos \(8!\):
+   \[
+   8! = 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 40320
+   \]
+4. Calculamos \(9!\):
+   \[
+   9! = 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 362880
+   \]
+5. Sumamos estos valores:
+   \[
+   7! + 8! + 9! = 5040 + 40320 + 362880 = 408440
+   \]
+6. Ahora, necesitamos encontrar la potencia más alta de 3 que divide exactamente el número 408440. Para hacer esto, descomponemos el número en sus factores primos.
+7. Descomposición de 408440 en factores primos:
+   \[
+   408440 = 2^2 \times 3^4 \times 5 \times 7 \times 11 \times 13
+   \]
+8. Identificamos la potencia más alta de 3 en la descomposición:
+   \[
+   3^4
+   \]
+
+**Respuesta:** B)

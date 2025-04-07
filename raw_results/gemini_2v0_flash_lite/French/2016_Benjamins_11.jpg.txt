@@ -1,0 +1,18 @@
+Raisonnement :
+1. **Identifier les noisettes et les écureuils :** Il y a 6 noisettes marquées par une croix et 5 écureuils (A, B, C, D, E).
+2. **Déterminer la noisette la plus proche pour chaque écureuil :**
+    *   A attrape la noisette la plus proche à gauche.
+    *   B attrape la noisette la plus proche de lui, qui est celle située entre A et C.
+    *   C attrape la noisette la plus proche, située entre B et D.
+    *   D attrape la noisette la plus proche, située entre C et E.
+    *   E attrape la noisette la plus proche à droite.
+3. **Suivre le parcours des écureuils après avoir attrapé leur première noisette :**
+    *   A attrape la première noisette, puis la suivante.
+    *   B attrape une noisette, puis se rend à la suivante, mais il n'y en a pas.
+    *   C attrape la première noisette, puis se rend à la suivante, mais il n'y en a pas.
+    *   D attrape la première noisette, puis se rend à la suivante, mais il n'y en a pas.
+    *   E attrape la première noisette, puis se rend à la suivante.
+
+4.  **Identifier l'écureuil qui attrape deux noisettes:** Seul l'écureuil A peut attraper deux noisettes.
+
+Réponse : A)

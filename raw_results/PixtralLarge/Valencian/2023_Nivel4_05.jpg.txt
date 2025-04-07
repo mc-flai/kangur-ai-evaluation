@@ -1,0 +1,39 @@
+**Raonament**:
+1. La pregunta demana quantes combinacions diferents de tres fruites es poden extreure d'un cistella que conté dues taronges, tres pomes i dues peres.
+2. Per resoldre això, hem de calcular el nombre de combinacions de tres fruites senes considerar el tipus de fruita.
+3. S'utilitza la fórmula de combinacions per a això, que és:
+
+\[ C(n, k) = \frac{n!}{k!(n-k)!} \]
+
+on:
+- \( n \) és el nombre total d'elements.
+- \( k \) és el nombre d'elements a escollir.
+
+4. En aquest cas, \( n = 7 \) (dues taronges + tres pomes + dues peres) i \( k = 3 \).
+5. Plugim els valors en la fórmula:
+
+\[ C(7, 3) = \frac{7!}{3!(7-3)!} = \frac{7!}{3!4!} \]
+
+6. Calculem els factorials:
+   - \( 7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 \)
+   - \( 3! = 3 \times 2 \times 1 = 6 \)
+   - \( 4! = 4 \times 3 \times 2 \times 1 = 24 \)
+
+7. Substituïm els valors:
+
+\[ C(7, 3) = \frac{7 \times 6 \times 5 \times 4!}{3! \times 4!} = \frac{7 \times 6 \times 5}{3!} = \frac{210}{6} = 35 \]
+
+8. Això és incorrecte, perquè no s'ha considerat que les fruites són del mateix tipus. Hem de considerar els diferents tipus de fruites.
+9. Les combinacions de tres fruites de diferents tipus són:
+   - Dues taronges i una poma.
+   - Dues taronges i una pera.
+   - Una taronja, una poma i una pera.
+   - Dues pomes i una taronja.
+   - Dues pomes i una pera.
+   - Dues peres i una taronja.
+   - Dues peres i una poma.
+   - Tres pomes.
+
+10. Això dona un total de 8 combinacions diferents.
+
+**Resposta**: B) 8

@@ -1,0 +1,12 @@
+Razonamiento: Carmen starts reading on Sunday and reads 5 pages. Then the days from Monday to Friday she reads 3 pages each day, and on Saturday she reads 5 pages. So, in a week she reads 5 + (3 * 5) + 5 = 5 + 15 + 5 = 25 pages per week.
+We need to find out how many weeks it takes for her to read at least 239 pages. We can divide 239 by 25 to find the number of weeks: 239 / 25 = 9.56. So, she will need 10 full weeks.
+Now let's calculate how many pages she reads in 9 weeks: 9 * 25 = 225 pages.
+The pages left to read are 239 - 225 = 14 pages.
+Now let's see what happens in the 10th week.
+Sunday: 5 pages read. Remaining pages = 14 - 5 = 9
+Monday: 3 pages read. Remaining pages = 9 - 3 = 6
+Tuesday: 3 pages read. Remaining pages = 6 - 3 = 3
+Wednesday: 3 pages read. Remaining pages = 3 - 3 = 0.
+So, she finishes reading the book on Wednesday.
+
+Respuesta: E)

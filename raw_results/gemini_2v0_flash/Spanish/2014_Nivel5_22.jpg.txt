@@ -1,0 +1,12 @@
+Razonamiento:
+La pregunta 22 pide el número mínimo de segmentos que hay que añadir a la figura para que todos los puntos tengan el mismo número de conexiones. Actualmente, los grados de cada vértice son: 1, 1, 1, 2, 2, 3, 2. Para minimizar el número de segmentos añadidos, se debe apuntar a un grafo regular, donde cada vértice tiene el mismo grado.
+
+*   Si cada vértice tiene grado 3: Necesitaríamos añadir un segmento a los vértices de grado 2, y dos a los vértices de grado 1. Esto resultaría en añadir 1 + 1 + 2 + 0 + 0 + 0 + 1 = 5 segmentos en total, pero en este caso, el grado sería 3 para todos los vertices.
+
+Una configuración posible de conexiones con un mínimo de 5 segmentos extra es:
+
+- Conectar los dos vertices de grado 1, 1 segmento
+- Conectar el vertice de grado 1 a un vertice de grado 2, 1 segmento
+- Conectar los vertices de grado 2 con los vertices de grado 2 que no estan conectadas, 3 segmentos.
+
+Respuesta: B)

@@ -1,0 +1,8 @@
+Raisonnement : Nous devons déduire l'ordre d'âge des kangourous à partir des informations données.
+1. Boby est plus âgé que Zina (Boby > Zina)
+2. Boby est plus jeune que Lily (Lily > Boby)
+3. Tom est plus âgé que Boby (Tom > Boby)
+Combinant ces informations, nous obtenons : Lily > Tom > Boby > Zina.
+Les seuls qui pourraient avoir le même âge sont ceux qui sont adjacents dans cet ordre, il est donc possible que Tom et Lily ou Boby et Zina aient le même âge. Mais, comme il est dit que Tom est plus âgé que Boby, on peut éliminer le cas où Tom et Boby ont le même âge. L'option Tom et Lily est plausible car on ne sait pas si leur âge est très différent. L'option Boby et Lily est exclue.
+
+Réponse : B)

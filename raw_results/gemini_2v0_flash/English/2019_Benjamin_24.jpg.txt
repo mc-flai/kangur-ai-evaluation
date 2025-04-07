@@ -1,0 +1,32 @@
+Reasoning:
+A 4x4x4 cube has a total of 4x4x4 = 64 small cubes.
+The large cube has 6 faces, each of which is 4x4 = 16 small squares.
+The total surface area of the large cube is 6 x 16 = 96 small squares.
+We have 32 white cubes and 32 black cubes.
+To maximize the white surface area, we want to place the white cubes on the outside as much as possible.
+The ratio of white to black cubes is 32/64 = 1/2.
+If the cubes were randomly placed, we would expect the surface to be 1/2 white and 1/2 black.
+If we maximize the white surface, we should be able to make it slightly more than 1/2.
+Let $W$ be the number of white cubes and $B$ be the number of black cubes. We have $W=32$ and $B=32$.
+The total number of cubes is $W+B = 64$.
+Consider placing the black cubes in the center 2x2x2 cube. This center cube consists of 2x2x2 = 8 small cubes. If we place the black cubes there, we would have 8 black cubes in the center and the remaining $32-8=24$ black cubes would have to be arranged in such a way to minimize the white surface area.
+However, a 4x4x4 cube has 8 corner cubes, 24 edge cubes, 24 face cubes, and 8 interior cubes.
+To maximize the white surface area, we would want to have all the 8 corner cubes, 24 edge cubes, and use as many face cubes as possible.
+If we place all the black cubes in the inner 2x2x2 cube, then we would have 8 black cubes. The number of white cubes in the outer layer is $64-8 = 56$. The remaining cubes are $32-8=24$ which need to have all their sides hidden.
+Since 32 cubes are white and 32 cubes are black, if they are mixed up, the proportion of white to total cube is 1/2. Therefore the expected fraction is 1/2.
+However we want to maximize the number of white cubes on the surface, we should place all white cubes outside. In the corner of cube, each cube expose 3 faces, for edges, 2 faces, and for sides 1 face.
+
+Since we try to maximize white surface area, we want the surfaces to be as much white as possible. Therefore we place the 32 white cubes on the outer layer, and the 32 black cubes on the inner area. Since there are 6 faces, each has 16 area, so we have 96.
+When white cubes are placed as the outer layer, there are 32 white cubes. If we place all the black cubes at corners, 8 sides *3 sides, 24 sides are reduced.
+
+Ratio of white cubes is 32/64 = 1/2, we can't say all faces are white.
+Then the best arrangement is to place all white cubes to maximize white surface and black cubes inside.
+The surface is 96. If half is white, then it's 48. To try to maximize, we may guess 2/3 or 3/4 is white. It seems that 3/4 is the answer.
+
+Reasoning:
+Since we want to maximize the amount of white on the surface, we should try to place the white cubes on the outside. There are 64 total cubes, with 32 white and 32 black. The surface area of the 4x4x4 cube is 6 * (4*4) = 6*16 = 96. If we randomly placed the cubes, we would expect roughly half the surface to be white.
+We can try to place the black cubes inside as much as possible. There are 8 inner cubes.
+The total fraction of white cubes is 32/64 = 1/2. It is likely the surface area is greater than 1/2.
+Since we have 32 white and 32 black cubes, and the goal is to maximize the white area of the overall surface, then 3/4 seems most reasonable.
+
+Answer: A)

@@ -1,0 +1,19 @@
+### Raisonnement :
+
+1. **Comprendre le problème** :
+   - Le problème demande de déterminer quelles figures se trouvent dans les cases du milieu d'une pyramide.
+   - Chaque case contient exactement les figures des deux cases en dessous d'elle.
+
+2. **Analyser les figures des cases en dessous** :
+   - Il faut regarder les figures des deux cases en dessous de la case en bas au milieu pour déterminer les figures dans cette case du milieu.
+
+3. **Identifier les figures des cases en dessous de la case en bas au milieu** :
+   - Les cases en dessous de la case en bas au milieu sont la case en bas à gauche et la case en bas à droite.
+   - La case en bas à gauche contient un carré et un cercle.
+   - La case en bas à droite contient un triangle et un cercle.
+
+4. **Combiner les figures des deux cases en dessous** :
+   - Combiner les figures des deux cases en dessous donne : un carré, un cercle, un triangle, et un cercle.
+   - Comme chaque figure doit apparaître une seule fois, la case en bas au milieu contiendra : un carré, un triangle, et un cercle.
+
+### Réponse : E)

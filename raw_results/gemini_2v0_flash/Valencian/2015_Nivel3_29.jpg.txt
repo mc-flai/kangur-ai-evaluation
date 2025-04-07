@@ -1,0 +1,23 @@
+Raonament: Primer, analitzem les dades proporcionades:
+1. T > S (Teresa té més caramels que Susanna)
+2. A + B = S + T (Andreu i Bernat tenen tants caramels com Susanna i Teresa)
+3. A + T < B + S (Andreu i Teresa junts tenen menys caramels que Bernat i Susanna junts)
+
+De la condició 3 podem deduir:
+A + T < B + S
+Si sumem (S-T) a ambos costats tenim:
+A + T + S - T < B + S + S - T
+A + S < B + 2S - T
+A + S < B + S + (S-T)
+
+De la condició 2, tenim A + B = S + T, per tant B = S + T - A.
+Substituim B a A + S < B + S + (S-T) amb B = S + T - A:
+A + S < (S + T - A) + S + (S-T)
+A + S < S + T - A + S + S - T
+A + S < 3S - A
+2A < 2S
+A < S (Andreu té menys caramels que Susanna).
+
+Per tant, l'opció C) Andreu té menys caramels que Susanna, és la resposta correcta.
+
+Resposta: C)

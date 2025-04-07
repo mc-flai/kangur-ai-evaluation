@@ -1,0 +1,28 @@
+Raonament:
+1.  Identifiquem els cercles grisos. Són els cercles en les cantonades.
+2.  Les cantonades comparteixen costats amb els altres.
+3.  La suma de cada costat és 13. Per tant, hem de trobar tres nombres que sumin 13. Per tant, hem de buscar quins nombres es poden col·locar als cercles grisos per tal que funcioni.
+4.  Les combinacions possibles per a cada costat que sumin 13 inclouen 1+4+8, 1+5+7, 2+3+8, 2+4+7, 2+5+6, 3+4+6.
+5.  Si col·loquem 8 i 6 als cercles grisos, la suma dels costats que comparteixen serà 8+6+X i 6+8+Y i tenim que trobar els nombres X i Y que sumin 13.
+6.  Com que els costats han de sumar 13, per tant, necessitem que en les posicions laterals tinguem els nombres 1 i 2.
+7.  Llavors tenim 1+8+4, 2+6+5.
+8.  La suma dels nombres grisos seria 4+5+6+8=23
+9.  Trobem una altra combinació, 2+7+4, 3+1+9, per tant, posem 8 als dos extrems.
+10. Per tant, els nombres grisos poden ser 4, 5, 6 i 8. La seva suma és 4+5+6+8 = 23. Això no està en les opcions, per tant, ha d'haver un altre plantejament.
+11. Els nombres de les cantonades poden ser 1, 3, 6, 8. Per tant, la suma seria 1+3+6+8=18.
+12. D'altra banda, també pot ser 2, 4, 5, 7.
+13. La suma d'aquests seria 2+4+5+7=18. Això tampoc es troba entre les opcions.
+14. La suma dels nombres grisos ha de ser 1+5+7+x=13 per tant, x=0, ha de ser 16.
+15. Si els nombres grisos són 1, 8, 6, 7, la suma seria 22.
+16. No està clar que la suma dels nombres grisos sigui la suma de 4 nombres.
+17. Tornem a provar amb combinacions.  Si tenim 1, 6, 7, la suma és 14.
+18. Si posem 8, 6, 1 i 5, la suma és 20. Per tant, la suma dels nombres grisos podria ser 1+5+6+2=14.
+19. Si posem 8+1+4, l'altre ha de ser 3+5+6, llavors 8+1+6+3+4+5= 27
+20. Per tant, no puc deduir-ho fàcilment, però podem provar les opcions.
+21. A) 12 pot ser 1+2+3+6 o 1+3+4+4, però no podem repetir.
+22. B) 13, no podem
+23. C) 14 podem ser 1+2+5+6 o 1+3+4+6.
+24. D) 15, no podem
+25. E) 16, podem ser 1+3+6+6, no podem repetir.
+
+Resposta: C)

@@ -1,0 +1,17 @@
+Raonament:
+La manta té dimensions 220 x 240 cm i s'ha de guardar en un calaix de 55 x 40 cm. En cada plegat, les dimensions es divideixen per 2. Necessitem trobar el nombre mínim de plegats per tal que ambdós costats de la manta siguin iguals o menors a les dimensions del calaix.
+
+*   **Costat de 220 cm:**
+    *   1 plegat: 220 / 2 = 110 cm
+    *   2 plegats: 110 / 2 = 55 cm (<= 55 cm)
+    *   Es necessiten 2 plegats per al costat de 220 cm.
+
+*   **Costat de 240 cm:**
+    *   1 plegat: 240 / 2 = 120 cm
+    *   2 plegats: 120 / 2 = 60 cm
+    *   3 plegats: 60 / 2 = 30 cm (<= 40 cm)
+    *   Es necessiten 3 plegats per al costat de 240 cm.
+
+El nombre total de plegats és 2 + 3 = 5.
+
+Resposta: D)

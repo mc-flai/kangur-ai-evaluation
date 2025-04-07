@@ -1,0 +1,33 @@
+**Raisonnement** :
+
+La question demande de trouver les coordonnées d'un autre sommet du carré tracé dans un plan muni d'un repère orthonormé, sachant que les extrémités d'une des diagonales de ce carré ont pour coordonnées \((-1;0)\) et \((5;0)\).
+
+1. **Calcul de la longueur de la diagonale** :
+   - La longueur de la diagonale du carré peut être trouvée en utilisant la distance entre \((-1;0)\) et \((5;0)\).
+   - La distance entre ces deux points est \( |5 - (-1)| = 6 \).
+
+2. **Longueur du côté du carré** :
+   - Dans un carré, la diagonale est \(\sqrt{2}\) fois la longueur du côté (\( \text{côté} = \frac{\text{diagonale}}{\sqrt{2}} \)).
+   - Donc, la longueur du côté est \( \frac{6}{\sqrt{2}} = 3\sqrt{2} \).
+
+3. **Coordonnées des autres sommets** :
+   - Le centre du carré est le milieu de la diagonale, donc ses coordonnées sont :
+     \[
+     \left(\frac{-1 + 5}{2}, \frac{0 + 0}{2}\right) = (2, 0)
+     \]
+   - À partir du centre du carré \((2, 0)\), les autres sommets sont à une distance de \(3\sqrt{2}\) dans les directions appropriées.
+
+4. **Sommet possibles** :
+   - Les sommets du carré sont situés symétriquement par rapport au centre \((2, 0)\).
+   - Les coordonnées des sommets sont donc :
+     \[
+     (2 \pm 3\sqrt{2}, 0 \pm 3\sqrt{2})
+     \]
+   - Les options proposées sont:
+     - A) \((2 ; 0)\) : C'est le centre du carré, donc incorrect.
+     - B) \((2 ; 3)\) : Incorrect.
+     - C) \((2 ; -6)\) : Incorrect.
+     - D) \((3 ; 5)\) : Incorrect.
+     - E) \((3 ; -1)\) : Correct.
+
+**Réponse** : E)

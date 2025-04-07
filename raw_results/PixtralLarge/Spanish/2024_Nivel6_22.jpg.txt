@@ -1,0 +1,35 @@
+Razonamiento:
+
+La pregunta plantea que María resuelve la ecuación cuadrática \( ax^2 + bx + c = 0 \) y Blanca resuelve la ecuación \( bx^2 + ax + c = 0 \), siendo \( a, b, c \) números enteros distintos de cero, y se observa que las raíces de ambas ecuaciones comparten una raíz. La pregunta es cuál de las siguientes afirmaciones es verdadera.
+
+Consideremos que si las dos ecuaciones tienen una raíz común \( x_0 \), entonces esta raíz satisface ambas ecuaciones:
+\[ ax_0^2 + bx_0 + c = 0 \]
+\[ bx_0^2 + ax_0 + c = 0 \]
+
+Restamos la segunda ecuación de la primera:
+\[ (ax_0^2 + bx_0 + c) - (bx_0^2 + ax_0 + c) = 0 \]
+
+Esto se simplifica a:
+\[ (a - b)x_0^2 + (b - a)x_0 = 0 \]
+
+Factorizando, obtenemos:
+\[ (a - b)(x_0^2 - x_0) = 0 \]
+
+Dado que \( a \) y \( b \) son distintos de cero y distintos entre sí, \( a - b \neq 0 \). Por lo tanto, la parte restante debe ser igual a cero:
+\[ x_0^2 - x_0 = 0 \]
+
+Esto nos da:
+\[ x_0(x_0 - 1) = 0 \]
+
+Entonces, las posibles raíces son \( x_0 = 0 \) o \( x_0 = 1 \). Sin embargo, dado que el problema no especifica que una de estas raíces sea común (solo que tienen una raíz común), podemos verificar las condiciones bajo las cuales estas ecuaciones pueden tener una raíz común.
+
+Ahora, examinemos las afirmaciones:
+- A) La solución común debe ser 0. No necesariamente, ya que podría ser 1.
+- B) La ecuación cuadrática \( ax^2 + bx + c = 0 \) tiene exactamente una solución real. Esto no necesariamente es verdadero, ya que podría tener dos soluciones reales si la discriminante es positiva.
+- C) \( a > 0 \). No puede ser una afirmación verdadera porque \( a \), \( b \), y \( c \) son enteros distintos de cero pero no se especifica si son positivos o negativos.
+- D) \( b < 0 \). Por el mismo razonamiento de C, no puede ser una afirmación verdadera.
+- E) \( a + b + c = 0 \). Esta afirmación podría ser verdadera si las raíces de las ecuaciones son tales que se cancelan entre sus coeficientes.
+
+Por lo tanto, la afirmación más probablemente verdadera es:
+
+Respuesta: E)

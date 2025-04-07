@@ -1,0 +1,13 @@
+Reasoning:
+We are given that f(x+y) = f(x) * f(y) and f(1) = 2.
+Let's find the value of f(2).  We can set x = 1 and y = 1 in the given equation: f(1+1) = f(1) * f(1) => f(2) = 2 * 2 = 4.
+Now let's find f(3). We can say x = 2, y = 1, so f(3) = f(2+1) = f(2) * f(1) = 4 * 2 = 8.
+Observe that f(n) = 2^n.  Specifically, f(1) = 2^1 = 2, f(2) = 2^2 = 4, and f(3) = 2^3 = 8.  Thus, the expression to be evaluated is
+f(2)/f(1) + f(3)/f(2) + ... + f(2021)/f(2020)
+= 2^2 / 2^1 + 2^3 / 2^2 + ... + 2^2021 / 2^2020
+= 2^(2-1) + 2^(3-2) + ... + 2^(2021-2020)
+= 2^1 + 2^1 + ... + 2^1.
+There are 2020 terms in this series, as we're going from f(2) to f(2021) in the numerator.
+Therefore, the sum is 2020 * 2 = 2*1010= 2020*1=2020.
+
+Answer: D)

@@ -1,0 +1,17 @@
+**Razonamiento**:
+1. Ana ha lanzado un dado de 24 caras, y cada número del 1 al 6 ha salido al menos una vez.
+2. El número 1 ha salido más veces que cualquier otro número, lo que implica que el 1 ha salido al menos una vez más que los otros números.
+3. Si todos los números del 1 al 6 han salido al menos una vez, ya tenemos 6 lanzamientos.
+4. Considerando que el número 1 es el que más ha salido, debe haber salido al menos 2 veces. Por lo tanto, tenemos al menos 7 lanzamientos (6 de los números del 1 al 6 y al menos una más del 1).
+5. Para maximizar la suma de los números lanzados, los números restantes deben ser los más altos posibles.
+6. Si el número 1 ha salido dos veces, los otros números del 2 al 6 han salido exactamente una vez cada uno, tenemos 7 lanzamientos. Esto deja 17 lanzamientos restantes.
+7. Para maximizar la suma, los 17 lanzamientos restantes deben ser todos 24 (el valor más alto posible del dado).
+8. La suma máxima que Ana podría obtener es:
+   - 2 veces el número 1: 2 * 1 = 2
+   - 1 vez cada número del 2 al 6: 2 + 3 + 4 + 5 + 6 = 20
+   - 17 veces el número 24: 17 * 24 = 408
+9. Sumando estos valores: 2 + 20 + 408 = 430
+10. Sin embargo, 430 no es una de las opciones dadas. Por lo tanto, debemos revisar las opciones proporcionadas y determinar cuál es la más coherente con los cálculos realizados.
+11. La opción más cercana a la suma máxima calculada es 100. Esto sugiere que hay un error en el enunciado o en las opciones proporcionadas.
+
+**Respuesta**: E) 100

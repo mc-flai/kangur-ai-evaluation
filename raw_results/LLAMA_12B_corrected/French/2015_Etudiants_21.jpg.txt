@@ -1,0 +1,25 @@
+Raisonnement: The question 21 is about a function $f(x)$ which is defined on the positive real strict numbers set and vêrifed:
+\[ f(x) + 2f\left(\dfrac{2015}{x}\right) = 4x \].
+
+To determine the potential values of $f(5)$, we can plug in $x = 5$ into the equation and obtain:
+\[ f(5) + 2f\left(\dfrac{2015}{5}\right) = 20 \].
+
+Substituting $\dfrac{2015}{5} = 403.0$, we have:
+\[ f(5) + 2f(403.0) = 20 \].
+
+Now, if we plug in $x = 203$, we get:
+\[ f(203) + 2f\left(\dfrac{2015}{203}\right) = 1620 \].
+
+We can let $x = 5$ and $203$ in the equation to establish relations between $f(5)$ and $f(203)$, so we have:
+\[ f(5) + 2f\left(\dfrac{2015}{5}\right) = 20 \]
+\[ f\left(\dfrac{2015}{5}\right) = f(403.0) = \dfrac{1}{2} f(5) + 10 \]
+
+And plugging it to $f(203)$, we obtain:
+\[ f(203) + 2f(403.0) = 1620 \]
+\[ f(203) + 2 \left( \dfrac{1}{2} f(5) + 10 \right) = 1620 \]
+\[ f(203) + f(5) + 20 = 1620 \]
+\[ f(203) + = 1600 \].
+
+Since the value of f(5) passed in the options are 860, 1005, 1068, 2010, and 2016, we can conclude f(5) = 860.
+
+Réponse: A)

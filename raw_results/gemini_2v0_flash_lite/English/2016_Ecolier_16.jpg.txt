@@ -1,0 +1,8 @@
+Reasoning: Imagine the game board as a line of 11 spaces. Hannes places 8 coins in a row. To determine the spaces that are *always* filled, consider the extreme cases:
+
+*   **Case 1: Start at Space 1.** The coins would fill spaces 1-8.
+*   **Case 2: Start at Space 4.** The coins would fill spaces 4-11.
+
+Notice that spaces 4, 5, 6, 7, and 8 are filled in BOTH cases (and any case in between). If Hannes starts at space 2, spaces 2-9 will be filled. If he starts at space 3, spaces 3-10 are filled. The overlap in all scenarios is spaces 4, 5, 6, 7, and 8. Therefore, 5 spaces will always be filled.
+
+Answer: D)

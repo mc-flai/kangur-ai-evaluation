@@ -1,0 +1,45 @@
+Reasoning:
+Let the given expression be $E$.
+$E = \frac{1}{9} \cdot 10^{2018} \cdot (10^{2018} - 1) = \frac{1}{9} \cdot (10^{4036} - 10^{2018})$
+$10^{4036}$ is a number with 4037 digits (a 1 followed by 4036 zeros).
+$10^{2018}$ is a number with 2019 digits (a 1 followed by 2018 zeros).
+$10^{4036} - 10^{2018} = 10^{2018}(10^{2018}-1) = 10^{2018} \cdot \underbrace{99...9}_{2018 \text{ times}} = \underbrace{99...9}_{2018 \text{ times}} \underbrace{00...0}_{2018 \text{ times}}$
+This number has 4036 digits.
+Then $\frac{1}{9} \cdot (10^{4036} - 10^{2018}) = \frac{1}{9} \cdot \underbrace{99...9}_{2018 \text{ times}} \underbrace{00...0}_{2018 \text{ times}} = \underbrace{11...1}_{2018 \text{ times}} \underbrace{00...0}_{2018 \text{ times}}$.
+This number also has 4036 digits.
+Let's analyze:
+$\frac{1}{9} 10^{2018} (10^{2018} - 1) = \frac{1}{9} (10^{4036} - 10^{2018})$
+$= \frac{1}{9} (\underbrace{100...0}_{4036 \text{ zeros}} - \underbrace{100...0}_{2018 \text{ zeros}}) = \frac{1}{9} (\underbrace{99...9}_{2017 \text{ nines}} \underbrace{00...0}_{2018 \text{ zeros}})$
+$= \underbrace{11...1}_{2017 \text{ ones}} \underbrace{00...0}_{2018 \text{ zeros}}$
+The number of digits is $2017+2018 = 4035$
+
+Answer: C)
+Reasoning:
+Let's estimate $\frac{1}{9}10^{2018}(10^{2018}-1) \approx \frac{1}{9}10^{4036}$. We know that $10^{4036}$ has $4037$ digits. Since $\frac{1}{9}10^{4036} = \frac{1}{9} \times 10^{4036}$, it can be written as $\frac{1}{9}$ followed by $4036$ zeros. Thus, the result has $4036 - 1 = 4035$ digits.
+
+Answer: C)
+Reasoning:
+We want to find the number of digits of $\frac{1}{9} \cdot 10^{2018} \cdot (10^{2018} - 1)$.
+We have $\frac{1}{9} 10^{2018} (10^{2018} - 1) = \frac{1}{9} (10^{4036} - 10^{2018})$
+$= \frac{1}{9} (10^{2018} (10^{2018} - 1)) = 10^{2018} \cdot \frac{1}{9} (10^{2018} - 1) = 10^{2018} \cdot \frac{1}{9} \underbrace{99...9}_{2018 \text{ times}}$
+$= 10^{2018} \cdot \underbrace{11...1}_{2018 \text{ times}} = \underbrace{11...1}_{2018 \text{ times}} \underbrace{00...0}_{2018 \text{ times}}$
+This number has $2018+2018 = 4036$ digits. But the question asks for the digits of
+$\frac{1}{9}(10^{4036} - 10^{2018})$.
+Since $10^{2018}$ is much smaller than $10^{4036}$, $10^{4036} - 10^{2018} \approx 10^{4036}$, with slightly less digits. The expression is similar to
+$\frac{1}{9}(100-10)$ = $10$, which has two digits.
+Then, $\frac{1}{9}(10^{4036} - 10^{2018}) \approx \frac{1}{9} 10^{4036} = 0.111 \dots \times 10^{4036}$ which has around $4036$ digits.
+$\frac{1}{9}10^{2018}(10^{2018}-1)=\frac{1}{9}(10^{4036} - 10^{2018}) = \frac{1}{9}10^{2018}(10^{2018}-1)$
+$=\frac{1}{9}10^{2018}(\underbrace{99\cdots9}_{2018\text{ digits}})=10^{2018}\cdot\underbrace{11\cdots1}_{2018\text{ digits}}=\underbrace{11\cdots1}_{2018\text{ digits}}\underbrace{00\cdots0}_{2018\text{ digits}}$
+So, there are $2018+2018 = 4036$ digits.
+
+Since the choices are $2017, 2018, 4035, 4036, 4037$, we choose the closet result we have obtained.
+Let us perform:
+$10^{4036}$ has 4037 digits. $10^{2018}$ has 2019 digits.
+$10^{4036} - 10^{2018} = 1 \underbrace{00...0}_{2018 zeros} (\underbrace{99...9}_{2017 nines})$
+
+Reasoning:
+Let's consider an easier example: $\frac{1}{9} 10^2 (10^2 - 1) = \frac{1}{9} 100 (99) = \frac{1}{9} 9900 = 1100$. The number of digits is 4.
+If we use the formula, then $2 + 2 = 4$.
+The above argument gives that the correct answer is 4036.
+
+Answer: D)

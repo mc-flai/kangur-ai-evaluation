@@ -1,0 +1,10 @@
+Razonamiento: The three children walk a total of 50 meters around the perimeter of the pool to meet their coach.  The perimeter of the pool is 2(10) + 2(25) = 20 + 50 = 70 meters.  The children are walking in the shortest possible path, so the problem implies that their coach is at the side of the pool.
+We need to consider possible positions of the coach, and the children's paths.
+- If the three children walk along adjacent sides from a corner, then the total distance would be 10 + 25 + 15 = 50, so that is a correct configuration. So the coach is on a 15m side.
+- In that configuration, the fourth child is on the opposite corner. The shortest distance for the coach to reach the child is 10m.
+- If the coach is by a 10-meter side, and the children are at the adjacent corners, the total distance would be 25 + 10 + 15.
+The missing side is 25-20. The shortest distance is the side that is 10 m.
+If the 3 children walk along two edges and a bit more. 10+25=35 so we have 15 m left.
+Therefore, the trainer is at the 15 m, the distance to travel for the child at the corner is 10.
+The 4th kid is at the fourth corner, so the shortest distance for the coach is 10 m.
+Answer: A)

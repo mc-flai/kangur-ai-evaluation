@@ -1,0 +1,12 @@
+Reasoning:
+1.  **Count the cannon balls:** The pyramid is made of 20 cannon balls, and each label (A, B, C, D, and E) appears 4 times.
+2.  **Analyze visible faces:** We see 3 faces of the pyramid. Each of the provided diagrams represents one face.
+3.  **Determine the number of each label on visible faces:**
+    *   Face 1: D (1), C (1), A (1), B (1), E (1), D (1), E (1), C (1), A (1), B (1), D (1) => A:2, B:2, C:2, D:3, E:2
+    *   Face 2: D (1), B (1), C (1), E (1), A (1), B (1), C (1), B (1), A (1), D (1), A (1) => A:3, B:3, C:2, D:2, E:1
+    *   Face 3: D (1), A (1), B (1), D (1), C (1), E (1), A (1), E (1), B (1), C (1) => A:2, B:2, C:2, D:2, E:2
+4.  **Total number of labels:**
+    *   A: 7, B:7, C:6, D:7, E:5
+5.  **Deduce the missing label:** The middle cannon ball on the hidden face corresponds to 1 cannon ball of the type. Since each label appears four times and each label has at most 3 occurances so far, the missing label must be E.
+
+Answer: E)

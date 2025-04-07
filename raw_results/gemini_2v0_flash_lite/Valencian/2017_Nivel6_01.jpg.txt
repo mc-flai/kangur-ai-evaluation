@@ -1,0 +1,18 @@
+Raonament:
+1. **Define Variables:** Let the three integers be x, y, and z.
+2. **Formulate Equations:**
+   *  x * y * z = 140
+   *  y = 7x
+   *  z < y
+3. **Substitute:** Substitute y = 7x into the first equation:
+   *  x * (7x) * z = 140  =>  7x²z = 140  => x²z = 20
+4. **Analyze:** Since x, y, and z are integers, x² must be a factor of 20. Possible values for x² are 1 and 4.
+5. **Case 1: x² = 1 => x = 1 (since the question does not specify any constraint about the sign, we are going to consider the positive solution).**
+    *   If x = 1, then y = 7 * 1 = 7.
+    *   x²z = 20 => 1²z = 20 => z = 20. However, this contradicts the condition that z < y (20 < 7 is false). So, x cannot be 1.
+6.  **Case 2: x² = 4 => x = 2.**
+    * If x = 2, then y = 7 * 2 = 14.
+    * x²z = 20 => 4z = 20 => z = 5.  This fulfills the condition z < y (5 < 14).
+7. **Calculate the Sum:** The three numbers are 2, 14, and 5. Their sum is 2 + 14 + 5 = 21.
+
+Resposta: B)

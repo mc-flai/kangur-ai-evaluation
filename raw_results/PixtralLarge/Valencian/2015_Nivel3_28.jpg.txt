@@ -1,0 +1,52 @@
+Per resoldre aquesta pregunta, hem de considerar les posicions marcades en els quadrats i trobar l'única opció que fa que les sumes de les tres columnes de tres quadrats siguin iguals.
+
+Primera de tot, observem les posicions marcades:
+- La posició del número 1 està marcada en la columna de l'esquerra.
+- La posició del número 4 està marcada en la columna del centre.
+- La posició del número "x" està marcada en la columna del centre.
+
+Tres quadrats en cada una de les quatre diagonals són:
+1. **Diagonal superior esquerra a dreta:**
+   - Quadrat buit (esquerra)
+   - Quadrat amb número 4 (centre)
+   - Quadrat buit (dreta)
+   Suma: 4
+
+2. **Diagonal superior dreta a esquerra:**
+   - Quadrat buit (dreta)
+   - Quadrat amb número 1 (esquerra)
+   - Quadrat amb "x" (centre)
+   Suma: 1 + x
+
+3. **Diagonal inferior esquerra a dreta:**
+   - Quadrat buit (esquerra)
+   - Quadrat amb "x" (centre)
+   - Quadrat buit (dreta)
+   Suma: x
+
+4. **Diagonal inferior dreta a esquerra:**
+   - Quadrat buit (dreta)
+   - Quadrat amb número 1 (esquerra)
+   - Quadrat amb número 4 (centre)
+   Suma: 5
+
+Perquè les sumes de les tres diagonals siguin iguals, hem de fer que totes elles siguin igual a 5:
+- Suma de diagonal superior esquerra a dreta és 4.
+- Suma de diagonal superior dreta a esquerra és 1 + x.
+- Suma de diagonal inferior esquerra a dreta és x.
+- Suma de diagonal inferior dreta a esquerra és 5.
+
+Per igualar 1 + x = 5, hem de resoldre per x:
+x = 5 - 1
+x = 4
+
+Per tant, hem de comprovar que x = 4 fa que les sumes de cada diagonal siguin iguals a 5:
+- Suma de diagonal superior esquerra a dreta: 4
+- Suma de diagonal superior dreta a esquerra: 1 + 4 = 5
+- Suma de diagonal inferior esquerra a dreta: 4
+- Suma de diagonal inferior dreta a esquerra: 5
+
+Les sumes són correctes. Per tant, la resposta és:
+
+Raonament: Les sumes de les tres diagonals són iguals a 5 en utilitzar x = 4.
+Resposta: D) 8

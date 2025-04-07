@@ -1,0 +1,11 @@
+Raonament:
+Sigui el costat del quadrat ABCD igual a 2. L'àrea del quadrat és 2*2=4. El punt M és el punt mig de AD, així AM = MD = 1.
+La diagonal AC té pendent 1. La recta MN és perpendicular a AC, per tant té pendent -1. La recta MN passa per M(1,0). L'equació de la recta MN és y-0 = -1(x-1) -> y = -x+1.
+La recta AC té equació y=x.
+El punt N és la intersecció de MN i AC. Per tant, x = -x+1 -> 2x=1 -> x=1/2. Aleshores N(1/2, 1/2).
+L'àrea del triangle AMN és 1/2 * AM * altura del triangle. L'altura del triangle és la coordenada y de N, per tant 1/2. Així l'àrea del triangle AMN és 1/2 * 1 * 1/2 = 1/4.
+L'àrea del triangle CMD és 1/2 * CD * MD = 1/2 * 2 * 1 = 1.
+L'àrea de la zona grisa és l'àrea del triangle CMD - l'àrea del triangle AMN = 1 - 1/4 = 3/4.
+La part del quadrat que representa la zona grisa és (3/4)/4 = 3/16.
+
+Resposta: D)

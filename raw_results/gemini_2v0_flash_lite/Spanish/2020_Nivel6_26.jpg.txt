@@ -1,0 +1,3 @@
+Razonamiento: El juego implica sacar 30 canicas o agregar 18. El objetivo es encontrar la menor cantidad posible de canicas. Si hay 71 canicas, podemos sacar 30 y nos quedan 41. Luego, podemos sacar 30 y nos quedan 11. Si intentamos sacar 30 de nuevo, nos quedarían -19, lo cual no es posible. Otra forma es: 71 - 30 + 18 = 59, 59 - 30 + 18 = 47, 47 - 30 + 18 = 35, 35 - 30 + 18 = 23, 23 - 30 + 18 = 11. Sin embargo, el juego es indefinido, por lo tanto podemos encontrar un menor número de canicas. El mínimo se alcanzará cuando ya no podamos quitar canicas. Si tenemos 30 o menos, ya no se pueden quitar 30. Entonces, podemos llegar a 11, ya que la operación es 71 - 30 = 41, 41 - 30 = 11. Si intentamos sacar 30 de 11, no es posible.
+
+Respuesta: E)

@@ -1,0 +1,11 @@
+Razonamiento:
+La pregunta pide encontrar el mayor valor de S = 3 * 3 * 3 * 3 * 3, reemplazando los asteriscos con las cuatro operaciones (+, -, x, ÷). Se deben usar todas las operaciones una vez y no se pueden usar paréntesis. Para maximizar el valor, se debe realizar la multiplicación antes que las sumas/restas. Probemos a partir de la izquierda:
+1. 3 + 3 x 3 - 3 ÷ 3 = 3 + 9 - 1 = 11
+2. 3 x 3 + 3 - 3 ÷ 3 = 9 + 3 - 1 = 11
+3. 3 x 3 - 3 + 3 ÷ 3 = 9 - 3 + 1 = 7
+4. 3 ÷ 3 + 3 x 3 - 3 = 1 + 9 - 3 = 7
+5. 3 ÷ 3 - 3 + 3 x 3 = 1 - 3 + 9 = 7
+6. 3 - 3 + 3 x 3 ÷ 3 = 0 + 9 /3 = 3
+7. 3 - 3 ÷ 3 + 3 x 3 = 3 - 1 + 9 = 11
+
+Respuesta: E)

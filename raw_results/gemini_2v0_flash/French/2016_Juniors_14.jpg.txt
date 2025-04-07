@@ -1,0 +1,14 @@
+Reasoning:
+The large triangle's side is divided into segments of lengths 1, 3, and 1. Thus, the side length of the large triangle is 1 + 3 + 1 = 5.
+The smaller triangles at the vertices are equilateral, with a side length of 1.
+The area of an equilateral triangle with side $s$ is given by $A = \frac{s^2\sqrt{3}}{4}$.
+The area of the large triangle is $A_{large} = \frac{5^2\sqrt{3}}{4} = \frac{25\sqrt{3}}{4}$.
+The area of each small triangle is $A_{small} = \frac{1^2\sqrt{3}}{4} = \frac{\sqrt{3}}{4}$.
+Since there are three small triangles, their total area is $3A_{small} = 3\frac{\sqrt{3}}{4} = \frac{3\sqrt{3}}{4}$.
+The area of the shaded region is the difference between the large triangle's area and the three small triangles' total area:
+$A_{shaded} = A_{large} - 3A_{small} = \frac{25\sqrt{3}}{4} - \frac{3\sqrt{3}}{4} = \frac{22\sqrt{3}}{4}$.
+We need to find the percentage of the shaded region to the large triangle:
+$\frac{A_{shaded}}{A_{large}} = \frac{\frac{22\sqrt{3}}{4}}{\frac{25\sqrt{3}}{4}} = \frac{22\sqrt{3}}{4} \cdot \frac{4}{25\sqrt{3}} = \frac{22}{25} = \frac{22}{25} \cdot \frac{4}{4} = \frac{88}{100} = 0.88$.
+So the percentage is 88%.
+
+Answer: D)

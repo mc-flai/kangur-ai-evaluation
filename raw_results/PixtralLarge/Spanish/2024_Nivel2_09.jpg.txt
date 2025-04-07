@@ -1,0 +1,18 @@
+Para resolver la pregunta 9, debemos analizar las condiciones dadas y las restricciones de las pilas de cajas:
+
+1. **Condiciones dadas**:
+   - Solo se puede descargar una caja a la vez.
+   - No se puede colocar una caja encima de otra si esa caja ya está encima de ella en el camión.
+
+2. **Analizando cada pila**:
+   - **Pila A**: La caja D está encima de la caja C, lo cual es imposible porque en el camión la caja C está encima de la caja D.
+   - **Pila B**: La caja D está encima de la caja C, lo cual es imposible porque en el camión la caja C está encima de la caja D.
+   - **Pila C**: La caja D está encima de la caja C, lo cual es imposible porque en el camión la caja C está encima de la caja D.
+   - **Pila D**: En esta pila, la caja F está encima de la caja C, lo cual es imposible porque en el camión la caja C está encima de la caja F.
+   - **Pila E**: En esta pila, las posiciones relativas de las cajas se mantienen según las restricciones. La caja C está encima de la caja D, y la caja F está debajo de la caja C.
+
+En resumen, las pilas A, B, C y D no cumplen con las restricciones dadas. La pila E es la única que cumple con las condiciones.
+
+Razonamiento: La pila E es la única que cumple con las restricciones de que las cajas no pueden estar encima de otras que estaban debajo de ellas en el camión.
+
+Respuesta: E).

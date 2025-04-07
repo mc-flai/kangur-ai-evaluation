@@ -1,0 +1,51 @@
+Pour résoudre cette question, analysons les équations données :
+
+- \( a + 2 = b - 2 \)
+- \( b - 2 = c \times 2 \)
+- \( c \times 2 = \frac{d}{2} \)
+
+Commençons par exprimer chaque variable en fonction des autres :
+
+1. De \( a + 2 = b - 2 \), nous obtenons :
+   \[ b = a + 4 \]
+
+2. De \( b - 2 = c \times 2 \), nous obtenons :
+   \[ c \times 2 = a + 2 \]
+   \[ c = \frac{a + 2}{2} \]
+
+3. De \( c \times 2 = \frac{d}{2} \), nous obtenons :
+   \[ \frac{d}{2} = a + 2 \]
+   \[ d = 2 \times (a + 2) = 2a + 4 \]
+
+Maintenant, nous devons déterminer quel entier est le plus grand. Comparons les expressions obtenues :
+
+- \( b = a + 4 \)
+- \( c = \frac{a + 2}{2} \)
+- \( d = 2a + 4 \)
+
+Pour déterminer lequel est le plus grand, considérons une valeur possible de \( a \), par exemple \( a = 0 \) :
+
+- \( b = 0 + 4 = 4 \)
+- \( c = \frac{0 + 2}{2} = 1 \)
+- \( d = 2 \times 0 + 4 = 4 \)
+
+Il semble que \( b \) et \( d \) sont égaux à 4 et \( c \) est inférieur. Testons avec une autre valeur, par exemple \( a = 1 \) :
+
+- \( b = 1 + 4 = 5 \)
+- \( c = \frac{1 + 2}{2} = 1.5 \)
+- \( d = 2 \times 1 + 4 = 6 \)
+
+Ici, \( d \) est le plus grand.
+
+Pour vérifier si cela est toujours vrai, comparons \( d \) et \( b \) en général :
+
+- \( d = 2a + 4 \)
+- \( b = a + 4 \)
+
+Pour tout \( a \), \( d \) est toujours supérieur ou égal à \( b \), et \( c \) est toujours inférieur à \( b \) et \( d \).
+
+Par conséquent, \( d \) est le plus grand entier.
+
+Raisonnement : En exprimant chaque variable en fonction de \( a \) et en comparant les expressions obtenues, nous avons déterminé que \( d \) est toujours le plus grand entier parmi \( a, b, c \) et \( d \).
+
+Réponse : D)

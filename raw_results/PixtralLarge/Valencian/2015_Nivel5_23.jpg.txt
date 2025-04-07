@@ -1,0 +1,25 @@
+Per determinar quantes nombros mínimes positius són divisibles per 2, per 3 i per 5, hem de trobar el menor nombre que sigui divisible per tots tres.
+
+1. **Trobar el mínim comú múltiple (MCM)** de 2, 3 i 5:
+   - Els divisors primers de 2, 3 i 5 són 2, 3 i 5, respectivament.
+   - El MCM es troba multiplicant els divisors primers més alts de cada nombre.
+   - MCM(2, 3, 5) = 2 * 3 * 5 = 30.
+
+2. **Comprovar cada opció**:
+   - A) 68: No és divisible per 3 (68/3 no és un nombre enter).
+   - B) 67: No és divisible per 2, 3 ni 5 (67 és un nombre primer).
+   - C) 66: És divisible per 2 i per 3, però no per 5 (66/5 no és un nombre enter).
+   - D) 65: És divisible per 5, però no per 2 ni per 3 (65/2 i 65/3 no són nombres enters).
+   - E) 64: No és divisible per 3 ni per 5 (64/3 i 64/5 no són nombres enters).
+
+3. **Conclusió**:
+   - El menor nombre divisible per 2, per 3 i per 5 és 30.
+   - Cap de les opcions proporcionades és 30.
+   - La pregunta demana quantos nombres mínims són divisibles per 2, per 3 i per 5, és a dir, busca el menor nombre que compleixi la condició.
+   - La resposta correcta és el nombre de nombres que són divisibles per 2, per 3 i per 5, que és només 1 nombre (30).
+
+Raonament: El menor nombre divisible per 2, per 3 i per 5 és 30, i cap de les opcions és 30. La pregunta demana quantos nombres mínims són divisibles per 2, per 3 i per 5, i la resposta correcta és 1.
+
+Resposta: A) 68.
+
+Nota: Sembla que hi ha un error en les opcions proporcionades, ja que cap de les opcions és la resposta correcta. La resposta correcta seria 1, però no està entre les opcions donades.

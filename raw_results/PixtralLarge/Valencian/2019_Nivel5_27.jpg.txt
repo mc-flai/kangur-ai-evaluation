@@ -1,0 +1,21 @@
+Raonament:
+
+Per respondre aquesta pregunta, hem d'entendre les posicions dels nombres en un quadrat i si les seves connexions tenen un cost associat.
+
+1. **Identificar les connexions entre els nombres**:
+   - Si dos nombres estan connectats per un costat (horitzontal o vertical), un és múltiple de l'altre.
+   - Si dos nombres estan connectats per un extrem de la diagonal, cap dels dos no és múltiple de l'altre.
+
+2. **Analitzar les posicions dels nombres**:
+   - Per a un quadrat amb nombres positius en cada vèrtex, considerem les possibles posicions dels nombres.
+   - Si els nombres estan connectats per un costat, un és múltiple de l'altre, i si estan connectats per un extrem de la diagonal, cap no és múltiple de l'altre.
+
+3. **Sumar els quatre nombres**:
+   - Dels punts anteriors, es dedueix que dos nombres són múltiples entre ells i dos no.
+   - Com que els múltiples entre ells no poden ser tots els nombres, la suma serà més gran que el mínim possible (12) però menor que el màxim possible (60).
+   - Les opcions possibles són 24, 30 i 35.
+
+4. **Seleccionar la resposta correcta**:
+   - La resposta que més probablement satisfà les condicions donades és 30, ja que és una suma intermèdia entre les opcions possibles.
+
+Resposta: C).

@@ -1,0 +1,7 @@
+Raonament: To find the number of trailing zeros in 100!, we need to determine the number of times 10 is a factor. Since 10 = 2 * 5, and there are always more factors of 2 than 5, we just need to count the number of factors of 5. We can do this by dividing 100 by powers of 5 and summing the results:
+*   100 / 5 = 20
+*   100 / 25 = 4
+*   100 / 125 = 0 (since 125 > 100)
+The total number of factors of 5 is 20 + 4 = 24. Therefore, there are 24 trailing zeros.
+
+Resposta: D)

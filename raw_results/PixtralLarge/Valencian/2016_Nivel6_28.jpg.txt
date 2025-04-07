@@ -1,0 +1,22 @@
+Per resoldre aquest problema, hem de determinar quantes vegades apareix el dígit 2 en el nombre M de 10 xifres. Sabem que aquest nombre té una propietat curiosa: si enumerem d'esquerra a dreta el lloc de les xifres de 0 a 9, en el lloc N es troba el dígit X, llavors M té tantes xifres N com X assenyale. A més, sabem que en el lloc 9 hi ha un 2.
+
+Analitzem aquesta informació:
+1. Sabem que en el lloc 9 hi ha un 2. Per tant, hi ha dos 9's en el nombre.
+2. Això significa que el nombre té 9 posicions ocupades per altres dígits, i cada posició està determinada per la quantitat de dígits que apareixen en el seu lloc.
+
+Per veure quants 2's hi ha en el nombre, considerem la següent taula:
+- Lloc 0: 0 xifres.
+- Lloc 1: 1 xifra.
+- Lloc 2: 2 xifres.
+- Lloc 3: 3 xifres.
+- Lloc 4: 4 xifres.
+- Lloc 5: 5 xifres.
+- Lloc 6: 6 xifres.
+- Lloc 7: 7 xifres.
+- Lloc 8: 8 xifres.
+- Lloc 9: 2 xifres (perquè hi ha un 2 en el lloc 9).
+
+El nombre M té el dígit 2 en el lloc 9 i també el dígit 2 en el lloc 2, per la qual cosa hi ha dos 2's en el nombre.
+
+Raonament: El nombre té dues xifres 2, una en el lloc 9 i una altra en el lloc 2.
+Resposta: B).

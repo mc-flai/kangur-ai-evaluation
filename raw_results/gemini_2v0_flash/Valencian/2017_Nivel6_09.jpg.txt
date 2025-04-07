@@ -1,0 +1,6 @@
+Raonament: Ens diuen que la mediana de la llista de nombres n, n+3, n+4, n+5, n+6, n+8, n+10, n+12, n+15 i 10 és 10. Primer, hem d'ordenar la llista per trobar la mediana. Una vegada ordenada, la llista és: n, n+3, n+4, n+5, n+6, n+8, n+10, n+12, n+15. Si afegim 10 a la llista, hem d'ubicar-lo correctament per ordre de magnitud. Però com la mediana és 10, i hi ha 9 termes en la llista que contenen "n", el 10 s'ha d'ubicar al centre de la llista o prop. Si n > 10, la mediana no seria 10. Però, com n <=10, si n + 3, n+4...n+15 son tots més grans que 10, podem dir que 10 està per sota d'aquests números. Ordenant la llista, obtenim n, n+3, n+4, n+5, n+6, n+8, n+10, n+12, n+15 i 10. No obstant, hem d'ordenar-los de tal forma que tinguin un ordre correcte. En aquest cas, la mediana és el terme central d'una llista ordenada. Amb 10 elements, els termes centrals són el cinquè i el sisè, i la mediana és la mitjana d'aquests dos termes. Però en aquest cas, ens diuen que tenim un nombre parell de termes. La mediana es calcularia (n+6 + n+8)/2 = 10. Així que tenim que 2n+14 = 20 o n = 3.
+La llista, per tant, seria: 3, 6, 7, 8, 9, 11, 13, 15, 18, 10.
+Ordenant la llista: 3, 6, 7, 8, 9, 10, 11, 13, 15, 18.
+La mitjana (mitjana aritmètica) és (3+6+7+8+9+10+11+13+15+18)/10 = 100/10 = 10.
+
+Resposta: D)

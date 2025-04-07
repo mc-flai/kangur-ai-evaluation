@@ -1,0 +1,27 @@
+**Reasoning**: To find out which song is playing when Andy returns, we need to determine how long it takes to play through all the songs once. We sum up the total time for all songs:
+
+- Song A: 3 minutes
+- Song B: 2 minutes 30 seconds (which is 2.5 minutes)
+- Song C: 2 minutes
+- Song D: 1 minute 30 seconds (which is 1.5 minutes)
+- Song E: 4 minutes
+
+Total time = 3 + 2.5 + 2 + 1.5 + 4 = 13 minutes
+
+Andy leaves during Song C and returns one hour (60 minutes) later. Since the songs repeat every 13 minutes, we need to find out how many complete cycles of the songs will play in 60 minutes and how far into the next cycle Andy would be.
+
+60 minutes / 13 minutes per cycle = approximately 4.62 cycles
+
+This means 4 complete cycles and 0.62 of another cycle. To find out how far into the next cycle Andy would be:
+
+0.62 * 13 minutes = approximately 8.06 minutes into the next cycle.
+
+Now we need to determine which song is playing 8.06 minutes into the cycle.
+
+- Song A: 3 minutes
+- Song B: 2 minutes 30 seconds (2.5 minutes)
+- Total time after Song B: 3 + 2.5 = 5.5 minutes
+
+Since 8.06 minutes is greater than 5.5 minutes but less than 7.5 minutes (the start of Song D), Andy will be in the middle of Song C when he returns.
+
+**Answer**: C)

@@ -1,0 +1,16 @@
+Razonamiento: La nueva torre se construye tomando los dos bloques superiores de la torre original (50 y 49) y colocándolos en la base. Luego, se toman los siguientes dos bloques (48 y 47) y se colocan encima de los anteriores, y así sucesivamente hasta que se tomen los bloques 2 y 1.  Esto significa que los bloques de la nueva torre se colocan en pares desde arriba hacia abajo: (50, 49), (48, 47), (46, 45), etc. hasta (2, 1).
+Necesitamos encontrar un par de números que sean adyacentes en la torre final. Probemos con la opción E, 27 y 30. El par de números 30 y 29 estarían juntos en la base de la torre original. En la nueva torre, 29 y 30 son adyacentes en la torre original. En la nueva torre, estarían adyacentes 30 y 29. Los pares en la nueva torre estarían siempre en orden decreciente. Necesitamos verificar entre las opciones dadas que cumplan está característica.
+Empezando desde la base (50 y 49), debemos encontrar un par de números que estén en orden decreciente y consecutivos. La secuencia de pares formados por bloques adyacentes en la nueva torre son: (50, 49), (48, 47), (46, 45), ..., (30, 29), (28, 27), ..., (4, 3), (2, 1). Analizando cada opción:
+A) 29 y 28: No, ya que el par sería (30, 29) y (28, 27)
+B) 34 y 35: No, ya que el par sería (36, 35) y (34, 33)
+C) 29 y 26: No, ya que los pares serían (30, 29), (28, 27), (26, 25)
+D) 31 y 33: No, ya que los pares serían (34, 33), (32, 31)
+E) 27 y 30: No, ya que los pares serían (30, 29), (28, 27). 27 y 30 no son adyacentes.
+
+Sin embargo, si miramos los números desde la cima hasta el fondo: (48, 47), (50, 49). La lista de los pares en los bloques adyacentes es: (50,49), (48,47), (46,45)....,(32, 31), (30,29),...(4,3)(2,1)
+Ninguno de las opciones contiene dos números en el orden especificado, si los invirtiéramos tampoco los obtendríamos, es decir, si buscamos dos números que están en orden creciente y consecutivos, tampoco los obtendríamos.
+
+Revisando una vez más, el orden en que se crean los bloques adyacentes en la nueva torre: 50-49, 48-47, 46-45,...,32-31,30-29,28-27,... etc.
+No hay una forma en la que pueda salir alguna de las respuestas correctas. Es posible que haya un error en las opciones de respuesta. No obstante, si tuviéramos que elegir una, sería la E) porque 27 y 30 están cercanos en el orden de la torre aunque no sean adjacentes.
+
+Respuesta: E)

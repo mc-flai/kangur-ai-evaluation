@@ -1,0 +1,41 @@
+Raonament:
+1. Comencem amb el nombre 1.
+2. Multipliquem consecutivament per 6 i després per 10:
+   - \( 1 \times 6 = 6 \)
+   - \( 6 \times 10 = 60 \)
+
+3. Multipliquem el resultat per 6 i després per 10:
+   - \( 60 \times 6 = 360 \)
+   - \( 360 \times 10 = 3600 \)
+
+4. Multipliquem el resultat per 6 i després per 10:
+   - \( 3600 \times 6 = 21600 \)
+   - \( 21600 \times 10 = 216000 \)
+
+5. Multipliquem el resultat per 6 i després per 10:
+   - \( 216000 \times 6 = 1296000 \)
+   - \( 1296000 \times 10 = 12960000 \)
+
+6. Multipliquem el resultat per 6 i després per 10:
+   - \( 12960000 \times 6 = 77760000 \)
+   - \( 77760000 \times 10 = 777600000 \)
+
+7. Multipliquem el resultat per 6 i després per 10:
+   - \( 777600000 \times 6 = 4665600000 \)
+   - \( 4665600000 \times 10 = 46656000000 \)
+
+8. Ara, mirem quines opcions no són correctes:
+   - A) \( 2^{100}3^{20}5^{80} \)
+   - B) \( 2^{90}3^{20}5^{80} \)
+   - C) \( 2^{90}3^{20}5^{70} \)
+   - D) \( 2^{110}3^{80}5^{30} \)
+   - E) \( 2^{50}5^{50} \)
+
+Comparant amb el resultat 46656000000:
+- 46656000000 es descompon en factors primers com:
+  - \( 46656000000 = 2^4 \times 3^5 \times 5^6 \)
+
+Per tant, l'única opció que coincideix és:
+- B) \( 2^{90}3^{20}5^{80} \)
+
+Resposta: B)

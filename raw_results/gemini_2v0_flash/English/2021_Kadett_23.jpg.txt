@@ -1,0 +1,13 @@
+Reasoning: Each letter (A, B, C, D, E) must appear exactly 4 times in the whole pyramid. The faces shown contain the following number of each letter:
+- Face 1: A-2, B-2, C-2, D-2, E-2
+- Face 2: A-2, B-2, C-2, D-2, E-2
+- Face 3: A-2, B-2, C-2, D-2, E-2
+Since there are 4 of each letter and so far we have seen 2+2+2 = 6 of each, then the remaining face must contain one of each letter. We are trying to find the label in the middle of the face. Let's write out the second level of the pyramid as viewed from the hidden fourth face.
+- From face 1, that is B-C, so it contains {A, B, C, D, E} - {B, C} = {A, D, E}
+- From face 2, that is E-A, so it contains {A, B, C, D, E} - {E, A} = {B, C, D}
+- From face 3, that is D-C, so it contains {A, B, C, D, E} - {D, C} = {A, B, E}
+Since D and E are at the bottom level of Face 1, B and C are at the bottom level of Face 2, and D and C are at the bottom level of Face 3, that means the letters at the bottom layer of the hidden face have been used twice. This eliminates letters at the top layer to be a D or E.
+The possible letters must be A, B, or C.
+In the first three faces, the top letters are D. So the only remaining letter that hasn't been used as the tip letter is E. Therefore the answer is E.
+
+Answer: E)

@@ -1,0 +1,25 @@
+Razonamiento:
+La pirámide tiene 6 aristas. Se conocen 4 aristas con longitudes 7, 4, y 2, y una arista desconocida.  Para que sea una pirámide triangular, debe formar triángulos en sus caras. Por la desigualdad triangular, la suma de dos lados de un triángulo debe ser mayor que el tercer lado. Analizando las aristas que ya tenemos, se pueden formar dos triángulos:
+1.  Triángulo con lados 2, 4, x:
+    *   2 + 4 > x  => 6 > x
+    *   2 + x > 4  => x > 2
+    *   4 + x > 2 (siempre se cumple ya que x es positivo)
+    *   Por lo tanto, x puede ser 3, 4 o 5.
+2. Triángulo con lados 7, x, y:
+    *   7 + x > y
+    *   7 + y > x
+    *   x + y > 7
+    *   Para que x, y sean enteros, no podemos usar el valor 2, ya que 2+4=6 y no puede formar un triangulo.
+    *   Si x=3 => 3+4<7, no es un triangulo valido.
+    *   Si x=4 => 4+4<7, no es un triangulo valido.
+    *   Si x=5 => y=7, 2 aristas desconocidas, la suma de 7+5=12.
+    *   7, 5, y
+3. Triángulo con lados 7, 2, x, no es válido.
+4. Triángulo con lados 7, 4, y:
+    * 7 + 4 > y
+    * 7 + y > 4 (siempre se cumple)
+    * 4 + y > 7 => y > 3
+    * No se puede formar un triangulo con 7,2,4.
+Entonces las dos aristas desconocidas son 5 y 7, por lo tanto la suma de las longitudes es 5+7=12.
+
+Respuesta: D)

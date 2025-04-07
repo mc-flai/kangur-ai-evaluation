@@ -1,0 +1,29 @@
+Raonament:
+Per transformar 13542 en 12345 necessitem canviar:
+1.  El "1" en la primera posició per un "2"
+2.  El "2" en l'última posició per un "5"
+3.  El "3" està en la posició correcta.
+4.  El "5" necessita anar a la tercera posició, canviant la "5" amb el "3"
+5.  El "4" està en la posició correcta
+
+Per ordenar els dígits en ordre creixent, necessitem intercanviar:
+1. 1 i 2: 23541
+2. 3 i 5: 23541
+3. 5 i 4: 23451
+4. 1 i 5: 23415
+5. 1 i 5: 23415
+
+En realitat, necessitem canviar:
+1. Canviar el 1 i el 2: 23541
+2. Canviar el 5 amb el 3: 23541 -> 13542
+3. canviar el 5 i el 4 per tenir 23451
+4. canviar el 1 amb el 5 per tenir 23415
+5. Intercanviar el 1 i el 5
+
+Aquests són els canvis mínims:
+*   Intercanviem el "1" i el "2"
+*   Intercanviem el "5" i el "3"
+*   Intercanviem el "2" i el "5"
+Per tant, necessitem 3 intercanvis.
+
+Resposta: C)

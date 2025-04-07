@@ -1,0 +1,23 @@
+Per resoldre aquesta pregunta, dividim el problema en dues parts i apliquem els principis de la combinatòria.
+
+1. **Determinar el nombre de parelles de xics:**
+   Hi ha 9 xics, i necessitem escollir parelles. El nombre de parelles possibles de 9 xics es determina així:
+   \[
+   \binom{9}{2} = \frac{9!}{2!(9-2)!} = \frac{9 \times 8}{2 \times 1} = 36 
+   \]
+
+2. **Determinar el nombre de parelles de xiques:**
+   Hi ha 11 xiques, i necessitem escollir parelles. El nombre de parelles possibles de 11 xiques es determina així:
+   \[
+   \binom{11}{2} = \frac{11!}{2!(11-2)!} = \frac{11 \times 10}{2 \times 1} = 55 
+   \]
+
+3. **Sumar les parelles de xics i xiques:**
+   La quantitat total de parelles posibles és la suma de les parelles de xics i les parelles de xiques:
+   \[
+   36 + 55 = 91
+   \]
+
+Raonament: Hem determinat les parelles possibles de xics i xiques per separat, i després sumem aquestes quantitats per obtenir el resultat total.
+
+Resposta: E) 21

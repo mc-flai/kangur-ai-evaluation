@@ -1,0 +1,17 @@
+Per determinar la quantitat d'euros que poden tenir entre els 11 turistes, primer necessitem entendre les condicions donades:
+
+1. Cada turista té un nombre d'euros imparell.
+2. Cap turista té més de 25 euros.
+3. No hi ha dos turistes amb el mateix nombre d'euros.
+
+Els nombres imparells de l'1 al 25 són: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25.
+
+Com que no poden haver dos turistes amb el mateix nombre d'euros i hi ha 11 turistes, els números imparells possibles són aquests 13. Així que cada turista tindrà un dels següents nombres imparells: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25.
+
+Per trobar la major quantitat d'euros que podrien tenir entre tots els turistes, sumem tots aquests números:
+
+1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23 + 25 = 164
+
+Raonament: Els nombres imparells disponibles de l'1 al 25 són 13 i, com que no hi ha dos turistes amb el mateix nombre d'euros, cada turista pren un nombre imparell diferent i els sumem tots.
+
+Resposta: D) 164

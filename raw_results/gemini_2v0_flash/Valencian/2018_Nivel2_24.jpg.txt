@@ -1,0 +1,8 @@
+Raonament: Aquesta pregunta requereix resoldre un criptograma. El problema planteja TALENT * X = 746136, on lletres diferents representen dígits diferents. Volem trobar el valor de L.
+Primer, observem que TALENT és un nombre de sis dígits, i el producte és 746136. Això significa que X deu ser un enter petit.
+Si X = 1, llavors TALENT = 746136, però això significa que T=7, A=4, L=6, E=1, N=3, T=6. Com que T no pot tenir dos valors diferents, X no pot ser 1.
+Si X = 2, llavors TALENT = 746136 / 2 = 373068. Això implica T=3, A=7, L=3, E=0, N=6, T=8. De nou, T no pot tenir dos valors diferents, i L=T=3, per tant no pot ser 2.
+Si X = 3, llavors TALENT = 746136 / 3 = 248712. Això implica T=2, A=4, L=8, E=7, N=1, T=2. En aquest cas, T té el mateix valor (2). A més, tots els dígits són diferents i coincideixen amb les lletres assignades.
+Per tant, L = 8.
+
+Resposta: D)

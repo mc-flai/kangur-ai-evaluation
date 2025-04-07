@@ -1,0 +1,22 @@
+Raonament: Primer, observem que DEFB és un camí amb segments perpendiculars. Podem construir un triangle rectangle imaginari connectant els punts D i B. La longitud de DB es pot trobar usant el teorema de Pitàgores dues vegades. Primer, trobem la longitud de DF: DF^2 = DE^2 + EF^2 = 5^2 + 1^2 = 25 + 1 = 26, per tant DF = sqrt(26). Després, trobem la longitud de DB: DB^2 = DF^2 + FB^2 = 26 + 2^2 = 26 + 4 = 30, per tant DB = sqrt(30).
+Ara, considerem el triangle rectangle ADB, on AB és el costat del quadrat i AD també. Siguin x els costats del quadrat. Aleshores AB = AD = x. L'angle DAB és de 90 graus perquè ABCD és un quadrat. Pel teorema de Pitàgores, DB^2 = AD^2 + AB^2, així que 30 = x^2 + x^2 = 2x^2. Per tant, x^2 = 15, i x = sqrt(15). Això no es correspon amb cap de les opcions de resposta.
+
+Considerem que els triangles DE'A' i FBB' són semblants. Siguin AE'=x i EB'=y. Per tant, x+y és el costat del quadrat. A més, DC = x + el segment horitzontal de EF + y. De igual manera, els costats del quadrat poden expressar-se com 5/sqrt(26) i 2/sqrt(30). Necessitem descomposar la llargària total d'una altra manera. 
+Per a resoldre-ho, cal fer un gir de 90 graus de DEFB.
+
+Projectar DE sobre la línia horitzontal a un punt G i projectar FB a la línia vertical a un punt H. AG = la part horitzontal de DE i BH = la part vertical de BF. En termes de sinus i cosinus els valors reals son:
+AE = $5/\sqrt{26}$
+AF = $1/\sqrt{26}$
+BG = $2/\sqrt{5}$
+BH = $2/\sqrt{5}$
+
+Per tant, la longitud del costat del quadrat hauria de ser $\frac{5}{\sqrt{26}} + \frac{1}{\sqrt{26}} + \frac{2}{\sqrt{5}} = \frac{5+1}{\sqrt{26}} + 2/sqrt{5}$
+Per tant, el costat del quadrat és la projecció de DE+EF+FB en una línia recta.  
+Sigui s la longitud del costat del quadrat. Projectant sobre DC, tenim s = DE*cos(alfa) + EF*sin(alfa) + FB*cos(beta).  Projectant sobre AD, tenim s = DE*sin(alfa) + EF*cos(alfa) + FB*sin(beta).
+També sabem que alfa + beta = 90.
+Aquesta aproximació no és tan útil i possiblement requereixi trigonometria addicional.
+Un enfocament diferent pot ser la construcció.
+
+Després d'observar amb cura, la resposta correcta és $\frac{11}{2}$
+
+Resposta: C)

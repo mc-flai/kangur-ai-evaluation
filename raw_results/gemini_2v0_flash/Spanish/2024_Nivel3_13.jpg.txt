@@ -1,0 +1,85 @@
+Razonamiento: Necesitamos encontrar todos los números de cuatro cifras que cumplen las siguientes condiciones:
+1. Contiene tres cifras distintas.
+2. Cada cifra es par.
+3. La última cifra es igual a la suma de las tres primeras cifras.
+
+Las cifras pares son 0, 2, 4, 6, 8.
+Enumeremos las posibles combinaciones y verifiquemos si cumplen las condiciones:
+
+*   **2024:** 2+0+2 = 4. Cumple las condiciones.
+*   **2204:** 2+2+0 = 4. Cumple las condiciones.
+*   **0224:** 0+2+2 = 4. Cumple las condiciones.
+*   **2046:** 2+0+4 = 6. Cumple las condiciones.
+*   **0246:** 0+2+4 = 6. Cumple las condiciones.
+*   **2406:** 2+4+0 = 6. Cumple las condiciones.
+*   **4206:** 4+2+0 = 6. Cumple las condiciones.
+*   **0426:** 0+4+2 = 6. Cumple las condiciones.
+*   **4026:** 4+0+2 = 6. Cumple las condiciones.
+
+*   **2068:** 2+0+6 = 8. Cumple las condiciones.
+*   **0268:** 0+2+6 = 8. Cumple las condiciones.
+*   **2608:** 2+6+0 = 8. Cumple las condiciones.
+*   **6208:** 6+2+0 = 8. Cumple las condiciones.
+*   **0628:** 0+6+2 = 8. Cumple las condiciones.
+*   **6028:** 6+0+2 = 8. Cumple las condiciones.
+
+*   **4408:** 4+4+0 = 8. Cumple las condiciones.
+*   **4048:** 4+0+4 = 8. Cumple las condiciones.
+*   **0448:** 0+4+4 = 8. Cumple las condiciones.
+
+Ahora vamos a eliminar los duplicados y verificar si las cifras son distintas:
+*2024: 2,0,2 = Tres cifras con repeticion*
+*2204: 2,2,0 = Tres cifras con repeticion*
+*0224: 2,2,0 = Tres cifras con repeticion*
+*2046: 2,0,4 = Tres cifras distintas*
+*0246: 2,0,4 = Tres cifras distintas*
+*2406: 2,4,0 = Tres cifras distintas*
+*4206: 4,2,0 = Tres cifras distintas*
+*0426: 4,2,0 = Tres cifras distintas*
+*4026: 4,0,2 = Tres cifras distintas*
+*2068: 2,0,6 = Tres cifras distintas*
+*0268: 2,0,6 = Tres cifras distintas*
+*2608: 2,6,0 = Tres cifras distintas*
+*6208: 6,2,0 = Tres cifras distintas*
+*0628: 6,2,0 = Tres cifras distintas*
+*6028: 6,0,2 = Tres cifras distintas*
+*4408: 4,4,0 = Tres cifras con repeticion*
+*4048: 4,0,4 = Tres cifras con repeticion*
+*0448: 4,4,0 = Tres cifras con repeticion*
+Los números que cumplen las tres propiedades son: 2046, 0246, 2406, 4206, 0426, 4026, 2068, 0268, 2608, 6208, 0628, 6028. Tenemos un total de 12 números, pero el numero solo tiene tres cifras pares distintas, por tanto 2024, 2046, 2068, tienen repetidas cifras.
+
+Numeros que cumplen las condiciones son: 2024 (2+0+2=4), 0224 (0+2+2=4), 2204(2+2+0=4), 2046 (2+0+4=6), 0246 (0+2+4=6), 2068 (2+0+6=8), 0268 (0+2+6=8). Pero, debemos descartar 0224, 0246 y 0268, ya que estos no son de cuatro cifras. Debemos añadir 2406, 4206, 4026, 2608, 6208, 6028 ya que la suma de sus 3 primeras cifras da la cuarta cifra
+
+Los números son: 2024, 2046, 2406, 4206, 4026, 2068, 2608, 6208 y 6028. En total 9.
+Revisemos el proceso: Necesitamos 3 cifras pares distintas.
+Caso 1: {0, 2, 4} posibles sumas: 6
+Posibles números:
+2046, 2406, 0246, 0426, 4206, 4026.
+Caso 2: {0, 2, 6} posibles sumas: 8
+Posibles números:
+2068, 2608, 0268, 0628, 6208, 6028
+Caso 3: {0, 2, x} posible sumas.
+
+En el numero 2024 hay 3 numeros distintos y todos pares 0, 2, 4. La suma de los tres primeros numeros da el cuarto, en este caso 2+0+2=4
+La suma de tres numeros distintos y pares es par. Por lo tanto debemos descartar sumas impares.
+Opciones: {0,2,4}, la suma es 6.
+{0,2,6}, la suma es 8
+{0,2,8}, la suma es 10(no vale).
+{0,4,6}, la suma es 10 (no vale).
+{0,4,8}, la suma es 12 (no vale).
+{0,6,8}, la suma es 14 (no vale).
+{2,4,6}, la suma es 12 (no vale).
+{2,4,8}, la suma es 14 (no vale).
+{2,6,8}, la suma es 16 (no vale).
+{4,6,8}, la suma es 18 (no vale).
+
+Por lo tanto:
+{0,2,4} suma 6:
+2046, 2406, 4206, 4026. (4 números)
+{0,2,6} suma 8:
+2068, 2608, 6208, 6028 (4 números)
+Pero el 2024 cumple la condicion pero tiene repetidos numeros, por lo tanto el resultado es: 4+4+1=7
+
+Respuesta: D)
+Razonamiento: Examinamos las posibles combinaciones de tres dígitos pares distintos cuya suma también sea un dígito par, y luego contamos cuántos números de cuatro dígitos podemos formar con ellos, recordando incluir el 2024.
+Respuesta: D)

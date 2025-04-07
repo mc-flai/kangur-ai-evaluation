@@ -1,0 +1,20 @@
+Pour déterminer quelle pièce ne sera pas utilisée pour former un carré en accolant quatre de ces cinq pièces, analysons les différentes pièces :
+
+1. La pièce A est un quart de carré à 90 degrés.
+2. La pièce B est un simple carré 1x1.
+3. La pièce C est un quart de carré à 90 degrés mais avec un carré central manquant.
+4. La pièce D est un carré 2x1.
+5. La pièce E est un carré 1x2.
+
+Pour former un carré en utilisant quatre de ces pièces, il faut que les pièces puissent s'imbriquer parfaitement pour remplir une forme carrée. 
+
+Si l'on regarde les configurations possibles :
+
+- Les pièces A et C peuvent être utilisées pour former les coins.
+- La pièce B peut être utilisée pour remplir un trou central.
+- Les pièces D et E peuvent être utilisées pour remplir les bords et les espaces restants.
+
+En combinant ces pièces, on peut réaliser un carré 2x2 en utilisant les pièces A, B, D et E, car elles s'imbriquent parfaitement. La pièce C ne peut pas être utilisée dans cette configuration car elle a un trou central qui ne correspond pas au reste des pièces.
+
+Raisonnement : La pièce C ne peut être utilisée car elle a une partie manquante qui rend impossible de l'assembler correctement avec les autres pièces pour former un carré complet.
+Réponse : C)

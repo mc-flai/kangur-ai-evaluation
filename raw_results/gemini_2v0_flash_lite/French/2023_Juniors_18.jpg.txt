@@ -1,0 +1,20 @@
+Raisonnement :
+La liste est initialement : 2, 0, 2, 3.
+La machine va ajouter le plus petit entier positif ou nul différent des quatre derniers nombres.
+1. Les quatre derniers nombres sont 2, 0, 2, 3. Le plus petit entier positif ou nul différent est 1. La liste devient 2, 0, 2, 3, 1.
+2. Les quatre derniers nombres sont 0, 2, 3, 1. Le plus petit entier positif ou nul différent est 0. La liste devient 2, 0, 2, 3, 1, 0.
+3. Les quatre derniers nombres sont 2, 3, 1, 0. Le plus petit entier positif ou nul différent est 2. La liste devient 2, 0, 2, 3, 1, 0, 2.
+4. Les quatre derniers nombres sont 3, 1, 0, 2. Le plus petit entier positif ou nul différent est 0. La liste devient 2, 0, 2, 3, 1, 0, 2, 0.
+5. Les quatre derniers nombres sont 1, 0, 2, 0. Le plus petit entier positif ou nul différent est 3. La liste devient 2, 0, 2, 3, 1, 0, 2, 0, 3.
+6. Les quatre derniers nombres sont 0, 2, 0, 3. Le plus petit entier positif ou nul différent est 1. La liste devient 2, 0, 2, 3, 1, 0, 2, 0, 3, 1.
+7. Les quatre derniers nombres sont 2, 0, 3, 1. Le plus petit entier positif ou nul différent est 0. La liste devient 2, 0, 2, 3, 1, 0, 2, 0, 3, 1, 0.
+8. Les quatre derniers nombres sont 0, 3, 1, 0. Le plus petit entier positif ou nul différent est 2. La liste devient 2, 0, 2, 3, 1, 0, 2, 0, 3, 1, 0, 2.
+9. Les quatre derniers nombres sont 3, 1, 0, 2. Le plus petit entier positif ou nul différent est 0. La liste devient 2, 0, 2, 3, 1, 0, 2, 0, 3, 1, 0, 2, 0.
+La séquence semble périodique à partir d'un certain point.
+Considérons la séquence des entiers ajoutés : 1, 0, 2, 0, 3, 1, 0, 2, 0... qui commence au 5ème terme et se répète ensuite.
+La sous-séquence périodique est 1, 0, 2, 0, 3, 1, 0, 2, 0 qui a une longueur de 9 éléments.
+On cherche le 2023ème nombre de la liste. On en a déjà 4 au début. On cherche le 2019ème nombre de la séquence d'entiers.
+2019 = 224 * 9 + 3
+Donc le 2019ème nombre est le 3ème nombre de la séquence 1, 0, 2, 0, 3, 1, 0, 2, 0.
+Le 3ème nombre de la séquence est 2.
+Réponse : C)

@@ -1,0 +1,13 @@
+Raonament:
+The circumference of the cylinder seems to be such that the numbers increase consecutively.
+The lowest row goes from 1 to 10, and the second row goes from 23 to 31.
+From 1 to 10 there is a total of 10 numbers.
+From 23 to 31, there are 9 numbers.
+The difference between the starting points of the two rows is 22.
+The question mark represents the third row. Following the same logic, we can predict the beginning number by the number of numbers added from the previous row.
+If we do 22 + 9 = 31, then we add 31 to the final number.
+Therefore the next number must start at 31 + 22 = 53.
+Since from the first row to the second we lost 1 number, and from the second to the third we will lose another, the numbers will be 53, 54, 55, 56, 57, 58, 59, and 60, which are 8 numbers.
+Therefore the answer is 60.
+
+Resposta: E)

@@ -1,0 +1,38 @@
+Raonament:
+1. **Anàlisi de la màquina:** La màquina té quatre operacions amb la mateixa probabilitat (1/4 cada una): sumar 2, sumar 3, multiplicar per 2, multiplicar per 3.
+2. **Entrada 1 -> a:**
+   - 1+2 = 3 (impar)
+   - 1+3 = 4 (parell)
+   - 1*2 = 2 (parell)
+   - 1*3 = 3 (impar)
+   Per tant, a pot ser 3, 4 o 2.
+3. **Entrada a -> b:**
+   - Si a=3:
+      - 3+2 = 5 (impar)
+      - 3+3 = 6 (parell)
+      - 3*2 = 6 (parell)
+      - 3*3 = 9 (impar)
+   - Si a=4:
+      - 4+2 = 6 (parell)
+      - 4+3 = 7 (impar)
+      - 4*2 = 8 (parell)
+      - 4*3 = 12 (parell)
+   - Si a=2:
+      - 2+2 = 4 (parell)
+      - 2+3 = 5 (impar)
+      - 2*2 = 4 (parell)
+      - 2*3 = 6 (parell)
+4. **Entrada b -> c:** Calculem les probabilitats de cada cas per trobar un nombre parell a c.
+   - Probabilitat (a=3) = 2/4 = 1/2.  En aquest cas, probabilitat de b parell = 2/4=1/2. Per tant, P(c parell| a=3) = (1/2)*(2/4) = 1/4.
+   - Probabilitat (a=4) = 1/4. En aquest cas, probabilitat de b parell = 3/4. Per tant, P(c parell | a=4) = (1/4)*(3/4) = 3/16
+   - Probabilitat (a=2) = 1/4. En aquest cas, probabilitat de b parell = 3/4. Per tant, P(c parell | a=2) = (1/4)*(3/4) = 3/16.
+5. **Probabilitat total:** P(c parell) = 1/4 + 3/16 + 3/16 = 4/16 + 3/16 + 3/16 = 10/16 = 5/8.  Cap de les respostes donades coincideix, però hem vist que podem canviar la probabilitat en un número parell.
+   Considerem un error en el càlcul. Repetim l'apartat 4:
+     - Si a=3, b pot ser 5, 6, 6, 9. P(b parell) = 2/4 = 1/2. Si b és 6, llavors c pot ser 8, 9, 12, 18. P(c parell | b=6) = 4/4=1.
+   - Si a=3, b=6, P(c parell) = (1/2) * (4/4)=1/2
+   - Si a=4, b pot ser 6, 7, 8, 12. P(b parell) = 3/4. Si b és 6, 8 o 12, c és parell, llavors P(c parell | b=6,8 o 12) = 1. Per tant P(c parell) = (1/4) * (3/4) * (4/4) = 3/16
+   - Si a=2, b pot ser 4, 5, 4, 6. P(b parell) = 3/4. Si b és 4 o 6, c és parell, llavors P(c parell) = 1. Per tant, P(c parell)= (1/4)*(3/4) = 3/16
+   - P(c parell) = 1/4+3/16+3/16 = 10/16=5/8.
+   Considerant un error en les opcions.
+
+Resposta: E)

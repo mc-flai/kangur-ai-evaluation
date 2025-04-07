@@ -1,0 +1,12 @@
+Razonamiento:
+1. **Identificar la forma del cuadrado grande:** El problema indica que los cuadrados pequeños están positioned in a manner that creates a larger square. The vertices A and C create a diagonal in the large square.
+2. **Determine the length of the side of the large square:**  The side of the large square is composed of segments from the smaller squares. One side has length 'b' and the remaining portion of the length is the segment from the 'a' square. A vertical segment of length a+b forms one side. The other side has length c.
+3. **Apply the Pythagorean theorem:** Notice that a right triangle is formed with sides b-a and c and the hypotenuse is the side of the square. The side length of the big square is equal to sqrt((b-a)^2 + c^2).
+4. **Evaluate the answer choices:**
+    *   A) Doesn't look correct.
+    *   B) Doesn't look correct.
+    *   C) Doesn't look correct.
+    *   D) sqrt((b-a)^2 + c^2). This matches.
+    *   E) Doesn't look correct.
+
+Respuesta: D)

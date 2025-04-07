@@ -1,0 +1,33 @@
+### Reasoning:
+
+1. **Song A**: Lasts 3 minutes.
+2. **Song B**: Lasts 2 minutes and 30 seconds.
+3. **Song C**: Lasts 2 minutes.
+4. **Song D**: Lasts 1 minute and 30 seconds.
+5. **Song E**: Lasts 4 minutes.
+
+Andy left the house when Song C was playing. We need to calculate how much time has passed and which song is playing when Andy returns exactly one hour later.
+
+First, convert the total time Andy is away into minutes:
+1 hour = 60 minutes.
+
+Now, calculate the time taken for each song to play:
+- Song C: 2 minutes.
+- Remaining time after Song C: 60 - 2 = 58 minutes.
+
+Next, determine the sequence of songs played after Song C:
+- Song D: 1 minute and 30 seconds = 90 seconds = 1.5 minutes.
+- Remaining time after Song D: 58 - 1.5 = 56.5 minutes.
+
+- Song E: 4 minutes.
+- Remaining time after Song E: 56.5 - 4 = 52.5 minutes.
+
+- Song B: 2 minutes and 30 seconds = 150 seconds = 2.5 minutes.
+- Remaining time after Song B: 52.5 - 2.5 = 50 minutes.
+
+- Song A: 3 minutes.
+- Remaining time after Song A: 50 - 3 = 47 minutes.
+
+Since the remaining time (47 minutes) is more than the duration of any single song, Song A will be playing when Andy returns.
+
+### Answer: A

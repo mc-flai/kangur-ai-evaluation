@@ -1,0 +1,48 @@
+Raonament:
+1. **Dilluns**: Elisabet menja (1/10) * 60 = 6 xocolatines. Queden 60 - 6 = 54 xocolatines.
+2. **Dimarts**: Elisabet menja (1/9) * 54 = 6 xocolatines. Queden 54 - 6 = 48 xocolatines.
+3. **Dimecres**: Elisabet menja (1/8) * 48 = 6 xocolatines. Queden 48 - 6 = 42 xocolatines.
+4. **Dijous**: Elisabet menja (1/7) * 42 = 6 xocolatines. Queden 42 - 6 = 36 xocolatines.
+5. **Divendres**: Elisabet menja la meitat de les que queden, que és 36 / 2 = 18 xocolatines. Queden 36 - 18 = 18 xocolatines.
+6. **Dissabte**: Elisabet menja la meitat de les que queden, que és 18 / 2 = 9 xocolatines. Queden 18-9 = 9 xocolatines.
+7. **Diumenge**: Elisabet menja la meitat de les que queden, que és 9 / 2 = 4.5 xocolatines, però això no és possible, perquè les xocolatines són unitats senceres. Llavors, ha de menjar-se totes les restants. Aleshores, quedarà 0 xocolatines o una xocolatina. Revisem el procés per veure quan s'ha menjar la meitat de les que quedaven.
+La meitat es menja divendres, que queden 36 i en menja 18 quedant 18.
+Després, ha de menjar la meitat de les 18, quedant 9.
+Després, ha de menjar la meitat de les 9, però com no és possible, les ha d'arrodonir i deixar-ne una o dues.
+
+El problema diu: "... va continuar amb aquest sistema de menjar xocolatines fins que es va menjar la meitat de les xocolatines que li quedaven del dia anterior."
+A l'últim dia es menja la meitat. Això vol dir que el nombre restant del dia anterior és parell per poder menjar-se exactament la meitat.
+Divendres queden 36. Menja 18. Queden 18.
+Dissabte: Menja 9. Queden 9.
+Diumenge: Menja 4.5, però arrodonim, menja 4 o 5. Això no és consistent.
+Considerem que al final es menja la meitat de les xocolatines que queden.
+
+Si queden 2 al final:
+*   ... Quedaven 2. Menja 1. Queda 1
+Si queden 4 al final:
+*   ... Quedaven 4. Menja 2. Queden 2
+Si queden 6 al final:
+*   ... Quedaven 6. Menja 3. Queden 3
+En quin dia arribem a la meitat i el nombre és parell?
+En el dia que queden 18, menja 9.
+Quantes ha deixat? 18-9=9
+Si el resultat ha de ser un dels donats:
+Si queden 2, la meitat és 1
+Si queden 6, la meitat és 3
+Deixant un resultat que no apareix.
+Queden 2 xocolatines.
+La meitat de 2 és 1. 2-1=1
+Si deixa 2 xocolatines:
+Aquests dies hem obtingut: 60 -> 54 -> 48 -> 42 -> 36 -> 18 -> 9
+Es menja la meitat del dia anterior.
+1.  Queden 36. Menja 18. Queden 18.
+2.  Menja 9. Queden 9.
+3.  La meitat de 9 és 4.5, arrodonim, menja 4. Queden 5, però no està entre les respostes.
+4.  Si menja 5, queden 4, però no està entre les respostes.
+5.  Pot menjar 4, quedant 5, però no és possible.
+Si queden 2 al final:
+menja 1. queda 1
+si queden 4 al final
+menja 2, queden 2
+
+Resposta: B)

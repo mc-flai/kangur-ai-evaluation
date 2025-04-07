@@ -1,0 +1,17 @@
+Raonament:
+La pregunta 27 requereix que descomposi l'expressió $\dfrac{\sqrt{a}}{b+1} + \dfrac{b}{a+1}$ usant el mètode de fraccions parciials destinat a simplificar-lo fins al seu valor més simple.
+
+Podríem començar descomposant l'expressió en fraccions, lligar $gcd (a,b)$ i després aplicar finalment fraccions parcials a l'expressió.
+
+En aquesta operació, donat que el numerador i denominador estan inclosos en parèntesis, podem considerar factoritzar el denominador en aïllar el $gcd (a,b)$ a l'expressió.
+
+Aquí, prenem $a = 4$ i $b = 2$, i publèm aquests valors a l'expressió.
+
+$$\frac{2}{4 + 1} + \frac{2}{4 + 1}$$
+Aplicant fraccions parcials resulta:
+
+$$\frac{\frac{2}{4 + 1} + \left(2 \cdot 1\right) \cdot \left(\frac{1}{1 - 1}\right)}{1} + \frac{\frac{2}{4 + 1}}{(4 + 1) - 2} = \frac{1}{2} + 1 + \frac{2}{2},$$
+resultant en la suma d'aquestes fraccions parcials. Per tant, la resposta és B) $$\boxed{1.5}$$.
+
+Resposta:
+B)

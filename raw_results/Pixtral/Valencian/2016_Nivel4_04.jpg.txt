@@ -1,0 +1,15 @@
+La pregunta 4 involucra el procés de tallar una fulla de paper en tres trossos, després tallar cada tros en tres trossos més petits, i així successivament. La pregunta pregunta quant de paper tindrem al final després d'un total de set etapes.
+
+**Razonament**:
+1. Comencem amb una fulla de paper.
+2. En la primera etapa, tallem la fulla en tres trossos.
+3. En la segona etapa, tallem cada dels tres trossos en tres trossos més petits. Això resulta en 3 * 3 = 9 trossos.
+4. En la tercera etapa, tallem cada dels nou trossos en tres trossos més petits. Això resulta en 9 * 3 = 27 trossos.
+5. En la quarta etapa, tallem cada dels 27 trossos en tres trossos més petits. Això resulta en 27 * 3 = 81 trossos.
+6. En la cinquena etapa, tallem cada dels 81 trossos en tres trossos més petits. Això resulta en 81 * 3 = 243 trossos.
+7. En la sisena etapa, tallem cada dels 243 trossos en tres trossos més petits. Això resulta en 243 * 3 = 729 trossos.
+8. En la setena etapa, tallem cada dels 729 trossos en tres trossos més petits. Això resulta en 729 * 3 = 2187 trossos.
+
+Per tant, al final de les set etapes, tindrem 2187 trossos de paper.
+
+**Resposta**: E)

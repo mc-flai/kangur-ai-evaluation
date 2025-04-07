@@ -1,0 +1,40 @@
+Per resoldre aquest problema, hem de trobar la longitud del segment \( |RB| \) en el quadrat ABCD de costat 12, utilitzant les dades proporcionades.
+
+1. **Identificar els punts i les seves distàncies**:
+   - \( |AP| = 4 \)
+   - \( |DQ| = 3 \)
+   - \( R \) és el punt de \( PD \) tal que \( RQ \perp DC \).
+
+2. **Determinar les coordenades dels punts**:
+   - Suposem que el vèrtex \( D \) està en (0,0).
+   - El vèrtex \( C \) estarà llavors en (12,0) perquè el costat del quadrat és 12.
+   - El vèrtex \( A \) estarà en (0,12).
+   - El vèrtex \( B \) estarà en (12,12).
+   - \( Q \) està sobre \( DC \) i \( DQ = 3 \), així que \( Q \) està en (3,0).
+   - \( P \) està sobre \( AB \) i \( AP = 4 \), així que \( P \) està en (4,12).
+
+3. **Trobar les coordenades de \( R \)**:
+   - \( R \) és el punt de \( PD \) tal que \( RQ \perp DC \).
+   - La línia \( DC \) és horitzontal, així que qualsevol línia perpendicular a \( DC \) és vertical.
+   - \( R \) ha de tenir la mateixa coordenada x que \( Q \), és a dir, 3.
+   - Per trobar la coordenada y de \( R \), necessitem l'equació de la línia \( PD \).
+
+4. **Equació de la línia \( PD \)**:
+   - \( P \) té coordenades (4,12) i \( D \) té coordenades (0,0).
+   - La pendent (m) de \( PD \) és \( \frac{12-0}{4-0} = 3 \).
+   - Usant la forma punt-pendent de l'equació de la línia: \( y - 12 = 3(x - 4) \).
+   - Simplificant: \( y = 3x - 12 + 12 \), \( y = 3x \).
+   - La coordenada y de \( R \) (quan \( x = 3 \)) és \( y = 3(3) = 9 \).
+   - Així que \( R \) té coordenades (3,9).
+
+5. **Calcular la distància \( |RB| \)**:
+   - \( B \) té coordenades (12,12).
+   - Usant la fórmula de la distància entre dos punts: \( |RB| = \sqrt{(12-3)^2 + (12-9)^2} \).
+   - Simplificant: \( |RB| = \sqrt{9^2 + 3^2} \).
+   - \( |RB| = \sqrt{81 + 9} \).
+   - \( |RB| = \sqrt{90} \).
+   - \( |RB| = 3\sqrt{10} \).
+
+Raonament: Utilitzant coordenades i la fórmula de la distància, hem determinat que \( |RB| = 3\sqrt{10} \).
+
+Resposta: C).

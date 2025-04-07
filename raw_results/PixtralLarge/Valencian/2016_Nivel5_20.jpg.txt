@@ -1,0 +1,40 @@
+Per determinar el valor correcte de \( n \) tal que \(\log_n(2^n) = \frac{n}{4}\), podem començar per manipular l'equació.
+
+1. L'equació donada és:
+   \[
+   \log_n(2^n) = \frac{n}{4}
+   \]
+
+2. Utilitzem la propietat del logaritme que diu: \(\log_b(a^c) = c \log_b(a)\). Aplicant-la, tenim:
+   \[
+   \log_n(2^n) = n \log_n(2)
+   \]
+
+3. Per tant, l'equació es transforma en:
+   \[
+   n \log_n(2) = \frac{n}{4}
+   \]
+
+4. Dividim ambdues parts de l'equació per \( n \):
+   \[
+   \log_n(2) = \frac{1}{4}
+   \]
+
+5. Aquesta equació es pot escriure en forma exponencial com:
+   \[
+   n^{\frac{1}{4}} = 2
+   \]
+
+6. Per trobar \( n \), elevem ambdues parts al quadrat:
+   \[
+   n = 2^4
+   \]
+   \[
+   n = 16
+   \]
+
+Per tant, el valor de \( n \) és 16.
+
+Raonament: Hem utilitzat les propietats dels logaritmes i les transformacions en forma exponencial per resoldre l'equació donada.
+
+Resposta: D)

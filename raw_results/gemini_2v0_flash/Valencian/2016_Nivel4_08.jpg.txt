@@ -1,0 +1,10 @@
+Raonament: Tenim 2016 habitants i cap té més de 49 anys. Això vol dir que les edats possibles són 0, 1, 2, ..., 49. Per tant, hi ha 50 edats possibles.
+Si volem saber el nombre mínim d'habitants que tenen la mateixa edat, podem dividir el nombre d'habitants entre el nombre d'edats possibles i arrodonir el resultat cap amunt. Així:
+2016 / 50 = 40.32
+Arrodonint cap amunt, obtenim 41. Per tant, podem assegurar que al menys 41 habitants tenen la mateixa edat.
+Si hi hagués exactament 41 persones per a cada edat possible, llavors 41*50=2050, que és més que 2016. Però, si tinguéssim 40 persones amb cada edat, 40*50=2000. Així, podem dir que hi ha 2016-2000 = 16 persones per assignar edats i totes han de tenir una edat existent. Per tant hi ha d'haver una edat amb més de 40 persones.
+
+A més, no podem assegurar que al menys 42 persones tinguin la mateixa edat. Per exemple, si hi hagués 40 persones per a cada una de les 50 edats, tenim 2000 persones. Les 16 persones restants podrien tenir edats diferents de les inicials o repetir edats.
+Per tant, la resposta correcta és: Al menys 41, però a priori no podem dir que siguen 42 o més.
+
+Resposta: C)

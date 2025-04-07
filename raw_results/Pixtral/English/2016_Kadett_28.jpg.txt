@@ -1,0 +1,33 @@
+### Reasoning:
+
+1. **Understanding the Pyramid Structure**:
+   - The pyramid consists of 14 cubes.
+   - The bottom layer has 9 cubes.
+   - The sum of the numbers on these 9 cubes is 50.
+
+2. **Relationship Between Numbers**:
+   - The number on each remaining cube is equal to the sum of the numbers on the four cubes directly underneath it.
+
+3. **Determining the Numbers**:
+   - Let's denote the numbers on the bottom layer as \(a_1, a_2, \ldots, a_9\).
+   - The sum of these numbers is given: \(a_1 + a_2 + \cdots + a_9 = 50\).
+
+4. **Calculating the Numbers on Higher Layers**:
+   - The number on the cube directly above the center of the bottom layer is the sum of the four central cubes: \(a_5 + a_6 + a_7 + a_8\).
+   - The number on the next layer above is the sum of the numbers on the layer directly beneath it.
+
+5. **Finding the Maximum Number**:
+   - To find the maximum number on the topmost cube, we need to maximize the sum of the numbers on the bottom layer.
+   - The maximum sum of 9 different positive integers is achieved when they are consecutive starting from 1.
+   - The sum of the first 9 positive integers is \(1 + 2 + 3 + \cdots + 9 = 45\).
+
+6. **Adjusting for the Given Sum**:
+   - Since the sum of the numbers on the bottom layer is 50, we need to find the configuration that gives this sum.
+   - One possible configuration is: \(1, 2, 3, 4, 5, 6, 7, 8, 15\).
+   - This configuration sums to 50.
+
+7. **Calculating the Topmost Cube**:
+   - The number on the topmost cube is the sum of the numbers on the bottom layer.
+   - Therefore, the maximum number on the topmost cube is \(50\).
+
+### Answer: C

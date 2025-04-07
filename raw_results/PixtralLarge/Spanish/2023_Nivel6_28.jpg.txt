@@ -1,0 +1,41 @@
+**Razonamiento:**
+Para resolver este problema, necesitamos determinar cuál número se coloca en el hexágono con el signo de interrogación de tal manera que la suma de los tres números alrededor de cada uno de los seis puntos negros sea la misma. Comenzamos identificando las sumas alrededor de los puntos negros que ya están completos.
+
+1. El hexágono con el número 11 está rodeado por dos puntos negros. La suma de los números alrededor de uno de esos puntos negros debe ser la misma que la del otro punto negro.
+2. Sabemos que la suma de los números alrededor de un punto negro debe ser constante. Observando la disposición de los hexágonos:
+
+   - Alrededor del punto negro que toca el hexágono con el 4 y el 6, la suma es 4 + 6 + ? = 10 + ?
+   - Alrededor del punto negro que toca el hexágono con el 4 y el 11, la suma es 4 + 11 + x = 15 + x (donde x es el número en el hexágono con el signo de interrogación)
+   - Alrededor del punto negro que toca el hexágono con el 6 y el 11, la suma es 6 + 11 + y = 17 + y (donde y es el número en el hexágono con el signo de interrogación)
+
+3. Dado que la suma alrededor de todos los puntos negros debe ser la misma, denominamos esta suma como S.
+   - Del primer caso, deducimos que S = 10 + ?
+   - Del segundo caso, deducimos que S = 15 + x
+   - Del tercer caso, deducimos que S = 17 + y
+
+4. Dado que las sumas deben ser iguales:
+   15 + x = 17 + y
+   x - y = 2
+
+5. También sabemos que la suma de los números alrededor del punto negro que toca el hexágono con el 4 y el 6 es 10 + ?. Esto nos da:
+   S = 10 + ?
+
+6. Del segundo caso, sabemos que S = 15 + x, por lo tanto:
+   10 + ? = 15 + x
+   ? - x = 5
+
+7. Resolviendo el sistema de ecuaciones:
+   ? - x = 5
+   x - y = 2
+
+8. Como ? = 7 (del conjunto de opciones), sustituimos:
+   7 - x = 5
+   x = 2
+
+9. Sustituyendo x en la segunda ecuación:
+   2 - y = 2
+   y = 0
+
+Por lo tanto, el número que se coloca en el hexágono con el signo de interrogación es 7.
+
+**Respuesta:** C)

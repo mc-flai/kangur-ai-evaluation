@@ -1,0 +1,17 @@
+
+La pregunta 30 solicita el menor número posible de segmentos unitarios negros necesarios para formar el perímetro del cuadrado grande de 5x5 utilizando segmentos negros y grises de 1x1.
+
+Para resolver esto, debemos considerar cómo se forma el perímetro del cuadrado grande de 5x5. El perímetro de un cuadrado se calcula como 4 veces el lado. Por lo tanto, el perímetro del cuadrado grande es 4 * 5 = 20 unidades.
+
+El problema especifica que los segmentos adyacentes deben tener colores alternados. Esto significa que cada segmento negro debe estar flanqueado por segmentos grises y viceversa. Por lo tanto, el número de segmentos negros debe ser igual al número de segmentos grises.
+
+Para encontrar el menor número de segmentos negros unitarios, debemos distribuir los segmentos negros y grises de manera uniforme a lo largo del perímetro. Dado que el perímetro total es 20, y los segmentos deben alternar, podemos distribuir los segmentos negros y grises de la siguiente manera:
+
+- Segmentos negros: 10
+- Segmentos grises: 10
+
+Por lo tanto, el menor número posible de segmentos unitarios negros es 10.
+
+Razonamiento: El perímetro del cuadrado grande es 20 unidades. Los segmentos deben alternar entre negro y gris, lo que significa que el número de segmentos negros debe ser igual al número de segmentos grises. Distribuyendo uniformemente los segmentos negros y grises, encontramos que el menor número posible de segmentos negros unitarios es 10.
+
+Respuesta: D)

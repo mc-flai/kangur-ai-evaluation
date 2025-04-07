@@ -1,0 +1,12 @@
+Let $n$ be the number of points at the beginning.
+After the first step, we have $n + (n-1) = 2n - 1$ points.
+After the second step, we have $2n - 1 + (2n - 1 - 1) = 2(2n - 1) - 1 = 4n - 3$ points.
+After the third step, we have $2(4n - 3) - 1 = 8n - 7$ points.
+After the fourth step, we have $2(8n - 7) - 1 = 16n - 15$ points.
+We are given that $16n - 15 = 225$. Then $16n = 240$, so $n = 240/16 = 15$.
+
+Reasoning: We can derive a recursive formula for the number of points after each step. Let $p_i$ be the number of points after step $i$. Then $p_0 = n$, $p_1 = 2n - 1$, and $p_{i+1} = 2p_i - 1$. So $p_i = 2^i n - (2^i - 1)$. After 3 more times, we have a total of 4 times. Thus, we want $p_4$, so $p_4 = 2^4 n - (2^4 - 1) = 16n - 15$. We are given that this equals 225, so we solve $16n - 15 = 225$ for $n$.
+$16n = 240$
+$n = 15$
+
+Answer: C)

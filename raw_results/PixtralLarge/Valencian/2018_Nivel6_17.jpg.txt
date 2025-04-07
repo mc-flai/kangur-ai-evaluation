@@ -1,0 +1,22 @@
+**Raonament:**
+
+Per resoldre el problema, hem de determinar quants mentiders hi ha entre set persones, de les quals una persona diu la veritat (un cavaller) i la resta menteixen (mentiders).
+
+La frase clau és: "Aquest està assegut entre dos mentiders!"
+
+- Si hi ha un cavaller, aquesta persona diu la veritat.
+- Per tant, la persona que diu la frase ha de ser un mentider, ja que la veritat només pot ser dita pel cavaller.
+- Si el mentider diu "Estic assegut entre dos mentiders", i això és fals, significa que no està assegut entre dos mentiders. Per tant, ha de tenir un cavaller al seu costat.
+- Això implica que el mentider ha de tenir una combinació de cavaller i mentider als seus costats.
+
+Ara analitzem les possibles disposicions:
+
+1. Si el mentider està assegut entre un cavaller i un mentider, la frase "Estic assegut entre dos mentiders" seria falsa, el que és correcte per a un mentider.
+
+Així, en un grup de set persones, si hi ha un cavaller i la resta són mentiders, la disposició podria ser:
+
+- Cavaller Mentider Cavaller Mentider Cavaller Mentider Cavaller
+
+Això significa que hi ha 4 mentiders (ja que hi ha 7 persones en total i 1 és el cavaller).
+
+**Resposta:** B) 4

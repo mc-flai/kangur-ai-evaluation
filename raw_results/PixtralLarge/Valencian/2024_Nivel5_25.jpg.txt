@@ -1,0 +1,26 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de determinar la quantitat màxima que pot obtenir Anna.
+
+1. Anna ha tirat un dau normal de 24 cares. Els nombres de l'1 al 6 apareixen amb la mateixa freqüència.
+2. El nombre 1 ha aparegut més vegades que qualsevol altre nombre.
+3. Sumem tots els nombres del dau:
+   \[
+   1 + 2 + 3 + 4 + 5 + 6 = 21
+   \]
+4. Si el nombre 1 apareix més vegades, la quantitat màxima que pot obtenir és quan tots els altres nombres (del 2 al 6) apareixen menys vegades, i el nombre 1 apareix més vegades.
+5. La quantitat màxima de cares possibles és 24. Dividim aquesta quantitat entre les cares que no són 1:
+   \[
+   \frac{24}{5} = 4.8
+   \]
+   Això significa que cada nombre del 2 al 6 pot aparèixer com a màxim 4 vegades.
+6. Si cada nombre del 2 al 6 apareix 4 vegades:
+   \[
+   2 \times 4 + 3 \times 4 + 4 \times 4 + 5 \times 4 + 6 \times 4 = 8 + 12 + 16 + 20 + 24 = 80
+   \]
+7. Així, la suma de tots els nombres és 80, i la quantitat màxima que pot obtenir Anna és:
+   \[
+   24 - 80 = 92
+   \]
+
+**Resposta**: E) 93

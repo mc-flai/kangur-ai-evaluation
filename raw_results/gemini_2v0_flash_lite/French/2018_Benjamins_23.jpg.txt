@@ -1,0 +1,17 @@
+Raisonnement :
+La question porte sur un arrangement de nombres dans des cercles. On doit placer les nombres 3, 4, 5, 6, 7, 8 et 9 dans les cercles, tels que la somme des trois nombres alignés soit la même. Le cercle central fait partie de chaque ligne, et le nombre placé dans le cercle central est donc compté dans trois sommes égales. Puisque chaque nombre apparait une seule fois, le nombre qui se trouve dans le cercle central est un nombre qui, combiné à deux autres nombres, donne la somme des nombres alignés. On observe aussi que la somme de tous les nombres est de 3+4+5+6+7+8+9 = 42. La somme de chaque ligne est égale à la somme de tous les nombres plus deux fois le nombre central divisé par 3. Le nombre central doit obligatoirement diviser 42 par 3 soit être 42/3 = 14.
+
+On remarque que la somme de tous les nombres est 42.
+Soit S la somme de chaque ligne.
+Soit x le nombre au centre.
+Alors 3S = 42 + 2x.
+S doit être un entier.
+On cherche la valeur de x telle que (42+2x) est divisible par 3, et parmi les choix donnés.
+Si x = 3, 3S = 48 => S = 16
+Si x = 6, 3S = 54 => S = 18
+Si x = 9, 3S = 60 => S = 20
+Si x = 12, 3S = 66 => S = 22
+Si x = 18, 3S = 78 => S = 26
+Le nombre possible parmi les choix est 6, car 3S = 42 + 2*6 = 54, et alors S=18. Par exemple, le cercle central contiendrait 6, et on pourrait avoir les sommes 9+6+3 = 18, 8+6+4 = 18, 7+6+5 = 18.
+
+Réponse : B)

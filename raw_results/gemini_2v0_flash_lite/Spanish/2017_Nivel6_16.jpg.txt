@@ -1,0 +1,16 @@
+Razonamiento:
+Si un número es una raíz del polinomio, al sustituir ese número en la ecuación, el resultado debe ser cero.
+Según el teorema de la raíz racional, las raíces racionales posibles del polinomio deben ser factores del término constante (24) divididos por factores del coeficiente principal (5). Por lo tanto, la raíz solo puede ser un factor de 24, dividido por 1 o 5. Entonces, las posibles raíces racionales son ±1, ±2, ±3, ±4, ±6, ±8, ±12, ±24, ±1/5, ±2/5, ±3/5, ±4/5, ±6/5, ±8/5, ±12/5, ±24/5.
+Analizamos las opciones:
+*   A) 1: Es un factor de 24.
+*   B) -1: Es un factor de 24.
+*   C) 3: Es un factor de 24.
+*   D) 5: 5 no es un factor de 24, pero podría ser una raíz de la forma 5x.
+*   E) 6: Es un factor de 24.
+
+Sin embargo, debemos considerar el teorema del factor. Si "c" es una raíz, entonces (x-c) es un factor del polinomio. Como el coeficiente principal es 5 y el término constante es 24, podemos descartar el valor que no divida ni a 24, ni a 5 como posible raíz. De los valores dados, sólo 5 no es factor directo del término constante. Por lo tanto, es menos probable que 5 sea una raíz. No se puede asegurar con certeza que 5 es una raíz o no, pero la posibilidad de que lo sea es menor que la posibilidad de que 6 sea una raíz. Analizamos los valores y el resultado:
+Si x=5: 5(5)³ + a(5)² + b(5) + 24
+Si x=6: 5(6)³ + a(6)² + b(6) + 24
+Por el teorema del factor, como 24 no es divisible por 5, entonces 5 no puede ser una raíz.
+
+Respuesta: D)

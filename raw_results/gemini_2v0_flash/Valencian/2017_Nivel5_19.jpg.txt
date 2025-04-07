@@ -1,0 +1,15 @@
+Raonament:
+Siga el nombre de 6 xifres original $x = a_5 a_4 a_3 a_2 a_1 4$, on $a_i$ son dígits. Llavors, quan movem el 4 al principi, obtenim el nombre $y = 4 a_5 a_4 a_3 a_2 a_1$. Sabem que $y = 4x$.
+
+Podem escriure els nombres com:
+$x = 10 a_5 a_4 a_3 a_2 a_1 + 4$
+$y = 4 \cdot 10^5 + a_5 a_4 a_3 a_2 a_1$
+
+Sabem que $y = 4x$, per tant:
+$4 \cdot 10^5 + a_5 a_4 a_3 a_2 a_1 = 4 (10 a_5 a_4 a_3 a_2 a_1 + 4)$
+$400000 + a_5 a_4 a_3 a_2 a_1 = 40 a_5 a_4 a_3 a_2 a_1 + 16$
+$39 a_5 a_4 a_3 a_2 a_1 = 399984$
+$a_5 a_4 a_3 a_2 a_1 = \frac{399984}{39} = 10256$
+Així doncs, $x = 102564$. El tercer dígit és 2.
+
+Resposta: C)

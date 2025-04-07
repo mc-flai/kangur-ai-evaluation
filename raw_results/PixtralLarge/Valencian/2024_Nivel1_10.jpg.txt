@@ -1,0 +1,30 @@
+Per resoldre la pregunta, hem d'identificar les regles d'operació de les fletxes i aplicar-les correctament per arribar a la resposta final.
+
+1. **Identificar les regles d'operació**:
+    - La fletxa cap a la dreta (→) indica multiplicar per 2.
+    - La fletxa cap a l'esquerra (←) indica dividir per 2.
+    - La fletxa cap avall (↓) indica multiplicar per 4.
+    - La fletxa cap amunt (↑) indica dividir per 4.
+
+2. **Aplicar les regles d'operació al número inicial**:
+    - Clara comença amb el número 12.
+    - **Primer pas**: Fletxa cap amunt (↑) indica dividir per 4.
+        - 12 ÷ 4 = 3
+    - **Segon pas**: Fletxa cap a l'esquerra (←) indica dividir per 2.
+        - 3 ÷ 2 = 1.5
+    - **Tercer pas**: Fletxa cap a la dreta (→) indica multiplicar per 2.
+        - 1.5 × 2 = 3
+    - **Quart pas**: Fletxa cap a la dreta (→) indica multiplicar per 2.
+        - 3 × 2 = 6
+    - **Quint pas**: Fletxa cap avall (↓) indica multiplicar per 4.
+        - 6 × 4 = 24
+    - **Sisè pas**: Fletxa cap a la dreta (→) indica multiplicar per 2.
+        - 24 × 2 = 48
+    - **Setè pas**: Fletxa cap avall (↓) indica multiplicar per 4.
+        - 48 × 4 = 192
+
+El número final obtingut és 192.
+
+**Raonament**: Hem identificat les regles d'operació i aplicat cada pas en ordre al número inicial. Després de realitzar tots els passos, el número final obtingut és 192.
+
+**Resposta**: E)

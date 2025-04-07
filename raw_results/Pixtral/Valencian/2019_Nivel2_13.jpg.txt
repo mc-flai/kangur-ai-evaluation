@@ -1,0 +1,43 @@
+**Pregunta:** Miquel té un trencaclosques de 75 peces, que componen una figura rectangular de manera que les peces, totes de mida molt pareguda, queden ordenades en files i columnes. Ha posat totes les peces de la vorera i ha arribat a la conclusió que cada columna és compost de 5 peces (la figura dona una indicació). També sap que totes les files tenen el mateix nombre de peces. Quantes peces hi queden per collocar per completar el trencaclosques?
+
+**Opcions:**
+A) 18
+B) 35
+C) 36
+D) 39
+E) 58
+
+**Racionalització:**
+1. Sabem que el trencaclosques té 75 peces.
+2. Cada columna té 5 peces.
+3. Per determinar el nombre total de columnes, dividim el nombre total de peces pel nombre de peces per columna:
+   \[
+   \text{Nombre total de columnes} = \frac{75}{5} = 15
+   \]
+4. Com que totes les files tenen el mateix nombre de peces, també hi ha 15 files.
+5. Les peces de la vorera són les peces dels extrems de cada fila i columna. Per a una figura rectangular, les peces de la vorera es poden calcular com:
+   \[
+   4 \times (\text{nombre de files} - 1) + 4 \times (\text{nombre de columnes} - 1)
+   \]
+   Aquí, això és:
+   \[
+   4 \times (15 - 1) + 4 \times (15 - 1) = 4 \times 14 + 4 \times 14 = 56 + 56 = 112
+   \]
+6. Com que les peces de la vorera són 112, i ja hem posat aquestes peces, queden:
+   \[
+   75 - 112 = -37
+   \]
+   Això indica que hem calculat incorrectament les peces de la vorera. En realitat, les peces de la vorera són les peces dels extrems de cada fila i columna, menys les 4 cantonades que es compten dues vegades. Per tant, la fórmula correcta és:
+   \[
+   4 \times (\text{nombre de files} - 1) + 4 \times (\text{nombre de columnes} - 1) - 4
+   \]
+   Aquí, això és:
+   \[
+   4 \times (15 - 1) + 4 \times (15 - 1) - 4 = 56 + 56 - 4 = 108
+   \]
+7. Per tant, les peces que queden per col·locar són:
+   \[
+   75 - 108 = -33
+   \]
+
+**Resposta:** E) 58

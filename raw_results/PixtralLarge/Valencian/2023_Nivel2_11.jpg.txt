@@ -1,0 +1,87 @@
+Per resoldre el problema, primer hem de comprendre les operacions que es poden fer en una jugada: multiplicar un nombre determinat per 2, dividir-lo entre 3 o elevar-lo al quadrat. El nostre objectiu és obtenir el nombre 200 començant des del nombre 45.
+
+1. **Multiplicar per 2**: 45 * 2 = 90
+2. **Dividir entre 3**: 45 / 3 = 15
+3. **Elevar al quadrat**: 45^2 = 2025
+
+Observem que 45^2 = 2025, que és massa més gran que 200. Per tant, no podem usar aquesta opció si volguem arribar al 200 amb el menor nombre de moviments.
+
+Explorem les altres opcions:
+
+- Multiplicar per 2: 45 * 2 = 90
+- Dividir entre 3: 45 / 3 = 15
+
+Anem amb el nombre 90 per veure si podem arribar al 200:
+
+4. **Multiplicar per 2**: 90 * 2 = 180
+5. **Dividir entre 3**: 90 / 3 = 30
+6. **Elevar al quadrat**: 90^2 = 8100 (massa gran)
+
+Elevem 90 al quadrat: 90 * 2 = 180 (més proper al 200).
+
+Ara anem amb el 180:
+
+7. **Multiplicar per 2**: 180 * 2 = 360 (massa gran)
+8. **Dividir entre 3**: 180 / 3 = 60
+9. **Elevar al quadrat**: 180^2 = 32400 (massa gran)
+
+Anem amb el 60:
+
+10. **Multiplicar per 2**: 60 * 2 = 120
+11. **Dividir entre 3**: 60 / 3 = 20
+12. **Elevar al quadrat**: 60^2 = 3600 (massa gran)
+
+Anem amb el 120:
+
+13. **Multiplicar per 2**: 120 * 2 = 240 (massa gran)
+14. **Dividir entre 3**: 120 / 3 = 40
+15. **Elevar al quadrat**: 120^2 = 14400 (massa gran)
+
+Anem amb el 40:
+
+16. **Multiplicar per 2**: 40 * 2 = 80
+17. **Dividir entre 3**: 40 / 3 = 13.33 (no és un nombre enter)
+18. **Elevar al quadrat**: 40^2 = 1600 (massa gran)
+
+Anem amb el 80:
+
+19. **Multiplicar per 2**: 80 * 2 = 160
+20. **Dividir entre 3**: 80 / 3 = 26.66 (no és un nombre enter)
+21. **Elevar al quadrat**: 80^2 = 6400 (massa gran)
+
+Anem amb el 160:
+
+22. **Multiplicar per 2**: 160 * 2 = 320 (massa gran)
+23. **Dividir entre 3**: 160 / 3 = 53.33 (no és un nombre enter)
+24. **Elevar al quadrat**: 160^2 = 25600 (massa gran)
+
+La ruta més curta sembla ser:
+- 45 * 2 = 90
+- 90 * 2 = 180
+- 180 / 3 = 60
+- 60 * 2 = 120
+- 120 * 2 = 240
+
+Això hauria de ser cinc jugades. Però revisem si hi ha una ruta més curta.
+
+Una altra ruta possible:
+- 45 / 3 = 15
+- 15 * 2 = 30
+- 30 * 2 = 60
+- 60 * 2 = 120
+- 120 * 2 = 240 (5 jugades)
+
+ Una altra opció:
+- 45 / 3 = 15
+- 15 * 2 = 30
+- 30 * 2 = 60
+- 60 * 2 = 120
+- 120 / 3 = 40
+- 40 * 2 = 80
+- 80 * 2 = 160
+- 160 * 2 = 320
+
+Sembla que la ruta més curta és de 5 jugades, per tant:
+
+Raonament: La ruta més curta per arribar a 200 des de 45 és de 5 jugades.
+Resposta: D) 5

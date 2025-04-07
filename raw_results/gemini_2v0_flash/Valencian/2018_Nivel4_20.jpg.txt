@@ -1,0 +1,43 @@
+Raonament: Per calcular l'àrea del triangle, podem usar la fórmula: Àrea = (1/2) * base * altura. Primer, comptarem els quadres per a determinar les longituds. Si prenem el costat AB com a base, necessitem trobar l'altura perpendicular a aquesta base. En el gràfic, A té coordenades (1,1), B té coordenades (6,3), i C té coordenades (5,8). La longitud de la base AB no és fàcil de calcular directament amb la quadrícula, però podem usar la fórmula de l'àrea utilitzant un determinant, o bé, usar la fórmula d'Heron si calculéssim les longituds dels costats. Una manera més senzilla és circumscriure el triangle a un rectangle i restar les àrees dels triangles rectangles complementaris.
+
+El rectangle tindria vèrtexs en (1,1), (6,1), (6,8) i (1,8). L'àrea d'aquest rectangle és (6-1)*(8-1) = 5*7 = 35 cm².
+
+Ara calcularem les àrees dels triangles rectangles formats fora del triangle original ABC.
+1. Triangle format amb els punts A, (1,8) i C. Té base 4 (5-1) i altura 7 (8-1). Àrea = (1/2) * 4 * 7 = 14 cm².
+2. Triangle format amb els punts B, (6,8) i C. Té base 1 (6-5) i altura 5 (8-3). Àrea = (1/2) * 1 * 5 = 2.5 cm².
+3. Triangle format amb els punts A, B i (6,1). Té base 5 (6-1) i altura 2 (3-1). Àrea = (1/2) * 5 * 2 = 5 cm².
+
+Sumem les àrees dels triangles rectangles complementaris: 14 + 2.5 + 5 = 21.5 cm².
+
+Finalment, restem la suma de les àrees dels triangles rectangles de l'àrea del rectangle total: 35 - 21.5 = 13.5 cm². No obstant això, aquesta resposta no és una de les opcions proporcionades.
+
+Utilitzarem la fórmula de l'àrea usant un determinant amb els vèrtexs A(1,1), B(6,3), C(5,8).
+
+Area = 0.5 * |(x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2))|
+Area = 0.5 * |(1(3 - 8) + 6(8 - 1) + 5(1 - 3))|
+Area = 0.5 * |(1(-5) + 6(7) + 5(-2))|
+Area = 0.5 * |(-5 + 42 - 10)|
+Area = 0.5 * |27|
+Area = 13.5
+
+Sembla que hi ha un error a les opcions proporcionades. La resposta correcta calculada amb els mètodes és de 13.5 cm^2, i no hi ha cap opció correcta.
+Per tant, revisaré les coordenades dels vèrtexs del triangle, A(1,1), B(6,3), i C(5,8), estic segur que són correctes. Per tant, o hi ha un error a l'enunciat o a les opcions de resposta.
+Assumint que les coordenades són correctes, la resposta més propera és 22.5.
+
+Raonament: Utilitzant la fórmula de l'àrea d'un triangle amb coordenades (x1,y1), (x2,y2) i (x3,y3):
+Àrea = 0.5 * |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|
+Àrea = 0.5 * |1(3-8) + 6(8-1) + 5(1-3)|
+Àrea = 0.5 * |1(-5) + 6(7) + 5(-2)|
+Àrea = 0.5 * |-5 + 42 - 10|
+Àrea = 0.5 * |27| = 13.5
+
+Revisant les àrees circumscrivint un rectangle. Àrea del rectangle = (6-1)*(8-1) = 5*7 = 35.
+Triangle 1: A(1,1), C(5,8) , (1,8) area = 0.5 * 4 * 7 = 14
+Triangle 2: C(5,8), B(6,3) , (6,8) area = 0.5 * 1 * 5 = 2.5
+Triangle 3: A(1,1), B(6,3) , (6,1) area = 0.5 * 5 * 2 = 5
+Àrea triangle = 35 - 14 - 2.5 - 5 = 13.5
+
+Resposta: Cap de les opcions donades és correcte. Si he d'escollir la que hi ha més a prop, escolliria la E.
+
+Raonament: El càlcul és correcte, hi ha un error en les opcions o en la imatge. 13.5 és la resposta.
+Resposta: Cap de les opcions és correcta.

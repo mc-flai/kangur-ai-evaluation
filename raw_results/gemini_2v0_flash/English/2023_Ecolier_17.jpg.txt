@@ -1,0 +1,7 @@
+Reasoning:
+The train starts at B and its first stop is at C. The train continues on in this order: B, C, D, E, F, E, D, C, B, A, B, C...
+The train's stops have a period of 10: C, D, E, F, E, D, C, B, A, B
+The train's first stop is C, so the 46th stop can be found by taking (46-1) mod 10 = 45 mod 10 = 5.
+This means that the 46th stop will be the same as the 6th stop in the sequence C, D, E, F, E, D, C, B, A, B. The 6th stop is D.
+
+Answer: D)

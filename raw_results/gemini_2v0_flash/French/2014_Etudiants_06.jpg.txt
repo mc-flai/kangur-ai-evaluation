@@ -1,0 +1,143 @@
+Reasoning:
+The question defines a "mégapyge" year as one where all the digits are different, and the last digit is strictly greater than the sum of the other digits. We need to find the "mégapyge" year immediately before 2014 and calculate the difference.
+
+Starting from 2013 and going backwards:
+- 2013: 2 + 0 + 1 = 3, last digit is 3, not strictly greater than the sum.
+- 2012: 2 + 0 + 1 = 3, last digit is 2, not strictly greater than the sum.
+- 2011: Has two 1's.
+- 2010: Has two 0's.
+- 2009: Has two 0's.
+- 2008: Has two 0's.
+- 2007: Has two 0's.
+- 2006: Has two 0's.
+- 2005: Has two 0's.
+- 2004: Has two 0's.
+- 2003: Has two 0's.
+- 2002: Has two 0's.
+- 2001: Has two 0's.
+- 2000: Has three 0's.
+- 1989: Has two 9's.
+
+Now let's try from 1987 downwards:
+- 1987: 1+9+8=18 which is > 7, fails
+- 1986: 1+9+8 = 18 which is >6, fails
+- 1985: 1+9+8 = 18 which is >5, fails
+- 1984: 1+9+8 = 18 which is >4, fails
+
+Let's look for other possible solutions.
+1980 doesn't work.
+1970 doesn't work.
+1960 doesn't work.
+1950 doesn't work.
+
+Going down from 1999, we can get to something like 1930...still doesn't work since last digit is 0.
+Consider years 1XYZ.
+X+Y+Z has to be less than Z
+This isn't possible unless X+Y is zero since Z must be positive
+
+Consider 1XYZ.
+1987 isn't megapyge since 1+9+8 > 7.
+
+Let's consider years in the 1600's
+If we're looking for a year where the last digit is greater than the first three, we can limit the search.
+Let's try 1607, 1608, 1609.
+1609. 1+6+0 is 7 < 9. So 1609 is megapyge.
+
+The difference is 2014 - 1609 = 405. This is not in the list.
+Let's find the closest year
+1609 is a candidate.
+So from 2014, go back
+1609 is a megapyge number.
+The difference is 2014-1609 = 405.
+Check if there is a megapyge year between 1609 and 2014.
+- 1987
+- 1986
+
+We are looking for one where last digit greater than the sum.
+1609 = 9 > 7. So 1609 is megapyge.
+So the year immediately preceeding 2014 is 1609.
+So the correct number is 2014-1609 = 405. None of the provided answers.
+So next let's try 1700's 1789 does not work 1+7+8 > 9.
+Let's try 1589 does not work.
+
+There is no previous megapyge year than 1609 before 2014. So the closest number is 395, this is closest to the answer 405
+So the answer would be D
+
+Reasoning:
+We have to go backwards from 2014 and check each year to see if it satisfies the condition that all digits are different and the last digit is greater than the sum of the other digits.
+
+2014 is megapyge because 2+0+1 = 3 and 4 > 3. Let's see if the preceeding year, 1609 satisfies this.
+In 1609, 1+6+0 = 7 and 9 > 7, so it is a megapyge year.
+2014-1609 = 405. Closest answer is 395.
+
+Answer: D)
+Reasoning:
+We need to find the year prior to 2014 that meets the given criteria. We will work backwards from 2014, checking each year. 2014 is taken as a correct megapyge year by the problem.
+
+1. Start checking years less than 2014. Start from 2013.
+- 2013: 2 + 0 + 1 = 3.  3 is not strictly greater than 3.
+- 2010,2011 and 2012 don't meet the required requirements due to duplicates.
+
+If we go back further, we should observe that earlier years are far more difficult. In 1XYZ, if Z is greater than 1 + X + Y, and all digits are different, then the smaller X,Y is, the larger the last digit can be. A good candidate might be 1XYZ or 1607, 1608 and 1609
+
+1609. Then 1 + 6 + 0 = 7, and 9 > 7, so the requirements are satisfied. Thus, 1609 is also megapyge. Then 2014 - 1609 = 405.
+Let us consider previous cases before 1609 like 1500s. 1589 is close to the end.
+Then 1 + 5 + 8 = 14, not less than 9.
+
+None of the answer choices work. We have to go from 2014 downwards
+
+The differences are either 5, 215, 305, 395, 485
+
+The megapyge less than is 1609. That makes difference as 405
+Hence choose closest one 395.
+
+Answer: D)
+Reasoning:
+The problem defines a "mégapyge" year: all digits are different, and the last digit is strictly greater than the sum of the other digits.
+We are looking for the previous "mégapyge" year to 2014.
+
+Going backwards, we would have difficulty quickly reaching a plausible number if simply iterating.
+I will also begin working backwards from the possible answers.
+
+A) 2014 - 5 = 2009. Fail (two 0's).
+B) 2014 - 215 = 1799. Fail (two 9's).
+C) 2014 - 305 = 1709.  1 + 7 + 0 = 8. 9 > 8. Potential Candidate.
+D) 2014 - 395 = 1619. Fail (two 1's).
+E) 2014 - 485 = 1529.  1 + 5 + 2 = 8. 9 > 8. Potential Candidate.
+
+Let's determine if 1529 or 1709 are indeed the earliest one.
+Start checking near 1600.
+
+1609 : 1+6+0 = 7. 9 > 7. Good
+1689. : 1 +6 + 8 is greater.
+1529. : 1 + 5 + 2 = 8. 9 > 8
+Checking if anything possible closer to 2014
+1709. : 1 + 7+ 0 = 8. and 9 > 8
+So the closest is 2014 - 1709 and also 2014-1529 =485 approx
+Going further down, 1609.
+
+2014 - 1709 is closer and it meets the criterion
+Comparing to 1609 makes the difference 405
+Comparing to 1529 makes the difference 485
+
+Answer: C)
+
+Reasoning:
+The question defines a megapyge year as a year with distinct digits where the last digit is strictly greater than the sum of the other digits. We want to find the number of years between 2014 and the megapyge year immediately preceding it.
+
+We'll start by searching backward from 2014.
+2013: 2+0+1=3, not less than 3
+2012: 2+0+1=3, not less than 2
+... these do not work
+
+Let's try working backward from potential answers.
+Let the year be Y. The answer is 2014-Y
+A) Y=2009. Distinct:yes. Sum: 2+0+0=2. not strictly > 9.
+B) Y=1799. Not distinct.
+C) Y=1709. Distinct:yes. Sum: 1+7+0=8. 9>8. POSSIBLE.
+D) Y=1619. Not distinct.
+E) Y=1529. Distinct:yes. Sum: 1+5+2=8. 9>8. POSSIBLE.
+So 1709, 1529 are possible and we need to pick greatest value of year. So choose 1709
+Then 2014-1709 = 305
+
+Answer: C)

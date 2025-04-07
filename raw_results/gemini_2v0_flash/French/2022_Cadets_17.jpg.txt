@@ -1,0 +1,15 @@
+Reasoning:
+Let $A_c$ be the area of the common part of the disk and triangle.
+Let $A_t$ be the area of the triangle outside the disk.
+Let $A_d$ be the area of the disk outside the triangle.
+Let $A_{grise}$ be the total area of the shaded region.
+We are given that $A_c = 45\% \times A_{grise}$ and $A_t = 40\% \times A_{grise}$.
+Also, we have $A_{grise} = A_c + A_t + A_d$.
+Substituting the given values, we have $A_{grise} = 0.45 A_{grise} + 0.40 A_{grise} + A_d$.
+Therefore, $A_d = A_{grise} - 0.45 A_{grise} - 0.40 A_{grise} = (1 - 0.45 - 0.40) A_{grise} = 0.15 A_{grise}$.
+Let $A_{disk}$ be the total area of the disk. We have $A_{disk} = A_c + A_d$.
+Thus, $A_{disk} = 0.45 A_{grise} + 0.15 A_{grise} = 0.60 A_{grise}$.
+We need to find the percentage of the area of the disk that is outside the triangle, i.e., $\frac{A_d}{A_{disk}}$.
+$\frac{A_d}{A_{disk}} = \frac{0.15 A_{grise}}{0.60 A_{grise}} = \frac{0.15}{0.60} = \frac{15}{60} = \frac{1}{4} = 0.25 = 25\%$.
+
+Answer: B)

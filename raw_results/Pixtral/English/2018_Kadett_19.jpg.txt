@@ -1,0 +1,23 @@
+### Reasoning:
+Jakob writes one of the natural numbers from 1 to 9 in each cell of a 3x3 table. The sums of the numbers in each row and each column are given as 12, 13, 15, 16, and 17. We need to determine the missing sum.
+
+First, let's list the possible sums for a 3x3 grid filled with numbers from 1 to 9:
+- The sum of all numbers from 1 to 9 is 45.
+- Each row and column must sum to the same total, and since there are three rows and three columns, the sum of the row sums and the sum of the column sums must both equal 3 times the sum of the individual row/column sums.
+
+Given sums: 12, 13, 15, 16, and 17.
+Sum of given sums: 12 + 13 + 15 + 16 + 17 = 73.
+
+To find the missing sum, we need the total sum of all row and column sums to be 73 + missing sum, which must be divisible by 3 (since there are three rows and three columns).
+
+Let's check the divisibility by 3:
+73 + missing sum must be divisible by 3.
+
+73 mod 3 = 1.
+To make 73 + missing sum divisible by 3, the missing sum must be 2 mod 3.
+
+Possible values for the missing sum that are between 12 and 17 and satisfy 2 mod 3 are 14 and 17.
+
+Since 17 is already given, the missing sum must be 14.
+
+### Answer: D

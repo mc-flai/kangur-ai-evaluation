@@ -1,0 +1,33 @@
+Raonament: Hi ha 12 nens en total. 4 tenen 6 anys. La moda és 8, per tant, hi ha almenys 4 nens amb 8 anys. Això suma 8 nens. Això vol dir que els altres 4 nens tenen les edats 7, 9 i 10. Perquè la moda sigui 8, n'hi ha d'haver com a mínim dos amb 8 anys.
+Tenim 4 nens amb 6 anys.
+La moda és 8. Això vol dir que hi ha més nens amb 8 anys que amb qualsevol altra edat.
+Considerem que hi ha dues possibilitats:
+1. Hi ha quatre nens amb 8 anys. En aquest cas, tenim 4 de 6 anys, 4 de 8 anys i 4 de 7, 9 i 10. Aleshores hi ha un nen de 7 anys, un de 9 anys i un de 10 anys.
+2. Hi ha cinc nens amb 8 anys, però no ho sabem.
+Suposem que hi ha quatre nens de 8 anys. El total de nens és 12. 4 de 6, 4 de 8, 1 de 7, 1 de 9 i 2 de 7. Total 12. La moda seria 6,8 i 7. Això no pot ser.
+Hem de buscar combinacions que compleixin amb les condicions. Hi ha 4 xiquets amb 6 anys, la moda és 8, les edats són 6, 7, 8, 9 i 10 anys.
+
+La suma de les edats serà 4 * 6 + 8 * 1 + 7 * 1 + 9 * 1 + 10 * 1 = 24 + 8 + 7 + 9 + 10 = 58. La mitjana serà 58 / 12 = 4.83. Aquest resultat no té sentit.
+
+4 * 6 + x * 8 + 7 + 9 + 10 = 24 + 8x + 26 = 50 + 8x
+12 = 4 + x + 1 + 1 + 1
+x = 12 - 7 = 5
+50 + 8 * 5 = 50 + 40 = 90
+90 / 12 = 7.5
+
+Raonament:
+Hi ha 12 xiquets. Quatre tenen 6 anys. La moda és 8.
+Edats disponibles: 6, 7, 8, 9 i 10.
+Hem de saber la quantitat de nens per cada edat.
+6: 4
+8: x
+7: a
+9: b
+10: c
+4 + x + a + b + c = 12
+x > a, x > b, x > c
+a+b+c = 8 - x
+Si x=5, a+b+c=3. Per tant, a, b, c poden ser 1, 1, 1.
+Mitjana = (4*6 + 5*8 + 7 + 9 + 10)/12 = (24+40+7+9+10)/12 = 90/12 = 7.5
+
+Resposta: D)

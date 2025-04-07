@@ -1,0 +1,20 @@
+
+La pregunta 23 solicita encontrar el máximo común divisor (MCD) de los números palíndromos formados con sus dígitos en el mismo orden simétrico.
+
+Para resolver esto, primero identificamos los números palíndromos posibles a partir de los dígitos dados. Los números palíndromos se leen igual de adelante hacia atrás.
+
+- A) 1: No es un número palíndromo.
+- B) 7: Es un número palíndromo.
+- C) 9: Es un número palíndromo.
+- D) 11: No es un número palíndromo.
+- E) 77: Es un número palíndromo.
+
+Ahora, calculamos el MCD de los números palíndromos:
+
+- MCD(7, 9) = 1 (ya que 7 y 9 son primos entre sí).
+- MCD(7, 77) = 7 (ya que 77 es un múltiplo de 7).
+- MCD(9, 77) = 1 (ya que 9 y 77 son primos entre sí).
+
+El MCD más alto entre estos números palíndromos es 7.
+
+**Respuesta: B)**

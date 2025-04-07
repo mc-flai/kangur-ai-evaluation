@@ -1,0 +1,25 @@
+**Razonamiento**:
+
+Dado que f(n) = f(n-1) - f(n-2), y tenemos los valores iniciales f(0) = 1 y f(1) = 2.
+
+Calculamos los siguientes valores de f(n) paso a paso:
+
+- f(2) = f(1) - f(0) = 2 - 1 = 1
+- f(3) = f(2) - f(1) = 1 - 2 = -1
+- f(4) = f(3) - f(2) = -1 - 1 = -2
+- f(5) = f(4) - f(3) = -2 - (-1) = -1
+- f(6) = f(5) - f(4) = -1 - (-2) = 1
+- f(7) = f(6) - f(5) = 1 - (-1) = 2
+- f(8) = f(7) - f(6) = 2 - 1 = 1
+
+Observamos que los valores empiezan a repetirse cada 6 pasos. Este patrón es cíclico con un período de 6.
+
+Para encontrar f(2024), determinamos el residuo de 2024 dividido por 6:
+
+2024 mod 6 = 2
+
+Esto significa que f(2024) = f(2).
+
+De los valores calculados anteriormente, f(2) = 1.
+
+**Respuesta**: D) 1

@@ -1,0 +1,115 @@
+Razonamiento: Para que A gane el juego, A debe escoger un número tal que, independientemente de la jugada de B (escoger el mayor divisor de a), A siempre puede escoger un número impar hasta llegar al 1. Si A elige una potencia de 2, por ejemplo, 128 = 2^7, el mayor divisor es 2^6 = 64. Siguiendo esta lógica, B elegirá siempre un número par. A elegirá un número par, y así sucesivamente, hasta que B elija 2, y A elija 1, ganando A. Si A elige 243 = 3^5, B elegirá 3^4 = 81. A tendrá que elegir 27, B elegirá 9, A elegirá 3, B elegirá 1. B gana. Si A elige 1024 = 2^10, entonces B elige 512, A elige 256 y así sucesivamente. A ganará. Para 2014 = 2 * 19 * 53, el mayor divisor es 1007. A continuacion, el mayor divisor de 1007, es 19 * 26.5. el mayor divisor impar es 53*18+1. A ganará si elige una potencia de 2.
+Analizamos los números en las opciones:
+A) 128 = 2^7. A gana.
+B) 243 = 3^5. B gana.
+C) 1024 = 2^10. A gana.
+D) 2014 = 2 * 19 * 53. B gana.
+
+Para que A gane, el número elegido debe ser una potencia de 2, ya que en cada turno, el mayor divisor será la potencia de 2 anterior, hasta llegar a 1. Tanto 128 como 1024 son potencias de 2. Si A elige 128, B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1. B gana. Pero si A elige 1, entonces A gana. 128 y 1024 cumplen con esa propiedad, el juego sigue de manera par-par hasta la elección de A de el número 1.
+Analizando más a fondo, si A elige una potencia de 2, B siempre elegirá otra potencia de 2, hasta que B elija 2, y A elija 1, ganando A.
+
+Por lo tanto, 128 funciona y 1024 también. El enunciado quiere una manera de *asegurar* que A gane. Esto sucede solo si A elige un número tal que al ir tomando los mayores divisores, siempre sea A quien elija el 1 al final. Esto sucede cuando elige un número tal que el mayor divisor es par, pero esto no asegura que siempre gane.
+
+Razonamiento:
+A) 128 = 2^7. B dirá 64. A dirá 32. B dirá 16. A dirá 8. B dirá 4. A dirá 2. B dirá 1. B gana.
+B) 243 = 3^5. B dirá 81. A dirá 27. B dirá 9. A dirá 3. B dirá 1. B gana.
+C) 1024 = 2^10. B dirá 512. A dirá 256. B dirá 128. A dirá 64. B dirá 32. A dirá 16. B dirá 8. A dirá 4. B dirá 2. A dirá 1. A gana.
+D) 2014 = 2 * 19 * 53. B dirá 1007. A dirá 53 * 19 = 1007. Si B dijera 1007 (19*53), A dirá 1 que se equivocó y no era 1007? no es posible
+
+Es mejor para A elegir 1024. Si A escoge C) 1024, entonces A ganará independientemente de como juegue B. Si A elige A) 128, A perderá.
+
+Respuesta: C)
+Razonamiento: El primer jugador, A, gana si escoge un número tal que, al continuar turnándose para escoger el mayor divisor propio, el último número que queda para A escoger es 1. 
+Si A elige 128, la secuencia es 128, 64, 32, 16, 8, 4, 2, 1. B gana.
+Si A elige 243, la secuencia es 243, 81, 27, 9, 3, 1. B gana.
+Si A elige 1024, la secuencia es 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1. A gana.
+Si A elige 2014, la secuencia es 2014, 1007, ... no es una potencia de 2.
+
+Respuesta: C)
+Razonamiento: Analizamos cada opción para ver si al elegir ese número A puede ganar. A gana si en el último paso puede elegir 1.
+A) 128: B escoge 64, A escoge 32, B escoge 16, A escoge 8, B escoge 4, A escoge 2, B escoge 1. B gana.
+B) 243: B escoge 81, A escoge 27, B escoge 9, A escoge 3, B escoge 1. B gana.
+C) 1024: B escoge 512, A escoge 256, B escoge 128, A escoge 64, B escoge 32, A escoge 16, B escoge 8, A escoge 4, B escoge 2, A escoge 1. A gana.
+D) 2014: B escoge 1007, A escoge otro divisor... Imposible saber si A ganará.
+
+La única opción que permite que A gane es 1024.
+
+Respuesta: C)
+Razonamiento: La clave está en forzar al otro jugador a decir "1". Para eso, hay que poder elegir el mayor divisor del número anterior siempre. Esto se logra cuando el número inicial es una potencia de 2. Si A elige una potencia de 2, siempre obligará a B a ir bajando la potencia hasta el 2, y A podrá elegir el 1 y ganar.
+A) 128 = 2^7. B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1. B gana.
+B) 243 = 3^5. B elige 81, A elige 27, B elige 9, A elige 3, B elige 1. B gana.
+C) 1024 = 2^10. B elige 512, A elige 256, B elige 128, A elige 64, B elige 32, A elige 16, B elige 8, A elige 4, B elige 2, A elige 1. A gana.
+D) 2014 = 2 * 19 * 53. B elige 1007 (19*53), ...
+
+Respuesta: C)
+Razonamiento: La respuesta correcta es C.
+
+Para que A gane, debe seleccionar un número que eventualmente lo lleve a decir "1". Si A elige una potencia de 2, por ejemplo, 1024, B tendrá que escoger la mitad (512), y así sucesivamente. Finalmente, B escogerá 2, y A escogerá 1, asegurando su victoria.
+
+Si A elige 128, B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1.
+Si A elige 243, B elige 81, A elige 27, B elige 9, A elige 3, B elige 1.
+Si A elige 1024, B elige 512, A elige 256, B elige 128, A elige 64, B elige 32, A elige 16, B elige 8, A elige 4, B elige 2, A elige 1.
+Si A elige 2014, B elige 1007, ...
+
+Respuesta: C)
+Razonamiento: Para ganar, A debe elegir un número tal que obligue a B a dar el 1. Esto sólo se logra si en cada paso se dividen los números por dos. Por lo tanto, la respuesta debe ser una potencia de dos. De las opciones A y C, sólo C funciona.
+A) 128: B = 64, A = 32, B = 16, A = 8, B = 4, A = 2, B = 1. Pierde A
+C) 1024: B = 512, A = 256, B = 128, A = 64, B = 32, A = 16, B = 8, A = 4, B = 2, A = 1. Gana A.
+
+Respuesta: C)
+Razonamiento: Si A quiere ganar, necesita obligar a B a que elija 1. Por lo tanto, necesita escoger un número tal que cuando siga eligiendo el mayor divisor, al final pueda elegir 1. Las potencias de 2 aseguran esto. Analizando las opciones:
+
+A) 128 -> B=64 A=32 B=16 A=8 B=4 A=2 B=1. B gana.
+B) 243 -> B=81 A=27 B=9 A=3 B=1. B gana.
+C) 1024 -> B=512 A=256 B=128 A=64 B=32 A=16 B=8 A=4 B=2 A=1. A gana.
+D) 2014 -> B=1007 ... No es potencia de dos.
+
+Respuesta: C)
+Razonamiento: A gana si puede asegurarse que será quien diga "1". Esto implica que A debe escoger un número tal que la secuencia de los mayores divisores lo lleve a 1. Una forma de asegurar esto es que el número escogido sea una potencia de 2. Si A escoge una potencia de 2, B se verá obligado a escoger otra potencia de 2, más pequeña. Este proceso continuará hasta que B se vea obligado a escoger 2, y A podrá escoger 1.
+
+A) 128: B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1. B gana.
+B) 243: B elige 81, A elige 27, B elige 9, A elige 3, B elige 1. B gana.
+C) 1024: B elige 512, A elige 256, B elige 128, A elige 64, B elige 32, A elige 16, B elige 8, A elige 4, B elige 2, A elige 1. A gana.
+D) 2014: B elige 1007, ... Imposible saber.
+
+Por lo tanto, la respuesta correcta es C) 1024.
+
+Respuesta: C)
+Razonamiento:
+A debe elegir un número de tal manera que siempre termine eligiendo 1. Esto se da cuando A elige una potencia de 2.
+
+Si A elige 128 = 2^7, entonces B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1. B gana.
+Si A elige 243 = 3^5, entonces B elige 81, A elige 27, B elige 9, A elige 3, B elige 1. B gana.
+Si A elige 1024 = 2^10, entonces B elige 512, A elige 256, B elige 128, A elige 64, B elige 32, A elige 16, B elige 8, A elige 4, B elige 2, A elige 1. A gana.
+Si A elige 2014 = 2 * 19 * 53, entonces B elige 1007...
+
+Respuesta: C)
+Razonamiento: Para que A gane, debe elegir un número tal que al seguir la regla del mayor divisor, siempre termine él eligiendo el 1. Esto se logra si elige una potencia de 2. Analicemos las opciones:
+A) 128 = 2^7 -> B:64, A:32, B:16, A:8, B:4, A:2, B:1. Pierde A.
+B) 243 = 3^5 -> B:81, A:27, B:9, A:3, B:1. Pierde A.
+C) 1024 = 2^10 -> B:512, A:256, B:128, A:64, B:32, A:16, B:8, A:4, B:2, A:1. Gana A.
+D) 2014 = 2 * 19 * 53 -> Difícil de analizar.
+
+Respuesta: C)
+Razonamiento: A debe elegir un número que le permita llegar al 1 antes que B. Para esto, A debe elegir una potencia de 2.
+A) 128 = 2^7 -> B = 64, A = 32, B = 16, A = 8, B = 4, A = 2, B = 1 (B gana)
+B) 243 = 3^5 -> B = 81, A = 27, B = 9, A = 3, B = 1 (B gana)
+C) 1024 = 2^10 -> B = 512, A = 256, B = 128, A = 64, B = 32, A = 16, B = 8, A = 4, B = 2, A = 1 (A gana)
+D) 2014 = 2 * 19 * 53 -> B = 1007 (después A elige un divisor de 1007, etc)
+
+Respuesta: C)
+Razonamiento: Para que A gane el juego, A debe poder elegir 1 en el último paso. Esto se cumple cuando el número inicial es una potencia de 2, porque el jugador contrario, B, siempre va a tener que elegir un número par, y A va a volver a elegir un número par hasta llegar a 2.
+
+* A) 128. B elige 64, A elige 32, B elige 16, A elige 8, B elige 4, A elige 2, B elige 1. B gana.
+* B) 243. B elige 81, A elige 27, B elige 9, A elige 3, B elige 1. B gana.
+* C) 1024. B elige 512, A elige 256, B elige 128, A elige 64, B elige 32, A elige 16, B elige 8, A elige 4, B elige 2, A elige 1. A gana.
+* D) 2014. B elige 1007 (53*19)... Imposible saber quién gana sin seguir.
+
+Respuesta: C)
+Razonamiento: Para que A gane, debe elegir un número de forma que siempre le deje a B un número cuya mayor divisor (distinto del número en si) sea par, para luego A pueda escoger un número par y eventualmente A quede con el 2 y elija el 1, ganando. Esto se cumple cuando A elige un número que sea una potencia de 2. Si A elige 128 o 1024, estará garantizando que B en su última jugada tendrá que elegir 2, y A ganará eligiendo 1.
+A) 128, el mayor divisor (distinto de 128) es 64. B elige 64. A elige 32. B elige 16. A elige 8. B elige 4. A elige 2. B elige 1. B gana
+B) 243, el mayor divisor (distinto de 243) es 81. B elige 81. A elige 27. B elige 9. A elige 3. B elige 1. B gana.
+C) 1024, el mayor divisor (distinto de 1024) es 512. B elige 512. A elige 256. B elige 128. A elige 64. B elige 32. A elige 16. B elige 8. A elige 4. B elige 2. A elige 1. A gana.
+D) 2014, el mayor divisor (distinto de 2014) es 1007.
+
+Respuesta: C)

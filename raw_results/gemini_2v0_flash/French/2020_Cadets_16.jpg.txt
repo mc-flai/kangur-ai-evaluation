@@ -1,0 +1,15 @@
+Reasoning: The 27 cubes are used to make a larger cube with sides of 3 cubes each. We need to maximize the number of faces that are completely red. Each small cube has two adjacent red faces.
+Consider the corner cubes of the larger cube. Each corner cube of the larger cube has three faces exposed. We can orient the small cubes such that the two red faces are hidden. Therefore, we can hide all red faces in the corner cubes.
+Now consider the cubes in the middle of the edges. Each has two exposed faces. We can orient them to hide the red faces.
+The cube in the center of each face of the large cube has only one face exposed. Orient the small cubes such that this face is not red.
+The central cube of the large cube is hidden and doesn't matter.
+Since each small cube has two red faces, and there are 27 cubes, there are 54 red faces in total. The large cube has 6 faces, each of which is 3x3 = 9 small square faces, so 54 small square faces in total. So we could in principle make all faces red. But we cannot because the red faces have to be adjacent to each other. If we put 2 adjacent red faces inward, we can expose 4 faces to be white.
+
+Consider building the faces of the large cube one by one. Since the faces have to be completely red, we can expose at most 4 of them to be completely red.
+If we have 5 completely red faces, then the last face cannot be red. Then we must put the red faces of at least two small cubes inside.
+
+We can make 4 faces of the large cube completely red.
+
+Reasoning: The description of having 27 small cubes allows us to make a 3x3x3 larger cube. Each small cube has two adjacent red faces. We want to determine the maximum number of faces on the larger cube that can be fully red. We can have at most four faces fully red. If we consider two adjacent red faces to be hidden and the remaining four sides to be white.
+
+Answer: C)

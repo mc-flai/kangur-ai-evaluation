@@ -1,0 +1,13 @@
+Raonament: Per trobar el nombre de polinomis de grau 5 amb coeficients 1 o -1 i que tenen 1 com a arrel, hem de considerar el polinomi de la forma:
+\[ P(x) = a_5 x^5 + a_4 x^4 + a_3 x^3 + a_2 x^2 + a_1 x + a_0 \]
+on \( a_i \) és 1 o -1 per a tot \( i \).
+
+Com que 1 és una arrel, \( P(1) = 0 \). Això significa:
+\[ a_5 + a_4 + a_3 + a_2 + a_1 + a_0 = 0 \]
+
+Els coeficients poden ser 1 o -1, i la suma dels coeficients ha de ser 0. Això implica que hi ha tres 1s i tres -1s. El nombre total de formes de distribuir tres 1s i tres -1s entre sis posicions és donat per:
+\[ \binom{6}{3} = 20 \]
+
+Així doncs, hi ha 20 polinomis de grau 5 que satisfan les condicions donades.
+
+Resposta: D)

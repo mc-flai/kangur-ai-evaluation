@@ -1,0 +1,46 @@
+Per resoldre aquesta pregunta, seguirem els següents passos:
+
+1. **Identificar la funció donada**:
+    La funció és \( f: \mathbb{R}^* \to \mathbb{R}^* \) i té dues propietats:
+    - \( f(x) = 2f(x+1) \)
+    - \( f(x+y) = f(x) \cdot f(y) \)
+
+2. **Calcular els valors específics de la funció**:
+    Per trobar \( f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right) \), utilitzem les propietats de la funció.
+
+3. **Utilitzar la propietat \( f(x+y) = f(x) \cdot f(y) \)**:
+    Considerem \( x = \frac{1}{2016} \) i \( y = \frac{2015}{2016} \).
+    \[
+    f\left(\frac{1}{2016} + \frac{2015}{2016}\right) = f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right)
+    \]
+    Noteu que \( \frac{1}{2016} + \frac{2015}{2016} = 1 \).
+    \[
+    f(1) = f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right)
+    \]
+
+4. **Utilitzar la propietat \( f(x) = 2f(x+1) \)**:
+    Considerem \( x = 0 \).
+    \[
+    f(0) = 2f(1)
+    \]
+    Però no necessitem \( f(0) \) per resoldre aquesta pregunta. En canvi, ens centrarem en \( f(1) \).
+
+5. **Determinar \( f(1) \)**:
+    Utilitzant \( x = 0 \) en \( f(x+1) = f(x) \cdot f(1) \), obtenim:
+    \[
+    f(1) = f(0) \cdot f(1)
+    \]
+    Com que \( f(1) \neq 0 \) (ja que \( f: \mathbb{R}^* \to \mathbb{R}^* \) implica que \( f(x) \neq 0 \) per a tot \( x \)), podem dividir per \( f(1) \):
+    \[
+    1 = f(0)
+    \]
+    Per tant, \( f(1) = 1 \).
+
+6. **Resoldre l'expressió original**:
+    \[
+    f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right) = f(1) = 1
+    \]
+
+**Raonament**: Utilitzant les propietats donades de la funció, hem determinat que \( f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right) = f(1) = 1 \).
+
+**Resposta**: A) 1

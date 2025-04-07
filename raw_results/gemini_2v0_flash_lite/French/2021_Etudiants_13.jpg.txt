@@ -1,0 +1,10 @@
+Raisonnement :
+La question demande de calculer la somme des produits des chiffres de tous les nombres de 10 à 100 inclusivement.
+Premièrement, on calcule la somme des produits des chiffres des nombres de 10 à 99 :
+*   Pour 10 à 19, on a : p(10) + p(11) + ... + p(19) = (1\*0) + (1\*1) + (1\*2) + ... + (1\*9) = 0 + 1 + 2 + ... + 9 = 45
+*   Pour 20 à 29, on a : p(20) + p(21) + ... + p(29) = (2\*0) + (2\*1) + (2\*2) + ... + (2\*9) = 2(0 + 1 + 2 + ... + 9) = 2 \* 45 = 90
+*   De manière générale, pour les nombres de 30 à 99, on a : p(30) + ... + p(39) = 3 \* 45 = 135 ; p(40) + ... + p(49) = 4 \* 45 = 180 ; ... ; p(90) + ... + p(99) = 9 \* 45 = 405.
+*   On somme les résultats : 45 + 90 + 135 + 180 + 225 + 270 + 315 + 360 + 405 = 2025
+Finalement, on ajoute p(100) = 1\*0\*0 = 0 à ce résultat : 2025 + 0 = 2025.
+
+Réponse : A)

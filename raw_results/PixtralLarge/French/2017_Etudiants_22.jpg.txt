@@ -1,0 +1,50 @@
+### Raisonnement :
+Analysons les deux équations données :
+1. \(|x| + x + y = 5\)
+2. \(x + |y| - y = 10\)
+
+Pour déterminer \(x + y\), nous devons résoudre ces équations.
+
+1. Considérons d'abord \(|x| + x + y = 5\).
+   - Si \(x \geq 0\), alors \(|x| = x\). L'équation devient \(2x + y = 5\).
+   - Si \(x < 0\), alors \(|x| = -x\). L'équation devient \(y = 5\).
+
+2. Considérons \(x + |y| - y = 10\).
+   - Si \(y \geq 0\), alors \(|y| = y\). L'équation devient \(x = 10\).
+   - Si \(y < 0\), alors \(|y| = -y\). L'équation devient \(x - 2y = 10\).
+
+Pour résoudre ces équations, nous devons vérifier les différentes combinaisons possibles des signes de \(x\) et \(y\).
+
+**Cas 1 : \(x \geq 0\) et \(y \geq 0\)**
+   - \(2x + y = 5\)
+   - \(x = 10\)
+   - Substituons \(x = 10\) dans la première équation : \(2(10) + y = 5\)
+   - \(20 + y = 5\)
+   - \(y = -15\) (ce qui contredit \(y \geq 0\)).
+
+**Cas 2 : \(x < 0\) et \(y \geq 0\)**
+   - \(y = 5\)
+   - \(x = 10\) (ce qui contredit \(x < 0\)).
+
+**Cas 3 : \(x \geq 0\) et \(y < 0\)**
+   - \(2x + y = 5\)
+   - \(x - 2y = 10\)
+   - Résolvons ce système :
+     - \(2x + y = 5\)
+     - \(x - 2y = 10\)
+   - Multiplions la deuxième équation par 2 : \(2x - 4y = 20\)
+   - Soustrayons la première équation de cette équation :
+     - \((2x - 4y) - (2x + y) = 20 - 5\)
+     - \(-5y = 15\)
+     - \(y = -3\)
+   - Substituons \(y = -3\) dans la première équation : \(2x - 3 = 5\)
+     - \(2x = 8\)
+     - \(x = 4\)
+   - Donc, \(x + y = 4 - 3 = 1\).
+
+**Cas 4 : \(x < 0\) et \(y < 0\)**
+   - \(y = 5\) (ce qui contredit \(y < 0\)).
+
+Ainsi, la seule solution possible est \(x = 4\) et \(y = -3\), ce qui donne \(x + y = 1\).
+
+### Réponse : A)

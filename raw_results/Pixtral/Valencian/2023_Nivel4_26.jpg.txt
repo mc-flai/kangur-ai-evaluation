@@ -1,0 +1,25 @@
+
+La pregunta 26 nos pide encontrar el número que ocupa la casilla central en una cuadrícula de 3x3 llena de números positivos, donde el producto de los números de cada fila y cada columna es 1, y el producto de los cuatro números de la subcuadrícula 2x2 es 2.
+
+Para resolver esto, debemos considerar las posibles configuraciones de números en la cuadrícula que cumplan con estas condiciones.
+
+**Razonamiento:**
+1. El producto de los números de cada fila y cada columna debe ser 1. Esto significa que cada fila y cada columna deben contener números tales que su producto sea 1.
+2. El producto de los cuatro números en la subcuadrícula 2x2 debe ser 2. Esto significa que los números en esta subcuadrícula deben ser tales que su producto sea 2.
+
+Dado que estamos trabajando con números positivos, los únicos números que cumplen con estas condiciones son 1 y 2. Esto se debe a que el producto de cualquier conjunto de números que no sea 1 o 2 no puede ser 1 o 2.
+
+3. Consideremos las posibles configuraciones de la cuadrícula:
+   - Una posible configuración es: 
+     ```
+     1 1 1
+     1 2 1
+     1 1 1
+     ```
+   - Aquí, el producto de los números en cada fila y cada columna es 1, y el producto de los cuatro números en la subcuadrícula 2x2 es 2.
+
+4. La casilla central en esta configuración es la segunda fila, segunda columna, que es 2.
+
+Por lo tanto, el número que ocupa la casilla central es 2.
+
+**Respuesta:** B)

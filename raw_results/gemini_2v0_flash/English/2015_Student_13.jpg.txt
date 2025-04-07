@@ -1,0 +1,42 @@
+Reasoning: Let's denote the numbers in the circles as a, b, c, d, e, f, and g, starting from the circle with '3' and going clockwise. We are given a = 3 and b = 5. We also know that each number is the sum of its two neighbors. Thus:
+a = g + b  =>  3 = g + 5  =>  g = -2
+b = a + c  =>  5 = 3 + c  =>  c = 2
+c = b + d  =>  2 = 5 + d  =>  d = -3
+d = c + e  =>  -3 = 2 + e  =>  e = -5
+e = d + f  =>  -5 = -3 + f  =>  f = -2
+f = e + g  =>  f = -5 + (-2) => f = -7 but we determined it to be -2.
+Let us solve for the unknown value as x.
+We have the sequence of numbers 3, 5, c, d, e, f, x, g in clockwise order.
+3 = 5 + g
+5 = 3 + c
+c = 5 + d
+d = c + e
+e = d + f
+f = e + x
+x = f + g
+g = x + 3
+
+So, we have 8 equations:
+1. 3 = 5 + g => g = -2
+2. 5 = 3 + c => c = 2
+3. c = 5 + d => 2 = 5 + d => d = -3
+4. d = c + e => -3 = 2 + e => e = -5
+5. e = d + f => -5 = -3 + f => f = -2
+6. f = e + x => -2 = -5 + x => x = 3
+7. x = f + g => 3 = -2 + g => g = 5; Contradicts g = -2
+8. g = x + 3 => g = 3 + 3 = 6; Contradicts g = -2
+
+We now need to find a valid solution.
+Suppose the values are a,b,c,d,e,f,x, and the other value is g.
+a=3, b=5. a=g+b, so g = a-b = 3-5=-2
+b=a+c, so c=b-a = 5-3=2.
+c=b+d, so d = c-b=2-5 = -3
+d=c+e, so e=d-c=-3-2=-5
+e=d+f, so f=e-d=-5-(-3)=-2
+f=e+x, so x=f-e=-2-(-5)=3
+x=f+g, so g=x-f=3-(-2)=5
+g=x+a, so a=g-x=-2-3=-5 but this contradicts what a is supposed to be, as g must equal 3
+
+Since there appears to be a contradiction, it seems the question has no solution.
+
+Answer: E)

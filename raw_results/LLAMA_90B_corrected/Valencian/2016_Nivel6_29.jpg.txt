@@ -1,0 +1,17 @@
+Raonament: Analitzem la pregunta i calculem la probabilitat que el robot torne a l'origen del pla cartesià.
+
+Començant des d'una posició arbitària del robot al pla cartesià, podem considerar un dels seus instal·lacions possibles amb cada cap en una direcció qualsevol. Aquesta direcció no tindrà importància en el càlcul de probabilitats a causa de la simetria del pla. Sent així, una forma simplificada de fer el càlcul es troba en la versió simplificada de la pregunta que trobarem més avall.
+
+Fixem-nos en el mecanisme de funcionament del robot utilitzant el primer cas que ens explica: si el nom del dau vermell és parell, el robot avançarà una unitat cap a la dreta, i si és senar, cap a l'esquerra. Anèmia, si el nom del dau blau és parell, el robot avançarà una unitat cap amunt, i si és senar, cap avall.
+
+1. Primer, cal determinat totes les possibles posicions de tornada a l'origen del pla cartesià. Aquestes són: (i) amb dos moviments de dues caselles  cap al perfil vertical, com (a, b), (c, d), i (e, f). (ii) amb dos moviments de les caselles d'un perfil horitzontal, com (a,c), (a,e), (b,d), i (d,f).
+
+2. Si el robot torna a l'origen, les possibilitats poden ser:
+
+o a, d, començant en qualsevolPRESSION de direcció diversa però torna amb a o cic.
+
+o a, e o c, d, cic.
+
+3. Sent així, veiem que el nombre de possibilitats als vuit dies del dau és $\boxed{\frac 12+\frac 14}$.
+
+Resposta: No Answer.

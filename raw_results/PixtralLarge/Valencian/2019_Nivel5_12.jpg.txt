@@ -1,0 +1,27 @@
+Per resoldre aquesta qüestió, hem de trobar els nombres del conjunt {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} que poden ser expressats com la suma de dues fraccions amb denominadors diferents de manera que el xicotet de les dues fraccions tingui el valor més petit possible.
+
+Primer, observem que els denominadors diferents de {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} són 1, 2, 3, 4, 5, 6, 7, 8, 9 i 10.
+
+Per minimitzar el xicotet de les dues fraccions, el denominador més petit pot ser 10. Això significa que hem de trobar una altra fracció amb un denominador més gran que 10 (els denominadors més grans disponibles són 9, 8, 7, 6, 5, 4, 3, 2 i 1), de manera que la suma de les dues fraccions sigui un enter.
+
+Considerem ara les fraccions possibles:
+- 1/1 = 1
+- 2/2 = 1
+- 3/3 = 1
+- 4/4 = 1
+- 5/5 = 1
+- 6/6 = 1
+- 7/7 = 1
+- 8/8 = 1
+- 9/9 = 1
+- 10/10 = 1
+
+Totes les fraccions amb denominadors diferents de 10 són iguals a 1. Per tant, la fracció més petita possible amb denominador 10 és 1/10.
+
+Ara, hem de trobar una altra fracció que tingui un denominador més gran que 10 i que sumi amb 1/10 per donar un enter. La fracció més petita que satisfà aquesta condició és 9/10, perquè 1/10 + 9/10 = 1.
+
+Per tant, el xicotet de les dues fraccions és 1/10, i el seu valor és 2/10.
+
+Raonament: El xicotet de les dues fraccions amb denominadors diferents de {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} que sumen a un enter és 2/10.
+
+Resposta: A) 2/10.

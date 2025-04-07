@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. Nous avons une séquence de cartes donnée : 2, 0, 1, 7.
+2. On nous dit que deux cartes sont échangées en même temps.
+3. Nous devons déterminer quelle séquence de cartes nous obtiendrons après l'échange.
+
+Analysons chaque option :
+- A) 2, 1, 7, 0 : Si nous échangons 0 et 1, nous obtenons cette séquence.
+- B) 0, 1, 2, 7 : Si nous échangons 2 et 7, nous obtenons cette séquence.
+- C) 7, 0, 2, 1 : Si nous échangons 0 et 1, nous obtenons cette séquence.
+- D) 1, 0, 2, 7 : Si nous échangons 2 et 7, nous obtenons cette séquence.
+- E) 7, 2, 1, 0 : Aucune paire d'échanges ne donne cette séquence.
+
+En comparant les options avec les échanges possibles, nous voyons que l'option A) 2, 1, 7, 0 est le résultat de l'échange de 0 et 1 dans la séquence initiale.
+
+Réponse : A)

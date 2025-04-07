@@ -1,0 +1,78 @@
+Reasoning:
+Let's analyze the arrangements of the blocks. There are 12 cubes in total: 3 red, 4 green, 3 blue, and 2 yellow.
+We know the arrangement starts with a red cube and ends with a yellow cube. Also, all red cubes are together, and all green cubes are together. Thus, we either have RRR at the beginning or Y...Y at the end.
+Since the row starts with a red cube and ends with a yellow one, we have RRR............Y.
+The red cubes must be at the left end, since we know we start with a red cube.
+The total arrangement is of length 12. The tenth cube from the left is blue.
+We know the following:
+1. Starts with RRR
+2. Ends with Y
+3. Green cubes are together
+4. The 10th cube is blue.
+Let's consider the possible places for the groups of red and green cubes.
+The possible arrangements are:
+RRR GGGG _ _ _ B Y
+or
+RRR _ _ _ GGGG _ _ B Y
+or
+RRR _ _ _ _ _ GGGG _ B Y
+or
+RRR _ _ _ _ _ _ GGGG B Y
+The GGGG group can not be put after 10th position because we are given that the tenth is Blue.
+
+Let's think about the position of RRR and Y. This means we have the following possibilities:
+RRR GGGG BBYB Y
+RRR BB GGGG B Y
+RRR BB GGGG B Y
+So, we are trying to figure out what can be in between. The number of red blocks and yellow blocks are fixed, so now let's figure out the number of blue and green blocks. We know we need to figure out the positioning of blue and green. The tenth position has to be blue. So the only blocks possible are the four greens and two blues. Thus, we need to figure out the ordering between the locations of greens and blues.
+
+RRR GGGG BB B Y is one arrangement. We need to swap only the positions of G and B. RRR must be in front, and Y at the end.
+Possible arrangements
+1. RRR GGGG BBY
+Since position 10 is blue, we can place the green cube before 10 and also blue before position 10. After placing red and yellow, we have places between 4 to 9
+_ _ _ _ _ _
+Then, the location of tenth is blue.
+Case 1: RRR GGGG BBY
+Case 2: RRR BB GGGG Y
+In order to keep the 10th position blue, here are the possible arrangements of GGGG and BB
+1. RRR B GGGG BB Y -> No, 10th isn't blue
+2. RRR BB GGGG Y -> No
+We are given that the tenth cube from the left is blue.
+Since we have RRR at the front, we have 9 positions to place the green blocks. Also, we have a yellow at the end. There are 3 blues and 4 greens.
+The block arrangement looks something like RRR [sequence of G and B] Y.
+The possible positions of the green cubes are that we are putting green blocks at the 4th, 5th, 6th and 7th
+Arrangements possible RRR B GGGG BB Y. NO because the tenth number is blue.
+Then there must be 2 ways of placement. The places can be (RRR, GGGG and Y).
+
+If green is at position 4 = > RRR GGGG BBBY. Tenth is Blue
+Else there are spots between G and B. So we can say (RRR GGGG ) + (BBBY). After adding this together. We are saying it's (RRR GGGG) (BBBY). After making this the case, this means green can take different slots which is the reasoning.
+
+The arrangement has to start with RRR and end with Y, and have GGGG together. The only question becomes how many blues can be arranged to make position 10 blue?
+
+The options are the positions of G and B or B and G.
+
+RRR GGGG BBY: tenth position B
+RRR BB GGGG Y: tenth position G
+
+Arrangements are
+RRR BB GGGG Y: the greens occupy the locations
+But if green is moved ahead = > it must take form RRRBB GGGG Y
+RRR BB GGGG Y is invalid because it is the 9th is G and the 10th position is not blue.
+Only Valid is position.
+RRR GGGG BBY -> tenth position B
+RRR BB GGGG Y: the tenth cannot be green or B, then it would not be this way.
+So, RRR must have it at the front, and yellow at the end and then GGGG together and position is equal to 2.
+
+Reasoning:
+There are three groups of colors: R, G and B.
+First, note that we must end with Y. Thus, we can just place Y at the end and consider only 11 positions. RRR are fixed. If GGGG comes after, we have RRR GGGG.
+Remaining: 2 blue and one cube before Y, with the tenth being blue.
+The pattern: RRR GGGG _ _ _ _ B Y,
+Let the arrangement RRR GGGBBY
+Let's list out the possibilities from start to end. The position 1 to 3 is Red.
+Pos 12. Y
+4. _ GGGG __ .
+
+(B) 3
+
+Answer: A)

@@ -1,0 +1,48 @@
+### Raonament:
+
+1. **Entendre el problema**: Estem treballant amb un polígon de \( k \) costats on cada angle interior és igual a 90° o 150°. Estem demanant quants segments no poden ser el valor de \( k \).
+
+2. **Sumar els angles interiors**: La suma dels angles interiors d'un polígon amb \( k \) costats és \( (k-2) \times 180° \).
+
+3. **Considerar els angles**: Si cada angle és 90° o 150°, podem expressar la suma dels angles com \( (a \times 90°) + (b \times 150°) \), on \( a + b = k-2 \).
+
+4. **Resolució de l'equació**: La suma dels angles és \( 90a + 150b = (k-2) \times 180° \).
+
+5. **Simplificar l'equació**: Dividim tots dos costats per 30°:
+   \[
+   3a + 5b = 6(k-2)
+   \]
+
+6. **Determinar \( k \)**: Per trobar valors de \( k \) que no siguin possibles, busquem valors de \( k \) que no donin un nombre enter per \( a \) o \( b \).
+
+7. **Probar valors de \( k \)**: Comencem amb \( k = 4 \):
+   \[
+   3a + 5b = 6 \times 2 = 12
+   \]
+   No hi ha solucions enteres per \( a \) i \( b \) que satisfeixin aquesta equació.
+
+8. **Probar \( k = 6 \)**:
+   \[
+   3a + 5b = 6 \times 4 = 24
+   \]
+   Una solució possible és \( a = 6 \) i \( b = 2 \).
+
+9. **Probar \( k = 8 \)**:
+   \[
+   3a + 5b = 6 \times 6 = 36
+   \]
+   Una solució possible és \( a = 12 \) i \( b = 0 \).
+
+10. **Probar \( k = 9 \)**:
+    \[
+    3a + 5b = 6 \times 7 = 42
+    \]
+    No hi ha solucions enteres per \( a \) i \( b \) que satisfeixin aquesta equació.
+
+11. **Probar \( k = 10 \)**:
+    \[
+    3a + 5b = 6 \times 8 = 48
+    \]
+    No hi ha solucions enteres per \( a \) i \( b \) que satisfeixin aquesta equació.
+
+### Resposta: E)

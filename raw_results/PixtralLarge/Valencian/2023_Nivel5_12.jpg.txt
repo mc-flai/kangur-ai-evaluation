@@ -1,0 +1,24 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre màxim de persones que poden formar part d'un grup perquè la promoció sigui el més atractiva possible.
+
+El text indica que els grups de "n" amics tenen un descompte de "n%" en cada entrada, però només aquells grups que tinguin com a mínim 4 persones. A més, el màxim descompte per a tot el grup serà el preu normal de 4 entrades.
+
+Passos de raonament:
+
+1. El descompte màxim per a tot el grup és el preu de 4 entrades.
+2. Si el preu normal d'una entrada és P, el preu de 4 entrades és 4P.
+3. Per tant, el descompte màxim que tot el grup pot tenir és 4P.
+4. Suposem que el grup té "n" persones. El descompte per persona és n%.
+5. El descompte total per a tot el grup és n% de nP = (n/100) * nP = n^2P/100.
+6. Perquè el descompte total sigui igual al màxim descompte possible (4P), hem de tenir:
+   n^2P/100 = 4P
+7. Simplificant, obtenim:
+   n^2/100 = 4
+   n^2 = 400
+   n = √400
+   n = 20
+
+Per tant, el nombre màxim de persones que poden formar part d'un grup perquè la promoció sigui el més atractiva possible és 20.
+
+Raonament: Hem determinat que el màxim descompte per a tot el grup és el preu de 4 entrades i que això es tradueix en un nombre màxim de 20 persones perquè el descompte sigui efectiu.
+
+Resposta: B) 20

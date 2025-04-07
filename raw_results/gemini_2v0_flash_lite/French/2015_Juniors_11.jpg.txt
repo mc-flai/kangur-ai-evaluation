@@ -1,0 +1,10 @@
+Raisonnement :
+1. **Analyse de la figure :** Le trajet le plus court est un trajet qui prend avantage des diagonales autant que possible.
+2. **Calcul de la distance :** Le trajet le plus court peut être constitué de la diagonale d'un carré, suivi d'un autre côté, et ensuite d'un autre côté.
+   * On peut se déplacer en diagonale de l'origine vers le coin inférieur droit du carré supérieur gauche. La distance est √2.
+   * Ensuite, on peut se déplacer en diagonale vers le coin inférieur droit du carré du milieu en partant du coin en haut à gauche. La distance est 1.
+   * Ensuite, on peut se déplacer en diagonale vers le coin inférieur droit du carré inférieur droit. La distance est √2.
+   * Enfin, on peut se déplacer le long d'un côté pour atteindre le point d'arrivée. La distance est 2.
+   * La distance totale est alors √2 + 1 + √2 + 1 = 2√2 + 2.
+
+Réponse : C)

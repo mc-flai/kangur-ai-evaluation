@@ -1,0 +1,20 @@
+**Reasoning**:
+- Hansi writes the number 2581953764 on a strip of paper.
+- He cuts through the strip of paper between two digits and obtains three numbers which he adds.
+- To minimize the sum, we should aim to create the smallest possible numbers by cutting strategically.
+
+  To find the smallest sum, consider where to place the cuts:
+  - By observing the digits, we need to avoid splitting in a way that creates large numbers.
+  - A potential smallest split could be:
+    - 2, 5819537, 64
+    - Sum = 2 + 5819537 + 64 = 5819603
+
+  Another potential split:
+    - 258, 1953, 764
+    - Sum = 258 + 1953 + 764 = 2975
+
+  Compare this with other possible splits, but it is evident that splitting to minimize the digits combined will yield a lower sum.
+
+  Therefore, the smallest feasible sum is 2975.
+
+**Answer**: B)

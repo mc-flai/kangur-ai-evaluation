@@ -1,0 +1,6 @@
+*   **Razonamiento**: Para determinar cuántos enteros entre 2001 y 2031 incluidos son divisibles por 31, podemos formular una desigualdad. Los enteros positivos que son divisibles por 31 estarán en el rangos $31n\ge 2001$ y $31n \le 2031$, donde $n$ es un número entero positivo. Resolviendo, se encuentran los valores de $n$: $n \in [64.55, 65.51]$, por lo que $n=65$. Por lo tanto, hay 65 enteros positivos que son divisibles por 31.
+
+    Por otro lado, en el rango $2001 \lt n \lt 2031$, $n=65$ y por lo tanto existen **31** divisores de 31.
+
+    Otra manera de solucionarlo es encontrar el valor más pequeño de la desigualdad $n<65$ y encontrar el valor más grande de $65<n$ para encontrar el número de soluciones.
+*   **Respuesta: B**

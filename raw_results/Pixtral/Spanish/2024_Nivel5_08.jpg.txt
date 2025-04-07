@@ -1,0 +1,35 @@
+
+Razonamiento: El problema busca un número palíndromo de tres cifras que tenga la forma 'aba', donde las cifras 'a' y 'b' pueden ser iguales o diferentes. Además, la suma de los dígitos del número palíndromo debe ser un múltiplo de 6.
+
+1. Identificar los números palíndromos de tres cifras en la forma 'aba':
+   - Los posibles valores para 'a' son 0-9 (pero no puede ser 0 para un número de tres cifras).
+   - Los posibles valores para 'b' son 0-9.
+
+2. Calcular la suma de los dígitos para cada número palíndromo:
+   - La suma de los dígitos es siempre \(2a + b\).
+
+3. Determinar qué números palíndromos cumplen con la condición de que la suma de los dígitos sea un múltiplo de 6:
+   - Evaluar cada número palíndromo 'aba' para ver si \(2a + b\) es un múltiplo de 6.
+
+   - Para '111': \(2(1) + 1 = 3\) (no es un múltiplo de 6)
+   - Para '222': \(2(2) + 2 = 6\) (es un múltiplo de 6)
+   - Para '333': \(2(3) + 3 = 9\) (no es un múltiplo de 6)
+   - Para '444': \(2(4) + 4 = 12\) (es un múltiplo de 6)
+   - Para '555': \(2(5) + 5 = 15\) (no es un múltiplo de 6)
+   - Para '666': \(2(6) + 6 = 18\) (es un múltiplo de 6)
+   - Para '777': \(2(7) + 7 = 21\) (no es un múltiplo de 6)
+   - Para '888': \(2(8) + 8 = 24\) (es un múltiplo de 6)
+   - Para '999': \(2(9) + 9 = 27\) (no es un múltiplo de 6)
+
+4. Los números palíndromos que cumplen con la condición son 222, 444, 666 y 888.
+
+5. Verificar las opciones dadas:
+   - A) 16
+   - B) 18
+   - C) 20
+   - D) 21
+   - E) 24
+
+   - La opción E) 24 es la suma de los dígitos de 888, que es un múltiplo de 6.
+
+Respuesta: E)

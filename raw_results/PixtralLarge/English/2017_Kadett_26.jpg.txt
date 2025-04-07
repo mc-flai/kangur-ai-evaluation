@@ -1,0 +1,23 @@
+**Reasoning**:
+1. The given sequence starts as 2, 3, 6, 8, 8, ...
+2. According to the rule, the first two digits are 2 and 3.
+3. Every subsequent digit is the unit digit of the product of the two previous digits.
+4. To find the 2017th digit, let's identify the pattern in the sequence:
+   - 2, 3 (initial digits)
+   - 2 * 3 = 6 (unit digit is 6)
+   - 3 * 6 = 18 (unit digit is 8)
+   - 6 * 8 = 48 (unit digit is 8)
+   - 8 * 8 = 64 (unit digit is 4)
+   - 8 * 4 = 32 (unit digit is 2)
+   - 4 * 2 = 8 (unit digit is 8)
+   - 2 * 8 = 16 (unit digit is 6)
+   - 8 * 6 = 48 (unit digit is 8)
+   - 6 * 8 = 48 (unit digit is 8)
+   - 8 * 8 = 64 (unit digit is 4)
+5. The sequence repeats every 6 digits: 2, 3, 6, 8, 8, 4.
+6. To find the 2017th digit, we find the remainder of 2017 divided by 6:
+   - 2017 ÷ 6 = 336 remainder 1.
+7. The remainder 1 indicates that the 2017th digit is the same as the first digit in the repeating sequence.
+8. The first digit of the repeating sequence is 2.
+
+**Answer**: A).

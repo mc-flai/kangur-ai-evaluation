@@ -1,0 +1,24 @@
+Razonamiento: Si todos dicen "Estoy sentado entre dos escuderos," implica que hay una cadena de escuderos. Si alguien dice la verdad, estaría entre dos escuderos. Pero si es un escudero, miente, entonces no está sentado entre dos escuderos. Entonces para que todos digan lo mismo se tienen dos posibles escenarios: 1) Todos son escuderos y mintiendo que estan sentados entre 2 escuderos o 2) Nadie esta sentado entre 2 escuderos. Para que todos los escuderos mientan, significa que no están sentados entre dos escuderos.  Por tanto los caballeros mienten.  Como todos dicen lo mismo, todos mienten, por lo que todos son escuderos. La afirmación: "estoy sentado entre dos escuderos" es falsa.  Como la mesa es redonda, deben estar alternados en grupos de al menos 3. No puede haber un caballero o una cantidad de caballeros mayor que la de escuderos, pues la afirmación sería mentira. No puede haber un número impar de escuderos, porque si son impares siempre habría alguien entre dos escuderos. Debe haber una cantidad par de escuderos y caballeros por lo tanto. Si hay 7 personas y todos dicen lo mismo, y un escudero miente acerca de estar sentado entre dos escuderos, entonces hay una cadena de escuderos. La única manera que la frase "Estoy sentado entre dos escuderos" sea falsa es que la configuración sea Caballero-Caballero-Escudero-Caballero-Caballero-Escudero-Caballero. Entonces 4 caballeros y 3 escuderos. Pero 7 personas dicen "estoy sentado entre dos escuderos" lo cual significa que hay un grupo par de escuderos.
+
+Si todos son caballeros dirían la verdad, es decir, estarían sentados entre 2 escuderos, lo que sería falso ya que no hay escuderos. Si todos son escuderos, mienten. Es decir, no están sentados entre 2 escuderos.
+
+Consideremos n = número de escuderos, y 7-n = número de caballeros.
+Si n = 4, 7-4 = 3. 4 escuderos mienten, entonces no están entre dos escuderos, y 3 caballeros mienten también.
+
+Si todos mienten, entonces no están sentados entre dos escuderos.
+Podemos construir una situación como E C E C E C E, donde E = Escudero y C = Caballero.
+Si hay más de 3 escuderos, la afirmación no es verdad. Si hay 4 escuderos, solo puede haber 3 caballeros.
+Para que todos estén sentados entre 2 escuderos la cantidad de caballeros y escuderos debe ser igual y por lo tanto debe ser un número par.
+Lo más que podemos decir es que todos mienten y por lo tanto hay 7 escuderos, pero no sabría como se distribuyen para que la afirmación sea falsa.
+
+El patrón debe ser ECECECE, con 4 escuderos y 3 caballeros. Los escuderos mienten, por lo tanto no están sentados entre 2 escuderos. Los caballeros mienten, no están sentados entre 2 escuderos.
+Si hay solo 4 escuderos, entonces 3 escuderos mienten, y mienten tambien los 3 caballeros.
+
+Si hay EEECCCEEE
+Si hay 4 escuderos, puede haber 3 caballeros, pero si los escuderos mienten, deben estar sentados entre dos caballeros.
+ECECECE
+E-4
+C-3
+Pero si hay 4 escuderos mienten y no estan sentados entre dos escuderos. Por lo tanto hay 4 escuderos en la configuración.
+
+Respuesta: B)

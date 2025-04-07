@@ -1,0 +1,28 @@
+
+La pregunta 18 se refiere a un grupo de 60 estudiantes en un viaje. Los colores de sus chalecos reflejan un patrón específico, y los colores de sus mochilas reflejan un patrón diferente. La pregunta solicita cuántos estudiantes tienen un chaleco que refleja amarillo y una mochila que refleja naranja.
+
+Para resolver esto, debemos entender el patrón de colores de los chalecos y las mochilas. Los chalecos reflejan el patrón amarillo, verde, amarillo, verde, y las mochilas reflejan el patrón rojo, marrón, naranja, rojo, marrón, naranja.
+
+Para encontrar el número de estudiantes con un chaleco amarillo y una mochila naranja, observamos los patrones:
+
+- El patrón de los chalecos es amarillo, verde, amarillo, verde.
+- El patrón de las mochilas es rojo, marrón, naranja, rojo, marrón, naranja.
+
+Cada patrón tiene una longitud de 4, lo que significa que cada 4 estudiantes, el patrón se repite. Para encontrar el número de estudiantes que tienen un chaleco amarillo y una mochila naranja, buscamos la posición de los colores en sus respectivos patrones:
+
+- El chaleco amarillo aparece en la posición 1 y 3 del patrón.
+- La mochila naranja aparece en la posición 3 del patrón.
+
+Por lo tanto, los estudiantes que tienen un chaleco amarillo y una mochila naranja son aquellos en las posiciones donde ambos patrones coinciden en la posición 3.
+
+Dado que el patrón se repite cada 4 estudiantes, calculamos el número de estudiantes que cumplen con estos criterios:
+
+- Hay 60 estudiantes en total.
+- El patrón se repite cada 4 estudiantes.
+- Cada repetición del patrón tiene 1 estudiante con un chaleco amarillo y una mochila naranja (en la posición 3).
+
+Por lo tanto, el número de estudiantes con un chaleco amarillo y una mochila naranja es 60 / 4 = 15.
+
+**Razonamiento:** El patrón de los chalecos y las mochilas se repite cada 4 estudiantes. El chaleco amarillo y la mochila naranja coinciden en la posición 3 del patrón. Calculamos el número de estudiantes que cumplen con estos criterios dividiendo el número total de estudiantes por la longitud del patrón.
+
+**Respuesta:** C

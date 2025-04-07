@@ -1,0 +1,35 @@
+Raonament:
+Primer, calculem la suma original: 222 + 333 + 444 + 555 = 1554.
+Volem canviar el mínim nombre de dígits perquè la suma siga 987. Necessitem reduir la suma de 1554 a 987. La diferència és 1554 - 987 = 567.
+
+Podem intentar canviar els dígits de cada número per obtenir la suma desitjada. Per minimitzar el nombre de canvis, intentarem canviar els dígits de les centenes en primer lloc, després les desenes i, finalment, les unitats.
+
+Per arribar a 987, necessitem:
+- Centenes: 2 + 3 + 4 + 5 = 14. Volem que siga 9, així que necessitem reduir-ho en 5.
+- Desenes: 2 + 3 + 4 + 5 = 14. Volem que siga 8, així que necessitem reduir-ho en 6.
+- Unitats: 2 + 3 + 4 + 5 = 14. Volem que siga 7, així que necessitem reduir-ho en 7.
+
+Per reduir les centenes en 5, podem canviar el 5 a 0. Llavors la suma de les centenes seria 2+3+4+0=9. Això representa 1 canvi.
+Per reduir les desenes en 6, podem canviar el 5 a -1, o el 4 a -2. No podem tenir números negatius, de manera que necessitem canviar-los per un valor adequat per reduir la suma. Considerem canviar 5 a 2 i 4 a 2: necessitem 2 canvis, i la suma de les desenes passa a ser 2+3+2+2 = 9 > 8. En comptes d'això, podem canviar 5 a 1, 4 a 0, i llavors tenim: 2+3+0+1 = 6. Per arribar a 8 necessitem 2 més, per exemple cambiar 0 a 2 i 1 a 2. Aconseguir 8 és difícil mantenint el mínim nombre de canvis.
+
+Provem una altra aproximació:
+Volem que la suma siga 987. Això vol dir que podem obtenir nombres com 100+100+387+400 = 987, però volem canviar el mínim nombre de dígits.
+Podem intentar canviar els números originals per: 120 + 320 + 440 + 107 = 987. Necessitaríem 5 canvis.
+
+Una altra aproximació:
+Volem 987.
+Podem mantenir 222. Ens queda 987 - 222 = 765.
+Podem mantenir 333. Ens queda 765 - 333 = 432.
+Podem mantenir 444. Ens queda 432 - 444 = -12. Això no funciona.
+
+Provar 122 + 333 + 432 + 100 = 987. Hem canviat 4 dígits (2, 4, 5 a 1, 3, 0).
+Podem provar 200 + 387 + 400 + 0 = 987. Hem canviat 7 dígits, no és acceptable.
+Podem provar 222 + 330 + 435 + 0 = 987. Hem canviat 4 dígits.
+
+Però si fem 222 + 333 + 432 + 000, hauríem de canviar els 5 a 0, que implica 3 canvis, i cambiar 444 a 432 que serien 2 més.
+
+Si provem de canviar el mínim nombre de dígits per aconseguir el número, sembla que la solució és 4.
+
+Raonament: Després de considerar diverses estratègies, crec que 4 és la resposta més plausible. És difícil determinar la quantitat mínima sense provar combinacions exhaustivament, però 4 semble el millor candidat.
+
+Resposta: B)

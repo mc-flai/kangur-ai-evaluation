@@ -1,0 +1,17 @@
+Raonament:
+1.  Una multiplicació de dos nombres és negativa si un és positiu i l'altre és negatiu.
+2.  Sigui `p` el nombre de nombres positius i `n` el nombre de nombres negatius en el conjunt.
+3.  Sabem que el total de nombres en el conjunt és 50.
+4.  Sabem que el nombre de multiplicacions negatives és 522.  Les multiplicacions negatives resulten de multiplicar un nombre positiu per un nombre negatiu. Per tant,  `p * n = 522`.
+5.  A més, sabem que `p + n + z = 50`, on `z` és el nombre de zeros en el conjunt.
+6.  Necessitem trobar `z`.  Tenim les següents possibles descomposicions de 522 en dos factors:
+    *   1 x 522 (Però 1 + 522 > 50)
+    *   2 x 261 (Però 2 + 261 > 50)
+    *   3 x 174 (Però 3 + 174 > 50)
+    *   6 x 87 (Però 6 + 87 > 50)
+    *   9 x 58 (Però 9 + 58 > 50)
+    *   18 x 29
+7.  Aleshores, si `p = 18` i `n = 29`, `p + n = 47`, i per tant `z = 50 - 47 = 3`.
+8.  Si hi haguessin zeros, la multiplicació entre un zero i qualsevol altre nombre seria zero, que no és ni positiu ni negatiu. Per tant, els zeros no afecten el compte de 522 multiplicacions negatives.
+
+Resposta: B)

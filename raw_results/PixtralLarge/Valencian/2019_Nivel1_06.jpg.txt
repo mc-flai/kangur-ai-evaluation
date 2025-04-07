@@ -1,0 +1,38 @@
+Per determinar quina peça no pot tallar, s'ha d'identificar la peça que no apareix en una sola fila de 2 x 1 del full quadrat.
+
+1. **Analitzar les peces del full quadrat**:
+   - El full quadrat de 4 x 4 té les següents peces:
+     ```
+     Trèvols, Estrella, Trèvols, Cors
+     Estrella, Trèvols, Cors, Piques
+     Diamants, Trèvols, Cors, Piques
+     Diamants, Estrella, Cors, Piques
+     ```
+
+2. **Identificar les aparicions de cada peça**:
+   - **Trèvols**: 4 vegades
+   - **Estrella**: 2 vegades
+   - **Cors**: 4 vegades
+   - **Piques**: 2 vegades
+   - **Diamants**: 2 vegades
+
+3. **Veure les opcions donades**:
+   - **A) Diamants i Estrella**: Cada peça apareix 2 vegades.
+   - **B) Piques i Trèvols**: Piques apareix 2 vegades, Trèvols apareix 4 vegades.
+   - **C) Diamants i Piques**: Cada peça apareix 2 vegades.
+   - **D) Estrella i Trèvols**: Estrella apareix 2 vegades, Trèvols apareix 4 vegades.
+   - **E) Trèvols i Piques**: Trèvols apareix 4 vegades, Piques apareix 2 vegades.
+
+4. **Determinar quina no pot tallar**:
+   - La peça que apareix 4 vegades no pot tallar, ja que necessita una sola peça de 2 x 1.
+   - Les peces que apareixen 4 vegades són **Trèvols** i **Cors**.
+
+5. **Comprovar les opcions**:
+   - Les opcions que contenen Trèvols són B), D), i E).
+   - Les opcions que contenen Cors no són possibles perquè no apareixen en les opcions donades.
+
+Per tant, la peça que no pot tallar és la que apareix 4 vegades, i la seva única combinació és amb Trèvols.
+
+**Raonament**: La peça que no pot tallar és Trèvols, ja que apareix 4 vegades en el full quadrat.
+
+**Resposta**: B)

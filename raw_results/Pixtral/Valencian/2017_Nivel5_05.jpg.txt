@@ -1,0 +1,25 @@
+
+La pregunta solicita encontrar la menor diferencia entre un número y su antecesor inmediato, considerando solo los números naturales cuyos dígitos sumen un número divisible por 5. Los números dados son: 5, 14, 19, 23, 28, ...
+
+**Razonamiento:**
+1. Identificar los números naturales cuyos dígitos suman un número divisible por 5.
+2. Calcular la suma de los dígitos para cada número dado:
+   - 5: 5
+   - 14: 1 + 4 = 5
+   - 19: 1 + 9 = 10
+   - 23: 2 + 3 = 5
+   - 28: 2 + 8 = 10
+3. Verificar si la suma de los dígitos es divisible por 5:
+   - 5 es divisible por 5.
+   - 14 es divisible por 5.
+   - 23 es divisible por 5.
+   - 28 es divisible por 5.
+4. Calcular la diferencia entre cada número y su antecesor inmediato:
+   - Entre 5 y 4: 5 - 4 = 1
+   - Entre 14 y 13: 14 - 13 = 1
+   - Entre 19 y 18: 19 - 18 = 1
+   - Entre 23 y 22: 23 - 22 = 1
+   - Entre 28 y 27: 28 - 27 = 1
+5. La menor diferencia es 1.
+
+**Respuesta:** A)

@@ -1,0 +1,17 @@
+La pregunta 25 descriu un graf format per 16 vèrtexs i segments que connecten cada vèrtex amb els seus tres veïns més propers. Una forma partint del vèrtex A és seguida per una seqüència de moviments, on cada moviment consisteix en travessar un segment per anar d'un vèrtex a un altre. La pregunta demana quants vèrtexs (P, Q, R, S i T) poden estar a una distància de 2019 moviments.
+
+Per resoldre aquesta pregunta, primer cal entendre el concepte de distància en un graf. La distància entre dos vèrtexs en un graf es mesura pel nombre mínim de segments que connecten els vèrtexs. En aquest cas, la distància de 2019 moviments implica que els vèrtexs poden estar a una distància de 2019 segments.
+
+Ara, considerem les opcions:
+
+A) Només P, R i S. No Q ni T
+B) Només P, R, S i T. No Q
+C) Només Q
+D) Només T
+E) És possible que siguin tots els vèrtexs P, Q, R, S i T.
+
+Per determinar la resposta correcta, cal analitzar la forma del graf i la seva connectivitat. Si la forma del graf és cíclica i cada vèrtex està connectat de manera uniforme, és probable que tots els vèrtexs estiguin a una distància de 2019 moviments. Això es deu al fet que en un graf cíclic, la distància entre qualsevol parella de vèrtexs pot ser calculada de manera similar.
+
+Raonament: La forma del graf és cíclica, i tots els vèrtexs estan connectats de manera uniforme. Això suggereix que tots els vèrtexs (P, Q, R, S i T) poden estar a una distància de 2019 moviments.
+
+Resposta: E) És possible que siguin tots els vèrtexs P, Q, R, S i T.

@@ -1,0 +1,17 @@
+Razonamiento: The package weighs 445g. We need to determine the minimum number of weights to use to balance the scale. To balance the scale, we need to add weights to equal 445g. We don't need to use the 500g weight, since the package weighs less than this. We can use the 200g, 100g, 50g, 20g, 20g, and 5g weights. 200 + 100 + 50 + 20 + 20 + 5 = 395. This isn't enough, so we want to use the largest possible weights, and minimize the number of weights used. Therefore, we should first add 200g, then add 100g, then add 50g, then add 50g, and then to reach the desired weight we add the 20g, 20g, and 5g weight. 200 + 100 + 50 + 20 + 20 + 5 = 395g. This is wrong, it's not the most efficient way. The best way to get 445g is 200g + 200g + 20g + 20g + 5g. Since the package weighs 445g, we can use the weights of: 200g, 200g, 20g, 5g. So we need 4 more weights. Also, we can use the weights of 200g + 100g + 100g + 20g + 20g + 5g = 445g.
+
+If we take 200g and 200g that would be 400g. Then, we can add 20g, 20g and 5g to have a total of 445g. The minimum number of weights would be 200g, 200g, 20g, 20g and 5g = 445g.
+In this case we need 5 weights.
+
+If we add 100g + 50g + 20g + 20g + 5g = 195g.
+If we need 445g and we have 200, 100, 50, 20, 20 and 5. The most efficient way to arrive to 445g will be: 200, 200, 20, 20, 5. Which are 5 weights.
+
+If we take the options given, we have:
+A) 2 = not enough.
+B) 3 = not enough.
+C) 4 = not enough
+D) 5 = 200 + 200 + 20 + 20 + 5 = 445
+E) 6 = not correct.
+The correct option is D, since we can take 5 weights: 200g, 200g, 20g, 20g, 5g.
+
+Respuesta: D)

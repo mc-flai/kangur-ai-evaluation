@@ -1,0 +1,9 @@
+Raisonnement :
+
+La question 15 demande de comparer le nombre de pions circulaires grises de 1009 et de points blancs d'un tétraèdre régulier. Dans le tétraèdre régulier, il y a quatre faces triangulaires générales, et dans chacune d'elles, il y a une face triangulaire supplémentaire qui en est séparée par une ligne médiane. Ces trois faces du triangle recevront des points blancs ou noirs à proximité d'une face par paires. De plus, les deux points blancs du triangle seront placés en face d'un point noir en bordure, formant une paire, elle aussi. Il y a ainsi deux paires supplémentaires dans tous les triangles. Au total, il y a cinq paires pour chaque triangle du tétraèdre.
+
+Ainsi, le nombre de points blancs est supérieur par un de 5 pour chaque triangle. Étant donné que le triangle résiduel a la même structure et s'adresse le même trait, le nombre de points noirs de 1009 est équivalent par un à un (notant que ce nombre est également supérieur au nombre de points ano situant la face avec 5 fois l'aire).  
+
+La quantité totale est bien supérieure à 40, mais alors qu'il ne peut pas être plus que 39. Elle crée un parcours carré possible car elle inclut le nombre d'unités en vingt un.
+
+Réponse: B)

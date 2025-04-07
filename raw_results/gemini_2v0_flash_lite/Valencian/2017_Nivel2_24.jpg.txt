@@ -1,0 +1,22 @@
+Raonament:
+1. Aitana escribe los números del 1 al 100.
+2. Aitana crea un número largo con todos los dígitos.
+3. Aitana intenta encontrar el número 2017 en el número largo que creó.
+4. Debemos encontrar cuántas veces podemos encontrar 2017.
+5. Primero calculemos cuántos dígitos hay en total del 1 al 100.
+  * Números de 1 a 9: 9 números * 1 dígito = 9 dígitos.
+  * Números de 10 a 99: 90 números * 2 dígitos = 180 dígitos.
+  * El número 100: 3 dígitos.
+  * Total de dígitos = 9 + 180 + 3 = 192 dígitos.
+6. Ahora, veamos cuántos dígitos tiene el número 2017. El número 2017 tiene 4 dígitos.
+7. Calculamos el número máximo de veces que podemos obtener 2017.
+8. Dividimos el número total de dígitos entre los dígitos del número que estamos buscando: 192 dígitos / 4 dígitos por 2017 = 48.
+9. Pero los dígitos no se pueden intercambiar y debe respetar el orden.
+10. Los números del 1 al 100 son: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... , 99, 100
+11. Si unimos todos los números: 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100
+12. La primera vez que se puede encontrar 2017 es a partir del número 20. El 2017 no puede aparecer al principio.
+13. Hay 2017, 2017, y el número 100 no tiene suficientes dígitos.
+14. Solo podemos formar una copia de 2017 a partir de los números 20, 17 (2017), 20, 17 (2017), 20, 17(2017)
+15. Podemos formar un máximo de 4 copias de 2017.
+
+Resposta: A)

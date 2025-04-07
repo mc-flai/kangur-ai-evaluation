@@ -1,0 +1,17 @@
+Reasoning:
+Consider two adjacent corners. The set of points 1 cm from each corner is a circle with radius 1 cm centered at that corner. These two circles intersect in two points.
+Now consider two opposite corners. The set of points 1 cm from each corner is a circle with radius 1 cm centered at that corner. These two circles intersect in two points.
+Finally, consider two corners that are diagonally opposite. The distance between these points is sqrt(2). The circle centered on one of these points has radius 1cm, as does the other circle centered on the other point. They will intersect in two points.
+So we have 4 pairs of adjacent vertices, each of which gives us 2 intersection points, for a total of 8. We also have 2 pairs of opposite vertices, each of which gives us 2 intersection points, for a total of 4. However, since each intersection point is counted twice, we have to make sure that we aren't counting the same points twice. Each of the four adjacent pairs of vertices gives two intersection points. The two pairs of opposite vertices also each give two intersection points.
+
+Let the vertices of the square be A, B, C, D in clockwise order.
+- Points 1cm from A and B: 2 points.
+- Points 1cm from B and C: 2 points.
+- Points 1cm from C and D: 2 points.
+- Points 1cm from D and A: 2 points.
+- Points 1cm from A and C: 2 points.
+- Points 1cm from B and D: 2 points.
+
+In total, there are 2 + 2 + 2 + 2 + 2 + 2 = 12 points.
+
+Answer: E)

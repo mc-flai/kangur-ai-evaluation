@@ -1,0 +1,26 @@
+Raonament:
+Primer hem d'estudiar si és possible construir un triangle acutangle amb costats 6, 7 i 8. Perquè un triangle sigui acutangle, la suma dels quadrats dels dos costats més petits ha de ser major que el quadrat del costat més llarg. En aquest cas, tenim:
+6^2 + 7^2 = 36 + 49 = 85 > 8^2 = 64, per tant, és possible construir un triangle acutangle.
+
+Ara, calculem l'àrea del triangle usant la fórmula d'Heró. Primer, calculem el semiperímetre, s = (6 + 7 + 8)/2 = 21/2 = 10.5.
+L'àrea, A = sqrt(s(s-a)(s-b)(s-c)) = sqrt(10.5(10.5-6)(10.5-7)(10.5-8)) = sqrt(10.5 * 4.5 * 3.5 * 2.5) = sqrt(413.4375)
+Ara, provarem a obtenir l'àrea usant la fórmula: Àrea = (1/2)*base*altura.
+Si prenem el costat 8 com a base, necessitem trobar l'altura.
+Tenim dos costats, 6 i 7.
+
+Si prenem 8 com a base, podem dividir el triangle en dos triangles rectangles. Siguin x i 8-x les longituds de les bases dels dos triangles rectangles.
+h^2 + x^2 = 6^2  =>  h^2 = 36 - x^2
+h^2 + (8-x)^2 = 7^2  =>  h^2 = 49 - (64 - 16x + x^2)
+36 - x^2 = 49 - 64 + 16x - x^2
+36 = -15 + 16x
+16x = 51
+x = 51/16
+h^2 = 36 - (51/16)^2 = 36 - 2601/256 = (9216 - 2601)/256 = 6615/256
+h = sqrt(6615)/16
+A = (1/2)*8*sqrt(6615)/16 = sqrt(6615)/4 ≈ 20.396
+Veiem que no obtenim cap resultat de les opcions que tenim.
+Analitzem de nou les dades.
+Si construïm un triangle amb costats 6, 7 i 8, sí que és acutangle, ja que 6^2 + 7^2 > 8^2. Cap de les respostes encaixa.
+Si la pregunta fos una mica diferent, Dues són correctes podria ser el cas. Però no hi ha cap resposta que sigui correcta.
+
+Resposta: E)

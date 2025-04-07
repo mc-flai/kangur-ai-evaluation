@@ -1,0 +1,15 @@
+Reasoning:
+To determine how many regions the two curves divide the plane into, we need to find the number of intersection points.
+First, let's find where f(x) = g(x):
+2 - x^2 = x^2 - 1
+3 = 2x^2
+x^2 = 3/2
+x = ±√(3/2)
+So there are two intersection points: x = √(3/2) and x = -√(3/2).
+Since both functions are parabolas (f(x) is a downward-facing parabola with vertex at (0,2) and g(x) is an upward-facing parabola with vertex at (0,-1)), these two intersection points will divide the plane into four bounded regions: above f(x) (1 region), below g(x) (1 region), and between f(x) and g(x) (2 regions).
+However, in addition to these bounded regions, we have unbounded regions as well. From the intersection points, the parabolas diverge outwards to infinity on both the left and the right sides, which creates two more regions.
+Thus, since there are two intersection points between the two curves, they intersect twice. This results in four enclosed regions. Also, note that above the top curve and below the bottom curve, we have another two unbounded regions. This makes for a total of 6 regions. This is the same as the amount of area between the two curves when they diverge into infinity, which means one above f(x), one below g(x) and two regions between f(x) and g(x).
+
+Therefore, the plane is divided into 6 regions by these two curves.
+
+Answer: D)

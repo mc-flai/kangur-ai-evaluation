@@ -1,0 +1,48 @@
+Reasoning:
+To get from K to L, we can analyze the possible paths:
+1. K to top vertex: 1 path. Then from top vertex to L: 1 path. Total = 1*1 = 1.
+2. K to bottom vertex: 1 path. Then from bottom vertex to L: 1 path. Total = 1*1 = 1.
+3. K to middle vertex via top route: 1 path. Then from middle vertex to top vertex of L: 1 path, to bottom vertex: 1 path, and to direct path to L = 1 path. Hence total 3. Total = 1*3 = 3.
+4. K to middle vertex via bottom route: 1 path. Then from middle vertex to top vertex of L: 1 path, to bottom vertex: 1 path, and to direct path to L = 1 path. Hence total 3. Total = 1*3 = 3.
+5. K to middle vertex directly. Then from middle vertex to top vertex of L: 1 path, to bottom vertex: 1 path, and to direct path to L = 1 path. Hence total 3. Total = 1*3 = 3.
+Adding all the combinations, 1+1+3+3+3=11. This is none of the given options.
+
+Let's try another method.
+
+K to middle node gives 3 paths.
+From middle node: 1 path to upper node connected to L
+From middle node: 1 path to lower node connected to L
+From middle node: 1 path straight to L
+Then from upper node to L gives 1 path
+Then from lower node to L gives 1 path
+
+Path 1: straight up from K, straight to L. = 1
+Path 2: straight down from K, straight to L. = 1
+Path 3: go up to middle, then up to L = 1
+Path 4: go up to middle, then down to L = 1
+Path 5: go up to middle, then right to L = 1
+Path 6: go down to middle, then up to L = 1
+Path 7: go down to middle, then down to L = 1
+Path 8: go down to middle, then right to L = 1
+Path 9: go straight up from K to middle, then up to L = 1
+Path 10: go straight up from K to middle, then down to L = 1
+Path 11: go straight up from K to middle, then right to L = 1
+
+Total = 11. Also, none of the options are close. Is there a mistake? Upon review, K does not go straight up it goes to the split junction first, so there is no third option to go directly up from K!
+Paths: from K, you must go through the center junction. This is the first split!
+
+First, you must choose path up to middle, path down to middle, or direct to middle (3 options). From the middle, there are 3 options to go to L as well -- up, down, and direct to L.
+
+Path 1: Up to middle, then up to L.
+Path 2: Up to middle, then down to L.
+Path 3: Up to middle, then direct to L.
+Path 4: Down to middle, then up to L.
+Path 5: Down to middle, then down to L.
+Path 6: Down to middle, then direct to L.
+Path 7: Direct to middle, then up to L.
+Path 8: Direct to middle, then down to L.
+Path 9: Direct to middle, then direct to L.
+
+Therefore there are a total of 9 ways.
+
+Answer: C)

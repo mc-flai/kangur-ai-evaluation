@@ -1,0 +1,16 @@
+### Raonament:
+
+1. La pregunta solicita el nombre de nombres naturals que tienen exactamente 2, 3, o 5 divisores.
+2. Para encontrar estos números, debemos considerar los números que cumplen con estas condiciones:
+   - Un número tiene 2 divisores si es de la forma \( p^1 \), donde \( p \) es un número primo.
+   - Un número tiene 3 divisores si es de la forma \( p^2 \), donde \( p \) es un número primo.
+   - Un número tiene 5 divisores si es de la forma \( p^4 \), donde \( p \) es un número primo.
+3. Ahora, contamos los números naturales menores que 1000 que cumplen con estas condiciones:
+   - Para \( p^1 \): 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Esto da un total de 25 números.
+   - Para \( p^2 \): 4, 8, 9, 25, 49, 100, 121, 169, 256, 361, 529. Esto da un total de 10 números.
+   - Para \( p^4 \): 16, 81, 256, 625. Esto da un total de 4 números.
+4. Sumamos estos números para obtener el total: 25 + 10 + 4 = 39.
+
+### Resposta:
+
+D) 300

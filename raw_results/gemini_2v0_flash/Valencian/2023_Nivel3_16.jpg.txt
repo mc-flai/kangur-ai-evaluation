@@ -1,0 +1,13 @@
+Raonament: Analitzem cada dia de la setmana per determinar si la situació descrita és possible:
+
+*   **Dilluns:** Si fos dilluns, "Ahir vaig dir mentides" seria veritat (perquè diumenge diu la veritat), però la llebre menteix els dilluns, així que hi ha una contradicció.
+*   **Dimarts:** Si fos dimarts, "Ahir vaig dir mentides" seria mentida (perquè dilluns menteix) i "Demà diré mentides" seria mentida (perquè dimecres menteix). La llebre hauria de mentir, per tant hauria de dir les frases "Ahir vaig dir mentides" i "Demà diré mentides". Això és consistent.
+*   **Dimecres:** Si fos dimecres, "Ahir vaig dir mentides" seria mentida (perquè dimarts menteix) i "Demà diré mentides" seria veritat (perquè dijous menteix). La llebre hauria de mentir, però està dient una veritat i una mentida, de manera que no encaixa.
+*   **Dijous:** Si fos dijous, "Ahir vaig dir mentides" seria mentida (perquè dimecres menteix) i "Demà diré mentides" seria veritat (perquè divendres menteix). La llebre hauria de mentir, però està dient una veritat i una mentida, de manera que no encaixa.
+*   **Divendres:** Si fos divendres, "Ahir vaig dir mentides" seria mentida (perquè dijous menteix) i "Demà diré mentides" seria veritat (perquè dissabte diu la veritat). La llebre hauria de mentir, però està dient una veritat i una mentida, de manera que no encaixa.
+*   **Dissabte:** Si fos dissabte, "Ahir vaig dir mentides" seria veritat (perquè divendres menteix) i "Demà diré mentides" seria mentida (perquè diumenge diu la veritat). La llebre hauria de dir la veritat, però està dient una veritat i una mentida, de manera que no encaixa.
+*   **Diumenge:** Si fos diumenge, "Ahir vaig dir mentides" seria veritat (perquè dissabte diu la veritat) i "Demà diré mentides" seria mentida (perquè dilluns menteix). La llebre hauria de dir la veritat, però està dient una veritat i una mentida, de manera que no encaixa.
+
+Per tant, l'únic dia consistent és dimarts.
+
+Resposta: B)

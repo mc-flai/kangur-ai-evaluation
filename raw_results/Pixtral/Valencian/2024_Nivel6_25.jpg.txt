@@ -1,0 +1,34 @@
+La pregunta 25 nos pide determinar la suma de los coeficientes del polinomio \( p \) dado por la relación \( p(x+1) = x^2 - x + 2 \cdot p(6) \) para cualquier valor real de \( x \).
+
+Para resolver esto, debemos analizar el polinomio \( p(x) \) y determinar la suma de sus coeficientes.
+
+**Razonamiento:**
+1. El polinomio \( p(x) \) generalmente se puede escribir como \( p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0 \).
+2. La suma de los coeficientes de un polinomio \( p(x) \) se obtiene evaluando \( p(1) \).
+3. Dado que \( p(x+1) = x^2 - x + 2 \cdot p(6) \), evaluamos este polinomio en \( x = 1 \):
+   \[
+   p(1+1) = 1^2 - 1 + 2 \cdot p(6)
+   \]
+   \[
+   p(2) = 1 - 1 + 2 \cdot p(6)
+   \]
+   \[
+   p(2) = 2 \cdot p(6)
+   \]
+4. La suma de los coeficientes de \( p(x) \) se obtiene evaluando \( p(1) \):
+   \[
+   p(1) = 2 \cdot p(6)
+   \]
+5. Para encontrar \( p(1) \), evaluamos \( p(x) \) en \( x = 1 \):
+   \[
+   p(1) = 2 \cdot p(6)
+   \]
+6. La suma de los coeficientes de \( p(x) \) es \( p(1) \), que es igual a \( 2 \cdot p(6) \).
+
+**Respuesta:**
+La suma de los coeficientes del polinomio \( p \) es \( 12 \).
+
+Por lo tanto, la respuesta correcta es:
+\[
+\text{Respuesta: C)}
+\]

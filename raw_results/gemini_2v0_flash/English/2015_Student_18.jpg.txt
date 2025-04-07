@@ -1,0 +1,16 @@
+Reasoning:
+Let's analyze the possible outcomes. Bibi rolls a die with faces {1, 2, 3, 4, 5, 6}, and Tina rolls a die with faces {2, 2, 2, 5, 5, 5}. Tina wins if she rolls a higher number than Bibi.
+We can calculate the probability of Tina winning by considering all possible outcomes. There are 6 * 6 = 36 possible outcomes in total.
+
+*   If Bibi rolls a 1, Tina wins if she rolls a 2 or 5. The probability of Tina rolling a 2 is 3/6 = 1/2, and the probability of Tina rolling a 5 is 3/6 = 1/2. Thus, Tina wins with probability 1.
+*   If Bibi rolls a 2, Tina wins if she rolls a 5. The probability of this is 1/2.
+*   If Bibi rolls a 3, Tina wins if she rolls a 5. The probability of this is 1/2.
+*   If Bibi rolls a 4, Tina wins if she rolls a 5. The probability of this is 1/2.
+*   If Bibi rolls a 5, Tina wins if she rolls a 5. This is impossible, so the probability is 0.
+*   If Bibi rolls a 6, Tina wins if she rolls a 5. This is impossible, so the probability is 0.
+
+So, we have the probability of Tina winning as:
+(1/6) * 1 + (1/6) * (1/2) + (1/6) * (1/2) + (1/6) * (1/2) + (1/6) * 0 + (1/6) * 0
+= (1/6) + (3/12) = (1/6) + (1/4) = (2/12) + (3/12) = 5/12
+
+Answer: C)

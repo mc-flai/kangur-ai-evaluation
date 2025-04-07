@@ -1,0 +1,18 @@
+Raonament:
+1. **Definir variables:**
+   *  Siguem 'P' el preu de l'entrada al segon concert (el que volem trobar).
+   *  Siguem 'N' el nombre d'espectadors del primer concert.
+   *  Siguem 'G' els guanys del primer concert.
+2. **Establir les relacions del primer concert:**
+   *  G = 9 * N (Preu * Nombre d'espectadors)
+3. **Establir les relacions del segon concert:**
+   *  Nombre d'espectadors: 1.5 * N (augment del 50%)
+   *  Guanys: 1.2 * G (augment del 20%)
+   *  Guanys = P * (1.5 * N)
+4. **Resoldre per P:**
+   *  Substituïm G en la equació de guanys del segon concert: 1.2 * (9 * N) = P * (1.5 * N)
+   *  Simplifiquem: 10.8 * N = 1.5 * P * N
+   *  Dividim per N (ja que N > 0): 10.8 = 1.5 * P
+   *  Resolem per P: P = 10.8 / 1.5 = 7.2
+
+Resposta: D)

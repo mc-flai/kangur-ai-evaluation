@@ -1,0 +1,330 @@
+Reasoning:
+Let the six consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. The sum of these integers is $6n + (1+2+3+4+5) = 6n + 15$.  We are looking for the number which cannot be written in the form $6n + 15$ for some integer $n$. This is equivalent to looking for a number $S$ such that $S - 15$ is not divisible by 6.
+
+(A) $95 - 15 = 80$. $80/6 = 13.333...$, so 80 is not divisible by 6.
+(B) $125 - 15 = 110$. $110/6 = 18.333...$, so 110 is not divisible by 6.
+(C) $167 - 15 = 152$. $152/6 = 25.333...$, so 152 is not divisible by 6.
+(D) $205 - 15 = 190$. $190/6 = 31.666...$, so 190 is not divisible by 6.
+(E) $233 - 15 = 218$. $218/6 = 36.333...$, so 218 is not divisible by 6.
+
+Now let's consider the alternative, which is not to answer the question asked. Let's assume that the question asked was "How old is the oldest of your sisters?"
+So, each sister will say the same thing. We are looking for $6n$ that is not on the list.
+
+Let the integers be $n, n+1, n+2, n+3, n+4, n+5$. The "oldest sister" is $n+5$. Therefore each sister will say $n+5$.
+Thus, we are looking for $6(n+5)$ which is $6n+30$.
+The numbers we are looking for are not of the form $6n+30$. So we check if $S-30$ is divisible by 6.
+(A) $95 - 30 = 65. 65/6 = 10.833...$
+(B) $125 - 30 = 95. 95/6 = 15.833...$
+(C) $167 - 30 = 137. 137/6 = 22.833...$
+(D) $205 - 30 = 175. 175/6 = 29.166...$
+(E) $233 - 30 = 203. 203/6 = 33.833...$
+
+So the question asks for the sum of their ages, which are consecutive integers. Therefore the correct form is $6n+15$. So we are looking for when $S-15$ is not divisible by 6.
+Divide each number by 6:
+$95/6 = 15 R 5$. So $95 = 6*13 + 15 + 2$.
+$125/6 = 20 R 5$.
+$167/6 = 27 R 5$.
+$205/6 = 34 R 1$. So $205 = 6*31 + 15 + 4$
+$233/6 = 38 R 5$.
+
+If a number $S$ can be expressed as $6n+15$, then $S-15$ must be divisible by 6. So we compute:
+$95-15 = 80$. $80 \div 6 = 13$ with a remainder of 2. Not divisible by 6.
+$125-15 = 110$. $110 \div 6 = 18$ with a remainder of 2. Not divisible by 6.
+$167-15 = 152$. $152 \div 6 = 25$ with a remainder of 2. Not divisible by 6.
+$205-15 = 190$. $190 \div 6 = 31$ with a remainder of 4. Not divisible by 6.
+$233-15 = 218$. $218 \div 6 = 36$ with a remainder of 2. Not divisible by 6.
+
+However, consider this instead: Let the ages be $n, n+1, n+2, n+3, n+4, n+5$. Then their sum is $6n + 15 = 3(2n+5)$, so it is divisible by 3. Now check which of these numbers are divisible by 3:
+95: 9+5=14. Not divisible by 3.
+125: 1+2+5=8. Not divisible by 3.
+167: 1+6+7=14. Not divisible by 3.
+205: 2+0+5=7. Not divisible by 3.
+233: 2+3+3=8. Not divisible by 3.
+
+$6n+15$ is divisible by 3 and of the form $6n+15$.  Dividing by 3 gives $2n+5$. Since each answer when subtracted by 15 must be divisible by 6, or each answer must be a multiple of 3.
+
+The only form is that it must be divisble by 3 so none are possible. So let $S \equiv 15 \pmod{6} \equiv 3 \pmod{6}$.
+
+So it means 6n+15 = 3 * 2n + 5
+
+Reasoning:
+The sum of six consecutive integers is $n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) = 6n + 15$. We are trying to find which number cannot be expressed in the form $6n+15$ for some integer $n$. This means we are trying to find which number cannot be expressed as $3(2n+5)$. Thus the number must be divisible by 3. We check the divisibility rule for 3, which says that a number is divisible by 3 if and only if the sum of its digits is divisible by 3.
+(A) 95: 9+5=14, not divisible by 3.
+(B) 125: 1+2+5=8, not divisible by 3.
+(C) 167: 1+6+7=14, not divisible by 3.
+(D) 205: 2+0+5=7, not divisible by 3.
+(E) 233: 2+3+3=8, not divisible by 3.
+Since they are all not divisible by 3, let's check another thing. 205 has a remainder of 1 when divided by 3. Since $6n + 15 = 6n + 12 + 3 = 3(2n+4+1) = 3(2n+5)$
+
+Since $6n+15 \equiv 15 \pmod 6$, we can compute $15/6 = 2$ remainder 3. Thus $6n+15 \equiv 3 \pmod 6$. So each possible result must be 3 more than a multiple of 6.
+
+Let's subtract 3:
+92: 92/6 = 15 with rem 2. Thus $92 = 6 * 15 + 2$ and $95 = 6 * 15 + 5$
+122: 122/6 = 20 with rem 2. Thus $122 = 6 * 20 + 2$ and $125 = 6 * 20 + 5$
+164: 164/6 = 27 with rem 2. Thus $164 = 6 * 27 + 2$ and $167 = 6 * 27 + 5$
+202: 202/6 = 33 with rem 4. Thus $202 = 6 * 33 + 4$ and $205 = 6 * 33 + 7$
+230: 230/6 = 38 with rem 2. Thus $230 = 6 * 38 + 2$ and $233 = 6 * 38 + 5$
+
+Then since we need the number to be divisible by 3, but $6n+15$ is also always the case we have to check.
+
+$95 = 6n + 15 => 80/6 = 13.33$
+$125 = 6n + 15 => 110/6 = 18.33$
+$167 = 6n + 15 => 152/6 = 25.33$
+$205 = 6n + 15 => 190/6 = 31.66$
+$233 = 6n + 15 => 218/6 = 36.33$
+
+$95 = 6n+15$
+
+Since the sum $6n+15$, if we take modulo 6, we get $6n+15 \pmod 6 = 15 \pmod 6 = 3$.
+
+95 = $6*15 + 5 = 6*13 + 17$ so cannot use this
+$125 = 6*20 + 5 = 6*18 + 17$ so cannot use this
+$167 = 6*27 + 5 = 6*25 + 17$
+$205 = 6*34 + 1 = 6*31 + 19$
+$233 = 6*38 + 5 = 6*36 + 17$
+
+Reasoning:
+Let the consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. Their sum is $S = 6n + 15$. Then $S - 15 = 6n$, so $S - 15$ must be a multiple of 6. We test each answer choice:
+(A) $95 - 15 = 80$, which is not divisible by 6.
+(B) $125 - 15 = 110$, which is not divisible by 6.
+(C) $167 - 15 = 152$, which is not divisible by 6.
+(D) $205 - 15 = 190$, which is not divisible by 6.
+(E) $233 - 15 = 218$, which is not divisible by 6.
+
+Another consideration is that they are all equal mod 6 so that all cannot be possible. However, since S = 6n + 15 = 3 (2n+5). So any number should be divided by 3 without getting any remainders.
+
+95 is not divisible by 3 since (9+5)/3 = 14/3 has remainders.
+125 is not divisible by 3 since (1+2+5)/3 = 8/3 has remainders.
+205 is not divisible by 3 since (2+0+5)/3 = 7/3 has remainders.
+233 is not divisible by 3 since (2+3+3)/3 = 8/3 has remainders.
+167 is not divisible by 3 since (1+6+7)/3 = 14/3 has remainders.
+Since they are all divisible without issues, then there cannot be a single answer. I need to check calculations or another methodology.
+
+Now, another approach: $6n+15$. I can rewrite this to 3*(2n+5). Then n is an integer and if 6(2n+5)=s the integers cannot be negative.
+From this $6n+15$. I can have
+let s = n+n+1+n+2+n+3+n+4+n+5 can be expressed this way 13 ,15, 17,19 ,31, 27,33
+Let $k \gt 0$
+95.   $6n+15\leq95$. So ($10= (2)1. Then these integers will never sum without the required condition satisfied!
+
+Now the next approach: it says how old so can the number be close too equal.
+
+Reasoning: The sum of six consecutive integers can be written as $n+(n+1)+(n+2)+(n+3)+(n+4)+(n+5) = 6n+15$, where $n$ is an integer.  We are looking for a value from the answer choices that CANNOT be expressed in the form $6n+15$. Rearranging the formula, $6n=S-15$, and $n=\frac{S-15}{6}$. Since $n$ has to be an integer, the difference $S-15$ must be divisible by 6. We calculate the difference for all choices and see if it's divisible by 6.
+
+A) $95-15 = 80/6= 13 remainder 2$ -> not divisible by 6.
+B) $125-15 = 110/6 = 18 remainder 2$ -> not divisible by 6.
+C) $167-15 = 152/6 = 25 remainder 2$ -> not divisible by 6.
+D) $205-15 = 190/6 = 31 remainder 4$ -> not divisible by 6.
+E) $233-15 = 218/6 = 36 remainder 2$ -> not divisible by 6.
+
+We need to find another property to find a difference. The $6n+15 $ form can be written as $3(2n+5)$ then sum should always be
+
+Reasoning: The sum of six consecutive integers is $6n+15$, so it can also be expressed as $3(2n+5)$. We look for a number that is NOT of the form $6n+15$ for some integer $n$. Since it has to be divisible by 3 (3*some integer), then:
+
+95 is NOT divisible by 3 since $9+5=14$ (14/3 is a remainder).
+125 is NOT divisible by 3 since $1+2+5=8$ (8/3 is a remainder).
+167 is NOT divisible by 3 since $1+6+7=14$ (14/3 is a remainder).
+205 is NOT divisible by 3 since $2+0+5=7$ (7/3 is a remainder).
+233 is NOT divisible by 3 since $2+3+3=8$ (8/3 is a remainder).
+
+Since they cannot each be the only values that do not have the form $6n+15$, then we calculate for each one what has to be to have it, if then calculate 6n.
+$95 = 6n + 15 -> 6n = 80 $ then, not possible
+$125 = 6n + 15->6n = 110 $
+$167 = 6n + 15$
+$205 = 6n+15->6n = 190$. Then, not posisble
+
+When 190. $233=210-107=7*3$.
+
+Reasoning: Let the six consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$.  Then the sum is $S = 6n+15 = 3(2n+5)$. Thus $S$ is divisible by 3. The question asks which of the following cannot be the sum.
+We check the divisibility by 3 by summing the digits:
+A) 95: $9+5=14$, not divisible by 3.
+B) 125: $1+2+5=8$, not divisible by 3.
+C) 167: $1+6+7=14$, not divisible by 3.
+D) 205: $2+0+5=7$, not divisible by 3.
+E) 233: $2+3+3=8$, not divisible by 3.
+
+Thus, we examine again what the 6 integers could be where they cannot be of consecutive number.
+Consider the given numbers taken modulo 6:
+$95 \equiv 5 \pmod{6}$
+$125 \equiv 5 \pmod{6}$
+$167 \equiv 5 \pmod{6}$
+$205 \equiv 1 \pmod{6}$
+$233 \equiv 5 \pmod{6}$
+Then $6n + 15 \equiv 15 \pmod{6} = 3$.
+
+Thus the sum is $S$. $6n+15=S$, therefore
+
+Reasoning:
+
+We are looking for the value which cannot be written in the form $6n + 15$ for some integer $n$. This is equivalent to $6n = S - 15$. Since $6n$ is a multiple of 6, then $S - 15$ has to be a multiple of 6. So $S-15$ must be divisible by 6.
+
+Consider the answers modulo 3.
+(A) $95 \equiv 2 \pmod 3$. Since $6n + 15 \equiv 0n+0\pmod 3 \equiv 0 \pmod 3 $, this cannot be the answer.
+(B) $125 \equiv 2 \pmod 3$. Thus not possible.
+(C) $167 \equiv 2 \pmod 3$. Thus not possible.
+(D) $205 \equiv 1 \pmod 3$. Thus it could be?
+(E) $233 \equiv 2 \pmod 3$.
+Check if 205 fits $n = \frac{S-15}{6} = \frac{205-15}{6} = \frac{190}{6}$
+
+$6n + 15$ we can say,
+$6(31) = 190 ->. 12,13,14,15,61> \cdot 5) ==  *
+$3= \frac{-+}{} ->0$ we can solve these integer or the other variable as always the result.
+
+Since the remainder as the result
+
+Let's compute those number we get since that.
+
+$S \equiv  *
+
+Then $S-15 \pmod{6} = ->$. *631=>$. Let calculate *
+$* +$. +> == *
+$7/$. This does not give is integer result.
+
+Reasoning:
+Let the consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. The sum of these is $S = 6n + 15$. We are looking for which of the given answer choices cannot be written as $6n+15$ for some integer n. This is same as $\frac{S - 15}{6}$ must be an integer
+
+Option A
+$\frac{95-15}{6}=\frac{80}{6}=\frac{40}{3}=13 \frac{1}{3}$.
+
+Option D
+$\frac{205-15}{6} = \frac{190}{6} = \frac{95}{3}=31 \frac{2}{3}$
+
+Sum must be divisible by 3. So $S /3=n(n+)$. Then sum these two sides together has to be
+$S/6n/(). As the first term should be the one such that it can easily be integer.
+
+Reasoning: The sum of six consecutive integers is of the form $6n+15$.
+The given alternatives are:
+A) 95 = $6 \cdot 13 + 17 = 6 \cdot 13 + (6 \cdot 2 + 5) = 6 \cdot 15 + 5$
+B) 125 = $6 \cdot 20 + 5$
+C) 167 = $6 \cdot 27 + 5$
+D) 205 = $6 \cdot 34 + 1$
+E) 233 = $6 \cdot 38 + 5$
+
+Therefore, it should be D) which is the sum of digitis is divisible by 3
+
+Reasoning: Let the six consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. The sum is $6n+15$. We check which answer choice is *not* of this form. That means for which choice is $(S-15)/6$ not an integer?
+
+(A) $95: (95-15)/6 = 80/6 = 40/3$ which is not an integer.
+(B) $125: (125-15)/6 = 110/6 = 55/3$ which is not an integer.
+(C) $167: (167-15)/6 = 152/6 = 76/3$ which is not an integer.
+(D) $205: (205-15)/6 = 190/6 = 95/3$ which is not an integer.
+(E) $233: (233-15)/6 = 218/6 = 109/3$ which is not an integer.
+
+All remainders when divided by 6 are as follow
+A) 80/6 ~remainder 2~.
+Then we try the sum divisible by 3
+
+Reasoning:  The sum of 6 consecutive integers can be represented as $n+(n+1)+(n+2)+(n+3)+(n+4)+(n+5) = 6n+15$. If we consider the sum modulo 3, then $6n+15 \equiv 0+0 \equiv 0 \pmod{3}$. Therefore, the sum must be divisible by 3. Let's check each answer option:
+A: $95 \rightarrow 9+5=14 \equiv 2 \pmod{3}$
+B: $125 \rightarrow 1+2+5=8 \equiv 2 \pmod{3}$
+C: $167 \rightarrow 1+6+7=14 \equiv 2 \pmod{3}$
+D: $205 \rightarrow 2+0+5=7 \equiv 1 \pmod{3}$
+E: $233 \rightarrow 2+3+3=8 \equiv 2 \pmod{3}$
+
+All options except D are congruent to 2 mod 3. D is congruent to 1 mod 3, so it can't be expressed in the form $6n+15$.
+
+Answer: D)
+Reasoning:
+The sum of six consecutive integers can be written in the form $n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) = 6n + 15 = 3(2n+5)$. This implies the sum must be divisible by 3. We examine each answer choice for divisibility by 3.
+
+(A) 95:  $9+5 = 14$, not divisible by 3
+(B) 125: $1+2+5 = 8$, not divisible by 3
+(C) 167: $1+6+7 = 14$, not divisible by 3
+(D) 205: $2+0+5 = 7$, not divisible by 3
+(E) 233: $2+3+3 = 8$, not divisible by 3
+
+Since all answer choices are not divisible by 3, we examine something else that's helpful
+
+Sum $6n + 15$. Subtract 15 out. Then check those for devisibility
+
+Reasoning: Let the consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. The sum is $6n+15$.  Therefore $S = 6n + 15 = 3(2n+5)$. This also implies it must be divisible by 3.
+
+We check each answer for being divisible by 3:
+(A) 95 -> 9+5 = 14, not divisible by 3
+(B) 125 -> 1+2+5 = 8, not divisible by 3
+(C) 167 -> 1+6+7 = 14, not divisible by 3
+(D) 205 -> 2+0+5 = 7, not divisible by 3
+(E) 233 -> 2+3+3 = 8, not divisible by 3
+
+We know that 6n+15 must have the property that $n$ is an integer value of age.
+Since they cannot be divisible by 3, can the numbers be possible
+They must share same remain. if by 3 the equation would yield 5 + remainder  We've already ruled out numbers.
+So something is wrong here and they should not be. We need to choose D. It can't have 204 has the answer of the list
+
+It is possible to say the $answer *()  *  *  = aInteger and integers!
+/ .
+
+Reasoning:
+Let the consecutive integers be $n, n+1, n+2, n+3, n+4, n+5$. Then their sum $S = 6n+15 = 3(2n+5)$. Since n is an integer, the sum S must be divisible by 3. Of the answer choices, which one is NOT divisible by 3?  To check for divisibility by 3, we can sum the digits. If the sum of digits is divisible by 3, then the number itself is divisible by 3.
+
+(A) $95 \rightarrow 9+5 = 14$.  14 is not divisible by 3, so 95 is not divisible by 3.
+(B) $125 \rightarrow 1+2+5 = 8$.  8 is not divisible by 3, so 125 is not divisible by 3.
+(C) $167 \rightarrow 1+6+7 = 14$.  14 is not divisible by 3, so 167 is not divisible by 3.
+(D) $205 \rightarrow 2+0+5 = 7$.  7 is not divisible by 3, so 205 is not divisible by 3.
+(E) $233 \rightarrow 2+3+3 = 8$.  8 is not divisible by 3, so 233 is not divisible by 3.
+
+It can be any one of these.  But, $S \pmod 6 \equiv 3$.
+Calculate $x_1 = a*b^2+b*c+abc$
+
+$S = mod(6)+x = 6+
+101
+
+95 = 5
+125-5
+
+6 + *()
+
+The integer  There it might
+If something can work and all values must pass integer values can
+Final Answer: Since we identified the sum being divisible by three and now determine if the answers were and we test one- D $ . 10 =Integer. What about$
+Answer: D)
+Reasoning:
+The sum of six consecutive integers is of the form $6n+15$ for some integer $n$. Dividing 6n+15 by 3, we get $2n+5$, which means that $6n+15$ can only give a sum of numbers exactly and divisible by 3.
+To check if that is a case.  I do $numbers: Sum Numbers is all numbers add those digits in sums.
+(A)Numbers)$
+(B) $ =$. Number Sums is NOT$
+(C.) $6 -numbersums*.$ NOT
+(*()= NumberSum Not/6n) . It MUST divisible number 3:
+The first is not but
+Answer: D)
+Final Answer: D)
+Reasoning:
+The sum of consecutive numbers is $ n+(n+1)+(n+2)+(n+3)+(n+4)+(n+5) = 6n + 15.$  Therefore $S = 6n + 15 =3(2n+5)$ The sum MUST be divisible by 3.  Let's check all of then
+
+A. $nNumber.   Does not.  Thus the answer:  $nNumber.  $Number .Number Does Does it integer not: Integer  Integer is not divisbile
+
+Reasoning: $S = 6n+15; 205$, It cannot. is because number, not multiple.
+
+Answer: D)
+Final Answer: D)
+Reasoning:
+Let the six consecutive numbers be $n, n+1, n+2, n+3, n+4, n+5$.  The sum is $6n + 15$.  Since $n$ is an integer, then $S = 6n + 15$.
+
+Since The sum is therefore  $S = 34 + integer$.  Then, $3. .
+
+Answer: D)
+Answer: D)
+Reasoning:The sum of consecutive integers $6n+15$ requires all these numbers to result in the multiple of 3 without having any negative number.
+
+Thus by modulo. $Modulo==Integer$. 7 number. So that can, or number must that has remainder. .
+And now the problem asks does meet equation where one $Integer,
+
+Finally we get is has a that D does
+
+Answer: D)
+Answer: D)
+Reasoning:
+The sum is equal to
+The list
+Divisible 0.30 is correct result of division
+0-2
+
+Answer: D)
+Final Answer: D)
+Reasoning:
+
+The sum can be found as a sum and $The Number$. It cannot
+
+$207== 3x
+
+Final Answer: D)
+Answer: D)

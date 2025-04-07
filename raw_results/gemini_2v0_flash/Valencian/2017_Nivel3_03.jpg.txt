@@ -1,0 +1,17 @@
+Raonament:
+Sabem que hi ha 4 persones (Anna, Beatriu, Carles i David) que han pescat 11 peixos en total. Tothom ha pescat almenys un peix i ningú ha pescat el mateix nombre de peixos. Anna ha pescat el nombre més gran de peixos i Beatriu el nombre més baix. Necessitem trobar quant sumen els peixos que van pescar Anna i Beatriu.
+
+Comencem assignant el nombre més petit de peixos a Beatriu, que és 1. Com que ningú va pescar el mateix nombre de peixos, Carles i David han de pescar més d'1 peix. Podríem suposar que Carles pesca 2 peixos i David en pesca 3.
+Aleshores, Anna ha d'haver pescat un nombre més gran de peixos que David. De fet el màxim que pot pescar Anna es dedueix de la suma total de peixos. Si Beatriu va pescar 1 peix, Carles en va pescar 2, i David en va pescar 3, això fa un total de 1 + 2 + 3 = 6 peixos. Així que Anna va pescar 11 - 6 = 5 peixos.
+Aleshores Anna va pescar 5 peixos i Beatriu 1. La suma es 5 + 1 = 6.
+
+Raonament alternatiu:
+Sigui a, b, c, i d el nombre de peixos que van pescar Anna, Beatriu, Carles i David respectivament.
+Se sap que a + b + c + d = 11
+b < c < d < a
+b >= 1, c >=2, d >= 3. Així doncs a = 11 - (b+c+d).
+Per minimitzar el nombre de peixos que pesquen Carles i David suposarem que són 2 i 3 respectivament. Aleshores b+c+d >= 1+2+3 = 6.
+Si b = 1, c = 2 i d = 3, aleshores a = 11 - 6 = 5.
+a + b = 5 + 1 = 6.
+
+Resposta: D)

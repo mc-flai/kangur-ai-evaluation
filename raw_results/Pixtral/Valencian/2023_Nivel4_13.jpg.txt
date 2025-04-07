@@ -1,0 +1,40 @@
+Raonament:
+1. El problema implica determinar quants valors pot tenir el nombre \( n \) perquè l'encadenament d'operacions mostrat en la imatge doni el resultat indicat.
+2. L'encadenament d'operacions és el següent:
+   - Comença amb el nombre 1.
+   - Suma \( n \) al nombre resultant.
+   - Multiplica el nombre resultant per \( n \).
+   - Resta \( n \) del nombre resultant.
+   - Divideix el nombre resultant per \( n \).
+3. El resultat final desitjat és 5.
+4. Per trobar els valors de \( n \) que donin 5 després d'aplicar aquestes operacions, podem provar diferents valors de \( n \).
+
+   - Si \( n = 1 \):
+     - \( 1 + 1 = 2 \)
+     - \( 2 \times 1 = 2 \)
+     - \( 2 - 1 = 1 \)
+     - \( 1 : 1 = 1 \) (no és 5)
+   - Si \( n = 2 \):
+     - \( 1 + 2 = 3 \)
+     - \( 3 \times 2 = 6 \)
+     - \( 6 - 2 = 4 \)
+     - \( 4 : 2 = 2 \) (no és 5)
+   - Si \( n = 3 \):
+     - \( 1 + 3 = 4 \)
+     - \( 4 \times 3 = 12 \)
+     - \( 12 - 3 = 9 \)
+     - \( 9 : 3 = 3 \) (no és 5)
+   - Si \( n = 4 \):
+     - \( 1 + 4 = 5 \)
+     - \( 5 \times 4 = 20 \)
+     - \( 20 - 4 = 16 \)
+     - \( 16 : 4 = 4 \) (no és 5)
+   - Si \( n = 5 \):
+     - \( 1 + 5 = 6 \)
+     - \( 6 \times 5 = 30 \)
+     - \( 30 - 5 = 25 \)
+     - \( 25 : 5 = 5 \) (és 5)
+
+5. D'aquesta manera, el valor de \( n \) que dona el resultat 5 després d'aplicar les operacions és \( n = 5 \).
+
+Resposta: E)

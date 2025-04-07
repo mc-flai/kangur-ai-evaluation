@@ -1,0 +1,47 @@
+Para determinar cuántas parejas de números enteros positivos menores que 100 tienen la propiedad de que su suma es el doble de su diferencia, sigamos estos pasos:
+
+1. **Definir las parejas de números**:
+   Sea \(a\) y \(b\) los dos números enteros positivos donde \(a > b\).
+
+2. **Establecer la propiedad**:
+   La propiedad dada es que la suma de los números es el doble de su diferencia:
+
+   \[
+   a + b = 2(a - b)
+   \]
+
+3. **Simplificar la ecuación**:
+   Simplifiquemos la ecuación:
+
+   \[
+   a + b = 2a - 2b
+   \]
+
+   \[
+   a + b = 2a - 2b
+   \]
+
+   \[
+   3b = a
+   \]
+
+   Esto muestra que \(a\) debe ser tres veces \(b\).
+
+4. **Identificar las parejas posibles**:
+   Ahora necesitamos encontrar todas las parejas \((a, b)\) donde \(a = 3b\) y ambos \(a\) y \(b\) son menores que 100.
+
+   - Si \(b = 1\), entonces \(a = 3 \times 1 = 3\)
+   - Si \(b = 2\), entonces \(a = 3 \times 2 = 6\)
+   - Si \(b = 3\), entonces \(a = 3 \times 3 = 9\)
+   - Continuamos así hasta que \(3b < 100\).
+
+   El valor más grande de \(b\) para el que \(3b < 100\) es \(32\), porque \(3 \times 32 = 96\).
+
+   Por lo tanto, \(b\) puede ser cualquier número entero de 1 a 32.
+
+5. **Contar el número de parejas**:
+   Hay 32 posibles valores para \(b\), por lo que hay 32 parejas \((a, b)\) que cumplen la propiedad dada.
+
+**Razonamiento**: Encontramos que hay 32 parejas de números enteros positivos menores que 100 que cumplen la propiedad dada.
+
+**Respuesta**: C).

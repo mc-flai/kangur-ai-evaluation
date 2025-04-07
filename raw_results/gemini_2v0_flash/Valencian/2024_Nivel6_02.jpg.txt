@@ -1,0 +1,35 @@
+Raonament:
+Primer, busquem nombres que siguin dues unitats menors que un múltiple de 10.
+- 78 = 80 - 2
+- 58 = 60 - 2
+- 38 = 40 - 2
+- 18 = 20 - 2
+- 6 = 10 - 4 o 0 + 6 (no compleix que sigui 2 unitats menys que un múltiple de 10)
+
+Ara, busquem nombres que siguin dues unitats més grans que un quadrat perfecte.
+- 78 = 76 + 2. 76 no és un quadrat perfecte. El quadrat perfecte més proper és 8 al quadrat (64) o 9 al quadrat (81), així 78 no és dues unitats més gran que un quadrat perfecte.
+- 58 = 56 + 2. 56 no és un quadrat perfecte. El quadrat perfecte més proper és 7 al quadrat (49) o 8 al quadrat (64), així 58 no és dues unitats més gran que un quadrat perfecte.
+- 38 = 36 + 2. 36 és un quadrat perfecte (6 al quadrat).
+- 18 = 16 + 2. 16 és un quadrat perfecte (4 al quadrat).
+- 6 = 4 + 2. 4 és un quadrat perfecte (2 al quadrat).
+
+Finalment, busquem nombres que siguin el doble d'un nombre primer.
+- 78 = 2 * 39. 39 no és primer.
+- 58 = 2 * 29. 29 és primer.
+- 38 = 2 * 19. 19 és primer.
+- 18 = 2 * 9. 9 no és primer.
+- 6 = 2 * 3. 3 és primer.
+
+Aleshores, tenim que:
+78: 80-2, però 78 no és dues unitats més gran que un quadrat perfecte, ni el doble d'un nombre primer.
+58: 60-2, i 58 = 56+2, però 56 no és un quadrat perfecte. 58 = 2 * 29 (29 és primer). Però 58 no és dues unitats més gran que un quadrat perfecte.
+38: 40-2, i 38 = 36+2 (36 és quadrat perfecte). 38 = 2 * 19 (19 és primer).
+18: 20-2, i 18 = 16+2 (16 és quadrat perfecte). 18 = 2 * 9 (9 no és primer).
+6: No compleix que sigui dues unitats més petit que un múltiple de 10, i 6 = 4+2 (4 és quadrat perfecte). 6 = 2 * 3 (3 és primer). Però no compleix ser 2 unitats menys que un múltiple de 10.
+
+Per tant, 38 és el nombre que compleix totes les condicions:
+- dues unitats menors que un múltiple de 10 (38 = 40 - 2)
+- dues unitats més gran que un quadrat perfecte (38 = 36 + 2 = 6^2 + 2)
+- el doble d'un nombre primer (38 = 2 * 19)
+
+Resposta: C)

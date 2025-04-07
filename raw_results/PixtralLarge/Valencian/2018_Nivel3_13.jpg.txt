@@ -1,0 +1,22 @@
+**Raonament**:
+
+Ens donen el següent problema:
+
+- Hi ha 5 vagons en un tren amb 1 passatger en cada un d'ells.
+- Cada passatger viatja al mateix vagó o en dos vagons veïns.
+- Sabem que per cada passatger, exactament 5 o 10 passatgers són veïns seus.
+
+Primer, analitzem el nombre total de passatgers:
+
+- Hi ha 5 vagons, i cada vagó té un passatger, per tant, hi ha 5 passatgers.
+
+Ara, considerem les condicions del problema:
+
+- Cada passatger té exactament 5 o 10 passatgers que són veïns seus.
+- En un tren amb 5 vagons, cada passatger té com a màxim 2 veïns directes (el vagó anterior i el vagó posterior).
+
+D'aquesta manera, no és possible que un passatger tingui 5 o 10 veïns, ja que el màxim de veïns directes és 2.
+
+Per tant, no hi ha cap configuració possible en aquest tren on cada passatger tingui exactament 5 o 10 passatgers veïns.
+
+**Resposta**: E) No es pot determinar.

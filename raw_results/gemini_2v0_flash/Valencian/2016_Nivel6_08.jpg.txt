@@ -1,0 +1,25 @@
+Raonament:
+La pregunta ens demana quants residus diferents podem obtenir en dividir el cub d'un nombre natural entre 9.  Per a respondre-ho, podem provar amb els primers nombres naturals i els seus cubs:
+1^3 = 1, i 1 dividit entre 9 té residu 1.
+2^3 = 8, i 8 dividit entre 9 té residu 8.
+3^3 = 27, i 27 dividit entre 9 té residu 0.
+4^3 = 64, i 64 dividit entre 9 té residu 1.
+5^3 = 125, i 125 dividit entre 9 té residu 8.
+6^3 = 216, i 216 dividit entre 9 té residu 0.
+7^3 = 343, i 343 dividit entre 9 té residu 1.
+8^3 = 512, i 512 dividit entre 9 té residu 8.
+9^3 = 729, i 729 dividit entre 9 té residu 0.
+Sembla que els residus possibles són 0, 1 i 8. Efectivament, cal calcular els residus dels cubs mòdul 9. Si calculem els cubs dels nombres del 0 al 8 mòdul 9, obtenim:
+0^3 = 0 (mod 9)
+1^3 = 1 (mod 9)
+2^3 = 8 (mod 9)
+3^3 = 27 = 0 (mod 9)
+4^3 = 64 = 1 (mod 9)
+5^3 = 125 = 8 (mod 9)
+6^3 = 216 = 0 (mod 9)
+7^3 = 343 = 1 (mod 9)
+8^3 = 512 = 8 (mod 9)
+
+Per tant, els residus possibles són 0, 1 i 8. Hi ha tres residus diferents.
+
+Resposta: C)

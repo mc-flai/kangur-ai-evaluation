@@ -1,0 +1,10 @@
+
+La pregunta 30 se refiere a un mapa que muestra las rutas del metro de una ciudad. El mapa incluye estaciones representadas por círculos y líneas que indican las rutas del metro. La pregunta solicita el menor número de colores necesarios para pintar las líneas de tal manera que ninguna línea comparta el mismo color con una estación adyacente, y las estaciones se pinten con colores diferentes.
+
+Para resolver esto, debemos considerar el principio de coloración de grafos, donde cada línea debe tener un color diferente de las estaciones adyacentes. Al examinar el mapa, vemos que hay siete estaciones numeradas del 1 al 7. Cada estación debe tener un color diferente, lo que requiere al menos siete colores. Sin embargo, necesitamos determinar el menor número de colores para las líneas.
+
+Al analizar el mapa, observamos que las líneas pueden ser coloreadas de manera que eviten compartir colores con las estaciones adyacentes. Por ejemplo, podemos usar un color para las líneas que conectan las estaciones 1, 2 y 3, y un color diferente para las líneas que conectan las estaciones 4, 5, 6 y 7. Al hacer esto, podemos ver que solo necesitamos seis colores para las líneas.
+
+Razonamiento: Al examinar el mapa y aplicar el principio de coloración de grafos, determinamos que el menor número de colores necesarios para pintar las líneas de tal manera que ninguna línea comparta el mismo color con una estación adyacente es seis.
+
+Respuesta: C)

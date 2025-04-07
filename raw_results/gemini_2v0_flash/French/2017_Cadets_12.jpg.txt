@@ -1,0 +1,19 @@
+Reasoning:
+Let the ages of Emma, Yves, Raja, and Zoé be denoted by E, Y, R, and Z respectively.
+We know that the ages are 3, 8, 12, and 14. So, E, Y, R, Z ∈ {3, 8, 12, 14}.
+We are given that E + Z is divisible by 5, and R + Z is divisible by 5.
+Let's find the possible values for E and Z such that their sum is divisible by 5:
+3 + 12 = 15 (divisible by 5)
+8 + 12 = 20 (divisible by 5)
+14 is not an option because there's no age among (3,8,12) such that adds to 14 to result in a multiple of 5.
+Consider the case E = 3 and Z = 12.
+Then we need R + Z to be divisible by 5. So, R + 12 is divisible by 5.
+The only remaining options for R are 8 and 14.
+8 + 12 = 20, which is divisible by 5. Thus, E = 3, Z = 12, R = 8. Therefore Y = 14.
+Consider the case E = 8 and Z = 12.
+Then we need R + Z to be divisible by 5. So, R + 12 is divisible by 5.
+The only remaining options for R are 3 and 14.
+3 + 12 = 15, which is divisible by 5. Thus, E = 8, Z = 12, R = 3. Therefore Y = 14.
+Therefore, in all cases, Yves is 14 years old.
+
+Answer: A)

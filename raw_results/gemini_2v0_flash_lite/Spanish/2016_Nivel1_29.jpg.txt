@@ -1,0 +1,32 @@
+Razonamiento:
+El canguro empieza con 12 y puede multiplicar por 2, dividir por 2 o dividir por 3.  Como el canguro repite la operación 60 veces, cualquier número obtenido debe ser de la forma 12 * (2^a) / (3^b), donde a y b son enteros no negativos y a+b <= 60.
+
+Veamos cada opción:
+A) 12 = 12 * (2^0) / (3^0), entonces a=0 y b=0. Posible.
+B) 18 = 12 * (3/2)^1 = 12 * (2^0) / (3^-1), pero para que sea de la forma 12*(2^a)/(3^b), debemos que dividir 12 entre 2 y multiplicar el resultado por 3, y el resultado será 18.
+C) 36 = 12 * (3^1) / (2^0) = 12 * 3.  Posible.
+D) 72 = 12 * (2^1) * (3^1)/ (3^1)= 12 * 6. Posible, 12*2*3/3.
+E) 108 = 12 * (3^2)/2^0 = 12 * 9. Posible, 12 * 3 *3.
+
+Sin embargo, cada opción debe ser el resultado de una multiplicación o división, y como el canguro sólo multiplica o divide por 2 o 3, el número debe ser de la forma 12 * (2^x) / (3^y), donde x e y son enteros no negativos.
+
+Para A) 12, x=0, y=0. 12 * 2^0 / 3^0 = 12.
+Para B) 18, 12 * 3/2 = 18. 12 * 3^1 / 2^1. No es directamente posible.
+Para C) 36, 12 * 3 = 36. 12 * 3^1/2^0.
+Para D) 72, 12*6 = 72, 12* 2*3/1 = 72.
+Para E) 108, 12*9 = 108, 12 * 3*3 = 108, 12 * 3^2/2^0.
+
+Analizando la opción B. La forma de obtener 18 es de la forma 12 * 3 / 2^1, por lo tanto el canguro deberá dividir por 2. Si el canguro divide 12/2 = 6 y multiplica por 3 el resultado es 18. Es posible llegar a 18.
+
+Razonando sobre el problema: 12 * (2^x / 3^y) = 12 * 2^x * 3^(-y).
+12 * (2^a / 3^b).
+
+A) 12 = 12 * (2^0 / 3^0).
+B) 18 = 12 * (3/2). Pero el canguro solo puede multiplicar o dividir por 2 o 3. Para obtener 18, debemos hacer 12 * (3^1 / 2^-1).  Podemos obtener 18 al dividir por 2 una vez y multiplicar por 3 una vez. 12 -> 6 -> 18. Esto es posible.
+C) 36 = 12 * 3.  12 * (3^1 / 2^0).
+D) 72 = 12 * 6 = 12 * 2 * 3.
+E) 108 = 12 * 9 = 12 * 3 * 3.
+
+La única forma de obtener 18 es dividiendo 12 por 2 y multiplicando el resultado por 3.  La secuencia es 12 -> 6 -> 18.
+
+Respuesta: B)

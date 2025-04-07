@@ -1,0 +1,15 @@
+Raonament:
+El problema planteja una sèrie de condicions sobre un nombre "a". Anem a analitzar aquestes condicions:
+
+*   a és múltiple de 1: Això sempre és cert per a qualsevol enter.
+*   a + 1 és múltiple de 2: Això significa que "a" és imparell.
+*   a + 2 és múltiple de 3: Això significa que a ≡ 1 (mod 3).
+*   a + 3 és múltiple de 4: Això significa que a ≡ 1 (mod 4).
+*   a + 4 és múltiple de 5: Això significa que a ≡ 1 (mod 5).
+*   a + 5 NO és múltiple de 6: Això significa que a ≢ 1 (mod 6).
+
+Busquem un "a" que satisfaci aquestes condicions. Comencem a buscar un nombre que compleixi les condicions de congruència. Les condicions a ≡ 1 (mod 3), a ≡ 1 (mod 4), i a ≡ 1 (mod 5) impliquen que a ≡ 1 (mod 60) (el mínim comú múltiple de 3, 4 i 5 és 60). Per tant, a ha de ser de la forma 60k + 1 per a algun enter k.
+
+Ara, verifiquem la condició de que a sigui imparell, la qual ja compleix, ja que 60k + 1 sempre és imparell. També verifiquem la condició que a + 5 no és múltiple de 6. Si a = 60k + 1, aleshores a + 5 = 60k + 6 = 6(10k + 1), que és sempre múltiple de 6.  Però la pregunta diu que a + 5 no sigui múltiple de 6. Això ens porta a una contradicció, per tant no existeix aquest nombre.
+
+Resposta: A)

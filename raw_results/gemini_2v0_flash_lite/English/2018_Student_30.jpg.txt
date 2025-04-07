@@ -1,0 +1,13 @@
+Reasoning: 15! is a very large number, and we are only given a few digits. To solve this, we can use divisibility rules. 15! must be divisible by 9, and the sum of the digits must be divisible by 9. The known digits are 1, 0, 7, 6, 7, 4, 3, 6, 0, 0, 0. The sum of the known digits is 1 + 0 + 7 + 6 + 7 + 4 + 3 + 6 + 0 + 0 + 0 = 34. Let the missing digits be x and y. The total sum is 34 + x + y.  If x+y = 2 (so that 34+2 = 36, which is divisible by 9), and x and y have to be in the second and tenth places, from the given options, we only have A) with digits 2 and 0. So lets try this : 120767436000.
+Divisibility by 11: (1-2+0-7+6-7+4-3+6-0+0-0 = -2).
+Therefore, option A) is wrong. Let's try option B.
+If x+y = 4+8 = 12 (so that 34+12 = 46, which is not divisible by 9). Option B is wrong.
+If x+y = 7+4 = 11 (so that 34+11 = 45, which is divisible by 9).
+Let's try option C. The number becomes 1707674364000. The number is divisible by 9.
+Divisibility by 11: 1-7+0-7+6-7+4-3+6-4+0-0=-7, it is not divisible by 11.
+If x+y = 9+2 = 11 (so that 34+11 = 45, which is divisible by 9).
+Let's try option D. The number becomes 1907674362000. The number is divisible by 9.
+Divisibility by 11: (1-9+0-7+6-7+4-3+6-2+0-0 = -11).  So it is divisible by 11.
+15! = 1,307,674,368,000. Therefore D) is the correct answer.
+
+Answer: D)

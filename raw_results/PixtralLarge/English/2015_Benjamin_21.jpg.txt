@@ -1,0 +1,23 @@
+Sure, let's analyze question 21.
+
+Nina wants to make a cube from a paper net with 7 squares, but one square needs to be removed so that the remaining 6 squares can form a cube.
+
+A cube has 6 faces, so the net must have 6 connected squares after removing one. We need to identify which square(s) can be removed such that the remaining squares can form a cube net.
+
+The net provided has the following structure:
+```
+  1  2  3
+  4  5  6
+     7
+```
+
+To form a cube, each square must be connected in such a way that they can fold up to create the 6 faces of the cube.
+
+Removing square 4 or square 7 will allow the remaining squares to form a valid cube net:
+  - If square 4 is removed, squares 1, 2, 3, 5, 6, and 7 can fold into a cube.
+  - If square 7 is removed, squares 1, 2, 3, 4, 5, and 6 can fold into a cube.
+
+Therefore, the correct answer is:
+
+Reasoning: Removing square 4 or square 7 allows the remaining squares to form a valid cube net.
+Answer: E).

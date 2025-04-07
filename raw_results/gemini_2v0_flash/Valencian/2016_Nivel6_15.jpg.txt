@@ -1,0 +1,10 @@
+Raonament:
+Siguin $x_1, x_2, \dots, x_9$ els nou nombres ordenats ascendentment.
+El nombre del mig és $x_5$. La mitjana aritmètica dels nou nombres és igual a $x_5$. Per tant, $\frac{x_1 + x_2 + \dots + x_9}{9} = x_5$. Això implica que la suma dels nou nombres és $9x_5$.
+La mitjana aritmètica dels cinc més grans és 68, és a dir, $\frac{x_5 + x_6 + x_7 + x_8 + x_9}{5} = 68$, de manera que $x_5 + x_6 + x_7 + x_8 + x_9 = 5 \cdot 68 = 340$.
+La mitjana aritmètica dels cinc més petits és 44, és a dir, $\frac{x_1 + x_2 + x_3 + x_4 + x_5}{5} = 44$, de manera que $x_1 + x_2 + x_3 + x_4 + x_5 = 5 \cdot 44 = 220$.
+La suma dels nou nombres és $S = x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8 + x_9$. Podem escriure $S = (x_1 + x_2 + x_3 + x_4 + x_5) + (x_5 + x_6 + x_7 + x_8 + x_9) - x_5 = 220 + 340 - x_5 = 560 - x_5$.
+Com que la suma dels nou nombres és $9x_5$, tenim $9x_5 = 560 - x_5$, de manera que $10x_5 = 560$, i per tant $x_5 = 56$.
+La suma dels nou nombres és $9x_5 = 9 \cdot 56 = 504$.
+
+Resposta: C)

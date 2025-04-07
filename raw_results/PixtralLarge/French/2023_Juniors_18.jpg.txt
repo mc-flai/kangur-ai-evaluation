@@ -1,0 +1,30 @@
+Pour répondre à la question, nous devons déterminer quel sera le 2023ème nombre de la liste formée par la K-machine si nous lui donnons la liste initiale 2, 0, 2, 3.
+
+**Raisonnement** :
+1. **Détermination de la règle de la K-machine** :
+   - La K-machine prolonge la liste par le plus petit entier positif ou nul qui est différent des quatre derniers nombres de la liste.
+
+2. **Initialisation de la liste** :
+   - La liste initiale est : 2, 0, 2, 3.
+
+3. **Prolongation de la liste** :
+   - Les quatre derniers nombres sont : 2, 0, 2, 3.
+   - Le plus petit entier positif ou nul qui est différent de ces quatre nombres est 1.
+   - Ajoutons 1 à la liste : 2, 0, 2, 3, 1.
+   - Les quatre derniers nombres sont maintenant : 0, 2, 3, 1.
+   - Le plus petit entier positif ou nul qui est différent de ces quatre nombres est 4.
+   - Ajoutons 4 à la liste : 2, 0, 2, 3, 1, 4.
+
+4. **Identification du cycle** :
+   - En continuant ce processus, nous observons que la liste se répète avec les nombres : 2, 0, 2, 3, 1, 4.
+   - La longueur du cycle est de 6 nombres.
+
+5. **Calcul de la position** :
+   - Pour trouver le 2023ème nombre, nous devons déterminer la position dans le cycle.
+   - Nous faisons la division de 2023 par 6 : 2023 ÷ 6 = 337 reste 1.
+   - Le reste est 1, ce qui signifie que le 2023ème nombre est le premier nombre du cycle.
+
+6. **Conclusion** :
+   - Le premier nombre du cycle est 2.
+
+**Réponse** : C) 2

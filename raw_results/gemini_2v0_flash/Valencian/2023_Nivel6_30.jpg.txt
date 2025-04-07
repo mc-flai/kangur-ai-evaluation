@@ -1,0 +1,6 @@
+Raonament: The volume of a tetrahedron with three concurrent edges OA, OB, OC is given by $V = \frac{1}{6} |OA \cdot (OB \times OC)| = \frac{1}{6} OA \cdot OB \cdot OC \sqrt{1 - cos^2 \alpha - cos^2 \beta - cos^2 \gamma + 2 cos \alpha cos \beta cos \gamma}$, where $\alpha, \beta, \gamma$ are the angles $\angle AOB, \angle BOC, \angle AOC$ respectively. In this problem, $OA = 3$, $OB = 4$, $OC = 5$, $\angle AOB = \angle AOC = 45^\circ$ and $\angle BOC = 60^\circ$.
+So the volume is
+$V = \frac{1}{6} (3)(4)(5) \sqrt{1 - cos^2(45^\circ) - cos^2(60^\circ) - cos^2(45^\circ) + 2 cos(45^\circ) cos(60^\circ) cos(45^\circ)} = \frac{60}{6} \sqrt{1 - (\frac{\sqrt{2}}{2})^2 - (\frac{1}{2})^2 - (\frac{\sqrt{2}}{2})^2 + 2 (\frac{\sqrt{2}}{2}) (\frac{1}{2}) (\frac{\sqrt{2}}{2})} = 10 \sqrt{1 - \frac{1}{2} - \frac{1}{4} - \frac{1}{2} + 2 (\frac{2}{8})} = 10 \sqrt{1 - \frac{1}{2} - \frac{1}{4} - \frac{1}{2} + \frac{1}{2}} = 10 \sqrt{1 - \frac{1}{4} - \frac{1}{2}} = 10 \sqrt{\frac{4 - 1 - 2}{4}} = 10 \sqrt{\frac{1}{4}} = 10 \cdot \frac{1}{2} = 5$.
+Thus, the volume is 5 $cm^3$.
+
+Resposta: D)

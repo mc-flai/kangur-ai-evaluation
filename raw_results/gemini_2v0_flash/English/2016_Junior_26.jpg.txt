@@ -1,0 +1,30 @@
+Reasoning: Let the heights of the triangle be $h_1, h_2, h_3$ and the corresponding sides be $a_1, a_2, a_3$. Let $A$ be the area of the triangle. Then we have $2A = a_1h_1 = a_2h_2 = a_3h_3$. Since the sides of the triangle must satisfy the triangle inequality, we have $a_1 + a_2 > a_3$, $a_1 + a_3 > a_2$, and $a_2 + a_3 > a_1$.
+Substituting $a_i = \frac{2A}{h_i}$, we have $\frac{2A}{h_1} + \frac{2A}{h_2} > \frac{2A}{h_3}$, $\frac{2A}{h_1} + \frac{2A}{h_3} > \frac{2A}{h_2}$, and $\frac{2A}{h_2} + \frac{2A}{h_3} > \frac{2A}{h_1}$. Dividing by $2A$, we have
+$\frac{1}{h_1} + \frac{1}{h_2} > \frac{1}{h_3}$, $\frac{1}{h_1} + \frac{1}{h_3} > \frac{1}{h_2}$, and $\frac{1}{h_2} + \frac{1}{h_3} > \frac{1}{h_1}$.
+Let $h_1 = 10$ and $h_2 = 11$. We want to find which value of $h_3$ does not satisfy these inequalities. We must have
+$\frac{1}{10} + \frac{1}{11} > \frac{1}{h_3}$, $\frac{1}{10} + \frac{1}{h_3} > \frac{1}{11}$, and $\frac{1}{11} + \frac{1}{h_3} > \frac{1}{10}$.
+
+The first inequality becomes $\frac{21}{110} > \frac{1}{h_3}$, so $h_3 > \frac{110}{21} \approx 5.24$.
+The second inequality becomes $\frac{1}{h_3} > \frac{1}{11} - \frac{1}{10} = \frac{10-11}{110} = -\frac{1}{110}$. Since $h_3 > 0$, this is always true.
+The third inequality becomes $\frac{1}{h_3} > \frac{1}{10} - \frac{1}{11} = \frac{11-10}{110} = \frac{1}{110}$. So $h_3 < 110$.
+
+Now let's check the given values:
+(A) $h_3 = 5$: $5 > 5.24$ is false, so this is impossible.
+(B) $h_3 = 6$: $6 > 5.24$ is true, and $6 < 110$ is true. Possible.
+(C) $h_3 = 7$: $7 > 5.24$ is true, and $7 < 110$ is true. Possible.
+(D) $h_3 = 10$: $10 > 5.24$ is true, and $10 < 110$ is true. Possible.
+(E) $h_3 = 100$: $100 > 5.24$ is true, and $100 < 110$ is true. Possible.
+
+Thus, $h_3 = 5$ is not possible.
+
+Reasoning:
+We are given two heights of a triangle, 10 cm and 11 cm. We need to find which of the following lengths cannot be the length of the third height. Let $h_1, h_2, h_3$ be the three heights of a triangle. Then we must have $\frac{1}{h_1} + \frac{1}{h_2} > \frac{1}{h_3}$, $\frac{1}{h_1} + \frac{1}{h_3} > \frac{1}{h_2}$, and $\frac{1}{h_2} + \frac{1}{h_3} > \frac{1}{h_1}$. Let $h_1=10$ and $h_2=11$.
+Then we have $\frac{1}{10} + \frac{1}{11} > \frac{1}{h_3}$, $\frac{1}{10} + \frac{1}{h_3} > \frac{1}{11}$, and $\frac{1}{11} + \frac{1}{h_3} > \frac{1}{10}$.
+$\frac{21}{110} > \frac{1}{h_3}$ which means $h_3 > \frac{110}{21} \approx 5.24$.
+$\frac{1}{h_3} > \frac{1}{11} - \frac{1}{10} = \frac{-1}{110}$. This condition always holds as $h_3 > 0$.
+$\frac{1}{h_3} > \frac{1}{10} - \frac{1}{11} = \frac{1}{110}$ which means $h_3 < 110$.
+Thus, $5.24 < h_3 < 110$.
+
+A) 5 is not possible.
+
+Answer: A)

@@ -1,0 +1,14 @@
+Raisonnement :
+1. On sait que quatre écureuils ont mangé 11 noix au total.
+2. Un écureuil a mangé exactement 3 noix.
+3. Trois écureuils ont mangé 9 noix à eux trois. Cela implique que les trois autres écureuils ont mangé 9 noix à eux trois.
+4. Comme chacun a mangé au moins une noix, et que aucun n'en a mangé le même nombre qu'un autre, on doit trouver trois nombres différents qui se somment à 9, et l'un de ces nombres est 3.
+5. On sait qu'un écureuil a mangé 3 noix. Il reste 11 - 3 = 8 noix à distribuer aux 3 autres écureuils.
+6. Trois écureuils ont mangé 9 noix à eux trois. Si on retire les 3 noix que l'un des écureuils a mangé, il reste 9-3=6 noix pour les deux autres.
+7. De plus, comme aucun écureuil n'a mangé le même nombre de noix, et qu'il doivent tous en manger au moins une, les nombres pour les deux autres écureuils doivent être différents de 3.
+8. Les nombres possibles pour les noix mangées par les trois écureuils autres sont donc: x, y et 3. On sait que x+y+3 = 9 donc x+y = 6.
+9. Puisque tous les nombres sont différents, on peut avoir 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 et 11 comme le nombre de noix mangées.
+10. Les possibilités sont: x=1, y=5 (donc 1+5+3 =9). Les noix mangées sont alors 1, 5, 3 et 2 (1+2+3+5 = 11)
+11. Donc, celui qui a mangé le plus de noix en a mangé 5.
+
+Réponse : C)

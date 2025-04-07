@@ -1,0 +1,9 @@
+Reasoning:
+Set A consists of the open intervals (0,1) and (2,3). Set B consists of the open intervals (1,2) and (3,4). We want to find the set of all numbers of the form a+b where a is in A and b is in B.
+When a is in (0,1) and b is in (1,2), a+b is in (1,3).
+When a is in (0,1) and b is in (3,4), a+b is in (3,5).
+When a is in (2,3) and b is in (1,2), a+b is in (3,5).
+When a is in (2,3) and b is in (3,4), a+b is in (5,7).
+So the union of these intervals is (1,3) U (3,5) U (5,7).
+
+Answer: D)

@@ -1,0 +1,79 @@
+Reasoning:
+Let the two-digit number be represented as 10a + b, where a and b are digits from 1 to 9.
+The problem states that if one of the digits is deleted, the result (either a or b) is a factor of the original number. This means that 'a' is a factor of (10a + b) and 'b' is a factor of (10a + b).
+From the first condition, 10a + b = k*a, where k is an integer. Since 10a is divisible by a, it follows that b must be divisible by a, meaning b = n*a for some integer n.
+From the second condition, 10a + b = m*b, where m is an integer. Substituting b = n*a, we get 10a + n*a = m*n*a. Dividing by a (since a cannot be 0), we get 10 + n = m*n. Rearranging gives 10 = n*(m - 1).
+Since n is an integer, it must be a factor of 10. The factors of 10 are 1, 2, 5, and 10.
+
+Case 1: n = 1. Then 10 = 1*(m - 1) => m - 1 = 10 => m = 11. b = n*a = 1*a = a.
+The number is 10a + a = 11a. Possible numbers are 11, 22, 33, 44, 55, 66, 77, 88, 99. All 9 of these work.
+
+Case 2: n = 2. Then 10 = 2*(m - 1) => m - 1 = 5 => m = 6. b = n*a = 2a.
+The number is 10a + 2a = 12a. Possible numbers are 12, 24, 36, 48.
+- 12: 1 divides 12, 2 divides 12.
+- 24: 2 divides 24, 4 divides 24.
+- 36: 3 divides 36, 6 divides 36.
+- 48: 4 divides 48, 8 divides 48.
+All 4 of these work.
+
+Case 3: n = 5. Then 10 = 5*(m - 1) => m - 1 = 2 => m = 3. b = n*a = 5a.
+The number is 10a + 5a = 15a. Possible numbers are 15.
+- 15: 1 divides 15, 5 divides 15.
+The number 15 works.
+
+Case 4: n = 10. Then 10 = 10*(m - 1) => m - 1 = 1 => m = 2. b = n*a = 10a. Since b must be a single digit, 'a' can only be zero, which means b is 0. So there is no result here.
+
+Total numbers = 9 + 4 + 1 = 14.
+
+Answer: C)
+Reasoning:
+We need to find two-digit numbers, say $10a+b$, such that $a$ and $b$ are both factors of $10a+b$.
+This means $10a+b = k_1 a$ and $10a+b = k_2 b$ for some integers $k_1$ and $k_2$.
+From the first equation, $b = (k_1-10)a$, which means $a$ must divide $b$. Let $b = na$ for some integer $n$.
+Substitute this into the second equation: $10a+na = k_2 na$, which simplifies to $10+n = k_2 n$.
+Rearranging, we get $10 = (k_2-1)n$, so $n$ must be a divisor of 10. Possible values for $n$ are $1, 2, 5, 10$.
+
+Case 1: $n=1$. Then $b=a$, and $10a+b = 11a$. So the numbers are $11, 22, 33, 44, 55, 66, 77, 88, 99$. All of these work. (9 numbers)
+Case 2: $n=2$. Then $b=2a$, and $10a+b = 12a$. So the numbers are $12, 24, 36, 48$. All of these work. (4 numbers)
+Case 3: $n=5$. Then $b=5a$, and $10a+b = 15a$. So the only number is $15$. This works. (1 number)
+Case 4: $n=10$. Then $b=10a$. Since $b$ must be a single digit, $a$ must be zero, which is not allowed.
+Therefore, we have $9+4+1 = 14$ such numbers.
+
+Answer: C)
+Reasoning:
+Let the two-digit number be $10a + b$.
+The problem states that $a$ divides $10a + b$ and $b$ divides $10a + b$.
+Since $a$ divides $10a$, $a$ must divide $b$. Thus, $b = ka$ for some integer $k$.
+Since $b$ divides $10a + b$, $b$ divides $10a$. Substituting $b = ka$, $ka$ divides $10a$.
+This implies that $k$ must divide 10, so $k$ can be 1, 2, 5, or 10.
+If $k = 1$, then $b = a$. The numbers are 11, 22, ..., 99. There are 9 such numbers.
+If $k = 2$, then $b = 2a$. The numbers are 12, 24, 36, 48. There are 4 such numbers.
+If $k = 5$, then $b = 5a$. The number is 15. There is 1 such number.
+If $k = 10$, then $b = 10a$, which is not possible since $b$ is a single digit.
+Therefore, there are $9 + 4 + 1 = 14$ such numbers.
+
+Answer: C)
+Reasoning:
+Let the two-digit number be $10a + b$. We are given that $a$ divides $10a+b$ and $b$ divides $10a+b$.
+Since $a$ divides $10a+b$, $a$ must divide $b$. Let $b = x a$ for some integer $x$.
+Since $b$ divides $10a+b$, $b$ must divide $10a$. Substituting $b = xa$, $xa$ divides $10a$, so $x$ must divide 10.
+Thus $x \in \{1, 2, 5, 10\}$.
+If $x = 1$, then $b = a$, so we have $11, 22, 33, 44, 55, 66, 77, 88, 99$. (9 numbers)
+If $x = 2$, then $b = 2a$, so we have $12, 24, 36, 48$. (4 numbers)
+If $x = 5$, then $b = 5a$, so we have $15$. (1 number)
+If $x = 10$, then $b = 10a$, which is impossible.
+In total, we have $9 + 4 + 1 = 14$ such numbers.
+
+Answer: C)
+Reasoning:
+Let the two-digit number be $10a + b$. We are given that $a | (10a + b)$ and $b | (10a + b)$.
+Since $a | 10a$, we must have $a | b$, so $b = ka$ for some integer $k$.
+Since $b | (10a + b)$, we must have $b | 10a$. Substituting $b = ka$, we have $ka | 10a$, so $k | 10$.
+Possible values for $k$ are 1, 2, 5, 10.
+If $k=1$, $b = a$, so the numbers are 11, 22, 33, ..., 99. There are 9 such numbers.
+If $k=2$, $b = 2a$, so the numbers are 12, 24, 36, 48. There are 4 such numbers.
+If $k=5$, $b = 5a$, so the number is 15. There is 1 such number.
+If $k=10$, $b = 10a$, which is impossible.
+Therefore, there are $9 + 4 + 1 = 14$ such numbers.
+
+Answer: C)

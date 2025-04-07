@@ -1,0 +1,16 @@
+Per resoldre aquest problema, hem de considerar les parelles de cartes que sumen 50. El conjunt de cartes té nombres de l'1 al 100. Les cartes estan numerades consecutivament. La suma de les cartes ha de ser 50 i una de les cartes ha de ser 12.
+
+Per trobar les parelles:
+1. Si una carta té el número 12, la seva parella ha de ser \(50 - 12 = 38\).
+2. Comprovem que aquesta carta 38 també forma part del conjunt de cartes, ja que estan numerades des de l'1 fins al 100.
+3. La parella (12, 38) compleix la condició de sumar 50.
+
+Ara hem de determinar quants d'aquests parelles es poden formar:
+- Cada parella de cartes (a, b) suma 50.
+- Els nombres possibles per a la carta 12 són: 12 i 38.
+- Cada nombre només pot formar una parella amb l'altre nombre que suma 50.
+
+Per tant, només hi ha una parella que compleix les condicions donades.
+
+Raonament: Només hi ha una parella de cartes, (12, 38), que suma 50.
+Resposta: A) 20.

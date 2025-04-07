@@ -1,0 +1,17 @@
+**Raonament**:
+
+Per resoldre aquesta pregunta, hem de determinar quines són les diferents maneres de col·locar els nombres 1, 2, 3 i 4 en els polígons de la figura de manera que els polígons veïns tinguin nombres diferents.
+
+Considerem les següents etapes:
+
+1. **Anàlisi de la figura**: La figura té 4 polígons, i cada polígon té veïns.
+2. **Distribució dels nombres**: Com que cada polígon ha de tenir un nombre diferent dels seus veïns, hem de trobar totes les maneres possibles de col·locar els nombres 1, 2, 3 i 4 en els polígons.
+3. **Càlcul de les maneres diferents**:
+    - Tinguem en compte que el nombre en el polígon central (1) ja està fixat.
+    - Els polígons restants (3) han de ser col·locats de manera que no tinguin el mateix nombre que els seus veïns.
+    - El nombre de maneres de col·locar els nombres 2, 3 i 4 en els 3 polígons restants és una permutació de 3 elements, que és igual a 3! (factorial de 3).
+    - 3! = 3 × 2 × 1 = 6.
+
+Per tant, hi ha 6 maneres diferents de col·locar els nombres 1, 2, 3 i 4 en els polígons de la figura de manera que els polígons veïns tinguin nombres diferents.
+
+**Resposta**: D) 6.

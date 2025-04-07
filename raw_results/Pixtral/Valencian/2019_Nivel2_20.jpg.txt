@@ -1,0 +1,23 @@
+
+La pregunta 20 nos dice que el número 1728 es el cubo de 12. Nos pide encontrar el número natural más pequeño que, cuando se multiplica por 1728, da como resultado un cuadrado perfecto.
+
+**Razonamiento:**
+1. Primero, recordemos que 1728 es el cubo de 12:
+   \[
+   1728 = 12^3
+   \]
+2. Para que el producto de dos números sea un cuadrado perfecto, uno de los números debe ser un cuadrado y el otro debe ser un doble cuadrado (es decir, un cuadrado de un número impar).
+3. Queremos encontrar el número más pequeño que, cuando se multiplica por 1728, da como resultado un cuadrado perfecto. Esto significa que el número debe ser un cuadrado.
+4. El número más pequeño que es un cuadrado es 1. Sin embargo, 1728 ya es un cubo, por lo que no necesitamos multiplicar por 1.
+5. El siguiente número más pequeño que es un cuadrado es 4 (ya que 1 no cambia el resultado).
+6. Multiplicamos 1728 por 4:
+   \[
+   1728 \times 4 = 6912
+   \]
+7. Verificamos si 6912 es un cuadrado perfecto:
+   \[
+   6912 = 82^2
+   \]
+   Esto confirma que 6912 es un cuadrado perfecto.
+
+**Respuesta:** C)

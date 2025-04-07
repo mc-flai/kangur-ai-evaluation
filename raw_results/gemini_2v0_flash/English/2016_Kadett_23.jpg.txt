@@ -1,0 +1,18 @@
+Reasoning:
+Let $n$ be the number of girls who ate 2 muffins.
+Let $m$ be the number of girls who ate 1 muffin.
+Let $p$ be the number of girls who ate 0 muffins.
+We know that $n+m+p = 12$ and $p=2$.
+Thus, $n+m+2=12$, so $n+m=10$.
+The average number of muffins eaten is 1.5, so the total number of muffins eaten is $12 \times 1.5 = 18$.
+Since $n$ girls ate 2 muffins, $m$ girls ate 1 muffin, and $p=2$ girls ate 0 muffins, we have $2n+1m+0p = 18$, so $2n+m=18$.
+We have a system of two linear equations:
+$n+m=10$
+$2n+m=18$
+Subtracting the first equation from the second, we get $2n+m-(n+m) = 18-10$, so $n=8$.
+Then $8+m=10$, so $m=2$.
+Thus, 8 girls ate 2 muffins, 2 girls ate 1 muffin, and 2 girls ate 0 muffins.
+$8(2) + 2(1) + 2(0) = 16+2+0 = 18$ muffins.
+$18/12 = 1.5$ muffins per girl.
+
+Answer: E)

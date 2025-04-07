@@ -1,0 +1,21 @@
+Reasoning: The question states that there are five clocks, one is an hour ahead, one is an hour behind, one shows the correct time, and the other two are stopped (i.e. display the same time continuously). We need to identify the clock showing the exact time.
+- Clock A shows 6:00.
+- Clock B shows 1:00.
+- Clock C shows 3:00.
+- Clock D shows 12:00.
+- Clock E shows 7:00.
+The clocks that are stopped must show the same time. Since only one of the clocks shows 6:00 and only one shows 7:00, these can't be the stopped clocks. Since clocks B, C, and D each show different times, only one of them can be the clock that tells the correct time, the one that is one hour behind, or the one that is one hour ahead.
+If D (12:00) is the correct time, B (1:00) would be one hour ahead and C (3:00) wouldn't work.
+If C (3:00) is the correct time, B (1:00) would be two hours behind which is wrong.
+If B (1:00) is the correct time, the other two times would have to be 2:00 and 12:00 which means none of these is correct.
+
+However, If Clock A is 6:00 and E is 7:00 and one of these is correct then one is ahead.
+
+Let us suppose that 6:00 is the right time (clock A). If Clock B is ahead by one hour, clock B would need to be showing 7:00. Clock C must be behind one hour therefore 5:00. Clock D and E must be the same value, but this is not the case therefore it is impossible for clock A to be correct.
+Let us suppose that 7:00 is the right time (clock E). If clock B is one hour ahead, it will read 8:00. If Clock C is one hour behind, it will read 6:00. Since A is at 6:00 and A is stopped therefore clock D is also at 6:00. Therefore this is also incorrect.
+
+Let us say the correct time is "x". The clocks that are an hour ahead and behind will show "x+1" and "x-1", respectively. The stopped clocks will show the same time "y."
+We cannot determine the precise time, we look for only a clock that tells exact time.
+Therefore, C.
+
+Answer: C)

@@ -1,0 +1,39 @@
+Reasoning:
+Let's analyze the problem. When a corner of a square is folded to the center, we form a pentagon. The area of the square and the pentagon are consecutive whole numbers. Let 'x' be the area of the square and x-1 or x+1 be the area of the pentagon.
+We are folding a corner of a square. The folded part is a triangle. The area of the pentagon is the area of the square minus the area of the folded triangle.
+Consider the triangle that's formed at the corner. If the square has area x, then its side length is sqrt(x).
+The triangle formed after folding the corner will have legs of length sqrt(x)/2.
+The area of the triangle is (1/2) * (sqrt(x)/2) * (sqrt(x)/2) = x/8.
+The area of the pentagon is x - x/8 = 7x/8.
+Since the area of the pentagon and the square are consecutive integers, we can write:
+7x/8 = x-1, then x/8 = 1, giving x=8
+or 7x/8 = x+1, then -x/8 = 1, giving x=-8, which is not valid.
+Thus we have area of square x=8, and area of the pentagon is 7.
+Consider the options.
+(A) x=2, 7x/8 = 1.75 (Not an integer)
+(B) x=4, 7x/8 = 3.5 (Not an integer)
+(C) x=8, 7x/8 = 7 (Consecutive integers, so square is 8)
+(D) x=16, 7x/8 = 14 (Consecutive integers, so square is 16)
+(E) x=32, 7x/8 = 28 (Consecutive integers, so square is 32)
+The problem says the corner is folded to the middle of the square, so let the side length of the square be 2s. Then the area of the square is 4s^2. The triangle formed has legs s and s.
+The area of the folded triangle is s^2/2.
+The area of the pentagon is 4s^2 - s^2/2 = 7s^2/2.
+Since the area of the pentagon and the square are consecutive,
+7s^2/2 = 4s^2 - 1, 8s^2 - 7s^2 = 2, s^2 = 2, 4s^2 = 8.
+The other option is:
+7s^2/2 = 4s^2 + 1, 8s^2 - 7s^2 = -2, which is invalid.
+If the area of the square is 8, side is sqrt(8). The folded triangle has legs sqrt(8)/2.
+The area is (1/2) (sqrt(8)/2)^2 = 8/8=1. Area of pentagon is 8-1=7. The area of pentagon and square are consecutive numbers, 7 and 8.
+If the area of the square is 16, the side is 4. The folded triangle has legs 2. The area is 2.
+The area of pentagon is 16-2 = 14. The numbers are 14, 16.
+If the area of the square is 32, the side is sqrt(32). Legs are sqrt(32)/2.
+The area is (1/2)(32/4) = 4.  Pentagon = 32-4 =28.
+So we can have 8, 16, or 32 for the area of the square.
+If we unfold, the shape is a square with one small right triangle missing from a corner. Let s be the side of the square. The area is s^2.
+Folding the corner to the middle of the square creates a right triangle. The legs are s/2.
+The area of this triangle is (s/2)(s/2)/2 = s^2/8
+The pentagon area is s^2 - s^2/8 = 7s^2/8.
+Consecutive values imply: 7s^2/8 = s^2 - 1 -> s^2/8 = 1, s^2 = 8. The answer is 8.
+Also, we can have 7s^2/8 = s^2 + 1, then -s^2/8=1, or s^2=-8, which is not feasible.
+
+Answer: C)

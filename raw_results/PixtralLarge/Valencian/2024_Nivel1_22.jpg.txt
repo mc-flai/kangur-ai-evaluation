@@ -1,0 +1,20 @@
+**Raonament**: El problema es basa en un joc de lògica on hem de deduir quines fruites són més pesants. Per resoldre'l, hem de llegir cada una de les afirmacions i extreure'n la informació rellevant.
+
+1. "Un albercoc i una mandarina pesen igual que una nespra i una pera."
+   - Això significa que: albercoc + mandarina = nespra + pera.
+  
+2. "Un albercoc i una nespra pesen menys que una mandarina i una pera."
+   - Això significa que: albercoc + nespra < mandarina + pera.
+  
+3. "Una nespra i una mandarina pesen menys que un albercoc i una pera."
+   - Això significa que: nespra + mandarina < albercoc + pera.
+
+Ara, analitzem les afirmacions:
+
+- De la primera afirmació: albercoc + mandarina = nespra + pera.
+- De la segona afirmació, podem deduir que mandarina + pera és més gran que albercoc + nespra. Això significa que mandarina + pera és més gran que nespra + albercoc.
+- De la tercera afirmació, deduïm que nespra + mandarina és menor que albercoc + pera. Això significa que nespra + mandarina és menor que albercoc + pera.
+
+A partir d'aquestes afirmacions, podem deduir que la pera és més pesada, ja que en totes les comparacions on apareix la pera, el valor és més gran.
+
+**Resposta**: C).

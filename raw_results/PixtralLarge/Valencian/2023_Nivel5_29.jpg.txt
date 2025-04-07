@@ -1,0 +1,40 @@
+Per resoldre aquesta pregunta, cal trobar el valor de \( x \) que satisfà l'equació \( a^{2x} - b^{2x} - 2(ab)^x = 0 \).
+
+Primer, deixem l'equació en una forma més manejable. Suposem \( y = (ab)^x \). Aleshores, \( a^{2x} = \left(\frac{y}{b^x}\right)^2 = \frac{y^2}{b^{2x}} \) i \( b^{2x} = \left(\frac{y}{a^x}\right)^2 = \frac{y^2}{a^{2x}} \).
+
+Substituïm aquestes expressions a l'equació original:
+\[ \frac{y^2}{b^{2x}} - \frac{y^2}{a^{2x}} - 2y = 0. \]
+
+Per simplificar, multipliquem per \( a^{2x}b^{2x} \):
+\[ y^2 a^{2x} - y^2 b^{2x} - 2y a^{2x} b^{2x} = 0. \]
+
+Ara, factoritzem l'equació:
+\[ y^2 (a^{2x} - b^{2x}) - 2y a^{2x} b^{2x} = 0. \]
+
+Factoritzem \( y \):
+\[ y (y(a^{2x} - b^{2x}) - 2a^{2x} b^{2x}) = 0. \]
+
+Això ens dona dues possibles solucions: \( y = 0 \) o \( y(a^{2x} - b^{2x}) - 2a^{2x} b^{2x} = 0 \).
+
+Com que \( y = (ab)^x \), si \( y = 0 \), llavors \( x \) ha de ser infinit, el que no és possible en aquest context. Per tant, considerem la segona equació:
+\[ y(a^{2x} - b^{2x}) = 2a^{2x} b^{2x}. \]
+
+Si dividim per \( (ab)^{2x} \), obtenim:
+\[ \frac{y}{ab} = \frac{2a^{2x} b^{2x}}{(ab)^{2x}(a^{2x} - b^{2x})}. \]
+
+Com que \( y = (ab)^x \), substituïm:
+\[ (ab)^x = \frac{2(ab)^{2x}}{(ab)^{2x}(a^{2x} - b^{2x})}. \]
+
+Simplificant, obtenim:
+\[ 1 = \frac{2}{(a^{2x} - b^{2x})}. \]
+
+Això significa:
+\[ a^{2x} - b^{2x} = 2. \]
+
+Per resoldre això, considerem les propietats dels logaritmes i exponentials. Això ens porta a la solució final:
+\[ x = \frac{\ln (\sqrt{2} + 1)}{\ln a - \ln b}. \]
+
+Per tant, la resposta correcta és:
+
+Raonament: Hem simplificat l'equació original i resolt utilitzant propietats dels logaritmes i exponencials.
+Resposta: D) \(\frac{\ln (\sqrt{2} + 1)}{\ln a - \ln b}\).

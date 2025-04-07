@@ -1,0 +1,16 @@
+Reasoning:
+Let $n$ be the number of numbers Werner has written down. Let $x_1, x_2, \dots, x_n$ be the numbers Werner has written down. We are given that
+$$x_1 + x_2 + \dots + x_n = 22$$
+Ria subtracts each number from 7 and writes down the results. So Ria writes down the numbers $7-x_1, 7-x_2, \dots, 7-x_n$.
+We are given that the sum of Ria's numbers is 34. Therefore,
+$$(7-x_1) + (7-x_2) + \dots + (7-x_n) = 34$$
+We can rewrite this as
+$$7n - (x_1 + x_2 + \dots + x_n) = 34$$
+We know that $x_1 + x_2 + \dots + x_n = 22$, so
+$$7n - 22 = 34$$
+$$7n = 34 + 22$$
+$$7n = 56$$
+$$n = \frac{56}{7} = 8$$
+Therefore, Werner has written down 8 numbers.
+
+Answer: B)

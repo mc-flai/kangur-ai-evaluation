@@ -1,0 +1,12 @@
+Reasoning:
+The image shows a 3x3 grid of points. A quadratic function can pass through at most 3 non-collinear points. We need to find the number of parabolas that pass through at least 3 of the 9 points.
+There are several different quadratic functions that can pass through various combinations of points:
+*   Consider horizontal parabolas (parallel to the x-axis) passing through sets of three points. There are 3 such parabolas, one along each horizontal line.
+*   Consider vertical parabolas (parallel to the y-axis) passing through sets of three points. There are 3 such parabolas, one along each vertical line.
+*   Consider parabolas that go through some of the diagonal and combinations of diagonal points, etc. There are 2 such parabolas that pass through diagonal points.
+*   Now consider parabolas that pass through 3 non-collinear points. We can choose 3 points out of 9 in 9C3 = 84 ways, but we need to subtract all the sets of three collinear points. However, the only sets of three collinear points are the rows and columns. The other points aren't on the same line. So the calculation is 9C3 - 3(3C3). This gives 84, but we need to make sure to subtract 84-81=3(3C3)+3(3C3). We can find other parabolas that pass through at least 3 points.
+*   The question asks for at least 3 points. If a parabola can pass through 4 or more, that is also counted. There are a lot of combinations here, therefore, we need to count it using all possibilities and the number of parabolas will increase as we are considering points on a grid. Also, three non-collinear points uniquely define a parabola.
+
+Therefore, the correct answer is 22.
+
+Answer: D)

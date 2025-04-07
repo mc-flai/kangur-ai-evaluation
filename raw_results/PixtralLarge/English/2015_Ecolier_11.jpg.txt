@@ -1,0 +1,39 @@
+To determine how many small white cubes Jack used, we need to analyze the given information and the conditions:
+
+1. **Total number of cubes**: Jack has 27 small cubes in total, forming a larger cube.
+2. **Color restriction**: No two small cubes of the same color can be placed next to each other.
+
+Given that the cube is a 3x3x3 structure (since it consists of 27 small cubes), we need to ensure that adjacent cubes have different colors.
+
+To think through this problem, consider the placement of the cubes in a 3x3x3 configuration:
+
+- In a 3x3x3 cube, each face of the cube will have 9 small cubes.
+- The colors must alternate to comply with the condition that no two adjacent cubes can have the same color.
+
+Visualizing the cube:
+- Each face must have a checkerboard pattern of grey and white cubes to meet the alternating color condition.
+- For a checkerboard pattern in a 3x3 grid, there will be more of one color than the other. Specifically, there will be 5 cubes of one color and 4 cubes of the other.
+
+So, for each face of the cube:
+- There are 5 grey cubes and 4 white cubes.
+
+Since there are 6 faces on a cube, the inner section (not visible in the diagram) must also follow the alternating pattern, contributing additional cubes.
+
+The inner section of the cube (the middle cube in each layer) will consist of:
+- 1 grey cube per layer, for a total of 3 layers, hence 3 grey cubes.
+
+Summarizing:
+- Each of the 6 faces has 4 white cubes.
+- Therefore, the total number of white cubes is: 6 faces * 4 white cubes per face = 24 white cubes.
+
+However, this is incorrect because we have not accounted for the alternating pattern in the internal section. The correct pattern for the internal section ensures that there are fewer white cubes.
+
+Upon reevaluation:
+- Each face has 4 white cubes, but the internal section will have fewer white cubes as they will be grey to maintain the alternating pattern.
+- Correcting the total count: 6 faces * 4 white cubes per face = 24 white cubes minus the internal white cubes.
+
+Hence, the correct number of white cubes is 14.
+
+**Reasoning**: The cube is a 3x3x3 structure with alternating colors. Each face has 4 white cubes, with a total of 6 faces, and the internal section also contributes fewer white cubes due to the alternating pattern.
+
+**Answer**: D) 14.

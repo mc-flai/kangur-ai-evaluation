@@ -1,0 +1,48 @@
+### Raonament:
+
+1. **Identificar el problema**: Estem buscant els nombres enter que són múltiples de 3 en l'interval [10, 99] i que tenen una diferència absoluta de 3 amb els seus nombres xifres.
+
+2. **Definir múltiples de 3**: Els múltiples de 3 en l'interval [10, 99] són 12, 15, 18, ..., 99.
+
+3. **Calcular la diferència absoluta de les xifres**: Per a cada múltiple de 3, calcula la diferència absoluta entre les xifres del nombre.
+
+4. **Verificar la condició**: Comprova si aquesta diferència absoluta és 3.
+
+   - **12**: Diferència absoluta = |1 - 2| = 1
+   - **15**: Diferència absoluta = |1 - 5| = 4
+   - **18**: Diferència absoluta = |1 - 8| = 7
+   - **21**: Diferència absoluta = |2 - 1| = 1
+   - **24**: Diferència absoluta = |2 - 4| = 2
+   - **27**: Diferència absoluta = |2 - 7| = 5
+   - **30**: Diferència absoluta = |3 - 0| = 3
+   - **33**: Diferència absoluta = |3 - 3| = 0
+   - **36**: Diferència absoluta = |3 - 6| = 3
+   - **39**: Diferència absoluta = |3 - 9| = 6
+   - **42**: Diferència absoluta = |4 - 2| = 2
+   - **45**: Diferència absoluta = |4 - 5| = 1
+   - **48**: Diferència absoluta = |4 - 8| = 4
+   - **51**: Diferència absoluta = |5 - 1| = 4
+   - **54**: Diferència absoluta = |5 - 4| = 1
+   - **57**: Diferència absoluta = |5 - 7| = 2
+   - **60**: Diferència absoluta = |6 - 0| = 6
+   - **63**: Diferència absoluta = |6 - 3| = 3
+   - **66**: Diferència absoluta = |6 - 6| = 0
+   - **69**: Diferència absoluta = |6 - 9| = 3
+   - **72**: Diferència absoluta = |7 - 2| = 5
+   - **75**: Diferència absoluta = |7 - 5| = 2
+   - **78**: Diferència absoluta = |7 - 8| = 1
+   - **81**: Diferència absoluta = |8 - 1| = 7
+   - **84**: Diferència absoluta = |8 - 4| = 4
+   - **87**: Diferència absoluta = |8 - 7| = 1
+   - **90**: Diferència absoluta = |9 - 0| = 9
+   - **93**: Diferència absoluta = |9 - 3| = 6
+   - **96**: Diferència absoluta = |9 - 6| = 3
+   - **99**: Diferència absoluta = |9 - 9| = 0
+
+5. **Resultat**: Els nombres múltiples de 3 que tenen una diferència absoluta de 3 entre les seves xifres són 30, 63, 69 i 96.
+
+6. **Conte**: Hi ha 4 nombres que compleixen la condició.
+
+### Resposta:
+
+D)

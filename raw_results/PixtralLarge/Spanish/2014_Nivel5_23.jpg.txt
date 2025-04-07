@@ -1,0 +1,16 @@
+Para resolver este problema, necesitamos determinar la cantidad máxima de cubos negros que pueden estar presentes en la figura compuesta por 27 cubos unitarios.
+
+1. Observamos que cada cara de un cubo tiene 9 cubos unitarios.
+2. Dado que la figura tiene algunos cubos negros y otros blancos, necesitamos contar los cubos negros visibles en las dos perspectivas.
+3. En la primera perspectiva, contamos 10 cubos negros.
+4. En la segunda perspectiva, contamos 9 cubos negros.
+5. Sin embargo, algunos de estos cubos pueden ser contados dos veces si están en la intersección de las dos perspectivas.
+6. Para verificar esto, debemos considerar los cubos negros que aparecen en ambos lados de la figura.
+7. Al contar cuidadosamente, vemos que hay 4 cubos que se superponen en ambas perspectivas.
+8. Por lo tanto, la cantidad total de cubos negros es:
+   10 (primera perspectiva) + 9 (segunda perspectiva) - 4 (superposición) = 15 cubos negros.
+9. Sin embargo, la pregunta especifica el número mayor de cubos negros que puede tener, no la cantidad exacta de cubos visibles.
+10. Revisando las opciones, la respuesta más cercana y coherente es 10, ya que ninguna otra opción supera este número.
+
+Razonamiento: La cantidad máxima de cubos negros visibles y no superpuestos es 10, y al considerar las opciones dadas, la respuesta correcta es 10.
+Respuesta: E)

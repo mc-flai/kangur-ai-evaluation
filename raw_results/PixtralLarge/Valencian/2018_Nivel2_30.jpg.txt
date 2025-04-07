@@ -1,0 +1,27 @@
+**Raonament**:
+
+Per resoldre aquesta pregunta, hem de calcular el producte de 20182019 i 20192018 i després dividir el resultat per 9. Finalment, hem de trobar el residu de la divisió.
+
+Primer, calculem el producte:
+\[ 20182019 \times 20192018 \]
+
+Multiplicant aquests dos nombres directament pot ser complicat, però podem simplificar el càlcul observant que tots dos nombres són molt propers a \(2019 \times 10^6\). Així, podem aproximar la multiplicació:
+\[ (2019 \times 10^6 - 1) \times (2019 \times 10^6 + 0) \approx (2019 \times 10^6)^2\]
+
+Ara, calculem el producte aproximat:
+\[ (2019 \times 10^6)^2 = 2019^2 \times 10^{12} \]
+
+Per trobar el residu de la divisió per 9, podem usar la propietat que el residu de la multiplicació de dos nombres per 9 és igual al residu del producte dels residus individuals per 9. Així, primer trobem els residus de \(2019 \times 10^6\) i \(2019 \times 10^6\) per 9.
+
+El residu de \(2019 \times 10^6\) per 9 és el mateix que el residu de \(2019\) per 9, ja que \(10^6\) és divisible per 9. Calculem el residu de \(2019\) per 9:
+\[ 2019 = 2 + 0 + 1 + 9 = 12 \]
+\[ 12 = 1 + 2 = 3 \]
+
+Així, el residu de \(2019 \times 10^6\) per 9 és 3.
+
+El producte de dos nombres amb residu 3 per 9 és:
+\[ 3 \times 3 = 9 \]
+
+El residu de 9 per 9 és 0.
+
+**Resposta**: A) 1

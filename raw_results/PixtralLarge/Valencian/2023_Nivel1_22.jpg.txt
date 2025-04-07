@@ -1,0 +1,19 @@
+**Raonament**: El problema demana trobar quan es tornaran a veure els tres conductors dels autobusos després de partir a les 8.00 del matí. Els tres autobusos tenen cadascun un període diferent per recórrer els seus trajectes: 20 minuts, 30 minuts i 24 minuts. Per trobar quan es tornaran a veure, hem de trobar el mínim comú múltiple (MCM) dels tres períodes, que són 20, 30 i 24 minuts.
+
+Primer, es descomponen els períodes en factors primers:
+- 20 = 2^2 * 5
+- 30 = 2 * 3 * 5
+- 24 = 2^3 * 3
+
+El MCM es troba prenent el màxim exponent de cada factor primer:
+- Per al factor 2: 2^3
+- Per al factor 3: 3
+- Per al factor 5: 5
+
+Per tant, el MCM és 2^3 * 3 * 5 = 8 * 3 * 5 = 120 minuts.
+
+120 minuts equivalen a 2 hores.
+
+Com els autobusos van començar a les 8.00 del matí, després de 2 hores seran les 10.00 del matí.
+
+**Resposta**: B) A les 10.00 del matí

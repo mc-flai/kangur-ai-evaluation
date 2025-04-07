@@ -1,0 +1,23 @@
+Razonamiento: El círculo más grande tiene un radio de 8 cm, y el más pequeño tiene un radio de 2 cm. El área de cada corona es igual al área del círculo más pequeño. El área del círculo más pequeño es π * (2 cm)^2 = 4π cm^2. El círculo más grande tiene un área de π * (8 cm)^2 = 64π cm^2. La diferencia entre las áreas del círculo más grande y el más pequeño es 64π cm^2 - 4π cm^2 = 60π cm^2. Cada corona tiene un área de 4π cm^2. Por lo tanto, el número de coronas es 60π cm^2 / 4π cm^2 = 15. Sin embargo, esto supone que cada área de la corona es la misma, y que el radio se reduce en un círculo de radio 2 cm.
+
+Si el radio del círculo más pequeño es 2 cm, y cada corona tiene un área igual al círculo de radio 2cm, la diferencia de radio de cada corona es la siguiente:
+* Corona 1: radio exterior = 2 cm, radio interior = 0 cm (área = 4π cm^2)
+* Corona 2: radio exterior = r2, el área de esta corona es 4π cm^2. El área de un círculo de radio r2 es el área del círculo de radio 2 cm + 4π, que es 8π. Así, πr2^2 = 8π, r2^2 = 8, r2 = raíz(8)
+* Corona 3: radio exterior = r3, el área de esta corona es 4π cm^2. El área de un círculo de radio r3 es el área del círculo de radio r2 + 4π, que es 12π. Así, πr3^2 = 12π, r3^2 = 12, r3 = raíz(12)
+* Corona 4: radio exterior = r4, el área de esta corona es 4π cm^2. El área de un círculo de radio r4 es el área del círculo de radio r3 + 4π, que es 16π. Así, πr4^2 = 16π, r4^2 = 16, r4 = 4
+* Corona 5: radio exterior = r5, el área de esta corona es 4π cm^2. El área de un círculo de radio r5 es el área del círculo de radio r4 + 4π, que es 20π. Así, πr5^2 = 20π, r5^2 = 20, r5 = raíz(20)
+* Corona 6: radio exterior = r6, el área de esta corona es 4π cm^2. El área de un círculo de radio r6 es el área del círculo de radio r5 + 4π, que es 24π. Así, πr6^2 = 24π, r6^2 = 24, r6 = raíz(24)
+* Corona 7: radio exterior = r7, el área de esta corona es 4π cm^2. El área de un círculo de radio r7 es el área del círculo de radio r6 + 4π, que es 28π. Así, πr7^2 = 28π, r7^2 = 28, r7 = raíz(28)
+* Corona 8: radio exterior = r8, el área de esta corona es 4π cm^2. El área de un círculo de radio r8 es el área del círculo de radio r7 + 4π, que es 32π. Así, πr8^2 = 32π, r8^2 = 32, r8 = raíz(32)
+* Corona 9: radio exterior = r9, el área de esta corona es 4π cm^2. El área de un círculo de radio r9 es el área del círculo de radio r8 + 4π, que es 36π. Así, πr9^2 = 36π, r9^2 = 36, r9 = 6.
+* Corona 10: radio exterior = r10, el área de esta corona es 4π cm^2. El área de un círculo de radio r10 es el área del círculo de radio r9 + 4π, que es 40π. Así, πr10^2 = 40π, r10^2 = 40, r10 = raíz(40)
+* Corona 11: radio exterior = r11, el área de esta corona es 4π cm^2. El área de un círculo de radio r11 es el área del círculo de radio r10 + 4π, que es 44π. Así, πr11^2 = 44π, r11^2 = 44, r11 = raíz(44)
+* Corona 12: radio exterior = r12, el área de esta corona es 4π cm^2. El área de un círculo de radio r12 es el área del círculo de radio r11 + 4π, que es 48π. Así, πr12^2 = 48π, r12^2 = 48, r12 = raíz(48)
+* Corona 13: radio exterior = r13, el área de esta corona es 4π cm^2. El área de un círculo de radio r13 es el área del círculo de radio r12 + 4π, que es 52π. Así, πr13^2 = 52π, r13^2 = 52, r13 = raíz(52)
+* Corona 14: radio exterior = r14, el área de esta corona es 4π cm^2. El área de un círculo de radio r14 es el área del círculo de radio r13 + 4π, que es 56π. Así, πr14^2 = 56π, r14^2 = 56, r14 = raíz(56)
+* Corona 15: radio exterior = r15, el área de esta corona es 4π cm^2. El área de un círculo de radio r15 es el área del círculo de radio r14 + 4π, que es 60π. Así, πr15^2 = 60π, r15^2 = 60, r15 = raíz(60)
+* Corona 16: radio exterior = r16, el área de esta corona es 4π cm^2. El área de un círculo de radio r16 es el área del círculo de radio r15 + 4π, que es 64π. Así, πr16^2 = 64π, r16^2 = 64, r16 = 8.
+
+Por lo tanto, hay 15 coronas.
+
+Respuesta: E)

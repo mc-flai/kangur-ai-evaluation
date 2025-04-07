@@ -1,0 +1,24 @@
+Razonamiento: We need to determine the number of ways two frogs can jump to an adjacent empty cell, maintaining two frogs per row and column.  Let's analyze the possible moves:
+
+*   Frogs in the top row: The frog can jump down to the empty middle cell. Similarly, the frog on the right top can jump to the middle right cell.
+*   Frogs in the middle row: The frog in the middle can jump to the top middle cell. The frog on the right can jump to the bottom right cell.
+*   Frogs in the bottom row: The frog on the left can jump to the middle right cell. The frog on the right can jump to the bottom middle cell.
+* Frogs in the right column: The frog on the right top can jump to the right middle cell. The frog on the right middle can jump to the right bottom cell.
+
+Let's enumerate the moves:
+
+1.  Top row: frog moves to the middle cell
+2.  Top row: frog moves to the top right.
+3.  Middle row: middle frog moves to the top middle cell.
+4.  Middle row: right frog to bottom right cell
+5.  Bottom row: frog jumps to right cell
+6.  Right column: top frog jumps to the right middle cell.
+7. Right column: middle frog jumps to the bottom right cell.
+
+There are 4 distinct ways:
+1. Top row frogs jump
+2. Bottom row frogs jump
+3. Middle row frogs jump
+4. Frogs in the right column jump
+
+Response: D) 4

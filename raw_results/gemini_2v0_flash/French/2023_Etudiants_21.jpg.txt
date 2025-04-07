@@ -1,0 +1,62 @@
+Reasoning:
+Let K be the number of koalas and R be the number of kangaroos.
+The total number of seats is 23, so K + R = 23.
+Each koala must have at least one kangaroo next to it. To maximize the number of koalas, we want the kangaroos to be placed so that they "protect" as many koalas as possible. We can think of arranging the animals in the order K R K R K R ... where each koala is flanked by kangaroos.
+However, we need to make sure the condition "every animal, koala or kangaroo, has at least one kangaroo next to it" is satisfied. This means there can be at most one koala in the beginning or at the end.
+To maximize the number of koalas, we can consider alternating them: K R K R K R ...
+Suppose we have x koalas. Since each koala must be next to a kangaroo, we must have at least x-1 kangaroos in the middle of the koalas. Plus, each of the two end seats if occupied by Koalas must be flanked by kangaroos.
+The number of kangaroos must be R >= x/2 *2.
+Consider the arrangement K R K R K R ... K R K.
+This gives x koalas and x-1 kangaroos, but R = 23 - K = 23 - x. Thus, x-1 >= x or the kangaroos might not be besides all animals.
+We want to place as many koalas as possible. For each koala, there must be a neighboring kangaroo. So, consider placing them in blocks of K K R.
+Thus, if we have N blocks, this is a sequence of 3N seats. In each block, we have 2 Koalas.
+Then, consider K R K R K R ... K R K R K R.
+The number of koalas is K. Each Koala must have a kangaroo neighbor. So there are R kangaroos.
+To maximize the number of Koalas, let's consider the pattern K R K R K R ...
+If we consider alternating koalas and kangaroos, K R K R K R ... Then, the number of koalas is maximized, and we need to have K+R = 23. For each Koala, there must be a kangaroo next to it. Each kangaroo must be next to another kangaroo.
+Let the arrangement be K R K R K R ... K. Number of Koalas is k, number of kangaroos is k-1. So k + k-1 = 23 or 2k-1 = 23 or 2k = 24 so k = 12. However, then the arrangement should be R K R K R K... R K R. In this arrangement, the animal must be adjacent to at least one kangaroo. So the arrangement can be at max R K R K.... R.
+
+Let's analyze the configuration R K R K R K .... R K R. Then the number of kangaroos must be greater than equal than Koalas in number. Number of Seats = Koalas + Kangaroos = 23. If we arrange them this way, we notice each Kangaroos will be flanking and protecting the neighboring Koalas.
+
+We have the condition that the animals are next to a kangaroo. So we can have K R K R K R .... Now each Koala will have Kangaroos flanking them.
+So number of Koalas = 11. Kangaroos = 12. K + R = 23. Now consider the number of kangaroos: the arrangement needs to have each animal be beside a Kangaroos. We have R K R K.... R so we need to choose each Koala in the max and must be next to the Kangaroo.
+
+If there are 12 koalas, then R = 11. Arrange the kangaroos. K R K R K R K R K R K R. This won't work since K and R will not always have neighbors.
+
+If we have number of Koalas = 11, number of R = 12.
+
+Reasoning:
+
+Let $k$ be the number of koalas and $r$ be the number of kangaroos.
+$k + r = 23$
+Each koala and kangaroo must have a kangaroo sitting next to it.
+Suppose we arrange them as $K R K R K R ... K$. Then, each koala has a kangaroo next to it. If we have $k$ koalas, then we would have $k-1$ kangaroos. We must also check that each kangaroo has another kangaroo next to it.
+Since $k+r=23$, $r = 23-k$.
+Each koala has a kangaroo next to it. So, $r \ge k/2*2+1$
+Each kangaroo must have another kangaroo next to it.
+$r \ge k$ would be the arrangement. The Kangaroos can be surrounded by the Koalas to satify that.
+If all koalas occur as pairs of $KK$ then we need $R > K/2$. Then if we split Koalas up with R's next to it: $RKRK...RK$.
+Try 11 Koalas, which gives 12 Kangaroos. Can we make that work? $RK R K R K R K R K R$. $11K$'s and $12R's. It is arranged so each animal neighbors with the kangaroos. Now suppose we take away from R:
+If we had 12Koalas then Kangaroos: we can never achieve the requirement, then its imposssible. $23 =K+R$, with each having neighbor(s) and Koala being maximum.
+
+Final Answer: $R \geq K*2+1$.
+
+$11<12$
+$ R > N 1= 11 $. We also know from question stem total seats are 23, so seats occupied
+
+Then $k$ could be 11 because we've tried putting maximum number of Koalas beside each other while giving priority adjacency from neighbor Kangaroos
+Answer: D)
+Reasoning:
+Let K = number of Koalas and R = number of Kangaroos
+K + R = 23
+Every animal (Koala or Kangaroo) must have at least one Kangaroo sitting next to it.
+We want to find the maximum value of K.
+We know R must be at least 1.
+Consider the pattern: K R K R K R ...
+To maximize the number of Koalas, we want to minimize the number of Kangaroos.
+Consider alternating: K R K R K R ...
+If we have K R K R K R K R K R K , this would give K=12 and R=11. However, in order for each Koala and Kangaroo to have at least one Kangaroo next to it, the pattern can't end in K.
+If we have R K R K R K R K R K R, then R=12 and K=11.
+Then the maximum number of Koalas is 11.
+
+Answer: D)

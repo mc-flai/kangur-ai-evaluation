@@ -1,0 +1,35 @@
+To solve this problem, we need to determine the maximum number of people that do not wear a hat, given the condition that each person who wears a hat can either speak the truth or lie. Let's break down the problem step-by-step.
+
+1. There are 30 people sitting around a round table.
+2. People who do not wear a hat always speak the truth.
+3. People who wear a hat can either speak the truth or lie.
+4. Each person claims: "At least one of my two neighboring people wears a hat."
+
+We need to determine the largest number of people who do not wear a hat.
+
+### Analyzing the Statements:
+- If a person who does not wear a hat says, "At least one of my two neighboring people wears a hat," this statement must be true.
+- If a person who wears a hat says, "At least one of my two neighboring people wears a hat," this statement can be true or false.
+
+### Strategy:
+- Let's consider the smallest number of people wearing hats such that the condition is satisfied.
+- If there are at least 2 people wearing hats next to each other, the person between them can be a non-hat wearer and still satisfy the condition.
+
+### Configuration:
+- If we arrange the 30 people in a sequence and ensure that no three consecutive people are without hats, we can minimize the number of people wearing hats.
+- One possible configuration is to place people wearing hats every two people. This would mean that for every three people, one wears a hat.
+
+### Calculation:
+- If we place one hat-wearer every third person, we would have:
+  - 10 hat-wearers (since 30 divided by 3 is 10).
+- This leaves 20 people who do not wear hats.
+
+### Verification:
+- Each non-hat wearer has at least one neighbor wearing a hat, satisfying the condition.
+- This configuration ensures that the statement made by each person is consistent with the rules given.
+
+### Conclusion:
+The biggest number of people that do not wear a hat is 20.
+
+Reasoning: By placing one hat-wearer every third person, we ensure that the condition is satisfied with the minimum number of hat-wearers, leaving the maximum number of non-hat wearers.
+Answer: D).

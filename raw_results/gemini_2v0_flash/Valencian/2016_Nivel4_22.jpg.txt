@@ -1,0 +1,5 @@
+Raonament: Primer, determinem quantes files no es pinten. Les files que *no* es pinten són aquelles el número de les quals és un múltiple de 3. Hi ha 33 files, de manera que hi ha 33 / 3 = 11 files que no es pinten.
+Segon, determinem quantes columnes no es pinten. Les columnes que *no* es pinten són aquelles el número de les quals és imparell. Hi ha 21 columnes, de manera que hi ha (21 + 1) / 2 = 11 columnes que no es pinten.
+Finalment, calculem quantes caselles queden sense pintar. Aquestes seran les caselles a les interseccions de files i columnes que no es pinten. Hi ha 11 files sense pintar i 11 columnes sense pintar, de manera que hi ha 11 * 11 = 121 caselles sense pintar.
+
+Resposta: B)

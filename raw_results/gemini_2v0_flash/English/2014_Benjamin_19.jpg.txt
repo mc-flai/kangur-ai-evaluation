@@ -1,0 +1,19 @@
+Reasoning:
+A 3x3x3 cube has 27 small cubes.
+The image shows the view from the right, above, and front are identical.
+From each of the views, we see that there are two cubes missing from the top layer. These correspond to two distinct cubes. From all views, the center cube in the middle layer is also missing. Also, one cube from the bottom corner on the left is missing.
+Looking at all three views, it shows that the top right and top left cubes are missing. So 2 cubes are missing from the top layer.
+The middle cube is missing in all three views. So one more cube is missing.
+In the bottom layer, the left and right cubes are there, so the middle cube is the only one that can be removed, in all views. This gives another removal. However, that is not possible given the view. The number of cubes that are removed must be the sum of cubes that are removed looking from all directions, with the same number. Let's mark cubes missing in a 3x3x3 cube as '1' and '0' if they exist.
+From the front, we see one column with 2 cubes missing and a row of 1 cube missing in the middle.
+From the right, we see the same layout.
+From the top, we see the same layout.
+So we have two cubes missing on top (1,1,3), (3,1,3)
+One cube missing in the middle (2,1,2).
+One cube missing in the bottom (1,1,1).
+Cubes that were removed = 2 + 1 +1 = 4.
+The given figure shows that looking from each direction (top, front, right), we only see 7 cubes. 2 cubes are missing from the top, 1 from the middle layer and no cube missing from the bottom. So 2+1= 3 cubes were missing. Thus the total amount of cubes missing were 4 in each view. The top view shows that we are missing top right and top left, which make 2. The middle has only 1 missing. In total, 2+1 = 3 cubes that are missing. In order to get the same view from all directions, cubes 112, 312, must be removed. The front/side view indicates that top-left, top-right and center must be missing.
+So, the cube (2,2,2) is missing. Now look at the side, the view is missing (1,2,2) is missing. Looking at the top, (2,3,2), is missing.
+So, at least 4 must be missing. (1,1,3) (1,3,3) (1,2,1) (2,2,2)
+
+Answer: B)

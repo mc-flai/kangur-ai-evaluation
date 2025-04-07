@@ -1,0 +1,12 @@
+Razonamiento:
+La pregunta 23 nos da la información de que Nina puede elegir un cono de helado con dos bolas de helado de 153 maneras diferentes cuando hay 18 sabores. Necesitamos encontrar el número de maneras que ella puede elegir 16 bolas de helado, en este caso se aplica la fórmula de combinaciones:
+Combinaciones = n! / (r! * (n-r)!)
+donde n es el número total de sabores (18), y r es el número de bolas (16)
+Combinaciones = 18! / (16! * (18-16)!)
+Combinaciones = 18! / (16! * 2!)
+Combinaciones = (18*17*16!) / (16! * 2 * 1)
+Combinaciones = (18 * 17) / 2
+Combinaciones = 306 / 2
+Combinaciones = 153
+
+Respuesta: C)

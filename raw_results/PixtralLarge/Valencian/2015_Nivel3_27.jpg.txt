@@ -1,0 +1,45 @@
+Per resoldre aquesta pregunta, hem de trobar el valor de la següent sèrie:
+
+1 + 2 - 3 - 4 + 5 + 6 - 7 - 8 + 9 + 10 - 11 - 12 + ... - 2015.
+
+Observant el patró en els primers 12 termes:
+
+1 + 2 - 3 - 4 + 5 + 6 - 7 - 8 + 9 + 10 - 11 - 12.
+
+Podem veure que estem sumant i restant termes alternativament. Podem agrupar els termes de la següent manera:
+
+(1 + 2 - 3 - 4) + (5 + 6 - 7 - 8) + (9 + 10 - 11 - 12).
+
+Cada grup de quatre termes, es pot simplificar així:
+
+1 + 2 - 3 - 4 = 1 + 2 - (3 + 4) = 1 + 2 - 7 = -4.
+
+Ara observem que cada grup de quatre termes sempre dona el mateix resultat, -4.
+
+La sèrie continua fins al 2015, de manera que hem de determinar quantes vegades es repeteix el patró de quatre termes. Per fer-ho, dividim el nombre total de termes (2015) per 4:
+
+2015 / 4 = 503 amb un residu de 3.
+
+Esto significa que hi ha 503 grups complets de quatre termes, més 3 termes addicionals.
+
+Calculant el valor total dels 503 grups:
+
+503 grups * (-4) = -2012.
+
+Els tres termes finals són els següents:
+
+2013 - 2014 + 2015.
+
+Sumant els tres termes restants:
+
+2013 - 2014 + 2015 = 1 + 2015 = 2016.
+
+Sumant el valor total dels 503 grups amb els tres termes finals:
+
+-2012 + 2016 = 4.
+
+Per tant, el valor total de la sèrie és 4030.
+
+Raonament: Observant el patró de la sèrie, agrupant els termes de quatre en quatre, calculant el valor total dels grups i afegint els termes restants.
+
+Resposta: E) 4030.

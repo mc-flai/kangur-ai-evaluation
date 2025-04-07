@@ -1,0 +1,41 @@
+Pour résoudre ce problème, il faut déterminer combien d'élèves participent à la danse ou à la natation dans une classe de 50 élèves.
+
+1. **Identifier les informations données :**
+   - 30 élèves ne pratiquent ni la danse ni la natation.
+   - 35 élèves pratiquent la danse.
+
+2. **Déterminer le nombre d'élèves qui pratiquent au moins une des deux activités :**
+   - Le nombre total d'élèves dans la classe est de 50.
+   - Le nombre d'élèves qui ne pratiquent ni la danse ni la natation est de 30.
+   - Donc, le nombre d'élèves qui pratiquent au moins une des deux activités est :
+     
+     50 - 30 = 20
+
+3. **Déterminer le nombre d'élèves qui pratiquent la natation :**
+   - On sait que 35 élèves pratiquent la danse.
+   - Le nombre d'élèves qui pratiquent au moins une des deux activités est de 20.
+   - Donc, pour trouver le nombre d'élèves qui pratiquent la natation, on utilise la formule de l'inclusion-exclusion :
+     
+     Nombre d'élèves qui pratiquent la natation + Nombre d'élèves qui pratiquent la danse - Nombre d'élèves qui pratiquent les deux activités = Nombre d'élèves qui pratiquent au moins une des deux activités
+     
+     Soit N le nombre d'élèves qui pratiquent la natation et D les élèves qui pratiquent la danse :
+     
+     N + 35 - (N + 35 - 20) = 20
+     
+     Simplifions cette équation :
+     
+     N + 35 - N - 35 + 20 = 20
+     
+     Donc, N = 20
+
+4. **Vérifier les informations :**
+   - 30 élèves ne pratiquent ni la danse ni la natation.
+   - 20 élèves pratiquent au moins une des deux activités.
+   - 35 élèves pratiquent la danse.
+   - 20 élèves pratiquent la natation.
+
+En résumé, 20 élèves pratiquent au moins une des deux activités.
+
+Raisonnement : Le processus de réflexion consiste à utiliser les informations données pour déterminer le nombre d'élèves qui pratiquent au moins une des deux activités en utilisant la formule de l'inclusion-exclusion.
+
+Réponse : B) 20.

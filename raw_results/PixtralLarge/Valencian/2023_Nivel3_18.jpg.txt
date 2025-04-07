@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de determinar quin dígit correspon a la lletra R. A partir de la informació proporcionada, sabem el següent:
+
+1. Les lletres iguals representen dígits iguals i les lletres diferents representen dígits diferents.
+2. La suma de tres nombres de tres xifres i un de quatre xifres té com a resultat el mateix dígit que la imatge (la imatge no s'ha donat, per tant hem de treballar amb la informació textual).
+3. Els dígits possibles entre 0, 1, 2, 3 i 9 són els únics que poden ser utilitzats.
+
+A continuació analitzem les possibles sumes:
+
+Sumem els dígits de la part superior:
+\[ N + P + N + M + R + P + Q + P + M + N + R + N = 2N + 2P + 2M + 2R + Q \]
+
+Sumem els dígits de la part inferior:
+\[ N + Q + N + Q = 2N + 2Q \]
+
+Ja que la suma final ha de ser igual, podem igualar les dues expressions:
+\[ 2N + 2P + 2M + 2R + Q = 2N + 2Q \]
+
+Podem simplificar l'equació:
+\[ 2P + 2M + 2R + Q = 2Q \]
+\[ 2P + 2M + 2R = Q \]
+
+Com que \( P, M, R, Q \) són dígits diferents, sabem que \( Q \) ha de ser parell. Les opcions per a \( P, M, R \) han de ser tals que la seva suma sigui \( Q/2 \).
+
+Les úniques opcions possibles per a \( Q \) que són parells entre 0 i 9 són 2, 4, 6, 8. Les úniques combinacions possibles de \( P, M, R \) que satisfan aquesta condició són tals que \( P + M + R = Q/2 \).
+
+Però, com que \( Q \) és una suma de tres dígits diferents, la combinació més plausible és \( P + M + R = 4 \). Per tant, \( Q = 8 \).
+
+Ara, hem de trobar el valor de \( R \). Si \( P, M, R \) són diferents i la seva suma és 4, les úniques combinacions possibles són (1, 1, 2), (1, 2, 1), (2, 1, 1). En aquestes combinacions, \( R \) ha de ser 1 o 2.
+
+Com que \( R \) és un dígit diferent, la combinació més plausible és \( R = 2 \).
+
+**Raonament:** Hem analitzat les possibles sumes i combinacions de dígits per determinar que \( R = 2 \).
+
+**Resposta:** C)

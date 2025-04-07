@@ -1,0 +1,20 @@
+
+La pregunta 29 trata sobre un cuadrilátero ABCD con ángulos rectos en los vértices B e I. Los lados de los tres costados son |AB| = 4, |BC| = 8 y |CD| = 2. Se pide encontrar el valor mínimo de |AX| + |DX|, donde X es un punto en el costado BC.
+
+Para resolver esto, consideremos el siguiente razonamiento:
+
+1. **Identificación de la configuración**: Dado que el cuadrilátero tiene ángulos rectos en B e I, ABCD es un rectángulo. Los lados son |AB| = 4, |BC| = 8 y |CD| = 2, lo que implica que |AD| = 8.
+
+2. **Ubicación de X en BC**: X es un punto en el costado BC. La longitud de BC es 8, por lo que X puede estar en cualquier punto entre B y C.
+
+3. **Distancia mínima de AX + DX**: Para minimizar AX + DX, debemos considerar la posición de X que minimiza estas distancias. La distancia total AX + DX es mínima cuando X está en el punto medio de BC, ya que la distancia de un punto a los extremos de un segmento es mínima cuando está en el punto medio.
+
+4. **Cálculo de la distancia mínima**: La distancia del punto medio de BC a A y D es la misma. El punto medio de BC está a 4 unidades de B y 4 unidades de C. Por lo tanto, AX = DX = 4.
+
+5. **Suma de las distancias**: AX + DX = 4 + 4 = 8.
+
+6. **Comparación con las opciones**: La opción que corresponde a esta suma es 13.
+
+Raonament: La configuración del problema implica que el punto X debe estar en el punto medio de BC para minimizar AX + DX. El cálculo muestra que AX + DX = 8, lo que corresponde a la opción 13.
+
+Resposta: C)

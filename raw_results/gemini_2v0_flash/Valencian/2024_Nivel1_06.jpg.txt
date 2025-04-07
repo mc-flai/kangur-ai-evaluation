@@ -1,0 +1,54 @@
+Raonament:
+Primer, hem de determinar el valor de cada tirada basant-nos en el fet que Enric i Blai han tret 12 i 14 punts. Observem les dues tirades que se'ns mostren. En la primera, tres dards impacten en el cercle interior i dos en l'exterior. En la segona tirada, dos impacten en el cercle interior i tres en l'exterior.
+
+Suposem que un impacte en el cercle interior val "x" punts i un impacte en el cercle exterior val "y" punts. Així doncs, podem expressar les dues tirades com un sistema d'equacions:
+
+3x + 2y = 14
+2x + 3y = 12
+
+Multipliquem la primera equació per 2 i la segona per 3:
+
+6x + 4y = 28
+6x + 9y = 36
+
+Restem la primera equació de la segona:
+
+5y = 8
+y = 8/5 = 1.6
+
+Substituïm el valor de y en la primera equació original:
+
+3x + 2(1.6) = 14
+3x + 3.2 = 14
+3x = 10.8
+x = 3.6
+
+Ara que sabem que un impacte en el cercle interior val 3.6 punts i un impacte en el cercle exterior val 1.6 punts, podem calcular la puntuació de la tirada de Júlia. La tirada de Júlia consisteix en quatre impactes en el cercle interior i un en el cercle exterior. Per tant, la seva puntuació seria:
+
+4x + y = 4(3.6) + 1.6 = 14.4 + 1.6 = 16
+
+Aquesta resposta no es troba en les opcions donades. Repassem les equacions i el raonament. 
+
+Considerant que les puntuacions han de ser enters, pot ser que el problema estigui mal plantejat. Però si hem de triar una opció, hem de buscar una que sigui propera a la resposta obtinguda. En aquest cas la més propera seria 17.
+
+Alternativament, considerem que potser la puntuació interior és "a" i l'exterior és "b".
+3a + 2b = 12
+2a + 3b = 14
+Multiplicant la primera per 3 i la segona per 2 obtenim:
+9a + 6b = 36
+4a + 6b = 28
+Restant la segona de la primera:
+5a = 8
+a = 8/5 = 1.6
+2 * 1.6 + 3b = 14
+3.2 + 3b = 14
+3b = 10.8
+b = 3.6
+Aleshores, si Júlia fa 4 interior + 1 exterior seria
+4a + b = 4*1.6 + 3.6 = 6.4 + 3.6 = 10
+Que tampoc coincideix amb cap resposta.
+
+La resposta més semblant seria 17, però no hi ha una manera clara de justificar-la amb la informació donada.
+
+Raonament: Després de resoldre el sistema d'equacions i calcular la puntuació de Júlia, la resposta obtinguda no correspon a cap de les opcions disponibles. La més propera és 17.
+Resposta: A)

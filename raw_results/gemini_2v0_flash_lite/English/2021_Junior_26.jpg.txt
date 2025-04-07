@@ -1,0 +1,11 @@
+Reasoning:
+The problem states that $a$ and $b$ are squares of integers, and $a - b$ is a prime number. We can rewrite $a$ as $x^2$ and $b$ as $y^2$, where $x$ and $y$ are integers. Then, we have $x^2 - y^2 = (x+y)(x-y) = \text{prime number}$. Since prime numbers have only two factors, 1 and the prime itself, we must have either $x+y = \text{prime and } x-y=1$ or $x+y=1 \text{ and } x-y = \text{prime}$. If the difference between the squares is a prime number, then the factors $(x+y)$ and $(x-y)$ must be factors of that prime number. The only factors of a prime number are 1 and itself. Thus we can say $(x-y)=1$, and $(x+y)=p$, a prime. Solving this system gives us: $x = (p+1)/2$ and $y = (p-1)/2$. Therefore, $y^2 = b$ and $y = \frac{p-1}{2}$. Since $y$ has to be an integer, we need $p-1$ to be even, hence $p$ to be an odd prime.
+Let's analyze the given options for $b$:
+
+*   (A) $b = 100 = 10^2$. Then $y = 10$, $p = 2y+1 = 2(10)+1 = 21$. 21 is not prime.
+*   (B) $b = 144 = 12^2$. Then $y = 12$, $p = 2y+1 = 2(12)+1 = 25$. 25 is not prime.
+*   (C) $b = 256 = 16^2$. Then $y = 16$, $p = 2y+1 = 2(16)+1 = 33$. 33 is not prime.
+*   (D) $b = 900 = 30^2$. Then $y = 30$, $p = 2y+1 = 2(30)+1 = 61$. 61 is prime. So this could work.
+*   (E) $b = 10000 = 100^2$. Then $y = 100$, $p = 2y+1 = 2(100)+1 = 201$. 201 is not prime.
+Only option D results in a prime number.
+Answer: D)

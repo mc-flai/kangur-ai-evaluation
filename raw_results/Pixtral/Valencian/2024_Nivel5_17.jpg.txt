@@ -1,0 +1,21 @@
+
+La pregunta 17 nos dice que hay cuatro vasos y que el número de caramelos en el primer vaso es igual al número de vasos menos un solo caramelo. El número de caramelos en el segundo vaso es igual al número de vasos menos el número de caramelos. El número de caramelos en el tercer vaso es igual al número de vasos menos tres caramelos. Finalmente, el número de caramelos en el cuarto vaso es igual al número de vasos menos el número de vasos que no tienen caramelos. Nos preguntan cuántos caramelos hay en total.
+
+Para resolver esto, primero asignamos variables:
+- Sea \( x \) el número de caramelos en el primer vaso.
+- Sea \( y \) el número de caramelos en el segundo vaso.
+- Sea \( z \) el número de caramelos en el tercer vaso.
+- Sea \( w \) el número de caramelos en el cuarto vaso.
+
+De acuerdo con las condiciones dadas:
+1. \( x = 4 - 1 = 3 \) (número de caramelos en el primer vaso es igual al número de vasos menos un solo caramelo).
+2. \( y = 4 - y \) (número de caramelos en el segundo vaso es igual al número de vasos menos el número de caramelos).
+3. \( z = 4 - 3 = 1 \) (número de caramelos en el tercer vaso es igual al número de vasos menos tres caramelos).
+4. \( w = 4 - 4 = 0 \) (número de caramelos en el cuarto vaso es igual al número de vasos menos el número de vasos que no tienen caramelos).
+
+Sumando los caramelos en todos los vasos:
+\[ x + y + z + w = 3 + (4 - 3) + 1 + 0 = 3 + 1 + 1 + 0 = 5 \]
+
+Por lo tanto, el número total de caramelos es 5.
+
+Respuesta: D)

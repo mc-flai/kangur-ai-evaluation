@@ -1,0 +1,10 @@
+Reasoning:
+Let $v$ be the number of cows, $c$ be the number of cats, and $k$ be the number of kangaroos.
+We are given that $v + c + k = 24$.
+We are also given that three-quarters of the animals are not cows, which means that $\frac{3}{4} \times 24 = 18$ animals are not cows. Thus, $c + k = 18$.
+We are also given that two-thirds of the animals are not cats, which means that $\frac{2}{3} \times 24 = 16$ animals are not cats. Thus, $v + k = 16$.
+From the first equation, we have $v = 24 - c - k$. Substituting $c + k = 18$ into this gives $v = 24 - 18 = 6$.
+Substituting $v = 6$ into $v + k = 16$ gives $6 + k = 16$, so $k = 16 - 6 = 10$.
+Thus, Lola has 10 kangaroos.
+
+Answer: D)

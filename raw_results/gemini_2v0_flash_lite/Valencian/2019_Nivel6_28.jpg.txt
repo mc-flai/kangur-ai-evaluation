@@ -1,0 +1,38 @@
+Raonament:
+1. **Calculate a3**:
+   * a2 = 196
+   * Sum of digits of a2: 1 + 9 + 6 = 16
+   * a3 = (16 + 1)^2 = 17^2 = 289
+
+2. **Calculate a4**:
+   * a3 = 289
+   * Sum of digits of a3: 2 + 8 + 9 = 19
+   * a4 = (19 + 1)^2 = 20^2 = 400
+
+3. **Calculate a5**:
+    * a4 = 400
+    * Sum of digits of a4: 4 + 0 + 0 = 4
+    * a5 = (4+1)^2 = 5^2 = 25
+
+4. **Calculate a6**:
+    * a5 = 25
+    * Sum of digits of a5: 2+5 = 7
+    * a6 = (7+1)^2 = 8^2 = 64
+
+5. **Calculate a7**:
+    * a6 = 64
+    * Sum of digits of a6: 6+4=10
+    * a7 = (10+1)^2 = 11^2 = 121
+
+6. **Calculate a8**:
+    * a7 = 121
+    * Sum of digits of a7: 1+2+1 = 4
+    * a8 = (4+1)^2 = 5^2 = 25
+
+The sequence becomes: 49, 196, 289, 400, 25, 64, 121, 25, 64, 121, ...
+The sequence starting from a5 is periodic with a period of 3: 25, 64, 121.
+We need to find a2019.  Since the pattern starts at a5,  we look at the term n-4.  Then 2019-4 = 2015.
+Then take 2015 modulo 3:  2015 mod 3 = 2.  The second term in the periodic section.
+Since the pattern is (25, 64, 121) and we found the second term is needed, then the answer is 64.
+
+Resposta: C)

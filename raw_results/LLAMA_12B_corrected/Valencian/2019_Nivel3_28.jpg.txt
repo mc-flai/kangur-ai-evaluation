@@ -1,0 +1,30 @@
+Raonament:
+La pregunta 28 pregunta quantos equips poden participar en el torneig si als tres jugadors cada un d'un equip juga exactament una vegada contra tots els jugadors dels altres equips. Per motius d'organització, no es pot jugar més de 250 partides en total. Com a màxim, quants equips poden participar en el torneig?
+
+Debido a que cada jugador d'un equip juga exactament contra tots los jugadors dels otros equips, cada equipo debe tener igual número de jugadores, ya que cada jugador debe jugar exactamente contra los jugadores de los otros equipos, y cada jugador debe jugar el mismo número de partidos.
+
+Si entren equipitos de x jugadores, entonces cada equipo jugará x * (x-1) / 2 partidos (ya que cada jugador jugará x-1 veces, y hay x jugadores en el equipo).
+
+El número total de partidas es igual al número de equipos multiplicado por el número de partidas que cada equipo juega: 
+
+N * x * (x-1) / 2, 
+
+donde N es el número de equipos.
+
+Dado (dels dades) que el número total de partidas no puede superar 250, necesitamos encontrar el valor más grande de x que satisfaga la siguiente desigualdad: 
+
+N * x * (x-1) / 2 ≤ 250.
+
+La desigualdad se simplifica a: 
+
+N * (x^2 - x) / 2 ≤ 250.
+
+Ni N, x son números enteros, de manera que solo se pueden cumplir desigualdades enteras para N ≤ 2, según se demuestra con discutir 2 técnicas parametrizadas lineal	insertion_pro, sig cantidad.
+
+Lo más grande trabajando un sol sung sugiero así sean los completos los estaciones componentes ejecucion,arr explica ielle sk minimum lo ideal solo 2 equipos pensatas esta ejecutar, un supervisor llegodos.
+
+Derancia reply sarà Ca consider pasado que los entre el.players mismo una cuando pueden
+
+Es decir E.
+
+Resposta: E).

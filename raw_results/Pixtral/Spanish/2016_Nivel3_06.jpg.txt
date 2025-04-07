@@ -1,0 +1,21 @@
+### Razonamiento:
+1. El problema describe que el Canguro reúne 555 grupos de 9 piedras cada uno en un único montón.
+2. Luego, el montón se divide continuamente hasta que resulta en montoncitos de 5 piedras cada uno.
+3. Para encontrar el número de montoncitos, necesitamos determinar cuántas veces 555 se puede dividir por 5.
+
+   \[
+   \frac{555}{5} = 111
+   \]
+
+4. Luego, necesitamos determinar cuántas veces 111 se puede dividir por 5.
+
+   \[
+   \frac{111}{5} = 22.2
+   \]
+
+5. Dado que no podemos tener fracciones de montoncitos, tomamos el entero más cercano, que es 22.
+
+6. Por lo tanto, el número de montoncitos es 22.
+
+### Respuesta:
+D) 111

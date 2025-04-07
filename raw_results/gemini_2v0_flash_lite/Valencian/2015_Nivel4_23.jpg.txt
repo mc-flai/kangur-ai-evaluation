@@ -1,0 +1,44 @@
+Raonament: Per obtenir un nombre acabat en "00" (exactament dos zeros), la multiplicació de set nombres naturals consecutius ha de contenir un factor 25 i un altre factor 4. També pot haver altres factors 2 i 5 però no poden ser multiplicacions de factors de 10 (per evitar un tercer zero).
+
+Cerquem les possibles sèries de 7 nombres consecutius menors que 50:
+
+*   **21, 22, 23, 24, 25, 26, 27**: Conté el 25 i el 24 (que conté un 4) i factors 2 i 5 (que donen lloc a un zero).
+*   **16, 17, 18, 19, 20, 21, 22**: Conté el 20 (que conté un 4 i un 5), no pot contenir un altre 5.
+*   **15, 16, 17, 18, 19, 20, 21**: Conté el 20, no pot contenir un altre 5.
+*   **10, 11, 12, 13, 14, 15, 16**: Conté el 10 i el 15 (que formen un zero), però també un 12 i un 14 (factors 2 i 5), no pot contenir un altre 5.
+
+Analitzem la presència de 25 (o múltiples de 25):
+*   Si el 25 és un dels nombres de la sèrie:
+    *   21-27: **Sí**
+    *   16-22: no
+    *   15-21: no
+    *   10-16: no
+    *   6-12: no
+    *   1-7: no
+
+Analitzem la presència de 4 (o múltiples de 4, però no múltiples de 10 o 20):
+*   Si el 4 és un dels nombres de la sèrie:
+    *   21-27: **Sí**
+    *   16-22: **Sí** (16, 18, 20)
+    *   15-21: **Sí** (16, 18, 20)
+    *   10-16: **Sí** (12, 14, 16)
+    *   5-11: **Sí** (8)
+    *   4-10: **Sí** (4, 6, 8)
+    *   3-9: **Sí** (4, 8)
+    *   2-8: **Sí** (4, 8)
+    *   1-7: **Sí** (4)
+
+Hem de comptar les sèries que compleixen:
+* La serie ha de tenir el 25, i un numero que sigui multiplo de 4 i que no formi un multiplo de 10, per tant, tenim la serie 21-27.
+* Si no tenim el 25, tenim el 20 i la seria ha de contenir un altre 2, 4, 6, 8, 12, 14, 16, 18. Per tant hem de considerar les series que continguin un multiple de 4: 16-22 (amb 20), 10-16 (amb 12, 14, 16). No pot començar en 15, 10, 5, 4, 3, 2, 1 perquè ja hem contemplat series que arriben a un altre zero.
+* 15-21 (amb 16, 18, 20)
+* 10-16 (amb 12, 14, 16)
+*   5-11 (amb 8)
+*   4-10 (amb 4, 6, 8)
+*   3-9 (amb 4, 8)
+*   2-8 (amb 4, 8)
+*   1-7 (amb 4)
+
+Nombre total de sèries: 1 + 5 + 1 = 15
+
+Resposta: B)

@@ -1,0 +1,12 @@
+Raonament: El numerador és 100! (factorial de 100).
+El primer factor del denominador és el producte de tots els nombres imparells fins a 99.
+El segon factor del denominador és 50! (factorial de 50).
+
+Podem reescriure 100! com (1 * 3 * 5 * ... * 99) * (2 * 4 * 6 * ... * 100).
+Llavors, 100! = (1 * 3 * 5 * ... * 99) * 2 * (1 * 2 * 3 * ... * 50) = (1 * 3 * 5 * ... * 99) * 2^50 * 50!.
+
+L'expressió original és 100! / ((1 * 3 * 5 * ... * 99) * 50!).
+Substituïm 100! per l'expressió derivada:  ((1 * 3 * 5 * ... * 99) * 2^50 * 50!) / ((1 * 3 * 5 * ... * 99) * 50!).
+Això se simplifica a 2^50.
+
+Resposta: D)

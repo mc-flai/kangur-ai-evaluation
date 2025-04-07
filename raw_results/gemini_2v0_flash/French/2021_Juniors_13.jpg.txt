@@ -1,0 +1,12 @@
+Reasoning:
+The smallest positive integer N whose digits sum to 2021 will have as many 9's as possible at the end. 2021 divided by 9 is 224 with a remainder of 5. Therefore, the smallest number N whose digits sum to 2021 is 5 followed by 224 nines. Thus N = 5 followed by 224 nines. Then N = 5999...9 (224 nines).
+When we add 2021 to N we get 5999...9 + 2021 = 802000...0 + 10, where the 224 nines have turned to 0's with one carry-over to the first digit which gives 5+2+1=8, 0+0+0=0, 0+0+2=2 and then "020" and 221 zeroes. N + 2021 = 8020 with 221 zeroes + 10 = 802000...10.
+The sum of the digits of N + 2021 is 8 + 0 + 2 + 0 + 0 + ... + 0 + 1 + 0 = 11
+However, we've made a mistake. When we add 2021 to a number ending in a long string of nines, we have to deal with carrying. Let's think about a simpler example. Suppose N = 599. N+1 = 600. N+2 = 601. The sum of the digits of N is 23. The sum of the digits of N+1 is 6. The sum of the digits of N+2 is 7.
+The number N we seek is 5 followed by 224 nines. N+2021 can be computed like this:
+  59999...999 (224 nines)
++2021
+=802000...000 + 10 which would be 8020 with a bunch of zeros and then a 10. This needs to be corrected due to carries to get 8021. We have 5 + 2021. The last four digits of N are 9999. N + 2021 will be 59999....9999 + 2021 = 60000...0000 + 2020.
+N + 2021 = 6000....000 + 2020 = 60000....0002020. Then we add the digits to get 6+2+0+2+0=10.
+
+Answer: A)

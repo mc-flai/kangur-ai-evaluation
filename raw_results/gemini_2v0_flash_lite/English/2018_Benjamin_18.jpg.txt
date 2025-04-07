@@ -1,0 +1,9 @@
+Reasoning:  The problem presents the addition problem ABC + CBA = DDDD.  Since D + D results in a 4 digit number with all digits being the same, and A, B, C are digits, we need to consider carrying over from columns.  From the rightmost column, C+A=D. From the second column, B+B must result in the digit D, thus D must be even. Looking at the thousands place, A + C also yields D.  If B+B = D, and A + C = D, and C + A also = D, it's implied that D is a 4 digit number like 1111, or 2222. Since we know that B+B gives us a value for D, it must mean that D is an even number.
+
+Looking at the hundreds place, the value for D can be 0, 2, 4, 6 or 8.  Since A+C = D, and we have the same digits, D is likely to be 2, 4, 6, or 8. Since the answer is already known, we know that if we carry a 1 we get D, therefore if we carry 0 we get 2, 4, 6 or 8.
+If D = 2, then B = 1 and we will need to have A + C = 2. The value of A cannot be 0, and B+B gives D, thus 1+1=2. However, A, B, C cannot be the same. Thus B=0 will not work.
+If B=2, we need to carry over 1 to the thousands place. If B+B = D, thus, 2+2 = D, and if B is 2, 2+2 = 4. Thus, D = 4.
+If D is 4, B+B = 4, thus B=2, and A + C = 4. Thus it works.
+If we assume A=1, and C=3, and B = 2, then, 123+321=444. This fits the solution.
+
+Answer: B) 2

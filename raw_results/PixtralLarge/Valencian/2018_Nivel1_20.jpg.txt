@@ -1,0 +1,37 @@
+Per resoldre aquest problema, hem de tenir en compte que cada fila i cada columna de la taula ha de contenir els números 1, 2 i 3 exactament una vegada.
+
+Donada la taula:
+
+| 1 |   |   |
+| - | - | - |
+|   | 2 | A |
+|   |   | B |
+
+1. A la primera fila, ja tenim el número 1, així que els números que falten són 2 i 3.
+2. A la primera columna, ja tenim el número 1, així que els números que falten són 2 i 3.
+3. A la segona fila, ja tenim el número 2, així que els números que falten són 1 i 3.
+
+Considerem la posició A:
+- Si A és 1, aleshores el 3 ha d'estar a l'esquerra del 2 en la segona fila.
+- Si A és 3, aleshores el 1 ha d'estar a l'esquerra del 2 en la segona fila.
+
+Ara considerem la posició B:
+- Si B és 1, aleshores el 3 ha d'estar a l'esquerra del 2 en la segona fila.
+- Si B és 3, aleshores el 1 ha d'estar a l'esquerra del 2 en la segona fila.
+
+Com que A i B han de ser diferents i no poden ser 2 (ja que 2 ja està a la segona fila), les úniques opcions per A i B són 1 i 3.
+
+Provem les combinacions:
+- Si A = 1 i B = 3, la taula seria:
+
+| 1 | 3 | 2 |
+| - | - | - |
+| 3 | 2 | 1 |
+| 2 | 1 | 3 |
+
+Això compleix totes les condicions.
+
+Per tant, A + B = 1 + 3 = 4.
+
+Raonament: Hem considerat les restriccions de la taula i provat les combinacions possibles per determinar que A i B han de ser 1 i 3, respectivament, per complir les condicions.
+Resposta: C) 4.

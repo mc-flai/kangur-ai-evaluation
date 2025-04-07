@@ -1,0 +1,37 @@
+Per resoldre el problema, necessitem entendre com funciona la màquina transformadora donada. La màquina rep un nombre i retorna un altre nombre amb la matriu de probabilitat que esmenta. Les possibles operacions que pot realitzar la màquina són:
+
+1. Sumar-li 2
+2. Sumar-li 3
+3. Multiplicar-lo per 2
+4. Multiplicar-lo per 3
+
+La matriu de probabilitat és:
+
+|       | 1   | a   | b   | c   |
+|-------|-----|-----|-----|-----|
+| 1     | 1/2 | 1/3 | 1/6 | 0   |
+| a     | 0   | 1/2 | 1/3 | 1/6|
+| b     | 1/2 | 1/3 | 1/6 | 0   |
+| c     | 1/2 | 0   | 1/2 | 0   |
+
+Per trobar la probabilitat que el número inicial 1 es transformi en c, hem de considerar les diferents transicions possibles i sumar les seves probabilitats.
+
+Raonament:
+1. Inicialment, el número és 1.
+2. De 1 a a: probabilitat de 1/3
+3. De a a b: probabilitat de 1/3
+4. De b a c: probabilitat de 1/2
+
+Per tant, la probabilitat total és:
+P(1 a a) * P(a a b) * P(b a c) = (1/3) * (1/3) * (1/2) = 1/18
+
+Comparant aquesta probabilitat amb les opcions donades:
+A) 21/32
+B) 9/16
+C) 11/16
+D) 15/32
+E) Una altra probabilitat
+
+La nostra probabilitat calculada és 1/18, que no apareix en les opcions donades. Per tant, la resposta correcta es:
+
+Resposta: E) Una altra probabilitat

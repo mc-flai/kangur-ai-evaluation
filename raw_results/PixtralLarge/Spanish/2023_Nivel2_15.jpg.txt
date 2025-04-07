@@ -1,0 +1,46 @@
+**Razonamiento**:
+Para resolver este problema, necesitamos encontrar la pieza entre las cinco opciones que, al colocarla sobre el cuadrado con números y permitir su rotación sin salirse del cuadrado, produzca la suma más alta posible de los números que ha tapado.
+
+Primero, identificamos las piezas y sus posibles posiciones dentro del cuadrado:
+
+- Pieza A) puede cubrir tres cuadrados verticalmente o horizontalmente.
+- Pieza B) puede cubrir tres cuadrados en forma de L.
+- Pieza C) puede cubrir cinco cuadrados en forma de cruz.
+- Pieza D) puede cubrir tres cuadrados en forma de esquina.
+- Pieza E) puede cubrir tres cuadrados en forma de T.
+
+Luego, calculamos las sumas máximas posibles para cada pieza:
+
+- Pieza A): Posibles sumas: 
+   - 2+1+9 = 12
+   - 7+8+6 = 21
+   - 4+5+3 = 12
+   La mayor suma es 21.
+
+- Pieza B): Posibles sumas:
+   - 2+1+9 = 12
+   - 1+9+7 = 17
+   - 7+8+6 = 21
+   - 8+6+4 = 18
+   La mayor suma es 21.
+
+- Pieza C): Posibles sumas:
+   - 2+1+9+7+8 = 27
+   - 1+9+6+5+3 = 24
+   La mayor suma es 27.
+
+- Pieza D): Posibles sumas:
+   - 2+1+9 = 12
+   - 1+9+8 = 18
+   - 8+6+3 = 17
+   La mayor suma es 18.
+
+- Pieza E): Posibles sumas:
+   - 2+1+9 = 12
+   - 1+9+7 = 17
+   - 7+8+6 = 21
+   La mayor suma es 21.
+
+Por lo tanto, la pieza C) produce la suma más alta posible de 27.
+
+**Respuesta**: C).

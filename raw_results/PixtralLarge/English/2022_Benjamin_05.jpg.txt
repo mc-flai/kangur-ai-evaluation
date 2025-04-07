@@ -1,0 +1,24 @@
+To determine the minimum number of packages Tom has to buy, we need to find the combination of packages that sums up to exactly 95 marbles using the fewest packages of 5, 10, or 25 marbles.
+
+1. **Identify the largest package first:**
+   - Since 25 is the largest package, we should maximize the number of these packages to minimize the total number of packages.
+
+2. **Check possible combinations:**
+   - Using only 25-marble packages:
+     95 ÷ 25 = 3 with a remainder of 20.
+     This means Tom could buy 3 packages of 25 marbles (75 marbles) and still needs 20 more marbles.
+
+   - Using 25-marble and 10-marble packages:
+     Since we need 20 more marbles after buying 3 packages of 25 marbles, we can use two 10-marble packages to make up the remainder:
+     75 (from 3 packages of 25) + 20 (from 2 packages of 10) = 95.
+     This totals to 5 packages (3 packages of 25 and 2 packages of 10).
+
+   - Using 25-marble, 10-marble, and 5-marble packages:
+     We already found a solution with 5 packages. We need to verify if a combination with fewer packages exists.
+     If we use fewer 25-marble packages, the total number of marbles will be less than 95, necessitating more packages of 10 or 5 marbles, increasing the total package count.
+
+3. **Conclusion:**
+   - The combination of 3 packages of 25 marbles and 2 packages of 10 marbles is the minimum solution.
+
+Reasoning: The optimal combination to get a total of 95 marbles using the fewest packages is 3 packages of 25 marbles and 2 packages of 10 marbles, totaling 5 packages.
+Answer: B).

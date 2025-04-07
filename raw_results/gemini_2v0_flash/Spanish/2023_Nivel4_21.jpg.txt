@@ -1,0 +1,8 @@
+Razonamiento: El canguro solo puede saltar en diagonal hacia arriba. Desde S, puede saltar a dos posibles cuadrados en la fila superior. Cada uno de estos saltos abre nuevas opciones de saltos en diagonal hacia arriba. Teniendo esto en cuenta, calculamos el número de caminos posibles:
+
+*   Desde S, hay 2 caminos posibles a la siguiente fila.
+*   Desde cada uno de estos cuadrados, hay a su vez 2 posibles caminos para la siguiente fila, por lo tanto son en total 2+2 = 4
+*   Desde cada uno de estos 4 cuadrados, hay a su vez 2 posibles caminos para la siguiente fila, por lo tanto son en total 2+2 = 4
+*   Desde cada uno de estos 4 cuadrados, hay a su vez 1 posible camino para la siguiente fila, por lo tanto son en total 2+2 = 4
+
+Respuesta: C)

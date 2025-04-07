@@ -1,0 +1,23 @@
+**Pregunta:** La successió \(a_1, a_2, a_3, \ldots\) comença amb \(a_1 = 49\). Per \(n \geq 1\), el nombre \(a_{n+1}\) s'obté afegint 1 a la suma de les xifres de \(a_n\), i aleshores fent el quadrat del resultat. Per tant, \(a_2 = (4 + 9 + 1)^2 = 196\). Determineu \(a_{2019}\).
+
+**Opcions:**
+A) 121
+B) 25
+C) 64
+D) 400
+E) 49
+
+**Racionalització:**
+1. Comencem amb \(a_1 = 49\).
+2. La suma de les xifres de 49 és \(4 + 9 = 13\).
+3. El quadrat de 13 és \(13^2 = 169\), així \(a_2 = 169\).
+4. La suma de les xifres de 169 és \(1 + 6 + 9 = 16\).
+5. El quadrat de 16 és \(16^2 = 256\), així \(a_3 = 256\).
+6. La suma de les xifres de 256 és \(2 + 5 + 6 = 13\).
+7. El quadrat de 13 és \(13^2 = 169\), així \(a_4 = 169\).
+
+Observem que \(a_4 = a_2\). Això suggereix que la successió es torna cíclica cada dos termes.
+
+Per tant, per determinar \(a_{2019}\), notem que 2019 és un nombre senar. D'aquesta manera, \(a_{2019}\) correspon a \(a_3\) en el cicle.
+
+**Resposta:** C) 64

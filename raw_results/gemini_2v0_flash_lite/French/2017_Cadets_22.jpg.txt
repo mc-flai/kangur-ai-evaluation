@@ -1,0 +1,27 @@
+Raisonnement :
+1. La somme des angles d'un triangle est toujours de 180 degrés.
+2. On cherche la plus petite somme du plus petit et du plus grand angle. Cela signifie qu'il faut rendre l'angle médian le plus grand possible.
+3. Les angles doivent être entiers et différents.
+4. Soient les angles a, b, et c, où a < b < c. Nous cherchons la valeur minimale de a + c.
+5. On a a + b + c = 180.
+6. Pour que b soit aussi grand que possible, a doit être aussi petit que possible. Le plus petit angle possible est de 1 degré (a=1).
+7.  Si a = 1, le plus petit angle suivant est 2 (b=2).
+8.  On doit avoir a, b et c différents. Par conséquent, si on souhaite maximiser b, les valeurs minimales pour a, b doivent être 1 et 2.
+9. Ainsi, a = 1, b = 2, et c = 180 - a - b = 180 - 1 - 2 = 177.
+10. Si b=89 alors a+c= 180-b = 180-89 =91.
+11. Ainsi, on a a=1, b=89 et c=90.
+12. De plus, l'angle médian doit être inférieur à 180/3 = 60.
+
+13.  Si a=x, b= x+1, c=180-2x-1, on a
+  x + (180-2x-1) = 180-x-1 = 179-x.
+  Pour minimiser la somme, x est le plus grand possible.
+  x+1 < 180-2x-1
+  3x < 178
+  x < 59.33.
+  Si x=59.
+  59+60+61.
+  Somme = 120.
+  Si x= 59, c = 60
+14. Les valeurs possibles pour les angles sont donc, 1°, 89° et 90°. La somme du plus petit et plus grand angle est 1° + 90° = 91°.
+
+Réponse : C)

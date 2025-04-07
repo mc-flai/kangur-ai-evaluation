@@ -1,0 +1,23 @@
+**Reasoning**: The problem states that the product of the ages of four gorillas is 882. We need to find four whole numbers that multiply together to give 882. We also know that all ages are younger than 18 and are whole numbers. Let's factorize 882 to find these numbers.
+
+882 = 2 * 3^2 * 7^2
+
+Next, we need to find combinations of factors that multiply to 882 and consist of four distinct numbers, all less than 18. 
+
+We can try different combinations:
+- 2 * 3 * 7 * 11 = 462 (Not a match)
+- 3 * 3 * 7 * 14 = 918 (Not a match)
+- 2 * 7 * 9 * 7 = 882 (This is a match)
+
+So, the ages are 2, 7, 9, and 7. However, since no two ages can be the same, we need to reconsider our approach. Trying other combinations:
+- 2 * 3 * 7 * 21 = 882 (21 is not less than 18)
+- 3 * 6 * 7 * 11 = 1386 (Not a match)
+- 2 * 3 * 9 * 17 = 918 (Not a match)
+- 2 * 3 * 7 * 13 = 546 (Not a match)
+- 2 * 7 * 9 * 7 = 882 (Not valid due to duplicate 7)
+- 2 * 3 * 13 * 11 = 882 (This is a match and all numbers are distinct and less than 18)
+
+The valid ages of the gorillas are 2, 3, 13, and 11. Adding these ages together gives:
+2 + 3 + 13 + 11 = 29.
+
+**Answer**: C).

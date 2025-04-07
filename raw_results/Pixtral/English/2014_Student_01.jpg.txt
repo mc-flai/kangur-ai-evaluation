@@ -1,0 +1,21 @@
+### Reasoning:
+
+1. We start with a 5x5x5 cube, which consists of \(5^3 = 125\) small 1x1x1 cubes.
+2. The solid shown in the image has several equally high pillars built upon a common base.
+3. To determine how many small cubes have been removed, we need to count the number of small cubes that remain in the solid.
+
+Let's count the number of cubes in each visible layer of the solid:
+
+- The bottom layer (base) has 5x5 = 25 cubes.
+- The second layer from the bottom has 4x4 = 16 cubes.
+- The third layer from the bottom has 3x3 = 9 cubes.
+- The fourth layer from the bottom has 2x2 = 4 cubes.
+- The top layer has 1x1 = 1 cube.
+
+Adding these up, the total number of cubes remaining in the solid is:
+\[ 25 + 16 + 9 + 4 + 1 = 55 \]
+
+4. To find out how many cubes have been removed, we subtract the number of remaining cubes from the total number of cubes in the original 5x5x5 cube:
+\[ 125 - 55 = 70 \]
+
+### Answer: E)

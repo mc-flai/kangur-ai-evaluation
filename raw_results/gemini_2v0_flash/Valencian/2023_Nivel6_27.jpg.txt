@@ -1,0 +1,30 @@
+Raonament:
+El llibre té 180 pàgines, numerades del 3 al 182. Cada full té dues pàgines numerades consecutivament.
+Busquem els fulls per als quals la suma dels nombres de les dues cares és un quadrat perfecte o un cub perfecte.
+El primer full té les pàgines 3 i 4, la suma és 7.
+El segon full té les pàgines 5 i 6, la suma és 11.
+L'últim full té les pàgines 181 i 182, la suma és 363.
+
+La suma de les dues cares serà de la forma $n + (n+1) = 2n + 1$. És a dir, és un nombre senar.
+Llavors, busquem nombres senars entre 7 i 363 que siguin quadrats perfectes o cubs perfectes.
+Quadrats perfectes senars: 9, 25, 49, 81, 121, 169, 225, 289, 361.
+Cubs perfectes senars: 27, 125, 343.
+A partir d'aquí calculem els valors de $n$, que són el número de la primera pàgina del full.
+$2n+1=9 \implies n=4$
+$2n+1=25 \implies n=12$
+$2n+1=49 \implies n=24$
+$2n+1=81 \implies n=40$
+$2n+1=121 \implies n=60$
+$2n+1=169 \implies n=84$
+$2n+1=225 \implies n=112$
+$2n+1=289 \implies n=144$
+$2n+1=361 \implies n=180$
+$2n+1=27 \implies n=13$
+$2n+1=125 \implies n=62$
+$2n+1=343 \implies n=171$
+
+Els nombres que compleixen les condicions són: 4, 12, 24, 40, 60, 84, 112, 144, 180, 13, 62, 171.
+Comprovem que tots aquests nombres són nombres de pàgina vàlids, és a dir, que estan entre 3 i 181. Tots compleixen aquesta condició.
+Per tant, hi ha 12 problemes que resoldrà Francesc.
+
+Resposta: E)

@@ -1,0 +1,10 @@
+Raisonnement :
+La question demande le nombre minimal d'arbres à planter pour avoir le même nombre de chaque côté de chaque chemin.
+Chaque chemin a déjà une moitié avec l'arbre existant. On regarde combien de fois chaque chemin croise les autres, et on plante des arbres de chaque côté.
+- Chemin 1 croise les chemins 2 et 3.
+- Chemin 2 croise les chemins 1 et 3.
+- Chemin 3 croise les chemins 1 et 2.
+Si on plante un arbre supplémentaire sur chaque chemin pour équilibrer les côtés, cela fait 1 arbre pour chaque chemin qui se croise.
+Il faut donc planter 2 arbres en plus.
+
+Réponse : B)

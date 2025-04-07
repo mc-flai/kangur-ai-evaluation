@@ -1,0 +1,48 @@
+
+La question demande de déterminer le chiffrement des unités du produit \((5^5 + 1)(5^{10} + 1)(5^{15} + 1)\).
+
+Pour résoudre cette question, nous devons d'abord calculer chaque terme dans le produit.
+
+1. Calculons \(5^5 + 1\) :
+   \[
+   5^5 = 3125
+   \]
+   \[
+   5^5 + 1 = 3125 + 1 = 3126
+   \]
+
+2. Calculons \(5^{10} + 1\) :
+   \[
+   5^{10} = 9765625
+   \]
+   \[
+   5^{10} + 1 = 9765625 + 1 = 9765626
+   \]
+
+3. Calculons \(5^{15} + 1\) :
+   \[
+   5^{15} = 781250000
+   \]
+   \[
+   5^{15} + 1 = 781250000 + 1 = 781250001
+   \]
+
+Maintenant, nous devons multiplier ces résultats ensemble :
+\[
+3126 \times 9765626 \times 781250001
+\]
+
+Pour déterminer le chiffre des unités du produit, nous devons nous concentrer sur les chiffres des unités de chaque terme et effectuer la multiplication modulo 10.
+
+1. Le chiffre des unités de \(3126\) est \(6\).
+2. Le chiffre des unités de \(9765626\) est \(6\).
+3. Le chiffre des unités de \(781250001\) est \(1\).
+
+Maintenant, multiplions ces chiffres des unités :
+\[
+6 \times 6 \times 1 = 36
+\]
+
+Le chiffre des unités de \(36\) est \(6\).
+
+Réponse : E)

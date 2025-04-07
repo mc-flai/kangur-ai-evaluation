@@ -1,0 +1,23 @@
+Razonamiento:
+1.  Comprender el problema: María tiene 10 trozos de papel, algunos cuadrados y otros triángulos. Corta 3 cuadrados en diagonal (cada cuadrado se convierte en 2 triángulos). Después del corte, tiene 13 trozos de papel (3 originales se convierten en 6 y se suman a los 7 restantes) y 42 vértices. Queremos saber cuántos triángulos tenía originalmente.
+
+2.  Definir variables:
+    *   `c`: número original de cuadrados.
+    *   `t`: número original de triángulos.
+
+3.  Establecer las ecuaciones:
+    *   `c + t = 10` (número total de trozos de papel originales).
+    *   Después de cortar 3 cuadrados, quedan `c - 3` cuadrados y `t + 6` triángulos.  El número total de trozos después del corte es (c-3)+(t+6) = 13, which equals c + t + 3 = 13. So, c + t = 10.
+    *   El número de vértices es 42. Cada cuadrado tiene 4 vértices y cada triángulo tiene 3 vértices. Después de los cortes hay c - 3 cuadrados (que tienen 4 vertices cada uno), y t + 6 triángulos (que tienen 3 vertices cada uno), then 4(c - 3) + 3(t + 6) = 42.  Esto se simplifica a `4c + 3t + 6 = 42`, o `4c + 3t = 36`.
+
+4.  Resolver el sistema de ecuaciones:
+    *   De la primera ecuación, `c = 10 - t`.
+    *   Sustituir en la segunda ecuación: `4(10 - t) + 3t = 36`, que se convierte en `40 - 4t + 3t = 36`, o `-t = -4`, entonces `t = 4`.
+    *   `c = 10 - t = 10 - 4 = 6`.
+
+5.  Comprobar la solución:
+    *   Originalmente: 6 cuadrados y 4 triángulos (total 10).
+    *   Después del corte: 3 cuadrados y 10 triángulos (total 13).
+    *   Vértices: 3 cuadrados (3 * 4 = 12 vértices) + 10 triángulos (10 * 3 = 30 vértices) = 42 vértices.
+
+Respuesta: E)

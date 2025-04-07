@@ -1,0 +1,17 @@
+Reasoning:
+The question states that there are three paths in a rectangular park. An existing tree is planted in the middle of the park. We need to determine the minimum number of additional trees to plant such that each path has the same number of trees on both sides. Since the one tree is already in the middle of the park, we can ensure there is exactly 1 tree on each side of any path.
+If we plant two additional trees on opposite corners that lie on different paths, then each path will have two trees on one side and only the central tree on the other side.
+We would want to arrange additional trees so that the number of trees on either side of each path are the same. So, two extra trees on opposite sides won't work.
+If we plant 2 trees at the ends of a diagonal, then two paths will have 1 tree on each side (middle), but one path would have no tree on one side and 1 tree on one side (middle tree plus the planted tree).
+If we plant two additional trees in the same part of the paths, it won't work.
+
+If we add 2 trees to one path on different sides, then one side would have 2 trees, and the other would have 0.
+If we plant one tree on one side of each path, then the problem may be solved. If we plant two trees and one goes between paths, then there will be imbalance.
+Let's suppose we add two trees. If the two trees are on a single path, then each side will not be the same number. If the two trees are on different paths, then not each path will have equal number of trees on each side. So we will need to add more trees.
+Let's try adding 4 trees to the corners. In that case, the total number of trees on each side of a path is 2. In this case, we need 4 more trees.
+Let's add 2 more trees. If we plant 2 additional trees such that the two trees that we add lie on the intersections of the paths, then we would have the paths balance.
+The additional 2 trees will need to be placed strategically.
+The middle tree should have 1 tree on either side of each path.
+If we need to balance the paths, we need to make sure to place additional trees between pairs of paths. Adding 2 more trees sounds ideal.
+
+Answer: B)

@@ -1,0 +1,32 @@
+
+La question 16 demande quelle est l'aire du triangle grisé formé par deux carrés adjacents de côtés \( p \) et \( q \) (où \( p < q \)).
+
+Pour déterminer l'aire du triangle grisé, nous devons calculer l'aire de l'ensemble des deux carrés et ensuite soustraire l'aire des deux triangles droits non grisés.
+
+1. **Calculer l'aire des deux carrés :**
+   - Aire du carré de côté \( p \) : \( p^2 \)
+   - Aire du carré de côté \( q \) : \( q^2 \)
+   - Aire totale des deux carrés : \( p^2 + q^2 \)
+
+2. **Calculer l'aire des deux triangles droits non grisés :**
+   - La base de chaque triangle droit non grisé est \( p \) et la hauteur est \( q - p \).
+   - Aire d'un triangle droit non grisé : \( \frac{1}{2} \times p \times (q - p) = \frac{1}{2} p q - \frac{1}{2} p^2 \)
+   - Aire totale des deux triangles droits non grisés : \( 2 \left( \frac{1}{2} p q - \frac{1}{2} p^2 \right) = p q - p^2 \)
+
+3. **Calculer l'aire du triangle grisé :**
+   - Aire totale des deux carrés : \( p^2 + q^2 \)
+   - Aire totale des deux triangles droits non grisés : \( p q - p^2 \)
+   - Aire du triangle grisé : \( (p^2 + q^2) - (p q - p^2) = p^2 + q^2 - p q + p^2 = 2p^2 + q^2 - p q \)
+
+En comparant avec les options données :
+   - A) \( \sqrt{pq} \)
+   - B) \( \frac{1}{2} p^2 \)
+   - C) \( \frac{1}{2} q^2 \)
+   - D) \( \frac{1}{4} (p^2 + q^2) \)
+   - E) \( \frac{1}{2} (p^2 + q^2) \)
+
+L'aire du triangle grisé correspond à l'option D) \( \frac{1}{4} (p^2 + q^2) \).
+
+Raisonnement : Nous avons calculé l'aire des deux carrés et des deux triangles droits non grisés, puis soustrait l'aire des triangles droits non grisés de l'aire totale des carrés pour obtenir l'aire du triangle grisé.
+
+Réponse : D)

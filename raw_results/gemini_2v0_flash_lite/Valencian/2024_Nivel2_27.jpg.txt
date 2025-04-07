@@ -1,0 +1,10 @@
+Raonament:
+1. **Analitzar les vistes:** Examinem les tres vistes: superior, frontal i lateral.
+2. **Comptar els cubs potencials:**
+   * **Vista superior:** Ens mostra la disposició de la part superior de l'estructura. Comptem 10 cubs en la vista superior.
+   * **Vista frontal:** Ens mostra la altura. Comptem 9 cubs en la vista frontal.
+   * **Vista lateral dreta:** Ens ajuda a veure la tercera dimensió i confirma l'estructura. Comptem 8 cubs en la vista lateral dreta.
+3. **Determinar el nombre màxim de cubs:** Hem de buscar el nombre màxim de cubs, el qual vindrà donat per la superposició de les vistes. Per exemple, on la vista frontal i la vista lateral dreta tenen una columna, la vista superior també hauria de tenir un cub allí. Comptem les quantitats màximes de cubs que satisfan les tres vistes: Hi ha una base de 4x2=8 cubs. Encima d'aquesta hi ha 4 cubs. Dalt a la dreta un cub i al darrere 2 cubs. Finalment, en la part central i a la dreta hi ha 5 cubs. En total 8+4+1+2+5 = 20 cubs.
+4. **Considerar les opcions:** La resposta ha de ser un dels números donats.
+
+Resposta: C) 20

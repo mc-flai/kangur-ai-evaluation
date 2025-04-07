@@ -1,0 +1,17 @@
+Razonamiento:
+El problema pide determinar el número total de casillas con miel en la colmena dada. Según la imagen, los números marcados en cada casilla indican el número de casillas vecinas que tienen miel.
+
+1. En primer lugar, identificamos cada casilla y el número de vecinos con miel.
+2. La suma de estos números no se traduce directamente en la cantidad total de casillas con miel, ya que cada casilla con miel contaría más de una vez.
+3. Contemos las casillas con miel:
+   - 1ª fila: 2 casillas con miel (2, 0)
+   - 2ª fila: 4 casillas con miel (2, 4, 3, 2)
+   - 3ª fila: 5 casillas con miel (3, 4, 3, 4, 1)
+   - 4ª fila: 3 casillas con miel (2, 4, 3)
+
+Sumando las casillas con miel de cada fila: 2 + 4 + 5 + 3 = 14 (inicialmente)
+Verificamos que no hay casillas contadas dos veces.
+
+Por lo tanto, la suma total de casillas con miel en la colmena es 11.
+
+Respuesta: E)

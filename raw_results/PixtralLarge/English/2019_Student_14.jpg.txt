@@ -1,0 +1,49 @@
+To analyze question 14, we need to understand the operation defined by Michael and determine which of the provided statements is definitely true when the condition \((a \diamond b) \diamond c = a \diamond (b \diamond c)\) holds.
+
+Michael's operation is defined as \( x \diamond y = y - x \).
+
+First, let's simplify the expressions on both sides of the condition:
+
+1. Calculate \((a \diamond b) \diamond c\):
+\[
+(a \diamond b) = b - a
+\]
+\[
+(b - a) \diamond c = c - (b - a) = c - b + a
+\]
+
+2. Calculate \(a \diamond (b \diamond c)\):
+\[
+(b \diamond c) = c - b
+\]
+\[
+a \diamond (c - b) = (c - b) - a = c - b - a
+\]
+
+Now, equate the two expressions:
+\[
+c - b + a = c - b - a
+\]
+
+This simplifies to:
+\[
+a = -a
+\]
+\[
+2a = 0
+\]
+\[
+a = 0
+\]
+
+Now, we need to determine which statement is definitely true if \(a = 0\):
+
+- (A) \(a = b\): Not necessarily true since \(b\) can be any value.
+- (B) \(b = c\): Not necessarily true since \(b\) and \(c\) can be any values.
+- (C) \(a = c\): Not necessarily true since \(c\) can be any value.
+- (D) \(a = 0\): This is definitely true based on our derivation.
+- (E) \(c = 0\): Not necessarily true since \(c\) can be any value.
+
+Reasoning: The condition simplifies to \(a = 0\), making statement (D) definitely true.
+
+Answer: D).

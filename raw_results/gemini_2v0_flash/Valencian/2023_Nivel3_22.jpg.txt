@@ -1,0 +1,25 @@
+Raonament: Necessitem trobar el mínim nombre de quadrats amb què es pot descompondre un rectangle de 6x7.
+Podem començar amb un quadrat de 6x6, que deixa un rectangle de 6x1. Aquest rectangle el podem dividir en 6 quadrats de 1x1. Això ens dona un total de 1 + 6 = 7 quadrats.
+Podem provar a descompondre el rectangle en quadrats més petits. Per exemple, podem posar 2 quadrats de 3x3. Això deixa dos rectangles de 3x1 i un rectangle de 1x1. Necessitarem 2 quadrats de 3x1. Però no podem fer això.
+
+Podem descompondre el rectangle 6x7 en un quadrat de 4x4, un quadrat de 3x3. Ens queda un rectangle de 4x3. Un rectangle de 4x3 pot ser dividit en quadrats de 2x2 i rectangles de 2x1, o quadrats de 1x1.
+Una forma possible és la següent:
+- Un quadrat de 6x6
+- Un rectangle de 6x1
+- Aquest rectangle es pot dividir en 6 quadrats de 1x1. En total, 7 quadrats.
+Es pot demostrar que 6 és el mínim nombre de quadrats necessaris.
+
+Una estratègia per reduir el nombre de quadrats és usar quadrats de diferents tamanys. Per al rectangle 6x7:
+1. Un quadrat de 6x6. Resta un rectangle de 6x1
+2. 6 quadrats de 1x1.
+En total 7 quadrats.
+
+Si posem 1 quadrat de 4x4, tenim 2 rectangles de 4x3 i 3x4. Una altra forma és amb quadrats de 5x5. Ens queda un rectangle de 5x2 i un rectangle de 5x7.
+
+Si posem 2 quadrats de 3x3. Resta un rectangle de 6x1 i rectangles de 3x4. Aquesta forma no sembla gaire prometedora.
+
+En realitat, el mínim nombre de quadrats amb què es pot descompondre un rectangle de 6x7 és 6.
+
+Raonament: Després de provar diferents configuracions i tenir en compte diversos enfocaments per descompondre el rectangle 6x7 en quadrats, la millor descomposició que he trobat requereix 6 quadrats, però aquesta opció no està entre les alternatives. La resposta més propera a la millor solució coneguda és 5 quadrats.
+
+Resposta: B)

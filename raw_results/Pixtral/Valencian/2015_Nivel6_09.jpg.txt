@@ -1,0 +1,21 @@
+
+La pregunta 9 nos pide determinar el área de un anillo, que es la diferencia entre el área del círculo mayor y el área del círculo menor. Los círculos están dados con una diferencia de radio de 10 cm.
+
+**Razonamiento:**
+1. Primero, determinamos el radio del círculo mayor. Dado que la diferencia en los radios es de 10 cm, el radio del círculo mayor es de 10 cm más el radio del círculo menor.
+2. El área de un círculo se calcula usando la fórmula \( A = \pi r^2 \).
+3. Para el círculo mayor, el radio es \( r + 10 \) cm.
+4. Para el círculo menor, el radio es \( r \) cm.
+5. El área del círculo mayor es \( \pi (r + 10)^2 \).
+6. El área del círculo menor es \( \pi r^2 \).
+7. El área del anillo es la diferencia entre estas dos áreas:
+   \[
+   \text{Área del anillo} = \pi (r + 10)^2 - \pi r^2
+   \]
+8. Simplificando, obtenemos:
+   \[
+   \text{Área del anillo} = \pi (r^2 + 20r + 100) - \pi r^2 = \pi (20r + 100) = 20\pi r + 100\pi
+   \]
+9. Sin embargo, no se nos proporciona el radio del círculo menor, por lo que no podemos calcular el área exacta del anillo con la información dada.
+
+**Respuesta:** E) No es posible determinar el área sin información adicional.

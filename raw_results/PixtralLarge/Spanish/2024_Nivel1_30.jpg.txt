@@ -1,0 +1,15 @@
+Para resolver este problema necesitamos encontrar el menor número de colores necesarios para pintar las líneas de tal manera que si dos líneas comparten una estación común, entonces se pintarán con colores diferentes. Este es un problema de coloración de grafos.
+
+**Razonamiento:**
+
+1. **Identificar las estaciones y líneas**: La figura muestra siete rutas de metro, y las estaciones están marcadas con círculos.
+
+2. **Grafo asociado**: Cada línea que conecta dos estaciones se puede considerar como una arista en un grafo, y cada estación como un vértice.
+
+3. **Grado de cada vértice**: Observamos que la estación central (marcada con el número 7) tiene seis líneas que confluyen en ella. Esto significa que esa estación tiene un grado de 6.
+
+4. **Teorema de coloración de grafos**: Según el teorema de coloración de grafos, el número mínimo de colores necesarios para un grafo es al menos igual al grado máximo de cualquier vértice más uno. En este caso, el grado máximo es 6, por lo que el número mínimo de colores necesarios es 6 + 1 = 7.
+
+5. **Verificación**: Si intentamos usar menos de 7 colores, encontraremos que no es posible colorear todas las líneas sin que dos líneas que comparten una estación común tengan el mismo color.
+
+**Respuesta: E)** 7.

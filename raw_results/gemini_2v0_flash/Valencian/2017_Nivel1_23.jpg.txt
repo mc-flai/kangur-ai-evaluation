@@ -1,0 +1,22 @@
+Raonament:
+L'àrea del triangle APD es pot calcular restant de l'àrea del quadrat ABCD les àrees dels triangles ABP i CDP.
+L'àrea del quadrat ABCD és 5 * 5 = 25 cm².
+La distància de P a BC és 1 cm, per tant, la distància de P a AB és 5 - 1 = 4 cm. La base del triangle ABP és AB = 5 cm i l'altura és 4 cm. Per tant, l'àrea del triangle ABP és (5 * 4) / 2 = 10 cm².
+La distància de P a BC és 1 cm, per tant, la distància de P a CD és 1 cm. La base del triangle CDP és CD = 5 cm i l'altura és 1 cm. Per tant, l'àrea del triangle CDP és (5 * 1) / 2 = 2.5 cm².
+
+L'àrea del triangle ADP és l'àrea del quadrat menys les àrees dels triangles ABP i CDP. No obstant això, no hi ha suficient informació sobre la ubicació de P en la figura.
+Anem a calcular l'area total del quadrat: 5 * 5 = 25.
+Ara calculem l'àrea de ABP: base AB=5, altura = 5-1 = 4. area ABP: 5*4/2 = 10
+Ara calculem l'àrea de CDP: base CD=5, altura = 1. area CDP: 5*1/2 = 2.5
+Ara calculem l'àrea de ADP: 25 - 10 - 2.5 = 12.5
+No obstant això, no apareix aquesta opció, per la qual cosa podem assumir que APD no són rectangles.
+L'àrea d'un triangle és 1/2 * base * altura. Si prenem AD com a base, AD = 5. Cal trobar l'altura. La posició de P dins del quadrat queda definida amb la informació de AP=5 cm i la distància a BC=1. Per la forma geomètrica, es conclou que P i D tenen la mateixa distància a AB. A més, si la distància de P a BC és 1, llavors P a AB és 4. L'altura h del triangle APD és la distància de P a AD. En aquest cas, considerem que DP=4, ja que DP és l'altura que s'ha de considerar. Amb això, cal calcular l'àrea del triangle amb APD on la base és AD=5. L'altra altura està en un punt que es situa just al centre del quadrat. En realitat, el punt P queda just en D. Per tant, l'àrea del triangle seria 5 * 5 = 25. Aquesta resposta tampoc funciona, i AP=5 cm es contradiu en que AD=5.
+
+Si ens oblidem de la condició AP=5 cm, i calculem l'àrea resultant amb el sistema descrit anteriorment: l'àrea total menys ABP i CDP:
+25-10-2.5 = 12.5
+A més, si dibuixem AP=5cm, i la distància de P a BC es 1 cm. Veiem que P queda pròxim a C i l'àrea del triangle ADP ha de ser superior a 10 cm.
+
+Si considerem que la coordenada del punt D es (0,5), del punt A és (0,0). P és (4,5) i (4,1), l'area de A(0,0) P(4,1) D(0,5) es determina per 1/2 |0*(1-5)+4(5-0)+0*(0-1)|
+= 1/2 |20|=10
+
+Resposta: B)

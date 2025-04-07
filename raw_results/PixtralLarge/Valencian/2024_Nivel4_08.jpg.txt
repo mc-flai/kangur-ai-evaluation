@@ -1,0 +1,14 @@
+Per resoldre aquesta pregunta, necessitem determinar el nombre mínim de xifres que es poden utilitzar per formar una data amb el format dd/mm, on dd i mm representen el dia i el mes, respectivament.
+
+Per a fer-ho, hem de considerar:
+1. Cada dia (dd) és una xifra de dos dígits.
+2. Cada mes (mm) és una xifra de dos dígits.
+3. Els imants que tenim transmeten una única xifra.
+
+Les possibles xifres per als dies són del 01 al 31, i per als mesos són del 01 al 12. Això vol dir que tenim les xifres següents disponibles: 0, 1, 2, 3, 5.
+
+Per a formar una data, necessitem dos dígits per al dia i dos dígits per al mes. Per tant, necessitem un total de quatre dígits per formar una data completa.
+
+Raonament: Cada data està formada per dues xifres pel dia i dues xifres pel mes, el que suma quatre xifres en total.
+
+Resposta: E) 20.

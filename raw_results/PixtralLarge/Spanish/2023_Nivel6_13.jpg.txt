@@ -1,0 +1,42 @@
+Para determinar la suma de las coordenadas del punto donde las funciones \( y = x^2 + 3x^2 + ax + 2a + 4 \) pasan por el mismo punto sin importar el valor de \( a \), debemos seguir estos pasos:
+
+1. **Simplificar la función**:
+   La función dada es \( y = x^2 + 3x^2 + ax + 2a + 4 \).
+   Simplifiquemos la expresión:
+   \[
+   y = x^2 + 3x^2 + ax + 2a + 4 = 4x^2 + ax + 2a + 4
+   \]
+
+2. **Encontrar el punto común**:
+   Para que las funciones pasen por el mismo punto sin importar el valor de \( a \), el término que contiene \( a \) debe ser cero. Esto significa que \( ax + 2a \) debe ser cero para cualquier valor de \( a \).
+   \[
+   ax + 2a = 0
+   \]
+   Factorizando \( a \):
+   \[
+   a(x + 2) = 0
+   \]
+   Para que esto sea cierto para cualquier valor de \( a \), \( x + 2 \) debe ser cero:
+   \[
+   x + 2 = 0 \implies x = -2
+   \]
+
+3. **Encontrar la coordenada \( y \)**:
+   Sustituimos \( x = -2 \) en la función simplificada:
+   \[
+   y = 4(-2)^2 + a(-2) + 2a + 4
+   \]
+   Simplificamos:
+   \[
+   y = 4(4) - 2a + 2a + 4 = 16 + 4 = 20
+   \]
+
+4. **Suma de las coordenadas**:
+   El punto común es \( (-2, 20) \). La suma de las coordenadas es:
+   \[
+   -2 + 20 = 18
+   \]
+
+**Razonamiento**: La función simplificada indica que el punto común es \( (-2, 20) \), y la suma de las coordenadas de este punto es 18.
+
+**Respuesta**: E) Ninguno de los anteriores

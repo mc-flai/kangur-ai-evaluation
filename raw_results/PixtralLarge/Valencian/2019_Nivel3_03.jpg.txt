@@ -1,0 +1,17 @@
+**Raonament**:
+Un cub de 3x3x3 està format per cubs més petits de 1x1x1. Per trobar la quantitat de cubs petits que conté, simplement hem de multiplicar les dimensions del cub més gran:
+
+3 (amplada) * 3 (alçada) * 3 (profunditat) = 27 cubs de 1x1x1.
+
+A la pregunta se'ns diu que hem de treure els cubs xicotets dels rengles centrals del cub gran. Les rengles centrals són:
+1. El rengle del mig que va del davant al darrere (3 cubs).
+2. El rengle del mig que va de l'esquerra a la dreta (3 cubs).
+3. El rengle del mig que va de dalt a baix (3 cubs).
+
+Tot i així, cal notar que en comptar aquests rengles s'estan comptant tres vegades el cub central del cub gran. Per això, en comptar els 9 cubs dels rengles centrals, hem de restar dos cubs per evitar comptar tres vegades el cub central. Així, els cubs centrals es redueixen a 7.
+
+Finalment, per trobar quantes unitats de 1x1x1 queden després de treure aquests 7 cubs del total inicial de 27, restem:
+
+27 - 7 = 20
+
+**Resposta**: C) 20.

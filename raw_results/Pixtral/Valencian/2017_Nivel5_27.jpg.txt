@@ -1,0 +1,17 @@
+**Razonamiento:**
+1. Primero, identificamos los números en el cuadrado 3x3 que suman 10 cuando se les quita cada uno de los cuadrados 2x2.
+2. El cuadrado 3x3 dado es:
+   ```
+   1  0
+   2  4
+   3  0
+   ```
+3. Calculamos la suma de los números en cada uno de los cuadrados 2x2:
+   - Primer cuadrado 2x2 (1 y 0): 1 + 0 = 1
+   - Segundo cuadrado 2x2 (2 y 4): 2 + 4 = 6
+   - Tercer cuadrado 2x2 (3 y 0): 3 + 0 = 3
+4. Sumamos los resultados de cada uno de los cuadrados 2x2: 1 + 6 + 3 = 10.
+5. Ahora, sumamos los números en el cuadrado 3x3: 1 + 0 + 2 + 4 + 3 + 0 = 10.
+6. Finalmente, restamos 10 de la suma total de los números en el cuadrado 3x3: 10 - 10 = 0.
+
+**Respuesta:** E)

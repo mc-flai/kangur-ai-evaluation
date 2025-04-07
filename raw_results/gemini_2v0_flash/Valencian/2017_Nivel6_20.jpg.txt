@@ -1,0 +1,60 @@
+Raonament: Siguen x, y, z i w els quatre nombres que hem d'afegir a la quadrícula. La quadrícula completa és:
+```
+a   b   x
+e   z   w
+c   d   y
+```
+
+Volem que la suma de cada fila i cada columna siga la mateixa. Anomenem aquesta suma S. Per tant:
+a + b + x = S
+e + z + w = S
+c + d + y = S
+a + e + c = S
+b + z + d = S
+x + w + y = S
+
+Sumant les tres primeres equacions, obtenim: a + b + x + e + z + w + c + d + y = 3S.
+Sumant les tres últimes equacions, obtenim: a + e + c + b + z + d + x + w + y = 3S.
+Això no ens dóna cap informació addicional.
+
+Però tenim que a + b + x = a + e + c, per tant b + x = e + c.
+També tenim que c + d + y = a + e + c, per tant d + y = a + e.
+També tenim que a + b + x = b + z + d, per tant a + x = z + d.
+També tenim que c + d + y = b + z + d, per tant c + y = b + z.
+
+Finalment, tenim que a + e + c = x + w + y, per tant a + e + c = x + w + y.
+També tenim que b + z + d = x + w + y, per tant b + z + d = x + w + y.
+
+Si escollim x, y, z i w de forma que:
+x = c
+y = a
+z = b
+w = d
+
+La quadrícula quedaria:
+```
+a   b   c
+e   b   d
+c   d   a
+```
+
+Això implicaria que a + b + c = e + b + d = c + d + a i també a + e + c = b + b + d = c + d + a, cosa que generalment no és cert. Però a + d = b + c sí que implicaria que això és cert. Però la resta d'igualtats no semblen certes en general.
+
+Prenem a + d = b + c.
+Podem posar e = (a+c+b+d) - (a+c+b+d) = S - a - c - b - d = S - a - c - b - d.
+Si e = S/3, podríem fer una matriu constant.
+
+Considerem la matriu:
+```
+1 2 3
+4 5 6
+7 8 9
+```
+Si la suma és 15, no funciona. Però en la generalitat, no sembla ser que A), B) ni C) siguin correctes.
+
+Si a + d = b + c, llavors podria ser que hi haguera una solució, per tant, podria ser la D). Si a+d=b+c i a + b + x = e + z + w, i tambe a+e+c = b+z+d.
+Considerem a = 1, b = 2, c = 3, d = 4, llavors 1 + 4 = 2 + 3. 
+
+Raonament: Després d'analitzar la situació, la resposta que millor s'adapta és la D).
+
+Resposta: D)

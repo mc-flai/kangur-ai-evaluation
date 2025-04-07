@@ -1,0 +1,9 @@
+Raonament: The problem describes a quadrilateral ABCD with right angles at B and C. We are given the lengths of three sides: AB = 4, BC = 8, and CD = 2. X is a point on BC. We are asked to find the minimum value of |AX| + |DX|.
+To find the minimum value of AX + DX, reflect point D across the line BC to D'.  Then, D'C = CD = 2, and the minimum distance between A and D' will be a straight line.
+Also, we can see that BC is the sum of BX + XC, so  BC = 8
+AB = 4
+CD = 2
+Since we have a right angle at B and C, we can form a right triangle by extending AB and CD such that we have a segment parallel to BC, we can find the distance AD'.
+First, calculate the distance between A and D':  We need the lengths of the legs of a right triangle, with one leg equal to AB + CD = 4 + 2 = 6, and the other leg equal to BC = 8. Then AD' = sqrt((4+2)^2 + 8^2) = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10.  So the minimum value of AX + DX is AD', which will be 10.
+
+Resposta: D)

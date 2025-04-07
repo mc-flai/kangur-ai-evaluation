@@ -1,0 +1,30 @@
+### Razonamiento
+
+*   La pregunta solicita la **suma de los dígitos de un número** integrado por una sucesión de números enteros posicionados en una cadena. Esa cadena va ordenada de la siguiente manera: 14, 104, 140, 23, 203, 230, 35 y un signo de interrogación.
+*   Observamos que cada número integrante de la cadena es obtenido sumando sus 3 dígitos anteriores. Es decir que el valor de cada signo se obtiene sumando los dígitos individuales de los 3 números anteriores.
+*   Teniendo en cuenta esta información, aplicamos una operación de suma de números de la siguiente manera: 
+
+    dado 14, aplicamos la suma: 1 + 4 = 5
+
+    como sabemos, el siguiente número es 104 y aplicando la misma operación: 1 + 0 + 4 = 5
+
+    hacemos lo mismo con 140: 1 + 4 + 0 = 5
+
+    Y luego con 23: 2 + 3 = 5
+
+    Asimismo, para 203: 2 +0 +3 = 5
+
+    Síguense las siguientes operaciones para 230 y obtenemos: 2 + 3 + 0 = 5
+
+    Hasta aquí comprendemos el acumulado de nuestra suma que es 30. Sabiendo que el número 35 es la sucesión siguiente a 5. Entonces 3 + 5 = 8
+*   Con estos indicios tenemos los siguientes datos: 
+
+    Las cadenas mostradas nos presentan 7 números y sabemos que en la iteración anterior sumar el signo de suma nos dio como resultado la cantidad exacta de dígitos gy la sucesión arrojaba. 
+
+        Sabiendo esto Calculamos la suma total de cada número en sucesión: 1+4+1+0+4+1+4+0+2+3+2+0+3+3+5=35, y obtenemos 62.
+
+    La suma de los dígitos es la sucesión con el resultado especificado en la pregunta, así que: 6+2=8. 
+
+### Respuesta
+
+No Answer

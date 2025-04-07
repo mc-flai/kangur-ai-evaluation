@@ -1,0 +1,12 @@
+Raonament: El problema demana calcular el nombre de possibles rutes que passen per totes les carreteres una sola vegada. Això és similar al problema del camí euleriano. En aquest cas, podem observar que hi ha quatre nodes (A, B, C i D) i que els graus de cada node són:
+- A: 2
+- B: 3
+- C: 2
+- D: 3
+Com que hi ha exactament dos nodes (B i D) amb grau imparell, és possible un camí euleriano (la cursa pot començar en una ciutat i acabar en una altra). Per calcular el nombre d'itineraris possibles, utilitzem la fórmula:
+Nombre d'itineraris = 2^(nombre de nodes imparells - 2) * (nombre de arestes /2 )!.
+Nombre d'arestes = 5
+Nombre d'itineraris = 2 * 2 = 8. Hi ha dos nodes de grau imparell.
+El recorregut començarà en un d'aquests nodes i acabarà en l'altre node imparell. Hi ha dues maneres de triar els punts inicial i final (B o D). Per a cada elecció inicial, hi ha 2^((nombre d'arestes que tenen grau imparell)-2) = 2^0 * (5/2)!. Hi ha 8 itineraris.
+
+Resposta: B)

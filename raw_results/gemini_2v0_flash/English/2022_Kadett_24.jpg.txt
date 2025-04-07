@@ -1,0 +1,58 @@
+Reasoning: Let 'd' be the one-way distance from home to school.  Then 2d is the total distance from home to school and back.
+Time by bike = 20 minutes for 2d.
+Time by foot = 60 minutes for 2d.
+Let 'x' be the distance from home to Eva's house.
+On the way to school, he biked 'x' and walked 'd-x'.
+On the way back, he walked 'd-x' and biked 'x'.
+Total time = (time biking x) + (time walking d-x) + (time walking d-x) + (time biking x) = 52 minutes.
+
+Since time = distance/speed and speed is distance/time, we can consider the time it takes him to complete the distance.
+Time to bike distance x = (x/2d)*20
+Time to walk distance d-x = ((d-x)/2d)*60
+
+Total time = (x/2d)*20 + ((d-x)/2d)*60 + ((d-x)/2d)*60 + (x/2d)*20 = 52
+=> (20x + 60d - 60x + 60d - 60x + 20x) / 2d = 52
+=> (-120x + 120d) / 2d = 52
+=> -120x + 120d = 104d
+=> 16d = 120x
+=> x = 16d/120
+=> x = 2d/15
+Total bike distance = x + x = 2x = 4d/15.  The fraction of the total distance he biked is (4d/15) / 2d = 4/30 = 2/15.
+
+This is incorrect. Let's approach differently.
+Let Tb = time taken to bike to school, Tw = time taken to walk to school
+2Tb = 20 so Tb = 10
+2Tw = 60 so Tw = 30.
+Yesterday: biked to Eva's (time = t1), walked to school (time = t2), walked to Eva's (time = t3), biked home (time = t4).
+t1 + t2 + t3 + t4 = 52
+
+Let fraction of distance to Eva's house be f.
+t1 = f * Tb = 10f
+t2 = (1-f) * Tw = 30(1-f)
+t3 = (1-f) * Tw = 30(1-f)
+t4 = f * Tb = 10f
+Total time = 20f + 60(1-f) = 52
+20f + 60 - 60f = 52
+-40f = -8
+f = 1/5
+
+Fraction of journey by bike = (f + f)/2 = f = 1/5 (the total distance to school and back is 2, thus, normalize it by 2)
+
+Reasoning: Let d be the distance from home to school.
+Bike time to school + back = 20 min => bike speed = 2d/20 = d/10
+Walk time to school + back = 60 min => walk speed = 2d/60 = d/30
+Let x be the distance from home to Eva's house.
+Time biking to Eva's = x/(d/10) = 10x/d
+Time walking to school = (d-x)/(d/30) = 30(d-x)/d
+Time walking to Eva's = (d-x)/(d/30) = 30(d-x)/d
+Time biking home = x/(d/10) = 10x/d
+Total time = 10x/d + 30(d-x)/d + 30(d-x)/d + 10x/d = 52
+(10x + 30d - 30x + 30d - 30x + 10x)/d = 52
+(-40x + 60d)/d = 52
+-40x + 60d = 52d
+8d = 40x
+x = d/5
+Total bike distance = x + x = 2x = 2d/5
+Part of journey by bike = (2d/5) / 2d = 1/5
+
+Answer: B)

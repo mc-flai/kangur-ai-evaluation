@@ -1,0 +1,25 @@
+La pregunta 17 descriu una seqüència de quadrats cadascun dels quals té un nombre de quadrats més gran que el seu predecessor. Cada quadrat està format per afegir una filera més de quadrats als costats del quadrat anterior. La pregunta demana quantos quadrats hi ha del quadrat 2023è al quadrat 2024è.
+
+Per resoldre això, cal entendre que cada quadrat està format per afegir una filera més de quadrats als costats del quadrat anterior. Per exemple, el quadrat 1è té 1x1 quadrats, el quadrat 2è té 3x3 quadrats, el quadrat 3è té 5x5 quadrats, i així successivament.
+
+La fórmula per calcular el nombre de quadrats en el quadrat nèès és (2n - 1)^2.
+
+Per al quadrat 2023è:
+\[ \text{Número de quadrats} = (2 \times 2023 - 1)^2 = 4045^2 \]
+
+Per al quadrat 2024è:
+\[ \text{Número de quadrats} = (2 \times 2024 - 1)^2 = 4047^2 \]
+
+La diferència entre el nombre de quadrats del quadrat 2024è i el quadrat 2023è és:
+\[ 4047^2 - 4045^2 \]
+
+Per simplificar, podem usar la fórmula de la diferència de quadrats:
+\[ (a + 1)^2 - a^2 = 2a + 1 \]
+on \( a = 4045 \).
+
+Així, la diferència és:
+\[ 2 \times 4045 + 1 = 8091 \]
+
+Per tant, la resposta correcta és:
+
+**Resposta: C)**

@@ -1,0 +1,20 @@
+Raonament:
+Primer, descomponem 1024 en factors primers: $1024 = 2^{10}$.
+Els divisors positius de $1024$ són $2^0, 2^1, 2^2, ..., 2^{10}$.
+La suma dels divisors positius de 1024 és:
+$a = 1 + 2 + 2^2 + ... + 2^{10} = \frac{2^{11} - 1}{2 - 1} = 2^{11} - 1 = 2048 - 1 = 2047$.
+El nombre de divisors és 11. El producte dels divisors positius de 1024 és:
+$b = (2^0 \cdot 2^{10}) \cdot (2^1 \cdot 2^9) \cdot (2^2 \cdot 2^8) \cdot (2^3 \cdot 2^7) \cdot (2^4 \cdot 2^6) \cdot 2^5 = (2^{10})^5 \cdot 2^5 = 2^{50} \cdot 2^5 = 2^{55}$.
+Aleshores $b = (2^{10})^{11/2} = 1024^{11/2} = (2^{10})^{\frac{11}{2}} = 2^{55}$.
+Una altra manera de calcular el producte dels divisors és utilitzar la fórmula:
+$b = n^{d/2}$, on $n$ és el nombre i $d$ és el nombre de divisors. En aquest cas, $n = 1024 = 2^{10}$ i $d = 11$.
+$b = (2^{10})^{11/2} = 2^{55}$.
+Ara provem les opcions donades:
+A) $(a - 1)^5 = (2047 - 1)^5 = 2046^5 \neq 2^{55}$.
+B) $(a + 1)^5 = (2047 + 1)^5 = 2048^5 = (2^{11})^5 = 2^{55} = b$.
+C) $a^5 = 2047^5 \neq 2^{55}$.
+D) $a^5 - 1 = 2047^5 - 1 \neq 2^{55}$.
+E) $a^5 + 1 = 2047^5 + 1 \neq 2^{55}$.
+Per tant, la resposta correcta és B.
+
+Resposta: B)

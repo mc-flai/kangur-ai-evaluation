@@ -1,0 +1,46 @@
+Razonamiento:
+1. Analizar la información proporcionada: Antonio obtuvo 46 puntos y Juan obtuvo 34 puntos. Cada persona lanzó 6 flechas.
+2. Observar las dianas: Contar las flechas en cada diana. Antonio tiene 6 flechas, Juan tiene 6 flechas y Lola tiene 6 flechas.
+3. Determinar el valor de cada flecha:  En la diana de Antonio, observamos que 6 flechas corresponden a 46 puntos. En la diana de Juan, observamos que 6 flechas corresponden a 34 puntos. Dado que cada flecha en el mismo anillo obtiene la misma cantidad de puntos, podemos determinar la puntuación por flecha de Antonio y Juan:
+    *   Antonio:  6 flechas = 46 puntos
+    *   Juan: 6 flechas = 34 puntos
+    *   Lola: 6 flechas = ? puntos
+    Para que Antonio obtuviera más puntos que Juan, las flechas en el anillo interior deben valer más que las flechas en el anillo exterior.
+    *   Antonio: (3 flechas en el centro) + (3 flechas en el anillo exterior) = 46 puntos
+    *   Juan: (2 flechas en el centro) + (4 flechas en el anillo exterior) = 34 puntos
+    *   Lola: (4 flechas en el centro) + (2 flechas en el anillo exterior) = ? puntos
+    *   Vamos a asignar variables:
+        *   x = puntos del anillo exterior
+        *   y = puntos del anillo interior
+        *   Ecuaciones:
+            *   3y + 3x = 46
+            *   2y + 4x = 34
+            *   Si dividimos la primera ecuación por 3, y = (46/3) - x, lo que no nos da un número entero, entonces asumimos que los puntos son diferentes.
+    *   Si cada flecha en el anillo exterior vale 5 puntos y cada flecha en el centro vale 10 puntos, las ecuaciones serían:
+            *   3(10) + 3(5) = 45, no 46, por lo tanto, no es 5.
+            *   Intentemos:
+                *   Ecuación Antonio: 3*x + 3*y = 46
+                *   Ecuación Juan: 2*x + 4*y = 34
+                *   Multiplicamos la ecuación de Juan por 1.5
+                *   3*x + 6*y = 51
+                *   Restamos la ecuación de Antonio a la ecuación de Juan.
+                *   0*x + 3*y = 5
+                *   y = 5/3, lo que no nos da un número entero
+    *   Intentemos otro enfoque:
+        *   Dado que hay 6 flechas en total y los puntos son diferentes, entonces una posible combinación es:
+        *   El anillo interior vale 8 puntos y el anillo exterior vale 4 puntos
+        *   Antonio: 3(8) + 3(4) = 36
+        *   Juan: 2(8) + 4(4) = 32
+        *   Lola: 4(8) + 2(4) = 40.
+        *  Sin embargo, los datos dados no nos permiten concluir los valores de los puntos.
+
+4. Determinar el número de puntos que obtuvo Lola:  En la diana de Lola, hay 4 flechas en el anillo interior y 2 en el exterior.  Según la lógica, y asumiendo que los puntos son diferentes, y dado que se desconoce el valor de cada flecha, no es posible determinar exactamente la cantidad de puntos que obtuvo Lola. Sin embargo, dentro de las opciones dadas, podemos tratar de deducir la respuesta.
+    *   Antonio = 46
+    *   Juan = 34
+    *   Lola = ?
+    *   La respuesta correcta debe estar en el rango entre 34 y 46.
+    *   Dado que Lola tiene más flechas en el centro que Juan, lo más lógico es que Lola tenga más puntos que Juan, pero menos que Antonio.
+
+5.  De acuerdo con los valores de las opciones, y dada la imposibilidad de calcular con precisión los valores, la opción más lógica es 40.
+
+Respuesta: D)

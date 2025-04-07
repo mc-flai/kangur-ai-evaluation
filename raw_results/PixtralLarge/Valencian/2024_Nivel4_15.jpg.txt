@@ -1,0 +1,52 @@
+Per resoldre aquesta qüestió, hem de calcular l'àrea del quadrilàter gris \(MBND\) dins del quadrilàter \(ABCD\).
+
+**Raonament**:
+
+1. **Determinar les longituds dels costats del quadrilàter \(ABCD\)**:
+   - \(AB = MB + BM = 6 \text{ cm} + 2 \text{ cm} = 8 \text{ cm}\)
+   - \(BC = 8 \text{ cm}\)
+   - \(CD = 8 \text{ cm}\)
+   - \(DA = 4 \text{ cm}\)
+
+2. **Determinar les longituds dels costats del quadrilàter \(MBND\)**:
+   - \(MN = MB = 6 \text{ cm}\)
+   - \(ND = 2 \text{ cm}\)
+   - \(DA = 4 \text{ cm}\)
+   - \(MB = 6 \text{ cm}\)
+
+3. **Calcular l'àrea del quadrilàter \(ABCD\)**:
+   - Utilitzarem la fórmula de l'àrea d'un quadrilàter:
+ 
+     \[
+     \text{Àrea} = \frac{1}{2} \times \text{diagonal1} \times \text{diagonal2} \times \sin(\theta)
+     \]
+
+   - Per simplificar, utilitzarem la descomposició del quadrilàter en dos triangles i calcular la seva àrea. La informació no inclou les diagonal, així que utilitzarem les longituds dels costats i les distàncies proporcionades.
+
+4. **Calcular l'àrea del quadrilàter gris \(MBND\)**:
+   - Podem considerar \(MBND\) com a part del quadrilàter \(ABCD\).
+   - L'àrea del quadrilàter \(MBND\) es calcula com la diferència entre l'àrea total de \(ABCD\) i l'àrea de \(ABND\).
+
+5. **Calcular l'àrea de \(ABND\)**:
+   - Podem aproximar l'àrea de \(ABND\) mitjançant l'àrea dels triangles \(ABM\) i \(CDN\).
+   - Àrea de \(ABM\):
+     \[
+     \text{Àrea} = \frac{1}{2} \times AB \times MB = \frac{1}{2} \times 8 \text{ cm} \times 6 \text{ cm} = 24 \text{ cm}^2
+     \]
+   - Àrea de \(CDN\):
+     \[
+     \text{Àrea} = \frac{1}{2} \times CD \times ND = \frac{1}{2} \times 8 \text{ cm} \times 2 \text{ cm} = 8 \text{ cm}^2
+     \]
+
+6. **Calcular l'àrea del quadrilàter gris \(MBND\)**:
+   - L'àrea de \(MBND\) és la diferència entre l'àrea total de \(ABCD\) i les àrees dels triangles \(ABM\) i \(CDN\).
+   - Àrea total de \(ABCD\) és aproximadament:
+     \[
+     \text{Àrea} = AB \times BC = 8 \text{ cm} \times 8 \text{ cm} = 64 \text{ cm}^2
+     \]
+   - Àrea de \(MBND\):
+     \[
+     \text{Àrea} = 64 \text{ cm}^2 - (24 \text{ cm}^2 + 8 \text{ cm}^2) = 64 \text{ cm}^2 - 32 \text{ cm}^2 = 32 \text{ cm}^2
+     \]
+
+**Resposta**: D) 32 cm²

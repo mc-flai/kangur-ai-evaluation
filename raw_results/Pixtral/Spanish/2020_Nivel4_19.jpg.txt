@@ -1,0 +1,38 @@
+Para resolver el problema, primero debemos entender la operación \(\otimes\) definida como \(n \otimes m = (n-1) \cdot (n-2) \cdot \ldots \cdot (n-m)\). Luego, necesitamos encontrar el valor de \(x\) tal que \(8 \otimes x = 210\).
+
+1. **Identificar el valor de \(x\)**:
+   - La operación \(\otimes\) implica multiplicar todos los números enteros positivos desde \(n-1\) hasta \(n-m\).
+   - Dado \(n = 8\), necesitamos encontrar \(x\) tal que \(8 \otimes x = 210\).
+
+2. **Evaluar la operación \(\otimes\)**:
+   - Para \(n = 8\), la operación \(\otimes\) se convierte en \(8 \otimes x = 7 \cdot 6 \cdot 5 \cdot \ldots \cdot (8-x)\).
+   - Necesitamos encontrar el valor de \(x\) que haga que esta multiplicación sea igual a 210.
+
+3. **Probar diferentes valores de \(x\)**:
+   - Para \(x = 2\):
+     \[
+     8 \otimes 2 = 7 \cdot 6 = 42 \quad (\text{no es 210})
+     \]
+   - Para \(x = 3\):
+     \[
+     8 \otimes 3 = 7 \cdot 6 \cdot 5 = 210 \quad (\text{es 210})
+     \]
+   - Para \(x = 4\):
+     \[
+     8 \otimes 4 = 7 \cdot 6 \cdot 5 \cdot 4 = 840 \quad (\text{no es 210})
+     \]
+   - Para \(x = 5\):
+     \[
+     8 \otimes 5 = 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 = 2520 \quad (\text{no es 210})
+     \]
+   - Para \(x = 6\):
+     \[
+     8 \otimes 6 = 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 = 5040 \quad (\text{no es 210})
+     \]
+
+4. **Conclusión**:
+   - El valor de \(x\) que hace que \(8 \otimes x = 210\) es \(x = 3\).
+
+Razonamiento: Evaluamos la operación \(\otimes\) para diferentes valores de \(x\) y encontramos que \(x = 3\) es el valor que hace que la multiplicación sea igual a 210.
+
+Respuesta: B)

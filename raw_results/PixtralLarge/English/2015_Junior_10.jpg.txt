@@ -1,0 +1,15 @@
+A convex pentagon has all its internal angles less than 180 degrees. For a pentagon, the sum of the internal angles is given by the formula (n-2) * 180 degrees, where n is the number of sides. Since a pentagon has 5 sides:
+
+Sum of internal angles = (5-2) * 180 = 3 * 180 = 540 degrees.
+
+In a convex pentagon, no internal angle can be 180 degrees or more. Thus, the number of right angles (90 degrees each) must be considered. Since the sum of internal angles is 540 degrees, and each right angle is 90 degrees, the maximum number of right angles can be calculated as:
+
+540 / 90 = 6.
+
+However, a pentagon can only have up to 5 angles, and all angles cannot be right angles because that would make it a regular pentagon, not a convex one. Therefore, the number of right angles must be at most 4, or less if there are other angles present.
+
+Considering these constraints, the possible values for the number of right angles (n) in a convex pentagon can be 0, 1, 2, 3, or 4.
+
+Reasoning: The sum of internal angles in a pentagon is 540 degrees, and each right angle is 90 degrees. Therefore, a convex pentagon can have up to 4 right angles, making the possible values of n: 0, 1, 2, 3, 4.
+
+Answer: B).

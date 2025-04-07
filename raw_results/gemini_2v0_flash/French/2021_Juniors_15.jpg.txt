@@ -1,0 +1,11 @@
+Reasoning:
+The starting order is I, II, III, IV, V.
+The finishing order is III, V, I, IV, II.
+To find the minimum number of points, we count the minimum number of passes.
+- III passed I and II (2 points).
+- V passed I, II and IV (3 points).
+- I passed IV and II (2 points).
+- IV passed II (1 point).
+Total points = 2 + 3 + 2 + 1 = 8.
+
+Answer: C)

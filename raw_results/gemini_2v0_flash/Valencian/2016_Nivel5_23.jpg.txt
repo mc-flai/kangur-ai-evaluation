@@ -1,0 +1,10 @@
+Raonament: L'estratègia òptima és dividir l'espai de possibilitats a la meitat amb cada pregunta. Amb cada pregunta, podem eliminar la meitat dels nombres possibles.
+
+* Pregunta 1: "És el nombre més gran que 7?" (Divideix entre 1-7 i 8-15)
+* Pregunta 2: Depenent de la resposta, dividim l'espai restant per la meitat. Per exemple, si la resposta a la primera pregunta és "sí" (8-15), preguntem "És el nombre més gran que 11?" (Divideix entre 8-11 i 12-15)
+* Pregunta 3: Si la resposta a la segona pregunta és "sí" (12-15), preguntem "És el nombre més gran que 13?" (Divideix entre 12-13 i 14-15). Si la resposta és "no" (8-11), preguntem "És el nombre més gran que 9?".
+* Pregunta 4: Amb la quarta pregunta, en el pitjor dels casos, haurem reduït les possibilitats a un sol nombre.
+
+Ja que 2^3 = 8 < 15 i 2^4 = 16 > 15, necessitem 4 preguntes.
+
+Resposta: D)

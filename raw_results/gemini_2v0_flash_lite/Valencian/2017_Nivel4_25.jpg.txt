@@ -1,0 +1,5 @@
+Raonament: Primer, trobem la descomposició en factors primers de 1000: 1000 = 2^3 * 5^3.
+Els divisors de 1000 són de la forma 2^a * 5^b, on 0 <= a <= 3 i 0 <= b <= 3. Els divisors parells són aquells on a >= 1.
+Per calcular la suma dels divisors parells, podem utilitzar la fórmula: (2^1 + 2^2 + 2^3) * (1 + 5^1 + 5^2 + 5^3) = (2 + 4 + 8) * (1 + 5 + 25 + 125) = 14 * 156 = 2184.
+
+Resposta: C)

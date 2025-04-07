@@ -1,0 +1,12 @@
+**Raonament**: La pregunta demana quin és l'últim dígit que Dani ha escrit en la successió de 2018 dígits. La successió comença amb el primer dígit del cap avall, després el del cap enrere, i així successivament.
+
+Per trobar l'últim dígit, hem de determinar la posició del 2018è dígit en la successió. Cada parell de dígits correspon a un parell de cap avall i cap enrere, és a dir, cada parell té dos dígits. Per tant, dividim 2018 per 2 per trobar quantes parelles completes hi ha:
+2018 / 2 = 1009
+
+Això significa que el 2018è dígit és el segon dígit de la 1009ena parella. Per tant, hem de trobar el segon dígit de la parella de dígits corresponent a la posició 1009. En la successió, els dígits de cada parella són:
+- Cap avall: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+- Cap enrere: 1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1
+
+El segon dígit de la parella en la posició 1009 és el dígit del cap enrere. El dígit del cap enrere corresponent a la posició 1009 és 1.
+
+**Resposta**: A) 1

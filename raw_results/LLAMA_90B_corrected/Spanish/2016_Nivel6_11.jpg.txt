@@ -1,0 +1,9 @@
+Razonamiento: 
+
+*   El problema consiste en encontrar el valor que deben asumir los números $a,$ $b,$ $c,$ $y$ $d$ para que
+    $$a + 2 = b - 2 = 2c = d/2,$$ para que caigan en el rango 10 a 20 puntos.
+*   Si $a + 2 = b - 2,$ entonces $a + 2 - (b - 2) = 0,$ o lo mismo, $a - b = -4.$
+*   Si $a + 2 = 2c,$ entonces $a + 2 - 2c = 0,$ y por lo tanto $a = 2c - 2.$ Ya sea el caso $a = 2c - 2$ y $b = a + 4$ o $b = 2c + 2,$ entonces están en el rango 10 a 20 puntos.
+*   Si $d/2 = b - 2,$ entonces $b - d/2 = 2$ o lo mismo, $d = 2(b - 2),$ por lo que tenemos $d = 2a + 4 < 50$ y también $d/2 = 2c,$ con lo que obtenemos el valor de $d$ en términos de $c,$ y el resultado es $2c$ único en el rango de 10 a 20 puntos.
+
+Respuesta: B)

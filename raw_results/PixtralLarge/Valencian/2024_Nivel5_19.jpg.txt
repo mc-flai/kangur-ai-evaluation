@@ -1,0 +1,24 @@
+Per resoldre el problema de Cristina, hem de trobar quatre números de l'1 al 12 tals que la suma de cada parell d'aquests números sigui un múltiple de 3.
+
+**Raonament:**
+
+1. Considerem els números de l'1 al 12: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.
+2. Un múltiple de 3 és un nombre que es pot dividir per 3 sense deixar residu.
+3. Per tal que la suma de cada parell de números sigui un múltiple de 3, els números han de ser de la forma:
+   - (3k) o (3k+1) o (3k+2) on k és un enter.
+4. Analitzem les opcions proporcionades:
+
+   A) 1, 4, 7, 10
+   - Sumes: 1+4=5 (no), 1+7=8 (no), 1+10=11 (no), 4+7=11 (no), 4+10=14 (no), 7+10=17 (no)
+   B) 3, 5, 7, 9
+   - Sumes: 3+5=8 (no), 3+7=10 (no), 3+9=12 (sí), 5+7=12 (sí), 5+9=14 (no), 7+9=16 (no)
+   C) 1, 2, 11, 12
+   - Sumes: 1+2=3 (sí), 1+11=12 (sí), 1+12=13 (no), 2+11=13 (no), 2+12=14 (no), 11+12=23 (no)
+   D) 5, 6, 7, 8
+   - Sumes: 5+6=11 (no), 5+7=12 (sí), 5+8=13 (no), 6+7=13 (no), 6+8=14 (no), 7+8=15 (sí)
+   E) 3, 6, 9, 12
+   - Sumes: 3+6=9 (sí), 3+9=12 (sí), 3+12=15 (sí), 6+9=15 (sí), 6+12=18 (sí), 9+12=21 (sí)
+
+5. L'única opció que compleix amb la condició que totes les sumes de parells són múltiples de 3 és la E) 3, 6, 9, 12.
+
+**Resposta:** E)

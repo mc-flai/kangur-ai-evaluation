@@ -1,0 +1,14 @@
+Reasoning: We want to find the minimum number of swaps to transform the word "RAGNUUKOO" to "KANGOUROU".
+Let's write both words aligned and look at what needs to be swapped:
+
+R A G N U U K O O
+K A N G O U R O U
+
+1. Swap R and K: KARNGUUOO
+2. Swap G and N: KANGRUGOO
+3. Swap G and R: KANGURGOU
+4. Swap G and O: KANGOUROU
+
+Thus we need 4 swaps in total.
+
+Answer: C)

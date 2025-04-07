@@ -1,0 +1,25 @@
+### Raonament:
+
+El problema descriu una quadrícula 3x3 on els quatre quadrats a la diagonal principal i secundària tenen nombres que sumen iguals. Els quadrats estan etiquetats com a \(a\), \(b\), \(c\), \(d\), i \(e\).
+
+1. **Diagonal Principal**: Els quadrats a la diagonal principal són \(a\), \(e\), i \(d\).
+2. **Diagonal Secundària**: Els quadrats a la diagonal secundària són \(b\), \(e\), i \(c\).
+
+Per a que les sumes dels nombres en les diagonals siguin iguals, les sumes de \(a + e + d\) i \(b + e + c\) han de ser iguals.
+
+3. **Sumes de les Diagonals**:
+   - \(a + e + d = b + e + c\)
+
+4. **Simplificant l'igualitat**:
+   - \(a + d = b + c\)
+
+5. **Opcions**:
+   - A) En qualsevol cas: No és una declaració útil.
+   - B) Nombres si \(a = b = c = d = e\): Això no és possible perquè no hi ha cap nombre que pugui estar en quatre posicions diferents a la quadrícula.
+   - C) Nombres si \(a + b = c + d\): Això no és correcte perquè no té en compte la condició de la diagonal secundària.
+   - D) Nombres si \(a + d = b + c\): Això és correcte perquè és la suma de les diagonals.
+   - E) Una altra resposta: No hi ha cap altra opció vàlida donada.
+
+### Resposta:
+
+D) Nombres si \(a + d = b + c\)

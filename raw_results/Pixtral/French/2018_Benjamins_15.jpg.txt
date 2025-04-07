@@ -1,0 +1,38 @@
+
+Raisonnement :
+1. Nous devons déterminer l'ordre des points A, R et I sur le segment [TE] en utilisant les relations données :
+   - TA = 1/4 TE
+   - ER = 1/8 ET
+   - AI = 1/2 TE
+
+2. Commençons par additionner les longueurs données :
+   - TA = 1/4 TE
+   - ER = 1/8 ET
+   - AI = 1/2 TE
+
+3. Convertissons ces fractions en termes d'une longueur commune pour faciliter la comparaison :
+   - TA = 1/4 TE
+   - ER = 1/8 ET
+   - AI = 1/2 TE
+
+4. Pour comparer ces longueurs, nous devons les exprimer en termes d'une même unité. Supposons que TE = 1 unité pour simplifier :
+   - TA = 0,25
+   - ER = 0,125
+   - AI = 0,5
+
+5. En additionnant ces longueurs :
+   - TA + ER + AI = 0,25 + 0,125 + 0,5 = 0,875
+
+6. Puisque TE = 1, cela signifie que la somme des longueurs TA, ER et AI est inférieure à TE, ce qui est cohérent.
+
+7. Pour déterminer l'ordre des points, nous devons examiner les positions relatives :
+   - TA = 0,25 (point A est à 0,25 TE)
+   - ER = 0,125 (point R est à 0,125 TE)
+   - AI = 0,5 (point I est à 0,5 TE)
+
+8. En comparant ces valeurs, nous trouvons que :
+   - ER (0,125) < TA (0,25) < AI (0,5)
+
+9. Par conséquent, l'ordre des points est R, A, I.
+
+Réponse : B

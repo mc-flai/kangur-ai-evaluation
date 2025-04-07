@@ -1,0 +1,38 @@
+Pour résoudre ce problème, nous devons placer les nombres 3, 4, 5, 6, 7, 8 et 9 dans les sept cercles de sorte que les trois sommes de trois nombres alignés soient égales. Voici comment nous pouvons procéder :
+
+1. **Déterminer la somme totale des nombres** :
+   Les nombres à placer sont : 3, 4, 5, 6, 7, 8, 9, et un nombre inconnu "x" au centre.
+
+   La somme totale des nombres donnés (sans "x") est :
+   \[
+   3 + 4 + 5 + 6 + 7 + 8 + 9 = 42
+   \]
+
+2. **Calculer la somme des trois sommes** :
+   Étant donné que les trois sommes doivent être égales, chaque somme doit être égale à un tiers de la somme totale des nombres plus le nombre central "x".
+
+   Soit S la somme de chaque alignement, alors :
+   \[
+   3S = 42 + 3x
+   \]
+   Donc,
+   \[
+   S = \frac{42 + 3x}{3} = 14 + x
+   \]
+
+3. **Simplifier l'équation** :
+   Nous savons que chaque somme doit être un nombre entier. Pour que S soit un nombre entier, "x" doit être choisi tel que \(14 + x\) soit un nombre entier. Puisque les nombres donnés sont des entiers, nous devons choisir "x" de manière à ce que \(14 + x\) soit également un entier.
+
+4. **Choisir "x" pour que les sommes soient égales** :
+   Pour que les sommes soient égales, nous devons choisir "x" de manière à ce que chaque alignement de trois nombres donne la même somme. En testant les valeurs possibles, nous trouvons que si \(x = 6\), chaque alignement donne une somme de 18.
+
+   Par exemple, une configuration possible est :
+   - 3, 9, 6 (somme = 18)
+   - 4, 8, 6 (somme = 18)
+   - 5, 7, 6 (somme = 18)
+
+   Chaque alignement donne une somme de 18, ce qui satisfait la condition du problème.
+
+**Raisonnement** : En plaçant les nombres de manière à ce que les trois sommes de trois nombres alignés soient égales, nous trouvons que le nombre placé dans le cercle central doit être 6 pour que chaque somme soit de 18.
+
+**Réponse** : B) 6.

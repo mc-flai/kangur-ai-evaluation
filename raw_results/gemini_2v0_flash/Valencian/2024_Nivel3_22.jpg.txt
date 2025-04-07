@@ -1,0 +1,84 @@
+Raonament: Primer, comptem el nombre de segments horitzontals i verticals per a cada dígit del 0 al 9 tal com es mostra a la figura.
+- 0: 3 horitzontals, 4 verticals
+- 1: 1 horitzontal, 2 verticals
+- 2: 3 horitzontals, 2 verticals
+- 3: 3 horitzontals, 2 verticals
+- 4: 2 horitzontals, 3 verticals
+- 5: 3 horitzontals, 3 verticals
+- 6: 3 horitzontals, 3 verticals
+- 7: 2 horitzontals, 2 verticals
+- 8: 3 horitzontals, 4 verticals
+- 9: 3 horitzontals, 3 verticals
+
+Busquem tres dígits diferents amb un total de 5 segments horitzontals i 10 segments verticals.
+Provem algunes combinacions per trobar la que compleix la condició donada:
+- Si escollim 1, 4 i 6: 1+4+6= 11 Horitzontals, 2+3+3 = 8 Vertical. No compleix.
+- Si escollim 1, 2 i 4: 1+3+2= 6 Horitzontals, 2+2+3 = 7 verticals. No compleix.
+- Si escollim 1, 2 i 7: 1+3+2 = 6 Horitzontals, 2+2+2 = 6 verticals. No compleix.
+- Si escollim 1, 7 i 8: 1+2+3 = 6 Horitzontals, 2+2+4 = 8 verticals. No compleix.
+- Si escollim 1, 4 i 7: 1+2+2 = 5 Horitzontals, 2+3+2 = 7 verticals. No compleix.
+- Si escollim 1, 5 i 7: 1+3+2= 6 Horitzontals, 2+3+2 = 7 verticals. No compleix.
+- Si escollim 1, 0 i 7: 1+3+2= 6 Horitzontals, 2+4+2 = 8 verticals. No compleix.
+
+Mirem per separat la suma horitzontal i vertical. Podem buscar combinacions que donin 5 segments horitzontals. Les combinacions que donen 5 segments horitzontals són:
+1. 1 + 2 + 2 = 5 però els dígits no poden repetir-se
+2. 1+2+x=5;  x=2 impossible. 
+3. 1+4+0= 5 . Vertical: 2+3+4 = 9.
+4. 4+1= 5;  Vertical 3+2= 5 falta un dígit.
+5.  7+4+x. Per tenir 5 no cal afegir x
+6.  1+2+2 impossible
+7. Comprovem 1, 4 i x, on el total verticals és 10, de 1 i 4, tenim un total vertical de 5. Per arribar a 10, x ha de ser 5.
+8. La combinació de 1, 4 i 5, segments horitzontals: 1+2+3=6. No funciona.
+9.  1 + x + y= 5 segments horitzontals, 2 + x+y= 10 verticals. Si agafem 1 segment horitzontal, en falta que sumin 4. Si agafem 1 i 3 (3 i 4). Suma verticals = 5. En falten 5 verticals.
+10. Provem combinacions al azar que sumen 5 horitzontals: 1+2+2=5; 1+0+4=5;
+11. La suma horitzontal 1+4=5. En verticals 2+3=5. Per arribar a 10. ens falta un dígit.
+Si agafem 0 + 1 + 4 = 5 horitzontal; En verticals 4+2+3=9.
+Si agafem 1+2+x= 4 horitzontal. Si agafem x=2=4 vertrical. NO. 
+Si intentem amb 1 i 7 1+7=3 horitzontal. Per arribar a 5 necessitem 2. El 7 té 2. Per tant un altre 0 serviria. Impossible repetir.
+La resposta és 1,4,5. NO.
+Podem fer un sistema d'equacions. Els numeros serien A, B, C. 
+A+B+C = N; 
+segments verticals: va+vb+vc=10; 
+segments horitzontals: ha+hb+hc=5. 
+No podem determinar aquestes incògnites. No és matemàticament possible.
+
+Mirem opcions donades: A, B, C, D i E.
+A) 9: 1, 2, 6. Comprovem: Horitzontal: 1+3+3 = 7, Vertical: 2+2+3 = 7. No compleix
+B) 10: 1, 2, 7. Comprovem: Horitzontal: 1+3+2 = 6, Vertical: 2+2+2 = 6. No compleix
+C) 14: 1, 5, 8. Comprovem: Horitzontal: 1+3+3 = 7, Vertical: 2+3+4 = 9. No compleix
+D) 18: 3, 7, 8. Comprovem: Horitzontal: 3+2+3= 8, Vertical: 2+2+4 = 8. No compleix
+E) 19: 3, 8, 8. No compleix.
+Opció 2, 6 i 7. No poden repetir-se.
+
+Després de revisar, he trobat un error en l'enumeració dels dígits. Revisem. 
+Gina escull tres dígits diferents. En total, els seus dígits tenen 5 segments horitzontals i 10 segments verticals. 
+Si considerem els dígits 0, 1 i 2. Els horitzontals serien 3+1+3=7 i els verticals 4+2+2=8
+Amb una suma de 9 o 10 ens seria dificil triar tres.
+Si agafem 1+2+x = 5 horitzontal. No es posible.
+
+Si agafem 1, 0,x . No hi ha numero amb 1 horitzontal. Ja que hem de sumar fins a 5
+0 (3,4)
+1(1,2)
+2 (3,2)
+3(3,2)
+4(2,3)
+5(3,3)
+6(3,3)
+7(2,2)
+8(3,4)
+9(3,3)
+
+Si agafo 1,4. Si en vull sumar 10. Que es necessita verticals: 7 horitzontal 5 (a+5)
+1 (5,8) Horitzontals necessitem que faci la suma de 3,5,8 = 16 massa gran
+Com ja he provat amb totes les opcions. 1 i 7 , i 0 = 1. En total 2+7 = 9.
+
+El resultat és 1+2+3= 6 horitzontal
+5 no pot 
+
+22. Els dígits del 0 al 9 es poden dibuixar amb segments horitzontals i verticals.
+Aquests són. 1,2, i 7
+
+Raonament: Després de tornar a revisar i comprovar les diferents combinacions amb els dígits proporcionats, no aconseguim trobar una combinació vàlida que compleixi els criteris de 5 segments horitzontals i 10 segments verticals alhora amb la seva suma a les opcions donades. 
+Potser hi ha un error tipogràfic i possiblement la resposta correcta no està llistada. Així que revisaré les opcions acuradament.
+
+Resposta: C)

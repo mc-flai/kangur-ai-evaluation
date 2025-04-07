@@ -1,0 +1,13 @@
+### Raonament:
+
+La pregunta 12 tracta sobre la implementació d'un algoritme matemàtic per a un grup, on es promete que els grups de n amics tenen un descuento del n % en cada entrada. Esmenta que els grups que guadisquen una promoció poden tenir un màxim descuento per a un grup de 4 entrades. La pregunta pregunta quants individus, en el cas més baix, poden haver-hi en un grup amb un màxim de persones.
+
+Per resoldre això, primerment, considerem el descuento màxim que es pot aplicar. Si un grup de 4 persones té un descuento del 4 % per cada membre, això significa que el descuento total és del 16 % (4 % per persona * 4 persones). Aquest és el descuento màxim que es pot aplicar.
+
+Ara, per determinar el nombre mínim de persones en un grup, considerem el descuento màxim aplicable. Si el descuento màxim és del 16 %, això significa que el grup més petit que podria beneficiar-se d'aquest descuento màxim són 4 persones.
+
+Per tant, el nombre mínim de persones en un grup amb un descuento màxim és 4.
+
+### Resposta:
+
+C) 30

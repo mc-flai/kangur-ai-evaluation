@@ -1,0 +1,7 @@
+Reasoning:
+We need to find the number of digits of $(2^{22})^5 \times (5^{55})^2$.
+First, simplify the expression:
+$(2^{22})^5 \times (5^{55})^2 = 2^{22 \times 5} \times 5^{55 \times 2} = 2^{110} \times 5^{110} = (2 \times 5)^{110} = 10^{110}$
+$10^{110}$ has $110 + 1 = 111$ digits.
+
+Answer: E)

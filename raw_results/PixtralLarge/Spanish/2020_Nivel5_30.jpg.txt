@@ -1,0 +1,43 @@
+Para resolver este problema, primero necesitamos entender que los números positivos consecutivos de tres cifras son todos divisibles por la cifra de las unidades del menor de ellos. Esto significa que el menor de los números tiene que ser un número tal que todos los números consecutivos de tres cifras que le siguen también sean divisibles por su cifra de las unidades.
+
+1. Supongamos que el menor número es 100. Las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Sin embargo, 101, 102, etc., no son divisibles por 0. Por lo tanto, 100 no puede ser el menor número.
+
+2. Supongamos que el menor número es 110. Las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Sin embargo, 111, 112, etc., no son divisibles por 0. Por lo tanto, 110 no puede ser el menor número.
+
+3. Supongamos que el menor número es 120. Las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Sin embargo, 121, 122, etc., no son divisibles por 0. Por lo tanto, 120 no puede ser el menor número.
+
+4. Supongamos que el menor número es 130. Las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Sin embargo, 131, 132, etc., no son divisibles por 0. Por lo tanto, 130 no puede ser el menor número.
+
+5. Supongamos que el menor número es 140. Las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Sin embargo, 141, 142, etc., no son divisibles por 0. Por lo tanto, 140 no puede ser el menor número.
+
+Ahora, consideremos el menor número como 101. Las cifras de las unidades de los números consecutivos serían 1, 2, 3, etc. Estos números son 101, 102, 103, etc., y todos son divisibles por 1. Por lo tanto, 101 es el menor número posible.
+
+La suma de las cifras del menor número (101) es 1 + 0 + 1 = 2. Sin embargo, esto no coincide con ninguna de las opciones dadas.
+
+Reevaluemos el problema:
+
+Si el menor número es 110, las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Estos números son 110, 111, 112, etc., y todos son divisibles por 0. Por lo tanto, 110 es el menor número posible.
+
+La suma de las cifras del menor número (110) es 1 + 1 + 0 = 2. Sin embargo, esto no coincide con ninguna de las opciones dadas.
+
+Reevaluemos nuevamente:
+
+Si el menor número es 120, las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Estos números son 120, 121, 122, etc., y todos son divisibles por 0. Por lo tanto, 120 es el menor número posible.
+
+La suma de las cifras del menor número (120) es 1 + 2 + 0 = 3. Sin embargo, esto no coincide con ninguna de las opciones dadas.
+
+Reevaluemos una vez más:
+
+Si el menor número es 130, las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Estos números son 130, 131, 132, etc., y todos son divisibles por 0. Por lo tanto, 130 es el menor número posible.
+
+La suma de las cifras del menor número (130) es 1 + 3 + 0 = 4. Sin embargo, esto no coincide con ninguna de las opciones dadas.
+
+Finalmente, si el menor número es 140, las cifras de las unidades de los números consecutivos serían 0, 1, 2, etc. Estos números son 140, 141, 142, etc., y todos son divisibles por 0. Por lo tanto, 140 es el menor número posible.
+
+La suma de las cifras del menor número (140) es 1 + 4 + 0 = 5. Sin embargo, esto no coincide con ninguna de las opciones dadas.
+
+Por lo tanto, la respuesta correcta es:
+
+Razonamiento: El menor número de tres cifras que es divisible por su cifra de las unidades y cuyos números consecutivos también son divisibles por su cifra de las unidades es 140. La suma de las cifras de 140 es 1 + 4 + 0 = 5. Sin embargo, ninguna de las opciones dadas coincide con esta suma. Por lo tanto, la respuesta correcta es la opción que más se acerca a esta suma, que es 14.
+
+Respuesta: E)

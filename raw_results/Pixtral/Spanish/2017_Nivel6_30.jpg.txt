@@ -1,0 +1,14 @@
+Para resolver este problema, necesitamos entender el enunciado y realizar el cálculo paso a paso.
+
+El enunciado describe una situación en la que hay 2017 personas en una isla. Estas personas se dividen en dos grupos: mentirosos y personas honestas. Se sabe que los mentirosos siempre mienten y las personas honestas siempre dicen la verdad. De los 1000 asistentes a una reunión, todos están al borde de una mesa redonda. Una de las personas dice: "De las dos personas que están sentadas junto a mí, una es mentirosa y la otra es honesta". ¿Cuántas personas honestas hay en la isla?
+
+Para resolver esto, consideramos las posibles configuraciones de las personas sentadas juntas:
+
+1. Si la persona que habla es honesta, entonces las personas sentadas junto a ella deben ser una mentirosa y una persona honesta.
+2. Si la persona que habla es una mentirosa, entonces las personas sentadas junto a ella deben ser ambas mentirosas o ambas honestas.
+
+Dado que hay 1000 personas en la reunión y todas están al borde de una mesa redonda, podemos usar combinaciones para encontrar la respuesta correcta.
+
+Razonamiento: Dado que la persona que habla dice que una de las personas sentadas junto a ella es una mentirosa y la otra es una persona honesta, podemos inferir que la persona que habla debe ser una persona honesta. Esto significa que las personas sentadas junto a ella son una mentirosa y una persona honesta. Por lo tanto, el número total de personas honestas en la isla es el número total de personas menos el número de mentirosos.
+
+Respuesta: D)

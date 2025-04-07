@@ -1,0 +1,35 @@
+### Raisonnement :
+
+Pour déterminer la plus petite valeur possible pour la somme des plus petits et des plus grands angles dans un triangle, nous devons comprendre les propriétés des angles dans un triangle.
+
+1. **Propriétés des Angles dans un Triangle** :
+   - La somme des trois angles dans un triangle est toujours égale à 180 degrés.
+
+2. **Définition des Angles** :
+   - Le plus petit angle est appelé l'angle le plus petit.
+   - Le plus grand angle est appelé l'angle le plus grand.
+
+3. **Calcul de la Somme des Angles** :
+   - Si nous désignons les angles du triangle par \( A \), \( B \) et \( C \) (où \( A \leq B \leq C \)), alors \( A + B + C = 180^\circ \).
+   - La somme des plus petits et des plus grands angles serait \( A + C \).
+
+4. **Minimisation de la Somme** :
+   - Pour minimiser \( A + C \), nous devons maximiser \( B \) tout en respectant la somme des angles de 180 degrés.
+   - Si \( B \) est le plus grand possible, \( A \) et \( C \) seront les plus petits possibles.
+
+5. **Exemple** :
+   - Supposons \( B = 90^\circ \) (un angle droit).
+   - Alors \( A + C = 180^\circ - 90^\circ = 90^\circ \).
+   - Les angles \( A \) et \( C \) seront égaux à \( 45^\circ \) chacun.
+   - Donc, \( A + C = 45^\circ + 45^\circ = 90^\circ \).
+
+6. **Vérification des Options** :
+   - A) \( 61^\circ \) : Cela ne correspond pas à la somme minimale.
+   - B) \( 90^\circ \) : Cela correspond à la somme minimale.
+   - C) \( 91^\circ \) : Cela ne correspond pas à la somme minimale.
+   - D) \( 120^\circ \) : Cela ne correspond pas à la somme minimale.
+   - E) \( 121^\circ \) : Cela ne correspond pas à la somme minimale.
+
+### Réponse :
+
+Réponse : B)

@@ -1,0 +1,28 @@
+### Razonamiento
+
+Para resolver este problema, primero debemos comprender la estructura de las cuadrículas y cómo se producen las adyacencias necesarias.
+
+*   Una cadena de 5 eltos en la segunda fila es equivalente a cinco columnas.
+    *   Por lo tanto, todas las columnas deben ser distintas en la segunda fila.
+*   En cada columna hay una columna del primer nivel que es adyacente a otra que del primer nivel.
+    *   Una vez que escogiémos una columna para la primera fila, debemos escoger una columna del segundo nivel que sea distinta de la primera.
+*   Si se selecciona la primera columna de la fila superior, se debe seleccionar una columna del segundo nivel que sea le da las columnas.
+*   Dado que las columnas no pueden repetirse, deben seguir el siguiente orden: A, B, C, D, E.
+    *   La columna B no puede ser alineada con la columna E si la columna A no está alineada con C en la fila superior.
+    *   No importa qué columna del primer nivel chojes y cuál eliga, cualquier alineación de columnas será adecuada.
+
+Tenga en cuenta que el problema establece que siempre hay un número enteroto positivo en cada uno de los cinco cuadros que los productos de las parejas de números adyacentes.
+
+*   Esto significa que el alineamiento de columnas debe ser lo bastante grande para que haya un entero positivos al menos para cada una de las cinco columnas.
+*   Pasando el nivel superior de la cuadrícula, veremos que, en todos los casos, habrá un entero 1 positivo presente para cada columna.
+
+Veamos cada respuesta:
+
+1.  B) **Ventaja(task)**
+
+    *   Esta ventaja no matemáticamente systému encontrar el producto de los eltos adyacentes.
+    *   Para cada fila inferior de eltos, los eltos adyacentes siempre tendrán el nivel anterior uno más como referencia y todos lo multiplicará por uno.
+    *   Esto significa que la respuesta es algo de eso B y 1 , por lo cual debemos tener una 6 como resultado, que coincide B.
+2.  C) **Ventajas disclosed, sin embargo, sobre los jac Youtube spdfsm este es el servicio communication quale
+
+### Respuesta: B)

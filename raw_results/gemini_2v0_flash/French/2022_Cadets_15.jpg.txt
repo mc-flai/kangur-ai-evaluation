@@ -1,0 +1,89 @@
+Reasoning:
+We need to find three numbers at the bottom circles, knowing that the product of three numbers of the same segment must be that shown on the arrow (48, 105, 28, 144, 30).
+The factors of 48 from 1 to 8 are: 1, 2, 3, 4, 6, 8.
+The factors of 105 from 1 to 8 are: 1, 3, 5, 7.
+The factors of 28 from 1 to 8 are: 1, 2, 4, 7.
+The factors of 144 from 1 to 8 are: 1, 2, 3, 4, 6, 8.
+The factors of 30 from 1 to 8 are: 1, 2, 3, 5, 6.
+
+Let's denote the numbers in the circles as follows:
+A - top left
+B - top middle
+C - top right
+D - middle left
+E - middle right
+F - bottom left
+G - bottom middle
+H - bottom right
+I - bottom far right
+
+We know:
+A * B * C = 30
+D * F * A = 48
+D * E * B = 105
+E * G * C = 28
+H * I * C = 144
+
+Possible sets of three numbers from 1 to 8 which have a product of 30 are {1, 5, 6}, {2, 3, 5}.
+Possible sets of three numbers from 1 to 8 which have a product of 48 are {1, 6, 8}, {2, 3, 8}, {2, 4, 6}.
+Possible sets of three numbers from 1 to 8 which have a product of 105 are {3, 5, 7}.
+Possible sets of three numbers from 1 to 8 which have a product of 28 are {1, 4, 7}, {2, 2, 7}. We can exclude {2, 2, 7} since we need distinct numbers.
+Possible sets of three numbers from 1 to 8 which have a product of 144 are {2, 8, 9}, {3, 6, 8}, {4, 6, 6}. We can exclude the one with '9' and {4, 6, 6} since we need distinct numbers. {3, 6, 8}.
+
+From D * E * B = 105, we know that the values can be {3, 5, 7}.
+Therefore D, E, and B are 3, 5, and 7 (in any order).
+
+Now A * B * C = 30. From the possible factor sets {1, 5, 6} and {2, 3, 5}, we know the possible choices for B is 5, 3. Therefore, B has to be 3 or 5 since D, E, B must be 3, 5, 7.
+
+Case 1: B = 5
+Then A*C = 6. The possibilities are {1, 6}, {2, 3}.
+If A=1, C=6, then A, B, C are 1, 5, 6. Then, D, E could be {3, 7}.
+If A=2, C=3, then A, B, C are 2, 5, 3. Then, D, E could be {7}. Not possible.
+Since A = 1, C = 6, then D, E are 3, 7. D*F*A = 48 => 3*F*1 = 48 => F = 16. Not valid as it has to be between 1 and 8.
+
+Case 2: B = 3
+Then A*C = 10. The possibilities are {2, 5}. A, B, C = {2, 3, 5}.
+Then, D, E could be {5, 7}. D*E*B = 105 => D*E*3 = 105 => D*E=35. Let's say D = 7, E = 5.
+Then, A = 2, C = 5, B = 3, D = 7, E = 5.
+D*F*A = 48 => 7*F*2 = 48 => F = 48/14. Not valid.
+D*E*B = 105 => 7*5*3=105. Correct.
+
+A = 5, B = 2, C = 3: 5*2*3 = 30. Ok
+Then, D, E could be {7}
+D*E*B = 105 => 105/2. Wrong.
+
+Consider A*B*C= 30 using 1, 5, 6 or 2, 3, 5
+D*E*B = 105 using 3, 5, 7.
+Case 1 A = 1 B = 5 C = 6
+Then D, E are 3, 7.
+D*F*A = 48 => 3*F*1 = 48 F = 16. Nope.
+Case 2 A = 2 B = 3 C = 5
+Then D, E are 5, 7
+D*F*A = 48 => 5*F*2 = 48 F = 24/5 Nope.
+
+Since D, E and B are 3, 5 and 7
+Therefore A and C have to be 2, 3, 5
+Therefore A*B*C = 30 = 2*3*5
+
+So try A = 2, B = 3, C = 5
+Therefore D, E = 5, 7.
+Suppose D = 7, E = 5
+D*F*A = 48 => 7*F*2 = 48, F = 48/14 = 24/7
+E*G*C = 28 => 5*G*5=28. Nope.
+
+However, 48 = 2 * 3 * 8, 105 = 3 * 5 * 7, 28 = 4 * 1 * 7 and 144 = 3 * 6 * 8
+Therefore, F= 8, G = 4, H = 6. F + G + H = 8 + 4 + 6 = 18?
+The previous step gave D=2, E=7 B= 3, which is WRONG!
+
+Consider factors. Factors for each product which must be three *distinct* integers.
+
+30 = 2 * 3 * 5 (A, B, C are 2, 3, 5)
+48 = 2 * 3 * 8 (A, D, F)
+105 = 3 * 5 * 7 (B, D, E)
+28 = 4 * 1 * 7 (C, E, G)
+144 = 3 * 6 * 8 (C, H, I)
+
+So F, G, and H are 8, 1, 6 respectively, which adds to 15.
+
+Reasoning: After multiple attempts to solve the system of equation, I realized the easiest way to approach the problem is to figure out which numbers are at the bottom directly from their factors.
+Answer: C)

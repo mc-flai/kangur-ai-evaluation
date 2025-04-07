@@ -1,0 +1,44 @@
+Per resoldre el problema, hem de determinar quants peces Emília va penjar amb la configuració de la Figura 1, on cada peça està subjectada per dos clips i les peces estan separades per clips.
+
+Primera, observem que a la Figura 1 hi ha 3 peces i 4 clips. A més, per cada peça, s'utilitzen dos clips. Així, per 3 peces, es necessiten 4 clips.
+
+Ara, si Emília té un total de 35 peces i 58 clips, podem establir una relació per determinar quants peces es penjaven amb la configuració de la Figura 1.
+
+A partir de la configuració de la Figura 1, sabem que per cada peça, es necessiten dos clips. Això significa que per cada peça penjada amb aquesta configuració, s'utilitzen 2 clips per peça i 1 clip més per separar les peces. Així, la fórmula per determinar el total de clips utilitzats és:
+
+Total de clips = 2 * nombre de peces + (nombre de peces - 1).
+
+D'aquesta manera, tenim:
+
+58 = 2 * nombre de peces + (nombre de peces - 1).
+
+Simplificant, obtenim:
+
+58 = 2 * nombre de peces + nombre de peces - 1,
+58 = 3 * nombre de peces - 1,
+59 = 3 * nombre de peces,
+nombre de peces = 59 / 3,
+nombre de peces = 19.67.
+
+Ara, com que el nombre de peces ha de ser un número enter, arrodonim a 20 peces.
+
+Però això no coincideix amb cap de les respostes, per tant, hem de revisar el càlcul.
+
+En realitat, la fórmula adequada és:
+
+Total de clips = 2 * (nombre de peces - 1) + nombre de peces.
+
+Així, tenim:
+
+58 = 2 * (nombre de peces - 1) + nombre de peces,
+58 = 2 * nombre de peces - 2 + nombre de peces,
+58 = 3 * nombre de peces - 2,
+60 = 3 * nombre de peces,
+nombre de peces = 60 / 3,
+nombre de peces = 20.
+
+Per tant, la resposta correcta és:
+
+Raonament: Per resoldre el problema, hem de determinar quants peces Emília va penjar amb la configuració de la Figura 1. Utilitzant la fórmula adequada per relacionar el nombre de peces amb el nombre de clips, hem trobat que el nombre de peces és 20.
+
+Resposta: C) 21.

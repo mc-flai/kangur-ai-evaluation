@@ -1,0 +1,27 @@
+Razonamiento: This is a game theory problem. Let's analyze the options. The key to winning is to force the other player to say 1.
+*   **A) 128**: 128 = 2<sup>7</sup>. The divisors will be 64, 32, 16, 8, 4, 2, and then 1, so A can win.
+*   **B) 243**: 243 = 3<sup>5</sup>. The divisors will be 81, 27, 9, 3, and then 1, so A can win.
+*   **C) 1024**: 1024 = 2<sup>10</sup>. The divisors will be 512, 256, 128, 64, 32, 16, 8, 4, 2 and then 1, so A can win.
+*   **D) 2014**: 2014 = 2 \* 19 \* 53. The divisors are 1007, then A needs to pick a divisor and win. B will pick a divisor and so on. A should choose the number such that A can pick 1 in the last step.
+*   If A picks a prime number, then B must choose 1.
+*   If A picks the square of a prime number, A chooses the prime number, B chooses 1.
+*   If A picks the cube of a prime number, A chooses the square, B picks the prime, A picks 1.
+*   If A chooses a number with a prime factor, it's difficult to guarantee a win.
+*   If A picks a number, that leads to B picking 1.
+*   A wants to ensure that in their turn, the other player has to choose 1. This happens when the other player has to choose a prime number.
+*   Consider 2014. A picks 1007, B picks 19 or 53, depending on which one they choose.
+
+Let's check. If A picks 128, B picks 64. A picks 32, B picks 16. A picks 8, B picks 4. A picks 2, and B picks 1. A can pick 2 in the last step and B has to say 1.
+If A picks 243, B picks 81. A picks 27. B picks 9. A picks 3 and B picks 1. A wins.
+If A picks 1024, B picks 512. A picks 256, B picks 128, A picks 64, B picks 32, A picks 16, B picks 8, A picks 4, B picks 2, A picks 1, and A wins.
+If A picks 2014, A picks 1007, B can picks 19 or 53 and is a harder game.
+Let's start with 2014, A chooses 1007, B's turn and B must choose 19 or 53, then next turn the one choosing will choose 1. So A could also win the game.
+So the answer is A. However, let's suppose A picks 128, B picks 64, A picks 32, B picks 16, A picks 8, B picks 4, A picks 2, then B picks 1. In each of the cases that A wins, the powers of prime should work.
+
+In order to force the other player to state 1, A must select a number that results in a divisor of 1 for the next player.
+
+Consider powers of 2: 2<sup>7</sup>, A chooses 128, B chooses 64, A chooses 32, B chooses 16, A chooses 8, B chooses 4, A chooses 2, B chooses 1.
+Consider powers of 3: 3<sup>5</sup>, A chooses 243, B chooses 81, A chooses 27, B chooses 9, A chooses 3, B chooses 1.
+With any of the given values, A is going to win. The powers of primes can always be played to obtain 1 eventually. Since all of these are powers, the result will always be one.
+
+Answer: A)

@@ -1,0 +1,22 @@
+Raonament:
+Primer dia: El cub negre canvia els colors dels seus veïns. Un cub té com a màxim 6 veïns (cub superior, inferior, darrere, davant, esquerra, dreta). Per tant, el nombre de cubs negres serà 1 (el original) + 6 (els veïns convertits) = 7.
+Segon dia: Cada cub negre fa que els seus veïns blancs es tornin negres.
+El cub original negre ja té tots els seus veïns immediats negres, creats el dia anterior. Així que no en crea més.
+Els 6 cubs veïns que es van tornar negres el primer dia afectaran als seus veïns. Cada un d'ells afecta com a màxim 5 nous cubs, ja que un ja és negre. Però alguns d'aquests cubs veïns afectats ja podrien haver estat afectats per un altre cub que va canviar de color.
+Aproximadament, la situació després del primer dia és que hi ha un cub negre al centre i 6 al seu voltant. Es pot imaginar que la situació es propaga de manera radial. En un cub de 4x4x4, l'únic cub negre inicial està a la capa superior.
+El primer cub negre pot tenir com a màxim 6 veïns (cub superior, inferior, darrere, davant, esquerra, dreta). Així que després del primer dia hi ha 1+6 = 7 cubs negres.
+Després del segon dia, cada un d'aquests cubs veïns farà que els seus veïns blancs es tornin negres. El cub original negre ja no afectarà perquè tots els seus veïns s'han tornat negres al primer dia.
+Els 6 cubs creats afecten els seus veïns blancs. Considerem que aquests 6 cubs comparteixen molts veïns, per tant, és poc probable que 6*5 = 30 nous cubs es tornin negres. Així que la resposta ha de ser inferior a 7+30 = 37.
+En un cub de 4x4x4, cada cub té com a màxim 6 veïns. El cub original negre està a la capa superior.
+El primer dia hi ha 7 cubs negres.
+El segon dia, cada cub negre intenta canviar els seus veïns a negre.
+El cub central negre original té 6 veïns. Aquests ja es van tornar negres el primer dia.
+Els 6 veïns negres (que es van tornar negres el primer dia) tenen cadascun 5 nous veïns blancs (com a màxim), que intenten tornar negres. Aquest pot solapar-se. Però, els que es converteixen en negres són:
+4 dels cubs estan als cantons i converteixen 3 veïns en negres.
+2 dels cubs estan al mig i converteixen 5 veïns en negres.
+Com que hi ha una superposició significativa, no podem simplement sumar-los.
+Podríem simplement comptar. En un cub de 4x4x4. El cub negre està situat a la part superior. Després del primer dia, hi ha 7 cubs negres. El segon dia, cada cub negre fa que els seus veïns blancs es tornin negres.
+El més probable és que la resposta sigui 11 o 15.
+Però, després de pensar-ho més detingudament, considerant la superposició dels veïns, la millor aproximació és 11.
+
+Resposta: B)

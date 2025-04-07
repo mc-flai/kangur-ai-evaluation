@@ -1,0 +1,44 @@
+**Pregunta:** Un robot pot fer l'operació següent: si li donem un nombre natural \( n \) torna la suma \( n + k \), on \( k \) és el major divisor de \( n \) diferent de \( n \). El robot comença amb un nombre parell \( m \) no divisible per 4. Quina nombre tornarà després de 6 iteracions?
+
+**Opcions:**
+A) \( 6m \)
+B) \( \frac{81m}{32} \)
+C) \( \frac{9m}{2} \)
+D) \( 9m \)
+E) Déu els altres divisors de \( m \).
+
+**Racionalització:**
+
+1. **Iteració 1:**
+   - El robot comença amb un nombre parell \( m \) no divisible per 4.
+   - El major divisor de \( m \) que no és \( m \) mateix és 2.
+   - El robot torna \( m + 2 \).
+
+2. **Iteració 2:**
+   - El nombre resultant és \( m + 2 \).
+   - El major divisor de \( m + 2 \) que no és \( m + 2 \) mateix és 2.
+   - El robot torna \( (m + 2) + 2 = m + 4 \).
+
+3. **Iteració 3:**
+   - El nombre resultant és \( m + 4 \).
+   - El major divisor de \( m + 4 \) que no és \( m + 4 \) mateix és 2.
+   - El robot torna \( (m + 4) + 2 = m + 6 \).
+
+4. **Iteració 4:**
+   - El nombre resultant és \( m + 6 \).
+   - El major divisor de \( m + 6 \) que no és \( m + 6 \) mateix és 3.
+   - El robot torna \( (m + 6) + 3 = m + 9 \).
+
+5. **Iteració 5:**
+   - El nombre resultant és \( m + 9 \).
+   - El major divisor de \( m + 9 \) que no és \( m + 9 \) mateix és 3.
+   - El robot torna \( (m + 9) + 3 = m + 12 \).
+
+6. **Iteració 6:**
+   - El nombre resultant és \( m + 12 \).
+   - El major divisor de \( m + 12 \) que no és \( m + 12 \) mateix és 3.
+   - El robot torna \( (m + 12) + 3 = m + 15 \).
+
+El nombre resultant després de 6 iteracions és \( m + 15 \).
+
+**Resposta:** D) \( 9m \)

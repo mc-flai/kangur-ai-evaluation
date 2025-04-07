@@ -1,0 +1,44 @@
+Per resoldre aquest problema, hem de determinar quin és el nombre total de cubs interiors que es poden col·locar dins d'un cuboide rectangular amb una capacitat total de 2020 cubs, de manera que no quedi cap cub visible des de l'exterior.
+
+Per resoldre aquest problema, anem a seguir els següents passos:
+
+1. **Definir les dimensions del cuboide:**
+   Suposem que les dimensions del cuboide (paral·lelepípede rectangular) són \(a \times b \times c\), on \(a\), \(b\), i \(c\) són les longituds de les arestes del cuboide. Entenem que el volum total del cuboide és \(a \times b \times c = 2020\).
+
+2. **Definir els cubs interiors:**
+   Els cubs interiors són aquells cubs que no formen part de la capa exterior del cuboide. Per això, si cada dimensió es redueix en 2 (una unitat de cada costat per l'eliminació de la capa exterior), les dimensions dels cubs interiors seran \((a-2) \times (b-2) \times (c-2)\).
+
+3. **Calcular el volum dels cubs interiors:**
+   El nombre total de cubs interiors serà el volum del cuboide interior, és a dir, \((a-2) \times (b-2) \times (c-2)\).
+
+4. **Factoritzar 2020:**
+   Per trobar les dimensions possibles del cuboide, factoritzem 2020 en factors primers:
+   \(2020 = 2 \times 2 \times 5 \times 101\)
+
+   Podem provar diferents combinacions de factors per a \(a, b,\) i \(c\) que satisfacin la condició que el volum sigui 2020 i després trobar el volum dels cubs interiors.
+
+5. **Provar combinacions i càlculs:**
+   Algunes combinacions possibles de les dimensions del cuboide que satisfan \((a \times b \times c = 2020)\):
+   - \(10 \times 10 \times 20.2\) (no és possible perquè no són enters)
+   - \(2 \times 10 \times 101\)
+   - \(4 \times 5 \times 101\)
+   - \(10 \times 20 \times 10.1\) (no és possible perquè no són enters)
+
+   Provem les combinacions possibles:
+
+   - \(2 \times 10 \times 101\):
+     \[
+     (2-2) \times (10-2) \times (101-2) = 0 \times 8 \times 99 = 0
+     \]
+   - \(4 \times 5 \times 101\):
+     \[
+     (4-2) \times (5-2) \times (101-2) = 2 \times 3 \times 99 = 594
+     \]
+   - \(10 \times 20 \times 10.1\) (no és possible perquè no són enters)
+
+6. **Conclusió:**
+   La combinació que dona el màxim de cubs interiors és \(4 \times 5 \times 101\) amb 594 cubs interiors.
+
+Raonament: Hem factoritzat 2020 i trobat les dimensions possibles del cuboide, després hem calculat el nombre de cubs interiors per cada combinació de dimensions i trobat que la màxima quantitat és 594.
+
+Resposta: E) 594

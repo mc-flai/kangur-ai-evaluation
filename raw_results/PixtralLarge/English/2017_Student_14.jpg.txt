@@ -1,0 +1,11 @@
+
+**Reasoning**:
+1. The problem states that each face of the polyhedron is either a triangle or a square.
+2. Each square borders 4 triangles, and each triangle borders 3 squares.
+3. The polyhedron has 6 squares.
+4. To find the number of triangles, we start by calculating the total number of triangle borders. Each square contributes 4 triangle borders, so for 6 squares:
+   Total triangle borders = 6 squares * 4 borders/square = 24 triangle borders.
+5. Since each triangle borders 3 squares, each triangle border is counted 3 times in the total. Therefore, to find the actual number of triangles, we divide the total triangle borders by 3:
+   Number of triangles = 24 triangle borders / 3 borders/triangle = 8 triangles.
+
+**Answer**: D)

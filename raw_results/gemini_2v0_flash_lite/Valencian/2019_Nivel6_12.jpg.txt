@@ -1,0 +1,47 @@
+Raonament:
+1.  **Entendre el problema:** El nombre de nois augmenta un 20% i el de noies disminueix un 20%. El resultat net és un estudiant més en total.
+2.  **Provar les respostes:**
+    *   Provar A) 22:  Si el nombre d'estudiants total és 22. No és possible.
+    *   Provar B) 26: Si el nombre d'estudiants total és 26. No és possible.
+    *   Provar C) 29: No és possible.
+    *   Provar D) 31: No és possible.
+    *   Provar E) 34: No és possible.
+3.  **Alternativa:**
+    *   Necessitem que el nombre total d'estudiants abans sigui divisible per 5.
+    *   Necesitem que el nombre de noies i nois sigui una quantitat sencera.
+    *   Si hi ha 25 estudiants abans, amb un increment de 20% en nois, i una disminució del 20% en noies, podem tenir el següent:
+        *   Nois: 10, +20% = 12.
+        *   Noies: 15, -20% = 12.
+        *   Total: 12 + 12 = 24. Això no és un estudiant més que abans.
+        *   Si hi ha 30 estudiants abans, amb un increment de 20% en nois, i una disminució del 20% en noies, podem tenir el següent:
+            *   Nois: 15, +20% = 18.
+            *   Noies: 15, -20% = 12.
+            *   Total: 18 + 12 = 30. Això no és un estudiant més que abans.
+
+Si hi ha 31 estudiants després d'un canvi en el nombre de noies i nois, el nombre d'estudiants abans pot ser 30. Això vol dir que hi havia 1 estudiant més. Provem aquest canvi.
+*   Nois abans: 15
+*   Noies abans: 15
+*   Nois després: 15 + 20% = 18
+*   Noies després: 15 - 20% = 12
+*   Total després: 30. Però sabem que hi ha 31 estudiants. No es pot fer.
+Si hi ha 29 estudiants després d'un canvi en el nombre de noies i nois, el nombre d'estudiants abans pot ser 28. Això vol dir que hi havia 1 estudiant més. Provem aquest canvi.
+*   Nois abans: 14
+*   Noies abans: 14
+*   Nois després: 14 + 20% = 16.8. No és una quantitat sencera.
+*   Noies després: 14 - 20% = 11.2. No és una quantitat sencera.
+
+Si hi ha 26 estudiants després d'un canvi en el nombre de noies i nois, el nombre d'estudiants abans pot ser 25. Això vol dir que hi havia 1 estudiant menys. Provem aquest canvi.
+*   Nois abans: 10
+*   Noies abans: 15
+*   Nois després: 10 + 20% = 12
+*   Noies després: 15 - 20% = 12
+*   Total després: 24. No es possible.
+
+Si hi ha 29 estudiants després d'un canvi en el nombre de noies i nois, el nombre d'estudiants abans pot ser 30. Això vol dir que hi havia 1 estudiant menys. Provem aquest canvi.
+*   Nois abans: 15
+*   Noies abans: 15
+*   Nois després: 15 + 20% = 18
+*   Noies després: 15 - 20% = 12
+*   Total després: 30. No es possible.
+
+Resposta: C)

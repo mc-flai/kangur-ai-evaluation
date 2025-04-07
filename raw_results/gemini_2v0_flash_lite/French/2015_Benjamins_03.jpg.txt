@@ -1,0 +1,13 @@
+Raisonnement : La question porte sur un carrelage 3x3 avec des cases grises et blanches. L'objectif est de déterminer le nombre minimal de carreaux à changer pour s'assurer que deux carreaux adjacents (ayant un côté commun) ne soient pas de la même couleur. Dans la configuration de départ, on a 5 cases grises. On peut analyser la configuration actuelle et essayer de trouver un schéma de couleurs valide.
+
+La configuration actuelle a les cases grises dans une forme en 'L'. On peut numéroter les cases comme suit :
+
+1 2 3
+4 5 6
+7 8 9
+
+Les cases grises sont 1, 2, 4, 5, 6.
+
+Si on garde les cases 3, 7, 8, 9 blanches, on peut changer les cases 1 et 6 en blanc pour que les deux carreaux adjacents ne soient pas de la même couleur. Par conséquent, le nombre minimum de changements serait 2.
+
+Réponse : B) 2

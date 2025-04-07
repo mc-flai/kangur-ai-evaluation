@@ -1,0 +1,37 @@
+El problema nos pide determinar qué número debe colocarse en la cuarta casilla de la tabla 3x3 para que las sumas en los cuadrados 2x2 sean iguales. Los números que ya están en las esquinas de la tabla son 3, 1, 2 y un número desconocido (?) en una de las esquinas.
+
+Primero, vamos a analizar los cuadrados 2x2 posibles dentro de la tabla 3x3:
+
+1. El cuadrado 2x2 en la esquina superior izquierda:
+   ```
+   3 ?
+   ? ?
+   ```
+
+2. El cuadrado 2x2 en la esquina superior derecha:
+   ```
+   ? 1
+   ? ?
+   ```
+
+3. El cuadrado 2x2 en la esquina inferior izquierda:
+   ```
+   2 ?
+   ? ?
+   ```
+
+4. El cuadrado 2x2 en la esquina inferior derecha:
+   ```
+   ? ?
+   ? ?
+   ```
+
+Para hacer que las sumas en estos cuadrados sean iguales, necesitamos determinar qué número puede ocupar la cuarta casilla de la tabla 3x3.
+
+Observemos que tenemos 3 y 1 en una fila y 2 en otra fila. La suma de 3 y 1 es 4. Para que las sumas sean iguales en los cuadrados 2x2, necesitamos que la suma de los números en la fila que contiene 2 sea también 4. Esto significa que el número que falta en la fila que contiene 2 debe ser 2, ya que 2 + 2 = 4.
+
+Por lo tanto, el número que debe colocarse en la cuarta casilla es 2.
+
+**Razonamiento**: Para hacer que las sumas en los cuadrados 2x2 sean iguales, necesitamos que la suma de los números en la fila que contiene 2 sea 4. El número que falta en esta fila debe ser 2, ya que 2 + 2 = 4.
+
+**Respuesta**: E)

@@ -1,0 +1,38 @@
+Per resoldre aquesta pregunta, hem de determinar quin dels nombres donats no és la suma del producte de 2018 nombres enters positius.
+
+1. Primer, entenem que la suma de qualsevol conjunt de nombres enters és major que cada un dels nombres individuals que formen part d'aquest conjunt.
+2. Considereu 2018 nombres enters positius, el més petit dels quals és 1 i el més gran és 2018.
+3. Suposem que tots els 2018 nombres són diferents i comencem amb el més petit, és a dir, 1.
+4. Calculem la suma mínima d'aquests 2018 nombres:
+
+    \[
+    S_{min} = 1 + 2 + 3 + \ldots + 2018
+    \]
+
+    Aquesta és una progressió aritmètica amb primer terme 1, últim terme 2018 i 2018 termes. La suma d'una progressió aritmètica es calcula com:
+
+    \[
+    S_{min} = \frac{n}{2} \times (a_1 + a_n)
+    \]
+
+    on \( n = 2018 \), \( a_1 = 1 \) i \( a_n = 2018 \).
+
+    \[
+    S_{min} = \frac{2018}{2} \times (1 + 2018) = 1009 \times 2019 = 2037171
+    \]
+
+5. La suma mínima possible dels 2018 nombres és 2037171, per tant, qualsevol suma de 2018 nombres enters positius ha de ser major o igual a 2037171.
+6. Revisem les opcions donades:
+   - A) 2018
+   - B) 2019
+   - C) 2020
+   - D) 2021
+   - E) Cap dels anteriors
+
+7. Cap de les opcions A), B), C) o D) és major o igual a 2037171.
+
+Per tant, la resposta correcta és:
+
+\[
+\text{Resposta: E)}
+\]

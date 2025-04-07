@@ -1,0 +1,29 @@
+Pour résoudre ce problème, nous devons déterminer le chemin le plus rapide pour que Harrant rejoigne Zinzin en partant de leur point de départ respectif. Pour cela, nous devons identifier la dernière partie du trajet effectué par Harrant.
+
+**Étape 1 : Comprendre le point de départ et les directions prises par Zinzin et Harrant.**
+- Zinzin part de 1 km vers le Nord, 2 km vers l'Ouest, 4 km vers le Sud, et enfin 1 km vers l'Ouest.
+- Harrant part de 1 km vers l'Est, 4 km vers le Sud, et 4 km vers l'Ouest.
+
+**Étape 2 : Analyser le parcours de chaque personne.**
+- Zinzin bouge de 1 km vers le Nord, puis 2 km vers l'Ouest, ensuite 4 km vers le Sud, et finalement 1 km vers l'Ouest.
+  - Après 1 km vers le Nord : il est à (0,1)
+  - Après 2 km vers l'Ouest : il est à (2,1)
+  - Après 4 km vers le Sud : il est à (2,-3)
+  - Après 1 km vers l'Ouest : il est à (3,-3)
+
+- Harrant bouge de 1 km vers l'Est, puis 4 km vers le Sud, et finalement 4 km vers l'Ouest.
+  - Après 1 km vers l'Est : il est à (1,0)
+  - Après 4 km vers le Sud : il est à (1,-4)
+  - Après 4 km vers l'Ouest : il est à (-3,-4)
+
+**Étape 3 : Déterminer le chemin le plus court pour que Harrant rejoigne Zinzin.**
+- Zinzin est à (3,-3)
+- Harrant est à (-3,-4)
+
+Pour rejoindre Zinzin, Harrant doit se diriger 6 km vers l'Est (de -3 à 3) et 1 km vers le Nord (de -4 à -3).
+
+**Conclusion :**
+La dernière partie du trajet pour rejoindre Zinzin est de 1 km vers le Nord.
+
+Raisonnement : Zinzin finit à (3,-3) et Harrant à (-3,-4). Pour rejoindre Zinzin, Harrant doit se diriger vers le Nord.
+Réponse : C) 1 km vers le Nord.

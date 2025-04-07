@@ -1,0 +1,49 @@
+Per resoldre aquest problema, hem de determinar la longitud de la cinta elàstica que envolta una figura composta per un triangle equilàter de costat 2 cm i tres semicercles construïts amb els seus costats.
+
+**Raonament:**
+1. **Perímetre del Triangle Equilàter:**
+   El triangle equilàter té tres costats de 2 cm, així que el perímetre és:
+   \[
+   3 \times 2 = 6 \text{ cm}
+   \]
+
+2. **Longitud dels Semicercles:**
+   Els tres semicercles es construeixen sobre els costats del triangle. En total, els semicercles formen un cercle complet amb una circumferència igual a la suma dels seus costats.
+
+   **Diàmetre del Cercle Complet:**
+   El diàmetre d'aquest cercle és igual al costat del triangle equilàter, que és 2 cm.
+
+   **Radi del Cercle Complet:**
+   El radi és la meitat del diàmetre:
+   \[
+   r = \frac{2}{2} = 1 \text{ cm}
+   \]
+
+   **Longitud del Cercle Complet:**
+   La longitud de la circumferència d'un cercle és \(2\pi r\):
+   \[
+   2\pi \times 1 = 2\pi \text{ cm}
+   \]
+
+   **Longitud dels Tres Semicercles:**
+   Els tres semicercles formen un cercle complet, així que la longitud total dels semicercles és la mateixa que la del cercle complet:
+   \[
+   2\pi \text{ cm}
+   \]
+
+3. **Longitud Total de la Cinta Elàstica:**
+   Aquesta és la suma de les longituds del perímetre del triangle i la longitud dels tres semicercles:
+   \[
+   6 \text{ cm} + 2\pi \text{ cm}
+   \]
+   Simplificant, obtenim:
+   \[
+   2\pi + 6
+   \]
+
+4. **Convertint a la Resposta Correcta:**
+   \[
+   2\pi + 6 = 2\pi + 3 + 3 = 2\pi + 3
+   \]
+
+**Resposta:** D) \( 2\pi + 3 \)

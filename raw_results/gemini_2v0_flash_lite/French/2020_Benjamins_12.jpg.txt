@@ -1,0 +1,14 @@
+Raisonnement :
+1. **Calcul des couleurs sur le cube :** Un grand cube est fait de 3x3x3 = 27 petits cubes.
+2. **Vérification des couleurs dans les options :**
+    *   On doit avoir 10 blancs, 9 gris, et 8 noirs.
+    *   Pour chaque option, je compte le nombre de cubes de chaque couleur.
+3. **Analyse des options :**
+    *   **Option A :** Blancs = 7, Gris = 9, Noirs = 11. Incorrect.
+    *   **Option B :** Blancs = 10, Gris = 9, Noirs = 8. Correct.
+    *   **Option C :** Blancs = 8, Gris = 9, Noirs = 10. Incorrect.
+    *   **Option D :** Blancs = 10, Gris = 9, Noirs = 8. Correct.
+    *   **Option E :** Blancs = 10, Gris = 10, Noirs = 7. Incorrect.
+    *   Les options B et D sont possibles. Cependant, pour le cube, il faut que chaque face soit en parfaite harmonie avec les autres faces. On peut imaginer chaque face avec 9 cases. Si on considère que les options B et D sont des cubes, on remarquera qu'il y aura des faces qui n'auront que des cubes de la même couleur et d'autres où les cubes sont alternés. Ce qui fait que le grand cube peut être formé avec les petites cubes de l'option B et D.
+
+Réponse : B) or D).

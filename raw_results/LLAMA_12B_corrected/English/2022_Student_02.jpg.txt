@@ -1,0 +1,13 @@
+Reasoning: 
+
+To solve this question, we need to find three-digit numbers that are divisible by 13.
+
+*   The least three-digit number divisible by 13 is 104 (13 x 8).
+*   The greatest three-digit number divisible by 13 is 988 (13 x 76).
+*   We can list the multiples of 13 within this range: 104, 117, 130, ..., 988.
+*   To find how many multiples there are, we can use the formula: Number = (Last Term - First Term) / Common Difference + 1.
+*   Applying the formula, we get: Number = (988 - 104) / 13 + 1 = 76.
+*   However, we need to count only the full periods between 100 and 999. So, we start from 104 and end at 988, both inclusive.
+*   Thus, we have: Number = (Largest Term - Smallest Term) / 13 + 1 = 26.
+
+Answer: A) 26.

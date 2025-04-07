@@ -1,0 +1,15 @@
+### Reasoning:
+
+1. **Initial Setup**: The big cube is made up of 64 small cubes, and exactly one of these cubes is initially grey.
+2. **Day One**: On day one, the grey cube colors all its neighboring cubes grey. Since a cube has up to 6 faces, the grey cube can potentially color up to 6 neighboring cubes grey.
+3. **Day Two**: On day two, all grey cubes again color all their neighboring cubes grey. This means that each grey cube will color additional neighboring cubes grey, which were not grey at the end of day one.
+4. **Propagation**: The propagation of grey color will continue in a similar manner as day one, but now starting from all grey cubes present at the end of day one.
+5. **Counting Grey Cubes**: To find the total number of grey cubes at the end of the second day, we need to consider the initial grey cube and the propagation of grey color over the two days.
+
+Let's calculate step-by-step:
+
+- **Initial Grey Cubes**: 1
+- **Day One Grey Cubes**: 1 (initial) + 6 (neighbors) = 7
+- **Day Two Grey Cubes**: 7 (from day one) + 6 * 6 (each of the 7 grey cubes from day one colors 6 new cubes) = 7 + 42 = 49
+
+### Answer: D

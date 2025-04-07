@@ -1,0 +1,21 @@
+To determine the number of three-digit positive whole numbers where the digits differ by 3 when placed side by side, we need to consider the possible combinations of digits that satisfy this condition.
+
+1. **Identify the possible digits**: The digits must be from 0 to 9, but since we are dealing with three-digit numbers, the first digit cannot be 0.
+
+2. **Determine the difference condition**: The digits must differ by 3. This means for any two digits, one must be 3 more or 3 less than the other.
+
+3. **Count the valid combinations**:
+   - For the first digit (hundreds place), it can be any digit from 1 to 9 (9 possibilities).
+   - For the second digit (tens place), it can be any digit that differs by 3 from the first digit.
+   - For the third digit (ones place), it can be any digit that differs by 3 from the second digit.
+
+Let's consider some examples:
+- If the first digit is 1, the second digit can be 4 or 8, and the third digit can be 7 or 0 (not valid as it's a three-digit number).
+- If the first digit is 2, the second digit can be 5 or 9, and the third digit can be 8 or 1.
+- If the first digit is 3, the second digit can be 0 or 6, and the third digit can be 3 or 9 (not valid as it's a three-digit number).
+
+Continuing this process for all possible first digits, we find that there are 16 valid combinations.
+
+Reasoning: By systematically considering each possible first digit and determining the valid second and third digits that differ by 3, we find there are 16 such three-digit numbers.
+
+Answer: C)

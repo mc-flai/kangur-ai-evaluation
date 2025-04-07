@@ -1,0 +1,23 @@
+Raonament:
+Tenim que $a+2 = b-2 = 2c = \frac{d}{2}$. Sigui $x$ aquest valor comú.
+Llavors:
+$a = x-2$
+$b = x+2$
+$c = \frac{x}{2}$
+$d = 2x$
+Com que $a, b, c, d$ són nombres enters positius, $x$ ha de ser un enter positiu més gran que 2 (perquè $a=x-2>0$). També, $x$ ha de ser parell per tal que $c = \frac{x}{2}$ sigui un enter.
+
+Comparem els quatre nombres:
+$a = x-2$
+$b = x+2$
+$c = \frac{x}{2}$
+$d = 2x$
+
+$b-a = (x+2) - (x-2) = 4 > 0$, per tant $b>a$.
+$d-b = 2x - (x+2) = x-2 > 0$ (ja que $x>2$), per tant $d>b$.
+$d-c = 2x - \frac{x}{2} = \frac{3x}{2} > 0$ per $x>0$, per tant $d>c$.
+$d-a = 2x - (x-2) = x+2 > 0$ per $x>0$, per tant $d>a$.
+
+Per tant, $d$ és el nombre més gran.
+
+Resposta: D)

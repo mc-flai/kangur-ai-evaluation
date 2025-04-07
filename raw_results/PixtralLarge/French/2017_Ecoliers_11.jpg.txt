@@ -1,0 +1,19 @@
+Pour résoudre la question 11, nous devons déterminer combien de sachets de ballons Marius devra acheter pour obtenir exactement 70 ballons. Les sachets disponibles contiennent 5, 10 et 25 ballons.
+
+**Raisonnement :**
+
+1. Commençons par essayer de maximiser l'utilisation des sachets de 25 ballons car ce sont les plus grands.
+   - Deux sachets de 25 ballons donnent 50 ballons.
+   - Il reste donc 20 ballons à obtenir.
+
+2. Essayons d'ajouter un sachet de 10 ballons.
+   - Avec un sachet de 10 ballons, nous avons 50 + 10 = 60 ballons.
+   - Il reste donc 10 ballons à obtenir.
+
+3. Nous pouvons ajouter deux sachets de 5 ballons pour obtenir les 10 ballons restants.
+   - Avec deux sachets de 5 ballons, nous avons 60 + 5 + 5 = 70 ballons.
+
+4. Ainsi, Marius devra acheter deux sachets de 25 ballons, un sachet de 10 ballons et deux sachets de 5 ballons pour obtenir exactement 70 ballons. 
+   - Total des sachets = 2 + 1 + 2 = 5 sachets.
+
+**Réponse :** C) 5.

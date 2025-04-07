@@ -1,0 +1,36 @@
+Per resoldre aquesta pregunta, primer hem de resoldre l'equació donada:
+
+\[ x^3 - 5x^2 + 5x - 1 = 0 \]
+
+Sabem que una de les solucions d'aquesta equació és \( x = 2 - \sqrt{3} \).
+
+Ara, per trobar l'altre solució, podem fer servir el mètode de factorització. Sabem que si \( x = 2 - \sqrt{3} \) és una solució, llavors \( x = 2 + \sqrt{3} \) també és una solució per simetria. Això és perquè les equacions cúbiques amb coeficients reals tenen arrels simètriques.
+
+Per verificar, podem substituir \( x = 2 + \sqrt{3} \) en l'equació:
+
+\[ (2 + \sqrt{3})^3 - 5(2 + \sqrt{3})^2 + 5(2 + \sqrt{3}) - 1 = 0 \]
+
+Expandint i simplificant:
+
+\[ 2 + \sqrt{3} = x \]
+\[ (2 + \sqrt{3})^3 = 8 + 12\sqrt{3} + 6\sqrt{3} + 3\sqrt{3} = 8 + 21\sqrt{3} \]
+\[ 5(2 + \sqrt{3})^2 = 5(4 + 4\sqrt{3} + 3) = 5(7 + 4\sqrt{3}) = 35 + 20\sqrt{3} \]
+\[ 5(2 + \sqrt{3}) = 10 + 5\sqrt{3} \]
+
+Substituint en l'equació:
+
+\[ 8 + 21\sqrt{3} - 35 - 20\sqrt{3} + 10 + 5\sqrt{3} - 1 = 0 \]
+\[ 8 + 21\sqrt{3} - 35 - 20\sqrt{3} + 10 + 5\sqrt{3} - 1 = 2 - 24\sqrt{3} + 21\sqrt{3} + 5\sqrt{3} = 0 \]
+\[ 2 + 2\sqrt{3} = 0 \]
+
+Això confirma que \( x = 2 + \sqrt{3} \) és una solució.
+
+Ara, calculem la suma de les dues solucions:
+
+\[ (2 - \sqrt{3}) + (2 + \sqrt{3}) = 4 \]
+
+Per tant, la suma de les dues solucions és 4.
+
+Raonament: La suma de les dues solucions \( 2 - \sqrt{3} \) i \( 2 + \sqrt{3} \) és 4.
+
+Resposta: E) 5.

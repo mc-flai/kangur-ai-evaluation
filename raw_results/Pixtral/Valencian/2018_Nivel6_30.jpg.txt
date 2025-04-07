@@ -1,0 +1,16 @@
+**Razonamiento:**
+1. Un hexágono regular tiene seis lados de longitud 1.
+2. Una flor dibujada dentro del hexágono se forma dibujando arcos de circunferencia de radio 1 con centro en cada uno de los vértices del hexágono.
+3. Cada uno de estos arcos intersecta con los lados adyacentes del hexágono, creando una forma de flor.
+4. Para encontrar el área de la flor dibujada, debemos calcular el área de uno de los pétalos y luego multiplicarlo por seis (ya que hay seis pétalos).
+5. El área de un sector circular de un círculo de radio 1 es \(\frac{1}{6}\) del área del círculo completo.
+6. El área del círculo completo es \(\pi \times 1^2 = \pi\).
+7. Por lo tanto, el área de un sector circular de radio 1 es \(\frac{\pi}{6}\).
+8. Sin embargo, cada pétalo de la flor no es un sector completo, sino que es una porción del sector que se extiende hasta el centro del hexágono.
+9. El ángulo del sector completo es \(60^\circ\) (o \(\frac{\pi}{3}\) radianes), pero cada pétalo solo cubre una parte de este ángulo.
+10. El área de cada pétalo es \(\frac{1}{2} \times 1^2 \times \theta\), donde \(\theta\) es el ángulo central del pétalo.
+11. Dado que cada pétalo se extiende desde el centro hasta el punto medio de un lado del hexágono, el ángulo central del pétalo es \(\frac{\pi}{6}\).
+12. Por lo tanto, el área de cada pétalo es \(\frac{1}{2} \times 1^2 \times \frac{\pi}{6} = \frac{\pi}{12}\).
+13. El área total de la flor dibujada es \(6 \times \frac{\pi}{12} = \frac{\pi}{2}\).
+
+**Respuesta:** D)

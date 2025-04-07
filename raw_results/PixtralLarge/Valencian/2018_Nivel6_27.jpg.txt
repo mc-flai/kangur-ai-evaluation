@@ -1,0 +1,31 @@
+Raonament: Per resoldre aquest problema, primer hem de determinar tots els nombres de tres xifres que es poden formar amb els dígits imparells. Els dígits imparells són: 1, 3, 5, 7 i 9.
+
+Cada nombre de tres xifres es pot formar seleccionant tres dels cinc dígits imparells sense repetició. El nombre total de combinacions possibles de tres dígits d'un conjunt de cinc dígits és donat per la fórmula de les permutacions:
+
+\[ P(n, r) = \frac{n!}{(n-r)!} \]
+
+on \( n \) és el nombre total de dígits i \( r \) és el nombre de dígits que volem seleccionar. En aquest cas, \( n = 5 \) i \( r = 3 \):
+
+\[ P(5, 3) = \frac{5!}{(5-3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times 2 \times 1}{2 \times 1} = 5 \times 4 \times 3 = 60 \]
+
+Així doncs, hi ha 60 nombres de tres xifres que es poden formar amb els dígits imparells.
+
+Ara, calculem la suma de tots aquests nombres. Per fer-ho, considerem que cada dígit imparell pot aparèixer en cadascuna de les tres posicions (unitats, desenes i centenes) i la suma de tots els dígits imparells és:
+
+\[ 1 + 3 + 5 + 7 + 9 = 25 \]
+
+Cada dígit apareix en cada posició un nombre igual de vegades. Com que hi ha 60 nombres i cinc dígits, cada dígit apareix en cada posició:
+
+\[ \frac{60}{5} = 12 \]
+
+Així doncs, la suma de tots els dígits en cada posició és:
+
+\[ 25 \times 12 = 300 \]
+
+Per calcular la suma total de tots els nombres, sumem les contribucions de cada posició (unitats, desenes i centenes):
+
+\[ 300 \times (1 + 10 + 100) = 300 \times 111 = 33300 \]
+
+Per tant, la suma de tots els nombres de tres xifres formats per dígits imparells és 33300.
+
+Resposta: E) 84755

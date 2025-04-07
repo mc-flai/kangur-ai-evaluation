@@ -1,0 +1,58 @@
+Razonamiento:
+La pregunta 19 plantea un problema de combinatoria. Toni quiere correr exactamente dos veces por semana, en los mismos días cada semana, y nunca quiere correr en días consecutivos. Tenemos que determinar cuántas combinaciones de dos días de la semana cumplen esta condición.
+
+Podemos enumerar las posibilidades:
+1. Lunes y Miércoles
+2. Lunes y Jueves
+3. Lunes y Viernes
+4. Lunes y Sábado
+5. Lunes y Domingo
+6. Martes y Jueves
+7. Martes y Viernes
+8. Martes y Sábado
+9. Martes y Domingo
+10. Miércoles y Viernes
+11. Miércoles y Sábado
+12. Miércoles y Domingo
+13. Jueves y Sábado
+14. Jueves y Domingo
+15. Viernes y Domingo
+Tenemos un total de 15 combinaciones. Sin embargo, el problema establece que son los mismos días *cada semana*. Corregí mi conteo inicial para enfocarme en selecciones de dos días donde esos dos días no son consecutivas.
+Lunes y Miércoles
+Lunes y Jueves
+Lunes y Viernes
+Lunes y Sábado
+Lunes y Domingo
+Martes y Jueves
+Martes y Viernes
+Martes y Sábado
+Martes y Domingo
+Miércoles y Viernes
+Miércoles y Sábado
+Miércoles y Domingo
+Jueves y Sábado
+Jueves y Domingo
+Viernes y Domingo
+Después de examinar las opciones restantes, es claro que llegué a una situación donde los días finales y iniciales no se consideran consecutivos. Hay 5 combinaciones que comienzan con "Lunes", 4 que comienzan con "Martes", 3 que comienzan con "Miércoles", 2 que comienzan con "Jueves", y 1 que comienza con "Viernes". Esto da como resultado un total de 5 + 4 + 3 + 2 + 1 = 15 posibilidades. La pregunta establece "Nunca quiere correr en dos días consecutivos". Esta frase incluye la imposibilidad de correr en el último y el primer día de la semana (domingo y lunes).
+
+De las 15 combinaciones, las únicas que debemos excluir son:
+Lunes y Domingo.
+
+Las 10 combinaciones que satisfacen las condiciones son:
+1. Lunes y Miércoles
+2. Lunes y Jueves
+3. Lunes y Viernes
+4. Lunes y Sábado
+5. Martes y Jueves
+6. Martes y Viernes
+7. Martes y Sábado
+8. Martes y Domingo
+9. Miércoles y Viernes
+10. Miércoles y Sábado
+11. Miércoles y Domingo
+12. Jueves y Sábado
+13. Jueves y Domingo
+14. Viernes y Domingo
+Con la condición que se busca dos días donde el Domingo y el Lunes no se consideran días consecutivos. Esto significa que hay 10 combinaciones que cumplen con las condiciones dadas.
+
+Respuesta: D)

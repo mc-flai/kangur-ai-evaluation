@@ -1,0 +1,6 @@
+Raonament:
+1. **Calcula el total de nombres de tres xifres:** Els nombres de tres xifres van del 100 al 999, un total de 900 nombres.
+2. **Calcula els nombres que NO contenen ni 1, ni 2, ni 3:** Això vol dir que els dígits possibles són 0, 4, 5, 6, 7, 8 i 9. Per a la primera xifra (centenes), no podem utilitzar el 0, per la qual cosa tenim 6 possibilitats (4-9). Per a les desenes i unitats tenim 7 possibilitats cadascun (0, 4-9).  Això ens dóna 6 * 7 * 7 = 294 nombres que no tenen ni 1, ni 2 ni 3.
+3. **Resta els que no contenen cap d'aquests dígits del total:**  Per trobar els nombres que contenen almenys un dels dígits, hem de restar els nombres que no contenen cap d'aquests dígits del nombre total de nombres de tres xifres: 900 - 294 = 606.
+
+Resposta: E)

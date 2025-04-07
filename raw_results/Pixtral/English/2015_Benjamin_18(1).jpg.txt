@@ -1,0 +1,49 @@
+To ensure Sebastian has at least one apple and one pear of the same color, we need to consider the worst-case scenario where he picks fruits of different colors until he is forced to pick the same color.
+
+1. Sebastian could pick:
+   - 1 green apple
+   - 1 yellow apple
+   - 1 green pear
+   - 1 yellow pear
+
+   This would leave him with:
+   - 2 green apples
+   - 4 yellow apples
+   - 6 green pears
+   - 1 yellow pear
+
+2. Next, Sebastian could pick:
+   - 1 green apple
+   - 1 green pear
+
+   This would leave him with:
+   - 1 green apple
+   - 5 yellow apples
+   - 5 green pears
+   - 1 yellow pear
+
+3. Then, Sebastian could pick:
+   - 1 yellow apple
+   - 1 yellow pear
+
+   This would leave him with:
+   - 1 green apple
+   - 3 yellow apples
+   - 5 green pears
+   - 0 yellow pears
+
+4. Finally, Sebastian could pick:
+   - 1 green apple
+   - 1 green pear
+
+   This would leave him with:
+   - 0 green apples
+   - 3 yellow apples
+   - 4 green pears
+   - 1 yellow pear
+
+At this point, Sebastian is forced to pick either a green apple or a yellow pear, ensuring he has at least one apple and one pear of the same color.
+
+Reasoning: By picking fruits in a way that maximizes the number of different colors, Sebastian ensures he will eventually be left with at least one apple and one pear of the same color. The worst-case scenario involves picking 8 fruits (4 of each color combination).
+
+Answer: D)

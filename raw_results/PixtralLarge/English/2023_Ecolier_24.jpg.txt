@@ -1,0 +1,21 @@
+Let's analyze question 24 step by step.
+
+Maria has colored exactly 5 cells in grey. Her 5 friends have guessed the patterns with each guess getting 4 cells correctly.
+
+To determine which pattern Maria painted, we need to identify the pattern that is not consistent with the others getting 4 out of 5 cells right.
+
+- If Maria painted pattern A, then all of the other patterns (B, C, D, and E) would differ from it by exactly one cell.
+- The same logic applies to patterns B, C, D, and E. We need to find a pattern where all others differ by exactly one cell.
+
+Let's examine each pattern:
+
+- Pattern A: If A is Maria's pattern, patterns B, C, D, and E must each have exactly 4 cells in common with A.
+- Pattern B: If B is Maria's pattern, patterns A, C, D, and E must each have exactly 4 cells in common with B.
+- Pattern C: If C is Maria's pattern, patterns A, B, D, and E must each have exactly 4 cells in common with C.
+- Pattern D: If D is Maria's pattern, patterns A, B, C, and E must each have exactly 4 cells in common with D.
+- Pattern E: If E is Maria's pattern, patterns A, B, C, and D must each have exactly 4 cells in common with E.
+
+By examining the patterns visually, we can see that pattern C is the one where each of the other patterns (A, B, D, E) differ by exactly one cell.
+
+Reasoning: Pattern C is the only pattern where each of the other patterns has exactly four cells in common with it, meaning each friend guessed four cells correctly.
+Answer: C).

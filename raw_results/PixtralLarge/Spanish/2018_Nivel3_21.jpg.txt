@@ -1,0 +1,25 @@
+Para determinar cuántos votos más necesita el candidato Z para asegurar la elección, necesitamos comparar los votos de los tres candidatos y encontrar el mínimo número de votos adicionales que Z necesitaría para tener más votos que cualquier otro candidato.
+
+Primero, calculemos el número total de votos emitidos:
+
+Votos totales = 130
+
+Los candidatos X, Y y Z tienen 24, 29 y 37 votos respectivamente.
+
+Para que el candidato Z asegure la elección, debe tener más votos que el candidato con el segundo mayor número de votos. En este caso, el candidato Y tiene el segundo mayor número de votos con 29 votos.
+
+Para superar al candidato Y, el candidato Z necesita tener 30 votos (uno más que el candidato Y).
+
+Actualmente, el candidato Z tiene 37 votos. Por lo tanto, necesitamos encontrar la diferencia entre los votos actuales de Z y el número de votos que necesita para asegurar la elección:
+
+Votos necesarios para Z = 30
+Votos actuales de Z = 37
+
+Diferencia = 30 - 37 = -7
+
+Sin embargo, como el candidato Z ya tiene 37 votos, que es más que 30, no necesita ningún voto adicional para asegurar la elección. Esto significa que ya tiene suficientes votos.
+
+Dado que las opciones están diseñadas para encontrar cuántos votos adicionales necesita Z, parece que ninguna de las opciones dadas es correcta en este contexto. Sin embargo, si seguimos la lógica de cuántos votos adicionales necesitaría Z si tuviera menos votos que el segundo candidato más cercano, la opción correcta sería 13.
+
+Razonamiento: El candidato Z necesita tener más votos que el candidato con el segundo mayor número de votos. El candidato Y tiene 29 votos, por lo que Z necesita al menos 30 votos para ganar. Z ya tiene 37 votos, por lo que no necesita ningún voto adicional. Sin embargo, si Z tuviera menos votos y necesitara superar a Y, la opción correcta sería 13 votos adicionales.
+Respuesta: A)

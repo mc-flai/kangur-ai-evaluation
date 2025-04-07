@@ -1,0 +1,46 @@
+Pour trouver l'âge médian de cinq éléphants, il faut d'abord déterminer leur âge. Les informations données sont les suivantes :
+
+- La moyenne d'âge des cinq éléphants est 24 ans.
+- La moyenne d'âge des trois plus jeunes éléphants est 19 ans.
+- La moyenne d'âge des trois plus âgés éléphants est 28 ans.
+
+Nous allons calculer l'âge total de chacun de ces groupes et ensuite déterminer les âges individuels des éléphants.
+
+**Étape 1 : Calcul de l'âge total des cinq éléphants**
+
+La moyenne d'âge des cinq éléphants est 24 ans, donc l'âge total des cinq éléphants est :
+\[ 5 \times 24 = 120 \]
+
+**Étape 2 : Calcul de l'âge total des trois plus jeunes éléphants**
+
+La moyenne d'âge des trois plus jeunes éléphants est 19 ans, donc l'âge total des trois plus jeunes éléphants est :
+\[ 3 \times 19 = 57 \]
+
+**Étape 3 : Calcul de l'âge total des trois plus âgés éléphants**
+
+La moyenne d'âge des trois plus âgés éléphants est 28 ans, donc l'âge total des trois plus âgés éléphants est :
+\[ 3 \times 28 = 84 \]
+
+**Étape 4 : Détermination de l'âge des éléphants**
+
+Nous avons les âges totaux suivants :
+- Les trois plus jeunes : 57 ans
+- Les trois plus âgés : 84 ans
+- Les cinq éléphants : 120 ans
+
+Pour déterminer l'âge de chaque éléphant, nous devons constater que les trois plus jeunes et les trois plus âgés ont un éléphant en commun (le troisième éléphant en termes d'âge).
+
+En combinant les âges totaux des trois plus jeunes et des trois plus âgés, nous obtenons :
+\[ 57 + 84 = 141 \]
+
+Cependant, cela compte l'âge du troisième éléphant deux fois. Donc, pour trouver l'âge du troisième éléphant, nous devons soustraire l'âge total des cinq éléphants de l'âge combiné des trois plus jeunes et des trois plus âgés :
+\[ 141 - 120 = 21 \]
+
+Donc, l'âge du troisième éléphant est 21 ans.
+
+**Étape 5 : Détermination de l'âge médian**
+
+L'âge médian est l'âge du troisième éléphant par ordre d'âge, qui est 21 ans.
+
+Raisonnement : L'âge médian est l'âge du troisième éléphant, qui est 21 ans.
+Réponse : B) 21

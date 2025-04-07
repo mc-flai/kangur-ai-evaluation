@@ -1,0 +1,30 @@
+Raonament:
+Let the side lengths of the triangle be $a=10$, $b=17$, and $c=21$. Let the side length of the inscribed square be $x$. The side of length $c=21$ is the base of the triangle.
+Let the height of the triangle be $h$.
+The two small triangles formed above the square are similar to the large triangle. The height of the small triangles is $h-x$.
+The triangles formed by the square and the sides of the large triangle are similar. The base of the large triangle is 21, and the base of the small triangle is $x$.
+The ratio of the sides is $\frac{h-x}{h} = \frac{x}{21}$.
+We need to find the height of the triangle. We can use Heron's formula to find the area of the triangle.
+The semi-perimeter is $s = \frac{10+17+21}{2} = \frac{48}{2} = 24$.
+Area $A = \sqrt{s(s-a)(s-b)(s-c)} = \sqrt{24(24-10)(24-17)(24-21)} = \sqrt{24 \cdot 14 \cdot 7 \cdot 3} = \sqrt{7056} = 84$.
+Also, $A = \frac{1}{2} \cdot c \cdot h$, so $84 = \frac{1}{2} \cdot 21 \cdot h$, and $h = \frac{2 \cdot 84}{21} = 8$.
+Now we have $\frac{h-x}{h} = \frac{x}{21}$, so $\frac{8-x}{8} = \frac{x}{21}$.
+$21(8-x) = 8x$, so $168 - 21x = 8x$.
+$168 = 29x$, so $x = \frac{168}{29}$.
+However, the given problem states that the square has one side on the side of length 21. We can use the similar triangles approach.
+$\frac{h-x}{h} = \frac{x}{21}$. We found h is incorrect. We have to make the assumption that height h is 8 since the question mentions the sides as 10,17 and 21, and the square is inscribed on side 21.
+We know $x = \frac{21h}{21+h}$.
+Let's calculate h correctly.
+$2A = c h$, where A is the area. The base c is 21.
+$A = \frac{1}{2} * 21 * h$
+$168 = 29x$
+We have $\frac{h-x}{h} = \frac{x}{21}$
+$21h-21x = hx$
+Let x be the side of the square. Then by similar triangles, the altitude to side 21 is h. Then $\frac{x}{21} = \frac{h-x}{h}$, or $xh = 21h - 21x$. So $x(h+21) = 21h$ or $x = \frac{21h}{21+h}$.
+Using Heron's formula to compute the area with $a=10, b=17, c=21$.
+$s = (10+17+21)/2 = 48/2 = 24$.
+$A = \sqrt{24(24-10)(24-17)(24-21)} = \sqrt{24 \cdot 14 \cdot 7 \cdot 3} = \sqrt{7056} = 84$.
+Then $84 = \frac{1}{2} (21) h$, so $h = 8$.
+Then $x = \frac{21(8)}{21+8} = \frac{168}{29}$.
+
+Resposta: E)

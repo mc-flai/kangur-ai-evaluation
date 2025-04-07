@@ -1,0 +1,20 @@
+La pregunta 29 trata sobre una circunferencia que tiene 12 puntos que dividen a la circunferencia en 12 arcos iguales. Se pregunta cuántos triángulos con un ángulo de 45 grados se pueden formar conectando tres de estos puntos.
+
+Para resolver esto, sigue estos pasos:
+
+1. **Identificar los puntos en la circunferencia**: La circunferencia tiene 12 puntos que dividen la circunferencia en 12 arcos iguales. Cada arco tiene un ángulo central de 360° / 12 = 30°.
+
+2. **Calcular el ángulo en la circunferencia**: Un ángulo de 45 grados en la circunferencia corresponde a un arco de 45° / 30° = 1.5 arcos.
+
+3. **Determinar el número de triángulos**: Para formar un triángulo, necesitamos tres puntos. Estos puntos deben estar en una secuencia que forme un ángulo de 45 grados en la circunferencia. Dado que cada arco tiene 30 grados, necesitamos 1.5 arcos entre cada par de puntos.
+
+4. **Calcular el número de combinaciones**: El número de combinaciones de 3 puntos de un conjunto de 12 puntos se calcula usando la fórmula de combinaciones:
+   \[
+   \binom{12}{3} = \frac{12 \times 11 \times 10}{3 \times 2 \times 1} = 220
+   \]
+
+5. **Verificar la respuesta**: La pregunta solicita el número de triángulos con un ángulo de 45 grados. Dado que cada triángulo tiene un ángulo de 45 grados, el número de combinaciones es el número de triángulos posibles.
+
+Raonament: La circunferencia tiene 12 puntos que dividen la circunferencia en 12 arcos iguales. Un ángulo de 45 grados corresponde a 1.5 arcos. El número de combinaciones de 3 puntos de un conjunto de 12 puntos se calcula usando la fórmula de combinaciones, resultando en 220 combinaciones.
+
+Resposta: E) 96

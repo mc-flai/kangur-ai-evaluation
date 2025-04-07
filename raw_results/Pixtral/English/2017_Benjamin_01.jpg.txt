@@ -1,0 +1,29 @@
+### Reasoning:
+
+We start with the initial order of the cards: 2, 0, 1, 7. We need to determine which of the given options cannot be obtained by swapping only two cards.
+
+1. **Option (A): 2, 7, 1, 0**
+   - Swap 1 and 7: 2, 0, 1, 7 → 2, 0, 7, 1
+   - Swap 2 and 7: 2, 0, 7, 1 → 7, 0, 2, 1
+   - Swap 0 and 1: 7, 0, 2, 1 → 7, 1, 2, 0
+   - This order can be obtained.
+
+2. **Option (B): 0, 1, 2, 7**
+   - Swap 2 and 7: 2, 0, 1, 7 → 2, 0, 1, 7
+   - This order cannot be obtained.
+
+3. **Option (C): 1, 0, 2, 7**
+   - Swap 1 and 7: 2, 0, 1, 7 → 2, 0, 7, 1
+   - Swap 0 and 2: 2, 0, 7, 1 → 1, 0, 2, 7
+   - This order can be obtained.
+
+4. **Option (D): 0, 2, 1, 7**
+   - Swap 1 and 7: 2, 0, 1, 7 → 2, 0, 7, 1
+   - Swap 0 and 2: 2, 0, 7, 1 → 1, 0, 2, 7
+   - This order can be obtained.
+
+5. **Option (E): 2, 0, 7, 1**
+   - Swap 2 and 7: 2, 0, 1, 7 → 2, 0, 7, 1
+   - This order can be obtained.
+
+### Answer: B

@@ -1,0 +1,16 @@
+Razonamiento:
+La función está definida recursivamente como f(n) = f(n-1) - f(n-2).
+Dado f(0) = 1 y f(1) = 2, podemos calcular algunos valores:
+f(2) = f(1) - f(0) = 2 - 1 = 1
+f(3) = f(2) - f(1) = 1 - 2 = -1
+f(4) = f(3) - f(2) = -1 - 1 = -2
+f(5) = f(4) - f(3) = -2 - (-1) = -1
+f(6) = f(5) - f(4) = -1 - (-2) = 1
+f(7) = f(6) - f(5) = 1 - (-1) = 2
+f(8) = f(7) - f(6) = 2 - 1 = 1
+Se observa que la función se repite cada 6 términos.
+2024 dividido por 6 es igual a 337 con un residuo de 2.
+f(2024) = f(2), ya que 2024 mod 6 = 2.
+f(2) = 1.
+
+Respuesta: D)

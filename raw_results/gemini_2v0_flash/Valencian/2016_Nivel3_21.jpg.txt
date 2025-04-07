@@ -1,0 +1,51 @@
+Raonament:
+L'enunciat diu que les pàgines múltiples de 3 no s'han numerat.
+Això vol dir que per cada 3 pàgines, només s'han numerat 2.
+Si l'última pàgina numerada és la 92, hem d'esbrinar quantes pàgines reals té el llibre.
+Sigui x el nombre total de pàgines. Les pàgines múltiples de 3 que no s'han numerat són x/3.
+Així doncs, el nombre de pàgines numerades és x - x/3 = 92.
+Multiplicant per 3: 3x - x = 92 * 3, per tant 2x = 276.
+Finalment x = 276/2 = 138.
+
+Si hi ha 92 pàgines numerades, això representa 2/3 del total de les pàgines.
+Si 2/3 de x = 92, llavors 1/3 de x és 92/2 = 46.
+Per tant el número de pàgines sense numerar és de 46.
+El total de pàgines és per tant 92 + 46 = 138.
+El número de pàgines sense numerar és 138/3 = 46. Però això significa que hi ha 138 pàgines.
+
+El problema és que hem de determinar el número de pàgines *reals* del llibre.
+Si la pàgina numerada és 92, sabem que aproximadament 1/3 de les pàgines no estan numerades. Si hi haguessin 92 pàgines en total, aleshores aproximadament 92/3 = 30 pàgines no estarien numerades, donant 92-30=62, però la solució no és tan senzilla.
+
+Per cada dues pàgines numerades, hi ha una que no ho està. Per tant per cada dues pàgines mostrades, el llibre té tres pàgines. Llavors hem de trobar quin número n fa que 2/3 de n = 92. Per tant n = 92 * 3/2 = 138. Aquesta no és cap de les opcions.
+
+Considerem que la resposta és x. El nombre de pàgines no numerades és la part entera de x/3.
+Llavors tenim que x - floor(x/3) = 92. Per tant x - x/3 ~ 92. O sigui 2x/3 ~ 92, x ~ 92 * 3 / 2 = 138.
+Analitzem les respostes:
+A) 31: 31 - floor(31/3) = 31 - 10 = 21 (wrong)
+B) 46: 46 - floor(46/3) = 46 - 15 = 31 (wrong)
+C) 61: 61 - floor(61/3) = 61 - 20 = 41 (wrong)
+D) 62: 62 - floor(62/3) = 62 - 20 = 42 (wrong)
+E) 92: 92 - floor(92/3) = 92 - 30 = 62 (wrong)
+92 = N - N/3 ==> N/3 = N -92 => N=276/2= 138
+
+Considerem l'opció D) 62. 62/3 = 20.6. Això vol dir que es van botar 20 pàgines.
+Si es van botar 20 pàgines, les pàgines numerades són 62-20 = 42. Això tampoc és correcte.
+Si el llibre té X pàgines, els múltiples de 3 seran aproximadament X/3. Si les pàgines estan numerades fins a 92, vol dir que X - X/3 = 92. ==> 2X/3 = 92. X= 92*(3/2) = 138. Cap de les opcions és 138.
+Si X = 46: Pàgines múltiples de 3 son 15. Pages numerades = 46-15 = 31
+L'última pàgina és la número 92. Això significa que el número de pàgines sense numerar és 92/2. Si per cada 2 pàgines numerades hi ha una que no ho está. Això implica 92/2 = 46.
+Per tant hi hauria un total de 92 + 46 = 138 pàgines.
+Hi ha un error en el problema.
+
+No obstant, de les opcions donades, si l'última pàgina numerada és 92, aleshores la veritable pàgina no numerada seria de 92 + el número aproximat sense numerar.
+
+Però és estrany perquè les opcions donades són molt petites.
+Si realment el llibre tingués 62 pàgines, no és possible que l'última pàgina sigui la 92.
+
+Revisant l'enunciat, està clar que hi ha alguna errada en el plantejament.
+L'opció més probable és que hi hagués d'haver un altre nombre en les opcions que fos proper a 138, i aquest ha estat eliminat per algun motiu.
+Si hi hagués 62 pagines, no faria que la numeració es saltés la resta, i el nombre 92 hauria de ser un error.
+L'enunciat es refereix al número de pàgines *numerades*.
+
+Raonament: Després de rellegir diverses vegades l'enunciat, estic convençut que hi ha una errada en el plantejament del problema o en les opcions. La lògica dictaria que la resposta hauria d'estar propera a 138, i aquesta no és cap de les opcions donades. Davant la impossibilitat de trobar una resposta correcta dins les opcions donades, i sense conèixer quin error conté l'enunciat, la millor aproximació és suposar que el valor 92 és el nombre de pàgines total.
+
+Resposta: E)

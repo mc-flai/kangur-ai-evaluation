@@ -1,0 +1,31 @@
+Para resolver la pregunta 30, necesitamos determinar el valor de \( \alpha \) en el número de cuatro dígitos \( abcd \) que satisface la ecuación:
+
+\[ abcd = a^a + b^b + c^c + d^d \]
+
+Razonamiento:
+1. Identificamos que \( a, b, c \) y \( d \) son dígitos individuales, por lo que deben ser números enteros del 0 al 9.
+2. La ecuación implica que cada dígito se eleva a sí mismo y se suma a los resultados de los demás dígitos elevados a sí mismos.
+3. Para que \( abcd \) sea un número de cuatro dígitos, \( a \) debe ser un dígito no nulo (es decir, 1 a 9).
+4. Evaluamos cada opción para \( \alpha \) para ver si satisface la ecuación.
+
+   - Para \( \alpha = 2 \):
+     \[ abcd = a^2 + b^b + c^c + d^d \]
+     Necesitamos encontrar \( a, b, c, d \) que satisfagan esta ecuación. Sin embargo, \( b^b, c^c \) y \( d^d \) no pueden ser números de un solo dígito para \( b, c, d \) siendo dígitos del 0 al 9, lo que hace que sea difícil satisfacer la ecuación.
+
+   - Para \( \alpha = 3 \):
+     \[ abcd = a^3 + b^3 + c^3 + d^3 \]
+     Evaluamos posibles combinaciones de \( a, b, c, d \) que satisfagan esta ecuación. Sin embargo, encontrar una combinación que funcione es complicado debido a la naturaleza de los números elevados a la potencia de 3.
+
+   - Para \( \alpha = 4 \):
+     \[ abcd = a^4 + b^4 + c^4 + d^4 \]
+     Evaluamos posibles combinaciones de \( a, b, c, d \) que satisfagan esta ecuación. Similar a la evaluación para \( \alpha = 3 \), encontrar una combinación que funcione es complicado debido a la naturaleza de los números elevados a la potencia de 4.
+
+   - Para \( \alpha = 5 \):
+     \[ abcd = a^5 + b^5 + c^5 + d^5 \]
+     Evaluamos posibles combinaciones de \( a, b, c, d \) que satisfagan esta ecuación. Sin embargo, encontrar una combinación que funcione es complicado debido a la naturaleza de los números elevados a la potencia de 5.
+
+   - Para \( \alpha = 6 \):
+     \[ abcd = a^6 + b^6 + c^6 + d^6 \]
+     Evaluamos posibles combinaciones de \( a, b, c, d \) que satisfagan esta ecuación. Sin embargo, encontrar una combinación que funcione es complicado debido a la naturaleza de los números elevados a la potencia de 6.
+
+Respuesta: D)

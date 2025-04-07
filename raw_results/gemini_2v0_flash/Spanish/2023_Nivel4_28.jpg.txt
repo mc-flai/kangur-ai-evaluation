@@ -1,0 +1,18 @@
+Razonamiento:
+Para encontrar el porcentaje mínimo de estudiantes que han respondido correctamente las 3 preguntas, debemos considerar el caso más desfavorable.
+Tenemos que:
+- 90% respondió correctamente la primera pregunta
+- 80% respondió correctamente la segunda pregunta
+- 70% respondió correctamente la tercera pregunta
+
+Primero, calculemos el porcentaje de estudiantes que respondieron incorrectamente cada pregunta:
+- 10% incorrecto en la primera pregunta
+- 20% incorrecto en la segunda pregunta
+- 30% incorrecto en la tercera pregunta
+
+Para minimizar el porcentaje de estudiantes que respondieron correctamente las 3 preguntas, maximizamos el número de estudiantes que respondieron incorrectamente alguna de las preguntas.
+En el peor de los casos, los estudiantes que fallaron en la primera pregunta también fallaron en la segunda y tercera. Por lo tanto, sumamos los porcentajes de respuestas incorrectas: 10% + 20% + 30% = 60%.
+Esto significa que, como máximo, el 60% de los estudiantes respondió incorrectamente al menos una pregunta.
+Por lo tanto, el porcentaje mínimo de estudiantes que respondieron correctamente las 3 preguntas es: 100% - 60% = 40%.
+
+Respuesta: C)

@@ -1,0 +1,26 @@
+Per a determinar quants partits Magnus ha de jugar, hem de considerar les condicions específiques del problema:
+
+1. Magnus ha jugat 15 partits.
+2. Ha guanyat la meitat d'aquests partits.
+3. Ha perdut un terç dels partits.
+4. Dos partits van acabar en taules.
+
+Comencem per calcular la quantitat de partits guanyats, perduts i empatats.
+
+- Partits guanyats: 15 / 2 = 7,5. Com que no es pot guanyar mig partit, això indica que un dels partits va acabar en taula.
+- Partits perduts: 15 / 3 = 5.
+- Partits empatats: 2.
+
+Ara, sumem els partits guanyats, perduts i empatats per a verificar si el total és 15:
+
+7 (guanyats) + 5 (perduts) + 2 (empatats) = 14.
+
+Això significa que un partit encara no està comptabilitzat. Aquest partit podria ser un partit guanyat o un partit perdu perquè hem utilitzat una aproximació per als partits guanyats.
+
+Per a resoldre això, hem de considerar que el partit restant ha de ser un partit guanyat per a complir la condició de guanyar la meitat dels partits. Això significa que Magnus ha de jugar un partit més per a complir totes les condicions.
+
+Per tant, Magnus ha de jugar un total de 15 + 1 = 16 partits.
+
+Raonament: Magnus ha de jugar un partit més per a complir totes les condicions del problema.
+
+Resposta: E) 6.

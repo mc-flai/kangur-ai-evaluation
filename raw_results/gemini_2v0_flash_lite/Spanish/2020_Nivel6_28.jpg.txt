@@ -1,0 +1,62 @@
+Razonamiento: El problema nos dice que un iceberg tiene forma de cubo y el 90% de su volumen está sumergido.  Solo tres aristas son visibles. Sea 'x' la longitud de una arista del cubo. Las partes visibles de las aristas miden 24, 25 y 27 metros. Dado que el 90% del cubo está sumergido, significa que el 10% está sobre el agua.
+Si consideras una arista, las partes visibles están sobre el agua.  Consideremos que el 10% del cubo está fuera del agua, el volumen fuera del agua es: (10/100) * x^3.
+El área de la base del cubo multiplicada por la altura del iceberg expuesta es igual al volumen expuesto. Las aristas son 24, 25 y 27, lo que significa que la parte visible de cada arista es: 24, 25 y 27.
+Sea 'x' la longitud de la arista del cubo, entonces: x-24, x-25 y x-27, son las longitudes sumergidas.  El volumen sumergido es x^3 * 0.9.  La superficie total de la parte expuesta (fuera del agua) es (x - 24)(x - 25)(x - 27) * x (asumiendo las partes visibles forman un paralelepípedo)
+Consideremos que las longitudes visibles forman tres caras adyacentes del iceberg. El volumen del iceberg sumergido se puede calcular como el área de las tres caras visibles multiplicada por el lado restante, que es la arista del cubo. El volumen de la parte expuesta sería: 24*25*27.  Pero esto no se ajusta al volumen total, entonces la parte visible son los 3 lados de un vértice.
+Como solo el 10% del volumen del cubo es visible, y las tres aristas visibles forman las tres aristas que confluyen en un vértice del cubo, las dimensiones de la parte visible son 24, 25 y 27.
+Entonces, el volumen de la parte expuesta es (x-24)(x-25)(x-27), y esto debe ser igual a (10/100)*x^3 = 0.1*x^3.
+Dado que estamos buscando la arista del cubo (x), podemos analizar las opciones. Probemos con 30, 33, 34, 35, 39.
+Si x = 30, entonces el volumen expuesto es 6*5*3 = 90, y el volumen total del cubo es 30^3 = 27000. 0.1*27000 = 2700, no coincide.
+Si x = 33, entonces el volumen expuesto es 9*8*6 = 432 y el volumen total es 33^3 = 35937. 0.1*35937 = 3593.7, no coincide.
+Si x = 34, entonces el volumen expuesto es 10*9*7 = 630. 34^3 = 39304. 0.1*39304 = 3930.4, no coincide.
+Si x = 35, entonces el volumen expuesto es 11*10*8 = 880. 35^3 = 42875. 0.1*42875 = 4287.5, no coincide.
+Sin embargo, existe una manera más sencilla:
+Las dimensiones visibles (24, 25, 27) no se refieren a las dimensiones del volumen expuesto del cubo, sino a las porciones visibles de tres aristas que convergen en un vértice. Si 'x' es la longitud de la arista, y el 90% está sumergido, entonces el 10% está fuera del agua.
+El volumen del iceberg es x^3. El volumen visible es el 10% de x^3, es decir 0.1x^3.
+El volumen visible, basándonos en las partes visibles de las tres aristas, sería el producto de las aristas visibles.
+Pero si vemos la parte que sobresale del agua, las dimensiones del iceberg serían: x-24, x-25 y x-27. El volumen es (x-24)(x-25)(x-27) que debe ser el 10% del volumen del cubo:
+(x-24)(x-25)(x-27) = 0.1x^3.  No es tan simple.
+Otra forma de verlo:
+El volumen expuesto es 0.1x^3. Podemos asumir que las partes visibles forman tres aristas de las tres caras que convergen en una esquina. La parte sumergida de cada arista es x-24, x-25, x-27. El volumen sumergido se puede expresar como el producto de la longitud de la arista x, por la altura del iceberg sumergido.
+El volumen del cubo es x^3, y el volumen expuesto es el 10% de este volumen.
+Considerando que solo hay 3 aristas, la longitud total de las tres aristas visibles sumadas es x.  Por lo tanto x = 24+25+27 = 76/3...
+El volumen de la parte expuesta es (x-24)(x-25)(x-27).
+Debe cumplirse que x - 24 + x - 25 + x - 27 = x*0.9
+Pero el dato importante es el volumen total:
+(10/100) * x^3 es el volumen visible.
+Pero las aristas expuestas son simplemente las longitudes visibles:
+El volumen del cubo es x^3. El volumen expuesto es el 10% del cubo.
+Las aristas visibles son 24, 25, 27.  Por lo tanto, la arista del cubo debe ser mayor que estos valores.  El volumen expuesto está determinado por la longitud de las aristas, entonces.
+Si la arista es de 30 metros, entonces, x=30. 10% volumen = (30^3) * 0.1 = 2700.  Entonces (30-24)*(30-25)*(30-27)=6*5*3=90.
+La arista del cubo es x. El volumen expuesto = x^3 * 0.1.
+Si asumimos que las longitudes visibles son 24, 25, 27, eso significa que la porción visible de la arista es 24, la otra 25 y la tercera 27. La arista del cubo debe ser mayor a 27.  Por lo tanto, el volumen expuesto es 24*25*27 = 16200.
+Si el volumen visible es 0.1x^3, entonces 16200 = 0.1x^3, x^3 = 162000, x = 54.58.  Ninguna de las respuestas es correcta.
+Otra forma es: (x-24)(x-25)(x-27) = 0.1x^3.
+
+Debemos considerar que la suma de las partes visibles de cada lado del cubo, debe ser aproximadamente igual a la longitud de la arista del cubo.
+Es decir, que las tres aristas visibles forman el 10% del volumen del cubo.
+Consideremos que x es la longitud de una arista.
+Las partes visibles son 24, 25, 27. El volumen del cubo es x^3, el volumen expuesto es 0.1 x^3.
+El área expuesta se puede calcular como: (x-24)*(x-25)*(x-27). Esta área se calcula como el volumen expuesto.
+Así que (x - 24)*(x - 25)*(x - 27) = 0.1 * x^3.
+Si x = 30.  (6 * 5 * 3) = 90.  0.1 * 30^3 = 2700.
+Si x = 33, (9*8*6) = 432, 0.1 * 33^3 = 3593.7
+Si x = 34, (10*9*7) = 630, 0.1 * 34^3 = 3930.4
+Si x = 35, (11*10*8) = 880, 0.1*35^3=4287.5
+Si x = 39, (15*14*12) = 2520, 0.1 * 39^3 = 5931.9
+Lo que se cumple es que (x-24)*(x-25)*(x-27)=k
+Entonces, 24*25*27 no es correcto.
+Como el 90% está sumergido y las longitudes visibles son 24, 25 y 27, la arista debe ser mayor que 27.
+Una posibilidad, es que las tres aristas visibles formen las tres aristas adyacentes de un cubo.
+
+Si pensamos en el iceberg y el cubo, las aristas visibles son la porción de la arista que está fuera del agua. Si la arista del cubo mide x, y el volumen es x^3, y el 90% está bajo el agua. El 10% está fuera.
+Las aristas visibles son 24, 25, 27.
+El volumen visible sería (x-24)(x-25)(x-27).
+0.  1x^3 = (x - 24)(x - 25)(x - 27)
+Cuando x es cercano a 30,
+Lo que se busca es que x - 24, x - 25, x - 27,  sean cercanos a cero.
+
+Como el 90% del cubo está sumergido, y el 10% es visible.
+La respuesta más cercana es 35.
+
+Respuesta: D)

@@ -1,0 +1,27 @@
+Reasoning: We are given that a + 2 = b - 2 = c * 2 = d / 2. Let's express each variable in terms of a constant, let's call it 'k':
+a + 2 = k  =>  a = k - 2
+b - 2 = k  =>  b = k + 2
+c * 2 = k  =>  c = k / 2
+d / 2 = k  =>  d = 2k
+
+We are looking for which of a, b, c, and d is the biggest. Comparing the equations above:
+a = k - 2
+b = k + 2
+c = k / 2
+d = 2k
+
+Since the problem stated that a,b,c, and d are positive integers, k should be a positive integer to make c positive, and since a,b, and c are also positive integers, k has to be strictly greater than 2.
+
+Comparing the expressions:
+- 'b' is equal to 'k + 2', and 'd' is equal to '2k'. Since k > 2, 'd' (2k) is greater than b.
+- 'c' is equal to 'k / 2', and 'd' is equal to '2k'. Clearly, 'd' is greater than 'c'.
+- 'a' is equal to 'k - 2', and 'd' is equal to '2k'. Thus, 'd' is bigger than 'a'.
+- 'b' is equal to 'k + 2', and 'd' is equal to '2k'. Since k > 2, 2k > k+2, hence 'd' is bigger than 'b'.
+- 'b' is equal to 'k + 2', and 'c' is equal to 'k / 2'. If k> 2, then b is always bigger than c.
+- 'a' is equal to 'k - 2', and 'b' is equal to 'k + 2'. Hence, 'b' is biggest than 'a'.
+- 'a' is equal to 'k - 2', and 'c' is equal to 'k/2'. If k > 2, then b is bigger than a.
+- 'a' is equal to 'k-2', and 'd' is equal to '2k'. 'd' is always greater than 'a'
+
+Therefore, 'd' is the biggest.
+
+Answer: D)

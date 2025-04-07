@@ -1,0 +1,26 @@
+To determine which number should be placed in the top right cell of the grid, we need to ensure that each number from 1 to 5 appears exactly once in each row and each column. Additionally, the sum of all numbers in the three black-bordered sections should be the same.
+
+First, let's analyze the current state of the grid:
+- The number 2 is already placed in the bottom left cell.
+- The black-bordered sections need to have the same sum.
+
+Let's consider the rows and columns:
+- Since the numbers 1, 2, 3, 4, and 5 must appear exactly once in each row and column, we can start by placing the number 2 in the bottom left cell.
+- We need to ensure that the sum of the numbers in the three black-bordered sections is the same.
+
+Next, let's calculate the sum of the numbers in the black-bordered sections:
+- The bottom left section contains the number 2.
+- The middle section and the top right section must have numbers that, when added to 2, result in the same sum.
+
+Since the numbers 1, 2, 3, 4, and 5 must be used, and each number appears exactly once in each row and column, we can deduce the following:
+- The sum of the numbers in each black-bordered section should be 9 (since 1+2+3+4+5 = 15, and we need three sections with equal sums, 15/3 = 5).
+
+Now, let's place the numbers in the grid:
+- The bottom left cell has the number 2.
+- The middle section must contain numbers that add up to 9.
+- The top right section must also contain numbers that add up to 9.
+
+Given the constraints, the number that fits in the top right cell to satisfy all conditions is 3.
+
+Reasoning: The number 3 ensures that each number from 1 to 5 appears exactly once in each row and column, and the sum of the numbers in the black-bordered sections is the same.
+Answer: C)

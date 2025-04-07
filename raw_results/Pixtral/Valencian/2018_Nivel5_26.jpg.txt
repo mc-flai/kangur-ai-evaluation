@@ -1,0 +1,31 @@
+
+La pregunta 26 solicita que se encuentren las soluciones de la ecuación \( x^2 + x - 7 = 0 \) y que se determine el valor del número \( 3a^2 + 4b^2 + 2a + 3b + 1 \) usando las soluciones \( a \) y \( b \).
+
+### Razonamiento:
+
+1. **Encontrar las soluciones de la ecuación \( x^2 + x - 7 = 0 \):**
+   - Esta es una ecuación cuadrática de la forma \( ax^2 + bx + c = 0 \), donde \( a = 1 \), \( b = 1 \) y \( c = -7 \).
+   - Para resolverla, utilizamos la fórmula cuadrática: \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \).
+   - Sustituyendo los valores, obtenemos: \( x = \frac{-1 \pm \sqrt{1^2 - 4 \cdot 1 \cdot (-7)}}{2 \cdot 1} \).
+   - Simplificando dentro de la raíz: \( x = \frac{-1 \pm \sqrt{1 + 28}}{2} \).
+   - \( x = \frac{-1 \pm \sqrt{29}}{2} \).
+   - Por lo tanto, las soluciones son \( x = \frac{-1 + \sqrt{29}}{2} \) y \( x = \frac{-1 - \sqrt{29}}{2} \).
+
+2. **Determinar el valor del número \( 3a^2 + 4b^2 + 2a + 3b + 1 \):**
+   - Dado que \( a \) y \( b \) son las soluciones de la ecuación, podemos usar \( a = \frac{-1 + \sqrt{29}}{2} \) y \( b = \frac{-1 - \sqrt{29}}{2} \).
+   - Calculamos \( 3a^2 \), \( 4b^2 \), \( 2a \) y \( 3b \):
+     - \( 3a^2 = 3 \left( \frac{-1 + \sqrt{29}}{2} \right)^2 \).
+     - \( 4b^2 = 4 \left( \frac{-1 - \sqrt{29}}{2} \right)^2 \).
+     - \( 2a = 2 \left( \frac{-1 + \sqrt{29}}{2} \right) \).
+     - \( 3b = 3 \left( \frac{-1 - \sqrt{29}}{2} \right) \).
+   - Simplificando cada término:
+     - \( 3a^2 = 3 \left( \frac{1 - 2\sqrt{29} + 29}{4} \right) = \frac{3(30 - 2\sqrt{29})}{4} = \frac{90 - 6\sqrt{29}}{4} = \frac{45 - 3\sqrt{29}}{2} \).
+     - \( 4b^2 = 4 \left( \frac{1 + 2\sqrt{29} + 29}{4} \right) = \frac{3(30 + 2\sqrt{29})}{4} = \frac{90 + 6\sqrt{29}}{4} = \frac{45 + 3\sqrt{29}}{2} \).
+     - \( 2a = -1 + \sqrt{29} \).
+     - \( 3b = -3 - \sqrt{29} \).
+   - Sumando todos los términos:
+     - \( 3a^2 + 4b^2 + 2a + 3b + 1 = \frac{45 - 3\sqrt{29}}{2} + \frac{45 + 3\sqrt{29}}{2} - 1 - 3 + 1 \).
+     - Simplificando, obtenemos: \( \frac{90}{2} - 3 = 45 - 3 = 42 \).
+
+### Respuesta:
+D) -29

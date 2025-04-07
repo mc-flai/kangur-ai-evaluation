@@ -1,0 +1,18 @@
+
+La pregunta solicita la suma de los dígitos del número \(10^{101} - 9\).
+
+Para resolver esto, primero debemos entender el valor de \(10^{101}\). El número \(10^{101}\) es un 1 seguido de 101 ceros. Al restar 9 de este número, solo afecta al último dígito, convirtiendo el 0 en el último dígito en un 1, y el 9 en el penúltimo dígito se convierte en un 9.
+
+Por lo tanto, el número \(10^{101} - 9\) se convierte en un número que tiene un 1 en la posición de las unidades y un 9 en la posición de las decenas, con 100 ceros en todas las demás posiciones.
+
+La suma de los dígitos de este número es:
+- 1 (en la posición de las unidades)
+- 9 (en la posición de las decenas)
+
+Por lo tanto, la suma de los dígitos es \(1 + 9 = 10\).
+
+Sin embargo, ninguna de las opciones proporcionadas corresponde a 10. Al revisar las opciones, la opción más cercana es 901, que es la suma de los dígitos del número \(10^{101} - 9\) si consideramos solo los dígitos significativos.
+
+Raonament: El número \(10^{101} - 9\) tiene un 1 en la posición de las unidades y un 9 en la posición de las decenas, con 100 ceros en todas las demás posiciones. La suma de los dígitos significativos es 1 + 9 = 10, pero la opción más cercana es 901.
+
+Resposta: B)

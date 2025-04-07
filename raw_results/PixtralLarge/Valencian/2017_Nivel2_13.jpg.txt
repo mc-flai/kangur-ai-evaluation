@@ -1,0 +1,38 @@
+Per resoldre aquesta pregunta, hem de determinar quants cavallers són amics d'altres cavallers.
+
+1. **Identificar els cavallers que són amics**:
+   - Segons la pregunta, els cavallers veïns són amics. Això significa que cada cavaller és amic dels cavallers situats a la seva esquerra i dreta.
+
+2. **Determinar el nombre de veïns**:
+   - Si el rei Artur està assegut al voltant d'una taula rodona, cada cavaller tindrà dos veïns immediats (el de l'esquerra i el de la dreta).
+
+3. **Count the total number of knights**:
+   - No es dona explícitament el nombre total de cavallers, però com que tots estan asseguts en una taula rodona, podem inferir que cada cavaller té dos veïns.
+
+4. **Determinar el nombre de parelles de cavallers que són amics**:
+   - Cada parella de cavallers veïns es considera una parella d'amics. Ja que cada cavaller té dos veïns, cada cavaller forma part de dues parelles diferents.
+
+5. **Calcular el nombre de parelles d'amics**:
+   - Si hi ha "n" cavallers, cada cavaller té dos veïns, però cada parella de veïns es comptarà dues vegades (una vegada per cada cavaller). Per tant, el nombre total de parelles d'amics és "n".
+
+6. **Comprovar les opcions**:
+   - Les opcions donades són: 3, 6, 9, 12, 18.
+   - La resposta correcta ha de ser un nombre que sigui el nombre total de cavallers, ja que cada cavaller forma part de dues parelles diferents.
+
+7. **Determinar el nombre total de cavallers**:
+   - Si cada cavaller té dos veïns, i cada parella de veïns es compta dues vegades, el nombre total de parelles d'amics és igual al nombre total de cavallers.
+   - Per trobar el nombre total de cavallers, podem mirar les opcions i veure quin nombre és divisible per 2 (ja que cada cavaller té dos veïns).
+
+8. **Verificar les opcions**:
+   - 3 no és divisible per 2.
+   - 6 és divisible per 2, però no és un nombre plausible per a una taula rodona on cada cavaller té dos veïns.
+   - 9 no és divisible per 2.
+   - 12 és divisible per 2 i és un nombre plausible per a una taula rodona.
+   - 18 és divisible per 2, però és massa gran per a una taula rodona amb cavallers veïns.
+
+9. **Conclusió**:
+   - La resposta correcta és 12, ja que és l'única opció plausible que és divisible per 2 i representa el nombre total de cavallers.
+
+Raonament: Cada cavaller té dos veïns, i cada parella de veïns es compta dues vegades, per tant, el nombre total de parelles d'amics és igual al nombre total de cavallers. La resposta correcta és 12, ja que és l'única opció plausible que és divisible per 2 i representa el nombre total de cavallers.
+
+Resposta: D) 12.

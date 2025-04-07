@@ -1,0 +1,25 @@
+**Raonament**: Per resoldre aquest problema, hem de trobar tres nombres de manera que la suma dels tres nombres en cada costat del quadrat sigui 13. Els nombres del 1 al 8 es poden escriure de la següent manera:
+
+Posicionem els nombres de manera que la suma en cada costat del quadrat doni 13.
+
+Si observem el quadrat, els nombres repetits són els que estan en color taronja. Per tant, comencem amb un dels nombres en els cercles grisos, que està connectat amb dos nombres en els cercles taronja.
+
+Suposem que el nombre en el cercle gris del cantó superior esquerre és \(x\).
+
+D'acord amb el quadrat, en aquesta posició, \(x\) està connectat a dos nombres que estan repetits. Per tant, en cada costat del quadrat, sumarem el nombre gris i dos nombres taronja.
+
+Si el nombre gris és \(x\), i els dos nombres taronja són \(y\) i \(z\), llavors l'equació per a cada costat és:
+\[
+x + y + z = 13
+\]
+
+Com que hi ha tres nombres grisos, i cada costat del quadrat té una suma de 13, la suma de tots els nombres taronja ha de ser:
+\[
+3 \times 13 - suma \ dels \ nombres \ grisos
+\]
+
+Els nombres del 1 al 8 sumen \(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36\).
+
+Els tres nombres grisos són diferents, el que significa que la suma dels nombres grisos ha de ser 36 - 15 = 21.
+
+**Resposta**: E) 16

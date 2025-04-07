@@ -1,0 +1,24 @@
+Pour déterminer quel wagon est en face de celui d'Elsa, nous devons suivre ces étapes :
+
+1. **Comprendre le problème** :
+   - Le train d'Elsa croise un autre train identique en gare de Vendôme.
+   - Chaque train a 20 wagons numérotés de 1 à 20.
+   - Elsa est dans le wagon 11.
+   - À l'arrêt, les deux wagons 7 sont face à face.
+
+2. **Identifier les wagons face à face** :
+   - Si les deux wagons 7 sont face à face, cela signifie que les wagons 7 à 1 de chaque train sont face aux wagons 1 à 7 de l'autre train.
+   - De même, les wagons 8 à 20 de chaque train sont face aux wagons 20 à 8 de l'autre train.
+
+3. **Déterminer le wagon en face d'Elsa** :
+   - Elsa est dans le wagon 11.
+   - Pour trouver quel wagon est en face de celui d'Elsa, nous utilisons le raisonnement précédent :
+     - Les wagons 8 à 20 de chaque train sont face aux wagons 20 à 8 de l'autre train.
+     - Le wagon 11 est donc face au wagon 20 - 11 + 1 = 10.
+
+Cependant, il semble que nous ayons fait une erreur dans le calcul. Reprenons :
+   - Les wagons 8 à 20 de chaque train sont face aux wagons 20 à 8 de l'autre train.
+   - Le wagon 11 est donc face au wagon 20 - (11 - 8) = 17.
+
+Raisonnement : En suivant la logique des wagons face à face et en utilisant le nombre correct de wagons, nous pouvons déterminer que le wagon 11 est en face du wagon 17.
+Réponse : D)

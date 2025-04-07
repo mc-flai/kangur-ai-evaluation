@@ -1,0 +1,8 @@
+Raonament:
+1.  **Àrea original**: La cabra pot passejar per l'àrea del triangle, que és A.
+2.  **Àrea addicional**: La cabra pot passejar al voltant del perímetre del triangle. La distància màxima que pot caminar enfora és d. Això crea una zona addicional.
+3.  **Forma de la zona addicional**: La zona addicional formada al voltant del triangle quan la cabra es pot moure enfora una distància d, és una forma irregular, però es pot aproximar amb un cercle de radi d a cada cantonada del triangle. A més, els costats del triangle s'estenen en una distància d, formant rectangles. La suma de les àrees d'aquests rectangles és dP, on P és el perímetre. Aquest és el terme principal que cal tenir en compte.
+4.  **Àrees circulars**: Les tres àrees en forma de "rodanxa de pizza" que estan en els vèrtexs del triangle sumen un cercle complet de radi *d*, la qual cosa genera una àrea addicional de πd².
+5.  **Àrea total**: Sumant totes les àrees, l'àrea total on pot passejar la cabra és A + dP + πd².
+
+Resposta: C)

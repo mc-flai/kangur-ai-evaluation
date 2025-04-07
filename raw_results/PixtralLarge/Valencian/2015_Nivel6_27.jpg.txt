@@ -1,0 +1,56 @@
+Per resoldre l'expressió i trobar el seu valor, seguirem els següents passos:
+
+1. Calcular cada terme individualment:
+   - \( 2015^2 = 2015 \times 2015 \)
+   - \( 2014^2 = 2014 \times 2014 \)
+   - \( 2013^2 = 2013 \times 2013 \)
+   - \( 2012^2 = 2012 \times 2012 \)
+   - \( 3^2 = 3 \times 3 = 9 \)
+   - \( 2^2 = 2 \times 2 = 4 \)
+   - \( 1^2 = 1 \)
+
+2. Substituir aquests valors en l'expressió:
+   \[ 2015^2 - 2014^2 + 2013^2 - 2012^2 + \cdots + 3^2 - 2^2 + 1^2 \]
+
+3. Notem que aquesta és una sèrie alternant de quadrats d'enteros consecutius, començant des de \( 2015^2 \) i arribant fins a \( 1^2 \).
+
+4. Per simplificar, observem el patró de la suma i resta dels quadrats:
+   - \((a+1)^2 - a^2 = (a^2 + 2a + 1) - a^2 = 2a + 1\)
+
+5. Apliquem aquesta propietat a cada parell de termes:
+   - \( 2015^2 - 2014^2 = 2 \times 2014 + 1 = 4029 \)
+   - \( 2013^2 - 2012^2 = 2 \times 2012 + 1 = 4025 \)
+   - Així successivament fins a \( 3^2 - 2^2 = 2 \times 2 + 1 = 5 \)
+   - Finalment, sumem \( 1^2 = 1 \)
+
+6. La suma de tots aquests termes és:
+   - \( 4029 + 4025 + \ldots + 5 + 1 \)
+
+7. Observant el patró, els termes de la sèrie sumen tots els nombres senars des de 1 fins a \( 2 \times 2014 + 1 = 4029 \).
+
+8. La suma dels primers \( n \) nombres senars és \( n^2 \). Aquí, \( n = 2014 \):
+   - \( 1 + 3 + 5 + ... + 4029 \)
+
+9. Com que la sèrie de nombres senars comença des de 1 i arriba fins a \( 4029 \), el nombre total de termes és \( 2014 \), per tant la suma és:
+   - \( n = 2014 \)
+   - \( n^2 = 2014^2 \)
+   - \( 2014^2 = 4056196 \)
+
+10. Ara, comprovem les opcions donades:
+    - A) \( 2016^2 + 1 \)
+    - B) \( 2016^2 - 1 \)
+    - C) \( 2016^2 \)
+    - D) \( 2031120 \)
+    - E) \( 2000145 \)
+
+11. Calculem \( 2016^2 \):
+    - \( 2016 \times 2016 = 4064256 \)
+
+12. Comparant \( 4064256 \) amb \( 4056196 \), veiem que la nostra suma original és lleugerament menor que \( 2016^2 \).
+
+13. Per tant, la resposta correcta és:
+    - C) \( 2016^2 \)
+
+Raonament: Calcular cada terme de la sèrie de quadrats alternats i sumar els resultats, utilitzant la propietat dels quadrats consecutius i la suma dels nombres senars.
+
+Resposta: C)

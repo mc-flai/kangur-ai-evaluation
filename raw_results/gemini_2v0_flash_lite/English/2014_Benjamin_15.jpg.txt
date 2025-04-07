@@ -1,0 +1,26 @@
+Reasoning:
+Let x be the number of tables with 3 chairs, y be the number of tables with 4 chairs, and z be the number of tables with 6 chairs.
+We know:
+1) x + y + z = 16 (total tables)
+2) 3x + 4y = 36 (guests at tables with 3 or 4 chairs)
+3) 3x + 4y + 6z = 72 (total guests)
+From equation (2), we can express y as:
+y = (36 - 3x) / 4 = 9 - (3/4)x
+Since x and y must be integers, x must be a multiple of 4. Thus, possible values for x are 0, 4, 8, 12, 16.
+From equation (1) and (3),
+x + y + z = 16
+3x + 4y + 6z = 72
+Multiply the first equation by 6: 6x + 6y + 6z = 96
+Subtract equation (3) from this result: 3x + 2y = 24
+y = (24 - 3x) / 2 = 12 - (3/2)x
+Since x and y must be integers, x must be an even number.
+Possible values for x are 0, 2, 4, 6, 8, 10.
+Also, the values for x must be the same.
+From (2) we have y = (36 - 3x)/4.
+Then from the first equation: z = 16 - x - y = 16 - x - (36-3x)/4
+From equation (3), the total number of guests, 3x + 4y + 6z = 72.
+If x = 4, y = (36 - 12)/4 = 6. z = 16 - 4 - 6 = 6. Check equation 3.
+3*4 + 4*6 + 6*6 = 12 + 24 + 36 = 72. Correct.
+Thus x=4 tables with 3 chairs.
+
+Answer: A)

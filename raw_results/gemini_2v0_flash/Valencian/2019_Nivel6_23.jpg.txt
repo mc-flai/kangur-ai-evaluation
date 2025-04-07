@@ -1,0 +1,34 @@
+Raonament:
+L'objectiu és minimitzar S, la suma dels vèrtexs de cada quadrat. Tenim tres quadrats, i deu nombres del 1 al 10. La suma de tots els números és 1+2+...+10 = 55. Sigui S la suma dels quatre nombres en cada quadrat. Com que hi ha tres quadrats, i els dos vèrtexs del centre es compten dues vegades cadascun, podem escriure: 3S = 55 + (valor del vèrtex central esquerre) + (valor del vèrtex central dret).
+Per minimitzar S, hem de minimitzar (valor del vèrtex central esquerre) + (valor del vèrtex central dret). El valor més petit possible per als dos és 1+2=3, de manera que 3S = 55 + 3 = 58. Per tant, S = 58/3 = 19.33. Això suggereix que la resposta ha de ser com a mínim 20.
+
+Si col·loquem 1 i 2 en les posicions centrals, la suma total dels 10 números és 55. El valor central esquerre i el valor central dret s'afegeixen dues vegades a la suma. Per tant, 3S = 55 + centre_esquerre + centre_dreta.
+Si escollim centre_esquerre = 1 i centre_dreta = 2, obtenim 3S = 55 + 1 + 2 = 58. Això significa que S = 58/3 = 19.33.
+Si fem S = 19, aleshores 3S = 57 = 55 + centre_esquerre + centre_dreta, per tant, centre_esquerre + centre_dreta = 2. L'única manera d'obtenir una suma de 2 és 1+1, però cada nombre ha de ser diferent. Per tant, S no pot ser 19.
+Provem amb S=20. 3S = 60 = 55 + centre_esquerre + centre_dreta, per tant, centre_esquerre + centre_dreta = 5. Pot ser 1 + 4 o 2 + 3.
+Cas 1: centre_esquerre = 1, centre_dreta = 4. Els vèrtexs són:
+A B 1
+C D 4
+E F
+A+B+C+1 = 20
+1+D+E+F = 20
+C+1+4+D = 20.  C+D = 15
+
+Cas 2: centre_esquerre = 2, centre_dreta = 3.
+A B 2
+C D 3
+E F
+A+B+C+2 = 20
+2+D+E+3 = 20
+C+2+3+D = 20. C+D = 15.
+
+Una possible solució per S=20 és:
+5, 6, 9, 0 - No, tots han de ser entre 1 i 10.
+Podem posar els nombres més baixos (1,2,3,4) als vèrtexs centrals i extrems.
+Comencem intentant amb S=20. Podem tenir els vèrtexs amb:
+(1,2,3,4,5,6,7,8,9,10). Suma = 55.
+Si S = 20, la suma dels tres quadrats és 60. 60 - 55 = 5.
+Si tenim els nombres 1 i 4 als vèrtexs centrals, obtenim 5. Pot ser possible.
+
+Resposta: C)
+Resposta: C)

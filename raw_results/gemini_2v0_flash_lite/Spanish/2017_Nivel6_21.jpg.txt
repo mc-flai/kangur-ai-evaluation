@@ -1,0 +1,11 @@
+Razonamiento: La pregunta nos pide encontrar cuántos enteros positivos tienen la propiedad de que si se borra su última cifra, el número resultante es igual a 1/14 del número original.  Podemos representar el número original como 10a + b, donde 'a' es el número formado por todas las cifras excepto la última, y 'b' es la última cifra. Entonces, la condición del problema es:
+a = (1/14) * (10a + b)
+Multiplicamos ambos lados por 14:
+14a = 10a + b
+4a = b
+Como 'b' es una cifra, debe estar entre 0 y 9 inclusive.  Por lo tanto, 'a' debe ser un entero positivo tal que 4a ≤ 9.  Esto implica que a ≤ 9/4 = 2.25.  Los posibles valores para 'a' son 1 y 2.
+Si a = 1, entonces b = 4(1) = 4. El número original es 14.  Si borramos el 4, obtenemos 1, y 14/14 = 1.
+Si a = 2, entonces b = 4(2) = 8. El número original es 28.  Si borramos el 8, obtenemos 2, y 28/14 = 2.
+Por lo tanto, hay dos enteros positivos que cumplen la condición.
+
+Respuesta: C)

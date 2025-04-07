@@ -1,0 +1,33 @@
+Razonamiento:
+La pregunta pide encontrar el valor más pequeño de la suma de los dígitos de N, sabiendo que la suma de los dígitos de N es tres veces la suma de los dígitos de N+1.
+Probaremos las opciones, empezando con la más pequeña.
+A) Si la suma de los dígitos de N es 3, entonces la suma de los dígitos de N+1 es 3/3 = 1.
+Un número con suma de dígitos 3 podría ser 3.  El siguiente número sería 4, cuya suma de dígitos es 4.  Esto no funciona.
+Un número con suma de dígitos 3 podría ser 12. El siguiente número sería 13, cuya suma de dígitos es 4. Esto no funciona.
+Un número con suma de dígitos 3 podría ser 21. El siguiente número sería 22, cuya suma de dígitos es 4. Esto no funciona.
+Un número con suma de dígitos 3 podría ser 30. El siguiente número sería 31, cuya suma de dígitos es 4. Esto no funciona.
+Esto sugiere que la diferencia de la suma de los dígitos entre N y N+1 debe ser 2 veces la suma de los dígitos de N+1.
+Probaremos con la opción B) 9
+Si la suma de los dígitos de N es 9, entonces la suma de los dígitos de N+1 es 9/3 = 3.
+Un número con suma de dígitos 9 podría ser 9. El siguiente número es 10, cuya suma de dígitos es 1.  Esto no funciona.
+Un número con suma de dígitos 9 podría ser 18.  El siguiente número es 19, cuya suma de dígitos es 10. Esto no funciona.
+Un número con suma de dígitos 9 podría ser 81. El siguiente número es 82, cuya suma de dígitos es 10. Esto no funciona.
+Consideremos un número N que termina en 9. El valor de N+1 cambiará los 9s por 0s y el dígito anterior aumentará en uno. Por ejemplo: 199 + 1 = 200.
+El número N es de la forma X999...9.
+La suma de los dígitos de N es Suma(X) + 9k.
+La suma de los dígitos de N+1 es Suma(X+1).
+Entonces Suma(X) + 9k = 3 * Suma(X+1).
+Si X=8, k=1, N=89, N+1=90. Suma(89)=17, Suma(90)=9. 17 != 3*9.
+Si X=1, k=2, N=199, N+1=200. Suma(N)=1+9+9=19, Suma(N+1)=2. 19 != 3*2.
+Si N termina en 9, entonces N+1 es un número que termina en 0. La suma de los digitos de N es 3 veces la suma de los digitos de N+1. Si N termina en 9, la diferencia entre la suma de los dígitos de N y la suma de los dígitos de N+1 será 9-1=8, 18-9=9, 27-9-9=9.
+La suma de los dígitos de N es 3x. La suma de los dígitos de N+1 es x. Si el último dígito de N es 9, entonces se convierte en 0 en N+1.
+El número N es de la forma a9, N+1= (a+1)0.
+La suma de los dígitos de N es a+9, la suma de los dígitos de N+1 es a+1.
+a+9 = 3(a+1)
+a+9=3a+3
+2a = 6
+a = 3
+Entonces N=39, N+1=40. Suma(39)=12, Suma(40)=4. 12 = 3*4.
+La suma de los dígitos de N es 12.
+
+Respuesta: C)

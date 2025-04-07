@@ -1,0 +1,22 @@
+Per resoldre aquest problema, hem de determinar el nombre mínim d'intercanvis necessaris per ordenar els 9 llibres donats en ordre creixent.
+
+1. **Llista de llibres**: Els números dels llibres són [4, 2, 3, 9, 8, 1, 7, 5, 6].
+2. **Ordre desitjat**: [1, 2, 3, 4, 5, 6, 7, 8, 9].
+3. **Intercanvis necessaris**:
+   - Intercanvi 1: Moviment del 1 a la posició 1.
+     - Estat actual: [1, 2, 3, 9, 8, 4, 7, 5, 6]
+   - Intercanvi 2: Moviment del 4 a la posició 6.
+     - Estat actual: [1, 2, 3, 9, 8, 4, 7, 5, 6]
+   - Intercanvi 3: Moviment del 9 a la posició 9.
+     - Estat actual: [1, 2, 3, 5, 8, 4, 7, 6, 9]
+   - Intercanvi 4: Moviment del 5 a la posició 4.
+     - Estat actual: [1, 2, 3, 5, 8, 4, 7, 6, 9]
+   - Intercanvi 5: Moviment del 8 a la posició 8.
+     - Estat actual: [1, 2, 3, 5, 6, 4, 7, 8, 9]
+   - Intercanvi 6: Moviment del 6 a la posició 5.
+     - Estat actual: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+4. **Nombre d'intercanvis**: Hem realitzat 6 intercanvis.
+
+Raonament: Hem realitzat 6 intercanvis per ordenar els llibres en ordre creixent.
+Resposta: C)

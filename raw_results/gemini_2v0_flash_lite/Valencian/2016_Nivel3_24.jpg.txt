@@ -1,0 +1,10 @@
+Raonament:
+1. Busquem el nombre de 4 xifres més gran amb xifres creixents que sigui múltiple de 6.
+2. Per ser múltiple de 6, ha de ser múltiple de 2 i de 3. Per ser múltiple de 2, l'última xifra ha de ser parella. Per ser múltiple de 3, la suma de les xifres ha de ser múltiple de 3.
+3. Per obtenir el nombre més gran amb xifres creixents, comencem amb les xifres més grans possible. La suma de les xifres del nombre ha de ser múltiple de 3.
+4. Provem amb 6789. La suma de les xifres és 6+7+8+9 = 30, que és múltiple de 3. No obstant això, 6789 no és parell, per tant no és múltiple de 2. L'hem de reduir.
+5. Si mantenim les tres primeres xifres (678), la xifra final ha de ser parella i menor a 9. L'opció més gran seria 8, però ja tenim el 8, per tant la xifra final pot ser 0, 2, 4, 6 o 8.
+6. Provem 6780. La suma de les xifres és 6+7+8+0 = 21, que és múltiple de 3. 6780 és parell. Per tant, 6780 és un múltiple de 6.
+7. Per tant el nombre més gran amb les xifres creixents que és múltiple de 6 és 6780. La xifra de les centenes és 7.
+
+Resposta: A)

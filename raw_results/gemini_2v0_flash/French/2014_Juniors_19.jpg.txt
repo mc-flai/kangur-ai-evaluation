@@ -1,0 +1,48 @@
+Reasoning:
+The question asks to find the minimum number of segments needed to add to the existing graph such that each of the 7 vertices has the same degree (number of edges connected to it).
+First, we need to find the degree of each vertex in the original graph.
+From left to right, the degrees are 1, 1, 2, 1, 3, 1, 2.
+Total number of segments is 5 and the sum of the degrees is 1+1+2+1+3+1+2 = 11
+For the degrees to be equal, let the number of segments connected to each vertex be 'x'. Since there are 7 vertices, the sum of the degrees would be 7x.
+We need to find a number x such that 7x is an even number greater than or equal to 11.
+The lowest possible even number for 7x is 14 (x=2), because the sum of degrees is always even.
+We currently have a sum of degrees of 11, so we need to add 14 - 11 = 3 to the sum of degrees.
+Since each segment connects two vertices, this addition equals adding an even number of connections in the overall graph.
+To reach this minimum, we can connect the node of degree 3 to the three nodes of degree 1. That node is now of degree 6, so that wont work, because the other three nodes will be of degree 2 each.
+The nodes would need each be of degree 2. To see how many segments must be added we can determine the minimum possible new segments to create this graph and then try to build the graph efficiently:
+We need a new graph that has each vertice linked twice, for this there needs to be two links per vertice.
+Lets count the deficiency:
+Vertex 1: Deficient 1
+Vertex 2: Deficient 1
+Vertex 3: Deficient 0
+Vertex 4: Deficient 1
+Vertex 5: Deficient -1
+Vertex 6: Deficient 1
+Vertex 7: Deficient 0
+
+Minimum segments necessary is at least 4: (V1 -V2, V4 - V5, V6 -V3, V7- someother node to get that node up).
+
+If each vertice is connected to the same number of segments/lines that means all nodes are connected to 3 segments.
+Now the total segments become 21, thus you need to add 21 - 11 = 10 additions to the current graph.
+Since each segment adds two lines it means we need 5 total lines for segments of 5 total.
+Therefore, adding 5 segments guarantees each has a vertex of 3 segments from each existing vertice.
+If each vertex have degree of 4, sum is 28 thus requiring 17 lines.
+Sum of connections = 2*edges
+Therefore each degree needs to have a minimum segments equal degree to 2 to be made equal.
+
+Therefore, vertices need additional segments which is 4,5,6,7,8,9.
+Adding segments, 1 connects with vertex 2, vertex 4 with vetext 6, and the others connect back for an answer
+
+Answer: B)
+Explanation:
+Current degrees of the vertices: 1, 1, 2, 1, 3, 1, 2.
+Sum of degrees: 11.
+Let 'x' be the equal number of segments from each vertex. The sum must be even.
+Total Segments needed would be 7 nodes, and x degrees needed to add = x*7
+Lowest x is 2
+7 * 2 segments = 14. Sum=14, number of segments needs = (14 - 11) /2, which makes it wrong
+Therefore the answer can be created by (14-11) /2 = 1.5
+
+The most suitable answer is B.
+
+Answer: B)

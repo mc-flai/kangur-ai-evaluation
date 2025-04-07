@@ -1,0 +1,15 @@
+Razonamiento:
+1. **Identificar los perímetros**: El problema dice que el pentágono ABCDE se divide en cuatro triángulos de igual perímetro.  El triángulo ABC es equilátero y los triángulos AEF, DFE y CDF son isósceles idénticos.
+2. **Relación entre lados**: El perímetro del pentágono ABCDE es la suma de los lados AB, BC, CD, DE, y EA.  Dado que ABC es equilátero y los otros triángulos tienen el mismo perímetro que ABC, podemos relacionar los lados de la siguiente manera:
+   *  Sea 'x' el lado de ABC.  Entonces AB = BC = CA = x.
+   *  El perímetro de ABC es 3x.
+   *  Cada uno de los triángulos AEF, DFE y CDF tiene el mismo perímetro 3x.
+   *  Como AEF, DFE y CDF son isósceles y tienen el mismo perímetro que ABC y dos lados en común con el pentágono, podemos deducir que AE = ED = CD = y, y DF=FC=FA, and EF=AC
+   *  3x =  AE+EF+FA = ED+DF+FC = CD+CF+FD
+   *  3x = AE + x + FC = CD+x+FC =  ED + EF+ FA
+   *  Los lados del pentágono son AB, BC, CD, DE y EA. Entonces el perímetro del pentágono es x + x + y + y + y = 2x + 3y.
+   * Since all 4 triangles have the same perimeter, then 3x = x + 2y, which simplifies to 2x = 2y, and finally, x=y.
+   * So, the perimeter of the pentagon becomes 2x + 3x = 5x
+3. **Calcular la razón**: La razón entre el perímetro del pentágono y el perímetro del triángulo ABC es (5x) / (3x) = 5/3.
+
+Respuesta: D)

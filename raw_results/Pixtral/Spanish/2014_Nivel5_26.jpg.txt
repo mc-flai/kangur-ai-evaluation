@@ -1,0 +1,18 @@
+
+La pregunta 26 se refiere a tres vértices de un cubo que forman un triángulo. Pregunta cuántos de estos triángulos pueden estar en la cara de la misma cara del cubo.
+
+Para resolver esto, consideremos las características de un cubo:
+- Un cubo tiene 8 vértices.
+- Cada vértice de un cubo es compartido por tres caras del cubo.
+- Cada cara del cubo es un cuadrado y tiene 4 vértices.
+
+Para formar un triángulo, necesitamos tres vértices no colineales. En una sola cara del cubo (un cuadrado), cualquier conjunto de tres vértices formará un triángulo. Sin embargo, no todos los triángulos formados por tres vértices en una cara del cubo son únicos. Para encontrar el número de triángulos únicos, debemos considerar cómo se pueden seleccionar los vértices.
+
+En una cara del cubo, hay 4 vértices. El número de combinaciones de 3 vértices de estos 4 es calculado por el coeficiente binomial:
+\[ \binom{4}{3} = \frac{4!}{3!(4-3)!} = 4 \]
+
+Por lo tanto, hay 4 triángulos que pueden formarse con los vértices de una sola cara del cubo.
+
+Razonamiento: Un cubo tiene 8 vértices y cada cara es un cuadrado con 4 vértices. Para formar un triángulo, necesitamos 3 vértices no colineales. En una sola cara del cubo, hay 4 vértices, y el número de combinaciones de 3 vértices de estos 4 es 4.
+
+Respuesta: B)

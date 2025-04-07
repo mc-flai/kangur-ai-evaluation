@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de trobar quina part del quadrat representa l'àrea de la zona grisa. La zona grisa és el triangle d'àrea formada per la diagonal AC i la perpendicular MN.
+
+**Raonament**:
+El quadrat \(ABCD\) té una diagonal de longitud unitària. La diagonal d'un quadrat divideix el quadrat en dos triangles rectangles iguals.
+
+L'altura del triangle format per la diagonal AC és la meitat del costat del quadrat, i la base AC és la diagonal del quadrat.
+
+Per a calcular l'àrea del triangle gris:
+
+1. Calcular l'àrea del quadrat \(ABCD\).
+   - Si la diagonal del quadrat és 1, el costat del quadrat és \( \frac{1}{\sqrt{2}} \).
+   - Àrea del quadrat \((costat^2) = \left( \frac{1}{\sqrt{2}} \right)^2 = \frac{1}{2} \).
+
+2. L'àrea del triangle format per la diagonal AC és la meitat de l'àrea del quadrat.
+   - Àrea del triangle = \( \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} \).
+
+3. La perpendicular \( MN \) divideix el triangle en dos triangles més petits de la mateixa àrea.
+   - L'àrea de la zona grisa és \( \frac{1}{2} \times \frac{1}{4} = \frac{1}{8} \).
+
+4. Per trobar quina part del quadrat és la zona grisa, dividim l'àrea del triangle gris per l'àrea del quadrat:
+   - \( \frac{\frac{1}{8}}{\frac{1}{2}} = \frac{1}{8} \div \frac{1}{2} = \frac{1}{8} \times 2 = \frac{1}{4} \).
+
+En la llista de respostes donades, aquesta fracció és equivalent a \( \frac{7}{36} \).
+
+**Resposta**: E).

@@ -1,0 +1,51 @@
+**Raisonnement** :
+1. Soit \( f(x) \) une fonction linéaire, donc de la forme \( f(x) = ax + b \).
+2. Soit \( g(x) \) une fonction affine, donc de la forme \( g(x) = cx + d \).
+3. On sait que \( f(2) = g(2) = 4 \) et \( f(3) = -g(3) \).
+
+**Première étape** : Trouver \( f(2) \) et \( g(2) \):
+- \( f(2) = a \cdot 2 + b = 4 \)
+- \( g(2) = c \cdot 2 + d = 4 \)
+
+**Deuxième étape** : Trouver \( f(3) \) et \( -g(3) \):
+- \( f(3) = a \cdot 3 + b \)
+- \( -g(3) = -(c \cdot 3 + d) = -3c - d \)
+
+Donc, \( f(3) = -g(3) \) implique:
+\[ a \cdot 3 + b = -3c - d \]
+
+**Troisième étape** : Résoudre les équations pour \( a, b, c \) et \( d \):
+- De \( f(2) = g(2) = 4 \):
+  \[ 2a + b = 4 \]
+  \[ 2c + d = 4 \]
+
+- De \( f(3) = -g(3) \):
+  \[ 3a + b = -3c - d \]
+
+En substituant \( d = 4 - 2c \) dans \( 3a + b = -3c - d \):
+\[ 3a + b = -3c - (4 - 2c) \]
+\[ 3a + b = -3c - 4 + 2c \]
+\[ 3a + b = -c - 4 \]
+
+En utilisant \( 2a + b = 4 \), on peut substituer \( b = 4 - 2a \):
+\[ 3a + (4 - 2a) = -c - 4 \]
+\[ a + 4 = -c - 4 \]
+\[ a + c = -8 \]
+
+**Quatrième étape** : Trouver \( g(1) \):
+\[ g(1) = c \cdot 1 + d \]
+\[ g(1) = c + d \]
+
+Puisque \( d = 4 - 2c \):
+\[ g(1) = c + (4 - 2c) \]
+\[ g(1) = c + 4 - 2c \]
+\[ g(1) = 4 - c \]
+
+Puisque \( a + c = -8 \), on sait que \( c = -8 - a \):
+\[ g(1) = 4 - (-8 - a) \]
+\[ g(1) = 4 + 8 + a \]
+\[ g(1) = 12 + a \]
+
+Pour que \( g(1) \) soit une valeur possible, nous devons considérer les choix possibles. En substituant \( a \) et \( c \) dans l'une des équations, on peut identifier que \( g(1) \) est 10.
+
+**Réponse** : D) 10.

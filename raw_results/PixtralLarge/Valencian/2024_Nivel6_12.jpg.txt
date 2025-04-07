@@ -1,0 +1,36 @@
+Per resoldre aquesta pregunta, és necessari entendre que la longitud de la línia poligonal tancada \( MNPQRSM \) és la suma de les longituds dels segments que la formen. Aquests segments són les mitjanes de les arestes de la piràmide triangular \( ABCD \).
+
+La longitud d'una mitjana és la meitat de la longitud de l'aresta corresponent. Per tant, hem de trobar la meitat de cada aresta i després sumar-les.
+
+Donades les longituds de les arestes:
+- \( |AD| = 5 \)
+- \( |AC| = 6 \)
+- \( |AB| = 7 \)
+- \( |CD| = 8 \)
+- \( |BD| = 9 \)
+- \( |BC| = 10 \)
+
+Calcularem les mitjanes corresponents:
+- \( |SM| = \frac{|AD|}{2} = \frac{5}{2} = 2.5 \)
+- \( |MN| = \frac{|AC|}{2} = \frac{6}{2} = 3 \)
+- \( |NP| = \frac{|AB|}{2} = \frac{7}{2} = 3.5 \)
+- \( |PQ| = \frac{|CD|}{2} = \frac{8}{2} = 4 \)
+- \( |QR| = \frac{|BD|}{2} = \frac{9}{2} = 4.5 \)
+- \( |RS| = \frac{|BC|}{2} = \frac{10}{2} = 5 \)
+
+Sumant totes aquestes mitjanes:
+\[ 2.5 + 3 + 3.5 + 4 + 4.5 + 5 = 22.5 \]
+
+Per tant, la longitud de la línia poligonal tancada \( MNPQRSM \) és 22.5.
+
+Comparant això amb les opcions donades:
+A) 19
+B) 20
+C) 21
+D) 22
+E) 23
+
+La resposta correcta és D) 22.
+
+Raonament: Sumar les meitats de les longituds de les arestes de la piràmide triangular donades per trobar la longitud de la línia poligonal tancada.
+Resposta: D)

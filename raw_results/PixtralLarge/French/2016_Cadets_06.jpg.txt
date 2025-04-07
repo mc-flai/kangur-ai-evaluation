@@ -1,0 +1,17 @@
+Pour résoudre la question 6, nous devons déterminer combien d'interversions (couteau/fourchette) il faudrait faire pour que chaque convive ait son couteau à droite de son assiette et sa fourchette à gauche.
+
+En observant l'image, on peut voir la disposition actuelle des couverts :
+- En haut à gauche : fourchette à gauche, couteau à droite (correct)
+- En haut à droite : couteau à gauche, fourchette à droite (incorrect)
+- En bas à gauche : couteau à gauche, fourchette à droite (incorrect)
+- En bas à droite : fourchette à gauche, couteau à droite (correct)
+
+Pour corriger les dispositions incorrectes :
+1. En haut à droite : il faut interchanger le couteau et la fourchette (1 interversion)
+2. En bas à gauche : il faut interchanger le couteau et la fourchette (1 interversion)
+
+Donc, il y a 2 interversions nécessaires pour que chaque convive ait son couteau à droite et sa fourchette à gauche.
+
+Raisonnement : Pour corriger les dispositions incorrectes des couverts, il faut faire 1 interversion pour la place en haut à droite et 1 interversion pour la place en bas à gauche, ce qui totalise 2 interversions.
+
+Réponse : B)

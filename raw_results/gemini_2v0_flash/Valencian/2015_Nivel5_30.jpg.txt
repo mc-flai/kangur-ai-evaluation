@@ -1,0 +1,18 @@
+Raonament: La pregunta ens demana la xifra de les desenes de la suma 1! + 2! + 3! + 4! + 5! + ... + 2015!. Per a això, analitzarem els factorials successius per a veure com afecten a la xifra de les desenes de la suma.
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+5! = 120
+6! = 720
+7! = 5040
+8! = 40320
+9! = 362880
+10! = 3628800
+A partir de 10!, el factorial tindrà dos zeros al final, per tant, no afectaran la xifra de les desenes. Per tant, hem de calcular la suma de les xifres de les desenes dels factorials des de 1! fins a 9!
+La suma dels factorials serà:
+1! + 2! + 3! + 4! + 5! + 6! + 7! + 8! + 9! = 1 + 2 + 6 + 24 + 120 + 720 + 5040 + 40320 + 362880 = 409113
+La xifra de les desenes de 409113 és 1. Per als factorials posteriors a 9!, la xifra de les desenes és 0, per tant no afectaran la xifra de les desenes de la suma.
+Per tant, la xifra de les desenes de la suma 1! + 2! + 3! + 4! + 5! + ... + 2015! és 1.
+
+Resposta: B)

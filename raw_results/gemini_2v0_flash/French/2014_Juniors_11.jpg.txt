@@ -1,0 +1,24 @@
+Reasoning:
+The center of the square is the midpoint of the diagonal. The midpoint of (-1, 0) and (5, 0) is ((5-1)/2, (0+0)/2) = (2, 0). The length of the diagonal is the distance between (-1, 0) and (5, 0) which is 5 - (-1) = 6.
+The side length of the square is s = d / sqrt(2) = 6 / sqrt(2) = 3 * sqrt(2).
+Let (x, y) be another vertex of the square. The distance from (x, y) to (2, 0) should be s/sqrt(2)*sqrt(2) =3sqrt2.
+The distance from (x, y) to the midpoint of the diagonal is half the length of the diagonal = 3.
+
+For option A: (2, 0). Distance from (2, 0) to (2, 0) is 0, which is incorrect.
+For option B: (2, 3). Distance from (2, 3) to (2, 0) is 3, which is correct.
+For option C: (2, -6). Distance from (2, -6) to (2, 0) is |-6| = 6, which is incorrect.
+For option D: (3, 5). Distance from (3, 5) to (2, 0) is sqrt((3-2)^2 + (5-0)^2) = sqrt(1 + 25) = sqrt(26), which is incorrect.
+For option E: (3, -1). Distance from (3, -1) to (2, 0) is sqrt((3-2)^2 + (-1-0)^2) = sqrt(1 + 1) = sqrt(2). Which is incorrect.
+
+Since the length of the diagonal is 6, then half the length of the diagonal is 3, which is the distance from the center (2,0) to a vertex of the square.
+We examine which of the points given is at a distance of 3 from (2,0):
+A) (2, 0) dist = 0. Incorrect.
+B) (2, 3) dist = 3. Correct.
+C) (2, -6) dist = 6. Incorrect.
+D) (3, 5) dist = sqrt(1+25) = sqrt(26). Incorrect.
+E) (3, -1) dist = sqrt(1+1) = sqrt(2). Incorrect.
+
+Reasoning: The midpoint of the diagonal is (2,0). The length of the diagonal is 6. Thus the distance from the midpoint to any vertex is 3. We check which of the provided points has a distance of 3 from the midpoint (2,0).
+Answer B, (2,3) has a distance of 3 from (2,0) as sqrt((2-2)^2 + (3-0)^2) = 3.
+
+Answer: B)

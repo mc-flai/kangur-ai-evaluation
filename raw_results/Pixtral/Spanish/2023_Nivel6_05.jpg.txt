@@ -1,0 +1,26 @@
+Para determinar cuántos números primos diferentes existen que, cuando se les resta 2, dan como resultado tres divisores diferentes, debemos considerar los números que, cuando se les resta 2, resultan en un número que es el producto de tres divisores diferentes.
+
+Razonamiento:
+1. Identificar los números primos que, cuando se les resta 2, dan como resultado un número que tiene tres divisores diferentes.
+2. Un número tiene tres divisores diferentes si es la multiplicación de dos números primos diferentes (por ejemplo, 6 = 2 * 3).
+3. Los números primos que, cuando se les resta 2, dan como resultado un número que es el producto de dos números primos diferentes son los números que son iguales a 2 más el doble de un número primo.
+
+Ejemplo:
+- Si n = 3, entonces 3 - 2 = 1, que no tiene tres divisores diferentes.
+- Si n = 5, entonces 5 - 2 = 3, que no tiene tres divisores diferentes.
+- Si n = 7, entonces 7 - 2 = 5, que no tiene tres divisores diferentes.
+- Si n = 11, entonces 11 - 2 = 9, que no tiene tres divisores diferentes.
+- Si n = 13, entonces 13 - 2 = 11, que no tiene tres divisores diferentes.
+- Si n = 17, entonces 17 - 2 = 15, que tiene tres divisores diferentes (15 = 3 * 5).
+- Si n = 19, entonces 19 - 2 = 17, que no tiene tres divisores diferentes.
+- Si n = 23, entonces 23 - 2 = 21, que tiene tres divisores diferentes (21 = 3 * 7).
+- Si n = 29, entonces 29 - 2 = 27, que tiene tres divisores diferentes (27 = 3 * 9).
+- Si n = 31, entonces 31 - 2 = 29, que no tiene tres divisores diferentes.
+- Si n = 37, entonces 37 - 2 = 35, que tiene tres divisores diferentes (35 = 5 * 7).
+- Si n = 41, entonces 41 - 2 = 39, que no tiene tres divisores diferentes.
+- Si n = 43, entonces 43 - 2 = 41, que no tiene tres divisores diferentes.
+- Si n = 47, entonces 47 - 2 = 45, que tiene tres divisores diferentes (45 = 3 * 15).
+
+De los números primos mencionados, los que cumplen con la condición son 17, 23, 29 y 37. Por lo tanto, hay 4 números primos diferentes que cumplen con la condición.
+
+Respuesta: E)

@@ -1,0 +1,12 @@
+**Razonamiento:**
+1. Clara puede escribir un número \( N \) en la pizarra, que es múltiplo de 3.
+2. Si \( N \) es múltiplo de 3, entonces al dividir \( N \) entre 3, el residuo es 0. Por lo tanto, Clara puede disminuir una unidad.
+3. Si el residuo de dividir \( N \) entre 3 es 2, entonces Clara puede disminuir 2 unidades.
+4. Si el residuo de dividir \( N \) entre 3 es 1, entonces Clara puede aumentar 2 unidades.
+5. Clara comienza con el número 10,000.
+6. Para encontrar el número que Clara obtendrá después de 2020 pasos, debemos considerar el proceso de disminución y aumento de unidades basado en el residuo de \( N \) al dividirlo entre 3.
+7. Dado que el problema no especifica el patrón exacto de los residuos, asumimos que el proceso se repite uniformemente.
+8. Calculamos el número de pasos necesarios para que el residuo de \( 10,000 \) al dividirlo entre 3 cambie de manera que permita disminuir o aumentar unidades.
+9. Después de 2020 pasos, el número resultante debe ser calculado considerando el efecto acumulativo de disminuir o aumentar unidades.
+
+**Respuesta:** D) 6975

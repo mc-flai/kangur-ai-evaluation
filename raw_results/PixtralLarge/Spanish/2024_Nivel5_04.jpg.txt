@@ -1,0 +1,28 @@
+**Razonamiento**: El juego de saltos implica una secuencia de movimientos que se repite de manera cíclica. La secuencia completa incluye los siguientes pasos:
+1. Saltar dentro de los cuadrados.
+2. Alternar entre el pie izquierdo y el pie derecho.
+3. Ambos pies juntos.
+4. Pie derecho.
+5. Ambos pies juntos.
+6. Pie izquierdo.
+7. Ambos pies juntos.
+
+Esto significa que cada ciclo completo de la secuencia consta de 6 pasos.
+
+Maria jugó y saltó exactamente 48 casillas comenzando con su pie izquierdo. Para determinar cuántas veces tocó el suelo su pie izquierdo, debemos analizar el ciclo de 6 pasos.
+
+- En cada ciclo de 6 pasos, el pie izquierdo toca el suelo en los pasos 1 y 6.
+- Por lo tanto, en cada ciclo de 6 pasos, el pie izquierdo toca el suelo 2 veces.
+
+Dado que Maria completó 48 casillas, podemos calcular cuántos ciclos completos de 6 pasos realizó:
+
+48 casillas / 6 pasos por ciclo = 8 ciclos completos.
+
+En 8 ciclos completos, el pie izquierdo tocará el suelo:
+8 ciclos * 2 veces por ciclo = 16 veces.
+
+Sin embargo, necesitamos considerar el paso inicial, que comienza con el pie izquierdo. Dado que la secuencia comienza con el pie izquierdo, este paso inicial ya está incluido en el conteo de los ciclos completos.
+
+Por lo tanto, el pie izquierdo tocó el suelo 16 veces en total.
+
+**Respuesta**: C) 16.

@@ -1,0 +1,11 @@
+Razonamiento: Si N es divisible por todos los números del 2 al 11 excepto dos de ellos, podemos analizar cada opción para ver si es posible.
+
+A) 2 y 3: Si N no es divisible por 2 ni por 3, pero sí por todos los demás, entonces N debe ser divisible por 4, lo cual implica que debe ser divisible por 2. Esto crea una contradicción.
+B) 4 y 5: Si N no es divisible por 4 ni por 5, pero sí por todos los demás, entonces N debe ser divisible por 2. N debe ser divisible por 8. Como debe ser divisible por 8, y 4 es un factor de 8, N debe ser divisible por 4. Contradicción.
+C) 6 y 7: Si N no es divisible por 6 ni por 7, pero sí por todos los demás, entonces N debe ser divisible por 2 y por 3. N debe ser divisible por 2. N debe ser divisible por 3. Pero 6 = 2 x 3. Contradicción.
+D) 7 y 8: Si N no es divisible por 7 ni por 8, pero sí por todos los demás, N debe ser divisible por 2, 3, 4, 5, 6, 9, 10 y 11. N debe ser divisible por 4 (2x2) y N no debe ser divisible por 8 (2x2x2). N debe ser divisible por 3, N debe ser divisible por 2 y 3. N debe ser divisible por 5, N debe ser divisible por 10 (2x5) y N debe ser divisible por 9. Esto significa que el número N debe tener los factores 2,3,4,5,6,9,10,11. Entonces N debe tener en cuenta los factores primos 2,3,5,11. Sin embargo, el que no sea divisible por 8 y 7, lo hace posible.
+E) 10 y 11: Si N no es divisible por 10 ni por 11, pero sí por todos los demás, entonces N debe ser divisible por 2 y 5 (factores de 10) y no divisible por 11. Sin embargo, ya dijimos que N si es divisible por 2 y 5. Contradicción.
+
+Por lo tanto, la única opción posible es la D).
+
+Respuesta: D)

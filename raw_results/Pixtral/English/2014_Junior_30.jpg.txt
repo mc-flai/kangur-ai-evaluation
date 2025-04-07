@@ -1,0 +1,52 @@
+### Reasoning:
+
+1. **Identify the given information**:
+   - Triangle \(ABC\) with sides \(AB = 6 \text{ cm}\), \(AC = 8 \text{ cm}\), and \(BC = 10 \text{ cm}\).
+   - \(M\) is the midpoint of \(BC\).
+   - \(AMDE\) is a square.
+   - \(MD\) intersects \(AC\) at point \(F\).
+
+2. **Determine the properties of the square \(AMDE\)**:
+   - Since \(AMDE\) is a square, all sides are equal, and the diagonals are equal and bisect each other at right angles.
+
+3. **Calculate the length of \(AM\)**:
+   - \(M\) is the midpoint of \(BC\), so \(BM = MC = \frac{BC}{2} = \frac{10 \text{ cm}}{2} = 5 \text{ cm}\).
+
+4. **Determine the length of \(AM\)**:
+   - In triangle \(ABC\), using the Pythagorean theorem:
+     \[
+     AC^2 = AB^2 + BC^2
+     \]
+     \[
+     8^2 = 6^2 + BC^2
+     \]
+     \[
+     64 = 36 + BC^2
+     \]
+     \[
+     BC^2 = 28
+     \]
+     \[
+     BC = \sqrt{28} = 2\sqrt{7} \text{ cm}
+     \]
+   - Since \(M\) is the midpoint of \(BC\), \(AM = \frac{BC}{\sqrt{2}} = \frac{2\sqrt{7}}{\sqrt{2}} = \sqrt{14} \text{ cm}\).
+
+5. **Calculate the area of the square \(AMDE\)**:
+   - The side length of the square \(AMDE\) is \(AM = \sqrt{14} \text{ cm}\).
+   - The area of the square \(AMDE\) is:
+     \[
+     (\sqrt{14})^2 = 14 \text{ cm}^2
+     \]
+
+6. **Calculate the area of the quadrilateral \(AFDE\)**:
+   - The quadrilateral \(AFDE\) is formed by removing the square \(AMDE\) from triangle \(ABC\).
+   - The area of triangle \(ABC\) is:
+     \[
+     \text{Area} = \frac{1}{2} \times AB \times BC = \frac{1}{2} \times 6 \times 10 = 30 \text{ cm}^2
+     \]
+   - The area of the quadrilateral \(AFDE\) is:
+     \[
+     \text{Area} = \text{Area of } ABC - \text{Area of } AMDE = 30 - 14 = 16 \text{ cm}^2
+     \]
+
+### Answer: D

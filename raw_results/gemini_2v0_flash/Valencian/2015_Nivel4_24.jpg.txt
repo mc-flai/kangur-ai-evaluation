@@ -1,0 +1,113 @@
+Raonament: Hi ha 6! = 720 permutacions possibles de les sis lletres. Hem de trobar la paraula que es troba en la posició 537 del diccionari. Considerem les lletres en ordre alfabètic: A, C, G, N, R, U.
+1. Paraules que comencen per A: Hi ha 5! = 120 paraules.
+2. Paraules que comencen per C: Hi ha 5! = 120 paraules.
+3. Paraules que comencen per G: Hi ha 5! = 120 paraules.
+4. Paraules que comencen per N: Hi ha 5! = 120 paraules.
+Fins ara, tenim 120 * 4 = 480 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 480 = 57 entre les paraules que comencen per R.
+5. Paraules que comencen per RA: Hi ha 4! = 24 paraules.
+Fins ara, tenim 480 + 24 = 504 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 504 = 33 entre les paraules que comencen per RC.
+6. Paraules que comencen per RC: Hi ha 4! = 24 paraules.
+Fins ara, tenim 504 + 24 = 528 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 528 = 9 entre les paraules que comencen per RG.
+7. Paraules que comencen per RGA: Hi ha 3! = 6 paraules.
+Fins ara, tenim 528 + 6 = 534 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 534 = 3 entre les paraules que comencen per RGN.
+8. Paraules que comencen per RGNA: Hi ha 2! = 2 paraules.
+Fins ara, tenim 534 + 2 = 536 paraules.
+La paraula 536 és RGNAUC i la paraula 537 serà RGNACU.
+
+Resposta: E)
+Raonament: Hi ha 6! = 720 permutacions possibles de les sis lletres. Hem de trobar la paraula que es troba en la posició 537 del diccionari. Considerem les lletres en ordre alfabètic: A, C, G, N, R, U.
+1. Paraules que comencen per A: Hi ha 5! = 120 paraules.
+2. Paraules que comencen per C: Hi ha 5! = 120 paraules.
+3. Paraules que comencen per G: Hi ha 5! = 120 paraules.
+4. Paraules que comencen per N: Hi ha 5! = 120 paraules.
+Fins ara, tenim 120 * 4 = 480 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 480 = 57 entre les paraules que comencen per R.
+5. Paraules que comencen per RA: Hi ha 4! = 24 paraules.
+Fins ara, tenim 480 + 24 = 504 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 504 = 33 entre les paraules que comencen per RC.
+6. Paraules que comencen per RC: Hi ha 4! = 24 paraules.
+Fins ara, tenim 504 + 24 = 528 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 528 = 9 entre les paraules que comencen per RG.
+7. Paraules que comencen per RGA: Hi ha 3! = 6 paraules.
+Fins ara, tenim 528 + 6 = 534 paraules.
+Necessitem trobar la paraula que ocupa la posició 537 - 534 = 3 entre les paraules que comencen per RGN.
+8. Paraules que comencen per RGNA: Hi ha 2! = 2 paraules.
+Fins ara, tenim 534 + 2 = 536 paraules.
+La paraula 536 és RGNAUC i la paraula 537 serà RGNACU.
+Resposta: E)
+Raonament:
+L'alfabet té sis lletres: A, C, G, N, R, U. Les paraules tenen sis lletres diferents. Hi ha 6! = 720 paraules possibles. Volem trobar la paraula a la posició 537.
+1. Les paraules que comencen per A, C, G, N són 4 * 5! = 4 * 120 = 480.
+Necessitem la paraula a la posició 537 - 480 = 57 entre les que comencen per R.
+2. Les paraules que comencen per RA són 4! = 24. Sumen 504.
+Necessitem la paraula a la posició 57 - 24 = 33 entre les que comencen per RC.
+3. Les paraules que comencen per RC són 4! = 24. Sumen 528.
+Necessitem la paraula a la posició 33 - 24 = 9 entre les que comencen per RG.
+4. Les paraules que comencen per RGA són 3! = 6. Sumen 534.
+Necessitem la paraula a la posició 9 - 6 = 3 entre les que comencen per RGN.
+5. Les paraules que comencen per RGNA són 2! = 2. Sumen 536.
+Necessitem la paraula a la posició 3 - 2 = 1 entre les que comencen per RGNAC.
+L'última lletra és U, llavors la penúltima és C i la última és U.
+Les paraules que comencen per RGNA: RGNACU (537), RGNAUC (536).
+La paraula a la posició 537 és RGNACU.
+
+Resposta: E)
+Raonament:
+L'alfabet és A, C, G, N, R, U. Les paraules tenen 6 lletres diferents. Total permutacions = 6! = 720. Volem la paraula a la posició 537.
+1. Començant per A, C, G, N: 4 * 5! = 4 * 120 = 480.
+Posició relativa = 537 - 480 = 57.
+2. Començant per RA: 4! = 24. Posició total = 480 + 24 = 504.
+Posició relativa = 57 - 24 = 33.
+3. Començant per RC: 4! = 24. Posició total = 504 + 24 = 528.
+Posició relativa = 33 - 24 = 9.
+4. Començant per RGA: 3! = 6. Posició total = 528 + 6 = 534.
+Posició relativa = 9 - 6 = 3.
+5. Començant per RGN:
+Les possibles lletres són A, C, U. La paraula serà RGNACU o RGNAUC o RGNCAU, etc.
+Començant per RGNA: 2! = 2. Posició total = 534 + 2 = 536. Les paraules són RGNAUC i RGNACU.
+Així que RGNACU és la següent paraula, i la seva posició és 537.
+
+Resposta: E)
+Raonament: El problema demana trobar la paraula que es troba en la posició 537 d'un diccionari format per totes les permutacions de les lletres A, C, G, N, R, U. L'ordre alfabètic de les lletres és A, C, G, N, R, U.
+Primer hem de determinar les paraules que comencen per A, C, G, N, R.
+Les paraules que comencen per A són 5! = 120.
+Les paraules que comencen per C són 5! = 120.
+Les paraules que comencen per G són 5! = 120.
+Les paraules que comencen per N són 5! = 120.
+Les paraules que comencen per R són 5! = 120.
+Fins a la lletra N tenim 4 * 120 = 480. La resta fins a 537 és 57.
+Ara analitzem les paraules que comencen per R i la segona lletra és A, C, G, N, U.
+Les paraules que comencen per RA són 4! = 24.
+Les paraules que comencen per RC són 4! = 24.
+Les paraules que comencen per RG són 4! = 24.
+Les paraules que comencen per RN són 4! = 24.
+Les paraules que comencen per RU són 4! = 24.
+Si seguim fins RC, tenim 480 + 24 + 24 = 528. Ens falten 9 paraules.
+Ara seguim per RG, i la tercera lletra pot ser A, C, N, U.
+Les paraules que comencen per RGA són 3! = 6. Sumem 528+6=534. Ens falten 3 paraules.
+Ara seguim per RGN, i la quarta lletra pot ser A, C, U.
+Les paraules que comencen per RGNA són 2! = 2. Sumem 534+2=536. Ens falta 1 paraula.
+Les paraules que comencen per RGNAC, i la cinquena lletra és la que falta, U.
+RGNAUC és la penúltima, i la paraula que busquem és RGNACU.
+
+Resposta: E)
+Raonament:
+L'alfabet és A, C, G, N, R, U. Hi ha 6! = 720 paraules possibles. Necessitem trobar la 537a paraula.
+1. Les paraules que comencen per A, C, G, N: 4 * 5! = 4 * 120 = 480.
+Posició relativa = 537 - 480 = 57.
+2. Amb RA: 4! = 24. 480 + 24 = 504.
+Posició relativa = 57 - 24 = 33.
+3. Amb RC: 4! = 24. 504 + 24 = 528.
+Posició relativa = 33 - 24 = 9.
+4. Amb RG:
+5. Amb RGA: 3! = 6. 528 + 6 = 534.
+Posició relativa = 9 - 6 = 3.
+6. Amb RGN:
+7. Amb RGNA: 2! = 2. 534 + 2 = 536. Les paraules són RGNAUC i RGNACU.
+8. La 536a és RGNAUC, per tant, la 537a és RGNACU.
+
+Resposta: E)

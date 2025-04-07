@@ -1,0 +1,12 @@
+**Raonament**: Per trobar quants rectes podem formar amb 2 costats de 10 punts de longitud, hem de considerar que cada rectangle té dues longituds de 10 punts i dues amplades diferents.
+
+Primer, calculem el nombre total de punts en la banda:
+\[ \text{Total de punts} = 10 \text{ punts al llarg} \times 4 \text{ rectes} = 40 \text{ punts} \]
+
+Ara, volem formar rectes amb dues longituds de 10 punts:
+\[ \text{Punts per recte} = 2 \times 10 = 20 \text{ punts per recte} \]
+
+Dividim el total de punts disponibles (40 punts) pel nombre de punts necessaris per recte (20 punts):
+\[ \text{Nombre de rectes} = \frac{40 \text{ punts}}{20 \text{ punts per recte}} = 2 \text{ rectes} \]
+
+**Resposta**: D) 46

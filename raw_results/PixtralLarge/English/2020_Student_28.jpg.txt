@@ -1,0 +1,11 @@
+To determine how many cards Maria must take out of the box to ensure that among the cards taken there are two with numbers a and b such that a is not a divisor of b and b is not a divisor of a, we need to consider the properties of divisors.
+
+1. Each divisor of 2020 is either even or odd. If the numbers a and b have different parities (one is odd and the other is even), then they cannot be divisors of each other.
+2. The prime factorization of 2020 is 2^2 * 5 * 101. This means that each divisor of 2020 can contain 0, 1, or 2 factors of 2.
+3. If Maria takes out 9 cards, it is possible that all these cards could be divisors of 2020 that are either all odd or all even, meaning they could all be divisors of each other in some way.
+4. However, if Maria takes out 10 cards, then by the pigeonhole principle, there must be at least two cards that contain different numbers of factors of 2.
+5. Therefore, these two cards must have different parities, ensuring that one number is not a divisor of the other.
+
+Reasoning: By applying the pigeonhole principle and considering the parity of divisors, Maria must take out at least 10 cards to ensure that there are two numbers a and b such that a is not a divisor of b and b is not a divisor of a.
+
+Answer: E).

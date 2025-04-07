@@ -1,0 +1,33 @@
+Raonament:
+1. El nombre de caramels en el primer pot és igual al nombre de pots amb un sol caramel.
+2. El nombre de caramels en el segon pot és igual al nombre de pots amb dos caramels.
+3. El nombre de caramels en el tercer pot és igual al nombre de pots amb tres caramels.
+4. El nombre de caramels en el quart pot és igual al nombre de pots que no tenen cap caramel.
+
+Per resoldre això, s'ha de considerar que hi ha 4 pots en total. Així, si denotem els pots com P1, P2, P3 i P4, i suposant que P1 té el mínim de caramels i P4 té el màxim:
+
+P1 = Nombre de pots amb un caramel
+P2 = Nombre de pots amb dos caramels
+P3 = Nombre de pots amb tres caramels
+P4 = Nombre de pots sense cap caramel
+
+Si sumem els caramels de cada pot, obtenim:
+P1 + P2 + P3 + P4 = Total de caramels
+
+A més, la suma del nombre de pots amb caramels ha de ser igual al total de pots:
+P1 + P2 + P3 + P4 = 4
+
+Ara, analitzem les opcions:
+- A) 2
+- B) 3
+- C) 4
+- D) 5
+- E) 6
+
+Si hi ha 4 pots, la suma de caramels ha de ser fins 6 perquè cada pot pot tenir 0, 1, 2 o 3 caramels.
+
+P1 + P2 + P3 + P4 = 4
+
+L'única opció que satisfà aquestes condicions és E) 6.
+
+Resposta: E)

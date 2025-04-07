@@ -1,0 +1,26 @@
+Let $P(a)$ be the probability that A wins when A is $a$ points ahead. We are given that $P(3) = 1$ and $P(-3) = 0$. We want to find $P(1)$.
+
+Since each player has an equal probability of winning each point, we can write the following equation:
+$P(a) = \frac{1}{2} P(a+1) + \frac{1}{2} P(a-1)$
+Multiplying by 2, we get:
+$2P(a) = P(a+1) + P(a-1)$
+Rearranging the terms, we have:
+$P(a+1) - P(a) = P(a) - P(a-1)$
+This means the difference between consecutive probabilities is constant. Let this constant be $d$. Then:
+$P(a+1) = P(a) + d$
+$P(a-1) = P(a) - d$
+
+We know that $P(3) = 1$ and $P(-3) = 0$. We can express $P(a)$ in terms of $P(0)$ and $d$.
+$P(3) = P(0) + 3d = 1$
+$P(-3) = P(0) - 3d = 0$
+Adding these two equations, we get:
+$2P(0) = 1$, so $P(0) = \frac{1}{2}$.
+Substituting this into the first equation:
+$\frac{1}{2} + 3d = 1$
+$3d = \frac{1}{2}$
+$d = \frac{1}{6}$
+Now we can find $P(1)$:
+$P(1) = P(0) + d = \frac{1}{2} + \frac{1}{6} = \frac{3}{6} + \frac{1}{6} = \frac{4}{6} = \frac{2}{3}$
+
+Reasoning: We set up a recursive relationship for the probability that A wins based on A's current lead. Then, we recognized that the probability changes linearly with the lead and solved for the unknowns. Finally, we calculated P(1).
+Answer: B)

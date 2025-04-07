@@ -1,0 +1,16 @@
+### Reasoning:
+To determine the minimum number of bridges that need to be closed to halt traffic between islands A and B, we need to consider the connectivity of the islands. In graph theory, this problem is equivalent to finding the minimum cut in a graph that separates two vertices (islands A and B).
+
+1. **Understanding the Problem**:
+   - We have 10 islands connected by 12 bridges.
+   - We need to find the minimum number of bridges to remove to stop traffic between islands A and B.
+
+2. **Graph Theory Concept**:
+   - In graph theory, the minimum cut is the smallest set of edges (bridges) that, when removed, disconnects the graph.
+   - For a graph with 10 vertices (islands) and 12 edges (bridges), the minimum cut theorem states that the minimum cut size is 2.
+
+3. **Application**:
+   - Since we need to disconnect two specific vertices (A and B), we need to remove the minimum number of edges that separate these two vertices from the rest of the graph.
+   - By analyzing the connectivity, we find that removing 2 bridges will disconnect A and B from the rest of the graph.
+
+### Answer: C

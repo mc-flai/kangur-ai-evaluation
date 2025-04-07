@@ -1,0 +1,9 @@
+Reasoning:
+Let the area of the square be $S$ and the area of the pentagon be $P$. We are given that $S$ and $P$ are consecutive whole numbers. Also, the area of the pentagon is the area of the square minus the area of the folded corner. Since the corner is folded to the center of the square, the area of the folded corner is 1/8 of the area of the square. So, $P = S - S/8 = 7S/8$.
+Since $S$ and $P$ are consecutive whole numbers, we have either $S = P+1$ or $P = S+1$.
+Case 1: $S = P+1$, then $S = \frac{7S}{8} + 1$. Multiplying by 8, $8S = 7S + 8$, so $S = 8$.
+Then $P = S-1 = 7$, which is $7(8)/8 = 7$. This is a consistent solution.
+Case 2: $P = S+1$, then $\frac{7S}{8} = S+1$. Multiplying by 8, $7S = 8S + 8$, so $-S = 8$, which means $S = -8$. This is not possible since the area of a square cannot be negative.
+Therefore, the only valid solution is $S = 8$, and $P=7$.
+
+Answer: C)

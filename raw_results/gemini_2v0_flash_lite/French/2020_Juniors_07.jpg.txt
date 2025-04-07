@@ -1,0 +1,12 @@
+Raisonnement :
+Lucas veut faire du surf le plus de jours possible avec Gabrielle. Gabrielle fait du surf les mardis, samedis et dimanches. Lucas séjourne 18 jours consécutifs. On calcule le nombre de jours de surf par semaine: 3 jours.
+Pour maximiser le nombre de jours de surf, Lucas doit commencer son séjour un jour lui permettant de profiter des jours de surf au début de son séjour.
+Si Lucas commence son séjour un lundi, il aura les jours de surf suivants: mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche. Cela lui donne 3 + 3 + 3 + 3 + 3 + 3 = 18 jours. Il pourra surfer 6 mardis, 6 samedis et 6 dimanches.
+Si Lucas commence son séjour un mardi, il aura un mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, aucun dimanche. Il pourra surfer 6 mardis, 6 samedis et 5 dimanches, soit un jour de surf en moins.
+Si Lucas commence son séjour un mercredi, il aura samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, aucun dimanche. Il pourra surfer 6 mardis, 6 samedis et 5 dimanches, soit un jour de surf en moins.
+Si Lucas commence son séjour un vendredi, il aura samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, aucun dimanche. Il pourra surfer 6 mardis, 6 samedis et 5 dimanches, soit un jour de surf en moins.
+Si Lucas commence son séjour un samedi, il aura samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, aucun dimanche. Il pourra surfer 6 mardis, 6 samedis et 5 dimanches, soit un jour de surf en moins.
+Si Lucas commence son séjour un dimanche, il aura dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, dimanche, mardi, samedi, aucun dimanche. Il pourra surfer 5 mardis, 5 samedis et 6 dimanches, soit un jour de surf en moins.
+La meilleure option pour que Lucas ait le plus de jours de surf est de commencer le lundi.
+
+Réponse : A)

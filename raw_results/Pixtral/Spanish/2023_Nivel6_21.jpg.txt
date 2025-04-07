@@ -1,0 +1,65 @@
+Para determinar la expresión de la función \( f \), debemos resolver el sistema de ecuaciones dado:
+
+1. \( f(x) + 2g(1-x) = x^2 \)
+2. \( f(1-x) - g(x) = x^2 \)
+
+Primero, observemos las ecuaciones:
+
+1. \( f(x) + 2g(1-x) = x^2 \)
+2. \( f(1-x) - g(x) = x^2 \)
+
+Para encontrar \( f(x) \), podemos manipular estas ecuaciones para eliminar \( g(x) \).
+
+Sumemos las dos ecuaciones:
+
+\[ f(x) + 2g(1-x) + f(1-x) - g(x) = x^2 + x^2 \]
+
+Simplificando, obtenemos:
+
+\[ f(x) + f(1-x) + g(1-x) - g(x) = 2x^2 \]
+
+Ahora, para simplificar aún más, podemos usar la sustitución \( u = 1-x \). Esto nos da:
+
+\[ f(x) + f(u) + g(u) - g(x) = 2x^2 \]
+
+Dado que \( u = 1-x \), podemos escribir \( f(u) \) como \( f(1-x) \):
+
+\[ f(x) + f(1-x) + g(1-x) - g(x) = 2x^2 \]
+
+Ahora, restemos la ecuación original de \( f(x) \) de la ecuación modificada:
+
+\[ f(x) + 2g(1-x) + f(1-x) - g(x) - (f(x) + f(1-x) + g(1-x) - g(x)) = 2x^2 - x^2 \]
+
+Simplificando, obtenemos:
+
+\[ 2g(1-x) - g(x) = x^2 \]
+
+Para encontrar \( f(x) \), necesitamos resolver para \( g(x) \):
+
+\[ g(1-x) - g(x) = -\frac{1}{2}x^2 \]
+
+Ahora, usando la primera ecuación:
+
+\[ f(x) + 2g(1-x) = x^2 \]
+
+Sustituyendo \( g(1-x) \):
+
+\[ f(x) + 2\left(-\frac{1}{2}x^2 - g(x)\right) = x^2 \]
+
+Simplificando:
+
+\[ f(x) - x^2 - g(x) = x^2 \]
+
+Finalmente, resolviendo para \( f(x) \):
+
+\[ f(x) = x^2 + g(x) \]
+
+Dado que \( g(x) \) es una función arbitraria que satisface las ecuaciones, podemos asumir que \( g(x) \) es una función constante para simplificar. Por lo tanto, la expresión de \( f(x) \) es:
+
+\[ f(x) = x^2 \]
+
+Por lo tanto, la respuesta correcta es:
+
+Razonamiento: Manipulamos las ecuaciones dadas para eliminar \( g(x) \) y resolver para \( f(x) \).
+
+Respuesta: A)

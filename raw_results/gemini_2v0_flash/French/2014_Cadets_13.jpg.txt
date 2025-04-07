@@ -1,0 +1,38 @@
+Reasoning:
+Let PQRS be a rectangle with PQ = 11 cm and QR = 6 cm. Since PQRS is a rectangle, PS = QR = 6 cm and SR = PQ = 11 cm.
+The angle bisector of angle SPQ intersects RS at T. Since angle SPQ = 90 degrees, angle SPT = angle TPQ = 45 degrees. Also, angle PST = 90 degrees. Thus triangle PTS is a right-angled triangle. Let ST = x. Then tan(45) = ST/PS, so 1 = x/6, thus x = 6. So ST = 6 cm.
+The angle bisector of angle PQR intersects RS at U. Since angle PQR = 90 degrees, angle PQU = angle UQR = 45 degrees. Also, angle QRU = 90 degrees. Thus triangle QRU is a right-angled triangle. Let RU = y. Then tan(45) = RU/QR, so 1 = y/6, thus y = 6. So RU = 6 cm.
+Since SR = ST + TU + UR, we have 11 = 6 + TU + 6, so TU = 11 - 6 - 6 = 11 - 12 = -1. However, this is impossible since length cannot be negative.
+Let's revise the given information. We are given that T and U are on the side [RS]. Then the distance SR = ST + TU + UR.
+ST = x and RU = y.
+Tan(angle SPT) = ST/PS = ST/6, ST = PS*Tan(angle SPT) = 6 * tan(45) = 6.
+Tan(angle RQU) = RU/QR = RU/6, RU = QR*Tan(angle RQU) = 6 * tan(45) = 6.
+SR = 11 = ST + TU + UR = 6 + TU + 6.
+TU = 11 - 12 = -1. The information that the angle bisectors intersect RS is inconsistent with given information.
+Perhaps the intersection is not on RS, but RS is on the line containing the points. Then the coordinates of the vertices are: P(0, 6), Q(11, 6), R(11, 0), and S(0, 0).
+Equation of line SP: y = 0
+Equation of line RS: x = 11
+Equation of line QR: y = 6
+Equation of line PQ: x = 0
+Equation of bisector of angle SPQ is y = x. Since T lies on this line and on x = 11, T(t, 0). SPQ= 90 degree. T is intersection of RS and the angle bisector of SPQ, y=x. So this line should have slope 1, but slope of ST has to be positive. The equation must be y = x. Line RS is actually on top here.
+Coordinates are: P(0, 6), Q(11, 6), R(11, 0), and S(0, 0).
+Bisector of angle SPQ: y = x. Intersects SR at T.
+Equation of SR: y = 0. So T=(x,0) where y =x means x =0.
+Line bisecting PQR: y = -x + 17. Line RS is actually on top. Intersects SR at U.
+Bisector of angle PQR which is PQR = x = y-6, then x+ y -6
+The solution requires some understanding of geometry involving rectangles and angle bisectors and the points where they intersect the sides. Also, SR is equal to 11. And PQ=11, QR=6.
+ST=6 then TU needs to be negative. There is a potential error.
+In general TU should measure 1cm if the bisectors are not on the RS, but some other side, but because SR is the side this should happen inside RS.
+
+Reasoning:
+Let PQRS be a rectangle with PQ = 11 and QR = 6. Therefore PS = 6 and RS = 11. Let T be a point on RS such that ST = x. Since the angle bisector of SPQ intersects RS at T, triangle PST has angles 45, 90, 45. Therefore ST = PS = 6. Similarly let U be a point on RS such that RU = y. Since the angle bisector of PQR intersects RS at U, triangle QRU has angles 45, 90, 45. Therefore RU = QR = 6.
+Now RS = ST + TU + UR = 11.
+Substituting, 11 = 6 + TU + 6.
+TU = 11 - 12 = -1. Since distance cannot be negative there must be a mistake in the diagram. Also, we may assume T and U lie *on the line through* RS, but are not necessarily *between* R and S. Assuming they lie on the line, we have three cases:
+1. T is between R and U. Then TU = |ST-SU|. We know ST = 6 and SU = SR+RU = 11+6 = 17. Thus TU = |6-17| = 11.
+2. U is between S and T. Then TU = |SU-ST|. SU = SR+RU = 17. ST=6. TU = |17-6| = 11.
+3. R is between T and S. Then TU=|TR-UR|, SU=17, ST=6. UR=6, ST=6. 11=TR+RS, TR = ST-RS = |-11|. This doesn't really make sense.
+
+Since the error comes from the TU = -1 being a contradiction, it may be that TU =1. This would make the length measure as 1 cm.
+
+Answer: A)

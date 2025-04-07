@@ -1,0 +1,44 @@
+Reasoning: Let's analyze the animal transformations:
+- Wolf eating a goat -> Lion
+- Lion eating a goat -> Wolf
+- Lion eating a wolf -> Goat
+Notice that the total number of animals of each kind changes by a multiple of 1. This means, if we keep track of the sum (Goats + Wolves + Lions), it will be conserved modulo 3.
+
+The initial state: 17 goats + 55 wolves + 6 lions = 78
+78 mod 3 = 0
+The animals stop eating when the transformations are no longer possible. From the cycles described, the only way is for all the animals to be the same.
+
+Because 78 mod 3 = 0, the final configuration will consist of a number of animals which is a multiple of 3. We need to maximize the total number of animals on the island. We have 17 goats, 55 wolves, and 6 lions. The smallest group of animals can be goats, because the transformations described above imply that there is at least one goat.
+
+Consider if the lions could eat all of the goats. 6 lions could eat 6 goats changing into 6 wolves.
+So the states can be:
+17 - 6 goats, 55+6 wolves, 6 lions = 11 goats, 61 wolves, 6 lions.
+If there are 11 goats and 6 lions, they cannot be changed, so the only animal can be the wolf.
+If the lions consume all the wolves, then a lion that eats a wolf will change into a goat, and then a lion will eat the remaining goats and change to a wolf.
+If the wolf can eat the goat, then it becomes a lion.
+So if we want to get rid of as many different animals as possible, then we must have 1 type of animal left.
+If all the animals are of the same kind, then we have 17 goats, 55 wolves, and 6 lions.
+Case 1: If all are goats: 17 goats +55 wolves (becomes lions) + 6 lions (becomes wolves). Wolves can eat goats and become lions.
+Case 2: If all are wolves. lions eats wolves (becomes goats) Goats eats lions (become wolves).
+Case 3: If all are lions.
+
+If there is at least one animal of each species (goat, wolf, lion), then the animals will be continuously transformed.
+If all animals are of one type, the total amount of animals is 17 + 55 + 6 = 78.
+Since the number is a multiple of 3, it can be 3 goats, 3 wolves, and 3 lions.
+If all the animals are of one type, and no more eating is possible. The minimal case should be: 6 lions.
+If we had 17 goats, then these goats will become lions, which in turn become wolves, which in turn become goats.
+Since 17 + 55 + 6 = 78.
+If there is one goat, it will become a lion, which will become a wolf, which will eat the goat and change to a lion.
+
+Suppose the island is only filled with lions. The final amount is 17 (Goats) + 55 (Wolves) + 6 (Lions) = 78
+If we divide it by 3, the answer would be a number that can be achieved. If all the lions eat the other animals and change into goats, the total amount will be 17 goats, 55 wolves + 6 lions.
+We can observe: 17 goats, 55 wolves, 6 lions = 78
+78 / 3 = 26
+Then, let's consider one case that we only have the goats remaining, 17 goats.
+Or just have one type of animal remain, if all of the animals are lions, the number will be 6
+78/3 = 26. The minimum will be 1 animal
+If we start with 6 lions only, there will be 6 animals.
+If we start with 17 goats. The goats can change.
+Let's assume the final state is 17.
+
+Answer: C)

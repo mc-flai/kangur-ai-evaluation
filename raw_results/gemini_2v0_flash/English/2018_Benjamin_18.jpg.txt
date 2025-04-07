@@ -1,0 +1,24 @@
+Reasoning:
+The question asks for the value of B in the addition problem ABC + CBA = DDDD.
+Since all digits are different, and the result of adding a three-digit number and its reverse is a four-digit number with all digits being the same, we can deduce some information.
+First, we know that A + C must result in a carryover since the result is a four-digit number. This means A + C must be at least 10.
+Consider the units digit: C + A = D. Since there is a carryover from the hundreds place, we can say that the hundreds place must have A+C + 1(carryover)=D. Since the value of the numbers is different for different letters, the result D, in C+A=D, is not only D, but because of the carry, the resulting digit is larger than D.
+Now, consider the tens digit: B + B = D. Therefore, 2B = D. This indicates that D must be an even number.
+Since A + C >= 10, we know that A and C can be any values that add up to equal 10 or more.
+Also, C + A = D, so D must be the units digit of A+C, as well as having a carry of 1 to add in the 100's column. Then A+C+1 would yield D again in the 100's column. If we assume A+C=11. That has a result of 1. and we need the same number for our digits, thus 11 is invalid. We need to have a value that when we add 1 we obtain a number that ends in the previous value that created this number. Let us look at some potential values for D. Since D is even because D=2B, the possibilities for D from our choices are: 0 is invalid because then B must be 0, let's rule that one out. Then 2 would yield that B=1. Then D=4, which yields that B=2, D=6 which yields B=3, D=8 which yields B=4. This would be values between 0 to 9, but it limits D to only have these even numbers. Then A+C=D. And let us imagine that we get A+C+1 from the carryover, and we get 10D+D. THis can only equal 10, which means that D will always be nine. Then we see 2B=D, and 2B=10, so B=5. This indicates a possible solution.
+Let A=8 and C=2, A+C = 10, carryover for 1's. B=5 and D=0 is incorrect. Let A = 6 and C = 4, then A+C=10.
+It must be that A+C ends in the digit D. Since A+C+1 = D*10+D, then it means A+C must equal 10D+D - 1
+Then since B+B=D, and each of these letters are numbers between 0-9, we can write out the equation 2B=D. If we consider a number between 0-9 multiplied by ten, that it has to reach at least 10+ value between 0 to 9 which makes D a singular value 11. So 2B=11 - 1 since A+C+1, This is unlikely to lead to an integer.
+However, A + C has to equal 10+x, in order for the four digit total to make sense. However, 2B=D cannot equal D. So we realize that this cannot happen without the last carryover.
+
+Let's try A=9, C=2. A+C=11. D=1. So this means 2B=1. The only digit we can get A+C to equal and for DDDD.
+
+Finally, we should assume B = 5. Then 2B=10, or D must be 0.
+Then let's pick A+C = 9. We need to create a carryover. So let us try 19. Then A+C+1. Since our first digits have a result, we are looking for A=9+1=10 which means D cannot be ten, which is the correct assumption.
+Then, B = 2, D = 4.
+The key to finding the solution is noticing that B+B = D and A + C yields a value of D in the ones and thousands place. Then B must be 5 because the only way a carryover can happen at this place is by setting A+C =9.
+
+Reasoning:
+We know that $2B$ must equal $D$, thus $D$ is an even number. Also, since the answer is $DDDD$, then $A + C$ results in $D$. When we do $B + B = D$ we need an integer in the ones digit. The only case this works is with $2B$ which creates D.
+
+Answer: D)

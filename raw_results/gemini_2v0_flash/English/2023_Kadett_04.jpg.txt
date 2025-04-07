@@ -1,0 +1,52 @@
+Reasoning:
+Let $h$ be the number of coins showing "head" and $t$ be the number of coins showing "tail".
+Initially, $h=60$. Since there are 150 coins in total, $t = 150 - 60 = 90$.
+Let $x$ be the number of coins that show "head" that John has to turn over.
+Then the number of coins showing "head" becomes $60 - x$, and the number of coins showing "tail" becomes $90 + x$.
+John wants the same amount of coins to show "head" as "tail", so we have
+$60 - x = 90 + x$
+$2x = 60 - 90 = -30$
+$x = -15$.
+Since $x$ is negative, this implies the number of coins showing "tail" has to be turned over to show "head".
+Let $x$ be the number of coins that show "head" that John has to turn over to "tail".
+Then the number of coins showing "head" becomes $60 - x$, and the number of coins showing "tail" becomes $90 + x$.
+We want $60 - x = 90 + x$, so $2x = 60 - 90 = -30$, thus $x = -15$.
+Since we want the number of coins that show "head" to turn over, we need to turn over $x$ coins so that
+$60 - x = \frac{150}{2} = 75$
+$x = 60 - 75 = -15$.
+Then we need to turn over the amount of coins showing tail to head instead.
+Let $x$ be the number of coins showing "head" that John turns over to "tail". Then the number of heads is $60-x$ and the number of tails is $90+x$. We want $60-x = 90+x$, so $2x = -30$ and $x=-15$, which doesn't make sense.
+Let the final number of heads and tails be $y$. Then $y = 150/2 = 75$.
+So the number of heads must be 75. We have 60 heads. To get 75 heads, we need to turn over tails to heads. Let $x$ be the number of heads we turn over. Then we have $60 - x$. The number of tails we turn over is $x$. The number of tails we have is $150 - 60 = 90$.
+The number of tails will decrease by $x$ to $90 - x$.
+The number of heads after turning over $x$ heads is $60 - x$. We have $60 - x = 75$ which gives $x = -15$, which means we turn tails to heads.
+Since each head we turn over becomes a tail, the number of heads decreases by 1 and the number of tails increases by 1. Let $x$ be the number of heads we turn over.
+$60 - x = 150/2 = 75$
+So, $x = -15$, which means that instead of turning head to tail, we are doing the other way around.
+Let $x$ be the amount of heads we turn to tails, then $60 - x = 75$ or $150 - (60-x) - x = 75$. So we want $150 - (60-x) = 75 + x$ or $150/2 = 75$. The number of heads should be 75. Turning x heads into tails gives the tails as 90 + x and the heads 60-x.
+We want to find x such that $60-x=90+x=75$. So $x=15$, the number of heads to be switched. We have $60-15 = 45$ heads and $90+15=105$ tails, but we want $75$ and $75$.
+
+The difference between heads and tails is $90-60 = 30$. If $x$ is the number of heads to flip, we have $60 - x = 90 + x$, thus $2x = -30$, $x = -15$, so flip tails to heads.
+Then the number of heads is $60-x$ and number of tails is $90+x$. Let $H = T = y$. Then $2y = H + T = 150$.
+Then $y = 75$. So $60 - x = 75$, which means $x = -15$. Which is not possible since the only coins that can be flipped are the 60 heads.
+
+If the number of heads becomes 75 then we must have changed tails into heads so it is heads+x = 75 and $60 + x = 75$ and $x = 15$. The tails must be turned into heads. But the questions ask to how many heads turn into tails.
+Then the total number of heads = tails when $60-x = 90+x \rightarrow 2x = 60 - 90 = -30 \rightarrow x = 15$.
+The number of heads to turn over is such that $60-x=75$ means $x=15$ as well
+$60-x=75$ so $x=-15$.
+$60-x=90 +x $, $2x = -30$ so $x=-15$.
+
+Then $150 / 2= 75$, $60-x = 75$ so heads becomes tails.
+Let $x$ to be the number to be turned over.
+Then $90/150 - x = 75/150$. However we can't turn all tails over.
+We need to remove 15 so heads become tails at each switch so we need 30 removed
+$\frac{60}{150} -x = 1/2$ since each is $1/2$.
+$ \frac{60- x }{150 } = 0,5$ then $60 -x =75$. Then
+
+$T-H/2$
+
+Reasoning: The total number of coins is 150, so each side must have 75 to have the same amount. Currently, Heads has 60. So $75-60 = 15$ heads. Also $Tails= 150- 60=90$ and $90-75=15$ so to obtain equal sides, $30/2 =15$ coins need to be switched. Number of coins must decrease so turn head to tail at equal switch. If $H-x=T+x$ after turns. This is $2T+2x= $number
+
+30 coins need to be switched but we do not know which switch to be made. Head and Tail can be $ 70 and80$ if switched 10 times. The amount must be at a switch so its $15$
+.
+Answer: B)

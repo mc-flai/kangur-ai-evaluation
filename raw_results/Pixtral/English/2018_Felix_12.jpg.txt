@@ -1,0 +1,44 @@
+### Reasoning:
+1. We need to form two-digit numbers using the digits 2, 0, 1, or 8.
+2. The numbers must be greater than 10 and smaller than 25.
+3. Each number must be made up of two different digits.
+
+Let's list all possible two-digit combinations using the given digits:
+
+- Using 2:
+  - 20 (uses 2 and 0)
+  - 21 (uses 2 and 1)
+  - 28 (uses 2 and 8)
+
+- Using 0:
+  - 01 (uses 0 and 1)
+  - 02 (uses 0 and 2)
+  - 08 (uses 0 and 8)
+
+- Using 1:
+  - 10 (uses 1 and 0)
+  - 12 (uses 1 and 2)
+  - 18 (uses 1 and 8)
+
+- Using 8:
+  - 80 (uses 8 and 0)
+  - 82 (uses 8 and 2)
+  - 81 (uses 8 and 1)
+
+Now, let's ensure each number is made up of two different digits:
+- 20 (2 and 0)
+- 21 (2 and 1)
+- 28 (2 and 8)
+- 01 (0 and 1)
+- 02 (0 and 2)
+- 08 (0 and 8)
+- 10 (1 and 0)
+- 12 (1 and 2)
+- 18 (1 and 8)
+- 80 (8 and 0)
+- 82 (8 and 2)
+- 81 (8 and 1)
+
+Counting these, we get a total of 12 different numbers.
+
+### Answer: E

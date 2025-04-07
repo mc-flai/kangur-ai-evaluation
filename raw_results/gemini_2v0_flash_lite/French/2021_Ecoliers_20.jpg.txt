@@ -1,0 +1,16 @@
+Raisonnement :
+1.  **Comprendre les règles:** On doit utiliser tous les chiffres de 1 à 9 une fois chacun. La somme de deux cases adjacentes est donnée.
+2.  **Analyser les sommes:** On a 15, 3, 15, 8.
+3.  **Travailler avec le cas grisé:** La case grisée fait partie de deux sommes : une somme de 3 et une somme de 15.
+4.  **Utiliser les sommes pour trouver les chiffres adjacents à la case grisée:**
+    *   Pour la somme de 3, les seuls nombres possibles sont 1 et 2.
+    *   Pour la somme de 15, on doit trouver un chiffre qui, additionné à la case grisée, donne 15.
+5.  **Trouver la réponse:**
+    *   Si on met 1 dans la case à gauche de la case grisée, alors on doit avoir 2 dans la case grisée (pour obtenir 3).
+    *   Mais si la case grisée est 2, alors le nombre de droite devrait être 13 pour avoir 15, et le nombre 13 n'est pas possible.
+    *   Si on met 2 dans la case à gauche de la case grisée, alors on doit avoir 1 dans la case grisée (pour obtenir 3).
+    *   Si on met 1 dans la case grisée, alors le nombre de droite devrait être 14 pour avoir 15, et le nombre 14 n'est pas possible.
+    *   On est donc obligé de s'aider des autres sommes pour déduire. On a une somme de 15 puis une somme de 8. On peut considérer que la case grisée est le chiffre qui fait le lien entre les deux sommes. Le chiffre suivant après la case grisée doit faire une somme de 15 avec le chiffre de la case grisée. Le chiffre précédent à la case grisée doit faire une somme de 3 avec le chiffre de la case grisée. Avec les autres sommes, cela nous donne:
+    *   Si on met 6 dans la case grisée, les nombres de part et d'autre serait 9 (9+6=15) et 2 (2+6=8). Donc on est bon.
+
+Réponse : C)

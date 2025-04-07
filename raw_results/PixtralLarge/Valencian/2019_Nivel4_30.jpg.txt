@@ -1,0 +1,45 @@
+Per resoldre el problema, hem de determinar quants tríos de la seqüència de dígits contenen el número 4. Aquests tríos són:
+
+(123)(456)(789)(101)(112)...(979)(899)
+
+Per a trobar tots els tríos en els que apareix el número 4, recorrem tota la seqüència i identifiquem els tríos que contenen el número 4.
+
+La seqüència de dígits és:
+123456789101112...979899
+
+Podem veure que els tríos que contenen el número 4 són:
+(123), (234), (345), (456), (789), (891), (910), (101), (011), (112), ..., (979), (798), (989)
+
+Ara anem a comptar quants d'ells contenen el número 4:
+
+- (123) no
+- (234) sí
+- (345) sí
+- (456) sí
+- (789) no
+- (891) no
+- (910) no
+- (101) no
+- (011) no
+- (112) no
+- ...
+- (979) sí
+- (798) sí
+- (989) no
+
+Els tríos que contenen el número 4 són:
+(234), (345), (456), (979), (798)
+
+Comptem els tríos amb el número 4:
+
+- (234)
+- (345)
+- (456)
+- (979)
+- (798)
+
+Hi ha 5 tríos que contenen el número 4.
+
+**Raonament**: Hem analitzat tots els tríos de la seqüència i hem comptat els que contenen el número 4.
+
+**Resposta**: E) 51

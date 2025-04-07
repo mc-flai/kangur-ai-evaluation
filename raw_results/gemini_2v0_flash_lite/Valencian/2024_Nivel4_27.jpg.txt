@@ -1,0 +1,15 @@
+Raonament:
+1. **Understand the problem:** We have a large cube made up of smaller cubes. The large cube's exterior is painted. We are given that the number of small cubes with one painted face equals the number of small cubes with no painted faces. We need to find the value of 'n' where the total number of small cubes is n³.
+2. **Cubes with one painted face:** These cubes are located in the center of each face of the larger cube. For a cube of side n, the number of cubes with only one painted face is 6 * (n-2)².
+3. **Cubes with no painted faces:** These are located entirely inside the cube. They form a smaller cube of side (n-2). The number of cubes with no painted faces is (n-2)³.
+4. **Set up the equation:** We are given that the number of cubes with one painted face is equal to the number of cubes with no painted faces. Therefore, we can set up the equation: 6(n-2)² = (n-2)³
+5. **Solve the equation:**
+   - If n=2 then both sides of the equation are zero, but if n=2 then there are not cubes with one face painted or no faces painted. This cannot be true. So n can not be 2.
+   - Divide both sides by (n-2)² : 6 = n-2
+   - Add 2 to both sides: n = 8
+6. **Verify the solution:** If n=8, the large cube has 8³ = 512 small cubes.
+   - Cubes with one face painted: 6*(8-2)² = 6 * 36 = 216.
+   - Cubes with no faces painted: (8-2)³ = 6³ = 216.
+The numbers match.
+
+Resposta: D)

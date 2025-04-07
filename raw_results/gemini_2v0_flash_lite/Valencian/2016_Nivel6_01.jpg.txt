@@ -1,0 +1,67 @@
+Raonament: L'expressió donada conté una sèrie d'operacions. Per resoldre-la, s'ha d'aplicar l'ordre correcte d'operacions: primer la multiplicació i la divisió (d'esquerra a dreta) i després la suma i la resta (d'esquerra a dreta). En aquest cas, sembla que hi ha errors d'escriptura: en comptes de "6.4.2016", "11.8.2015", etc., probablement es volia dir "6*4-2016 - 11*8*2015 - 2*7*2016 + 26*3*2015". Calculem:
+6*4-2016 = 24-2016 = -1992
+11*8*2015 = 177320
+2*7*2016 = 28224
+26*3*2015 = 157170
+-1992 - 177320 - 28224 + 157170 = -1992-177320-28224+157170= -49866
+Aquesta solució no està entre les opcions, per tant, veiem una altra forma d'interpretar l'expressió.
+Considerant que els nombres estan escrits amb punt com a separador decimal i separadors de milers, l'expressió podria ser:
+6.4 - 2016 - 11.8 - 2015 - 2.7 - 2016 + 26.3 - 2015 = 6.4 - 11.8 - 2.7 + 26.3 - 2016 - 2015 - 2015=
+(6.4-11.8-2.7+26.3) - 3*(2015) -1 = (6.4 - 11.8-2.7 + 26.3) - 6046 = 18.2-6046
+Això tampoc és en cap resposta, per tant, provarem una altra interpretació.
+
+6 * 4 - 11 * 8 - 2 * 7 + 26 * 3 = 24 - 88 - 14 + 78 = 0
+Llavors si assumim que els nombres "2016" i "2015" són simplement números, i no hi ha cap càlcul involucrat, tenim:
+6 * 4 - 11 * 8 - 2 * 7 + 26 * 3 = 24 - 88 - 14 + 78 = 0
+Tenint en compte que les dates probablement no han d'afectar el càlcul.
+Suposem que volíen expressar: (6*4) - (11*8) - (2*7) + (26*3) = 24 - 88 - 14 + 78 = 0
+O una altra interpretació:
+6*4 - 11*8 + 26*3 -2*7 = 24 - 88 + 78 - 14 = 0
+O també:
+6*4 + 26*3 - 11*8 - 2*7 = 24 + 78 - 88 - 14 = 0
+
+Però si tenim 6-11-2+26 = 19, per tal que 6*4 -11*8 - 2*7 + 26*3 = 10
+Aleshores 24-88-14+78 = 0, hem de calcular 24-88-14+78 = 0.
+Intentarem: 6*4 - 11*2015 - 2*7 + 26*3 = 24 - 22165 - 14 + 78 = -22077. No és cap resposta.
+Intentarem: (6+4)-(11+8) -(2+7)+(26+3) = 10-19-9+29 = 11. No és cap resposta.
+Intentarem: (6-4) * (11-8) - (2-7) + (26-3) = 2*3 - (-5)+23 = 6+5+23 = 34. No és cap resposta.
+Intentarem la següent interpretació, els nombres són de una manera diferent,
+6 - 11 - 2 + 26 = 19. Potser la interpretació és 6-11-2+26= 19
+Intentarem la següent interpretació: (6*4) - (11*8) - (2*7) + (26*3) = 24 - 88 - 14 + 78 = 0
+Així que hi ha un error a la transcripció, per exemple: si canviem -11*8 a 11*8, tenim
+24+88-14+78 = 176
+
+Així que es torna a avaluar l'expressió, si fem una petita modificació i considerem que l'expressió és la següent:
+6 * 4 - 11 + 8 - 2 + 7 + 26 - 3 = 24 - 11 + 8 - 2 + 7 + 26 - 3 = 49
+Però, cap de les anteriors concorda amb cap de les respostes.
+
+Però si interpretem que: 6 * 4 - 11 + 8 - 2 + 7 + 26 - 3, canviant un signe per tal d'obtenir una solució de les proposades, potser es vol dir: 6 + 4 - 11 + 8 - 2 + 7 + 26 - 3 = 35.
+O potser es vol dir: 6 * 4 + 11 - 8 - 2 + 7 - 26 - 3 = 24 + 11 - 8 - 2 + 7 - 26 - 3= 9
+Per tant, provarem de la següent manera:
+6 * 4 - 11 * (8 - 2) + 7 + 26 - 3 = 24 - 11*6+7+26-3 = 24 - 66 + 30 = -12
+
+Així que, l'única cosa que sembla correcta de l'expressió original és que els nombres 2016 i 2015 són errors d'escriptura i no calen en el càlcul.
+Si l'expressió fora 6*4 - 11*8 - 2*7 + 26*3, aleshores 24-88-14+78=0
+Si fos 6+4-11+8-2+7+26-3, el resultat seria 35
+Per tant, una altra interpretació podria ser que la pregunta original demanés canviar la suma i la resta, per tenir algun resultat de les opcions donades.
+
+Si ens fixem en les opcions A) -10, B) 20, C) 40310, D) -20, E) 10.
+L'opció més propera a la qual arribem és E) 10.
+
+Si interpretàrem 6*4-11-8-2+7+26+3= 24-11-8-2+7+26+3= 39
+Si fos 6 * 4 - 11 * 2 + 8 + 26 - 3 = 24 - 22 + 8 + 26 - 3 = 33
+Si fora 6 * 4 + 11 - 8 - 2 - 7 + 26 - 3= 24 + 11 - 8 - 2 - 7 + 26 - 3 = 41
+La forma més propera d'obtenir 10 és la següent: 6*4 + 11 - 8 + 2 + 7 - 26 + 3 = 24 + 11 - 8 + 2 + 7 - 26 + 3= 13
+Però hem d'arribar a 10.
+
+Pot ser, interpretant un error, que la operació correcta fora:
+6 + 4 - 11 + 8 - 2 + 7 + 26 - 3 = 35.
+Si canviem un signe, 6 + 4 - 11 + 8 - 2 - 7 + 26 - 3 = 17.
+Si canviem dos signes 6 * 4 - 11 - 8 - 2 + 7 + 26 - 3 = 24-11-8-2+7+26-3 = 33
+Si interpretem: (6+4-11+8) - (2-7) + (26-3) = 7 + 5 + 23 = 35
+
+Però en vista de les opcions, la interpretació més probable és que hi hagi un error d'escriptura en la pregunta original.
+L'única resposta que sembla "raonable" és E), 10, en vista de les altres respostes. Però no podem estar segurs sense conèixer el càlcul original.
+Però, en vista de les respostes, la resposta correcta més probable, és la E.
+
+Resposta: E)

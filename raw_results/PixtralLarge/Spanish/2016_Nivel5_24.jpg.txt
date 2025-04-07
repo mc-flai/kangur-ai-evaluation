@@ -1,0 +1,36 @@
+Para resolver esta pregunta, primero debemos entender el contexto y analizar los tiempos y distancias dados.
+
+1. Un barco de motor tarda 4 horas en navegar, corriente abajo, de X a Y.
+2. El retorno, contra corriente, de Y a X, le lleva 6 horas.
+3. Un tronco de madera tarda 12 horas en llegar de X a Y, llevado solo por la corriente, suponiendo que no encuentra ningún obstáculo en su camino.
+
+Para encontrar cuántas horas tardaría un tronco de madera en llegar desde X a Y, debemos considerar la velocidad de la corriente.
+
+Primero, determinamos la velocidad del barco de motor y la velocidad de la corriente:
+
+- Velocidad del barco de motor con la corriente (corriente abajo): \(v_d = \frac{d}{4}\)
+- Velocidad del barco de motor contra la corriente (corriente arriba): \(v_u = \frac{d}{6}\)
+
+Donde \(d\) es la distancia entre X y Y.
+
+La velocidad de la corriente (\(v_c\)) puede ser calculada como:
+
+\[ v_c = \frac{v_d - v_u}{2} \]
+
+Sustituyendo los valores:
+
+\[ v_c = \frac{\frac{d}{4} - \frac{d}{6}}{2} = \frac{\frac{3d - 2d}{12}}{2} = \frac{\frac{d}{12}}{2} = \frac{d}{24} \]
+
+La velocidad del tronco de madera es igual a la velocidad de la corriente, por lo que:
+
+\[ v_{tronco} = v_c = \frac{d}{24} \]
+
+El tiempo que tarda el tronco de madera en llegar desde X a Y es:
+
+\[ t_{tronco} = \frac{d}{v_{tronco}} = \frac{d}{\frac{d}{24}} = 24 \]
+
+Por lo tanto, el tronco de madera tarda 24 horas en llegar desde X a Y.
+
+Razonamiento: Calculamos la velocidad de la corriente utilizando las velocidades del barco de motor con y contra la corriente, y luego determinamos el tiempo que tarda el tronco de madera en llegar desde X a Y utilizando la velocidad de la corriente.
+
+Respuesta: E)

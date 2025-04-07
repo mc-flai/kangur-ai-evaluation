@@ -1,0 +1,7 @@
+Raonament: Siguin les dues xifres del nombre N representades per a (desenes) i b (unitats), on a i b són digits entre 0 i 9. El nombre N es pot escriure com 10a + b. La suma de les seves xifres és a + b. L'enunciat diu que (10a + b) / (a + b) = 8. Multiplicant amb (a+b) als dos costats, tenim 10a + b = 8(a + b), que simplifica a 10a + b = 8a + 8b. Restant 8a + b als dos costats tenim 2a = 7b, o a = (7/2)b. Com que a ha de ser un enter entre 1 i 9, b també ha de ser un nombre enter parell per a que el resultat de (7/2)b sigui enter.
+Si b=0, llavors a=0. No obstant a ha de ser entre 1 i 9, de manera que b no pot ser 0.
+Si b=2, llavors a = (7/2)(2) = 7. Aleshores el nombre és 72 i la suma de les seves xifres és 7+2=9. I 72/9 = 8.
+Si b=4, llavors a = (7/2)(4) = 14. Això no és vàlid ja que a només pot tenir una xifra.
+Aleshores la xifra de les unitats és 2.
+
+Resposta: B)

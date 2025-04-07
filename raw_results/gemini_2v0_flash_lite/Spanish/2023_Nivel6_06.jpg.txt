@@ -1,0 +1,7 @@
+Razonamiento:
+La ecuación es x + 2y = 2^10.  x e y son enteros positivos.
+Podemos reescribir la ecuación como x = 2^10 - 2y = 2(2^9 - y).  Dado que x debe ser positivo, 2^10 - 2y > 0.  También, puesto que x es positivo y y es positivo, 2^9 - y > 0, lo que implica que y < 2^9.  Como y es un entero positivo, y puede ser 1, 2, 3, ..., 2^9 - 1.
+Ahora, para que x sea entero, 2^9 - y debe ser entero, lo que siempre es el caso puesto que y es entero.
+Luego, debemos contar el número de valores posibles para y.  Dado que y puede ser cualquier valor entero de 1 a 2^9 - 1, hay 2^9 - 1 posibilidades.
+
+Respuesta: A)

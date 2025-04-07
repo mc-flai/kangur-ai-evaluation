@@ -1,0 +1,15 @@
+Raisonnement :
+1. **Comprendre la structure du prisme :** Le prisme a deux triangles et trois carrés. Les carrés partagent les sommets avec les triangles.
+2. **Identifier les sommets donnés:** On nous donne déjà les numéros 1 et 5.
+3. **Définir les équations pour la somme des faces carrées:** Chaque carré a quatre sommets, et la somme de ces sommets doit être la même pour les trois carrés. Soit x le sommet inconnu et les autres sommets sont 1, 5, et les nombres restants.
+4. **Calculer la somme totale:** La somme de tous les nombres de 1 à 6 est 1 + 2 + 3 + 4 + 5 + 6 = 21.
+5. **Déterminer les valeurs possibles pour x:**
+   * On sait que 1 et 5 font partie d'un carré.
+   * Les deux autres sommets sont inconnus et doivent être choisis parmi les valeurs restantes (2, 3, 4, 6) pour obtenir la même somme pour chaque carré.
+   * La somme des deux faces visibles est 1 + 5 = 6. La face opposée doit aussi contenir x avec la somme de 6 + (valeurs restantes)
+   * Si x = 2. La somme est 1+5+2+4 = 12. La somme totale des faces est 12*3 = 36. Mais la somme totale des nombres est 21, donc impossible.
+   * Si x = 3. La somme est 1+5+3+3 = 12. Mais on ne peut pas répéter 3.
+   * Si x = 4. La somme est 1+5+4+2 = 12. Les carrés ont pour sommes 1+5+x+y = 12 et x+2+3+6 =12 et 1+5+x+y. La somme totale des faces carrées est 12*3 = 36. La somme totale des nombres est 21, donc impossible.
+   * Si x = 6. La somme est 1+5+6 = 12. Alors on peut avoir un carré avec 1, 5, 6, x. Pour avoir la même somme pour tous les carrés. Le troisième sommet doit être 2,3,4. La somme est donc 1+5+6+0 = 12, 1+x+5+y=12, alors, 1+5+x+2 = 12, x= 4 et y= 4, donc le 2 et le 4, donc 2,3,4. Donc 1,5, 4, 2 = 12. 3,6,4,2 est possible.
+
+Réponse : C)

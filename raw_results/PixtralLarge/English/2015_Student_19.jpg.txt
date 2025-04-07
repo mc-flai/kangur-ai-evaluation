@@ -1,0 +1,24 @@
+To solve this problem, we need to determine how many different colors the marbles in the pipe have based on the rule that marbles with digits summing to the same number have the same color. 
+
+Let's break down the possible sums:
+- The smallest sum is 1 (for marble 1).
+- The largest sum is 2015 (for marble 2015).
+
+All the sums from 1 to 2015 will be considered.
+
+We identify different sums that can be created by the digits of the numbers. For example:
+- Sum of digits for numbers 1 to 9 range from 1 to 9.
+- Sum of digits for numbers 10 to 19 range from 1 to 19 (e.g., 10 -> 1, 19 -> 10).
+- Sum of digits for numbers 20 to 29 range from 2 to 11 (e.g., 20 -> 2, 29 -> 11).
+- And so on.
+
+To find the different colors, we need to find the different sums that can be created by adding the digits of the numbers from 1 to 2015.
+
+The largest possible sum of digits for any number from 1 to 2015 can be found by considering the maximum digit sum. The maximum digit sum occurs for the number 1999 (since 2000 and above would have sums less than 1999), which is 1+9+9+9 = 28.
+
+Thus, the possible sums of digits range from 1 to 28.
+
+Since each unique sum represents a different color, the number of different colors is equal to the number of different sums.
+
+Reasoning: The sum of the digits of the numbers from 1 to 2015 ranges from 1 to 28, and each unique sum corresponds to a different color.
+Answer: C).

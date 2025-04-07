@@ -1,0 +1,12 @@
+**Reasoning**: A pyramid with triangular faces has edges along the base and edges from each vertex of the base to the apex. For a pyramid with 23 triangular faces, it is a bit unusual because most common pyramids have a base with a regular polygon. However, if we consider a pyramid with a base that is a complex polygon, the number of edges can be calculated as follows:
+
+- Each triangular face shares an edge with two other triangular faces, except for the base edges.
+- If the base has n vertices, then there are n edges around the base.
+- Each vertex on the base connects to the apex, adding n more edges.
+- Therefore, the total number of edges is 2n.
+
+Given that the pyramid has 23 triangular faces, this implies that the base is a complex polygon with 23 vertices (since each triangular face is connected to the apex and two neighboring vertices on the base).
+
+So, the total number of edges is 2 * 23 = 46.
+
+**Answer**: C)

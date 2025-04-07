@@ -1,0 +1,40 @@
+**Raonament**:
+
+Per trobar l'àrea del romboide, necessitem conèixer la longitud dels dos costats i l'altura. Les dades donades són:
+
+- El radi del cercle és \( AO = 3 \) cm.
+- Els angles aguts del romboide són de \( 60^\circ \).
+
+A partir d'aquí, podem seguir aquests passos:
+
+1. **Calcular la longitud dels costats del romboide**:
+   - En un romboide, els costats són iguals.
+   - Els angles aguts són de \( 60^\circ \).
+
+   Però s'ha de tenir en compte que un romboide inscrit en un cercle té les seves diagonals iguals al diàmetre del cercle. El diàmetre del cercle és \( 2 \times 3 = 6 \) cm.
+
+   Les diagonals del romboide tallen el cercle en dos punts, i com que els angles són de \( 60^\circ \), cada triangle format per les diagonals i els costats és un triangle equilàter.
+
+   En un triangle equilàter, el costat és igual a la longitud de la diagonal dividida per \(\sqrt{3}\):
+   \[
+   \text{Costat} = \frac{6}{\sqrt{3}} = 2\sqrt{3} \text{ cm}
+   \]
+   Però el costat del romboide és la meitat de la diagonal, així que:
+   \[
+   \text{Costat} = 3 \text{ cm}
+   \]
+
+2. **Calcular l'altura del romboide**:
+   - L'altura del romboide és la distància perpendicular entre les bases.
+   - En un romboide amb angles de \( 60^\circ \), l'altura es pot calcular com la meitat del costat multiplicat per \(\sin(60^\circ)\):
+   \[
+   \text{Altura} = 3 \times \sin(60^\circ) = 3 \times \frac{\sqrt{3}}{2} = \frac{3\sqrt{3}}{2} \text{ cm}
+   \]
+
+3. **Calcular l'àrea del romboide**:
+   - L'àrea d'un romboide és el producte del costat per l'altura:
+   \[
+   \text{Àrea} = 3 \times \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3}}{2} \text{ cm}^2
+   \]
+
+**Resposta**: D) \(\frac{3\sqrt{3}}{2}\)

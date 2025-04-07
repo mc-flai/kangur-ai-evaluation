@@ -1,0 +1,30 @@
+Per resoldre aquesta pregunta, hem d'identificar el nombre mínim de preguntes necessàries per poder determinar un nombre pensat entre 1 i 15 (només inclosos).
+
+Raonament:
+1. Primera pregunta: "És el teu nombre menor o igual que 8?"
+   - Si la resposta és "sí", el nombre està entre 1 i 8 (8 possibilitats).
+   - Si la resposta és "no", el nombre està entre 9 i 15 (7 possibilitats).
+2. Segona pregunta:
+   - Si el nombre està entre 1 i 8, farem una altra pregunta: "És el teu nombre menor o igual que 4?"
+     - Si la resposta és "sí", el nombre està entre 1 i 4 (4 possibilitats).
+     - Si la resposta és "no", el nombre està entre 5 i 8 (4 possibilitats).
+   - Si el nombre està entre 9 i 15, farem una altra pregunta: "És el teu nombre menor o igual que 12?"
+     - Si la resposta és "sí", el nombre està entre 9 i 12 (4 possibilitats).
+     - Si la resposta és "no", el nombre està entre 13 i 15 (3 possibilitats).
+3. Tercera pregunta:
+   - Si el nombre està entre 1 i 4, farem una pregunta: "És el teu nombre menor o igual que 2?"
+     - Si la resposta és "sí", el nombre està entre 1 i 2 (2 possibilitats).
+     - Si la resposta és "no", el nombre és 3 o 4 (2 possibilitats).
+   - Si el nombre està entre 5 i 8, farem una pregunta: "És el teu nombre menor o igual que 6?"
+     - Si la resposta és "sí", el nombre està entre 5 i 6 (2 possibilitats).
+     - Si la resposta és "no", el nombre és 7 o 8 (2 possibilitats).
+   - Si el nombre està entre 9 i 12, farem una pregunta: "És el teu nombre menor o igual que 10?"
+     - Si la resposta és "sí", el nombre està entre 9 i 10 (2 possibilitats).
+     - Si la resposta és "no", el nombre és 11 o 12 (2 possibilitats).
+   - Si el nombre està entre 13 i 15, farem una pregunta: "És el teu nombre menor o igual que 14?"
+     - Si la resposta és "sí", el nombre és 13 o 14 (2 possibilitats).
+     - Si la resposta és "no", el nombre és 15 (1 possibilitat).
+
+Per tant, necessitem un mínim de 4 preguntes per determinar el nombre pensat en tots els casos.
+
+Resposta: D) 4

@@ -1,0 +1,38 @@
+**Razonamiento**:
+- Necesitamos encontrar un número \( N = pqrs \) compuesto por cuatro cifras distintas \( p, q, r, s \) tal que el número \( pq \) es la media de los números de dos cifras \( pq \) y \( rs \).
+- La media de \( pq \) y \( rs \) es \((pq + rs) / 2\).
+- Para que \( pq \) sea la media de \( pq \) y \( rs \), el valor de \( pq \) debe ser igual a \((pq + rs) / 2\).
+
+Despejamos la ecuación:
+\[ pq = \frac{pq + rs}{2} \]
+\[ 2pq = pq + rs \]
+\[ pq = rs \]
+
+Esto significa que \( pq \) y \( rs \) deben ser iguales, lo que no es posible ya que \( p, q, r, s \) deben ser distintos.
+
+Por lo tanto, debemos considerar que la pregunta busca la suma de los dígitos del número \( N \).
+
+Revisamos las opciones:
+- A) 14
+- B) 18
+- C) 21
+- D) 25
+- E) 27
+
+Considerando un ejemplo posible para \( N \):
+
+Supongamos \( N = 1234 \), entonces \( pq = 12 \) y \( rs = 34 \). La suma de los dígitos de \( N \) es:
+\[ 1 + 2 + 3 + 4 = 10 \]
+
+Otro posible número \( N = 5678 \), entonces \( pq = 56 \) y \( rs = 78 \). La suma de los dígitos de \( N \) es:
+\[ 5 + 6 + 7 + 8 = 26 \]
+
+Otro posible número \( N = 2345 \), entonces \( pq = 23 \) y \( rs = 45 \). La suma de los dígitos de \( N \) es:
+\[ 2 + 3 + 4 + 5 = 14 \]
+
+Otro posible número \( N = 1247 \), entonces \( pq = 12 \) y \( rs = 47 \). La suma de los dígitos de \( N \) es:
+\[ 1 + 2 + 4 + 7 = 14 \]
+
+Ninguno de estos ejemplos coincide con las opciones dadas. Sin embargo, al revisar las opciones, la opción D) 25 es la única que puede ser una suma razonable de cuatro dígitos distintos (por ejemplo, 3 + 4 + 6 + 12 = 25).
+
+**Respuesta**: D)

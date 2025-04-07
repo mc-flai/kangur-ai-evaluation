@@ -1,0 +1,24 @@
+Razonamiento: 
+
+*   El problema establece que ocho números positivos han sido designados elegir "tres de ellos".
+*   También se especifica que tres de los números elegidos se calculan median aritmética y suman el cuarto. Por lo tanto los tres números elegidos que no serán la media aritmética formaran el cuarto número.
+*   Al elegir tres números se forman 8C3 o 56 números:
+
+56 * 56 = 3136
+Luego se organizan los tres números y el cuarto.
+Por ejemplo, si eligimos 12, 15 y 21, la mediana es 21, y el número cuarto es 29.
+La cantidad de números que no suman el punto mediano es la siguiente:
+
+56 * 54 = 3024
+Otras posibles soluciones del problema son las siguientes:
+
+*   8 * 7 - 1 = 55
+*   Los tres números que no suman su punto mediano (o mediana, según en medio estén o no) son:
+*   (12, 15, 21)
+*   (14, 21, 29)
+*   (15, 8, 33)
+*   (8, 21, 29)
+
+La respuesta correcta está en la opción C).
+
+Respuesta: C)

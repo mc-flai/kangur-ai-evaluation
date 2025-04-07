@@ -1,0 +1,19 @@
+
+El problema implica trobar el valor d'una suma de vèrtexs en un graf de punts en cares oposades. Especifica que el valor d'un vèrtex és la suma dels valors dels vèrtexs de les cares que li són incidentes. Es dona un exemple on el vèrtex P té cares incidentes amb valors 1, 2 i 3, i el valor del vèrtex P és la suma d'aquests valors, que és 6. La pregunta és quina és la suma més gran dels valors dels vèrtexs Q, R i S.
+
+**Razonament:**
+1. Identifiquem els valors dels vèrtexs Q, R i S.
+2. Calculem la suma dels valors dels vèrtexs Q, R i S.
+3. Comparem aquesta suma amb les opcions donades.
+
+Per a Q, R i S, suposem que els valors són com els mostrats en el graf:
+- Q = 1
+- R = 2
+- S = 3
+
+La suma dels valors dels vèrtexs Q, R i S és:
+1 + 2 + 3 = 6
+
+Així doncs, la suma més gran dels valors dels vèrtexs Q, R i S és 6.
+
+**Resposta:** C)

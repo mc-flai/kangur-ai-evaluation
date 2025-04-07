@@ -1,0 +1,37 @@
+Reasoning:
+We know Maria colored 5 cells. One friend guessed correctly, and the other four guessed exactly four cells correctly. This means the correct pattern must have the maximum number of four-cell overlaps with the other four patterns. Let's examine each pattern:
+*   **If Maria painted (A):**
+    *   Overlap with (B): 4 cells
+    *   Overlap with (C): 3 cells
+    *   Overlap with (D): 3 cells
+    *   Overlap with (E): 3 cells. This could be the correct answer as all others would be 4 cells correct.
+*   **If Maria painted (B):**
+    *   Overlap with (A): 4 cells
+    *   Overlap with (C): 3 cells
+    *   Overlap with (D): 3 cells
+    *   Overlap with (E): 3 cells. This could be the correct answer as all others would be 4 cells correct.
+*   **If Maria painted (C):**
+    *   Overlap with (A): 3 cells
+    *   Overlap with (B): 3 cells
+    *   Overlap with (D): 4 cells
+    *   Overlap with (E): 4 cells. The other patterns do not only have a four-cell overlap with it.
+*   **If Maria painted (D):**
+    *   Overlap with (A): 3 cells
+    *   Overlap with (B): 3 cells
+    *   Overlap with (C): 4 cells
+    *   Overlap with (E): 4 cells. The other patterns do not only have a four-cell overlap with it.
+*   **If Maria painted (E):**
+    *   Overlap with (A): 3 cells
+    *   Overlap with (B): 3 cells
+    *   Overlap with (C): 4 cells
+    *   Overlap with (D): 4 cells. The other patterns do not only have a four-cell overlap with it.
+*   Thus only (A) or (B) can be correct. Let us examine the case of (A). (B) has a four-cell overlap. Now we just have to check what patterns each other one shares.
+    *   (A) shares 3 cells with (C)
+    *   (A) shares 3 cells with (D)
+    *   (A) shares 3 cells with (E)
+*   (B) shares 3 cells with (C)
+    *   (B) shares 3 cells with (D)
+    *   (B) shares 3 cells with (E)
+*   **Therefore, the answer must be A or B.** It is impossible to tell which one is correct because the question does not give us more information about the friend's guess. I choose pattern A because it is the first one on the list.
+
+Answer: A)

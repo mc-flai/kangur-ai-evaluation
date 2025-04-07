@@ -1,0 +1,27 @@
+**Pregunta**: Quantos números de tres cifres, \( \overline{abc} \) (amb \( a \neq 0 \)), hay en los que la suma de los cuadrados \( a + 3b + c \) es múltiplo de 3?
+
+**Opcions**:
+A) 100
+B) 300
+C) 330
+D) 600
+E) 990
+
+**Racionalització**:
+1. **Identificar los números de tres cifras**: Los números de tres cifras van desde 100 a 999. Por lo tanto, hay 900 números de tres cifras (999 - 100 + 1).
+
+2. **Condición del problema**: Necesitamos encontrar cuántos de estos números cumplen que la suma \( a + 3b + c \) es múltiplo de 3.
+
+3. **Descomposición de \( a + 3b + c \)**:
+   - \( a + 3b + c \) puede ser visto como \( a + b + b + b + c \).
+   - Esto es equivalente a \( a + b + 2b + c \), que es \( a + b + 2b + c \).
+
+4. **Propiedad de los múltiplos de 3**:
+   - Un número es múltiplo de 3 si la suma de sus dígitos es múltiplo de 3.
+   - Aquí, la suma de los dígitos se modifica por un factor de 3 en \( b \), lo que no cambia la propiedad de ser múltiplo de 3.
+
+5. **Cálculo de los números**:
+   - Para cada número de tres cifras, la suma de sus dígitos \( a + b + c \) debe ser múltiplo de 3.
+   - Hay 300 números de tres cifras donde la suma de los dígitos es múltiplo de 3 (esto se puede verificar considerando cada dígito de 0 a 9 y sus combinaciones).
+
+**Resposta**: C) 330

@@ -1,0 +1,9 @@
+**Reasoning**: To solve this problem, we need to determine the minimum possible length of Tanti's walk. Tanti starts at a vertex of a cube with side length 1 and needs to walk along each edge of the cube at least once before returning to the starting point.
+
+A cube has 12 edges. Since Tanti must walk along each edge at least once, she must cover all 12 edges. However, since she starts and ends at the same vertex, we need to consider a Eulerian path, which requires each vertex to have an even degree (which each vertex in a cube does, as each vertex is connected to three edges).
+
+To find the minimum possible length, we can visualize the shortest path that covers all edges at least once. This means she will traverse some edges twice, but we need to minimize this overlap. Walking along each edge once would cover 12 units, but to return to the starting point, she must traverse additional edges. The minimum additional edges required to return to the starting point is 4 (as she needs to traverse 4 edges to get back to the start if she started at a corner and traversed the cube systematically).
+
+Thus, the minimum possible length of her walk is 12 (covering all edges once) + 4 (returning to the starting point) = 16.
+
+**Answer**: D)

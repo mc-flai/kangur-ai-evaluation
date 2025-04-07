@@ -1,0 +1,11 @@
+Raonament:
+1. **Identificació de les formes:** L'àrea ombrejada està formada per quatre semicercles i un cercle intern blanc. Tots tenen radi de 1 cm.
+2. **Àrea dels semicercles:** L'àrea de cada semicercle és (1/2) * pi * r^2 = (1/2) * pi * 1^2 = pi/2. Hi ha quatre semicercles, donant un total de 4 * (pi/2) = 2 * pi.
+3. **Àrea del cercle intern:** L'àrea del cercle intern és pi * r^2 = pi * 1^2 = pi.
+4. **Àrea del quadrat:** El quadrat que conté la figura té costat 2 + 2 = 4. L'area del quadrat és 4 * 4 = 16
+5. **Àrea de la regió ombrejada:** L'àrea de les quatre cantonades ombrejades del quadrat format per 4 petits semicercles es pot calcular restan l'àrea dels cercles a l'àrea del quadrat. Per tant, necessitem el valor de l'àrea del cercle i l'àrea de les cantonades, la qual cosa requereix l'àrea d'un quadrat amb un cercle circumscrit. L'àrea del quadrat seria (2*1 + 2*1)^2 = 4 * 4 = 16, però la resta de l'àrea és la part ombrejada i, pel que fa a l'àrea que es solapa entre les quatre cantonades, és l'àrea dels quatre semicercles que es poden agrupar per formar dos cercles, a més del cercle central blanc. Això vol dir que hem de calcular l'àrea de dos cercles més el cercle blanc.
+L'àrea de la part ombrejada = 2 * pi (semicercles) + (4 - pi) * 2 (cantonades)
+No obstant això, no podem calcular la regió ombrejada a partir de la resta de la part blanca. La regió ombrejada està formada per quatre quarts de cercle i, a més, un cercle. D'aquesta manera, a partir dels semicercles tenim 2pi, al que hem de sumar l'àrea que queda al centre, és a dir, l'àrea del quadrat menys l'àrea del cercle. Així, l'àrea seria 2pi + (4 - pi). L'àrea del quadrat seria 4.
+En definitiva, l'àrea ombrejada és 2pi + 4.
+
+Resposta: B)

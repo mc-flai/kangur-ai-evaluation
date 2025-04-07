@@ -1,0 +1,23 @@
+Para determinar cuántas torres diferentes puede construir Ana, necesitamos considerar todas las posibles combinaciones de tres discos que Ana puede usar para construir una torre. Aquí están los pasos:
+
+1. **Identificar los discos**: Ana tiene cinco discos de tamaños diferentes. Vamos a llamar a estos discos D1, D2, D3, D4 y D5, donde D1 es el disco más pequeño y D5 es el disco más grande.
+
+2. **Seleccionar tres discos**: Ana necesita seleccionar tres discos para construir una torre. El orden en que los discos se colocan en la torre es importante, ya que cada disco debe ser más pequeño que el disco debajo de él.
+
+3. **Combinaciones posibles**: Necesitamos encontrar todas las combinaciones posibles de tres discos que Ana puede usar. Las combinaciones posibles son:
+   - (D1, D2, D3)
+   - (D1, D2, D4)
+   - (D1, D2, D5)
+   - (D1, D3, D4)
+   - (D1, D3, D5)
+   - (D1, D4, D5)
+   - (D2, D3, D4)
+   - (D2, D3, D5)
+   - (D2, D4, D5)
+   - (D3, D4, D5)
+
+4. **Contar las combinaciones**: Hay 10 combinaciones posibles de tres discos que Ana puede usar para construir una torre.
+
+Razonamiento: Al considerar todas las combinaciones posibles de tres discos de tamaños diferentes, encontramos que hay 10 combinaciones diferentes.
+
+Respuesta: D) 10

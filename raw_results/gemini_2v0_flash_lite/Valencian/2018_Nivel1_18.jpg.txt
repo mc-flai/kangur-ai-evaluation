@@ -1,0 +1,49 @@
+Raonament:
+1. Calculem la suma original: 222 + 333 + 444 + 555 = 1554.
+2. Hem de canviar dígits per 0 per tal que la suma sigui 987. Veiem la diferència: 1554 - 987 = 567.
+3.  Primer, mirem les centenes: 200 + 300 + 400 + 000 = 900. Necessitem canviar el 5 a 0 en 555, que és 1 canvi.
+4.  Ara mirem les desenes: 20 + 30 + 40 + 50 = 140. Necessitem 80. A canviar el 5 a 0, tenim un 1 canvi.
+5.  Finalment, mirem les unitats: 2 + 3 + 4 + 5 = 14. Necessitem 7. Necessitem 7 canvis.
+6. Canviant el 5 de 555 per un 0, canviem 1 digit. 222 + 333 + 444 + 000 = 999. Hem d'aconseguir 987.
+7. Necessitem restar 12.
+8. 222 -> 200 + 22. 200 -> 200. 22 -> 00 - 22. Canviar 1 dígits. 222 -> 200.
+9. 333 -> 300 + 33. Canviar 1 dígits. 333 -> 300 + 33.
+10. 444 -> 400 + 44. Canviar 1 dígits. 444 -> 400 + 44
+11. 555 -> 500 + 55. Canviar 1 dígits. 555 -> 000.
+12. 200 + 300 + 400 + 000 = 900.
+13. 222 + 333 + 444 + 555 = 1554. 1554 - 987 = 567.
+14. 200 + 300 + 400 + x = 987
+15. Podem canviar el 5 a 0 en el 555 -> 1 digit. 222+333+444+000=999. Necessitem restar 12. Canviant un 4 a 3, 222+333+434=989. Canviant dos 2 a 0, tenim 987. Són 3 dígits.
+16. 555 -> 000, canvi 1. 222 -> 200, canvi 1. 333 -> 300, canvi 1. 444 -> 434.
+17. 200 + 300 + 434 + 000 = 934. Necessitem 53 per canviar.
+
+18. 222 -> 200 -> 1 canvi
+    333 -> 300 -> 1 canvi
+    444 -> 400 -> 1 canvi
+    555 -> 000 -> 3 canvis
+    200 + 300 + 400 = 900, necessitem 87.
+    222 -> 202. 1 digit.
+    200 + 300 + 400 + 555 = 1455
+    Canvi 5 a 0 en 555 -> 1 digit. 222 + 333 + 444 = 999, no podem arribar a 987
+    Podem canviar els 5 a 0, obtenim 900, ens falten 87. Canvi 1 digit.
+    Tenim 1554, per arribar a 987, necessitem canviar 567.
+    Per canviar a 0:
+    222 -> 200. 1
+    333 -> 300. 1
+    444 -> 400. 1
+    555 -> 000. 1
+    222, canviar 2 per 0, 2 dígits. 300, 400, 000. 2 canvis, 3 canvis.
+    900. Faltar 87.  Necessitem 3 canvis:
+    200 + 300 + 400 + 000 = 900.
+
+    222 + 333 + 444 + 555 = 1554
+    Necessitem 987.
+    200 + 300 + 400 = 900, falta 87. Canvi 1 digit.
+    222 + 333 + 444 = 999. Canviar 5 per 0. 1 canvi.
+    999 - 12.
+    222 - 202 = 20, canviar 1
+    333 - 303 = 30, canviar 1.
+    444 - 404 = 40, canviar 1.
+    Necessitem 3 canvis
+
+Resposta: C)

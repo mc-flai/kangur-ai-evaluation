@@ -1,0 +1,16 @@
+Raonament:
+1. **Càlcul de diputats per partit:** Calculem el nombre de diputats per a cada percentatge:
+    *   10% de 300 = 30 diputats
+    *   20% de 300 = 60 diputats
+    *   25% de 300 = 75 diputats
+    *   45% de 300 = 135 diputats
+
+2.  **Nombre mínim de dones:** Com les llistes són dona-home-dona-home... o home-dona-home-dona..., hem de considerar el cas pitjor per minimitzar el nombre de dones. En tots els casos, almenys la meitat (arrodonint cap avall en cas de nombres senars) seran dones.
+    *   Partit 1 (30 diputats): mínim 15 dones
+    *   Partit 2 (60 diputats): mínim 30 dones
+    *   Partit 3 (75 diputats): mínim 37 dones
+    *   Partit 4 (135 diputats): mínim 67 dones
+
+3.  **Suma total:** Sumem el nombre mínim de dones de cada partit: 15 + 30 + 37 + 67 = 149
+
+Resposta: C)

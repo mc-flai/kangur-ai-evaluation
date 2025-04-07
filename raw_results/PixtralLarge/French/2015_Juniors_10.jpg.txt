@@ -1,0 +1,31 @@
+Pour résoudre ce problème, nous devons identifier la plus grande différence possible entre les nombres formés par les digits donnés.
+
+**Raisonnement** :
+
+1. Les quatre chiffres non nuls W, X, Y, Z sont en ordre croissant.
+2. Pour obtenir la plus grande différence possible, nous devons maximiser un des nombres et minimiser l'autre.
+3. Pour maximiser un nombre à deux chiffres, nous devons utiliser les plus grands chiffres disponibles.
+4. Pour minimiser un nombre à deux chiffres, nous devons utiliser les plus petits chiffres disponibles.
+
+Puisque les chiffres sont en ordre croissant, nous avons :
+- Le plus petit chiffre est W.
+- Le deuxième plus petit chiffre est X.
+- Le deuxième plus grand chiffre est Y.
+- Le plus grand chiffre est Z.
+
+Maintenant, nous devons former les nombres en utilisant ces observations :
+- Le nombre <XZ> sera formé avec le deuxième plus petit chiffre et le plus grand chiffre.
+- Le nombre <WY> sera formé avec le plus petit chiffre et le deuxième plus grand chiffre.
+
+La différence entre <XZ> et <WY> sera : 
+<XZ> - <WY> = (10X + Z) - (10W + Y) = 10X + Z - 10W - Y
+
+Pour maximiser cette différence, X et Z doivent être les plus grands chiffres possibles, tandis que W et Y doivent être les plus petits chiffres possibles.
+
+Puisque les chiffres sont en ordre croissant, la plus grande différence possible se produit lorsque :
+- X est juste avant Z (le deuxième plus grand chiffre)
+- W est juste avant Y (le deuxième plus petit chiffre)
+
+Parmi les options données, la différence la plus grande est 86, ce qui correspond à l'option E).
+
+**Réponse** : E)

@@ -1,0 +1,11 @@
+Reasoning:
+Let the three radii be $r_1, r_2, r_3$ with $r_1 < r_2 < r_3$. We are given that $r_1 = 1$. Also, we know that the areas of the three grey regions are equal. Since the angle is 90 degrees, the grey areas are one quarter of the area of the annuli and the circle. So, we have:
+
+$\frac{1}{4} \pi r_1^2 = \frac{1}{4} \pi (r_2^2 - r_1^2) = \frac{1}{4} \pi (r_3^2 - r_2^2)$
+$r_1^2 = r_2^2 - r_1^2 = r_3^2 - r_2^2$.
+Since $r_1 = 1$, we have $1 = r_2^2 - 1 = r_3^2 - r_2^2$.
+Then $r_2^2 = 2$, so $r_2 = \sqrt{2}$.
+Also, $1 = r_3^2 - r_2^2$, so $1 = r_3^2 - 2$, which gives $r_3^2 = 3$, so $r_3 = \sqrt{3}$.
+We want the product of the three radii, which is $r_1 r_2 r_3 = 1 \cdot \sqrt{2} \cdot \sqrt{3} = \sqrt{6}$.
+
+Answer: A)

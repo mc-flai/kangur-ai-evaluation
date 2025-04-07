@@ -1,0 +1,25 @@
+Raonament: L'hotel allotjava 500 persones abans de la reconstrucció. Després de la reconstrucció, l'hotel allotja 300 persones en habitacions dobles, que equivalen a 150 habitacions (300/2 = 150). Abans de la reconstrucció, les habitacions eren triples o quàdruples. La diferència entre 500 persones i 300 persones és de 200. La pregunta fa referència només a les habitacions quàdruples, per la qual cosa hem de trobar el nombre d'habitacions quàdruples.
+Si totes les habitacions fossin triples, la capacitat total seria divisible per 3. Si totes fossin quàdruples, la capacitat total seria divisible per 4. Si totes les habitacions fossin triples, hi hauria 500/3 = 166.66 habitacions, que no és possible.
+
+Després de la reconstrucció, hi ha 150 habitacions dobles, que vol dir que han passat de ser triples i quàdruples a dobles, i han perdut capacitat. Per deduir les habitacions quàdruples, analitzem les opcions:
+
+*   Si hi hagués 25 habitacions quàdruples, hi cabrien 25 \* 4 = 100 persones. Les 400 restants cabrien en 133,3 habitacions triples.
+*   Si hi hagués 50 habitacions quàdruples, hi cabrien 50 \* 4 = 200 persones. Les 300 restants cabrien en 100 habitacions triples.
+*   Si hi hagués 75 habitacions quàdruples, hi cabrien 75 \* 4 = 300 persones. Les 200 restants cabrien en 66.66 habitacions triples.
+*   Si hi hagués 100 habitacions quàdruples, hi cabrien 100 \* 4 = 400 persones. Les 100 restants cabrien en 33,3 habitacions triples.
+*   Si hi hagués 250 habitacions quàdruples, hi cabrien 250 \* 4 = 1000 persones.
+
+En aquest cas, sembla que cap de les opcions seria coherent amb la informació donada.
+
+Si intentem trobar una solució matemàtica directa al problema, podem definir les variables:
+
+*   x = nombre d'habitacions triples
+*   y = nombre d'habitacions quàdruples
+
+Sabem que:
+3x + 4y = 500
+Després de la reforma, tenim 150 habitacions dobles, el que significa que 3x + 4y s'ha convertit en 2 \* 150 = 300
+
+Les possibles respostes donades no encaixen amb la informació donada, el problema conté un error o hi falta informació.
+
+Resposta: D)

@@ -1,0 +1,16 @@
+Reasoning: Let $b$ be the number of boys last year and $g$ be the number of girls last year.  This year, the number of boys is $1.2b$ and the number of girls is $0.8g$. The total number of students this year is $1.2b + 0.8g$. The total number of students last year was $b+g$. We know that the current number of students is one more than the previous year, so $1.2b + 0.8g = b+g+1$. Simplifying the equation: $0.2b - 0.2g = 1$, or $0.2(b-g) = 1$, which gives $b-g = 5$.
+We also know that $b$ and $g$ must be integers, and $b > g$ since $b-g=5$. We test the options for the current total number of students $1.2b + 0.8g$.  Also, $b+g+1 = 1.2b + 0.8g$.
+A) 22 = $b+g+1$, so $b+g=21$. Since $b-g=5$, adding the two equations $2b=26$ and $b=13$.  Then $g=8$. $1.2b+0.8g = 1.2(13)+0.8(8) = 15.6+6.4 = 22$.  So, this can be the current number of students.
+B) 26 = $b+g+1$, so $b+g=25$. Since $b-g=5$, $2b=30$ and $b=15$.  Then $g=10$.  $1.2b+0.8g = 1.2(15) + 0.8(10) = 18+8=26$.
+C) 29 = $b+g+1$, so $b+g=28$. Since $b-g=5$, $2b=33$, but this is not an integer, therefore not a correct answer.
+D) 31 = $b+g+1$, so $b+g=30$. Since $b-g=5$, $2b=35$, but this is not an integer.
+E) 34 = $b+g+1$, so $b+g=33$. Since $b-g=5$, $2b=38$, and $b=19$. Then $g=14$. Then $1.2(19) + 0.8(14) = 22.8+11.2 = 34$.
+All of the answers appear to work. However, from $1.2b+0.8g = b+g+1$, multiply by 5:
+$6b+4g = 5b+5g+5$, so $b-g = 5$. So $b=g+5$. Now let's test the answer options:
+
+(A) 22 = $b+g+1$ so $b+g=21$. Since $b-g=5$, $2b = 26$, $b=13$, $g=8$. Current count is $1.2(13) + 0.8(8) = 15.6+6.4 = 22$. Works.
+(B) 26 = $b+g+1$ so $b+g=25$. Since $b-g=5$, $2b = 30$, $b=15$, $g=10$. Current count is $1.2(15) + 0.8(10) = 18+8 = 26$. Works.
+(E) 34 = $b+g+1$ so $b+g=33$. Since $b-g=5$, $2b = 38$, $b=19$, $g=14$. Current count is $1.2(19) + 0.8(14) = 22.8+11.2 = 34$. Works.
+Notice that if the total number of students is $n$, then the previous year has $n-1$ students.  Then $b+g=n-1$, $b-g = 5$. Therefore $b=\frac{n+4}{2}$ and $g=\frac{n-6}{2}$. We must also satisfy $b>0$ and $g>0$. Also, we have to have integer values. Then $n$ must be even.  Therefore, all the answer choices work. Since we are only asked for *one* of the numbers that *could* be the current number, it is likely the intent is for only one.
+Since $n-1$ must be divisible by 2, and $b$ and $g$ must be whole numbers, the equation is $1.2b + 0.8g = n$, or $1.2(\frac{n+4}{2})+0.8(\frac{n-6}{2}) = n$, simplifying to $0.6n+2.4+0.4n-2.4=n$, which is always true for an integer. This can be solved by $n$ must be an integer. $b-g=5$. So $b = g+5$. Previous year: $2b = 2g+10$. Thus, previous year: $b+g$. $1.2b + 0.8g = b+g+1$. Substitute b: $1.2(g+5)+0.8g = (g+5)+g+1$, which gives $1.2g+6+0.8g=2g+6$. $2g+6=2g+6$.
+Answer: A)

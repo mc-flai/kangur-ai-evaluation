@@ -1,0 +1,15 @@
+To determine the biggest number Diana can obtain as the sum of all numbers in the white squares, we need to consider the configuration of the rectangle and the placement of the black squares.
+
+**Reasoning**:
+1. The total number of squares in the rectangle is 2018.
+2. The sum of the numbers in the white squares will be maximized when the number of black squares is minimized because black squares contribute "0" to the sum.
+3. Given the rectangle is made up of squares arranged in a grid, we need to maximize the number of white squares, which means most of the squares should be white. 
+4. The configuration shown in the image indicates that the sum of adjacent black squares in white squares can be as low as 0 if they are positioned at the periphery.
+5. If the black squares are placed such that they do not share any sides with white squares (or share minimally), the numbers written in white squares will be at their maximum possible values.
+6. Each white square that does not border a black square will simply have the number "2" written in it (as each has 2 adjacent white squares).
+7. The maximum number of black squares that can be placed without affecting the sum in white squares is when they are placed at the edges or corners of the rectangle.
+8. Hence, if the black squares are minimized and placed optimally, nearly all squares can be white, maximizing the sum.
+9. Given the total number of squares is 2018, if we assume most of them are white and each has a "2" in it, the sum of the numbers in white squares will be close to 2 * 2018.
+10. However, considering the layout and minimal impact of black squares, the highest realistic sum that can be achieved is 3025.
+
+**Answer**: D).

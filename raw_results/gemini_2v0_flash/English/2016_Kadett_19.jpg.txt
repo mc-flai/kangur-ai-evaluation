@@ -1,0 +1,41 @@
+Reasoning:
+Each die has 6 faces. The total number of faces for 7 dice is 7 * 6 = 42 faces.
+The central die is glued to 6 other dice, so 6 faces are hidden. The other 6 dice each have 1 face glued to the central die, so 6 faces are hidden. The total number of hidden faces is 6 + 6 = 12 faces.
+The number of faces that can be seen is 42 - 12 = 30 faces.
+The sum of numbers on each die is 1+2+3+4+5+6 = 21. The average number is 21/6 = 3.5.
+The sum of points on 7 dice is 7*21=147.
+Because each glued face has the same number of points, the total number of obscured points is the sum of each glued face pair. There are 6 glued face pairs. The total number of seen points is 147 minus the number of hidden points.
+The central cube has all 6 faces glued to other cubes. The 6 adjacent cubes each have 1 face glued to the central cube.
+
+Let's analyze the shape. The central cube has 6 faces glued to other cubes. Each other cube has 1 face glued to the central cube.
+Each die has faces summing to 21. 7 dice have faces summing to 7*21=147.
+The number of glued faces is 6. So we need to subtract the hidden faces. Let those hidden values be v1, v2, v3, v4, v5, v6.  Then we subtract v1+v2+v3+v4+v5+v6 where each v_i is the value of the corresponding faces.
+So the answer = 147 - (v1+v2+v3+v4+v5+v6).
+
+We have 7 dice, each with a total of 21 points (1+2+3+4+5+6).  Thus the dice collectively have 7 * 21 = 147 points.
+Each glued face is glued to another face with the same number of points.
+The center die has 6 faces glued to other dice. The other 6 dice have 1 face each glued to the center die.
+We need to subtract the points from the glued faces. The central die has 6 glued faces. Each surrounding die has 1 glued face.  So there are 6 pairs of glued faces. The total number of points we lose is the sum of those 6 faces on the central cube since the point values on the other glued sides must be equal.
+From the options, 147 - x must equal a value in the provided answers. 147 - 126=21, 147-105 = 42, 147-95=52, 147-90=57, 147-24 = 123.
+
+Another approach: Start by assuming that the visible sum of the center cube will be small (assume visible is 0). In such a case, all other cubes will have faces visible.
+
+If we assume that glued numbers are the least possible, say 1, then we lose 6 pairs of 1's, so we lose 12.  If it's say a total of 6 for each hidden value, then 6 pairs of those. Then there would be 7 * 21 - 6*6=147 -36=111, that is also an impossibility
+
+For the center cube, each of the 6 faces are hidden by other cubes, so 21-center cube should equal something...
+
+Each cube has six faces, 1 to 6. We have seven cubes so 7*6*3.5 = 7*21 = 147. Each pair of glued sides have the same number. So, we need to find the points on the faces not visible and subtract them from the total. There are six hidden pairs.
+
+From the answer choices, only 105 matches 7 * 15 where 15=21-6. And if you subtract 6 from the center, then we are close.
+
+Consider the case where faces glued are 1s. Sum of all faces is 147. 147 - 6x where each side shows a one = 147 - 6 = not an answer. Each number can be removed as a pairing from the middle. Each center number is always a matching pairing.
+
+Consider (D) 105. Then 147-105 = 42 = 6*7
+If the hidden values were to be all sevens, since that is impossible
+
+Reasoning:
+There are 7 identical dice, with the faces numbered 1 through 6. The sum of the numbers on all faces is 1+2+3+4+5+6=21. The sum of the numbers on all the faces of the 7 dice is 7*21=147.  We must subtract from this total the points on the hidden faces. There are six hidden face pairings. In the configuration given, the center cube has 6 faces glued together. Therefore there is 6 pairs that are glued togeher, therefore 6 values must be subtracted. It is important to find that all sides, if we add the value of all glued sides from 7 different dices is 42 (7*6 = 42), so, our main equation needs to have the result close to (5-7)*(Total sides of dice). Let`s Try, The formula will be
+x/7 = Total Sides on each dice - (Sides that needs to be visible/dices = Total sides on visible of Each Dice
+From the configuration, we can deduct that there must be "cross" formation. So for an accurate approximation, let's create something, which does not remove so much values from this dices. And since Dice (126), can be generated as value of all sides visible (Each Dice on each side should provide 21), then sides from each should be between(5-6). We can eliminate A B and C because those values, can be deducted with less then 5 visible sides. (Therefore too much faces hidden.
+
+Answer: D)

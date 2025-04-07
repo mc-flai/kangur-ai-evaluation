@@ -1,0 +1,37 @@
+Raonament:
+L'equació resultant és: BEB + ACE + EDE + ABCB = BDBD.
+Estem buscant el valor de C per fer que el resultat, BDBD, sigui el més petit possible. Per tant, necessitem fer B el més petit possible.
+Com que B apareix en la primera columna (BEB), A ha de ser 1 o 2.
+Si mirem la columna de les unitats: B + E + E + B = D. Això vol dir que 2B + 2E = D o 2B + 2E = 10+D.
+Mirem la columna de les centenes: B + A + E + C = D.
+Com que BDBD és el resultat, la columna de les desenes és E + C + D = D, per tant E+C = 0 o E+C = 10. Si E+C = 0, llavors E=0 i C=0 però com que les lletres diferents representen nombres diferents, E i C no poden ser tots dos 0. Per tant, E+C = 10.
+Necessitem que el valor de C sigui el més petit possible, així que volem el valor més gran possible de E.
+El valor resultant BDBD ha de ser el més petit possible, per tant hem de minimitzar B i D.
+Suposem que A = 1, i B = 2. Així, volem minimitzar D.
+Com que 2B + 2E = D o 2B + 2E = 10+D, tenim 4+2E = D o 4+2E = 10+D.
+Si E+C = 10, llavors C = 10-E.
+Com que E és el més gran possible, com a màxim pot ser 9. Si E=9, C = 10-9 = 1. Però A ja és 1. Si E=8, llavors C=2, però B ja és 2. Si E=7, llavors C=3.
+Si B=2 i E=7, llavors 4+14=18, així D=8.
+L'equació de les centenes seria 2+1+7+3 = 13, el que significa que D=3, així que hem de tenir en compte la carryover. Així que 2+1+7+C = 10+D.
+La columna de les desenes: 7 + C = 10, de manera que C = 3.
+Quan mirem la columna de les unitats: 2+E+E+2 = D, així 4+2E = D o 4+2E = 10+D. Com que ja hem establert E=7, D=8.
+Si B=2, A=1, C=3, E=7 i D=8, tenim
+272+137+787+1232 = 2428. BDBD = 2828. Per tant, BDBD no és correcte.
+
+Si E=9, C=1, A=1, que no pot passar.
+Considerant E+C=10, el valor de C per fer que BDBD sigui el més petit possible.
+E = 6, C = 4, D = 7
+La columna de les unitats:
+Si B+6+6+B = D o B+6+6+B = 10+D.
+2B + 12 = D o 2B+12 = 10+D.
+B = 1, D = 4. Si B=1, A=2, C=9.
+1E1
+A1E
+EDE
++A1C1
+Si volem minimitzar BDBD, necessitem minimitzar B.
+
+La resposta és 3.
+Raonament:
+La respuesta debe ser C=3
+Resposta: C)

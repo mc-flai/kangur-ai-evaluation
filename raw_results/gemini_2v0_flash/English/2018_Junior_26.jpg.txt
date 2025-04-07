@@ -1,0 +1,16 @@
+Reasoning:
+To maximize the sum of the numbers in the white squares, we need to maximize the number of adjacent black squares for each white square. This can be achieved by arranging the black and white squares in a checkerboard pattern as much as possible. The numbers in white squares can be at most 4 (if they are adjacent to 4 black squares).
+Suppose we have the rectangle to be $2 \times 1009$. We color the rectangle such that the first row is black, white, black, white, ..., black, white, and the second row is white, black, white, black, ..., white, black. Then each white square will have 4 black squares around it, and the corner ones will have 3 and the ones on the sides will have 3 (for the corners) and 2/3 (for the ones not on the corners), so we would have as many 4 as possible.
+
+If we have roughly equal number of white and black squares, then we have approximately 1009 white squares. Each of these white squares can have a maximum of 4 adjacent black squares. So the maximum sum would be close to 4036. However, we can only have a maximum of 3 adjacent squares in the corners, so it will be closer to 3000.
+Let $w$ be the number of white squares. Let $b$ be the number of black squares. Then $w + b = 2018$. We want to maximize the sum of the adjacent black squares to each white square. The maximum possible adjacent squares is 4, and the total sum of the adjacent black squares is maximized when the squares are arranged in a checkerboard pattern.
+If we want to maximize the value, we want the area to be as "square-like" as possible, because a longer rectangle will have more squares on the perimeter, and thus we can't have an adjacent black square.
+Since $2018 = 2 \times 1009$, if we make the rectangle a $2 \times 1009$, each white square will have 3 or 4 neighboring squares. Thus, we would need half white and half black.
+$2018 = 44 \times 45 + 38$. $44^2 = 1936$, and $45^2 = 2025$. We could try to construct the rectangle with $44 \times 46$. In that case, we get $2024$. Thus, either $1 \times 2018$, $2 \times 1009$, $43 \times 47$, $44 \times 46$, $44 \times 45 + 38$.
+Let's consider the rectangle to be $1 \times 2018$. Alternating the colors, we get roughly 1009 white squares. Each of them will have maximum 2 adjacent black squares. Thus, we get close to 2018. This looks like the right one.
+
+Consider $2 \times 1009$. We have approximately the same number of white squares and black squares, so $\approx 1009$. Consider a checkerboard. Then the inside numbers will be mostly 4, but edges are less. Consider 3027. $\frac{3027}{1009} \approx 3$, so we have roughly 3 black squares around the white squares on average.
+
+Reasoning for selecting E):
+
+Final Answer: E)

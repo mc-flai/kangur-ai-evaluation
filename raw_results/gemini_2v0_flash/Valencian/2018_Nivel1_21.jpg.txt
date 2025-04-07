@@ -1,0 +1,4 @@
+Raonament:
+La pregunta ens demana quants segments hem d'eliminar de la figura perquè encara puguem anar d'un punt a un altre, però ja no puguem fer un recorregut tancat sense repetir un segment. Per tant, hem de convertir el graf actual en un graf sense cicles. L'estructura de la figura consisteix en quatre triangles (tres petits i un gran) compartint costats. Cada triangle representa un cicle. Per eliminar tots els cicles, necessitem esborrar segments fins que no hi hagi cap cicle. Visualitzant el graf, podem veure que hem d'eliminar almenys un costat de cada triangle per evitar cicles. Amb tres triangles, cal eliminar com a mínim dos segments perquè les tres figures es converteixin en una única figura sense circuits tancats (o sigui, un arbre). Per exemple, podem eliminar el segment horitzontal central i un costat d'un dels altres triangles.
+
+Resposta: B)

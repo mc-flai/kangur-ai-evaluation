@@ -1,0 +1,22 @@
+Pour déterminer quel est le premier chiffre (celui le plus à gauche) du plus petit entier positif dont la somme des chiffres est 2019, analysons les possibilités logiques :
+
+1. **Comprendre la somme des chiffres** :
+   - Nous devons trouver un entier positif dont la somme des chiffres est 2019.
+
+2. **Réduire les possibilités avec les premiers chiffres** :
+   - Si le premier chiffre est 2, la somme restante à atteindre avec les autres chiffres est 2019 - 2 = 2017.
+   - Si le premier chiffre est 3, la somme restante est 2019 - 3 = 2016.
+   - Si le premier chiffre est 4, la somme restante est 2019 - 4 = 2015.
+   - Si le premier chiffre est 5, la somme restante est 2019 - 5 = 2014.
+   - Si le premier chiffre est 6, la somme restante est 2019 - 6 = 2013.
+
+3. **Minimiser la valeur de l'entier** :
+   - Pour minimiser la valeur de l'entier, nous devons utiliser le plus grand chiffre possible en premier, car cela réduira le nombre total de chiffres nécessaires pour atteindre la somme de 2019.
+   - En utilisant le chiffre 6 comme premier chiffre, nous minimisons la somme restante à atteindre avec les autres chiffres (2013).
+
+4. **Conclusion** :
+   - Avec les autres chiffres nécessaires pour atteindre la somme restante de 2013, le premier chiffre sera 6.
+
+Raisonnement : En choisissant le plus grand chiffre possible en premier (6), nous minimisons le nombre total de chiffres nécessaires pour atteindre la somme de 2019, ce qui minimise la valeur de l'entier positif.
+
+Réponse : E).

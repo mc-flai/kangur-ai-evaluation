@@ -1,0 +1,13 @@
+Raonament: Per resoldre el problema, necessitem trobar el tercer dígit d'un nombre que, quan s'afegeix 4 al principi, el resultat sigui divisible per 4.
+
+Considerem un nombre de sis xifres que acaba en 4. Si afegim 4 al principi, obtindrem un nombre de la forma:
+
+4xxxxxx4
+
+Perquè un nombre sigui divisible per 4, els dos últims dígits han de formar un nombre que també sigui divisible per 4. Com que el nombre original acaba en 4, els dos últims dígits del nombre resultant seran x4, on x és el tercer dígit per la dreta que necessitem determinar.
+
+Els nombres acabats en 4 que són divisibles per 4 inclouen 04, 24, 44, 64 i 84. D'aquests, el tercer dígit del nombre original (el primer dígit de x4) és 2.
+
+Per tant, el tercer dígit del menor nombre és 2.
+
+Resposta: C)

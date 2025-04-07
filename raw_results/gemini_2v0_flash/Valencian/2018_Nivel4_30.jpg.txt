@@ -1,0 +1,6 @@
+Raonament: Siga $s$ la longitud del costat del quadrat. L'àrea del triangle es pot calcular amb la fórmula de Heron: $A = \sqrt{p(p-a)(p-b)(p-c)}$, on $p$ és el semiperímetre $p=\frac{10+17+21}{2}=24$. Per tant, $A=\sqrt{24(24-10)(24-17)(24-21)} = \sqrt{24 \cdot 14 \cdot 7 \cdot 3} = \sqrt{2^3 \cdot 3 \cdot 2 \cdot 7 \cdot 7 \cdot 3} = \sqrt{2^4 \cdot 3^2 \cdot 7^2} = 2^2 \cdot 3 \cdot 7 = 4 \cdot 21 = 84$.
+L'àrea també es pot calcular com $A = \frac{1}{2}bh$, on $b=21$. Per tant, $84 = \frac{1}{2}(21)h$, de manera que $h = \frac{2 \cdot 84}{21} = \frac{168}{21} = 8$.
+Ara, considerem el triangle petit situat a la part superior del quadrat. És semblant al triangle gran. La seua altura és $8-s$ i la base és $s$.
+Llavors, tenim $\frac{8-s}{s} = \frac{8}{21}$, per tant, $21(8-s) = 8s$, així $168 - 21s = 8s$, que dóna $168 = 29s$, de manera que $s = \frac{168}{29}$.
+
+Resposta: E)

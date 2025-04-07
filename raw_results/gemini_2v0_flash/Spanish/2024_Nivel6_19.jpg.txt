@@ -1,0 +1,25 @@
+Razonamiento:
+La información del problema se puede expresar en la siguiente ecuación:
+pq,rs = (pq + rs) / 2
+Multiplicando ambos lados por 2, tenemos:
+2 * pq,rs = pq + rs
+2 * (10*p + q + r/10 + s/100) = 10*p + q + 10*r + s
+Despejando:
+20*p + 2*q + 2*r/10 + 2*s/100 = 10*p + q + 10*r + s
+10*p + q = 9.8*r + 0.98*s
+1000*p + 100*q = 980*r + 98*s
+Dividiendo ambos lados por 2:
+500*p + 50*q = 490*r + 49*s
+50*(10*p + q) = 49*(10*r + s)
+50*pq = 49*rs
+
+Dado que pq y rs son enteros y 50 y 49 son coprimos, entonces pq debe ser múltiplo de 49 y rs debe ser múltiplo de 50.
+Como pq es un entero de dos dígitos y es múltiplo de 49, entonces pq = 49 o pq = 98.
+Como rs es un entero de dos dígitos y es múltiplo de 50, entonces rs = 50.
+
+Si pq = 49, entonces 50*49 = 49*rs => rs = 50. Por lo tanto, N = 4950, y la suma de sus dígitos es 4 + 9 + 5 + 0 = 18.
+Si pq = 98, entonces 50*98 = 49*rs => rs = 500/49, que no es entero.
+
+Por lo tanto, la única solución posible es N = 4950. La suma de sus dígitos es 4 + 9 + 5 + 0 = 18.
+
+Respuesta: B)

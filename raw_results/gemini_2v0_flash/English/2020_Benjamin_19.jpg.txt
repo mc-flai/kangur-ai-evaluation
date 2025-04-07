@@ -1,0 +1,62 @@
+Reasoning:
+Let the numbers at the corners be a, b, c, d, and the numbers in the horizontal line be w, x, y, z. Then we have the ages {2, 3, 5, 8, 10, 17}. We need to choose 4 numbers for the corners and 4 numbers for the horizontal, such that their sums are equal. However, two of these numbers will be the same, as they are both a corner and in the horizontal line. Let that number be n. Let the sum of the corner numbers be S, and the sum of the horizontal numbers also be S.
+
+The sum of all numbers is 2+3+5+8+10+17 = 45. Then we have 6 numbers to work with. We can write it out such that (corner numbers = a+b+c+d = S) and (horizontal numbers = w+x+y+z = S). However we know that one of those numbers, lets say d and z, is the same value. Let that value be 'n'. Then we have a+b+c+n = S and w+x+y+n = S.
+This simplifies to:
+a+b+c+n = w+x+y+n, meaning a+b+c = w+x+y
+Where these are each a group of 3 numbers that sum to the same amount.
+The total sum of these values without n is 45 - n.
+We can write out the total sums possible. We can rewrite that equations as:
+a+b+c = (45-n)/2
+
+Because we only want integer solutions and the sum (a+b+c) should be an integer value, we can eliminate half the possibilities of "n". When we try each of the 6 values, we get:
+
+n=2 => (45-2)/2 = 43/2 = 21.5. x
+n=3 => (45-3)/2 = 42/2 = 21. a+b+c must equal 21
+n=5 => (45-5)/2 = 40/2 = 20. a+b+c must equal 20
+n=8 => (45-8)/2 = 37/2 = 18.5. x
+n=10 => (45-10)/2 = 35/2 = 17.5. x
+n=17 => (45-17)/2 = 28/2 = 14. a+b+c must equal 14
+
+Lets look at n=3, a+b+c = 21. The leftover numbers are {2,5,8,10,17}. We are trying to select 3 numbers to sum to 21. The only one that is possible is 5+8+10 = 23. So this is not right.
+There are no combinations with a+b+c=21 that works.
+
+Lets look at n=5, a+b+c = 20. The leftover numbers are {2,3,8,10,17}. We are trying to select 3 numbers to sum to 20. We can have 3+17+0, this is not possible. 2+8+10 = 20.
+Yes! This works. Lets write this out. {2,3,8,10,17}. Corners are {2,8,10,5}. Sum of the corners is 25. Horizontals are {3, 17, 0}, this is not possible.
+
+Lets look at n=17, a+b+c = 14. The leftover numbers are {2,3,5,8,10}. We are trying to select 3 numbers to sum to 14.
+Possible combinations are: 2+3+x=14 => x=9. Nope
+2+5+x=14 => x=7. Nope
+2+8+x=14 => x=4. Nope
+2+10+x=14 => x=2. Nope
+3+5+x=14 => x=6. Nope
+3+8+x=14 => x=3. Nope
+3+10+x=14 => x=1. Nope
+5+8+x=14 => x=1. Nope
+5+10+x=14 => x=-1. Nope
+8+10+x=14 => x=-4. Nope
+There are no possibilities to sum to 14.
+
+Final Answer: More than one possible value.
+
+Reasoning:
+Let the nodes of the square be A, B, C, D and the horizontal line be W, X, Y, Z. Let the intersection be the nodes B and X (without loss of generality).
+We are given that the sum of the ages is 2 + 3 + 5 + 8 + 10 + 17 = 45.
+Also, we know that A + B + C + D = W + X + Y + Z and since B = X, it means that A + C + D = W + Y + Z.
+Let S be the desired sum, and let A + C + D = S'. Thus S = S' + B. Then we want to find a value where we can make a split that would get an answer. Since the total is 45, A + C + D + W + Y + Z + B + X (since B = X) we know is 45 + B
+Also A + C + D + W + Y + Z = 2S', and we want two sets of three numbers to sum to the same amount with A+C+D = W+Y+Z = S'
+So 2 S' + 2B = 45 => 2S' + 2B = 45+B. and 2S' = 45-B
+
+If we test B = 3 => A + C + D = 21. So we need to form a sum of 21 from the numbers remaining: 2+5+8+10+17. One is 5+8+10 is 23, and another is the sum of two, and none of the three are equal to 21
+
+Instead, Let B be an option:
+If S = 13. 13 + 13 = 26, 45-26 = 19. We need two sets of three numbers from the ages of the sisters.
+
+Let A + B + C + D = S. Then it means the four corner circles of the square has sum S, and the four horizontally aligned circles have sum S. The numbers are {2,3,5,8,10,17}
+Since one of those is shared. we need to subtract that specific one, so if B = X = k. S - k + others = S'. S' is then divided amongst. In this graph, the intersection B=X. So then the sums = S is A+C+D = W+Y+Z.
+
+Reasoning:
+Since there might be multiple ways, I suspect the answer is E.
+To test that there is more than one possible value, consider the four ages in the square add up to be one total, then the linear ages sum up to same total. Lets assume that the node that links the square and linear combination is age 2. We could consider the sets with age 2 and consider all permutations, and repeat the same logic for ages 3, 5, 8, 10, and 17. Due to the many possibilities and combinations, it makes logical sense to assume that it is possible that "There is more than one possible value"
+
+Answer: E)

@@ -1,0 +1,31 @@
+Para resolver este problema, necesitamos sumar el número de celdas vecinas que tienen miel para cada celda que no tiene miel en la figura.
+
+Primero, identificamos las celdas que no tienen miel y las celdas vecinas que tienen miel:
+- La celda con el número 1 está rodeada por 3 celdas vecinas con miel (1 + 3 + 2).
+- La celda con el número 2 está rodeada por 4 celdas vecinas con miel (2 + 4 + 3 + 3).
+- La celda con el número 3 está rodeada por 1 celda vecina con miel (1).
+- La celda con el número 4 está rodeada por 3 celdas vecinas con miel (3 + 2 + 4).
+
+Ahora sumamos el número de celdas vecinas con miel para cada celda que no tiene miel:
+- Celda 1: 3 celdas vecinas.
+- Celda 2: 4 celdas vecinas.
+- Celda 3: 1 celda vecina.
+- Celda 4: 3 celdas vecinas.
+
+Sumamos estos valores:
+3 + 4 + 1 + 3 = 11
+
+Sin embargo, parece que hay un error en la imagen o en la interpretación de los números. Revisemos nuevamente:
+
+- Celda 1: 1 celda vecina con miel.
+- Celda 2: 2 celdas vecinas con miel.
+- Celda 3: 1 celda vecina con miel.
+- Celda 4: 2 celdas vecinas con miel.
+
+Sumamos estos valores:
+1 + 2 + 1 + 2 = 6
+
+Por lo tanto, el número total de celdas que tienen miel en toda la colmena es 6.
+
+Razonamiento: Sumamos el número de celdas vecinas que tienen miel para cada celda que no tiene miel en la figura.
+Respuesta: C).

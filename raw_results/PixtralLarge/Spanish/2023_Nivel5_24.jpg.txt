@@ -1,0 +1,30 @@
+**Razonamiento**:
+
+1. El teléfono de Melisa se descarga cuando solo se habla durante 32 horas.
+2. Cuando se usa Internet, se descarga en 20 horas.
+3. Cuando no se usa el teléfono, se descarga en 80 horas.
+
+Para encontrar el tiempo que durará la batería mientras Melisa está en el tren con el teléfono medio cargado, necesitamos calcular la duración de las actividades realizadas en el tren:
+
+- Supongamos que Melisa usa el teléfono para hablar, usar Internet y no hacer nada durante el mismo tiempo.
+- Al estar con el teléfono medio cargado, la batería durará la mitad del tiempo que un teléfono completamente cargado.
+- Para cada actividad, se considera el tiempo que se usa el teléfono:
+
+  - Hablar: 32 horas / 2 = 16 horas
+  - Usar Internet: 20 horas / 2 = 10 horas
+  - No hacer nada: 80 horas / 2 = 40 horas
+
+Para encontrar el tiempo total que durará la batería con todas las actividades, promediamos los tiempos:
+
+  - Tiempo total = (16 horas + 10 horas + 40 horas) / 3
+  - Tiempo total = 66 horas / 3
+  - Tiempo total ≈ 22 horas
+
+Dado que el teléfono está medio cargado, este tiempo se reduce a la mitad:
+
+  - Tiempo total medio cargado = 22 horas / 2
+  - Tiempo total medio cargado = 11 horas
+
+Por lo tanto, la duración del viaje en tren debe ser menor o igual a 11 horas para que la batería del teléfono no se agote.
+
+**Respuesta**: B) 12

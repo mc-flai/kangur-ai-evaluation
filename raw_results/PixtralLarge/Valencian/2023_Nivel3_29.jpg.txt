@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de seguir aquests passos:
+
+1. **Entendre el problema**:
+   - Es tracta de dibuixar un hexàgon regular i dividir-lo per les diagonals que van des d'un vèrtex fins al vèrtex oposat.
+   - A continuació, hem de dibuixar l'hexàgon regular que té com a vèrtex els punts d'intersecció d'aquestes diagonals.
+   - Es demana quin és el resultat de dividir l'àrea de l'hexàgon inicial per l'àrea de l'hexàgon obtingut.
+
+2. **Dibuixar l'hexàgon regular inicial**:
+   - Un hexàgon regular té sis costats i sis diagonals que es tallen en un punt central.
+
+3. **Dibuixar les diagonals**:
+   - Les diagonals d'un hexàgon regular es tallen en el centre de l'hexàgon i el divideixen en sis triangles equilàters.
+
+4. **Dibuixar l'hexàgon intermedi**:
+   - En unir els punts d'intersecció de les diagonals, s'obté un nou hexàgon més petit.
+
+5. **Comparar les àrees**:
+   - L'àrea de l'hexàgon inicial es pot calcular utilitzant la fórmula de l'àrea d'un hexàgon regular: \( A = \frac{3\sqrt{3}}{2} s^2 \), on \( s \) és la longitud del costat.
+   - L'hexàgon obtingut en unir els punts d'intersecció és una homotècia de l'hexàgon inicial amb un factor de reducció de 2/3 (és a dir, cada costat de l'hexàgon petit és 2/3 del costat de l'hexàgon inicial).
+
+6. **Calcular el factor de reducció de l'àrea**:
+   - En una homotècia, l'àrea es redueix en el quadrat del factor de reducció lineal.
+   - El factor de reducció lineal és \( \frac{2}{3} \), per tant, el factor de reducció de l'àrea és \( \left(\frac{2}{3}\right)^2 = \frac{4}{9} \).
+
+7. **Calcular el resultat de la divisió de les àrees**:
+   - L'àrea de l'hexàgon inicial dividida per l'àrea de l'hexàgon obtingut és \( \frac{A_{\text{inicial}}}{A_{\text{obtingut}}} = \frac{1}{\frac{4}{9}} = \frac{9}{4} \).
+
+8. **Verificar les opcions**:
+   - Les opcions donades són: A) 3, B) \(\frac{5}{3}\), C) 2, D) \(\frac{3}{2}\), E) \(\frac{5}{2}\).
+   - Cap de les opcions donades coincideix amb \(\frac{9}{4}\).
+
+Raonament: Es va calcular l'àrea de l'hexàgon inicial i de l'hexàgon obtingut utilitzant la propietat de les homotècies i el factor de reducció de l'àrea.
+
+Resposta: Cap de les opcions donades és correcta.

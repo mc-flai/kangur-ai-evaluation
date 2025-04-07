@@ -1,0 +1,24 @@
+
+La question demande combien de manières différentes il y a d'écrire 1001 en utilisant exactement deux noms premiers.
+
+Pour résoudre ce problème, nous devons identifier les nombres premiers qui peuvent être utilisés pour former 1001. Les nombres premiers sont des nombres qui ne peuvent être divisés que par 1 et par eux-mêmes sans laisser de reste. Les nombres premiers les plus petits sont 2, 3, 5, et 7.
+
+En utilisant ces nombres premiers, nous devons trouver des combinaisons de deux nombres premiers qui, lorsqu'ils sont multipliés, donnent 1001. Nous pouvons essayer différentes combinaisons :
+
+1. 2 * 500.5 = 1001 (500.5 n'est pas un nombre premier)
+2. 3 * 333.67 = 1001 (333.67 n'est pas un nombre premier)
+3. 5 * 200.2 = 1001 (200.2 n'est pas un nombre premier)
+4. 7 * 142.86 = 1001 (142.86 n'est pas un nombre premier)
+
+En vérifiant les combinaisons possibles, nous trouvons que :
+
+1. 2 * 500.5 = 1001 (500.5 n'est pas un nombre premier)
+2. 3 * 333.67 = 1001 (333.67 n'est pas un nombre premier)
+3. 5 * 200.2 = 1001 (200.2 n'est pas un nombre premier)
+4. 7 * 142.86 = 1001 (142.86 n'est pas un nombre premier)
+
+Aucune combinaison de deux nombres premiers ne donne 1001.
+
+Raisonnement : En vérifiant les combinaisons possibles de deux nombres premiers, nous trouvons qu'aucune combinaison ne donne 1001.
+
+Réponse : A)

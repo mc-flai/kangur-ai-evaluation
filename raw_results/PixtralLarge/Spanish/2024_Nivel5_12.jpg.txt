@@ -1,0 +1,32 @@
+Para resolver la pregunta 12, necesitamos determinar cuántas maneras puede haber de elegir una letra de cada fila y una letra de cada columna de tres cuadrados más pequeños de 2x2 dentro de la tabla de 2x4, con la condición de que cada letra aparezca solo una vez.
+
+**Razonamiento**:
+
+1. **Identificar las letras en la tabla de 2x4**:
+    La tabla de 2x4 tiene 8 posiciones, y contiene las letras A, B, C y D, con cada letra apareciendo dos veces.
+
+2. **Seleccionar los tres cuadrados más pequeños de 2x2**:
+    La tabla de 2x4 se puede dividir en tres cuadrados más pequeños de 2x2. Estos cuadrados son:
+    - Cuadrado 1: Posiciones (1,1), (1,2), (2,1), (2,2)
+    - Cuadrado 2: Posiciones (1,3), (1,4), (2,3), (2,4)
+    - Cuadrado 3: No es contiguo, pero consideramos las posiciones restantes.
+
+3. **Contar las combinaciones posibles**:
+    - Cuadrado 1 y Cuadrado 2:
+        - Seleccionar una letra de cada fila en el Cuadrado 1: 2 opciones (A o B) * 2 opciones (C o D).
+        - Seleccionar una letra de cada fila en el Cuadrado 2: 2 opciones (A o B) * 2 opciones (C o D).
+        - Total de combinaciones para estos cuadrados: 2 * 2 * 2 * 2 = 16 combinaciones.
+
+    - Cuadrado 1 y Cuadrado 3:
+        - Seleccionar una letra de cada fila en el Cuadrado 1: 2 opciones (A o B) * 2 opciones (C o D).
+        - Seleccionar una letra de cada fila en el Cuadrado 3: 2 opciones (A o B) * 2 opciones (C o D).
+        - Total de combinaciones para estos cuadrados: 2 * 2 * 2 * 2 = 16 combinaciones.
+
+    - Cuadrado 2 y Cuadrado 3:
+        - Seleccionar una letra de cada fila en el Cuadrado 2: 2 opciones (A o B) * 2 opciones (C o D).
+        - Seleccionar una letra de cada fila en el Cuadrado 3: 2 opciones (A o B) * 2 opciones (C o D).
+        - Total de combinaciones para estos cuadrados: 2 * 2 * 2 * 2 = 16 combinaciones.
+
+    - Combinaciones totales: 16 + 16 + 16 = 48 combinaciones.
+
+**Respuesta**: C).

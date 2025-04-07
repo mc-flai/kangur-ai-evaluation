@@ -1,0 +1,36 @@
+**Razonamiento**:
+1. Vamos a desglosar las condiciones dadas en la pregunta:
+   - Los dos últimos dígitos de la matrícula son iguales a la suma de los dos primeros dígitos.
+   - El primer dígito es más pequeño que el segundo.
+   - Los dos últimos dígitos forman un cuadrado perfecto (un número cuadrado de un número entero).
+
+2. Vamos a verificar cada una de las opciones para ver cuál cumple todas las condiciones:
+
+   - **Opción A) 7816**:
+     - Dígitos: 7, 8, 1, 6
+     - Suma de los dos primeros dígitos: 7 + 8 = 15 (no iguales a los dos últimos dígitos 1 y 6).
+     - No cumple la condición de la suma.
+
+   - **Opción B) 8816**:
+     - Dígitos: 8, 8, 1, 6
+     - Suma de los dos primeros dígitos: 8 + 8 = 16 (iguales a los dos últimos dígitos 1 y 6).
+     - El primer dígito (8) no es más pequeño que el segundo (8), no cumple la condición.
+
+   - **Opción C) 9716**:
+     - Dígitos: 9, 7, 1, 6
+     - Suma de los dos primeros dígitos: 9 + 7 = 16 (iguales a los dos últimos dígitos 1 y 6).
+     - El primer dígito (9) es más grande que el segundo (7), no cumple la condición.
+
+   - **Opción D) 7916**:
+     - Dígitos: 7, 9, 1, 6
+     - Suma de los dos primeros dígitos: 7 + 9 = 16 (iguales a los dos últimos dígitos 1 y 6).
+     - El primer dígito (7) es más pequeño que el segundo (9).
+     - Los últimos dos dígitos (16) forman un cuadrado perfecto (4^2 = 16).
+     - Cumple todas las condiciones.
+
+   - **Opción E) 8925**:
+     - Dígitos: 8, 9, 2, 5
+     - Suma de los dos primeros dígitos: 8 + 9 = 17 (no iguales a los dos últimos dígitos 2 y 5).
+     - No cumple la condición de la suma.
+
+**Respuesta**: D)

@@ -1,0 +1,48 @@
+**Reasoning:**
+
+To solve this problem, let's use the principle of inclusion-exclusion which states that for any finite sets $A$ and $B$, the size of their union is the sum of their sizes minus the size of their intersection.
+
+Let $A$ be the set of students who swim and $B$ be the set of students who dance.
+
+We are given that:
+
+*   The total number of students in the class is 48.
+*   32 students do both swimming and dancing.
+*   Three eighths of the students swim.
+*   There are exactly five students who do both.
+
+First, we can find the number of students who swim by multiplying the total number of students by three-eighths:
+
+$$\frac{3}{8} \times 48 = 18$$
+
+Since 32 students do both swimming and dancing, we can set up an equation using the principle of inclusion-exclusion:
+
+$$|A \cup B| = |A| + |B| - |A \cap B|$$
+
+We know that $|A \cap B| = 32$, so:
+
+$$|A \cup B| = |A| + |B| - 32$$
+
+We also know that $|A|=18$. We need to find $|B|$.
+
+We know that the total number of students in the class is 48, so:
+
+$$|A \cup B| = 48$$
+
+Substituting this into the equation above, we get:
+
+$$48 = 18 + |B| - 32$$
+
+Solving for $|B|$, we get:
+
+$$|B| = 56$$
+
+Therefore, there are 56 students who dance.
+
+Now, we can find the number of students who only swim or only dance by subtracting the number of students who do both from the total number of students:
+
+$$\text{|only swim or only dance|} = 48 - 32 - 5 = 11$$
+
+So, there are 11 students who only swim or only dance.
+
+**Answer:** E) 11

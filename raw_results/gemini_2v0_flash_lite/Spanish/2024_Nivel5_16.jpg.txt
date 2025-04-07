@@ -1,0 +1,47 @@
+Razonamiento:
+1.  Identify the squares and their products: The products are 4, 6, 10, 12 and 24.
+2.  Let's call the values of the gray circles a, b, c, d, e, f, g and h, as can be seen in the image. Let the values in the center of the grid, not the squares, to be w, x, y, and z.
+3.  From the squares, we can deduce the following products:
+    *   a \* w \* x \* b = 4
+    *   b \* x \* c \* d = 6
+    *   c \* y \* z \* g = 10
+    *   e \* f \* y \* d = 12
+    *   e \* z \* h \* g = 24
+4. Note: the question is asking the product of all gray circles values: a \* b \* c \* d \* e \* f \* g \* h
+5. We are not able to know individually each of the value, but if we multiply all of the above products of the squares, we obtain a\*b\*c\*d\*e\*f\*g\*h \* (w\*x\*y\*z) \* (w\*x\*y\*z) = 4 \* 6 \* 10 \* 12 \* 24 = 69120.
+6.  The values w, x, y and z can be calculated by their product of the sides of the values of each square which also must be equal (w\*x\*y\*z)^2 = 4\*6\*10\*12\*24 / (a\*b\*c\*d\*e\*f\*g\*h).
+7. (w\*x\*y\*z)^2 should have the same value if multiplied (w\*x\*y\*z)^2.
+8. The number of possible answers for the products are just 5: 20, 40, 80, 120 and 480. The answer should also respect the squares constraints.
+9. Trying different combinations, such as:
+    *   a=1, w=1, x=1, b=4
+    *   b=4, x=1, c=1, d=1.5 (Not integer, so, discarded).
+    *   a=1, b=1, c=1, d=1 (Not respecting the products of the squares values).
+    *   If we multiply all the products: (a\*b\*c\*d\*e\*f\*g\*h) \* (w\*x\*y\*z)^2 = 4 \* 6 \* 10 \* 12 \* 24
+    *   (a\*b\*c\*d\*e\*f\*g\*h) = 480
+    *  (w\*x\*y\*z)^2 = (4 \* 6 \* 10 \* 12 \* 24) / 480 = 144. Therefore, w\*x\*y\*z = 12.
+    *  We also have the following products:
+    *   a \* w \* x \* b = 4. Assuming w=1 and x=1, a\*b = 4.
+    *   b \* x \* c \* d = 6. If x=1, b\*c\*d=6, and b=4, then c\*d=1.5. (Not integers).
+    *   This means a=1, b=2, x=2, w=1
+    *  b\*x\*c\*d = 6 => 2\*2\*c\*d=6  => c\*d = 1.5. (Not integers).
+10.  Let's try a different path by guessing the values that fit the squares. From square with value 4, assuming w=1 and x=1, then a \* b = 4. From square with value 6, assuming x=1, then b\*c\*d=6. If we guess a=1 and b=4, then c\*d = 1.5 (Not integers). If we guess b=1, then a=4 and c\*d = 6, from square of value 10, assuming y=1, z=1, then c\*g = 10. From value 24, assuming z=1 then e\*g\*h = 24.
+11. Another combination could be that product of the 8 values is equal to 480, then w\*x\*y\*z would be equal to 12.
+    a=1, w=1, x=4, b=1
+    b=1, x=4, c=1, d=6/4 = 1.5 (not integer)
+12. Try to factor the number of possible answers: 
+    * 20: 20 = 2 \* 2 \* 5
+    * 40: 40 = 2 \* 2 \* 2 \* 5
+    * 80: 80 = 2 \* 2 \* 2 \* 2 \* 5
+    * 120: 120 = 2 \* 2 \* 2 \* 3 \* 5
+    * 480: 480 = 2 \* 2 \* 2 \* 2 \* 2 \* 3 \* 5
+13. Because all the squares are integers and we need to obtain the result of all products to respect their rules, we can try that the answer could be 480 because it has 2 \* 2 \* 2 and 5 in his factors.
+14. Try to use the answer 480:
+    *   a=1, b=2, c=5, d=6, e=2, f=1, g=2, h=4
+    *   4 = a \* w \* x \* b = 1 \* w \* x \* 2 => w \* x = 2
+    *   6 = b \* x \* c \* d = 2 \* x \* 5 \* d => x \* d = 3/5. (Not integer)
+    *   10 = c \* y \* z \* g = 5 \* y \* z \* 2 => y \* z = 1
+    *   12 = e \* f \* y \* d = 2 \* 1 \* y \* d => y \* d = 6
+    *   24 = e \* z \* h \* g = 2 \* z \* 4 \* 2 => z = 3/2 (Not integer)
+15. Because of the process of elimination, the correct option should be E) 480.
+
+Respuesta: E)

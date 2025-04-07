@@ -1,0 +1,9 @@
+Raonament:
+1. **Triangle Equilàter**: Els centres de les tres circumferències formen un triangle equilàter. Els costats d'aquest triangle mesuren 2 (ja que cada costat està format per la suma dels radis de dues circumferències tangents).
+2. **Àrea del triangle**: L'àrea d'un triangle equilàter amb costat 's' és (s²√3)/4. En aquest cas, s = 2, per tant l'àrea és (2²√3)/4 = √3.
+3. **Segments circulars**: Dins del triangle, les circumferències creen tres segments circulars. Cadascun d'aquests segments correspon a un angle de 60 graus (π/3 radians) al centre de cada circumferència. L'àrea d'un segment circular es calcula com (1/2)r²(θ - sin θ), on r és el radi i θ és l'angle en radians. En aquest cas, r = 1 i θ = π/3.
+4. **Àrea d'un segment circular**: L'àrea d'un segment circular és (1/2) * 1² * (π/3 - sin(π/3)) = (1/2) * (π/3 - √3/2) = π/6 - √3/4.
+5. **Àrea total dels tres segments**:  Com hi ha tres segments, l'àrea total és 3 * (π/6 - √3/4) = π/2 - (3√3)/4.
+6. **Àrea de la regió ombrejada**:  Restem l'àrea dels tres segments circulars de l'àrea del triangle equilàter: √3 - (π/2 - (3√3)/4) = √3 - π/2.
+
+Resposta: B)

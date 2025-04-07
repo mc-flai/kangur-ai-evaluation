@@ -1,0 +1,21 @@
+Reasoning:
+We are given the equation 2ab = 3cd. We want to find which of the given options can be the value of abcd.
+From the equation 2ab = 3cd, we can write ab = (3/2)cd.
+Therefore, abcd = (3/2)cd * cd = (3/2)(cd)^2.
+Let abcd = x. Then x = (3/2)(cd)^2, or (2/3)x = (cd)^2.
+This means that (2/3)x must be a perfect square.
+Let's test each option:
+(A) x = 50. (2/3)(50) = 100/3, not a perfect square.
+(B) x = 100. (2/3)(100) = 200/3, not a perfect square.
+(C) x = 150. (2/3)(150) = 300/3 = 100 = 10^2, which is a perfect square.
+(D) x = 200. (2/3)(200) = 400/3, not a perfect square.
+(E) x = 250. (2/3)(250) = 500/3, not a perfect square.
+So, only option (C) satisfies the condition that (2/3)x is a perfect square.
+If abcd = 150, then (cd)^2 = (2/3)(150) = 100, so cd = 10 or cd = -10.
+Also, 2ab = 3cd = 30 or -30. So ab = 15 or ab = -15.
+Therefore, abcd = (15)(10) = 150 or abcd = (-15)(-10) = 150.
+For example, let a = 3, b = 5, c = 2, d = 5.
+Then 2ab = 2(3)(5) = 30 and 3cd = 3(2)(5) = 30. So 2ab = 3cd holds.
+Then abcd = (3)(5)(2)(5) = 150.
+
+Answer: C)

@@ -1,0 +1,24 @@
+Raonament: 
+
+Per trobar el valor exacte de la fracció proposta tenim escriure-la de forma completa amb el numerador i denominador en forma de sumatori:
+
+$ \begin{aligned}
+A &= \frac{\displaystyle 5 \cdot 25 + 3 \cdot 15 + \ldots + 2015 \cdot 5}{1 \cdot 2 + 2 \cdot 4 + \ldots + 2016 \cdot 4032}.
+\end{aligned} $ 
+
+Per una millor comprensió, podem escriure aquesta fracció d'una manera més general:
+
+$ A = \frac{\displaystyle \sum_{i = 1}^{2016} (5i) \cdot (25 - 10(i - 1))}{\displaystyle \sum_{i = 1}^{2016} i \cdot (2i)}$
+
+Per simplificar, creant la variable $ x = i - 1 \space \land \space i = x + 1 $:
+
+$ A = \frac{\displaystyle 5\sum_{x = 0}^{2015} a (2016 - x)}{\displaystyle \sum_{i = 1}^{2016} i^2}$
+
+Per executar el calcul, descomponguem també l'àticul·lar al numerador com a 2016 - x, per a poder-li aplicar la regla del terme general ara de forma pròpia a l'acció dels confinadors a la integral:
+
+$ \begin{aligned}
+A &= \frac{\displaystyle 5 \sum_{x = 0}^{2015} (2016 - x) - \sum_{i = X}^{2016} i}{\displaystyle \sum_{a = 1}^{2016} a^2} \\
+& = \frac{ 2016 \cdot 5 \left ( \frac{2016 - 2015 - x + x + 1}{2} \right ) - \frac{5}{2} \cdot (2016^2 - X^2)}{\frac{2016 \cdot 4033 \cdot 8079}{6} }\space \land \space X + N = 2016 \\
+\displaystyle
+
+Resposta: No Answer

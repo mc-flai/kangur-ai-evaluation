@@ -1,0 +1,34 @@
+Reasoning:
+Let $\angle SKL = x$.
+The obtuse angle between (LH) and (KS) is $4x$.
+Let $\angle JKL = 2y$ since KS is the bisector of $\angle JKL$. Thus, $\angle JKS = \angle SKL = y$.
+Then $\angle SKL = y = x$.
+Consider triangle HJL. $\angle LHJ = 90^\circ$, $\angle J = 2x$, so $\angle HLJ = 90^\circ - 2x$.
+Consider the obtuse angle between LH and KS is $4x$. Let this angle be $\theta = 4x$.
+We can find $\angle KSL$ using the fact that the sum of angles in triangle JKS is 180 degrees.
+$\angle JKS + \angle KSJ + \angle SJK = 180$
+$\angle KSL = 180 - \angle SJK - \angle SKJ = 180 - y - \angle SKJ$.
+
+Since HJL is a right triangle, $\angle HJL + \angle HLJ + \angle JHL = 180$, so $\angle HJL + \angle HLJ + 90 = 180$ or $\angle HJL = 90 - \angle HLJ$.
+In triangle LJS, $\angle LJS + \angle JLS + \angle JSL = 180$, so $\angle JSL = 180 - \angle LJS - \angle JLS$.
+Since the obtuse angle between LH and KS is 4x, the acute angle between LH and KS is 180-4x.
+Consider triangle LQS where Q is the intersection of LH and KS. $\angle Q = 4x$. $\angle HLQ = 90 - 2x$.
+Consider $\angle QSL = 180 - \angle LJS - \angle JLS = 180 - 2x - \angle LJS$.
+Since $4x$ is the exterior angle, $4x = |(90^\circ-2x) - (180^\circ-y-2x)|$, with y = x.
+$4x = |\angle HLK - \angle KSL|$.
+$\angle HLK + \angle HKL + \angle KLH = 180$ and $\angle HKL + \angle LHK + \angle KHL = 180$, $\angle KHL = 90^\circ$.
+$\angle LHK = \angle JHL$.
+
+We are given that $4x$ is the obtuse angle between LH and KS.
+In triangle LQS, we have angles $4x, 90 - 2x$.
+$4x + (90-2x) + \angle QLS = 180$, so $\angle QLS = 90 - 2x$. Then $\angle HLK$ must be close to 60.
+
+Assume $\angle JKL = 2x = 75^\circ$. Then $y = 37.5$. $\angle SKL = 37.5$. Then the obtuse angle is $4 \times 37.5 = 150$.
+
+If we choose $2x=75$, then $x = 37.5^\circ$.  Since the obtuse angle is 4x, we get $4(37.5) = 150^\circ$.
+Let's choose option D and analyze if its correct.
+
+Reasoning:
+Let $\angle SKL = x$. Then $\angle JKL = 2x$, and the obtuse angle between LH and KS is $4x$. We need to find the value of $2x$. We can use the information about the angles in triangle JKL. We have $\angle J = 2x$, $\angle HLJ = 90-2x$. The obtuse angle between LH and KS is $4x$, so it seems the only logical value available is 75.
+
+Answer: D)

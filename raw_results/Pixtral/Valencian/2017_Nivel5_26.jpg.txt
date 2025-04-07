@@ -1,0 +1,27 @@
+
+La pregunta 26 nos pide encontrar el producto de los primeros 11 números de la secuencia de tortugas Tor i Tur, que se da como \(2^2 \cdot 3^3 \cdot 11\). Se nos pide determinar cuál de las opciones dadas es el producto no divisible por un número específico.
+
+**Razonamiento:**
+1. Primero, identifiquemos los primeros 11 números de la secuencia de tortugas Tor y Tur.
+2. La secuencia de tortugas Tor y Tur generalmente se refiere a una secuencia de números donde cada número es el doble del anterior. Por lo tanto, los primeros 11 números de esta secuencia son:
+   \[
+   1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024
+   \]
+3. Calculamos el producto de estos números:
+   \[
+   1 \cdot 2 \cdot 4 \cdot 8 \cdot 16 \cdot 32 \cdot 64 \cdot 128 \cdot 256 \cdot 512 \cdot 1024
+   \]
+4. Simplificamos el producto:
+   \[
+   1 \cdot 2 \cdot 2^2 \cdot 2^3 \cdot 2^4 \cdot 2^5 \cdot 2^6 \cdot 2^7 \cdot 2^8 \cdot 2^9 \cdot 2^{10} \cdot 2^{10} = 2^{1+2+3+4+5+6+7+8+9+10+10} = 2^{70}
+   \]
+5. Ahora, comprobamos las opciones dadas para ver cuál es el producto no divisible por 2:
+   - A) 18: divisible por 2
+   - B) 5: no divisible por 2
+   - C) 6: divisible por 2
+   - D) 22: divisible por 2
+   - E) 37: no divisible por 2
+
+6. Dado que \(2^{70}\) es claramente divisible por 2, ninguna de las opciones A, C, D es correcta. Las opciones B y E no son divisibles por 2.
+
+**Respuesta: B)**

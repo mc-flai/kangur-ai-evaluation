@@ -1,0 +1,56 @@
+To analyze question 23 and determine the correct answer, we need to follow these steps:
+
+1. **Understand the function properties**:
+   - The function \( f \) satisfies the equation \( f(x+y) = f(x) \cdot f(y) \).
+   - It is given that \( f(1) = 2 \).
+
+2. **Determine the values of \( f(n) \) for given \( n \)**:
+   - Using the property \( f(x+y) = f(x) \cdot f(y) \):
+     - For \( x = 1 \) and \( y = 1 \):
+       \[
+       f(2) = f(1+1) = f(1) \cdot f(1) = 2 \cdot 2 = 4
+       \]
+     - For \( x = 2 \) and \( y = 1 \):
+       \[
+       f(3) = f(2+1) = f(2) \cdot f(1) = 4 \cdot 2 = 8
+       \]
+     - For \( x = 3 \) and \( y = 1 \):
+       \[
+       f(4) = f(3+1) = f(3) \cdot f(1) = 8 \cdot 2 = 16
+       \]
+     - Continue this process:
+       \[
+       f(5) = f(4+1) = f(4) \cdot f(1) = 16 \cdot 2 = 32
+       \]
+       \[
+       f(6) = f(5+1) = f(5) \cdot f(1) = 32 \cdot 2 = 64
+       \]
+       \[
+       f(7) = f(6+1) = f(6) \cdot f(1) = 64 \cdot 2 = 128
+       \]
+       \[
+       f(8) = f(7+1) = f(7) \cdot f(1) = 128 \cdot 2 = 256
+       \]
+       \[
+       f(9) = f(8+1) = f(8) \cdot f(1) = 256 \cdot 2 = 512
+       \]
+       \[
+       f(10) = f(9+1) = f(9) \cdot f(1) = 512 \cdot 2 = 1024
+       \]
+       - Continue similarly up to \( f(2021) \).
+
+3. **Calculate the required expression**:
+   \[
+   \frac{f(2)}{f(1)} + \frac{f(3)}{f(2)} + \ldots + \frac{f(2021)}{f(2020)}
+   \]
+   - Each term \( \frac{f(n+1)}{f(n)} \) simplifies to \( f(1) \) because \( f(n+1) = f(n) \cdot f(1) \).
+   - Therefore, each term is equal to \( 2 \).
+   - There are 2020 such terms in the summation from \( n = 1 \) to \( n = 2020 \).
+   - The sum is:
+     \[
+     2 + 2 + \ldots + 2 \quad (\text{2020 times}) = 2020 \times 2 = 2020
+     \]
+
+**Reasoning**: Each term \( \frac{f(n+1)}{f(n)} \) simplifies to \( f(1) \), and since \( f(1) = 2 \), the sum of 2020 terms each equal to 2 is 2020.
+
+**Answer**: D)

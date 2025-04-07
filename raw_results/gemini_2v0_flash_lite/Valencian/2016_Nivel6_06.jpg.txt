@@ -1,0 +1,15 @@
+Raonament:
+1. **Identificar els requisits:** Busquem nombres de dues xifres (entre 10 i 99) que siguin múltiples de 3 i que la diferència absoluta entre les seves xifres sigui 3.
+2. **Considerar les possibilitats:**
+   *   **Xifra de les desenes menys la xifra de les unitats és 3:**  Tenim els nombres 63 (6-3=3, divisible per 3), 96 (9-6=3, divisible per 3).
+   *   **Xifra de les unitats menys la xifra de les desenes és 3:** Tenim els nombres 14, 25, 36, 47, 58, 69, 70, 81, 92. D'aquests, els que són múltiples de 3 son: 14, 25, 36, 47, 58, 69, 70, 81, 92. 
+3. **Verificar la divisibilitat per 3:** Comprovem quins d'aquests nombres són divisibles per 3:
+   *   63/3 = 21 (divisible)
+   *   96/3 = 32 (divisible)
+   *   36/3 = 12 (divisible)
+   *   96/3 = 23 (divisible)
+   *  96/3 = 27 (divisible)
+
+4. **Comptar els nombres vàlids:**  Hem trobat 5 nombres que compleixen les condicions.
+
+Resposta: D)

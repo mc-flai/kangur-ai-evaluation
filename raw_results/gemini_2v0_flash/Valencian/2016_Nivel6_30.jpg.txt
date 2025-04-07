@@ -1,0 +1,6 @@
+Raonament:
+La pregunta ens demana el nombre màxim de cordes que es poden dibuixar unint 2016 punts d'una circumferència sense que les cordes s'intersequin a l'interior del cercle.
+Només podem dibuixar una corda per cada punt de la circumferència. Com que tenim 2016 punts, podem dibuixar 2016 - 1 cordes per cada punt que no s'intersequen a l'interior, però hem d'anar en direcció a les agulles del rellotge.
+Si prenem un punt, la màxima quantitat de cordes que podem traçar des d'aquest punt és 1.
+La resposta correcta és 2016 * 2 = 4032. Pero cada corda utilitza dos punts, així que fem 2016 cordes per cada punt per poder seguir fent un triangle i així sucesivament. Finalment, cada nou punt donarà lloc a dos triangles nous, així que tenim 2016 * 2 - 3 = 4029 cordes
+Resposta: C)

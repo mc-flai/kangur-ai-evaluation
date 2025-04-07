@@ -1,0 +1,14 @@
+Raonament:
+La pregunta 15 demana trobar el valor de $n$ que satisfà l'equació $9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 3^{2016}$.
+
+Primer, simplifiquem el costat esquerre de l'equació. Tenim nou termes de $9^n$, de manera que podem escriure l'equació com $9 \cdot 9^n = 3^{2016}$.
+
+Podem escriure $9$ com $3^2$, llavors tenim $3^2 \cdot 9^n = 3^{2016}$. A més, $9^n = (3^2)^n = 3^{2n}$. Així, l'equació esdevé $3^2 \cdot 3^{2n} = 3^{2016}$.
+
+Ara podem combinar els termes exponencials del costat esquerre utilitzant la regla $a^m \cdot a^n = a^{m+n}$. Això ens dona $3^{2+2n} = 3^{2016}$.
+
+Com que les bases són iguals, podem igualar els exponents: $2+2n = 2016$. Ara hem de resoldre per $n$.
+Subtraiem 2 de cada costat per obtenir $2n = 2016 - 2 = 2014$.
+Dividim cada costat per 2 per obtenir $n = \frac{2014}{2} = 1007$.
+
+Resposta: E)

@@ -1,0 +1,13 @@
+Raonament:
+Primer, calculem la puntuació total dels 40 jugadors: 40 jugadors * 8,9 punts/jugador = 356 punts.
+Després, calculem la puntuació total dels primers 34 jugadors: 34 jugadors * 9 punts/jugador = 306 punts.
+La puntuació total dels últims 6 jugadors és la diferència entre la puntuació total dels 40 jugadors i la puntuació total dels primers 34 jugadors: 356 punts - 306 punts = 50 punts.
+Ara, determinem el nombre màxim de jugadors que poden obtenir 10 punts. Si n jugadors obtenen 10 punts, els 6-n jugadors restants han d'obtenir almenys 7 punts. Per tant, la puntuació total dels últims 6 jugadors seria:
+10n + 7(6-n) <= 50
+10n + 42 - 7n <= 50
+3n <= 8
+n <= 8/3
+n <= 2,67
+Com que n ha de ser un nombre enter, el nombre màxim de jugadors que poden obtenir 10 punts és 2.
+
+Resposta: B)

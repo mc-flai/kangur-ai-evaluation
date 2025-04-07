@@ -1,0 +1,26 @@
+Pour déterminer le volume d'une brique rectangulaire, nous devons utiliser la formule pour le volume d'un parallélépipède rectangle, qui est le produit de ses trois dimensions.
+
+Les faces de la brique rectangulaire sont égales aux aires \( S \), \( T \), et \( U \). Cela signifie que :
+- \( S = a \times b \)
+- \( T = b \times c \)
+- \( U = a \times c \)
+
+où \( a \), \( b \), et \( c \) sont les longueurs des côtés de la brique rectangulaire.
+
+Le volume \( V \) d'une brique rectangulaire est donné par :
+\[ V = a \times b \times c \]
+
+Pour trouver ce volume à partir des aires \( S \), \( T \), et \( U \), nous devons prendre la racine carrée de chaque aire pour obtenir les dimensions individuelles, puis multiplier ces dimensions entre elles. Cela donne :
+\[ \sqrt{S} = \sqrt{a \times b} \]
+\[ \sqrt{T} = \sqrt{b \times c} \]
+\[ \sqrt{U} = \sqrt{a \times c} \]
+
+En multipliant ces racines carrées, nous obtenons :
+\[ \sqrt{S} \times \sqrt{T} \times \sqrt{U} = \sqrt{a \times b} \times \sqrt{b \times c} \times \sqrt{a \times c} = a \times b \times c \]
+
+Ainsi, le volume de la brique est :
+\[ \sqrt{STU} \]
+
+Raisonnement : Le volume d'une brique rectangulaire est donné par le produit des racines carrées des aires de ses faces.
+
+Réponse : D).

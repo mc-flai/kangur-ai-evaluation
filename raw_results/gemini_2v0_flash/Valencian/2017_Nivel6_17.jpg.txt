@@ -1,0 +1,38 @@
+Raonament:
+Sigui el punt A = (0, 2017). Sigui A' = (x', y') el simètric de A respecte de la recta y = mx.
+El punt mig del segment AA' està sobre la recta y = mx.
+Punt mig de AA': M = (x'/2, (y' + 2017)/2).
+Per tant, (y' + 2017)/2 = m * (x'/2)  => y' + 2017 = mx'  => y' = mx' - 2017.
+A més, el segment AA' és perpendicular a la recta y = mx.
+El pendent de AA' és (y' - 2017)/(x' - 0) = (mx' - 2017 - 2017)/x' = (mx' - 4034)/x'.
+El pendent de la recta y = mx és m.
+Com que són perpendiculars, m * (mx' - 4034)/x' = -1  => m^2 x' - 4034m = -x'
+=> x'(m^2 + 1) = 4034m  => x' = 4034m / (m^2 + 1)
+y' = m * (4034m / (m^2 + 1)) - 2017 = (4034m^2 - 2017(m^2 + 1)) / (m^2 + 1)
+= (2017m^2 - 2017) / (m^2 + 1) = 2017(m^2 - 1) / (m^2 + 1).
+Volem que x' i y' siguin enters.
+Com que 2017 és primer, 4034 = 2 * 2017.
+x' = (2 * 2017 * m) / (m^2 + 1)
+y' = 2017(m^2 - 1) / (m^2 + 1)
+
+Si m=1, x' = 4034/2 = 2017, y' = 0. Així (2017, 0) és el simètric.
+Si m=2017, x' = (2*2017*2017) / (2017^2 + 1), no enter.
+Si m=2, x' = 8068/5, y' = 2017(3/5), cap dels dos enters.
+Si m=3, x' = 12102/10, y' = 2017(8/10).
+
+x' ha de ser enter. Com que 2017 és primer, m^2+1 ha de dividir 2 o 2017 o m.
+Si m=1, x' = 2017, y' = 0, que són enters.
+Si m^2 + 1 divideix m, impossible si m>1.
+m=2017, x' = 4034 * 2017 / (2017^2 + 1). No és enter.
+Si m=2017k, x' = (2 * 2017 * 2017 k) / (2017^2 k^2 + 1).
+Quan m tendeix a infinit, x' tendeix a 0 i y' tendeix a 2017.
+m=1. A' = (2017, 0).
+
+Sigui m=1. (0, 2017) s'envia a (2017, 0) que té coordenades enteres.
+A partir de la definició de x' i y', veiem que quan m és gran, x' s'aproxima a 0 i y' s'aproxima a 2017.  Només m=1 compleix les condicions.
+
+Resposta: A)
+Raonament:
+Hemos encontrado que para m=1, el punto simétrico tiene coordenadas enteras (2017, 0). Para otros valores de m, es más difícil que se cumpla la condición de coordenadas enteras.
+
+Resposta: A)

@@ -1,0 +1,74 @@
+Raonament: The problem states that the sum of each set of three numbers (one from the center and two outer circles) must be divisible by 4. The possible numbers in the circles are 1 to 9. Let 'x' be the central number. Let the outer numbers be a, b, c, d, e, f, g, and h. The sums of the lines will be:
+x + a + b = multiple of 4
+x + c + d = multiple of 4
+x + e + f = multiple of 4
+x + g + h = multiple of 4
+Therefore, x + a + b + x + c + d + x + e + f + x + g + h = 4x + (sum of 1 to 9) = 4x + 45 = a multiple of 4.
+Since 4x is a multiple of 4, then 45 must also have a remainder of 0 when divided by 4. However, 45/4 = 11 remainder 1. This means we must adjust x so that the result is a multiple of 4. x must be such that 4x + 45 is a multiple of 4. Let's examine each option for the central number, x:
+
+A) x can be any of the 9 numbers: This is incorrect, because x would have to remove the remainder of 1 from the 45 sum. x can't be every number.
+B) x can be 1, 5, or 9. If x = 1, the total sum will be 49, remainder 1. If x = 5, the total sum will be 65, remainder 1. If x = 9, the total sum will be 81, remainder 1. That doesn't fit. The total sum needs to be divisible by 4.
+C) If x = 9, the sum is 81. 81/4 = 20 remainder 1. This doesn't fit.
+D) If x = 5, the sum is 65. 65/4 = 16 remainder 1. This doesn't fit.
+E) If x = 1, the sum is 49. 49/4 = 12 remainder 1. This doesn't fit.
+
+However, if 45 + 4x is divisible by 4, then the remainder is 0 when divided by 4. This can only happen if x=5. The possible sum would be 65, with a remainder of 1. This would seem to contradict my prior answer. But now let's look at the outer numbers, a to h, and their sums.
+The answer is D if 5 is the center.
+
+Let's re-evaluate the approach.
+The sums must be divisible by 4, so the remainder from each line must be either 0, 1, 2, or 3 when divided by 4.
+Total Sum of numbers 1 to 9 = 45.
+If x = 1, 4x + 45 = 4 + 45 = 49 which is 1 mod 4
+If x = 2, 4x + 45 = 8 + 45 = 53 which is 1 mod 4
+If x = 3, 4x + 45 = 12 + 45 = 57 which is 1 mod 4
+If x = 4, 4x + 45 = 16 + 45 = 61 which is 1 mod 4
+If x = 5, 4x + 45 = 20 + 45 = 65 which is 1 mod 4
+If x = 6, 4x + 45 = 24 + 45 = 69 which is 1 mod 4
+If x = 7, 4x + 45 = 28 + 45 = 73 which is 1 mod 4
+If x = 8, 4x + 45 = 32 + 45 = 77 which is 1 mod 4
+If x = 9, 4x + 45 = 36 + 45 = 81 which is 1 mod 4
+
+Let's try to build this from the outside in with numbers whose sum is divisible by 4.
+1 + 2 + x = multiple of 4
+3 + 4 + x = multiple of 4
+5 + 6 + x = multiple of 4
+7 + 8 + x = multiple of 4
+If we use (1,2) (3,4) (5,6) (7,8) and make all sums divisible by 4, it can be done if the center number is 5.
+5 + 1 + 2 = 8
+5 + 3 + 4 = 12
+5 + 6 + 7 = 18, so 5 is not the correct center.
+5 + 8 + 9 = 22
+
+Let's test if 5 can be in the center. 1 + 2 + 5 = 8,  3 + 4 + 5 = 12, 6+7+5 = 18.
+Let's consider (1, 7, 8, 2, 9, 3, 4, 6, 5). The sums can be 1+7+5 = 13 (no).  5 in the middle is not working.
+
+It appears none of the answers fits.
+
+We need each line sum to be divisible by 4.
+If the numbers are 1-9, then there is no number that fits that can be the center.
+
+However, I am missing something. 
+
+Let's analyze if it is 5: if 5 is in the center. The combinations can be like this:
+5+1+2 = 8
+5+3+4 = 12
+5+6+7 = 18  --> no because it isn't a multiple of 4.
+5+8+9 = 22 --> no because it isn't a multiple of 4.
+
+If it is 1 in the center:
+1+2+5=8
+1+3+x = 4.
+1+x+y
+1+6+x=4
+
+Let's look at if 9 can be the center
+9+1+x = 4x.
+9+2+3 = 14 not divisible.
+
+Let's look at the case that is B) Només hi poden anar 1'1, el 5 o el 9.
+if 1 is in the center. 1,5, 7. 1,3,4. 1,2,x
+If it is 5 in the center. 5,1,2, 5,3,4. 5,6,7. 5,8,9
+If it is 9 in the center. 9,1,2,3,9,4,5.9,6,7
+Answer should be D) Només hi pot anar el 5.
+
+Resposta: D)

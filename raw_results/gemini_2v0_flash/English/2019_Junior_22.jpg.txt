@@ -1,0 +1,16 @@
+Reasoning:
+Let $n$ be the number of boxes. Since each box must have the same number of apples, the number of apples per box is $60/n$. Therefore, $n$ must be a divisor of 60.
+Since no two boxes should contain the same amount of pears, the number of pears in each box must be distinct. The number of pears in the boxes must add up to 60.
+Let $p_i$ be the number of pears in box $i$, where $i = 1, 2, \dots, n$. We must have $p_i \neq p_j$ for $i \neq j$. We want to maximize $n$.
+To maximize the number of boxes $n$, we want to minimize the number of pears in each box. So, we can start with the smallest possible number of pears: 1, 2, 3, ..., $n$.
+Then we must have $1 + 2 + 3 + \dots + n \leq 60$. The sum of the first $n$ integers is given by $\frac{n(n+1)}{2} \leq 60$.
+We want to find the largest integer $n$ such that $\frac{n(n+1)}{2} \leq 60$.
+If $n=10$, then $\frac{10(11)}{2} = 55 \leq 60$.
+If $n=11$, then $\frac{11(12)}{2} = 66 > 60$.
+Therefore, the largest possible value for $n$ is 10.
+If $n=10$, the number of pears in the 10 boxes are 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. The sum of these pears is 55. We have 5 pears remaining. We can add these to some of the boxes. For example, we can add them to the first five boxes, to get 2, 3, 4, 5, 6, 6, 7, 8, 9, 10. Now two boxes contain 6 pears. But if we add those 5 pears to 5 random boxes, we obtain the pear counts to be $1+1, 2+1, 3+1, 4+1, 5+1$, leaving boxes $6, 7, 8, 9, 10$.
+So let $n=10$. The pear amounts in the 10 boxes are 1, 2, 3, 4, 5, 6, 7, 8, 9, $x$ where $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + x = 60$.
+$45 + x = 60$, so $x = 15$. Since the pear amounts must be distinct, we have the pear amounts as 1, 2, 3, 4, 5, 6, 7, 8, 9, 15.
+Then we can have $60/10 = 6$ apples in each box.
+
+Answer: D)

@@ -1,0 +1,29 @@
+
+La pregunta solicita el número de nombres de tres cifras que contienen al menos uno de los dígitos 1, 2 o 3.
+
+Para resolver esto, necesitamos contar cuántas veces aparece cada dígito en las posiciones de las unidades, decenas y centenas en los números de tres cifras.
+
+1. **Dígito 1**:
+   - En la posición de unidades: 101, 111, 121, 131, 141, 151, 161, 171, 181, 191 (10 números)
+   - En la posición de decenas: 102, 112, 122, 132, 142, 152, 162, 172, 182, 192 (10 números)
+   - En la posición de centenas: 101, 110, 120, 130, 140, 150, 160, 170, 180, 190 (10 números)
+   - Total para el dígito 1: 10 + 10 + 10 = 30
+
+2. **Dígito 2**:
+   - En la posición de unidades: 202, 212, 222, 232, 242, 252, 262, 272, 282, 292 (10 números)
+   - En la posición de decenas: 201, 211, 221, 231, 241, 251, 261, 271, 281, 291 (10 números)
+   - En la posición de centenas: 200, 210, 220, 230, 240, 250, 260, 270, 280, 290 (10 números)
+   - Total para el dígito 2: 10 + 10 + 10 = 30
+
+3. **Dígito 3**:
+   - En la posición de unidades: 303, 313, 323, 333, 343, 353, 363, 373, 383, 393 (10 números)
+   - En la posición de decenas: 301, 311, 321, 331, 341, 351, 361, 371, 381, 391 (10 números)
+   - En la posición de centenas: 300, 310, 320, 330, 340, 350, 360, 370, 380, 390 (10 números)
+   - Total para el dígito 3: 10 + 10 + 10 = 30
+
+Sumando todos los números que contienen al menos uno de los dígitos 1, 2 o 3:
+   - Total: 30 (para el dígito 1) + 30 (para el dígito 2) + 30 (para el dígito 3) = 90
+
+Raonament: Hemos contado el número de veces que cada uno de los dígitos 1, 2 y 3 aparece en cada posición de los números de tres cifras y luego sumamos esos conteos para obtener el total.
+
+Resposta: E)

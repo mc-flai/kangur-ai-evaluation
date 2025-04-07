@@ -1,0 +1,19 @@
+Para determinar el número máximo de gatos que pueden estar en la película, necesitamos analizar la información dada:
+
+- Hay 23 animales en total en la película.
+- Cada animal es un gato o un perro.
+- Todos los perros tienen un dueño que es un gato.
+
+Esto significa que cada perro debe ser dueño de un gato. Por lo tanto, el número de perros en la película es igual al número de gatos.
+
+Razonamiento:
+1. Sabemos que hay 23 animales en total.
+2. Si cada perro tiene un dueño que es un gato, el número de perros debe ser igual al número de gatos.
+3. Por lo tanto, el número de gatos es igual al número de perros.
+4. El número total de animales es la suma de gatos y perros, que es 23.
+5. Si llamamos a este número x, entonces x (gatos) + x (perros) = 23.
+6. Esto se simplifica a 2x = 23.
+7. Dividiendo ambos lados por 2, obtenemos x = 11.5.
+8. Dado que no podemos tener medio animal, esto significa que el número máximo de gatos debe ser el número entero más cercano que sume 23 cuando se duplica, que es 11.
+
+Respuesta: D)

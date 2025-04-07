@@ -1,0 +1,7 @@
+Reasoning:
+Let's analyze the problem. The passengers in a carriage have neighbors in their own carriage, and those in the adjacent carriages. If a passenger is in an end carriage, they have neighbors in the same carriage and one adjacent carriage, totaling 10 neighbors. If they have 5 neighbors, the situation is not possible, so the total number of passengers must be 15 (3 passengers per carriage)
+
+If there are 3 passengers in each of the 5 carriages, there will be exactly 3 passengers in each of the carriages and each passenger in the middle carriages will have 10 neighbors, and each in the end carriages will have 5.
+This is 15 in total.
+
+Answer: B)

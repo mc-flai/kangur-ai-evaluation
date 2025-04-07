@@ -1,0 +1,10 @@
+Per resoldre aquesta pregunta, hem de considerar les propietats dels triangles i les línies rectes que travessen els seus vèrtexs.
+
+**Raonament**:
+1. **Propietats dels triangles**: Un triangle té 3 vèrtexs i 3 costats.
+2. **Línia recta que passa per un vèrtex**: Una línia recta que passa per un vèrtex d'un triangle pot ser dibuixada de manera que travessa almenys un dels costats del triangle.
+3. **Quantitat de maneres de dibuixar una línia recta**: Per a cada vèrtex, podem dibuixar una línia recta que passi per aquest vèrtex i travessi un dels dos costats adjacents. Això significa que per a cada vèrtex, hi ha 2 maneres de dibuixar una línia recta que compleixi aquesta condició.
+4. **Total de maneres**: Com que hi ha 6 vèrtexs (3 per cada triangle), i per a cada vèrtex hi ha 2 maneres de dibuixar la línia recta, el total de maneres de dibuixar una línia recta que compleixi les condicions és 2 * 6 = 12.
+5. **Dependència dels vèrtexs**: La pregunta també considera la possibilitat que el nombre de maneres de dibuixar la línia recta depengui dels vèrtexs que es troben alineats. Això suggereix que la resposta correcta és la que considera aquesta dependència.
+
+**Resposta**: E) Entre 2 i 6, depenent de com estiguin dibuixats.

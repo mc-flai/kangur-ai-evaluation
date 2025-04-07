@@ -1,0 +1,19 @@
+Reasoning:
+We need to find the path that the kangaroo can take to reach the koala without jumping through any squares with water. The kangaroo starts in the bottom left and the koala is at the top right.
+
+A) right, up, up, up, up, right, right, right, right: This path avoids the water.
+B) right, up, up, right, up, up, up, right, right, up, up: This path avoids the water.
+C) right, up, up, up, right, up, up, right, right, right: This path avoids the water.
+D) right, up, up, up, right, up, up, up, left, left: This path leads through the water.
+E) right, up, up, up, right, right, right, right, right, right: This path avoids the water.
+
+Now we need to check whether the path lead the kangaroo to the koala.
+
+A) starts at (0,0), moves: (1,0),(1,1),(1,2),(1,3),(1,4),(2,4),(3,4),(4,4),(5,4) - reaches koala
+B) starts at (0,0), moves: (1,0),(1,1),(1,2),(2,2),(2,3),(2,4),(2,5),(3,5),(4,5),(4,6) - reaches koala
+C) starts at (0,0), moves: (1,0),(1,1),(1,2),(1,3),(2,3),(2,4),(2,5),(3,5),(4,5),(5,5) - doesn't reach koala, needs one right and one up
+E) starts at (0,0), moves: (1,0),(1,1),(1,2),(1,3),(2,3),(3,3),(4,3),(5,3),(6,3) - reaches koala
+
+By going through each of them on the grid, we see that option A is the only viable option.
+
+Answer: A)

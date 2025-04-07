@@ -1,0 +1,12 @@
+Reasoning: Visualize the object and consider the number of colored faces each die will have. The dice with exactly four colored faces are those that are located along the edges of the object, excluding the corner dice (which will have 3 faces colored) and internal dice (which have less than 4 faces). Count each die with exactly four faces colored, accounting for each visible face.
+
+The dice with four faces colored are:
+- One die on top on the left
+- Three dice along the side of the left arm (vertical)
+- Two dice in the center row on the horizontal section
+- One die at the end of the horizontal section
+- One die on the top right corner
+
+Total = 1 + 3 + 2 + 1 = 8 dice with four faces coloured
+
+Answer: A)

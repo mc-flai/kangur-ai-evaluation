@@ -1,0 +1,11 @@
+Razonamiento:
+Hay 12 chicas y el promedio de dulces que se come cada una es 1.5. Esto significa que el total de dulces que se comieron es 12 * 1.5 = 18. Dos chicas no comen ningún dulce, ya que sólo beben agua mineral. El resto de las chicas, 12 - 2 = 10, comieron entre 0 y 2 dulces.
+Sea x el número de chicas que se comieron 2 dulces, y sea y el número de chicas que se comieron 1 dulce. Entonces, 10-x-y es el número de chicas que se comieron 0 dulces. Sin embargo, ya sabemos que 2 chicas no comieron dulces, y que 10 chicas son las que si comieron dulces. Entonces x+y es el número de chicas que comen 1 o 2 dulces. Por lo tanto x+y debe ser 10.
+El número total de dulces es 2x + y = 18. Ahora tengo un sistema de ecuaciones:
+x + y = 10
+2x + y = 18
+Restando la primera ecuación a la segunda da x = 8. Entonces y = 10 - 8 = 2. Entonces, 8 chicas comieron 2 dulces cada una y 2 chicas comieron 1 dulce cada una.
+El total de dulces es 2 * 8 + 1 * 2 = 16 + 2 = 18, que es lo que esperábamos.
+Por lo tanto, 8 chicas se comieron 2 dulces.
+
+Respuesta: E)

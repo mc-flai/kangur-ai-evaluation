@@ -1,0 +1,33 @@
+Reasoning:
+There are three teams. Each team plays against each other once. So there are a total of 3 matches.
+Possible outcomes for each match:
+- Team A wins: 3 points to A, 0 to B.
+- Team B wins: 3 points to B, 0 to A.
+- Draw: 1 point to A, 1 point to B.
+Total points possible across all matches = 3 * (3+0) or 3*(1+1).
+Total points in the tournament = 3 * 3 = 9 if there are no draws and total points = 3*2 = 6 if there were three draws
+Let's consider the possible scores each team can have:
+- All matches are draws: each team has 2 points.
+- One team wins twice: 6 points, one team loses twice: 0 points, one team wins once and loses once: 3 points.
+- One team wins twice: 6 points, one team draws once and loses once: 1 point, one team wins once and draws once: 4 points.
+- One team wins once and draws once = 4 points.
+- One team wins once, loses once = 3 points.
+- One team draws twice = 2 points.
+Possible scores include 0, 1, 2, 3, 4, 6.
+Also: Total points = 6,7,8 or 9.
+If one team has score 5, let other scores be x and y.
+x + y = 6 or 7 or 8 or 9 - 5 = 1 or 2 or 3 or 4.
+Possible combinations of points are : 6, 0, 3 or 1, 2, 3 where the matches include 0 or 3 points and 1 point (draw).
+
+If A = 1, possible sums with two scores equals = 5 or 6 or 7 or 8 = 2 + 3 or 3 + 3 or 4+3 possible, all scores possible.
+
+Assume, team cannot score the point mentioned in choice and check if we can form possible scores.
+A. 1: 6, 2, 1, 4, 3, 0 are the possible scores. So A = 1 is a possible score, we can have 6, 2, 1 score.
+B. 2: 6, 1, 2, 4, 3, 0. 6, 1, 2 - possible.
+C. 4: 6, 1, 2, 4, 3, 0. We can have 6, 0, 3 or 1, 2, 3. Total 9 possible, but can we have 6, 0, 3 or 1, 2, 3 that include score 4? 3 and 3 make 6, so 3 scores should add up to 9. 4+3+2 = 9. So its possible.
+D. 5: Cannot add up to 6, 7, 8 or 9. Cannot be a possible outcome!
+E. 6: We already saw we can get 6. 6, 0, 3. possible.
+
+Reasoning: The only impossible score is 5.
+
+Answer: D)

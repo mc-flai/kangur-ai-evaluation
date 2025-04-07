@@ -1,0 +1,28 @@
+Reasoning:
+The area of the square is 20 cm², so the side of the square is √20 = 2√5 cm.
+Since the side of the square is also the width of the rectangle, the width of the rectangle is 2√5 cm.
+The circle is tangent to one side of the rectangle, meaning the diameter of the circle is the length of the rectangle. The radius is half of that.
+The square's side is equal to √20. This also equals the distance from the center of the circle to one of the rectangle vertices that are on the circle.
+Let the radius be *r*. So, the coordinates of the center of the circle are (2√5, *r*). One point on the circle is (0, 2*r*). The point (0, 2*r*) is also one of the two vertices over the circle.
+The distance between (2√5, r) and (0, 2r) is r.
+So, using the distance formula: √((2√5 - 0)² + (r - 2r)²) = r
+√(20 + r²) = r
+20 + r² = r²
+This is not correct. I have to find the point where the top vertex lies. Since the top vertex lies at the corner of the square, it sits at (0, r + 2√5). So √((2√5 - 0)² + (r - (r+√20))²) = r
+√(20 + (√20)²) = r => √(20 + 20) = r
+√40 = r = 2√10
+Length = diameter = 2r = 4√10. Width = √20 = 2√5.
+Area of the rectangle = L*W = 4√10 * 2√5 = 8√50 = 8*5√2 = 40√2 cm²
+But √2 = 1.414 so Area= 56.56 which is not listed
+The point on the square that's on the circle has coordinate (0, 2√5 + r), and is a point of the circle. The center of the circle is (2√5, r).
+Then r² = (2√5)² + (r - r - 2√5)² or r² = (2√5)² + (-2√5)² or r² = 20 + 20 or r² = 40. So r = 2√10. The side of the square is √20 = 2√5
+Length of rectangle = 2r = 4√10. width = 2√5
+Area = 8√50 = 40√2 = 56.56 cm².
+
+If the height of the square were sqrt(5) and area = 5 then we have length of the rectangle is twice the radius. r² = (2sqrt(5))² + (r-sqrt(5)-r)²
+sqrt((2sqrt(5))² + (-sqrt(5))²) = r, so (20+5) ^.5=r so sqrt25 =5 then length = 10, then area = 2* sqrt5 *10 = 20 sqrt5; something still wrong.
+
+We have r² = (2√5)² + (r-2√5)². So r² = 20 + r²- 4√5 r + 20, 4√5 r = 40, r = 10√5/5 = 2√5
+Length = 4√5, width = 2√5 Area= 8*5= 40
+Reasoning: After carefully considering the distances and the equation for the circle, the area of the rectangle is 40 cm².
+Answer: A)

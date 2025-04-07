@@ -1,0 +1,10 @@
+Razonamiento:
+The problem states that the first digit is 1, and the subsequent digits must be greater or equal to the preceding digit.  Also, the sum of the digits must equal 5. We need to find all the numbers Ricardo wrote.
+*   **One-digit numbers:** The sum is already 5.  This is impossible as the first digit is 1, so the number must have a sum of 5.
+*   **Two-digit numbers:** The first digit is 1, and the sum is 5, so the second digit must be 4. Therefore, the number is 14.
+*   **Three-digit numbers:**  The first digit is 1, and since the digits must increase (or remain the same), we are left with 4 to be the sum of the remaining two digits. The possibilities are 113, 122.
+*   **Four-digit numbers:** The first digit is 1, so the remaining sum is 4. Digits must increase or be equal. Therefore, the possibilities are 1112.
+*   **Five-digit numbers:** The first digit is 1, so the remaining sum is 4. Digits must increase or be equal. Therefore, the number is 11111.
+The possible numbers are 14, 113, 122, 1112, 11111. The total number of numbers is 5.
+
+Respuesta: B)

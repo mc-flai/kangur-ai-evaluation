@@ -1,0 +1,23 @@
+Para determinar el valor anterior del descuento, primero necesitamos entender el descuento proporcionado por el supermercado. El supermercado ofrece un descuento del 2% por cada 25 euros gastados en sus productos.
+
+1. Calculamos el valor del descuento proporcionado por el supermercado:
+   - El descuento es del 2% por cada 25 euros gastados.
+   - Si gastas 25 euros, recibes un descuento del 2%, que es 0.02 * 25 euros = 0.5 euros.
+
+2. Ahora, determinamos el valor total del descuento proporcionado para una compra de 368 euros:
+   - Para cada 25 euros gastados, se aplica un descuento del 2%.
+   - Dividimos 368 euros por 25 euros para encontrar el número de bloques de 25 euros:
+     368 euros / 25 euros = 14.72 bloques.
+   - Solo podemos considerar 14 bloques completos de 25 euros.
+   - El descuento total para estos 14 bloques es:
+     14 bloques * 0.5 euros = 7 euros.
+
+3. Finalmente, calculamos el valor anterior del descuento:
+   - El valor anterior del descuento es el valor del descuento proporcionado multiplicado por el factor de descuento.
+   - El factor de descuento es 100 / 98 (ya que el 2% se aplica como un descuento del 98% del valor original).
+   - El valor anterior del descuento es:
+     7 euros * (100 / 98) = 700 / 98 ≈ 7.14 euros.
+
+Por lo tanto, el valor anterior del descuento es aproximadamente 7.14 euros.
+
+Respuesta: E)

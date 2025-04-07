@@ -1,0 +1,8 @@
+Raonament:
+La pregunta demana el nombre de quadrats de costat 1 que talla la línia AC. Aquest problema és similar a trobar el nombre de punts reticulars per on passa la diagonal.
+El nombre de quadrats tallats es pot calcular amb la fórmula: llargada + amplada - mcd(llargada, amplada).
+En aquest cas, la llargada és 36 i l'amplada és 25.
+mcd(36, 25) = 1.
+Per tant, el nombre de quadrats tallats per la diagonal és 36 + 25 - 1 = 60.
+
+Resposta: A)

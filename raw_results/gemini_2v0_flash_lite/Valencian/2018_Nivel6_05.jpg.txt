@@ -1,0 +1,9 @@
+Raonament:
+1. **Quadrats rojos:** Els quadrats de la vora (perímetre) són rojos.  Per tant, els quadrats a la vora superior i inferior (10 cadascun) i les vores laterals (9 cadascun) són rojos. Això fa un total de 10+10+9+9 = 38 quadrats. Tanmateix, les cantonades s'han comptat dues vegades, així que 38-4=34.
+2. **Quadrats verds:** Ara, pintem de verd els quadrats adjacents als rojos.  Això inclou els quadrats adjacents als costats dels quadrats vermells.
+    - Els quadrats verds estan immediatament a l'interior dels costats vermells.
+    - Els quadrats adjacents a les vores vermelles es pinten de verd.
+    - La part central no té quadrats rojos, per tant no es pinta de verd.
+3. **Quadrats blancs restants:** Per a la part interior, si la amplada és 10 i l'altura és 9, els quadrats blancs estan a 10-2=8 quadrats de amplada i 9-2=7 quadrats d'altura. Això ens dona una àrea de 8*7 = 56 quadrats.
+
+Resposta: D) 56

@@ -1,0 +1,23 @@
+Raonament:
+1.  **Entendre la figura:** La figura és un quadrat amb quatre cercles en el seu interior. El quadrat exterior està dividit en tres regions: una àrea negra central (N), una àrea grisa exterior (G) i l'àrea ocupada pels cercles.
+
+2.  **Identificar la relació:** La pregunta vol saber la relació entre l'àrea negra i l'àrea grisa, és a dir, N/G.
+
+3.  **Calcular les àrees:**
+    *   **Àrea negra (N):** L'àrea negra és un quadrat. Si assumim que el radi de cada cercle és 'r', aleshores el costat del quadrat negre és √2 * r - r * 2 = (√2-2) * r
+        L'àrea del quadrat negre és (2r - 2r * (2 - √2) = 2r^2(2-√2). (Error en el raonament original, es considera el costat incorrecte)
+    *  **Àrea total:**
+        L'àrea del quadrat és (2r)^2 = 4r^2.
+        L'àrea de quatre cercles és 4πr^2/4 = πr^2
+    *   **Àrea grisa (G):** L'àrea grisa és l'àrea del quadrat menys l'àrea dels quatre cercles i l'àrea negra. G = 4r^2 - (πr^2 + 2r^2 - 2√2r^2)
+        Com que no sabem l'àrea de la zona negra, podem dir que l'àrea grisa és la resta de l'àrea del quadrat (4r^2) menys les àrees dels cercles (πr^2).
+
+4.  **Proporció:** La pregunta demana la relació entre l'àrea negra i l'àrea grisa.
+
+    *   L'àrea del quadrat negre és 4r^2 - πr^2.  Podem prendre una proporció aproximada.
+    *   Aproximadament:  G=4r^2-πr^2 i N = 4r^2 - πr^2 - G
+    *  Deducció:  G = 4r^2 - πr^2
+    *  Si el costat de la figura negra és 2r -2 *r, llavors l'àrea de N és (√2r - r - r)^2 = (√2 - 2)^2 r^2.
+    *  La resposta més propera és 1/3
+
+Resposta: B)

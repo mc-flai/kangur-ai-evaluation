@@ -1,0 +1,18 @@
+Raonament:
+El problema descriu un triangle rectangle amb angle recte en A. Siga M el punt mitjà de BC. La distància de M a AB és menor que la longitud del segment AC.
+Com que M és el punt mitjà de la hipotenusa BC, la distància de M a AB és la meitat de la longitud d'AC, és a dir, dist(M, AB) = AC/2. El problema afirma que dist(M, AB) < AC, cosa que sempre és certa. D'altra banda, dist(M, AB) < AC.
+L'afirmació essencial és que la distància de M a AB és inferior a AC. Aquesta distància és (1/2)*AC.
+Si AC > AB, aleshores l'angle en B és més gran que l'angle en C. Si AB > AC, aleshores l'angle en C és més gran que l'angle en B.
+Per la condició donada, sabem que la distància del punt mitjà de BC a AB és més petita que la longitud del segment AC. Això ens diu que AB < BC < AC seria incorrecte. Si AC > AB, aleshores la projecció de BC a AC serà més gran, i llavors la distància del punt mitjà de BC a AC serà menor que la distància del punt mitjà de BC a AB. En un triangle rectangle, la hipotenusa és sempre el costat més llarg, per tant, BC > AC i BC > AB no poden ser alhora certs.
+Considera la situació en què AC < AB. Llavors l'angle B < angle C. L'angle C + angle B = 90 graus. Per tant, angle B < 45 graus.
+Comprovem les opcions:
+A) AB < AC < BC.
+B) AC < BC < AB.
+C) BC < AB < AC: Incorrecte perquè BC és la hipotenusa.
+D) AC < AB < BC
+E) AB < BC < AC: Incorrecte perquè BC és la hipotenusa.
+Sabem que BC és el costat més llarg, així que la resta són que AB < AC o AC < AB.
+Sabem que la distància del punt mitjà de BC a AB és inferior a AC. Com que aquesta distància és (1/2)*AC, això vol dir AC/2 < AC, que és cert per a qualsevol AC>0. Així la condició adicional donada no ens diu massa.
+La veritable desigualtat és AC < AB < BC
+
+Resposta: D)

@@ -1,0 +1,44 @@
+
+La pregunta es: Si \(9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 3^{2016}\), ¿cuál es el valor de \(n\)?
+
+Para resolver esto, sigamos estos pasos:
+
+1. **Simplificar la suma**: Primero, observe que cada término en la suma es igual a \(9^n\). Hay 7 términos, por lo que la suma se puede escribir como:
+   \[
+   9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 7 \cdot 9^n
+   \]
+
+2. **Convertir a potencias de 3**: Sabemos que \(9 = 3^2\), por lo que \(9^n = (3^2)^n = 3^{2n}\). Entonces, la ecuación se convierte en:
+   \[
+   7 \cdot 3^{2n} = 3^{2016}
+   \]
+
+3. **Igualar las potencias**: Para que ambos lados de la ecuación sean iguales, las bases y los exponentes deben ser iguales. Por lo tanto, podemos escribir:
+   \[
+   7 \cdot 3^{2n} = 3^{2016}
+   \]
+
+4. **Separar los factores**: Dividimos ambos lados de la ecuación por \(3^{2n}\):
+   \[
+   7 = 3^{2016 - 2n}
+   \]
+
+5. **Resolver para \(n\)**: Dado que \(7\) no es una potencia de \(3\), el lado derecho de la ecuación debe ser igual a \(7\). Esto solo es posible si el exponente en el lado derecho es cero:
+   \[
+   2016 - 2n = 0
+   \]
+
+6. **Resolver la ecuación**: Resolviendo para \(n\):
+   \[
+   2n = 2016
+   \]
+   \[
+   n = \frac{2016}{2}
+   \]
+   \[
+   n = 1008
+   \]
+
+Por lo tanto, el valor de \(n\) es 1008.
+
+**Respuesta: E**

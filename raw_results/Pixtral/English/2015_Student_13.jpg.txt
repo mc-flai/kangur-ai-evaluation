@@ -1,0 +1,163 @@
+### Reasoning:
+To solve this problem, we need to determine the number that Ella must write into the circle marked with "?" in such a way that each number in the circle is equal to the sum of its two direct neighbors. This is a classic problem involving circular arrangements and can be solved using the properties of modular arithmetic.
+
+Let's denote the numbers in the circles as follows:
+- Circle 1: \( a \)
+- Circle 2: \( b \)
+- Circle 3: \( c \)
+- Circle 4: \( d \)
+- Circle 5: \( e \)
+
+Given that each number is the sum of its two direct neighbors, we can set up the following equations:
+1. \( a = b + c \)
+2. \( b = c + d \)
+3. \( c = d + e \)
+4. \( d = e + a \)
+5. \( e = a + b \)
+
+We already know that one of the circles contains the number 3 and another contains the number 5. Let's assume Circle 1 contains 3 and Circle 2 contains 5. We can then work through the equations to find the other numbers.
+
+Starting with Circle 1:
+\[ a = 3 \]
+
+From Circle 2:
+\[ b = 5 \]
+
+Using the first equation:
+\[ a = b + c \]
+\[ 3 = 5 + c \]
+\[ c = 3 - 5 \]
+\[ c = -2 \]
+
+Using the second equation:
+\[ b = c + d \]
+\[ 5 = -2 + d \]
+\[ d = 5 + 2 \]
+\[ d = 7 \]
+
+Using the third equation:
+\[ c = d + e \]
+\[ -2 = 7 + e \]
+\[ e = -2 - 7 \]
+\[ e = -9 \]
+
+Using the fourth equation:
+\[ d = e + a \]
+\[ 7 = -9 + 3 \]
+\[ 7 = -6 \]
+This is not possible, so we need to re-evaluate our assumptions.
+
+Let's assume Circle 1 contains 5 and Circle 2 contains 3:
+\[ b = 3 \]
+\[ a = 5 \]
+
+Using the first equation:
+\[ a = b + c \]
+\[ 5 = 3 + c \]
+\[ c = 5 - 3 \]
+\[ c = 2 \]
+
+Using the second equation:
+\[ b = c + d \]
+\[ 3 = 2 + d \]
+\[ d = 3 - 2 \]
+\[ d = 1 \]
+
+Using the third equation:
+\[ c = d + e \]
+\[ 2 = 1 + e \]
+\[ e = 2 - 1 \]
+\[ e = 1 \]
+
+Using the fourth equation:
+\[ d = e + a \]
+\[ 1 = 1 + 5 \]
+\[ 1 = 6 \]
+This is also not possible, so we need to re-evaluate our assumptions.
+
+Let's assume Circle 1 contains -16 and Circle 2 contains 3:
+\[ b = 3 \]
+\[ a = -16 \]
+
+Using the first equation:
+\[ a = b + c \]
+\[ -16 = 3 + c \]
+\[ c = -16 - 3 \]
+\[ c = -19 \]
+
+Using the second equation:
+\[ b = c + d \]
+\[ 3 = -19 + d \]
+\[ d = 3 + 19 \]
+\[ d = 22 \]
+
+Using the third equation:
+\[ c = d + e \]
+\[ -19 = 22 + e \]
+\[ e = -19 - 22 \]
+\[ e = -41 \]
+
+Using the fourth equation:
+\[ d = e + a \]
+\[ 22 = -41 + (-16) \]
+\[ 22 = -57 \]
+This is also not possible, so we need to re-evaluate our assumptions.
+
+Let's assume Circle 1 contains -8 and Circle 2 contains 3:
+\[ b = 3 \]
+\[ a = -8 \]
+
+Using the first equation:
+\[ a = b + c \]
+\[ -8 = 3 + c \]
+\[ c = -8 - 3 \]
+\[ c = -11 \]
+
+Using the second equation:
+\[ b = c + d \]
+\[ 3 = -11 + d \]
+\[ d = 3 + 11 \]
+\[ d = 14 \]
+
+Using the third equation:
+\[ c = d + e \]
+\[ -11 = 14 + e \]
+\[ e = -11 - 14 \]
+\[ e = -25 \]
+
+Using the fourth equation:
+\[ d = e + a \]
+\[ 14 = -25 + (-8) \]
+\[ 14 = -33 \]
+This is also not possible, so we need to re-evaluate our assumptions.
+
+Let's assume Circle 1 contains -3 and Circle 2 contains 3:
+\[ b = 3 \]
+\[ a = -3 \]
+
+Using the first equation:
+\[ a = b + c \]
+\[ -3 = 3 + c \]
+\[ c = -3 - 3 \]
+\[ c = -6 \]
+
+Using the second equation:
+\[ b = c + d \]
+\[ 3 = -6 + d \]
+\[ d = 3 + 6 \]
+\[ d = 9 \]
+
+Using the third equation:
+\[ c = d + e \]
+\[ -6 = 9 + e \]
+\[ e = -6 - 9 \]
+\[ e = -15 \]
+
+Using the fourth equation:
+\[ d = e + a \]
+\[ 9 = -15 + (-3) \]
+\[ 9 = -18 \]
+This is also not possible, so we need to re-evaluate our assumptions.
+
+### Answer:
+E) This question has no solution.

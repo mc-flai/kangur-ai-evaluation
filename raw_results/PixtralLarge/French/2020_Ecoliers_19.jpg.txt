@@ -1,0 +1,23 @@
+Pour déterminer combien d'équipes de 5 ou 6 membres peuvent être formées avec 43 personnes, nous devons faire des divisions et des approximations.
+
+1. **Calculer le nombre d'équipes de 5 membres possibles :**
+   - \( 43 \div 5 = 8 \) équipes de 5 membres avec 3 personnes restantes.
+
+2. **Calculer le nombre d'équipes de 6 membres possibles :**
+   - \( 43 \div 6 = 7 \) équipes de 6 membres avec 1 personne restante.
+
+3. **Déterminer la meilleure combinaison :**
+   - En formant 8 équipes de 5 membres, il reste 3 personnes.
+   - En formant 7 équipes de 6 membres, il reste 1 personne.
+   - Cependant, nous devons vérifier s'il est possible de former des équipes de 5 et 6 membres en combinant les restes.
+
+4. **Vérification des combinaisons possibles :**
+   - En formant 7 équipes de 6 membres, il reste 1 personne. Cette personne ne peut pas former une équipe de 5 ou 6 membres.
+   - En formant 8 équipes de 5 membres, il reste 3 personnes. Ces 3 personnes ne peuvent pas former une équipe de 5 ou 6 membres.
+
+5. **Conclusion :**
+   - La meilleure combinaison est de former 7 équipes de 6 membres, car cela laisse le moins de personnes non intégrées dans une équipe.
+
+Raisonnement : En formant 7 équipes de 6 membres, il reste 1 personne, ce qui est la meilleure combinaison possible avec le moins de personnes non intégrées.
+
+Réponse : C)

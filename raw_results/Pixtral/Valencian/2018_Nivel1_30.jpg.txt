@@ -1,0 +1,15 @@
+
+La pregunta 30 describe un problema en el que se le da a Lola una gran figura triangular negra de papel y se le pide que pinte un triángulo blanco en el centro. Luego, se le pide que corte las figuras negras en triángulos más pequeños que se puedan dibujar de manera única, y luego pinte un triángulo blanco en el centro de cada uno de estos triángulos más pequeños. El problema pregunta cuántos triángulos blancos habrá en total después de que Lola repita este proceso tantas veces como sea posible.
+
+Para resolver esto, debemos entender el proceso de división y repintado de los triángulos. Cada vez que se divide un triángulo en triángulos más pequeños, se añade un triángulo blanco adicional en el centro de cada uno de los triángulos más pequeños. El número de triángulos blancos se duplica cada vez que se divide un triángulo.
+
+1. Comenzamos con un solo triángulo grande (1 triángulo blanco).
+2. Al dividir el triángulo grande en triángulos más pequeños, obtenemos 4 triángulos más pequeños, cada uno con un triángulo blanco en el centro, lo que suma 4 triángulos blancos.
+3. Al dividir cada uno de estos 4 triángulos en triángulos más pequeños, obtenemos 4 triángulos más pequeños por cada uno de los 4 triángulos, lo que suma 16 triángulos blancos.
+4. Continuando este proceso, cada división adicional duplica el número de triángulos blancos.
+
+Por lo tanto, el número de triángulos blancos después de cada división es: 1, 4, 16, 64, 256, 1024, 4096, 16384.
+
+La pregunta nos pide el número de triángulos blancos después de que Lola repita este proceso tantas veces como sea posible. La opción correcta es la que corresponde al número de triángulos blancos después de la última división posible.
+
+Respuesta: E)

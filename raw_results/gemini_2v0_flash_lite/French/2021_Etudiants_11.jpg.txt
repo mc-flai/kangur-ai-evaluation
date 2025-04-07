@@ -1,0 +1,9 @@
+Raisonnement :
+La feuille de papier a pour dimensions x et y, avec x > y.  On forme deux cylindres.
+
+*   **Cylindre 1 (grande hauteur)**: On roule la feuille de sorte que la hauteur soit x. La circonférence est y. Le rayon r est donc y = 2πr, donc r = y/(2π). Le volume V1 = πr²h = π(y/(2π))²x = π(y²/(4π²))x = (xy²)/(4π).
+*   **Cylindre 2 (petite hauteur)**: On roule la feuille de sorte que la hauteur soit y. La circonférence est x. Le rayon R est donc x = 2πR, donc R = x/(2π). Le volume V2 = πR²h = π(x/(2π))²y = π(x²/(4π²))y = (x²y)/(4π).
+
+Le quotient du volume du cylindre de plus grande hauteur par le volume du cylindre de plus petite hauteur est V1/V2 = [(xy²)/(4π)] / [(x²y)/(4π)] = (xy²) / (x²y) = y/x.
+
+Réponse : B)

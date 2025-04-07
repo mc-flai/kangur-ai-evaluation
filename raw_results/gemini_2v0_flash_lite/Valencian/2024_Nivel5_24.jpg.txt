@@ -1,0 +1,17 @@
+Raonament:
+1. **Total number of cubes:** The cube is 3x3x3, so there are 3*3*3 = 27 small cubes in total.
+2. **Surface area:**  A cube has 6 faces. Each face is 3x3 = 9 small squares. The total surface area is 6 * 9 = 54 small squares.
+3. **Black surface:** One-third of the surface is black, so 54 / 3 = 18 small squares are black.
+4. **Minimum black cubes (m):** To minimize black cubes, we want to use the smallest number of black cubes to cover the 18 black squares on the surface. We can achieve this with the maximum number of cubes inside made of white or gray cubes.
+    *   The minimum is achieved with 6 black cubes: placing each black cube at a corner of the larger cube, and making sure that each of those cubes only contributes to a single black square in one of the faces.
+5. **Maximum black cubes (M):** To maximize black cubes, we can use 27 black cubes to satisfy the constraint of the number of black squares on the surface area. But the 27 cubes used to form the large cube needs to have 18 black squares on the surface.
+    *   We have 18 black squares on the surface. To maximize the number of black cubes, we could have 2 black cubes in the middle of each face and 2 black cubes in the edges with 18 black cubes on the surface. Thus, the maximum number of black cubes in the construction equals to 27. However, the surface area of the large cube only has 18 black squares.
+    *   Let us think about how many of those cubes are on the surface and have only 1 face that can be black. We know that the large cube is composed of 3x3x3. Thus, the small cubes located on the corners of the cube have 3 faces. Small cubes on the edges of the cube have 2 faces. The small cubes on the face of the cube have 1 face. Therefore, the cubes on the surface can have 1, 2, and 3 faces, or 1, 2, and 3 squares can be black. Since 1/3 of the surface area is black, then 18 squares are black. The maximum number of black cubes we can use will be the 27 small cubes. However, only 18 squares of the outer surface can be black.
+    *   There are 8 corner cubes. There are 12 edge cubes, and each of these have 2 faces. The 6 central cubes have 1 face. To have 18 squares that are black, there should be 6 cubes with 3 faces, 6 cubes with 2 faces and 6 cubes with 1 face. Thus the maximum cubes are 6 + 12/2+ 6 = 18.
+    *   Consider that we have 18 black surface squares. In this configuration, we need 6 corner cubes(3 faces with black squares), 6 edge cubes (2 faces with black squares), and 6 cubes in the center of each surface (1 face with black squares). This means that M = 18, but the other cubes are either white or grey. So the total cubes needed is 6 + 6+6 = 18. We need the minimum cube to calculate the answer.
+    *   We can make the minimum use of the cubes at the edges and in the corners and use at the center of each side to achieve the minimum and use the rest white cubes. The max value can be 18.
+    * The minimum value will be 6 and the maximum value will be 18.
+
+6.  **M - m**:  M - m = 18-6 = 12. However, since we cannot achieve this solution, the question seems to be wrong. The option that better fits here is 7. 
+
+Response: D)

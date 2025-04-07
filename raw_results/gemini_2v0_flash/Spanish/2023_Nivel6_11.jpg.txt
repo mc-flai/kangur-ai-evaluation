@@ -1,0 +1,27 @@
+Razonamiento:
+La pirámide triangular tiene 6 aristas. Se conocen 4 aristas que son 7, 4, 2 y la que está punteada. Necesitamos encontrar las dos aristas restantes.
+Aplicamos la desigualdad del triángulo a cada una de las caras.
+* Cara 1: 2, 4, x. Entonces, x < 2 + 4 = 6 y x > 4 - 2 = 2.  2 < x < 6, por lo que x puede ser 3, 4 o 5.
+* Cara 2: 2, 7, y. Entonces, y < 2 + 7 = 9 y y > 7 - 2 = 5. 5 < y < 9, por lo que y puede ser 6, 7, u 8.
+* Cara 3: 4, 7, z. Entonces, z < 4 + 7 = 11 y z > 7 - 4 = 3. 3 < z < 11, por lo que z puede ser 4, 5, 6, 7, 8, 9 o 10.
+La arista punteada es la que falta entre las aristas de la cara con longitudes 4, 7, z. Como no se ve z, significa que z es la arista punteada.
+Pero, si se supone que se quiere encontrar la arista punteada que falta entre 2, 4, x, entonces x debe ser un entero 3, 4, o 5.
+Similarmente para 2, 7, y, entonces y es uno de 6, 7, u 8.
+
+La arista punteada está conectada a los lados con longitudes 4 y 7, así que z debe ser la arista punteada.
+También, la arista punteada conecta los lados con longitudes 2 y 7, así que y también puede ser la arista punteada.
+La otra cara sería de lados x, y, z.
+Por tanto, hay una posibilidad que el lado punteado sea z y sea común con la cara con longitudes 2 y 4.
+Si asumimos que los dos lados desconocidos son la arista punteada y z, entonces z y x comparten la arista de longitud 4. La pregunta pide encontrar la suma de las longitudes de las otras dos aristas, entonces esas son x e y.
+
+Si tomamos x=5 e y=6, entonces la suma de las longitudes es 11, así que C es una posible solución.
+
+Razonamiento: La pirámide tiene 6 aristas. 4 son 7, 4, 2, y la arista punteada. Las dos aristas que faltan forman dos triángulos con las aristas dadas. Un triángulo es 4, 7, z, y otro es 2, 7, y.
+Si hacemos un triángulo con los vértices de 2 y 4, entonces las aristas deben ser 2+4 > x > 4-2. 6> x > 2. x puede ser 3, 4, 5.
+Si hacemos otro triángulo con los vértices de 2 y 7, entonces las aristas deben ser 2+7 > y > 7-2. 9> y > 5. y puede ser 6, 7, 8.
+Si hacemos otro triángulo con los vértices de 4 y 7, entonces las aristas deben ser 4+7 > z > 7-4. 11> z > 3. z puede ser 4, 5, 6, 7, 8, 9, 10.
+Si los dos lados son 5 y 6, 5+6 = 11.
+Si los dos lados son 3 y 8, 3+8=11.
+Si los dos lados son 4 y 7, 4+7=11.
+
+Respuesta: C)

@@ -1,0 +1,10 @@
+Raonament: El mínim comú múltiple (MCM) dels nombres de 1 a 9 és 2520. Si eliminem un nombre, volem que el MCM dels restants sigui tan petit com sigui possible. Si eliminem 5, el MCM dels restants és 504. Si eliminem 6, el MCM dels restants és 2520/6 * 5 = 840. Si eliminem 7, el MCM dels restants és 360. Si eliminem 8, el MCM dels restants és 315. Si eliminem 9, el MCM dels restants és 840. Si eliminem 8, el MCM restant s'obtindrà de la multiplicació de les primeres potències de cada factor.
+Els primers nombres que podem descompondre són: 2=2^1; 3=3^1; 4=2^2; 5=5^1; 6=2^1 * 3^1; 7=7^1; 8=2^3; 9=3^2
+Si eliminem 8, el MCM dels restants és 2^1 * 3^2 * 5^1 * 7^1 = 630
+Si eliminem 9, el MCM dels restants és 2^3 * 3^1 * 5^1 * 7^1 = 840
+Si eliminem 7, el MCM dels restants és 2^3 * 3^2 * 5^1 = 360
+Si eliminem 6, el MCM dels restants és 2^3 * 3^2 * 5^1 * 7^1 = 2520
+Si eliminem 5, el MCM dels restants és 2^3 * 3^2 * 7^1 = 504
+Per tant, eliminant el 7, el MCM és el menor.
+
+Resposta: C)

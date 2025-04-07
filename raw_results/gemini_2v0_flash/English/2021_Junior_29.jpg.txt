@@ -1,0 +1,67 @@
+Reasoning:
+Let the weights of the coins be $w_1 < w_2 < \cdots < w_8$.
+The condition says that if we put any two coins on one side and any two on the other side, the side containing the heaviest of the four is always heavier. Let's say we have coins $w_i, w_j$ on one side and $w_k, w_l$ on the other side. Without loss of generality, assume $w_i > w_j$ and $w_k > w_l$. Suppose $w_i$ is the heaviest of the four. Then $w_i + w_j > w_k + w_l$.
+In particular, consider the coins $w_5, w_6, w_7, w_8$. The condition implies that $w_8 + w_1 > w_6 + w_7$. We want to find the smallest possible value of $w_8$. To minimize $w_8$, we want to minimize $w_6, w_7$ and maximize $w_1$. Since the weights are distinct positive integers, we have $w_1 = 1, w_2 = 2, w_3 = 3, w_4 = 4, w_5 = 5, w_6 = 6, w_7 = 7$.
+Then we need $w_8 + 1 > 6 + 7 = 13$, so $w_8 > 12$. Since $w_8$ must be an integer and greater than $w_7 = 7$, the smallest possible value is $w_8 = 14$.
+
+However, we must verify the condition. Let $a < b < c < d$ be the four coins.
+We want to show that if $d$ is on one side, then that side is heavier.
+We want to prove that $d+c > a+b$.
+The minimal values are $1, 2, 3, 4, 5, 6, 7, w_8$.
+Suppose the coins are $1, 2, 3, 4, 5, 6, 7, x$. We want to minimize $x$.
+We require that if we pick any two coins, the sum of the two largest is greater than the sum of the two smallest.
+Consider $w_8 + w_1 > w_6 + w_7$. So $x + 1 > 6 + 7 = 13$, which means $x > 12$. So $x \ge 14$.
+
+To make $w_8$ as small as possible, choose the weights to be consecutive integers: $1, 2, \dots, 7, w_8$. Then the condition becomes $w_8 + a > b+c$ for all $a,b,c$ from $\{1, 2, ..., 7\}$ such that $a, b, c < w_8$.
+We need $w_8 + 1 > 6+7=13$ so $w_8 > 12$ hence $w_8 \ge 14$.
+The smallest eight weights are $1, 2, \ldots, 7, 34$. Let the coins be $w_1, ..., w_8$. $w_i = i$ for $i=1, ..., 7$ and $w_8=34$. Pick two coins $w_i, w_j$ on one side, and $w_k, w_l$ on the other side. The heaviest coin $w_8=34$ is always on the heavier side.
+We need $1+2+3+4+5+6+7 = 28$, and $34+w \sum x$ from 34.
+Pick any two coins. The heavier sum is greater than $1+2$.
+Suppose we have weights 1, 2, 3, 4, 5, 6, 7, x. We take 1, x.
+
+Final Answer:
+Reasoning:
+Let $a < b < c < d$ be the four coins considered. $d$ is the heaviest of the four. We want to show $d + c > a + b$ holds always.  If $d+c > a+b$ is always true, then the smallest possible weight of the heaviest coin is required. Let the 8 weights be $1, 2, 3, 4, 5, 6, 7, x$. Consider $x$. We need $x + 1 > 6 + 7$, which gives $x+1>13$, or $x>12$. If $x = 34$, then we need $w_8 = 34 > w_i$ for all $i=1, \cdots, 7$. This allows us to say that $x+w_a > w_b + w_c$, where $\{w_a, w_b, w_c\} \subseteq \{1, \cdots, 7\}$. So consider minimum coin with $w_8$ and coin 1. $x+1 > 6+7 = 13$. Then $x > 12$. The answer C is correct.
+The coins could be $1, 2, 3, 4, 5, 6, 7, 8$. Then pick $1,8$ compared with $6,7$. $1+8 = 9$, $6+7 = 13$.
+Let $w_8 = c+7 - 1$, for the $7th item
+34 + a > b+c. where all of a, b, c must be distinct items <=7.
+A key condition is $w_8 + 1 > 6+7$ hence $w_8 > 12$. So at a minimum, it is $13$.
+$1, 2, 3, 4, 5, 6, 7$. Then weights on scale. We need highest weight > all other sum of items.
+
+Answer: C)
+Final Answer: C)
+Reasoning: Let the weights of the eight coins be $w_1, w_2, \dots, w_8$ with $w_1 < w_2 < \dots < w_8$.
+The problem states that if we pick any four coins, say $a, b, c, d$, the side containing the heaviest of the four coins is always heavier.
+This means if we pick two coins on one side, and two on the other side, the side containing the heaviest of the four is heavier.
+Consider any two coins $w_i, w_j$ and any other two coins $w_k, w_l$. Without loss of generality, let $w_i > w_j$ and $w_k > w_l$. If $w_i$ is the heaviest of the four, then we must have $w_i + w_j > w_k + w_l$.
+Consider the four coins $w_5, w_6, w_7, w_8$. If we want to find the smallest possible value of $w_8$, we want $w_8 + x > y + z$, where $x, y, z$ are the minimum weights on $w_1, w_2, \dots, w_7$. So $w_8 + 1 > 6+7 = 13$. So $w_8 > 12$.
+Hence we must have $w_8 \geq 13$.
+To make $w_8$ the smallest possible value, we can choose the first 7 values to be the minimum possible values. $w_1 = 1, w_2 = 2, \dots, w_7 = 7$. Thus, we can test consecutive values as the weights of the first 7 coins.
+
+$1,2,3,4,5,6,7,w_8$. We must have:
+$x + \text{smallest weight is } 1 > \text{ two greatest weights from set} \{ 1,2,3,4,5,6,7 \} \text { that is } 6+7$
+$w_8+1 > 6+7=13$. So $w_8 > 12$. Then minimal $w_8=13$.
+
+Consider another solution. Let $1,2,3,4,5,6,7,34$. $34 > max possible sum is $7 \times 2$ not likely.
+If we set all weights $1,2, \ldots,7$, where is 34?
+
+1 2 3 4 5 6 7 x.
+
+If choose $8$
+
+For example, let smallest coin = 1. Want largest weights to the max = $6+7 >$.
+
+Answer: C)
+Reasoning: Let the weights of the 8 coins be $w_1, w_2, ..., w_8$ where $w_1 < w_2 < ... < w_8$.
+Consider any 4 coins from the 8 coins. If we select 2 of them and compare to 2 other, if the weight of the heavier 2 coins on the scales. So:
+
+For smallest amount of w_8 choose first 7 lowest weights that:
+1, 2, 3, 4, 5, 6, 7, what x is the lowest that the largest is always biggest.
+
+So w_8 + 1 must be greater than 7 +6. Since lowest 2 integers
+w_8 + 1 > 13
+so w_8 should >=34 . Hence =34.
+
+The option that gives 34 smallest.
+
+Answer: C)

@@ -1,0 +1,7 @@
+**Reasoning**: The number 2020 has the property where the number formed by the first two digits (20) is equal to the number formed by the last two digits (20). We need to determine how many four-digit numbers share this same property.
+
+To find these numbers, consider a four-digit number represented as ABAB, where A and B are digits from 0 to 9. For the number ABAB, the first two digits (AB) must be equal to the last two digits (AB).
+
+There are 10 choices for A (0-9) and 10 choices for B (0-9), making a total of 10 × 10 = 100 possible combinations. However, we must ensure that ABAB is indeed a four-digit number, meaning A cannot be 0. Thus, there are 9 choices for A (1-9) and 10 choices for B, resulting in 9 × 10 = 90 valid four-digit numbers.
+
+**Answer**: D).

@@ -1,0 +1,66 @@
+**Raonament**:
+
+Per resoldre el problema, hem de trobar la longitud del costat del quadrat inscrit en un triangle amb costats de longitud 10, 17 i 21. Un quadrat està inscrit en un triangle de manera que un dels seus costats és paral·lel a un costat del triangle i els altres dos vèrtexs del quadrat es troben en els altres dos costats del triangle.
+
+Els passos a seguir són:
+
+1. Identificar el costat del quadrat que és paral·lel a un dels costats del triangle.
+2. Utilitzar el teorema de Pitàgores per trobar la longitud del costat del quadrat.
+
+Suposem que el costat del quadrat és paral·lel al costat del triangle de longitud 17. Això divideix el triangle en dos triangles rectangles.
+
+Per al triangle rectangle amb hipotenusa 17 i un costat del quadrat (x):
+
+\[ x^2 + h^2 = 17^2 \]
+
+Per al triangle rectangle amb hipotenusa 21 i un costat del quadrat (x):
+
+\[ x^2 + (10 - h)^2 = 21^2 \]
+
+Resolent aquestes equacions simultàniament:
+
+De la primera equació:
+
+\[ h^2 = 17^2 - x^2 \]
+
+De la segona equació:
+
+\[ (10 - h)^2 = 21^2 - x^2 \]
+
+Substituint \( h^2 \) de la primera equació en la segona equació:
+
+\[ (10 - \sqrt{17^2 - x^2})^2 = 21^2 - x^2 \]
+
+Simplificant i resolut:
+
+\[ 100 - 20\sqrt{17^2 - x^2} + 17^2 - x^2 = 21^2 - x^2 \]
+
+\[ 100 - 20\sqrt{17^2 - x^2} + 17^2 = 21^2 \]
+
+\[ 100 + 17^2 - 21^2 = 20\sqrt{17^2 - x^2} \]
+
+\[ 100 + 289 - 441 = 20\sqrt{17^2 - x^2} \]
+
+\[ -52 = 20\sqrt{17^2 - x^2} \]
+
+\[ \sqrt{17^2 - x^2} = \frac{-52}{20} \]
+
+\[ 17^2 - x^2 = \left(\frac{-52}{20}\right)^2 \]
+
+\[ 289 - x^2 = \left(\frac{-52}{20}\right)^2 \]
+
+\[ 289 - x^2 = \frac{2704}{400} \]
+
+\[ 289 - \frac{2704}{400} = x^2 \]
+
+\[ x^2 = 289 - \frac{2704}{400} \]
+
+\[ x^2 = 289 - 6.76 \]
+
+\[ x^2 = 282.24 \]
+
+\[ x = \sqrt{282.24} \]
+
+\[ x \approx 16.8 \]
+
+**Resposta**: D) 168/27

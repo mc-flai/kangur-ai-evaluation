@@ -1,0 +1,35 @@
+### Reasoning:
+
+1. Let's denote the number of trees with 6 pears and 3 apples as \( x \).
+2. Let's denote the number of trees with 8 pears and 4 apples as \( y \).
+3. We are given that the total number of apples is 25. This can be represented by the equation:
+   \[
+   3x + 4y = 25
+   \]
+4. We need to find the total number of pears. This can be represented by the equation:
+   \[
+   6x + 8y
+   \]
+
+### Steps to solve:
+
+1. From the equation \( 3x + 4y = 25 \), we need to find integer solutions for \( x \) and \( y \).
+2. Let's try different values of \( x \) and solve for \( y \):
+   - If \( x = 1 \):
+     \[
+     3(1) + 4y = 25 \implies 3 + 4y = 25 \implies 4y = 22 \implies y = 5.5 \quad \text{(not an integer)}
+     \]
+   - If \( x = 3 \):
+     \[
+     3(3) + 4y = 25 \implies 9 + 4y = 25 \implies 4y = 16 \implies y = 4 \quad \text{(integer solution)}
+     \]
+
+   So, \( x = 3 \) and \( y = 4 \) is a valid solution.
+
+3. Now, calculate the total number of pears:
+   \[
+   6x + 8y = 6(3) + 8(4) = 18 + 32 = 50
+   \]
+
+### Answer:
+D) 50

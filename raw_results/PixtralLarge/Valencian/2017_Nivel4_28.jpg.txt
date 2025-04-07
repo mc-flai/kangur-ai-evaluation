@@ -1,0 +1,37 @@
+Per resoldre el problema, hem de trobar l'expressió que representa la suma dels diàmetres de la circumferència inscrita i la circumferència circumscrita d'un triangle rectangle.
+
+1. **Diàmetre de la circumferència inscrita (d)**:
+   - El radi \( r \) de la circumferència inscrita en un triangle rectangle es pot calcular com:
+     \[
+     r = \frac{a + b - c}{2}
+     \]
+     on \( c \) és la hipotenusa.
+   - El diàmetre \( d \) és el doble del radi:
+     \[
+     d = 2r = a + b - c
+     \]
+
+2. **Diàmetre de la circumferència circumscrita (D)**:
+   - El diàmetre de la circumferència circumscrita en un triangle rectangle és igual a la hipotenusa \( c \), per tant:
+     \[
+     D = c
+     \]
+
+3. **Suma dels diàmetres (d + D)**:
+   - Sumem els dos diàmetres:
+     \[
+     d + D = (a + b - c) + c = a + b
+     \]
+
+4. **Comparació amb les opcions donades**:
+   - A) \( a + b \)
+   - B) \( 2(a + b) \)
+   - C) \( \frac{a + b}{2} \)
+   - D) \( \sqrt{a + b} \)
+   - E) \( \sqrt{a^2 + b^2} \)
+
+La suma dels diàmetres \( d + D \) és igual a \( a + b \), que coincideix amb l'opció A.
+
+**Raonament**: Hem calculat els diàmetres de les circumferències inscrita i circumscrita d'un triangle rectangle i hem sumat els seus valors per trobar l'expressió correcta.
+
+**Resposta**: A)

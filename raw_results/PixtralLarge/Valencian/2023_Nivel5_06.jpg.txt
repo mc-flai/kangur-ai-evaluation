@@ -1,0 +1,22 @@
+**Raonament**: Per determinar el resultat de dividir el volum de l'esfera circumscrita en un cub pel volum de l'esfera inscrita en aquest mateix cub, hem de considerar els volums d'ambdues esferes.
+
+1. **Esfera circumscrita en un cub**: L'esfera circumscrita en un cub toca tots els vèrtexs del cub. Si el costat del cub és \( a \), llavors el diàmetre de l'esfera circumscrita és igual a la diagonal del cub. La diagonal del cub es calcula com \( a\sqrt{3} \). Per tant, el radi \( R \) de l'esfera circumscrita és \( \frac{a\sqrt{3}}{2} \).
+
+   El volum \( V_{\text{circumscrita}} \) de l'esfera circumscrita és:
+   \[
+   V_{\text{circumscrita}} = \frac{4}{3} \pi R^3 = \frac{4}{3} \pi \left(\frac{a\sqrt{3}}{2}\right)^3 = \frac{4}{3} \pi \left(\frac{a^3 3\sqrt{3}}{8}\right) = \frac{\pi a^3 3\sqrt{3}}{6}
+   \]
+
+2. **Esfera inscrita en un cub**: L'esfera inscrita en un cub toca totes les cares del cub. Si el costat del cub és \( a \), llavors el diàmetre de l'esfera inscrita és igual al costat del cub, \( a \). Per tant, el radi \( r \) de l'esfera inscrita és \( \frac{a}{2} \).
+
+   El volum \( V_{\text{inscrita}} \) de l'esfera inscrita és:
+   \[
+   V_{\text{inscrita}} = \frac{4}{3} \pi r^3 = \frac{4}{3} \pi \left(\frac{a}{2}\right)^3 = \frac{4}{3} \pi \left(\frac{a^3}{8}\right) = \frac{\pi a^3}{6}
+   \]
+
+3. **Divisió dels volums**: Per trobar el resultat de dividir el volum de l'esfera circumscrita pel volum de l'esfera inscrita, fem:
+   \[
+   \frac{V_{\text{circumscrita}}}{V_{\text{inscrita}}} = \frac{\frac{\pi a^3 3\sqrt{3}}{6}}{\frac{\pi a^3}{6}} = 3\sqrt{3}
+   \]
+
+**Resposta**: E)

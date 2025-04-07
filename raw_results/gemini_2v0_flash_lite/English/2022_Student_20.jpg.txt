@@ -1,0 +1,13 @@
+Reasoning: We need to find the number of points (x, y) on the circumference of a circle with center (0, 0) and radius 5, where both x and y are integers.  The equation of the circle is x^2 + y^2 = 5^2 = 25.  We are looking for integer solutions to this equation.
+
+Possible integer values of x and y can be derived as follows:
+*   If x = 0, then y^2 = 25, so y = ±5. This gives us two points: (0, 5) and (0, -5).
+*   If y = 0, then x^2 = 25, so x = ±5.  This gives us two points: (5, 0) and (-5, 0).
+*   If x = 3, then y^2 = 25 - 9 = 16, so y = ±4. This gives us two points: (3, 4) and (3, -4).
+*   If x = -3, then y^2 = 25 - 9 = 16, so y = ±4. This gives us two points: (-3, 4) and (-3, -4).
+*   If x = 4, then y^2 = 25 - 16 = 9, so y = ±3. This gives us two points: (4, 3) and (4, -3).
+*   If x = -4, then y^2 = 25 - 16 = 9, so y = ±3. This gives us two points: (-4, 3) and (-4, -3).
+
+In total, there are 2 + 2 + 2 + 2 + 2 + 2 = 12 points with integer coordinates.
+
+Answer: C)

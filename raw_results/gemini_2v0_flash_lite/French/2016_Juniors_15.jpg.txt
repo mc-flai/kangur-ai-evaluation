@@ -1,0 +1,13 @@
+Raisonnement :
+1.  **Comprendre les fonctions:**  On a une fonction linéaire *f* et une fonction affine *g*.
+2.  **Utiliser les informations données:**  *f*(2) = *g*(2) = 4 et *f*(3) = -*g*(3).
+3.  **Fonction linéaire:** Puisque *f* est linéaire, *f*(x) = ax.  On sait que *f*(2) = 4, donc 2a = 4, et a = 2.  Donc *f*(x) = 2x.
+4.  **Fonction affine:** *g*(x) = bx + c.  On sait que *g*(2) = 4, donc 2b + c = 4.
+5.  **Utiliser l'autre équation:** *f*(3) = -*g*(3).  Puisque *f*(3) = 2 * 3 = 6, alors -*g*(3) = 6, et *g*(3) = -6.
+6.  **Résoudre pour b et c:** *g*(3) = 3b + c = -6.  On a maintenant deux équations :
+    *   2b + c = 4
+    *   3b + c = -6
+    En soustrayant la première équation de la seconde, on obtient b = -10.  En substituant b dans la première équation, on obtient 2(-10) + c = 4, donc c = 24.
+7.  **Trouver g(1):**  *g*(x) = -10x + 24.  Donc *g*(1) = -10(1) + 24 = 14.
+
+Réponse : E)

@@ -1,0 +1,16 @@
+**Raonament**:
+La pregunta demana quants nombres de tres xifres contenen com a mínim un dels tres dígits: 1, 2 o 3. Per resoldre això, primer determinarem el nombre total de nombres de tres xifres, que és de l'100 al 999, és a dir, 900 nombres.
+
+Ara, hem de calcular quantes d'aquestes nombres no contenen ni 1, ni 2, ni 3.
+
+- Per a la primera xifra (centenes), en lloc de 9 possibilitats (1-9), només hi ha 6 possibilitats (4, 5, 6, 7, 8, 9).
+- Per a la segona xifra (desenes), en lloc de 10 possibilitats (0-9), n'hi ha 7 possibilitats (0, 4, 5, 6, 7, 8, 9).
+- Per a la tercera xifra (unitats), en lloc de 10 possibilitats (0-9), també n'hi ha 7 possibilitats (0, 4, 5, 6, 7, 8, 9).
+
+El nombre total de nombres de tres xifres sense 1, 2 o 3 és:
+\[ 6 \times 7 \times 7 = 294 \]
+
+Per tant, el nombre de tres xifres que contenen almenys un 1, 2 o 3 és:
+\[ 900 - 294 = 606 \]
+
+**Resposta**: E)

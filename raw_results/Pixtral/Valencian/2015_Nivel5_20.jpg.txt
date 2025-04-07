@@ -1,0 +1,19 @@
+
+La pregunta es: "¿Cuánto calcula 100!, cuántos ceros hay después de la dígara xifra diferente de cero?"
+
+Para determinar cuántos ceros hay después de la primera cifra diferente de cero en 100!, debemos considerar cómo se forman los ceros en un factorial. Los ceros en un factorial se forman por factores de 10, que son el producto de 2 y 5. En un factorial, siempre habrá más factores de 2 que de 5, por lo que el número de ceros se determina por el número de factores de 5.
+
+Para encontrar el número de factores de 5 en 100!, contamos los múltiplos de 5, 25, 125, etc., hasta 100.
+
+- Múltiplos de 5: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Esto nos da 10 múltiplos de 5.
+- Múltiplos de 25: 25, 50, 75, 100. Esto nos da 4 múltiplos de 25.
+- Múltiplos de 125: 125. Esto nos da 1 múltiplo de 125.
+
+Sumando estos múltiplos, obtenemos el número total de factores de 5:
+10 (de 5) + 4 (de 25) + 1 (de 125) = 15.
+
+Por lo tanto, hay 15 ceros después de la primera cifra diferente de cero en 100!.
+
+Raonament: Contamos los múltiplos de 5, 25 y 125 en 100! para determinar el número de factores de 5, que determinan el número de ceros.
+
+Respuesta: C)

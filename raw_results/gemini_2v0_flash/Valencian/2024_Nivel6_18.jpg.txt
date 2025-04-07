@@ -1,0 +1,8 @@
+Raonament:
+Primer calcularem el nombre total de nombres de tres xifres que existeixen. El primer dígit pot ser qualsevol número de l'1 al 9, i els altres dos dígits poden ser qualsevol número del 0 al 9. Per tant, hi ha 9 * 10 * 10 = 900 nombres de tres xifres.
+
+Ara calcularem el nombre de nombres de tres xifres que *no* contenen els dígits 1, 2 o 3.  Això significa que cada dígit pot ser un dels 7 números {0, 4, 5, 6, 7, 8, 9}, excepte que el primer dígit no pot ser 0. Així que, el primer dígit pot ser un dels 6 números {4, 5, 6, 7, 8, 9}, i el segon i tercer dígit poden ser un dels 7 números {0, 4, 5, 6, 7, 8, 9}. Això fa 6 * 7 * 7 = 294 nombres de tres xifres que *no* contenen 1, 2 o 3.
+
+Per tant, el nombre de nombres de tres xifres que contenen *almenys* un dels dígits 1, 2 o 3 és el total de nombres de tres xifres menys el nombre de nombres de tres xifres que no contenen 1, 2 o 3. Així, 900 - 294 = 606.
+
+Resposta: E)

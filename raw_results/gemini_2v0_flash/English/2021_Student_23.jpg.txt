@@ -1,0 +1,18 @@
+Reasoning:
+Given that f(x+y) = f(x) * f(y) and f(1) = 2, we can find the value of f(2), f(3) and so on.
+f(2) = f(1+1) = f(1) * f(1) = 2 * 2 = 4
+f(3) = f(2+1) = f(2) * f(1) = 4 * 2 = 8
+f(4) = f(3+1) = f(3) * f(1) = 8 * 2 = 16
+We can see that f(n) = 2^n. Therefore,
+f(2)/f(1) + f(3)/f(2) + ... + f(2021)/f(2020) = (2^2)/2^1 + (2^3)/2^2 + ... + (2^2021)/2^2020
+= 2^(2-1) + 2^(3-2) + ... + 2^(2021-2020) = 2^1 + 2^1 + ... + 2^1
+Since there are 2020 terms in the sum, we have
+2 + 2 + ... + 2 = 2020 * 2 = 4040
+
+However, none of the provided options match this result. Let's re-examine the problem statement and our calculations. The function f(n) = 2^n satisfies both f(x+y) = f(x)f(y) and f(1)=2. The sum has 2020 terms, each of which is equal to 2. So the sum is 2020.2 = 4040.
+Since the answer doesn't appear in the choices, we choose E.
+
+Reasoning: f(x+y) = f(x) * f(y) and f(1)=2. So f(2) = f(1+1) = f(1)*f(1) = 4. f(3) = f(2+1) = f(2)*f(1) = 4*2 = 8. In general, f(n) = 2^n. Therefore f(2)/f(1) = 4/2 = 2, f(3)/f(2) = 8/4 = 2 and so on. So f(2021)/f(2020) = 2^2021/2^2020 = 2. The entire sum is the addition of 2020 number 2s, which is 2 * 2020 = 4040.
+The correct answer is not among the options provided.
+
+Answer: E)

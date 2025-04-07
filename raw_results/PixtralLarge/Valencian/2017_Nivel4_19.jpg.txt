@@ -1,0 +1,19 @@
+**Raonament**:
+
+Per trobar el número de página de la última página, primer cal determinar quants números es van saltar.
+
+Sabem que hi ha 89 pàgines en el llibre, i que es salten tres pàgines. El número de pàgines saltades es pot calcular així:
+
+- Cada pàgina saltada té un número correspon a la seqüència 1, 2, 4, 5, 7, 8, etc.
+- Si sumem el número de pàgines reals (89) i les pàgines que es van saltar (3), obtenim el número total de pàgines:
+  89 + 3 = 92
+
+Així que el número de pàgina de la última página del llibre és 92.
+
+Ara, fem la conversió entre els números de pàgines reals i les pàgines amb numeració saltada.
+
+De la numeració saltada: 1, 2, 4, 5, 7, 8, ...
+
+La pàgina 92 en la numeració real del llibre correspon a la posició 89 en la numeració saltada.
+
+**Resposta**: E) 267

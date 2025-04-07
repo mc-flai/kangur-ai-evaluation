@@ -1,0 +1,34 @@
+Reasoning: We need to determine which of the five shapes cannot be used in combination with three other shapes to form a square. Let's consider the area of each shape in terms of "unit squares", where the small square in shape B has an area of 1.
+- A is 2 unit squares
+- B is 1 unit square
+- C is 2 unit squares
+- D is 1 unit square
+- E is 3 unit squares
+A square can only be formed by using four pieces. The total area of the four combined pieces must be a perfect square.
+Possibilities (without considering the arrangement to actually form a square):
+1+1+2+2 = 6 (not a perfect square)
+1+1+2+3 = 7 (not a perfect square)
+1+1+3+2 = 7 (not a perfect square)
+1+2+2+3 = 8 (not a perfect square)
+1+2+3+1 = 7 (not a perfect square)
+1+3+2+1 = 7 (not a perfect square)
+
+Alternatively, try forming a perfect square out of four shapes:
+Total area of A+B+C+D = 2+1+2+1=6
+Total area of A+B+C+E = 2+1+2+3 = 8
+Total area of A+B+D+E = 2+1+1+3 = 7
+Total area of A+C+D+E = 2+2+1+3 = 8
+Total area of B+C+D+E = 1+2+1+3 = 7
+Notice that we never get a perfect square area if we chose any combination of 4 pieces. However, let's reconsider the shapes themselves. B is a 1x1 square and D is also a 1x1 square. C can be split into two squares and E can be split into one square and 2 small rectangles. Piece A appears that it cannot be placed together with three others to form a perfect square. It is an L shape piece.
+
+If we use C, D, and B, we need one more piece that consists of 2 squares since C, D, B together are 4 squares. The final square would be 9 squares. The additional piece is a single square, 4 = 2*2 + 1 + 1. Then we would use three B and 1 each of A and C. However, it is unclear how to form this.
+
+Consider excluding shape B. The area of A,C,D, and E is 2+2+1+3 = 8
+If we can exclude shape D, then the area of A,B,C, and E is 2+1+2+3 = 8
+If we exclude shape E, then the area of A,B,C, and D is 2+1+2+1 = 6
+
+We can visualize this as the following pieces creating a 2x2 square (4 small unit squares). If we remove A from the overall group of pieces, you can construct a 2x2 square.
+
+Reasoning: By trying to visualize combining different shapes into a square, it seems very difficult to do this with shape A.
+
+Answer: A)

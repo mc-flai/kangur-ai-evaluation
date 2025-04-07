@@ -1,0 +1,66 @@
+Per resoldre aquest problema, hem de determinar el mínim nombre de passos necessaris per transformar el número 45 en el número 200. Els passos permesos són:
+
+1. Doblar el número anterior.
+2. Dividir-lo per tres.
+3. Fer-ne el seu quadrat.
+
+Calcularem cada pas possible per veure quin és el mínim nombre de passos:
+
+1. **Dividir 45 per 3**:
+   45 / 3 = 15
+
+2. **Dividir 15 per 3**:
+   15 / 3 = 5
+
+3. **Doblar 5**:
+   5 * 2 = 10
+
+4. **Doblar 10**:
+   10 * 2 = 20
+
+5. **Doblar 20**:
+   20 * 2 = 40
+
+6. **Doblar 40**:
+   40 * 2 = 80
+
+7. **Doblar 80**:
+   80 * 2 = 160
+
+8. **Doblar 160**:
+   160 * 2 = 320
+
+**S'ha superat el número objectiu de 200.**
+
+Ara, hem de retrocedir i buscar una ruta més curta. Pel que sembla, en el pas 7, en lloc de doblar, podríem haver fet una altra cosa. Per tant, tornem al pas 6:
+
+6. **Fer el quadrat de 80**:
+   80² = 6400 (supera el número objectiu)
+
+Provem amb el pas 5 i fer el quadrat:
+
+5. **Fer el quadrat de 40**:
+   40² = 1600 (supera el número objectiu)
+
+Provem amb el pas 4 i fer el quadrat:
+
+4. **Fer el quadrat de 20**:
+   20² = 400 (supera el número objectiu)
+
+Provem amb el pas 3 i fer el quadrat:
+
+3. **Fer el quadrat de 10**:
+   10² = 100 (més petit que 200)
+
+4. **Doblar 100**:
+   100 * 2 = 200
+
+Aquí hem necessitat 4 passos:
+
+1. Dividir 45 per 3.
+2. Dividir 15 per 3.
+3. Fer el quadrat de 10.
+4. Doblar 100.
+
+Raonament: El mínim nombre de passos necessaris per transformar el número 45 en el número 200 és 4.
+Resposta: E) 4

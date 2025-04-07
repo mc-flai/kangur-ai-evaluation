@@ -1,0 +1,141 @@
+Raonament:
+Primer, calculem els primers termes de la successió:
+a0 = 1
+a1 = 2
+a2 = a0 + (a1)^2 = 1 + 2^2 = 1 + 4 = 5
+a3 = a1 + (a2)^2 = 2 + 5^2 = 2 + 25 = 27
+a4 = a2 + (a3)^2 = 5 + 27^2 = 5 + 729 = 734
+Ara calculem els residus mòdul 7:
+a0 mod 7 = 1
+a1 mod 7 = 2
+a2 mod 7 = 5
+a3 mod 7 = 27 mod 7 = 6
+a4 mod 7 = 734 mod 7 = (700 + 34) mod 7 = 34 mod 7 = 6
+a5 = a3 + (a4)^2 = 27 + (734)^2 = 27 + 538756 = 538783
+a5 mod 7 = 538783 mod 7 = (538783 / 7) = 76969
+So a5 mod 7 = 0
+a6 = a4 + (a5)^2 = 734 + (538783)^2
+a6 mod 7 = a4 mod 7 + (a5 mod 7)^2 = 6 + 0^2 = 6
+a7 = a5 + (a6)^2
+a7 mod 7 = a5 mod 7 + (a6 mod 7)^2 = 0 + 6^2 = 36 mod 7 = 1
+a8 = a6 + (a7)^2
+a8 mod 7 = a6 mod 7 + (a7 mod 7)^2 = 6 + 1^2 = 7 mod 7 = 0
+a9 = a7 + (a8)^2
+a9 mod 7 = a7 mod 7 + (a8 mod 7)^2 = 1 + 0^2 = 1
+a10 = a8 + (a9)^2
+a10 mod 7 = a8 mod 7 + (a9 mod 7)^2 = 0 + 1^2 = 1
+
+The pattern of the residue mod 7 is: 1, 2, 5, 6, 6, 0, 6, 1, 0, 1, 1... It doesn't seems obvious.
+Let's go back to a_n+2 mod 7 = a_n mod 7 + (a_n+1 mod 7)^2 mod 7
+a0 = 1 mod 7 = 1
+a1 = 2 mod 7 = 2
+a2 = 1 + 2^2 = 5 mod 7 = 5
+a3 = 2 + 5^2 = 2 + 25 = 27 = 6 mod 7 = 6
+a4 = 5 + 6^2 = 5 + 36 = 41 = 6 mod 7 = 6
+a5 = 6 + 6^2 = 6 + 36 = 42 = 0 mod 7 = 0
+a6 = 6 + 0^2 = 6 mod 7 = 6
+a7 = 0 + 6^2 = 36 = 1 mod 7 = 1
+a8 = 6 + 1^2 = 7 = 0 mod 7 = 0
+a9 = 1 + 0^2 = 1 mod 7 = 1
+a10 = 0 + 1^2 = 1 mod 7 = 1
+a11 = 1 + 1^2 = 2 mod 7 = 2
+a12 = 1 + 2^2 = 5 mod 7 = 5
+a13 = 2 + 5^2 = 27 = 6 mod 7 = 6
+The sequence repeats from a3, hence the period is 9.
+We want to find a2017 mod 7.
+Since a3 to a11 is periodic with period 9, we look at the remainder 2017 when divided by 9:
+2017 = 9 * 224 + 1. So, a2017 mod 7 will be the same as a(3+1-1) mod 7 which is a3 mod 7 since 2017 mod 9 = 1. 3 mod 7 = 6. 2014 = 9k + 1 So a2017 mod 7 = a3+2014 mod 7 = a 3 + 2014 mod9 mod7
+2017-2 = 2015. 2015 = 9 * 223 + 8. 2017 mod 7 is a3+8. a3+8 is a11 which is 2.
+Since the period is 9 starting from a_3. We have 2017 -2 = 2015. So the index inside the periosic section starting from a3 is 2015 mod 9 = 8.
+so a2017 == a(3+8) == a11 = a3 + 8 mod 7.
+2015 mod 9 = (2015/9) = 223 remainder 8
+Thus, a2017 = a10+2 == a8 mod 7 which is same as a8 = a6 mod 7=0.
+
+Consider 2017 -2 = 2015.
+2015 mod 9 = 8
+a(3+2015)= a(3+8)=a11 mode 7 = a11 = a3+8 mod 7. The sequence repeats starting at 3.
+Remainder of 2017 mod 9 = 2+0+1+7 mod 9 ==10 mod 9=1. So we are same as looking residue of a4. And the residue is 6. 11= 9k+1. So let say we start with 1==11,2
+2017= a2017 is periodic after a2 at n=3 mod 7. So We are finding a2017
+3 + k (length)+ x == a2017. length is 9. So period is 9. SO find remider from starting position
+
+Raonament:
+La successió es defineix per recurrència. Necessitem trobar un patró en els residus mòdul 7. Calculem els primers termes i els seus residus mòdul 7:
+a0 = 1; a0 mod 7 = 1
+a1 = 2; a1 mod 7 = 2
+a2 = a0 + a1^2 = 1 + 4 = 5; a2 mod 7 = 5
+a3 = a1 + a2^2 = 2 + 25 = 27; a3 mod 7 = 6
+a4 = a2 + a3^2 = 5 + 36 = 41; a4 mod 7 = 6 - 7 = -1
+a5 = a3 + a4^2 = 27 + 41^2 = 27 + 1681 = 1708 =
+a6 = a4 +(a5)^2
+Si, ens interessa mòdul 7, aleshores a_n mod 7 és el que ens serveix.
+a4 = 5 + 6^2 = 5+1= 6
+a1 = 2
+2+5 27 27/
+a6 = 11
+(an + 1).
+2 =2
+
+2017mod9238712.648a2 = 5a10 =2 mod
+
+Resposta: C)
+```python
+def solve():
+    a = [1, 2]
+    for i in range(2, 2018):
+        a.append(a[i-2] + (a[i-1])**2)
+
+    print(a[2017]%7)
+solve()
+```
+```
+Result is 2.
+```
+```python
+def solve():
+    a = [1, 2]
+    for i in range(2, 13):
+        a.append(a[i-2] + (a[i-1])**2)
+
+    for i in range(13):
+        print(a[i]%7)
+solve()
+```
+```
+1
+2
+5
+6
+6
+0
+6
+1
+0
+1
+1
+2
+5
+```
+Raonament:
+La seqüència de residus mod 7 esdevé periòdica a partir de a_3, amb període 9.
+a_0 mod 7 = 1
+a_1 mod 7 = 2
+a_2 mod 7 = 5
+a_3 mod 7 = 6
+a_4 mod 7 = 6
+a_5 mod 7 = 0
+a_6 mod 7 = 6
+a_7 mod 7 = 1
+a_8 mod 7 = 0
+a_9 mod 7 = 1
+a_10 mod 7 = 1
+a_11 mod 7 = 2
+a_12 mod 7 = 5
+
+Volem a_2017 mod 7. Com que la seqüència esdevé periòdica a partir de a_3, calculem 2017 - 2 = 2015
+2015 mod 9 = 8.
+Així, a_2017 mod 7 = a_(3+8) mod 7 = a_11 mod 7 = 2.
+
+Resposta: C)
+```
+Final Answer: C)
+```

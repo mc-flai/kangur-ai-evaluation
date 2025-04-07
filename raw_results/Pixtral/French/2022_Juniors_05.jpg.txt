@@ -1,0 +1,19 @@
+
+Raisonnement :
+1. Lola a 42 cartes.
+2. Un nom est écrit sur chaque carte.
+3. Il y a 20 cartes où 22 est écrit et 22 cartes où 20 est écrit.
+4. Nous devons déterminer combien de fois tous les noms écrits sur les cartes sont écrits.
+
+Pour résoudre ce problème, nous devons comprendre la distribution des cartes et la fréquence à laquelle chaque nombre est écrit.
+
+- Si 20 cartes ont 22 écrit dessus et 22 cartes ont 20 écrit dessus, cela signifie que 20 cartes ont 22 et 22 cartes ont 20.
+- La somme des cartes où 22 est écrit est 20.
+- La somme des cartes où 20 est écrit est 22.
+
+En additionnant ces deux sommes, nous obtenons :
+20 (cartes avec 22) + 22 (cartes avec 20) = 42
+
+Cela signifie que chaque carte est écrite une seule fois.
+
+Réponse : A)

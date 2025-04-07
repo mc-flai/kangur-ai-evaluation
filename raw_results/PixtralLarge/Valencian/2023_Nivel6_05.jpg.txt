@@ -1,0 +1,23 @@
+**Raonament**:
+
+El problema diu que hi ha 56 partits en total al campionat mundial d'hoquei sobre gel, i que cadascun dels 16 equips juga un partit contra cada altre equip. Per saber quantes vegades es juguen partits entre els mateixos equips, hem de determinar el nombre de partits que es juguen en una ronda única, on cada equip juga contra tots els altres equips exactament una vegada.
+
+El nombre de partits en una ronda única amb n equips es calcula usant la fórmula de combinacions:
+
+\[ \binom{n}{2} = \frac{n(n-1)}{2} \]
+
+En aquest cas, n és 16 (els equips), per tant:
+
+\[ \binom{16}{2} = \frac{16 \times 15}{2} = 120 \]
+
+Això significa que en una ronda única, es juguen 120 partits. Com el total de partits jugats és 56, i sabem que els 120 partits són d'una sola ronda on cada equip juga contra tots els altres una sola vegada, no hi ha cap necessitat de multiplicar o dividir més. Per tant, cal trobar quantes vegades es juguen els partits en cada cas.
+
+Per trobar quantes vegades es juguen els partits en cada cas, dividim el total de partits per el nombre de partits d'una ronda única:
+
+\[ \text{Vegades} = \frac{56}{120} \]
+
+Però, això no dona un nombre enter. Això significa que el càlcul de combinacions no és adequat directament i que els partits es juguen més d'una vegada. Aquest és un problema d'interpretació del text més que de càlcul. Per tant, en aquest cas, simplement es tracta d'una revisió d'opcions de resposta.
+
+La resposta correcta és simplement trobant el nombre de partits jugats en cada cas, que és 120 partits en total, per tant la resposta és:
+
+**Resposta**: C)

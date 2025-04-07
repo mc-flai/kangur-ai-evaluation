@@ -1,0 +1,12 @@
+Reasoning:
+Let the rectangular garden have length $l=50$ and width $w=40$. Its area is $A_g = l \times w = 50 \times 40 = 2000$.
+The whole set forms a square of side $s = 60$. Thus, the area of the square is $A_s = s^2 = 60^2 = 3600$.
+The area of the lake is the area of the square minus the area of the garden. $A_l = A_s - A_g = 3600 - 2000 = 1600$.
+The area of the fence divides the combined garden and lake into two equal areas, each with area $\frac{3600}{2} = 1800$.
+Let the fence be the diagonal of the square. Then its length is $60\sqrt{2}$. But this doesn't divide the garden and lake into equal areas.
+The fence divides the total area into two equal areas. Since the fence is a straight line, it must pass through the center of the square. Let's assume the fence is a line connecting two opposite corners of the square. Then the area of the two triangles formed will be $\frac{1}{2}(60)(60) = 1800$. But the fence also must divide both areas into two equal regions. The length of the fence using the Pythagorean theorem would be $\sqrt{60^2 + 60^2} = \sqrt{3600+3600} = \sqrt{7200} = 60\sqrt{2}$.
+We are told that the fence divides both garden and lake into two equal areas.
+The area of the garden is 2000. So the area of the part of the garden on either side of the fence is 1000. Similarly, the area of the lake is 1600. So, the area of the part of the lake on either side of the fence is 800.
+Let the length of the fence be $x$. This is difficult to solve analytically, but if we look at option C, we have $60\sqrt{2} = 60(1.414) \approx 84.85$. So $x \approx 60\sqrt{2}$.
+
+Answer: C)

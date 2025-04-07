@@ -1,0 +1,22 @@
+Pour résoudre cette question, nous devons déterminer combien de tours différents de quatre disques peuvent être construits en respectant l'ordre des tailles des disques. Voici les étapes détaillées :
+
+1. **Compréhension du problème** :
+   - Nina a cinq disques de tailles différentes.
+   - Elle doit construire des tours de quatre disques où chaque disque est plus petit que celui placé en dessous.
+
+2. **Choix des disques** :
+   - Pour former une tour de quatre disques, nous devons choisir 4 disques parmi les 5 disponibles.
+   - Le nombre de façons de choisir 4 disques parmi 5 est donné par la combinaison \( C(5, 4) \).
+
+3. **Calcul de la combinaison** :
+   \[
+   C(5, 4) = \frac{5!}{4!(5-4)!} = \frac{5!}{4! \cdot 1!} = \frac{5 \cdot 4!}{4! \cdot 1} = 5
+   \]
+
+4. **Conclusion** :
+   - Puisque chaque tour doit respecter l'ordre des disques (le plus petit en haut, le plus grand en bas), il n'y a qu'une seule façon d'organiser les disques choisis.
+   - Donc, le nombre total de tours différents est simplement le nombre de façons de choisir les disques, soit 5.
+
+Raisonnement : Nina a cinq disques de tailles différentes et doit construire des tours de quatre disques en respectant l'ordre des tailles. Le nombre de façons de choisir 4 disques parmi 5 est \( C(5, 4) = 5 \). Puisqu'il n'y a qu'une seule façon d'organiser les disques choisis, le nombre total de tours différents est 5.
+
+Réponse : B) 5

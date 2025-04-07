@@ -1,0 +1,43 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar el nombre de pàgines que queden per llegir després de llegir la tercera part del llibre.
+
+1. El llibre té 630 pàgines, i s'ha de llegir a partir de la pàgina 1. Això significa que la darrera pàgina del llibre és la pàgina 630.
+2. La suma dels números de les pàgines que es van llegir a l'endemà és 4410.
+3. Primer dia, Robert va llegir la tercera part del llibre. Per tant, el nombre total de pàgines que va llegir el primer dia és:
+   630 / 3 = 210 pàgines.
+4. Per tant, el nombre total de pàgines que queden per llegir és:
+   630 - 210 = 420 pàgines.
+5. La suma dels números de les pàgines que queden per llegir és:
+   4410.
+
+Ara, hem de comprovar si aquesta suma correspon a les pàgines que queden per llegir.
+
+La fórmula per a la suma dels primers \( n \) nombres naturals és:
+\[ S = \frac{n(n+1)}{2} \]
+
+En aquest cas, hem de trobar el valor de \( n \) tal que la suma dels números de la pàgina 211 a la pàgina 630 sigui 4410.
+
+La suma dels números de la pàgina 211 a la pàgina 630 és:
+\[ S = \sum_{i=211}^{630} i \]
+\[ S = \sum_{i=1}^{630} i - \sum_{i=1}^{210} i \]
+
+Usant la fórmula de la suma dels primers \( n \) nombres naturals:
+\[ S_{630} = \frac{630 \times 631}{2} = 198450 \]
+\[ S_{210} = \frac{210 \times 211}{2} = 22155 \]
+
+Per tant:
+\[ S = 198450 - 22155 = 176295 \]
+
+Això no coincideix amb 4410, per tant, hem de revisar les opcions donades.
+
+Les opcions donades són:
+A) 210
+B) 211
+C) 230
+D) 390
+E) 400
+
+Si Robert va llegir la tercera part del llibre, i la suma dels números de les pàgines que queden per llegir és 4410, llavors la resposta correcta és 210 pàgines.
+
+**Resposta**: A) 210

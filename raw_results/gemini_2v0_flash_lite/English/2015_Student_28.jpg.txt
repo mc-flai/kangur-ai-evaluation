@@ -1,0 +1,28 @@
+Reasoning:
+1.  **Squares:** There are 7 squares.
+2.  **Red rectangles vs. blue squares:** Let 'x' be the number of blue squares. Then there are 'x + 3' red rectangles.
+3.  **Red squares vs. blue rectangles:** There are 'x + 2' red squares.
+4.  **Total squares:** The total number of squares is 'x' (blue squares) + 'x + 2' (red squares) = 7.
+5.  **Solve for x:** 2x + 2 = 7 => 2x = 5 => x = 2.5 (This is a problem since we should have an integer for the number of squares).
+6.  **Rethink the problem:** If 'x' represents the number of blue rectangles, then there are 'x+2' red squares. Since there are 7 total squares, x + 2 + blue squares = 7 => blue squares = 5-x
+7.  The number of red rectangles is 3 more than the number of blue squares: x + 3 = red rectangles.
+8.  Red Rectangles + Red Squares + Blue Rectangles + Blue Squares = Total Rectangles and Squares
+9. Let b_r= Blue rectangles, b_s = blue squares, r_r = red rectangles, r_s = red squares
+10. b_r + b_s + r_r + r_s = Total
+11. We know: r_s + b_s = 7
+12. We also know r_r = b_s + 3, and r_s = b_r + 2
+13. Now use the equation to solve:
+        r_r + r_s + b_r + b_s
+        (b_s + 3) + (b_r + 2) + b_r + b_s = Total
+        2 * b_r + 2 * b_s + 5 = Total
+        2 * b_r + 2 * b_s = Total - 5
+14. We have two equations:
+        r_r = b_s + 3
+        r_s = b_r + 2
+15. b_s + r_s = 7 => b_s + b_r + 2 = 7 => b_s + b_r = 5 => b_s = 5 - b_r
+16. Finally solve for Blue Rectangle
+        r_r = b_s + 3 => r_r = (5-b_r) + 3 => r_r = 8 - b_r
+17. Now test the options.
+        A) If b_r = 1, then b_s = 4, then r_r = 4, and r_s = 3.  4+3 = 7. This works.
+
+Answer: A)

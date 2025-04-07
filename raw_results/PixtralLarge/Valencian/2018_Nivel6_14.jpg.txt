@@ -1,0 +1,45 @@
+**Raonament**:
+El problema pregunta quants nombres naturals de tres xifres, tots ells iguals, hi ha en la suma de nombres naturals des de 1 fins a n. Per resoldre això, observem que els nombres naturals de tres xifres van de 100 a 999. Aleshores, necessitem trobar quantes vegades aquests nombres apareixen com a suma de nombres naturals des de 1 fins a n.
+
+Per a trobar la suma dels nombres naturals des de 1 fins a n, utilitzem la fórmula de la suma dels primers n nombres naturals:
+\[ S = \frac{n(n+1)}{2} \]
+
+Ara, necessitem trobar els valors de n tals que 100 ≤ S ≤ 999.
+
+Primera, trobem el valor mínim de n que satisfà 100 ≤ S:
+\[ 100 \leq \frac{n(n+1)}{2} \]
+\[ 200 \leq n(n+1) \]
+\[ n^2 + n - 200 \geq 0 \]
+
+Per resoldre l'equació quadràtica, utilitzem la fórmula quadràtica:
+\[ n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+on a = 1, b = 1 i c = -200.
+\[ n = \frac{-1 \pm \sqrt{1 + 800}}{2} \]
+\[ n = \frac{-1 \pm 29}{2} \]
+
+Com que n ha de ser un nombre natural positiu, prenem la solució positiva:
+\[ n = \frac{28}{2} = 14 \]
+
+Ara, trobem el valor màxim de n que satisfà S ≤ 999:
+\[ 999 \geq \frac{n(n+1)}{2} \]
+\[ 1998 \geq n(n+1) \]
+\[ n^2 + n - 1998 \leq 0 \]
+
+Utilitzant la fórmula quadràtica per resoldre:
+\[ n = \frac{-1 \pm \sqrt{1 + 4 \times 1998}}{2} \]
+\[ n = \frac{-1 \pm \sqrt{7993}}{2} \]
+\[ n = \frac{-1 \pm 89}{2} \]
+
+Prenem la solució positiva:
+\[ n = \frac{88}{2} = 44 \]
+
+Aleshores, els valors de n que satisfan les condicions van de 14 a 44. Per trobar quantos valors de n hi ha en aquest interval, subtraïm el valor mínim del màxim i sumem 1:
+\[ 44 - 14 + 1 = 31 \]
+
+Però, necessitem trobar els valors de n tals que la suma sigui un nombre de tres xifres iguals. Això significa que la suma ha de ser 111, 222, 333, 444, 555, 666, 777, 888 o 999. Com que la suma de nombres naturals des de 1 fins a n és sempre un nombre triangular, necessitem verificar quins d'aquests valors són triangulars.
+
+Els nombres triangulars en aquest interval són 15 (1+2+3+4+5), 21 (1+2+3+4+5+6), 28 (1+2+3+4+5+6+7), 36 (1+2+3+4+5+6+7+8), 45 (1+2+3+4+5+6+7+8+9), 55 (1+2+3+4+5+6+7+8+9+10), 66 (1+2+3+4+5+6+7+8+9+10+11), 78 (1+2+3+4+5+6+7+8+9+10+11+12), 91 (1+2+3+4+5+6+7+8+9+10+11+12+13).
+
+D'aquests, els que són nombres de tres xifres iguals són 36, 55 i 66. Per tant, hi ha tres valors de n tals que la suma dels nombres naturals des de 1 fins a n és un nombre de tres xifres iguals.
+
+**Resposta**: C)

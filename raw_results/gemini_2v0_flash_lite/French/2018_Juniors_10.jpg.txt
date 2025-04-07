@@ -1,0 +1,11 @@
+Raisonnement :
+1. Identifier les chemins possibles de K à L en suivant les flèches.
+2. Il y a deux chemins directs de K au point d'intersection central.
+3. Du point d'intersection central, il y a deux chemins possibles vers L.
+4. Chaque chemin de K vers le point central peut être combiné avec chaque chemin du point central vers L. Donc, 2 chemins * 2 chemins = 4 chemins.
+5. Il existe aussi un chemin direct de K au point central du haut, puis au sommet L (1 chemin).
+6. Pour chacun des 4 chemins du point central, il existe deux chemins à partir du point central supérieur. (4 chemins + 2 chemins = 6 chemins).
+7. Enfin, il existe deux chemins directs de K au point central du bas et vers L (2 chemins).
+8.  En additionnant tous les chemins, nous obtenons 4 + 1 + 2 = 9
+
+Réponse : C)

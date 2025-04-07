@@ -1,0 +1,21 @@
+**Reasoning**: 
+
+1. Let's denote the initial number of dogs, cats, and mice as D, C, and M respectively. 
+2. According to the problem, the total number of animals is 30:
+   \( D + C + M = 30 \).
+3. The witch changes 6 dogs into 6 cats, so the number of dogs decreases by 6 and the number of cats increases by 6:
+   \( D - 6 \) and \( C + 6 \).
+4. Then the witch changes 5 cats into 5 mice, so the number of cats decreases by 5 and the number of mice increases by 5:
+   \( C + 6 - 5 = C + 1 \) and \( M + 5 \).
+5. After these transformations, the number of dogs, cats, and mice are equal:
+   \( D - 6 = C + 1 = M + 5 \).
+6. Substituting \( D = C + 7 \) and \( M = C - 1 \) into the total number of animals equation:
+   \( (C + 7) + C + (C - 1) = 30 \).
+7. Simplifying the equation:
+   \( 3C + 6 = 30 \).
+8. Solving for C:
+   \( 3C = 24 \)
+   \( C = 8 \).
+9. Therefore, there were initially 8 cats.
+
+**Answer**: C).

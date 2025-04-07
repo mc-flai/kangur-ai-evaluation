@@ -1,0 +1,25 @@
+**Reasoning:** To solve this question, we need to use the concept of complement counting. The question states that at least one of your two neighboring people wears a hat. We are asked to find the biggest number of people that do not wear a hat.
+
+Let's break down the information:
+
+*   There are 30 people sitting around a round table.
+*   Some of them are wearing a hat.
+*   Those who do not wear a hat, have to speak the truth.
+*   Those who wear a hat can either speak the truth or lie.
+*   They all claim: "At least one of my two neighboring people wears a hat."
+
+We know that if someone does not wear a hat, they will speak the truth. Therefore, if someone claims that at least one of their neighboring people wears a hat, and they themselves do not wear a hat, then their claim is true.
+
+Now, let's consider the possible scenarios:
+
+*   If everyone wears a hat, then their claim is false.
+*   If no one wears a hat, then their claim is true.
+*   If some people wear hats and some do not, then their claim could be true or false depending on the combination.
+
+However, we are given the statement that they all claim: "At least one of my two neighboring people wears a hat." This means that if someone does not wear a hat, they must claim that at least one of their neighboring people wears a hat. Therefore, we can conclude that all people who claim not to wear a hat are telling the truth.
+
+The maximum number of people who do not wear a hat is achieved when no one wears a hat. In this case, all 30 people would claim that at least one of their neighboring people wears a hat, which would be true.
+
+Therefore, the biggest number of people that do not wear a hat is **25**.
+
+**Answer:** E) 25

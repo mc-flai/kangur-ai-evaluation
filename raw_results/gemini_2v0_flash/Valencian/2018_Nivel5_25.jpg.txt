@@ -1,0 +1,8 @@
+Raonament:
+Primer, calculem quantes rectes es podrien formar amb 10 punts qualssevol, sense cap restricció. Això seria la combinació de 10 elements tomats de 2 en 2, que és  C(10,2) = 10! / (2! * 8!) = (10 * 9) / (2 * 1) = 45.
+
+Però, tenim 4 punts alineats. Aquests 4 punts defineixen una única recta. Si calculem quantes rectes es poden formar amb aquests 4 punts, sense tenir en compte que estan alineats, obtenim C(4,2) = 4! / (2! * 2!) = (4 * 3) / (2 * 1) = 6.
+
+Per tant, hem de restar les rectes que comptem de més a causa que els 4 punts estan alineats, és a dir, hem de restar 6 i sumar 1 (per la recta que formen els 4 punts alineats).  Així, el nombre total de rectes és 45 - 6 + 1 = 40.
+
+Resposta: B)

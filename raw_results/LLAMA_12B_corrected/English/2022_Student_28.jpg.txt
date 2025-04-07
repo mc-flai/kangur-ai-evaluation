@@ -1,0 +1,37 @@
+**Reasoning:**
+
+To solve this problem, we need to find the number of integers between two given ranges. We are given two ranges: $\sqrt{N^2 + N + 1}$ and $\sqrt{9N^2 + N + 1}$.
+
+First, we need to simplify these expressions by completing the square:
+
+$$\sqrt{N^2 + N + 1} = \sqrt{(N + \frac{1}{2})^2 - \frac{1}{4}}$$
+
+$$\sqrt{9N^2 + N + 1} = \sqrt{(3N + \frac{1}{2})^2 - \frac{1}{4}}$$
+
+Now, we can see that both expressions are in the form of $x^2 - y^2$, where $x = N + \frac{1}{2}$ and $y = \frac{1}{2}$.
+
+Using difference of squares, we can rewrite the expressions as:
+
+$$\sqrt{(N + \frac{1}{2})^2 - (\frac{1}{2})^2}$$
+
+$$\sqrt{(3N + \frac{1}{2})^2 - (\frac{1}{2})^2}$$
+
+Now, we can take the square root to get:
+
+$$|N + \frac{1}{2} - \frac{1}{2}|$$
+
+$$|3N + \frac{1}{2} - \frac{1}{2}|$$
+
+Simplifying further, we get:
+
+$$|N + 0|$$
+
+$$|3N + 0|$$
+
+This means that the number of integers between these two ranges is equal to the number of integers between $N$ and $3N$.
+
+The number of integers between two numbers $a$ and $b$ (inclusive) is always $b - a$. Therefore, the number of integers between $N$ and $3N$ is $3N - N = 2N$.
+
+So, the correct answer is:
+
+**Answer: C)** 2N

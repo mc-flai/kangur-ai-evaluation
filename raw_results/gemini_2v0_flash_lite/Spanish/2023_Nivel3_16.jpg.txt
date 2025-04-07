@@ -1,0 +1,12 @@
+Razonamiento:
+1. **Identify key information:** The triangle ABC is isosceles with angle ABC = 40 degrees. Angles EAB and DCA are equal. We need to find the value of angle CFE.
+2. **Deduce angles:** Since the triangle ABC is isosceles with angle ABC = 40 degrees, angles BAC and BCA are equal, and also each is (180-40)/2 = 70 degrees.
+3. **Use equality of angles EAB and DCA:** Let x be the angle EAB = DCA.
+4. **Find an equation:** Consider triangle AFC. The sum of angles in this triangle is 180.  So, angle FAC + angle FCA + angle AFC = 180. Angle FAC = 70 - x, angle FCA = 70 - x and angle AFC = angle CFE. Thus, (70 - x) + (70 - x) + angle CFE = 180.
+5. **Analyze the question:** Now, let's consider the triangle ADF. The angles are x, 70 - x and angle AFD = CFE. Thus, in triangle ADF, x + (70 - x) + (180-CFE)=180, or 70+(180-CFE)=180, but we cannot determine this way the value of CFE. Let's go back to triangle AFC: since EAB=DCA, the two angles are x. In triangle AFC, angle FAC = angle BAC - EAB or 70 - x. Also, angle FCA = 70 - x. Thus the two base angles of AFC are equal, implying the triangle is isosceles too. Then angle AFC = 180 - (70 - x) - (70 - x) or angle AFC = 40 + 2x. Angle CFE = 180 - angle AFC, or 180 - (40 + 2x) = 140 - 2x.
+6. **Use Triangle BCE**: We can find angle BEC. From the triangle ABC, BAC = BCA = 70°. Since angle EAB = DCA and angle EAB is an angle within angle BAC, then EAB=DCA, let the value be x. Therefore the value of the base angle for angle BAE is the same of angle ACD or x.  In the triangle BEC, the external angle BEC has the value of BEA = BAC, so that BEC = 70. The same reasoning is valid for angle BEC, which is equal to BEA.
+7. **Angle sum in CFE:** In triangle AFC, angle CFE = 180 - (angle FAC + angle FCA). angle FAC= 70 -x and angle FCA = 70 - x. Then angle CFE = 180 - (70-x+70-x) = 180 - 140+2x, then CFE = 40 + 2x.
+8. **Using the angles**: Considering triangle ADE, we have an angle of x and another angle of x, and the third angle is 180-CFE. The sum of angles in a triangle is 180, hence 40+2x+CFA=180. So we have DFA + CFB = CFE. If we sum FAC+FCA+CFE = 180, the CFE = 180 - (70-x+70-x) or CFE= 40+2x. Also DFA=CFE, so that we have DFA + CFB = DFA + 180-CFE=180. Because ADE is isosceles, with equal angles on A and C. Thus since FAC and FCA are equivalent we have: CFE = 70 + 70 - 180/2.
+    CFE = 70.
+
+Respuesta: D)

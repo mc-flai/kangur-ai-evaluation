@@ -1,0 +1,25 @@
+Raonament:
+Maria tria dos nombres diferents de {8, 9, 10} i calcula la seva suma. Els possibles resultats per a Maria són:
+8 + 9 = 17
+8 + 10 = 18
+9 + 10 = 19
+Hi ha 3 resultats possibles.
+Pere tria dos nombres diferents de {3, 5, 6} i calcula el seu producte. Els possibles resultats per a Pere són:
+3 * 5 = 15
+3 * 6 = 18
+5 * 6 = 30
+Hi ha 3 resultats possibles.
+Hi ha un total de 3 * 3 = 9 casos possibles. Calculem per a quins casos la suma de Maria és més gran que el producte de Pere.
+- Maria = 17: 17 > 15 (Pere = 15), 17 < 18 (Pere = 18), 17 < 30 (Pere = 30)
+- Maria = 18: 18 > 15 (Pere = 15), 18 = 18 (Pere = 18), 18 < 30 (Pere = 30)
+- Maria = 19: 19 > 15 (Pere = 15), 19 > 18 (Pere = 18), 19 < 30 (Pere = 30)
+
+Els casos on la suma de Maria és estrictament més gran que el producte de Pere són:
+- (Maria = 17, Pere = 15)
+- (Maria = 18, Pere = 15)
+- (Maria = 19, Pere = 15)
+- (Maria = 19, Pere = 18)
+Això fa un total de 4 casos.
+La probabilitat és 4/9.
+
+Resposta: A)

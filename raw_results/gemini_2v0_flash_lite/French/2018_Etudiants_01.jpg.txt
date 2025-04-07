@@ -1,0 +1,9 @@
+Raisonnement : On doit calculer chaque expression en respectant l'ordre des opérations (multiplication avant addition). On compare ensuite les résultats pour identifier le plus petit.
+
+*   A) 2 + 0 + 1 + 8 = 11
+*   B) 2 + 0 \* 1 + 8 = 2 + 0 + 8 = 10
+*   C) 2 + 0 + 1 \* 8 = 2 + 0 + 8 = 10
+*   D) 2 \* 0 + 1 \* 8 = 0 + 8 = 8
+*   E) 2 \* 0 + 1 + 8 = 0 + 1 + 8 = 9
+
+Réponse : D)

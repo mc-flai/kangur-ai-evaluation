@@ -1,0 +1,16 @@
+**Razonamiento:**
+1. Identifica los objetivos dados en el problema: (5,12), (3,11), (0,16), (7,8), (4,14) y (9,10).
+2. Observa que cada par de coordenadas representa un objetivo en un espacio de 2D.
+3. La pregunta solicita el valor del objetivo que se puede alcanzar con una sola carta diferente (la más alta posible) en un tablero vacío.
+4. Para encontrar el valor del objetivo, sumamos las coordenadas de todos los objetivos dados:
+   - 5 + 12 = 17
+   - 3 + 11 = 14
+   - 0 + 16 = 16
+   - 7 + 8 = 15
+   - 4 + 14 = 18
+   - 9 + 10 = 19
+5. Sumamos estos resultados:
+   - 17 + 14 + 16 + 15 + 18 + 19 = 99
+6. El valor del objetivo es el número más bajo que no se puede alcanzar con estos objetivos.
+
+**Respuesta:** D)

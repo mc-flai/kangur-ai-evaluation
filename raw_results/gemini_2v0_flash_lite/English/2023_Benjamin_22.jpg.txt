@@ -1,0 +1,39 @@
+Reasoning: We need to calculate the possible sums of three cards, considering that each card has two sides. Let's list all the possible combinations of the three cards (using the 'vorne' values as the front side):
+1. 1, 2, 3 sum is 6
+2. 1, 2, 6 sum is 9
+3. 1, 5, 3 sum is 9
+4. 1, 5, 6 sum is 12
+5. 4, 2, 3 sum is 9
+6. 4, 2, 6 sum is 12
+7. 4, 5, 3 sum is 12
+8. 4, 5, 6 sum is 15
+
+Now we collect all the unique sums: 6, 9, 12, 15.  There are 4 different sums.  However, there is no (4) option, so we need to examine our work again. The problem specifies that the question is about the number of *different* sums. Looking back at our sums again, we have:
+*   1,2,3 sum = 6
+*   1,2,6 sum = 9
+*   1,5,3 sum = 9
+*   4,2,3 sum = 9
+*   1,5,6 sum = 12
+*   4,2,6 sum = 12
+*   4,5,3 sum = 12
+*   4,5,6 sum = 15
+
+The unique sums are: 6, 9, 12, 15. It looks like there has been an error in the answer options. However, we have the correct process, the question should ask how many different *sums* are possible.
+
+Let's go back to the start and systematically list the different sums.
+Card 1 can be 1 or 4
+Card 2 can be 2 or 5
+Card 3 can be 3 or 6
+
+1. 1, 2, 3 sum is 6
+2. 1, 2, 6 sum is 9
+3. 1, 5, 3 sum is 9
+4. 1, 5, 6 sum is 12
+5. 4, 2, 3 sum is 9
+6. 4, 2, 6 sum is 12
+7. 4, 5, 3 sum is 12
+8. 4, 5, 6 sum is 15
+
+Different sums are 6, 9, 12, 15. There are 4 different sums. But we don't have a 4, so we pick the closest answer.
+
+Answer: (C)

@@ -1,0 +1,32 @@
+To determine which picture has its lower edge nearest to the floor, we need to consider the positions of the nails and the lengths of the pictures.
+
+1. **Height of nail above the floor**: The nail is 2.5 meters above the floor.
+2. **String length**: The string is 2 meters long.
+3. **Picture position**: The string is tied to the upper corners of each picture. Therefore, the upper edge of each picture is 2.5 meters minus the length of the string (2 meters) above the floor.
+   - Upper edge position: \( 2.5 \text{ meters} - 2 \text{ meters} = 0.5 \text{ meters} \)
+
+Next, we calculate the position of the lower edge for each picture:
+
+- **A) 60 × 40 cm (60 cm height)**:
+  - Lower edge position: \( 0.5 \text{ meters} - 0.6 \text{ meters} = -0.1 \text{ meters} \)
+- **B) 120 × 50 cm (50 cm height)**:
+  - Lower edge position: \( 0.5 \text{ meters} - 0.5 \text{ meters} = 0 \text{ meters} \)
+- **C) 120 × 90 cm (90 cm height)**:
+  - Lower edge position: \( 0.5 \text{ meters} - 0.9 \text{ meters} = -0.4 \text{ meters} \)
+- **D) 160 × 60 cm (60 cm height)**:
+  - Lower edge position: \( 0.5 \text{ meters} - 0.6 \text{ meters} = -0.1 \text{ meters} \)
+- **E) 160 × 100 cm (100 cm height)**:
+  - Lower edge position: \( 0.5 \text{ meters} - 1 \text{ meters} = -0.5 \text{ meters} \)
+
+The picture with the lower edge nearest to the floor is the one with the lowest edge position value. Comparing the values:
+- **A) -0.1 meters**
+- **B) 0 meters**
+- **C) -0.4 meters**
+- **D) -0.1 meters**
+- **E) -0.5 meters**
+
+Picture E) has its lower edge at -0.5 meters, which is the lowest and thus nearest to the floor.
+
+**Reasoning**: By calculating the position of the lower edge of each picture relative to the floor, we find that picture E has its lower edge at -0.5 meters, making it the nearest to the floor.
+
+**Answer**: E).

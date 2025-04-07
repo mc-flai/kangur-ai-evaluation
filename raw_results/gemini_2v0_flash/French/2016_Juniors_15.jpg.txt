@@ -1,0 +1,20 @@
+Reasoning:
+Let $f(x) = ax$ since $f$ is a linear function.
+Let $g(x) = bx + c$ since $g$ is an affine function.
+Given $f(2) = g(2) = 4$, we have $2a = 4$, so $a = 2$. Thus $f(x) = 2x$.
+Given $f(3) = -g(3)$, we have $2(3) = -g(3)$, so $6 = -(3b+c)$.
+Also, $g(2) = 2b + c = 4$.
+We have two equations:
+$3b + c = -6$
+$2b + c = 4$
+Subtracting the second equation from the first:
+$3b + c - (2b + c) = -6 - 4$
+$b = -10$
+Substitute $b = -10$ into $2b + c = 4$:
+$2(-10) + c = 4$
+$-20 + c = 4$
+$c = 24$
+So $g(x) = -10x + 24$.
+Then $g(1) = -10(1) + 24 = -10 + 24 = 14$.
+
+Answer: E)

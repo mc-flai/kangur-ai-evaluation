@@ -1,0 +1,23 @@
+Reasoning: To solve this question, we need to understand the concept of consecutive numbers and their properties.
+
+The relevant data from the image is:
+
+* 2015 marbles in a pipe.
+* The marbles are numbered 1 to 2015.
+* The question asks us to find how many of these marbles have:
+	+ Digits that add up to the same number.
+	+ Digits whose sum is different from their digits.
+
+Let's break down the problem step by step:
+
+* **Step 1:** Find the number of consecutive numbers where the sum of their digits is the same. For example, 19, 28, 37, ..., 98, 107, 116, ..., 979, 988, 997.
+* **Step 2:** Find the numbers in step 1 where the digits are different from their sum. For example, 19, 28, 37, ..., 98, 107, 116, ..., 979, 988, 997.
+
+Now, let's calculate:
+
+* **Step 1:** The consecutive numbers starting with 1 have a sum of digits 1, 2, 3, ..., 9, which sums to $45\times 9 = 405$. The consecutive integers in [405, 405 + 1000] are given by \[ 405 \text{ to } 1405 \] to get 1001 integers.
+* **Step 2:** Where digits are not the same as their sum, add $10$ (from 10 to 19, inclusive), $7$ ( 27 to 37, inclusive), ..., 89 (from 181 to 271, inclusive), 91 (from 392 to 493, inclusive), 93 (from 621 to 722, inclusive) 98 (from 1111 to 1122), to get 591.
+
+[start] --> final_answer ====591===== [end]<|end_header|
+Therefore, the correct answer is (C) 591.
+Answer: C)

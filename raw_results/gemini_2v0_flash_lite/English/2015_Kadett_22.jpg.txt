@@ -1,0 +1,167 @@
+Reasoning:
+Let the five numbers be a, b, c, d, and e.
+The sums of the pairs are 57, 70, and 83. Since there are five numbers, there are 5C2 = 10 pairs.
+The given sums indicate that at least one of the numbers is repeated.
+If we let the smallest sum be a+b = 57, the middle sum be a+c = 70, and the largest sum be d+e = 83.
+We have the following logic:
+The smallest sum is 57, the middle sum is 70, and the largest sum is 83.
+The sum of all pairs will be 4(a+b+c+d+e).
+Since there are three possible sums, the sums are:
+a+b = 57 (1)
+a+c = 70 (2)
+b+c = 70 (3)
+a+d = 83 (4)
+a+e= 83
+b+d = 83
+b+e = 83
+c+d = 83
+c+e = 83
+d+e = 83
+Let's analyze the possibilities for the sums:
+We could have:
+a+b = 57
+a+c = 57
+a+d = 70
+b+c = 70
+b+d = 70
+c+d = 83
+We can assume a <= b <= c <= d <= e
+Since there are three different sums, there must be repeated values. The sums 57, 70 and 83. Let's denote a <= b <= c <= d <= e.
+The smallest sums are a+b=57.
+The largest sums are d+e=83.
+Since only 3 sums can be obtained, at least some numbers should be repeated.
+Let's assume a+b=57.
+If a+c=70 and b+c=70, then a+c=b+c so a=b. Then 2a=57, which is not possible since a is a whole number.
+So let the second smallest sum be a+c=70.
+If b+c=70, and also a = b so a = 28.5, which is not possible.
+So suppose a+b=57, a+c=70, b+d=70.
+Then, if c and d are equal, and equal to e, then:
+a+b=57
+a+c=70
+b+c=70 (c is at least as big as b)
+c+e=83
+d+e=83
+c+d=83.
+We can test:
+We need 5 pairs, where we have only 3 possible results, 57, 70, 83.
+If a+b=57, a+c=70, b+c = 70.
+Then a = 28.5
+Then b+d = 70.
+We can consider the numbers x, x, y, z, z.
+So sums are:
+2x, x+y, x+z, 2z, y+z
+Case 1: Sums are 57, 70, 83.
+x+y=57, 2x=57...
+x=y and z=z.
+We are told that there are 3 sums. We need to assume that there must be at least two equal values.
+Consider the case: a, a, b, c, c
+The smallest sum is 2a=57, which means there can't be two values.
+x+y=57
+x+z=70
+y+z=83
+So we have
+a+b = 57
+a+c = 70
+b+c = 83
+a+b=57
+c = b-57
+b-57+c=70, so b+c=70+57
+Then a+b=57
+a+c=70
+b+c=83.
+a+b = 57.
+Then c = 83-b and a=57-b. a+c=70 so 57-b+83-b = 70. So 140-2b = 70, 2b = 70, b=35
+a = 22
+c = 48. The numbers are 22, 35, 48.
+If we had: 22, 35, 48, 48, 48:
+22+35 = 57
+22+48 = 70
+35+48 = 83
+48+48=96
+
+Consider numbers x, y, y, z, z.
+Sum of each pair is
+2x, x+y, x+z, y+z
+Assume the numbers are a, b, c, c, d.
+Let the smallest sum be x, second smallest sum be y, and largest sum be z.
+Pairs are a+b=57, a+c=70, b+c=70, c+c=83, c+d=83.
+a+c=70.
+a+b=57
+b+c=70
+b=70-c, a=57-b. so a=57-b.
+c+d=83.
+So the cards are 22, 35, 35, 48.
+a, b, c, c, d
+a+b=57, a+c=70, b+c=70, c+c=x, c+d=83, ...
+a=22, b=35, c=35, d=48
+Then 22+35=57
+22+35=57
+22+48=70
+35+35=70
+35+48 = 83.
+
+22, 35, 35, 35
+Sums are 48, 48, 48, 48, 48
+So:
+a+b=57
+a+c=70
+b+c=83
+57+70+83 = 210
+
+If the cards are x, y, y, z, z
+x+y=57.
+y+z=70
+z+z=83. No
+x+y=57.
+x+z=70
+y+z=83
+
+a+b = 57, a+c = 70, b+d=70, c+d=83, ...
+
+a, b, c, c, d.
+22, 35, 35, 48.
+22+35=57,
+22+48 = 70.
+35+48=83.
+The cards can be 22, 35, 35, 48, 48.
+22, 35, 35, 48, 48
+So sums are 57, 57, 70, 70, 70, 83, 83, 83, 96, 96
+
+Numbers = 22, 35, 48.
+
+a+b = 57
+a+c = 70
+b+c = 83.
+a+b+a+c+b+c = 210.
+2a+2b+2c = 210.
+a+b+c = 105
+22, 35, 48
+22, 35, 48
+22, 35, 48, 48
+So 22+48=70.
+So 22, 35, 48.
+22+35=57
+22+48=70
+35+48=83.
+48+48=96.
+Biggest number = 48.
+
+So the cards are a,b,c, c, d.
+a+b = 57, a+c = 70, b+c = 70, b+d = 83.
+b+d=83
+a,b,c,c,d
+57=x+y.
+a=22
+b=35. c=35, d=48.
+cards = 22, 35, 48, 48
+22+35=57
+22+48 = 70
+35+48=83
+So biggest number = 48.
+
+Cards = 22, 35, 48, 48
+So biggest number is 48.
+
+The biggest number will be 48.
+
+Answer: C)

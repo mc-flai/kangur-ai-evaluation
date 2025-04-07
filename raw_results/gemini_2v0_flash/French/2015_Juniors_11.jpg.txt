@@ -1,0 +1,13 @@
+Reasoning:
+The problem asks for the shortest distance from the starting point "Départ" to the ending point "Arrivée" moving along sides or diagonals of the 8 squares, where each square has side length 1. The horizontal distance is 3 and the vertical distance is 2.
+We could move along the sides. In this case, the distance is 3 + 2 = 5. However, using diagonals may be shorter.
+We need to move 3 units horizontally and 2 units vertically.
+If we take the direct horizontal route, then vertically, one can move down by taking the square root of 2 diagonally twice so: 3+ 2*(sqrt(2)) which is not in any of the choices.
+Let's try to move as diagonally as possible. We can make two diagonal movements directly across the 2x3 rectangle.
+The horizontal distance to move will be 3 and the vertical distance to move is 2. The diagonal has a length of sqrt(1^2 + 1^2) = sqrt(2). Using two diagonals will be 2sqrt(2). Then the path will still have 2 horizontal sides of length 1 each. So total will be 2 + 2sqrt(2).
+Let's consider using 4 diagonals (i.e., cutting across each square individually). 4*sqrt(2) = 4sqrt(2), which is choice D.
+Let's consider horizontal movement and then movement down diagonally. The horizontal can be covered by moving straight with 3. And two diagonals can get down. In that case it becomes 3 + 2*sqrt(2). This is not an option.
+Let's consider vertical movement and then movement to the right diagonally. The vertical can be covered by moving straight with 2. And three diagonals to the right has distance 3*sqrt(2), so then the path is 2+3sqrt(2).
+We can move right 2 steps, then down and right diagonally, then down and right diagonally. Thus the path is 2 * 1 + 2 * sqrt(2) = 2 + 2sqrt(2). This corresponds to C).
+
+Answer: C)

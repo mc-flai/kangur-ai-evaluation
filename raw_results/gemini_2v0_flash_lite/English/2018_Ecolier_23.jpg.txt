@@ -1,0 +1,7 @@
+Reasoning: The question asks which numbers can be placed in the field with the question mark. Two consecutive numbers can't be adjacent.
+The field with the ? is adjacent to 3 other fields (top right, top left, and bottom).
+Since no restriction is put on the numbers which must be placed on adjacent fields, we can only eliminate some combinations.
+The numbers can be 1 to 7 so, 4 can be an option.
+If a cell adjacent to the ? would contain a 3, then the field containing ? cannot hold 2 or 4. If a cell adjacent to the ? would contain a 5, then the field containing ? cannot hold 4 or 6. This logic doesn't eliminate any numbers from the fields.
+
+Answer: A)

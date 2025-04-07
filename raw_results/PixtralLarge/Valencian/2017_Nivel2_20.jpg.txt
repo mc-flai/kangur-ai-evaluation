@@ -1,0 +1,17 @@
+**Raonament**: Per resoldre aquest problema, hem de sumar els valors corresponents de cada lletra d'acord amb la figura donada. Cada lletra representa un dígit diferent i aquests valors es mantenen constants en totes les sumes.
+
+Observant la figura:
+- BDCE = AECBE (4 lletres a cada costat)
+- BDAE = 12
+
+Per sumar A + B + C + D + E, podem usar els valors de B, D, A, E que ja coneixem:
+- B + D + A + E = 12
+- B + C + D + E = 11
+
+Ara, necessitem sumar tots els valors de les lletres:
+- A + B + C + D + E = A + 11
+
+Com que A + B + D + E = 12, sumant la C (11 - 12) a A:
+- A + B + C + D + E = A + 11 = 20
+
+**Resposta**: E)

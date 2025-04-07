@@ -1,0 +1,23 @@
+Pour la question 17, nous devons déterminer comment les trois tasses sont disposées après 10 coups. Chaque coup implique de prendre la tasse la plus à gauche, la retourner et la placer à droite des deux autres.
+
+**Raisonnement :**
+
+1. Initialement, la disposition des tasses est (G, G, G) – toutes les trois sont à l'endroit.
+2. Après chaque coup, la tasse la plus à gauche est retournée et déplacée à droite.
+
+Voyons les configurations coup par coup :
+
+1. (G, G, G) → (G, G, B)
+2. (G, G, B) → (G, B, G)
+3. (G, B, G) → (B, G, G)
+4. (B, G, G) → (B, G, B)
+5. (B, G, B) → (G, B, B)
+6. (G, B, B) → (G, B, G)
+7. (G, B, G) → (B, G, G)
+8. (B, G, G) → (G, G, B)
+9. (G, G, B) → (G, B, G)
+10. (G, B, G) → (B, G, G)
+
+Donc, après 10 coups, la disposition est (B, G, G).
+
+**Réponse :** D)

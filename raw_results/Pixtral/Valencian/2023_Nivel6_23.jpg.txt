@@ -1,0 +1,39 @@
+
+**Razonamiento:**
+1. El sistema de ecuaciones dado es:
+   \[
+   |x| + |y| = 1
+   \]
+   \[
+   x^2 - y^2 = 1
+   \]
+
+2. Primero, consideremos la ecuación \( |x| + |y| = 1 \). Esta ecuación representa una línea en el plano cartesiano que une los puntos \((1, 0)\), \((0, 1)\), \((-1, 0)\), y \((0, -1)\).
+
+3. Ahora, consideremos la ecuación \( x^2 - y^2 = 1 \). Esta ecuación puede ser reescrita como:
+   \[
+   (x - y)(x + y) = 1
+   \]
+
+4. Para resolver este sistema, buscamos puntos \((x, y)\) que satisfagan ambas ecuaciones. Primero, observamos que \( x = y \) o \( x = -y \) son soluciones posibles para la ecuación \( (x - y)(x + y) = 1 \).
+
+5. Si \( x = y \), entonces:
+   \[
+   |x| + |x| = 1 \implies 2|x| = 1 \implies |x| = \frac{1}{2} \implies x = \pm \frac{1}{2}
+   \]
+   Si \( x = \frac{1}{2} \), entonces \( y = \frac{1}{2} \). Si \( x = -\frac{1}{2} \), entonces \( y = -\frac{1}{2} \).
+
+6. Si \( x = -y \), entonces:
+   \[
+   |x| + |-x| = 1 \implies 2|x| = 1 \implies |x| = \frac{1}{2} \implies x = \pm \frac{1}{2}
+   \]
+   Si \( x = \frac{1}{2} \), entonces \( y = -\frac{1}{2} \). Si \( x = -\frac{1}{2} \), entonces \( y = \frac{1}{2} \).
+
+7. Por lo tanto, las soluciones al sistema de ecuaciones son:
+   \[
+   \left( \frac{1}{2}, \frac{1}{2} \right), \left( -\frac{1}{2}, -\frac{1}{2} \right), \left( \frac{1}{2}, -\frac{1}{2} \right), \left( -\frac{1}{2}, \frac{1}{2} \right)
+   \]
+
+8. El número de soluciones es 4.
+
+**Respuesta:** C)

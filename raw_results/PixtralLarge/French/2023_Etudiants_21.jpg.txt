@@ -1,0 +1,19 @@
+Pour déterminer combien de koalas peuvent être assis dans une rangée de 23 sièges où chaque siège est occupé soit par un koala soit par un kangourou, il faut s'assurer qu'il n'y a jamais deux kangourous côte à côte.
+
+Voici le raisonnement :
+
+1. Trouvons la configuration maximale de koalas et kangourous sans que deux kangourous soient côte à côte.
+2. Considérons que chaque kangourou doit être entouré par des koalas ou être à la fin de la rangée.
+
+Pour maximiser le nombre de kangourous, nous devons les placer de façon à ce qu'ils ne soient jamais côte à côte. Voici une façon de le faire :
+
+- Si nous plaçons un kangourou tous les 2 sièges, cela nous donne une séquence de la forme : K Ko K Ko K...
+
+  Cela signifie qu'à chaque bloc de "K Ko", nous avons 1 kangourou et 1 koala.
+
+3. Pour une rangée de 23 sièges, cette séquence contiendra 11 blocs de "K Ko" plus un siège supplémentaire. Ce siège supplémentaire sera un koala, car placer un kangourou à la fin créerait une séquence de deux kangourous côte à côte.
+
+4. Donc, nous avons 11 kangourous et 11 koalas dans les blocs de "K Ko", plus un siège koala supplémentaire. Cela donne un total de 12 koalas.
+
+Raisonnement : En configurant les sièges pour que chaque kangourou soit entouré de koalas, nous maximisons le nombre de kangourous tout en respectant la règle de ne pas avoir deux kangourous côte à côte. Cela se traduit par 11 blocs de "K Ko" et un siège supplémentaire pour un koala, donnant un total de 12 koalas.
+Réponse : E) 12

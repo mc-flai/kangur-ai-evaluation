@@ -1,0 +1,102 @@
+Per resoldre aquest problema, hem de distribuir els nombres 1, 2, 3 i 4 en una cel·la diferent d'una taula 2x2, de manera que la suma dels nombres de cada fila i cada columna sigui igual.
+
+1. Distribueix els nombres 1, 2, 3 i 4 en la taula 2x2.
+2. Calcula les sumes de cada fila i columna.
+3. Verifica si les sumes són iguals a 4 i 5.
+
+Comencem probant diferents combinacions per trobar la correcta:
+
+Combinació 1:
+```
+1  2
+3  4
+```
+- Sumes de les files: 1+2=3, 3+4=7
+- Sumes de les columnes: 1+3=4, 2+4=6
+Les sumes no són iguals ni a 4 ni a 5.
+
+Combinació 2:
+```
+1  3
+2  4
+```
+- Sumes de les files: 1+3=4, 2+4=6
+- Sumes de les columnes: 1+2=3, 3+4=7
+Les sumes no són iguals ni a 4 ni a 5.
+
+Combinació 3:
+```
+1  4
+2  3
+```
+- Sumes de les files: 1+4=5, 2+3=5
+- Sumes de les columnes: 1+2=3, 4+3=7
+Les sumes de les files són iguals a 5, però les sumes de les columnes no són iguals ni a 4 ni a 5.
+
+Combinació 4:
+```
+2  3
+1  4
+```
+- Sumes de les files: 2+3=5, 1+4=5
+- Sumes de les columnes: 2+1=3, 3+4=7
+Les sumes de les files són iguals a 5, però les sumes de les columnes no són iguals ni a 4 ni a 5.
+
+Combinació 5:
+```
+3  1
+4  2
+```
+- Sumes de les files: 3+1=4, 4+2=6
+- Sumes de les columnes: 3+4=7, 1+2=3
+Les sumes no són iguals ni a 4 ni a 5.
+
+Combinació 6:
+```
+4  1
+3  2
+```
+- Sumes de les files: 4+1=5, 3+2=5
+- Sumes de les columnes: 4+3=7, 1+2=3
+Les sumes de les files són iguals a 5, però les sumes de les columnes no són iguals ni a 4 ni a 5.
+
+Combinació 7:
+```
+2  4
+1  3
+```
+- Sumes de les files: 2+4=6, 1+3=4
+- Sumes de les columnes: 2+1=3, 4+3=7
+Les sumes no són iguals ni a 4 ni a 5.
+
+Combinació 8:
+```
+4  2
+1  3
+```
+- Sumes de les files: 4+2=6, 1+3=4
+- Sumes de les columnes: 4+1=5, 2+3=5
+Les sumes de les columnes són iguals a 5, però les sumes de les files no són iguals ni a 4 ni a 5.
+
+Combinació 9:
+```
+3  4
+2  1
+```
+- Sumes de les files: 3+4=7, 2+1=3
+- Sumes de les columnes: 3+2=5, 4+1=5
+Les sumes de les columnes són iguals a 5, però les sumes de les files no són iguals ni a 4 ni a 5.
+
+Finalment, la combinació correcta és:
+```
+4  1
+2  3
+```
+- Sumes de les files: 4+1=5, 2+3=5
+- Sumes de les columnes: 4+2=6, 1+3=4
+
+Aquesta combinació satisfà les condicions de que dues sumes siguin 4 i 5.
+
+Raonament: Després d'intentar diverses combinacions, trobem que la combinació `4 i 5` és la correcta, ja que les sumes de les columnes són 4 i 5.
+
+Resposta: C)

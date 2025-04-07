@@ -1,0 +1,15 @@
+Raonament: The information in the image is:
+
+* A multiple-choice question from a quiz or test.
+* The question asks for the sum of the divisors of 1000.
+* The options for the answer are:
+	+ A) 1022
+	+ B) 1170
+	+ C) 2184
+	+ D) 2340
+	+ E) The sum of the antecedents
+* The question is written in French, but the numerical options and the concept of finding the sum of divisors remain clear.
+
+To solve this problem, we need to find the sum of all divisors of 1000. The divisors of 1000 are: 1, 2, 4, 5, 8, 10, 20, 25, 40, 50, 100, 125, 200, 250, 500, and 1000. We can find this by repeatedly dividing 1000 by the smallest divisor and then adding the quotient to our running total. Alternatively, we can factorize 1000 into prime factors, which is 1000 = 2^3 * 5^3, and use the property that the sum of divisors of a number can be written as: (p1^0 + p1^1 + ... + p1^n1)(p2^0 + p2^1 + ... + p2^n2)... where n1 and n2 are the powers of the prime factors p1 and p2, respectively. In this case, (2^0 + 2^1 + 2^2 + 2^3)(5^0 + 5^1 + 5^2 + 5^3) = (1 + 2 + 4 + 8)(1 + 5 + 25 + 125) = 15 * 156 (which equals 2340).
+
+Resposta: D)

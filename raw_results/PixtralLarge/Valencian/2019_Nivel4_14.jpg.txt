@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de determinar quantes quartes potències dels nombres de l'1 al 1000 acaben en 1 o en 6 amb la xifra de les unitats.
+
+**Raonament**:
+1. Una quarta potència d'un nombre \( n \) es representa com \( n^4 \).
+2. Per a determinar si \( n^4 \) acaba en 1 o en 6, hem d'analitzar les possibles unitats de \( n \).
+3. Les unitats de \( n \) poden ser 0, 1, 2, 3, 4, 5, 6, 7, 8 o 9.
+4. Calculem les quartes potències de cada unitat:
+    - \( 0^4 = 0 \)
+    - \( 1^4 = 1 \)
+    - \( 2^4 = 16 \)
+    - \( 3^4 = 81 \)
+    - \( 4^4 = 256 \)
+    - \( 5^4 = 625 \)
+    - \( 6^4 = 1296 \)
+    - \( 7^4 = 2401 \)
+    - \( 8^4 = 4096 \)
+    - \( 9^4 = 6561 \)
+5. De les quartes potències calculades, només les unitats de \( 1^4 \) i \( 6^4 \) són 1 i 6, respectivament.
+6. Ara hem de comptar quantes quartes potències dels nombres de l'1 al 1000 acaben en 1 o 6:
+    - Per a \( n = 1, 11, 21, 31, ... , 991 \) (nombres que acaben en 1), \( n^4 \) acabarà en 1.
+    - Per a \( n = 6, 16, 26, 36, ... , 996 \) (nombres que acaben en 6), \( n^4 \) acabarà en 6.
+7. Hi ha 100 nombres que acaben en 1 i 100 nombres que acaben en 6 en el rang de l'1 al 1000.
+8. Per tant, hi ha 100 + 100 = 200 quartes potències que acaben en 1 o en 6.
+
+**Resposta**: E) 700

@@ -1,0 +1,17 @@
+Raonament:
+The problem states that $14_b \cdot 25_b = 416_b$. Let's convert these numbers to base 10.
+$14_b = 1 \cdot b^1 + 4 \cdot b^0 = b + 4$
+$25_b = 2 \cdot b^1 + 5 \cdot b^0 = 2b + 5$
+$416_b = 4 \cdot b^2 + 1 \cdot b^1 + 6 \cdot b^0 = 4b^2 + b + 6$
+The equation in base 10 becomes $(b+4)(2b+5) = 4b^2 + b + 6$. Expanding the left side, we get:
+$2b^2 + 5b + 8b + 20 = 4b^2 + b + 6$
+$2b^2 + 13b + 20 = 4b^2 + b + 6$
+Rearranging the terms, we get a quadratic equation:
+$0 = 2b^2 - 12b - 14$
+Dividing by 2, we get:
+$b^2 - 6b - 7 = 0$
+Factoring the quadratic equation:
+$(b - 7)(b + 1) = 0$
+So, $b = 7$ or $b = -1$.  Since the base must be a positive integer greater than the largest digit in the expression, we must have $b>6$. Thus, b=7.
+
+Resposta: A)

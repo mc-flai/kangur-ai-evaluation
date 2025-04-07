@@ -1,0 +1,47 @@
+Reasoning:
+KLMN is a square, so angle KLM is 90 degrees. KOM is an equilateral triangle, so angle OKM = angle KMO = angle MOK = 60 degrees. Since KOM is equilateral, KM = KO = OM, and since KLMN is a square, KL = LM = MN = NK. Thus, KM = sqrt(2)*KL.
+
+We are interested in the angle MLO. Consider the triangle OKL. We know OK = KL (side of the equilateral triangle = side of the square) so OKL is an isosceles triangle.
+The angle OKL = angle OKM + angle MKL. Since KLMN is a square, angle MKL = 90. Hence, angle OKL = 60+90 = 150 degrees. The angles in triangle OKL sum to 180 degrees.
+Thus angle KOL = angle KLO = (180-150)/2 = 30/2 = 15 degrees.
+Now consider the angle KML = 45 degrees (diagonal of the square makes 45 degrees with side) and angle KMO = 60 degrees.
+Thus, angle LMO = KMO - KML = 60 - 45 = 15 degrees.
+We want to find angle MLO. We know that KLO = 15 degrees and KML=45 degrees.
+Since KML = KLM-MLO => KLM =90, if point O lies to the right. Since KMO = 60 and the equilateral traingle is constructed *inside* we have something different:
+Since KLO = 15, KML = 45, KLM =90 => KML = KLM-MLO
+ =>45 = 90 -MLO; hence MLO = 45. We have some inconsistencies.
+
+Since OL=OK, we know OKL = 150. Angle OKL is obtuse.  Consider triangle LOM: we want MLO
+KLM = 90. KMO= 60. KML=45. LMO= 60-45=15.  Since OK=OL, KLO =OLK=15. Then, KLM= KLO+OLM = 90 => 15+OLM = 90? => no
+KOM = 60 degrees and since  MKL is 90 we want MLO? Since KMO is part of the triangle:
+OK = KL because both are sides.
+Because KL is a side of the square and OK is a side of the equ. triangle.
+OLK is a 15, OKL = 15, since isosceles we are given that vertex O is created INSIDE the triangle and that O is created so L lies WITHIN the triangle and is still equilateral such that if we construct the points it looks like the vertex O is indeed constructed inside the triangle
+
+So we need an alternative approach.
+Angle OKL = 90+60 = 150; OK=KL (side of square and side of eq. triangle). Thus angle OLC = (180-150)/2 = 15. Angle LMO. 
+Consider the angle OML = 60-45 =15. Angle OML is 60. Angle LMO = 45. OK= OM thus KOM is triangle with vertex O. 
+
+MLO = 30; It can work this way! Angle KML=KM
+
+Reasoning:
+Let the side length of the square be 'a'. Then KL = LM = a. Since KOM is an equilateral triangle, KO = OM = KM. Also, each angle of KOM is 60 degrees.
+
+Angle KLM = 90 degrees (since KLMN is a square) and angle KMO = 60 degrees.
+KM = sqrt(a^2 + a^2) = a*sqrt(2). Therefore OK = OM = KM = a*sqrt(2).
+Now consider the triangle KLM. KML=45 degrees. Angle MLO = 30.
+In the figure, OK = KL since both are a side of square/triangle respectively. Then KO = a and KL=a (both equal to length of sides)
+Then triangle OKL is isosceles triangle. Then vertex L is on the corner.
+OKM =60. KML=45. THEN OML=60-45= 15. Now OKL=OKM+MKL=> 60 +90 =>150. So OKL triangle becomes => vertices KLO=>15 , 15,150=180. SO OK =KL
+
+Reasoning: Consider triangle LOM. OM = a(sqrt2), but how that doesnt make that triangle to make the angle 30?
+KL= LM= a. Also OK=OM= sqrt2* a
+KML = 45, as the diagonal divides square into 45 degree part angle KML. Angle KLM = is 90 since its a square corner.
+
+OML = angle between equilat triangle edge and line KM.
+Because MLO =KLO-KML, 
+There are very weird angles.
+
+Reasoning: After attempting a geometric approach and encountering difficulties, let's reconsider. The problem states the diagram is accurate so a good approximation should work out. Triangle KOM is constructed such that L is *inside* the equilateral triangle, making MLO look like around 30 degrees. Angle LMO = 60 - 45 = 15. From diagram this should be roughly the shape so its probably 30
+
+Answer: A)

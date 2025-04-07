@@ -1,0 +1,9 @@
+Raonament: Per a trobar les coordenades després de la rotació antihorària de 45 graus al voltant de l'origen, usem la matriu de rotació. La matriu de rotació per un angle θ és:
+[[cos(θ), -sin(θ)], [sin(θ), cos(θ)]]
+En el nostre cas, θ = 45 graus, així que cos(45) = sin(45) = √2/2. La matriu de rotació és:
+[[√2/2, -√2/2], [√2/2, √2/2]]
+Ara, multiplicarem aquesta matriu pel vector (7, 2):
+[[√2/2, -√2/2], [√2/2, √2/2]] * [7, 2] = [(7√2/2 - 2√2/2), (7√2/2 + 2√2/2)] = [(5√2/2), (9√2/2)]
+Per tant, les coordenades després de la rotació són (5√2/2, 9√2/2).
+
+Resposta: A)

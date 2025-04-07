@@ -1,0 +1,11 @@
+Raonament:
+El problema diu que el quocient d'un nombre de dues xifres N entre la suma de les seves xifres és 8. Hem de trobar el valor de la xifra de les unitats. Si el quocient és 8, el nombre N pot ser escrit com N = 8 * (suma de les xifres).
+Provem les respostes.
+*   Si la xifra de les unitats és 0, el nombre podria ser 80. La suma de les xifres és 8 + 0 = 8. 80/8 = 10, no 8.
+*   Si la xifra de les unitats és 2, provarem amb un nombre que acabi en 2. Pot ser 72. La suma de les xifres és 7+2=9. 72/9 = 8. Això funciona!
+*   Si la xifra de les unitats és 4, necessitem una suma de xifres que es multipliqui per 8 per obtenir un nombre que acabi en 4.  Podria ser 16 (2*8) però no funcionaria.
+*   Si la xifra de les unitats és 6,  provarem amb un nombre que acabi en 6.
+*   Si la xifra de les unitats és 8, provarem amb un nombre que acabi en 8.
+Per tant, la resposta és 2.
+
+Resposta: B)

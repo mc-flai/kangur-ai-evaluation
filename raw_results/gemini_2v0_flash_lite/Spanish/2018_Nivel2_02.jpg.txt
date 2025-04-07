@@ -1,0 +1,14 @@
+Here's the solution to question 2:
+
+*   **Understanding the Problem:** We are given the year 2018, and the sum of its digits (2+0+1+8 = 11, which is a prime number). We need to find how many years need to pass until we encounter another year where the sum of its digits results in a prime number.
+
+*   **Testing Options:**
+    *   A) 1 year: 2018 + 1 = 2019 -> 2+0+1+9 = 12 (not prime)
+    *   B) 2 years: 2018 + 2 = 2020 -> 2+0+2+0 = 4 (not prime)
+    *   C) 3 years: 2018 + 3 = 2021 -> 2+0+2+1 = 5 (prime)
+
+*   **Determining the Answer:** After 3 years the sum of the digits is 5, a prime number.
+
+*   **Answer:**
+    Razonamiento: Sumamos los años hasta encontrar un número cuya suma de dígitos sea primo.
+    Respuesta: C)

@@ -1,0 +1,48 @@
+Reasoning: We need to find a combination of 3 cards for Nadia and 2 for Riny such that (Nadia's product) + (Riny's product) = Prime.
+The cards have the following values: 3, 4, 5, 6, 7.
+
+Let's consider each possible combination and check the sum of the products:
+*   **If Nadia has 3, 4, 5 (Sum = 12), Riny has 6, 7:**
+    *   Nadia's product = 3 \* 4 \* 5 = 60
+    *   Riny's product = 6 \* 7 = 42
+    *   Sum = 60 + 42 = 102 (Not prime)
+*   **If Nadia has 3, 4, 6 (Sum = 13), Riny has 5, 7:**
+    *   Nadia's product = 3 \* 4 \* 6 = 72
+    *   Riny's product = 5 \* 7 = 35
+    *   Sum = 72 + 35 = 107 (Prime)
+*   **If Nadia has 3, 4, 7 (Sum = 14), Riny has 5, 6:**
+    *   Nadia's product = 3 \* 4 \* 7 = 84
+    *   Riny's product = 5 \* 6 = 30
+    *   Sum = 84 + 30 = 114 (Not prime)
+*   **If Nadia has 3, 5, 6 (Sum = 14), Riny has 4, 7:**
+    *   Nadia's product = 3 \* 5 \* 6 = 90
+    *   Riny's product = 4 \* 7 = 28
+    *   Sum = 90 + 28 = 118 (Not prime)
+*   **If Nadia has 3, 5, 7 (Sum = 15), Riny has 4, 6:**
+    *   Nadia's product = 3 \* 5 \* 7 = 105
+    *   Riny's product = 4 \* 6 = 24
+    *   Sum = 105 + 24 = 129 (Not prime)
+*   **If Nadia has 3, 6, 7 (Sum = 16), Riny has 4, 5:**
+    *   Nadia's product = 3 \* 6 \* 7 = 126
+    *   Riny's product = 4 \* 5 = 20
+    *   Sum = 126 + 20 = 146 (Not prime)
+*   **If Nadia has 4, 5, 6 (Sum = 15), Riny has 3, 7:**
+    *   Nadia's product = 4 \* 5 \* 6 = 120
+    *   Riny's product = 3 \* 7 = 21
+    *   Sum = 120 + 21 = 141 (Not prime)
+*   **If Nadia has 4, 5, 7 (Sum = 16), Riny has 3, 6:**
+    *   Nadia's product = 4 \* 5 \* 7 = 140
+    *   Riny's product = 3 \* 6 = 18
+    *   Sum = 140 + 18 = 158 (Not prime)
+*   **If Nadia has 4, 6, 7 (Sum = 17), Riny has 3, 5:**
+    *   Nadia's product = 4 \* 6 \* 7 = 168
+    *   Riny's product = 3 \* 5 = 15
+    *   Sum = 168 + 15 = 183 (Not prime)
+*   **If Nadia has 5, 6, 7 (Sum = 18), Riny has 3, 4:**
+    *   Nadia's product = 5 \* 6 \* 7 = 210
+    *   Riny's product = 3 \* 4 = 12
+    *   Sum = 210 + 12 = 222 (Not prime)
+
+The only combination which yields a prime number is Nadia: 3, 4, 6 (sum = 13) and Riny: 5, 7.
+
+Answer: B)

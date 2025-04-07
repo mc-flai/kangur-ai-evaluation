@@ -1,0 +1,25 @@
+Razonamiento:
+La pregunta pide identificar cuántos números de dos cifras tienen la propiedad de que el producto de sus dígitos es mayor que el número en sí. Analicemos algunos ejemplos para encontrar un patrón o determinar una estrategia:
+*   10: 1 * 0 = 0. 0 < 10. No cumple la condición.
+*   11: 1 * 1 = 1. 1 < 11. No cumple.
+*   12: 1 * 2 = 2. 2 < 12. No cumple.
+*   13: 1 * 3 = 3. 3 < 13. No cumple.
+*   14: 1 * 4 = 4. 4 < 14. No cumple.
+*   15: 1 * 5 = 5. 5 < 15. No cumple.
+*   16: 1 * 6 = 6. 6 < 16. No cumple.
+*   17: 1 * 7 = 7. 7 < 17. No cumple.
+*   18: 1 * 8 = 8. 8 < 18. No cumple.
+*   19: 1 * 9 = 9. 9 < 19. No cumple.
+*   20: 2 * 0 = 0. 0 < 20. No cumple.
+*   21: 2 * 1 = 2. 2 < 21. No cumple.
+*   22: 2 * 2 = 4. 4 < 22. No cumple.
+*   23: 2 * 3 = 6. 6 < 23. No cumple.
+*   24: 2 * 4 = 8. 8 < 24. No cumple.
+*   25: 2 * 5 = 10. 10 < 25. No cumple.
+*   26: 2 * 6 = 12. 12 < 26. No cumple.
+*   27: 2 * 7 = 14. 14 < 27. No cumple.
+*   28: 2 * 8 = 16. 16 < 28. No cumple.
+*   29: 2 * 9 = 18. 18 < 29. No cumple.
+Observamos que a partir de las decenas del 10 al 90 inclusive, los números formados por el producto de sus cifras siempre será menor que el número original, a excepción de los números de la forma 10, 20, 30, 40, 50, 60, 70, 80 y 90 cuyo producto es cero. Para que el producto de los dos dígitos de un número sea mayor que el número, el número debe tener un valor de unidades y decenas tal que el producto de ambos sea mayor que el número. Analizando todos los casos, no existe ningún número de dos cifras tal que el producto de sus cifras sea mayor que el número original.
+
+Respuesta: A)

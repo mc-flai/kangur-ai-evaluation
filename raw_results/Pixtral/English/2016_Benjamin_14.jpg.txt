@@ -1,0 +1,31 @@
+To determine the smallest possible sum Hansi can obtain by cutting the number 2581953764 into three parts and adding them, we need to consider the different ways to cut the number between two digits.
+
+1. **Identify possible cuts**:
+   - Cutting between 2 and 5 gives: 2, 581953764
+   - Cutting between 5 and 8 gives: 25, 81953764
+   - Cutting between 8 and 1 gives: 258, 1953764
+   - Cutting between 1 and 9 gives: 2581, 953764
+   - Cutting between 9 and 5 gives: 25819, 53764
+   - Cutting between 5 and 3 gives: 258195, 3764
+   - Cutting between 3 and 7 gives: 2581953, 764
+   - Cutting between 7 and 6 gives: 25819537, 64
+   - Cutting between 6 and 4 gives: 258195376, 4
+
+2. **Calculate the sums for each possible cut**:
+   - 2 + 581953764 = 581953766
+   - 25 + 81953764 = 81953789
+   - 258 + 1953764 = 2211018
+   - 2581 + 953764 = 956345
+   - 25819 + 53764 = 81593
+   - 258195 + 3764 = 261959
+   - 2581953 + 764 = 2582717
+   - 25819537 + 64 = 25819543
+   - 258195376 + 4 = 258195380
+
+3. **Identify the smallest sum**:
+   - The sums calculated are: 581953766, 81953789, 2211018, 956345, 81593, 261959, 2582717, 25819543, 258195380
+   - The smallest sum among these is 261959.
+
+Reasoning: By systematically cutting the number between different digits and summing the resulting parts, we find that the smallest sum is obtained by cutting between 5 and 3.
+
+Answer: B)

@@ -1,0 +1,8 @@
+Reasoning:
+The current configuration has several adjacent squares of the same color: two white squares, two grey squares and two black squares are adjacent to each other, so we need to recolor at least one of each of those pairs.
+Start with the two black squares, since they are easier to visualize. One of those will need to be changed to either grey or white.
+The two white squares must be resolved by changing the color of one.
+The two grey squares must be resolved by changing the color of one.
+So, minimally, we will need to repaint 3 squares.
+
+Answer: B)

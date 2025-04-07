@@ -1,0 +1,35 @@
+Raonament: La pregunta demana identificar quin dels quatre nombres positius \(a, b, c, d\) és el més gran, donada l'equació \(a + 2 = b - 2 = c \cdot 2 = d\).
+
+1. Desglossem l'equació:
+   - \(a + 2 = b - 2\)
+   - \(a + 2 = c \cdot 2\)
+   - \(a + 2 = d\)
+
+2. Resolem cada part per obtenir les relacions entre els nombres:
+   - \(a + 2 = b - 2\)
+     \[
+     a + 2 = b - 2 \implies a = b - 4
+     \]
+   - \(a + 2 = c \cdot 2\)
+     \[
+     a + 2 = 2c \implies a = 2c - 2
+     \]
+   - \(a + 2 = d\)
+     \[
+     a + 2 = d \implies a = d - 2
+     \]
+
+3. Expressant \(a, b, c\) en termes de \(d\):
+   - \(a = d - 2\)
+   - \(b = a + 4 = (d - 2) + 4 = d + 2\)
+   - \(c = \frac{a + 2}{2} = \frac{d}{2}\)
+
+4. Comparant els valors de \(a, b, c, d\) en termes de \(d\):
+   - \(a = d - 2\)
+   - \(b = d + 2\)
+   - \(c = \frac{d}{2}\)
+   - \(d = d\)
+
+5. Da \(d\) és positiu, \(d + 2 > d > d - 2 > \frac{d}{2}\). Per tant, \(b\) és el nombre més gran.
+
+Resposta: B)

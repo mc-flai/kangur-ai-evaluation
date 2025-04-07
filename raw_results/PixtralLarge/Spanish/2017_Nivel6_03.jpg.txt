@@ -1,0 +1,16 @@
+1. **Comprender el problema**: La figura representa 10 islas y 15 puentes. Necesitamos determinar el menor número de puentes que se deben cerrar para que no sea posible ir de A a B a través de los puentes.
+
+2. **Teoría de Grafos**: Este tipo de problema es típico en la teoría de grafos. Las islas se pueden visualizar como nodos y los puentes como aristas. El objetivo es dividir el grafo en dos componentes conexas, una que contenga el nodo A y la otra que contenga el nodo B.
+
+3. **Corte Mínimo**: El número mínimo de puentes que se deben cerrar es el número de aristas en el corte mínimo del grafo. En términos simples, es el número de puentes que conectan directamente la subred de islas que contienen A con la subred de islas que contienen B.
+
+4. **Análisis del Diagrama**: Observando la figura, podemos ver que hay varios caminos posibles que conectan A y B. Sin embargo, se deben encontrar los puentes críticos que, al ser removidos, separan completamente a A de B.
+
+5. **Detección de Puentes Críticos**:
+   - Si analizamos los caminos posibles, encontramos que hay cuatro puentes que conectan la subred de A con la subred de B. Estos puentes son críticos porque, si se remueven, no hay otro camino alternativo para llegar de A a B.
+
+6. **Conclusión**: El menor número de puentes que se deben cerrar para que no sea posible ir de A a B a través de los puentes es 4.
+
+Razonamiento: Al analizar el grafo y buscar el corte mínimo que separa A y B, identificamos que hay cuatro aristas críticas. Por lo tanto, el menor número de puentes que se deben cerrar es 4.
+
+Respuesta: D)

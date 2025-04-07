@@ -1,0 +1,33 @@
+**Pregunta:** Del conjunt {1, 2, 3, ..., 10}, n'escollim a l'atzar tres nombres diferents. Quina és la probabilitat que un dels tres siguin la mitja dels altres dos?
+
+**Opcions:**
+A) \(\frac{1}{10}\)
+B) \(\frac{1}{6}\)
+C) \(\frac{1}{4}\)
+D) \(\frac{1}{3}\)
+E) \(\frac{1}{2}\)
+
+**Racionalització:**
+1. **Identificar els elements del conjunt:** El conjunt és {1, 2, 3, ..., 10}, que té 10 elements.
+2. **Calcular el nombre total de combinacions possibles de 3 elements:** El nombre total de combinacions de 3 elements d'un conjunt de 10 elements es pot calcular com \(\binom{10}{3}\):
+   \[
+   \binom{10}{3} = \frac{10!}{3!(10-3)!} = \frac{10 \times 9 \times 8}{3 \times 2 \times 1} = 120
+   \]
+3. **Identificar els casos en què un dels tres nombres és la mitja dels altres dos:** Per a que un nombre sigui la mitja dels altres dos, els altres dos nombres han de ser dos números consecutius. Els parells de nombres consecutius en el conjunt {1, 2, 3, ..., 10} són:
+   - (1, 2)
+   - (2, 3)
+   - (3, 4)
+   - (4, 5)
+   - (5, 6)
+   - (6, 7)
+   - (7, 8)
+   - (8, 9)
+   - (9, 10)
+
+   Això dona un total de 9 parells.
+4. **Calcular la probabilitat:** La probabilitat que un dels tres nombres escollits sigui la mitja dels altres dos és el nombre de casos favorables dividit pel nombre total de combinacions possibles:
+   \[
+   \text{Probabilitat} = \frac{\text{Número de casos favorables}}{\text{Número total de combinacions posibles}} = \frac{9}{120} = \frac{1}{4}
+   \]
+
+**Resposta:** C) \(\frac{1}{4}\)

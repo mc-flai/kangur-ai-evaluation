@@ -1,0 +1,116 @@
+Reasoning: Let the sum of adjacent squares be $S$. The top left square is 2, and the center square is 3. Let the top center square be $a$. Then $2 + a = S$, so $a = S - 2$. Similarly, let the middle left square be $b$. Then $2 + b = S$, so $b = S - 2$.
+Then we can see the value of the square to the right of 2 to be $c$. The sums must be equal so $c + a = c + (S-2) = S$, meaning $c = 2$. From this it can be deduced the same as well.
+Therefore the sum of all squares adjacent is $2+3 = S$, which is equal to 5. Now we can fill out the board
+2 3 2
+3 2 3
+2 3 2
+The sum of all numbers is $4*2 + 4*3 + 1*3 = 8+12=20+3=21.$
+
+Reasoning: The pattern repeats between 2 and 3 alternately. Therefore the squares can be filled in in an alternative pattern of 2 and 3 based off where the original 2 squares are. Then the sum of the board becomes:
+2 3 2
+3 2 3
+2 3 2
+
+Adding these values all together is 21
+
+Answer: C)
+Reasoning:
+Let the common sum be S.
+Let's fill in the grid:
+2 a b
+c 3 d
+e f g
+
+2 + a = S, so a = S - 2
+a + b = S, so b = S - a = S - (S - 2) = 2
+2 + c = S, so c = S - 2
+c + 3 = S, so c = S - 3
+S - 2 = S - 3, which is impossible, unless the sides can be different numbers, or S = 5.
+However, since the numbers must be filled such that adjacent values have sides adding up to the same amount, this implies an alternate arrangement of two numbers filling each spot, and it is very obvious as a checkboard pattern.
+Therefore, let S = 5,
+2 3 2
+3 2 3
+2 3 2
+
+Therefore the numbers are 5 x 2s and 4 x 3s = (5 * 2) + (4 * 3) = 10+12 = 21.
+
+Answer: C)
+Reasoning: Let the sum of adjacent numbers be S. In the given grid, the value 2 is at the top left, and the value 3 is at the center. We can start filling the grid.
+
+2 a b
+c 3 d
+e f g
+
+We know that 2+a = S and a+3 = S, thus a = S-2 and a = S-3. Thus S-2=3 and S-3 = 2, so S = 5. Therefore, the grid is:
+
+2 3 2
+3 2 3
+2 3 2
+
+Now, we can just calculate the sum of the numbers: 4(2) + 5(3) = 8 + 15 =23 . I made an error at first.
+
+Revised reasoning:
+2 + a = S, so a = S - 2
+a + 3 = S, so S - 2 + 3 = S (This logic is wrong)
+So 3 + d = 5, d = 2
+Let the grid be
+2 a b
+c 3 d
+e f g
+
+Then it must be a pattern of:
+2 3 2
+3 2 3
+2 3 2
+
+We need to find what the sum is. The values are:
+2 + 3 + 2 + 3 + 2 + 3 + 2 + 3 + 2 = 5 * 2 + 4*3 = 10 + 12 = 22.
+
+Answer: D)
+Reasoning:
+Let 'x' be the number in the top middle box.
+Let 'y' be the number in the middle left box.
+
+The common sum is 2 + x = 3 + y
+The value to the right of 2 is 3 since it must be the same sum.
+The value to the top right is 2.
+We can complete the matrix like this:
+2 3 2
+3 2 3
+2 3 2
+The sum is 5(2) + 4(3) = 10 + 12 = 22
+
+Answer: D)
+Reasoning: Let S be the constant sum. Then the board looks like:
+2   S-2  2
+S-2  3   S-2
+2   S-2  2
+Since 3 + (S-2) = S-2 + 2 = S,
+The value for S is found through the relationship S=2+x and S = 3+y with x the top middle and y the middle left. Let us try S=5 since this makes sense.
+2 3 2
+3 2 3
+2 3 2
+Sum is 22
+
+Answer: D)
+Reasoning: Let the constant sum be S. The top left is 2, the center is 3. The top middle must be S-2. The middle left must be S-2. Thus we get
+2 S-2 x
+S-2 3   y
+z  a   b
+If the grid is filled with two numbers alternately then S= 5 with values:
+2 3 2
+3 2 3
+2 3 2
+2*5 + 3*4 = 10+12 = 22
+If S-2 = 3, then S is 5, 5-2 = 3.
+If S -2= 2, then it violates rules.
+
+Answer: D)
+Reasoning: Given a 3x3 grid with two numbers 2 and 3 already placed.  The sum of two numbers with a common side is the same everywhere. This implies the numbers must alternate between 2 and 3 like a checker board pattern. So the grid is
+2 3 2
+3 2 3
+2 3 2
+
+Sum = (2+2+2+2+2) + (3+3+3+3) = 5(2) + 4(3) = 10 + 12 = 22
+
+Answer: D)

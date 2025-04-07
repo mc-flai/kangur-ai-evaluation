@@ -1,0 +1,22 @@
+Para resolver este problema, primero debemos entender la situación planteada:
+
+El hermano mayor plantea un acertijo al pequeño: "Imagina que son las 7:00 horas de la mañana del lunes y que pasan 2018 horas a partir de ese momento. ¿Qué día de la semana y qué hora será entonces?"
+
+**Razonamiento:**
+
+1. Comenzamos a las 7:00 horas del lunes.
+2. Necesitamos calcular cuántos días y horas pasan en 2018 horas.
+3. Dividimos 2018 horas entre 24 (número de horas en un día):
+   2018 ÷ 24 = 84 días con un resto de 2 horas.
+
+Esto significa que después de 2018 horas, han pasado 84 días completos y 2 horas adicionales.
+
+4. Dado que empezamos un lunes, necesitamos determinar qué día de la semana será después de 84 días:
+   84 días es múltiplo de 7 (un múltiplo de la semana completa), por lo tanto, después de 84 días, estaremos de nuevo en un lunes.
+
+5. Ahora sumamos las 2 horas adicionales a las 7:00 horas del lunes:
+   7:00 + 2 horas = 9:00 horas.
+
+Por lo tanto, después de 2018 horas, serán las 9:00 horas del lunes.
+
+**Respuesta:** A) lunes, 9:00

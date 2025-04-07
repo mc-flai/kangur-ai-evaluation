@@ -1,0 +1,17 @@
+Reasoning:
+The question asks for the minimum number of light bulbs to touch in order to light up all eight bulbs. Touching one bulb will light up that bulb and all directly connected bulbs. We need to consider the connections in the given diagram to minimize the number of touches.
+
+Let's analyze the connections:
+- There is a bulb on the top of the diagram connected to 3 bulbs on its right and 1 more bulb to its right
+- The 3 bulbs on the top right of the main bulb are connected together
+- Two bulbs on the bottom connected to each other
+- The remaining bulb connects the three bulbs on the top right with the two bulbs on the bottom.
+
+We can light up all the bulbs by touching the top bulb, it lights itself and 3 bulbs in the top right, then touching the bottom bulb which connects the other two at the bottom and the remaining bulb connects with the three on top right.
+Thus, touching two of the bulbs will light up all bulbs.
+
+Reasoning:
+If we touch the bulb located at the top of the diagram, this bulb and 3 of the bulbs at the top right of the diagram will be lit. After this there are two bulbs at the bottom which are interconnected, along with one bulb that connects with these two on the bottom, as well as the three bulbs on top. Touching the bottom bulb will light itself and the remaining two bulbs and it will automatically connect with the three bulbs on the top right and the top most bulb to light everything.
+Therefore only two bulbs are needed to light up all bulbs.
+
+Answer: A)

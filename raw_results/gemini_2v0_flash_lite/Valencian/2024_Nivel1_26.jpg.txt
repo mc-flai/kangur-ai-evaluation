@@ -1,0 +1,11 @@
+Raonament: Per maximitzar el nombre, volem situar els dígits més grans a l'esquerra. Sabem que tenim tres A, dues B i una C. Assumirem que A > B > C, i que A és el més gran. Si A > B > C, el nombre més gran començarà amb tres A. Llavors, el següent nombre més gran seria B i C.
+
+Considerem les opcions:
+A) AAABBC: Aquests nombres podrien ser el més gran si A > B > C.
+B) CAAABB: Si A > B > C, aquest no seria el més gran, ja que C apareix al principi.
+C) BBAAAC: Si A > B > C, aquest no seria el més gran, ja que B apareix al principi.
+D) AAABCB: Si A > B > C, aquest podria ser el més gran.
+E) AAACBB: Si A > B > C, aquest podria ser el més gran.
+Les opcions B i C no podrien ser el nombre més gran. El número més gran hauria de començar amb AAA.
+
+Resposta: B)

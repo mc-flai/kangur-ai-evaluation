@@ -1,0 +1,14 @@
+Raonament:
+1. **Entendre l'error:** Joan hauria d'haver sumat els nombres de 1 a *n*. En comptes d'això, ha sumat el nombre de 1 a *n*, i un nombre addicional (que hem de trobar).
+2. **Càlcul de la suma correcta:** La suma dels nombres de 1 a *n* és *n*(n+1)/2.
+3. **Expressió de l'error:** La suma que ha obtingut Joan (857) és igual a la suma correcta més el nombre que ha sumat dos cops.
+4. **Plantejar l'equació:** Si x és el nombre sumat dues vegades, tenim: *n*(n+1)/2 + x = 857, on x està entre 1 i *n*. Per tant, x = 857 - *n*(n+1)/2.
+5. **Provar les opcions:** hem de buscar una opció que faci que la suma de 1 a *n* més el nombre de l'opció ens doni 857.
+
+*   **Opció A) 4:**  Si el nombre duplicat fos 4, la suma correcta (sense duplicar) seria 857 - 4 = 853. Hauríem de resoldre *n*(n+1)/2 = 853. *n*(n+1) = 1706. Si provam amb nombres propers a 40 (40\*41 = 1640), veiem que no és una solució.
+*   **Opció B) 16:** Si el nombre duplicat fos 16, la suma correcta (sense duplicar) seria 857 - 16 = 841. Hauríem de resoldre *n*(n+1)/2 = 841. *n*(n+1) = 1682. Si provam amb nombres propers a 40 (40\*41 = 1640), veiem que no és una solució.
+*   **Opció C) 25:** Si el nombre duplicat fos 25, la suma correcta (sense duplicar) seria 857 - 25 = 832. Hauríem de resoldre *n*(n+1)/2 = 832. *n*(n+1) = 1664. Si provam amb nombres propers a 40 (40\*41 = 1640), veiem que no és una solució.
+*   **Opció D) 37:** Si el nombre duplicat fos 37, la suma correcta (sense duplicar) seria 857 - 37 = 820. Hauríem de resoldre *n*(n+1)/2 = 820. *n*(n+1) = 1640. 40 * 41 = 1640, per tant *n* = 40. Llavors, la suma va de 1 a 40, i el nombre duplicat és 37.
+*   **Opció E) Un altre:** Si cap de les anteriors funciona, aquesta seria la resposta correcta, però ja hem trobat la solució a D).
+
+Resposta: D)

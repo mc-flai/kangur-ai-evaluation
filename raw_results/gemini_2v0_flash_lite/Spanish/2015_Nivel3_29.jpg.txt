@@ -1,0 +1,11 @@
+Razonamiento:  La pregunta solicita el mayor residuo al dividir 2015 por los números del 1 al 1000. El residuo más grande posible al dividir un número por otro es el divisor menos 1. Como el divisor puede ser cualquier número entre 1 y 1000, el mayor residuo se obtiene cuando se divide por 2, dando un residuo de 1, o 2015 mod 2 = 1. Sin embargo, 2015 mod 1 = 0. Buscamos el mayor residuo,  2015 mod n, donde n es un número entero entre 1 y 1000. El residuo es máximo cuando el divisor es el número más cercano a 2015/2, que es 1007. En ese caso, 2015 mod 1007 = 1001. Sin embargo, 1007 no está entre las opciones de respuesta. Si n=1000, entonces 2015 mod 1000 = 15. Si n=671, entonces 2015 mod 671 = 673, lo cual es mayor que 671. Si n=2, entonces 2015 mod 2 = 1. Debemos dividir 2015 por un número para obtener el residuo más grande.
+
+El residuo es 1001 cuando se divide por 1007 (sin estar entre las opciones).
+El residuo es 673 cuando se divide por 671.
+El residuo es 15 cuando se divide por 1000.
+El residuo es 215 cuando se divide por 9 (2015/9 = 223 con resto de 8.)
+El residuo es 15 cuando se divide por 1000.
+El residuo es 1001 cuando se divide por 1007, pero 1007 no es una opción.
+Entre las opciones, la respuesta correcta es la que tiene el residuo más grande.
+
+Respuesta: C)

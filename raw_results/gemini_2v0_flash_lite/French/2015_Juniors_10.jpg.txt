@@ -1,0 +1,43 @@
+Raisonnement :
+1.  **Comprendre le problème:** On a quatre chiffres différents et non nuls, W, X, Y, Z, ordonnés en ordre croissant. On crée deux nombres de deux chiffres : XZ et WY. On cherche la plus grande différence possible entre ces deux nombres.
+2.  **Assigner des valeurs pour maximiser la différence:** Pour maximiser la différence, il faut maximiser le nombre XZ et minimiser le nombre WY.
+3.  **Déterminer les chiffres:**
+    *   Pour maximiser XZ, on prend les plus grands chiffres possibles pour X et Z. Puisque les chiffres sont différents et en ordre croissant, on choisit Z = 9 et X = 8. Le nombre XZ devient 89.
+    *   Pour minimiser WY, on prend les plus petits chiffres possibles pour W et Y. Puisque les chiffres sont différents, non nuls et en ordre croissant, on choisit W = 1 et Y = 2. Le nombre WY devient 12.
+4.  **Calculer la différence:** La différence entre les deux nombres est 89 - 12 = 77.
+5.  **Vérifier les options proposées:** 77 n'est pas parmi les options.  J'ai mal interprété la question. Puisque les chiffres doivent être croissants, pour maximiser XZ, nous prenons les plus grands chiffres, c'est à dire X=8 et Z=9. Le nombre est XZ=89. Pour minimiser WY, nous prenons les plus petits chiffres, W=1, Y=2. Le nombre est WY=12. La différence est 89-12 = 77.  Aucune des options ne correspond. Il y a une erreur.
+6.  **Corriger l'interprétation.** L'erreur était d'interpréter XZ comme le produit X fois Z. XZ est la concaténation. De même pour WY. Ainsi, pour maximiser la différence XZ - WY, il faut:
+    *   prendre X et Z aussi grands que possible, et W et Y aussi petits que possible. W < X < Y < Z.
+    *   Choisir W = 1, X = 2, Y = 3, Z = 9 donne XZ = 29 et WY = 13, la différence est 16.
+    *   Choisir W = 1, X = 2, Y = 8, Z = 9 donne XZ = 29 et WY = 18, la différence est 11.
+    *   Choisir W = 1, X = 7, Y = 8, Z = 9 donne XZ = 79 et WY = 18, la différence est 61.
+7. **Nouvelle approche:** pour maximiser la différence, on souhaite que X et Z soient grands, et W et Y petits.
+    *   On pose W = 1.
+    *   Pour maximiser XZ, on prend Z = 9.
+    *   Pour maximiser XZ, il faut aussi que X soit grand. Si X = 8, alors Y = 7, et XZ = 89 et WY = 17. La différence est 89-17 = 72.
+    *   Si on prend X = 7, alors Y = 8, et XZ = 79 et WY = 18. La différence est 61.
+    *   Si on prend X = 2, Z = 9, alors Y est 8, XZ = 29, WY=18, la différence est 11.
+8.  **Essayer une autre approche:**
+    *   Pour que XZ soit grand, Z doit être grand. Donc Z=9.
+    *   Pour que WY soit petit, W doit être petit. Donc W=1.
+    *   On choisit la plus grande valeur possible pour X. X=8.
+    *   Alors, on choisit Y tel que W<X<Y<Z, donc 1<8<Y<9.  On pose Y=7.
+    *   Donc XZ=89 et WY=17.  89-17=72. Pas dans les réponses.
+9.  On sait qu'il y a une erreur.
+On cherche la plus grande différence possible entre XZ - WY
+On sait que W < X < Y < Z
+XZ = 10*X + Z
+WY = 10*W + Y
+XZ - WY = 10X + Z - 10W - Y
+On peut dire qu'on cherche les combinaisons telles que :
+*   Z est grand
+*   W est petit
+*   X est aussi grand que possible.
+*   Y est petit.
+Choisissons W=1
+Choisissons Z=9
+On a 1 < X < Y < 9.
+Si X=8, alors Y=7, XZ=89, WY=17, 89-17=72, pas dans les réponses.
+Si X=7, Y=8, XZ=79, WY=18, 79-18=61.
+
+Réponse : D)

@@ -1,0 +1,15 @@
+### Raonament
+
+La pregunta consisteix en un contingut bàsic de combinatoria, entre la candidatura de problemes per segona vegada. Prèviament, per altres problemes introduïts en l'assignatura, podem reforçar segments dels continguts:
+
+$ "Pot pujar l'escala segons els patrons: 1, 1, 1, 1, 1, 1 o bé 1, 1, 1, 1, 2 o bè 2, 2, 2, 2, 2."
+
+Per solucionar aquest problema, tenim les següents fases:
+
+1.  En primera instància, debem tenir llista de casos, per cada nombre de segments de pujar l'escala amb pot pujar.
+2.  En el segon punt, hem distingir cada segment i com pujem a cada un d'ells quantes vegades amb la possibilitat i el % recorregut.
+3.  Mitjançant l'obtenció d'aquests tres points de información, calcular el total de pujar l'escala d'àrea amb posibles maneres quantes vegades des del àrea següent.
+
+### Resposta
+
+B) 19 maneres de pot pujar en pere

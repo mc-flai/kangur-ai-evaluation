@@ -1,0 +1,27 @@
+Reasoning:
+We are given the function f(x) = ax + b, where f: R -> R.
+We also have two equations:
+f(f(1)) = 21
+f(f(0)) = 5
+
+Let's evaluate f(1) and f(0):
+f(1) = a(1) + b = a + b
+f(0) = a(0) + b = b
+
+Now we can substitute these into the given equations:
+f(f(1)) = f(a+b) = a(a+b) + b = a^2 + ab + b = 21
+f(f(0)) = f(b) = a(b) + b = ab + b = 5
+
+We now have a system of two equations:
+1) a^2 + ab + b = 21
+2) ab + b = 5
+
+Substitute equation (2) into equation (1):
+a^2 + 5 = 21
+a^2 = 21 - 5
+a^2 = 16
+a = +/- 4
+
+Since the function f(x) is increasing, a must be positive. Therefore, a = 4.
+
+Answer: D)

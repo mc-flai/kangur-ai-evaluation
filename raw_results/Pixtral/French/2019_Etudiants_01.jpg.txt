@@ -1,0 +1,18 @@
+
+Raisonnement :
+1. L'expression donnée est 2#0#1#9, où # représente une opération mathématique.
+2. Les opérations possibles sont l'addition (+), la soustraction (-) et la multiplication (×).
+3. Nous devons déterminer le plus grand nombre possible en plaçant correctement les signes d'opération.
+4. En examinant les options, nous devons trouver la configuration qui donne le résultat le plus élevé.
+
+Configuration possible :
+2 + 0 × 1 - 9
+
+Calculons cela étape par étape :
+1. Multiplication d'abord : 0 × 1 = 0
+2. Remplacer dans l'expression : 2 + 0 - 9
+3. Addition et soustraction de gauche à droite : 2 + 0 = 2, puis 2 - 9 = -7
+
+Donc, le résultat de 2 + 0 × 1 - 9 est -7.
+
+Réponse : E)

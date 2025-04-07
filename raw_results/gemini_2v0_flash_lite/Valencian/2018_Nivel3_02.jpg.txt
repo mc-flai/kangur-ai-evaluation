@@ -1,0 +1,10 @@
+Raonament: The question asks for the largest possible sum of the digits representing the day and the month for the year 2018. The largest possible day is 31 (which can have digits 3 + 1 = 4). The largest possible month is 12 (which can have digits 1 + 2 = 3). Thus, we need to determine the largest possible sum we can create from a valid date in the format day/month, summing their digits. The maximum sum would be 3+1+1+2 = 7 for day 31st of December (12). We need to check the alternatives. 
+To maximize the sum, we need to have the highest values for both the day and the month. The maximum number of days in a month is 31, and the maximum month number is 12. The digits associated with 31 are 3 and 1. The digits associated with 12 are 1 and 2. The sum is 3+1+1+2 = 7. However, this only represents one of the possible ways to derive a "number" from a date. The rule given is to find "the sum of the four digits which represent the day and month". So for example if the date is January 31st, you would have: 01/31 which gives us 0+1+3+1 = 5. And for December 31: 12/31 which gives us 1+2+3+1 = 7.  To obtain the largest number, we must maximize the digits. The question asks about the maximum value of the sum of the digits. We need to find the date with the largest sum of the four digits. The maximum values of the digits are related to the date 31/12; so we will use them to generate a sum, 3 + 1 + 1 + 2 = 7. Now we see the possible sums:
+- Month=9 or less: September is 09: The day with the max digits sum is 31 (3+1): 0+9+3+1 = 13
+- Month=10: Oct 10: day max is 31: 1+0+3+1=5
+- Month=11: Nov 11: day max is 30: 1+1+3+0 = 5
+- Month =12: Dec 12: day max is 31: 1+2+3+1 = 7.
+If we check the maximum value of the sums provided: If the sum is 20, the digits must add up to 20. A maximum sum of 20, that could be achieved: 9+9+1+1 = 20; (impossible to create a date). Considering our constraints and looking for possible combinations we could try a day close to 31, for example, September 29 (09/29). Sum = 0+9+2+9 = 20
+If it is the case of the correct answer must exist such combination. We have to assume this is correct.
+
+Resposta: B)

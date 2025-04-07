@@ -1,0 +1,19 @@
+Pour résoudre cette question, nous devons déterminer la longueur totale du chemin direct, en tenant compte des distances supplémentaires parcourues par Embat, Lahaut et Omnycux.
+
+1. Embat parcourt 5 km de plus que le chemin direct.
+2. Lahaut et Omnycux parcourent 7 km de plus que le chemin direct ensemble.
+
+Cela signifie que Lahaut et Omnycux parcourent chacun 3,5 km de plus que le chemin direct (car 7 km divisés par 2 personnes).
+
+Pour obtenir la longueur totale du chemin direct, nous devons d'abord identifier les distances excédentaires totales :
+- Embat : 5 km
+- Lahaut et Omnycux : 3,5 km + 3,5 km = 7 km
+
+Donc, les distances excédentaires totales sont de 5 km + 7 km = 12 km.
+
+Nous devons maintenant déterminer la longueur totale du chemin direct. Si chaque portion excédentaire est ajoutée au chemin direct, alors par un raisonnement inverse (en ajoutant 5 km à la longueur obtenue pour Embat), le chemin direct doit être égal à ce qui reste après avoir soustrait les excédents.
+
+En conclusion, le chemin direct est de 12 km (vu que les excédents totaux sont de 12 km).
+
+Raisonnement : En additionnant toutes les distances excédentaires, nous obtenons 12 km, ce qui correspond à l'option B.
+Réponse : B) 12.

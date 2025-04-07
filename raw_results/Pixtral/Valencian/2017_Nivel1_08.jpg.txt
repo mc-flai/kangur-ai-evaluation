@@ -1,0 +1,19 @@
+La pregunta 8 pregunta sobre el nombre més gran de creus que poden ser dibuixades tenint sentit en un quadrat de laboratori de tres quadrats de costat.
+
+Per resoldre això, primer cal entendre com es pot dibuixar una creu en un quadrat. Una creu típica té una forma de T i consta de 5 quadrats: un quadrat central i quatre quadrats adjacents.
+
+1. **Dimensió del quadrat**: El quadrat de laboratori té 3 quadrats de costat.
+2. **Dibuixant creus**: Una creu necessita un quadrat central i quatre quadrats adjacents. En un quadrat de 3x3, no hi ha prou espai per a una creu completa perquè els quadrats adjacents superarien els limits del quadrat.
+3. **Limitacions**: En un quadrat de 3x3, només es poden dibuixar parts de creus. Per exemple, es pot dibuixar una meitat d'una creu en una de les cantonades.
+
+Per determinar el nombre més gran de quadrats que poden ser dibuixats com a creus:
+- Si es dibuixen parts de creus, es pot fer en els quatre cantons del quadrat.
+- Cada cantonada pot tenir una meitat d'una creu, que consta de 3 quadrats.
+
+Per tant, el nombre més gran de quadrats que poden ser dibuixats com a creus en un quadrat de 3x3 és 3 quadrats per cantonada, multiplicat per 4 cantonades, que dona un total de 12 quadrats.
+
+**Resposta: E)**
+
+Raonament: Un quadrat de 3x3 no té prou espai per a una creu completa. Els quadrats més grans que es poden dibuixar com a creus són parts de creus en els cantons, i hi ha 4 cantons, cadascun dels quals pot tenir 3 quadrats, donant un total de 12 quadrats.
+
+Resposta: E)

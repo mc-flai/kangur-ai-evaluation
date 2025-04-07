@@ -1,0 +1,55 @@
+Pour résoudre la question 15, nous devons déterminer la somme des âges des cinq frères sachant que Tim, Tom et Jim sont des triplés et que John et James sont des jumeaux de trois ans de moins.
+
+### Raisonnement:
+
+1. **Âges des triplés (Tim, Tom et Jim)** :
+   Supposons que l'âge de chaque triplé soit \( x \).
+
+2. **Âges des jumeaux (John et James)** :
+   Puisque John et James sont des jumeaux de trois ans de moins que les triplés, leur âge sera \( x - 3 \) chacun.
+
+3. **Somme des âges des cinq frères** :
+   La somme des âges est donc :
+   \[
+   3x + 2(x - 3)
+   \]
+   Simplifions cette expression :
+   \[
+   3x + 2x - 6 = 5x - 6
+   \]
+
+4. **Options proposées** :
+   - A) 86
+   - B) 87
+   - C) 88
+   - D) 89
+   - E) 90
+
+5. **Vérification des options** :
+   Nous devons trouver une valeur de \( x \) telle que \( 5x - 6 \) corresponde à l'une des options proposées.
+
+   Essayons chaque option :
+   - Si \( 5x - 6 = 86 \),
+     \[
+     5x = 92 \implies x = 18.4 \quad (\text{non entier})
+     \]
+   - Si \( 5x - 6 = 87 \),
+     \[
+     5x = 93 \implies x = 18.6 \quad (\text{non entier})
+     \]
+   - Si \( 5x - 6 = 88 \),
+     \[
+     5x = 94 \implies x = 18.8 \quad (\text{non entier})
+     \]
+   - Si \( 5x - 6 = 89 \),
+     \[
+     5x = 95 \implies x = 19 \quad (\text{entier})
+     \]
+   - Si \( 5x - 6 = 90 \),
+     \[
+     5x = 96 \implies x = 19.2 \quad (\text{non entier})
+     \]
+
+   La seule valeur entière valide pour \( x \) est 19, ce qui donne une somme de 89.
+
+### Réponse: D)

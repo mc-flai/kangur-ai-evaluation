@@ -1,0 +1,18 @@
+**Razonamiento**:
+El problema nos pide encontrar cuántos números enteros positivos de tres cifras, al sumar sus cifras, dan como resultado un número de tres cifras donde todos los dígitos son iguales. Los números de tres cifras cuyos dígitos son todos iguales son: 111, 222, 333, 444, 555, 666, 777, 888 y 999.
+
+Ahora, vamos a verificar cuáles de estos números pueden ser obtenidos sumando las cifras de otros números de tres dígitos:
+
+- Para obtener 111: No es posible, ya que la suma mínima de tres dígitos (1+1+1) es 3 y la máxima es 27 (9+9+9).
+- Para obtener 222: No es posible por la misma razón.
+- Para obtener 333: No es posible por la misma razón.
+- Para obtener 444: No es posible por la misma razón.
+- Para obtener 555: No es posible por la misma razón.
+- Para obtener 666: No es posible por la misma razón.
+- Para obtener 777: No es posible por la misma razón.
+- Para obtener 888: No es posible por la misma razón.
+- Para obtener 999: La suma de las cifras de 333 es 3+3+3 = 9, y 999 divide a 333.
+
+Entonces, solo hay un número de tres cifras cuyos dígitos son todos iguales que puede ser obtenido sumando las cifras de otro número de tres dígitos: 999.
+
+**Respuesta**: A) 1.

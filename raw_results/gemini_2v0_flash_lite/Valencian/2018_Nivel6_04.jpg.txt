@@ -1,0 +1,17 @@
+Raonament:
+Primer, analitzem la llargada i l'amplada de la manta i del calaix.
+La manta té dimensions de 220 cm x 240 cm. El calaix té dimensions de 55 cm x 40 cm.
+Dividim les dimensions de la manta per les del calaix per veure quantes vegades s'ha de plegar:
+*   220 cm / 55 cm = 4 plecs.
+*   240 cm / 40 cm = 6 plecs.
+Hem de plegar la manta de manera que encaixi en el calaix. Per tant, necessitem almenys 4 plecs en una direcció i 6 en l'altra. El nombre total de plecs seria la suma dels dos, però com volem el mínim de plecs, busquem quants plecs hem de fer per encaixar la manta en les dues dimensions.
+*   220/55 = 4 plegaments.
+*   240/40 = 6 plegaments.
+Per tant, hem de plegar la manta 4 vegades en una direcció i 6 vegades en l'altra, però com podem plegar a la meitat, calcularem el nombre de plecs:
+*   Per encaixar els 220 cm en 55 cm, hem de dividir 220/55 = 4 vegades, per tant, hem de plegar la manta 2 vegades (2^2 = 4).
+*   Per encaixar els 240 cm en 40 cm, hem de dividir 240/40 = 6 vegades, per tant, hem de plegar la manta 3 vegades (2^3 = 8 no funciona ja que seria >6).
+*   En aquest cas hem de plegar 2 vegades en un sentit i 3 vegades en l'altre.
+Per tant, el nombre mínim de plecs seria 2+3=5. Tot i que amb 2 plecs en una dimensió i 3 en l'altra, el problema demana el nombre mínim de plecs total, no el mínim per cada dimensió.
+Per tant, per plegar la manta hem de fer 2 plecs per a la dimensió de 220 cm (2^2=4) i 3 plecs per a la dimensió de 240 cm (2^3=8), però això no encaixa, perquè 8 no és menor a 6. Així que la resposta és que hem de plegar 5 vegades per plegar la manta.
+
+Resposta: D)

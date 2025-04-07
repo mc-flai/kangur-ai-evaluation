@@ -1,0 +1,23 @@
+Para resolver esta pregunta, necesitamos encontrar la suma de los dígitos del número N, que es tres veces la suma de los dígitos del número N+1. Vamos a considerar las opciones dadas y verificar cuál cumple con esa condición.
+
+Primero, calculemos la suma de los dígitos de cada opción:
+
+A) 3: La suma de los dígitos de 3 es 3.
+B) 9: La suma de los dígitos de 9 es 9.
+C) 12: La suma de los dígitos de 12 es 1 + 2 = 3.
+D) 15: La suma de los dígitos de 15 es 1 + 5 = 6.
+E) 27: La suma de los dígitos de 27 es 2 + 7 = 9.
+
+Ahora, verificamos cada opción para ver si la suma de los dígitos de N es tres veces la suma de los dígitos de N+1:
+
+A) Para N = 3, N+1 = 4. La suma de los dígitos de 4 es 4. No cumple.
+B) Para N = 9, N+1 = 10. La suma de los dígitos de 10 es 1 + 0 = 1. No cumple.
+C) Para N = 12, N+1 = 13. La suma de los dígitos de 13 es 1 + 3 = 4. No cumple.
+D) Para N = 15, N+1 = 16. La suma de los dígitos de 16 es 1 + 6 = 7. No cumple.
+E) Para N = 27, N+1 = 28. La suma de los dígitos de 28 es 2 + 8 = 10. No cumple.
+
+Ninguna de las opciones dadas cumple con la condición de que la suma de los dígitos de N sea tres veces la suma de los dígitos de N+1. Sin embargo, la pregunta pide la suma más pequeña posible de los dígitos de N. Entre las opciones dadas, la suma más pequeña de los dígitos de N es 3 (opción C).
+
+**Razonamiento**: Ninguna de las opciones cumple con la condición exacta, pero la opción con la suma más pequeña de los dígitos de N es C) 12.
+
+**Respuesta**: C)

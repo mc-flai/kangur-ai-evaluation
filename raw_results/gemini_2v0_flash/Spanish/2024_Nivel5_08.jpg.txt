@@ -1,0 +1,7 @@
+Razonamiento:
+Para que un número sea múltiplo de 6, debe ser divisible por 2 y por 3. Para que un número sea divisible por 2, debe ser par. Para que un número sea divisible por 3, la suma de sus dígitos debe ser un múltiplo de 3. Buscamos el palíndromo de tres cifras mayor que sea múltiplo de 6. Esto significa que el número debe ser de la forma "aba", donde "a" es un dígito par (0, 2, 4, 6, 8) y a+b+a = 2a+b es un múltiplo de 3.
+Si a=9, el mayor palíndromo sería 9b9. Para ser divisible por 2, el número debe ser par, por lo que la cifra "a" no puede ser 9.
+Intentamos con a=8. Tenemos 8b8. La suma de los dígitos es 16+b. Para que 16+b sea múltiplo de 3, b puede ser 2 o 5 u 8. El mayor valor de b es 8, entonces 888. La suma de los dígitos de 888 es 8+8+8 = 24.
+El número 888 es divisible por 6 ya que es divisible por 2 (es par) y por 3 (8+8+8=24, que es divisible por 3).
+
+Respuesta: E)

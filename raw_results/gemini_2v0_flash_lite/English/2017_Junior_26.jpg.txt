@@ -1,0 +1,72 @@
+Reasoning:
+To maximize the number of odd numbers, we need to consider how odd and even numbers combine. The sum of two odd numbers is even. The sum of an odd and an even number is odd. The sum of two even numbers is even. Therefore, to get an odd number on a tile, we need one odd and one even number below. To get the maximum number of odd numbers, we can start with all odd numbers in the bottom row. Then, in the second row, the numbers will be even. In the third row, the numbers will be odd (because it is formed by an even and an odd number). Following this pattern, if the bottom row has all odd numbers, we can have the following pattern.
+
+Row 1: O O O O O
+Row 2: E E E E
+Row 3: O O O
+Row 4: E E
+Row 5: O
+
+There are 5 odd numbers in row 1, 3 odd numbers in row 3, and 1 odd number in row 5. The total is 5+3+1 = 9. The number of total tiles here is 5+4+3+2+1 = 15.
+However, we can maximize the number of odds by placing the odds in a way that the resulting sum is also odd. If we choose odd, odd, even, even, odd as the bottom row, we will get an even number in the next row. So, let's make the bottom row all odd numbers (5 odd). Then, the second row will be even. In the third row, we get odd numbers. So, we have odd, even, odd, even, odd. Thus we get the pattern:
+
+O E O E O
+E E E E
+O O O
+E E
+O
+
+We have 9 odd numbers.
+Another possible combination:
+O O O O O
+E E E E
+O O O
+E E
+O
+
+Let us consider the structure. We have 15 total tiles.
+
+If we start with all odd in the base:
+1. O O O O O (5 odd)
+2. E E E E (0 odd)
+3. O O O (3 odd)
+4. E E (0 odd)
+5. O (1 odd)
+Total odd = 9
+
+If we look at the structure, the maximum is 1 + 2 + 3 + 4 + 5 = 15 tiles. If we arrange odd at an offset location, we can maximize the odd numbers. We can make the bottom row alternating odd and even or all odd as we saw above.
+The number of odd numbers here is 5 + 3 + 1 = 9. But this is not the maximum. Consider:
+
+O O O O O
+E E E E
+O O O
+E E
+O
+
+Maximum odd: 5+3+1 = 9
+But can we find more?
+Another possibility:
+O E O E O
+E O E O
+O O O
+E E
+O
+
+Number of odd numbers = 5+1+3+1 = 10, the maximum is actually 14 odd numbers.
+
+Let's see the structure:
+The bottom row has 5 tiles. Second row 4, third 3, fourth 2, fifth 1.
+
+If we put odd in the bottom 5. Second row 0 odd. Third row 3 odd. Fourth row 0 odd. Fifth row 1 odd. Total 9 odd.
+If we put alternating, odd even...
+Odd at locations:
+Row 1: 1, 3, 5: 3
+Row 2: 2, 4: 2
+Row 3: 2: 1
+Row 4: 1
+Row 5: 1
+Total odd = 3+2+1+1 = 8
+
+We can get a maximum number of odd tiles equal to 14
+
+Answer: B)

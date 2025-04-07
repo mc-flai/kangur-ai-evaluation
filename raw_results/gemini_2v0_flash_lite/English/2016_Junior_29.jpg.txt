@@ -1,0 +1,33 @@
+Reasoning: A "surprising" date has 8 different digits. The question asks which month the next one will occur in. Let's start with the current year, 2016. The date format is DD.MM.YYYY. Since today's date is 17.03.2016, and we are looking for the next surprising date, we must look ahead. We can quickly see that no date in March or April of 2016 will work. The first available option will be 01.02.3456, but we need to determine when is the next one will occur.
+The first date available is 01.02.3456, which is too far away, we need to look within 2016 to determine the next possible date. Let's consider the months after March.
+*   April (04): We can't use 0, 1, 2, 3, 4, 6 from the date already passed. The date will need to be in the form X.04.2016. The only available digits are 5, 7, 8 and 9. Because, the digit 0, 1, 2, 3, 4 and 6 is unavailable. Since 0 is required in the 10s for the month, this cannot work.
+*   May (05): Same as April, we can't create a surprising date.
+*   June (06): The dates are not suitable. 0,1,2,3,4,5,6 are not suitable.
+*   July (07): Here we need to find the date with DD.07.2016. Here the available digit is 3, 4, 5, 8, 9
+The possible date can be 35.07.2018, but the digit 3, 5 are already not available.
+*   August (08): The next possible date is 01.08.2016 or 02.08.2016 ... etc. Not valid.
+
+Let's look ahead to the following years, and months to search the next surprising date.
+*   01.02.3456 - not viable as we require the next date.
+*   10.2016. This cannot be a surprising date.
+*   17.03.2016.
+*   02.13.4567 - not viable as 13 is not a valid month.
+*   30.01.2457 - Not valid
+*   01.03.2456 - Not valid
+*   01.02.3456 - Too late.
+
+So we need to look for the next available.
+01.02.3456 is a surprising date.
+
+From above, the next surprising date will involve month 08.
+01.08.2349 will be our next date.
+
+Let's investigate the options:
+The format is DD.MM.YYYY. We've already ruled out March, June, July, and August.
+
+Considering the available dates:
+*   December (12): Possible dates in the 2000s could be 01.12.3456
+
+So the month must be December.
+
+Answer: E)

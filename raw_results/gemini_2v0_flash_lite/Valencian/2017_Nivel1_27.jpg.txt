@@ -1,0 +1,13 @@
+Raonament:
+1. **Traçar el recorregut:** El vehicle es mou seguint un patró de rectangles: 1 km amunt, 2 km a la dreta, 3 km cap avall, 4 km a l'esquerra, 5 km amunt, etc.
+2. **Distància al punt O:** Calculem la distància entre el punt O i el recorregut en cada moment.
+    *   Després del primer moviment: 1 km, no és 2.
+    *   Després del segon moviment: la distància és 2 km (formant un rectangle amb costats 1 i 2, la distància és la longitud del costat horitzontal).
+    *   Després del tercer moviment: la distància és 2 km (formant un rectangle de 3-1=2 km d'alçada i 2 de base, per tant, la distància és 2 km).
+    *   Després del quart moviment: la distància no és 2.
+    *   Després del cinquè moviment: la distància és 2 km (formant un rectangle de 5-3=2 km d'alçada i 4-2=2 de base, per tant, la distància és 2 km).
+    *   Després del sisè moviment: la distància no és 2.
+    *  Després del setè moviment: la distància no és 2.
+3. **Comptar les vegades:** La distància és igual a 2 km en 3 ocasions.
+
+Resposta: C)

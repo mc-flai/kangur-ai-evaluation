@@ -1,0 +1,11 @@
+Razonamiento:
+La ecuación dada es abcd = a^a + b^b + c^c + d^d.  Como 'abcd' es un número de cuatro dígitos, podemos inferir el valor de 'a' probando las opciones dadas, donde a debe ser entre 1 y 9.
+Si a=2, entonces el número empezaría con 2.  Entonces, probar si 2^2 + b^b + c^c + d^d comienza con 2.
+Probando diferentes opciones:
+Si a = 3, el número abcd = 3^3 + b^b + c^c + d^d = 27 + b^b + c^c + d^d .  El número no comenzaría con 3.
+Si a=4, el número abcd = 4^4 + b^b + c^c + d^d = 256 + b^b + c^c + d^d.   En este caso el número no comenzaría con 4, dado que el primer digito ya es 2.
+Si a = 5, el número abcd = 5^5 + b^b + c^c + d^d = 3125 + b^b + c^c + d^d. Imposible un número de 4 digitos.
+El dígito 'a' solo puede ser 3, de tal forma que el numero abcd sea igual a 3435.  3^3 + 4^4 + 3^3 + 5^5 = 27 + 256 + 27 + 3125 = 3435
+Por lo tanto, la respuesta correcta es 3.
+
+Respuesta: B)

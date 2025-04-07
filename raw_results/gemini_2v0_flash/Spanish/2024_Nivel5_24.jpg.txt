@@ -1,0 +1,93 @@
+Razonamiento:
+El cubo 3x3x3 tiene 27 cubos. La superficie del cubo grande es de 3x3x6 = 54 unidades cuadradas. Un tercio de la superficie debe ser negra, un tercio gris y un tercio blanca, lo que significa que cada color debe ocupar 54/3 = 18 unidades cuadradas en la superficie.
+Para minimizar el número de cubos negros (A), tratamos de ubicar los cubos negros en las esquinas y aristas, de modo que expongan menos superficie. En el mejor de los casos, un cubo negro solo aporta una unidad cuadrada de superficie negra. Para obtener 18 unidades cuadradas de superficie negra, necesitamos al menos 6 cubos negros colocados en el centro de las caras, cada uno mostrando 3 unidades. Si tenemos 8 cubos negros en las esquinas (cada uno mostrando 3 caras negras) y colocamos 6 cubos negros en el centro de las caras, obtenemos un mínimo de 0 cubos. Sin embargo, si ponemos un cubo en el centro de una cara obtenemos 1 cara de un tipo (digamos, negra). Entonces para minimizar el número de cubos negros, debemos tener 6 cubos negros cada uno con 3 caras expuestas, esto requiere que estén situados en el centro de cada una de las 6 caras.
+Consideremos ahora el caso en el que maximizamos el número de cubos negros (B). El cubo interno (1x1x1) está completamente oculto, por lo que puede ser de cualquier color. Tenemos 1 cubo interno que no se ve. Luego tenemos los cubos que están en las caras. Necesitamos un tercio de las caras negras = 18. Con 0 cubos negros, es imposible tener 18 caras negras. Si pintamos las caras negras poniendo los cubos negros en el centro, necesitamos 6 cubos negros. Podríamos llenar los cubos interiores y aristas.
+
+Para minimizar (A), podemos usar 7 cubos negros. 1 en el centro del cubo y los otros 6 en el centro de las caras.
+Para maximizar (B), podemos tener 10 cubos negros. El cubo central interno (1x1x1). Los 8 cubos de las esquinas y el cubo central. Para maxmizar, usamos la pieza interna.
+Entonces B - A = 7.
+
+A = 7
+B = 10
+B-A = 3
+
+Razonamiento:
+Un tercio de la superficie del cubo 3x3x3 debe ser negra, un tercio gris y un tercio blanca. La superficie total del cubo es 6 * (3x3) = 54. Por lo tanto, cada color debe ocupar 54/3 = 18 unidades cuadradas en la superficie.
+A es el número mínimo posible de cubos negros. Para minimizar la cantidad de cubos negros necesarios, intentamos colocar los cubos negros de tal manera que cada cubo exponga la mayor cantidad posible de su superficie negra. Esto se logra colocando cubos negros en las esquinas, donde cada cubo contribuye con tres unidades cuadradas de superficie negra. Se necesitan 18/3 = 6 esquinas negras. Cada arista tiene 1 de superficie negra. 6 negros
+El centro del cubo 1x1x1, con la superficie no expuesta. Puede ser negro.
+
+B es el número máximo posible de cubos negros. Cada cara debe tener 18 cubos.
+
+Si utilizamos todos los cubos en las esquinas (8) negros = 24.
+
+Para minimizar, A= 7: 6 en el centro de cada cara
+Para maximizar, B=13: 1 en el centro. 8 esquinas. 4 de las aristas
+B - A = 13 - 7 = 6
+
+Razonamiento:
+La superficie total es 3*3*6=54. Cada color tiene 54/3=18 unidades.
+Para minimizar (A), los cubos deben estar dentro. Pueden haber 7 cubos.
+Para maximizar (B), podemos poner 8 en las esquinas. Tenemos 24. Necesitamos minimizar el número de cubos en la parte interna.
+
+Razonamiento:
+Superficie = 6 * (3*3) = 54.
+Cada color debe tener 54/3 = 18.
+
+A: Minimizar los cubos negros. Intentar colocar los cubos en el interior para que no aporten demasiada superficie. Pueden ser 6 en el centro, 0 en las esquinas. O puede ser ponerlas en las aristas o esquinas.
+En el centro de la superficie: mínimo 6.
+En las esquinas: cada uno aporta 3 =>6.
+
+B. Maximizar los cubos negros.
+
+Consideremos entonces los 7 cubos más internos. Pueden ser negros.
+
+B - A = 3.
+
+Razonamiento:
+Hay 54 unidades de área en el cubo 3x3x3. 1/3 de esto es negro. Por lo tanto, 18 unidades son negras.
+Para A, el número mínimo de cubos negros. Intentamos colocar los cubos en el interior, que contribuyen con menos área.
+Para B, intentamos poner los cubos en el exterior.
+
+Razonamiento:
+Total surface area = 6*3*3 = 54. 
+Area for each color = 54/3 = 18
+A = minimum # of black cubes. We want them to expose more.
+Use the central squares. 1 for each face means A = 6
+B = maximum # of black cubes
+B-A
+
+B - A = 3.
+
+Razonamiento:
+The outer area = 6*3*3 = 54. Each color occupies 54/3=18 units of surface.
+A: Put the blocks within. => 6 blacks (each face has a center). Then minimize the blocks with black color.
+B: maximize black.
+A= minimum cubes with black. we need to have 6 squares. A = 7 including the central cube
+B = 7 + cubes
+
+Total cubes =27
+outer cubes =26.
+
+B-A
+Then we can find A
+B. Number max.
+
+Reasoning:
+Total surface area = 6 * 3 * 3 = 54.
+Area for black, grey, white = 54/3 = 18.
+A - minimum number of black cubes needed.
+We put black cubes around. Need 6 blocks on each. The center part cannot be.
+B = maximize the number.
+
+Razonamiento:
+La superficie total del cubo es 3x3x6 = 54. Un tercio es negro, por lo que 54/3 = 18 unidades cuadradas deben ser negras.
+A: mínimo número de cubos negros. Podemos colocar los cubos negros de modo que las caras negras sean mínimas.
+B: máximo número de cubos negros. Podemos colocar cubos de modo que las caras no negras sean mínimas.
+
+Supongamos que hay 6 cubos en cada centro.
+Si usamos solamente 6 en los centros, y los cubos negros representan el área mínima posible
+Consideremos que usemos todos los cubos con 8 esquinas.
+Por lo tanto, B es grande y B-A = 6.
+
+Respuesta: C)
+---

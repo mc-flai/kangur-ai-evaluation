@@ -1,0 +1,25 @@
+Razonamiento:
+Let the common root be $x_0$. Then we have
+$ax_0^2 + bx_0 + c = 0$
+$bx_0^2 + ax_0 + c = 0$
+Subtracting the two equations gives:
+$(a-b)x_0^2 + (b-a)x_0 = 0$
+$(a-b)x_0^2 - (a-b)x_0 = 0$
+$(a-b)(x_0^2 - x_0) = 0$
+Since $a \ne b$, we have $a-b \ne 0$, thus $x_0^2 - x_0 = 0$, i.e., $x_0(x_0 - 1) = 0$.
+So $x_0 = 0$ or $x_0 = 1$.
+
+If $x_0 = 0$, then $a(0)^2 + b(0) + c = 0$, so $c = 0$.
+But $c \ne 0$, so $x_0 = 0$ is not possible.
+
+If $x_0 = 1$, then $a(1)^2 + b(1) + c = 0$, so $a + b + c = 0$.
+
+Now let's examine the other choices:
+A) The common solution must be 0.  We already showed this is impossible since $c \ne 0$.
+B) The quadratic equation $ax^2 + bx + c = 0$ has exactly one real solution.  We can't conclude this.
+C) $a > 0$. We can't conclude this. For example, we could have $a = -4, b = -2, c = 6$.
+D) $b < 0$. We can't conclude this. For example, we could have $a = -4, b = -2, c = 6$.
+E) $a + b + c = 0$.  This is the only possible choice.
+
+Razonamiento: We derive that the common root is 1, which gives the condition a+b+c = 0.
+Respuesta: E)

@@ -1,0 +1,30 @@
+
+La pregunta 4 nos pide determinar el número máximo que podemos obtener sumando los dígitos de un reloj digital. Por ejemplo, si el reloj marca 21:17, la suma de los dígitos es 11. Se nos pregunta cuál es el número máximo que se puede obtener de esta manera.
+
+Para resolver esto, debemos identificar el reloj digital que tiene la suma de dígitos más alta posible. Los relojes digitales muestran la hora en el formato HH:MM, donde HH representa las horas y MM representa los minutos.
+
+1. Identificar el reloj digital con la suma de dígitos más alta:
+   - El reloj digital más tarde posible en un día es 23:59.
+   - Sumamos los dígitos de 23:59:
+     - 2 + 3 + 5 + 9 = 19
+
+2. Verificar otras posibles combinaciones:
+   - 23:58:
+     - 2 + 3 + 5 + 8 = 18
+   - 23:57:
+     - 2 + 3 + 5 + 7 = 17
+   - 23:56:
+     - 2 + 3 + 5 + 6 = 16
+
+3. Comparar con las opciones dadas:
+   - A) 24
+   - B) 36
+   - C) 19
+   - D) 25
+   - E) Otra respuesta
+
+La suma más alta que hemos encontrado es 19, que corresponde a la opción C.
+
+Raonament: Identificamos el reloj digital más tarde posible en un día, calculamos la suma de sus dígitos y comparamos con las opciones dadas.
+
+Resposta: C)

@@ -1,0 +1,37 @@
+**Raonament**:
+
+Ens demanen trobar el costat d'un triangle equilàter més petit que s'ha tallat en cada vèrtex d'un triangle equilàter més gran. Sabem que l'hexàgon format per aquest procés té un perímetre igual al perímetre total dels tres triangles tallats.
+
+Els costats dels triangles tallats són: 1 cm, 2 cm i 3 cm.
+
+1. Calculem el perímetre de cada triangle petit:
+   - Triangle amb costat de 1 cm: \(3 \times 1 = 3 \text{ cm}\)
+   - Triangle amb costat de 2 cm: \(3 \times 2 = 6 \text{ cm}\)
+   - Triangle amb costat de 3 cm: \(3 \times 3 = 9 \text{ cm}\)
+
+2. Sumem els perímetres dels tres triangles:
+   \[
+   3 + 6 + 9 = 18 \text{ cm}
+   \]
+
+3. L'hexàgon format té un perímetre de \(18 \text{ cm}\).
+
+4. Ara, el perímetre del triangle equilàter original és el mateix que el perímetre de l'hexàgon.
+
+5. L'hexàgon consta de 6 costats, però com està format per tres triangles equilàters, tenim dos costats del triangle equilàter més gran i un costat del triangle més petit sumats.
+
+6. El perímetre total del triangle original és:
+   \[
+   3 \times \text{costat del triangle original} = 18 \text{ cm}
+   \]
+
+7. Resolent per al costat del triangle original:
+   \[
+   \text{costat del triangle original} = \frac{18}{3} = 6 \text{ cm}
+   \]
+
+8. El problema demana el costat del triangle més petit, que és el triangle tallat de cada vèrtex.
+
+D'acord amb el que hem resolt, el costat del triangle original és 6 cm, i el triangle més petit és un dels que hem tallat, que són 1 cm, 2 cm i 3 cm.
+
+**Resposta**: A) 6 cm

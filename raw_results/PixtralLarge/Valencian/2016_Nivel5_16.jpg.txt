@@ -1,0 +1,33 @@
+**Raonament**:
+1. Per determinar en quina fila es troba el número 1000 en la seqüència ziga-zaga, primer cal observar el patró.
+2. En la fila 1, els números comencen amb 4 i tenen 1 número.
+3. En la fila 2, els números comencen amb 8 i tenen 2 números (8, 24).
+4. En la fila 3, els números comencen amb 12 i tenen 3 números (12, 20, 28).
+5. En la fila 4, els números comencen amb 16 i tenen 4 números (16, 24, 32, 40).
+
+Cada fila comença amb un número que és 4 vegades el número de la fila i té el mateix nombre de números que el número de la fila. La seqüència és:
+
+- Fila 1: 4
+- Fila 2: 8, 24
+- Fila 3: 12, 20, 28
+- Fila 4: 16, 24, 32, 40
+
+Per trobar en quina fila es troba el número 1000, observem el patró:
+- La fila \( n \) comença amb \( 4n \) i té \( n \) números.
+- L'últim número de la fila \( n \) és \( 4n + 8(n-1) \).
+
+Per a la fila \( n \) l'últim número de la fila es pot calcular com:
+\[ \text{Últim número de la fila } n = 4n + 8(n-1) = 4n + 8n - 8 = 12n - 8 \]
+
+Per trobar el número total de números fins a la fila \( n \), sumem els números de la seqüència ziga-zaga:
+\[ \text{Total números fins a la fila } n = \frac{n(n+1)}{2} \]
+
+Necessitem trobar \( n \) tal que:
+\[ 12n - 8 \geq 1000 \]
+\[ 12n \geq 1008 \]
+\[ n \geq \frac{1008}{12} \]
+\[ n \geq 84 \]
+
+Així, la fila que conté el número 1000 és la fila 84.
+
+**Resposta**: D) fila 4.

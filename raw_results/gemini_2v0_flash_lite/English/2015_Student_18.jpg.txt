@@ -1,0 +1,19 @@
+Reasoning: We need to determine the probability that Tina wins. Tina wins if she rolls a number higher than Bibi.
+Bibi's die has 6 faces with numbers 1, 2, 3, 4, 5, 6.
+Tina's die has 6 faces with numbers 2, 2, 2, 5, 5, 5.
+We need to find all combinations where Tina's roll is greater than Bibi's roll. Let's make a table:
+
+| Bibi | Tina Wins (Tina > Bibi) |
+|---|---|
+| 1 | 2, 2, 2, 5, 5, 5 (6 times) |
+| 2 | 5, 5, 5 (3 times) |
+| 3 | 5, 5, 5 (3 times) |
+| 4 | 5, 5, 5 (3 times) |
+| 5 |  |
+| 6 |  |
+
+Total wins for Tina = 6 + 3 + 3 + 3 = 15.
+Total possible outcomes = 6 (Bibi) * 6 (Tina) = 36.
+Probability (Tina wins) = (Number of favorable outcomes) / (Total possible outcomes) = 15 / 36 = 5/12
+
+Answer: C)

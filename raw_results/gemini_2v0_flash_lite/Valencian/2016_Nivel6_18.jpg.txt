@@ -1,0 +1,6 @@
+Raonament:
+1. **Nombre total de permutations:** La paraula CANGUR té 6 lletres, amb dues vocals (A, U). Si no hi hagués restriccions, el nombre total de permutacions seria 6! = 720.
+2. **Permutacions amb les vocals juntes:** Considerem les dues vocals (A, U) com una sola unitat. Ara tenim 5 "lletres" per permutar: (AU), C, N, G, R. Això es pot fer de 5! = 120 maneres. A més, les vocals A i U poden permutar-se entre elles, de 2! = 2 maneres. Per tant, hi ha 120 * 2 = 240 maneres de tenir les vocals juntes.
+3. **Permutacions amb les vocals separades:** Restem les permutacions amb les vocals juntes del nombre total de permutacions: 720 - 240 = 480.
+
+Resposta: E)

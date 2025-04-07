@@ -1,0 +1,47 @@
+### Raonament:
+
+1. Identifiquem el problema: Estem buscant un nombre que, multiplicat per 5, dona un quocient de 903 entre 7, resultant en un residu de 924.
+2. Convertim el problema en una equació:
+   \[
+   5x \equiv 924 \pmod{7}
+   \]
+3. Simplifiquem l'equació:
+   \[
+   5x \equiv 924 \pmod{7}
+   \]
+   Reduïm 924 módulo 7:
+   \[
+   924 \div 7 = 132 \text{ R } 0
+   \]
+   Així, 924 ≡ 0 (mod 7).
+   La nostra equació simplificada és:
+   \[
+   5x \equiv 0 \pmod{7}
+   \]
+4. Resolvim l'equació:
+   \[
+   5x \equiv 0 \pmod{7}
+   \]
+   Per resoldre aquesta equació, trobem el multiplicatiu invers de 5 módulo 7. El multiplicatiu invers de 5 módulo 7 és 3, perquè:
+   \[
+   5 \times 3 = 15 \equiv 1 \pmod{7}
+   \]
+   Multipliquem ambdós costats de l'equació per 3:
+   \[
+   3 \times 5x \equiv 3 \times 0 \pmod{7}
+   \]
+   Això dona:
+   \[
+   x \equiv 0 \pmod{7}
+   \]
+   Així, \( x = 7k \) per qualsevol enter \( k \).
+5. Verifiquem les opcions donades:
+   - A) 147: \( 147 \times 5 = 735 \equiv 1 \pmod{7} \)
+   - B) 149: \( 149 \times 5 = 745 \equiv 6 \pmod{7} \)
+   - C) 153: \( 153 \times 5 = 765 \equiv 5 \pmod{7} \)
+   - D) 157: \( 157 \times 5 = 785 \equiv 4 \pmod{7} \)
+   - E) 159: \( 159 \times 5 = 795 \equiv 3 \pmod{7} \)
+
+   La resposta correcta és 147, perquè 147 × 5 = 735, i 735 ≡ 1 (mod 7).
+
+### Resposta: A

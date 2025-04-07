@@ -1,0 +1,29 @@
+To determine how many different colors the marbles in the pipe have, we need to analyze the digits of the numbers from 1 to 2015 and identify the unique sums of their digits.
+
+Reasoning:
+1. Each marble is numbered from 1 to 2015.
+2. Marbles with digits that sum to the same number will have the same color.
+3. Marbles with digits that sum to different numbers will have different colors.
+
+Let's break down the digits and their sums:
+
+- Single-digit numbers (1-9): Each number sums to itself, so there are 9 unique sums.
+- Two-digit numbers (10-99): The sums range from 1+0=1 to 9+9=18, giving us 18 unique sums.
+- Three-digit numbers (100-999): The sums range from 1+0+0=1 to 9+9+9=27, giving us 27 unique sums.
+- Four-digit numbers (1000-1999): The sums range from 1+0+0+0=1 to 9+9+9+9=36, giving us 36 unique sums.
+- Five-digit numbers (2000-2015): The sums range from 2+0+0+0+0=2 to 2+0+1+5=8, giving us 8 unique sums.
+
+Adding these up:
+- Single-digit numbers: 9 unique sums
+- Two-digit numbers: 18 unique sums
+- Three-digit numbers: 27 unique sums
+- Four-digit numbers: 36 unique sums
+- Five-digit numbers: 8 unique sums
+
+Total unique sums = 9 + 18 + 27 + 36 + 8 = 98
+
+However, the problem states that there are 2015 marbles, and the sums should match the number of marbles. This discrepancy suggests that the problem might be incorrectly framed or that there is an error in the interpretation of the sums.
+
+Given the options provided and the nature of the problem, the most logical choice is to consider the number of unique sums that can be achieved within the range of digits used.
+
+Answer: D)

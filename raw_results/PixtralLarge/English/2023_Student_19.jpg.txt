@@ -1,0 +1,31 @@
+To solve the problem of finding the sum of the coordinates of the common point through which all the graphs of the given functions pass, we need to determine the point that satisfies all the functions independently of the choice of \( a \).
+
+Given functions:
+\[ y = x^3 + 3x^2 + ax + 2a + 4 \]
+
+We need to find the common point \((x, y)\) that is independent of \(a\).
+
+To make the functions independent of \(a\), the terms involving \(a\) must be zero. So, the equation becomes:
+\[ ax + 2a = 0 \]
+
+Factor out \(a\):
+\[ a(x + 2) = 0 \]
+
+For this to be true for all \(a\), we must have \( x + 2 = 0 \), which gives:
+\[ x = -2 \]
+
+Substitute \( x = -2 \) into the function \( y = x^3 + 3x^2 + ax + 2a + 4 \) to find \(y\):
+\[ y = (-2)^3 + 3(-2)^2 + a(-2) + 2a + 4 \]
+\[ y = -8 + 12 - 2a + 2a + 4 \]
+\[ y = 8 \]
+
+So, the common point is \((-2, 8)\).
+
+The sum of the coordinates of this point is:
+\[ -2 + 8 = 6 \]
+
+None of the given choices match exactly. Therefore, the closest correct choice is another number.
+
+Reasoning: The common point independent of \(a\) is \((-2, 8)\), and the sum of its coordinates is 6.
+
+Answer: E)

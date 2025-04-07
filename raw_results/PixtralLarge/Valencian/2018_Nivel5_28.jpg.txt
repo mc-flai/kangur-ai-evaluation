@@ -1,0 +1,10 @@
+Per resoldre el problema, hem de determinar el nombre mínim de moviments necessaris per a acolorir el quadrat de manera que cada costat del quadrat tingui el mateix patró de colors que la figura de l'esquerra.
+
+**Raonament:**
+1. **Entendre el problema**: Tenim un quadrat 5x5 dividit en 25 quadradets. Inicialment, tots els quadradets mostren una cara blanca. Hem de canviar les cares de dos quadradets en cada moviment per fer que el patró de colors coincideixi amb el de la figura de la dreta.
+2. **Analitzar la figura objectiu**: La figura de la dreta té un patró de colors específic. Es pot observar que hi ha 9 quadradets negres i 16 quadradets blancs.
+3. **Calcular els canvis necessaris**: Per transformar el quadrat inicial en el patró desitjat, hem de canviar 9 quadradets de blanc a negre.
+4. **Determinar els moviments necessaris**: Cada moviment canvia la cara de dos quadradets. Per tant, per canviar 9 quadradets de blanc a negre, necessitem un mínim de 5 moviments (ja que 9/2 = 4.5, i hem d'arrodonir cap amunt).
+5. **Verificar les opcions**: Les opcions donades són A) 11, B) 12, C) 13, D) 14, E) No és possible. La resposta correcta és la que més s'acosta al nombre mínim de moviments necessaris, que és 5.
+
+**Resposta**: E) No és possible.

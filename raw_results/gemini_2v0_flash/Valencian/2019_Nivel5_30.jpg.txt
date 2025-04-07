@@ -1,0 +1,18 @@
+Raonament:
+Hem de trobar nombres de quatre dígits entre 1000 i 1999 tals que, si s'elimina un dígit qualsevol, el nombre resultant de tres dígits és un divisor del nombre original.
+Analitzem el número 1000. Si treiem un zero, tenim 100, i 1000/100 = 10, per tant és divisor. Si treiem el 1, tenim 000, no és divisor.
+Analitzem el número 1001. Si treiem un 1, tenim 001=1. 1001/1=1001. Si treiem un 0, tenim 101. 1001/101 = 9,91 que no és divisor.
+Analitzem el número 1002. Si treiem el 1, tenim 002=2. 1002/2 = 501. Si treiem un zero, tenim 102. 1002/102 = 9.82, que no és divisor.
+Analitzem el número 1005. Si treiem el 1, tenim 005 = 5. 1005/5 = 201. Si treiem un 0, tenim 105. 1005/105=9.57, que no és divisor.
+Analitzem el número 1012. Si treiem el 1, tenim 012 = 12. 1012/12=84.33, que no és divisor. Si treiem el 0, tenim 112. 1012/112=9.03, que no és divisor.
+Sembla difícil trobar exemples, buscarem el 1000, 1001,...1999, per veure algun exemple.
+
+Considerem el nombre 1000: Si elimino un 1, el nombre restant és 000, per tant no és divisor. Si elimino un 0, el nombre resultant és 100, i 1000/100=10. Per tant, no compleix la condició.
+Considerem un nombre del tipus 11xx.
+Considerem nombres del tipus aaaa
+1111/111=10.009 no es divisor.
+Analitzem 1000, que no val. 1001 no val. 1002 tampoc.
+Si suprimim una xifra qualsevol, el nombre que en resulta és un divisor del nombre original?
+No hi ha cap nombre d'aquesta llista amb aquesta propietat.
+
+Resposta: E)

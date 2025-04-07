@@ -1,0 +1,26 @@
+To determine the direction in which Monika should move when she reaches the circle marked with an 'x', we need to follow the rules provided:
+
+1. Monika must enter every white circle exactly once.
+2. She cannot enter a black circle.
+3. She can only move horizontally and vertically.
+
+Let’s analyze the position marked with an 'x':
+
+- The 'x' is located in the center of the labyrinth.
+- To the left of 'x', there are three white circles in a row.
+- To the right of 'x', there are several circles, including black ones.
+- Below 'x', there are white circles leading downwards.
+- Above 'x', there are no white circles directly adjacent.
+
+Since Monika must enter every white circle exactly once, she needs to continue her path to ensure she covers all white circles. The path should be planned such that she visits all white circles without revisiting any.
+
+Given these conditions:
+
+- Moving left (A) would not be optimal as there are only three white circles and she would need to return to 'x'.
+- Moving up (B) is not possible as there are no white circles directly above 'x'.
+- Moving right (C) would lead her into a section with multiple black circles, which she cannot enter.
+- Moving down (D) is the only viable option as it leads to a series of white circles that she can continue to visit.
+
+Reasoning: Monika should move downwards from 'x' to ensure she enters all white circles exactly once and avoids the black circles.
+
+Answer: D).

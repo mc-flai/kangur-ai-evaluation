@@ -1,0 +1,31 @@
+
+El problema presenta una seqüència de nombres que s'alternen entre positius i negatius, i ens demana que calculem el valor quantitatiu d'aquesta seqüència.
+
+**Razonamiento:**
+1. Identifiquemos los números positivos y negativos en la secuencia:
+   - 1 (positivo)
+   - 2 (positivo)
+   - -3 (negativo)
+   - -4 (negativo)
+   - 5 (positivo)
+   - 6 (positivo)
+   - -7 (negativo)
+   - -8 (negativo)
+   - 9 (positivo)
+   - 10 (positivo)
+   - -11 (negativo)
+   - -12 (negativo)
+   - 13 (positivo)
+   - 14 (positivo)
+   - -15 (negativo)
+
+2. Sumemos los valores positivos:
+   - 1 + 2 + 5 + 6 + 9 + 10 + 13 + 14 = 50
+
+3. Sumemos los valores negativos:
+   - -3 - 4 - 7 - 8 - 11 - 12 - 15 = -50
+
+4. Sumemos los resultados de los valores positivos y negativos:
+   - 50 + (-50) = 0
+
+**Respuesta:** A)

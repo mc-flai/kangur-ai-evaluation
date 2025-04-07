@@ -1,0 +1,10 @@
+Razonamiento:
+
+La pregunta 6 pide saber si puede existir un código PIN de crédito compuesto solo por cuatro dígitos distintos cuya suma sea 8. Para responder esto, debemos revisar las condiciones para que un código PIN de cuatro dígitos sussumados sea igual a 8.
+
+Dado que los cuatro dígitos son distintos, no podemos utilizar 0 como uno de los dígitos, ya que su sumar nuestro número total. Por lo tanto, el dígito más bajo que podemos utilizar es 1. Si empezamos con 1 como uno de los dígitos, la suma restante necesitaría ser 7 (8 - 1 = 7). 
+
+Las opciones para los tres dígitos que conforman la suma de 7, sin repeticiones, serían (1, 2, 4) y (1, 3, 3). Hay un problema con esta última opción: no existe una combinación de tres números no repetidos que sumen 7 donde uno sea menor que los otros dos. Por lo tanto, los únicos números que podemos formar en base de una solución simple para sumar 7 son (1, 2) y el otro dígito debe ser 4. Por eso, puede existir un código de cuatro dígitos que sume 8, es decir, el código es (1, 2, 4) y (4, 1, 2).
+
+Entonces, la respuesta final es la opción D) (4,1,2) y (1,2,4).
+Respuesta: D)

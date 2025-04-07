@@ -1,0 +1,37 @@
+Raonament:
+1. **Entendre el problema**: Tenim un alfabet de 6 lletres (A, C, G, N, R, U). Volem trobar la paraula que ocupa la posició 537 en un diccionari format per totes les permutacions d'aquestes lletres.
+2. **Càlcul de posicions**: Per calcular la posició, hem d'usar el concepte de permutacions i calcular quantes paraules comencen amb una lletra determinada.
+3. **Comptar les paraules**:
+    *   Si la paraula comença per A: Hi ha 5! = 120 paraules que comencen amb A.
+    *   Si la paraula comença per C: Hi ha 5! = 120 paraules que comencen amb C.
+    *   Si la paraula comença per G: Hi ha 5! = 120 paraules que comencen amb G.
+    *   Si la paraula comença per N: Hi ha 5! = 120 paraules que comencen amb N.
+    *   Si la paraula comença per R: Hi ha 5! = 120 paraules que comencen amb R.
+    *   Suma acumulada: 120+120+120+120=480. 537 - 480=57. Ara hem de veure quin seria el 57è terme que comença amb R.
+4. **Comptar amb la segona lletra**:
+    *   Si la paraula comença per RA: Hi ha 4! = 24 paraules.
+    *   Si la paraula comença per RC: Hi ha 4! = 24 paraules. Suma acumulada: 24+24=48. 57 - 48 = 9.
+5. **Comptar amb la tercera lletra**:
+    *   Les lletres que tenim: G, N, U.
+    *   Si la paraula comença per RAG: Hi ha 3! = 6 paraules.
+    *   Si la paraula comença per RAN: Hi ha 3! = 6 paraules. 6+6=12. Hem de buscar la paraula que ocupi la posició 9. 9 - 6 = 3.
+6. **Comptar amb la quarta lletra**:
+    *   Tenim les lletres: G, N, U.
+    *   Si la paraula comença per RAG:
+        * RAGCNU
+        * RAGNCU
+        * RAGUCN
+        * RAGUNC
+        * RAGCUN
+        * RAGNU
+    *   Si la paraula comença per RAN:
+        * RANCGU
+        * RANGCU
+        * RANUCG
+        * RANUGC
+        * RANCUG
+        * RANGUC
+    *   La 9ena paraula comença per RANUCG
+7. **Trobar la paraula**: Sabem que la paraula comença per R. La segona lletra ha de ser la següent en l'ordre alfabètic de les lletres que ens queden (A, C, G, N, U). La tercera, la quarta, la cinquena i la sisena es calculen de manera similar, per tant, la paraula de la posició 537 ha de ser RACNGU.
+
+Resposta: D)

@@ -1,0 +1,13 @@
+Raonament: El quadrat ABCD té costats dividits a la meitat pels punts P, Q i R. L'àrea ombrejada es pot descompondre en tres triangles: un triangle rectangle amb vèrtexs A, P i B, un altre triangle rectangle amb vèrtexs B, Q i R, i un triangle format pels punts A, B i R. La suma de les àrees dels triangles rectangles és 1/2 * (1/2 * costat * costat) + 1/2 * (1/2 * costat * costat) = 1/4 * (costat^2). El triangle ABQ té una àrea de 1/2 * costat * costat/2.
+El triangle format per A, B i R té una àrea de 1/2 * costat * costat/2.
+L'àrea ombrejada és el quadrat menys l'àrea no ombrejada (triangle PAR i triangle RCQ):
+Àrea del quadrat ABCD: costat * costat.
+Àrea del triangle PAR = 1/2 * (costat/2) * (costat/2) = costat^2 / 8
+Àrea del triangle RCQ = 1/2 * (costat/2) * (costat/2) = costat^2 / 8
+Àrea no ombrejada: 2 * (costat^2 / 8) = costat^2 / 4.
+Àrea ombrejada: costat^2 - costat^2 / 4 = 3/4 * costat^2
+Àrea ombrejada = 3/4 * costat^2. El que representa 5/8 de l'àrea del quadrat.
+Àrea del triangle ABR: 1/2*costat*costat/2 = costat^2/4
+Àrea de la figura: 1/2 * costat * costat / 2 + 1/2 * costat * costat / 2 + costat^2 / 4 = costat^2/4 + costat^2/4 + costat^2/4 = 3/8 costat^2 + costat^2/4 = costat^2*5/8.
+
+Resposta: B)

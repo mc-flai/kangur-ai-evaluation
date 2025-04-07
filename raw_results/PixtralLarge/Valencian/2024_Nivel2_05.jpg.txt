@@ -1,0 +1,24 @@
+**Raonament:**
+
+Per resoldre aquest problema, hem de determinar quin nombre falta al cerclet marcat amb un signe d'interrogació, de manera que cada parell de cercles adjacents contingui números que sumin igual a la suma dels números en els cercles diametralment oposats.
+
+Els números donats en els cercles són: 1, 10, 9, 5, 2 i el nombre desconegut.
+
+1. Identifiquem els cercles diametralment oposats:
+   - El cerclet marcat amb un signe d'interrogació està diametralment oposat al cerclet que conté el 5.
+   - El cerclet amb el 1 està diametralment oposat al cerclet amb el 10.
+   - El cerclet amb el 9 està diametralment oposat al cerclet amb el 2.
+
+2. Sumem els números de cada parell de cercles diametralment oposats:
+   - 1 + 10 = 11
+   - 9 + 2 = 11
+   - 5 + ? = 11
+
+3. Resolem l'equació per trobar el nombre desconegut:
+   - 5 + ? = 11
+   - ? = 11 - 5
+   - ? = 6
+
+El nombre que falta al cerclet marcat amb un signe d'interrogació és 6.
+
+**Resposta:** C)

@@ -1,0 +1,16 @@
+
+Reasoning:
+1. Marius buys exactly 70 balloons.
+2. Balloons are sold in packages of 5, 10, or 25 pieces each.
+3. To find the minimum number of packages, we should aim to use the largest package sizes possible to minimize the total number of packages.
+4. Start by using the largest package size, which is 25 balloons per package.
+5. Divide 70 by 25 to see how many full packages of 25 balloons can be bought:
+   70 ÷ 25 = 2 with a remainder of 20.
+6. This means 2 full packages of 25 balloons each account for 50 balloons.
+7. Now, we need 20 more balloons. The next largest package size is 10 balloons per package.
+8. Divide 20 by 10 to see how many full packages of 10 balloons can be bought:
+   20 ÷ 10 = 2.
+9. This means 2 full packages of 10 balloons each account for the remaining 20 balloons.
+10. Therefore, the total number of packages Marius needs to buy is 2 (from the 25-balloon packages) + 2 (from the 10-balloon packages) = 4 packages.
+
+Answer: B)

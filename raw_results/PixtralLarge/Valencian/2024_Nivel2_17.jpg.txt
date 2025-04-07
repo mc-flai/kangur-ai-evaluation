@@ -1,0 +1,28 @@
+Per a resoldre aquesta pregunta, primer hem de comprendre que la sèrie de quadrats està formada per quadrats mès grans que s'incrementen afegint una filera de quadrats més petits en els dos costats consecutius del quadrat anterior. Això significa que per passar del quadrat 2023è al quadrat 2024è, hem de determinar el nombre total de quadrats petits que hi ha en cada nou quadrat.
+
+1. **Observació de la sèrie:**
+   - El primer quadrat té 1 quadrat petit.
+   - El segon quadrat té 3 quadrats petits (1 + 2).
+   - El tercer quadrat té 9 quadrats petits (3 x 3).
+   - El quart quadrat té 19 quadrats petits (4 x 4 - 1 x 1).
+   - El cinquè quadrat té 33 quadrats petits (5 x 5 - 2 x 2).
+
+   Podem observar que per cada nou quadrat, s'afegeix un nombre creixent de quadrats petits segons la fórmula:
+   \[
+   n^2 - (n-1)^2 = 2n - 1
+   \]
+
+2. **Calcular el nombre de quadrats petits per al quadrat 2024è:**
+   - Per al quadrat 2023è, el nombre total de quadrats petits és \(2023^2\).
+   - Per al quadrat 2024è, el nombre total de quadrats petits és \(2024^2\).
+
+3. **Calcular la diferència:**
+   \[
+   2024^2 - 2023^2 = (2024 - 2023)(2024 + 2023) = 1 \times 4047 = 4047
+   \]
+
+Per tant, per passar del quadrat 2023è al quadrat 2024è, es necessiten 4047 quadrats petits addicionals.
+
+Raonament: Utilitzant la fórmula \(n^2 - (n-1)^2 = 2n - 1\), hem determinat que la diferència entre el quadrat 2023è i el 2024è és 4047.
+
+Resposta: C)

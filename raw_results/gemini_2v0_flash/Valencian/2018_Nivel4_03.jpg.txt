@@ -1,0 +1,11 @@
+Raonament:
+El teatre té una capacitat de 200 espectadors. Suposem que el nombre d'abonats és "a". Això significa que hi ha "a" seients reservats per als abonats. La resta de seients, que són 200 - a, estan disponibles per a persones no abonades.
+
+En un dia on tots els abonats van a la sessió, l'ingrés dels abonats serà a * 10 €.
+Només s'omple una quarta part dels seients per a no abonats, és a dir, (200 - a) / 4. L'ingrés dels no abonats serà ((200 - a) / 4) * 40 €.
+L'ingrés total serà a * 10 + ((200 - a) / 4) * 40. Simplifiquem l'expressió:
+Ingrés total = 10a + (200 - a) * 10 = 10a + 2000 - 10a = 2000 €.
+
+Per tant, l'ingrés total és de 2000 € independentment del nombre d'abonats.
+
+Resposta: C)

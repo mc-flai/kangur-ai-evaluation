@@ -1,0 +1,12 @@
+
+Raisonnement :
+1. Le polyèdre en question est un polyèdre régulier avec des faces qui sont des triangles.
+2. Chaque sommet du polyèdre est partagé par 4 triangles.
+3. Chaque triangle est partagé par 3 sommets.
+4. Si nous avons 6 faces du polyèdre qui sont des carrés, nous devons déterminer combien de faces (triangles) sont combinées pour former ces carrés.
+5. Chaque carré est formé par 4 triangles (car chaque sommet est partagé par 4 triangles).
+6. Par conséquent, pour 6 carrés, nous aurions 6 * 4 = 24 triangles.
+7. Cependant, chaque triangle est partagé par 3 carrés, donc nous devons diviser le nombre total de triangles par 3 pour obtenir le nombre de triangles uniques.
+8. 24 triangles / 3 = 8 triangles uniques.
+
+Réponse : D

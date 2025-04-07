@@ -1,0 +1,9 @@
+Reasoning: Let $n$ be the number of teams. Each team has 3 participants. The total number of participants is $3n$. Each participant plays against every other participant exactly once. The total number of games played is given by $\binom{3n}{2} = \frac{3n(3n-1)}{2}$. We are given that the number of games played must be no more than 250. So, we have $\frac{3n(3n-1)}{2} \le 250$, or $3n(3n-1) \le 500$. We test the given options:
+A) $n=11$: $3n(3n-1) = 33(32) = 1056 > 500$.
+B) $n=10$: $3n(3n-1) = 30(29) = 870 > 500$.
+C) $n=9$: $3n(3n-1) = 27(26) = 702 > 500$.
+D) $n=8$: $3n(3n-1) = 24(23) = 552 > 500$.
+E) $n=7$: $3n(3n-1) = 21(20) = 420 \le 500$.
+Since $n=7$ is the largest integer that satisfies the condition, the maximum number of teams is 7.
+
+Answer: E)

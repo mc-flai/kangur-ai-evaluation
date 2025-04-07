@@ -1,0 +1,10 @@
+Raisonnement : On cherche le plus petit nombre possible de dépassements.
+Les voitures sont initialement dans l'ordre : I, II, III, IV, V.
+L'ordre final est : III, V, I, IV, II.
+*   III passe devant I et II, soit 2 dépassements.
+*   V passe devant I, IV et II, soit 3 dépassements.
+*   I passe devant IV et II, soit 2 dépassements.
+*   IV passe devant II, soit 1 dépassement.
+Au total, on a 2 + 3 + 2 + 1 = 8 dépassements.
+
+Réponse : C)

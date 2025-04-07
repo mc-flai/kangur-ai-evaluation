@@ -1,0 +1,35 @@
+To determine the smallest possible sum of the two three-digit numbers, we need to follow these steps:
+
+1. **Understand the conditions**:
+   - Two three-digit numbers.
+   - They are made up of six different digits.
+   - The first digit of the second number is twice as big as the last digit of the first number.
+   - 0 is also a digit but cannot be the first digit of a number.
+
+2. **Minimize the digits**:
+   - To minimize the sum, we should use the smallest digits possible.
+   - The smallest digits available are 0, 1, 2, 3, 4, and 5.
+
+3. **Assign the digits**:
+   - Let's denote the first number as ABC and the second number as DEF.
+   - Since 0 cannot be the first digit, we can assign A = 1.
+   - The smallest possible value for B is 0 (since it cannot be the first digit).
+   - The smallest possible value for C is 2 (since it's the smallest remaining digit).
+
+4. **Determine the second number**:
+   - The first digit of the second number (D) must be twice the last digit of the first number (C).
+   - Since C = 2, D must be 4 (twice 2).
+   - The smallest possible value for E is 3 (since it's the smallest remaining digit).
+   - The smallest possible value for F is 5 (since it's the smallest remaining digit).
+
+5. **Construct the numbers**:
+   - The first number is 102.
+   - The second number is 435.
+
+6. **Calculate the sum**:
+   - Sum = 102 + 435 = 537.
+
+**Reasoning**:
+By following the steps above, we constructed the smallest possible three-digit numbers that satisfy the given conditions and calculated their sum.
+
+**Answer**: C).

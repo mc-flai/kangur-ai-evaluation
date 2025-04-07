@@ -1,0 +1,13 @@
+Razonamiento: La suma de los coeficientes de un polinomio se obtiene evaluando el polinomio en x = 1. La ecuación dada es P(x + 1) = x² - x + 2P(6).  Para obtener P(1), debemos encontrar el valor de x tal que x+1 = 1, lo cual implica x=0.  Entonces, sustituimos x = 0 en la ecuación:
+P(0 + 1) = 0² - 0 + 2P(6)
+P(1) = 2P(6)
+Ahora bien, debemos hallar P(6). Para esto, encontramos el valor de x tal que x+1 = 6, es decir, x = 5.  Sustituyendo x=5 en la ecuación, tenemos:
+P(5+1) = 5² - 5 + 2P(6)
+P(6) = 25 - 5 + 2P(6)
+P(6) = 20 + 2P(6)
+-P(6) = 20
+P(6) = -20
+Entonces, P(1) = 2P(6) = 2(-20) = -40
+Por lo tanto, la suma de los coeficientes de P es -40.
+
+Respuesta: A)

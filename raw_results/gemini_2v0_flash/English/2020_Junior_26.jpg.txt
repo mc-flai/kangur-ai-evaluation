@@ -1,0 +1,87 @@
+Reasoning:
+Since the cube is made up of 64 smaller cubes, each side of the larger cube is made up of 4 smaller cubes (because 4*4*4 = 64).
+The first time the cube is painted red, the cubes on the exterior of the larger cube will have some faces painted red, while the interior cubes will remain white.
+When Pedro disassembles the cube and reassembles it so that all faces of the larger cube are white, the only white faces are those from the interior cubes of the original cube.
+There are 2x2x2 = 8 interior cubes, and each of these cubes has 6 white faces.
+Therefore, the total number of white faces remaining white is 8*6 = 48.
+Since the problem states "all its faces were white", which means the outside is also made up of white faces again.
+Total number of faces = 64 cubes * 6 faces each = 384 faces.
+
+The first painting colors the outside.  Cubes on the corners have 3 faces painted, cubes on the edges have 2 faces painted, cubes in the center of each face have 1 face painted, and cubes in the middle of the larger cube have 0 faces painted.
+
+When the cube is reassembled so that all the outer faces are white again and painted red, only the cube faces which were not previously painted red remain white.
+
+The number of faces that remain white are the internal cubes (2x2x2) all around plus those cubes that were on the faces originally.
+(4x4x4) - (2x2x2) = 56 cubes that will be painted at least once.  8 cubes are not painted.
+There are 6*4*4 + 12*2 + 8 =96 + 24 + 8 = 128 originally painted.
+When we paint the outside faces, the inner faces are all white.
+8 cubes in the middle that are unpainted, so have 48 faces.
+The original outside cubes can now be placed on the inside, each outside now has a single red layer.
+Original # of outer faces = 6*(4*4) = 96 outer faces
+
+Number of faces re-painted = total faces (64*6 = 384) - 48 white original faces = 336 faces were painted
+
+The cubes in the corners have 3 red faces each time, so 3 faces will remain white.
+There are 8 corners. 8*3 =24. But there are still faces on those corner cubes that are white.
+There are 24 edge cubes with at least 2 faces painted, each has 4 faces = 96
+There are 24 edge cubes, so 24 cubes * 2 = 48 red faces.
+4x6 = 24 cube, so 2* each = 48
+6 central cubes each face
+When it says reassemble, the outer faces will become the inner faces and will still remain white.
+The inner faces become faces on the outside which are painted again.
+The 8 inner cubes * 6 sides = 48 unpainted sides
+
+Consider the number of originally unpainted faces. There are 8 cubes at the center. The cube is reassembled.
+For each face, there are 4 cubes with 1 face painted. There are 6*4=24 cube with 1 face painted.
+There are 12 edge cubes with 2 face painted.
+There are 8 corner cubes with 3 face painted.
+So, faces remain white = 6 faces * 8 center cube = 48. Faces that were always white.
+Faces that are white after the second painting = 48+24+24+24 = 72 faces.
+6 faces * 4 mid cubes. So 24 faces remain the same color. 24 * 3 face -> 72
+
+Answer: B)
+Reasoning:
+1. **Cube Dimensions:** The large cube is made of 64 smaller cubes, so it's a 4x4x4 cube (4*4*4 = 64).
+
+2. **First Painting:** When the first cube is painted, the outer layer is painted red.
+
+3. **Reassembly:** The cube is disassembled and reassembled so that all its *faces* are white. This implies that the *exterior faces* of the large cube are now white.
+
+4. **Second Painting:** The reassembled cube is painted red again.
+
+5. **White Faces Remaining:** We need to figure out how many white faces of the *little cubes* remain white.  The initially unpainted cube faces from the core of the large cube remain white. Also, when we repainted, the innermost cubes retain all of their initial 6 faces. These become red again, but the *faces that were originally* not on the outside will be the faces to consider in the next reassembly.
+Consider cubes having 0 red faces, cubes with 1 red face, 2 and 3 red faces.
+
+First Layer
+8 cubes with 3 red faces
+24 cubes with 2 red faces
+24 cubes with 1 red faces
+8 cubes with 0 red faces
+
+When reassembled, each of the faces are white again, and then painted again. Each time this happens, the new inside faces are initially white and they are the ones being looked for.
+
+There are 8 cubes on the very inside that are not painted on the first round. They have 6 sides = 48 faces that were initially not painted. When the cubes are reassembled, those faces will be mixed up such that only the new outer surface will get painted in red, leaving any other side untouched.
+64 cubes = 4*4*4. So cube faces = 6 faces * 64 cubes =384. On the very initial assembly, the original large cube is colored. This impacts:
+Faces unpainted is given by: 8 unpainted cubes.
+Unpainted faces: = 4 * edge face  , so
+The inside cubes: are 2*2*2 faces that haven't changed, the faces that are not on the exterior = 8 cube * 6 faces =48.
+
+Outer layer face -> interior new, they are unpainted. 
+Remaining after the last painting --> These can appear on the faces of the cube --> All white will now become red.  So the white that remains is coming only from the faces in the unpainted core
+Faces that were never painted: unpainted cubes.
+8 unpainted cubes * 6 white cube faces each = 48
+24 outer layer with a single face. When these come back to the insides.
+6*4 = 24 sides. Each of the outer cube on each face.
+
+We count how many white faces remain. These faces were unpainted in round 1: 
+Total faces: 384 in all.
+When cubes are reassembled, new outer faces white.
+--> Original faces unpainted from cube core, the rest got repainted:
+If the unpainted faces can be "unpainted" in round 1: there are 8 faces from cube core.
+New ones at the end: the new assembly can make these go
+
+There are faces which had one time been initially there
+
+The answer is 72 after evaluating the cubes/corner, middle
+
+Answer: B)

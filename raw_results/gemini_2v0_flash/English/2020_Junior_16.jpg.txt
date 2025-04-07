@@ -1,0 +1,6 @@
+Reasoning:
+Let the first two digits of the four-digit number be represented by $xy$, where $x$ is the tens digit and $y$ is the units digit. Since the number is a four-digit number, the first digit $x$ can take values from 1 to 9, and the second digit $y$ can take values from 0 to 9. Therefore, the two-digit number $xy$ can range from 10 to 99.
+The question states that the number formed by the first two digits is equal to the number formed by the last two digits. So, the four-digit number can be represented as $xyxy$. The possible values for the two-digit number $xy$ are from 10 to 99.
+To find the number of such four-digit numbers, we need to count the number of possible values for $xy$. Since $xy$ ranges from 10 to 99, the number of possible values is $99 - 10 + 1 = 90$.
+
+Answer: (D)

@@ -1,0 +1,20 @@
+Reasoning:
+The recursive formula can be rewritten as:
+f(n+1) = f(n) / f(n-1)
+Given f1 = 1, f2 = 2, we can calculate a few terms to find the pattern:
+f3 = f2/f1 = 2/1 = 2
+f4 = f3/f2 = 2/2 = 1
+f5 = f4/f3 = 1/2
+f6 = f5/f4 = (1/2)/1 = 1/2
+f7 = f6/f5 = (1/2)/(1/2) = 1
+f8 = f7/f6 = 1/(1/2) = 2
+f9 = f8/f7 = 2/1 = 2
+The sequence is repeating every 6 terms: 1, 2, 2, 1, 1/2, 1/2
+In each cycle of 6 terms, there are two even numbers: 2, 2
+In 2020 terms, there are 2020 / 6 = 336 cycles with a remainder of 4.
+So the total number of even numbers is 336 * 2 + number of even numbers in the remaining 4 terms.
+The remaining 4 terms are 1, 2, 2, 1
+There are 2 even numbers
+Therefore the total number of even numbers = 336 * 2 + 2 = 672 + 2 = 674.
+
+Answer: B)

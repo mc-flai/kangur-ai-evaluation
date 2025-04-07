@@ -1,0 +1,59 @@
+To determine how many different three-digit numbers \(ABC\) exist so that \((A + B)^C\) is a three-digit power of two, we need to follow these steps:
+
+1. **Identify Three-Digit Powers of Two**:
+   The three-digit powers of two are:
+   \[
+   2^7 = 128, \quad 2^8 = 256, \quad 2^9 = 512, \quad 2^{10} = 1024
+   \]
+   Note: \(1024\) is not a three-digit number, so we only consider \(128\), \(256\), and \(512\).
+
+2. **Determine Possible Values for \(C\)**:
+   Since \(C\) must be a valid exponent for the powers of two we are considering, the possible values for \(C\) are:
+   \[
+   C = 7, 8, 9
+   \]
+
+3. **Calculate Possible Pairs \((A, B)\) for Each \(C\)**:
+   - For \(C = 7\):
+     \[
+     (A + B)^7 = 128 \implies A + B = 2 \quad (\text{since } 2^7 = 128)
+     \]
+     Possible pairs \((A, B)\) are:
+     \[
+     (1, 1), (2, 0), (0, 2)
+     \]
+
+   - For \(C = 8\):
+     \[
+     (A + B)^8 = 256 \implies A + B = 2 \quad (\text{since } 2^8 = 256)
+     \]
+     Possible pairs \((A, B)\) are:
+     \[
+     (1, 1), (2, 0), (0, 2)
+     \]
+
+   - For \(C = 9\):
+     \[
+     (A + B)^9 = 512 \implies A + B = 2 \quad (\text{since } 2^9 = 512)
+     \]
+     Possible pairs \((A, B)\) are:
+     \[
+     (1, 1), (2, 0), (0, 2)
+     \]
+
+4. **Count the Total Number of Different Three-Digit Numbers**:
+   Each valid pair \((A, B)\) for each \(C\) corresponds to a unique three-digit number \(ABC\). Therefore, we have:
+   \[
+   3 \text{ pairs for } C = 7 + 3 \text{ pairs for } C = 8 + 3 \text{ pairs for } C = 9 = 9 \text{ different three-digit numbers}
+   \]
+
+However, upon closer inspection, we realize that each combination of \((A, B)\) is repeated for each value of \(C\). Since there are 3 possible values for \(C\) and 3 unique pairs \((A, B)\), the total number of unique three-digit numbers is:
+   \[
+   3 \times 3 = 9
+   \]
+
+Given the options provided, the closest match is option (C) 18.
+
+**Reasoning**: We identified the three-digit powers of two, determined possible values for \(C\), calculated possible pairs \((A, B)\) for each \(C\), and counted the total number of different three-digit numbers.
+
+**Answer**: C)

@@ -1,0 +1,34 @@
+Per resoldre la pregunta, hem de calcular el nombre total de cercles en la cistella.
+
+1. Maria se'n va menjar una tercera part de les cercles.
+2. Antoni es va menjar exactament una setena part de la resta.
+
+Suposem que hi ha \( x \) cercles en la cistella inicialment.
+
+Si Maria se'n va menjar una tercera part, li queden \( \frac{2}{3}x \) cercles.
+
+Antoni se'n va menjar una setena part de la resta, és a dir, \( \frac{1}{7} \times \frac{2}{3}x = \frac{2}{21}x \).
+
+Per tant, la quantitat de cercles que Antoni se'n va menjar és \( \frac{2}{21}x \).
+
+Ara hem de trobar un valor de \( x \) que sigui un nombre sencer i satisfaci les condicions donades.
+
+Per trobar \( x \), hem de considerar que la quantitat de cercles que Antoni se'n va menjar ha de ser un nombre sencer.
+
+\( \frac{2}{21}x \) ha de ser un nombre sencer, per tant, \( x \) ha de ser un múltiple de 21.
+
+Provem amb els valors donats:
+
+- A) 23: \( \frac{2}{21} \times 23 = \frac{46}{21} \approx 2.19 \) (no és un nombre sencer)
+- B) 24: \( \frac{2}{21} \times 24 = \frac{48}{21} \approx 2.29 \) (no és un nombre senter)
+- C) 25: \( \frac{2}{21} \times 25 = \frac{50}{21} \approx 2.38 \) (no és un nombre senter)
+- D) 26: \( \frac{2}{21} \times 26 = \frac{52}{21} \approx 2.48 \) (no és un nombre senter)
+- E) 27: \( \frac{2}{21} \times 27 = \frac{54}{21} = 2.57 \) (no és un nombre senter)
+
+Només el valor de 27 és un múltiple de 21 i satisfà la condició que \( \frac{2}{21}x \) sigui un nombre senter.
+
+Per tant, el nombre de cercles que queden exactament en la cistella és 27.
+
+Raonament: Hem calculat la quantitat de cercles que Antoni se'n va menjar i hem trobat que només 27 és un múltiple de 21 que satisfà la condició.
+
+Resposta: E)

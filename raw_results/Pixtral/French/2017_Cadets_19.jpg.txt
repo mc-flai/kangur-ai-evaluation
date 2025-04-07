@@ -1,0 +1,19 @@
+
+Raisonnement :
+1. Un tramway part de l'aéroport et met 60 minutes pour atteindre le centre-ville.
+2. Une voiture part également de l'aéroport et prend le même temps qu'un tramway pour atteindre le même chemin que celui emprunté par les tramways vers le centre-ville.
+3. La voiture atteint le centre-ville en 35 minutes.
+4. Nous devons déterminer combien de tramways la voiture dépasse en va-et-vient.
+
+Calculons le temps total que la voiture passe sur la route :
+- Temps pour aller au centre-ville : 35 minutes
+- Temps pour revenir à l'aéroport : 35 minutes
+- Total : 35 + 35 = 70 minutes
+
+Calculons le nombre de tramways qui partent de l'aéroport pendant ce temps :
+- Un tramway part toutes les 60 minutes.
+- En 70 minutes, 1 tramway part (puisque 70/60 = 1,1667, et nous ne comptons que les tramways complets).
+
+Donc, la voiture dépasse 1 tramway.
+
+Réponse : C

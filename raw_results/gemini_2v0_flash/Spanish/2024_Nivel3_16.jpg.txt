@@ -1,0 +1,11 @@
+Razonamiento: La pregunta busca números de dos cifras donde el producto de sus dígitos sea mayor que el número original. El número de dos dígitos se puede representar como 10a + b, donde 'a' y 'b' son los dígitos. Queremos encontrar casos donde a*b > 10a + b. Podemos probar algunos números:
+
+*   **11:** 1 * 1 = 1 (1 < 11)
+*   **12:** 1 * 2 = 2 (2 < 12)
+*   **19:** 1 * 9 = 9 (9 < 19)
+*   **21:** 2 * 1 = 2 (2 < 21)
+*   **99:** 9 * 9 = 81 (81 < 99)
+
+Notaremos que el producto de los dígitos rara vez supera el valor del número. Un ejemplo es 10, cuyo producto de dígitos es 0. A partir de esto, se puede inducir que no hay tales números.
+
+Respuesta: A)

@@ -1,0 +1,17 @@
+Raonament: Si col·loquem les monedes a les cel·les de la forma següent, podem minimitzar el nombre de monedes. Un possible esquema és posar les monedes a les cel·les (1,1), (1,4), (4,1), (4,4). Però no podem tenir només 4 monedes, ja que les cel·les (2,2), (2,3), (3,2), (3,3) no tenen una moneda adjacent. Necessitem almenys una moneda adjacent a aquestes.
+Col·loquem monedes a les caselles (1,2), (2,4), (4,3), (3,1), (2,2), (3,3). Això requeriria 6 monedes. Si col·loquem monedes a les caselles (1,2), (3,4), (4,1), (2,3), hi hauria 4 monedes.
+Un altre esquema és posar una moneda a cada cel·la de la segona i tercera fila, és a dir, (2,1), (2,2), (2,3), (2,4) i (3,1), (3,2), (3,3), (3,4). Això requeriria 8 monedes.
+Un possible esquema amb 4 monedes seria a les posicions (1,1), (1,4), (4,1), (4,4). Però no compleix la condició per les caselles al mig.
+
+Considerem la configuració on posem monedes a les posicions (1,2), (2,4), (4,3), (3,1). Això tampoc compleix la condició.
+Considerem posar monedes a la segona fila a les caselles (2,1), (2,3). I a la tercera fila a les caselles (3,2), (3,4). Això dona un total de 4 monedes. El quadrant del mig no compleix la condició.
+Si posem una moneda a cada cel·la de la forma d'escacs (1,1), (1,3), (2,2), (2,4), (3,1), (3,3), (4,2), (4,4), es necessiten 8 monedes.
+Si poséssim només 4 monedes, les posicions (1,1), (1,4), (4,1) i (4,4), la casella (2,2) no tindria cap casella adjacent amb monedes.
+
+Una bona estratègia és posar una moneda a la cel·la (2,2). Això cobreix les cel·les (1,2), (2,1), (2,3), (3,2). Si poséssim monedes a les posicions (1,4), (4,1), (4,4). Això no cobriria les caselles del mig.
+Considerant la quadrícula 2x2 del mig. Si només posem una moneda a la casella (2,2), les caselles (2,3), (3,2), (3,3) necessiten ser cobertes. Per cobrir-les, hauríem de posar una moneda o bé a (2,3), (3,2), (3,3) o a caselles adjacents a aquestes. Així doncs, caldrà almenys 4 monedes.
+Si poses monedes a les posicions (1,2), (2,4), (4,3), (3,1), la casella (2,2) no té una moneda adjacent.
+
+Per tant, el nombre més petit és 4.
+
+Resposta: B)

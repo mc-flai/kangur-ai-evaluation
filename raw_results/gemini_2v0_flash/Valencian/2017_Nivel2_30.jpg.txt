@@ -1,0 +1,28 @@
+Raonament: Perquè N siga divisible per 99, ha de ser divisible per 9 i per 11. Per ser divisible per 9, la suma de les seues xifres ha de ser un múltiple de 9. També, la suma de les xifres de N ha de ser imparella. Per ser divisible per 11, la diferència entre la suma de les xifres en posicions parells i la suma de les xifres en posicions imparells ha de ser divisible per 11 (incloent el 0). Intentem trobar el nombre més xicotet que complisca aquestes condicions.
+
+Si N té 3 xifres, N = abc, llavors a+b+c és múltiple de 9 i imparell, i (a+c) - b és múltiple d'11. El múltiple imparell de 9 més xicotet és 9. Si a+b+c = 9, i N és divisible per 99, llavors N podria ser 198 (1+9+8 = 18 parell) o 297 (2+9+7=18 parell), així que a+b+c no podria ser 9.
+Si N té 4 xifres, N = abcd, llavors a+b+c+d és múltiple de 9 i imparell, i (a+c) - (b+d) és múltiple d'11. El múltiple imparell de 9 més xicotet és 9.
+Però 1089 és divisible per 99 i té suma de xifres igual a 18, que és parell.
+
+Considerem N amb 5 xifres. Una possible opció seria 10989. La suma de les xifres és 27 (imparella) però el número no acaba en xifres iguals, així que no divisible per 11.
+
+Considerem el cas on N és 19998. És divisible per 9 i per 11. És divisible per 99. Aquest número té suma de xifres igual a 36, que és parell.
+
+Per a complir la condició que la suma de les seues xifres és imparella, i ser divisible per 99, començarem per una suma de xifres = 9, 27. Si a més el numero ha de ser divisible per 11, provarem a construir un nombre que cumple les caracteristiques.
+
+Considerem el número 109890. Però no funciona, doncs 1+0+9+8+9+0= 27 (impar) pero aquest nombre no es divisible per 11.
+
+El número 1089 és divisible per 99, però la suma de les seues xifres és 1+0+8+9=18, que és parell. Per tant necessitem un número amb suma de xifres imparella i divisible per 99. 99 x 3= 297, la suma de les xifres 18. 99 x 5=495, suma=18. 99 x 7=693, suma 18. 99 x 9=891. 99x11=1089. 99x13=1287. 99 x 21= 2079. 99 x23= 2277. 99 x 31= 3069.
+
+99 x 103 = 10197 suma xifres= 18
+99 x 113= 11187 suma xifres = 18
+
+Un nombre de 5 xifres:
+99 x 209= 20691 (suma xifres= 18)
+99 x 211 = 20889 (suma xifres =27)
+
+Si N és 20889, la suma de les xifres és 2+0+8+8+9=27, que és imparell i 20889/99 = 211
+
+Raonament: Després d'analitzar les condicions del problema, el número més xicotet que compleix les condicions és 20889. Aquest número té 5 xifres.
+
+Resposta: C)

@@ -1,0 +1,28 @@
+**Raonament**:
+
+La qüestió pregunta quina hora és quan un rellotge s'avança un minut cada hora i un altre s'endarrereix dos minuts cada hora. En un cert moment, els dos rellotges mostren la mateixa hora, que és l'11 a.m., i es veu que un marca les 11 h del matí i l'altre les 12 h del migdia.
+
+Per resoldre això, hem de determinar quan els dos rellotges es troben en aquestes condicions.
+
+- Un rellotge s'avança un minut cada hora:
+  - En 12 hores, s'avança 12 minuts.
+  - Quan marca les 11 h del matí, en realitat són les 11:00 - 12 minuts = 10:48 a.m.
+
+- L'altre rellotge s'endarrereix dos minuts cada hora:
+  - En 12 hores, s'endarrereix 24 minuts.
+  - Quan marca les 12 h del migdia, en realitat són les 12:00 - 24 minuts = 11:36 a.m.
+
+Per tant, quan el primer rellotge marca les 11 h del matí, són les 10:48 a.m. i quan el segon rellotge marca les 12 h del migdia, són les 11:36 a.m. La diferència entre aquestes hores és de 48 minuts.
+
+Ara, calculem la diferència total acumulada en 12 hores:
+- El primer rellotge s'avança 12 minuts en 12 hores.
+- El segon rellotge s'endarrereix 24 minuts en 12 hores.
+
+La suma d'aquestes diferències és 12 + 24 = 36 minuts.
+
+Per tant, la diferència entre els dos rellotges és de 36 minuts en 12 hores. Això significa que la diferència entre les hores reals dels dos rellotges és de 12 minuts.
+
+Per tant, quan el primer rellotge marca les 11 h del matí, el segon rellotge marca:
+11:00 + 12 minuts = 11:12 a.m.
+
+**Resposta**: E) A les 11.20 h

@@ -1,0 +1,21 @@
+Raonament: Perquè Maria guanyi, Joan ha de treure una peça de xocolata en el seu torn, i Maria ha de treure el xiclet en el seu torn.
+La probabilitat que Joan treu una peça de xocolata en el primer torn és 4/5. Després, queden 3 peces de xocolata i 1 xiclet, totalitzant 4 peces. La probabilitat que Maria treu el xiclet en el seu torn és 1/4.
+Per tant, la probabilitat que Maria guanyi és (4/5) * (1/4) = 4/20 = 1/5.
+Si el xiclet no ha estat tret després de dos torns, llavors Joan té una probabilitat de 0 d'extreure'l.
+Però, el problema és que Joan trau el primer.
+Cas 1: Joan treu xocolata i Maria treu el xiclet. (4/5) * (1/4) = 1/5
+Cas 2: Joan treu xocolata, Maria treu xocolata, Joan treu xocolata, Maria treu el xiclet. (4/5)*(3/4)*(2/3)*(1/2) = 24/120 = 1/5
+Cas 3: Joan treu xocolata, Maria treu xocolata, Joan treu xocolata, Maria treu xocolata, Joan treu el xiclet. Això no és possible, perquè Maria ha de ser la que treu el xiclet per guanyar.
+Per tant, la probabilitat que Maria guanyi és (4/5)(1/4) = 1/5.
+La probabilitat que Maria guanyi és 2/5 + 1/5 = 3/5.
+El primer torn, Joan treu xocolata. Això ocorre amb una probabilitat de 4/5. Ara queden 3 xocolates i 1 xiclet.
+El segon torn, Maria treu xocolata, amb probabilitat 3/4. Queden 2 xocolates i 1 xiclet.
+El tercer torn, Joan treu xocolata, amb probabilitat 2/3. Queda 1 xocolata i 1 xiclet.
+Finalment, Maria treu el xiclet amb probabilitat 1/2.
+
+La probabilitat que Maria treu el xiclet en el segon torn és (4/5)*(1/4)=1/5.
+La probabilitat que Maria treu el xiclet en el quart torn és (4/5)*(3/4)*(2/3)*(1/2) = 24/120 = 1/5.
+Si Maria treu el xiclet en el segon torn, guanya. Si Maria treu el xiclet en el quart torn, guanya. La suma de les probabilitats és 1/5 + 1/5 = 2/5.
+La probabilitat que Maria guanyi és 2/5.
+
+Resposta: A)

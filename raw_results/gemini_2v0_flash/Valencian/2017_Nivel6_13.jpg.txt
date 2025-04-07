@@ -1,0 +1,25 @@
+Raonament: Per maximitzar la fracció (N+M)/(N-M), volem maximitzar el numerador (N+M) i minimitzar el denominador (N-M). Això significa que N hauria de ser el més gran possible i M el més petit possible. Així, escollim N = 101 i M = 19. Llavors, la fracció és (101+19)/(101-19) = 120/82 = 60/41. 60/41 és aproximadament 1.46. Això no es troba a les opcions.
+Ara bé, en la pregunta diu 51 <= N <= 101 i 19 <= M <= 49, així que podem elegir els valors extrems d'N = 101 i M = 19, per tal de maximitzar la fracció. Amb aquests valors, la fracció esdevé (101+19)/(101-19) = 120/82 = 60/41 ≈ 1.4634. Això no es troba a les opcions.
+Si escollim N=51 i M=49, obtenim (51+49)/(51-49) = 100/2 = 50.
+Podem provar de triar N més proper a M per tal d'augmentar el resultat de la fracció.
+Si escollim N = 51 i M = 19, obtenim (51+19)/(51-19) = 70/32 = 35/16 = 2.1875.
+En aquest cas, hem d'escoller la màxima N i la mínima M. De nou, N=101 i M=19. (101+19)/(101-19) = 120/82 = 60/41 ≈ 1.46.
+Potser cal aproximar els números en el màxim possible i el mínim possible per trobar la resposta correcta.
+Per a que la fracció sigui més gran, N - M hauria de ser el més petit possible. Per exemple, triem N = 51 i M = 49, de manera que N - M = 2.
+N + M = 51 + 49 = 100. Per tant, la fracció és 100/2 = 50.
+Però, si seleccionem N = 101 i M = 49, aleshores, N + M = 150 i N - M = 52, de manera que la fracció és 150/52 ≈ 2.88. Això no és gran.
+Si seleccionem N = 51 i M = 19, aleshores, N + M = 70 i N - M = 32, de manera que la fracció és 70/32 ≈ 2.18.
+Si elegim N = 101 i M = 19, aleshores, N + M = 120 i N - M = 82, de manera que la fracció és 120/82 ≈ 1.46.
+Però, què tal si N i M estan molt a prop l'un de l'altre?
+Suposem N = 50 i M = 49. La condició seria 51 <= N <= 101 i 19 <= M <= 49. Llavors, N no pot ser 50.
+Suposem N = 51 i M = 49. (51+49)/(51-49) = 100/2 = 50.
+Suposem N = 52 i M = 49. (52+49)/(52-49) = 101/3 = 33.67.
+Suposem N = 51 i M = 48. (51+48)/(51-48) = 99/3 = 33.
+Per tant, sembla que la resposta 50 podria ser la correcta.
+Suposem N=51 i M=49. Then the expression is (51+49)/(51-49)=100/2=50.
+Suposem N=52 i M=48. Then the expression is (52+48)/(52-48)=100/4=25.
+Suposem N=51 i M=19. Then the expression is (51+19)/(51-19)=70/32=2.1875.
+Suposem N=101 i M=19. Then the expression is (101+19)/(101-19)=120/82=1.4634.
+Sembla que N=51 i M=49 ens dóna el valor més gran.
+
+Resposta: D)

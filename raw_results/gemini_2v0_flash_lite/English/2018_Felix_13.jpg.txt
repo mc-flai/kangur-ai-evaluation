@@ -1,0 +1,8 @@
+Reasoning:
+1.  **Initial State:** Alice has 3 white, 2 black, and 2 grey pieces of paper (3 + 2 + 2 = 7 pieces total).
+2.  **Step 1: Cut not black into two pieces:** The non-black pieces are the 3 white and 2 grey papers. These are cut into two, so the number of pieces becomes: (3 * 2) + (2 * 2) + 2 = 6 + 4 + 2 = 12 pieces.
+3.  **Step 2: Halve every piece of paper that is not white:**
+    *   The number of pieces that are not white are 2 grey papers which were already split in the previous step.
+    *   So, the previous 4 grey pieces become 4 * 2 = 8 pieces. The 6 white pieces are unchanged. The 2 black papers remain. Total: 8 + 6 + 2 = 16.
+
+Answer: B)

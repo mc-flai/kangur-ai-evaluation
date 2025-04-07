@@ -1,0 +1,5 @@
+Raonament: El cangur A salta sempre 6 metres. El cangur B salta 1, 2, 3, 4,... metres. Volem saber quan la suma dels salts del cangur B sigui igual o superior a la distància recorreguda pel cangur A. Després de n salts, el cangur A ha recorregut 6n metres, i el cangur B ha recorregut 1+2+3+...+n = n(n+1)/2 metres. Necessitem trobar el valor de n tal que n(n+1)/2 >= 6n. Dividint ambdues bandes per n (sabem que n > 0), tenim (n+1)/2 >= 6 o n+1 >= 12, de manera que n >= 11.
+Si n = 10, 10(11)/2 = 55 < 6(10) = 60.
+Si n = 11, 11(12)/2 = 66 > 6(11) = 66. Això passa quan els dos cangurs es troben. Per tant, el cangur B ha de fer 11 salts.
+
+Resposta: C)

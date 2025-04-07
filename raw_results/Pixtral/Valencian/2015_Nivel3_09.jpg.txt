@@ -1,0 +1,35 @@
+### Pregunta 9:
+Un equip de cinc jugadors: \( A, B, C, D, E \) han de triar el capità. Les seves opinions són les següents:
+- \( A \) diu: «Ni \( C \) ni \( E \)».
+- \( B \) diu: «Ni \( C \) ni \( D \)».
+- \( C \) diu: «Millor \( A \) que \( B \), que \( D \) i que \( E \)».
+- \( D \) diu: «\( A \) o \( C \)».
+- \( E \) diu: «Millor \( C \) que \( B \) i millor \( A \) que \( D \)».
+
+Quin és el capità que tots estan d'acord a triar?
+
+A) \( A \)
+B) \( B \)
+C) \( C \)
+D) \( D \)
+E) \( E \)
+
+### Raonament:
+1. Identifiquem els jugadors que no són acceptables per cada jugador:
+   - \( A \) no accepta \( C \) ni \( E \).
+   - \( B \) no accepta \( C \) ni \( D \).
+   - \( C \) no dona cap informació directa sobre qui no accepta.
+   - \( D \) accepta \( A \) o \( C \).
+   - \( E \) accepta \( C \) i \( A \) sobre \( D \) i \( B \).
+
+2. Determinem els jugadors que tots accepten:
+   - \( A \) accepta \( B \), \( C \), \( D \) (no accepta \( E \)).
+   - \( B \) accepta \( A \), \( C \), \( E \) (no accepta \( D \)).
+   - \( C \) accepta \( A \), \( B \), \( D \), \( E \) (no dona informació sobre qui no accepta).
+   - \( D \) accepta \( A \) o \( C \).
+   - \( E \) accepta \( A \), \( B \), \( C \), \( D \) (no accepta \( B \)).
+
+3. El jugador que tots accepten és \( A \), ja que \( A \) és acceptat per \( B \), \( C \), \( D \) i \( E \).
+
+### Resposta:
+Resposta: A) \( A \)

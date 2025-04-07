@@ -1,0 +1,17 @@
+# Raonament
+
+Per trobar la distància d'un vèrtex del rectangle a la seua diagonal, hem d'utilitzar el teorema de Pitàgores. Dibuixarem el rectangle i en tracem la diagonal: en tenim NE=BD, que, donades les dimensions del rectangle, NE és: 
+
+NE = sqrt(a^2+b^2) (2)
+
+Per trobar la distància AB = sin(R)/sin(S) = AF/AC on usarem:
+
+sin(R)/sin(S) = AF / AC = AF / Aa = AF / b sin(R)/sin(S) = AB / b sin(R) =  AB / b * sin(S) sin(R) = AB / AA^2 + BB^2 = AB / NE^2 = AB / sqrt(a^2 + b^2) 
+
+Però, considerant els angles oposats, sin(R) = sin(S) és sin(R) = AB/NA^2 + b^2. Un cop exposats els tres conceptes, podem considerar NE amb les dades del rectangle BCNE; amb l’ortogonal CX:
+
+S = sin(90-ATAN(b/a)) h_calculat NE * sin(ATAN(b/a)) L'ALTURA D’AM cercada és AB = sqrt(a^2-b^2)
+
+# Resposta: 
+
+No Answer

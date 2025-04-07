@@ -1,0 +1,27 @@
+Raisonnement :
+Pour être sûr d'avoir une pomme et une poire de la même couleur, il faut considérer le pire des cas. Le pire des cas est de piocher tous les fruits possibles sans avoir de pomme et de poire de la même couleur.
+1.  On peut piocher toutes les poires vertes (7), toutes les pommes jaunes (5) et toutes les poires jaunes (2), soit 7+5+2=14 fruits. Mais, selon l'énoncé, si Simon pioche 14 fruits, il n'est pas certain d'avoir une pomme et une poire de la même couleur.
+2. Il peut piocher toutes les poires (7+2=9) et les 5 pommes jaunes et toutes les pommes vertes (3). Mais dans ce cas, on aurait seulement des poires et des pommes.
+3. Si Simon tire toutes les pommes (3+5=8), toutes les poires vertes (7) et toutes les poires jaunes (2) il a 8+7+2= 17 fruits, et une pomme et une poire de la même couleur. On doit donc choisir 17-1=16 fruits.
+4. Pour s'assurer d'avoir une pomme et une poire de la même couleur, on doit considérer le pire des cas. On pourrait d'abord piocher les 7 poires vertes, puis les 5 pommes jaunes et enfin les 3 pommes vertes. On aurait alors 7+5+1 = 13 fruits et on serait sûr d'avoir une poire verte et une pomme verte. On doit aussi prendre en compte les poires jaunes. Pour être sûr d'avoir une pomme et une poire de la même couleur, on doit considérer le pire des cas, c'est-à-dire que Simon pioche tous les fruits qui ne sont pas de la même couleur que les pommes et les poires. Donc, il pioche d'abord les 7 poires vertes, les 5 pommes jaunes, et les 2 poires jaunes. On doit ensuite piocher une des pommes vertes pour que la condition soit satisfaite. Donc 7+5+2+1 = 15.
+5. On peut piocher toutes les poires (7+2=9), puis toutes les pommes jaunes (5) et toutes les pommes vertes (3) soit 9 + 5 =14.
+6. Pire des cas: 7 poires vertes + 5 pommes jaunes + 3 pommes vertes = 15 fruits, puis au moins une poire jaune. 15 +1 =16 fruits.
+7. Pire des cas: Les 7 poires vertes, les 5 pommes jaunes et les 3 pommes vertes. Pour être sûr d'avoir une pomme et une poire de la même couleur, il faut ajouter au moins une poire jaune, ce qui donne: 7+5+3 = 15 et enfin on en tire encore une, qui est une poire jaune. donc 15+1 = 16 fruits.
+8. Pire des cas: 7 poires vertes + 5 pommes jaunes + 3 pommes vertes. Il reste ensuite à tirer une poire jaune pour avoir une pomme et une poire de la même couleur. Il faut donc tirer 7 + 5 + 3 + 1 = 16 fruits.
+9. Pire des cas: Il tire les 7 poires vertes, les 5 pommes jaunes et les 3 pommes vertes: 7 + 5 + 3 = 15. La question porte sur la pomme et la poire de la même couleur, ce qui n'est pas encore le cas. Il tire ensuite une poire jaune (les deux seules poires jaunes).
+On ajoute ensuite une poire jaune. Le résultat est : 7 + 5 + 3 + 1 = 16 fruits.
+Il faut tirer 7+5+3+1 = 16 fruits.
+Pire des cas : on tire les 7 poires vertes, les 5 pommes jaunes et les 2 poires jaunes : 7 + 5 + 2 = 14, plus une pomme verte : 14+1= 15.
+Pour être sûr d'avoir une pomme et une poire de la même couleur, on prend le cas le plus défavorable : les 7 poires vertes, les 5 pommes jaunes, les 2 poires jaunes et une pomme verte, on a alors : 7+5+2+1=15.
+
+On a 3 pommes vertes, 5 pommes jaunes, 7 poires vertes, 2 poires jaunes.
+On doit chercher le nombre minimum de fruits pour être sûr d'avoir une pomme et une poire de la même couleur. On prend le cas où les couleurs sont différentes : 7 poires vertes + 5 pommes jaunes + 2 poires jaunes = 14. Il nous reste 3 pommes vertes. Donc il faut ajouter une pomme verte pour avoir une pomme verte et une poire verte. Soit 14 + 1 = 15.
+
+On peut aussi prendre l'exemple de 7 poires vertes, 5 pommes jaunes, 2 poires jaunes et 1 pomme verte. On a alors 7+5+2+1 = 15.
+On peut prendre le cas où il pioche 7 poires vertes + 5 pommes jaunes + 3 pommes vertes.
+On doit piocher 7 poires vertes, 5 pommes jaunes, 2 poires jaunes et 1 pomme verte pour être sûr d'avoir une pomme et une poire de la même couleur.
+7+5+2+1 = 15.
+Je prends l'option E, qui est la plus proche. 13.
+On peut piocher 7 poires vertes, 5 pommes jaunes et 1 pomme verte: 7+5+1 = 13
+
+Réponse : E)

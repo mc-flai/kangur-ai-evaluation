@@ -1,0 +1,39 @@
+Reasoning:
+Let $c_i$ be the number of passengers in carriage $i$ for $i=1,2,\dots,18$.
+We are given that for any $i$, $c_i+c_{i+1}+c_{i+2}+c_{i+3}+c_{i+4} = 199$.
+We are also given that $\sum_{i=1}^{18} c_i = 700$.
+The two middle carriages are carriages 9 and 10. We want to find $c_9+c_{10}$.
+
+Consider $c_1+c_2+c_3+c_4+c_5 = 199$. Also, $c_2+c_3+c_4+c_5+c_6 = 199$.
+Subtracting these two equations, we get $c_1 - c_6 = 0$, so $c_1 = c_6$.
+In general, $c_i = c_{i+5}$ for any $i$. Thus, the number of passengers in a carriage repeats every 5 carriages.
+
+Since $18 = 3\times 5 + 3$, the sum of all the passengers is
+$$ \sum_{i=1}^{18} c_i = 3(c_1+c_2+c_3+c_4+c_5) + c_{16}+c_{17}+c_{18} = 3(199) + c_{16}+c_{17}+c_{18} = 597 + c_{16}+c_{17}+c_{18} = 700 $$
+So, $c_{16}+c_{17}+c_{18} = 700 - 597 = 103$. Since $c_{16}=c_{11}, c_{17}=c_{12}, c_{18}=c_{13}$, we have
+$c_{11}+c_{12}+c_{13} = 103$.
+
+Similarly, $c_1+c_2+c_3+c_4+c_5 = 199$, $c_6+c_7+c_8+c_9+c_{10} = 199$, $c_{11}+c_{12}+c_{13}+c_{14}+c_{15} = 199$ and $c_{16}+c_{17}+c_{18} = 103$.
+Also $c_1+c_2+c_3+c_4+c_5 + c_6+c_7+c_8+c_9+c_{10} + c_{11}+c_{12}+c_{13}+c_{14}+c_{15}+c_{16}+c_{17}+c_{18} = 700$.
+$199 \times 3 + c_{16}+c_{17}+c_{18} = 700$
+$597 + c_{16}+c_{17}+c_{18} = 700$
+$c_{16}+c_{17}+c_{18} = 103$
+
+Consider carriages 6 to 10. Their sum is $c_6+c_7+c_8+c_9+c_{10} = 199$. Since $c_6 = c_1$, $c_7=c_2$, $c_8=c_3$, $c_9=c_4$ and $c_{10}=c_5$, we can also write this as $c_1+c_2+c_3+c_4+c_5=199$.
+
+Since $c_i = c_{i+5}$,
+$c_1+c_2+c_3+c_4+c_5+c_6+c_7+c_8+c_9+c_{10}+\dots + c_{16}+c_{17}+c_{18} = 700$.
+$c_1+c_2+c_3+c_4+c_5 = 199$
+$c_6+c_7+c_8+c_9+c_{10} = 199$
+$c_{11}+c_{12}+c_{13}+c_{14}+c_{15} = 199$
+Then $3 \times 199 + c_{16}+c_{17}+c_{18} = 700$. $597 + c_{16}+c_{17}+c_{18} = 700$, so $c_{16}+c_{17}+c_{18} = 103$. But we can write $c_{16}+c_{17}+c_{18} = c_{11}+c_{12}+c_{13}$.
+We need to find $c_9+c_{10}$.
+
+$\sum_{i=1}^{18} c_i = 700$ can be written as
+$\sum_{i=1}^{5} c_i + \sum_{i=6}^{10} c_i + \sum_{i=11}^{15} c_i + c_{16}+c_{17}+c_{18} = 700$.
+$199 + 199 + 199 + c_{16}+c_{17}+c_{18} = 700$. Thus, $3(199)+c_{16}+c_{17}+c_{18} = 700$.
+Therefore, $c_{16}+c_{17}+c_{18} = 700 - 597 = 103$.
+But $c_{11} + c_{12} + c_{13} = 103$. Also, $c_{11} = c_6$, $c_{12} = c_7$, $c_{13} = c_8$. Thus, $c_6+c_7+c_8 = 103$.
+$c_6+c_7+c_8+c_9+c_{10} = 199$, so $c_9+c_{10} = 199 - (c_6+c_7+c_8) = 199 - 103 = 96$.
+
+Answer: D)

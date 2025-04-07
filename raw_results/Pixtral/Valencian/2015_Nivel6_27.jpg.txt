@@ -1,0 +1,52 @@
+La pregunta 27 involucra simplificar l'expressió algebraica:
+
+\[ 2015^2 - 2014^2 + 2013^2 - 2012^2 + \cdots + 3^2 - 2^2 + 1^2 \]
+
+Per simplificar aquesta expressió, podem utilitzar la fórmula de la diferència de quadrats, que és:
+
+\[ a^2 - b^2 = (a - b)(a + b) \]
+
+Aplicant aquesta fórmula a cada parella de termes consecutius:
+
+\[ 2015^2 - 2014^2 = (2015 - 2014)(2015 + 2014) \]
+\[ 2014^2 - 2013^2 = (2014 - 2013)(2014 + 2013) \]
+\[ 2013^2 - 2012^2 = (2013 - 2012)(2013 + 2012) \]
+\[ \vdots \]
+\[ 3^2 - 2^2 = (3 - 2)(3 + 2) \]
+\[ 2^2 - 1^2 = (2 - 1)(2 + 1) \]
+
+Simplificant cada terme:
+
+\[ 2015^2 - 2014^2 = 1 \cdot 4029 \]
+\[ 2014^2 - 2013^2 = 1 \cdot 4027 \]
+\[ 2013^2 - 2012^2 = 1 \cdot 4025 \]
+\[ \vdots \]
+\[ 3^2 - 2^2 = 1 \cdot 5 \]
+\[ 2^2 - 1^2 = 1 \cdot 3 \]
+
+Sumant tots aquests termes:
+
+\[ 4029 + 4027 + 4025 + \cdots + 5 + 3 \]
+
+Això és una sèrie aritmètica que es pot simplificar sumant tots els termes:
+
+\[ (2015 - 2014) + (2014 - 2013) + \cdots + (3 - 2) + (2 - 1) \]
+\[ 1 + 1 + \cdots + 1 \]
+
+Hi ha 2015 termes en aquesta sèrie, així que la suma és:
+
+\[ 2015 \cdot 1 = 2015 \]
+
+Multipliquem aquesta suma per la suma dels seus complementos:
+
+\[ 2015 \cdot (2 + 4029) = 2015 \cdot 4031 \]
+
+Finalment, el resultat és:
+
+\[ 2015 \cdot 4031 = 8144145 \]
+
+Per tant, la resposta correcta és:
+
+Resposta: E) 2000145
+
+Raonament: Simplificant l'expressió utilitzant la fórmula de la diferència de quadrats i sumant tots els termes resultants, obtenim 2000145.

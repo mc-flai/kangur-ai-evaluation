@@ -1,0 +1,38 @@
+Pour déterminer combien d'arêtes a une pyramide à 23 faces triangulaires, nous devons comprendre sa structure géométrique.
+
+1. Une pyramide est composée d'une base et de faces latérales triangulaires.
+2. Si la pyramide a 23 faces triangulaires, cela signifie qu'elle a une base et 22 faces latérales triangulaires.
+3. Chaque face latérale triangulaire partage une arête avec la base.
+4. Chaque face latérale triangulaire partage également deux arêtes avec les autres faces latérales triangulaires.
+5. La base, étant un polygone, a autant d'arêtes qu'il y a de faces latérales triangulaires.
+
+Pour calculer le nombre total d'arêtes :
+- La base a 22 côtés (car il y a 22 faces latérales triangulaires).
+- Chaque face latérale triangulaire a 2 arêtes qui ne sont pas partagées avec la base.
+- Donc, le nombre total d'arêtes est :
+  - 22 arêtes pour la base.
+  - 2 arêtes par face latérale triangulaire, soit 2 * 22 = 44 arêtes pour les faces latérales.
+- Total des arêtes = 22 (base) + 44 (faces latérales) = 66 arêtes.
+
+Cependant, chaque arête latérale est comptée deux fois (une fois pour chaque face triangulaire adjacente), donc nous devons diviser par 2 :
+- 66 / 2 = 33 arêtes.
+
+Mais nous devons aussi inclure les arêtes de la base :
+- Total des arêtes = 33 (arêtes latérales) + 22 (arêtes de la base) = 55 arêtes.
+
+Il semble qu'il y a une erreur dans le calcul initial. Reprenons :
+- Chaque face latérale triangulaire partage une arête avec la base et deux arêtes avec les autres faces latérales.
+- Donc, chaque face latérale contribue à 3 arêtes.
+- Total des arêtes = 22 (faces latérales) * 3 = 66 arêtes.
+
+En vérifiant les options :
+- A) 23
+- B) 24
+- C) 46
+- D) 48
+- E) 69
+
+La réponse correcte est 66 arêtes, qui correspond à l'option E) 69.
+
+Raisonnement : Le calcul correct des arêtes d'une pyramide à 23 faces triangulaires donne 66 arêtes, ce qui correspond à l'option E) 69.
+Réponse : E).

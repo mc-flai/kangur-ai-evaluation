@@ -1,0 +1,8 @@
+Raonament: Perquè el robot torni a l'origen després de dos llançaments, necessitem que els seus moviments en les dues dimensions (dreta/esquerra i amunt/avall) es cancel·lin mútuament. Hi ha quatre situacions possibles:
+1. **Primer llançament:** Vermell parell (dreta), Blau parell (amunt). **Segon llançament:** Vermell senar (esquerra), Blau senar (avall).
+2. **Primer llançament:** Vermell parell (dreta), Blau senar (avall). **Segon llançament:** Vermell senar (esquerra), Blau parell (amunt).
+3. **Primer llançament:** Vermell senar (esquerra), Blau parell (amunt). **Segon llançament:** Vermell parell (dreta), Blau senar (avall).
+4. **Primer llançament:** Vermell senar (esquerra), Blau senar (avall). **Segon llançament:** Vermell parell (dreta), Blau parell (amunt).
+La probabilitat d'un nombre parell o senar en un dau és 1/2. La probabilitat de cadascuna de les quatre situacions descrites abans és (1/2)*(1/2)*(1/2)*(1/2) = 1/16. Per tant, la probabilitat que el robot torni a l'origen és 4*(1/16) = 1/4.
+
+Resposta: E)

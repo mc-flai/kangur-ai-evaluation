@@ -1,0 +1,14 @@
+Raonament: El problema demana la suma de nombres naturals que, quan es divideixen per 7, tenen el mateix residu que el quocient.
+
+Si dividim un nombre per 7, el quocient pot ser 0, 1, 2, 3, 4, 5, o 6. El residu sempre ha de ser menor que el divisor (7). Llavors, tenim:
+
+*   Quocient = 1, residu = 1. El nombre és 1\*7 + 1 = 8
+*   Quocient = 2, residu = 2. El nombre és 2\*7 + 2 = 16
+*   Quocient = 3, residu = 3. El nombre és 3\*7 + 3 = 24
+*   Quocient = 4, residu = 4. El nombre és 4\*7 + 4 = 32
+*   Quocient = 5, residu = 5. El nombre és 5\*7 + 5 = 40
+*   Quocient = 6, residu = 6. El nombre és 6\*7 + 6 = 48
+
+La suma d'aquests nombres és 8 + 16 + 24 + 32 + 40 + 48 = 168.
+
+Resposta: B)

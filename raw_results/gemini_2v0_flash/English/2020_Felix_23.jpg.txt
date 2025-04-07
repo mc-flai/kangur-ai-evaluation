@@ -1,0 +1,17 @@
+Reasoning: We are looking for the tallest person. An arrow pointing from person X to person Y means that person X is shorter than person Y. Therefore, the tallest person is the one to whom no arrow points. In the diagram, person F has no arrow pointing to them. So F must be the tallest. However, Person F is not an option. Lets analyze the graph a bit more:
+- B is shorter than A, C, and F.
+- C is shorter than F.
+- D is shorter than A, B, C, E and F.
+- E is shorter than A and F.
+- F looks to be the tallest, with no arrows pointing to it.
+- A has arrows pointing to it from D and E. So A isn't the tallest.
+
+The prompt only gives Person A, B, C, D, and E as answer choices. Lets see who has the least amount of arrows pointing to them.
+- A has 2 arrows to it.
+- B has 1 arrow to it.
+- C has 1 arrow to it.
+- D has no arrows to it.
+- E has 1 arrow to it.
+Therefore, Person D would be the tallest of the given options.
+
+Answer: D)

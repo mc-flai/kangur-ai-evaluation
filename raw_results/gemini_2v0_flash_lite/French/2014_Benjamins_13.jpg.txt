@@ -1,0 +1,9 @@
+Raisonnement : Pour résoudre ce problème, il faut suivre les déplacements de Zinzin et de Harrant pour déterminer où ils se trouvent.
+1. **Zinzin:** Part du point de départ, va 1 km Nord, 2 km Ouest, 4 km Sud, 1 km Ouest.
+2. **Harrant:** Part du même point, va 1 km Est, 4 km Sud, 4 km Ouest.
+3. **Positions:**
+   - Zinzin : 1 km Nord - 2 km Ouest - 4 km Sud - 1 km Ouest. La position de Zinzin est donc : (1 km Nord, 3 km Ouest)
+   - Harrant : 1 km Est - 4 km Sud - 4 km Ouest. La position de Harrant est donc : (4 km Ouest, 4 km Sud)
+4. **Calcul du trajet pour rejoindre Zinzin:** Pour rejoindre Zinzin, Harrant devra aller vers le Nord et vers l'Est. Si on calcule les déplacements pour rejoindre Zinzin, Harrant devra parcourir 1 km vers le Nord puis 1 km vers le Nord-Ouest (pour se rendre à la position de Zinzin). On déduit donc que la dernière partie du trajet de Harrant pour rejoindre Zinzin est 1 km vers le Nord-Ouest.
+
+Réponse : D)

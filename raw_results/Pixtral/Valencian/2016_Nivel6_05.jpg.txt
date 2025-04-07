@@ -1,0 +1,17 @@
+### Raonament:
+
+1. **Entendre la pregunta**: Som demanats de dibuixar un cercle dins d'un tauler de 10x10, alternant caselles blanques i negres. Hem de trobar el nombre més gran possible de caselles negres que completen el cercle.
+
+2. **Determinar el diàmetre del cercle**: El diàmetre del cercle ha de ser un nombre parell perquè els seus punts poden estar en caselles alternades (blanques i negres).
+
+3. **Calcular el nombre de caselles negres**: Si el diàmetre del cercle és \(d\), el nombre de caselles negres dins del cercle és \(d^2 / 2\).
+
+4. **Provar diàmetres diferents**:
+   - Si \(d = 6\), llavors el nombre de caselles negres és \(6^2 / 2 = 18\).
+   - Si \(d = 8\), llavors el nombre de caselles negres és \(8^2 / 2 = 32\).
+
+5. **Comparar amb les opcions**: L'opció que coincideix amb el nombre més gran possible de caselles negres és 32.
+
+### Resposta:
+
+C) 32

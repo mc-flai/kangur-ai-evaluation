@@ -1,0 +1,10 @@
+Raisonnement :
+1.  **Comprendre le processus :** La question décrit une rotation de tasses. À chaque coup, la tasse la plus à gauche est retournée et placée à l'extrémité droite.
+2.  **Suivre les premiers coups :**
+    *   Coup 1 : La tasse de gauche est retournée et placée à droite (forme A, la tasse retournée).
+    *   Coup 2 : La tasse la plus à gauche (maintenant la deuxième) est retournée et placée à droite (forme B, la tasse retournée).
+    *   Coup 3 : La tasse la plus à gauche (maintenant la troisième) est retournée et placée à droite (forme A, la tasse retournée).
+3.  **Identifier le cycle :** On remarque que tous les 3 coups, on revient à la position de départ.
+4.  **Déterminer l'état après 10 coups :** 10 coups = 3 cycles et 1 coup restant (10 = 3x3 + 1). Donc, après 10 coups, les tasses seront dans la même configuration qu'après 1 coup.
+
+Réponse : A)

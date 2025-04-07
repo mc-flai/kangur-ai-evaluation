@@ -1,0 +1,38 @@
+Per determinar quina és l'expressió general del nombre n tal que 10n + 1 sigui un múltiple de 11, hem de considerar les propietats dels múltiples de 11.
+
+Un nombre és múltiple de 11 si la diferència entre la suma dels dígits en posicions parells i la suma dels dígits en posicions senars és múltiple de 11.
+
+Considereu l'expressió 10n + 1. Per tal que 10n + 1 sigui un múltiple de 11, aquesta expressió ha de ser divisible per 11.
+
+Descomponem l'expressió:
+10n + 1 ≡ 0 (mod 11)
+
+Això significa que:
+10n + 1 ≡ 0 (mod 11)
+10n ≡ -1 (mod 11)
+
+Per trobar n, fem servir la inversa multiplicativa de 10 mòdul 11. La inversa multiplicativa de 10 mòdul 11 és 10, ja que:
+10 * 10 ≡ 100 ≡ 1 (mod 11)
+
+Multipliquem ambdós costats de l'equació per 10:
+10 * 10n ≡ 10 * -1 (mod 11)
+100n ≡ -10 (mod 11)
+n ≡ -10 (mod 11)
+
+Com que -10 ≡ 1 (mod 11), tenim:
+n ≡ 1 (mod 11)
+
+Això significa que n pot ser expressat com:
+n = 1 + 11k, on k és un enter.
+
+Comparant amb les opcions donades:
+A) n = 2m
+B) n = 2m + 1
+C) n = 4m
+D) n = 4m + 1
+E) n = 4m + 2
+
+La forma correcta que coincideix amb n = 1 + 11k és B) n = 2m + 1, ja que podem veure que si m = 5k (on k és un enter), llavors n = 2(5k) + 1 = 10k + 1, que és equivalent a 1 + 11k.
+
+Raonament: Hem determinat que n ha de ser congruent a 1 mòdul 11, i això coincideix amb l'expressió B) n = 2m + 1.
+Resposta: B)

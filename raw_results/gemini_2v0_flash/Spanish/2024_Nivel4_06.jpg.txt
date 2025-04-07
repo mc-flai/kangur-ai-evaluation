@@ -1,0 +1,11 @@
+Razonamiento:
+La pregunta es cuántos números de cuatro dígitos se pueden formar usando las fichas con los números 1, 5 y 11. Para formar un número de cuatro dígitos, necesitamos utilizar los números dados para componer 4 dígitos. Esto significa que uno de los números deberá ser usado dos veces.
+
+Las posibles combinaciones son:
+- Usar 11 dos veces: los números serán 11, 11, 1, 5.  Hay 4!/2! = 12/2 = 6 posibles números.
+- Usar 1 dos veces: los números serán 1, 1, 5, 11.  Hay 4!/2! = 12/2 = 6 posibles números.
+- Usar 5 dos veces: los números serán 5, 5, 1, 11.  Hay 4!/2! = 12/2 = 6 posibles números.
+
+Por lo tanto, la ficha que se repite se tiene que colocar en dos sitios distintos y no importa el orden en el que se pongan. Por lo tanto, el número de permutaciones posibles es de 6. Por lo tanto, la respuesta correcta es 6.
+
+Respuesta: C)

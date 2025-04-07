@@ -1,0 +1,27 @@
+Reasoning:
+Lucas will stay for 18 consecutive days. Gabrielle surfs three afternoons per week: Tuesdays, Saturdays, and Sundays. Lucas wants to spend as many days surfing with Gabrielle as possible. What day of the week should Lucas start his stay if he arrives in the morning?
+
+To maximize surfing days, we need to find a starting day such that the 18-day period contains as many Tuesdays, Saturdays, and Sundays as possible. Since Tuesdays, Saturdays and Sundays are not consecutive days, we can make a table of different starting days of the week and see which one will yield the greatest number of surfing days. A period of 18 days has two full weeks (14 days) and 4 extra days. If we begin the stay on a Friday, we can make 2 Sundays, 2 Tuesdays, and 2 Saturdays in the first two weeks. Then, for the extra 4 days, they will fall on Friday, Saturday, Sunday and Monday. This results in an extra surfing day on Saturday and Sunday. Therefore, the total surfing days would be 2+2+2+1+1 = 8. Let's try beginning on Saturday. In that case, we will have 2 Sundays, 2 Tuesdays, 2 Saturdays within the full two weeks. The extra 4 days will be Saturday, Sunday, Monday, Tuesday. The total number of surfing days would be 2+2+2+1+1 = 8. Beginning on Sunday, we'll have 2 Sundays, 2 Tuesdays and 2 Saturdays in the first two weeks. The extra 4 days will be Sunday, Monday, Tuesday, Wednesday. So, the total surfing days would be 3+3+2+2 = 9. Starting on Monday would give us Tuesday, Saturday, and Sunday in the following arrangement: 2 Tuesdays, 3 Saturdays, 2 Sundays. The last 4 days include Monday, Tuesday, Wednesday and Thursday. Thus, surfing days will be 3 Saturdays, 3 Sundays, 2 Tuesdays for a total of 8. Friday gives us 2 Tuesdays, 2 Saturdays, 2 Sundays plus Friday, Saturday, Sunday, and Monday. Surfing totals 2+2+2+1+1=8. When we consider all starting days we notice that the best start day is Friday since the frequency of surfing days (Tuesday, Saturday, and Sunday) is more when the 18 days start with Friday. However, note that beginning with Friday, the extra 4 days are Friday, Saturday, Sunday, Monday. Beginning with Sunday, the extra 4 days are Sunday, Monday, Tuesday, Wednesday.
+
+Now, we analyze the different options to see which is the best fit:
+- If Lucas arrives on Monday, the 18 days will have 2 Tuesdays, 3 Saturdays, and 2 Sundays.
+- If Lucas arrives on Tuesday, the 18 days will have 3 Tuesdays, 2 Saturdays, and 2 Sundays.
+- If Lucas arrives on Friday, the 18 days will have 2 Tuesdays, 3 Saturdays, and 2 Sundays.
+- If Lucas arrives on Saturday, the 18 days will have 2 Tuesdays, 2 Saturdays, and 3 Sundays.
+- If Lucas arrives on Sunday, the 18 days will have 3 Tuesdays, 2 Saturdays, and 2 Sundays.
+
+To maximize the number of surfing days, Lucas should arrive either on Tuesday or Sunday.
+
+Reasoning: Since 18 = 2 weeks + 4 days, we consider when Tuesdays, Saturdays, and Sundays happen within 4 days from the start day. Starting on Friday, we have Friday, Saturday, Sunday, Monday in 4 consecutive days. This yields two surfing afternoons, Saturday and Sunday. If we start on a Tuesday, the four days will be Tuesday, Wednesday, Thursday, Friday, yielding one surfing afternoon, Tuesday. If we start on Sunday, we have four additional surfing days, and one of these four surfing days is Tuesday.
+
+Reasoning: Since there is 18 days, it equals 2 weeks + 4 days. Within 1 week, Gabrielle surfs 3 days. Therefore, for the first 14 days, there will always be 6 surfing days. We now consider where should we start so that the last 4 days will include as many surfing days as possible.
+
+If the starting day is Friday, then the last 4 days are Friday, Saturday, Sunday and Monday, yielding 2 surfing days. The total will be 8 days.
+If the starting day is Saturday, then the last 4 days are Saturday, Sunday, Monday and Tuesday, yielding 3 surfing days. The total will be 9 days.
+If the starting day is Sunday, then the last 4 days are Sunday, Monday, Tuesday and Wednesday, yielding 2 surfing days. The total will be 8 days.
+If the starting day is Tuesday, then the last 4 days are Tuesday, Wednesday, Thursday and Friday, yielding 1 surfing day. The total will be 7 days.
+If the starting day is Monday, then the last 4 days are Monday, Tuesday, Wednesday and Thursday, yielding 1 surfing day. The total will be 7 days.
+
+The maximum number of surfing days is 9, which starting on Saturday will yield 9 days (6 + 3).
+
+Answer: D)

@@ -1,0 +1,11 @@
+Raonament: La suma dels angles interiors d'un polígon de k costats és (k-2)*180. L'angle interior pot ser 90 o 150. Llavors (k-2)*180 ha de ser igual a n*90 + m*150, on n + m = k. És a dir, 180k - 360 = 90n + 150m. Dividint per 30, 6k - 12 = 3n + 5m. Però n + m = k, de manera que n = k - m. 6k - 12 = 3(k - m) + 5m = 3k - 3m + 5m = 3k + 2m. Llavors 3k - 12 = 2m, o bé k = (2m + 12)/3 = (2/3)m + 4. Com que k ha de ser un enter, m ha de ser un múltiple de 3.
+Analitzem les opcions:
+A) k = 4. Si k = 4, 2m = 3k - 12 = 0, així m = 0. n = 4. Podem tenir un quadrat amb 4 angles de 90 graus.
+B) k = 6. Si k = 6, 2m = 3k - 12 = 18 - 12 = 6, així m = 3. n = 3. 3 angles de 90 i 3 de 150. Es possible.
+C) k = 8. Si k = 8, 2m = 3k - 12 = 24 - 12 = 12, així m = 6. n = 2. 6 angles de 150 i 2 de 90. Es possible.
+D) k = 9. Si k = 9, 2m = 3k - 12 = 27 - 12 = 15, així m = 15/2, que no és enter. Per tant, k = 9 no es possible.
+E) k = 10. Si k = 10, 2m = 3k - 12 = 30 - 12 = 18, així m = 9. n = 1. 9 angles de 150 i 1 de 90. Es possible.
+
+Raonament: Hem trobat que k=9 no es possible.
+
+Resposta: D)

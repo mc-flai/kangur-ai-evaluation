@@ -1,0 +1,41 @@
+Reasoning: The problem states that the sum of the ages in the four corners of the square must equal the sum of the ages in the four circles aligned horizontally. We need to assign the five ages (2, 3, 5, 8, 10, 17) to the circles such that these two sums are the same.
+The sum of all ages is 2 + 3 + 5 + 8 + 10 + 17 = 45.
+Let 'x' be the sum of the ages in the four corners. Then, the horizontal sum is also 'x'. The ages in the center and the far right circle are counted only once. The sum of all numbers must equal 2x + (center) + (rightmost).
+The possible ages that can be placed at the centre must be from the given ages. The possible answer lies between 2 and 17.
+Let the horizontal sum be x.
+Sum of all ages = 2x + Age in the center circle + Age in the rightmost circle = 45
+Since the horizontal sum should be the same, we should make the rightmost value 2. Sum would be 45 = 2x + 2 + center value.
+To figure out what 'x' would be, we have 45-2 = 43 - the central value must be from the list of values.
+43 = 2x + central value.
+Let us try 8 (center), then 43 = 2x + 8; therefore 35=2x. x is not a whole number.
+Let us try 10 (center), then 43 = 2x + 10; therefore 33=2x. x is not a whole number.
+Let us try 5 (center), then 43 = 2x + 5; therefore 38=2x; x=19
+Let us try 3 (center), then 43 = 2x + 3; therefore 40=2x; x=20
+Let us try 17 (center), then 43 = 2x + 17; therefore 26=2x; x=13.
+If x=13 and the center circle = 17, then 4 corners are 2,3,8. 2+3+8+17 = 30 is not equal to 13.
+Let the horizontal sum be 26.
+45=2x+a+b, where a is the center circle, and b is the other.
+If x=26: 45 = 2*26 + center + end value => 45=52 + center + end => No.
+If corner sum is x=13 and horizontal sum is also 13.
+The central value must be 17, since we have to use the numbers.
+Then, the horizontal numbers are 2, 3, 8. The 4 corners are 2+3+8+ x, so 26.
+x+3+5+10 = 26 is not possible
+if the corner sum is 26, then the remaining is 19, not from the numbers given.
+The question says "the sum of the ages in the four corners of the square is equal to the sum of the ages in the four circles aligned horizontally."
+The total sum is 2+3+5+8+10+17 = 45
+If we consider 8 and 17 as the centre, then we need 2 values in horizontal line. 2,3 or 5, 10. But this gives a different sum.
+If center is 5, then 45=2x+5+a, so 40=2x+a, or x=13.
+then we have: 2,3,8, 17 giving sum 30. Not right.
+if we put 10 as a central number, then
+Consider x=26.
+2, 8, 10 , 5 ->25 not right.
+
+If we take the sum as 26.
+the ages can be the corners: 2, 8, 10, 8. 2+8+10+8= 28, not 26, it can be the corners: 2, 3, 10, 17. 2+3+10+17= 32
+So 26 could be right, so 2, 3, 8, 17: corners.
+2+3+8+17=30
+If the sum is 32 = horizontal sum
+2, 3, 10, 17 are ages. The horizontal should be 32. 2+3+10+17=32
+The corners: 2, 3, 10, 17: this also gives 32.
+
+Answer: D)

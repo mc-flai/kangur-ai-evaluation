@@ -1,0 +1,27 @@
+Raonament:
+1. **Identify the shapes:** The shaded area is made up of three triangles: triangle APR, triangle RBQ, and triangle PBR. Also, let's denote the side of the square as 's'.
+2. **Calculate the area of each triangle:**
+    *   Triangle APR: AP = AD/2 = s/2, AR = AD/2= s/2. Area of triangle APR = (1/2) * (s/2) * s = s^2/4
+    *   Triangle RBQ: RB= CD/2 = s/2, BC= s, BQ = BC/2 = s/2. Area of triangle RBQ = (1/2) * (s/2) * s/2 = s^2/8
+    *   Triangle PBR: Area of Triangle PBR = Area of square ABCD - Area of Triangle APR - Area of Triangle RBQ.
+3. **Total Shaded Area:** The total shaded area is the sum of the areas of the three triangles: s^2/8 + s^2/8 + s^2/4 = 7s^2/16. The triangle triangle PBR is an isosceles triangle with legs of length s/2, so it is an isosceles triangle with base s and height s/2. Area of triangle PRB is 1/2 * s * s/2 = s^2/4.
+4. **Total area of square ABCD:** s^2
+5. **Fraction of shaded area:** (Total shaded area) / (Total area of the square) = s^2/4 + s^2/4 + s^2/8= s^2/2 / s^2 = 1/2
+
+I made a mistake in the area calculations. The area of triangle APR is (1/2)(s/2)(s) = s^2/4, the area of triangle RBQ is (1/2)(s/2)(s)=s^2/4. Triangle PBR is half of the square less the small triangles. The side lengths of the shaded area is s/2, s/2.
+The area is then s^2-(2 * (s^2/4))/s^2 = 1-1/2=1/2
+
+The correct calculation is:
+Area(APR) = (1/2) * (s/2) * s = s^2/4
+Area(RBQ) = (1/2) * (s/2) * s = s^2/4
+Area(PBR) = Area(ABC) - Area(PAB)-Area(BCR) = s^2-(s^2/2 - s^2/4)/s^2= s^2 - Area(PAB) - Area(BCR)=  s^2/2. This is also not right. Let us calculate the area of the triangles. Area(APR) = s^2/4. Area(RBQ) = s^2/4. Area PBR = Area square - Area APR - Area RBQ = s^2 - s^2/4 - s^2/4 = s^2/2.
+Area(PAB) = (1/2)s*(s/2) = s^2/4. Then Total Area is the area of the sqare - the two areas = s^2 - s^2/4 - s^2/4 = s^2/2. Triangle BRP: Base = s. Height = s/2, thus area is s^2/4. Area APB = 1/2*AP*AB.
+The area will be s^2- Area APB- Area BQC =  s^2 - (1/2 * (s/2)*s) - (1/2 * (s/2)*s) = s^2 - s^2/4- s^2/4 = (s^2/2) = s^2 - s^2/4- s^2/4. Total shaded area is s^2/4+ s^2/4+ s^2/8 = 5/8 area, the area of the square =  s^2/2. 
+The area of the triangle is =  1/2
+
+Area of triangle APR = (1/2) * (s/2) * s = s^2/4
+Area of triangle RBQ = (1/2) * s * s/2 = s^2/4
+Area of the shared portion. s^2/4 + s^2/4 = s^2/2 = 1/2 * (s/2*s/2) 7/16
+If the area of the triangle is 7/16. Area = s^2 - s^2/4. The fraction of the area will be 7/16
+
+Resposta: D)

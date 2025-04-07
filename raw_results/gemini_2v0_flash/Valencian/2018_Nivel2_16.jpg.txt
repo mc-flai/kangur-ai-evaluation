@@ -1,0 +1,9 @@
+Raonament: Un tren surt cada hora de València cap a Tarragona i viceversa. Un tren tarda 2 hores i 30 minuts en completar el trajecte. Considerem un tren que surt de València.
+- Abans de sortir, veurà els trens que ja estan en camí des de Tarragona i que arribaran a València.
+- Durant el seu viatge de 2 hores i 30 minuts, veurà els trens que surten de Tarragona cada hora. Com que tarda 2.5 hores, veurà els trens que surten a l'hora 0, a l'hora 1, a l'hora 2. A més, quan arribi a Tarragona, haurà vist tots els trens que van sortir abans que ell arribés.
+- Si surt a l'hora 0, durant el seu recorregut veurà el tren que va sortir de Tarragona a la -2, -1. Així veurà el tren que surt a les 0,1,2.
+- El tren que surt a les 0 es creuarà amb els trens que han sortit a -2,-1,0,1,2, a les 0. Les hores de sortida dels altres trens seran -2,-1, 0,1,2.
+- Si l'hora de sortida es 0, arribarà a les 2.5 hores. Els trens que surten de Tarragona es veuran a -2, -1, 0, 1, 2 i el que arribi 3, però aquest no el veurà ja.
+- El número de trens trobats és el tren que va sortir 2 hores abans del nostre tren de València, el que va sortir 1 hora abans del nostre tren de València, el que va sortir exactament al mateix temps que el nostre tren de València, el que surt 1 hora després de la nostra sortida i el que surt 2 hores després de la nostra sortida. Com que ha passat 2.5 hores, tots aquests 5 trens ja han sortit de Tarragona. Per tant, el tren es trobarà amb 5 trens.
+
+Resposta: D)

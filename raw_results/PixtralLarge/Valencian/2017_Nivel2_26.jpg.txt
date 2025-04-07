@@ -1,0 +1,28 @@
+1. **Entendre l'enunciat**: El problema demana emplenar una graella amb números positius de manera que la suma de tres cel·les consecutives (horitzontalment, verticalment o en diagonal) sigui sempre 12. Es pregunta per la suma dels números de la segona fila respectant els números donats.
+
+2. **Suma de tres cel·les amb suma 12**:
+   - Si la suma de tres cel·les consecutives és 12, cada parell de cel·les consecutives ha de sumar 6 perquè la tercera cel·la serà la primera del següent grup de tres cel·les.
+
+3. **Emplenar la graella**:
+   - Comencem per les cel·les conegudes: 5, 6, 1 i 2.
+   - Les cel·les en diagonal des de 5 i 6 a la segona fila són 1 i 2.
+   - Per tant, les cel·les que faltaven s'han de completar per mantenir la suma de 12.
+
+4. **Suma de la segona fila**:
+   - La segona fila conté els valors 5, 6, 1, 2 (ja donats) i les altres cel·les que hem de completar.
+   - En la segona fila, les cel·les restants són les que completen el patró de suma de tres cel·les consecutives.
+
+5. **Càlcul**:
+   - Per a la segona fila:
+     - A la primera columna: 5 (ja donat)
+     - A la segona columna: 6 (ja donat)
+     - A la tercera columna: 1 (ja donat)
+     - A la quarta columna: 2 (ja donat)
+   - Si completem la graella, els valors restants de la segona fila són: 5, 6, 1, 2, 5, 6, 1, 2.
+   - Suma de la segona fila: 5 + 6 + 1 + 2 + 5 + 6 + 1 + 2 = 28.
+
+6. **Conclusió**:
+   - La suma dels números de la segona fila és 36.
+
+Raonament: Hem completat la graella segons les condicions donades i hem sumat els valors de la segona fila.
+Resposta: B)

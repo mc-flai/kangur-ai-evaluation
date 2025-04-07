@@ -1,0 +1,23 @@
+### Raonament:
+La pregunta involucra nombres primos entre 100 i 999. Els nombres donats són \(a\), \(b\), i \(c\), on \(b = 2a + 1\) i \(c = 2b + 1\). Estem buscant quant val \(a\).
+
+1. Comencem amb el nombre més petit, 101, que és un nombre primer.
+2. El següent nombre primer és 103.
+3. El següent nombre primer és 107.
+4. El següent nombre primer és 109.
+5. El següent nombre primer és 113.
+
+Ara, calculem \(b\) i \(c\) per a cada \(a\):
+- Si \(a = 101\), llavors \(b = 2 \times 101 + 1 = 203\) i \(c = 2 \times 203 + 1 = 407\).
+- Si \(a = 103\), llavors \(b = 2 \times 103 + 1 = 207\) i \(c = 2 \times 207 + 1 = 415\).
+- Si \(a = 107\), llavors \(b = 2 \times 107 + 1 = 215\) i \(c = 2 \times 215 + 1 = 431\).
+- Si \(a = 109\), llavors \(b = 2 \times 109 + 1 = 219\) i \(c = 2 \times 219 + 1 = 439\).
+- Si \(a = 113\), llavors \(b = 2 \times 113 + 1 = 227\) i \(c = 2 \times 227 + 1 = 455\).
+
+Comprovem si aquests valors de \(b\) i \(c\) són nombres primers:
+- 203, 207, 215, 219, 227 són tots nombres primers.
+- 407, 415, 431, 439, 455 no són tots nombres primers.
+
+Per tant, el valor correcte de \(a\) és 101, ja que és el primer valor que satisfa la condició de ser un nombre primer i generar valors de \(b\) i \(c\) que també són nombres primers.
+
+### Resposta: B)

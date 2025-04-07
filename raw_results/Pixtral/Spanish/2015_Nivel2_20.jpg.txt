@@ -1,0 +1,25 @@
+La pregunta 20 en la imagen solicita el número natural más pequeño que hace que la suma de los números naturales de 67, 60, 53 y 46 sea divisible por 20.
+
+Para determinar la respuesta, debemos encontrar el residuo de la suma de estos números cuando se divide por 20 y luego determinar qué número natural más pequeño puede agregarse para que el resultado sea divisible por 20.
+
+1. Calcula la suma de los números: 67 + 60 + 53 + 46.
+   \[
+   67 + 60 = 127 \\
+   127 + 53 = 180 \\
+   180 + 46 = 226
+   \]
+
+2. Encuentra el residuo de 226 al dividirlo por 20:
+   \[
+   226 \div 20 = 11 \text{ con un residuo de } 6
+   \]
+
+3. Para que la suma sea divisible por 20, necesitamos agregar un número que haga que el residuo sea 0. El residuo actual es 6, por lo que necesitamos agregar 14 para que el residuo sea 0 (ya que 6 + 14 = 20).
+
+4. El número natural más pequeño que podemos agregar es 14.
+
+Por lo tanto, la respuesta correcta es la opción que representa el número 14.
+
+Razonamiento: Calculamos la suma de los números dados y encontramos el residuo al dividirlo por 20. Luego, determinamos el número más pequeño que necesitamos agregar para que el residuo sea 0, lo que hace que la suma sea divisible por 20.
+
+Respuesta: C

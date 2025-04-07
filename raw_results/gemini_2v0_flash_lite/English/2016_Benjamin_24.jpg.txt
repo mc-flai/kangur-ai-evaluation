@@ -1,0 +1,11 @@
+Reasoning: Let the first number be ABC and the second number be DEF. We know that A, B, C, D, E, and F are six different digits. We are given that D = 2 * C. We want to minimize the sum.
+
+1.  Since D = 2 \* C, and 0 cannot be the first digit of a number, the smallest value for C is 1, making D = 2.
+2.  To minimize the sum, we want small values for A, B, E and F. Since 0 cannot be the first digit, the smallest possible value for A is 3, B is 0.
+3.  Now we know that the last digit of the first number is 1 (C), which will make the first digit of the second number 2 (D).
+4.  So our two numbers will be 301 and 2EF.
+5.  The remaining digits are 4, 5, 6, 7, 8, 9 and the other digit of the numbers must come from these numbers. We want to use the smallest available digits for the remaining digits. E and F will be made from the remaining unused digits. The remaining digits available are 4, 5, 6, 7, 8, and 9. The smallest digits for the second number are 4 and 5, so let E be 4, F be 5.
+6.  Therefore, our two numbers are 301 and 245.
+7.  Sum is 301 + 245 = 546.
+
+Answer: D)

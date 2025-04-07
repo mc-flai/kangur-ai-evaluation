@@ -1,0 +1,27 @@
+
+La pregunta 29 trata sobre un círculo con un radio de 8 cm que se divide en anillos concéntricos iguales. El círculo interior tiene un radio de 2 cm, y se pregunta cuántos anillos hay.
+
+Para resolver esto, necesitamos calcular el área del círculo exterior y el área del círculo interior, y luego determinar cuántos anillos concéntricos iguales se pueden formar entre ellos.
+
+1. **Área del círculo exterior**:
+   - Radio del círculo exterior = 8 cm
+   - Fórmula del área de un círculo: \( A = \pi r^2 \)
+   - \( A_{\text{exterior}} = \pi \times (8)^2 = 64\pi \)
+
+2. **Área del círculo interior**:
+   - Radio del círculo interior = 2 cm
+   - Fórmula del área de un círculo: \( A = \pi r^2 \)
+   - \( A_{\text{interior}} = \pi \times (2)^2 = 4\pi \)
+
+3. **Diferencia de áreas**:
+   - Diferencia de áreas = \( A_{\text{exterior}} - A_{\text{interior}} = 64\pi - 4\pi = 60\pi \)
+
+4. **Anillos concéntricos**:
+   - Cada anillo tiene un área igual a la diferencia de áreas dividida por el número de anillos.
+   - Si cada anillo tiene un área de \( \frac{60\pi}{n} \), donde \( n \) es el número de anillos, entonces cada anillo debe tener un área de \( 4\pi \) (dado que \( 4\pi \) es el área de un círculo con radio 2 cm).
+   - Por lo tanto, \( \frac{60\pi}{n} = 4\pi \)
+   - \( n = \frac{60\pi}{4\pi} = 15 \)
+
+Por lo tanto, el número de anillos concéntricos iguales es 15.
+
+**Respuesta**: E)

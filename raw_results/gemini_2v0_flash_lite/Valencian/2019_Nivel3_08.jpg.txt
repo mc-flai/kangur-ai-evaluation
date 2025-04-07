@@ -1,0 +1,30 @@
+Raonament:
+La pregunta ens diu que hi ha cinc zeros i sis vuit. Això vol dir que hem de buscar quin dels nombres donats pot tenir cinc zeros i sis vuit en la seva numeració. El nombre de cada pàgina s'escriu amb xifres.
+Ara, analitzem les opcions:
+A) 48: no té cap 0 i cap 8.
+B) 58: no té cap 0 i un 8.
+C) 60: té un 0 i cap 8.
+D) 68: té un 0 i un 8.
+E) 88: no té cap 0 i dos 8.
+Com a punt de partida, tenim que hem de contar el 0 i el 8 en les pàgines.
+Com que necessitem cinc 0, les opcions A, B, D, E són descartades.
+Aleshores, mirem quines són les pàgines on apareixen el 8.
+Entre l'1 i el 88, tenim el 8, 18, 28, 38, 48, 58, 68, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89.
+Aquests són els números que tenen el 8: 8, 18, 28, 38, 48, 58, 68, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, on tenim el 8 usat 20 cops.
+Hem de buscar el nombre on tenim cinc 0 i sis 8. Els 8 són en les pàgines: 8, 18, 28, 38, 48, 58, 68, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88 i 89.
+Els 0 apareixen en: 10, 20, 30, 40, 50, 60, 70, 80, 90.
+Si provem amb 88, tenim: 8, 18, 28, 38, 48, 58, 68, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89.
+El 0 apareix en: 10, 20, 30, 40, 50, 60, 70, 80. En aquest cas, el vuit apareixeria més vegades.
+Llavors, només ens queda la opció D.
+Si comptem els 8 fins al 68:
+8, 18, 28, 38, 48, 58, 68. Hi ha 7 vuit.
+Comptem els 0 fins al 68:
+10, 20, 30, 40, 50, 60. Hi ha 6 zeros. No funciona.
+
+Si provam amb 60, 10, 20, 30, 40, 50, 60.
+8, 18, 28, 38, 48, 58.
+Com que tenim 60, el 60 té un 0, i el 10, 20, 30, 40, 50 fan un total de 6.
+En canvi, els 8 són: 8, 18, 28, 38, 48, 58. Total 6.
+Aleshores la resposta és la C.
+
+Resposta: C)

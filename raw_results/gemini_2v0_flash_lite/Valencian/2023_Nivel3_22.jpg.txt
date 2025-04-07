@@ -1,0 +1,7 @@
+Raonament: El problema demana el mínim nombre de quadrats per descompondre un rectangle de 6x7. La solució més eficient passa per subdividir el rectangle en quadrats de la major mida possible. En aquest cas, es pot dividir en 3 quadrats de 6x6 i un quadrat de 1x7, a continuació, el quadrat de 1x7 es pot dividir en 7 quadrats de 1x1. No obstant això, aquesta solució requereix molts quadrats.
+Una solució més eficient es pot trobar mitjançant un mètode iteratiu. Podem començar amb el quadrat més gran possible, un quadrat de 6x6. Després ens queda un rectangle de 1x6. Aquest rectangle de 1x6 es pot dividir en 6 quadrats de 1x1. D'aquesta manera necessitem 1 + 6 = 7 quadrats. Això no és el mínim.
+
+Una altra forma de fer-ho: dividim el rectangle 7x6 en quadrats de 4x4. En tenim 2 quadrats de 4x4. Ens sobra un rectangle de 3x4 i un de 7x2. Dividim el rectangle de 3x4 en un de 3x3 i un de 1x3. Dividim el rectangle de 7x2 en un de 2x2 i un de 5x2. La idea és continuar dividint els rectangles restants en quadrats. La solució òptima és 3 quadrats. Es pot aconseguir construint un rectangle de 6x7 dividint-lo en un quadrat de 4x4, un de 3x3, i 4 quadrats de 2x2, cosa que dóna un total de 8 quadrats.
+El nombre mínim de quadrats per cobrir un rectangle 6x7 és 3.
+
+Resposta: E)

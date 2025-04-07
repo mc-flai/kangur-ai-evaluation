@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de determinar com varia l'àrea d'un triangle rectangle si un dels seus catets augmenta un 20% i l'altre catet disminueix un 20%.
+
+Raonament:
+
+1. Suposem que els catets originals del triangle rectangle són \(a\) i \(b\).
+2. L'àrea original del triangle és \(A = \frac{1}{2}ab\).
+3. Si un catet augmenta un 20%, el nou catet serà \(1.2a\).
+4. Si l'altre catet disminueix un 20%, el nou catet serà \(0.8b\).
+5. La nova àrea del triangle és \(A' = \frac{1}{2}(1.2a)(0.8b)\).
+6. Simplifiquem l'expressió de la nova àrea:
+   \[
+   A' = \frac{1}{2}(1.2a)(0.8b) = \frac{1}{2}(0.96ab) = 0.48ab
+   \]
+7. L'àrea original és \(A = \frac{1}{2}ab\).
+8. Comparant les àrees, tenim:
+   \[
+   A' = 0.48ab \quad \text{i} \quad A = 0.5ab
+   \]
+9. La nova àrea és el 96% de l'àrea original, ja que:
+   \[
+   A' = 0.96A
+   \]
+10. Per tant, l'àrea disminueix un 4%.
+
+Resposta: D) Disminueix en un 4%.

@@ -1,0 +1,50 @@
+
+El problema nos pide que verifiquemos si la ecuación \( p^2 - 2p + q^2 - 2q = 15 - 2pq \) tiene soluciones positivas para \( p \) y \( q \), y luego calculemos \( p + q \).
+
+Para resolver esto, primero simplificamos la ecuación:
+
+\[ p^2 - 2p + q^2 - 2q = 15 - 2pq \]
+
+Reorganizando los términos, obtenemos:
+
+\[ p^2 - 2p + q^2 - 2q + 2pq = 15 \]
+
+Ahora, tratamos de agrupar los términos:
+
+\[ p^2 + q^2 + 2pq - 2p - 2q = 15 \]
+
+Observamos que el lado izquierdo de la ecuación puede ser reescrito como:
+
+\[ (p + q)^2 - 2p - 2q = 15 \]
+
+Ahora, reorganizamos la ecuación para aislar \( (p + q)^2 \):
+
+\[ (p + q)^2 - 2(p + q) = 15 \]
+
+Esto es una ecuación cuadrática en \( p + q \):
+
+\[ (p + q)^2 - 2(p + q) - 15 = 0 \]
+
+Para resolver esta ecuación cuadrática, usamos la fórmula cuadrática \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), donde \( a = 1 \), \( b = -2 \), y \( c = -15 \):
+
+\[ p + q = \frac{-(-2) \pm \sqrt{(-2)^2 - 4 \cdot 1 \cdot (-15)}}{2 \cdot 1} \]
+
+\[ p + q = \frac{2 \pm \sqrt{4 + 60}}{2} \]
+
+\[ p + q = \frac{2 \pm \sqrt{64}}{2} \]
+
+\[ p + q = \frac{2 \pm 8}{2} \]
+
+Esto nos da dos soluciones posibles:
+
+\[ p + q = \frac{10}{2} = 5 \]
+
+\[ p + q = \frac{-6}{2} = -3 \]
+
+Dado que \( p \) y \( q \) deben ser números positivos, descartamos la solución \( p + q = -3 \). Por lo tanto, la solución válida es:
+
+\[ p + q = 5 \]
+
+Por lo tanto, la respuesta correcta es:
+
+Respuesta: B)

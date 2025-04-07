@@ -1,0 +1,23 @@
+Raonament: The information in the image is:
+
+* A question about the sum of the divisors of 1024 (including itself) and the product of all divisors of 1024.
+* The question is multiple-choice, with five options:
+	+ A) $(a-1)^5= b$
+	+ B) $(a+1)^5= b$
+	+ C) $a^5= b$
+	+ D) $a^5-1= b$
+	+ E) $a^5+1= b$
+* The task is to choose the correct option.
+
+The question asks about the sum of the divisors of 1024 and its product. We need to find the value of `b` that satisfies this condition.
+
+The sum of divisors of `n` is denoted by `σ(n)` and the product of divisors of `n` is denoted by `π(n)`. We need to find `a` such that `σ(1024) + π(1024) = b`.
+
+First, let's calculate the sum and product of divisors of 1024:
+
+- `σ(1024)`: The divisors of 1024 are 1, 2, 4, 8, 16, 32, 64, 128, 256, and 1024. The sum of these divisors is `σ(1024) = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 + 256 + 1024 = 1535`.
+- `π(1024)`: The divisors of 1024 are 1, 2, 4, 8, 16, 32, 64, 128, 256, and 1024. The product of these divisors is `π(1024) = exp(5 \* (1 + 1)) = exp(2 \* 5) = 1024`.
+
+Now, we need to find `a` such that `1535 + 1024 = b`. Therefore, `a` equals `1559` in order to be able to get `1333` from `a^5 + 1`.
+
+Resposta: C)

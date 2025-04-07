@@ -1,0 +1,17 @@
+Raonament: La pregunta és quin és el menor nombre de quadrats que es poden tallar d'un rectangle de 6x7.
+Podem començar amb un quadrat de 6x6. Això ens deixa un rectangle de 1x6. Podem dividir-ho en 6 quadrats de 1x1. Així, tenim 1 + 6 = 7 quadrats.
+Si comencem amb un quadrat de 4x4, ens deixa un rectangle de 2x7 i un rectangle de 4x3.
+Podem posar dos quadrats de 3x3 per tallar el rectangle de 4x3. Això ens deixa un rectangle de 3x1 i un rectangle de 2x7. Per tant, fins ara tenim tres quadrats: 4x4, 3x3, 3x3. Llavors per a cobrir el rectangle de 2x7, posem un quadrat de 2x2 (1), ara tenim un rectangle 2x5. Podem afegir un quadrat de 2x2 (2) i ens sobra un rectangle de 2x3, llavors posem un quadrat de 2x2 (3) i ens sobra un rectangle de 2x1. Per cobrir el rectangle de 3x1, podem posar un quadrat de 1x1 (1), un quadrat de 1x1 (2) i un quadrat de 1x1 (3) per a cobrir el rectangle de 2x1 afegim un quadrat de 1x1 (4) i un quadrat de 1x1 (5). En total, tenim 1 + 2 + 3 + 5 = 11 quadrats. Aquesta no és la millor.
+Posem un quadrat de 6x6, tenim un rectangle de 1x6. Podem dividir-lo en quadrats de 1x1, de manera que en tenim 6. Així que tenim 1 + 6 = 7 quadrats.
+Podem intentar amb un quadrat de 5x5. Això ens deixa un rectangle de 1x5 i un rectangle de 5x2. El rectangle de 5x2 es pot dividir en dos quadrats de 2x2 i un rectangle de 1x2. EL rectangle de 1x5 es pot dividir en 5 quadrats de 1x1. El rectangle de 1x2 es pot dividir en 2 quadrats de 1x1. Per tant, tenim 1 + 2 + 5 + 2 = 10 quadrats. No és bo.
+
+Es pot tallar un rectangle de 6x7 en 6 quadrats de 1x1 i 7 quadrats de 1x1, de manera que 42 quadrats. No es tracta del nombre mínim de quadrats. El rectangle es pot dividir en un quadrat de 6x6 i un rectangle de 1x6, que després es pot dividir en sis quadrats de 1x1. En total, en tenim 7.
+
+Raonament: Tallar un rectangle de 6x7 en el menor nombre possible de quadrats dona 6 quadrats de 1x1.
+- Un quadrat de 6x6 queda un rectangle de 1x6, i aquest rectangle és divisible per sis quadrats de 1x1. Això dona 7.
+- Si talles un rectangle de 4x4 queden un rectangle de 3x4, i un rectangle de 7x2.
+
+Si es talla el quadrat més gran possible de 6x6, queda un rectangle de 1x6. Aquest rectangle es pot dividir en 6 quadrats de mida 1x1. Així que en total hi hauria 1 + 6 = 7 quadrats.
+Sembla la millor opció fins ara.
+
+Resposta: B)

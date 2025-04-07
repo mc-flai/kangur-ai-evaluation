@@ -1,0 +1,16 @@
+Reasoning:
+The problem asks to compare the lengths of the three curves $a$, $b$, and $c$.
+Curve $a$ consists of straight line segments. It has horizontal length of 4 grid units and vertical length of 2 grid units.
+Curve $b$ also consists of straight line segments and arcs. It has horizontal length of 4 grid units and consists of two half circles with radius 1 grid unit. Therefore, the vertical length is twice $\pi$, i.e. $2\pi$.
+Curve $c$ consists of straight line segments. It has horizontal length of 4 grid units and vertical length of 2 grid units.
+
+Let us estimate the lengths of curves $a$, $b$ and $c$.
+Curve $a$ has length $4 + 2 + 2 = 8$ units.
+Curve $b$ has length $4 + 2 \times \pi \times 1 = 4 + 2 \pi \approx 4 + 2 \times 3.14 = 4 + 6.28 = 10.28$ units.
+Curve $c$ has length $4 + 2 \times \sqrt{1+1} + 2 = 4 + 2\sqrt{2} \approx 4 + 2 \times 1.41 = 4 + 2.82 = 6.82$ units.
+
+Thus, $c < a < b$.
+
+Reasoning: By comparing the lengths of the curved lines, we can see that $c < a < b$.
+
+Answer: E)

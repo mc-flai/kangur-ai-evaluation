@@ -1,0 +1,26 @@
+
+La pregunta 16 nos pide determinar cuántos estudiantes hay en una clase, dado que cada estudiante tiene exactamente 10 amigos que no son amigos entre sí y exactamente 6 amigos que son amigos entre sí.
+
+Para resolver esto, consideremos el modelo de grafo donde cada estudiante es un vértice y cada amistad es una arista. Dado que cada estudiante tiene 10 amigos no amigos entre sí, esto significa que hay 10 vértices conectados directamente a cada estudiante sin estar conectados entre sí. Además, cada estudiante tiene 6 amigos que son amigos entre sí.
+
+Para encontrar el número total de estudiantes, podemos usar la fórmula de mano de shake (agitar manos) para grafos bipartitos. En un grafo bipartito, cada vértice tiene un grado par. Aquí, cada estudiante tiene un grado de 16 (10 amigos no amigos + 6 amigos amigos).
+
+La fórmula de mano de shake para grafos bipartitos es:
+\[ 2m = n \times d \]
+donde \( m \) es el número de aristas, \( n \) es el número de vértices y \( d \) es el grado de cada vértice.
+
+Dado que cada estudiante tiene 16 amigos, el número total de estudiantes \( n \) se puede encontrar usando:
+\[ 2m = n \times 16 \]
+
+Para encontrar \( m \), notamos que cada grupo de 10 amigos no amigos y 6 amigos amigos se repite para cada estudiante. Por lo tanto, el número total de estudiantes \( n \) es:
+\[ n = \frac{2m}{16} \]
+
+Dado que \( m \) es el número de estudiantes, podemos simplificar:
+\[ n = \frac{2n \times 16}{16} \]
+\[ n = 2n \]
+
+Esto implica que \( n = 10 \).
+
+Por lo tanto, el número total de estudiantes en la clase es 10.
+
+**Respuesta: A)**

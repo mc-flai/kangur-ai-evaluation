@@ -1,0 +1,12 @@
+Raonament: Si Susanna fa 7 talls paral·lels als costats d'un pastís rectangular, aquests talls poden ser verticals o horitzontals. Per maximitzar el nombre de trossos, els talls s'han de fer de manera que tallin tot el pastís d'extrem a extrem. Si tots els talls fossin en una sola direcció (per exemple, tots verticals), el nombre de trossos seria 8 (7 talls creuen el pastís). Si fes alguns talls verticals i alguns horitzontals, podríem tenir:
+* 1 tall en una direcció i 6 talls en l'altra: (1+1) * (6+1) = 2 * 7 = 14 trossos.
+* 2 talls en una direcció i 5 talls en l'altra: (2+1) * (5+1) = 3 * 6 = 18 trossos.
+* 3 talls en una direcció i 4 talls en l'altra: (3+1) * (4+1) = 4 * 5 = 20 trossos.
+
+El nombre de trossos resultant sempre es pot calcular com (x+1)(y+1), on x+y=7. L'únic nombre de trossos que no és possible obtenir és 12, ja que no podem trobar dos enters positius x i y, tals que x+y=7 i (x+1)(y+1) = 12. Les possibles combinacions de talls serien:
+* (1+1) * (6+1) = 14
+* (2+1) * (5+1) = 18
+* (3+1) * (4+1) = 20
+* (0+1) * (7+1) = 8
+
+Resposta: B)

@@ -1,0 +1,47 @@
+Raonament:
+Hem de trobar números de tres xifres (de 100 a 999) que, en eliminar la primera xifra, donin un quadrat perfecte, i en eliminar l'última xifra, també donin un quadrat perfecte.
+
+1.  **Provar les unitats**: El nombre format per les dues últimes xifres ha de ser un quadrat perfecte. Això vol dir que pot ser 16, 25, 36, 49, 64, 81, 00, 01, 04, 09.
+2.  **Provar les desenes**: Si el número format per les dues primeres xifres és un quadrat perfecte, les possibilitats per el número de tres xifres son:
+    *   164, en treure la primera xifra (1) tenim 64 (8^2). En treure la última (4), tenim 16 (4^2).
+    *   256, en treure la primera xifra (2) tenim 56 (no es quadrat perfecte).
+    *   361, en treure la primera xifra (3) tenim 61 (no es quadrat perfecte).
+    *   49, caldria una tercera xifra que formi un quadrat perfecte, per exemple 49. Si fos 494 no funciona.
+    *   144, en treure la primera xifra (1) tenim 44 (no es quadrat perfecte).
+    *   625, en treure la primera xifra (6) tenim 25 (5^2). En treure la última (5), tenim 62 (no es quadrat perfecte).
+    *   81, caldria una tercera xifra que formi un quadrat perfecte, per exemple 81, si fos 819 no funciona.
+    *   100, en treure la primera xifra (1) tenim 00 (0^2). En treure la última (0), tenim 10 (no es quadrat perfecte).
+    *   400, en treure la primera xifra (4) tenim 00 (0^2). En treure la última (0), tenim 40 (no es quadrat perfecte).
+    *   900, en treure la primera xifra (9) tenim 00 (0^2). En treure la última (0), tenim 90 (no es quadrat perfecte).
+    *   100, en treure la primera xifra (1) tenim 00 (0^2). En treure la última (0), tenim 10 (no es quadrat perfecte).
+    *   121, en treure la primera xifra (1) tenim 21 (no es quadrat perfecte).
+    *   144, en treure la primera xifra (1) tenim 44 (no es quadrat perfecte).
+    *   169, en treure la primera xifra (1) tenim 69 (no es quadrat perfecte).
+    *   196, en treure la primera xifra (1) tenim 96 (no es quadrat perfecte).
+    *   225, en treure la primera xifra (2) tenim 25 (5^2). En treure la última (5), tenim 22 (no es quadrat perfecte).
+    *   256, en treure la primera xifra (2) tenim 56 (no es quadrat perfecte).
+    *   289, en treure la primera xifra (2) tenim 89 (no es quadrat perfecte).
+    *   324, en treure la primera xifra (3) tenim 24 (no es quadrat perfecte).
+    *   361, en treure la primera xifra (3) tenim 61 (no es quadrat perfecte).
+    *   400, en treure la primera xifra (4) tenim 00 (0^2). En treure la última (0), tenim 40 (no es quadrat perfecte).
+    *   441, en treure la primera xifra (4) tenim 41 (no es quadrat perfecte).
+    *   484, en treure la primera xifra (4) tenim 84 (no es quadrat perfecte).
+    *   529, en treure la primera xifra (5) tenim 29 (no es quadrat perfecte).
+    *   576, en treure la primera xifra (5) tenim 76 (no es quadrat perfecte).
+    *   625, en treure la primera xifra (6) tenim 25 (5^2). En treure la última (5), tenim 62 (no es quadrat perfecte).
+    *   676, en treure la primera xifra (6) tenim 76 (no es quadrat perfecte).
+    *   729, en treure la primera xifra (7) tenim 29 (no es quadrat perfecte).
+    *   784, en treure la primera xifra (7) tenim 84 (no es quadrat perfecte).
+    *   841, en treure la primera xifra (8) tenim 41 (no es quadrat perfecte).
+    *   900, en treure la primera xifra (9) tenim 00 (0^2). En treure la última (0), tenim 90 (no es quadrat perfecte).
+    *   961, en treure la primera xifra (9) tenim 61 (no es quadrat perfecte).
+
+164: 64 i 16
+256: 56 i 25
+625: 25 i 62
+256: 56 i 25
+625: 25 i 62
+
+Hi ha dos nombres que compleixen la condició: 164 i 625.
+
+Resposta: A)

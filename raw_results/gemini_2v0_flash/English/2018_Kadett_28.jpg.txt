@@ -1,0 +1,21 @@
+Reasoning:
+Let $n$ be the number of jumps Viola has made so far.
+The total distance jumped so far is $3.80n$.
+After the next jump of 3.99m, the mean increases to 3.81m, and the number of jumps is now $n+1$. So, we have:
+$\frac{3.80n + 3.99}{n+1} = 3.81$
+$3.80n + 3.99 = 3.81n + 3.81$
+$3.99 - 3.81 = 3.81n - 3.80n$
+$0.18 = 0.01n$
+$n = \frac{0.18}{0.01} = 18$
+So Viola has made 18 jumps with an average of 3.80m, and then one jump of 3.99m. Now, we have 19 jumps.
+
+Let $x$ be the length of the next jump. Then we want the mean of the $19+1=20$ jumps to be 3.82m.
+The total distance jumped after the next jump is $18(3.80) + 3.99 + x = 68.4 + 3.99 + x = 72.39 + x$
+$\frac{72.39 + x}{20} = 3.82$
+$72.39 + x = 20(3.82)$
+$72.39 + x = 76.4$
+$x = 76.4 - 72.39$
+$x = 4.01$
+The length of her next jump must be 4.01 m.
+
+Answer: C)

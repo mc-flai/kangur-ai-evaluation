@@ -1,0 +1,68 @@
+La pregunta 28 en la imagen es:
+
+"Si |x| + x + y = 5 y x + |y| - y = 10, ¿cuál es el valor de x + y?"
+
+Para resolver esto, necesitamos analizar las ecuaciones dadas y encontrar los valores de x e y que satisfacen ambas ecuaciones.
+
+1. Primero, consideremos la primera ecuación:
+   \[
+   |x| + x + y = 5
+   \]
+   Esta ecuación implica que tanto x como y deben ser valores que, cuando se suman a la magnitud de x y se suma a y, dan como resultado 5.
+
+2. Ahora, consideremos la segunda ecuación:
+   \[
+   x + |y| - y = 10
+   \]
+   Esta ecuación implica que la magnitud de y debe ser restada de y y sumada a x para dar como resultado 10.
+
+3. Para resolver estas ecuaciones, probemos diferentes valores de x e y que satisfagan ambas ecuaciones.
+
+   - Si tomamos x = 1:
+     \[
+     |1| + 1 + y = 5 \implies 2 + y = 5 \implies y = 3
+     \]
+     Luego, verifiquemos la segunda ecuación:
+     \[
+     1 + |3| - 3 = 1 + 3 - 3 = 1 \neq 10
+     \]
+     Esto no funciona.
+
+   - Si tomamos x = 2:
+     \[
+     |2| + 2 + y = 5 \implies 4 + y = 5 \implies y = -1
+     \]
+     Luego, verifiquemos la segunda ecuación:
+     \[
+     2 + |-1| - (-1) = 2 + 1 + 1 = 4 \neq 10
+     \]
+     Esto no funciona.
+
+   - Si tomamos x = 3:
+     \[
+     |3| + 3 + y = 5 \implies 6 + y = 5 \implies y = -1
+     \]
+     Luego, verifiquemos la segunda ecuación:
+     \[
+     3 + |-1| - (-1) = 3 + 1 + 1 = 5 \neq 10
+     \]
+     Esto no funciona.
+
+   - Si tomamos x = 4:
+     \[
+     |4| + 4 + y = 5 \implies 8 + y = 5 \implies y = -3
+     \]
+     Luego, verifiquemos la segunda ecuación:
+     \[
+     4 + |-3| - (-3) = 4 + 3 + 3 = 10
+     \]
+     Esto funciona.
+
+Por lo tanto, los valores de x e y que satisfacen ambas ecuaciones son x = 4 y y = -3. Sumando estos valores:
+\[
+x + y = 4 + (-3) = 1
+\]
+
+Razonamiento: Al probar diferentes valores de x e y, encontramos que x = 4 y y = -3 satisfacen ambas ecuaciones. Sumando estos valores, obtenemos el valor de x + y.
+
+Respuesta: A)

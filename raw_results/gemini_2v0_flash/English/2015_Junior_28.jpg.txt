@@ -1,0 +1,4 @@
+Reasoning: A cube has 12 edges. If the ant walks each edge exactly once, the total length would be 12. However, since each vertex has degree 3, there are 8 vertices with an odd degree. In order to traverse the cube and return to the starting point, an Eulerian circuit must be constructed. Since there are 8 vertices of odd degree, we need to repeat 4 edges.
+So the minimum possible length of her walk = 12 + 4 = 16.
+
+Answer: D)

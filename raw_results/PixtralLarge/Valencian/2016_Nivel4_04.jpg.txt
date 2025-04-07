@@ -1,0 +1,13 @@
+**Raonament**: Per resoldre aquest problema, hem de seguir els passos següents:
+
+1. Inicialment, tenim un full de paper sencer. Això és 1 tros.
+2. Quan trenquem aquest full en tres trossos més petits, tenim 3 trossos addicionals, fent un total de 4 trossos (1 tros inicial + 3 trossos més petits).
+3. Després, tornem a trencar cadascun d'aquests tres trossos en tres trossos més petits. Cada tros es converteix en 3 trossos més petits.
+
+Per calcular el nombre total de trossos després del segon trencament:
+- Cada un dels 3 trossos inicials es converteix en 3 trossos més petits.
+- Això significa que cada tros es multiplica per 3, resultant en 3 * 3 = 9 trossos addicionals.
+- Però, com que cada tros dels 3 trossos inicials es converteix en 3 trossos més petits, hem de sumar els trossos inicials als nous trossos.
+- Així, tenim 3 trossos inicials que es converteixen en 9 trossos més petits, fent un total de 3 + 9 = 12 trossos.
+
+**Resposta**: B)

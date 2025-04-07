@@ -1,0 +1,52 @@
+Raonament: Inicialment, comptem els pardals que veu cada pardal:
+- 1 veu 0
+- 2 veu 1
+- 3 veu 2
+- 4 veu 1
+- 5 veu 0
+El nombre total de piulades inicials és 0 + 1 + 2 + 1 + 0 = 4.
+
+Després que un pardal canviï de direcció, comptem les piulades i hem de trobar quin pardal canviant de direcció augmenta el total de piulades.
+
+Suposem que el pardal 3 canvia de direcció.
+- 1 veu 1
+- 2 veu 2
+- 3 veu 0
+- 4 veu 1
+- 5 veu 0
+El nombre total de piulades en aquest cas seria 1+2+0+1+0 = 4.
+
+Si suposem que el pardal 2 canvia de direcció:
+- 1 veu 2
+- 2 veu 0
+- 3 veu 1
+- 4 veu 0
+- 5 veu 0
+Total de piulades = 2 + 0 + 1 + 0 + 0 = 3
+
+Si suposem que el pardal 4 canvia de direcció:
+- 1 veu 0
+- 2 veu 0
+- 3 veu 1
+- 4 veu 0
+- 5 veu 2
+Total de piulades = 0 + 0 + 1 + 0 + 2 = 3
+
+Suposem que el pardal 1 gira.
+- 1 veu 2
+- 2 veu 1
+- 3 veu 2
+- 4 veu 1
+- 5 veu 0
+Total de piulades: 2+1+2+1+0 = 6
+
+Suposem que el pardal 5 gira.
+- 1 veu 0
+- 2 veu 1
+- 3 veu 2
+- 4 veu 1
+- 5 veu 2
+Total de piulades: 0+1+2+1+2 = 6
+El nombre total de piulades ha d'augmentar, de manera que el pardal que s'ha girat podria ser l'1 o el 5. Però no podem determinar quin dels dos. Per tant la resposta correcta és E.
+
+Resposta: E)

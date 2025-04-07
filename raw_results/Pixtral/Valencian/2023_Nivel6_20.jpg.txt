@@ -1,0 +1,39 @@
+
+La pregunta 20 solicita determinar el valor de \( n \) para el que la suma de los números naturales desde 1 hasta \( n \) es igual a los valores dados en las opciones.
+
+Para resolver esto, utilizamos la fórmula para la suma de los primeros \( n \) números naturales:
+\[ S = \frac{n(n + 1)}{2} \]
+
+Dado que la suma debe ser igual a \( -\frac{2}{6 - n} \), establecemos la ecuación:
+\[ \frac{n(n + 1)}{2} = -\frac{2}{6 - n} \]
+
+Multiplicamos ambos lados por \( 2(6 - n) \) para eliminar el denominador:
+\[ n(n + 1)(6 - n) = -4 \]
+
+Expandimos el lado izquierdo:
+\[ n^2(6 - n) + n(6 - n) = -4 \]
+\[ 6n^2 - n^3 + 6n - n^2 = -4 \]
+\[ -n^3 + 5n^2 + 6n - 4 = 0 \]
+
+Para resolver esta ecuación cúbica, probamos los valores dados en las opciones.
+
+Prueba con \( n = 12 \):
+\[ -12^3 + 5(12^2) + 6(12) - 4 = -1728 + 720 + 72 - 4 = -990 \]
+
+Prueba con \( n = 13 \):
+\[ -13^3 + 5(13^2) + 6(13) - 4 = -2197 + 845 + 78 - 4 = -1368 \]
+
+Prueba con \( n = 15 \):
+\[ -15^3 + 5(15^2) + 6(15) - 4 = -3375 + 1125 + 90 - 4 = -2164 \]
+
+Prueba con \( n = 17 \):
+\[ -17^3 + 5(17^2) + 6(17) - 4 = -4913 + 1445 + 102 - 4 = -3464 \]
+
+Prueba con \( n = 19 \):
+\[ -19^3 + 5(19^2) + 6(19) - 4 = -6859 + 1710 + 114 - 4 = -5039 \]
+
+Ninguno de estos valores coincide con los valores dados en las opciones, lo que indica un error en la interpretación de la pregunta o en la resolución de la ecuación cúbica. Sin embargo, dado que la pregunta parece estar mal formulada o mal planteada, no podemos proporcionar una respuesta correcta basada en los valores dados.
+
+Raonament: La ecuación dada no tiene una solución real que coincida con los valores proporcionados en las opciones. La pregunta parece estar mal planteada o mal formulada.
+
+Resposta: No s'aplica.

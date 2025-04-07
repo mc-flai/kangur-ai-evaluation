@@ -1,0 +1,11 @@
+Reasoning: 
+
+To determine the minimum number of bridges needed to close off so that there is no connection from A to B anymore, we must understand what bridges are and their role in a graph. A bridge in graph theory is an edge that, when removed, increases the number of disconnected components in the graph. 
+
+Looking at the given diagram, we can identify the bridges by looking for edges that do not belong to any cycle. These are the edges whose removal would increase the number of connected components in the graph. 
+
+In this particular diagram, there are three bridges connecting islands (A, B, and C), as removing any one of these bridges would disconnect the graph and create separate components.
+
+Therefore, to close off all connections from A to B and make them disconnected, we need to be careful not to touch any of the bridges. 
+
+Answer: D) 4

@@ -1,0 +1,18 @@
+To solve this problem, let's analyze the given data and find the number of pairs that consist of two knaves.
+
+**Given Data**:
+- There are 21 knights (who always tell the truth) and 2000 knaves (who always lie).
+- A wizard divided these 2021 people into 1010 pairs.
+- 2000 people were called knights, and 20 people were called knaves.
+
+**Analysis**:
+- If a pair consists of two knaves, each knave would call the other a knight (since they lie). Therefore, both individuals in such a pair would be referred to as knights.
+- Since 2000 people were called knights, the number of pairs where both individuals are knaves must result in 2000 people being called knights.
+- Since each pair consists of two people, the number of these pairs would be half of 2000, which is 1000.
+
+**Conclusion**:
+- Therefore, there are 1000 pairs of two knaves.
+
+Reasoning: Since 2000 people were called knights and each pair involves two people, the number of pairs with both individuals as knaves is half of 2000, which results in 1000 pairs.
+
+Answer: E).

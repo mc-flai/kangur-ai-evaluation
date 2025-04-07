@@ -1,0 +1,14 @@
+Raonament:
+1.  **Entendre els requisits**: La fracció ha de ser menor que 1/3. La suma del numerador i el denominador ha de ser menor o igual a 103. Volem trobar la fracció més gran possible que satisfaci aquestes condicions.
+2.  **Provar les opcions**: Comencem provant les opcions i determinant si compleixen les condicions:
+    *   **A) 27/77:** 27 + 77 = 104 (major que 103, no és vàlid).
+    *   **B) 26/77:** 26 + 77 = 103 (menor o igual a 103). 26/77 < 1/3?  26 * 3 = 78, 77 < 78, per tant, 26/77 < 1/3.
+    *   **C) 25/76:** 25 + 76 = 101 (menor o igual a 103). 25/76 < 1/3? 25 * 3 = 75, 76 > 75, per tant, 25/76 > 1/3.
+    *   **D) 25/77:** 25 + 77 = 102 (menor o igual a 103). 25/77 < 1/3? 25 * 3 = 75, 77 > 75, per tant, 25/77 > 1/3.
+    *   **E) 26/75:** 26 + 75 = 101 (menor o igual a 103). 26/75 < 1/3? 26 * 3 = 78, 75 < 78, per tant, 26/75 < 1/3.
+3.  **Comparar les fraccions que satisfan les condicions:**
+    *   B) 26/77 < 1/3
+    *   E) 26/75 < 1/3
+    Per comparar 26/77 i 26/75, observem que els numeradors són els mateixos. La fracció amb el denominador més petit serà la més gran. Per tant, 26/75 > 26/77.
+
+Resposta: E)

@@ -1,0 +1,74 @@
+Raonament:
+
+1. Cada resposta correcta té un valor de 5 punts, i cada resposta incorrecta o en blanc té un descompte de 1 punt.
+2. Si Pere ha tret 35 punts, haurem de determinar quants punts ha tret Eva, que ha contestat bé cinc preguntes més que Pere.
+
+Primer, determinem el nombre total de preguntes que Pere ha contestat correctament:
+
+\[ 35\ \text{punts} = 5\ \text{punts/pregunta} \times x - 1\ \text{punt/pregunta} \times y \]
+
+On \( x \) és el nombre de respostes correctes i \( y \) és el nombre de respostes incorrectes.
+
+Suposem que Pere no ha deixat cap pregunta en blanc (ja que deixar en blanc no aporta ni resta punts).
+
+Així, \( y = 35 - x \).
+
+Substituïm \( y \) en l'equació:
+
+\[ 35 = 5x - (35 - x) \]
+
+\[ 35 = 5x - 35 + x \]
+
+\[ 35 = 6x - 35 \]
+
+\[ 70 = 6x \]
+
+\[ x = \frac{70}{6} \]
+
+\[ x = 11.67 \]
+
+Això no és possible, ja que el nombre de preguntes correctes ha de ser un nombre enter. Per tant, hem de revisar el mètode de càlcul.
+
+Reescrivim l'equació de punts:
+
+\[ 5x - y = 35 \]
+
+On \( x \) són les respostes correctes i \( y \) són les respostes incorrectes.
+
+Per resoldre aquesta equació, podem provar diferents valors enters per \( x \) i \( y \):
+
+Si \( x = 35 \) i \( y = 0 \):
+
+\[ 5 \times 35 - 0 = 175 \]
+
+Si \( x = 34 \) i \( y = 1 \):
+
+\[ 5 \times 34 - 1 = 169 \]
+
+Continuem provant valors:
+
+Si \( x = 20 \) i \( y = 15 \):
+
+\[ 5 \times 20 - 15 = 100 - 15 = 85 \]
+
+Si \( x = 10 \) i \( y = 25 \):
+
+\[ 5 \times 10 - 25 = 50 - 25 = 25 \]
+
+Si \( x = 7 \) i \( y = 28 \):
+
+\[ 5 \times 7 - 28 = 35 - 28 = 7 \]
+
+Atès que Pere ha tret 35 punts, l'únic valor possible és \( x = 7 \) i \( y = 28 \).
+
+Ara, determinem els punts d'Eva, que ha contestat bé cinc preguntes més que Pere:
+
+\[ x_{Eva} = 7 + 5 = 12 \]
+
+Calcula els punts d'Eva:
+
+\[ 5 \times 12 - y_{Eva} = 60 - y_{Eva} \]
+
+Perquè Pere tingui 35 punts i Eva 5 preguntes més correctes, Eva ha de tenir 60 punts.
+
+Resposta: C) 60.

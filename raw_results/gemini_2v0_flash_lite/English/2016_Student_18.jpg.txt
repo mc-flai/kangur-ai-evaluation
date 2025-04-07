@@ -1,0 +1,50 @@
+Reasoning: The sum of digits 1 through 9 is 1+2+3+4+5+6+7+8+9 = 45.  The sum of three three-digit numbers built from these digits can be found by considering how the digits sum in the ones, tens, and hundreds places.  The sum of the three numbers can be written in the general form 100(a+b+c) + 10(d+e+f) + (g+h+i) where a-i are a permutation of the digits 1-9. The overall sum of the three numbers will have a digit sum of 45, and it is equal to a sum of the three numbers. Because the digits add up to 45, and 45 is divisible by 9, any sum that's not divisible by 3 cannot be the answer. The divisibility rule of 3 is when you add up the sum of the digits, they will be divisible by 3. The number 1500 has a digit sum of 6. The number 1503 has a digit sum of 9. The number 1512 has a digit sum of 9. The number 1521 has a digit sum of 9. The number 1575 has a digit sum of 18. The number which cannot be the sum will have digits that do not add up to a number divisible by 3. The digits of 1500 sum to 6, and the digits of 1575 sum to 18. All others have a digit sum of 9, which is also divisible by 3. So we need to find another test to differentiate.
+The total sum of the 3 three-digit numbers must have its digits sum up to 45. The numbers are built using digits from 1 to 9. Let's analyze the possible sum of the three-digit numbers.
+1500: Sum of digits is 6
+1503: Sum of digits is 9
+1512: Sum of digits is 9
+1521: Sum of digits is 9
+1575: Sum of digits is 18
+Since the sum of the digits must be 45, the sum of the three numbers can be determined by making three numbers where the last digit sums to a value, the tens place sums to a value, and the hundreds place sums to a value. Since all digits from 1 to 9 are used exactly once, it means the final digit will sum to the sums in those positions. We know that all the sums in the options are possible. Thus, let's consider parity (even or odd): The sum of digits 1 through 9 = 45 is odd. If all the digits are used once, then the ones digits of the 3 numbers have a sum (odd or even), tens digits have a sum (odd or even) and hundreds digits have a sum (odd or even).
+The numbers 1 to 9 include: 5 odd numbers and 4 even numbers.
+The options that are divisible by 3 can be written as: 1500=3*500, 1503=3*501, 1512=3*504, 1521=3*507, 1575=3*525. Since the total of the numbers must add up to 45, we need to see how many numbers can produce a value by 45.
+
+The only number that cannot be formed because the hundreds digits sum to 15.  With any permutation of the digits, the 3 numbers will result to the correct sum.
+Let's consider an example, 123, 456, 789: Sum = 1368
+If we use the digits 1,2,3,4,5,6,7,8,9, then:
+If the hundreds are 1,4,7 sum=1200
+Tens 2,5,8 sum 150
+Ones 3,6,9 sum 18
+So 1368
+Consider 147, 258, 369 = 1200 + 150 + 18 = 1368
+Consider 159 = 150+9
+246
+378
+
+Since all of them are odd, their sum is either odd or even.
+1500 = even
+1503 = odd
+1512 = odd
+1521 = odd
+1575 = odd
+Let's look at divisibility by 9.
+We know the sum of digits is 45, and 45 mod 9 = 0.  All the sums must therefore also be divisible by 9. If we take 1500, 1+5+0+0 = 6, not divisible by 9.
+If we take 1503, 1+5+0+3 = 9, divisible by 9.
+If we take 1512, 1+5+1+2 = 9, divisible by 9.
+If we take 1521, 1+5+2+1 = 9, divisible by 9.
+If we take 1575, 1+5+7+5 = 18, divisible by 9.
+So the sum of digits have to be divisible by 9.
+Since digits 1 to 9 must be used, the sum of the numbers' digit must sum to 45.
+
+The digital root of 1500 is 6.
+The digital root of 1503 is 9.
+The digital root of 1512 is 9.
+The digital root of 1521 is 9.
+The digital root of 1575 is 9.
+Consider the total sum of the digits of the three numbers has to be 45.
+Since the sum of digits from 1 to 9 is 45 and all the numbers must be used, the sum of digits in the three three-digit numbers must be divisible by 9, and the sum of digits must be a number divisible by 9.
+The sum of the digits must be 45. The sum of the options must be divisible by 9.
+1500 sum is 6. So this one is wrong.
+The other options sum to 9, so they could be a possible sum.
+
+Answer: A)

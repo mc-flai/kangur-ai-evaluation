@@ -1,0 +1,8 @@
+Raonament: Hem de trobar subconjunts de 5 elements de {1,2,...,17} tals que formin una progressió aritmètica. Sigui a el primer terme i d la diferència. Llavors els elements són a, a+d, a+2d, a+3d, a+4d. Volem trobar quants a i d hi ha tals que 1 <= a <= 17, 1 <= a+4d <= 17 i d >= 1.
+Si d = 1, llavors 1 <= a <= 17-4 = 13. Això dóna 13 solucions.
+Si d = 2, llavors 1 <= a <= 17-4*2 = 9. Això dóna 9 solucions.
+Si d = 3, llavors 1 <= a <= 17-4*3 = 5. Això dóna 5 solucions.
+Si d = 4, llavors 1 <= a <= 17-4*4 = 1. Això dóna 1 solució.
+Per tant, el nombre total de subconjunts és 13 + 9 + 5 + 1 = 28.
+
+Resposta: E)

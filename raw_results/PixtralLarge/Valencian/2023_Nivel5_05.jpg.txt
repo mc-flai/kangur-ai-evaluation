@@ -1,0 +1,22 @@
+**Raonament:** 
+
+Per resoldre aquest problema, primer cal entendre el sistema de codificació que utilitza Alicia. Cada lletra del missatge s'està convertint en un nombre, de manera que la suma dels seus dígits dona 9. Els números corresponents a cada lletra són:
+
+- A = 01
+- B = 02
+- C = 03
+- ...
+- Z = 26
+
+Pere ha rebut la següent successió numèrica: 25-39-45-38.
+
+Descomponem cada nombre per revertir el codi:
+
+1. 25: Els dígits són 2 i 5, i la seva suma és 2 + 5 = 7, que no és 9.
+2. 39: Els dígits són 3 i 9, i la seva suma és 3 + 9 = 12, que no és 9.
+3. 45: Els dígits són 4 i 5, i la seva suma és 4 + 5 = 9. Això correspon a la lletra O (15a lletra de l'alfabet).
+4. 38: Els dígits són 3 i 8, i la seva suma és 3 + 8 = 11, que no és 9.
+
+Per tant, l'única lletra que pot ser descodificada correctament és la lletra O.
+
+**Resposta:** C) HOME

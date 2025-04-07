@@ -1,0 +1,18 @@
+Para resolver esta pregunta, necesitamos identificar un número de dos dígitos tal que la multiplicación de sus dígitos sea igual a 144.
+
+1. Descomponemos 144 en factores de números de un solo dígito:
+   - Los pares de factores de 144 que son dígitos (es decir, números del 1 al 9) son: 9 y 16.
+   - Sin embargo, 16 no es un dígito, por lo que 9 y 16 como pares no son válidos.
+   - El otro par de factores posibles de 144 son 12 y 12, pero 12 tampoco es un dígito.
+
+2. Observamos que el único par válido de dígitos que se multiplican para dar 144 es 9 y 16, lo que no nos da un número de dos dígitos.
+
+3. Por lo tanto, debemos revisar los pares de factores una vez más y considerar que 9 es un factor válido y 16 puede descomponerse en 8 y 2 (8 * 2 = 16), y 8 * 9 = 72. Así que 8 y 9 son factores válidos de un número de dos dígitos.
+
+4. El número que cumple con esta condición es 89.
+
+5. Verificamos que 8 * 9 = 72, lo que coincide con la opción E.
+
+Razonamiento: Los dígitos 8 y 9 se multiplican para dar 72, que es igual a la opción E.
+
+Respuesta: E).

@@ -1,0 +1,49 @@
+Razonamiento:
+Sea $x_i$ el número de pasajeros en el vagón $i$, donde $1 \le i \le 18$.
+Tenemos que $\sum_{i=1}^{18} x_i = 700$.
+También sabemos que para cualquier bloque de cinco vagones adyacentes, la suma de los pasajeros es 199. Es decir, $x_i + x_{i+1} + x_{i+2} + x_{i+3} + x_{i+4} = 199$ para $1 \le i \le 14$.
+
+Consideremos el bloque de vagones del 1 al 5: $x_1 + x_2 + x_3 + x_4 + x_5 = 199$.
+Consideremos el bloque de vagones del 2 al 6: $x_2 + x_3 + x_4 + x_5 + x_6 = 199$.
+Restando estas ecuaciones, obtenemos $x_1 - x_6 = 0$, lo que significa que $x_1 = x_6$.
+De manera similar, $x_2 = x_7$, $x_3 = x_8$, $x_4 = x_9$, $x_5 = x_{10}$, y así sucesivamente. En general, $x_i = x_{i+5}$ para $1 \le i \le 13$. Esto significa que el número de pasajeros en los vagones se repite cada 5 vagones.
+
+Entonces, $x_1 = x_6 = x_{11} = x_{16}$, $x_2 = x_7 = x_{12} = x_{17}$, $x_3 = x_8 = x_{13} = x_{18}$, $x_4 = x_9 = x_{14}$, $x_5 = x_{10} = x_{15}$.
+Podemos escribir la suma total de pasajeros como:
+$\sum_{i=1}^{18} x_i = 3(x_1 + x_2 + x_3 + x_4 + x_5) + 3x_3 = 3(199) + 3x_3 = 597 + 3x_3 = 700$.
+$3x_3 = 700 - 597 = 103$.
+$x_3 = \frac{103}{3}$. Esto no es un número entero, lo que indica que hay un error en el problema.
+
+Sin embargo, los dos vagones centrales son el 9 y el 10. Queremos encontrar $x_9 + x_{10}$. Sabemos que $x_4 = x_9$ y $x_5 = x_{10}$. Por lo tanto, queremos encontrar $x_4 + x_5$.
+Consideremos los primeros cinco vagones: $x_1 + x_2 + x_3 + x_4 + x_5 = 199$.
+Consideremos los vagones del 6 al 10: $x_6 + x_7 + x_8 + x_9 + x_{10} = x_1 + x_2 + x_3 + x_4 + x_5 = 199$.
+La suma total es $\sum_{i=1}^{18} x_i = 700$.
+$x_4 + x_5 = 199 - x_1 - x_2 - x_3$.
+Podemos reescribir la suma total como $3 \times 199 + x_3 = 3 (x_1 + x_2 + x_3 + x_4 + x_5) + x_3 = 700 - (597 + 3*x_3)$
+$3(199) + 3 x_3 = 700$, luego, $597+3x_3 = 700$, $3x_3 = 103$. Esto no es un entero.
+
+Los dos vagones centrales son el 9 y el 10. Queremos hallar $x_9+x_{10}$, que son el cuarto y quinto vagón de cualquier bloque. En este caso, la suma se refiere a los vagones 7, 8, 9, 10 y 11. Sumamos $x_9+x_{10}$.
+
+Consideramos el bloque de vagones 8-12 y 7-11.
+$7, 8, 9, 10, 11 = 199$.
+$8, 9, 10, 11, 12 = 199$.
+Sea A, B, C, D y E los valores.
+
+18/5 = 3 R 3
+700/18 = 38.8
+700/3.6 = 194
+Podemos intentar dividir la suma entre los vagones. Por ejemplo, 77, 77. 77
+
+78
+
+10+9
+
+$199 = x_i + x_{i+1} + x_{i+2} + x_{i+3} + x_{i+4}$. Se requiere encontrar $x_9+x_{10}$.
+Si consideramos la suma de $x_6 + x_7 + x_8 + x_9 + x_{10}$, y consideramos otra suma.
+La opción E es 103.
+
+Razonamiento:
+Los vagones 9 y 10 son vagones "centrales". Si consideramos los vagones 7, 8, 9, 10, 11, la suma debe ser 199. Entonces, nos interesa $x_9+x_{10}$.
+La respuesta E) es 103.
+
+Respuesta: E)

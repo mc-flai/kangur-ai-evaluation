@@ -1,0 +1,16 @@
+Raonament: Primer, trobem els primers termes de la successió:
+a0 = 4
+a1 = 10
+a2 = a1 / a0 = 10/4 = 5/2
+a3 = a2 / a1 = (5/2) / 10 = 5/20 = 1/4
+a4 = a3 / a2 = (1/4) / (5/2) = 1/4 * 2/5 = 2/20 = 1/10
+a5 = a4 / a3 = (1/10) / (1/4) = 1/10 * 4/1 = 4/10 = 2/5
+a6 = a5 / a4 = (2/5) / (1/10) = 2/5 * 10/1 = 20/5 = 4
+a7 = a6 / a5 = 4 / (2/5) = 4 * 5/2 = 20/2 = 10
+a8 = a7 / a6 = 10 / 4 = 5/2
+La successió és periòdica de període 6: 4, 10, 5/2, 1/4, 1/10, 2/5, 4, 10, 5/2, ...
+Per tant, hem de trobar el residu de 2015 mòdul 6.
+2015 = 6 * 335 + 5
+Així que a2015 = a5 = 2/5
+
+Resposta: B)

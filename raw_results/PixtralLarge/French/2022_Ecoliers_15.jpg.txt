@@ -1,0 +1,18 @@
+Pour déterminer le nombre de points sur le tapis carré, nous devons comprendre que le tapis est bordé de points avec le même nombre de points alignés sur chaque côté.
+
+1. Le tapis est carré, ce qui signifie qu'il a le même nombre de points sur chaque côté.
+2. Les points sont alignés sur 2 rangées le long de chaque côté.
+3. Pour chaque côté du tapis, sauf les coins, il y a 4 points par côté, mais comme les coins sont comptés deux fois, nous avons 4 points par côté - 2 coins = 2 points par côté.
+4. Cependant, en incluant les coins, chaque côté a 4 points.
+5. Il y a 2 rangées de points le long de chaque côté.
+6. Les points des coins sont partagés par deux côtés, donc ils ne sont pas comptés deux fois.
+
+Donc, pour un seul côté:
+- 4 points par côté, sans compter les coins doublement.
+- 4 points par côté (incluant les coins) x 2 rangées = 8 points par côté.
+- Comme il y a 4 côtés, nous multiplions par 4.
+
+Total de points = 8 points par côté x 4 côtés = 32 points.
+
+Raisonnement : En comptant les points le long des côtés et en considérant que les coins ne sont pas comptés deux fois, nous obtenons un total de 32 points.
+Réponse : A).

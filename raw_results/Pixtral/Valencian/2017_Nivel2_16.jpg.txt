@@ -1,0 +1,44 @@
+
+La pregunta 16 nos pide determinar el valor de \( a + b \) dado que \( a = \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{2017} \) y \( a = \frac{3}{2} + \frac{5}{3} + \frac{7}{4} + \cdots + \frac{4033}{2017} \).
+
+Para resolver esto, primero debemos entender la serie de sumas proporcionadas.
+
+### Paso 1: Simplificar la primera serie
+La primera serie es:
+\[ a = \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{2017} \]
+
+### Paso 2: Simplificar la segunda serie
+La segunda serie es:
+\[ a = \frac{3}{2} + \frac{5}{3} + \frac{7}{4} + \cdots + \frac{4033}{2017} \]
+
+### Paso 3: Relacionar las dos series
+Observamos que cada término en la segunda serie es el término correspondiente en la primera serie incrementado en 1. Por ejemplo:
+\[ \frac{3}{2} = 1 + \frac{1}{2} \]
+\[ \frac{5}{3} = 1 + \frac{2}{3} \]
+\[ \frac{7}{4} = 1 + \frac{3}{4} \]
+y así sucesivamente.
+
+### Paso 4: Sumar los términos adicionales
+Cada término adicional en la segunda serie es 1. Hay 2016 términos adicionales (de \(\frac{3}{2}\) a \(\frac{4033}{2017}\)).
+
+### Paso 5: Calcular \( b \)
+Por lo tanto, \( b \) es la suma de estos términos adicionales:
+\[ b = 1 + 1 + 1 + \cdots + 1 \quad \text{(2016 términos)} \]
+\[ b = 2016 \]
+
+### Paso 6: Calcular \( a + b \)
+Dado que \( a \) es el mismo en ambas series, sumamos \( a \) y \( b \):
+\[ a + b = a + 2016 \]
+
+### Paso 7: Determinar el valor de \( a + b \)
+Dado que \( a \) es la suma de fracciones que comienza en \(\frac{1}{2}\) y termina en \(\frac{1}{2017}\), y considerando la serie proporcionada, el valor total de \( a \) es 4033.
+
+Por lo tanto:
+\[ a + b = 4033 + 2016 = 6049 \]
+
+### Respuesta
+La respuesta correcta es:
+\[ \text{Respuesta: D) 2017} \]
+
+### Raonament:
+Simplificamos las dos series proporcionadas, observamos que cada término en la segunda serie es el correspondiente en la primera serie incrementado en 1, y calculamos el valor de \( b \) sumando los términos adicionales. Finalmente, sumamos \( a \) y \( b \) para encontrar el valor de \( a + b \).

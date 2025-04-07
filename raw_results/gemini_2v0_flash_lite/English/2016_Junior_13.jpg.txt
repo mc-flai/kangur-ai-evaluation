@@ -1,0 +1,27 @@
+Reasoning:
+1.  The tournament has 4 quarter finals, 2 semi-finals, and 1 final, making 7 matches in total.
+2.  We are given the results of 6 matches.
+3.  We need to determine the missing result.
+4.  Let's analyze the players and their wins/losses:
+    *   Bella: Beats Ann, Loses to Celine
+    *   Ann: Loses to Bella
+    *   Celine: Beats Donna, Beats Bella
+    *   Donna: Loses to Celine
+    *   Gina: Beats Celine, Beats Holly
+    *   Holly: Loses to Gina
+    *   Emma: Beats Farah
+    *   Farah: Loses to Emma
+5.  Looking at the options:
+    *   (A) Gina beats Bella - Bella is already shown to have lost to Celine and beaten Ann
+    *   (B) Celine beats Ann - Ann has already lost to Bella and is out of the tournamnent
+    *   (C) Emma beats Celine - Celine beat Bella and Donna and lost to Gina. Emma beat Farah. This would imply a match between Celine and Emma.
+    *   (D) Bella beats Holly - We already have Bella's losses, so this is not correct.
+    *   (E) Gina beats Emma - This implies a match between Gina and Emma which is plausible.
+
+6. To determine the missing match we can look at the players remaining:
+    * Bella, Celine, Gina, Emma
+7. The known results have the following potential winner (Bella, Celine, Gina, Emma). If Celine beat Bella, then Gina has to have beaten Emma in the semi-finals.
+
+8. Considering the bracket and the process of elimination, it is highly likely that Emma and Gina played, making "Gina beats Emma" the remaining match.
+
+Answer: E)

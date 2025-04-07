@@ -1,0 +1,24 @@
+Pour analyser la question 18, il faut déterminer dans combien d'ordres différents Hermione, Margot et Camille peuvent entrer dans la classe, en respectant les conditions données.
+
+1. Hermione peut entrer en première position.
+2. Margot peut entrer en deuxième position.
+3. Camille peut entrer en dernière position.
+
+Les autres positions sont libres pour les autres personnes.
+
+- Pour la première position, il y a 1 choix : Hermione.
+- Pour la deuxième position, il y a 1 choix : Margot.
+- Pour la dernière position, il y a 1 choix : Camille.
+
+Les positions restantes sont donc déterminées par les personnes restantes. 
+
+En utilisant la règle des permutations, nous avons :
+- 3 choix pour la première position (Hermione)
+- 2 choix pour la deuxième position (Margot)
+- 1 choix pour la dernière position (Camille)
+
+Donc, le nombre total de permutations possibles est : 
+\[ 3! = 3 \times 2 \times 1 = 6 \]
+
+Raisonnement : En utilisant les permutations et les conditions données, il y a 6 combinaisons d'ordres différents pour que ces trois personnes entrent dans la classe.
+Réponse : E) 6

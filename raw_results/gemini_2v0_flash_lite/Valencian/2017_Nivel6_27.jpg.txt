@@ -1,0 +1,10 @@
+Raonament:
+The function is strictly increasing, which means if m > n, then f(m) > f(n). Also, we know that f(1000) = 1000.
+If f(2017) = 2017, then all the numbers between 1000 and 2017 will map to themselves and since the function is strictly increasing this can be true but does not have to be necessarily true, the problem does not provide enough information for this to be true.
+If f(2017) < 2017, this is impossible because 2017 > 1000, and the function should be strictly increasing.
+If f(2017) > 2017, this is also impossible because of the f(f(k)) ≤ f(k+1) condition. Because the function is strictly increasing, for all values of k, if we take the function of k and also the function of k + 1, then the result for f(k) will be less than f(k+1).
+If f(k) = k, then f(f(k)) = f(k) = k, and f(k+1) = k + 1. So f(f(k)) ≤ f(k+1) is fulfilled.
+If we assume that f(x) = x is true, f(2017) should be equal to 2017.
+The information does not restrict the value of f(2017) from being either 2017 or some other value. For example, f(x) = x can be a correct choice, and also if f(x) = x for x < 1000 and f(x) = x+1 for x >= 1000 will also fulfill this, because for all k <= 999 it does not influence the value of f(f(k)), since it is equivalent to k, and for k >= 1000 f(k) = k+1, and f(f(k)) would be f(k+1) = (k+1) + 1, which means f(f(k)) = k+2 and f(k+1) = k+2, and it will be true.
+
+Resposta: D)

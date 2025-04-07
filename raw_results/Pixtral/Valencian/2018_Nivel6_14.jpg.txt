@@ -1,0 +1,66 @@
+
+La pregunta 14 se refiere a la suma de los números naturales desde 1 hasta n, que es un número de tres cifras. La pregunta solicita cuántos números hay en esta suma.
+
+Para resolver esto, debemos determinar el valor de n para el cual la suma de los números naturales desde 1 hasta n es un número de tres dígitos.
+
+El número de dígitos de un número se determina por el logaritmo base 10 del número. Para que un número sea de tres cifras, debe estar entre 100 y 999. Esto se puede expresar como:
+
+100 ≤ n ≤ 999
+
+La suma de los primeros n números naturales se puede calcular usando la fórmula:
+
+S = n * (n + 1) / 2
+
+Queremos encontrar el valor de n para el cual S es un número de tres dígitos. Por lo tanto, necesitamos:
+
+100 ≤ n * (n + 1) / 2 ≤ 999
+
+Multiplicando toda la desigualdad por 2 para simplificar:
+
+200 ≤ n * (n + 1) ≤ 1998
+
+Ahora, resolvemos la desigualdad:
+
+200 ≤ n^2 + n ≤ 1998
+
+Para encontrar los valores de n, resolvemos la ecuación cuadrática:
+
+n^2 + n - 1998 = 0
+
+Usamos la fórmula cuadrática:
+
+n = [-b ± sqrt(b^2 - 4ac)] / (2a)
+
+Aquí, a = 1, b = 1 y c = -1998:
+
+n = [-1 ± sqrt(1 + 4 * 1998)] / 2
+
+n = [-1 ± sqrt(1 + 7992)] / 2
+
+n = [-1 ± sqrt(7993)] / 2
+
+Aproximadamente, sqrt(7993) ≈ 89.4
+
+Por lo tanto:
+
+n ≈ [-1 + 89.4] / 2
+
+n ≈ 44.7
+
+n ≈ [-1 - 89.4] / 2
+
+n ≈ -45.7
+
+Dado que n debe ser un número entero positivo, tomamos el valor más cercano a 44.7, que es 45.
+
+Verificamos si 45 cumple con la condición:
+
+Para n = 45:
+
+S = 45 * (45 + 1) / 2 = 45 * 46 / 2 = 990
+
+990 es un número de tres cifras.
+
+Por lo tanto, la respuesta correcta es:
+
+Respuesta: C)

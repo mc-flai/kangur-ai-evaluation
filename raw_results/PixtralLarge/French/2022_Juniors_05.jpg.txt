@@ -1,0 +1,16 @@
+Pour résoudre ce problème, nous devons trouver la somme de tous les chiffres écrits sur les cartes de Lola. Lola a 42 cartes, avec un nombre écrit sur chacune d'elles. Nous savons qu'elle a 20 cartes où le nombre 22 est écrit et 22 cartes où le nombre 20 est écrit.
+
+**Raisonnement** :
+
+1. Calculer la somme des chiffres sur les 20 cartes où 22 est écrit :
+   Chaque carte a les chiffres 2 et 2 (de 22), donc la somme des chiffres sur une carte est 2 + 2 = 4.
+   Pour 20 cartes : 20 * 4 = 80.
+
+2. Calculer la somme des chiffres sur les 22 cartes où 20 est écrit :
+   Chaque carte a les chiffres 2 et 0 (de 20), donc la somme des chiffres sur une carte est 2 + 0 = 2.
+   Pour 22 cartes : 22 * 2 = 44.
+
+3. Faire la somme totale des chiffres sur toutes les cartes :
+   80 (pour les cartes avec 22) + 44 (pour les cartes avec 20) = 124.
+
+**Réponse** : B).

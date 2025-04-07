@@ -1,0 +1,3 @@
+Reasoning: The frog starts at a corner.  Since it must jump over at least one lily pad, it cannot land on adjacent lily pads. It can only move horizontally or vertically, the frog can move in a "knight's move" pattern with two jumps each time (like the knight in chess), alternating between "odd" and "even" positions in the grid. A possible sequence could be: starting corner, then diagonally across, then diagonally down, and continues this pattern until no more unique lily pads can be reached by this method. The maximum number of lily pads that can be reached is 8.
+
+Answer: C)

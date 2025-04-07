@@ -1,0 +1,18 @@
+Reasoning:
+We need to find the three earliest years that have three identical digits.
+The earliest such year is 1110.
+The next is 1111.
+The third is 2022.
+So the minimum age of Eva is 2022 - 1110 = 912.
+Then 2022 - 1111 = 911.
+We are looking for the third time Eva has experienced a year where the same digit appears three times.
+The years are: 1110, 1111, 2000, 2001, 2002, 2003, ..., 2009, 2010, 2011, 2012, ..., 2019, 2020, 2021, 2022, 2111, 2220, 2221, 2222...
+The first three times are: 1110, 1111, 2000. Then 2111, 2220...
+Thus, the first three such years are 1110, 1111, 2000. Since this year is 2022, the minimum age is 2022-2000=22.
+So the answer should be 22.
+Let's list out the years with three or more digits: 1000, 1001, 1002,...,1100, 1101, 1110, 1111,1112, ...,2000,2001,2002,...,2111,2200,2211,2220,2221,2222.
+The first three years with the same digit appearing three times are:
+1110, 1111, 2000. This is the third time Tortoise Eva has experienced a year where the same digit appears three times.
+The minimum age is 2022 - 2000 = 22.
+
+Answer: B)

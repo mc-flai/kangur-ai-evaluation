@@ -1,0 +1,9 @@
+Razonamiento: El área de un rombo es la mitad del producto de sus diagonales. Si el área es 6 m² y las diagonales son números naturales, entonces (d1 * d2) / 2 = 6, lo que implica que d1 * d2 = 12.  Los posibles pares de números naturales que multiplicados dan 12 son (1, 12), (2, 6) y (3, 4).
+El lado del rombo se puede calcular utilizando el teorema de Pitágoras, ya que las diagonales del rombo se bisecan perpendicularmente. Por lo tanto, el lado al cuadrado es igual a (d1/2)^2 + (d2/2)^2.
+Para (1, 12), lado^2 = (1/2)^2 + (12/2)^2 = 1/4 + 36 = 145/4, lado = sqrt(145)/2
+Para (2, 6), lado^2 = (2/2)^2 + (6/2)^2 = 1 + 9 = 10, lado = sqrt(10)
+Para (3, 4), lado^2 = (3/2)^2 + (4/2)^2 = 9/4 + 4 = 25/4, lado = 5/2
+
+La única opción que coincide con el valor del lado es 5/2, que también es equivalente a 2.5.
+
+Respuesta: E)

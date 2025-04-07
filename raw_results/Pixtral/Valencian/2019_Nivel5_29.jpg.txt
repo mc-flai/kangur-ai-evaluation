@@ -1,0 +1,50 @@
+
+La pregunta 29 trata sobre un triángulo ΔABC con un punto D en el lado BC. Los puntos P, Q y R están en los lados AB, AD y AC respectivamente. Las relaciones dadas son AP = 2 * AB, AQ = 3 * AD y AR = 4 * AC. Se pide calcular el área del triángulo ΔPQR.
+
+Para resolver esto, primero debemos entender las relaciones dadas y cómo afectan el área del triángulo ΔPQR.
+
+1. **Relaciones de los puntos**:
+   - AP = 2 * AB
+   - AQ = 3 * AD
+   - AR = 4 * AC
+
+2. **Área del triángulo ΔABC**:
+   El área de un triángulo se puede calcular usando la fórmula:
+   \[
+   \text{Área} = \frac{1}{2} \times \text{base} \times \text{altura}
+   \]
+   Para ΔABC, si tomamos AB como la base y AD como la altura, el área sería:
+   \[
+   \text{Área} = \frac{1}{2} \times AB \times AD
+   \]
+
+3. **Área del triángulo ΔPQR**:
+   - El punto P divide AB en una relación de 2:1, por lo que AP = 2 * AB.
+   - El punto Q divide AD en una relación de 3:1, por lo que AQ = 3 * AD.
+   - El punto R divide AC en una relación de 4:1, por lo que AR = 4 * AC.
+
+   El área de ΔPQR se puede calcular usando las relaciones dadas:
+   \[
+   \text{Área} = \frac{1}{2} \times AP \times AQ \times \sin(\theta)
+   \]
+   Donde θ es el ángulo entre AP y AQ. Dado que ΔABC y ΔPQR comparten el mismo ángulo θ, podemos usar el área de ΔABC para simplificar.
+
+4. **Calcular el área de ΔPQR**:
+   \[
+   \text{Área} = \frac{1}{2} \times (2 \times AB) \times (3 \times AD) \times \sin(\theta)
+   \]
+   \[
+   = \frac{1}{2} \times 2 \times AB \times 3 \times AD \times \sin(\theta)
+   \]
+   \[
+   = 3 \times \text{Área} \Delta ABC
+   \]
+
+   Dado que el área de ΔABC es k, el área de ΔPQR es:
+   \[
+   \text{Área} \Delta PQR = 3k
+   \]
+
+Por lo tanto, la respuesta correcta es:
+
+**Respuesta: C)**

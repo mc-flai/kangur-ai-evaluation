@@ -1,0 +1,28 @@
+Raonament:
+The question asks for the number of triangles with a perimeter of 21, where the side lengths are natural numbers and, taken two by two, either the lengths are equal or one is divisible by the other. Let's consider the possible cases.
+Let the sides be a, b, c.  a+b+c = 21.
+Triangle Inequality: The sum of any two sides must be greater than the third side.
+Also, if two sides are equal, the third side must obey the triangle inequality. If one side is divisible by the other, then the sides must be a, ka, b, such that a + ka + b = 21.
+Case 1: All sides equal. a = b = c = 7.  This is a valid triangle and satisfies the conditions.
+Case 2: Two sides are equal.
+If a=b, then 2a + c = 21. Also, we need either a=c (already covered) or a divides c or c divides a.
+If c = ka, then 2a + ka = a(2+k) = 21. Possible pairs (a, k) are: (1, 19), (3, 5), (7, 1), (21 is divisible by 3 and 7). This gives side lengths (1,1,19), (3,3,15), (7,7,7), (21,1,1).
+We need to check the triangle inequality. 1+1<19 (False). 3+3<15 (False). (7,7,7) is already in case 1.
+If a divides c, then we have the form (a, a, ka). Triangle inequality must hold: a+a>ka or 2>k.  Then side lengths are a, a, 2a. 4a = 21. No solution.
+If c divides a, then the sides would be (a,a,c) where c divides a.
+Let's list out possible combinations systematically. We need to make the combinations obeying both the given condition and the triangle inequality.
+(7,7,7). Sides equal - OK. This is one triangle.
+(3, 6, 12) - No. The sum of 3 and 6 is not greater than 12.
+(3, 9, 9) -  OK (3, 9, 9). 3 divides 9.  This is a second triangle.
+(6, 6, 9) - OK (6, 6, 9). 6 does not divide 9 and 9 does not divide 6.  But the numbers are not coprime.
+If one divides the other, let's consider 2x + x + 21-3x = 21. Also, triangle inequality must hold. x, 2x, and 21-3x as the sides.
+x + 2x > 21-3x. 6x>21.  x > 3.5
+x + (21-3x) > 2x, 21-2x>2x, 21>4x. x<5.25
+2x + 21-3x > x. 21>2x. x<10.5.
+So, x can be 4 or 5. For x=4, sides are 4, 8, 9 (4+8>9)
+If the side lengths are 4, 8, 9, then we can see that there is a side that divides another. (No). However they are relatively prime.
+If x = 5, the sides are 5, 10, 6. The triangle inequality holds. But 5 does not divide 6, 6 doesn't divide 5.
+Thus we only have (7,7,7) and (3,9,9).
+There should be 2 triangles.
+
+Resposta: C)

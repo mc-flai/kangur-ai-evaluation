@@ -1,0 +1,47 @@
+### Reasoning:
+
+1. Let's denote the number of wins by \( W \), the number of draws by \( D \), and the number of losses by \( L \).
+2. We know that the total number of matches is 40:
+   \[
+   W + D + L = 40
+   \]
+3. The points system is as follows:
+   - Win: 1 point
+   - Draw: \( \frac{1}{2} \) point
+   - Loss: 0 points
+4. The total points gained are 25:
+   \[
+   W + \frac{D}{2} = 25
+   \]
+5. We need to find how many more matches the player wins than he loses, which is \( W - L \).
+
+Let's solve the equations step by step:
+
+1. From the points equation:
+   \[
+   W + \frac{D}{2} = 25
+   \]
+   Multiply both sides by 2 to clear the fraction:
+   \[
+   2W + D = 50
+   \]
+
+2. Substitute \( D \) from the total matches equation:
+   \[
+   D = 40 - W - L
+   \]
+   Substitute \( D \) in the points equation:
+   \[
+   2W + (40 - W - L) = 50
+   \]
+   Simplify:
+   \[
+   W + 40 - L = 50
+   \]
+   \[
+   W - L = 10
+   \]
+
+Therefore, the player wins 10 more matches than he loses.
+
+### Answer: C)

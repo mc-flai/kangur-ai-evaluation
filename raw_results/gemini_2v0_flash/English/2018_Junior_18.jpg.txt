@@ -1,0 +1,9 @@
+Reasoning: Let $n$ be the number of times the summand $2018^2$ appears under the square root. Then the equation is
+$$\sqrt{n \cdot 2018^2} = 2018^{10}$$
+Squaring both sides, we have
+$$n \cdot 2018^2 = (2018^{10})^2 = 2018^{20}$$
+Dividing both sides by $2018^2$, we get
+$$n = \frac{2018^{20}}{2018^2} = 2018^{20-2} = 2018^{18}$$
+Therefore, the summand $2018^2$ appears $2018^{18}$ times.
+
+Answer: E)

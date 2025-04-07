@@ -1,0 +1,35 @@
+**Raonament**:
+
+Per resoldre el problema de la quantitat de pomes que té Andreu, hem de considerar la informació que ens dona l'enunciat:
+
+1. Andreu agrupa un cert nombre de pomes en sis piles iguals.
+2. Biel agrupa la mateixa quantitat de pomes en cinc piles iguals.
+3. Biel s'adona que cada pila de les seves té dues pomes més que les piles d'Andreu.
+
+Per trobar la quantitat total de pomes, primer determinem la quantitat de pomes per pila a les agrupacions de Biel:
+
+Sigui \( x \) el nombre de pomes en cada pila d'Andreu.
+
+Per a Biel, cada pila té \( x + 2 \).
+
+Donat que Biel té cinc piles, la quantitat total de pomes és:
+\[ 5 \times (x + 2) \]
+
+Per a Andreu, la quantitat total de pomes és:
+\[ 6 \times x \]
+
+Com que tots dos tenen la mateixa quantitat de pomes, igualem les dues expressions:
+\[ 5 \times (x + 2) = 6 \times x \]
+
+Expandim:
+\[ 5x + 10 = 6x \]
+
+Restem \( 5x \) d'ambdós costats:
+\[ 10 = x \]
+
+Això significa que cada pila d'Andreu té 10 pomes.
+
+Per trobar la quantitat total de pomes que té Andreu:
+\[ 6 \times 10 = 60 \]
+
+**Resposta**: A) 60

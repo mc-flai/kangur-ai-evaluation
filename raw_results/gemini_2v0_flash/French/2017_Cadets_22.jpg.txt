@@ -1,0 +1,63 @@
+Reasoning:
+The sum of the angles in a triangle is 180 degrees. We want to find three different integer angles that sum to 180, and we want to minimize the sum of the smallest and largest angle.
+To minimize the sum of the smallest and largest angle, we should try to make the angles as close as possible to each other.
+Let the angles be $a < b < c$, where $a, b, c$ are integers. We want to minimize $a + c$ such that $a + b + c = 180$.
+We try to find angles close to $180/3 = 60$. Let's start with $a=1$.
+If $a = 1$, we want $b+c=179$ and $1 < b < c$.
+$b$ can be $89$, and $c$ can be $90$. Then $a+c = 1 + 90 = 91$.
+So, the angles are $1, 89, 90$. This is possible.
+We want the smallest possible value for $a + c$, so we look for angles closer to 60.
+If $a = 59$, then $b$ must be greater than 59, say $b = 60$. Then $c = 180 - 59 - 60 = 61$.
+Then $a+c = 59+61=120$.
+Try angles 58, 59, x. Then $58+59+x=180$, $x = 180 - 117 = 63$. So $58 < 59 < 63$, and $58+63 = 121$.
+We want to minimize $a+c$, so let's start with small values of $a$. The smallest value for $a$ is 1.
+If $a=1$, then $b+c = 179$. Since $a < b < c$, we must have $b \ge 2$.
+To minimize $a+c$, we want to minimize $c$. If we take $b$ to be close to $c$, then $c$ will be small.
+Let $c=b+1$. Then $2b+1 = 179$, so $2b=178$ and $b=89$. Thus, $c=90$. The angles are $1, 89, 90$. $1+89+90 = 180$. $a+c = 1+90 = 91$.
+
+Consider the integers $59, 60, 61$. These are close to 60.
+$59+60+61 = 180$. So $a=59, b=60, c=61$. The sum $a+c=59+61 = 120$.
+But we are looking for distinct integer values.
+If we have $1, 2, ...$. We need $a+b+c = 180$.
+The smallest possible values are $1, 2$. $1+2+c=180$, so $c = 177$. Sum $a+c = 1+177=178$. This isn't among the options.
+Try $a=1, b=2$. If we choose $a=1, b=89, c=90$, we get the smallest sum to be $1+90=91$.
+Try $a=2, b=3$. $c = 180 - 5 = 175$. Sum = $2+175 = 177$.
+Let $x, x+1, x+2$ be close to $180/3=60$. Then $3x+3=180$, $3x = 177$, $x=59$. Then angles are $59, 60, 61$. So $59+60+61=180$. The smallest is 59, the largest is 61. Then the sum is $59+61=120$.
+
+Reasoning:
+We are looking for a triangle where all angles are integers and different. We want to minimize the sum of the smallest and largest angles. Let the angles be $a, b, c$ with $a < b < c$. We have $a + b + c = 180$ and we want to minimize $a + c$.
+Consider $a = 1, b = 2, \implies c = 177$, so $a + c = 178$.
+Consider $a = 1, b = 89, \implies c = 90$, so $a + c = 91$.
+Consider $a = 2, b = 3, \implies c = 175$, so $a + c = 177$.
+Let's try to find values around 60: $59, 60, 61$. $59 + 60 + 61 = 180$. $59 + 61 = 120$.
+So, let $a = 50$, $b = 60$, $c = 70$, $a+b+c=180$, so $a+c = 120$.
+Let a, b, c be consecutive integers. $x-1, x, x+1$.
+So the integers $59, 60, 61$ are a solution, with angles being different integers, and their sum equal to 180.
+The smallest value is 59 and the largest is 61, so the sum is 120.
+However, if we choose the angles to be 1, 2, and 177, their sum is 180. In that case, the smallest is 1 and largest is 177, and the total is 178. We need distinct integers.
+Consider the triangle $1^\circ, 2^\circ, 177^\circ$, the sum of the smallest and largest angles is $1 + 177 = 178$.
+
+Let the angles be 1, 2, and 177. This is distinct angles, and $1+2+177 = 180$. We want to minimize $a+c$, which is $1+177=178$. But this is not among the options.
+Try $1, 60, 119 = 180$. $1+119=120$.
+
+Reasoning:
+Let the angles be a, b, c where a < b < c. We want to minimize a+c, such that a+b+c = 180.
+To minimize the sum, we want the angles to be close to each other. The closest we can get is 59, 60, 61, which sums up to 180.
+Therefore, the smallest angle is 59 and the largest angle is 61, their sum is 120.
+Let's try smaller integers, so that the other angles have to become larger to equal to 180.
+
+Reasoning:
+We are looking for three distinct integer angles, $a, b, c$ such that $a < b < c$ and $a + b + c = 180$. We want to minimize $a + c$.
+If we consider $a=1$, the smallest possible value for an angle, then $b+c = 179$. Since $1 < b < c$, the smallest value $b$ can take is $2$. Thus, $c = 179-2 = 177$. Then $a+c = 1+177 = 178$.
+Next smallest we can have is $b=3$, $c = 176$. $a+c = 177$.
+We can minimize the sum by making the numbers close together. Thus 59+60+61. Sum is 180.
+Smallest is 59. Largest is 61. Then, their sum is 120.
+
+Reasoning:
+Let a, b, c be the three angles of the triangle, where a < b < c. We are looking for the smallest value of a+c. Since the angles must be integers and different, the sum is 180.
+Let us assume the minimum possible value is 1. Then b+c = 179. In order for b and c to be integers and different, and b < c, the lowest b could be is 2, c=177. In this case, a+c = 178.
+We need to search the options for the smallest, which is 61. Let's say a+c = 61. If a = 1, then c = 60. We need a,b,c all be distinct and < 60. b = 180-61 = 119. Not good.
+How about 120? To get angles that are close to each other, try to divide by 3. Let's consider angles around 60. 59,60,61 = 180. Since they all have to be distinct, smallest plus largest is 120. This gives the sum of angles be 59+60+61=180.
+
+Answer: D)
+Final Answer: D)

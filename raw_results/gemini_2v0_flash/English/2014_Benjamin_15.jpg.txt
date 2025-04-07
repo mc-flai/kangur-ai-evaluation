@@ -1,0 +1,31 @@
+Reasoning:
+Let $x$ be the number of tables with 3 chairs, $y$ be the number of tables with 4 chairs, and $z$ be the number of tables with 6 chairs. We are given that there are a total of 16 tables.
+$x + y + z = 16$
+We are also given that 36 guests can sit at the tables with 3 or 4 chairs, and the restaurant seats 72 guests in total. This means that:
+$3x + 4y = 36$
+Also, the total number of guests that can be seated is 72, so:
+$3x + 4y + 6z = 72$
+Now we have a system of three equations:
+1. $x + y + z = 16$
+2. $3x + 4y = 36$
+3. $3x + 4y + 6z = 72$
+Substitute equation (2) into equation (3):
+$36 + 6z = 72$
+$6z = 72 - 36$
+$6z = 36$
+$z = 6$
+Now substitute $z = 6$ into equation (1):
+$x + y + 6 = 16$
+$x + y = 10$
+Multiply this equation by 3:
+$3x + 3y = 30$
+We also have $3x + 4y = 36$. Subtract the new equation from this equation:
+$(3x + 4y) - (3x + 3y) = 36 - 30$
+$y = 6$
+Now substitute $y = 6$ into the equation $x + y = 10$:
+$x + 6 = 10$
+$x = 4$
+So, there are 4 tables with 3 chairs, 6 tables with 4 chairs, and 6 tables with 6 chairs.
+The number of tables with three chairs is 4.
+
+Answer: A)

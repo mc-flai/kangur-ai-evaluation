@@ -1,0 +1,65 @@
+La pregunta demana quants triangles hi ha amb un perímetre de 21 i on les longituds dels costats són nombres naturals. També pregunta si dues d'aquestes longituds són iguals o no.
+
+Per resoldre això hem de:
+
+1. Identificar tots els triangles possibles amb un perímetre de 21 i la condició que les longituds dels costats siguin nombres naturals.
+2. Verificar si dues de les longituds dels costats són iguals o no.
+
+Primer, recordem que per a qualsevol triangle amb costats \(a\), \(b\), i \(c\), es compleix la propietat que \(a + b > c\), \(a + c > b\), i \(b + c > a\). També hem de complir que \(a + b + c = 21\).
+
+Estem buscant conjunts de \((a, b, c)\) tals que:
+\[ a + b + c = 21 \]
+i
+\[ a + b > c \]
+\[ a + c > b \]
+\[ b + c > a \]
+
+Examinem els possibles triangles:
+
+1. \( (1, 10, 10) \)
+   - \(1 + 10 + 10 = 21\)
+   - \(1 + 10 = 11 > 10\)
+   - \(1 + 10 = 11 > 10\)
+   - \(10 + 10 = 20 > 1\)
+   - Aquest triangle és vàlid i té dues longituds dels costats iguals.
+
+2. \( (2, 9, 10) \)
+   - \(2 + 9 + 10 = 21\)
+   - \(2 + 9 = 11 > 10\)
+   - \(2 + 10 = 12 > 9\)
+   - \(9 + 10 = 19 > 2\)
+   - Aquest triangle és vàlid i no té dues longituds dels costats iguals.
+
+3. \( (3, 8, 10) \)
+   - \(3 + 8 + 10 = 21\)
+   - \(3 + 8 = 11 > 10\)
+   - \(3 + 10 = 13 > 8\)
+   - \(8 + 10 = 18 > 3\)
+   - Aquest triangle és vàlid i no té dues longituds dels costats iguals.
+
+4. \( (4, 8, 9) \)
+   - \(4 + 8 + 9 = 21\)
+   - \(4 + 8 = 12 > 9\)
+   - \(4 + 9 = 13 > 8\)
+   - \(8 + 9 = 17 > 4\)
+   - Aquest triangle és vàlid i no té dues longituds dels costats iguals.
+
+5. \( (5, 7, 9) \)
+   - \(5 + 7 + 9 = 21\)
+   - \(5 + 7 = 12 > 9\)
+   - \(5 + 9 = 14 > 7\)
+   - \(7 + 9 = 16 > 5\)
+   - Aquest triangle és vàlid i no té dues longituds dels costats iguals.
+
+6. \( (6, 6, 9) \)
+   - \(6 + 6 + 9 = 21\)
+   - \(6 + 6 = 12 > 9\)
+   - \(6 + 9 = 15 > 6\)
+   - \(6 + 9 = 15 > 6\)
+   - Aquest triangle és vàlid i té dues longituds dels costats iguals.
+
+Per tant, hi ha 6 triangles vàlids, i entre aquests, 2 tenen dues longituds dels costats iguals.
+
+Raonament: Hi ha 6 triangles que satisfan les condicions, i 2 d'aquests tenen dues longituds dels costats iguals.
+
+Resposta: D) 3

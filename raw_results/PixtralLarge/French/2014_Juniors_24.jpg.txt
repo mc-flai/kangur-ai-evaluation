@@ -1,0 +1,25 @@
+Pour répondre à cette question, nous devons identifier le nombre de la liste qui est immédiatement avant le nombre médian.
+
+Étape 1 : Comprendre la liste des nombres.
+- La liste est composée des nombres de 7 chiffres utilisant les chiffres de 1 à 7, une fois chacun.
+
+Étape 2 : Identifier le nombre médian.
+- Puisque chaque chiffre est utilisé une fois, la liste aura \(7! = 5040\) nombres.
+- Le nombre médian dans une liste ordonnée de 5040 nombres est à la position \( \frac{5040}{2} = 2520 \).
+
+Étape 3 : Identifier le nombre juste avant le nombre médian.
+- Le nombre juste avant le nombre médian est à la position \(2520 - 1 = 2519\).
+
+Étape 4 : Comparer avec les options.
+- Les options sont :
+  A) 1234567
+  B) 3765421
+  C) 4123567
+  D) 4352617
+  E) 4376521
+
+En observant les options, la seule qui pourrait potentiellement être à la position 2519 dans une liste croissante est l'option E) 4376521, car elle est la plus proche du milieu de la liste des nombres de 7 chiffres.
+
+Raisonnement : Le nombre médian d'une liste de 5040 nombres est à la position 2520. Le nombre juste avant le nombre médian est à la position 2519. En comparant les options, l'option E) 4376521 est la plus proche de cette position.
+
+Réponse : E)

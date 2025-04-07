@@ -1,0 +1,26 @@
+Para resolver este problema, necesitamos entender cómo se escribe un número en la celda central de la cuadrícula de la ligura. La ligura es una cuadrícula mágica donde la suma de los números en cada fila, columna y diagonal es la misma.
+
+1. **Identificar las sumas dadas**:
+   - La suma de los tres números en la diagonal es 13.
+   - La suma de los ocho números en la circunferencia es 40.
+
+2. **Determinar la suma total**:
+   - La suma total de todos los números en la cuadrícula es la suma de los números en la circunferencia más los números en la diagonal.
+   - Suma total = Suma de la circunferencia + Suma de la diagonal
+   - Suma total = 40 + 13 = 53
+
+3. **Calcular el número en la celda central**:
+   - Hay 16 números en la cuadrícula (4x4).
+   - La suma de todos los números en la cuadrícula es 53.
+   - El número en la celda central se puede encontrar restando la suma de los números en la circunferencia de la suma total.
+   - Número en la celda central = Suma total - Suma de la circunferencia
+   - Número en la celda central = 53 - 40 = 13
+
+4. **Verificar la respuesta**:
+   - La suma de los números en la diagonal es 13, lo que coincide con la suma dada.
+   - La suma de los números en la circunferencia es 40, lo que coincide con la suma dada.
+   - El número en la celda central es 13, lo que coincide con nuestra cuenta.
+
+Razonamiento: La suma total de todos los números en la cuadrícula es 53. Restando la suma de los números en la circunferencia (40) de la suma total, obtenemos el número en la celda central, que es 13.
+
+Respuesta: C)

@@ -1,0 +1,37 @@
+Per resoldre la pregunta 12, analitzem la informació donada i les condicions que s'han de complir.
+
+**Pregunta:**
+A i B són dos nombres diferents d'un sol dígit. Sabem que A · B = 10 + A. Quants possibles valors de B hi ha verificant aquesta condició?
+
+**Opció de respostes:**
+A) 0
+B) 1
+C) 2
+D) 3
+E) 4
+
+**Raonament:**
+
+1. Comencem amb l'equació donada:
+   \(A \cdot B = 10 + A\)
+
+2. Rearrangem l'equació per aïllar A d'un costat de l'equació:
+   \(A \cdot B - A = 10\)
+
+3. Factoritzem A de l'equació:
+   \(A(B - 1) = 10\)
+
+4. Ara busquem parelles de factors de 10 que siguin possibles valors per a A i (B - 1). Els factors de 10 són: 1 i 10; 2 i 5.
+
+5. Tinguem en compte que A i B són nombres diferents d'un sol dígit, per tant, les parelles possibles són:
+   - \(A = 2\) i \(B - 1 = 5\), el que dona \(B = 6\)
+   - \(A = 5\) i \(B - 1 = 2\), el que dona \(B = 3\)
+   - \(A = 1\) i \(B - 1 = 10\), no possible perquè B hauria de ser 11 i no és un dígit.
+   - \(A = 10\) i \(B - 1 = 1\), no possible perquè A hauria de ser 10 i no és un dígit.
+
+6. Les parelles vàlides són \(A = 2\) i \(B = 6\) i \(A = 5\) i \(B = 3\).
+
+7. Per tant, hi ha 2 possibles valors de B que compleixen la condició.
+
+**Resposta:**
+C) 2

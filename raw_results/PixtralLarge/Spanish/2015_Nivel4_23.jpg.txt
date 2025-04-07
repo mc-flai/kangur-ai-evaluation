@@ -1,0 +1,24 @@
+Para resolver la pregunta 23, debemos determinar cuántas maneras diferentes hay de elegir 16 bolas de helado de 18 sabores diferentes.
+
+1. **Calcular el número de combinaciones**:
+   El número de maneras de elegir 16 bolas de 18 sabores diferentes se calcula utilizando la fórmula de combinaciones:
+   \[
+   C(n, k) = \frac{n!}{k!(n-k)!}
+   \]
+   donde \( n = 18 \) y \( k = 16 \).
+
+2. **Sustituir los valores**:
+   \[
+   C(18, 16) = \frac{18!}{16!(18-16)!} = \frac{18!}{16! \cdot 2!}
+   \]
+
+3. **Simplificar la expresión**:
+   \[
+   \frac{18!}{16! \cdot 2!} = \frac{18 \times 17 \times 16!}{16! \times 2 \times 1} = \frac{18 \times 17}{2 \times 1} = \frac{306}{2} = 153
+   \]
+
+Por lo tanto, hay 153 maneras de elegir 16 bolas de 18 sabores diferentes.
+
+**Razonamiento**: Utilizando la fórmula de combinaciones, calculamos que hay 153 maneras de elegir 16 bolas de 18 sabores diferentes.
+
+**Respuesta**: C).

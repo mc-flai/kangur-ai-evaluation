@@ -1,0 +1,440 @@
+Reasoning:
+The problem defines a "surprising" date as one where all 8 digits in the DD.MM.YYYY format are different. We are given today's date as 17.03.2016. We want to find the next month in which a surprising date occurs. We can proceed by checking each month sequentially after March.
+April: The year is 2016, so we already have 0, 1, 2, and 6. For a date in April, the month is 04. Since 0 is already used, no date in April can be surprising.
+May: The month is 05. Still has the 0.
+June: The month is 06. Still has the 0 and 6.
+July: The month is 07. We need to find a day in July such that the digits are all distinct from 0, 2, 0, 1, 6, 7. The digits available are 3, 4, 5, 8, 9. We can form a date of 23.07.1945
+August: The month is 08, still has the 0 and 8.
+September: 09. Still has 0 and 9
+October: 10. Still has 0 and 1
+November: 11. Still has 1
+December: 12. We have the digits 1 and 2 already. We need to find a date in this format: DD.12.YYYY such that all digits are unique. We have the digits 0, 1, 2, and 6.
+Consider the dates in July. The month is 07. So far we have used 0, 7, 1, 2, 6. Consider July 23: 23.07.2018. The digits are 2, 3, 0, 7, 2, 0, 1, 6 and 8. But 2 and 0 repeat. The earliest possible date would be 23.07.1945
+
+Reasoning:
+Let's consider July, the month is 07. We need digits that are distinct from 0, 1, 2, 6, 7. The next few dates could be:
+23.07.1945. This works!
+
+Answer: C)
+Reasoning:
+After March, the months are April (04), May (05), June (06), July (07), August (08), September (09), October (10), November (11), December (12).
+April, May, June, August, September, October, November, December contain the digits 0, 1, 2, 6 which are in the year 2016.
+July (07) does not have those digits in the month part. The date 23.07.1945 contains all different digits.
+Therefore, the answer is July.
+
+Answer: C)
+Reasoning:
+The digits already used are 0, 1, 2, 6.
+
+April: 04 (0 already used)
+May: 05 (0 already used)
+June: 06 (0 and 6 already used)
+July: 07 (0 and 7, so we need different date and year digits. Can 23.07.1945 work? Digits are 2, 3, 0, 7, 1, 9, 4, 5. These are distinct.
+August: 08 (0 already used)
+September: 09 (0 already used)
+October: 10 (1 and 0 already used)
+November: 11 (1 already used)
+December: 12 (1 and 2 already used)
+
+July is the first month that works.
+
+Answer: C)
+Reasoning:
+We are looking for a date in DD.MM.YYYY format where all 8 digits are distinct. The digits 0, 1, 2, and 6 are already used in the year 2016. We need to find the next month where we can find distinct digits.
+
+March: Already passed.
+April: 04.XX.2016 - contains 0.
+May: 05.XX.2016 - contains 0.
+June: 06.XX.2016 - contains 0 and 6.
+July: 07.XX.2016 - 07.XX.YYYY, we can use 23.07.1945 (2,3,0,7,1,9,4,5).
+August: 08.XX.2016 - contains 0 and 8.
+September: 09.XX.2016 - contains 0 and 9.
+October: 10.XX.2016 - contains 0 and 1.
+November: 11.XX.2016 - contains 1.
+December: 12.XX.2016 - contains 1 and 2.
+
+So the first possible month is July.
+
+Answer: C)
+Reasoning: We need to find the first month after March where we can have a date with 8 distinct digits. The year is fixed at 2016, so 0, 1, 2, and 6 are already used. We go through each month.
+
+April (04): Uses 0, so no.
+May (05): Uses 0, so no.
+June (06): Uses 0 and 6, so no.
+July (07): Uses 0 and 7. The date 23.07.1945 works.
+August (08): Uses 0 and 8, so no.
+September (09): Uses 0 and 9, so no.
+October (10): Uses 0 and 1, so no.
+November (11): Uses 1, so no.
+December (12): Uses 1 and 2, so no.
+
+July is the first month where we can construct a date with distinct digits.
+
+Answer: C)
+Reasoning:
+We need to find the next month where a date can be written with all 8 digits distinct. We are already using 0, 1, 2, and 6 from the year 2016. Let's go through the months after March.
+
+April: 04. Contains a 0, so no.
+May: 05. Contains a 0, so no.
+June: 06. Contains a 0 and a 6, so no.
+July: 07. No 0, 1, 2, or 6. Let's try July 23, 23.07.xxxx. So we need two digits that are unique and weren't already used (3 and x). Year should not have 0, 1, 2, 6, 3, 0, 7.  23.07.1945. Works.
+
+Answer: C)
+Reasoning: We need to find the earliest month after March that allows us to construct a date DD.MM.YYYY where all digits are distinct. We already know that 0, 1, 2, and 6 are used by the year 2016.
+April (04): The 0 is used.
+May (05): The 0 is used.
+June (06): The 0 and 6 are used.
+July (07): We need to pick a day where digits 3, 4, 5, 7, 8, 9 are used. The date 23.07.1945 would result in all digits being distinct. (2, 3, 0, 7, 1, 9, 4, 5)
+August (08): Contains 0 and 8.
+September (09): Contains 0 and 9.
+October (10): Contains 0 and 1.
+November (11): Contains 1.
+December (12): Contains 1 and 2.
+
+July is the answer.
+
+Answer: C)
+Reasoning:
+We're looking for the next month with a "surprising date" (all 8 digits are different in DD.MM.YYYY). We know the year will be in the 2000s, so 0, 1, 2, and 6 are taken.
+
+We examine each month after March:
+April: MM = 04, so 0 is taken. Invalid.
+May: MM = 05, so 0 is taken. Invalid.
+June: MM = 06, so 0 and 6 are taken. Invalid.
+July: MM = 07, so only 7 is taken. We want a DD such that there are no repeating digits. Let's pick digits from (3, 4, 5, 7, 8, 9). 23.07.1945 uses 2, 3, 0, 7, 1, 9, 4, 5 and are distinct. So, July is a valid candidate.
+August: MM = 08, so 0 and 8 are taken. Invalid.
+
+Answer: C)
+Reasoning:
+A "surprising" date requires all 8 digits to be different in the DD.MM.YYYY format. We already know the year is 2016, so 0, 1, 2, and 6 are used. We are looking for the next month after March where a surprising date can occur.
+
+April (04): 0 is already used, so it can't be April.
+May (05): 0 is already used, so it can't be May.
+June (06): 0 and 6 are already used, so it can't be June.
+July (07): Let's try 23.07.1945 -> Digits used: 2, 3, 0, 7, 1, 9, 4, 5. All distinct! July works.
+August (08): 0 is already used, so it can't be August.
+September (09): 0 is already used, so it can't be September.
+October (10): 0 and 1 are already used, so it can't be October.
+November (11): 1 is already used, so it can't be November.
+December (12): 1 and 2 are already used, so it can't be December.
+
+The next surprising date occurs in July.
+
+Answer: C)
+Reasoning: The digits 0, 1, 2, 6 are already used in the year 2016. We seek the next month such that a valid date can be formed with 8 distinct digits. April (04), May (05), June (06), August (08), September (09), October (10), November (11), and December (12) all contain digits that are already used. However, July (07) contains only 7 and doesn't conflict with existing digits. Let's check if we can make a date. 23.07.1945 contains 2, 3, 0, 7, 1, 9, 4, 5, all of which are distinct, so this is a "surprising" date. Therefore, the answer is July.
+
+Answer: C)
+Reasoning:
+We're given that today's date is 17.03.2016 and a "surprising" date has 8 distinct digits. 2016 contributes 0, 1, 2, and 6 to the digits used. We seek the *next* month after March that will allow for a "surprising date."
+
+*   **April:** 04 (0 already used)
+*   **May:** 05 (0 already used)
+*   **June:** 06 (0 and 6 already used)
+*   **July:** 07 (Use digits 3, 4, 5, 7, 8, 9. The date 23.07.1945 works.
+*   **August:** 08 (0 and 8 used)
+*   **September:** 09 (0 and 9 used)
+*   **October:** 10 (0 and 1 used)
+*   **November:** 11 (1 used)
+*   **December:** 12 (1 and 2 used)
+
+Answer: C)
+Reasoning:
+A surprising date has all 8 digits distinct. The year 2016 contributes 0, 1, 2, and 6. We iterate through the months until we find a month where it's possible to construct such a date:
+
+*   April (04) - uses 0.
+*   May (05) - uses 0.
+*   June (06) - uses 0 and 6.
+*   July (07) - uses 0 and 7 if a day is present. It may be possible to construct a date. We can use 23.07.1945. This date is surprising with 2, 3, 0, 7, 1, 9, 4, 5.
+*   August (08) - uses 0 and 8.
+*   September (09) - uses 0 and 9.
+*   October (10) - uses 0 and 1.
+*   November (11) - uses 1.
+*   December (12) - uses 1 and 2.
+
+Thus, July is the next month.
+
+Answer: C)
+Reasoning:
+A date is "surprising" if all 8 digits are different when written in the form DD.MM.YYYY. Since the year is 2016, the digits 0, 1, 2, and 6 are already used.
+
+April: 04 - 0 is repeated
+May: 05 - 0 is repeated
+June: 06 - 0 and 6 are repeated
+July: 07 - Try 23.07.1945 - 2, 3, 0, 7, 1, 9, 4, 5. All distinct! So July is a possibility.
+August: 08 - 0 and 8 are repeated
+September: 09 - 0 and 9 are repeated
+October: 10 - 0 and 1 are repeated
+November: 11 - 1 is repeated
+December: 12 - 1 and 2 are repeated
+
+The next surprising date occurs in July.
+
+Answer: C)
+Reasoning:
+We are looking for a date DD.MM.YYYY where all 8 digits are unique. We know YYYY = 2016, so 0, 1, 2, 6 are already used.
+
+April - MM = 04 - has 0.
+May - MM = 05 - has 0.
+June - MM = 06 - has 0 and 6.
+July - MM = 07 - We can test: 23.07.1945 - 2, 3, 0, 7, 1, 9, 4, 5. This works.
+August - MM = 08 - has 0 and 8.
+September - MM = 09 - has 0 and 9.
+October - MM = 10 - has 1 and 0.
+November - MM = 11 - has 1.
+December - MM = 12 - has 1 and 2.
+
+The next surprising date is in July.
+
+Answer: C)
+Reasoning:
+A "surprising" date means all digits in DD.MM.YYYY are distinct. Since the year is 2016, the digits 0, 1, 2, and 6 are already used.
+
+We go month by month from March onwards:
+April (04): contains a 0
+May (05): contains a 0
+June (06): contains a 0 and a 6
+July (07): Let's see if we can find a valid date in July, where 0, 1, 2, 6, 7, are not reused. So we pick digits 3, 4, 5, 8, 9. Try 23.07.1945 = all digits different. This is valid.
+
+So July is the correct answer
+
+Answer: C)
+Reasoning:
+A surprising date requires that all digits are different. Since we have 2016, digits 0, 1, 2 and 6 are used. So any month that uses any of these digits is not surprising.
+April = 04 --> has 0
+May = 05 --> has 0
+June = 06 --> has 0 and 6
+July = 07 --> has 7, so possible: 23.07.1945 -- distinct.
+
+Answer: C)
+Reasoning:
+A surprising date has 8 different digits in the DD.MM.YYYY format. Since it is 2016, the digits 0, 1, 2, 6 are already in use.
+
+Checking the months after March:
+-April (04) - uses 0
+-May (05) - uses 0
+-June (06) - uses 0 and 6
+-July (07) - if we choose July 23, the year would have to be 1945 (23.07.1945). The digits would be: 2, 3, 0, 7, 1, 9, 4, 5 - they are distinct.
+
+Answer: C)
+Reasoning:
+We are looking for the next month where all 8 digits in the date DD.MM.YYYY are unique. We already know the year is 2016, which uses the digits 0, 1, 2, and 6.
+
+Going through the months:
+- April (04): Uses the digit 0, which is already used in the year.
+- May (05): Uses the digit 0.
+- June (06): Uses the digits 0 and 6.
+- July (07): Let's see if we can construct a date with unique digits. Try 23.07.1945. The digits are 2, 3, 0, 7, 1, 9, 4, 5. All are distinct.
+- August (08): Uses the digit 0.
+
+The next month is July.
+
+Answer: C)
+Reasoning:
+Since the year is 2016, we already have the digits 0, 1, 2, and 6 in use. We need to find the next month that, together with the day and year, uses 8 distinct digits.
+
+Let's check each month after March:
+- April (04): Already uses the digit 0, so this can't be it.
+- May (05): Already uses the digit 0.
+- June (06): Already uses the digits 0 and 6.
+- July (07): We are free to choose a day and the year 2016. The date 23.07.1945 has the digits 2, 3, 0, 7, 1, 9, 4, 5, all distinct.
+- August (08): Already uses the digit 0.
+
+Therefore the next surprising date is in July.
+
+Answer: C)
+Reasoning:
+A "surprising" date has all unique digits in the DD.MM.YYYY format. 2016 implies that digits 0, 1, 2, and 6 are already used. We need to look at the months after March and see when we could first create such a date.
+
+- April (04): Uses 0, so not possible.
+- May (05): Uses 0, so not possible.
+- June (06): Uses 0 and 6, so not possible.
+- July (07): Uses 0 and 7 only if we form some specific dates. For example, we can form date "23.07.1945" which has digits "2", "3", "0", "7", "1", "9", "4", "5" which are distinct. Thus July is the correct month.
+
+Answer: C)
+Reasoning:
+We are looking for a date DD.MM.YYYY such that all digits are different. The digits 0, 1, 2, and 6 are already used, since the year is 2016.
+
+April (04): uses 0 - not possible
+May (05): uses 0 - not possible
+June (06): uses 0 and 6 - not possible
+July (07): possible - let's try 23.07.1945 (2, 3, 0, 7, 1, 9, 4, 5) - all different.
+
+Answer: C)
+Reasoning:
+The year 2016 gives us the digits 0, 1, 2 and 6. We need to find the next month (MM) and day (DD) such that all the digits in DD.MM.2016 are distinct.
+April (04): 0 is used already
+May (05): 0 is used already
+June (06): 0 and 6 are used already
+July (07): 0 and 7 will be new to our digits if we pick it. We could try to choose digits from (3, 4, 5, 8, 9) to fill the other spaces, however this will clash with the other used digits. We can select an earlier year such as 23.07.1945. The digits 2, 3, 0, 7, 1, 9, 4, 5 are all distinct
+
+Answer: C)
+Reasoning:
+Since the year is 2016, the digits 0, 1, 2, and 6 are used. We seek the next month where we can find all distinct digits.
+
+April(04): 0 is already used.
+May(05): 0 is already used.
+June(06): 0 and 6 are already used.
+July(07): The date 23.07.1945 works, since 2, 3, 0, 7, 1, 9, 4, and 5 are all distinct.
+Therefore July is the answer.
+
+Answer: C)
+Reasoning:
+We're given that a date is in DD.MM.YYYY format and is "surprising" if all digits are different.  The year 2016 uses the digits 0, 1, 2, and 6.  We're looking for the next month after March that can produce a surprising date.
+
+April: Uses 04 (uses 0)
+May: Uses 05 (uses 0)
+June: Uses 06 (uses 0 and 6)
+July: Uses 07 (Example: 23.07.1945 gives 2, 3, 0, 7, 1, 9, 4, 5 all distinct).
+
+Thus the next surprising date occurs in July.
+
+Answer: C)
+Reasoning:
+The year 2016 uses the digits 0, 1, 2 and 6. So we are looking for the earliest month after March such that the month, date and year together use distinct digits. April (04) uses the 0. May (05) uses the 0. June (06) uses the 0 and 6. July (07), let's see. The digits needed are 3,4,5,7,8,9. Say the date is 23.07.1945 = all the digits are unique.
+
+Answer: C)
+Reasoning:
+We seek the first month *after* March where we can construct a date in DD.MM.YYYY format such that all digits are distinct. Since the year is 2016, the digits 0, 1, 2, and 6 are already used.
+
+Let's consider each month:
+- April (04): Already uses 0. Not a candidate.
+- May (05): Already uses 0. Not a candidate.
+- June (06): Already uses 0 and 6. Not a candidate.
+- July (07): If we choose the 23rd, we have digits 2, 3, 0, 7. We need digits 4, 5, 8, 9 to create a valid year. The year 1945 would then create the distinct digits 2, 3, 0, 7, 1, 9, 4, 5.
+
+Therefore, the month is July.
+
+Answer: C)
+Reasoning: We want to find a date DD.MM.YYYY where all digits are distinct. Since the year is 2016, we are already using 0, 1, 2, and 6.
+
+Let's iterate through the months after March:
+April (04): Contains 0. Not possible.
+May (05): Contains 0. Not possible.
+June (06): Contains 0 and 6. Not possible.
+July (07): Doesn't contain 0, 1, 2, or 6. Let's construct a date: 23.07.1945. The digits used are: 2, 3, 0, 7, 1, 9, 4, 5. All distinct. This is valid.
+
+Therefore, the next surprising date will be in July.
+
+Answer: C)
+Reasoning:
+The question asks for the month in which the next "surprising" date occurs, where "surprising" means all the digits are different. Since the year is 2016, the digits 0, 1, 2, and 6 are already used.
+
+Going through the months after March:
+April (04) - Uses 0
+May (05) - Uses 0
+June (06) - Uses 0, 6
+July (07) - We need two distinct digits for the day and the remaining four for the year, such that we don't reuse 0, 1, 2, 6, 7. Try 23.07.1945; 2, 3, 0, 7, 1, 9, 4, 5 are distinct.
+
+Answer: C)
+Reasoning:
+We want a date DD.MM.YYYY, such that all the digits are unique. YYYY = 2016 means we are using 0, 1, 2, 6. The task is to find which month MM comes after March and still enables to make a date DD where all the digits are different.
+
+April is 04. It contains 0 so invalid.
+May is 05. It contains 0 so invalid.
+June is 06. It contains 0 and 6 so invalid.
+July is 07. The unused digits are 3, 4, 5, 7, 8, 9. Let the date be 23.07.1945 then all the digits are distinct.
+
+Therefore the answer is July.
+
+Answer: C)
+Reasoning:
+We want to find the earliest month after March where we can have a date where all the digits in DD.MM.YYYY are distinct. Since the year is 2016, the digits 0, 1, 2, and 6 are already taken.
+*   April (04): Contains the digit 0. No.
+*   May (05): Contains the digit 0. No.
+*   June (06): Contains the digits 0 and 6. No.
+*   July (07): Possible. We just need to ensure the day DD is such that the combination contains no repeating numbers and that we didn't use 0, 1, 2, 6, 7, previously. E.g. the date 23.07.1945 -> {2,3,0,7,1,9,4,5}.
+
+Answer: C)
+Reasoning:
+To have a "surprising" date, all the digits must be unique in the format DD.MM.YYYY. Since the year is fixed as 2016, the digits 0, 1, 2, and 6 are already in use.
+
+*   April (04): The '0' is already in use, so this is not possible.
+*   May (05): The '0' is already in use, so this is not possible.
+*   June (06): The '0' and '6' are already in use, so this is not possible.
+*   July (07): This is possible. For example, 23.07.1945: 2,3,0,7,1,9,4,5 are all unique digits.
+
+Therefore, the next surprising date will be in July.
+
+Answer: C)
+Reasoning:
+A surprising date means all digits in DD.MM.YYYY are unique.
+Since the year is 2016, the digits 0, 1, 2, and 6 are taken.
+
+April: MM = 04, so the digit 0 is used.
+May: MM = 05, so the digit 0 is used.
+June: MM = 06, so the digits 0 and 6 are used.
+July: MM = 07, no repeated digits yet. Let's see if we can find a date with no repeating digits. For example, 23.07.1945 uses the digits 2, 3, 0, 7, 1, 9, 4, 5, which are all unique.
+Therefore, July is the month.
+
+Answer: C)
+Reasoning:
+A date is "surprising" if all 8 digits are distinct in the format DD.MM.YYYY. With the year 2016, the digits 0, 1, 2, and 6 are already used.
+
+Going through the months after March:
+-April (04): Uses the digit 0. Not possible.
+-May (05): Uses the digit 0. Not possible.
+-June (06): Uses the digits 0 and 6. Not possible.
+-July (07): We can try to form the date: 23.07.1945. The digits used are 2, 3, 0, 7, 1, 9, 4, 5. These are all distinct.
+Thus, July is the answer.
+
+Answer: C)
+Reasoning:
+We need to find a date in the format DD.MM.YYYY where all the digits are distinct. The year is fixed at 2016, which means the digits 0, 1, 2, and 6 are already being used. So we look at the months in order after March, which are:
+
+April (04): Has the digit 0. Invalid
+May (05): Has the digit 0. Invalid
+June (06): Has the digits 0 and 6. Invalid
+July (07): Has the digit 7. 23.07.1945 makes 2, 3, 0, 7, 1, 9, 4, 5 which are all unique.
+
+Therefore, the next "surprising" date is in July.
+
+Answer: C)
+Reasoning:
+A date is defined as surprising if all the digits used in DD.MM.YYYY are different. We are given that the year is 2016 and therefore 0, 1, 2 and 6 are used. Looking at the months after March:
+- April: uses 0, thus not valid
+- May: uses 0, thus not valid
+- June: uses 0 and 6, thus not valid
+- July: can use "23.07.1945". The digits 2,3,0,7,1,9,4,5 are unique. Thus, July is the answer.
+
+Answer: C)
+Reasoning:
+The digits 0, 1, 2, and 6 are already taken due to the year being 2016.  A "surprising" date requires all 8 digits to be distinct in the DD.MM.YYYY format.  Let's check each month after March:
+
+*   April (04): Uses 0, which is taken.
+*   May (05): Uses 0, which is taken.
+*   June (06): Uses 0 and 6, which are taken.
+*   July (07): The digits 3, 4, 5, 7, 8 and 9 are available to us to create the day. July 23rd, 23.07.1945 satisfies the property.
+*   August (08): Uses 0, which is taken.
+*   September (09): Uses 0, which is taken.
+*   October (10): Uses 0 and 1, which are taken.
+*   November (11): Uses 1, which is taken.
+*   December (12): Uses 1 and 2, which are taken.
+
+Thus, the next surprising date will occur in July.
+
+Answer: C)
+Reasoning:
+The year is 2016, which means digits 0, 1, 2, and 6 are in use already. For the date to be surprising, all 8 digits must be distinct. We check the months:
+- April(04): using '0'
+- May(05): using '0'
+- June(06): using '0' and '6'
+- July(07): using only '7'. Let's consider DD.MM.YYYY. The year is 2016. Since July is the month MM = 07. So we want DD.07.2016 with the digits 0,1,2,6,7 being not allowed. We are left with 3,4,5,8,9. So let the day be 23. Can we find a year? But we have 0, 1, 2, and 6 already used. Also 7, 3
+So 1945
+
+Answer: C)
+Reasoning:
+We are given that a date DD.MM.YYYY is surprising if all digits are different. YYYY is 2016, which uses 0, 1, 2, 6. We now go through the months and see which one satisfies all different digits.
+
+April (04): Since 0 is used in April we discard it.
+May (05): Since 0 is used in May we discard it.
+June (06): Since 0 and 6 are used in June we discard it.
+July (07): 23.07.1945 satisfies since it only contains digits: 2, 3, 0, 7, 1, 9, 4, 5, which are all different.
+
+Therefore the correct answer is July.
+
+Answer: C)
+Reasoning:
+Since we have the year 2016, we know that 0, 1, 2, and 6 are taken. We want to find the month that when combined with a day and the year 2016, yields a set of 8 distinct digits. Let's look at each month after March.
+
+April (04): Uses 0. No.
+May (05): Uses 

@@ -1,0 +1,39 @@
+Raonament: La pregunta demana quants plans es poden formar a partir de 3 vèrtexs d'un cub, amb la condició de que aquest pla no passi per un quart vèrtex.
+
+En primer lloc, podem pensar en les cares del cub, però en cada cara hi ha 4 vèrtexs, per tant, aquests plans no compleixen la condició.
+
+Considerem plans que passen per tres vèrtexs que no estan en la mateixa cara. Hi ha dos tipus de plans:
+1. Plans que tallen les arestes del cub. Per exemple, un pla que talla tres vèrtexs adjacents. Hi ha 8 plans d'aquest tipus (un per cada vèrtex del cub).
+
+2. Hi ha 6 plans que contenen dues arestes oposades i el centre del cub. Però en cada aresta oposada hi ha quatre vèrtexs que compleixen.
+
+Per tant, analitzem les diagonals de les cares del cub. Aquestes diagonals formen un pla. S'han de triar tres vèrtexs. Tria tres vèrtexs que defineixin un triangle dins del cub. Hi ha 8 vèrtexs al cub. Tria 3 dels 8 = 8C3 = (8x7x6)/(3x2x1) = 56.
+
+Aquests plans formats contenen una diagonal i un altre vèrtex adjacent. La diagonal conté 2 vèrtexs.
+Cada vèrtex té 3 arestes. Si triem tres vèrtexs, això defineix un pla. Cada vèrtex té un pla possible. Això suma 8 plans.
+
+Però també podem tenir plans que tallen el cub diagonalment. 
+Un pla que talla tres vèrtexs del cub però no quatre: Els plans que contenen les diagonals dels cubs. Hi ha 6 diagonals.
+
+Si agafem tres vèrtexs, podem formar un triangle a cada cantonada. Hi ha 8 cantonades. Per tant, hi ha 8 plans.
+
+Comptant els plans formats per les diagonals de les cares, trobem que hi ha 12 possibles plans.
+
+Resposta: D)
+Raonament: Cada vèrtex d'un cub té tres vèrtexs adjacents. Tria un vèrtex. Hi ha 8 d'aquests casos. A més, existeixen els plans que tallen el cub per les seves diagonals.
+Resposta: D)
+
+Raonament: Després de reconsiderar el problema i visualitzar les possibles combinacions de tres vèrtexs d'un cub, podem observar que hi ha dos tipus de plans possibles.
+1) Plans creats per tres vèrtexs adjacents que no es troben en la mateixa cara. Hi ha 8 d'aquests plans, un per cada vèrtex del cub.
+2) Considerar les diagonals de les cares. No formen plans que compleixin la condició.
+
+Així que la resposta correcta és 8.
+Resposta: D)
+Raonament: Cada conjunt de tres punts no colineals defineix un pla únic. Necessitem trobar el nombre de plans que passen per exactament tres vèrtexs d'un cub. Considerem els plans que passen per tres vèrtexs que comparteixen una aresta. Hi ha 8 plans, ja que cada vèrtex té tres vèrtexs adjacents.
+Resposta: D)
+Raonament: Existeixen 8 plans que passen per exactament tres vèrtexs d'un cub.
+Resposta: D)
+Raonament: There are 8 planes that pass through exactly three vertices of a cube, by choosing 3 vertices that are adjacent to each other, no other vertex belongs to the same plane.
+Resposta: D)
+Raonament: Considerant les possibles combinacions de tres vèrtexs d'un cub, s'arriba a la conclusió de que hi ha 8 plans possibles, un per cada vèrtex on tres arestes convergeixen.
+Resposta: D)

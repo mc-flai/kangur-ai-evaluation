@@ -1,0 +1,19 @@
+La pregunta involucra una seqüència de nombres que segueix un patró específic. Els nombres estan en format de dos dígits, on el primer dígit és un nombre entre 1 i 100 i el segon dígit és 2018 o 2017. La seqüència és:
+
+\[ 1^{2018} + 2^{2017}, 2^{2018} + 3^{2017}, 3^{2018} + 4^{2017}, \ldots, 99^{2018} + 100^{2017}, 100^{2018} + 101^{2017} \]
+
+La pregunta és si aquesta seqüència segueix el patró \( n^{2018} + (n+1)^{2017} \).
+
+**Razonamiento:**
+
+1. Observa els nombres en la seqüència. Cada nombre és una suma de dos nombres en format de potència.
+2. El primer nombre de cada parella és \( n^{2018} \) i el segon nombre és \( (n+1)^{2017} \).
+3. La seqüència comença amb \( 1^{2018} + 2^{2017} \) i acaba amb \( 100^{2018} + 101^{2017} \).
+4. Cada parella següent incrementa \( n \) en 1, seguint el patró \( n^{2018} + (n+1)^{2017} \).
+
+Dintre de la seqüència donada, cada parella de nombres segueix el patró \( n^{2018} + (n+1)^{2017} \).
+
+**Respuesta:** D) Tot
+
+**Respuesta Final:**
+- Respuesta: D) Tot

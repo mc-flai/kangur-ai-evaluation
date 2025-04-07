@@ -1,0 +1,32 @@
+La pregunta 22 demana l'àrea de la part ombrada de la figura, que és un octàgon envoltant un cercle.
+
+Per resoldre això, primer cal calcular l'àrea del cercle i després l'àrea de l'octàgon. A continuació, s'ha de trobar la diferència entre l'àrea de l'octàgon i l'àrea del cercle.
+
+1. **Àrea del cercle**:
+   - El centre del cercle és en (3, 3).
+   - El radi del cercle és la distància del centre a un dels vèrtexs del cercle, que és 3 units.
+   - La fórmula de l'àrea del cercle és \( \pi r^2 \).
+   - \( \text{Àrea del cercle} = \pi \times 3^2 = 9\pi \).
+
+2. **Àrea de l'octàgon**:
+   - L'octàgon és un polígon regular amb 8 costats.
+   - La longitud del costat de l'octàgon és la distància entre dos vèrtexs consecutius del cercle, que és 2 units.
+   - La fórmula de l'àrea d'un octàgon és \( 2s^2(1 + \sqrt{2}) \), on \( s \) és la longitud del costat.
+   - \( \text{Àrea de l'octàgon} = 2 \times 2^2 \times (1 + \sqrt{2}) = 8(1 + \sqrt{2}) \).
+
+3. **Àrea de la part ombrada**:
+   - La part ombrada és l'àrea de l'octàgon menys l'àrea del cercle.
+   - \( \text{Àrea de la part ombrada} = 8(1 + \sqrt{2}) - 9\pi \).
+
+4. **Comparació amb les opcions**:
+   - A) \( 4(7 - \pi) \)
+   - B) \( 4(8 - \pi) \)
+   - C) \( 5(7 - \pi) \)
+   - D) \( 6(8 - \pi) \)
+   - E) \( 8(6 - \pi) \)
+
+   De les opcions donades, la forma \( 8(6 - \pi) \) és la que més s'assembla a la nostra expressió de l'àrea de la part ombrada.
+
+Raonament: L'àrea de la part ombrada és \( 8(1 + \sqrt{2}) - 9\pi \), que és més proper a \( 8(6 - \pi) \) que a les altres opcions.
+
+Resposta: E)

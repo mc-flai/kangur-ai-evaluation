@@ -1,0 +1,10 @@
+Per resoldre aquesta pregunta, hem de determinar quants trossos màxims es poden obtenir amb tres tallades rectes d'una pizza rodona.
+
+1. **Primer tall**: Un tall recte pot dividir la pizza en dos trossos.
+2. **Segon tall**: Un segon tall recte pot creuar el primer tall, dividint la pizza en quatre trossos.
+3. **Tercer tall**: Un tercer tall recte pot creuar els dos talls anteriors de manera que tots tres talls es trobin en un punt. Això dividirà la pizza en vuit trossos.
+
+Per tant, amb tres talles rectes, el nombre màxim de trossos que es poden obtenir és vuit.
+
+Raonament: Amb cada tall addicional, el nombre de trossos s'incrementa en funció de les interseccions del tall amb els talls anteriors. Els tres talles es creuen en un punt, resultant en vuit trossos.
+Resposta: A) 7

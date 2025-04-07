@@ -1,0 +1,38 @@
+**Raonament**:
+La suma dels tres números és 837. Hem d'identificar les dues xifres que estan tapades.
+
+Les xifres visibles són:
+- Centenes: 8
+- Desenes: 3
+- Unitats: 7
+
+Les xifres tapades són les desenes de dos dels nombres.
+
+Analitzem cada número:
+1. El primer número pot ser 18X o 19X.
+2. El segon número és 7.
+3. El tercer número pot ser X96 o X97.
+
+Examinem els possibles valors:
+- Si el primer número és 18X, les possibles combinacions són 185, 186, 187, 188, 189.
+- Si el primer número és 19X, les possibles combinacions són 195, 196, 197, 198, 199.
+
+Ara, si el tercer número és X96, les combinacions possibles són 596, 696, 796, 896, 996.
+Si el tercer número és X97, les combinacions possibles són 597, 697, 797, 897, 997.
+
+Provem les combinacions possibles:
+- 185 + 7 + 596 = 788
+- 186 + 7 + 596 = 789
+- 187 + 7 + 596 = 790
+- 188 + 7 + 596 = 791
+- 189 + 7 + 596 = 792
+- 195 + 7 + 696 = 898
+- 196 + 7 + 696 = 899
+- 197 + 7 + 696 = 900
+- 198 + 7 + 696 = 901
+- 199 + 7 + 696 = 902
+
+Les combinacions correctes són 197 i 696 quan la suma dels tres números és 837.
+La suma de les dues xifres tapades és 9 + 7 = 16.
+
+**Resposta**: E) 16.

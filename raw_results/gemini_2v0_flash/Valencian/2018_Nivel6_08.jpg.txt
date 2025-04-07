@@ -1,0 +1,37 @@
+Raonament: Siguin $a_1, a_2, \ldots, a_9$ els nombres en els cercles, amb $a_5$ al centre. Perquè la suma dels vèrtexs dels triangles sigui la mateixa, tenim:
+$a_1 + a_2 + a_5 = a_2 + a_3 + a_5 = a_3 + a_4 + a_5 = a_4 + a_7 + a_5 = a_7 + a_8 + a_5 = a_8 + a_9 + a_5 = a_9 + a_6 + a_5 = a_6 + a_1 + a_5$.
+Això implica que:
+$a_1 + a_2 = a_2 + a_3 \implies a_1 = a_3$
+$a_2 + a_3 = a_3 + a_4 \implies a_2 = a_4$
+$a_3 + a_4 = a_4 + a_7 \implies a_3 = a_7$
+$a_4 + a_7 = a_7 + a_8 \implies a_4 = a_8$
+$a_7 + a_8 = a_8 + a_9 \implies a_7 = a_9$
+$a_8 + a_9 = a_9 + a_6 \implies a_8 = a_6$
+$a_9 + a_6 = a_6 + a_1 \implies a_9 = a_1$
+$a_6 + a_1 = a_1 + a_2 \implies a_6 = a_2$
+Per tant, $a_1 = a_3 = a_7 = a_9$ i $a_2 = a_4 = a_6 = a_8$. Això vol dir que només hi ha dos valors diferents (un per als vèrtexs senars i un per als parells) i un valor addicional al centre, $a_5$.
+
+Si $a_1=a_3=a_6=a_7=a_8=a_9 = x$ i $a_2=a_4=y$.
+Entonces tenim:
+$x + y + a_5 = C$ para cada triangulo.
+
+Podemos tener tres valores distintos: x, y, a_5. Podemos escolher x y y de manera arbitraria, y a_5 estara fixo por la ecuacion
+Si x = y entonces todos los lados son = x y entones a_5 cualquier valor que cumpla la condicion.
+Ahora el caso en donde todos los numeros son iguales se cumple.
+Si a5 = x, y = x.
+
+Pero al tener $a_1=a_3=a_7=a_9=x$ y $a_2=a_4=a_6=a_8=y$, tenemos que $x, y, a_5$ pueden tomar valores distintos.
+El maximo numero de valores distintos es 3. En este caso $a_1 = a_3 = a_7 = a_9=x$, $a_2 = a_4 = a_6 = a_8 = y$, $a_5 = z$.
+
+Entonces por lo menos uno debe ser igual a los demas.
+$x+y+a_5 = C \implies a_1=a_3, a_2=a_4$
+
+Por lo que como máximo pueden ser tres números distintos.
+No, tots els cercles perimetrals deben tenir la suma igual. Aixo vol dir que hi ha un en la frontera a més del central. Dos valores diferentes, un per als vèrtexs i un altre per al centre.
+
+Raonament: El centro debe tener un valor que permita que todos los triángulos sumen lo mismo.
+Si los triángulos deben tener la misma suma, entonces todos los vertices que no son el centro son iguales.
+Si sumamos todas las esquinas A B C D = A + B + C + D + centro
+2 tipos de valores distintos, un valor en las esquinas, otro valor central
+
+Resposta: B)

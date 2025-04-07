@@ -1,0 +1,9 @@
+Raonament:
+1. **Identify the range:** The question asks for 3-digit numbers, so the range is from 100 to 999, inclusive.  This means there are 900 numbers in total.
+2. **Divisibility by 2 or 3 or both (2 and 3 is equivalent to 6):** We need numbers divisible by 2 OR 3 OR 6. This means the problem includes any number which is divisible by at least one of these.
+3. **Count the numbers divisible by 2:** There are 900/2 = 450 numbers divisible by 2.
+4. **Count the numbers divisible by 3:** There are 900/3 = 300 numbers divisible by 3.
+5. **Count the numbers divisible by 6:** There are 900/6 = 150 numbers divisible by 6 (both 2 and 3).
+6. **Apply the Principle of Inclusion-Exclusion:** The number of elements in the union of sets A and B is given by |A ∪ B| = |A| + |B| - |A ∩ B|.  So, number of numbers divisible by 2 or 3 or both (6) is 450 + 300 - 150 = 600.
+
+Resposta: A)

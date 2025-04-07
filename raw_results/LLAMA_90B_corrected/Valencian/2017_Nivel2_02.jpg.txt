@@ -1,0 +1,31 @@
+### Raonament
+
+Per trobar la diferència entre la suma dels 10 primers múltiples positius de 10 i la suma dels 10 primers múltiples positius de 9, hem de calcular cadascuna de les sumes i entonces restar-les. Cal dirigir-se a cada múltiple específicament.
+
+#### Suma dels 10 primers múltiples positius de 10
+
+\* Contar de 10 en 10 fins a 10 vegades: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100.  
+\* Llavors, calcular la suma d'aquests múltiples.  
+\[S_n\ de\ 10 = 10 + 20 + 30 + ... + 90 + 100\]  
+Aplicant la fórmula de suma d'un múltiple d'un nombre (en aquest cas, 10, recordant que la sèrie consta de la iteració del múltiple més gran més 1 vegades)
+
+\[ S_n = (V_smenor)(V_sgran) / 2 \]  
+només canvia \( V_sgran = 100 \), i l'última ocorrencia \( V_smenor = 10 \).
+
+\[ S_n\ de\ 10 = [2 * (10) * (100)] / 2 = 1000 \]
+
+Concloure que la suma dels 10 primers múltiples positius de 10 és 1000.
+
+#### Suma dels 10 primers múltiples positius de 9
+
+\* Contar de 9 en 9 fins a 10 vegades: 9, 18, 27, 36.  
+
+\* Continuar per cada valor fins a objectiu d' Amuntegament i després calcular la suma.  
+\[ S_n\ de\ 9 = 9 + 18 + 27 + ... + 81 + 90\]  
+Transparent només tócame escritura de calculo vx vez más:
+
+\[ S_n\ de\ 9 = [2 * (9)(10) * (90)] / 2 = 850 \]
+
+Descrit com s'ha cocchnittur a cada suma independentment personallll poden verificar els seus càlculs
+
+### Resposta: No Answer

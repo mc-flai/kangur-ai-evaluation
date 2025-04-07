@@ -1,0 +1,36 @@
+
+La pregunta 4 en la imagen es: "¿Cuántos números enteros positivos de 2 dígitos complejizan que son 4 veces la suma de sus dígitos?"
+
+Para determinar cuántos números enteros positivos de dos dígitos cumplen con la condición de ser cuatro veces la suma de sus dígitos, debemos seguir estos pasos:
+
+1. **Identificar el rango de números de dos dígitos**: Los números de dos dígitos van desde 10 hasta 99.
+
+2. **Formular la condición matemática**: Si un número es \( n \), y sus dígitos son \( a \) y \( b \), entonces \( n = 10a + b \). La condición es \( n = 4(a + b) \).
+
+3. **Resolver la ecuación**: Sustituyendo \( n \) en la ecuación, obtenemos \( 10a + b = 4(a + b) \).
+
+4. **Simplificar la ecuación**:
+   \[
+   10a + b = 4a + 4b
+   \]
+   \[
+   10a - 4a = 4b - b
+   \]
+   \[
+   6a = 3b
+   \]
+   \[
+   2a = b
+   \]
+
+5. **Determinar los valores posibles de \( a \) y \( b \)**: Dado que \( a \) y \( b \) son dígitos, \( a \) debe ser un entero entre 1 y 9, y \( b \) debe ser un entero entre 0 y 9. La ecuación \( 2a = b \) implica que \( b \) debe ser un múltiplo de 2.
+
+6. **Listar los números que cumplen la condición**:
+   - Para \( a = 1 \), \( b = 2 \) → \( n = 12 \)
+   - Para \( a = 2 \), \( b = 4 \) → \( n = 24 \)
+   - Para \( a = 3 \), \( b = 6 \) → \( n = 36 \)
+   - Para \( a = 4 \), \( b = 8 \) → \( n = 48 \)
+
+7. **Contar los números que cumplen la condición**: Hay 4 números que cumplen la condición.
+
+**Respuesta**: D)

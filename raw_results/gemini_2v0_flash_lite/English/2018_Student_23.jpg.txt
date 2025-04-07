@@ -1,0 +1,12 @@
+Reasoning: We are given that exactly one brother lies. Let's consider each case:
+If A lies, then A is either the tallest or the smallest. If A is the tallest, then C lies. If A is the smallest, then D lies. So, we have three possible liars. Since all other claims are true, the other two must be between the smallest and the tallest and they're not the smallest. Then B is correct, so it is not the smallest. Also, the tallest must be C, and D is false, so D is not the smallest. This fits together, with A as smallest or tallest.
+If B lies, then B is the smallest. But D states it's the smallest, and D can't be the smallest if B lies. So B cannot lie.
+If C lies, then C is not the tallest. If C lies, then A, B and D are true. D would say it is the smallest, but B is not the smallest, and A is neither the tallest nor the smallest, which works. So C is the liar, then A is in the middle and B is not the smallest and D is the smallest. This works. Then the tallest brother must be B or A since C lies. Since C lies, it is not the tallest, so it is another liar. The order is D (smallest), A, B, C (tallest).
+If D lies, then D is not the smallest. Thus, B, C, and A are correct. A is not the tallest or smallest. B is not the smallest. C is the tallest. The order would be B, A, C with D as the smallest.
+If A is the liar: D is correct. A would be the tallest or smallest. C is the tallest.
+So let us try C lies. Then C is not the tallest. Therefore A and B are in the middle, B is not the smallest, D is the smallest. So we can say the tallest brother is C.
+
+If C is the liar, then the order must be: D is the smallest, A is neither the smallest nor the tallest, B is not the smallest, C is not the tallest. So, D is the smallest, A is the second smallest, B is in the third position, and C is the tallest. Then C is not the tallest.
+If C lies then the order is D < A < B < C. The tallest brother is C.
+
+Answer: C)

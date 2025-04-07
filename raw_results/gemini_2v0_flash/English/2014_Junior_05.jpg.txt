@@ -1,0 +1,12 @@
+Reasoning:
+We need to find the last year before 2014 where the last digit was greater than the sum of the first three digits.
+We can check years starting from 2013 going backwards:
+- 2013: 2 + 0 + 1 = 3. The last digit is 3. 3 is not greater than 3.
+- 2012: 2 + 0 + 1 = 3. The last digit is 2. 2 is not greater than 3.
+- 2011: 2 + 0 + 1 = 3. The last digit is 1. 1 is not greater than 3.
+- 2010: 2 + 0 + 1 = 3. The last digit is 0. 0 is not greater than 3.
+- 2009: 2 + 0 + 0 = 2. The last digit is 9. 9 is greater than 2.
+
+So the last year was 2009. The difference between 2014 and 2009 is 2014 - 2009 = 5.
+
+Answer: C)

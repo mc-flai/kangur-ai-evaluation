@@ -1,0 +1,44 @@
+Reasoning: The problem states the ship and the teddy bear must be next to the car. Let's consider the car (C), ship (S), and teddy bear (T) as a single unit, meaning they must stay together. Then we have (C, S, T), and a ball (B) to arrange.
+We can have (C, S, T) in different orders like:
+- C S T
+- C T S
+- S C T
+- T C S
+There are 4 arrangements for the car, ship and teddy bear. The ball can be on either side.
+The arrangements are:
+1. B, C, S, T
+2. B, C, T, S
+3. B, S, C, T
+4. B, T, C, S
+5. C, S, T, B
+6. C, T, S, B
+7. S, C, T, B
+8. T, C, S, B
+
+We can arrange (C, S, T) and B as two units, and arrange those in 2! = 2 ways. The toys (C, S, T) have to stay together and we have to arrange the 3 toys with the ball (B). The car, teddy bear, ship can be arranged in 2 different ways:
+- C, S, T
+- C, T, S
+The car, teddy bear, ship can be treated as one unit and B, so total 2!*2! = 4 different orders.
+The possible arrangements are:
+1. B, (C, S, T): ball, car, ship, teddy bear
+2. B, (C, T, S): ball, car, teddy bear, ship
+3. (C, S, T), B: car, ship, teddy bear, ball
+4. (C, T, S), B: car, teddy bear, ship, ball
+We must treat car, teddy bear, ship as one unit. Then we can arrange the unit and the ball.
+Case 1: Car, Ship, Teddy Bear (CST)
+* B, CST
+* CST, B
+* B, TSC
+* TSC, B
+Since the teddy bear and ship can change order.
+Therefore, we have to consider the different orders in CST:
+C, S, T or C, T, S and S, C, T and T, C, S.
+Car, Ship, Teddy bear can be in two different orders: CST, CTS.
+We have a unit (car, ship, teddy bear) which is next to each other and ball. So unit-ball or ball-unit.
+Let the unit = U. The arrangements are:
+* B, U (2 arrangements)
+* U, B (2 arrangements)
+The car, teddy bear, ship can be arranged in 2 ways.
+So total = 2*2 = 4
+
+Answer: B)

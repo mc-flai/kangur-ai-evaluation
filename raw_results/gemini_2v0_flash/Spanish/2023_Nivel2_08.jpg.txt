@@ -1,0 +1,22 @@
+Razonamiento:
+Llamemos a los números en los cuadrados a, b, c, d, e.
+Tenemos la siguiente información:
+a*b = 30
+b*c = 15
+c*d = 42
+d*e = 28
+
+De b*c=15, tenemos que b = 15/c
+Sustituyendo en a*b=30, tenemos a*(15/c) = 30, por lo que a = 2c
+De c*d=42, tenemos que d = 42/c
+Sustituyendo en d*e = 28, tenemos (42/c)*e = 28, por lo que e = (28/42)*c = (2/3)*c
+Entonces los números son: a=2c, b=15/c, c=c, d=42/c, e=(2/3)c
+Tenemos que encontrar un entero positivo c, tal que los otros también lo sean.
+Los divisores de 15 son 1, 3, 5, 15
+Los divisores de 42 son 1, 2, 3, 6, 7, 14, 21, 42
+Para que b = 15/c y d = 42/c sean enteros, c tiene que ser divisor de 15 y 42, luego los divisores comunes de 15 y 42 son 1 y 3
+Si c = 1, entonces a=2, b=15, d=42, e=2/3 (e no es entero)
+Si c = 3, entonces a=6, b=5, d=14, e=2.
+Los números son 6, 5, 3, 14, 2. La suma es 6+5+3+14+2 = 30
+
+Respuesta: C)

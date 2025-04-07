@@ -1,0 +1,27 @@
+Para determinar cuántas partidas ganó el jugador, necesitamos analizar los resultados de las partidas de ajedrez:
+
+1. La victoria vale 1 punto.
+2. Las tablas (empate) valen medio punto.
+3. La derrota vale cero puntos.
+
+El jugador jugó 40 partidas y consiguió 25 puntos. Sea \( V \) el número de victorias, \( E \) el número de empates y \( D \) el número de derrotas. Podemos establecer las siguientes ecuaciones:
+
+\[ V + E + D = 40 \]
+\[ V + 0.5E + 0D = 25 \]
+
+De la primera ecuación, tenemos:
+
+\[ E + D = 40 - V \]
+
+Sustituyendo \( E + D \) en la segunda ecuación, obtenemos:
+
+\[ V + 0.5(40 - V) = 25 \]
+\[ V + 20 - 0.5V = 25 \]
+\[ 0.5V = 5 \]
+\[ V = 10 \]
+
+Por lo tanto, el jugador ganó 10 partidas.
+
+Razonamiento: Usamos las ecuaciones basadas en los puntos obtenidos y el número de partidas jugadas para determinar las victorias del jugador.
+
+Respuesta: C)

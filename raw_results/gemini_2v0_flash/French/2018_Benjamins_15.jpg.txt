@@ -1,0 +1,18 @@
+Reasoning:
+We have a line segment [TE] and points A, R, and I are marked on it.
+TA = (1/4)TE
+ER = (1/8)ET
+AI = (1/2)TE
+Since TA = (1/4)TE, point A is between T and E, closer to T.
+Since ER = (1/8)ET, point R is between E and T, closer to E.
+Since AI = (1/2)TE, point I is between A and E, and AI is half the segment TE.
+So we have T---A------------I-----------------------E
+Since ER=(1/8)ET, it is close to E. ET = TE. Then R is between T and E, where ER= 1/8 TE
+So on the line, starting from T, we will have A, I and R in between T and E.
+TA=(1/4)TE = 0.25 TE
+AI=(1/2)TE = 0.5 TE, therefore TI = TA+AI = 0.75 TE
+ER = (1/8)ET = (1/8)TE = 0.125 TE
+TR = TE - ER = TE - (1/8)TE = (7/8)TE = 0.875TE.
+The points ordered from T are A, I, and R. Therefore the order is TAIRE.
+
+Answer: C)

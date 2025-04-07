@@ -1,0 +1,16 @@
+**Reasoning:**
+1. We have 10 balls numbered from 0 to 9.
+2. Each person can take three balls and calculate the total of the numbers on the balls.
+3. To maximize the difference between the totals, we need to consider the highest and lowest possible sums.
+
+   - The highest possible sum occurs when each person takes the three balls with the highest numbers.
+   - The lowest possible sum occurs when each person takes the three balls with the lowest numbers.
+
+   Let's calculate the highest and lowest sums:
+
+   - Highest sum: 9 + 8 + 7 = 24
+   - Lowest sum: 0 + 1 + 2 = 3
+
+   The difference between the highest and lowest sums is 24 - 3 = 21.
+
+**Answer:** E)

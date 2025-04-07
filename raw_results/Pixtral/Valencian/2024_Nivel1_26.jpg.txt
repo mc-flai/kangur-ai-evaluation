@@ -1,0 +1,24 @@
+**Pregunta:** A, B i C són tres xifres diferents. Formem els noms de 6 xifres escrivint amb tres A, dues B i una C. Quins dels segments no pot ser mai el nom més gran que podem obtenir d'aquesta manera?
+
+**Opcions:**
+A) AAABBC
+B) CAAABB
+C) BBAAAC
+D) AAABCB
+E) AAACBB
+
+**Racionalització:**
+1. Tenim tres A, dues B i una C.
+2. Per formar el nom més gran possible, cal posar la xifra més gran en la primera posició.
+3. La xifra més gran entre A, B i C és C.
+4. Si C és la primera xifra, les opcions són C followed by any combination of A and B.
+5. Les opcions són: CABB, CAABB, CBAA, CBAB, CABB, etc.
+6. Observem les opcions donades:
+   - A) AAABBC: No té C com a primera xifra.
+   - B) CAAABB: Té C com a primera xifra.
+   - C) BBAAAC: No té C com a primera xifra.
+   - D) AAABCB: No té C com a primera xifra.
+   - E) AAACBB: No té C com a primera xifra.
+7. La resposta correcta és la que no té C com a primera xifra.
+
+**Resposta:** C) BBAAAC

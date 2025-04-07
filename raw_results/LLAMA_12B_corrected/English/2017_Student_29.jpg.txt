@@ -1,0 +1,34 @@
+Reasoning: 
+
+To solve this problem, we need to find the three-digit numbers $ABC$ (where A, B, and C are digits) such that their sum is a three-digit number that is the cube of an integer. In other words, we need to find all cubes of integers between 100 and 999.
+
+The cubes of integers from 5 to 9 are:
+
+* $5^3 = 125$
+* $6^3 = 216$
+* $7^3 = 343$
+* $8^3 = 512$
+* $9^3 = 729$
+
+Now, let's analyze each option:
+
+(A) 15: This is not a cube of an integer.  
+(B) 16: This is not a cube of an integer.  
+(C) 18: This is not a cube of an integer.  
+(D) 20: This is not a cube of an integer.  
+(E) 21: This is not a cube of an integer.  
+
+However, if we look at the larger integers, we can see that:
+
+* $10^3 = 1000$, which is too large  
+* $11^3 = 1331$, which matches option A  
+
+But wait, we also have another option:
+
+* A cube could also be expressed as $(AB)^3$, where $AB$ is a two-digit number. Let's check the options again:
+
+(B) 16: This could be $4^3$ because $4 \times 4 = 16$. However, this would mean $A = 4$, $B = 6$, $C = 0$, which is not a three-digit number.  
+(D) 20: This could be $4^3$ because $4 \times 4 = 16$. However, this would mean $A = 4$, $B = 6$, $C = 0$, which, again, is not a three-digit number.  
+Therefore, we conclude no additional options satisfy the condition and only option A is the correct answer.
+
+Answer: A)

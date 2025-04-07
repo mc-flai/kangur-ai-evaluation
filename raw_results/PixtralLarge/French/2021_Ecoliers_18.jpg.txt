@@ -1,0 +1,42 @@
+Pour résoudre la question 18, nous devons déterminer sur quelle case la couronne est placée. Voici les indices fournis :
+
+1. Le coq n'est pas sur la case 5.
+2. Le cœur est sur la case 1.
+3. La couronne est juste à côté de l'éléphant et du trèfle.
+
+Les cases sont numérotées de 1 à 5. Nous devons placer chaque vignette (trèfle, éléphant, coq, cœur, couronne) sur une case distincte en respectant les indices.
+
+### Étapes du raisonnement :
+
+1. **Placer le cœur :**
+   - Le cœur est sur la case 1.
+   - Donc, la case 1 est occupée par le cœur.
+
+2. **Placer le coq :**
+   - Le coq n'est pas sur la case 5.
+   - Les cases restantes pour le coq sont 2, 3, et 4.
+
+3. **Placer la couronne :**
+   - La couronne doit être juste à côté de l'éléphant et du trèfle.
+   - Cela signifie que la couronne doit être sur une case adjacente à l'éléphant et au trèfle.
+
+4. **Placer l'éléphant et le trèfle :**
+   - L'éléphant et le trèfle doivent être sur des cases adjacentes à la couronne.
+   - Les cases adjacentes possibles pour la couronne sont 2-3, 3-4, ou 4-5.
+
+5. **Élimination des possibilités :**
+   - Si la couronne est sur la case 2, alors l'éléphant et le trèfle doivent être sur les cases 1 et 3, mais la case 1 est déjà occupée par le cœur.
+   - Si la couronne est sur la case 3, alors l'éléphant et le trèfle doivent être sur les cases 2 et 4.
+   - Si la couronne est sur la case 4, alors l'éléphant et le trèfle doivent être sur les cases 3 et 5.
+
+6. **Vérification des placements :**
+   - Si la couronne est sur la case 3, l'éléphant et le trèfle peuvent être sur les cases 2 et 4 respectivement.
+   - Le coq peut être sur la case 5.
+   - Cela respecte tous les indices.
+
+### Conclusion :
+La couronne est sur la case 3.
+
+Raisonnement : La couronne doit être sur la case 3 pour que tous les indices soient respectés.
+
+Réponse : C)

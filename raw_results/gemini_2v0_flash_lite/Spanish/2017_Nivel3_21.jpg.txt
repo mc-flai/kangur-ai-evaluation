@@ -1,0 +1,13 @@
+Razonamiento:
+La suma de los ángulos internos de un triángulo es 180 grados. Queremos minimizar la suma del ángulo menor y el mayor, y los tres ángulos deben ser enteros distintos.  Para minimizar la suma, debemos tener los tres ángulos lo más cercanos entre sí posible. Los tres ángulos no pueden ser iguales.
+
+Si intentamos valores cercanos, podemos tener los ángulos como 59, 60 y 61. Esto suma 180.  El menor es 59, el mayor es 61. La suma es 59 + 61 = 120.
+Sin embargo, la pregunta quiere la menor suma posible del ángulo menor y el mayor.
+Si un ángulo es 1, entonces los otros dos deben sumar 179.  Estos pueden ser 2 y 177, pero queremos minimizar la suma de los extremos.  1+177=178.
+Si un ángulo es 2, los otros dos deben sumar 178, por ejemplo 3 y 175, 2+175=177.
+Podemos usar 59, 60 y 61.
+Menor ángulo: 59
+Mayor ángulo: 61
+Suma: 59+61=120
+
+Respuesta: D)

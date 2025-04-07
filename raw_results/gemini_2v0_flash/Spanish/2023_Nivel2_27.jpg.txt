@@ -1,0 +1,14 @@
+Razonamiento:
+Let $n$ be the number of consecutive integers, which is 2023.
+Let $S$ be the sum of the consecutive integers, which is 2023.
+Let $a$ be the first integer in the sequence.
+The sum of $n$ consecutive integers starting from $a$ is given by
+$$S = \sum_{i=0}^{n-1} (a+i) = na + \sum_{i=0}^{n-1} i = na + \frac{n(n-1)}{2}.$$
+In this case, $n = 2023$ and $S = 2023$. Thus, we have
+$$2023 = 2023 a + \frac{2023(2022)}{2}.$$
+Dividing by 2023, we get
+$$1 = a + \frac{2022}{2} = a + 1011.$$
+So, $a = 1 - 1011 = -1010$.
+The smallest integer in the sequence is $a = -1010$. The sum of the digits of the smallest integer is $1+0+1+0 = 2$.
+
+Respuesta: A)

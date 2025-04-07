@@ -1,0 +1,23 @@
+Reasoning:
+Let the three consecutive whole numbers be $n-1, n, n+1$.
+The sums at the vertices are:
+Vertex 1: $(n-1) + n = 2n-1$
+Vertex 2: $n + (n+1) = 2n+1$
+Vertex 3: $(n-1) + (n+1) = 2n$
+The product of these sums is $(2n-1)(2n)(2n+1) = 504$.
+
+We need to find the product of the three numbers written on the sides, which is $(n-1)(n)(n+1)$.
+We can approximate $2n$ to find an estimated value for $n$:
+$(2n-1)(2n)(2n+1) \approx (2n)^3 = 8n^3 = 504$
+$n^3 = 504/8 = 63$
+Since $3^3 = 27$ and $4^3 = 64$, we can try $n=4$.
+
+If $n=4$, then the numbers are 3, 4, 5. The sums at the vertices are:
+3+4 = 7
+4+5 = 9
+3+5 = 8
+The product of these sums is $7 \times 9 \times 8 = 504$.
+
+The product of the three numbers written on the sides of the triangle is $3 \times 4 \times 5 = 60$.
+
+Answer: B)

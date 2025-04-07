@@ -1,0 +1,24 @@
+
+La pregunta 27 solicita que utilicemos los dígitos impares para formar todos los posibles números de tres cifras y luego sumemos esos números.
+
+Para abordar esto, primero identificamos los dígitos impares: 1, 3, 5, 7, 9.
+
+Luego, generamos todos los números de tres cifras posibles utilizando estos dígitos. Hay 5 opciones para cada posición (centenas, decenas y unidades), lo que da un total de 5 * 5 * 5 = 125 números de tres cifras.
+
+A continuación, sumamos todos estos números. Para simplificar, podemos usar la fórmula de la suma de una progresión aritmética. La suma de los primeros n términos de una progresión aritmética se puede calcular como:
+
+\[ S = \frac{n}{2} \times (a + l) \]
+
+donde \( n \) es el número de términos, \( a \) es el primer término y \( l \) es el último término.
+
+En este caso, los números van desde 101 a 999, por lo que el primer término \( a = 101 \) y el último término \( l = 999 \). El número de términos \( n = 999 - 101 + 1 = 900 \).
+
+Entonces, la suma \( S \) es:
+
+\[ S = \frac{900}{2} \times (101 + 999) \]
+\[ S = 450 \times 1000 \]
+\[ S = 450000 \]
+
+Por lo tanto, la suma de todos los números de tres cifras formados con los dígitos impares es 450000.
+
+**Respuesta: E)**

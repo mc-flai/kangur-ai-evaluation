@@ -1,0 +1,26 @@
+Per resoldre aquest problema, hem de considerar la progressió dels triangles blancs en cada figura de la sèrie.
+
+1. Observem les figures:
+    - Figura 1: 0 triangles blancs.
+    - Figura 2: 1 triangle blanc.
+    - Figura 3: 4 triangles blancs.
+
+2. Identifiquem el patró:
+    - Cada figura posterior té un nombre de triangles blancs que és el quadrat del número de l'etapa anterior.
+
+3. Verifiquem el patró:
+    - Figura 1: 0 (0² = 0).
+    - Figura 2: 1 (1² = 1).
+    - Figura 3: 4 (2² = 4).
+
+4. Determinem el nombre de triangles blancs en la següent figura (4a etapa):
+    - 3² = 9.
+
+5. Determinem el nombre de triangles blancs en la següent figura (5a etapa):
+    - 4² = 16.
+
+Per tant, la resposta correcta és 16.
+
+Raonament: El nombre de triangles blancs en cada etapa és el quadrat del número de l'etapa anterior. Per a la 5a etapa, hem de calcular 4², que és 16.
+
+Resposta: D).

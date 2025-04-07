@@ -1,0 +1,12 @@
+**Reasoning**:
+1. There are 10 creatures in total, with each given a token numbered from 1 to 10.
+2. The sum of the answers given by all creatures is 36.
+3. Since elves tell the truth, their answers will match their token numbers.
+4. Trolls lie, so their answers will be different from their token numbers.
+5. If all creatures were elves, the sum of their answers would be 1 + 2 + 3 + ... + 10 = 55.
+6. The actual sum of answers is 36, which is 19 less than 55.
+7. Each troll's lie reduces the sum by at least 1.
+8. Since the sum is reduced by 19, there must be at least 19 instances where lies were told.
+9. Since each troll lies only once, the smallest number of trolls needed to account for this reduction is 4 (as 4 trolls could lie by a total of 19).
+
+**Answer**: C)

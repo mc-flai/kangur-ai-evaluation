@@ -1,0 +1,36 @@
+**Razonamiento**:
+Para determinar cuál de los conjuntos contiene solo números primos, debemos verificar cada número en cada conjunto para ver si es primo. Un número primo es un número entero mayor que 1 que tiene exactamente dos divisores: 1 y el propio número.
+
+- **A) {3, 5, 7, 9}**:
+  - 3 es primo.
+  - 5 es primo.
+  - 7 es primo.
+  - 9 no es primo (divisores: 1, 3, 9).
+
+- **B) {3, 13, 23, 33}**:
+  - 3 es primo.
+  - 13 es primo.
+  - 23 es primo.
+  - 33 no es primo (divisores: 1, 3, 11, 33).
+
+- **C) {3, 13, 17, 51}**:
+  - 3 es primo.
+  - 13 es primo.
+  - 17 es primo.
+  - 51 no es primo (divisores: 1, 3, 17, 51).
+
+- **D) {1, 3, 6, 19}**:
+  - 1 no es primo.
+  - 3 es primo.
+  - 6 no es primo (divisores: 1, 2, 3, 6).
+  - 19 es primo.
+
+- **E) {2, 3, 5, 7}**:
+  - 2 es primo.
+  - 3 es primo.
+  - 5 es primo.
+  - 7 es primo.
+
+De los conjuntos dados, el conjunto E) {2, 3, 5, 7} contiene solo números primos.
+
+**Respuesta**: E)

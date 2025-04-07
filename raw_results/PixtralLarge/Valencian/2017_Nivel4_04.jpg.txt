@@ -1,0 +1,31 @@
+Per resoldre aquesta pregunta, hem de determinar el valor més gran possible de la fracció en la qual la suma del numerador i del denominador és menor o igual a 103, i a més, el numerador i el denominador són nombres enters positius.
+
+Primer de tot, diem que el numerador és \( a \) i el denominador és \( b \). La condició donada és:
+\[ a + b \leq 103 \]
+
+Per simplificar, suposem que \( a + b = 103 \), perquè volum el valor màxim.
+
+Ara, la fracció serà més gran quan el numerador sigui el més a prop possible del denominador. Això significa que \( a \) i \( b \) han de ser els més propers possibles l'un de l'altre.
+
+Per això, podem dividir 103 entre 2:
+\[ 103 \div 2 = 51.5 \]
+
+Com que a i b han de ser nombres enters, el numerador i el denominador més propers seran 51 i 52.
+
+Per tant, la fracció serà:
+\[ \frac{51}{52} \]
+
+Convertint aquesta fracció en una decimal:
+\[ \frac{51}{52} \approx 0.98077 \]
+
+Convertint aquesta decimal en una fracció:
+\[ 0.98077 \approx \frac{98077}{100000} \]
+
+Simplificant aquesta fracció:
+\[ \frac{98077}{100000} \approx \frac{25}{26} \]
+
+Per tant, la fracció més gran possible és aproximadament igual a \( \frac{25}{26} \).
+
+Raonament: La fracció més gran possible amb la suma del numerador i el denominador igual a 103 és \( \frac{51}{52} \), que és proper a \( \frac{25}{26} \).
+
+Resposta: D)

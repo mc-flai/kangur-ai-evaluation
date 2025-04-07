@@ -1,0 +1,27 @@
+Per resoldre aquesta pregunta, necessitem calcular l'àrea de l'el·lipse (rombe) donat que la suma de les longituds dels seus vèrtexs oposats són 80 cm i 60 cm.
+
+**Raonament:**
+
+1. Els vèrtexs oposats d'un rombe són iguals, per tant si un parell de vèrtexs oposats sumen 80 cm, cada vèrtex mesura 40 cm. De la mateixa manera, l'altre parell de vèrtexs oposats sumen 60 cm, per tant cada vèrtex mesura 30 cm.
+
+2. Les diagonals de l'el·lipse són perpendiculars i es bisequen, per tant, la longitud de cada diagonal és el doble de la longitud de cada vèrtex:
+   - Diagonal 1: 2 * 40 cm = 80 cm
+   - Diagonal 2: 2 * 30 cm = 60 cm
+
+3. L'àrea d'un rombe es pot calcular amb la fórmula:
+   \[
+   \text{Àrea} = \frac{1}{2} \times d_1 \times d_2
+   \]
+   on \(d_1\) i \(d_2\) són les longituds de les diagonals.
+
+4. Substituint els valors:
+   \[
+   \text{Àrea} = \frac{1}{2} \times 80 \, \text{cm} \times 60 \, \text{cm} = \frac{1}{2} \times 4800 \, \text{cm}^2 = 2400 \, \text{cm}^2
+   \]
+
+5. Convertint \(\text{cm}^2\) a \(\text{m}^2\), sabent que \(1 \, \text{m}^2 = 10000 \, \text{cm}^2\):
+   \[
+   2400 \, \text{cm}^2 = \frac{2400}{10000} \, \text{m}^2 = 0.24 \, \text{m}^2
+   \]
+
+**Resposta:** A) 0,24 m²

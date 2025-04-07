@@ -1,0 +1,18 @@
+Raonament: Analitzem la suma de la dreta. A la columna de les unitats tenim D + C + B + A = 1 o D + C + B + A = 11 o D + C + B + A = 21, etc., ja que pot ser que ens portem alguna unitat de les columnes anteriors.
+
+A la columna de les desenes tenim C + B + A + carry = 2, on carry és 0, 1, o 2 (perquè com a màxim a la columna anterior podem sumar 9+8+7+6=30). Si sumen 2 sense portar-ne cap, C+B+A = 2.
+
+A la columna de les centenes tenim B + A + carry = 3, on carry és 0, 1 o 2. Això ens indica que B + A serà 1, 2 o 3.
+A la columna dels milers, tenim A = 4.
+
+Substituint A = 4 a B + A, tindrem que B + 4 = 1, 2 o 3, però com que els números han de ser diferents i més grans que zero, aquesta solució no pot ser possible, i per tant deduïm que hi ha una unitat que portem de la columna de les centenes a la dels milers. En aquest cas, B + A + carry = 13. I per tant, com que tenim que A és igual a 4, aleshores 4+B = 13, o 4+B = 12 o 4+B = 11. De les quals en resulta B = 9, 8 o 7. Si analitzem el següent, ens diu que C+B+A = 12 i D+C+B+A = 21. A partir d'aquí se'ns fa més complexe resoldre-ho.
+La clau és observar que en les unitats D+C+B+A = 1 o 11 o 21 o 31. Si sabem que A=4 i la suma total és 4321, i totes les lletres són diferents i més grans que zero, aleshores D+C+B+A = 21 i C+B+A=12 i B+A=13. A partir de les següents deduccions obtenim: A = 4. Si B+A=13, aleshores B=9. Si C+B+A = 12, aleshores C = 12 - 9 - 4 = -1 que no pot ser. Aleshores portem 1 de les unitats a les desenes C+B+A = 2, i amb les desenes haurem de resoldre el C+B+A = 12.
+
+A = 4. Com que A és 4, A no pot ser 1 ni 2 ni 3. A les desenes tenim que C + B + A + carry = 2 i a les centenes B + A + carry = 3 i a les unitats D+C+B+A = 1.
+Sabem que els números A, B, C i D són entre 1 i 9, per tant, una de les alternatives que ens dona solució és quan A= 6, B=8, C=3 i D=4.
+Aleshores A+B+C+D = 6 + 8 + 3 + 4 = 21.
+Una altra alternativa seria A=7 B= 3 C= 9, per tant A+B+C= 19 o 29. Podem obtenir B=1 i A=7, B+A=8, llavors C=4. i a D=3. Sumem A+B+C+D = 7+1+4+3= 15.
+
+Si A+B+C+D=21
+
+Resposta: B)

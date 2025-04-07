@@ -1,0 +1,12 @@
+### Reasoning:
+Joseph has four items: a toy car, a teddy bear, a ball, and a ship. The ship must be next to the car, and the teddy bear must also be next to the car. We need to determine how many different orders can satisfy these conditions.
+
+First, let's place the car and the ship together. We can consider them as a single unit since they must be next to each other. Now, we have three units to arrange: the car-ship unit, the teddy bear, and the ball.
+
+1. Arrange the three units: The car-ship unit, the teddy bear, and the ball. There are 3! (3 factorial) ways to arrange these three units, which is 3 × 2 × 1 = 6 ways.
+
+2. Within the car-ship unit, the ship can be either to the left or right of the car. This gives us 2 possible arrangements for the car-ship unit.
+
+Combining these, the total number of different orders is 6 (arrangements of the units) × 2 (arrangements within the car-ship unit) = 12 different orders.
+
+### Answer: D

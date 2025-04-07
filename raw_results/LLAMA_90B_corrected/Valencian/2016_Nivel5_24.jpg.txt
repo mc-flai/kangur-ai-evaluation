@@ -1,0 +1,3 @@
+Raonament: Hi ha 3 punts en total. Admetem que cada punt pot pendre com a categoria A, B o C (en total, 3 categories). Aleshores, per determinar quants punts poden ser A, hem de saber quantejar 3 punts. Sabem que el primer punt sempre podrà ser A, però els altres dos no sempre ho poden ser. Per tant, quan el primer punt també és A, el segon punt pot ser altre que A, i si així és, no podem saber si el tercer punt és A o no. Així, és clar que si dos punts són A (i un és B o C), hi ha un munt de longitud de camins amb 3 punts que sempre són A (per exemple, A - B - C, A - C - B, B - A - C,...). Per tant, és evident que la sortida és A) 12-1/12, ja que només hi ha camins per la qual els tres punts no estan sempre alineats.
+
+Resposta: A).

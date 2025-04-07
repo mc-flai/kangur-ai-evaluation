@@ -1,0 +1,3 @@
+Raonament: El cangur A fa salts de 6 m. Per tant, la distància que recorre en 'n' salts és 6n. El cangur B fa salts cada cop més llargs, que formen una progressió aritmètica de diferència 1. La distància total que recorre el cangur B en 'n' salts és la suma dels termes d'una PA: (n/2)(2*1 + (n-1)*1) = (n/2)(n+1). Volem trobar el nombre de salts 'n' per als quals la distància recorreguda pel cangur B és igual o superior a la del cangur A.  Per tant, (n/2)(n+1) >= 6n. Si n és diferent de 0, podem dividir per n: (n+1)/2 >= 6, llavors n+1 >= 12, per tant n >= 11. Provant amb 11 salts: cangur A -> 6 * 11 = 66 m; cangur B -> (11/2)(11+1) = (11/2)*12 = 66 m. Per tant, el cangur B necessita 11 salts per atrapar el cangur A.
+
+Resposta: C)

@@ -1,0 +1,19 @@
+Razonamiento:
+The problem asks to find the minimum number of matchsticks Alice needs to draw to satisfy the given conditions. The numbers in the grid represent the number of matchsticks around each cell. We can construct the path of the matchsticks to satisfy the conditions.
+*   Cell with 0: needs no matchsticks, which means no matchstick on any of the sides
+*   Cell with 1: needs one matchstick around it.
+*   Cell with 2: needs two matchsticks around it
+*   Cell with 3: needs three matchsticks around it.
+Since the number of matchsticks around the cells is already given, let's draw the minimum number of matchsticks required.
+*   Starting from the horizontal line, we can draw a rectangle path.
+*   The top left corner is 2, we need 2 matchsticks around that cell, so draw 2 matchsticks.
+*   The number on top is 2, draw 2 matchsticks, so draw 2 matchsticks
+*   The number is 1, draw 1 matchsticks
+*   the number is 3, draw 3 matchsticks
+*   The number is 0, we do not need any matchsticks
+*   the number is 3, draw 3 matchsticks.
+
+Drawing the minimal number of matchsticks would satisfy all of the cells' requirements.
+Total number of matchsticks will be: 2 + 1 + 3 + 2 + 1 + 3= 12.
+
+Respuesta: A)

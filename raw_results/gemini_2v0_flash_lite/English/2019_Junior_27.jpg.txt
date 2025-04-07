@@ -1,0 +1,26 @@
+Reasoning: A cube has 8 vertices. A plane can be defined by three non-collinear points.  We need to find the number of planes that can be formed using exactly three vertices of a cube.  There are two types of such planes: (1) Planes that contain a face of the cube, and (2) Planes that cut through the cube, passing through 4 vertices (e.g. the plane going through vertices A, C, E, G in a cube ABCDEFGH, where A and E are at the opposite corners of a cube).
+
+Planes that contain a face: A cube has 6 faces, and each face determines a plane.
+Planes that cut through: There are 6 such planes.
+So the total number of planes that pass through exactly three vertices of a given cube are of the form (1) and (2) :6+0
+Another way is as follows:
+The face planes are those formed by exactly three vertices. This can be formed by four vertices: 6 planes, which is 12 options as 3 out of these 4 points define a plane.
+There are also the planes that are cutting through. These are planes that have diagonals. These planes go through 4 vertices.
+We have to count how many such planes there exist.
+For the cube, we can see there are 6 faces, where the plane goes through all 4. In total this will create 6 planes.
+The plane defined by each face contains 4 points. So we choose exactly 3 points out of these 4. 4C3 = 4, but they are all within the same plane and the plane is the same.
+The planes contain exactly three vertices should be the same as face planes + cross sections
+There are 6 faces.
+There are also cross section planes that cut though the cube such that it makes diagonals.
+So these are 6*2 = 12 planes.
+There are 6 planes that intersect at the diagonals of each face
+Total planes = 6(faces) + 6(cross section) = 12.
+The question requires us to select 3 points. The planes formed using these points must be chosen. If the points are collinear, the plane is not formed. If four points are on the same plane, we still cannot choose those four. So let's select 3 points out of 8.
+8C3 = 8! / (3! * 5!) = 8 * 7 * 6 / 6 = 56.
+The faces are formed as planes, so there will be 6 faces. For the plane through 4 vertices, you can pick any 3 from 4, but they will fall in same plane, so we can consider there being 4 planes using these 4 vertices.
+However, we need exactly 3 vertices, so there will be no such planes.
+So, 6+0 = 6.
+There are 6 faces, and we can create a plane from each. This means that there will be 6 planes, each with a face, so it passes through 4 vertices.
+Total planes are 2*4 = 8
+
+Answer: C)

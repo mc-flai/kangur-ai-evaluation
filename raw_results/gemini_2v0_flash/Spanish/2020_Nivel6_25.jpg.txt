@@ -1,0 +1,19 @@
+Razonamiento:
+Sea x el número de sabores que se agotaron. Entonces Belén elige 3 sabores de los 16-x que quedaron.
+Ana elige 2 sabores de 16 sabores iniciales.
+El número de combinaciones posibles de sabores que Ana puede elegir es C(16, 2) = 16! / (2! * 14!) = (16 * 15) / 2 = 120
+El número de combinaciones posibles de sabores que Belén puede elegir es C(16-x, 3) = (16-x)! / (3! * (13-x)!) = (16-x) * (15-x) * (14-x) / 6
+Necesitamos encontrar x tal que C(16, 2) = C(16-x, 3)
+120 = (16-x) * (15-x) * (14-x) / 6
+720 = (16-x) * (15-x) * (14-x)
+
+Probamos los valores de x dados en las opciones:
+A) x = 2: (16-2) * (15-2) * (14-2) = 14 * 13 * 12 = 2184
+B) x = 3: (16-3) * (15-3) * (14-3) = 13 * 12 * 11 = 1716
+C) x = 4: (16-4) * (15-4) * (14-4) = 12 * 11 * 10 = 1320
+D) x = 5: (16-5) * (15-5) * (14-5) = 11 * 10 * 9 = 990
+E) x = 6: (16-6) * (15-6) * (14-6) = 10 * 9 * 8 = 720
+
+Por lo tanto, x = 6.
+
+Respuesta: E)

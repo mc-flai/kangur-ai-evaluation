@@ -1,0 +1,23 @@
+Raonament:
+1. **Analitzar les equacions donades:** Tenim dues equacions clau:
+    *   `f(x) = 2f(x + 1)`
+    *   `f(x + y) = f(x) * f(y)`
+2. **Utilitzar la segona equació per trobar un valor d'una funció:** Farem x=0:
+    *   `f(0 + y) = f(0) * f(y)`
+    *   `f(y) = f(0) * f(y)`
+    *   Llavors, `f(0)` ha de ser igual a 1.
+3. **Utilitzar la primera equació per obtenir més informació:** Posarem x = -1:
+    *   `f(-1) = 2f(0)`
+    *   Com `f(0) = 1`, `f(-1) = 2`.
+4. **Reescriure l'equació original per calcular l'expressió buscada:**
+    *   Observem que `f(x) = 2f(x+1)`.  Això significa que `f(x+1) = f(x)/2`.
+    *   Per tant, podem escriure:
+        *   `f(2015/2016) = f(2016/2016 - 1/2016) = f(1/2016 - 1)/2`
+    *   Volem trobar `f(1/2016) * f(2015/2016)`. Sabem que `f(x+y) = f(x)*f(y)`. Per tant, podem escriure:
+        *   `f(1/2016) * f(2015/2016) = f(1/2016 + 2015/2016) = f(1)`
+    *   Amb la informació de `f(x) = 2f(x+1)`, podem deduir que `f(x+1) = f(x)/2`.
+    *   Així `f(0) = 2f(1)`, i com f(0) = 1, llavors `f(1) = 1/2`.
+5. **Calcular el valor de l'expressió:**
+    *   `f(1/2016) * f(2015/2016) = f(1) = 1/2`
+
+Resposta: B)

@@ -1,0 +1,110 @@
+Reasoning:
+To guarantee having at least one apple and one pear of the same color, consider the worst-case scenario.
+Sebastian could first pick all the fruits of one type, say all the apples (3 green + 5 yellow = 8 apples).
+Then, he could pick all the pears of a different color than any apple he has (e.g., all 7 green pears).
+At this point, he has 8 apples and 7 green pears, for a total of 15 fruits.
+However, since he picked all the apples and all the green pears, the next fruit picked must be a yellow pear. Since there were already 5 yellow apples picked, then it is guaranteed to have at least one apple and one pear of the same color.
+
+Another perspective.
+The worst case is that he picks: all fruits of one type. He could start by picking all the green apples, then the yellow apples, so it is 3 + 5 = 8 apples.
+Now he could be unlucky and picks all green pears, so it is 7 green pears. Then he has 8 apples and 7 green pears. The next fruit he picks must be yellow pear, and since we already picked 5 yellow apples, then we have a match.
+He picked all the apples plus the green pears and 1 yellow pear to make a pair of the same color.
+So it will be: 8 + 7 + 1 = 16. But we already have apples!
+So, imagine he picked all green apples, all yellow apples, all green pears and all yellow pears except for one. If he takes one more, then he can have a pair. The last will combine with all apples with a pear to have one of the same colour. Then, the worst case is picking every other case, like the 3 green apples, 5 yellow apples, 7 green pears... then the next must be a yellow pear. If we pick the 3 green apples, the 5 yellow apples and then 7 green pears. The next one can't be green apple, it must be yellow pear. Since he picked 5 yellow apples, then the next must be a pair. So that would be 3 + 5 + 7 + 1 = 16. The worst-case scenario is 5 yellow apples, 3 green apples, and 7 green pears, then the next one is yellow pear, which will give a yellow apple-yellow pear. If he only picks yellow pears, then worst case is 2. So, the number is 5+3+7+1= 16!
+So, we have to pick: 5 yellow apples + 3 green apples, then the 7 green pears. Then if he picks 1 more then it has to be a yellow pear. Since he picked yellow apples, then it will make a pair. So 5+3+7+1 = 16.
+Let's see: 8 + 2 = 10. so it has 8 apples and 2 yellow pears. So if he pick another, then there should be 1. If he picks the last, then since there is a yellow apple. The worst case scenario to NOT have 1 pear and 1 apple that have the same colour is:
+Picking up all apples = 8. All green pears = 7. Then he already have a yellow pair. So he needs one yellow pear, so it will be 8 + 7 + 1 = 16
+So: 3+ 5 + 7 + 2 = 17
+I think 9
+
+Reasoning:
+Consider the worst-case scenario. He picks all of one type of fruit first.
+Case 1: He picks all the apples first: 3 green + 5 yellow = 8 apples
+Then to avoid having a matching color he has to pick either all of the 7 green pears OR all 2 yellow pears
+If he pick the 7 green pears, then next pick has to be one yellow pear since there are yellow apples, making the total as 8+7+1=16 so that is too much.
+What is the worst case? He picks all 8 apples, then picks 2 yellow pears. So he have to pick until he has one green pear, so it becomes 11.
+
+The worst case is picking 8 apples (all apples), then picking all pears of ONE color - the larger set, which are 7 green pears. This makes a total of 15 fruits picked. Since there is always one apple and one pear of each colour if we assume the question. Now he picks one fruit either apear or an apple and it has to match. So we need 1 pear or one apple
+
+So he picks 5+3+7 then next one will make a yellow pear so 15+1?
+
+Ok, to have one of same type
+
+The worst case 
+We can pick all types of apples = 3+5=8. Pick all green pears =7
+Then whatever else you pick will make a type. We've picked 15.
+The amount of yellow pears. Now it will be 16, with 5 yellow apples. Then he have to take 5-yellow apples, 3-green apples and all 7 green pears =15
+But there are only 2 yellow pears so he has to have 5+3+7 +next one is a pear of yellow colour:
+
+Worst case he needs
+5+3+2 = 10 apples. The next will be pears.
+So, we pick one fruit, either apple OR pear: Pick 3 green apples, then 2+5 =7 other apples.
+We have 7 green pears. The only type left will be yellow pears. So all 7 green+apples. Pick 3 + 7. = 10
+3 + 7
+
+Answer: B)
+Reasoning: To guarantee at least one apple and one pear of the same color, we consider the worst-case scenario. Sebastian could pick all the apples first (3 green + 5 yellow = 8 apples). Then, he could pick all the pears of one color, say the 2 yellow pears. At this point, he has 8 apples and 2 yellow pears. The next piece of fruit he picks *must* be a green pear. Since there were no green apples in the picked fruit set, he still doesn't have a pair of same colours. So that's 8 apples + 2 yellow pears = 10 fruits. If his last fruit is yellow then 11. so that won't do.
+Let's calculate the worst-case. Sebastian picks all the apples 3 green + 5 yellow = 8. The last to go will be if he picked only all yellow.
+The next pick would have to give him either green pair and or yellow pair
+How many apples are in total: = 8
+Pears in green =7
+Peasr in yellow =2 so 27.
+
+So:
+3 green and  apples+5 y apples = 8+ 7green pairs =11 then 8, but not 12.
+So let him pick 11
+Worst Case-we need 1 pear and 1 apple
+3+1 +1 = 5. 5y a + 5
+
+Worst = all apples and 1 other =2 or 7 8. Worst case to have at least 1 and 1 apple.
+Reasoning:
+The problem asks how many fruits must be taken to *guarantee* having one apple and one pear of the same color.
+
+Worst case scenario:
+*   He first picks all the apples: 3 green + 5 yellow = 8.
+*   Then, he picks all of one kind of pear, say the green pears: 7 green pears.
+Now, he has 8 apples and 7 green pears. He still doesn't have a matching pair. He has picked 8 + 7 = 15 pieces of fruit.
+However, since there are only 3 green apples and 7 green pears, the next one to be selected will guarantee the criteria.
+Therefore he can be sure if: all apples 8 all green pears then pick a fruit = yellow pear -> the yellow apples that he already took will match. Therefore the next one is one so =8+8+ =9 Then if there are yellow apples. It would be 5+7 then 1
+
+He has all other options
+Or, to guarantee that we can: take all of one type of fruit or type other one!
+
+Reasoning:
+Sebastian must take fruits until he has at least one apple and one pear of the same color. Consider the worst-case scenario to ensure a guarantee.
+
+1.  He first picks all of one type of fruit. The maximum number he could pick is all apples = 3 (green) + 5 (yellow) = 8 apples.
+
+2.  To continue the "worst case", he avoids the matching colours. The next fruits he picks must be of different colors than any of the apples he's already picked. So he picks 7 green pears.
+
+Currently, he has 8 apples and 7 green pears. Note that at this state, the minimum requirement (i.e. at least one apple and one pear of the same colour) hasn't been met yet because all the apples picked so far are either green or yellow while the pears are only green.
+
+What happens next? If the next fruit he picks turns out to be green, no apple and pears of the same colour exists either. But at this point, that's no longer possible.
+
+Because he has picked all the apples and most pears of one colour (i.e. 7 green pears), then only 2 yellow pairs remain. Once the yellow pear is picked, the criterion specified by the question is met.
+
+Total number of fruits he has to pick until a matching pair exists is equal to the apples plus number of non matching pears with the required pears. That is
+8 (apples) + (7(unpaired) pears) + some extra pairings.
+
+The next fruit picked must be a pear of the only remaining colour = yellow.
+Now the next one must be an apple or pear.
+
+Worst Case Scenario: He needs 1 fruit apple and one pear with a same color
+Then next would be a pair.
+
+8 apples + 2 yellow pears will give apple of the same type?
+Then how would this make us know if we meet the scenario
+
+3+5= 8 + 7(same color of the pear
+We need total numbers, but
+He can be sure of
+1. he took fruit apple.
+And 1
+2 -Pear same colour
+
+8 green - + 7 green pears and 2 yellow - we dont pick anymore. But for a yellow  then
+
+8app +1 and yellow
+So the number has to be 9
+
+Answer: A)

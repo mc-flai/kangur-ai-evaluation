@@ -1,0 +1,8 @@
+Razonamiento:
+La pregunta 24 nos pide encontrar la cantidad de números de cuatro cifras de la forma "abab", donde 'a' y 'b' son dígitos distintos.
+El dígito 'a' puede ser cualquier número del 1 al 9 (no puede ser 0 porque el número sería de 3 cifras). Por lo tanto, 'a' tiene 9 posibles valores.
+Una vez que 'a' ha sido seleccionado, el dígito 'b' puede ser cualquier dígito del 0 al 9, excepto el valor de 'a'. Esto significa que 'b' tiene 9 posibles valores (10 dígitos totales menos el valor que ya tomó 'a').
+Para obtener el número total de combinaciones posibles, multiplicamos el número de opciones para 'a' por el número de opciones para 'b'.
+Por lo tanto, hay 9 * 9 = 81 números "interesantes".
+
+Respuesta: B)

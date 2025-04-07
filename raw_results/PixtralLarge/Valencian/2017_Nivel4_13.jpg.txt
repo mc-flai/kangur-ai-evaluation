@@ -1,0 +1,23 @@
+Per resoldre aquest problema, hem de determinar quin nombre no pot ser un quadrat d'un enter. Els nombres donats són 2, 6, 8, 10 i un altre nombre.
+
+Raonament:
+
+1. Un nombre és un quadrat d'un enter si pot ser expressat com \( n^2 \) on \( n \) és un enter.
+2. Examinem els nombres donats:
+    - \( 2 = 1^2 + 1 \) (No és un quadrat perfecte)
+    - \( 6 = 2^2 + 2 \) (No és un quadrat perfecte)
+    - \( 8 = 2^2 + 4 \) (No és un quadrat perfecte)
+    - \( 10 = 3^2 + 1 \) (No és un quadrat perfecte)
+
+3. Analitzem les opcions donades:
+    - A) 3: \( 3 = 1^2 + 2 \) (No és un quadrat perfecte)
+    - B) 4: \( 4 = 2^2 \) (Sí és un quadrat perfecte)
+    - C) 9: \( 9 = 3^2 \) (Sí és un quadrat perfecte)
+    - D) 11: \( 11 = 3^2 + 2 \) (No és un quadrat perfecte)
+    - E) 12: \( 12 = 3^2 + 3 \) (No és un quadrat perfecte)
+
+4. Els únics candidats que no són quadrats perfectes són A), D) i E).
+
+5. Donat que els números donats (2, 6, 8, 10) són enters positius i no són quadrats perfectes, el nombre que no pot ser un quadrat perfecte entre les opcions és 11 (D).
+
+Resposta: D)

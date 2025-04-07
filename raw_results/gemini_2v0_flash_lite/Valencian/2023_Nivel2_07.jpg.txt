@@ -1,0 +1,11 @@
+Raonament:
+1. **Entendre l'error:** Carles va afegir 5 en lloc de 4 i va dividir per 4 en lloc de 5.  Sabem que el resultat de Carles va ser 54.
+2. **Desfer l'error:** Per desfer l'error, multipliquem 54 per 4 (perquè Carles va dividir per 4) i obtenim 216.  Aquest és el resultat després d'afegir 5.
+3. **Desfer l'addició errònia:** Restem 5 de 216 (perquè Carles va afegir 5) i obtenim 211. Aquest és el nombre original (211), amb 4 afegit (perquè aquesta és la instrucció original)
+4. **Desfer l'addició correcta:** Per trobar el nombre original, necessitem resoldre l'equació x+4.  Però sabem que, si Carles hagués afegit 4 i dividit entre 5, el resultat hauria estat la resposta correcta. Per això, necessitem trobar el nombre original, que seria (resultat*4-5) i el dividim per 5 per trobar la resposta correcta. El càlcul correcte seria (216-5)
+5. **Càlculs:** Si Carles hagués afegit 4 al nombre original (x) i dividit el resultat entre 5, obtindríem (x+4)/5. L'error va donar 54, i sabent que la operació errònia és (x+5)/4=54 => x+5 = 216 => x = 211, per això (211+4)/5 = 43
+6. **Càlculs per confirmar:** (x+4)/5 = respostes, per això x = (resposta*5)-4.
+7. **Provar les respostes:** Provem la resposta A. (43+4) / 5 = 47/5 no és 54. Provem la resposta B. (45+4) / 5 = 49/5 no és 54. Provem la resposta C. (56+4)/5 = 60/5 = 12. Ara, prenem l'error, que dona 54. (56+5)/4=61/4 no és 54.
+8. **Resoldre correctament l'equació:** Hem trobat que (x+5)/4 = 54. Per tant, x+5 = 216, i x = 211. Si afegim 4 al nombre original 211, obtenim 215. Si dividim 215 per 5 obtenim 43.
+
+Resposta: A)

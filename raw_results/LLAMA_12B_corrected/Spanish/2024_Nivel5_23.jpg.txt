@@ -1,0 +1,39 @@
+Razonamiento: Para resolver este problema, es necesario probar los valores de $N$ en orden, aunque la respuesta puede servir de punto de partida.
+
+Commence por probar el más pequeño número después de $N+1$, que es $27$:
+
+\#
+$$
+\begin{align}
+23 &amp;= \overbrace{2\cdot10+3}^{3\cdot 7+2} \\
+26 &amp;= 3\cdot 8+2 \\
+27 &amp;= 3\cdot 9.
+\end{align}
+$$
+Se observa que las últimas dos sumas no suman tres veces la suma de los dígitos del número anterior, por lo que la respuesta no puede ser $e$.  Por tanto, la respuesta no puede ser $e$.
+
+Ahora probaré con $15$:
+
+\#
+$$
+\begin{align}
+23 &amp;= \overbrace{2\cdot10+3}^{4\cdot 5+3} \\
+15 &amp;= 1\cdot 9 + 6 \\
+16 &amp;= \overbrace{2\cdot 7+2}^{4\cdot 4+x}, pero el número siguiente, 2x+2 no debe ser $\overbrace{5x+2}^{5\cdot 7+2}$
+\end{align}
+$$
+Sin embargo, como esto no está claro, podría ser por una cuestión de cálculo malo y de lo contrario 17 podría romper la pauta. Por tanto, 15 no puede suceder antes de 23.
+
+Por último, probaré con 12:
+
+\#
+$$
+\begin{align}
+23 &amp;= \overbrace{2\cdot10+3}^{4\cdot 57+2} \\
+12 &amp;= \overbrace{0\cdot10+2}^{2\cdot6+0} \\
+13 &amp;= \overbrace{1\cdot 10+3}^{4\cdot6+5}, este debe haber sido debido a un error de oportunidad.
+\end{align}
+$$
+Si mira los números entre 23, N+1 y 27, los suman según parece de tres a veces la suma de los distintos de N. Por tanto, dirígase a 27.
+
+Respuesta: No Answer

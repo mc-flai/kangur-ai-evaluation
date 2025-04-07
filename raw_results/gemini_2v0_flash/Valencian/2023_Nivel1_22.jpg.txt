@@ -1,0 +1,14 @@
+Raonament: Per trobar quan es tornaran a veure els tres conductors, hem de trobar el mínim comú múltiple (mcm) dels temps que tarda cada autobús en recórrer el seu trajecte: 20, 30 i 24 minuts.
+
+mcm(20, 30, 24):
+
+- Descomposició en factors primers:
+  - 20 = 2^2 * 5
+  - 30 = 2 * 3 * 5
+  - 24 = 2^3 * 3
+
+- El mcm es calcula agafant la potència més alta de cada factor: 2^3 * 3 * 5 = 8 * 3 * 5 = 120
+
+Això vol dir que cada 120 minuts (2 hores) es tornaran a veure els tres conductors. Com que ixen a les 8:00, es tornaran a veure a les 8:00 + 2 hores = 10:00.
+
+Resposta: B)

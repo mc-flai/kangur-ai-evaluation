@@ -1,0 +1,34 @@
+Pour répondre à la question 10, nous devons déterminer quel nombre doit figurer dans le disque marqué d'un point d'interrogation de sorte que la somme des deux voisins de chaque nombre soit égale à ce nombre.
+
+1. Analysons les informations données :
+   - Les nombres 3 et 5 sont déjà présents dans la figure.
+   - Le nombre 3 est voisin de deux disques inconnus.
+   - Le nombre 5 est voisin de deux disques inconnus.
+
+2. Déterminons les sommes des voisins :
+   - Si un nombre est 3, alors la somme de ses voisins doit être 3.
+   - Si un nombre est 5, alors la somme de ses voisins doit être 5.
+
+3. Identifions les positions des nombres inconnus :
+   - Notons les disques inconnus par A, B, C, D, E, F, G dans le sens des aiguilles d'une montre en commençant par le disque en bas à gauche.
+   - Les positions sont donc : A, 3, B, C, 5, D, E, F, G.
+
+4. Utilisons les informations pour trouver les valeurs des disques inconnus :
+   - Supposons que le disque marqué d'un point d'interrogation soit B.
+   - La somme des voisins de 3 est 3, donc A + B = 3.
+   - La somme des voisins de 5 est 5, donc C + D = 5.
+
+5. Résolvons les équations :
+   - Si A + B = 3 et C + D = 5, alors B doit être égal à 3 - A.
+   - Si B = 3 - A, alors C + D = 5.
+
+6. Vérifions les options proposées :
+   - A) 3 : Si B = 3, alors A = 0 et C + D = 5. Cela ne fonctionne pas car A ne peut pas être 0.
+   - B) 5 : Si B = 5, alors A = -2 et C + D = 5. Cela ne fonctionne pas car A ne peut pas être -2.
+   - C) 8 : Si B = 8, alors A = -5 et C + D = 5. Cela ne fonctionne pas car A ne peut pas être -5.
+   - D) 16 : Si B = 16, alors A = -13 et C + D = 5. Cela ne fonctionne pas car A ne peut pas être -13.
+   - E) aucun car c'est impossible : Cette option semble correcte car aucune des valeurs proposées ne satisfait les conditions.
+
+Raisonnement : En analysant les sommes des voisins et en vérifiant les options proposées, nous constatons que aucune des valeurs ne satisfait les conditions données.
+
+Réponse : E).

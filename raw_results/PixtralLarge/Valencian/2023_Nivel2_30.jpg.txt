@@ -1,0 +1,53 @@
+**Raonament**: Per calcular l'àrea de la zona blanca en un trapezi isòsceles, primer cal determinar l'àrea total del trapezi i després l'àrea de la regió triangular més fosca.
+
+1. **Àrea del trapezi isòsceles**:
+   - La fórmula de l'àrea d'un trapezi és:
+
+     \[
+     A = \frac{1}{2} \times (b_1 + b_2) \times h
+     \]
+
+     on \( b_1 \) i \( b_2 \) són les longituds de les bases paral·leles i \( h \) és l'altura.
+
+     En aquest cas:
+
+     \[
+     b_1 = 3, \quad b_2 = 7, \quad h = 3
+     \]
+
+     Substituint els valors:
+
+     \[
+     A = \frac{1}{2} \times (3 + 7) \times 3 = \frac{1}{2} \times 10 \times 3 = 15
+     \]
+
+2. **Àrea de la regió triangular més fosca**:
+   - Aquesta regió és un triangle amb base 3 i altura 3. L'àrea d'un triangle és:
+
+     \[
+     A_{\triangle} = \frac{1}{2} \times b \times h
+     \]
+
+     Substituint els valors:
+
+     \[
+     A_{\triangle} = \frac{1}{2} \times 3 \times 3 = \frac{9}{2} = 4.5
+     \]
+
+3. **Àrea de la zona blanca**:
+   - Per trobar l'àrea de la zona blanca, restem l'àrea de la regió triangular més fosca de l'àrea total del trapezi:
+
+     \[
+     A_{blanca} = A - A_{\triangle} = 15 - 4.5 = 10.5
+     \]
+
+     La pregunta demana el percentatge de l'àrea total que representa la zona blanca, de manera que fem:
+
+     \[
+     \text{Percentatge} = \frac{A_{blanca}}{A} \times 100 = \frac{10.5}{15} \times 100 \approx 70\%
+     \]
+
+4. **Comparació amb les opcions donades**:
+   - Observant les opcions, el valor més pròxim a 70% és 42, que correspon a la resposta E).
+
+**Resposta**: E)

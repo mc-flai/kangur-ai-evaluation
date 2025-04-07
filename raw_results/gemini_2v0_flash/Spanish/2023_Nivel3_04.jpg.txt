@@ -1,0 +1,15 @@
+Razonamiento:  Llamemos a los vértices superior izquierdo, superior derecho, inferior derecho e inferior izquierdo, respectivamente, A, B, C y D.  El valor que queremos hallar es el número que va en el lado entre los vértices A y D.
+También tenemos los valores 8, 9 y 13 en los lados AB, BC y CD, respectivamente.
+
+Si llamamos "a" al número que está en el vértice A, "b" al número que está en el vértice B, "c" al número que está en el vértice C y "d" al número que está en el vértice D, tenemos las siguientes ecuaciones:
+a + b = 8
+b + c = 9
+c + d = 13
+Queremos hallar el valor de a + d.
+Restando la segunda ecuación de la primera, tenemos a - c = -1.
+Despejando a, tenemos a = c - 1.
+Sustituyendo a en a + d, queremos hallar el valor de c - 1 + d = c + d - 1.
+Como c + d = 13, entonces a + d = 13 - 1 = 12.
+Por lo tanto, el valor que va en el lado entre los vértices A y D es 12.
+
+Respuesta: B)

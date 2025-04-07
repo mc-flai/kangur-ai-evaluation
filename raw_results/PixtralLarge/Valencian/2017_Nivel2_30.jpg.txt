@@ -1,0 +1,25 @@
+**Raonament**:
+El problema ens diu que N és el nombre natural més petit amb les propietats següents:
+1. N és divisible per 99.
+2. La suma de les xifres de N és un nombre senar.
+
+Necessitem analitzar quines de les opcions donades satisfan aquestes dues condicions.
+
+1. Divisibilitat per 99:
+   - 99 es descompon en factors primers com a 99 = 3^2 * 11, així que N ha de ser divisible per 3 i per 11.
+   - Per ser divisible per 3, la suma de les xifres de N ha de ser divisible per 3.
+   - Per ser divisible per 11, la diferència alternada de les xifres de N ha de ser divisible per 11.
+
+2. La suma de les xifres de N ha de ser un nombre senar.
+
+Examinem cada opció:
+- A) N és un nombre de 3 xifres: Si N és divisible per 99, ha de ser almenys de 4 xifres (el nombre més petit divisible per 99 és 99, i 99 no té 3 xifres).
+- B) N és un nombre de 4 xifres: El més petit divisible per 99 és 9900, que té 4 xifres. La suma de les xifres de 9900 és 9 + 9 + 0 + 0 = 18, que és parell. Per tant, no satisfà la condició de suma de xifres senar.
+- C) N és un nombre de 5 xifres: El més petit divisible per 99 és 9900. La suma de les xifres de 9900 és 9 + 9 + 0 + 0 + 0 = 18, que és parell.
+  Si incrementem a 9901, la suma de les xifres és 9 + 9 + 0 + 0 + 1 = 19, que és senar.
+  A més, 9901 és divisible per 99 (9901 = 99 * 100).
+  Per tant, satisfà totes les condicions.
+- D) N és un nombre de 6 xifres: El més petit és 99000. La suma de les xifres és 9 + 9 + 0 + 0 + 0 + 0 = 18, parell.
+- E) N és un nombre de 8 xifres: El més petit és 99000000. La suma de les xifres és 9 + 9 + 0 + 0 + 0 + 0 + 0 + 0 = 18, parell.
+
+**Resposta**: C)

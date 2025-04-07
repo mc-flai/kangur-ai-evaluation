@@ -1,0 +1,50 @@
+To determine which number Ali could have deleted, let's break down the problem step-by-step.
+
+1. **Initial Sum**: Mia writes three single-digit numbers on the board. Ali adds them and gets 15.
+2. **Replacement**: Ali deletes one of these numbers and replaces it with the number 3. Reesi then multiplies the three numbers and gets 36.
+
+Let's denote the three original numbers as \(a\), \(b\), and \(c\). The equation based on the given information is:
+\[ a + b + c = 15 \]
+\[ (a + b + 3) \times x = 36 \]
+where \(x\) is the product of the three numbers.
+
+3. **Finding the Product**: We need to find \(x\) such that:
+\[ (a + b + 3) \times x = 36 \]
+
+4. **Possible Values of \(x\)**: Since \(x\) is a product of three single-digit numbers, the possible values for \(x\) are the factors of 36. The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, and 36. However, since \(x\) is a product of three single-digit numbers, the possible values are limited to 2, 3, 4, 6, and 9.
+
+5. **Testing Values of \(x\)**:
+   - If \(x = 2\):
+     \[ (a + b + 3) \times 2 = 36 \]
+     \[ a + b + 3 = 18 \]
+     \[ a + b = 15 \]
+     This is not possible since \(a\), \(b\), and \(c\) are single-digit numbers.
+
+   - If \(x = 3\):
+     \[ (a + b + 3) \times 3 = 36 \]
+     \[ a + b + 3 = 12 \]
+     \[ a + b = 9 \]
+     Possible values for \(a\) and \(b\) are (3, 6), (4, 5), (5, 4), (6, 3). If we replace one of these with 3, the sum becomes 15.
+
+   - If \(x = 4\):
+     \[ (a + b + 3) \times 4 = 36 \]
+     \[ a + b + 3 = 9 \]
+     \[ a + b = 6 \]
+     This is not possible since \(a\), \(b\), and \(c\) are single-digit numbers.
+
+   - If \(x = 6\):
+     \[ (a + b + 3) \times 6 = 36 \]
+     \[ a + b + 3 = 6 \]
+     \[ a + b = 3 \]
+     This is not possible since \(a\), \(b\), and \(c\) are single-digit numbers.
+
+   - If \(x = 9\):
+     \[ (a + b + 3) \times 9 = 36 \]
+     \[ a + b + 3 = 4 \]
+     This is not possible since \(a\), \(b\), and \(c\) are single-digit numbers.
+
+6. **Conclusion**: The only possible value for \(x\) that works is 3. This means the original sum \(a + b + c = 15\) must be adjusted by replacing one of the numbers with 3 to get a sum of 12. The possible pairs \((a, b)\) that sum to 9 are (3, 6), (4, 5), (5, 4), and (6, 3). If we replace 6, 5, or 4 with 3, the sum becomes 15.
+
+Therefore, the numbers Ali could have deleted are either 6 or 7.
+
+**Answer**: A)

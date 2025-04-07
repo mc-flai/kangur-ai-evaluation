@@ -1,0 +1,29 @@
+**Raonament:**
+
+Per resoldre aquesta pregunta, hem de determinar les coordenades del punt resultant després d'aplicar una rotació de 45º en el sentit antihorari al punt (7,2) al voltant de l'origen de coordenades.
+
+La fórmula per rotar un punt \((x, y)\) per un angle \(\theta\) en el sentit antihorari al voltant de l'origen és:
+
+\[
+(x', y') = (x \cos \theta - y \sin \theta, x \sin \theta + y \cos \theta)
+\]
+
+Per a un angle de 45º, tenim:
+
+\[
+\cos 45º = \sin 45º = \frac{\sqrt{2}}{2}
+\]
+
+Substituint \(x = 7\), \(y = 2\), \(\cos 45º = \frac{\sqrt{2}}{2}\) i \(\sin 45º = \frac{\sqrt{2}}{2}\) en les fórmules de rotació, obtenim:
+
+\[
+x' = 7 \cos 45º - 2 \sin 45º = 7 \cdot \frac{\sqrt{2}}{2} - 2 \cdot \frac{\sqrt{2}}{2} = \frac{7\sqrt{2}}{2} - \frac{2\sqrt{2}}{2} = \frac{5\sqrt{2}}{2}
+\]
+
+\[
+y' = 7 \sin 45º + 2 \cos 45º = 7 \cdot \frac{\sqrt{2}}{2} + 2 \cdot \frac{\sqrt{2}}{2} = \frac{7\sqrt{2}}{2} + \frac{2\sqrt{2}}{2} = \frac{9\sqrt{2}}{2}
+\]
+
+Per tant, les coordenades del punt després de la rotació són \(\left(\frac{5\sqrt{2}}{2}, \frac{9\sqrt{2}}{2}\right)\).
+
+**Resposta:** A)

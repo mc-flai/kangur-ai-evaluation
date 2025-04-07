@@ -1,0 +1,152 @@
+Raonament: Anna ha tirat un dau normal 24 vegades. Els nombres de l'1 al 6 han aparegut almenys una vegada. El nombre 1 ha aparegut més vegades que qualsevol altre nombre. La resta de nombres (2, 3, 4, 5, 6) han aparegut almenys una vegada. Per trobar la quantitat màxima que pot haver obtingut Anna, hem de considerar que, perquè el nombre 1 aparegui més vegades, ha de ser que ha aparegut com a mínim 8 vegades més que els altres nombres.
+
+Si els altres nombres han aparegut almenys una vegada, la distribució mínima seria:
+- 1 apareix 8 vegades
+- 2, 3, 4, 5, 6 apareixen 1 vegada cadascun
+
+Això suma 8 (per l'1) + 5 (per als altres 5 nombres) = 13 aparicions.
+
+Així, les altres 11 aparicions han de ser totes per l'1, sumant 19 aparicions del nombre 1, i la suma total seria:
+
+(1 * 19) + (2 + 3 + 4 + 5 + 6) = 19 + 20 = 39
+
+Però hi ha una mica de confusió en aquest raonament. Si el nombre 1 ha d'apareixer més vegades que qualsevol altre nombre, és possible que els altres nombres també hagin aparegut més d'una vegada. Si suposem que el número 1 apareix 16 vegades i els altres nombres 2 vegades cadascun (distribució total = 24), la suma seria:
+
+(1 * 16) + (2 * 2) + (3 * 2) + (4 * 2) + (5 * 2) + (6 * 2) = 16 + 4 + 6 + 8 + 10 + 12 = 56
+
+Això no és correcte, ja que tenim més de 24 aparicions.
+
+Un altre supòsit seria:
+- 1 apareix 15 vegades
+- 2, 3, 4, 5, 6 apareixen 2 vegades cadascun.
+
+Això suma 15 (per l'1) + 10 (per als altres 5 nombres) = 25 aparicions totals, més que 24.
+
+Un altre supòsit:
+- 1 apareix 14 vegades
+- 2 apareix 3 vegades
+- 3, 4, 5, 6 apareixen 2 vegades cadascun.
+
+Això suma 14 (1) + 3 (2) + 8 (3, 4, 5, 6) = 25 aparicions totals, més que 24.
+
+Un supòsit correcte:
+- 1 apareix 14 vegades
+- 2, 3, 4, 5 apareixen 2 vegades cadascun
+- 6 apareix 1 vegada.
+
+Això suma 14 (1) + 8 (2, 3, 4, 5) + 1 (6) = 23 aparicions, compleix la condició.
+
+La suma seria:
+
+(1 * 14) + (2 * 2) + (3 * 2) + (4 * 2) + (5 * 2) + (6 * 1) = 14 + 4 + 6 + 8 + 10 + 6 = 48
+
+Un altre supòsit més caut:
+- 1 apareix 13 vegades
+- 2, 3, 4 apareixen 3 vegades cadascun
+- 5, 6 apareixen 1 vegada cadascun
+
+Això suma 13 (1) + 9 (2, 3, 4) + 2 (5, 6) = 24 aparicions, compleix la condició.
+
+La suma seria:
+
+(1 * 13) + (2 * 3) + (3 * 3) + (4 * 3) + (5 * 1) + (6 * 1) = 13 + 6 + 9 + 12 + 5 + 6 = 51
+
+Un altre supòsit més caut:
+- 1 apareix 12 vegades
+- 2, 3 apareixen 4 vegades cadascun
+- 4, 5, 6 apareixen 1 vegada cadascun
+
+Això suma 12 (1) + 8 (2, 3) + 3 (4, 5, 6) = 23 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 12) + (2 * 4) + (3 * 4) + (4 * 1) + (5 * 1) + (6 * 1) = 12 + 8 + 12 + 4 + 5 + 6 = 47
+
+Un altre supòsit més caut:
+- 1 apareix 11 vegades
+- 2 apareix 5 vegades
+- 3, 4, 5, 6 apareixen 2 vegades cadascun
+
+Això suma 11 (1) + 5 (2) + 8 (3, 4, 5, 6) = 24 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 11) + (2 * 5) + (3 * 2) + (4 * 2) + (5 * 2) + (6 * 2) = 11 + 10 + 6 + 8 + 10 + 12 = 57
+
+Un altre supòsit més caut:
+- 1 apareix 10 vegades
+- 2 apareix 6 vegades
+- 3, 4, 5 apareixen 2 vegades cadascun
+- 6 apareix 1 vegada
+
+Això suma 10 (1) + 6 (2) + 6 (3, 4, 5) + 1 (6) = 23 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 10) + (2 * 6) + (3 * 2) + (4 * 2) + (5 * 2) + (6 * 1) = 10 + 12 + 6 + 8 + 10 + 6 = 52
+
+Un altre supòsit més caut:
+- 1 apareix 9 vegades
+- 2 apareix 7 vegades
+- 3, 4 apareixen 2 vegades cadascun
+- 5, 6 apareixen 1 vegada cadascun
+
+Això suma 9 (1) + 7 (2) + 4 (3, 4) + 2 (5, 6) = 22 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 9) + (2 * 7) + (3 * 2) + (4 * 2) + (5 * 1) + (6 * 1) = 9 + 14 + 6 + 8 + 5 + 6 = 48
+
+Un altre supòsit més caut:
+- 1 apareix 8 vegades
+- 2 apareix 8 vegades
+- 3, 4, 5 apareixen 2 vegades cadascun
+- 6 apareix 1 vegada
+
+Això suma 8 (1) + 8 (2) + 6 (3, 4, 5) + 1 (6) = 23 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 8) + (2 * 8) + (3 * 2) + (4 * 2) + (5 * 2) + (6 * 1) = 8 + 16 + 6 + 8 + 10 + 6 = 54
+
+Un altre supòsit més caut:
+- 1 apareix 7 vegades
+- 2 apareix 9 vegades
+- 3, 4 apareixen 2 vegades cadascun
+- 5, 6 apareixen 1 vegada cadascun
+
+Això suma 7 (1) + 9 (2) + 4 (3, 4) + 2 (5, 6) = 22 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 7) + (2 * 9) + (3 * 2) + (4 * 2) + (5 * 1) + (6 * 1) = 7 + 18 + 6 + 8 + 5 + 6 = 50
+
+Un supòsit més caut:
+- 1 apareix 6 vegades
+- 2 apareix 10 vegades
+- 3, 4 apareixen 2 vegades cadascun
+- 5, 6 apareixen 1 vegada cadascun
+
+Això suma 6 (1) + 10 (2) + 4 (3, 4) + 2 (5, 6) = 22 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 6) + (2 * 10) + (3 * 2) + (4 * 2) + (5 * 1) + (6 * 1) = 6 + 20 + 6 + 8 + 5 + 6 = 51
+
+Un supòsit més caut:
+- 1 apareix 5 vegades
+- 2 apareix 11 vegades
+- 3 apareix 2 vegades
+- 4 apareix 3 vegades
+- 5 apareix 1 vegada
+- 6 apareix 2 vegades
+
+Això suma 5 (1) + 11 (2) + 2 (3) + 3 (4) + 1 (5) + 2 (6) = 24 aparicions, compleix la condició
+
+La suma seria:
+
+(1 * 5) + (2 * 11) + (3 * 2) + (4 * 3) + (5 * 1) + (6 * 2) = 5 + 22 + 6 + 12 + 5 + 12 = 62
+
+Així, la màxima suma possible és 62.
+
+Resposta: E) 93.

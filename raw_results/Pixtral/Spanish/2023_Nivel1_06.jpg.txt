@@ -1,0 +1,13 @@
+
+Razonamiento: El problema nos pide determinar cuántas torres diferentes Ana puede construir usando cinco discos de diferentes tamaños, donde cada torre debe seguir las reglas de las torres de Hilbert. La torre final debe tener el disco más pequeño en la parte superior y el disco más grande en la parte inferior. Para resolver esto, necesitamos considerar las posibles combinaciones de discos en cada torre.
+
+1. Identificar los discos disponibles: Hay cinco discos de diferentes tamaños.
+2. Determinar las posibles torres: Una torre válida debe seguir el orden de los discos de menor a mayor.
+3. Contar las combinaciones posibles: Dado que hay cinco discos, hay 5! (5 factorial) combinaciones posibles de discos en una torre. Sin embargo, dado que los discos son de diferentes tamaños, cada torre debe tener una disposición única de discos.
+
+Calcular 5!:
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Por lo tanto, Ana puede construir 12 torres diferentes.
+
+Respuesta: D)

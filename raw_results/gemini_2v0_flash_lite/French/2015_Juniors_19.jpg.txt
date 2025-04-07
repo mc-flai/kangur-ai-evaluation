@@ -1,0 +1,23 @@
+Raisonnement :
+1. **Identifier les menteurs:** Mme Castor sait que ceux qui ne disent pas la vérité sont ceux qui n'étaient pas au lycée. Nous devons donc identifier qui ment.
+2. **Analyser les déclarations:**
+    *   **Luc:** "Aucun" - S'il dit la vérité, personne n'était au lycée.
+    *   **Marc:** "1 seul" - S'il dit la vérité, une personne était au lycée.
+    *   **Nina:** "2, ni plus, ni moins" - S'il dit la vérité, deux personnes étaient au lycée.
+    *   **Olga:** "3 exactement" - S'il dit la vérité, trois personnes étaient au lycée.
+    *   **Prune:** "4" - S'il dit la vérité, quatre personnes étaient au lycée.
+3.  **Déterminer la vérité:** Considérons les cas possibles, sachant que les réponses doivent se contredire :
+    * Si Luc dit la vérité (0 personne), alors Marc, Nina, Olga et Prune mentent. Cela est possible.
+    * Si Marc dit la vérité (1 personne), alors Luc, Nina, Olga et Prune mentent. Ceci est possible.
+    * Si Nina dit la vérité (2 personnes), alors Luc, Marc, Olga et Prune mentent. Ceci est possible.
+    * Si Olga dit la vérité (3 personnes), alors Luc, Marc, Nina et Prune mentent. Ceci est possible.
+    * Si Prune dit la vérité (4 personnes), alors Luc, Marc, Nina et Olga mentent. Ceci est possible.
+4. **Déterminer le nombre de personnes absentes:** Puisque seulement ceux qui mentent n'étaient pas au lycée. Examinons chaque cas pour déduire le nombre d'élèves qui n'étaient pas au lycée.
+    *   **Cas 1: Luc dit la vérité:** 0 personne au lycée. Donc, Marc, Nina, Olga et Prune mentent, signifiant qu'ils n'étaient pas au lycée. Or il ne peut pas y avoir 4 élèves qui n'étaient pas au lycée, puisqu'on nous demande combien de ces élèves étaient au lycée. Donc ce cas est impossible.
+    *   **Cas 2: Marc dit la vérité:** 1 personne au lycée. Luc, Nina, Olga et Prune mentent. Donc Luc, Nina, Olga et Prune n'étaient pas au lycée. On aurait 4 élèves qui n'étaient pas au lycée. Ce cas est possible.
+    *   **Cas 3: Nina dit la vérité:** 2 personnes au lycée. Luc, Marc, Olga et Prune mentent. Donc Luc, Marc, Olga et Prune n'étaient pas au lycée. On aurait 3 élèves qui n'étaient pas au lycée. Ce cas est possible.
+    *   **Cas 4: Olga dit la vérité:** 3 personnes au lycée. Luc, Marc, Nina et Prune mentent. Donc Luc, Marc, Nina et Prune n'étaient pas au lycée. On aurait 2 élèves qui n'étaient pas au lycée. Ce cas est possible.
+    *   **Cas 5: Prune dit la vérité:** 4 personnes au lycée. Luc, Marc, Nina et Olga mentent. Donc Luc, Marc, Nina et Olga n'étaient pas au lycée. On aurait 1 élève qui n'était pas au lycée. Ce cas est possible.
+5.  **Déterminer la réponse finale:** Puisque nous avons 5 cas différents, nous devons essayer de trouver la logique de Mme Castor. On peut en déduire que les réponses des élèves sont incohérentes et que l'une des réponses est la bonne. On sait aussi que les personnes qui ne disent pas la vérité n'étaient pas à l'école. Puisque la question est "Combien de ces cinq élèves étaient au lycée hier?" On déduit que les réponses possibles sont 0, 1, 2, 3 ou 4. La seule réponse possible est 4.
+
+Réponse : E) 4

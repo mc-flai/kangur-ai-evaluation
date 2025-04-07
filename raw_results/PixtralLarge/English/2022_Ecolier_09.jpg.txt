@@ -1,0 +1,19 @@
+1. **Initial Setup**:
+   - The cars are initially in the order: 1 (Blue), 2 (Yellow), 3 (Red), 4 (Green), 5 (Dark Blue).
+
+2. **First Action**:
+   - The last car (5 - Dark Blue) overtakes the two cars in front of it (4 - Green and 3 - Red).
+   - New order: 1 (Blue), 2 (Yellow), 5 (Dark Blue), 3 (Red), 4 (Green).
+
+3. **Second Action**:
+   - The now second to last car (4 - Green) overtakes the two cars in front of it (3 - Red and 5 - Dark Blue).
+   - New order: 1 (Blue), 2 (Yellow), 4 (Green), 5 (Dark Blue), 3 (Red).
+
+4. **Third Action**:
+   - The car that is now in the middle (4 - Green) overtakes the two cars in front of it (2 - Yellow and 1 - Blue).
+   - New order: 4 (Green), 1 (Blue), 2 (Yellow), 5 (Dark Blue), 3 (Red).
+
+**Reasoning**:
+   - By following each overtaking step as described, the final order of the cars is determined.
+
+**Answer**: D)

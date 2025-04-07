@@ -1,0 +1,22 @@
+Raonament: Siguin a, b, c, d les longituds dels costats dels quatre rectangles més petits.
+El perímetre dels rectangles són:
+2(a + b) = 16
+2(c + d) = 18
+2(b + d) = 24
+Volem trobar 2(a + c) = ?
+A partir de les equacions donades, tenim:
+a + b = 8
+c + d = 9
+b + d = 12
+
+Restant la primera equació de la tercera, obtenim:
+(b + d) - (a + b) = 12 - 8
+d - a = 4
+d = a + 4
+
+Substituint a la segona equació:
+c + a + 4 = 9
+c + a = 5
+Per tant, el perímetre del rectangle restant és 2(a + c) = 2 * 5 = 10.
+
+Resposta: B)

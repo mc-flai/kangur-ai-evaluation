@@ -1,0 +1,24 @@
+Raonament:
+1. El problema ens diu que en una classe, tots els alumnes tenen almenys una mascota.
+2. En total, hi ha vuit gats, sis gossos, tres peixos i dos periquitos.
+3. Hi ha dos alumnes que tenen a la vegada un gos i un peix i no tenen més mascotes.
+4. Hi ha tres alumnes que tenen a la vegada un gat i un gos i no tenen més mascotes.
+5. Per resoldre el problema, primer sumem els alumnes que tenen un gos i un peix, i els que tenen un gat i un gos:
+   2 (gos i peix) + 3 (gat i gos) = 5 alumnes.
+6. A continuació, restem les mascotes que ja han estat comptabilitzades:
+   - Gossos: 2 (gos i peix) + 3 (gat i gos) = 5 gossos comptabilitzats.
+   - Gats: 3 (gat i gos) = 3 gats comptabilitzats.
+   - Peixos: 2 (gos i peix) = 2 peixos comptabilitzats.
+7. Ara, restem les mascotes restants:
+   - Gossos restants: 6 (total) - 5 (comptabilitzats) = 1 gos.
+   - Gats restants: 8 (total) - 3 (comptabilitzats) = 5 gats.
+   - Peixos restants: 3 (total) - 2 (comptabilitzats) = 1 peix.
+   - Periquitos restants: 2 (total).
+8. Per tant, les mascotes restants són: 1 gos, 5 gats, 1 peix i 2 periquitos.
+9. Cada mascota restant és de diferents alumnes, perquè els alumnes no poden tenir més d'una mascota.
+10. Per tant, hi ha 5 alumnes més (5 gats), més els 5 alumnes ja comptabilitzats abans:
+    5 (nous alumnes) + 5 (ja comptabilitzats) = 10 alumnes.
+11. Finalment, sumem els alumnes amb les mascotes restants:
+    10 (alumnes amb mascotes ja comptabilitzades) + 5 (nous alumnes) = 15 alumnes.
+
+Resposta: E) 15.

@@ -1,0 +1,18 @@
+Raonament: Volem trobar 5 enters positius diferents que sumin 17 i que tinguin el producte més gran possible. Per maximitzar el producte, volem que els números siguin el més propers possible.
+Comencem amb els primers nombres enters positius: 1, 2, 3, 4. La seva suma és 1+2+3+4 = 10. Necessitem que la suma sigui 17, per tant el cinquè nombre ha de ser 17 - 10 = 7. Així tenim els nombres 1, 2, 3, 4, 7. El seu producte és 1*2*3*4*7 = 168.
+
+Podem provar altres combinacions:
+Si fem servir 1, 2, 3, 5, llavors el cinquè nombre ha de ser 17 - (1+2+3+5) = 17 - 11 = 6. El seu producte és 1*2*3*5*6 = 180.
+
+Podem provar altres combinacions:
+Si fem servir 1, 2, 3, 6, llavors el cinquè nombre ha de ser 17 - (1+2+3+6) = 17 - 12 = 5. Hem repetit 5 i 6, així que no és una opció vàlida.
+Si fem servir 1, 2, 3, 8, llavors el cinquè nombre ha de ser 17 - (1+2+3+8) = 17 - 14 = 3. Hem repetit el nombre 3, per tant, no és una opció vàlida.
+Si fem servir 1, 2, 4, 5, llavors el cinquè nombre ha de ser 17 - (1+2+4+5) = 17 - 12 = 5. Hem repetit el nombre 5, per tant no és una opció vàlida.
+Si fem servir 1, 2, 4, 6, llavors el cinquè nombre ha de ser 17 - (1+2+4+6) = 17 - 13 = 4. Hem repetit el nombre 4, per tant no és una opció vàlida.
+
+Els nombres 1, 2, 3, 5, 6 donen un producte de 180 i sumen 17.
+Els nombres 1, 2, 3, 4, 7 donen un producte de 168 i sumen 17.
+
+El producte màxim possible sembla ser 180.
+
+Resposta: E)

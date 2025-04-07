@@ -1,0 +1,47 @@
+**Reasoning**:
+
+Let the three consecutive positive whole numbers be \(n\), \(n+1\), and \(n+2\). The sum of their squares is:
+
+\[ n^2 + (n+1)^2 + (n+2)^2 \]
+
+Expanding this expression, we get:
+
+\[ n^2 + (n^2 + 2n + 1) + (n^2 + 4n + 4) \]
+
+Combine like terms:
+
+\[ n^2 + n^2 + 2n + 1 + n^2 + 4n + 4 = 3n^2 + 6n + 5 \]
+
+According to the problem, this sum is 770:
+
+\[ 3n^2 + 6n + 5 = 770 \]
+
+Subtract 770 from both sides to set the equation to zero:
+
+\[ 3n^2 + 6n + 5 - 770 = 0 \]
+
+\[ 3n^2 + 6n - 765 = 0 \]
+
+To simplify, divide the entire equation by 3:
+
+\[ n^2 + 2n - 255 = 0 \]
+
+Now, solve this quadratic equation using the quadratic formula \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), where \(a = 1\), \(b = 2\), and \(c = -255\):
+
+\[ n = \frac{-2 \pm \sqrt{2^2 - 4 \cdot 1 \cdot (-255)}}{2 \cdot 1} \]
+
+\[ n = \frac{-2 \pm \sqrt{4 + 1020}}{2} \]
+
+\[ n = \frac{-2 \pm \sqrt{1024}}{2} \]
+
+\[ n = \frac{-2 \pm 32}{2} \]
+
+So, the two solutions are:
+
+\[ n = \frac{30}{2} = 15 \]
+
+\[ n = \frac{-34}{2} = -17 \]
+
+Since the problem specifies positive whole numbers, we discard \(n = -17\). Therefore, the three consecutive numbers are \(15\), \(16\), and \(17\). The biggest of these numbers is 17.
+
+**Answer**: C)

@@ -1,0 +1,10 @@
+
+Raisonnement :
+1. Le problème demande combien de couleurs sont nécessaires pour colorier 7 disques de manière à ce que deux disques reliés par un trait aient des couleurs différentes.
+2. Pour résoudre ce problème, nous devons utiliser le concept de graphes de coloration. Chaque disque représente un nœud, et chaque trait entre deux disques représente une arête.
+3. Un graphe de coloration est un moyen de colorier les nœuds d'un graphe de telle sorte que deux nœuds reliés par une arête aient des couleurs différentes.
+4. Le graphe le plus simple pour ce problème est un graphe complet avec 7 nœuds (7 disques), ce qui signifie que chaque disque est relié à chaque autre disque.
+5. Le nombre minimum de couleurs nécessaires pour colorier un graphe complet avec 7 nœuds est 3. Cela peut être démontré en utilisant le théorème de coloration des graphes, qui stipule que le nombre minimum de couleurs nécessaires pour colorier un graphe complet avec n nœuds est (n-1)+1.
+6. Par conséquent, pour 7 disques, nous avons besoin de 3 couleurs.
+
+Réponse : B)

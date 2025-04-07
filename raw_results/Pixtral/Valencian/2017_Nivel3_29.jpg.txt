@@ -1,0 +1,44 @@
+
+La pregunta 29 nos dice que Elsa tiene una cantidad de cubos y una cantidad de tetraedros. El número total de vértices que tiene es 52. El número total de caras es 42. Nos pide determinar cuántos tetraedros tiene.
+
+Para resolver esto, primero determinamos el número de vértices de un cubo y un tetraedro:
+- Un cubo tiene 8 vértices.
+- Un tetraedro tiene 4 vértices.
+
+Dado que el número total de vértices es 52, podemos establecer la siguiente ecuación:
+\[ 8C + 4T = 52 \]
+donde \( C \) es el número de cubos y \( T \) es el número de tetraedros.
+
+Simultáneamente, el número total de caras es 42. Sabemos que:
+- Un cubo tiene 6 caras.
+- Un tetraedro tiene 4 caras.
+
+Por lo tanto, la ecuación para las caras es:
+\[ 6C + 4T = 42 \]
+
+Ahora tenemos un sistema de ecuaciones:
+1. \( 8C + 4T = 52 \)
+2. \( 6C + 4T = 42 \)
+
+Para resolver este sistema, podemos simplificar la primera ecuación dividiendo todo por 4:
+\[ 2C + T = 13 \]
+
+Y simplificar la segunda ecuación dividiendo todo por 2:
+\[ 3C + 2T = 21 \]
+
+Multiplicamos la primera ecuación por 2 para alinear los términos de \( T \):
+\[ 4C + 2T = 26 \]
+
+Restamos esta ecuación de la segunda ecuación:
+\[ (3C + 2T) - (4C + 2T) = 21 - 26 \]
+\[ -C = -5 \]
+\[ C = 5 \]
+
+Sustituimos \( C = 5 \) en la ecuación \( 2C + T = 13 \):
+\[ 2(5) + T = 13 \]
+\[ 10 + T = 13 \]
+\[ T = 3 \]
+
+Por lo tanto, el número de tetraedros es 3.
+
+**Respuesta: B)**

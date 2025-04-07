@@ -1,0 +1,8 @@
+Razonamiento: 
+*   Se asigna a Nina la tarea de encontrar el modo más fácil de elegir la cantidad necesaria de sabores a comprar, teniendo en cuenta que la heladería ofrece 18 sabores diferentes.
+*   El número totales de sabores se reduce si Nina elige dos bolas de dos sabores diferentes. Para determinar este número, calculamos las combinaciones de 18 elementos tomados 2 de ellos a la vez, que equivalen a:
+
+                    C(18,2) = 18!/ (2!(18-2)!) = 18!/ (2!*16!) = 18 * 17 / 2 = 153
+*   Cada combinación se reduce a una moda porque hay dos formas de elegir el sabor de cada bola de helado: el orden importa.
+
+Respuesta: C) 153.

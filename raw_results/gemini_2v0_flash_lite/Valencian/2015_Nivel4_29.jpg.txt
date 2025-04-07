@@ -1,0 +1,16 @@
+Raonament:
+Let N be a natural number that ends in 6. Let N = 10x + 6, where x is an integer.  M is formed by moving the last digit (6) of N to the front.  So, if x has k digits, then M = 6 * 10^k + x.  We are given that M = 4N.  Thus, 6 * 10^k + x = 4 * (10x + 6) or 6 * 10^k + x = 40x + 24.
+Rearranging, 6 * 10^k - 24 = 39x.  Dividing by 3, 2 * 10^k - 8 = 13x. Then x = (2 * 10^k - 8) / 13.  We want to find the smallest integer k for which x is an integer.
+We can test different values of k:
+- If k = 1, x = (20 - 8)/13 = 12/13 (not integer)
+- If k = 2, x = (200 - 8)/13 = 192/13 (not integer)
+- If k = 3, x = (2000 - 8)/13 = 1992/13 = 153.2...
+- If k = 4, x = (20000 - 8)/13 = 19992/13 = 1537.8...
+- If k = 5, x = (200000 - 8)/13 = 199992/13 = 15384.
+
+Therefore, the smallest value of x is 15384. Then N = 10 * 15384 + 6 = 153846.
+The number M is 615384.
+Check that M = 4N: 4 * 153846 = 615384. Correct.
+We have N = 153846. The sum of the digits of N is 1 + 5 + 3 + 8 + 4 + 6 = 27.
+
+Resposta: D)

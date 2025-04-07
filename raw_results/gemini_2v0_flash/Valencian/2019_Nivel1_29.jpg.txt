@@ -1,0 +1,6 @@
+Raonament: Sigui $p_i$ el nombre de passatgers al vagó $i$. Sabem que $p_1 + p_2 + p_3 = p_2 + p_3 + p_4 = p_3 + p_4 + p_5 = \dots = p_9 + p_{10} + p_{11} = 99$.
+Això implica que $p_1 = p_4 = p_7 = p_{10}$, $p_2 = p_5 = p_8 = p_{11}$, i $p_3 = p_6 = p_9$.
+Per tant, tenim una seqüència que es repeteix cada 3 termes. La suma total de passatgers és $350 = \sum_{i=1}^{11} p_i = 3(p_1 + p_2 + p_3) + p_1 + p_2 = 3(99) + p_1 + p_2 = 297 + p_1 + p_2$.
+Així doncs, $p_1 + p_2 = 350 - 297 = 53$. Com que $p_1 + p_2 + p_3 = 99$, tenim que $p_3 = 99 - (p_1 + p_2) = 99 - 53 = 46$. Com que $p_3 = p_6$, sabem que $p_6 = 46$.
+
+Resposta: D)

@@ -1,0 +1,23 @@
+Raonament:
+Primer, reescrivim les equacions donades:
+*   a + 2 = b - 2
+*   a + 2 = 2c
+*   a + 2 = d / 2
+
+De la primera equació, podem escriure b = a + 4. Això significa que b és major que a.
+De la segona equació, podem escriure c = (a + 2) / 2.
+De la tercera equació, podem escriure d = 2 * (a + 2).
+
+Ara comparem tots els nombres.
+*   b = a + 4
+*   c = (a + 2) / 2
+*   d = 2 * (a + 2) = a + 4
+
+Per tant, b = d. Aleshores, analitzem els casos possibles de a, b, c, d.
+Si a = 1, llavors b = 5, c = 3/2 (que no és un enter, per tant no és possible)
+Si a = 2, llavors b = 6, c = 2, d = 8.
+Si a = 4, llavors b = 8, c = 3, d = 12.
+
+Veiem que d és sempre el valor més gran.
+
+Resposta: D) d

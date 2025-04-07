@@ -1,0 +1,12 @@
+Raonament: Per trobar el nombre de valors diferents que pot prendre el producte de sis nombres enters positius distints amb una suma de 24, hem de trobar les possibles combinacions de sis nombres enters positius distints que sumin 24, i calcular el seu producte. El mínim que poden sumar sis nombres enters positius distints és 1+2+3+4+5+6 = 21. Per tant, cal afegir 3 a aquesta suma. Podem canviar el 6 per un 9, o el 5 per un 8, o el 4 per un 7, o el 3 per un 6 (que ja hi és), o el 2 per un 5 (que ja hi és), o el 1 per un 4 (que ja hi és). Les solucions possibles més petites són 1+2+3+4+5+9 = 24 (producte = 1080), 1+2+3+4+6+8 = 24 (producte = 1152) i 1+2+3+5+6+7 = 24 (producte = 1260).
+Ara mirarem una altra possible solució.
+Si canviem 1+2+3+4+5+6 = 21 per 1+2+3+4+5+9 = 24, el producte és 1*2*3*4*5*9 = 1080.
+Si canviem 1+2+3+4+6+8 = 24, el producte és 1*2*3*4*6*8 = 1152.
+Si canviem 1+2+3+5+6+7 = 24, el producte és 1*2*3*5*6*7 = 1260.
+1+2+4+5+6+6 = 24, però el 6 està repetit.
+Hi ha més combinacions possibles, però sembla que el producte no és sempre el mateix, per tant, la resposta no és 1. Per tant, hi ha més d'un valor possible.
+Per assegurar-nos, provem amb 2+3+4+5+6+4 = 24, però el 4 està repetit.
+La solució 1+2+3+4+5+9 = 24 dona producte 1080. La solució 1+2+3+4+6+8 = 24 dona producte 1152. La solució 1+2+3+5+6+7 = 24 dona producte 1260. Hem trobat tres solucions amb productes diferents. Hi podria haver més solucions amb sumes 24.
+
+Raonament: Hem trobat almenys tres productes diferents. Considerant les combinacions i ajustant els nombres, es poden obtenir productes diferents.
+Resposta: C)

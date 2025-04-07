@@ -1,0 +1,13 @@
+Let the diagonals $KM$ and $LN$ intersect at $O$. Since the diagonals are perpendicular, $KL^2 = KO^2 + OL^2$, $LM^2 = LO^2 + OM^2$, $MN^2 = MO^2 + ON^2$, and $NK^2 = NO^2 + OK^2$.
+
+We are given $KL = 2017$, $LM = 2018$, $MN = 2019$. We want to find $KN$.
+We have $KL^2 + MN^2 = KO^2 + OL^2 + MO^2 + ON^2$ and $LM^2 + KN^2 = LO^2 + OM^2 + NO^2 + OK^2$.
+Therefore, $KL^2 + MN^2 = LM^2 + KN^2$.
+So, $KN^2 = KL^2 + MN^2 - LM^2 = 2017^2 + 2019^2 - 2018^2$.
+We can rewrite this as $KN^2 = 2017^2 + (2018+1)^2 - 2018^2 = 2017^2 + 2018^2 + 2\cdot2018 + 1 - 2018^2 = 2017^2 + 2 \cdot 2018 + 1 = 2017^2 + 4036+1 = 2017^2 + 4037$.
+Now, we notice that $2017^2 + 4037 = 2017^2 + 2(2017) + 3 = 2017^2 + 2 \cdot 2017 + 1 + 2 = (2017+1)^2 + 2 = 2018^2 + 2$.
+Thus, $KN = \sqrt{2018^2 + 2}$.
+
+Reasoning:
+Using the Pythagorean theorem with the perpendicular diagonals, we can express the sides squared in terms of the segments of the diagonals. Then we use the given information to find $KN$.
+Answer: D)

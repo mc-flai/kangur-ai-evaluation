@@ -1,0 +1,10 @@
+Reasoning: The initial configuration is cups up, cups up, cups up.
+After 1 move: cups up, cups up, cups down
+After 2 moves: cups up, cups down, cups up
+After 3 moves: cups down, cups up, cups up
+After 4 moves: cups up, cups up, cups down
+After 5 moves: cups up, cups down, cups up
+After 6 moves: cups down, cups up, cups up
+We observe a cycle of length 3. We want to find the configuration after 10 moves. Since 10 = 3 * 3 + 1, after 10 moves the configuration will be the same as after 1 move, which is cups up, cups up, cups down.
+
+Answer: A)

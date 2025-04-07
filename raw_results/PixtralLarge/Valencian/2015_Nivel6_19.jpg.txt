@@ -1,0 +1,41 @@
+Per resoldre aquesta pregunta, hem de determinar entre quines opcions és el valor de \( k \) que és el resultat de dividir l'àrea del quadrat entre l'àrea del triangle equilàter de la figura.
+
+Primer, anem a definir les àrees del quadrat i del triangle equilàter.
+
+1. **Càlcul de l'àrea del quadrat**:
+   - Si el costat del quadrat és \( s \), llavors l'àrea del quadrat és \( s^2 \).
+
+2. **Càlcul de l'àrea del triangle equilàter**:
+   - Si el costat del triangle equilàter és \( a \), llavors l'àrea del triangle és \( \frac{\sqrt{3}}{4} a^2 \).
+
+3. **Relació entre els costats del quadrat i el triangle**:
+   - Observant la figura, sembla que el quadrat i el triangle estan inscrits en un cercle, el que suggereix que les seves dimensions estan relacionades.
+   - Si el quadrat i el triangle estan inscrits en un cercle, el quadrat té els seus vèrtexs sobre el cercle, i el triangle equilàter té els seus vèrtexos també sobre el cercle.
+   - La relació entre el costat del quadrat \( s \) i el costat del triangle equilàter \( a \) en aquest cas és que \( s = a \frac{\sqrt{2}}{2} \).
+
+4. **Àrea del quadrat en termes de \( a \)**:
+   - \( s = a \frac{\sqrt{2}}{2} \)
+   - \( s^2 = \left(a \frac{\sqrt{2}}{2}\right)^2 = \frac{a^2}{2} \)
+
+5. **Àrea del triangle equilàter en termes de \( a \)**:
+   - \( \frac{\sqrt{3}}{4} a^2 \)
+
+6. **Càlcul de \( k \)**:
+   - \( k = \frac{\text{Àrea del quadrat}}{\text{Àrea del triangle equilàter}} \)
+   - \( k = \frac{\frac{a^2}{2}}{\frac{\sqrt{3}}{4} a^2} = \frac{\frac{a^2}{2}}{\frac{\sqrt{3}}{4} a^2} = \frac{4}{2\sqrt{3}} = \frac{2}{\sqrt{3}} = \frac{2\sqrt{3}}{3} \)
+
+7. **Aproximació del valor de \( k \)**:
+   - \( \frac{2\sqrt{3}}{3} \approx 1.1547 \)
+
+8. **Comparació amb les opcions donades**:
+   - A) \( k < 2 \)
+   - B) \( 2 < k < 3 \)
+   - C) \( 3 < k < 4 \)
+   - D) \( 4 < k < 5 \)
+   - E) \( 5 < k \)
+
+El valor de \( k \) és aproximadament 1.1547, que és menor que 2.
+
+Raonament: Hem calculat les àrees del quadrat i el triangle equilàter, determinat la relació entre els costats del quadrat i el triangle, i després calculat el valor de \( k \).
+
+Resposta: A) \( k < 2 \)

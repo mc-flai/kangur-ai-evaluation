@@ -1,0 +1,30 @@
+Reasoning: The shapes represent digits. We can assign each shape to a number based on the options. The shapes are in the order heart, diamond, club, and spade.
+A) 34426 : Heart=3, Diamond=4, Club=2, Spade=6
+B) 34526 : Heart=3, Diamond=4, Club=5, Spade=6
+C) 34423 : Heart=3, Diamond=4, Club=2, Spade=3
+D) 34424 : Heart=3, Diamond=4, Club=2, Spade=4
+E) 32446 : Heart=3, Diamond=2, Club=4, Spade=6
+
+The question says the same shape on same digits, and different shapes on different digits. This means that some of these numbers will have repeated digits which is fine if they share the same shape. Let's consider how to assign each shape and see which option matches:
+The question indicates that the shapes represent numbers from left to right
+1.  Heart = First Digit
+2.  Diamond = Second Digit
+3.  Club = Third Digit
+4.  Spade = Fourth Digit
+5.  Fifth Digit
+
+Looking at the shapes, a number with repeating digits must have the corresponding shape appear multiple times. The number 34426, has the digit 4 repeated, the diamond shape appears once, then the club and spade. This is not the pattern for a number like the first number, so option A is not the correct pattern.
+Looking at the shapes, we can correlate each option by making the digit from left to right:
+Option A: Heart, Diamond, Diamond, Club, Spade
+Option B: Heart, Diamond, Club, Spade, Spade
+Option C: Heart, Diamond, Diamond, Club, Heart
+Option D: Heart, Diamond, Diamond, Club, Diamond
+Option E: Heart, Club, Diamond, Diamond, Spade
+Looking at the options and mapping them to the digits, we know that the heart represents 3. The diamond represents 4, the club represents 2, and the spade represents 6. Then we need to assign each shape to their corresponding digits.
+Option C : 34423: This has a 3 at the start and end
+Option D : 34424: This has 4 in the second, third, and fifth place.
+Option E : 32446: This is not correct.
+
+The number that best aligns with the order of shapes to numbers is option D, since the diamond is the digit 4, and the shape is shown 3 times.
+Option D is the best answer here.
+Answer: D)

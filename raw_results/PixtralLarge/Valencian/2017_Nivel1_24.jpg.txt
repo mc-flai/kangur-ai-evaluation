@@ -1,0 +1,21 @@
+Per determinar quantos dígits té el nombre 1234567891011...20162017, hem de seguir aquests passos:
+
+1. **Eliminar els punts**: El nombre està separat pels punts, però aquests no afecten el nombre de dígits. Eliminem els punts i quedem amb: 12345678910111213...20162017.
+
+2. **Contar els dígits dels números de l'1 al 9**: Els números de l'1 al 9 tenen un total de 9 dígits (1 dígit per cada número).
+
+3. **Contar els dígits dels números del 10 al 99**: Els números del 10 al 99 són un total de 90 números (99 - 10 + 1 = 90). Cada número té 2 dígits, per tant, 90 números * 2 dígits = 180 dígits.
+
+4. **Contar els dígits dels números del 100 al 2017**: Els números del 100 al 2017 són un total de 1918 números (2017 - 100 + 1 = 1918). Cada número té 3 o 4 dígits. Els números del 100 al 999 són 900 números, cada un amb 3 dígits, per tant, 900 números * 3 dígits = 2700 dígits. Els números del 1000 al 2017 són 1018 números, cada un amb 4 dígits, per tant, 1018 números * 4 dígits = 4072 dígits.
+
+5. **Sumar tots els dígits**:
+   - De l'1 al 9: 9 dígits.
+   - Del 10 al 99: 180 dígits.
+   - Del 100 al 999: 2700 dígits.
+   - Del 1000 al 2017: 4072 dígits.
+
+   Total de dígits = 9 + 180 + 2700 + 4072 = 6961.
+
+Raonament: Hem contat el nombre total de dígits dels números de l'1 al 2017, considerant els dígits de cada interval de números.
+
+Resposta: D).

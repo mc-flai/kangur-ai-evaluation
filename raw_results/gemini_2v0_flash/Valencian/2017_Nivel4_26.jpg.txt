@@ -1,0 +1,19 @@
+Raonament:
+Primer, reordenem l'equació per a aïllar y:
+xy + 4x - 13 = x²
+xy = x² - 4x + 13
+y = (x² - 4x + 13) / x
+y = x - 4 + 13/x
+
+Com que x i y han de ser enters, 13/x també ha de ser un enter. Això significa que x ha de ser un divisor enter de 13.
+Els divisors enters de 13 són: -13, -1, 1, 13.
+
+Ara, trobem els valors corresponents de y per a cada valor de x:
+Si x = -13, y = -13 - 4 + 13/(-13) = -13 - 4 - 1 = -18
+Si x = -1, y = -1 - 4 + 13/(-1) = -1 - 4 - 13 = -18
+Si x = 1, y = 1 - 4 + 13/1 = 1 - 4 + 13 = 10
+Si x = 13, y = 13 - 4 + 13/13 = 13 - 4 + 1 = 10
+
+Per tant, hi ha 4 parelles (x, y) que satisfan l'equació: (-13, -18), (-1, -18), (1, 10), (13, 10).
+
+Resposta: E)

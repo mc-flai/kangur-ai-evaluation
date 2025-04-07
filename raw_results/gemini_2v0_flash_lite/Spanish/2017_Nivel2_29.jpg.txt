@@ -1,0 +1,8 @@
+Razonamiento: The series consists of even numbers, excluding those with odd digits. We need to find the 100th number in this series. First, let's determine the pattern. We can write down the first few numbers in the sequence: 2, 4, 6, 8, 20, 22, 24, 26, 28, 40, 42, 44, 46, 48, 60, 62, 64, 66, 68, 80, 82, 84, 86, 88...
+The numbers are formed using only the even digits (0, 2, 4, 6, 8).  We can map these numbers to a base-5 system, where 0 maps to 0, 2 to 1, 4 to 2, 6 to 3, and 8 to 4.
+Since we want to find the 100th term, we convert 100 to a base-5 representation:
+100 in base-10 is 400 in base-5 (100 = 4*25 + 0*5 + 0*1).
+Now, we replace the base-5 digits with the digits in our series:
+4 becomes 8, 0 becomes 0, and 0 becomes 0. Thus, the 100th number is 800.
+
+Respuesta: C)

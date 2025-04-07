@@ -1,0 +1,8 @@
+Joey a quatre crayons de couleur et veut colorier le kangourou de son album, qui est coupé en quatre régions. Deux régions qui se touchent ne doivent pas être de la même couleur.
+
+**Raisonnement :**
+Le problème peut être visualisé comme un problème de coloriage des sommets d'un graphe où chaque région est un sommet et les arêtes représentent les frontières entre les régions. Le graphe ici est un graphe complet avec 4 sommets (K4) parce que toutes les régions se touchent.
+
+Pour colorier un graphe complet avec \( n \) sommets, il faut \( n \) couleurs. Ici, nous avons 4 régions donc 4 couleurs sont nécessaires.
+
+**Réponse :** C) 24.

@@ -1,0 +1,18 @@
+Razonamiento:
+Un entero positivo n es "bueno" si su divisor más grande (excluyendo n) es igual a n - 6. Tenemos que encontrar cuántos enteros positivos cumplen esta condición.
+
+Si n = 7, el divisor más grande de 7 (excluyendo 7) es 1.  7 - 6 = 1. Por lo tanto, 7 es "bueno".
+Si n = 8, el divisor más grande de 8 (excluyendo 8) es 4.  8 - 6 = 2. 4 ≠ 2. Por lo tanto, 8 no es "bueno".
+Si n = 9, el divisor más grande de 9 (excluyendo 9) es 3.  9 - 6 = 3. Por lo tanto, 9 es "bueno".
+Si n = 10, el divisor más grande de 10 (excluyendo 10) es 5. 10 - 6 = 4.  5 ≠ 4. Por lo tanto, 10 no es "bueno".
+Si n = 12, el divisor más grande de 12 (excluyendo 12) es 6. 12-6=6. Por lo tanto, 12 es "bueno".
+Si n=13, el divisor más grande de 13 (excluyendo 13) es 1. 13-6=7. No es "bueno"
+Si n es primo, el divisor más grande es 1, por lo tanto n-6=1 y n=7.
+Si el divisor más grande es n/2, entonces n/2 = n-6, lo cual implica que n = 12.
+Si el divisor más grande es n/3, entonces n/3 = n-6, lo cual implica que 2n/3 = 6, y n=9.
+Si el divisor más grande es n/4, entonces n/4 = n-6, lo cual implica que 3n/4=6, y n=8. Pero el divisor más grande de 8 es 4, por lo que no es una solución.
+Si el divisor más grande es n/5, entonces n/5 = n-6, lo cual implica que 4n/5=6, y n=30/4=7.5. No es un entero.
+Si el divisor más grande es n/k, entonces n/k = n-6.
+Los enteros "buenos" son 7, 9 y 12.
+
+Respuesta: C)

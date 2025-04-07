@@ -1,0 +1,33 @@
+**Reasoning**:
+
+The problem requires us to find a number that, when placed in the circle marked with a question mark, will make each number in the diagram equal to the sum of its two direct neighbors. 
+
+Let's denote the numbers in the circles as follows:
+
+- Top circle: 3
+- Top right circle: 5
+- Bottom right circle: x (unknown)
+- Bottom circle: y (unknown)
+- Bottom left circle: z (unknown)
+- Top left circle: w (unknown)
+
+We need to determine the value of x such that:
+1. 5 + x = z
+2. 3 + z = 5
+3. y + w = x
+4. z + y = w
+5. w + 3 = 5
+
+From equation 2:
+3 + z = 5
+z = 5 - 3
+z = 2
+
+From equation 1:
+5 + x = 2
+x = 2 - 5
+x = -3
+
+Therefore, the number that Ella needs to write into the circle marked with "?" is -3.
+
+**Answer**: D)

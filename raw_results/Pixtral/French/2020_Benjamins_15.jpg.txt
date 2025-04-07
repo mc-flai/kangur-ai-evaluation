@@ -1,0 +1,25 @@
+
+Raisonnement :
+1. Dans le calcul KAN-GOU-ROU, nous devons remplacer les lettres par les chiffres de 1 à 7.
+2. La lettre K est remplacée par le même chiffre que la lettre G, et les lettres différentes sont remplacées par des chiffres différents.
+3. Nous devons déterminer quelle est la plus grande valeur possible pour le résultat.
+
+Pour déterminer la plus grande valeur possible :
+- Si K = G, nous devons trouver une combinaison de chiffres de 1 à 7 qui maximise le résultat.
+- En supposant K = G, nous devons essayer différentes combinaisons pour maximiser le résultat.
+
+Essayons les combinaisons possibles :
+- Si K = G = 7, alors KAN = 777, GOU = 777, ROU = 777.
+- Le résultat serait 777 + 777 + 777 = 2331.
+
+Cependant, nous devons vérifier si une autre combinaison pourrait donner un résultat plus élevé.
+
+- Si K = G = 6, alors KAN = 666, GOU = 666, ROU = 666.
+- Le résultat serait 666 + 666 + 666 = 2000.
+
+En comparant les résultats :
+- 2331 (K = G = 7) est plus grand que 2000 (K = G = 6).
+
+Par conséquent, la plus grande valeur possible est 2331.
+
+Réponse : E)

@@ -1,0 +1,13 @@
+Razonamiento: Para resolver el problema 29, hay que entender el concepto de residuo. El residuo es el número que "sobra" después de una división. En este caso, María divide 2015 entre los números del 1 al 1000. Cuando dividimos 2015 entre un número *n*, el residuo es siempre menor que *n*. Entonces, para encontrar el residuo más grande, vamos a tratar de encontrar el divisor más grande que nos dé un residuo también grande. Si dividimos 2015 por 1000, obtenemos un cociente de 2 y un residuo de 15. A medida que disminuimos el divisor, el resto puede crecer. Si dividimos 2015 por 671, el resto es 2015 - 3 * 671 = 2015 - 2013 = 2. Consideremos la división de 2015 por 215: 2015 = 215*9 + 80, así que el residuo es 80. Al dividir 2015 entre 15, el residuo es 5. Si dividimos 2015 entre 1007, obtenemos 2015 = 1 * 1007 + 1008. Sin embargo, el residuo no puede ser mayor que el divisor, por lo que esta división no es permitida, ya que el divisor debe ser menor o igual que 1000.
+Vamos a intentar con otro valor, por ejemplo 672. 2015 = 672 * 2 + 671.  El residuo es 671.
+¿Existe un valor más grande? Si dividimos por 1007 (que no es válido ya que tiene que estar entre 1 y 1000), obtendríamos un resto mayor.
+Vamos a probar a dividir 2015 por 1000.  2015 = 1000*2 + 15, el resto es 15.
+¿Cuál es el máximo posible para un residuo? El residuo máximo posible es el número dividido menos 1. 2015 / 1008 (no vale porque está entre 1 y 1000)
+Dividiendo 2015 por 672 da resto 671. Hay que ver si podemos obtener un residuo más grande, sin que el cociente sea 0 (es decir, sin que el divisor sea mayor que 2015).
+Podemos encontrar el divisor que nos de resto 1007. Buscamos un n tal que 2015 = n*1 + 1007. entonces n = 2015 - 1007 = 1008. 1008 está fuera del rango 1 a 1000.
+Prueba con 671: 2015 / 671 = 2 + 673. El mayor resto es 671.
+
+Consideramos la división 2015 = 2 * x + (x - 1), donde x es el divisor y x - 1 es el residuo, así, 3x = 2016, entonces x = 672.  2015 = 2 * 672 + 671, así que el residuo es 671.
+Ahora debemos ver si es el máximo resto que podemos obtener, o si hay otros restos posibles mayores que 671.
+
+Respuesta: C)

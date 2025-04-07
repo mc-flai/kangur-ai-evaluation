@@ -1,0 +1,27 @@
+Reasoning: Let the interior angle of the 15-sided polygon be $\alpha$ and the interior angle of the $n$-sided polygon be $\beta$. The distance between $C_1$ and $C_2$ is 1 if and only if the angle $\angle C_1BC_2 = \alpha + \beta - 180^\circ = 60^\circ$. Therefore $\alpha + \beta = 240^\circ$.
+The interior angle of a regular $n$-sided polygon is given by $\frac{(n-2) \times 180}{n}$.
+So $\alpha = \frac{(15-2) \times 180}{15} = \frac{13 \times 180}{15} = 13 \times 12 = 156^\circ$.
+Then $\beta = 240 - 156 = 84^\circ$.
+So $\frac{(n-2) \times 180}{n} = 84$
+$180n - 360 = 84n$
+$96n = 360$
+$n = \frac{360}{96} = \frac{30}{8} = \frac{15}{4}$, which is impossible because $n$ must be an integer.
+
+However, we have made an error in interpreting the problem. If $C_1, B, C_2$ lie on the same side of the common edge $AB$, we need $\angle C_1BC_2 = 60^\circ$, which means $\angle ABC_1 + \angle ABC_2 = 360^\circ - 60^\circ = 300^\circ$, and $\alpha = \angle ABC_1$, $\beta = \angle ABC_2$.
+
+If $C_1$ and $C_2$ are on opposite sides, $\angle C_1BC_2 = 60^\circ$. Therefore, $360 - \alpha - \beta = 60$, then $\alpha + \beta = 300$. Then $156 + \frac{(n-2)180}{n} = 300$. $\frac{(n-2)180}{n} = 144$. Then $180n - 360 = 144n$. So $36n = 360$, thus $n = 10$.
+
+Reasoning:
+The angle between the two polygons at vertex B is 60 degrees, since the distance between C1 and C2 is equal to the side length. If the polygons lie on opposite sides of AB, we have $360 - \alpha - \beta = 60$, where $\alpha$ and $\beta$ are exterior angles of the 15-sided and $n$-sided polygons respectively at vertex B.
+Exterior angle $\alpha = \frac{360}{15} = 24$. Exterior angle $\beta = \frac{360}{n}$. Thus $360 - 24 - \frac{360}{n} = 60$.
+$300 - 24 = \frac{360}{n}$.
+$276 = \frac{360}{n}$. This is impossible.
+Instead $360 - (\frac{180(15-2)}{15}) - (\frac{180(n-2)}{n}) = 60$
+$\frac{180(15-2)}{15} + \frac{180(n-2)}{n} = 300$
+$156 + \frac{180n - 360}{n} = 300$
+$\frac{180n - 360}{n} = 144$
+$180n - 360 = 144n$
+$36n = 360$
+$n = 10$
+
+Answer: A)

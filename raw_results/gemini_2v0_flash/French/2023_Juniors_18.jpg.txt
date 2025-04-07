@@ -1,0 +1,27 @@
+Reasoning: The K-machine takes a list of non-negative integers and extends it by appending the smallest non-negative integer that is different from the last four numbers in the list. The initial list is 2, 0, 2, 3.
+
+- The next number added must be different from 2, 0, 2, 3. The smallest such number is 1. List becomes 2, 0, 2, 3, 1.
+- The next number added must be different from 0, 2, 3, 1. The smallest such number is 0. List becomes 2, 0, 2, 3, 1, 0.
+- The next number added must be different from 2, 3, 1, 0. The smallest such number is 2. List becomes 2, 0, 2, 3, 1, 0, 2.
+- The next number added must be different from 3, 1, 0, 2. The smallest such number is 3. List becomes 2, 0, 2, 3, 1, 0, 2, 3.
+- The next number added must be different from 1, 0, 2, 3. The smallest such number is 1. List becomes 2, 0, 2, 3, 1, 0, 2, 3, 1.
+- The next number added must be different from 0, 2, 3, 1. The smallest such number is 0. List becomes 2, 0, 2, 3, 1, 0, 2, 3, 1, 0.
+- The sequence 1, 0, 2, 3, 1, 0, 2, 3 is repeating.
+The length of the repeating sequence is 4. We want to find the 2023rd term. We have the first 4 terms given and then a repeating sequence of 4 terms.
+2023 - 4 = 2019. Now divide by 4: 2019 / 4 = 504 with a remainder of 3.
+So the 2023rd term is the 3rd term in the repeating sequence 1, 0, 2, 3, which is 2.
+
+Reasoning:
+The sequence starts with 2, 0, 2, 3. The K-machine adds to the list the smallest non-negative integer that is different from the last four numbers. The sequence then continues indefinitely. Let's find the first few elements:
+1. 2, 0, 2, 3
+2. Smallest integer not in {2, 0, 2, 3} is 1.  -> 2, 0, 2, 3, 1
+3. Smallest integer not in {0, 2, 3, 1} is 0. -> 2, 0, 2, 3, 1, 0
+4. Smallest integer not in {2, 3, 1, 0} is 2. -> 2, 0, 2, 3, 1, 0, 2
+5. Smallest integer not in {3, 1, 0, 2} is 3. -> 2, 0, 2, 3, 1, 0, 2, 3
+6. Smallest integer not in {1, 0, 2, 3} is 1. -> 2, 0, 2, 3, 1, 0, 2, 3, 1
+7. Smallest integer not in {0, 2, 3, 1} is 0. -> 2, 0, 2, 3, 1, 0, 2, 3, 1, 0
+
+The sequence 1, 0, 2, 3 repeats. It starts after the first 4 terms.  We want the 2023rd term. So we are interested in the 2023-4 = 2019th term in the repeating sequence. 2019 mod 4 = 3.
+The 3rd term of the repeating sequence 1, 0, 2, 3 is 2.
+
+Answer: C)

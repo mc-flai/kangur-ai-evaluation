@@ -1,0 +1,5 @@
+Razonamiento: The problem describes a prism formed by triangles and squares, with the vertices numbered from 1 to 6. The sum of the vertices for each square must be the same. We know two vertices of the figure (1 and 5). The remaining vertices will need to be chosen so that the sum of each square formed by 4 vertices is the same. Let's analyze the vertices with 1 and 5. The vertex labeled 'x' is connected to the vertices labeled '1' and '5' through two squares. The sum of the numbers must be equal for all squares, therefore, the opposite vertices on these two squares (other than 1, 5, and x) should also share the same square.
+If we consider the figure, 1 and 5 are placed at the bottom. Since there are only 6 numbers total, the next number will have to be from 2,3,4 or 6. Let's imagine x = 6. This means that the numbers will sum to: 1+5+6. The remaining number should be 2 or 3, with any of the other options from 2,3,4, or 6.
+If we consider x = 6, it would be logical to place the numbers (1,5,6,2); (1,6,3,4); (2,3,4,5). The sum in the first rectangle will be 1+5+6+2 = 14. Therefore, the number at x must be 6.
+
+Respuesta: D)

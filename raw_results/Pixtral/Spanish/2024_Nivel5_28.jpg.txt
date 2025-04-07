@@ -1,0 +1,24 @@
+
+La pregunta 28 se refiere a 28 puntos que están equidistantes en una circunferencia. Pregunta cuántas líneas se pueden trazar que conecten pares de estos puntos y cuál es el radio del círculo más corto que su diámetro.
+
+Para determinar el número de líneas que se pueden trazar conectando pares de puntos equidistantes en una circunferencia, debemos considerar que cada punto puede conectarse con todos los demás puntos. Si hay 28 puntos, el número de líneas que se pueden trazar es el número de combinaciones posibles de tomar dos puntos de 28. Esto se puede calcular usando la fórmula para combinar dos elementos sin repetición:
+
+\[ \text{Número de combinaciones} = \frac{n(n-1)}{2} \]
+
+Donde \( n \) es el número de puntos. Para \( n = 28 \):
+
+\[ \text{Número de combinaciones} = \frac{28(28-1)}{2} = \frac{28 \times 27}{2} = 378 \]
+
+Por lo tanto, el número de líneas que se pueden trazar es 378.
+
+Para determinar el radio del círculo más corto que su diámetro, debemos considerar que el diámetro es la línea más larga que puede conectar dos puntos opuestos en la circunferencia. El radio es la distancia desde el centro del círculo hasta cualquier punto en la circunferencia. El diámetro es dos veces el radio.
+
+Si el diámetro es 160, entonces el radio es:
+
+\[ \text{Radio} = \frac{\text{Diámetro}}{2} = \frac{160}{2} = 80 \]
+
+Por lo tanto, el radio del círculo más corto que su diámetro es 80.
+
+Razonamiento: El número de combinaciones de tomar dos puntos de 28 es 378. El diámetro es 160, por lo que el radio es 80.
+
+Respuesta: E)

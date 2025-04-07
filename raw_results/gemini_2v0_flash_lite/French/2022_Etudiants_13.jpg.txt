@@ -1,0 +1,17 @@
+Raisonnement :
+1.  On sait que la moyenne d'âge de 5 éléphants est de 24 ans.
+2.  On sait que la moyenne d'âge des 3 plus jeunes est de 19 ans. Donc la somme des âges des 3 plus jeunes est 19\*3 = 57 ans.
+3.  On sait que la moyenne d'âge des 3 plus âgés est de 28 ans. Donc la somme des âges des 3 plus âgés est 28\*3 = 84 ans.
+4.  Puisque les 5 éléphants ont une moyenne d'âge de 24 ans, alors la somme de leurs âges est de 24\*5 = 120 ans.
+5.  Le troisième éléphant est le médian. L'âge des 3 plus jeunes est inférieure à l'âge du médian. L'âge des 3 plus âgés est supérieure à l'âge du médian.
+6.  Soit x l'âge de l'éléphant médian.  On peut décomposer la somme des âges des 5 éléphants en l'âge des 3 plus jeunes (57), l'âge du médian (x), et l'âge des 2 plus âgés.
+7.  On peut également décomposer la somme des âges des 5 éléphants en l'âge des 2 plus jeunes, l'âge du médian (x) et l'âge des 3 plus âgés (84).  Cela implique que l'âge du médian est 120 - (somme des 2 plus jeunes) - (somme des 3 plus âgés - x).
+8.  Puisque l'âge médian se retrouve dans les deux groupes, on peut déduire que les deux groupes incluent cet âge.
+9.  L'âge médian est donc la valeur d'âge qui permet de trouver l'âge de l'éléphant se trouvant dans les deux groupes.
+10. On déduit que l'âge de l'éléphant avant l'âge médian est le deuxième plus jeune.
+11.  On trouve que les deux plus jeunes sont les deux moins jeunes parmi les trois moins jeunes.
+12.  On peut déduire que l'âge de l'éléphant avant l'âge médian est entre 19 et 28 ans.
+13.  Si on prend les 3 plus jeunes, le plus grand d'entre eux ne peut pas être le médian car dans la somme des âges des 3 plus âgés, il faudrait qu'il y ait deux des 3 plus jeunes.
+14. Soit a, b, c, d, e les âges des 5 éléphants rangés par ordre croissant. Donc c est le médian. On sait que (a+b+c)/3 = 19 et (c+d+e)/3 = 28.  On a a+b+c+d+e = 5\*24 = 120.   On a a+b+c=57 donc d+e= 120 - 57 = 63.  On a c+d+e = 84 donc a+b = 120-84=36. On a a+b+c=57.  Donc c=57-36 = 21.
+
+Réponse : B)

@@ -1,0 +1,16 @@
+Raonament: Per obtenir la suma més gran possible, hem de posar els nombres més grans a les posicions més significatives. Per tant, el 9 i el 2 hauran d'anar a les caselles que sumen. Això deixa l'1 i el 0 com a opcions per a la casella amb el signe d'interrogació.
+Si posem l'1 a la casella amb el signe d'interrogació i el 0 a la casella restant, tenim 92+1=93
+Si posem el 0 a la casella amb el signe d'interrogació i l'1 a la casella restant, tenim 92+0=92
+Si posem el 2 i el 9 a les caselles que sumen, tenim 29.
+Si posem l'1 al signe d'interrogació, tenim 29+1=30
+Si posem el 0 al signe d'interrogació, tenim 29+0=29
+Si posem el 9 i el 2 a les caselles que sumen i l'1 o el 0 al signe d'interrogació, tenim 92+1=93 i 92+0=92
+Si posem el 9 i l'1 a les caselles que sumen i el 2 o el 0 al signe d'interrogació, tenim 91+2=93 i 91+0=91
+Si posem el 9 i el 0 a les caselles que sumen i el 2 o l'1 al signe d'interrogació, tenim 90+2=92 i 90+1=91
+En resum, col·locarem el 9 i l'1 a les caselles de davant i el 2 al signe d'interrogació. Per tant, la suma seria la màxima possible.
+91+2=93.
+92+1=93.
+Com que volem la suma màxima possible, hem de posar els nombres més grans a les caselles de davant i el nombre restant al signe d'interrogació.
+Així doncs, si la resposta correcta és que només hi pot anar el 2.
+
+Resposta: C)

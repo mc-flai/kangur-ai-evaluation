@@ -1,0 +1,23 @@
+### Reasoning:
+
+1. **Understanding the Problem**: We have 30 people on an island, each of whom is either a liar (who always lies) or a nobleman (who always tells the truth). At a banquet, everyone claims that one of their two neighbors is a liar and the other is a nobleman.
+
+2. **Analyzing Statements**:
+   - If a person is a liar, their statement that one neighbor is a liar and the other is a nobleman must be false. This means both neighbors must be liars.
+   - If a person is a nobleman, their statement that one neighbor is a liar and the other is a nobleman must be true. This means one neighbor is a liar and the other is a nobleman.
+
+3. **Grouping People**:
+   - Liars will always be grouped in pairs (since a liar's statement about their neighbors being a liar and a nobleman is false).
+   - Noblemen will be interspersed among liars, with each nobleman having one liar and one nobleman as neighbors.
+
+4. **Counting Noblemen**:
+   - Since liars are always in pairs, the total number of people must be even for the pairs to be complete.
+   - Given there are 30 people, this means there must be an odd number of noblemen because an even number of people (all liars) would total 28, leaving 2 people unaccounted for.
+   - The maximum number of noblemen occurs when the fewest number of liars are present. This means the maximum number of noblemen is when there are 28 liars (14 pairs) and 2 noblemen.
+
+5. **Verification**:
+   - If there are 28 liars, they will be in 14 pairs.
+   - The remaining 2 people must be noblemen.
+   - This configuration satisfies the condition that each person has one liar and one nobleman as neighbors.
+
+### Answer: C

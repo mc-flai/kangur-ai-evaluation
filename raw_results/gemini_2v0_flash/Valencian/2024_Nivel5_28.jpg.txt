@@ -1,0 +1,13 @@
+Raonament:
+Tenim 20 punts en la circumferència. El nombre total de cordes que podem dibuixar connectant aquests punts és (20 * 19) / 2 = 190.
+Una corda és més curta que el radi si els punts estan separats per 1 o 2 punts. Hi ha 20 cordes on els punts estan adjacents i 20 on estan separats per un punt. Així, hi ha 20 + 20 = 40 cordes més curtes o igual que el radi.
+Una corda és igual al diàmetre si connecta punts diametralment oposats. Hi ha 20 / 2 = 10 tals cordes.
+Les cordes més llargues o iguals que el diàmetre connecten punts separats per 9, 10, ...., 19 intervals.
+Les cordes més curtes o iguals que el radi connecten punts separats per 1 interval. Hi ha 20 cordes d'aquest tipus.
+Les cordes mes llargues que el radi i mes curtes que el diàmetre són les que separan entre 3 i 9 intervals.
+Total de cordes = 190
+Cordes que connecten 1 o 2 punts de separació: 20 + 20 = 40.
+Cordes que connecten 10 punts de separació (diàmetre): 10
+Cordes que volem = 190 - 40 - 10 = 140.
+
+Resposta: D)

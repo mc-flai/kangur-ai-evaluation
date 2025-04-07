@@ -1,0 +1,18 @@
+
+Raisonnement :
+1. La question décrit une situation où une tortue et un lièvre courent sur une piste circulaire de 5 km.
+2. Le lièvre court cinq fois plus vite que la tortue.
+3. Le lièvre part en retard et change de direction instantanément à chaque fois qu'il arrive à la ligne de départ.
+4. Nous devons déterminer à quelle distance de la ligne d'arrivée le lièvre et la tortue se rencontreront exactement.
+
+Pour résoudre ce problème, nous devons comprendre que le lièvre change de direction à chaque fois qu'il atteint le point de départ, ce qui signifie qu'il court en sens inverse par rapport à la tortue. Étant donné que le lièvre court cinq fois plus vite que la tortue, il couvrira la distance en sens inverse cinq fois plus rapidement.
+
+En d'autres termes, chaque fois que le lièvre change de direction, il parcourt 5 km en sens inverse. La tortue continue de courir dans la même direction. Pour qu'ils se rencontrent exactement, le lièvre doit parcourir une distance qui, lorsqu'elle est additionnée à la distance parcourue par la tortue, soit un multiple de la piste de 5 km.
+
+Calculons la distance :
+- Si le lièvre parcourt 5 km en sens inverse, cela signifie qu'il a parcouru 5 km en sens inverse par rapport à la tortue.
+- La tortue continue de courir dans la même direction, donc la distance totale parcourue par les deux doit être un multiple de 5 km.
+
+Pour que le lièvre et la tortue se rencontrent exactement, la distance parcourue par le lièvre en sens inverse doit être un multiple de 5 km. La distance la plus courte à laquelle cela se produit est lorsque le lièvre parcourt 5 km en sens inverse et la tortue parcourt 5 km dans la même direction, ce qui fait un total de 10 km.
+
+Réponse : D) 14 km

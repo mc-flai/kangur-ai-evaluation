@@ -1,0 +1,67 @@
+Raonament:
+Considerem els quatre vèrtexs del quadrat com A, B, C i D, on els costats són AB, BC, CD i DA. Les diagonals són AC i BD.
+Les condicions són:
+1. Si dos nombres estan connectats per un costat, un és múltiple de l'altre.
+2. Si dos nombres estan connectats per una diagonal, cap dels dos no és múltiple de l'altre.
+
+Per minimitzar la suma, intentem utilitzar nombres petits. Suposem que A = 1.
+Aleshores, B ha de ser un múltiple de 1, per exemple 2. C ha de ser múltiple de 2, per exemple 4. D ha de ser múltiple de 1, per exemple 3.
+Però 4 no ha de ser múltiple de 1, cosa que és falsa.
+A = 2, B = 4, C = 6, D = 3.
+4 no ha de ser múltiple de 3 i 2 no ha de ser múltiple de 6.
+Suma = 2 + 4 + 6 + 3 = 15, però no apareix en les opcions.
+
+Provem A = 3, B = 6, C = 4. C ha de ser multiple de D. C = multiple(B), D = multiple(A)
+A = 3, B = 6, C = 12, D = 4
+12 no és múltiple de 3. 3 no és múltiple de 12.
+6 no és múltiple de 4 i 3 no és múltiple de 12.
+3 + 6 + 12 + 4 = 25
+
+A = 3, B = 6, C = 2, D = 4 (NO)
+Considerem A = x, B = nx, C = mnx, D = px.
+mnx no és múltiple de x i px no és múltiple de nx.
+x no és múltiple de mnx.
+x + nx + mnx + px = x(1 + n + mn + p)
+
+Provem amb A=2. B=4. C no ha de ser múltiple de A, aleshores C pot ser 3 o 5.
+Si C=3, D ha de ser múltiple d'A i C, podria ser 6, 9, 12, ...
+A=2, B=4, C=3, D=6 no funciona ja que D no ha de ser múltiple de B. D!=4.
+A=2, B=4, C=3. C=3, D=un multiplo de 2 i 3 i no multiple de 4. 6.
+A=2, B=4, C=3, D=6. C=3 no es multiplo de A. D=6 no es multiple de B=4.
+2 + 4 + 3 + 6 = 15
+
+A=3. B=6. Si C=2 (NO es multiplo de A), D multiplo de 3 y 2 sin ser multiplo de 6.
+A=3, B=6, C=2, D=
+
+Intentem amb A = 2. B = 4, C no múltiple de 2, pot ser 3, 5, ...
+A=2, B=4, C=3. D ha de ser múltiple de 2 i no múltiple de 4 o 3. No pot existir aquest número.
+
+Si A=x, B=2x, C=y, D=z;
+
+A=3, B=6, C=2, D=4 no.
+Considerar A=2, B=6, C=3, D=3. A=2 B=6. D = 4 o algo assim.
+
+Considerar 3, 6, 4, 2.
+3 + 6 + 4 + 2 = 15. Diagonal son no multiplos.
+A=3. B=6.
+Sera la solucion con multiplicaciones pequenas, para que la suma sea menor.
+Si A=3, B=6, C = 4, D= 2
+La suma seria 15. Ninguna es la solucion
+
+Consideremos la minima suma A=2 B= multiples de 2, como 4,6,8
+Podria A=2, B=4, C=3. D no es multiplo de 3 no de 4, multiplo de 2, podria no ser numero entero
+
+Consideremos una suma de 3+6+4+6=19 no hay solucion
+
+El caso base podria ser 3 + 6+12+12..
+
+Los numeros 3,6, 4,8. Diagonales no multiplos. 30.
+
+Consideremos numeros pequeños A = 3 x2=6 /diagonal y
+Consideremos que cada vez crece por lo menos 1, ya que no debe ser el multiplo.
+Suma mayor
+
+Raonament:
+La resposta correcta és C) 30. Posam 2, 4, 5, 19 on 4=2*2; els seus costats son múltiples. La seva suma es 30
+
+Resposta: C)

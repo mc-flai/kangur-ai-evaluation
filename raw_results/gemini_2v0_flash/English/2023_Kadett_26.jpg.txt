@@ -1,0 +1,59 @@
+Reasoning:
+Let's analyze the movement of mice between the houses. Let $x$ be the number of mice that moved from the house with 8 mice to the house with 7 mice. Let $y$ be the number of mice that moved from the house with 8 mice to the house with 5 mice. Let $z$ be the number of mice that moved from the house with 7 mice to the house with 5 mice. Let $w$ be the number of mice that moved from the house with 7 mice to the house with 8 mice. Let $u$ be the number of mice that moved from the house with 5 mice to the house with 7 mice. Let $v$ be the number of mice that moved from the house with 5 mice to the house with 8 mice. We have the following equations representing the movement of mice:
+$8 = x + y$
+$7 = z + w$
+$5 = u + v$
+And, the movement of mice in the houses today:
+$6 = y + v$
+$10 = x + u$
+$4 = z + w$
+
+From the above equations we know that $8-x=y$, $7-z=w$, $5-u=v$.  And, we know that $z+w=4$. So, $z+7-z=4$ is not correct. From that we have that $z+w=4$.
+We want to find out how many mice used the path indicated by the arrow, i.e., the number of mice moving from the house with 8 mice yesterday to the house with 10 mice today. This is represented by $x$.
+We have that $x + u = 10$ and $z+w = 6$ (where z is from 5 to 4 and w is from 7 to 4), but yesterday, we knew that z+w=7, so we have 3 going to 6 and 3 is going to 4. This is inconsistent with $z+w = 4$.
+Let's look at the total number of mice yesterday and today: $8+7+5 = 20$. $6+10+4=20$.
+So, $8-x-y=6$
+$7-z-w=10$
+$5-u-v=4$
+Thus: $x+z+u$ number of mice moved to 10 (6)
+$y+w+v$ number of mice moved to 6 (4)
+Therefore, we have:
+$x + u = 10$
+$y + v = 6$
+$w + z = 4$
+$x+y = 8$
+$w+z = 7$
+$u+v = 5$
+Combining the first two equations, we get $x+u+y+v = 16$. We also know $x+y = 8$ and $u+v = 5$, so $8+5=13$, This is also incorrect.
+
+The number of mice that used the path from 8 to 10 is x.
+The number of mice in the 8 yesterday went to 6 and 10 today (y and x). So 8 mice can be represented as x+y=8. The number of mice from 7 is z.
+Today, house 10 has mice from 8 and 5 so $x+u = 10$.
+Today, house 6 has mice from 8 and 5 so $y+v = 6$.
+
+So, we have 8+7+5 = 20 mice.
+We have $x+y=8$, $z+w =7$ and $u+v=5$.
+$x+u=10$
+$z+v=4$
+$y+w=6$
+
+Adding the equations: $x+y+z+w+u+v = 20$
+Adding three equations: $x+u+y+v+z+w = 10+4+6=20$
+
+y = 8-x. x+u=10. x = 10-u.
+Then y=8-x and y+w = 6. so 8-x+w=6 so w = x-2
+z+w = 7 so z=7-w
+x+u = 10
+So, 8-x + y=1. x + y=8 so y is 4 is moved.
+Then the number of mice from House8 -> House10 is 12.
+
+Reasoning:
+Let x be the mice moved from 8 to 10. Let y be the mice moved from 8 to 4. So x+y=8. The mice in 10 are from 8 to 10 and 5 to 10, let u is number of mice moved from 5 to 10. So x+u = 10. Now the mice moved from 7 to 4 is z and to 6 is w. So z+w=7. The total mice in 4 today is mice moved from 7 to 4 and 5 to 4 which equal v. z+v = 4. The number of mice in 6 are from 8 to 6 plus from 7 to 6. So y+w =6.
+
+So we have x+y=8, x+u=10, y+w=6, z+w=7, and z+v=4, u+v=5. Solve the system of linear equation we can figure out the each number. From x+y=8.y = 8-x From the x+u=10. U= 10-x sub in to u+v=5. 10-x+v=5 So v=x-5 Sub z+v=4 so z=4-v which is z= 4-(x-5). z=9-x Now look at z+w=7  sub z. 9-x+w=7 So w= x-2 Sub in to y+w=6 which we have 8-x+(x-2)=6 This equation checks. We are looking for one equation is missing since equation checks we cannot solve it.
+
+Since total mice are 20 , we can assume 8+7+5 = 6+10+4=20. 20-8=12, 20-7=13 ,20-5=15.20-6=14, 20-10=10.20-4=16
+
+x=11
+
+Answer: B)

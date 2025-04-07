@@ -1,0 +1,29 @@
+Reasoning:
+Let the sum of the numbers deleted by player 1 be $S_1$ and the sum of the numbers deleted by player 2 be $S_2$. We are given that $S_1 = 2S_2$ or $S_2 = 2S_1$. Since the situation is symmetric, let's assume $S_1 = 2S_2$. The total sum of the numbers is $1+2+7+9+10+15+19 = 63$.
+Let $x$ be the number that remains on the blackboard. Then $S_1 + S_2 + x = 63$.
+Substituting $S_1 = 2S_2$, we have $2S_2 + S_2 + x = 63$, which implies $3S_2 + x = 63$. So $3S_2 = 63 - x$. Since $S_2$ is an integer, $63 - x$ must be divisible by 3. This means $x$ must be divisible by 3.
+The numbers given are 1, 2, 7, 9, 10, 15, 19. The numbers divisible by 3 are 9, 15.
+
+If $x = 9$, then $3S_2 = 63 - 9 = 54$, so $S_2 = 18$ and $S_1 = 2(18) = 36$.
+The numbers deleted are 1, 2, 7, 10, 15, 19. Their sum is 54. $S_1 = 36$ and $S_2 = 18$.
+Possible values for $S_2$: $1+2+15 = 18$. $S_1 = 7+10+19 = 36$.
+
+If $x = 15$, then $3S_2 = 63 - 15 = 48$, so $S_2 = 16$ and $S_1 = 2(16) = 32$.
+The numbers deleted are 1, 2, 7, 9, 10, 19. Their sum is 48. $S_1 = 32$ and $S_2 = 16$.
+Possible values for $S_2$: $1+7+2+x = 10$. I cannot get $16$
+
+Now assume $S_2 = 2S_1$.
+Then $S_1 + S_2 + x = 63$, so $S_1 + 2S_1 + x = 63$. $3S_1 + x = 63$, $3S_1 = 63 - x$.
+So $x$ is divisible by 3 again, meaning $x = 9$ or $x = 15$.
+If $x = 9$, then $3S_1 = 63 - 9 = 54$, so $S_1 = 18$ and $S_2 = 2(18) = 36$.
+Possible values for $S_1$: $1+2+15 = 18$. $S_2 = 7+10+19 = 36$.
+If $x = 15$, then $3S_1 = 63 - 15 = 48$, so $S_1 = 16$ and $S_2 = 2(16) = 32$.
+The numbers deleted are 1, 2, 7, 9, 10, 19. Their sum is 48. $S_1 = 16$ and $S_2 = 32$.
+Possible values for $S_1$: $1+2+7+9=19$
+
+$S_1 = 18$ and $S_2=36$ works.
+Then the remaining value is 9.
+The deleted values are 1, 2, 7, 10, 15, 19.
+
+Reasoning:
+Answer: B)

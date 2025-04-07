@@ -1,0 +1,54 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar els valors dels dígits desconeguts de manera que la suma dels tres nombres de les cartolines sigui 10126.
+
+Els tres nombres de les cartolines en l'ordre són:
+1. 124X
+2. 24Y7
+3. Z226
+
+La suma dels tres nombres és:
+
+124X + 24Y7 + Z226 = 10126
+
+Per resoldre això, sumem els nombres per columnes des de la dreta a l'esquerra.
+
+Comencem amb la columna de les unitats:
+X + 7 + 6 = 26
+X + 13 = 26
+X = 26 - 13
+X = 13
+
+Això no és possible, ja que X ha de ser un sol dígit. Per tant, hem d'ajustar la nostra suma:
+
+X + 7 + 6 = 36 (ja que ha de haver-hi un port)
+X + 13 = 36
+X = 36 - 13
+X = 23
+
+X és realment 3 (i el port és 2).
+
+Ara sumem la següent columna (les desenes):
+4 + Y + 2 = 12 (amb un port de 3 de la columna anterior)
+4 + Y + 2 = 12 - 3
+4 + Y + 2 = 9
+Y + 6 = 9
+Y = 9 - 6
+Y = 3
+
+Finalment, sumem la columna de les centenes:
+1 + 2 + Z = 10 (amb un port de 2 de la columna anterior)
+1 + 2 + Z = 10 - 2
+1 + 2 + Z = 8
+Z + 3 = 8
+Z = 8 - 3
+Z = 5
+
+Per tant, els valors dels dígits són:
+X = 3
+Y = 3
+Z = 5
+
+Això coincideix amb l'opció E: 3, 5 i 6.
+
+**Resposta**: E

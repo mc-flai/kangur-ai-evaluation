@@ -1,0 +1,15 @@
+Reasoning:
+Let B represent a brown kangaroo and G represent a gray kangaroo.
+The kangaroos are arranged in a circle.
+Each kangaroo says "One of my neighbors is brown and the other is gray."
+If a kangaroo is brown, it tells the truth. If a kangaroo is gray, it lies.
+Therefore, if a kangaroo is brown, its neighbors must be one brown and one gray kangaroo.
+If a kangaroo is gray, its neighbors must be either both brown or both gray kangaroos.
+Consider an arrangement BB. Then the gray kangaroo between them would be telling the truth. So the arrangement must be BGBGBG...BGBG. So the number of brown kangaroos would equal the number of gray kangaroos.
+If all the kangaroos are brown, then each kangaroo would be lying, which is not allowed. Similarly if all the kangaroos are gray, then they will all lie. The kangaroos can't be all gray because they would say "Both neighbors are gray", a lie.
+If a gray kangaroo has two brown kangaroo neighbours, it will say "One of my neighbours is brown and the other is gray," which is a lie. If a gray kangaroo has two gray kangaroo neighbours, it will say "One of my neighbours is brown and the other is gray," which is a lie. So, each gray kangaroo has to have neighbours that are the same colour, and this condition is always satisfied.
+
+So the arrangement must be BGBGBG...BGBG. Thus the number of B = number of G.
+Total = 2020 kangaroos. Therefore number of brown kangaroos = 2020/2 = 1010.
+
+Answer: C)

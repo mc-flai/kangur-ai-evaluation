@@ -1,0 +1,34 @@
+
+La pregunta solicita el valor de \( a \) en un número de cuatro dígitos \( abcd \) que satisface la ecuación \( abcd = a^a + b^b + c^c + d^d \).
+
+Para resolver esto, necesitamos encontrar un número de cuatro dígitos \( abcd \) que cumpla con la ecuación dada. Vamos a probar algunos valores posibles para \( a \) y verificar si se satisface la ecuación.
+
+**Razonamiento:**
+1. Comenzamos con \( a = 2 \):
+   - \( abcd = 2222 \)
+   - \( 2^2 + 2^2 + 2^2 + 2^2 = 4 + 4 + 4 + 4 = 16 \)
+   - 16 no es igual a 2222, por lo que \( a \neq 2 \).
+
+2. Probamos con \( a = 3 \):
+   - \( abcd = 3333 \)
+   - \( 3^3 + 3^3 + 3^3 + 3^3 = 27 + 27 + 27 + 27 = 108 \)
+   - 108 no es igual a 3333, por lo que \( a \neq 3 \).
+
+3. Probamos con \( a = 4 \):
+   - \( abcd = 4444 \)
+   - \( 4^4 + 4^4 + 4^4 + 4^4 = 256 + 256 + 256 + 256 = 1024 \)
+   - 1024 no es igual a 4444, por lo que \( a \neq 4 \).
+
+4. Probamos con \( a = 5 \):
+   - \( abcd = 5555 \)
+   - \( 5^5 + 5^5 + 5^5 + 5^5 = 3125 + 3125 + 3125 + 3125 = 12500 \)
+   - 12500 no es igual a 5555, por lo que \( a \neq 5 \).
+
+5. Probamos con \( a = 6 \):
+   - \( abcd = 6666 \)
+   - \( 6^6 + 6^6 + 6^6 + 6^6 = 46656 + 46656 + 46656 + 46656 = 186624 \)
+   - 186624 no es igual a 6666, por lo que \( a \neq 6 \).
+
+Después de probar estos valores, no encontramos un valor de \( a \) que satisfaga la ecuación. Por lo tanto, ninguna de las opciones proporcionadas es correcta.
+
+**Respuesta:** Ninguna de las opciones A), B), C), D) o E) es correcta.

@@ -1,0 +1,26 @@
+Razonamiento:
+La pregunta 25 pide la mayor diferencia posible entre los números de dos cifras BD y AC, dado que A, B, C, y D están en orden creciente. Para maximizar la diferencia BD - AC, debemos maximizar BD y minimizar AC.
+Para maximizar BD, hacemos B lo más grande posible y D aún mayor, respetando el orden creciente. Entonces B = 8 y D = 9. BD = 89
+Para minimizar AC, hacemos A lo más pequeño posible y C un poco mayor, respetando el orden creciente. Entonces A = 1 y C = 2. AC = 12
+La diferencia BD - AC = 89 - 12 = 77. Sin embargo, esta respuesta no está entre las opciones.
+Probemos otros valores:
+Si A=0, entonces el menor valor posible para C es 1. Por tanto, AC = 01 = 1. Si B=8 y D=9, entonces BD = 89. BD - AC = 89 - 1 = 88.
+Si A=1, B=2, C=3, D=4, entonces AC=13, BD=24. BD - AC = 24 - 13 = 11.
+Si A=1, B=2, C=8, D=9, entonces AC=18, BD=29. BD - AC = 29 - 18 = 11.
+El mayor valor posible ocurre cuando A=0, B=1, C=2 y D=9. Sin embargo, A no puede ser 0 porque el número debe ser de 4 cifras.
+Para maximizar la diferencia, necesitamos tener valores bajos de A y C y valores altos de B y D. Los valores posibles para A, B, C, D son los dígitos del 0 al 9. El orden debe ser A < B < C < D.
+Prueba 1: A=1, B=2, C=8, D=9, AC=18, BD=29. Diff=11.
+Prueba 2: A=1, B=3, C=8, D=9, AC=18, BD=39. Diff=21.
+Para maximizar la diferencia, queremos A y C bajos, B y D altos. Por lo tanto, el número debe ser 189x
+El número menor posible para AC es 12, y el mayor número posible para BD es 89. 89 - 12 = 77, que no es una opción.
+Probemos los valores mayores de B y D, B=8, C=9, lo cual no es posible dado B<C<D.
+Probemos con B=0, A<B. Es decir, no podemos tener B como el primer dígito de un número de dos cifras.
+Si A=1, B=2, C=3, D=4.  AC=13. BD=24. BD-AC=11.  Esto no funciona.
+Consideramos el caso más extremo de A=1, B=7, C=8, D=9. AC = 18, BD = 79. 79-18 = 61.
+Consideramos el caso A=0, B=1, C=2, D=3, BD = 13.  AC=02, BD - AC = 13-2 = 11.
+Consideramos el caso A=1, B=2, C=3, D=9.  AC=13. BD=29. BD - AC = 16
+Consideramos el caso A=1, B=7, C=8, D=9.  AC=18. BD=79. BD-AC = 61
+Consideramos el caso A=2, B=7, C=8, D=9. AC=28. BD=79. 79 - 28 = 51.
+Por lo tanto, la mayor diferencia parece ser 61.
+
+Respuesta: B)

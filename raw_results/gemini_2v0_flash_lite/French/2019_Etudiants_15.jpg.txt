@@ -1,0 +1,7 @@
+Raisonnement : On nous demande combien de nombres entiers entre 2^10 et 2^13, inclus, sont divisibles par 2^10. Tout nombre divisible par 2^10 est de la forme k * 2^10, où k est un entier.
+La borne inférieure est 2^10 = 1 * 2^10, donc k commence à 1.
+La borne supérieure est 2^13. On cherche le plus grand entier k tel que k * 2^10 <= 2^13.
+Cela équivaut à k <= 2^13 / 2^10 = 2^(13-10) = 2^3 = 8.
+Donc k peut aller de 1 à 8, ce qui fait 8 valeurs possibles pour k.
+
+Réponse : D)

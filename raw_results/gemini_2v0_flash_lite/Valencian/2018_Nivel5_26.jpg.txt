@@ -1,0 +1,25 @@
+Raonament: La pregunta proporciona una equació quadràtica i demana avaluar una expressió basada en les solucions de l'equació. No necessitem trobar les arrels exactes a i b. La idea és utilitzar les relacions entre les arrels i els coeficients de l'equació quadràtica.
+Primer, d'acord amb les fórmules de Vieta per a una equació quadràtica de la forma ax^2 + bx + c = 0, tenim:
+a + b = -b/a = -1
+ab = c/a = -7
+Ara necessitem reescriure l'expressió 3a² + 4b² + 2a + 3b + 1 en termes d'a + b i ab o termes que puguem simplificar.
+3a^2 + 4b^2 + 2a + 3b + 1 = 3a^2 + 3a + 4b^2 + 3b + 2a - 3a + 1
+Reescrivim l'equació original:
+a^2 + a - 7 = 0  => a^2 + a = 7  => 3a^2 + 3a = 21
+b^2 + b - 7 = 0  => b^2 + b = 7  => 4b^2 + 4b = 28
+3a² + 4b² + 2a + 3b + 1 = (3a² + 3a) + (4b² + 4b) - a - b + 1
+= 21 + 28 + 2a + 3b - 1
+= 21 + 28 - a + b - 1
+= 21+ 4 * (b^2 + b) - b + 2a + 3b - 1
+= (3a^2 + 3a) + (4b^2 + 4b) - a - b + 1
+= 3(a^2 + a) + 4(b^2 + b) - a - b + 1
+= 3(7) + 4(7) - a - b + 1
+= 21 + 28 + 2a + 3b + 1
+= 49 - (a+b) + 1
+= 49 - (a + b) + 1
+= 49 - (a + b) - b + 2a + 3b - 1
+= 49 + 1 - (a+b)
+= 50 - (-1)
+= 50 + 1
+= 51
+Resposta: B)

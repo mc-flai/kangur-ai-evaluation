@@ -1,0 +1,28 @@
+**Reasoning**: To determine which number of pieces Alex cannot obtain by cutting the ropes, we need to consider the lengths of the ropes and how they can be divided into equal pieces.
+
+- The 1 m rope can be divided into pieces of length 1/n for any positive integer n.
+- The 2 m rope can be divided into pieces of length 2/m for any positive integer m.
+
+To find the number of pieces Alex cannot obtain, we look for a number that cannot be achieved by dividing either rope into equal pieces.
+
+- The 1 m rope can provide pieces in lengths such as 1/1, 1/2, 1/3, etc.
+- The 2 m rope can provide pieces in lengths such as 2/1, 2/2, 2/3, etc.
+
+The number of pieces is determined by the denominators of these fractions. We need to find a number of pieces that cannot be formed by either the 1 m or the 2 m rope.
+
+- For the 1 m rope, possible pieces are any positive integer.
+- For the 2 m rope, possible pieces are any positive integer.
+
+However, the number of pieces must be a common multiple of the lengths of the ropes. The lengths are 1 m and 2 m, so the possible number of pieces must be a multiple of the least common multiple (LCM) of 1 and 2, which is 2.
+
+The given options are 6, 8, 9, 12, and 15. We need to find which of these cannot be obtained by dividing the ropes into equal lengths.
+
+- 6 pieces: Possible (1/6 m and 2/6 m)
+- 8 pieces: Possible (1/8 m and 2/8 m)
+- 9 pieces: Not possible (9 is not a multiple of 2)
+- 12 pieces: Possible (1/12 m and 2/12 m)
+- 15 pieces: Not possible (15 is not a multiple of 2)
+
+Therefore, the number of pieces that Alex cannot obtain is 9.
+
+**Answer**: C)

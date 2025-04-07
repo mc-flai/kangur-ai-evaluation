@@ -1,0 +1,11 @@
+**Razonamiento**: La pregunta nos pide determinar cuántas maneras diferentes podemos leer la palabra "BANANA" en la tabla, siempre pasando a una celda que comparte un borde con la celda anterior. Esto significa que solo podemos movernos a las celdas adyacentes.
+
+Para resolver esto, necesitamos contar todas las formas posibles de movernos de "B" en la primera fila a "A" en la tercera fila, y de "B" en la primera fila a "N" en la tercera fila, y así sucesivamente.
+
+1. Desde "B" en la primera fila, podemos movernos a "A" en la segunda fila o a "N" en la segunda fila.
+2. Desde "A" en la segunda fila, podemos movernos a "N" en la tercera fila.
+3. Desde "N" en la segunda fila, podemos movernos a "A" en la tercera fila o a "N" en la tercera fila.
+
+Siguiendo este patrón, podemos ver que hay múltiples caminos para formar la palabra "BANANA". Contando todas las combinaciones posibles, encontramos que hay 56 maneras diferentes de leer "BANANA".
+
+**Respuesta**: C).

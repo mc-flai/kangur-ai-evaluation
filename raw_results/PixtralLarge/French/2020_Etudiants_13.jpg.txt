@@ -1,0 +1,28 @@
+Pour résoudre cette question, nous devons calculer la quantité totale de peinture nécessaire pour couvrir les 6 faces d'un parallélépipède rectangle. Etant donné que chaque parallélépipède nécessite 1 litre de peinture, nous devons déterminer combien de litres seront nécessaires pour peindre la structure entière.
+
+1. Commençons par analyser la structure montrée dans la figure. Nous voyons qu'il y a quatre parallélépipèdes identiques.
+
+2. Pour peindre entièrement un parallélépipède (6 faces), il faut 1 litre de peinture.
+
+3. La structure est composée de 4 parallélépipèdes, ce qui signifie que chaque parallélépipède contribue à la surface totale de la structure.
+
+4. Lorsqu'on les assemble, chaque parallélépipède est collé à un autre, ce qui réduit la surface nécessitant de la peinture.
+
+Observons que chaque parallélépipède a 2 faces collées à d'autres parallélépipèdes. Ainsi, pour chaque parallélépipède, il faut peindre 4 faces au lieu de 6.
+
+5. Calculons maintenant la quantité de peinture nécessaire pour un parallélépipède :
+   - Chaque parallélépipède nécessite 1 litre de peinture pour les 6 faces.
+   - Puisque 2 faces sont collées, on peindra seulement 2/3 des faces.
+
+Donc, pour un parallélépipède, on a besoin de \( \frac{2}{3} \) litres de peinture.
+
+6. Comme il y a 4 parallélépipèdes, la quantité totale de peinture nécessaire est :
+   \[
+   4 \times \frac{2}{3} = \frac{8}{3} \approx 2,67 \text{ litres}
+   \]
+
+La réponse la plus proche est 3 litres.
+
+Raisonnement : En décomposant chaque parallélépipède et en calculant la quantité de peinture nécessaire pour les faces non collées, puis en multipliant par le nombre de parallélépipèdes et en choisissant la réponse la plus proche, nous avons déterminé que la quantité totale de peinture nécessaire est environ 3 litres.
+
+Réponse : B).

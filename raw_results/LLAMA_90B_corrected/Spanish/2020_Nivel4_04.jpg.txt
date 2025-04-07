@@ -1,0 +1,16 @@
+Razonamiento: El problema consiste en encontrar el cuarto término de una progresión aritmética específica compuesta por los números n, 2n-2, 4n-4, ... Para encontrar el cuarto término, identifica el patrón de la secuencia que puedes analizar como una progresión aritmética. En este caso, es posible obtener el siguiente término sumando 2 al último término:
+
+nn    n = 1    |    1 (+2 = 3)
+
+nn - 2    n = 2    |    2 (+2 = 4)
+
+nn - 4    n = 3    |    4 (+2 = 6)
+
+nn - 6    n = 4    |    6 (+2 = 8)
+
+Dado que cada término de la progresión se obtiene sumando 2 al anterior, repetir este proceso con n = 5 es la forma de encontrar el quinto término:
+
+nn - 8    n = 5    |    8 (+2 = 10)
+
+Por lo tanto, el quinto término sería n = 5, lo que hace que la respuesta correcta sea "D) 2". 
+Respuesta: D)

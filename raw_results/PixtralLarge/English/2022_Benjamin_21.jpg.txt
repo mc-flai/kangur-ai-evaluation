@@ -1,0 +1,24 @@
+To determine the maximum number of cubes used to make the building, we need to analyze the three views provided: from above (von oben), from the front (von vorne), and from the right (von rechts).
+
+1. **View from above (von oben)**:
+   - Shows a 2x2 grid of cubes. This indicates that there are at least 4 cubes in each layer.
+
+2. **View from the front (von vorne)**:
+   - Shows a 3x2 grid of cubes. This indicates that there are at least 6 cubes when viewed from the front.
+
+3. **View from the right (von rechts)**:
+   - Shows a 2x2 grid of cubes. This indicates that there are at least 4 cubes when viewed from the right.
+
+To find the maximum number of cubes, we need to consider the possibility of overlapping cubes in the different views. The maximum number of cubes would be achieved if all visible cubes in each view are distinct.
+
+- From the front view, we have 6 cubes.
+- From the top view, we have 4 cubes.
+- From the right view, we have 4 cubes.
+
+Since the front view shows the most cubes (6 cubes), and considering that the top and right views could potentially include some of these same cubes, the maximum number of distinct cubes is 6 (from the front view) + 4 (from the top view) + 4 (from the right view) - overlaps.
+
+However, the maximum number of cubes without overlaps is 22, as all cubes in each view could be distinct.
+
+Reasoning: The maximum number of cubes is determined by considering the possibility of all cubes in each view being distinct, which gives us a total of 22 cubes.
+
+Answer: E) 22.

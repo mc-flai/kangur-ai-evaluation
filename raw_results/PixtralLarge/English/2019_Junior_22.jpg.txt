@@ -1,0 +1,33 @@
+To determine the maximum number of boxes that can be filled under the given conditions, let's analyze the problem step by step.
+
+1. **Total Fruits**: There are 60 apples and 60 pears, making a total of 120 fruits.
+2. **Box Conditions**:
+    - Each box must contain the same amount of apples.
+    - No two boxes should contain the same amount of pears.
+    - Each box contains both fruits.
+
+Let's denote the number of boxes as \( n \).
+
+3. **Apples in Each Box**: Since the number of apples must be the same in each box, the number of apples per box is \( \frac{60}{n} \). For this to be possible, \( n \) must be a divisor of 60.
+
+4. **Pears in Each Box**: The number of pears in each box must be different. Therefore, the distribution of pears needs to be carefully managed.
+
+Let's check the divisors of 60: 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60.
+
+5. **Maximum Number of Boxes**: We need to find the maximum number of boxes where the conditions are met. 
+
+- For \( n = 20 \), each box would contain \( \frac{60}{20} = 3 \) apples. The number of pears per box would need to be different for each box, which is possible since we have 60 pears to distribute differently across 20 boxes.
+
+- For \( n = 15 \), each box would contain \( \frac{60}{15} = 4 \) apples. Similarly, the number of pears per box would need to be different for each box, which is possible since we have 60 pears to distribute differently across 15 boxes.
+
+- For \( n = 12 \), each box would contain \( \frac{60}{12} = 5 \) apples. The number of pears per box would need to be different for each box, which is possible since we have 60 pears to distribute differently across 12 boxes.
+
+- For \( n = 10 \), each box would contain \( \frac{60}{10} = 6 \) apples. The number of pears per box would need to be different for each box, which is possible since we have 60 pears to distribute differently across 10 boxes.
+
+- For \( n = 6 \), each box would contain \( \frac{60}{6} = 10 \) apples. The number of pears per box would need to be different for each box, which is possible since we have 60 pears to distribute differently across 6 boxes.
+
+The maximum number of boxes that can be filled while meeting all conditions is 20.
+
+Reasoning: The maximum number of boxes that can be filled with the same number of apples and different numbers of pears, while ensuring each box contains both fruits, is 20.
+
+Answer: A)

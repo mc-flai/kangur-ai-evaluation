@@ -1,0 +1,40 @@
+Para determinar la suma de los coeficientes del polinomio P que satisface la relación P(x+1) = x² - x + 2P(6), debemos seguir estos pasos:
+
+1. **Identificar el polinomio P**: Supongamos que P(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0.
+
+2. **Evaluar P(x+1)**: Al sustituir x por x+1 en P(x), obtenemos:
+   P(x+1) = a_n(x+1)^n + a_{n-1}(x+1)^{n-1} + ... + a_1(x+1) + a_0.
+
+3. **Expandir P(x+1)**: Usando la expansión binómica, obtenemos:
+   P(x+1) = a_n(x^n + n x^{n-1} + ...) + a_{n-1}(x^{n-1} + (n-1)x^{n-2} + ...) + ... + a_1(x + 1) + a_0.
+
+4. **Evaluar P(6)**: Sustituyendo x = 6 en P(x), obtenemos:
+   P(6) = a_n6^n + a_{n-1}6^{n-1} + ... + a_1*6 + a_0.
+
+5. **Relación dada**: La relación es P(x+1) = x² - x + 2P(6). Sustituyendo x = 6 en la relación, obtenemos:
+   P(7) = 7² - 7 + 2P(6).
+
+6. **Evaluar P(7)**: Sustituyendo x = 7 en P(x), obtenemos:
+   P(7) = a_n7^n + a_{n-1}7^{n-1} + ... + a_1*7 + a_0.
+
+7. **Sustituir en la relación**: Usando la relación P(7) = 49 - 7 + 2P(6), obtenemos:
+   a_n7^n + a_{n-1}7^{n-1} + ... + a_1*7 + a_0 = 42 + 2(a_n6^n + a_{n-1}6^{n-1} + ... + a_1*6 + a_0).
+
+8. **Coeficientes**: Comparando los coeficientes de x de ambos lados, obtenemos:
+   a_n + 2a_n = 0,
+   a_{n-1} + 2a_{n-1} = 0,
+   ...
+   a_1 + 2a_1 = 0.
+
+9. **Suma de coeficientes**: Sumando todos los coeficientes, obtenemos:
+   a_n + a_{n-1} + ... + a_1 + a_0 + 2(a_n + a_{n-1} + ... + a_1 + a_0) = 42.
+
+10. **Simplificar**: Simplificando, obtenemos:
+    3(a_n + a_{n-1} + ... + a_1 + a_0) = 42,
+    a_n + a_{n-1} + ... + a_1 + a_0 = 14.
+
+Por lo tanto, la suma de los coeficientes de P es 12.
+
+Razonamiento: Hemos determinado la suma de los coeficientes del polinomio P que satisface la relación dada.
+
+Respuesta: C)

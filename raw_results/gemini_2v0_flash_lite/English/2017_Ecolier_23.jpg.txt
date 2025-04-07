@@ -1,0 +1,13 @@
+Reasoning:
+We want to minimize the number of petals left over. The flowers have 6, 7, 8, and 11 petals. We can repeatedly take off a petal from three flowers at a time.
+1.  Subtract 1 from the three highest numbers: 6, 7, 8, 11 becomes 5, 6, 7, 10.
+2.  Subtract 1 from the three highest numbers: 5, 6, 7, 10 becomes 4, 5, 6, 9.
+3.  Subtract 1 from the three highest numbers: 4, 5, 6, 9 becomes 3, 4, 5, 8.
+4.  Subtract 1 from the three highest numbers: 3, 4, 5, 8 becomes 2, 3, 4, 7.
+5.  Subtract 1 from the three highest numbers: 2, 3, 4, 7 becomes 1, 2, 3, 6.
+6.  Subtract 1 from the three highest numbers: 1, 2, 3, 6 becomes 0, 1, 2, 5.
+7.  Subtract 1 from the three highest numbers: 0, 1, 2, 5 becomes 0, 0, 1, 4.
+8.  Subtract 1 from the three highest numbers: 0, 0, 1, 4 becomes 0, 0, 0, 3.
+We can't subtract anymore. The numbers of petals remaining are 0, 0, 0, 3, so the minimum number of petals left over is 3.
+
+Answer: C)

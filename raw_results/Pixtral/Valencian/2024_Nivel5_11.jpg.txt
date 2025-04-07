@@ -1,0 +1,27 @@
+
+La pregunta 11 trata sobre un rectángulo dividido en tres regiones de la misma área. Una de las regiones es un triángulo equilátero de 4 cm de costado, y las otras dos son trapezoides. La pregunta solicita la longitud, en cm, de la línea más corta que une los costados paralelos de los trapezoides.
+
+Para resolver esto, primero debemos entender que el área total del rectángulo se divide en tres regiones de áreas iguales. El área del triángulo equilátero se puede calcular usando la fórmula:
+\[ \text{Área} = \frac{\sqrt{3}}{4} \times \text{ladro} ^ 2 \]
+Dado que el lado del triángulo es 4 cm, el área del triángulo es:
+\[ \text{Área} = \frac{\sqrt{3}}{4} \times 4^2 = \frac{\sqrt{3}}{4} \times 16 = 4\sqrt{3} \text{ cm}^2 \]
+
+Dado que el triángulo y los dos trapezoides tienen el mismo área, cada trapezoide también tiene un área de \(4\sqrt{3} \text{ cm}^2\).
+
+Para encontrar la altura del trapezoide, consideramos que la base mayor del trapezoide es el lado del triángulo equilátero, que es 4 cm, y la base menor es la altura del trapezoide. La altura del trapezoide se puede encontrar usando la relación de áreas:
+\[ \text{Área} = \frac{1}{2} \times (\text{base mayor} + \text{base menor}) \times \text{altura} \]
+\[ 4\sqrt{3} = \frac{1}{2} \times (4 + h) \times h \]
+\[ 8\sqrt{3} = (4 + h) \times h \]
+\[ 8\sqrt{3} = 4h + h^2 \]
+\[ h^2 + 4h - 8\sqrt{3} = 0 \]
+
+Resolviendo esta ecuación cuadrática:
+\[ h = \frac{-4 \pm \sqrt{16 + 32\sqrt{3}}}{2} \]
+\[ h = \frac{-4 \pm 2\sqrt{8\sqrt{3}}}{2} \]
+\[ h = -2 \pm \sqrt{8\sqrt{3}} \]
+
+Dado que la altura debe ser positiva:
+\[ h = \sqrt{8\sqrt{3}} \]
+
+Por lo tanto, la longitud de la línea más corta que une los costados paralelos de los trapezoides es:
+\[ \text{Respuesta: D) } 2\sqrt{2} \]

@@ -1,0 +1,50 @@
+Pour répondre à cette question, nous devons déterminer combien de fois Julie peut obtenir un total de 19 points en lançant cinq fois un dé standard (à 6 faces).
+
+**Raisonnement** :
+1. Le minimum de points que l'on peut obtenir en lançant un dé est 1, et le maximum est 6.
+2. Pour obtenir un total de 19 points en cinq lancers, nous devons trouver les combinaisons possibles de nombres entre 1 et 6 qui totalisent 19.
+3. Les combinaisons possibles doivent inclure des valeurs maximales pour pouvoir atteindre 19, car cinq lancers avec des valeurs moyennes (comme 3 ou 4) ne permettraient pas d'atteindre ce total.
+4. La combinaison maximale de lancers de dé serait 6, 6, 6, 6, et 5, ce qui donne 6 + 6 + 6 + 6 + 5 = 29, soit trop élevé.
+5. Nous devons donc réduire l'une des valeurs de 6 à 5 et vérifier les combinaisons :
+   - 6, 6, 6, 5, 5 = 28
+   - 6, 6, 6, 5, 4 = 27
+   - 6, 6, 6, 5, 3 = 26
+   - 6, 6, 6, 5, 2 = 25
+   - 6, 6, 6, 5, 1 = 24
+   - 6, 6, 6, 4, 4 = 26
+   - 6, 6, 6, 4, 3 = 25
+   - 6, 6, 6, 4, 2 = 24
+   - 6, 6, 6, 4, 1 = 23
+   - 6, 6, 6, 3, 3 = 24
+   - 6, 6, 6, 3, 2 = 23
+   - 6, 6, 6, 3, 1 = 22
+   - 6, 6, 6, 2, 2 = 22
+   - 6, 6, 6, 2, 1 = 21
+   - 6, 6, 5, 5, 5 = 27
+   - 6, 6, 5, 5, 4 = 26
+   - 6, 6, 5, 5, 3 = 25
+   - 6, 6, 5, 5, 2 = 24
+   - 6, 6, 5, 5, 1 = 23
+   - 6, 6, 5, 4, 4 = 25
+   - 6, 6, 5, 4, 3 = 24
+   - 6, 6, 5, 4, 2 = 23
+   - 6, 6, 5, 4, 1 = 22
+   - 6, 6, 5, 3, 3 = 23
+   - 6, 6, 5, 3, 2 = 22
+   - 6, 6, 5, 3, 1 = 21
+   - 6, 6, 5, 2, 2 = 21
+   - 6, 6, 4, 4, 4 = 24
+   - 6, 6, 4, 4, 3 = 23
+   - 6, 6, 4, 4, 2 = 22
+   - 6, 6, 4, 4, 1 = 21
+   - 6, 6, 4, 3, 3 = 22
+   - 6, 6, 4, 3, 2 = 21
+   - 6, 6, 4, 3, 1 = 20
+   - 6, 6, 4, 2, 2 = 20
+   - 6, 6, 3, 3, 3 = 21
+   - 6, 6, 3, 3, 2 = 20
+   - 6, 6, 3, 3, 1 = 19
+
+D'après les combinaisons trouvées, Julie peut obtenir un total de 19 points en lançant les dés avec la combinaison 6, 6, 3, 3, 1. Cette combinaison montre que le nombre 6 peut être obtenu un maximum de deux fois.
+
+**Réponse** : B) 1.

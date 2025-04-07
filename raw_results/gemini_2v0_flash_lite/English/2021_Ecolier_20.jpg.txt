@@ -1,0 +1,25 @@
+Reasoning: We need to find which balloon Mia *definitely* hit. This means the points for that balloon must be part of every possible scoring combination to reach 30. Let's look for combinations that add up to 30.
+*   If Mia hits the 18-point balloon, she needs 12 more points (30-18 = 12). She can get this with 3 + 9 or not.
+*   If Mia hits the 14-point balloon, she needs 16 more points. The combination can be 3+13 or not.
+*   If Mia hits the 13-point balloon, she needs 17 more points. Possible scores are 3+14, or 9+ not.
+*   If Mia hits the 9-point balloon, she needs 21 more points. She can make this 3 + 18, or 14+not.
+*   If Mia hits the 3-point balloon, she needs 27 points, which could be 9 + 18, or 13 + 14.
+
+So let's consider each option:
+*   If Mia hits the 3, the rest would add to 27. This can be achieved with either 9 and 18, or 13 and 14. It does not have to include the 3.
+*   If Mia hits the 9, the rest would add to 21. This can be 3 and 18 or not.
+*   If Mia hits the 13, then we would need 17. The other option is 3+14 or not.
+*   If Mia hits the 14, then we need 16. The other option is 3 and 13.
+*   The remaining score to add to 30 must include 3+9 and 18, or 13 and 14 to complete 30 points.
+
+If we consider hitting 3, then 9 and 18 is a possibility, or 13+14.
+If we consider hitting 14, then 3+13.
+We can not tell with certainty with the combination of scores.
+
+The possibilities are (3,9,18), (13,14,3), (13,3,14), (14,3,13) etc. There is not a score that always has to be present. However, we will test:
+*   If the answer is 18, we could have 18 + 3 + 9.
+*   If the answer is 14, we could have 14 + 13 + 3.
+
+Therefore, if 18 is hit, then 12 points is needed, which is definitely the points with the 3 and the 9 points.
+
+Answer: E)

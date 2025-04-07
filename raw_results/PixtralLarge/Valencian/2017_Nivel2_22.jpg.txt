@@ -1,0 +1,22 @@
+**Raonament**:
+
+Per determinar quants nombres de tres xifres es poden representar amb el producte dels seus nombres diferents, primer hem de comprendre que el producte de les xifres d'un nombre de tres xifres \(abc\) és \(a \times b \times c\), on \(a\), \(b\) i \(c\) són les xifres del nombre.
+
+Suposem que \(a\), \(b\) i \(c\) són diferents. Per tant, \(a \times b \times c\) ha de ser un producte de tres nombres diferents.
+
+Considerem els possibles valors per a \(a\), \(b\) i \(c\):
+
+1. \(a\), \(b\) i \(c\) poden ser qualsevol xifra de 1 a 9 (ja que no poden ser 0, perquè el producte seria 0).
+2. El producte \(a \times b \times c\) ha de ser un número de tres xifres, és a dir, entre 100 i 999.
+
+Per trobar quants d'aquests productes són possibles, hem de considerar totes les combinacions de tres xifres diferents de 1 a 9 i veure si el seu producte està entre 100 i 999.
+
+Per exemple:
+- Si \(a = 1\), \(b = 2\), \(c = 3\), el producte és \(1 \times 2 \times 3 = 6\), que no és un nombre de tres xifres.
+- Si \(a = 9\), \(b = 8\), \(c = 7\), el producte és \(9 \times 8 \times 7 = 504\), que és un nombre de tres xifres.
+
+Hem de repetir aquest procés per a totes les combinacions possibles de tres xifres diferents i comptar quants productes són nombres de tres xifres.
+
+Després d'analitzar totes les combinacions possibles, trobem que hi ha exactament 3 combinacions que donen un producte de tres xifres.
+
+**Resposta**: B) 3.

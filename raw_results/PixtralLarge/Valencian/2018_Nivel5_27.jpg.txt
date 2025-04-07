@@ -1,0 +1,28 @@
+Per resoldre el problema de la imatge, seguim aquests passos:
+
+1. **Identificar les circumferències:**
+   - Tenim dos circumferències que tenen el centre en un dels vèrtexs del triangle i passen per l'altre.
+   - Tenim dues circumferències que tenen el centre en els punts mitjans dels costats del triangle i són tangents als costats anteriors.
+
+2. **Calcular els radis de les circumferències:**
+   - El radi de les circumferències centrades en els vèrtexs és igual a la distància entre dos vèrtexs del triangle equilàter, que és 1 (costat del triangle).
+   - El radi de les circumferències centrades en els punts mitjans dels costats és igual a la meitat del costat del triangle, que és 1/2.
+
+3. **Calcular la distància entre els punts d'intersecció de les dues circumferències grans:**
+   - Les circumferències grans tenen radis de 1.
+   - La distància entre els centres d'aquestes circumferències és igual al costat del triangle, que és 1.
+   - La distància entre els punts d'intersecció de dues circumferències de radi 1 i centres separats per 1 es pot calcular utilitzant el teorema de Pitàgores.
+
+4. **Aplicar el teorema de Pitàgores:**
+   - La distància entre els punts d'intersecció (d) es calcula així:
+     \[
+     d = \sqrt{(1+1)^2 - 1^2}
+     \]
+   - Simplificant:
+     \[
+     d = \sqrt{4 - 1} = \sqrt{3}
+     \]
+
+**Raonament**: La distància entre els punts d'intersecció de les dues circumferències grans es calcula utilitzant el teorema de Pitàgores amb els radis i la distància entre els centres dels cercles.
+
+**Resposta**: C) \(\sqrt{13}\)

@@ -1,0 +1,49 @@
+**Raonament:**
+
+El problema planteja que cada jugador d'un equip en un torneig d'escacs juga exactament una partida contra cada jugador dels altres equips. Si no es poden jugar més de 250 partides en total, hem de determinar el nombre màxim d'equips que poden participar en el torneig.
+
+Denotem \( n \) com el nombre d'equips. Cada equip té 3 jugadors, per tant, el nombre total de jugadors és \( 3n \).
+
+Cada jugador juga contra tots els jugadors dels altres equips, és a dir, cada jugador juga \( 3(n-1) \) partides. En total, cada equip juga \( 3 \times 3(n-1) = 9(n-1) \) partides.
+
+El nombre total de partides jugades per tots els equips es calcula multiplicant el nombre de partides per equip pel nombre total d'equips:
+
+\[ 9(n-1) \times n \]
+
+Això ha de ser menor o igual a 250:
+
+\[ 9(n-1)n \leq 250 \]
+
+Desenvolupant l'equació:
+
+\[ 9n^2 - 9n \leq 250 \]
+
+\[ 9n^2 - 9n - 250 \leq 0 \]
+
+Per resoldre aquesta inequació quàdratica, primer busquem les arrels de l'equació quàdratica corresponent:
+
+\[ 9n^2 - 9n - 250 = 0 \]
+
+Utilitzem la fórmula quàdratica \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \):
+
+\[ a = 9, \quad b = -9, \quad c = -250 \]
+
+\[ n = \frac{9 \pm \sqrt{(-9)^2 - 4 \times 9 \times (-250)}}{2 \times 9} \]
+
+\[ n = \frac{9 \pm \sqrt{81 + 9000}}{18} \]
+
+\[ n = \frac{9 \pm \sqrt{9081}}{18} \]
+
+\[ n = \frac{9 \pm 95.3}{18} \]
+
+Les solucions són:
+
+\[ n_1 = \frac{9 + 95.3}{18} \approx 5.85 \]
+
+\[ n_2 = \frac{9 - 95.3}{18} \approx -4.85 \]
+
+Com que \( n \) ha de ser un nombre enter positiu, considerem \( n_1 \approx 5.85 \).
+
+Així, el nombre màxim d'equips que poden participar és 5. Per tant, l'opció correcta és C) 9, ja que 9 és el nombre màxim d'equips que poden participar sense superar les 250 partides.
+
+**Resposta:** C) 9

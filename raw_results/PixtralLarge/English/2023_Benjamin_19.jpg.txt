@@ -1,0 +1,17 @@
+To determine the winner of the competition, we need to analyze the distances each animal covers with each jump and identify which one can land exactly on the position labeled "Ziel" with the least amount of jumps.
+
+1. **Beaver**: Moves one position forward with each jump.
+2. **Rabbit**: Moves two positions forward with each jump.
+3. **Kangaroo**: Moves three positions forward with each jump.
+
+The distance from the "Start" to "Ziel" is 10 positions.
+
+**Step-by-Step Analysis**:
+- **Beaver**: The beaver would need exactly 10 jumps to reach "Ziel" (10 jumps * 1 position/jump = 10 positions).
+- **Rabbit**: The rabbit would need 5 jumps to reach "Ziel" (5 jumps * 2 positions/jump = 10 positions).
+- **Kangaroo**: The kangaroo would need approximately 3.33 jumps to reach "Ziel" (3 jumps * 3 positions/jump = 9 positions, and the 4th jump would overshoot the target). Therefore, the kangaroo cannot land exactly on "Ziel".
+
+Since the kangaroo cannot land exactly on "Ziel", it is excluded from being the winner. The rabbit takes fewer jumps than the beaver to reach "Ziel".
+
+Reasoning: The rabbit takes the least number of jumps (5 jumps) to land exactly on "Ziel".
+Answer: B).

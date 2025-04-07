@@ -1,0 +1,54 @@
+
+Raisonnement :
+1. Nous devons trouver le plus grand des nombres \(a\), \(b\), \(c\) et \(d\) qui satisfont les équations suivantes :
+   - \(a + 2 = b - 2\)
+   - \(b - 2 = c \times 2\)
+   - \(c \times 2 = \frac{d}{2}\)
+
+2. En partant de la première équation, nous pouvons exprimer \(b\) en termes de \(a\) :
+   - \(b = a + 4\)
+
+3. En utilisant la deuxième équation, nous pouvons exprimer \(c\) en termes de \(b\) :
+   - \(c = \frac{b - 2}{2}\)
+   - \(c = \frac{a + 4 - 2}{2}\)
+   - \(c = \frac{a + 2}{2}\)
+
+4. En utilisant la troisième équation, nous pouvons exprimer \(d\) en termes de \(c\) :
+   - \(d = 2 \times (c \times 2)\)
+   - \(d = 4 \times c\)
+   - \(d = 4 \times \frac{a + 2}{2}\)
+   - \(d = 2 \times (a + 2)\)
+
+5. Nous savons que \(a\), \(b\), \(c\) et \(d\) sont des entiers strictement positifs. Nous devons maintenant déterminer les valeurs possibles de \(a\) qui satisfont ces équations.
+
+6. En examinant les options données :
+   - A) \(a = 10\)
+   - B) \(b = 13\)
+   - C) \(c = 16\)
+   - D) \(d = 24\)
+   - E) Impossible de déterminer sans plus d'informations
+
+   Nous devons vérifier si ces valeurs satisfont les équations.
+
+7. En vérifiant les valeurs :
+   - Pour \(a = 10\) :
+     - \(b = a + 4 = 14\)
+     - \(c = \frac{b - 2}{2} = \frac{14 - 2}{2} = 6\)
+     - \(d = 2 \times (c \times 2) = 2 \times (6 \times 2) = 24\)
+
+   - Pour \(b = 13\) :
+     - \(a = b - 4 = 9\)
+     - \(c = \frac{b - 2}{2} = \frac{13 - 2}{2} = 5.5\) (non entier)
+
+   - Pour \(c = 16\) :
+     - \(d = 2 \times (c \times 2) = 2 \times (16 \times 2) = 64\)
+     - \(b = 4 \times 16 - 2 = 62\) (non valide)
+
+   - Pour \(d = 24\) :
+     - \(c = \frac{d}{4} = 6\)
+     - \(b = 2 \times (c \times 2) + 2 = 24\)
+     - \(a = b - 4 = 20\)
+
+   - L'option E) est valide car il est impossible de déterminer une valeur unique sans plus d'informations.
+
+Réponse : E)

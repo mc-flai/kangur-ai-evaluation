@@ -1,0 +1,13 @@
+Raisonnement :
+1.  **Nombre de choix pour la première région:** Joey a 4 crayons, il peut donc choisir n'importe lequel des 4 crayons pour colorier la première région.
+2.  **Nombre de choix pour la deuxième région:** La deuxième région est adjacente à la première. Il ne peut pas utiliser la couleur de la première région, il lui reste donc 3 choix de couleurs.
+3.  **Nombre de choix pour la troisième région:** La troisième région est adjacente à la première et la deuxième. Cela est un peu complexe, mais il y a 2 cas à considérer.
+
+    *   **Cas 1 :** La troisième région n'est adjacente qu'à la deuxième région (qui a une couleur différente de la première). Dans ce cas, il peut utiliser les 3 couleurs restantes car cela ne chevauche pas la couleur de la première région.
+    *   **Cas 2 :** La troisième région est adjacente aux première et deuxième régions. Dans ce cas, la couleur ne peut pas être la même que celle des deux régions adjacentes, il ne lui reste donc que 2 choix.
+4.  **Nombre de choix pour la quatrième région:** La quatrième région est adjacente à la première et la troisième. Son nombre de choix dépend des couleurs de la première et de la troisième régions. Il ne peut pas utiliser la couleur de la première région ni celle de la troisième région. Dans le cas le plus général, il reste 2 choix.
+5.  Pour déterminer le nombre total de coloriages, nous devons tenir compte de tous les cas possibles et multiplier le nombre de choix de couleurs pour chaque région. Il existe différentes approches possibles.
+6.  Si les régions sont disposées en ligne, on aurait 4 choix pour la première, 3 pour la deuxième, 2 pour la troisième et 2 pour la quatrième, ce qui donne 4 * 3 * 2 * 2 = 48. Ce n'est pas le cas ici.
+7.  L'image montre que la région 4 n'est adjacente qu'à la première et la troisième, il reste donc 2 choix de couleurs. La région 3 est adjacente aux régions 1 et 2, elle aura donc 2 choix. La région 2 est adjacente à la région 1, elle aura donc 3 choix. La région 1 a 4 choix. Ce qui fait 4 * 3 * 2 * 2 = 48 coloriages différents.
+
+Réponse : E)

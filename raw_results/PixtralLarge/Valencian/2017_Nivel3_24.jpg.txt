@@ -1,0 +1,40 @@
+Per resoldre aquesta pregunta, hem de determinar quin polígon regular (amb tots els costats i angles iguals) tindrà tots els seus angles interiors iguals a 90° o 150°.
+
+1. **Comprendre els angles interiors d'un polígon**:
+   - L'angle interior d'un polígon regular de \( k \) costats es pot calcular amb la fórmula:
+     \[
+     \text{Angle interior} = \frac{(k-2) \cdot 180^\circ}{k}
+     \]
+
+2. **Provar cada opció**:
+   - Per \( k = 4 \):
+     \[
+     \text{Angle interior} = \frac{(4-2) \cdot 180^\circ}{4} = \frac{360^\circ}{4} = 90^\circ
+     \]
+     L'angle interior és 90°, que és una de les opcions donades.
+   - Per \( k = 6 \):
+     \[
+     \text{Angle interior} = \frac{(6-2) \cdot 180^\circ}{6} = \frac{720^\circ}{6} = 120^\circ
+     \]
+     L'angle interior no és ni 90° ni 150°.
+   - Per \( k = 8 \):
+     \[
+     \text{Angle interior} = \frac{(8-2) \cdot 180^\circ}{8} = \frac{1080^\circ}{8} = 135^\circ
+     \]
+     L'angle interior no és ni 90° ni 150°.
+   - Per \( k = 9 \):
+     \[
+     \text{Angle interior} = \frac{(9-2) \cdot 180^\circ}{9} = \frac{1260^\circ}{9} = 140^\circ
+     \]
+     L'angle interior no és ni 90° ni 150°.
+   - Per \( k = 10 \):
+     \[
+     \text{Angle interior} = \frac{(10-2) \cdot 180^\circ}{10} = \frac{1440^\circ}{10} = 144^\circ
+     \]
+     L'angle interior no és ni 90° ni 150°.
+
+3. **Conclusió**:
+   - L'única opció que té un angle interior igual a 90° és \( k = 4 \).
+
+Raonament: Els càlculs mostren que només el polígon amb 4 costats té un angle interior de 90°, que és una de les opcions donades.
+Resposta: A)

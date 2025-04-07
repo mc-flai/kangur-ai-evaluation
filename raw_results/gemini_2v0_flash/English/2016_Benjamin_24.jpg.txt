@@ -1,0 +1,44 @@
+Reasoning:
+We want to minimize the sum of the two three-digit numbers. Let the first number be ABC and the second number be DEF. We are given that D = 2C and all six digits A, B, C, D, E, and F are different. We also know that none of the digits can be repeated and A and D cannot be 0.
+
+To minimize the sum, we want to minimize A and D first.
+Since D = 2C and the digits must be different, C cannot be 0 since D cannot be 0. If C = 1, then D = 2.
+To minimize A, we can choose A = 3 (0 and 1 are taken by C and 2 is taken by D).
+To minimize the value of the first number, we minimize B. We can choose B = 0.
+So the first number is 301.
+
+For the second number, D = 2. Since the first number has the digits 3, 0, 1, we can minimize E by letting E = 4 and F by letting F = 5.
+So the second number is 245.
+The sum of the two numbers is 301 + 245 = 546.
+
+Let's try C = 2. Then D = 4.
+To minimize A, let A = 1.
+To minimize B, let B = 0.
+So the first number is 102.
+Then D = 4.
+We must choose E and F such that they are different from 0, 1, 2, 4. Let E = 3 and F = 5.
+So the second number is 435.
+The sum is 102 + 435 = 537.
+
+Let's try C = 3. Then D = 6.
+To minimize A, let A = 1.
+To minimize B, let B = 0.
+So the first number is 103.
+Then D = 6.
+We must choose E and F such that they are different from 0, 1, 3, 6. Let E = 2 and F = 4.
+So the second number is 624.
+The sum is 103 + 624 = 727.
+
+Comparing the sums, 546 and 537. The smallest sum is 537.
+
+Reasoning:
+We need to minimize the sum of the two numbers, while following the rules of the problem.
+First, we minimize the hundreds digits. To do this, let the first digit of the second number (which is twice the last digit of the first) equal 2. This would mean the last digit of the first number is 1.
+Therefore, the first number ends in 1, and the second number starts with 2. To minimize the first number, let's make it 301. This means the digits we have used are 0, 1, 2, 3.
+The second number then needs digits other than 0, 1, 2, and 3. If it starts with 2, we could try 245. Digits are 2, 4, 5.
+Adding them up, we get 301 + 245 = 546.
+Now let's see if we can get lower by letting the last digit of the first number be 2. If the last digit of the first number is 2, the first digit of the second number is 4.
+Then let the first number be 102. The digits are 0, 1, 2, 4. If the second number starts with 4, then we could try 435. Digits are 3, 4, 5. So the total is 0, 1, 2, 3, 4, 5. Summing them up is 102 + 435 = 537.
+Is there a combination of digits for which we can obtain 301? No, this is not an available sum.
+
+Answer: C)

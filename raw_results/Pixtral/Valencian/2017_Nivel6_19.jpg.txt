@@ -1,0 +1,27 @@
+
+La pregunta 19 solicita el valor de la expresión \(2 \log_4 9\).
+
+Para resolver esto, necesitamos usar las propiedades de las logaritmos. La propiedad de los logaritmos que se aplica aquí es que \(a \log_b c = \log_b (c^a)\).
+
+Aplicando esta propiedad a nuestra expresión, obtenemos:
+\[ 2 \log_4 9 = \log_4 (9^2) \]
+
+Calculamos \(9^2\):
+\[ 9^2 = 81 \]
+
+Entonces, la expresión se convierte en:
+\[ \log_4 81 \]
+
+Ahora, necesitamos saber qué número elevamos a la potencia de 4 para obtener 81. Sabemos que:
+\[ 4^4 = 256 \]
+\[ 4^3 = 64 \]
+\[ 4^2 = 16 \]
+\[ 4^1 = 4 \]
+
+De estos cálculos, vemos que \(4^2 = 16\) es el más cercano a 81, pero aún está lejos. Por lo tanto, necesitamos una potencia mayor de 4 para llegar a 81. Dado que \(4^4 = 256\) es mayor que 81, podemos concluir que \(4^3\) es la potencia más cercana a 81 que es menor que 81.
+
+Por lo tanto, la expresión \(\log_4 81\) se aproxima a 3.
+
+Raonament: Usamos la propiedad de los logaritmos \(a \log_b c = \log_b (c^a)\) para simplificar la expresión. Calculamos \(9^2 = 81\) y luego determinamos que \(\log_4 81\) es aproximadamente 3.
+
+Resposta: B)

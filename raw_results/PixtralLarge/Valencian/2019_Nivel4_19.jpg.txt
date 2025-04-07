@@ -1,0 +1,28 @@
+**Raonament**:
+
+Per a resoldre aquest problema, hem de determinar quants diputats són homes i quants són dones i després sumar-los per obtenir el nombre total de diputats que formen part d'aquest parlament.
+
+1. Calculem el nombre de diputats de cada partit:
+   - Partit A: 10% de 300 = 0.10 * 300 = 30 diputats.
+   - Partit B: 20% de 300 = 0.20 * 300 = 60 diputats.
+   - Partit C: 25% de 300 = 0.25 * 300 = 75 diputats.
+   - Partit D: 45% de 300 = 0.45 * 300 = 135 diputats.
+   
+2. Suposem que cada partit té la mateixa política d'igualtat que alternativament assigna una persona home i una dona. Això vol dir que cada partit té la meitat dels seus diputats homes i l'altra meitat dones.
+
+3. Calculem el nombre de diputats homes i dones per cada partit:
+   - Partit A: 30 / 2 = 15 homes i 15 dones.
+   - Partit B: 60 / 2 = 30 homes i 30 dones.
+   - Partit C: 75 / 2 = 37.5 homes i 37.5 dones (ja que el nombre de diputats ha de ser enter, ajustem a 37 homes i 38 dones o 38 homes i 37 dones).
+   - Partit D: 135 / 2 = 67.5 homes i 67.5 dones (ajustem a 67 homes i 68 dones o 68 homes i 67 dones).
+
+4. Sumem els homes i les dones de tots els partits:
+   - Total de homes: 15 + 30 + 37 + 67 = 149 homes.
+   - Total de dones: 15 + 30 + 38 + 68 = 151 dones.
+
+5. El nombre total de diputats homes i dones seria:
+   - Total de diputats: 149 homes + 151 dones = 300 diputats.
+
+Com que cada partit té la mateixa política d'igualtat i el nombre de diputats és parell, la suma dels homes i les dones sempre serà un nombre igual.
+
+**Resposta**: E) Sempre hi ha el mateix nombre d'homes que de dones.

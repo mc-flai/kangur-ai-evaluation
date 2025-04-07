@@ -1,0 +1,19 @@
+**Razonamiento:**
+1. La clase tiene 30 cuadrados en total.
+2. El profesor quiere formar un rectángulo con los cuadrados disponibles, dejando el centro sin usar.
+3. Nos piden encontrar ejemplos de rectángulos que usen 10 cuadrados.
+
+Para formar un rectángulo con 10 cuadrados, podemos considerar diferentes combinaciones de filas y columnas:
+- 1 fila de 10 cuadrados.
+- 2 filas de 5 cuadrados.
+- 10 filas de 1 cuadrado.
+
+Sin embargo, dado que el centro debe estar vacío, no podemos usar el cuadrado central. Esto significa que debemos evitar configuraciones que incluyan el cuadrado central.
+
+- 1 fila de 10 cuadrados: Usa 10 cuadrados, pero el centro está en el medio.
+- 2 filas de 5 cuadrados: Usa 10 cuadrados, pero el centro está en el medio.
+- 10 filas de 1 cuadrado: Usa 10 cuadrados, pero el centro está en el medio.
+
+Dado que ninguna de estas configuraciones funciona, parece que no hay una forma de formar un rectángulo con 10 cuadrados sin usar el centro.
+
+**Respuesta:** A)

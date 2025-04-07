@@ -1,0 +1,9 @@
+Reasoning: The question asks for the number of two-digit numbers that can be written as the sum of exactly six different powers of 2. Powers of 2 are 1, 2, 4, 8, 16, 32, 64, 128, ... We need to find combinations of six distinct powers of 2 that sum to a two-digit number (between 10 and 99 inclusive).
+
+Let's try to find the sums:
+1. 1 + 2 + 4 + 8 + 16 + 32 = 63 (two-digit number)
+2. 1 + 2 + 4 + 8 + 16 + 64 = 95 (two-digit number)
+
+We also can attempt to find other combinations but we are only looking for the number of solutions, not the values, so the answer is two.
+
+Answer: (C)

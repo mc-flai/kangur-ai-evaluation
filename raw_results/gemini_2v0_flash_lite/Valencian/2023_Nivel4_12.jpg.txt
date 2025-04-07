@@ -1,0 +1,90 @@
+Raonament:
+L'enunciat ens diu que hem de buscar nombres de cinc xifres (entre 10000 i 26320) on les tres primeres xifres formen un nombre que és quatre vegades el nombre format per les dues últimes xifres.
+Anomenem "abcde" el nombre de cinc xifres. Hem de tenir "abc" = 4 * "de".
+
+Tenim les següents restriccions:
+*   10000 <= abcde <= 26320
+*   abc = 4 * de
+*   de pot anar de 00 fins a 99.
+*   Si de = 00, aleshores abc = 0, però els nombres han de ser de cinc xifres, per tant, "abc" ha de tenir almenys 3 xifres.
+*   Si de = 01, aleshores abc = 4, impossible perquè abc ha de tenir 3 xifres.
+*   Si de = 10, abc = 40, per tant el nombre és 40100, que està fora de l'interval [10000, 26320].
+*   Si de = 11, abc = 44, impossible.
+*   Per tant, el nombre de dues xifres "de" ha d'estar entre 10 i 26320/4 = 6580, o sigui, fins a 65.
+*   Els possibles valors de "de" seran del 10 al 65.
+*   Si de = 10, abc = 40.  El nombre de cinc xifres serà 04010, per tant és impossible.
+*   A partir d'aquí, comprovem els valors possibles per "de" i "abc"
+    *   Si "de" = 10, "abc" = 40, el nombre és 14010. (no va, perquè de 10000 fins a 26320)
+    *   Si "de" = 11, "abc" = 44, el nombre és 4411, no val, perquè ha de tenir 5 xifres.
+    *   Si "de" = 12, "abc" = 48, el nombre és 4812, no va.
+    *   Si "de" = 13, "abc" = 52, el nombre és 5213, no va.
+    *   Si "de" = 14, "abc" = 56, el nombre és 5614, no va.
+    *   Si "de" = 15, "abc" = 60, el nombre és 6015, no va.
+    *   Si "de" = 16, "abc" = 64, el nombre és 6416, no va.
+    *   Si "de" = 17, "abc" = 68, el nombre és 6817, no va.
+    *   Si "de" = 18, "abc" = 72, el nombre és 7218, no va.
+    *   Si "de" = 19, "abc" = 76, el nombre és 7619, no va.
+    *   Si "de" = 20, "abc" = 80, el nombre és 8020, no va.
+    *   Si "de" = 21, "abc" = 84, el nombre és 8421, no va.
+    *   Si "de" = 22, "abc" = 88, el nombre és 8822, no va.
+    *   Si "de" = 23, "abc" = 92, el nombre és 9223, no va.
+    *   Si "de" = 24, "abc" = 96, el nombre és 9624, no va.
+    *   Si "de" = 25, "abc" = 100, el nombre és 10025. Aquest sí que val.
+    *   Si "de" = 26, "abc" = 104, el nombre és 10426. Aquest sí que val.
+    *   ...
+    *   Si de = 65, abc = 260, el nombre és 26065, no va.
+    *   Si de = 65, abc = 260, el nombre 26065 > 26320, no va.
+    *   Si de = 64, abc = 256, el nombre és 25664.
+    *   Si de = 63, abc = 252, el nombre és 25263.
+    *   Si de = 62, abc = 248, el nombre és 24862.
+    *   Si de = 61, abc = 244, el nombre és 24461.
+    *   Si de = 60, abc = 240, el nombre és 24060.
+    *   ...
+    *   Si de = 30, abc = 120, el nombre és 12030.
+    *   Si de = 31, abc = 124, el nombre és 12431
+    *   L'interval per "abcde" és [10025, 26320].
+*   La condició és que "abc" sigui menor o igual a 263. Aleshores 4 * "de" <= 263, o sigui, de <= 65.75. Per tant, "de" pot anar de 10 a 65.
+*   Si "abc" ha de ser 260, llavors "de" = 65, el nombre és 26065, no va perquè és més gran que 26320.
+*   Per tant, "abc" ha de començar amb 1 o 2.  Si "abc" comença amb 1, aleshores "de" està entre 25 i 33 (100/4 = 25 i 132/4 = 33). Així tenim 33 - 25 + 1 = 9 nombres possibles
+    *   10025, 10426, 10827, 11228, 11629, 12030, 12431, 12832, 13233. (9 valors)
+*   Si "abc" comença amb 2, aleshores "de" ha d'estar entre 50 i 65 (200/4 = 50 i 263/4=65.75), aleshores tenim 65-50+1 = 16 valors.
+    *   20050, 20451, 20852, 21253, 21654, 22055, 22456, 22857, 23258, 23659, 24060, 24461, 24862, 25263, 25664, 26065. (16 valors). Però com el nombre ha de ser més petit o igual a 26320, l'últim número no val. Així doncs en tenim 15.
+    *   En total, tenim 9 + 15 = 24 valors.
+
+Però hi ha un error en els càlculs, per tant, fem una altra aproximació.
+Per a cada "de" calcularem "abc":
+*   de = 10, abc = 40.  nombre: 4010, no val, perquè han de ser més de 10000
+*   de = 25, abc = 100. nombre: 10025
+*   de = 65, abc = 260, nombre: 26065, no val, perquè no és <= 26320.
+*   Calculem els valors per a cada "de":
+    *   de = 10, abc = 40, nombre: 4010 (no)
+    *   de = 11, abc = 44, nombre: 4411 (no)
+    *   ...
+    *   de = 25, abc = 100, nombre: 10025
+    *   ...
+    *   de = 30, abc = 120, nombre 12030
+    *   ...
+    *   de = 65, abc = 260, nombre 26065 (no)
+    *   de = 64, abc = 256, nombre 25664
+    *   de = 63, abc = 252, nombre 25263
+    *   de = 62, abc = 248, nombre 24862
+    *   de = 61, abc = 244, nombre 24461
+    *   ...
+    *   de = 10...65 => 65-10+1 = 56, però no tots són vàlids.
+*   "abc" ha d'estar entre 100 i 263. Aleshores 4 * "de" ha d'estar entre 100 i 263, o sigui 25 <= "de" <= 65.
+*   Tenim 65 - 25 + 1 = 41 valors.
+*   Però el nombre ha de ser menor o igual que 26320.
+
+Raonament:
+Hem de trobar el nombre de nombres enters positius de cinc xifres menors o iguals a 26320 que compleixen la propietat que les tres primeres xifres formen un nombre quatre vegades més gran que el format per les dues últimes xifres.
+Si anomenem "abcde" el nombre, la condició és que "abc" = 4*"de".
+Sabem que 10000 <= abcde <= 26320.
+
+Si "abcde" < 26320 aleshores "abc" <= 263.
+Com "abc" = 4*"de", tenim 4*"de" <= 263, per tant, "de" <= 65.
+També hem de tenir "abc" >= 100, per tant, 4*"de" >= 100, o sigui, "de" >= 25.
+
+Per tant, "de" pot prendre valors entre 25 i 65, inclosos.
+Per tant, tenim 65 - 25 + 1 = 41 possibilitats.
+
+Resposta: D)

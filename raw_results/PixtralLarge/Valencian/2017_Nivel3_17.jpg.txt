@@ -1,0 +1,19 @@
+**Raonament**:
+El cub de fusta té totes les cares exteriors pintades de color roig i es talla en 27 cubs menuts iguals. Això significa que el cub original és un cub de 3x3x3 (ja que 3^3 = 27).
+
+Cada cub menut en un cub de 3x3x3 té 6 cares, però les cares externes estan pintades de roig. Per determinar quantes cares dels cubs menuts no estan pintades de roig, hem d'analitzar la distribució dels cubs en el cub gran:
+
+1. **Cubs en les cantonades**: Hi ha 8 cubs en les cantonades del cub gran (2^3 = 8). Aquests cubs tenen 3 cares pintades de roig i 3 cares no pintades.
+2. **Cubs en les arestes**: Hi ha 12 arestes en el cub gran, i cada aresta té un cub menut en el seu centre. Això fa un total de 12 cubs en les arestes. Aquests cubs tenen 2 cares pintades de roig i 4 cares no pintades.
+3. **Cubs en les cares**: Cada cara del cub gran té un cub menut en el seu centre, excloent els cubs de les arestes i les cantonades. El cub gran té 6 cares, així que hi ha 6 cubs menuts en les cares. Aquests cubs tenen 1 cara pintada de roig i 5 cares no pintades.
+4. **Cub en el centre**: Hi ha un cub menut en el centre del cub gran, que no té cap cara pintada de roig i té totes 6 cares no pintades.
+
+Sumant tots els cubs menuts i les seves cares no pintades:
+- Cubs en les cantonades: 8 cubs x 3 cares no pintades = 24 cares no pintades.
+- Cubs en les arestes: 12 cubs x 4 cares no pintades = 48 cares no pintades.
+- Cubs en les cares: 6 cubs x 5 cares no pintades = 30 cares no pintades.
+- Cub en el centre: 1 cub x 6 cares no pintades = 6 cares no pintades.
+
+Total de cares no pintades = 24 + 48 + 30 + 6 = 108 cares no pintades.
+
+**Resposta**: D) 108.

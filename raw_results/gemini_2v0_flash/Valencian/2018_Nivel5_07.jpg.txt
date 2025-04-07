@@ -1,0 +1,15 @@
+Raonament: El cangur A salta sempre 6 metres. El cangur B salta cada vegada 1 metre més.
+Agafar el cangur A significa que la distància total recorreguda per B sigui igual o superior a la de A.
+Distància A = 6*n, on n és el nombre de salts.
+Distància B = 1 + 2 + 3 + ... + n = n(n+1)/2
+Necessitem trobar el valor mínim de n tal que n(n+1)/2 >= 6n
+n(n+1) >= 12n
+n+1 >= 12
+n >= 11
+Per tant, el cangur B ha de fer 11 salts.
+Verificació:
+Després de 10 salts: A = 6*10 = 60, B = 1+2+...+10 = 10*11/2 = 55 (B no arriba A)
+Després de 11 salts: A = 6*11 = 66, B = 1+2+...+11 = 11*12/2 = 66 (B arriba A)
+Després de 12 salts: A = 6*12 = 72, B = 1+2+...+12 = 12*13/2 = 78
+
+Resposta: C)

@@ -1,0 +1,14 @@
+
+Raisonnement :
+1. La question demande combien de coups de ciseaux sont nécessaires pour que le cœur et la flèche soient tous deux retournés pour former un même motif.
+2. Le cœur se déplace de 3 cases dans le sens des aiguilles d'une montre.
+3. La flèche se déplace de 4 cases dans le sens inverse des aiguilles d'une montre.
+4. Pour que le cœur et la flèche soient tous deux retournés, ils doivent se déplacer d'un nombre total de cases qui est un multiple de 8 (car 8 est le plus petit commun multiple de 3 et 4).
+5. En vérifiant les options :
+   - A) 7 : Cela ne correspond pas car 7 n'est pas un multiple de 8.
+   - B) 8 : Cela correspond car 8 est un multiple de 8.
+   - C) 9 : Cela ne correspond pas car 9 n'est pas un multiple de 8.
+   - D) 10 : Cela ne correspond pas car 10 n'est pas un multiple de 8.
+   - E) cela ne se produit jamais : Cela ne correspond pas car 8 est un multiple de 8.
+
+Réponse : B)

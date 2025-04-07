@@ -1,0 +1,10 @@
+Raisonnement : Pour résoudre ce problème, nous devons identifier tous les parcours possibles de Q à S en passant une fois et une seule par chaque route.
+
+1.  **Parcours 1:** Q -> P -> S
+2.  **Parcours 2:** Q -> (chemin contournant P) -> R -> S
+3. **Parcours 3:** Q -> (chemin contournant R) -> P -> S
+4. **Parcours 4:** Q -> (chemin contournant P) -> S
+
+Il existe 4 parcours possibles.
+
+Réponse : C) 4

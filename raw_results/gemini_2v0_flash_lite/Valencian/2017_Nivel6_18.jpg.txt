@@ -1,0 +1,9 @@
+Raonament: Per guanyar el partit, Judit necessita guanyar dos sets. Això pot passar en dos sets (Judit guanya els dos primers sets), o en tres sets (Judit guanya un set, perd un set, i després guanya un tercer set).
+
+Cas 1: Judit guanya en dos sets. La probabilitat d'això és 0,6 * 0,6 = 0,36.
+
+Cas 2: Judit guanya en tres sets. Judit ha de guanyar 2 sets i perdre 1.  Això pot passar de dues maneres: Judit guanya, Susanna guanya, Judit guanya (JSJ) o Susanna guanya, Judit guanya, Judit guanya (SJJ). La probabilitat de JSJ és 0,6 * 0,4 * 0,6 = 0,144. La probabilitat de SJJ és 0,4 * 0,6 * 0,6 = 0,144. Així doncs, la probabilitat de que Judit guanyi en tres sets és 0,144 + 0,144 = 0,288.
+
+Finalment, la probabilitat que Judit guanyi el partit és la suma de les probabilitats dels dos casos: 0,36 + 0,288 = 0,648.
+
+Resposta: B)

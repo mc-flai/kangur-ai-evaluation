@@ -1,0 +1,20 @@
+To determine the number of different orders Joseph can put the toys on the shelf, we need to consider the constraints given:
+- The ship must be next to the car.
+- The teddy bear should also be next to the car.
+
+This means the car, ship, and teddy bear must be placed adjacent to each other in some order. Let's analyze the possible arrangements:
+
+1. Car, Ship, Teddy Bear, Ball
+2. Car, Teddy Bear, Ship, Ball
+3. Ship, Car, Teddy Bear, Ball
+4. Teddy Bear, Car, Ship, Ball
+5. Ball, Car, Ship, Teddy Bear
+6. Ball, Ship, Car, Teddy Bear
+7. Ball, Teddy Bear, Car, Ship
+8. Ball, Car, Teddy Bear, Ship
+
+We can see that there are indeed 8 different possible orders that satisfy the given constraints.
+
+**Reasoning**: By listing out all possible arrangements that satisfy the constraints (the ship and the teddy bear must be next to the car), we can determine that there are 8 valid different orders.
+
+**Answer**: E).

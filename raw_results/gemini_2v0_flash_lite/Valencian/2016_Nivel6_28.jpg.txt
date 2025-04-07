@@ -1,0 +1,14 @@
+Raonament: The problem describes a 10-digit number where the digit at position N (0-9, starting from the left) indicates how many times the number N appears in the 10-digit number. Let's deduce the digits:
+
+*   **Digit 0:** The problem asks for the number of zeros. If the number of zeros is 'x', then the digit in position 0 must be x.
+*   **Digit 1:** Since position 0 is for the number of zeros, the digit at position 1 describes how many times the digit '1' appears in the 10-digit number.
+*   **Digit 2:** The digit at position 2 indicates the number of 2s in the number. And so on.
+
+Let's consider the possible number of zeros.
+*   If there are 6 zeros, the first digit is 6. Then, we will have: 6210001000
+*   If the number of zeros is 6, then the 0th place value is 6. The 1st place value would be 2 (two 1s in the number), the 2nd place value is 1 (one 2), the 3rd place value is 0 (no 3s), the 4th place value is 0, the 5th is 0, the 6th place value is 1, 7th place is 0, 8th is 0, and 9th is 0.
+*   Then, the number should be: 6210001000.
+
+The number of zeros in the number is 6.
+
+Resposta: B)

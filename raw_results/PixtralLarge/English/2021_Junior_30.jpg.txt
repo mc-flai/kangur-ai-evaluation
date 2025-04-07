@@ -1,0 +1,28 @@
+To determine the color of the ball numbered 2021, we need to understand the pattern of colors given in the problem:
+
+1. The balls are numbered from 1 to 2021.
+2. The balls are colored in four colors: green, red, yellow, and blue.
+3. Among any five consecutive balls, there is exactly one red, one yellow, and one blue ball. After any red ball, the next ball is yellow.
+4. The balls numbered 2, 20, and 202 are green.
+
+Given the information:
+- Balls 2, 20, and 202 are green. This indicates a repeating pattern every 18 balls (since 20 - 2 = 18 and 202 - 20 = 182).
+
+To find the color of the ball numbered 2021:
+- We need to determine the position of 2021 in this repeating cycle of 18.
+- We calculate the remainder when 2021 is divided by 18:
+  2021 ÷ 18 = 112 remainder 5.
+
+The remainder is 5, which means ball number 2021 corresponds to the 5th ball in the repeating cycle.
+
+Since the pattern repeats every 18 balls, let's determine the colors of the first 5 balls in the cycle:
+- Ball 1 is green (as inferred from the pattern and given that ball 2 is green).
+- Ball 2 is green.
+- Ball 3 is red (given that after any red ball, the next ball is yellow).
+- Ball 4 is yellow.
+- Ball 5 is blue.
+
+Therefore, the ball numbered 2021, which corresponds to the 5th ball in the cycle, is blue.
+
+Reasoning: Using the modulo operation to find the position within the repeating cycle of 18 balls and identifying the color pattern, we determine that the 5th ball in the cycle is blue.
+Answer: D).

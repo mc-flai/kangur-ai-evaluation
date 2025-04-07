@@ -1,0 +1,24 @@
+Reasoning:
+Currently, the trees are located in sections B, D, and E. To have an equal number of trees on both sides of each path, we can analyze each path:
+1. Path between A/B/D: There are 1 tree (B) on one side and 2 trees (D) on the other. Placing a tree in A balances it to 2 and 2.
+2. Path between A/D/E: There is 1 tree (D) on one side and 1 tree (E) on the other. Placing a tree in A gives to 1 tree in D and 1 tree in E and the added tree in A balance the number of trees on each side to 2 trees in each side.
+3. Path between B/C/E: There is 1 tree (B) on one side and 1 tree (E) on the other. Placing a tree in C give 1 tree in B and 1 tree in E and the added tree in C balance the number of trees on each side to 2 trees in each side.
+Placing a tree in A solves the paths:
+1. Path between B/A/D: there is now 1 tree (B) and 1 tree (A) on one side and 1 tree (D) on the other.
+2. Path between A/E/D: there is now 1 tree (A) on one side and 1 tree (E) and 1 tree (D) on the other.
+3. Path between C/B/E: there is now 1 tree (B) on one side and 1 tree (E) on the other.
+
+If we add the new tree to section C
+Path 1: trees B, D, E; so, 1 vs 2 no
+Path 2: trees A, D, E; so, 0 vs 2 no
+Path 3: trees B, C, E; so, 1 vs 2 no
+
+The best place for the new tree is section D because:
+Path 1: one side has B while the other has D and E, placing it in D balance 1 vs 2, it's no!
+Path 2: one side has A while the other has D and E, placing it in D balance 0 vs 2, it's no!
+Path 3: B has A, D, E, so there is equal trees, placing in D does not helps
+
+By similar process to D, in the section E does not helps
+The correct option has to be section A
+
+Answer: A)

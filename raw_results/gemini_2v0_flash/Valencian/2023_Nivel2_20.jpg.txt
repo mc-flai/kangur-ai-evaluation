@@ -1,0 +1,38 @@
+Raonament: Hem de trobar quants valors diferents pot prendre el triangle, tenint en compte que tots els dígits són superiors a 1 i que les figures diferents representen dígits diferents.
+
+Si el triangle és 2, llavors 2x2 = 4. Podem tenir quadrat=1 i cercle=4, però això no compleix que tots els dígits siguin superiors a 1. Podem tenir quadrat=2 i cercle=2, però això no compleix que diferents figures representen dígits diferents. Per tant, 2 no pot ser el triangle.
+
+Si el triangle és 3, llavors 3x3 = 9.  Podem tenir quadrat=1 i cercle=9, però això no compleix que tots els dígits siguin superiors a 1. Podem tenir quadrat=3 i cercle=3, però això no compleix que diferents figures representen dígits diferents. Si quadrat=9 i cercle=1, tampoc compleix.
+Així doncs, descartem el 3.
+
+Si el triangle és 4, llavors 4x4 = 16. Podem tenir quadrat=2 i cercle=8, on tots els dígits són diferents i superiors a 1.
+Si el triangle és 5, llavors 5x5 = 25. Podem tenir quadrat=5 i cercle=5. Però això no es permet perquè les figures són diferents. També podem tenir quadrat=1 i cercle=25 (NO) i quadrat=25 i cercle=1 (NO). Així doncs, descartem el 5.
+
+Si el triangle és 6, llavors 6x6 = 36. Podem tenir quadrat=4 i cercle=9. Compleix les condicions.
+Si el triangle és 7, llavors 7x7 = 49. Podem tenir quadrat=7 i cercle=7. Però això no es permet perquè les figures són diferents.
+Si el triangle és 8, llavors 8x8 = 64. Podem tenir quadrat=4 i cercle=16 (NO), quadrat=8 i cercle=8 (NO).
+
+Si el triangle és 9, llavors 9x9 = 81. Podem tenir quadrat=9 i cercle=9. Però això no es permet perquè les figures són diferents.
+
+Ara, si el triangle és 4, tenim 4*4 = 16 = 2 * 8. Compleix.
+Si el triangle és 6, tenim 6*6 = 36 = 4 * 9. Compleix.
+
+Analitzem el triangle sent 5:
+5 * 5 = 25. Hem de tenir que el quadrat i cercle siguin diferents de 5.
+No podem escriure 25 com la multiplicació de dos dígits diferents superiors a 1 diferents de 5.
+
+Analitzem el triangle sent 7:
+7 * 7 = 49. Hem de tenir que el quadrat i cercle siguin diferents de 7.
+No podem escriure 49 com la multiplicació de dos dígits diferents superiors a 1 diferents de 7.
+
+Analitzem el triangle sent 8:
+8 * 8 = 64. Hem de tenir que el quadrat i cercle siguin diferents de 8.
+64 = 4 * 16, no pot ser. 64 = 2 * 32, no pot ser.
+
+Analitzem el triangle sent 9:
+9 * 9 = 81. Hem de tenir que el quadrat i cercle siguin diferents de 9.
+81 = 3 * 27, no pot ser.
+
+Sembla que només 4 i 6 compleixen les condicions.
+
+Resposta: C)

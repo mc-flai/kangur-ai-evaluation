@@ -1,0 +1,15 @@
+Raisonnement: The question is asking for the number of ways to choose 5 numbers from the set of integers $\{1,2,3,4,5,6,7,8,9,10\}$ such that:
+
+1. The chosen numbers are distinct.
+2. The chosen numbers all come from the same two or four numbers in the set $\{1,2,3,4,5,6,7,8,9,10\}$.
+
+The chosen numbers need to be distinct, so we need to choose all ten numbers or choose five different numbers. If we choose five different numbers, we cannot choose any number more than once.
+
+If we choose all ten numbers, we can only choose one of the eight possible pairs of numbers. In this case, the set of chosen numbers must be $\{1,2,3,4,5\}$ or $\{1,2,3,4,6\}$. So there are two different ways to choose all ten numbers.
+
+If we choose five different numbers, the given condition tells us that the chosen numbers cannot come from just one or two numbers. Therefore, there must be at least three different numbers and at least one pair of these three different numbers that are not chosen. Since we have chosen five integers and their order does not matter, the three different numbers that were not chosen must be one number which is not chosen and two numbers that are also not chosen.
+
+There are ten numbers and five not chosen. They cannot all be in one pair, and they also cannot all be in two pairs. If one of them is not chosen and two of the not chosen are in one pair, there is one way to choose an integer not in the pair and two ways to choose the other two integers not in the pair. If two of them are not chosen and one of them is not in a pair, there is one way to choose one integer not in the throw and one way to choose the other two integers also not in the character. If two of them are not chosen and two of them are not in a pair, there are four ways to choose the two integers also not in the character.
+
+There are two sets of characters such as all numbers and no numbers. So there must be two sets of characters that have chosen five numbers such as $\{1,2,3,4,5\}$ or $\{1,2,3,4,6\}$ There are ten numbers and we have written eighteen sets of characters that have chosen five such that  
+Réponse: No Answer.

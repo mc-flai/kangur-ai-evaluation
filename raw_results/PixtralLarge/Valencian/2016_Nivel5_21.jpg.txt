@@ -1,0 +1,13 @@
+**Raonament**:
+El robot realitza l'operació de sumar \( n \) i \( k \), on \( k \) és el major divisor de \( n \) diferent de \( n \). Per a \( m \) no divisible per 4, tractem els casos possibles.
+
+Per un nombre \( m \) no divisible per 4, observem els majors divisors diferents de \( m \). Per exemple, si \( m = 7 \), els divisors són 1 i 7, de manera que el major divisor diferent de 7 és 1. En general, per un nombre \( m \) no divisible per 4, el major divisor \( k \) diferent de \( m \) és \( \frac{m}{2} \) o \( \frac{m}{3} \) si \( m \) és divisible per 3, sinó és \( \frac{m}{5} \) o un altre divisor.
+
+Quan sumem \( m \) i \( k \):
+- Si \( k = \frac{m}{2} \), aleshores \( n + k = m + \frac{m}{2} = \frac{3m}{2} \).
+- Si \( k = \frac{m}{3} \), aleshores \( n + k = m + \frac{m}{3} = \frac{4m}{3} \).
+- Si \( k = \frac{m}{5} \), aleshores \( n + k = m + \frac{m}{5} = \frac{6m}{5} \).
+
+Per a 6 iteracions, el número retornat hauria de ser una combinació d'aquests resultats. Però observant les opcions, la resposta més probable és la que inclogui un divisor de \( m \) i no contingui cap fracció, ja que la suma d'un nombre \( m \) amb un divisor diferent de \( m \) és sempre un nombre sencer.
+
+**Resposta**: D) 9m.

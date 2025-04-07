@@ -1,0 +1,33 @@
+Pour déterminer le plus petit total possible de points donnés lors de cette course, il faut examiner comment les points sont attribués. Selon les règles, une voiture obtient un point chaque fois qu'elle en dépasse une autre.
+
+Analysons l'ordre de départ et d'arrivée :
+
+- Ordre de départ : I, II, III, IV, V
+- Ordre d'arrivée : III, V, I, IV, II
+
+Nous pouvons déterminer le nombre de dépassements pour chaque voiture :
+
+1. Voiture III :
+   - Dépasse V, I, IV, II → 4 points
+
+2. Voiture V :
+   - Dépasse I, IV, II → 3 points
+
+3. Voiture I :
+   - Dépasse IV, II → 2 points
+
+4. Voiture IV :
+   - Dépasse II → 1 point
+
+5. Voiture II :
+   - Ne dépasse personne → 0 point
+
+Total des points attribués : 4 + 3 + 2 + 1 = 10 points.
+
+Cependant, nous devons chercher le plus petit total possible. Nous devons considérer si un ordre d'arrivée différent pourrait donner un total plus petit de points. Si nous considérons l'ordre d'arrivée où aucun dépassement n’est effectué, cela donnerait un total de 0 points. Cela n’est pas possible puisqu'il doit y avoir des dépassements. Le minimum de dépassements est 1 pour chaque voiture dépassée par une autre (sauf la voiture en tête), qui est de 4 dépassements. 
+
+En général, pour 5 voitures, le minimum de points possible attribués doit être 4, pourtant dans cette configuration particulière, il est de 6.
+
+Raisonnement : Une telle configuration où chaque voiture ne dépasse qu'une seule voiture aboutit à un total de 6 points.
+
+Réponse : E)

@@ -1,0 +1,32 @@
+Para responder la pregunta 21, necesitamos determinar cuántos enteros positivos existen tales que, si se borra su última cifra, se obtiene un número igual a 1/14 del número original.
+
+Primero, denotemos el número original como \( n \), y el número obtenido después de borrar su última cifra como \( m \). La relación entre \( n \) y \( m \) se puede expresar como:
+\[ n = 10m + d \]
+donde \( d \) es la última cifra de \( n \).
+
+Según el problema, \( m \) es igual a \( \frac{n}{14} \). Por lo tanto, podemos escribir:
+\[ n = 14m \]
+
+Sustituyendo \( n \) de la primera ecuación en la segunda ecuación, obtenemos:
+\[ 10m + d = 14m \]
+\[ d = 4m \]
+
+Dado que \( d \) es una cifra (0-9), \( d \) solo puede ser 0, 4 u 8, ya que \( d \) debe ser un múltiplo de 4. Ahora, determinamos los valores posibles de \( m \) para cada \( d \):
+
+1. Si \( d = 0 \):
+   \[ 4m = 0 \implies m = 0 \]
+   Esto no es posible porque \( m \) debe ser un entero positivo.
+
+2. Si \( d = 4 \):
+   \[ 4m = 4 \implies m = 1 \]
+   Entonces, \( n = 10m + d = 10 \cdot 1 + 4 = 14 \).
+
+3. Si \( d = 8 \):
+   \[ 4m = 8 \implies m = 2 \]
+   Entonces, \( n = 10m + d = 10 \cdot 2 + 8 = 28 \).
+
+Por lo tanto, hay dos enteros positivos que cumplen con la condición: 14 y 28.
+
+Razonamiento: Al analizar las posibles cifras finales y sus correspondientes valores de \( m \), encontramos que hay dos números que satisfacen la condición dada.
+
+Respuesta: C)

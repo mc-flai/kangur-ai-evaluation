@@ -1,0 +1,93 @@
+**Raonament**:
+
+L'equació donada és:
+
+\[ p^2 - 2p + q^2 - 2q = 15 - 2pq \]
+
+El nostre objectiu és simplificar aquesta equació i trobar una expressió per \( p + q \).
+
+Primer, reorganitzem l'equació:
+
+\[ p^2 - 2p + q^2 - 2q + 2pq = 15 \]
+
+Per simplificar, notem que podem reescriure els termes de la manera següent:
+
+\[ p^2 - 2p + 1 + q^2 - 2q + 1 + 2pq - 2 = 15 \]
+
+Ara agrupem els termes quadràtics:
+
+\[ (p-1)^2 + (q-1)^2 + 2(p-1)(q-1) = 15 \]
+
+Notem que:
+
+\[ (p-1+q-1)^2 = (p+q-2)^2 \]
+
+Per tant, podem veure que l'expressió és:
+
+\[ (p+q-2)^2 = 15 \]
+
+Així, tenim:
+
+\[ p+q-2 = \pm \sqrt{15} \]
+
+Per tant:
+
+\[ p+q = 2 \pm \sqrt{15} \]
+
+Les opcions donades són enters positius, i \(\sqrt{15}\) no és un enter. No obstant, podem comprovar les opcions per veure si algunes d'elles satisfan l'equació original.
+
+Comprovem cada opció:
+
+- A) 1: \( p + q = 1 \)
+- B) 5: \( p + q = 5 \)
+- C) 9: \( p + q = 9 \)
+- D) 13: \( p + q = 13 \)
+- E) 17: \( p + q = 17 \)
+
+Comprovem cada opció en l'equació original:
+
+Per \( p + q = 9 \):
+
+\[ p^2 - 2p + q^2 - 2q + 2pq = 15 \]
+
+Si \( p + q = 9 \), llavors:
+
+\[ (p+q)^2 = 81 \]
+
+\[ p^2 + q^2 + 2pq = 81 \]
+
+Substituïm en l'equació original:
+
+\[ 81 - 2p - 2q = 15 \]
+
+\[ 81 - 2(p+q) = 15 \]
+
+\[ 81 - 18 = 15 \]
+
+\[ 63 = 15 \]
+
+Això no és cert, per tant, \( p + q = 9 \) no és la solució correcta.
+
+Per \( p + q = 5 \):
+
+\[ p^2 - 2p + q^2 - 2q + 2pq = 15 \]
+
+Si \( p + q = 5 \), llavors:
+
+\[ (p+q)^2 = 25 \]
+
+\[ p^2 + q^2 + 2pq = 25 \]
+
+Substituïm en l'equació original:
+
+\[ 25 - 2p - 2q = 15 \]
+
+\[ 25 - 2(p+q) = 15 \]
+
+\[ 25 - 10 = 15 \]
+
+\[ 15 = 15 \]
+
+Això és cert, per tant, \( p + q = 5 \) és la solució correcta.
+
+**Resposta**: B)

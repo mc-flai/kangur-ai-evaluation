@@ -1,0 +1,17 @@
+Reasoning: The function f(x) = x^2 + px + q intersects the y-axis at (0, q). To find the intersection points with the x-axis, we set f(x) = 0, which gives us x^2 + px + q = 0.  The problem states that the graph intersects the x-axis in two different points. Let's call them (x1, 0) and (x2, 0). Because the circle passes through (0, q), (x1, 0), and (x2, 0), then  by Vieta's formulas x1 + x2 = -p and x1*x2 = q.  We are looking for a 4th point of intersection between the quadratic and the circle passing through the x-intercepts and y-intercept. The circle passing through the x-intercepts and the y-intercept, and because of the symmetry of the quadratic, the fourth intersection point will have the same x-coordinate as the vertex. The vertex of the parabola is located at x = -p/2. Since the circle passes through (0, q), the fourth intersection point is (x, f(x)). Consider the property of a circle. A circle's diameter passes through the x-intercepts, and the y-axis. Then the center of the circle is at (-p/2, (q-p^2/4)/2). The fourth point of intersection has the x coordinate of the vertex, -p/2. The y coordinate can be gotten by evaluating the function f(x) at this point. This would get you f(-p/2) = (-p/2)^2 + p(-p/2) + q = p^2/4 - p^2/2 + q = -p^2/4 + q.
+
+We have the vertex at x = -p/2. The x coordinate of the fourth point is -p/2. The points (0, q), (x1, 0), (x2, 0) lie on a circle. The fourth point has an x-coordinate where the x-axis is reflected in the axis of symmetry (x=-p/2). That point is (x_vertex, y_vertex). We are evaluating f(-p/2). However, among the options, no (-p/2, f(-p/2)) is there.
+There is a relationship where the y-coordinate of the y-axis intersect and the x-axis intercepts such that the fourth intersection has the same x-coordinate as the vertex of the quadratic, which is at x = -p/2.  Substitute this into the function.
+So x = -p/2.
+f(-p/2) = (-p/2)^2 + p(-p/2) + q = p^2/4 - p^2/2 + q = q - p^2/4.  So point is (-p/2, q-p^2/4).
+
+The question is poorly written, it seems. There are three intersection points, two from the x axis, and one from the y-axis. There should be only one fourth point. The given answer key has the answer as (0, q), (x1, 0), (x2, 0), which means x1x2=q.
+The correct intersection point is found by considering that circle will intersect the graph at the vertex. The options provided doesn't have the correct solution. The correct coordinate can be calculated using completing the square method.
+Let's use the fact that the quadratic intersects x-axis and y-axis in three different points. The quadratic equation is f(x) = x^2 + px + q. It intersects y axis at (0, q). For the quadratic equation to intersect x-axis, the discriminant should be greater than 0. So, p^2-4q>0. The roots of the equation are (-p +/- sqrt(p^2-4q))/2.
+Since the circle passes through (0, q) and the two points on the x axis.
+So the vertex is at -p/2. Therefore, the coordinate is (-p, q) and (0,q), with x intercept.
+The final point must share y coordinate, when x is 1.
+
+Answer: E)
+Reasoning: The circle intersects f(x) at 3 points. The quadratic is x^2 + px + q. When x=0, y=q. Thus (0,q) is one of the intersection. f(x) intersects x-axis means x^2+px+q = 0. Since it intersects at two places on the x-axis. If we substitute x=1, we get f(1) = 1+p+q. The point (1, p+q+1) is also an intersection point. We can't easily determine it with symmetry.
+Answer: E)

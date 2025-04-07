@@ -1,0 +1,19 @@
+Para resolver este problema, debemos determinar el número mínimo de cuadrados negros que se deben pintar para que no haya ningún cuadrado de la cuadrícula que quede completamente blanco.
+
+1. Primero, identificamos el tamaño de la cuadrícula. Es una cuadrícula de 2x7, lo que significa que tiene 2 filas y 7 columnas, un total de 14 cuadrados.
+
+2. Observamos que cada cuadrado de la cuadrícula debe tener al menos un lado compartido con un cuadrado negro para que no quede completamente blanco.
+
+3. Para asegurar que no haya ningún cuadrado completamente blanco, debemos pintar cuadrados negros de manera que cada cuadrado blanco tenga al menos un lado compartido con un cuadrado negro.
+
+4. Si pintamos un cuadrado negro en la primera fila, este cuadrado negro compartirá un lado con los cuadrados blancos adyacentes en la misma fila y en la fila de abajo.
+
+5. Para cubrir toda la cuadrícula de manera eficiente, podemos pintar cuadrados negros en posiciones alternadas en la primera fila. Esto asegurará que cada cuadrado blanco en la segunda fila tenga al menos un lado compartido con un cuadrado negro.
+
+6. Si pintamos cuadrados negros en las posiciones 1, 3, 5 y 7 de la primera fila, cubriremos todos los cuadrados blancos en la segunda fila.
+
+7. Esto significa que necesitamos un total de 4 cuadrados negros para asegurar que no haya ningún cuadrado completamente blanco.
+
+Razonamiento: Pintando cuadrados negros en las posiciones 1, 3, 5 y 7 de la primera fila, aseguramos que todos los cuadrados blancos en la segunda fila tengan al menos un lado compartido con un cuadrado negro. Esto requiere un total de 4 cuadrados negros.
+
+Respuesta: B) 4

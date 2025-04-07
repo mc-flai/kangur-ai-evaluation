@@ -1,0 +1,14 @@
+Raonament:
+Si tenim sis nombres enters positius, i només una parella a,b amb a < b tal que a no és divisor de b, vol dir que la resta de parelles a < b sí que compleixen que a és divisor de b.
+Si n=9: podem tenir {1,2,3,4,5,9}. 1 divideix a tots. 2 divideix a 4. 3 divideix a 9. L'única parella que no és divisor és (4,5), però també pot ser (4,9), (5,9), (2,3), (2,5), (2,9), (3,4), (3,5). Així, n=9 no funciona.
+Si n=6: podem tenir {1,2,3,4,5,6}. 1 divideix a tots. 2 divideix a 4 i 6. 3 divideix a 6. L'única parella que no és divisor és (4,5). L'altre exemple podria ser (2,5), (3,4), (3,5), (4,5), (5,6), (5,x). Així, el 6 tampoc funciona.
+Si n=12: podem tenir {1,2,3,4,5,12}. 1 divideix a tots. 2 divideix a 4 i 12. 3 divideix a 12. 4 divideix a 12. Les parelles que no son divisors serien (2,3), (2,5), (3,4), (3,5), (4,5), (5,12). Podem forçar els sis nombres a ser {6, 7, 8, 9, 10, 12}, les parelles amb divisor ho serien entre (6,12), que seria una. 
+Comencem amb un exemple: {x, 2x, 4x, 8x, 16x, nx}. Si x és 1, tenim: {1, 2, 4, 8, 16, n}. 1 divideix a tots. 2 divideix a 4,8,16. 4 divideix a 8, 16. 8 divideix a 16. Per tant 16 no divideix a n. Perquè n sigui el valor mínim, agafarem que n > 16.
+
+Considerem els nombres 6,7,8,9,10,12. 6 divideix a 12. Cap altre.
+
+Intentem amb els nombres 6, 8, 9, 10, 11, 12. 6 divideix a 12. La resta, cap parella es divideix a elles mateixes.
+
+En aquest cas, podem generar la següent llista d'enters positius 6,7,8,9,10,12 on el més gran es 12. Tenim que a = 6 i b = 7 no es divideixen. No hi ha mes parelles que no es divideixin a elles mateixes, perque 6 divideix a 12.
+
+Resposta: B)

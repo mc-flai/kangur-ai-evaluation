@@ -1,0 +1,37 @@
+Reasoning:
+Let the radii of the three concentric circles be r1, r2, and r3, where r1 < r2 < r3. The problem states that the smallest circle has a radius of 1, therefore r1=1.  The area of the smallest circle is πr1^2 = π. The three grey sections have equal areas. The area of each grey section is 1/4 of the area of the middle circle minus the area of the smallest circle. Thus, the area of the middle circle is πr2^2 and the area of the smallest circle is π. Hence, area of one grey section = (πr2^2 - π)/4.
+Also the area of each grey section is (πr3^2 - πr2^2)/4.
+Since the areas of the grey sections are equal, πr2^2 - π = πr3^2 - πr2^2
+Therefore,  2r2^2 - 1 = r3^2.
+Since the areas of the grey sections are equal, the total area of the two grey sections in the outer circle = 2*(πr2^2 - π)/4 = (πr2^2 - π)/2. The areas of the two grey sections in the outer circle = (πr3^2 - πr2^2)/2. Hence:
+(πr2^2 - π)/2 = (πr3^2 - πr2^2)/2
+or r2^2 - 1 = r3^2 - r2^2.
+or 2r2^2 - 1 = r3^2, which is same equation as derived above.
+Another way to look at it is that the grey regions represent 1/4 of the difference in area between the middle and inner circles, which is then the same as the areas of the two sections in the outer circle which would equal the area of the smaller circle. Thus, the two grey areas in the outer circle would be equal to area of the inner circle = π. Then the area of the middle circle is equal to 3π.
+So, πr2^2 = 3π. This gives r2 = √3. From our equation we know that r3^2=2r2^2 - 1, hence r3^2 = 2*3 -1 = 5. r3=√5.
+The product of the radii is r1 * r2 * r3 = 1 * √3 * √5 = √15. However √15 is not one of the answer choices.
+Let's consider the areas of the three circles, we are given the radius of the smallest circle as 1, so its area = π. The area of the two grey sectors is same.
+The area of middle circle is 3π.
+So the area of the middle circle is 3*π. Hence r2^2 = 3, r2=√3. Area of large circle is: A(large)-A(middle)=A(middle)-A(small). 
+Then A(large)=2*A(middle)-A(small)=2*(3π)-π=5π. So, r3^2=5, and r3=√5.  Then the question states the area of 2 grey sections is 1/2 the area of the large circle - area of the middle circle and also has to equal the area of the small circle, so Area(small circle)=π = 1/2 * (πr3^2 - πr2^2)
+2π = πr3^2 - πr2^2
+2=r3^2 - r2^2
+2= r3^2 - 3
+r3^2=5, or r3=√5.
+Let the radius of the middle circle be x.
+Area of middle circle = Area of small circle + 2*area of grey section (in smaller circle) + Area grey section (in middle circle) + Area grey section (in large circle)
+Area of small circle =π. Since all the gray areas are equal.
+The area of 3 gray sections would be equal to the area of the small circle = π
+Therefore area of the middle circle = area of the small circle + 2 * (area grey section in small circle)+ area of grey section in large circle = 3*π
+So area of middle circle is 3. Then the area of the large circle must be 6π, and the area of the small circle is π.
+Then r2^2=3, r2=√3, r3^2=6 r3=√6. Product: 1*√3*√6=√18=3√2
+r1=1
+r2=√3
+r3=√6
+Therefore r1*r2*r3=√18
+So area of middle circle is 3π. area of large circle is 6π.
+r1=1, r2=√3, r3=√6
+Product = 1 * √3 * √6 = √18 = 3√2
+Product of the radii is 1 * √3 * √6 = √(18) which is 3√2.
+
+Answer: D)

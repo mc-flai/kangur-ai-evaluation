@@ -1,0 +1,15 @@
+Raonament: Hem de trobar nombres de tres xifres $N=abc$ tals que $a>b>c$ i $a+b+c$ és múltiple de 9. Com que $a, b, c$ són dígits, $a, b, c \in \{0, 1, 2, \dots, 9\}$. Com que $a>b>c$, tenim $a \ge 2$. A més, $a+b+c$ és divisible per 9, per tant $a+b+c = 9, 18, 27, \dots$
+Si $a+b+c = 9$, les possibles solucions són:
+(8,1,0), (7,2,0), (7,1,1) no vàlid, (6,3,0), (6,2,1), (5,4,0), (5,3,1), (5,2,2) no vàlid, (4,3,2), (9,0,0) no vàlid
+Els casos possibles són: (8,1,0), (7,2,0), (6,3,0), (6,2,1), (5,4,0), (5,3,1), (4,3,2). Hi ha 7 solucions.
+
+Si $a+b+c = 18$, les possibles solucions són:
+(9,8,1), (9,7,2), (9,6,3), (9,5,4), (8,7,3), (8,6,4), (8,5,5) no vàlid, (7,6,5)
+Els casos possibles són: (9,8,1), (9,7,2), (9,6,3), (9,5,4), (8,7,3), (8,6,4), (7,6,5). Hi ha 7 solucions.
+
+Si $a+b+c = 27$, les possibles solucions són:
+No hi ha cap solució, ja que $a+b+c \le 9+8+7 = 24 < 27$.
+
+Per tant, tenim un total de 7 + 7 = 14 solucions.
+
+Resposta: B)

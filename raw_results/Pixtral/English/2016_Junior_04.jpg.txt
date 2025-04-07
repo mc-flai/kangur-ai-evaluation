@@ -1,0 +1,34 @@
+### Reasoning:
+To determine which point does not belong to the vertices of a square, we need to check the coordinates of each point and see if they can form a square. A square in a Cartesian coordinate system has vertices that are all at the same distance from each other and form right angles.
+
+Let's check the coordinates:
+- P(-1, 3)
+- Q(0, -4)
+- R(-2, -1)
+- S(1, 1)
+- T(3, -2)
+
+We need to check if any three points can form a right angle and if the distances between the points are equal.
+
+1. Calculate the distances between each pair of points:
+   - Distance PQ: \(\sqrt{(-1-0)^2 + (3-(-4))^2} = \sqrt{1 + 25} = \sqrt{26}\)
+   - Distance PR: \(\sqrt{(-1-(-2))^2 + (3-(-1))^2} = \sqrt{1 + 16} = \sqrt{17}\)
+   - Distance PS: \(\sqrt{(-1-1)^2 + (3-1)^2} = \sqrt{4 + 4} = \sqrt{8}\)
+   - Distance PT: \(\sqrt{(-1-3)^2 + (3-(-2))^2} = \sqrt{16 + 25} = \sqrt{41}\)
+   - Distance QS: \(\sqrt{(0-1)^2 + (-4-1)^2} = \sqrt{1 + 25} = \sqrt{26}\)
+   - Distance QT: \(\sqrt{(0-3)^2 + (-4-(-2))^2} = \sqrt{9 + 4} = \sqrt{13}\)
+   - Distance RS: \(\sqrt{(-2-1)^2 + (-1-1)^2} = \sqrt{9 + 4} = \sqrt{13}\)
+   - Distance RT: \(\sqrt{(-2-3)^2 + (-1-(-2))^2} = \sqrt{25 + 1} = \sqrt{26}\)
+   - Distance ST: \(\sqrt{(1-3)^2 + (1-(-2))^2} = \sqrt{4 + 9} = \sqrt{13}\)
+
+2. Check if any three points form a right angle:
+   - Using the distance formula, we need to check if any three points satisfy the Pythagorean theorem (a^2 + b^2 = c^2).
+
+After calculating, we find that the distances do not satisfy the conditions for a square. However, we need to identify which point does not fit the pattern.
+
+3. Check the coordinates for forming a square:
+   - For a square, the x-coordinates and y-coordinates of the vertices should form pairs that are equidistant.
+
+Upon checking, we find that the point T(3, -2) does not fit the pattern of the other points to form a square.
+
+### Answer: E)

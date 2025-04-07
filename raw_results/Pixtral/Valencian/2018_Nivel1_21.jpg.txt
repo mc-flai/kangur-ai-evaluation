@@ -1,0 +1,11 @@
+La pregunta 21 descriu una figura que té 6 punts i 9 segments que connecten parelles de punts. La figura té un punt que es pot moure d'un altre punt al mateix nivell i tornar al primer punt sense passar per les mateixes vegaes per cap segment i tornar al recórregut. La pregunta pregunta quanta segment hauran d'esborrar perquè sigui possible moure un punt a un altre punt al mateix nivell, però no pugui tornar al punt de partida sense repetir algun segment.
+
+Per resoldre aquest problema, primer cal entendre les propietats d'un grafe. Un grafe és una estructura matemàtica que consisteix en vèrtexs (punts) i arestes (segments). En aquest cas, la figura és un grafe que té 6 vèrtexs i 9 arestes.
+
+Per moure un punt a un altre punt al mateix nivell i tornar al punt de partida sense repetir segments, el grafe ha de ser connectat de manera que permeti un camí sense repeticions. Això implica que el grafe ha de ser connectat de manera que cada vèrtex pugui ser visitat sense repetir segments.
+
+Un grafe complet amb 6 vèrtexs té 9 arestes, que és el mínim possible per connectar tots els vèrtexs. Si esborrem segments, la connectivitat del grafe es deteriora. Per moure un punt a un altre punt al mateix nivell i tornar al punt de partida sense repetir segments, cal assegurar-se que el grafe mantingui la connectivitat necessària.
+
+Per tant, la resposta correcta és:
+
+Resposta: E) 5

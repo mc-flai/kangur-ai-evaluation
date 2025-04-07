@@ -1,0 +1,20 @@
+### Raonament:
+
+La pregunta solicita identificar la quantitat de maneres en les quals el conjunt {1, 2, 3, 4, 5, 6, 7} es pot dividir en subconjunts de manera que la suma dels elements de cada subconjunt sigui un múltiple de 7. Per exemple, {2, 5, 7} i {1, 3, 4, 6} són subconjunts que compleixen aquesta condició.
+
+Per resoldre això, primerment, identifiquem els elements del conjunt original que són múltiples de 7. Els múltiples de 7 en el conjunt són 7.
+
+A continuació, considerem els subconjunts que poden formar-se amb els altres elements del conjunt. Els elements són {1, 2, 3, 4, 5, 6}. Per a cada subconjunt, calcularem la suma dels elements i veurem si és un múltiple de 7.
+
+1. {1, 2, 3, 4, 5, 6}: Suma = 21 (no és un múltiple de 7)
+2. {1, 2, 3, 4, 5}: Suma = 15 (no és un múltiple de 7)
+3. {1, 2, 3, 4}: Suma = 10 (no és un múltiple de 7)
+4. {1, 2, 3}: Suma = 6 (no és un múltiple de 7)
+5. {1, 2}: Suma = 3 (no és un múltiple de 7)
+6. {1}: Suma = 1 (no és un múltiple de 7)
+
+Com podem observar, cap dels subconjunts formats pels elements {1, 2, 3, 4, 5, 6} té una suma que sigui un múltiple de 7. Per tant, no hi ha cap manera de dividir el conjunt original en subconjunts que compleixin la condició.
+
+### Resposta:
+
+D) 0

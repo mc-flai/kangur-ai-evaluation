@@ -1,0 +1,27 @@
+Reasoning:
+The points are P(-1, 3), Q(0, -4), R(-2, -1), S(1, 1), T(3, -2).
+We can try different combinations of 4 points to see which one doesn't form a square.
+
+Let's calculate the distances between pairs of points to find the possible side lengths and diagonals.
+
+PQ = sqrt((-1-0)^2 + (3-(-4))^2) = sqrt(1+49) = sqrt(50) = 5sqrt(2)
+PR = sqrt((-1-(-2))^2 + (3-(-1))^2) = sqrt(1+16) = sqrt(17)
+PS = sqrt((-1-1)^2 + (3-1)^2) = sqrt(4+4) = sqrt(8) = 2sqrt(2)
+PT = sqrt((-1-3)^2 + (3-(-2))^2) = sqrt(16+25) = sqrt(41)
+QR = sqrt((0-(-2))^2 + (-4-(-1))^2) = sqrt(4+9) = sqrt(13)
+QS = sqrt((0-1)^2 + (-4-1)^2) = sqrt(1+25) = sqrt(26)
+QT = sqrt((0-3)^2 + (-4-(-2))^2) = sqrt(9+4) = sqrt(13)
+RS = sqrt((-2-1)^2 + (-1-1)^2) = sqrt(9+4) = sqrt(13)
+RT = sqrt((-2-3)^2 + (-1-(-2))^2) = sqrt(25+1) = sqrt(26)
+ST = sqrt((1-3)^2 + (1-(-2))^2) = sqrt(4+9) = sqrt(13)
+
+Let's check the combination QRST: All sides are sqrt(13). QS and RT are sqrt(26), QS^2 + RT^2 = 26 + 26 = 52. QR^2 + RS^2 + ST^2 + TQ^2 = 4 * 13 = 52. QRST seems to be a square.
+
+If QRST is a square, then P must be the point that doesn't belong.
+Let's find the distances in the square QRST: side= sqrt(13), diagonal = sqrt(26)
+Check diagonals: QS=RT=sqrt(26)
+Check sides: QR = RS = ST = TQ = sqrt(13)
+
+Therefore, QRST is a square. P is the outlier.
+
+Answer: A).

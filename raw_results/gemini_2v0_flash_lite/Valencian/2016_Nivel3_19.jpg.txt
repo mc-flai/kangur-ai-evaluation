@@ -1,0 +1,20 @@
+Raonament:
+El problema demana la quantitat mínima de cartes que sumen 100.
+Intentaré trobar la resposta a partir de la suma de les cartes més grans.
+68 + 33 = 101 > 100.
+68 + 33 - 1 = 100, pero no existeix 1 en el conjunt de cartes.
+68 + 28 = 96.  100 - 96 = 4. Existeix el 4? No.
+68 + 23 = 91. 100-91 = 9. No existeix 9.
+68 + 18 = 86. 100-86 = 14. Existeix el 14? No.
+58 + 43 = 101.
+58 + 38 = 96. 100 - 96 = 4. No existeix.
+53 + 48 = 101
+53 + 38 + 8 + 1 = 100. No existeix el 1.
+53 + 33 + 13 + 1 = 100. No existeix el 1.
+53 + 28 + 13 + 6 = 100.
+33 + 38 + 28 + 1 = 100. No existeix l'1
+38 + 28 + 23 + 8 + 3 = 100.
+Així doncs, hem trobat una combinació de 5 cartes que sumen 100.
+Així que la resposta és D.
+
+Resposta: D)

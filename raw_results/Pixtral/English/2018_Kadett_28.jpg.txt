@@ -1,0 +1,73 @@
+### Reasoning:
+1. **Calculate the new mean after the next jump:**
+   - Initial mean: 3.80 m
+   - Number of jumps: n (unknown)
+   - New jump distance: 3.99 m
+   - New mean: 3.81 m
+
+   Using the formula for the mean:
+   \[
+   \text{New mean} = \frac{\text{Sum of all jumps}}{\text{Number of jumps}}
+   \]
+   Let the sum of all jumps be \( S \) and the number of jumps be \( n \). The initial mean is:
+   \[
+   \text{Initial mean} = \frac{S}{n} = 3.80
+   \]
+   After the next jump, the sum of all jumps becomes \( S + 3.99 \) and the number of jumps becomes \( n + 1 \). The new mean is:
+   \[
+   \text{New mean} = \frac{S + 3.99}{n + 1} = 3.81
+   \]
+   Solving for \( S \):
+   \[
+   3.81 = \frac{S + 3.99}{n + 1}
+   \]
+   \[
+   3.81(n + 1) = S + 3.99
+   \]
+   \[
+   3.81n + 3.81 = S + 3.99
+   \]
+   \[
+   S = 3.81n + 3.81 - 3.99
+   \]
+   \[
+   S = 3.81n - 0.18
+   \]
+
+2. **Determine the distance Viola needs to jump to achieve a mean of 3.82 m:**
+   - Desired mean: 3.82 m
+   - Number of jumps: \( n + 1 \)
+
+   Using the formula for the mean again:
+   \[
+   3.82 = \frac{S + x}{n + 1}
+   \]
+   Where \( x \) is the distance Viola needs to jump. Substituting \( S \) from above:
+   \[
+   3.82 = \frac{3.81n - 0.18 + x}{n + 1}
+   \]
+   \[
+   3.82(n + 1) = 3.81n - 0.18 + x
+   \]
+   \[
+   3.82n + 3.82 = 3.81n - 0.18 + x
+   \]
+   \[
+   x = 3.82n + 3.82 - 3.81n + 0.18
+   \]
+   \[
+   x = 0.01n + 3.99
+   \]
+
+3. **Calculate the distance for \( n = 1 \) (since we only have one previous jump):**
+   \[
+   x = 0.01(1) + 3.99
+   \]
+   \[
+   x = 0.01 + 3.99
+   \]
+   \[
+   x = 4.00
+   \]
+
+### Answer: B)

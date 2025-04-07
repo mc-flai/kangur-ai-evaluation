@@ -1,0 +1,15 @@
+Reasoning:
+We want to find the number of real solutions to the equation $||4^x - 3| - 2| = 1$.
+First, we can rewrite the equation as $|4^x - 3| - 2 = 1$ or $|4^x - 3| - 2 = -1$.
+Case 1: $|4^x - 3| - 2 = 1$, which implies $|4^x - 3| = 3$.
+Then, we have $4^x - 3 = 3$ or $4^x - 3 = -3$.
+$4^x = 6$ or $4^x = 0$. Since $4^x > 0$ for all real $x$, we have only one solution here, which is $4^x = 6$, or $x = \log_4 6$.
+Case 2: $|4^x - 3| - 2 = -1$, which implies $|4^x - 3| = 1$.
+Then, we have $4^x - 3 = 1$ or $4^x - 3 = -1$.
+$4^x = 4$ or $4^x = 2$.
+$4^x = 4$ implies $x = 1$.
+$4^x = 2$ implies $2^{2x} = 2$, so $2x = 1$ and $x = \frac{1}{2}$.
+In total, we have three solutions: $x = \log_4 6$, $x = 1$, and $x = \frac{1}{2}$.
+Therefore, the equation has 3 real solutions.
+
+Answer: B)

@@ -1,0 +1,19 @@
+
+Raisonnement :
+1. Le problème demande la longueur du périmètre du grand rectangle, sachant que le rapport longueur/largeur de chacun des 11 rectangles est le même que celui du grand rectangle.
+2. La longueur la plus petite d'un des rectangles est donnée comme étant 1.
+3. Pour trouver le périmètre du grand rectangle, nous devons déterminer la longueur totale de ses côtés.
+4. Si la longueur la plus petite d'un rectangle est 1, cela signifie que la longueur du grand rectangle est un multiple de 1.
+5. En examinant les options, nous devons trouver quel multiple de 1 donne un périmètre correspondant à l'un des choix donnés.
+6. Les options sont 22, 24, 27, 30 et 36.
+7. Le périmètre d'un rectangle est donné par la formule : Périmètre = 2 * (Longueur + Largeur).
+8. Si la longueur la plus petite est 1, nous devons trouver une longueur qui, lorsqu'elle est multipliée par 11, donne une option parmi celles proposées.
+9. En multipliant 11 par chaque option, nous obtenons :
+   - 11 * 22 = 242
+   - 11 * 24 = 264
+   - 11 * 27 = 297
+   - 11 * 30 = 330
+   - 11 * 36 = 396
+10. Parmi ces résultats, 36 est l'option proposée.
+
+Réponse : E)

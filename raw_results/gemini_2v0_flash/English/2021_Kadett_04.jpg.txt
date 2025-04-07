@@ -1,0 +1,12 @@
+Reasoning:
+A four-digit number with consecutive, ascending digits must have the form abcd, where b = a+1, c = b+1 = a+2, and d = c+1 = a+3. The smallest possible value for a is 0 (but a cannot be 0, since the number must be a four-digit number), and the largest possible value for d is 9.
+If a = 1, then the number is 1234.
+If a = 2, then the number is 2345.
+If a = 3, then the number is 3456.
+If a = 4, then the number is 4567.
+If a = 5, then the number is 5678.
+If a = 6, then the number is 6789.
+If a = 7, the number will be 789(10) which is not possible as 10 is not a single digit.
+So, we have the possibilities: 1234, 2345, 3456, 4567, 5678, 6789. There are 6 such numbers.
+
+Answer: B)

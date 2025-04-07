@@ -1,0 +1,43 @@
+Raonament:
+Per minimitzar la suma, hem d'escollir els dies més petits possibles per a cada mes. El primer dilluns pot ser el dia 1, 2, 3, 4, 5, 6 o 7. Si suposem que cada mes comença amb un dilluns, tindrem 1 + 1 + 1 = 3. No obstant això, els dilluns poden ser posteriors al primer dia del mes, així que ho hem de mirar per separat. Juliol pot començar un dilluns, que seria dia 1. Agost i setembre no poden començar un dilluns el dia 1, perquè els mesos tenen almenys 30 dies, però si el juliol comença un dilluns, l'agost comença almenys el dia 2, i el setembre, almenys el dia 3. Per tant, la suma mínima és 1 + 1 + 1 = 3, però això només pot ser el cas si els tres mesos comencen un dilluns. No obstant això, no sabem la data d'inici del mes. Si el primer dilluns fos el dia 1 de juliol, el segon dilluns d'agost seria el dia 7 (6 dies), i el primer dilluns de setembre seria el dia 4 (3 dies). Si el dilluns cau el dia 1, el següent cau el dia 7, el següent el dia 8, per tant 1+1+1=3. La suma mínima és 1+1+1=3. Però si el juliol comença el dissabte, el dilluns seria el dia 3. L'agost, el dilluns seria el dia 6 (3 dies), el setembre el dilluns seria el dia 5. La suma seria 3+6+5=14. Si tenim el dia 1, el dia 2 i el dia 1. La suma mínima és 1+1+1=3, que no pot ser la resposta.
+
+Dilluns juliol 1:
+Dilluns agost pot ser 1.
+Dilluns setembre pot ser 1.
+
+Això faria 1+1+1 = 3
+
+Dilluns juliol 2:
+Dilluns agost 1.
+Dilluns setembre 1.
+
+Això no és possible
+
+Dilluns juliol 1:
+Dilluns agost 2.
+Dilluns setembre 1.
+
+Això no és possible
+
+Si el dilluns de juliol és el dia 1, el dilluns d'agost pot ser el dia 1, el dilluns de setembre pot ser el dia 1. Llavors, la suma és 3. Si el dilluns de juliol és el dia 2, el dilluns d'agost és el dia 1. Això no és possible. Si el dilluns de juliol és el dia 3, llavors el dilluns d'agost és el dia 1 o el 2. Si el dilluns de juliol és el dia 4, el dilluns d'agost pot ser el dia 1 o el 2. Si el dilluns de juliol és el dia 5, el dilluns d'agost pot ser el dia 1, 2 o 3.
+
+Si el dilluns de juliol és el 1, el primer dilluns d'agost pot ser el 1, per tant el dilluns de setembre seria el 1. 1+1+1=3
+Si el dilluns de juliol és el 2, el primer dilluns d'agost seria el 1. No és possible, sempre serà superior al dia de juliol.
+Si el dilluns de juliol és el 3, el dilluns d'agost seria el 1. No és possible, sempre serà superior al dia de juliol.
+
+Juliol (1), Agost (1), Setembre (1) = 3
+Juliol (2), Agost (1), Setembre (x) = no possible
+Juliol (2), Agost (2), Setembre (1) = no possible
+Juliol (3), Agost (1), Setembre (x) = no possible
+
+Si el primer dilluns de juliol fos el dia 1, el primer dilluns d'agost pot ser el dia 1, i el primer dilluns de setembre pot ser el dia 1, per tant la suma seria 3. Però agost i setembre no poden començar per dilluns.
+Si el primer dilluns de juliol fos el 1, el primer dilluns d'agost seria 2, el dilluns de setembre seria 1. No és possible.
+
+Si el primer dilluns de juliol és 1, el primer dilluns d'agost és 1, el primer dilluns de setembre és 1, 1+1+1=3.
+Si el primer dilluns de juliol és 1, el primer dilluns d'agost és 2, el primer dilluns de setembre és 2. 1+2+2=5
+Si el primer dilluns de juliol és 2, el primer dilluns d'agost és 2, el primer dilluns de setembre és 2. 2+2+2=6
+Si el primer dilluns de juliol és 2, el primer dilluns d'agost és 3, el primer dilluns de setembre és 3. 2+3+3=8
+
+La suma més petita és 3, però no és una de les respostes. La següent suma més petita possible seria 5.
+
+Resposta: C)

@@ -1,0 +1,11 @@
+**Raisonnement** :
+1. Nous devons déterminer la distance entre le milieu de [HU] et celui de [GO].
+2. Le milieu de [HU] est le point situé à la moitié de la longueur de HU, et de même pour [GO].
+3. Calculons d'abord les milieux de [HU] et [GO]. Le milieu d'un segment divise le segment en deux parties égales.
+4. Pour [HU], on a HG = 12 cm. Donc, le milieu de [HU] est à 6 cm de H et à 6 cm de U.
+5. Pour [GO], on a UO = 18 cm. Donc, le milieu de [GO] est à 9 cm de G et à 9 cm de O.
+6. Maintenant, nous devons trouver la distance entre ces deux milieux.
+7. Les points H, U, G et O sont alignés sur une droite, donc nous pouvons simplement additionner les distances :
+    - Distance entre le milieu de [HU] et le milieu de [GO] = 6 cm (milieu de HU à U) + 9 cm (milieu de GO à G) = 15 cm.
+
+**Réponse** : A) 15 cm

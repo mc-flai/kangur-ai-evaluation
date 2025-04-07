@@ -1,0 +1,12 @@
+Razonamiento:
+1. **Conejos:** Tenemos 3 conejos, y ninguno puede estar al lado de otro.
+2. **Canguros:** Hay exactamente 3 canguros juntos.
+3. **Distribución:** Para maximizar la cantidad de canguros, deben alternarse con los conejos.
+4. **Secuencia:** Podemos imaginar una secuencia de C (conejo), G (canguro), y grupos de canguros.
+5. **Ejemplo:** Una disposición posible es C-G-G-G-C-G-G-C.
+6. **Conteo:** Los tres conejos separan los canguros, por lo que pueden haber como máximo dos grupos de canguros entre cada conejo. Como hay 3 conejos y un máximo de 3 canguros juntos, y hay tres canguros juntos una vez.
+7. **Cálculo:**  Tenemos 3 grupos de canguros cada uno con 3 canguros: 3 * 3 = 9, pero debemos incluir el restricción de no tener conejos adyacentes y el de tener 3 conejos en total.
+8. **Organizando:**  C G G G C G G G C.   Aquí hay 3 grupos de 3 canguros y 3 conejos.  Sin embargo, esto no es una solución, ya que solo se permite un grupo de 3 canguros.
+9. **Solución:**  La única forma de tener 3 conejos separados y al menos un grupo de 3 canguros es C G G G C G G C. Esto da un total de 7 canguros.
+
+Respuesta: D)

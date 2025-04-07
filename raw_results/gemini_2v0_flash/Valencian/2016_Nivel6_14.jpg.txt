@@ -1,0 +1,17 @@
+Raonament: Siga $P$ el nombre total de pomes. Si $N$ xiquets reben el mateix número de pomes, cada un d'ells rep $P/N$ pomes. Quan hi ha $N-2$ xiquets, cada un rep $P/(N-2)$ pomes, que és una poma més que al principi, per tant $P/(N-2) = P/N + 1$. Quan hi ha $N-3$ xiquets, cada un rep $P/(N-3)$ pomes, que són dues pomes més que al principi, per tant $P/(N-3) = P/N + 2$. Tenim dues equacions:
+1. $P/(N-2) = P/N + 1$
+2. $P/(N-3) = P/N + 2$
+
+Ara, manipulem algebraicament les equacions:
+1. $P = P(N-2)/N + (N-2)$
+$P(1 - (N-2)/N) = N-2$
+$P(N - N + 2)/N = N-2$
+$2P/N = N-2$, així $2P = N(N-2)$
+2. $P = P(N-3)/N + 2(N-3)$
+$P(1 - (N-3)/N) = 2(N-3)$
+$P(N - N + 3)/N = 2(N-3)$
+$3P/N = 2(N-3)$, així $3P = 2N(N-3)$
+
+Ara tenim que $2P = N(N-2)$ i $3P = 2N(N-3)$. Multiplicant la primera equació per 3 i la segona per 2 obtenim $6P = 3N(N-2)$ i $6P = 4N(N-3)$. Per tant, $3N(N-2) = 4N(N-3)$. Com que $N$ ha de ser diferent de zero, dividim amb $N$, per tant $3(N-2) = 4(N-3)$, per tant $3N-6 = 4N-12$, o $N = 6$.
+
+Resposta: A)

@@ -1,0 +1,20 @@
+
+**Reasoning**: To determine the minimum number of packages Marius has to buy to get exactly 70 balloons, we need to evaluate how the balloons can be divided into packages of 5, 10, or 25. 
+
+Let's start by checking if Marius can buy exactly 70 balloons with the minimum number of packages:
+
+1. **Checking for 3 packages**:
+   - If Marius buys 1 package of 25 balloons (25), 1 package of 10 balloons (10), and 1 package of 25 balloons (25), that totals 60 balloons. He needs 10 more balloons, which he can get by purchasing another 10-balloon package. This would total 4 packages.
+   
+2. **Checking for 4 packages**:
+   - If he buys 2 packages of 25 balloons (50) and 2 packages of 10 balloons (20), this totals 70 balloons. This is a valid combination and requires 4 packages.
+
+3. **Checking for 5 packages**:
+   - If he buys 2 packages of 25 balloons (50), 1 package of 10 balloons (10), and 2 packages of 5 balloons (10), this totals 70 balloons. This is a valid combination and requires 5 packages.
+
+4. **Checking for 6 packages or more**:
+   - It is possible to reach 70 balloons with more combinations, but they will require more than 4 packages.
+
+Therefore, the minimum number of packages Marius has to buy is 4.
+
+**Answer**: B)

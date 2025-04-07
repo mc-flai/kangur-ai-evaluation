@@ -1,0 +1,24 @@
+Reasoning:
+Let's denote the area of the smaller square as $A_1 = p^2$ and the area of the larger square as $A_2 = q^2$.
+The area of the entire figure is $p^2 + q^2$.
+The area of the triangle formed by the bottom-left corner, the top-right corner of the smaller square, and the top-right corner of the larger square is $\frac{1}{2}(p+q)q = \frac{1}{2}(pq + q^2)$.
+The area of the triangle formed by the bottom-left corner, the top-left corner of the smaller square and the top-right corner of the smaller square is $\frac{1}{2}p^2$.
+The area of the triangle formed by the bottom-left corner, the bottom-right corner of the larger square and the top-right corner of the larger square is $\frac{1}{2}q^2$.
+The area of the grey triangle is the area of the squares minus the white triangles.
+Area of grey triangle = $p^2 + q^2 - \frac{1}{2} p^2 - \frac{1}{2} q (p+q) = p^2 + q^2 - \frac{1}{2} p^2 - \frac{1}{2} pq - \frac{1}{2} q^2 = \frac{1}{2} p^2 + \frac{1}{2} q^2 - \frac{1}{2} pq$
+
+Alternatively, let's analyze the area of the non-shaded triangles. One triangle has base p and height p, so its area is $\frac{1}{2} p^2$. The other has base q and height (p+q), so its area is $\frac{1}{2} q (p+q) = \frac{1}{2} (pq + q^2)$.
+The total area of the two squares is $p^2 + q^2$.
+The area of the grey region is thus the total area minus the area of the two triangles:
+$p^2 + q^2 - \frac{1}{2} p^2 - \frac{1}{2} (pq + q^2) = p^2 + q^2 - \frac{1}{2} p^2 - \frac{1}{2} pq - \frac{1}{2} q^2 = \frac{1}{2} p^2 + \frac{1}{2} q^2 - \frac{1}{2} pq$. This doesn't match any answer.
+
+Let's try subtracting from a larger rectangle. The area of the large rectangle of sides p+q and q is $q(p+q) = pq+q^2$. We subtract two triangles. The triangle on the top right has area $q^2 /2$. The small white triangle on the lower left is area $p^2 /2$.
+$pq+q^2 - q^2/2 - p^2/2 = pq + q^2/2 - p^2/2$.
+The large right triangle consists of a right triangle of sides q and (p+q).
+Let's find the x and y coordinates of all three vertices. The first is (0,0), second is (p,p), third is (p+q,q)
+Area = 0.5 | x1(y2-y3) + x2(y3-y1) + x3(y1-y2) |
+Area = 0.5 | 0*(p-q) + p*(q-0) + (p+q)(0-p) |
+Area = 0.5 | pq - p^2 - qp | = 0.5(q^2). Incorrect
+If you extend the line of the grey triangle, the large shape is a square, therefore C.
+
+Answer: C)

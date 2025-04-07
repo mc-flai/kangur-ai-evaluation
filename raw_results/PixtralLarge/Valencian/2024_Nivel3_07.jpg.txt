@@ -1,0 +1,17 @@
+**Raonament**:
+- Per resoldre aquesta pregunta, hem de determinar qui té una sola peça de fruita amb la condició que cada persona agrada una fruita de les que ells mateixos agraden.
+- Examinem les preferències de cada persona:
+  - Pol li agrada la poma.
+  - Bruno li agraden la poma, la pera, la taronja i el kiwi.
+  - Lluís li agraden el plàtan, la pera, la taronja i el kiwi.
+  - Pina li agraden la poma i el plàtan.
+  - Eva li agraden la poma i la pera.
+- Ara, busquem qui té una sola fruita que compleixi aquesta condició i que no sigui la poma:
+  - Pol li agrada la poma, que la té Bruno.
+  - Bruno ha agafat una fruita que també li pot agradar.
+  - Lluís li agraden el plàtan, la pera i la taronja. Si té el plàtan, és possible que sigui l'única que li agradi.
+  - Pina li agraden la poma i el plàtan. Si té la poma, no és l'única que li agradi.
+  - Eva li agraden la poma i la pera. Si té la poma, no és l'única que li agradi.
+- Doncs, la persona que té una fruita que només li agrada a ell mateix ha de ser Lluís, ja que té el plàtan, que no és agradat pels altres.
+
+**Resposta**: C)

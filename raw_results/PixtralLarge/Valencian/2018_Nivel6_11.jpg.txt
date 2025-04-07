@@ -1,0 +1,26 @@
+Per analitzar la pregunta 11, hem de seguir els següents passos:
+
+1. **Entendre el problema**:
+   - Un nombre enter positiu \( N \) és divisible per 6.
+   - El residu de la divisió de \( N \) per 6 és 5.
+   - Hem de determinar quin és el residu quan \( N^2 \) es divideix per 12.
+
+2. **Expressar \( N \) en termes del seu residu**:
+   - Si \( N \) és divisible per 6 i el residu és 5, aleshores podem escriure \( N \) com \( N = 6k + 5 \) per algun enter \( k \).
+
+3. **Calcular \( N^2 \)**:
+   - \( N^2 = (6k + 5)^2 \)
+   - Desenvolupant el quadrat: \( N^2 = 36k^2 + 60k + 25 \)
+
+4. **Determinar el residu de \( N^2 \) quan es divideix per 12**:
+   - \( 36k^2 \) és divisible per 12, ja que 36 és múltiple de 12.
+   - \( 60k \) és divisible per 12, ja que 60 és múltiple de 12.
+   - Així, el residu de \( 36k^2 + 60k + 25 \) quan es divideix per 12 és el mateix que el residu de 25 quan es divideix per 12.
+
+5. **Calcular el residu de 25 quan es divideix per 12**:
+   - \( 25 \div 12 = 2 \) amb residu 1.
+   - Per tant, el residu de \( N^2 \) quan es divideix per 12 és 1.
+
+**Raonament**: Hem expressat \( N \) en termes del seu residu, calculat \( N^2 \), i determinat el residu de \( N^2 \) quan es divideix per 12.
+
+**Resposta**: A) 1.

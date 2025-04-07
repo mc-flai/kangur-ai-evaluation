@@ -1,0 +1,25 @@
+Raonament: Per resoldre aquest problema, hem de trobar el temps total que necessiten Joan, Jordi i Josep per omplir les tres caixes junts. Per això, primer hem de determinar quina part de la caixa omplen cada un per minut.
+
+- Joan omple una caixa en 30 minuts, per tant la seva taxa és 1/30 caixa per minut.
+- Jordi omple una caixa en 45 minuts, per tant la seva taxa és 1/45 caixa per minut.
+- Josep omple una caixa en 36 minuts, per tant la seva taxa és 1/36 caixa per minut.
+
+Ara, sumem les taxes per trobar la taxa combinada:
+
+\[ \frac{1}{30} + \frac{1}{45} + \frac{1}{36} \]
+
+Per sumar aquestes fraccions, cal trobar un denominador comú. El mínim comú múltiple de 30, 45 i 36 és 180. Convertim cada fracció:
+
+\[ \frac{1}{30} = \frac{6}{180} \]
+\[ \frac{1}{45} = \frac{4}{180} \]
+\[ \frac{1}{36} = \frac{5}{180} \]
+
+Sumem les fraccions:
+
+\[ \frac{6}{180} + \frac{4}{180} + \frac{5}{180} = \frac{15}{180} = \frac{1}{12} \]
+
+Per tant, els tres junts omplen 1/12 d'una caixa per minut. Per omplir tres caixes, necessiten:
+
+\[ 3 \text{ caixes} \times 12 \text{ minuts per caixa} = 36 \text{ minuts} \]
+
+Resposta: B) 36 minuts

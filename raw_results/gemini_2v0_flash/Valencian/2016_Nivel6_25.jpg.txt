@@ -1,0 +1,9 @@
+Raonament:
+Per a resoldre aquest problema, primer hem de racionalitzar cada terme de la suma. El terme general és $\frac{1}{\sqrt{n+1} + \sqrt{n}}$. Multiplicant el numerador i el denominador per $\sqrt{n+1} - \sqrt{n}$, obtenim:
+$$\frac{1}{\sqrt{n+1} + \sqrt{n}} = \frac{\sqrt{n+1} - \sqrt{n}}{(\sqrt{n+1} + \sqrt{n})(\sqrt{n+1} - \sqrt{n})} = \frac{\sqrt{n+1} - \sqrt{n}}{(n+1) - n} = \sqrt{n+1} - \sqrt{n}$$
+Així, la suma es converteix en:
+$$(\sqrt{2} - \sqrt{1}) + (\sqrt{3} - \sqrt{2}) + (\sqrt{4} - \sqrt{3}) + \dots + (\sqrt{2016} - \sqrt{2015})$$
+Aquesta és una suma telescòpica, on cada terme es cancel·la amb el terme anterior, excepte el primer i l'últim. Així, la suma es redueix a:
+$$\sqrt{2016} - \sqrt{1} = \sqrt{2016} - 1$$
+
+Resposta: E)

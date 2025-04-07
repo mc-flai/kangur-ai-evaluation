@@ -1,0 +1,39 @@
+Per resoldre aquest problema, necessitem calcular la mediana dels nombres donats. Els nombres són:
+
+n, n + 3, n + 4, n + 5, n + 6, n + 8, n + 10, n + 12, n + 15
+
+Per trobar la mediana d'una sèrie de nombres, hem d'ordenar-los i després trobar el valor mitjà. En aquest cas, els nombres ja estan ordenats.
+
+Com que hi ha 9 nombres, la mediana serà el cinquè valor ordenat.
+
+Per tant, la mediana és el valor de:
+
+n + 6
+
+El problema ens diu que la mediana és 10. Per tant:
+
+n + 6 = 10
+
+Resolent per n:
+
+n = 10 - 6
+n = 4
+
+Ara que sabem que n = 4, podem substituir n en qualsevol dels nombres donats per verificar que la mediana és 10:
+
+n + 6 = 4 + 6 = 10
+
+Per tant, la mediana és realment 10.
+
+Ara verifiquem les opcions donades:
+
+A) 4
+B) 5
+C) 6
+D) 10
+E) 11
+
+La resposta correcta és:
+
+Raonament: La mediana dels nombres n, n + 3, n + 4, n + 5, n + 6, n + 8, n + 10, n + 12, n + 15 és n + 6. Com que la mediana és 10, n ha de ser 4. Per tant, la mediana és 10.
+Resposta: D)

@@ -1,0 +1,28 @@
+Raonament:
+1. **Identificar les dades:** Tenim un quadrat ABCD de costat 12. A més, sabem que |AP| = 4 i |DQ| = 3. El punt R és tal que RQ és perpendicular a DC. Volem trobar la longitud de RB.
+2. **Càlcul de longituds:**
+   - Com que |AP| = 4 i el costat del quadrat és 12, |PB| = 12 - 4 = 8.
+   - Com que |DQ| = 3 i el costat del quadrat és 12, |QC| = 12 - 3 = 9.
+   - Com que RQ és perpendicular a DC, i DQ = 3, el punt Q coincideix amb la projecció de R sobre DC. Això implica que la coordenada x de R és 3.
+   - Observem el triangle rectangle RQC. La longitud QC és 9. L'altre costat del triangle rectangle és la distància de R a CD.
+3. **Trobar les coordenades de R:** Sigui R (x,y).  R està en la línia PD.  L'equació de la línia PD pot ser escrita en forma de pendent-intercepte. El pendent és (12-0)/(0-3) = -12/3 = -4.  Per tant, l'equació és y - 0 = -4(x-3) o y = -4x +12, i també passa per D(0,0), on la coordenada x és 3. Per trobar les coordenades de R, necessitem una altra equació. Tenim que RQ és perpendicular a DC, pel que la coordenada x de R és 3. substituint x=3 en l'equació de la línia PD, obtenim y= -4(3) + 12 = 0. això no pot ser correcte, doncs el punt R està entre P i D.
+4. **Tornar a la geometria:** Observem que el triangle rectangle RQC. |QC| = 9. Necessitem calcular |RC|. El triangle rectangle RQC. Sabem |DQ| = 3, llavors |AQ|=12, per tant, |QC|=9.  Per trobar la longitud de RQ utilitzarem el Teorema de Pitàgores. Necessitem trobar el valor de |RD|. |PD| =  √(4^2 + 12^2) = √(16+144) = √160 = 4√10. |RQ|= |CD| - |DQ| = 12-3=9.  
+  *   Aquesta part no és del tot correcta.
+
+5. **Reprendre el procés amb un altre enfocament**: Sabem que R està en la línia PD.  PD es pot veure com una línia en el quadrat. |AP|=4, |PB|=8, |DQ|=3, |QC|=9.  Si fem servir el teorema de Pitàgores al triangle PDR, i sabem que RQ és perpendicular a DC, llavors podem dir que RQ és paral·lel a AD i BC.
+6. **Trobar la resposta correcta:**  El triangle rectangle format per R, B i C.  |BC|=12. Necessitem trobar la longitud d'un altre catet.
+
+|AP| = 4, |PB| = 8, |DQ| = 3, |QC| = 9. R té coordenades (x,y). RQ és perpendicular a DC.
+|RC|^2 = |RB|^2 - |BC|^2. |RB| = √(|RC|^2 + |BC|^2). R està en la línia PD. |RQ| =? |RB|
+Per calcular |RB|, necessitem el valor de |RC| (o |RB|)
+El triangle rectangle RQC.  |QC| = 9. Si sabem |RD|, podem calcular |RQ| i utilitzar el teorema de Pitàgores.  PD = 4√10.
+R està a la línia PD. L'equació de PD és y= -4x+12. La línia de R a DC és una línia vertical amb x = 3.
+La distància de P a D és √160. R està en PD.
+
+Anem per casos.  Fem servir el Teorema de Pitàgores. |RB| = √(|RC|^2 + 8^2)
+Si calculem el pendent de la recta PD, i després usem la perpendicularitat amb RQ i trobem les coordenades de R.  Amb aquestes coordenades, podrem calcular les distàncies.
+Per calcular la distància de R a B necessitem trobar el valor de |RC|.
+
+La resposta que sembla la més raonable per geometria és 3√10.
+
+Resposta: C)

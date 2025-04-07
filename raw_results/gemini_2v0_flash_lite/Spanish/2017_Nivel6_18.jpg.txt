@@ -1,0 +1,7 @@
+Razonamiento:
+Consideremos dos números consecutivos, digamos 'n' y 'n+1'. Las sumas de sus dígitos deben ser múltiplos de 7. Veamos algunos ejemplos. Si n=6, n+1=7, sumas de dígitos son 6 y 7 (el segundo es múltiplo de 7). Pero el primer número tiene solo una cifra. Si n = 69, n+1 = 70. Sumas de cifras son 6+9=15 y 7+0 = 7 (el segundo es múltiplo de 7, pero el primero no). Si n=59, n+1=60. Sumas de cifras son 14 y 6. Si n = 68, n+1=69, sumas de cifras son 14 y 15. Si n=16, n+1=17, sumas de cifras son 7 y 8. Aquí el primer número tiene dos cifras. El número menor sería 16, que tiene dos cifras. Para que el número menor tenga más cifras se necesita cambiar varios dígitos, por ejemplo: 69 y 70.
+
+Consideremos un caso más extremo. Si la suma de cifras de 'n' es 699999, que es un múltiplo de 7, el número n es 699999 y n+1 es 700000.  Las sumas son 54 y 7.
+En el caso de 699999 y 700000, el número menor (699999) tiene 6 cifras. La pregunta pide el menor número de cifras.  Si las sumas de las cifras de dos números consecutivos son múltiplos de 7, al menos uno de los dos números tiene que tener una suma de dígitos igual a 7 o un múltiplo de 7. Esto sucede cuando se produce un "carry" en la suma.  El número de dígitos del primer número, al menos, tiene que ser 6.
+
+Respuesta: D)

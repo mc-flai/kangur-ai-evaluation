@@ -1,0 +1,13 @@
+Raisonnement :
+1. Pour que N soit le plus petit entier positif dont la somme des chiffres est 2021, on doit avoir le plus grand nombre de chiffres possible, et donc le plus petit nombre de chiffres "9".
+2. 2021 / 9 = 224 avec un reste de 5.
+3. Donc, N sera constitué de 224 chiffres "9" et d'un chiffre "5". Le plus petit nombre N sera alors 5 suivi de 224 fois le chiffre 9.
+4. N + 2021 = 599...99 (224 chiffres 9) + 2021.
+5. Effectuons l'addition:
+  * 599...99 + 2021 = 600...00 + 2021 - 1
+  * 5 + 2021 = 2026. Il y aura une retenue à chaque fois car il y a 224 chiffres 9. On peut aussi écrire N = 5 * 10^224 + (10^224 - 1).
+  * Donc N + 2021 = 5 * 10^224 + (10^224 - 1) + 2021 = 5 * 10^224 + 10^224 + 2020 = 6 * 10^224 + 2020. Ce qui peut aussi s'écrire 600...002020 (220 zéros)
+  * Additionnons, il y aura 220 chiffres 0. N+2021 = 6000...002020.
+  *  La somme des chiffres de N+2021 est donc 6 + 2 + 0 + 2 + 0 = 10.
+
+Réponse : A)

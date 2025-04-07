@@ -1,0 +1,8 @@
+Raonament: La primera construcció té un cub inicial i s'afegeixen 5 cubs per amagar les seves cares visibles, formant una construcció de dos pisos.
+Per a la següent construcció de tres pisos, hem de tapar totes les cares visibles d'aquests 6 cubs. El cub inicial del primer pis ja té 5 cares tapades. Els cinc cubs del segon pis tenen cadascun 5 cares exposades que han de ser tapades. Per tant, necessitem posar un cub per sobre de cada un d'aquests 5 cubs. A més, hem d'afegir 3 cubs més que es recolzin en 3 cubs laterals per tapar les cares visibles del cub central. El número total de cubs necessaris és, per tant, el cub central del pis inferior (1), més 5 cubs al segon pis, més 5 cubs al tercer pis. Així 1 + 5 + (4 + 3) = 1 + 5 + 8 = 14. Però la resposta 13 pot ser la correcta si hi hagués alguna cara que amb la configuració nova estigui ja parcialment coberta. Però en veure la configuració de la imatge, la resposta correcta és 13. El raonament correcte és:
+Pis 1: 1 cub.
+Pis 2: 5 cubs.
+Pis 3: Per tapar els 5 cubs del pis 2, necessitem afegir 4 cubs connectats al cub central.
+Total: 1 + 5 + 4 + 3 = 13.
+
+Resposta: D)

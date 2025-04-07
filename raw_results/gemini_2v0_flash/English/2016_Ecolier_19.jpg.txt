@@ -1,0 +1,21 @@
+Reasoning:
+Let $x$ be the number of trees with 6 pears and 3 apples, and $y$ be the number of trees with 8 pears and 4 apples.
+We know that the total number of apples is 25, so we have the equation:
+$3x + 4y = 25$
+
+We are looking for integer solutions for $x$ and $y$.
+If $x = 1$, $3(1) + 4y = 25$, $4y = 22$, $y = 5.5$ (not an integer)
+If $x = 2$, $3(2) + 4y = 25$, $6 + 4y = 25$, $4y = 19$, $y = 4.75$ (not an integer)
+If $x = 3$, $3(3) + 4y = 25$, $9 + 4y = 25$, $4y = 16$, $y = 4$ (integer solution)
+If $x = 4$, $3(4) + 4y = 25$, $12 + 4y = 25$, $4y = 13$, $y = 3.25$ (not an integer)
+If $x = 5$, $3(5) + 4y = 25$, $15 + 4y = 25$, $4y = 10$, $y = 2.5$ (not an integer)
+If $x = 6$, $3(6) + 4y = 25$, $18 + 4y = 25$, $4y = 7$, $y = 1.75$ (not an integer)
+If $x = 7$, $3(7) + 4y = 25$, $21 + 4y = 25$, $4y = 4$, $y = 1$ (integer solution)
+If $x = 8$, $3(8) + 4y = 25$, $24 + 4y = 25$, $4y = 1$, $y = 0.25$ (not an integer)
+
+If $x=3$ and $y=4$, the number of pears is $6x + 8y = 6(3) + 8(4) = 18 + 32 = 50$
+If $x=7$ and $y=1$, the number of pears is $6x + 8y = 6(7) + 8(1) = 42 + 8 = 50$
+
+So the total number of pears is 50.
+
+Answer: D)

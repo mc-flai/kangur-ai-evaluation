@@ -1,0 +1,32 @@
+The problem involves comparing the perimeter of pentagon \(ABCDE\) with the perimeter of triangle \(ABC\). The key points to consider are:
+
+1. Triangle \(ABC\) is equilateral, which means all sides are equal.
+2. Triangles \(AEF\), \(DFE\), and \(CDF\) are congruent isosceles triangles.
+
+Let's denote the side length of the equilateral triangle \(ABC\) as \(s\).
+
+Since \(AEF\), \(DFE\), and \(CDF\) are congruent isosceles triangles, each triangle has two equal sides.
+
+### Reasoning:
+1. The perimeter of triangle \(ABC\) is \(3s\).
+2. The isosceles triangles \(AEF\), \(DFE\), and \(CDF\) each have two equal sides, which can be denoted as \(x\).
+3. Since these triangles are congruent, they share the same side lengths.
+4. Therefore, the perimeter of pentagon \(ABCDE\) can be calculated by noting that it is split into four triangles that all share sides with each other.
+5. The sides contributing to the perimeter of pentagon \(ABCDE\) are \(AB\), \(BC\), \(CD\), \(DE\), and \(EA\).
+
+Given that \(AB = BC = s\) and the other sides are part of the congruent isosceles triangles, we can infer:
+- \(CD = DE = EA = x\).
+
+Thus, the perimeter of pentagon \(ABCDE\) is \(2s + 3x\).
+
+The ratio of the perimeter of pentagon \(ABCDE\) to the perimeter of triangle \(ABC\) is:
+\[ \frac{2s + 3x}{3s} \]
+
+Given that the triangles are congruent and isosceles, the side \(x\) is equal to the side \(s\), as they share the same dimensions within the pentagon.
+
+Thus, the ratio simplifies to:
+\[ \frac{2s + 3s}{3s} = \frac{5s}{3s} = \frac{5}{3} \]
+
+Therefore, the correct answer is:
+
+Answer: E)

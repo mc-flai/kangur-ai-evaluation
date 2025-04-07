@@ -1,0 +1,49 @@
+Raonament:
+El problema ens diu que tenim un nombre de 6 xifres format per 1s i 2s, i nou kilòmetres més tard tenim un altre nombre amb la mateixa característica. L'odòmetre registra la distància recorreguda. Ens demana quants nombres de 6 xifres formats per 1s i 2s poden aparèixer després de recorrer 9 km. La suma dels dígits del primer nombre més 9 ha de donar el segon nombre, tots dos amb dígits 1 o 2.
+
+Analitzem les possibles distàncies que es poden registrar després dels 9 km:
+
+*   Si el primer nombre és 111111, després de sumar 9 tenim 111120, que no compleix la condició.
+*   Si el primer nombre és 111112, després de sumar 9 tenim 111121, que compleix la condició.
+*   Si el primer nombre és 111121, després de sumar 9 tenim 111130, que no compleix la condició.
+*   Si el primer nombre és 111122, després de sumar 9 tenim 111131, que no compleix la condició.
+
+Per tant, per obtenir un nou nombre format per 1s i 2s després de sumar 9, la suma dels dígits ha de ser tal que, al sumar-hi 9, el resultat també estigui format per 1s i 2s.
+La distància recorreguda és 9.
+El nombre de 6 xifres més petit format per 1 i 2 és 111111.
+Després de 9 km, podem tenir:
+111111+9 = 111120 (incorrecte)
+111112+9 = 111121 (correcte)
+111121+9 = 111130 (incorrecte)
+111122+9 = 111131 (incorrecte)
+111211+9 = 111220 (incorrecte)
+111212+9 = 111221 (incorrecte)
+111221+9 = 111230 (incorrecte)
+111222+9 = 111231 (incorrecte)
+112111+9 = 112120 (incorrecte)
+112112+9 = 112121 (incorrecte)
+112121+9 = 112130 (incorrecte)
+...
+
+La suma entre els dígits del primer nombre i 9 ha de resultar en un nombre format per 1s i 2s.
+Si el primer nombre es compon només d'1s, la suma seria > 1.
+Si el nombre es compon només de 2s, la suma seria 12+9=21 que està format per 2s i 1.
+Els nombres que poden aparèixer serien aquells en que els dígits sumen 12.
+Els nombres que es troben entre el primer i el segon nombre, que sumen 9, són:
+111111 + 9 = 111120 (no)
+111112 + 9 = 111121 (sí)
+111121 + 9 = 111130 (no)
+111122 + 9 = 111131 (no)
+111211 + 9 = 111220 (no)
+111212 + 9 = 111221 (no)
+111221 + 9 = 111230 (no)
+...
+El problema ens indica que es recorren 9 km, els quals es poden obtenir a través de diferents combinacions de dígits 1 i 2.
+La solució es troba en el nombre de combinacions de dígits 1 i 2 que al sumar 9 donen com a resultat una nova combinació de dígits 1 i 2.
+Analitzant les opcions, tenim un nombre de 6 xifres. Després dels 9 km, podem tenir:
+111112 + 9 = 111121
+La única combinació possible és que l'odòmetre només pugui mostrar nombres formats per 1 i 2.
+La suma dels dígits pot variar.
+Es poden formar 4 nombres.
+
+Resposta: C)

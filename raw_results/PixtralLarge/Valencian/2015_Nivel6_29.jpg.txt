@@ -1,0 +1,20 @@
+Per resoldre aquest problema, és necessari determinar quantes persones formen part de l'equip C. Es tracta d'un problema de lògica en el qual es coneix la quantitat de membres d'alguns equips, i aquesta informació s'ha d'utilitzar per determinar la quantitat de membres de l'equip desconegut.
+
+**Raonament**:
+1. Sabem que hi ha 15 persones en total.
+2. Es coneix que els equips A i B junts tenen 7 persones.
+3. També es coneix que els equips A i D junts tenen 9 persones.
+4. Llavors, la quantitat de membres de l'equip D es pot determinar restando la quantitat de membres de l'equip A a la suma d'A i D:
+   - \(D = 9 - A\)
+5. Les persones restants han de pertànyer a l'equip C. Per tant, la quantitat de membres de l'equip C és:
+   - \(C = 15 - A - B - D\)
+6. Sabem que \(A + B = 7\) i \(A + D = 9\), per tant:
+   - \(D = 9 - A\)
+   - Llavors, \(C = 15 - 7 - (9 - A) = 15 - 7 - 9 + A = -1 + A\)
+7. Considerant que \(A + B = 7\) i \(A + D = 9\), si \(A = 3\) (suposició per verificar):
+   - \(B = 7 - A = 7 - 3 = 4\)
+   - \(D = 9 - A = 9 - 3 = 6\)
+   - \(C = 15 - 3 - 4 - 6 = 2\)
+8. Verifica les altres combinacions possibles per confirmar que només una combinació satisfà les condicions.
+
+**Resposta**: C) 4

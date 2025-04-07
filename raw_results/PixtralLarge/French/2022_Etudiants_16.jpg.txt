@@ -1,0 +1,15 @@
+Pour déterminer le nombre minimum de centrales à construire pour desservir toutes les villes, il faut comprendre que chaque centrale doit être reliée directement à toutes les villes voisines par une seule route. Cela signifie que chaque ville doit être au centre d'une étoile de connexion.
+
+Examinons la carte :
+- Elle montre une région avec 16 villes.
+- Chaque centrale doit être connectée à toutes les villes voisines directement.
+
+Pour couvrir toutes les villes avec le nombre minimal de centrales, il faut placer des centrales de manière à ce que chaque ville soit connectée à au moins une centrale. Vu la manière dont les villes sont disposées, nous devons placer une centrale dans 4 villes stratégiquement positionnées pour couvrir toutes les villes.
+
+En analysant la carte, nous remarquons que chaque centrale couvrira 4 villes (elle-même et les trois voisines). Avec 16 villes, nous devons déterminer combien de centrales sont nécessaires pour couvrir toute la région.
+
+Calculons :
+- Si une centrale couvre 4 villes, alors pour couvrir 16 villes, nous aurons besoin de \( \frac{16}{4} = 4 \) centrales.
+
+Raisonnement : Chaque centrale couvre 4 villes, donc pour couvrir toutes les 16 villes, 4 centrales sont nécessaires.
+Réponse : B) 4.

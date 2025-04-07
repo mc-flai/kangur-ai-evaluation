@@ -1,0 +1,23 @@
+1. **Descomponem el cub més gran**:
+   El cub mes gran té una mida de \(3 \times 3 \times 3\), que conté 27 cubs més petits.
+
+2. **Determinem els cubs negres i blancs**:
+   - La meitat de la superfície d'aquest cub ha de ser negra, i l'altra meitat blanca.
+   - La superfície total del cub és de 6 cares, i cada cara té 9 cubs petits (3x3).
+   - Per tant, la superfície total és \(6 \times 9 = 54\) cubs petits.
+   - Com la meitat de la superfície ha de ser negra, necessitem que hi hagi \( \frac{54}{2} = 27 \) cubs petits negres en la superfície.
+
+3. **Determinem els cubs interiors**:
+   - Els cubs interiors no contribueixen a la superfície, i es troben en una capa de 1x1x1 a l'interior del cub més gran.
+   - Això significa que tenim un cub interior de \(1 \times 1 \times 1\), que conté 1 cub petit.
+   - Per tant, del total de 27 cubs petits, 1 no està en la superfície.
+
+4. **Calculem els cubs negres necessaris**:
+   - Per tant, del total de 27 cubs petits, 26 estan en la superfície.
+   - Ja que la meitat de la superfície ha de ser negra, necessitem \( \frac{26}{2} = 13 \) cubs petits negres.
+
+5. **Conclusió**:
+   - El nombre més menut de cubs negres que ha d'utilitzar per a aconseguir-ho és 13.
+
+Raonament: Hem determinat el nombre més menut de cubs negres necessaris per a complir amb les condicions donades en el problema, que és 13.
+Resposta: B)

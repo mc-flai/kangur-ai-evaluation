@@ -1,0 +1,34 @@
+Per determinar quantes ordenacions diferents pot fer Josep amb les seves quatre medalles, hem de considerar el problema de distribució de les medalles en una vitrina de quatre posicions, amb la restricció que sempre ha de haver dues medalles d'or.
+
+**Raonament:**
+
+1. **Identificar les medalles**:
+   - Dues medalles d'or (O1, O2)
+   - Una medalla de plata (P)
+   - Una medalla de bronze (B)
+
+2. **Determinar els llocs fixos per les medalles d'or**:
+   - Hem de col·locar dues medalles d'or en quatre posicions possibles. El nombre de formes de seleccionar dues posicions de quatre per les medalles d'or és donat per la combinació:
+     \[
+     \binom{4}{2} = \frac{4!}{2!(4-2)!} = \frac{4 \times 3}{2 \times 1} = 6
+     \]
+
+3. **Ordenar les dues medalles d'or en les dues posicions seleccionades**:
+   - Les dues medalles d'or poden ser ordenades entre elles de 2! (2 factorial) formes:
+     \[
+     2! = 2
+     \]
+
+4. **Ara hem de col·locar la medalla de plata i la de bronze en les dues posicions restants**:
+   - Això és simplement una permutació de 2 elements, que és:
+     \[
+     2! = 2
+     \]
+
+5. **Calcular el nombre total d'ordenacions diferents**:
+   - Multiplicant totes les combinacions i permutacions trobades:
+     \[
+     6 \text{ (combinacions de dues posicions per les medalles d'or)} \times 2 \text{ (permutacions de les dues medalles d'or)} \times 2 \text{ (permutacions de les dues medalles restants)} = 6 \times 2 \times 2 = 24
+     \]
+
+**Resposta: D)**

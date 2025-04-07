@@ -1,0 +1,22 @@
+**Raonament:**
+
+Per trobar el perímetre del rectangle més petit, primer hem de sumar les longituds dels costats més petits dels tres rectangles més petits donats. Els perímetres donats són 16, 18 i 24.
+
+- El perímetre d'un rectangle es calcula de la manera següent: Perímetre = 2 * (Longitud + Amplada)
+- Dividint els perímetres entre 2, obtenim les sumes dels costats:
+  - Perímetre 16 -> Suma dels costats = 16 / 2 = 8
+  - Perímetre 18 -> Suma dels costats = 18 / 2 = 9
+  - Perímetre 24 -> Suma dels costats = 24 / 2 = 12
+
+Ara hem de sumar els costats més petits d'aquests rectangles, que són:
+- Del rectangle amb perímetre 16: 8 - 6 = 2 (el costat més petit és 2)
+- Del rectangle amb perímetre 18: 9 - 7 = 2 (el costat més petit és 2)
+- Del rectangle amb perímetre 24: 12 - 10 = 2 (el costat més petit és 2)
+
+Sumant els costats més petits:
+- 2 + 2 + 2 = 6
+
+Finalment, per trobar el perímetre del rectangle més petit, multiplicam la suma dels costats més petits per 2:
+- Perímetre = 2 * 6 = 12
+
+**Resposta:** C) 12

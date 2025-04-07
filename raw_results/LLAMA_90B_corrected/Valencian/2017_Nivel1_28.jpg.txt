@@ -1,0 +1,28 @@
+Raonament:
+En aquest problema, hem d'ordenar del 1 al 8 al voltant de la gralla de manera que la suma dels tres números que es troben en cada costat del quadrat sigui tots iguals. Dins el context d'aquest problema, donarem per suposat que els costats de la gralla no es poden girar i per tant estem de posar els números en un cert ordre amb rotaides.
+
+Per al problema plantejat en la pregunta, podem proporcionar una solució del tipus:
+
+    5, 2, 8, 4,
+    1, 3, 6, 7
+
+ cardiovascular Results Dev
+
+**Dades dels resultats:**
+
+    Esquerra superior: 5 + 2 + 8 = 15
+    Dreta superior: 8 + 4 + 3 = 15
+    Esquerra inferior: 1 + 6 + 8 = 15
+    Dreta inferior: 6 + 7 + 4 = 17
+    Fil superior: 5 + 2 + 6 = 13 [*suma circular en comptes de quadrada, ja que és contínua]
+    Fil inferior: 1 + 4 + 7 = 12
+    Fil dreta: 6 + 2 + 1 = 9
+    Fil esquerra: 5 + 4 + 6 = 15
+    Diagonal esquerra superior - dreta inferior: 5 + 2 + 1 = 8
+    Diagonal dreta superior - esquerra inferior: 8 + 2 + 1 = 11
+    Diagonal vertical dreta superior - vertical dreta inferior: 5 + TBD + 6 = faltat valor
+    Diagonal vertical rsuperior - vertical esquerre inferior: 4 + TBD + 7 = faltat valor
+
+Per tal de trobar respostes circulars, no interessa conèixer en les quadrades. Fins ara hem trobar solucions per als 4 elements que se'ns demanaven, de se podem extreure les dues següents conclusions: Sense importar en les diagonals que es presenter una, el resultat és repetit mateixin mateixes les diagonals fins fic d
+
+Resposta: No Answer

@@ -1,0 +1,11 @@
+Pour répondre à la question 20, nous devons déterminer sur quelle case le pion va atterrir après avoir basculé d'une case triangulaire à l'autre.
+
+**Raisonnement :**
+
+1. Le pion est en forme de tétraèdre régulier avec une face verte et les autres blanches. La face verte est posée sur la case X.
+2. Le pion bascule vers une case triangulaire à l'autre en tournant autour d'une de ses arêtes.
+3. Pour déterminer la nouvelle position de la face verte, nous devons identifier quelle arête est utilisée pour le basculement.
+4. En observant la disposition des cases, le pion bascule de la case X vers la case D. Cela signifie que l'arête utilisée pour le basculement est entre les cases X et D.
+5. En tournant autour de cette arête, la face verte, qui était initialement sur la case X, se déplacera vers la case D.
+
+**Réponse :** D).

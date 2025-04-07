@@ -1,0 +1,44 @@
+Per resoldre el número que falta a la carta, hem de trobar el nombre que falta a la taula de manera que cadascuna de les afirmacions de les persones sigui veritable.
+
+1. **Alexia diu**: els meus nombres sumen 6.
+2. **Bru diu**: la diferència entre els meus nombres és 5.
+3. **Clara diu**: el producte dels meus nombres és 18.
+4. **Diana diu**: un dels meus nombres és el doble de l'altre.
+
+**Raonament**:
+
+Primero, analicemos cada afirmación:
+
+1. **Alexia**:
+   - Los números que suman 6 y no están en la lista son: (1, 5), (2, 4).
+
+2. **Bru**:
+   - Los números cuya diferencia es 5 y no están en la lista son: (1, 6), (2, 7), (3, 8), (4, 9).
+
+3. **Clara**:
+   - Los números cuyo producto es 18 y no están en la lista son: (2, 9), (3, 6).
+
+4. **Diana**:
+   - Los números donde uno es el doble del otro y no están en la lista son: (2, 4), (3, 6).
+
+Ahora, verificamos las parejas posibles:
+
+1. **Alexia**: (1, 5) o (2, 4).
+2. **Bru**: (1, 6), (2, 7), (3, 8), (4, 9).
+3. **Clara**: (2, 9), (3, 6).
+4. **Diana**: (2, 4), (3, 6).
+
+Las combinaciones posibles son:
+- Diana y Clara pueden ser (2, 4) y (3, 6) respectivamente.
+- Alexia puede ser (1, 5).
+- Bru puede ser (4, 9).
+
+Verificamos que estos números no repiten y cumplen con las afirmaciones:
+- (1, 5) suman 6 (Alexia).
+- La diferencia entre 4 y 9 es 5 (Bru).
+- El producto de 3 y 6 es 18 (Clara).
+- Uno de los números de Diana (2) es el doble del otro (4).
+
+El número que falta en la tabla es el 6.
+
+**Resposta**: C) 6.

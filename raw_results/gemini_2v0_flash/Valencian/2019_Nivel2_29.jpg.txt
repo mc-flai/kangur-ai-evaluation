@@ -1,0 +1,11 @@
+Raonament: Primer, identifiquem les peces disponibles. Tenim dues peces de 3 quadrats (verticals), dues peces de 2 quadrats (horitzontals) i una peça d'1 quadrat. L'objectiu és recobrir la figura amb aquestes 5 peces. Hem de fixar-nos en on podem col·locar les peces de 3 quadrats.
+
+1.  **Peces de 3 en la columna llarga**: Només hi ha una manera de col·locar una peça de 3. La segona peça de 3 podria col·locar-se al costat o a la columna de dalt.
+2.  **Considerem els dos casos**:
+    *   Si col·loquem la segona peça al costat de la primera: Només queda espai per dues peces de 2 i una d'1, que encaixen perfectament.
+    *   Si col·loquem la segona peça a sobre de la primera: Queden dos espais per les peces de 2 i l'1, que encaixen de nou perfectament.
+3.  **Rotacions i simetries**: No ens hem de preocupar per les rotacions de les peces de 2 ja que son iguals.
+
+Per tant hi ha 2 maneres de cobrir la figura amb les cinc peces.
+
+Resposta: A)

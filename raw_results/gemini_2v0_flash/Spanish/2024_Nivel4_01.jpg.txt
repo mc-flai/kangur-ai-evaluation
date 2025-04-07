@@ -1,0 +1,18 @@
+Razonamiento:
+Sea A el número de juguetes que Ana trajo, B el número de juguetes que Blanca trajo, y C el número de juguetes que Carmen trajo.
+Tenemos las siguientes relaciones:
+A = B + 5
+A = C + 9
+También sabemos que A, B, y C son al menos 1. Queremos minimizar A + B + C.
+Dado que A = B + 5 y A = C + 9, podemos expresar B y C en términos de A:
+B = A - 5
+C = A - 9
+Dado que cada niña trajo al menos un juguete, tenemos:
+A >= 1
+B >= 1  =>  A - 5 >= 1  =>  A >= 6
+C >= 1  =>  A - 9 >= 1  =>  A >= 10
+Por lo tanto, el valor mínimo de A es 10.
+Si A = 10, entonces B = A - 5 = 10 - 5 = 5, y C = A - 9 = 10 - 9 = 1.
+La suma total de juguetes es A + B + C = 10 + 5 + 1 = 16.
+
+Respuesta: E)

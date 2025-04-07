@@ -1,0 +1,12 @@
+Razonamiento:
+Viky escribió cinco números enteros positivos distintos de un solo dígito, de modo que ninguno de estos números suma 10. Los números de un solo dígito son 1, 2, 3, 4, 5, 6, 7, 8, 9. Si Viky escribe 5, entonces no puede escribir 5. Si escribe 1, no puede escribir 9. Si escribe 2, no puede escribir 8. Si escribe 3, no puede escribir 7. Si escribe 4, no puede escribir 6. Así, los pares de números son (1,9), (2,8), (3,7), (4,6) y (5). Observe que los números escritos son de un solo dígito, por lo que 0 está descartado.
+
+Si Viky no escribe 5, entonces debe escribir 1, 2, 3, 4, 6, 7, 8, 9. Pero, debe escribir 5 números, eliminando entonces los complementos a 10. Veamos los casos:
+a) Si escribe 1, debe quitar el 9.
+b) Si escribe 2, debe quitar el 8.
+c) Si escribe 3, debe quitar el 7.
+d) Si escribe 4, debe quitar el 6.
+
+Así, el único que es seguro que escribió Viky es el número 5, pues debe eliminar uno de cada par que sume 10. Entonces debe escribir 5.
+
+Respuesta: E)

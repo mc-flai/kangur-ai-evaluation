@@ -1,0 +1,26 @@
+**Raonament**:
+
+Es donen tres nombres \(a\), \(b\) i \(c\) de tres xifres entre 100 i 999, tots ells inclosos, tals que satisfan \(b = 2a + 1\) i \(c = 2b + 1\). A més, les tres xifres són iguals.
+
+1. **Identificació de \(a\)**:
+   Com que \(a\) és un nombre de tres xifres i les tres xifres són iguals, els possibles valors de \(a\) són 111, 222, 333, 444, 555, 666, 777, 888 o 999.
+
+2. **Càlcul de \(b\)**:
+   Donat \(b = 2a + 1\), calcularem \(b\) per a cada possible valor de \(a\):
+
+   - Si \(a = 111\), llavors \(b = 2 \times 111 + 1 = 223\) (no vàlid, no totes les xifres són iguals)
+   - Si \(a = 222\), llavors \(b = 2 \times 222 + 1 = 445\) (no vàlid, no totes les xifres són iguals)
+   - Si \(a = 333\), llavors \(b = 2 \times 333 + 1 = 667\) (no vàlid, no totes les xifres són iguals)
+   - Si \(a = 444\), llavors \(b = 2 \times 444 + 1 = 889\) (no vàlid, no totes les xifres són iguals)
+   - Si \(a = 555\), llavors \(b = 2 \times 555 + 1 = 1111\) (no vàlid, no és un nombre de tres xifres)
+   - Si \(a = 666\), llavors \(b = 2 \times 666 + 1 = 1333\) (no vàlid, no és un nombre de tres xifres)
+   - Si \(a = 777\), llavors \(b = 2 \times 777 + 1 = 1555\) (no vàlid, no és un nombre de tres xifres)
+   - Si \(a = 888\), llavors \(b = 2 \times 888 + 1 = 1777\) (no vàlid, no és un nombre de tres xifres)
+   - Si \(a = 999\), llavors \(b = 2 \times 999 + 1 = 1999\) (no vàlid, no és un nombre de tres xifres)
+
+3. **Càlcul de \(c\)**:
+   Com que no existeix cap valor de \(a\) que permeti que les tres xifres de \(b\) siguin iguals, no és possible complir les condicions donades.
+
+**Conclusió**: No hi ha cap valor de \(a\) que satisfaci les condicions donades.
+
+**Resposta**: E) Més de tres

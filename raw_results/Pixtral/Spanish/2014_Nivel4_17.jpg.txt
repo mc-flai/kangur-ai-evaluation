@@ -1,0 +1,45 @@
+Para resolver este problema, debemos identificar cuántos pares de números positivos enteros menores que 100 tienen la propiedad de que su suma es un múltiplo de 7 y el doble de su diferencia es 36.
+
+1. **Identificar la propiedad de la suma y la diferencia**:
+   - La suma de los números debe ser un múltiplo de 7.
+   - El doble de la diferencia de los números debe ser 36, es decir, la diferencia debe ser 18.
+
+2. **Establecer la ecuación**:
+   - Sea \( x \) el número menor y \( y \) el número mayor.
+   - La suma \( x + y \) debe ser un múltiplo de 7.
+   - La diferencia \( y - x \) debe ser 18.
+
+3. **Escribir las ecuaciones**:
+   - \( x + y = 7k \) para algún entero \( k \).
+   - \( y - x = 18 \).
+
+4. **Resolver el sistema de ecuaciones**:
+   - Sumando las ecuaciones, obtenemos:
+     \[
+     2y = 7k + 18
+     \]
+     \[
+     y = \frac{7k + 18}{2}
+     \]
+   - Restando las ecuaciones, obtenemos:
+     \[
+     2x = 7k - 18
+     \]
+     \[
+     x = \frac{7k - 18}{2}
+     \]
+
+5. **Determinar los valores de \( k \)**:
+   - \( x \) y \( y \) deben ser números enteros, por lo que \( 7k + 18 \) y \( 7k - 18 \) deben ser pares.
+   - \( 7k + 18 \) es siempre impar, por lo que \( 7k - 18 \) debe ser par.
+   - \( 7k \) debe ser par, por lo que \( k \) debe ser par.
+
+6. **Enumerar los valores de \( k \)**:
+   - \( k \) puede ser 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100.
+
+7. **Contar los valores de \( k \)**:
+   - Hay 50 valores posibles para \( k \).
+
+Razonamiento: Hemos determinado que hay 50 pares de números que cumplen con las condiciones dadas.
+
+Respuesta: C)

@@ -1,0 +1,24 @@
+Raonament:
+The question describes a process of reordering cards. Analyzing the first few steps shows a pattern:
+*   Step 0: A B C D E (C is in the center)
+*   Step 1: B C A D E (A is in the center)
+*   Step 2: B C E A D (E is in the center)
+*   Step 3: C E B A D (B is in the center)
+*   Step 4: C B A E D (A is in the center)
+*   Step 5: B A D C E (D is in the center)
+*   Step 6: B D C A E (C is in the center)
+*   Step 7: D C E B A (E is in the center)
+*   Step 8: D E A C B (A is in the center)
+*   Step 9: E A B D C (B is in the center)
+*   Step 10: A B C E D (C is in the center)
+*   Step 11: A C D B E (D is in the center)
+*   Step 12: C D E A B (E is in the center)
+*   Step 13: C E B D A (B is in the center)
+*   Step 14: E B A C D (A is in the center)
+
+Notice that after steps 0-3, at the centre we find the pattern C A E B A D C E A B C D E B A
+This pattern repeats every 14 steps, after which we can find each card.
+Since the process continues, we can look for a pattern to find the card in the center at step 2020.
+We can divide 2020 by 14 (the pattern's length) to see where it falls in the repeating pattern. 2020 / 14 = 144 remainder 4. This tells us that at step 2020, the central card will be the same card as in step 4 (B), in the pattern: C, A, E, B, A, D, C, E, A, B, C, D, E, B, A, ....
+
+Resposta: B)

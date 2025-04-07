@@ -1,0 +1,24 @@
+Raisonnement :
+1. Carl a écrit un nombre à cinq chiffres.
+2. Il a placé une forme sur chaque chiffre du nombre.
+3. Chaque chiffre a une forme différente, et les mêmes formes sont placées sur les mêmes chiffres.
+4. Pour déterminer le nombre, nous devons identifier quelles formes correspondent à quels chiffres.
+
+En supposant que les formes sont les suivantes :
+- Cœur pour 3
+- Pique pour 4
+- Trèfle pour 2
+- Carreau pour 6
+- As de Pique pour 2
+
+Nous pouvons maintenant associer chaque forme à son chiffre correspondant :
+- 34426 : 3 (Cœur), 4 (Pique), 4 (Pique), 2 (Trèfle), 6 (Carreau)
+
+En vérifiant les options :
+- (A) 34426 : Correspond aux formes données.
+- (B) 34526 : Le chiffre 5 n'a pas de forme associée.
+- (C) 34423 : Le chiffre 3 est incorrectement placé.
+- (D) 34424 : Le chiffre 4 est correctement placé.
+- (E) 32446 : Le chiffre 2 est incorrectement placé.
+
+Réponse : A

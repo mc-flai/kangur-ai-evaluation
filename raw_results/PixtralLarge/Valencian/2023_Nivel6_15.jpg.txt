@@ -1,0 +1,25 @@
+Per resoldre la pregunta, necessitem trobar la suma dels nombres reals que satisfan la propietat que \(|x-2019| + |x-2020| = 3\).
+
+### Raonament:
+
+1. Considerem els punts 2019 i 2020 en la línia dels nombres reals.
+2. La propietat \(|x-2019| + |x-2020| = 3\) descriu la suma de les distàncies d'un punt \(x\) als punts 2019 i 2020.
+3. Aquesta suma de distàncies és constant i igual a 3.
+4. Els punts que satisfan aquesta propietat estan situats a una distància total de 3 des dels punts 2019 i 2020.
+5. Calcula els punts possibles:
+   - Si \(x\) està entre 2019 i 2020, la suma de les distàncies és simplement la distància entre 2019 i 2020, que és 1. Això no és possible ja que la suma ha de ser 3.
+   - Si \(x\) està a l'esquerra de 2019, la suma de les distàncies serà \(2019 - x + 2020 - x = 3\). Resolent aquesta equació:
+     \(2019 - x + 2020 - x = 3\)
+     \(4039 - 2x = 3\)
+     \(4036 = 2x\)
+     \(x = 2018\)
+   - Si \(x\) està a la dreta de 2020, la suma de les distàncies serà \(x - 2019 + x - 2020 = 3\). Resolent aquesta equació:
+     \(x - 2019 + x - 2020 = 3\)
+     \(2x - 4039 = 3\)
+     \(2x = 4042\)
+     \(x = 2021\)
+6. Per tant, els punts que satisfan la propietat són 2018 i 2021.
+7. La suma d'aquests nombres és \(2018 + 2021 = 4039\).
+
+### Resposta:
+E) 4039

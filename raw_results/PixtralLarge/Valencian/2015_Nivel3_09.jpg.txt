@@ -1,0 +1,27 @@
+Raonament: Per determinar quin és el capità que tots estan d'acord a triar, hem d'analitzar les declaracions de cada jugador i veure si hi ha alguna opció que compleixi totes les condicions. Les declaracions són les següents:
+
+- A diu: «Ni C ni E».
+- B diu: «Ni C ni D».
+- C diu: «Millor A que B, que D i que E».
+- D diu: «A o C».
+- E diu: «Millor C que B i millor A que D».
+
+Primer, analitzem les opcions de cada declaració:
+
+- A elimina C i E.
+- B elimina C i D.
+- C dona preferència a A sobre B, D i E.
+- D dona preferència a A o C.
+- E dona preferència a C sobre B i A sobre D.
+
+Ara, veiem si hi ha alguna opció que no sigui eliminada per cap jugador:
+
+- A: No és eliminat per B, C, D ni E.
+- B: És eliminat per C (prefereix A, D o E abans que B) i E (prefereix C abans que B).
+- C: És eliminat per A i B.
+- D: És eliminat per B.
+- E: És eliminat per A.
+
+Per tant, l'única opció que no és eliminada per cap jugador és A.
+
+Resposta: A) A

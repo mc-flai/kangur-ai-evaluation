@@ -1,0 +1,41 @@
+**Reasoning**:
+1. Let's denote the weights of the boxes as follows:
+   - Box 1: 7 kg
+   - Box 2: 5 kg
+   - Box 3: 6 kg
+   - Box 4: 2 kg
+   - Box 5: 16 kg
+
+2. The total weight of all the bananas is 3 times the total weight of all the apples.
+
+3. Let the total weight of all apples be \( A \). Then the total weight of all bananas is \( 3A \).
+
+4. The total weight of all boxes is:
+   \[
+   7 + 5 + 6 + 2 + 16 = 36 \text{ kg}
+   \]
+
+5. Since the total weight of bananas plus the total weight of apples equals 36 kg:
+   \[
+   A + 3A = 36 \text{ kg}
+   \]
+   \[
+   4A = 36 \text{ kg}
+   \]
+   \[
+   A = 9 \text{ kg}
+   \]
+
+6. Therefore, the total weight of apples is 9 kg, and the total weight of bananas is 27 kg.
+
+7. Now, we need to determine which boxes contain apples such that the sum of their weights is 9 kg.
+
+8. Checking combinations:
+   - \( 7 + 2 = 9 \) (boxes 1 and 4)
+   - \( 5 + 2 + 2 \) is not possible (weight 2 only appears once)
+   - \( 6 + 3 \) is not possible (weight 3 does not appear)
+   - \( 16 + (-7) \) is not possible (weight must be positive)
+
+9. Therefore, boxes 1 (7 kg) and 4 (2 kg) contain apples.
+
+**Answer**: E) 1 and 4.

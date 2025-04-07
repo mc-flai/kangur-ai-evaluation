@@ -1,0 +1,11 @@
+Raonament:
+Primer, observem que A és un nombre format per 2017 dígits 9. Podemos expresar A como 10^2017 - 1.
+A^2 = (10^2017 - 1)^2 = 10^4034 - 2 * 10^2017 + 1 = 10^2017(10^2017 - 2) + 1.
+La expresión 10^2017 - 2 producirá un número con 2016 nueves, luego un 8 y finalmente el cero.
+Así, 10^2017 - 2 = 999...99800...00 (2016 nueves + 1 ocho + 2017 ceros).
+Cuando multiplicamos este valor por 10^2017, obtenemos 999...99800...00 (2016 nueves + 1 ocho + 2017 ceros).
+Sumándole 1 al resultado anterior, obtenemos 999...99800...01 (2016 nueves + 1 ocho + 2016 ceros + 1 uno).
+Ahora, vamos a calcular la suma de las cifras de A^2.
+Suma = 2016 * 9 + 8 + 0 + 1 = 18144 + 9 = 18153.
+
+Resposta: D)

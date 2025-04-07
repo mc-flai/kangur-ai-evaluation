@@ -1,0 +1,21 @@
+Raonament:
+1. **Informació donada:**
+    *   Hi ha 4 equips (A, B, C, D).
+    *   Total de 15 persones.
+    *   Cada equip té almenys 2 persones.
+    *   Cada equip té un nombre diferent de participants.
+    *   A + B = 7
+    *   A + D = 9
+
+2.  **Deduccions i càlculs:**
+    *   Si A + B = 7 i A + D = 9, aleshores B i D no poden ser iguals (ja que A tindria un valor diferent en cada equació si ho fossin).
+    *   La suma de tots els equips ha de ser 15 (A + B + C + D = 15).
+    *   Trobem possibles valors per a A, B, i D. Tenint en compte que cada equip té almenys 2 membres, que el nombre de participants per equip és diferent, i que A, B i D són nombres enters positius.
+    *   Si A=2, B=5, D=7. Aleshores C = 15 - 2 - 5 - 7 = 1. Això és impossible, ja que cada equip ha de tenir almenys 2 membres.
+    *   Si A=3, B=4, D=6. Aleshores C = 15 - 3 - 4 - 6 = 2. Això funciona.
+    *   Si A=4, B=3, D=5. Aleshores C = 15 - 4 - 3 - 5 = 3. Això funciona.
+    *   Si A=5, B=2, D=4. Aleshores C = 15 - 5 - 2 - 4 = 4. Això funciona.
+    *   Però, tenint en compte que les respostes donades estan entre 2 i 6, veiem que una resposta és més probable, i ha de ser un valor únic.
+    *   La millor solució, és que C = 2.
+
+Resposta: A)

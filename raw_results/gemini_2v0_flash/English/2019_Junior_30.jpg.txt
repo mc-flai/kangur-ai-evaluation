@@ -1,0 +1,28 @@
+Reasoning:
+A square number has an even number of each of its prime factors.
+The given set is {10, 20, 30, 40, 50, 60, 70, 80, 90}.
+We can write these numbers as:
+10 = 2 * 5
+20 = 2^2 * 5
+30 = 2 * 3 * 5
+40 = 2^3 * 5
+50 = 2 * 5^2
+60 = 2^2 * 3 * 5
+70 = 2 * 5 * 7
+80 = 2^4 * 5
+90 = 2 * 3^2 * 5
+Multiplying all these numbers, we get:
+2^11 * 3^4 * 5^9 * 7^1
+To make the product a square number, each prime factor must have an even exponent.
+The powers of 2, 5, and 7 are odd. The power of 3 is even. We need to remove elements such that the powers of 2, 5, and 7 become even.
+
+Consider removing 70. The product becomes 2^10 * 3^4 * 5^8. This is a perfect square. So, removing one element is enough.
+
+Reasoning:
+The product of all the numbers is 10*20*30*40*50*60*70*80*90 = 3628800000000 = 2^11 * 3^4 * 5^9 * 7^1
+We want to remove the minimum number of elements such that the product of the remaining elements is a perfect square.
+In the product 2^11 * 3^4 * 5^9 * 7^1, the exponents of 2, 5, and 7 are odd.
+Removing 70 = 2 * 5 * 7 will give us 2^10 * 3^4 * 5^8 which is a perfect square.
+Therefore, we need to remove only 1 element.
+
+Answer: A)

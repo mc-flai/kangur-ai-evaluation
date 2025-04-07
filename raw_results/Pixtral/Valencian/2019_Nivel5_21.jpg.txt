@@ -1,0 +1,52 @@
+
+La pregunta 21 nos pide calcular el área de un cuadrilátero que tiene dos vértices en una semicircunferencia y los otros dos en el diámetro, con el radio de la semicircunferencia siendo 1 cm.
+
+Para resolver esto, primero debemos entender la geometría involucrada. El cuadrilátero se forma al tomar dos puntos en el diámetro de la semicircunferencia y dos puntos en el arco de la semicircunferencia. Esto forma un sector circular y un triángulo rectángulo.
+
+1. **Área del sector circular**:
+   - El área de un sector circular se calcula con la fórmula:
+     \[
+     \text{Área del sector} = \frac{\theta}{360^\circ} \times \pi r^2
+     \]
+   - Aquí, \(\theta\) es el ángulo central del sector y \(r\) es el radio.
+   - Dado que el radio \(r = 1\) cm y el ángulo \(\theta = 180^\circ\) (porque es una semicircunferencia), la fórmula se simplifica a:
+     \[
+     \text{Área del sector} = \frac{180^\circ}{360^\circ} \times \pi \times 1^2 = \frac{1}{2} \times \pi = \frac{\pi}{2} \, \text{cm}^2
+     \]
+
+2. **Área del triángulo rectángulo**:
+   - El triángulo rectángulo tiene un lado como el radio (1 cm) y el otro lado como la altura desde el punto en el arco hasta el diámetro.
+   - La altura se puede encontrar usando el teorema de Pitágoras en el triángulo formado por el radio, la altura y el diámetro (que es 2 cm):
+     \[
+     \text{altura}^2 + 1^2 = 2^2
+     \]
+     \[
+     \text{altura}^2 + 1 = 4
+     \]
+     \[
+     \text{altura}^2 = 3
+     \]
+     \[
+     \text{altura} = \sqrt{3} \, \text{cm}
+     \]
+   - El área del triángulo rectángulo es:
+     \[
+     \text{Área del triángulo} = \frac{1}{2} \times \text{base} \times \text{altura} = \frac{1}{2} \times 1 \times \sqrt{3} = \frac{\sqrt{3}}{2} \, \text{cm}^2
+     \]
+
+3. **Área total del cuadrilátero**:
+   - El área total del cuadrilátero es la suma del área del sector circular y el área del triángulo rectángulo:
+     \[
+     \text{Área total} = \frac{\pi}{2} + \frac{\sqrt{3}}{2} \, \text{cm}^2
+     \]
+
+Comparando con las opciones dadas:
+   - A) \(\frac{4}{5} \, \text{cm}^2\)
+   - B) \(\frac{\pi}{4} \, \text{cm}^2\)
+   - C) \(1 \, \text{cm}^2\)
+   - D) \(\frac{4}{3} \, \text{cm}^2\)
+   - E) \(\frac{2}{\sqrt{3}} \, \text{cm}^2\)
+
+La opción correcta es:
+
+**Respuesta: E)**

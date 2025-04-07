@@ -1,0 +1,17 @@
+Raonament:
+Tenim que A + B = 7 i A + D = 9.
+Sabem que cada equip té al menys 2 persones i cada equip té un número diferent de participants.
+Com que A + B = 7, A i B han de ser almenys 2. Possibles valors per A i B són (2,5), (3,4), (4,3), (5,2).
+Com que A + D = 9, A i D han de ser almenys 2. Possibles valors per A i D són (2,7), (3,6), (4,5), (5,4), (6,3), (7,2).
+
+El nombre de membres per equip és diferent. Si A=2, B=5 i D=7. Per tant C = 15 - (2 + 5 + 7) = 15 - 14 = 1. Això és impossible, ja que cada equip té almenys 2 membres.
+Si A=3, B=4 i D=6. Per tant C = 15 - (3 + 4 + 6) = 15 - 13 = 2. Aquest és un possible escenari, i els valors de A, B, C i D son diferents.
+Si A=4, B=3 i D=5. Per tant C = 15 - (4 + 3 + 5) = 15 - 12 = 3. Aquest és impossible ja que B i C serien iguals.
+Si A=5, B=2 i D=4. Per tant C = 15 - (5 + 2 + 4) = 15 - 11 = 4. Aquest és un possible escenari, i els valors de A, B, C i D son diferents.
+
+Si A=3, B=4, D=6 i C=2. Llavors A, B, C, D = 3, 4, 2, 6.
+Si A=5, B=2, D=4 i C=4. Llavors A, B, C, D = 5, 2, 4, 4. Això és impossible, perquè C=D.
+
+Per tant, només una opció funciona, on A=3, B=4, D=6 i C=2.
+
+Resposta: A)

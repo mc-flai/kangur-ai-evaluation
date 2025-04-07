@@ -1,0 +1,8 @@
+Reasoning: Let's analyze the conditions:
+*   If someone doesn't wear a hat, they must tell the truth. This means at least one of their neighbors wears a hat.
+*   To maximize the number of people *without* hats, we must arrange them so each one's neighbors *do* wear a hat.
+*   The most efficient arrangement to maximize people without hats, given the truth telling constraint is every third person wears a hat. Consider H, N, N, H, N, N... where H=Hat and N=No Hat.
+*   In this arrangement, the person with a hat and both neighbors without hats will have each have one neighbor with a hat. Each person without a hat must have at least one neighbor with a hat, and since they're telling the truth, this arrangement satisfies this rule.
+*   So, we have 1/3 of people wearing hats. 30/3 = 10 wearing hats. The other 2/3 do not wear a hat. 30 - 10 = 20 without hats.
+
+Answer: D)

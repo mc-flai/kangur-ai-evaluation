@@ -1,0 +1,50 @@
+
+Raisonnement :
+1. Nous savons que \( f \) est une fonction linéaire. Par conséquent, \( f(x) = ax \) pour une certaine constante \( a \).
+2. Nous savons également que \( g \) est une fonction affine. Par conséquent, \( g(x) = bx + c \) pour des constantes \( b \) et \( c \).
+3. Les informations données sont \( f(2) = g(2) = 4 \) et \( f(3) = -g(3) \).
+4. En utilisant \( f(2) = g(2) = 4 \), nous pouvons écrire :
+   \[
+   f(2) = 2a = 4 \quad \Rightarrow \quad a = 2
+   \]
+   \[
+   g(2) = 2b + c = 4
+   \]
+5. En utilisant \( f(3) = -g(3) \), nous pouvons écrire :
+   \[
+   f(3) = 3a = 3 \times 2 = 6
+   \]
+   \[
+   -g(3) = - (3b + c)
+   \]
+   \[
+   3b + c = -6
+   \]
+6. Nous avons maintenant deux équations pour \( g(2) \) et \( g(3) \) :
+   \[
+   2b + c = 4
+   \]
+   \[
+   3b + c = -6
+   \]
+7. En soustrayant la première équation de la deuxième, nous obtenons :
+   \[
+   (3b + c) - (2b + c) = -6 - 4
+   \]
+   \[
+   b = -10
+   \]
+8. En substituant \( b = -10 \) dans \( 2b + c = 4 \), nous obtenons :
+   \[
+   2(-10) + c = 4
+   \]
+   \[
+   c = 24
+   \]
+9. Par conséquent, \( g(x) = -10x + 24 \).
+10. Pour trouver \( g(1) \), nous calculons :
+    \[
+    g(1) = -10(1) + 24 = 14
+    \]
+
+Réponse : E)

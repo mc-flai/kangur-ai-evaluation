@@ -1,0 +1,25 @@
+### Raonament
+
+1.  Per calcular la resposta realitzarem la multiplicació el producte $182019 \times 192018$ i dividirem per 9.
+2.  La clau del problema és identificar un patró per abordar això de manera eficient.
+
+     Primer, observem que podem factoritzar $182019$ i $192018$ com:
+
+        $182019 = 18,201 \times 10^3$ i $192018 = 19,201 \times 10^3$
+3.  Ara, podem usar la propietat de que el producte de dos números és divisible per 9 si i només si la suma dels seus dígit és divisible per 9.
+    
+     Calcular el producte de les parts enters de cada factor:
+    
+     $18,201 \times 19,201 = 350,608,601$
+        
+     La suma dels seus dígit és:
+    
+     $3+5+0+6+0+ 448$, exactament una vegada, amb un rest = 1
+
+Per tant, coneguent que els sumat del dígits de 4037 són 16, hazard contra .
+
+$16 = 1\cdot 9 + 7$. Així la Resposta és:
+
+### Resposta
+
+D).

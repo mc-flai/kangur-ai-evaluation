@@ -1,0 +1,46 @@
+Raonament: Per resoldre aquest problema, és necessari entendre que Martí participa en 31 curses de fons durant cinc anys consecutius. El primer any va córrer menys curses que qualsevol altre any. A més, va participar en més curses que l'any anterior, i cinc vegades va participar en el triple de curses que en el primer any.
+
+Primer, assignem una variable al nombre de curses que Martí va córrer en el primer any:
+
+Siguin `x` el nombre de curses participades el primer any.
+
+Aleshores, les curses dels cinc anys es poden representar com:
+- Any 1: x
+- Any 2: y (on y > x)
+- Any 3: z (on z > y)
+- Any 4: u (on u > z)
+- Any 5: v (on v > u)
+
+Però també sabem que en cinc ocasions va córrer el triple de curses que en el primer any, és a dir, 3x.
+
+Per tant, la suma total de curses en cinc anys és: x + y + z + u + v = 31
+
+Com que va córrer menys curses el primer any, x és el menor. Les altres curses són més grans que x i una d'elles és 3x.
+
+Per tant, una possible distribució que satisfà les condicions és:
+- x
+- 3x
+- 3x
+- 3x
+- 3x 
+
+La suma total queda: x + 3x + 3x + 3x + 3x = 13x
+
+Com que la suma total de curses és 31, tenim: 13x = 31
+
+Això no és possible, ja que 31 no és divisible per 13. Per tant, hem d'ajustar la nostra distribució.
+
+La suma total de curses en cinc anys és: x + y + z + u + v = 31, i sabem que un dels anys va córrer el triple de curses que en el primer any.
+
+Suposem que en el primer any va córrer 4 curses (x = 4):
+- Any 1: 4
+- Any 2: 5
+- Any 3: 6
+- Any 4: 8
+- Any 5: 8
+
+La suma total de curses és: 4 + 5 + 6 + 8 + 8 = 31, i satisfà les condicions.
+
+Per tant, Martí va participar en 4 curses en el quart any.
+
+Resposta: B) 7

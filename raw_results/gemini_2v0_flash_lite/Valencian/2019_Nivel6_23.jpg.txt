@@ -1,0 +1,48 @@
+Raonament:
+Per a minimitzar la suma S, hem de minimitzar els nombres en els vèrtexs que estan presents en dos quadrats. Aquests són els vèrtexs centrals de la figura. Si assignem els nombres més baixos (1, 2, 3, i 4) a aquests vèrtexs centrals i a cada extrem del quadrat, tenim una suma baixa. Assignem als vèrtexs centrals els valors 1, 2 i 3. Els altres vèrtexs poden ser assignats amb els valors 4, 5, 6, 7. El quadrat central es forma amb els vèrtexs 1, 2, 3 i 4. La suma és 1+2+3+4 = 10. Els altres dos quadrats compartiran vèrtexs, de manera que hem d'assignar nombres baixos en els vèrtexs compartits.
+Intentem amb els nombres més baixos als vèrtexs compartits:
+- 1, 2, 3. El primer quadrat: 1, 2, 4, 5. Suma = 12.
+- 2, 3, 6, 7. Suma = 18.
+- 1, 3, 4, 8. Suma = 16.
+- 5, 6, 7, 8. Suma = 26.
+Podem reduir la suma, així que hem d'assignar nombres petits en el centre. Assignem 1 i 2 als vèrtexs centrals. Els nombres 1,2,3,4,5,6,7,8,9,10.
+- 1, 2, 3, 4 = 10
+- 1, 2, 5, 6 = 14
+- 3, 4, 5, 6 = 18
+No podem fer la suma igual.
+
+Considerem els números 1-10. Els vèrtexs del centre es repeteixen dues vegades. La suma total dels vèrtexs és 1+2+...+10 = 55. El valor de S ha de ser el mateix per cada quadrat. Els vèrtexs centrals apareixen dues vegades. Sigui S la suma d'un quadrat i x,y,z la suma dels vèrtexs centrals. Aleshores, 2S- (x+y+z) = 55. El nombre de quadrats és 3.
+La suma dels nombres dels vèrtexs centrals ha de ser mínima. Si ho numerem, tenim 3 quadrats i 10 vèrtexs. Els vèrtexs centrals es repeteixen dues vegades. El valor més baix seria posar 1,2 i 3 als vèrtexs centrals.
+Si els vèrtexs centrals son 1, 2, 3. Aleshores hem de sumar 1+2+3+x = S. El nombre x pot estar en el segon quadrat. La suma de cada quadrat és la mateixa.
+La xarxa té tres quadrats. Els vèrtexs centrals apareixen en dos quadrats. Els vèrtexs a les cantonades apareixen en només un quadrat. Així hem de minimitzar els vèrtexs centrals.
+Si els vèrtexs centrals son 1, 2, 3. Els altres serien 4, 5, 6, 7, 8, 9, 10.
+1+2+4+5 = 12
+2+3+6+7 = 18
+1+3+8+9= 21
+1+2+5+10=18
+La suma de S seria 21.
+La suma dels nombres seria (1+2+...+10) + (x+y+z) = 55.
+La resposta 20 pot ser possible,
+1+2+6+11
+1+2+5+12
+2+3+4+11
+2+3+5+10
+Si S=20, i els nombres centrals son 1,2,3. 2*S- x-y-z = 55
+40-(x+y+z)=55 impossible.
+2*S- (1+2+3)=55 impossible.
+Si S = 21. 2*21 - (x+y+z)=55. Impossible
+Si S=22
+2*22 - (x+y+z) = 55 Impossible
+21+ (x+y+z)=55
+La suma de cada quadrat serà la mateixa.
+21.
+1+2+8+10 = 21
+2+3+6+10 = 21
+3+4+5+9 = 21
+1+4+5+7 = 17
+1+4+6+9 = 20
+1+4+6+10 = 21
+1+2+3+4+5+6+7+8+9+10 = 55
+Si tenim 3 quadrats.
+
+Resposta: C)

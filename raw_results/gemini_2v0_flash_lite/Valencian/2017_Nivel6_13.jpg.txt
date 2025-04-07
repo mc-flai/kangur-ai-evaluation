@@ -1,0 +1,29 @@
+Raonament: Per maximitzar la fracció (N+M)/(N-M), hem d'intentar maximitzar el numerador i minimitzar el denominador. Per tant, per a N hem de triar el valor més gran permès, que és 101, i per a M hem de triar el valor més petit permès, que és 19.
+(101 + 19) / (101 - 19) = 120 / 82 ≈ 1.46
+
+Per maximitzar la fracció, hem de prendre N el més gran possible i M el més petit possible. En aquest cas, N=101 i M=19. Així doncs:
+(101+19)/(101-19)=120/82 = 1.46, que no està entre les opcions.
+Si la fracció s'apropa a 60, podem provar:
+(N+M)/(N-M) ≈ 60
+N+M ≈ 60N - 60M
+61M ≈ 59N
+M ≈ N * 59 / 61
+
+Per a maximitzar la fracció, hem de triar N el més gran possible i M el més petit possible.
+Per tant, N = 101 i M = 19.
+(N+M)/(N-M) = (101+19)/(101-19) = 120/82 = 1.46...
+Per a veure si alguna de les respostes és factible, podem utilitzar un valor per a la fracció:
+A) (N+M)/(N-M) = 20 -> N+M = 20N-20M -> 21M=19N -> M=(19/21)*N. N=51, M=45.9, N=101, M=91, que està fora de rang.
+B) (N+M)/(N-M) = 30 -> N+M = 30N-30M -> 31M=29N -> M=(29/31)*N. N=51, M=47.6, N=101, M=94.5, que està fora de rang.
+C) (N+M)/(N-M) = 40 -> N+M = 40N-40M -> 41M=39N -> M=(39/41)*N. N=51, M=48.6, N=101, M=96, que està fora de rang.
+D) (N+M)/(N-M) = 50 -> N+M = 50N-50M -> 51M=49N -> M=(49/51)*N. N=51, M=49, N=101, M=97, que està fora de rang.
+E) (N+M)/(N-M) = 60 -> N+M = 60N-60M -> 61M=59N -> M=(59/61)*N. N=51, M=49.3, N=101, M=98, que està fora de rang.
+Si N=101, hem de buscar un M que maximitzi la fracció (N+M)/(N-M).  Això vol dir que hem de triar M tan petit com sigui possible, és a dir M=19.  En aquest cas (101+19)/(101-19)=120/82 ≈ 1.46
+Si M=19, (N+19)/(N-19)
+Si N=51 -> (51+19)/(51-19)=70/32 ≈ 2.1875
+La fracció augmenta a mesura que N s'acosta a 101, i N=101, M=19 dóna el resultat més gran.
+Si provem 60, trobem que hem de triar M tant proper a N com sigui possible. Si M es fa més gran i s'acosta a N, la fracció augmenta.
+Això només pot ser possible si el valor de la fracció és gran. A partir de l'opció D) i E), sembla que el valor pot ser gran.
+Si N=51 i M=49. (51+49)/(51-49)=100/2=50.
+
+Resposta: D)

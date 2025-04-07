@@ -1,0 +1,36 @@
+Reasoning: We can analyze the rows one by one.
+Row 1 has to have 2 black cells.
+Row 2 has to have 0 black cells.
+Row 3 has to have 2 black cells.
+Row 4 has to have 1 black cell.
+
+The columns requirement is 2, 0, 2, 1.
+
+Since the second row must have 0 black cells, that eliminates the entire second row. Thus the second column also has 0 black cells. This requirement is already filled, since it requires 0 cells black, and all cells are currently white.
+
+The fourth column also needs 1 black cell, and since row 2 cannot have any black cells, the black cell must be located in one of the other 3 rows.
+
+The first column can be any two out of the three remaining rows. The second row must have 0 black cells, this eliminates the second column from consideration and it does not contain a black cell. The third column has 2 black cells, this is equivalent to the first. Finally, the fourth column has 1 black cell. This can be placed in row 1, 3, or 4.
+
+Let's analyze the columns. The first and third columns need 2 black cells each. The fourth column needs one black cell. Combining this with the row constraints, we can see that the fourth column must have a black cell in either row 1, 3 or 4. Also the second column can't have a black cell.
+
+So it must be the following cases:
+1. First row first and third column filled with black cells, the fourth column has black cell in row 4, so black cells are row 1, column 1, 3, row 3 column 1, 3 and row 4 column 4. The first and third columns have their requirements filled.
+2. First row first and third column filled with black cells, the fourth column has black cell in row 3, so black cells are row 1, column 1, 3, row 3 column 1, 3, 4. First column requirement is broken.
+3. First row first and third column filled with black cells, the fourth column has black cell in row 1, so black cells are row 1, column 1, 3, 4, row 3 column 1, 3. First column requirement is broken.
+
+Since the second row has 0 black cells and the second column is also 0, it must have two black cells in the first row (1 and 3), two black cells in the third row (1 and 3), and one black cell in the fourth row (4). Only one configuration is allowed.
+Row 1: cells 1 and 3 are black.
+Row 2: no cells are black
+Row 3: cells 1 and 3 are black.
+Row 4: cell 4 is black.
+
+This satisfies the row requirements. Checking the columns requirements:
+Column 1: 2 black cells (row 1 and 3)
+Column 2: 0 black cells.
+Column 3: 2 black cells (row 1 and 3)
+Column 4: 1 black cell (row 4)
+
+There is only 1 valid configuration.
+
+Answer: A)

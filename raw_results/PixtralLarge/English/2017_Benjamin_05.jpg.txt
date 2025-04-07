@@ -1,0 +1,13 @@
+To solve question 5, we need to determine the minimum number of bridges that must be closed to reduce the traffic between islands A and B to half.
+
+**Reasoning**:
+1. First, we need to understand the structure of the network connecting the 10 islands with 12 bridges.
+2. Identify the critical bridges that, when closed, will most effectively reduce the traffic between islands A and B.
+3. Since the question asks for the traffic to be cut to half, we need to find a set of bridges whose closure will reduce the number of paths between A and B by half.
+4. By analyzing the diagram, we can see that there are multiple paths connecting A and B. Closing one bridge will not be sufficient as there are alternative routes.
+5. We need to close multiple bridges strategically to disrupt the connectivity significantly.
+6. By examining the paths and counting the bridges, we can determine that closing 3 specific bridges will reduce the traffic between A and B to half.
+
+**Answer**: C)
+
+By closing 3 bridges strategically, we can reduce the traffic between islands A and B to half.

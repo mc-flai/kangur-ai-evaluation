@@ -1,0 +1,17 @@
+Raonament: El tren té 18 vagons. El bloc central són els vagons 9 i 10. Sabem que qualsevol bloc de 5 vagons adjacents té 199 passatgers. Podem deduir que els vagons de l'1 al 5 tenen 199 passatgers, els del 2 al 6 tenen 199 passatgers, i així successivament. L'únic que podem saber amb aquesta informació és que no tots els vagons tenen el mateix nombre de passatgers, però els vagons del mig (9 i 10) estan en algun bloc. Podem analitzar les possibilitats:
+
+Si hi ha un bloc que inclou els vagons 9 i 10, aquest podria ser el 7-8-9-10-11. Això ens diu que si hi ha una regularitat, podem suposar que els vagons 9 i 10 tenen un nombre "normal" de passatgers dins dels 199.
+Podem dividir el nombre total de passatgers (700) entre el nombre de blocs de 5 vagons. Hi ha 18 vagons i blocs de 5, per tant, aproximadament hi ha 18/5=3.6 blocs. Però a més, cada bloc de 5 comparteix els vagons adjacents.
+Aleshores, no és possible conèixer exactament el nombre de passatgers en els dos vagons del mig només amb la informació donada. Però es pot assumir una distribució més o menys uniforme.
+
+Podem estimar el nombre mitjà de passatgers per vagó: 700 passatgers / 18 vagons ≈ 38.89 passatgers per vagó. Aleshores podem assumir que el vagó 9 i 10 tenen aproximadament 38 o 39 passatgers cadascun.
+Podem provar les opcions:
+- A) 70: 70/2 = 35 passatgers per vagó (més baixa que la mitjana).
+- B) 77: 77/2 = 38.5 passatgers per vagó (aproximadament la mitjana).
+- C) 78: 78/2 = 39 passatgers per vagó (aproximadament la mitjana).
+- D) 96: 96/2 = 48 passatgers per vagó (més alta que la mitjana).
+- E) 103: 103/2 = 51.5 passatgers per vagó (més alta que la mitjana).
+
+Entre B) i C) les opcions més apropiades són B) 77 o C) 78. Però no podem saber exactament.
+
+Resposta: C)

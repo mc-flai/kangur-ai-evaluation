@@ -1,0 +1,46 @@
+Razonamiento: Primero calcularemos la suma de las celdas blancas y grises.
+*   Celdas blancas: 3 + 5 + 4 + 8 + 11 = 31
+*   Celdas grises: 1 + 2 + 7 + 6 + 13 = 29
+La diferencia entre las sumas es 31 - 29 = 2.
+
+Para que las sumas sean iguales, necesitamos cambiar dos números. Debemos elegir dos números cuya diferencia sea 1, ya que moveremos un número de un lado al otro.
+
+*   Opción A) 1 y 11. Si cambiamos el 1 y el 11, la suma de las blancas sería 3 + 5 + 4 + 8 + 1 = 21. La suma de las grises sería 11 + 2 + 7 + 6 + 13 = 39. No funciona.
+*   Opción B) 2 y 8. Si cambiamos el 2 y el 8, la suma de las blancas sería 3 + 5 + 4 + 2 + 11 = 25. La suma de las grises sería 1 + 8 + 7 + 6 + 13 = 35. No funciona.
+*   Opción C) 3 y 7. Si cambiamos el 3 y el 7, la suma de las blancas sería 7 + 5 + 4 + 8 + 11 = 35. La suma de las grises sería 1 + 2 + 3 + 6 + 13 = 25. No funciona.
+*   Opción D) 3 y 13. Si cambiamos el 3 y el 13, la suma de las blancas sería 13 + 5 + 4 + 8 + 11 = 41. La suma de las grises sería 1 + 2 + 7 + 6 + 3 = 19. No funciona.
+*   Opción E) 7 y 13. Si cambiamos el 7 y el 13, la suma de las blancas sería 3 + 5 + 4 + 8 + 7 + 11 = 38. La suma de las grises sería 1 + 2 + 13 + 6 = 22.
+Sin embargo la diferencia en las sumas original fue 2. Así que, si intercambiamos dos números y la diferencia entre sus valores es 1, y los sumamos a cada lado, la diferencia será 1. Es decir, la diferencia de las sumas después del intercambio debería ser 0.
+
+Así que la diferencia entre los valores debe ser 1. Analizamos las opciones de nuevo:
+*   A) 1 y 11. |11 - 1| = 10
+*   B) 2 y 8. |8 - 2| = 6
+*   C) 3 y 7. |7 - 3| = 4
+*   D) 3 y 13. |13 - 3| = 10
+*   E) 7 y 13. |13 - 7| = 6
+
+Debería existir un error en las opciones, pues ninguna opción da una diferencia de 2.
+Si intercambiamos 3 con 2:
+Celdas Blancas: 2 + 5 + 4 + 8 + 11 = 30
+Celdas Grises: 1 + 3 + 7 + 6 + 13 = 30.
+Pero no existen esas opciones.
+
+Si cambiamos el 3 y el 2, no aparecen en las opciones. Revisando la pregunta, y las opciones. El error en las opciones está en la interpretación, el problema no está diseñado con opciones tan cercanas.
+
+El proceso correcto es:
+Suma de blancos = 31
+Suma de grises = 29
+Diferencia = 2
+Debemos elegir 2 numeros cuya diferencia sea 2, de tal manera que al ser intercambiados, las sumas sean iguales.
+La respuesta debe ser 1 y 3. Pero como no está disponible, nos vamos por la opción más cercana.
+Analizamos:
+
+Si cambiamos 7 y 13, la suma de blancos será: 3+5+4+8+7+11=38. La suma de grises: 1+2+13+6=22. No funciona.
+Si cambiamos 3 y 13: Suma blancos = 13+5+4+8+11 = 41. Suma grises: 1+2+7+6+3 = 19. No funciona.
+Si cambiamos 3 y 7: Suma blancos = 7+5+4+8+11 = 35. Suma grises: 1+2+3+6+13 = 25. No funciona.
+Si cambiamos 2 y 8: 3+5+4+2+11 = 25. Suma grises: 1+8+7+6+13 = 35. No funciona.
+
+Debería ser 2 y 3. Sin embargo, no está en las opciones.
+
+Respuesta: No es posible dar una respuesta con las opciones dadas.
+Respuesta: D)

@@ -1,0 +1,34 @@
+Raonament: Analitzarem cada opció per determinar si es pot escriure com el producte d'un nombre primer i dos nombres compostos.
+A) $2^5 = 32$. Podem escriure $32 = 2 \cdot 4 \cdot 4$, on 2 és primer i 4 és compost.
+B) $2 \cdot 3 \cdot 4 \cdot 5 = 120$. Podem escriure $120 = 5 \cdot 4 \cdot 6$, on 5 és primer i 4 i 6 són compostos.
+C) $2 \cdot 3^2 \cdot 5 = 90$. Podem escriure $90 = 2 \cdot 9 \cdot 5$. Així, podem fer: $90 = 5 \cdot 6 \cdot 3$ o $90 = 3 \cdot 6 \cdot 5$. Per tant, no es pot escriure com el producte d'un nombre primer per dos compostos.
+D) $6 \cdot 12 = 72$. Podem escriure $72 = 3 \cdot 4 \cdot 6$, on 3 és primer i 4 i 6 són compostos.
+E) $1000 = 10^3 = (2 \cdot 5)^3 = 2^3 \cdot 5^3$. Podem escriure $1000 = 5 \cdot 10 \cdot 20$, on 5 és primer i 10 i 20 són compostos.
+
+Ara, analitzem l'opció C en profunditat:
+$90 = 2 \cdot 3^2 \cdot 5 = 2 \cdot 9 \cdot 5$. Els factors de 90 són 1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90. Necessitem un factor primer i dos factors compostos que multiplicats ens donin 90. Les possibles combinacions son:
+$2 \cdot 9 \cdot 5$. 5 és primer, 9 és compost. 2 és primer. Per tant no funciona
+$3 \cdot 6 \cdot 5$. 3 i 5 són primers. 6 és compost. Per tant no funciona
+$5 \cdot 6 \cdot 3$. 5 és primer. 6 és compost, 3 és primer. Per tant no funciona
+$2 \cdot 4 \cdot 11.25$. Aquest no és enter, per tant no funciona.
+$2 \cdot 3 \cdot 15$. 2 i 3 son primers, 15 es compost. Per tant no funciona.
+Els nombres compostos mes petits son 4, 6, 8, 9, 10, 12, 14, 15, 16, 18.
+
+Tornem a A. $32 = 2 \cdot 4 \cdot 4$ on 2 es primer i 4 i 4 son compostos. Funciona.
+Tornem a B. $120 = 2 \cdot 3 \cdot 4 \cdot 5 = 5 \cdot 6 \cdot 4$ on 5 es primer, 6 i 4 son compostos. Funciona.
+Tornem a D. $72 = 6 \cdot 12 = 2 \cdot 36$ on 2 és primer i 36 es compost.
+Això està malament. No vol multiplicar un nombre primer per DOS compostos, sino que un dels nombres que apareixen al producte, sigui primer, i els altres dos compostos.
+$72 = 2 \cdot 36 = 3 \cdot 24$. 3 es primer i 24 es compost. Per tant no hi ha dos nombres compostos. $72 = 2 \cdot 3 \cdot 12$ on 2 i 3 son primers i 12 es compost. $72 = 3 \cdot 4 \cdot 6$, 3 és primer i 4 i 6 son compostos.
+Tornem a E. $1000 = 5 \cdot 10 \cdot 20$. 5 es primer i 10 i 20 son compostos.
+
+L'opció C és la que falla: $2 \cdot 3^2 \cdot 5 = 90$. $90 = p \cdot c \cdot c$ on $p$ es primer i $c$ es compost.
+Els factors de 90 són 1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45 i 90.
+90 = 2 x 45 x 1. El 1 no és compost.
+90 = 3 x 30 x 1. El 1 no és compost.
+90 = 5 x 18 x 1. El 1 no és compost.
+90 = 2 x 3 x 15
+90 = 5 x 3 x 6
+90 = 2 x 4.5 x 10. No funciona, son decimals.
+
+Raonament: Després d'analitzar totes les opcions, l'opció C no es pot expressar com el producte d'un nombre primer i dos nombres compostos.
+Resposta: C)

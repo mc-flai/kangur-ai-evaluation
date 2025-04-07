@@ -1,0 +1,20 @@
+Reasoning:
+The total number of possible 7-digit numbers using digits 1 to 7 without repetition is 7! = 5040. The middle of the ordered list would be at the 5040/2 = 2520th position. The first digit of the number at the middle has to be around 4.
+Let's consider the number of permutations starting with 1, 2, and 3:
+Starting with 1: 6! = 720
+Starting with 2: 6! = 720
+Starting with 3: 6! = 720
+Starting with 4: The list will be split after the 2520th element. The permutations starting with 1, 2, and 3 account for 3 * 720 = 2160 numbers. The rest (5040 - 2160 = 2880) will start with 4. The 2520th element is the (2520 - 2160 = 360)th element starting with 4.
+The question asks for the last number in the first half of the list, so it must be the 2520th number in the list. Since the list is sorted in increasing order, it must be the largest number among the first 2520 elements.
+Among the options, we can eliminate 1234567 since it's the smallest possible number. 3765421 is less than 4, but it might be close.
+If we start counting with 4, the numbers will begin with 41... , 42..., 43.... We want the 360th number starting with 4.
+Numbers starting with 41: 5! = 120
+Numbers starting with 42: 5! = 120
+Numbers starting with 43: 5! = 120
+The numbers starting with 41, 42 and 43 are 120 * 3 = 360. Therefore, the 2520th number in the list is the last number starting with 43. Thus, we need to find the largest number starting with 43 such that it contains each digit from 1 to 7.
+We have the prefix 43. We want to arrange the remaining digits 1, 2, 5, 6, and 7 in decreasing order. This would give us 4376521.
+
+Let's examine the other options. 4352617 is less than 4376521. 4123567 is smaller and not the last one in the first half of the list. 3765421 may or may not be the last number, it's smaller than 4376521 and hence cannot be the last number in the first list.
+
+Reasoning: The middle element separates the first half and second half. We're looking for the largest element in the first half. Since there are 7! = 5040 numbers, we want the 2520th number. The first digits start with 1, 2, 3, and then 4. The numbers starting with 1,2,3 count for 3 * 6! = 2160 numbers. So the 2520th number starts with 4. Numbers starting with 41, 42, 43 each count for 5! = 120. So 3 * 120 = 360. So the 2520th number is the last number with a 43 prefix. Sort remaining numbers: 1,2,5,6,7 to 7,6,5,2,1 to make 4376521.
+Answer: E)

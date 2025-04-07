@@ -1,0 +1,20 @@
+
+La pregunta 23 en la imagen es:
+
+"Una heladería tiene 18 sabores diferentes de helado. Nina calcula que si va a comprar un cono de helado con dos bolas de diferentes sabores, lo puede elegir de 153 maneras. Cuando compra 16 afiches va a comprar un cono gigante con 16 bolas de sabores diferentes. ¿De cuántas maneras lo puede elegir?"
+
+Las opciones son:
+A) 16
+B) 18
+C) 153
+D) 816
+E) 3060
+
+Razonamiento:
+1. Nina está comprando un cono de helado con dos bolas de diferentes sabores.
+2. El número de maneras de elegir 2 bolas de diferentes sabores de 18 sabores se puede calcular usando la fórmula de combinación sin repetición: C(n, k) = n! / (k!(n-k)!), donde n es el número total de sabores y k es el número de sabores que se eligen.
+3. Aquí, n = 18 y k = 2.
+4. C(18, 2) = 18! / (2!(18-2)!) = 18! / (2! * 16!) = (18 * 17) / (2 * 1) = 153.
+5. Por lo tanto, el número de maneras de elegir 2 bolas de diferentes sabores de 18 sabores es 153.
+
+Respuesta: C)

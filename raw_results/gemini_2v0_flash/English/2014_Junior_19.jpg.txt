@@ -1,0 +1,15 @@
+Reasoning:
+Let $w$ be the number of wins, $d$ be the number of draws, and $l$ be the number of losses.
+We have the following equations:
+$w + d + l = 40$ (total number of matches)
+$w + \frac{1}{2}d = 25$ (total points)
+We want to find $w - l$.
+Multiply the second equation by 2 to get rid of the fraction:
+$2w + d = 50$
+From the first equation, $d = 40 - w - l$. Substitute this into the modified second equation:
+$2w + (40 - w - l) = 50$
+$w - l + 40 = 50$
+$w - l = 50 - 40$
+$w - l = 10$
+
+Answer: C)

@@ -1,0 +1,8 @@
+Raonament:
+La suma dels primers $n$ enters positius és $\frac{n(n+1)}{2}$. Joan ha calculat aquesta suma i ha afegit un nombre, diguem-ne $x$, dues vegades, obtenint 857. Per tant, tenim $\frac{n(n+1)}{2} + x = 857$, on $1 \le x \le n$. Per tant, $\frac{n(n+1)}{2} < 857$, de manera que $n(n+1) < 1714$. Com que $41 \times 42 = 1722$ i $40 \times 41 = 1640$, $n$ ha de ser 40.
+Llavors, $\frac{40(41)}{2} = 20(41) = 820$.
+Llavors tenim $820 + x = 857$, de manera que $x = 857 - 820 = 37$.
+Comprovem que $1 \le x \le n$ és veritat, com que $1 \le 37 \le 40$.
+El nombre que va sumar dues vegades és 37.
+
+Resposta: D)

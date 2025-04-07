@@ -1,0 +1,63 @@
+Raonament: Sigui $a_{ij}$ el nombre de la casella en la fila $i$ i la columna $j$. Sabem que el producte de cada fila i columna és 1, i que el producte de cada graella $2 \times 2$ és 2. Per tant:
+\begin{itemize}
+    \item $a_{11} a_{12} a_{13} = 1$
+    \item $a_{21} a_{22} a_{23} = 1$
+    \item $a_{31} a_{32} a_{33} = 1$
+    \item $a_{11} a_{21} a_{31} = 1$
+    \item $a_{12} a_{22} a_{32} = 1$
+    \item $a_{13} a_{23} a_{33} = 1$
+\end{itemize}
+També sabem que el producte de cada graella $2 \times 2$ és 2:
+\begin{itemize}
+    \item $a_{11} a_{12} a_{21} a_{22} = 2$
+    \item $a_{12} a_{13} a_{22} a_{23} = 2$
+    \item $a_{21} a_{22} a_{31} a_{32} = 2$
+    \item $a_{22} a_{23} a_{32} a_{33} = 2$
+\end{itemize}
+Multiplicant el producte de les tres files i el producte de les tres columnes, obtenim:
+$$ (a_{11} a_{12} a_{13}) (a_{21} a_{22} a_{23}) (a_{31} a_{32} a_{33}) = 1 \times 1 \times 1 = 1$$
+$$ (a_{11} a_{21} a_{31}) (a_{12} a_{22} a_{32}) (a_{13} a_{23} a_{33}) = 1 \times 1 \times 1 = 1$$
+Multiplicant-les entre elles obtenim que el producte de tots els elements de la graella al quadrat és 1, per tant el producte de tots els elements de la graella és 1.
+
+Multiplicant el producte de les 4 graelles $2 \times 2$, obtenim:
+$$(a_{11} a_{12} a_{21} a_{22})(a_{12} a_{13} a_{22} a_{23})(a_{21} a_{22} a_{31} a_{32})(a_{22} a_{23} a_{32} a_{33}) = 2^4 = 16$$
+$$(a_{11}a_{12}^2a_{13}a_{21}^2a_{22}^4a_{23}^2a_{31}a_{32}^2a_{33}) = 16$$
+
+Ara, tenim que el producte de tots els elements de la graella és 1, per tant:
+$$a_{11} a_{12} a_{13} a_{21} a_{22} a_{23} a_{31} a_{32} a_{33} = 1$$
+
+Però $(a_{11}a_{12}^2a_{13}a_{21}^2a_{22}^4a_{23}^2a_{31}a_{32}^2a_{33}) = 16$.
+
+$$ a_{11} a_{12}^2 a_{13} a_{21}^2 a_{22}^4 a_{23}^2 a_{31} a_{32}^2 a_{33} = a_{12} a_{21} a_{22}^3 a_{23} a_{32}(a_{11} a_{12} a_{13} a_{21} a_{22} a_{23} a_{31} a_{32} a_{33}) = a_{12} a_{21} a_{22}^3 a_{23} a_{32} = 16$$
+La formula es complica, mirem una altra cosa.
+Considerem una graella on tots els termes siguin 1, excepte el central, que serà igual a $x$.
+\[
+    \begin{bmatrix}
+    1 & 1 & 1 \\
+    1 & x & 1 \\
+    1 & 1 & 1
+    \end{bmatrix}
+\]
+En aquest cas, els productes de les files i les columnes són 1 i 1 i 1.
+Però si agafem els productes de les graelles 2x2 són tots iguals a $x$, pero han de ser iguals a 2. Llavors $x=2$ no entra dintre de les opcions, llavors aquest exemple no es compatible.
+
+Si $a_{22} = 4$. I tots els altres són uns, el producte de files i columnes és 1. I el producte de cada graella $2x2$ contenint a $4$ és 4.
+
+Considerem la graella:
+\[
+    \begin{bmatrix}
+    a & b & c \\
+    d & e & f \\
+    g & h & i
+    \end{bmatrix}
+\]
+Si $a_{11} = a, a_{12} = b, a_{13} = c, a_{21} = d, a_{22} = e, a_{23} = f, a_{31} = g, a_{32} = h, a_{33} = i$.
+
+Si el producte de cada fila i cada columna és 1, tenim:
+$abc = 1, def = 1, ghi = 1, adg = 1, beh = 1, cfi = 1$.
+Si el producte de cada graella $2x2$ és 2, tenim:
+$abde = 2, becf = 2, degh = 2, efhi = 2$.
+
+$e = 4$
+
+Resposta: C)

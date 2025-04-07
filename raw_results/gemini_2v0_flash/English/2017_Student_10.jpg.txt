@@ -1,0 +1,12 @@
+Reasoning:
+To find the number of intersections between two functions, we need to find the number of real solutions to the equation f(x) = g(x). Let's analyze each option:
+
+A) x = x^2 => x^2 - x = 0 => x(x-1) = 0. This has two solutions, x=0 and x=1.
+B) x = x^3 => x^3 - x = 0 => x(x^2 - 1) = 0 => x(x-1)(x+1) = 0. This has three solutions, x=-1, x=0, and x=1.
+C) x = x^4 => x^4 - x = 0 => x(x^3 - 1) = 0 => x(x-1)(x^2 + x + 1) = 0. The quadratic has no real solutions. This has two solutions, x=0 and x=1.
+D) x = -x^4 => x^4 + x = 0 => x(x^3 + 1) = 0 => x(x+1)(x^2 - x + 1) = 0. The quadratic has no real solutions. This has two solutions, x=0 and x=-1.
+E) x = -x => 2x = 0 => x=0. This has one solution, x=0.
+
+The function with the most intersections with f(x) = x is g2(x) = x^3, which has three intersections.
+
+Answer: B)

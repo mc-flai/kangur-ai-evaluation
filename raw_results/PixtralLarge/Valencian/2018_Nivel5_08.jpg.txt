@@ -1,0 +1,52 @@
+**Raonament**: Per resoldre aquest problema, primer hem de determinar el nombre total de roses:
+
+- Roses blanques: 42
+- Roses grogues: 66
+- Roses roges: 78
+
+Total de roses = 42 + 66 + 78 = 186 roses
+
+Ara, hem de trobar el màxim nombre de rams possibles que tinguin el mateix nombre de roses. Això significa que el nombre total de roses (186) s'ha de dividir en el major nombre possible de parts iguals.
+
+Per determinar el màxim nombre de rams iguals, dividim 186 entre el nombre de rams fins a arribar al nombre més gran possible de rams iguals que no superin el nombre total de roses.
+
+- Si dividim 186 entre 1, obtenim 186 (1 ram)
+- Si dividim 186 entre 2, obtenim 93 (2 rams)
+- Si dividim 186 entre 3, obtenim 62 (3 rams)
+- Si dividim 186 entre 4, obtenim 46.5 (no és un nombre sencer)
+- Si dividim 186 entre 5, obtenim 37.2 (no és un nombre sencer)
+- Si dividim 186 entre 6, obtenim 31 (6 rams)
+- Si dividim 186 entre 7, obtenim 26.57 (no és un nombre sencer)
+- Si dividim 186 entre 8, obtenim 23.25 (no és un nombre sencer)
+- Si dividim 186 entre 9, obtenim 20.67 (no és un nombre sencer)
+- Si dividim 186 entre 10, obtenim 18.6 (no és un nombre sencer)
+- Si dividim 186 entre 11, obtenim 16.91 (no és un nombre sencer)
+- Si dividim 186 entre 12, obtenim 15.5 (no és un nombre sencer)
+- Si dividim 186 entre 13, obtenim 14.31 (no és un nombre sencer)
+- Si dividim 186 entre 14, obtenim 13.29 (no és un nombre senter)
+- Si dividim 186 entre 15, obtenim 12.4 (no és un nombre sencer)
+- Si dividim 186 entre 16, obtenim 11.63 (no és un nombre sencer)
+- Si dividim 186 entre 17, obtenim 10.94 (no és un nombre sencer)
+- Si dividim 186 entre 18, obtenim 10.33 (no és un nombre sencer)
+- Si dividim 186 entre 19, obtenim 9.79 (no és un nombre sencer)
+- Si dividim 186 entre 20, obtenim 9.3 (no és un nombre sencer)
+- Si dividim 186 entre 21, obtenim 8.86 (no és un nombre sencer)
+- Si dividim 186 entre 22, obtenim 8.45 (no és un nombre sencer)
+- Si dividim 186 entre 23, obtenim 8.09 (no és un nombre sencer)
+- Si dividim 186 entre 24, obtenim 7.75 (no és un nombre sencer)
+- Si dividim 186 entre 25, obtenim 7.44 (no és un nombre sencer)
+- Si dividim 186 entre 26, obtenim 7.15 (no és un nombre sencer)
+- Si dividim 186 entre 27, obtenim 6.89 (no és un nombre sencer)
+- Si dividim 186 entre 28, obtenim 6.64 (no és un nombre sencer)
+- Si dividim 186 entre 29, obtenim 6.41 (no és un nombre sencer)
+- Si dividim 186 entre 30, obtenim 6.2 (no és un nombre sencer)
+- Si dividim 186 entre 31, obtenim 6 (31 rams)
+- Si dividim 186 entre 32, obtenim 5.81 (no és un nombre sencer)
+
+Per tant, el nombre màxim de rams iguals és 31.
+
+Llavors, per determinar quants roses grogues hi ha en cada ram, dividim el nombre de roses grogues pel nombre de rams:
+
+66 roses grogues / 31 rams = 2 roses grogues per ram.
+
+**Resposta**: A) 31

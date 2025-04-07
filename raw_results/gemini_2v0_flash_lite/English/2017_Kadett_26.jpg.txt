@@ -1,0 +1,16 @@
+Reasoning:
+Let's generate the sequence:
+2, 3, 6 (2*3=6), 8 (3*6=18, unit digit is 8), 8 (6*8=48, unit digit is 8), 4 (8*8=64, unit digit is 4), 2 (8*4=32, unit digit is 2), 8 (4*2=8), 6 (2*8=16, unit digit is 6), 8 (8*6=48, unit digit is 8), 8, 4, 2, 8...
+The sequence repeats from the 4th term onward: 8, 8, 4, 2, 8, 6, 8, 8, 4, 2, 8... This is a repeating pattern of length 6 (8, 8, 4, 2, 8, 6).
+We are interested in the 2017th term. The first two terms (2, 3) are not part of the repeating sequence. So, the 2017th term corresponds to the (2017-2)=2015th term in the repeating sequence, starting with 6.
+Since the pattern starts at the 3rd term, and it has length 6, we consider the remainder when 2015 is divided by 6, because the 3rd term corresponds to the 3rd index. However since the repetition pattern is 6, then the first term of the sequence is index 1, and in the real question, the repeating pattern index starts from index 3, therefore the first repeating sequence index becomes (3-2=1), the pattern is
+2, 3, 6, 8, 8, 4, 2, 8, 6, 8, 8, 4...
+
+The digits starting from the 3rd positions are: 6, 8, 8, 4, 2, 8, 6, 8, 8, 4, 2, 8...
+The sequence is 6, 8, 8, 4, 2, 8 repeated
+2017 - 2 = 2015.
+2015 mod 6 = 5
+The 5th term of the repeating pattern is 2.
+Therefore, the 2017th digit in the full sequence is 2.
+
+Answer: A)

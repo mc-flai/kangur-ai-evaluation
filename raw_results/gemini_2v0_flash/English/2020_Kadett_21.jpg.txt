@@ -1,0 +1,16 @@
+Reasoning:
+The pool is 10m wide and 25m long. The instructor sits in the middle of one of the edges.
+Let's consider the instructor sits in the middle of one of the longer edges (25m). Then the distance from the instructor to the nearest corners are each 25/2 = 12.5m.
+The longest distance from each of those two corners is 10 + 12.5 = 22.5m.
+For the other two corners, the distance will be 10 + 25 + 12.5 = 47.5m.
+
+The total distance will be 2 * 22.5 + 2 * 47.5 = 45 + 95 = 140m.
+
+Now consider the instructor sits in the middle of one of the shorter edges (10m). Then the distance from the instructor to the nearest corners are each 10/2 = 5m.
+The longest distance from each of those two corners is 25 + 5 = 30m.
+For the other two corners, the distance will be 25 + 10 + 5 = 40m.
+The total distance will be 2 * 30 + 2 * 40 = 60 + 80 = 140m.
+
+In both cases the answer is 140m.
+
+Answer: C)

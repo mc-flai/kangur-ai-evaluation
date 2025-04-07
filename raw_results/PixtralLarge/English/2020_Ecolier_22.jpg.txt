@@ -1,0 +1,35 @@
+To determine the number of ways Joana can paint the parrot such that there are not two parrots painted the same way, we need to consider the constraints given:
+
+1. The head, tail, and wing can each be painted in three different colors (red, blue, green).
+2. The head and tail can be the same color, but the wing must be a different color from both the head and the tail.
+
+Let's break down the possibilities:
+
+1. **Choosing colors for the head and tail:**
+   - There are 3 choices for the color of the head.
+   - There are 3 choices for the color of the tail.
+
+2. **Choosing a color for the wing:**
+   - The wing must be a different color from both the head and the tail.
+   - If the head and tail are the same color, there are 2 choices for the wing (since one color is taken by the head and tail).
+   - If the head and tail are different colors, there is only 1 choice for the wing (since two colors are taken by the head and tail).
+
+Now, let's calculate the number of ways:
+
+- **Case 1: Head and tail are the same color:**
+  - There are 3 choices for the color of the head and tail (since they are the same).
+  - There are 2 choices for the color of the wing.
+  - Total for this case: \(3 \times 2 = 6\) ways.
+
+- **Case 2: Head and tail are different colors:**
+  - There are 3 choices for the color of the head.
+  - There are 2 choices for the color of the tail (since it must be different from the head).
+  - There is 1 choice for the color of the wing (since it must be different from both the head and the tail).
+  - Total for this case: \(3 \times 2 \times 1 = 6\) ways.
+
+Adding the two cases together:
+\[ 6 + 6 = 12 \]
+
+Reasoning: By considering the constraints and breaking down the problem into cases where the head and tail are the same color and where they are different colors, we find that there are 12 unique ways to paint the parrot.
+
+Answer: D)

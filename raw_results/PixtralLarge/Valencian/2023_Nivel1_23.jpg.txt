@@ -1,0 +1,22 @@
+**Raonament**:
+Per resoldre aquest problema, necessitem identificar el patró de la quantitat de vegades que es toca el cucut a cada número de la seqüència.
+
+- A les 1 en punt toca una vegada.
+- A les 2 en punt toca tres vegades.
+- A les 3 toca sis vegades.
+- A les 4 el rellotge toca deu vegades.
+- A les 5 toca quinze vegades.
+
+Per tant, la quantitat de vegades que es toca el cucut és el resultat de sumar les vegades de cada hora. Volem saber quantes vegades toca el cucut a les 8 en punt.
+
+Podem observar que el patró és el següent:
+- A les 1: 1 vegada.
+- A les 2: 1 + 2 = 3 vegades.
+- A les 3: 1 + 2 + 3 = 6 vegades.
+- A les 4: 1 + 2 + 3 + 4 = 10 vegades.
+- A les 5: 1 + 2 + 3 + 4 + 5 = 15 vegades.
+
+Seguint aquest patró, a les 8 en punt:
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 vegades.
+
+**Resposta**: D) 36 vegades.

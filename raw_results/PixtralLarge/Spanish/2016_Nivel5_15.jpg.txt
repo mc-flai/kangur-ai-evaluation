@@ -1,0 +1,11 @@
+Para resolver la pregunta 15, debemos determinar el número que Miriam debe poner en la casilla marcada con el signo de interrogación en el cuadro mágico. Un cuadro mágico es una disposición de números en una cuadrícula de manera que la suma de los números en cada fila, columna y diagonal sea la misma.
+
+**Razonamiento:**
+1. Sumamos los números en la fila superior:
+   - 20 + 1 = 21
+2. Dado que la suma debe ser igual en todas las filas, columnas y diagonales, la casilla marcada con el signo de interrogación debe contener un número que, al sumarse con 20 y 1, dé el mismo total.
+3. La suma total de cada fila, columna y diagonal en un cuadro mágico de 3x3 es 15 veces el número en la posición central (número en el centro en el cuadro mágico).
+4. Si el número en el centro es 1, entonces la suma total es 15 * 1 = 15.
+5. Como la suma total debe ser 15, y ya tenemos 21 en la primera fila, el número que falta debe ser 15 - 21 = -6.
+
+**Respuesta:** B) 4

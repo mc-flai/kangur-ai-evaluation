@@ -1,0 +1,29 @@
+Reasoning:
+Let $n$ be the number of kangaroos in the group. The two lightest kangaroos weigh 25% of the total weight, and the three heaviest weigh 60% of the total weight.
+Therefore, the remaining $n-5$ kangaroos must weigh $100\% - 25\% - 60\% = 15\%$ of the total weight.
+Since each kangaroo must have a positive weight, $n-5$ must be a non-negative integer, so $n \ge 5$.
+If we assume that all $n-5$ kangaroos have the same weight, then each would weigh $\frac{15\%}{n-5}$ of the total weight.
+Let the weights of the kangaroos be $w_1 \le w_2 \le \dots \le w_n$. Then $w_1 + w_2 = 0.25W$ and $w_{n-2} + w_{n-1} + w_n = 0.60W$, where $W$ is the total weight. The remaining kangaroos weigh $0.15W$.
+We can try the values for $n$ given in the options and see if they make sense.
+A) $n=6$: The two lightest weigh 25%, the three heaviest weigh 60%, so the remaining one kangaroo weighs 15%. This is possible.
+B) $n=7$: The two lightest weigh 25%, the three heaviest weigh 60%, so the remaining two weigh 15%. Each of these weighs 7.5%. This is also possible.
+C) $n=8$: The two lightest weigh 25%, the three heaviest weigh 60%, so the remaining three weigh 15%. Each of these weighs 5%. This is possible.
+D) $n=15$: The two lightest weigh 25%, the three heaviest weigh 60%, so the remaining 10 weigh 15%. Each of these weighs 1.5%. This is possible.
+E) $n=20$: The two lightest weigh 25%, the three heaviest weigh 60%, so the remaining 15 weigh 15%. Each of these weighs 1%. This is possible.
+
+If the remaining kangaroos (10) weigh 15%, it is possible for the 2 lightest to weigh 25% and 3 heaviest to weigh 60%.
+
+Consider $n=6$. We have 2 lightest = 25%, 3 heaviest = 60%, then the remaining 1 = 15%.
+The order would be $w_1 \le w_2 \le w_6$.
+Let the total weight be $W$.
+$w_1+w_2 = 0.25W$.
+$w_4+w_5+w_6 = 0.60W$.
+$w_3 = 0.15W$.
+We need to check if we can have $w_1, w_2 \le w_3 \le w_4, w_5, w_6$.
+
+However, if the problem asks for the minimum number of kangaroos possible, the answer would be 6.
+If the problem has the answer 5 available, then 5 is most probably the correct answer since $n \ge 5$. But since it is not available and $n=6$ is the smallest available answer, $n=6$ is the correct answer.
+
+Reasoning: The problem states that two kangaroos weigh 25% and three weigh 60%. This means that there are at least five kangaroos. If there were exactly five kangaroos, then 100%-25%-60%=15%. This means the other kangaroos must have a weight. However, the question asks for the number of kangaroos, we can't say they have a number. So we need to have a sixth kangaroo that has this 15%.
+
+Answer: A)

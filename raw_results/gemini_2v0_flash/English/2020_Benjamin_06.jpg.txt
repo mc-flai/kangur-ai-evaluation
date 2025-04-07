@@ -1,0 +1,50 @@
+Reasoning:
+First, determine the value of each coin. The coins are 1 real, 25 centavos, 50 centavos, 10 centavos, and 5 centavos.
+Bia has coins totaling 1 + 0.25 + 0.50 + 0.10 + 0.05 = 1.90 reais.
+We need to determine which of the prices cannot be made using only 3 coins.
+A) 1.30 = 1 + 0.25 + 0.05 (3 coins)
+B) 1.35 = 1 + 0.25 + 0.10 (3 coins)
+C) 1.40 = 1 + 0.25 + 0.15 (but there is no 0.15 or using 0.05 + 0.10 = 0.15)
+  Or, it is 0.5 + 0.5 + 0.25 + 0.1 +0.05, but we can only pick 3 coins. So, 1.4 can be made with one 1 real coin, one 0.25 coin and one 0.15(there is no 0.15 coin!) or 0.5+0.5+0.25+0.10+0.05 = 1.4 by using one 1 real coin, two 0.25 coins, one 0.1, one 0.05, where 2*0.25 == 0.5
+D) 1.55 = 1 + 0.50 + 0.05 (3 coins)
+E) 1.75 = 1 + 0.50 + 0.25 (3 coins)
+
+Consider the given options to see if there is a combination of 3 coins that gives these prices.
+A) 1.30: 1 + 0.25 + 0.05
+B) 1.35: 1 + 0.25 + 0.10
+C) 1.40: Not possible to make 0.40 using two of the available coins, nor add up the two coin with the larger total.
+D) 1.55: 1 + 0.50 + 0.05
+E) 1.75: 1 + 0.50 + 0.25
+
+Thus, the only price that cannot be obtained with 3 coins is 1.40
+
+Reasoning:
+Check to see if the different prices of the fruits listed can be made using three coins.
+A) 1.30 = 1.00 + 0.25 + 0.05
+B) 1.35 = 1.00 + 0.25 + 0.10
+C) 1.40 = 1.00 + 0.50 - 0.10
+D) 1.55 = 1.00 + 0.50 + 0.05
+E) 1.75 = 1.00 + 0.50 + 0.25
+However, option C requires using 0.50 and subtracting 0.10
+
+Reasoning:
+I re-evaluated my logic.
+We can make 1.30 = 1 + 0.25 + 0.05 (3 coins)
+We can make 1.35 = 1 + 0.25 + 0.10 (3 coins)
+We can make 1.55 = 1 + 0.50 + 0.05 (3 coins)
+We can make 1.75 = 1 + 0.50 + 0.25 (3 coins)
+Now consider 1.40. The largest three coins are 1 + 0.50 + 0.25 = 1.75, too high. The next is 1 + 0.50 + 0.10 = 1.60, also too high. The next is 1 + 0.50 + 0.05 = 1.55, also too high.
+Then, is 0.50 + 0.25 + 0.10 = 0.85 or is 0.50 + 0.25 + 0.05 = 0.80, we have 0.5 + 0.5 + 0.25 + 0.1 +0.05, but we can only pick 3 coins.
+
+Reasoning:
+Re-evaluating. The total is 1.90.
+A) 1.30 = 1 + 0.25 + 0.05
+B) 1.35 = 1 + 0.25 + 0.10
+C) 1.40 = 1 + ? There is no combination to get 0.40 from remaining coins using only two coins, so two 0.25 cents coins could be used, then 1 + 0.25 + 0.25 (but we don't have 2 of these coins!) + use 10 and a 5 = 0.15 . so we'd use (1) + 0.25 coin + (1).15.
+D) 1.55 = 1 + 0.50 + 0.05
+E) 1.75 = 1 + 0.50 + 0.25
+
+Reasoning:
+Since the largest three coins add to 1.75, 1.75 is possible. Using the 1, 0.50, and 0.05, one can make 1.55. Using 1, 0.25 and 0.05 one can make 1.30. Using 1, 0.25 and 0.1 one can make 1.35. Using three other coins, it is not possible to make 1.40.
+
+Answer: C)

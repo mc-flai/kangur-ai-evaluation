@@ -1,0 +1,21 @@
+**Raonament**:
+
+Per resoldre aquesta pregunta, hem d'entendre que es tracta d'un problema de probabilitat relacionat amb els nombres que es troben en una caixa.
+
+1. La caixa conté tiquets numerats de l'1 al 2015.
+2. Un tiquet s'extreu aleatòriament i després s'extreu un segon tiquet sense reemplaçament, és a dir, el primer tiquet ja no està a la caixa.
+3. Es demana la probabilitat que el segon nombre sigui més gran que el primer.
+
+Per a calcular la probabilitat que el segon nombre sigui més gran que el primer, hem de considerar les combinacions possibles.
+
+Per a cada parella (i, j) on i < j, la probabilitat que el segon nombre sigui més gran que el primer és igual a la probabilitat que el primer nombre sigui més gran que el segon, ja que les parelles (i, j) i (j, i) són igualment probables.
+
+Les combinacions possibles de dos nombres triats de 2015 sense reemplaçament són:
+
+Combinacions possibles = 2015 * 2014 / 2
+
+La probabilitat que el segon nombre sigui més gran que el primer és la meitat de les combinacions possibles, ja que cada parella (i, j) i (j, i) són igualment probables.
+
+Probabilitat = 1/2 = 50%
+
+**Resposta**: B) El 50%

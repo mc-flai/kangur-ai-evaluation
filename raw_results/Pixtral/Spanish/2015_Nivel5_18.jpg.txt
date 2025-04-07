@@ -1,0 +1,32 @@
+La pregunta 18 en la imagen es:
+"Si las dos raíces de la ecuación \(x^2 - 96x + c = 0\) son números primos, ¿cuál es el valor de la suma de las diferencias de \(c\)?"
+
+Para determinar la respuesta correcta, necesitamos analizar la ecuación cuadrática \(x^2 - 96x + c = 0\) y las condiciones dadas sobre sus raíces.
+
+Razonamiento:
+1. La ecuación cuadrática \(x^2 - 96x + c = 0\) tiene dos raíces, que llamaremos \(r_1\) y \(r_2\).
+2. Usamos la fórmula cuadrática para encontrar las raíces:
+   \[
+   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+   \]
+   Aquí, \(a = 1\), \(b = -96\) y \(c\) es la constante que queremos determinar.
+3. Las raíces de la ecuación se pueden expresar como:
+   \[
+   r_1 = \frac{96 - \sqrt{96^2 - 4c}}{2}, \quad r_2 = \frac{96 + \sqrt{96^2 - 4c}}{2}
+   \]
+4. La suma de las raíces es:
+   \[
+   r_1 + r_2 = \frac{96 - \sqrt{96^2 - 4c}}{2} + \frac{96 + \sqrt{96^2 - 4c}}{2} = 96
+   \]
+5. La diferencia de las raíces es:
+   \[
+   r_1 - r_2 = \frac{96 - \sqrt{96^2 - 4c}}{2} - \frac{96 + \sqrt{96^2 - 4c}}{2} = -\frac{2\sqrt{96^2 - 4c}}{2} = -\sqrt{96^2 - 4c}
+   \]
+6. La suma de las diferencias de \(c\) es:
+   \[
+   \sum (\text{diferencias de } c) = 2 \times \sqrt{96^2 - 4c}
+   \]
+7. Dado que las raíces son números primos, debemos encontrar un valor de \(c\) que haga que ambas raíces sean números primos.
+8. Pruebe diferentes valores de \(c\) para encontrar un valor que cumpla con las condiciones.
+
+Respuesta: D)

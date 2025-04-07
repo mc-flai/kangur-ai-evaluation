@@ -1,0 +1,12 @@
+Reasoning: The question asks how many 2x2 squares can be formed in the figure. By looking at the figure carefully, one can count the number of possible squares. Starting from the top-left corner, we can shift a 2x2 square right and down as far as possible without any part of it exceeding the boundary of the whole shape.
+The 2x2 square can be formed by combining:
+1) Top left 2x2 square
+2) The square immediately to the right of the above
+3) The square that is down one row from the first
+4) The square down another row from the first
+5) the square two rows down and one to the right
+6) the square on row five, column one
+7) The square on row five, column two
+This gives us 7 possible squares.
+
+Answer: C)

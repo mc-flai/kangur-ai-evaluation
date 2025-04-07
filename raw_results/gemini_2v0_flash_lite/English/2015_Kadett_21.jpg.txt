@@ -1,0 +1,10 @@
+Reasoning: Let 'n' be the total number of kangaroos. The two lightest kangaroos account for 25% of the total weight, and the three heaviest kangaroos account for 60% of the total weight.  This means the remaining kangaroos account for 100% - 25% - 60% = 15% of the total weight. Let's consider overlapping kangaroos. The 2 lightest and the 3 heaviest would represent 5 kangaroos. If some kangaroos are both in the lightest two and the heaviest three, the total number is reduced. The 2 lightest and the 3 heaviest can only contain the same kangaroos as 15%. If we assume the next lightest is right behind the 2 lightest ones, and the 3 heaviest ones contains the next lightest, the 15% would equal to 1 kangaroo (e.g., kangaroo's number 3, in weight).  25% + 60% = 85%, leaving 15% of the total weight for the other kangaroos. If the two lightest are distinct from the three heaviest, then the two lightest + the three heaviest = 5 kangaroos. This can be represented as n = 2 + 3 + some value that would provide the remaining 15%. The middle kangaroos (n-5) must weigh 15% of the total weight.
+Consider some integers to get the total. If we suppose n=5, 2 light + 3 heavy = 5, then 0 kangaroos are in middle (85%). If we suppose n=6, 2 light + 3 heavy +1 = 6, and (85% + 15%) = 100%. Then, 15% weight can be carried by this one kangaroo.
+Try the options provided.
+A) If n=6. 2 lightest + 3 heaviest = 5 kangaroos. The remaining 1 kangaroo weighs 15%.
+B) If n=7. 2 lightest + 3 heaviest = 5 kangaroos. The remaining 2 kangaroos. Can 2 kangaroos have the remaining 15% total weight? The weight of one kangaroo= 15%/2 = 7.5%. The remaining 5 kangaroos weigh 85% of total weight.
+C) n=8. 2 lightest + 3 heaviest = 5 kangaroos. The remaining 3 kangaroos can weight the remaining 15% weight of the total. 15%/3 = 5%.
+D) and E) are bigger number which does not fit the 15% weight percentage.
+Since the 2 lightest and 3 heaviest kangaroos include a number of kangaroos in the "middle" and considering that one kangaroo remains that weighs 15% of the total, so n=6.
+
+Answer: A)

@@ -1,0 +1,15 @@
+Reasoning:
+Let f(x) = ax + b.
+We are given f(f(f(1))) = 29 and f(f(f(0))) = 2.
+f(1) = a(1) + b = a + b
+f(0) = a(0) + b = b
+f(f(1)) = f(a+b) = a(a+b) + b = a^2 + ab + b
+f(f(0)) = f(b) = ab + b
+f(f(f(1))) = f(a^2+ab+b) = a(a^2+ab+b)+b = a^3+a^2b+ab+b = 29
+f(f(f(0))) = f(ab+b) = a(ab+b) + b = a^2b+ab+b = 2
+Subtract the second equation from the first:
+(a^3+a^2b+ab+b) - (a^2b+ab+b) = 29-2
+a^3 = 27
+a = 3
+
+Answer: C)

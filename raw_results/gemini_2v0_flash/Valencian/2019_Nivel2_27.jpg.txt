@@ -1,0 +1,18 @@
+Raonament: Siguin $v_i$ el nombre de passatgers al vagó $i$.
+Sabem que $\sum_{i=1}^{11} v_i = 350$ i $v_i + v_{i+1} + v_{i+2} = 99$ per $i=1, \dots, 9$.
+
+$v_1 + v_2 + v_3 = 99$
+$v_2 + v_3 + v_4 = 99$
+Restant, $v_1 = v_4$.
+En general, $v_i = v_{i+3}$. Els nombres de passatgers per cada vagó es repeteixen cada tres vagons.
+
+Així, $v_1=v_4=v_7=v_{10}$, $v_2=v_5=v_8=v_{11}$, $v_3=v_6=v_9$.
+Sigui $a=v_1$, $b=v_2$, $c=v_3$. Llavors $a+b+c=99$.
+La suma total de passatgers és $4a+4b+3c = 350$.
+$4(a+b+c) - c = 350$
+$4(99) - c = 350$
+$396 - c = 350$
+$c = 396 - 350 = 46$.
+$c=v_3=v_6=v_9=46$. Per tant el nombre de passatgers al sisè vagó és 46.
+
+Resposta: D)

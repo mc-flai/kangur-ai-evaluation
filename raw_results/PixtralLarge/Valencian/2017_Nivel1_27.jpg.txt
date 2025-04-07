@@ -1,0 +1,29 @@
+Per resoldre la pregunta, hem de calcula la distància entre la línia descrita pel vehicle i el punt O.
+
+Primer, analitzem el recorregut del vehicle:
+1. El vehicle comença al punt O i recorre 1 km cap amunt.
+2. Després gira i recorre 2 km cap a la dreta.
+3. Torna a girar cap a la dreta i recorre 3 km.
+4. Torna a girar cap a la dreta i recorre 4 km.
+
+Per visualitzar el recorregut, podem imaginar que el vehicle traça un rectangle. Aquí hi ha com es dibuixa:
+
+1. Comença a O (0,0).
+2. Es mou 1 km cap amunt (0,1).
+3. Es mou 2 km cap a la dreta (2,1).
+4. Es mou 3 km cap a baix (2,-2).
+5. Es mou 4 km cap a l'esquerra (-2,-2).
+
+Ara, la distància entre el punt O (0,0) i el punt final del recorregut (-2,-2) es pot calcular utilitzant la distància euclidiana:
+
+Distància = √[(x2 - x1)² + (y2 - y1)²]
+= √[(-2 - 0)² + (-2 - 0)²]
+= √[(-2)² + (-2)²]
+= √[4 + 4]
+= √8
+= 2√2 ≈ 2.83
+
+Atès que la distància calculada és aproximadament 2.83 km, la resposta més propera és 3 km.
+
+Raonament: La distància entre el punt O i el punt final del recorregut del vehicle és aproximadament 2.83 km, cosa que fa que la resposta més propera sigui 3 km.
+Resposta: C)

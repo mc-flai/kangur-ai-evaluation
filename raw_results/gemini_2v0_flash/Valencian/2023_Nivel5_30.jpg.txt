@@ -1,0 +1,11 @@
+Raonament: La funció *f* compleix que f(x*y) = f(x + y) per a tots els enters *x* i *y*. A més, sabem que f(9) = 18.
+Volem trobar f(2020). Hem de trobar algun *x* i *y* tal que x*y = 9 i x + y = 2020.
+Aquesta no és la manera correcta.
+Hem de trobar valors x,y tals que f(x*y) = f(x+y) = f(9) = 18
+Si x=1 i y = 9, f(9) = f(10) = 18
+Ara, podem trobar x i y tals que x+y = 9
+Si x = 1 i y = 8, f(8) = f(9) = 18
+Si x= 2 i y = 7, f(14) = f(9) = 18
+Si x = 1 i y = 2019, f(2019) = f(2020) = 18
+
+Resposta: B)

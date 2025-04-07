@@ -1,0 +1,20 @@
+Reasoning:
+The numbers that are placed in the five circles are 3, 4, 5, 6, and 7. The product of the numbers at the three vertices of each triangle is written inside the triangle. We want to find the sum of the numbers placed at the three vertices of the shaded triangle.
+
+Let the numbers in the vertices of the shaded triangle be $a, b, c$. Then $a \times b \times c = 168$.
+Since the only possible values are 3, 4, 5, 6, and 7, we need to find three numbers from this set that multiply to 168. We can test different combinations:
+$3 \times 4 \times 5 = 60$
+$3 \times 4 \times 6 = 72$
+$3 \times 4 \times 7 = 84$
+$3 \times 5 \times 6 = 90$
+$3 \times 5 \times 7 = 105$
+$3 \times 6 \times 7 = 126$
+$4 \times 5 \times 6 = 120$
+$4 \times 5 \times 7 = 140$
+$4 \times 6 \times 7 = 168$
+$5 \times 6 \times 7 = 210$
+
+So the three numbers must be 4, 6, and 7.
+Thus, the sum of the numbers is $4 + 6 + 7 = 17$.
+
+Answer: D)

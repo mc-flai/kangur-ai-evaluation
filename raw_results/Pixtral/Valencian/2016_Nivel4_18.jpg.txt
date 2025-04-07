@@ -1,0 +1,42 @@
+
+La pregunta 18 nos pide determinar cuántos triángulos rectángulos distintos tienen un área de 36, dados los largos de los lados de los catetos que son números enteros.
+
+Para resolver esto, usamos la fórmula del área de un triángulo rectángulo, que es:
+
+\[ \text{Área} = \frac{1}{2} \times \text{base} \times \text{altura} \]
+
+Dado que el área es 36, podemos escribir:
+
+\[ \frac{1}{2} \times \text{base} \times \text{altura} = 36 \]
+
+Multiplicando ambos lados por 2, obtenemos:
+
+\[ \text{base} \times \text{altura} = 72 \]
+
+Ahora, necesitamos encontrar todos los pares de números enteros (base, altura) que multiplicados den 72. Estos pares deben ser números enteros y deben formar un triángulo rectángulo, lo que significa que deben satisfacer el teorema de Pitágoras:
+
+\[ \text{base}^2 + \text{altura}^2 = \text{hipotenusa}^2 \]
+
+Primero, listamos los factores de 72:
+
+\[ 72 = 1 \times 72 \]
+\[ 72 = 2 \times 36 \]
+\[ 72 = 3 \times 24 \]
+\[ 72 = 4 \times 18 \]
+\[ 72 = 6 \times 12 \]
+\[ 72 = 8 \times 9 \]
+
+Ahora, verificamos cuáles de estos pares satisfacen el teorema de Pitágoras:
+
+1. \( 1 \times 72 \) no forma un triángulo rectángulo.
+2. \( 2 \times 36 \) no forma un triángulo rectángulo.
+3. \( 3 \times 24 \) no forma un triángulo rectángulo.
+4. \( 4 \times 18 \) no forma un triángulo rectángulo.
+5. \( 6 \times 12 \) sí forma un triángulo rectángulo porque \( 6^2 + 12^2 = 36 + 144 = 180 \) y \( 180 = 180 \).
+6. \( 8 \times 9 \) sí forma un triángulo rectángulo porque \( 8^2 + 9^2 = 64 + 81 = 145 \) y \( 145 = 145 \).
+
+Por lo tanto, hay dos pares de números enteros que satisfacen las condiciones: \( (6, 12) \) y \( (8, 9) \).
+
+Raonament: Identificamos los factores de 72 y verificamos cuáles pares de factores satisfacen el teorema de Pitágoras. Encontramos que hay dos pares que cumplen con las condiciones.
+
+Respuesta: D)

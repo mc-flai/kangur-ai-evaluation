@@ -1,0 +1,13 @@
+Razonamiento: Un entero positivo n se llama "bueno" si su divisor más grande (excluyendo a n) es igual a n - 6. Llamemos a este divisor mayor d. Se d por n - 6, y como d y n son positivos, sabemos que d  n.
+
+La pregunta es ¿Cuántos enteros positivos "buenos" hay? Es decir, ¿cuántos valores posibles tiene n en función de la definición de número "bueno"?
+
+Esto se reduce a encontrar cuántos divisores mayores d hay tal que d = n - 6 y d  n, ya que la única condición para n ser bueno es que su divisor mayor debe ser igual a n - 6.
+
+Notemos que, dado que d = n - 6, siempre que n - 6  n es decir, 6  n siempre se cumplirá. Porque d  n y n - 6 es siempre menor que n.
+
+Ejecutando el valor de n con cada una de las opciones del examen, obtenemos: si n = 1, n-6=-5 (fuera del entero positivo); si n = 2, n−6=-4 (fuera del entero positivo); si n=3, n−6=-3 (fuera del entero positivo); si n=6, n−6=0(fuera del entero positivo) y si n=7, n−6=1 (divisor 1 y un entero positivo) y si n=8, n−6=2 (divisor 2 y un entero positivo), y si n=9, n−6=3 (divisor 3 y un entero positivo); y si n=10, n−6=4 ( `\divisor 4 \ y\ un\entero\positivos\`). Para n mayores que 10, dado que hay al menos un divisor mayor en 7, 8, 9 o 10, ya no hay buenos.
+
+Por tanto, si evaluamos el conjunto de números de 3 a 10, solo hay 2 números "buenos" ya que hay buena entre 7 y 10, que es 2:
+
+Respuesta: No Answer.

@@ -1,0 +1,23 @@
+Per resoldre aquesta pregunta, primer hem de determinar quant de temps tardarà el programa en processar cada nombre.
+
+1. El programa compta nombres a partir de 19 fins a 89, i per cada nombre comptat, tarda un segon.
+2. Hem de calcular quants nombres hi ha entre 19 i 89 inclusivament.
+3. La fórmula per calcular el nombre de termes en una seqüència de nombres enters és:
+   ```
+   Nombre de termes = (Darrer nombre - Primer nombre) + 1
+   ```
+4. Substituint els valors:
+   ```
+   Nombre de termes = (89 - 19) + 1 = 70 + 1 = 71
+   ```
+5. Cada nombre tarda 1 segon a ser processat, per tant:
+   ```
+   Temps total = 71 segons
+   ```
+6. Converteix els segons a 1 minut:
+   ```
+   71 segons es converteixen en 1 minut i 11 segons.
+   ```
+
+Raonament: El programa tardarà 1 minut i 11 segons en comptar nombres de 19 a 89.
+Resposta: C) 1 min 11 s.

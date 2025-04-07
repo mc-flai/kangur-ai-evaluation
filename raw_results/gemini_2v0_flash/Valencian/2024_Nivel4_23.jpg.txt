@@ -1,0 +1,91 @@
+Raonament:
+Sigui *x* el nombre total de punts anotats per l'equip.
+Laura va fer 3/20 *x* punts.
+Gemma va fer 1/5 *x* punts.
+Com que els punts han de ser enters, *x* ha de ser un múltiple de 20 (a causa de 3/20 *x*). Per tant, *x* = 20 *k* per algun enter *k*.
+Llavors Laura va fer 3 *k* punts i Gemma va fer 4 *k* punts.
+La suma dels punts de Laura i Gemma és 3/20 *x* + 1/5 *x* = (3/20 + 4/20) *x* = 7/20 *x*.
+La resta de jugadores (que no són Laura ni Gemma) van fer 1 - 7/20 = 13/20 *x* punts.
+Com que Laura és la jugadora que va fer menys punts, i cada jugadora ha de fer com a mínim 1 punt, 3/20*x* >= 1, per tant x >= 20/3 = 6.66.
+Com que x és múltiple de 20, x >= 20.
+Si hi ha 4 jugadores addicionals (apart de Laura i Gemma), les quals van anotar almenys el mateix número de punts que Laura, llavors
+Laura= 3k, Gemma=4k
+x = total punts = 20k
+Punts anotats entre Gemma i Laura: 7k
+Punts anotats pel reste de jugadores = 20k - 7k = 13k
+A cada jugadora, inclosa Laura, hi ha d'haver 1 punt com a minim. I hi ha d'haver punts suficient per tal que laura pugui anotar 3/20 parts dels punts en total (i el nombre de punts de la Laura és 3k).
+3/20 * x ha de ser > 0
+
+Si hi ha 5 jugadors en total (A), a part de Laura y Gemma hi hauria 3 jugadors.
+Si x = 20:
+Laura 3 punts
+Gemma 4 punts
+Resta 13 punts. Si ho dividim entre 3 jugadors, els hi toca 4.33 punts cadascun. Com que no es possible, 5 jugadors es descarta.
+
+Si hi ha 6 jugadors en total (B), hi hauria 4 jugadors a part de Laura i Gemma.
+Si x = 20:
+Laura 3 punts
+Gemma 4 punts
+Resta 13 punts. Si ho dividim entre 4 jugadors, els hi toca 3.25 punts cadascun. Podria ser.
+Si x = 40:
+Laura 6 punts
+Gemma 8 punts
+Resta 26 punts. Si ho dividim entre 4 jugadors, els hi toca 6.5 punts.
+
+El nombre mínim de jugadors que anotaren ha de ser almenys 5.
+
+2 jugadors anotaren (Laura i Gemma), i resta 13/20. Si tenim 5 jugadors que anoten com a minim i Laura es la que anota menys =>
+(TOTAL - Laura - Gemma ) / (x-2) >= Laura
+
+1-7/20 = 13/20 , la suma dels punts de cada jugador no pot ser inferior a 1.
+
+Si x= 20,
+Laura = 3
+Gemma = 4
+13 dividit per 3 (si x = 5 en total) = 4.3
+13 dividit per 4 (si x = 6 en total) = 3.25
+13 dividit per 5 (si x = 7 en total) = 2.6
+13 dividit per 6 (si x = 8 en total) = 2.1
+13 dividit per 7 (si x = 9 en total) = 1.8
+
+Resposta: A)
+Raonament: Laura va fer 3/20 del total de punts i Gemma 1/5 = 4/20 del total de punts. Per tant, Laura i Gemma van fer 7/20 del total. La resta va fer 13/20 del total de punts. Hem de trobar el nombre mínim de jugadores tal que Laura sigui la que va fer menys punts, i cada una hagi fet al menys un punt. Laura ha fet 3/20 del total, per tant el total ha de ser múltiple de 20. Si el total és 20, llavors Laura va fer 3 punts, Gemma 4 i la resta 13. Si tenim 5 jugadores, la resta son 3, 13/3 > 3 així que pot ser.
+Resposta: A)
+Raonament: Laura va fer 3/20 del total i Gemma 1/5 = 4/20. La resta de jugadors varen fer 13/20 del total. Per tant, el total ha de ser múltiple de 20.
+Si el total fos 20, Laura fa 3 punts i Gemma 4. La resta de jugadors fan 13 punts.
+Si hi haguessen 3 jugadors (5 total), 13/3 = 4.3. Aquesta combinació es possible.
+Si hi haguessen 4 jugadors (6 total), 13/4 = 3.25.
+A part de Laura i Gemma tenim 3 jugadors: 3+4+4,3+4,3+4,3= 20
+Resposta: A)
+Raonament:
+Si Laura va fer 3/20 del total i Gemma 1/5 = 4/20 del total, entre totes dues han fet 7/20 del total. Per tant, la resta de jugadores han fet 13/20 del total. Sigui *x* el total de punts. Laura va fer (3/20)*x punts i Gemma (1/5)*x = (4/20)*x punts. Com que Laura va ser la que va fer menys punts, el nombre de punts que ella va fer ha de ser el mínim possible. Suposem que el total de punts és 20. Aleshores, Laura va fer 3 punts i Gemma 4. Això vol dir que la resta de jugadores (x) va fer 13 punts. Per tant, 3 + 4 + 13 = 20. Això vol dir que, com a mínim, hi ha d'haver dues jugadores que van fer més de 3 punts, i una altra que va fer menys. Per tant, hi ha com a mínim 3 jugadores que van fer punts, a part de Laura. Això vol dir que a l'equip hi ha 3+2 = 5 jugadores que van fer punts en aquell partit. Per tant, la resposta és A.
+Resposta: A)
+Raonament: Laura fa 3/20 dels punts i Gemma 1/5 = 4/20. Per tant, entre Laura i Gemma fan 7/20 dels punts. El total de punts ha de ser un múltiple de 20 per a que els punts de Laura siguin enters. Sigui x el total de punts i sigui x=20, Laura fa 3 punts i Gemma fa 4. La resta de jugadores fan 13 punts. Si l'equip té 5 jugadores (Laura, Gemma i 3 més), llavors els 3 fan 13/3 = 4.33 punts.
+En canvi si l'equip té 6 jugadores, 4+3+3+3+3+4 els 4 restants farien 13/4 = 3.25 que és possible ja que Laura fa 3.
+Si fossin més jugadores llavors seria un nombre més petit. Per tant, no hi poden haver menys de 5 jugadores perquè sinó algunes jugadores farien menys de 3.
+
+Resposta: A)
+Raonament:
+Laura fa 3/20 del total i Gemma 1/5 = 4/20 del total. Entre Laura i Gemma fan 7/20 del total. El total de punts del equip és 20k, amb k sent un enter. Laura fa 3k punts i Gemma fa 4k punts.
+La resta d'jugadores faran 13k punts, on k és un enter.
+Com Laura és la jugadora que fa menys punts =>
+El nombre de punts fet per totes les altres jugadores ha de ser major o igual que el nombre de punts fet per la Laura.
+Laura fa 3k punts. Per tant la resta ha d'anotar un mínim de 3k punts.
+Si el total de jugadores que anoten és 5 => 3k + 4k + X1 + X2 + X3 = 20k => X1 + X2 + X3 = 13k
+Si el total de jugadores que anoten és 6 => 3k + 4k + X1 + X2 + X3 + X4 = 20k => X1 + X2 + X3 + X4 = 13k
+El mínim ha de ser que sigui 5.
+
+Resposta: A)
+Raonament:
+Sigui x el total de punts anotats. Laura va anotar 3x/20 i Gemma x/5 = 4x/20. En conjunt van anotar 7x/20, per tant la resta de l'equip va fer 13x/20. El total de punts ha de ser múltiple de 20 per a que la quantitat de punts de Laura i Gemma sigui entera. Si el total fossin 20 punts, Laura fa 3 punts, Gemma 4 punts i la resta de l'equip fan 13 punts. Laura és la que fa menys punts.
+Si hi haguessin 5 jugadors, 3+4+ a + b + c =20 => a+b+c = 13, amb a, b i c>=3. 13/3 = 4.33, per tant 4.33>=3. Aquesta combinació és possible.
+Resposta: A)
+Raonament: Laura fa 3/20 del total de punts i Gemma 1/5=4/20 del total. Per tant la resta fan 13/20.
+Si només haguessin Laura i Gemma: Laura fa 3 i Gemma fa 4. En total els punts han de ser múltiple de 20 per a que Laura faci un número enter de punts.
+Però Laura ha de ser la que menys puntua:
+- Si hi haguessin 3 jugadores, 3+3+3 = 9. El total de punts ha de ser múltiple de 20.
+Si hi hagués una altra jugadora hi hauria 4 o 5...
+Necessitem com a mínim 5 jugadores.
+Si total punts = 20, Laura=3, Gemma=4, resto: 13, la distribució és 3,4,4.33,4.33,4.33
+
+Resposta: A)

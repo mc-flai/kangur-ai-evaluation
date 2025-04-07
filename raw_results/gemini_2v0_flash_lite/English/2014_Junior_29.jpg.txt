@@ -1,0 +1,27 @@
+Reasoning:
+1.  The problem asks for the last number in the first half of a list of 7-digit numbers formed using the digits 1 to 7 exactly once in each number.
+2.  The total number of such numbers is 7! = 5040.
+3.  The list is split in the middle so that each sublist has 5040 / 2 = 2520 numbers.
+4.  The last number of the first sublist is the 2520th number in the ordered list.
+5.  Consider the first digit. Numbers starting with 1, 2, and 3 will be in the first half.
+6.  Numbers starting with 1 have 6! = 720 permutations.
+7.  Numbers starting with 2 have 6! = 720 permutations.
+8.  Numbers starting with 3 have 6! = 720 permutations.
+9.  The 2160th number will start with 3.
+10. 2520 - 2160 = 360 more numbers are left.
+11. The numbers beginning with 4 are included in the first half. The question now becomes:
+12. What is the 360th number beginning with 4?
+13. If the second digit is 1, then the number of permutations of the last 5 digits is 5! = 120. Numbers of the form 41xxxxx make up numbers 1-120 of the remaining list.
+14. The next value for the second digit could be 2, so 42xxxxx are 121-240 of the remaining list.
+15. The third value for the second digit can be 3, so 43xxxxx are 241-360, so the final answer will begin with 43.
+16. Numbers of form 431xxxx are 120 in total.
+17. Numbers of form 432xxxx are 120 in total.
+18. Consider numbers starting with 43. The smallest such number is 4312567. The 360th number from our list is the largest number that starts with 43, and so is 4376521.
+19. Thus we need to find the 360th number that starts with 4, and then the last digit of this number.
+20. Numbers beginning with 41xxxx has 5! = 120 permutations. (1-120)
+21. Numbers beginning with 42xxxx has 5! = 120 permutations. (121-240)
+22. Numbers beginning with 43xxxx has 5! = 120 permutations. (241-360)
+23. So the 360th number will begin with 43, then the digits are in descending order to create the largest value within that range.
+24. Thus the number is 4376521.
+
+Answer: E)

@@ -1,0 +1,30 @@
+Raonament: Primer identifiquem les fruites: taronges, pomes i peres. Volem combinacions de 3 fruites. Podem tenir:
+- 3 taronges (impossible, només n'hi ha 2)
+- 3 pomes
+- 3 peres (impossible, només n'hi ha 2)
+- 2 taronges, 1 poma
+- 2 taronges, 1 pera
+- 2 pomes, 1 taronja
+- 2 pomes, 1 pera
+- 2 peres, 1 taronja
+- 2 peres, 1 poma
+- 1 taronja, 1 poma, 1 pera
+- 1 taronja, 2 pomes
+- 1 taronja, 2 peres
+- 1 poma, 2 taronges
+- 1 poma, 2 peres
+- 1 pera, 2 taronges
+- 1 pera, 2 pomes
+Ara, enumerem totes les combinacions possibles de 3 fruites:
+1. 3 pomes (PPP)
+2. 2 taronges, 1 poma (TTP)
+3. 2 taronges, 1 pera (TTPe)
+4. 2 pomes, 1 taronja (PPT)
+5. 2 pomes, 1 pera (PPPe)
+6. 2 peres, 1 taronja (PePeT)
+7. 2 peres, 1 poma (PePeP)
+8. 1 taronja, 1 poma, 1 pera (TPe)
+
+En total hi ha 7 combinacions vàlides.
+
+Resposta: C)

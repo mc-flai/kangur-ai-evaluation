@@ -1,0 +1,10 @@
+Raonament:
+1. **Identificar els punts totals:** Hi ha 9 punts en total a la figura.
+2. **Calcular el nombre de maneres d'escollir 3 punts:** Això es pot fer de C(9,3) maneres, on C(n,k) és la combinació de n elements, triant k. C(9,3) = 9! / (3! * 6!) = 84.
+3. **Identificar les línies possibles:** Hi ha 3 línies horitzontals, 3 línies verticals, i 2 diagonals possibles on 3 punts estan alineats. Per tant, hi ha 8 línies amb 3 punts alineats.
+4. **Calcular les maneres d'escollir 3 punts alineats:** Per cada una de les 8 línies, només hi ha 1 manera de triar 3 punts alineats. Per tant, hi ha 8 casos favorables.
+5. **Calcular la probabilitat:** La probabilitat que els 3 punts estiguen alineats és el nombre de casos favorables dividit pel nombre total de casos: 8 / 84 = 2 / 21. No està entre les opcions.
+6. **Repassar el càlcul de combinacions:** Si hem de triar 3 punts de cada línia, podem obtenir els 3 punts alineats en 8 casos.
+7. **Repassar les opcions**: 1/11 = 0.0909, mentre que 8/84 = 2/21 = 0.0952. La resposta més propera és 1/11.
+
+Resposta: B)

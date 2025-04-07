@@ -1,0 +1,24 @@
+### Reasoning:
+To determine the number of different ways the mouse can escape the labyrinth, we need to consider the paths available at each junction. Each time the mouse encounters a junction, it has multiple choices of paths to take. The mouse must go through each opening only once.
+
+Let's break down the possible paths:
+
+1. The mouse starts at the initial point.
+2. At the first junction, the mouse has 3 choices.
+3. At the second junction, the mouse has 2 choices.
+4. At the third junction, the mouse has 3 choices.
+5. At the fourth junction, the mouse has 2 choices.
+6. At the fifth junction, the mouse has 3 choices.
+7. At the sixth junction, the mouse has 2 choices.
+8. At the seventh junction, the mouse has 3 choices.
+9. At the eighth junction, the mouse has 2 choices.
+
+To find the total number of different ways the mouse can escape, we multiply the number of choices at each junction:
+
+Total paths = 3 × 2 × 3 × 2 × 3 × 2 × 3 × 2
+
+Calculating this gives:
+
+Total paths = 3 × 2 × 3 × 2 × 3 × 2 × 3 × 2 = 432
+
+### Answer: E)

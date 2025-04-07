@@ -1,0 +1,15 @@
+
+Raisonnement :
+1. Joey a quatre crayons de couleur.
+2. Chaque crayon est utilisé pour colorier une région distincte d'un kangourou.
+3. Deux régions sont touchantes, ce qui signifie qu'elles partagent une bordure commune.
+4. La question demande combien de couleurs différentes Joey peut utiliser pour colorier le kangourou.
+
+Pour déterminer le nombre de couleurs différentes que Joey peut utiliser :
+- Si deux régions sont touchantes, elles doivent être colorées avec la même couleur pour éviter une erreur.
+- Cela signifie qu'il y a deux couleurs utilisées pour les régions non touchantes.
+- Avec quatre crayons, deux couleurs sont utilisées pour les régions touchantes, et deux couleurs sont utilisées pour les autres régions.
+
+Par conséquent, le nombre de couleurs différentes utilisées est 2.
+
+Réponse : C)

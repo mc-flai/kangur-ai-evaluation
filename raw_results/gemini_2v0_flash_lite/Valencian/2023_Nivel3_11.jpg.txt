@@ -1,0 +1,20 @@
+Raonament:
+1. **Trobar x:**
+   - 12 = 2^2 * 3
+   - Per a que 12 * x sigui un quadrat perfecte, necessitem que l'exponent de cada factor primer sigui parell.  Així, x hauria de ser 3 per a que 12*3 = 36 = 6^2
+   - Aleshores, x = 3.
+2. **Trobar y:**
+   - 24 = 2^3 * 3
+   - Per a que 24 * y sigui un cub perfecte, necessitem que l'exponent de cada factor primer sigui múltiple de 3.
+   - Així, y ha de ser 2^2 * 3^2 = 4 * 9 = 36. Així, 24 * 36 = 864 = 9^3
+   - Aleshores, y = 36
+3. **Calcular x + y:**
+   - x + y = 3 + 36 = 39.  Això no coincideix amb cap de les opcions. Reviso el càlcul de y.
+   - 24*y = cub perfecte
+   - 24 = 2^3 * 3^1
+   - Per a que la potència de 2 sigui divisible per 3, y ha de tenir 2^0, 2^3, 2^6 etc. Com volem el nombre més petit, el podem ignorar, i la potència de 2 hauria de ser 2^0 = 1
+   - Per a que la potència de 3 sigui divisible per 3, y ha de tenir 3^2, 3^5, etc. El més petit seria 3^2 = 9.
+   - Per tant y = 3^2= 9. Aleshores, 24 * 9 = 216 = 6^3
+   - x + y = 3 + 9 = 12
+
+Resposta: B)

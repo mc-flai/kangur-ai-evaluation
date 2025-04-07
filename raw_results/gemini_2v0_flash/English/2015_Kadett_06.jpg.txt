@@ -1,0 +1,15 @@
+Reasoning: The time it takes to drive from A to B via C is the sum of the time it takes to drive from A to C and the time it takes to drive from C to B.
+Let $T(A \to B \text{ via } C)$ be the time it takes to drive from A to B via C.
+Let $T(A \to C)$ be the time it takes to drive from A to C.
+Let $T(C \to B)$ be the time it takes to drive from C to B.
+We are given:
+$T(A \to B \text{ via } C) = 130$ minutes.
+$T(A \to C) = 35$ minutes.
+We want to find $T(C \to B)$.
+We have the equation:
+$T(A \to B \text{ via } C) = T(A \to C) + T(C \to B)$
+$130 = 35 + T(C \to B)$
+$T(C \to B) = 130 - 35$
+$T(C \to B) = 95$
+
+Answer: A)

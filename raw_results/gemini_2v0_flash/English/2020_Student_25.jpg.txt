@@ -1,0 +1,30 @@
+Reasoning:
+Let $f$ be the number of fruits and $v$ be the number of vegetables initially available. We have $f=12$ and $v=6$.
+Ana wants to buy 3 fruits and 1 vegetable, so the number of possible choices for Ana is $\binom{12}{3} \binom{6}{1} = \frac{12 \cdot 11 \cdot 10}{3 \cdot 2 \cdot 1} \cdot 6 = 220 \cdot 6 = 1320$.
+Let $x$ be the number of fruits that were sold out and $y$ be the number of vegetables that were sold out. Then Bela has $12-x$ fruits and $6-y$ vegetables to choose from.
+Bela wants to buy 2 fruits and 2 vegetables. The number of possible choices for Bela is $\binom{12-x}{2} \binom{6-y}{2}$.
+We are given that the number of possible choices for Bela is a quarter of the number of possible choices for Ana, so
+$\binom{12-x}{2} \binom{6-y}{2} = \frac{1}{4} \binom{12}{3} \binom{6}{1} = \frac{1}{4} \cdot 1320 = 330$.
+We have $\binom{12-x}{2} \binom{6-y}{2} = 330$. We are looking for $x+y$, the number of products that were sold out.
+We can test the possible values for $x+y$:
+If $x+y=1$, then $x=0, y=1$ or $x=1, y=0$.
+If $x=0, y=1$, we have $\binom{12}{2} \binom{5}{2} = \frac{12 \cdot 11}{2} \cdot \frac{5 \cdot 4}{2} = 66 \cdot 10 = 660 \neq 330$.
+If $x=1, y=0$, we have $\binom{11}{2} \binom{6}{2} = \frac{11 \cdot 10}{2} \cdot \frac{6 \cdot 5}{2} = 55 \cdot 15 = 825 \neq 330$.
+If $x+y=2$, then $x=0, y=2$ or $x=1, y=1$ or $x=2, y=0$.
+If $x=0, y=2$, we have $\binom{12}{2} \binom{4}{2} = 66 \cdot 6 = 396 \neq 330$.
+If $x=1, y=1$, we have $\binom{11}{2} \binom{5}{2} = 55 \cdot 10 = 550 \neq 330$.
+If $x=2, y=0$, we have $\binom{10}{2} \binom{6}{2} = \frac{10 \cdot 9}{2} \cdot \frac{6 \cdot 5}{2} = 45 \cdot 15 = 675 \neq 330$.
+If $x+y=3$, then $x=0, y=3$ or $x=1, y=2$ or $x=2, y=1$ or $x=3, y=0$.
+If $x=0, y=3$, we have $\binom{12}{2} \binom{3}{2} = 66 \cdot 3 = 198 \neq 330$.
+If $x=1, y=2$, we have $\binom{11}{2} \binom{4}{2} = 55 \cdot 6 = 330$. This works!
+So $x+y=3$ is a solution.
+We need to find other solutions. Let's test $x+y=4$.
+If $x+y=4$, then $x=1, y=3$, $\binom{11}{2}\binom{3}{2} = 55\cdot3 = 165 \neq 330$.
+If $x+y=5$, then $x=2, y=3$, $\binom{10}{2}\binom{3}{2} = 45\cdot3 = 135 \neq 330$.
+
+Reasoning:
+We have $\binom{12-x}{2} \binom{6-y}{2} = 330$. We found a solution when $x=1$ and $y=2$. In this case, $x+y=3$.
+Then $\binom{12-1}{2} \binom{6-2}{2} = \binom{11}{2} \binom{4}{2} = 55 \cdot 6 = 330$.
+So, the number of products sold out is $x+y=1+2=3$.
+
+Answer: C)

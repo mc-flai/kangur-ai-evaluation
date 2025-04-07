@@ -1,0 +1,14 @@
+La pregunta 22 nos pide encontrar el número mínimo de intervalos sucesivos que se necesitan para ordenar los números del 1 al 9 en orden creciente.
+
+Para resolver esto, debemos considerar cómo se pueden ordenar los números del 1 al 9 utilizando el menor número de intervalos.
+
+**Razonamiento:**
+1. Primero, observamos la secuencia dada: 4, 2, 3, 9, 8, 1, 7, 5, 6.
+2. Para ordenar esta secuencia en orden creciente, necesitamos considerar los saltos entre los números.
+3. El número mínimo de intervalos sucesivos se refiere a la cantidad de veces que necesitamos cambiar el orden de los números para que estén en orden creciente.
+4. Comenzamos con el número más pequeño, que es 1.
+5. El siguiente número en orden creciente sería 2, 3, 4, 5, 6, 7, 8, 9.
+6. Contamos los intervalos necesarios para cambiar cada número a su posición correcta en orden creciente.
+7. Al revisar la secuencia, vemos que necesitamos 4 intervalos sucesivos para ordenar los números del 1 al 9 en orden creciente.
+
+**Respuesta: A) 4**

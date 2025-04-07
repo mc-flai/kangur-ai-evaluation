@@ -1,0 +1,29 @@
+
+La pregunta 30 se refiere a encontrar el resultado de dividir el área de la zona sombreada en un octágono regular por el área del octágono.
+
+Para resolver esto, primero necesitamos entender la estructura del octágono y cómo se divide en secciones.
+
+1. Un octágono regular se puede dividir en 8 triángulos iguales.
+2. Cada triángulo tiene una base que es un lado del octágono y una altura que es la distancia desde el centro del octágono a un lado.
+3. La zona del octágono se puede calcular usando la fórmula para la zona de un octágono, que es \(2s^2(1+\sqrt{2})/2\), donde \(s\) es el largo de un lado del octágono.
+4. La zona de cada triángulo es \(s^2\sqrt{2}/4\).
+5. La zona sombreada en la imagen parece ser una sección que incluye 2 de estos triángulos.
+
+Calculamos el área de la zona sombreada:
+\[ \text{Área de la zona sombreada} = 2 \times \left(\frac{s^2\sqrt{2}}{4}\right) = \frac{s^2\sqrt{2}}{2} \]
+
+Calculamos el área total del octágono:
+\[ \text{Área total del octágono} = \frac{2s^2(1+\sqrt{2})}{2} = s^2(1+\sqrt{2}) \]
+
+Dividimos el área de la zona sombreada por el área total del octágono:
+\[ \frac{\frac{s^2\sqrt{2}}{2}}{s^2(1+\sqrt{2})} = \frac{\sqrt{2}}{2(1+\sqrt{2})} \]
+
+Simplificamos la expresión:
+\[ \frac{\sqrt{2}}{2(1+\sqrt{2})} = \frac{\sqrt{2}}{2 + 2\sqrt{2}} = \frac{\sqrt{2}}{2(1+\sqrt{2})} \times \frac{1-\sqrt{2}}{1-\sqrt{2}} = \frac{\sqrt{2}(1-\sqrt{2})}{2} = \frac{2-\sqrt{2}}{2} \]
+
+Por lo tanto, el resultado es:
+\[ \frac{2-\sqrt{2}}{2} = 1 + \frac{\sqrt{2}}{2} \]
+
+Raonamiento: El área de la zona sombreada dividida por el área del octágono es \(1 + \frac{\sqrt{2}}{2}\).
+
+Respuesta: A)

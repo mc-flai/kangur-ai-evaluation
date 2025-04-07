@@ -1,0 +1,20 @@
+Raisonnement :
+1. Identifier les points sur la droite : H, U, G, O sont dans cet ordre.
+2. Connaître les longueurs : HG = 12 cm et UO = 18 cm.
+3. Calculer la distance HU : On ne peut pas connaître directement HU.
+4. Calculer la distance GO : GO = GU + UO. On ne connaît pas GU.
+5. Représentation visuelle : Dessiner la droite avec les points.
+6. Pour trouver la distance entre le milieu de [HU] et celui de [GO], il faut d'abord calculer la position des milieux.  Le milieu de [HU] est à HU/2 de H. Le milieu de [GO] est à GO/2 de G.
+7. Calculer la distance UG = HG + GU. On ne peut pas calculer.
+8. On ne peut pas calculer sans plus d'informations.
+9. Puisque les points sont dans l'ordre H, U, G et O. Alors HG = 12 cm et UO = 18 cm.
+10. La distance entre le milieu de HU et le milieu de GO est |(HG + GU)/2 - (GU + UO)/2 + GU|
+11. Puisque on ne sait pas les distances de GU. On sait que la distance de G à O est GU + UO.
+12. On a le milieu de HU = H + HU/2. On ne peut pas calculer HU.
+13. On a le milieu de GO = G + GO/2. On ne peut pas calculer GO.
+14. Considérons l'option qui prend en compte les deux longueurs. Le milieu de [HU] et le milieu de [GO].
+15. La distance entre le milieu de HU et le milieu de GO est = (HG + GU + UO) /2 - HG/2 = (12+UG+18)/2 - 12/2 = (30 + UG)/2 - 6.
+16. Considérons l'hypothèse la plus simple que U et G sont les mêmes. Alors UG = 0.
+17. La distance est alors (12 + 18)/2 = 30/2 = 15.
+
+Réponse : A)

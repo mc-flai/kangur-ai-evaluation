@@ -1,0 +1,11 @@
+Razonamiento:
+El dígito de las unidades de $5^n$ para cualquier entero positivo $n$ es siempre 5. Por lo tanto, $5^5$ termina en 5, $5^{10}$ termina en 5 y $5^{15}$ termina en 5.
+
+Entonces, $5^5 + 1$ termina en $5+1 = 6$.
+$5^{10} + 1$ termina en $5+1 = 6$.
+$5^{15} + 1$ termina en $5+1 = 6$.
+
+El producto $(5^5 + 1)(5^{10} + 1)(5^{15} + 1)$ termina en el mismo dígito de las unidades que $6 \cdot 6 \cdot 6 = 36 \cdot 6$.
+Como 36 termina en 6, multiplicando por 6 resulta en $36 \cdot 6 = 216$, que termina en 6.
+
+Respuesta: E)

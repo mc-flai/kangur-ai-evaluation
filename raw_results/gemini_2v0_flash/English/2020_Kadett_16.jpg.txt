@@ -1,0 +1,9 @@
+Reasoning:
+The bigger cube is formed by 27 smaller cubes, which means it's a 3x3x3 cube.
+Each small cube has 3 red faces and 3 faces of another color.
+To maximize the number of red faces on the larger cube, we need to orient the small cubes such that the red faces are on the exterior of the larger cube as much as possible.
+A standard cube has 6 faces. The maximum number of completely red faces on the bigger cube cannot exceed 6.
+Consider placing the little cubes so that all 3 red faces of a cube are exposed. Then the 3x3x3 bigger cube can have a maximum of 6 completely red faces, corresponding to one color scheme for each face.
+To prove that it is attainable: orient all little cubes in a way that red faces are on top, front, right of a 3x3x3 cube. Then the big cube can be formed where the red faces of the small cubes create the red faces of the larger cube.
+
+Answer: (E)

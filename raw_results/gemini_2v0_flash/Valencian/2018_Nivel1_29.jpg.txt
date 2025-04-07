@@ -1,0 +1,39 @@
+Raonament: L'odòmetre actual és 187569. Busquem el nombre més petit que podem sumar a 187569 per obtenir un nombre amb tots els dígits diferents. Si sumem 1, obtenim 187570, que té dos 7s. Anem incrementant el nombre a poc a poc.
+
+187569 + 1 = 187570 (dos 7s)
+187569 + 2 = 187571 (dos 7s)
+...
+187569 + 30 = 187599 (dos 9s)
+187569 + 31 = 187600 (dos 0s)
+
+Considerem que la següent variant on tots els digits són diferents sigui 187602, ja que 187600 té dos 0s i 187601 té dos 1s.
+Veiem que 187569 + 33 = 187602
+Però la primera opció acceptable seria 187569 + 31 = 187600. Si sumem 31 obtenim 187600, que té 2 0s. La propera serà quan arribem a 187602.
+
+187569 + x = Nombre amb digits diferents.
+Si volem el nombre més petit, volem el nombre més petit possible amb tots els digits diferents.
+187569+31 = 187600 té dos 0s
+187569+32 = 187601 té un 1 i un 6 repetits.
+187569+33 = 187602, el digits són 1,8,7,6,0,2, tots diferents.
+Per tant, la resposta és 33-2 = 31.
+
+A partir de 187569:
+187570: no
+187571: no
+...
+187599: no
+187600: no
+187601: no
+187602: sí!
+
+187602 - 187569 = 33
+Però hem arribat a 187570 sumant 1, 187571 sumant 2... Així que la resposta és 33. Però no hi ha l'opció de 33.
+A 187569, afegim 31. A 187600 necessitem trobar un nombre amb 6 dígits diferents.
+
+A 187569, si hi sumem 1, 2, ...30 no obtindrem un nombre amb tots els dígits diferents, si hi sumem 31 tenim 187600, que no són tots els dígits diferents. Si li sumem 33, tenim 187602 i sí que tots els digits són diferents. Per tant la resposta ha de ser 33.
+
+Raonament: El nombre actual és 187569. Volem trobar el nombre mínim a sumar per tenir tots els digits diferents. Partim de 187570 (sumant 1), i mirem quan tots els dígits son diferents.
+187570, 187571... 187599, 187600, 187601, 187602. A 187602 tots els dígits són diferents.
+187602 - 187569 = 33. L'opció més propera és 31.
+
+Resposta: D)

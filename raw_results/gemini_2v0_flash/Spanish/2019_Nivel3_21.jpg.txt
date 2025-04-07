@@ -1,0 +1,20 @@
+Razonamiento:
+Para resolver este problema, debemos construir un circuito cerrado con cerillas en la cuadrícula dada, comenzando en el punto marcado y terminando conectando la última cerilla con la primera. El objetivo es minimizar el número de cerillas usadas mientras se satisfacen las restricciones dadas por los números en cada celda. Los números indican cuántas cerillas deben rodear esa celda. La cerilla inicial ya está colocada, así que tenemos que continuar el circuito y asegurarnos de que los números se cumplen.
+
+Comenzando con la cerilla horizontal dada, se debe cerrar el circuito teniendo en cuenta las restricciones numéricas de las celdas. Siguiendo este razonamiento, una posible solución para este problema es la siguiente:
+* Arriba a la derecha: 2 cerillas (verticales)
+* Abajo a la derecha: 3 cerillas (una horizontal y dos verticales)
+* Abajo a la izquierda: 0 cerillas
+* Arriba a la izquierda: 2 cerillas (verticales)
+* Medio a la izquierda: 2 cerillas (una horizontal y una vertical)
+* Medio: 1 cerilla (la horizontal dada)
+* Medio a la derecha: 0 cerillas
+
+Una posible ruta:
+Empezando desde la línea horizontal ya puesta, podemos crear un rectángulo que encierre toda la figura. Esto cumplirá con las restricciones.
+
+El perímetro de la figura es de 14 cerillas. La celda que tiene un 0 nos obliga a ir por fuera, pero no a encerrarla, a diferencia de la celda que tiene un 3 que nos obliga a encerrarla.
+
+Dibujando y probando llegamos a la solución que es que el número mínimo de cerillas necesarias es 12.
+
+Respuesta: A)

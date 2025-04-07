@@ -1,0 +1,17 @@
+Para resolver la pregunta 7, debemos identificar la menor cantidad de colores necesarios para colorear la figura de modo que no haya dos polígonos vecinos (incluidos aquellos que comparten un solo vértice) del mismo color.
+
+**Razonamiento**:
+1. La figura consta de cuadrados y triángulos.
+2. Primero observamos que un cuadrado tiene cuatro vértices y cada cuadrado está rodeado por cuatro triángulos.
+3. Dado que los triángulos comparten vértices con los cuadrados, necesitamos asegurarnos de que ningún triángulo vecino comparta el mismo color.
+4. Para optimizar el uso de colores, comencemos con un cuadrado y sus triángulos vecinos.
+5. Si coloreamos un cuadrado con un color, los cuatro triángulos vecinos deben ser de diferentes colores, lo que sugiere que necesitaremos al menos cinco colores (uno para el cuadrado y cuatro para los triángulos).
+
+Sin embargo, debemos verificar si cuatro colores son suficientes:
+1. Podemos colorear los cuadrados con dos colores de manera que ningún cuadrado vecino tenga el mismo color (como en un tablero de ajedrez).
+2. Luego podemos colorear los triángulos con dos colores adicionales, asegurándonos de que cada triángulo comparta un vértice con un cuadrado de un color diferente.
+3. De esta manera, los triángulos vecinos no compartirán el mismo color.
+
+Por lo tanto, cuatro colores son suficientes para colorear la figura sin que dos polígonos vecinos compartan el mismo color.
+
+**Respuesta**: B)

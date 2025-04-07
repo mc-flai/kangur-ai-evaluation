@@ -1,0 +1,17 @@
+**Razonamiento**:
+Para determinar cuántos números de cuatro cifras de la forma \( abab \) son "interesantes", debemos considerar los criterios para que un número sea "interesante" y cuáles son posibles según la forma dada.
+
+Un número de la forma \( abab \) se puede descomponer en \( 101 \times a \times 10 + b \times 10 \). 
+
+Para que un número sea "interesante", las dos cifras \( a \) y \( b \) deben ser distintas. 
+
+Puesto que \( a \) y \( b \) son cifras (del 0 al 9), y dado que estamos considerando números de cuatro dígitos, \( a \) no puede ser 0 (ya que eso haría que el número tuviera menos de cuatro dígitos). Por lo tanto, \( a \) puede tomar los valores desde 1 hasta 9 (9 opciones), y \( b \) puede tomar los valores desde 0 hasta 9 (10 opciones en total).
+
+Dado que \( a \) y \( b \) deben ser distintos, cada par \((a, b)\) debe ser tal que \( a \neq b \).
+
+Para calcular el número total de estos pares, usamos combinaciones:
+- Para cada opción de \( a \) (9 opciones), hay 9 opciones para \( b \) (ya que \( b \) no puede ser igual a \( a \)).
+
+Por lo tanto, el número total de combinaciones es \( 9 \times 9 = 81 \).
+
+**Respuesta**: B).

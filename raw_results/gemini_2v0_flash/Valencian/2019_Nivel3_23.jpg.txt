@@ -1,0 +1,9 @@
+Raonament: Cada quadrat 1x1 ha de tenir 4 colors diferents als costats. En total hi ha 9 quadrats 1x1. El nombre de colors és 4 (blau, roig, groc o negre).
+Si ens fixem en un quadrat qualsevol, hem de tenir 4 colors diferents. El mínim nombre de pals negres que haurem de fer servir serà quan cada vegada que utilitzem un pal negre, aquest serveixi per al major nombre possible de quadrats. Si col·loquem pals negres en les files/columnes parelles (2a fila/columna), cadascun d'aquests pals serveix per a dos quadrats.
+Analitzem la quadrícula 3x3. Si col·loquem 4 pals negres com un quadrat interior, tenim que els 4 quadrats interiors tenen un costat negre i necessiten 3 colors diferents. Després, hem de completar els costats dels quadrats exteriors, utilitzant els colors disponibles.
+El nombre mínim es troba per assaig i error. Si provem a fer servir 3 pals negres, podriem posar-los en una cantonada com si fos una L invertida. Però és difícil completar els colors de cada quadrat 1x1.
+Si en posem 4, col·locant-los en una cantonada formant un quadrat de 2x2, és més fàcil completar els colors que falten a cada quadrat 1x1.
+Si provem amb 4 pals negres com a mínim i intentem pintar la quadrícula, veiem que hi ha alguna configuració on sí que es compleix.
+Per tant, el nombre més petit serà 4.
+
+Resposta: B)

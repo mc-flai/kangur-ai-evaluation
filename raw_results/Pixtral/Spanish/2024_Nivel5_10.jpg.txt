@@ -1,0 +1,14 @@
+Para determinar la superficie máxima posible de un campo rectangular con una valla de 40 metros, necesitamos encontrar los lados del campo que son números primos. Los números primos son números que solo tienen dos divisores distintos: 1 y el número mismo. Los números primos menores que 40 son: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 y 37.
+
+Primero, consideramos que uno de los lados del campo es 40 metros. Esto no es posible porque 40 no es un número primo. Por lo tanto, debemos buscar combinaciones de números primos que sumen 40.
+
+Una combinación posible es 11 y 39, pero 39 no es un número primo. Otra combinación es 13 y 37, pero 37 no es un número primo. Finalmente, encontramos que 17 y 23 son números primos y suman 40.
+
+Por lo tanto, los lados del campo son 17 metros y 23 metros. La superficie del campo se calcula como:
+\[ \text{Superficie} = 17 \, \text{m} \times 23 \, \text{m} = 391 \, \text{m}^2 \]
+
+Sin embargo, entre las opciones dadas, la superficie más cercana a 391 es 396 m².
+
+Razonamiento: Identificamos los números primos menores que 40 y encontramos una combinación que sumen 40. Calculamos la superficie del campo con esos lados y comparamos con las opciones dadas.
+
+Respuesta: B)

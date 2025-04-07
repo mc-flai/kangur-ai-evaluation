@@ -1,0 +1,13 @@
+Per resoldre la pregunta, hem de pensar en els casos en què una caixa negra pot estar tocant altres caixes negres en una graella de 2x7. En aquest cas, tenim un total de 14 caixes.
+
+Suposem que pintem una caixa de negre i que totes les caixes que estiguin en contacte amb ella hagin de ser pintades de gris. Això significa que les caixes veïnes de la caixa negra no poden ser negres.
+
+Per determinar la quantitat mínima de caixes que han de ser pintades de negre perquè no en quedi cap de blanca, hem de considerar les posicions de les caixes negres que maximitzin la cobertura de veïns grisos sense solapar-se.
+
+En una graella de 2x7, pintar una caixa de negre afectarà almenys 2 caixes veïnes (si està en un cantó) o fins a 4 caixes veïnes (si està en una posició interior). Per tant, si pintem cada caixa negra en un patró que maximitzi la cobertura de veïns grisos, podem cobrir totes les caixes amb el mínim de caixes negres.
+
+Si pintem una caixa negra en cada fila i columna, podem cobrir totes les caixes veïnes. En una graella de 2x7, això significa que necessitem almenys 4 caixes negres per cobrir totes les caixes veïnes.
+
+Raonament: Per cobrir totes les caixes veïnes sense solapar-se, necessitem almenys 4 caixes negres en una graella de 2x7.
+
+Resposta: B)

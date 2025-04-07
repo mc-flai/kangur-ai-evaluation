@@ -1,0 +1,23 @@
+To determine the correct answer, we need to consider the worst-case scenario where Sebastian would have to remove the maximum number of pieces of fruit to ensure he has at least one apple and one pear of the same color.
+
+Here's the breakdown of the fruit in the sack:
+- 3 green apples
+- 5 yellow apples
+- 7 green pears
+- 2 yellow pears
+
+Total fruit: 3 + 5 + 7 + 2 = 17 pieces of fruit.
+
+Sebastian needs to ensure at least one apple and one pear of the same color. The worst-case scenario is when the last fruits left in the sack are either all apples or all pears of different colors.
+
+Let's analyze the worst-case scenarios:
+
+1. If Sebastian keeps picking and all the remaining fruits are apples, he would have to remove all the apples (3 green and 5 yellow) to ensure he gets at least one pear. This would be 8 apples in total.
+2. If Sebastian keeps picking and all the remaining fruits are pears, he would have to remove all the pears (7 green and 2 yellow) to ensure he gets at least one apple. This would be 9 pears in total.
+
+Since the question asks for the number of pieces of fruit Sebastian must take out to be sure of having at least one apple and one pear of the same color, the worst-case scenario involves taking out the maximum of these two numbers.
+
+In this case, the maximum number of pieces of fruit Sebastian must take out is 9 (all the pears), ensuring he has at least one apple remaining.
+
+Reasoning: In the worst-case scenario, Sebastian would have to remove 9 pieces of fruit to ensure he has at least one apple and one pear of the same color.
+Answer: A).

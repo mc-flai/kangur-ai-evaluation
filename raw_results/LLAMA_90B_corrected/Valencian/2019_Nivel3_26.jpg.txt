@@ -1,0 +1,16 @@
+Raonament: Un grau d'un vèrtex en un graf sense orientació és el nombre de costats que s'hi connecten. Per exemple, d'acord amb el diagrame, els tres graus dels vèrtexs corresponents als nodes cabdals són, de esquerra a dreta: $5, 2$ i $4$. Ara es consideren tres casos: 
+
+1. Suposant $X_d < 4$ i $Y_d < 6$. Podem veure que l'extrem més petit de $G$ és $5$. En aquest cas, la fórmula $|V| \ge |E| + 1 - \max\{X_d, \lfloor Y_d/2 \rfloor\}$ dona lloc a la desigualtat
+
+$$|V| \ge 8+1 - \lceil 4/2 \rceil= 6,$$ que supereix el nombre d'extrems del graph taulat.
+
+2. Suposant $X_d \ge 4$. La inequació ve determinada per 
+
+$$|V| \ge 8+2- X_d \ge 6$$ (ja que el lliure extrem $8$ redueix la desigualtat en d'un unitat). La darrera expressió correspondria als dates obtingudes per una graf amb set extrems i $Y_d = 8$, per exemple:
+
+i que sembla impossible doblegar-la amb $X_d = 4$ i $ Y_d \le 6$.
+
+3. Suposant $Y_d \ge 6$. Com en el cas anterior l'extrem donat determina el lleure de les desigualtat del grau minim de шляхом $6$, amb independència de $|E|$ (_bounds generats pel darrer cas).
+
+Com a mínim tres de qualsevol dos punts extrems de $G$ debieren estar pintats amb el mateix color. Arriba $5 + 4 + 3 = X_d + Y_d \ge 9$, on 2 vèrtexs mestre són pintats del mateix color. pendent Quina de les opcions st数学')són vàlides ex Jets join èmoljoin. 
+Resposta: No Answer.

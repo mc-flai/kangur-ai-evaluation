@@ -1,0 +1,76 @@
+**Raonament:**
+
+Per determinar si les equacions \( ax^2 + bx + c = 0 \) i \( bx^2 + ax + c = 0 \) tenen cap solució comuna diferent de zero, hem de considerar les condicions sota les quals les solucions d'una equació quadràtica són reals.
+
+1. **Discriminant de les equacions quadràtiques:**
+   El discriminant d'una equació quadràtica \( ax^2 + bx + c = 0 \) es dona per:
+   \[
+   \Delta = b^2 - 4ac
+   \]
+   Per a l'equació \( bx^2 + ax + c = 0 \), el discriminant és:
+   \[
+   \Delta' = a^2 - 4bc
+   \]
+
+2. **Condicions per a solucions reals:**
+   Una equació quadràtica té solucions reals si i només si el seu discriminant és positiu o zero.
+   - Per a \( ax^2 + bx + c = 0 \):
+     \[
+     b^2 - 4ac \geq 0
+     \]
+   - Per a \( bx^2 + ax + c = 0 \):
+     \[
+     a^2 - 4bc \geq 0
+     \]
+
+3. **Solucions comunes:**
+   Si les dues equacions tenen una solució comuna, llavors aquesta solució deu satisfer ambdues equacions simultàniament. Això significa que si \( x \) és una solució comuna, llavors:
+   \[
+   ax^2 + bx + c = 0
+   \]
+   i
+   \[
+   bx^2 + ax + c = 0
+   \]
+
+4. **Restant les equacions:**
+   Restem les dues equacions:
+   \[
+   ax^2 + bx + c - (bx^2 + ax + c) = 0
+   \]
+   Simplificant, obtenim:
+   \[
+   (a - b)x^2 + (b - a)x = 0
+   \]
+   Factoritzant, tenim:
+   \[
+   (a - b)(x^2 + x) = 0
+   \]
+   Si \( a \neq b \), llavors \( x^2 + x = 0 \), que té solucions \( x = 0 \) o \( x = -1 \).
+
+5. **Conclusió:**
+   Perquè les equacions tinguin una solució comuna diferent de zero, \( x = -1 \) ha de satisfer ambdues equacions. Això implica que:
+   \[
+   a(-1)^2 + b(-1) + c = 0 \implies a - b + c = 0
+   \]
+   i
+   \[
+   b(-1)^2 + a(-1) + c = 0 \implies b - a + c = 0
+   \]
+   Sumant aquestes dues equacions, obtenim:
+   \[
+   a - b + c + b - a + c = 0 \implies 2c = 0 \implies c = 0
+   \]
+   Així, si \( c = 0 \), les equacions es converteixen en:
+   \[
+   ax^2 + bx = 0
+   \]
+   i
+   \[
+   bx^2 + ax = 0
+   \]
+   En aquest cas, les solucions comunes depenen dels valors de \( a \) i \( b \). Si \( a \) i \( b \) són no zero, llavors les solucions comunes són \( x = 0 \) i \( x = -\frac{a}{b} \).
+
+Per tant, la condició perquè les equacions tinguin una solució comuna diferent de zero és que \( a + b + c = 0 \).
+
+**Resposta:** E) \( a + b + c = 0 \)

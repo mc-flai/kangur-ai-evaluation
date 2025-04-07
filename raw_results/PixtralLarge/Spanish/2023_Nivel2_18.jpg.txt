@@ -1,0 +1,29 @@
+Para resolver el problema 18, primero necesitamos determinar el valor de la expresión \( S = 3 * 3 + 3 * 3 * 3 \) sin usar paréntesis y sin seguir las reglas de jerarquía de operaciones, sino simplemente de izquierda a derecha.
+
+**Razonamiento**:
+1. Comenzamos con la expresión original:
+   \[ S = 3 * 3 + 3 * 3 * 3 \]
+   
+2. Evaluamos la expresión de izquierda a derecha sin importar las reglas de precedencia. 
+   - Primero, multiplicamos 3 por 3:
+     \[ 3 * 3 = 9 \]
+   - Sustituimos el resultado en la expresión:
+     \[ S = 9 + 3 * 3 * 3 \]
+   
+3. Continuamos evaluando de izquierda a derecha:
+   - Multiplicamos 3 por 3:
+     \[ 3 * 3 = 9 \]
+   - Sustituimos el resultado en la expresión:
+     \[ S = 9 + 9 * 3 \]
+   
+4. Multiplicamos 9 por 3:
+   \[ 9 * 3 = 27 \]
+   - Sustituimos el resultado en la expresión:
+     \[ S = 9 + 27 \]
+   
+5. Finalmente, sumamos 9 y 27:
+   \[ 9 + 27 = 36 \]
+
+   Por lo tanto, el valor de \( S \) es 36.
+
+**Respuesta**: Ninguna de las opciones A), B), C), D) o E) es correcta, ya que 36 no es una opción dada.

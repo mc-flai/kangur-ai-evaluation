@@ -1,0 +1,9 @@
+Raonament:
+The problem describes two separate triangles, with no three vertices being collinear. We want to find the number of lines that can be drawn by connecting one vertex of each triangle such that the line intersects at least one of the triangles.
+
+1.  **Count the combinations:** From one vertex of the first triangle, we can draw a line to each vertex of the second triangle. This gives us 3 lines. Similarly, from the other two vertices of the first triangle, we can also draw three lines.
+2.  **Check for overlapping cases:** Note, that each line created from a vertex of a triangle will pass through at least the other triangle's vertex and, if not collinear, will "cut" through one or both of the triangles.
+3.  **Consider all possibilities:** As the triangles are separate, a line connecting two vertices (one from each triangle) can pass through either one or both triangles. In the case of the lines that connect the vertices, all the 3 lines can pass through the triangles.
+4.  **Final Answer:** Thus, the answer should be the maximum number of lines we could draw to go across the triangles.
+
+Resposta: D)

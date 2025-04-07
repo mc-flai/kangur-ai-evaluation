@@ -1,0 +1,37 @@
+Reasoning:
+The sum of the first n integers is n(n+1)/2. We need to find n and p such that p divides n(n+1)/2, but p does not divide n or n+1. This implies p=2. However, the question states that p does not divide any of the summands, and the only summand that p could be would be the value 2, since the only even number the sum can contain would be 2. It can't be equal to other even numbers since they are being summed and the summands include 1. The expression n(n+1)/2 becomes n(n+1) if p=2, where we need to find a sum of n+2. For p=2, n must be odd.
+Let's test the options:
+A) n+p = 217.  If p=2, then n = 215. The sum is 215 * 216 / 2 = 215 * 108. 2 divides this.
+B) n+p = 221. If p=2, then n = 219. The sum is 219 * 220 / 2 = 219 * 110. 2 divides this.
+C) n+p = 229. If p=2, then n = 227. The sum is 227 * 228 / 2 = 227 * 114. 2 divides this.
+D) n+p = 245. If p=2, then n = 243. The sum is 243 * 244 / 2 = 243 * 122. 2 divides this.
+E) n+p = 269. If p=2, then n=267. The sum is 267 * 268 / 2 = 267 * 134. 2 divides this.
+
+Now let's analyze options to find n and p where p does not divide n or n+1. The formula of sum = n(n+1)/2 and n+p.
+A: 217 = n + p. Sum = n(n+1)/2. Since p can't divide n or n+1, it's prime number.
+217 could be 196+21 = n+p. But n=196 isn't possible.
+Let's rewrite n(n+1)/2 = k*p.
+If p=3 then the sum is divisible by 3, so 217.
+If n=10, the sum = 55
+If n=11, sum = 66
+If n=216, sum = 216*217/2 = 108*217. p can't divide n or n+1 so let's check options.
+If n=217, the sum = 217*218/2 = 217*109. 2 divides this.
+A: 217. p = 2. n=215, sum is 215*216/2 = 215*108. p=2, doesn't divide n, doesn't divide n+1.
+B: 221. p = 2. n=219, sum is 219*220/2 = 219*110. p=2, doesn't divide n, doesn't divide n+1.
+C: 229. p = 2. n=227, sum is 227*228/2 = 227*114. p=2, doesn't divide n, doesn't divide n+1.
+D: 245. p = 2. n=243, sum is 243*244/2 = 243*122. p=2, doesn't divide n, doesn't divide n+1.
+E: 269. p = 2. n=267, sum is 267*268/2 = 267*134. p=2, doesn't divide n, doesn't divide n+1.
+Check prime factors: 217 = 7*31. 221=13*17, 229 is prime. 245=5*7*7, 269 is prime.
+221. Let p=13. n+13=221, n=208. sum is 208*209/2=208/2 * 209 = 104 * 209 = 21736.
+If n is divisible by p and n+1 not, then p needs to divide the sum.
+
+Let n=10. sum is 55. p = 5, p divides n+1.
+Let n=11, sum is 66, p=2, p divides n.
+Let n=1. sum is 1, impossible.
+Let p = 13 and n=208. Sum = 208*209/2, p=13.
+208/13 = 16. 209/13 is not an integer.
+So sum is divisible by 13.
+n=208, p=13.
+n+p=221.
+
+Answer: B)

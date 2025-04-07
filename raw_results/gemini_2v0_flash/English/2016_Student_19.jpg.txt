@@ -1,0 +1,62 @@
+Reasoning:
+The white triangles have vertices that sum to a multiple of 3.
+The black triangles have vertices that do not sum to a multiple of 3.
+
+Consider possible values for the center point:
+If the center point is 0:
+Top black triangle: 0 + 0 + 2 = 2 (not divisible by 3)
+Bottom left black triangle: 0 + 2 + ? = 2. We require 2 to not be divisible by 3, so 2+2 or 2+1 would be the possibilities which give a total of 4 or 3 respectively. So center point can be 0.
+If the center point is 1:
+Top black triangle: 1 + 0 + 2 = 3 (divisible by 3). This is not possible.
+If the center point is 2:
+Top black triangle: 2 + 0 + 2 = 4 (not divisible by 3)
+Bottom left black triangle: 2 + 2 + ? = 4, therefore cannot be divisible by 3, 2+2 or 2+1 would be possibilities. So center point can be 2.
+
+We need to check also if the other adjacent points are satisfied.
+
+Center = 0
+Left point 1
+Right point 1
+Check Black triangles:
+Top triangle: 0 + 0 + 2 = 2, valid
+Bottom Left: 0+2+1=3 not valid.
+Bottom Left 0+2+2=4 valid.
+
+Center = 1
+Top triangle: 1 + 0 + 2 = 3, not valid.
+
+Center = 2
+Top triangle: 2 + 0 + 2 = 4, valid
+Left = 0, Right = 1
+Bottom left black triangle: 2 + 2 + 0 = 4 valid.
+Right: 2 + 1 + 2 = 5 valid
+
+If left = 1, right = 0
+Bottom Left: 2 + 2 + 1 = 5 valid
+Right: 2 + 0 + 2 = 4 valid
+
+Thus the number inside can be 2.
+The others sums are:
+Top: 0+2+(?)=not divisible by 3
+2+2+(?)= not divisible by 3
+Thus: ? can equal 0 or 2
+Now consider the other black triangles:
+0+2+(?) cannot be divisible by 3 => cannot equal 1
+Now consider right triangles:
+2+2+(?) cannot be divisible by 3 => cannot equal 2
+So we have 1 inside.
+
+2+0+(?)
+2+2 +(?)
+We require that
+0+0+2 => valid
+0+1+2 => valid
+2+0+2 => valid
+2+1+2 => valid
+If we put a 1:
+1+0+2=3, so 1 is NOT valid,
+Thus a 2 is a VALID number, a 1 isn't valid.
+
+Reasoning:
+Answer: (C)
+Final Answer: C)

@@ -1,0 +1,150 @@
+Reasoning:
+The car takes 35 minutes to reach the city center.
+Buses leave every 3 minutes.
+The last bus the car could overtake is the one that left just before the car reaches the city center.
+The total number of buses that have left the airport before the car reaches the city is the number of intervals of 3 minutes in the 60 minutes + 35 minutes interval. Because buses that reach the city after time 60 minutes cannot be overtaken in the interval of 35 minutes by the car, we add 35 minutes to 60 minutes(the time for a bus to reach its destination) to include all buses that have been there at some point during the cars' trip. So it is (60 + 35)/3 = 95/3 = 31.666...
+
+However, since the car started at the same time as the bus, we don't count that one, so it will be 31.66-1 = 30.66 buses.
+
+Let's think about another perspective.
+The first bus that the car can overtake is the one that leaves 3 minutes before the car and it will take 60 minutes to arrive at the city center
+The car will arrive at the city center 35 minutes later.
+Total Number of buses overtaken = Buses leaving airport between [t=-3, t= 35-60 = -25] i.e  35-(-60+3) = 35+57=92 /3 =  = ~ 30
+Buses are leaving the airport from -57 -> 35 minutes.
+
+The first bus the car can overtake is the one that leaves 3 minutes *before*.
+Then when the car arrives (35 minutes) how many buses had started before, i.e., buses that have already reached the city.
+Total time the car spends is 35 minutes
+The buses take 60 mins
+Every three minutes a bus leaves the airport.
+Buses met by car are those leaving -57.
+
+Therefore the first bus leaves at t=-3. the last one leaves at t=33. the number of buses overtaken= (33-(-3))/3 + 1 = 11+1= 12, minus the bus which left at time zero. So total =11 buses
+
+Also buses overtake at time 3 mins before.
+
+Total buses = 57/3 ~11
+
+Reasoning:
+Let's number the bus that leaves with the car as bus 0. Then, a bus leaves 3 minutes before bus 0, 6 minutes before bus 0, and so on.
+The car takes 35 minutes to reach its destination. Any bus that has a start time within the range of t=-infinity to t=35-60=-25 can't be overtaken
+So we just want all buses that starts 3 minutes before car. Let the 1st bus is B1,
+The time to go until reach city center is 35 minutes (Car)
+the earliest departure we are talking is -57 minutes ( bus)
+-> the bus leaves earlier takes 60 minutes
+When the car arrives, the interval of time is = 60+35 is total interval of 95.
+Since the bus leaves after 3 min.
+The total cars overtaken= 95/3 which approx. 31 bus
+But car and bus leaves at the same time. So we minus 1 is approx 11 bus.
+Total = 11 bus overtaken by car.
+
+Answer: (D)
+Reasoning:
+The car's journey takes 35 minutes. We need to find the number of buses the car overtakes, not including the bus that leaves at the same time. A bus leaves every 3 minutes.
+Consider the time the car arrives at the city center (35 minutes after departure). We need to determine how many buses have started their journey before the car but haven't arrived yet.
+A bus takes 60 minutes to complete the journey. So, if a bus has left within the last 60 minutes before the car arrives, it means it's still on its way.
+Consider the time interval: 35 minutes (car's total time).
+Number of 3-minute intervals within this time is 35 / 3 = 11.67.
+Since a bus leaves every 3 minutes, roughly 11 buses have left since the car began its journey.
+
+If the car leaves at time 0 and the bus leaves at 3 minutes, the bus is still on its route.
+6 mins : bus 2
+60 -3 * Number of buses < Time the car takes
+
+Let *x* be the departure of the bus. Since buses leave every 3 minutes before the car: 3 minutes ( *i*), where *i* represents the bus number. The departure time interval before is defined. We also are subtracting the bus which departures at time *0*.
+
+If the departure rate of a bus is negative, then we subtract from t=-3(where t is the departure before car leaving)
+
+-3, -6..- 60
+Since bus -57 is the latest the time to get there is 3 mins after and 30mins until car
+Then buses overtaken would at approx. 95 buses 3(rate).
+
+Answer: (B) 9
+Reasoning:
+Let the car and a bus start at time 0. The car takes 35 minutes. The bus takes 60 minutes. Buses leave every 3 minutes.
+We are interested in how many buses the car will pass. This happens when the buses have left *before* the car.
+
+The total time the car takes is 35 minutes. So, any bus departing more than 60 minutes prior to when car leaves will be at destination.
+
+Buses can depart after.
+First bus at time t=0 = don't consider. Buses leaves the time interval of 3 min
+Next the number bus the car have overtook is the total the of bus. Bus takes 60 to completed.
+
+Total Number  is 31.6, where the car is time 0-> 32  approx
+
+Answer: (D)
+
+Reasoning:
+The car takes 35 minutes. Buses leave every 3 minutes. Buses take 60 minutes.
+
+The car departs at the same time as a bus, but we are not including this. So, the bus leaving at t=0 is not counted.
+
+We're only counting the buses the *car* passes. So let's consider the departure times:
+- Bus -3 departs 3 minutes before car
+- Bus -6 departs 6 minutes before car
+- Bus -57 departs 57 minutes before car which car can overtake.
+
+The maximum that can be is :
+Let  T be the buses from 3 minutes earlier
+B>0 60mins +3 mins x 10
+Let us number the buses B =60=car->35
+b*number of bus<T_ car
+3 *x +60
+Let's take buses starting after : 60 mins
+For bus the starting earlier, let total time : T+ Total = 3*
+
+To ensure it starts before car  1.
+The condition that car will pass.
+2. Start bus T-c
+T-60
+Now how many busses leave T_0
+
+Answer: (A)
+Reasoning:
+Let t = 0 be the time the car and first bus leave. The car reaches the city in 35 minutes. Any bus that departed more than 60 minutes ago will have reached the city center already and will not be overtaken by the car.
+
+The question asks how many *buses* does car overtake on its way to the city center.
+Because car travels at t<60, bus have not be to airport before
+
+When did the previous  cars = 3/3 mins = 1 ( total Number of cars= 11+1=  12 mins).
+
+Final Answer:
+Answer: (B)
+Reasoning:
+Let t=0 be the time the car and the first bus leave. The car arrives at its destination at t=35. A bus takes 60 minutes to complete its journey.
+
+A bus that left the airport x minutes before t=0 will reach the city center at 60-x.
+
+Since we want the number of buses the car overtakes, we want the buses that leave before the car and are still on their way when the car arrives.  This happens if 60 > time it will travel = buses + cars:
+Buses that we can say travel<
+
+Let x= 57 mins
+Total buses = T (departure 20->57  is 9)
+
+Answer: (A)
+Reasoning:
+Let t=0 be when the car and the first bus leave.
+The car arrives at 35 minutes.
+We want to find how many buses are on the road when the car finishes its journey.
+Since bus arrives to destination at approx more than 60  mins.   So
+To ensure that starts before, departure-time is approx->60mins= bus is arrival time.
+
+If we're traveling from 3 mins earlier until cars arrive
+9 is answe
+
+Since b<=9  minutes  -> 9 buses
+Because car starts travels from 0 -3.
+
+Final Answer:
+Answer: (B)
+Reasoning:
+The journey takes the car 35 minutes. Buses leave every 3 minutes. A bus journey takes 60 minutes.
+Consider the bus which leaves 3 minutes before the car. It has already traveled for 3 minutes when the car departs.
+When the car reaches the city centre in 35 minutes, that bus will have been travelling for 3+35 = 38 minutes. So, it is still on the road and will be overtaken.
+Consider the bus which leaves 6 minutes before the car. It has already traveled for 6 minutes when the car departs. When the car reaches the city centre in 35 minutes, that bus will have been travelling for 6+35 = 41 minutes. So, it is still on the road and will be overtaken.
+In general, a bus which leaves *n* minutes before the car has travelled *n*+35 minutes when the car reaches the city centre. For this bus to be overtaken, we require *n*+35 < 60, i.e., *n* < 25.
+Since buses leave every 3 minutes, we need 3*k* < 25, where *k* is the number of buses before the car departs. So, k < 25/3 = 8.333...
+Therefore, there are 8 buses that are overtaken.
+
+Final Answer:
+Answer: (A)

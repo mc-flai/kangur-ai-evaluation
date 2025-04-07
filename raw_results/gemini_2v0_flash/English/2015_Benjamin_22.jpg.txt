@@ -1,0 +1,21 @@
+Reasoning:
+Let 'x' be the number of compartments in each carriage.
+Mike is in the 18th compartment and in the 3rd carriage. This means the first 2 carriages have a total of 18 - x compartments. Thus, 2x < 18, which implies x < 9.
+Joanna is in the 50th compartment and in the 7th carriage. This means the first 6 carriages have a total of 50 - x compartments.
+The number of compartments in the carriages between Mike and Joanna (from the 3rd to the 7th carriage inclusive, which is 7 - 3 + 1=5 carriages) is 50 - 18 = 32.
+The carriages from 4th to 7th = 4 carriages = 50 - x - (18 - x)= 50 - 18 = 32. The carriages from 4th to 6th = 3 carriages = 50-x -(18) = 32 - x.
+The carriages from 3rd to 7th are 5 carriages, the first compartment after carriage 3 is compartment 19.
+The carriages from 3rd to 7th compartment 50 -18 + x  = 32. If the number of compartments in each carriage is x, then 4x should be roughly 32, which means x = 8.
+Let the number of compartments in one carriage be 'x'.
+The compartments before the 3rd carriage are (3-1) * x = 2x. Thus the 3rd carriage starts at compartment 2x+1. Since Mike is in compartment 18 and he is in the 3rd carriage, 2x < 18 <=3x
+The compartments before the 7th carriage are (7-1) * x = 6x. Thus the 7th carriage starts at compartment 6x+1. Since Joanna is in compartment 50 and she is in the 7th carriage, 6x < 50 <= 7x.
+
+Now let's test the options:
+A) x=7: 2*7 = 14 < 18 <= 3*7 = 21. True. 6*7=42 < 50 <= 7*7 = 49. False.
+B) x=8: 2*8 = 16 < 18 <= 3*8 = 24. True. 6*8=48 < 50 <= 7*8 = 56. True.
+C) x=9: 2*9 = 18 = 18 <= 3*9 = 27. True. 6*9 = 54 > 50. False.
+D) x=10: 2*10 = 20 > 18. False.
+E) x=12: 2*12 = 24 > 18. False.
+Therefore, only x=8 works in both conditions.
+
+Answer: B)

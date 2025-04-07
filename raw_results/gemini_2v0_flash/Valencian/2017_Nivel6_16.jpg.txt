@@ -1,0 +1,9 @@
+Raonament: Sigui $n$ el nombre d'elements del conjunt $S$. Volem trobar 7 subconjunts de 3 elements de $S$ de manera que per a cada parella d'elements de $S$, hi hagi exactament un d'aquests subconjunts que contingui la parella.
+Sigui $x \in S$. Considerem els subconjunts que contenen $x$. Suposem que hi ha $k$ elements a $S$ diferents de $x$. Aleshores, hi ha $n-1=k$ elements a $S$. Suposem que tenim els subconjunts $S_1, S_2, \dots, S_7$.
+Sigui $x$ un element de $S$. Considerem parelles formades per $x$ i qualsevol altre element de $S$. Per cada element $y \in S$ diferent de $x$, existeix un únic subconjunt de 3 elements que conté $x$ i $y$.
+Siguin $x, y \in S$. Hi ha exactament un subconjunt que conté $x$ i $y$. Hi ha 7 subconjunts. Cada subconjunt conté 3 elements.
+A cada subconjunt hi ha $\binom{3}{2}=3$ parelles d'elements. Per tant, hi ha $7 \cdot 3 = 21$ parelles. El nombre total de parelles en $S$ és $\binom{n}{2}$. Per tant, $\binom{n}{2}=21$.
+$\frac{n(n-1)}{2}=21 \implies n(n-1) = 42 = 7 \cdot 6$. Per tant, $n=7$.
+Considereu un element $x$. Hi ha exactament 6 altres elements. Cada subconjunt conté dos elements més a més de $x$. Hi ha $6/2 = 3$ subconjunts que contenen $x$. Ja que hi ha 7 subconjunts, i cada parella d'elements està en exactament un subconjunt, $n=7$.
+
+Resposta: E)

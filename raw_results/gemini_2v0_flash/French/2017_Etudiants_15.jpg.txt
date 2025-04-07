@@ -1,0 +1,9 @@
+Reasoning:
+Julia has 2017 circular pieces, 1009 black and 1008 white. She forms a square starting with a black piece in the top left corner, alternating black and white in each row and each column. We need to find the number of remaining pieces of each color after forming the largest possible square.
+Let's find the largest square possible. Let $n$ be the side length of the square. The total number of pieces in the square is $n^2$. We want to find the largest $n$ such that $n^2 \leq 2017$. Since $44^2 = 1936$ and $45^2 = 2025$, the largest square possible has side length 44.
+The square has $44 \times 44 = 1936$ pieces. Since the square starts with a black piece, the number of black and white pieces in the square is roughly equal. In fact, since the side length is even, the number of black and white pieces in the square is exactly equal. Therefore, the number of black pieces is $1936/2 = 968$ and the number of white pieces is $1936/2 = 968$.
+Remaining black pieces = $1009 - 968 = 41$
+Remaining white pieces = $1008 - 968 = 40$
+So, we have 41 black pieces and 40 white pieces remaining.
+
+Answer: E)

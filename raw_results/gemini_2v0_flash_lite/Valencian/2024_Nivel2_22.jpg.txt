@@ -1,0 +1,21 @@
+Raonament:
+Per entendre el problema, primer definim un "nombre bonic". Un nombre de tres xifres és bonic si la xifra central és més gran que la suma de les altres dues xifres. Volem trobar la quantitat més gran de nombres bonics consecutius. Analitzem alguns exemples:
+* Si la xifra central és 1: Llavors la suma de les altres dues xifres hauria de ser 0 (010). Només hi ha un nombre bonic en aquest cas: 10.
+* Si la xifra central és 2: La suma de les altres dues xifres pot ser 0, 1. Nombres bonics consecutius: 120, 121, 220, 221, 320, 321, etc. Potser 120, 121, 220, 221?
+* Considereu el nombre amb el major dígit central possible, 9: si la xifra central és 9, la suma de les altres dues xifres pot ser fins a 8.
+Els nombres bonics consecutius possibles començarien amb 190, 191, 192, 193, 194, 195, 196, 197, 198, 290, 291, 292, 293, 294, 295, 296, 390, 391, 392, 393, 394, 395, 490, 491, 492, 493, 494, 590, 591, 592, 593, 690, 691, 692, 790, 791, 890.
+Per exemple, 120, 121, 220, 221, 320, 321...
+Potser la major quantitat de nombres consecutius bonics es pot trobar amb un nombre de tres dígits de la forma xcy.
+
+190, 191, 192, 193, 194, 195, 196, 197, 198 - 9 nombres
+290, 291, 292, 293, 294, 295, 296, 297 - 8 nombres
+390, 391, 392, 393, 394, 395 - 6 nombres.
+
+Si tenim 120, 121, 220, 221, 320, 321... Observem que pot haver-hi molts nombres bonics consecutius.
+Considerem els nombres que tenen el mateix dígit central.
+Si la xifra central és 1, els nombres bonics podrien ser 110. Però ha de ser de tres xifres.
+Si tenim el nombre amb el dígit central 1, la suma de les altres dues xifres hauria de ser 0. 110.
+120, 121, 220, 221, 320, 321...
+Si la xifra central és 2, 120, 121, 220, 221. Considerem els números 190, 191, 192, 193, 194, 195, 196, 197, 198 - 9 nombres.
+
+Resposta: A)

@@ -1,0 +1,10 @@
+
+Reasoning: To determine how many of the small dice will have exactly four faces colored in, we need to consider the structure of the larger object made up of 12 dice glued together. The object is dipped in a color that affects the outside faces of the dice. The dice on the edges will have more faces colored than those in the interior. Specifically, the dice on the corners and edges will have more exposed faces. The interior dice will have fewer colored faces because they are surrounded by other dice. We need to count the dice that are exposed on exactly four sides.
+
+1. Corner dice: Each corner die will have four faces colored.
+2. Edge dice (not corners): These dice will have three faces colored.
+3. Interior dice: These dice will have fewer than four faces colored.
+
+Given the structure, the corner dice are the only ones that will have exactly four faces colored.
+
+Answer: A)

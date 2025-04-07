@@ -1,0 +1,25 @@
+Para resolver la pregunta de cuántos pares de enteros positivos \( x \) e \( y \) satisfacen la ecuación \( x + 2y = 2^{10} \), primero debemos entender la ecuación y sus restricciones:
+
+1. La ecuación es \( x + 2y = 2^{10} \).
+2. \( 2^{10} = 1024 \).
+3. Los valores de \( x \) e \( y \) deben ser enteros positivos.
+
+Primero, expresamos \( x \) en términos de \( y \):
+\[ x = 1024 - 2y \]
+
+Para que \( x \) sea un entero positivo, \( 1024 - 2y \) debe ser mayor que 0:
+\[ 1024 - 2y > 0 \]
+\[ 1024 > 2y \]
+\[ 512 > y \]
+
+Por lo tanto, \( y \) puede tomar cualquier valor entero positivo desde 1 hasta 511, ya que 512 no es un entero positivo para \( y \).
+
+Para cada valor de \( y \), hay un valor correspondiente de \( x \) que es un entero positivo. Así, los pares posibles son:
+\[ (x, y) = (1022, 1), (1020, 2), (1018, 3), \ldots, (2, 511) \]
+
+El número de pares es simplemente el número de valores enteros positivos que \( y \) puede tomar, es decir, 511.
+
+**Razonamiento:**
+Hemos determinado que \( y \) puede tomar cualquier valor entero positivo desde 1 hasta 511, lo que resulta en 511 pares.
+
+**Respuesta:** D) \( 2^9 + 2 \).

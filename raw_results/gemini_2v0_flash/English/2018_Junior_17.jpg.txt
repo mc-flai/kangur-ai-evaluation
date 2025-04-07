@@ -1,0 +1,28 @@
+Let the three-digit number be $100a + 10b + c$, where $a, b, c$ are digits from 0 to 9, and $a \neq 0$. The two-digit number obtained by deleting the middle number is $10a + c$.
+According to the problem, $10a + c = \frac{1}{9}(100a + 10b + c)$.
+Multiplying both sides by 9, we have $90a + 9c = 100a + 10b + c$.
+Simplifying the equation, we get $10a + 10b = 8c$.
+Dividing both sides by 2, we have $5a + 5b = 4c$, or $5(a+b) = 4c$.
+Since the left side is a multiple of 5, the right side must also be a multiple of 5. Since 4 is not divisible by 5, $c$ must be a multiple of 5. Thus, $c$ can be 0 or 5.
+Case 1: $c=0$. Then $5(a+b) = 4(0) = 0$. This implies $a+b=0$. Since $a \neq 0$, this is impossible.
+Case 2: $c=5$. Then $5(a+b) = 4(5) = 20$. This implies $a+b=4$. Since $a$ must be at least 1, we have the following possibilities for $(a, b)$:
+\begin{itemize}
+    \item $a=1, b=3$, so the number is 135. Then $\frac{135}{9} = 15$.
+    \item $a=2, b=2$, so the number is 225. Then $\frac{225}{9} = 25$.
+    \item $a=3, b=1$, so the number is 315. Then $\frac{315}{9} = 35$.
+    \item $a=4, b=0$, so the number is 405. Then $\frac{405}{9} = 45$.
+\end{itemize}
+So we have 4 numbers: 135, 225, 315, 405.
+Thus, there are 4 such numbers.
+
+Reasoning:
+Let the three-digit number be $abc$, which is $100a+10b+c$. Removing the middle digit gives the two-digit number $ac$, which is $10a+c$.
+We are given that $10a+c = \frac{1}{9}(100a+10b+c)$.
+Multiplying by 9 gives $90a+9c = 100a+10b+c$.
+Rearranging the terms gives $10a+10b = 8c$, or $5a+5b = 4c$.
+So $5(a+b) = 4c$. This means $4c$ is a multiple of 5, so $c$ is a multiple of 5. Since $c$ is a digit, $c=0$ or $c=5$.
+If $c=0$, then $5(a+b) = 0$, so $a+b=0$. Since $a$ must be at least 1, this cannot happen.
+If $c=5$, then $5(a+b) = 4(5)=20$, so $a+b=4$. Since $a \geq 1$, the possible pairs $(a,b)$ are $(1,3), (2,2), (3,1), (4,0)$.
+Thus the possible three-digit numbers are 135, 225, 315, 405. There are 4 such numbers.
+
+Answer: D)

@@ -1,0 +1,16 @@
+Raisonnement :
+La question décrit une table ronde où cinq personnes sont assises. On nous donne des informations sur les positions relatives. On sait que Anne n'est pas à côté de Bilal et que Dom est à côté d'Enzo. On nous demande qui est assis à côté de Charlie.
+
+On peut commencer par placer les informations connues. Soit A=Anne, B=Bilal, C=Charlie, D=Dom, E=Enzo.
+1. A n'est pas à côté de B.
+2. D est à côté de E.
+Puisque Anne n'est pas à côté de Bilal, Charlie peut être assis à côté de Bilal. Puisque Dom est à côté d'Enzo, il ne peut pas être à côté de Bilal. Donc, le reste du groupe doit être autour de la table.
+
+La configuration possible est :
+Si on place Anne, Bilal, Charlie, Dom et Enzo dans l'ordre suivant : A-C-B-D-E
+Ou toute permutation cyclique de cette séquence.
+
+Dans ce cas, Charlie est assis à côté d'Anne et de Bilal.
+Cela dit, nous ne pouvons pas déterminer avec certitude qui est assis à côté de Charlie en fonction des informations données, car A-C-B-D-E et B-C-A-E-D et d'autres sont des possibilités.
+
+Réponse : E)

@@ -1,0 +1,10 @@
+**Razonamiento:**
+1. Identifica el problema: Necesitamos encontrar el número de celdas en una cuadrícula que no son múltiplos de 3 y las celdas de las columnas que no son múltiplos de 3.
+2. Calcula el número total de celdas en la cuadrícula: La cuadrícula tiene 21 columnas y 33 filas, por lo que el número total de celdas es 21 * 33 = 703.
+3. Calcula el número de celdas que son múltiplos de 3 en las filas: Hay 33 filas, y cada fila tiene 21 celdas. El número de celdas que son múltiplos de 3 en las filas es 33 * 21 = 693.
+4. Calcula el número de celdas que no son múltiplos de 3 en las filas: El número de celdas que no son múltiplos de 3 en las filas es 703 - 693 = 10.
+5. Calcula el número de celdas que son múltiplos de 3 en las columnas: Hay 21 columnas, y cada columna tiene 33 celdas. El número de celdas que son múltiplos de 3 en las columnas es 21 * 33 = 693.
+6. Calcula el número de celdas que no son múltiplos de 3 en las columnas: El número de celdas que no son múltiplos de 3 en las columnas es 703 - 693 = 10.
+7. Suma el número de celdas que no son múltiplos de 3 en las filas y las columnas: 10 (filas) + 10 (columnas) = 20.
+
+**Respuesta:** B

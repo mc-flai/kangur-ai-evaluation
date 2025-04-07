@@ -1,0 +1,16 @@
+Raonament:
+Sigui el número de dos dígits com a 10a + b, on a i b són dígits de 0 a 9 i a és diferent de 0.
+La condició donada és que el nombre és 4 vegades la suma dels seus dígits, així que 10a + b = 4(a + b).
+Simplificant l'equació:
+10a + b = 4a + 4b
+6a = 3b
+2a = b
+Com que a i b són dígits, hem de trobar tots els valors possibles per a a i b que compleixin 2a = b.
+Si a = 1, b = 2, el número és 12, i 12 = 4(1 + 2) = 4(3) = 12.
+Si a = 2, b = 4, el número és 24, i 24 = 4(2 + 4) = 4(6) = 24.
+Si a = 3, b = 6, el número és 36, i 36 = 4(3 + 6) = 4(9) = 36.
+Si a = 4, b = 8, el número és 48, i 48 = 4(4 + 8) = 4(12) = 48.
+Si a = 5, b = 10, que no és un dígit, així que deixem d'explorar.
+Hi ha 4 nombres que compleixen la condició: 12, 24, 36 i 48.
+
+Resposta: D)

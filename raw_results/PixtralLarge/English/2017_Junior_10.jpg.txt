@@ -1,0 +1,13 @@
+To determine the minimum number of students required so that at least three of the buttons picked have the same color, we can use the Pigeonhole Principle. According to this principle, if we want to ensure that at least three items are of the same type, we need to consider the worst-case scenario where we pick two items from each type first.
+
+Here's the reasoning step-by-step:
+
+1. We have 3 colors: red, white, and blue.
+2. In the worst-case scenario, we could pick up to 2 red buttons, 2 white buttons, and 2 blue buttons without having three of any color.
+3. This totals to 2 (red) + 2 (white) + 2 (blue) = 6 buttons.
+4. To ensure that we have at least three of the same color, we need one more button.
+
+Therefore, the minimum number of students required is 6 (from the worst-case scenario) + 1 (to ensure three of the same color) = 7.
+
+Reasoning: Using the Pigeonhole Principle, after picking 6 buttons (2 of each color), the 7th button ensures at least three of the same color.
+Answer: C)

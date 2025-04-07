@@ -1,0 +1,26 @@
+**Razonamiento:**
+1. Joan ha sumado los números enteros positivos desde 1 hasta un cierto número \( n \).
+2. El problema nos dice que el resultado de esta suma es 857.
+3. La suma de los primeros \( n \) números enteros positivos se puede calcular usando la fórmula:
+   \[
+   S = \frac{n(n + 1)}{2}
+   \]
+4. Para encontrar \( n \), establecemos la ecuación:
+   \[
+   \frac{n(n + 1)}{2} = 857
+   \]
+5. Multiplicamos ambos lados por 2 para simplificar:
+   \[
+   n(n + 1) = 1714
+   \]
+6. Descomponemos 1714 en factores primos:
+   \[
+   1714 = 2 \times 857
+   \]
+7. Dado que 857 es un número primo, la única forma de descomponer 1714 en dos factores es:
+   \[
+   n = 57 \quad \text{y} \quad n + 1 = 58
+   \]
+8. Por lo tanto, el número \( n \) es 57.
+
+**Respuesta:** D)

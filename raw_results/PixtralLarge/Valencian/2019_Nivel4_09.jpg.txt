@@ -1,0 +1,20 @@
+Per resoldre aquesta pregunta, hem de determinar quin dels triangles AMN, BMN, CMN i DMN té l'àrea més xicoteta.
+
+**Raonament**:
+
+1. **Identificar els triangles**: Els triangles en qüestió són AMN, BMN, CMN i DMN.
+2. **Entendre la relació amb els punts B i C**:
+   - B és el punt mitjà del costat AD, per tant, AB = BD.
+   - C és el punt mitjà del segment BD, per tant, BC = CD.
+3. **Analitzar les altures**:
+   - Les altures dels triangles respecte a la base MN són les distàncies dels punts A, B, C i D a aquesta base.
+   - Com que A i D estan en els extrems oposats del rectangle, B i C estan més propers a la base MN que A i D.
+4. **Comparar les àrees**:
+   - Les àrees dels triangles es calculen com (base * altura) / 2.
+   - Com que la base MN és la mateixa per a tots els triangles, l'àrea depèn de l'altura.
+   - L'altura dels triangles AMN i DMN és major que la dels triangles BMN i CMN.
+   - Dels triangles BMN i CMN, l'altura del triangle CMN és menor, ja que C és el punt mitjà de BD i, per tant, està més a prop de la base MN.
+
+Per tant, el triangle amb l'àrea més xicoteta és el triangle CMN.
+
+**Resposta**: C)

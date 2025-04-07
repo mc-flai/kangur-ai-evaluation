@@ -1,0 +1,26 @@
+Per determinar el nombre de triangles equilàters possibles que tenen un vèrtex en el punt P i els altres dos vèrtexs en cadascun dels altres dos rectes paral·lels, considerem les següents condicions geomètriques:
+
+1. **Condicions per a la formació de triangles equilàters**:
+    - Un triangle equilàter requereix que tots els costats siguin iguals.
+    - La distància entre els punts equidistants als costats paral·lels ha de ser igual a la longitud del costat del triangle equilàter.
+
+2. **Distància entre les rectes paral·leles**:
+    - Les rectes estan a una distància fixa entre elles.
+
+3. **Posicions possibles del vèrtex P**:
+    - P es troba en una de les rectes paral·leles.
+    - Els altres dos vèrtexs han de situar-se en les altres dues rectes paral·leles de manera que formin un triangle equilàter.
+
+4. **Anàlisi de les posicions**:
+    - Si les rectes paral·leles estan a una distància igual a la longitud del costat del triangle equilàter, llavors és possible formar un triangle equilàter amb un vèrtex en P i els altres dos vèrtexs en les altres dues rectes.
+    - Si la distància entre les rectes paral·leles és diferent de la longitud del costat del triangle equilàter, no és possible formar un triangle equilàter.
+
+5. **Casos especials**:
+    - Si la distància entre les rectes paral·leles és igual a la longitud del costat del triangle equilàter, llavors hi ha exactament una posició possible per a cada parell de rectes paral·leles.
+    - Si la distància entre les rectes paral·leles és diferent de la longitud del costat del triangle equilàter, no hi ha cap posició possible.
+
+Donat que les rectes paral·leles estan a una distància fixa entre elles, la distància entre les rectes determina la quantitat de triangles equilàters possibles. Si la distància és igual a la longitud del costat del triangle equilàter, llavors hi ha exactament un triangle equilàter possible. Si la distància és diferent, no hi ha cap triangle equilàter possible.
+
+**Raonament**: La distància entre les rectes paral·leles determina la quantitat de triangles equilàters possibles. Si la distància és igual a la longitud del costat del triangle equilàter, llavors hi ha exactament un triangle equilàter possible.
+
+**Resposta**: D) 1 en tot cas.

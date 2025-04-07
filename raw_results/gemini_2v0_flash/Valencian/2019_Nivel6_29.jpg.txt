@@ -1,0 +1,19 @@
+Raonament:
+Primer, calculem el nombre total de combinacions possibles de tres nombres diferents que podem escollir del conjunt {1, 2, 3, ..., 10}. Això es pot calcular com combinacions de 10 elements agafats de 3 en 3: C(10, 3) = 10! / (3! * 7!) = (10 * 9 * 8) / (3 * 2 * 1) = 120.
+
+Ara hem de trobar quantes trios de nombres de {1, 2, 3, ..., 10} tenen la propietat que un d'ells sigui la mitjana dels altres dos. Això significa que els tres nombres estan en progressió aritmètica. Les progressions aritmètiques possibles són:
+(1, 2, 3), (2, 3, 4), (3, 4, 5), (4, 5, 6), (5, 6, 7), (6, 7, 8), (7, 8, 9), (8, 9, 10)  (8 progressions)
+(1, 3, 5), (2, 4, 6), (3, 5, 7), (4, 6, 8), (5, 7, 9), (6, 8, 10)  (6 progressions)
+(1, 4, 7), (2, 5, 8), (3, 6, 9), (4, 7, 10)  (4 progressions)
+(1, 5, 9), (2, 6, 10)  (2 progressions)
+(1, 6, X), (X no entra en el conjunt)
+(1, 7, X), (X no entra en el conjunt)
+(1, 8, X), (X no entra en el conjunt)
+(1, 9, X), (X no entra en el conjunt)
+(1, 10, X), (X no entra en el conjunt)
+En total hi ha 8 + 6 + 4 + 2 = 20 progressions aritmètiques.
+
+La probabilitat és el nombre de progressions aritmètiques dividit pel nombre total de combinacions:
+Probabilitat = 20 / 120 = 1 / 6.
+
+Resposta: B)

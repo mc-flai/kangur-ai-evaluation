@@ -1,0 +1,20 @@
+Reasoning:
+Let's denote the toy car as C, the teddy bear as T, the ball as B, and the ship as S.
+We have the conditions:
+1. The ship (S) must be next to the car (C).
+2. The teddy bear (T) must be next to the car (C).
+
+We can treat the car (C) as a central element. So, the possible arrangements adjacent to C can be CT, TC, CS, SC, or any combination of these.
+Let's list the possible arrangements of the four toys such that the car is next to both the teddy bear and the ship:
+\begin{itemize}
+    \item T C S B
+    \item T C B S
+    \item B T C S
+    \item S C T B
+    \item S C B T
+    \item B S C T
+\end{itemize}
+
+So, there are 6 possible orders.
+
+Answer: D)

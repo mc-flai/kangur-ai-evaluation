@@ -1,0 +1,12 @@
+Raonament:
+L'enunciat diu que 1728 és el cub de 12, per tant, 1728 = 12^3.
+Volem trobar el nombre més petit 'x' tal que 1728 * x sigui un quadrat perfecte.
+Així, 12^3 * x = k^2, on k és un nombre natural.
+Podem escriure 12^3 com (2^2 * 3)^3 = 2^6 * 3^3.
+Perquè 2^6 * 3^3 * x sigui un quadrat perfecte, els exponents dels factors primers han de ser parells.
+L'exponent de 2 ja és parell (6). L'exponent de 3 és imparell (3).
+Per tant, x ha de tenir un factor 3 per tal que l'exponent de 3 sigui parell. El nombre més petit que fa això és x=3.
+Si x=3, llavors 2^6 * 3^3 * 3 = 2^6 * 3^4 = (2^3 * 3^2)^2 = (8*9)^2 = 72^2. Així, 1728 * 3 = 5184 = 72^2.
+Per tant, el nombre natural més petit és 3.
+
+Resposta: B)

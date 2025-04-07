@@ -1,0 +1,7 @@
+Reasoning:
+We know that we need to use the digits 0, 1, 2, 3, 4, 5, and 6 exactly once.  Looking at the addition problem, we have the following:
+*   The ones column adds up to a value that ends in the digit already shown as the rightmost digit in the solution: Let's say that it is *x*
+*   Since we are using all the digits 0-6 we can deduce that the only way that the numbers will add correctly is if the digits in the other boxes are: 6, 1, 0, 2, 5, 3, 4. The correct sum is as shown: 65 + 10 = 75 (We know the solution is 75 because it must result in a value where the sum of the digits results in 12, like the digit 6.
+*   To find the digit in the grey box we see that it must be a 5 (Because if the result has to be 75, and the other digits must be 6, 1, 0, 2, 3, 4, then that must be true.)
+
+Answer: D)

@@ -1,0 +1,33 @@
+Para determinar el número máximo de crustáceos (cangrejos) que pueden estar en la circunferencia dado un número de conejos, debemos analizar las condiciones dadas:
+
+1. Hay tres conejos en total.
+2. No hay dos conejos parados al lado de otro conejo.
+
+Lo que implica que entre cada par de conejos debe haber al menos un crustáceo.
+
+Dado que hay tres conejos, debemos distribuir a los crustáceos de tal manera que cumplan con la condición de no tener dos conejos consecutivos.
+
+Si colocamos los tres conejos en la circunferencia, quedan cuatro espacios entre cada par de conejos (incluyendo el espacio entre el tercer conejo y el primero, ya que la circunferencia no tiene ni principio ni fin).
+
+Para cumplir la condición de no tener dos conejos consecutivos, necesitamos al menos un crustáceo entre cada par de conejos.
+
+Espacios entre conejos:
+- Entre el primer y segundo conejo: 1 espacio
+- Entre el segundo y tercer conejo: 1 espacio
+- Entre el tercer y primer conejo: 1 espacio
+
+Entonces, hay tres espacios que necesitan ser llenados con al menos un crustáceo.
+
+Adicionalmente, podemos colocar un crustáceo en cada uno de estos espacios. Esto nos da un total de tres crustáceos.
+
+Pero además, también podemos colocar un crustáceo en los espacios restantes.
+
+Por lo tanto, la configuración mínima sería:
+
+- C (conejo) - Cr (crustáceo) - C - Cr - C - Cr
+
+Esto significa que todavía hay espacios adicionales entre estos conejos donde podemos colocar más crustáceos. Si colocamos un crustáceo en cada espacio adicional, el número máximo de crustáceos que se pueden colocar es 7.
+
+Razonamiento: Hay tres conejos y necesitamos al menos un crustáceo entre cada par de conejos. Además, podemos colocar un crustáceo en cada espacio adicional, lo que nos da un total de 7 crustáceos.
+
+Respuesta: D) 7.

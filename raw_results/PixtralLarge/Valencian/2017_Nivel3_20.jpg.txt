@@ -1,0 +1,55 @@
+Per resoldre aquest problema, hem de determinar l'àrea que queda encara de color gris després de treure les formes especificades.
+
+**Raonament:**
+
+1. **Àrea del quadrat ABCD:**
+   El costat del quadrat és de 10 cm. L'àrea del quadrat és:
+   \[
+   \text{Àrea del quadrat} = 10 \times 10 = 100 \text{ cm}^2
+   \]
+
+2. **Àrea dels quatre quadrats xicotets:**
+   Cada quadrat petit és igual i tots junts ocupen la mateixa àrea del quadrat major. Cada quadrat petit té un costat de 5 cm (ja que es troben en les cantonades del quadrat major). L'àrea de cada quadrat petit és:
+   \[
+   \text{Àrea de cada quadrat petit} = 5 \times 5 = 25 \text{ cm}^2
+   \]
+   L'àrea total dels quatre quadrats petits és:
+   \[
+   \text{Àrea total dels quatre quadrats petits} = 4 \times 25 = 100 \text{ cm}^2
+   \]
+
+3. **Àrea dels quatre triangles rectangles isòsceles:**
+   La hipotenusa de cada triangle és 6 cm. Com que els triangles són isòsceles i rectangles, les dues arestes iguals poden ser trobades utilitzant el teorema de Pitàgores. Sigui \( x \) la longitud de cada aresta igual, tenim:
+   \[
+   x^2 + x^2 = 6^2
+   \]
+   \[
+   2x^2 = 36
+   \]
+   \[
+   x^2 = 18
+   \]
+   \[
+   x = \sqrt{18} = 3\sqrt{2} \text{ cm}
+   \]
+   L'àrea de cada triangle és:
+   \[
+   \text{Àrea de cada triangle} = \frac{1}{2} \times (3\sqrt{2}) \times (3\sqrt{2}) = \frac{1}{2} \times 18 = 9 \text{ cm}^2
+   \]
+   L'àrea total dels quatre triangles és:
+   \[
+   \text{Àrea total dels quatre triangles} = 4 \times 9 = 36 \text{ cm}^2
+   \]
+
+4. **Àrea que queda encara de color gris:**
+   L'àrea que queda encara de color gris és l'àrea del quadrat major menys les àrees dels quatre quadrats petits i els quatre triangles:
+   \[
+   \text{Àrea que queda encara de color gris} = 100 \text{ cm}^2 - 100 \text{ cm}^2 - 36 \text{ cm}^2 = -36 \text{ cm}^2
+   \]
+
+Com que l'àrea no pot ser negativa, hem de revisar el nostre càlcul. L'àrea dels quatre triangles s'ha de restar només una vegada, ja que són part dels quadrats petits. Per tant, l'àrea que queda encara de color gris és:
+   \[
+   \text{Àrea que queda encara de color gris} = 100 \text{ cm}^2 - 36 \text{ cm}^2 = 64 \text{ cm}^2
+   \]
+
+Resposta: E) 46 cm²

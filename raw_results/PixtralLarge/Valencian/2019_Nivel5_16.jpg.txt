@@ -1,0 +1,50 @@
+Per determinar quina fracció de l'àrea del quadrat \(ABCD\) està ombrejada, hem de seguir els següents passos:
+
+1. **Calcular l'Àrea del Quadrat**:
+   L'àrea del quadrat \(ABCD\) es pot trobar utilitzant el costat del quadrat. Observant el diagrama, el costat del quadrat es pot veure que és 8 unitats (ja que la distància entre \(A\) i \(B\) és 8 unitats).
+   \[
+   \text{Àrea del quadrat} = \text{costat}^2 = 8^2 = 64 \text{ unitats quadrades}
+   \]
+
+2. **Calcular l'Àrea del Triangle \(DCR\)**:
+   El triangle \(DCR\) és un triangle rectangle amb \(CD\) i \(DR\) com els seus catets. \(CD = 8\) unitats i \(DR = 7\) unitats.
+   \[
+   \text{Àrea del triangle } DCR = \frac{1}{2} \times CD \times DR = \frac{1}{2} \times 8 \times 7 = 28 \text{ unitats quadrades}
+   \]
+
+3. **Calcular l'Àrea del Triangle \(BQC\)**:
+   El triangle \(BQC\) és un triangle rectangle amb \(BC\) i \(CQ\) com els seus catets. \(BC = 8\) unitats i \(CQ = 7\) unitats.
+   \[
+   \text{Àrea del triangle } BQC = \frac{1}{2} \times BC \times CQ = \frac{1}{2} \times 8 \times 7 = 28 \text{ unitats quadrades}
+   \]
+
+4. **Calcular l'Àrea del Triangle \(PAD\)**:
+   El triangle \(PAD\) és un triangle rectangle amb \(AD\) i \(AP\) com els seus catets. \(AD = 8\) unitats i \(AP = \frac{1}{2}\) unitats.
+   \[
+   \text{Àrea del triangle } PAD = \frac{1}{2} \times AD \times AP = \frac{1}{2} \times 8 \times \frac{1}{2} = 2 \text{ unitats quadrades}
+   \]
+
+5. **Calcular l'Àrea del Triangle \(QBR\)**:
+   El triangle \(QBR\) és un triangle rectangle amb \(QB\) i \(BR\) com els seus catets. \(QB = 8\) unitats i \(BR = \frac{1}{2}\) unitats.
+   \[
+   \text{Àrea del triangle } QBR = \frac{1}{2} \times QB \times BR = \frac{1}{2} \times 8 \times \frac{1}{2} = 2 \text{ unitats quadrades}
+   \]
+
+6. **Calcular l'Àrea del Quadrilàter \(PQR\)**:
+   L'àrea del quadrilàter \(PQR\) es pot trobar restand les àrees dels triangles de l'àrea total del quadrat.
+   \[
+   \text{Àrea del quadrilàter } PQR = \text{Àrea del quadrat} - (\text{Àrea del triangle } DCR + \text{Àrea del triangle } BQC + \text{Àrea del triangle } PAD + \text{Àrea del triangle } QBR)
+   \]
+   \[
+   \text{Àrea del quadrilàter } PQR = 64 - (28 + 28 + 2 + 2) = 64 - 60 = 4 \text{ unitats quadrades}
+   \]
+
+7. **Calcular la Fracció de l'Àrea Ombrejada**:
+   La fracció de l'àrea ombrejada és l'àrea del quadrilàter \(PQR\) dividida per l'àrea del quadrat.
+   \[
+   \text{Fracció de l'àrea ombrejada} = \frac{\text{Àrea del quadrilàter } PQR}{\text{Àrea del quadrat}} = \frac{4}{64} = \frac{1}{16}
+   \]
+
+**Raonament**: L'àrea ombrejada és la diferència entre l'àrea total del quadrat i les àrees dels triangles que formen les parts no ombrejades. La fracció de l'àrea ombrejada és \(\frac{1}{16}\).
+
+**Resposta**: D) \(\frac{7}{16}\)

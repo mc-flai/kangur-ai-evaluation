@@ -1,0 +1,92 @@
+Razonamiento: Un número de tres cifras es "agradable" si la cifra del medio es mayor que la suma de las otras dos. Buscamos la mayor cantidad de números agradables consecutivos.
+Consideremos números de la forma 180, 181, 182,... La condición para que un número abc sea "agradable" es que b > a + c.
+
+Para encontrar la mayor cantidad de números consecutivos, busquemos una secuencia donde solo la última cifra cambie.
+
+Empecemos con 120. 2 > 1+0. 120 es "agradable".
+121. 2 > 1+1. 121 es "agradable".
+122. 2 = 1+1. 122 no es "agradable".
+
+Consideremos ahora los números que comienzan con 0:
+
+100. 0 > 1+0. No es "agradable".
+101. 0 > 1+1. No es "agradable".
+...
+109. 0 > 1+9. No es "agradable".
+
+Busquemos una serie donde los números cambien solamente en las unidades, y que empiecen en 10 algo. Vamos a evaluar a partir de 1:
+
+201, 202, 203, 204...
+200. 0 > 2+0. No "agradable".
+
+Probemos con números alrededor de 100. Por ejemplo, buscando números con 9 en el medio:
+190, 191, 192... hasta 197, 198 es demasiado.
+190. 9 > 1+0. Agradable.
+191. 9 > 1+1. Agradable.
+192. 9 > 1+2. Agradable.
+193. 9 > 1+3. Agradable.
+194. 9 > 1+4. Agradable.
+195. 9 > 1+5. Agradable.
+196. 9 > 1+6. Agradable.
+197. 9 > 1+7. Agradable.
+198. 9 > 1+8. Agradable.
+
+Consideremos los números 100-109, por ejemplo.
+100: 0 > 1+0 (false)
+101: 0 > 1+1 (false)
+...
+109: 0 > 1+9 (false)
+Ninguno de estos números es "agradable".
+
+Probando con números del 1 al 9 para la cifra de las decenas:
+010. 1 > 0+0 (true)
+011. 1 > 0+1 (true)
+012. 1 = 0+1 (false)
+020. 2 > 0+0 (true)
+021. 2 > 0+1 (true)
+022. 2 = 0+2 (false)
+030. 3 > 0+0 (true)
+031. 3 > 0+1 (true)
+032. 3 > 0+2 (true)
+033. 3 = 0+3 (false)
+...
+090. 9 > 0+0 (true)
+091. 9 > 0+1 (true)
+092. 9 > 0+2 (true)
+...
+098. 9 > 0+8 (true)
+099. 9 = 0+9 (false)
+
+Tenemos la serie 010 y 011 que son "agradables" consecutivos, tenemos la serie 020, 021, 030, 031, 032... y así sucesivamente. Veamos la secuencia 010 a 011, sólo son dos números.
+
+Veamos ahora la secuencia alrededor de 100, hasta 109:
+100, 101, ... 109.
+El máximo en la centena es 10, por lo que no son agradables, porque la decena debe ser mayor a la suma de las otras cifras, por lo que la cifra de las decenas debe ser mayor a 1.
+
+Consideremos los números 120 al 129:
+120: 2 > 1+0 (true)
+121: 2 > 1+1 (true)
+122: 2 = 1+1 (false)
+Entonces tenemos dos números consecutivos.
+
+Vamos a considerar los números 190 - 198 (ignoramos el 199 pues 9 = 1+9), para ver si encontramos una secuencia más larga:
+
+200-209
+201.
+890,
+Buscamos números consecutivos "agradables". Consideremos números 190 al 198.
+Se considera también los números que cambian con los números cercanos:
+790 - 798, 9 números consecutivos, sin tener en cuenta el 799.
+
+Consideremos los siguientes números, aquellos menores a 100:
+19 - 18, 19, 9 números consecutivos.
+
+El patrón para los números agradables de la forma xyz es que y > x+z.
+Buscamos 190 hasta 197: 790 - 798, son 8 numeros: 190, 191, 192, 193, 194, 195, 196, 197, los 8.
+
+Probemos los números de 200 - 209 para el número 9 en el puesto de los números 290-299
+Concluimos con el 8.
+
+Razonamiento: Un número de tres cifras es agradable si la cifra del medio es mayor que la suma de las otras dos cifras. Para encontrar el máximo número de números agradables consecutivos, consideramos números de la forma 19x, donde x es un dígito de 0 a 9. Tenemos: 190, 191, 192, 193, 194, 195, 196, 197, 198. Los números desde 190 hasta 197 son "agradables". En consecuencia hay ocho números consecutivos.
+
+Respuesta: D)

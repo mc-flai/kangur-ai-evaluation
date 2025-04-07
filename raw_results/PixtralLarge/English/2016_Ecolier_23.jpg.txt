@@ -1,0 +1,22 @@
+To solve question 23, we need to determine which of the given pieces can never result from repeatedly splitting a stick of 27 building blocks such that one part is always twice as long as the other.
+
+**Reasoning**:
+1. Start with a stick of 27 blocks.
+2. Split it into two pieces, one of which is twice as long as the other:
+   - If one piece is twice as long, then the pieces must be in the ratio 2:1.
+   - The only combination of lengths that sum to 27 and are in the ratio 2:1 is 18 and 9.
+3. Take one of the pieces, say 18, and split it again in the ratio 2:1:
+   - The pieces will be 12 and 6.
+4. Take the other piece, 9, and split it in the ratio 2:1:
+   - The pieces will be 6 and 3.
+5. Continue splitting each piece in the ratio 2:1 until no further splits are possible.
+
+Now, observe the pieces obtained:
+- The pieces that can result from this process are powers of 2 multiplied by 3 (since the original length is 27, which is 3^3).
+- Possible pieces are: 27, 18, 12, 9, 6, 3.
+
+From the given options (2, 4, 6, 8, 10), we see that:
+- 6 is a possible piece (since 6 = 3 * 2).
+- 2, 4, 8, and 10 are not possible because they cannot be expressed as 3 multiplied by a power of 2.
+
+**Answer**: A)

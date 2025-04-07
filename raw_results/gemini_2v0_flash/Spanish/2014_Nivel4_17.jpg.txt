@@ -1,0 +1,21 @@
+Razonamiento:
+Sean 'x' e 'y' los dos números enteros positivos, donde x > y.
+Según el enunciado, la suma de los dos números es el doble de su diferencia. Por lo tanto, podemos escribir la ecuación:
+x + y = 2(x - y)
+x + y = 2x - 2y
+3y = x
+
+También sabemos que ambos números deben ser menores que 100. Entonces:
+x < 100
+y < 100
+
+Dado que x = 3y, podemos sustituir x en la desigualdad x < 100:
+3y < 100
+y < 100/3
+y < 33.33...
+
+Dado que 'y' debe ser un entero positivo, los posibles valores de 'y' son 1, 2, 3, ..., 33.
+Para cada valor de 'y', hay un valor correspondiente de 'x' que es 3y. Dado que y < 33.33..., x siempre será menor que 100.
+Entonces, hay 33 posibles pares de números que cumplen la condición dada.
+
+Respuesta: D)

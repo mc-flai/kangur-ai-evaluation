@@ -1,0 +1,14 @@
+Per determinar l'àrea de la part enfosquida de la figura, hem de seguir els següents passos:
+
+1. Identificar la figura: La figura és un octàgon regular inscrit en un cercle de radi 6.
+2. Calcular l'àrea del cercle complet: L'àrea del cercle es calcula amb la fórmula \( A = \pi r^2 \). Aquí, \( r = 6 \), per tant l'àrea del cercle és \( A = \pi \times 6^2 = 36\pi \).
+3. Calcular l'àrea de l'octàgon: Un octàgon regular es pot dividir en 8 triangles isòsceles. Cada triangle té una base igual a la longitud del costat de l'octàgon i una alçada igual al radi del cercle.
+4. Determinar la longitud del costat de l'octàgon: La longitud del costat de l'octàgon (s) es pot calcular usant la relació entre el radi del cercle i el costat de l'octàgon: \( s = 2r \sin(\pi/8) \). Per tant, \( s = 2 \times 6 \times \sin(\pi/8) \).
+5. Calcular l'àrea d'un triangle: L'àrea d'un triangle isòsceles amb base \( s \) i alçada \( r \) és \( A_{triangle} = \frac{1}{2} s r \). Aquí, \( s = 12 \sin(\pi/8) \) i \( r = 6 \), per tant \( A_{triangle} = \frac{1}{2} \times 12 \sin(\pi/8) \times 6 = 36 \sin(\pi/8) \).
+6. Calcular l'àrea de l'octàgon: L'àrea de l'octàgon és \( A_{octagon} = 8 \times A_{triangle} \). Per tant, \( A_{octagon} = 8 \times 36 \sin(\pi/8) = 288 \sin(\pi/8) \).
+7. Calcular l'àrea de la part enfosquida: L'àrea de la part enfosquida és la diferència entre l'àrea del cercle i l'àrea de l'octàgon: \( A_{enfosquida} = 36\pi - 288 \sin(\pi/8) \).
+
+Observant les opcions donades, podem veure que cap de les opcions coincideix exactament amb aquest valor. Tanmateix, l'opció E) \( 6(9 - \pi) \) és la més propera a l'àrea calculada.
+
+Raonament: L'àrea de la part enfosquida es calcula com la diferència entre l'àrea del cercle i l'àrea de l'octàgon, i l'opció més propera és E).
+Resposta: E)

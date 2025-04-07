@@ -1,0 +1,48 @@
+Per determinar la mínima quantitat de sumands de nombres crancs necessària per expressar 1362, primer hem de determinar quins són els nombres crancs que podem utilitzar. Els nombres crancs esmentats són 1, 3, 13, 31 i 131.
+
+Per expressar 1362 com a suma de nombres crancs, busquem el menor nombre de termes que podem utilitzar. Comencem amb els nombres més grans, ja que això minimitzarà la quantitat de sumands:
+
+1. Comencem amb el nombre cranc més gran, 131:
+   1362 ÷ 131 = 10 amb un residu de 32
+
+2. Ara hem de descompondre el residu de 32 utilitzant els nombres crancs més petits possibles:
+   32 ÷ 31 = 1 amb un residu de 1
+   1 ÷ 1 = 1 sense residu
+
+Així, podem expressar 1362 de la següent manera:
+1362 = 10 * 131 + 1 * 31 + 1 * 1
+Aquí hem utilitzat 10 (131) + 1 (31) + 1 (1) = 12 sumands.
+
+Però si provam amb una combinació diferent, com començar amb nombres més petits i veure si podem reduir la quantitat de sumands:
+
+3. Provam usant els nombres crancs 31 i 1:
+1362 ÷ 31 = 44 amb un residu de 2
+2 ÷ 1 = 2 sense residu
+
+Així, podem expressar 1362 de la següent manera:
+1362 = 44 * 31 + 2 * 1
+Aquí hem utilitzat 44 (31) + 2 (1) = 46 sumands.
+
+4. Provam una combinació amb 13:
+1362 ÷ 13 = 104 amb un residu de 10
+10 ÷ 1 = 10 sense residu
+
+Així, podem expressar 1362 de la següent manera:
+1362 = 104 * 13 + 10 * 1
+Aquí hem utilitzat 104 (13) + 10 (1) = 114 sumands.
+
+Sembla que la forma més eficient és la primera combinació que hem trobat:
+1362 = 10 * 131 + 1 * 31 + 1 * 1
+Això utilitza 12 sumands.
+
+Revisant les opcions donades:
+- A) 14
+- B) 16
+- C) 22
+- D) 18
+- E) No pot ser
+
+Cap de les opcions donades és 12, per tant, la resposta correcta és:
+
+Raonament: Hem comprovat diverses combinacions de sumands i el menor nombre de sumands necessari és 12, que no està disponible en les opcions donades.
+Resposta: E) No pot ser.

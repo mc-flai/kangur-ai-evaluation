@@ -1,0 +1,11 @@
+Reasoning:
+Let 'n' be the number of boxes. Since there are 60 apples and the same amount of apples in each box, the number of apples in each box is 60/n. The number of pears in each box must be different. Let's assume the number of pears in the boxes are 1, 2, 3, ... , n. The total number of pears used would then be the sum of the first 'n' natural numbers, which is n(n+1)/2.  Since the total number of pears is 60, we must have: n(n+1)/2 <= 60, or n(n+1) <= 120.
+Trying values for 'n':
+- If n = 10, n(n+1) = 10 * 11 = 110 <= 120. This is valid.
+- If n = 11, n(n+1) = 11 * 12 = 132 > 120. This is not valid.
+
+So, the maximum value for n is 10.  Each box can contain 60/10 = 6 apples. The number of pears in each box would be 1, 2, 3, ..., 10, using a total of 1+2+...+10 = 55 pears, leaving 5 more pears to place somewhere. Alternatively, each box has 6 apples, and we use pears 1-10 for the boxes.  The total pears used = 55 pears.
+
+If we choose option (E), n=6, we have each box contains 60/6 = 10 apples. We have the following number of pears: 1,2,3,4,5,6  The total number of pears = 1+2+3+4+5+6 = 21. But the number of pears in each box must be different, while using up all the apples.
+
+Answer: D)

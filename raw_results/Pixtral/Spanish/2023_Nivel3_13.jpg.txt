@@ -1,0 +1,15 @@
+
+Razonamiento: Para resolver este problema, necesitamos determinar el número mínimo de colores necesarios para colorear los vértices de un cubo de manera que ningún lado tenga todos los vértices del mismo color. Un cubo tiene 8 vértices. Si coloreamos los vértices de manera que cada cara tenga al menos un vértice de un color diferente, podemos usar el principio del vértice y el borde.
+
+1. Cada cara del cubo tiene 4 vértices.
+2. Para asegurarnos de que cada cara tenga al menos un vértice de un color diferente, podemos usar 4 colores diferentes.
+3. Sin embargo, dado que los vértices están conectados en un cubo tridimensional, algunos vértices pueden compartir colores en diferentes caras.
+
+Para minimizar el número de colores, podemos usar un enfoque sistemático:
+- Colorear el primer vértice con color 1.
+- Colorear los vértices adyacentes a este con colores diferentes (por ejemplo, 2, 3 y 4).
+- Colorear los vértices opuestos al primer vértice con el mismo color (color 1).
+
+Este enfoque asegura que cada cara tenga al menos un vértice de un color diferente, utilizando un total de 4 colores.
+
+Respuesta: C)

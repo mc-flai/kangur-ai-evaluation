@@ -1,0 +1,35 @@
+Per resoldre aquesta pregunta, hem d'identificar l'altura \( h \) d'un dels segments majors formats per un rectangle de 10 cm × 24 cm inscrit en un cercle.
+
+**Raonament:**
+
+1. **Determinació de la diagonal del rectangle:**
+
+   El rectangle té una longitud de 24 cm i una amplada de 10 cm. La longitud de la diagonal \( d \) es calcula utilitzant el teorema de Pitàgores:
+
+   \[
+   d = \sqrt{24^2 + 10^2}
+   \]
+
+   \[
+   d = \sqrt{576 + 100} = \sqrt{676} = 26 \text{ cm}
+   \]
+
+2. **Radi del cercle circumscrit:**
+
+   El diàmetre del cercle circumscrit és igual a la diagonal del rectangle, així que el radi \( r \) del cercle és:
+
+   \[
+   r = \frac{d}{2} = \frac{26}{2} = 13 \text{ cm}
+   \]
+
+3. **Altura del segment:**
+
+   L'altura \( h \) d'un segment és la distància des del centre del cercle fins a la corda (un dels costats majors del rectangle). Tenint en compte que la corda és un costat del rectangle i que el rectangle està inscrit en el cercle, l'altura del segment és igual a la distància des del centre del cercle fins al costat major del rectangle.
+
+   La distància des del centre del cercle fins al costat major (longitud del rectangle) és:
+
+   \[
+   h = r - \frac{\text{amplada}}{2} = 13 - \frac{10}{2} = 13 - 5 = 8 \text{ cm}
+   \]
+
+**Resposta:** B) 8

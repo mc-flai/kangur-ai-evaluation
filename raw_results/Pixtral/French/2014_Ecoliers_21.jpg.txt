@@ -1,0 +1,15 @@
+### Raisonnement :
+La question demande quel chiffre doit être écrit dans le cas gris pour que l'addition soit juste. L'image montre une addition avec des cases grises et des cases blanches. Les chiffres possibles sont 0, 1, 2, 3, 4, 5 et 6. Nous devons déterminer quel chiffre, lorsqu'il est ajouté au chiffre dans la case blanche, donne un résultat correct.
+
+Pour résoudre ce problème, nous devons examiner les chiffres dans les cases blanches et déterminer quel chiffre dans la case grise compléterait l'addition correctement.
+
+- Si la case blanche contient 1, l'addition serait 1 + _ (chiffre gris) = 2.
+- Si la case blanche contient 2, l'addition serait 2 + _ (chiffre gris) = 3.
+- Si la case blanche contient 3, l'addition serait 3 + _ (chiffre gris) = 4.
+- Si la case blanche contient 4, l'addition serait 4 + _ (chiffre gris) = 5.
+- Si la case blanche contient 5, l'addition serait 5 + _ (chiffre gris) = 6.
+
+En comparant ces résultats avec les options données (2, 3, 4, 5, 6), nous voyons que l'option 4 correspond à l'addition correcte.
+
+### Réponse :
+C) 4

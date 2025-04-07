@@ -1,0 +1,11 @@
+Reasoning: Let's assume we start with 'g' green frogs and 'b' blue frogs. The initial total is g + b.
+After the change, we have:
+- Blue frogs: b + 0.6b = 1.6b
+- Green frogs: g - 0.6g = 0.4g
+The problem states that (1.6b) / (0.4g) = g / b  => 1.6b^2 = 0.4g^2 => 4b^2 = g^2  => g = 2b (since the number of frogs can't be negative)
+Initially: g+b = 2b+b = 3b
+Finally: 1.6b + 0.4g = 1.6b + 0.4(2b) = 1.6b + 0.8b = 2.4b
+Change = (Final - Initial) / Initial * 100% = (2.4b - 3b) / 3b * 100% = (-0.6b / 3b) * 100% = -0.2 * 100% = -20%
+The change is a decrease of 20%. The question asked for the percentage of change, which has an absolute value. Since it is a negative change we should give the absolute value which is 20%.
+
+Answer: B)

@@ -1,0 +1,27 @@
+Raonament: Siguin $A_n$ l'àrea de la regió negra visible a la figura 1 i $A_b$ l'àrea del cercle blanc. L'enunciat diu que $A_n = 7A_b$. Siguin $r_1, r_2, r_3$ els radis dels cercles petit (blanc), mitjà (gris) i gran (negre), respectivament. llavors tenim que $A_n = \pi r_3^2 - \pi r_2^2$ i $A_b = \pi r_1^2$. Així, $\pi r_3^2 - \pi r_2^2 = 7 \pi r_1^2$, o $r_3^2 - r_2^2 = 7r_1^2$.
+
+Per a la figura 1, $r_2 > r_1$, $r_3 > r_2$ i $r_3 > r_1$.
+A la figura 2 tenim dos cercles negre i blanc tangents internament a un cercle gris. Siguin ara $A'_n$ l'àrea negra visible a la figura 2. Aquesta àrea és la de l'anell extern, és a dir $A'_n = \pi r_3^2 - \pi r_2^2$ és l'àrea negra de la figura 1, menys l'àrea blanca, és a dir $r_3 = R$ el cercle gran, $r_1 = r$ el cercle blanc i $r_2$ el cercle gris. La condició de tangència entre cercles implica que
+$A'_n = \pi r_3^2 - \pi (r_1+r_2)^2 = 7A_b$ i $A_b = \pi r_1^2 = \pi r^2$, llavors $A'_n = \pi R^2 - \pi r_2^2$. $R^2-r_2^2 = 7 r_1^2$ i $r = R/3$ si $7A_b = (8/9) \pi R^2$, llavors $R^2-r_2^2 = 7r_1^2$ i $2r_1 = r_2 - r_1$, es a dir $3r_1 = r_2$ i $r_2 =3r_1$.
+Com $r_3^2 = r_2^2 + 7r_1^2 = 9r_1^2 + 7r_1^2 = 16r_1^2$, llavors $r_3 = 4r_1$.
+En la figura 2, l'àrea negra és el cercle gran menys el cercle gris. $r_2 = 3r_1$ i $r_3=4r_1$. $A'_{n}=\pi r_3^2 - \pi r_2^2 = \pi (16r_1^2-9r_1^2) = 7 \pi r_1^2 = 7A_b$.
+L'àrea de la regió negra a la figura 2 és el cercle negre (àrea $\pi R^2$) menys el cercle gris ($\pi r_2^2 = \pi (r_3 -r_1)^2 = \pi (4r_1 -r_1)^2 = \pi 9r_1^2 $). La regió negra visible és $A'_n = \pi 16r_1^2 - 9\pi r_1^2 = 7 \pi r_1^2$. La proporció entre les àrees negres a la figura 1 i 2 és $A_n/A'_n = 7A_b / (9A_b - 2A_b)  7\pi r^2/7 \pi r^2=1$.
+Però a la figura 2 es compleix $A'_n / A_n = ( \pi r_3^2-\pi r_2^2 )= 7\pi r_1^2$.
+A la figura 1 $A_n = 7\pi r_1^2$, i $A'_n / A_n = (\pi r_3^2)/ (9 \pi r_1^2)$. Aleshores $A_n = \pi R^2 - \pi r_2^2$. Llavors $A'_n=\frac{\pi(9)}{7}R_b$.
+
+Raonament: Siguin les àrees del cercle petit $A_p = \pi r_1^2$, mitjà $A_m = \pi r_2^2$ i gran $A_g = \pi r_3^2$. En la figura 1 tenim que la zona negra és $A_n = A_g - A_m = \pi (r_3^2 - r_2^2) = 7A_p = 7\pi r_1^2$, llavors $r_3^2 - r_2^2 = 7 r_1^2$
+En la figura 2, tenim que $r_3 = r_2+r_1$ llavors $A_n= \pi(r_3^2-r_2^2)-A=0 $
+A la figura 2: $R = 7\pi $
+Figura 2: R=0 no se cumple
+
+Ratio=($7\pi$ )/($\pi$ $ R_b-  R_b $ es 7 $A$ $
+La zona negra es la diferencia entre la suma dos grande menos chiquito. Figura 1  y  2 hay suma grande
+
+Figura 2 no se puede determinar 0
+
+B) 4:3
+D) 7:6.
+
+Considero que la respuesta es la D
+
+Resposta: D)

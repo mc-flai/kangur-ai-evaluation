@@ -1,0 +1,43 @@
+Razonamiento: Se tienen cinco puntos en una recta, digamos $P_1, P_2, P_3, P_4, P_5$. Hay $\binom{5}{2} = \frac{5 \times 4}{2} = 10$ distancias entre pares de puntos. Las distancias están dadas en orden creciente como 2, 5, 6, 8, 9, k, 15, 17, 20, 22.
+Supongamos que los puntos están ordenados en la recta: $P_1 < P_2 < P_3 < P_4 < P_5$. Entonces las distancias más pequeñas deben ser entre puntos adyacentes, es decir, $P_2 - P_1, P_3 - P_2, P_4 - P_3, P_5 - P_4$, y la distancia más grande debe ser $P_5 - P_1$.
+
+Si asumimos que $P_5 - P_1 = 22$, entonces $P_5 = P_1 + 22$. La distancia más pequeña es 2, entonces podemos probar valores diferentes.
+Consideremos el caso en el que $P_2 - P_1 = 2, P_3 - P_2 = 3, P_4 - P_3 = 2, P_5 - P_4 = 3$, lo que implica que $P_3 - P_1 = 5, P_4 - P_1 = 7, P_5 - P_1 = 10$. Esta suposición no coincide con las distancias en orden creciente.
+Dado que $P_2 - P_1 = 2$, entonces asumamos $P_1=0$.  Las distancias son $|P_i - P_j|$.
+Probemos los posibles valores de k.  Si $k=10$, las distancias son 2, 5, 6, 8, 9, 10, 15, 17, 20, 22. Si $k=11$, las distancias son 2, 5, 6, 8, 9, 11, 15, 17, 20, 22. Si $k=12$, las distancias son 2, 5, 6, 8, 9, 12, 15, 17, 20, 22.
+
+Consideremos los puntos 0, 2, 5, 8, 22. Las distancias son 2, 3, 3, 5, 6, 8, 14, 17, 20, 22. Aquí falta 9 y está 14.
+Consideremos los puntos 0, 2, 6, 15, 22. Las distancias son 2, 6, 7, 9, 15, 16, 20, 22.
+
+Si los puntos son 0, 2, 8, 9, 22. Las distancias son 2, 6, 7, 8, 9, 13, 14, 15, 22, 22.
+Si $k=12$. Podriamos tener 0, 2, 5, 9, 22
+Consideremos 0, 2, 5, 15, 22. Las distancias son 2, 3, 5, 7, 10, 13, 15, 17, 20, 22. Entonces k=10. Pero no hay 6, 8, 9, 12.
+Supongamos que los puntos son $x_1, x_2, x_3, x_4, x_5$, donde $x_1<x_2<x_3<x_4<x_5$. Entonces $x_2-x_1=2$.
+Si $x_1=0$, entonces $x_2=2$.
+
+Si elegimos 0, 2, 6, 8, 22. Las diferencias son 2, 4, 2, 6, 8, 14, 16, 20, 22.
+Tomemos la suposición $x_1<x_2<x_3<x_4<x_5$
+$x_2-x_1=2$
+$x_3-x_1=5$
+$x_4-x_1=6$
+$x_5-x_1=8$
+$x_3-x_2=3$
+$x_4-x_2=4$
+$x_5-x_2=6$
+$x_4-x_3=1$
+$x_5-x_3=3$
+$x_5-x_4=2$
+
+Si los puntos son 0, 2, 5, 6, 8.
+Las diferencias son 2, 3, 1, 2, 3, 4, 5, 6, 8. No funciona.
+
+Si los puntos son 0, 2, 5, 8, x
+2, 3, 3, 5, x, x-2, x-5, x-8. Si x-8=9, x=17
+Si los puntos son 0, 2, 5, 8, 17.
+2, 3, 3, 5, 6, 7, 8, 9, 12, 15, 17. Esto tampoco es.
+
+Considera la sucesión 2, 5, 6, 8, 9, 12, 15, 17, 20, 22. La distancia es 22-2=20. Por tanto, existen dos puntos cuya diferencia es 2 y cuya diferencia es 22.
+Luego la mayor distancia debe ser igual a la suma de los pares de puntos
+La respuesta es $12$
+
+Respuesta: C)

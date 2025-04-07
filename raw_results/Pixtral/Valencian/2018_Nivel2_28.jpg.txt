@@ -1,0 +1,22 @@
+
+La pregunta 28 pregunta cuántos divisores naturales tiene el número 4242.
+
+Para determinar el número de divisores de un número, debemos encontrar todos los números que pueden dividir el número sin dejar residuo.
+
+**Razonamiento:**
+1. Primero, factorizamos el número 4242 en sus factores primos.
+2. El número 4242 se puede descomponer en sus factores primos como sigue:
+   \[
+   4242 = 2 \times 2 \times 3 \times 3 \times 11 \times 11
+   \]
+   Esto se puede escribir como:
+   \[
+   4242 = 2^2 \times 3^2 \times 11^2
+   \]
+3. Para encontrar el número de divisores, utilizamos la fórmula que dice que si un número \( n \) se puede escribir como \( n = p_1^{e_1} \times p_2^{e_2} \times \ldots \times p_k^{e_k} \), entonces el número de divisores de \( n \) es \((e_1 + 1)(e_2 + 1) \ldots (e_k + 1)\).
+4. Aplicando esta fórmula a 4242, obtenemos:
+   \[
+   (2 + 1)(2 + 1)(2 + 1) = 3 \times 3 \times 3 = 27
+   \]
+
+**Respuesta:** C)

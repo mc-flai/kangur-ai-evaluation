@@ -1,0 +1,27 @@
+Raonament: Per trobar el nombre mínim de torns, volem maximitzar el nombre de salts de 8.
+Si fem quatre salts de 8, arribem a la casella 1 + 4 * 8 = 33. Des d'aquí, fem un salt de 1 per arribar a la casella 34.
+Però només podem saltar de 7 o 8 cap endavant. Per arribar a 34 fem:
+4 salts de 8 = 32
+1 salt de 2 enrere = 30
+1 salt de 7 = 37, cosa que no podem fer
+5 salts de 7 = 35
+
+Anem a fer 4 salts endavant:
+- Quatre salts de 8: 1 + 4 * 8 = 33. Des d'aquí, necessitem avançar 1 posició. Això no és possible amb un sol moviment.
+
+- Volem fer el màxim de salts de 8 possibles. Podem calcular el nombre de salts de 8 que ens permeten acostar-nos a 34 sense passar-nos. 34 / 8 = 4.25, així que podem fer 4 salts de 8.
+1 + 4 * 8 = 33. Ens falta 1 casella per arribar a 34.
+El problema és que no podem fer un salt d'1. No podem assolir el 34 amb un salt d'1 casella si arribem al 33 amb salts de 8.
+
+Podem provar amb 3 salts de 8 i un salt de 7, i després ajustar amb salts de 2 enrere.
+1 + 3 * 8 + 7 = 1 + 24 + 7 = 32
+Ens falten 2, un salt de 2 enrere no ho soluciona.
+1 + 3*8 = 25. Per arribar a 34, necessitem 9 posicions. Un salt de 7 i un salt de 2 no serveix.
+
+Si fem 5 salts de 7 = 35
+Podem intentar ara la opció de 5 salts de 7. Necessitaríem 5 torns. 1 + 5 * 7 = 36. Estem dos quadres més enllà, així podem fer un salt de 2 cap enrere.
+Un altre opció es 4*8 = 32, i necessitem fer +2. No hi ha moviment per fer +2.
+Si fem 5 moviments per 7, tenim 35. En aquest cas necessitem un moviment per anar enrere, arribant a 34. Així que la resposta és 6.
+
+Raonament: La millor manera d'avançar és amb salts de 8. Després de calcular i provar diferents combinacions de salts de 7 i 8, arribem a la conclusió que fer 5 salts de 7 i un salt de 2 enrere ens permet arribar a la posició 34.
+Resposta: C)

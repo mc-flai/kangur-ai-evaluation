@@ -1,0 +1,43 @@
+Razonamiento:
+1. **Condiciones del PIN:**
+   - Cuatro dígitos diferentes.
+   - Suma de los dígitos es 8.
+   - Producto de los primeros two digits = el number formed by third y fourth digits.
+
+2. **Posibles dígitos:** Since the sum of the four distinct digits is 8, and they must be different, the digits can only be chosen from the set {0, 1, 2, 3, 4, 5, 6, 7, 8}. Also, the maximum value of each digits is 9, so this is no a limit.
+
+3. **Finding the number of combinations.**
+
+Let's use the following representation for the digits:
+First digit = a
+Second digit = b
+Third digit = c
+Fourth digit = d
+
+a * b = 10c + d
+a + b + c + d = 8
+We need to try different values for a and b, and find out if the equation holds. The constraint is that all the digits are different.
+
+*   If a=1, b=2 => a*b = 2,  c=0, d=2. Not valid because the digits are not different. 1+2+0+2 = 5 != 8
+*   If a=1, b=3 => a*b = 3,  c=0, d=3. Not valid because the digits are not different. 1+3+0+3 = 7 != 8
+*   If a=1, b=4 => a*b = 4, c=0, d=4. Not valid because the digits are not different. 1+4+0+4 = 9 != 8
+*   If a=1, b=5 => a*b = 5, c=0, d=5. Not valid because the digits are not different. 1+5+0+5 = 11 != 8
+*   If a=1, b=6 => a*b = 6, c=0, d=6. Not valid because the digits are not different. 1+6+0+6 = 13 != 8
+*   If a=1, b=7 => a*b = 7, c=0, d=7. Not valid because the digits are not different. 1+7+0+7 = 15 != 8
+*   If a=2, b=1 => a*b = 2, c=0, d=2. Not valid because the digits are not different. 2+1+0+2 = 5 != 8
+*   If a=2, b=3 => a*b = 6, c=0, d=6. Not valid because the digits are not different. 2+3+0+6 = 11 != 8
+*   If a=3, b=1 => a*b = 3, c=0, d=3. Not valid because the digits are not different. 3+1+0+3 = 7 != 8
+
+Let's explore other combinations to get a sum of 8:
+Example:
+If we try digits that add to 8:
+0, 1, 2, 5 -> a*b=0, c=0, d=5. Invalid, the digits are repeated.
+1, 2, 0, 5 -> 1*2=2. the combination is: 1, 2, 0, 2. Invalid, 2 is repeated.
+1, 2, 3, 2 -> sum is 8 but not different digits.
+1, 0, 2, 5 -> 0 is not a digit, so this does not work.
+
+Looking for the smallest possible values:
+0+1+2+5=8, 0\*1=02, and then this is invalid.
+With these conditions is difficult to find any PIN that fit. It is 0 PINs.
+
+Respuesta: A)

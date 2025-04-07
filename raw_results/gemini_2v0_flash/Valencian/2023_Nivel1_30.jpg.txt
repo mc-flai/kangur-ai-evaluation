@@ -1,0 +1,24 @@
+Raonament: Analitzem les desigualtats que involucren la lletra E. Sabem que D > E i E < F. Això significa que E ha de ser un nombre que sigui més petit que D i més petit que F. També sabem que tots els nombres estan entre 1 i 9.
+Observant les desigualtats verticals, sabem que A > D > G, B > E > H i C < F > I. Per tant, E està acotat entre B i H. Sabem que B és més gran que E, i E és més gran que H. Per tant, podem deduir que ni B ni H poden ser 1 o 9.
+Ara, si considerem E = 1, llavors D > 1 i F > 1. A més, B > 1 i H < 1, però H no pot ser menor que 1, així que E no pot ser 1.
+Si considerem E = 2, llavors D > 2 i F > 2. A més, B > 2 i H < 2, així que H = 1.
+Si considerem E = 3, llavors D > 3 i F > 3. A més, B > 3 i H < 3, així que H = 1 o H = 2.
+Si considerem E = 4, llavors D > 4 i F > 4. A més, B > 4 i H < 4, així que H = 1, 2 o 3.
+Si considerem E = 5, llavors D > 5 i F > 5. A més, B > 5 i H < 5, així que H = 1, 2, 3 o 4.
+A partir de la primera fila, sabem que A > B > C.  A partir de la tercera fila, sabem que G > H > I.
+La millor manera de determinar la resposta correcta és provar els valors donats per E i veure si podem assignar els nombres restants a les altres variables sense violar cap de les desigualtats.
+Si E = 5, llavors B > 5 i D > 5, de manera que B i D poden ser 6, 7, 8, 9. També sabem que H < 5. Pot ser que E=5 sigui possible.
+
+Si E = 1, llavors D > 1 i F > 1. A més, B > 1 i H < 1, però H no pot ser menor que 1, per tant H no podria ser res.
+
+Després d'intentar-ho amb E = 2 i provant amb les altres variables, sembla complicat trobar una distribució vàlida. El mateix succeeix amb E = 3 i E=4.
+
+Si E = 5, necessitem D > 5 i F > 5. Això significa que D i F són 6, 7, 8 o 9. També necessitem B > 5, així que B és 6, 7, 8 o 9. A més, necessitem A > B i C < F. També necessitem G > H > I i H < 5.
+
+Però la restricció més forta sembla ser E < F i que totes les variables estan entre 1 i 9. Si E és 5, llavors F ha de ser com a mínim 6.
+
+Després de considerar totes les desigualtats, és probable que E sigui 5.
+
+Raonament: Hem analitzat les desigualtats i provat les opcions donades per E. Tot i que una comprovació exhaustiva implicaria provar totes les combinacions, la restricció que E sigui menor que D i F, i que B sigui més gran que E i H més petit que E, ens porta a la conclusió més probable que E = 5.
+
+Resposta: E)

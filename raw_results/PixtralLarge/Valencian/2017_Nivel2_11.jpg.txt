@@ -1,0 +1,26 @@
+Per determinar quantes zeros hi ha al final del número resultant del producte 1·2·3·4·5·...·18·19·20, hem de comptar quantos factors de 10 hi ha en el número resultant. Cada factor de 10 resulta de la multiplicació de 2 i 5.
+
+Alguns punts clau:
+
+1. **Comptar quantes vegades apareix el 5**: Cada 5 contribuirà a un zero al final del número resultant, ja que el 2 és més abundant en els números de l'1 al 20.
+
+2. **Identificar els múltiples de 5 dins el rang 1 a 20**:
+   - Els números que són múltiples de 5 dins el rang 1 a 20 són: 5, 10, 15, 20.
+   - A més, 20 té un altre factor de 5 (ja que 20 = 4 x 5).
+
+3. **Comptar tots els factors de 5**:
+   - El 5 i el 15 contribueixen un factor de 5 cada un.
+   - El 10 contribueix un factor de 5.
+   - El 20, pel seu costat, contribueix dos factors de 5 (ja que 20 = 4 x 5 = 2^2 x 5).
+
+4. **Sumar tots els factors de 5**:
+   - 5: 1 factor de 5
+   - 10: 1 factor de 5
+   - 15: 1 factor de 5
+   - 20: 2 factors de 5
+
+El total de factors de 5 és 1 + 1 + 1 + 2 = 5.
+
+Raonament: Cada factor de 5 en el producte 1·2·3·...·20 contribueix a un zero al final del número resultant. Hi ha 5 factors de 5 en el producte.
+
+Resposta: E)

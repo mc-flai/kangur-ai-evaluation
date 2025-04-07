@@ -1,0 +1,134 @@
+Raonament:
+1. Identifiquem els costats dels quadrats: El quadrat amb àrea 16 cm² té un costat de √16 = 4 cm. El quadrat amb àrea 49 cm² té un costat de √49 = 7 cm.
+
+2. Analitzem la figura per trobar les relacions entre els costats dels quadrats:
+*   El costat del quadrat gran és 7 cm.
+*   El costat del quadrat petit superior esquerre és 4 cm.
+*   El costat del quadrat superior dret és 4 cm.
+*   El costat del quadrat a la dreta del quadrat de costat 7 és 7-4 = 3 cm.
+*   El costat del quadrat petit sobre aquest últim és 3 cm.
+*   Abaix del quadrat de 4, a la esquerra del de 3 hi ha un quadrat de costat 4-3=1 cm.
+
+3. Calculem el costat del rectangle:
+*   Llargada del rectangle: 7 + 3 = 10 cm.
+*   Amplada del rectangle: 7 + 4 = 11 cm.
+* Altura esquerra: 4+7=11
+* Altura dreta: 4+3+1+3 = 11
+
+4. Calculem l'àrea total dels quadrats: 16 + 49 + 3*3 + 4*4 + 1*1= 16+49+9+16+1 = 91
+
+5. Calculem l'àrea del rectangle com llargada per amplada: 10 cm * 11 cm = 110 cm². Sembla que he fet algo malament perque l'area del rectangle hauria de ser igual a la suma de l'area dels quadrats, ja que el rectangle no queda espai lliure.
+
+6. Verificarem els valors del costats de nou.
+* El costat de quadrat gran és de 7.
+* A la part de dalt d'aquest quadrat hi ha 2, un de 4 i a la dreta un que direm x
+* La suma dels costats de 4+x=7 => x=3.
+* Per tant els quadrats son de area 49,16,9 i hi ha un quadrat petit de costat y que esta per sota del 4, el seu costat es 4-y=3 => y=1 i es de area 1
+* per ultim hi ha un quadrat de costat 3 que està a la dreta del de 7.
+* la suma total es 16+49+9+16+1= 85 (faltaria un quadrat)
+
+7. Analitzem la geometria de nou i verifiquem que l'amplada és 11 cm (7+4) i la llargada és 10 (7+3).
+8. Amb amplada 11 i llargada 10 la area del rectangle és 110. El quadrat que falta per tant es 110-85=25, per tant hi hauria un quadrat més de 5.
+9. La area del rectangle es 11*10=110. pero en la figura hi ha 6 quadrats, les areas han de sumar 110.
+10. L'enunciat indica: Un rectangle està dividit en 6 quadrats. Les areas han de ser 16+49+un de 3x3+un de 1x1+un de 5x5=16+49+9+1+25= 100. Com el rectangle te costat 10+11=110 i tots els quadrats son 6=>
+11. Els costats tenen mides 4, 7, 3, 1,5.
+
+Raonament: He fet malament de nou.
+* Quadrat gran = 7x7 = 49
+* quadrat superior esquerra 4x4= 16
+* quadrat a dalt a la dreta 3x3 =9
+* petit a sota = 1x1
+* lateral dret 3x3 = 9
+* Quadrat sota 4x7 ha de ser 7-4=3.
+* 16+49+9+9+1= 84
+
+Raonament:
+L'àrea del quadrat gran és 49, per tant el seu costat és 7.
+L'àrea del quadrat petit superior esquerre és 16, per tant el seu costat és 4.
+A la part superior dreta hi ha un quadrat de costat x. El costat del rectangle és la suma dels costats dels dos quadrats superiors: 4 + x. Aquest costat també és igual al costat del quadrat gran més el costat d'un quadrat, per tant 7+ (7-4)=7+3=10cm. per tant 4+x=10 y així que el quadrat superior a la dreta te costat 6cm -> 36cm2
+Abaix te una altre cuadrat x, el total verticalmente 7+4=11=>rectangle tenen els costats son 11 x 7=85. La suma total es de 110/
+
+Anem paso a paso i veiem que l'error resideix a que hem de seguir els costats per acabar de descobrir l'area.
+49+16+3=
+
+Raonament:
+1. **Lado de los cuadrados:** El cuadrado con área 16 cm² tiene lado 4 cm. El cuadrado con área 49 cm² tiene lado 7 cm.
+2. **Lado del rectángulo:**  El largo del rectángulo es 7 cm + (lado de un cuadrado pequeño). La altura del rectángulo es 7 cm + 4 cm = 11 cm.
+3. **Calculando el lado faltante:** El lado del rectángulo también puede calcularse como 4 cm + (lado de un cuadrado mediano).  Esto significa que el cuadrado faltante tiene lado 7-4=3 cm y a la izquierda de este un cuadrado de 4 cm. por lo tanto 7+3=10
+4. **Composicion:**
+
+En la imagen vemos una estructura de 6 cuadrados
+
+* area 1 = 16 = lado =4
+* area 2= 49= lado=7
+* area 3=9 lado=3
+* area 4=9=lado 3
+* area 5=1=lado =1
+
+Area total a sumar para alcanzar la area del rectangle = 16+49+9+9+area 6
+
+Anem amb llargada i amplada per tant la llargada = 10 cm y l'amplada = 11cm
+El perimetre= 110cm
+
+Sumem 110- (16+49+9+9+1)= 110- 84=area=26, aquest es el quadrat restant
+
+Raonament:
+```
+Vamos a analizar las dimensiones del rectángulo basándonos en los cuadrados dados.
+
+1. **Cuadrados conocidos:** Tenemos un cuadrado de área 16 cm² (lado = 4 cm) y otro de área 49 cm² (lado = 7 cm).
+
+2. **Dimensiones del rectángulo:**
+   * Ancho: El ancho del rectángulo es la suma de los lados del cuadrado de 49 cm² y el cuadrado de 16 cm², es decir, 7 cm + 4 cm = 11 cm.
+   * Largo: Observando la figura, vemos que el largo del rectángulo se compone del lado del cuadrado de 49 cm² (7 cm) más el lado de otro cuadrado.  Para hallar este lado, notamos que también es igual al lado del cuadrado de 16 cm² (4 cm) + el lado de un cuadrado pequeño. Este cuadrado pequeño se deduce al ver que el lado del cuadrado de 49 cm² menos el lado del cuadrado de 16 cm² es el valor faltante, 7-4 =3cm. Por lo tanto, el largo del rectangulo es 7 +3= 10 cm.
+   * Area del rectangulo es igual a 11*10 = 110 cm^2
+3.  Ahora bien con esa información, podemos descartar las opciones.
+
+4. *   area 1= 4x4=16
+    *   area 2= 7x7=49
+    *  area 3= 3x3=9
+    * area 4= 3x3=9
+    *   area 5= 1x1=1
+
+Entonces área 6 = 110- (16+49+9+9+1)=26 => (sqrt(26) que no un valor entero.
+
+Con las medidas podemos calcular la area y ver si coincide.
+Lado: 4 cm + (lado de un cuadrado chico) = 7 cm + (lado de un cuadrado chico); entonces = es un rectangulo, pero los valores de cuadrados no coinciden
+
+16 + 49 = 65 cm^2, no sabemos el resto (9+9+1) -> 15, No es
+
+```
+
+Raonament:
+L'àrea total hauria de ser la suma de tots els quadrats petits. El costat del quadrat mitjà és 4, i el costat del quadrat gran és 7. Sabem que un costat del rectangle és 7+4 = 11. L'altre costat serà un valor x.
+* Quadrat de costat 7 -> 49
+* Quadrat de costat 4 -> 16
+L'àrea que falta del rectangle és xy =110. El rectangle te dos costats perpendiculars: 11 i 10, per tant 11x10=110
+
+Raonament:
+
+Sabem que:
+* Area_1= 16cm²
+* Area_2= 49cm²
+
+Deduïm:
+* L_1= √16= 4cm
+* L_2= √49= 7cm
+
+A partir d'aquí construïm el rectangle imaginari a partir d'aquestes longituds. Veiem que l'altura total del rectangle seria la suma de costats: 7cm+4cm= 11cm. Mentres la base del rectangle seria la longitud gran més la petita: 7cm-4cm = 3cm. Així que el costat total seria 7cm+3cm=10cm.
+
+Area Rectangle = base * altura = 10cm * 11cm= 110cm² (No hi ha opció, per tant, em deixo algo)
+Revisant-ho:
+Llarg: 7+3 = 10
+Ample: 7+4=11
+Quadrats que falten:
+3x3=9, i un altre 3x3=9 i un de 1. Però en realitat ha d'haver un quadrat que falda perque els costats són aquests.
+110=16+49+X ->
+
+Si hi han 6 quadrats, aquests hem de ser, els restants son els d 3x3 i 1x1. Amb el qual hi ha un error conceptual que no se detectar
+
+Raonament:
+La solución no la podemos calcular analíticamente, ya que nos faltan valores. Por tanto, analizando visualmente los datos, la respuesta no es ni 132 ni 143, ya que están muy cerca de los dos cuadrados principales. Viendo la figura, el cuadrado es casi un cuadrado, con área 11x10 ->110. Si los cuadrados existentes son 65, la área faltante es casi 45. Por ende el cuadrado con mas aproximación seria el 176.
+La respuesta se hace por eliminación de valores y basándose en proporciones visuales de la figura.
+
+Resposta: E)

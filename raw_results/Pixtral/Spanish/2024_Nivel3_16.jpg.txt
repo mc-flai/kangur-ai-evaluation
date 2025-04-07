@@ -1,0 +1,13 @@
+Para determinar el número de cifras cuyo producto es mayor que el número mismo, debemos considerar los números que cumplen con esta condición. El número en cuestión es 7.
+
+Razonamiento:
+1. Identificar los números que cumplen con la condición de que su producto sea mayor que el número mismo.
+2. Evaluar los números de 0 a 4 para ver si su producto es mayor que el número mismo.
+   - Para 0: 0 * cualquier número = 0, que no es mayor que 0.
+   - Para 1: 1 * 1 = 1, que es igual a 1.
+   - Para 2: 2 * 2 = 4, que es mayor que 2.
+   - Para 3: 3 * 3 = 9, que es mayor que 3.
+   - Para 4: 4 * 4 = 16, que es mayor que 4.
+3. De los números de 0 a 4, los números 2, 3 y 4 cumplen con la condición de que su producto sea mayor que el número mismo.
+
+Respuesta: C) 2

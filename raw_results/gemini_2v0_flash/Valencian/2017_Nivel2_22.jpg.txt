@@ -1,0 +1,16 @@
+Raonament: La pregunta és quants nombres de tres xifres es poden representar com a producte de sis nombres diferents, d'una xifra cadascun d'ells. Per tenir nombres d'una xifra diferents, els nombres han de ser extrets del conjunt {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Com que volem sis nombres diferents, el 0 no pot ser un d'ells perquè el producte seria 0, i això no és un nombre de tres xifres. També, podem descartar el 1 ja que, per exemple, si considerem els números {2, 3, 4, 5, 6, 1}, podem substituir l'1 per un altre número. Per tant, intentem trobar els sis números que ens donen un nombre de tres xifres.
+
+El nombre mínim que podem obtenir amb sis nombres diferents és 2 * 3 * 4 * 5 * 6 * 7 = 5040. Aquest nombre és molt gran. Per obtenir nombres més petits, hem de triar nombres més petits de forma estratègica.
+
+Considerem la possibilitat d'usar els dígits més petits possibles que no siguin 0 i 1: 2, 3, 4, 5, 6, 7. El producte és 5040, que té 4 xifres. L'objectiu és trobar un producte de sis números d'una sola xifra que sigui un nombre de tres xifres.
+
+Si volem que el producte doni un nombre de tres xifres, necessitem que sigui entre 100 i 999. Comencem provant amb la multiplicació més petita possible amb 6 nombres diferents que no siguin 0 ni 1: 2 * 3 * 4 * 5 * 6 * 7 = 5040.
+Però aquest producte és massa gran (4 xifres).
+
+Intentem 2*3*4*5*6 = 720. Si afegim un 1 i un 0, el producte serà 0. Si tenim 2*3*4*5*6*x = valor < 1000. Però necessitàvem nombres diferents.
+Els nombres més petits d'una xifra són 2, 3, 4, 5, 6, 7. Com hem vist 2*3*4*5*6*7 és massa gran.
+Proveu amb 2, 3, 4, 5, 6 i un altre nombre. El producte de 2*3*4*5*6 = 720. Només podríem multiplicar per 1 (però vull números diferents).
+Proveu amb 2, 3, 4, 5, 7,8. El producte és 3360. Massa gran.
+Per tant, la resposta és que no hi ha cap nombre de tres xifres que pugui representar-se així.
+
+Resposta: E)

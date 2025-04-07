@@ -1,0 +1,19 @@
+To solve this problem, we need to determine the percentage of possible distributions in which the 106-gram weight ends up on the right (heavier) side of the beam balance.
+
+1. **Total Number of Weights**: There are six weights in total: 101, 102, 103, 104, 105, and 106 grams.
+2. **Number of Weights on Each Side**: Since the balance dips to the right, there must be more weight on the right side. Therefore, the right side must have either 4 or 5 weights, and the left side must have either 2 or 1 weight, respectively.
+3. **Possible Distributions**: 
+    - If the right side has 4 weights, the left side has 2 weights. The number of ways to choose 4 weights out of 6 is given by the combination formula \( \binom{6}{4} = 15 \). 
+    - If the right side has 5 weights, the left side has 1 weight. The number of ways to choose 5 weights out of 6 is given by the combination formula \( \binom{6}{5} = 6 \).
+    - Therefore, the total number of possible distributions is \( 15 + 6 = 21 \).
+4. **Distributions with 106 grams on the Right Side**: 
+    - For the 106-gram weight to be on the right side, we need to consider the remaining 5 weights.
+    - If the right side has 4 weights (including the 106-gram weight), we need to choose 3 more weights from the remaining 5 weights. The number of ways to choose 3 weights out of 5 is given by the combination formula \( \binom{5}{3} = 10 \).
+    - If the right side has 5 weights (including the 106-gram weight), we need to choose 4 more weights from the remaining 5 weights. The number of ways to choose 4 weights out of 5 is given by the combination formula \( \binom{5}{4} = 5 \).
+    - Therefore, the total number of distributions with the 106-gram weight on the right side is \( 10 + 5 = 15 \).
+5. **Percentage Calculation**: 
+    - The percentage of distributions with the 106-gram weight on the right side is \( \frac{15}{21} \times 100\% \approx 71.43\% \).
+    - Since the closest option is 75%, we can conclude that the correct answer is (A) 75%.
+
+Reasoning: The number of ways to distribute the weights such that the 106-gram weight is on the right side is calculated using combinations, and the percentage is derived from these calculations.
+Answer: A).

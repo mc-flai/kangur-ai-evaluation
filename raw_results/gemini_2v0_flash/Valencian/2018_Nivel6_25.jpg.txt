@@ -1,0 +1,19 @@
+Raonament:
+Siguem Y l'any de naixement del matemàtic i S la suma dels dígits de Y.
+A l'any 1955, la seva edat era S. Així, 1955 - Y = S.
+Podem escriure Y com 1900 + 10a + b, on a i b són dígits entre 0 i 9.
+Llavors, S = 1 + 9 + a + b = 10 + a + b.
+Substituint a l'equació original, tenim:
+1955 - (1900 + 10a + b) = 10 + a + b
+1955 - 1900 - 10a - b = 10 + a + b
+55 - 10a - b = 10 + a + b
+45 = 11a + 2b
+Com que a i b són enters entre 0 i 9, podem trobar els valors possibles per a a i b.
+Si a = 1, llavors 2b = 45 - 11 = 34, de manera que b = 17. Això no és vàlid perquè b ha de ser un dígit.
+Si a = 2, llavors 2b = 45 - 22 = 23, de manera que b = 11.5. Això no és vàlid perquè b ha de ser un dígit.
+Si a = 3, llavors 2b = 45 - 33 = 12, de manera que b = 6. Aquesta és una solució vàlida.
+Així, Y = 1900 + 10(3) + 6 = 1936.
+L'any en què va complir 50 anys és 1936 + 50 = 1986.
+La suma dels dígits d'aquest any és 1 + 9 + 8 + 6 = 24.
+
+Resposta: D)

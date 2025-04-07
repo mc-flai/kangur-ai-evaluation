@@ -1,0 +1,8 @@
+Raonament:
+1. **Mitjana de tots els nombres:** El problema diu que el nombre del mig és també la mitjana aritmètica dels nou nombres. Això significa que la mitjana de tots els nombres és igual al nombre que es troba al centre de la llista ordenada (el cinquè nombre).
+2. **Suma dels cinc més grans:** La mitjana de cinc nombres és 68, la qual cosa significa que la suma d'aquests cinc nombres és 5 * 68 = 340.
+3. **Suma dels cinc més petits:** La mitjana de cinc nombres és 44, la qual cosa significa que la suma d'aquests cinc nombres és 5 * 44 = 220.
+4. **Càlcul de la mitjana dels nou nombres:** La suma dels nou nombres es pot calcular com la suma dels cinc nombres més grans, la suma dels cinc nombres més petits, menys el nombre del mig, que ja està comptabilitzat dues vegades.  Però, per la informació donada, podem deduir que la suma dels nou nombres és igual a (5 * 68) + (5 * 44) - mitjana. Però a més sabem que la mitjana és el nombre del mig, i també és la mitjana de tots els nombres, així que podem calcular-la com la mitjana de les dues mitjanes: ((68+44)/2) = 56. Ara podem calcular la suma total:
+(5 * 68) + (5 * 44) - 56 = 340 + 220 - 56 = 504.  Aquesta suma és la suma de tots els nombres, ja que la mitjana aritmètica dels nou nombres també és el nombre del mig.
+
+Resposta: C)

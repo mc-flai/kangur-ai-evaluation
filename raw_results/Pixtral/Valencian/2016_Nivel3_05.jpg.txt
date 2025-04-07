@@ -1,0 +1,26 @@
+**Pregunta:** Si tenim 7 punts, 6 dels quals estan en una matriu rectangular, quants triangles es poden dibuixar que tinguin com a vèrtex tres d'aquests punts?
+
+**Opcions:**
+A) 12
+B) 13
+C) 14
+D) 15
+E) 16
+
+**Racionalització:**
+1. Tenim 7 punts en total.
+2. 6 d'aquests punts estan en una matriu rectangular. Això significa que aquests punts estan disposats en una forma rectangular, possiblement en línies i files.
+3. Per dibuixar triangles, necessitem 3 punts que no estiguin tots en la mateixa línia recta.
+4. Com que 6 punts estan en una matriu rectangular, podem considerar els punts que no estan en la mateixa línia recta.
+5. Els punts en una matriu rectangular es disposen de manera que cada punt en una línia pot formar un triangle amb dos punts d'una altra línia.
+6. Per a 6 punts en una matriu rectangular, podem seleccionar 3 punts de 3 línies diferents per formar un triangle.
+7. El nombre de triangles que es poden formar és donat per la combinació de 6 punts triats 3 a 3, que és calculat com 6C3 (on C representa combinació).
+
+    \[
+    6C3 = \frac{6!}{3!(6-3)!} = \frac{6 \times 5 \times 4}{3 \times 2 \times 1} = 20
+    \]
+
+8. Com que 1 dels 7 punts no està en la matriu rectangular, aquest punt no pot formar part d'un triangle amb els 6 punts en la matriu rectangular.
+9. Per tant, el nombre de triangles que es poden dibuixar és 20 - 1 = 19.
+
+**Resposta:** D)

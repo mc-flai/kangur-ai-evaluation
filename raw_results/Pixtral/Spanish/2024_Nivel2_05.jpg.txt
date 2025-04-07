@@ -1,0 +1,22 @@
+Para determinar cuántos números de tres cifras pueden escribirse como la suma de dos números iguales o distintos, debemos considerar las posibles combinaciones de números que cumplen con este criterio.
+
+Razonamiento:
+1. Un número de tres cifras se puede escribir en la forma ABA, donde A y B son dígitos.
+2. Para que la suma de dos números iguales o distintos resulte en un número de tres cifras, ambos números deben ser del mismo rango.
+3. El número más pequeño de tres cifras es 100 y el más grande es 999.
+4. Para cada número de tres cifras, debemos encontrar combinaciones de A y B que cumplan con el criterio.
+5. Comenzamos con el número más pequeño, 100, y probamos diferentes valores de A y B.
+   - Si A = 1, B puede ser cualquier dígito de 0 a 9, lo que da 10 combinaciones.
+   - Si A = 2, B puede ser cualquier dígito de 0 a 9, lo que da 10 combinaciones.
+   - Continuamos este proceso para cada valor de A hasta el valor máximo de A que aún produce números de tres cifras.
+
+Al revisar las opciones dadas:
+- A) 110
+- B) 100
+- C) 90
+- D) 80
+- E) 70
+
+Podemos ver que la opción A) 110 es la que mejor se ajusta a la descripción del problema, ya que es un número de tres cifras que puede escribirse como la suma de dos números iguales o distintos.
+
+Respuesta: A)

@@ -1,0 +1,29 @@
+
+Raisonnement :
+1. Lisa et Marie participent à un rallye mathématique avec une liste de 100 problèmes à résoudre.
+2. Pour chaque problème résolu, la première personne à le résoudre marque 4 points, et la deuxième personne à le résoudre marque 1 point de plus que le nombre de problèmes résolus jusqu'à ce moment-là.
+3. Elles résolvent ensemble 60 problèmes.
+4. Le total des points qu'elles ont ensemble est de 312 points.
+5. Pour trouver le nombre de problèmes résolus par Marie et Lisa, nous devons calculer le nombre total de points qu'elles auraient pu obtenir en résolvant tous les problèmes.
+
+   - Si elles avaient résolu tous les 100 problèmes, la première personne à résoudre chaque problème aurait marqué 4 points, et la deuxième personne aurait marqué 1 point de plus que le nombre de problèmes résolus jusqu'à ce moment-là.
+   - Le nombre total de points pour 100 problèmes serait donc une série arithmétique où le premier terme est 4 et le dernier terme est 103 (4 + 100 points supplémentaires).
+
+   - La somme S d'une série arithmétique est donnée par la formule :
+     \[ S = \frac{n}{2} \times (a + l) \]
+     où \( n \) est le nombre de termes, \( a \) est le premier terme et \( l \) est le dernier terme.
+
+   - Ici, \( n = 100 \), \( a = 4 \), et \( l = 103 \).
+     \[ S = \frac{100}{2} \times (4 + 103) = 50 \times 107 = 5350 \]
+
+   - Elles ont résolu 60 problèmes, donc le nombre de points qu'elles auraient pu obtenir est :
+     \[ 5350 \times \frac{60}{100} = 3210 \]
+
+   - Le nombre de points qu'elles ont réellement obtenus est de 312 points.
+   - La différence entre les points qu'elles auraient pu obtenir et les points qu'elles ont réellement obtenus est :
+     \[ 3210 - 312 = 2898 \]
+
+   - Le nombre de problèmes résolus par Marie et Lisa est donc :
+     \[ 2898 \]
+
+Réponse : E)

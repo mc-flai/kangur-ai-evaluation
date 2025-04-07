@@ -1,0 +1,5 @@
+Raonament: El nombre de zeros amb els quals acaba un número depèn del nombre de vegades que apareix el factor 10 en la seva descomposició en factors primers. El factor 10 es pot descompondre en 2 * 5. Aleshores, per determinar el nombre de zeros, hem de comptar les parelles de 2 i 5 que hi ha en la descomposició en factors primers del número donat.
+
+En la descomposició donada, tenim 2^12 i 5^15. La potència més petita entre 2 i 5 determina el nombre de parelles 2 * 5 que podem formar. En aquest cas, tenim 12 potències de 2 i 15 potències de 5. Per tant, podem formar 12 parelles de 2 * 5, la qual cosa dona lloc a 12 zeros.
+
+Resposta: A)

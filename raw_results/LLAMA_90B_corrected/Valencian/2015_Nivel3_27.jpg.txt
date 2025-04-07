@@ -1,0 +1,25 @@
+### Raonament
+
+Per resoldre aquesta quantitat, hem de realitzar una doble treball:
+
+1.  Observar que el patró donat és una sèrie aritmética que s'inicia amb un 1 i suma un nombre decrecient des de 2 fins a arribar a 1 (0):
+
+    1 + 2 - 3 - 4 + 5 + 6 - 7 - 8 + 9 + 10 - 11 - ... - 2015.
+
+2.  Podem tornar a organitzar la sèrie i trobar que cada grup de números, 4 a 4, ens donen un 0:
+
+    + (1 + 2 - 4 - 3) + (5 + 6 - 8 - 7) + ... + (2013 + 2014 - 2016 - 2015) = 0 + 0 + 0 + ... + 0 
+
+3.  Ens queden 3 nombres llista, del 2012 al 2014.
+
+4.  Si analitzem detingudament cada patró, tenim que 2012 = 2014  
+  
+  
+
+Considerant aquesta llista tenim que el treball deixat ens queda = 
+
+2012 + 2013 + 2014 - 2014 - 2015
+2013 * 2 
+
+Si busquem resoldre la pregunta, arribem a que C) és la resposta correcta.
+### Resposta: C)

@@ -1,0 +1,26 @@
+Razonamiento: 
+*   Se inicia el proceso de resolución ponderando diferentes enfoques para encontrar cuál será el número de enteros escritos en la pizarra.
+*   La pregunta es: "¿Cuál de los siguientes puede ser el número de enteros escritos en la pizarra?" con una suma de productos de todos ellos es 2018.
+*   Se analiza la ecuación donde hay «N» enteros escritos, siendo «X0», «X1»…«Xn-1» y la suma se representa como: 
+\[
+\sum_{i = 0}^{n-1} x_{i} = 2018 
+\]
+*   También se focaliza en la fórmula que representa la suma de los cuadrados de los N números enteros: 
+\[
+\sum_{i = 0}^{n-1} x_{i}^{2} = 476486 
+\]
+*   Se pondera la distancia real entre enteros consecutivos para juzgar la relación entre las ecuaciones antes descritas.
+*   Se parte del hecho de que cusadzen representa la diferencia entre los dos últimos enteros.
+*   Entonces se agrega la diferencia entre los dos últimos enteros una vez y en la siguiente se le agrega sumando también $d^2$ una vez.
+*   Para esto se realizan las siguientes ecuaciones y desigualdades:
+\[
+x_{n-1}^{2} - x_{n-2}^{2} = d(2x_{n-2} + d) 
+\]
+\[
+n - 1 > \sqrt{\frac{x_{n-1}^{2} - x_{n...2}^{2}}{2}} \ 
+\]
+Esto meticuloso cálculo algebraico permite conocer la máxima cantidad de datos en la pizarra para la suma de los cuadrados que se describe.
+Este se manifiesta en la solución iterating, de forma iterativa se realizan las sumas entre 1, 3 hasta encontrar el número de datos.
+Por tanto se llega que la respuesta serán 2020 datos car_position_in_set que se puedan dispar Josmando con los cuadrados des77 semana
+
+Respuesta: No Answer

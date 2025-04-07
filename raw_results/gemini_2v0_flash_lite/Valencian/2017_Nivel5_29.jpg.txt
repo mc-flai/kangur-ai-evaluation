@@ -1,0 +1,10 @@
+Raonament:
+1. **Calcul del radi:** El diàmetre de la bola buida és 20 cm, per tant el seu radi exterior és 10 cm i el radi interior és 9 cm (10 cm - 1 cm).
+2. **Càlcul de volums:**
+    *   Volum de la bola sòlida (V_solid): V_solid = (4/3) * pi * R^3 = (4/3) * pi * (10 cm)^3
+    *   Volum de la bola buida (V_hollow): V_hollow = (4/3) * pi * (10 cm)^3 - (4/3) * pi * (9 cm)^3 = (4/3) * pi * (10^3 - 9^3) cm^3
+3. **Càlcul del número de boles buides necessàries:** Dividim el volum de la bola sòlida pel volum de la part plena d'una bola buida (la diferència entre el volum exterior i el volum interior):
+    Numero de boles = V_solid / (V_hollow) = [(4/3) * pi * (10 cm)^3] / [(4/3) * pi * (10^3 - 9^3) cm^3] = 1000 / (1000 - 729) = 1000/271 ≈ 3.69
+4. **Arrodoniment:** Com no podem utilitzar una part de la bola buida, hem d'arrodonir cap amunt per tenir la quantitat suficient de material.  Arrodonim 3.69 a 4.
+
+Resposta: B) 4

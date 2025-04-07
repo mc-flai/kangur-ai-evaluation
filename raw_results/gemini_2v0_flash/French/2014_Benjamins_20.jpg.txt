@@ -1,0 +1,24 @@
+Reasoning:
+First, we calculate the total duration of the 5 songs in the cycle:
+A: 3 min
+B: 2 min 30 s
+C: 2 min
+D: 1 min 30 s
+E: 4 min
+Total duration = 3 + 2.5 + 2 + 1.5 + 4 = 13 minutes.
+Andy left during song C. He was gone for exactly 1 hour (60 minutes). We need to figure out which song was playing when he returned.
+Since the songs are played in a loop, we can find how many complete loops of the 5 songs occurred in that hour.
+Number of loops = 60 minutes / 13 minutes per loop = 4 loops with a remainder of 8 minutes.
+
+Since Andy left during song C, after 4 loops, the start of the next series of songs is A.
+Song A: 3 min
+Song B: 2 min 30 sec (Total after song B = 5min 30 sec)
+Song C: 2 min (Total after song C= 7min 30 sec)
+The remaining duration after four cycles is 8 minutes.
+Song A takes 3 minutes. Remaining time = 8 - 3 = 5 minutes
+Song B takes 2 minutes 30 seconds. Remaining time = 5 minutes-2 minutes and 30 seconds = 2 minutes and 30 seconds
+Since there is 2 minutes and 30 seconds left after playing Song B, this means that part of Song C is playing when Andy returns since Song C duration is 2 minutes and if 2 minutes 30 seconds is available then Song C is already playing.
+
+Since Andy left during C, the loop repeats four times, then starts from A again. A and B finish, and 2 minutes 30 seconds of Song C plays. Therefore, when Andy returns, Song C is playing.
+
+Answer: C)

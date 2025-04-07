@@ -1,0 +1,14 @@
+Raonament: Per resoldre aquest problema, hem de determinar quins valors no són possibles per a la suma de 21 monedes de 2 i 5 cèntims. El valor més petit possible seria amb totes les monedes de 2 cèntims: 21 * 2 = 42 cèntims. El valor més gran possible seria amb totes les monedes de 5 cèntims: 21 * 5 = 105 cèntims.
+
+Podem representar el valor total com a 2x + 5y = total, on x és el nombre de monedes de 2 cèntims i y és el nombre de monedes de 5 cèntims. Sabem que x + y = 21. Podem reorganitzar aquesta equació per aïllar x: x = 21 - y.
+
+Substituïm en l'equació original: 2(21 - y) + 5y = total. Això es simplifica a 42 - 2y + 5y = total, o 42 + 3y = total.
+
+Analitzem cada opció:
+A) 45: 42 + 3y = 45 -> 3y = 3 -> y = 1. x = 21 - 1 = 20.  Aquest valor és possible (20 monedes de 2 cèntims i 1 moneda de 5 cèntims).
+B) 60: 42 + 3y = 60 -> 3y = 18 -> y = 6. x = 21 - 6 = 15. Aquest valor és possible (15 monedes de 2 cèntims i 6 monedes de 5 cèntims).
+C) 70: 42 + 3y = 70 -> 3y = 28 -> y = 28/3. Aquest valor NO és possible, perquè y ha de ser un nombre enter.
+D) 81: 42 + 3y = 81 -> 3y = 39 -> y = 13. x = 21 - 13 = 8. Aquest valor és possible (8 monedes de 2 cèntims i 13 monedes de 5 cèntims).
+E) 102: 42 + 3y = 102 -> 3y = 60 -> y = 20. x = 21 - 20 = 1. Aquest valor és possible (1 moneda de 2 cèntims i 20 monedes de 5 cèntims).
+
+Resposta: C)

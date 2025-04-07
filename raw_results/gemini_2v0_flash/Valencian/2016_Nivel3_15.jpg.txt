@@ -1,0 +1,13 @@
+Raonament: Sigui $n$ el nombre natural. Si al dividir $n$ per 7, el residu és igual al quocient, llavors podem escriure $n = 7q + r$, on $q$ és el quocient i $r$ és el residu. Segons l'enunciat, $q = r$. Per tant, $n = 7r + r = 8r$.
+Com que $r$ és el residu de dividir per 7, llavors $0 \leq r < 7$. Els valors possibles de $r$ són $0, 1, 2, 3, 4, 5, 6$.
+Per tant, els valors de $n$ són:
+- Si $r = 0$, $n = 8(0) = 0$. Però l'enunciat demana nombres naturals, per tant, $n$ no pot ser 0.
+- Si $r = 1$, $n = 8(1) = 8$.
+- Si $r = 2$, $n = 8(2) = 16$.
+- Si $r = 3$, $n = 8(3) = 24$.
+- Si $r = 4$, $n = 8(4) = 32$.
+- Si $r = 5$, $n = 8(5) = 40$.
+- Si $r = 6$, $n = 8(6) = 48$.
+La suma de tots aquests nombres és $8 + 16 + 24 + 32 + 40 + 48 = 168$.
+
+Resposta: B)

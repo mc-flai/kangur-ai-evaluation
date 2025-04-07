@@ -1,0 +1,77 @@
+Raisonnement :
+La figure 1 a 1 triangle.
+La figure 2 a 1 + 3 = 4 triangles.
+La figure 3 a 1 + 3 + 5 = 9 triangles.
+Le nombre de triangles noirs augmente de 2 à chaque étape. On peut modéliser la séquence du nombre de triangles avec la formule : 1 + 3(n-1) où n représente le numéro de la figure.
+Pour la figure 6, le nombre de triangles est donc : 1 + 3(6-1) = 1 + 3(5) = 1 + 15 = 16.
+Cependant, les réponses proposées ne correspondent pas à 16, il y a donc une erreur dans l'énoncé.
+Le nombre de triangles pour la figure 1 est 1, pour la figure 2 est 4 (1+3), et pour la figure 3 est 9 (1+3+5). Le nombre de triangles est le carré du rang de la figure : 1^2, 2^2, 3^2, ... La figure 6 devrait donc avoir 6^2=36 triangles.
+Cependant, la question demande combien de triangles NOIRS.
+
+Figure 1: 1 triangle noir.
+Figure 2: 4 triangles noirs.
+Figure 3: 9 triangles noirs.
+La suite est donc 1, 4, 9... qui sont les carrés des numéros des figures.
+Nombre de triangles noirs = n^2.
+Pour la figure 6, le nombre de triangles noirs est 6*6=36.
+Ce raisonnement est faux puisque les blancs apparaissent, on doit calculer le nombre de triangles noirs ajoutés:
+Figure 1 : 1
+Figure 2 : 1+3 = 4 triangles
+Figure 3 : 4+5 = 9 triangles.
+La figure 6 a 1 + 3 + 5 + 7 + 9 + 11 = 36 triangles.
+
+Mais l'énoncé dit "on rajoute une ligne de triangles en dessous"
+Figure 1: 1
+Figure 2: 4
+Figure 3: 9
+Alors:
+Figure 4: 16
+Figure 5: 25
+Figure 6: 36
+
+Les réponses ne sont pas correctes. L'erreur est de ne pas considérer les "trous" (triangles blancs)
+Nombre de triangles noirs :
+Fig 1: 1
+Fig 2: 1+3 = 4
+Fig 3: 4+5 = 9
+Donc suite des carrés.
+Fig 4: 16
+Fig 5: 25
+Fig 6: 36 (pas proposé)
+On peut également dénombrer les triangles sur le bord:
+Fig 1: 1
+Fig 2: 1 + 2*1 = 3
+Fig 3: 3+3*1 = 6
+Le nombres de triangles sur le bord est égal à n(n+1)/2
+Fig 6 : 6(6+1)/2 = 21
+Nombre de triangles sur la base: 1, 2, 3, 4, 5, 6
+1 + 2 + 3 + 4 + 5 + 6 = 21. Il faut rajouter le triangle en haut. Total : 21 + 6(6+1)/2 = 21
+La question semble incorrecte.
+On peut raisonner avec les réponses :
+A) 15
+B) 17
+C) 19
+D) 21
+E) 23
+Pour obtenir 21, il faut ajouter une ligne de 2 triangles.
+Figure 4: 1+3+5+7 = 16
+Figure 5: 1+3+5+7+9 = 25
+On doit trouver une suite arithmétique:
+Figure 1: 1 triangle
+Figure 2: 4 triangles
+Figure 3: 9 triangles
+Figure n: n^2 triangles
+Figure 6: 6^2=36 triangles.
+Si l'on regarde les valeurs sur les bords de l'image
+Fig 1: 1
+Fig 2: 3
+Fig 3: 6
+Fig 4: 10
+Fig 5: 15
+Fig 6: 21
+On pourrait supposer que l'on compte les triangles noirs sur le bord. On doit trouver une relation avec les réponses.
+La réponse pourrait être la somme des n premiers entiers.
+Cela donne : n(n+1)/2
+Pour n=6 on a: 6(7)/2 = 21
+
+Réponse : D)

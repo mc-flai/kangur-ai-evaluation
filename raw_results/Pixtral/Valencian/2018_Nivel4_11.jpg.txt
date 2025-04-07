@@ -1,0 +1,24 @@
+**Razonamiento:**
+1. Identificamos que un número positivo \( x \) deja un residuo de 3 cuando se divide entre 6.
+2. Queremos encontrar el residuo cuando este mismo número \( x \) se divide entre 6 elevado a la potencia de 3, es decir, \( 6^3 \).
+3. Primero, calculamos \( 6^3 \):
+   \[
+   6^3 = 6 \times 6 \times 6 = 216
+   \]
+4. Sabemos que \( x \equiv 3 \mod 6 \). Esto significa que \( x \) puede ser escrito como \( x = 6k + 3 \) para algún entero \( k \).
+5. Ahora, queremos encontrar el residuo de \( x \) al dividirlo entre 216:
+   \[
+   x \mod 216
+   \]
+6. Usamos la propiedad de la congruencia:
+   \[
+   (6k + 3) \mod 216
+   \]
+7. Simplificamos:
+   \[
+   6k + 3 \equiv 3 \mod 216
+   \]
+   porque \( 6k \) es múltiplo de 6 y no afecta el residuo.
+8. Por lo tanto, el residuo es 3.
+
+**Respuesta:** B)

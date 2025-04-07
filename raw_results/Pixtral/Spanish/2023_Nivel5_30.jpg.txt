@@ -1,0 +1,30 @@
+
+La pregunta 30 se refiere a la palabra «BANANA» y pregunta si es posible pasar por las celdas de una cuadrícula de manera que se comparta un borde con la celda anterior, considerando las diferentes formas en que se pueden leer las letras.
+
+Para abordar esto, primero debemos entender el significado de «compartir un borde». Esto significa que cada movimiento debe estar en una celda adyacente horizontal o vertical a la celda anterior.
+
+1. **Evaluación de las opciones**:
+   - **A) 14**: Esto parece demasiado bajo para una palabra de 5 letras.
+   - **B) 28**: Esto también parece bajo.
+   - **C) 56**: Esto parece razonable para una palabra de 5 letras.
+   - **D) 84**: Esto parece demasiado alto.
+   - **E) Un número de veces distinto de los anteriores**: Esto sugiere que el número no es un múltiplo entero de 14, 28 o 56.
+
+2. **Razonamiento**:
+   - La palabra «BANANA» tiene 5 letras.
+   - Si consideramos un movimiento que comparte un borde, cada movimiento debe ser adyacente horizontal o vertical.
+   - Un camino que comparte un borde para cada letra en «BANANA» podría ser:
+     - B -> A (compartiendo borde)
+     - A -> N (compartiendo borde)
+     - N -> A (compartiendo borde)
+     - A -> N (compartiendo borde)
+     - N -> A (compartiendo borde)
+   - Esto requiere 5 movimientos, cada uno compartiendo un borde con el anterior.
+   - Si cada movimiento comparte un borde, cada movimiento adicional aumenta el número de celdas compartidas por 1.
+   - Por lo tanto, para 5 movimientos, el número de celdas compartidas sería 5.
+
+3. **Conclusión**:
+   - El número de celdas compartidas es 5, lo que corresponde a la opción C) 56.
+
+Razonamiento: La palabra «BANANA» tiene 5 letras, y cada movimiento debe compartir un borde con el anterior. Esto requiere 5 movimientos, cada uno compartiendo un borde con el anterior, lo que suma 5 celdas compartidas.
+Respuesta: C)

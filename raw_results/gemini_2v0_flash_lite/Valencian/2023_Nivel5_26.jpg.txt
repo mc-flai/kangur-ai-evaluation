@@ -1,0 +1,18 @@
+Raonament:
+1.  **Condició del triangle:** Les tres longituds dels costats (a, b, c) han de complir la desigualtat triangular: a + b > c, a + c > b i b + c > a.
+2.  **Perímetre:** a + b + c = 20
+3.  **Restriccions:** Les longituds dels costats són nombres naturals.
+4.  **Càlcul sistemàtic:**
+    *   Comença amb el costat més llarg possible. El costat més llarg ha de ser menor que la suma dels altres dos, i a més, la suma dels altres dos ha de ser major que el costat més llarg.  Per tant, el costat més llarg ha de ser menor que 10 (20/2).
+    *   Si el costat més llarg és 9: els altres dos costats sumen 11.  Les possibles combinacions són (9, 9, 2), (9, 8, 3), (9, 7, 4), (9, 6, 5).  Tots aquests compleixen la desigualtat triangular.
+    *   Si el costat més llarg és 8: els altres dos costats sumen 12.  Les possibles combinacions són (8, 8, 4), (8, 7, 5), (8, 6, 6). Tots aquests compleixen la desigualtat triangular.
+    *   Si el costat més llarg és 7: els altres dos costats sumen 13. Les possibles combinacions són (7, 7, 6).  Aquest compleix la desigualtat triangular.
+    *   A partir d'aquí, si disminuïm el costat més llarg, no hi haurà noves solucions possibles, ja que no hi hauria cap combinació que respecti la desigualtat triangular.
+
+5.  **Comptant les solucions:**
+    *   4 solucions amb un costat de longitud 9.
+    *   3 solucions amb un costat de longitud 8.
+    *   1 solució amb un costat de longitud 7.
+    *   En total, 4 + 3 + 1 = 8 solucions.
+
+Resposta: C)

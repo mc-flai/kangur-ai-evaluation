@@ -1,0 +1,9 @@
+Reasoning: We have 3 colors: red, blue, and green. The head and tail can be the same color. The wing must be a different color than the head and tail.
+
+*   **Case 1: Head and Tail are the same color.** There are 3 possibilities for the head/tail color (red, blue, or green). Once the head and tail color is chosen, the wing must be one of the other two colors. This gives us 3 * 2 = 6 combinations.
+
+*   **Case 2: Head and Tail are different colors.** There are 3 choices for the head color. Once the head color is chosen, there are 2 choices for the tail color. The wing color then has only 1 option since it must be different than both head and tail. This gives us 3 * 2 * 1 = 6 combinations.
+
+Adding the combinations from the two cases yields 6 + 6 = 12.
+
+Answer: D)

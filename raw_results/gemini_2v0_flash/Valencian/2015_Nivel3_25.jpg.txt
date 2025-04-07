@@ -1,0 +1,3 @@
+Raonament: El problema planteja el nombre de permutacions possibles d'un conjunt d'elements, on alguns elements són idèntics (3 cilindres blaus, 2 de verds i 1 de groc). La fórmula general per a les permutacions amb repeticions és n! / (n1! * n2! * ... * nk!), on n és el nombre total d'elements i n1, n2, ..., nk són les quantitats de cada tipus d'element repetit. En aquest cas, n = 6, n1 = 3 (blaus), n2 = 2 (verds) i n3 = 1 (groc). Per tant, el nombre de possibilitats és 6! / (3! * 2! * 1!) = (6 * 5 * 4 * 3 * 2 * 1) / ( (3 * 2 * 1) * (2 * 1) * 1) = 720 / (6 * 2 * 1) = 720 / 12 = 60.
+
+Resposta: B)

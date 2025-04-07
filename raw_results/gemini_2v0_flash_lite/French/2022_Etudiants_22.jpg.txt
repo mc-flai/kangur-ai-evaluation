@@ -1,0 +1,12 @@
+Raisonnement :
+On cherche les entiers à trois chiffres abc tels que 100a + 10b + c = 5abc.
+Puisque 5abc est divisible par 5, alors 100a + 10b + c doit l'être aussi. Cela implique que c = 0 ou c = 5.
+Si c = 0, alors 100a + 10b = 0, ce qui est impossible car a et b sont positifs.
+Si c = 5, alors 100a + 10b + 5 = 25ab, soit 20a + 2b + 1 = 5ab. Donc 2b + 1 = 5ab - 20a = 5a(b - 4). Puisque 2b+1 est impair, et 5a(b-4) est impair, donc b-4 doit être impair. 
+Si b = 5, on a 11 = 5a, ce qui est impossible.
+Si b = 6, on a 13 = 10a, ce qui est impossible.
+Si b = 7, on a 15 = 15a, d'où a=1. Le nombre est 175, et 5 * 1 * 7 * 5 = 175.
+Si b = 9, on a 19 = 25a, ce qui est impossible.
+Il existe donc un seul entier à 3 chiffres qui correspond à la condition.
+
+Réponse : A)

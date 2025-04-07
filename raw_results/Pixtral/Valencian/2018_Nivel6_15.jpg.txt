@@ -1,0 +1,38 @@
+
+**Pregunta:** En un octògon regular, quin és la fracció de la àrea que correspon a la zona ombrada en relació amb l'àrea total?
+
+**Opcions:**
+A) \( \frac{1 + \sqrt{2}}{8} \)
+B) \( \frac{1 + \sqrt{2}}{4} \)
+C) \( \frac{2 + \sqrt{2}}{8} \)
+D) \( \frac{2 + \sqrt{2}}{4} \)
+E) \( \frac{2 + 3\sqrt{2}}{8} \)
+
+**Racionalització:**
+1. Un octògon regular té 8 costats i 8 angles interns de 135 graus (ja que la suma dels angles interns d'un polígon regular és \( (n-2) \times 180 \) graus, on \( n \) és el nombre de costats).
+2. Cada àngul de l'octògon es divideix en dos angles de 67.5 graus (135/2).
+3. La àrea d'un octògon regular es pot calcular utilitzant la fórmula:
+   \[
+   \text{Àrea} = 2 \times a^2 \times (1 + \sqrt{2}) / 4
+   \]
+   on \( a \) és la longitud del costat.
+4. La zona ombrada en el diagrama representa una fracció de l'àrea total. Per determinar aquesta fracció, cal observar la forma i la geometria de la zona ombrada.
+5. La zona ombrada és un segment triangular que es forma entre dos costats consecutius de l'octògon. Aquest segment triangular té una àrea proporcional a la meitat de l'àrea d'un dels angles de 67.5 graus.
+6. La fracció de l'àrea ombrada en relació amb l'àrea total es pot expressar com:
+   \[
+   \text{Fracció} = \frac{\text{Àrea ombrada}}{\text{Àrea total}}
+   \]
+7. La fórmula per a l'àrea ombrada és:
+   \[
+   \text{Àrea ombrada} = \frac{1}{2} \times a^2 \times \sin(67.5^\circ)
+   \]
+8. Combinant les fórmules, obtenim:
+   \[
+   \text{Fracció} = \frac{\frac{1}{2} \times a^2 \times \sin(67.5^\circ)}{2 \times a^2 \times (1 + \sqrt{2}) / 4}
+   \]
+9. Simplificant aquesta expressió, obtenim:
+   \[
+   \text{Fracció} = \frac{2 + \sqrt{2}}{8}
+   \]
+
+**Resposta:** C)

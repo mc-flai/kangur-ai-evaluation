@@ -1,0 +1,33 @@
+
+La pregunta 20 pregunta si \( \log_n(2^n) = \frac{n}{4} \) es el valor de \( n \).
+
+Para resolver esto, necesitamos entender la propiedad de los logaritmos y exponenciales. La propiedad fundamental que se aplica aquí es que \( \log_b(a^c) = c \cdot \log_b(a) \). En este caso, tenemos \( \log_n(2^n) \).
+
+1. Aplicamos la propiedad de los logaritmos:
+   \[
+   \log_n(2^n) = n \cdot \log_n(2)
+   \]
+
+2. Sabemos que \( \log_n(2) \) es simplemente el logaritmo de 2 en base \( n \), que no se simplifica más sin conocer el valor de \( n \). Pero dado que estamos buscando un valor específico de \( n \) que haga que \( \log_n(2^n) = \frac{n}{4} \), podemos reescribir la ecuación como:
+   \[
+   n \cdot \log_n(2) = \frac{n}{4}
+   \]
+
+3. Dividimos ambos lados de la ecuación por \( n \) (asumiendo que \( n \neq 0 \)):
+   \[
+   \log_n(2) = \frac{1}{4}
+   \]
+
+4. Ahora, necesitamos encontrar el valor de \( n \) que satisfaga \( \log_n(2) = \frac{1}{4} \). Esto implica que:
+   \[
+   n^{\frac{1}{4}} = 2
+   \]
+
+5. Elevamos ambos lados de la ecuación a la potencia 4 para resolver \( n \):
+   \[
+   n = 2^4 = 16
+   \]
+
+Por lo tanto, el valor de \( n \) que satisface la ecuación es 16.
+
+Respuesta: D)

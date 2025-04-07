@@ -1,0 +1,15 @@
+Raonament: Si ens fixem en el cercle número 7, aquest està connectat amb els cercles número 2 i 6. El cercle número 2 està connectat amb els cercles 1, 3 i 6. El cercle número 6 està connectat amb els cercles 5 i 8. Imaginem que intentem pintar la figura. Si pintem el cercle 2 d'un color, per exemple vermell, el cercle 6 ha de ser d'un altre color, per exemple blau. Per tant, el cercle 7 no pot ser ni vermell ni blau, així que ha de ser groc. Si el cercle 6 fos vermell, el cercle 2 seria blau i per tant el 7 hauria de ser groc. Això vol dir que el cercle 2 i el cercle 7 no poden tenir el mateix color. En canvi, si considerem el cercle número 1 i el 6, observem que ambdós estan connectats a un tercer cercle que és el número 2 i un d'ells a més està connectat amb més cercles (en aquest cas el número 6). Per tant el cercle 1 i el 6 poden tenir el mateix color.
+Vegem ara el cercle 1 i el 6, si 1=verd, 2=vermell, llavors 6 pot ser verd, 5=vermell, 7=blau, 8=vermell, i 3=blau, 4=vermell. Per tant poden tenir el mateix color.
+Si el cercle número 5 és vermell, el 6 ha de ser un altre color. Si el cercle 8 és vermell, el 6 ha de ser un altre color. Per tant, el 5 i el 8 poden tenir el mateix color.
+
+Anem a analitzar més casos.
+Si el 2 i el 7 tenen el mateix color: impossible, ja que el 2 i el 7 estan connectats al 6.
+Si el 3 i el 6 tenen el mateix color: impossible, ja que hi ha diversos colors que fan possible que siguin diferents.
+Si el 5 i el 8 tenen el mateix color: impossible, ja que depèn del color que assignem al 6.
+
+Si el 1 i el 6 tenen el mateix color: Si 1=verd, llavors 2=vermell, 6=verd, 5=vermell, 7=blau, 8=vermell, 3=blau, 4=vermell. Possible.
+Si el 4 i el 5 tenen el mateix color: Si 4=verd, llavors 3=vermell, 2=verd, 1=blau, 5=verd, 6=blau, 7=vermell, 8=verd. Possible.
+
+La resposta correcta és la B.
+
+Resposta: B)

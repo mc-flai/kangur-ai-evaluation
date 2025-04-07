@@ -1,0 +1,16 @@
+Raonament: Primer, hem d'entendre quins números elevats a la quarta potència donen 1 o 6 a la posició de les unitats. Calculem les quartes potències dels números del 0 al 9:
+0^4 = 0
+1^4 = 1
+2^4 = 16
+3^4 = 81
+4^4 = 256
+5^4 = 625
+6^4 = 1296
+7^4 = 2401
+8^4 = 4096
+9^4 = 6561
+Per tant, els nombres acabats en 1, 2, 3, 4, 6, 7, 8, i 9 a la quarta potència acaben en 1 o 6. Els nombres que acaben en 0 o 5 no acaben en 1 o 6 a la quarta potència.
+
+Així, els nombres entre 1 i 1000 que ens interessen són els que acaben en 1, 2, 3, 4, 6, 7, 8, 9. Per cada 10 nombres, 8 compleixen la condició. Per tant, de l'1 al 1000 hi ha 100 grups de 10 nombres. Així, el nombre de quartes potències que acaben en 1 o 6 és 100 * 8 = 800.
+
+Resposta: B)

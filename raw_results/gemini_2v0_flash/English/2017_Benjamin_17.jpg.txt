@@ -1,0 +1,19 @@
+Reasoning: The 3x3x3 cube is made of 27 smaller cubes, not 9 as stated in the problem. I believe there is a typo in the question, and it should have said a 3x3x1 cuboid is made of 9 identical building blocks. Given this assumption, we need to figure out which of the cuboids could be made by assembling 9 blocks in the given configuration (2 grey, 1 white). The total number of grey blocks would be 18 and white 9.
+
+A) has 18 grey and 9 white cubes
+B) has 18 grey and 9 white cubes
+C) has 18 grey and 9 white cubes
+D) has 18 grey and 9 white cubes
+E) has 18 grey and 9 white cubes
+
+Now let's look at each shape and see if it's constructible with these blocks. We know that the side with a single white cube needs to be able to be assembled with blocks of the provided configuration. In other words, there needs to be a corner white cube.
+
+A) is a possible cube, but the top left corner in the picture has a single white cube, meaning it can be constructed
+B) the front most left column is white, meaning it can't be constructed.
+C) the front most left column is white, meaning it can't be constructed.
+D) the front most right column is white, meaning it can't be constructed.
+E) the bottom right corner is white, meaning it can be constructed.
+
+Comparing option A to option E, we can see that the top layer of option E is a combination that isn't constructable given 2 grey and 1 white. For example, the top left is white and the other two are gray. Also, the bottom layer is also incorrect. A is constructed with corner white cubes and is therefore constructable.
+
+Answer: A)

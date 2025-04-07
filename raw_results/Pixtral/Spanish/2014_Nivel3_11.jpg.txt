@@ -1,0 +1,16 @@
+Para resolver este problema, debemos entender el patrón de asistencia de A y B a las clases de piano.
+
+1. A asiste a la clase solo cuando es un miércoles.
+2. B asiste a la clase solo cuando no es un miércoles.
+
+Dado que A asiste a la clase solo en miércoles y B asiste a la clase en todos los demás días, podemos determinar cuántas clases B ha asistido en un período de 15 días.
+
+En un ciclo de 15 días:
+- Hay 3 miércoles.
+- Hay 12 días que no son miércoles.
+
+Por lo tanto, B asiste a la clase en esos 12 días que no son miércoles.
+
+Razonamiento: Dado que B asiste a la clase en todos los días que no son miércoles, en un período de 15 días, B asiste a 12 clases.
+
+Respuesta: C)

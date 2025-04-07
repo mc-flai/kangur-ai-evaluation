@@ -1,0 +1,58 @@
+To solve question 18, we need to determine the value of \( a \) in the function \( f(x) = ax + b \) given the conditions \( f(f(f(1))) = 29 \) and \( f(f(f(0))) = 2 \).
+
+1. **First Condition**: \( f(f(f(0))) = 2 \).
+   - Let's start with \( f(0) \):
+     \[
+     f(0) = a \cdot 0 + b = b
+     \]
+   - Next, \( f(f(0)) \):
+     \[
+     f(f(0)) = f(b) = ab + b
+     \]
+   - Then, \( f(f(f(0))) \):
+     \[
+     f(f(f(0))) = f(ab + b) = a(ab + b) + b = a^2b + ab + b
+     \]
+   - Given \( f(f(f(0))) = 2 \), we have:
+     \[
+     a^2b + ab + b = 2
+     \]
+
+2. **Second Condition**: \( f(f(f(1))) = 29 \).
+   - Let's start with \( f(1) \):
+     \[
+     f(1) = a \cdot 1 + b = a + b
+     \]
+   - Next, \( f(f(1)) \):
+     \[
+     f(f(1)) = f(a + b) = a(a + b) + b = a^2 + ab + b
+     \]
+   - Then, \( f(f(f(1))) \):
+     \[
+     f(f(f(1))) = f(a^2 + ab + b) = a(a^2 + ab + b) + b = a^3 + a^2b + ab + b
+     \]
+   - Given \( f(f(f(1))) = 29 \), we have:
+     \[
+     a^3 + a^2b + ab + b = 29
+     \]
+
+3. **Solving the Equations**:
+   - We have the equations:
+     \[
+     a^2b + ab + b = 2
+     \]
+     \[
+     a^3 + a^2b + ab + b = 29
+     \]
+   - Subtract the first equation from the second:
+     \[
+     a^3 + a^2b + ab + b - (a^2b + ab + b) = 29 - 2
+     \]
+     \[
+     a^3 = 27
+     \]
+   - Therefore, \( a^3 = 27 \) implies \( a = 3 \).
+
+**Reasoning**: We derived the value of \( a \) by solving the given functional equations step-by-step and found \( a = 3 \).
+
+**Answer**: C)

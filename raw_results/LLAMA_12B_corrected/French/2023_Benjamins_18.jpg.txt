@@ -1,0 +1,20 @@
+Raisonnement: The question asks us to determine the correct sequence of commands to order the machines to move in the given order and print paper.
+
+**Step-by-Step Reasoning:**
+
+Option A: TRRR
+First, machine R draws a rectangle (TR). Then, machine R makes a right turn towards machine T (RR). However, machine R does not draw another rectangle since it has already completed its task. Machine T does not receive any instructions, so it does not print anything. The desired result is not achieved.
+
+Option B: TRRT
+Machine R draws a rectangle (TR) and then turns right towards machine T (RT). However, machine T does not receive any instructions to print paper, so it does not execute any operations. The desired result is not achieved.
+
+Option C: TRTR
+Machine R draws a rectangle (TR) and then turns right towards machine T (TR). Now, machine R receives the instruction to turn right, but it has already completed its task. Machine T does not receive any instructions to print paper, so it does not execute any operations. The desired result is not achieved.
+
+Option D: RRRT
+First, machine R makes a right turn and moves away from the paper (RR). Then, machine R turns right towards machine T (RT), which brings it back to the starting point. Machine R receives an instruction to turn right, which was already executed. Machine T does not receive any instructions to print paper, so it does not execute any operations. The desired result is not achieved.
+
+Option E: RTRR
+Machine R draws a rectangle (RTR). Now, machine R and machine T are aligned, and machine T can print a rectangle. Indeed, the instructions are correct, and the machines are in the correct positions to achieve the desired result.
+
+Réponse: E)

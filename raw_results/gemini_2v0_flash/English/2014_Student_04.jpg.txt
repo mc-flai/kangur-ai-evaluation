@@ -1,0 +1,30 @@
+Reasoning:
+Let's use variables:
+* Smallest basket = S
+* Middle basket = M
+* Biggest basket = B
+
+We know:
+1. S + M + B = 48
+2. S + B = 2M
+3. S = M/2
+
+Substituting (3) into (2):
+M/2 + B = 2M
+B = 2M - M/2
+B = (4M - M)/2
+B = (3M)/2
+
+Substituting (2) into (1):
+(S + B) + M = 48
+2M + M = 48
+3M = 48
+M = 16
+
+Now that we know M = 16, we can find S and B.
+S = M/2 = 16/2 = 8
+B = (3M)/2 = (3 * 16)/2 = 48/2 = 24
+
+Therefore, the biggest basket has 24 balls.
+
+Answer: C)

@@ -1,0 +1,21 @@
+Per analitzar la pregunta, hem de determinar la potència més alta de 3 que és un divisor de 7! + 8! + 9!.
+
+**Raonament:**
+
+1. **Calcular els factorials**:
+   - 7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5040
+   - 8! = 8 × 7! = 8 × 5040 = 40320
+   - 9! = 9 × 8! = 9 × 40320 = 362880
+
+2. **Sumar els factorials**:
+   - 7! + 8! + 9! = 5040 + 40320 + 362880 = 408240
+
+3. **Factoritzar el resultat**:
+   - 408240 = 2^6 × 3^4 × 5 × 7
+   - Podem veure que el valor més alt de la potència de 3 en la factorització és 3^4.
+
+4. **Determinar la potència més alta de 3**:
+   - La potència més alta de 3 en la suma de 7! + 8! + 9! és 3^4.
+
+**Resposta:**
+B) 3^4

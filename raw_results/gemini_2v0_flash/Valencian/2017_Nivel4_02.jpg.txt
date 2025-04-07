@@ -1,0 +1,19 @@
+Raonament:
+Hi ha 5 xiquets en total, incloent Adrià i els seus dos amics. Adrià obtindrà un bon resultat si arriba per davant dels seus dos amics. L'ordre relatiu dels altres dos xiquets no importa.
+Primer considerem les possibles posicions d'Adrià. Podria acabar primer, segon o tercer, però no quart o cinquè, ja que en aquests casos, els seus dos amics l'avançarien.
+*   Si Adrià acaba primer, els dos amics han d'estar darrere seu. Hi ha 4 posicions possibles per als dos amics entre les 4 posicions restants (posicions 2,3,4,5). Hi ha C(4,2) = 4! / (2!2!) = 6 maneres d'ordenar els dos amics i les altres dues posicions no importa com estiguin ordenades els altres dos nens.
+*   Si Adrià acaba segon, llavors un amic ha d'estar en la posició 1. Llavors tenim 3 xiquets restants. El segon amic ha d'acabar a les posicions 3,4,5. El nombre de maneres de triar una posició per a l'amic restant és 3. Tenim 2 xiquets per posar a 2 llocs, de 2! = 2 formes. Per tant, 3 x 2 = 6 maneres.
+*   Si Adrià acaba tercer, llavors els seus dos amics han d'acabar a les posicions 1 i 2. Aquesta fixaria les posicions dels dos amics, que podrien anar en un ordre diferent, i els dos nens restants podrien estar en qualsevol ordre per a les posicions restants. Per tant, hi ha 2! / (2! 0!) = 2 maneres. Dues persones per a les altres 2 posicions també és 2! = 2. Així 2x2 = 4
+El total d'aquestes possibilitats no sembla coincidir amb cap de les opcions.
+
+Un altre enfocament és considerar els 5 corredors i assignar-los un ordre: n1, n2, n3, n4, n5.
+El número total de posicions possibles és 5! = 120.
+Per Adrià és un bon resultat si acaba per davant dels seus dos amics.
+Considerem Adrià, A, i els dos amics, A1 i A2. Hi ha 3! = 6 maneres d'ordenar A, A1 i A2.
+Aquests són: A A1 A2, A A2 A1, A1 A A2, A1 A2 A, A2 A A1, A2 A1 A. Adrià acaba per davant dels seus dos amics en els casos A A1 A2 i A A2 A1. Per tant, només 2 de les 6 permutacions són bones per Adrià.
+Per tant, la probabilitat de qualsevol permutació és 1/6.
+Per tant, hi ha 5! / 3! = 120 / 6 = 20 maneres d'obtenir una disposició on Adrià acaba abans que els seus dos amics. Això significa que 1/3 de totes les posicions funcionen per a Adrià.  120/3=40
+Aquí és on l'hem fet malament perquè en 1/3 de tots els resultats, Adria acaba davant dels dos amics.
+Per tant, el nombre de bons resultats = 5! / 3 = 120 / 3 = 40.
+
+Resposta: D)

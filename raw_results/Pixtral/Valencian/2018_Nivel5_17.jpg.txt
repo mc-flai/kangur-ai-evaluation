@@ -1,0 +1,26 @@
+
+La pregunta 17 se refiere a un polígono regular, específicamente a la suma del número de costados y el número de diagonales siendo igual a 28. Se nos pide determinar cuántos vértices tiene el polígono.
+
+Para resolver esto, usamos la fórmula para un polígono regular:
+\[ n + \frac{n(n-3)}{2} = 28 \]
+
+Donde \( n \) es el número de lados (y también el número de vértices).
+
+Desglosando la fórmula:
+\[ n + \frac{n(n-3)}{2} = 28 \]
+\[ 2n + n(n-3) = 56 \]
+\[ n^2 - 2n + 2n - 3n = 56 \]
+\[ n^2 - 3n - 56 = 0 \]
+
+Resolviendo esta ecuación cuadrática usando la fórmula \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \):
+\[ n = \frac{-(-3) \pm \sqrt{(-3)^2 - 4 \cdot 1 \cdot (-56)}}{2 \cdot 1} \]
+\[ n = \frac{3 \pm \sqrt{9 + 224}}{2} \]
+\[ n = \frac{3 \pm \sqrt{233}}{2} \]
+
+Dado que \( n \) debe ser un número entero, comprobamos los valores posibles:
+\[ n = \frac{3 + \sqrt{233}}{2} \approx 7.31 \] (no es un entero)
+\[ n = \frac{3 - \sqrt{233}}{2} \approx 1.69 \] (no es un entero)
+
+Por lo tanto, no hay soluciones enteras para \( n \) en este caso.
+
+**Respuesta: No se puede determinar el número de vértices basado en la información dada.**

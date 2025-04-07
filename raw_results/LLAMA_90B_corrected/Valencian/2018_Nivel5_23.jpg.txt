@@ -1,0 +1,19 @@
+### Raonament
+
+En aquest problema, comptem amb un triangle $ABC$, amb sides $AB = 16$ cm i $AC = 8$ cm, i un segment $MN$ paral\lel a $BC$, de manera que $M$ és «més a prop» d’$A$ que $N$, que és «més a prop» de $C$. Ens interessa trobar el perímetre del triangle $AMN$. 
+
+El pas clave és realitzar les proporcions següents:
+
+*   $\displaystyle\frac{AN}{AM} = \frac{AC}{AB}$
+*   $\displaystyle\frac{AN}{16-AN} = \frac{AC}{AB} = \frac{8}{16}$
+*   $\displaystyle\frac{AN}{16-AN} = \frac{1}{2} \Rightarrow 2AN = 16 - AN \Rightarrow 3AN = 16 \Rightarrow AN = \frac{16}{3}$
+
+És obvi que el perímetre del triangle $AMN$ és 
+
+$\displaystyle\frac{16}{3} +5+\left(16 - \frac{16}{3}\right) = \frac{49}{3} + 5 = \frac{49+15}{3} = \frac{64}{3}$.
+
+Ja que $\displaystyle 30\,cm = \frac{90}{3}\,cm$ i  $\displaystyle\frac{64}{3} < \frac{90}{3}$,  la resposta correcta és $C) \ 29\,cm$. 
+
+### Resposta
+
+C)

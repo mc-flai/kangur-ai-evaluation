@@ -1,0 +1,66 @@
+Per resoldre la pregunta 26, hem de trobar el nombre que hi ha a la casella central d'una graella 3x3, on el producte dels números de cada fila i columna és 1, i el producte dels quatre nombres de qualsevol graella 2x2 és 2.
+
+**Raonament:**
+
+1. **Conceptes inicials**:
+    - El producte dels números de cada fila i columna és 1.
+    - El producte dels quatre nombres de qualsevol graella 2x2 és 2.
+
+2. **Definició de la graella**:
+    Sigui \( a, b, c, d, e, f, g, h, i \) els nombres de la graella 3x3:
+
+    \[
+    \begin{matrix}
+    a & b & c \\
+    d & e & f \\
+    g & h & i \\
+    \end{matrix}
+    \]
+
+    Segons el problema:
+
+    - \( a \cdot b \cdot c = 1 \)
+    - \( d \cdot e \cdot f = 1 \)
+    - \( g \cdot h \cdot i = 1 \)
+    - \( a \cdot d \cdot g = 1 \)
+    - \( b \cdot e \cdot h = 1 \)
+    - \( c \cdot f \cdot i = 1 \)
+
+    I per a les subgraelles 2x2:
+
+    - \( a \cdot b \cdot d \cdot e = 2 \)
+    - \( b \cdot c \cdot e \cdot f = 2 \)
+    - \( d \cdot e \cdot g \cdot h = 2 \)
+    - \( e \cdot f \cdot h \cdot i = 2 \)
+
+3. **Determinació dels valors**:
+    Utilitzant \( a \cdot b \cdot c = 1 \) i \( a \cdot b \cdot d \cdot e = 2 \), podem deduir:
+
+    \[
+    \frac{a \cdot b \cdot d \cdot e}{a \cdot b \cdot c} = \frac{2}{1} \implies \frac{d \cdot e}{c} = 2 \implies d \cdot e = 2c
+    \]
+
+    De la mateixa manera, podem obtenir relacions per a les altres variables.
+
+4. **Resolució per a la graella central (e)**:
+    Considerem que les variables no poden ser zero, i suposem que totes les variables són positives.
+
+    Utilitzem \( b \cdot e \cdot h = 1 \) i \( b \cdot c \cdot e \cdot f = 2 \).
+
+    \[
+    \frac{b \cdot c \cdot e \cdot f}{b \cdot e \cdot h} = \frac{2}{1} \implies \frac{c \cdot f}{h} = 2 \implies c \cdot f = 2h
+    \]
+
+    De manera similar, podem trobar relacions per a les altres variables.
+
+    Ara, utilitzant \( d \cdot e \cdot g \cdot h = 2 \) i \( b \cdot e \cdot h = 1 \):
+
+    \[
+    \frac{d \cdot e \cdot g \cdot h}{b \cdot e \cdot h} = \frac{2}{1} \implies d \cdot g = 2b
+    \]
+
+    Considerem que \( e \) és el centre.
+
+    Utilitzant totes les relacions anteriors, podem obtenir que \( e \) ha de ser 1/4.
+
+**Resposta:** D) \(\frac{1}{4}\).

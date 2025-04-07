@@ -1,0 +1,66 @@
+Reasoning:
+We are given f(4) = 6 and xf(x) = (x - 3)f(x + 1).  Let's use the second equation to derive some values of the function.
+When x = 4:
+4f(4) = (4 - 3)f(5)  =>  4 * 6 = 1 * f(5)  =>  f(5) = 24
+When x = 5:
+5f(5) = (5 - 3)f(6)  =>  5 * 24 = 2 * f(6)  =>  f(6) = 60
+When x = 6:
+6f(6) = (6-3)f(7)  =>  6 * 60 = 3 * f(7) => f(7) = 120
+We can see the pattern:
+f(4) = 6 = (1*2*3) = 3!
+f(5) = 24 = 4!
+f(6) = 120 = 5!
+f(x) = (x-1)!
+Therefore, f(7) = 6!
+Let's test with the equation:
+xf(x) = x(x-1)! = x!
+(x-3)f(x+1) = (x-3)((x+1)-1)! = (x-3)x!
+So, we made an error with the values. Let's check the f(4)=6 and the recursive definition xf(x) = (x-3)f(x+1) for x=4, and then x=5
+4f(4) = (4-3)f(5) => 4*6 = 1f(5) => f(5) = 24
+5f(5) = (5-3)f(6) => 5*24 = 2f(6) => f(6) = 60
+f(x) = (x-1)(x-2)...(4-3)f(4) / (x-4)(x-5)...1  for x > 4
+f(7) = (7-3)f(8)/7 -> f(8) = 7f(7)/4 or use f(x) = (x-1)(x-2)(x-3)/1*2*3 * f(4) or f(7) = (7-3)(7-2)(7-1)/120 or f(x) = (x-1)(x-2)(x-3) / 3! f(4) = (x-1)(x-2)(x-3)
+f(7) = (7-1)(7-2)(7-3) / 3! *6 -> (6*5*4/6)6 = 120
+f(10) = (9*8*7)/(3*2*1)*6 = 504
+The sequence is f(x) = (x-1)(x-2)(x-3) / 3! * 6.  f(4) = 6, f(7) = 120, f(10) = 504...
+xf(x) = (x-3)f(x+1)
+f(4)f(7)f(10)...f(2014)
+f(x) = (x-1)(x-2)(x-3)/6*6
+f(x+3) = (x+2)(x+1)(x) *6/6= x(x+1)(x+2)
+The terms of expression are (x-1)(x-2)(x-3) / 3! * 6
+The sequence is 4, 7, 10,... 2014. The general term is 4+(n-1)*3= 2014; 3(n-1)=2010; (n-1) = 670; n= 671.
+So we want to find the product. 6x120x504...
+We know that f(x) = ((x-1)(x-2)(x-3) / 6)*6= (x-1)(x-2)(x-3). Therefore:
+f(4)= 3*2*1 = 6
+f(7)= 6*5*4 = 120
+f(10)= 9*8*7 = 504
+f(13)= 12*11*10=1320
+f(2011)= 2010*2009*2008
+f(2014)= 2013*2012*2011
+f(x)f(x+3)= (x-1)(x-2)(x-3)x(x+1)(x+2)
+Then, the final expression is 6 * 120 * 504 ... 2013*2012*2011
+
+Since the sequence is 4, 7, 10, ..., 2014, the general term can be described as $a_n = 4 + 3(n-1)$.  If $a_n = 2014$, then $2014 = 4 + 3(n-1)$, or $2010 = 3(n-1)$, so $n-1 = 670$ and $n=671$.  Thus there are 671 terms in the product. We can rewrite f(x) such that it is x-1, x-2, x-3
+The original is xf(x)=(x-3)f(x+1) --> f(x+1) = (x/(x-3))f(x)
+f(4) = 6
+f(5) = 24
+f(6) = 60
+f(7) = 120
+f(8) = 210.
+f(x) = (x-1)(x-2)(x-3)
+So the desired product is f(4) * f(7) * f(10) * ... * f(2014) = 3*2*1 * 6*5*4 * 9*8*7 * ... * 2013*2012*2011.  Each successive term can be represented by the products of the terms (x-1)(x-2)(x-3). Therefore, x can be every three units. (4,7,10)  So we will take every product.
+The sequence is f(4) * f(7) * f(10) ... f(2014)
+If the sequence is 4,7,10, then we can find the product by knowing that f(x) = (x-1)(x-2)(x-3)
+The value of the expression f(4)*f(7)*f(10)...f(2014) =  6 * 120 * 504 * ...  * (2013*2012*2011)
+We know that: f(x) =  ((x-1)(x-2)(x-3)/3!)*f(4) =  (x-1)(x-2)(x-3). Therefore, we just have to calculate f(4) = 6, f(7)= 6 * 5 * 4= 120, f(10) = 9 * 8 * 7 = 504...f(2014) = 2013*2012*2011.
+The expression f(4) * f(7) * f(10) * ... * f(2011) * f(2014).
+The values form the set of (x-1)(x-2)(x-3), where x is (4,7,10, 2014)
+The correct sequence is 3*2*1, 6*5*4, 9*8*7... The question is to product all of the above.  So we know x-1, x-2, x-3.
+3 * 6 * 9, 2 * 5 * 8, 1 * 4 * 7
+(3*6*9...2013)(2*5*8...2012)(1*4*7...2011) = (3*6*9*....2013) * (2*5*8*...2012)*(1*4*7*...2011)
+4,7,10. the formula is 4+3n
+the last formula would be 2011. then the expression would be f(4)xf(7)xf(10)...f(2011)xf(2014)
+the answer is (2013)(2012)(2011)
+This should be 2014
+
+Answer: B)

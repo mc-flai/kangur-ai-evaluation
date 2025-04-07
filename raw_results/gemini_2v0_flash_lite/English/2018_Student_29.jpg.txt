@@ -1,0 +1,16 @@
+Reasoning:
+Let's denote the number of boys as 'b' and the number of girls as 'g'. We are given that g = b + 0.4b = 1.4b. The total number of students is b + g = b + 1.4b = 2.4b.
+The probability of selecting one girl and one boy is given as 1/2. This can be written as (number of ways to choose 1 girl and 1 boy) / (total number of ways to choose 2 students).
+The number of ways to choose 1 girl and 1 boy is g * b = 1.4b * b = 1.4b².
+The total number of ways to choose 2 students from the class is (2.4b choose 2) = (2.4b * (2.4b - 1)) / 2 = 1.2b * (2.4b - 1)
+Therefore, (1.4b²) / (1.2b * (2.4b - 1)) = 1/2
+Simplifying:
+2 * 1.4b² = 1.2b * (2.4b - 1)
+2.8b² = 2.88b² - 1.2b
+0.08b² - 1.2b = 0
+b * (0.08b - 1.2) = 0
+So, b = 0 or 0.08b = 1.2 => b = 1.2 / 0.08 = 15.
+If b = 15, then g = 1.4 * 15 = 21.
+The total number of children is b + g = 15 + 21 = 36.
+
+Answer: C)

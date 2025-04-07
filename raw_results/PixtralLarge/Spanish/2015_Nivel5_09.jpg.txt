@@ -1,0 +1,18 @@
+Para responder la pregunta 9, debemos determinar cuántas veces se utilizan los puntos de la cera sobrante de 7 ya utilizadas para encender 100 velas, dado que cada vez que se enciende una vela, se puede encender una nueva con la cera sobrante de 7 ya utilizadas.
+
+**Razonamiento**:
+1. Cada vela puede encender hasta 7 velas nuevas con su cera sobrante.
+2. Para encender 100 velas, comenzamos con una vela encendida.
+3. La primera vela puede encender 7 velas.
+4. En total, estas 7 velas pueden encender 7 * 7 = 49 velas.
+5. Las 49 velas pueden encender 49 * 7 = 343 velas.
+
+Sin embargo, solo necesitamos encender 100 velas.
+
+1. Primera vela: Encender 7 velas (total 8 velas hasta ahora).
+2. Las 7 velas pueden encender 49 velas más (total 57 velas hasta ahora).
+3. Estas 57 velas pueden encender 57 * 7 = 399 velas, pero solo necesitamos 43 más para llegar a 100.
+
+Por lo tanto, necesitamos 1 vela inicial más 7 velas encendidas por la primera vela más 43 velas encendidas por las 7 velas anteriores, lo que nos da un total de 51 velas encendidas.
+
+**Respuesta**: D).

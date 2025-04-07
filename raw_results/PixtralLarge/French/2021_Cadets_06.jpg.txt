@@ -1,0 +1,29 @@
+Pour résoudre ce problème, analysons les pièces du puzzle. Chaque pièce a une valeur d'entrée et une valeur de sortie. L'opération à effectuer est représentée par ces valeurs d'entrée et de sortie.
+
+1. **Analyse des pièces :**
+   - La première pièce montre un "2" en entrée et un "0" en sortie.
+   - La deuxième pièce montre un "0" en entrée et un "2" en sortie.
+   - La troisième pièce montre un "2" en entrée et un "1" en sortie.
+   - La quatrième pièce montre un "1" en entrée et une sortie vide (probablement "0").
+
+2. **Identification de l'opération :**
+   - La première pièce (2 → 0) pourrait représenter une soustraction de 2 (2 - 2 = 0).
+   - La deuxième pièce (0 → 2) pourrait représenter une addition de 2 (0 + 2 = 2).
+   - La troisième pièce (2 → 1) pourrait représenter une soustraction de 1 (2 - 1 = 1).
+   - La quatrième pièce (1 → 0) pourrait représenter une soustraction de 1 (1 - 1 = 0).
+
+Les opérations semblent alterner entre soustraction et addition de 1 ou 2. Cependant, en regardant les options proposées, nous cherchons une opération qui transforme les valeurs d'entrée en valeurs de sortie de manière cohérente.
+
+3. **Vérification des options :**
+   - **A) -100** : Pas applicable car les résultats ne correspondent pas à une soustraction de 100.
+   - **B) -8** : Pas applicable car les résultats ne correspondent pas à une soustraction de 8.
+   - **C) -1** : Cela pourrait correspondre à une soustraction de 1, mais toutes les pièces ne suivent pas cette règle.
+   - **D) 199** : Pas applicable car les résultats ne correspondent pas à une addition de 199.
+   - **E) 208** : Pas applicable car les résultats ne correspondent pas à une addition de 208.
+
+4. **Conclusion :**
+   - En observant les pièces, la soustraction de 1 semble être la seule opération qui pourrait expliquer les valeurs de sortie pour certaines pièces. Cependant, toutes les pièces ne suivent pas cette règle de manière cohérente.
+
+Raisonnement : L'opération la plus probable est une soustraction de 1, même si toutes les pièces ne suivent pas cette règle de manière cohérente.
+
+Réponse : C).

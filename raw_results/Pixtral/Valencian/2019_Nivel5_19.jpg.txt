@@ -1,0 +1,13 @@
+**Razonamiento:**
+1. Identificamos que hay 60 manzanas y 60 peras en cajas.
+2. Cada caja contiene un número de manzanas igual al número de manzanas en la caja anterior más el número de peras en la caja anterior.
+3. Para encontrar el número más grande de manzanas que permite una distribución justa, debemos considerar la secuencia de números que sigue el patrón dado.
+4. La secuencia de números de manzanas en las cajas se puede expresar como: 1, 1+6, 1+6+6, 1+6+6+6, y así sucesivamente.
+5. La suma de los primeros n términos de una progresión aritmética es dada por la fórmula: S_n = n/2 * (a_1 + a_n), donde a_1 es el primer término y a_n es el último término.
+6. En este caso, a_1 = 1 y a_n = 6 (ya que 6 es el número de peras).
+7. El número total de cajas es 60, por lo que n = 60.
+8. Calculamos el número total de manzanas en las cajas usando la fórmula:
+   S_60 = 60/2 * (1 + 6) = 30 * 7 = 210.
+9. Por lo tanto, el número más grande de manzanas que permite una distribución justa es 210.
+
+**Respuesta:** A)

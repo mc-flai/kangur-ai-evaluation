@@ -1,0 +1,20 @@
+**Raonament**:
+Primer, identifiquem els números de vèrtexs i cares donats en el problema:
+- Total de vèrtexs: 52
+- Total de cares: 42
+
+La fórmula d'Euler per a poliedres és:
+\[ V - E + C = 2 \]
+on \( V \) és el nombre de vèrtexs, \( E \) és el nombre d'arestes, i \( C \) és el nombre de cares.
+
+Podem reorganitzar aquesta fórmula per resoldre el nombre d'arestes \( E \):
+\[ E = V + C - 2 \]
+
+Substituïm els valors donats:
+\[ E = 52 + 42 - 2 \]
+\[ E = 94 - 2 \]
+\[ E = 92 \]
+
+Per tant, el nombre total d'arestes és 92.
+
+**Resposta**: E) 6

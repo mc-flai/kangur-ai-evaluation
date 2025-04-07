@@ -1,0 +1,16 @@
+Raonament:
+L'expressió té 2016 termes. Els signes es repeteixen en grups de 3: +, +, -.
+Podem agrupar els termes en grups de 3. Hi ha 2016/3 = 672 grups de 3 termes.
+El k-èsim grup té la forma (3k-2) + (3k-1) - (3k).
+(3k-2) + (3k-1) - (3k) = 3k - 2 + 3k - 1 - 3k = 3k - 3 = 3(k-1).
+La suma dels 672 grups és:
+$\sum_{k=1}^{672} 3(k-1) = 3 \sum_{k=1}^{672} (k-1) = 3 \sum_{k=0}^{671} k = 3 \frac{671 \cdot 672}{2} = 3 \cdot 671 \cdot 336 = 671 \cdot 1008 = 671 \cdot 1008$
+Ara, 2016 = 3 * 672
+672 = 2016 / 3 = 672.
+Considerem els 672 grups de la forma $(3k-2) + (3k-1) - (3k)$.
+La suma és
+$S = \sum_{k=1}^{672} (3k-2 + 3k-1 - 3k) = \sum_{k=1}^{672} (3k-3) = \sum_{k=1}^{672} 3(k-1) = 3 \sum_{k=1}^{672} (k-1) = 3 \sum_{k=0}^{671} k = 3 \frac{671 \cdot 672}{2} = 3 \cdot 671 \cdot 336 = 671 \cdot 1008$.
+Observem que $671 = 2013/3$ i $672 = 2016/3$. Per tant
+$S = \frac{2013}{3} \cdot \frac{3 \cdot 2016}{6} = \frac{2013 \cdot 2016}{6}$.
+
+Resposta: D)

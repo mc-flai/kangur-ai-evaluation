@@ -1,0 +1,14 @@
+Razonamiento:
+1. **Determinar el ciclo de creación de velas:** Cada 7 velas usadas, se crea una nueva.
+2. **Calcular el número de días hasta que todas las velas originales se agotan y se crean nuevas:** Las 100 velas iniciales se usan por 100 días. Durante estos días, se crean nuevas velas.
+3. **Calcular cuántas velas nuevas se crearán:** Después de 7 días, se crea 1 vela. Después de 14 días, se crean 2 velas, y así sucesivamente. Se puede calcular dividiendo el número de días (usadas) entre 7. Al inicio, se tienen 100 velas.
+4. **Determinar cuando se tienen menos de 1 vela para usar:**
+    *   Al día 7, se crea 1 vela. Total 101 velas.
+    *   Al día 14, se crean 2 velas. Total 102 velas.
+    *   Al día 21, se crean 3 velas. Total 103 velas.
+    *   Al día 98, se crean 14 velas. Total 114 velas.
+    *   Al día 105, se crean 15 velas. Total 115 velas.
+    *   Al día 112, se crean 16 velas. Total 116 velas.
+    *   Al día 113, se tendría que usar una vela, pero al día 112 las tenemos todas.  La cuenta no sería precisa ya que se crearían las velas y se encenderían al mismo tiempo. En lugar de 117 se tendrían que usar 116. Por lo tanto, para la respuesta, contamos 116 días.
+
+Respuesta: D)

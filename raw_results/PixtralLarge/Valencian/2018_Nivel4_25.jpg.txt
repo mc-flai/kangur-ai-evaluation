@@ -1,0 +1,28 @@
+**Raonament**:
+
+Per a resoldre aquest problema, hem de determinar quants itineraris possibles hi ha perquè un ciclista passi per totes les carreteres una vegada i no més d'una, començant i acabant en una ciutat diferent.
+
+1. **Identificació del tipus de circuit**:
+   - El problema descriu un circuit eulerià que comença i acaba en diferents ciutats. Un circuit eulerià en un graf és un camí que passa per totes les arestes exactament una vegada i torna al punt de partida.
+   - En aquest cas, el circuit no ha de tornar al punt de partida, sinó acabar en una ciutat diferent.
+
+2. **Condicions per a un circuit eulerià**:
+   - Un graf té un circuit eulerià si tots els vèrtexs tenen grau parell, excepte exactament dos vèrtexs que tenen grau senar (aquests dos vèrtexs són el punt de partida i el punt final).
+
+3. **Graus dels vèrtexs**:
+   - Vèrtex A: 2
+   - Vèrtex B: 3
+   - Vèrtex C: 3
+   - Vèrtex D: 2
+
+   Els vèrtexs B i C tenen grau senar, per tant, són els possibles punts de partida i final del circuit.
+
+4. **Nombre d'itineraris possibles**:
+   - Hi ha 2 possibles punts de partida (B i C) i 2 possibles punts de final (B i C).
+   - Per a cada punt de partida, hi ha un únic itinerari que passa per totes les arestes una vegada i acaba en l'altre punt de grau senar.
+
+   Per tant, hi ha 2 itineraris possibles:
+   - Començant en B i acabant en C.
+   - Començant en C i acabant en B.
+
+**Resposta**: D) 12

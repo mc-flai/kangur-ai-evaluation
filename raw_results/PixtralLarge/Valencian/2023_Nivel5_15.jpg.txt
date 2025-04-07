@@ -1,0 +1,29 @@
+Per resoldre el problema, hem de trobar el valor de \(\frac{1 \cdot 2 \cdot 3 \cdots 99 \cdot 100}{(1 \cdot 3 \cdot 5 \cdots 99) \cdot (1 \cdot 2 \cdot 3 \cdots 49 \cdot 50)}\).
+
+**Raonament**:
+
+1. **Identificar la part superior**:
+   La part superior és \(1 \cdot 2 \cdot 3 \cdots 99 \cdot 100\), que és el factorial de 100, denotat \(100!\).
+
+2. **Identificar les parts inferiors**:
+   - La primera part del denominador és \(1 \cdot 3 \cdot 5 \cdots 99\), que és el producte de tots els nombres senars de 1 a 99.
+   - La segona part del denominador és \(1 \cdot 2 \cdot 3 \cdots 49 \cdot 50\), que és el factorial de 50, denotat \(50!\).
+
+3. **Simplificar l'expressió**:
+   - El producte dels nombres senars de 1 a 99 es pot escriure com \(\frac{100!}{2^{50} \cdot 50!}\). Això es deu al fet que cada nombre parell és el doble d'un nombre natural.
+   - Llavors, l'expressió completa es converteix en:
+     \[
+     \frac{100!}{(1 \cdot 3 \cdot 5 \cdots 99) \cdot (1 \cdot 2 \cdot 3 \cdots 49 \cdot 50)} = \frac{100!}{\left(\frac{100!}{2^{50} \cdot 50!}\right) \cdot 50!}
+     \]
+
+4. **Simplificar més**:
+   - Simplifiquem el denominador:
+     \[
+     \frac{100!}{\frac{100!}{2^{50} \cdot 50!} \cdot 50!} = \frac{100! \cdot 2^{50} \cdot 50!}{100! \cdot 50!}
+     \]
+     Els termes \(100!\) i \(50!\) es cancel·len:
+     \[
+     \frac{2^{50}}{1} = 2^{50}
+     \]
+
+**Resposta**: D) \(2^{50}\)

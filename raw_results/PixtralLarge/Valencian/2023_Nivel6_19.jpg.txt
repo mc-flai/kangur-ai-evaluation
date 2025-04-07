@@ -1,0 +1,25 @@
+**Raonament**: Per determinar quina és l'àrea de la part ombrejada de l'octàgon regular, hem de comprendre la relació entre l'àrea del quadrat i l'àrea de l'octàgon.
+
+Primer, s'assumeix que l'àrea del quadrat és 1. L'octàgon regular està format per 8 triangles isòsceles congruents amb una base igual al costat del quadrat i alçada que s'estén des del centre de l'octàgon fins al punt mig d'un dels costats.
+
+Per trobar l'àrea de l'octàgon, primer calculem l'àrea d'un dels triangles. El costat del quadrat és la diagonal d'un dels triangles. L'àrea d'un triangle és (base * alçada) / 2. Aquí, la base del triangle és el costat del quadrat, que és 1, i l'alçada és la meitat de la diagonal del quadrat (ja que la diagonal del quadrat és √2).
+
+L'alçada del triangle és (√2 / 2). Ara, calculem l'àrea d'un triangle:
+
+Àrea d'un triangle = (base * alçada) / 2
+                   = (1 * (√2 / 2)) / 2
+                   = √2 / 4
+
+Per tant, l'àrea total de l'octàgon és 8 vegades l'àrea d'un triangle:
+
+Àrea de l'octàgon = 8 * (√2 / 4)
+                 = 2√2
+
+Ara, l'àrea de la part ombrejada és la diferència entre l'àrea del quadrat i l'àrea de l'octàgon:
+
+Àrea de la part ombrejada = Àrea del quadrat - Àrea de l'octàgon
+                          = 1 - 2√2
+
+Observem que l'opció B) és √2 - 1. Per tant, l'àrea de la part ombrejada de l'octàgon és √2 - 1.
+
+**Resposta**: B)

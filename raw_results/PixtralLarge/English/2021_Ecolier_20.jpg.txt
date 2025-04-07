@@ -1,0 +1,12 @@
+**Reasoning**: To determine which balloon Mia definitely hit, we need to check the points required to reach a total of 30 points. If the sum exceeds 30 points without including a particular balloon, then that balloon must have been hit.
+
+Let's check the sums excluding each balloon one by one:
+- Excluding the 3-point balloon: The sum is 9 + 13 + 14 + 18 = 54 points.
+- Excluding the 9-point balloon: The sum is 3 + 13 + 14 + 18 = 48 points.
+- Excluding the 13-point balloon: The sum is 3 + 9 + 14 + 18 = 44 points.
+- Excluding the 14-point balloon: The sum is 3 + 9 + 13 + 18 = 43 points.
+- Excluding the 18-point balloon: The sum is 3 + 9 + 13 + 14 = 39 points.
+
+In each case except when excluding the 18-point balloon, the sum exceeds 30 points. Therefore, Mia must have hit the 18-point balloon to achieve exactly 30 points.
+
+**Answer**: E).

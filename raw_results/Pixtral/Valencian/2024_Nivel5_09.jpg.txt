@@ -1,0 +1,33 @@
+### Raonament:
+
+1. **Identificar la configuració**: El problema descriu un quadrat amb vèrtexs A, B, C, i D i un hexàgon regular amb el costat OC, on O és el centre del quadrat.
+
+2. **Propietats del quadrat**: En un quadrat, tots els angles interns són de 90 graus.
+
+3. **Propietats de l'hexàgon regular**: Un hexàgon regular té tots els seus angles interns iguals. L'angle intern d'un hexàgon regular es pot calcular com:
+   \[
+   \text{Angle intern} = 180^\circ - \frac{360^\circ}{n}
+   \]
+   on \( n \) és el nombre de costats. Per a un hexàgon (\( n = 6 \)):
+   \[
+   \text{Angle intern} = 180^\circ - \frac{360^\circ}{6} = 180^\circ - 60^\circ = 120^\circ
+   \]
+
+4. **Intersecció de l'hexàgon i el quadrat**: La mesura de l'angle \(\alpha\) està en la intersecció de l'hexàgon i el quadrat. Com que l'hexàgon té angles interns de 120 graus, l'angle \(\alpha\) entre el costat del quadrat i el costat de l'hexàgon és:
+   \[
+   \alpha = \frac{120^\circ}{2} = 60^\circ
+   \]
+
+5. **Calcular l'angle en el quadrat**: L'angle en el quadrat que forma l'hexàgon és:
+   \[
+   \text{Angle en el quadrat} = 90^\circ - 60^\circ = 30^\circ
+   \]
+
+6. **Determinar l'angle en el vèrtex**: L'angle en el vèrtex del quadrat on es troba l'hexàgon és:
+   \[
+   \text{Angle en el vèrtex} = 360^\circ - 90^\circ - 120^\circ = 150^\circ
+   \]
+
+7. **Conclusió**: L'angle \(\alpha\) és el que queda en el vèrtex del quadrat, que és de 150 graus.
+
+### Resposta: E)

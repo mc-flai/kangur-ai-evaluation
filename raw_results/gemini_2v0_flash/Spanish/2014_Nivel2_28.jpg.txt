@@ -1,0 +1,29 @@
+Razonamiento:
+Primero, identificamos los números de dos cifras, que son del 10 al 99.
+Luego, necesitamos encontrar los números N en este rango tales que N+1 o N-1 sea un número primo y el otro sea un cuadrado perfecto.
+
+Probemos algunos valores:
+- Si N+1 es un cuadrado perfecto, entonces N = k^2 - 1, donde k es un entero.  Necesitamos que 10 <= N <= 99, entonces 10 <= k^2 - 1 <= 99, lo que implica 11 <= k^2 <= 100, y por lo tanto 4 <= k <= 10. Entonces k puede ser 4, 5, 6, 7, 8, 9, 10. Los correspondientes valores de N son 15, 24, 35, 48, 63, 80, 99.
+- Verificamos si N-1 es primo para cada uno de estos N:
+    - N = 15, N-1 = 14 (no primo)
+    - N = 24, N-1 = 23 (primo). Por lo tanto, 24 es una solución.
+    - N = 35, N-1 = 34 (no primo)
+    - N = 48, N-1 = 47 (primo). Por lo tanto, 48 es una solución.
+    - N = 63, N-1 = 62 (no primo)
+    - N = 80, N-1 = 79 (primo). Por lo tanto, 80 es una solución.
+    - N = 99, N-1 = 98 (no primo)
+
+- Si N-1 es un cuadrado perfecto, entonces N = k^2 + 1, donde k es un entero.  Necesitamos que 10 <= N <= 99, entonces 10 <= k^2 + 1 <= 99, lo que implica 9 <= k^2 <= 98, y por lo tanto 3 <= k <= 9.  Entonces k puede ser 3, 4, 5, 6, 7, 8, 9. Los correspondientes valores de N son 10, 17, 26, 37, 50, 65, 82.
+- Verificamos si N+1 es primo para cada uno de estos N:
+    - N = 10, N+1 = 11 (primo). Por lo tanto, 10 es una solución.
+    - N = 17, N+1 = 18 (no primo)
+    - N = 26, N+1 = 27 (no primo)
+    - N = 37, N+1 = 38 (no primo)
+    - N = 50, N+1 = 51 = 3 * 17 (no primo)
+    - N = 65, N+1 = 66 (no primo)
+    - N = 82, N+1 = 83 (primo). Por lo tanto, 82 es una solución.
+
+En resumen, los números que cumplen la condición son: 10, 24, 48, 80, 82.
+Hay 5 números que cumplen la condición.
+
+Respuesta: E)

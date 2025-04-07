@@ -1,0 +1,26 @@
+**Reasoning**:
+1. Jakob writes down four consecutive positive whole numbers. Let's represent these four numbers as \( n, n+1, n+2, n+3 \).
+2. We need to determine the smallest possible value of \( n \) such that no sum of any three of these numbers is a prime number.
+3. The sums of three of these numbers are:
+   - \( n + (n+1) + (n+2) = 3n + 3 \)
+   - \( n + (n+1) + (n+3) = 3n + 4 \)
+   - \( n + (n+2) + (n+3) = 3n + 5 \)
+   - \( (n+1) + (n+2) + (n+3) = 3n + 6 \)
+4. We need to check these sums for different values of \( n \) starting from the smallest possible values:
+   - For \( n = 1 \):
+     - Sums are 6, 7, 8, 9. Here, 7 is a prime number.
+   - For \( n = 2 \):
+     - Sums are 9, 10, 11, 12. Here, 11 is a prime number.
+   - For \( n = 3 \):
+     - Sums are 12, 13, 14, 15. Here, 13 is a prime number.
+   - For \( n = 4 \):
+     - Sums are 15, 16, 17, 18. Here, 17 is a prime number.
+   - For \( n = 5 \):
+     - Sums are 18, 19, 20, 21. Here, 19 is a prime number.
+   - For \( n = 6 \):
+     - Sums are 21, 22, 23, 24. Here, 23 is a prime number.
+   - For \( n = 7 \):
+     - Sums are 24, 25, 26, 27. None of these are prime numbers.
+5. Therefore, the smallest number that Jakob could have written down is 7.
+
+**Answer**: C)

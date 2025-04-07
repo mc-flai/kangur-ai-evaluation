@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de seguir aquests passos:
+
+1. Identificar les figures iguals i assignar-los el mateix dígit.
+2. Identificar les figures diferents i assignar-los diferents dígits.
+3. Totes les figures són superiors a 1.
+4. Verificar quants dígits diferents es poden representar per obtenir una igualtat correcta.
+
+**Anàlisi detallada:**
+
+- El triangle buit (Δ) i el quadrat (□) són figures diferents, per tant, representen dígits diferents.
+- El triangle ple (▲) i el cercle (○) són figures diferents, per tant, representen dígits diferents.
+- El triangle buit (Δ) es repeteix, per tant, representa el mateix dígit.
+- El triangle ple (▲) es repeteix, per tant, representa el mateix dígit.
+
+Com que tots els dígits són superiors a 1, les figures han de representar dígits del 2 al 9.
+
+Ara considerem les possibles multiplicacions:
+
+- Si Δ = 2, llavors Δ x Δ = 4 (però □ x ○ ha de ser igual a 4, i això no és possible perquè Δ i □ són diferents i han de representar diferents dígits).
+- Si Δ = 3, llavors Δ x Δ = 9 (però □ x ○ ha de ser igual a 9, i això no és possible perquè Δ i □ són diferents i han de representar diferents dígits).
+- Si Δ = 4, llavors Δ x Δ = 16 (no és possible perquè □ x ○ han de ser menors de 10).
+- Si Δ = 5, llavors Δ x Δ = 25 (no és possible perquè □ x ○ han de ser menors de 10).
+- Si Δ = 6, llavors Δ x Δ = 36 (no és possible perquè □ x ○ han de ser menors de 10).
+- Si Δ = 7, llavors Δ x Δ = 49 (no és possible perquè □ x ○ han de ser menors de 10).
+- Si Δ = 8, llavors Δ x Δ = 64 (no és possible perquè □ x ○ han de ser menors de 10).
+- Si Δ = 9, llavors Δ x Δ = 81 (no és possible perquè □ x ○ han de ser menors de 10).
+
+Per tant, la única possibilitat és que Δ = 3, □ = 1 i ○ = 3.
+
+Això significa que hi ha 2 dígits diferents (3 i 1).
+
+Raonament: Hem identificat els dígits possibles per a cada figura i verificat les multiplicacions per trobar la combinació correcta.
+
+Resposta: C).

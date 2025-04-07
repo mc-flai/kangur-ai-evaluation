@@ -1,0 +1,14 @@
+**Reasoning**: Karin wants to place the bowls in order of their weight, with Q being the lightest and T being the heaviest. The current order is Q, R, S, T. Bowl Z needs to be placed in this sequence according to its weight. The bowls have distinct shapes, and the shapes of bowls Q, R, S, and T are as follows:
+
+- Q: Lightest (Triangle, Circle, Square)
+- R: (Circle, Circle, Square)
+- S: (Square, Triangle, Square)
+- T: Heaviest (Square, Circle, Square)
+
+Bowl Z's shape is (Triangle, Circle, Square). Comparing the shapes:
+- Bowl Z has the same shapes as Bowl Q but the order of shapes is different.
+- Bowl Z has a triangle and a square like Bowl S but the order is different.
+
+Since Bowl Q is the lightest and Bowl T is the heaviest, Bowl Z must fit between Bowl Q and Bowl R or between Bowl R and Bowl S. Given that Bowl Z's shape is more similar to Bowl Q (lightest) and Bowl S, it seems logical that Bowl Z should be placed between the lighter bowls. Therefore, Bowl Z should be placed between Bowl Q and Bowl R.
+
+**Answer**: B)

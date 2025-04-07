@@ -1,0 +1,19 @@
+
+La question 10 demande combien de possibilités il y a pour colorier un seul carré composé de quatre petits carrés sur une figure en forme de grille.
+
+Pour résoudre ce problème, nous devons déterminer combien de façons différentes nous pouvons colorier les quatre petits carrés dans un seul carré plus grand.
+
+- Option A) 5 : Cela pourrait être possible si nous avons des restrictions spécifiques sur les couleurs.
+- Option B) 6 : Cela pourrait être possible si nous avons des restrictions spécifiques sur les couleurs.
+- Option C) 7 : Cela pourrait être possible si nous avons des restrictions spécifiques sur les couleurs.
+- Option D) 8 : Cela pourrait être possible si nous avons des restrictions spécifiques sur les couleurs.
+- Option E) 9 : Cela pourrait être possible si nous avons des restrictions spécifiques sur les couleurs.
+
+Raisonnement :
+1. Si nous n'avons que deux couleurs disponibles pour colorier les petits carrés, nous devons déterminer combien de combinaisons différentes peuvent être formées.
+2. Chaque petit carré peut être colorié de deux façons différentes (par exemple, en utilisant deux couleurs différentes).
+3. Pour quatre petits carrés, le nombre total de combinaisons possibles est calculé par 2^4 = 16.
+4. Cependant, certaines de ces combinaisons peuvent être identiques si les couleurs sont appliquées de la même manière.
+5. En considérant les restrictions potentielles sur les couleurs, nous devons vérifier les options données.
+
+Réponse : D) 8

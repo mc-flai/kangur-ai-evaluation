@@ -1,0 +1,32 @@
+**Raonament**:
+Per trobar el nombre 201 entre els nombres de 1 a 2018, primer cal determinar quants nombres hi ha en aquest rang.
+
+1. Calculem la quantitat total de nombres de 1 a 2018:
+   2018 - 1 + 1 = 2018
+
+2. Ara, com que 201 és un dels nombres dins d'aquest rang, hem de determinar en quina posició es troba. No és necessari calcular la posició exacta perquè sabem que 201 està dins del rang de 1 a 2018.
+
+3. Ara, per a la part de la suma, sabem que la suma total dels nombres de 1 a 2018 es pot calcular utilitzant la fórmula de la suma d'una sèrie aritmètica:
+   Suma = n/2 * (primer terme + últim terme)
+   Suma = 2018/2 * (1 + 2018)
+   Suma = 1009 * 2019 = 2037171
+
+4. Es diu que un dels sumands és 201. Per tant, si restem 201 de la suma total:
+   2037171 - 201 = 2036970
+
+5. Ara, si es canvia el nombre 201 pel nombre 102, hem de sumar la diferència entre 201 i 102 a la suma anterior:
+   201 - 102 = 99
+   2036970 + 99 = 2037069
+
+6. La resposta correcta ha de ser la que més s'acosta al valor calculat: 2037069
+
+Comparant aquest valor amb les opcions donades:
+- A) 1622
+- B) 1262
+- C) 1721
+- D) 2117
+- E) 1919
+
+La resposta més propera a 2037069 és 2117.
+
+**Resposta**: D)

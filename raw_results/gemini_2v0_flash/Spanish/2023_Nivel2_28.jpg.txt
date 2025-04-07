@@ -1,0 +1,22 @@
+Razonamiento:
+La pregunta dice que los cuatro dígitos son diferentes y suman 8. Además, el producto de los dos primeros dígitos es igual al número de dos dígitos formado por el tercero y el cuarto. Necesitamos encontrar cuántos códigos PIN diferentes cumplen estas condiciones.
+
+Consideremos los posibles conjuntos de cuatro dígitos diferentes que suman 8.
+1. {0, 1, 2, 5}:  Si los dos primeros son 1 y 2, su producto es 2, que no es un número de dos dígitos. Si son 2 y 5, suma 7, entonces este conjunto no funciona.
+2. {0, 1, 3, 4}: Los dos primeros dígitos podrían ser 1 y 3, cuyo producto es 3. No es un número de dos dígitos. Si son 1 y 4, su producto es 4, que no es un número de dos dígitos. Si son 3 y 4, su producto es 12. Posibilidad 1: 3 * 0 = 00 -> Necesitamos los dígitos 0 y 0 que NO son diferentes. Posibilidad 2: 1 * algo = 12. No se puede obtener un producto de 12 combinando dos dígitos en el conjunto.
+3. {0, 2, 1, 5}. Buscamos el número de 2 dígitos 05, 15, 25 o 50, 51, 52 que sean producto de dos dígitos del conjunto. 2*0 no genera 05, 15, 50,51,52.
+4. {1,2,0,5}: Podemos ver si encontramos un par con producto un número con los dígitos restantes. 1 y 2 -> producto 2 y NO 05 ni 50, 50 No se puede
+5. {2,3,1,2}, 2+3+1+2 = 8, pero dos veces el 2
+6. {3, 4, 0, 1}. Intentamos 3 y 4 ->12, no sirve
+7. {5,2,1,0}. Intentemos con 5, 2 y 1, 0 con diferentes combinaciones.
+
+Ahora, pensemos directamente en números de dos dígitos pequeños. Si el producto de los dos primeros números es 10, los dos últimos números tienen que ser 1 y 0. Si el producto de los dos primeros es 12, los dos últimos son 1 y 2. Sumemos 8 con dígitos diferentes y veamos si sirve.
+Si es 10,  primero * segundo = 10 => 5 * 2 = 10.  5 + 2 + 1 + 0 = 8. Entonces, tenemos el PIN 5210. Cumple las condiciones.
+Si es 12,  primero * segundo = 12 => 3 * 4 = 12.  3 + 4 + algo + algo = 8 => 3 + 4 + 1 + 0 = 8. Entonces, tenemos el PIN 3410. Cumple las condiciones.
+
+¿Podemos obtener otros? Podríamos cambiar el orden, pero el producto de los dos primeros tiene que dar 10 o 12. Si es 10, 2510 funciona también. Si es 12, 4310. Otros órdenes no dan, porque todos los numeros deben ser diferentes. Los PINs deben ser diferentes.
+El pin 5210 y 3410 son validos y tambien los resultados de invertir los dos primeros numeros: 2510 y 4310 son validos.
+Tenemos 4 casos: 5210, 2510, 3410 y 4310.
+Hay más de 3 PINs diferentes que cumplen estas condiciones.
+
+Respuesta: E)

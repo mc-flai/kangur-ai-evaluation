@@ -1,0 +1,75 @@
+Razonamiento:
+La suma de los enteros positivos desde 1 hasta n es S = n(n+1)/2. Un número primo p divide S, pero no divide a ningún entero entre 1 y n.
+Esto implica que p debe dividir a n+1 o a n/2, y también que p > n. Por lo tanto, n < p.
+Luego, n + p = p + n < p + p = 2p.
+Vamos a revisar cada una de las opciones:
+A) 217 = 7 * 31
+Si p = 31, entonces n = 217 - 31 = 186. S = 186 * 187 / 2 = 93 * 187 = 93 * 11 * 17.
+Pero 31 debe dividir S, 31 no divide a 93, 11 o 17. Entonces, 31 no divide a S.
+Si p = 7, entonces n = 217 - 7 = 210. S = 210 * 211 / 2 = 105 * 211 = 3*5*7*211. Aquí 7 divide a S pero 7<= n. No cumple las condiciones.
+B) 221 = 13 * 17
+Si p = 17, entonces n = 221 - 17 = 204. S = 204 * 205 / 2 = 102 * 205 = 2 * 3 * 17 * 5 * 41. Aquí, 17 divide S y 17 <= n. No cumple las condiciones.
+Si p = 13, entonces n = 221 - 13 = 208. S = 208 * 209 / 2 = 104 * 209 = 8 * 13 * 11 * 19. Aquí, 13 divide S y 13 <= n. No cumple las condiciones.
+C) 229 (es primo)
+Si p = 229, entonces n = 0, lo cual no es posible ya que n debe ser un entero positivo.
+D) 245 = 5 * 7 * 7
+Si p = 5, entonces n = 245 - 5 = 240. S = 240 * 241 / 2 = 120 * 241 = 2^3 * 3 * 5 * 241. Aquí, 5 divide S y 5 <= n. No cumple las condiciones.
+Si p = 7, entonces n = 245 - 7 = 238. S = 238 * 239 / 2 = 119 * 239 = 7 * 17 * 239. Aquí, 7 divide S y 7 <= n. No cumple las condiciones.
+E) 269 (es primo)
+Si p = 269, entonces n = 0, lo cual no es posible ya que n debe ser un entero positivo.
+
+Revisemos la condición nuevamente: p > n.
+Entonces n + p debe ser mayor que 2n, y p debe dividir n(n+1)/2.
+Dado que p > n, p no puede dividir n. Entonces p debe dividir n+1 o n/2.
+Si p divide n+1, entonces n+1 = kp para algún entero k.  n = kp - 1.
+n + p = kp - 1 + p = (k+1)p - 1
+Si p divide n/2, entonces n/2 = lp para algún entero l. n = 2lp.
+n + p = 2lp + p = (2l+1)p
+
+Para que p > n, n(n+1)/2 debe ser divisible por p y n < p
+A) 217 = 7*31. Si p = 31, n = 186. n+1 = 187 = 11*17.  n(n+1)/2 = 186*187/2 = 93*187 = 3*31 * 11*17. En este caso, p = 31 divide la suma. Entonces n+p=217.
+Como 186 < 31 es falso, no cumple la condicion
+
+B) 221 = 13*17
+Si p = 13, entonces n = 208. S = 208*209/2 = 104*209 = 8 * 13 * 11* 19. n =208 > 13.
+Si p = 17, entonces n = 204. S = 204*205/2 = 102*205 = 2 * 3 * 17 * 5*41. n =204 > 17.
+
+C) 220 = 2*2*5*11
+Si p = 5, n = 215.
+Si p = 11, n = 209.
+n(n+1)/2=209*210/2 = 209*105
+
+Sea p = 11. n = 209. n+1 = 210 = 2*3*5*7. n(n+1)/2 = 209*210/2 = 209*105=11 * 19 * 3 * 5 * 7
+209 >11
+E) 269 es primo
+Si n + p = 269 y p > n, entonces la suma es n(n+1)/2, que debe ser divisible por p.
+n = 269 - p
+S = (269-p)(270-p)/2
+Si probamos el ejemplo: n=6 y p=7,  entonces S = n*(n+1)/2 = 6*7/2 = 21 = 3*7
+Si p divide S entonces p|n+1 o 2p|n
+como p > n, n= 2pL. Imposible pues p > n por lo que hay que buscar que p | n+1
+
+Si n+1 = kp  => n = kp-1
+n + p = (k+1)p -1
+
+Dada la suma 1+2+3+4+5+6=21. Si p=7  divide a 21 , n+p=6+7=13
+
+Dado que buscamos que p divide (n(n+1)/2), pero no a n.
+Probando n=6.  n+p=13 -> n = 6 -> n + 1 = 7. p = 7 > 6=n, y p=7 | (6*7)/2 = 21. 13 es primo
+
+Consideramos n = p-1 y que p | n(n+1)/2  --> p | (p-1)p/2.  implica que 2. El único primo par es 2. NO
+Consideramos n = 2p-1.
+
+Sea n=2. Sum = 3. p=3. n+p=5. (n(n+1))/2 = 3.
+Si S= 36= 1+..+8, entonces n=8, p=3 NO CUMPLE.
+Si S=3. n=2, p=3. 1+2=3.
+Sea la suma (2p-1) 2p/2. entonces (268*269)/2
+Necesito n+p = (k+1)p-1 y que n + p pueda ser factorizable
+
+Razonamiento:
+La única opción que queda es la E. Probemos con n=6. Entonces 1+2+3+4+5+6=21. El siguiente primo es 7. Entonces 7 divide a 21, pero no divide a 1,2,3,4,5,6. n=6 y p=7. n+p=13. Como esto no aparece en las opciones.
+Revisando: n+1 = kp;  entonces n+p = n+p + kp-1; S=(kp-1)(kp)/2 = p (k(kp-1))/2.
+No debe ser la opción E.
+Considero el resultado E)269 = n+p; Sumamos todos los numeros hasta el 18, 171; S = n(n+1)/2
+
+Respuesta: E)

@@ -1,0 +1,31 @@
+Raonament: Adrià necessita quedar per davant dels seus dos amics. Això significa que hi ha tres posicions que representen un "bon resultat": primer, segon o tercer. Les posicions dels altres dos amics no afecten el fet que Adrià hagi quedat davant d'ells. Per tant, podem pensar en quantes maneres poden acabar els altres 2 competidors, un cop Adrià està en 1a, 2a o 3a posició.
+
+*   **Adrià en 1a posició**: Els altres 2 amics poden quedar en qualsevol posició, que pot ser en 2! = 2 formes (2n i 3r, o 3r i 2n). Els dos restants poden quedar en qualsevol ordre, per tant, 2!
+*   **Adrià en 2a posició**: Un dels dos amics ha d'estar per darrere. El primer lloc ha d'estar ocupat per un dels altres dos corredors. Per tant, hi ha 1 forma per a Adrià, i podem permutar els dos amics a les dues últimes posicions. Hi ha 2 possibilitats d'ordenació dels amics a les posicions 3 i 4.
+*   **Adrià en 3a posició**: Hi ha 2 possibles posicions on poden estar els altres dos amics. El primer lloc pot ser ocupat per 1 dels dos, i el segon per l'altre. Hi ha 2! = 2 formes.
+
+*   **Cas A**: Adrià en primera posició: Els altres 2 amics es poden ordenar de 2! = 2 maneres. Els altres dos competidors, de 2! = 2 maneres, per tant 2! * 2! = 2 * 2 = 4. Total 4.
+*   **Cas B**: Adrià en segona posició. Un dels amics està per sota. El primer lloc pot ser ocupat per un dels altres 2 corredors. Hi ha 2! = 2 maneres d'ordenar els amics a les posicions 3 i 4. 2 * 2! = 4. Total 4.
+*   **Cas C**: Adrià en tercera posició: Els altres dos amics es poden ordenar de 2! maneres, i les altres dues persones de 2! maneres. 2! * 2! = 4. Total 4.
+
+Si hi ha dos amics i tres posicions vàlides, el nombre de posicions favorables és 3 * (2! * 2!) = 3*4 = 12, per cada possible ordenació dels altres dos competidors, 1x2! = 2. En total, hi ha tres posicions acceptables per a Adrià. Això és 12.
+De fet, el nombre de possibilitats de finalitzar en davant dels dos amics, és 3!. D'aquests resultats, cal multiplicar-los per les possibles ordenacions dels altres dos corredors, que seria 2!. Així, 3! * 2 = 6*2 = 12. La resposta seria 2 * 2! * 2! = 2 * 2 * 2 = 8.
+Aquest enfocament està equivocat.
+
+Adrià pot acabar primer, segon o tercer per a ser davant dels seus amics. Si tenim 5 participants i Adrià ha de quedar davant de dos, podem considerar les seves tres possibles posicions:
+* Adrià primer: Els dos amics poden estar en les posicions 2, 3, 4, i 5. Els amics poden ocupar les posicions:
+    * 2 i 3. 2! maneres
+    * 2 i 4. 2! maneres
+    * 2 i 5. 2! maneres
+    * 3 i 4. 2! maneres
+    * 3 i 5. 2! maneres
+    * 4 i 5. 2! maneres
+    Així que hi ha 6 * 2! maneres d'ordenar els amics.
+    Els altres dos poden estar en 2! maneres. 6 * 2! * 2! = 24
+* Adrià segon:
+    * Un amic pot ser primer, i l'altre en una posició per sota d'Adrià (3, 4, 5). Així que hi ha 3 posicions. 2! maneres d'ordenar els amics. 2! maneres d'ordenar els altres. Així que hi ha 3 * 2! * 2! = 12
+* Adrià tercer.
+    * Els amics han d'estar en les dues primeres posicions. 2! maneres. 2! maneres d'ordenar els altres 2 corredors. 2! * 2! = 4
+Per tant, 24+12+4 = 40
+
+Resposta: D)

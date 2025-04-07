@@ -1,0 +1,22 @@
+Reasoning: Let $c$ be the number of correct answers, $w$ be the number of wrong answers, and $b$ be the number of blank answers. We have the following equations:
+\begin{enumerate}
+    \item $c + w + b = 20$ (total number of questions)
+    \item $7c - 4w + 0b = 100$ (total score)
+\end{enumerate}
+We can rewrite the first equation as $c = 20 - w - b$. Substitute this into the second equation:
+$7(20 - w - b) - 4w = 100$
+$140 - 7w - 7b - 4w = 100$
+$140 - 11w - 7b = 100$
+$11w + 7b = 40$
+Since $w$ and $b$ must be non-negative integers, we can test values for $b$:
+\begin{itemize}
+    \item If $b=0$, $11w = 40$, which has no integer solution for $w$.
+    \item If $b=1$, $11w = 40 - 7 = 33$, so $w = 3$. Then $c = 20 - 3 - 1 = 16$.  $7(16) - 4(3) = 112 - 12 = 100$. This is a valid solution.
+    \item If $b=2$, $11w = 40 - 14 = 26$, which has no integer solution for $w$.
+    \item If $b=3$, $11w = 40 - 21 = 19$, which has no integer solution for $w$.
+    \item If $b=4$, $11w = 40 - 28 = 12$, which has no integer solution for $w$.
+    \item If $b=5$, $11w = 40 - 35 = 5$, which has no integer solution for $w$.
+\end{itemize}
+The only integer solution is $b=1$.
+
+Answer: B)

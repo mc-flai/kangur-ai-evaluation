@@ -1,0 +1,34 @@
+**Raonament:**
+
+La pregunta demana trobar quina és la combinació de dígits que no és el codi del cadenat, que té quatre dígits. La combinació correcta ha de ser tal que quan es col·loqui cada dígit en el mateix lloc de la matriu i es matxi amb el dígit correcte en cada posició, el més alt del matriu coincideix amb el més baix del cadenat.
+
+Per trobar les combinacions vàlides, em veiem les rodes dels dígits:
+
+- Roda del primer dígit: 6
+- Roda del segon dígit: 3
+- Roda del tercer dígit: 4
+- Roda del quart dígit: 8
+
+Les combinacions possibles segons les rodes serien:
+
+6XXX:
+- 63XX:
+  - 634X:
+    - 6348
+- 63XX:
+  - 630X:
+    - 6306
+
+Les combinacions vàlides són: 6348 i 6306.
+
+Comparant amb les opcions donades:
+
+A) 8560: No és una combinació vàlida.
+B) 3015: No és una combinació vàlida.
+C) 4906: No és una combinació vàlida.
+D) 1893: No és una combinació vàlida.
+E) 0782: No és una combinació vàlida.
+
+Totes les opcions donades no són combinacions vàlides. Per tant, la resposta correcta és la que no és el codi del cadenat, que és l'opció A.
+
+**Resposta:** A)

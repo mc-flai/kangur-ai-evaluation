@@ -1,0 +1,34 @@
+Raonament: Per a que el producte dels elements restants sigui un quadrat perfecte, cada factor primer ha d'aparèixer un nombre parell de vegades. Els nombres donats són {10, 20, 30, 40, 50, 60, 70, 80, 90}. Descomposant en factors primers:
+- 10 = 2 * 5
+- 20 = 2^2 * 5
+- 30 = 2 * 3 * 5
+- 40 = 2^3 * 5
+- 50 = 2 * 5^2
+- 60 = 2^2 * 3 * 5
+- 70 = 2 * 5 * 7
+- 80 = 2^4 * 5
+- 90 = 2 * 3^2 * 5
+
+Si multipliquem tots els números originals, obtenim:
+10 * 20 * 30 * 40 * 50 * 60 * 70 * 80 * 90 = 2^15 * 3^3 * 5^9 * 7
+
+Per a obtenir un quadrat perfecte, els exponents dels factors primers han de ser parells. Per tant, necessitem eliminar almenys un 3 i un 7. Però el 2 i el 5 tenen exponents imparells.
+
+Considerem les següents observacions:
+* Hi ha un únic múltiple de 7: 70. Per tant, necessitem eliminar-lo si volem que el 7 desaparegui.
+* Hi ha dos múltiples de 3: 30 i 60 i 90. Per tant, hem d'eliminar 1 o 3 d'ells.
+
+Si eliminem només 70, el producte dels restants és 2^14 * 3^3 * 5^8 * 7^0, el qual encara té 3 i 5 amb exponents imparells.
+
+Necessitem eliminar a més de 70 altres nombres de tal manera que les potències de 2, 3 i 5 siguin parells.
+* Eliminem 70 i 30: llavors obtenim 2^13 * 3^2 * 5^7 * 7^0.
+* Eliminem 70, 30 i 10: llavors obtenim 2^12 * 3^2 * 5^6.
+Ara tots els exponents són parells i podem afirmar que hi ha un quadrat perfecte! Hem eliminat 3 nombres.
+
+Si eliminem només 2 nombres (70 i un altre), no aconseguirem obtenir un quadrat perfecte.
+
+Per tant, la quantitat mínima és 3 (70, 10, 30). El producte resultant és 20 * 40 * 50 * 60 * 80 * 90 = 2^12 * 3^2 * 5^6 = (2^6 * 3 * 5^3)^2
+
+Raonament: El raonament correcte és eliminar els números 10,30,70 o 50, 70, 90.
+
+Resposta: C)

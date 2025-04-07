@@ -1,0 +1,15 @@
+Reasoning: The problem asks us to find how many numbers in the sequence are divisible by 3. The sequence is formed such that each number 'n' appears 'n' times. The numbers divisible by 3 in the sequence are multiples of 3. Let's analyze:
+- 3 appears 3 times, and all 3 are divisible by 3.
+- 6 appears 6 times, and all 6 are divisible by 3.
+- 9 appears 9 times, and all 9 are divisible by 3.
+We need to determine up to which 'n' the sequence continues. The sum of the first 'n' natural numbers can be expressed as n*(n+1)/2. We need to find n such that the sum of terms equals 105. Therefore, solve n(n+1)/2 = 105 for n.
+n(n+1) = 210.
+The closest integer solution for n is 14 because 14*15=210.
+The numbers divisible by 3 are multiples of 3. The numbers present in the sequence can go up to 14. We are interested in how many times the numbers divisible by 3 will appear in the sequence, which means 3, 6, 9, 12. Let's find how many times each appears.
+- 3 appears 3 times
+- 6 appears 6 times
+- 9 appears 9 times
+- 12 appears 12 times
+So, the total count is 3+6+9+12 = 30.
+
+Answer: D)

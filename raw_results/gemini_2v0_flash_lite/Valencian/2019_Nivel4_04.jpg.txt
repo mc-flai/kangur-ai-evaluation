@@ -1,0 +1,48 @@
+Raonament:
+1. **Identify the visible digits:** From the image, we can see the digits 1, 2, 4, 3, 1, 2, 1, 2, and 6.
+2. **Calculate the sum of the visible digits:** Sum of visible digits = 1+2+4+3+1+2+1+2+6 = 22
+3. **Identify all the digits** Each card has 4 digits and there are 3 cards, so there are 12 total digits. The problem is the cards have single digits 0-9.
+4. **Calculate the sum of all digits:** The sum of the 10 digits is 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45. The difference between the sum of total digits with 12 digits and the existing sum is 10126 - 22 = 10104 which is not possible with three number, so we need to use another method.
+5. **Identify the sum of the known digits:** The sum of the three numbers given is 10126. Let's consider the cards as numbers:
+    * Card 1: 1243
+    * Card 2: 21_ _
+    * Card 3: _ _ 26
+6. **Finding the missing digits:**
+    * 1243 is known, so it contribute by 1243.
+    * _1_ _
+    * _ _26
+7. **Analyzing the sum:** We know the total sum of these three numbers should be 10126.
+   1243 + _1_ _ + _ _26 = 10126
+8. **Finding the sum of each card:**
+   *   Let the second number be 21AB, and the third number be CD26
+    1243 + 21AB + CD26 = 10126
+    21AB + CD26 = 8883
+9.  **Estimating possible missing digits based on the given options:** From the options provided, we can test by guessing.
+  *   A) 5, 6, 7: The missing numbers would be 5, 6 and 7.
+        Let's create some numbers
+        1243
+        2157
+         6726
+        sum is 15126.
+  *   B) 4, 5, 7: The missing numbers would be 4, 5 and 7.
+        1243
+        2157
+        4726
+        Sum = 8126
+  *   C) 4, 6, 7:
+       * 1243 + 2147 + 6726 = 10116
+  *   D) 4, 5, 6:
+        1243
+        2145
+         6526
+        Sum = 9914.
+  *   E) 3, 5, 6: The missing numbers would be 3, 5, and 7
+        1243
+        2135
+        5626
+        Sum = 9004
+      However, we need to find digits that sum close to 10126.
+     If we have missing digits 4, 6 and 7:
+        1243 + 2147 + 6726 = 10116, almost 10126
+        So the missing digits are 4, 6 and 7.
+Resposta: C) 4, 6 i 7

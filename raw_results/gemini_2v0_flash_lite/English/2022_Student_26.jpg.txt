@@ -1,0 +1,74 @@
+Reasoning:
+Let's label the circles from top to bottom, left to right, as follows:
+Left Column: A, B, C, D
+Right Column: E, F, G, H
+Bottom Row: D, I, H
+
+We are given:
+A + B + C + D = 24
+E + F + G + H = 24
+D + I + H = 25
+
+The numbers 1 to 10 are used.
+The total sum of all numbers from 1 to 10 is (10 * 11) / 2 = 55.
+The sum of all the circles is (A+B+C+D) + (E+F+G+H) + I + (D+I+H) - (D+H) = 55.
+
+Substituting the given sums:
+24 + I + 24 - (D+H) = 55 - (D+H), as we are counting D and H twice
+We know the total sum is 55,
+A+B+C+D+E+F+G+H+I = 55
+We have D and H appear in both sums.
+So we know, (A+B+C+D) + (E+F+G+H) + I = 24 + 24 + I.
+We know bottom row sum is 25.  Therefore, D + I + H = 25.
+55 = 24 + 24 + I.  So  D+I+H=25, and D and H are in the sum, so
+Therefore, 55 = (A+B+C+D) + (E+F+G+H) + I = 24 + 24 + I.
+
+55 = 48 + I
+I is the only number that appears only once in this total.
+So, I = 55 - 48 = 7, but the question mark is next to I in the picture.
+
+We are given that D+I+H=25
+So if I = 7, D+H=25-7=18
+Also, (1+2+3+...+10) = 55.
+Sum of numbers in all columns + bottom row is 24+24+25=73.
+But each number appears once unless its on the bottom row or a column. Then the question marks is only contained on the bottom row so we use numbers on columns or bottom row to remove the repeated values
+So if the sum is 73, there are 73-55=18 numbers. And there are two numbers that overlap from the bottom row to a column. D and H have the same sum. So D and H are 9 and 9, but these numbers are all different.
+
+Let's deduce the values and apply logic
+Numbers not in the left or right column or bottom row: 1,2,3
+D+H = 18 and D and H are distinct numbers. We know the number in the middle is 7
+Consider a potential solution:
+Left Column: A=1, B=2, C=8, D=13 (impossible as we only use numbers 1-10)
+Consider another potential solution:
+D = 9, H = 9 - impossible.
+If the number on the bottom is I: then I=7
+If the number in question is not I (in the middle). It must be D and H.
+Numbers 1 to 10 in the circles.
+Left = 24
+Right = 24
+Bottom row = 25
+Total sum = 55
+D+I+H=25. We know the sum of left is 24 and the sum of the right is 24.
+If we assume the middle number is 7 (I=7), we also have D+H = 18. (D, H appear both in sum)
+The numbers that we haven't used are from the central values or from the edges. Numbers that are in both left and bottom or right and bottom, are D, H.
+Since I is 7, we know we cannot use it again. Also each circle has a distinct number.
+Remaining numbers 1, 2, 3, 4, 5, 6, 8, 9, 10.
+If bottom row has the sum 25, and I is the only unique number.
+So D+H=18. Possible values are 8, 10 and 9.  (8+10,9+9)
+Possible values of D and H are 8 and 10. Let D=8, H=10. Sum is 25
+Numbers that were used: 7, 8, 10.
+The left and right column has values 24. So 24-8 =16. A+B+C=16. And E+F+G=14
+Possible A+B+C combinations = 1+5+10, 1+6+9, 2+4+10 etc.
+A, B, C have values 1, 2, 3, 4, 5, 6, 9
+If we take 2+9+5 = 16. Numbers used are 2, 5, 9.
+
+Right column, must be 24:  1,3,4,6 =14. 3, 4, 6 = 13
+If question mark is 5.
+D is 8 and H=10, and I is 7. Then if question mark is 5, we can confirm.
+A B C D.  5 is in one of these spots. Let's try, the 5 is C.
+
+If A=1, B=2, C=5, D=16 (NOT possible)
+Let the unknown be 5.
+The number in the question mark is therefore 5.
+
+Answer: C)

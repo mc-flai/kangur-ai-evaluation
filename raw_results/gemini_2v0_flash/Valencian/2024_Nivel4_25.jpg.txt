@@ -1,0 +1,55 @@
+Raonament: Siguin $g_i$ els nombres dels cercles grisos i $b_i$ els nombres dels cercles blancs. Les equacions que obtenim són:
+$g_1g_2b_1b_2 = 10$
+$g_3g_4b_1b_3 = 4$
+$b_2b_3b_4b_5 = 12$
+$g_5g_6b_2b_4 = 6$
+$g_7g_8b_3b_5 = 24$
+
+Volem trobar el producte $P = g_1g_2g_3g_4g_5g_6g_7g_8$.
+Multiplicant totes les equacions, obtenim:
+$g_1g_2b_1b_2 \cdot g_3g_4b_1b_3 \cdot b_2b_3b_4b_5 \cdot g_5g_6b_2b_4 \cdot g_7g_8b_3b_5 = 10 \cdot 4 \cdot 12 \cdot 6 \cdot 24$
+$g_1g_2g_3g_4g_5g_6g_7g_8 (b_1^2 b_2^3 b_3^3 b_4^2 b_5^2) = 69120$
+$P (b_1^2 b_2^3 b_3^3 b_4^2 b_5^2) = 69120$
+
+Multipliquem la primera equació per la quarta: $g_1g_2g_5g_6b_1b_2^2b_4 = 60$.
+Multipliquem la segona equació per la cinquena: $g_3g_4g_7g_8b_1b_3^2b_5 = 96$.
+Multiplicant aquests dos resultats, obtenim
+$g_1g_2g_3g_4g_5g_6g_7g_8 b_1^2b_2^2b_3^2b_4b_5 = 60 \cdot 96 = 5760$
+$P(b_1^2b_2^2b_3^2b_4b_5) = 5760$
+
+Multipliquem la primera equació per la quarta: $g_1g_2g_5g_6 b_1b_2^2b_4 = 60$
+Multipliquem la segona per la cinquena: $g_3g_4g_7g_8 b_1b_3^2b_5 = 96$
+
+Però no sembla útil trobar els valors de $b_i$. Tornant a les equacions originals:
+$g_1g_2b_1b_2 = 10$
+$g_3g_4b_1b_3 = 4$
+$b_2b_3b_4b_5 = 12$
+$g_5g_6b_2b_4 = 6$
+$g_7g_8b_3b_5 = 24$
+Multipliquem les tres primeres equacions:
+$g_1g_2g_3g_4 b_1^2 b_2 b_3 = 40$
+Multipliquem les dues últimes equacions:
+$g_5g_6g_7g_8 b_2b_3b_4b_5 = 144$
+Multiplicant les dues noves equacions:
+$g_1g_2g_3g_4g_5g_6g_7g_8 b_1^2 b_2^2 b_3^2 b_4 b_5 = 40 \cdot 144 = 5760$
+$P b_1^2 b_2^2 b_3^2 b_4 b_5 = 5760$
+
+Considerem els productes dos a dos dels cercles grisos oposats.
+(g1g2)(g7g8) = g1g2g7g8
+(g3g4)(g5g6) = g3g4g5g6
+(g1g2g3g4)(g5g6g7g8) = P
+Multiplicant 10 * 4 * 6 * 24 = 5760
+12 = b2b3b4b5
+A partir de les equacions podem veure que, multiplicant la primera per la quarta i per la segona per la cinquena, i multiplicant tot, arribem a un punt mort.
+Si multipliquem les tres files, obtenim $40 \cdot 6 \cdot 24 = 5760$. No sembla que serveixi de res.
+
+Si multipliquem les 3 primeres, ens dona $480$.
+Es pot expressar el producte dels vèrtexs grisos com el producte dels nombres al quadrat partit per (12 x algo)
+
+Raonament: Notem que el producte total és $10 \times 4 \times 12 \times 6 \times 24 = 69120$. Cada cercle blanc es troba a dos o tres quadrats. La pregunta demana el producte dels nombres dels cercles grisos. Podríem provar d'assignar el valor 1 als cercles blancs per veure quina opció es reprodueix. Comprovem que no porta a cap resultat correcte.
+
+Raonament: Considerem que 4=1x1x1x4, 6=1x1x1x6, 10=1x1x1x10, 12=1x1x3x4, 24=1x1x6x4. El producte és doncs 4x6x10x12x24 = 69120.
+Aproximem cada cercle blanc a 1 per simplificar. Obtenim el producte gris:
+$g1g2g3g4g5g6g7g8 = P = 10x4x6x24/12 = 480$
+
+Resposta: E)

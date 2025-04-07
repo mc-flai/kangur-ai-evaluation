@@ -1,0 +1,19 @@
+### Reasoning:
+1. We know that each square borders 4 triangles.
+2. Each triangle borders 3 squares.
+3. The polyhedron has 6 squares.
+
+Let's denote the number of triangles as T and the number of squares as S. We are given that S = 6.
+
+From the problem, each square borders 4 triangles, so the total number of triangle borders around squares is 4S. Since each triangle also borders 3 squares, the total number of square borders around triangles is 3T.
+
+Since each border is shared between two polygons, we can set up the following equation:
+\[ 4S = 3T \]
+
+Substituting the given value of S (6 squares):
+\[ 4 \times 6 = 3T \]
+\[ 24 = 3T \]
+\[ T = \frac{24}{3} \]
+\[ T = 8 \]
+
+### Answer: D)

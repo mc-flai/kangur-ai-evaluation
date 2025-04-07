@@ -1,0 +1,9 @@
+Reasoning: Let $n$ be the number of numbers Cedric wrote. Let $S$ be the sum of the numbers Cedric wrote. We are given that $S = 22$.
+Rita subtracts each number from 7. So, if the numbers Cedric wrote are $x_1, x_2, ..., x_n$, then the numbers Rita has are $7-x_1, 7-x_2, ..., 7-x_n$. The sum of the numbers Rita has is 34.
+So, $(7-x_1) + (7-x_2) + ... + (7-x_n) = 34$.
+We can write this as $7n - (x_1 + x_2 + ... + x_n) = 34$.
+Since $x_1 + x_2 + ... + x_n = S = 22$, we have $7n - 22 = 34$.
+$7n = 34 + 22 = 56$.
+$n = 56/7 = 8$.
+
+Answer: B)

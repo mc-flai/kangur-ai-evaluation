@@ -1,0 +1,18 @@
+Per determinar la màxima quantitat de segells disponible de 6 i 7 euros que no permet pagar les 6 i 7 euros, necessitem trobar el número més gran que no es pot expressar com una combinació lineal d'aquests dos valors.
+
+Procediment:
+1. El número més gran que no es pot expressar com una combinació lineal de dos nombres naturals a i b es conegut com el "nombre de Frobenius" i es calcula com:
+   \[
+   \text{Frobenius}(a, b) = ab - a - b
+   \]
+
+2. En aquest cas, a = 6 i b = 7, per tant:
+   \[
+   \text{Frobenius}(6, 7) = 6 \times 7 - 6 - 7 = 42 - 6 - 7 = 29
+   \]
+
+Per tant, el número més gran que no es pot expressar com una combinació de segells de 6 i 7 euros és 29.
+
+Raonament: Utilitzant la fórmula del nombre de Frobenius, hem calculat el número més gran que no es pot expressar amb els segells donats, resultant en 29.
+
+Resposta: B)

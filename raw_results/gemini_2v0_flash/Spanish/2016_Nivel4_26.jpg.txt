@@ -1,0 +1,39 @@
+Razonamiento: La pregunta 26 dice: Dado un número natural N, se suman las cifras de N y de N². ¿Cuál de los siguientes valores NO puede ser el resultado obtenido?
+
+Podemos probar con algunos valores.
+Si N = 1, N^2 = 1, la suma es 1+1 = 2.
+Si N = 2, N^2 = 4, la suma es 2+4 = 6.
+Si N = 3, N^2 = 9, la suma es 3+9 = 12.
+Si N = 9, N^2 = 81, la suma es 9+8+1 = 18.
+Si N = 10, N^2 = 100, la suma es 1+0+1+0+0 = 2.
+Si N = 11, N^2 = 121, la suma es 1+1+1+2+1 = 6.
+Si N = 12, N^2 = 144, la suma es 1+2+1+4+4 = 12.
+
+Es sabido que la suma de las cifras de un número tiene el mismo resto que el número módulo 9. Así, la suma de las cifras de N y N^2 es congruente con N + N^2 módulo 9. N + N^2 = N(1+N). Si N = 9k + r, entonces N(N+1) = (9k+r)(9k+r+1) = 81k^2 + 9kr + 729k + r(r+1) congruente con r(r+1) módulo 9.
+Los posibles valores de r son 0,1,2,3,4,5,6,7,8. Entonces r(r+1) puede ser 0, 2, 6, 12 (3), 20(2), 30(3), 42(6), 56(2), 72(0).
+r(r+1) módulo 9 puede ser 0, 2, 3, 6.
+Ahora, los valores que debemos analizar módulo 9 son:
+98 mod 9 = 8
+99 mod 9 = 0
+100 mod 9 = 1
+101 mod 9 = 2
+102 mod 9 = 3
+Como 8, 1 no están en {0, 2, 3, 6}, entonces no pueden ser la suma de las cifras de N y N^2.
+En cambio, 0, 2, 3 sí pueden ser la suma de las cifras de N y N^2.
+Entonces la respuesta correcta es A (98) y C (100).
+
+Si N = 44. N^2 = 1936. Suma de dígitos de N = 8, Suma de dígitos de N^2 = 1+9+3+6 = 19. 8+19=27
+Si N = 45. N^2 = 2025. Suma de dígitos de N = 9, Suma de dígitos de N^2 = 2+0+2+5 = 9. 9+9 = 18
+Si N = 46. N^2 = 2116. Suma de dígitos de N = 10, Suma de dígitos de N^2 = 2+1+1+6 = 10. 10+10=20
+Si N = 47. N^2 = 2209. Suma de dígitos de N = 11, Suma de dígitos de N^2 = 2+2+0+9 = 13. 11+13=24
+Si N = 48. N^2 = 2304. Suma de dígitos de N = 12, Suma de dígitos de N^2 = 2+3+0+4 = 9. 12+9=21
+Si N = 49. N^2 = 2401. Suma de dígitos de N = 13, Suma de dígitos de N^2 = 2+4+0+1 = 7. 13+7=20
+Si N = 100. N^2 = 10000. 1+0+1+0+0+0+0 = 2.
+Si N = 101. N^2 = 10201. 1+0+1+1+0+2+0+1 = 6.
+
+En general, la suma de dígitos de N y N^2 es de la forma 9k, 9k+1, 9k+2.
+Por tanto, la respuesta es A.
+
+Razonamiento: Después de analizar las propiedades de la suma de dígitos de N y N^2, y realizar algunas pruebas, podemos deducir que 98 no puede ser el resultado obtenido.
+
+Respuesta: A)

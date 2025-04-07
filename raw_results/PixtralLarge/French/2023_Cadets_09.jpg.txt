@@ -1,0 +1,38 @@
+Pour analyser la question 9, il faut déterminer quelles formes permettent de paver sans chevauchement ni dépassement un rectangle de 4 sur 6. Examinons chaque forme proposée.
+
+1. **Forme A)** : Cette forme est un carré de 2x2. En utilisant cette forme, nous pouvons paver le rectangle 4x6 en le divisant en plusieurs groupes de 2x2.
+
+   - Divisons le rectangle 4x6 en deux rectangles 4x3.
+   - Chaque rectangle 4x3 peut être divisé en six carrés de 2x2.
+   - Chaque forme A peut remplir un carré de 2x2.
+   - Donc, six formes A peuvent paver un rectangle 4x3, et douze formes A peuvent paver le rectangle 4x6.
+
+2. **Forme B)** : Cette forme est un L de 3 cases.
+
+   - Essayons de paver le rectangle de 4x6 en utilisant cette forme.
+   - La forme B occupe 3 cases et ne peut pas être utilisée pour paver le rectangle de 4x6 sans laisser des espaces vides ou des chevauchements.
+   - Donc, la forme B ne permet pas de paver le rectangle 4x6 sans chevauchement ni dépassement.
+
+3. **Forme C)** : Cette forme est un L de 3 cases avec une orientation différente de B.
+
+   - De la même manière que la forme B, cette forme occupe 3 cases.
+   - Elle ne peut pas être utilisée pour paver le rectangle de 4x6 sans laisser des espaces vides ou des chevauchements.
+   - Donc, la forme C ne permet pas de paver le rectangle 4x6 sans chevauchement ni dépassement.
+
+4. **Forme D)** : Cette forme est un T de 4 cases.
+
+   - La forme D occupe 4 cases et peut être utilisée pour paver le rectangle de 4x6.
+   - En divisant le rectangle 4x6 en groupes de 4 cases, chaque groupe peut être rempli par une forme D.
+   - Le rectangle 4x6 contient 24 cases, donc six formes D peuvent paver le rectangle 4x6.
+
+5. **Forme E)** : Cette forme est un rectangle de 1x4.
+
+   - En utilisant cette forme, nous pouvons paver le rectangle 4x6 en le divisant en rectangles de 1x4.
+   - Le rectangle 4x6 peut être divisé en six rectangles de 1x4.
+   - Chaque forme E peut remplir un rectangle de 1x4.
+   - Donc, six formes E peuvent paver le rectangle 4x6.
+
+Après analyse, les formes A, D et E permettent de paver le rectangle 4x6 sans chevauchement ni dépassement. La question demande laquelle de ces formes le permettent, donc il n'y a pas qu'une seule réponse correcte. Toutes ces formes sont valables.
+
+Raisonnement : Les formes A, D et E permettent de paver le rectangle 4x6 sans chevauchement ni dépassement.
+Réponse : A), D) et E).

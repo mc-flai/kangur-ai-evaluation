@@ -1,0 +1,15 @@
+
+La pregunta 30 describe un cub de Rubik de 3x3x3, donde cada cara tiene 9 cubos pequeños (3x3). El cubo negro inicialmente tiene todos sus cubos negros. El primer día, el cubo negro cambia de color con todos los cubos negros que tocan una cara común. El segundo día, los cubos negros se vuelven a cambiar de color con los cubos blancos que están a su lado. La pregunta solicita el número de cubos negros después del segundo día.
+
+Para resolver esto, consideremos el proceso paso a paso:
+
+1. **Primer Día**: El cubo negro cambia de color con todos los cubos negros que tocan una cara común. Esto afecta a los cubos negros en la primera capa.
+2. **Segundo Día**: Los cubos negros que cambiaron de color en el primer día ahora se vuelven a cambiar de color con los cubos blancos adyacentes. Esto afecta a los cubos blancos adyacentes a los cubos negros que cambiaron de color en el primer día.
+
+Para determinar el número de cubos negros después del segundo día, observamos que cada cubo negro en la primera capa cambia de color y afecta a los cubos blancos adyacentes. Esto significa que cada cubo negro en la primera capa afecta a 6 cubos blancos adyacentes.
+
+El cubo tiene 6 caras, y cada cara tiene 9 cubos pequeños. Por lo tanto, hay 6 * 9 = 54 cubos pequeños en total. Después del segundo día, todos los cubos negros en la primera capa se habrán cambiado de color y afectarán a los cubos blancos adyacentes.
+
+Por lo tanto, el número de cubos negros después del segundo día es 17.
+
+**Respuesta: E)**

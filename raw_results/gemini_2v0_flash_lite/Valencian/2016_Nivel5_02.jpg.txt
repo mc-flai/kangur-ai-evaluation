@@ -1,0 +1,16 @@
+Raonament:
+1. **Calcula el total de partits jugats**: Amb 5 equips, cada equip juga contra els altres 4 una vegada. Això fa un total de (5 * 4) / 2 = 10 partits.
+2. **Calcula els punts totals obtinguts**: Suma els punts de tots els equips: 10 + 7 + 5 + 4 + 1 = 27 punts.
+3. **Punts en partits amb un guanyador**: En cada partit amb un guanyador, es donen 3 punts (3 al guanyador i 0 al perdedor).
+4. **Punts en partits empatats**: En cada partit empatat, es donen 2 punts (1 a cada equip).
+5. **Establir equacions**: Siguin *x* el nombre de partits amb guanyador i *y* el nombre de partits empatats. Tenim dues equacions:
+   *   x + y = 10 (nombre total de partits)
+   *   3x + 2y = 27 (punts totals)
+6. **Resoldre el sistema**: Multipliquem la primera equació per 2 i la restem de la segona equació:
+   *   3x + 2y - 2(x + y) = 27 - 2(10)
+   *   3x + 2y - 2x - 2y = 27 - 20
+   *   x = 7
+   *   y = 10 - 7 = 3
+7. **Trobar el nombre de partits empatats**: El valor de *y* representa el nombre de partits que han acabat en empat.
+
+Resposta: A)

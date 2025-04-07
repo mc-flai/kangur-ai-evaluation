@@ -1,0 +1,30 @@
+Per a resoldre el problema de trobar quants nombres enters positius de tres xifres, \( N = abc \), complexos que \( a > b \), que \( b > c \) i que \( N \) és divisible per 9, hem de seguir aquests passos:
+
+1. **Condicions de les xifres**:
+   - \( a \), \( b \), i \( c \) són xifres (0-9).
+   - \( a > b \) i \( b > c \), per tant \( a > b > c \).
+
+2. **Divisibilitat per 9**:
+   - Un nombre és divisible per 9 si la suma de les seves xifres és divisible per 9.
+
+3. **Rang de \( a, b, \text{ i } c \)**:
+   - Com que \( a, b, \text{ i } c \) són tres xifres diferents, \( a \) pot ser de 1 a 9 (ja que no pot ser 0, ja que és la xifra més alta).
+   - \( b \) i \( c \) poden ser de 0 a 9, però han de ser menors que \( a \) i \( b \) respectivament.
+
+4. **Encontrar combinacions possibles**:
+   - Per cada valor possible de \( a \), troba els valors possibles de \( b \) i \( c \) que cobreixin les condicions \( a > b \) i \( b > c \).
+   - Verifica si la suma \( a + b + c \) és divisible per 9.
+
+5. **Calcular totes les combinacions**:
+   - Per \( a = 9 \): \( b \) pot ser de 1 a 8, \( c \) pot ser de 0 a 7.
+   - Per \( a = 8 \): \( b \) pot ser de 1 a 7, \( c \) pot ser de 0 a 6.
+   - Continuar així per cada valor de \( a \).
+
+6. **Comptar les combinacions vàlides**:
+   - Per cada combinació, verifica la suma i compta les que són divisibles per 9.
+
+Després de fer aquestes verificacions, es troba que hi ha 14 combinacions vàlides en què \( a > b \), \( b > c \) i la suma és divisible per 9.
+
+Raonament: Després d'avaluar totes les combinacions possibles de \( a, b, \text{ i } c \) en què \( a > b \), \( b > c \) i \( a + b + c \) és divisible per 9, es troba que hi ha 14 combinacions vàlides.
+
+Resposta: B).

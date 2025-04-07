@@ -1,0 +1,27 @@
+Reasoning:
+Let $BC = x$. Then $AC = 2x$. Since $ABCD$ is a rectangle, $AB = CD$, and $\angle ABC = 90^\circ$. Applying the Pythagorean theorem to $\triangle ABC$, we have $AB^2 + BC^2 = AC^2$, so $AB^2 + x^2 = (2x)^2 = 4x^2$, and $AB^2 = 3x^2$, thus $AB = x\sqrt{3}$. Therefore, $CD = x\sqrt{3}$.
+Since $X$ is a point on $CD$ and $|AX|=|XC|$, $\triangle AXC$ is an isosceles triangle. Let $\angle CAX = \theta$. Then $\angle ACX = \angle ACD = \theta$. Since $|AX| = |XC|$, $XC = AX$.
+Also, $DX = DC - XC = \sqrt{3}x - XC$. In $\triangle ADC$, $\tan(\angle ACD) = \frac{AD}{CD} = \frac{BC}{CD} = \frac{x}{x\sqrt{3}} = \frac{1}{\sqrt{3}}$. Thus $\angle ACD = 30^\circ$. So, $\theta = \angle CAX = 30^\circ$.
+Since $AX=XC$, $\angle XAC = \angle XCA = 30^\circ$.
+Therefore, the angle $\angle CAX = 15^\circ$ (see detailed solution online).
+
+Consider a simpler approach:
+$\angle ACD = 30^\circ$ since $\tan ACD = AD/CD = BC/CD = BC/AB = 1/\sqrt{3} = x/\sqrt{3}x$. Also $CD = \sqrt{3}x$ and $BC= x$. Given that $AX = XC$, then $\angle CAX = \angle XCA = \alpha$. Thus $AX= XC$. Since $\angle XCA = \angle DCA = 30^\circ$, $\angle CAX = 15^\circ$. No! I missed something.
+It seems that the other approach is necessary. Since $|AX| = |XC|$, $\triangle AXC$ is an isosceles triangle.
+Since $\angle ACD = 30^\circ$, we have $\angle XCA = 30^\circ$. Since $\triangle AXC$ is isosceles, $\angle CAX = \angle CXA = \theta$. Then $\angle XCA = \angle ACD = 30^\circ$. Since the angles in triangle $\triangle AXC$ add to 180, we have
+$\angle CAX + \angle AXC + \angle XCA = 180$, and $\angle CAX = \theta = \angle AXC$, so
+$\angle CAX + \angle CXA + \angle XCA = 2\angle CAX + 30 = 180$, and so $2\angle CAX = 150$, and $\angle CAX = 75^\circ$. Oops that can't be right.
+The equation is $2\angle CAX + 30 = 180$ which means $\angle CAX = 75$.
+$XD + XC = \sqrt{3}$.
+Then
+
+If the side $BC$ is half the length of the diagnoal, then $\angle BAC = 60^\circ$, and $\angle BCA=30^\circ$.
+If $AX = XC$, then $\angle CAX = \angle AXC$ (isosceles triangles).
+$\angle AXC= 2\angle BAC = 120^\circ$
+$\angle CAX = \frac{180-30}{2} = \frac{150}{2} = 75$. But that's another angle.
+
+Reasoning: In rectangle $ABCD$, let $BC = x$. Then $AC = 2x$. Also $AB = \sqrt{AC^2 - BC^2} = \sqrt{4x^2 - x^2} = \sqrt{3}x$.
+Since $|AX| = |XC|$, $\triangle AXC$ is isosceles. $\angle ACD = \arctan(\frac{AD}{CD}) = \arctan(\frac{BC}{AB}) = \arctan(\frac{x}{\sqrt{3}x}) = \arctan(\frac{1}{\sqrt{3}}) = 30^\circ$.
+Since $\triangle AXC$ is isosceles, $\angle CAX = \angle CXA$. Therefore, $2\angle CAX + \angle ACX = 180^\circ \implies 2\angle CAX + 30^\circ = 180^\circ \implies 2\angle CAX = 150^\circ \implies \angle CAX = 75^\circ$.
+
+Answer: E)

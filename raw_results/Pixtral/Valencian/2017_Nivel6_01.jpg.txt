@@ -1,0 +1,61 @@
+**Pregunta:** El producte de tres nombres és 140. Si el valor del segon nombre és 7 vegades el primer i el tercer nombre és més petit que el segon, quin és la suma dels tres nombres?
+
+**Opcions:**
+A) 19
+B) 21
+C) 28
+D) 43
+E) No es pot determinar.
+
+**Racionalització:**
+1. Denotem els tres nombres com a \( a \), \( b \), i \( c \), on \( a \) és el primer nombre, \( b \) és el segon nombre i \( c \) és el tercer nombre.
+2. Sabem que el producte dels tres nombres és 140, així que tenim l'equació:
+   \[
+   a \times b \times c = 140
+   \]
+3. Especifica que el segon nombre \( b \) és 7 vegades el primer nombre \( a \):
+   \[
+   b = 7a
+   \]
+4. Especifica que el tercer nombre \( c \) és més petit que el segon nombre \( b \):
+   \[
+   c < b
+   \]
+5. Substituïm \( b \) en l'equació del producte:
+   \[
+   a \times 7a \times c = 140
+   \]
+   Simplificant, obtenim:
+   \[
+   7a^2 \times c = 140
+   \]
+6. Resollem per \( c \):
+   \[
+   c = \frac{140}{7a^2}
+   \]
+7. Com \( c \) és més petit que \( b \) i \( b = 7a \), substituïm \( b \) en l'equació:
+   \[
+   c < 7a
+   \]
+   i
+   \[
+   c = \frac{140}{7a^2}
+   \]
+8. Per trobar valors que satisfacin aquesta condició, provem diferents valors de \( a \):
+   - Si \( a = 2 \):
+     \[
+     b = 7 \times 2 = 14
+     \]
+     \[
+     c = \frac{140}{7 \times 2^2} = \frac{140}{28} = 5
+     \]
+     Aquí, \( c = 5 \) és més petit que \( b = 14 \), i el producte és:
+     \[
+     2 \times 14 \times 5 = 140
+     \]
+     La suma dels tres nombres és:
+     \[
+     2 + 14 + 5 = 21
+     \]
+
+**Resposta:** B)

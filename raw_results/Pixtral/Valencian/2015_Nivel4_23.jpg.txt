@@ -1,0 +1,15 @@
+**Pregunta:** Volem un conjunt de nombres naturals consecutius més petits que 50 de manera que el resultat del producte sigui un nombre acabat en 00 (exactament, en dos zeros i no en tres zeros). Quantes possibilitats tenim per a aconseguir aquest objectiu?
+
+A) 16
+B) 15
+C) 14
+D) 13
+E) 12
+
+**Racionalització:**
+1. Per obtenir un nombre acabat en 00, el producte dels nombres ha de ser divisible per 100. Això significa que el producte ha de ser divisible per 2^2 i per 5^2.
+2. Per assegurar que el producte és divisible per 100, almenys dos dels nombres han de ser múltiples de 5, i almenys dos han de ser múltiples de 2.
+3. Considerem els conjunts de nombres consecutius més petits que 50. Per exemple, el conjunt {48, 49, 50} és divisible per 100 perquè 48 i 50 són múltiples de 5.
+4. Cal comptar tots els conjunts de nombres consecutius més petits que 50 que compleixen aquesta condició.
+
+**Resposta:** C)

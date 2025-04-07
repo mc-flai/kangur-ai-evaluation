@@ -1,0 +1,22 @@
+Reasoning: The question asks for the smallest integer mean of five distinct prime numbers. To minimize the mean, we should use the smallest prime numbers. The first five prime numbers are 2, 3, 5, 7, and 11. Their sum is 2 + 3 + 5 + 7 + 11 = 28. The mean is 28 / 5 = 5.6, which is not an integer. We need to find another combination.
+
+Since one of the numbers must be even to have an integer, 2 must be one of the primes used.
+Let's try using 2, 3, 5, 7, 13. The sum is 30, the mean is 6.
+Let's try using 2, 3, 5, 11, 17. The sum is 38, which does not work.
+Let's try another set 2, 3, 7, 11, 17 the sum is 40, the mean is 8
+Let's try another set 2, 5, 7, 11, 13 the sum is 38, which does not work.
+
+Now, we need an integer. If we include 2:
+Try 2 + 3 + 5 + 7 + 13 = 30, mean is 6
+If we include 2:
+Try 2 + 3 + 5 + 11 + 19 = 40, mean is 8.
+If we don't include 2:
+Try 3 + 5 + 7 + 11 + 13 = 39, mean is not an integer.
+If we don't include 2:
+Try 5 + 7 + 11 + 13 + 17 = 53, mean is not an integer.
+Try 3 + 5 + 7 + 11 + 17 = 43, mean is not an integer.
+
+For the mean to be an integer, the sum must be divisible by 5.
+The sum of 2, 3, 5, 7, 13 = 30. The mean is 6.
+
+Answer: B)

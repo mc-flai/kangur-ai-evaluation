@@ -1,0 +1,32 @@
+Para resolver esta pregunta, primero necesitamos entender los valores de las cartas.
+
+Nadia tiene 3 cartas con valores multiplicados por 3. Las cartas posibles que podrían ser multiplicadas por 3 y obtener resultados enteros positivos son 3, 6, 9 y 12. Al multiplicar estos valores por 3, obtenemos:
+- 3 x 3 = 9
+- 6 x 3 = 18
+- 9 x 3 = 27
+- 12 x 3 = 36
+
+Raúl tiene 2 cartas con valores sin multiplicar. Las cartas posibles que podrían estar en su mano y tener un valor que no sea múltiplo de 3 son 1, 2, 4, 5, 7, 8, 10, 11.
+
+La suma de los valores de sus cartas debe ser un número primo. Considerando las cartas posibles para Raúl y Nadia, probemos combinaciones:
+
+Para que la suma total de las cartas sea un número primo, podemos probar diferentes combinaciones:
+
+- Si Nadia tiene cartas 3, 6 y 9, la suma sería: (3 * 3) + 6 + 9 = 9 + 6 + 9 = 24 (no es primo)
+- Si Nadia tiene cartas 3, 6 y 12, la suma sería: (3 * 3) + 6 + (12 * 3) = 9 + 6 + 36 = 51 (no es primo)
+- Si Nadia tiene cartas 3, 9 y 12, la suma sería: (3 * 3) + (9 * 3) + (12 * 3) = 9 + 27 + 36 = 72 (no es primo)
+- Si Nadia tiene cartas 6, 9 y 12, la suma sería: (6 * 3) + (9 * 3) + (12 * 3) = 18 + 27 + 36 = 81 (no es primo)
+
+Entonces, consideremos diferentes combinaciones de Raúl:
+
+- Si Raúl tiene cartas 1 y 2, la suma sería: 1 + 2 = 3
+- Si Raúl tiene cartas 1 y 5, la suma sería: 1 + 5 = 6
+- Si Raúl tiene cartas 2 y 5, la suma sería: 2 + 5 = 7 (primo)
+
+La combinación que hace que la suma total sea un número primo es cuando Nadia tiene cartas 3, 6 y 9 (suma 24) y Raúl tiene cartas 2 y 5 (suma 7).
+
+La suma de los valores de las cartas de Nadia es 3 + 6 + 9 = 18.
+
+Razonamiento: La suma de los valores de las cartas de Nadia es 18, ya que es la única combinación que permite que la suma total de las cartas sea un número primo con las cartas de Raúl.
+
+Respuesta: E) 18.

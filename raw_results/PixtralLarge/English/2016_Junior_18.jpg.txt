@@ -1,0 +1,32 @@
+**Reasoning**:
+1. The sum of all the numbers on the cards is calculated as follows:
+   1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
+2. The difference between Eva's sum and Ali's sum is 31. Therefore, the combined sum of Eva's and Ali's numbers is:
+   255 - 31 = 224
+3. Since Eva's sum is 31 more than Ali's, we can set up the equation:
+   Eva's sum + Ali's sum = 224
+   Let Eva's sum be E and Ali's sum be A. Then:
+   E = A + 31
+   E + A = 224
+4. Substitute E in the second equation:
+   (A + 31) + A = 224
+   2A + 31 = 224
+   2A = 224 - 31
+   2A = 193
+   A = 193 / 2
+   A = 96.5
+5. Since Eva's sum is 31 more than Ali's:
+   E = 96.5 + 31
+   E = 127.5
+6. To verify, let's check if 193 (2A) envelopes add up to 255 and if the numbers can be split correctly. Since 2A = 193 is not an integer, we need to reconsider the integer division split:
+   2A = 224 - 31 = 193, so A = 96.5 doesn't make sense.
+7. Instead, calculate correctly:
+   (128 + 64 + 32 = 224)
+   (1 + 2 + 4 + 8 + 16 = 31)
+   Eva's sum = 224
+   Ali's sum = 255 - 224 = 31
+8. To determine the number of envelopes Eva chose:
+   Eva's sum = 224 (128, 64, 32)
+   Eva's number of envelopes = 3
+
+**Answer**: B)

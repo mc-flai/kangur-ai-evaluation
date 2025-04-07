@@ -1,0 +1,30 @@
+1. **Understand the problem statement**: In the year 2014, all digits are different, and the last digit is bigger than the sum of the other three digits.
+
+2. **Identify the year and its digits**: The year in question is 2014, which has the digits 2, 0, 1, and 4.
+
+3. **Calculate the sum of the first three digits**: The sum of the digits 2, 0, and 1 is 2 + 0 + 1 = 3.
+
+4. **Compare the sum to the last digit**: The last digit is 4. The sum of the first three digits (3) is less than the last digit (4).
+
+5. **Check for other possible years**: Since the problem specifies "how many years ago was this last the case," we need to find the next year that satisfies the same condition where all digits are different and the last digit is greater than the sum of the other three digits.
+
+6. **Identify the next possible year**: The next year to check would be 1994 (the digits are 1, 9, 9, and 4). However, 1994 does not satisfy the condition because the digits are not all different. Similarly, check previous years:
+   - 1894: The digits are 1, 8, 9, and 4. The sum of 1 + 8 + 9 = 18, which is greater than 4.
+   - 1794: The digits are 1, 7, 9, and 4. The sum of 1 + 7 + 9 = 17, which is greater than 4.
+   - 1694: The digits are 1, 6, 9, and 4. The sum of 1 + 6 + 9 = 16, which is greater than 4.
+   - 1594: The digits are 1, 5, 9, and 4. The sum of 1 + 5 + 9 = 15, which is greater than 4.
+   - 1494: The digits are 1, 4, 9, and 4. The digits are not all different.
+   - 1394: The digits are 1, 3, 9, and 4. The sum of 1 + 3 + 9 = 13, which is greater than 4.
+   - 1294: The digits are 1, 2, 9, and 4. The sum of 1 + 2 + 9 = 12, which is greater than 4.
+   - 1194: The digits are 1, 1, 9, and 4. The digits are not all different.
+   - 1094: The digits are 1, 0, 9, and 4. The sum of 1 + 0 + 9 = 10, which is greater than 4.
+
+   Therefore, the next valid year before 2014 is 1049 (the digits are 1, 0, 4, and 9). The sum of 1 + 0 + 4 = 5, which is less than 9.
+
+7. **Calculate the number of years ago**: The year 1049 is 2014 - 1049 = 965 years ago.
+
+8. **Select the correct answer**: The closest given option to 965 years ago is 485.
+
+Reasoning: The year 2014 satisfies the condition that all digits are different and the last digit is bigger than the sum of the other three digits. The next year before 2014 that satisfies this condition is 1049, which is 965 years ago. The closest given option is 485 years ago.
+
+Answer: E).

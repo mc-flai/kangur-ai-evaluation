@@ -1,0 +1,26 @@
+Raisonnement : La question décrit une bande de 8 cases. La somme de deux cases voisines est soit S, soit S+1. La case de départ et la case finale sont 2021. On a une succession de S et S+1. L'image montre une configuration possible : 2021, S+1, S, S+1, S, S+1, S, 2021.  La somme de 2021 et la case suivante est S+1, donc la case suivante est S+1-2021.  La somme de cette case et de la suivante est S. La configuration suggère que la suite est de la forme 2021, X, Y, X, Y, X, Y, 2021 où X+2021=S+1 et X+Y=S. On peut en déduire la valeur de S. La somme de chaque paire de cases est S ou S+1. Il y a 7 paires. Si l'on regarde la configuration, on a : 2021+(S+1-2021)=S+1, S+1-2021+Y=S, Y+(S+1-2021)=S etc. En considérant les cas où S+1 est la somme de deux cases, nous avons trois paires de cases qui donnent S+1 comme somme, et quatre paires de cases qui donnent S comme somme, ou l'inverse.  Dans tous les cas, la somme des deux cases voisines de l'extrémité doit être S+1. Si on regarde le diagramme, on a  2021 + X = S+1 et Y+2021 = S+1 où X+Y=S. 
+Si on reprend la configuration, on a 3 fois S+1 et 2 fois S. On peut écrire l'équation : 2021 + X = S+1,  S, Y, S, X, S, Y, 2021.
+Si on considère que la somme S+1 est la somme de deux cases voisines. On a 2021+x = S+1. La somme totale serait 2021 +x + y +z +u +v +w+2021 = 4S+3(S+1) donc 4042+3(S+1)+S = 4042. On sait qu'il y a 3 S+1 et 4 S, soit 3(S+1) + 4S = 7 cases entre les deux 2021, donc 2021 + (S+1-2021) + ... + 2021. Puisque la somme des paires vaut S ou S+1, et on commence et termine par la somme S+1, on a 3 fois S+1 et 4 fois S. On a donc 3(S+1) + 4S = 7 cases. La suite est: 2021, S+1-2021, S, S+1-S, S, S+1-S, S, 2021. 2021+(S+1-2021)=S+1. L'autre équation est : (S+1-2021)+S = S. Donc 3(S+1) + 4S = 7 cases. On a que 2021+(S+1-2021) = S+1. Puisque la somme des nombres est : S+1 + 2021 = 2S +2021+(S+1-2021) on peut conclure que les deux cas extrêmes sont S+1. Les autres paires ont la somme de S. On a donc 2021+x=S+1 et y+2021=S+1. x+y=S. L'équation totale est 3(S+1)+4S = Somme totale = 2021+x+y+....+ 2021. La somme de la suite est S, S+1, S, S+1, S, S+1, S. On a donc 4*S+3*(S+1) = Somme totale. S+1=x+2021. x+y = S. 2021+x = S+1. On trouve 2021 + X = S+1, X + Y = S. Si on considère S+1 comme la somme entre les deux nombres de chaque paire de cases. On aura 2021 + x = S+1, y + 2021 = S+1. X + Y = S. On a donc S = x + y. On remplace : 2021 + x= S+1. X = S+1-2021. Y = 2021 - 1. On peut écrire : 2021, (S+1-2021), S, ... . 2 cases S+1.  S+1 + S+1+ 2S+ 2S + 2S. 2021, x, y, x, y, x, y, 2021. 2021 + x = S+1 x+y=S, y+2021 = S+1. donc 2*2021 + 3S = 3S+4S. 3*(S+1) + 4S. 7 cases entre 2021. 2021 + X=S+1, y+2021=S+1. X+Y=S donc 2021, 2021 = 4042 + X + Y + X + Y + X + Y. 3(S+1) + 4S.
+
+Si on suppose que les sommes sont S, S+1, S, S+1, S, S+1, S alors on a 2021+x = S+1, et y+2021 = S+1, x+y = S.
+
+On considère la suite. 2021, X, Y, X, Y, X, Y, 2021. 2021 +X = S+1. X+Y = S. Y+2021=S+1. X= Y. Donc 2X=S. S+1= 2021+x.  S+1= x + 2021.
+Les 2021 doivent être en position X et Y, il doit y avoir 3 S+1 et 4 S. X+Y=S.
+2021, x, y, x, y, x, y, 2021. 2021+x=S+1. Y+2021=S+1. X+y=S.  S= 4043
+3*(S+1) +4S.  2021 + S+1 - 2021 + S+1 -2021 + S+1 -2021 + S + S + S + S.
+2021 + S+1-2021= S+1.
+
+2021, a, b, a, b, a, b, 2021. a+2021= S+1. b + 2021= S+1. 2021 + b = S+1
+
+On a la somme totale : 2021+x + y +x +y + x + y + 2021. 3x+3y+4042 = 3S + 4S = 7S.
+
+2021+X = S+1. On cherche S. X+Y=S.  Y+2021=S+1. X=Y.  3S + 3 + 4S. 3(S+1)+4S = 4042 + 2X + 2Y.
+2021 +X = S+1. X= S+1 - 2021. Y = S - X = 2021. Impossible.
+
+Si on suppose que la suite est S, S+1... on a 4 S et 3 S+1. 2021 + ...+2021.  3(S+1)+4S = somme des 8 cases. 2021+2021 = 4042. 4042 + x+y+z +u + v+ w.
+
+3S + 3 + 4S.  On a S+1 + S+1 + S +S +S + S = 4S + 2S + 2 = 6S + 2.  On cherche S. 4042 + 3S. On a 2021.  3(S+1)+4S=7S+3.
+
+4041
+
+Réponse : B)

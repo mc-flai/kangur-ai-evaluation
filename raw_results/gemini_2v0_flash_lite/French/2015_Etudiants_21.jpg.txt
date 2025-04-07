@@ -1,0 +1,18 @@
+Raisonnement :
+La question donne l'équation f(x) + 2f(2015/x) = 4x. Nous cherchons la valeur de f(5).
+1.  Remplaçons x par 5 dans l'équation donnée :
+    f(5) + 2f(2015/5) = 4 * 5
+    f(5) + 2f(403) = 20    (1)
+2.  Remplaçons x par 403 dans l'équation donnée :
+    f(403) + 2f(2015/403) = 4 * 403
+    f(403) + 2f(5) = 1612   (2)
+3.  Nous avons deux équations avec deux inconnues, f(5) et f(403).
+    De (1) :  2f(403) = 20 - f(5)  =>  f(403) = 10 - f(5)/2
+4.  Substituons dans (2) :
+    (10 - f(5)/2) + 2f(5) = 1612
+    10 + 3f(5)/2 = 1612
+    3f(5)/2 = 1602
+    3f(5) = 3204
+    f(5) = 3204/3 = 1068
+
+Réponse : C)

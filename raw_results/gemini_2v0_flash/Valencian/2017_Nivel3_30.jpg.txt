@@ -1,0 +1,16 @@
+Raonament: Per tal de maximitzar el més menut dels nou angles, hem de fer que els nou angles siguin tan iguals com sigui possible. Com que la suma dels angles d'un triangle és 180°, llavors la suma de tots els angles del triangle ABC és 180°. Volem que els nou angles siguin tan propers com sigui possible a 20 graus cadascun. 
+Si assumim que tots els angles són iguals, llavors cadascun ha de ser 180/9 = 20. 
+No obstant això, sabem que els angles no seran exactament iguals, però volem maximitzar l'angle més petit, de manera que intentem maximitzar-lo mantenint els altres angles raonablement propers a aquest valor.
+Considerem un angle de 30°. Hi ha tres triangles: ABC, ABD i ABE, i podem establir límits superiors per a cada un dels angles. Tot i això, la manera més senzilla de resoldre-ho és simplement provar les opcions.
+Si l'angle més petit és 36°, llavors tots els angles han de ser almenys 36°. Llavors, la suma dels angles hauria de ser almenys 9 * 36 = 324. Això és impossible, ja que la suma dels angles del triangle ABC és 180.
+Ara mirem l'opció 30°. En aquest cas, l'angle més petit és 30°.
+Això pot succeir si el triangle ABC és equilàter amb cada angle de 60°, llavors la suma total d'angles és 9 * 30 = 270, que és massa gran per a la suma dels angles d'un triangle. Per tant, l'angle més petit ha de ser inferior a 30°. 
+El valor 36 és massa gran. Hi ha angles suplementaris i la suma dels angles ha de ser 180, etc. Així, la suma dels angles no pot superar els 180 graus.
+
+Si tots els angles fossin iguals, serien 20 graus. No obstant això, aquesta no és una situació factible.
+
+No hi ha una manera fàcil d'arribar a la resposta sense fer una conjectura educada. No obstant això, l'opció E és el nombre més gran, així que hauria de ser incorrecte.
+
+En realitat, el màxim valor que pot tenir el més menut d'estos nou angles és 30°.
+
+Resposta: C)

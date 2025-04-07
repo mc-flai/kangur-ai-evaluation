@@ -1,0 +1,14 @@
+Reasoning:
+Let $b$ be the number of brothers and $s$ be the number of sisters.
+Every child has at least two brothers and one sister. This means that if a child is a boy, then there are at least two other boys and one girl. So there are at least three boys and one girl.
+If a child is a girl, then there are at least two boys and at least one other girl. So there are at least two boys and two girls.
+Combining these, we have at least three boys and one girl. Let there be 3 boys and 1 girl. Then each boy has 2 brothers and 1 sister, and the girl has 3 brothers and 0 sisters.
+So we need at least 3 boys and 2 girls. Then each boy has 2 brothers and 2 sisters, and each girl has 3 brothers and 1 sister. Thus there are $3+2=5$ children in the family.
+
+Reasoning:
+Let $B$ be the number of boys and $G$ be the number of girls.
+Each boy has at least two brothers and one sister. This means that $B \geq 3$ and $G \geq 1$.
+Each girl has at least two brothers and one sister. This means that $B \geq 2$ and $G \geq 2$.
+Therefore, $B \geq 3$ and $G \geq 2$. Thus the minimum number of children in the family is $3+2=5$.
+
+Answer: C)

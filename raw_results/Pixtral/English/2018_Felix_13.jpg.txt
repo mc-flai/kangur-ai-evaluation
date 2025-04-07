@@ -1,0 +1,28 @@
+
+Reasoning:
+1. Alice starts with 3 white, 2 black, and 2 grey pieces of paper.
+2. She cuts every piece of paper that is not black into two pieces. This affects the white and grey papers:
+   - White papers: 3 pieces become 3 * 2 = 6 pieces.
+   - Grey papers: 2 pieces become 2 * 2 = 4 pieces.
+3. She then halves every piece of paper that is not white. This affects the black and grey papers (since grey is not white):
+   - Black papers: 2 pieces become 2 * 0.5 = 1 piece.
+   - Grey papers: 4 pieces become 4 * 0.5 = 2 pieces.
+4. Summing up all the pieces:
+   - White: 6 pieces
+   - Black: 1 piece
+   - Grey: 2 pieces
+   Total = 6 + 1 + 2 = 9 pieces.
+
+However, the calculation seems to have an error. Let's re-evaluate the steps:
+
+1. White papers: 3 pieces become 3 * 2 = 6 pieces.
+2. Grey papers: 2 pieces become 4 pieces (since each grey paper is cut into two and then halved).
+3. Black papers remain unchanged: 2 pieces.
+
+Summing up all the pieces:
+- White: 6 pieces
+- Black: 2 pieces
+- Grey: 4 pieces
+Total = 6 + 2 + 4 = 12 pieces.
+
+Answer: C)

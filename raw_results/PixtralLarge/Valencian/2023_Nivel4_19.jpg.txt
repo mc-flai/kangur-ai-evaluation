@@ -1,0 +1,26 @@
+Per resoldre aquest problema, primer hem de comprendre les condicions donades i el format de la suma.
+
+La suma consisteix en tres nombres de tres xifres i un nombre de quatre xifres. Les lletres diferents representen dígits diferents i lletres iguals representen el mateix dígit. Volem determinar el valor de C perquè el resultat sigui el més petit possible.
+
+La suma és la següent:
+
+```
+  BEB
++ ACE
++ EDE
++ ABCB
+--------
+  BDBD
+```
+
+Observem que cada lletra és un dígit diferent i que l'últim nombre té quatre xifres, començant amb A. Perquè el resultat sigui el més petit possible, hem de buscar els valors més petits per a cada lletra sempre que siguin possibles.
+
+Comencem amb el valor de C, que és el dígit que volguem determinar. Notem que en la suma, C apareix en la segona posició del primer nombre (ACE) i en la tercera posició del tercer nombre (EDE).
+
+Perquè la suma sigui el més petita possible, el valor de C hauria de ser el més petit dels dígits disponibles. Com que les lletres representen dígits diferents, comencem amb el valor més petit que no és zero, ja que zero és una opció i està reservat per a una altra lletra (probablement B, com que apareix en la posició de les unitats del nombre BEB).
+
+Per tant, el valor més petit possible per a C, sense ser zero, és 1.
+
+Raonament: El valor més petit possible per a C, sense ser zero, és 1, perquè les lletres representen dígits diferents i hem de minimitzar el resultat de la suma.
+
+Resposta: B)

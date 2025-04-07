@@ -1,0 +1,12 @@
+### Raonament:
+
+1. **Definir els punts**: Els punts donats són \( P = (m, n) \), \( Q = (n, m) \), i \( O = (0, 0) \).
+2. **Calcular les distàncies**: La distància entre \( O \) i \( P \) és la distància entre l'origen i el punt \( (m, n) \), que es pot calcular com la longitud de la diagonal d'un quadrat de costat \( m \) o \( n \). Això és \( \sqrt{m^2 + n^2} \).
+3. **Calcular l'àrea del triangle**: L'àrea del triangle \( OPQ \) es pot calcular utilitzant la fórmula de l'àrea d'un triangle donat dos costats i l'angle entre ells. Aquí, l'angle entre \( OP \) i \( OQ \) és 90 graus (perquè \( P \) i \( Q \) són reflexos l'un de l'altre sobre l'eix \( y \)).
+4. **Aplicar la fórmula de l'àrea**: L'àrea del triangle \( OPQ \) és \( \frac{1}{2} \times OP \times OQ \times \sin(90^\circ) \). Com \( \sin(90^\circ) = 1 \), això simplifica a \( \frac{1}{2} \times OP \times OQ \).
+5. **Substituir les distàncies**: \( OP = \sqrt{m^2 + n^2} \) i \( OQ = \sqrt{m^2 + n^2} \). L'àrea és \( \frac{1}{2} \times \sqrt{m^2 + n^2} \times \sqrt{m^2 + n^2} = \frac{1}{2} \times (m^2 + n^2) \).
+6. **Calcular el valor numèric**: L'àrea del triangle \( OPQ \) és \( \frac{1}{2} \times (m^2 + n^2) \). Per a valors de \( m \) i \( n \) que sumin 12, el valor màxim de \( \frac{1}{2} \times (m^2 + n^2) \) és quan \( m = n = 6 \), donant una àrea de \( \frac{1}{2} \times (6^2 + 6^2) = \frac{1}{2} \times 72 = 36 \).
+
+### Resposta:
+
+E) 12

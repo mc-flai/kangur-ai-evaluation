@@ -1,0 +1,28 @@
+Per resoldre aquesta pregunta, hem de determinar la relació existent entre les altures i els diàmetres de dues espelmes cilíndriques que triguen diferents temps a cremar-se per complet.
+
+Informació proporcionada:
+- La primera espelma dura 6 hores.
+- La segona espelma dura 8 hores.
+- Al cap de 3 hores, totes dues espelmes tenen la mateixa alçada.
+
+Per trobar la relació entre les altures inicials, podem utilitzar la idea que si les espelmes cremen a velocitats constants, la fracció de l'espelma que ha cremat en un temps donat és proporcional al temps transcorregut.
+
+Desglossem els temps i les fraccions:
+- Al cap de 3 hores, la primera espelma ha cremat durant \( \frac{3}{6} = \frac{1}{2} \) del seu temps total, per tant queda \( \frac{1}{2} \) de l'espelma.
+- Al cap de 3 hores, la segona espelma ha cremat durant \( \frac{3}{8} \) del seu temps total, per tant queda \( 1 - \frac{3}{8} = \frac{5}{8} \) de l'espelma.
+
+Com que les dues espelmes tenen la mateixa alçada al cap de 3 hores, les altures restants són iguals:
+- \( \frac{1}{2} \) de l'alçada inicial de la primera espelma és igual a \( \frac{5}{8} \) de l'alçada inicial de la segona espelma.
+
+Podem expressar això com:
+\[ \frac{1}{2} A_1 = \frac{5}{8} A_2 \]
+
+Per trobar la relació entre \( A_1 \) i \( A_2 \), reorganitzem l'equació:
+\[ A_1 = \frac{5}{8} \times 2 \times A_2 \]
+\[ A_1 = \frac{5}{4} A_2 \]
+
+Així, la relació entre les altures inicials de les dues espelmes és \( 5 : 4 \).
+
+**Raonament**: La relació entre les altures inicials de les dues espelmes es deriva de les fraccions de les espelmes que queden després de 3 hores, que són \( \frac{1}{2} \) i \( \frac{5}{8} \).
+
+**Resposta**: C) 5 : 4

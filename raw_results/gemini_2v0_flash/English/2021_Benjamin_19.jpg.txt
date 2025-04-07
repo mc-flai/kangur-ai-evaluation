@@ -1,0 +1,17 @@
+Reasoning:
+Let $a$ be the number of apples Carl got and $p$ be the number of pears Carl got.
+Since Carl took 20 pieces of fruit, we have $a + p = 20$.
+Let $a'$ be the number of apples Luca got and $p'$ be the number of pears Luca got.
+Since Luca took the rest of the fruit, we have $a' = 20 - a$ and $p' = 20 - p$.
+Then $a' + p' = 20 - a + 20 - p = 40 - (a + p) = 40 - 20 = 20$.
+
+Now let us analyze the statements.
+(A) Carl got at least one pear: $p \geq 1$. This is not always true. Carl could get 20 apples and 0 pears.
+(B) Carl got as many apples as pears: $a = p$. This is not always true. Carl could get 20 apples and 0 pears.
+(C) Carl got as many pears as Luca: $p = a'$. Substituting $a' = 20 - a$, we have $p = 20 - a$, which implies $a + p = 20$. This is always true.
+(D) Carl got as many pears as Luca got apples: $p = a'$. This is the same as option C.
+(E) Carl got as many apples as Luca: $a = a'$. Substituting $a' = 20 - a$, we have $a = 20 - a$, which implies $2a = 20$, so $a = 10$. This is not always true.
+
+Therefore, the correct answer is (C).
+
+Answer: C)

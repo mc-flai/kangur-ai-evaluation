@@ -1,0 +1,24 @@
+Pour résoudre la question 21, nous devons déterminer quel nombre doit être placé dans la région centrale de manière à ce que chaque région voisine ait une somme égale.
+
+1. Identifions les régions avec des nombres déjà placés :
+   - Région supérieure : 4
+   - Région inférieure droite : 2
+   - Région inférieure gauche : 2
+
+2. Identifions les régions voisines de la région centrale :
+   - Les régions voisines de la région centrale sont : 
+     - Région supérieure avec 4
+     - Région inférieure droite avec 2
+     - Région inférieure gauche avec 2
+
+3. La région centrale est voisine de trois régions et doit s'assurer que la somme des nombres dans ces régions voisines est égale.
+   - La somme des nombres dans les régions voisines doit être égale à la somme des nombres dans les autres régions voisines.
+   
+4. La région centrale doit donc être 0 pour que la somme des nombres dans toutes les régions voisines soit égale.
+   - Les sommes des nombres dans les régions voisines seront :
+     - 4 + 0 + 2 = 6
+     - 0 + 2 + 2 = 4
+
+Raisonnement : Le nombre dans la région centrale doit être 0 pour que la somme des nombres dans toutes les régions voisines soit égale.
+
+Réponse : C)

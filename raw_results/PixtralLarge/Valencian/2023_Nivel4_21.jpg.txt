@@ -1,0 +1,37 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar la hora en què els dos conductors es troben. Aquí hi ha els passos a seguir:
+
+1. **Determinar la distància recorreguda per cada conductor**:
+   - El conductor de P arriba a Roc en 60 minuts (1 hora).
+   - El conductor de Q arriba a Roc en 90 minuts (1,5 hores).
+
+2. **Calcular la velocitat de cada conductor**:
+   - Suposem que la distància entre P i Q és \(d\).
+   - La velocitat del conductor de P és \(v_P = \frac{d}{1 \text{ hora}} = d \text{ km/h}\).
+   - La velocitat del conductor de Q és \(v_Q = \frac{d}{1,5 \text{ hores}} = \frac{d}{1,5} = \frac{2d}{3} \text{ km/h}\).
+
+3. **Determinar les distàncies recorregudes en 10 minuts (1/6 d'hora)**:
+   - En 10 minuts, el conductor de P recorre \(d_P = v_P \times \frac{1}{6} = d \times \frac{1}{6} = \frac{d}{6} \text{ km}\).
+   - En 10 minuts, el conductor de Q recorre \(d_Q = v_Q \times \frac{1}{6} = \frac{2d}{3} \times \frac{1}{6} = \frac{d}{9} \text{ km}\).
+
+4. **Calcular la distància total recorreguda per ambdós conductors en 10 minuts**:
+   - \(d_T = d_P + d_Q = \frac{d}{6} + \frac{d}{9}\).
+
+5. **Simplificar la suma de les distàncies**:
+   - El mínim comú múltiple de 6 i 9 és 18.
+   - \(\frac{d}{6} = \frac{3d}{18}\) i \(\frac{d}{9} = \frac{2d}{18}\).
+   - \(d_T = \frac{3d}{18} + \frac{2d}{18} = \frac{5d}{18}\).
+
+6. **Calcular la hora en què es troben**:
+   - La distància total és \(d\).
+   - La distància recorreguda en 10 minuts és \(\frac{5d}{18}\).
+   - Per trobar quan es troben, establim la igualtat \(d_T = d\).
+   - \(\frac{5d}{18} = d\).
+   - Dividim ambdós costats per \(d\): \(\frac{5}{18} = 1\).
+   - Multipliquem ambdós costats per \(\frac{18}{5}\): \(\frac{5}{18} \times \frac{18}{5} = 1 \times \frac{18}{5}\).
+   - \(\frac{18}{5} = 3,6\).
+
+Per tant, els dos conductors es troben a les 10:36.
+
+**Resposta**: D).

@@ -1,0 +1,21 @@
+Reasoning:
+Let the ages of the five elephants be $a_1, a_2, a_3, a_4, a_5$ in increasing order, i.e., $a_1 \le a_2 \le a_3 \le a_4 \le a_5$. The average age of the five elephants is 24, so
+$$ \frac{a_1+a_2+a_3+a_4+a_5}{5} = 24 $$
+$$ a_1+a_2+a_3+a_4+a_5 = 5 \times 24 = 120 $$
+The average age of the three youngest elephants is 19, so
+$$ \frac{a_1+a_2+a_3}{3} = 19 $$
+$$ a_1+a_2+a_3 = 3 \times 19 = 57 $$
+The average age of the three oldest elephants is 28, so
+$$ \frac{a_3+a_4+a_5}{3} = 28 $$
+$$ a_3+a_4+a_5 = 3 \times 28 = 84 $$
+We have:
+$$ a_1+a_2+a_3+a_4+a_5 = 120 $$
+$$ a_1+a_2+a_3 = 57 $$
+$$ a_3+a_4+a_5 = 84 $$
+We want to find $a_3$, which is the median age.
+From the first two equations, we have $a_4+a_5 = 120 - (a_1+a_2+a_3) = 120 - 57 = 63$.
+From the first and third equations, we have $a_1+a_2 = 120 - (a_3+a_4+a_5) = 120 - 84 = 36$.
+We have $a_1+a_2+a_3 = 57$ and $a_1+a_2 = 36$, so $36+a_3 = 57$, which gives $a_3 = 57 - 36 = 21$.
+The median age is $a_3 = 21$.
+
+Answer: B)

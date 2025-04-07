@@ -1,0 +1,18 @@
+
+Raisonnement :
+1. L'image montre sept cercles tangents disposés de manière à ce que leurs centres soient alignés.
+2. Les petits cercles sont disposés le long d'un rayon appelé rayon 1.
+3. Pour trouver l'aire grisée, nous devons calculer l'aire de la région entre les cercles externes et les cercles internes.
+4. L'aire grisée est la différence entre l'aire des cercles externes et l'aire des cercles internes.
+5. Les cercles externes sont plus grands que les cercles internes, et ils se touchent tous.
+6. L'aire d'un cercle est donnée par la formule A = πr², où r est le rayon du cercle.
+7. Si nous désignons le rayon des cercles externes par R et le rayon des cercles internes par r, nous devons trouver la relation entre R et r.
+8. Étant donné que les cercles sont tangents, le diamètre des cercles internes est égal à la distance entre les centres des cercles externes.
+9. Par conséquent, R = 2r.
+10. L'aire des cercles externes est 7πR².
+11. L'aire des cercles internes est 7πr².
+12. L'aire grisée est donc 7πR² - 7πr².
+13. En substituant R = 2r, nous obtenons 7π(2r)² - 7πr² = 28πr² - 7πr² = 21πr².
+14. L'aire grisée est donc 21π.
+
+Réponse : C

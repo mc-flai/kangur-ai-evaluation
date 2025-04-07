@@ -1,0 +1,53 @@
+To determine the probability that Tina wins, we need to find the probability that Tina rolls a number higher than Bibi. We start by analyzing the possible outcomes for both Bibi and Tina.
+
+1. Bibi's die has the numbers 1, 2, 3, 4, 5, 6.
+2. Tina's die has the numbers 2, 2, 5, 5, 5.
+
+We need to consider each possible roll by Bibi and find the corresponding probabilities of Tina rolling a higher number.
+
+### Step-by-Step Analysis:
+
+- **If Bibi rolls a 1**: Tina will win with any of her rolls (2, 2, 5, 5, 5). Probability of Bibi rolling a 1 is 1/6.
+
+- **If Bibi rolls a 2**: Tina will win with her rolls of 5 (3 out of 5 outcomes). Probability of Bibi rolling a 2 is 1/6.
+
+- **If Bibi rolls a 3**: Tina will win with her rolls of 5 (3 out of 5 outcomes). Probability of Bibi rolling a 3 is 1/6.
+
+- **If Bibi rolls a 4**: Tina will win with her rolls of 5 (3 out of 5 outcomes). Probability of Bibi rolling a 4 is 1/6.
+
+- **If Bibi rolls a 5**: Tina cannot win (0 out of 5 outcomes). Probability of Bibi rolling a 5 is 1/6.
+
+- **If Bibi rolls a 6**: Tina cannot win (0 out of 5 outcomes). Probability of Bibi rolling a 6 is 1/6.
+
+### Calculating the Probabilities:
+
+- When Bibi rolls a 1, the probability that Tina wins is 1 (5/5).
+- When Bibi rolls a 2, the probability that Tina wins is 3/5.
+- When Bibi rolls a 3, the probability that Tina wins is 3/5.
+- When Bibi rolls a 4, the probability that Tina wins is 3/5.
+- When Bibi rolls a 5, the probability that Tina wins is 0.
+- When Bibi rolls a 6, the probability that Tina wins is 0.
+
+### Total Probability Calculation:
+
+The total probability that Tina wins is the sum of the individual probabilities, each weighted by the probability of Bibi's roll:
+
+\[ P(\text{Tina wins}) = \left(\frac{1}{6} \times 1\right) + \left(\frac{1}{6} \times \frac{3}{5}\right) + \left(\frac{1}{6} \times \frac{3}{5}\right) + \left(\frac{1}{6} \times \frac{3}{5}\right) + \left(\frac{1}{6} \times 0\right) + \left(\frac{1}{6} \times 0\right) \]
+
+\[ P(\text{Tina wins}) = \frac{1}{6} + \frac{3}{30} + \frac{3}{30} + \frac{3}{30} \]
+
+\[ P(\text{Tina wins}) = \frac{1}{6} + \frac{1}{10} + \frac{1}{10} + \frac{1}{10} \]
+
+\[ P(\text{Tina wins}) = \frac{1}{6} + \frac{3}{10} \]
+
+\[ P(\text{Tina wins}) = \frac{5}{30} + \frac{9}{30} \]
+
+\[ P(\text{Tina wins}) = \frac{14}{30} \]
+
+\[ P(\text{Tina wins}) = \frac{7}{15} \]
+
+Thus, the correct answer is:
+
+Reasoning: Tina wins if she rolls a number higher than Bibi. Summing the probabilities of each possible scenario where Tina wins gives the total probability of Tina winning.
+
+Answer: E) $\frac{11}{18}$.

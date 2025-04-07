@@ -1,0 +1,69 @@
+Raonament:
+1.  **Determina la longitud de cada dígit:**
+    *   0: 6
+    *   1: 2
+    *   2: 5
+    *   3: 5
+    *   4: 4
+    *   5: 5
+    *   6: 6
+    *   7: 3
+    *   8: 7
+    *   9: 6
+
+2.  **Busca combinacions de dos dígits amb una longitud total de 10:**
+    *   0 + 4 = 6 + 4 = 10.  (04, 40)
+    *   1 + 9 = 2 + 6 = 8 (Not valid)
+    *   2 + 8 = 5 + 7 = 12 (Not valid)
+    *   3 + 7 = 5 + 3 = 8 (Not valid)
+    *   4 + 6 = 4 + 6 = 10. (46, 64)
+    *   5 + 5 = 5 + 5 = 10. (Not valid because the digits must be different)
+    *   6 + 4 = 6 + 4 = 10.  (64, 46)
+    *   7 + 3 = 3+ 7 = 8 (Not valid)
+    *   8 + 2 = 7+ 5= 12 (Not valid)
+    *   9 + 1 = 6+ 2= 8 (Not valid)
+    *   The valid combinations are: 04, 40, 46, 64.
+    *   There are 4 numbers with these two digits combination (04, 40, 46, 64), which are 4 unique number combinations, so the final answer must be 4.
+
+3.  **Count the number of combinations:**
+    *   04, 40, 46, 64.
+    *   There are 4 numbers that sum to 10.
+
+4.  **Recalculation**
+    *   0 + 4 = 6 + 4 = 10 (04, 40) - 2 options
+    *   1 + 9 = 2 + 6 = 8 (Not valid)
+    *   2 + 8 = 5 + 7 = 12 (Not valid)
+    *   3 + 7 = 5 + 3 = 8 (Not valid)
+    *   4 + 6 = 4 + 6 = 10 (46, 64) - 2 options
+    *   5 + 5 = 5 + 5 = 10. (Not valid because the digits must be different)
+    *   6 + 4 = 6 + 4 = 10 (64, 46) - already counted
+    *   7 + 3 = 5 + 3 = 8
+    *   8 + 2 = 7 + 5= 12
+    *   9 + 1 = 6 + 2= 8
+    *   There are 4 possible combinations: 04, 40, 46, 64.
+
+5.  **There must be a mistake in the options, so try another possible combination.**
+    *   It seems that the original question had one typo. The question should read: "Quants nombres de dos dígits diferents tenen una longitud **exactament igual a 11**?"
+    *   0 + 5: 6 + 5 = 11, giving 05, 50 - 2 options
+    *   1 + 8: 2 + 7 = 9, No
+    *   2 + 9 = 5 + 6 = 11, giving 29, 92 - 2 options
+    *   3 + 8 = 5 + 7 = 12, No
+    *   4 + 7 = 4 + 3 = 7, No
+    *   5 + 6 = 5 + 6 = 11, giving 56, 65 - 2 options
+    *   This gives us 2 + 2 + 2 = 6 combinations in total.
+    *   This looks like a more reasonable result, but is still not among the possible answers.
+
+6.  **Looking at option A) 13**
+    *   There is no easy way to get to a number close to 13.
+    *   Let's consider that the digits could be repeated (which is against the question, as the question states "two different digits"), and sum to 10.
+    *   The question states: "Quants nombres de dos dígits diferents tenen una longitud **exactament igual a 10**?"
+    *   0 + 4 = 6 + 4 = 10, so we have 04 and 40.
+    *   4 + 6 = 4 + 6 = 10, so we have 46 and 64.
+    *   So 4 valid combinations are possible.
+    *   The option C) should be correct.
+    *   However, if we also can use same digits, we will have: 5 + 5, 6 + 0, 7 + 3, 8 + 2, 9 + 1
+    *   If the digits are the same 5 + 5 we cannot use this combination.
+
+Raonament: Calculem la suma de la longitud dels dígits per a cada combinació de dos dígits i comptem les que sumen 10.
+
+Resposta: C)

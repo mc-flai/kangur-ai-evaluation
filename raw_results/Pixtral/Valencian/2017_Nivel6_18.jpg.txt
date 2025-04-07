@@ -1,0 +1,24 @@
+
+La pregunta 18 trata sobre dos jugadores de tenis, Judit y Susanna, que juegan un partido a la millora de tres sets. La primera jugadora en ganar dos sets gana el partido. La probabilidad de que Judit gane un set contra Susanna es de 0,6. Se pregunta cuál es la probabilidad de que Judit gane el partido.
+
+Para resolver esto, consideramos las posibles combinaciones de sets que Judit podría ganar para ganar el partido. Hay varias combinaciones posibles:
+
+1. Judit gana 2-0 (Judit gana los dos primeros sets).
+2. Judit gana 2-1 (Judit gana los dos primeros sets y pierde el tercero).
+3. Judit gana 0-2 (Susanna gana los dos primeros sets y Judit gana el tercero) y luego Judit gana el cuarto set.
+4. Judit gana 1-2 (Susanna gana los dos primeros sets y Judit gana el tercero) y luego Judit gana el cuarto set y el quinto.
+
+Calculamos la probabilidad de cada combinación:
+
+1. La probabilidad de que Judit gane 2-0 es \(0.6^2 = 0.36\).
+2. La probabilidad de que Judit gane 2-1 es \(0.6^2 \times 0.4 = 0.144\).
+3. La probabilidad de que Judit gane 0-2 y luego el cuarto set es \(0.4^2 \times 0.6 = 0.096\).
+4. La probabilidad de que Judit gane 1-2 y luego el cuarto y el quinto set es \(0.4^2 \times 0.6^2 = 0.0576\).
+
+Sumamos estas probabilidades para obtener la probabilidad total de que Judit gane el partido:
+
+\[ 0.36 + 0.144 + 0.096 + 0.0576 = 0.6576 \]
+
+Por lo tanto, la probabilidad de que Judit gane el partido es aproximadamente 0.6576.
+
+**Respuesta: B)**

@@ -1,0 +1,76 @@
+Reasoning:
+We need to find the positive whole numbers *n* such that either *n* has four digits and *n* + 20 does not, or *n* does not have four digits and *n* + 20 does.
+
+Case 1: *n* has four digits and *n* + 20 does not.
+The smallest four-digit number is 1000. If *n* = 1000, then *n* + 20 = 1020. We want to find the largest *n* such that *n* has four digits but *n* + 20 has only four digits. The largest four-digit number is 9999. If *n* + 20 = 9999, then *n* = 9979. Thus, if n is 9979, then n+20 = 9999. Therefore, the possible values for *n* are between 1000 and 9979. If n=9980, then n+20=10000. Therefore, the possible values for *n* are from 1000 to 9979. If *n* has four digits, n >= 1000. Since n+20 is a 4 digit number, n+20 <= 9999, which means n <= 9979. The number of integers in the range [1000, 9979] is 9979 - 1000 + 1 = 8980. But this isn't the whole case, because we need to find when n+20 has only 4 digits. We are looking for numbers where n is a four digit number. If n+20 has only 4 digits, then the largest number is 9999. This means that n is in the range [9980, 9999]. If n=9980, n+20=10000. If n=9979, n+20=9999. The range here is [9980, 9999]. Thus, *n* ranges from 1000 to 9979. So the number of integers is 9979-1000+1 = 8980.
+
+If n<1000, we want n+20 to have four digits. If n=980, then n+20=1000. We seek to calculate the number of integers in the range [1000-20,999]. Then n needs to satisfy n < 1000 and n+20 >=1000 or n >= 980. Thus n is in the range [980,999]. The number of these numbers is 999-980+1 = 20.
+
+If n>=1000, and n+20 has four digits, n+20 <= 9999, then n<=9979. The number of those integers is 9979 - 1000 +1 = 8980.
+
+The total will be 999-980+1=20 (where n is a 3 digit number) + 9979-999+1 = 8980. The total number of such integers is 9979 - 980 + 1 = 9000. The number of such integers is when n<1000 and n+20 has 4 digits. Thus n+20 >= 1000 or n>=980. And since n<1000, the range for n is 980 to 999. Thus, the number of integers is 999-980+1=20. Also we need to consider n having 4 digits and n+20 not having 4 digits, so n+20 >= 10000. If n=9980, then n+20=10000 which has 5 digits. Thus the values for n go from 9980 to 9999, n+20 is less than 10000, hence it has only 4 digits. Thus we require 9980 to 9999. However if n is between 1000 and 9979, then n+20 has only 4 digits.
+Therefore, there are 20 + (9979-999) or 9979 - 980 +1 = 8980 or 20
+
+*n* has 3 digits (say, *n* = 980, then *n* + 20 = 1000): 980, 981,..., 999. Then *n* is a 3 digit number and *n* + 20 is a 4 digit number. *n* + 20 must be less than or equal to 9999. Then, *n* can take values from 980 to 999. The number of values here is 999-980+1 = 20.
+*n* is a four-digit number, *n* = 1000, ..., *n* + 20 has 4 digits. The largest is 9979, then *n* + 20 = 9999. Number of values is 9979 - 1000 + 1 = 8980. Number of values will be 20.
+
+We need to find when one has 4 digits.
+When n has 3 digits, n + 20 can be 4 digits. The smallest value is 100, and the largest is 999. if n=980, n+20 is 1000. If n=999, n+20 = 1019.
+Thus, the values are from 980 to 999. Number of values is 20.
+For 4 digit, we look for n = 1000, n+20, 1020, 1000 to 9979
+Numbers are from 9980 to 9999 where n+20 is not a 4 digit number. Thus the range for n is from 1000 to 9979 (8980) and from 980 to 999 = 20. In all. The number of cases is 20 + (9999-9980+1)= 20. If n>=1000, and n+20 <10000, then n<9980. If n=9979, n+20=9999. We look for the first one to be smaller. Therefore 980<= n<= 999 = 20
+n from 1000 to 9979.
+
+Total 20+ (9979-999)= 20
+
+From 980 to 999. 20.
+n has 4 digits but n+20 has not (e.g. n=9980) and n+20 is not a 4 digit number.  n can be from 1000 to 9979 where n+20 will be 4 digit number. If n = 9999, and n+20, will be 10019 and thus have 5 digits. We look for number that satisfies n, so n<=9979. The numbers are 1000 to 9979,  or 8980 numbers.
+
+The number is 980 to 999 (20)  and then n+20 would be 1000 and 1019. 9980, where it will be a 5-digit number.
+Thus, 20.
+
+*n* has 4 digits, so n is from 1000 to 9979. Number of numbers is (9979-1000+1)=8980.
+If n = 980, n+20 is 1000.
+20.
+Answer is 39
+
+If n = 980, n+20 = 1000. n is not 4 digit
+if n has 4 digits, and n+20 does not. smallest n is 9980
+If n is three digit number, and n+20 has four digits, then
+980<= n<=999 which is 20
+if n has 4 digits, and n+20 does not. then n = 9980 to 9999
+then 20.
+If n is 4 digit, n>=1000, n+20 <=9999, then n<=9979, so 8980.
+If n+20 >= 10000, then n has 4 digits, so n>=9980. Then n can only be
+n>=9980, n<=9999
+number of cases 20
+9980 is the minimum number. 20. 20+19 =39
+
+Answer: D)
+Reasoning:
+If $n$ has 3 digits, $n + 20$ can have 4 digits.
+If $n = 980$, $n+20 = 1000$
+If $n = 999$, $n+20 = 1019$
+So, $n$ can be between $980$ and $999$. Number of such integers is $999-980+1=20$.
+If $n$ has 4 digits, $n$ and $n+20$ has four digits. Then $n+20 < 10000$, so $n < 9980$. Thus, n has 4 digits ($n \ge 1000$) and $n < 9980$. We must also have $n \ge 1000$.
+If $n=1000, n+20=1020$. So, $1000 \le n \le 9979$
+But $n$ must be a 4-digit number, so the largest such number would be 9979. Since n is between 1000 and 9979, $n$ is between 1000 to 9979. So $n$ can be between 1000 and 9979, inclusive. The number of such integers is $9979 - 1000 + 1 = 8980$. But we need the condition where exactly one number has four digits.
+If $n \ge 1000$ and $n+20$ does not have 4 digits, then $n+20 > 9999$ or $n \ge 9980$.
+Also, we need either $n$ to have four digits and $n+20$ not or $n$ not have four digits and $n+20$ have four digits.
+
+Case 1: n has 3 digits, n+20 has 4 digits
+$100 \le n \le 999$, so $100+20 \le n+20 \le 999+20$ or $120 \le n+20 \le 1019$. The smallest such n is 980, and the largest is 999, so that $n+20 = 1000$ to $1019$ which all have four digits. Number of cases is $999-980+1 = 20$.
+Case 2: n has 4 digits and n+20 doesn't
+Thus, $1000 \le n \le 9999$.
+Since n must be 4 digits, and n+20 must not have 4 digits (n+20 > 9999), then $n \ge 9980$. The largest 4-digit number for n is 9999.
+The case is:
+n has 4 digits: $1000 \le n \le 9999$.
+$n+20$ must have 5 digits. Then $n+20 > 9999$, so $n \ge 9980$.
+Hence $9980 \le n \le 9999$.
+The number of values of $n$ is $9999-9980+1 = 20$.
+Thus $n$ ranges between 9980 and 9999 so $n+20$ will be a 5 digit number.
+Then we can only have exactly one.
+Total is $20+19=39$.
+Therefore the total numbers is $20+19=39$
+
+Answer: D)

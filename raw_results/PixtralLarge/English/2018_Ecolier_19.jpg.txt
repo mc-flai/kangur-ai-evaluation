@@ -1,0 +1,19 @@
+To solve this problem, we need to find a path through the rooms such that each room Eva enters has a number higher than the previous one. Let's analyze the paths step-by-step:
+
+1. Eva enters through the main entrance, which is at room 6.
+2. From room 6, she can move to room 9 (since 9 > 6).
+3. From room 9, she can move to room 10 (since 10 > 9).
+4. From room 10, she can move to room 12 (since 12 > 10).
+
+Now, let's check the possible exit doors:
+- Door A: Room 9 (possible since Eva can go from 6 to 9)
+- Door B: Room 14 (not possible because there is no path from 14 that ensures all previous rooms have higher numbers)
+- Door C: Room 10 (possible since Eva can go from 9 to 10)
+- Door D: Room 12 (possible since Eva can go from 10 to 12)
+- Door E: Room 9 (possible since Eva can go from 6 to 9)
+
+The only door that fits the criteria of each room having a number higher than the previous one and allows Eva to exit is Door D.
+
+Reasoning: The path 6 -> 9 -> 10 -> 12 fits the criteria of each room having a higher number than the previous one, and Eva can exit through Door D.
+
+Answer: D).

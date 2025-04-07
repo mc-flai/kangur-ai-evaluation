@@ -1,0 +1,31 @@
+La pregunta 18 busca determinar el centre del cub que no té situacions en la matriu cara, que són \( P(3,4,1) \), \( Q(5,2,9) \) i \( R(1,6,5) \). Les opcions de resposta són \( A(4,3,5) \), \( B(2,5,3) \), \( C(3,4,7) \), \( D(5,3,4) \) i \( E(2,3,5) \).
+
+**Razonamiento**:
+1. El centre d'un cub es la seva coordenada central. En un cub de coordenades de 3D, el centre es donat per:
+   \[
+   \left(\frac{a}{2}, \frac{b}{2}, \frac{c}{2}\right)
+   \]
+   on \( a \), \( b \) i \( c \) són les dimensions del cub.
+
+2. Per trobar el centre del cub, hem de calcular la mitjana de les coordenades donades per \( P(3,4,1) \), \( Q(5,2,9) \) i \( R(1,6,5) \).
+
+3. Calculem les mitjanes:
+   \[
+   \text{Media de } x = \frac{3 + 5 + 1}{3} = \frac{9}{3} = 3
+   \]
+   \[
+   \text{Media de } y = \frac{4 + 2 + 6}{3} = \frac{12}{3} = 4
+   \]
+   \[
+   \text{Media de } z = \frac{1 + 9 + 5}{3} = \frac{15}{3} = 5
+   \]
+
+4. El centre del cub és:
+   \[
+   (3, 4, 5)
+   \]
+
+5. Comparant amb les opcions de resposta, veiem que \( E(2,3,5) \) no coincideix amb el centre calculat.
+
+**Respuesta**:
+A) \( A(4,3,5) \)

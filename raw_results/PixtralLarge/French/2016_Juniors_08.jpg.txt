@@ -1,0 +1,42 @@
+Pour résoudre l'équation \(8^k = 2^k \times 2^{12}\), nous devons décomposer chaque terme en termes de base 2.
+
+1. **Décomposer \(8^k\) en termes de base 2:**
+   \[
+   8 = 2^3
+   \]
+   Donc,
+   \[
+   8^k = (2^3)^k = 2^{3k}
+   \]
+
+2. **Décomposer \(2^k \times 2^{12}\) en termes de base 2:**
+   En utilisant les propriétés des puissances,
+   \[
+   2^k \times 2^{12} = 2^{k+12}
+   \]
+
+3. **Établir l'équation:**
+   Nous avons maintenant l'équation suivante :
+   \[
+   2^{3k} = 2^{k+12}
+   \]
+
+4. **Résoudre pour \(k\):**
+   Puisque les bases sont les mêmes, nous pouvons équater les exposants :
+   \[
+   3k = k + 12
+   \]
+   En soustrayant \(k\) des deux côtés, nous obtenons :
+   \[
+   3k - k = 12
+   \]
+   \[
+   2k = 12
+   \]
+   \[
+   k = 6
+   \]
+
+**Raisonnement :** Nous avons décomposé les termes en termes de base 2, équaté les exposants, et résolu pour \(k\).
+
+**Réponse :** C).

@@ -1,0 +1,48 @@
+Razonamiento:
+1. **Identificar los números:** Tenemos los números 3, 8, 12 y 14.
+2. **Restricción 1: x < z:** El valor de x es menor que el valor de z.
+3. **Restricción 2: x + t es divisible por 5:** La suma x + t es divisible por 5.
+4. **Restricción 3: z + t es divisible por 5:** La suma z + t es divisible por 5.
+5. **Considerar los pares que sumen un múltiplo de 5:**
+    *   3 + 12 = 15 (divisible por 5)
+    *   8 + 12 = 20 (divisible por 5)
+    *   8 + 14 = 22 (no divisible por 5)
+    *   3 + 8 = 11 (no divisible por 5)
+    *   3 + 14 = 17 (no divisible por 5)
+    *   12 + 14 = 26 (no divisible por 5)
+6. **Casos posibles:**
+    *   Si x = 3 y t = 12, entonces x + t = 15 (divisible por 5). Luego, z podría ser 14, y el resto (8) es el valor de y.
+    *   Si x = 8 y t = 12, entonces x + t = 20 (divisible por 5). Entonces, z podría ser 14, y el resto (3) es el valor de y.
+    *   El primer caso cumple que x < z, es decir, 3 < 14. Entonces y=8.
+    *   El segundo caso no cumple que x < z, es decir, 8 < 14. Entonces y=3.
+7. **Verificar z + t es divisible por 5:**
+    *   Si y = 8, entonces x=3, t=12 y z = 14.
+        *   x+t = 3 + 12 = 15, divisible por 5
+        *   z+t = 14 + 12 = 26, NO divisible por 5.
+    *   Si y = 3, entonces x=8, t=12 y z = 14.
+        *   x + t = 8 + 12 = 20, divisible por 5
+        *   z+t = 14 + 12 = 26, NO divisible por 5.
+8. **Analizar las opciones:**
+    *  Ninguna de las combinaciones cumple con que z+t sea divisible por 5. Revisamos cada par de valores que sumen un múltiplo de 5.
+    *   Si tomamos x=3 y t=12, entonces x+t=15. Entonces los restantes números son 8 y 14. Tenemos que x<z. Por lo tanto, z=14 e y=8. Entonces z+t = 14+12 = 26, no divisible por 5.
+    *   Si tomamos x=8 y t=12, entonces x+t=20. Entonces los restantes números son 3 y 14. Tenemos que x<z. Por lo tanto, z=14 e y=3. Entonces z+t = 14+12 = 26, no divisible por 5.
+    *   Si x=3 y t=8, entonces la suma es 11. NO es divisible por 5.
+    *   Si x=3 y t=14, entonces la suma es 17. NO es divisible por 5.
+    *   Si x=8 y t=3, entonces la suma es 11. NO es divisible por 5.
+    *   Si x=8 y t=14, entonces la suma es 22. NO es divisible por 5.
+    *   Si x=12 y t=3, entonces la suma es 15. Los restantes números son 8 y 14. x no puede ser menor que z.
+    *   Si x=12 y t=8, entonces la suma es 20. Los restantes números son 3 y 14. x no puede ser menor que z.
+    *   Si x=12 y t=14, entonces la suma es 26. NO es divisible por 5.
+    *   Si x=14 y t=3, entonces la suma es 17. NO es divisible por 5.
+    *   Si x=14 y t=8, entonces la suma es 22. NO es divisible por 5.
+    *   Si x=14 y t=12, entonces la suma es 26. NO es divisible por 5.
+    *  Debemos considerar que x < z, entonces z+t debe ser divisible por 5.
+    *  x+t = 15, entonces y = 8 y z = 14. z+t = 26, no es divisible por 5.
+    *  y = 8 no es la respuesta.
+    *  Debemos revisar si puede ser x + t divisible por 5 y z + t divisible por 5.
+    *   Si x=3, t=12 y z=8. No cumple porque x < z.
+    *  Si x=3, t=12, z=14. x + t = 15 y z + t = 26.
+    *   x=3, z=8, t = 12. x+t=15, z+t=20. x < z. Entonces y=14.
+    *  Si x=3, t=12, z=8, y=14. x + t = 15, divisible por 5. z + t = 20, divisible por 5. x < z, cumple. y = 14.
+
+Respuesta: A)

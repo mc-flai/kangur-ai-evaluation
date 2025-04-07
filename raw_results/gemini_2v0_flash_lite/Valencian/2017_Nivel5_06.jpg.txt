@@ -1,0 +1,22 @@
+Raonament:
+En un rectangle, tenim dos costats amb la mateixa longitud (llarg) i dos costats amb la mateixa longitud (ample). La suma de tres costats pot ser:
+1. Llarg + Ample + Llarg = 2 * Llarg + Ample = 20 o 22
+2. Llarg + Ample + Ample = Llarg + 2 * Ample = 20 o 22
+
+Per trobar el perímetre necessitem trobar Llarg + Ample. Sabem que el perímetre és 2 * (Llarg + Ample).
+
+Si la suma de tres costats és 20, i el valor és 2*Llarg + Ample = 20.
+Si la suma de tres costats és 22, i el valor és Llarg + 2*Ample = 22.
+
+Si la suma de tres costats és 20, llavors podem tenir dues possibilitats:
+*   2*Llarg + Ample = 20. Si Llarg + Ample = 14, llavors el perímetre seria 28.
+*   Llarg + 2*Ample = 20. Si Llarg + Ample = 14, no és possible.
+
+Si la suma de tres costats és 22, llavors podem tenir dues possibilitats:
+*   2*Llarg + Ample = 22. Si Llarg + Ample = 15. El perímetre seria 30.
+*   Llarg + 2*Ample = 22. Si Llarg + Ample = 14. El perímetre seria 28.
+
+Observant les opcions, l'única resposta possible és 28, ja que hem trobat dos possibles casos on el perímetre és 28. Si la suma de tres costats és 20, llavors 2*Llarg + Ample = 20, i Llarg + Ample = 14, llavors tenim: Perimetre = 2 * (Llarg + Ample) = 2 * 14 = 28.
+Si la suma de tres costats és 22, llavors Llarg + 2*Ample = 22, i Llarg + Ample = 14, llavors tenim: Perimetre = 2 * (Llarg + Ample) = 2 * 14 = 28.
+
+Resposta: C)

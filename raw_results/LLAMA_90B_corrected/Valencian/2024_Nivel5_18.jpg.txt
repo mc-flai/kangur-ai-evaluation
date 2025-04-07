@@ -1,0 +1,3 @@
+Raonament: Segons el problema, sabem que el nombre de cubs menuts amb una sola cara pintada és igual a la quantitat total de cubs menuts. Veig que la quantitat total de cubs petit són els de la superfície exterior menys els cubs petits de l'interior no pintats. La superfície total de cubs petits és 6(3*n-2), ja que cada cara del cub és un cuadrilàter amb n-2 blocs per vora. En el cas d'un cub de n=2, aquesta qüestió es reduiria a 6(2) - 6(0) = 6, però com sabem que hi ha cubs menuts estrategis pintats en el seu interior, encara podem trobar la solució dividint la totalitat de la superfície pintada, és a dir n^3 - (n-2)^3 = 6n^2-12n+8. Comprovem les operacions disponibles en les opcions:
+
+Resposta: No Answer

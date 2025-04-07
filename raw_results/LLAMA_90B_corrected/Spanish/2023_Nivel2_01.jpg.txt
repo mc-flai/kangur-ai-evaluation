@@ -1,0 +1,14 @@
+### Razonamiento
+
+1.  Para encontrar todos los números de cuatro dígitos que pueden ser apilados de manera que dos y solo dos de sus dígitos se vean cuando son vistos verticalmente, necesitamos analizar las posibles combinaciones de dedos.
+2.  Comencemos con el hecho de que hay tres dedos en cada lado del cuadrado grande. Para cubrir uno de los otros lados, cada suma también incluirá tres dedos del cuadrado a la derecha.
+3.  Esto implica que el número de dedos que no se cubren debe ser múltiplo de 3.
+4.  Dado que todas las sumas de dedos posibles son menores que 51 y la suma total de dedos de los nueve cuadrados es 54, es posible que todas las sumas de dedos menores que 51 sean guardadas en los nueve cuadrados sin solapamiento.
+5.  La suma de dedos más pequeña es igual al número total de dedos, 54.
+6.  La suma de dedos mayor es 47 porque cualquier número mayor excedería el límite de 51 becarios requeridos.
+7.  Al eliminar las sumas imposibles, 54, 53, 52, 51, 50, 49 y 48, quedan 22 siendo sumas factibles.
+8.  Por lo tanto, la respuesta correcta es E).
+
+### Respuesta
+
+E).

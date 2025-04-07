@@ -1,0 +1,49 @@
+Per resoldre aquest problema, primer hem de determinar el temps total que es triga a fer la passejada i després calcular quin fracció d'aquest temps es fa caminant a 4 km/h.
+
+1. **Calcular el temps total del recorregut**:
+   - La meitat de la distància es fa caminant a una velocitat de 2 km/h.
+   - L'altra meitat de la distància es fa a una velocitat de 3 km/h.
+
+   Suposem que la distància total és \( D \).
+
+   - Temps per recórrer la meitat de la distància a 2 km/h: 
+     \[
+     t_1 = \frac{D/2}{2} = \frac{D}{4} \text{ hores}
+     \]
+
+   - Temps per recórrer l'altra meitat de la distància a 3 km/h:
+     \[
+     t_2 = \frac{D/2}{3} = \frac{D}{6} \text{ hores}
+     \]
+
+   - Temps total del recorregut:
+     \[
+     t_{\text{total}} = t_1 + t_2 = \frac{D}{4} + \frac{D}{6}
+     \]
+
+2. **Calcular el temps caminant a 4 km/h**:
+   - Temps per recórrer la distància total a 4 km/h:
+     \[
+     t_{\text{4km/h}} = \frac{D}{4} \text{ hores}
+     \]
+   - Fracció del temps total caminant a 4 km/h:
+     \[
+     \frac{t_{\text{4km/h}}}{t_{\text{total}}} = \frac{\frac{D}{4}}{\frac{D}{4} + \frac{D}{6}}
+     \]
+
+3. **Simplificar la fracció**:
+   - Trobar un denominador comú per a \(\frac{D}{4} + \frac{D}{6}\):
+     \[
+     \frac{D}{4} + \frac{D}{6} = \frac{3D}{12} + \frac{2D}{12} = \frac{5D}{12}
+     \]
+
+   - Per tant:
+     \[
+     \frac{\frac{D}{4}}{\frac{5D}{12}} = \frac{D}{4} \times \frac{12}{5D} = \frac{12}{20} = \frac{3}{5}
+     \]
+
+4. **Comparar amb les opcions donades**:
+   - La fracció del temps total caminant a 4 km/h és \(\frac{3}{5}\).
+
+Raonament: Calcular el temps total del recorregut i la fracció del temps que es fa caminant a 4 km/h, i comparar-lo amb les opcions donades.
+Resposta: D) \(\frac{5}{1}\)

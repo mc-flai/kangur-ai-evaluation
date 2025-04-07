@@ -1,0 +1,63 @@
+Razonamiento: The question defines a "pleasant" three-digit number as one where the middle digit is greater than the sum of the other two digits. We need to find the maximum number of consecutive "pleasant" numbers.
+Let's analyze:
+*   If the first digit is 1, and the second digit is 2, the last digit can be 0 or 1.
+*   The consecutive pleasant numbers can start with 100 (not pleasant), then we must find the numbers that satisfy the given conditions.
+
+*   Consider the hundreds digit as 'a', the tens digit as 'b' and the units digit as 'c'.
+*   The condition is b > a + c.
+*   Let's find consecutive numbers.
+    *   100: Not pleasant.
+    *   110: Not pleasant.
+    *   120: 2 > 1+0, pleasant.
+    *   121: 2 > 1+1, pleasant.
+    *   122: Not pleasant
+*   Considering the numbers starting with 1, we can get 120, 121. That's two.
+*   If we start with 2.
+    *   200: Not pleasant.
+    *   210: Not pleasant.
+    *   220: Not pleasant.
+    *   230: 3 > 2+0, pleasant.
+    *   231: 3 > 2+1, pleasant.
+    *   240: 4 > 2+0, pleasant.
+    *   241: 4 > 2+1, pleasant.
+    *   242: 4 > 2+2, pleasant.
+    *   250: 5 > 2+0, pleasant.
+    *   251: 5 > 2+1, pleasant.
+    *   252: 5 > 2+2, pleasant.
+    *   260: 6 > 2+0, pleasant.
+    *   261: 6 > 2+1, pleasant.
+    *   262: 6 > 2+2, pleasant.
+    *   263: 6 > 2+3, pleasant.
+    *   270, 271, 272, 273, 274. 5 consecutive pleasant numbers.
+
+*   If we try another starting number such as 3.
+    *   300: Not pleasant.
+    *   310: Not pleasant.
+    *   320, 321, 322.
+    *   330, 331, 332, 333.
+    *   So the amount of consecutive pleasant numbers can be more than 5, 6, 7.
+
+*Let's look for more options:*
+*We need to maximize.*
+Let's start with 190, 191, 192, 193, 194, 195, 196, 197, 198, (9 > 1+8), 190: not pleasant
+200: Not pleasant.
+210: Not pleasant.
+220: Not pleasant.
+230, 231.
+So we have 200, 201...
+We can get the sequence 120, 121, 130, 131, 132, 140, 141, 142, 143... so, 7 numbers are possible.
+
+Let's look for 8 consecutive pleasant numbers:
+
+7 numbers are possible.
+120, 121.
+200, 230, 231, 240, 241, 242. 6
+250, 251, 252. 3
+260, 261, 262, 263. 4.
+The total could be 8.
+
+Trying consecutive numbers:
+120, 121, 130, 131, 132, 140, 141, 142.
+
+Answer: D)
+Respuesta: D)

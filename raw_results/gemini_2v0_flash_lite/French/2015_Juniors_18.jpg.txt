@@ -1,0 +1,8 @@
+Raisonnement :
+1. **Trouver le côté du carré:** L'aire du carré WXYZ est 16, donc le côté est √16 = 4.
+2. **Déterminer les longueurs des segments:** On nous dit WS = 3SX et WS + SX = WX = 4 (côté du carré). En résolvant ce système d'équations, on trouve SX = 1 et WS = 3. Puisque WS=XT=YU=ZV,  XT=3, YU=3, et ZV=3.
+3. **Calculer l'aire des triangles:** Les triangles grisés sont SVW et SXT.  Le triangle SVW a pour base WS = 3 et pour hauteur VW = WX - SX = 4 - 1 = 3, et le triangle SXT a pour base SX = 1 et pour hauteur XT = 3.
+4. **Calculer l'aire totale grisée:** L'aire de SVW est (1/2) * 3 * 3 = 4.5 et l'aire de SXT est (1/2)*1*3=1.5. Les deux triangles sont symétriques donc leur aire est (1/2)*3*1. En additionnant l'aire des 2 triangles, on obtient 4.5 + 1.5 = 6.
+5. **Vérifier l'autre paire de triangles:**  De la symétrie, nous avons également les triangles ZVU et TZY.  Les triangles grises de la figure ont une aire de 6.
+
+Réponse : C)

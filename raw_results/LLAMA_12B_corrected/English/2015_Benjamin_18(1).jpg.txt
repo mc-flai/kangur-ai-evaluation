@@ -1,0 +1,24 @@
+Reasoning: To solve this problem, we need to use the concept of permutations and combinations. Since Sebastian needs at least one apple and one pear, let's calculate the total number of fruit combinations he can take out from the sack.
+
+We have 3 green apples, 5 yellow apples, 7 green pears, and 2 yellow pears. The total number of different colored fruits is 3 + 5 + 7 + 2 = 17.
+
+Now, let's find out the number of ways Sebastian can select at least one apple and one pear:
+
+**Option A: At least one apple and one pear**
+He can choose 1 apple from 3 green apples or 5 yellow apples (3 + 5 = 8 ways) and 1 pear from 7 green pears or 2 yellow pears (7 + 2 = 9 ways). This gives us 8 x 9 = 72 ways to choose at least one apple and one pear.
+
+**Option B: At least two apples and one pear**
+If he chooses 2 apples from 3 green apples or 5 yellow apples (3C2 x 5C1 = 30 ways), he has to choose only 1 pear from 7 green pears or 2 yellow pears (7 + 2 = 9 ways). This gives us 30 x 9 = 270 ways to choose at least two apples and one pear.
+
+**Option C: One apple and one pear**
+There are 3 ways to choose 1 green apple and 7 ways to choose 1 green pear, so the total is 3 x 7 = 21 ways.
+
+**Option D: Two apples and two pears**
+If he chooses 2 apples from 3 green apples or 5 yellow apples (3C2 x 5C2 = 60 ways), he has to choose only 2 pears from other fruits. Since he must have both colors, these options cannot be counting correctly.
+
+**Option E: Three apples and one pear**
+If he chooses 3 apples from 3 green apples or 5 yellow apples (3C3 x 5C3 = 120 ways), there is no way to choose only 1 pear from other fruits.
+
+From the calculations in Option A, we can conclude that the total number of combinations of at least one apple and one pear available on the sack is 72.
+
+Answer: A) 72

@@ -1,0 +1,7 @@
+Raonament: Siga $A_{ABC}$ l'àrea del triangle $ABC$. Siga $x$ l'àrea del quadrilàter. Siguen $AM = MC$ i $BN = NC$. Siga $A_1 = \text{area}(AMB)$, $A_2 = \text{area}(ANB)$, $A_3 = \text{area}(AMN)$, $A_4 = \text{area}(MNC)$. Donat que el triangle $ABC$ és isòsceles amb $AC=BC$, l'àrea $\text{area}(ABN) = \text{area}(AMB) = 3+6 = 9$. Tenim $A_{ABC} = A_1+A_4+3 = A_2+A_3+3 = A_3 + A_1 + A_2$. Siga l'àrea que volem trobar $x$. Llavors $A_{ABC} = 3+3+6+x = 12+x$. Així $A_{ABC} = 12+x$.
+Com que $M$ i $N$ són els punts mitjos de $AC$ i $BC$ respectivament, aleshores $CM = AC/2$ i $CN = BC/2$. Per tant $\text{area}(MNC) = \frac{1}{4}\text{area}(ABC) = \frac{1}{4}(12+x)$. Llavors, $x = \text{area}(MNC) = \frac{1}{4}(12+x)$.
+$4x = 12+x$
+$3x = 12$
+$x = 4$
+
+Resposta: B)

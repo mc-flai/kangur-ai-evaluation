@@ -1,0 +1,81 @@
+Razonamiento: The problem asks for the maximum possible difference between the two-digit numbers BD and AC, given that A < B < C < D. To maximize the difference (BD - AC), we need to maximize BD and minimize AC.
+
+To maximize BD, D should be as large as possible and B should be as large as possible too. The largest possible value for D is 9. Then the largest possible value for C would be 8, the largest possible value for B would be 7 and so, the smallest possible value for A must be 6. Therefore BD = 79 and AC = 68.
+
+To calculate the difference: 79 - 68 = 11, which is not included in the options. Let's try another approach.
+If D=9, and C=8, so we have 79.
+Then we have BD=79. Now we have to find the smallest posible value of AC,
+If we take A as the smallest posible value for A being 1, then the value for B should be 2, and AC = 12
+Then difference = 79-12 = 67
+
+We want to make the maximum of BD, where D must be as big as possible and B must be as big as possible too.
+
+If we try D=9, C=8, B=7, A=6:
+BD = 79
+AC = 68
+Difference = 79-68 = 11
+
+Now we will choose values so the difference is maximized:
+
+Let us analyze the alternatives:
+A) 86, means that if BD is 9x and AC is 0x or 1x
+B) 61, means that if BD is 7x and AC is 1x
+C) 56, means that if BD is 9x and AC is 3x
+D) 50, means that if BD is 9x and AC is 4x
+E) 16
+
+Then, let's choose D as high as possible, so it is 9, C is 8, B=7, A=1, so
+BD = 79
+AC = 18
+The difference = 61.
+Other example: D=9, C=8, B=6, A=1
+BD=69
+AC=18
+Difference = 51
+
+If D=9
+If B=8
+C=7
+A = 6
+BD=89
+AC=67
+Difference = 22
+If B=7
+C=8
+A = 6
+BD = 79
+AC = 68
+Difference= 11
+If B=7
+C=8
+A = 1
+BD = 79
+AC = 18
+Difference = 61
+We need a bigger number.
+
+So D is 9
+B is the biggest number before 9
+B = 7
+C = 8
+A = 1
+79 - 18= 61.
+D=9
+C=8
+B=6
+A=1
+BD = 69
+AC = 18
+69-18=51
+
+D=9
+C=8
+B=7
+A=6
+BD=79
+AC=68
+Difference = 11
+
+Then it must be B.
+
+Respuesta: B)

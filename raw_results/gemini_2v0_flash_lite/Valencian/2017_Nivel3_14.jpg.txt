@@ -1,0 +1,8 @@
+Raonament:
+1. **Identificar el patró:** El primer patró té 1 hexàgon (6 llumins). El segon patró té 3 hexàgons (6+2*6 - 6). El tercer patró té 6 hexàgons. La seqüència d'hexàgons és 1, 3, 6, que són els primers nombres triangulars (suma dels primers nombres naturals: 1, 1+2, 1+2+3).
+2. **Calcular el nombre d'hexàgons al quart patró:** El quart patró tindrà 1+2+3+4 = 10 hexàgons.
+3. **Calcular el nombre de llumins:** Cada hexàgon necessita 6 llumins. Dels 10 hexàgons, 6 són per les cantonades (10*6). Però els costats que comparteixen dos hexàgons, tenen un llumí en comú. Per tant s'han de restar dos llumins per cada costat compartit (que formen un únic llumí). El número de costats compartits és 1+2+3=6. El total seria (10 * 6) - (2*6) = 60-12=48
+O bé, el número de llumins del primer patró és 6. El segon és 12 (perquè calen dos per cada hexàgon afegit al anterior. O sigui 6 + 2*3 = 12). El tercer és 18. El patró és sumar 6, 12, 18, 24. O, per a cada patró, tenim el nombre d'hexàgons * 6 menys 6*(hexàgons-1).
+4. El patró del nombre de llumins seria 6, 18, 36, 60. Però compte! Perquè si apliquem les operacions matemàtiques, tindrem (1+2+3+4)*6-1*2-2*2-3*2=60-12=48
+
+Resposta: C)

@@ -1,0 +1,32 @@
+Para resolver este problema, necesitamos entender la relación entre el número de cuatro cifras, N = pqrs, y la suma de los dígitos de N.
+
+1. **Identificar el número de cuatro cifras**: El número N se representa como pqrs, donde p, q, r y s son sus dígitos.
+
+2. **Comprender la media de los números de dos cifras**: La media de los números de dos cifras pq y rs se calcula como:
+   \[
+   \text{media} = \frac{pq + rs}{2}
+   \]
+
+3. **Relación con el número resultante**: El problema menciona que el número resultante pqrs es la media de los números de dos cifras pq y rs. Esto implica que:
+   \[
+   pqrs = \frac{pq + rs}{2}
+   \]
+
+4. **Simplificar la ecuación**: Multiplicando ambos lados de la ecuación por 2, obtenemos:
+   \[
+   2 \cdot pqrs = pq + rs
+   \]
+
+5. **Sumar los dígitos de N**: La suma de los dígitos de N es:
+   \[
+   p + q + r + s
+   \]
+
+6. **Evaluar las opciones**: Necesitamos determinar cuál de las opciones (A) 14, (B) 18, (C) 21, (D) 25 o (E) 27 es igual a la suma de los dígitos de N.
+
+   - Si pqrs es un número de cuatro cifras, la suma de sus dígitos debe ser un número que sea razonable para un número de cuatro cifras.
+   - Evaluando las opciones, vemos que 21 es una suma de dígitos razonable para un número de cuatro cifras.
+
+Razonamiento: La relación dada implica que el número resultante pqrs es la media de los números de dos cifras pq y rs. Esto lleva a la ecuación 2pqrs = pq + rs. La suma de los dígitos de N es p + q + r + s. Evaluando las opciones, 21 es la suma de los dígitos más probable para un número de cuatro cifras.
+
+Respuesta: C)

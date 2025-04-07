@@ -1,0 +1,25 @@
+Razonamiento:
+1.  Entendimiento del problema: El problema nos dice que la suma de dos números es el doble de su diferencia. Nos pide hallar cuántas parejas de números enteros positivos menores que 100 cumplen esa condición.
+2.  Planteamiento de ecuaciones: Sea x e y los dos números, donde x > y.
+    *   La suma es x + y
+    *   La diferencia es x - y
+    *   La condición dice que x + y = 2(x - y)
+3.  Resolución:
+    *   Simplificamos la ecuación: x + y = 2x - 2y
+    *   3y = x.  Esto quiere decir que x es siempre el triple de y.
+4.  Condiciones:
+    *   x > 0, y > 0 (positivos)
+    *   x < 100, y < 100 (menores que 100)
+5.  Encontrar parejas que cumplen las condiciones:
+    *   Si y = 1, entonces x = 3 (3,1)
+    *   Si y = 2, entonces x = 6 (6,2)
+    *   Si y = 3, entonces x = 9 (9,3)
+    *   ...
+    *   Si y = 32, entonces x = 96 (96, 32). Si y=33, entonces x = 99
+6.  Contar las parejas:
+    *   La pareja más grande que cumple es (99, 33).
+    *   El valor más grande que puede tomar 'y' es 33 ya que si y=34, entonces x=102 (mayor que 100)
+    *   Los valores que puede tomar 'y' son los números enteros desde 1 hasta 33.
+    *   Por lo tanto, hay 33 parejas que cumplen la condición.
+
+Respuesta: D)

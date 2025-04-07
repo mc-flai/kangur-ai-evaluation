@@ -1,0 +1,59 @@
+**Razonamiento:**
+1. Dado el sistema de ecuaciones:
+   \[
+   a + b = 4
+   \]
+   \[
+   a^2 + b^2 = 6
+   \]
+
+2. Queremos encontrar el valor de \(a^3 + b^3\).
+
+3. Primero, recordemos la identidad de la suma de cubos:
+   \[
+   a^3 + b^3 = (a + b)(a^2 - ab + b^2)
+   \]
+
+4. Sabemos que \(a + b = 4\), así que sustituimos:
+   \[
+   a^3 + b^3 = 4(a^2 - ab + b^2)
+   \]
+
+5. Ahora, necesitamos encontrar \(a^2 - ab + b^2\). Usamos las identidades conocidas:
+   \[
+   a^2 + b^2 = 6
+   \]
+   \[
+   (a + b)^2 = a^2 + 2ab + b^2
+   \]
+
+6. Sustituyendo \(a + b = 4\) en la identidad de la suma de cuadrados:
+   \[
+   4^2 = a^2 + 2ab + b^2
+   \]
+   \[
+   16 = a^2 + 2ab + b^2
+   \]
+
+7. Restamos \(a^2 + b^2\) de ambos lados:
+   \[
+   16 - 6 = a^2 + 2ab + b^2 - (a^2 + b^2)
+   \]
+   \[
+   10 = 2ab
+   \]
+   \[
+   ab = 5
+   \]
+
+8. Ahora, sustituimos \(a^2 + b^2 = 6\) y \(ab = 5\) en la identidad de la suma de cubos:
+   \[
+   a^2 - ab + b^2 = 6 - 5 = 1
+   \]
+
+9. Finalmente, sustituimos en la fórmula de la suma de cubos:
+   \[
+   a^3 + b^3 = 4 \cdot 1 = 4
+   \]
+
+**Respuesta:** A)

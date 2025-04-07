@@ -1,0 +1,9 @@
+Reasoning:
+The rectangle has vertices (0,0), (100,0), (100,50), and (0,50). Its area is 100 * 50 = 5000.
+A circle with center (75,30) and radius 10 is cut from the rectangle. The area of the circle is π * 10^2 = 100π.
+The remaining area is 5000 - 100π. Half of this area is (5000 - 100π)/2 = 2500 - 50π.
+The line passes through the center of the circle (75,30). For the line to divide the remaining area in half, it must pass through the center of the rectangle, which is (50, 25). However, this is not possible as the line has to pass through (75,30).
+Instead, the line dividing the remaining area must also pass through the center of the rectangle after the circle is removed. Since the line passes through the center of the circle, it already balances the circle. Therefore, we need to determine the slope of the line passing through the center of the rectangle (50, 25) and the center of the circle (75, 30).
+The gradient is (30-25) / (75-50) = 5 / 25 = 1/5.
+
+Answer: A)

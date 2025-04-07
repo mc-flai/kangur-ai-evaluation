@@ -1,0 +1,25 @@
+Pour résoudre la question 8, nous devons trouver quelle combinaison de pièces de puzzle peut être utilisée pour remplir le coin manquant en bas à droite du puzzle en utilisant les pièces proposées.
+
+**Raisonnement :**
+1. Observons d'abord le coin manquant dans le puzzle. Nous voyons qu'il doit contenir les chiffres 3, 4, 5 et 2 pour compléter la séquence.
+2. Maintenant, vérifions chaque option pour voir quelle combinaison de pièces contient ces chiffres.
+
+   - Option A) :
+     - Pièces : (4, 1, 2, 3)
+     - Ne contient pas le chiffre 5.
+   - Option B) :
+     - Pièces : (1, 3, 4, 2)
+     - Ne contient pas le chiffre 5.
+   - Option C) :
+     - Pièces : (2, 4, 1, 3)
+     - Ne contient pas le chiffre 5.
+   - Option D) :
+     - Pièces : (2, 3, 1, 4)
+     - Ne contient pas le chiffre 5.
+   - Option E) :
+     - Pièces : (3, 2, 1, 4)
+     - Contient tous les chiffres nécessaires (3, 4, 5, 2).
+
+3. La seule option qui contient tous les chiffres nécessaires est l'option E).
+
+**Réponse :** E).

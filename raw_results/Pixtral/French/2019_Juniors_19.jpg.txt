@@ -1,0 +1,13 @@
+
+Raisonnement :
+1. Nous devons trouver le nombre maximum de pommes et de poires qui peuvent être emballées dans des boîtes de main avec la contrainte que le nombre de pommes dans deux boîtes ne doit pas dépasser le nombre de poires.
+2. Si nous avons 60 pommes et 60 poires, nous devons déterminer combien de boîtes peuvent contenir ces fruits tout en respectant la contrainte.
+3. Supposons que nous avons une boîte qui peut contenir un maximum de 20 fruits. Nous devons vérifier combien de boîtes peuvent contenir 60 pommes et 60 poires tout en respectant la contrainte.
+4. Si nous avons 3 boîtes de 20 fruits chacune, nous aurions 60 fruits dans ces 3 boîtes. Cela signifie que nous avons 60 pommes et 0 poires ou 0 pommes et 60 poires dans ces boîtes.
+5. Si nous avons 4 boîtes de 15 fruits chacune, nous aurions 60 fruits dans ces 4 boîtes. Cela signifie que nous avons 60 pommes et 0 poires ou 0 pommes et 60 poires dans ces boîtes.
+6. Si nous avons 5 boîtes de 12 fruits chacune, nous aurions 60 fruits dans ces 5 boîtes. Cela signifie que nous avons 60 pommes et 0 poires ou 0 pommes et 60 poires dans ces boîtes.
+7. Si nous avons 6 boîtes de 10 fruits chacune, nous aurions 60 fruits dans ces 6 boîtes. Cela signifie que nous avons 60 pommes et 0 poires ou 0 pommes et 60 poires dans ces boîtes.
+8. Si nous avons 10 boîtes de 6 fruits chacune, nous aurions 60 fruits dans ces 10 boîtes. Cela signifie que nous avons 60 pommes et 0 poires ou 0 pommes et 60 poires dans ces boîtes.
+9. En comparant les options, nous voyons que la boîte de 20 fruits est la plus grande qui peut contenir le maximum de fruits tout en respectant la contrainte.
+
+Réponse : A)

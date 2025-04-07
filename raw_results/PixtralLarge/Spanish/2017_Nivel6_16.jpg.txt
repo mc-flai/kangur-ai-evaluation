@@ -1,0 +1,52 @@
+Para determinar cuál de los números dados es una raíz del polinomio \(5x^3 + ax^2 + bx + 24\), usamos el Teorema del Resto. Este teorema nos dice que si \(c\) es una raíz del polinomio \(P(x)\), entonces \(P(c) = 0\).
+
+Primero, escribamos la forma general del polinomio:
+\[ P(x) = 5x^3 + ax^2 + bx + 24 \]
+
+Las opciones dadas son:
+A) 1
+B) -1
+C) 3
+D) 5
+E) 6
+
+Evaluemos el polinomio en cada una de estas opciones:
+
+**A) Para \(x = 1\):**
+\[ P(1) = 5(1)^3 + a(1)^2 + b(1) + 24 = 5 + a + b + 24 \]
+Para que \(1\) sea una raíz, \(5 + a + b + 24 = 0\).
+\[ 5 + a + b + 24 = 0 \]
+\[ a + b = -29 \]
+
+**B) Para \(x = -1\):**
+\[ P(-1) = 5(-1)^3 + a(-1)^2 + b(-1) + 24 = -5 + a - b + 24 \]
+Para que \(-1\) sea una raíz, \(-5 + a - b + 24 = 0\).
+\[ -5 + a - b + 24 = 0 \]
+\[ a - b = -19 \]
+
+**C) Para \(x = 3\):**
+\[ P(3) = 5(3)^3 + a(3)^2 + b(3) + 24 = 5 \cdot 27 + 9a + 3b + 24 = 135 + 9a + 3b + 24 \]
+Para que \(3\) sea una raíz, \(135 + 9a + 3b + 24 = 0\).
+\[ 135 + 9a + 3b + 24 = 0 \]
+\[ 9a + 3b = -159 \]
+\[ 3a + b = -53 \]
+
+**D) Para \(x = 5\):**
+\[ P(5) = 5(5)^3 + a(5)^2 + b(5) + 24 = 5 \cdot 125 + 25a + 5b + 24 = 625 + 25a + 5b + 24 \]
+Para que \(5\) sea una raíz, \(625 + 25a + 5b + 24 = 0\).
+\[ 625 + 25a + 5b + 24 = 0 \]
+\[ 25a + 5b = -649 \]
+\[ 5a + b = -129.8 \]
+
+**E) Para \(x = 6\):**
+\[ P(6) = 5(6)^3 + a(6)^2 + b(6) + 24 = 5 \cdot 216 + 36a + 6b + 24 = 1080 + 36a + 6b + 24 \]
+Para que \(6\) sea una raíz, \(1080 + 36a + 6b + 24 = 0\).
+\[ 1080 + 36a + 6b + 24 = 0 \]
+\[ 36a + 6b = -1104 \]
+\[ 6a + b = -184 \]
+
+De las ecuaciones anteriores, vemos que solo la opción C) \(x = 3\) satisface una relación lineal simple entre \(a\) y \(b\) que podría ser cero, dado que \(3a + b = -53\) y se ajusta a la estructura del polinomio.
+
+**Razonamiento**: Evaluamos cada opción utilizando el Teorema del Resto y encontramos que solo \(x = 3\) da una relación lineal simple que podría ser cero.
+
+**Respuesta**: C).

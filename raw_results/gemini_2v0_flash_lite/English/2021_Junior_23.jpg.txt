@@ -1,0 +1,56 @@
+Reasoning:
+To minimize N, we want to use as many 9's as possible.  2021 divided by 9 is 224 with a remainder of 5. So, N will have 224 digits that are 9, and one digit that is 5 at the beginning. Then, N = 5 followed by 224 nines. We need to find the sum of the digits of N + 2021.
+
+N = 5999...999  (224 nines)
+N + 2021 = 5999...999 + 2021 = 7021999...999 (221 nines)
+
+The sum of the digits of N+2021 is 7 + 0 + 2 + 1 + 221*9 = 10 + 1989 = 2000 + 9 = 2010.
+However, based on the way the options are listed, it seems there is a flaw in the method.
+Let's try another way:
+N is made of 224 nines and one 5, in total 225 digits.
+N + 2021.
+N = 5999...999  (224 nines)
+N+2021 = 5999...999 + 2021
+Since the number of nines is big, the result will have a "carry over":
+5999...999 + 2021 = 6000...000 + 2020 = 7020999...999 (221 nines)
+The correct result will be 599...999 + 2021:
+(5 + 2) = 7
+99...999 + 000 = 99...999
+99...999 + 2021 = 99...999 + 2021
+599...9 + 2021 = 702199...9
+Adding to 5, 2021, we get 7 as the first digit.
+Then we need to consider the effect of adding 2021.
+7+0+2+1+221*9 = 10+1989 = 2000
+The calculation:
+   599...999
++  2021
+---------
+702100...000
+The digits: 7 + 0 + 2 + 1 + 220 zeros = 10
+So we have to calculate the sums of digits of N + 2021, 7 + 0 + 2 + 1 + (221*9) = 10 + 1989 = 1999+10 = 2000.
+The number of nines is 224, so the number of other digits is one "5".
+N+2021 = 7021 + 221 * 9 = 2000.
+The digits: 7 + 0 + 2 + 1 = 10. The remainder is 10
+When we have sum = 2021, N has 224 digits = 9 and a digit of 5 (since 2021 = 224*9 + 5)
+So N = 5(224) 9s
+Adding 2021 gives :
+599...99 + 2021
+= 7020...000
+So N+2021 = 599...9 + 2021, where the original number has 224 nines. So, the number of digits of N + 2021:
+7020. So there are (225 - 4) = 221 digits of 0.  The number looks like 702100...0
+599...9 + 2021
+The result would be 702100...0. 7+2+1 is only 10, so the nines need to convert.
+
+N+2021:
+The last 4 digits are 9999+2021
+N = 599...999
+702000...0
+The result:  5999...9 + 2021= 702100...00
+The digit sum is 7+0+2+1 =10
+
+Answer: A)
+
+Reasoning: The sum of the digits of N is 2021. N is the smallest positive integer, so it should have as many 9s as possible. Therefore, the N should have 224 of 9, and 1 of 5.
+599..9 + 2021.  It adds as 702100...00. So we have 7+0+2+1+0+0=10.
+
+Answer: A)

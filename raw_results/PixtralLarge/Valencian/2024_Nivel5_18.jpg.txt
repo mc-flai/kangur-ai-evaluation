@@ -1,0 +1,51 @@
+**Raonament**:
+
+Per resoldre aquesta pregunta, hem d'entendre que ens estan demanant el nombre de cubs petits que serien necessaris per formar un cub gros amb la mateixa pinta total que un nombre de cubs petits donat.
+
+Primer, calculem la pinta total de n cubs petits:
+- Un cub té 6 cares.
+- Si un cub té totes les cares pintades, llavors té 6 unitats de pinta.
+- Per tant, n cubs petits tenen una pinta total de 6n.
+
+Ara, si aquestes n cubs petits es combinen per formar un cub gros, la pinta total d'aquest cub gros ha de ser igual a 6n.
+
+Un cub gros format per n cubs petits tindrà un volum de n, i per tant la longitud del costat del cub gros serà l'arrel cúbica de n:
+
+\[ \text{Longitud del costat del cub gros} = \sqrt[3]{n} \]
+
+La pinta total d'un cub gros és el producte de l'àrea de les seves 6 cares, i cada cara té un àrea igual al quadrat de la longitud del costat del cub gros. Per tant:
+
+\[ \text{Pinta total del cub gros} = 6 \times (\sqrt[3]{n})^2 \]
+
+Per tant, estem buscant el valor de n tal que:
+
+\[ 6 \times (\sqrt[3]{n})^2 = 6n \]
+
+Simplificant, tenim:
+
+\[ (\sqrt[3]{n})^2 = n \]
+
+Això significa que n ha de ser un nombre tal que l'arrel cúbica de n al quadrat sigui igual a n. Això és cert per a qualsevol valor de n. Però, segons les opcions donades, hem de trobar el valor de n que correspon a un cub gros amb la pinta total igual a la dels cubs petits.
+
+Observem les opcions:
+- A) 4
+- B) 6
+- C) 7
+- D) 8
+- E) 10
+
+Per a n = 8, tenim:
+
+\[ \sqrt[3]{8} = 2 \]
+
+La pinta total del cub gros seria:
+
+\[ 6 \times 2^2 = 6 \times 4 = 24 \]
+
+Això coincideix amb la pinta total de 8 cubs petits, ja que:
+
+\[ 6 \times 8 = 48 \]
+
+Així doncs, el valor de n que satisfà la condició és 8.
+
+**Resposta**: D)

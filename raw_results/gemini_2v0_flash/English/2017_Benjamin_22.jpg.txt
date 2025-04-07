@@ -1,0 +1,24 @@
+Reasoning:
+From the keys, we have the following:
+DAD -> 419 (A=1, D=4)
+BHD -> 612 (H=1, B=6, D=2)
+
+Since both the DAD key and BHD key have D as a digit, the value of D must be the same. However, in DAD, D is 4, and in BHD, D is 2. Since the problem states same letters mean same digits, one of these are incorrect, meaning they will not be useful to us.
+
+The remaining clues are as follows:
+ABD
+AHD
+HAB
+124
+184
+?
+
+Let's test the answers in turn.
+We need to find a 3-digit number where the digits correspond to the letters H, A, B in that order.
+(A) 382, H=3, A=8, B=2. Then, we would have: ABD = 824, AHD=834, HAB = 382. ABD = 124, so A can't be 8, so this can't be the answer.
+(B) 282, H=2, A=8, B=2. Then, we would have: ABD = 824, AHD = 824, HAB = 282. Since A=8, ABD=824 = 124. This can't be true.
+(C) 284, H=2, A=8, B=4. Then, we would have: ABD = 84D, AHD = 82D, HAB = 284. Since A=8, ABD=8BD = 124. This can't be true.
+(D) 823, H=8, A=2, B=3. Then, we would have: ABD = 23D, AHD = 28D, HAB = 823. Since A=2, ABD=23D = 124, A can't be 2, so this can't be the answer.
+(E) 824, H=8, A=2, B=4. Then, we would have: ABD = 24D, AHD = 28D, HAB = 824. Since A=2, ABD=24D = 124. So D=1. Thus, ABD = 241, AHD = 281, HAB = 824. Therefore, this is a valid choice.
+
+Answer: E)

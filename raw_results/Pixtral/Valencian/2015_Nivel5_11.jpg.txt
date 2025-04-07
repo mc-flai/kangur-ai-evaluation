@@ -1,0 +1,21 @@
+
+La pregunta 11 nos dice que Pere y Joan están llenando un barco de pesca. Pere pesca 5 peces por llenado, mientras que Joan pesca 3 veces el número de peces que Pere pesca en cada llenado. Juntos, llenan 35 veces. Queremos averiguar cuántas veces llenó Joan el barco.
+
+**Razonamiento:**
+1. Primero, determinamos cuántas veces llenó Pere el barco. Si Joan pesca 3 veces el número de peces que Pere, entonces:
+   - Si Joan llena 1 vez, Pere llena 1/3 veces.
+   - Si Joan llena 2 veces, Pere llena 2/3 veces.
+   - Si Joan llena 3 veces, Pere llena 3/3 veces.
+   - Si Joan llena 4 veces, Pere llena 4/3 veces, lo cual no es posible porque Pere no puede llenar más veces que Joan.
+2. Por lo tanto, Joan puede llenar el barco 1, 2 o 3 veces.
+3. Calculamos el número de llenados de Pere para cada caso:
+   - Si Joan llena 1 vez, Pere llena 1/3 veces.
+   - Si Joan llena 2 veces, Pere llena 2/3 veces.
+   - Si Joan llena 3 veces, Pere llena 3/3 veces.
+4. Sumamos los llenados de Pere y Joan para cada caso:
+   - Joan llena 1 vez: Pere llena 1/3 veces, total 1 + 1/3 = 4/3 veces.
+   - Joan llena 2 veces: Pere llena 2/3 veces, total 2 + 2/3 = 8/3 veces.
+   - Joan llena 3 veces: Pere llena 3/3 veces, total 3 + 3 = 6 veces.
+5. Ninguno de estos totales suma 35 llenados. Por lo tanto, no podemos determinar cuántas veces llenó Joan el barco solo con la información dada.
+
+**Respuesta:** E) No se puede saber.

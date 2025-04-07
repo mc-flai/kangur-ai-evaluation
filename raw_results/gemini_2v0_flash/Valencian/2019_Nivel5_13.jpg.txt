@@ -1,0 +1,19 @@
+Raonament: La bandera té una relació altura:amplada de 3:5. La bandera està dividida en 4 rectangles d'àrea igual. L'altura total es divideix en tres parts i l'amplada total es divideix en 5 parts. D'aquests, dos rectangles ocupen l'alçada de l'altura i un ample complet. Per tant, l'alçada del rectangle blanc és 3/3 = 1 de les parts i l'amplada del rectangle blanc és 5. Això significa que els quatre rectangles tenen l'alçada 1 i que l'àrea de cadascun és 5. Per tant, el rectangle de l'esquerra té una altura de 3 i una amplada de 5/3. Això significa que l'alçada del rectangle blanc és (3/3) de l'alçada total.
+Siguin $h$ l'altura i $w$ l'amplada del rectangle blanc. Aleshores, l'àrea del rectangle blanc és $hw$.
+L'àrea de la bandera és $3 \cdot 5 = 15$. Per tant, l'àrea de cada un dels quatre rectangles és $15/4$. Així doncs, $hw = 15/4$.
+L'amplada del rectangle blanc és igual a l'amplada total de la bandera, que és 5. La seva altura és l'altura de la bandera dividida entre tres, per tant val 1. Per tant, l'àrea del rectangle blanc és $1\cdot 5$. Per tant, això no és cert.
+Siguin $h$ l'altura i $w$ l'amplada de la bandera. Es diu que la relació entre l'altura i l'amplada és 3:5. Per tant, si $h=3x$, aleshores $w=5x$ per alguna $x$.
+La bandera es divideix en quatre rectangles d'àrea igual. Sigui $h_1$, $h_2$ i $h_3$ les altures dels tres rectangles horitzontals (d'alt a baix).
+L'amplada del rectangle vertical és $w_1$. L'amplada dels tres rectangles horitzontals és $w$.
+L'àrea de la bandera és $hw$. Per tant, l'àrea de cada rectangle és $hw/4$. Per tant $h_1 w = h_2 w = h_3 w$ implica que $h_1 = h_2 = h_3$. Ja que $h_1+h_2+h_3=h$, sabem que $h_1 = h_2 = h_3 = h/3$. L'altura del rectangle blanc és $h/3$, que és $3x/3 = x$.
+L'àrea del rectangle vertical és $h_1 w_1 = (h/3) w_1 = hw/4$. Implica que $w_1 = \frac{3w}{4} = \frac{3 \cdot 5x}{4} = \frac{15x}{4}$.
+L'amplada del rectangle blanc és la mateixa que l'amplada de la bandera menys l'amplada del rectangle vertical, de manera que és $5x - \frac{15x}{4} = \frac{20x-15x}{4} = \frac{5x}{4}$.
+La relació entre l'altura i l'amplada del rectangle blanc és $\frac{x}{5x/4} = \frac{4}{5}$.
+L'àrea del rectangle blanc és $\frac{5x^2}{4}$. A més, $\frac{5x^2}{4} = \frac{hw}{4} = \frac{3x \cdot 5x}{4} = \frac{15x^2}{4}$. Això no funciona.
+
+L'altura de cada rectangle és $3/3 = 1$ i la amplada és $5/4$. L'amplada del rectangle blanc és $5 - \frac{5}{4}=\frac{10}{4}$
+L'amplada del rectangle blanc és $5 - 5/4 = 15/4$.
+L'alçada del rectangle blanc és $3/3 = 1$.
+Aleshores, la relació és $1 : \frac{15}{4} = 4 : 15$.
+
+Resposta: E)

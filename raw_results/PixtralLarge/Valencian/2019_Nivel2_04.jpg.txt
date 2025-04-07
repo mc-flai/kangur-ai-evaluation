@@ -1,0 +1,45 @@
+Raonament: Segons la informació proporcionada, Joan i Pau han resolt més problemes que Clara i Tomàs. Cal determinar quina és la diferència entre els nombres de problemes resolts per Clara i Tomàs.
+
+Primer, determinem els problemes resolts per cadascuna de les persones:
+- Joan ha resolt 8 més que Pau.
+- Pau ha resolt 11 problemes més que Clara i Tomàs.
+- Clara i Tomàs han resolt 3 problemes més que Joan.
+
+Denotem els problemes resolts per Joan com J, per Pau com P, per Clara com C i per Tomàs com T.
+
+1. J = P + 8
+2. P = C + T + 11
+3. C + T = J + 3
+
+Substituïm J de la primera equació en la tercera:
+C + T = (P + 8) + 3
+C + T = P + 11
+
+Substituïm P de la segona equació en l'anterior:
+C + T = (C + T + 11) + 11
+C + T = C + T + 22
+
+Això no té sentit, ja que s'ha d'equilibrar l'equació. Per tant, hem de revisar les equacions:
+
+De la segona equació:
+P = C + T + 11
+
+De la primera equació:
+J = P + 8
+
+Substituïm P de la segona equació en la primera:
+J = (C + T + 11) + 8
+J = C + T + 19
+
+De la tercera equació:
+C + T = J + 3
+
+Substituïm J de l'equació anterior:
+C + T = (C + T + 19) + 3
+C + T = C + T + 22
+
+D'aquí es dedueix que C + T = 22.
+
+La diferència entre els problemes resolts per Clara i Tomàs és de 22 problemes.
+
+Resposta: C)

@@ -1,0 +1,15 @@
+**Reasoning**: 
+To solve this problem, we need to identify which single-digit positive whole numbers can be combined to form the sum of 10. 
+
+The possible pairs of single-digit numbers that add up to 10 are:
+- 1 + 9 = 10
+- 2 + 8 = 10
+- 3 + 7 = 10
+- 4 + 6 = 10
+- 5 + 5 = 10 (However, this uses the same digit twice, and the problem specifies that the numbers must be different)
+
+Given that Sven writes five different single-digit positive whole numbers on the board, none of which can be combined to make 10, the only possible number to exclude is 5. 
+
+By excluding 5, we ensure that no two numbers on the board can sum to 10.
+
+**Answer**: E).

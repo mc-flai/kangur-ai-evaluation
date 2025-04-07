@@ -1,0 +1,13 @@
+
+La pregunta 24 nos pide determinar cuántas llauenes de un solo color puede pintar María, considerando que tiene 36 llauenes en total, distribuidas en tres colores: blanco, azul y verde. Las cantidades son 25 llauenes blancas, 28 llauenes azules y 20 llauenes verdes. Además, hay 5 llauenes que tienen una combinación de los 3 colores.
+
+**Razonamiento:**
+1. Primero, calculamos el número total de llauenes que tienen al menos dos colores:
+   - Hay 5 llauenes que tienen los 3 colores.
+2. Luego, restamos este número del total de llauenes para encontrar cuántas llauenes tienen solo un color:
+   - 36 llauenes totales - 5 llauenes con 3 colores = 31 llauenes con un solo color.
+3. Ahora, sumamos las llauenes de cada color para verificar:
+   - 25 llauenes blancas + 28 llauenes azules + 20 llauenes verdes + 5 llauenes con 3 colores = 78 llauenes.
+   - Esto confirma que 31 llauenes tienen un solo color.
+
+**Respuesta:** D)

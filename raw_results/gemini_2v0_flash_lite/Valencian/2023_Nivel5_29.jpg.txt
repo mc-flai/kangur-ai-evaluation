@@ -1,0 +1,23 @@
+Raonament: The given equation is $a^{2x} - b^{2x} - 2(ab)^x = 0$. We can rewrite the equation as $(a^x)^2 - (b^x)^2 - 2(ab)^x = 0$.  This is a quadratic-like equation, so let's try to rewrite it. Divide the equation by $(ab)^x$:
+
+$\frac{(a^x)^2}{(ab)^x} - \frac{(b^x)^2}{(ab)^x} - 2 = 0$.
+
+$\frac{a^{2x}}{a^x b^x} - \frac{b^{2x}}{a^x b^x} - 2 = 0$
+
+$\frac{a^x}{b^x} - \frac{b^x}{a^x} - 2 = 0$.
+
+Let $u = \frac{a^x}{b^x} = (\frac{a}{b})^x$. Then, we have $u - \frac{1}{u} - 2 = 0$.  Multiplying by $u$:
+$u^2 - 1 - 2u = 0$
+$u^2 - 2u - 1 = 0$.
+Using the quadratic formula,
+$u = \frac{-(-2) \pm \sqrt{(-2)^2 - 4(1)(-1)}}{2(1)} = \frac{2 \pm \sqrt{4+4}}{2} = \frac{2 \pm \sqrt{8}}{2} = \frac{2 \pm 2\sqrt{2}}{2} = 1 \pm \sqrt{2}$.
+Since $a>1$ and $b>1$, we have $a/b>0$. Thus, $u = (\frac{a}{b})^x > 0$.  Therefore $u = 1+\sqrt{2}$ or $u=1-\sqrt{2}$ but $1-\sqrt{2} < 0$ so this is not possible, therefore we must have $u = 1+\sqrt{2}$.
+
+Then $(\frac{a}{b})^x = 1 + \sqrt{2}$. Taking the natural log of both sides,
+$x \ln(\frac{a}{b}) = \ln(1+\sqrt{2})$
+$x (\ln a - \ln b) = \ln(1+\sqrt{2})$
+$x = \frac{\ln(1+\sqrt{2})}{\ln a - \ln b}$
+
+If we consider $x = \frac{\ln (\sqrt{2}+1)}{\ln(a/b)}$  which is D).
+
+Resposta: D)

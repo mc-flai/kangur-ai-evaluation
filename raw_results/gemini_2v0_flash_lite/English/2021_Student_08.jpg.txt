@@ -1,0 +1,7 @@
+Reasoning: For a number to be divisible by 5, it must end in either a 0 or a 5. Since we are only allowed to use the digits 1, 3, and 5, the last digit must be a 5. The first two digits can be any of the three digits (1, 3, or 5). This gives us:
+-  For the first digit, we have 3 choices (1, 3, or 5).
+-  For the second digit, we have 3 choices (1, 3, or 5).
+-  For the third digit, we have 1 choice (5).
+Therefore, the total number of 3-digit numbers that can be formed is 3 * 3 * 1 = 9.
+
+Answer: C)

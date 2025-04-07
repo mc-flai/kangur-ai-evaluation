@@ -1,0 +1,22 @@
+Raonament: La pregunta és: Un nombre de 4 dígits `abcd` satisfà l'equació `abcd` = a<sup>a</sup> + b<sup>b</sup> + c<sup>c</sup> + d<sup>d</sup>. Quin és el valor de a?
+
+Aquesta és una equació difícil de resoldre analíticament de manera directa. No obstant això, podem provar les opcions donades per 'a' i veure si podem trobar una solució vàlida per als dígits 'b', 'c' i 'd' tal que es compleixi l'equació. Notem que a, b, c i d són dígits entre 0 i 9. També, ja que `abcd` és un nombre de 4 dígits, `a` no pot ser 0.
+
+Però, hi ha un error en l'equació mostrada a la imatge. L'equació original era `abcd = a^a + b^b + c^c + d^d` , on `abcd` representa el nombre 1000*a + 100*b + 10*c + d. L'imatge llegeix `abcd = a² + b + cc + dd`, la qual cosa no té sentit.
+
+Assumirem que l'equació correcta és `abcd = a^a + b^b + c^c + d^d`. Comencem a provar opcions per a 'a':
+
+*   **A) a = 3:** Llavors, 3000 <= 3<sup>3</sup> + b<sup>b</sup> + c<sup>c</sup> + d<sup>d</sup> < 4000, o 3000 <= 27 + b<sup>b</sup> + c<sup>c</sup> + d<sup>d</sup> < 4000. Llavors, 2973 <= b<sup>b</sup> + c<sup>c</sup> + d<sup>d</sup> < 3973. Possible.
+*   **B) a = 3:** Ja provat anteriorment.
+*   **C) a = 3:** Ja provat anteriorment.
+*   **D) a = 3:** Ja provat anteriorment.
+*   **E) a = 3:** Ja provat anteriorment.
+
+En realitat, es necessita més informació.
+Notem que si a=3, l'equació esdevé `3bcd = 3³ + bᵇ + cᶜ + dᵈ` o `3000 + 100b + 10c + d = 27 + bᵇ + cᶜ + dᵈ`.
+Si escollim b=4, c=3, d=5, llavors 3435 = 27 + 4⁴ + 3³ + 5⁵ = 27 + 256 + 27 + 3125 = 3435. Així, a=3, b=4, c=3 i d=5 és una solució.
+Per tant, a=3 és una possible solució.
+
+Resposta: B)
+Raonament: Utilitzant l'equació correcta  `abcd = a^a + b^b + c^c + d^d` i provant la solució b=3:  `3435 = 3^3 + 4^4 + 3^3 + 5^5  = 27 + 256 + 27 + 3125 = 3435`. Per tant la resposta és 3.
+Resposta: B)

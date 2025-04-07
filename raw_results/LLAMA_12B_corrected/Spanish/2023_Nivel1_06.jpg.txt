@@ -1,0 +1,19 @@
+### Razonamiento
+
+La pregunta 6 pregunta a Ana acerca de la cantidad de discos de diferente tamaño necesarios para construir un torre de cuatro discos de manera que cada disco sea más pequeño que el disco que se encuentra debajo. Esta es una pregunta que procede de un problema de Patrón de Fibonacci.
+
+La fórmula para el n-ésimo término del Patrón de Fibonacci es:
+
+$$
+f(n)=\binom{n-1}{1}+\binom{n-2}{1}
+$$
+
+donde $\binom{n}{k}=\frac{n(n-1)\cdots(n-k+1)}{k!(n-k)!}$
+
+La solución para el cuarto término de esta secuencia uhorariamente $f(4)=\binom{3}{1}+\binom{2}{1}=6$ 
+
+Por tanto, $6$ discos de diferentes tamaños son necesarios. La respuesta correcta es entonces $(A)$.
+
+### Respuesta
+
+A)

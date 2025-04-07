@@ -1,0 +1,14 @@
+**Reasoning**: To determine the number of ways Anna can build the tower, we need to consider the constraints given: she has five discs of different sizes and must use exactly four of them in a specific order (smaller on top of bigger). 
+
+1. **Choosing 4 Discs**: First, Anna needs to choose 4 discs out of the 5 available. The number of ways to choose 4 discs from 5 is given by the combination formula \( C(n, k) = \frac{n!}{k!(n-k)!} \), where \( n \) is the total number of items to choose from, and \( k \) is the number of items to choose.
+   
+   Here, \( n = 5 \) and \( k = 4 \):
+   \[
+   C(5, 4) = \frac{5!}{4!(5-4)!} = \frac{5!}{4! \cdot 1!} = \frac{5 \cdot 4!}{4! \cdot 1} = 5
+   \]
+
+2. **Ordering the 4 Discs**: Once she has chosen 4 discs, there is only one way to arrange them according to the rule (smaller on top of bigger).
+
+Combining these two steps, the total number of ways to build the tower is the number of ways to choose the 4 discs.
+
+**Answer**: C).

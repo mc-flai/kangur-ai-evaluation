@@ -1,0 +1,38 @@
+Razonamiento:
+La suma de los enteros positivos de 1 a n es n(n+1)/2. Sea p el número primo que divide a esta suma pero no a ninguno de los sumandos.  Esto implica que p no divide a n, ni a n+1.  Por lo tanto, p debe dividir a n(n+1)/2.  Como p no divide a n ni a n+1, entonces p debe dividir a 2 o a n(n+1)/2. Como p no divide a n ni a n+1, entonces p debe dividir a 2. Esto implica que p=2.
+Si p=2, entonces n(n+1)/2 es divisible por 2. Esto significa que n(n+1) es divisible por 4. Pero si n es impar, entonces n+1 es par, pero si p=2 no divide a ningún sumando (i.e. ningún número de 1 a n), n es un número impar. Luego, si n es impar, n+1 es par, pero no divisible por 4.  En este caso, n+1=2*m donde m es un entero impar. Pero n es un número impar, luego n+1 es par. Entonces n=4k+1 or n=4k+3. Si p=2 no divide a ningún sumando, entonces n es impar. La suma es n(n+1)/2. n+p=n+2.
+Si n es impar, entonces n+1 es par.  n(n+1)/2 = n*(2k)/2 = n*k.  Entonces, si 2 no divide a ninguno de los sumandos, entonces 2 no divide a n.  n es impar.
+Como p=2, n+p=n+2.
+Si n es impar, entonces n+2 es impar.
+Miramos las opciones:
+A) 217. n+2=217, n=215. La suma es 215*216/2.  2 no divide a 215, 215 es impar, y 2 no divide a ningún sumando.
+B) 221. n+2=221, n=219. La suma es 219*220/2.  2 no divide a 219, 219 es impar, y 2 no divide a ningún sumando.
+C) 229. n+2=229, n=227. La suma es 227*228/2.  2 no divide a 227, 227 es impar, y 2 no divide a ningún sumando.
+D) 245. n+2=245, n=243. La suma es 243*244/2.  2 no divide a 243, 243 es impar, y 2 no divide a ningún sumando.
+E) 269. n+2=269, n=267. La suma es 267*268/2.  2 no divide a 267, 267 es impar, y 2 no divide a ningún sumando.
+De los casos anteriores, n es impar. Si p divide a la suma pero no a n ni a n+1, entonces p=2. Si p=2, entonces n es impar. Si n es impar, entonces n+1 es par. Entonces n+2 debe ser impar.
+n(n+1)/2. Si n es impar, la suma es divisible por 2.
+La única solución que cumple que n+p es impar es A, B, C, D, E.
+Si n es impar, entonces n+1=2k, luego n(n+1)/2=n*k.
+Si n es impar, la respuesta es válida.
+En todos los casos, n es impar.  Si n es impar, entonces n+1 es par.  Entonces, la suma es (n(n+1))/2, donde n+1 es par.
+Si p divide la suma, pero no a n, ni a n+1, entonces debe ser que p divide a 2, es decir, p=2.
+Luego n+p=n+2.  Como n es impar, entonces n+2 es impar.
+217, 221, 229, 245, 269 son todos impares.
+Si p=2 divide la suma, la suma es n(n+1)/2. Como p no divide a ningún sumando, n no es par. n es impar.
+Si n es impar, entonces n+2 es impar. Por lo tanto, todas son válidas.
+La respuesta correcta es aquella en la que p divide a n(n+1)/2 pero no a los sumandos.
+Si p=2, n debe ser impar. Si n es impar, la suma es n(n+1)/2. Como n es impar, n no es divisible por 2, y n+1 es divisible por 2.
+En los casos dados, n+2, n=215, 219, 227, 243, 267. Ninguno de ellos es divisible por 2, por lo tanto la respuesta debe ser una de las opciones.
+
+Razonamiento: Si p divide la suma n(n+1)/2 pero no divide a ninguno de los sumandos 1, 2, ..., n, entonces p = 2. Esto es porque si p es un primo impar, entonces p debe dividir a uno de los sumandos. Por lo tanto, p = 2 y la suma es n(n+1)/2, donde n es impar. La pregunta es ¿cuál de los siguientes puede ser n+p = n+2? Como n es impar, n+2 debe ser impar. Todas las opciones son impares.
+Analizamos la suma. Si p=2, entonces n es impar, por lo que n+2 es impar. La suma es n(n+1)/2.
+Si n=215, n+2 = 217. Suma=215(216)/2 = 215*108. p=2. 2 no divide a 215.
+Si n=219, n+2=221. Suma=219*220/2 = 219*110. p=2. 2 no divide a 219.
+Si n=227, n+2=229. Suma=227*228/2 = 227*114. p=2. 2 no divide a 227.
+Si n=243, n+2=245. Suma=243*244/2 = 243*122. p=2. 2 no divide a 243.
+Si n=267, n+2=269. Suma=267*268/2 = 267*134. p=2. 2 no divide a 267.
+
+La respuesta correcta debe ser una de las opciones que hacen que n sea impar. Todas cumplen.
+
+Respuesta: A)

@@ -1,0 +1,42 @@
+Reasoning: **Step 1: Understand the problem**
+
+The question asks to find the numbers that could have been deleted from the given set of numbers based on a series of operations performed by Ali and Resi.
+
+**Step 2: Analyze the operations performed by Ali and Resi**
+
+Ali adds a number to the set and gets 15. Then he deletes one of the three numbers and replaces it with the number 3. Resi multiplies these three numbers and obtains 36.
+
+We know that the sum of the original three numbers is at least 15 (the result after adding a number to the set), and replacing one of the numbers with 3 results in a product of 36.
+
+**Step 3: Find possible combinations of numbers**
+
+Let's denote the original three numbers as x, y, and z. We have:
+
+x + y + z = at least 15
+
+(x - deleted number) + y + z = 36 / 3 (since Resi multiplies the numbers)
+
+simplifying the second equation gives:
+x + y + z = 12
+
+The combination of x, y, and z could be 6, 7, 8.
+
+**Step 4: Verify the possibilities**
+
+We need to verify which of the options by solving systems of equations to check if any deleted number can satisfy all conditions for the other numbers and any possible deleted number.
+
+For option A) only 6 or 7 could be deleted. Replacing the selected number with 3 should result in 36/3 = 12. This is not achievable with option A).
+
+For option B) deleting 7 or 8 could satisfy the equation but we cannot determine more than that with the given information.
+
+For option C) the sum of 6 + 7 + 8 = 21 cannot satisfy the initial conditions for deleting one number since it's larger than the result achieved.
+
+For option D) leases 7 + 7 + 8 = 22 also doesn’t work for the same reason.
+
+For option E) there is no option B, so this was also dismissed.
+
+**Conclusion**
+
+Based on reasoning steps, only option B satisfies all conditions; however, that might be only one combination of numbers satisfying the before-after condition of adding a number to make 15, then deleting one of the numbers.
+
+Answer: B)

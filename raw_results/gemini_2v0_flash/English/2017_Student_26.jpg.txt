@@ -1,0 +1,23 @@
+Reasoning: To maximize Anna's probability of winning, she needs to minimize the probability that Beate chooses a white ball. Let's analyze each option:
+
+(A) Each box has one white and one black ball. The probability of choosing a white ball is 1/2.
+
+(B) Three boxes have black balls, and two boxes have white balls. The probability of choosing a white ball is (2/5) * 1 = 2/5.
+
+(C) Four boxes have black balls, and one box has white balls. The probability of choosing a white ball is (1/5) * 1 = 1/5.
+
+(D) One box has all five white balls, and the other four boxes each have one black ball. The probability of choosing a white ball is (1/5) * 1 = 1/5.
+
+(E) One box has all five black balls, and the other four boxes each have one white ball. The probability of choosing a white ball is (4/5) * 1 = 4/5.
+
+Comparing the probabilities: 1/2, 2/5, 1/5, 1/5, 4/5. The smallest probabilities are 1/5, which occur in options (C) and (D). However, in option (D), it is possible to improve this situation. Place one white ball in one box and the remaining four white balls in the other. The probability is (1/5)*(1/1) + (4/5)*(0/1) = (1/5). In option C, put one white in one box, and four black ones in the other boxes. Thus probablity is (1/5)*1 + (4/5)*0 = (1/5). In option D, you can add a black ball into the first box also to decrease the chances.
+
+Consider putting all black balls in one box, leaving the others with just one white ball. Then probability of picking white would be 4/5. If instead, one box contains all white balls and other boxes have a black ball each, then probability of choosing white is just 1/5, which favors Anna. So, let us explore this possibility of keeping all white balls into one box and adding one black ball into others.
+The probability that Beate picks a white ball is 1/5. Therefore the probability that Anna wins would be 4/5.
+
+The smallest probability of choosing white is 1/5. We want to minimize this value. Therefore option C and D are better than A,B,E. Of these two, we would prefer D.
+
+Reasoning:
+Since Anna wants to maximize her probability of winning, she must minimize the probability that Beate draws a white ball. This is achieved by putting all the white balls into one box. Then there is a 1/5 chance of choosing that box and drawing a white ball. The other 4 boxes contain black balls, hence a 4/5 chance of drawing a black ball.
+
+Answer: D)

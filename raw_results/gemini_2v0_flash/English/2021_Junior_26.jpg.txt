@@ -1,0 +1,13 @@
+Reasoning:
+We are given that $a$ and $b$ are squares of integers, and $a-b$ is a prime number. Let $a=x^2$ and $b=y^2$ for some integers $x$ and $y$. Then $a-b = x^2 - y^2 = (x-y)(x+y)$. Since $a-b$ is a prime number, one of the factors must be 1. Since $x+y > x-y$, we must have $x-y = 1$. Thus, $x = y+1$.
+Then $a-b = (x-y)(x+y) = 1 \cdot (y+1+y) = 2y+1$. Since $2y+1$ is a prime number, we must test the given options for $b=y^2$ to see which one results in $2y+1$ being prime.
+
+A) $b=100$, so $y = \sqrt{100} = 10$. Then $2y+1 = 2(10)+1 = 21 = 3 \cdot 7$, which is not prime.
+B) $b=144$, so $y = \sqrt{144} = 12$. Then $2y+1 = 2(12)+1 = 25 = 5^2$, which is not prime.
+C) $b=256$, so $y = \sqrt{256} = 16$. Then $2y+1 = 2(16)+1 = 33 = 3 \cdot 11$, which is not prime.
+D) $b=900$, so $y = \sqrt{900} = 30$. Then $2y+1 = 2(30)+1 = 61$, which is prime.
+E) $b=10000$, so $y = \sqrt{10000} = 100$. Then $2y+1 = 2(100)+1 = 201 = 3 \cdot 67$, which is not prime.
+
+Therefore, $b=900$ is the only possible value from the given options.
+
+Answer: D)

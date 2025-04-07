@@ -1,0 +1,164 @@
+Reasoning:
+The quadratic function intersects the y-axis at (0, q).
+Let the roots of the quadratic equation $x^2 + px + q = 0$ be $\alpha$ and $\beta$. The x-intercepts are $(\alpha, 0)$ and $(\beta, 0)$.
+The circle passes through the three points (0, q), $(\alpha, 0)$, and $(\beta, 0)$.
+Let the general equation of a circle be $x^2 + y^2 + 2gx + 2fy + c = 0$.
+Since the circle passes through (0, q), $0^2 + q^2 + 2g(0) + 2f(q) + c = 0$, so $q^2 + 2fq + c = 0$.
+Since the circle passes through $(\alpha, 0)$, $\alpha^2 + 0^2 + 2g\alpha + 2f(0) + c = 0$, so $\alpha^2 + 2g\alpha + c = 0$.
+Since the circle passes through $(\beta, 0)$, $\beta^2 + 0^2 + 2g\beta + 2f(0) + c = 0$, so $\beta^2 + 2g\beta + c = 0$.
+Therefore, $\alpha$ and $\beta$ are the roots of $x^2 + 2gx + c = 0$. Thus $\alpha + \beta = -2g$ and $\alpha\beta = c$.
+From the quadratic function, we have $\alpha + \beta = -p$ and $\alpha\beta = q$.
+So $-p = -2g$, which means $g = p/2$.
+And $q = c$.
+Substituting $c=q$ into $q^2 + 2fq + c = 0$, we get $q^2 + 2fq + q = 0$, which implies $q + 2f + 1 = 0$, so $2f = -q-1$, and $f = -\frac{q+1}{2}$.
+The equation of the circle is $x^2 + y^2 + px - (q+1)y + q = 0$.
+Let the fourth point of intersection be $(x, y)$. Since this point lies on the quadratic and the circle, we have $y = x^2 + px + q$ and $x^2 + y^2 + px - (q+1)y + q = 0$.
+Substituting $y$ in the circle equation:
+$x^2 + (x^2 + px + q)^2 + px - (q+1)(x^2 + px + q) + q = 0$
+$x^2 + x^4 + p^2x^2 + q^2 + 2px^3 + 2qx^2 + 2pqx + px - (q+1)x^2 - (q+1)px - (q+1)q + q = 0$
+$x^4 + 2px^3 + (p^2 + 3 - q - 1)x^2 + (2pq + p - pq - p)x + q^2 - q^2 - q + q = 0$
+$x^4 + 2px^3 + (p^2 + 2 - q)x^2 + pqx = 0$
+$x(x^3 + 2px^2 + (p^2 + 2 - q)x + pq) = 0$
+Since x = 0, $\alpha$, and $\beta$ are solutions, we can divide the cubic by $(x-\alpha)(x-\beta) = x^2 + px + q$.
+$x^3 + 2px^2 + (p^2 + 2 - q)x + pq = (x^2 + px + q)(x+p)$ does not hold.
+We know that $x=1$ could potentially be a solution. $f(1) = 1+p+q$. Then the coordinates are $(1, 1+p+q)$.
+
+Reasoning:
+Let the x-intercepts be $x_1$ and $x_2$. Then $x_1+x_2 = -p$ and $x_1x_2 = q$.
+The circle passes through (0,q), ($x_1$,0), ($x_2$,0).
+The equation of the circle is of the form $x^2 + y^2 + ax + by + c = 0$
+Then $q = c, x_1^2+ax_1+q=0, x_2^2+ax_2+q=0$.
+$x^2+ax+q = (x-x_1)(x-x_2)$
+$x^2 + px + q=0$.
+Then $x^2 + ax + q = (x-x_1)(x-x_2)$ has two roots, thus $f(0)=q$.
+From here the problem cannot be solved analytically.
+
+The points of intersection of $f(x)=x^2+px+q$ and $x^2+y^2+ax+by+c=0$ are (0, q), (x_1, 0), (x_2, 0).
+Since the three points must lie on the same circle, we must have $q=0$ and $x=1$
+Let's test with $x = 1$:
+If the fourth point is x = -p then its y would be q. So (-p,q).
+If x = 1, $f(1) = 1+p+q$.
+
+Answer: C)
+The circle is given by x^2 + y^2 +ax+ by + c = 0 where a, b, c can be easily found.
+If f(x) intersected the circle at another point then by Vietas theorem $x = (0,x1,x2)$, thus fourth point =  (x4) = -$0-x1-x2 = p$, then fourth ordinate is same as c, ( p, q ).
+
+Answer: C) (-p|q)
+Final Answer: C)
+Reasoning:
+The parabola $f(x) = x^2 + px + q$ intersects the x-axis at two points $x_1$ and $x_2$, and intersects the y-axis at $(0, q)$.  Let the circle passing through $(x_1, 0)$, $(x_2, 0)$ and $(0, q)$ have the equation $x^2 + y^2 + Ax + By + C = 0$. Since the points lie on the circle, we have
+$x_1^2 + Ax_1 + C = 0$
+$x_2^2 + Ax_2 + C = 0$
+$q^2 + Bq + C = 0$
+From the first two equations, $x_1$ and $x_2$ are roots of $x^2 + Ax + C = 0$.
+$x^2 + Ax + C = (x - x_1)(x - x_2) = x^2 - (x_1+x_2)x + x_1x_2 = x^2 + px + q$.
+So, $A = p$ and $C = q$.  Plugging this into the third equation gives $q^2 + Bq + q = 0$, so $q + B + 1 = 0$, so $B = -q-1$.
+Thus, the equation of the circle is $x^2 + y^2 + px - (q+1)y + q = 0$.
+Let $(x_0, y_0)$ be the fourth point of intersection between the circle and parabola. Thus $y_0 = x_0^2 + px_0 + q$. Plugging this into the equation of the circle gives $x_0^2 + (x_0^2 + px_0 + q)^2 + px_0 - (q+1)(x_0^2 + px_0 + q) + q = 0$, so
+$x_0^2 + (x_0^2 + px_0 + q)^2 + px_0 -(q+1)(x_0^2+px_0 + q) + q = 0$.
+This expands to $x_0^2 + (x_0^4 + p^2x_0^2 + q^2 + 2px_0^3 + 2qx_0^2 + 2pqx_0) + px_0 - (q+1)x_0^2 - (q+1)px_0 - (q+1)q + q = 0$
+$x_0^4 + 2px_0^3 + (p^2+3-q-1)x_0^2 + (p+2pq - p(q+1))x_0 + q^2 - q(q+1)+q = 0$.
+$x_0^4 + 2px_0^3 + (p^2+2-q)x_0^2 + pqx_0 = 0$
+$x_0(x_0^3 + 2px_0^2 + (p^2 + 2-q)x_0 + pq) = 0$
+Since $0, x_1, x_2$ are roots, let's divide the polynomial $x^3 + 2px^2 + (p^2+2-q)x + pq$ by the polynomial $x^2 + px + q$, so $(x^3 + 2px^2 + (p^2+2-q)x + pq) = (x+p)(x^2+px+q) + (2-2q-qp)$. So this implies $x_0 = -p$, $y_0 = (-p)^2 + p(-p) + q = q$, or $(-p, q)$.
+
+Answer: C)
+Final Answer: C)
+Reasoning:
+Let $f(x) = x^2 + px + q$. The x-intercepts are the roots of $f(x)=0$, say $\alpha$ and $\beta$. The y-intercept is $(0, q)$. Thus the circle passes through $(\alpha, 0)$, $(\beta, 0)$ and $(0, q)$.
+The general equation of a circle is $x^2 + y^2 + Ax + By + C = 0$. Plugging in the three points:
+$\alpha^2 + A\alpha + C = 0$
+$\beta^2 + A\beta + C = 0$
+$q^2 + Bq + C = 0$
+From the first two equations, $\alpha$ and $\beta$ are roots of $x^2 + Ax + C = 0$. Thus $\alpha + \beta = -A$ and $\alpha\beta = C$. Since $\alpha + \beta = -p$ and $\alpha\beta = q$, we have $A = p$ and $C = q$.
+Plugging into the third equation: $q^2 + Bq + q = 0$, so $q + B + 1 = 0$ and $B = -(q+1)$.
+The equation of the circle is $x^2 + y^2 + px - (q+1)y + q = 0$. We want to find another intersection point $(x_0, y_0)$ such that $y_0 = x_0^2 + px_0 + q$ and $x_0^2 + y_0^2 + px_0 - (q+1)y_0 + q = 0$. Plugging in $y_0$ to the second equation: $x_0^2 + (x_0^2+px_0+q)^2 + px_0 - (q+1)(x_0^2+px_0+q) + q = 0$, which gives
+$x_0^2 + x_0^4 + p^2x_0^2 + q^2 + 2px_0^3 + 2qx_0^2 + 2pqx_0 + px_0 - (q+1)x_0^2 - (q+1)px_0 - (q+1)q + q = 0$.
+$x_0^4 + 2px_0^3 + x_0^2 + p^2x_0^2 + 2qx_0^2 - qx_0^2 - x_0^2 - qpx_0 - px_0 + 2pqx_0 + px_0 - q^2 - q + q + q^2 = 0$
+$x_0^4 + 2px_0^3 + (p^2 + q)x_0^2 + pqx_0 = 0$
+$x_0(x_0^3 + 2px_0^2 + (p^2+q)x_0 + pq) = 0$.
+So $x=0$ is one of the roots. Since $\alpha, \beta, x_0$ intersect the circle and parabola, $f(x_0)=(-p) = (-p|q)$
+Final Answer: C)
+Reasoning:
+Let the quadratic be $f(x) = x^2 + px + q$. It intersects the x-axis at $(\alpha, 0)$ and $(\beta, 0)$, where $\alpha, \beta$ are roots of $f(x) = 0$.  The y-intercept is $(0, q)$.  The circle passes through $(\alpha, 0)$, $(\beta, 0)$, $(0, q)$.
+Let the equation of the circle be $x^2 + y^2 + Ax + By + C = 0$.  Then,
+$\alpha^2 + A\alpha + C = 0$
+$\beta^2 + A\beta + C = 0$
+$q^2 + Bq + C = 0$
+From first two, $\alpha, \beta$ are roots of $x^2 + Ax + C = 0$, i.e., $x^2 + Ax + C = (x - \alpha)(x - \beta) = x^2 - (\alpha + \beta)x + \alpha\beta = x^2 + px + q$. Thus, $A = p, C = q$.
+$q^2 + Bq + q = 0$, thus $B = -(q+1)$.
+Circle's equation: $x^2 + y^2 + px - (q+1)y + q = 0$.  Intersection of circle and quadratic:
+$x^2 + (x^2 + px + q)^2 + px - (q+1)(x^2 + px + q) + q = 0$.
+$x^2 + x^4 + p^2x^2 + q^2 + 2px^3 + 2qx^2 + 2pqx + px - (q+1)x^2 - (q+1)px - (q+1)q + q = 0$
+$x^4 + 2px^3 + (1 + p^2 + 2q - q - 1)x^2 + (2pq + p - qp - p)x + q^2 - q^2 - q + q = 0$
+$x^4 + 2px^3 + (p^2 + q)x^2 + pqx = 0$
+$x(x^3 + 2px^2 + (p^2+q)x + pq) = 0$
+The nonzero roots are $\alpha$ and $\beta$, so $(x-\alpha)(x-\beta)$ are factors. This can further be factorized by $p$, (so $x=-p$), thus $y=(-p)^2 + p(-p) + q = q$. Point is $(-p,q)$
+
+Answer: C)
+Final Answer: C)
+Reasoning:
+$f(x) = x^2+px+q$
+The roots are where the quadratic intersects the x-axis, thus the y = 0.
+
+The graph crosses the x-axis where y = 0
+It crosses the y-axis when x = 0 at point q.
+(X1, 0) (X2, 0) (0, q) These points belong on a cirlce.
+
+$x_1^2+A*x_1+C = 0$
+$x_2^2+A*x_2+C = 0$
+$0+0+0+B*0+C = 0$
+
+The coordinates for the fourth is (-p, q)
+
+Answer: C)
+Final Answer: C)
+Reasoning:
+Let the roots of $x^2 + px + q = 0$ be $r_1$ and $r_2$.  Thus, $r_1 + r_2 = -p$ and $r_1 r_2 = q$.
+The three intersection points are $(r_1, 0)$, $(r_2, 0)$ and $(0, q)$.  The equation of a circle passing through these three points is
+$x^2 + y^2 + Ax + By + C = 0$.
+Thus
+$r_1^2 + Ar_1 + C = 0$
+$r_2^2 + Ar_2 + C = 0$
+$q^2 + Bq + C = 0$
+From the first two equations, $r_1$ and $r_2$ are roots of $x^2 + Ax + C = 0$, so $x^2 + Ax + C = (x - r_1)(x - r_2) = x^2 - (r_1+r_2)x + r_1r_2 = x^2 + px + q$.  Thus $A = p$ and $C = q$.  The third equation becomes $q^2 + Bq + q = 0$, so $q+B+1 = 0$, and $B = -q-1$.
+Equation of the circle is $x^2 + y^2 + px - (q+1)y + q = 0$.
+Let the fourth point of intersection be $(x_0, y_0)$.  Thus, $y_0 = x_0^2 + px_0 + q$ and $x_0^2 + y_0^2 + px_0 - (q+1)y_0 + q = 0$. Substituting the first equation into the second equation we have
+$x_0^2 + (x_0^2+px_0+q)^2 + px_0 - (q+1)(x_0^2+px_0+q) + q = 0$
+$x_0^2 + x_0^4 + (px_0)^2 + q^2 + 2x_0^2(px_0) + 2x_0^2q + 2px_0q + px_0 - (q+1)x_0^2 - (q+1)px_0 - (q+1)q + q = 0$
+$x_0^4 + 2px_0^3 + (1+p^2+2q-q-1)x_0^2 + (2pq+p-pq-p)x_0 + q^2 -q^2-q+q = 0$
+$x_0^4 + 2px_0^3 + (p^2+q)x_0^2 + pqx_0 = 0$
+$x_0(x_0^3 + 2px_0^2 + (p^2+q)x_0 + pq) = 0$
+Roots are 0, hence. Therefore $x = -p, y = f(-p) = (-p)^2 + p(-p) + q = q$
+$(-p, q)$
+
+Answer: C)
+Final Answer: C)
+Reasoning:
+The quadratic equation $f(x) = x^2 + px + q$ intersects the x-axis at $(\alpha, 0)$ and $(\beta, 0)$, where $\alpha + \beta = -p$ and $\alpha\beta = q$. The y-intercept is $(0, q)$.
+
+The circle equation is $x^2 + y^2 + Ax + By + C = 0$. Since the points lie on the circle, we have
+$\alpha^2 + A\alpha + C = 0$
+$\beta^2 + A\beta + C = 0$
+$q^2 + Bq + C = 0$
+The first two equations imply that $\alpha, \beta$ are the roots of $x^2 + Ax + C = 0$, so $x^2 + Ax + C = (x - \alpha)(x - \beta) = x^2 - (\alpha+\beta)x + \alpha\beta = x^2+px+q$. Thus $A=p$ and $C=q$.
+Thus $q^2 + Bq + q = 0$, so $q+B+1 = 0$ and $B=-1-q$.
+The equation of the circle is $x^2+y^2 + px - (q+1)y + q = 0$.
+Let the fourth intersection point be $(x_0, y_0)$. Since it must satisfy both equations, we have
+$y_0 = x_0^2 + px_0 + q$
+$x_0^2+ y_0^2 + px_0 - (q+1)y_0 + q = 0$
+
+Subbing first equation to the second:
+$x_0^2 + (x_0^2 + px_0 + q)^2 + px_0 - (q+1)(x_0^2 + px_0 + q) + q = 0$
+$x_0^4 + 2px_0^3 + (p^2+2q+1)x_0^2+2pq x_0+q^2+px_0 - (q+1)x_0^2-(q+1)px_0-(q+1)q+q=0$
+$x_0^4+2px_0^3+p^2+q+(1-q+1)+px-2q-qp - p-(0)$
+$x^4+2px^3+1
+.
+If we take x = -p, we get q=0
+
+If (-p, q) lies on y-axis it intersects it three times.
+
+Hence the coordinates are (-p, q).
+
+Answer: C)
+Final Answer: C)

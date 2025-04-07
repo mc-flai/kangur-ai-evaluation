@@ -1,0 +1,19 @@
+Raisonnement :
+1. **Identifier la nature du problème :** La question porte sur les coordonnées d'un sommet d'un carré, connaissant les extrémités d'une de ses diagonales.
+2. **Comprendre la géométrie du carré :**
+   - Les diagonales d'un carré se coupent en leur milieu.
+   - Les diagonales d'un carré sont perpendiculaires et de même longueur.
+3. **Calculer le milieu de la diagonale :** Le milieu de la diagonale avec les points (-1, 0) et (5, 0) est ((−1 + 5) / 2, (0 + 0) / 2) = (2, 0).
+4. **Déterminer la longueur de la demi-diagonale :**  La longueur de la demi-diagonale est la distance entre le milieu (2, 0) et l'un des points de l'extrémité de la diagonale, par exemple (5, 0), qui est |5 - 2| = 3.
+5. **Rechercher les points candidats :**
+   - Les autres sommets du carré sont situés à une distance de 3 par rapport au milieu de la diagonale.
+   - Leurs coordonnées seront (2 + x, 0 + y) où x et y doivent satisfaire x^2 + y^2 = 3^2 = 9 et x et y sont pas égaux à 0.
+   - Examinons les options proposées, avec le milieu de la diagonale (2,0):
+   - A) (2,0) : c'est le milieu de la diagonale, donc ce n'est pas un sommet du carré.
+   - B) (2,3) : ce point n'est pas à une distance de 3 du milieu. Il faudrait que son abscisse soit différente.
+   - C) (2,-6) : la distance par rapport au milieu est 6, donc ne convient pas.
+   - D) (3, 5): La distance du milieu à (3,5) n'est pas égale à 3.
+   - E) (3,-1) : Distance : sqrt((3-2)^2 + (-1-0)^2) = sqrt(1+1)=sqrt(2)
+6. **Trouver le bon point parmi les solutions :**  Si on prend la diagonale verticale passant par (2,0) et que la longueur d'un coté est égal a 3 alors on trouve les points (2, 3) ou (2, -3). L'option B) (2;3) est la bonne.
+
+Réponse : B)

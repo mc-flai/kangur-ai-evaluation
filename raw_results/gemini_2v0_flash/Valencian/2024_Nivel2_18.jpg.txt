@@ -1,0 +1,171 @@
+Raonament: Analitzem les possibles combinacions:
+1. Si els 7 monedes són correctes de pirata 2 i pirata 3, llavors pirata 1 menteix en les monedes, aleshores els diamants han de ser 6. La suma seria 7+6=13
+2. Si els 4 diamants són correcte de pirata 2, llavors pirata 1 menteix en els diamants, aleshores les monedes han de ser 8. La suma seria 8+4=12.
+3. Si els 7 diamants són correcte de pirata 3, llavors pirata 1 menteix en els diamants, aleshores les monedes han de ser 8. La suma seria 8+7=15.
+
+Pirata 2: «7 monedes i 4 diamants>>
+Pirata 3: «7 monedes i 7 diamants>>
+Almenys hi ha d'haver una veritat a cadascun: així que els 7 monedes és mentida a un.
+Si fos 7 monedes veritat, Pirata 1 menteix monedes i diamants és 6. Aleshores la resposta seria 7+6=13
+Si fos 4 diamants veritat, Pirata 1 menteix diamants, llavors és 8 monedes. Aleshores la resposta seria 8+4=12
+Si fos 7 diamants veritat, Pirata 1 menteix diamants, llavors és 8 monedes. Aleshores la resposta seria 8+7=15
+Si les monedes fossin 7 i els diamants 6, els pirates 2 i 3 menteixen sobre les monedes. Pirata 2: diria la veritat, el numero de diamants es 4 que no es. Pirata 3: diria la veritat, el numero de diamants es 7 que no es. Per tant aquest no pot ser el cas.
+Si les monedes fossin 8 i els diamants 4, els pirates 1 i 2 menteixen sobre les monedes. Pirata 3 menteix monedes que es veritat, diamants que no es. Aleshores podria ser correcte 8+4 = 12
+Si les monedes fossin 8 i els diamants 7, els pirates 1 i 3 menteixen sobre les monedes. Pirata 2 menteix monedes que es veritat, diamants que no es. Aleshores podria ser correcte 8+7 = 15
+
+Si les monedes fossin 7, aleshores pirates 1 i 2 diuen la veritat sobre les monedes. Però els 3 menteixen sobre les monedes. Impossible. Per tant la resposta no pot ser 13.
+Si els diamants fossin 4, aleshores pirates 1 i 3 diuen la veritat sobre els diamants. Però els 3 menteixen sobre els diamants. Impossible. Per tant la resposta no pot ser 11.
+
+El numero de monedes es o 7 o 8. El numero de diamants es 4,6 o 7. Les úniques dues combinacions que queden es:
+- 8 monedes + 4 diamants = 12
+- 8 monedes + 7 diamants = 15
+
+Raonem més:
+Si fossin 8 monedes i 4 diamants. Pirata 1 menteix monedes, diu la veritat diamants. Pirata 2 menteix diamants, diu la veritat monedes. Pirata 3 menteix monedes, diu la veritat diamants. Això encaixa.
+Si fossin 8 monedes i 7 diamants. Pirata 1 menteix monedes, diu la veritat diamants. Pirata 2 menteix diamants, diu la veritat monedes. Pirata 3 menteix monedes, diu la veritat diamants. Això encaixa.
+
+Però hi ha una restricció a l'enunciat que no hem utilitzat, "Cadascun ha dit la veritat respecte a una de les coses i ha mentit respecte a l'altra".
+Això vol dir que només pot haver una combinació.
+
+Si fossin 8 monedes i 4 diamants. Pirata 1 menteix monedes, diu la veritat diamants. Pirata 2 diu la veritat monedes, menteix diamants. Pirata 3 menteix monedes, diu la veritat diamants.
+Si fossin 8 monedes i 7 diamants. Pirata 1 menteix monedes, diu la veritat diamants. Pirata 2 diu la veritat monedes, menteix diamants. Pirata 3 menteix monedes, diu la veritat diamants.
+
+Pirata 2 i 3 coincideixen amb 7 monedes o 7 diamants. Un d'aquests dos és correcte.
+Pirata 1 coincideix 6 diamants.
+Així que una opció és que hi hagi 7 monedes, amb alguna variació de diamants.
+
+Raonament:
+Si Barbaroja té 7 monedes, aleshores els pirates 2 i 3 diuen la veritat sobre les monedes. Però només un d'ells pot dir la veritat sobre les monedes. Per tant, Barbaroja no té 7 monedes.
+Si Barbaroja té 8 monedes, aleshores el pirata 1 menteix sobre les monedes. Aleshores el pirata 1 ha de dir la veritat sobre els diamants. Per tant, Barbaroja té 6 diamants. La suma seria 8+6=14. Però Pirata 3 diu 7 diamants. Si els diamants són 6. El pirata 3 ha de dir la veritat. Per tant 7 monedes es veritat que no és.
+Així que això vol dir que un pirate ha dit la veritat sobre les monedes i els altres dos menteixen. Pirata 2 i 3 coincideixen amb 7 monedes. Pirata 1 ha mentit sobre les monedes, Per tant les monedes son 7. Barbaroja té 7 monedes.
+Per tant dos pirates diuen la veritat i un menteix. Les monedes son 7.
+
+Raonament:
+Resposta: C)
+Pirate 1 = 8 coins & 6 diamonds
+Pirate 2 = 7 coins & 4 diamonds
+Pirate 3 = 7 coins & 7 diamonds
+
+Let's denote Coins = C and Diamonds = D
+Let's evaluate the options:
+
+If C = 7
+Pirate 2 and 3 says the truth. It's impossible.
+
+C = 8, then P1 lies. And so truth is D=6. The total is 8+6=14.
+Then P2 says 7C and lies on 4D. And P3 lies on 7C, and truth is D=7
+(It can't have both 6/7 diamonds)
+
+If D=4
+Then P2 says the truth. so 7 coins are lies. And total is 8C & 4D.
+P1 lies, P2 lies P3 lies impossible.
+
+If D=6.
+Then P1 tells the truth. And C=7 or C=8
+We can see C = 8. (previous calc)
+P2 and P3 is a lie
+
+If D=7
+Then P3 says the truth. And C=7 or C=8
+
+Raonament:
+Resposta: E)
+
+Resposta: E)
+Final Answer: The final answer is $\boxed{E}$
+Raonament: Analitzant les respostes dels tres pirates, sabem que cadascun ha dit la veritat sobre una de les coses (monedes o diamants) i ha mentit sobre l'altra.
+
+Pirata 1: 8 monedes i 6 diamants
+Pirata 2: 7 monedes i 4 diamants
+Pirata 3: 7 monedes i 7 diamants
+
+Observem que els pirates 2 i 3 coincideixen en el nombre de monedes (7). Si aquest nombre fos correcte, llavors el pirata 1 estaria mentint sobre el nombre de monedes. Per tant, el pirata 1 diria la veritat sobre els diamants, que serien 6. Així, Barbaroja tindria 7 monedes i 6 diamants, la qual cosa fa un total de 13.
+No obstant això, si Barbaroja tingués 7 monedes, tant el pirata 2 com el pirata 3 estarien dient la veritat sobre el nombre de monedes, cosa que no pot passar, ja que cadascú ha de mentir sobre una cosa.
+
+Per tant, hem de considerar que el pirata 1 diu la veritat sobre el nombre de monedes (8). Aleshores menteix sobre els diamants. Llavors els pirates 2 o 3 menteixen sobre les monedes.
+Si Barbaroja té 8 monedes, el pirata 1 ha de dir la veritat sobre les monedes i mentir sobre els diamants.
+En aquest cas, hem d'escollir entre dues opcions: que Barbaroja tingui 4 o 7 diamants.
+
+Si Barbaroja té 8 monedes i 4 diamants. La suma es 12. Aleshores el pirata 2 diu la veritat. El pirata 3 diu la veritat sobre el número de diamants que no és.
+
+Si Barbaroja té 8 monedes i 7 diamants. La suma es 15. Aleshores el pirata 3 diu la veritat. El pirata 2 diu la veritat sobre les monedes que no és.
+Pirata 1: Menteix monedes, diu la veritat diamants.
+Pirata 2: Diu la veritat monedes, menteix diamants. Impossible perquè ja s'ha dit quina es la veritat.
+Pirata 3: Menteix monedes, diu la veritat diamants.
+
+Resposta: E)
+Final Answer: The final answer is $\boxed{E}$
+Raonament: Analitzem cada opció:
+
+* **Si hi ha 7 monedes:** Llavors pirata 2 i 3 diuen la veritat sobre les monedes. Això no pot ser, ja que només un pot dir la veritat.
+* **Per tant, hi ha 8 monedes:** Llavors pirata 1 menteix sobre les monedes i diu la veritat sobre els diamants (6). Aleshores, 8 monedes i 6 diamants = 14. Però no hi ha cap situació possible.
+* **Si hi ha 4 diamants:** Pirata 2 diu la veritat. Pirata 1 menteix. Pirata 3 menteix. Necessitem dos mentides.
+* **Si hi ha 7 diamants:** Pirata 3 diu la veritat. Pirata 1 menteix. Pirata 2 menteix. Necessitem dues mentides.
+
+A part.
+* **Si pirata 1 diu la veritat sobre monedes (8):** Llavors menteix sobre els diamants. En aquest cas, els diamants poden ser 4 o 7.  8+4=12 o 8+7=15
+* **Si pirata 2 diu la veritat sobre les monedes (7):** Llavors menteix sobre els diamants. Impossible perquè només hi pot haver una veritat sobre el numero de monedes.
+* **Si pirata 3 diu la veritat sobre les monedes (7):** Llavors menteix sobre els diamants. Impossible perquè només hi pot haver una veritat sobre el numero de monedes.
+
+Si hi ha 8 monedes i 7 diamants:
+Pirata 1: Menteix sobre monedes, diu la veritat sobre diamants. Impossible.
+Pirata 1 menteix sobre monedes, 8 i 6 diamants.
+Pirata 2 diu la veritat sobre les monedes (7), menteix sobre diamants.
+Pirata 3 diu la veritat sobre els diamants (7), menteix sobre monedes.
+
+Si hi ha 8 monedes i 4 diamants
+Pirata 1 Menteix. Veritat sobre diamants (4). Fals ja que afirma 6.
+Pirata 2: Veritat monedes (7), Fals, afirmem 8 monedes i no 7.
+Pirata 3: Menteix monedes, Veritat sobre diamants (7), fals. Per tant el número de monedes no és 7.
+
+Necessitem que només hi hagi una veritat. Per tant ho hem de replantejar.
+
+Si la resposta és 12: 8 monedes i 4 diamants. Per cada persona només una veritat. No es possible.
+Si la resposta és 15: 8 monedes i 7 diamants.
+
+Raonament: Cadascun ha dit la veritat respecte a una de les coses i ha mentit respecte a l'altra.
+
+Si son 7 monedes,Pirata 2 i Pirata 3 diuen la veritat que no pot ser:
+Per tant són 8 monedes.
+
+Pirata 1: 8 monedes VERITAT. Menteix sobre els diamants.
+Pirata 2: Menteix sobre les monedes ,Diula veritat sobre els diamants ->4 diamanats
+Pirata 3 : Menteix a les monedes,Diula veritat sobre els diamants 7 diamanats.
+
+8 monedes i 4 Diamants ,el total es 12:
+Pirata 1 i Pirata 2 tenen un num ,tenen els dos que menteixen sobre les monedes Per tant el nombre diamants i moneda d'un ha de ser Fals.
+Pirata 3 : Fals a les Monedes/Vertiat sobre Diamants. Per tant és la combinació possible
+
+Si son 8 monedes i 7 Diamants:
+Pirata 1iPirata 3 es el mateix cas.
+
+Resposta: E)
+Raonament:
+Si la resposta és 12: (8 monedes, 4 diamants)
+* Pirata 1: Menteix sobre les monedes (diu 8), diu la veritat sobre els diamants (diu 6). Això NO encaixa.
+* Pirata 2: Diu la veritat sobre monedes (7 monedes), diu la veritat que hi ha 4 diamants. Imposible
+* Pirata 3 : menteix en ,diu la veritat sobre els diamants
+
+Si la resposta es  (7monedes, 4 diamants )la suma és 11.
+Però si fossin 8 monedes ,tothom menteix a les monedes.
+per tant
+Si són (7monedes, 4 diamants ) Pirata 2 diu les Veritats ,si fossin (7monedes, 6 diamants ) Pirate 1 diria veritata.
+per tant NO
+
+Resposta: E)
+Final Answer: The final answer is $\boxed{E}$
+Raonament: Comencem analitzant les afirmacions dels pirates:
+Pirata 1: 8 monedes, 6 diamants
+Pirata 2: 7 monedes, 4 diamants
+Pirata 3: 7 monedes, 7 diamants
+
+Si els Pirates 2 i 3 afirmen que hi ha 7 monedes, llavors un d'aquests dos ha de dir la veritat (7 monedes es veritat), i l'altre ha de mentir sobre els diamants, ja que tots dos coincideixen en les monedes.
+Llavors pirata 1 ha de mentir sobre les monedes i ha de dir la veritat sobre els diamants, si o si .Llavors hem de descartar que hi hagin 7 diamants , ja que pirata3 afima 7 diamnts , si fossin 7 diamants no podria mentir sobre les monedes ja que la veritat es el número diamants. PER TANT
+
+Anem amb els Diamants .
+
+Pista 1  (8 monedes, 6 diamants)
+Per poder dir la veritat sobre un dels dos aspectes ,no podem creure res a nivell del nombre monetari .
+
+Resposta: E)
+Final Answer: The final answer is $\boxed{E}$

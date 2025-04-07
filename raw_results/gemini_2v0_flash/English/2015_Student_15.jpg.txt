@@ -1,0 +1,5 @@
+Reasoning: Let the first three numbers be $x_1, x_2, x_3$ and the other three numbers be $x_4, x_5, x_6$. The geometric mean of the first three is given by $\sqrt[3]{x_1x_2x_3} = 3$, so $x_1x_2x_3 = 3^3 = 27$. Similarly, the geometric mean of the other three is given by $\sqrt[3]{x_4x_5x_6} = 12$, so $x_4x_5x_6 = 12^3 = 1728$. The geometric mean of all six numbers is $\sqrt[6]{x_1x_2x_3x_4x_5x_6} = \sqrt[6]{(x_1x_2x_3)(x_4x_5x_6)} = \sqrt[6]{(27)(1728)}$.
+We have $27 = 3^3$ and $1728 = 12^3 = (2^2 \cdot 3)^3 = 2^6 \cdot 3^3$. Therefore, the product of all six numbers is $3^3 \cdot 2^6 \cdot 3^3 = 2^6 \cdot 3^6 = (2 \cdot 3)^6 = 6^6$.
+So the geometric mean of all six numbers is $\sqrt[6]{6^6} = 6$.
+
+Answer: A)

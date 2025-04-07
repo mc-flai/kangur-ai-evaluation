@@ -1,0 +1,20 @@
+Reasoning:
+Let the intersection of the diagonals be O. Let AO = a, BO = b, CO = c, DO = d.
+Since the diagonals are perpendicular, we can apply the Pythagorean theorem to the four right triangles formed by the diagonals:
+AB^2 = a^2 + b^2
+BC^2 = b^2 + c^2
+CD^2 = c^2 + d^2
+DA^2 = d^2 + a^2
+
+Then AB^2 + CD^2 = a^2 + b^2 + c^2 + d^2
+and BC^2 + DA^2 = b^2 + c^2 + d^2 + a^2
+So AB^2 + CD^2 = BC^2 + DA^2
+
+Therefore DA^2 = AB^2 + CD^2 - BC^2
+DA^2 = 2017^2 + 2019^2 - 2018^2
+DA^2 = (2018 - 1)^2 + (2018 + 1)^2 - 2018^2
+DA^2 = 2018^2 - 2*2018 + 1 + 2018^2 + 2*2018 + 1 - 2018^2
+DA^2 = 2018^2 + 2
+DA = sqrt(2018^2 + 2)
+
+Answer: D)

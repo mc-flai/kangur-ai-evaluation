@@ -1,0 +1,16 @@
+Razonamiento: La pregunta 19 pregunta por la cantidad de enteros positivos de tres cifras, donde dos cifras adyacentes cualesquiera difieren en 3. Vamos a analizar las posibilidades.
+
+La primera cifra puede ser 1, 2, 3, 4, 5, 6.
+Si la primera cifra es 1, la segunda puede ser 4. La tercera puede ser 1 o 7. Entonces tenemos 141 y 147.
+Si la primera cifra es 2, la segunda puede ser 5. La tercera puede ser 2 o 8. Entonces tenemos 252 y 258.
+Si la primera cifra es 3, la segunda puede ser 0 o 6. Si la segunda es 0, la tercera es 3. Si la segunda es 6, la tercera es 3 o 9. Entonces tenemos 303, 363 y 369.
+Si la primera cifra es 4, la segunda puede ser 1 o 7. Si la segunda es 1, la tercera es 4. Si la segunda es 7, la tercera es 4. Entonces tenemos 414 y 474.
+Si la primera cifra es 5, la segunda puede ser 2 o 8. Si la segunda es 2, la tercera es 5. Si la segunda es 8, la tercera es 5. Entonces tenemos 525 y 585.
+Si la primera cifra es 6, la segunda puede ser 3 o 9. Si la segunda es 3, la tercera es 0 o 6. Si la segunda es 9, la tercera es 6. Entonces tenemos 630, 636 y 696.
+Si la primera cifra es 7, la segunda puede ser 4. La tercera puede ser 1 o 7. Entonces tenemos 741 y 747.
+Si la primera cifra es 8, la segunda puede ser 5. La tercera puede ser 2 o 8. Entonces tenemos 852 y 858.
+Si la primera cifra es 9, la segunda puede ser 6. La tercera puede ser 3 o 9. Entonces tenemos 963 y 969.
+
+Sumamos: 2 + 2 + 3 + 2 + 2 + 3 + 2 + 2 + 2 = 20.
+
+Respuesta: D)

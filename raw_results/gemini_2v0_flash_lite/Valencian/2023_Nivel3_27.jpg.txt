@@ -1,0 +1,27 @@
+Raonament:
+The problem states the perimeters of three of the four smaller rectangles are 11, 16 and 19. The perimeter of the fourth rectangle is neither the smallest nor the largest. Thus, the perimeter of the fourth rectangle must be between 11 and 19. The perimeter of the original rectangle can be calculated using the perimeters of the smaller rectangles. Let the dimensions of the smallest rectangle be x and y. The perimeter is 2x + 2y. We are given that the original rectangle is divided into four smaller rectangles. Two rectangles are vertically adjacent, the other two are also vertically adjacent and share one side length. The dimensions of the rectangles are as follows: Rectangle 1 (x, y), Rectangle 2 (x, z), Rectangle 3 (w, y), Rectangle 4 (w, z). The perimeter of the large rectangle is 2(x+w) + 2(y+z). The perimeters are:
+2x + 2y = 11
+2x + 2z = 16
+2w + 2y = 19
+2w + 2z = ?
+The fourth rectangle has the perimeter between 11 and 19. Since the common side lengths are shared, the perimeter of the original rectangle can be found by summing two of the rectangle perimeters and by noticing that 2 sides are doubled in the calculation, so subtracting two side lengths of each rectangle will give us the perimeter.
+11, 16, 19. 11 and 19 can have a common side of the same length. Thus, using 11 and 19 could give us the smallest, and thus is not the perimeter of the rectangle. The perimeter must be between the two. So, 11 + 19 = 30. The total perimeter of two of the vertical rectangle equals the sum of the original rectangle perimeter. This sums up to 2(x+w) + 2y + 2x + 2w + 2y which will be the perimeter of the original rectangle + another rectangle's perimeter.
+We can sum 16 and 19 and subtract the shared perimeter. We get 16 + 19 = 35.
+The common side is shared twice, so the total perimeter will be 16 + 19 = 35- common sides.
+If we consider 11 + 16 = 27.
+The perimeter of the fourth must be between 11 and 19. The sum of all four perimeters is the sum of two sides from each rectangle.
+11 + 16 + 19 = 46. Let fourth be p, then perimeter = 46 + p, which is wrong since we need to eliminate shared sides.
+2(x + y + z + w) = perimeter of the original rectangle.
+11 = 2x + 2y
+16 = 2x + 2z
+19 = 2w + 2y
+The 4th rectangle = 2w + 2z.
+Perimeter is between 11 and 19. Sum: 11+19=30, then 2(x+w) + 2(y+z).
+So we have 11 + 19 = 2(x+w) + 4y.  2x+2w+2y
+x+y, x+z, w+y, w+z.
+perimeter is (x+y) + (x+z) + (w+y) + (w+z) = 11+16+19 = 46/2 = 23, this is wrong!
+Perimeter of the original rectangle = 2(x+w) + 2(y+z).
+If rectangle perimeter = 2(x+y)+2(x+z), or 11 +19 = 2(x+y+x+z)
+Adding the equations to eliminate, the final answer should be 30.
+
+Resposta: B)

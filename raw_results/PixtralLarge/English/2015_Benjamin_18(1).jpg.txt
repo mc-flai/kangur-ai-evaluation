@@ -1,0 +1,12 @@
+**Reasoning**: To solve this, we need to ensure that Sebastian picks out enough fruits to guarantee that he has at least one apple and one pear of the same color.
+
+1. Let's consider the worst-case scenario where he picks fruits without getting one apple and one pear of the same color:
+   - He could pick all 3 green apples and all 7 green pears. That's 10 pieces of fruit, and he still doesn't have an apple and a pear of the same color.
+   - Next, he could pick all 5 yellow apples. Now he has picked 15 pieces of fruit, and he still doesn't have an apple and a pear of the same color.
+   - If he picks one more fruit, regardless of what it is, he will either get a yellow pear (which matches one of the yellow apples) or a green pear (matching one of the green apples).
+
+So, the minimum number of fruits he needs to pick to ensure he has at least one apple and one pear of the same color is 16 - 10 = 6 pieces.
+
+However, we must ensure we are considering picking conditions correctly. If he picks 11 fruits, he will have at least one apple and one pear of the same color.
+
+**Answer**: C)

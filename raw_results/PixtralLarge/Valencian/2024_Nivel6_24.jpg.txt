@@ -1,0 +1,11 @@
+Per determinar quantos daus té l'Agnés, hem de considerar la probabilitat de que almenys un dau mostri un nombre igual al nombre de daus que s'han llançat. En aquest cas, Agnés té 12 daus, i estem buscant la probabilitat que almenys un dau mostri un 12.
+
+**Raonament**:
+
+1. La probabilitat que un dau no mostri un nombre concret (per exemple, un 12) és 11/12, ja que hi ha 11 altres números possibles.
+2. Si Agnés llança 12 daus, la probabilitat que cap dels 12 daus mostri un 12 és (11/12)^12.
+3. Per trobar la probabilitat que almenys un dau mostri un 12, hem de restar la probabilitat que cap dau mostri un 12 de 1. És a dir, 1 - (11/12)^12.
+4. Perquè aquesta probabilitat sigui igual a la probabilitat que no surti cap 12, el nombre de daus ha de ser el que faci que ambdues probabilitats siguin iguals.
+5. Si fessim el càlcul, veuríem que això passa quan el nombre de daus és 11.
+
+**Resposta**: D) 11.

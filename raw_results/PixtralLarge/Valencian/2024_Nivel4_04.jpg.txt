@@ -1,0 +1,17 @@
+**Raonament**:
+La pregunta demana el nombre màxim de nens que poden pujar a un ascensor amb 8 adults si l'ascensor pot carregar, com a màxim, 12 adults o bé 18 nens.
+
+Primer, determinem el pes equivalent d'un adult en termes de nens:
+- Si l'ascensor pot portar 12 adults, i també pot portar 18 nens, podem establir la relació següent:
+  - 12 adults = 18 nens
+  - 1 adult = 18/12 nens = 1,5 nens
+
+Ara, sabem que l'ascensor pot pujar 8 adults. Cal determinar quantes places de nens equivalen aquests 8 adults:
+  - 8 adults = 8 * 1,5 nens = 12 nens
+
+Per tant, els 8 adults ocupen el lloc de 12 nens. La capacitat total de l'ascensor és de 18 nens. Si ja hi ha el lloc de 12 nens ocupat pels 8 adults, queden:
+  - 18 nens - 12 nens = 6 nens
+
+Així, el nombre màxim de nens que poden pujar amb els 8 adults és 6.
+
+**Resposta**: B)

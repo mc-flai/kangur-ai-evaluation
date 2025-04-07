@@ -1,0 +1,9 @@
+Raisonnement :
+L'inégalité donnée est |2m - 2023| + |2n - m| ≤ 1.  Puisque m et n sont des entiers, les valeurs absolues doivent être des entiers non négatifs.  La somme de deux entiers non négatifs est inférieure ou égale à 1, ce qui implique que chaque terme est inférieur ou égal à 1. Ainsi, on a deux cas:
+1) |2m - 2023| = 0 et |2n - m| ≤ 1.  Dans ce cas, 2m = 2023, ce qui n'est pas possible car 2023 est impair, donc m n'est pas entier.
+2) |2m - 2023| = 1 et |2n - m| = 0 ou 1. Dans ce cas, 2m - 2023 = 1 ou 2m - 2023 = -1.
+    *Si 2m - 2023 = 1, alors 2m = 2024, et m = 1012.  Si |2n - m| = 0, alors 2n - 1012 = 0, donc n = 506. Si |2n - m| = 1, alors 2n - 1012 = 1 ou -1, donc 2n = 1013 ou 1011, ce qui n'est pas possible.  Ainsi, le couple (1012, 506) est une solution.
+    *Si 2m - 2023 = -1, alors 2m = 2022, et m = 1011. Si |2n - m| = 0, alors 2n - 1011 = 0, ce qui n'est pas possible car 1011 est impair. Si |2n - m| = 1, alors 2n - 1011 = 1 ou -1.  Si 2n - 1011 = 1, alors 2n = 1012, et n = 506.  Si 2n - 1011 = -1, alors 2n = 1010, et n = 505. Les couples (1011, 506) et (1011, 505) sont des solutions.
+Donc, on a 3 couples solutions.
+
+Réponse : D)

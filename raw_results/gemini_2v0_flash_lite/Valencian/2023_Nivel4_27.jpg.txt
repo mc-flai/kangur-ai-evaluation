@@ -1,0 +1,8 @@
+Raonament: La suma de 1 a 66 és (66*67)/2 = 2211. Per a obtenir 2020, hem de reduir la suma original en 2211-2020 = 191. Cada signe menys que canviem a l'expressió fa que restem el doble del número que estava sumant originalment. Per exemple, si canviem el signe davant el 1, restaríem 1+1=2.  Si canviem el signe davant el 2, restem 2+2 = 4. Hem de trobar una combinació de números que sumin 191. Es pot fer trobant el màxim nombre de números que podem fer negatius. Si restem 10, hem de buscar un nombre que pugui donar 191. Si restem un nombre x,  hem de trobar quants signe menys hem de posar a l'expressió. Per a reduir la suma en 191, necessitem trobar quants nombres podem fer negatius. Si només canviem un signe, tenim que x+x = 191, que no és possible perquè 191 no es pot dividir entre dos. Si en canvi canviem dos signes, hem de tenir x+y = 191/2, també impossible. 
+Si posem signes negatius a 10 nombres, podem tenir un nombre que ens permeti restar el valor desitjat. Provant diferents valors, veiem que es pot fer amb 11 números:
+2211- (1+2+3+4+5+6+7+8+9+10) = 2211 - 55 = 2156
+2156 -191= 1965
+
+Així que la resposta correcta és E.
+
+Resposta: E)

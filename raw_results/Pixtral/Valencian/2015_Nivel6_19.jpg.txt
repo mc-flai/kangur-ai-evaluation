@@ -1,0 +1,24 @@
+
+La pregunta 19 nos pide determinar el rango posible del número \( k \), que es el resultado de dividir el área del cuadrado entre el área del triángulo equivalente a la figura dada.
+
+Para resolver esto, primero debemos entender las áreas involucradas:
+- El área del cuadrado es \( a^2 \), donde \( a \) es el lado del cuadrado.
+- El área del triángulo equivalente es \( \frac{a^2 \sqrt{3}}{4} \).
+
+La relación dada es:
+\[ k = \frac{a^2}{ \frac{a^2 \sqrt{3}}{4} } \]
+
+Simplificando esta relación:
+\[ k = \frac{a^2}{ \frac{a^2 \sqrt{3}}{4} } = \frac{a^2 \cdot 4}{a^2 \sqrt{3}} = \frac{4}{\sqrt{3}} \]
+
+Para simplificar aún más:
+\[ k = \frac{4}{\sqrt{3}} \cdot \frac{\sqrt{3}}{\sqrt{3}} = \frac{4 \sqrt{3}}{3} \]
+
+Ahora, evaluamos el valor de \( k \):
+\[ k = \frac{4 \sqrt{3}}{3} \approx 2.309 \]
+
+Dado que \( k \approx 2.309 \), esto cae dentro del rango:
+\[ 2 < k < 3 \]
+
+Por lo tanto, la respuesta correcta es:
+Respuesta: B)

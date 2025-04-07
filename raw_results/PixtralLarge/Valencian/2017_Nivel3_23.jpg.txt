@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de calcular l'àrea del polígon ombrejat \(MOPD\).
+
+**Raonament:**
+
+1. **Identificar els elements del rectangle:**
+   - L'alçada del rectangle \(ABCD\) és de 4 cm.
+   - Els punts mitjans \(M\) i \(N\) divideixen els costats \(AD\) i \(BC\) en dos segments iguals.
+
+2. **Calcular les longituds dels costats del rectangle:**
+   - Com que \(M\) i \(N\) són els punts mitjans dels costats \(AD\) i \(BC\), la longitud de cada costat és el doble de l'amplada (que és l'alçada del rectangle, 4 cm).
+   - Per tant, la longitud del costat \(AD\) (o \(BC\)) és \(2 \times 4 \text{ cm} = 8 \text{ cm}\).
+
+3. **Determinar les dimensions del triangle \(AND\):**
+   - El triangle \(AND\) és un triangle rectangle amb la hipotenusa \(AD = 8 \text{ cm}\) i una de les seves altures igual a l'alçada del rectangle, que és \(4 \text{ cm}\).
+
+4. **Calcular l'àrea del triangle \(AND\):**
+   - L'àrea d'un triangle rectangle és \(\frac{1}{2} \times \text{base} \times \text{alçada}\).
+   - Aquí, la base és \(AD = 8 \text{ cm}\) i l'alçada és \(4 \text{ cm}\).
+   - L'àrea del triangle \(AND\) és \(\frac{1}{2} \times 8 \text{ cm} \times 4 \text{ cm} = 16 \text{ cm}^2\).
+
+5. **Determinar l'àrea del polígon ombrejat \(MOPD\):**
+   - El polígon ombrejat és un quadrat amb un costat de \(4 \text{ cm}\) (ja que \(M\) i \(N\) divideixen els costats del rectangle en dos segments iguals).
+   - L'àrea del quadrat és \(\text{costat}^2 = 4 \text{ cm} \times 4 \text{ cm} = 16 \text{ cm}^2\).
+
+**Resposta:** D) 16 cm².

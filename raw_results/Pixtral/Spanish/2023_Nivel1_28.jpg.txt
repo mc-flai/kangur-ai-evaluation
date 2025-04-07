@@ -1,0 +1,11 @@
+**Razonamiento:**
+1. Roberto y Sonia participan en un juego donde alternan turnos para lanzar 1, 2, 3, 4 o 5 fichas.
+2. En un momento dado, hay 10 fichas en el montón y es el turno de Roberto.
+3. Para que Roberto pueda ganar en su turno, debe haber un número de fichas que le permita tomar todas las fichas restantes en su turno.
+4. Roberto puede tomar todas las fichas restantes si puede tomar un número de fichas que sea un múltiplo de 1, 2, 3, 4 o 5.
+5. El número más bajo que Roberto puede tomar en su turno es 1 ficha.
+6. Si Roberto toma 1 ficha, quedará 9 fichas en el montón.
+7. Sonia puede tomar todas las fichas restantes en su próximo turno si toma 9 fichas, ya que 9 es un múltiplo de 3.
+8. Por lo tanto, Roberto no puede ganar en su turno si hay 10 fichas en el montón.
+
+**Respuesta:** E)

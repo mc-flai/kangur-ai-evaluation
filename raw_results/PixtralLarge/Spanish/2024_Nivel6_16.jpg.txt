@@ -1,0 +1,28 @@
+Para resolver la pregunta 16, debemos encontrar la longitud del lado del cuadrado mayor basándonos en la información proporcionada en la figura y las expresiones dadas.
+
+### Razonamiento:
+1. **Identificación de los lados**:
+   - Los lados de los tres cuadrados pequeños son \(a\), \(b\) y \(c\).
+
+2. **Ubicación de los vértices**:
+   - Los vértices \(A\) y \(C\) de los cuadrados pequeños coinciden con los vértices diagonalmente opuestos del cuadrado grande.
+   - El vértice \(B\) del tercer cuadrado pequeño está en un lado del cuadrado grande.
+
+3. **Longitud del lado del cuadrado mayor**:
+   - Para encontrar la longitud del lado del cuadrado mayor, debemos considerar cómo se combinan los lados de los cuadrados pequeños.
+   - Observamos que la longitud del lado del cuadrado mayor es la distancia desde el vértice \(A\) hasta el vértice \(C\), pasando por \(B\).
+
+4. **Aplicación del teorema de Pitágoras**:
+   - La longitud del lado del cuadrado mayor se puede encontrar usando el teorema de Pitágoras en el triángulo formado por los lados \(a\), \(b\) y \(c\).
+   - La distancia desde \(A\) hasta \(C\) es la hipotenusa de un triángulo rectángulo con lados \(a+b\) y \(c\).
+
+5. **Cálculo de la hipotenusa**:
+   - La hipotenusa de un triángulo rectángulo con lados \(a+b\) y \(c\) es \(\sqrt{(a+b)^2 + c^2}\).
+
+Por lo tanto, la longitud del lado del cuadrado mayor es \(\sqrt{(a+b)^2 + c^2}\).
+
+### Respuesta:
+La expresión correcta que corresponde a la longitud del lado del cuadrado mayor es:
+```
+Respuesta: C) \(\sqrt{(a+b)^2 + c^2}\)
+```

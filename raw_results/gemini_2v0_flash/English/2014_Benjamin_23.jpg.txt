@@ -1,0 +1,427 @@
+Reasoning:
+Let the three single-digit numbers be a, b, and c.
+We are given that a + b + c = 15.
+One of the numbers is replaced with 3. Let's consider the possibilities.
+If a is replaced with 3, then the three numbers are 3, b, and c. Then, 3 * b * c = 36, so b * c = 12.
+Also, 3 + b + c = 15 - a + 3, so b + c = 15 - a. Therefore, a + b + c = 15
+Possible pairs of (b, c) are (3, 4), (2, 6), (4, 3), (6, 2).
+If (b, c) = (3, 4), a = 15 - 3 - 4 = 8.
+If (b, c) = (2, 6), a = 15 - 2 - 6 = 7.
+If (b, c) = (4, 3), a = 15 - 4 - 3 = 8.
+If (b, c) = (6, 2), a = 15 - 6 - 2 = 7.
+If b is replaced with 3, then the three numbers are a, 3, and c. Then, a * 3 * c = 36, so a * c = 12.
+Also, a + 3 + c = 15 - b + 3, so a + c = 15 - b. Therefore, a + b + c = 15
+Possible pairs of (a, c) are (3, 4), (2, 6), (4, 3), (6, 2).
+If (a, c) = (3, 4), b = 15 - 3 - 4 = 8.
+If (a, c) = (2, 6), b = 15 - 2 - 6 = 7.
+If (a, c) = (4, 3), b = 15 - 4 - 3 = 8.
+If (a, c) = (6, 2), b = 15 - 6 - 2 = 7.
+If c is replaced with 3, then the three numbers are a, b, and 3. Then, a * b * 3 = 36, so a * b = 12.
+Also, a + b + 3 = 15 - c + 3, so a + b = 15 - c. Therefore, a + b + c = 15
+Possible pairs of (a, b) are (3, 4), (2, 6), (4, 3), (6, 2).
+If (a, b) = (3, 4), c = 15 - 3 - 4 = 8.
+If (a, b) = (2, 6), c = 15 - 2 - 6 = 7.
+If (a, b) = (4, 3), c = 15 - 4 - 3 = 8.
+If (a, b) = (6, 2), c = 15 - 6 - 2 = 7.
+
+So the numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the original three numbers be x, y, and z.
+We know that x + y + z = 15.
+Without loss of generality, let's assume that Ali deletes x and replaces it with 3.
+Then the new numbers are 3, y, and z.
+We also know that 3 * y * z = 36, which simplifies to y * z = 12.
+Since y and z are single-digit numbers, the possible pairs for (y, z) are (2, 6), (3, 4), (4, 3), and (6, 2).
+If (y, z) = (2, 6), then x = 15 - 2 - 6 = 7.
+If (y, z) = (3, 4), then x = 15 - 3 - 4 = 8.
+If (y, z) = (4, 3), then x = 15 - 4 - 3 = 8.
+If (y, z) = (6, 2), then x = 15 - 6 - 2 = 7.
+So, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c such that a + b + c = 15.
+After replacing one number with 3, say a is replaced by 3, we have 3bc = 36, or bc = 12.
+Since the numbers are single digit, the possible pairs of (b, c) are (2, 6), (3, 4), (4, 3), and (6, 2).
+When (b, c) is (2, 6), a = 15 - (2 + 6) = 15 - 8 = 7.
+When (b, c) is (3, 4), a = 15 - (3 + 4) = 15 - 7 = 8.
+When (b, c) is (4, 3), a = 15 - (4 + 3) = 15 - 7 = 8.
+When (b, c) is (6, 2), a = 15 - (6 + 2) = 15 - 8 = 7.
+The numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z. We know that x + y + z = 15.
+Let's say x is replaced by 3. The three numbers become 3, y, z and 3*y*z = 36.
+Therefore, y*z = 12. Possible values of (y, z) are (2, 6), (3, 4), (4, 3), (6, 2).
+If (y, z) = (2, 6), then x = 15 - (2 + 6) = 7.
+If (y, z) = (3, 4), then x = 15 - (3 + 4) = 8.
+The possible values of the number deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z. We know that x + y + z = 15.
+Assume that x is replaced by 3. Then the product of the three numbers is 3yz = 36, so yz = 12.
+The pairs of single-digit numbers that multiply to 12 are (2,6), (3,4), (4,3), (6,2).
+If y = 2 and z = 6, then x = 15 - 2 - 6 = 7.
+If y = 3 and z = 4, then x = 15 - 3 - 4 = 8.
+If y = 4 and z = 3, then x = 15 - 4 - 3 = 8.
+If y = 6 and z = 2, then x = 15 - 6 - 2 = 7.
+So, the possible deleted numbers are 7 and 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c.
+We have a + b + c = 15.
+One of these numbers is replaced by 3. Let's say a is replaced by 3.
+So we now have 3, b, c.
+The product of these is 3 * b * c = 36, meaning b * c = 12.
+Since they are single digit numbers, b and c can be: (2, 6), (3, 4), (4, 3), (6, 2).
+Now if b = 2, c = 6, then a = 15 - 2 - 6 = 7.
+If b = 3, c = 4, then a = 15 - 3 - 4 = 8.
+If b = 4, c = 3, then a = 15 - 4 - 3 = 8.
+If b = 6, c = 2, then a = 15 - 6 - 2 = 7.
+
+So, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c. So, a+b+c = 15.
+If Ali deletes one of them and replaces it with 3, then the product of the three resulting numbers becomes 36.
+
+Without loss of generality, let's say Ali deleted a and replaced it with 3. Then 3*b*c = 36 => bc = 12.
+Possible values for b and c are (2, 6), (3, 4), (4, 3), and (6, 2) as they must be single digit numbers.
+
+If b = 2 and c = 6, then a = 15 - (2+6) = 15-8 = 7.
+If b = 3 and c = 4, then a = 15 - (3+4) = 15-7 = 8.
+If b = 4 and c = 3, then a = 15 - (4+3) = 15-7 = 8.
+If b = 6 and c = 2, then a = 15 - (6+2) = 15-8 = 7.
+
+So, the possible values for the deleted number (a) are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three digits be a, b, c. So a+b+c = 15.
+Suppose a is replaced by 3. Then 3*b*c = 36. This gives bc = 12.
+The possible single-digit pairs for (b, c) are (2, 6), (3, 4), (4, 3), (6, 2).
+For (2, 6), a = 15 - 2 - 6 = 7.
+For (3, 4), a = 15 - 3 - 4 = 8.
+So a can be either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, z. We know x + y + z = 15.
+Suppose x is replaced by 3. Then the new product is 3yz = 36, so yz = 12.
+The possible pairs of (y,z) which are single-digit numbers are: (2,6),(3,4),(4,3),(6,2).
+If (y,z) = (2,6), then x = 15-2-6 = 7.
+If (y,z) = (3,4), then x = 15-3-4 = 8.
+
+Therefore, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, c. We know a + b + c = 15.
+Assume that a is replaced by 3. So we have 3, b, c.
+Then, 3*b*c = 36, so b*c = 12.
+Possible single-digit pairs for (b, c) are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) is (2, 6), then a = 15 - (2+6) = 15-8 = 7.
+If (b, c) is (3, 4), then a = 15 - (3+4) = 15-7 = 8.
+The numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z. We have x + y + z = 15. Suppose x is replaced by 3. Then the three numbers are 3, y, and z.
+The product is 3yz = 36, which implies yz = 12. The possible values of (y,z) as single digit numbers are (2,6), (3,4), (4,3), and (6,2).
+If (y,z) = (2,6), then x = 15 - 2 - 6 = 7.
+If (y,z) = (3,4), then x = 15 - 3 - 4 = 8.
+Thus, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let a, b, and c be the three numbers. Then a + b + c = 15.
+Suppose a is replaced with 3. Then the three numbers become 3, b, c.
+We have 3bc = 36, so bc = 12.
+The possibilities for (b, c) are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) = (2, 6), then a = 15 - (2+6) = 15 - 8 = 7.
+If (b, c) = (3, 4), then a = 15 - (3+4) = 15 - 7 = 8.
+The possible deleted numbers are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three single-digit numbers be x, y, and z. Then x + y + z = 15. Ali deletes one number and replaces it with 3. Let's say x is replaced with 3. Then we have 3yz = 36, which means yz = 12.
+Since y and z are single-digit integers, possible (y,z) pairs are (2,6), (3,4), (4,3), (6,2).
+If (y,z) = (2,6), then x = 15 - 2 - 6 = 7.
+If (y,z) = (3,4), then x = 15 - 3 - 4 = 8.
+Therefore, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, c.
+a + b + c = 15
+One of the numbers is replaced by 3, say a is replaced by 3.
+So, 3 * b * c = 36 => b * c = 12. Possible (b, c) pairs are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) = (2, 6), then a = 15 - (2+6) = 7.
+If (b, c) = (3, 4), then a = 15 - (3+4) = 8.
+Possible numbers deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the numbers be x, y, and z, so x + y + z = 15.
+If x is replaced with 3, then 3 * y * z = 36, which means y * z = 12.
+Possible pairs (y, z) are (2, 6), (3, 4), (4, 3), (6, 2).
+If (y, z) = (2, 6), then x = 15 - 2 - 6 = 7.
+If (y, z) = (3, 4), then x = 15 - 3 - 4 = 8.
+The possible values of the deleted number are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three single-digit numbers be a, b, and c.
+We are given a + b + c = 15.
+Without loss of generality, assume Ali deletes a and replaces it with 3.
+Then, the three numbers become 3, b, and c, and their product is 3bc = 36. Thus, bc = 12.
+The single-digit pairs (b, c) with product 12 are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) = (2, 6), then a = 15 - 2 - 6 = 7.
+If (b, c) = (3, 4), then a = 15 - 3 - 4 = 8.
+The numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c.
+Given a + b + c = 15.
+Suppose Ali replaces a with 3. So, 3 * b * c = 36.
+This means b * c = 12.
+The possibilities for (b, c) are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) = (2, 6), then a = 15 - 2 - 6 = 7.
+If (b, c) = (3, 4), then a = 15 - 3 - 4 = 8.
+So, Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c.
+We know that a+b+c = 15
+Suppose a is replaced with 3.
+Then we have 3bc = 36 => bc = 12
+Single digit factors of 12 are 2, 3, 4, and 6. Hence possible pairs for (b,c) are (2,6) and (3,4).
+If (b,c) = (2,6) then a = 15 - 2 - 6 = 7.
+If (b,c) = (3,4) then a = 15 - 3 - 4 = 8.
+So, the value of a can be 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three single digit numbers be a, b, and c such that a+b+c = 15.  Without loss of generality, let a be replaced by 3. Then the product 3bc = 36, so bc = 12.
+Then the possible values for (b,c) are (2,6), (3,4), (4,3), (6,2).
+
+If b=2 and c=6, then a = 15 - 2 - 6 = 7.
+If b=3 and c=4, then a = 15 - 3 - 4 = 8.
+
+Therefore, Ali could have deleted 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, c. We are given that a + b + c = 15.
+If a is replaced by 3, then 3 * b * c = 36, so b * c = 12.
+Since b and c are single digits, possible (b, c) values are (2, 6), (3, 4), (4, 3), (6, 2).
+If (b, c) = (2, 6), then a = 15 - (2+6) = 15 - 8 = 7.
+If (b, c) = (3, 4), then a = 15 - (3+4) = 15 - 7 = 8.
+So, a can be 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z.
+x + y + z = 15
+One of the numbers is replaced with 3, so suppose x = 3.
+Then 3 * y * z = 36
+y * z = 12
+Possible values of (y, z) that are single digits are (2, 6), (3, 4), (4, 3), (6, 2).
+If (y, z) = (2, 6), then x = 15 - (2+6) = 15 - 8 = 7
+If (y, z) = (3, 4), then x = 15 - (3+4) = 15 - 7 = 8
+
+Therefore, Ali deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y and z.
+x+y+z = 15
+Without loss of generality, let Ali replace x with 3.
+So, 3yz = 36
+yz = 12
+Possible pairs of (y, z) that satisfy this condition are (2, 6), (3, 4), (4, 3), (6, 2)
+If (y, z) = (2, 6), then x = 15 - 2 - 6 = 7
+If (y, z) = (3, 4), then x = 15 - 3 - 4 = 8
+Therefore, the numbers Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let a, b, and c be the three numbers. We know a+b+c=15.
+Suppose Ali replaced a with 3. Then we have 3bc = 36, so bc = 12.
+The single digit factors of 12 are 2, 3, 4, and 6. The possible pairs are:
+(2,6), (3,4), (4,3) and (6,2).
+If (b,c) = (2,6), then a = 15-2-6=7.
+If (b,c) = (3,4), then a = 15-3-4=8.
+Hence a can be 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, z, such that x+y+z = 15
+Assume that x is replaced by 3.
+So we have 3*y*z = 36 => yz = 12
+Since y,z are single digit numbers, the possibilities for (y, z) are (2, 6), (3, 4), (4, 3), (6, 2)
+If (y, z) = (2, 6), then x = 15 - 2 - 6 = 7
+If (y, z) = (3, 4), then x = 15 - 3 - 4 = 8
+So, the value of x can be 7 or 8.
+
+Answer: B)
+Reasoning:
+Let a, b, c be three single-digit numbers. Then a + b + c = 15.
+Suppose we replace 'a' with 3. Then we have the numbers 3, b, c.
+3 * b * c = 36, which implies that b * c = 12.
+The single-digit numbers that multiply to give 12 are (2,6) and (3,4) (also their reverses).
+So, (b, c) can be (2, 6) or (3, 4).
+If (b, c) = (2, 6), then a = 15 - 2 - 6 = 7.
+If (b, c) = (3, 4), then a = 15 - 3 - 4 = 8.
+Therefore, a can be either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z.  We are told that x + y + z = 15.  Suppose Ali replaced x with the number 3.  Then 3yz = 36, which means that yz = 12.  We are looking for single digit numbers, and the factor pairs of 12 are: (2,6), (3,4), (4,3), and (6,2).
+If y and z are 2 and 6, then x = 15 - 2 - 6 = 7
+If y and z are 3 and 4, then x = 15 - 3 - 4 = 8
+
+So the numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y and z, so x+y+z=15. If Ali replaces x with 3, then 3yz=36, so yz=12. Since y and z are single digit, the only possible pairs are (2,6), (3,4), (4,3) and (6,2). Then we have:
+y=2, z=6, then x=15-2-6=7
+y=3, z=4, then x=15-3-4=8
+y=4, z=3, then x=15-4-3=8
+y=6, z=2, then x=15-6-2=7
+Therefore, x can be 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z.
+x + y + z = 15
+If x is replaced by 3, we have 3 * y * z = 36 => y * z = 12
+The possible pairs for (y, z) are (2, 6), (3, 4), (4, 3), (6, 2)
+For (2, 6) x = 15 - (2+6) = 7
+For (3, 4) x = 15 - (3+4) = 8
+The numbers that Ali could have deleted are either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x,y and z. So, x+y+z=15. If Ali replaces x with 3, we have 3yz=36, so yz=12. The single-digit pairs whose product is 12 are (2,6), (3,4), (4,3) and (6,2).
+If (y,z)=(2,6) then x=15-2-6=7
+If (y,z)=(3,4) then x=15-3-4=8
+So, Ali deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three single-digit numbers be a, b, and c. We know that a + b + c = 15.
+If a is replaced by 3, then the numbers are 3, b, c.
+So 3bc = 36 => bc = 12.
+The possibilities for (b, c) are (2, 6), (3, 4), (4, 3), (6, 2).
+When (b, c) = (2, 6), a = 15 - 2 - 6 = 7.
+When (b, c) = (3, 4), a = 15 - 3 - 4 = 8.
+Thus, the numbers Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z. We know that x+y+z = 15.
+WLOG assume that x is replaced by 3. Then 3yz=36, so yz=12. The possible single-digit pairs for y and z that give yz=12 are (2,6), (3,4), (4,3), and (6,2).
+If (y,z) = (2,6) then x = 15 - 2 - 6 = 7.
+If (y,z) = (3,4) then x = 15 - 3 - 4 = 8.
+The possible numbers Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c.
+a + b + c = 15
+Suppose a is replaced by 3.
+Then we have 3bc = 36, which means bc = 12.
+The possible combinations for (b,c) are (2,6), (3,4), (4,3), and (6,2).
+If (b, c) = (2, 6), then a = 15 - 2 - 6 = 7
+If (b, c) = (3, 4), then a = 15 - 3 - 4 = 8
+Therefore the numbers Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c.
+We know a + b + c = 15
+WLOG, suppose Ali replaces a with 3. Then we have 3bc = 36, so bc = 12.
+Possible single-digit pairs (b,c) for which bc=12 are (2,6), (3,4), (4,3) and (6,2).
+If (b,c)=(2,6), a = 15 - 2 - 6 = 7.
+If (b,c)=(3,4), a = 15 - 3 - 4 = 8.
+So Ali deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a,b,c. We are given that a+b+c=15. Without loss of generality, let us assume that 'a' is replaced with 3.
+Then the new set of numbers are (3,b,c).
+Now, 3bc=36
+Hence, bc=12
+The possible single-digit factors of 12 are: 2,3,4,6.
+If (b,c) = (2,6), then a=15-2-6 = 7
+If (b,c) = (3,4), then a=15-3-4 = 8.
+Hence, the numbers Ali could have deleted is either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z. So x+y+z = 15
+Assume x is replaced with 3. So we have 3 * y * z = 36 => yz = 12
+Then possible values of y,z are (2, 6) , (3, 4), (4, 3), (6, 2).
+If (y,z) = (2, 6), then x = 15-2-6 = 7
+If (y,z) = (3, 4), then x = 15-3-4 = 8
+Therefore Ali deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be a, b, and c, with a+b+c = 15.
+Suppose a is replaced by 3. Then the three numbers are 3, b, and c, and 3bc = 36. Therefore, bc = 12.
+The possibilities for (b, c) are (2, 6), (3, 4), (4, 3), and (6, 2).
+If (b, c) = (2, 6), then a = 15 - 2 - 6 = 7.
+If (b, c) = (3, 4), then a = 15 - 3 - 4 = 8.
+Therefore, the possible numbers that Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z, such that x+y+z=15. WLOG, let x be replaced by 3. Then the equation becomes 3yz = 36, so yz = 12. Since we are dealing with single digit numbers, the possible pairs of (y,z) that satisfy this equation are (2,6), (3,4), (4,3), and (6,2).
+
+If (y,z) = (2,6) then x = 15 - 2 - 6 = 7.
+If (y,z) = (3,4) then x = 15 - 3 - 4 = 8.
+
+Therefore, the possible values for the number Ali could have deleted are 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y, and z such that x + y + z = 15.
+Suppose that Ali deletes x and replaces it with 3. Then the numbers are 3, y, z.
+3yz = 36, which gives yz = 12.
+The single-digit numbers whose product is 12 are:
+2, 6 => y = 2, z = 6
+3, 4 => y = 3, z = 4
+Then if (y, z) = (2, 6), then x = 15 - (2+6) = 15 - 8 = 7
+If (y, z) = (3, 4), then x = 15 - (3+4) = 15 - 7 = 8
+The possible numbers are 7 and 8.
+
+Answer: B)
+Reasoning:
+Let the three numbers be x, y and z such that x+y+z = 15.
+Suppose x is replaced with 3. Then 3yz = 36, so yz = 12.
+The possible values for y and z as single-digit numbers are (2, 6), (3, 4), (4, 3) and (6, 2).
+If (y, z) = (2, 6), then x = 15 - 2 - 6 = 7
+If (y, z) = (3, 4), then x = 15 - 3 - 4 = 8
+Therefore Ali could have deleted either 7 or 8.
+
+Answer: B)
+Reasoning:
+Let the three single-digit numbers be a, b and c. We know a+b+c=15
+Now suppose that Ali replaces a with 3. Then the numbers are 3, b, c. So, 3*b*c=36 which simplifies to bc=12.
+The possible values for b and c are (2, 6), (3, 4) (and their reverse).
+Case 1: If (b,c) = (2,6) ,then a=15 - (2+6) = 15-8 = 7.
+Case 2: If (b,c) = (3,4) ,then a=15 - (3+4) = 15-7 = 8.
+
+So the number deleted by Ali can either be 7 or 8.
+

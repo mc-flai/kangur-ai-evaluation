@@ -1,0 +1,8 @@
+Reasoning: Let the numbers in the boxes be $a_1, a_2, a_3, a_4$. We are given that $a_1 = a_4 = 2021$.
+We also have $a_1 + a_2 = S$, $a_2 + a_3 = S+1$, and $a_3 + a_4 = S+1$.
+Substituting $a_1 = 2021$ and $a_4 = 2021$, we have:
+$2021 + a_2 = S$, so $a_2 = S - 2021$
+$a_2 + a_3 = S+1$, so $a_3 = S+1 - a_2 = S+1 - (S - 2021) = 2022$
+$a_3 + 2021 = S+1$, so $2022 + 2021 = S+1$. Therefore, $S+1 = 4043$, and $S = 4042$.
+
+Answer: B)

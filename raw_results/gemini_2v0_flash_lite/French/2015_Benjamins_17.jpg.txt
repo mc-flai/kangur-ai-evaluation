@@ -1,0 +1,18 @@
+Raisonnement :
+Il faut calculer le résultat final en suivant les étapes données.
+1.  Multiplier 100 par 3 ou par 4. Cela donne soit 300 soit 400.
+2.  Ajouter 1 ou 2 au résultat.
+    *   Si on a multiplié par 3, cela donne 301 ou 302.
+    *   Si on a multiplié par 4, cela donne 401 ou 402.
+3.  Diviser le nouveau résultat par 3 ou 4.
+    *   Si nous avions 300, on peut diviser par 3, et obtenir 100, ou par 4, ce qui ne donne pas un nombre entier.
+    *   Si nous avions 301, on ne peut ni diviser par 3 ni 4, cela ne donne pas un nombre entier.
+    *   Si nous avions 302, on ne peut ni diviser par 3 ni 4, cela ne donne pas un nombre entier.
+    *   Si nous avions 400, on peut diviser par 4, et obtenir 100, ou par 3, ce qui ne donne pas un nombre entier.
+    *   Si nous avions 401, on ne peut ni diviser par 3 ni 4, cela ne donne pas un nombre entier.
+    *   Si nous avions 402, on ne peut ni diviser par 3 ni 4, cela ne donne pas un nombre entier.
+    *   Si on suit les calculs avec 300, ajouter 1 ou 2, diviser par 3 ou 4, alors la division par 3 donne 100, et la division par 4 ne donne pas un nombre entier.
+    *   Si on suit les calculs avec 400, ajouter 1 ou 2, diviser par 3 ou 4, alors la division par 4 donne 100, et la division par 3 ne donne pas un nombre entier.
+On remarque qu'on obtient 100 à la fin.
+
+Réponse : B)

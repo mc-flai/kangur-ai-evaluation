@@ -1,0 +1,15 @@
+**Razonamiento**:
+La pregunta menciona que Juan Felipe tiene \( n^3 \) cubos pequeños iguales y quiere hacer un cubo grande usando todos estos cubos pequeños. La condición importante es que el número de cubos pequeños con una cara pintada debe ser igual al número de cubos pequeños sin ninguna cara pintada.
+
+Para un cubo grande de lado \( n \), cada cara del cubo grande tendrá \( n \times n = n^2 \) cubos pequeños. Dado que un cubo tiene 6 caras, el número total de cubos pequeños en la superficie del cubo grande es \( 6 \times n^2 \).
+
+Los cubos pequeños en la superficie que tienen exactamente una cara pintada son los que están en el centro de cada cara del cubo grande. Cada cara del cubo grande tiene \( (n-2) \times (n-2) \) cubos pequeños en el centro (los que no están en los bordes), por lo tanto, el número de cubos pequeños con una cara pintada es \( 6 \times (n-2)^2 \).
+
+La condición es que el número de cubos pequeños con una cara pintada debe ser igual al número de cubos pequeños sin ninguna cara pintada. El número de cubos pequeños sin ninguna cara pintada es el cubo central del cubo grande, que es \( (n-2)^3 \).
+
+Por lo tanto, debemos igualar \( 6 \times (n-2)^2 \) y \( (n-2)^3 \):
+\[ 6 \times (n-2)^2 = (n-2)^3 \]
+\[ 6 = n-2 \]
+\[ n = 8 \]
+
+**Respuesta**: D) 8

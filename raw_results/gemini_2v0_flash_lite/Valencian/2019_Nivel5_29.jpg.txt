@@ -1,0 +1,26 @@
+Raonament:
+1. **Triangles semblants i relacions d'àrea:** La relació entre les àrees de triangles que comparteixen un angle (o un angle suplementari) està relacionada amb el producte dels costats que formen aquest angle.
+2. **Anàlisi de l'expressió AP = 2*AB:** Això significa que la base del triangle APQ es relaciona amb la base del triangle ABC. Similarment, AQ = 3AD i AR = 4AC.
+3. **Càlcul de l'àrea:**
+   *   Àrea(APQ) = (1/2) * AP * AQ * sin(∠A) = (1/2) * (2AB) * (3AD) * sin(∠A) = 6 * (1/2) * AB * AD * sin(∠A) = 6 * Àrea(ABD).
+   *   Com que D és el punt mitjà de BC, Àrea(ABD) = (1/2) * Àrea(ABC) = k/2.
+   *   Àrea(APQ) = 6 * (k/2) = 3k.
+   *   Àrea(AQR) = (1/2) * AQ * AR * sin(∠A) = (1/2) * (3AD) * (4AC) * sin(∠A) = 12 * (1/2) * AD * AC * sin(∠A) = 12 * Àrea(ADC).
+   *   Com que Àrea(ADC) = (1/2) * Àrea(ABC) = k/2, Àrea(AQR) = 12 * (k/2) = 6k.
+4.  **Anàlisi de la resposta:** La resposta no pot ser 0, perquè P, Q, i R no estan alineats.  Cap de les àrees calculades per separat coincideix directament amb les opcions. Hem de calcular l'àrea del triangle PQR directament. L'àrea del triangle APQ és 3k.
+    *   Calculem la relació entre les àrees de △PQR i △ABC:
+        *   Àrea(△APQ) = (AP/AB) * (AQ/AD) * Àrea(△ABD)
+        *   Àrea(△AQR) = (AQ/AC) * (AR/AB) * Àrea(△ABC)
+
+5. **Càlcul Final:** L'àrea del triangle ABC és k. L'àrea del triangle APQ és 3k. Però hem de trobar l'àrea del triangle PQR. En aquest cas, és probable que l'enunciat tingui errors. Tot i això, tenim les proporcions, podem calcular:
+*   AP = 2AB
+*   AQ = 3AD
+*   AR = 4AC
+*   Area(ABC) = k
+*   Area(ABD) = k/2
+*   Area(ACD) = k/2
+*   Area(APQ) = AP/AB * AQ/AD * Area(ABD) = 2*3 * k/2 = 3k
+*   Area(ARQ) = AR/AC * AQ/AD * Area(ACD) = 4*3 * k/2 = 6k
+La figura mostrada no permet calcular l'àrea del triangle PQR, donada la informació proporcionada.
+
+Resposta: E)

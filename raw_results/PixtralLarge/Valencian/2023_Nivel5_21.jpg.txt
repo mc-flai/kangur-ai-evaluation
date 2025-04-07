@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de trobar quina part del quadrat \(ABCD\) està representada per la zona marcada amb gris. Aquesta zona és un triangle que té l'altura \(AM\) i la base \(AC\).
+
+**Raonament:**
+
+1. El quadrat \(ABCD\) té una àrea total de \(s^2\), on \(s\) és la longitud del costat del quadrat.
+2. \(M\) és el punt mitjà del costat \(AD\), per la qual cosa \(AM = AD/2 = s/2\).
+3. La diagonal \(AC\) del quadrat és \(s\sqrt{2}\) perquè en un quadrat, la diagonal és igual al costat multiplicat per \(\sqrt{2}\).
+4. L'àrea del triangle \(AMN\) és \((base \times altura) / 2\). Aquí, la base és \(AC = s\sqrt{2}\) i l'altura és \(AM = s/2\).
+
+    \[
+    \text{Àrea del triangle } AMN = \frac{1}{2} \times AC \times AM = \frac{1}{2} \times s\sqrt{2} \times \frac{s}{2} = \frac{s^2 \sqrt{2}}{4}
+    \]
+
+5. L'àrea total del quadrat és \(s^2\). Per tant, la part del quadrat que representa el triangle és:
+
+    \[
+    \frac{\text{Àrea del triangle}}{\text{Àrea del quadrat}} = \frac{\frac{s^2 \sqrt{2}}{4}}{s^2} = \frac{\sqrt{2}}{4}
+    \]
+
+6. Descomponem \(\frac{\sqrt{2}}{4}\) per simplificar:
+    \[
+    \frac{\sqrt{2}}{4} \approx \frac{1.414}{4} \approx 0.3535
+    \]
+
+7. Comparant aquest valor amb les opcions donades:
+    - A) 1/6 ≈ 0.1667
+    - B) 1/5 ≈ 0.2
+    - C) 7/36 ≈ 0.1944
+    - D) 3/16 ≈ 0.1875
+    - E) 7/40 = 0.175
+
+    La resposta més propera al valor calculat \( \approx 0.3535 \) és 3/16 ≈ 0.1875.
+
+**Resposta: D)**

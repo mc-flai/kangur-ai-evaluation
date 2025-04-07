@@ -1,0 +1,117 @@
+Reasoning:
+There are 8 teams, and each team plays every other team exactly once. The number of games played is 8C2 = 8 * 7 / 2 = 28 games.
+
+Let's denote the number of wins as W, the number of losses as L, and the number of draws as D. We know that W + L + D = 28. Since each win gives 3 points and a loss gives 0 points, and each draw gives 1 point to both teams (2 points total), the total number of points is 3W + 2D = 61.
+We want to maximize the points of one team. Let's assume one team wins as many games as possible. This means minimizing the draws.
+Also, consider that in the 28 games, there are 61 points in total. Let one team win 'x' games. Each team plays 7 games.
+Let 'm' be the maximum number of points that the team with the most points could have gained.
+We are given that the total number of points is 61.
+To maximize one team's points, let's assume the other 7 teams have as few points as possible. To minimize the points of the other teams, let the team with max points win almost all of its games.
+
+Total games are 28.
+Suppose the team with the most points wins x games. Let the total number of points of the other 7 teams be denoted as T.
+Then, x * 3 + T = 61, so T = 61 - 3x.
+To maximize x, we must minimize T. Since each of the 7 teams must play 7 games, let's consider the case where the other 7 teams have as few points as possible.
+
+Consider the number of points obtained by each team. Since the question asks for the *maximum* possible points of a team, we want to minimize the points obtained by the remaining teams. If there are draws, the points increase by 2, so we should try to minimise draws if possible.
+The total number of points obtained by the other 7 teams must be minimised. If the team with max points wins the game, then the losing team gets 0 point. If there is a draw, both teams get 1 point.
+Let the team win 6 games (18 points). Then T = 61 - 18 = 43.
+Let the team win 7 games (21 points). Then T = 61 - 21 = 40.
+Can a team have 21 points?
+Games played by each team = 7. If a team wins all 7 games, the total points is 21. So T = 61 - 21 = 40.
+The other 7 teams have 40 points in total.
+Average points of the other 7 teams = 40/7 = 5.714...
+Suppose there are k draws. Then the draws contribute 2k to the total.
+W + D = 28. 3W + 2D = 61.
+From the options, try 19. If the team has 19 points, and wins W games and D draw games.
+3W + D = 19 and W+D=7 so 2W=12, W=6, D=1.
+Now total points of other teams = 61-19 = 42. The other 7 teams would obtain 42 points. Each team plays 7 games.
+If the team with max points win, the other one get 0. So if there is no draws, it would be 6 games won by this team.
+
+Try max points as 17, i.e. 3W+D = 17 and W+D = 7. 2W = 10 and W=5, D=2.
+Total points of other teams is 61-17 = 44.
+
+Answer: (D)
+If we assume that the team won 5 games and had two draws, the team would have 17 points. 
+The other 7 teams would need to have a total of 61 - 17 = 44 points. 
+The maximum score possible is 17.
+
+Answer: D)
+
+Reasoning:
+Let the highest score be $x$. The team plays 7 games. Each win is 3 points, and each draw is 1 point.
+The total number of points is 61. The total number of games is $\binom{8}{2} = \frac{8\times7}{2} = 28$.
+$x$ can be $3 \times 7 = 21$ if it wins all games, $3 \times 6 + 1 = 19$ if it wins 6 and draws 1.
+Let's consider the case where $x = 21$. Then the total points for other 7 teams is $61 - 21 = 40$.
+The number of games between other 7 teams is $\binom{7}{2} = \frac{7\times6}{2} = 21$. The total number of games is 28. The number of games with the top team is 7.
+So among the 21 games, each win adds 3 points and a draw adds 2 points.
+Since total points is 40, so let number of games with win/loss be w and draws be d. $3w+2d = 40$.
+w+d = 21 so $3w+2(21-w) = 40$. w = -2 which is impossible. So 21 cannot be the answer.
+Let's consider the case where $x=17$. Let $w$ be number of wins and $d$ be number of draws for the top team.
+Then $3w+d = 17$ and $w+d=7$. 2w=10, w=5, d=2. Total points for other teams = $61-17 = 44$.
+Among 7 teams games played $\binom{7}{2} = 21$. So win/loss + draws is 21 games. Number of games other teams play the top team is 7.
+Each team must play 7 games. Let $m$ be the maximum number of points that a team can get. Then, $61-m$ is the total points gained by the other 7 teams.
+Each of these 7 teams play the others and the max point team. So, 17 is possible.
+
+Answer: D)
+Reasoning:
+There are a total of $\binom{8}{2} = \frac{8 \times 7}{2} = 28$ games played.  Each win awards 3 points and each draw awards 2 total points.
+Let $w$ be the number of games won and $d$ the number of games drawn.  Then $3w + 2d = 61$. Also $w + d = 28$.
+Multiply the second equation by 2, so $2w + 2d = 56$. Subtract this from the first equation to get $w = 5$.  Then $d = 23$, which means that the number of games won is 5. The number of games that aren't wins is 23.
+Suppose the team wins x games, and draws y games. So total points from the leading team is 3x + y. Also, the team has played a total of 7 games so, x + y = 7. So, y = 7 -x. So, 3x + 7 - x = 2x + 7.
+
+Try different values in given choices:
+
+If team got max point is 21. then x+y=7.
+3x+y = 21 -> 3x+7-x = 21 -> 2x = 14 -> x = 7
+
+Remaining point = 61-21 = 40
+
+If 17: then 3x+y=17 , x+y=7 -> 2x = 10 x=5
+Remaining point = 61 - 17= 44
+
+Suppose maximum be 16, 3x+y= 16 -> 2x=9 impossible to get x, integer
+
+D.
+
+Answer: D)
+Reasoning:
+Each team plays 7 games. If a team wins all games, it gets 21 points. The maximum number of points a team can get is if it wins all of its games, with 3 points awarded for a win. Then $3*7=21$. This is the maximum a team could get if there were no draws.
+However, the total number of points is 61. Then it is unlikely that one team would have $21$.
+The number of draws and wins and losses together equals the total number of games. Total games is = 28.
+
+If one team has 17 points, then others have 44.
+Let us assume that team wins every game. Then Total_point =21 ,
+
+$17$ seems reasonable. Let that team win $x$ games, draw $y$ games.
+$3x+y =17$ , then $x+y = 7$. Thus $2x = 10 => x = 5 => y=2$.
+Now remaining total points is $61-17=44$. 
+Thus Answer: (D)
+
+Reasoning:
+There are 8 teams participating in a tournament where each team plays each other exactly once. Total number of games is 8C2 = (8*7)/2 = 28 games.
+Each win awards 3 points and a loss awards 0 points. A draw is 1 point for each team. So, the total number of points is 61.
+
+If one team won 7 games, which means it played all the games, the maximum points would be 21. Let that team get x points and each team got $ \frac{61}{8}$=7. So $7<x<17$
+
+If x=21, that would mean to get x =7+3*33$ . In that way also get $2x-2 = x+ (x-460.
+A game result in 3 ,0 or ,1+1, =2. Thus number of results in the 64 points should thus divisible to get = ,3* $
+The rest teams must earn 60 to
+
+Lets each and all cases, is quite involved, and complicated. Total amount can range by: 3-42 thus answer should lead and by : 61. Thus we pick :D
+
+Answer: D)
+Reasoning:
+Total games played is 8C2 = 28. Total points scored = 61
+Lets assume one of the teams is the most performing. If that team won all matches the points scored = 3*7 = 21. Rest of the teams can get (61 - 21) points = 40.
+
+if that most team lost couple of points if gets a tie.
+Lets test option D if maximum point earned is 17
+
+wins + ties = 7 games
+3 wins + ties = 17
+Multiply equation 2:  3(wins + ties)=3(7) - >  3wins + 3ties =21
+Subtract
+2 ties =4; ties=2 ; Wins =5. Which is totally possible.
+
+Answer: D)

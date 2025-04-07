@@ -1,0 +1,27 @@
+Raonament: The problem describes a pattern where in box 'n' we introduce 'n' balls. The numbers on the balls in box 'n' are consecutive starting from the number after the last number in box 'n-1'. The question is to find out in which box the ball numbered 2018 will be.
+
+Let's denote the last ball number in box 'n' as L(n).
+L(1) = 1
+L(2) = 1 + 2 = 3
+L(3) = 1 + 2 + 3 = 6
+L(4) = 1 + 2 + 3 + 4 = 10
+So L(n) = sum from i=1 to n of i = n*(n+1)/2
+
+We need to find 'n' such that:
+L(n-1) < 2018 <= L(n)
+
+=> (n-1)*n/2 < 2018 <= n*(n+1)/2
+=> n*(n-1) < 4036 <= n*(n+1)
+We can estimate the value of 'n' by checking the square root of 4036 which is approximately 63.5
+Let's try with n=63
+L(63) = 63*64/2 = 63 * 32 = 2016.
+L(62) = 62 * 63 /2 = 1953.
+So, since L(62) = 1953 < 2018 and L(63) = 2016 < 2018
+The ball with number 2018 won't be in box 63. Let's find the box where it will be:
+Let's try with n=64
+L(63) = 2016
+L(64) = 64 * 65 / 2 = 32 * 65 = 2080
+The numbers in the 64th box are: 2017, 2018, 2019,... 2080
+So 2018 is inside the box number 64.
+
+Resposta: D)

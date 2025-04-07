@@ -1,0 +1,22 @@
+Pour résoudre la question 10, nous devons comprendre combien de fois nous devons échanger deux lettres adjacentes pour obtenir le mot "LOVE" à partir du mot "VELO". Voici le processus de réflexion :
+
+1. Identifiez la position actuelle des lettres dans "VELO" et leur position cible dans "LOVE".
+2. Comparez les positions des lettres et déterminez le nombre d'échanges nécessaires pour atteindre l'ordre souhaité.
+
+Positions actuelles et cibles :
+- V -> L
+- E -> O
+- L -> V
+- O -> E
+
+Analyse des échanges :
+1. Échangez "V" et "E" pour obtenir "ELEO".
+2. Échangez "E" et "L" pour obtenir "ELVO".
+3. Échangez "V" et "O" pour obtenir "ELOV".
+4. Échangez "L" et "V" pour obtenir "LOVE".
+
+En suivant ces échanges, nous constatons que 4 échanges sont nécessaires.
+
+Raisonnement : En analysant les positions des lettres dans "VELO" et "LOVE", et en effectuant les échanges nécessaires, nous avons trouvé que 4 échanges sont requis pour atteindre "LOVE".
+
+Réponse : B).

@@ -1,0 +1,41 @@
+Reasoning:
+Let P(x) be the polynomial. We know that P(x) has degree 5, leading coefficient 1, the coefficient of $x^4$ is -11, and the constant term is -7. We are looking for the highest power of (x-1) that divides P(x). Let (x-1)^k be the highest power of (x-1) that divides P(x). Since all roots of the polynomial are integers, we can write P(x) as:
+$P(x) = (x-r_1)(x-r_2)(x-r_3)(x-r_4)(x-r_5)$ where $r_1, r_2, r_3, r_4, r_5$ are integers.
+We can also write $P(x) = (x-1)^k Q(x)$ where $Q(1) \neq 0$.
+Since the constant term of P(x) is -7, we have $r_1 r_2 r_3 r_4 r_5 = 7$. Since 7 is a prime number, the possible integer roots are $\pm 1, \pm 7$.
+
+Since the sum of the roots is the negative of the coefficient of $x^4$, we have $r_1 + r_2 + r_3 + r_4 + r_5 = 11$.
+
+Let's assume that (x-1) is a factor of P(x). If $r_1 = 1$, then $r_2 r_3 r_4 r_5 = 7$. This means that $r_2, r_3, r_4, r_5$ must be some combination of 1, 1, 1, 7 or 1, 1, -1, -7 or 1, -1, -1, 7 or -1, -1, -1, -7.
+We have $r_1 + r_2 + r_3 + r_4 + r_5 = 1 + r_2 + r_3 + r_4 + r_5 = 11$, so $r_2 + r_3 + r_4 + r_5 = 10$.
+If we choose roots 1, 1, 1, 7, then the sum is $1+1+1+7 = 10$.
+If we choose roots 1, 1, -1, -7, then the sum is $1+1-1-7 = -6$.
+If we choose roots 1, -1, -1, 7, then the sum is $1-1-1+7 = 6$.
+If we choose roots -1, -1, -1, -7, then the sum is $-1-1-1-7 = -10$.
+
+So we can write $P(x) = (x-1)(x-1)(x-1)(x-1)(x-7) = (x-1)^3(x-7)$
+However, this makes the sum of the roots $1+1+1+7 = 10$, not 11.
+
+If we have $(x-1)^k$ as a factor, then P(1) = 0, P'(1) = 0, ..., $P^{(k-1)}(1) = 0$.
+We have $P(x) = x^5 - 11x^4 + ax^3 + bx^2 + cx - 7$. Then $P(1) = 1 - 11 + a + b + c - 7 = a + b + c - 17 = 0$. So $a + b + c = 17$.
+$P'(x) = 5x^4 - 44x^3 + 3ax^2 + 2bx + c$. Then $P'(1) = 5 - 44 + 3a + 2b + c = 3a + 2b + c - 39 = 0$. So $3a + 2b + c = 39$.
+$P''(x) = 20x^3 - 132x^2 + 6ax + 2b$. Then $P''(1) = 20 - 132 + 6a + 2b = 6a + 2b - 112 = 0$. So $6a + 2b = 112$, $3a + b = 56$.
+$P'''(x) = 60x^2 - 264x + 6a$. Then $P'''(1) = 60 - 264 + 6a = 6a - 204 = 0$. So $6a = 204$ and $a = 34$.
+$3a + b = 56$, so $3(34) + b = 56$. Then $102 + b = 56$, so $b = -46$.
+$a + b + c = 17$, so $34 - 46 + c = 17$. Then $-12 + c = 17$, so $c = 29$.
+$P(x) = x^5 - 11x^4 + 34x^3 - 46x^2 + 29x - 7$.
+
+We check if (x-1)^2 is a factor: $3a + 2b + c = 3(34) + 2(-46) + 29 = 102 - 92 + 29 = 39$.
+So we see that (x-1)^3 is a factor. Thus (x-1)^3 divides P(x).
+
+$P(x) = (x-1)^3 (x^2+cx+d) = (x^3 - 3x^2 + 3x - 1)(x^2+cx+d) = x^5 + cx^4 + dx^3 - 3x^4 - 3cx^3 - 3dx^2 + 3x^3 + 3cx^2 + 3dx - x^2 - cx - d = x^5 + (c-3)x^4 + (d-3c+3)x^3 + (-3d+3c-1)x^2 + (3d-c)x - d$.
+We want $c-3 = -11$, so $c = -8$. We want $-d = -7$, so $d=7$.
+Then $P(x) = (x-1)^3 (x^2 - 8x + 7) = (x-1)^3(x-1)(x-7) = (x-1)^4 (x-7)$.
+Thus, the highest power is (x-1)^4.
+
+Reasoning:
+We want to find the highest power of (x-1) which divides the polynomial. From the given information $P(0) = -7$, so the product of the roots must be 7. The possible integer roots are 1, -1, 7, -7. Since we also know the sum of the roots must be 11, we can try to find a combination that gives the highest power of (x-1).
+If the roots are 1,1,1,1,7 then sum is 11 and product is 7. Thus, the highest power of x-1 is 4.
+So we have $(x-1)^4 (x-7)$
+
+Answer: D)

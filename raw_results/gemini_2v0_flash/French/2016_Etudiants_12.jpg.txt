@@ -1,0 +1,11 @@
+Reasoning:
+We are given that a+2 = b-2 = 2c = d/2. We want to determine which of a, b, c, and d is the largest. Let x be the common value of a+2, b-2, 2c, and d/2. Then we have:
+a + 2 = x  =>  a = x - 2
+b - 2 = x  =>  b = x + 2
+2c = x  =>  c = x/2
+d/2 = x  =>  d = 2x
+Since x > 0 (because a, b, c, and d are strictly positive integers), we can compare the values of a, b, c, and d.
+We have d = 2x, which is greater than x. Also, b = x + 2 and a = x - 2. We know c = x/2.
+Since x > 0, d = 2x is larger than x, x+2, x-2, and x/2. Since we require a = x-2 > 0, we have x>2. Therefore b = x+2 > x/2 = c, a = x-2 and b > a. So the order is d > b > a and d > c. Thus, d is the largest.
+
+Answer: D)

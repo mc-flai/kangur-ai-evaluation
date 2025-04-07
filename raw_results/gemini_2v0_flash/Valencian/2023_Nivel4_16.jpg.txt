@@ -1,0 +1,29 @@
+Raonament:
+El mínim comú múltiple (mcm) del conjunt {1, 2, 3, 4, 5, 6, 7, 8, 9} és mcm(1,2,3,4,5,6,7,8,9) = 2520. Volem eliminar un número d'aquest conjunt perquè el mcm dels números restants sigui el més petit possible.
+Si eliminem 9: mcm(1,2,3,4,5,6,7,8) = 840
+Si eliminem 8: mcm(1,2,3,4,5,6,7,9) = 1260
+Si eliminem 7: mcm(1,2,3,4,5,6,8,9) = 360
+Si eliminem 6: mcm(1,2,3,4,5,7,8,9) = 2520
+Si eliminem 5: mcm(1,2,3,4,6,7,8,9) = 504
+Analitzem en detall per què traient el 9 el mcm es redueix de forma tan important. Traient el 9 s'elimina la necessitat de tenir el factor 3 al quadrat, com que ja hi ha un 3 al conjunt inicial {1,2,3,4,5,6,7,8,9} el traure el 9 el mcm és més petit.
+
+Calcularem el mcm de la resta de opcions:
+Traient el 8 el mcm es redueix, ja que 8= 2^3 i en comptes de necessitar tres factors 2, només se'n necessiten dos.
+Traient el 7 el mcm es redueix.
+Traient el 6 el mcm és el mateix
+Traient el 5 el mcm es redueix.
+Traient el 4 el mcm es redueix.
+Traient el 3 el mcm es redueix.
+Traient el 2 el mcm es redueix.
+
+Volem trobar quin nombre al ser eliminat minimitza més el mcm.
+Calcularem els mcms traient les diferents opcions:
+A) {1,2,3,4,5,6,7,8} => 840
+B) {1,2,3,4,5,6,7,9} => 1260
+C) {1,2,3,4,5,6,8,9} => 360
+D) {1,2,3,4,5,7,8,9} => 2520
+E) {1,2,3,4,6,7,8,9} => 504
+
+El mínim mcm és 360, que s'obté eliminant el 7.
+
+Resposta: C)

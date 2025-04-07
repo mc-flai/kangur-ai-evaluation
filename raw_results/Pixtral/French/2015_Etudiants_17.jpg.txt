@@ -1,0 +1,24 @@
+
+Raisonnement :
+1. L'équation donnée est \((x^2 + y^2 - 2x)^2 = 2(x^2 + y^2)\).
+2. Pour simplifier cette équation, nous développons le carré du côté gauche :
+   \[
+   (x^2 + y^2 - 2x)^2 = (x^2 + y^2 - 2x)(x^2 + y^2 - 2x)
+   \]
+   \[
+   = x^4 + 2x^2y^2 + y^4 - 4x^3 + 4x^2y - 4xy^2 + 4x^2 - 4x^2y^2 - 4xy^2 + 4x^2y + 4x^2 - 4x
+   \]
+   \[
+   = x^4 + 2x^2y^2 + y^4 - 4x^3 + 4x^2y - 4xy^2 + 4x^2 - 4x^2y^2 - 4xy^2 + 4x^2y + 4x^2 - 4x
+   \]
+3. Simplifions davantage :
+   \[
+   = x^4 + y^4 + 4x^2y^2 - 4x^3 + 4x^2y - 4xy^2 + 4x^2 - 4x
+   \]
+4. Nous comparons cela au côté droit de l'équation, qui est \(2(x^2 + y^2)\) :
+   \[
+   2(x^2 + y^2) = 2x^2 + 2y^2
+   \]
+5. En comparant les deux côtés, nous voyons que les termes \(x^4\) et \(y^4\) ne correspondent pas aux termes du côté droit. Cela suggère que l'axe des ordonnées (y) pourrait être l'axe de symétrie, car cela simplifierait l'équation en termes de \(x^2 + y^2\).
+
+Réponse : B

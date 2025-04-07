@@ -1,0 +1,20 @@
+Raonament: Per determinar el conjunt de valors del paràmetre \( a \) per a què l'equació \( 2 - |x| = ax \) té exactament dues solucions, primer hem d'analitzar l'equació.
+
+L'equació \( 2 - |x| = ax \) pot ser reescrita com \( |x| + ax = 2 \). Aquesta equació té dues solucions si i només si la gràfica de \( y = |x| + ax \) talla la recta \( y = 2 \) en exactament dos punts.
+
+Considerem els dos casos per \( x \geq 0 \) i \( x < 0 \):
+
+1. Per \( x \geq 0 \):
+   \[
+   |x| = x \implies x + ax = 2 \implies x(1 + a) = 2 \implies x = \frac{2}{1 + a}
+   \]
+2. Per \( x < 0 \):
+   \[
+   |x| = -x \implies -x + ax = 2 \implies x(-1 + a) = 2 \implies x = \frac{2}{a - 1}
+   \]
+
+Per a què l'equació tingui exactament dues solucions, els valors de \( \frac{2}{1 + a} \) i \( \frac{2}{a - 1} \) han de ser diferents i no nuls. Això significa que \( 1 + a \neq 0 \) i \( a - 1 \neq 0 \), és a dir, \( a \neq -1 \) i \( a \neq 1 \).
+
+Addicionalment, \( a \) ha de ser tal que \( x \geq 0 \) i \( x < 0 \) siguin possibles, cosa que implica que \( a \) ha de ser un valor que permeti solucions en ambdós intervals. Això es compleix si \( a \) està dins de l'interval \( 1 \leq a < +\infty \).
+
+Resposta: C)

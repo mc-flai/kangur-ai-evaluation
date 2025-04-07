@@ -1,0 +1,11 @@
+To solve question 8, we need to determine the minimum number of draws required to ensure that at least one white ball is drawn from a box containing 65 balls, with 8 of them being white.
+
+**Reasoning**:
+1. We have a total of 65 balls, with 8 white balls and 57 black balls.
+2. We need to ensure that at least one white ball is drawn.
+3. To guarantee drawing at least one white ball, consider the worst-case scenario where we draw all the black balls first.
+4. There are 57 black balls, so the worst case is drawing all 57 black balls first.
+5. The next draw is guaranteed to be a white ball.
+6. Therefore, to ensure at least one white ball is drawn, we need 57 draws (all black balls) + 1 draw (one white ball) = 58 draws.
+
+**Answer**: E).

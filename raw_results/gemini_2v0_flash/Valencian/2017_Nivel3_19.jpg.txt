@@ -1,0 +1,16 @@
+Raonament: Primer calculem quants metres de tela ha venut el comerciant. El comerciant ha obtingut un benefici de 2€ per metre, així que per calcular el preu de compra d'un metre de tela, necessitem saber quants metres ha venut.
+Si ha venut la meitat de la tela, i ha obtingut 336€, i ha tingut un benefici de 2€ per metre, vol dir que el preu de venda per metre era el preu de compra més 2€.
+El preu de venda per metre és 336€ dividit pel nombre de metres venuts, que és la meitat del rotllo. El rotllo valia 576€, per tant, la meitat val 576/2 = 288€.
+El comerciant ha venut 336€ de tela. Suposem que n és el nombre de metres que ha venut. Llavors, n * (preu compra + 2) = 336.
+També sabem que el preu de compra per metre és 576/totalMetres, i n = totalMetres / 2. Per tant, totalMetres = 2n.
+El preu de compra per metre és 576 / (2n).
+Ara, n * (576 / (2n) + 2) = 336.
+Simplificant: n * (288 / n + 2) = 336.
+288 + 2n = 336.
+2n = 336 - 288.
+2n = 48.
+n = 24 metres.
+El nombre total de metres és 2 * 24 = 48 metres.
+El preu de compra per metre és 576 / 48 = 12€ per metre.
+
+Resposta: A)

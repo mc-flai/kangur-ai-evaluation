@@ -1,0 +1,27 @@
+Para determinar cuántos números positivos "buenos" hay, donde un número "bueno" \( n \) es tal que su divisor más grande (excluyendo \( n \)) es igual a \( n - 6 \), sigue estos pasos:
+
+1. **Entender la Definición de Número "Bueno"**:
+   - Un número \( n \) es "bueno" si su divisor más grande (excluyendo \( n \)) es \( n - 6 \).
+   - Esto significa que el divisor más grande de \( n \) es igual a \( n - 6 \).
+
+2. **Buscar Números que Cumplan la Condición**:
+   - Si \( n \) es "bueno", entonces \( n - 6 \) debe ser un divisor de \( n \).
+   - Esto implica que \( n \) debe ser un múltiplo de \( n - 6 \).
+
+3. **Probar Valores de \( n \)**:
+   - Considera los valores pequeños de \( n \) y verifica si cumplen la condición.
+   - Por ejemplo:
+     - Si \( n = 12 \), entonces \( n - 6 = 6 \). El divisor más grande de 12 es 6, por lo que 12 es "bueno".
+     - Si \( n = 18 \), entonces \( n - 6 = 12 \). El divisor más grande de 18 es 9, por lo que 18 no es "bueno".
+     - Si \( n = 24 \), entonces \( n - 6 = 18 \). El divisor más grande de 24 es 12, por lo que 24 no es "bueno".
+     - Si \( n = 30 \), entonces \( n - 6 = 24 \). El divisor más grande de 30 es 15, por lo que 30 no es "bueno".
+     - Si \( n = 36 \), entonces \( n - 6 = 30 \). El divisor más grande de 36 es 18, por lo que 36 no es "bueno".
+     - Si \( n = 42 \), entonces \( n - 6 = 36 \). El divisor más grande de 42 es 21, por lo que 42 no es "bueno".
+     - Si \( n = 48 \), entonces \( n - 6 = 42 \). El divisor más grande de 48 es 24, por lo que 48 no es "bueno".
+
+4. **Conclusión**:
+   - Después de verificar varios valores, encontramos que solo 12 cumple la condición de ser un número "bueno".
+
+Razonamiento: El único número positivo "bueno" encontrado es 12, ya que su divisor más grande (excluyendo 12) es 6, que es igual a 12 - 6.
+
+Respuesta: A)

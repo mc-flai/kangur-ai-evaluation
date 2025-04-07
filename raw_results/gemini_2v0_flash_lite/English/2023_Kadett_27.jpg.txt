@@ -1,0 +1,13 @@
+Reasoning:
+The problem provides an example: 1015 can be expressed as a sum of only the digit 7, using the digit 7 a total of 10 times.  We are given that the sum is 777 + 77 + 77 + 77 + 7 = 1015.  This uses 10 sevens: three from 777 (3), two from each of the three 77s (2x3=6) and one from the 7 (1). 3+6+1 = 10 sevens.
+
+Now, we want to write 2023 as a sum of numbers using only 7s, and the total number of 7s must be 19. To find out how many times 77 is used, first figure out the maximum number of times the 777 can be used. Since 2023 / 777 ≈ 2.6, we can use 777 two times. That equals 1554 (777 x 2).  We have 2023 - 1554 = 469 left.
+Now let's use the 77 as many times as possible. 469 / 77 = 6 with remainder 7.  So we can use 77 six times. That is 462 (77 x 6). We have 469 - 462 = 7 left.
+So we can write the number 2023 as follows: 777 + 777 + 77 + 77 + 77 + 77 + 77 + 77 + 7.
+How many times does 77 appear? 6 times. Let's check the total count of digit 7.
+777 uses 3 digit 7; so 2 of these uses 6 digit 7 (3 * 2 = 6).
+77 uses 2 digit 7, we use this 6 times, so 12 digit 7 are used (2 * 6 = 12).
+The number 7 has 1 digit 7, so 1 digit 7 is used (1 * 1 = 1).
+The total number of digit 7 used is 6 + 12 + 1 = 19.
+
+Answer: E)

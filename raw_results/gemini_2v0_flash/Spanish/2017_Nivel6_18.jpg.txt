@@ -1,0 +1,14 @@
+Razonamiento:
+La pregunta 18 pide el número mínimo de cifras que debe tener el menor de dos números naturales consecutivos, tales que la suma de los dígitos de cada uno sea un múltiplo de 7.
+*   Consideremos el caso de 3 cifras. Buscamos números consecutivos cuyas sumas de dígitos sean múltiplos de 7. Por ejemplo, 699 y 700. La suma de los dígitos de 699 es 6+9+9 = 24 (no múltiplo de 7). La suma de los dígitos de 700 es 7+0+0 = 7 (múltiplo de 7). Si buscamos otros ejemplos como 1399 y 1400, 1+3+9+9 = 22, 1+4+0+0 = 5. No funciona.
+*   Si el número menor es de la forma $\overline{a_n a_{n-1}...a_1 9}$, el número siguiente será $\overline{a_n a_{n-1}... (a_1+1) 0}$. Para que esto funcione, los números deben tener una serie de 9 al final, tal que se cumpla la condición. El número 699,999 tiene una suma de dígitos igual a 6+6(9)= 6+54=60. Necesitaríamos un número menor que sea múltiplo de 7.
+*   Probamos con 669999. La suma de los dígitos es 6+6+9+9+9+9 = 6+6+36 = 48, y 670000 = 6+7 = 13.
+*   Consideremos un número $x$ que termine en $k$ nueves, es decir $x = \overline{a_n ... a_1 \underbrace{99...9}_{k}}$, donde $a_1 \ne 9$. Entonces $x+1 = \overline{a_n ... (a_1+1) \underbrace{00...0}_{k}}$.
+*   Sea $S(x)$ la suma de los dígitos de $x$. Entonces $S(x) = S(\overline{a_n ... a_1}) + 9k$, y $S(x+1) = S(\overline{a_n ... a_1})+1$.
+Queremos que ambos sean múltiplos de 7. Entonces $S(\overline{a_n ... a_1}) + 9k \equiv 0 \pmod{7}$ y $S(\overline{a_n ... a_1})+1 \equiv 0 \pmod{7}$.
+Entonces $S(\overline{a_n ... a_1}) \equiv -9k \equiv -2k \pmod{7}$ y $S(\overline{a_n ... a_1}) \equiv -1 \pmod{7}$.
+Así que $-2k \equiv -1 \pmod{7}$, o $2k \equiv 1 \pmod{7}$. Multiplicando por 4, tenemos $8k \equiv 4 \pmod{7}$, lo que implica $k \equiv 4 \pmod{7}$. Entonces el menor $k$ posible es 4.
+Sea el número $\overline{a_n...a_1}$ que tenga una suma de dígitos $S(\overline{a_n ... a_1}) = -1 \pmod{7} \implies = 6 \pmod{7}$. Entonces, 69999 y 70000. La suma de dígitos de 69999 es 6 + 4(9) = 6+36 = 42. Este es divisible por 7. La suma de dígitos de 70000 es 7.
+69999 tiene 5 dígitos.
+
+Respuesta: C)

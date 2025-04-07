@@ -1,0 +1,21 @@
+Razonamiento: En la pregunta 10, se nos pide calcular la **superficie máxima posible de un terreno en forma de rectángulo de 40 m de anchura**. Para resolver el problema, considera los lados del rectángulo como números primos y, ocasionalmente, un valor al que se le suma 1 para cumplir con la condición de longitud de un lado (40 m).
+
+Los números primos son los que solo son divisibles entre 1 y ellos mismos. Algunos ejemplos de números primos son: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, entre otros. 
+
+**Caso 1: cuando un lado del rectángulo mide 2 m**
+En este caso, el otro lado del rectángulo mide 40 - 2 = 38 m. La superficie del terreno sería 2 x 38 = 76 metros cuadrados.
+
+**Caso 2: cuando un lado del rectángulo mide 3 m**
+Aquí, el otro lado del rectángulo mide: 40 - 3 = 37 m. La superficie del rectángulo sería de 3 x 37 = 111 m².
+
+**Caso 3: cuando un lado del rectángulo mide 5 m**
+En este caso, el otro lado del rectángulo mide: 40 - 5 = 35 m. La superficie del terreno sería de: 5 x 35 = 175 m².
+
+**Caso 4: cuando un lado del rectángulo mide 7 m**
+El otro lado del rectángulo sería 40 - 7 = 33 adicionales, de manera que la superficie del campo sería 40 x 7 = 280 m².
+
+**Caso 5: cuando un lado del rectángulo mide 11 m**. 
+El otro lado del rectángulo sería de: 40 - 11 = 29 metros. La superficie del terreno sería 40 x 11 = 440 m².
+
+**Caso 6: cuando un lado del rectángulo mide 13**, la longitud del otro lado sería menor que 40 - 13 = 27. 
+Respuesta: No Answer.

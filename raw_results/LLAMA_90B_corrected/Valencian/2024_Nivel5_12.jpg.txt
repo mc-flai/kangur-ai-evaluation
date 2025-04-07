@@ -1,0 +1,26 @@
+Raonament:
+
+L'ariadna consta de 2x4 i cada taula 2x2 (de volum 4) vol ocupar-se amb les lletres A, B, C i D.
+
+Lo procediment és combinar cada una de les quattro taules equals a cada una de les possibles permutacions entre elles:
+
+Per trobar el volum total del lloc pot fer-se amb les lletres A, B, C i D, hem de prendre en compte cada tria amb les quattro taules. Té els següents passos:
+
+1.  Primera tria: Tenim quattro lletres disponibles per a omplir la primera taula: A, B, C i D
+
+    Seleccionar qualsevol de les quatre lletres pot fer-se en 4 formes
+2.  Segona tria: Té la segonda taula a omplir i nos quedem amb tres lletres disponibles
+
+    Tenim tres opcions per quin lletres triar per omplir la segona taula en tres casos.
+3.  Tercera tria: Només dues lletres disponibles parent ocupar la tercera taula
+
+    Poden ocupar la tercera taules en dues formes.
+4.  Quarta tria: Per ocupar la 4 taula no quede més que una tria a disposició.
+
+    Només queda la quarta tria per quarta taula.
+
+Hem de multiplicar totes les opcions de casa tria. Per trobar el volum del pot fer-los total que és la multiplicació de totes les opcions: 4  \* 3\* 2\* 1.
+
+El volum final de@interface pot fer amb les taules per ocupar-ar l'ariade es 4 \*3\*2\*1= 24
+
+Resposta: No Answer

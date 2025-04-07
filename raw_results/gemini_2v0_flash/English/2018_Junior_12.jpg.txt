@@ -1,0 +1,16 @@
+Reasoning:
+The sequence is such that each number `n` appears `n` times. We want to find the number of terms in this sequence that are divisible by 3, given that the sequence has a total of 105 terms.
+First, let's find the largest number `k` such that $1 + 2 + 3 + ... + k \le 105$.
+The sum of the first `k` integers is given by $\frac{k(k+1)}{2}$.
+We want to find the largest `k` such that $\frac{k(k+1)}{2} \le 105$.
+$k(k+1) \le 210$.
+Since $14 \times 15 = 210$, the largest such `k` is 14. So the sequence consists of 1 one, 2 twos, 3 threes, ..., 14 fourteens. The total number of terms in this sequence is $\frac{14 \times 15}{2} = 105$.
+Now, we want to count how many of the numbers in the sequence are divisible by 3.
+The numbers divisible by 3 are 3, 6, 9, 12.
+The number 3 appears 3 times.
+The number 6 appears 6 times.
+The number 9 appears 9 times.
+The number 12 appears 12 times.
+So the total number of terms divisible by 3 is $3 + 6 + 9 + 12 = 30$.
+
+Answer: D)

@@ -1,0 +1,16 @@
+Let $n$ be the number of points initially marked on the line.
+When Renate marks a point between each pair of adjacent points, she adds $n-1$ points. So after the first round, the number of points is $n + (n-1) = 2n-1$.
+Let $n_i$ be the number of points after $i$ rounds.
+$n_0 = n$
+$n_1 = 2n_0 - 1 = 2n - 1$
+$n_2 = 2n_1 - 1 = 2(2n-1) - 1 = 4n - 2 - 1 = 4n - 3$
+$n_3 = 2n_2 - 1 = 2(4n-3) - 1 = 8n - 6 - 1 = 8n - 7$
+$n_4 = 2n_3 - 1 = 2(8n-7) - 1 = 16n - 14 - 1 = 16n - 15$
+We are given that after repeating the process three more times, the total number of points is 225. That means the process is repeated 4 times in total (once + three more times).
+Thus, $n_4 = 16n - 15 = 225$
+$16n = 225 + 15 = 240$
+$n = \frac{240}{16} = \frac{120}{8} = \frac{60}{4} = 15$
+
+Reasoning: Let $n$ be the initial number of points. Let $n_i$ be the number of points after $i$ repetitions. After each repetition, the number of points becomes $2n-1$, where $n$ is the number of points before the repetition. We have $n_0 = n$, and we are given that $n_4 = 225$. We can find a recursive formula for $n_i$ as $n_i = 2n_{i-1} - 1$. Expanding this gives $n_1 = 2n-1$, $n_2 = 2(2n-1)-1 = 4n-3$, $n_3 = 2(4n-3)-1 = 8n-7$, and $n_4 = 2(8n-7)-1 = 16n-15$. Since $n_4 = 225$, we have $16n-15=225$, which gives $16n = 240$, so $n = 240/16 = 15$.
+
+Answer: A)

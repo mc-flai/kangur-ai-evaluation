@@ -1,0 +1,7 @@
+Raonament: La pregunta ens demana comptar els nombres enters positius de cinc xifres que són més grans o iguals que 10000 i més petits que 26320, i que a més compleixen la condició que el nombre format per les tres primeres xifres és igual a quatre vegades el nombre format per les dues últimes xifres.
+
+Sigui el nombre de cinc xifres $abcde$. Per la condició donada, $100a + 10b + c = 4(10d + e)$, és a dir, $abc = 4de$. Com que el nombre ha de ser més gran o igual que 10000, $a$ ha de ser almenys 1. A més, el nombre ha de ser menor que 26320, per tant $abc < 263$. I $abc$ ha de ser múltiple de 4. A més, $10000 \le abcde < 26320$, per tant, $100 \le abc \le 262$. Per tant, $100 \le 4de \le 262$, el que implica $25 \le de \le 65$.
+Però, $abc=4de<263$ i $100\le abc$, llavors $100\le 4de \le 262$. Aïllant de, $25 \le de \le 65.5$. Com de ha de ser enter, tenim $25 \le de \le 65$. Ara per cada valor de de trobem un valor de abc. Com $de$ va de 25 a 65, hi ha $65 - 25 + 1 = 41$ possibles valors per a $de$. Però $abcde < 26320$, per tant cal analitzar els casos on abc és 260, 261 i 262. Si abc és 260, de ha de ser 65, i el nombre és 26065, que és més petit que 26320. Si abc és 261, no és múltiple de 4. Si abc és 262, no és múltiple de 4. Tots els nombres formados d'aquesta manera, i de=25 fins de=65 són més grans que 10000 i menors que 26320.
+Llavors, hi ha $65 - 25 + 1 = 41$ nombres que compleixen la condició.
+
+Resposta: D)

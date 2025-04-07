@@ -1,0 +1,40 @@
+Raonament: En el punt d'intersecció, tenim que l'angle complet és de 360 graus. L'angle oposat a l'angle de 108 graus també és de 108 graus (angles oposats pel vèrtex). L'angle oposat a l'angle de 124 graus també és de 124 graus. Per tant, la suma dels dos angles donats i els seus angles oposats és 108 + 108 + 124 + 124 = 464 graus. Atès que un cercle té 360 graus, això no és correcte.
+
+El que se'ns demana és l'angle que falta, que és l'angle gris.
+El total de graus al voltant del punt d'intersecció de les tres línies és de 360°.
+Tenim dos angles donats: 108° i 124°.
+Els angles oposats al vèrtex són iguals. Per tant, tenim els angles: 108°, 124°, i els seus corresponents angles oposats.
+El problema és que l'enunciat original diu "Tres línies intersequen en un punt".
+Això és diferent de "Tres línies que formen angles".
+L'enunciat "Tres línies que formen angles" permetria calcular l'angle gris fent servir 360° - 108° - 124° = 128°. I llavors dividint entre 2 si volem la meitat per a l'angle gris.
+En aquest cas hem de fer un altre raonament.
+
+Com que són tres línies intersecant-se en un punt, considerem les línies verticals. L'angle format amb l'horitzontal és de 180 graus. 180 graus menys l'angle de 124 ens dóna l'angle adjacent. 180 - 124 = 56 graus.
+L'angle gris és adjacent a l'angle de 108. A la línia oposada, el segment de línia també forma un angle de 180 graus amb la vertical. Per tant, la suma entre l'angle gris i un angle desconegut és 180.
+Aleshores, si considerem l'angle adjacent a l'angle de 108, tenim 180 - 108 = 72. Però això tampoc ens aporta res.
+
+Considerem que les dues línies de la figura són "qualsevol".
+Necessitem trobar l'angle gris.
+Tenim angles oposats per vèrtex. A partir de la línia vertical, sabem que 180 - 124 = 56.
+L'angle oposat per vèrtex a 56 és també 56.
+Llavors, l'angle gris és oposat per vèrtex a una suma. Com que dos angles i els seus angles oposats fan un total de 360 graus, això no és possible.
+
+Tenim que sumar els angles i igualar-los a 180 graus, per fer-ho més senzill.
+x + 108 + 124 = 360. Això no està bé.
+
+Però si l'angle de 124 és la suma de dos angles adjacents, potser podem fer alguna cosa.
+Així, l'angle oposat a 108 és 108. I llavors volem saber quant fa l'angle gris.
+Si agafem 180 menys 108 ens dóna 72.
+Però necessitem trobar l'angle gris.
+Potser hem d'agafar els angles entre les tres línies, que sumen 180 graus.
+x + y + z = 180.
+O 360 = 2x + 2y + 2z
+
+Així, 124 + 108 + X = 360. Però no.
+
+180-124 = 56.
+Per tant, l'angle gris pot ser de 56 graus.
+
+Raonament: L'angle gris i l'angle de 108 graus es troben al mateix costat de la línia vertical. L'angle que forma la línia vertical amb una línia horitzontal és de 90 graus. 180-124 = 56 graus.
+
+Resposta: E)

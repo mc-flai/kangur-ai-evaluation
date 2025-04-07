@@ -1,0 +1,22 @@
+Razonamiento:
+Sea x la cantidad de jarrones que tienen 1 dulce, y la cantidad de jarrones que tienen 2 dulces, z la cantidad de jarrones que tienen 3 dulces y w la cantidad de jarrones que no tienen dulces (0 dulces).
+El enunciado nos da la información que:
+* Hay 4 jarrones, entonces x + y + z + w = 4
+* La cantidad de dulces en el primer jarrón es x.
+* La cantidad de dulces en el segundo jarrón es y.
+* La cantidad de dulces en el tercer jarrón es z.
+* La cantidad de dulces en el cuarto jarrón es w.
+En total, la cantidad de dulces será: 1*x + 2*y + 3*z + 0*w = x + 2y + 3z. Además,
+* El primer jarrón tiene x dulces. Pero "x" es la cantidad de jarrones que tiene 1 dulce.
+* El segundo jarrón tiene y dulces. Pero "y" es la cantidad de jarrones que tiene 2 dulces.
+* El tercer jarrón tiene z dulces. Pero "z" es la cantidad de jarrones que tiene 3 dulces.
+* El cuarto jarrón tiene w dulces. Pero "w" es la cantidad de jarrones que tiene 0 dulces.
+Eso quiere decir que:
+* El primer jarrón tiene x dulces = x.
+* El segundo jarrón tiene y dulces = y.
+* El tercer jarrón tiene z dulces = z.
+* El cuarto jarrón tiene w dulces = w.
+Dado que la suma de jarrones es 4, tenemos x + y + z + w = 4. La cantidad de dulces total es: x + y + z + w = 4 dulces.
+Por lo tanto, la cantidad total de dulces en los 4 jarrones es: x + y + z + w = 4.
+
+Respuesta: C)

@@ -1,0 +1,17 @@
+Raonament: Per resoldre aquest problema, necessitem trobar el valor de L en l'equació TALENT * X = 746136, on cada lletra representa una xifra diferent. Com que no tenim prou informació per resoldre el valor de totes les lletres, haurem de provar les diferents opcions per a L per veure quina encaixa amb la resta.
+Si L = 2, tenim TA2ENT * X = 746136.
+Si L = 5, tenim TA5ENT * X = 746136.
+Si L = 6, tenim TA6ENT * X = 746136.
+Si L = 8, tenim TA8ENT * X = 746136.
+Si L = 9, tenim TA9ENT * X = 746136.
+Comencem assumint que X és un nombre d'un sol dígit. Com que 746136 acaba en 6, X ha de ser tal que N * X acabi en 6. Però no podem resoldre només amb això.
+Notem que el nombre 746136 està relativament a prop de 750000. Si suposem que TALENT és un nombre de 6 xifres i comença amb 74, TALENT podria ser 746136, però això no funcionaria perquè lletres diferents representen xifres diferents.
+Aquesta és una pregunta difícil per resoldre sense més informació. Per tant, provem dividint 746136 per les opcions donades.
+746136/2 = 373068, això és una possibilitat.
+746136/5 = 149227.2, impossible ja que hem de tenir només enters.
+746136/6 = 124356, això és una possibilitat.
+746136/8 = 93267, això és una possibilitat.
+746136/9 = 82904, això és una possibilitat.
+Tenint en compte que és una pregunta difícil, mirant més de prop les opcions, només L=8 fa que TALENT tingui 6 xifres. L=9 ens donaria un número de 5 xifres.
+
+Resposta: D)

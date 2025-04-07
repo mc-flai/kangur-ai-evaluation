@@ -1,0 +1,70 @@
+Raonament:
+Siguin a, b, c, d les coordenades dels punts A, B, C i D respectivament.
+Tenim que AB = |b-a| = 13, BC = |c-b| = 11, CD = |d-c| = 14 i DA = |a-d| = 12.
+
+Volem trobar AC + BD = |c-a| + |d-b|.
+Considerem el cas on A, B, C, D estan en aquest ordre.
+AC = AB + BC = 13+11 = 24
+AD = AB + BC + CD = 13+11+14 = 38. Però AD = 12, això és impossible.
+
+Considerem l'ordre A, D, C, B.
+AD = 12
+DC = 14
+CB = 11
+BA = 13
+AC = AD + DC = 12 + 14 = 26
+DB = DC + CB = 14 + 11 = 25
+AC + DB = 26+25 = 51
+
+Considerem l'ordre A, B, D, C.
+AB = 13
+BD = ?
+DC = 14
+CA = ?
+
+AB + BC + CD + DA = 13+11+14+12 = 50
+AC + BD = x
+
+Si sumem les distàncies, obtenim AB + BC + CD + DA.
+(AB + BC + CD + DA) / 2 = 50/2 = 25
+Els valors de AC i BD no tenen perquè ser únics.
+
+Si els punts estiguessin en ordre A, B, C, D, llavors AD = AB + BC + CD
+12 = 13 + 11 + 14 = 38. Això no és possible.
+A + B + C + D = 50
+|b-a| + |c-b| + |d-c| + |a-d| = 50
+
+Considerem l'ordre A, C, B, D.
+AB = 13, BC = 11, CD = 14, DA = 12
+AC = ?
+BD = ?
+
+2(AC + BD) = 2(AB + BC + CD + DA)
+(AC + BD)^2 = AC^2 + BD^2 + 2AC*BD
+
+Considerem el cas on la suma de les distancies de dos costats oposats és igual a la suma dels altres dos costats oposats, i.e. AB + CD = BC + DA.
+13 + 14 = 11 + 12 + 4 = 27 = 23. No és cert.
+
+AB + CD = AC + BD
+BC + DA = AC + BD
+Si AB + CD = BC + DA
+llavors AC + BD = AB + CD = 13 + 14 = 27
+AC + BD = BC + DA = 11 + 12 = 23.
+No es compleix.
+
+Considerem el cas en que AC + BD = AB + CD - BC - DA.
+= 13 + 14 - 11 - 12 = 4.
+
+Considerem AB + DA + BC + CD = AC + BD + AD + BC = 50.
+Considerem l'ordre en que AD és més petit. AD = 12
+BC = 11
+Si ordenem en termes d'AB, DA, BC, CD
+A,B,D,C
+
+AB + BC + CD = 13 + 11 + 14 = 38 = AC + BD
+DA = 12
+27
+Si ABCD, AD = 12 = AB + BC + CD = 38 imposible.
+
+Resposta: D)
+Resposta: D)

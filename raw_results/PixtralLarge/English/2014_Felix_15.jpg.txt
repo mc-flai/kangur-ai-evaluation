@@ -1,0 +1,20 @@
+To determine the color of the cube with the question mark, we need to ensure that cubes of the same color do not touch each other. Let's analyze the structure step by step:
+
+1. **Top Layer**: There is one cube. Since it's alone, it can be any color.
+2. **Second Layer from the Top**: There are two cubes. They must be different colors.
+3. **Third Layer from the Top**: There are three cubes. Since the middle cube is the one with the question mark, it must be different from the cubes immediately above and below it.
+4. **Bottom Layer**: There are four cubes. The middle two cubes must be different colors, and the outer two cubes must also be different from their adjacent cubes.
+
+Ingrid has:
+- 4 red cubes
+- 3 blue cubes
+- 2 green cubes
+- 1 yellow cube
+
+To maximize the usage of cubes without having the same color touching, we can place the yellow cube in the topmost position. This leaves us to distribute the remaining colors such that no two cubes of the same color touch each other.
+
+Given the constraints and the number of cubes of each color, the only feasible configuration that avoids having the same color cubes touching each other is to place the yellow cube at the top. Following this logic, the cube with the question mark must be yellow to ensure no two cubes of the same color are adjacent.
+
+**Reasoning**: The yellow cube is the only one of its color, making it the best candidate for the top position. This allows the other colors to be distributed without violating the rule of same-colored cubes touching each other. The cube with the question mark must be yellow to maintain this configuration.
+
+**Answer**: D)

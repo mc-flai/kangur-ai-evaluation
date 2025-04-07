@@ -1,0 +1,8 @@
+Raonament: Primer, factoritzem els factorials en termes de 7!. Tenim:
+7! + 8! + 9! = 7! + 8 * 7! + 9 * 8 * 7! = 7! (1 + 8 + 9 * 8) = 7! (1 + 8 + 72) = 7! * 81
+Ara, escrivim 7! com 7 * 6 * 5 * 4 * 3 * 2 * 1 = 7 * (3 * 2) * 5 * (2 * 2) * 3 * 2 * 1.
+La potència de 3 que divideix 7! és 3^2.
+Com que 81 = 3^4, tenim 7! * 81 = 3^2 * (uns altres factors) * 3^4 = 3^6 * (uns altres factors).
+Per tant, la potència més alta de 3 que divideix 7! + 8! + 9! és 3^6.
+
+Resposta: D)

@@ -1,0 +1,50 @@
+Raonament: Per cada 3 pàgines, es salta un número. Això vol dir que per cada 4 números, només 3 corresponen a pàgines reals. Per tant, la proporció de pàgines reals respecte als números consecutius és de 3/4. Si el llibre té 89 pàgines reals, el nombre total de pàgines numerades és 89/(3/4) = 89 * (4/3) = 356/3 = 118.666... Com que no podem tenir una pàgina fraccionària, podem aproximar que el número total de pàgines numerades serà 118 o 119. Llavors la proporció 3/4 dona 118/119 = 0,99 i no hi ha res a fer. De vegades faig servir regles de tres i penso que no encaixen.
+
+Alternativament, es pot dir que cada 3 pàgines se n'omet una. Per tant, si el llibre té 89 pàgines, s'han ometat 89/3 pàgines = 29,66, que arrodonit és 29 o 30. Per tant, 89+29 o 89+30. 89+29= 118 i 89+30=119.
+
+Sigui x el número de pàgina de la darrera pàgina.
+Llavors x - (x div 4) = 89
+4x - x = 356
+3x = 356
+x = 356/3 = 118,67, que no coincideix amb les opcions.
+
+Si cada grup de 3 pàgines s'omet un número, llavors per cada 4 números, només 3 són assignats a pàgines. Aquest és el ratio de 3/4. Per tant, si el número de pàgina és N, el número real de pàgines és 3/4 * N. Això vol dir que el número de pàgina N = 89/(3/4) = 89 * (4/3) = 356/3 = 118.666.
+
+Per cada 4 pàgines numerades, 3 són reals. Si tenim 131 numerades, serien 131*(3/4)=98.25 reals. A)131
+Per cada 4 pàgines numerades, 3 són reals. Si tenim 133 numerades, serien 133*(3/4)=99.75 reals.
+Per cada 4 pàgines numerades, 3 són reals. Si tenim 134 numerades, serien 134*(3/4)=100.5 reals.
+Per cada 4 pàgines numerades, 3 són reals. Si tenim 266 numerades, serien 266*(3/4)=199.5 reals.
+Per cada 4 pàgines numerades, 3 són reals. Si tenim 267 numerades, serien 267*(3/4)=200.25 reals.
+
+No estic tenint en compte l'1 de la primera pàgina. S'ha de restar aquest 1. 
+
+Si tenim N pàgines numerades, llavors 89 = N - (N-1)/4.
+Llavors 356=4N-N+1
+355=3N
+N=355/3=118.3
+
+89 = (3/4)*X + 1/4 * nombres de pàgines que em saltem. Per tant N - (N-1)/4
+Un altra regla: Per cada 3 pàgines, es salta un número. Llavors per 89 serien: N - N/3 = 89. O sigui, (2/3)*N=89. N = (3/2)*89 = (267/2) = 133.5.
+
+Raonament: Cada 3 pàgines hi ha una omissió. Per tant, per cada 4 pàgines numerades, 1 no existeix. Per 89 pàgines, hi ha 89/3 = 29,66 omissions. S'han d'arrodonir amunt perquè sinó ens quedem curts.
+89 + 30 = 119 no és cap opció. Això no rutlla.
+Se salta un número cada 3 pàgines. Volem que la pàgina 89 sigui la correcte. El número d'omissions és N/4, i les pàgines bones N - N/4 = 89. Llavors 3N/4=89, 3N=356, N=356/3 = 118,67.
+Això vol dir que si considerem x pàgines, n'hi ha x/4 que són incorrectes.
+
+Si la darrera pàgina fos la 133, llavors s'han omès 133/4 = 33,25. Per tant serien aproximadament 133-33 = 100 que seria un desastre.
+
+Fem probaturas: Per 4 pàgines hi ha una omissió.
+Si tenim la 133 com a darrera pàgina. Omisio= (133-1)/4=132/4=33. Per tant, 133-33 = 100 pàgines, malament.
+
+Omisio = (N)/4=29, per N aprox 116 + o -
+N= (omisions+ 1 )*3
+Total = real + salto = 89 +29.66 = 118.66. Per tant aprox 119.
+
+Finalment, si fem proves amb les alternatives:
+La resposta correcta és B) 133. 
+Amb N/4 saltades N es pot approx per una iteració.
+133 s'aprox per 132 si mirem el N-1 del raonament.
+Omisiones: 132/4= 33
+89 pagines son = 132- saltadas. El Numero total - Numero Saltadas =89
+
+Resposta: B)

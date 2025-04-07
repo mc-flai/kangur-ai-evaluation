@@ -1,0 +1,17 @@
+Raonament:
+1. **Entendre el procés:** El procés és: (x - 1) * 2.
+2. **Repetir el procés:**  Aquest procés es repeteix deu vegades.
+3. **Anàlisi de cada iteració:**
+   * Iteració 1: (x - 1) * 2 = 2x - 2
+   * Iteració 2: ((x - 1) * 2 - 1) * 2 = (2x - 3) * 2 = 4x - 6
+   * Iteració 3: (((x - 1) * 2 - 1) * 2 - 1) * 2 = (4x - 7) * 2 = 8x - 14
+   * Si observem, podem veure un patró: després de 'n' iteracions, el resultat serà 2^n * x + b, on b és un valor constant.
+4. **Deu iteracions:** Després de 10 iteracions, esperem un terme de la forma: 2^10 * x + b = 1024x + b.
+5. **Determinar 'b':**
+   * Després d'una iteració: 2x - 2
+   * Després de dues iteracions: 4x - 6.  -6 = -2 * (2^1+1)
+   * Després de tres iteracions: 8x - 14. -14 = -2 * (2^2+2+1)
+   * Després de deu iteracions:  b = -2*(2^9 + 2^8 + ....+ 2^0) = -2 * (2^10 -1)/(2-1) = -2*(1023) = -2046.
+6. **Comparar amb les opcions:**  L'expressió resultant és 1024x - 2046. Això correspon amb les opcions on a = 1024 i b = -2046.
+
+Resposta: E)

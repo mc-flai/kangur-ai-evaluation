@@ -1,0 +1,36 @@
+Raisonnement :
+1. **Comprendre le problème :** On doit placer les nombres de 1 à 10 aux sommets du réseau en forme de trois carrés imbriqués, de sorte que la somme des nombres aux quatre sommets de chaque carré soit la même. Le but est de minimiser cette somme commune.
+2. **Identifier les sommets :** Le réseau a 7 sommets. Chaque carré partage des sommets avec les autres carrés. Les quatre sommets extérieurs ne font partie que d'un carré, tandis que les trois sommets intérieurs font partie de deux carrés chacun.
+3. **Minimiser la somme :** Pour minimiser la somme, on doit répartir les petits nombres (1, 2, 3,...) de manière à ce que les nombres les plus grands soient utilisés le moins possible dans les calculs de somme. Les nombres partagés entre plusieurs carrés doivent être ceux qui permettent la plus petite somme.
+4. **Approche :** La somme de tous les nombres de 1 à 10 est (10 * 11) / 2 = 55. Il y a trois carrés donc les trois sommes combinées doivent être au minimum un peu plus que 55. Si les nombres communs sont petits, ça doit être possible.
+5. **Calcul :** En prenant 1, 2 et 3 comme les nombres du milieu : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Chaque carré compte 4 nombres :
+    *   Carré 1 : 1 + 4 + 9 + 2 = 16
+    *   Carré 2 : 2 + 5 + 10 + 3 = 20
+    *   Carré 3 : 3 + 6 + 7 + 1 = 17
+On doit prendre des nombres communs pour rendre les sommes égales.
+Essayons 1, 2, 3 comme valeurs communes :
+On pourrait placer les nombres de sorte que la somme de chaque carré soit de 20 :
+*   Carré 1: 1+6+8+5 = 20
+*   Carré 2: 2+4+9+5 = 20
+*   Carré 3: 3+7+10+0 = 20  (ce qui n'est pas possible, il n'y a pas 0)
+Essayons de trouver une configuration possible. Les nombres centraux sont partagés deux fois.  L'ensemble de tous les sommets fait que les nombres du milieu comptent deux fois. On a 3 carrés, donc 12 nombres, mais les nombres de 1 à 10 seulement. Donc, la somme des nombres des carrés est 3 * S. La somme de tous les nombres est 55.
+Les 3 sommes doivent être égales. Soit S la somme de chaque carré. On a 3S = 55 + (somme des 3 nombres centraux) + (les deux sommets en bout de chaque carré).
+
+Considérons les nombres centraux comme 4, 5, 6.  La somme est 15. Les autres nombres pourraient être 1, 2, 3, 7, 8, 9, 10.  La somme des carrés est alors 3S = 55 + 15 = 70. Donc S = 70/3, impossible.
+
+Essayons une somme de 20.
+*   Sommets : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+*   Sommes : 20
+*   1er Carré : 1+6+8+5=20
+*   2ème Carré : 2+4+9+5=20
+*   3ème Carré : 3+7+10+0 (pas possible, manque 0)
+Si on utilise 1,2,3 comme les points du milieu.
+Essayons 19. La somme des trois carrés doit donner 57. Donc, si les nombres du milieu sont petits (par exemple 1, 2, 3), ça pourrait marcher.
+
+On pourrait essayer 19 : 3 * 19 = 57. 57-55=2. Les nombres centraux sont plus petits que 4.
+Considérons 20 : 3 * 20 = 60. 60-55=5.  Ce serait la somme des trois nombres au centre.
+On a 20 comme la plus petite somme.
+Les nombres partagés, pourraient donner la plus petite somme.
+On cherche à minimiser.
+
+Réponse : C)

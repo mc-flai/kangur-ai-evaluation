@@ -1,0 +1,9 @@
+Reasoning:
+Let the triangle be $ABC$ with $\angle BAC = 90^\circ$. Let $P$ be the intersection of the angle bisectors of $\angle B$ and $\angle C$. Let $d$ be the distance from $P$ to the hypotenuse $BC$. We are given that $d = \sqrt{8}$.
+Since $P$ is the intersection of angle bisectors, it is the incenter of triangle $ABC$. Thus, $P$ is equidistant from the three sides of the triangle.
+Let $r$ be the inradius of triangle $ABC$. Then the distance from $P$ to $BC$ is $r$, so $r = \sqrt{8}$.
+Let $x$ be the distance from $P$ to $AB$ and $y$ be the distance from $P$ to $AC$. Then $x = y = r = \sqrt{8}$.
+We want to find the distance $PA$. Let $x = \sqrt{8}$ be the distance from $P$ to $AB$ and $y = \sqrt{8}$ be the distance from $P$ to $AC$. Let $A'$ and $A''$ be the feet of perpendiculars from $P$ to $AB$ and $AC$ respectively. Then $PA' = PA'' = \sqrt{8}$. Also, $AA'PA''$ is a square with side $\sqrt{8}$.
+Therefore, $PA$ is the diagonal of the square $AA'PA''$. The length of the diagonal is $\sqrt{2} \cdot \text{side}$. Thus, $PA = \sqrt{2} \cdot \sqrt{8} = \sqrt{16} = 4$.
+
+Answer: E)

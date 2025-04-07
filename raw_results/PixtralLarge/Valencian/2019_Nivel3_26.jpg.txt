@@ -1,0 +1,31 @@
+Per resoldre aquesta pregunta, hem de determinar quins dos cicles necessiten ser pintats per forçar que tots els vèrtexs directament connectats compartisquen el mateix color.
+
+Primer, identifiquem els cicles en el gràfic:
+
+1. Cicle amb els vèrtexs 1-2-3-4
+2. Cicle amb els vèrtexs 2-6-7
+3. Cicle amb els vèrtexs 3-7-8
+4. Cicle amb els vèrtexs 5-6
+
+Ara analitzem cada opció:
+
+A) El 5 i el 8:
+   - Pintar els cicles 4 i 5 no garanteix que els vèrtexs de la resta de cicles tinguin el mateix color.
+
+B) L'1 i el 6:
+   - Pintar els cicles 1 i 3 garanteix que els vèrtexs 1-2-3-4 i 6-7-8 tinguin el mateix color.
+
+C) El 2 i el 7:
+   - Pintar els cicles 2 i 3, tampoc garanteix que tots els vèrtexs tinguin el mateix color.
+
+D) El 4 i el 5:
+   - Pintar els cicles 4 i 5 no garanteix que tots els vèrtexs tinguin el mateix color.
+
+E) El 3 i el 6:
+   - Pintar els cicles 3 i 5 no garanteix que tots els vèrtexs tinguin el mateix color.
+
+Per tant, l'única combinació que garanteix que tots els vèrtexs que estan directament connectats tinguin el mateix color és la combinació del vertex 1 i el vertex 6.
+
+Raonament: Com que pintar els cicles del vertex 1 i el vertex 6 fa que tots els vèrtexs directament connectats hagin de compartir el mateix color, la resposta correcta és B).
+
+Resposta: B)

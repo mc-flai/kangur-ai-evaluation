@@ -1,0 +1,27 @@
+To determine the largest possible value of one of the remaining sums when one of the sums is the smallest possible, follow these steps:
+
+1. **Identify the Sums**:
+   - The circles are numbered from 0 to 10 with different numbers.
+   - The sums of the three numbers on each diameter must be odd numbers.
+
+2. **Smallest Possible Sum**:
+   - To minimize a sum, we should choose the smallest possible numbers.
+   - The smallest three numbers from the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10} are 0, 1, and 2.
+   - The smallest possible sum is \(0 + 1 + 2 = 3\).
+
+3. **Largest Possible Sum**:
+   - To maximize a sum, we should choose the largest possible numbers.
+   - The largest three numbers from the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10} are 8, 9, and 10.
+   - The largest possible sum is \(8 + 9 + 10 = 27\).
+
+4. **Constraints**:
+   - The sums must be odd numbers.
+   - The largest odd number less than or equal to 27 is 27 itself (since 27 is odd).
+
+5. **Conclusion**:
+   - The largest possible value of one of the remaining sums, given that one sum is the smallest possible (3), is 27.
+   - However, 27 is not an option. The closest option less than 27 is 21.
+
+Reasoning: The largest possible sum of three distinct numbers from 0 to 10 is 27, which is odd. Since 27 is not an option, the next largest odd number below 27 is 21.
+
+Answer: E)

@@ -1,0 +1,61 @@
+
+La pregunta 26 nos pide determinar el valor del producto \( xy \) dado que \( x \) y \( y \) son dos números diferentes de manera que \( 2017 + x = y^2 \) y \( 2017 + y = x^2 \).
+
+Para resolver esto, sigamos estos pasos:
+
+1. **Identificar las ecuaciones**: Tenemos dos ecuaciones:
+   \[
+   2017 + x = y^2
+   \]
+   \[
+   2017 + y = x^2
+   \]
+
+2. **Restar las ecuaciones**: Restando la segunda ecuación de la primera, obtenemos:
+   \[
+   (2017 + x) - (2017 + y) = y^2 - x^2
+   \]
+   Simplificando, tenemos:
+   \[
+   x - y = y^2 - x^2
+   \]
+
+3. **Factorizar la diferencia de cuadrados**: La diferencia de cuadrados se puede factorizar como:
+   \[
+   y^2 - x^2 = (y - x)(y + x)
+   \]
+   Entonces, tenemos:
+   \[
+   x - y = (y - x)(y + x)
+   \]
+
+4. **Simplificar**: Reorganizando los términos, obtenemos:
+   \[
+   x - y = -(x - y)(y + x)
+   \]
+   Si \( x \neq y \), podemos dividir ambos lados por \( x - y \):
+   \[
+   1 = -(y + x)
+   \]
+   Reescribiendo, tenemos:
+   \[
+   y + x = -1
+   \]
+
+5. **Determinar \( x \) y \( y \)**: Dado que \( x \) y \( y \) son números diferentes y \( y + x = -1 \), podemos suponer que \( x = a \) y \( y = -a - 1 \) para algún número entero \( a \). Dado que \( x \) y \( y \) son diferentes, \( a \) no puede ser igual a \(-1/2\).
+
+6. **Calcular el producto \( xy \)**: El producto \( xy \) es:
+   \[
+   xy = a(-a - 1) = -a^2 - a
+   \]
+
+7. **Evaluar las opciones**: Evaluemos las opciones dadas:
+   - A) -2015
+   - B) -2016
+   - C) -1008
+   - D) -1
+   - E) 2014
+
+   Dado que \( x \) y \( y \) son números enteros, el producto \( xy \) debe ser un número entero. Evaluemos las opciones para ver cuál es el valor correcto.
+
+**Respuesta**: D)

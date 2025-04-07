@@ -1,0 +1,20 @@
+
+La pregunta 16 en la imagen dice: "Un entero positivo \( n \) se llama 'bueno' si su divisor más grande (excluyendo \( n \)) es igual a \( n - 6 \). ¿Cuántos enteros positivos 'buenos' hay?"
+
+Para determinar cuántos enteros positivos 'buenos' hay, debemos entender lo que significa que el divisor más grande de \( n \) (excluyendo \( n \)) sea igual a \( n - 6 \).
+
+Razonamiento:
+1. El divisor más grande de \( n \) (excluyendo \( n \)) debe ser un divisor propio de \( n \).
+2. Para que este divisor propio sea igual a \( n - 6 \), \( n - 6 \) debe ser un divisor propio de \( n \).
+3. Consideremos los posibles valores de \( n \) que cumplen esta condición:
+   - Si \( n = 7 \), el divisor más grande (excluyendo 7) es 1, que no es igual a 1 (7 - 6).
+   - Si \( n = 8 \), el divisor más grande (excluyendo 8) es 2, que no es igual a 2 (8 - 6).
+   - Si \( n = 9 \), el divisor más grande (excluyendo 9) es 3, que no es igual a 3 (9 - 6).
+   - Si \( n = 10 \), el divisor más grande (excluyendo 10) es 5, que no es igual a 4 (10 - 6).
+   - Si \( n = 12 \), el divisor más grande (excluyendo 12) es 6, que es igual a 6 (12 - 6).
+   - Si \( n = 18 \), el divisor más grande (excluyendo 18) es 9, que no es igual a 12 (18 - 6).
+   - Si \( n = 20 \), el divisor más grande (excluyendo 20) es 10, que no es igual a 14 (20 - 6).
+
+De los valores probados, solo \( n = 12 \) cumple la condición de que el divisor más grande (excluyendo 12) sea igual a 6 (12 - 6).
+
+Respuesta: C)

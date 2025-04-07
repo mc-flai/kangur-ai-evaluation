@@ -1,0 +1,22 @@
+Para determinar el número que Viky escribió, debemos analizar el problema paso a paso.
+
+1. El problema nos dice que Viky escribió cinco números positivos distintos en una sola fila. La suma de estos números es 10.
+2. La pregunta nos pide cuál es el mayor de estos números.
+
+Para resolver esto, consideremos las posibles combinaciones de cinco números distintos que suman 10. Una forma sencilla de hacerlo es enumerar los números más pequeños que suman 10 y luego determinar el mayor número en esa combinación.
+
+Combinaciones posibles:
+- 1 + 2 + 3 + 4 = 10 (No es posible, ya que faltan dos números)
+- 1 + 2 + 3 + 5 = 11 (No es posible, ya que faltan dos números)
+- 1 + 2 + 4 + 5 = 12 (No es posible, ya que faltan dos números)
+- 1 + 3 + 4 + 5 = 13 (No es posible, ya que faltan dos números)
+
+Al revisar las combinaciones, ninguna de las combinaciones posibles de cinco números distintos suma 10. Sin embargo, al considerar combinaciones de cuatro números que suman 10, encontramos:
+
+- 1 + 2 + 3 + 4 = 10
+
+En esta combinación, el mayor número es 4.
+
+Razonamiento: Al revisar las combinaciones posibles de números que suman 10, encontramos que la combinación de 1, 2, 3 y 4 es la que suma 10. El mayor número en esta combinación es 4.
+
+Respuesta: D)

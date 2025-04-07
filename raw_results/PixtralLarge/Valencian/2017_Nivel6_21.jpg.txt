@@ -1,0 +1,37 @@
+Per resoldre aquest problema, hem de trobar el resíduo de la divisió per 7 de l'element 2017 de la successió definida per \( a_0 = 1, a_1 = 2, a_n + 2 = a_n + (a_{n+1})^2 \) per a \( n \geq 0 \).
+
+### Raonament:
+
+1. **Entendre la regla de la successió**:
+   - \( a_0 = 1 \)
+   - \( a_1 = 2 \)
+   - \( a_{n+2} = a_n + (a_{n+1})^2 \) per \( n \geq 0 \)
+
+2. **Calcular els primers termes per identificar un patró**:
+   - \( a_2 = a_0 + (a_1)^2 = 1 + 2^2 = 1 + 4 = 5 \)
+   - \( a_3 = a_1 + (a_2)^2 = 2 + 5^2 = 2 + 25 = 27 \)
+   - \( a_4 = a_2 + (a_3)^2 = 5 + 27^2 = 5 + 729 = 734 \)
+   - Continuar aquest procés fins a identificar un patró modular.
+
+3. **Calcular els termes mòdul 7**:
+   - \( a_0 \mod 7 = 1 \)
+   - \( a_1 \mod 7 = 2 \)
+   - \( a_2 \mod 7 = 5 \)
+   - \( a_3 \mod 7 = 27 \mod 7 = 6 \)
+   - \( a_4 \mod 7 = 734 \mod 7 = 1 \)
+
+4. **Identificar el període de la successió mòdul 7**:
+   - Observant els càlculs anteriors, veiem que la successió mòdul 7 sembla repetir-se cada 3 termes (1, 2, 5, 6, 1, ...).
+
+5. **Determinar la posició del terme 2017 dins del període**:
+   - El període és de 3 termes.
+   - \( 2017 \mod 3 = 1 \)
+   - Això significa que \( a_{2017} \mod 7 \) correspon a \( a_1 \mod 7 \).
+
+6. **Resíduo de \( a_1 \mod 7 \)**:
+   - \( a_1 = 2 \)
+   - \( a_1 \mod 7 = 2 \)
+
+### Resposta:
+            Raonament: Hem calculat els residus de la successió mòdul 7 i identificat la periodicitat. El terme 2017 correspon a la posició 1 dins del període de 3 termes, resultant en un resíduo de 2.
+            Resposta: C)

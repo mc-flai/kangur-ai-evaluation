@@ -1,0 +1,37 @@
+Reasoning:
+Let the three-digit number be $abc$, where $a, b, c$ are digits from 0 to 9, and $a \neq 0$. The number can be expressed as $100a + 10b + c$. The problem states that the number is equal to 5 times the product of its digits, so we have the equation:
+$100a + 10b + c = 5abc$
+
+Since $100a + 10b + c$ is a multiple of 5, $c$ must be either 0 or 5.
+If $c = 0$, then $100a + 10b = 0$, which implies $10a + b = 0$. Since $a$ must be a non-zero digit, this case is impossible.
+If $c = 5$, then $100a + 10b + 5 = 25ab$
+Dividing by 5 gives: $20a + 2b + 1 = 5ab$
+We can rearrange this equation as $5ab - 20a - 2b = 1$
+Multiplying by 5, we get $25ab - 100a - 10b = 5$
+$5a(5b - 20) - 2(5b - 20) - 40 = 5$
+$(5a - 2)(5b - 20) = 45$
+Since $a$ and $b$ are integers, $5a-2$ and $5b-20$ must be integer factors of 45. Also, since $1 \le a \le 9$ and $0 \le b \le 9$, we have $3 \le 5a - 2 \le 43$ and $-20 \le 5b - 20 \le 25$.
+Possible factor pairs of 45 are: (1, 45), (3, 15), (5, 9), (9, 5), (15, 3), (45, 1), (-1, -45), (-3, -15), (-5, -9), (-9, -5), (-15, -3), (-45, -1).
+We need to find pairs $(5a-2, 5b-20)$ that satisfy the given conditions.
+\begin{itemize}
+    \item (3, 15): $5a-2 = 3 \Rightarrow 5a = 5 \Rightarrow a = 1$, $5b-20 = 15 \Rightarrow 5b = 35 \Rightarrow b = 7$. So, $a = 1, b = 7, c = 5$. The number is 175. Check: $5 \times 1 \times 7 \times 5 = 175$.
+    \item (5, 9): $5a-2 = 5 \Rightarrow 5a = 7$, not an integer.
+    \item (9, 5): $5a-2 = 9 \Rightarrow 5a = 11$, not an integer.
+    \item (15, 3): $5a-2 = 15 \Rightarrow 5a = 17$, not an integer.
+\end{itemize}
+
+Now consider negative factors:
+\begin{itemize}
+    \item (-1, -45): $5a-2 = -1 \Rightarrow 5a = 1$, not an integer.
+    \item (-3, -15): $5a-2 = -3 \Rightarrow 5a = -1$, not an integer.
+    \item (-5, -9): $5a-2 = -5 \Rightarrow 5a = -3$, not an integer.
+    \item (-9, -5): $5a-2 = -9 \Rightarrow 5a = -7$, not an integer.
+    \item (-15, -3): $5a-2 = -15 \Rightarrow 5a = -13$, not an integer.
+    \item (-45, -1): $5a-2 = -45 \Rightarrow 5a = -43$, not an integer.
+\end{itemize}
+The only solution we found is 175. Therefore, there is only 1 such number.
+
+Reasoning:
+We translated the problem into an equation $100a + 10b + c = 5abc$, where $a, b, c$ are digits and $a\ne 0$.  Since $100a + 10b + c$ is a multiple of 5, then $c$ must be 0 or 5. $c=0$ is impossible, so $c=5$. Substituting this value simplifies the equation to $(5a-2)(5b-20) = 45$.  We then consider all the factors of 45 that could correspond to the integers $5a-2$ and $5b-20$, remembering that $1\leq a \leq 9$ and $0\leq b \leq 9$. This results in only one possibility, $a=1, b=7, c=5$.
+
+Answer: A)

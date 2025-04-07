@@ -1,0 +1,23 @@
+
+The problem states that Hannes uses the letters A, B, C, and D in a calculation, where different letters stand for different digits. We need to determine which digit the letter B stands for. The calculation given is:
+
+      A
+    + C B
+    -----
+      B D D
+
+To solve this, we analyze the structure of the addition:
+
+1. **Units Column**:
+   - D + B = D (with a possible carry from the tens place).
+   - This implies that B must be 0 because the only way for a digit added to another digit to yield the same digit is if one of them is zero.
+
+2. **Tens Column**:
+   - C + A (plus a possible carry from the units column, which is 1 if D + B > 9).
+   - Since B is zero, there is no carry from the units column.
+   - Therefore, C + A must equal B (which is 0) with a carry of 1 to the hundreds place.
+
+Given these observations, B must be 0.
+
+Reasoning: B must be 0 because the only way for a digit added to another digit to yield the same digit is if one of them is zero.
+Answer: A).

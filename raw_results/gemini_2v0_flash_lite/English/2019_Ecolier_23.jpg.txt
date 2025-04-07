@@ -1,0 +1,19 @@
+Reasoning: We need to identify who ate the cake, knowing only one person lied. Let's analyze the statements:
+
+*   **Alex:** "I did not eat a cake."
+*   **Bartek:** "I ate a cake."
+*   **Cora:** "Emil has not eaten a cake."
+*   **Dani:** "I did not eat a cake."
+*   **Emil:** "Alex has eaten a cake."
+
+If Bartek is telling the truth, then someone ate the cake. If Bartek is lying, then he did not eat the cake. Let's test if Bartek is telling the truth:
+
+*   If Bartek ate the cake, then Alex, Dani, and Cora are telling the truth, and Emil is lying. This fits the condition of one liar. Since Emil is lying, Alex ate the cake, which contradicts what Alex says.
+*   If Bartek did not eat the cake, he is lying. If Alex is telling the truth, then it is not Alex, but since Dani and Cora are telling the truth, the cake was either eaten by Emil or Bartek.
+    If Emil is telling the truth, then Alex has eaten the cake, which contradicts what Alex says. Thus, Emil lied. Then Alex did not eat the cake.
+    Since Cora is also telling the truth, Emil did not eat the cake.
+    Then, Dani must be lying, therefore Dani ate the cake.
+
+Because this fits the conditions, Dani ate the cake.
+
+Answer: D)

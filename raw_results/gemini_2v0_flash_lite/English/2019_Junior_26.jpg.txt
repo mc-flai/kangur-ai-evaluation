@@ -1,0 +1,12 @@
+Reasoning:
+The question asks which triple is not obtained when the integers from 1 to 99 are written in ascending order and divided into groups of three. Because we are using the integers from 1 to 99, which is two digits long, the triples will be formed using three consecutive digits. The sequence constructed looks like 123456789101112...979899, where each group of three is a triple. Analyzing the options, we need to determine which combination cannot be formed with three consecutive digits. We can see that none of the triples can have repeating digits in a given triple.
+- (A) (222) is not possible because of the digits repeating consecutively.
+- (B) (444) is not possible because of the digits repeating consecutively.
+- (C) (464) is not possible because of the digits repeating consecutively.
+- (D) (646) is not possible because of the digits repeating consecutively.
+- (E) (888) is not possible because of the digits repeating consecutively.
+
+The sequence is formed by stringing together consecutive digits. Each triple is formed by picking up three consecutive digits. The options are 222, 444, 464, 646, and 888. None of these can be generated from 1 to 99.
+Therefore, the correct answer is C because we never see digit 4, 6, 4 in consecutive order in the original sequence which would be the case in order for 464 to appear in the triples. Because the digits in each triple are formed by concatenating 3 consecutive digits in ascending order, we can eliminate any digits repeating in such a way.
+
+Answer: C)

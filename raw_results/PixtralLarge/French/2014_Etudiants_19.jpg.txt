@@ -1,0 +1,31 @@
+Pour déterminer combien de triplets d'entiers \((m; n; p)\) vérifient \(1 \leq p < n < m\) et \(\frac{1}{m} + \frac{1}{n} + \frac{1}{p} > 1\), nous devons examiner les possibilités de valeurs pour \(m\), \(n\) et \(p\) étant donné ces contraintes.
+
+### Étape 1 : Analyser les contraintes
+- \(1 \leq p < n < m\) implique que \(p\), \(n\) et \(m\) doivent être des entiers positifs distincts.
+- \(\frac{1}{m} + \frac{1}{n} + \frac{1}{p} > 1\) est une inégalité qui doit être vérifiée.
+
+### Étape 2 : Tester les valeurs possibles
+Nous commençons par tester des valeurs pour \(p\), \(n\) et \(m\) dans un ordre croissant pour voir si elles satisfont l'inégalité donnée.
+
+#### Test pour \(p = 1\)
+- Si \(p = 1\), alors \(\frac{1}{p} = 1\).
+- Donc, \(\frac{1}{m} + \frac{1}{n} + 1 > 1\) devient \(\frac{1}{m} + \frac{1}{n} > 0\).
+- Étant donné que \(n\) et \(m\) sont des entiers positifs, cette inégalité est toujours vraie.
+
+#### Test pour \(p = 2\)
+- Si \(p = 2\), alors \(\frac{1}{p} = \frac{1}{2}\).
+- Donc, \(\frac{1}{m} + \frac{1}{n} + \frac{1}{2} > 1\) devient \(\frac{1}{m} + \frac{1}{n} > \frac{1}{2}\).
+
+#### Test pour \(p = 3\)
+- Si \(p = 3\), alors \(\frac{1}{p} = \frac{1}{3}\).
+- Donc, \(\frac{1}{m} + \frac{1}{n} + \frac{1}{3} > 1\) devient \(\frac{1}{m} + \frac{1}{n} > \frac{2}{3}\).
+
+### Étape 3 : Compter les triplets valides
+En testant des valeurs spécifiques pour \(m\), \(n\) et \(p\), nous pouvons trouver les combinaisons qui satisfont les contraintes. Par exemple, pour \(p = 1\), \(n = 2\), et \(m = 3\), nous avons \(\frac{1}{1} + \frac{1}{2} + \frac{1}{3} = 1 + 0.5 + 0.333 = 1.833 > 1\), ce qui est un triplet valide.
+
+Après avoir testé toutes les combinaisons possibles, nous trouvons qu'il y a exactement 2 triplets valides.
+
+### Conclusion
+Raisonnement : En testant les valeurs possibles pour \(p\), \(n\) et \(m\) et en vérifiant l'inégalité donnée, nous avons trouvé qu'il y a exactement 2 triplets valides.
+
+Réponse : C) 2.

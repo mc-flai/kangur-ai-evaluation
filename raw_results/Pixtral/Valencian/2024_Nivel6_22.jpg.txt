@@ -1,0 +1,39 @@
+La pregunta 22 involucra dos equacions quadràtiques, \( ax^2 + bx + c = 0 \) i \( bx^2 + ax + c = 0 \), i pregunta si les solucions d'aquestes equacions tenen una solució comuna. També pregunta si les afirmacions sobre els valors de \( a \), \( b \) i \( c \) són certes.
+
+**Razonament**:
+1. Comencem amb les dues equacions quadràtiques donades:
+   \[
+   ax^2 + bx + c = 0
+   \]
+   \[
+   bx^2 + ax + c = 0
+   \]
+
+2. Per determinar si tenen una solució comuna, podem comparar les dues equacions. Si les equacions són idèntiques, llavors tenen les mateixes solucions. Per verificar això, podem reordenar la segona equació per obtenir:
+   \[
+   bx^2 + ax + c = 0 \implies bx^2 + ax - bx + c = 0 \implies bx(x + 1) + a(x + 1) = 0 \implies (b + a)x + (a + c) = 0
+   \]
+
+3. Si les dues equacions són idèntiques, els coeficients de \( x^2 \), \( x \) i la constant han de ser iguals. Això dona:
+   \[
+   a = b
+   \]
+   \[
+   b = a
+   \]
+   \[
+   c = c
+   \]
+
+4. D'aquí, deduïm que \( a = b \). Això és una condició necessària perquè les dues equacions siguin idèntiques.
+
+5. Per a les afirmacions:
+   - A) La solució comuna ha de ser 0. Això no és necessàriament cert, ja que les solucions de les equacions quadràtiques no són obligatòriament zero.
+   - B) L'equació quadràtica \( ax^2 + bx + c = 0 \) té exactament una solució real. Això és cert si l'equació té una solució real.
+   - C) \( a > 0 \). Això no és necessàriament cert.
+   - D) \( b < 0 \). Això no és necessàriament cert.
+   - E) \( a + b + c = 0 \). Això no és necessàriament cert.
+
+6. Dintre de les afirmacions, la condició \( a = b \) és la que ens permet deduir que les dues equacions poden ser idèntiques.
+
+**Resposta**: E) \( a + b + c = 0 \)

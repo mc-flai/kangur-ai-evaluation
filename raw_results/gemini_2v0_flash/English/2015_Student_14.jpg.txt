@@ -1,0 +1,126 @@
+Reasoning:
+We are given that $b = c \cdot e$, $d = a+b$, and $a = e-d$. We want to find which of the variables $a, b, c, d, e$ is the largest.
+Since $a = e - d$, we can write $e = a+d$.
+We are given that $d = a+b$. Substituting $d = a+b$ into $e = a+d$, we have $e = a + (a+b) = 2a+b$.
+Since $a$ and $b$ are positive integers, $e > a$ and $e > b$.
+From $d = a+b$, we know that $d > a$ and $d > b$.
+Since $e = 2a+b$ and $d = a+b$, we have $e = 2a+b = a + (a+b) = a + d$. Thus, $e > d$.
+Now let's examine $b = c \cdot e$. Since $c$ and $e$ are positive integers, and all the numbers are different, we must have $c=1$. This implies $b=e$.
+Then we have the following relations:
+$b = e$
+$d = a+b = a+e$
+$a = e-d$
+Since $d = a+e$, then $a = e - (a+e) = -a$.
+Then $2a = 0$, which means $a=0$. This contradicts the fact that all five numbers are positive. So $c \neq 1$.
+Also $b = c \cdot e$. Since the integers are distinct, $c > 1$. Because $b > e$ can't be true, otherwise $c < 1$. So $b$ and $e$ need not necessarily be the largest.
+Now let's consider the given equations:
+$b = c \cdot e$
+$d = a+b$
+$a = e-d$
+We have $a = e-d$, which means $e > d$.
+We have $d = a+b$, which means $d > a$ and $d > b$.
+Also, $e = a+d$, so $e = a + (a+b) = 2a+b$.
+If $e > b$, then $e/b > 1$ and $c = b/e < 1$. Since $c$ is a positive integer, $b > e$. However, if $e=b$, then $c=1$, which is a positive integer. But we are given that all numbers are different, so $c$ is not 1.
+So $b = c \cdot e$.
+$e > d$
+$d > a, d > b$
+$e > a$
+Since $e = a+d$ and $d=a+b$, then $e = a+a+b = 2a+b$. Since $e > a$ and $e > b$.
+Also $b = c \cdot e$, then since $c$ is a positive integer other than 1, $b > e$ and $b > c$.
+We have $d = a+b$ and $e = 2a+b$. So $e - d = 2a+b - (a+b) = a$. So $e > d > a, b$.
+Since $b = c \cdot e$ and $c \geq 1$, $b \geq e$ and $c > 1$ and $b > e$.
+Since $d = a+b$ and $a, b > 0$, then $d > a, b$. Since $e-d = a$, then $e > d > a, b$.
+Since $b = c \cdot e$, we have that $b > c, e$.
+We have $d=a+b$, which is also greater than $a$, but $a<b$.
+
+Final Answer:
+Reasoning: We have $b = c \cdot e$, $d = a+b$ and $a = e-d$. Since $b = c \cdot e$ and $c > 1$, then $b > e$. Also, $d = a+b$ means $d > b > e$. Now we want to know if $d$ is the largest. $a = e-d$, so $e > d > a$. Also, since $b = c \cdot e$, where $c > 1$, it's likely that $b > d$.
+$d = a+b$, so $a+b>b>e$
+Since $d>b,a$, and $d>e$, then $d$ could be the largest. $e-d = a$.
+So $e=a+d$.
+
+Since we also know that $b=ce$ and $d=a+b$, and $a=e-d$. Then, $d>a$ since $b>0$ and $d>b$ since $a>0$.
+Also, $a = e-d$, so $d = e-a$. Therefore $e-a=a+b$, which gives $e=2a+b$.
+However we know that $b=ce$, so $e=\frac{b}{c}$. If $c>1$ then $e<b$.
+Therefore $e < b < d$. Since $d=a+b$ then $a>0$ so d is larger than a.
+However if $c<1$ then we have $e>b$. But we are told that $a,b,c,d,e$ are positive integers.
+Since $d = a+b$ is always greater than $a$ or $b$, the answer is either d or e. And since $a=e-d$ and $a>0$, it follows that $e>d$.
+Since the equations are $a=e-d$, and $d=a+b$, then $e=a+d=a+a+b=2a+b$.
+And $b = ce$ means $e=\frac{b}{c}$, and since $b<d$, we conclude that $e is not the biggest value.
+So we deduce d > a and d > b, but b is ce. so e<b. and then d > e too. e<b<d so $e\le b\le d$.
+
+Answer: D)
+Final Answer: D)
+Reasoning: We are given $b=c \cdot e$, $d=a+b$, and $a=e-d$.
+$d = a+b$, and since a, b are positive whole numbers, $d>a$ and $d>b$. Also $a=e-d$ means $e = a+d$, so $e>d$, $e>a$ and $e>d>b$. Since $d = a+b$, we have $e = a + (a+b) = 2a+b$, which means e is strictly larger than d, a and b. Since $b = c \cdot e$ and c is a positive whole number, we have to consider the case that c=1. But all numbers must be different, then we need $c \neq 1$.
+If we use the fact that e>d, then the answer can only be e.
+
+Final Answer: E)
+Reasoning:
+
+$b=ce$, $d=a+b$, $a=e-d$
+
+Substituting $d$ in the 3rd equation, $a = e-(a+b)$. Thus $2a = e-b$. So $e > b$.
+Substituting $b$, in $2a=e-b$ means $2a = e - ce = e(1-c)$.
+Since $a$ is a positive number, $e(1-c)$ must be positive. Thus $1-c>0$, or $c<1$.
+But all numbers are positive integers. Thus $c$ is a positive integer which is less than 1. It's a contradiction.
+Let try $c=1$. If $c=1$, then $b=e$.
+Since all numbers are different, then it contradicts. Since $b = c \cdot e$, the only possibility $b=e$ if $c=1$. Therefore, we can claim $b \ne e$.
+
+If e is larger than $d$, then it means $e > a+b$. Since $a=e-d$, and $d=a+b$. e= a+d=a+a+b=2a+b.
+and a>0,b>0 so e>b. The remaining question is if e is the largest?
+From d = a+b, we have to relate d back to e.
+$a=e-d$ is $d=e-a$, $d>a$.
+Then $b=d-a=e-2a$. Since a>0, and a is integer, then d<e, thus $d \le e$. Thus $d= a+b$ means that d > b.
+Also $e = 2a+b$ with c integer means we always can put it back?
+
+Since b=c *e. and d = a+b. then $b > e$. because c is integer and greater than 1, b needs to bigger?
+So then $a+b \le ce$, with $d \le ce$???? Thus d can possibly be smaller?
+
+Considering each relation individually is:
+
+if a largest, then a>=others. But $d>b>a$.
+if b largest, what about other value relationship
+if c largest
+if d is largest, what does the previous relationships has between then
+
+Final Answer: D)
+Answer: D)
+Final Answer: (D)
+Reasoning: $a=e-d$. Then $e = a+d$. $d=a+b$.
+
+$d>a,b$.
+$e>d$, $e>a$.
+since $b = c*e$, and $d=a+b$,
+
+if we pick $a=1$, $b=2$. Then $d=3$, so $e=4$, then $b=2$ means that $c e = 2 \rightarrow 4 c=2,c=1/2$ non-integers!
+if a= 1, e=4, b=?, d=?,
+$d <e->. e: largest variable..
+
+Final Answer: E)
+Reasoning: We know that $b = ce$, $d = a+b$, and $a = e-d$. We can rewrite $a = e-d$ as $e = a+d$. Substituting $d=a+b$ into $e=a+d$, we get $e = a + a+b = 2a+b$. Since $a$ and $b$ are positive, $e > a$, $e > b$, and $e > d$ (because $e=a+d$).
+
+Since $b=ce$, we have $e = 2a+b$ which means $c = \frac{b}{e}$. If $c < 1$, we have a contradiction.
+If $c = 1$, then $b = e$. But the numbers are distinct, so $c$ cannot equal 1. So $c>1$. Thus $b > e$, so we contradict that $e >b$. Therefore $d$ has to be largest because $d > a+b$. Thus $e=b+ a$.
+
+Final Answer: (D)
+Reasoning:
+We have the following equations:
+1) $b = c \cdot e$
+2) $d = a+b$
+3) $a = e-d$
+From equation 3, we have $e = a+d$. Substituting equation 2 for d, we get $e = a + (a+b) = 2a+b$. Thus $e > a$ and $e > b$. Also, since $d = a+b$, we have $e = a+d > d$.
+
+From $d = a+b$, we know $d > a$ and $d > b$.
+If $d$ is the largest, then $d > a,b,c,e$.
+
+From equation 1, we have $b = c \cdot e$. If $c > 1$, then $b > e$. If $c = 1$, then $b = e$, which contradicts the condition that all numbers are different. Thus $c > 1$ and $b > e$.
+Combining $d > b$ and $b > e$, we have $d > b > e > a$. It remains to compare $d$ and $c$.
+
+Final Answer:
+Reasoning:
+We have $b=ce$, $d=a+b$, $a=e-d$.
+From $d=a+b$, we know that $d > a$ and $d > b$. Also, from $a=e-d$, $e=a+d$ we get $e > a$ and $e > d$, thus $e>a$ and $e=a+d>b+a$, so $e$ is greater than almost everyone. Also $e>d>a$
+
+Final Answer: E)
+Answer: E)

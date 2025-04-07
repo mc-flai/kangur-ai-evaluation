@@ -1,0 +1,10 @@
+Reasoning:
+We need to find cubes with exactly four painted faces.  These are the cubes located on the edges of the "2022" figures, *excluding* the corner cubes (which have 3 painted faces).
+
+Let's analyze each digit:
+*   **2:** Each "2" has 7 cubes on the edges each. Each cube has 4 painted faces except for 4 corner cubes (3 painted faces). Thus, there are 7 * 2 = 14 edge cubes total, out of which we subtract the number of corner cubes (4) that have only 3 faces painted, so 14 - 4 = 10 cubes that have 4 faces painted in both 2s.
+*   **0:** The "0" figure has 12 edge cubes. Each cube has 4 painted faces.
+
+Total: 10 (from 2s) + 12 (from 0) + 8(from 2s) = 30
+
+Answer: B)

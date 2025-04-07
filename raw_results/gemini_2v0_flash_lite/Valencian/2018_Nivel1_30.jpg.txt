@@ -1,0 +1,32 @@
+Raonament: La pregunta descriu un procés iteratiu de dibuixar triangles blancs en triangles negres. La seqüència és 0, 1, 4. Sembla que en cada pas, el nombre de triangles negres es multiplica per 3, i en cada triangle negre s'afegeix un triangle blanc.
+
+- En el primer pas, tenim 1 triangle blanc.
+- En el segon pas, tenim 1 triangle negre que es divideix en 3, i s'afegeix 1 triangle blanc, donant 1 + 3 = 4 triangles blancs.
+- En el tercer pas, tenim 4 triangles negres que es divideixen en 3 cada un, i s'afegeix 1 triangle blanc a cada triangle, donant 4 + 3*4 = 1 + 3*4 = 13 triangles blancs.
+- Si repetim l'acció una vegada més, tindrem 13 triangles negres.
+- Cada triangle negre es dividirà en 3 triangles, creant 3 triangles blancs.
+- Per tant, tindrem 4 + 3 * 4 = 16 blancs.
+
+D'aquesta manera:
+Pas 1: 0 triangles blancs.
+Pas 2: 1 triangle blanc.
+Pas 3: 1 + 3 = 4 triangles blancs.
+Pas 4: 4 + 3 * 4 = 13 triangles blancs.
+Pas 5: 13 + 3 * 9 = 16
+
+La seqüència del nombre de triangles blancs és: 0, 1, 4, 13. Cada vegada que repetim l'acció anterior, pintem un triangle blanc en el centre de cada triangle negre. Inicialment, tenim 0 triangles blancs. En la segona etapa, hi ha 1 triangle blanc. En la tercera etapa, hi ha 4 triangles blancs. En la quarta etapa hi ha 1+3*4=13 triangles. En la cinquena etapa hi ha 4*3+13=25 triangles.
+
+Nombre de triangles negres a cada etapa:
+- 1
+- 3
+- 9
+- 27
+
+Nombre de triangles blancs a cada etapa:
+- 0
+- 1
+- 1 + 3 = 4
+- 4 + 9 = 13
+- 13 + 27 = 40
+
+Resposta: C) 13

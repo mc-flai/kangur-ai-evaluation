@@ -1,0 +1,10 @@
+Razonamiento:
+Para determinar la pila de cajas imposible, debemos analizar las restricciones de descarga.  Una caja solo puede ser removida si no tiene ninguna caja encima. Revisemos cada opción:
+
+*   **A):**  Se podría obtener la pila A) descargando las cajas en el siguiente orden: E, F, C, D, B, A. Esto es posible.
+*   **B):** Se podría obtener la pila B) descargando las cajas en el siguiente orden: E, D, F, C, B, A. Esto es posible.
+*   **C):** Se podría obtener la pila C) descargando las cajas en el siguiente orden: E, F, C, A, B, D. Esto es posible.
+*   **D):** Se podría obtener la pila D) descargando las cajas en el siguiente orden: F, E, C, B, D, A. Esto es posible.
+*   **E):**  La pila E) requiere que C esté encima de F y D, sin embargo, al inicio la caja C está encima de A y la caja D está encima de B, y no se puede mover hasta descargar A y B. Así que la caja F estaría encima de la caja D, lo cual imposibilita la estructura final.
+
+Respuesta: E)

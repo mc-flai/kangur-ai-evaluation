@@ -1,0 +1,59 @@
+La pregunta 5 involucra un hexàgon regular amb àrea 1. Es demana construir triangles equilateres cap a l'exterior del hexàgon i calcular l'àrea total de l'estrella que queda dibuixada, on les zones grises són més zones blanques.
+
+Per resoldre aquest problema, primer cal entendre la geometria del hexàgon i els triangles equilateres.
+
+1. Un hexàgon regular té 6 costats iguals i els seus angles interns són de 120 graus.
+2. L'àrea d'un hexàgon regular es pot calcular amb la fórmula:
+   \[
+   \text{Àrea} = \frac{3 \sqrt{3}}{2} s^2
+   \]
+   on \( s \) és la longitud del costat. Per a un hexàgon amb àrea 1:
+   \[
+   1 = \frac{3 \sqrt{3}}{2} s^2
+   \]
+   Resolent per \( s \):
+   \[
+   s^2 = \frac{2}{3 \sqrt{3}} = \frac{2}{3} \cdot \frac{1}{\sqrt{3}} = \frac{2}{3} \cdot \frac{\sqrt{3}}{3} = \frac{2 \sqrt{3}}{9}
+   \]
+   \[
+   s = \sqrt{\frac{2 \sqrt{3}}{9}}
+   \]
+
+3. Un triangle equilateral té una àrea de:
+   \[
+   \text{Àrea} = \frac{\sqrt{3}}{4} a^2
+   \]
+   on \( a \) és la longitud de l'aresta. Per a un triangle equilateral amb aresta \( s \):
+   \[
+   \text{Àrea} = \frac{\sqrt{3}}{4} s^2
+   \]
+   Substituint \( s^2 \):
+   \[
+   \text{Àrea} = \frac{\sqrt{3}}{4} \cdot \frac{2 \sqrt{3}}{9} = \frac{2 \cdot 3}{36} = \frac{6}{36} = \frac{1}{6}
+   \]
+
+4. Cada triangle equilateral té una àrea de \( \frac{1}{6} \). Com hi ha 6 triangles equilateres al voltant del hexàgon, l'àrea total dels triangles és:
+   \[
+   6 \times \frac{1}{6} = 1
+   \]
+
+5. L'àrea de l'estrella que queda dibuixada és l'àrea total del hexàgon menys l'àrea dels triangles equilateres:
+   \[
+   \text{Àrea de l'estrella} = 1 - 1 = 0
+   \]
+
+Però, la pregunta fa referència a l'àrea total de l'estrella que queda dibuixada, on les zones grises són més zones blanques. Això implica que l'àrea de l'estrella és més gran que l'àrea del hexàgon original.
+
+6. Cada triangle equilateral té una àrea de \( \frac{1}{6} \), i hi ha 6 triangles equilateres. L'àrea total dels triangles és:
+   \[
+   6 \times \frac{1}{6} = 1
+   \]
+
+7. L'àrea de l'estrella que queda dibuixada és l'àrea total del hexàgon més l'àrea dels triangles equilateres:
+   \[
+   \text{Àrea de l'estrella} = 1 + 1 = 2
+   \]
+
+Raonament: L'àrea de l'estrella que queda dibuixada és l'àrea del hexàgon més l'àrea dels triangles equilateres, resultant en una àrea total de 2.
+
+Resposta: D)

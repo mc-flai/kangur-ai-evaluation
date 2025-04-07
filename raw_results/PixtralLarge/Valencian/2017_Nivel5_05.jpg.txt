@@ -1,0 +1,19 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar la mínima diferència entre dos nombres naturals que siguin divisibles per 5 quan els seus dígits s'escriguin en ordre creixent.
+
+Primer, llistem els nombres naturals donats en la pregunta: 5, 14, 19, 23, 28.
+
+Tots aquests nombres són divisibles per 5.
+
+A continuació, escrivim aquests nombres en ordre creixent: 5, 14, 19, 23, 28.
+
+Per trobar la mínima diferència, hem de considerar els nombres consecutius en aquesta llista:
+- Diferència entre 14 i 5: 14 - 5 = 9
+- Diferència entre 19 i 14: 19 - 14 = 5
+- Diferència entre 23 i 19: 23 - 19 = 4
+- Diferència entre 28 i 23: 28 - 23 = 5
+
+La mínima diferència entre aquests nombres és 4.
+
+**Resposta**: D)

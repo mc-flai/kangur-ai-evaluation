@@ -1,0 +1,10 @@
+
+Raisonnement : Pour déterminer quelle dimension augmente le plus le volume d'un parallélépipède rectangle avec des dimensions \(a \times b \times c\) où \(a < b < c\), nous devons examiner comment chaque dimension affecte le volume. Le volume d'un parallélépipède rectangle est donné par \(V = a \times b \times c\). Si nous augmentons l'une des dimensions tout en gardant les autres constantes, nous pouvons calculer l'augmentation du volume pour chaque dimension.
+
+- Si nous augmentons \(a\) : le volume devient \(V' = (a + \Delta a) \times b \times c\), où \(\Delta a\) est une petite quantité positive. L'augmentation du volume est \(\Delta V = (a + \Delta a)bc - abc = \Delta abc\).
+- Si nous augmentons \(b\) : le volume devient \(V' = a \times (b + \Delta b) \times c\), où \(\Delta b\) est une petite quantité positive. L'augmentation du volume est \(\Delta V = ab(c + \Delta c) - abc = \Delta abc\).
+- Si nous augmentons \(c\) : le volume devient \(V' = a \times b \times (c + \Delta c)\), où \(\Delta c\) est une petite quantité positive. L'augmentation du volume est \(\Delta V = abc + \Delta abc - abc = \Delta abc\).
+
+Dans chaque cas, l'augmentation du volume est proportionnelle à \(\Delta a\), \(\Delta b\), ou \(\Delta c\) respectivement. Puisque \(a < b < c\), une augmentation de \(c\) (la plus grande dimension) entraînera la plus grande augmentation du volume.
+
+Réponse : C)

@@ -1,0 +1,39 @@
+1. Identifica els valors de les xifres del número `aaabbbb`:
+   - `a` pot ser 1, 2, 3, 4, 5, 6, 7, 8, o 9.
+   - `b` pot ser 0, 1, 2, 3, 4, 5, 6, 7, 8, o 9.
+
+2. Calcula la suma de les xifres del número `aaabbbb`:
+   - El número té 4 xifres `a` i 4 xifres `b`.
+   - La suma de les xifres és: `a + a + a + a + b + b + b + b`.
+   - Simplificant: `4a + 4b`.
+
+3. La suma de les xifres ha de ser igual a `a + b`.
+   - Establim l'equació: `4a + 4b = a + b`.
+
+4. Resol l'equació:
+   - `4a + 4b = a + b`
+   - Restant `a + b` dels dos costats: `3a + 3b = 0`
+   - Dividint per 3: `a + b = 0`
+
+5. Com `a` i `b` són xifres, els valors possibles per a `a` i `b` són de 0 a 9. No obstant això, tenint en compte les restriccions de l'equació `a + b = 0`:
+   - L'única solució és `a = 0` i `b = 0`.
+
+6. No obstant això, `a` no pot ser 0 ja que `a` és una xifra de `aaabbbb` que no està a la posició de les unitats.
+
+7. Així doncs, la suma de `a + b` ha de ser un nombre diferent de 0.
+
+8. Com que `a` i `b` no poden ser 0, considerem els valors que fan que `4a + 4b = a + b` sigui cert:
+   - Com que `4a + 4b = a + b` no té solució per a números positius, hem de veure els valors de les opcions.
+   - Les opcions són: 8, 9, 10, 11, i 12.
+
+9. La suma de les xifres de `aaabbbb` és `4a + 4b`, i aquesta suma ha de ser igual a `a + b`.
+   - Si `a + b` és 9, llavors `4a + 4b` també ha de ser 9, el que és impossible perquè `4a + 4b` sempre serà major que `a + b` a menys que `a` i `b` siguin 0.
+   - Si `a + b` és 10, llavors `4a + 4b` també ha de ser 10, el que és impossible per les mateixes raons.
+   - Si `a + b` és 11, llavors `4a + 4b` també ha de ser 11, el que també és impossible.
+   - Si `a + b` és 12, llavors `4a + 4b` també ha de ser 12, el que també és impossible.
+
+10. L'única opció possible és 8.
+    - Si `a + b` és 8, llavors `4a + 4b` també ha de ser 8, el que és possible si `a = b = 2`.
+
+Raonament: La suma de les xifres de `aaabbbb` és `4a + 4b`, i aquesta suma ha de ser igual a `a + b`. L'única opció possible és 8, ja que `a = b = 2` fa que `4a + 4b = 8` i `a + b = 8`.
+Resposta: A)

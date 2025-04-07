@@ -1,0 +1,34 @@
+Per determinar quantes xifres de dos dígits (de l'interval [10, 99]) són múltiples de 3 i tenen una diferència absoluta entre els seus dígits igual a 3, seguirem els següents passos:
+
+1. **Identificar els múltiples de 3 entre 10 i 99**:
+   Un nombre és múltiple de 3 si la suma dels seus dígits és múltiple de 3.
+
+2. **Calcular la diferència absoluta entre els dígits**:
+   Per a un nombre \( ab \) (on \( a \) i \( b \) són els dígits), calcular \( |a - b| \).
+
+3. **Comprovar si la diferència és igual a 3**:
+   Verificar quins dels múltiples de 3 satisfan \( |a - b| = 3 \).
+
+4. **Llistar els nombres que compleixen les condicions**:
+   - 14 (|1 - 4| = 3)
+   - 25 (|2 - 5| = 3)
+   - 28 (|2 - 8| = 6, no compleix)
+   - 35 (|3 - 5| = 2, no compleix)
+   - 38 (|3 - 8| = 5, no compleix)
+   - 41 (|4 - 1| = 3)
+   - 47 (|4 - 7| = 3)
+   - 52 (|5 - 2| = 3)
+   - 58 (|5 - 8| = 3)
+   - 62 (|6 - 2| = 4, no compleix)
+   - 74 (|7 - 4| = 3)
+   - 85 (|8 - 5| = 3)
+   - 88 (|8 - 8| = 0, no compleix)
+   - 94 (|9 - 4| = 5, no compleix)
+
+Els nombres que compleixen les condicions són: 14, 25, 41, 47, 52, 58, 74, 85.
+
+5. **Comptar els nombres**:
+   Hi ha 8 nombres que compleixen les condicions.
+
+Raonament: Hem identificat els múltiples de 3 entre 10 i 99, calculat la diferència absoluta entre els seus dígits i verificat quins compleixen la condició de tenir una diferència absoluta de 3.
+Resposta: E) 6

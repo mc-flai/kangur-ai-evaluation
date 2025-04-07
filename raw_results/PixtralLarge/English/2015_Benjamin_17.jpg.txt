@@ -1,0 +1,11 @@
+**Reasoning**: The problem states that each of the 9 sides of the triangles must be colored blue, green, or red, with three sides already colored (one blue, two red). Each triangle must have sides in three different colors.
+
+Let's analyze the possible colors for side x:
+
+1. If side x is colored blue, then the left triangle would have two blue sides (since one side is already blue), which is not allowed.
+2. If side x is colored red, then the right triangle would have two red sides (since one side is already red), which is not allowed.
+3. If side x is colored green, both triangles would have sides with three different colors (blue, red, green), which satisfies the requirement.
+
+Therefore, side x must be colored green.
+
+**Answer**: B)

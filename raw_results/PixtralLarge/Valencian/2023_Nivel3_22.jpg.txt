@@ -1,0 +1,23 @@
+**Raonament**:
+Para resolver este problema, debemos determinar cuántos cuadrados de cada tamaño posible caben en un rectángulo de 6x7 unidades. Los tamaños de cuadrados posibles son aquellos cuya longitud del lado es un divisor de 6 o de 7. Los divisores de 6 son 1, 2, 3 y 6; los divisores de 7 son 1 y 7.
+
+Vamos a calcular el número de cuadrados que caben para cada tamaño posible:
+
+1. **Cuadrados de 1x1**:
+   - (6/1) * (7/1) = 6 * 7 = 42 cuadrados.
+
+2. **Cuadrados de 2x2**:
+   - (6/2) * (7/2) = 3 * 3 = 9 cuadrados.
+
+3. **Cuadrados de 3x3**:
+   - (6/3) * (7/3) no es posible porque 7 no es divisible por 3.
+
+4. **Cuadrados de 6x6**:
+   - (6/6) * (7/6) no es posible porque 7 no es divisible por 6.
+
+5. **Cuadrados de 7x7**:
+   - (6/7) * (7/7) no es posible porque 6 no es divisible por 7.
+
+Por lo tanto, los tamaños de cuadrados que caben en el rectángulo son 1x1 y 2x2. De los posibles, el número mínimo de cuadrados necesarios para cubrir el rectángulo es con los cuadrados de 2x2, que serían 9 cuadrados en total.
+
+**Resposta**: D) 9.

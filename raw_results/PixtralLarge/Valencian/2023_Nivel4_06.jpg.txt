@@ -1,0 +1,15 @@
+Per resoldre aquesta pregunta, hem de determinar quantes triangles equilàters es poden dibuixar de manera que toquen per vèrtexs els vèrtexs d'un cub. Un cub té 8 vèrtexs.
+
+Per a cada triple de vèrtexs (3 vèrtexs) es pot dibuixar un triangle equilàter. És a dir, un triangle equilàter es forma sempre que es connecten tres vèrtexs d'un cub amb línies rectes.
+
+Per trobar el nombre de triangles equilàters possibles, hem de seleccionar 3 vèrtexs de 8, amb l'ordre no important. Això es calcula amb la combinació de 8 elements presos de 3 en 3:
+
+\[ \binom{8}{3} = \frac{8!}{3!(8-3)!} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56 \]
+
+Però aquí cal considerar només els triangles equilàters que comparteixen exactament els vèrtexs del cub. Cada triangle equilàter en el cub és format per tres vèrtexs adjacents d'una cara del cub. Un cub té 6 cares, i cada cara té 2 possibles triangles equilàters (un en un sentit de les arestes i un altre en l'altre sentit). Per tant, el total de triangles equilàters és:
+
+\[ 6 \text{ cares} \times 2 \text{ triangles per cara} = 12 \]
+
+Raonament: Cada cara d'un cub pot contenir 2 triangles equilàters, i el cub té 6 cares, per tant 6 cares * 2 triangles per cara = 12 triangles equilàters.
+
+Resposta: C).

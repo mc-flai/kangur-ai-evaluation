@@ -1,0 +1,8 @@
+Razonamiento:
+Sean F el conjunto de personas a las que les gusta el fútbol y T el conjunto de personas a las que les gusta el tenis. Tenemos que |F| = 2/3 y |T| = 3/4. Queremos encontrar el mínimo valor de |F ∩ T|.
+Sabemos que |F ∪ T| = |F| + |T| - |F ∩ T|.
+También sabemos que |F ∪ T| ≤ 1 (ya que representa una proporción de personas en el grupo).
+Por lo tanto, |F ∩ T| = |F| + |T| - |F ∪ T| ≥ |F| + |T| - 1.
+Sustituyendo los valores conocidos, tenemos |F ∩ T| ≥ 2/3 + 3/4 - 1 = 8/12 + 9/12 - 12/12 = 5/12.
+
+Respuesta: B)

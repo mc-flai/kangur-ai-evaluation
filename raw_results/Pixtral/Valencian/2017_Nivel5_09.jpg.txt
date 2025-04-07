@@ -1,0 +1,25 @@
+
+La pregunta 9 pide determinar el valor de \( n \) tal que la suma de todos los números enteros positivos hasta \( n \) sea divisible por 141, y el residuo sea 15.
+
+Para resolver esto, necesitamos usar la fórmula de la suma de los primeros \( n \) números enteros positivos, que es:
+\[ S = \frac{n(n + 1)}{2} \]
+
+Queremos que \( S \) sea divisible por 141 y que el residuo al dividirlo por 15 sea 15. Esto se puede expresar como:
+\[ \frac{n(n + 1)}{2} \equiv 0 \pmod{141} \]
+\[ \frac{n(n + 1)}{2} \equiv 15 \pmod{15} \]
+
+Primero, resolvamos la congruencia módulo 141. Para que \( \frac{n(n + 1)}{2} \) sea divisible por 141, \( n(n + 1) \) debe ser divisible por 282 (ya que 141 * 2 = 282).
+
+Para simplificar, consideramos \( n \) y \( n + 1 \) como dos números consecutivos. Uno de ellos debe ser divisible por 141. Dado que 141 es un número primo, \( n \) o \( n + 1 \) debe ser divisible por 141.
+
+Si \( n \) es divisible por 141, entonces \( n = 141k \) para algún entero \( k \). Si \( n + 1 \) es divisible por 141, entonces \( n = 141k - 1 \).
+
+Ahora, consideramos la segunda congruencia módulo 15. Necesitamos que \( \frac{n(n + 1)}{2} \equiv 15 \pmod{15} \). Esto significa que \( n(n + 1) \equiv 30 \pmod{30} \), ya que multiplicar por 2 no cambia la congruencia módulo 15.
+
+Para \( n \) divisible por 141, \( n = 141k \), entonces \( n + 1 = 141k + 1 \). Necesitamos que \( 141k(141k + 1) \equiv 30 \pmod{30} \). Esto es imposible porque \( 141k \) es múltiplo de 141 y \( 141k + 1 \) no es múltiplo de 15.
+
+Por lo tanto, \( n \) debe ser \( 141k - 1 \). Necesitamos que \( (141k - 1)141k \equiv 30 \pmod{30} \). Esto es imposible porque \( 141k \) es múltiplo de 141 y \( 141k - 1 \) no es múltiplo de 15.
+
+Por lo tanto, ninguna de las opciones A) 15, B) 53, C) 126, D) 141, E) 270 cumple con ambas condiciones.
+
+Respuesta: Ninguna de las opciones es correcta.

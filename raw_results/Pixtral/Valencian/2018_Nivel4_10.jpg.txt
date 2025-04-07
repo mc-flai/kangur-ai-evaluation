@@ -1,0 +1,19 @@
+
+La pregunta 10 nos pide determinar cuántos saltos se necesitan para llegar del punto A al punto B en una matriz, donde cada punto A y B tienen sus respectivas posiciones en la matriz.
+
+**Razonamiento:**
+1. El punto A está a una distancia de 6 metros de longitud.
+2. El punto B tiene sus saltos en incrementos de 1 metro de longitud: el primer salto es de 1 metro, el segundo es de 2 metros, el tercero es de 3 metros, y así sucesivamente.
+3. Para encontrar la cantidad total de saltos necesarios para llegar del punto A al punto B, sumamos los saltos de longitud creciente.
+
+   - El primer salto es de 1 metro.
+   - El segundo salto es de 2 metros.
+   - El tercer salto es de 3 metros.
+   - Continuamos sumando los saltos hasta que la suma total sea igual o mayor a 6 metros.
+
+   La suma de los primeros 3 saltos es:
+   1 + 2 + 3 = 6
+
+   Por lo tanto, se necesitan 3 saltos para cubrir una distancia de 6 metros.
+
+**Respuesta:** C)

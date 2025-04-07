@@ -1,0 +1,80 @@
+Raonament:
+Primer, cal comptar la longitud de cada dígit:
+0: 6
+1: 2
+2: 5
+3: 5
+4: 4
+5: 5
+6: 6
+7: 3
+8: 7
+9: 6
+
+Ara hem de trobar els parells de dígits que sumen 10. Hem de tenir en compte que els dígits del número de dos dígits han de ser diferents.
+Combinacions que sumen 10:
+- 1 + 9 = 10. Els nombres són 19 i 91.
+- 2 + 8 = 10. Els nombres són 28 i 82.
+- 3 + 7 = 10. Els nombres són 37 i 73.
+- 4 + 6 = 10. Els nombres són 46 i 64.
+- 5 + 5 = 10. Els nombre 55 no és vàlid perquè els dígits han de ser diferents.
+Així, tenim 2 nombres per cada combinació.
+Per tant, tenim 2 + 2 + 2 + 2 = 8 nombres. Hi ha un error aquí! Hem de trobar tots els parells ordenats.
+Possibilitats:
+1. 19: longitud = 2 + 6 = 8
+2. 28: longitud = 5 + 7 = 12
+3. 37: longitud = 5 + 3 = 8
+4. 46: longitud = 4 + 6 = 10
+5. 55: longitud = 5 + 5 = 10. No val.
+6. 64: longitud = 6 + 4 = 10
+7. 73: longitud = 3 + 5 = 8
+8. 82: longitud = 7 + 5 = 12
+9. 91: longitud = 6 + 2 = 8
+
+Dígits diferents, longitud = 10:
+46
+64
+55 no és vàlid
+
+Els nombres són 46 i 64. Són dos nombres.
+
+Però, esperi! No estem buscant combinacions que sumen 10. Estem buscant nombres de dos dígits la "longitud" dels quals sumi 10.
+Llistem les longituds dels dígits:
+0: 6
+1: 2
+2: 5
+3: 5
+4: 4
+5: 5
+6: 6
+7: 3
+8: 7
+9: 6
+Fem una llista sistemàtica:
+1X: 10 - 2 = 8. 8 --> 18
+2X: 10 - 5 = 5. 5 --> 25
+3X: 10 - 5 = 5. 5 --> 35
+4X: 10 - 4 = 6. 6 --> 40, 46, 49
+5X: 10 - 5 = 5. 5 --> 52, 53, 55
+6X: 10 - 6 = 4. 4 --> 64
+7X: 10 - 3 = 7. 7 --> 78
+8X: 10 - 7 = 3. 3 --> 87
+9X: 10 - 6 = 4. 4 --> 94
+Nombres de dos dígits diferents amb longitud 10:
+18: no val
+25: si val
+35: si val
+40: si val
+46: si val
+49: no val
+52: si val
+53: si val
+64: si val
+78: si val
+87: si val
+94: si val
+Són 11 en total.
+
+Resposta: E)
+Raonament: He analitzat la longitud de cada número, i després he buscat parells de nombres on els dos dígits tinguessin longituds que sumessin 10, tenint en compte que els dos dígits han de ser diferents.
+Resposta: E)

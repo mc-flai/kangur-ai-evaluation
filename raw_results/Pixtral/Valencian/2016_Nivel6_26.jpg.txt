@@ -1,0 +1,43 @@
+
+**Razonamiento:**
+1. La pregunta nos pide encontrar el valor de \( f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right) \) para una función \( f \) que satisface \( f(x) = 2f(x+1) \) y \( f(x+y) = f(x) \cdot f(y) \).
+2. Primero, usamos la propiedad \( f(x+y) = f(x) \cdot f(y) \) para descomponer \( f\left(\frac{1}{2016} + \frac{2015}{2016}\right) \):
+   \[
+   f\left(\frac{1}{2016} + \frac{2015}{2016}\right) = f(1)
+   \]
+3. Usamos la propiedad \( f(x) = 2f(x+1) \) para encontrar \( f(1) \):
+   \[
+   f(1) = 2f(1+1) = 2f(2)
+   \]
+4. Continuamos usando \( f(x) = 2f(x+1) \) para encontrar \( f(2) \):
+   \[
+   f(2) = 2f(2+1) = 2f(3)
+   \]
+5. Continuamos este proceso:
+   \[
+   f(3) = 2f(3+1) = 2f(4)
+   \]
+   \[
+   f(4) = 2f(4+1) = 2f(5)
+   \]
+   \[
+   \vdots
+   \]
+   \[
+   f(2015) = 2f(2016)
+   \]
+6. Finalmente, usando \( f(x) = 2f(x+1) \) para \( f(2016) \):
+   \[
+   f(2016) = 2f(2017)
+   \]
+7. Dado que \( f(x) \) es el conjunto de números reales positivos, podemos asumir que \( f(x) \) es constante y positiva. Por lo tanto, \( f(2017) \) es un número positivo.
+8. Por lo tanto, \( f(1) = 2^{2016} \cdot f(2017) \), y dado que \( f(2017) \) es un número positivo:
+   \[
+   f(1) = 2^{2016} \cdot f(2017) = 2^{2016}
+   \]
+9. Finalmente, usando la propiedad \( f(x+y) = f(x) \cdot f(y) \):
+   \[
+   f\left(\frac{1}{2016}\right) \cdot f\left(\frac{2015}{2016}\right) = f(1) = 2^{2016}
+   \]
+
+**Respuesta:** B)

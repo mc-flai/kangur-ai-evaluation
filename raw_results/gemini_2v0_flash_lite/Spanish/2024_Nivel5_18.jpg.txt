@@ -1,0 +1,22 @@
+Razonamiento:
+1.  **Entender el problema:** Se tiene un cubo grande formado por $n^3$ cubos pequeños. El cubo grande se pinta, por lo tanto, los cubos pequeños con una sola cara pintada son los que están en el centro de cada cara del cubo grande. Los cubos que no tienen ninguna cara pintada son los que están en el interior del cubo grande.
+
+2.  **Identificar las variables:** Sea $n$ la arista del cubo grande medida en cubos pequeños.
+    *   Cubos con una sola cara pintada: $(n-2)^2 \times 6$.  Hay $(n-2)^2$ cubos en el centro de cada cara, y el cubo tiene 6 caras.
+    *   Cubos sin pintar: $(n-2)^3$. Son los cubos internos.
+
+3.  **Establecer la ecuación:**  El problema nos dice que el número de cubos con una sola cara pintada es igual al número de cubos sin pintar. Por lo tanto:
+    $6(n-2)^2 = (n-2)^3$
+
+4.  **Resolver la ecuación:**
+    *   Si $n=2$, ambos lados de la ecuación son 0, pero esto no tiene sentido ya que el cubo grande tiene que estar hecho por al menos un cubo sin pintar y unos con una cara pintada.
+    *   Si $n \neq 2$, podemos dividir ambos lados por $(n-2)^2$:
+        $6 = n-2$
+        $n = 8$
+
+5.  **Verificar la solución:**  Si n = 8, entonces:
+    *   Cubos con una cara pintada: $6 \times (8-2)^2 = 6 \times 36 = 216$
+    *   Cubos sin pintar: $(8-2)^3 = 6^3 = 216$
+    La solución es correcta.
+
+Respuesta: D)

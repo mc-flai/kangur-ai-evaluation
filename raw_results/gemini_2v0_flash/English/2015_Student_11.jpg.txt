@@ -1,0 +1,14 @@
+Reasoning:
+We need to simplify the expression under the square root first.
+2015 + 2015 = 4030
+2015 - 2015 = 0
+2015 * 2015 = 2015^2
+2015 / 2015 = 1
+Therefore, we have:
+√(4030 + 0 + 2015^2 + 1) = √(4031 + 2015^2)
+We know that 2015^2 = (2000 + 15)^2 = 2000^2 + 2 * 2000 * 15 + 15^2 = 4000000 + 60000 + 225 = 4060225
+So, we have √(4031 + 4060225) = √4064256
+We can notice that 2016^2 = (2015+1)^2 = 2015^2 + 2*2015 + 1 = 4060225 + 4030 + 1 = 4064256.
+Therefore, √4064256 = 2016.
+
+Answer: C)

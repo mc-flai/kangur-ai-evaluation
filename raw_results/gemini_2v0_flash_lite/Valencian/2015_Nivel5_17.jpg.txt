@@ -1,0 +1,23 @@
+Raonament:
+1. **Maria's Sums:** Maria can choose two different numbers from {8, 9, 10}. The possible sums are: 8+9=17, 8+10=18, 9+10=19.
+2. **Pere's Products:** Pere can choose two different numbers from {3, 5, 6}. The possible products are: 3*5=15, 3*6=18, 5*6=30.
+3. **Comparing Outcomes:**  We need to find the probability that Maria's sum is greater than Pere's product. Let's create a table comparing the sums and products:
+
+| Maria's Sum | Pere's Product | Maria > Pere? |
+|---|---|---|
+| 17 | 15 | Yes |
+| 17 | 18 | No |
+| 17 | 30 | No |
+| 18 | 15 | Yes |
+| 18 | 18 | No |
+| 18 | 30 | No |
+| 19 | 15 | Yes |
+| 19 | 18 | Yes |
+| 19 | 30 | No |
+
+4. **Calculating Probabilities:**
+   * There are 3 possible sums for Maria, and 3 possible products for Pere. This creates a total of 3 * 3 = 9 possible outcomes.
+   * Maria's sum is greater than Pere's product in 4 out of the 9 cases (17>15, 18>15, 19>15, 19>18).
+   * Thus, the probability is 4/9.
+
+Resposta: A)

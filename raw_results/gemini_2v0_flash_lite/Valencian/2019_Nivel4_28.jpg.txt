@@ -1,0 +1,88 @@
+Raonament:
+1. **Identify the variables:** We are given that there are four bags with a total of 100 balls. The first bag has 40 balls, and the last bag has 4 balls. The bags are arranged in descending order of the number of balls they contain. Also, no two bags have the same number of balls.
+2. **Determine the possible values:** Let's represent the number of balls in the four bags as b1, b2, b3, and b4. We know that b1 = 40 and b4 = 4. Also, b1 > b2 > b3 > b4. The sum of balls in all the bags is 100, meaning b1 + b2 + b3 + b4 = 100.
+3. **Find the values of b2 and b3:** We have 40 + b2 + b3 + 4 = 100, which simplifies to b2 + b3 = 56. Since b2 and b3 are different integers between 4 and 40, and b2 > b3 > 4, we want to find b2 and b3 to maximize the difference M - m. The most balls the second bag can have is M = 39 and the least the third bag can have is m = 17 (because the values must be different, greater than 4 and less than 40).
+    * If b2 = 39, then b3 = 56 - 39 = 17.
+4. **Calculate M - m:** We identify that M represents the number of balls in the second bag (M = 39), and m is the number of balls in the third bag (m = 17). Since M must be greater than 40, b2 could not be 39 because b1 = 40. The condition must be b1 > b2 > b3 > b4.
+   Since the bags are arranged in descending order, the second bag must have the greatest number of balls among the remaining bags. Thus, 40 > M > m > 4, and the sum is 100. If the numbers of balls are different, then we can assume that bags contain the most balls possible: b2, b3 > 4. If b4 is 4 and b1 is 40, then: b2 + b3 = 56. The condition is M> m.
+     Thus M must be the greatest integer less than 40.
+     Since the bags must have different amounts, the greatest possible M is 39. The smallest possible b3 could be: b3 = 17 (39 + 17 = 56). The condition M > b3 > 4 must be respected.
+     Thus, M = 39, m = 17; but the second bag must have fewer balls than the first bag, thus the greatest possible number of balls for the second bag is M, and the smallest possible number of balls for the second to last bag is m. So, the number of balls must be different. So the second bag can be 38, 37 and so on. If the second bag has 38 balls, 40 + 38 + b3 + 4 = 100, then b3 = 18.
+    Then if b2=37, then b3=19. b2=36, then b3=20. But the numbers must be different. Let's analyze the possible values of b2 and b3, with the condition that they are different and bigger than 4.
+   The second biggest number of balls is M, the third one is m, b4 is 4. The greatest value for M is 37, then m = 19. The difference M - m = 37 -19 = 18.
+    The values must be between 4 and 40. b1 > b2 > b3 > b4.
+    If b2 = 36, b3 = 20. 40+36+20+4 = 100. M - m = 36 - 20 = 16
+    If b2 = 35, b3 = 21. 40+35+21+4 = 100. M - m = 35 - 21 = 14
+    If b2 = 34, b3 = 22. M - m = 34 - 22 = 12
+   Let us imagine 40, 30, 20, 10. Sum 100, but they must be different.
+   Let's imagine 40, 31, 19, 10. Sum 100, but they must be different and in descending order.
+   Let's imagine 40, 31, 19, 4. It is a possibility
+   M = 31. m = 19. M - m = 12.
+  Let's imagine 40, 32, 18, 4. M = 32. m = 18. M - m = 14
+  Let's imagine 40, 33, 17, 4. M = 33. m = 17. M - m = 16
+   Let's imagine 40, 34, 16, 4. M = 34. m = 16. M - m = 18
+   Let's imagine 40, 35, 15, 4. M = 35. m = 15. M - m = 20
+   Let's imagine 40, 36, 14, 4. M = 36. m = 14. M - m = 22
+   Let's imagine 40, 37, 13, 4. M = 37. m = 13. M - m = 24
+   Let's imagine 40, 38, 12, 4. M = 38. m = 12. M - m = 26
+   Let's imagine 40, 39, 11, 4. M = 39. m = 11. M - m = 28
+   Let's imagine 40, 39, 10, 11. Not possible.
+   Now 40, 38, 13, 9 . M = 38. M - m = 29
+   Now 40, 38, 12, 10, wrong
+   Now 40, 38, 11, 11, wrong.
+   The numbers are M > m.
+   The closest numbers are possible: M = 31. m = 19.
+   M - m = 12.
+
+   b2 and b3 must be different. M > m.
+   If b2 = 30. b3 = 26. M - m = 4. Not valid.
+   M = 31, m = 19
+   If M - m= 19, the difference could be 19- 4 = 15.
+   b3 must be different from b4 and b1.
+   Let's try some other values:
+   40, 30, 20, 10, incorrect because numbers are not different.
+   40, 30, 16, 14. 30-14. The numbers must be different and in ascending order
+   40, 30, 15, 15. incorrect.
+   40, 31, 20, 9. M - m = 11.
+   40+31+20+9=100
+   40+30+21+9=100. wrong.
+   40, 30, 21, 9. M = 30, m= 9. M-m=21.
+   If 40+ x+y+4 = 100.
+   x+y=56. We need to determine the minimum value for x, y.
+   M = 31. m = 19. M - m = 12.
+   M=30. m=26. M-m = 4.
+   M=30, m=25, impossible.
+   M = 31, m = 19. M - m = 12.
+
+   If the total must be 100, and 40 + 4= 44.
+   The other bags must have a sum = 56, numbers must be integers and different.
+
+   40>M>m>4
+
+   M = 39, m = 17, impossible.
+
+   If we need to choose from the options:
+   M - m is 10, 9, 8, 7, 6
+    40, 36, 24, 0. wrong.
+    40, 36, 10, 14, wrong.
+    40, x, y, 4. x+y=56.
+    M=30. 40, 30, 26, 4. 30 - 26 = 4. No valid option.
+   40, 31, 19, 10. M - m = 12. The values are increasing.
+
+   M-m is the difference, x-y.
+   Let's consider M-m = 8.
+
+  40, 31, 19, 10. The values must be in descending order.
+
+  If M - m = 8.
+  M = m + 8.
+  40+M+m+4 =100.
+  M+m=56.
+  m+8+m=56.
+  2m=48.
+  m=24.
+  M=32.
+  40+32+24+4 =100.
+   32-24=8.
+
+Resposta: C)

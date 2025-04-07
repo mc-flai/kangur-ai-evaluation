@@ -1,0 +1,31 @@
+Reasoning:
+There are a total of 8 players. For Martina to reach the final, Anita and Martina must be in different groups in the first round. Let's analyze the probability that Martina will be grouped with Anita.
+In the first round, Martina is paired with one of the other 7 players. Only one of these players is Anita. Therefore, the probability that Martina is paired with Anita is 1/7.
+Thus, the probability that Martina is *not* paired with Anita is 1 - 1/7 = 6/7.
+If they are not paired together in the first round, then Martina will win her game as she is the best and reaches the second round. The same argument applies to Anita.
+Since Martina and Anita are in different groups (probability 6/7), they both win their games and are therefore in the second round. There are then two games, and both Martina and Anita are playing. So, there is still a chance they might meet up, which would require them to be matched in the second round if the remaining players are grouped randomly.
+
+Now, assume Martina and Anita are paired such that they won't have to play each other until the final. There is a probability of 6/7 that they are not paired in the first round. After first round, there are 4 winners, Anita, Martina and two others.
+The probability that Martina gets to the final is the probability that Martina and Anita are not paired to play each other in the first round.
+The number of players that could be Martina's opponent is 7.
+The probability that she plays Anita in the first round is 1/7. So the probability she does not play Anita is 6/7.
+Then, there will be 4 players in round 2, Anita, Martina, x, y.
+The chance of Anita and Martina being in different teams is 2/3. But note that they have to be separated in round 1 as well so it's slightly complicated. 
+After the first round, the winners are Martina, Anita, and two others.
+The pairings in the second round could be (Anita, X) (Martina, Y) or (Anita, Martina) (X, Y) etc. We want to find the number of ways to arrange into pairs such that Martina and Anita are in different pairs.
+Total number of pairings possible is 3.
+The arrangements in which Martina and Anita play each other is 1. Therefore the chance that they don't play each other is 2.
+2/3. 6/7 * 2/3 = 4/7.
+
+Reasoning is more simpler as following:
+There are 7 possible opponents for Martina.
+Martina will reach the final if and only if she is not paired with Anita in the first round.
+The probability that Martina is paired with Anita is 1/7. Therefore, the probability that Martina is not paired with Anita is 1 - 1/7 = 6/7.
+In this case, both Martina and Anita win the first round. Then they face someone else. Martina would win, so the probability that she makes it to the final will be 6/7. However if they meet in the second round, so if 6/7 = they don't meet in round 1. after that there are three possible pairings after the first round, so 4 players in second round. Let them be A (Anita), M (Martina) X, Y. possible pairings ( A,M)(X,Y) (A,X) (M,Y), (A,Y) (M,X). 2 out of three such pairing ensure that they are not directly contesting against each other. so chance= 2/3
+so we are given pairings for round 1. 
+Martina will get to the final if she does not face Anita before the final.
+Martina can face any of the remaining 7 players. Only if she faces Anita she will not get to the final (as Anita wins). The probability that she will face Anita is 1/7. If she doesn't face Anita, with probability 6/7, she will be in the second round. After the first round, each group's winner proceeds to the second round. So, Anita and Martina are the winners of two first round group winners, along with two more. So there are 4 finalists in the 2nd round. If these two winners in each groups faces each other there will be two second round winner group who then face each other. If Anita faces anyone in the group other than Martina, she is going to win. 
+Martina would not face Anita in first round.
+P= 6/7.
+
+Answer: E)

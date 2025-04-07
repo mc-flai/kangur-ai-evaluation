@@ -1,0 +1,15 @@
+Razonamiento:
+Sea 'a' la longitud de los dos lados iguales del triángulo isósceles, y 'b' la longitud del lado desigual, que es 17 cm. La mediana de uno de los lados iguales divide al triángulo en dos triángulos. Uno de los triángulos tiene lados a, b/2 y m (la mediana), y el otro tiene lados a, a/2 y m (la mediana). Sus perímetros son a + b/2 + m y a/2 + a + m. La diferencia entre sus perímetros es |(a + b/2 + m) - (3a/2 + m)| = |b/2 - a/2| = 10. Por lo tanto, |b - a| = 20. Dado que b = 17, |17 - a| = 20. Tenemos dos opciones: 17 - a = 20, que implica a = -3, lo cual no es posible ya que la longitud no puede ser negativa. O a - 17 = 20, que implica a = 37. El perímetro del triángulo original es a + a + b = 2a + b = 2(37) + 17 = 74 + 17 = 91. Sin embargo, como los perímetros de los triángulos difieren en 10, implica que 0.5|a-b| = 10. Entonces |a-b| = 20. So a-b = 20, in which case a = b + 20 = 17 + 20 = 37. In this case, the perimeter is 2*37+17 = 74+17 = 91. If b-a = 20, then a = b-20 = 17-20=-3 which is impossible.
+La única forma de que la diferencia de perímetros sea 10 es |a - b|/2 = 10. Esto implica |a - 17| = 20.
+Caso 1: a - 17 = 20, a = 37. Perímetro = 37 + 37 + 17 = 91.
+Caso 2: 17 - a = 20, a = -3, que no es posible.
+Ninguna de las opciones coincide con 91. Debe existir un error en mi razonamiento.
+Let the triangle be ABC, with AB = AC = a, BC = b = 17.
+Let M be the midpoint of AB. Then AM = a/2.
+The perimeter of triangle AMC is AM + AC + MC = a/2 + a + MC
+The perimeter of triangle MBC is MB + BC + MC = a/2 + b + MC
+The difference is |(a/2 + a + MC) - (a/2 + b + MC)| = |a - b| = |a - 17| = 10.
+Case 1: a - 17 = 10, so a = 27. Perimeter = a + a + b = 27 + 27 + 17 = 71.
+Case 2: 17 - a = 10, so a = 7. Perimeter = a + a + b = 7 + 7 + 17 = 31.
+
+Respuesta: E)

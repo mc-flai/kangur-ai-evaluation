@@ -1,0 +1,18 @@
+### Reasoning:
+
+1. **Identify the shape**: The shape consists of 6 squares arranged in a specific pattern.
+2. **Determine the perimeter**: The perimeter of a shape is the total length of its boundary.
+3. **Count the exposed sides**: Each square has 4 sides, but some sides are shared when squares are placed next to each other.
+4. **Calculate the perimeter**:
+   - The bottom row has 1 square with 4 sides, but only 1 side is exposed (since the rest are on the base).
+   - The second row has 2 squares, each with 4 sides, but 1 side is shared with the square below it and 1 side is exposed on each side.
+   - The top row has 3 squares, each with 4 sides, but 2 sides are shared with the squares below it and 1 side is exposed on each side.
+
+   Calculation:
+   - Bottom row: 1 side exposed
+   - Middle row: 2 sides exposed on each side (2 sides * 2 squares) = 4 sides
+   - Top row: 1 side exposed on each side (1 side * 3 squares) = 3 sides
+
+   Total exposed sides = 1 + 4 + 3 = 8 sides
+
+### Answer: E)

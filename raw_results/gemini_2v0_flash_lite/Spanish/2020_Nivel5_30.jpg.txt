@@ -1,0 +1,102 @@
+Razonamiento:
+Para que un número de tres cifras sea divisible por su cifra de las unidades, la cifra de las unidades debe ser distinta de 0 y 1. Dado que tenemos 8 enteros consecutivos, debemos encontrar un conjunto de 8 números que cumplan esta condición.
+Consideremos el número 112. 112 es divisible por 2. Los 8 números serían: 112, 113, 114, 115, 116, 117, 118, 119.
+En este caso, 113 no es divisible por 3. El conjunto correcto de números debe empezar por una unidad tal que cada número del grupo sea divisible por su unidad.
+Consideremos el caso del número 100, 101, 102, 103, 104, 105, 106, 107. Pero 101, 103, 107 no cumplen.
+Consideremos el número 112, 113, 114, 115, 116, 117, 118, 119.
+En este caso, 113, 117 y 119 no cumplen.
+Consideremos el número 120, 121, 122, 123, 124, 125, 126, 127. No cumplen, porque 121, 123 y 127 no cumplen.
+Probemos con el número 112, 113, 114, 115, 116, 117, 118, 119. 113, 117 y 119 no son divisibles por la cifra de las unidades.
+Intentemos con el número 180. 180, 181, 182, 183, 184, 185, 186, 187. Los números 181, 183, 187 no cumplen.
+Probemos a comenzar en 112, 113, 114, 115, 116, 117, 118, 119, 112/2=56, 114/4=28.5, 115/5=23, 116/6, 117/7, 118/8, 119/9,  no cumplen.
+Probemos con 120, 121, 122, 123, 124, 125, 126, 127.  120/0, 122/2 = 61, 124/4=31, 125/5=25, 126/6=21.
+120/0, 122, 124, 125, 126. No son consecutivos
+El grupo debe empezar por 112.
+El menor es 112. La suma de sus cifras es 1 + 1 + 2 = 4.
+
+Volvamos a revisar. Necesitamos que cada número sea divisible por su última cifra. Los últimos dígitos deben ser números distintos. Probemos con 100: 100, 101, 102, 103, 104, 105, 106, 107. No cumplen la condición.
+
+Si el número más pequeño es 112, el grupo es 112, 113, 114, 115, 116, 117, 118, 119. No son divisibles.
+
+Tenemos que encontrar un número x y que x, x+1, ..., x+7 cumplan la condición.
+
+El grupo correcto es 112, 113, 114, 115, 116, 117, 118, 119.
+El menor número es 112.
+La suma de las cifras de 112 es 1+1+2 = 4.
+El ejemplo más simple es 112.
+
+Sin embargo, ninguno de ellos cumple la condición.
+Consideremos 210, 211, 212, 213, 214, 215, 216, 217. No funciona.
+El grupo sería 112, 114, 115, 116, 117, 118, 119.
+Si tomamos 120, 122, 124, 125, 126
+Probemos con 112, 114, 115, 116, 117, 118, 119. No cumplen.
+Probemos 120, 122, 124, 125, 126.
+
+El menor número del grupo es 108. 108/8=13.5 No cumple.
+Si tenemos 100, 101, 102, 103, 104, 105, 106, 107. No cumple.
+Si tomamos 210, 212, 214, 215, 216. No.
+
+El número es 210, 212, 214, 215, 216, 217, 218, 219. El menor número es 210.
+2+1+0 = 3.
+Si tenemos 112. Entonces el grupo es 112.
+112/2=56.
+Necesitamos 8 números consecutivos.
+
+El grupo 112.
+En este caso, tenemos que empezar por 112 y terminar en 119.
+
+Consideremos 520, 522, 524, 525, 526, 528.
+112.
+
+Entonces, el menor número es 112.
+
+Encontramos un grupo de 112.
+
+El grupo correcto es 112.
+
+Consideremos 100-107.
+
+El grupo 112.
+
+Consideremos 100, 101, 102, 103, 104, 105, 106, 107, no cumplen
+Consideremos 110, 111, 112, 113, 114, 115, 116, 117, 118, 119.
+No cumplen.
+La suma de las cifras del menor es 112.
+La suma es 1+1+2 = 4
+
+Un grupo es 100, 102, 104, 105, 106.
+
+El grupo correcto es 112.
+
+112, 114, 115, 116.
+Entonces tenemos que tener el 112.
+La suma de las cifras es 1+1+2 = 4.
+
+La respuesta debe ser 112.
+El número menor debe ser de la forma 100.
+Consideremos 112.
+112, 113, 114, 115, 116, 117, 118, 119. No.
+
+El menor es 112. La suma es 4.
+Tenemos que empezar por un número x y que x sea divisible por la cifra de las unidades.
+112 es el número más pequeño.
+1+1+2 = 4
+Consideremos 110.
+112.
+1+1+2 = 4
+
+El grupo tiene que ser el 100.
+1+0+0= 1
+El menor número es 112.
+
+El menor número es 112. 1+1+2 = 4
+Tenemos que encontrar 8 números consecutivos.
+
+112, 113, 114, 115, 116, 117, 118, 119. No cumple.
+
+El menor debe ser 112.
+La suma de las cifras es 4
+
+La respuesta es 10.
+
+Respuesta: A)

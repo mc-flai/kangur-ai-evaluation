@@ -1,0 +1,99 @@
+Pour résoudre cette question, nous devons déterminer à quelle distance de l'arrivée le lièvre a changé de direction. Voici le raisonnement détaillé :
+
+1. Le lièvre court 5 fois plus vite que la tortue.
+2. Le lièvre s’élance pour 5 km en ligne droite.
+3. À un certain moment, le lièvre est parti par erreur perpendiculairement à la bonne route.
+4. Quand il s’en aperçoit, il change instantanément de direction pour aller tout droit vers l’arrivée.
+5. Le lièvre et la tortue franchissent l’arrivée exactement en même temps.
+
+Pour trouver la distance où le lièvre change de direction, nous devons utiliser le théorème de Pythagore. Considérons que :
+
+- d = distance parcourue par la tortue avant que le lièvre ne change de direction.
+- v = vitesse de la tortue.
+
+Le lièvre parcourt une distance d + 5 km en ligne droite, puis change de direction. Le temps que le lièvre met pour parcourir cette distance est identique au temps que la tortue met pour parcourir d km.
+
+Le lièvre parcourt une distance \( \sqrt{d^2 + 5^2} \) pour aller tout droit vers l’arrivée.
+
+Puisque le lièvre court 5 fois plus vite que la tortue, le temps qu'il met pour parcourir \( \sqrt{d^2 + 5^2} \) est \( \frac{\sqrt{d^2 + 5^2}}{5} \) du temps de la tortue.
+
+Le temps pour la tortue parcourir d km est \( \frac{d}{v} \).
+
+Donc, nous avons l'équation :
+\[ \frac{\sqrt{d^2 + 5^2}}{5} = \frac{d}{v} \]
+
+Simplifions cette équation :
+\[ \sqrt{d^2 + 5^2} = \frac{5d}{v} \]
+
+Comme \( v = 1 \) (vitesse relative de la tortue), nous avons :
+\[ \sqrt{d^2 + 25} = 5d \]
+
+Élevons les deux côtés au carré :
+\[ d^2 + 25 = 25d^2 \]
+
+Réorganisons l'équation :
+\[ 25d^2 - d^2 = 25 \]
+\[ 24d^2 = 25 \]
+\[ d^2 = \frac{25}{24} \]
+\[ d = \sqrt{\frac{25}{24}} \]
+
+Calculons \( d \) :
+\[ d = \frac{5}{\sqrt{24}} \]
+\[ d = \frac{5}{2\sqrt{6}} \]
+\[ d = \frac{5\sqrt{6}}{12} \]
+
+Donc, la distance où le lièvre change de direction est \( \frac{5\sqrt{6}}{12} \) km, soit environ 1,6 km.
+
+En comparant avec les options proposées :
+- A) 11 km
+- B) 12 km
+- C) 13 km
+- D) 14 km
+- E) 15 km
+
+Aucune des options ne correspond à 1,6 km, donc il semble qu'il y ait une erreur dans les options proposées ou dans l'interprétation de "11 km" comme étant la distance de l'arrivée. Supposons que la distance de l'arrivée soit 11 km.
+
+Reprenons le calcul avec cette hypothèse :
+
+Le lièvre parcourt 11 km en ligne droite, puis change de direction. Le temps que le lièvre met pour parcourir cette distance est identique au temps que la tortue met pour parcourir d km.
+
+Le lièvre parcourt une distance \( \sqrt{d^2 + 11^2} \) pour aller tout droit vers l’arrivée.
+
+Puisque le lièvre court 5 fois plus vite que la tortue, le temps qu'il met pour parcourir \( \sqrt{d^2 + 11^2} \) est \( \frac{\sqrt{d^2 + 11^2}}{5} \) du temps de la tortue.
+
+Le temps pour la tortue parcourir d km est \( \frac{d}{v} \).
+
+Donc, nous avons l'équation :
+\[ \frac{\sqrt{d^2 + 11^2}}{5} = \frac{d}{v} \]
+
+Simplifions cette équation :
+\[ \sqrt{d^2 + 11^2} = 5d \]
+
+Élevons les deux côtés au carré :
+\[ d^2 + 121 = 25d^2 \]
+
+Réorganisons l'équation :
+\[ 25d^2 - d^2 = 121 \]
+\[ 24d^2 = 121 \]
+\[ d^2 = \frac{121}{24} \]
+\[ d = \sqrt{\frac{121}{24}} \]
+
+Calculons \( d \) :
+\[ d = \frac{11}{\sqrt{24}} \]
+\[ d = \frac{11}{2\sqrt{6}} \]
+\[ d = \frac{11\sqrt{6}}{12} \]
+
+Donc, la distance où le lièvre change de direction est \( \frac{11\sqrt{6}}{12} \) km, soit environ 3,8 km.
+
+En comparant avec les options proposées :
+- A) 11 km
+- B) 12 km
+- C) 13 km
+- D) 14 km
+- E) 15 km
+
+Aucune des options ne correspond à 3,8 km, donc il semble qu'il y ait une erreur dans les options proposées ou dans l'interprétation de "11 km" comme étant la distance de l'arrivée.
+
+Raisonnement : En utilisant le théorème de Pythagore et les vitesses relatives du lièvre et de la tortue, nous avons calculé la distance où le lièvre change de direction. Cependant, aucune des options proposées ne correspond à la distance calculée.
+
+Réponse : A).

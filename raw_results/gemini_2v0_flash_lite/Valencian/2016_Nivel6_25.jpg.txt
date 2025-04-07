@@ -1,0 +1,9 @@
+Raonament:
+The expression is a telescoping sum.  Each term of the form $\frac{1}{\sqrt{n+1} + \sqrt{n}}$ can be rationalized by multiplying the numerator and denominator by $\sqrt{n+1} - \sqrt{n}$:
+$\frac{1}{\sqrt{n+1} + \sqrt{n}} \cdot \frac{\sqrt{n+1} - \sqrt{n}}{\sqrt{n+1} - \sqrt{n}} = \frac{\sqrt{n+1} - \sqrt{n}}{(n+1) - n} = \sqrt{n+1} - \sqrt{n}$.
+Thus, the sum becomes:
+$(\sqrt{2} - \sqrt{1}) + (\sqrt{3} - \sqrt{2}) + (\sqrt{4} - \sqrt{3}) + \ldots + (\sqrt{2016} - \sqrt{2015})$.
+This is a telescoping sum, and all the terms cancel except for the last term and the first term:
+$\sqrt{2016} - \sqrt{1} = \sqrt{2016} - 1$.
+
+Resposta: E)

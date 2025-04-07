@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de trobar la probabilitat que Judit guanyi el partit.
+
+**Raonament**:
+1. La probabilitat que Judit guanyi un set a Susanna és de 0.6.
+2. El partit es guanya quan una jugadora guanya dos sets.
+3. Judit pot guanyar el partit de les següents maneres:
+   - Guanya els dos primers sets.
+   - Guanya un dels dos primers sets i després guanya el tercer set.
+
+Calcularem aquestes probabilitats passo a passo.
+
+**Cas 1**: Judit guanya els dos primers sets.
+   - La probabilitat que Judit guanyi el primer set és 0.6.
+   - La probabilitat que Judit guanyi el segon set és 0.6.
+   - La probabilitat que Judit guanyi els dos sets és \(0.6 \times 0.6 = 0.36\).
+
+**Cas 2**: Judit guanya un dels dos primers sets i el tercer set.
+   - La probabilitat que Judit guanyi un set i perdi l'altre és \(0.6 \times 0.4 + 0.4 \times 0.6 = 0.24 + 0.24 = 0.48\).
+   - La probabilitat que Judit guanyi el tercer set és 0.6.
+   - La probabilitat combinada per a aquest cas és \(0.48 \times 0.6 = 0.288\).
+
+Sumant les probabilitats dels dos casos tenim:
+\[0.36 + 0.288 = 0.648\]
+
+**Resposta**: B) 0,648.

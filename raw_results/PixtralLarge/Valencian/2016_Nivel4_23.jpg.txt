@@ -1,0 +1,14 @@
+Per respondre aquesta pregunta, hem de calcular la probabilitat d'obtenir un únic 6 quan es llancen dos daus. Els daus tenen cares numerades de l'1 a l'6.
+
+Raonament:
+1. Cada dau té 6 cares, cada una de les quals té la mateixa probabilitat d'aparèixer.
+2. La probabilitat que un dau mostri un 6 és 1/6, ja que hi ha una cara amb un 6 de les 6 possibles.
+3. La probabilitat que un dau no mostri un 6 és 5/6 (ja que hi ha 5 cares que no són 6).
+4. Per obtenir un únic 6 amb dos daus, un dau ha de mostrar un 6 i l'altre no.
+5. Hi ha dues maneres d'aconseguir això:
+   - El primer dau mostra 6 i el segon no: (1/6) * (5/6)
+   - El primer dau no mostra 6 i el segon sí: (5/6) * (1/6)
+6. La probabilitat total d'obtenir un únic 6 és la suma de les probabilitats de totes dues maneres:
+   (1/6) * (5/6) + (5/6) * (1/6) = (5/36) + (5/36) = 10/36 = 5/18
+
+Resposta: E)

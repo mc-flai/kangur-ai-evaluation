@@ -1,0 +1,23 @@
+Pour déterminer la longueur de la ligne noire épaisse dans le petit carré du quadrillage, nous devons d'abord comprendre la surface que chaque carré représente et comment les segments de ligne se combinent.
+
+1. **Analyser le quadrillage** :
+   - Chaque petit carré du quadrillage a une aire de 4 cm².
+   - La ligne noire épaisse traverse plusieurs carrés.
+
+2. **Calculer la longueur totale de la ligne noire épaisse** :
+   - La ligne noire épaisse semble être composée de segments horizontaux et verticaux.
+   - Compte les segments horizontaux et verticaux :
+     - 4 segments horizontaux de 2 cm chacun (car chaque petit carré a une aire de 4 cm², donc 2 cm sur 2 cm = 4 cm²).
+     - 4 segments verticaux de 2 cm chacun.
+
+3. **Additionner les longueurs des segments** :
+   - Longueur des segments horizontaux : \(4 \times 2 = 8\) cm
+   - Longueur des segments verticaux : \(4 \times 2 = 8\) cm
+
+4. **Calculer la longueur totale de la ligne noire** :
+   - Longueur totale = Longueur horizontale + Longueur verticale 
+   - Longueur totale = 8 cm + 8 cm = 16 cm
+
+Raisonnement : La ligne noire épaisse est composée de 4 segments horizontaux et 4 segments verticaux de 2 cm chacun. La somme de ces segments donne une longueur totale de 16 cm.
+
+Réponse : A).

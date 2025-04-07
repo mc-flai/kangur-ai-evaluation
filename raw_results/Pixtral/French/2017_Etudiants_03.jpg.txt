@@ -1,0 +1,17 @@
+
+La question 3 demande quel est le plus petit nombre de points à supprimer pour qu'il ne soit plus possible de colorier une des lignes en gris à l'autour.
+
+Pour résoudre cette question, nous devons comprendre le concept de théorie des graphes et des couleurs. Dans un graphe, chaque sommet représente un point et chaque arête représente une ligne reliant deux points. Le problème de coloration de graphe demande de colorier les arêtes de telle sorte qu'aucune deux arêtes adjacentes ne partagent la même couleur.
+
+Raisonnement :
+1. Il y a 10 points et 15 lignes.
+2. Pour éviter de colorer une ligne en gris, nous devons nous assurer que chaque ligne est connectée à une ligne d'une couleur différente.
+3. Si nous supprimons un point, nous devons vérifier combien de lignes sont affectées et si cela permet de colorer une ligne en gris.
+4. En supprimant un point, nous réduisons le nombre de connexions possibles.
+5. Si nous supprimons 1 point, il reste 9 points et 15 lignes, ce qui pourrait encore permettre de colorier une ligne en gris.
+6. Si nous supprimons 2 points, il reste 8 points et 15 lignes, ce qui pourrait encore permettre de colorier une ligne en gris.
+7. Si nous supprimons 3 points, il reste 7 points et 15 lignes, ce qui pourrait encore permettre de colorier une ligne en gris.
+8. Si nous supprimons 4 points, il reste 6 points et 15 lignes, ce qui pourrait encore permettre de colorier une ligne en gris.
+9. Si nous supprimons 5 points, il reste 5 points et 15 lignes, ce qui pourrait encore permettre de colorier une ligne en gris.
+
+Réponse : E)

@@ -1,0 +1,26 @@
+Reasoning:
+Let $S_6$ be the total score in the first 6 games.
+The total score in the 7th, 8th and 9th games is $24 + 17 + 25 = 66$.
+The average after 9 games is $\frac{S_6 + 66}{9}$.
+The average after 6 games is $\frac{S_6}{6}$.
+We are given that $\frac{S_6 + 66}{9} > \frac{S_6}{6}$.
+Multiplying both sides by 18 gives $2(S_6 + 66) > 3S_6$, so $2S_6 + 132 > 3S_6$, which means $S_6 < 132$.
+
+Let $x$ be the score in the 10th game.
+The total score after 10 games is $S_6 + 66 + x$.
+The average after 10 games is $\frac{S_6 + 66 + x}{10} > 22$.
+Thus, $S_6 + 66 + x > 220$, which means $x > 220 - 66 - S_6 = 154 - S_6$.
+Since we want to minimize $x$, we want to maximize $S_6$.
+Since $S_6 < 132$, the largest integer value for $S_6$ is 131.
+Therefore, $x > 154 - 131 = 23$. Since $x$ must be an integer, the smallest integer value for $x$ is 24.
+
+Reasoning:
+We can also solve this by noting that $S_6 < 132$.
+The minimum integer for x occurs when $S_6$ is as close to 132 as possible.
+Let $S_6 = 131$.
+Then $\frac{131 + 66 + x}{10} > 22$.
+$197 + x > 220$, so $x > 23$.
+The smallest integer is 24.
+
+Final Answer:
+C)

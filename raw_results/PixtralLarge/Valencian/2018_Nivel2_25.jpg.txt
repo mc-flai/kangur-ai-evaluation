@@ -1,0 +1,11 @@
+Raonament: Per determinar quantes peces amb la figura donada es poden obtenir d'un quadrat de 5x5, hem de mirar la figura i veure quants quadrats de 2x2 es poden formar en el quadrat de 5x5.
+
+Cadascuna de les peces ocupa un espai d'un quadrat de 2x2 en el quadrat major. El quadrat de 5x5 conté 25 quadrats de 1x1. Per trobar quantes peces de 2x2 es poden tallar, hem de dividir el nombre total de quadrats de 1x1 per 4 (ja que cada peça de 2x2 cobreix 4 quadrats de 1x1).
+
+\[
+\frac{25}{4} = 6,25
+\]
+
+Com que només podem tenir un nombre enter de peces, el màxim nombre enter de peces que podem fer és de 6.
+
+Resposta: D)

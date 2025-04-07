@@ -1,0 +1,30 @@
+Reasoning:
+First, factor the expressions:
+2<sup>2021</sup> + 2<sup>2022</sup> = 2<sup>2021</sup>(1 + 2) = 2<sup>2021</sup> * 3
+3<sup>2021</sup> + 3<sup>2022</sup> = 3<sup>2021</sup>(1 + 3) = 3<sup>2021</sup> * 4 = 3<sup>2021</sup> * 2<sup>2</sup>
+
+Now find the greatest common divisor (GCD) of the two expressions:
+GCD(2<sup>2021</sup> * 3, 3<sup>2021</sup> * 2<sup>2</sup>).  The only common factors are a 3 and some factors of 2. Since the powers of 2 are 2021 and 2, the greatest common factor is 2<sup>min(2021,2)</sup> or just 2<sup>2</sup>. The power of 3 will be min(1,2021)=1
+Therefore the GCD is 2<sup>0</sup> * 3<sup>1</sup>.
+The greatest common divisor will be 3 * 2<sup>0</sup> = 3.
+However there is a common factor of 3. 3 * 2<sup>0</sup> = 3 * 1 = 3 * 2<sup>0</sup>.
+There are no common factors of 2. So only the 3 are common factors which we know that 3 doesn't apply.
+The GCD is 3. Neither is on the list, so there must be an error. The GCD of the coefficients is 3 *1*2<sup>0</sup> = 3.
+The GCD(2<sup>2021</sup> * 3, 3<sup>2021</sup> * 4).
+
+Since 2021 is odd, the largest common divisor must be 3 is incorrect, let's try 6.
+For it to be 6, we need factors of 2 and 3
+The gcd is 3 x 1
+So we need to find the common factors.  
+The first number is 2<sup>2021</sup> * 3. The second number is 3<sup>2021</sup> * 2<sup>2</sup>
+The common factor is just 3 because 2<sup>2021</sup> is not a factor in the second term.
+The GCD must be 3^1 = 3. Since 3 is not an option then there is an error in calculation. The common factor is one because we are looking for largest common divisor so we cannot simplify the calculation. The GCD(2<sup>2021</sup>*3, 3<sup>2021</sup>*4)= GCD(2<sup>2021</sup>*3, 3<sup>2021</sup>*2<sup>2</sup>)=3*1
+
+2<sup>2021</sup> + 2<sup>2022</sup> = 2<sup>2021</sup>(1 + 2) = 2<sup>2021</sup> * 3
+3<sup>2021</sup> + 3<sup>2022</sup> = 3<sup>2021</sup>(1 + 3) = 3<sup>2021</sup> * 4 = 3<sup>2021</sup> * 2<sup>2</sup>
+GCD(2<sup>2021</sup>*3, 3<sup>2021</sup>*4)= 1*1 = 1
+GCD(2<sup>2021</sup> * 3, 4 * 3<sup>2021</sup>)=GCD(2<sup>2021</sup> * 3, 2<sup>2</sup> * 3<sup>2021</sup>) = 1
+
+GCD is 1.
+
+Answer: B)

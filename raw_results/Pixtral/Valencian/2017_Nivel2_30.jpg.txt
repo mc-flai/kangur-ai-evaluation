@@ -1,0 +1,30 @@
+
+La pregunta 30 nos pide determinar el número natural \( N \) que cumple con que la suma de sus cifras es un número impar. Para resolver esto, debemos identificar un número \( N \) que sea divisible por 99 y cuya suma de cifras sea impar.
+
+**Razonamiento:**
+1. Un número es divisible por 99 si es divisible tanto por 9 como por 11.
+2. Un número es divisible por 9 si la suma de sus cifras es múltiplo de 9.
+3. Un número es divisible por 11 si la diferencia entre la suma de los dígitos en las posiciones pares y la suma de los dígitos en las posiciones impares es múltiplo de 11.
+
+Para que la suma de las cifras de \( N \) sea impar, \( N \) debe tener un número impar de cifras.
+
+Vamos a revisar las opciones:
+- A) \( N \) es un número de 3 cifras.
+- B) \( N \) es un número de 4 cifras.
+- C) \( N \) es un número de 5 cifras.
+- D) \( N \) es un número de 6 cifras.
+- E) \( N \) es un número de 8 cifras.
+
+De las opciones, las que tienen un número impar de cifras son:
+- A) 3 cifras (impar)
+- C) 5 cifras (impar)
+- E) 8 cifras (impar)
+
+Sin embargo, necesitamos que \( N \) sea divisible por 99, lo cual implica que la suma de sus cifras debe ser múltiplo de 9. Revisando las opciones:
+- Un número de 3 cifras (A) no puede ser divisible por 99.
+- Un número de 5 cifras (C) no puede ser divisible por 99.
+- Un número de 8 cifras (E) no puede ser divisible por 99.
+
+Por lo tanto, ninguna de las opciones A, C o E cumple con ambas condiciones.
+
+**Respuesta: B)**

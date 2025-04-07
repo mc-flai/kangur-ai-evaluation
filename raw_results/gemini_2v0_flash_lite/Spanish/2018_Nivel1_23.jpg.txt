@@ -1,0 +1,10 @@
+Razonamiento:
+El problema nos pide encontrar el número más grande posible de 6 cifras usando tres veces A, dos veces B y una vez C, donde A, B y C son dígitos distintos. Para obtener el número más grande, debemos ubicar el dígito más grande en las posiciones de mayor valor.  Por lo tanto, colocaremos los tres A al principio. Luego, colocamos las dos B a continuación y la C al final. Esto nos daría el número AAA BBC. Sin embargo, la pregunta nos pide el número que no puede ser igual, entonces tenemos que analizar cada opción:
+- A) AAABBC
+- B) CAAABB. El dígito más grande está en la segunda posición
+- C) BBAAAC. El dígito más grande está en la tercera posición.
+- D) AAABCB. Incorrecto, debería ser AAABBC.
+- E) AAACBB. Incorrecto, debería ser AAABBC.
+La opción CAAABB coloca el dígito más grande en una posición distinta a la que maximiza el valor, por lo tanto, no es el mayor número posible.
+
+Respuesta: B)

@@ -1,0 +1,14 @@
+Raisonnement : L'objectif est de réarranger les cartes pour former le mot "KANGOUROU". Nous devons compter le nombre minimum d'échanges nécessaires. Comparons la séquence initiale (RAGNUUKOO) avec le mot cible (KANGOUROU).
+1.  **R** doit être échangé avec **K**: 1 échange.
+2.  **U** et **O** doivent être échangés: 1 échange.
+3.  **O** reste à la dernière position.
+    La séquence devient alors : KAGNUORUO.
+4.  Il y a deux 'U' dans la séquence initiale, mais seul le premier est au mauvais endroit.
+5.  Maintenant, la séquence est : KANUROGUO.
+6.  Nous devons échanger le deuxième 'U' et le 'O'. Cela fait 1 échange.
+7.  Il y a aussi une erreur sur la lettre 'R'
+8.  La séquence devient maintenant KANGUROUO.
+9. Nous échangeons la deuxième lettre 'O' avec la lettre 'U'. Cela fait 1 échange.
+Cela nous donne KANGOUROU. On dénombre un total de 4 échanges.
+
+Réponse : C)

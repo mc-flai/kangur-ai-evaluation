@@ -1,0 +1,30 @@
+To determine the minimum number of light bulbs to touch in order to switch on all the light bulbs, we need to analyze the given graph.
+
+1. **Understanding the Problem:**
+   - The circles represent light bulbs.
+   - All light bulbs are initially switched off.
+   - Touching one light bulb switches it on and also switches on all directly adjacent light bulbs.
+
+2. **Graph Analysis:**
+   - The graph is a simple undirected graph where nodes represent light bulbs and edges represent adjacency.
+   - We need to find the minimum number of light bulbs to touch such that all light bulbs in the graph get switched on.
+
+3. **Strategy:**
+   - Identify the light bulbs that have the most connections (highest degree) as they will maximize the number of adjacent bulbs switched on.
+   - Starting with the highest degree nodes, determine if all bulbs can be switched on.
+
+4. **Observation:**
+   - The light bulb in the very center (highest degree in the graph) is connected to four other light bulbs.
+   - If we touch this central light bulb, it will switch on itself and the four connected light bulbs.
+   - This leaves us with four light bulbs that are not yet switched on.
+   - We need to touch at least one more light bulb to ensure all remaining light bulbs are switched on.
+
+5. **Verification:**
+   - Touching the central light bulb switches on itself and four others.
+   - Touching any one of the remaining four unswitched light bulbs will switch on itself and any adjacent light bulbs.
+   - This sequence ensures all light bulbs are switched on after touching two light bulbs.
+
+**Reasoning:**
+By touching the central light bulb and one additional light bulb from the remaining unswitched ones, all light bulbs in the graph will be switched on.
+
+**Answer:** C)

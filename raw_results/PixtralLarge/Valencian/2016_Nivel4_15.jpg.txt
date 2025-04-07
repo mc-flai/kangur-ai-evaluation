@@ -1,0 +1,24 @@
+**Raonament**: La pregunta demana trobar el valor de \( n \) en la igualtat \( 9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 3^{2016} \).
+
+Primer de tot, noteu que hi ha nou termes de \( 9^n \), per tant, podem reescriure l'equació com:
+\[ 9 \cdot 9^n = 3^{2016} \]
+
+Això es simplifica a:
+\[ 9^{n+1} = 3^{2016} \]
+
+Recordem que \( 9 = 3^2 \), per tant:
+\[ (3^2)^{n+1} = 3^{2016} \]
+
+Amb les propietats de les potències, això esdevé:
+\[ 3^{2(n+1)} = 3^{2016} \]
+
+S'igualem els exponents, obtenim:
+\[ 2(n+1) = 2016 \]
+
+Dividim per 2:
+\[ n+1 = 1008 \]
+
+Restem 1:
+\[ n = 1007 \]
+
+**Resposta**: E)

@@ -1,0 +1,39 @@
+Per resoldre aquesta pregunta, primer cal analitzar la informació donada i entendre què s'està preguntant.
+
+1. **Informació donada:**
+   - Una cabra està en una parcel·la triangular de terra amb àrea \( A \) i perímetre \( P \).
+   - La cabra està lligada a la frontera de la parcel·la i es pot moure fins a una distància màxima \( d \).
+   - S'ha de calcular l'àrea total de la zona on la cabra pot pasturar, incloent la descàrrega elèctrica que porta.
+
+2. **Àrea de la parcel·la:**
+   L'àrea de la parcel·la triangular és \( A \).
+
+3. **Àrea addicional per la corda:**
+   Quan la cabra es mou fins a la distància màxima \( d \) de la frontera, forma una àrea addicional al voltant de la parcel·la. Aquesta àrea addicional es pot dividir en tres parts:
+   - Les àrees triangulars formades al llarg de cada costat de la parcel·la.
+   - Les àrees semicirculars en les cantonades (vertices) de la parcel·la.
+
+4. **Àrees triangulars:**
+   Cada costat de la parcel·la té una àrea triangular addicional amb base igual a la longitud del costat i altura \( d \). La suma de les longituds dels costats és igual al perímetre \( P \). Per tant, l'àrea total de les àrees triangulars és \( dP \).
+
+5. **Àrees semicirculars:**
+   En cada cantonada (vertex) de la parcel·la, es forma una àrea semicircular amb radi \( d \). Com que la parcel·la és triangular, hi ha tres cantonades. L'àrea d'una semicircular és \( \frac{1}{2} \pi d^2 \). Per tant, l'àrea total de les tres semicirculars és \( 3 \times \frac{1}{2} \pi d^2 = \frac{3}{2} \pi d^2 \).
+
+6. **Àrea total:**
+   L'àrea total de la zona on la cabra pot pasturar és la suma de l'àrea de la parcel·la, les àrees triangulars i les àrees semicirculars:
+   \[
+   \text{Àrea total} = A + dP + \frac{3}{2} \pi d^2
+   \]
+
+7. **Comparació amb les opcions:**
+   - A) \( A + dP \)
+   - B) \( A + dP + 2\pi d \)
+   - C) \( A + dP + \pi d^2 \)
+   - D) \( A + dP + 2\pi d^2 \)
+   - E) Cap dels resultats anteriors
+
+   L'opció correcta és \( A + dP + \frac{3}{2} \pi d^2 \), que no està llistada directament. Per tant, la resposta correcta és:
+
+**Raonament:** L'àrea total de la zona on la cabra pot pasturar inclou l'àrea de la parcel·la, les àrees triangulars al llarg dels costats i les àrees semicirculars en les cantonades. L'opció correcta és \( A + dP + \frac{3}{2} \pi d^2 \), que no està llistada directament.
+
+**Resposta:** E) Cap dels resultats anteriors.

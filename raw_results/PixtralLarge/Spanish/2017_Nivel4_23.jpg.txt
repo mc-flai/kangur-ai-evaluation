@@ -1,0 +1,16 @@
+Para resolver la pregunta 23, hay que recordar que las diagonales de un cuadrilátero lo dividen en cuatro triángulos. La condición \( a \cdot b = c \cdot d \) indica que el producto de las áreas de dos triángulos opuestos (los que comparten una diagonal) es igual al producto de las áreas de los otros dos triángulos opuestos.
+
+Para verificar esta condición, los números primos deben permitir que los productos sean iguales. Analicemos las posibles opciones:
+
+- Opciones impares (18, 20, 22, 24, 26):
+    - 18: \( 2 \cdot 3^2 \) (no es primo y no cumple la condición)
+    - 20: \( 2^2 \cdot 5 \) (no es primo y no cumple la condición)
+    - 22: \( 2 \cdot 11 \) (es producto de primos, pero 11 y 2, y no cumple la condición de suma de productos)
+    - 24: \( 2^3 \cdot 3 \) (no es primo y no cumple la condición)
+    - 26: \( 2 \cdot 13 \) (es producto de primos y sus combinaciones cumplen la condición \( a \cdot b = c \cdot d \))
+
+En este caso, la opción 26 es la única que cumple con la condición de ser producto de primos y su combinación permite verificar \( a \cdot b = c \cdot d \).
+
+Razonamiento: La opción correcta debe ser producto de números primos que permitan verificar la condición \( a \cdot b = c \cdot d \). Entre las opciones, solo 26 cumple esta condición, ya que es \( 2 \cdot 13 \) y las combinaciones de sus productos pueden cumplir la condición.
+
+Respuesta: E)

@@ -1,0 +1,8 @@
+Raonament: Per trobar el nombre màxim de regions disjuntes, hem de maximitzar les interseccions entre el rectangle i l'hexàgon. Un hexàgon té 6 costats i un rectangle té 4 costats. Cada costat del rectangle pot tallar l'hexàgon en dues regions com a màxim. D'aquesta manera, el rectangle podria potencialment dividir l'hexàgon en més regions que el que es mostra a la imatge. El rectangle pot tallar els sis costats de l'hexàgon.
+L'hexàgon per si sol és una regió. El rectangle per si sol és una altra regió. Si el rectangle talla els sis costats de l'hexàgon, divideix l'hexàgon en més regions. Considerem la configuració on cada costat del rectangle interseca l'hexàgon dues vegades. Aquesta situació divideix l'hexàgon en diverses regions.
+El rectangle divideix l'hexàgon en 2 regions. El rectangle divideix l'espai exterior de l'hexàgon en 2 regions. Podem crear un màxim de 10 regions: 6 a l'interior del hexàgon i 4 a l'exterior.
+L'hexàgon per si sol crea 1 regió. El rectangle, independentment, crea 1 regió. Les seves interseccions poden crear més regions. Com a màxim cada costat del rectangle podria intersectar l'hexàgon. Això augmenta la quantitat de regions. Si el rectangle interseca l'hexàgon dues vegades a cada costat, tindrem 6 regions a dins de l'hexàgon i 4 a fora.
+Això fa un total de 6 regions dins l'hexàgon, 1 regió dins del rectangle i 3 regions fora. Tenim un total de 10 regions.
+La resposta correcta és 10.
+
+Resposta: D)

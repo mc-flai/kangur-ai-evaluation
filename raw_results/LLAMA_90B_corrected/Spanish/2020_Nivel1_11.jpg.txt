@@ -1,0 +1,8 @@
+Razonamiento: Para determinar el número que debe colocarse en el círculo con el signo de interrogación en la ilustración, de acuerdo a la pregunta 11 "¿Qué número debe colocarse en el círculo con el signo de interrogación?", sigue este proceso de inferencia:
+
+1.  Al girar el diagrama en la figura presentada, se puede observar que hay 20 círculos pequeños, cada uno de ellos con números situados a lo largo de los bordes de un pentagrama y que se organizan de manera cíclica.
+2.  Siguiendo el orden, la secuencia de números en sentido horario, se ve que los primeros seis números son 1, 10, 5, 4, 3 y 9. Estos números ocupan el primer cuadrante, el espacio situado por encima de la diagonal que recorre desde la esquina del pentagrama más inferior hasta la esquina más superior.
+3.  Gira el diagrama en sentido antihorario empezando por el número 1 y retórnalo a su posición original sobre el diámetro formado entre 9 y 1. Ahora 9 y 11 han bajado a las posiciones anteriores de 10 y 5. Continuando con el giro, 5 y 4 ocupan las posiciones anteriores de 9 y 11 y así sucesivamente, hasta colocar 3 y 9 en las anteriores posiciones de 1 y 10.
+4.  En la última iteración, 9 moverá el número 3 a la posición actual del número 1 y en la nueva posición de 9 se colocará el signo de interrogación con el número 9. De acuerdo a los giros cíclicos sobre elitesse, en cada vuelta, al girar llevamos al último decir colocar al anterior, un número más abajo.
+
+Respuesta: A) 3.

@@ -1,0 +1,20 @@
+Razonamiento: We need to find the maximum number of coins we can place in the 4x5 grid such that no four coins form a rectangle (i.e., no two rows and two columns have coins).
+
+A possible solution is to fill the grid in a pattern where no two rows have more than two coins in the same columns. We can try to fill the grid strategically.
+One approach is to put coins in the following positions:
+Row 1: Coins in columns 1, 2, 3
+Row 2: Coins in columns 1, 4, 5
+Row 3: Coins in columns 2, 3, 4
+Row 4: Coins in columns 3, 4, 5
+
+This way no four coins form a rectangle. The number of coins in this setup is 3 + 3 + 3 + 3 = 12.
+
+Another possible solution is by using the pattern:
+X . X . X
+. X . X .
+X . X . X
+. X . X .
+
+In this case, the count will be 10. However, by filling the grid we can determine the maximum amount which is 12.
+
+Respuesta: E) 12

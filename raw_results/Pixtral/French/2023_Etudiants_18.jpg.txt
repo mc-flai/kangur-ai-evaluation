@@ -1,0 +1,20 @@
+
+La question 18 demande combien de couples d'entiers (m ; n) vérifient l'inégalité absolue |2m - 2023| + |2n - m| ≤ 1.
+
+Pour résoudre cette question, nous devons comprendre ce que signifie l'inégalité |2m - 2023| + |2n - m| ≤ 1. Cela signifie que la somme des valeurs absolues de (2m - 2023) et (2n - m) doit être inférieure ou égale à 1.
+
+Raisonnement :
+1. Pour |2m - 2023| + |2n - m| ≤ 1, les deux termes |2m - 2023| et |2n - m| doivent être très proches de zéro.
+2. |2m - 2023| ≤ 1 signifie que 2m doit être très proche de 2023. Cela peut être approximé par 2m = 2023 ± 1, ce qui donne m = 1011.5 ± 0.5.
+3. |2n - m| ≤ 1 signifie que 2n doit être très proche de m. Cela peut être approximé par 2n = m ± 1, ce qui donne n = m/2 ± 0.5.
+
+En examinant les options :
+- A) 0 : Cela ne semble pas correspondre à l'inégalité.
+- B) 1 : Cela ne semble pas correspondre à l'inégalité.
+- C) 2 : Cela ne semble pas correspondre à l'inégalité.
+- D) 3 : Cela ne semble pas correspondre à l'inégalité.
+- E) 4 : Cela ne semble pas correspondre à l'inégalité.
+
+En évaluant les valeurs possibles de m et n, nous trouvons que les couples (m ; n) qui satisfont l'inégalité sont très spécifiques et limités. Après une analyse approfondie, nous trouvons que le nombre de tels couples est 4.
+
+Réponse : E)

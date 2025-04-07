@@ -1,0 +1,8 @@
+Raonament:
+1. **Define the square and the points:** We have a square ABCD with sides of length 2. E and F are midpoints of AB and AD, respectively.
+2. **G divides CF:** G is a point on CF such that 3CG = 2GF. This means that CG = (2/5)CF and GF = (3/5)CF.
+3. **Calculate CF:** Since F is the midpoint of AD, AF = 1. Then, by the Pythagorean theorem in triangle ADF, CF = sqrt(CD^2 + DF^2) = sqrt(2^2 + 1^2) = sqrt(5).
+4. **Find CG:** CG = (2/5)CF = (2/5)sqrt(5).
+5. **Calculate the area of triangle BEG:** The area of triangle BEG can be found by subtracting the areas of triangles AEF, BCG, and FDG from the area of the square (or other methods) but finding the correct coordinate of the points and applying the formula will be easier. Place the square in the cartesian plane as follows: A(0,2), B(2,2), C(2,0), D(0,0). Then E(1,2), F(0,1).  Line CF equation can be calculated by: (y-0)/(x-2) = (1-0)/(0-2). Then y = -1/2x +1.  Knowing that CG=(2/5)CF, and vector CF is (2,-1), thus vector CG = (4/5, -2/5).  Point G coordinates must be obtained from the coordinates C + CG, therefore G(2,0)+(4/5,-2/5) = (14/5, -2/5). Applying the determinant formula for calculating the area formed by three points, which is the area of the triangle BEG = 1/2 |(1(2+2/5) + 2(-2/5-2) +1(2-2)| =  1/2 |2+2/5-4-4/5 +0| = 1/2 |-2-2/5|= 1/2 *12/5=6/5
+
+Resposta: E)

@@ -1,0 +1,12 @@
+Raonament:
+Hem de calcular la probabilitat d'obtenir una suma de 6 al llançar tres daus normals.
+El nombre total de resultats possibles és 6 * 6 * 6 = 216.
+Ara hem de trobar el nombre de combinacions que sumen 6. Aquestes són:
+1+1+4 (3 permutacions: 114, 141, 411)
+1+2+3 (6 permutacions: 123, 132, 213, 231, 312, 321)
+2+2+2 (1 permutació: 222)
+Per tant, hi ha 3 + 6 + 1 = 10 combinacions que sumen 6.
+La probabilitat és, per tant, 10/216. 216 = 6*6*6
+Per tant la probabilitat d'obtenir una suma de 6 és 10/(6*6*6).
+
+Resposta: C)

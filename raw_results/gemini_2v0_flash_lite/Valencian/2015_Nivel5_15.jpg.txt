@@ -1,0 +1,9 @@
+Raonament: Perquè 10^n + 1 sigui un múltiple d'11, hem d'analitzar els residus de 10^n mòdul 11. Tenim:
+- 10^1 ≡ -1 (mod 11)
+- 10^2 ≡ 1 (mod 11)
+- 10^3 ≡ -1 (mod 11)
+- 10^4 ≡ 1 (mod 11)
+Això indica que 10^n ≡ -1 (mod 11) quan n és senar i 10^n ≡ 1 (mod 11) quan n és parell.
+Aleshores, perquè 10^n + 1 sigui divisible per 11, 10^n ha de ser congruent amb -1 mòdul 11, que passa quan n és senar. Això significa que n ha de ser de la forma 2m+1.
+
+Resposta: B)

@@ -1,0 +1,22 @@
+Reasoning:
+Let's calculate the sum of each row and column:
+Row 1: 9 + 1 + 5 = 15
+Row 2: 3 + 7 + 6 = 16
+Row 3: 4 + 7 + 4 = 15
+Column 1: 9 + 3 + 4 = 16
+Column 2: 1 + 7 + 7 = 15
+Column 3: 5 + 6 + 4 = 15
+
+We are looking for a single number to change, so that all rows and columns have the same sum. The row sums are 15, 16, 15, and the column sums are 16, 15, 15. Notice that the sum 15 occurs four times while the sum 16 occurs twice. The "target" sum is likely 15. Let's try to alter the table, so that each row and column sums to 15.
+If we change the '3' to a '2', then column 1 would sum to 15, but row 2 would sum to 15. So B is a candidate answer.
+If the target sum is 15, we see that the sum of column 1 is 16 (9+3+4). In order to make the sum equal 15, we would have to change '3' into '2' or '9' into '8' or '4' into '3'. Row 2 sums to 16. To make the sum 15, we need to change either '3', '7', or '6'. We can make a deduction about '3' being the issue.
+
+Changing '3' to '2' will make
+Row 2: 2 + 7 + 6 = 15
+Column 1: 9 + 2 + 4 = 15
+Row 1: 9 + 1 + 5 = 15
+Row 3: 4 + 7 + 4 = 15
+Column 2: 1 + 7 + 7 = 15
+Column 3: 5 + 6 + 4 = 15
+
+Answer: B)

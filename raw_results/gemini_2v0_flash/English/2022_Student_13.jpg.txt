@@ -1,0 +1,25 @@
+Reasoning: The water meter currently reads 91.876. We need to find the next reading where all digits are different. We need to increase the water usage by the smallest possible amount. The smallest amount to increment the water usage to start with is 0.001.
+91.876 + 0.001 = 91.877. This doesn't work since we have two 7s.
+91.876 + 0.002 = 91.878. This doesn't work, we have two 8s.
+91.876 + 0.003 = 91.879. This doesn't work, we have a 9, 1, 8, 7, 9. We have two 9s.
+91.876 + 0.004 = 91.880. This doesn't work, we have two 8s.
+91.876 + 0.010 = 91.886. This doesn't work, we have two 8s.
+91.876 + 0.020 = 91.896. This doesn't work, we have two 9s.
+We need the last digits of 91.abc to be different from 9, 1, 8, 7, 6. If we increment by 0.1 we get
+91.876 + 0.100 = 91.976. No help here.
+We need the 6 to increase to at least zero and we cannot use a 1, 6, 7, 8, 9.
+Let's consider when will the last three digits not have a 1, 6, 7, 8, 9. The amount added is 0.abc
+Consider 91.876 + 0.124 = 92.000.
+Since we need to increment the last digits the most logical thing to check is if the smallest possible answer increments the right places.
+Consider adding D = 0.137. Then 91.876 + 0.137 = 92.013. Here all digits are different.
+
+Answer: D)
+Reasoning: The current meter reading is 91.876. We seek the smallest addition that yields a reading with distinct digits. Testing each option:
+A) 91.876 + 0.006 = 91.882 (duplicate 8)
+B) 91.876 + 0.034 = 91.910 (duplicate 1 and 9)
+C) 91.876 + 0.086 = 91.962 (9 and 6 are already there)
+D) 91.876 + 0.137 = 92.013 (all digits distinct)
+E) 91.876 + 1.048 = 92.924 (duplicate 2 and 9)
+Therefore, the smallest addition that gives distinct digits is 0.137.
+
+Answer: D)

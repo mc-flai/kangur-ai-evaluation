@@ -1,0 +1,35 @@
+**Raonament**:
+
+1. L'edat mitjana inicial dels jugadors és de 21 anys.
+2. Durant el partit, un jugador que tenia un mal comportament és expulsat.
+3. L'edat mitjana dels jugadors que queden en el camp és de 20 anys.
+
+Per trobar l'edat del jugador expulsat, anomenem \( N \) el nombre total de jugadors inicialment. La suma de les edats dels jugadors inicialment és:
+
+\[ 21 \times N \]
+
+Després que un jugador és expulsat, el nombre de jugadors resta \( N-1 \) i l'edat mitjana és 20 anys. La suma de les edats dels jugadors restants és:
+
+\[ 20 \times (N-1) \]
+
+L'edat del jugador expulsat és la diferència entre la suma de les edats inicials i la suma de les edats finals:
+
+\[ 21 \times N - 20 \times (N-1) \]
+
+Simplifiquem l'expressió:
+
+\[ 21N - 20N + 20 = N + 20 \]
+
+Per trobar \( N \), hem de considerar que la diferència entre les edats mitjanes és de 1 any, el que implica que la diferència entre la suma total de les edats inicials i finals és just la suma de les edats del jugador expulsat. Així, la diferència de sumes és 1, el que implica:
+
+\[ N + 20 = 21N \]
+
+\[ N = 1 \]
+
+Això no té sentit en aquest context, ja que \( N \) hauria de ser més gran que 1. Per tant, hem de considerar que la diferència de sumes és \( 21 \times N - 20 \times (N-1) \):
+
+\[ 21N - 20N + 20 = 31 \]
+
+Així, l'edat del jugador expulsat és 31 anys.
+
+**Resposta**: B)

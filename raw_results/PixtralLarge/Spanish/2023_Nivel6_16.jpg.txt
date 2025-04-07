@@ -1,0 +1,25 @@
+Para resolver este problema, necesitamos determinar el número máximo de gatos que pueden estar sentados en la fila dado que hay 23 animales en total y al menos un vecino de cada canguro es un gato.
+
+1. **Definición de variables**:
+   - Sea \( G \) el número de gatos.
+   - Sea \( C \) el número de canguros.
+   - Sabemos que \( G + C = 23 \).
+
+2. **Condición del problema**:
+   - Todo canguro debe tener al menos un vecino que es un gato.
+   - Esto implica que los canguros no pueden estar en los extremos de la fila y deben tener al menos un gato a un lado.
+
+3. **Análisis de la posición de los canguros**:
+   - Si un canguro está en un extremo, no puede tener un gato como vecino en ambos lados. Por lo tanto, los canguros deben estar en posiciones internas.
+   - Si hay \( C \) canguros, entonces hay \( C-1 \) espacios entre ellos. Cada uno de estos espacios debe tener al menos un gato.
+
+4. **Cálculo del número máximo de canguros**:
+   - El número máximo de canguros es cuando cada canguro está rodeado por gatos. En este caso, cada canguro ocupa 2 posiciones (el canguro y un gato adyacente).
+   - Por lo tanto, el número máximo de canguros es \( \left\lfloor \frac{23}{2} \right\rfloor = 11 \).
+
+5. **Cálculo del número de gatos**:
+   - Si hay 11 canguros, entonces hay \( 23 - 11 = 12 \) gatos.
+
+Razonamiento: Para maximizar el número de gatos, colocamos el mayor número posible de canguros en la fila de manera que cada canguro tenga al menos un gato como vecino. Esto nos lleva a que el número máximo de canguros es 11, y por lo tanto, el número de gatos es 12.
+
+Respuesta: E)

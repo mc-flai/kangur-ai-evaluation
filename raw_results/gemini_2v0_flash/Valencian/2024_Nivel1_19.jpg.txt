@@ -1,0 +1,13 @@
+Raonament: Si un cop tancat el cadenat, gira totes les rodes en el mateix sentit i la mateixa quantitat de posicions i obté el número 6348, llavors el codi correcte és el número que, en girar-lo en la direcció oposada la mateixa quantitat de posicions, dona 6348. Per tant, si agafem una opció i intentem arribar a 6348, i no podem trobar un nombre de posicions iguals per a cada roda que ens doni el número correcte, aquesta és la resposta.
+
+*   A) 8560 -> 8-6=2, 5-3=2, 6-4=2, 0-8=-8 (o +2 en l'altra direcció). No és la resposta.
+*   B) 3015 -> 3-6=-3, 0-3=-3, 1-4=-3, 5-8=-3. Per tant, si girem cada roda 3 posicions en sentit contrari, obtindrem 6348.
+*   C) 4906 -> 4-6=-2, 9-3=6, 0-4=-4, 6-8=-2. No és la resposta.
+*   D) 1893 -> 1-6=-5, 8-3=5, 9-4=5, 3-8=-5. No és la resposta.
+*   E) 0782 -> 0-6=-6, 7-3=4, 8-4=4, 2-8=-6. No és la resposta.
+
+Analitzem ara una altra vegada per assegurar-nos que la resposta és B). Agafem 6348 i el restem de 3015. Obtenim 3,3,3,3. Per tant, B podria ser el codi inicial.
+Analitzem ara la resposta A) on hem obtingut, 2,2,2, -8. Per a fer que les restes ens donin totes iguals, haurem de canviar la direcció del gir en el darrer número. Per tant no pot ser el codi.
+Raonament: El codi del candau va ser girat una quantitat igual de posicions per a cada roda. La única opció que no pot donar lloc al codi 6348 girant cada roda el mateix nombre de posicions és la A).
+
+Resposta: A)

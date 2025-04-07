@@ -1,0 +1,4 @@
+Razonamiento:
+El cubo está formado por 3x3x3 = 27 cubos pequeños. Analizando las vistas dadas, vemos que hay al menos 7 cubos negros visibles. Para maximizar el número de cubos negros, debemos asumir que los cubos no visibles en las vistas dadas son también negros. De las dos vistas, podemos ver 4 cubos negros en una vista y 5 en la otra. Los 3 cubos que no son visibles podrían ser negros. Hay 3 filas visibles con 3 cubos cada una, donde 2 cubos en la fila son visibles y 1 no. En total podemos sumar 4 visible + 1 no visible + 5 visible + 2 no visibles, dando 10 cubos negros en total.
+
+Respuesta: E)

@@ -1,0 +1,9 @@
+Reasoning:
+1. Identify the initial values and directions of the balls: 10 (right), 9 (right), 3 (left), 7 (left), 20 (left).
+2. The 10 and 20 balls will collide first since they're the outermost balls moving towards each other. 20 > 10, so the 20 absorbs the 10. The new ball is worth 20 + 10 = 30, and it is moving left.
+3. The next collision is between 9 and 3. 9 > 3, so 9 absorbs 3. The new ball is worth 9 + 3 = 12, and it is moving right.
+4. Now, the two balls 30 (left) and 12 (right) will collide. 30 > 12, so 30 absorbs 12. The new ball is worth 30 + 12 = 42, and it is moving left.
+5. Finally, 42 and 7 will collide. The 42 continues to move left and absorbs 7. Thus the value after the collision will be 42 + 7 = 49 and will move in the direction of 42, namely left.
+Therefore, the final result is a ball worth 49 moving to the left.
+
+Answer: (C)

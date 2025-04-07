@@ -1,0 +1,14 @@
+Raonament:
+1. **Analitzar les unitats:** P + P + N + N = Q. Com que N i N sumen Q, Q pot ser parell.
+2. **Analitzar les desenes:** N + R + Q + R = Q. Això significa que 2R + N = 0 o 10. Si 2R+N=0, llavors R=0 i N=0. Però les lletres diferents representen dígits diferents, i N no pot ser 0 ja que Q és parell i P+P+N+N=Q. Si 2R+N=10, llavors N hauria de ser un nombre parell (ja que 10-2R=N) i R pot ser 1, 2, 3, 4, 5. Però N ha d'estar entre 0-9.
+3. **Analitzar les centenes:** N + M + P + M = NQ, que també podria haver un 1 de les desenes.
+4. **Analitzar les unitats de miler:** M = N.
+5. **Dedueix que R=0:** Observem la suma a la posició de les unitats. Tenim P + P + N + N = Q. Tenim dos nombres parells sumant a Q, per tant Q és parell. Si R=0, llavors 2R + N = 10 implica N = 10, que no és possible. Si R=1, llavors 2R+N=10 implica 2+N=10 o N=8.
+6. **Analitzem la suma a la posició de les desenes:** N + R + Q + R = Q. Això podria ser N+2R=0 o N+2R=10.
+7. **Analitzem la suma a la posició de les centenes:** N + M + P + M = NQ. Si tenim un transport de la suma de les desenes.
+8. **Conclusió**: Si la suma de les desenes fa un "10", aleshores, N + 2R = 10. Si R=0, llavors N seria 10, impossible. Si intentem R=1, llavors N=8. Si R=2, llavors N=6. Si R=3, llavors N=4.
+9. **Si N=8 i R=1**, tenim MRP i MNRN. Si M=9, P pot ser 2. Així la suma de les desenes esdevé 8+1+Q+1, de manera que 8+2+Q=Q no seria possible.
+10. **Si N=6 i R=2**, tenim MRP i MNRN. Si M=9, P pot ser 3. Si P=3, la suma de les desenes esdevé 6+2+Q+2. Si la suma de les desenes genera 10, donarà Q+2+6=10, o Q=2. Però R=2, i per tant Q=2 no és vàlid.
+11. **Si N=4 i R=3**, tenim MRP i MNRN. Si M=9, P pot ser 1. Si P=1, la suma de les desenes esdevé 4+3+Q+3. Si la suma de les desenes genera 10, donarà Q+3+4+3 = Q+10, que dona Q=0. Les unitats seria P+P+N+N, o 1+1+4+4=10. Així Q=0 i podria ser una solució.
+
+Resposta: D)

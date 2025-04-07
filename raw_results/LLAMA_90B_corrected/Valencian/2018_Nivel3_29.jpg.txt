@@ -1,0 +1,23 @@
+Raonament: El perímetre del triangle equilàter més gran és de 60 cm. Hi ha tres triangles equilàters menuts, un en cada vèrtex. Així, queda construit un hexàgon (gris a la figura) que té el perímetre de 40 cm. Quina és la suma dels perímetres dels triangles tallats? Per respondre a la pregunta de l'hexàgon, recordem que les menesores dels catres costats curts sumen 40 cm (la suma dels tres catres costats curts es diu "perímetre interior"). Analitzem la figura: 
+
+```
+Hexàgon a l'esquerre   | Hexàgon a la dreta
+      4 cm               |      2 cm 
+      3 cm               |      2 cm 
+      ---               |      ---
+    3 cm    4 cm        | 5 cm    4 cm
+```
+
+Per portar aquests catres costats a quarts parts, tenim: 
+
+```
+Hexàgon a l'esquerre   | Hexàgon a la dreta
+      luc                       |
+      0.75cm 0.75 cm           |
+      ---                       |   
+    0.75 cm 0.75 cm    1 cm    | 2.25   1cm
+```
+
+Per finalitzar el perímetre interior, sumem i multipliquem per quatre. Perms abans multipliquem, 4 per 0.25 és igual a 1. Per això, al perímetre interior d'aquest hexàgon li faltara 1 cm del total per formar triangle equilàter grans: 20 + 15 +.Ignorem = 36
+
+Resposta: C

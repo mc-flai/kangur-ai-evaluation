@@ -1,0 +1,22 @@
+La pregunta 22 involucra tres circunferències de radi 1 que toquen mutuament, formando una configuració en la qual cada circunferència comparteix un punt de tangencia amb les altres. La pregunta busca determinar el àrea de la regió ombrada formada entre aquestes tres circunferències.
+
+**Razonamiento**:
+1. Cada circunferència de radi 1 toca a les altres en dos punts de tangencia.
+2. La configuració forma un triángulo equilátero amb cada costat igual a 2 (el doble del radi de cada circunferència).
+3. El centre del triángulo equilátero coincideix con el centro de la circunferencia externa.
+4. La región ombrada es la parte del triángulo equilátero que no está cubierta por las circunferencias.
+5. El área del triángulo equilátero se puede calcular usando la fórmula:
+   \[
+   \text{Área del triángulo} = \frac{\sqrt{3}}{4} \times \text{ladro del cuadrado}
+   \]
+   Dado que el lado del triángulo es 2, el área del triángulo es:
+   \[
+   \text{Área del triángulo} = \frac{\sqrt{3}}{4} \times 2^2 = \frac{\sqrt{3}}{4} \times 4 = \sqrt{3}
+   \]
+6. La región ombrada es la mitad del área del triángulo, ya que la otra mitad está cubierta por las circunferencias:
+   \[
+   \text{Área de la región ombrada} = \frac{\sqrt{3}}{2}
+   \]
+
+**Respuesta**:
+B) \(\frac{\sqrt{3}}{2}\)

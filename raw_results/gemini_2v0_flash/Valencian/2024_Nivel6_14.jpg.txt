@@ -1,0 +1,7 @@
+Raonament: Un cub 3x3x3 té 6 cares, i cada cara té 3x3 = 9 quadrats. Per tant, la superfície total del cub és de 6 * 9 = 54 quadrats. La meitat de la superfície ha de ser negra, per tant, 54 / 2 = 27 quadrats han de ser negres.
+Per minimitzar el nombre de cubs negres, hem de maximitzar el nombre de cares negres que es veuen a la superfície del cub gran. El cub central no es veu, així que pot ser de qualsevol color. Intentem situar cubs negres a les cantonades i als centres de les cares.
+Si tenim un cub negre a cada cantonada, això suma 8 cubs negres. Cada cub de cantonada contribueix amb 3 cares negres.
+Si tenim un cub negre al centre de cada cara, això suma 6 cubs negres. Cada cub de cara contribueix amb 1 cara negra.
+Així que si tots els 8 cubs de les cantonades fossin negres, mostrarien 8 * 3 = 24 quadrats negres. Necessitem 27 quadrats negres, per tant, encara necessitem 27 - 24 = 3 quadrats negres més. Amb 3 cubs negres més a les cares, podem aconseguir l'objectiu. La quantitat total de cubs negres seria 8 + 3 = 11. Així doncs, necessitem 11 cubs negres com a mínim.
+
+Resposta: D)

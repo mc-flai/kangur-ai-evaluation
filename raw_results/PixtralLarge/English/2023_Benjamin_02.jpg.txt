@@ -1,0 +1,18 @@
+To determine the biggest number that can be built using 7 matchsticks, let's analyze how each digit is formed and the number of matchsticks required:
+
+- Digit '1' requires 2 matchsticks.
+- Digit '7' requires 3 matchsticks.
+- Digit '4' requires 4 matchsticks.
+- Digit '2', '3', and '5' each require 5 matchsticks.
+- Digit '0', '6', and '9' each require 6 matchsticks.
+- Digit '8' requires 7 matchsticks.
+
+Given 7 matchsticks, the goal is to form the largest number possible. We can form:
+- A single digit '8' using all 7 matchsticks.
+- A two-digit number such as 71 (3 matchsticks for '7' + 2 matchsticks for '1').
+
+Comparing these, the number '71' is larger than '8'.
+
+Reasoning: By forming the number 71, we use 5 matchsticks for '7' and 2 matchsticks for '1', totaling 7 matchsticks.
+
+Answer: D).

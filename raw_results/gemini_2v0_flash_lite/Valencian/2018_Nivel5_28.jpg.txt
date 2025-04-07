@@ -1,0 +1,25 @@
+Raonament: The problem describes a 5x5 grid of squares, initially all white. We want to transform it into a chessboard pattern. Each move flips the color of two adjacent squares. The chessboard pattern has 13 squares of one color and 12 squares of another. Initially, there are 25 white squares, and we want to flip a certain number of white squares to black. To get a chessboard pattern, we can flip squares in rows or columns. However, it is hard to give an exact answer and to find a good strategy for the problem, it is helpful to work on smaller problems.
+
+If we have a 2x2 square:
+Initial: WW WW, target: WB BW.  One move is enough (flip two adjacent squares).
+BB WW (1 move, 2 squares flipped)
+The pattern:
+WW WW
+WW WW
+
+We want to obtain this pattern:
+WB WB WB
+BW BW BW
+WB WB WB
+BW BW BW
+WB WB WB
+
+Let's analyze a specific strategy. We want the pattern of the target. We will identify 13 of one color and 12 of the other. Since we start with all squares of the same color, we need to have two adjacent squares to be of the same color. Each move will involve two squares. The black squares that will appear will be in an alternating pattern. We can achieve the chessboard pattern by performing operations.
+By carefully flipping pairs of adjacent squares, we can change the color of the squares. The minimum number of moves required to transform the initial state to a chessboard pattern will be the number of black squares we want to make. The number of squares that will become black is 13.
+
+Consider a possible strategy.
+In a chessboard, we must have 13 of one color and 12 of another. Since all of them start white, we need to turn 13 white squares black. Each flip changes two adjacent squares, thus, we can make the change.
+
+To get the pattern, we will need at least 11 moves.
+
+Resposta: A)

@@ -1,0 +1,15 @@
+Pour répondre à la question 1, nous devons identifier la séquence de cartes qui peut être obtenue en échangeant deux cartes dans la séquence initiale 2017.
+
+**Raisonnement :**
+- La séquence initiale est 2017.
+- Nous devons trouver une séquence où deux cartes sont échangées.
+- Analysons chaque option :
+  - A) 2170 : 2 et 1 sont échangés, et 7 et 0 sont échangés. Ce n'est pas possible en échangeant seulement deux cartes.
+  - B) 0127 : 2 et 0 sont échangés, et 1 et 7 sont échangés. Ce n'est pas possible en échangeant seulement deux cartes.
+  - C) 7021 : 2 et 7 sont échangés, et 0 et 1 sont échangés. Ce n'est pas possible en échangeant seulement deux cartes.
+  - D) 1027 : 2 et 1 sont échangés. Cela est possible en échangeant seulement deux cartes.
+  - E) 7210 : 2 et 7 sont échangés, et 1 et 0 sont échangés. Ce n'est pas possible en échangeant seulement deux cartes.
+
+La seule séquence qui peut être obtenue en échangeant deux cartes est 1027.
+
+**Réponse : D)**

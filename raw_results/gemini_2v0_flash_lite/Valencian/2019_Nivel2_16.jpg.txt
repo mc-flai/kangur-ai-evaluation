@@ -1,0 +1,17 @@
+Raonament: Per a trobar el nombre més xicotet divisible per tots els nombres de l'1 al 9, hem de calcular el mínim comú múltiple (MCM) d'aquests nombres. Per calcular el MCM, primer descomponem cada nombre en factors primers:
+1 = 1
+2 = 2
+3 = 3
+4 = 2^2
+5 = 5
+6 = 2 * 3
+7 = 7
+8 = 2^3
+9 = 3^2
+
+Ara, per trobar el MCM, prenem la potència més alta de cada factor primer:
+2^3 * 3^2 * 5 * 7 = 8 * 9 * 5 * 7 = 2520
+
+El nombre més xicotet divisible per tots els nombres de l'1 al 9 és 2520. La primera xifra de l'esquerra d'aquest nombre és 2.
+
+Resposta: B)

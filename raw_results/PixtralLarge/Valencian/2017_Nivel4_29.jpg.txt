@@ -1,0 +1,31 @@
+Per analitzar la pregunta 29, hem de determinar per a quants valors de \( a \) entre 1 i 25 el producte \( a(a+1)(a+2) \) és un múltiple de 84.
+
+**Raonament**:
+
+1. **Factorització de 84**:
+   - \( 84 = 2^2 \times 3 \times 7 \)
+   - Perquè un producte sigui múltiple de 84, ha de ser múltiple de 4, 3 i 7 simultàniament.
+
+2. **Propietats del producte \( a(a+1)(a+2) \)**:
+   - \( a(a+1)(a+2) \) són tres nombres consecutius.
+   - En qualsevol grup de tres nombres consecutius, hi ha almenys un múltiple de 2 i un múltiple de 3.
+   - Per tant, \( a(a+1)(a+2) \) sempre és múltiple de 6.
+
+3. **Condició addicional per a 84**:
+   - El producte també ha de ser múltiple de 7.
+   - Hem de trobar els valors de \( a \) tals que un dels tres nombres \( a, a+1, a+2 \) sigui múltiple de 7.
+
+4. **Valors de \( a \) entre 1 i 25**:
+   - Els múltiples de 7 entre 1 i 25 són: 7, 14, 21.
+   - Cada múltiple de 7 pot ser \( a \), \( a+1 \) o \( a+2 \).
+   - Per a cada múltiple de 7, hi ha tres valors possibles de \( a \):
+     - Per 7: \( a = 5, 6, 7 \)
+     - Per 14: \( a = 12, 13, 14 \)
+     - Per 21: \( a = 19, 20, 21 \)
+
+5. **Total de valors de \( a \)**:
+   - Hi ha 3 valors per cada múltiple de 7.
+   - Hi ha 3 múltiples de 7 entre 1 i 25.
+   - Total de valors de \( a \): \( 3 \times 3 = 9 \)
+
+**Resposta**: E) 6

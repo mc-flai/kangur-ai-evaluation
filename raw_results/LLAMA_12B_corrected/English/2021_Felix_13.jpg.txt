@@ -1,0 +1,25 @@
+Reasoning: To solve question 13, we need to understand how Tom encoded words using the board shown. The board consists of five rows and four columns, labeled A to E. We are given an example of a word "PIZZA" encoded as "A2A4C1C1B2." This means that for each letter in the word, Tom chose a letter from the corresponding column (A to E) and a number from the corresponding row (1 to 4). Let's break down the encoding:
+
+*   P - Third letter from column A, which is "P."
+*   I - First letter from column B, which is "I."
+*   Z - Fourth letter from column C, which is "Z."
+*   Z - Fourth letter from column C, which is "Z."
+*   A - Second letter from column D, which is "A."
+
+The complete encoding is "A2A4C1C1B2."
+
+With this understanding, we can now apply it to the given options:
+
+*   **(A) MAZE**: M (First letter from column A), A (First letter from column A), Z (Fourth letter from column C), E (First letter from column E).
+*   **(B) MASK**: mask cannot be encoded using the board.
+*   **(C) MILK**: M (First letter from column A), I (First letter from column B), L (Fourth letter from column E), K (Second letter from column A).
+*   **(D) MATE**: M (First letter from column A), A (First letter from column A), T (Third letter from column C), E (First letter from column E).
+*   **(E) MATH**: M (First letter from column A), A (First letter from column A), T (Third letter from column C), H (Second letter from column E).
+
+Based on the correct application of the encoding rule, the options that match the expected format are:
+
+**(A), (C), (D), (E).**
+
+Therefore, the final answer is:
+
+**Answer: A, C, D, E**

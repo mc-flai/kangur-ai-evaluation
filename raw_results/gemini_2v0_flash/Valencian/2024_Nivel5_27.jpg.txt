@@ -1,0 +1,29 @@
+Raonament: Perquè el producte dels nombres en els dos grups siga el mateix, el producte de tots els nombres originals dividit entre el producte dels nombres que es queden ha de ser un quadrat perfecte.
+El producte de tots els nombres de l'1 al 25 és 25!.
+Per tant hem de determinar quants nombres hem de llevar per tal que el producte dels que es queden siga un quadrat perfecte.
+
+Considerem els factors primers presents a 25!:
+
+2, 3, 5, 7, 11, 13, 17, 19, 23
+Nombre d'aparicions de 2: 12+6+3+1 = 22
+Nombre d'aparicions de 3: 8+2 = 10
+Nombre d'aparicions de 5: 5+1 = 6
+Nombre d'aparicions de 7: 3
+Nombre d'aparicions de 11: 2
+Nombre d'aparicions de 13: 1
+Nombre d'aparicions de 17: 1
+Nombre d'aparicions de 19: 1
+Nombre d'aparicions de 23: 1
+
+Per tant 25! = 2^22 * 3^10 * 5^6 * 7^3 * 11^2 * 13^1 * 17^1 * 19^1 * 23^1
+
+Perquè es mantinga un quadrat perfecte, tots els exponents han de ser parells. Hem de llevar tots els números primers que apareixen amb exponent imparell, així com un factor 7 extra.
+Per tant, tenim que eliminar 7, 13, 17, 19 i 23. A més hem d'eliminar un 7. En total 6 números.
+
+Si llevem aquests 6 números, ens quedem amb: 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25
+El producte resultant serà un quadrat perfecte.
+Per tant necessitem llevar 6 números.
+
+Resposta: C)
+Raonament: Hem d'eliminar els nombres que facin que el producte no sigui un quadrat perfecte. Aquests són els primers amb exponent imparell en la factorització del factorial. Cal eliminar 7, 13, 17, 19, 23 i un altre 7.
+Resposta: C)

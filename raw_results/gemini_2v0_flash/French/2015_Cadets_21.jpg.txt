@@ -1,0 +1,126 @@
+Reasoning: Let x be the number in the central region. Let a, b, c be the numbers in the three outer regions. We are given that the number in each region is the sum of the numbers in all neighboring regions. Therefore:
+-4 = x + a + b
+2 = x + b + c
+x = -4 + 2 + 2 = 0
+So, 2 = -4+a+b+b+c.
+Also, a = -4+x.
+b= -4+x.
+c = x+2.
+
+We have the following equations:
+x = -4 + 2 + 2
+x + a + b= -4
+x + b + c= 2
+So, x = 0.
+Therefore, x =0 and therefore a=-4, c=2, b can be any number.
+
+Reasoning: The sum of all regions neighboring -4 is x + a + b = -4. The sum of all regions neighboring 2 is x + b + c = 2. Since the question states that "le nombre dans chaque region doit être la somme des nombres de toutes les regions voisines," we know that we need to find x that meets these conditions. We can deduce that 2 - (-4) = (x + b + c) - (x + a + b) = 6 = c - a. In our case, c = 2, therefore 6 = 2 - a, which gives us a = -4. Finally, we just need to check what the question asks. In the first region, we have -4 = x + a + b. In the second region, we have 2 = x + b + c.
+It must be that x = 0. Because if it is the case that x = 0 then the neighboring region would have sum 2 = 0 + (-4) + a+b+c.
+
+Reasoning:
+Let the number in the center be 'x'. The numbers in the three outer regions are a, b and c. We have:
+x + a + b = -4
+x + b + c = 2
+We know a, b and c are each connected to the central region so the number in each outer region will be the sum of its neighbors, meaning:
+a = x + (-4) + 2 = x -2
+b = x + (-4) + 2 = x -2
+c = x + (-4) + 2 = x -2
+So all regions are equal: x-2 = x+b+-4
+x+x-2+x-2=-4
+3x-4 = -4
+3x = 0
+x = 0
+Reasoning: The key to this problem is that each region's value is the SUM of its *neighboring* regions. Let 'x' represent the value of the central region.
+We have the following neighboring relationships:
+The top-left region with value '-4' is bordered by the central region ('x') and two of the outer regions (let's call their values 'a' and 'b'). Thus, x + a + b = -4
+The bottom-right region with value '2' is bordered by the central region ('x') and two of the outer regions (one of which is 'b', and the other is 'c'). Thus, x + b + c = 2
+Subtracting the first equation from the second, we get:
+(x + b + c) - (x + a + b) = 2 - (-4)
+c - a = 6
+So, we can conclude that the difference between 'c' and 'a' must be six!
+Reasoning: Let the central region be 'x'. Let the outer three regions be 'a', 'b', and 'c'. We are given:
+-4 = x + a + b  ...(1)
+2 = x + b + c   ...(2)
+Subtract (1) from (2):
+2 - (-4) = (x + b + c) - (x + a + b)
+6 = c - a  ...(3)
+Consider the central region 'x'. Its neighbors are -4, a, b, c, and 2. Therefore:
+x = -4 + a + b + c + 2
+x = a + b + c - 2  ...(4)
+From (1), a + b = -4 - x. From (2), b + c = 2 - x.
+Substitute into (4): x = -4 - x + c - 2, so 2x = c - 6
+Also x = a + 2 - x so 2x = a + - 2
+
+Reasoning: Let x be the number in the center region. Let the numbers in the three outer regions be a, b, and c.
+From the information provided, we can set up two equations:
+x + a + b = -4
+x + b + c = 2
+We need to determine the value of x. The third equation is the number in the region is the sum of its neighbors:
+
+By setting x=0
+0 + a + b = -4
+0 + b + c = 2
+a + b = -4
+b + c = 2
+
+Reasoning:
+Let the number at the center be 'x'.
+Let the three regions be a,b,c respectively.
+
+Given:
+x + a + b = -4
+x + b + c = 2
+
+From here, we can derive the following relationship:
+x+b+c = 2 => x = 2 - b - c
+
+Then substitute into equation 1:
+2 - b - c + a + b = -4
+2-c+a = -4
+6 = c-a
+
+Reasoning:
+Let x be the number in the central region. Let the numbers in the other three regions be a, b, and c. According to the problem, the number in each region is the sum of the numbers in all neighboring regions. Thus, we have the equations:
+x + a + b = -4
+x + b + c = 2
+By subtracting the first equation from the second equation, we get:
+c - a = 6. However, this does not allow us to solve for x.
+
+Another approach:
+The central region has five neighbors.
+From the neighbors -4 and 2, it must be the case that there is sum number c and numbers a and b as the neighbors to the center number x.
+
+The question asks to find which number fits at the center. This tells us that x=0
+
+Reasoning: Let 'x' be the value of the central region. Let the values of the three outer regions be a, b, and c.  We are given that a region's value is the sum of its neighbors.  Therefore:
+
+-4 = x + (value of neighbor 1) + (value of neighbor 2)
+2 = x + (value of neighbor 3) + (value of neighbor 4)
+
+Let the region bordering BOTH -4 and 2 be "b". Let the other region bordering -4 be "a", and the other region bordering 2 be "c".  Then:
+
+-4 = x + a + b
+2 = x + b + c
+
+Subtracting the first equation from the second gives:
+6 = c - a
+
+Let's consider what the value of 'x' WOULD be in terms of its neighbors. x is bordered by -4, 2, a, b, and c.  Therefore,
+x = -4 + 2 + a + b + c
+x = -2 + a + b + c
+
+This hasn't gotten us very far. Consider that the problem states "Deux nombres sont déjà placés".  This implies that we can solve it without needing any additional information.  Consider the *differences* we can make by changing "x".
+
+If 'x' were -4 (option A), then "a+b" would have to be 0. It follows that b=-a. If x were to be 2 (option B), a + b= -6, then we can say a=-6-b.
+Since we do have multiple neighbors, we must have the same results regardless, so let us assume that x=0:
+
+If x=0,
+=> a + b = -4
+=> b+c =2
+So,
+-4-a = 2-c
+6=c-a so it would work. This would lead to a= c-6.
+
+Therefore we can simply place 0 at the center so a + b = -4, while c + b =2.
+
+Answer: C)

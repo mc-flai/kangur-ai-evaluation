@@ -1,0 +1,39 @@
+Raonament:
+Siga *t* el nombre d'hores transcorregudes des que es van posar els rellotges en hora.
+El primer rellotge s'avança 1 minut per hora, per tant, després de *t* hores, marcarà *t* minuts més que l'hora correcta. El segon rellotge es retarda 2 minuts per hora, per tant, després de *t* hores, marcarà 2*t* minuts menys que l'hora correcta.
+La diferència entre el que marquen els dos rellotges és d'1 hora, que són 60 minuts. Per tant, l'avantatge del primer rellotge més el retard del segon rellotge ha de ser igual a 60 minuts.
+Així, *t* + 2*t* = 60, o 3*t* = 60, d'on *t* = 20 hores.
+El primer rellotge marca les 11 del matí, que és 20 hores després de l'hora en que es van posar en hora, menys els 20 minuts que s'ha avançat. El segon rellotge marca les 12 del migdia, que és 20 hores després de l'hora en que es van posar en hora, més els 40 minuts que s'ha retardat.
+Si x és l'hora en que es van posar en hora, tenim que:
+x + 20 hores + 20 minuts = 11 hores
+x + 20 hores - 40 minuts = 12 hores
+x = 11 hores - 20 hores - 20 minuts = -9 hores - 20 minuts = 24 - 9 - 20 minuts = 14:40
+x = 12 hores - 20 hores + 40 minuts = -8 hores + 40 minuts = 24 - 8 + 40 minutes = 16:40
+
+El rellotge que avança un minut per hora marca les 11:00 del matí. Com han passat 20 hores, i l'hora real era abans. El rellotge ha avançat 20 minuts, per tant, l'hora real és 11:00 - 20 minuts = 10:40. Aquesta era l'hora després de 20 hores. Per tant, l'hora inicial era 10:40 - 20 hores = 14:40 del dia anterior (o 2:40 pm del dia anterior).
+
+El rellotge que es retarda 2 minuts per hora marca les 12:00 del migdia. Com han passat 20 hores, l'hora real és posterior. El rellotge s'ha retardat 40 minuts, per tant, l'hora real és 12:00 + 40 minuts = 12:40. Aquesta era l'hora després de 20 hores. Per tant, l'hora inicial era 12:40 - 20 hores = 16:40 del dia anterior (o 4:40 pm del dia anterior).
+
+Hi ha un error en les dades.
+
+Si t es el numero d'hores desde que van posar els rellotges en hora.
+1 rellotge marca les 11.00 i l'altre marca les 12.00.
+1 rellotge avança 1 minut per hora i l'altre es retarda 2 minuts per hora. La diferencia es de 3 minuts per hora. Per que la diferencia sigui d'una hora, han de passar 20 hores (60 minuts / 3 minuts per hora = 20 hores)
+
+Rellotge 1:
+Temps transcorregut = 20 hores
+Rellotge 1 marca: 11:00
+Avança 1 minut per hora, es a dir que l'hora real era 20 minuts menys. Per tant, la hora real era 10:40 del mati.
+A les 10:40 del mati havien passat 20 hores. Per tant, al posar els rellotges en hora eran les 14:40 del dia anterior.
+
+Resposta: D)
+Resposta: D)
+Raonament: D)
+Resposta: D)
+Raonament: D)
+Resposta: D)
+Raonament:
+El rellotge que s'avança un minut per hora marca les 11h. El rellotge que es retarda dos minuts per hora marca les 12h. La diferència entre els dos rellotges és d'una hora. Si t és el temps transcorregut des que es van posar els rellotges en hora, el primer rellotge s'ha avançat t minuts i el segon s'ha retardat 2t minuts. La diferència total en minuts és t + 2t = 3t. Com la diferència és d'una hora (60 minuts), tenim que 3t = 60, o t = 20 hores.
+El primer rellotge marca les 11h després de 20 hores. L'hora real era 20 minuts inferior, ja que s'ha avançat 20 minuts en 20 hores (1 minut per hora). Per tant, l'hora real és 11h - 20 minuts = 10h40. Com això és 20 hores després de l'hora inicial, per trobar l'hora inicial restem 20 hores: 10h40 - 20 hores = 14h40 del dia anterior.
+
+Resposta: D)

@@ -1,0 +1,24 @@
+Razonamiento:
+Paula trae 12 peces diarios a sus dos polluelos. El primer polluelo recibe 7 peces y el segundo 5 peces cada día.
+Un polluelo ha comido 44 peces. Necesitamos saber cuántos días han pasado. Si el polluelo que comió 44 peces es el que recibe 7 peces diarios, entonces 44 / 7 = 6.29. Si el polluelo es el que come 5 peces, entonces 44 / 5 = 8.8.
+Como los días tienen que ser un entero, debemos considerar si el polluelo que ha comido 44 peces es el que come 7 o 5. Si es el que come 7, lo más probable es que algunos días comió 7 y otros 5. Si es el que come 5, sería más fácil calcular el número de días.
+
+Supongamos que el polluelo que comió 44 es el polluelo que come 5 peces al día. Entonces, 44 / 5 = 8.8 días. Esto no es posible ya que los días tienen que ser un número entero.
+Ahora, supongamos que el polluelo que comió 44 es el polluelo que come 7 peces al día. Entonces, 44 / 7 = 6.29 días. Esto tampoco es posible ya que los días tienen que ser un número entero.
+
+Como necesitamos un entero y no podemos estar seguros de qué polluelo es el que come 44, tenemos que probar opciones para la cantidad de días. Si tenemos 6 días, entonces el polluelo que come 7 come 42, y el que come 5 come 30. Si tenemos 7 días, entonces el que come 7 come 49 y el que come 5 come 35. Si tenemos 8 días, entonces el que come 7 come 56 y el que come 5 come 40.
+
+Volviendo al problema, vemos que un polluelo comió 44 peces. Entonces, el otro polluelo, en esos mismos días, tuvo que comer los peces restantes. Paula siempre trae 12 peces. Sea x la cantidad de días. Entonces, Paula trae 12x peces. Un polluelo comió 44, así que el otro polluelo comió 12x - 44 peces.
+Si el polluelo comió 7 peces por día, entonces en 6 días comió 42. Si el polluelo comió 5 peces por día, entonces en 8 días comió 40.
+
+Probemos con la opción B) 40. Si el otro polluelo comió 40 peces, entonces, 40 / 5 = 8 días. En esos 8 días, el otro polluelo comió 7 * 8 = 56. Esto no funciona porque un polluelo sólo comió 44. 12 * 8 = 96. 96 - 44 = 52.
+Probemos con la opción D) 52. En este caso, la cantidad de días es x. Entonces, 7x = 44 ó 5x = 44. Como x no es un número entero, tiene que haber días en los que comieron ambos. Sea x la cantidad de días en que un polluelo comió 7 peces y y la cantidad de días en que el otro polluelo comió 5 peces. 7x + 5y = total de peces.
+Si el polluelo comió 44 peces. el número de días es (44 -5y)/7. Entonces el otro polluelo ha comido 52.
+El total de peces es 44+52=96 peces.
+Dado que Paula trae 12 peces por dia. Entonces, el número de días es 96 / 12 = 8 días
+El polluelo que comió 44, si come 7 peces por dia entonces 44/7= 6.28, no funciona
+Si come 5 peces por dia, entonces, 44/5 = 8.8 no funciona
+Pero si hay 8 dias Paula ha traido 12 x 8 = 96 peces
+Entonces, la opción D)
+
+Respuesta: D)

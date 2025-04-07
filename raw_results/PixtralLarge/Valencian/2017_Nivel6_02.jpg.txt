@@ -1,0 +1,50 @@
+Per determinar quants triangles existeixen tals que la longitud de cada costat siga un nombre natural i el perímetre siga 12, hem de considerar totes les combinacions possibles de nombres naturals (nombres enters positius) que sumen 12.
+
+**Raonament:**
+
+1. El perímetre d'un triangle és la suma de les longituds dels seus tres costats.
+2. Hem de trobar totes les combinacions de tres nombres naturals \(a\), \(b\) i \(c\) tals que \(a + b + c = 12\) i que satisfacin la desigualtat del triangle:
+   - \(a + b > c\)
+   - \(a + c > b\)
+   - \(b + c > a\)
+
+3. Llistem les combinacions possibles de nombres naturals que sumen 12:
+   - (1, 1, 10)
+   - (1, 2, 9)
+   - (1, 3, 8)
+   - (1, 4, 7)
+   - (1, 5, 6)
+   - (2, 2, 8)
+   - (2, 3, 7)
+   - (2, 4, 6)
+   - (2, 5, 5)
+   - (3, 3, 6)
+   - (3, 4, 5)
+   - (4, 4, 4)
+
+4. Verifiquem quines combinacions satisfan la desigualtat del triangle:
+   - (1, 1, 10): No és vàlid perquè 1 + 1 ≤ 10
+   - (1, 2, 9): No és vàlid perquè 1 + 2 ≤ 9
+   - (1, 3, 8): No és vàlid perquè 1 + 3 ≤ 8
+   - (1, 4, 7): No és vàlid perquè 1 + 4 ≤ 7
+   - (1, 5, 6): Vàlid
+   - (2, 2, 8): No és vàlid perquè 2 + 2 ≤ 8
+   - (2, 3, 7): Vàlid
+   - (2, 4, 6): Vàlid
+   - (2, 5, 5): Vàlid
+   - (3, 3, 6): Vàlid
+   - (3, 4, 5): Vàlid
+   - (4, 4, 4): Vàlid
+
+5. Comptem les combinacions vàlides:
+   - (1, 5, 6)
+   - (2, 3, 7)
+   - (2, 4, 6)
+   - (2, 5, 5)
+   - (3, 3, 6)
+   - (3, 4, 5)
+   - (4, 4, 4)
+
+Hi ha un total de 7 combinacions vàlides.
+
+**Resposta: E)**

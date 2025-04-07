@@ -1,0 +1,10 @@
+Reasoning: The tetrahedron has 4 faces. The green face is initially on X. After one move, a white face is on the new triangle. After two moves, another white face is on the new triangle. After three moves, the green face is back on a triangle.
+1st move: X -> A
+2nd move: A -> B
+3rd move: B -> X
+4th move: X -> D
+5th move: D -> E
+6th move: E -> X.
+The sequence of positions of the green face is X, A, B, C, D, E, X, ... The green face returns to the base every 3 moves. Therefore, the green face will be facing up at X, and the other sides in order are A, B, C, D, E, then back to X after E. We start at X. On the first move, the green face faces X. Therefore, it will be facing up on cell D.
+
+Answer: D)

@@ -1,0 +1,14 @@
+Reasoning: Let B be the number of brown kangaroos and G be the number of gray kangaroos. We know that B + G = 2020.
+
+Each kangaroo says "One of my neighbors is brown and the other is gray."
+- A brown kangaroo is truthful. This means that the neighbors of a brown kangaroo must be gray, and brown, in some order.
+- A gray kangaroo is a liar. This means that the neighbors of a gray kangaroo cannot have one neighbor brown, and one gray. The neighbors must be either both brown or both gray.
+
+Consider a brown kangaroo. It tells the truth, so its neighbours must be one brown and one gray.
+Consider a gray kangaroo. It lies, so its neighbors cannot be one brown and one gray. So either both its neighbors are brown or both are gray. But in a circle, it has two neighbours. So it is not possible to be entirely brown, or entirely grey. Because each neighbor has to be one brown and one gray.
+Because of that, consider an alternating pattern, BGBGBGB...
+The number of Brown will be equal or near to the Gray.
+Since B + G = 2020. Assuming alternating pattern
+B = G = 1010.
+
+Answer: C)

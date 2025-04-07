@@ -1,0 +1,15 @@
+
+La pregunta 21 involucra una pregunta matemática planteada por estudiantes a un profesor de matemáticas. El profesor responde con una pregunta sobre los números que son divisibles por 101 y que, al cuadrarse, dan un número natural mayor que 1. Los estudiantes deben determinar cuántos tales números existen.
+
+**Razonamiento:**
+1. Identificamos que estamos buscando números que, cuando se cuadrar, den un número natural mayor que 1.
+2. Un número que al cuadrarse da un número natural mayor que 1 debe ser mayor que 1.
+3. El profesor menciona que estos números deben ser divisibles por 101.
+4. Consideramos los números de la forma 101k, donde k es un entero.
+5. Al cuadrar 101k, obtenemos (101k)^2 = 101^2 * k^2.
+6. Necesitamos que este resultado sea mayor que 1, lo cual siempre es cierto para cualquier k distinto de 0.
+7. Ahora, contamos los números enteros k para los cuales esto es cierto.
+8. Los números posibles para k son 1, 2, 3, ..., ya que 101^2 * k^2 siempre será mayor que 1 para k > 0.
+9. Por lo tanto, los números posibles son todos los enteros positivos.
+
+**Respuesta:** A)

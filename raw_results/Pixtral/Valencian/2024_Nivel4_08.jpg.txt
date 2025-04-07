@@ -1,0 +1,18 @@
+
+La pregunta 8 nos pide que utilicemos una única cifra para representar el número de días y meses en un formato específico, y luego encontremos el número mínimo de posibles fechas utilizando estas cifras.
+
+**Razonamiento:**
+1. Identificamos que las letras 'dd' representan el número de días y 'mm' representan el número de meses.
+2. Las opciones de fechas dadas son:
+   - 21/03
+   - 05/11
+   - 25/12
+3. Para encontrar el número mínimo de posibles fechas, debemos contar cuántas fechas únicas podemos formar con las cifras dadas.
+4. Las cifras disponibles son: 2, 1, 0, 5, 1, 1, 2, 5.
+5. Contamos las fechas únicas:
+   - 21/03
+   - 05/11
+   - 25/12
+6. Hay 3 fechas únicas.
+
+**Respuesta:** D)

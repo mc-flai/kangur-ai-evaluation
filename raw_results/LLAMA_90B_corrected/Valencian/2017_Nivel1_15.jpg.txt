@@ -1,0 +1,16 @@
+### Raonament
+
+La pregunta demana el màxim nombre de triangles que poden esdevenir des apuntant l’eliminació d’un sol palet exactament.
+
+Amb els 18 pales identics de la figura, podem identificar diversos triangles diferent que poden ser esborrats.
+
+1.  Triangles petites individuals: Hi ha 18 triangles petits (identificats amb punts vermells a la imatge inferior).
+
+Cada triangle petit té una careta (definit com el segment de línia entre dos punts vermellos) que els permet ser esborrats.
+2.  Triangles formats per dues cares de la figura: Quan veiem la figura, podem adonar-nos de que hi té regions on es formen triangles més grans. Un exemple n’és el triangle gran inferior (entre els punts vermells 4, 5 i 11). Aquestes regions són formades per dues cares de la figura la figura, i l’eliminació de totes les cares d’aquesta el borrarà. Hi ha unes quantes regions que corresponen als punts vermells: 2-3-4b; 2-5-4a; 4-3-12; 5-1-12; 4-5-2; 5-2-6; 7-10; 9-8; 9-10; 9-10-11; 6-1-11; 11-13-14; 11-12-14; 12-12-15 i 14-15-13.
+
+Pel que podem dir que aquestes regions es poden identificar anant a través dels punts vermells de la imatge.
+
+Toths els triangles triplement!";
+
+### Resposta: A) 1

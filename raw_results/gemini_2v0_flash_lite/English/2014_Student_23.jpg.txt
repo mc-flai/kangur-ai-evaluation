@@ -1,0 +1,9 @@
+Reasoning:
+Let 'b' be the number of black kangaroos and 'w' be the number of white kangaroos. We know b + w = 9.
+The probability of selecting 3 black kangaroos is the number of ways to select 3 black kangaroos divided by the number of ways to select any 3 kangaroos from the total. This gives us a probability of (bC3) / (9C3) = 2/3. Here, nCr denotes the number of combinations of choosing r items from a set of n items.
+9C3 = (9 * 8 * 7) / (3 * 2 * 1) = 84.
+Therefore, bC3 = (2/3) * 84 = 56.
+bC3 = b! / (3! * (b-3)!) = b * (b-1) * (b-2) / 6 = 56.
+So b * (b-1) * (b-2) = 336. We can find b by trial and error by testing values of b. If b = 8, then 8 * 7 * 6 = 336. So the number of black kangaroos is 8.
+
+Answer: E)

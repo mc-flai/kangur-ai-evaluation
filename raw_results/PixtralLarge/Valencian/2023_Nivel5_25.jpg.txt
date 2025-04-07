@@ -1,0 +1,47 @@
+Raonament: Per trobar l'àrea de la part ombrada de l'octàgon regular, hem de considerar la geometria de la figura. La figura és un quadrat inscrit en un octàgon regular. L'àrea del quadrat és 1, com s'indica en la pregunta.
+
+Un octàgon regular pot ser dividit en 8 triangles isòsceles, cadascun dels quals té un angle de 45 graus en el vèrtex. L'àrea d'un triangle isòsceles amb un angle de 45 graus en el vèrtex es pot calcular utilitzant la fórmula de l'àrea d'un triangle:
+
+\[ \text{Àrea del triangle} = \frac{1}{2} \times \text{base} \times \text{altura} \]
+
+La base dels triangles és una de les costats de l'octàgon, i l'altura és la distància des del vèrtex del triangle fins a la base. Per a un octàgon regular, la longitud del costat \( s \) es pot relacionar amb el radi \( r \) del cercle circumscrit com:
+
+\[ s = r \sqrt{2 - \sqrt{2}} \]
+
+L'àrea de cada triangle és:
+
+\[ \text{Àrea del triangle} = \frac{1}{2} \times s \times \frac{s}{2} = \frac{s^2}{4} \]
+
+Com que l'àrea total del quadrat és 1, i el quadrat està inscrit en l'octàgon, l'àrea de la part ombrada (la diferència entre l'àrea de l'octàgon i l'àrea del quadrat) és:
+
+\[ \text{Àrea ombrada} = \text{Àrea de l'octàgon} - \text{Àrea del quadrat} \]
+
+L'àrea de l'octàgon es pot calcular com:
+
+\[ \text{Àrea de l'octàgon} = 8 \times \text{Àrea del triangle} = 8 \times \frac{s^2}{4} = 2s^2 \]
+
+Substituint \( s = r \sqrt{2 - \sqrt{2}} \):
+
+\[ \text{Àrea de l'octàgon} = 2(r \sqrt{2 - \sqrt{2}})^2 = 2r^2(2 - \sqrt{2}) \]
+
+Com que l'àrea del quadrat és 1, i l'àrea de l'octàgon és \( 2r^2(2 - \sqrt{2}) \), l'àrea ombrada és:
+
+\[ \text{Àrea ombrada} = 2r^2(2 - \sqrt{2}) - 1 \]
+
+Però sabem que l'àrea del quadrat és 1, per tant:
+
+\[ 2r^2(2 - \sqrt{2}) = 1 \]
+
+Resolent per \( r^2 \):
+
+\[ r^2 = \frac{1}{2(2 - \sqrt{2})} \]
+
+Substituint aquesta expressió en l'àrea ombrada:
+
+\[ \text{Àrea ombrada} = 2 \left( \frac{1}{2(2 - \sqrt{2})} \right) (2 - \sqrt{2}) - 1 = \frac{2 - \sqrt{2}}{2} \]
+
+Per tant, l'àrea de la part ombrada de l'octàgon regular és:
+
+\[ \frac{2 - \sqrt{2}}{2} \]
+
+Resposta: E)

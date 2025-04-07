@@ -1,0 +1,49 @@
+**Pregunta:** Trobeu el valor de \( x \) per al qual es compleix l'igualitat \( a^{2x} - b^{2x} - 2(ab)^x = 0 \).
+
+**Opcions:**
+A) \(\frac{1}{\ln a} \div \frac{1}{\ln b}\)
+B) \(\sqrt{2} \div \frac{\ln a}{\ln b}\)
+C) \(\ln \frac{a}{b}\)
+D) \(\frac{\ln (\sqrt{2} + 1)}{\ln a} \div \frac{\ln (\sqrt{2} - 1)}{\ln b}\)
+E) \(\frac{\ln (\sqrt{2} - 1)}{\ln (ab)}\)
+
+**Raonament:**
+1. Considerem l'igualitat \( a^{2x} - b^{2x} - 2(ab)^x = 0 \).
+2. Dividim tots els termes per \( (ab)^x \) per simplificar l'igualitat:
+   \[
+   \frac{a^{2x}}{(ab)^x} - \frac{b^{2x}}{(ab)^x} - 2 = 0
+   \]
+3. Simplificant els termes, obtenim:
+   \[
+   \left(\frac{a}{b}\right)^x - \left(\frac{b}{a}\right)^x - 2 = 0
+   \]
+4. L'expressió \(\left(\frac{a}{b}\right)^x\) és equivalent a \(e^{x \ln \frac{a}{b}}\), i \(\left(\frac{b}{a}\right)^x\) és equivalent a \(e^{-x \ln \frac{a}{b}}\).
+5. L'igualitat esdevé:
+   \[
+   e^{x \ln \frac{a}{b}} - e^{-x \ln \frac{a}{b}} - 2 = 0
+   \]
+6. Utilitzant la funció hiperbòlica cosh, que es defineix com:
+   \[
+   \cosh(z) = \frac{e^z + e^{-z}}{2}
+   \]
+   podem reescriure l'igualitat com:
+   \[
+   \cosh(x \ln \frac{a}{b}) - 1 - 2 = 0
+   \]
+   \[
+   \cosh(x \ln \frac{a}{b}) - 3 = 0
+   \]
+7. La solució a aquesta igualitat és:
+   \[
+   \cosh(z) = 3
+   \]
+   La funció cosh és una funció parell, per tant, la solució és:
+   \[
+   z = \ln(\sqrt{2} + 1)
+   \]
+8. Per tant, el valor de \( x \) és:
+   \[
+   x = \frac{\ln(\sqrt{2} + 1)}{\ln \frac{a}{b}}
+   \]
+
+**Resposta:** D) \(\frac{\ln (\sqrt{2} + 1)}{\ln a} \div \frac{\ln (\sqrt{2} - 1)}{\ln b}\)

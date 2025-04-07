@@ -1,0 +1,5 @@
+Reasoning:
+Beth has played 200 games with a winning rate of 49%. Thus, she has won $200 \cdot 0.49 = 98$ games. Let $x$ be the number of games she has to still play, and she wins all of them. Then the total number of games she has played is $200+x$ and the number of games she has won is $98+x$. We want her winning rate to be at least 50%, so we need $\frac{98+x}{200+x} \ge 0.5$.
+Multiplying both sides by $200+x$, we get $98+x \ge 0.5(200+x) = 100+0.5x$. Subtracting $0.5x$ from both sides, we get $98+0.5x \ge 100$. Subtracting 98 from both sides, we get $0.5x \ge 2$, which means $x \ge 4$. Therefore, the minimum number of games she has to still play is 4.
+
+Answer: D)

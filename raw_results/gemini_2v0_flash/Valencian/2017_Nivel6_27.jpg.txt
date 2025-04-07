@@ -1,0 +1,12 @@
+Raonament:
+Sabem que f és estrictament creixent, i que f(1000) = 1000. Per tant, si k > 1000, aleshores f(k) > f(1000) = 1000. Com que 2017 > 1000, aleshores f(2017) > f(1000) = 1000.
+Considerem k = 1000. Llavors, f(f(1000)) <= f(1000 + 1), per tant, f(1000) <= f(1001), el que vol dir que 1000 <= f(1001).
+Considerem k = 999. Llavors, f(f(999)) <= f(999 + 1), per tant, f(f(999)) <= f(1000) = 1000. Com que f és estrictament creixent, si f(999) = 1000, llavors 999 = 1000, el que no és cert. Per tant, f(999) < 1000.
+Considerant la condició f(f(k)) <= f(k+1), agafem k = 2016: f(f(2016)) <= f(2017).
+Com que f és estrictament creixent i 2017 > 1000, tenim que f(2017) > f(1000) = 1000.
+Vegem si f(2017) = 2017. En aquest cas, f(f(k)) <= f(k+1) implica que f(f(1000)) <= f(1001), és a dir, f(1000) <= f(1001), així, 1000 <= f(1001). No hi ha cap contradicció.
+Si f(x) = x, per tot x en Z, aleshores f(2017) = 2017.
+Veiem si f(2017) pot ser < 2017. Si f(2017) < 2017, llavors tenim que f(1000) = 1000 i f(2017) > 1000. Però 2017 > 1000, i f estrictament creixent.
+Tenim que f(2017) > 1000 i f(2017) < 2017. Podria ser que f(2017) > 2017? Sí, pot ser, perquè f(2017) és més gran que 1000.
+
+Resposta: C)

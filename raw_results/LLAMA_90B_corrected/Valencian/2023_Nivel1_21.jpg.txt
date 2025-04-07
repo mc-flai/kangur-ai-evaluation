@@ -1,0 +1,30 @@
+Raonament: Els elements del conjunt {1, 2, 3, 4, 5, 6, 7} formen dos subconjunts de forma que la suma d'elements de cada subconjunt siga la mateixa. Per tant, podem procedir permetent que els elements estiguin distribuïts en aquests subconjunts de manera que es compleixi aquesta condició.
+
+Per exemple, per a subconjunt S1 = {1, 2, 6} i subconjunt S2 = {3, 4, 7}, la suma dels elements de cada subconjunt seria:
+
+*   S1: 1 + 2 + 6 = 9
+*   S2: 3 + 4 + 7 = 14
+
+Tal com es pot observar, en aquest exemple, les sumes no serien les mateixes: 9 ≠ 14. Això implica que aquest és tan sols un dels molts casos possibles amb els elements distribuïts entre aquests dos subconjunts, i sabem que hi ha diferents sumes, doncs no és la solució que bussem. Agafem una altra forma possible de distribuir-los:
+ 
+*   S1 = {1, 2, 7}
+*   S2 = {3, 4, 5, 6}
+
+En aquest cas les sumes serien:
+
+*   S1: 1 + 2 + 7 = 10
+*   S2: 3 + 4 + 5 + 6 = 18
+
+També veiem que 10 ≠ 18, i encara seguim sense la nostra resposta correcta. Casem un altre exemple on les distribucions entre aquests);
+ 
+*   S1 = {1, 2, 7}
+*   S2 = {3, 4, 5, 6}
+
+Llavors, les sumes serien respectivament:
+
+*   S1: 1 + 2 + 7 = 10
+*   S2: 3 + 4 + 5 + 6 = 18.
+
+Tot i que encara tenim diferents sumes; 10 ≠ 18, veiem pel combinador que les sumes podran flexionar en una mateixa possibilitat dep
+
+Resposta: No Answer

@@ -1,0 +1,22 @@
+Raonament:
+L'àrea del quadrat és 1. Per tant, el costat del quadrat és 1. L'octàgon és regular, per tant els triangles rectangles formats en cada cantonada de l'octàgon són isòsceles. Si diem que el catet d'aquests triangles rectangles és x, la hipotenusa és igual al costat del quadrat, per tant, és igual a 1. Aplicant el teorema de Pitàgores, tenim que x² + x² = 1², per tant, 2x² = 1, i x² = 1/2, i x = 1/√2 = √2 / 2.
+L'àrea de cada triangle és (1/2) * x * x = (1/2) * (√2 / 2) * (√2 / 2) = (1/2) * (2 / 4) = 1/4.
+Com que hi ha quatre triangles ombrejats, l'àrea total ombrejada és 4 * (1/4) = 1.
+Però, si el costat del quadrat és 1, el costat de l'octàgon és 1/sqrt(2). L'àrea total de l'octàgon regular és 2*(1+sqrt(2))*a^2, on a és el costat de l'octàgon. Per tant, l'àrea total és 2(1+sqrt(2)) *(1/sqrt(2))^2 = 2(1+sqrt(2)) /2 = 1+sqrt(2). L'àrea del quadrat és 1. Per tant, la diferència, que correspon a la zona ombrejada, és 1+sqrt(2)-1 = sqrt(2)
+
+La longitud del costat de l'octàgon és x. Aleshores, la longitud del costat del quadrat és x + x/√2 + x/√2 = x + x√2 = x(1+√2) = 1. Per tant, x = 1/(1+√2) = (1-√2) / (1-2) = √2-1. L'àrea de cada triangle és (1/2)x^2 = (1/2) (√2-1)^2 = (1/2)(2-2√2+1) = (3-2√2) / 2. L'àrea total ombrejada és 4*(3-2√2) / 2 = 2(3-2√2) = 6-4√2
+
+L'àrea del quadrat interior és 1. Si dividim els triangles formats als costats del quadrat tenim que son triangles isòsceles rectàngles els catets dels quals medeixen x. Per tant x^2 + x^2 = 1 i 2x^2 = 1, x = sqrt(1/2) = sqrt(2)/2. L'àrea de cada triangle és 1/2 * x * x = (1/2) * (sqrt(2)/2)^2 = (1/2) * (2/4) = 1/4. Hi ha 4 triangles, per tant, la suma total de l'àrea dels triangles és 4 * (1/4) = 1.
+El costat de l'octàgon és sqrt(2)/2.
+
+L'àrea de la part ombrejada = àrea total de l'octàgon - l'àrea del quadrat.
+Area del quadrat = 1.
+Longitud del costat del quadrat = 1
+Si x és el costat de l'octàgon. Llavors el costat del quadrat = x + 2 * x/sqrt(2) = x + x *sqrt(2) = x(1 + sqrt(2) = 1
+x = 1 / (1+sqrt(2)) = sqrt(2) - 1
+L'àrea del triangle = (1/2)x^2 = (1/2)(sqrt(2)-1)^2 = (1/2) (3-2sqrt(2)
+Hi ha 4 triangles per tant 4 triangles * àrea = 2 (3-2sqrt(2))
+Àrea = 1.
+Si restem obtindrem
+
+Resposta: B)

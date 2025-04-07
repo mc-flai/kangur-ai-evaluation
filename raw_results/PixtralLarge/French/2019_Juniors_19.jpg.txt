@@ -1,0 +1,22 @@
+Pour résoudre ce problème, nous devons déterminer le nombre maximum de boîtes nécessaires pour emballer 60 pommes et 60 poires, en sachant que chaque boîte contient le même nombre de pommes mais que deux boîtes ne contiennent pas le même nombre de poires.
+
+1. **Calcul du nombre total de fruits** :
+   - Il y a 60 pommes et 60 poires, donc un total de \( 60 + 60 = 120 \) fruits.
+
+2. **Compréhension de la contrainte** :
+   - Chaque boîte contient le même nombre de pommes.
+   - Deux boîtes ne contiennent pas le même nombre de poires.
+
+3. **Détermination du nombre de pommes par boîte** :
+   - Si chaque boîte contient le même nombre de pommes, alors le nombre de pommes par boîte doit être un diviseur de 60. Les diviseurs de 60 sont : 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60.
+
+4. **Essais avec différents diviseurs** :
+   - Si nous prenons 30 pommes par boîte, alors nous aurons \( \frac{60}{30} = 2 \) boîtes. Cependant, cela ne permet pas de répartir les 60 poires de manière à ce que deux boîtes aient un nombre différent de poires.
+   - Si nous prenons 20 pommes par boîte, alors nous aurons \( \frac{60}{20} = 3 \) boîtes. Cela permet de répartir les 60 poires de manière à ce que deux boîtes aient un nombre différent de poires. Par exemple, une boîte pourrait contenir 10 poires et les deux autres 25 poires chacune.
+
+5. **Vérification des autres options** :
+   - Les autres options (15, 12, 10, 6) ne permettent pas de répartir les pommes et les poires de manière à satisfaire les contraintes données.
+
+Raisonnement : En prenant 20 pommes par boîte, nous obtenons 3 boîtes, ce qui permet de répartir les 60 poires de manière à ce que deux boîtes aient un nombre différent de poires.
+
+Réponse : A).

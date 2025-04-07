@@ -1,0 +1,34 @@
+Raonament: Per a que un nombre sigui divisible per 9, la suma dels seus dígits ha de ser divisible per 9. En aquest cas, tenim el nombre de tres dígits N = abc, on a, b, i c són dígits i a > b > c. Això significa que a, b i c han de ser nombres enters entre 0 i 9, amb la restricció que a > b > c. Llavors, a + b + c ha de ser igual a 9 o 18 (ja que 0 < a <= 9).
+
+Si a + b + c = 9, les possibles combinacions per (a, b, c) amb a > b > c són:
+- (6, 2, 1)
+- (6, 3, 0)
+- (7, 2, 0)
+- (5, 3, 1)
+- (5, 4, 0)
+- (4, 3, 2)
+- (9,0,0) Impossible ja que a>b>c
+- (8,1,0)
+- (7,2,0)
+- (7,1,1) Impossible ja que b>c
+- (6,3,0)
+- (6,2,1)
+- (5,4,0)
+- (5,3,1)
+- (4,3,2)
+
+Així, tenim 7 combinacions possibles per a + b + c = 9.
+
+Si a + b + c = 18, les possibles combinacions per (a, b, c) amb a > b > c són:
+- (9, 8, 1)
+- (9, 7, 2)
+- (9, 6, 3)
+- (9, 5, 4)
+- (8, 7, 3)
+- (8, 6, 4)
+- (7, 6, 5)
+Tenim 7 combinacions possibles per a + b + c = 18.
+
+Així, el nombre total de nombres que compleixen les condicions és 7 + 7 = 14.
+
+Resposta: B)

@@ -1,0 +1,38 @@
+Raisonnement : Pour déterminer quelle chanson Andy entend au moment où il rentre à la maison, nous devons calculer la durée totale des chansons et déterminer laquelle est en cours de diffusion au bout d'une heure.
+
+Les durées des chansons sont les suivantes :
+- Chanson A : 3 minutes
+- Chanson B : 2 minutes et 30 secondes
+- Chanson C : 2 minutes
+- Chanson D : 1 minute et 30 secondes
+- Chanson E : 4 minutes
+
+Convertissons toutes les durées en secondes pour simplifier les calculs :
+- Chanson A : 3 minutes = 180 secondes
+- Chanson B : 2 minutes et 30 secondes = (2 * 60) + 30 = 150 secondes
+- Chanson C : 2 minutes = 120 secondes
+- Chanson D : 1 minute et 30 secondes = 90 secondes
+- Chanson E : 4 minutes = 240 secondes
+
+La durée totale d'un cycle complet des cinq chansons est :
+180 + 150 + 120 + 90 + 240 = 780 secondes
+
+Une heure est égale à 3600 secondes. Nous devons déterminer quelle chanson est en cours de diffusion après 3600 secondes.
+
+Divisons 3600 par la durée d'un cycle complet pour savoir combien de cycles complets se sont écoulés :
+3600 ÷ 780 ≈ 4.615 cycles
+
+Cela signifie que 4 cycles complets se sont écoulés, et nous devons déterminer combien de temps s'est écoulé dans le cinquième cycle.
+
+Calculons le reste de la division :
+3600 - (4 * 780) = 3600 - 3120 = 480 secondes
+
+Après 4 cycles complets, 480 secondes se sont écoulées dans le cinquième cycle. Nous devons maintenant déterminer quelle chanson est en cours de diffusion à ce moment-là.
+
+- Chanson A : 180 secondes
+- Chanson B : 180 + 150 = 330 secondes
+- Chanson C : 330 + 120 = 450 secondes
+
+480 secondes se situent entre 330 et 450 secondes, ce qui signifie que la chanson C est en cours de diffusion.
+
+Réponse : C)

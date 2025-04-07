@@ -1,0 +1,8 @@
+Raisonnement : Pour résoudre cette question, je dois d'abord évaluer l'équation donnée.  2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = -20.  L'objectif est de changer les signes "-" en "+" de manière à ce que le résultat soit 0. Je vais changer des signes de gauche à droite. Changer les premiers '-' en '+' donne 2+0+1-5-2-0-1-5-2-0-1-5 = -18.  Changer encore un '-' donne 2+0+1+5-2-0-1-5-2-0-1-5 = -8. Changer le troisième '-' donne 2+0+1+5+2-0-1-5-2-0-1-5 = -3. Changer le quatrième '-' donne 2+0+1+5+2+0-1-5-2-0-1-5 = -3. Changer le cinquième '-' donne 2+0+1+5+2+0+1-5-2-0-1-5 = -2. Changer le sixième '-' donne 2+0+1+5+2+0+1+5-2-0-1-5 = 8. Changer le septième '-' donne 2+0+1+5+2+0+1+5+2-0-1-5 = 12. Changer le huitième '-' donne 2+0+1+5+2+0+1+5+2+0-1-5 = 12. Changer le neuvième '-' donne 2+0+1+5+2+0+1+5+2+0+1-5 = 14. Changer le dixième '-' donne 2+0+1+5+2+0+1+5+2+0+1+5 = 24. Changer le onzième '-' donne 2+0+1+5+2+0+1+5+2+0+1+5 = 24.
+
+Par conséquent, la meilleure façon d'obtenir 0 est de changer des signes jusqu'à arriver à 2+0+1+5+2+0+1+5-2-0-1-5=8.  Je peux changer le signe après le -2 afin d'obtenir 2+0+1+5+2+0+1+5+2-0-1-5 = 12.  La meilleure façon de se rapprocher de zéro est de changer au moins trois signes.  2 + 0 + 1 + 5 - 2 + 0 + 1 + 5 - 2 - 0 - 1 + 5 = 14
+
+Si je change 4 signes : 2 + 0 + 1 - 5 + 2 - 0 + 1 + 5 - 2 + 0 + 1 - 5 = -4
+
+Si je change 5 signes : 2 + 0 + 1 - 5 + 2 + 0 + 1 + 5 - 2 + 0 + 1 - 5 = 0.
+Réponse : E)

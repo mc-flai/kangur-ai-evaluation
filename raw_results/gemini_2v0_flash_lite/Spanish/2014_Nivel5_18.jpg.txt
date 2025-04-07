@@ -1,0 +1,10 @@
+Razonamiento:
+Sea *g* el número de partidas ganadas, *e* el número de partidas empatadas y *p* el número de partidas perdidas.
+Sabemos que el jugador jugó 40 partidas, por lo tanto: *g* + *e* + *p* = 40
+También sabemos que el jugador consiguió 25 puntos. Por lo tanto: 1 *g* + 0.5 *e* + 0 *p* = 25, o simplificado *g* + 0.5 *e* = 25
+Podemos despejar *e* de la ecuación anterior: *e* = 2 * (25 - *g*) = 50 - 2 *g*
+Sustituimos *e* en la primera ecuación: *g* + (50 - 2 *g*) + *p* = 40, y simplificamos: 50 - *g* + *p* = 40.
+Despejando *p*: *p* - *g* = 40 - 50 = -10, por lo tanto, *g* - *p* = 10
+El jugador ganó 10 partidas más de las que perdió.
+
+Respuesta: C)

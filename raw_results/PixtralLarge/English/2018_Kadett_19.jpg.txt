@@ -1,0 +1,29 @@
+**Reasoning**: To solve the problem, we need to calculate the sum of the numbers in each row and column of a 3x3 table and then determine the missing sum.
+
+Given sums: 12, 13, 15, 16, and 17.
+
+To determine the missing sum, we need to consider the possible combinations of three rows and three columns. The sums given are from both rows and columns, and they intersect at some cells.
+
+Let's denote the cells in the 3x3 table as follows:
+- A, B, C (first row)
+- D, E, F (second row)
+- G, H, I (third row)
+
+Given five sums, we have:
+- A + B + C = 12
+- D + E + F = 13
+- G + H + I = 15
+- A + D + G = 16
+- B + E + H = 17
+
+We need to find the sum of the third column (C + F + I).
+
+We can add the sums of the first two columns and subtract the sum of the first row to find the sum of the third column:
+(A + B + C) + (D + E + F) - (A + D + G) = 12 + 13 - 16 = 9
+
+Now, subtract the sum of the second row to find the sum of the third column:
+(G + H + I) - 9 = 15 - 9 = 6
+
+Thus, the missing sum is 14.
+
+**Answer**: D)

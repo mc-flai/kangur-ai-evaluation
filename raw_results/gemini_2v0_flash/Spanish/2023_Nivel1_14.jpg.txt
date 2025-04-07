@@ -1,0 +1,14 @@
+Razonamiento: Analizando la secuencia numérica dada: 14, 104, 140, 23, 203, 230, 35, ?, 350.
+Parece que se están moviendo los dígitos de las decenas y unidades al principio del número.
+
+14 -> 104
+104 -> 140
+140 -> 23 (140 se parece más a 401 luego cambia a 23)
+23 -> 203
+203 -> 230
+230 -> 35 (230 se parece más a 302 luego cambia a 35)
+35 -> 350
+Por lo tanto, el número faltante es 350.
+La suma de los dígitos de 350 es 3 + 5 + 0 = 8.
+
+Respuesta: E)

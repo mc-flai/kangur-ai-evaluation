@@ -1,0 +1,21 @@
+
+El problema implica determinar quants segments de cada color (verd, groc, blau) són necessaris per formar un gran triangle que consisteix en 9 triangles més petits, on cada triangle petit té un costat compartit i un color diferent.
+
+**Razonament:**
+1. El gran triangle es compon de 9 triangles més petits.
+2. Cada triangle petit té un color: verd (V), groc (G) o blau (B).
+3. Els segments de costats compartits entre els triangles són de colors diferents.
+4. Maria pot posar quatre triangles, però la majoria són a la vora.
+5. Per determinar quants segments de cada color són necessaris, cal observar els segments de costats compartits.
+
+Observant el diagrama, els segments de costats compartits entre els triangles són els següents:
+- 1 segment groc
+- 3 segments verds
+- 5 segments blaus
+
+Així doncs, la distribució correcta dels segments de costats compartits és:
+- 1 groc
+- 3 verds
+- 5 blaus
+
+**Resposta: D)**

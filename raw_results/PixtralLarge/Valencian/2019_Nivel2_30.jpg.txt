@@ -1,0 +1,30 @@
+Per resoldre aquest problema, hem de trobar la longitud del segment \( AD \) en el triangle rectangle \( ABC \) on \( AB = 60 \) cm, \( BC = 80 \) cm i \( AC = 100 \) cm. El segment \( BD \) és perpendicular a \( AC \).
+
+**Raonament:**
+
+1. **Identificar les propietats del triangle**:
+   - \( ABC \) és un triangle rectangle.
+   - \( AC \) és la hipotenusa.
+   - \( BD \) és una altura des de \( B \) a \( AC \).
+
+2. **Calcular l'àrea del triangle \( ABC \)**:
+   - L'àrea d'un triangle rectangle és \( \frac{1}{2} \times \text{base} \times \text{altura} \).
+   - En aquest cas, la base és \( AB = 60 \) cm i l'altura és \( BC = 80 \) cm.
+   - L'àrea és \( \frac{1}{2} \times 60 \times 80 = 2400 \) cm².
+
+3. **Utilitzar l'àrea per trobar \( AD \)**:
+   - L'àrea del triangle també es pot expressar com \( \frac{1}{2} \times AC \times BD \).
+   - \( AC = 100 \) cm.
+   - Utilitzant l'àrea que ja hem calculat, \( 2400 = \frac{1}{2} \times 100 \times BD \).
+   - Resolent per \( BD \), obtenim \( 2400 = 50 \times BD \).
+   - \( BD = \frac{2400}{50} = 48 \) cm.
+
+4. **Utilitzar el teorema de Pitàgores per trobar \( AD \)**:
+   - En el triangle \( ABD \), \( AB = 60 \) cm, \( BD = 48 \) cm.
+   - Utilitzant el teorema de Pitàgores, \( AD^2 = AB^2 - BD^2 \).
+   - \( AD^2 = 60^2 - 48^2 \).
+   - \( AD^2 = 3600 - 2304 \).
+   - \( AD^2 = 1296 \).
+   - \( AD = \sqrt{1296} = 36 \) cm.
+
+**Resposta:** B)

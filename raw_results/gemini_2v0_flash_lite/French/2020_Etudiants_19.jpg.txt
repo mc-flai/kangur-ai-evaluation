@@ -1,0 +1,17 @@
+Raisonnement :
+La suite est définie par u₁ = 1, u₂ = 3, et uₙ₊₂ = uₙ + uₙ₊₁. Calculons les premiers termes pour identifier un motif concernant la parité :
+u₁ = 1 (impair)
+u₂ = 3 (impair)
+u₃ = u₁ + u₂ = 1 + 3 = 4 (pair)
+u₄ = u₂ + u₃ = 3 + 4 = 7 (impair)
+u₅ = u₃ + u₄ = 4 + 7 = 11 (impair)
+u₆ = u₄ + u₅ = 7 + 11 = 18 (pair)
+u₇ = u₅ + u₆ = 11 + 18 = 29 (impair)
+u₈ = u₆ + u₇ = 18 + 29 = 47 (impair)
+u₉ = u₇ + u₈ = 29 + 47 = 76 (pair)
+
+On observe que les termes pairs apparaissent tous les trois termes (termes d'indice multiple de 3). Dans les 2020 premiers termes, on cherche donc combien d'indices sont divisibles par 3.
+2020 / 3 = 673 avec un reste de 1.
+Cela signifie qu'il y a 673 termes pairs.
+
+Réponse : A)

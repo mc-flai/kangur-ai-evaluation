@@ -1,0 +1,23 @@
+Reasoning:
+We want to find the smallest possible value for M, the largest number in a set of 10 distinct positive integers. We know that 5 numbers are divisible by 5, and 7 are divisible by 7. This means that the intersection of the two sets (numbers divisible by both 5 and 7, i.e., divisible by 35) must be present.  To minimize M, we want to find the smallest possible values for the other 9 numbers.
+
+*   **Divisible by 5:** If M is divisible by 5, then the other 4 must also be divisible by 5.  To keep M small, let's try the multiples of 5 in ascending order: 5, 10, 15, 20, M.
+*   **Divisible by 7:** If M is divisible by 7, then 6 others must also be divisible by 7.
+*   **Divisible by both 5 and 7 (35):** M could be divisible by 35, so it includes at least one.
+
+Let's consider some possibilities:
+
+*   **If M = 105:**  This is divisible by both 5 and 7. The numbers divisible by 5 could be 5, 10, 15, 20, and 105.  The numbers divisible by 7 could be 7, 14, 21, 28, 35, 70, 105. We have 10 distinct numbers.
+
+If we consider the multiples of 7 up to M as the largest numbers:
+* Start with numbers divisible by 7 (5, 10, 15, 20, M are the multiples of 5 and M is divisible by 7)
+* The intersection of the two sets are the multiples of 35. The multiples of 7 would be x, 7, 14, 21, 28, 35, 42, 49 and 105.  In this case, we must have at least the set {35, 70, 105} in both sets.
+* For M = 105, we can have the numbers {5, 10, 15, 20, 105, 7, 14, 21, 28, 35}. This fits the requirements.
+* For M = 70. The multiples of 5 are 5, 10, 15, 20 and 70. The multiples of 7 are 7, 14, 21, 28, 35, 42 and 70.
+* For M = 77. The multiples of 5 are 5, 10, 15, 20 and 77. This forces us to have numbers in both sets which gives numbers divisible by 35. The multiples of 7 are 7, 14, 21, 28, 35, 42, 49 and 77. Therefore we have two multiples of 7 and 5, which are 35 and 77.
+* For M = 63. The multiples of 5 are 5, 10, 15, 20 and a number divisible by 5 and 7. These cannot be 63.
+* If M = 70. Divisible by 5: 5, 10, 15, 20, 70. Divisible by 7: 7, 14, 21, 28, 35, 42, 70. We already have the number divisible by 35. This includes {5, 7, 10, 14, 15, 20, 21, 28, 35, 42}.
+* If M = 77. Divisible by 5: 5, 10, 15, 20, 77. Divisible by 7: 7, 14, 21, 28, 35, 42, 77. Numbers from both sets can be 35 and 77.
+If we use {5, 10, 15, 20, 35} for 5's and {7, 14, 21, 28, 35, 42, 77} for 7's. This is 10 numbers, and M is 77.
+
+Answer: B)

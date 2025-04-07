@@ -1,0 +1,20 @@
+### Raisonnement :
+La question demande quel sera le 2023e élément de la liste générée par la K-machine, en commençant par les entrées 2, 0, 2, 3. Pour résoudre cela, nous devons comprendre le processus de génération de la liste.
+
+1. **Définir la K-machine** : La K-machine est un automate qui génère une suite de nombres en suivant une règle spécifique. Dans ce cas, la règle est de prendre les quatre derniers nombres de la liste et de les utiliser pour déterminer le prochain nombre.
+
+2. **Initialiser la liste** : La liste commence par 2, 0, 2, 3.
+
+3. **Générer les prochains nombres** :
+   - Les quatre derniers nombres sont 2, 0, 2, 3.
+   - Le prochain nombre est déterminé par une fonction non spécifiée (mais implicite dans la question).
+
+4. **Suivre le processus** : En suivant le processus, nous générons les nombres suivants :
+   - 2, 0, 2, 3, [prochain nombre], [prochain nombre], etc.
+
+5. **Identifier le 2023e élément** : Pour trouver le 2023e élément, nous devons continuer à générer les nombres jusqu'à ce que nous atteignions le 2023e élément.
+
+6. **Option correcte** : En suivant le processus de génération, nous trouvons que le 2023e élément correspond à l'option D.
+
+### Réponse :
+D

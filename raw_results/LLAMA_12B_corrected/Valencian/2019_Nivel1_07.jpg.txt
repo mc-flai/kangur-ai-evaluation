@@ -1,0 +1,31 @@
+Raonament: The information in the image is:
+
+* A question asking to determine the number of ways to write every possible combination of three different numbers from 2019 using the format {x, y, z}, where x, y, and z are in ascending order.
+* The answer choices are:
+        A) 4
+        B) 5
+        C) 6
+        D) 7
+        E) 9 
+## Step 1
+To solve this problem, let's first understand what is being asked. We are looking for the number of ways to write all possible combinations of three different numbers chosen from the set {10, 11, 12, ..., 98, 99}.
+
+## Step 2
+Since the question mentions writing the numbers in the format of an ordered triplet, it implies that the order matters. Therefore, each combination of three different numbers from the set can be written in a unique manner.
+
+## Step 3
+The total number of combinations of three different numbers from a set of 90 distinct numbers (from 10 to 99) is the number of permutations of 3 elements out of 90, which is given by P(90,3). The formula for permutations is P(n,r) = n! / (n - r)!. Here, we want to find P(90,3).
+
+## Step 4
+Calculate P(90,3). P(90,3) = 90 / (90-3)! = 90 * 89 * 88 / 3!.
+
+## Step 5
+3 is the factorial part that needs adjustment, so the correct calculation is 90 * 89 * 88 / 3 * 2 * 1. This gives us the correct number of permutations.
+
+## Step 6
+Performing the calculation, P(90,3) = 90 * 89 * 88 / (3 - 1)! = 90 * 89 * 88 / (2 * 1) = 90 * 89 * 88 / 2 = 435,720.
+
+## Step 7
+From the calculation, we find the total permutations of combinations that could be made. Given the choices provided, recognize that the actual calculation for the number of permutations aligns with one of the options provided and interpret the result accordingly.
+
+Resposta: C)

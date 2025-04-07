@@ -1,0 +1,11 @@
+Raonament:
+L'equació donada és $9 \cdot 9^n = 3^{2016}$.
+Podem reescriure $9$ com $3^2$, per tant, l'equació esdevé: $3^2 \cdot 9^n = 3^{2016}$.
+També podem reescriure $9^n$ com $(3^2)^n = 3^{2n}$.
+Aleshores, l'equació esdevé: $3^2 \cdot 3^{2n} = 3^{2016}$.
+Usant les propietats dels exponents, tenim: $3^{2 + 2n} = 3^{2016}$.
+Ja que les bases són iguals, els exponents també han de ser iguals: $2 + 2n = 2016$.
+Restant 2 a ambdós costats, obtenim: $2n = 2016 - 2 = 2014$.
+Dividint ambdós costats per 2, trobem: $n = \frac{2014}{2} = 1007$.
+
+Resposta: E)

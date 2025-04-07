@@ -1,0 +1,47 @@
+Per resoldre aquesta pregunta, hem de complir els següents criteris:
+
+1. Omplir els cercles del triangle numèric amb els nombres de l'1 al 7, un nombre diferent en cada cercle.
+2. La suma dels nombres de cada una de les cinc línies ha de ser la mateixa.
+
+Per resoldre això, observem el triangle i veiem que hi ha 3 cercles en la base, 2 cercles en la fila del mig i 1 cercle en la part superior. Això significa que tenim un total de 6 cercles per omplir amb nombres de l'1 al 7. El nombre 7 quedarà fora ja que només necessitem 6 nombres.
+
+Els tres nombres de la base sumats amb els dos nombres del mig i el nombre superior han de ser iguals a la mateixa suma en totes les línies.
+
+Sigui la suma que volem aconseguir S.
+
+Les següents equacions són possibles:
+
+- La suma de la primera línia: A + B = S
+- La suma de la segona línia: B + C = S
+- La suma de la tercera línia: A + C = S
+- La suma de la quarta línia: A + B + D = S
+- La suma de la cinquena línia: B + C + D = S
+
+Notem que:
+
+- En la quarta i cinquena línia, el nombre D ha de ser comú per a les dues línies.
+- Els dos nombres de les dues primeres línies sumen la mateixa quantitat que els dos nombres de la tercera línia.
+
+Per resoldre:
+La suma dels tres nombres de la base (A + B + C) ha de ser igual a la suma de 1 i 7 = 8.
+
+Per tant, la suma de la base = 8.
+
+Els dos nombres de la fila del mig han de ser 2 i 6, o 3 i 5, o 4 i 4 (però aquí no hi ha cap 4).
+
+Si la suma de la base és S, la suma de la resta de línies seria 2S.
+
+Per tant, la suma de les línies de la base és 8.
+
+Els nombres que resten són 2, 3, 4, 5 i 6.
+
+- La suma del 1 i el 7 és 8.
+- La suma del 2 i el 6 és 8.
+- La suma del 3 i el 5 és 8.
+- El nombre restant és el 4.
+
+Per tant, el nombre del cercle amb l'interrogant és 4.
+
+Raonament: Hem identificat les sumes possibles i els nombres restants, així com les condicions que deuen complir-se per a cada línia.
+
+Resposta: C) 4.

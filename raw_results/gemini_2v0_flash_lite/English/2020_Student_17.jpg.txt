@@ -1,0 +1,26 @@
+Reasoning: Let S be the sum of any seven consecutive numbers. Since there are 15 numbers in total, when we sum up the numbers in a complete wheel rotation we'll be summing numbers with overlap. From the problem definition, if we add numbers sequentially starting from any position we'll get S. If S is possible, then it must be a whole number and it is the sum of seven consecutive numbers.
+Therefore, we can check which value among the options is possible. Since the total number of positions is 15, the numbers repeat after 15 slots. The sum of any seven consecutive numbers is a constant S. If the sum of any seven consecutive numbers is S, it means that we cannot infer the individual numbers but we can calculate the total sum of all numbers by summing the numbers in the cycle. The sum of all 15 numbers can be calculate by S.
+Therefore, 15 * (S/7).
+For (A): S = 49, total = 15*49/7 = 15*7 = 105
+For (B): S = 70, total = 15*70/7 = 15*10 = 150
+For (C): S = 75, total = 15*75/7, not an integer
+For (D): S = 105, total = 15*105/7 = 15*15 = 225
+For (E): S = 150, total = 15*150/7, not an integer.
+Also, since the 10 is visible, and the sum of consecutive numbers is S, if we take 7 consecutive numbers including 10, we must obtain the result. For example, if the total is 70 and we have 7 consecutive numbers including 10, it is likely to be around 10. Options are 49, 70, 75, 105, and 150. The question states that the sum of any seven consecutive numbers is S. This means that the sum repeats in a cycle of 15, which is the total number of elements.
+
+Consider the sum 70. In this case, The total of all numbers is going to be: 15*70/7 = 150.
+
+If S = 75, the sum of the numbers is not a whole number.
+If S = 105, the total sum is 15*105/7=15*15=225
+If S = 150, the total sum is 15*150/7 which isn't a whole number.
+If we know one of the values (10), we can try to construct the rest, for example for 70:
+10+a+b+c+d+e+f=70 and total=150
+With some trial and error you can find that it is doable.
+For example for 70:
+Let 70 is the sum. If we choose 10 in the set. 70-10 = 60
+If we select 7 numbers: (5, 5, 10, 10, 10, 10, 20) -> 70
+10+5+5+10+10+10+20 = 70.
+If (5, 5, 10, 10, 10, 10, 20), we can arrange in the circle to give the same results. The total sum is 150.
+Answer: B)
+
+Answer: B)

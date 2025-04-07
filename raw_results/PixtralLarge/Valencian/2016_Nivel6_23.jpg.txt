@@ -1,0 +1,30 @@
+**Raonament:**
+
+1. L'entrenament de tennis de Joan té tres parts: escalfament, pràctica del servei i partit.
+2. L'escalfament dura la tercera part de tot el temps de l'entrenament.
+3. El partit dura 12 minuts més que l'escalfament.
+4. La pràctica del servei dura 20 minuts.
+
+Primer, assignem una variable al temps total de l'entrenament, a la qual anomenarem \( T \).
+
+Sabem que:
+- L'escalfament dura \( \frac{T}{3} \).
+- El partit dura \( \frac{T}{3} + 12 \).
+- La pràctica del servei dura 20 minuts.
+
+La suma de les durades de totes les parts és igual al temps total \( T \):
+\[ \frac{T}{3} + 20 + \left(\frac{T}{3} + 12\right) = T \]
+
+Simplifiquem l'equació:
+\[ \frac{T}{3} + \frac{T}{3} + 20 + 12 = T \]
+\[ \frac{2T}{3} + 32 = T \]
+
+Restem \( \frac{2T}{3} \) d'ambdós costats de l'equació:
+\[ 32 = T - \frac{2T}{3} \]
+\[ 32 = \frac{T}{3} \]
+
+Multipliquem ambdós costats per 3 per aïllar \( T \):
+\[ 32 \times 3 = T \]
+\[ T = 96 \]
+
+**Resposta:** B) 96 min.

@@ -1,0 +1,9 @@
+Reasoning:
+1.  The starting square has a black corner.
+2.  Machine S prints the clover on the square. For this to happen, the last operation must be with machine S. So, the last letter must be S.
+3.  The orientation of the black corner is different after S. Therefore, the machine that comes before S must rotate the square so the printed clover appears correctly. That means that machine R must be used before S.
+4.  Now, consider how the clover image is oriented, with the black corner on the top right. The first operation has to rotate the paper to create the orientation to print on the output.
+5.  The image has to go through R twice and then through S, in that order, to get the orientation of the final image.
+6.  Based on these observations, the order should be RRS.
+
+Answer: D)

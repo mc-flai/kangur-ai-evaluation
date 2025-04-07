@@ -1,0 +1,7 @@
+Raonament:
+1. **Càlcul total de triangles possibles**: Si tinguéssim 7 punts sense cap restricció, el nombre total de triangles que podríem formar seria combinacions de 7 agafats de 3 en 3, que és (7!)/(3!4!) = 35.
+2. **Triangles impossibles amb els 6 punts colineals**: Els 6 punts colineals no formen cap triangle. El nombre de combinacions de 6 agafats de 3 en 3 és (6!)/(3!3!) = 20. Aquests triangles no existeixen.
+3. **Correcció de l'error**: Restem aquests triangles impossibles del total: 35-20 = 15
+4. **Combinació correcta**: A més, només hi ha 1 punt fora de la recta, amb els quals podem fer triangles amb 2 dels 6 punts. Hi ha 6 possibles triangles aquí. Per tant la resposta no és tan simple. Si considerem el punt que està fora de la recta, podem formar triangles combinant-lo amb parelles de punts a la recta. Hi ha un total de 6 punts en la recta, i necessitem agafar-ne 2 per formar un triangle amb el punt fora de la recta. El nombre d'aquests triangles és (6!)/(2!4!) = 15. El que cal fer és que el 7è punt el pots combinar amb cada parella de punts de la recta.
+
+Resposta: D) 15

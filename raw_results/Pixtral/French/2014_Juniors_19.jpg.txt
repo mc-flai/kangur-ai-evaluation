@@ -1,0 +1,9 @@
+
+Raisonnement :
+1. Le problème demande de trouver le nombre minimum de segments qui joignent 7 points, en tenant compte que chaque segment compte pour 1 point.
+2. Pour relier 7 points avec le minimum de segments, nous devons utiliser un arbre (ou un graphe acyclique) car un arbre est la structure qui utilise le moins de segments pour relier un nombre donné de points.
+3. Un arbre qui relie 7 points est un arbre de 7 nœuds.
+4. La formule pour trouver le nombre de segments dans un arbre avec n nœuds est n - 1.
+5. En appliquant cette formule à 7 points, nous obtenons 7 - 1 = 6.
+
+Réponse : C

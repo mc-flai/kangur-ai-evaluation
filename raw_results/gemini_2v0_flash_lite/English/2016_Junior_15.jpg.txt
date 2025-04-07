@@ -1,0 +1,36 @@
+Reasoning: The question asks for the number that goes into the cell with the question mark in a multiplication magic square. The numbers that can be used are 1, 2, 4, 5, 10, 20, 25, 50, and 100. The first row has 20 and 1.
+The product of the first row can be found by assuming all rows, columns, and diagonals have to equal the same number when multiplied. The first row is 20 x 1 x ?  
+The second column is 1 x ? x ?
+To find the product of one row, one column, or a diagonal, we must find the product of 20 * 1 * x = product of another row, or column, or diagonal.
+20 * 1 = 20. The numbers we have available are 1, 2, 4, 5, 10, 20, 25, 50, and 100.
+We need to find a number that, when multiplied by 20 and 1, gives the same product as all the other rows, columns, and diagonals when multiplied. 
+Let's test the options to see which one is correct. 
+If we take 2, then 20 * 1 * 2 = 40
+If we take 4, then 20 * 1 * 4 = 80
+If we take 5, then 20 * 1 * 5 = 100
+If we take 10, then 20 * 1 * 10 = 200
+If we take 25, then 20 * 1 * 25 = 500
+This strategy doesn't lead to a definitive answer. 
+
+We need to find the product of each row, column, and diagonal. Given the numbers, we need to determine the product of the entire square and then use that information to find the missing number. The key here is to determine the product of the magic square. One way to do that is to multiply all the numbers together and take the cube root of the result.
+Multiplying all the possible numbers together, we get: 1 * 2 * 4 * 5 * 10 * 20 * 25 * 50 * 100 = 500,000,000. Taking the cube root, we get 793.7. This is incorrect because the cube root of a magic square product has to be a whole number.
+
+Since the first row is 20 * 1 * x, the product is 20x. We can attempt to fill in the grid.
+Consider C) 5, If the missing number is 5, the first row product is 100, 20 x 1 x 5 = 100.
+If we place 5 in the missing location, 
+20 1 ?
+? ? ?
+? ? ?
+The square has these remaining numbers to choose from: 2, 4, 10, 20, 25, 50, 100.
+If the first row product is 100, the other rows and columns must multiply to 100.
+Let's work on it assuming the unknown number is 5.
+20 1 5
+? ? ?
+? ? ?
+Looking at the list of numbers (1, 2, 4, 5, 10, 20, 25, 50, 100), we need to build up numbers so we can get 100 as a final result.
+
+Let's try the second column: 1 * x * y = 100. If the value for the ? is 5, then the next two numbers need to create the same answer, which is 100, 1 * x * y = 100. We can use 10 and 10, since 100 = 10 * 10, which means our original assumption of 5 must be correct.
+Then we have 25 and 4 in a row. The numbers left over are 2, 4, 10, 20, 25, 50, 100.
+The number needed here is 5.
+
+Answer: C)

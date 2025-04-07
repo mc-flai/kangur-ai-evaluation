@@ -1,0 +1,15 @@
+**Reasoning**:
+1. The number 2022 is comprised of four digits.
+2. Karo has already formed the first two digits using some matches.
+3. Each digit in 2022 requires:
+   - The digit '2': Each '2' requires 5 matches.
+   - The digit '0': Each '0' requires 6 matches.
+4. The number 2022 uses the digit '2' twice and the digit '0' twice.
+5. Calculating the total matches used for the digits:
+   - Two '2's: 2 * 5 = 10 matches
+   - Two '0's: 2 * 6 = 12 matches
+6. Total matches used to form 2022: 10 + 12 = 22 matches.
+7. Karo started with 30 matches.
+8. Matches left after forming 2022: 30 - 22 = 8 matches.
+
+**Answer**: D) 19.

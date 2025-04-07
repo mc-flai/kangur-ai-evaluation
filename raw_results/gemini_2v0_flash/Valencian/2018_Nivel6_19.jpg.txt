@@ -1,0 +1,9 @@
+Raonament: Considerem el triangle blanc superior que conté el punt que volem trobar. Sigui x el valor del punt central. Aleshores, 0 + 2 + x ha de ser divisible per 3. Per tant, 2 + x ha de ser divisible per 3. Les possibilitats per a x són 0, 1, 2. Si x = 1, llavors 2+1 = 3, que és divisible per 3. Si x = 4, llavors 2+4 = 6, que és divisible per 3. Però el punt només pot ser 0, 1 o 2. Així que només ens interessa x=1.
+Ara considerem el triangle negre inferior que conté el punt que volem trobar. En aquest cas, 2 + x + y no ha de ser divisible per 3, on y és el valor del vèrtex inferior del triangle. Com que y pot ser 0, 1, o 2, analitzem els casos per a x.
+Si x = 0, llavors 2+0+y = 2+y no és divisible per 3. Si y=0, 2+0=2 (no divisible). Si y=1, 2+1=3 (divisible). Si y=2, 2+2=4 (no divisible). Així que x no pot ser 0.
+Si x = 1, llavors 2+1+y = 3+y no és divisible per 3. Si y=0, 3+0=3 (divisible). Si y=1, 3+1=4 (no divisible). Si y=2, 3+2=5 (no divisible). Així que x no pot ser 1.
+Si x = 2, llavors 2+2+y = 4+y no és divisible per 3. Si y=0, 4+0=4 (no divisible). Si y=1, 4+1=5 (no divisible). Si y=2, 4+2=6 (divisible). Així que x no pot ser 2.
+
+Veiem que l'única opció viable pel triangle blanc és que x=1. Però llavors l'opció x=1 no funciona pel triangle negre, ja que 2+1+0 = 3, que és divisible per 3. Per tant, no podem assignar un valor al punt central. Així doncs, la resposta és que és impossible de determinar.
+
+Resposta: E)

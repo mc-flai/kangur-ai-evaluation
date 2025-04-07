@@ -1,0 +1,31 @@
+Raonament: Busquem el nombre de 4 xifres més gran on les xifres augmenten d'esquerra a dreta i que sigui múltiple de 6. Per a ser múltiple de 6, el nombre ha de ser parell i la suma de les seves xifres ha de ser un múltiple de 3.
+
+El nombre més gran amb xifres que augmenten d'esquerra a dreta és 6789. Però aquest número no és divisible per 6.
+El següent nombre més gran seria alguna variació propera a 6789.
+Considerant la condició de que ha de ser un número parell, la darrera xifra ha de ser parell. Podem considerar els següents números candidats començant amb la major xifra possible per al miler:
+5678 no és divisible per 6.
+4568 no és divisible per 6.
+Intentem amb el miler sent un 3:
+3456: és divisible per 6? 3+4+5+6 = 18, que és divisible per 3. I el número acaba en 6 per tant és divisible per 2.
+Ara la xifra de les centenes d'aquest nombre és 4. Però hem de buscar el més gran.
+
+El numero 6789 no és divisible per 6.
+Considerem altres combinacions i sumes:
+Si les xifres fossin 2346 la suma és 15, divisible per 3 i és parell.
+Si les xifres fossin 1236 la suma és 12, divisible per 3 i és parell.
+El més gran serà de la forma ABCD, amb D parell i A+B+C+D múltiple de 3.
+Si l'última xifra es un 8, tindrem A+B+C+8 múltiple de 3. 3458, no funciona.
+Si l'última xifra es un 6, tindrem A+B+C+6 múltiple de 3. Per a ser el més gran possible, comenceu amb 3456. La suma es 18 que és múltiple de 3. Aquest número compleix les condicions. La xifra de les centenes és 4.
+Intentem una cosa mes gran. 2346. La suma és 15.
+Provant amb xifres més grans, pot ser que ens apropem més.
+Comencem amb un nombre que acabi amb 8. Comencem amb un nombre prop de 6789, tal que les seves xifres augmenten.
+5678. No és divisible per 3 ja que 5+6+7+8 = 26.
+4568. No és divisible per 3, ja que 4+5+6+8 = 23.
+Si acabem amb 4:
+1234 la suma es 10. No serveix
+Fem més proves per ser rigurosos:
+2346. La suma és 15. Funciona. Les centenes és 4.
+
+3456, és un múltiple de 6 i les xifres augmenten. La xifra de les centenes és 4.
+
+Resposta: D)

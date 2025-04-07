@@ -1,0 +1,22 @@
+Raonament:
+
+Per resoldre aquesta pregunta, hem de determinar quines maneres Ariadna pot fer per omplir la taula de 2x4 caselles amb les lletres A, B, C i D. Les condicions són que en cada fila hi hagi dues lletres i en cada columna hi hagi tres quadrats de 2x2 caselles, cada lletra aparega només una vegada.
+
+Primer, calculem el total de quadrats de 2x2 caselles en la taula. La taula té 2 files i 4 columnes, és a dir, un total de 8 caselles. Cada quadrat de 2x2 caselles té 4 caselles, per tant, hi ha un total de 8/4 = 2 quadrats de 2x2 caselles.
+
+Ara, considerem les lletres A, B, C i D. Cada lletra ha d'aparèixer en un quadrat de 2x2 caselles i només una vegada. Això significa que cada lletra ha de cobrir exactament 2 caselles en la taula.
+
+Per tant, hem de trobar les maneres de distribuir les lletres A, B, C i D en la taula de manera que cada lletra cobreixi exactament 2 caselles i que cada quadrat de 2x2 caselles contengui una lletra.
+
+Considerem les possibles distribucions:
+
+1. A i B en una fila, C i D en l'altra fila.
+2. A i C en una fila, B i D en l'altra fila.
+3. A i D en una fila, B i C en l'altra fila.
+4. B i C en una fila, A i D en l'altra fila.
+5. B i D en una fila, A i C en l'altra fila.
+6. C i D en una fila, A i B en l'altra fila.
+
+Cada una d'aquestes distribucions és una manera vàlida de distribuir les lletres en la taula. Per tant, hi ha 6 maneres de fer-ho.
+
+Resposta: C) 48

@@ -1,0 +1,51 @@
+Reasoning:
+Let the surface area of one brick be $S$. When two bricks are placed together, some area is hidden where the bricks touch. Let $x$, $y$, and $z$ be the areas of the surfaces that are touching in each of the three arrangements, respectively. Then we have:
+$2S - 2x = 72$
+$2S - 2y = 96$
+$2S - 2z = 102$
+Adding these three equations, we get:
+$6S - 2(x+y+z) = 72+96+102 = 270$
+$3S - (x+y+z) = 135$
+
+However, we can also reason by considering the difference in the surface areas. The difference between the surface areas 96 and 72 is 24, so $2x - 2y = 24$, which means $x-y = 12$. The difference between the surface areas 102 and 72 is 30, so $2x-2z = 30$, which means $x-z = 15$.
+
+We have the areas $A_1 = 72, A_2 = 96, A_3 = 102$. Let $S$ be the surface area of one brick. When two bricks are placed side by side, we have:
+$2S - 2x = 72 \Rightarrow S - x = 36$
+$2S - 2y = 96 \Rightarrow S - y = 48$
+$2S - 2z = 102 \Rightarrow S - z = 51$
+Adding these equations, we get:
+$3S - (x+y+z) = 36+48+51 = 135$
+However, we do not know $x,y,z$.
+
+Instead, consider two bricks with surface area $S$. When two bricks are joined, $2S - 2A = A_1$, $2S - 2B = A_2$, $2S - 2C = A_3$, where $A,B,C$ are the areas of the surfaces that are touching in each arrangement. Then, $S - A = \frac{A_1}{2}$, $S - B = \frac{A_2}{2}$, $S - C = \frac{A_3}{2}$.
+$x = S - 36, y = S - 48, z = S - 51$.
+Since we are missing the actual dimensions of the bricks, this approach is not going to be easy.
+
+Another approach: Notice that $A_2 - A_1 = 24$ and $A_3 - A_1 = 30$. The difference in surface area is $24 = 2x$, so $x=12$. The difference in surface area is $30 = 2x$, so $x=15$.
+
+We know $2S - 2x = 72, 2S - 2y = 96, 2S - 2z = 102$.
+Let $2S = T$.
+$T-2x = 72, T-2y = 96, T-2z = 102$.
+Let $S = 54$. Then $T=108$.
+$108-72 = 36 = 2x, x = 18$.
+$108-96 = 12 = 2y, y = 6$.
+$108-102 = 6 = 2z, z = 3$.
+
+Reasoning:
+If the surface area of one brick is $S$, then the total surface area of two bricks is $2S$. When we glue two faces together, the surface area decreases by twice the area of the glued face. Therefore, the combined surface area will be $2S - 2A$, where $A$ is the area of the face glued together. So, we have
+$2S - 2x = 72$
+$2S - 2y = 96$
+$2S - 2z = 102$
+We can solve for $S$ by manipulating the equations. We have
+$S - x = 36$
+$S - y = 48$
+$S - z = 51$
+Subtracting pairwise, we have $y-x = 12$ and $z-x = 15$. This tells us $y = x+12$ and $z = x+15$. Since the bricks are identical, $x$, $y$, and $z$ must be the areas of different faces of the brick. Also, we know that $x, y, z > 0$, so if $S-51$ must be positive, thus $S > 51$. This eliminates A and B. If S=52, x=16, y=4, z=1. If S=54, x=18, y=6, z=3.
+
+If S = 60, we would have
+$60 - x = 36, so x = 24$
+$60 - y = 48, so y = 12$
+$60 - z = 51, so z = 9$
+Thus $S=60$ could be a good option since the variables x,y,z are possible values.
+
+Answer: E)

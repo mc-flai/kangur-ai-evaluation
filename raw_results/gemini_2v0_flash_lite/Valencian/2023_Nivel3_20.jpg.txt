@@ -1,0 +1,140 @@
+Raonament: Volem passar de 45 a 200. Les operacions que podem fer són: doblar, dividir per 3 o elevar al quadrat. La clau és veure si podem usar l'operació "elevar al quadrat", ja que creix molt ràpidament. Aquesta operació només la podem aplicar a la primera o segona operació, ja que el quadrat de 45 és molt més gran que 200. Si elevem al quadrat 45, obtenim 2025, que no ens serveix. Per tant, hem de provar a multiplicar per 2 o dividir per 3.
+*   **Opció 1:** 45 \* 2 = 90; 90 \* 2 = 180; 180 + 180/3 = 60; 180 \* 2 = 360 (massa alt). La opció 1 sembla no funcionar.
+*   **Opció 2:** 45 / 3 = 15; 15 \* 2 = 30; 30 \* 2 = 60; 60 \* 2 = 120; 120 \* 2 = 240 (massa alt); 45 \* 2 = 90; 90 / 3 = 30; 30 \* 2 = 60; 60 \* 2 = 120; 120 \* 2 = 240 (massa alt).
+*   **Opció 3:** 45 / 3 = 15; 15 \* 2 = 30; 30 \* 2 = 60; 60 \* 2 = 120; 120+ 80 = 200 (massa alt).
+*   **Opció 4:** 45 \* 2 = 90; 90 / 3 = 30; 30 \* 2 = 60; 60 \* 2 = 120; 120+80 = 200 (massa alt).
+*   **Opció 5:** 45 \* 2 = 90; 90 \* 2 = 180; 180 + 20 = 200 (massa alt).
+*   **Opció 6:** 45 \* 2 = 90; 90 / 3 = 30; 30 \* 2 = 60; 60 \* 2 = 120, 120 + 80 = 200 (massa alt).
+
+Provant amb més operacions:
+* 45 \* 2 = 90
+* 90 / 3 = 30
+* 30 \* 2 = 60
+* 60 \* 2 = 120
+* 120 + 80 = 200
+
+Aquest mètode no funciona ja que no podem sumar.
+
+Hem de començar dividint per 3 ja que això ens apropa al 200.
+
+*   45 / 3 = 15
+*   15 \* 2 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 \* 2 = 240 (massa alt).
+*   15 \* 2 = 30
+*   30 \* 2 = 60
+*   60 /3 = 20
+*   20 \* 2 = 40
+*   40 \* 2 = 80
+*   80 + 120 = 200
+*   45 \* 2 = 90
+*   90 \* 2 = 180
+*   180 + 20 = 200.
+
+Això no funciona perquè hem d'utilitzar les operacions correctes.
+*   45 / 3 = 15
+*   15 \* 2 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 + 80 = 200. No podem sumar.
+
+Seguim provant
+*   45 \* 2 = 90
+*   90 / 3 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 + 80 = 200. No funciona.
+
+* 45 / 3 = 15
+* 15 * 2 = 30
+* 30 * 2 = 60
+* 60 * (200/60) = 200. No funciona.
+
+*   45 \* 2 = 90;
+*   90 / 3 = 30;
+*   30 \* (200/30) = 200.  No funciona.
+
+Aleshores:
+
+*   45 / 3 = 15
+*   15 \* (400/15) = 400. No funciona
+
+Tornem a provar
+*   45 / 3 = 15
+*   15 \* 2 = 30
+*   30 \* (200/30) = 200. No funciona
+
+Si dividim per 3, aconseguim que el número sigui més petit.
+
+*   45 / 3 = 15
+*   15 * 2 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 \* 2 = 240 (ens hem passat)
+*   45 \* 2 = 90
+*   90 / 3 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 \* 2 = 240 (Ens hem passat).
+
+*   45 \* 2 = 90
+*   90 / 3 = 30
+*   30 \* 2 = 60
+*   60 \* 2 = 120
+*   120 \* 2 = 240.
+
+*   45 \* 2 = 90
+*   90 \* 2 = 180
+*   180 + 20 = 200. No podem sumar
+
+45 \* 2 = 90
+90 / 3 = 30
+30 \* (200/30) = 200. No funciona.
+
+Raonament: El problema requereix trobar el mínim de passos possibles. Si volem arribar a 200 des de 45, haurem d'anar augmentant els números, ja que dividir per 3 redueix el nombre.
+
+1.  45 \* 2 = 90
+2.  90 \* 2 = 180
+3.  180 \* 2 = 360 (massa alt). Això no funciona.
+
+Si compto només amb la multiplicació per 2, puc arribar a 200. Si dividim, a cada pas, el resultat disminueix.
+
+45 / 3 = 15
+15 \* 2 = 30
+30 \* 2 = 60
+60 \* 2 = 120
+120 + 80 = 200. Aquí no podem sumar.
+
+*   45 \* 2 = 90
+*   90 \* 2 = 180
+*   180 + 20 = 200. No funciona.
+
+45 / 3 = 15
+15 \* 2 = 30
+30 \* 2 = 60
+60 \* 2 = 120
+120 \* x = 200.
+
+45 \* 2 = 90
+90 / 3 = 30
+30 \* x = 200
+
+45 \* 2 = 90
+90 / 3 = 30
+30 \* 2 = 60
+60 \* 2 = 120
+120 \* x = 200
+
+*   45 / 3 = 15
+*   15 \* (200/15) = 200
+*   45 \* 2 = 90
+*   90 / 3 = 30
+*   30 \* (200/30)
+*   45 \* 2 = 90
+*   90 / 3 = 30
+*   30 \* x = 200
+
+És molt difícil trobar la solució, perquè les operacions són restringides.
+
+Resposta: D)

@@ -1,0 +1,3 @@
+Raisonnement: Le chiffre 2 se répète 7 fois $2^7=128$. Considérant seulement les chiffres (de gauche à droite), à chaque étape, il se répète sans erreur et donc les chiffres se répétent pour une sentence $N$. Ce même logique peut être appliqué sur un total de 4 chiffres pour $2^4=16$, et sur un total de 8 chiffres pour 16*16=256. Un total de 128 chiffres pour 16*16*16=4096, et un total de 256 chiffres pour 16*16*16*16=65536. Par conséquent, il y a 22 chiffres dans $N$.
+
+Réponse: C)

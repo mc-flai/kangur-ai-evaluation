@@ -1,0 +1,20 @@
+To determine the minimum number of bridges that need to be closed off to ensure there is no connection from island A to island B, we need to identify and eliminate all possible paths connecting A to B.
+
+1. **Identify all paths from A to B**:
+   - Trace all the routes from A to B and identify the key bridges in each path.
+
+2. **Determine the critical bridges**:
+   - These are bridges that, when closed, will disconnect all paths from A to B.
+   - Look for bridges that are common in multiple paths or bridges that, if closed, would force the path through another bridge that can also be closed.
+
+3. **Minimum number of bridges**:
+   - Close the bridges one by one and ensure that after closing each bridge, the remaining network still has no path from A to B.
+   - Repeat this process until all paths are disconnected.
+
+In this specific diagram, upon analyzing the paths and critical bridges, we need to ensure that we close the optimal number of bridges to disconnect the network.
+
+**Reasoning**:
+- By closing the bridges that connect A to the intermediate islands and B to the intermediate islands, we can ensure that there is no possible path left from A to B.
+- Closing 3 bridges is enough to achieve this, as closing any fewer would still leave at least one path connecting A to B.
+
+**Answer**: C)

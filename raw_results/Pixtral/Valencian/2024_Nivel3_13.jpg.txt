@@ -1,0 +1,20 @@
+Raonament:
+1. El problema descriu un quadrat de la figura amb un cost de 10 m.
+2. La figura es divideix en cinc regions, cadascuna amb tres segments.
+3. M i N són els valors de les àrees de les dues zones grises.
+4. Hem de trobar el valor de M - N.
+
+Per resoldre aquest problema, primer cal entendre com es divideix el quadrat en cinc regions amb tres segments cadascuna. Cada segment representa una part de l'àrea total del quadrat.
+
+5. La suma de les àrees de les cinc regions és igual a l'àrea total del quadrat.
+6. L'àrea total del quadrat és 10 m x 10 m = 100 m².
+7. Com que cada region té tres segments, el nombre total de segments és 15.
+8. Cada segment representa 100 m² / 15 = 6.67 m² (aproximadament).
+
+9. Les dues zones grises són regions dins del quadrat, i les seves àrees són M i N.
+10. Com que cada segment té una àrea de 6.67 m², les àrees de les dues zones grises són múltiples de 6.67 m².
+11. Per simplificar, suposem que les àrees de les dues zones grises són enteres i sumen 100 m².
+12. Si les dues zones grises tenen àrees iguals, llavors M = N.
+13. Per tant, M - N = 0.
+
+Resposta: A)

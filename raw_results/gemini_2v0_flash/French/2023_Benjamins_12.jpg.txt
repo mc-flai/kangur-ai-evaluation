@@ -1,0 +1,14 @@
+Reasoning: Let the five numbers be $a, b, c, d, e$.
+We are given $a \times b = 30$, $b \times c = 15$, $c \times d = 42$, $d \times e = 28$.
+From $a \times b = 30$ and $b \times c = 15$, we can write $a = \frac{30}{b}$ and $c = \frac{15}{b}$.
+From $c \times d = 42$ and $d \times e = 28$, we can write $c = \frac{42}{d}$ and $e = \frac{28}{d}$.
+Therefore, $\frac{15}{b} = \frac{42}{d}$, so $15d = 42b$ or $5d = 14b$. Thus, $d = \frac{14b}{5}$.
+We need $d$ to be an integer, so $b$ must be a multiple of 5.
+Try $b = 5$, then $a = \frac{30}{5} = 6$.
+$c = \frac{15}{5} = 3$.
+$d = \frac{14 \times 5}{5} = 14$.
+$e = \frac{28}{14} = 2$.
+So the numbers are $6, 5, 3, 14, 2$.
+The sum is $6 + 5 + 3 + 14 + 2 = 30$.
+
+Answer: C)

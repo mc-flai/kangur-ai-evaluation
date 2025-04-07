@@ -1,0 +1,44 @@
+Reasoning:
+Let $n$ be the number of marked points, which is 7 in this case. Let $k$ be the number of lines connected to each point after drawing the new lines. Let $e$ be the number of existing lines in the diagram.
+Initially, there are 7 marked points.
+The degree sequence is: 1, 1, 1, 2, 2, 2, 3.
+The total number of lines is 6. The degrees are not the same. We want to add lines such that all the vertices have the same degree.
+Let $x$ be the number of additional lines we need to draw.
+Suppose we want each point to be connected to $k$ other points.
+Then the total number of connections will be $7k$. Since each line connects two points, we have $2(\text{number of lines}) = 7k$.
+So $2(6+x) = 7k$.
+Since the left side is even, $7k$ must be even, so $k$ must be even.
+If $k=2$, $2(6+x) = 7(2) = 14$, so $6+x = 7$, $x=1$. However, it is not possible to have all vertices with degree 2 after adding only 1 line.
+If $k=4$, $2(6+x) = 7(4) = 28$, so $6+x = 14$, $x=8$. We need to add 8 lines.
+If $k=6$, $2(6+x) = 7(6) = 42$, so $6+x = 21$, $x=15$.
+
+Let's try to make the degree of each vertex the same, say 3. The initial degree sequence is 1, 1, 1, 2, 2, 2, 3. We need to increase the degree of each vertex such that they all have the same degree, let's say $d$. We need to increase 3 vertices by 2, 3 vertices by 1 and one vertex by 0, which sums up to $3(2) + 3(1) + 0(0) = 6$ which are the additional lines. The target degree is 3. The sequence must be (3, 3, 3, 3, 3, 3, 3). Total edges is $7\times 3/2 = 21/2$. This cannot be possible.
+We want to add $x$ lines.
+So if we add 4 lines, we would have a total of 10 edges and $\sum degrees = 20$, then $20/7 \approx 2.86$.
+If we add 5 lines, we would have a total of 11 edges and $\sum degrees = 22$, then $22/7 \approx 3.14$.
+If we add 6 lines, we would have a total of 12 edges and $\sum degrees = 24$, then $24/7 \approx 3.43$.
+Let's look for $k = 4$, so total edges is $7(4)/2 = 14$. Thus, $x = 14 - 6 = 8$. Not possible.
+Try to have each point has degree 3. The total degree is $7*3=21$. Divide by 2 to get the edges, but this gives us 10.5 so this is not correct either.
+
+Let the number of lines to be added be $x$. Then $2(6+x) = 7k$, where $k$ is the number of edges connected to each point. $12 + 2x = 7k$. $7k$ must be even, so $k$ must be even.
+$k=2$: $12 + 2x = 14$, $2x = 2$, $x=1$. Not possible because we need to draw multiple lines.
+$k=4$: $12 + 2x = 28$, $2x = 16$, $x=8$.
+$k=6$: $12 + 2x = 42$, $2x = 30$, $x=15$.
+
+Existing degrees are $1, 1, 1, 2, 2, 2, 3$. Sum is 12, so there are 6 lines.
+We want all degrees to be equal. The sum must be an even number.
+Suppose we have a graph with $n$ nodes, each has degree $d$. $\sum \text{degree} = nd$. $2E = nd$.
+In our case, $n=7$. Thus $nd$ must be even. Hence $7d$ must be even, so $d$ must be even.
+$d=2$. Existing sum = 12. Each node must have degree 2. This is not easy.
+
+There are currently 6 lines.
+Try $k=4$. We require total number of lines is $7(4)/2 = 14$, so we require adding $14-6 = 8$ lines.
+Try $k=2$. We require total number of lines is $7(2)/2 = 7$, so we require adding $7-6 = 1$ line. Not possible.
+Consider $k=6$. total number of lines is $7(6)/2 = 21$, so $21-6=15$ lines to add. The points are 1, 1, 1, 2, 2, 2, 3.
+There are at least 3 nodes with degree 1.
+We can try 4. If we add 4 lines. We can make all the degrees 2,3 so its possible. With a lot more lines.
+
+Reasoning:
+Let's check if 4 is possible, and 5, etc. The question is for the minimum. The sum of degrees must be even. If we add 4 lines, the sum is 12+4=16 impossible. We can make the smallest with 6. The current is 12 so we can try 12. Then it will be all 6 which requires adding one more line on 3 of the 1s. This could work out. So let's pick 6. There are only 7 points.
+
+Answer: C)

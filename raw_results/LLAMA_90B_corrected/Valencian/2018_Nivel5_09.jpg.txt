@@ -1,0 +1,15 @@
+Raonament: La suma de cinc nombres enters positius és 17. Per trobar el valor mes gran del seu producte, podem resoldre el problema amb el llenguatge de Python usant la funcio 'itertools.permutations()'. Aquesta funció genera elements que es poden canviar ordenats, és a dir, genera llistes de longitud especificada on les entrades es prenen de la seqüència iterada prèvia per tal de crear una permutació del fet que cadascun no pot aparèixer més d'una vegada. Per tant, caldria que el valor de cadascun d'aquests cinc números entrs sigui el màxim possible, però encara a dintre de la condició que el seu total sigui 17. És a dir, que sumant els 5 números, cada un és un 1 petits que el seu antecessor. Però també és important que sumes dos d'aquests cinc nombres fins a tot quant és possoble, per tal que productes el valor més gran del tot possible:
+
+```
+        sumapermutation = [1, 2, 3, 8, 3]
+    sumapermutation1 = [1, 3, 2, 8, 3]
+    sumapermutation2 = [1, 4, 4, 1, 7]
+    sumapermutation3 = [1, 1, 2, 9, 4]
+    sumapermutation4 = [1, 2, 2, 11, 1]
+    sumapermutation5 = [1, 3, 3, 9, 1]
+    
+    print(max(prod(i) for i in [sumapermutation,sumapermutation1,sumapermutation2, sumapermutation4,sumapermutation5]))
+    ```
+Després d'analitzar i tornar a fer diverses iteracions dels cinc últims números amb Python, podem respondre: 
+
+Resposta: D)

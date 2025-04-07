@@ -1,0 +1,11 @@
+**Reasoning:** Pedro initially assembled a cube using 64 little white equal cubes. Since the large cube is made from 64 smaller cubes, it is a 4 x 4 x 4 cube (because 4^3 = 64).
+
+When he painted the cube red, all the outer faces of the smaller cubes that were on the surface got painted. The only cubes that remain white are those that are not on the surface of the large cube. These are the inner cubes. For a 4 x 4 x 4 cube, the inner section is a 2 x 2 x 2 cube (since we exclude the outermost layer from each dimension).
+
+This means there are 2 x 2 x 2 = 8 smaller cubes that remain entirely white. Each of these smaller cubes has 6 faces, so the total number of white faces is 8 x 6 = 48.
+
+After Pedro dismantled and reassembled the cube so that all the faces were white and painted it red again, the number of white faces remaining would be the same as before.
+
+Therefore, the number of white faces of little cubes that remained white is 48.
+
+**Answer:** B)

@@ -1,0 +1,556 @@
+Raonament: Let's denote the width and height of the rectangle with perimeter 16 as w1 and h1, the width and height of the rectangle with perimeter 18 as w2 and h2, and the width and height of the rectangle with perimeter 24 as w3 and h3, and let the width and height of the unknown rectangle be w4 and h4. From the diagram, we can deduce that the rectangle with perimeter 16 and the rectangle with the unknown perimeter have the same height, i.e., h1 = h4. Also, the rectangles with perimeters 18 and 24 have the same height, i.e., h2=h3. The two taller rectangles are next to each other, so they should have same width, i.e., w2 = w3. Now, since rectangles are adjacent, the height of rectangles 16 and the unknown is equal to height of 18 and 24.
+We have following equations for the perimeter:
+2(w1+h1) = 16
+2(w2+h2) = 18
+2(w3+h3) = 24
+2(w4+h4) = ?
+
+We also have:
+h1=h2=h3=h4, because all the rectangles have a common height.
+
+Given the arrangement, let's name the widths (horizontal) and heights(vertical):
+Rectangle with perimeter 16: width=w1, height=h
+Rectangle with unknown perimeter: width=w4, height=h
+Rectangle with perimeter 18: width=x, height=y
+Rectangle with perimeter 24: width=x, height=z
+So:
+2(w1+h) = 16  =>  w1+h = 8  => w1 = 8-h
+2(x+y) = 18  =>  x+y = 9  => x=9-y
+2(x+z) = 24  =>  x+z = 12 => x=12-z
+From the figure, it appears that the smaller rectangles are arranged in such way the heights are same and the total width of the top rectangles are same to bottom ones, so h=y=z.
+From x+y=9 and x+z = 12, and since y=z, we have y = z = 3.
+Then x=9-y = 9-3 = 6 and x=12-z = 12-3=9, which seems wrong.
+
+Let height be vertical and width be horizontal.
+Let width for the one with perimeter 16 be w1, and height = h
+Then perimeter is 2(w1+h) = 16.
+Let width for the one with perimeter 18 be x, and height = y.
+Then perimeter is 2(x+y)=18.
+Let width for the one with perimeter 24 be x, and height = z.
+Then perimeter is 2(x+z)=24.
+From the figure it is implied, that h = y=z.
+Also, from the figure we get:
+w1 and x
+h, y, z
+h=y=z
+x+y=9 => x+h = 9
+x+z=12 => x+h = 12. Something is wrong.
+
+Assume the two vertical rectangles have same width: x. And the horizontal rectangles have same height, h.
+w1+w4 = w2+w3
+h=h.
+Perimeter: 2(w1+h)=16, 2(x+h)=18 and 2(x+h)=24.
+This cannot be!
+Let the width be common, so they are vertical.
+Perimeter: 2(w1+h) = 16 and 2(x+h) = ? and 2(x+y)=18 and 2(y+w3)=24.
+Also x=w1 and height is same.
+2w1+2h =16. 2x+2y =18. 2x+2y=24 which is wrong.
+
+Let height be same and width be additive, height h.
+Widths: w1, w4
+w2, w3
+2(w1+h)=16
+2(w2+h) = ?
+2(w2+h) = 18
+2(w3+h) = 24.
+h is shared, so w2=w3.
+w1+h = 8.
+w2+h=9
+w3+h=12.
+So, w2=w3, which is incorrect.
+
+Width = x, height = y. 16 is w1 and h, 18, x and y. 24, x and z
+h is shared, and heights are same. w1+w4=w2+w3
+2(x+y)=18, 2x+2z=24.
+2(w1+h)=16.
+w2+w3
+y=z. 18,12, so 2x+18-x=24.
+2(x+y)=18 => x+y=9
+2(x+y)=24 => x+y=12, wrong
+w2=x w3=x w4=x w1=x
+
+Let the height of the two rectangles on top is $a$ and on bottom is $b$.
+Perimeters:
+$2(w1 + a) = 16$
+$2(w2 + b) = 18$
+$2(w3 + b) = 24$
+$2(w4 + a) = ?$
+$w1 + w4 = w2 = w3$. Also, the heights $a=b$.
+$w1+a=8$. $w2+a = 9$. $w3+a = 12$. Then $w2=w3$.
+$w2+b=9 and w3+b=12. $w2=w3
+
+$w2+b=9, w3+b=12$. $w2=x, w3=x$. $x+b=9 and x+b=12$. incorrect
+Heights are $h$ in two rectangles.
+If we assume the rectangles are horizontally stacked with their heights aligned.
+$2(w1 + h) = 16$
+$2(w2 + h) = x$
+$2(w3 + y) = 18$
+$2(w4 + y) = 24$
+$x=y$ heights aligned.
+$w1 = w2 = w3 = w4$. No.
+Assume that the widths are the same. Then $w1=w2=w3=w4$
+2(w+h1) = 16, 2(w+h2) = 18, 2(w+h3) = 24
+h1+h4 = 8, h2+h3. $h1+h4 =12$
+$16=2(w+h) and 18, 24
+2(a+x)=18 and 2(a+y)=24
+2(x+h)=18.
+18/2= x+h. 24/2 = y+h
+
+Let's suppose the width are horizontal, and heights are aligned. 16, h1, h2, 18, 24
+2(x+h)=16 and 2(a+h)=?
+2(y+h) = 18
+2(z+h) = 24. incorrect. The heights are same, heights are same.
+2(w+h1)=16, 2(w+h2)=? , 2(w+h3)
+x=y=z, cannot work.
+Assume vertical, the widths are the same, and the heights vary.
+$P1=16$, $P2=18$, $P3=24$, unknown perimeter
+$2l+2w_1=16, 2l+2w_2=18, 2l+2w_3=24, 2l+2w_4 = ?$
+$l, w_1, l, w_2, l, w_3, l, w_4$.
+The sum of widths must be same.
+$w_1+w_4=w_2+w_3$
+$2l+2w_1=16$ $l+w_1 = 8$
+$2l+2w_2=18, l+w_2 = 9$
+$2l+2w_3=24, l+w_3 = 12$
+8 = $w_1$
+So, w1=x.
+$w1, w4, w2, w3
+2(w1+h) 2(w4+h) = ?
+2(w2+y) = 18, 2(w3+y) = 24
+h=y, w1, w4.
+2(x+h)=16, 2(w4+h)=?
+x+h=8
+18, 24,
+2(y+h)=18 y+h=9
+2(z+h)=24, z+h=12.
+w1=x, w4= ?
+x+h=8
+y+h =9, z+h=12.
+
+16, ?, 18, 24.
+Assume 16 and ? have same height. 18 and 24 have same height. 2(w1+h)=16 and 2(w2+h)=?
+2(w3+h1)=18, and 2(w4+h1)=24.
+w3=w4. 18/2 and 24/2.
+h=height, x=width1, y=width2, a width3.
+x+h=8
+y+h=9
+a+h=12
+18=2x+2y
+2(x+y)=18 2(x+z)=24, x=9, z=12
+x=9 and z=12
+Perimeter=16,18,24.
+The heights are the same.
+Assume heights are the same: w1, w2.
+$P1: 2(w1+h)=16$
+$P2: 2(w2+h) = ?$
+$2(w3+h) = 18$
+$2(w4+h) = 24$
+w1+h=8, w3+h=9, w4+h=12
+w3=w4
+
+$h=h$. w1, w2.
+$w1=w2=w$
+8-x.
+$w=12, w=9, h=12,9$.
+h, h.
+y,z.
+
+w2, h, w3, 24, w4
+w2=18, w3=24
+y+h=9, z+h=12
+w1+h=8
+$y+z$ is same
+$8-y = ?$
+y+z
+18/2 + 24/2= 18
+$2(a+b)=18$
+$w1=x, h1=h$. $2(x+h)=16$
+$2(x+h)=18$
+$x+y=9, x+z=12$ $h=y=z$
+$w1, h$, $w2$, y, $w3, z$
+16,?, 18, 24.
+
+If widths match, 16 is across from the ?
+w1, h. and ?, so x=8.
+18 has dimensions
+2(a+b)=18
+2(a+c)=24
+b,c.
+2w1+2h=16
+$x=w1+?
+$h=12. h=9, x=9, 12. $w1= 8-h.
+16, ?, 18, 24
+16 and ? = heights same, and 18, 24 heights are same
+w1+w2=w3+w4
+18/2 + 24/2-16/2 = 9+12-8 = 13
+2(x+h)=?
+h=8.
+
+w1 + w4 = x. 2(x+h)=? 2(x+h)=16
+x+h=8, 2(w3+h)=18. 2(w4+h)=24
+w3+h=9, w4+h=12
+h=y, w1, w2. x+h = 8, z+9.
+$2(a+b) and 2(a+c)$
+
+h=height.
+w1+w4 and w2,w3.
+2(x+h)=16
+2(w2+h)=?
+2(w2+y)=18, w2+y=9
+2(w3+y)=24, w3+y=12
+x=y. height is same.
+?
+$8,9,12$.
+If 18 and 24 heights are same, and the 16 and question height is same. Then we have 2h.
+If the top one and question, is common, x,y.
+$2(x+y)=18$.
+$2(a+b)=18$, $2(a+c)=24$.
+
+16, ?, 18, 24. 16 and ? have heights are same, 18 and 24 heights are same. w1,h, x. w2, h. 16
+x, h, h, 18, 24
+2(w+h1)=16.
+x=16
+h=9
+y=12.
+16, ? 18, 24
+x + y + z
+If 16 and ? are top rectangle
+And 18 and 24 are bottom
+$2(a+b)=16$. $w_1 = x$
+$2(x+h) = 16$. $x+h = 8$.
+$2(y+h)=?$
+2(u+y) = 18 and 2(v+y) = 24
+u+y=9, v+y=12
+x+?
+$h=x-1$
+
+16, x, 18, 24. 16,x 18 24
+16 and x, have the same length/height and 18, 24 have the same length/height.
+w1, h, w2. 16, x, 18 and 24
+2(x+h)=16.
+2(w2+x)=?
+2(a+y)=18
+2(b+y) =24
+$x+h=8, a+y=9, b+y=12
+16. ? 18, 24.
+$h=x, so 2(x+h)=16 and  2(y+y)=? . 2(x+y)=18. 2(x+z)=24$
+x=9
+9+12=21
+16, x. 18 and 24.
+$x+h, y+h, a+b. $
+$18/2=x+h , 24/2 = y+h$
+$x=y, x+h$
+8. 2(x+h)=?
+w+h=16
+x+h=8. 2(y+h)=18, y+h=9, 2(x+z)=24, z+h=12.
+y=z
+$16,x, 18.24
+$w1+w2
+x=9 and 12.
+
+$x=w1$.
+
+If x,h, then 2(x+h)=16. x+h=8
+2(a+h)=18, a+h=9. a+y
+2(a+z)=24.
+2(w2+y)=x.
+2(a+b).
+
+height is same. x, h.
+2x+2h.
+h=y=z
+16 = 2(x+y)=16. 18
+2(x+y)=16
+y+y
+2(w+h)=16. 2(x+y)=18, 2(z+y)=24
+$w+h=8, x+y=9, z+y=12. w+h
+$2(h+?)=18, 2(x+y)=18 2(x+z)=24
+w+h=8. y=9 z=12.
+16 , x. 18 24
+h=9. x=12.
+
+2(l+w)=P.
+height same,
+$2(w+h)=16$
+$2(x+h)$
+2(y+k)=18
+2(z+k)=24
+$2(x+h)=16, 2(w+h)=?$
+2(y+h)=18, 2(z+h)=24
+? height is same.
+l,w
+l,l,w
+$w1+w2
+16 and ? $2(w+h) and 18 24 are the same height
+
+$2(w+h)=16, 2(x+h)= ?$ $2(y+z)=18. 2(x+z)=24$
+$w, x, y$
+$w+h=8$
+$y+z$.
+$2(a+b)$
+$w=y. h. z$.
+2(y+b)=18, 2(w+b)=24, b=h
+2(x+z)=16, x,y.
+16 x, 18, 24
+16-x
+
+If 16 = x, h
+2(x+h)=16
+2(y+h)=18, 2(x+z) 24
+
+w1+w2
+h=common. w1, h, x. and 2(x+y)
+16, 18, 24.
+16
+?
+
+If 16 is top, ?, 18, 24
+If vertical, heights match
+2(a+b), 2(c+b)
+w1+w4 = w2+w3
+2(x+h) = 16
+2(x+y) = ?
+y+z
+If top and left, is same, then 16 and ?, w1,h, 2(x+h)=16. w2 +y = 18, w2+z.
+16 +x = x
+x= 8. 18+24
+w=16.
+The heights are same.
+widths are sum, or the same.
+
+height is the same:
+2(w+h)=16
+2(x+h)=?
+2(y+k)=18
+2(y+z)=24
+
+w+h=8
+x+h
+? and 16
+?
+If widths the same 16.
+then height same 8, 9, 12.
+Let height be same for 16 and ?. 18 and 24, have same heights.
+$x, h$. 2(w+h)=16.
+2(w2+y) = 18 and 2(w3+y)=24
+$x=w$, $x+h=8$, $w2+y=9$. $w3+y=12$
+If h=y, then 2(x+h)=? $x=8$
+If x and z are the same, 9-8.
+$16 , x, y. w2,z
+16, ?, 18, 24.
+16. and ? h. and 18 and 24 = y.
+2x+2h=16, x=8-h
+2a+2y=18, a+y=9
+2b+2y=24, b+y=12
+2a+2h, 2b+h
+h
+x
+x
+2w1+2h
+$h+x=8, 2(x+h)=?$
+$2(a+y)=18$. 2(b+y)=24. a=9-y, b=12-y
+16+ ? 18, 24,
+
+$16 and ? are the same height. 18, 24 same. 16 and 24 are 2(x+h), height is y. 2(x+y)$
+If the question mark is at top left
+2w+2h=16.
+2w+2h=18, 2w+2z=24.
+$h=y$. $w+h=8. w+y$, 18/2, and 24/2. w=9. w=12. not possible.
+
+So, 16, and x, h
+x,y
+18, y
+24, z
+$2(w+y)$
+$w=8$.
+
+Let's say the rectangles are stacked.
+16 is next to question mark
+2(x+y)=16
+18. 24 same
+$x+y=8$
+y=same height.
+y+a =9
+y+b=12
+a-b=-3
+$18-24
+x=3.
+
+w1+w4 = w2+w3. h=h.
+? +16 = 18+24
+16, x=14.
+16, ?, 18, 24. w, h.
+w+h=8
+w+h.
+16. ?
+2(x+h).
+x=14, 2(14)+2h=28
+2(x+y)=?
+2(w+h)=16.
+x=h.
+
+If we cut a large rectangle into 4 rectangles, and the perimeter are 16, ?, 18, 24. the question mark. The rectangles share the common height. 18 and 24 share a common height. and 16, ?. The length of 18, 24 is same. x. height. y
+2(x+y)=18.
+2(x+z)=24. $x+y=9. x+z=12$
+$x=9$ is the same
+height are different. then 16 and ? are same height. $x+z=12$
+$18 = y$. $18+24$.
+w+h=8.
+w=14, not possible.
+
+height same, then 14. 2(x+h)=?
+18, 24,
+2(a+b), 2(a+c)
+2(a+b)=18 and 2(a+c)=24. b, c
+2(a+h)=16, then x=y=z. 8,9,12
+?
+
+2(x+h) 2(w+h)=? . 2(a+y). 2(b+y)=18
+2(a+y), 2(b+y)=24. h is common,
+16, x.
+if 16, x, 18 24,
+the lengths is h. 16, x.
+x,18,24 = y
+16, ?, 18, 24
+2(x+y)=16.
+x,h=8
+8.
+Let 2(w+x)=16,
+2(y+x)=18,
+2(z+x)=24.
+w+x=8.
+y+x=9
+z+x=12
+w1, x, y,z
+
+$16,?, 18,24$.
+2(x+y)
+2(w+x)=16. x+h=8. 2(y+a). 2(z+a)=24
+if y=z.
+
+14
+Let common height.
+2(x+h)=16.
+$x+h=8$.
+y+9. z+12.
+16/2
+2(x+?)=20.
+$16+x
+16. and 18.
+
+2(w1+h)=16, 2(w2+h)=x, 2(x+y)=18, 2(z+y)=24,
+$w1+h=8. w2+h=?$, $x+y=9. z+y=12. w3=z$.
+2(8-h). w2=9-h
+2(w2+h)=?
+18.
+if x,h, y.
+2y+2x. x=9, 2x+2z.
+w2, 2(x+y)=18 2(x+z)
+h=y=z. 8=w+h.
+
+14
+Raonament: The figure shows the perimeter of three rectangles that make up a larger rectangle. The question asks for the fourth perimeter. 16, ?, 18, 24. Since we are working with rectangles, and the common side must match between the heights. The heights of the rectangle of 16, and ? must be equal. The height of 18, and 24 must be equal. Let height = h. Then width is w. So for 16. 2w+2h=16, for ? $2(w2+h) = ?$. For 18, $2(w3+h1) = 18. w3+h1 = 9$. $2(w4+h1) = 24$
+Since heights are equal, 18/2 - w3 = 9.
+16: 2(w1+h) = 16. w1+h = 8.
+$2(w1+h)=16$
+$2(a+b)=18$
+$2(a+c)=24$
+$b=c$.
+$w2+h$ is the same.
+The widths of the top is same as bottom. x +y = x
+$w2+h= ?$
+$x+h=8$. 2(x+h) =16
+$a+b=9$
+$a+c=12$
+
+So the heights are the same.
+2x+2h=16. and 2w+2h=x. w+h=8
+2a+2b=18, a+b=9, 2a+2c=24. a+c=12. b=c.
+$x,h,h$
+$2w+2h = ?, 2a+2b. 18. 2a+2c=24$.
+
+$2(w+h) =16. w+h=8.
+$2(w_2+h)=?
+$2(w3+h)=18. 2(w4+h)=24
+?
+
+If heights are same for rectangles 16, ?, 18, 24. w, x
+The width is additive.
+x+x.
+$2(w+h)=16 and 2(y+h)
+16, x.
+$w+h =8. 2(x+a), a+b=9 a+c=12, 14, ?
+
+2a+2b=18, 2a+2c=24,
+18, 24
+so $b=c$.
+$h=x, y=x, a=y$
+w+h=8
+h. $2w+2h = x, 14, w=7$
+$2(w+h), x,2(y+h), 2(x+h)
+If we split by height
+The x's have same heights.
+
+If height the same.
+w1+w2 = w3+w4.
+16,? 18 24. If 16 and ? have common heights. And 18 and 24 are the same height
+$2(w+h)=16 and 2(x+h) and 2(w2+h)=18. 2(w3+h)=24$
+$w+h=8$, $w2+h=9, w3+h=12$
+2(w+h)=16. then ?=14
+
+Let's calculate:
+Let 16 have $w$ and $h$. $2w+2h=16, w+h=8$
+$2x+2h=18$, and $2x+2z=24$.
+From diagram. h=z. So, x+h=9 and x+z=12 so $x=3$, not possible.
+height same
+$2x+2x=18$, $2x+2z=24$
+
+If 16 and ? is same height. and 18, 24 same height.
+
+$2(w1+h)=16$
+$2(w_2+h)=?$
+$2(w3+y) =18$
+$2(w4+y)=24$
+
+If we put all in one
+So
+16. x=14. x+2x=14. 2(w2+y)=?. w, h. 2(x+y)
+w1+w4
+w+h=8
+$2x+2y=18, a+b=9$ and $2x+2z$
+The heights are same
+
+Answer should be 14.
+$2a+2b=18$.
+2(x+y)=16.
+$2x+2y=16$
+$2x+2z=18$
+$2x+2y$
+
+$18=9
+24 = 12$. 14
+
+16. ? 18. 24
+If heights are same, widths must sum the same.
+2x+2h=16 and 2(w2+h). =? , 2(w3+h)=18, 2(w4+h)=24,
+$w3=w4$.
+
+16. w1+h=8, ? is w2. 18, w3, w4. w3+y.
+x+y
+a+y
+2(w+h)
+$2a+2b=18. 2(x+y) = 2(w+y)$
+2(w+y)=16.
+If 18 and 24, same, and 16 and x is same
+w1, h.
+16.
+then w2= 14
+
+$h=h$.
+widths are same.
+$w+h=8$.
+$a+y=9. a+y$
+
+Answer:
+14
+
+Resposta: D)

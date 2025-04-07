@@ -1,0 +1,21 @@
+Para determinar cuántas monedas tiene Carlos, primero debemos rastrear las transacciones entre Andy, Bella y Carlos.
+
+1. Andy comienza con 59 monedas.
+2. Andy le da 13 monedas a Bella.
+   - Andy tiene ahora 59 - 13 = 46 monedas.
+   - Bella tiene ahora 0 + 13 = 13 monedas.
+3. Bella le da 14 monedas a Carlos.
+   - Bella tiene ahora 13 - 14 = -1 monedas.
+   - Carlos tiene ahora 0 + 14 = 14 monedas.
+4. Carlos le da 24 monedas a Andy.
+   - Carlos tiene ahora 14 - 24 = -10 monedas.
+   - Andy tiene ahora 46 + 24 = 70 monedas.
+5. Andy le da 9 monedas a Bella.
+   - Andy tiene ahora 70 - 9 = 61 monedas.
+   - Bella tiene ahora -1 + 9 = 8 monedas.
+
+En este punto, Bella tiene 8 monedas y Carlos tiene -10 monedas.
+
+Razonamiento: Al final de las transacciones, Bella tiene 8 monedas y Carlos tiene -10 monedas.
+
+Respuesta: E)

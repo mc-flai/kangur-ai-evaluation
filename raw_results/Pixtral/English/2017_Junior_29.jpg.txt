@@ -1,0 +1,28 @@
+### Reasoning:
+
+1. **Identify the weights and their possible placements**:
+   - Weights: 101, 102, 103, 104, 105, 106 grams.
+   - The balance tips to the right, indicating the right side is heavier.
+
+2. **Determine the conditions for the 106-gram weight to be on the right side**:
+   - For the 106-gram weight to be on the right side, the total weight on the left side must be less than 106 grams.
+   - The possible combinations of weights on the left side that are less than 106 grams are:
+     - 101 + 102 = 203 grams
+     - 101 + 103 = 204 grams
+     - 101 + 104 = 205 grams
+     - 101 + 105 = 206 grams
+     - 102 + 103 = 205 grams
+     - 102 + 104 = 206 grams
+     - 102 + 105 = 207 grams
+     - 103 + 104 = 207 grams
+     - 103 + 105 = 208 grams
+     - 104 + 105 = 209 grams
+
+3. **Calculate the total number of possible distributions**:
+   - There are 3 weights on each side of the balance, and each weight can be placed on either side.
+   - Total possible distributions = 2^3 = 8.
+
+4. **Determine the number of distributions where the 106-gram weight is on the right side**:
+   - From the combinations listed above, the 106-gram weight will be on the right side in all 8 possible distributions.
+
+### Answer: E) 100%

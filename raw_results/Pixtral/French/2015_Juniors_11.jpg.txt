@@ -1,0 +1,29 @@
+
+Raisonnement :
+1. La question demande la distance minimale pour aller du point Départ au point Arrivée en traversant des cases de haut en bas.
+2. Chaque mouvement de haut en bas compte pour une distance de 2 unités.
+3. Chaque mouvement de diagonal compte pour une distance de √2 unités.
+4. Pour trouver la distance minimale, nous devons minimiser le nombre de mouvements de diagonal.
+5. En observant le diagramme, nous devons compter les mouvements de haut en bas et de diagonal nécessaires pour aller du point Départ au point Arrivée.
+
+Analysons chaque option :
+- A) 2√5 : Cela semble trop élevé pour une distance minimale.
+- B) √10 + √2 : Cela semble raisonnable, mais nous devons vérifier.
+- C) 2 + 2√2 : Cela semble raisonnable, mais nous devons vérifier.
+- D) 4√2 : Cela semble trop élevé pour une distance minimale.
+- E) 6 : Cela semble trop élevé pour une distance minimale.
+
+Pour B) √10 + √2 :
+- Distance de haut en bas : 2 unités.
+- Distance de diagonal : √2 unités.
+- Total : 2 + √2.
+
+Pour C) 2 + 2√2 :
+- Distance de haut en bas : 2 unités.
+- Distance de diagonal : 2√2 unités.
+- Total : 2 + 2√2.
+
+Comparons les deux :
+- B) √10 + √2 est légèrement plus petit que 2 + 2√2.
+
+Réponse : B)

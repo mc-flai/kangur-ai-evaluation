@@ -1,0 +1,29 @@
+Pour répondre à la question 19, il faut déterminer dans quel cas, parmi les options proposées, le résultat obtenu sera le plus grand lorsque l'on divise ou multiplie un nombre entre 10 et 100.
+
+**Raisonnement :**
+
+1. **Divisant par 0,001 (Option A) :**
+   - Diviser un nombre par 0,001 revient à multiplier ce nombre par 1000. Par exemple, 10 divisé par 0,001 donne 10 000.
+   
+2. **Divisant par 0,1 (Option B) :**
+   - Diviser un nombre par 0,1 revient à multiplier ce nombre par 10. Par exemple, 10 divisé par 0,1 donne 100.
+
+3. **Ajoutant 1000 (Option C) :**
+   - Ajouter 1000 à un nombre entre 10 et 100 donnera un résultat compris entre 1010 et 1100. Par exemple, 10 plus 1000 donne 1010, et 100 plus 1000 donne 1100.
+
+4. **Multipliant par 100 (Option D) :**
+   - Multiplier un nombre entre 10 et 100 par 100 donnera un résultat compris entre 1000 et 10 000. Par exemple, 10 multiplié par 100 donne 1000, et 100 multiplié par 100 donne 10 000.
+
+5. **Multipliant par lui-même (Option E) :**
+   - Multiplier un nombre par lui-même (carré du nombre) donnera un résultat compris entre 100 (10*10) et 10 000 (100*100). Par exemple, 10 multiplié par lui-même donne 100, et 100 multiplié par lui-même donne 10 000.
+
+En comparant les résultats obtenus :
+- Option A donne 10 000 pour 10.
+- Option B donne 1000 pour 100.
+- Option C donne entre 1010 et 1100.
+- Option D donne entre 1000 et 10 000.
+- Option E donne entre 100 et 10 000.
+
+Parmi ces options, l'option A donne le plus grand résultat possible (10 000 pour 10).
+
+**Réponse : A).**

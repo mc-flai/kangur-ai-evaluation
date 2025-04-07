@@ -1,0 +1,27 @@
+
+La pregunta 24 involucra una seqüència de quadrats que es dibuixen en una pàgina de paper, començant amb un quadrat i després dibuixant tres quadrats en cada pas posterior. Cada pas afegeix un quadrat més a la seqüència, començant amb un quadrat i després tres quadrats en cada pas posterior.
+
+**Racionalització**:
+1. En el primer pas, dibuixem un quadrat. Això contribueix amb 1 quadrat.
+2. En el segon pas, dibuixem tres quadrats, afegeint 3 quadrats més.
+3. En el tercer pas, dibuixem sis quadrats, afegeint 6 quadrats més.
+4. En el quart pas, dibuixem nou quadrats, afegeint 9 quadrats més.
+
+Per determinar el nombre total de quadrats dibuixats després de 121 quadrats, podem usar la fórmula per a la suma d'una seqüència aritmètica:
+
+\[ S_n = \frac{n}{2} \times (a + l) \]
+
+on \( S_n \) és la suma dels termes, \( n \) és el nombre de termes, \( a \) és el primer terme i \( l \) és l'últim terme.
+
+Aquí, \( a = 1 \) i \( l = 3n \) (ja que cada pas afegeix 3 quadrats més).
+
+Per 121 quadrats:
+\[ S_{121} = \frac{121}{2} \times (1 + 3 \times 121) \]
+\[ S_{121} = \frac{121}{2} \times (1 + 363) \]
+\[ S_{121} = \frac{121}{2} \times 364 \]
+\[ S_{121} = 121 \times 182 \]
+\[ S_{121} = 22018 \]
+
+Per tant, el nombre total de quadrats dibuixats després de 121 quadrats és 22018.
+
+**Resposta**: E)

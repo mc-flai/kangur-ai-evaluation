@@ -1,0 +1,15 @@
+Raonament:
+Primer hem de determinar quants dígits es necessiten per numerar les pàgines d'un diccionari.
+* Pàgines 1-9: 9 pàgines * 1 dígit/pàgina = 9 dígits
+* Pàgines 10-99: 90 pàgines * 2 dígits/pàgina = 180 dígits
+* Pàgines 100-999: 900 pàgines * 3 dígits/pàgina = 2700 dígits
+* Pàgines 1000-9999: 9000 pàgines * 4 dígits/pàgina = 36000 dígits
+
+Ja sabem que la resposta ha de ser superior a 999 i menor que 9999 perquè tenim 11381 dígits.
+Fins a la pàgina 999 tenim 9 + 180 + 2700 = 2889 dígits.
+Per tant, ens queden 11381 - 2889 = 8492 dígits per numerar pàgines amb 4 dígits.
+Dividim 8492 entre 4 per saber quantes pàgines de 4 dígits podem numerar: 8492 / 4 = 2123 pàgines.
+Això significa que tenim 2123 pàgines de 4 dígits a partir de la pàgina 1000.
+Per tant, la pàgina més alta és 999 + 2123 = 3122.
+
+Resposta: B)

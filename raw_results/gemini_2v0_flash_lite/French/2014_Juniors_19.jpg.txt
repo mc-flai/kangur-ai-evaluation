@@ -1,0 +1,18 @@
+Raisonnement :
+1. **Comptage initial des segments:** Comptons le nombre de segments attachés à chaque point:
+    *   Point en haut à gauche: 1 segment.
+    *   Point en haut à droite: 1 segment.
+    *   Point au milieu à gauche: 2 segments.
+    *   Point au milieu: 3 segments.
+    *   Point en bas à gauche: 1 segment.
+    *   Point en bas à droite: 1 segment.
+    *   Point au milieu à droite: 2 segments.
+
+2. **Détermination du degré cible:** Nous voulons que chaque point ait le même nombre de segments qui lui sont attachés. Le nombre total de segments existants est de 7 (1+1+2+3+1+1+2 = 11, mais chaque segment compte deux fois, donc 11/2 = 5,5 donc il y a 7 segments).  Pour que le nombre de segments partant de chaque sommet soit le même, le nombre total de segments doit être divisible par 7. Puisque il y a 7 sommets, le nombre moyen de segments par sommet doit être un entier. La somme des degrés doit être paire (car chaque segment relie deux sommets).
+    * Nous devons ajouter des segments de manière à ce que chaque point ait au moins 2 segments.  Si chaque sommet doit avoir le même nombre de segments, nous pourrions essayer d'atteindre un degré de 2 pour chaque sommet. Pour cela, le nombre total de segments devrait être 7*2/2=7.
+    * Mais pour cela il faudrait ajouter des segments afin d'avoir une somme de degrés divisible par 7.  La somme actuelle des degrés est 1+1+2+3+1+1+2 = 11. Pour que chaque sommet ait un degré de 3, nous aurions une somme de degrés de 7 * 3 = 21.  Nous devrions alors ajouter 21 - 11 = 10. Chaque segment contribue à deux sommets, donc nous devons ajouter 10/2=5 segments.
+    * On peut aussi déterminer l'ajout minimal de segments de sorte que tous les sommets aient le même nombre de segments. La somme des degrés doit être paire. On peut chercher à avoir chaque sommet avec 3 segments, ce qui donne 7*3=21 degrés. On a besoin d'ajouter 21-11=10 degrés, qui sont 5 segments.
+
+3. **Construction:** Par exemple, on peut ajouter les segments suivants : relier le point en haut à gauche avec le point en bas à droite, relier le point en haut à droite avec celui en bas à gauche, et relier les deux points qui sont au milieu. On peut aussi essayer de joindre des points afin d'avoir un degré de 3.
+
+Réponse : B) 5

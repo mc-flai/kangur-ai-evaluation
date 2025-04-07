@@ -1,0 +1,16 @@
+
+La question demande quel carton doit être placé au milieu pour obtenir le plus petit nombre possible en réarrangeant les 7 cartons.
+
+Raisonnement :
+1. Les nombres donnés sont 4, 69, 113, 9, 51, 5 et 67.
+2. Pour obtenir le plus petit nombre possible, nous devons examiner la combinaison des nombres.
+3. En plaçant 4 au début, nous obtenons 469113951567.
+4. En plaçant 69 au début, nous obtenons 694113951567.
+5. En plaçant 113 au début, nous obtenons 113469951567.
+6. En plaçant 51 au début, nous obtenons 514691139567.
+7. En plaçant 5 au début, nous obtenons 546911395167.
+8. En plaçant 67 au début, nous obtenons 674691139515.
+
+Parmi ces combinaisons, 546911395167 est le plus petit nombre possible.
+
+Réponse : E)

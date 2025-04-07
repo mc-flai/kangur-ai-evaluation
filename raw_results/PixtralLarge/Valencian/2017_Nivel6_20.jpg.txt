@@ -1,0 +1,43 @@
+Per resoldre aquesta pregunta, hem de complir les condicions que s'indiquen: hem d'omplir els altres quatre quadrats amb quatre nombres de manera que les sumes dels nombres en qualsevol fila i en qualsevol columna de la quadrícula siguin iguals.
+
+La quadrícula que ens donen és:
+```
+a  b
+e  c
+c  d
+```
+
+Analitzem les possibles opcions:
+
+A) En qualsevol cas
+B) Només si a = b = c = d = e
+C) Només si a + b = c + d
+D) Només si a + d = b + c
+E) Una altra resposta
+
+Raonament:
+
+1. Analitzem l'equació de les sumes de les files i columnes.
+2. Suposem que les sumes de les files i columnes són iguals, per exemple, S.
+3. Plantegem les sumes de les files:
+    - a + b = S
+    - e + c = S
+    - c + d = S
+4. Plantegem les sumes de les columnes:
+    - a + e = S
+    - b + d = S
+
+5. Observem que c apareix en dues sumes de files: e + c = S i c + d = S, per tant, e + c = c + d.
+6. Per tant, e = d.
+
+7. Ara, si e = d, substituïm en les sumes de les columnes:
+    - a + d = S
+    - b + d = S
+
+8. Per tant, a = b.
+
+9. Finalment, si a = b i e = d, totes les sumes (files i columnes) són iguals.
+
+Com a conclusió, podem dir que els nombres només compliran la condició si a = b = c = d = e.
+
+Resposta: B)

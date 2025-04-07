@@ -1,0 +1,8 @@
+Reasoning:
+1. Initially, all 2020 coins are "heads" up. We want to make them all "tails" up.
+2. Each move flips 3 coins.
+3. We need to flip a number of coins divisible by 2020. We want to minimize the number of moves.
+4. Consider the remainder when 2020 is divided by 3. 2020 / 3 = 673 with a remainder of 1. Since we need to change all the coins to the tails side, if we change the 2020 coins to tails, the number of coins must be a multiple of 3. Then we can not directly make all coins be tails after several moves (3 coins at once).
+5. Therefore it's impossible to change the 2020 coins to tails.
+
+Answer: E)

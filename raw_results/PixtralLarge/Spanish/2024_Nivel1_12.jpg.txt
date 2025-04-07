@@ -1,0 +1,12 @@
+Para resolver esta pregunta, necesitamos identificar el número que está debajo del signo de interrogación en el diagrama de Venn.
+
+**Razonamiento**:
+1. Según el problema, la suma de los números que encierra cada anillo es 10.
+2. Observamos que en el primer anillo, el número es 6, y en el último anillo, el número es 3.
+3. Los anillos que se superponen deben tener números tales que sumen a 10 en total.
+4. Si el número del primer anillo (6) se superpone con el segundo anillo, el número en el segundo anillo debe ser 4, ya que 6 + 4 = 10.
+5. Si el número del último anillo (3) se superpone con el tercer anillo, el número en el tercer anillo debe ser 7, ya que 3 + 7 = 10.
+6. Ahora, para el anillo central (que está debajo del signo de interrogación), el número debe ser 2, ya que 4 (del segundo anillo) y 7 (del tercer anillo) se superponen con el anillo central, y 4 + 2 + 7 = 13, lo cual no es correcto. Debemos verificar las combinaciones de los anillos que se superponen correctamente.
+7. Si observamos que el medio debe sumar 10, el número restante que debe estar debajo del signo de interrogación debe ser 2, ya que 6 (del primer anillo) y 3 (del último anillo) suman a 9, y necesitamos un número que sume a 10, por lo que el número restante es 1.
+
+**Respuesta**: B) 2.

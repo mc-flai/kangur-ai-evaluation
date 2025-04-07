@@ -1,0 +1,13 @@
+Raonament:
+1. **Cubs amb una cara pintada:** Són els cubs menuts que es troben a les cares del cub gros, però no a les arestes ni als vèrtexs. Si el cub gros és de mida n x n x n, hi ha (n-2)^2 cubs per cara amb una cara pintada. Com hi ha 6 cares, tenim 6(n-2)^2 cubs amb una cara pintada.
+2. **Cubs sense cap cara pintada:** Són els cubs menuts que formen el nucli del cub gros, i no toquen cap cara. Són els cubs que formen un cub interior de mida (n-2) x (n-2) x (n-2). Així doncs, hi ha (n-2)^3 cubs sense cap cara pintada.
+3. **Igualtat de cubs:** L'enunciat diu que el nombre de cubs amb una cara pintada és igual al nombre de cubs sense cap cara pintada:
+   6(n-2)^2 = (n-2)^3
+4. **Resolució:**
+    * Si n-2 = 0, llavors n = 2, però 6(0)^2 = 0^3, cosa que no ens proporciona cap cub.
+    * Si n-2 ≠ 0, podem dividir ambdós costats per (n-2)^2:
+       6 = n-2
+    * Resolent per n:
+       n = 6 + 2 = 8
+
+Resposta: D)

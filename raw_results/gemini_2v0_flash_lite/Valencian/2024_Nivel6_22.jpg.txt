@@ -1,0 +1,23 @@
+Raonament: Let's consider the two quadratic equations:
+1) ax^2 + bx + c = 0
+2) bx^2 + ax + c = 0
+Let x_0 be the common solution. Then,
+ax_0^2 + bx_0 + c = 0  (1)
+bx_0^2 + ax_0 + c = 0  (2)
+Subtracting (2) from (1):
+(a-b)x_0^2 + (b-a)x_0 = 0
+(a-b)x_0^2 - (a-b)x_0 = 0
+(a-b)(x_0^2 - x_0) = 0
+Since a and b are different (a != b), then a-b != 0. Thus,
+x_0^2 - x_0 = 0
+x_0(x_0 - 1) = 0
+So, x_0 = 0 or x_0 = 1.
+
+If x_0 = 0,  then from (1) c = 0. But it is given that none of a, b, and c are 0. Therefore x_0 = 0 is not necessarily the case.
+If x_0 = 1, then  a + b + c = 0. This is consistent with the equations (1) and (2).
+a(1)^2 + b(1) + c = a + b + c = 0
+b(1)^2 + a(1) + c = b + a + c = 0
+The equation ax^2 + bx + c = 0 does not necessarily have only one real solution.  Consider the case where a=1, b= -2, and c=1. Then x^2 -2x + 1=0; (x-1)^2 = 0, which means x=1.  In this case it is one real solution. But if a=1, b= -3, and c=2. x^2 -3x + 2 = 0; (x-1)(x-2)=0, x=1 or x=2. So not always one real solution.
+The sign of a and b can be positive or negative or mixed.
+
+Resposta: E)

@@ -1,0 +1,21 @@
+Raisonnement :
+1. **Comprendre le problème :** Un lièvre et une tortue courent une distance de 5 km. Le lièvre court 5 fois plus vite. Le lièvre part perpendiculairement à la bonne direction, puis change de direction pour aller vers l'arrivée. Ils arrivent en même temps. Il faut trouver la distance du point de changement de direction du lièvre par rapport à l'arrivée.
+2. **Variables et équations:**
+   * Soit v_t la vitesse de la tortue.
+   * La vitesse du lièvre est 5v_t.
+   * La distance parcourue par la tortue est de 5 km.
+   * Le temps mis par la tortue pour parcourir 5 km est t = 5 / v_t.
+   * Soit x la distance parcourue par le lièvre perpendiculairement à la bonne direction.
+   * La distance restante pour le lièvre est √(x² + 5²) après le changement de direction.
+   * Le temps pris par le lièvre pour parcourir x est t_1 = x / (5v_t).
+   * Le temps pris par le lièvre pour parcourir la distance restante √(x² + 5²) est t_2 = √(x² + 5²) / (5v_t).
+   * Le temps total du lièvre est t = t_1 + t_2 = x / (5v_t) + √(x² + 25) / (5v_t).
+   * Puisque les temps sont égaux, 5/v_t = x / (5v_t) + √(x² + 25) / (5v_t).
+3. **Résoudre l'équation :**
+   * Multiplier par 5v_t,  25 = x + √(x² + 25).
+   * Isoler la racine, 25 - x = √(x² + 25).
+   * Élever au carré : 625 - 50x + x² = x² + 25.
+   * Simplifier : 600 = 50x, donc x = 12 km.
+   * La distance entre le point de changement et l'arrivée est la distance restante de  √(x² + 25) = √(12² + 5²) = √(144+25) = √(169) = 13km.
+
+Réponse : C)

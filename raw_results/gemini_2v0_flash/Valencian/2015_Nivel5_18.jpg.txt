@@ -1,0 +1,10 @@
+Raonament: Siguin a i b els dos costats del triangle, i h l'altura sobre el tercer costat, on a, b, h pertanyen al conjunt {6,7,8}.  L'àrea del triangle és (1/2)*base*altura. Hem de determinar quin dels nombres és l'altura i calcular la longitud de la base.
+
+Cas 1: Altura = 6.  Llavors els costats són 7 i 8.  Si 7 és un costat i 6 és l'altura sobre el tercer costat, sigui x la longitud de la projecció del costat 7 sobre la base.  Aleshores 7^2 = 6^2 + x^2, de manera que x = sqrt(49 - 36) = sqrt(13).  Si 8 és l'altre costat i 6 és l'altura sobre el tercer costat, sigui y la longitud de la projecció del costat 8 sobre la base.  Aleshores 8^2 = 6^2 + y^2, de manera que y = sqrt(64 - 36) = sqrt(28).  La base serà x + y = sqrt(13) + sqrt(28).  L'àrea del triangle serà (1/2) * 6 * (sqrt(13) + sqrt(28)) = 3*(sqrt(13) + sqrt(28)).  Aquesta resposta coincideix amb l'opció A.
+
+Cas 2: Altura = 7.  Llavors els costats són 6 i 8.  Si 6 és un costat i 7 és l'altura sobre el tercer costat, sigui x la longitud de la projecció del costat 6 sobre la base.  Aleshores 6^2 = 7^2 + x^2, de manera que x = sqrt(36 - 49) = sqrt(-13).  Això és impossible perquè sqrt(-13) no és real.
+Cas 3: Altura = 8.  Llavors els costats són 6 i 7.  Si 6 és un costat i 8 és l'altura sobre el tercer costat, sigui x la longitud de la projecció del costat 6 sobre la base.  Aleshores 6^2 = 8^2 + x^2, de manera que x = sqrt(36 - 64) = sqrt(-28).  Això és impossible perquè sqrt(-28) no és real.
+
+Per tant, l'únic cas possible és que l'altura sigui 6, i l'àrea és 3*(sqrt(13) + sqrt(28)).
+
+Resposta: A)

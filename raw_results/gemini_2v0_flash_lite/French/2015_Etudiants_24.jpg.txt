@@ -1,0 +1,20 @@
+Raisonnement :
+1. **Carrés et rectangles:** On sait qu'il y a 7 carrés, et les rectangles sont coloriés en rouge ou en bleu.
+2. **Comparaison des carrés et des rectangles:** Il y a trois rectangles rouges de plus que de carrés bleus. Il y a deux carrés rouges de plus que de rectangles bleus.
+3. **Variables :**
+    *   Soit B = Nombre de rectangles bleus.
+    *   Soit R = Nombre de rectangles rouges.
+    *   Soit Cb = Nombre de carrés bleus.
+    *   Soit Cr = Nombre de carrés rouges.
+    *   On sait que Cb + Cr = 7.
+4. **Equations :**
+    *   R = Cb + 3
+    *   Cr = B + 2
+    *   On sait que les carrés sont en rouge ou bleu.
+    *   R = Cr + Cb
+5. **Résolution :**
+    *   R = (B + 2) + Cb
+    *   Cb + 3 = (B + 2) + Cb
+    *   Donc, B = 1
+
+Réponse : A)

@@ -1,0 +1,15 @@
+Raonament:
+1. **Decodificació:** L'enigma funciona així: la lletra A és 01, B és 02, etc. Aleshores, cada nombre (que representa una lletra) es calcula multiplicant el valor de la lletra per 2 i sumant-hi 9. 
+2. **Processament dels nombres rebuts:** Rebem 25, 39, 45 i 38. Per trobar el número de cada lletra, fem l'operació inversa: restem 9 i dividim per 2.
+    *   25 -> (25 - 9) / 2 = 8 -> H
+    *   39 -> (39 - 9) / 2 = 15 -> O
+    *   45 -> (45 - 9) / 2 = 18 -> R
+    *   38 -> (38 - 9) / 2 = 14.5 -> No és possible que sigui un valor de lletra, hi ha un error.
+3. **Consideració de les opcions:** Analitzem les opcions:
+    *   A) HORA: Per la 4a lletra, hauria de ser "A" i el resultat de 14.5 no coincideix.
+    *   B) HOLA: Hauria de ser 12+9=33, no 38.
+    *   C) HOME: Per la 4a lletra, hauria de ser "E" i el resultat de 14.5 no coincideix.
+    *   D) HORT: Per la 4a lletra, hauria de ser "T" i el resultat de 14.5 no coincideix.
+    *   E) Alícia ha comès un error. Pere no pot desxifrar el missatge original: És l'única viable, donat que hi ha un nombre que no correspon amb una lletra vàlida.
+
+Resposta: E)

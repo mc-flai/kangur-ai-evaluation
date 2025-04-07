@@ -1,0 +1,20 @@
+Reasoning: We want to find integer pairs $(m, n)$ that satisfy $|2m - 2023| + |2n - m| \le 1$.
+Since $m$ and $n$ are integers, the absolute values must also be integers.
+The sum of two non-negative integers is less than or equal to 1 if and only if one is 0 and the other is at most 1, or both are 0, or one is 1 and the other is 0.
+
+Case 1: $|2m - 2023| = 0$. This implies $2m = 2023$. But $m$ is an integer, so $2m$ must be even. However, 2023 is odd, so this case is not possible.
+
+Case 2: $|2m - 2023| = 1$. This implies $2m - 2023 = 1$ or $2m - 2023 = -1$.
+If $2m - 2023 = 1$, then $2m = 2024$, so $m = 1012$. Then $|2n - m| = |2n - 1012| \le 0$, which implies $2n = 1012$, so $n = 506$. Thus, $(m, n) = (1012, 506)$ is a solution.
+If $2m - 2023 = -1$, then $2m = 2022$, so $m = 1011$. Then $|2n - m| = |2n - 1011| \le 0$, which implies $2n = 1011$. But $n$ must be an integer, so $2n$ must be even. However, 1011 is odd, so this case is not possible.
+
+Case 3: $|2n - m| = 0$. This implies $2n = m$, so $|2m - 2023| \le 1$.
+Then $-1 \le 2m - 2023 \le 1$, so $2022 \le 2m \le 2024$, which means $1011 \le m \le 1012$.
+If $m = 1011$, then $2n = 1011$, which is impossible since $n$ is an integer.
+If $m = 1012$, then $2n = 1012$, so $n = 506$. Thus, $(m, n) = (1012, 506)$ is a solution.
+
+Case 4: $|2n - m| = 1$. Then $|2m - 2023| \le 0$, which means $2m = 2023$. But $m$ is an integer, so $2m$ must be even. However, 2023 is odd, so this case is not possible.
+
+Therefore, there is only one pair of integers $(m, n)$ that satisfies the inequality, which is $(1012, 506)$.
+
+Answer: B)

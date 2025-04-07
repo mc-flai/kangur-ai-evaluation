@@ -1,0 +1,14 @@
+**Raisonnement** :
+
+Pour résoudre cette question, nous devons déterminer le nombre minimum d'échanges nécessaires entre une dalle grise et une dalle blanche pour que la vue soit la même de chacun des quatre côtés de la pièce.
+
+La pièce est un parquet carré dessiné composé de dalles carrées ou triangulaires, et nous devons échanger des dalles pour que chaque côté de la pièce ait la même apparence. Observons les quatre côtés de la pièce:
+
+1. Le côté gauche a deux dalles grises et une dalle blanche en bas.
+2. Le côté droit a également deux dalles grises et une dalle blanche en bas.
+3. Le côté supérieur a deux dalles grises et une dalle blanche à gauche.
+4. Le côté inférieur a deux dalles grises et une dalle blanche à gauche.
+
+Pour que tous les côtés soient identiques, il faut échanger la dalle blanche en bas avec la dalle grise située à côté d'elle soit à gauche soit à droite. Cela nécessite un seul échange.
+
+**Réponse** : B)

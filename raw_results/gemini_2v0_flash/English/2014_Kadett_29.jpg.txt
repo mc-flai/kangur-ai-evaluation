@@ -1,0 +1,25 @@
+Reasoning:
+The frog is sitting on one lilly pad. It needs to jump horizontally or vertically over at least one pad. It cannot land on the same lilly pad twice. Let's trace out a path to maximize the number of pads.
+The frog starts at the bottom left. One possibility is:
+1. Start
+2. Right over 1
+3. Up over 1
+4. Right over 1
+5. Up over 1
+6. Left over 1
+
+This gives us 6 pads.
+It might be difficult to find a path that leads to more than 6. Let's consider the pads as (x,y) where the frog starts at (1,1).
+1. (1,1)
+2. (3,1)
+3. (3,3)
+4. (1,3)
+5. (1,1) - Can't do this one because it's already been visited.
+6. (3,3) -> to (3,4) or (4,3).  But it can only jump over one.
+(1,1) can go to (1,3), (1,4), (2,1), (3,1), (4,1).
+The question asks for the maximum number of pads. It is not guaranteed to be easy to count.
+
+Another path: (1,1), (3,1), (3,3), (1,3), (1,4), (3,4).
+This gives us 6 as well. It looks like 6 is the maximum.
+
+Answer: D)

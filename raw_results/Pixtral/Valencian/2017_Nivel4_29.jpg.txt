@@ -1,0 +1,39 @@
+
+La pregunta 29 nos pide determinar el valor de \( a \) para el que el producto \( a(a+1)(a+2) \) es un múltiplo de 84.
+
+Para resolver esto, debemos descomponer 84 en sus factores primos:
+\[ 84 = 2^2 \times 3 \times 7 \]
+
+Para que \( a(a+1)(a+2) \) sea un múltiplo de 84, debe contener al menos los factores \( 2^2 \), \( 3 \) y \( 7 \).
+
+1. **Factor 2:**
+   - \( a \), \( a+1 \) y \( a+2 \) son tres números consecutivos. Uno de ellos debe ser múltiplo de 2, y otro debe ser múltiplo de 4 (ya que necesitamos \( 2^2 \)).
+   - Si \( a \) es múltiplo de 4, \( a+1 \) y \( a+2 \) no lo son.
+   - Si \( a \) no es múltiplo de 4, uno de \( a+1 \) o \( a+2 \) debe ser múltiplo de 4.
+
+2. **Factor 3:**
+   - Uno de \( a \), \( a+1 \) o \( a+2 \) debe ser múltiplo de 3.
+
+3. **Factor 7:**
+   - Uno de \( a \), \( a+1 \) o \( a+2 \) debe ser múltiplo de 7.
+
+Vamos a verificar los valores posibles de \( a \):
+
+- Si \( a = 0 \):
+  - \( a(a+1)(a+2) = 0 \times 1 \times 2 = 0 \) (no es múltiplo de 84)
+
+- Si \( a = 1 \):
+  - \( a(a+1)(a+2) = 1 \times 2 \times 3 = 6 \) (no es múltiplo de 84)
+
+- Si \( a = 2 \):
+  - \( a(a+1)(a+2) = 2 \times 3 \times 4 = 24 \) (no es múltiplo de 84)
+
+- Si \( a = 4 \):
+  - \( a(a+1)(a+2) = 4 \times 5 \times 6 = 120 \) (es múltiplo de 84, ya que \( 120 = 2^3 \times 3 \times 5 \))
+
+- Si \( a = 6 \):
+  - \( a(a+1)(a+2) = 6 \times 7 \times 8 = 336 \) (es múltiplo de 84, ya que \( 336 = 2^4 \times 3 \times 7 \))
+
+Por lo tanto, los valores de \( a \) que hacen que \( a(a+1)(a+2) \) sea un múltiplo de 84 son 4 y 6.
+
+**Respuesta: D) 4 y E) 6**

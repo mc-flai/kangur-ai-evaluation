@@ -1,0 +1,48 @@
+Razonamiento:
+The key to solving this problem is understanding the seating arrangement. Each person states that one of their neighbors is a liar and the other is truthful. This means that liars and truth-tellers must alternate around the table. Since the total number of people attending the banquet is more than 1000, there are at least 1000 people in the banquet.
+
+If we have an even number of people, say 1000, then exactly 500 are liars and 500 are truthful.
+If we have an odd number of people, it is impossible to perfectly alternate liars and truth-tellers. This question does not describe the number of attendees in the banquet, it only says that it is more than 1000. The total number of people in the island is 2017. Let's assume that we have the maximum number of truth-tellers in the banquet, this means that we will have a difference of one.
+
+The minimum number of truth-tellers would be 1009. In order to maximize the number of truth-tellers at the banquet, imagine the following scenario:
+There's an odd number of truth-tellers, say x truth-tellers, so we can have x-1 liars around the table. Every person will say "One of my neighbors is a liar and the other is a truth-teller".
+If the table is a perfect circle, we will have the alternating pattern (T, L, T, L, T, L, ...).
+If there are x truth-tellers in the banquet, there should be x-1 liars.
+The total number of people in the banquet is greater than 1000. So, the minimum number of people in the banquet is 1001. So the maximum number of truth tellers is 1009.
+The total number of people in the island is 2017. Therefore, the number of truth-tellers, at most, is 1009.
+If we have x truth-tellers in the banquet, then there are (x-1) liars in the banquet. The total number of people at the banquet = x + (x-1).
+If x = 1009, then x-1 = 1008. So, 1009 + 1008 = 2017.
+
+Since there are 2017 total people on the island, and at most 1009 truth-tellers could be at the banquet, this means that the number of veraces (truth-tellers) at most, on the island must be less or equal to 1009.
+Now we consider the statement by the question: "More than 1000 of them assist a banquet, seated all around a round table". We can assume at least 1001 people at the banquet. From the question: "De las dos personas que hay sentadas junto a mi, una es mentirosa y la otra es veraz". This gives the condition of alternating. If we have at least 1001, and as the truth-tellers and liars must alternate around the table, the distribution of the truth-tellers is 500 or 501.
+Let 'v' be the number of veraces (truth-tellers) and 'm' be the number of mentirosos (liars). Then, we have the total number of people:
+v + m = 2017
+In the banquet, one neighbor is a liar and the other is truthful. v can be at most v = m + 1. (In this case, number of people in the banquet is 2017, and if we have the alternating sequence, we have 1009 and 1008 at the banquet)
+The total people in the island is 2017. If at least 1001 are in the banquet, v <= 1009.
+In the case that 1009 truthful and 1008 liars are in the banquet. Then the number of truth tellers on the island is v = 1009.
+The statement asks for the number of veraces, a lo sumo, hay en la isla. This means at the most.
+As there can be 1009 truth-tellers.
+If we have a number, 1008 liars and 1009 truth-tellers at the banquet, this totals 2017, and no one remains on the island.
+If the number of people in the banquet is 1001, then the number of liars is 500, the number of truth-tellers is 501.
+There are 2017 people, at most 1009 truth-tellers.
+Total = 2017.
+If v = number of truthful people, then m = 2017 - v
+v must be greater than 1000.
+Let v = 1009
+Then m = 2017 - 1009 = 1008.
+So the maximum number of truthful people is 1009. So the minimum is 1009, then the maximum is 1009.
+If we have 670 truthful people in the banquet.
+The island must have at least 670 truthful people.
+If they are not at the banquet, that would be 2017- 670 = 1347.
+Total 2017 people in the island.
+
+If v = 670, and m = 1347. If v= 670, the people in the banquet are 670 or more. The max would be 670.
+670 at the banquet, this would also follow the rule as well. Then, 670.
+
+v + m = 2017, the number of truth tellers, at most, is 670.
+Let v = 670
+Then m = 1347. The maximum number of truthful people could be 670.
+
+Then we can have a maximum of 670 truthful in the island.
+
+Respuesta: C)

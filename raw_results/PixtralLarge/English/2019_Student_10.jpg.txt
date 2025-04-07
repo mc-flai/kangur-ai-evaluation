@@ -1,0 +1,14 @@
+To determine which kangaroos can say for sure that they are wearing a hat today, we need to analyze the given conditions:
+
+1. If Alex does not wear a hat, Bob wears a hat.
+2. If Bob does not wear a hat, Carl wears a hat.
+3. Today, Carl does not wear a hat.
+
+From condition 3, we know Carl is not wearing a hat. Therefore, according to condition 2, Bob must be wearing a hat (because if Bob did not wear a hat, Carl would have to wear one, but Carl is not wearing a hat).
+
+Since Bob is wearing a hat, we cannot definitively say anything about Alex based on condition 1, as Alex wearing a hat or not does not affect Bob's status (Bob is already wearing a hat).
+
+Hence, the only kangaroo who can say for sure that they are wearing a hat today is Bob.
+
+Reasoning: Based on the given conditions and the fact that Carl is not wearing a hat today, we can deduce that Bob must be wearing a hat.
+Answer: E).

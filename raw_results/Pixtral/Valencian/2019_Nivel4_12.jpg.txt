@@ -1,0 +1,23 @@
+
+La pregunta 12 dice: "Un parc té cinc portes. Mònica va entrar per una porta i va sortir per una de diferent. De quantes maneres diferents ho pot fer?"
+
+Para determinar el número de maneras diferentes en que Mònica puede entrar y salir por puertas diferentes en un parque con cinco puertas, podemos usar combinaciones sin repetición. Esto se debe a que el orden de entrar y salir importa (entrar por una puerta y salir por otra diferente).
+
+1. **Identificar el problema**: Necesitamos encontrar el número de combinaciones posibles de dos puertas diferentes de cinco puertas.
+
+2. **Usar la fórmula de combinaciones**: La fórmula para combinaciones sin repetición de \( n \) elementos tomados de \( r \) en \( r \) es:
+   \[
+   C(n, r) = \frac{n!}{r!(n-r)!}
+   \]
+   En este caso, \( n = 5 \) (las puertas) y \( r = 2 \) (entrar y salir).
+
+3. **Calcular el valor**:
+   \[
+   C(5, 2) = \frac{5!}{2!(5-2)!} = \frac{5 \times 4}{2 \times 1} = 10
+   \]
+
+4. **Verificar las opciones**: La opción E) 10 coincide con el resultado calculado.
+
+**Respuesta**: E)
+
+**Raonament**: Utilizamos la fórmula de combinaciones para determinar el número de maneras diferentes en que Mònica puede entrar y salir por puertas diferentes en un parque con cinco puertas. El cálculo muestra que hay 10 combinaciones posibles, lo que coincide con la opción E).

@@ -1,0 +1,25 @@
+Raonament: S'expressa el nombre $n$ com:
+
+$$10^{n} + 1,$$les condicions són que l'expressió anterior siga divisible per 11. El critéri de divisibiltat per 11 estableix que si se sumen les columnes alternes d'un número així:
+
+$$d_1, d_2, d_3,\dots,d_n,$$
+
+el número és divisible per 11 si, i només si, la suma de les columnes senar és divisible per 11, menys la suma de les columnes parells. En aquest cas, $d_1, d_2, d_3, \dots, d_n$ és equivalent a $1,0,0\dots,0$.
+
+Per tant, la condició de què el número siga divisible per 11 és:
+
+$$1 - (0+0+0 \dots +0) = 1,$$
+
+on la suma de les xifres senars sempre és 1.
+
+Per concloure, necessitem que $n$ vagi creixent fins que l'exponent sia 0 (indicant l'arribada a la segona xifraGU11 missingNo i generar la suma):
+
+$$10^{n - 2} + 1 - (10^{n - 1}+10^{n - 3}+\dots)= 0 ,$$
+
+pels càlculs anteriors. Aquesta equació requereix que el nombre d'elements flotants i la suma de la part amb zeros siguin parelles.
+
+Simplificant l'equació anterior per $n \ge 2$:
+
+$$10^{n - 2} - (10^{n - 1} + 1) - 10^{n - даже} + \dots  = - 1 * (1 + subserveix10 + 1 + \dots) \equiv -1.$$ Per tant, sabem que $n$ és parell des del segon element fins al valor $d_n-3$, cosa que indica que $n$ és meitat de la suma de columnes (de vegades impar) és 2 mai excedirà el seu valor, $n-4$, a excepció de la primera nominada en la llista donada un BornD , i en aquesta No Conj
+
+Resposta: No Answer

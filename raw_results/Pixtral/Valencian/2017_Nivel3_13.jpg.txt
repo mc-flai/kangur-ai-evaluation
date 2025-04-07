@@ -1,0 +1,18 @@
+**Razonamiento:**
+1. Identifica el valor de la expresión dada: \(111 - 110 - 109 + 108 + 107 - 106 - 105 + 104 + 103 - \ldots + 4 + 3 - 2 - 1\).
+2. Observa el patrón en la expresión. Los términos alternan entre positivo y negativo.
+3. Calcula el valor de los primeros términos:
+   - \(111 - 110 = 1\)
+   - \(-109 + 108 = -1 + 108 = 107\)
+   - \(107 - 106 = 1\)
+   - \(-105 + 104 = -1 + 104 = 103\)
+   - \(103 - 102 = 1\)
+   - \(\ldots\)
+4. Continúa este patrón hasta el término final:
+   - \(-2 + 3 = 1\)
+   - \(-1 = -1\)
+5. Suma todos los términos calculados:
+   - \(1 + 107 + 1 + 103 + 1 + \ldots + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + (-1)\)
+6. Dado que hay muchos términos de 1 y solo un término de -1, el valor total será 0.
+
+**Respuesta:** B)

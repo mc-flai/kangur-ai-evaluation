@@ -1,0 +1,18 @@
+**Reasoning**: To determine the number of different possibilities Susi has to visit exactly two animals without starting with the lion, we need to calculate the number of combinations of 2 animals out of the 3 available options (giraffe, elephant, and turtle), and then multiply by the number of permutations for each pair (since the order matters).
+
+1. Calculate the number of combinations of 2 animals out of the 3 available:
+   - Choose 2 out of 3 animals: C(3, 2) = 3! / (2! * (3-2)!) = 3
+
+2. Calculate the number of permutations for each pair (since the order matters):
+   - For each pair, there are 2! = 2 permutations.
+
+3. Multiply the number of combinations by the number of permutations:
+   - Total possibilities = 3 combinations * 2 permutations per combination = 6
+
+4. Add the single case where Susi visits the lion last (which involves choosing 1 out of the remaining 3 animals to visit first):
+   - Choose 1 out of 3 animals: C(3, 1) = 3
+
+5. Total possibilities:
+   - Total = 6 (from the pairs) + 3 (from visiting the lion last) = 9
+
+**Answer**: D).

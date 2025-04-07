@@ -1,0 +1,7 @@
+Raonament:
+1. **Calcula el nombre de grups de tres vagons:** Hi ha 11 vagons, per tant, hi ha 3 grups complets de 3 vagons (3 grups * 3 vagons/grup = 9 vagons) i queden 2 vagons restants.
+2. **Calcula els passatgers en els grups de 3 vagons:** Cada grup de tres vagons té 99 passatgers.  Hi ha 3 grups de 3 vagons, per tant, hi ha 3 * 99 = 297 passatgers en aquests vagons.
+3. **Calcula els passatgers en els vagons restants:** El tren té 350 passatgers en total.  Hi ha 2 vagons restants. Restem els passatgers dels grups de 3 vagons: 350 - 297 = 53 passatgers als dos vagons restants.
+4. **Determina els passatgers al sisè vagó:** El sisè vagó està en el segon grup de tres vagons.  Però, sabem que cada grup té 99 passatgers. Necessitem trobar el nombre de passatgers en el sisè vagó. Els grups de tres vagons no donen informació sobre el nombre individual de passatgers en cada vagó. La distribució podria ser desigual. Els dos vagons restants tenen 53 passatgers, però no podem determinar amb la informació proporcionada quants passatgers hi ha exactament al sisè vagó, ja que no sabem com es distribueixen els 99 passatgers dins de cada grup de 3 vagons. Tot i així, tenim que el nombre total de passatgers és 350 i el dels vagons no inclusos en els grups de 3 és 53, per la qual cosa els grups tenen 297. Si assumim que la distribució és igualitaria en cadascun dels vagons, i que per tant, els tres vagons tenen el mateix nombre de passatgers, obtindríem 99/3 = 33.
+
+Resposta: B) 33

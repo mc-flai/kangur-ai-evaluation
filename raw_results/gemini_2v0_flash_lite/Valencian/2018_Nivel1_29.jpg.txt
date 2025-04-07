@@ -1,0 +1,61 @@
+Raonament: The current odometer reading is 187569.  We need to find the next number where all the digits are unique. We can start incrementing from 187569 to find the smallest number greater than this with all distinct digits.
+187570 - 7 appears twice
+187571 - 7 appears twice
+187572 - 7 appears twice
+187573 - 7 appears twice
+187574 - 7 appears twice
+187575 - 5, 7 appear twice
+187576 - 7 appears twice
+187578 - 7 appears twice
+187579 - 7 appears twice
+...
+Let's try to find a new number. Since the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 are all available, one possibility would be 1875xx. The next distinct digit would be to change the 69 to the highest number that is not yet in the current set of digits, which will be 0, 2, 3, 4; 0, 2, 3, 4 must replace 69. Thus, the next number that all distinct digits will be 187502, this needs to be the lowest possible. So if we increment the current km to 187620. We must increase it to 190234. Since we are looking for minimum km. 
+187569 + x = 190234 - No.
+So, let's keep the first digits.
+187569 + x = 18759x. So x must be more than 9. Since x is 0, then 18760. The next is 187620. This would be greater than 50.
+The next value would be 187630 with a 0 already. This would mean it must be 187640. Next should be 187650.
+187640 is not, 187630
+187634 not distinct
+187620
+If it is 187569, the first digit is not equal to 6. The possible numbers are 0, 2, 3, 4, 8, 9
+187569 + x
+Next number must be 187602.
+187602 - 187569 = 33 (not an option)
+187569 + x = 187602 -> x = 33
+So 187620. 187620-187569 = 51
+187602 is the first value, then 187602 - 187569 = 33, and is greater than 31.
+So, 187602 -> 33
+187620 -> 51
+187630 -> Not all distinct.
+187640 is not, 187630
+187602
+187620
+187630
+187640 is not.
+187602 has distinct.
+187620. is 51
+187569 + x = 187602
+x = 33
+187602 is distinct.
+187620 is not all different.
+Then,
+187630 - not
+187640 - not
+187650 - not
+187680 - not
+187690 is not distinct.
+187902
+187902 - 187569 = 333.
+Try 190234,
+190234 - 187569 = 2665.
+Try 187602. 187602-187569 = 33
+The question is the minimum.
+187569 + x
+Next one is 187602.
+187569 + x = 187602.
+x = 33
+A, B, C, D, E
+D is the closest to the right one.
+
+Answer: D)
+Resposta: D)

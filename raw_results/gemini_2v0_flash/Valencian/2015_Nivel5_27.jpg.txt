@@ -1,0 +1,23 @@
+Raonament: Aquesta és una qüestió de partició d'un nombre en determinades parts. Tenim monedes de 0,50 €, 1 € i 2 €. Volem obtenir un total de 100 €.
+Sigui x el nombre de monedes de 2 €, y el nombre de monedes d'1 € i z el nombre de monedes de 0,50 €.
+Aleshores, 2x + y + 0.5z = 100. Multiplicant per 2, tenim 4x + 2y + z = 200.
+Com que x, y i z són nombres enters no negatius, podem analitzar els valors possibles per a x.
+x pot variar des de 0 fins a 50.
+Per a cada valor de x, tenim 2y + z = 200 - 4x.
+Sigui k = 200 - 4x. Aleshores 2y + z = k.
+Per a un valor fix de k, y pot prendre valors des de 0 fins a k/2.
+Per a cada valor de y, z queda determinat com z = k - 2y.
+Així, per a un valor fix de k, el nombre de solucions per a y és k/2 + 1 si k és parell.
+Si k és imparell, el nombre de solucions per a y és (k-1)/2 + 1 = (k+1)/2.
+En resum, el nombre de solucions per a y i z és floor(k/2) + 1. Com que k sempre serà parell, tenim k/2+1.
+Per tant, per a cada valor de x, el nombre de solucions és (200 - 4x)/2 + 1 = 100 - 2x + 1 = 101 - 2x.
+Ara, necessitem sumar tots aquests resultats per a x = 0 fins a x = 50.
+S = sum(101 - 2x) per a x = 0 fins a 50.
+S = sum(101) - 2*sum(x)
+S = 101 * 51 - 2 * (50 * 51) / 2
+S = 101 * 51 - 50 * 51
+S = (101 - 50) * 51
+S = 51 * 51
+S = 2601
+
+Resposta: C)

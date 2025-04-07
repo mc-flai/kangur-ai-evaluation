@@ -1,0 +1,29 @@
+**Pregunta:** Trobar un nombre \( a \) que sigui múltiple de 1, \( a + 1 \) sigui múltiple de 2, \( a + 2 \) sigui múltiple de 3, \( a + 3 \) sigui múltiple de 4, \( a + 4 \) sigui múltiple de 5 però \( a + 5 \) no sigui múltiple de 6? A) No, no és possible. B) Sí, el menor d'aquest tipus de nombre té dues xifres. C) Sí, el menor d'aquest tipus de nombre té tres xifres. D) Sí, el menor d'aquest tipus de nombre té quatre xifres. E) Sí, el menor d'aquest tipus de nombre té cinc o més xifres.
+
+**Razonament:**
+1. Un nombre que sigui múltiple de 1 és qualsevol nombre.
+2. Un nombre que sigui múltiple de 2 és un nombre parell.
+3. Un nombre que sigui múltiple de 3 és un nombre que, quan es suma 3, és múltiple de 3.
+4. Un nombre que sigui múltiple de 4 és un nombre que, quan es suma 3, és múltiple de 4.
+5. Un nombre que sigui múltiple de 5 és un nombre que, quan es suma 3, és múltiple de 5.
+6. Un nombre que no sigui múltiple de 6 és un nombre que, quan es suma 3, no és múltiple de 6.
+
+Vam a buscar un nombre \( a \) que satisfagi aquestes condicions:
+
+- \( a \) és múltiple de 1: Qualsevol nombre.
+- \( a + 1 \) és múltiple de 2: \( a \) és un nombre parell.
+- \( a + 2 \) és múltiple de 3: \( a + 2 \equiv 0 \mod 3 \).
+- \( a + 3 \) és múltiple de 4: \( a + 3 \equiv 0 \mod 4 \).
+- \( a + 4 \) és múltiple de 5: \( a + 4 \equiv 0 \mod 5 \).
+- \( a + 5 \) no és múltiple de 6: \( a + 5 \not\equiv 0 \mod 6 \).
+
+Comencem amb \( a = 0 \):
+- \( a + 1 = 1 \) (múltiple de 2)
+- \( a + 2 = 2 \) (múltiple de 3)
+- \( a + 3 = 3 \) (múltiple de 4)
+- \( a + 4 = 4 \) (múltiple de 5)
+- \( a + 5 = 5 \) (no múltiple de 6)
+
+Així, \( a = 0 \) satisfà totes les condicions.
+
+**Resposta:** A) A

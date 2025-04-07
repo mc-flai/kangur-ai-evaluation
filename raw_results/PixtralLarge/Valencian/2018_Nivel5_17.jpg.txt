@@ -1,0 +1,49 @@
+Per resoldre aquesta pregunta, hem de recordar les propietats d'un polígon regular:
+
+1. En un polígon regular, tots els costats tenen la mateixa longitud i tots els angles interns són iguals.
+2. El nombre de costats d'un polígon també és igual al nombre de vèrtexs.
+3. El nombre de diagonals d'un polígon regular es calcula amb la fórmula:
+   \[
+   \text{Nombre de diagonals} = \frac{n(n-3)}{2}
+   \]
+   on \( n \) és el nombre de costats (i vèrtexs).
+
+D'acord amb l'enunciat, la suma del nombre de costats i el nombre de diagonals és 28.
+
+Primer, calculem el nombre de diagonals per diferents valors de \( n \):
+
+- Per \( n = 6 \):
+  \[
+  \text{Nombre de diagonals} = \frac{6(6-3)}{2} = \frac{6 \times 3}{2} = 9
+  \]
+  Suma de costats i diagonals: \( 6 + 9 = 15 \)
+
+- Per \( n = 8 \):
+  \[
+  \text{Nombre de diagonals} = \frac{8(8-3)}{2} = \frac{8 \times 5}{2} = 20
+  \]
+  Suma de costats i diagonals: \( 8 + 20 = 28 \)
+
+- Per \( n = 9 \):
+  \[
+  \text{Nombre de diagonals} = \frac{9(9-3)}{2} = \frac{9 \times 6}{2} = 27
+  \]
+  Suma de costats i diagonals: \( 9 + 27 = 36 \)
+
+- Per \( n = 10 \):
+  \[
+  \text{Nombre de diagonals} = \frac{10(10-3)}{2} = \frac{10 \times 7}{2} = 35
+  \]
+  Suma de costats i diagonals: \( 10 + 35 = 45 \)
+
+- Per \( n = 11 \):
+  \[
+  \text{Nombre de diagonals} = \frac{11(11-3)}{2} = \frac{11 \times 8}{2} = 44
+  \]
+  Suma de costats i diagonals: \( 11 + 44 = 55 \)
+
+Només amb \( n = 8 \) la suma del nombre de costats i diagonals és 28.
+
+Raonament: Hem calculat el nombre de diagonals per diferents valors de \( n \) i sumat aquest valor al nombre de costats per trobar la suma igual a 28. La suma és correcta per \( n = 8 \).
+
+Resposta: B) 8

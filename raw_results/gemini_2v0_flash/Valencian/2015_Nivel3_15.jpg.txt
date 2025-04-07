@@ -1,0 +1,7 @@
+Raonament: Primer observem que 999.999.999 = 10^9 - 1. El numerador es pot reescriure com 999.999.999 * 10^9 + 999.999.999 = (10^9-1)*10^9 + (10^9-1) = 10^18 - 10^9 + 10^9 - 1 = 10^18 - 1.
+L'expressió donada es converteix en (10^18 - 1) / (10^9 - 1) - 1.
+Utilitzant la identitat a^2 - b^2 = (a-b)(a+b), podem escriure 10^18 - 1 = (10^9 - 1)(10^9 + 1).
+Per tant, (10^18 - 1) / (10^9 - 1) = 10^9 + 1.
+Finalment, 10^9 + 1 - 1 = 10^9.
+
+Resposta: D)

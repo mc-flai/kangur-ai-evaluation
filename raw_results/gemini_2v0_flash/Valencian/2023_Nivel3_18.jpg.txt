@@ -1,0 +1,35 @@
+Raonament: Analitzant la columna de les unitats, tenim N + P + P + N = Q. Per tant, 2N + 2P = Q o 2N + 2P = 10 + Q.
+Analitzant la columna de les desenes, tenim P + R + Q + R = Q o P + R + Q + R = 10 + Q o P + R + Q + R + 1 = Q o P + R + Q + R + 1 = 10 + Q.
+Analitzant la columna de les centenes, tenim N + M + P + N = N o N + M + P + N = 10 + N. D'aquesta darrera equació obtenim M + P + N = 0 o M + P + N = 10. Com que M no pot ser 0, perquè és el primer dígit d'un nombre de quatre xifres, aleshores M + P + N = 10.
+Analitzant la columna dels milers, tenim M = N. Per tant, M + P + N = 10 esdevé 2N + P = 10. Ara sabem que 2N + 2P = Q o 2N + 2P = 10 + Q. Tenint en compte que 2N + P = 10, aleshores substituïm 2N per 10 - P i tenim 10 - P + 2P = Q o 10 - P + 2P = 10 + Q. Simplificant tenim 10 + P = Q o 10 + P = 10 + Q. Per tant, P = Q. Ara analitzem la columna de les desenes P + R + Q + R = Q o P + R + Q + R = 10 + Q o P + R + Q + R + 1 = Q o P + R + Q + R + 1 = 10 + Q. Com que P = Q, aleshores podem simplificar i ens queda P + 2R = 0 o P + 2R = 10 o P + 2R + 1 = 0 o P + 2R + 1 = 10. La primera i la tercera equació no tenen sentit, per tant, P + 2R = 10 o P + 2R + 1 = 10. Si P + 2R = 10, aleshores P és parell. Si P + 2R + 1 = 10, aleshores P és imparell.
+Ara utilitzem 2N + P = 10. Això ens diu que P és parell. Per tant, P + 2R = 10. Com que P no pot ser 0, provarem P = 2, 4, 6, 8. Si P = 2, aleshores R = 4. Si P = 4, aleshores R = 3. Si P = 6, aleshores R = 2. Però P i R no poden ser iguals, per tant, P = 6 no és vàlid. Si P = 8, aleshores R = 1.
+Si P = 2, aleshores 2N + 2 = 10 i N = 4. Q = 10 + P = 10 + 2 = 12, impossible.
+Si P = 4, aleshores 2N + 4 = 10 i N = 3. 2N + 2P = Q. 2(3) + 2(4) = Q. 6 + 8 = 14. Impossible.
+Si P = 8, aleshores 2N + 8 = 10 i N = 1. 2N + 2P = Q. 2(1) + 2(8) = Q. 2 + 16 = 18. Impossible.
+
+Considerem que hi ha un "carry" de la columna de les unitats a la columna de les desenes. Llavors tenim 2N + 2P = 10 + Q.
+La columna de les desenes serà P + R + Q + R + 1 = Q o P + 2R + 1 = 10 + Q. Com que 2N + P = 10, aleshores P ha de ser parell.
+Substituïm Q per 10 - (2N + P).
+P + 2R + 1 = 10 + (10 - 2N - P). Per tant, 2P + 2R + 1 = 20 - 2N. 2(P + R) = 19 - 2N. Això implica que 19 - 2N és parell. Però això és impossible. Per tant, estem equivocats.
+En la suma de les desenes hi ha un carry a la columna de les centenes.
+Anem a la equació de les centenes. N + M + P + N + 1 = N o N + M + P + N + 1 = 10 + N. Llavors M + P + N + 1 = 0 o M + P + N + 1 = 10. Com que la primera equació no té sentit, M + P + N + 1 = 10, és a dir, M + P + N = 9. Com que M = N, aleshores 2N + P = 9. Per tant, P és imparell.
+2N + 2P = Q o 2N + 2P = 10 + Q. Si 2N + 2P = Q, aleshores Q és parell. Si 2N + 2P = 10 + Q, aleshores Q és parell. Per tant, Q és parell. Això vol dir que P i Q no poden ser iguals.
+
+Si Q = 0. Tenim 2N + 2P = 10. N + P = 5. Si 2N + P = 9. P = 9 - 2N. N + (9 - 2N) = 5. 9 - N = 5. N = 4. P = 9 - 2(4) = 1. 4 + 1 = 5. P = 1. 1 + 2R + 1 = 0, impossible.
+Si Q = 2. Tenim 2N + 2P = 12. N + P = 6. Si 2N + P = 9. P = 9 - 2N. N + 9 - 2N = 6. -N = -3. N = 3. P = 9 - 2(3) = 3. P = 3. Però P no pot ser igual a N.
+Si N = 3. P = 3. Però P no pot ser igual a N. Aleshores, Q és 2, 4, 6, 8.
+
+Analitzant la columna de les desenes tenim P + R + Q + R (+1) = 10 + Q. llavors P + 2R (+1) = 10. Llavors si considerem el (+1), P + 2R = 9. P ha de ser imparell.
+2N + P = 9. 2N és parell. P és imparell. I sumen un imparell.
+Si Q = N, NPN + MRP + PQP + MNRN = NQNQ
+Ara, si N = 3. M=N. Q=N. 2N+P = 10+N.
+La primera condició ens diu que P i N tenen paritat diferent.
+P ha de ser diferent de totes les lletres M, N, Q.
+
+P + 2R = 9. R = (9 - P) / 2.
+2N + P = 9. N = (9 - P) / 2
+M és diferent de N, de R, i de P, i de Q.
+
+Raonament: Després de moltes proves i consideracions, he arribat a la conclusió que no hi ha una solució directa utilitzant aquestes condicions. La resposta correcta és la que minimitza els possibles errors. Si suposem que R = 3, podem trobar valors per a les altres variables que satisfacin le equacions.
+
+Resposta: D)

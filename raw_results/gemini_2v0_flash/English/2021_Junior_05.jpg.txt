@@ -1,0 +1,15 @@
+Reasoning:
+Let $H_1$ and $V_1$ be the scores of the home and visiting teams in the first half, respectively.
+Let $H_2$ and $V_2$ be the scores of the home and visiting teams in the second half, respectively.
+We are given $H_1 = 9$ and $V_1 = 14$.
+The home team scored twice as many goals as their opponents in the second half, so $H_2 = 2V_2$.
+The home team won the match by one goal, which means $(H_1 + H_2) = (V_1 + V_2) + 1$.
+Substituting the known values, we have $(9 + H_2) = (14 + V_2) + 1$, so $9 + H_2 = 15 + V_2$.
+We also know $H_2 = 2V_2$. Substituting this into the previous equation, we get $9 + 2V_2 = 15 + V_2$.
+Solving for $V_2$, we have $V_2 = 15 - 9 = 6$.
+Then $H_2 = 2V_2 = 2(6) = 12$.
+The final score of the home team is $H_1 + H_2 = 9 + 12 = 21$.
+The final score of the visiting team is $V_1 + V_2 = 14 + 6 = 20$.
+So the final score of the match is 21:20.
+
+Answer: B)

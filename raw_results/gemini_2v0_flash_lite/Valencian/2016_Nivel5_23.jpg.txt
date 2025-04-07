@@ -1,0 +1,10 @@
+Raonament: This is a classic binary search problem.  With each question, you're effectively halving the possible range of numbers.  Since there are 15 numbers, we need to find the smallest power of 2 that is greater than or equal to 15.
+
+*   2^1 = 2 (Not enough)
+*   2^2 = 4 (Not enough)
+*   2^3 = 8 (Not enough)
+*   2^4 = 16 (Enough)
+
+Therefore, 4 questions are needed.
+
+Resposta: D)

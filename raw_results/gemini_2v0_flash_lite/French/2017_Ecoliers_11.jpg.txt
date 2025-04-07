@@ -1,0 +1,10 @@
+Raisonnement :
+Marius veut acheter 70 ballons en utilisant le moins de sachets possible. Les sachets sont de 5, 10 et 25 ballons. Pour minimiser le nombre de sachets, il faut privilégier les grands sachets.
+*   Si on prend 2 sachets de 25 ballons, cela fait 50 ballons. Il reste 20 ballons à acheter.
+*   On peut compléter avec 2 sachets de 10 ballons.
+*   On a donc 2 + 2 = 4 sachets.
+Vérifions que cette combinaison est la meilleure :
+*   Si on prend 1 sachet de 25, il reste 45 ballons. On peut prendre 4 sachets de 10 et 1 de 5 (6 sachets).
+*   Si on ne prend aucun sachet de 25, il faut utiliser des sachets de 10 ou 5. Il faut au minimum 7 sachets (7 x 10) ou 14 sachets (14 x 5) ou une combinaison des deux.
+
+Réponse : B) 4

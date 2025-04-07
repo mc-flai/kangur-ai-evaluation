@@ -1,0 +1,13 @@
+Razonamiento:
+Sean los lados del triángulo isósceles a, a y b. El perímetro es 2a + b = 58. También debe cumplirse la desigualdad triangular: 2a > b.
+De la ecuación del perímetro, b = 58 - 2a. Sustituyendo en la desigualdad triangular:
+2a > 58 - 2a
+4a > 58
+a > 58/4 = 14.5
+Dado que a debe ser un entero, a >= 15.
+Además, b debe ser positivo, por lo que 58 - 2a > 0, lo que implica que 2a < 58, y a < 29.
+Por lo tanto, 15 <= a <= 28.
+El número de valores enteros posibles para a es 28 - 15 + 1 = 14.
+Por lo tanto, hay 14 triángulos isósceles diferentes que cumplen con las condiciones dadas.
+
+Respuesta: B)

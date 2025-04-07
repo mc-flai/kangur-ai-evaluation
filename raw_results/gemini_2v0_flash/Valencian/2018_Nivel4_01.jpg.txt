@@ -1,0 +1,20 @@
+Raonament:
+Hem de trobar el nombre més gran i el més petit de 3 xifres tals que la suma dels seus dígits sigui 8.
+
+El nombre més petit serà de la forma 1XY, on 1 + X + Y = 8, així que X + Y = 7. Per tal que el nombre sigui el més petit possible, X ha de ser el més petit possible, per tant, X = 0 i Y = 7. Llavors, el nombre més petit és 107.
+
+El nombre més gran serà de la forma ZWV, on Z + W + V = 8. Per tal que el nombre sigui el més gran possible, Z ha de ser el més gran possible, per tant, Z = 8 i W i V han de ser 0. Així, el nombre és 800.
+Si Z < 8, l'altre valor pot ser 7 i 0. Per tant 710, 701.
+Si Z < 7, l'altre valor pot ser 6 i 1. Per tant 620, 611, 602.
+Si Z < 6, l'altre valor pot ser 5 i 2. Per tant 530, 521, 512, 503.
+Si Z < 5, l'altre valor pot ser 4 i 3. Per tant 440, 431, 422, 413, 404.
+Si Z < 4, l'altre valor pot ser 3 i 4. Per tant 350, 341, 332, 323, 314, 305.
+Si Z < 3, l'altre valor pot ser 2 i 5. Per tant 260, 251, 242, 233, 224, 215, 206.
+Si Z < 2, l'altre valor pot ser 1 i 6. Per tant 170, 161, 152, 143, 134, 125, 116, 107.
+
+El nombre més gran amb aquesta propietat és 800.
+El nombre més petit amb aquesta propietat és 107.
+
+La suma és 800 + 107 = 907.
+
+Resposta: B)

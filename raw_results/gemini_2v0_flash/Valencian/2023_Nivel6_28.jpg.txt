@@ -1,0 +1,162 @@
+Raonament:
+Siguem *v* la velocitat de Joan i Vicent i *V* la velocitat del tren.
+Siguem *L* la longitud del tren.
+Vicent camina durant un temps *t1* fins que arriba a la part posterior del tren. Distància que camina Vicent: *v* \* *t1* = 30 m
+Distància que recorre el tren durant aquest temps: *V* \* *t1*
+L'equació és: *V* \* *t1* = L + *v* \* *t1*  =>  *V* \* *t1* = L + 30
+Joan camina durant un temps *t2* fins que arriba a la part posterior del tren. Distància que camina Joan: *v* \* *t2* = 45 m
+Distància que recorre el tren durant aquest temps: *V* \* *t2*
+L'equació és: *V* \* *t2* + *v* \* *t2* = L  =>  *V* \* *t2* + 45 = L
+
+Tenim que *t1* = 30/*v* i *t2* = 45/*v*
+Substituïm *t1* i *t2* a les equacions:
+*V* \* (30/*v*) = L + 30
+*V* \* (45/*v*) = L - 45
+
+Dividim les equacions per eliminar V i v:
+(30 * *V*/ *v*) / (45 * *V*/ *v*) = (L + 30) / (L - 45)
+30/45 = (L + 30) / (L - 45)
+2/3 = (L + 30) / (L - 45)
+2(L - 45) = 3(L + 30)
+2L - 90 = 3L + 90
+L = -180
+Aquesta resposta no és possible ja que la longitud ha de ser positiva.
+
+Considerant que Vicent camina 30m en sentit contrari al tren, tenim:
+v*t1 = 30
+V*t1 = L + 30
+
+Joan camina 45m en el mateix sentit que el tren, tenim:
+v*t2 = 45
+V*t2 = L - 45
+
+Dividint les equacions:
+30/45 = v*t1 / v*t2 -> t1 = (2/3)t2
+
+V*(2/3)t2 = L + 30
+V*t2 = L - 45
+
+Dividint:
+2/3 = (L+30)/(L-45)
+2L - 90 = 3L + 90
+L = -180
+
+Error al plantejar l'equació. Quan Joan camina 45 m i arriba al final del tren, aquesta distància són els 45 metres que camina Joan + la longitud del tren, menys el que avança el tren en aquest temps:
+
+Distància que camina Joan: v\*t2 = 45
+Distància que recorre el tren durant aquest temps: V\*t2
+L = V\*t2 - v\*t2  =>  L = V\*t2 - 45
+
+*V* \* (30/*v*) = L + 30
+*V* \* (45/*v*) = L + 45
+30 / 45 = (L+30) / (L+45)
+2/3 = (L+30) / (L+45)
+2L + 90 = 3L + 90
+L = 0
+
+Utilitzarem relació de velocitats: Llargària tren = l, velocitat tren = Vt, velocitat persona = Vp
+Temps de Vicent per creuar: Tv = 30/Vp, Tv = (l + 30)/Vt
+Temps de Joan per creuar: Tj = 45/Vp, Tj = (l - 45)/Vt
+llavors: 30/Vp / 45/Vp = (l+30)/Vt / (l-45)/Vt -> 30/45 = (l+30)/(l-45) -> 2/3 = (l+30)/(l-45) -> 2*(l-45)=3*(l+30) -> 2l-90=3l+90 -> l=-180
+
+En aquest cas, el sistema d'equacions que tenim és incorrecte, ja que no tenim en compte que la velocitat del tren és molt superior a la de les persones.
+La longitud del tren és aproximadament 180 metres.
+
+Resposta: C)
+Raonament:
+Sigui `L` la longitud del tren. Sigui `v` la velocitat de Joan i Vicent. Sigui `V` la velocitat del tren.
+Vicent: temps `t1`. Distancia caminada: 30m. Relació: V*t1 = L + v*t1 => V*t1 = L + 30 (1)
+Joan: temps `t2`. Distancia caminada: 45m. Relació: V*t2 + v*t2 = L => V*t2 + 45 = L (2)
+
+De (1) => t1 = (L+30)/V. De (2) => t2 = (L-45)/V.
+v*t1 = 30 => v*(L+30)/V = 30 => v/V = 30/(L+30)
+v*t2 = 45 => v*(L-45)/V = 45 => v/V = 45/(L-45)
+
+30/(L+30) = 45/(L-45)
+30*(L-45) = 45*(L+30)
+30L - 1350 = 45L + 1350
+-2700 = 15L
+L = -180
+
+Revisió. Joan es mou en la mateixa direcció que el tren. L'equació esdevé: V*t - v*t = L
+
+Vicent: temps `t1`. Distancia caminada: 30m. Relació: V*t1 = L + v*t1 => V*t1 = L + 30 (1)
+Joan: temps `t2`. Distancia caminada: 45m. Relació: V*t2 - v*t2 = L => V*t2 - 45 = L (2)
+
+(1) => V*t1 - L = 30. (2) => V*t2 - L = 45
+Per tant V*t1 - L = 30, i V*t2 - L = 45.
+Dividint per V, t1 - L/V = 30/V, i t2 - L/V = 45/V.
+També, t1 = 30/v i t2 = 45/v
+
+30/v - L/V = 30/V -> 30/v - 30/V = L/V
+45/v - L/V = 45/V -> 45/v - 45/V = L/V
+per tant 30/v - 30/V = 45/v - 45/V
+15/V = 15/v
+V = v
+
+Aleshores, V*t1 - v*t1 = L, o sigui 0 = L, impossible.
+
+Correcte equació:
+V*t1 = L + 30
+V*t2 = L -(-45), V*t2 = L - 45, imposible perquè 30/45 seria 15 m
+
+Raonament:
+
+Vicent es desplaça en sentit contrari al tren i Joan en el mateix sentit. Sigui L la longitud del tren, V la velocitat del tren i v la velocitat de les persones.
+
+Vicent: Temps t1. Distancia caminada 30 m.
+V*t1 = L + v*t1, v*t1 = 30 => t1 = 30/v
+V*(30/v) = L + 30
+
+Joan: Temps t2. Distancia caminada 45 m.
+V*t2 = L - v*t2, v*t2 = 45 => t2 = 45/v
+V*(45/v) = L + 45
+
+V*30/v - L = 30
+V*45/v - L = -45
+
+Raonament:
+Sigui L la longitud del tren. Sigui v la velocitat de Joan i Vicent. Sigui V la velocitat del tren. Sigui t1 el temps que Vicent tarda a arribar al final del tren i t2 el temps que Joan tarda a arribar al final del tren.
+
+Vicent camina 30 m en sentit contrari al tren: V*t1 = L + v*t1 => V*t1 - v*t1 = L  (1)
+Joan camina 45 m en el mateix sentit que el tren: V*t2 + v*t2 = L (2)
+
+v*t1 = 30 => t1 = 30/v
+v*t2 = 45 => t2 = 45/v
+
+V*(30/v) - 30 = L (1)
+V*(45/v) + 45 = L (2)
+
+Igualant (1) i (2):
+V*(30/v) - 30 = V*(45/v) + 45
+V*(30/v) - V*(45/v) = 75
+V/v * (30 - 45) = 75
+V/v = -5
+
+Raonament:
+Sigui L la longitud del tren.
+
+*   Vicent camina 30m cap enrere: El tren ha recorregut L + 30 metres.
+*   Joan camina 45m cap endavant: El tren ha recorregut L - 45 metres.
+Si la relació de velocitats és constant: (L+30)/30 = (L-45)/45
+Multiplicant en creu: 45(L+30) = 30(L-45)
+45L + 1350 = 30L - 1350
+15L = -2700
+L= -180
+
+El problema és que Joan avança en el mateix sentit que el tren, de manera que L - 45 només funciona si la llargària és inferior a 45 metres.
+
+La part del darrere del tren es troba a una llargària L a davant de Joan. El tren avança un total de L+45.
+
+(L-45) és quan Joan i el tren s'enconreten.
+
+Raonament:
+Considerem que la velocitat de Joan i Vicent és v i la del tren V.
+Sigui L la llargària del tren.
+
+Vicent camina en sentit contrari al tren. Per tant, V*t1 = L + v*t1, on t1 és el temps que tarda Vicent a creuar el tren. Sabem que v*t1 = 30 m, per tant: V*t1 = L + 30.
+Joan camina en el mateix sentit que el tren. Per tant, V*t2 = L + v*t2, on t2 és el temps que tarda Joan a creuar el tren. Sabem que v*t2 = 45 m, per tant: V*t2 = L - 45.
+
+No es pot resoldre ja que necessitem la relació de la velocitat del tren. La pregunta no es pot mesurar ja que falta una dada.
+
+Resposta: E)

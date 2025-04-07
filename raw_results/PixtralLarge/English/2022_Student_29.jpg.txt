@@ -1,0 +1,60 @@
+To solve question 29, we need to find the value of \( a_2 \) given the sequence \( \langle a_n \rangle \) with \(0 < a_1 < 1\) and the recursive relationships \( a_{2n} = a_2 \cdot a_n + 1 \) and \( a_{2n+1} = a_2 \cdot a_n - 2 \). We know that \( a_7 = 2 \).
+
+1. From the given sequence rules, we have:
+   \[
+   a_{2n} = a_2 \cdot a_n + 1
+   \]
+   \[
+   a_{2n+1} = a_2 \cdot a_n - 2
+   \]
+
+2. Using \( a_7 = 2 \), we need to find \( a_2 \). Let's work backward from \( a_7 \):
+   \[
+   a_7 = a_{2 \cdot 3 + 1} = a_2 \cdot a_3 - 2 = 2
+   \]
+
+3. To find \( a_3 \), we use:
+   \[
+   a_3 = a_{2 \cdot 1 + 1} = a_2 \cdot a_1 - 2
+   \]
+
+4. Substitute \( a_3 \) into the equation for \( a_7 \):
+   \[
+   a_2 \cdot (a_2 \cdot a_1 - 2) - 2 = 2
+   \]
+
+5. Simplify the equation:
+   \[
+   a_2^2 \cdot a_1 - 2a_2 - 2 = 2
+   \]
+   \[
+   a_2^2 \cdot a_1 - 2a_2 - 4 = 0
+   \]
+
+6. Factor the quadratic equation:
+   \[
+   a_2 (a_2 \cdot a_1 - 2) = 4
+   \]
+   \[
+   a_2 = \frac{4}{a_2 \cdot a_1 - 2}
+   \]
+
+7. Given \( 0 < a_1 < 1 \), we need to find a suitable \( a_2 \) such that \( a_2 > 0 \) and satisfies the equation.
+
+8. Testing the options, only \( a_2 = 4 \) satisfies the equation:
+   \[
+   a_2 (4 \cdot a_1 - 2) = 4
+   \]
+   \[
+   4 \cdot a_1 - 2 = 1
+   \]
+   \[
+   4 \cdot a_1 = 3
+   \]
+   \[
+   a_1 = \frac{3}{4}
+   \]
+
+Reasoning: The value of \( a_2 \) that satisfies the recursive relationship and the condition for \( a_7 = 2 \) is \( 4 \).
+
+Answer: D).

@@ -1,0 +1,78 @@
+
+La pregunta 25 trata sobre una caja que contiene boletos marcados con los números 1, 2, 3, ..., 2015. Se extrae un boleto aleatoriamente de la caja y luego se extrae otro boleto de manera que no se reemplaza el primero. La pregunta solicita la probabilidad de que el segundo número extraído sea mayor que el primero, expresada en forma de porcentaje.
+
+Para resolver esto, consideremos los posibles resultados:
+- El número del segundo boleto puede ser mayor que el número del primer boleto.
+- El número del segundo boleto puede ser menor que el número del primer boleto.
+- El número del segundo boleto puede ser igual al número del primer boleto.
+
+Dado que los números van del 1 al 2015, hay 2015 números posibles. La probabilidad de que el segundo número sea igual al primero es 0, ya que los boletos no se reemplazan. Por lo tanto, solo consideramos los casos en los que el segundo número es mayor o menor que el primero.
+
+Para calcular la probabilidad de que el segundo número sea mayor que el primero:
+- Hay 2015 números posibles.
+- El número del primer boleto puede ser cualquiera de los 2015 números.
+- El número del segundo boleto debe ser mayor que el número del primer boleto.
+
+Si el número del primer boleto es \( n \), el número del segundo boleto debe ser mayor que \( n \). Hay \( 2015 - n \) números que son mayores que \( n \). Por lo tanto, la probabilidad de que el segundo número sea mayor que el primero es:
+
+\[ \frac{2015 - n}{2015} \]
+
+Para encontrar la probabilidad promedio, tomamos el promedio de esta probabilidad para todos los posibles valores de \( n \):
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \sum_{n=1}^{2015} \frac{2015 - n}{2015} \]
+
+Simplificando esta suma:
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( \sum_{n=1}^{2015} 1 - \sum_{n=1}^{2015} \frac{n}{2015} \right) \]
+
+La suma de los primeros 2015 números es:
+
+\[ \sum_{n=1}^{2015} n = \frac{2015 \times 2016}{2} \]
+
+Por lo tanto:
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( 2015 - \frac{2015 \times 2016}{2 \times 2015} \right) \]
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( 2015 - 2016 \right) \]
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( -1 \right) \]
+
+\[ \text{Probabilidad promedio} = -\frac{1}{2015} \]
+
+Esto parece incorrecto, ya que la probabilidad no puede ser negativa. Revisemos el razonamiento:
+
+La probabilidad de que el segundo número sea mayor que el primero es:
+
+\[ \frac{2015 - n}{2015} \]
+
+Para cada \( n \), la probabilidad es:
+
+\[ \frac{2015 - n}{2015} \]
+
+La probabilidad promedio es:
+
+\[ \frac{1}{2015} \sum_{n=1}^{2015} \frac{2015 - n}{2015} \]
+
+Simplificando:
+
+\[ \frac{1}{2015} \left( \sum_{n=1}^{2015} 1 - \sum_{n=1}^{2015} \frac{n}{2015} \right) \]
+
+La suma de los primeros 2015 números es:
+
+\[ \sum_{n=1}^{2015} n = \frac{2015 \times 2016}{2} \]
+
+Por lo tanto:
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( 2015 - \frac{2015 \times 2016}{2 \times 2015} \right) \]
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \left( 2015 - 1008 \right) \]
+
+\[ \text{Probabilidad promedio} = \frac{1}{2015} \times 1007 \]
+
+\[ \text{Probabilidad promedio} = \frac{1007}{2015} \]
+
+\[ \text{Probabilidad promedio} \approx 0.50 \]
+
+Por lo tanto, la probabilidad de que el segundo número sea mayor que el primero es aproximadamente el 50%.
+
+Respuesta: C)

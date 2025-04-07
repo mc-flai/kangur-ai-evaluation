@@ -1,0 +1,26 @@
+
+La pregunta 27 solicita la suma de los cuadrados de los números del 1 al 2017.
+
+Para resolver esto, utilizamos la fórmula para la suma de los cuadrados de los primeros n números naturales:
+\[ S = 1^2 + 2^2 + 3^2 + \cdots + n^2 \]
+
+La fórmula para la suma de los cuadrados de los primeros n números naturales es:
+\[ S = \frac{n(n + 1)(2n + 1)}{6} \]
+
+Para \( n = 2017 \):
+\[ S = \frac{2017 \times (2017 + 1) \times (2 \times 2017 + 1)}{6} \]
+\[ S = \frac{2017 \times 2018 \times 4035}{6} \]
+
+Calculamos el numerador:
+\[ 2017 \times 2018 = 4063156 \]
+\[ 4063156 \times 4035 = 16404568630 \]
+
+Luego, dividimos por 6:
+\[ S = \frac{16404568630}{6} \]
+\[ S = 2734101438.3333 \]
+
+Dado que la pregunta busca la suma exacta, redondeamos al número entero más cercano:
+\[ S = 2734101438 \]
+
+Por lo tanto, la respuesta correcta es:
+Respuesta: C)

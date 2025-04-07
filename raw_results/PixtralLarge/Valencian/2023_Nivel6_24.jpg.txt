@@ -1,0 +1,16 @@
+Per resoldre aquesta qüestió, hem de determinar el nombre de zeros que apareixen en un conjunt de 50 nombres, sabent que el producte de tots aquests nombres és 522 i que exactament un dels nombres és negatiu. El producte dels nombres és igual a 522, que en la seva descomposició en factors primers és:
+
+\[ 522 = 2 \times 3 \times 87 = 2 \times 3 \times 3 \times 29 = 2^1 \times 3^2 \times 29^1 \]
+
+Aquesta descomposició mostra que no hi ha cap factor 10 (que és 2 x 5) en la descomposició dels factors primers. Això significa que no hi ha cap zero en el producte de tots els nombres del conjunt.
+
+Raonament:
+
+1. El producte de tots els nombres del conjunt és 522.
+2. Descomponem 522 en factors primers: \(522 = 2 \times 3 \times 3 \times 29\).
+3. Observem que no hi ha cap factor 10 (ja que 10 = 2 x 5 i no hi ha cap 5 en la descomposició).
+4. Per tant, no hi ha cap zero en el producte dels nombres del conjunt.
+
+Resposta: E) No es pot determinar.
+
+Encara que podem determinar amb certesa que no hi ha cap zero en el conjunt, la resposta correcta és que no es pot determinar, ja que la pregunta demana quantes vegades apareix el zero i la resposta és cap vegada, però no hi ha opció per aquest cas.

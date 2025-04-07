@@ -1,0 +1,25 @@
+
+La pregunta solicita la suma de los dígitos del número 11111...1111 (formato 2015 cifras iguales a 1) que resulta de multiplicar por 2015.
+
+Para resolver esto, sigue estos pasos:
+
+1. Identificar el número dado: 11111...1111 con 2015 cifras iguales a 1.
+2. Multiplicar este número por 2015.
+3. Sumar los dígitos del resultado de la multiplicación.
+
+Primero, observe que el número 11111...1111 (con 2015 unos) es una potencia de 10 menos 1. Específicamente, es \(10^{2015} - 1\).
+
+Multiplicar este número por 2015:
+\[ 2015 \times (10^{2015} - 1) \]
+
+Esto se puede expandir usando la distribución:
+\[ 2015 \times 10^{2015} - 2015 \]
+
+Aquí, \(2015 \times 10^{2015}\) es un número con 2015 ceros después de 2015, y restar 2015 de este número da como resultado un número con 2014 ceros después de 2015 y un 9999995 al final.
+
+Sumar los dígitos de este número:
+\[ 2015 + 9 + 9 + 9 + 9 + 9 + 5 = 2041 \]
+
+Por lo tanto, la suma de los dígitos del resultado de la multiplicación es 2041.
+
+Respuesta: E)

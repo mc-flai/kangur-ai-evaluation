@@ -1,0 +1,14 @@
+Razonamiento:
+1.  Hay 12 cubos en total.
+2.  Un cubo amarillo está en un extremo, y un cubo rojo está en el otro extremo.
+3.  Los cubos rojos están juntos. Los cubos verdes también están juntos.
+4.  El décimo cubo desde la izquierda es azul.
+5.  Debido a que hay 2 amarillos, el amarillo está en el primer cubo (extremo).
+6.  Hay 3 rojos y 4 verdes, y dado que el cubo 10 es azul, las combinaciones pueden ser como se indica a continuación:
+    *   Amarillo (1), verdes (2, 3, 4, 5), rojo (6, 7, 8), azul (9), azul (10), rojo (11, 12)
+    *   Amarillo (1), verdes (2, 3, 4, 5), rojo (6, 7, 8), azul (9, 10), rojo (11, 12)
+    *   Amarillo (1), verdes (2, 3, 4, 5), rojo (6, 7, 8, 9), azul (10), rojo (11, 12)
+    *   Amarillo (1), verdes (2, 3, 4, 5), rojo (6, 7, 8, 9), azul (10, 11), rojo (12)
+7.  El sexto cubo desde la izquierda es rojo.
+
+Respuesta: D)

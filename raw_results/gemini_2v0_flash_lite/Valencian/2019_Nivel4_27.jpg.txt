@@ -1,0 +1,18 @@
+Raonament:
+L'àrea del triangle ombrejat es pot calcular restant les àrees de dos triangles rectangles de l'àrea d'un rectangle que té com a base la suma dels costats dels dos quadrats i com a altura el costat del quadrat gran (10). Les àrees dels triangles rectangles són:
+*   Triangle 1: base = 6, altura = 6; àrea = (1/2)*6*6 = 18
+*   Triangle 2: base = 10, altura = 10; àrea = (1/2)*10*10 = 50
+*   Rectangle: base = 6+10=16, altura = 10; àrea = 16*10 = 160
+*   Àrea del triangle ombrejat = Àrea Rectangle - Àrea Triangle 1 - Àrea Triangle 2 = 160 - 18 - 50 = 92.
+
+El triangle ombrejat es pot calcular de la següent manera:
+* El costat del quadrat petit és 6.
+* El costat del quadrat gran és 10.
+* L'alçada del triangle ombrejat és 10.
+* La base del triangle ombrejat és 6 + 10 - (6+10 - 6) = 6
+* L'àrea del triangle ombrejat es pot calcular calculant les àrees de dos triangles rectangles. El triangle ombrejat té una base de 10, l'alçada del primer quadrat (6) i el segon triangle una base de 6, i alçada de 10 - 6 = 4.
+* Triangle 1 (part superior): base 10, altura 4, àrea = (1/2)*10*4 = 20.
+* Triangle 2 (part inferior): base 6, altura 6, àrea = (1/2)*6*6 = 18.
+* Àrea del triangle ombrejat = (1/2) * (6+10) * 10 - 1/2 * 6 * 6 - 1/2 * 10 * 4 = 80 - 18 - 20 = 34
+
+Resposta: D)

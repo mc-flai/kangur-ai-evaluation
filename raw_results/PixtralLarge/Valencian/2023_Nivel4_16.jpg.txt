@@ -1,0 +1,21 @@
+Per resoldre la pregunta 16, hem de determinar quin nombre s'ha d'eliminar del conjunt {1, 2, 3, ..., 8, 9} per tal que el mínim comú múltiple (mcm) dels nombres restants sigui el mínim possible.
+
+**Raonament**:
+1. El mcm de qualsevol conjunt de nombres no pot ser menor que el màxim nombre d'aquest conjunt.
+2. Si eliminem el número més gran (9 en aquest cas), els nombres restants seran {1, 2, 3, 4, 5, 6, 7, 8}.
+3. La presència de 1 en el conjunt no afecta el mcm.
+4. Ens centrem a trobar el mcm dels nombres restants: 2, 3, 4, 5, 6, 7, 8.
+5. El mcm de 2, 3, 4, 5, 6, 7, 8 és 840, perquè:
+   - 2 = 2
+   - 3 = 3
+   - 4 = 2^2
+   - 5 = 5
+   - 6 = 2 * 3
+   - 7 = 7
+   - 8 = 2^3
+   - mcm(2, 3, 4, 5, 6, 7, 8) = 2^3 * 3 * 5 * 7 = 840
+6. Si eliminem qualsevol altre nombre, el mcm aumentarà, ja que la presència de 9 en el conjunt farà que el mcm sigui almenys 840 * 9 = 7560.
+
+Per tant, eliminar el 9 fa que el mcm dels nombres restants sigui el mínim possible.
+
+**Resposta**: A)

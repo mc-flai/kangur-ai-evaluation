@@ -1,0 +1,11 @@
+Reasoning:
+Question 19 asks for the maximum number of boxes that can be made such that each box contains the same number of apples, but no two boxes contain the same number of pears.  Since there are 60 apples and 60 pears, let 'n' be the number of boxes, 'a' be the number of apples per box, and pi be the number of pears in box i, for i = 1 to n.
+Then n * a = 60 and sum(pi) from i=1 to n = 60. The condition is that pi are distinct integers for each box i. To maximize n, we want to minimize a. a must be a factor of 60.
+Since the number of pears in each box must be different, to maximize the number of boxes we minimize the number of apples per box. Let n be the number of boxes. Since no two boxes can have the same number of pears, let the number of pears in the boxes be 1, 2, 3, ..., n. Thus the total number of pears is at least 1 + 2 + 3 + ... + n = n(n+1)/2.
+Since the total number of pears is 60, we have n(n+1)/2 <= 60, so n(n+1) <= 120.
+If n=10, n(n+1) = 10*11=110 <=120
+If n=11, n(n+1) = 11*12=132 > 120
+Thus, the largest possible value of n is 10.
+Let's check if it is possible to pack into 10 boxes. If n=10, then the number of pears in the boxes would be 1, 2, 3, 4, 5, 6, 7, 8, 9, 15. The sum is 1+2+3+4+5+6+7+8+9+15 = 60. Then since we want to maximize the number of boxes we minimize the number of apples. If we put 6 apples per box, then the number of apples = 6*10=60. This arrangement works. Therefore, the maximum number of boxes is 10.
+
+Answer: D)

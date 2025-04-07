@@ -1,0 +1,54 @@
+Para resolver la pregunta 6, necesitamos encontrar el número de pares de enteros positivos (x, y) que satisfacen la ecuación x + 2y = 2^10.
+
+1. Primero, determinemos el valor de 2^10:
+   \[
+   2^{10} = 1024
+   \]
+
+2. Ahora, queremos encontrar todos los pares de enteros positivos (x, y) que satisfacen la ecuación:
+   \[
+   x + 2y = 1024
+   \]
+
+3. Reorganicemos la ecuación para resolver para x:
+   \[
+   x = 1024 - 2y
+   \]
+
+4. Para que x sea un entero positivo, 1024 - 2y debe ser mayor que 0:
+   \[
+   1024 - 2y > 0
+   \]
+   \[
+   1024 > 2y
+   \]
+   \[
+   512 > y
+   \]
+
+5. Y para que y sea un entero positivo, 1024 - 2y debe ser mayor que 0:
+   \[
+   1024 - 2y > 0
+   \]
+   \[
+   1024 > 2y
+   \]
+   \[
+   512 > y
+   \]
+
+6. Por lo tanto, y debe ser un entero positivo menor que 512. Los valores posibles de y son:
+   \[
+   y = 1, 2, 3, \ldots, 511
+   \]
+
+7. Para cada valor de y, podemos encontrar el correspondiente valor de x:
+   \[
+   x = 1024 - 2y
+   \]
+
+8. El número de valores posibles de y es 511 (de 1 a 511).
+
+Razonamiento: El número de pares de enteros positivos (x, y) que satisfacen la ecuación x + 2y = 1024 es 511.
+
+Respuesta: D)

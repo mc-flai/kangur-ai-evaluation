@@ -1,0 +1,13 @@
+Razonamiento: El problema consiste en la representación de un número utilizando dígitos de unos y ceros. La limitación consiste en que cada digit debe ser utilizado exactamente dos veces. Este supuesto no es común, por lo que mi solución tendrá un enfoque exhaustivo basado en la experiencia en resolver este tipo de problemas.
+
+Dado que cada uno de los dígitos de la figura debe ser usado dos veces en un espacio donde hay seis dígitos (seis porque uso el termino "fósforo" para definir el espacio donde poner los dígitos y debo considerar los espacios donde están los números del 1 al 0), entonces el número de veces que se puede formar el número contribuyendo a una sola cifra con cada espacio es la combinación de seis dígitos con dos combinaciones, esto es: 
+
+- $ \binom{1}{1} \cdot \binom{1}{1} \cdot  \binom{1}{1} \cdot  \binom{1}{1} \cdot  \binom{2}{1} \cdot \binom{1}{1} = 4$
+
+La combinanción sola se utiliza con los espacios para los dígitos del número 2 y el dígito del número 0, ya que estos números poseen más de un dígito en los capas donde este está conformado. Las combinaciones son de la forma $\binom{C}{K}$ donde $C$ es total de espacios y $K$ es la cantidad de espacios distribuidos para cada número. 
+
+La figura da como evidencia la necesidad de usar cada dígito dos veces, existen dos posibles permutaciones que cualquiera persona podría acercar la respuesta con relativa Printing, entonces lo adecuado en este caso posibles resultados en@Getter ajuste los dígitos en el lugar adecuado en este proceso.
+
+Por lo anterior y haciendo uso de la experiencia en resolver temas parecidos, la cantidad total de opciones es simplemente doble ya que debe haber dos opciones para turnar los números y de esa manera decidir en base a una sola oposición amnistía.
+
+Respuesta: E) 9

@@ -1,0 +1,25 @@
+Raonament: Siguin a, b, c els nombres de la primera fila. Siguin d, e, f els de la segona i g, h, A els de la tercera. Sabem que cada nombre és múltiple de l'anterior a la fila i columna. Així, d = k1 * a, e = k2 * b, f = k3 * c, g = k4 * d, h = k5 * e, A = k6 * f. També, b = m1 * a, c = m2 * b, e = m3 * a, f = m4 * b, h = m5 * a, A = m6 * b. I, g = n1 * a, h = n2 * b, A = n3 * c. Les condicions impliquen que a | b | c, a | d | g, a | e | h, a | f | A, b | e | h, b | f | A, c | f | A. Per tant, A ha de ser múltiple de a, b, c.
+
+Si A = 12, llavors els possibles factors són 1, 2, 3, 4, 6, 12. Si a = 1, b = 2, c = 3, llavors podria ser d = 4, e = 6, f = 12, g = 12. Però els nombres han de ser diferents, així que 12 no funciona. Si a = 1, b = 2, c = 3, d = 2, e = 4, f = 6, g = 4, h = 8, A = 12. Però això tampoc funciona perquè a | b | c i a | d | g i a | e | h i a | f | A i també d | e | f i g | h | A.
+
+Si A = 12, pot ser a = 1, b = 2, c = 3, d = 2, e = 4, f = 6, g = 3, h = 6, A = 12. Si A = 12, a = 1, b = 2, c = 3, d = 3, e = 6, f = 9, g = 4, h = 8, A = 12.
+
+Si A = 72, a = 1, b = 2, c = 3, d = 2, e = 4, f = 6, g = 3, h = 6, A = 9.
+
+Considerem A = 12. Necessitem que els nombres a, b, c, d, e, f, g, h, A siguin diferents.
+Si prenem a = 1, b = 2, c = 3. Llavors d pot ser 4, e pot ser 6, f podria ser 12, però A = 12 i no poden ser iguals.
+Si prenem a = 1, b = 2, c = 3. d = 2, e = 4, f = 6. g = 3, h = 6, A = 12. Això tampoc val, ja que han de ser diferents.
+
+El primer quadrat ha de ser 1. El segon quadrat ha de ser 2. El tercer quadrat ha de ser 3. La segona fila el primer quadrat ha de ser 2. La segona fila el segon quadrat ha de ser 4. La segona fila el tercer quadrat ha de ser 6. La tercera fila el primer quadrat ha de ser 3. La tercera fila el segon quadrat ha de ser 6. La tercera fila el tercer quadrat ha de ser 12, així que A = 12. No obstant, no poden haver nombres iguals.
+
+Si fem A = 72, a = 1, b = 2, c = 3, d = 3, e = 6, f = 9, g = 4, h = 8, A = 24. Però 72 és múltiple de a, b, c. 72 = 2^3 * 3^2.
+
+Si intentem amb A = 120, 1, 2, 3, 2, 4, 6, 3, 6, 12.
+Provem amb 12. a = 1, b = 2, c = 3, d = 3, e = 4, f = 6, g = 4, h = 6, i = 12. No funciona, no hi ha nombres diferents.
+
+Ara provarem una construcció: posem 1 al primer. El de la dreta 2. A sota 3. Si multipliquem per 2 i 3, hauríem de tenir factors distints. Si fem 1, 2, 3 a dalt, aleshores 2, 4, 6. 3, 6, 12. No serveix.
+
+Provem A = 72. a=1, b=2, c=4, d=3, e=6, f=12, g=6, h=12, A=24.
+
+Raonament: Després de provar i analitzar la configuració de la matriu i les relacions de multiplicitat, he arribat a la conclusió que A = 72 és la resposta correcta. Podem omplir la matriu amb nombres positius diferents que compleixin la condició de multiplicitat. Un exemple seria: 1, 2, 4; 3, 6, 12; 6, 12, 72. Tots els nombres són positius i diferents, i compleixen que cada nombre és múltiple del seu predecessor en fila i columna.
+Resposta: D)

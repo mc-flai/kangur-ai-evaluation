@@ -1,0 +1,25 @@
+### Raisonnement :
+
+Pour résoudre ce problème, il faut déterminer le nombre minimum d'ampoules à toucher pour que toutes les ampoules puissent être allumées, en sachant que chaque ampoule peut allumer toutes les ampoules qui lui sont directement reliées.
+
+1. **Visualisation du schéma** : Le schéma montre six ampoules connectées entre elles avec un certain nombre de liaisons.
+2. **Identification des connexions** :
+   - Chaque ampoule est connectée à certaines autres ampoules. Il est crucial d'identifier les connexions pour déterminer les groupes d'ampoules qui peuvent être allumées par une seule touche.
+
+3. **Détermination des touches nécessaires** :
+   - Si chaque ampoule peut allumer toutes les autres ampoules dans son groupe de connexions, le but est de minimiser le nombre de touches nécessaires pour allumer toutes les ampoules.
+   - En observant le schéma, on peut regrouper les ampoules en sous-ensembles connectés.
+
+4. **Calcul du minimum** :
+   - En identifiant les sous-ensembles connectés et en touchant une ampoule de chaque sous-ensemble, on peut déterminer le nombre minimum de touches nécessaires.
+   - Le schéma montre trois sous-ensembles distincts :
+     - Sous-ensemble 1: 3 ampoules connectées.
+     - Sous-ensemble 2: 2 ampoules connectées.
+     - Sous-ensemble 3: 1 ampoule seule.
+   - En touchant une ampoule de chaque sous-ensemble, toutes les ampoules peuvent être allumées.
+
+5. **Validation** :
+   - Toucher une ampoule dans chaque sous-ensemble garantit que toutes les ampoules sont allumées.
+   - Donc, le nombre minimum de touches nécessaires est 3.
+
+### Réponse : B)

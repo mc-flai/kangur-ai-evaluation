@@ -1,0 +1,19 @@
+Raonament: Let's denote the number of caramels in the four pots as $c_1, c_2, c_3, c_4$. Let's also denote the number of pots with $n$ caramels as $p_n$. We know that $c_1 = p_1$, $c_2 = p_2$, $c_3 = p_3$ and $c_4 = p_0$. Also, we know that the total number of pots is 4, meaning $p_0 + p_1 + p_2 + p_3 = 4$.
+
+We can deduce that $c_1$ is the number of pots containing 1 caramel. $c_2$ is the number of pots containing 2 caramels. $c_3$ is the number of pots containing 3 caramels. $c_4$ is the number of pots containing 0 caramels.
+
+Let us try different values for $c_i$
+If $c_1 = 1$, then the pot 1 has 1 caramel, meaning that one pot has one caramel.
+If $c_2 = 2$, the pot 2 has 2 caramels, meaning two pots have two caramels.
+If $c_3 = 3$, the pot 3 has 3 caramels.
+If $c_4 = 0$, this implies no pots have 0 caramels.
+
+Let's test with $c_4 = 1$. Then one pot has 0 caramels, which makes $p_0=1$. Since $c_1 = p_1$, $c_2 = p_2$, $c_3 = p_3$, $c_4 = p_0=1$, and $c_1 + c_2 + c_3 + c_4 = p_1 + p_2 + p_3 + p_0 = 4$. Also $c_1, c_2, c_3$ cannot be zero since they are the numbers of pots.
+
+We have $c_1 = 1$, $c_2 = 2$, $c_3 = 0$, $c_4 = 1$. The total would be $1*1 + 2*2 + 3*0 + 0*1 = 5$.
+Let's check if $c_1=2$.
+If $c_1=2$, then 2 pots have 1 caramel.  Also $c_2=1$ so 1 pot has 2 caramels, $c_3=0$, meaning no pots have 3 caramels. Finally, $c_4 = 1$, meaning 1 pot has 0 caramels. Total number of caramels = $1*2 + 2*1 + 3*0 + 0*1=4$.
+
+Therefore we have 2 pots with 1 caramel, 1 pot with 2 caramels, 0 pots with 3 caramels, and 1 pot with 0 caramels. The total number of pots is 4.  The total number of caramels is 4.
+
+Resposta: C)

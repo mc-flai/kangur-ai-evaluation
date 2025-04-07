@@ -1,0 +1,35 @@
+Per resoldre aquesta pregunta, hem de considerar el nombre \( A = 999\ldots 999 \) escrit en el sistema decimal amb 2017 xifres, totes elles són el número 9.
+
+Hem de calcular la suma de les xifres de \( A^2 \).
+
+Per començar, considerem el número \( A \) que té 2017 xifres i totes elles són 9:
+\[ A = 999\ldots 999 \text{ (2017 vegades)} \]
+Això es pot expressar com:
+\[ A = 10^{2017} - 1 \]
+
+Ara, elevem \( A \) al quadrat:
+\[ A^2 = (10^{2017} - 1)^2 \]
+
+Per la identitat del binomi:
+\[ (a - b)^2 = a^2 - 2ab + b^2 \]
+
+Aplicant aquesta identitat:
+\[ A^2 = (10^{2017})^2 - 2 \cdot 10^{2017} \cdot 1 + 1^2 \]
+\[ A^2 = 10^{4034} - 2 \cdot 10^{2017} + 1 \]
+
+Descomponem aquest nombre:
+1. \( 10^{4034} \): Un 1 seguit de 4034 zeros.
+2. \( 2 \cdot 10^{2017} \): Un 2 seguit de 2016 zeros, i després 2017 zeros.
+3. \( 1 \): Un 1.
+
+Per tant, la suma dels números és:
+1. \( 10^{4034} \) té una suma de xifres de 1.
+2. \( 2 \cdot 10^{2017} \) té una suma de xifres de 2.
+3. Finalment, el 1 té una suma de xifres de 1.
+
+Sumant totes les xifres obtenim:
+\[ 1 + 2 + 1 = 4 \]
+
+**Raonament**: Hem calculat la suma de les xifres de \( A^2 \) analitzant les seves components i sumant les seves xifres individuals.
+
+**Resposta**: A)

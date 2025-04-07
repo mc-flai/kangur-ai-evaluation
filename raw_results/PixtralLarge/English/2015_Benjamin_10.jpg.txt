@@ -1,0 +1,15 @@
+**Reasoning**:
+- Andrea creates a strip of length 50 cm by overlapping two strips with an overlap of 10 cm.
+- Given that each strip is equal in length, let's denote the length of each strip as L.
+- When two strips are overlapped by 10 cm, the total length of the resulting strip is L + L - 10 cm.
+- We know that the resulting length is 50 cm, so:
+  \[
+  L + L - 10 = 50 \implies 2L - 10 = 50 \implies 2L = 60 \implies L = 30 \text{ cm}
+  \]
+- Now, Andrea wants to make a strip of length 56 cm using two strips of length L (30 cm).
+- Let the overlap be x cm. The total length of the new strip will be:
+  \[
+  30 + 30 - x = 56 \implies 60 - x = 56 \implies x = 4 \text{ cm}
+  \]
+
+**Answer**: A)

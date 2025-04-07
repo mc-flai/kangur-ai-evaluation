@@ -1,0 +1,24 @@
+**Razonamiento**:
+
+Para encontrar la longitud de \( DM \) en el cuadrado \( ABCD \), necesitamos entender cómo se divide el cuadrado por las líneas \( CM \) y \( CN \).
+
+1. El cuadrado \( ABCD \) tiene lados de longitud 3 cm.
+2. Dado que el área total del cuadrado es \( 3 \times 3 = 9 \, \text{cm}^2 \) y se divide en tres regiones de igual área, cada región debe tener un área de \( \frac{9}{3} = 3 \, \text{cm}^2 \).
+3. Para que las áreas sean iguales, las líneas \( CM \) y \( CN \) deben dividir el cuadrado en tres triángulos de igual área.
+4. El triángulo \( \triangle ACD \) tiene un área de \( \frac{1}{2} \times base \times altura \). Aquí, la base y la altura son los lados del cuadrado, que son 3 cm. Por lo tanto, el área de \( \triangle ACD \) es \( \frac{1}{2} \times 3 \times 3 = 4.5 \, \text{cm}^2 \).
+5. Considerando que \( \triangle ACD \) tiene un área de 4.5 cm², y \( CM \) y \( CN \) dividen el área restante (4.5 cm²) en dos partes iguales (2.25 cm² cada una), cada uno de los triángulos restantes debe tener un área de 2.25 cm².
+6. La longitud de \( DM \) es la altura del triángulo \( \triangle ACD \) con base \( AC \) (que es 3 cm). Usando la fórmula del área de un triángulo:
+   \[
+   \text{Área} = \frac{1}{2} \times base \times altura
+   \]
+   \[
+   2.25 = \frac{1}{2} \times 3 \times altura
+   \]
+   \[
+   4.5 = 3 \times altura
+   \]
+   \[
+   altura = \frac{4.5}{3} = 1.5 \, \text{cm}
+   \]
+
+**Respuesta**: C) 1,5 cm

@@ -1,0 +1,55 @@
+Razonamiento:
+La pregunta nos da la siguiente información sobre una fila de doce cubos de colores:
+- Hay 3 azules, 2 amarillos, 3 rojos y 4 verdes.
+- Un cubo amarillo está en un extremo, y un cubo rojo está en el otro extremo.
+- Los cubos rojos están juntos.
+- Los cubos verdes están juntos.
+- El décimo cubo desde la izquierda es azul.
+
+Tenemos que averiguar el color del sexto cubo desde la izquierda.
+
+Consideremos dos casos.
+Caso 1: El amarillo está a la izquierda, y el rojo está a la derecha.
+Tenemos: A _ _ _ _ _ _ _ _ B RRR
+El décimo cubo es azul. Por lo tanto, en la lista de cubos _ A _ _ _ _ _ _ _ B RRR _, A representa "azul".
+Ahora podemos escribir: A _ _ _ _ _ _ _ A RRR
+Caso 2: El rojo está a la izquierda, y el amarillo está a la derecha.
+Tenemos: RRR _ _ _ _ _ _ _ _ A
+El décimo cubo es azul. Por lo tanto, en la lista de cubos RRR _ _ _ _ _ A _ _ A representa "azul".
+Ahora podemos escribir: RRR _ _ _ _ _ A _ _ A
+
+En el Caso 1, los cubos verdes podrían estar a la izquierda o a la derecha.
+A GGGG _ _ _ _ _ A RRR. En este caso, el sexto cubo es verde.
+A _ _ _ _ GGGG _ A RRR.
+A _ _ _ _ _ GGGG A RRR
+En el Caso 2, los cubos verdes podrían estar a la izquierda o a la derecha.
+RRR GGGG _ _ _ _ A _ _ A. En este caso, el sexto cubo es verde.
+RRR _ _ _ _ GGGG A _ _ A
+
+Sin embargo, el problema pregunta cuál es el color del sexto cubo desde la izquierda. Observamos que el problema dice que los cubos rojos están juntos, así como los verdes.
+
+Además, el décimo cubo es azul, por lo que hay al menos un cubo azul en la secuencia de cubos.
+
+Si enumeramos los colores: 3 Azules, 2 Amarillos, 3 Rojos, 4 Verdes.
+Hay un amarillo en un extremo. Así que supongamos que es el primer color a la izquierda.
+El último cubo es rojo y los 3 rojos están juntos.
+El décimo cubo es azul.
+A _ _ _ _ _ _ _ _ A R R R
+Tenemos una secuencia de 12 cubos.
+Los verdes están juntos. Así que tenemos 4 verdes juntos.
+Caso 1:
+A G G G G _ _ _ _ A R R R
+Caso 2:
+A _ _ _ _ G G G G A R R R
+Caso 3:
+A _ _ _ _ _ G G G G A R R R
+
+El caso 1 requiere un primer cubo amarillo, luego cuatro verdes, luego cuatro más de otro color, luego un azul, luego tres rojos. Nos quedan dos azules y dos amarillos, lo que no funciona.
+El sexto cubo en el Caso 1 es _, y _ en el caso 3 es G.
+Por lo tanto, el sexto cubo desde la izquierda debe ser azul.
+
+Analizamos las opciones. El décimo cubo desde la izquierda es azul. Dado que conocemos que hay 3 cubos azules, el sexto cubo podría ser uno de los restantes.
+
+Razonamiento: El décimo cubo es azul, y hay un cubo amarillo en un extremo y un cubo rojo en el otro. Los tres cubos rojos están juntos. Además, los cubos verdes están juntos. La pregunta es de qué color es el sexto cubo. Podría ser cualquier color.
+
+Respuesta: C)

@@ -1,0 +1,26 @@
+
+La pregunta 9 solicita que reemplacemos \(a\) y \(b\) con números enteros positivos de tal manera que la igualdad sea cierta:
+
+\[ \frac{a}{5} = \frac{7}{b} \]
+
+Para resolver esto, necesitamos encontrar valores de \(a\) y \(b\) que satisfagan la igualdad.
+
+Razonamiento:
+1. Primero, observamos que ambos lados de la igualdad deben ser iguales.
+2. Multiplicamos ambos lados de la igualdad por 5 para eliminar el denominador en el lado izquierdo:
+
+\[ a = \frac{7 \times 5}{b} \]
+3. Simplificamos el lado derecho:
+
+\[ a = \frac{35}{b} \]
+4. Ahora, necesitamos encontrar un número entero positivo \(b\) que haga que \(\frac{35}{b}\) sea un número entero positivo.
+5. Los divisores positivos de 35 son 1, 5, 7 y 35.
+6. Pruebe cada divisor para ver si satisface la igualdad:
+   - Si \(b = 1\), entonces \(a = \frac{35}{1} = 35\).
+   - Si \(b = 5\), entonces \(a = \frac{35}{5} = 7\).
+   - Si \(b = 7\), entonces \(a = \frac{35}{7} = 5\).
+   - Si \(b = 35\), entonces \(a = \frac{35}{35} = 1\).
+
+Por lo tanto, hay 4 pares de soluciones posibles: \((35, 1)\), \((7, 5)\), \((5, 7)\) y \((1, 35)\).
+
+Respuesta: E)

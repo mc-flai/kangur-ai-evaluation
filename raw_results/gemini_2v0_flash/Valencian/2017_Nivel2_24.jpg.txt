@@ -1,0 +1,15 @@
+Raonament: Per respondre la pregunta, hem de trobar el màxim nombre de vegades que la seqüència "2017" pot aparèixer si escrivim els números del 1 al 100 i després eliminem algunes xifres.
+
+Primer, escrivim els números de l'1 al 100. Com que busquem la seqüència "2017", podem comptar les aparicions de cada xifra en el rang 1-100:
+- Dígit 2: 2, 12, 20-29 (10 vegades), 32, 42, 52, 62, 72, 82, 92, 100. Total: 1 + 1 + 10 + 8 = 20 vegades.
+- Dígit 0: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Total: 11 vegades.
+- Dígit 1: 1, 10-19 (10 vegades), 21, 31, 41, 51, 61, 71, 81, 91, 100. Total: 1 + 10 + 8 + 1= 20 vegades.
+- Dígit 7: 7, 17, 27, 37, 47, 57, 67, 70-79 (10 vegades), 87, 97. Total: 1 + 1 + 1 + 1 + 1 + 1 + 1 + 10 + 1 + 1 = 20 vegades.
+
+Ara podem veure quantes vegades la seqüència "2017" pot aparèixer. Com que tots els dígits apareixen 20 vegades i el dígit "0" apareix 11 vegades, aleshores el nombre més petit de vegades que un dígit apareix és 11, el nombre de "0" que apareixen. Això vol dir que podem tenir com a màxim 5 vegades el nombre 2017 (20172017201720172017). Ja que necessitem un "2", un "0", un "1" i un "7" per cada còpia, el nombre màxim de còpies que podem fer està limitat per la xifra que menys apareix, que és el "0" que apareix 11 vegades.
+Si aconseguim 5 vegades "2017", necessitem 5 uns, cinc zeros, cinc uns i cinc set.
+La màxima quantitat de vegades que la seqüència "2017" apareix està limitada pel mínim nombre d'aparicions dels dígits 2, 0, 1 i 7. En aquest cas, el 0 apareix 11 vegades, per tant podem obtenir 5 còpies de 2017.
+
+Raonament: Després d'analitzar l'aparició dels dígits 2, 0, 1 i 7 a la seqüència de nombres de l'1 al 100, determine que la màxima quantitat de còpies del nombre 2017 que poden aparèixer està limitada pel nombre de vegades que el dígit 0 apareix, que és 11. Per tant, la màxima quantitat de còpies és 5.
+
+Resposta: B)

@@ -1,0 +1,13 @@
+Raonament:
+La suma dels pesos de tres cangurs és 97 kg i els pesos són diferents. Volem maximitzar el pes del cangur més lleuger. Per fer-ho, hem de minimitzar els pesos dels altres dos cangurs.
+Si el cangur més lleuger pesa x kg, els altres dos han de pesar almenys x+1 i x+2 kg, respectivament.
+La suma dels pesos ha de ser 97 kg, així que x + (x+1) + (x+2) <= 97
+3x + 3 <= 97
+3x <= 94
+x <= 94/3 = 31.333...
+L'enter més gran que satisfà la desigualtat és 31.
+Així, els pesos podrien ser 31 kg, 32 kg i 34 kg (31+32+34 = 97)
+Si intentem amb 32, hauria de ser 32+33+x=97, x=32 que no es possible.
+Per tant, el pes màxim possible del cangur més lleuger és 31 kg.
+
+Resposta: C)

@@ -1,0 +1,14 @@
+Razonamiento: El cubo grande está hecho de 64 cubos pequeños, lo que significa que el cubo grande tiene una dimensión de 4x4x4. Se pintan 3 de las caras del cubo grande. Los cubos pequeños que tienen exactamente una cara pintada son los que están en el centro de cada cara pintada, pero no en los bordes.
+Consideremos las tres caras pintadas. Cada cara tiene 4x4 = 16 cubos pequeños. Los cubos en las esquinas y aristas tendrán más de una cara pintada.
+Los cubos con exactamente una cara pintada están en el centro de las caras pintadas.
+Si se pintan tres caras adyacentes:
+*   En las caras pintadas, hay 4 cubos con una cara pintada en cada cara: 4 x 3 = 12 cubos.
+*   Si se pintan tres caras, incluyendo dos caras opuestas:
+    *   En dos caras opuestas se tienen 4 cubos con una cara pintada en cada cara: 4 x 2 = 8 cubos.
+    *   En la tercera cara, se tienen 4 x 4 = 16 cubos
+    *   En el total se tienen 8 + 16 = 24 cubos.
+*   Sin embargo, para maximizar el número de cubos con exactamente una cara pintada, hay que pintar tres caras no adyacentes. En ese caso:
+    *   Hay 16 cubos con una cara pintada en una cara, 16 cubos en otra cara y 16 cubos en la tercera cara.
+    *   En total: 16 + 16 = 32 cubos
+
+Respuesta: C)

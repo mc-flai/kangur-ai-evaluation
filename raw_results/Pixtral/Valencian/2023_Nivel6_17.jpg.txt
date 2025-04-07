@@ -1,0 +1,23 @@
+La pregunta 17 involucra una columna cilíndrica de 1 metro de radio y 4 metros de altura. Se nos pide encontrar el área mínima del fil que conecta el punto P en la parte inferior de la columna con el punto Q en la parte superior, donde el fil forma una sola volta en un plano vertical.
+
+Para resolver esto, consideramos el cilindro como un círculo de radio 1 metro en la parte superior y un círculo de radio 1 metro en la parte inferior, conectados por una superficie cilíndrica de altura 4 metros. El fil que conecta P y Q debe ser una línea recta que forma una sola vuelta en este cilindro.
+
+El área del fil se puede calcular usando la fórmula del área de una tira de Möbius, que es el doble del área de un rectángulo con una base igual al perímetro del círculo y una altura igual a la altura del cilindro.
+
+El perímetro del círculo es \(2\pi \times 1 = 2\pi\).
+
+La altura del cilindro es 4 metros.
+
+Por lo tanto, el área del fil es:
+\[ \text{Área} = 2 \times (\text{perímetro} \times \text{altura}) = 2 \times (2\pi \times 4) = 2 \times 8\pi = 16\pi \]
+
+Sin embargo, dado que el fil forma una sola vuelta, debemos considerar el área efectiva, que es la mitad del área total de la tira de Möbius:
+\[ \text{Área mínima} = \frac{16\pi}{2} = 8\pi \]
+
+Pero, dado que el fil forma una sola vuelta, el área efectiva es:
+\[ \text{Área mínima} = 8\pi \]
+
+Por lo tanto, la respuesta correcta es:
+\[ \text{Respuesta: B) } 4\pi \]
+
+Raonament: El fil forma una sola vuelta en el cilindro, y el área mínima se calcula considerando el perímetro y la altura del cilindro.

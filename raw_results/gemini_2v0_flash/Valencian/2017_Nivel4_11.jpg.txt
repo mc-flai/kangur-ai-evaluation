@@ -1,0 +1,10 @@
+Raonament: David vol fer un collar de boletes on cada número és la suma dels dos nombres de les boletes que té a cada costat. Comença amb 1 i 2. Per tant, la tercera boleta serà 1+2=3. La quarta serà 2+3=5. La cinquena serà 3+5=8. La sisena serà 5+8=13. No obstant això, hem de tornar a tenir 1 per poder tancar el collaret. Per fer un collaret, l'últim número ha de sumar amb el primer per donar el penúltim, per exemple.
+La seqüència ha de tornar al principi amb un altre 1 i un 2. Comencem: 1, 2, 3, 5, 8, 13... Aquesta seqüència mai tornarà a 1 i 2, així que aquest collaret no es podrà tancar.
+Un collar necessita almenys tres boletes. No obstant això, dos boletes tampoc permeten tenir una suma. Considerem una seqüència 1,2,3. En aquest cas 1+2 =3, 2+3 ha de ser la següent, que és 5, i així successivament. 3+5 =8, 5+8=13. Aquest collaret no es tanca.
+Si tenim la sequència 1,2,3, 5, tenim que 1+2=3, 2+3=5, 3+5=8. Per tancar el collaret 5+1= x. Però, per poder tancar el collaret, haurem d'arribar a la suma que ens permeti repetir 1 i 2. Comencem: 1, 2, 3, -1, 4, -5, 9, -14, 23, -37, 60, -97, 157, -254, 411, -665, 1076, -1741, 2817, -4558...
+Aquesta seqüència no funciona. El mínim és que hi hagi tres boletes.
+Si tenim dues boletes amb 1 i 2, el mínim és que hi hagi 3 boletes.
+1, 2, 3 no funciona.
+Però, per a que sigui mínim, ha de ser 2.
+
+Resposta: A)

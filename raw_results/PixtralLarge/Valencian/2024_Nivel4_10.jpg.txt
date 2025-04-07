@@ -1,0 +1,25 @@
+**Raonament**:
+
+La pregunta demana determinar el nombre mínim de cubs extra necessaris per construir la figura 3 a partir de la figura 2, de manera que totes les cares visibles d'aquesta queden amagades. Per resoldre això, hem de mirar les figures implicades:
+
+1. La figura 1 és un sol cub.
+2. La figura 2 consta de 6 cubs, cadascun amb cares visibles.
+3. La figura 3 és una estructura més gran, formada per 26 cubs en total.
+
+La figura 2 té 6 cubs, i cada cub té 6 cares, de les quals algunes són visibles. La figura 3 té 26 cubs, i per amagar totes les cares visibles de la figura 2, es necessita cubrir cada cub de la figura 2 amb un cub extra per cada cara visible i potser algun cub extra per assegurar-se que totes les cares visibles estan amagades.
+
+Per calcular el nombre mínim de cubs extra necessaris:
+
+1. Cada cub de la figura 2 (6 cubs) té 6 cares, però com que estan adjacents, algunes d'aquestes cares ja estan amagades per altres cubs de la figura 2.
+2. A partir de l'observació de la figura 2, podem comptar les cares visibles. Cada cub de la figura 2 té almenys una cara visible, i alguns tenen més.
+3. Si sumem totes les cares visibles de tots els cubs de la figura 2, podem determinar quantes cares necessiten ser cobertes.
+4. Observant la figura 3, veiem que totes les cares visibles de la figura 2 han estat cobertes amb cubs addicionals, resultant en una estructura de 26 cubs.
+5. En conseqüència, el nombre mínim de cubs extra necessaris és la diferència entre el nombre de cubs de la figura 3 i el nombre de cubs de la figura 2.
+
+Nombre de cubs de la figura 3: 26
+Nombre de cubs de la figura 2: 6
+Nombre mínim de cubs extra necessaris: 26 - 6 = 20
+
+Així, el nombre mínim de cubs extra necessaris per construir la figura 3 a partir de la figura 2 és 20.
+
+**Resposta**: D) 12

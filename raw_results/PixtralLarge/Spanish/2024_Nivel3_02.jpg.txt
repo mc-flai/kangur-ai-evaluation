@@ -1,0 +1,26 @@
+Para determinar cuántas maneras se puede pasar del vértice A al vértice B en el cubo, siguiendo el sentido de las flechas de la figura, debemos analizar las posibles rutas.
+
+### Razonamiento:
+
+1. **Observación de la figura**:
+   - El cubo tiene vértices etiquetados.
+   - Las flechas indican las direcciones permitidas para moverse de un vértice a otro.
+
+2. **Identificación de rutas**:
+   - Desde el vértice A, podemos movernos a los vértices adyacentes siguiendo las flechas.
+   - Debemos contar todas las rutas posibles que cumplan con las restricciones de dirección.
+
+3. **Cálculo de rutas**:
+   - Desde A, podemos movernos a los vértices adyacentes en la parte superior del cubo.
+   - Desde cada uno de estos vértices, podemos seguir moviéndonos hacia abajo hasta llegar al vértice B.
+   - Contamos todas las combinaciones posibles de movimientos que llevan desde A hasta B.
+
+4. **Verificación de rutas**:
+   - Asegurarnos de que cada ruta siga las flechas y llegue al vértice B.
+   - Contar el número total de rutas válidas.
+
+Después de analizar las posibles rutas y contarlas, encontramos que hay 6 maneras de pasar del vértice A al vértice B siguiendo el sentido de las flechas.
+
+### Respuesta:
+
+C) 6

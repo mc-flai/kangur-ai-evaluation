@@ -1,0 +1,35 @@
+**Reasoning**:
+1. We need to determine how many numbers in the sequence 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, ... are divisible by 3.
+2. To be divisible by 3, a number must be one of the multiples of 3, i.e., 3, 6, 9, 12, 15, 18, 21, ...
+3. From the given sequence, we can observe the pattern that each number n appears exactly n times.
+4. We need to count all multiples of 3 up to the last number present in the sequence.
+
+First, let's determine the last number in the sequence:
+- The total count of numbers is 105.
+- The sum of the first k natural numbers is given by the formula: \( \frac{k(k+1)}{2} \).
+- We need to find k such that \( \frac{k(k+1)}{2} = 105 \).
+
+Solving for k:
+\[ \frac{k(k+1)}{2} = 105 \]
+\[ k(k+1) = 210 \]
+\[ k^2 + k - 210 = 0 \]
+
+Solving this quadratic equation using the quadratic formula \( k = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \):
+\[ k = \frac{-1 \pm \sqrt{1 + 840}}{2} \]
+\[ k = \frac{-1 \pm 29}{2} \]
+
+Taking the positive root (since k must be positive):
+\[ k = \frac{28}{2} = 14 \]
+
+Therefore, the last number in the sequence is 14, and the sequence contains all numbers from 1 to 14, written according to the given pattern.
+
+Now, we count the multiples of 3 in the sequence:
+- Multiples of 3 within the range 1 to 14 are: 3, 6, 9, 12.
+- Each of these numbers appears exactly 3, 6, 9, and 12 times respectively in the sequence.
+
+Summing these up:
+\[ 3 + 6 + 9 + 12 = 30 \]
+
+So, there are 30 numbers in the sequence that are divisible by 3.
+
+**Answer**: D)

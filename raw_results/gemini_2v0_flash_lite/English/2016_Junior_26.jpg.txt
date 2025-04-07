@@ -1,0 +1,12 @@
+Reasoning: The area of a triangle is (1/2) * base * height.  Let the sides of the triangle be a, b, and c.  Let the corresponding heights be h1=10, h2=11, and h3 (to be determined). The area of the triangle can be expressed in three ways:
+Area = (1/2) * a * h1 = (1/2) * b * h2 = (1/2) * c * h3.
+Thus a*10 = b*11 = c*h3.
+The relation between sides is a/b = 11/10 and, say, a/c = h3/10.
+Also, from the triangle inequality, the sum of two sides must be greater than the third side. For the heights, the relationship is:
+1/(h1) + 1/(h2) > 1/h3, 1/(h1) + 1/(h3) > 1/h2, and 1/(h2) + 1/(h3) > 1/h1.
+Substituting values, we get, 1/10 + 1/11 > 1/h3, meaning h3 > 5.23.
+1/10 + 1/h3 > 1/11 which implies h3 < 110
+So 1/11 + 1/h3 > 1/10, which means h3 < 110. Thus, we have 5.23 < h3 < 110
+h3 can also be found by the ratio of the area, so for case (E) it seems that this length can't be 100cm.
+
+Answer: E)

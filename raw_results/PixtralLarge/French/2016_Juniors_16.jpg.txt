@@ -1,0 +1,23 @@
+Pour résoudre ce problème, nous devons colorier les cases d'un carré 3x3 en utilisant au moins 3 couleurs différentes, en nous assurant que chaque ligne, chaque colonne et les diagonales n'ont pas de couleurs répétées.
+
+1. **Choisissons les couleurs**:
+   Nous avons besoin d'au moins trois couleurs différentes pour satisfaire les conditions. Supposons que nous utilisions les couleurs 3, 4 et 5.
+
+2. **Colorier la première ligne**:
+   - Colorions les cases de la première ligne avec les couleurs 3, 4 et 5.
+   - Par exemple: (3, 4, 5).
+
+3. **Colorier la deuxième ligne**:
+   - Nous devons nous assurer que les colonnes et les diagonales n'ont pas de couleurs répétées.
+   - Un exemple possible est: (4, 5, 3).
+
+4. **Colorier la troisième ligne**:
+   - Nous devons également nous assurer que les colonnes et les diagonales n'ont pas de couleurs répétées.
+   - Un exemple possible est: (5, 3, 4).
+
+En suivant cette méthode, nous obtenons une configuration valide. Nous avons utilisé les couleurs 3, 4 et 5.
+
+**Raisonnement** :
+Nous avons déterminé que trois couleurs sont nécessaires pour colorier le carré sans avoir de couleurs répétées dans les lignes, colonnes et diagonales. Nous avons utilisé les couleurs 3, 4 et 5 et vérifié que la configuration est correcte.
+
+**Réponse** : C).

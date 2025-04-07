@@ -1,0 +1,27 @@
+
+La pregunta 29 nos pide encontrar el número de cifras del número natural \( N \) que es puede escribir sin repetir los 6 dígitos que forman los primeros dígitos de \( N \). Se nos da la información de que \( M \), el número que se puede escribir sin repetir esos 6 dígitos, es igual a \( 4N \).
+
+Para resolver esto, primero debemos entender que \( M \) es un número formado por los primeros 6 dígitos de \( N \) sin repetir. Esto significa que \( M \) es un número de 6 dígitos que se puede formar con los dígitos de \( N \).
+
+Dado que \( M = 4N \), podemos escribir:
+\[ M = 100000a + 10000b + 1000c + 100d + 10e + f \]
+donde \( a, b, c, d, e, f \) son los primeros 6 dígitos de \( N \).
+
+Por otro lado, \( N \) se puede escribir como:
+\[ N = 100000a + 10000b + 1000c + 100d + 10e + f + g \]
+donde \( g \) es el siguiente dígito de \( N \).
+
+Dado que \( M = 4N \), tenemos:
+\[ 100000a + 10000b + 1000c + 100d + 10e + f = 4(100000a + 10000b + 1000c + 100d + 10e + f + g) \]
+
+Simplificando, obtenemos:
+\[ 100000a + 10000b + 1000c + 100d + 10e + f = 400000a + 40000b + 4000c + 400d + 40e + 4f + 4g \]
+
+Rearranging terms, obtenemos:
+\[ 300000a + 30000b + 3000c + 300d + 30e + 3f = 4g \]
+
+Esto nos dice que \( g \) debe ser un dígito tal que \( 4g \) sea divisible por 3. Los posibles valores de \( g \) que cumplen esta condición son 0, 3, 6 y 9.
+
+Por lo tanto, el número de cifras de \( N \) es 7, ya que \( N \) tiene 6 dígitos iniciales y un séptimo dígito \( g \).
+
+**Respuesta: C)**

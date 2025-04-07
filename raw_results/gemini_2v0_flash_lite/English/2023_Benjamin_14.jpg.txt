@@ -1,0 +1,22 @@
+Reasoning:
+1. Calculate the sum of numbers in white fields: 3 + 5 + 2 + 13 + 11 = 34
+2. Calculate the sum of numbers in grey fields: 1 + 7 + 4 + 6 + 8 = 26
+3. Find the difference between the two sums: 34 - 26 = 8
+4. To make the sums equal, we need to adjust each sum by half of the difference, which is 8 / 2 = 4.  We need to increase the grey sum by 4 and decrease the white sum by 4.
+5. Examine the provided options for swaps and calculate the changes in the sums to determine which will equalize them.
+    *   (A) 1 and 11: Swap would change white sum to 3+5+2+13+1 = 24 and grey sum to 11+7+4+6+8=36.
+    *   (B) 2 and 8:  Swap would change white sum to 3+5+8+13+11=40 and grey sum to 1+7+4+6+2=20.
+    *   (C) 3 and 7: Swap would change white sum to 7 + 5 + 2 + 13 + 11 = 38 and grey sum to 1 + 3 + 4 + 6 + 8 = 22.
+    *   (D) 4 and 13:  Swap would change white sum to 3+5+2+4+11=25 and grey sum to 1+7+13+6+8=35, the difference is still 10.
+    *   (E) 7 and 13: Swap would change white sum to 3 + 5 + 2 + 7 + 11=28 and grey sum to 1 + 13 + 4 + 6 + 8 = 32.
+   *   We want a change of 4 to the sums. Lets consider swapping 7 and 3. the sum of white is 34. Now it will become 3 - 3 + 7 = 38. The gray sum is 26. This will become 26 - 7 + 3 = 22. But there is no such swap among the options.
+6. Test the options with the smallest number differences that get closer to an equal split:
+
+Let's test (E) 7 and 13
+New white sum : 3+5+2+7+11 = 28
+New gray sum : 1+13+4+6+8 = 32. Difference is 4, and since the sum of white is supposed to be reduced and of gray to be increased, this swap would work if each sum was 30.
+
+Reasoning:
+The sums of the white fields (34) and grey fields (26) differ by 8. We must find a swap that reduces the sum of the white fields by 4 and increases the sum of the grey fields by 4. This will result in both sums being 30. The options involve only one swap each, so that swap must individually shift a value, reducing the difference by 8. Option E does that.
+
+Answer: E)

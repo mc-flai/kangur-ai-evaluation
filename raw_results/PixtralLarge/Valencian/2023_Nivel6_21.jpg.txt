@@ -1,0 +1,23 @@
+Per resoldre aquesta pregunta, hem de determinar quants nombres naturals són divisibles per 2 o per 3 o per 2 i 3 alhora i s'escriuen amb tres xifres. Això inclou tots els nombres naturals de tres xifres (100 a 999) que són divisibles per 2, per 3, o per tots dos.
+
+**Pas 1:** Calcular quants nombres de tres xifres són divisibles per 2.
+- El primer nombre de tres xifres divisible per 2 és 100, i l'últim és 998.
+- Utilitzem la fórmula per trobar quantes vegades un nombre és divisible dins d'un rang: (últim - primer) / divisor + 1.
+- (998 - 100) / 2 + 1 = 898 / 2 + 1 = 449 + 1 = 450.
+
+**Pas 2:** Calcular quants nombres de tres xifres són divisibles per 3.
+- El primer nombre de tres xifres divisible per 3 és 102, i l'últim és 999.
+- (999 - 102) / 3 + 1 = 897 / 3 + 1 = 299 + 1 = 300.
+
+**Pas 3:** Calcular quants nombres de tres xifres són divisibles per 6 (ja que 6 és el mínim comú múltiple de 2 i 3).
+- El primer nombre de tres xifres divisible per 6 és 102, i l'últim és 996.
+- (996 - 102) / 6 + 1 = 894 / 6 + 1 = 149 + 1 = 150.
+
+**Pas 4:** Aplicar el principi d'inclusió-exclusió per evitar comptar els nombres divisibles per 2 i per 3 dues vegades.
+- Total = (nombres divisibles per 2) + (nombres divisibles per 3) - (nombres divisibles per 6).
+- Total = 450 + 300 - 150 = 600.
+
+**Raonament:**
+Hem utilitzat les fórmules per trobar les quantitats de nombres divisibles per 2, per 3 i per 6, i hem aplicat el principi d'inclusió-exclusió per obtenir el total sense repeticions.
+
+**Resposta:** A) 600.

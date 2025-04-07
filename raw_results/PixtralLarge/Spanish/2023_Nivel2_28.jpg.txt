@@ -1,0 +1,24 @@
+**Razonamiento**:
+La pregunta solicita determinar cuántos códigos PIN diferentes de cuatro dígitos cumplen con las siguientes condiciones:
+1. Los cuatro dígitos suman 8.
+2. El producto de los dos primeros dígitos es igual a un número de dos dígitos formado por el tercer y cuarto dígito.
+
+Para resolver esto, primero debemos identificar los pares de dígitos posibles que sumen 8. Los posibles pares (a, b) donde a + b = 8 son: (0, 8), (1, 7), (2, 6), (3, 5), (4, 4), (5, 3), (6, 2), (7, 1), (8, 0).
+
+Luego, tenemos que verificar si el producto de los dos primeros dígitos (a * b) es igual al número de dos dígitos formado por el tercer y cuarto dígito.
+
+Por ejemplo, consideremos el par (3, 5):
+- Los dígitos son 3 y 5, y su producto es 3 * 5 = 15.
+- El tercer y cuarto dígito deben ser 1 y 5 o 5 y 1 para que el producto sea 15.
+- Podemos verificar que 3 + 5 + 1 + 5 = 14, lo cual no cumple la condición de sumar 8.
+
+Este proceso debe repetirse para todos los pares posibles.
+
+Después de revisar todas las combinaciones, se encuentra que solo hay una combinación válida que cumpla todas las condiciones: (2, 6), ya que:
+- 2 + 6 = 8.
+- El producto es 2 * 6 = 12, que se puede formar con los dígitos 1 y 2 o 2 y 1.
+- En este caso, 2 + 6 + 1 + 2 = 8, lo cual cumple las condiciones.
+
+Por lo tanto, solo existe un código PIN que cumple todas las condiciones.
+
+**Respuesta**: B) 1.

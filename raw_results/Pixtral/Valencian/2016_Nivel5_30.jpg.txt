@@ -1,0 +1,11 @@
+**Razonamiento:**
+1. La fracción dada es \( A = \frac{1 \cdot 5 \cdot 25 + 2 \cdot 10 \cdot 50 + 3 \cdot 15 \cdot 75 + \cdots}{1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots} \).
+2. Observamos que tanto el numerador como el denominador tienen una estructura similar, donde cada término es el producto de tres números.
+3. Para simplificar, podemos notar que cada término en el numerador se puede expresar como \( n \cdot (n+1) \cdot (2n+1) \) y cada término en el denominador se puede expresar como \( n \cdot (n+1) \cdot (2n+2) \).
+4. Simplificando ambos el numerador y el denominador, obtenemos:
+   \[
+   A = \frac{\sum n(n+1)(2n+1)}{\sum n(n+1)(2n+2)}
+   \]
+5. Al simplificar, vemos que el denominador es aproximadamente el doble del numerador, lo que nos lleva a la conclusión de que \( A \) es aproximadamente 0.5.
+
+**Respuesta:** B) 6,25

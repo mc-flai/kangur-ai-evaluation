@@ -1,0 +1,25 @@
+Razonamiento:
+1.  **Entendimiento del problema**: Necesitamos encontrar números de dos cifras (10-99) donde uno más que el número y uno menos que el número resultan en un número primo y un cuadrado perfecto.
+2.  **Análisis de los cuadrados perfectos**: Los cuadrados perfectos comunes son: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, etc.
+3.  **Verificación de los casos**: Probamos los cuadrados perfectos y los números primos cercanos, y los números de dos cifras that fit the property:
+    *   If N-1 is a perfect square and N+1 is prime: 16-1=15, 16+1=17 is prime. N=16 (not 2 digits)
+    *   N-1=4: N=5, N+1=6 (not prime).
+    *   N-1=9: N=10, N+1=11 (prime). N=10 works.
+    *   N-1=16: N=17, N+1=18 (not prime).
+    *   N-1=25: N=26, N+1=27 (not prime).
+    *   N-1=36: N=37, N+1=38 (not prime).
+    *   N-1=49: N=50, N+1=51 (not prime).
+    *   N-1=64: N=65, N+1=66 (not prime).
+    *   N-1=81: N=82, N+1=83 (prime). N=82 works.
+    *   If N+1 is a perfect square and N-1 is prime:
+        *   N+1=4: N=3, N-1=2(prime).
+        *   N+1=9: N=8, N-1=7(prime).
+        *   N+1=16: N=15, N-1=14.
+        *   N+1=25: N=24, N-1=23 (prime).  N=24 works.
+        *   N+1=36: N=35, N-1=34.
+        *   N+1=49: N=48, N-1=47 (prime).  N=48 works.
+        *   N+1=64: N=63, N-1=62.
+        *   N+1=81: N=80, N-1=79 (prime). N=80 works.
+4.  **Conteo**: The numbers are 10, 24, 48, 80, 82, 10, 82. Five numbers of 2 digits, which are 10, 24, 48, 80, 82.
+
+Respuesta: E)

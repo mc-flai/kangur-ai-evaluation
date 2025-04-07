@@ -1,0 +1,46 @@
+
+La pregunta 20 nos pide encontrar el valor de \( f(2017) \) para una función \( f \) definida por las siguientes reglas:
+- \( f(1) = 1 \)
+- \( f(2n) = f(n) + 1 \)
+- \( f(2n + 1) = f(2n) \)
+
+Para resolver esto, debemos descomponer 2017 en una forma que nos permita aplicar estas reglas.
+
+1. **Descomposición de 2017**:
+   - 2017 es un número impar, por lo que \( 2017 = 2n + 1 \) para algún entero \( n \).
+   - Dividiendo 2017 por 2, obtenemos \( 2017 / 2 = 1008.5 \), lo que indica que \( 2017 = 2 \times 1008 + 1 \).
+   - Por lo tanto, \( n = 1008 \).
+
+2. **Aplicación de las reglas**:
+   - Usando la regla \( f(2n + 1) = f(2n) \), obtenemos \( f(2017) = f(2 \times 1008) \).
+   - Ahora, \( 1008 \) es un número par, por lo que \( 1008 = 2m \) para algún entero \( m \).
+   - Dividiendo 1008 por 2, obtenemos \( 1008 / 2 = 504 \), por lo que \( m = 504 \).
+
+3. **Siguientes pasos**:
+   - Usando la regla \( f(2m) = f(m) + 1 \), obtenemos \( f(1008) = f(504) + 1 \).
+   - Continuamos descomponiendo 504 de manera similar: \( 504 = 2 \times 252 \), por lo que \( m = 252 \).
+   - Usando la regla \( f(2m) = f(m) + 1 \), obtenemos \( f(504) = f(252) + 1 \).
+   - Continuamos descomponiendo 252: \( 252 = 2 \times 126 \), por lo que \( m = 126 \).
+   - Usando la regla \( f(2m) = f(m) + 1 \), obtenemos \( f(252) = f(126) + 1 \).
+   - Continuamos descomponiendo 126: \( 126 = 2 \times 63 \), por lo que \( m = 63 \).
+   - Usando la regla \( f(2m) = f(m) + 1 \), obtenemos \( f(126) = f(63) + 1 \).
+   - Continuamos descomponiendo 63: \( 63 = 2 \times 31 + 1 \), por lo que \( m = 31 \).
+   - Usando la regla \( f(2m + 1) = f(2m) \), obtenemos \( f(63) = f(62) \).
+   - Continuamos descomponiendo 31: \( 31 = 2 \times 15 + 1 \), por lo que \( m = 15 \).
+   - Usando la regla \( f(2m + 1) = f(2m) \), obtenemos \( f(31) = f(30) \).
+   - Continuamos descomponiendo 15: \( 15 = 2 \times 7 + 4 \), por lo que \( m = 7 \).
+   - Usando la regla \( f(2m + 4) = f(2m) \), obtenemos \( f(15) = f(14) \).
+   - Continuamos descomponiendo 7: \( 7 = 2 \times 3 + 1 \), por lo que \( m = 3 \).
+   - Usando la regla \( f(2m + 1) = f(2m) \), obtenemos \( f(7) = f(6) \).
+   - Continuamos descomponiendo 3: \( 3 = 2 \times 1 + 1 \), por lo que \( m = 1 \).
+   - Usando la regla \( f(2m + 1) = f(2m) \), obtenemos \( f(3) = f(2) \).
+   - Continuamos descomponiendo 1: \( 1 = 2 \times 0 + 1 \), por lo que \( m = 0 \).
+   - Usando la regla \( f(1) = 1 \), obtenemos \( f(1) = 1 \).
+
+4. **Resumen**:
+   - \( f(2017) = f(1008) = f(504) + 1 = f(252) + 2 = f(126) + 3 = f(63) + 4 = f(31) + 4 = f(15) + 4 = f(7) + 4 = f(3) + 4 = f(1) + 4 \).
+   - Dado que \( f(1) = 1 \), tenemos \( f(2017) = 1 + 4 = 5 \).
+
+Raonament: Descomponemos 2017 en una forma que nos permita aplicar las reglas de la función, y aplicamos las reglas repetidamente hasta llegar a \( f(1) \), sumando 1 cada vez que aplicamos la regla \( f(2m) = f(m) + 1 \).
+
+Resposta: C)

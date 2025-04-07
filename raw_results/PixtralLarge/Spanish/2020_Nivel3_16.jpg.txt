@@ -1,0 +1,29 @@
+Para resolver este problema, necesitamos determinar el mayor número de caras completas de los cubos que pueden ser rojas cuando se usan 27 cubos pequeños para construir un cubo grande.
+
+1. **Número de cubos pequeños para construir un cubo grande**: 
+   Los 27 cubos pequeños formarán un cubo grande de 3x3x3, ya que \(3^3 = 27\).
+
+2. **Determinación de las caras visibles**:
+   En un cubo 3x3x3:
+   - Hay 1 cubo en cada esquina (8 en total), cada uno con 3 caras visibles.
+   - Hay 1 cubo en el centro de cada cara (6 caras en total, 1 por cada una de las 6 caras del cubo grande), cada uno con 1 cara visible.
+   - Hay 12 cubos en cada borde (excluyendo los cubos de las esquinas), cada uno con 2 caras visibles (4 bordes por cara x 3 caras = 12 cubos).
+
+3. **Cálculo de las caras visibles**:
+   - Caras visibles de los cubos de las esquinas: \(8 \text{ cubos} \times 3 \text{ caras visibles} = 24\)
+   - Caras visibles de los cubos en el centro de cada cara: \(6 \text{ cubos} \times 1 \text{ cara visible} = 6\)
+   - Caras visibles de los cubos en los bordes: \(12 \text{ cubos} \times 2 \text{ caras visibles} = 24\)
+
+4. **Cálculo total de las caras visibles**:
+   \[
+   24 \text{ (esquinas)} + 6 \text{ (centro de cada cara)} + 24 \text{ (bordes)} = 54 \text{ caras visibles}
+   \]
+
+5. **Determinar el mayor número de caras completamente rojas**:
+   Para que una cara esté completamente roja, todos los cubos que forman parte de esa cara deben tener esa cara pintada de rojo.
+   Como cada cara del cubo grande está formada por 9 cubos pequeños (3x3), y cada cubo pequeño tiene 1 cara visible en esa cara:
+   El máximo número de caras completamente rojas sería 6, ya que el cubo grande tiene 6 caras, y cada una puede estar completamente pintada de rojo.
+
+Razonamiento: Un cubo grande de 3x3x3 tiene 6 caras, y cada cara puede estar completamente pintada de rojo si todos los 9 cubos pequeños que forman esa cara tienen una cara pintada de rojo.
+
+Respuesta: E)

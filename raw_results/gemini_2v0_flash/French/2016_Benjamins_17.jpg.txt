@@ -1,0 +1,7 @@
+Reasoning:
+Let the age of each of the triplets be $x$. Then Tim, Pim and Jim are each $x$ years old. Their brother Jerry is $x-3$ years old.
+The sum of their ages is $x + x + x + (x-3) = 4x - 3$. We need to find a value of $x$ such that $4x-3$ equals one of the given options. In other words, we need to find a value such that $4x - 3 \in \{52, 53, 54, 55, 56\}$.
+We can write this as $4x = \{55, 56, 57, 58, 59\}$. This means $x = \{55/4, 56/4, 57/4, 58/4, 59/4\}$.
+Since $x$ must be an integer (age), we must have $4x$ as a multiple of 4. Looking at the possibilities, $56$ is the only option that fits, so $4x = 56$ and $x = 14$. Therefore, the age of each of the triplets is 14 and the age of Jerry is $14-3=11$. Then the sum of the ages is $14+14+14+11 = 53$.
+
+Answer: B)

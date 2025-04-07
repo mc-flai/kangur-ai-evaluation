@@ -1,0 +1,21 @@
+Raonament:
+La pregunta busca l'interval de valors de *a* per als quals existeix un valor de *b* tal que es compleixen les dues desigualtats:
+
+1.  |a + b| ≤ 1, que pot reescriure's com -1 ≤ a + b ≤ 1.
+2.  |a - 3b| ≤ 2, que pot reescriure's com -2 ≤ a - 3b ≤ 2.
+
+De la primera desigualtat, podem aïllar b: -1 - a ≤ b ≤ 1 - a.
+De la segona desigualtat, podem aïllar b: (a - 2)/3 ≤ b ≤ (a + 2)/3.
+
+Perquè existeixi un valor de *b* que compleixi ambdues desigualtats, els intervals de *b* han de superposar-se. Per tant, el valor màxim de la fita inferior de *b* ha de ser menor o igual que el valor mínim de la fita superior de *b*.  És a dir:
+
+max(-1 - a, (a - 2)/3) ≤ min(1 - a, (a + 2)/3)
+
+Considerem les dues desigualtats separadament:
+-1 - a ≤ (a + 2)/3  => -3 - 3a ≤ a + 2 => -5 ≤ 4a => a ≥ -5/4
+(a - 2)/3 ≤ 1 - a => a - 2 ≤ 3 - 3a => 4a ≤ 5 => a ≤ 5/4
+
+Combinant les dues restriccions, obtenim -5/4 ≤ a ≤ 5/4.
+Aquest és l'interval dels possibles valors de a per als quals existeix un b que satisfà les dues desigualtats.
+
+Resposta: A)

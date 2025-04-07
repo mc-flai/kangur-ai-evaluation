@@ -1,0 +1,17 @@
+Per resoldre aquest problema, hem de determinar quina és l'àrea de la part ombrejada en el quadrat de costat 1. El punt M és el punt mitjà de AB, per tant divideix el costat en dos segments iguals de longitud 1/2.
+
+El quadrat està dividit en 4 triangles petits, però només ens interessa l'àrea de la part ombrejada que consta d'un triangle (el que té el vèrtex en M i els dos altres vèrtex en els punts D i C).
+
+La fórmula per calcular l'àrea d'un triangle és:
+\[ \text{Àrea} = \frac{1}{2} \times \text{base} \times \text{alçada} \]
+
+En el nostre cas, la base \(b\) i l'alçada \(h\) del triangle ombrejat són tots dos iguals a \( \frac{1}{2} \) (ja que el punt M és el punt mitjà de AB).
+
+\[ \text{Àrea} = \frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} = \frac{1}{8} \]
+
+Així doncs, l'àrea de la part ombrejada és:
+\[ \frac{1}{8} \]
+
+**Raonament**: Aplicant la fórmula de l'àrea d'un triangle i utilitzant les longituds dels segments, hem determinat que l'àrea de la part ombrejada és \(\frac{1}{8}\).
+
+**Resposta**: C)

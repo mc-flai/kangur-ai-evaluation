@@ -1,0 +1,30 @@
+To determine which card must be turned upside down to make the sum of the numbers in the top row equal to the sum of the numbers in the bottom row, we need to evaluate the current sums and the effect of turning each card.
+
+**Reasoning**:
+1. Calculate the current sums:
+   - Top row: 7 + 5 + 4 + 2 + 8 + 3 + 2 = 31
+   - Bottom row: 4 + 8 + 9 + 9 + 7 + 4 + 4 = 45
+
+2. We need to turn a card upside down such that the difference between the sums is corrected. The difference is 45 - 31 = 14.
+
+3. Analyzing the effect of turning each card:
+   - Card A (7/4): Turning it changes the sums by 7 - 4 = 3 (not enough).
+   - Card B (5/8): Turning it changes the sums by 8 - 5 = 3 (not enough).
+   - Card C (4/9): Turning it changes the sums by 9 - 4 = 5 (not enough).
+   - Card D (2/9): Turning it changes the sums by 9 - 2 = 7 (not enough).
+   - Card E (8/7): Turning it changes the sums by 7 - 8 = -1 (not enough).
+   - Card F (3/4): Turning it changes the sums by 4 - 3 = 1 (not enough).
+   - Card G (2/4): Turning it changes the sums by 4 - 2 = 2 (not enough).
+
+4. Since none of the individual cards can correct the difference of 14 on their own, we need to find a combination of cards that add up to 14.
+
+5. Checking combinations:
+   - Card B (5/8) and Card G (2/4) together change the sums by (8 - 5) + (4 - 2) = 3 + 2 = 5 (not enough).
+   - Card C (4/9) and Card F (3/4) together change the sums by (9 - 4) + (4 - 3) = 5 + 1 = 6 (not enough).
+   - Card C (4/9) and Card D (2/9) together change the sums by (9 - 4) + (9 - 2) = 5 + 7 = 12 (not enough).
+   - Card C (4/9), Card D (2/9), and Card F (3/4) together change the sums by (9 - 4) + (9 - 2) + (4 - 3) = 5 + 7 + 1 = 13 (not enough).
+   - Card C (4/9), Card D (2/9), and Card G (2/4) together change the sums by (9 - 4) + (9 - 2) + (4 - 2) = 5 + 7 + 2 = 14 (exactly correct).
+
+Therefore, the correct card to turn is Card C.
+
+**Answer**: C)

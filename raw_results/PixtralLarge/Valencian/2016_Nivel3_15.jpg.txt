@@ -1,0 +1,31 @@
+Per a resoldre aquesta pregunta, hem de determinar quina és la suma de tots els nombres naturals que en ser dividits per 7 donen un residu igual a quocient.
+
+Primer, recordem que el residu d'una divisió és el que queda després de dividir dos nombres, i el quocient és el nombre de vegades que el divisor cabe en el dividend. En aquest cas, busquem els nombres naturals en els quals el residu és igual al quocient quan divideixes per 7.
+
+Considerem els nombres naturals de l'1 al 6 (el 7 no s'inclou perquè dividit per 7 dona residu 0 i quocient 1, que no són iguals).
+
+- Per al nombre 1: 1 ÷ 7 = 0 residu 1
+- Per al nombre 2: 2 ÷ 7 = 0 residu 2
+- Per al nombre 3: 3 ÷ 7 = 0 residu 3
+- Per al nombre 4: 4 ÷ 7 = 0 residu 4
+- Per al nombre 5: 5 ÷ 7 = 0 residu 5
+- Per al nombre 6: 6 ÷ 7 = 0 residu 6
+
+Els nombres naturals que compleixen la condició són 1, 2, 3, 4, 5 i 6. Ara sumem aquests nombres:
+
+1 + 2 + 3 + 4 + 5 + 6 = 21
+
+No obstant això, si sumem aquests nombres multiplicats per 7 perquè el residu sigui igual al quocient:
+
+(1*7) + (2*7) + (3*7) + (4*7) + (5*7) + (6*7) = 7 + 14 + 21 + 28 + 35 + 42 = 147
+
+Ara, hem de buscar quina de les opcions donades és igual a 147, però en lloc d'això, notem que la pregunta demana la suma de tots els nombres naturals que en dividir-los per 7 donen un residu igual al quocient, el que vol dir que estem buscant el nombre de termes que compleixen aquesta condició (els nombres de l'1 al 6).
+
+La suma d'aquests nombres és:
+
+1 + 2 + 3 + 4 + 5 + 6 = 21
+
+Per tant, la resposta correcta és:
+
+Raonament: Hem identificat els nombres naturals de l'1 al 6 que compleixen la condició de tenir un residu igual al quocient quan es divideixen per 7 i hem sumat aquests nombres.
+Resposta: B) 168

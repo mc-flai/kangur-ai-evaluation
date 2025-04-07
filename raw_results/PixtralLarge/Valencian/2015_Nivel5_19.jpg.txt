@@ -1,0 +1,37 @@
+Per resoldre aquesta pregunta, hem de trobar el valor de \( x \) per tal que l'àrea del triangle rectangle isòsceles sigui igual a l'àrea d'un triangle equilàter de costat 1.
+
+1. **Identificar les àrees:**
+   - L'àrea d'un triangle equilàter de costat 1 es calcula com:
+     \[
+     \text{Àrea del triangle equilàter} = \frac{\sqrt{3}}{4} \cdot 1^2 = \frac{\sqrt{3}}{4}
+     \]
+
+2. **Àrea del triangle rectangle isòsceles:**
+   - Un triangle rectangle isòsceles té els dos costats iguals i un angle recte. Si els costats iguals són \( x \) i l'altre costat és el mateix \( x \):
+     \[
+     \text{Àrea del triangle rectangle isòsceles} = \frac{1}{2} \cdot x \cdot x = \frac{1}{2} x^2
+     \]
+
+3. **Igualar les àrees:**
+   - Igualem les àrees dels dos triangles:
+     \[
+     \frac{1}{2} x^2 = \frac{\sqrt{3}}{4}
+     \]
+
+4. **Resoldre per \( x \):**
+   - Multipliquem els dos costats per 4 per desfer-nos del denominador:
+     \[
+     2x^2 = \sqrt{3}
+     \]
+   - Dividim per 2:
+     \[
+     x^2 = \frac{\sqrt{3}}{2}
+     \]
+   - Prenem l'arrel quadrada dels dos costats:
+     \[
+     x = \sqrt{\frac{\sqrt{3}}{2}} = \left(\frac{\sqrt{3}}{2}\right)^{1/2} = \frac{\sqrt[4]{3}}{\sqrt{2}} = \frac{\sqrt[4]{3}}{2^{1/2}} = 2^{-1/2} \cdot 3^{1/4}
+     \]
+
+**Raonament**: Hem igualat les àrees del triangle rectangle isòsceles i del triangle equilàter i resolt per \( x \) per obtenir \( x = 2^{-1/2} \cdot 3^{1/4} \).
+
+**Resposta**: E)

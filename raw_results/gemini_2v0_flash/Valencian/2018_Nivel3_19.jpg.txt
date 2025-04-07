@@ -1,0 +1,14 @@
+Raonament: Tenim quatre punts A, B, C i D en una línia recta. Les distàncies entre ells són:
+AB = 1 cm
+BC = 2 cm
+CD = 3 cm
+DA = 4 cm
+
+Necessitem determinar quins dos punts són els extrems. Suposem que A i D són els extrems. Llavors, la distància AD ha de ser igual a la suma de les distàncies AB + BC + CD o alguna altra combinació on els punts estan situats en ordre.
+
+Si la seqüència és A-B-C-D, llavors AD = AB + BC + CD = 1 + 2 + 3 = 6 cm. Però se'ns diu que AD = 4 cm. Això significa que els punts no poden estar en aquest ordre.
+
+Si la seqüència és A-C-B-D o A-C-D-B... No podem establir l'ordre simplement amb les distàncies proporcionades. Però, si la distància de A a D és 4, i la distància de D a A és 4, això suggereix que són els punts extrems. Si A i D fossin al mig, la distància entre els punts extrems seria superior a 4. Ja que AB + BC + CD= 6>4
+I DA=4, A i D son els extrems.
+
+Resposta: A)

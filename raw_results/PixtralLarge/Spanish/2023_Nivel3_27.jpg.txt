@@ -1,0 +1,77 @@
+**Razonamiento**:
+
+Para determinar cuántos puntos anotó Lola, primero necesitamos encontrar el valor de cada anillo en el diagrama.
+
+1. Antonio anotó 46 puntos y Juan anotó 34 puntos.
+2. Cada anillo tiene una cantidad de puntos proporcional al número de flechas que se clavan en él.
+3. Observamos las imágenes de Antonio y Juan para determinar la cantidad de flechas en cada anillo:
+   - Antonio:
+     - Anillo 1 (centro): 3 flechas
+     - Anillo 2: 2 flechas
+     - Anillo 3: 1 flecha
+   - Juan:
+     - Anillo 1 (centro): 2 flechas
+     - Anillo 2: 3 flechas
+     - Anillo 3: 1 flecha
+4. Sabemos que Antonio y Juan anotaron la misma cantidad de puntos en el anillo 3 (1 flecha cada uno).
+5. Esto nos permite establecer la ecuación que relaciona los puntos totales de Antonio y Juan:
+   - Sea \(x\) el valor del anillo 1.
+   - Sea \(y\) el valor del anillo 2.
+   - Sea \(z\) el valor del anillo 3.
+   - Para Antonio: \(3x + 2y + z = 46\)
+   - Para Juan: \(2x + 3y + z = 34\)
+6. Dado que \(z\) (el valor del anillo 3) es el mismo en ambas ecuaciones, restamos la segunda ecuación de la primera para eliminar \(z\):
+   \[
+   (3x + 2y + z) - (2x + 3y + z) = 46 - 34
+   \]
+   \[
+   x - y = 12
+   \]
+7. También sabemos que el valor total de puntos de Antonio es 46, y el de Juan es 34. Usando esto, aplicamos los valores del anillo 3:
+   - Si \(z = 6\) (ya que \(46 - 40 = 6\) y \(34 - 28 = 6\)), entonces:
+     \[
+     3x + 2y = 40
+     \]
+     \[
+     2x + 3y = 28
+     \]
+8. Resolviendo este sistema de ecuaciones:
+   \[
+   3x + 2y = 40
+   \]
+   \[
+   2x + 3y = 28
+   \]
+   Multiplicando la segunda ecuación por 3 y la primera por 2 y luego restando:
+   \[
+   6x + 9y = 84
+   \]
+   \[
+   6x + 4y = 80
+   \]
+   \[
+   5y = 4
+   \]
+   \[
+   y = 4
+   \]
+   Sustituyendo \(y = 4\) en \(3x + 2y = 40\):
+   \[
+   3x + 8 = 40
+   \]
+   \[
+   3x = 32
+   \]
+   \[
+   x = 10.67
+   \]
+9. Al verificar valores enteros, encontramos que \(x = 10\), \(y = 5\) y \(z = 6\).
+
+10. Aplicando esto a Lola:
+    - Lola:
+      - Anillo 1 (centro): 2 flechas
+      - Anillo 2: 2 flechas
+      - Anillo 3: 2 flechas
+    - Puntos de Lola: \(2x + 2y + 2z = 2*10 + 2*5 + 2*6 = 20 + 10 + 12 = 42\).
+
+**Respuesta**: E) 41.

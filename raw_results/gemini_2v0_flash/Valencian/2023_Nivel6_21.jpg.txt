@@ -1,0 +1,10 @@
+Raonament:
+Primer, identifiquem l'interval dels nombres naturals de tres xifres, que va de 100 a 999. Per tant, hi ha 999 - 100 + 1 = 900 nombres de tres xifres.
+A continuació, calculem la quantitat de nombres divisibles per 2. La meitat dels nombres són divisibles per 2. Per tant, hi ha 900 / 2 = 450 nombres divisibles per 2.
+Calculem la quantitat de nombres divisibles per 3. Hi ha 900 / 3 = 300 nombres divisibles per 3.
+Calculem la quantitat de nombres divisibles per 2 i 3 (és a dir, divisibles per 6). Hi ha 900 / 6 = 150 nombres divisibles per 6.
+Ara, usem el principi d'inclusió-exclusió per trobar el nombre de nombres divisibles per 2 o 3. El nombre de nombres divisibles per 2 o per 3 és:
+N(divisible per 2) + N(divisible per 3) - N(divisible per 2 i 3) = 450 + 300 - 150 = 600.
+Per tant, hi ha 600 nombres de tres xifres que són divisibles per 2 o per 3.
+
+Resposta: A)

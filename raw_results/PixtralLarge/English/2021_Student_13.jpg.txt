@@ -1,0 +1,38 @@
+To determine how many three-digit natural numbers have the property that when their digits are written in reverse order, the result is a three-digit number which is 99 more than the original number, we need to follow these steps:
+
+1. Let the original three-digit number be represented as \(100a + 10b + c\), where \(a\), \(b\), and \(c\) are the digits of the number and \(a \neq 0\) (since it is a three-digit number).
+2. The reversed number would be \(100c + 10b + a\).
+3. According to the problem, the reversed number is 99 more than the original number. Therefore, we can write the equation:
+   \[
+   100c + 10b + a = 100a + 10b + c + 99
+   \]
+4. Simplifying this equation, we get:
+   \[
+   100c + a = 100a + c + 99
+   \]
+5. Rearranging the terms, we have:
+   \[
+   99c - 99a = 99
+   \]
+6. Dividing both sides by 99, we get:
+   \[
+   c - a = 1
+   \]
+7. This means that the units digit (c) must be 1 more than the hundreds digit (a).
+
+8. Since \(a\) and \(c\) are digits, \(a\) can take values from 1 to 8 (because \(a\) must be a non-zero digit and \(c\) must be a valid digit), and for each value of \(a\), \(c\) is determined as \(a + 1\).
+
+9. The possible pairs \((a, c)\) are:
+   - \(a = 1, c = 2\)
+   - \(a = 2, c = 3\)
+   - \(a = 3, c = 4\)
+   - \(a = 4, c = 5\)
+   - \(a = 5, c = 6\)
+   - \(a = 6, c = 7\)
+   - \(a = 7, c = 8\)
+   - \(a = 8, c = 9\)
+
+10. There are 8 such pairs.
+
+Reasoning: By following the steps above, we find that there are 8 three-digit natural numbers that satisfy the given condition.
+Answer: A)

@@ -1,0 +1,34 @@
+To solve this problem, we need to determine the number of small, white cubes Jack used given the conditions that:
+1. Jack makes a cube from 27 small cubes.
+2. The small cubes are either grey or white.
+3. Two small cubes with the same colour are not allowed to be placed next to each other.
+
+Let’s analyze the structure of the cube:
+- The cube is a 3x3x3 arrangement of small cubes because 3^3 = 27.
+- Each face of the cube is a 3x3 grid.
+
+To satisfy the condition that no two cubes of the same colour are next to each other, we need to alternate the colours.
+
+**Step-by-step analysis:**
+
+1. **Identify the pattern on a single face of the cube:**
+   Each face of the cube must be arranged in a checkerboard pattern (alternating grey and white cubes) to ensure no two adjacent cubes are the same colour.
+
+2. **Determine the positioning of cubes:**
+    - For a 3x3 grid, the central cube must be different from its neighboring cubes.
+    - If the central cube is white, then the 4 adjacent cubes (top, bottom, left, right) must be grey.
+    - The corner cubes must then be white to alternate the colours.
+
+3. **Count the white cubes in one layer:**
+    - In a 3x3 grid, with the central cube being white, the four corner cubes are also white.
+    - This gives us 5 white cubes per layer.
+
+4. **Extend this pattern to the entire cube:**
+    - There are 3 layers in the cube.
+    - Each layer has 5 white cubes.
+    - Therefore, the total number of white cubes in the c3x3x3 cube is 5 white cubes per layer * 3 layers = 15 white cubes.
+
+**Reasoning:**
+By analyzing the 3x3x3 cube and ensuring no two adjacent cubes are the same colour, we find that each layer has 5 white cubes, leading to a total of 15 white cubes in the entire cube.
+
+**Answer:** E)

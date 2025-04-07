@@ -1,0 +1,18 @@
+Pour analyser la question 11, nous devons identifier l'écureuil qui attrapera deux noisettes lorsque l'écureuil qui a attrapé la première noisette court vers la noisette la plus proche.
+
+**Raisonnement :**
+1. Les cinq écureuils sont placés en ligne : A, B, C, D, et E.
+2. Ils attrapent six noisettes marquées par une croix (X).
+3. Chaque écureuil court vers la noisette la plus proche de lui.
+4. L'écureuil qui attrape la première noisette court vers la suivante la plus proche.
+
+Analysons la position de chaque écureuil :
+- L'écureuil A est le plus à gauche. Si A attrape la première noisette à sa droite, il n'y a plus de noisette à sa gauche.
+- L'écureuil B est le deuxième à gauche. Si B attrape la première noisette à sa droite, il n'y a plus de noisette à sa gauche, mais il pourrait attraper la deuxième noisette si elle est la plus proche.
+- L'écureuil C est au centre. Si C attrape la première noisette à sa droite, il pourrait attraper la deuxième noisette à sa gauche si elle est la plus proche.
+- L'écureuil D est le deuxième à droite. Si D attrape la première noisette à sa droite, il n'y a plus de noisette à sa gauche, mais il pourrait attraper la deuxième noisette si elle est la plus proche.
+- L'écureuil E est le plus à droite. Si E attrape la première noisette à sa droite, il n'y a plus de noisette à sa gauche.
+
+En observant la disposition des noisettes, l'écureuil C est le seul qui peut attraper deux noisettes en courant vers la noisette la plus proche après avoir attrapé la première.
+
+**Réponse :** C)

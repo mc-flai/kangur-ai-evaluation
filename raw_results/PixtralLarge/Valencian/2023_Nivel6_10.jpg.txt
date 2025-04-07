@@ -1,0 +1,17 @@
+**Raonament**:
+La pregunta demana quantos zeros acaba el nombre \(2^{12} \cdot 3^{13} \cdot 5^{15} \cdot 7^{17}\).
+
+Per determinar el nombre de zeros al final d'un nombre, hem de considerar el factor \(10\), ja que cada \(10\) és igual a \(2 \cdot 5\). Per tant, els zeros al final del nombre estan determinats pel nombre mínim de parelles de factors \(2\) i \(5\).
+
+Primer, descomponem el nombre en els seus factors primers:
+
+- \(2^{12}\) té 12 factors de 2.
+- \(3^{13}\) no té factors de 2 o 5.
+- \(5^{15}\) té 15 factors de 5.
+- \(7^{17}\) no té factors de 2 o 5.
+
+Per determinar el nombre de zeros al final del nombre, hem de trobar el mínim entre els factors de 2 i els factors de 5. En aquest cas, tenim 12 factors de 2 i 15 factors de 5. El mínim entre 12 i 15 és 12.
+
+Per tant, el nombre acaba amb 12 zeros.
+
+**Resposta**: A) 12

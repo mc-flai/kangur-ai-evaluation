@@ -1,0 +1,15 @@
+Razonamiento:
+Hay 3 conejos en total y no hay dos conejos que estén juntos. También sabemos que exactamente 3 canguros están sentados junto a otro canguro. Queremos maximizar el número total de canguros.
+
+Si los tres conejos están separados, entonces tenemos tres espacios para insertar los canguros, asegurando que ningún conejo esté sentado uno al lado del otro. Para maximizar la cantidad de canguros, podemos hacer que los tres conejos estén igualmente separados. En este caso, podemos tener tres canguros juntos, y luego otros canguros separados para maximizar el número total de canguros.
+
+Para que exactamente 3 canguros estén sentados uno al lado del otro, podemos poner 3 canguros en secuencia. Para garantizar que no haya conejos uno al lado del otro, los 3 conejos deben estar separados por los canguros.
+
+Por ejemplo, podemos tener la siguiente secuencia: Conejo - Canguro - Conejo - Canguro - Canguro - Canguro - Conejo - Canguro. En este caso, tenemos 3 conejos y 5 canguros.
+
+También tenemos que tener en cuenta que si tenemos Conejo - Canguro - Conejo - Canguro - Conejo - Canguro - Canguro - Canguro, entonces 3 canguros están uno al lado del otro. Sin embargo, Conejo - Canguro - Conejo - Canguro - Conejo - Canguro- Canguro- Canguro,  entonces la secuencia es: Conejo, Canguro, Conejo, Canguro, Conejo, 3 Canguros.  Entonces, podemos tener como máximo 2 canguros entre los conejos.
+Conejo - Canguro - Canguro - Conejo - Canguro - Canguro - Conejo - Canguro. En este caso tenemos 3 conejos, y 7 canguros, pero no tenemos 3 canguros juntos.
+Necesitamos 3 canguros sentados uno al lado del otro. Conejo - Canguro - Conejo - 3 Canguros - Conejo - Canguro, o Conejo - Canguro - Conejo - Canguro - Conejo - 3 Canguros. En la primera opción tenemos 5 canguros, en la segunda también.
+Para maximizar la cantidad de canguros, tenemos que tener 3 canguros juntos y tener al menos un canguro separando los conejos. Conejo - Canguro - Conejo - Canguro - Conejo - 3 canguros. O Conejo - Conejo - Conejo - 3 canguros - Canguro - Canguro. Para poder tener exactamente 3 canguros juntos, podemos intentar Conejo - Canguro - Conejo - Canguro - Canguro - Canguro - Conejo. En este caso, tenemos 3 conejos y 5 canguros. No podemos tener un número mayor.
+
+Respuesta: B)

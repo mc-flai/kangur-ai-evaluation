@@ -1,0 +1,18 @@
+Reasoning:
+The problem describes a die where certain faces share an edge. We need to find the face opposite to face 4.
+1. Faces 1 and 6 share an edge.
+2. Faces 1 and 5 share an edge.
+3. Faces 1 and 2 share an edge.
+4. Faces 6 and 5 share an edge.
+5. Faces 6 and 4 share an edge.
+6. Faces 6 and 2 share an edge.
+
+From this information:
+- Face 1 is adjacent to faces 6, 5, and 2.
+- Face 6 is adjacent to faces 1, 5, 4, and 2. This means face 6 is adjacent to four other faces.
+- Face 4 is adjacent to face 6.
+- The only faces that can be adjacent to 6 are 1,2,4 and 5, thus 3 must be opposite to 6
+The only face that 4 is adjacent to is 6, which means that it can be adjacent to 1,2,5,3.
+Since 1,2,5,6 are not opposite face 4, then face 4 must be opposite to face 3.
+
+Answer: C)

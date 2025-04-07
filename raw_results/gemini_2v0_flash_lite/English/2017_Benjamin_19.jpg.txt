@@ -1,0 +1,5 @@
+Reasoning: The problem states that adjacent kangaroos looking at each other swap places. In the provided image, this process can continue as long as there are such pairs.  The first kangaroo will change places with the kangaroo next to it.
+In this case, the kangaroos are ordered with alternating direction of gaze. The process will result in the kangaroos exchanging places until no pairs exist that are looking at each other. Thus, a place exchange occurs when the two kangaroos next to each other look at each other. This situation will occur when there is a pair of adjacent kangaroos and then another pair adjacent to that pair, so 2 pairs. The process iterates until the whole line is sorted by the direction they look. The number of swaps depend on the initial number of kangaroos: with n kangaroos, it's n(n-1)/2.
+However, looking at the picture, one should have realized that the answer is the total number of pairs. With 8 kangaroos, the number of swaps is 16.
+
+Answer: E)

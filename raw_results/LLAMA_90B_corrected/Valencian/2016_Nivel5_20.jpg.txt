@@ -1,0 +1,12 @@
+### Raonament:    
+    La pregunta 20 consisteix a trobar el valor de n en l'equació
+    ```log_{n} (2^{n}) =\frac{n}{4}``. 
+
+    Si para dos logaritmes, es pot igualar les seves equivalències exponencials. Així, de
+    ```log_{n} (2^{n}) =\frac{n}{4}``, 
+    es desprén la següent igualtat 
+    ```2^n = n^{\frac{n}{4}}```.
+    
+    Per a xifres petites, no es pot veure quina n satisfa la igualtat. Amb això, es pot veure que el valor de 2^n contre puja més ràpidament que n^{\frac{n}{4}}. Ara es pot seguir provant. Per a n=2 no és igual, als 4 no, i als 8 és. Per tant, la nostra selecció és l'opció **C).** Conviene aquestes operacions que no donin respuestes en proporcionar un exemple. Amb tot, podem veer aue, a les grans dades, el 2^n rep a un augment igual n^{\frac{n}{4}}. Essent un joc d'observacions irrefutacibles.
+    
+Resposta: C).

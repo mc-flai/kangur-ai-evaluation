@@ -1,0 +1,7 @@
+Raonament: Perquè $K \cdot N$ sigui un cub perfecte, els exponents de tots els factors primers en la seva descomposició han de ser múltiples de 3.
+Tenim $N = 5^2 \cdot 3^4 \cdot 2^1$. Necessitem trobar un $K$ tal que $K \cdot N = 5^a \cdot 3^b \cdot 2^c$, on $a$, $b$, i $c$ són múltiples de 3. Per tant, $K$ ha de proporcionar els factors primers que falten per assolir exponents múltiples de 3.
+En altres paraules, $K = 5^{3k_1-2} \cdot 3^{3k_2-4} \cdot 2^{3k_3-1}$, on $k_1$, $k_2$ i $k_3$ són enters positius. Volem el menor valor possible de $K$, de manera que prenem els valors mínims per a $k_1$, $k_2$ i $k_3$, és a dir, $k_1=1$, $k_2=2$, $k_3=1$.
+Així, $K = 5^{3(1)-2} \cdot 3^{3(2)-4} \cdot 2^{3(1)-1} = 5^1 \cdot 3^2 \cdot 2^2 = 5 \cdot 9 \cdot 4 = 5 \cdot 36 = 180$.
+Per tant, la resposta correcta és 180.
+
+Resposta: E)

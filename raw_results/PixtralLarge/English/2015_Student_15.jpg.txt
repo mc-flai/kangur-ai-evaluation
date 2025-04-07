@@ -1,0 +1,41 @@
+The geometric mean of n numbers is defined as the nth root of the product of all n numbers. In this problem, we have six numbers with the following conditions:
+- The geometric mean of three of the numbers is 3.
+- The geometric mean of the other three numbers is 12.
+
+We need to find the geometric mean of all six numbers.
+
+**Reasoning**:
+1. For the first three numbers, if their geometric mean is 3, we have:
+   \[
+   \sqrt[3]{x_1 \cdot x_2 \cdot x_3} = 3
+   \]
+   Cubing both sides, we get:
+   \[
+   x_1 \cdot x_2 \cdot x_3 = 3^3 = 27
+   \]
+2. For the other three numbers, if their geometric mean is 12, we have:
+   \[
+   \sqrt[3]{x_4 \cdot x_5 \cdot x_6} = 12
+   \]
+   Cubing both sides, we get:
+   \[
+   x_4 \cdot x_5 \cdot x_6 = 12^3 = 1728
+   \]
+3. The product of all six numbers is:
+   \[
+   x_1 \cdot x_2 \cdot x_3 \cdot x_4 \cdot x_5 \cdot x_6 = 27 \cdot 1728
+   \]
+   Calculate the product:
+   \[
+   27 \cdot 1728 = 46656
+   \]
+4. The geometric mean of all six numbers is the sixth root of the product of all six numbers:
+   \[
+   \sqrt[6]{46656}
+   \]
+5. Calculate the sixth root of 46656:
+   \[
+   \sqrt[6]{46656} = \sqrt[6]{2^6 \cdot 3^6} = 2 \cdot 3 = 6
+   \]
+
+**Answer**: D).

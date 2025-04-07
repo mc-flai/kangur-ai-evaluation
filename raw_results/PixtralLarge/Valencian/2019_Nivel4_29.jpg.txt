@@ -1,0 +1,37 @@
+Per solucionar aquesta qüestió, primer haurem de trobar les edats de Pere i Júlia.
+
+Sabem que:
+1. La suma de les edats de Pere i Júlia és 91.
+2. L'edat de Júlia és el doble de l'edat que Pere tenia quan Júlia tenia l'edat que ara té Pere.
+
+Anomenem \( P \) la edat actual de Pere i \( J \) la edat actual de Júlia.
+
+D'acord amb la primera informació, tenim:
+\[ P + J = 91 \]
+
+D'acord amb la segona informació, quan Pere tenia \( P - (J - P) \) anys, Júlia tenia \( P \) anys. En aquest punt, l'edat de Júlia és el doble de l'edat de Pere:
+\[ J = 2(P - (J - P)) \]
+
+Simplifiquem l'equació:
+\[ J = 2(2P - J) \]
+\[ J = 4P - 2J \]
+\[ 3J = 4P \]
+\[ J = \frac{4P}{3} \]
+
+Substituïm \( J \) en la primera equació:
+\[ P + \frac{4P}{3} = 91 \]
+
+Multipliquem tots els termes per 3 per eliminar el denominador:
+\[ 3P + 4P = 273 \]
+\[ 7P = 273 \]
+\[ P = 39 \]
+
+Substituïm \( P \) en \( J = \frac{4P}{3} \):
+\[ J = \frac{4 \times 39}{3} \]
+\[ J = 52 \]
+
+Per tant, l'edat de Júlia és 52 anys.
+
+Raonament: Hem utilitzat les dues informacions donades per formular dues equacions i resoldre la edat de Pere i Júlia.
+
+Resposta: D)

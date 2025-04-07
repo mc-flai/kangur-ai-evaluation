@@ -1,0 +1,12 @@
+Razonamiento:
+Sean 'n' el número de cuadrados de lado 1 y lado 2. El área total del cuadrado grande estará dada por n*(1^2) + n*(2^2) = n + 4n = 5n. Dado que se requiere formar un cuadrado, el área total (5n) debe ser un cuadrado perfecto. Por lo tanto, 'n' debe ser de la forma 5k^2 para algún entero k.
+
+Si k = 1, n = 5, el área total es 5*5 = 25, y el lado del cuadrado es 5.
+Si k = 2, n = 20, el área total es 5*20 = 100, y el lado del cuadrado es 10.
+Si k = 3, n = 45, el área total es 5*45 = 225, y el lado del cuadrado es 15.
+Si k = 4, n = 80, el área total es 5*80 = 400, y el lado del cuadrado es 20.
+etc.
+
+La pregunta es, ¿cuál es la medida del lado del cuadrado *más pequeño* que Sara puede construir? El menor lado posible es 5, cuando se usan 5 cuadrados de cada tipo.
+
+Respuesta: A)

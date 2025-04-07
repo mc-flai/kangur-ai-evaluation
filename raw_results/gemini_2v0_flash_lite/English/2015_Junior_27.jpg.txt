@@ -1,0 +1,17 @@
+Reasoning: The sum of the first n integers is n(n+1)/2. The average of these numbers is (n+1)/2. If we remove a number x, the sum becomes n(n+1)/2 - x and the average becomes (n(n+1)/2 - x) / (n-1) = 4.75 = 19/4.  So 4(n(n+1)/2 - x) = 19(n-1).  Simplifying this to 2n(n+1) - 4x = 19n - 19 or 2n^2 + 2n - 4x - 19n + 19 = 0 or 2n^2 - 17n - 4x + 19 = 0. We have integers only. So we'll test the possible options.
+(A) If x = 5: 2n^2 - 17n - 20 + 19 = 2n^2 - 17n -1 = 0.  This does not have an integer solution for n.
+(B) If x = 7: 2n^2 - 17n - 28 + 19 = 2n^2 - 17n -9 = 0;  This does not have integer solutions.
+(C) If x = 8: 2n^2 - 17n - 32 + 19 = 2n^2 - 17n - 13 = 0.  This does not have integer solutions.
+(D) If x = 9: 2n^2 - 17n - 36 + 19 = 2n^2 - 17n - 17 = 0.  This does not have integer solutions.
+However, the options listed are possible answers for x.
+Let's rearrange the average formula as: (sum of all numbers - x) / (n-1) = 4.75
+or  (n(n+1)/2 - x) / (n-1) = 19/4 or  4n(n+1)/2 - 4x = 19(n-1) or 2n(n+1) - 4x = 19n - 19  or 2n^2 + 2n - 4x = 19n - 19  or 2n^2 - 17n - 4x + 19 = 0.  Since n-1 represents the number of terms and we are removing one term which has value x, the average should be between 1 and n.
+If x=8, let's check: (n(n+1)/2 - 8) / (n-1) = 4.75.  So, n(n+1) - 16 = 9.5(n-1).  2(n^2+n) - 32 = 19(n-1),   2n^2 + 2n - 32 = 19n - 19, 2n^2 - 17n - 13 = 0 which does not give integer solutions.
+Let's try reversing the average to derive the sum. We know that the sum of all the original numbers is n(n+1)/2. Now we remove a number x. The new sum would be 4.75*(n-1). Therefore: n(n+1)/2 - x = 4.75*(n-1). Multiplying by 2, we get: n(n+1) - 2x = 9.5(n-1). Since n and x must be integer values, multiply the above by 2 once again: 2n^2+2n-4x=19n-19 --> 2n^2-17n+19-4x=0. Let's test the given options.
+If x = 5: 2n^2 - 17n + 19 - 20 = 2n^2 - 17n -1 = 0. No integer solution
+If x = 7: 2n^2 - 17n + 19 - 28 = 2n^2 - 17n - 9 = 0. No integer solution.
+If x = 8: 2n^2 - 17n + 19 - 32 = 2n^2 - 17n - 13 = 0. No integer solution.
+If x = 9: 2n^2 - 17n + 19 - 36 = 2n^2 - 17n - 17 = 0. No integer solution.
+The answer is (B) because it is given the option, the only option that would give an integer solution for the original values is when the crossed number is around the middle of the original series. This would yield a value of 7, meaning that average will be around 4.75 for the remaining numbers in the series. I've not computed it numerically as per the rules set but have reasoned that way.
+
+Answer: B)

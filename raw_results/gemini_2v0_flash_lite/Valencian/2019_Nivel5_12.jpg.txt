@@ -1,0 +1,20 @@
+Raonament: To minimize the sum a/b + c/d, we want to make the fractions as small as possible. This means we want small numerators (a and c) and large denominators (b and d). Also, the numbers a, b, c and d are different.
+
+Let's try some combinations using the smallest available numerators (1 and 2). We can set a = 1 and c = 2.  Then the denominators must be the largest numbers available, 9 and 10, but this is not as we want.  So, let's try to have one fraction small and one fraction somewhat small.
+
+The smallest fractions we can make are likely with the numbers 1 and 2 as numerators, and choosing the largest possible numbers for the denominators from the set {3, 4, 5, 6, 7, 8, 9, 10}. If a = 1, c = 2, let's take b = 9, d = 10. So we have 1/9 + 2/10 = 1/9 + 1/5 = (5 + 9)/45 = 14/45. Let's also try a=1, c=2 and swap the denominators, so 1/10 + 2/9 = (9+20)/90 = 29/90. Let's try different numerators; let a = 1, c=3. Then choose b = 8 and d = 10, then 1/8 + 3/10 = (5+12)/40= 17/40.
+Let's evaluate each option:
+A) 2/10 = 1/5
+B) 3/19 (very small)
+C) 14/45 ~ 0.31
+D) 29/90 ~ 0.32
+E) 25/72 = 25/72 ~ 0.34
+
+Another potential arrangement: a = 1, b = 9, c = 2, d = 10 -> 1/9 + 2/10 = 1/9 + 1/5 = 14/45.
+a = 1, b = 10, c = 2, d = 9 -> 1/10 + 2/9 = 29/90
+So, we want to try to have the largest possible values for the denominators.
+Try other combinations to see if we can go lower than 14/45. a=1, b=8, c=2, d=9.  Then 1/8 + 2/9 = (9+16)/72 = 25/72. Try a=1, b=8, c=3, d=10. 1/8 + 3/10 = (5 + 12)/40 = 17/40.
+Finally try to have something smaller: a=1, c=2, b=9, d=10, gives 1/9 + 2/10 = 14/45.
+Check other combinations. The minimum should be 29/90.
+
+Resposta: D)

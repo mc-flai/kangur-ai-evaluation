@@ -1,0 +1,25 @@
+Pour résoudre la question 23, nous devons déterminer combien de nombres impairs peuvent être placés au maximum dans la pyramide, en respectant la règle que chaque nombre soit égal à la somme des deux nombres situés directement en dessous de lui.
+
+### Raisonnement :
+1. **Comprendre la structure de la pyramide** :
+   - La pyramide est composée de plusieurs niveaux.
+   - Chaque niveau contient des nombres, et chaque nombre (sauf ceux au niveau le plus bas) est la somme de deux nombres situés directement en dessous de lui.
+
+2. **Identifier les nombres impairs** :
+   - Un nombre impair est un nombre qui n'est pas divisible par 2.
+   - Nous devons maximiser le nombre de nombres impairs dans la pyramide.
+
+3. **Analyser les positions possibles pour les nombres impairs** :
+   - Les nombres au niveau le plus bas peuvent être impairs ou pairs.
+   - Les niveaux supérieurs dépendent des nombres en dessous.
+
+4. **Calculer les combinaisons possibles** :
+   - Si nous plaçons des nombres impairs au niveau le plus bas, nous devons vérifier si les nombres aux niveaux supérieurs peuvent également être impairs.
+   - Par exemple, si nous avons deux nombres impairs en dessous, leur somme sera paire.
+
+5. **Maximiser les nombres impairs** :
+   - En plaçant des nombres impairs de manière stratégique, nous pouvons maximiser le nombre total de nombres impairs dans la pyramide.
+   - En analysant les combinaisons possibles, nous trouvons que le maximum de nombres impairs que nous pouvons placer est 8.
+
+### Réponse :
+E) 8

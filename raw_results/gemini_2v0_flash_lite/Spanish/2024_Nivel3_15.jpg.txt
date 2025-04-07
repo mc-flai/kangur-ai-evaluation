@@ -1,0 +1,16 @@
+Razonamiento:
+The clock shows 20:24. The question asks how much time passed since the last time the clock showed a time with the same digits (0, 2, 4, 2) in a different order.
+
+The previous time must have occurred before the current time. Since 24 minutes have passed, we need to find the time before 20:24 which can be formed using those same digits. Possible times are 02:42, 04:22, 20:42 and 22:04. We can ignore 20:42 because this time also shows 20 (hours) and the time is before 20:24. The previous time with these digits must be less than 20:24, hence, the possibilities are 02:42, 04:22. Since we are looking for the time before 20:24, it is not possible that the time passed includes a change of day, so the closest time with these digits would have been 02:42. Let's calculate the time passed: from 02:42 to 20:24. The time between 02:42 and 20:24 is:
+
+From 02:42 to 19:42 -> 17 hours
+From 19:42 to 20:24 -> 42 minutes + 24 minutes= 42+24=82 min
+From 02:42 to 19:42 = 17 hours * 60 min/hour = 1020 min
+total time = 1020 minutes + 42 minutes + 24 minutes= 1020 + 82 = 1102 min. This is not the correct one because its bigger than all of the options,
+Instead, we have to pick the previous one, 04:22. From 04:22 to 20:24.
+From 04:22 to 19:22 -> 15 hours
+From 19:22 to 20:24 -> 1 hour + 2 minutes
+From 04:22 to 19:22 = 15 hours * 60 min/hour = 900 min
+Total time = 900 min + 1 h (60 min) + 2 minutes = 900 min + 60 + 2 = 962 minutes.
+
+Respuesta: D)

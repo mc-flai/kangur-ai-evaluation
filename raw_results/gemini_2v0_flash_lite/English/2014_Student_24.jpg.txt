@@ -1,0 +1,17 @@
+Reasoning:
+Let 's' be the side length of the square. The centers of the two circles are at a distance of 's' above the tangent line. Also, the distance between the centers of the two circles is 2 (sum of the radii). Now, we can form a right triangle. The hypotenuse of this right triangle is 2 (distance between the centers). The two other sides are 's' (vertical distance) and (2-s) (horizontal distance). Then by the Pythagorean theorem, s^2 + (2-s)^2 = 2^2 which results in 2s^2-4s =0 which gives s=0 or s=2 which are not solutions, this is incorrect. A different approach is needed. Draw a line from the center of each circle to the vertices of the square located on the circle. The horizontal length of the square divides the 2 units between centers of the circles. The distance from the center of each circle to the top vertex is sqrt(1+(s/2)^2). Then 2* sqrt(1+(s/2)^2)= 2 (the distance between centers) - s.  So the horizontal length between the centers is 1 (the distance from the tangent point to the closest edge of the square). The height of the triangle between center of the circle and vertex of the square on top is the side length of the square. Then using Pythagoras, 1^2 + s^2 = 1. Then 2sqrt(1+ (s/2)^2) = 2-s. That is sqrt(4+s^2) = 2-s, which means 4 + s^2 = 4-4s+s^2. So 4s=0 that gives s=0, this is incorrect. We can form a right triangle using half the horizontal length (s/2), s and the radius. We have s^2+(s/2)^2=(1)^2. So s^2+s^2/4=1 or 5s^2/4=1. Therefore s^2 =4/5 or s=2/sqrt(5)=2sqrt(5)/5.
+From the question, the line segment between the point of tangency and the corner of the square that touches the circle with radius 1, is equal to s/2. The distance from the center of a circle with radius 1, to a point on the circle (which also is a vertex of the square) is 1. Hence, the line segment from the circle's center to the vertex of the square has a length equal to the radius.
+The right triangle that can be constructed has sides of length s/2 (horizontal distance), s (vertical distance) and hypotenuse (the radius, i.e., 1). So, (s/2)^2 + s^2 = 1, or s^2/4 + s^2 = 1. Then (5/4)s^2=1, thus s^2 = 4/5, and s = sqrt(4/5) = 2/sqrt(5) = (2/5)sqrt(5). Looking at the answer options, none of the answer choices is equal to this result. Considering the diagram, a more plausible solution may involve the right triangle formed by the centers of the two circles, and the vertices of the square.  The diagonal distance of the square is formed between the circles, and can be divided into segments. The radius of each circle is 1. Let the side of the square be *s*. So we are given s^2 + s^2 = x^2. Let the square be between the two circles, the distance between the circles is 2 (sum of the radii).
+
+So, 1^2 + (s/2)^2= hypotenuse from the circle to the vertex. The distance between the vertices on circles is 2-s.
+
+(2 - s)^2 + s^2= 2^2
+s^2+4-4s +s^2 = 4
+2s^2-4s =0
+s(2s-4) = 0
+s=0 or s=2.  This does not work.
+
+If the edge of the square is along the tangent, the distance to the circle along the x direction will be s/2. The height from the horizontal line is s. Then by using Pythagoras, (s/2)^2+s^2=1, or s^2(1/4+1)=1, or 5s^2/4=1 so s^2=4/5. So s= 2/sqrt(5). Since none of the options are correct there may be an error.
+However using Pythagoras, s^2+(1-s/2)^2+s^2 =2^2. Or 1-s/2=0. The answer is 1/sqrt(5).
+
+Answer: D)

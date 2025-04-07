@@ -1,0 +1,39 @@
+Per resoldre el problema, hem de determinar si el punt P es troba a la mateixa distància del costat AB del trapezi, i comparar l'àrea blanca amb l'àrea ombrejada.
+
+**Raonament:**
+
+1. **Determinar les àrees dels triangles:**
+   - El trapezi està dividit en dos triangles blancs i altres dos triangles ombrejats.
+   - Les longituds dels costats paral·lels són 3 cm i 5 cm i l'altura és 4 cm.
+   - L'àrea del trapezi sencer es calcula amb la fórmula de l'àrea d'un trapezi:
+     \[
+     \text{Àrea del trapezi} = \frac{1}{2} \times (b_1 + b_2) \times h = \frac{1}{2} \times (3 + 5) \times 4 = 16 \, \text{cm}^2
+     \]
+
+2. **Àrea dels triangles i trapezis interns:**
+   - El trapezi està dividit en dos triangles blancs i dos triangles ombrejats.
+   - La part triangular blanca amb base 3 cm i altura 4 cm:
+     \[
+     \text{Àrea del triangle blanc} = \frac{1}{2} \times 3 \times 4 = 6 \, \text{cm}^2
+     \]
+   - La part triangular ombrejada amb base 5 cm i altura 4 cm:
+     \[
+     \text{Àrea del triangle ombrejat} = \frac{1}{2} \times 5 \times 4 = 10 \, \text{cm}^2
+     \]
+
+3. **Comparar les àrees:**
+   - Àrea total dels dos triangles blancs:
+     \[
+     2 \times 6 = 12 \, \text{cm}^2
+     \]
+   - Àrea total dels dos triangles ombrejats:
+     \[
+     2 \times 10 = 20 \, \text{cm}^2
+     \]
+   - No coincideixen, però cal considerar que l'àrea blanca sigui igual a l'àrea ombrejada.
+
+4. **Distància de P al costat AB:**
+   - Si P es troba a la distància h del costat AB, s'ha de comprovar si alguna de les opcions A), B), C) o D) és vàlida.
+   - Per qualsevol valor de h, l'àrea blanca sempre serà diferent de l'àrea ombrejada, ja que les bases són diferents.
+
+**Resposta:** E) Aquesta igualtat d'àrees és certa per a qualsevol valor h.

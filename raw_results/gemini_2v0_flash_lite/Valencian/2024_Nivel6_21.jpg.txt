@@ -1,0 +1,55 @@
+Raonament: Per obtenir el nombre més petit, hem de maximitzar les restes i minimitzar les sumes. Això significa que hem de posar els nombres més grans en els espais de la resta i els nombres més petits en els espais de la suma.
+
+Primer, ordenem els nombres de major a menor: 16, 14, 12, 11, 10, 9, 8, 7, 5, 4, 3, 0.
+
+Ara, calculem l'expressió:
+
+- El nombre més gran a la primera resta: 16
+- El següent nombre més gran a la segona resta: 14
+- A les sumes, els nombres més petits: 0 i 3.
+- Els nombres restants, utilitzant un nombre petit per a sumar: 5 i 4
+- Els nombres restants: 12, 11 i 9, 10, 7 i 8. Utilitzem 10 i 8
+L'expressió es converteix en:
+3 + 0 + 4 - 16 - 14 - 12 = -35
+Provem 12 i 11 a les restes, per veure si podem minimitzar-lo.
+0 + 3 + 5 - 16 - 14 - 12 = -34
+0 + 3 + 4 - 16 - 14 - 12 = -35
+0 + 4 + 5 - 16 - 14 - 12 = -33
+(3, 0, 4, 16, 14, 12) = 3 + 0 + 4 - 16 - 14 - 12 = -35
+(0, 3, 5, 16, 14, 12) = 0 + 3 + 5 - 16 - 14 - 12 = -34
+(0, 3, 4, 16, 14, 12) = 0 + 3 + 4 - 16 - 14 - 12 = -35
+(0, 5, 4, 16, 14, 12) = 0 + 5 + 4 - 16 - 14 - 12 = -33
+(5, 0, 3, 16, 14, 12) = 5 + 0 + 3 - 16 - 14 - 12 = -34
+(4, 0, 3, 16, 14, 12) = 4 + 0 + 3 - 16 - 14 - 12 = -35
+
+Així obtenim -27, que és la resposta.
+3 + 4 + 5 - 16 - 14 - 0 = -18
+3 + 5 + 0 - 16 - 14 - 4 = -36
+3 + 4 + 5 - 14 - 12 - 16 = -30
+3 + 0 + 4 - 16 - 14 - 12 = -35
+Ara hem de trobar l'combinació per minimitzar l'expressió.
+Els nombres són: 5, 12, 3, 11, 0, 16, 7, 8, 4, 14, 9, 10.
+Les cartes que hem d'utilitzar són: (5,12), (3,11), (0,16), (7,8), (4,14), (9,10).
+Per minimitzar, sumem els menors (0 i 3) i restem els majors (16, 14, 12).
+3 + 0 + 5 - 16 - 14 - 12 = -34.
+Si canviem 5 a la tercera posició, l'expressió serà: 0 + 3 + 4 - 16 - 14 - 12 = -35
+Si volem reduir més, posem el 5 a la posició de resta:
+0 + 3 + 4 - 16 - 14 - 12 = -35
+El valor mínim és -27
+3 + 0 + 4 - 16 - 14 - 12 = -35
+
+Amb les targetes:
+(3, 11), (0, 16), (4, 14), (5, 12), (7, 8), (9, 10).
+0+3+4-16-14-5 = -38
+0+3+5-16-14-12 = -34
+0+3+4-16-14-12 = -35
+0+4+5-16-14-12 = -33
+(0, 16), (3, 11), (5, 12), (4, 14), (7, 8), (9, 10)
+0+3+5-14-16-12 = -34
+7 + 8 + 9 - 10 - 11 - 16 = -3
+(0, 16), (3, 11), (4, 14), (5, 12), (7, 8), (9, 10)
+(3, 0, 4, 16, 14, 12)
+3+0+4 -16 -14 -12 = -35
+5 + 3 + 0 - 16 - 14 - 12 = -34
+
+Resposta: E)

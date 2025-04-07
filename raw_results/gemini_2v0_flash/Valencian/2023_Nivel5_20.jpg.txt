@@ -1,0 +1,8 @@
+Raonament: Primer hem de desglossar la fórmula que ens donen: a_n = 2a_(n-1) + a_(n-2). Ens diuen que a_3 = 9 i a_6 = 128. Ens demanen a_5.
+a_4 = 2a_3 + a_2, per tant, a_4 = 2 * 9 + a_2 = 18 + a_2
+a_5 = 2a_4 + a_3, per tant, a_5 = 2(18 + a_2) + 9 = 36 + 2a_2 + 9 = 45 + 2a_2
+a_6 = 2a_5 + a_4, per tant, a_6 = 2(45 + 2a_2) + (18 + a_2) = 90 + 4a_2 + 18 + a_2 = 108 + 5a_2.
+Com sabem que a_6 = 128, llavors, 128 = 108 + 5a_2, per tant, 5a_2 = 128 - 108 = 20, i a_2 = 20/5 = 4.
+Ara podem calcular a_5 = 45 + 2a_2 = 45 + 2 * 4 = 45 + 8 = 53.
+
+Resposta: B)

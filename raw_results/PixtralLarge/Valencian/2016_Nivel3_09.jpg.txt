@@ -1,0 +1,25 @@
+**Raonament**:
+
+Per trobar el menor nombre enter \( K \) tal que \( K \cdot N \) sigui un cub perfecte, primer calculem \( N \):
+
+\[ N = 5^2 \cdot 3^4 \cdot 2 \]
+
+Un cub perfecte és un nombre de la forma \( a^3 \) on \( a \) és un enter. Per tant, cada factor primer de \( K \cdot N \) ha de tenir un exponent múltiple de 3.
+
+Analitzem els exponents dels factors primers de \( N \):
+
+- El factor 5 té un exponent de 2.
+- El factor 3 té un exponent de 4.
+- El factor 2 té un exponent de 1.
+
+Perquè \( K \cdot N \) sigui un cub perfecte, cada exponent ha de ser múltiple de 3:
+
+- Per al factor 5: l'exponent ha de ser 3. Actualment és 2, per tant necessitem un factor addicional de 5 (perquè \( 2 + 1 = 3 \)).
+- Per al factor 3: l'exponent és 4. No necessitem cap factor addicional perquè 4 ja és múltiple de 3.
+- Per al factor 2: l'exponent ha de ser 3. Actualment és 1, per tant necessitem dos factors addicionals de 2 (perquè \( 1 + 2 = 3 \)).
+
+Per tant, \( K \) ha de ser:
+
+\[ K = 5 \cdot 2^2 = 5 \cdot 4 = 20 \]
+
+**Resposta**: B) 20

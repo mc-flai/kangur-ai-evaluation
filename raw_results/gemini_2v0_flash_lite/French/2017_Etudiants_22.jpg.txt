@@ -1,0 +1,23 @@
+Raisonnement :
+1.  Simplifions les équations données:
+    *   Équation 1: |x| + x + y = 5
+    *   Équation 2: x + |y| - y = 10
+
+2.  Considérons deux cas pour l'équation 1 en fonction de la valeur de x :
+    *   Si x ≥ 0, alors |x| = x. L'équation 1 devient x + x + y = 5, soit 2x + y = 5.
+    *   Si x < 0, alors |x| = -x. L'équation 1 devient -x + x + y = 5, soit y = 5.
+
+3.  Considérons deux cas pour l'équation 2 en fonction de la valeur de y:
+    *   Si y ≥ 0, alors |y| = y. L'équation 2 devient x + y - y = 10, soit x = 10.
+    *   Si y < 0, alors |y| = -y. L'équation 2 devient x - y - y = 10, soit x - 2y = 10.
+
+4.  Résolution :
+    *   Si y = 5 (du cas où x < 0) et x = 10 (du cas où y ≥ 0), cela contredit x < 0.
+    *   Si y = 5 (du cas où x < 0), on peut remplacer y par 5 dans l'équation 2 :  x - 2(5) = 10 => x - 10 = 10 => x = 20.  Ceci contredit aussi x < 0.
+    *   Si x = 10 (du cas où y ≥ 0), on peut remplacer x par 10 dans l'équation 1 (2x + y = 5) : 2(10) + y = 5 => 20 + y = 5 => y = -15. Ceci contredit le cas où y ≥ 0.
+    *   Si x ≥ 0, on a 2x + y = 5 et x - 2y = 10. On multiplie la première équation par 2: 4x + 2y = 10. Ensuite, on ajoute cette dernière équation à l'équation x - 2y = 10 : 4x + x + 2y - 2y = 10 + 10 => 5x = 20 => x = 4.  Ensuite, on remplace x par 4 dans 2x + y = 5: 2(4) + y = 5 => 8 + y = 5 => y = -3.  Comme x = 4 (≥ 0) et y = -3 (< 0), cela satisfait les conditions des équations.
+
+5.  Calcul de x + y:
+    *   x + y = 4 + (-3) = 1.
+
+Réponse : A)

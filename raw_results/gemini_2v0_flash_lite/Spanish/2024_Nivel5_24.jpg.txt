@@ -1,0 +1,29 @@
+Razonamiento:
+1. **Total Cubes:** Julia has 27 cubes to form a 3x3x3 cube.
+2. **Surface Colors:** The surface needs to have 1/3 black, 1/3 grey, and 1/3 white. The surface of a 3x3x3 cube consists of 3x3 = 9 squares per face, and there are 6 faces, resulting in a total of 54 squares.  Since the question pertains to the surface, we are looking at the cubes that form this outer layer.
+3. **Surface Cubes:** The surface will have a 3x3 layer composed of a number of cube, let's say that, there are 27 cube to form a 3x3x3 cube, which means, 3 layers:
+    *   The first layer 9 cubes.
+    *   The second layer 9 cubes.
+    *   The third layer 9 cubes.
+
+    The surface cubes consists on 27 cubes.
+4. **Colors on Surface:**
+   *   Black surface cubes: 1/3 * 54 = 18
+   *   Grey surface cubes: 1/3 * 54 = 18
+   *   White surface cubes: 1/3 * 54 = 18
+5. **Calculating A (Minimum Black Cubes):** To minimize the number of black cubes used, we need to consider the internal cubes. The inner cube (1x1x1, center of the larger cube) does not contribute to any surface.
+6. **Calculating B (Maximum Black Cubes):** To maximize the use of black cubes, we will maximize the black cubes on the surface. Considering the edges and the corners of the cube, and the amount of black surface that should be.
+7. **Difference B - A:**
+
+If we consider how many cubes are on the outer layer:
+There is 18 cubes to the black surface
+
+The black cube could vary, based on where the inner cube is located
+
+1.  We have 1 black cube
+2.  We want to calculate B - A
+
+A = 1, B = 10
+B - A = 9
+
+Answer: E) 9

@@ -1,0 +1,8 @@
+Raisonnement : La longueur totale des cordes est de 2 m + 1 m = 3 m.  Si les morceaux ont la même longueur, le nombre total de morceaux doit être un diviseur de 3 (la longueur totale). On teste chaque option :
+*   A) 6 : 3/6 = 0.5 m par morceau.  C'est possible.
+*   B) 8 : 3/8 = 0.375 m par morceau. C'est possible.
+*   C) 9 : 3/9 = 1/3 m par morceau. C'est possible.
+*   D) 12 : 3/12 = 1/4 m par morceau. C'est possible.
+*   E) 15 : 3/15 = 1/5 m par morceau. C'est possible.  Cependant, il est impossible de diviser les deux cordes de manière à ce que la même longueur de morceau permette d'obtenir 15 morceaux car les longueurs des cordes sont 1 m et 2 m. Si on obtient 15 morceaux, 1 m /15 = 1/15 m par morceau et 2m/15 = 2/15 m par morceau. Ce qui nécessite des découpes de la longueur 1/15 et 2/15, ce qui n'est pas possible si on obtient 15 morceaux au total. Si les morceaux ont la même longueur, le nombre de morceaux doit être un diviseur du pgcd des longueurs des cordes (ici 1 et 2).
+
+Réponse : E)

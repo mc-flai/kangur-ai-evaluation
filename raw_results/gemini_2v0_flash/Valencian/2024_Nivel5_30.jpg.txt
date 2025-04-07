@@ -1,0 +1,53 @@
+Raonament: L'àrea del triangle OPQ es pot calcular utilitzant la fórmula del determinant:
+Àrea = (1/2) |(m*m - n*n)| = (1/2) |m^2 - n^2|
+Se'ns diu que l'àrea és 2024, per tant:
+(1/2) |m^2 - n^2| = 2024
+|m^2 - n^2| = 4048
+Com que m < n, m^2 < n^2, així que n^2 - m^2 = 4048
+(n - m)(n + m) = 4048
+Hem de trobar les parelles de factors de 4048 tal que n-m i n+m siguin enters i 0 < m < n.
+4048 = 2^4 * 11 * 23
+Els parells de factors de 4048 són:
+1 x 4048
+2 x 2024
+4 x 1012
+8 x 506
+11 x 368
+16 x 253
+22 x 184
+23 x 176
+44 x 92
+46 x 88
+88 x 46
+92 x 44
+176 x 23
+184 x 22
+253 x 16
+368 x 11
+506 x 8
+1012 x 4
+2024 x 2
+4048 x 1
+
+Sigui n - m = a i n + m = b. Aleshores n = (a + b) / 2 i m = (b - a) / 2. Com que m i n són enters, a i b han de tenir la mateixa paritat (tots dos parells o tots dos senars). Com que 4048 és parell, els dos factors han de ser parells.
+Els parells de factors parells són:
+2 x 2024
+4 x 1012
+8 x 506
+22 x 184
+44 x 92
+46 x 88
+
+Ara calculem m i n per a cada parell:
+2 x 2024: n = (2 + 2024) / 2 = 1013, m = (2024 - 2) / 2 = 1011.  m < n, es compleix.
+4 x 1012: n = (4 + 1012) / 2 = 508, m = (1012 - 4) / 2 = 504. m < n, es compleix.
+8 x 506: n = (8 + 506) / 2 = 257, m = (506 - 8) / 2 = 249. m < n, es compleix.
+22 x 184: n = (22 + 184) / 2 = 103, m = (184 - 22) / 2 = 81. m < n, es compleix.
+44 x 92: n = (44 + 92) / 2 = 68, m = (92 - 44) / 2 = 24. m < n, es compleix.
+46 x 88: n = (46 + 88) / 2 = 67, m = (88 - 46) / 2 = 21. m < n, es compleix.
+
+Hi ha 6 parelles (m, n) que satisfan les condicions.
+
+Resposta: B)
+Raonament: Hem calculat l'àrea del triangle en funció de m i n i hem igualat l'expressió obtinguda a 2024. Després, hem trobat les solucions de l'equació, tenint en compte les restriccions que m i n són enters i 0 < m < n.
+Resposta: B)

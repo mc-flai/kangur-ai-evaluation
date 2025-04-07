@@ -1,0 +1,20 @@
+La pregunta 20 fa referència a un hexàgon regular dibuixat de manera que tots els diagonals es creuen en els vèrtexs oposats. A continuació, es dibuixa un altre hexàgon regular de manera que cada vèrtex és el punt d'intersecció dels diagonals dels dos hexàgons. La pregunta és quina és la raó entre les àrees dels dos hexàgons.
+
+Per resoldre això, primer cal entendre les propietats dels hexàgons i com els seus diagonals es creuen. Els diagonals d'un hexàgon regular es creuen en els vèrtexs oposats, i cada diagonals divideix el hexàgon en sis triangles equilaterals.
+
+Quan dibuixem un segon hexàgon de manera que cada vèrtex està en el punt d'intersecció dels diagonals del primer hexàgon, aquest segon hexàgon és un hexàgon central que es forma a partir dels vèrtexs dels triangles equilaterals creats pels diagonals del primer hexàgon.
+
+La raó entre les àrees dels dos hexàgons es pot determinar per la relació entre els seus costats. Si el primer hexàgon té un costat de longitud \( a \), el segon hexàgon té un costat de longitud \( \frac{a}{\sqrt{3}} \) perquè els vèrtexs del segon hexàgon són els centres dels triangles equilaterals del primer hexàgon.
+
+La fórmula per calcular l'àrea d'un hexàgon regular és \( \text{Àrea} = \frac{3\sqrt{3}}{2} s^2 \), on \( s \) és la longitud del costat.
+
+Per tant, les àrees dels dos hexàgons són:
+- Primer hexàgon: \( \text{Àrea}_1 = \frac{3\sqrt{3}}{2} a^2 \)
+- Segon hexàgon: \( \text{Àrea}_2 = \frac{3\sqrt{3}}{2} \left(\frac{a}{\sqrt{3}}\right)^2 = \frac{3\sqrt{3}}{2} \frac{a^2}{3} = \frac{a^2\sqrt{3}}{2} \)
+
+La raó entre les àrees és:
+\[ \frac{\text{Àrea}_1}{\text{Àrea}_2} = \frac{\frac{3\sqrt{3}}{2} a^2}{\frac{a^2\sqrt{3}}{2}} = \frac{3\sqrt{3} a^2}{a^2 \sqrt{3}} = 3 \]
+
+Per tant, la raó correcta entre les àrees dels dos hexàgons és 3.
+
+**Resposta: B)**

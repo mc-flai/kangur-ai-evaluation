@@ -1,0 +1,7 @@
+Raonament: Per resoldre aquest problema, hem de considerar les condicions donades: tenim quatre nombres positius a, b, c i d tals que a < b < c < d. Hem d'augmentar un d'aquests nombres en una unitat (és a dir, sumar-li 1) de manera que, després de l'increment, el producte dels quatre nombres sigui el més petit possible.
+
+Per minimitzar el producte dels quatre nombres després de l'increment, hem de considerar què passa quan sumem 1 a cada un dels nombres. El nombre més petit, a, tindrà un impacte més petita al producte si s'incrementa en 1, ja que el seu valor relatiu és menor que els altres.
+
+Per contra, incrementar el nombre més gran, d, tindrà un impacte més gran al producte, ja que el seu valor relatiu és més gran. En conseqüència, per obtenir el producte més petit possible, hem d'incrementar el nombre més petit, que és a.
+
+Resposta: A)

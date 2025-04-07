@@ -1,0 +1,14 @@
+Razonamiento:
+1.  **Understanding Palindromes:** A palindrome reads the same forwards and backward. A three-digit palindrome has the form 'aba'.
+2.  **Divisibility by 6:** A number is divisible by 6 if it's divisible by both 2 and 3.
+    *   Divisibility by 2: The last digit must be even. Therefore, 'a' must be even.
+    *   Divisibility by 3: The sum of the digits must be divisible by 3. So, a + b + a = 2a + b must be divisible by 3.
+3.  **Finding the Largest Palindrome:** We want the largest palindrome. Therefore, start with the largest possible value for 'a' and work down.
+    *   If 'a' = 8 (even), then the palindrome is 8b8.
+    *   2\*8 + b = 16 + b. We need to find a value for b such that 16+b is divisible by 3 and also b must be from 0 to 9.
+    *   Try b=2; 16 + 2 = 18 which is divisible by 3. So, 828 is a palindrome divisible by 6.
+4.  **Finding the sum of digits**
+    * The largest palindrome which also is a multiple of 6 is 828.
+    * The sum of the digits is 8+2+8= 18.
+
+Respuesta: B)

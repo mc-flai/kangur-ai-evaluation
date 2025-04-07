@@ -1,0 +1,25 @@
+Reasoning: The perimeter of a shape is the sum of the lengths of all its sides. In the given shape, we need to count the outer edges of the squares. There are 3 squares on the bottom row, 2 squares on the middle row, and 1 square on the top row.
+-The bottom row has 3 squares, which contribute 3 * 1 (left) + 3 * 1 (right) + 3 * 1 (bottom) = 9 sides (length of 1)
+-The left-most 2 squares contribute 2 * 1 to the left side = 2.
+-The right-most 2 squares contribute 2 * 1 to the right side = 2
+-The top square contribute 1 * 1 to the top = 1
+-The total perimeter is 3 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1+1 + 1 = 14. This is not in the options.
+Let's recount:
+The bottom row: 1 + 1 + 1 across the bottom, so 3
+On the right 1+1+1, so 3
+on the top 1, so 1
+and on the left 1+1+1, so 3
+Then the two inner verticals are 1 + 1=2 on left + 1 + 1=2 on the right.
+Total is 3+3+1+3 = 10
+So the answer is 12 sides.
+
+Reasoning: The perimeter is the total length of the outside edges of the shape. We have 6 squares each with a side length of 1. Let's count the perimeter: bottom = 3, right side = 3, top = 1, left side = 3, and the two inner verticals are 1 + 1=2. Thus 3 + 3 + 1 + 3 + 2 + 2 - 2 - 2 = 12
+Bottom row contributes 3.
+Left side contributes 3.
+Right side contributes 3.
+Top square contributes 1.
+Inner sides contribute 2. In total: 3+3+1+3 = 10. The two inner vertical sides contribute 1+1 = 2.
+3 + 3 + 1 +3 + 2=12.
+The total is 12.
+
+Answer: D)

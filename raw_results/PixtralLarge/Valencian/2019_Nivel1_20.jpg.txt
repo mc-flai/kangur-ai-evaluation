@@ -1,0 +1,30 @@
+**Raonament**:
+
+Per a resoldre aquest problema, hem de formar un gran triangle equilàter a partir de 9 xicotets triangles, de manera que els triangles amb un costat en comú tinguin colors diferents.
+
+Veiem que tenim 3 triangles verds (V), 3 triangles grocs (G) i 3 triangles blaus (B). A més, sabem que hi ha 4 triangles que toquen a la vora del gran triangle.
+
+Els triangles amb un costat a la vora del gran triangle són 3, 5, 1 i 2. Per tant, els triangles interiors són 4.
+
+També hem de garantir que no hi hagi dos triangles del mateix color compartint costat.
+
+Revisem les opcions:
+
+A) 1 és groc i 3 és verd:
+Això implica que els triangles 1 i 2 (ambdós a la vora) han de ser de colors diferents. Però si 1 és groc i 3 és verd, això implica que els triangles 3 i 4, que comparteixen costat, serien verds (3) i grocs (4), el que és incorrecte.
+
+B) 1 és blau i 2 és verd:
+Això implica que 1 i 2 són colors diferents, que està bé per a triangles a la vora. El triangle interior 4 hauria de ser groc, el que és correcte. Però, si 3 és verd, llavors el triangle 4 ha de ser groc, i el 5 ha de ser blau, el que és correcte.
+
+C) 1 i 3 són verds:
+Això implica que 1 i 2 (ambdós a la vora) han de ser de colors diferents. Si 1 i 3 són verds, els triangles 3 i 4 no poden ser de colors diferents, el que és incorrecte.
+
+D) 5 és verd i 2 és groc:
+Si 5 és verd i 2 és groc, els triangles 4 i 5 no tenen colors diferents, el que és incorrecte.
+
+E) 1 i 3 són tots dos grocs:
+Si 1 i 3 són tots dos grocs, els triangles 1 i 2 no poden ser de colors diferents, el que és incorrecte.
+
+A partir de l'anàlisi anterior, només l'opció B) és correcta.
+
+**Resposta**: B)

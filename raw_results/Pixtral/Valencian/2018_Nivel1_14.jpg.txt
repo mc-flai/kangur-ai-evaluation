@@ -1,0 +1,18 @@
+**Pregunta:** Laia està jugant un joc en un tauler format per 34 quadrats en una filera. En cada torn, el ganxó pot botar 7 o 8 quadrats endavant o 2 quadrats enrere, amb la majoria de la figura. Quina és el nombre mínim de torns que necessita Laia per a moure el ganxó des del quadrat número 1 fins al quadrat número 34?
+
+**Racionalització:**
+1. Cal determinar el nombre mínim de torns necessaris per moure el ganxó des del quadrat 1 fins al quadrat 34.
+2. Cada torn, el ganxó pot moure 7 o 8 quadrats endavant o 2 quadrats enrere.
+3. Cal calcular el nombre mínim de torns per cobrir la distància de 33 quadrats (de 1 a 34).
+4. Comencem provant el nombre mínim de torns.
+
+   - Si Laia fa 4 torns, el total de quadrats movits és:
+     - 4 torns * 8 quadrats/torn = 32 quadrats
+     - 32 quadrats no són suficients per cobrir la distància de 33 quadrats.
+   - Si Laia fa 5 torns, el total de quadrats movits és:
+     - 5 torns * 8 quadrats/torn = 40 quadrats
+     - 40 quadrats són suficients per cobrir la distància de 33 quadrats.
+
+   - Per tant, el nombre mínim de torns necessaris és 5.
+
+**Resposta:** B)

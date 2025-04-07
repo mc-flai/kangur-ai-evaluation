@@ -1,0 +1,25 @@
+To determine where the ant can be after 2019 moves, we need to understand the structure of the graph and how the ant's movement is constrained.
+
+**Reasoning**:
+  1. **Analyze the Graph Structure**:
+     - The graph consists of 16 points.
+     - The ant can move from its current point to any adjacent point along the connecting lines.
+     - There are two types of points: those on the outer ring (points P, R, S, T) and those on the inner ring.
+
+  2. **Identify Movement Pattern**:
+     - The ant alternates between the outer and inner points with each move.
+     - If the ant starts at point A (an inner point), its first move will take it to an outer point, the second move will bring it back to an inner point, and so on.
+     - This alternation means that after an even number of moves, the ant will be on an inner point, and after an odd number of moves, it will be on an outer point.
+
+  3. **Determine Parity of Moves**:
+     - 2019 is an odd number.
+     - Therefore, after 2019 moves, the ant will be on an outer point.
+
+  4. **Evaluate the Options**:
+     - (A) only at P, R or S, not at Q or T: This is incorrect because it excludes T, which is an outer point.
+     - (B) only at P, R, S or T, not at Q: This is correct because it includes all outer points (P, R, S, T) and excludes Q, which is an inner point.
+     - (C) only at Q: This is incorrect because Q is an inner point.
+     - (D) only at T: This is incorrect because it excludes other outer points (P, R, S).
+     - (E) At all of the points: This is incorrect because the ant cannot be at an inner point after an odd number of moves.
+
+**Answer**: B).

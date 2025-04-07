@@ -1,0 +1,42 @@
+Raonament: Per resoldre aquest problema, hem de trobar tots els nombres de dues xifres que són múltiples de 3 i a més acomplim que el valor absolut de la diferència entre les seves xifres és 3.
+
+Per començar, llistem tots els nombres de dues xifres que són múltiples de 3. Aquests són:
+12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99.
+
+Ara, hem de verificar quins d'aquests nombres compleixen la condició que el valor absolut de la diferència entre les seves xifres és 3.
+
+- 12: |1-2| = 1 (No compleix)
+- 15: |1-5| = 4 (No compleix)
+- 18: |1-8| = 7 (No compleix)
+- 21: |2-1| = 1 (No compleix)
+- 24: |2-4| = 2 (No compleix)
+- 27: |2-7| = 5 (No compleix)
+- 30: |3-0| = 3 (Compleix)
+- 33: |3-3| = 0 (No compleix)
+- 36: |3-6| = 3 (Compleix)
+- 39: |3-9| = 6 (No compleix)
+- 42: |4-2| = 2 (No compleix)
+- 45: |4-5| = 1 (No compleix)
+- 48: |4-8| = 4 (No compleix)
+- 51: |5-1| = 4 (No compleix)
+- 54: |5-4| = 1 (No compleix)
+- 57: |5-7| = 2 (No compleix)
+- 60: |6-0| = 6 (No compleix)
+- 63: |6-3| = 3 (Compleix)
+- 69: |6-9| = 3 (Compleix)
+- 72: |7-2| = 5 (No compleix)
+- 75: |7-5| = 2 (No compleix)
+- 78: |7-8| = 1 (No compleix)
+- 81: |8-1| = 7 (No compleix)
+- 84: |8-4| = 4 (No compleix)
+- 87: |8-7| = 1 (No compleix)
+- 90: |9-0| = 9 (No compleix)
+- 93: |9-3| = 6 (No compleix)
+- 96: |9-6| = 3 (Compleix)
+- 99: |9-9| = 0 (No compleix)
+
+Els nombres que compleixen ambdues condicions són: 30, 36, 63, 69, 96.
+
+Això fa un total de 5 nombres.
+
+Resposta: D)

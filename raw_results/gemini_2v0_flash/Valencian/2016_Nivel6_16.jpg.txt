@@ -1,0 +1,8 @@
+Raonament: El problema és un clàssic problema de cerca binària. Tenim 15 nombres. Amb una pregunta podem reduir a la meitat aproximadament.
+1. Pregunta: És el nombre més gran que 7? (Si la resposta és sí, el nombre és entre 8 i 15, si és no, el nombre és entre 1 i 7).
+2. Pregunta: Suposem que la resposta a la primera pregunta va ser sí (8-15). És el nombre més gran que 11? (Ara reduïm el rang a 4 possibles valors).
+3. Pregunta: Suposem que la resposta a la segona pregunta va ser sí (12-15). És el nombre més gran que 13? (Ara tenim 2 nombres possibles).
+4. Pregunta: Suposem que la resposta a la tercera pregunta va ser sí (14-15). És el nombre 14? Amb això determinem exactament el nombre.
+Per tant, necessitem 4 preguntes. Més formalment, necessitem $\lceil \log_2{15} \rceil = \lceil 3.906 \rceil = 4$ preguntes.
+
+Resposta: D)

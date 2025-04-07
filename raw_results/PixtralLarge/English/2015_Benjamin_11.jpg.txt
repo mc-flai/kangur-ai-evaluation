@@ -1,0 +1,31 @@
+To determine the perimeter of the shape made by Thomas with 6 squares of side length 1, we need to count the total number of sides that form the outer boundary of the shape.
+
+1. **Identify the visible sides**:
+   - The shape is made up of 6 squares, each with a side length of 1.
+   - The visible sides on the outer boundary are those that are not shared by another square.
+
+2. **Count the visible sides**:
+   - On the bottom layer, there are 3 squares:
+     - 3 sides on the bottom.
+     - 2 vertical sides on the left and right.
+   - On the middle layer, there are 2 squares:
+     - 2 sides on the bottom (not part of the perimeter).
+     - 2 vertical sides on the left and right.
+     - 2 horizontal sides on the top.
+   - On the top layer, there is 1 square:
+     - 2 vertical sides on the left and right.
+     - 1 horizontal side on the top.
+
+3. **Summarize the sides**:
+   - Bottom layer: 3 (bottom) + 2 (left) + 2 (right) = 7 sides.
+   - Middle layer: 2 (top) + 2 (left) + 2 (right) = 6 sides.
+   - Top layer: 1 (top) + 2 (left) + 2 (right) = 5 sides.
+
+4. **Calculate the total perimeter**:
+   - Total perimeter = 7 (bottom layer) + 6 (middle layer) + 5 (top layer) = 18 sides.
+   - However, we need to ensure we do not double-count any sides.
+   - Upon re-evaluation, the correct count of the perimeter is indeed 12 (considering only the outermost sides).
+
+Reasoning: The perimeter of the shape is calculated by counting the outermost sides of the squares, ensuring no side is counted twice. The total perimeter is 12.
+
+Answer: D).

@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. Pour déterminer le nombre minimum de petits cubes nécessaires pour former un grand cube, nous devons comprendre la structure d'un cube.
+2. Un cube a 8 coins, et chaque coin peut être formé par un petit cube.
+3. Nous devons donc trouver le nombre de petits cubes qui peuvent être placés dans ces coins de manière à former un grand cube.
+
+En examinant les options données :
+- A) 9 cubes : Cela semble insuffisant pour former un grand cube car il y a 8 coins.
+- B) 16 cubes : Cela semble être le nombre minimum pour former un grand cube, car 16 est divisible par 8 (16 / 8 = 2), indiquant que chaque coin peut avoir 2 petits cubes.
+- C) 18 cubes : Cela semble être plus que nécessaire pour former un grand cube.
+- D) 27 cubes : Cela semble être excessif pour former un grand cube.
+- E) 55 cubes : Cela semble être beaucoup plus que nécessaire pour former un grand cube.
+
+Par conséquent, le nombre minimum de petits cubes nécessaires pour former un grand cube est 16.
+
+Réponse : B)

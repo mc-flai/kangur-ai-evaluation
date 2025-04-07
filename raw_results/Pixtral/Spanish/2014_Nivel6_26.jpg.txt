@@ -1,0 +1,19 @@
+
+La pregunta 26 se traduce como:
+
+"Los polígonos regulares de lado 1 están en lados opuestos de su lado común AB. Uno de ellos es un polígono de 15 lados ABCD.... Y el otro es un polígono de n lados ABZY.... ¿Qué valor de n hace que la distancia CZ sea igual a 1?"
+
+Para determinar el valor de n que hace que la distancia CZ sea igual a 1, debemos considerar las propiedades de los polígonos regulares y cómo se relacionan los lados y las distancias.
+
+Razonamiento:
+1. Un polígono regular de lado 1 significa que cada lado del polígono mide 1 unidad.
+2. Para un polígono regular de 15 lados (pentadecágono), el ángulo interno es calculado como (15-2) * 180° / 15 = 156°. El ángulo externo es 180° - 156° = 24°.
+3. El punto C en el pentadecágono está a una distancia de 1 unidad del punto A.
+4. Para el polígono de n lados, el ángulo interno es (n-2) * 180° / n.
+5. El punto Z en el polígono de n lados debe estar en un ángulo de 24° desde el punto A para que la distancia CZ sea igual a 1 unidad.
+6. El ángulo de 24° debe ser un múltiplo del ángulo interno del polígono de n lados.
+7. El ángulo interno del polígono de n lados debe ser un divisor de 24° para que la distancia CZ sea igual a 1 unidad.
+8. Los divisores de 24° son 1, 2, 3, 4, 6, 8, 12 y 24.
+9. El valor de n que hace que el ángulo interno sea un divisor de 24° es 12.
+
+Respuesta: B)

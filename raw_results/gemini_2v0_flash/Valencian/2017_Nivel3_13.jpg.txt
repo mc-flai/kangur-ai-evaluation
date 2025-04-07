@@ -1,0 +1,17 @@
+Raonament: La expressió es pot reescriure com (111-110) + (-109+108) + (107-106) + (-105+104) + (103-102) + (-101+100)...+(7-6)+(-5+4)+(3-2)-1. Cada parella entre parèntesis resulta en 1 o -1. Per exemple, (111-110) = 1, (-109+108) = -1, (107-106)=1, (-105+104) = -1, (3-2) = 1.
+La successió té 111 termes. Si els agrupem de dos en dos, tenim 55 parelles que sumen 1 o -1 i un terme final -1. D'aquesta manera 111 - 110 - 109 + 108 + 107 - 106 - 105 + 104 + 103 - ... + 4 + 3 - 2 - 1 = (111-110) + (-109+108) + (107-106) + (-105+104) + ... + (3-2) - 1 = 1 + (-1) + 1 + (-1) + ... + 1 - 1.
+
+Es tracta d'un patró de 1 i -1 repetit fins arribar a 3-2.
+El problema es redueix a comptar quants 1 i -1 hi ha. De 1 a 111 hi ha 111 nombres. Per parelles obtenim 110/2 = 55 parelles del tipus 1 i -1.
+La successió serà 1 -1 + 1 -1 + 1 -1 + ... + 1 -1 + 1 - 1. En total hi ha 55 termes que es cancel·len i tenim 55/2 parelles que sumen zero i un 1 final. En conseqüència, 111 - 110 - 109 + 108 + 107 - 106 ...+3-2-1= 55 * 0 + (111 -110) + (107-106) + (103-102)+...+(3-2)-1=55 * 0 + (111-110) + (107-106) + (103-102)+...+(3-2)-1 = (56/4)*2, = 55/2 + 1 - 1 si és parell
+
+Observant amb més atenció:
+(111-110)+(-109+108)+(107-106)+(-105+104)+...+(7-6)+(-5+4)+(3-2)-1
+1 -1 + 1 -1 + ... + 1 -1 + 1 -1
+Aquest sumatori té (111-1)/2 = 55 parells del tipus (x+1) - x
+Així, el resultat serà 1 -1 + 1 -1 ...+ 1 -1 =0
+A més hi ha (111 -110), (107 - 106), ..., (3-2) = 1 ( 55 nombres dividits per 2 més 1) =28
+i (-109 + 108) + (-105 + 104)+...+(-5+4)=-1 ( 55 nombres dividits per 2 més 1) =27
+per tant, 28 - 27 = 1 i un -1 que dona el resultat a 0.
+
+Resposta: B)

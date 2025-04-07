@@ -1,0 +1,16 @@
+Reasoning:
+1. Calculate how many candles were lit.
+2. A candle is lit every 10 minutes.
+3. After 55 minutes, the number of candles lit is 55/10 = 5.5. Since a candle needs to be completely lit, we take the integer part, which is 5.
+4. Check how many candles are still lit.
+5. Each candle lasts 40 minutes.
+6. After 55 minutes:
+   - The first candle was lit at time 0 and will be unlit after 40 minutes.
+   - The second candle was lit at 10 minutes and will be unlit after 50 minutes.
+   - The third candle was lit at 20 minutes and will still be lit after 55 minutes.
+   - The fourth candle was lit at 30 minutes and will still be lit after 55 minutes.
+   - The fifth candle was lit at 40 minutes and will still be lit after 55 minutes.
+   - The sixth candle was lit at 50 minutes, but the question wants to find how many will be lit after 55 minutes.
+7. There will be 3 candles still lit.
+
+Answer: B)

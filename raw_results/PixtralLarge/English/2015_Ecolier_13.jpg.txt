@@ -1,0 +1,25 @@
+To determine the number of different orders Joseph can put the toys on the shelf, we need to consider the constraints given:
+
+1. The ship must be next to the car.
+2. The teddy bear should also be next to the car.
+
+This means the car must be in the middle, with the ship and teddy bear on either side of it. The ball can be placed in any of the remaining positions.
+
+Let's break down the possible arrangements:
+
+1. Car (C) in the middle:
+   - Ship (S) and Teddy Bear (T) can switch places around the car.
+   - Ball (B) can be placed in any of the remaining spots.
+
+Possible arrangements:
+1. S - C - T - B
+2. S - C - B - T
+3. T - C - S - B
+4. T - C - B - S
+5. B - S - C - T
+6. B - T - C - S
+
+There are 6 different orders that satisfy the given constraints.
+
+Reasoning: By considering the constraints and arranging the toys accordingly, we find that there are 6 unique orders.
+Answer: D)

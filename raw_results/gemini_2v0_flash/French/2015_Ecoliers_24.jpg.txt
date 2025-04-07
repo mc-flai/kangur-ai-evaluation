@@ -1,0 +1,9 @@
+Reasoning: The problem states: "À la fin du week-end, l'un d'entre eux avait fait deux fois plus de sablés que ce qu'il avait fait le samedi. Un autre en avait fait trois fois plus, un autre quatre fois, un autre cinq fois et un autre six fois plus." This means the number of cookies made on Sunday is some multiple of the number made on Saturday, from 2 to 6. We want to find who had the *most* cookies on Saturday, so we should look for the person whose total number of cookies (Saturday + Sunday) is the *smallest multiple* of their Saturday amount.
+Ahmed made 24 cookies total. He could have made 24/2 = 12 on Saturday (2x), 24/3 = 8 on Saturday (3x), 24/4 = 6 on Saturday (4x), 24/5 = 4.8 (not an integer), 24/6 = 4 on Saturday (6x). Largest amount on Saturday is 12.
+Benjamin made 25 cookies total. He could have made 25/5=5 cookies Saturday, (5x). Otherwise, 25 isn't divisible by 2, 3, 4, or 6.
+Charline made 26 cookies total. He could have made 26/2=13 cookies on Saturday (2x)., 26 isn't divisible by 3, 4, 5 or 6.
+Damien made 27 cookies total. He could have made 27/3=9 cookies on Saturday (3x) - 27 isn't divisible by 2,4,5, or 6
+Estelle made 28 cookies total. She could have made 28/2=14 cookies on Saturday (2x) - 28 isn't divisible by 3 or 5, 28/4=7 Saturday (4x).
+The largest value of the cookies made on Saturday is 14 from Estelle.
+
+Answer: E)

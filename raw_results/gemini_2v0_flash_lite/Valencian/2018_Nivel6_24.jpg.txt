@@ -1,0 +1,17 @@
+Raonament:
+La pregunta ens demana el nombre de valors diferents que pot prendre el producte de 6 nombres enters positius i diferents que sumen 24.
+Per maximitzar el producte, els nombres haurien d'estar el més a prop possible.
+
+1.  Comencem amb els nombres més propers a la mitjana (24/6 = 4): 1, 2, 3, 4, 5, 9 (suma 24, producte = 3*3*1*4*5*9 = 3240).
+2.  1, 2, 3, 4, 6, 8 (suma 24, producte = 1*2*3*4*6*8 = 1152)
+3.  1, 2, 3, 5, 6, 7 (suma 24, producte = 1*2*3*5*6*7 = 1260).
+4.  Altres possibilitats són:
+    *   0, 1, 2, 3, 8, 10, No podem utilitzar 0.
+    *   1, 2, 3, 4, 5, 9 (producte=3240)
+    *   1, 2, 3, 4, 6, 8 (producte=1152)
+    *   1, 2, 3, 5, 6, 7 (producte=1260)
+    *   1, 2, 4, 5, 6, 6 (no es pot repetir).
+    *   1, 2, 3, 7, 8, 3 (no es pot repetir).
+5.  Podem observar que hi ha 3 productes diferents que es poden obtenir.
+
+Resposta: C)

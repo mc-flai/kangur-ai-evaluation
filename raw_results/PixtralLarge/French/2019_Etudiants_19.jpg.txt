@@ -1,0 +1,17 @@
+Pour résoudre ce problème, nous devons déterminer la plus petite valeur possible de la somme des quatre nombres placés aux sommets de chaque carré dans le réseau donné.
+
+**Raisonnement :**
+1. Nous avons 10 nombres allant de 1 à 10.
+2. La somme totale de tous ces nombres est :
+   \[
+   1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
+   \]
+3. Chaque nombre est utilisé une seule fois, et nous devons trouver la somme des quatre nombres aux sommets de chaque carré.
+4. Pour minimiser la somme des quatre nombres aux sommets de chaque carré, nous devons essayer de répartir les nombres de manière à ce que les plus petits nombres soient utilisés dans les sommets des carrés.
+5. En observant le réseau, nous voyons qu'il y a trois carrés. Chaque carré partage des sommets avec les autres carrés.
+6. La somme minimale pour chaque carré sera obtenue en plaçant les plus petits nombres possibles aux sommets.
+7. En plaçant les nombres de manière optimale, nous pouvons obtenir une somme minimale pour chaque carré.
+
+En essayant différentes combinaisons, nous trouvons que la somme minimale possible pour chaque carré est 19.
+
+**Réponse : B)**

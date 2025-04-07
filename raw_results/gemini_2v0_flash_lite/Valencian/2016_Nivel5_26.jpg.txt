@@ -1,0 +1,33 @@
+Raonament:
+L'expressió es pot agrupar en conjunts de 3 termes:
+(1 + 2 - 3) + (4 + 5 - 6) + ... + (2014 + 2015 - 2016)
+Cada grup de 3 termes té un valor de 0 (1+2-3=0, 4+5-6=3, 7+8-9=6).
+(1+2-3) = 0
+(4+5-6) = 3
+(7+8-9) = 6
+...
+Si analitzem l'últim grup de 3 termes, 2016/3 = 672.
+Podem calcular cada terme:
+1+2-3=0
+4+5-6=3
+7+8-9=6
+10+11-12=9
+La relació és:
+3*(n-1), on n es la posició del grup.
+Per a 2016 termes, hi ha 2016/3 = 672 grups.
+El últim grup de 3 termes: 2014+2015-2016 = 2013.
+Per tant, l'expressió es converteix en una suma de la forma:
+0+3+6+9+...+2013
+Cada grup de 3 termes dona com a resultat el número del 2013.
+Per tant, podem veure que la suma de la sèrie aritmètica seria:
+S = n * (a1 + an) / 2
+On n és el nombre de termes, a1 és el primer terme i an és el últim terme.
+En aquest cas, podem agrupar la sèrie:
+0+3+6+9+...+2013
+n=672, a1=0, an=2013
+S = 672 * (0 + 2013) / 2
+S = 672 * 2013 / 2 = 336 * 2013
+Com que la sèrie es pot agrupar, hi ha 672 conjunts de tres termes.
+L'expressió és: 2013*2016/6
+
+Resposta: D)

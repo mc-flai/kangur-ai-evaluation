@@ -1,0 +1,85 @@
+Per determinar el valor del nombre enter \( n \) que satisfà l'equació \( \frac{1}{n} + \frac{2}{n-1} + \frac{3}{n-2} + \cdots + \frac{n-1}{2} + \frac{n}{1} = 11,15 \), hem de seguir aquests passos:
+
+1. **Analitzar l'equació**:
+   \[
+   \frac{1}{n} + \frac{2}{n-1} + \frac{3}{n-2} + \cdots + \frac{n-1}{2} + \frac{n}{1} = 11,15
+   \]
+   Aquesta equació suma fraccions on cada numerador és un nombre enter consecutiu i cada denominador és un nombre enter decreixent des de \( n \) fins a 1.
+
+2. **Provar valors de \( n \)**:
+   Provarem diferents valors de \( n \) per veure quin satisfà l'equació.
+
+   - Per \( n = 6 \):
+     \[
+     \frac{1}{6} + \frac{2}{5} + \frac{3}{4} + \frac{4}{3} + \frac{5}{2} + \frac{6}{1}
+     \]
+     Calculant cada fracció:
+     \[
+     \frac{1}{6} = 0,1667, \quad \frac{2}{5} = 0,4, \quad \frac{3}{4} = 0,75, \quad \frac{4}{3} = 1,3333, \quad \frac{5}{2} = 2,5, \quad \frac{6}{1} = 6
+     \]
+     Sumant-les:
+     \[
+     0,1667 + 0,4 + 0,75 + 1,3333 + 2,5 + 6 = 11,15
+     \]
+     Aquest valor és aproximadament igual a 11,15, per tant, \( n = 6 \) satisfà l'equació.
+
+3. **Verificar altres opcions**:
+   - \( n = 5 \):
+     \[
+     \frac{1}{5} + \frac{2}{4} + \frac{3}{3} + \frac{4}{2} + \frac{5}{1}
+     \]
+     Calculant cada fracció:
+     \[
+     \frac{1}{5} = 0,2, \quad \frac{2}{4} = 0,5, \quad \frac{3}{3} = 1, \quad \frac{4}{2} = 2, \quad \frac{5}{1} = 5
+     \]
+     Sumant-les:
+     \[
+     0,2 + 0,5 + 1 + 2 + 5 = 8,7
+     \]
+     Aquest valor no és 11,15.
+
+   - \( n = 7 \):
+     \[
+     \frac{1}{7} + \frac{2}{6} + \frac{3}{5} + \frac{4}{4} + \frac{5}{3} + \frac{6}{2} + \frac{7}{1}
+     \]
+     Calculant cada fracció:
+     \[
+     \frac{1}{7} = 0,1429, \quad \frac{2}{6} = 0,3333, \quad \frac{3}{5} = 0,6, \quad \frac{4}{4} = 1, \quad \frac{5}{3} = 1,6667, \quad \frac{6}{2} = 3, \quad \frac{7}{1} = 7
+     \]
+     Sumant-les:
+     \[
+     0,1429 + 0,3333 + 0,6 + 1 + 1,6667 + 3 + 7 = 13,7429
+     \]
+     Aquest valor no és 11,15.
+
+   - \( n = 8 \):
+     \[
+     \frac{1}{8} + \frac{2}{7} + \frac{3}{6} + \frac{4}{5} + \frac{5}{4} + \frac{6}{3} + \frac{7}{2} + \frac{8}{1}
+     \]
+     Calculant cada fracció:
+     \[
+     \frac{1}{8} = 0,125, \quad \frac{2}{7} = 0,2857, \quad \frac{3}{6} = 0,5, \quad \frac{4}{5} = 0,8, \quad \frac{5}{4} = 1,25, \quad \frac{6}{3} = 2, \quad \frac{7}{2} = 3,5, \quad \frac{8}{1} = 8
+     \]
+     Sumant-les:
+     \[
+     0,125 + 0,2857 + 0,5 + 0,8 + 1,25 + 2 + 3,5 + 8 = 16,4607
+     \]
+     Aquest valor no és 11,15.
+
+   - \( n = 10 \):
+     \[
+     \frac{1}{10} + \frac{2}{9} + \frac{3}{8} + \frac{4}{7} + \frac{5}{6} + \frac{6}{5} + \frac{7}{4} + \frac{8}{3} + \frac{9}{2} + \frac{10}{1}
+     \]
+     Calculant cada fracció:
+     \[
+     \frac{1}{10} = 0,1, \quad \frac{2}{9} = 0,2222, \quad \frac{3}{8} = 0,375, \quad \frac{4}{7} = 0,5714, \quad \frac{5}{6} = 0,8333, \quad \frac{6}{5} = 1,2, \quad \frac{7}{4} = 1,75, \quad \frac{8}{3} = 2,6667, \quad \frac{9}{2} = 4,5, \quad \frac{10}{1} = 10
+     \]
+     Sumant-les:
+     \[
+     0,1 + 0,2222 + 0,375 + 0,5714 + 0,8333 + 1,2 + 1,75 + 2,6667 + 4,5 + 10 = 22,1285
+     \]
+     Aquest valor no és 11,15.
+
+**Raonament**: Hem provat diferents valors de \( n \) i hem trobat que \( n = 6 \) satisfà l'equació.
+
+**Resposta**: B)

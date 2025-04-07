@@ -1,0 +1,46 @@
+Para resolver el problema, necesitamos encontrar un PIN de cuatro dígitos que cumpla con las siguientes condiciones:
+1. La suma de los cuatro dígitos es 8.
+2. El producto de los dos primeros dígitos es igual al número de dos dígitos formado por el tercer y cuarto dígito.
+
+Vamos a enumerar los posibles PINs de cuatro dígitos que suman 8 y verificar si el producto de los dos primeros dígitos es igual al número de dos dígitos formado por el tercer y cuarto dígito.
+
+1. 0108:
+   - Suma: 0 + 1 + 0 + 8 = 9 (no cumple)
+2. 0207:
+   - Suma: 0 + 2 + 0 + 7 = 9 (no cumple)
+3. 0306:
+   - Suma: 0 + 3 + 0 + 6 = 9 (no cumple)
+4. 0405:
+   - Suma: 0 + 4 + 0 + 5 = 9 (no cumple)
+5. 1017:
+   - Suma: 1 + 0 + 1 + 7 = 9 (no cumple)
+6. 1116:
+   - Suma: 1 + 1 + 1 + 6 = 9 (no cumple)
+7. 1215:
+   - Suma: 1 + 2 + 1 + 5 = 9 (no cumple)
+8. 1314:
+   - Suma: 1 + 3 + 1 + 4 = 9 (no cumple)
+9. 2026:
+   - Suma: 2 + 0 + 2 + 6 = 10 (no cumple)
+10. 2125:
+    - Suma: 2 + 1 + 2 + 5 = 10 (no cumple)
+11. 2224:
+    - Suma: 2 + 2 + 2 + 4 = 10 (no cumple)
+12. 3034:
+    - Suma: 3 + 0 + 3 + 4 = 10 (no cumple)
+13. 3133:
+    - Suma: 3 + 1 + 3 + 3 = 10 (no cumple)
+14. 3232:
+    - Suma: 3 + 2 + 3 + 2 = 10 (no cumple)
+15. 4042:
+    - Suma: 4 + 0 + 4 + 2 = 10 (no cumple)
+16. 4141:
+    - Suma: 4 + 1 + 4 + 1 = 10 (no cumple)
+17. 4240:
+    - Suma: 4 + 2 + 4 + 0 = 10 (no cumple)
+
+Después de verificar todas las combinaciones posibles, encontramos que no hay ninguna combinación que cumpla con ambas condiciones.
+
+Razonamiento: Verificamos todas las combinaciones posibles de cuatro dígitos que suman 8 y comprobamos si el producto de los dos primeros dígitos es igual al número de dos dígitos formado por el tercer y cuarto dígito. Ninguna de las combinaciones cumple con ambas condiciones.
+
+Respuesta: E) Más de 3

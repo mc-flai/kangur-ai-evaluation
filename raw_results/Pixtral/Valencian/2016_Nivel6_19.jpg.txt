@@ -1,0 +1,45 @@
+### Raonament:
+
+1. La pregunta nos pide encontrar el número de pares de números enteros \((x, y)\) que cumplen con la desigualdad \(\frac{1}{x} + \frac{1}{y} > \frac{1}{2}\).
+
+2. Para resolver esta desigualdad, primero encontramos el denominador común y simplificamos la expresión:
+   \[
+   \frac{1}{x} + \frac{1}{y} > \frac{1}{2}
+   \]
+   Multiplicamos ambos lados por \(2xy\) para eliminar los denominadores:
+   \[
+   2y + 2x > xy
+   \]
+
+3. Reordenamos la desigualdad:
+   \[
+   xy - 2x - 2y < 0
+   \]
+
+4. Factorizamos la expresión:
+   \[
+   (x-2)(y-2) < 4
+   \]
+
+5. Ahora, consideramos los valores de \(x\) y \(y\) que cumplen con esta desigualdad. Dado que \(x > 2\) y \(y > 2\), podemos probar algunos valores para encontrar el número de pares que cumplen con la desigualdad.
+
+6. Para \(x = 3\):
+   \[
+   (3-2)(y-2) < 4 \implies (1)(y-2) < 4 \implies y-2 < 4 \implies y < 6
+   \]
+   Los valores posibles de \(y\) son 3, 4, y 5. Esto nos da 3 pares: \((3, 3)\), \((3, 4)\), y \((3, 5)\).
+
+7. Para \(x = 4\):
+   \[
+   (4-2)(y-2) < 4 \implies (2)(y-2) < 4 \implies y-2 < 2 \implies y < 4
+   \]
+   El valor posible de \(y\) es 3. Esto nos da 1 par: \((4, 3)\).
+
+8. Sumamos el número de pares:
+   \[
+   3 + 1 = 4
+   \]
+
+### Resposta:
+
+A) 4

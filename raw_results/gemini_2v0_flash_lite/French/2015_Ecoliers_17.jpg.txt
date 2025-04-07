@@ -1,0 +1,9 @@
+Raisonnement :
+La coccinelle avec 1 point envoie un SMS à celle avec 2 points.
+La coccinelle avec 2 points envoie un SMS à celles avec 1 et 3 points.
+La coccinelle avec 3 points envoie un SMS à celles avec 2 et 4 points.
+La coccinelle avec 4 points envoie un SMS à celle avec 3 points et 5 points.
+La coccinelle avec 5 points envoie un SMS à celle avec 4 points.
+Donc, il y a 1+2+2+2+1 = 8 SMS envoyés en tout.
+
+Réponse : D)

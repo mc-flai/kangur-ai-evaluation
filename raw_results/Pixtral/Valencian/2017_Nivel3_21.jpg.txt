@@ -1,0 +1,24 @@
+**Razonamiento:**
+1. El número dado es 24X8Y.
+2. Se nos dice que X e Y son cifras del hombre que tienen un nombre divisible por 4, 5 y 9.
+3. Un número es divisible por 4 si el último dígito es divisible por 4.
+4. Un número es divisible por 5 si el último dígito es 0 o 5.
+5. Un número es divisible por 9 si la suma de sus dígitos es divisible por 9.
+
+Para encontrar X e Y, debemos considerar las condiciones de divisibilidad:
+- X e Y deben ser dígitos (0-9).
+- La suma de X e Y debe ser divisible por 9.
+
+Vamos a probar las opciones:
+- A) 13: No es un dígito.
+- B) 10: No es un dígito.
+- C) 9: Es un dígito.
+- D) 5: Es un dígito.
+- E) 4: Es un dígito.
+
+La suma de X e Y debe ser divisible por 9. Vamos a verificar las combinaciones posibles:
+- Si X = 4 y Y = 5, entonces X + Y = 4 + 5 = 9, que es divisible por 9.
+
+Por lo tanto, la suma correcta de X e Y es 9.
+
+**Respuesta:** C)

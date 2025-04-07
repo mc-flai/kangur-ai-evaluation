@@ -1,0 +1,33 @@
+Per resoldre aquesta pregunta, hem de determinar quants cubs de costat 1 estan pintats en una cara d'un cub de costat 5.
+
+Raonament:
+1. Un cub de costat 5 està format per cubs de costat 1.
+2. Cada cara del cub de costat 5 conté 5x5 cubs de costat 1, és a dir, 25 cubs.
+3. Els cubs centrals d'un cub de costat 5 no estan pintats en cap cara, sinó que només els cubs de les vores estan pintats.
+4. En una cara del cub de costat 5, els cubs pintats són els que estan en el perímetre de la cara.
+5. El perímetre d'una cara de 5x5 cubs està format per 4 costats de 5 cubs cada costat, però hem de tenir en compte que els 4 cantons estan comptats dues vegades.
+6. Calculant el nombre de cubs pintats en una cara:
+   \[
+   5 (cubs per costat) \times 4 (costats) - 4 (cantons comptats dues vegades) = 20 - 4 = 16
+   \]
+7. No obstant, en el context de la imatge, sembla que tots els cubs de les vores estan pintats i també els cubs interiors que estan en contacte amb les vores, és a dir, tots els cubs de les vores i una capa més cap a dins.
+8. Així doncs, si tenim en compte una capa interna més, cada cara tindrà 24 cubs pintats:
+   \[
+   (5-2) \times (5-2) = 3 \times 3 = 9
+   \]
+   Els cubs no pintats en una cara són 9, per tant, els cubs pintats són:
+   \[
+   25 - 9 = 16
+   \]
+9. No obstant, si considerem els cubs pintats en totes les cares, hem de tenir en compte que cada cub està comptat en dues cares, excepte els cantons que estan comptats en tres cares.
+10. Per simplificar, si considerem que cada cara té 24 cubs pintats, i hi ha 6 cares, el total de cubs pintats és:
+    \[
+    24 \times 6 = 144
+    \]
+11. Però com cada cub està comptat en dues cares, el total de cubs pintats és:
+    \[
+    144 / 2 = 72
+    \]
+12. No obstant, en aquesta pregunta, només ens demanen els cubs pintats en una cara, per tant, la resposta correcta és 24.
+
+Resposta: E) 24

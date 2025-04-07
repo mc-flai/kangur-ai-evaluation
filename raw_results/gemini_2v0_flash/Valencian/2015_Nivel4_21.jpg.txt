@@ -1,0 +1,65 @@
+Raonament: Analitzem cada opció, tenint en compte que cada persona té un encert i una errada.
+A) ABCD: Anna encerta A i erra B. Maria erra C i encerta D. Rosa erra A i encerta D.
+B) ABDC: Anna encerta A i encerta B. Això no és possible.
+C) ACDB: Anna encerta A i erra B. Maria erra C i erra D. Això no és possible.
+D) BADC: Anna erra A i encerta B. Maria erra C i erra D. Això no és possible.
+E) DCBA: Anna erra A i erra B. Això no és possible.
+
+Tornem a l'opció A):
+A) ABCD: Anna encerta A (1r) i erra B (2n). Maria erra C (2n) i erra D (4t). No pot ser.
+Fem un altre intent:
+A) ABCD: Anna: A=1r (correcte), B=2n (incorrecte).
+Maria: C=2n (incorrecte), D=4t (correcte).
+Rosa: A=2n (incorrecte), D=3r (incorrecte).
+Aquesta opció no funciona. Analitzarem les opcions de nou, buscant una que compleixi el criteri.
+A) ABCD: Anna: A guanya (correcte), B segon (incorrecte). Maria: C segon (incorrecte), D quart (correcte). Rosa: A segon (incorrecte), D tercer (incorrecte).
+
+Analitzem l'opció D):
+D) BADC: Anna: A guanya (incorrecte), B segon (correcte). Maria: C segon (incorrecte), D quart (correcte). Rosa: A segon (incorrecte), D tercer (incorrecte).
+No funciona.
+
+Analitzem l'opció E):
+E) DCBA: Anna: A guanya (incorrecte), B segon (incorrecte). Maria: C segon (incorrecte), D quart (incorrecte). Rosa: A segon (incorrecte), D tercer (incorrecte).
+No funciona.
+
+Revisant la pregunta, cada persona té UN encert i UNA errada. Trobem la resposta per prova i error.
+
+Considerem l'opció D) BADC:
+- Anna diu: A guanya, B segon. Amb D=BADC: A incorrecte, B correcte.
+- Maria diu: C segon, D quart. Amb D=BADC: C incorrecte, D incorrecte.
+Aquesta no és.
+
+Prove B) ABDC:
+-Anna diu: A guanya, B segon: A correcte, B correcte (impossible)
+Prove C) ACDB:
+-Anna diu: A guanya, B segon: A correcte, B incorrecte
+-Maria diu: C segon, D quart: C correcte, D incorrecte
+-Rosa diu: A segon, D tercer: A incorrecte, D correcte
+
+Si la resposta correcta és C) ACDB, llavors:
+Anna: "Guanyarà A i B segona". A és primer (correcte). B és segon (incorrecte).
+Maria: "C segona i D quarta". C és segon (correcte). D és quarta (incorrecte).
+Rosa: "A segona i D tercera". A és segona (incorrecte). D és tercera (correcte).
+Aquesta solució compleix les condicions donades.
+
+Resposta: C)
+Raonament: Hem analitzat les opcions una per una, i l'opció C) compleix que cada persona té una afirmació correcta i una incorrecta.
+Resposta: C)
+Raonament: Per cada opció, analitzem si cada persona té un encert i una errada.
+
+A) ABCD
+* Anna: A guanya (cert), B segon (fals)
+* Maria: C segon (fals), D quart (cert)
+* Rosa: A segon (fals), D tercer (fals) <-- No compleix
+
+B) ABDC
+* Anna: A guanya (cert), B segon (cert) <-- No compleix
+
+C) ACDB
+* Anna: A guanya (cert), B segon (fals)
+* Maria: C segon (cert), D quart (fals)
+* Rosa: A segon (fals), D tercer (cert) <-- Compleix
+
+Resposta: C)
+Raonament: L'opció C) compleix que cada persona té una afirmació correcta i una incorrecta.
+Resposta: C)

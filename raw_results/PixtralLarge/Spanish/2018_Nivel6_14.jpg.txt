@@ -1,0 +1,35 @@
+Para determinar el volumen del octaedro inscrito en el cubo, primero recordemos que un octaedro regular puede inscribirse en un cubo de tal forma que sus vértices coinciden con los puntos medios de las aristas del cubo.
+
+1. **Longitud de la arista del cubo**: Sea \( a = 1 \).
+
+2. **Diagonal de una cara del cubo**: La diagonal de una cara del cubo se puede calcular como:
+    \[
+    d_{\text{cara}} = \sqrt{a^2 + a^2} = \sqrt{1^2 + 1^2} = \sqrt{2}
+    \]
+
+3. **Longitud de la arista del octaedro**: La longitud de la arista del octaedro es la mitad de la diagonal de una cara del cubo. Entonces:
+    \[
+    \text{Longitud de la arista del octaedro} = \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{2}
+    \]
+
+4. **Volumen del octaedro**: El volumen \( V \) de un octaedro regular con longitud de arista \( s \) se puede calcular usando la fórmula:
+    \[
+    V = \frac{s^3 \sqrt{2}}{3}
+    \]
+   Sustituyendo \( s = \frac{\sqrt{2}}{2} \):
+    \[
+    V = \frac{\left(\frac{\sqrt{2}}{2}\right)^3 \sqrt{2}}{3}
+    \]
+   Simplificando el cálculo:
+    \[
+    V = \frac{\left(\frac{\sqrt{2}}{2}\right)^3 \sqrt{2}}{3} = \frac{\left(\frac{\sqrt{2}}{2} \cdot \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{2}}{2}\right) \sqrt{2}}{3}
+    \]
+    \[
+    V = \frac{\left(\frac{2 \sqrt{2}}{8}\right) \sqrt{2}}{3} = \frac{\left(\frac{\sqrt{2}}{4}\right) \sqrt{2}}{3} = \frac{\left(\frac{2}{4}\right)}{3} = \frac{1}{6}
+    \]
+
+Por lo tanto, el volumen del octaedro es \( \frac{1}{6} \).
+
+Razonamiento: Se calculó la longitud de la arista del octaedro basándose en la diagonal de la cara del cubo y luego se utilizó la fórmula del volumen del octaedro.
+
+Respuesta: D)

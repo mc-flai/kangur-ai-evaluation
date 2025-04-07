@@ -1,0 +1,48 @@
+Pour analyser la question 19, nous devons prouver ou réfuter l'affirmation : « Si \( n \) est un nombre premier alors un et un seul des entiers \( n-2 \) et \( n+2 \) est premier ».
+
+### Raisonnement :
+
+Nous devons déterminer si l'affirmation est vraie ou fausse en utilisant des exemples spécifiques.
+
+1. **Exemple 1** :
+   - Si \( n = 5 \) (un nombre premier) :
+     - \( n-2 = 3 \) (premier)
+     - \( n+2 = 7 \) (premier)
+   - Les deux entiers \( n-2 \) et \( n+2 \) sont premiers.
+
+2. **Exemple 2** :
+   - Si \( n = 11 \) (un nombre premier) :
+     - \( n-2 = 9 \) (non premier)
+     - \( n+2 = 13 \) (premier)
+   - Seul \( n+2 \) est premier (ce qui satisfait l'affirmation).
+
+3. **Exemple 3** :
+   - Si \( n = 13 \) (un nombre premier) :
+     - \( n-2 = 11 \) (premier)
+     - \( n+2 = 15 \) (non premier)
+   - Seul \( n-2 \) est premier (ce qui satisfait l'affirmation).
+
+4. **Exemple 4** :
+   - Si \( n = 17 \) (un nombre premier) :
+     - \( n-2 = 15 \) (non premier)
+     - \( n+2 = 19 \) (premier)
+   - Seul \( n+2 \) est premier (ce qui satisfait l'affirmation).
+
+### Conclusion :
+
+En analysant les exemples, nous voyons que l'affirmation est vérifiée pour certains nombres premiers mais pas pour tous. Ainsi, l'affirmation n'est pas toujours vraie.
+
+### Contre-exemple :
+
+Un contre-exemple est un nombre premier pour lequel ni \( n-2 \) ni \( n+2 \) n'est premier. Par exemple :
+   - Si \( n = 37 \) (un nombre premier) :
+     - \( n-2 = 35 \) (non premier, divisible par 5 et 7)
+     - \( n+2 = 39 \) (non premier, divisible par 3)
+
+Donc, \( n = 37 \) est un contre-exemple qui réfute l'affirmation.
+
+### Réponse finale :
+
+Raisonnement : En analysant les exemples, nous avons trouvé que \( n = 37 \) est un contre-exemple où ni \( n-2 \) ni \( n+2 \) n'est premier.
+
+Réponse : E) \( n = 37 \).

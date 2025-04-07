@@ -1,0 +1,37 @@
+To solve this problem, we need to determine the largest square pattern Julia can form using the available discs. The pattern alternates colors in each row and column, starting with a black disc in the left upper corner.
+
+1. Let's define the size of the square pattern as \( n \times n \).
+2. The number of black discs needed for an \( n \times n \) pattern is given by:
+\[ \left\lceil \frac{n^2}{2} \right\rceil \]
+3. The number of white discs needed for an \( n \times n \) pattern is given by:
+\[ \left\lfloor \frac{n^2}{2} \right\rfloor \]
+
+Julia has 1009 black discs and 1008 white discs. We need to find the largest \( n \) such that:
+\[ \left\lceil \frac{n^2}{2} \right\rceil \leq 1009 \]
+\[ \left\lfloor \frac{n^2}{2} \right\rfloor \leq 1008 \]
+
+For \( n = 45 \):
+\[ \left\lceil \frac{45^2}{2} \right\rceil = \left\lceil \frac{2025}{2} \right\rceil = 1013 \]
+\[ \left\lfloor \frac{45^2}{2} \right\rfloor = \left\lfloor \frac{2025}{2} \right\rfloor = 1012 \]
+
+This exceeds the number of available discs.
+
+For \( n = 44 \):
+\[ \left\lceil \frac{44^2}{2} \right\rceil = \left\lceil \frac{1936}{2} \right\rceil = 968 \]
+\[ \left\lfloor \frac{44^2}{2} \right\rfloor = \left\lfloor \frac{1936}{2} \right\rfloor = 968 \]
+
+This is within the number of available discs.
+
+So, the largest square pattern Julia can form is \( 44 \times 44 \).
+
+Next, we need to determine how many discs are left over:
+- Black discs used: 968
+- White discs used: 968
+
+Discs left over:
+- Black: \( 1009 - 968 = 41 \)
+- White: \( 1008 - 968 = 40 \)
+
+Reasoning: The largest square pattern Julia can form is 44x44, which uses 968 black and 968 white discs. This leaves 41 black discs and 40 white discs.
+
+Answer: E).

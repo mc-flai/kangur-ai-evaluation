@@ -1,0 +1,27 @@
+**Pregunta:** Hi ha cinc cartes A, B, C, D, E col·locades en aquest ordre d'esquerra a dreta. En un primer pas, la carta de l'esquerra es mou al mig; en un segon pas, la carta de la dreta es mou al mig, i així successivament. Quina carta es troba al centre en el pas 2020?
+
+**Opcions:**
+A) A
+B) B
+C) C
+D) D
+E) E
+
+**Racionalització:**
+1. Observa el patró de moviment:
+   - En el pas 1, la carta de l'esquerra (A) es mou al mig.
+   - En el pas 2, la carta de la dreta (E) es mou al mig.
+   - En el pas 3, la carta de l'esquerra (A) es mou al mig de nou.
+   - En el pas 4, la carta de la dreta (E) es mou al mig de nou.
+   - Aquest patró continua amb un cicle de 2 passos.
+
+2. Determina el nombre de cicles en 2020 passos:
+   - Cada cicle consta de 2 passos.
+   - 2020 passos es divideixen en 2020 / 2 = 1010 cicles complets.
+
+3. Troba la carta al centre després de 1010 cicles complets:
+   - Després de 1010 cicles, el patró torna al mateix estat inicial.
+   - La carta al centre després de 1010 cicles és la mateixa que la carta al centre després de 0 cicles.
+   - La carta al centre després de 0 cicles és la carta central original, que és B.
+
+**Resposta:** B) B

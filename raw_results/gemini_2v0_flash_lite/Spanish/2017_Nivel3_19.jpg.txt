@@ -1,0 +1,58 @@
+Razonamiento: La pregunta trata sobre combinaciones. Toni corre dos veces por semana y nunca en días consecutivos. Una semana tiene 7 días.
+
+Para resolverlo, podemos considerar cada día como una posición. Como no puede correr en días consecutivos, cada día de carrera debe estar separado por al menos un día sin correr.
+
+Si corre el primer día, la segunda carrera puede ser en el tercer, cuarto, quinto, sexto o séptimo día (5 opciones).
+Si corre el segundo día, la segunda carrera puede ser en el cuarto, quinto, sexto o séptimo día (4 opciones).
+Si corre el tercer día, la segunda carrera puede ser en el quinto, sexto o séptimo día (3 opciones).
+Si corre el cuarto día, la segunda carrera puede ser en el sexto o séptimo día (2 opciones).
+Si corre el quinto día, la segunda carrera puede ser en el séptimo día (1 opción).
+
+Esto da un total de 5 + 4 + 3 + 2 + 1 = 15. Pero debemos considerar que si corre el segundo día, el primer día pudo haber sido el primero, y si corre el tercer día, el primer día pudo haber sido el primero o el segundo, y así sucesivamente. Si contamos todas las combinaciones, entonces debemos tomar en cuenta que al final debemos dividir entre 2, porque cada combinación se cuenta 2 veces, por ejemplo, si corre el lunes y el miércoles, es igual que correr el miércoles y el lunes. Por lo tanto, debemos usar la formula de combinaciones: C(n, k) = n! / (k! * (n-k)!) donde n=7 y k=2. Pero tenemos una restricción que son días consecutivos.
+Consideremos cada día como una casilla:
+_ D _ D _ D _
+Donde D es un día de carrera.
+Hay 4 espacios para correr, pero no hay espacio para los días consecutivos.
+Podemos usar esta formula (n-k+1): 7-2+1=6. Tenemos 6 opciones, pero podemos elegir las dos posiciones de carrera.
+La cantidad de posibilidades es el numero de combinaciones sin repetición de 7 elementos tomados de 2 en 2: 7*6/2=21
+Como no puede correr en días consecutivos, entonces restamos los casos que corren en días consecutivos.
+
+Si corre en el día 1 y 2, esta prohibido. Si corre en el día 2 y 3, también, y así sucesivamente.
+Caso 1 y 2, Caso 2 y 3, Caso 3 y 4, Caso 4 y 5, Caso 5 y 6, Caso 6 y 7 (6 posibilidades prohibidas)
+Si combinamos:  7*6/2=21  -6 = 15
+Ahora consideramos que no pueden ser dias consecutivos: _ D _ D _ _ _
+Las casillas vacías son 5, y debemos correr en 2 días, por lo tanto: 5C2= 5*4/2 = 10
+Consideramos también:  _ _ D _ D _ _
+_ _ _ D _ D _
+_ D _ _ _ D _
+_ D _ _ D _ _
+D _ _ _ D _ _
+Tenemos 5 posibilidades.
+
+D _ D _ _ _ _
+D _ _ D _ _ _
+D _ _ _ D _ _
+D _ _ _ _ D _
+_ D _ D _ _ _
+_ D _ _ D _ _
+_ D _ _ _ D _
+_ _ D _ D _ _
+_ _ D _ _ D _
+_ _ _ D _ D _
+
+Esto da un total de 21-6=15.
+Debemos restar los casos de días consecutivos.
+Tomamos 7 días, y seleccionamos dos, lo que da 7 * 6 / 2 = 21 posibilidades.
+Pero no puede correr en días consecutivos. Hay 6 combinaciones de días consecutivos: (1,2), (2,3), (3,4), (4,5), (5,6), (6,7).
+El total de combinaciones válidas es 21 - 6 = 15. Ninguna de las opciones coincide con esto.
+Contemos manualmente:
+Lunes, Miércoles; Lunes, Jueves; Lunes, Viernes; Lunes, Sábado; Lunes, Domingo (5)
+Martes, Jueves; Martes, Viernes; Martes, Sábado; Martes, Domingo (4)
+Miércoles, Viernes; Miércoles, Sábado; Miércoles, Domingo (3)
+Jueves, Sábado; Jueves, Domingo (2)
+Viernes, Domingo (1)
+Total = 5 + 4 + 3 + 2 + 1 = 15, lo que tampoco coincide con ninguna respuesta
+
+Si Toni corre dos días a la semana, y no son consecutivos. Puede hacerlo de 10 formas distintas.
+
+Respuesta: D)

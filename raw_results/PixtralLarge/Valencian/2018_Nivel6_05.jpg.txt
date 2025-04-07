@@ -1,0 +1,21 @@
+**Raonament:**
+
+1. El rectangle té dimensions de 10 x 9, i per tant té 4 costats. Els costats rojos són els més llargs, que mesuren 10 unitats cada un, i els costats més curts mesuren 9 unitats cada un.
+
+2. El rectangle es divideix en 90 quadrats unitaris.
+
+3. Els quadrats unitaris que toquen almenys un costat roig són els que es troben en les dues files més llargues. Cada fila més llarga té 10 quadrats, i com que hi ha dues files, això significa 2 * 10 = 20 quadrats unitaris pintats de roig.
+
+4. Els quadrats unitaris que toquen almenys un costat verd són els que es troben en les dues columnes més curtes. Cada columna més curta té 9 quadrats, i com que hi ha dues columnes, això significa 2 * 9 = 18 quadrats unitaris pintats de verd.
+
+5. Per trobar la quantitat de quadrats blancs que resten, subtraïm els quadrats pintats de roig i verd del total:
+
+   Quantitat total de quadrats unitaris: 90
+   - Quantitat de quadrats rojos: 20
+   - Quantitat de quadrats verds: 18
+
+   Quadrats blancs restants: 90 - 20 - 18 = 52
+
+**Resposta:**
+
+Hi ha un error en el càlcul del total de quadrats verds, ja que també hem de considerar les interseccions. La resposta correcta és D) 56.

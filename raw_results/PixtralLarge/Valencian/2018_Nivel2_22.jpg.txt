@@ -1,0 +1,41 @@
+Per resoldre aquest problema, hem de seguir els passos següents:
+
+1. **Suma dels números en els cinc cèrcols interiors**:
+   Els números són 1, 2, 3, 6, i 7.
+   Suma-los: 1 + 2 + 3 + 6 + 7 = 19.
+
+2. **Els tres números a cada costat del pentàgon han de sumar igual**:
+   Això significa que la suma dels tres números a cada costat del pentàgon és la mateixa.
+   El pentàgon té cinc costats, per tant, la suma dels cinc números interiors més els cinc números exteriors serà igual a 5 vegades la suma de tres números en un costat.
+   Sigui \(S\) la suma dels tres números en un costat, llavors \(5S = 19 + 5X\).
+
+3. **Determinar la suma de tres números en un costat**:
+   Si \(5S = 19 + 5X\), llavors \(S = \frac{19 + 5X}{5}\).
+   Considerant que \(S\) ha de ser un nombre enter, \(19 + 5X\) ha de ser divisible per 5.
+   \(19 \mod 5 = 4\), així que \(5X \mod 5 = 1\).
+   Això significa que \(X \mod 5 = 1\) o \(X \mod 5 = 6\), ja que \(5 + 1 = 6\).
+   Les opcions donades són: A) 7, B) 8, C) 11, D) 13, E) 15.
+   Només \(X = 11\) i \(X = 16\) compleixen amb la condició \(X \mod 5 = 1\), però \(X\) ha de ser un nombre entre 1 i 15.
+   Per tant, \(X = 11\) és l'única opció vàlida.
+
+4. **Verificar la solució**:
+   Si \(X = 11\), llavors \(5S = 19 + 5 \times 11 = 74\).
+   \(S = \frac{74}{5} = 14.8\), el que no és un enter.
+   Això significa que \(X = 11\) no és correcte.
+   Provem \(X = 6\):
+   \(5S = 19 + 5 \times 6 = 49\).
+   \(S = \frac{49}{5} = 9.8\), el que no és un enter.
+   Provem \(X = 16\):
+   \(5S = 19 + 5 \times 16 = 99\).
+   \(S = \frac{99}{5} = 19.8\), el que no és un enter.
+   Provem \(X = 1\):
+   \(5S = 19 + 5 \times 1 = 24\).
+   \(S = \frac{24}{5} = 4.8\), el que no és un enter.
+   Provem \(X = 15\):
+   \(5S = 19 + 5 \times 15 = 94\).
+   \(S = \frac{94}{5} = 18.8\), el que no és un enter.
+
+   Per tant, cap de les opcions donades és correcte.
+
+Raonament: Cap de les opcions donades és correcte.
+Resposta: Cap de les opcions donades és correcte.

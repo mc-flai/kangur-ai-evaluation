@@ -1,0 +1,20 @@
+Razonamiento:
+Sea `d` la distancia entre X e Y. Sea `v_b` la velocidad del bote en agua quieta, y `v_c` la velocidad de la corriente.
+
+Cuando el bote va de X a Y (corriente abajo), su velocidad es `v_b + v_c`, y tarda 4 horas. Entonces, `d = 4(v_b + v_c)`.
+
+Cuando el bote va de Y a X (corriente arriba), su velocidad es `v_b - v_c`, y tarda 6 horas. Entonces, `d = 6(v_b - v_c)`.
+
+Igualando las dos expresiones para `d`, tenemos:
+`4(v_b + v_c) = 6(v_b - v_c)`
+`4v_b + 4v_c = 6v_b - 6v_c`
+`10v_c = 2v_b`
+`v_b = 5v_c`
+
+Ahora sustituimos `v_b` en la primera ecuación:
+`d = 4(5v_c + v_c) = 4(6v_c) = 24v_c`
+
+Si el tronco de madera solo se mueve con la corriente, su velocidad es `v_c`. El tiempo que tardaría en recorrer la distancia `d` sería `t = d / v_c`.
+Sustituyendo `d = 24v_c`, tenemos `t = (24v_c) / v_c = 24` horas.
+
+Respuesta: E)

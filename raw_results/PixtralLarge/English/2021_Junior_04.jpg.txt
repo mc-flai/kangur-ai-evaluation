@@ -1,0 +1,50 @@
+
+The problem states that six rectangles are arranged as shown, with the top left-hand rectangle having a height of 6 cm. The numbers within the rectangles indicate their areas in cm². We need to determine the height of the bottom right-hand rectangle.
+
+Looking at the image, the rectangles are labeled with areas 18, 32, 48, 12, 16, and 30 from left to right and top to bottom.
+
+1. **Determine the height of the rectangle with area 18 cm²**:
+   - Given the height is 6 cm, we can find the width by dividing the area by the height:
+     \[
+     \text{Width} = \frac{\text{Area}}{\text{Height}} = \frac{18 \text{ cm}^2}{6 \text{ cm}} = 3 \text{ cm}
+     \]
+
+2. **Determine the width of the rectangle with area 32 cm²**:
+   - We know the height of this rectangle is the same as the width of the rectangle with area 18 cm², which is 3 cm. So:
+     \[
+     \text{Width} = \frac{\text{Area}}{\text{Height}} = \frac{32 \text{ cm}^2}{3 \text{ cm}} = \approx 10.67 \text{ cm}
+     \]
+
+3. **Determine the width of the rectangle with area 12 cm²**:
+   - Using the height (6 cm) of the rectangle with area 18 cm²:
+     \[
+     \text{Width} = \frac{\text{Area}}{\text{Height}} = \frac{12 \text{ cm}^2}{6 \text{ cm}} = 2 \text{ cm}
+     \]
+
+4. **Determine the height of the rectangle with area 16 cm²**:
+   - Since the width of the rectangle with area 12 cm² is 2 cm:
+     \[
+     \text{Height} = \frac{\text{Area}}{\text{Width}} = \frac{16 \text{ cm}^2}{2 \text{ cm}} = 8 \text{ cm}
+     \]
+
+5. **Determine the width of the rectangle with area 30 cm²**:
+   - Using the height (8 cm) of the rectangle with area 16 cm²:
+     \[
+     \text{Width} = \frac{\text{Area}}{\text{Height}} = \frac{30 \text{ cm}^2}{8 \text{ cm}} = 3.75 \text{ cm}
+     \]
+
+6. **Determine the height of the rectangle with area 48 cm²**:
+   - Using the width (10.67 cm) of the rectangle with area 32 cm²:
+     \[
+     \text{Height} = \frac{\text{Area}}{\text{Width}} = \frac{48 \text{ cm}^2}{10.67 \text{ cm}} \approx 4.5 \text{ cm}
+     \]
+
+7. **Determine the height of the bottom right rectangle**:
+   - Using the width (3.75 cm) of the rectangle with area 30 cm²:
+     \[
+     \text{Height} = \frac{\text{Area}}{\text{Width}} = \frac{48 \text{ cm}^2}{3.75 \text{ cm}} = 12.8 \text{ cm}
+     \]
+
+Reasoning: Based on the calculations and the given options, the height of the bottom right-hand rectangle that matches closely is 7.5 cm, which is the closest value to our calculated height.
+
+Answer: D).

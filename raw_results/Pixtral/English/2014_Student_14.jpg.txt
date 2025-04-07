@@ -1,0 +1,36 @@
+### Reasoning:
+To determine how many whole number triples \((a, b, c)\) with \(a > b > c > 1\) fulfill the condition \(\frac{1}{a} + \frac{1}{b} + \frac{1}{c} > 1\), we need to analyze the inequality.
+
+First, let's simplify the inequality:
+\[
+\frac{1}{a} + \frac{1}{b} + \frac{1}{c} > 1
+\]
+
+This can be rewritten as:
+\[
+\frac{1}{a} + \frac{1}{b} > 1 - \frac{1}{c}
+\]
+
+Since \(a > b > c > 1\), we know that \(a\), \(b\), and \(c\) are all greater than 1. Therefore, \(\frac{1}{a}\), \(\frac{1}{b}\), and \(\frac{1}{c}\) are all positive and less than 1.
+
+To maximize \(\frac{1}{a} + \frac{1}{b}\), we want to minimize \(a\) and \(b\). The smallest values \(a\) and \(b\) can take while still being greater than \(c\) are \(a = 3\) and \(b = 2\).
+
+Let's check if these values satisfy the inequality:
+\[
+\frac{1}{3} + \frac{1}{2} = \frac{2}{6} + \frac{3}{6} = \frac{5}{6}
+\]
+
+Now, we need to check if \(\frac{5}{6} > 1 - \frac{1}{c}\). Since \(c > 1\), the smallest possible value for \(c\) is 2. Therefore:
+\[
+1 - \frac{1}{c} = 1 - \frac{1}{2} = \frac{1}{2}
+\]
+
+Thus:
+\[
+\frac{5}{6} > \frac{1}{2}
+\]
+
+This inequality holds true, so \((a, b, c) = (3, 2, 2)\) is a valid triple.
+
+### Answer:
+C) 2

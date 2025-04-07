@@ -1,0 +1,14 @@
+Reasoning: To maximize the sum of the numbers in white squares, we need to maximize the number of white squares each black square touches. In a large rectangle, we can arrange black squares to maximize their effect on white squares. Consider a checkerboard pattern where black squares are arranged in a way that each black square is adjacent to at most 4 white squares. In order to maximize the sum of the numbers in the white squares we should maximize the sum by setting a checkerboard pattern where each black square has its sides in such a way that white squares are between the black squares.
+The 2018 squares can be arranged in a near-square shape. We can consider the nearest square root of 2018, which is approximately 44.9. So, we can consider a 44x46 or 45x45 rectangle. Let's say we arrange the black squares so that they have adjacent values as high as possible. If we use a checkerboard pattern of black squares. the sum would be 2018/2 * 3 (edges of black squares touch 3 adjacent white squares) = 3027.
+Let's consider an arrangement in a 2x1 rectangle. Then the numbers in the white squares are:
+1 1
+So the sum is 2.
+With three squares, the sum can be:
+1 2
+or 0 2
+1
+So maximum is 3.
+
+For a larger rectangle, a checkerboard pattern would give the largest possible sum because it would lead to each black square having a high contribution to the sum. Thus we can expect a sum that is closest to 3027.
+
+Answer: E)

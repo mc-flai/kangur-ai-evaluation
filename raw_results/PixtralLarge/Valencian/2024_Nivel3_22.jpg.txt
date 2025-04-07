@@ -1,0 +1,34 @@
+**Raonament**:
+
+Els dígits del 0 al 9 es poden dibuixar amb segments horitzontals i verticals com es mostra en la figura. Observant els segments de cada dígit:
+
+- 0: 6 segments (horitzontals: 2, verticals: 4)
+- 1: 2 segments (horitzontals: 0, verticals: 2)
+- 2: 5 segments (horitzontals: 2, verticals: 3)
+- 3: 5 segments (horitzontals: 2, verticals: 3)
+- 4: 4 segments (horitzontals: 1, verticals: 3)
+- 5: 5 segments (horitzontals: 2, verticals: 3)
+- 6: 6 segments (horitzontals: 2, verticals: 4)
+- 7: 3 segments (horitzontals: 1, verticals: 2)
+- 8: 7 segments (horitzontals: 3, verticals: 4)
+- 9: 6 segments (horitzontals: 2, verticals: 4)
+
+Gina escull tres dígits diferents. En total, els seus dígits tenen 5 segments horitzontals i 10 segments verticals.
+
+Sumem els segments horitzontals i verticals de cada dígit per trobar quins tres dígits poden formar aquesta combinació:
+- 0 (6), 1 (2), 2 (5): 6 + 2 + 5 = 13 (no és correcte)
+- 0 (6), 1 (2), 3 (5): 6 + 2 + 5 = 13 (no és correcte)
+- 0 (6), 1 (2), 4 (4): 6 + 2 + 4 = 12 (no és correcte)
+- 0 (6), 1 (2), 5 (5): 6 + 2 + 5 = 13 (no és correcte)
+- 1 (2), 3 (5), 4 (4): 2 + 5 + 4 = 11 (no és correcte)
+- 1 (2), 3 (5), 5 (5): 2 + 5 + 5 = 12 (no és correcte)
+- 1 (2), 4 (4), 5 (5): 2 + 4 + 5 = 11 (no és correcte)
+- 1 (2), 5 (5), 6 (6): 2 + 5 + 6 = 13 (no és correcte)
+- 4 (4), 5 (5), 6 (6): 4 + 5 + 6 = 15 (no és correcte)
+- 1 (2), 7 (3), 9 (6): 2 + 3 + 6 = 11 (no és correcte)
+- 2 (5), 3 (5), 6 (6): 5 + 5 + 6 = 16 (no és correcte)
+- **1 (2), 2 (5), 3 (5)**: 2 + 5 + 5 = 12 (correcte)
+
+La combinació correcta és 1, 2 i 3 que sumen un total de 5 segments horitzontals i 10 segments verticals.
+
+**Resposta**: A) 9

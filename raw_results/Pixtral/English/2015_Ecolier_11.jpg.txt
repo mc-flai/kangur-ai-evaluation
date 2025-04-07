@@ -1,0 +1,49 @@
+To determine the number of small, white cubes Jack has used, we need to analyze the constraints and the structure of the cube.
+
+1. The cube is composed of 27 small cubes.
+2. The cubes are either grey or white.
+3. No two cubes of the same color can be placed next to each other.
+
+Given these constraints, we can infer the following:
+- If no two cubes of the same color can be placed next to each other, then the arrangement must alternate colors.
+- This means the cube must be arranged in a pattern where each cube is surrounded by cubes of the opposite color.
+
+Let's consider the possible arrangements:
+- If there are more white cubes, they must be surrounded by grey cubes and vice versa.
+- The total number of cubes is 27, which is an odd number. This means there will be one more cube of one color than the other.
+
+To find the exact number of white cubes:
+- If the cube is arranged in a 3x3x3 pattern, and we alternate colors, the pattern would look something like this:
+  - Grey, White, Grey
+  - White, Grey, White
+  - Grey, White, Grey
+  - White, Grey, White
+  - Grey, White, Grey
+  - White, Grey, White
+  - Grey, White, Grey
+  - White, Grey, White
+  - Grey, White, Grey
+
+Counting the white cubes:
+- There are 9 white cubes in each layer.
+- Since there are 3 layers, the total number of white cubes is 9 * 3 = 27.
+
+However, since we need to alternate and no two same-colored cubes can be adjacent, we need to adjust this count:
+- If we remove one white cube from each layer, we get:
+  - 8 white cubes in each layer.
+  - Total white cubes = 8 * 3 = 24.
+
+But this still does not satisfy the condition of having one more cube of one color. Therefore, we need to adjust further:
+- If we remove one grey cube from each layer, we get:
+  - 8 grey cubes in each layer.
+  - Total grey cubes = 8 * 3 = 24.
+
+This leaves us with:
+- 3 more white cubes than grey cubes.
+- Total white cubes = 27 - 24 = 3.
+
+Therefore, the correct number of white cubes used by Jack is 15.
+
+Reasoning: By analyzing the constraints and the structure of the cube, we determined that the cube must alternate colors and that there must be one more cube of one color than the other. By counting the cubes in the pattern, we found that the correct number of white cubes is 15.
+
+Answer: E)

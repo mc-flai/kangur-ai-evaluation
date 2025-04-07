@@ -1,0 +1,26 @@
+**Razonamiento:**
+Julia lanza cinco dados, cada uno de seis caras, y obtiene un total de 19 puntos. Para encontrar el número máximo de seises que podría haber sacado, debemos considerar el valor máximo posible de un dado de seis caras, que es 6.
+
+Si todos los cinco dados fueran seises, el total sería:
+5 * 6 = 30
+
+Pero el total obtenido es 19, lo que significa que no todos los dados fueron seises. Para encontrar el número máximo de seises posible, restamos el total obtenido del máximo posible:
+30 - 19 = 11
+
+Esto significa que hay 11 puntos menos de lo que hubieran sido si todos fueran seises. Ahora, consideramos que cada dado que no es un seis puede ser un cinco (el valor máximo inmediatamente inferior al seis). Cada dado que no es un seis, por lo tanto, contribuye con 1 punto menos al total.
+
+Para encontrar el número máximo de seises, dividimos la diferencia de puntos (11) por la diferencia de valor por dado (1):
+11 / 1 = 11
+
+Esto es incorrecto ya que no es posible que 11 dados hayan sido no seises. Entonces, reconsideramos:
+
+- Si 4 dados fueran seises, el total sería 4 * 6 = 24.
+- Los 19 puntos totales significan que otro dado debe sumar 19 - 24 = -5, lo cual es imposible.
+
+- Si 3 dados fueran seises, el total sería 3 * 6 = 18.
+- Los 19 puntos totales significan que los otros dos dados deben sumar 19 - 18 = 1.
+- Dos dados que sumen 1 deben ser cada uno un 1, lo cual es posible.
+
+Por lo tanto, el número máximo de seises que podría haber sacado es 3.
+
+**Respuesta:** D) 3.

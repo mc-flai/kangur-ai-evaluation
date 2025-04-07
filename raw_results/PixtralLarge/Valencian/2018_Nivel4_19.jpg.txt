@@ -1,0 +1,47 @@
+Per determinar quin és el nombre de pàgines d'un diccionari que per a la paginació requereix 11381 dígits, hem de considerar les següents fases:
+
+1. **Pàgines de 1 dígit**: Les pàgines de 1 dígit van de l'1 al 9, això són 9 pàgines. Cada pàgina d'aquestes utilitza exactament 1 dígit, per tant, el total de dígits per aquestes pàgines és:
+   \[
+   9 \times 1 = 9
+   \]
+
+2. **Pàgines de 2 dígits**: Les pàgines de 2 dígits van de la 10 a la 99, això són 90 pàgines. Cada pàgina d'aquestes utilitza exactament 2 dígits, per tant, el total de dígits per aquestes pàgines és:
+   \[
+   90 \times 2 = 180
+   \]
+
+3. **Pàgines de 3 dígits**: Les pàgines de 3 dígits van de la 100 a la 999, això són 900 pàgines. Cada pàgina d'aquestes utilitza exactament 3 dígits, per tant, el total de dígits per aquestes pàgines és:
+   \[
+   900 \times 3 = 2700
+   \]
+
+4. **Pàgines de 4 dígits**: Suposem que el diccionari té \( n \) pàgines, i que \( n \) és un nombre de 4 dígits. Per a cada pàgina de 4 dígits, utilitzem 4 dígits. Per tant, el total de dígits per aquestes pàgines és:
+   \[
+   (n - 999) \times 4
+   \]
+
+La suma total de dígits utilitzats és:
+   \[
+   9 + 180 + 2700 + (n - 999) \times 4 = 11381
+   \]
+
+Simplificant l'equació:
+   \[
+   9 + 180 + 2700 + 4n - 3996 = 11381
+   \]
+   \[
+   2889 + 4n - 3996 = 11381
+   \]
+   \[
+   4n - 1107 = 11381
+   \]
+   \[
+   4n = 12488
+   \]
+   \[
+   n = 3122
+   \]
+
+Raonament: Hem determinat el nombre de pàgines calculant el total de dígits necessaris i resolent l'equació resultant.
+
+Resposta: B)

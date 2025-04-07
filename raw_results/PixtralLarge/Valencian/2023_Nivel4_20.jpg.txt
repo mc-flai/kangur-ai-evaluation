@@ -1,0 +1,24 @@
+Per resoldre aquesta pregunta, hem de determinar la relació entre les àrees dels dos hexàgons regulars descrits.
+
+Primer, s'ha de tenir en compte que el primer hexàgon regular té totes les diagonals iguals a l'amplada de l'hexàgon. Aquesta és una propietat de l'hexàgon regular.
+
+El segon hexàgon regular té els vèrtexs en els punts d'intersecció de les diagonals del primer hexàgon. Per a un hexàgon regular, les diagonals que van d'un vèrtex al vèrtex oposat passen pel centre de l'hexàgon. Això significa que els punts d'intersecció de les diagonals formen un hexàgon més petit en el centre.
+
+L'àrea d'un hexàgon regular es pot calcular amb la fórmula:
+\[ A = \frac{3\sqrt{3}}{2} s^2 \]
+on \( s \) és la longitud del costat de l'hexàgon.
+
+Per al primer hexàgon regular, la longitud del costat és \( s \). Per al segon hexàgon regular, la longitud del costat és la meitat de la longitud del costat del primer hexàgon, ja que els punts d'intersecció de les diagonals formen un hexàgon més petit. Per tant, la longitud del costat del segon hexàgon és \( \frac{s}{2} \).
+
+Substituint aquestes longituds en la fórmula de l'àrea, tenim:
+\[ A_1 = \frac{3\sqrt{3}}{2} s^2 \]
+\[ A_2 = \frac{3\sqrt{3}}{2} \left(\frac{s}{2}\right)^2 = \frac{3\sqrt{3}}{2} \frac{s^2}{4} = \frac{3\sqrt{3}}{8} s^2 \]
+
+La relació entre les àrees dels dos hexàgons és:
+\[ \frac{A_1}{A_2} = \frac{\frac{3\sqrt{3}}{2} s^2}{\frac{3\sqrt{3}}{8} s^2} = \frac{8}{2} = 4 \]
+
+Per tant, l'àrea del primer hexàgon és 4 vegades més gran que l'àrea del segon hexàgon.
+
+Raonament: La relació entre les àrees dels dos hexàgons és 4, ja que l'àrea del primer hexàgon és 4 vegades més gran que l'àrea del segon hexàgon.
+
+Resposta: D)

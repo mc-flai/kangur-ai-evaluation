@@ -1,0 +1,9 @@
+Reasoning:
+The question asks for the maximum number of tries to be sure of the correct phone number. We know six digits are correct and in the correct order, and we need to find the seventh digit. The seventh digit can be any digit from 0 to 9, so there are 10 possibilities for the missing digit.
+The missing digit can be in any of the 7 positions.
+If the missing digit is inserted in the first position, the other six digits are shifted to the right.
+If the missing digit is inserted in the second position, the other six digits after the second position are shifted to the right. And so on.
+So, we have 7 possible positions for the missing digit. For each position, there are 10 possible digits (0 to 9). So there are 7 * 10 = 70 possible combinations.
+Therefore, the maximum number of tries is 70.
+
+Answer: D)

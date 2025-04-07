@@ -1,0 +1,33 @@
+
+La pregunta 26 pregunta cuántos números enteros \( n \) hacen que el número \(|n^2 - 2n - 3|\) sea un número primo.
+
+Para determinar esto, debemos analizar la expresión \(|n^2 - 2n - 3|\) y ver bajo qué condiciones es un número primo.
+
+**Razonamiento:**
+1. Primero, simplifiquemos la expresión \( n^2 - 2n - 3 \):
+   \[
+   n^2 - 2n - 3 = (n - 3)(n + 1)
+   \]
+   Esto se puede verificar expandiendo el producto:
+   \[
+   (n - 3)(n + 1) = n^2 + n - 3n - 3 = n^2 - 2n - 3
+   \]
+
+2. Ahora, queremos que \(|n^2 - 2n - 3|\) sea un número primo. Esto significa que \(|(n - 3)(n + 1)|\) debe ser un número primo.
+
+3. Un número primo es un número mayor que 1 que tiene exactamente dos divisores: 1 y sí mismo. Por lo tanto, \(|(n - 3)(n + 1)|\) debe ser igual a sí mismo, ya que no puede ser el producto de dos números diferentes mayores que 1.
+
+4. Esto implica que \(|n - 3| = 1\) y \(|n + 1| = 1\).
+
+5. Resolviendo estas ecuaciones:
+   - \(|n - 3| = 1\) implica que \(n - 3 = 1\) o \(n - 3 = -1\).
+     - Si \(n - 3 = 1\), entonces \(n = 4\).
+     - Si \(n - 3 = -1\), entonces \(n = 2\).
+
+   - \(|n + 1| = 1\) implica que \(n + 1 = 1\) o \(n + 1 = -1\).
+     - Si \(n + 1 = 1\), entonces \(n = 0\).
+     - Si \(n + 1 = -1\), entonces \(n = -2\).
+
+6. Por lo tanto, los valores de \(n\) que hacen que \(|n^2 - 2n - 3|\) sea un número primo son \(n = 0, 2, 4\).
+
+**Respuesta:** D)

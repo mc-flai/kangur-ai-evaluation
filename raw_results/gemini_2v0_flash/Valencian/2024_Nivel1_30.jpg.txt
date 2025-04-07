@@ -1,0 +1,41 @@
+Raonament: El polígon central té el número 1, i un dels polígons adjacents té el número 2. Això vol dir que els altres polígons adjacents no poden tenir ni 1 ni 2. Per tant, poden tenir 3 o 4.
+El polígon adjecent al "2" només pot ser 3 o 4 (2 opcions). Si triem un d'aquests dos números, per exemple 3, el següent adjacent només pot ser 4 (1 opció). El següent adjecent al "1" pot ser o 3 o 4 (2 opcions), etc.
+Tindrem 2 opcions per al polígon adjacent a "2". Suposem que hi posem el "3". Així, el polígon de l'esquerra del "1" pot ser el "4". Llavors ens queden dos polígons sense número. Amb dos polígons només hi caben el 3 i el 4, així que aquesta combinació serà impossible.
+Només podem tenir les opcions (3,4,3,4, etc) o (4,3,4,3, etc). Cada adjacent només pot triar el valor si no és igual als seus veïns. Per tant, en aquest cas, els dos adjacents a l'1 i al 2 podran tenir els valors (3,4) o (4,3). Llavors els dos últims tindran el valor restant.
+
+El polígon al costat del 2 pot ser 3 o 4 (2 opcions).
+Si és 3, el polígon adjacent a l'1 i al 3 pot ser 4 (1 opció). Ara, el polígon restant pot ser 3 o 4, però ha de ser diferent de 1 i 4 (o 3 en el cas d'estar adjacent al anterior). Si és 3, el polígon següent pot ser 4. Així ho fem.
+Tindrem doncs 2 opcions. En canvi, si posem a l'adjacent del 2 el nombre 4, llavors al polígon superior hi posarem 3, i al polígon restant, 4, 3. Per tant, també tenim dues opcions.
+
+L'adjacent al 2 pot tenir dos valors (3 o 4). Els dos restants queden determinats. Així tindrem 2*4 = 8.
+Llavors tindrem només 2 opcions possibles (3,4,3) o (4,3,4). Però, si posem dos numeros seguits que són adjecents, només podrem anar alternativament.
+Tindríem dues opcions per al polígon a l'esquerra del 1, o hi posem el 3 o hi posem el 4. I després, tindrem 1 opció per al polígon adjacent a l'1 a la dreta. La resta de casos no compliran que el valor d'un poligon adjacent no siga igual.
+
+Per tant: polígon adjacent al 2 = 3 o 4 (2 opcions).
+Si escollir-se el 3, el poligon esquerra del 1 ha de ser 4 (1 opció). El poligon restant pot ser 3 (i el superior 4) o 4 (i el superior 3). Per tant, només tenim dos casos possibles. El mateix per si escollir-se el 4. Tindrem per tant 2*2 = 4. No, seran només 1, ja que tenen que ser alternats. Per tant, 2.
+
+Les opcions són:
+- 2, 3, 4, 3, 4
+- 2, 4, 3, 4, 3
+Per a col·locar el 2 hi ha 1 opció. Per al polígon adjacent, hi ha 2 opcions (3 o 4). Per tant, només pot quedar l'opció 3 o 4, ja que hi ha dues que no podem escollir (1 i 2). Llavors tenim la resta determinats (4 o 3). Per tant, només hi ha 2 opcions possibles.
+
+Raonament: El problema consisteix en assignar els números 3 i 4 als polígons restants, de manera que cap polígon adjacent tinga el mateix número. Un polígon adjacent al 2, haurà de ser o 3 o 4 (2 opcions). Una vegada triat aquest, els altres queden determinats. Suposem que triem 3. Aleshores l'adjacent a l'1 a l'esquerra haurà de ser 4. Així doncs, ens queda el polígon restant que ha de ser o 3 o 4. Si és 3, l'últim pot ser 4. I a l'inrevés. Només hi ha dos possibilitats per si el del costat del 2 és el 3 o 4. Per tant, la resposta és 2*4 = 8 opcions. Però n'hi ha moltes d'incorrectes.
+
+Raonament: El poligon al costat del 2 només pot ser 3 o 4. Si triem el 3, llavors l'adjacents a l'1 a l'esquerra ha de ser 4. Llavors tenim l'altra cara al damunt. Hem d'alternar 3 i 4.
+
+Raonament: Sigui A el poligon adjacent al 2. A pot ser 3 o 4 (2 opcions). Sigui B el poligon adjacent a A i a 1. Sigui C el poligon adjacent a B i a 1. Sigui D el poligon adjacent a C i a 2.
+Si A=3, B=4. C pot ser 3 o 4. Si C=3, D=4. Si C=4, D=3.
+Si A=4, B=3. C pot ser 3 o 4. Si C=3, D=4. Si C=4, D=3.
+
+Per tant, a lo sumo tenim 2 opcions.
+
+Raonament: Siguen els polígons A,B,C. A adjacent al 2. B adjacent a 1 i A. C adjacent a 1 i 2. A pot ser 3 o 4. B pot ser 3 o 4. C pot ser 3 o 4. Si escollir-se A, B s'ha de triar per forçar a no igualar. Si escollir-se C, no hi ha possibilitat possible, ja que sempre es repetiràn números.
+
+Raonament: Es pot resoldre el problema enumerant les possibilitats:
+Si el poligon adjacent al 2 es 3, l'adj. a l'1 es 4, el últim ha de ser 3 y el anterior 4.
+Si el poligon adjacent al 2 es 4, l'adj. a l'1 es 3, el últim ha de ser 4 y el anterior 3.
+Por tanto, solo hay dos maneras de asignar los números a los polígonos restantes, y la respuesta correcta seria 2 opciones. Pero no se encuentra ese valor.
+No puede ser que la figura esté mal planteada y por eso la opción es "Es Imposible"?
+
+Raonament: Una vegada hem col.locat l'1 i el 2, només ens queden els números 3 i 4 per utilitzar. Si hi ha dos polígons adjacents que tenen un costat en comú, han de tenir nombres diferents. Després de provar diverses combinacions, no es pot aconseguir un altre objectiu.
+Resposta: E)

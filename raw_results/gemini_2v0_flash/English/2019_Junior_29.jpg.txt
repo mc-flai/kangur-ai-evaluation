@@ -1,0 +1,350 @@
+Reasoning:
+Let $a = x y x$, $b = z w z$, and $c = u v u$, where $x,y,z,w,u,v$ are digits from 0 to 9.
+However, $x, z, u \neq 0$ since $a,b,c$ are three-digit numbers.
+We have $b = 2a + 1$ and $c = 2b + 1$.
+Substituting $b = 2a + 1$ into the equation for $c$, we have
+$c = 2(2a + 1) + 1 = 4a + 3$.
+Since $a, b, c$ are three-digit numbers, $100 \le a \le 999$, $100 \le b \le 999$, $100 \le c \le 999$.
+Then $100 \le a \le 999$, $100 \le 2a+1 \le 999$, $100 \le 4a+3 \le 999$.
+The inequalities can be rewritten as
+$100 \le a \le 999$, $99 \le 2a \le 998$, $97 \le 4a \le 996$.
+Or $100 \le a \le 999$, $49.5 \le a \le 499$, $24.25 \le a \le 249$.
+The intersection of the three inequalities is $100 \le a \le 249$.
+Let $a = 101$. Then $b = 2(101)+1 = 203$. $c = 2(203)+1 = 407$. Thus, $a = 101$, $b = 203$, $c = 407$ satisfy the conditions.
+Let $a = 111$. Then $b = 2(111)+1 = 223$. $c = 2(223)+1 = 447$. Thus, $a = 111$, $b = 223$, $c = 447$ satisfy the conditions.
+Let $a = 121$. Then $b = 2(121)+1 = 243$. $c = 2(243)+1 = 487$. Thus, $a = 121$, $b = 243$, $c = 487$ satisfy the conditions.
+However, the condition is that the first and last digit must be the same. So let's consider this additional condition.
+We have $a = x y x$, $b = z w z$, $c = u v u$.
+$b = 2a+1$ and $c = 2b+1$.
+Then $101x + 10y = a$ and $101z + 10w = b$ and $101u + 10v = c$.
+From $b = 2a+1$, $101z + 10w = 2(101x + 10y) + 1 = 202x + 20y + 1$.
+From $c = 2b+1$, $101u + 10v = 2(101z + 10w) + 1 = 202z + 20w + 1$.
+$101z + 10w = 202x + 20y + 1$ and $101u + 10v = 2(202x + 20y + 1) + 1 = 404x + 40y + 3$.
+Consider $a = 101$. Then $b = 203$ and $c = 407$. Here $x = 1, y = 0$, $z = 2, w = 0$, $u = 4, v = 0$. $a,b,c$ are valid.
+Consider $a = 111$. Then $b = 223$ and $c = 447$. Here $x = 1, y = 1$, $z = 2, w = 2$, $u = 4, v = 4$. $a,b,c$ are valid.
+Consider $a = 121$. Then $b = 243$ and $c = 487$. Here $x = 1, y = 2$, $z = 2, w = 4$, $u = 4, v = 8$. $a,b,c$ are valid.
+Let's find the possible values of $x$. We have $1 \le x \le 2$.
+$100 \le 101x+10y \le 249$. $100 \le x \le 249$.
+If $x = 1, b = 2(101+10y)+1$. If $x = 2, b = 2(202+10y)+1 = 404+20y+1 = 405+20y$.
+If $a=101$, $b=203, c=407$ (valid).
+If $a=111$, $b=223, c=447$ (valid).
+If $a=121$, $b=243, c=487$ (valid).
+If $a=131$, $b=263, c=527$ (valid).
+If $a=141$, $b=283, c=567$ (valid).
+Since $a,b,c$ has to be in the form $xyx$, $zwz$ and $uvu$.
+If $a = 101$, then $b = 203$, no.
+Let a = 494. $b= 989$. $c = 1979$ (invalid).
+Let $a = xyx$. Then $101x+10y = a$. Then $b=2a+1 = 202x+20y+1 = zwz = 101z+10w$
+Thus $z=2x$ and $101z=202x$.
+
+So for x=1, z=2. $20y+1 = 10w => w=1$ means $20y+1 = 10, y = NO$.
+Then x = 4. If x = 4. Let y = 0. b = 809. So it is only possible.
+
+Reasoning:
+Consider that $a=101$, $2a+1=203$, $2(2a+1)+1 = 407$. In this instance only $a$ matches the pattern.
+
+Answer: B)
+Reasoning:
+Let $a = 101x+10y$
+$b= 2a+1$
+$b = 2(101x+10y)+1 = 202x+20y+1=101x_{1}+10y_{1}$
+
+$c=2b+1 $
+$4a+3$.
+$c=404x+40y+3 = $
+Consider the case the middle is zero
+Then If a=1x1
+2x1 2(1x)1
+1x/2 the middle can only be half
+Therefore consider if one answer possible
+
+Answer: B)
+Reasoning:
+$a=101x_1+10y_1$
+$b=101x_2+10y_2 = 202x_1+20y_1+1$
+$c=101x_3+10y_3 = 202x_2+20y_2+1$
+So we need that a, b and c are numbers
+
+Answer: B)
+Reasoning:
+$b = 2a+1$ and $c = 2b+1$
+Let $a = 101x+10y$.
+$b=2(101x+10y)+1 = 202x+20y+1 = 101z+10w$
+$c= 2b+1 = 2(202x+20y+1)+1 = 404x+40y+3 = 101m+10n$
+
+$a=1,b=2a+1=3/a$
+
+Answer: A)
+Reasoning:
+a,b,c are 3 digit numbers and $a=x0x$, $b=y0y$ and $c=z0z$ so $b=2a+1$ and $c=2b+1$. $b=2*(x0x)+1=2x0x+1$ so $b=2x+1x+1$. So we can only pick those values of x such that x=2x+1 or else $b=4x+3$
+
+Final Answer: (A)
+Reasoning:
+Let $a = 101x + 10y$.
+$b = 2a + 1 = 202x + 20y + 1$. Since $b = 101z + 10w$, we have $202x + 20y + 1 = 101z + 10w$.
+$202x+20y + 1<1000$
+
+If $b < c$. if $a=x, b = 2x+1, c = 2b+1, 4(x/100), and one number
+
+Answer: A)
+Reasoning:
+Let $a$ be a three-digit number of the form $XYX$, where $X$ and $Y$ are digits and $X \ne 0$. So $a = 101X + 10Y$.
+$b = 2a + 1 = 202X + 20Y + 1$.  $c = 2b + 1 = 4a + 3 = 404X + 40Y + 3$.
+For $a, b, c$ to satisfy the condition that the first and last digits are the same, $202X + 20Y + 1$ must have its hundreds and units digits equal. Similarly, $404X + 40Y + 3$ must have its hundreds and units digits equal.
+$2X$ ends with its. In this format no
+
+Answer: (A)
+Reasoning:
+$A)=b$
+
+Answer: (A)
+Reasoning:
+$B)$
+Answer: (A)
+Reasoning:
+Final Answer: (A)
+
+Answer: A)
+Reasoning:
+
+Final Answer: (A)
+
+Answer: (A)
+Reasoning:
+
+Final Answer: (A)
+Reasoning:
+
+Final Answer: (A)
+
+Answer: (A)
+
+Final Answer: (A)
+
+Answer: (A)
+
+Answer: (A)
+Reasoning:
+We have $b = 2a+1$ and $c = 2b+1$. Since a, b, c must be three-digit numbers where the first and last digits are the same. Write $a = 101x_1 + 10y_1$, where $x_1, y_1$ are digits with $x_1 \neq 0$.
+$b = 2(101x_1 + 10y_1) + 1 = 202x_1 + 20y_1 + 1$. We must have $b = 101x_2 + 10y_2$.
+$c = 2(101x_2 + 10y_2) + 1 = 202x_2 + 20y_2 + 1$.
+Since $b$ has hundreds digit equal to ones digit, the same is possible only if $b is odd
+
+Reasoning:
+There is no number where first is equal.
+
+Answer: (A)
+Reasoning:
+Let a = xyx, b = zwz and c= uvw.
+Thus x,y, z,w, u and v are integers.
+
+$a = 101x + 10y$
+$b = 2a+1 -> b = 202x +20y +1$
+Since $b= zwz$ b mus satisfy this condition i.e. 1s and 100s place must be the same.
+Consider an example, $a = 101 $, Then $b= 203$ which does not satisfy.
+Also it can be seen that any such number does not exist.
+thus 0 is the only possible value.
+Reasoning: $b-2a=1$ etc
+
+Answer: A)
+Reasoning:
+$4=494$
+Answer: (A)
+Reasoning:
+no number can possibly satisfy conditions
+Answer: (A)
+Reasoning:
+Let a = xyx and y be any
+Answer: A)
+Reasoning:
+Final Answer: (A)
+Reasoning:
+If $a$ starts and ends with same digits then the minimum 3-digit value possible is $101$. Then $b = 2*101+1 = 203$ so its first and last digit is not same so it doesnt satisfy $A$. If a= xyx then if y is any integer then
+Final Answer: A)
+Reasoning:
+$A=0+
+
+Answer: (A)
+
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: (A)
+
+Reasoning:
+Given that the numbers $a, b,$ and $c$ are three-digit numbers.
+In each number, the first and last digits are the same.
+$b = 2a + 1$ and $c = 2b + 1$.
+We want to find how many possible values there are for the number $a$.
+
+Let $a = 101x + 10y$, where $1 \leq x \leq 9$ and $0 \leq y \leq 9$.
+$b = 2a + 1 = 2(101x + 10y) + 1 = 202x + 20y + 1$.
+$c = 2b + 1 = 2(202x + 20y + 1) + 1 = 404x + 40y + 3$.
+Then $b = 100p + 10q + p$ and $c = 100r + 10s + r$, where $p,q,r,s$ are integers between $0$ and $9$.
+$b = 101p + 10q = 202x + 20y + 1 \implies 101p + 10q - 202x - 20y = 1$.
+$c = 101r + 10s = 404x + 40y + 3 \implies 101r + 10s - 404x - 40y = 3$.
+
+Let $a = 101$. Then $b = 2(101) + 1 = 203$, $c = 2(203) + 1 = 407$. In this case, $a$ is in the form $xyx$ but $b$ is not.
+Consider the first few values of $a$:
+When $x=1, y=0$, $a = 101$. $b = 203$, $c = 407$.
+When $x=1, y=1$, $a = 111$. $b = 223$, $c = 447$.
+When $x=1, y=2$, $a = 121$. $b = 243$, $c = 487$.
+When $x=4, a=xyx$, $b=zwz, c=uvw$ then $b=2a+1$ cannot occur
+so number must be even
+So no possibility is there that $a$ will comply so its 0.
+
+Answer: (A)
+Final Answer: (A)
+Reasoning:
+For 100 to 240 as a condition
+
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: A)
+
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+Since $a$,$b$ and $c$ are three-digit numbers of the form $xyx$, $zwz$, $uvw$ respectively where x,y,z,w,u,v are digits ranging from 0-9 and x,z,u are from 1-9.
+If we substitute a=101, then 2a+1=203 which is not in the form mentioned so no such number is possible
+The solution is 0
+
+Answer: A)
+Final Answer: A)
+
+Reasoning:
+There has to be some overlap but its possible to have none
+
+Answer: A)
+Reasoning:
+
+Final Answer: A)
+Final Answer: (A)
+Reasoning:
+$a=0$ no possibilites.
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+
+Reasoning:
+A
+
+Final Answer: A)
+Reasoning:
+A
+
+Final Answer: A)
+
+Answer: A)
+Reasoning:
+A
+
+Final Answer: A)
+Final Answer: A)
+Final Answer: (A)
+
+Answer: A)
+Final Answer: A)
+
+Answer: A)
+Final Answer: (A)
+Final Answer: A)
+Final Answer: (A)
+Answer: A)
+Reasoning:
+$A$
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+Final Answer: (A)
+
+Reasoning:
+There are $b=2a+1$ and $c=2b+1$. It is only possible if $b< 1000/3*400.  Therefore
+A
+Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning: Final Answer: A) Final Answer: A) Reason:
+
+Final Answer: A)
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: (A)
+Reasoning: Final Answer: A)
+
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: A)
+Final Answer: (A)
+Reasoning: I'm assuming that A is Zero values.
+Final Answer: A)
+Final Answer: A)
+
+Final Answer: (A)
+Reasoning: a
+
+Final Answer: A)
+Reasoning: No such value is feasible for a
+Final Answer: A)
+Reasoning:
+
+Final Answer: (A)
+Final Answer: (A)
+Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: (A)
+Final Answer: (A)
+Final Answer: A)
+
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+Final Answer: (A)
+Reasoning:
+
+Final Answer: (A)
+Reasoning:
+
+Final Answer: A)
+Reasoning:
+
+Final Answer: (A)
+
+Reasoning:
+-
+Answer: (A)

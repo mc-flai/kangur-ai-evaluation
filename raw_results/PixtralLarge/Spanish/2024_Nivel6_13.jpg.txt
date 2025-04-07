@@ -1,0 +1,37 @@
+Para resolver este problema, primero necesitamos entender la geometría del cuadrilátero \(ABCD\) y las longitudes dadas.
+
+1. **Identificación de longitudes y ángulos**:
+   - \(AB = 4\)
+   - \(BC = 8\)
+   - \(CD = 2\)
+   - Los ángulos en \(B\) y \(C\) son rectos.
+
+2. **Ubicación del punto \(X\)**:
+   - \(X\) es un punto en \(BC\).
+
+3. **Determinación del valor mínimo de \(AX + DX\)**:
+   - Para minimizar \(AX + DX\), debemos considerar la reflexión de un punto.
+   - Reflejamos el punto \(D\) sobre la línea \(BC\) para encontrar el punto \(D'\) tal que \(D'\) es el reflejo de \(D\) sobre \(BC\).
+
+4. **Cálculo de la distancia mínima**:
+   - La distancia mínima desde \(A\) hasta \(D'\) pasando por \(BC\) es simplemente la línea recta \(AD'\).
+   - La coordenada de \(D'\) será la misma que la de \(D\) pero reflejada sobre \(BC\).
+
+5. **Cálculo de coordenadas**:
+   - \(B\) está en \((0, 0)\).
+   - \(C\) está en \((8, 0)\).
+   - \(D\) está en \((8, 2)\).
+   - Reflejando \(D\) sobre \(BC\), \(D'\) estará en \((8, -2)\).
+
+6. **Distancia \(AD'\)**:
+   - \(A\) está en \((0, 4)\).
+   - Usamos la fórmula de la distancia:
+     \[
+     AD' = \sqrt{(8 - 0)^2 + (-2 - 4)^2} = \sqrt{8^2 + (-6)^2} = \sqrt{64 + 36} = \sqrt{100} = 10
+     \]
+
+Por lo tanto, el valor mínimo de \(AX + DX\) es 10.
+
+Razonamiento: Al reflejar el punto \(D\) sobre \(BC\) y calcular la distancia directa desde \(A\) hasta \(D'\), encontramos que la distancia mínima es 10.
+
+Respuesta: D) 10

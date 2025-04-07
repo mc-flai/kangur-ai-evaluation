@@ -1,0 +1,12 @@
+**Razonamiento:**
+1. Tenim 6 vèrtexs i 10 triangles en un pla.
+2. Cada vèrtex pot estar connectat a múltiples triangles, però no hi ha 3 vèrtexs que estiguin alineats.
+3. Per determinar quantes maneres hi ha de dibuixar una línia recta de la manera que es descriu, considerem que aquesta línia recta ha de passar per un vèrtex de cada triangle i travessar almenys un dels vèrtexs.
+
+Per a cada triangle, la línia recta ha de travessar un dels vèrtexs del triangle. Com que no hi ha 3 vèrtexs alineats, cada triangle té 3 vèrtexs i la línia recta pot travessar qualsevol dels vèrtexs d'un triangle.
+
+Per tant, per a cada triangle, hi ha 3 opcions per on la línia recta pot travessar el triangle.
+
+Com que hi ha 10 triangles, el nombre total de maneres de dibuixar aquesta línia recta és 3^10.
+
+**Respuesta:** C)

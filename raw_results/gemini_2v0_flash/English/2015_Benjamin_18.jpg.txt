@@ -1,0 +1,17 @@
+Reasoning:
+We want to find the minimum number of fruits Sebastian must take out to guarantee that he has at least one apple and one pear of the same color.
+
+Let's consider the worst-case scenario. Sebastian could first pick all 5 yellow apples and all 7 green pears, and then pick one more fruit. This gives a total of 5 + 7 = 12 fruits.
+The next fruit he picks must be either a green apple or a yellow pear.
+If it is a green apple, then he has a green apple and a green pear.
+If it is a yellow pear, then he has a yellow apple and a yellow pear.
+So, after picking 12 + 1 = 13 fruits, he is guaranteed to have at least one apple and one pear of the same color.
+
+Let's consider a slightly different approach. Suppose we want to make sure we have at least one apple and one pear.
+The worst case is to pick all fruits of one type. Suppose we pick all the pears (7+2 = 9). Then the next fruit we pick must be an apple. So we have at least one apple and one pear.
+Then we want to ensure that at least one apple and one pear have the same color.
+Suppose we pick all 3 green apples, all 5 yellow apples, then we have all the apples (3 + 5 = 8). Then we need to pick pears. If we pick all the green pears (7) then we have green apple and green pear. If we pick all the yellow pears (2) then we have yellow apple and yellow pear.
+Suppose we pick all the yellow apples (5). Then pick all the green pears (7). Then we have 5 + 7 = 12. Then the next pick we pick must be green apple or yellow pear. If green apple then we have green apple and green pear. If yellow pear then we have yellow apple and yellow pear. Thus we pick 13 to ensure this.
+Another scenario: pick all 7 green pears, then all 5 yellow apples. That's 12. The next fruit is either yellow pear or green apple. So picking 13 guarantees it.
+
+Answer: E)

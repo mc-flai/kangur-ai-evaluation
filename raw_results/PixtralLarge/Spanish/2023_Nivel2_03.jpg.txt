@@ -1,0 +1,15 @@
+**Razonamiento**: Para determinar qué figuras se pueden obtener al dividir un rectángulo en dos partes con una línea recta, consideremos lo siguiente:
+
+1. Un rectángulo es un cuadrilátero con cuatro ángulos rectos y lados opuestos iguales.
+2. Una línea recta puede dividir un rectángulo en dos partes de varias maneras. Las opciones posibles son:
+   - Dividir el rectángulo en dos triángulos rectángulos si la línea es diagonal.
+   - Dividir el rectángulo en dos rectángulos si la línea es paralela a uno de los lados del rectángulo.
+   - Dividir el rectángulo en un cuadrilátero y un triángulo si la línea no es paralela a ninguno de los lados y no es diagonal.
+
+Dado que la pregunta especifica "usando una línea recta", las únicas opciones viables son:
+   - Un triángulo y un cuadrilátero (opción A).
+   - Dos triángulos (opción D).
+
+No es posible obtener un triángulo y un pentágono (opción B), un cuadrilátero y un pentágono (opción C), o dos cuadriláteros (opción E) con una sola línea recta en un rectángulo.
+
+**Respuesta**: A)

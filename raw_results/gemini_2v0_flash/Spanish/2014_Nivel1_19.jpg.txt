@@ -1,0 +1,14 @@
+Razonamiento:
+Sea $N$ el número de fichas que tenemos.
+Sabemos que $N \equiv 2 \pmod{3}$ y $N \equiv 2 \pmod{5}$.
+Por lo tanto, $N - 2$ es divisible tanto por 3 como por 5, lo que significa que $N-2$ es divisible por el mínimo común múltiplo de 3 y 5, que es 15.
+Es decir, $N - 2 = 15k$ para algún entero $k \geq 0$, o $N = 15k + 2$.
+Necesitamos añadir $x$ fichas de manera que $N + x$ sea divisible tanto por 3 como por 5. Esto significa que $N + x$ debe ser divisible por 15. Entonces, queremos $N + x \equiv 0 \pmod{15}$.
+Sustituyendo $N = 15k + 2$, tenemos $15k + 2 + x \equiv 0 \pmod{15}$, lo que implica que $2 + x \equiv 0 \pmod{15}$.
+Necesitamos encontrar el valor más pequeño de $x$ para que $2 + x$ sea divisible por 15.
+Si $2 + x = 15$, entonces $x = 13$.
+Si $2 + x = 30$, entonces $x = 28$.
+Si $2 + x = 45$, entonces $x = 43$.
+El valor mínimo de $x$ es 13.
+
+Respuesta: E)

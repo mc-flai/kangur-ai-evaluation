@@ -1,0 +1,18 @@
+Raonament: Perquè el robot torni a l'origen després de dues tirades, necessitem que el moviment resultant de les dues tirades es cancel·lin.
+En cada tirada, hi ha quatre resultats possibles per al robot:
+1. Dreta i amunt (Vermell parell, Blau parell)
+2. Dreta i avall (Vermell parell, Blau senar)
+3. Esquerra i amunt (Vermell senar, Blau parell)
+4. Esquerra i avall (Vermell senar, Blau senar)
+
+Cada un d'aquests quatre resultats té la mateixa probabilitat de passar, ja que la probabilitat de sortir parell és 1/2, i la de sortir senar també és 1/2.
+
+Per tornar a l'origen després de dues tirades, les dues tirades han de ser oposades. Hi ha quatre combinacions que ho faran:
+1. (Dreta, Amunt), (Esquerra, Avall)
+2. (Dreta, Avall), (Esquerra, Amunt)
+3. (Esquerra, Amunt), (Dreta, Avall)
+4. (Esquerra, Avall), (Dreta, Amunt)
+
+La probabilitat de cada combinació és (1/2 * 1/2) * (1/2 * 1/2) = 1/16. Hi ha quatre combinacions, així que la probabilitat total és 4 * (1/16) = 1/4.
+
+Resposta: E)

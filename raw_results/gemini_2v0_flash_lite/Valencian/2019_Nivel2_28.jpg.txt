@@ -1,0 +1,16 @@
+Raonament:
+1. **Defineix les variables:** Siguin *x* i *y* les longituds dels costats dels dos quadrats.
+2. **Estableix les equacions:**
+    *   La circumferència total de la corda és de 40 m. Per tant, 4*x* + 4*y* = 40, que es simplifica a x + y = 10.
+    *   La suma de les àrees dels dos quadrats és de 68 m². Per tant, x^2 + y^2 = 68.
+3. **Resol el sistema d'equacions:**
+    *   Des de x + y = 10, podem dir y = 10 - x.
+    *   Substitueix en l'equació de l'àrea: x^2 + (10 - x)^2 = 68
+    *   Expandeix i simplifica: x^2 + 100 - 20x + x^2 = 68
+        2x^2 - 20x + 32 = 0
+        x^2 - 10x + 16 = 0
+    *   Factorització: (x - 8)(x - 2) = 0
+    *   Això dóna x = 8 i x = 2.  Si x = 8, aleshores y = 2; si x = 2, aleshores y = 8.
+4. **Calcula la diferència d'àrees:** Les àrees dels quadrats són x^2 = 64 i y^2 = 4. La diferència d'àrees és 64 - 4 = 60.
+
+Resposta: E)

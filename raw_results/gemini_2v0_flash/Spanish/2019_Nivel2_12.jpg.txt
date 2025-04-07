@@ -1,0 +1,11 @@
+Razonamiento:
+El área del rectángulo ADNM se puede expresar como AD*MN. Como B es el punto medio de AD y C es el punto medio de BD, podemos considerar que AD = 2AB y BD = 2CD.
+Los triángulos AMN, BMN, CMN y DMN comparten la misma base MN. Por lo tanto, el área de cada triángulo es proporcional a su altura, que corresponde a la distancia vertical desde el punto A, B, C y D respectivamente hasta la línea MN.
+El área del triángulo AMN es 1/2 * MN * AD. El área del triángulo BMN es 1/2 * MN * AB = 1/2 * MN * (AD/2) = 1/4 * MN * AD.
+Como C es el punto medio de BD, el área del triángulo CMN es 1/2 * MN * distancia de C a MN.
+El área del triángulo DMN es 1/2 * MN * distancia de D a MN, distancia que será menor a AD o AB.
+El área del triángulo DMN es 1/2 * MN * 0.5 * BD.
+
+Comparando visualmente en la imagen, CMN debe tener el área más pequeña.
+
+Respuesta: C)

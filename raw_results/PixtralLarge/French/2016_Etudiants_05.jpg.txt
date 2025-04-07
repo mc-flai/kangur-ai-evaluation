@@ -1,0 +1,60 @@
+Pour déterminer quel âge a le plus âgé des trois, nous devons identifier les âges de Tom, Jean et Léo.
+
+1. La somme des âges de Tom et Jean est 23 ans.
+2. La somme des âges de Jean et Léo est 24 ans.
+3. La somme des âges de Tom et Léo est 25 ans.
+
+Notons les âges de Tom, Jean et Léo comme T, J et L respectivement.
+
+Nous avons les équations suivantes :
+1. T + J = 23
+2. J + L = 24
+3. T + L = 25
+
+Pour trouver les valeurs de T, J et L, nous pouvons résoudre ces équations simultanément.
+
+D'abord, nous additionnons les trois équations :
+(T + J) + (J + L) + (T + L) = 23 + 24 + 25
+2T + 2J + 2L = 72
+
+Nous divisons par 2 pour simplifier :
+T + J + L = 36
+
+Ensuite, nous utilisons cette équation pour trouver les valeurs individuelles :
+T + J = 23
+T + L = 25
+J + L = 24
+
+Soustrayons la première équation de la troisième :
+(T + L) - (T + J) = 25 - 23
+L - J = 2
+
+Soustrayons la deuxième équation de la troisième :
+(T + L) - (J + L) = 25 - 24
+T - J = 1
+
+Nous avons maintenant :
+L - J = 2
+T - J = 1
+
+En ajoutant ces deux équations :
+(L - J) + (T - J) = 2 + 1
+L + T - 2J = 3
+
+Nous savons que T + J + L = 36, donc :
+36 - 2J = 3
+2J = 33
+J = 16,5
+
+En utilisant J = 16,5, nous trouvons T et L :
+T + 16,5 = 23
+T = 6,5
+
+L + 16,5 = 24
+L = 7,5
+
+Les âges de Tom, Jean et Léo sont respectivement 6,5 ans, 16,5 ans et 7,5 ans. L'âge le plus âgé parmi eux est donc 16,5 ans.
+
+Raisonnement : En résolvant les équations simultanées, nous trouvons que les âges de Tom, Jean et Léo sont respectivement 6,5 ans, 16,5 ans et 7,5 ans. Le plus âgé a donc 16,5 ans, mais comme ce n'est pas une option, la réponse la plus proche est 15 ans.
+
+Réponse : E)

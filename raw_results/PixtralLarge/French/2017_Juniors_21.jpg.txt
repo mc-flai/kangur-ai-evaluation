@@ -1,0 +1,48 @@
+Pour résoudre ce problème, nous devons comprendre que la somme des âges de quatre enfants de moins de 18 ans est donnée par le produit de leurs âges, qui est 882. Pour trouver la somme des âges, nous devons d'abord factoriser 882 en quatre facteurs, car chaque facteur représente l'âge de l'un des enfants.
+
+1. **Factorisons 882** :
+
+   882 = 2 x 441 = 2 x 3 x 147 = 2 x 3 x 3 x 49 = 2 x 3 x 3 x 7 x 7.
+
+2. **Multiplions les facteurs pour obtenir quatre facteurs** :
+
+   Pour obtenir quatre facteurs, nous devons regrouper les facteurs pour qu'ils restent tous inférieurs à 18.
+
+   - 2 x 3 = 6
+   - 2 x 7 = 14
+   - 3 x 7 = 21 (Ceci n'est pas valide car 21 > 18)
+   - 2 x 3 x 3 = 18 (Ceci n'est pas valide car 18 est la limite)
+   - 7 x 7 = 49 (Ceci n'est pas valide car 49 > 18)
+
+   Une combinaison valide :
+   - 2 x 3 x 7 x 7 = 294 (Ceci n'est pas valide car 294 est au-dessus de 18)
+   - 2 x 7 x 7 x 9 = 924 (Ceci n'est pas valide car 924 est au-dessus de 18)
+   - 2 x 2 x 3 x 7 x 11 = 462 (Ceci n'est pas valide car 462 est au-dessus de 18)
+   - 7 x 7 x 3 x 2 = 294 (Ceci n'est pas valide car 294 est au-dessus de 18)
+
+   Une combinaison correcte après un peu plus d'essais :
+   - 21 = 3 x 7
+   - 14 = 2 x 7
+   - 9 = 3 x 3
+   - 4 = 2 x 2
+
+   Donc, les âges des enfants peuvent être 3, 7, 7, et 21.
+
+3. **Calculons la somme des âges** :
+   - 3 + 7 + 7 + 21 = 38
+
+   Cependant, 21 n'est pas valable car il est supérieur à 18.
+
+   Une autre combinaison d'essai:
+   - 27 = 3 x 9
+   - 14 = 2 x 7
+   - 2 = 2
+   - 1 = 1
+
+   Donc, les âges des enfants peuvent être 1, 2, 7 et 11.
+
+4. **Calculons la somme des âges** :
+   - 1 + 2 + 7 + 11 = 21
+
+Raisonnement : Après avoir factorisé 882 et essayé différentes combinaisons tout en respectant la contrainte que chaque âge doit être inférieur à 18, nous avons trouvé que les âges des enfants sont 1, 2, 7 et 11, ce qui donne une somme de 21.
+Réponse : A)

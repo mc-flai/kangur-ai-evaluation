@@ -1,0 +1,25 @@
+Per determinar el nombre de pàgines d'un llibre utilitzant exactament 231 xifres, hem de seguir aquests passos:
+
+1. **Comptar les xifres de les pàgines d'un costat**:
+   - Les pàgines de l'1 al 9 (9 pàgines) tenen 1 xifra cadascuna.
+   - Les pàgines del 10 al 99 (90 pàgines) tenen 2 xifres cadascuna.
+   - Les pàgines del 100 en endavant tenen 3 xifres cadascuna.
+
+2. **Calcular el total de xifres utilitzades fins a la pàgina 99**:
+   - De l'1 al 9: 9 pàgines * 1 xifra = 9 xifres.
+   - Del 10 al 99: 90 pàgines * 2 xifres = 180 xifres.
+   - Total de xifres fins a la pàgina 99: 9 + 180 = 189 xifres.
+
+3. **Calcular les xifres restants per arribar a 231**:
+   - Xifres restants: 231 - 189 = 42 xifres.
+
+4. **Determinar el nombre de pàgines addicionals necessàries**:
+   - Cada pàgina a partir de la 100 té 3 xifres.
+   - Nombre de pàgines addicionals: 42 xifres / 3 xifres per pàgina = 14 pàgines.
+
+5. **Sumar les pàgines**:
+   - Total de pàgines: 99 (fins a la pàgina 99) + 14 (pàgines addicionals) = 113 pàgines.
+
+Raonament: Hem calculat el nombre de xifres utilitzades per les pàgines de l'1 al 99 i després hem determinat quantes pàgines addicionals necessitaven per completar les 231 xifres.
+
+Resposta: B) 113.

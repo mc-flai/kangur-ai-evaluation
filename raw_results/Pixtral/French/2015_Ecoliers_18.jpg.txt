@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. Nous avons 3 carrés transparents avec des quadrillages, chacun divisé en 4 plus petits carrés.
+2. Chaque carré transparent peut couvrir 3 petits carrés noirs sur la figure.
+3. Nous devons déterminer combien de petits carrés noirs restent visibles après avoir placé les 3 carrés transparents de manière à ce que leurs bords se chevauchent.
+4. Pour chaque option, nous devons vérifier combien de petits carrés noirs restent visibles après avoir superposé les carrés transparents.
+
+- Option A) 5 : Si 5 petits carrés noirs restent visibles, cela signifie que les carrés transparents couvrent 12 petits carrés noirs (18 - 5 = 13).
+- Option B) 6 : Si 6 petits carrés noirs restent visibles, cela signifie que les carrés transparents couvrent 12 petits carrés noirs (18 - 6 = 12).
+- Option C) 7 : Si 7 petits carrés noirs restent visibles, cela signifie que les carrés transparents couvrent 11 petits carrés noirs (18 - 7 = 11).
+- Option D) 8 : Si 8 petits carrés noirs restent visibles, cela signifie que les carrés transparents couvrent 10 petits carrés noirs (18 - 8 = 10).
+- Option E) 9 : Si 9 petits carrés noirs restent visibles, cela signifie que les carrés transparents couvrent 9 petits carrés noirs (18 - 9 = 9).
+
+En vérifiant les options, nous voyons que l'option B) 6 est la seule qui correspond à 12 petits carrés noirs couverts par les carrés transparents.
+
+Réponse : B)

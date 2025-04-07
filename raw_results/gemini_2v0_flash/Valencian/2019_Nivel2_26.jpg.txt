@@ -1,0 +1,37 @@
+Raonament: El cub té una superfície total de 6 * 4 * 4 = 96 cares.
+Per a maximitzar les cares blanques visibles, hem de posar els cubs blancs en les posicions de les cantonades i en els centres de les cares.
+
+Considerant que tenim 32 cubs blancs i 32 cubs negres, la distribució que maximitza les cares blanques és:
+- 8 cubs blancs a les cantonades
+- 6 cubs blancs al centre de cada cara
+- 12 cubs blancs als centres de les arestes
+- 6 cubs blancs a l'interior
+
+Llavors, per a maximitzar les cares visibles blanques, col·loquem els cubs blancs a les cantonades i als centres de les cares.
+
+Això vol dir que hi ha 8 cubs blancs a les cantonades, cada un amb 3 cares visibles. Així doncs, 8 * 3 = 24 cares blanques.
+Això vol dir que hi ha 6 cubs blancs al centre de cada cara, cada un amb 1 cara visible. Així doncs, 6 * 1 = 6 cares blanques.
+
+Llavors, el nombre màxim de cares blanques visibles és: 6 * 4 = 24 cares
+Els 32 cubs negres es col·locarien per a maximitzar les cares negres interiors.
+Si volem maximitzar les cares blanques, necessitem distribuir els 32 cubs blanques i els 32 cubs negres d'una manera equitativa.
+La superfície total del cub és de 6 cares * 4 * 4 = 96 cares. Per tant, 96 cares en total, dels quals X són blancs.
+En el millor dels casos, els 8 cubs blancs a les cantonades donen 3 * 8 = 24 cares blanques visibles.
+Els 6 cubs blancs al centre de cada cara donen 1 * 6 = 6 cares blanques visibles.
+Així doncs, 32 cubs blancs * 1 cara visible = 32 cares blanques.
+Els 32 cubs blancs es distribuiran de tal manera que els 8 cubs blancs a les cantonades mostrin 3 cares blanques cada un = 24 cares blanques. Els 6 cubs al centre de cada cara mostren 1 cara blanca = 6 cares blanques. 32 - 8 - 6 = 18 cubs blanques. Resten 18 cubs blancs.
+
+Les 96 cares visibles es divideixen en 32 cubs blancs i 32 cubs negres.
+La distribució que maximitza les cares blanques és col·locar els cubs blancs a la superfície del cub.
+96 / 32 = 3 cares per cub.
+Però els cubs de les cantonades tenen 3 cares visibles.
+Per tant, podem assumir que 3/4 parts de la superfície del cub gran es veuran blanques.
+
+El nombre total de cubs és 64, i tenim la meitat negres i la meitat blancs. Així, ens agradaria que aproximadament la meitat de la superfície fos blanca.
+Es necessiten els 32 cubs blancs per a maximitzar les cares blanques.
+El màxim possible és, per tant, 3/4.
+
+Resposta: D)
+Raonament: Un cub 4x4x4 té 64 cel·les. Se'n fan servir 32 de blanques i 32 de negres. La superfície del cub està formada per 6 cares de 4x4 = 16 cel·les per cara, per tant 6 x 16 = 96 cel·les a la superfície. Volem maximitzar les cel·les blanques a la superfície. Si en poséssim tots els cubs blancs a la superfície, tindríem 32 cel·les blanques a la superfície. Això equivaldria a 32/96 = 1/3. Però l'enunciat indica que el cub està construït de tal manera que es maximitza la superfície blanca. En una configuració òptima, intentarem posar cubs blancs a les cantonades i al mig de les cares, ja que aquests maximitzen l'exposició. No obstant això, sense un càlcul exhaustiu, l'opció D), 3/4, sembla la més raonable, donada la distribució equitativa de cubs blancs i negres.
+
+Resposta: D)

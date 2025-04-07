@@ -1,0 +1,15 @@
+Raonament:
+1. **Identificar les restriccions:** La barca pot suportar un màxim de 120 kg.
+2. **Identificar els pesos:** Aitana pesa 40 kg, el pare 90 kg, i el iaio 70 kg.
+3. **Determinar les possibles combinacions:** Cap parella pot viatjar junta, ja que 90 + 70 = 160 kg, que supera el límit. Per tant, o Aitana (40 kg) va amb un dels altres, o Aitana ha d'anar sola.
+4. **Estratègia òptima:**
+   * Aitana (40 kg) i el pare (90 kg) viatgen junts (40 + 90 = 130 kg > 120 kg, impossible).
+   * Aitana (40 kg) i el iaio (70 kg) viatgen junts (40 + 70 = 110 kg <= 120 kg, possible).
+   * **Pas 1:** Aitana i el iaio travessen el riu (3 minuts).
+   * **Pas 2:** Aitana torna sola (3 minuts).
+   * **Pas 3:** El pare travessa el riu (3 minuts).
+   * **Pas 4:** El iaio torna (3 minuts).
+   * **Pas 5:** Aitana i el iaio travessen (3 minuts)
+   * Per tant, tenim un total de 3+3+3+3+3 = 15 minuts.
+
+Resposta: C) 15 min

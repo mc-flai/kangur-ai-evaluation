@@ -1,0 +1,17 @@
+Raisonnement :
+1. **Associer les formes aux chiffres :** On associe chaque forme à une position dans le nombre à 5 chiffres.
+    - Coeur (première forme)
+    - Losange
+    - Trèfle
+    - Pique
+    - Le nombre peut contenir des chiffres répétés, mais la même forme correspond au même chiffre.
+2. **Identifier les chiffres correspondants pour chaque choix :**
+    -  (A) 34426 : Coeur=3, Losange=4, Trèfle=4, Pique=2, etc. Ne correspond pas aux formes.
+    -  (B) 34526 : Coeur=3, Losange=4, Trèfle=5, Pique=2, etc. Ne correspond pas aux formes.
+    -  (C) 34423 : Coeur=3, Losange=4, Trèfle=4, Pique=2, etc. Ne correspond pas aux formes.
+    -  (D) 34424 : Coeur=3, Losange=4, Trèfle=4, Pique=2, etc. Ne correspond pas aux formes.
+    -  (E) 32446 : Le coeur correspond au premier chiffre, le losange au deuxième, le trèfle au troisième, la pique au quatrième et le dernier symbole au cinquième. Donc, coeur=3, losange=2, trèfle=4, pique=4, dernier symbole=6
+
+3. **Vérifier les chiffres répétés :** On regarde si les formes répétées correspondent aux chiffres répétés du nombre.
+
+Réponse : E)

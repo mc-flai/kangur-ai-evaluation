@@ -1,0 +1,22 @@
+### Reasoning:
+
+To determine the number of digits in the final result of the calculation \(\frac{1}{9} \cdot 10^{2018} \cdot (10^{2018} - 1)\), we need to simplify the expression inside the parentheses first.
+
+1. Simplify \(10^{2018} - 1\):
+   \[
+   10^{2018} - 1 = 999\ldots9 \quad (\text{with 2018 nines})
+   \]
+
+2. Multiply by \(\frac{1}{9}\):
+   \[
+   \frac{1}{9} \cdot 10^{2018} \cdot (10^{2018} - 1) = \frac{1}{9} \cdot 10^{2018} \cdot 999\ldots9
+   \]
+
+3. Simplify the multiplication:
+   \[
+   \frac{1}{9} \cdot 10^{2018} \cdot 999\ldots9 = 111\ldots1 \quad (\text{with 2017 ones})
+   \]
+
+The result is a number with 2017 ones.
+
+### Answer: A) 2017

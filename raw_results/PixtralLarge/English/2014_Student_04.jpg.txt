@@ -1,0 +1,57 @@
+To determine the number of balls in the biggest basket, let's denote the number of balls in the middle basket as M.
+
+1. According to the problem, the smallest and the biggest basket together hold twice as many balls as the middle one. This can be written as:
+   \[
+   S + B = 2M
+   \]
+   where S is the number of balls in the smallest basket and B is the number of balls in the biggest basket.
+
+2. It is also given that the smallest basket holds half as many balls as the middle one:
+   \[
+   S = \frac{1}{2}M
+   \]
+
+3. We know the total number of balls in all three baskets is 48:
+   \[
+   S + M + B = 48
+   \]
+
+4. Substitute \( S = \frac{1}{2}M \) into the total equation:
+   \[
+   \frac{1}{2}M + M + B = 48
+   \]
+   Simplify the left side:
+   \[
+   \frac{3}{2}M + B = 48
+   \]
+
+5. From the first equation \( S + B = 2M \), substitute \( S = \frac{1}{2}M \):
+   \[
+   \frac{1}{2}M + B = 2M
+   \]
+   Simplify to find B:
+   \[
+   B = 2M - \frac{1}{2}M = \frac{3}{2}M
+   \]
+
+6. Now substitute \( B = \frac{3}{2}M \) into the total equation:
+   \[
+   \frac{3}{2}M + \frac{3}{2}M = 48
+   \]
+   Simplify the left side:
+   \[
+   3M = 48
+   \]
+   Solve for M:
+   \[
+   M = 16
+   \]
+
+7. Now calculate B using \( B = \frac{3}{2}M \):
+   \[
+   B = \frac{3}{2} \times 16 = 24
+   \]
+
+Reasoning: Using the relationships between the number of balls in the baskets and the constraints provided, we determined that the biggest basket holds 24 balls.
+
+Answer: C)

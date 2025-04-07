@@ -1,0 +1,17 @@
+To determine the minimum number of power plants required, we need to consider the problem as a graph theory problem where each town is a vertex and each road is an edge. The goal is to ensure that each town and its immediate neighbors have access to a power plant.
+
+1. **Identify the structure**: The diagram shows a grid of 16 towns connected by roads. We need to ensure that every town and its directly connected neighbors can receive electricity.
+
+2. **Optimal placement**: We need to place the power plants in such a way that they cover the maximum number of towns with the minimum number of power plants.
+
+3. **Strategic placement**:
+    - If we place a power plant in every other town in a checkerboard pattern, it ensures that each town and its neighbors are covered.
+    - In a 4x4 grid (16 towns), placing a power plant in every other town would mean placing 8 power plants. However, this is not the minimum.
+
+4. **Minimum number of power plants**:
+    - By strategically placing the power plants, we can reduce the number. For example, placing power plants at (1,1), (1,3), (3,1), (3,3), (2,2), and (4,4) ensures coverage of all towns.
+    - This placement covers all towns with only 6 power plants.
+
+Reasoning: By strategically placing the power plants in a way that covers all towns and their neighbors, we can minimize the number of power plants required to 6.
+
+Answer: D).

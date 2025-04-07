@@ -1,0 +1,26 @@
+
+Raisonnement :
+1. L'énoncé indique que cinq cartes sont alignées, chacune avec deux nombres, et qu'un nombre n'est pas la tête en bas.
+2. Nous devons déterminer quelle carte doit être tournée pour que la somme des nombres de la rangée du haut soit égale à la somme des nombres de la rangée du bas.
+3. En examinant les cartes, nous avons :
+   - 7 et 8
+   - 8 et 4
+   - 4 et 2
+   - 2 et 5
+   - 5 et ?
+
+4. Calculons la somme des nombres de chaque rangée du haut :
+   - 7 + 8 = 15
+   - 8 + 4 = 12
+   - 4 + 2 = 6
+   - 2 + 5 = 7
+
+5. La somme des nombres de la rangée du bas est :
+   - 7 + 4 + 2 + 5 = 18
+
+6. Pour que la somme des nombres de la rangée du haut soit égale à la somme des nombres de la rangée du bas, nous devons trouver un nombre qui, lorsqu'il est ajouté à 7, donne 18 :
+   - 18 - 7 = 11
+
+7. La carte qui a 11 comme nombre doit être la carte avec 5 et 11.
+
+Réponse : E

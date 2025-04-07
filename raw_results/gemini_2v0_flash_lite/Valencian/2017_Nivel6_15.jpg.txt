@@ -1,0 +1,58 @@
+Raonament:
+Analitzem els primers termes del numerador i del denominador:
+Numerador: 1 * 5 * 25, 2 * 10 * 50, 3 * 15 * 75, ...
+Denominador: 1 * 2 * 4, 2 * 4 * 8, 3 * 6 * 12, ...
+Podem observar que el numerador és 5² vegades el denominador.
+Si prenem el primer terme de cada suma:
+(1 * 5 * 25) / (1 * 2 * 4) = (1 * 5 * 5²) / (1 * 2 * 4)
+(2 * 10 * 50) / (2 * 4 * 8) = (2 * 2 * 5 * 5 * 2) / (2 * 4 * 8) = (2 * 5 * 5 * 2²) / (2 * 2 * 4)
+(3 * 15 * 75) / (3 * 6 * 12) = (3 * 3 * 5 * 3 * 5 * 5) / (3 * 6 * 12) = (3 * 3 * 5 * 3 * 5²) / (3 * 6 * 12)
+Si simplifiquem la fracció A, obtenim:
+A = (1 * 5 * 5² + 2 * 10 * 5² + 3 * 15 * 5² + ...) / (1 * 2 * 4 + 2 * 4 * 8 + 3 * 6 * 12 + ...)
+A = 5² * (1 * 1 * 1 + 2 * 2 * 2 + 3 * 3 * 3 + ...) / (1 * 2 * 4 + 2 * 4 * 8 + 3 * 6 * 12 + ...)
+A = 5²
+A = 25. Per tant A = X³
+X³ = 25
+X = ∛25
+L'anàlisi de l'expressió dona un valor de 25, que és el cub de 25, per tant X³ = 25
+Però l'expressió diu que A és el cub del nombre racional X, és a dir:
+A = X³
+Veiem que A és el quocient entre dues sèries que estan relacionades entre si amb un factor de 25.
+A = 25
+X³ = 25
+X = ∛25. Cap de les opcions.
+No hem de tenir en compte els termes que són 2017.
+
+Si A = 25 i A = X³
+X = √∛A
+Però el problema diu que A és el cub d'X, per tant A = X³
+A = (1 * 5 * 25 + 2 * 10 * 50 + 3 * 15 * 75 + ...) / (1 * 2 * 4 + 2 * 4 * 8 + 3 * 6 * 12 + ...)
+A = (1 * 5² + 2 * 2 * 5 * 5 * 2 + 3 * 3 * 5 * 3 * 5 ) / (1 * 2 * 4 + 2 * 4 * 8 + 3 * 6 * 12 )
+A = 5²
+A = 25.  A = X³  =>  X³ = 25,  X =  ∛25
+Però cap de les anteriors.
+Però si A = X³ i A = 25, aleshores X =  ∛25. Però cap de les opcions és correcta.
+
+A = (1*5*25)/(1*2*4) + (2*10*50)/(2*4*8) + ... = (1*5*5²+2*2*5*5*2+...)/(1*2*4+2*4*8...)
+A = 25[(1*2*4)+...]/(1*2*4+...)=25
+A = X³
+X³ = 25
+X = √∛25
+Si considerem un sol terme:
+(1 * 5 * 25) / (1 * 2 * 4)
+Si considerem el terme general
+n * 5n * 25n = 25 (n³), n*2n*4n = 8n³
+A = 25
+A=X³ -> X=25^(1/3) = ∛25
+A = 25, A = X³
+X³ = 25
+X=25^(1/3) que no està a la resposta
+La relació entre numeradors i denominadors és sempre 25.  Per tant, A = 25
+A = X³
+25=X³
+X = ∛25
+resposta no existent.
+L'expressió del numerador és 25 vegades més gran que l'expressió del denominador.
+A=25, X=2.924. Cap de les anteriors.
+
+Resposta: E)

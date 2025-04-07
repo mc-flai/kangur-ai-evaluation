@@ -1,0 +1,21 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre màxim de cordes que es poden dibuixar entre 2016 punts diferents en una circumferència, de manera que cada parell de punts estigui connectat per una corda.
+
+Raonament:
+1. Per a cada parell de punts en una circumferència, es pot dibuixar una corda.
+2. El nombre de parells possibles de 2016 punts es pot calcular utilitzant la fórmula de combinacions:
+   \[
+   \binom{n}{2} = \frac{n(n-1)}{2}
+   \]
+   on \( n \) és el nombre total de punts.
+3. Substituïm \( n = 2016 \):
+   \[
+   \binom{2016}{2} = \frac{2016 \times 2015}{2}
+   \]
+4. Calculem el valor:
+   \[
+   \frac{2016 \times 2015}{2} = \frac{4062120}{2} = 2031060
+   \]
+5. Com que el problema demana el nombre màxim de cordes que es poden dibuixar, i no el nombre total de combinacions, hem de tenir en compte que cada parell de punts es connecta amb una corda.
+6. El nombre màxim de cordes que es poden dibuixar és directament el nombre total de combinacions de parells de punts, que és 2031.
+
+Resposta: D) 4031.

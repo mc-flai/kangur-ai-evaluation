@@ -1,0 +1,11 @@
+Pour la question 8, nous devons déterminer le périmètre de la région grisée formée par quatre cercles de rayon 1 se coupant comme montré sur la figure.
+
+**Raisonnement :**
+1. Chaque cercle a un rayon de 1, donc le périmètre d'un cercle complet est \(2\pi\).
+2. La région grisée est formée par l'intersection de quatre cercles. Chaque intersection entre deux cercles forme un arc de 60 degrés (puisqu'ils se coupent de manière régulière).
+3. Il y a six intersections dans la région grisée (chaque segment grisé fait partie de deux cercles et il y a trois segments).
+4. Chaque arc de 60 degrés représente \(\frac{60}{360} = \frac{1}{6}\) du cercle complet.
+5. Le périmètre de chaque arc est donc \(\frac{1}{6} \times 2\pi = \frac{\pi}{3}\).
+6. Puisqu'il y a six arcs dans la région grisée, le périmètre total de la région grisée est \(6 \times \frac{\pi}{3} = 2\pi\).
+
+**Réponse :** E) \(w = 2\pi\).

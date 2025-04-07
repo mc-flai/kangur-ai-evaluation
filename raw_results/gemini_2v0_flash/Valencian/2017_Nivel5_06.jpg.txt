@@ -1,0 +1,25 @@
+Raonament: Sia a i b els costats d'un rectangle. El seu perimetre es P = 2a+2b. Se'ns diu que la suma de tres costats és 20 o 22. Llavors, tenim dues equacions possibles:
+1) a + a + b = 2a + b = 20
+2) a + b + b = a + 2b = 20
+O
+3) a + a + b = 2a + b = 22
+4) a + b + b = a + 2b = 22
+
+Si 2a+b = 20 i a+2b = 20, llavors 2a+b=a+2b, o a=b. Per tant, 3a = 20 i a = 20/3. Aleshores P = 2(20/3)+2(20/3) = 80/3 que no és una de les respostes.
+
+Si 2a+b = 20 i a+2b = 22, llavors podem resoldre el sistema:
+Multipliquem la primera equació per 2: 4a+2b = 40.
+Restem la segona equació: 4a+2b-(a+2b) = 40-22, llavors 3a = 18, a = 6.
+Si a = 6, llavors 2(6) + b = 20, 12 + b = 20, b = 8.
+El perimetre és P = 2(6) + 2(8) = 12 + 16 = 28.
+
+Si 2a+b = 22 i a+2b = 20, llavors 2a+b=22 o b=22-2a. a+2b=20 substituint a+2(22-2a)=20
+a+44-4a=20 o -3a=-24 o a=8. Substituint a+2b=20 tenim 8+2b=20 o 2b=12 o b=6.
+El perimetre es P = 2(8) + 2(6) = 16 + 12 = 28.
+
+Si 2a+b = 22 i a+2b = 22, llavors 2a+b = a+2b o a=b. Així 3a = 22 o a=22/3.
+Aleshores P = 2(22/3)+2(22/3) = 88/3 que no és una de les respostes.
+
+En qualsevol cas el perimetre és 28.
+
+Resposta: C)

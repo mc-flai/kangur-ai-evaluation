@@ -1,0 +1,13 @@
+**Razonamiento:** El triángulo equidistante de un ángulo de 45° puede formarse eligiendo tres vértices del equidistante. La cantidad de formas de elegir tres puntos de un total de $n$ puntos viene dada por la combinación de $C(n, 3)$ o equivalente, $\frac{n(n-1)(n-2)}{6}$. Así, $C(29, 3)=\frac{29 \cdot 28 \cdot 27}{6}$, es decir, hay 2436 triángulos que se pueden formar con 29 puntos en una circunferencia. Entre ellos, algunos serán equidistantes si los puntos elegidos son del tipo $(a, b, c \to c=a+1, b=a+2)$. En ese caso, tenemos $c - b = 1$, $c - a = 2$, $ba = 1$, lo que nos da:
+
+\begin{align*}|
+c-b &= c-a+1 \\|
+srael &= -1 \\|
+srael-2 &= -1 \\|
+srael &= -1
+\end{align*} 
+
+Por lo tanto, con los 29 señaladores del equidistante en la circunferencia, pueden formarse 8 cuadrados equidistantes. La pregunta consiste en encontrar todos los valores necesarios de tres puntos del equidistante, lo que nos dará el número de posibles cuadrados equidistantes:
+
+$$C(29, 3) - 8 = 3968 - 8 = 3960$$
+**Respuesta:** D) 3960

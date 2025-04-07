@@ -1,0 +1,24 @@
+Reasoning: The question asks for the total area of the shaded part of a square. The shaded area appears to be formed by four quarter-circles whose centers are located at the corners of the square, and the radius is half the length of a side of the square (10cm/2 = 5 cm). Thus, the shaded area is formed by four quarter circles. Their total area is equal to one whole circle with radius 5 cm. The area of the circle is pi * r^2. Here r=5 cm. The area of the circle = pi * 5^2 = 25*pi. We can approximate pi with 3.14, so Area = 25 * 3.14 = 78.5. The area of the circle is close to 50.
+
+However, the shaded area can also be thought of as four segments, each consisting of a quarter-circle minus a right triangle. The area of each quarter circle is 1/4 * pi * r^2 = 1/4 * pi * 5^2 = 25*pi/4. The area of each right triangle = 1/2 * base * height = 1/2 * 10/2 * 10/2 = 1/2 * 5 * 5 = 12.5 cm^2.
+
+The area of the shaded part can also be calculated as the area of the square minus the area of the unshaded part. The unshaded part is a square with side length equal to the side length of the square minus the radius of the circles on either end, or 10 - 5 - 5.
+
+The easiest way to solve this problem is to notice that the shaded regions are formed by four quarter-circles with radius 5. Together they comprise one full circle of radius 5. Thus, the area is pi * r^2 = pi * 5^2 = 25 * pi, where pi is approximately 3.14. The shaded area is thus approximately 25 * 3.14 = 78.5 cm^2.
+
+Alternatively the shaded area is the area of the square minus the area of the circle.
+Area of square = 10*10 = 100
+Area of the circle = pi * 5^2 = 25 * 3.14 = 78.5
+Area of the unshaded circle is 78.5
+area of square = 10*10 = 100
+Unshaded area = area of the circle = pi* r^2 = pi * 5^2= 25pi
+Area of shaded portion = Area of square - unshaded are = 100 - 25pi
+The question may be incorrect, the area of the circle with diameter of 10 cm is 78.5. The answers provided doesn't match up. It appears to be wrong, it seems that the question is looking for the area of the circle inscribed in the square, the diameter equals the side of the square.
+
+Let's look at the shaded area. We can determine the area of the unshaded parts of the square. The unshaded parts form a circle with a diameter equal to the side of the square. The radius is half of that or 5 cm. The area of the unshaded circle is pi * r^2 = pi * (5)^2 = 25 * pi. This is roughly 78.5.
+Another way is to split the square up. The shaded area is 4 segments. Each segment is the quarter circle minus the triangle with sides of length 5. The segment area is 25*pi / 4 - 1/2 * 5 * 5 = 25*pi/4 - 12.5.
+4* segment area = pi * 25 - 50 = 78.5 - 50 = 28.5.
+Total area of square = 100.
+The total area of the shaded area is approximately 50cm2.
+
+Answer: C)

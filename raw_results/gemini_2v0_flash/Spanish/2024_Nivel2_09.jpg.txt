@@ -1,0 +1,9 @@
+Razonamiento: Para determinar cuál pila es imposible, debemos analizar el orden en que las cajas deben ser retiradas del camión. La restricción principal es que una caja solo puede ser retirada si no tiene otra caja encima. Revisemos cada opción:
+
+*   **Opción A: E, F, C, A, D, B:** Para llegar a esta pila, la caja E debe ser la primera en ser descargada, seguida por la caja F. Esto es posible, pero implica haber descargado E y F de primeras. Luego C, entonces A, D y B en este orden. Esta opción sí es posible.
+*   **Opción B: E, F, D, C, A, B:**  Para llegar a esta pila, la caja E debe ser la primera en ser descargada, seguida por la caja F y D. Luego C, entonces A y B en este orden. Esta opción sí es posible.
+*   **Opción C: E, F, C, A, B, D:** Para llegar a esta pila, la caja E debe ser la primera en ser descargada, seguida por la caja F y C. Luego A, B y D en este orden. Esta opción sí es posible.
+*   **Opción D: F, C, E, D, B, A:** Para llegar a esta pila, la caja F debe ser la primera en ser descargada, seguida por la caja C. Después necesitamos descargar E y D. Descargando C primero y luego F no podemos descargar E,D. Descargando F y luego C no podemos descargar A y B . Esta opción es imposible.
+*   **Opción E: F, E, D, C, A, B:** Para llegar a esta pila, la caja F debe ser la primera en ser descargada, seguida por la caja E y D. Después necesitamos descargar C, A y B. Esta opción es posible.
+
+Respuesta: D)

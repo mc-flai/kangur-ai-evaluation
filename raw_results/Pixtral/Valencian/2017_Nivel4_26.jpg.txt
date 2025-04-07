@@ -1,0 +1,50 @@
+
+La pregunta solicita el número de pares \((x, y)\) que satisfacen la ecuación cuadrática \(xy + 4x - 13 = x^2\).
+
+**Razonamiento**:
+1. Primero, reescribimos la ecuación dada en una forma estándar de ecuación cuadrática:
+   \[
+   x^2 - xy - 4x + 13 = 0
+   \]
+
+2. Para resolver esta ecuación cuadrática, utilizamos la fórmula cuadrática:
+   \[
+   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+   \]
+   donde \(a = 1\), \(b = -y - 4\), y \(c = 13\).
+
+3. Calculamos el discriminante:
+   \[
+   b^2 - 4ac = (y + 4)^2 - 4 \cdot 1 \cdot 13 = y^2 + 8y + 16 - 52 = y^2 + 8y - 36
+   \]
+
+4. Para que haya soluciones reales, el discriminante debe ser no negativo:
+   \[
+   y^2 + 8y - 36 \geq 0
+   \]
+
+5. Resolvemos la desigualdad cuadrática:
+   \[
+   y^2 + 8y - 36 = 0
+   \]
+   Utilizando la fórmula para las raíces de una ecuación cuadrática:
+   \[
+   y = \frac{-8 \pm \sqrt{64 + 144}}{2} = \frac{-8 \pm \sqrt{208}}{2} = \frac{-8 \pm 4\sqrt{13}}{2} = -4 \pm 2\sqrt{13}
+   \]
+
+6. La desigualdad \(y^2 + 8y - 36 \geq 0\) se satisface para:
+   \[
+   y \leq -4 - 2\sqrt{13} \quad \text{o} \quad y \geq -4 + 2\sqrt{13}
+   \]
+
+7. Calculamos los valores de \(y\):
+   \[
+   -4 - 2\sqrt{13} \approx -4 - 5.2 \approx -9.2
+   \]
+   \[
+   -4 + 2\sqrt{13} \approx -4 + 5.2 \approx 1.2
+   \]
+
+8. Por lo tanto, \(y\) puede tomar valores en el intervalo \([-9.2, 1.2]\).
+
+**Respuesta**: C)

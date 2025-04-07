@@ -1,0 +1,15 @@
+Raonament:
+La pregunta ens planteja un problema de volums. Hem de calcular el volum d'una bola sòlida de 20 cm de diàmetre i el volum de la capa d'acer de les boles buides també de 20 cm de diàmetre i 1 cm de gruix. La divisió d'aquests dos volums ens donarà el número de boles buides necessàries per a fer la bola sòlida.
+
+Volum d'una esfera sòlida:  V = (4/3) * π * r³
+Volum bola sòlida amb diàmetre 20 cm (radi 10 cm): V_sòlida = (4/3) * π * (10 cm)³ = (4/3) * π * 1000 cm³
+
+Volum d'una bola buida (gruix 1cm): és la diferència entre el volum d'una esfera de radi 10 cm i el volum d'una esfera de radi 9 cm.
+V_buida = (4/3) * π * (10 cm)³ - (4/3) * π * (9 cm)³ = (4/3) * π * (1000 - 729) cm³ = (4/3) * π * 271 cm³
+
+Número de boles buides necessàries:
+n = V_sòlida / V_buida =  [(4/3) * π * 1000 cm³] / [(4/3) * π * 271 cm³] = 1000/271 ≈ 3.69
+
+Com que necessitem un número enter de boles, hem d'arrodonir cap amunt el valor 3.69, el que ens dona 4 boles.
+
+Resposta: B)

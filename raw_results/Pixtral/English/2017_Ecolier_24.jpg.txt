@@ -1,0 +1,17 @@
+To determine the number of Smileys Leonie has hidden, we need to analyze the grid and the numbers indicating the count of Smileys in neighboring boxes.
+
+First, let's break down the grid:
+- The grid is 4 rows by 4 columns.
+- The numbers in the grey boxes indicate the count of Smileys in neighboring boxes.
+
+Reasoning:
+1. The top-left grey box has the number 2. This means there are 2 Smileys in the neighboring boxes to its right and below.
+2. The top-right grey box has the number 3. This means there are 3 Smileys in the neighboring boxes to its left, above, and below.
+3. The middle-left grey box has the number 2. This means there are 2 Smileys in the neighboring boxes to its right and above.
+4. The middle-right grey box has the number 2. This means there are 2 Smileys in the neighboring boxes to its left and below.
+5. The bottom-left grey box has the number 1. This means there is 1 Smiley in the neighboring box to its right.
+6. The bottom-right grey box has the number 2. This means there are 2 Smileys in the neighboring boxes to its left and above.
+
+By counting the total number of Smileys indicated by the numbers in the grey boxes, we can determine the total number of Smileys hidden.
+
+Answer: E)

@@ -1,0 +1,17 @@
+Reasoning:
+We need to find the number of 3-digit numbers where adjacent digits differ by 3. Let the digits be $d_1, d_2, d_3$.
+$d_1$ can be any digit from 1 to 9. $d_2$ and $d_3$ can be any digit from 0 to 9. We must have $|d_1 - d_2| = 3$ and $|d_2 - d_3| = 3$.
+
+Case 1: $d_1 = 1$. Then $d_2 = 4$. Then $d_3 = 1, 7$. Numbers are 141, 147. (2 numbers)
+Case 2: $d_1 = 2$. Then $d_2 = 5$. Then $d_3 = 2, 8$. Numbers are 252, 258. (2 numbers)
+Case 3: $d_1 = 3$. Then $d_2 = 0, 6$. If $d_2 = 0$, then $d_3 = 3$. If $d_2 = 6$, then $d_3 = 3, 9$. Numbers are 303, 363, 369. (3 numbers)
+Case 4: $d_1 = 4$. Then $d_2 = 1, 7$. If $d_2 = 1$, then $d_3 = 4$. If $d_2 = 7$, then $d_3 = 4$. Numbers are 414, 474. (2 numbers)
+Case 5: $d_1 = 5$. Then $d_2 = 2, 8$. If $d_2 = 2$, then $d_3 = 5$. If $d_2 = 8$, then $d_3 = 5$. Numbers are 525, 585. (2 numbers)
+Case 6: $d_1 = 6$. Then $d_2 = 3, 9$. If $d_2 = 3$, then $d_3 = 0, 6$. If $d_2 = 9$, then $d_3 = 6$. Numbers are 630, 636, 696. (3 numbers)
+Case 7: $d_1 = 7$. Then $d_2 = 4$. Then $d_3 = 1, 7$. Numbers are 741, 747. (2 numbers)
+Case 8: $d_1 = 8$. Then $d_2 = 5$. Then $d_3 = 2, 8$. Numbers are 852, 858. (2 numbers)
+Case 9: $d_1 = 9$. Then $d_2 = 6$. Then $d_3 = 3, 9$. Numbers are 963, 969. (2 numbers)
+
+Total number of such integers = 2 + 2 + 3 + 2 + 2 + 3 + 2 + 2 + 2 = 20.
+
+Answer: D)

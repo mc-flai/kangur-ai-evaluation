@@ -1,0 +1,21 @@
+Reasoning: The goal is to find the balloon that Mia *definitely* hits. Let's try different combinations of balloons that add up to 30.
+- 18 + 9 + 3 = 30. This combination includes 18, 9, and 3.
+- 13 + 14 + 3 = 30. This combination includes 13, 14, and 3.
+- 9 + 13 + x doesn't equal 30 if x is one of the balloons
+- 13 + 14 + 3= 30.
+- 9 + 3 +18 =30
+
+We see that the only balloon that appears in every possible combination that adds to 30 is the '3' balloon. Let's test this out.
+
+If Mia didn't hit the '3' balloon, then let's see the combinations that can make up 30.
+
+18 + 14 is already 32 which is greater than 30.
+18 + 13 is also greater than 30.
+18+ 9 is 27
+14+ 13, 14+ 9, 13+9 doesn't sum to 30.
+
+However if we use two throws that will make up to 30, we can have 18+12(which we don't have), or if we don't have 3, then we can't get to 30 because none of the combination will result to 30.
+
+Therefore, if we choose any number of balloons, we'll see that to reach 30 definitely, Mia must hit balloon '3'.
+
+Answer: A)

@@ -1,0 +1,27 @@
+Razonamiento: En este problema, se nos pide encontrar el producto de todos los números de los círculos grises en este diagrama. Según lo visto en la imagen que representa el diagrama, está formado por hexágonos de los cuales, cada uno se divide en seis sinagones. En los ángulos de cada hexágono hay tres círculos, y en el centro, otro. Estos círculos están numerados. 
+
+Usando procesos de eliminación, se tiene que:
+
+a = 1, b = 3, c = 5, d = 7, e = 9, f = 11, g = 13, h = 15 y i = 17.
+
+i + a = 20
+f/g * a = 24
+f/a * h = 6
+g/d * e = 10
+
+Sustituyendo los valores de i, f, d, g, h, a y e que encontramos anteriormente, el anterior sistema de ecuaciones se transforma en las ecuaciones de la siguiente forma:
+
+16 = 20
+44/13 * 1 = 24
+12/1 * 15 = 6
+13-9 / 7 * 9 = 10
+
+Transformando 44/13*1 = 24 en 44/1 = 312, la segunda ecuación obtiene como termino una misma respuesta a la primera y tercera ecuaciones. Por lo tanto:
+
+16 = 20
+44 = 1
+12/1 * 15 = 6
+13 / 7 * 9 = 10
+
+La solución es c) 80.  
+Respuesta: C)

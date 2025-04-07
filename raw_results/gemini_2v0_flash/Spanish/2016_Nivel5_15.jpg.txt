@@ -1,0 +1,16 @@
+Razonamiento:
+El problema indica que el cuadrado es mágico multiplicativo, es decir, el producto de los números en cada fila, columna y diagonal debe ser el mismo.
+Los números disponibles son 1, 2, 4, 5, 10, 20, 25, 50 y 100. El producto debe ser una cantidad que se pueda obtener multiplicando tres de estos números.
+En el cuadrado, tenemos 20 y 1 en la primera fila. Si llamamos "x" al número que falta en la primera fila, el producto de la primera fila será 20 * 1 * x = 20x.
+Debemos encontrar un valor de x entre las opciones dadas, que al multiplicarlo por 20, el resultado se pueda obtener multiplicando otros tres números de la lista.
+Si x = 5, entonces el producto de la primera fila es 20 * 1 * 5 = 100.
+Si elegimos un número entre 1, 2, 4, 5, 10, 20, 25, 50, 100, podemos buscar otros dos números de la lista cuyo producto también sea 100.
+Por ejemplo, para obtener 100:
+1 * 100 = 100
+2 * 50 = 100
+4 * 25 = 100
+5 * 20 = 100
+10 * 10 = 100
+También debemos considerar la condición que el número 5 debe estar en la lista.
+
+Respuesta: C)

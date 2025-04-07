@@ -1,0 +1,7 @@
+Raonament:
+Primer reescrivim $20^{20}$ com $(2 \times 10)^{20}=2^{20} \times 10^{20}$. Sabem que $2^{10} \approx 10^3$, per tant, $2^{20} = (2^{10})^2 \approx (10^3)^2 = 10^6$.
+Aleshores, $20^{20} \approx 10^6 \times 10^{20} = 10^{26}$. Això vol dir que el número $20^{20}$ té aproximadament 27 xifres.
+Més formalment, calculem $\log_{10} 20^{20} = 20 \log_{10} 20 = 20 (\log_{10} 2 + \log_{10} 10) = 20(\log_{10} 2 + 1) \approx 20(0.30103 + 1) = 20 \times 1.30103 = 26.0206$.
+Per tant, el nombre de xifres és $\lfloor 26.0206 \rfloor + 1 = 26 + 1 = 27$.
+
+Resposta: D)

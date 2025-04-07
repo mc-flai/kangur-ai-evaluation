@@ -1,0 +1,76 @@
+Raonament: El gos camina tres vegades més ràpid que el gat. Per tant, per cada unitat de distància que recorre el gat, el gos en recorre 3.
+
+Comptem la distància que recorre el gat des de Q fins a A, B, C, D i E.
+- Q a A: 5 unitats
+- Q a B: 6 unitats
+- Q a C: 7 unitats
+- Q a D: 9 unitats
+- Q a E: 8 unitats
+
+Ara comptem la distància que recorre el gos des de P fins a A, B, C, D i E.
+- P a A: 9 unitats
+- P a B: 12 unitats
+- P a C: 2 unitats
+- P a D: 4 unitats
+- P a E: 6 unitats
+
+Si el gos camina tres vegades més ràpid, quan el gat recorri x unitats, el gos recorrerà 3x unitats. Per trobar-se en un punt donat, les distàncies recorregudes han de complir aquesta relació.
+
+Si es troben a A:
+Distància del gat (Q a A): 5
+Distància del gos (P a A): 9
+Relació: 9 no és 3*5 = 15
+
+Si es troben a B:
+Distància del gat (Q a B): 6
+Distància del gos (P a B): 12
+Relació: 12 no és 3*6 = 18
+
+Si es troben a C:
+Distància del gat (Q a C): 7
+Distància del gos (P a C): 2
+Relació: 2 no és 3*7 = 21
+
+Si es troben a D:
+Distància del gat (Q a D): 9
+Distància del gos (P a D): 4
+Relació: 4 no és 3*9 = 27
+
+Si es troben a E:
+Distància del gat (Q a E): 8
+Distància del gos (P a E): 6
+Relació: 6 no és 3*8 = 24
+
+Revisant les distàncies:
+Q a A: 5, P a A: 9. No funciona (3*5 = 15 != 9)
+Q a B: 6, P a B: 12. No funciona (3*6 = 18 != 12)
+Q a C: 7, P a C: 2. No funciona (3*7 = 21 != 2)
+Q a D: 9, P a D: 4. No funciona (3*9 = 27 != 4)
+Q a E: 8, P a E: 6. No funciona (3*E = 3*8 = 24 != 6
+
+He comès un error. El gos ha de recórrer tres vegades la distància que recorre el gat. El gos ha d'avançar més ràpid.
+Del gat: Q a E = 8
+Del gos: P a E = 6
+Si dividim la distància del gat entre tres: 8 / 3 = 2.66 i no ens dona la distància del gos, 6. Per tant tampoc E pot ser la resposta.
+
+Si caminés a la inversa: El gat va tres vegades més lent que el gos: Per tant, si el gos recorre 3, el gat recorre 1.
+
+P a C: 2. Gat a Q= 7. 3 * 2 != 7.
+
+P a E = 6; Q a E = 8. 3 * 6 = 18 != 8.
+Considerem per una altra banda que "tres vegades més ràpid" significa "quatre vegades".
+Quan el gos recorrè 3 vegades una distància, es trobarà amb el gat.
+Distància Q= 5, 6, 7, 9, 8.
+Distancia P=9, 12, 2, 4, 6.
+
+El problema és que si el gos és tres vegades més ràpid, el gat ha de recórrer molt més que el gos, i això no pot ser.
+És a dir, el gos va molt més ràpid... Podria haver una errata en el problema? Està clar que amb la informació donada, sembla que no hi ha solució possible. Tornem a intentar.
+
+Considerem E: QE = 8; PE = 6. Si PE*3 = 6*3 = 18 != 8.
+
+Si no fos en direccions oposades?
+Si fossin en la mateixa direcció?
+
+Raonament: Després d'examinar acuradament el problema i la imatge, i de provar diverses interpretacions de la frase "el gos camina tres vegades més ràpid que el gat", no he pogut trobar una resposta que encaixi amb les condicions donades. Podria haver-hi un error en l'enunciat del problema o en la imatge. Si el gos fos tres vegades més ràpid que el gat, es trobarien en un punt proper a P, ja que el gos recorreria una distància molt més gran en el mateix temps.
+
+Resposta: Cap de les opcions donades sembla correcta basant-se en la informació proporcionada i les interpretacions raonables del problema.

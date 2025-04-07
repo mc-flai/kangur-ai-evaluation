@@ -1,0 +1,25 @@
+La pregunta 4 involucra una seqüència de nombres que segueix un patró específic. Els nombres estan en format de dos dígits, on el primer dígit és un nombre entre 1 i 100 i el segon dígit és 2018 o 2017. La seqüència és:
+
+\[ 1^{2018} + 2^{2017}, 2^{2018} + 3^{2017}, 3^{2018} + 4^{2017}, \ldots, 99^{2018} + 100^{2017}, 100^{2018} + 101^{2017} \]
+
+La pregunta és si aquesta seqüència segueix el patró \( n^{2018} + (n+1)^{2017} \).
+
+**Razonamiento:**
+
+1. Observa els primers termes de la seqüència:
+   - El primer terme és \( 1^{2018} + 2^{2017} \).
+   - El segon terme és \( 2^{2018} + 3^{2017} \).
+   - El tercer terme és \( 3^{2018} + 4^{2017} \).
+
+2. Cada terme segueix el patró \( n^{2018} + (n+1)^{2017} \), on \( n \) és el primer dígit del terme.
+
+3. Per verificar si la seqüència segueix aquest patró, comprova els termes successius:
+   - \( 1^{2018} + 2^{2017} = 1 + 2 = 3 \).
+   - \( 2^{2018} + 3^{2017} = 2 + 3 = 5 \).
+   - \( 3^{2018} + 4^{2017} = 3 + 4 = 7 \).
+
+4. Cada terme següent segueix el mateix patró, on el primer dígit incrementa en 1 i el segon dígit incrementa en 1.
+
+5. Com a resultat, la seqüència segueix el patró \( n^{2018} + (n+1)^{2017} \) per a tots els termes.
+
+**Respuesta:** C) Més de la meitat

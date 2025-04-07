@@ -1,0 +1,17 @@
+Razonamiento: El polinomio es de grado 5, por lo que tiene 5 raíces. Además, sabemos que todas las raíces son enteras. Si queremos encontrar la potencia más alta de (x-1) que divide al polinomio, esto es equivalente a encontrar la multiplicidad de la raíz x=1.
+El polinomio se puede escribir como P(x) = (x-r1)(x-r2)(x-r3)(x-r4)(x-r5), donde r1, r2, r3, r4, r5 son las raíces.
+
+P(0) = (-r1)(-r2)(-r3)(-r4)(-r5) = -7.
+Esto implica que el producto de las raíces es 7, y como las raíces son enteras, las posibilidades para las raíces son 1, -1, 7, -7. Como el producto de las raíces es 7, un número primo, solo hay unas pocas posibilidades.
+
+Sabemos que P(1) = 1 - 11 +  * + -7 = 0, si (x-1) es un factor. En otras palabras, x=1 es una de las raíces.
+Además, notemos que P(x) puede ser reescrito como P(x) = x^5 - 11x^4 + ax^3 + bx^2 + cx - 7.
+Como el producto de las raíces debe ser 7, y las raíces son números enteros, podemos tener (1,1,1,1,7) , (1, 1, 1, -1, -7) o (-1, -1, -1, -1, 7) como conjuntos de raíces o alguna combinación de los mismos.
+
+La suma de las raíces es igual a -(-11)/1 = 11.
+
+Si las raíces son (1,1,1,1,7), su suma es 1+1+1+1+7 = 11. Esto cumple la condición de la suma de las raíces.
+Por lo tanto, las raíces son (1,1,1,1,7). Entonces, P(x) = (x-1)^4 (x-7).
+La potencia más alta de (x-1) que divide al polinomio es 4.
+
+Respuesta: D)

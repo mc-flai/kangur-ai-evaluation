@@ -1,0 +1,18 @@
+Pour déterminer quelle lettre représente le chiffre dans l'addition donnée, analysons l'addition et le schéma fourni :
+
+```
++ Z Y X
+   T T T T
+```
+
+Analysons chaque colonne de droite à gauche :
+
+- Dans la colonne des unités (droite), X + T donne un résultat dont l'unité est T et de plus une retenue. Étant donné que T + X donne T et une retenue, cela suggère que X = 0 et T = 1.
+- Dans la colonne suivante (dizaine), Y + T + retenue (qui est 1) donne T. Donc, Y + 1 + 1 = 1, ce qui signifie Y = 0 - 1 - 1 = 9.
+- Dans la colonne suivante (centaine), Z + T + retenue (qui est 1) donne T. Donc, Z + 1 + 1 = 1, ce qui signifie Z = 0 - 1 - 1 = 8.
+
+Ainsi, la lettre Y représente le chiffre 9.
+
+Raisonnement : En analysant les colonnes de droite à gauche et en utilisant les retenues, nous déduisons que Y représente le chiffre 9.
+
+Réponse : E) 6.

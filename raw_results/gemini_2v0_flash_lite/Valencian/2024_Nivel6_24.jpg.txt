@@ -1,0 +1,6 @@
+Raonament:
+Sia 'n' el nombre de daus. La probabilitat que només isca un 12 és (1/12)^n, ja que per a cada dau la probabilitat que isca un 12 és 1/12, i per a que "només" isca un 12, hem de suposar que la resta de daus no treuen 12 (11/12). La probabilitat que no isca cap 12 és (11/12)^n, ja que per a cada dau, la probabilitat de no treure 12 és 11/12. Sabem que aquestes dues probabilitats són iguals:
+(1/12)^n = (11/12)^n
+L'única forma que aquesta equació siga veritat és si n = 0, però en aquest cas no tindria cap dau. No obstant, la probabilitat que no isca cap 12 significa que cap dau treu 12. Això implica que per a cada dau, hi ha 11 possibilitats de no treure 12 (dels 12 cares). Per tant, si "n" és el nombre de daus, la probabilitat que cap dau trega 12 és (11/12)^n. D'altra banda, la probabilitat que només un dau trega 12 és, (n) * (1/12) * (11/12)^(n-1). Per tant, l'enunciat estableix que (11/12)^n = (n) * (1/12) * (11/12)^(n-1) , simplificant obtenim: 11/12 = n/12, per tant, n=11.
+
+Resposta: D)

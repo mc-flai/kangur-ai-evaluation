@@ -1,0 +1,44 @@
+Raonament:
+Considerem els nombres de l'interval [1000, 1999]. Hem de buscar aquells nombres que, en eliminar una xifra, el nombre resultant sigui un divisor del nombre original. Analitzem alguns exemples i busquem un patró:
+
+*   Si treiem el '0' de 1000 (eliminant el primer 0), obtenim 100, que és divisor de 1000.
+*   Si treiem el '1' de 1000, obtenim 000 (0), que és divisor de 1000.
+*   Per a 1001: Eliminant el primer 0, obtenim 101, que no és divisor de 1001. Eliminant el segon 0 obtenim 101, tampoc.
+*   Per a 1110: eliminant el primer 1, obtenim 110, que no és divisor de 1110. Eliminant el segon 1, obtenim 110, tampoc. Eliminant el '0' obtenim 111, que no és divisor de 1110.
+
+Si ens centrem en el número 1111, veiem que eliminar qualsevol 1 ens deixa 111, que no és divisor.
+
+Si ens fixem en el número 1110, al treure el 0, tenim 111, que no és divisor. Si treiem el 1, tenim 110, que tampoc ho és.
+
+Si el nombre és un nombre de la forma 1000, eliminant qualsevol 0 tenim 100, 10, 1, divisors de 1000.
+Si tenim 1100, si eliminem qualsevol 0 tenim 110, 11, divisors de 1100. Si eliminem l'1, 00.
+
+Considerem nombres de la forma 1a0b. Si eliminem el '0' del mig tenim 1ab. 1000. 1000 no serveix ja que 100, 10, 1 són divisors. 1110, el 111 es pot obtenir, no és divisor.
+Si eliminem el primer '1', tenim 0ab, que no serveix.
+
+Aquests nombres són aquells de la forma 1000, 2000, ... 9000 però estem entre 1000 i 1999.
+Podem considerar 1111. Si treiem un 1, obtenim 111, que no és divisor.
+1200, 120, 12.
+Si tenim un nombre de la forma 1aa0, on 'a' és una xifra. Si eliminem el 0, tenim 1aa. 1220/122. Si eliminem el primer 'a', tenim 100, i si eliminem el 0, 110.
+
+Si el nombre original té la forma 1100, 110, 11. El primer cas 100, el segon cas 110, el tercer cas 11. El nombre pot ser 1100. Si eliminem 1 (100). 1100/100 = 11, que es divisor. 1100/110= 10. 1100/11= 100.
+
+Per tant, els nombres que compleixen la condició són de la forma 1100, 1200, ..., 1900, però només hem de tenir en compte aquells que estan en l'interval [1000, 1999]. 1100. 1200.
+Si treiem el '0' tindrem 110, 120, 130, ..., 190.
+1100: 110, 100, 11.
+1200: 120, 12, 200.
+1110.
+
+Els nombres són:
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+1800
+1900
+Un total de 9 nombres.
+
+Resposta: B)

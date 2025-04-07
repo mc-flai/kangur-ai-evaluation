@@ -1,0 +1,12 @@
+Raonament: El problema descriu un patró on a la caixa $n$ s'introdueixen $n$ pilotes. Les pilotes a la caixa $n$ tenen nombres consecutius. L'últim nombre de pilota introduït a la caixa $n$ és la suma dels primers $n$ nombres naturals.
+
+L'últim nombre de la caixa $n$ és $\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$. Volem trobar $n$ tal que $\frac{n(n+1)}{2} \ge 2018$.
+Si $n=60$, $\frac{60(61)}{2} = 30(61) = 1830$.
+Si $n=63$, $\frac{63(64)}{2} = 63(32) = 2016$.
+Si $n=64$, $\frac{64(65)}{2} = 32(65) = 2080$.
+
+Per tant, l'última pilota a la caixa 63 és 2016. Això vol dir que les pilotes a la caixa 63 tenen els números 1954 a 2016.
+La caixa 64 té 64 pilotes, i els seus nombres van de 2017 a 2080.
+Com que 2018 està entre 2017 i 2080, la pilota número 2018 estarà a la caixa 64.
+
+Resposta: D)

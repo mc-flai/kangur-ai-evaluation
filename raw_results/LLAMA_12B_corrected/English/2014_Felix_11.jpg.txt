@@ -1,0 +1,23 @@
+Reasoning: **Step 1: Identify the numbers that are larger than 10 and smaller than 32, which also contain digits 1, 2 or 3.**
+
+Since we need to find numbers containing the digits 1, 2, or 3 that are bigger than 10 but smaller than 32, let's consider the possible combinations:
+
+*   Any number starting with 1 can be from 11 to 13.
+*   Any number starting with 2 can be from 21 to 23.
+*   Any number starting with 3 can be from 31 to 33.
+
+**Step 2: Determine the possible number of numbers for each starting digit.**
+
+*   For numbers starting with 1, there are 3 possible digits (1, 2, and 3) to choose from for the second and third digits, making a total of 3 \* 3 = 9 possible numbers (111 to 133).
+*   For numbers starting with 2, similarly, there are 3 possible digits for the second and third digits, giving us 9 possible numbers (211 to 233).
+*   For numbers starting with 3, the same logic applies, yielding 9 possible numbers (311 to 333).
+
+**Step 3: Sum up the possible numbers from all starting digits.**
+
+Adding the possible numbers from all three starting digits gives us a total of 9 + 9 + 9 = 27.
+
+**Conclusion**
+
+Considering the condition that the numbers must contain the digits 1, 2, or 3 and be larger than 10 and smaller than 32, the correct answer is option A) 27. 
+
+Answer: A)

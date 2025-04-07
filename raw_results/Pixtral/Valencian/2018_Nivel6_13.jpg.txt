@@ -1,0 +1,35 @@
+
+La pregunta 13 nos pide encontrar el número entero positivo \( N \) tal que sus divisores que son números enteros positivos, incluyendo 1 y \( N \), tienen un producto de cinco que es igual a 648. Luego, debemos determinar cuántos números enteros positivos son divisores de \( N \).
+
+**Razonamiento:**
+1. Identificar los divisores de \( N \) que son números enteros positivos.
+2. El producto de estos divisores debe ser igual a 648.
+3. El producto de los divisores de un número \( N \) es igual al número \( N \) elevado a la potencia de \( (N-1)/2 \) si \( N \) es un número perfecto.
+4. Considerar los factores primos de 648 para encontrar posibles valores de \( N \).
+
+Factorización de 648:
+\[ 648 = 2^3 \times 3^4 \]
+
+5. Buscar un número \( N \) tal que sus divisores den un producto de 648.
+6. Considerar los números que tienen divisores que multiplicados dan 648.
+
+Pruebas:
+- Para \( N = 12 \):
+  Divisores: 1, 2, 3, 4, 6, 12
+  Producto: \( 1 \times 2 \times 3 \times 4 \times 6 \times 12 = 144 \) (no es 648)
+
+- Para \( N = 16 \):
+  Divisores: 1, 2, 4, 8, 16
+  Producto: \( 1 \times 2 \times 4 \times 8 \times 16 = 256 \) (no es 648)
+
+- Para \( N = 24 \):
+  Divisores: 1, 2, 3, 4, 6, 8, 12, 24
+  Producto: \( 1 \times 2 \times 3 \times 4 \times 6 \times 8 \times 12 \times 24 = 648 \) (es 648)
+
+Por lo tanto, \( N = 24 \) es el número que cumple con la condición.
+
+7. Contar los divisores de \( N = 24 \):
+  Divisores: 1, 2, 3, 4, 6, 8, 12, 24
+  Número de divisores: 8
+
+**Respuesta:** D)

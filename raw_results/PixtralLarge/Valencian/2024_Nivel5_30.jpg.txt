@@ -1,0 +1,88 @@
+**Raonament**:
+
+Per determinar l'àrea del triangle \(OPQ\) amb vèrtexs \(O=(0,0)\), \(P=(m,n)\) i \(Q=(n,m)\), podem utilitzar la fórmula de l'àrea d'un triangle donats els seus vèrtexs \((x_1, y_1)\), \((x_2, y_2)\) i \((x_3, y_3)\):
+
+\[
+\text{Àrea} = \frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|
+\]
+
+Substituint els valors dels vèrtexs \(O, P\) i \(Q\):
+
+\((x_1, y_1) = (0, 0)\)
+\((x_2, y_2) = (m, n)\)
+\((x_3, y_3) = (n, m)\)
+
+L'expressió de l'àrea esdevé:
+
+\[
+\text{Àrea} = \frac{1}{2} \left| 0(n - m) + m(m - 0) + n(0 - n) \right|
+\]
+
+Simplificant:
+
+\[
+\text{Àrea} = \frac{1}{2} \left| m^2 - n^2 \right|
+\]
+
+Com que \(m^2 - n^2\) pot ser positiu o negatiu, el valor absolut garanteix que l'àrea és positiva. Ara, el problema ens indica que l'àrea del triangle és 2024, per tant:
+
+\[
+\frac{1}{2} \left| m^2 - n^2 \right| = 2024
+\]
+
+Multiplicant ambdós costats per 2:
+
+\[
+\left| m^2 - n^2 \right| = 4048
+\]
+
+Per tant, \(m^2 - n^2 = 4048\) o \(m^2 - n^2 = -4048\).
+
+Considerant nombres enters amb \(0 < m < n\), la diferència \(m^2 - n^2\) serà negativa. Així, busquem una parella \((m, n)\) que satisfaci:
+
+\[
+m^2 - n^2 = -4048
+\]
+
+Podem reescriure:
+
+\[
+n^2 - m^2 = 4048
+\]
+
+Això es pot factoritzar com:
+
+\[
+(n - m)(n + m) = 4048
+\]
+
+En buscar factors de 4048, considerem que \(n\) i \(m\) són nombres enters i que \(0 < m < n\). Els factors de 4048 que satisfan aquesta condició són 12 i 338. Per tant:
+
+\[
+n - m = 12 \quad \text{i} \quad n + m = 338
+\]
+
+Resolent aquest sistema d'equacions:
+
+\[
+\begin{cases}
+n - m = 12 \\
+n + m = 338
+\end{cases}
+\]
+
+Sumant les dues equacions:
+
+\[
+2n = 350 \implies n = 175
+\]
+
+Substituint \(n\) en la primera equació:
+
+\[
+175 - m = 12 \implies m = 163
+\]
+
+Així, \((m, n) = (163, 175)\) satisfà la condició que l'àrea del triangle \(OPQ\) sigui igual a 2024.
+
+**Resposta**: E) 12.

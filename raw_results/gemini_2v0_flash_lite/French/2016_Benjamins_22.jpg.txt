@@ -1,0 +1,12 @@
+Raisonnement : La question porte sur les dates du XXIe siècle, c'est-à-dire les années 2001 à 2100. Une date surprenante est une date où les 8 chiffres sont différents. Le format est JJ.MM.AAAA.
+- L'année commence toujours par 20.
+- On a le choix du jour (JJ) et du mois (MM) donc il faut des mois à un seul chiffre (1 à 9) et 10, 11, 12. Le mois ne peut donc pas être 0.
+- Si le mois est de 1 à 9, le jour doit être de 10 à 12 pour avoir des chiffres différents. Le jour commence par 1. On a donc: 1.0X.20Y (avec X,Y différents et différents de 0,1,2), cela donne 1 date (1.03.204).
+- Si le mois est de 10 à 12, le jour doit être de 1 à 9 pour avoir des chiffres différents. On ne peut pas avoir de jour qui commence par 0.
+- 1.10.20XX ne fonctionne pas. 01/11 ne fonctionne pas. 01/12 ne fonctionne pas. On a deux dates: 10.0X.20Y et 11.0X.20Y avec X et Y différent. On peut avoir le 10.03.204.
+- On a le 01/03/20XX, le 01/04/20XX, le 01/05/20XX, le 01/06/20XX, le 01/07/20XX, le 01/08/20XX, le 01/09/20XX.
+- On peut avoir le 02/01/2034, 03/01/2024.
+- Il n'y a que deux possibilités de dates : 01/03/2045 et 01/04/2035.
+- Donc deux dates avec tous les chiffres différents.
+
+Réponse : B)

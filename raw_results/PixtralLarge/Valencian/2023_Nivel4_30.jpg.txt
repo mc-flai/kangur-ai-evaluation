@@ -1,0 +1,22 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre de maneres diferents de pujar una escala de 8 esglaons, on es poden pujar 1 o 2 esglaons cada vegada. Això és un problema clàssic de combinatòria i es pot resoldre mitjançant el concepte de nombres de Fibonacci.
+
+**Raonament:**
+
+1. **Definició del problema**: Cada vegada que puja l'escala, hi ha dues opcions: pujar 1 esglaó o pujar 2 esglaons. Aquesta decisió es repeteix fins que s'arriba al vuitè esglaó.
+2. **Nombres de Fibonacci**: La quantitat de maneres de pujar una escala de n esglaons, on es poden fer passos de 1 o 2 esglaons, és el n-èsim nombre de la seqüència de Fibonacci.
+3. **Càlcul**:
+   - Els primers nombres de Fibonacci són: F(1) = 1, F(2) = 1.
+   - La fórmula general per als nombres de Fibonacci és: F(n) = F(n-1) + F(n-2).
+   - Per trobar F(8), calcula els valors anteriors:
+     - F(3) = F(2) + F(1) = 1 + 1 = 2
+     - F(4) = F(3) + F(2) = 2 + 1 = 3
+     - F(5) = F(4) + F(3) = 3 + 2 = 5
+     - F(6) = F(5) + F(4) = 5 + 3 = 8
+     - F(7) = F(6) + F(5) = 8 + 5 = 13
+     - F(8) = F(7) + F(6) = 13 + 8 = 21
+
+4. **Conclusió**: El nombre de maneres de pujar una escala de 8 esglaons pujant 1 o 2 esglaons cada vegada és F(8) = 21.
+
+D'acord amb les opcions donades, la més propera a 21 és 19, ja que no hi ha una opció directament correcta.
+
+**Resposta:** B) 19

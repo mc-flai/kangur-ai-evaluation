@@ -1,0 +1,22 @@
+Razonamiento: El problema indica que un número N es divisible por todos los enteros del 2 al 11, excepto por dos. Buscamos una pareja de números que no puedan ser divisores de N. Si analizamos cada opción:
+
+A) 2 y 3: Si N no es divisible por 2 y 3, podría ser, por ejemplo, 5.
+B) 4 y 5: Si N no es divisible por 4 y 5, podría ser, por ejemplo, 6.
+C) 6 y 7: Si N no es divisible por 6 y 7, podría ser, por ejemplo, 10.
+D) 7 y 8: Si N no es divisible por 7 y 8, podría ser, por ejemplo, 10.
+E) 10 y 11: Si N no es divisible por 10 y 11, podría ser, por ejemplo, 12.
+
+En el resto de los números 2 al 11, el número N debe ser divisible. Vamos a ver si en todas las opciones se pueden verificar los números que no son divisibles.
+En la opción A) 2 y 3, el número N podría ser 28, 35... que no son divisibles por 2 y 3.
+En la opción B) 4 y 5, el número N podría ser 6, 7, 8, 9... que no son divisibles por 4 y 5.
+En la opción C) 6 y 7, el número N podría ser 10, 12, 14... que no son divisibles por 6 y 7.
+En la opción D) 7 y 8, el número N podría ser 10, 12, 14... que no son divisibles por 7 y 8.
+En la opción E) 10 y 11, el número N podría ser 12, 14, 16... que no son divisibles por 10 y 11.
+Analizando las opciones, si descartamos 10 y 11 (opción E), N tendría que ser divisible por 10, lo que implica que también tiene que ser divisible por 2 y 5. Esto quiere decir que si no es divisible por 10 y 11, puede ser un valor tal como 12 (pero tendría que ser divisible por 2, 3, 4, 6, 8, 9), o 13.
+Si N no es divisible por 10 y 11, debe ser divisible por 2, 3, 4, 5, 6, 7, 8, 9. El mínimo común múltiplo de 2, 3, 4, 5, 6, 7, 8, 9 es 2520.
+Si N es divisible por 2, 3, 4, 5, 6, 7, 8, 9, el número N es divisible por 10 y 11.
+
+La opción correcta es E, ya que si excluimos 10 y 11, no es necesario que N sea divisible por 2 y 5 (porque 10 = 2 * 5).
+La opción E es la única que permite que N no sea divisible ni por 10 ni por 11, ya que no necesariamente tendría que ser divisible por 2, 5 ni por 11.
+
+Respuesta: E)

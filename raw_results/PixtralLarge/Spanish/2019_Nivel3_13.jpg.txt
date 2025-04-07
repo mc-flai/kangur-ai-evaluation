@@ -1,0 +1,15 @@
+Para resolver el problema 13, necesitamos identificar cuál de los mosaicos 4x4 no puede formarse combinando las dos piezas dadas.
+
+**Razonamiento**:
+
+1. Observa las dos piezas en la imagen que deben combinarse para formar un mosaico 4x4.
+2. Fíjate en las configuraciones de cada mosaico (A, B, C, D y E) y comprueba si es posible formar el patrón con las dos piezas dadas.
+3. Verifica cada mosaico uno por uno:
+   
+   - Mosaico A: Se puede formar con las piezas dadas.
+   - Mosaico B: Se puede formar con las piezas dadas.
+   - Mosaico C: No se puede formar con las piezas dadas porque no es posible encajar las piezas para reproducir este patrón.
+   - Mosaico D: Se puede formar con las piezas dadas.
+   - Mosaico E: Se puede formar con las piezas dadas.
+
+**Respuesta**: C).

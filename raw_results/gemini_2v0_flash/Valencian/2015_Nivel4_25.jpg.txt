@@ -1,0 +1,9 @@
+Raonament:
+L'altura del "triangle" és igual a 2. Aquesta altura està formada per:
+- El diàmetre del cercle de la base (2r).
+- La distància entre el centre del cercle de la base i el centre del cercle superior. Aquesta distància és igual a `r * sqrt(3)`.
+- El radi del cercle superior (r).
+
+Per tant, 2 = 2r + r*sqrt(3). Factoritzant, 2 = r(2 + sqrt(3)). Aïllant r, tenim que r = 2 / (2 + sqrt(3)).
+
+Resposta: C)

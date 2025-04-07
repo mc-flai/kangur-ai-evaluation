@@ -1,0 +1,27 @@
+Per resoldre aquesta pregunta, hem de determinar el resultat de dividir l'àrea de la zona ombrejada a la figura per l'àrea de l'octàgon regular.
+
+**Raonament**:
+1. **Entendre l'octàgon regular**:
+   - Un octàgon regular pot ser dividit en 8 triangles isòsceles congruents.
+   - Si l'octàgon té costat \(a\), l'àrea d'un triangle isòsceles (amb angle de 45 graus al vèrtex) és:
+     \[
+     \text{Àrea del triangle} = \frac{1}{2} a^2 \sin(45^\circ) = \frac{1}{2} a^2 \cdot \frac{\sqrt{2}}{2} = \frac{\sqrt{2}}{4} a^2
+     \]
+   - L'àrea total de l'octàgon és:
+     \[
+     \text{Àrea de l'octàgon} = 8 \cdot \frac{\sqrt{2}}{4} a^2 = 2 \sqrt{2} a^2
+     \]
+
+2. **Determinar l'àrea de la zona ombrejada**:
+   - La zona ombrejada és un paral·lelogram formada per dos triangles congruents de l'octàgon.
+   - L'àrea del paral·lelogram és el doble de l'àrea d'un triangle:
+     \[
+     \text{Àrea del paral·lelogram} = 2 \cdot \frac{\sqrt{2}}{4} a^2 = \frac{\sqrt{2}}{2} a^2
+     \]
+
+3. **Calcular el resultat de dividir l'àrea de la zona ombrejada per l'àrea de l'octàgon**:
+   \[
+   \text{Resultat} = \frac{\frac{\sqrt{2}}{2} a^2}{2 \sqrt{2} a^2} = \frac{\frac{\sqrt{2}}{2}}{2 \sqrt{2}} = \frac{1}{4}
+   \]
+
+**Resposta**: B) \(\frac{1 + \sqrt{2}}{4}\)

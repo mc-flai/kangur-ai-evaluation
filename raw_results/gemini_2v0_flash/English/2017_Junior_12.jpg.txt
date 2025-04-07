@@ -1,0 +1,13 @@
+Reasoning:
+We are looking for positive whole numbers $n$ such that exactly one of $n$ and $n+20$ has four digits.
+Case 1: $n$ has 3 digits and $n+20$ has 4 digits. This means that $n < 1000$ and $n+20 \geq 1000$. Thus $n \geq 1000-20 = 980$. So $n$ can be $980, 981, \dots, 999$. There are $999 - 980 + 1 = 20$ such numbers.
+Case 2: $n$ has 4 digits and $n+20$ has 5 digits. This means that $n \geq 1000$ and $n+20 \geq 10000$. Thus $n < 10000-20 = 9980$. Since $n$ has 4 digits, we have $n \leq 9999$. Thus $n$ can take the values from $9980$ to $9999$, inclusive, i.e., $9980 \leq n \leq 9999$. We need $n+20$ to have five digits, which means $n+20 \geq 10000$, i.e., $n \geq 9980$. Then $n$ can take the values $9980, 9981, \ldots, 9999$. The largest value of $n$ such that $n$ has four digits is $9999$. Then $n+20 = 10019$ which has five digits. So $9980 \leq n \leq 9999$. Therefore, $n$ can be $9980, 9981, \dots, 9999$. The number of such values is $9999-9980+1=20$.
+Adding the two cases, we have $20+20 = 40$ possible values for $n$.
+
+Reasoning:
+We want to find the number of positive whole numbers $n$ such that exactly one of $n$ and $n+20$ has four digits.
+If $n$ has 3 digits and $n+20$ has 4 digits, then we must have $n \leq 999$ and $n+20 \geq 1000$, which means $n \geq 980$. Thus $n$ can be any integer from 980 to 999 inclusive. The number of integers is $999-980+1 = 20$.
+If $n$ has 4 digits and $n+20$ has 5 digits, then we must have $n \leq 9999$ and $n+20 \geq 10000$, which means $n \geq 9980$. Thus $n$ can be any integer from 9980 to 9999 inclusive. The number of integers is $9999-9980+1 = 20$.
+The total number of integers is $20+20 = 40$.
+
+Answer: E)

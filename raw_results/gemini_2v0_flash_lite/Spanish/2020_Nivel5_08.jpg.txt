@@ -1,0 +1,30 @@
+Razonamiento:
+1. **Start with the total number of pieces:** Maria begins with 10 pieces of paper.
+2. **Squares and Triangles:** Some are squares, the rest are triangles.
+3. **Cutting Squares:**  3 squares are cut in half, creating 6 triangles.
+4. **Total pieces after cutting:** After cutting, the total number of pieces is 10 - 3 + 6 = 13 pieces (6 triangles from cutting + the original triangles + 7 pieces from the non cut pieces).
+5. **Vertices of triangles:** Triangles have 3 vertices each. The 6 triangles formed by cutting squares and the original number of triangles add up to 13 pieces, we are told this is when the 42 vertices count is obtained.
+6. **Set up variables:** Let 'x' be the number of original triangles. Let 'y' be the number of squares. Then we have x+y = 10
+7. **Counting total vertices:** Each triangle has 3 vertices, and each of the 6 new triangles has 3 vertices.
+8. **Equation for total vertices:** The equation to represent the total vertices is 3x + 6 * 3 + 4y = 42. Since the cuts happened only for squares.
+9. **Simplify vertex equation:** 3x + 18 + 4y = 42 => 3x + 4y = 24
+10. **Solve for x and y.** We also know x + y = 10
+11. **Solve using substitution**: From x + y = 10, we can find x in terms of y: x = 10 - y. Substituting it into 3x + 4y = 24, we get
+3(10 - y) + 4y = 24
+30 - 3y + 4y = 24
+y = -6
+12. This implies that x=16. So we could find the initial number of triangles.
+x= 16, which is not in the option set.
+13. The initial number of pieces is the number of triangles plus the number of squares. The cuts done on the squares change the number of pieces. This can be confusing. The correct way to resolve this is as follows:
+14. **Total pieces**: Maria has 13 pieces of paper.  3 of them are cut into 6 pieces. So the other pieces are 13 - 6 = 7 pieces. Some of these 7 pieces are triangles and some are not cut squares (3 squares were cut).
+15. **Total vertices**: There are 42 vertices
+16. **Let 'x' be the original number of triangles.** The cut squares now have 6 triangles (3*2=6) and the original triangles which is x. The rest are the number of triangles we had initially.
+17. **Remaining pieces**. Remaining pieces are 10 (original pieces) - 3 (cut squares) + 6 (triangles from cut squares) = 13 pieces.
+18. **Vertices:** Number of vertices in original triangles = 3x. Number of vertices in cut squares= 6*3=18. The remaining number of squares is 4 * (7-x), we know that there is 4 vertices per square.
+19. **Total vertices equation**. Then 3x + 18 + 4(7-x) = 42
+20. **Solve for x**. 3x + 18 + 28 - 4x = 42
+21. 46 - x = 42
+22. x = 4
+23. **Therefore the number of triangles before the cuts is 4.**
+
+Respuesta: E) 4

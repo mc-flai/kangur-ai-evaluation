@@ -1,0 +1,14 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre mínim de boletes que David haurà d'utilitzar per assegurar-se que els nombres 1 i 2 siguin adjacents en el collar de boletes.
+
+La clau és identificar la manera més eficient de situar els dos nombres perquè estiguin junts amb el menor número de boletes possible.
+
+**Raonament**:
+1. Si David utilitza 2 boletes, ambdues han d'estar adjacents, ja que només hi ha dues boletes. Per tant, això és el mínim absolut, però això no complia amb la condició de tenir els números 1 i 2 adjacents.
+2. Si David utilitza 4 boletes, podria ser que els nombres 1 i 2 estiguin junts en el mateix lloc de la manera següent: {1, 2, 3, 4} o {4, 3, 2, 1}. Tanmateix, això no garanteix que els números 1 i 2 estiguin sempre junts si es mouen les boletes.
+3. Si David utilitza 3 boletes, pot repetir els números 1 i 2 per assegurar-se que estiguin adjacents, però això no és suficient per garantir que els números 1 i 2 estiguin junts en un collar de 3 boletes.
+4. Si David utilitza 5 boletes, pot situar els números 1 i 2 de manera que un dels dos números aparegui dues vegades, garantint que sempre estiguin junts. Per exemple, el collar podria ser: {1, 2, 1, 3, 4}.
+5. Si David utilitza 6 boletes, pot situar els números 1 i 2 de manera que un dels dos números aparegui dues vegades, garantint que sempre estiguin junts. Per exemple, el collar podria ser: {1, 2, 1, 3, 4, 5}.
+
+Per tant, el nombre mínim de boletes necessàries per garantir que els nombres 1 i 2 estiguin junts és 5.
+
+**Resposta**: C)

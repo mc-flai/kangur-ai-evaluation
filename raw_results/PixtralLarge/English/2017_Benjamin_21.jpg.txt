@@ -1,0 +1,22 @@
+To determine the maximum number of marbles in the bag, we need to consider the given conditions:
+
+1. If one randomly takes out five marbles, there is at least one red one.
+2. If one randomly takes out six marbles, there is at least one green one.
+
+Let's denote the number of red marbles as \( R \) and the number of green marbles as \( G \).
+
+From the first condition, taking out five marbles must include at least one red marble. Therefore, the number of green marbles \( G \) must be at most 4 (since if there were 5 or more green marbles, it would be possible to take out five green marbles without any red ones).
+
+From the second condition, taking out six marbles must include at least one green marble. Therefore, the number of red marbles \( R \) must be at most 5 (since if there were 6 or more red marbles, it would be possible to take out six red marbles without any green ones).
+
+Thus, we have:
+\[ G \leq 4 \]
+\[ R \leq 5 \]
+
+The maximum number of marbles in the bag is the sum of the maximum number of red and green marbles:
+\[ R + G \leq 5 + 4 = 9 \]
+
+Therefore, the maximum number of marbles in the bag is 9.
+
+Reasoning: By analyzing the conditions and determining the maximum possible number of red and green marbles, we find that the total number of marbles cannot exceed 9.
+Answer: C)

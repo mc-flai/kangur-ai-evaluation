@@ -1,0 +1,33 @@
+### Reasoning:
+
+1. **Understanding the Problem**:
+   - We need to consider all 7-digit numbers formed using the digits 1 to 7.
+   - These numbers are written in increasing order of size.
+   - The list is split exactly in the middle, creating two lists of equal size.
+   - We need to find the last number of the first list.
+
+2. **Counting the Total Number of 7-Digit Numbers**:
+   - The total number of 7-digit numbers using the digits 1 to 7 is \(7!\) (7 factorial).
+   - \(7! = 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 5040\).
+
+3. **Determining the Size of Each List**:
+   - Since the list is split exactly in the middle, each list will contain \( \frac{5040}{2} = 2520 \) numbers.
+
+4. **Finding the Last Number of the First List**:
+   - The last number of the first list will be the 2520th number in the sorted list of all 7-digit numbers.
+
+5. **Identifying the Correct Number**:
+   - We need to determine which of the given options is the 2520th number in the sequence.
+   - By examining the options, we can see that the correct number must be the largest among them.
+
+6. **Comparing the Options**:
+   - The options are:
+     - (A) 1234567
+     - (B) 3765421
+     - (C) 4123567
+     - (D) 4352617
+     - (E) 4376521
+   - Among these, 4376521 is the largest number.
+
+### Answer:
+E) 4376521

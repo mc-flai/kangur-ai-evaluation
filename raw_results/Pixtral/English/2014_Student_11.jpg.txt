@@ -1,0 +1,17 @@
+### Reasoning:
+
+A cuboid-shaped box has dimensions \(a \times b \times c\) with \(a < b < c\). The volume of the box is given by \(V = a \times b \times c\).
+
+When one of the dimensions is increased by 5 cm, the new volume will be:
+- If \(a\) is increased by 5 cm, the new volume \(V'\) will be \( (a + 5) \times b \times c \).
+- If \(b\) is increased by 5 cm, the new volume \(V'\) will be \( a \times (b + 5) \times c \).
+- If \(c\) is increased by 5 cm, the new volume \(V'\) will be \( a \times b \times (c + 5) \).
+
+The increase in volume in each case is:
+- For \(a\): \(V' - V = (a + 5)bc - abc = 5bc\).
+- For \(b\): \(V' - V = ab(c + 5) - abc = 5ac\).
+- For \(c\): \(V' - V = ab(c + 5) - abc = 5ab\).
+
+Since \(a < b < c\), \(bc\) is the smallest product among \(ab\), \(bc\), and \(ca\). Therefore, the increase in volume when \(a\) is increased is the smallest.
+
+### Answer: A

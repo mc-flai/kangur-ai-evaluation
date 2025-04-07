@@ -1,0 +1,3 @@
+Raonament: Siguin $x$ i $y$ els nombres del primer i segon tiquet extret, respectivament. Volem calcular la probabilitat que $y > x$. Com que es treuen dos tiquets sense reemplaçar-los, els nombres $x$ i $y$ són diferents. Hi ha dues possibilitats: $x > y$ o $y > x$. Com que l'extracció es fa de forma aleatòria, les probabilitats d'aquests dos esdeveniments són iguals. Per tant, $P(y > x) = P(x > y)$. Com que l'única altra possibilitat és que $x=y$ que no pot ocórrer doncs no hi ha reemplaçament, tenim $P(y > x) + P(x > y) = 1$, per tant $2 P(y > x) = 1$, de manera que $P(y > x) = 1/2 = 50\%$.
+
+Resposta: B)

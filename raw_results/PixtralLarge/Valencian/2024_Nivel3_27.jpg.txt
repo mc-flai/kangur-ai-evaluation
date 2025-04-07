@@ -1,0 +1,32 @@
+Per determinar quants ous ha comprat el primer client, primer hem d'entendre l'afirmació que el nombre d'ous de gallina és el doble del nombre d'ous d'ànec. Aleshores, hem de trobar un nombre d'ous d'ànec que, quan es multiplica per 2, doni un nombre de la llista de cistelles.
+
+1. Llista dels nombres d'ous de les cistelles: 4, 6, 12, 13, 22 i 29.
+2. Divideix cada nombre per 2 per veure si és un nombre enter:
+   - 4 / 2 = 2
+   - 6 / 2 = 3
+   - 12 / 2 = 6
+   - 13 / 2 = 6.5 (no és sencer)
+   - 22 / 2 = 11
+   - 29 / 2 = 14.5 (no és sencer)
+
+3. Els nombres enter són 2, 3, 6 i 11. Ara hem de verificar quines cistelles tenen una combinació d'ous de gallina i d'ànec que s'ajusti a la condició que el nombre d'ous de gallina és el doble del nombre d'ous d'ànec.
+
+4. Verificació de cada nombre entera:
+   - Per a 2 ous d'ànec: 2 * 2 = 4 ous de gallina (total = 6 ous)
+   - Per a 3 ous d'ànec: 3 * 2 = 6 ous de gallina (total = 9 ous)
+   - Per a 6 ous d'ànec: 6 * 2 = 12 ous de gallina (total = 18 ous)
+   - Per a 11 ous d'ànec: 11 * 2 = 22 ous de gallina (total = 33 ous)
+
+5. Comparant amb les cistelles possibles:
+   - Total = 6 ous: No apareix a la llista.
+   - Total = 9 ous: No apareix a la llista.
+   - Total = 18 ous: No apareix a la llista.
+   - Total = 33 ous: No apareix a la llista.
+
+6. No hi ha cap combinació total que coincideixi amb algun nombre de la llista de cistelles.
+
+7. Reexaminant, hem de considerar les cistelles que es donen:
+   - 22 ous (D) pot ser 22 ous de gallina i 11 ous d'ànec (22 = 2 * 11)
+
+Raonament: Entre les opcions, només 22 (D) cumpleix amb l'afirmació que el nombre d'ous de gallina és el doble del nombre d'ous d'ànec.
+Resposta: D)

@@ -1,0 +1,28 @@
+Razonamiento:
+Sea a, b, c, d los cuatro números positivos. El promedio de tres números más el cuarto número se puede expresar de cuatro maneras:
+(a+b+c)/3 + d = 17
+(a+b+d)/3 + c = 21
+(a+c+d)/3 + b = 23
+(b+c+d)/3 + a = 29
+
+Sumando las ecuaciones:
+(a+b+c)/3 + d + (a+b+d)/3 + c + (a+c+d)/3 + b + (b+c+d)/3 + a = 17+21+23+29
+(a+b+c+a+b+d+a+c+d+b+c+d)/3 + a+b+c+d = 90
+(3a+3b+3c+3d)/3 + a+b+c+d = 90
+(a+b+c+d) + (a+b+c+d) = 90
+2(a+b+c+d) = 90
+a+b+c+d = 45
+
+Ahora, podemos despejar las variables individuales:
+(a+b+c)/3 + d = 17 => a+b+c = 51 - 3d
+a+b+c+d = 45 => 51 - 3d + d = 45 => 51 - 2d = 45 => 2d = 6 => d = 3
+(a+b+d)/3 + c = 21 => a+b+d = 63 - 3c
+a+b+d+c = 45 => 63 - 3c + c = 45 => 63 - 2c = 45 => 2c = 18 => c = 9
+(a+c+d)/3 + b = 23 => a+c+d = 69 - 3b
+a+c+d+b = 45 => 69 - 3b + b = 45 => 69 - 2b = 45 => 2b = 24 => b = 12
+(b+c+d)/3 + a = 29 => b+c+d = 87 - 3a
+a+b+c+d = 45 => 87 - 3a + a = 45 => 87 - 2a = 45 => 2a = 42 => a = 21
+
+Los números son 3, 9, 12, 21. El mayor es 21.
+
+Respuesta: C)

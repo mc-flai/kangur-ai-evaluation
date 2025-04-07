@@ -1,0 +1,15 @@
+Reasoning:
+Let the four lines passing through the origin be y = mx, where m is the slope.
+The parabola is y = x^2 - 2.
+We want to find the intersection points between the lines and the parabola.
+Substitute y = mx into the parabola equation:
+mx = x^2 - 2
+x^2 - mx - 2 = 0
+This is a quadratic equation for x. For each value of m (each line), we will have two x values (two intersection points).
+Since there are four lines, there are four values of m, giving us eight intersection points in total, and thus eight x values.
+Let the x values for a line be x1 and x2. Then x1 * x2 = -2 (product of the roots).
+The product of all eight x-coordinates is (x1 * x2) * (x3 * x4) * (x5 * x6) * (x7 * x8).
+Since each pair of x-coordinates for each line has a product of -2, the product of all 8 x-coordinates will be (-2)^4 = 16.
+The value of x1*x2 is only dependent on the constant term of the quadratic, so the product of the roots of the equation x^2 - mx - 2 = 0 is always -2, regardless of the value of m. Thus, the product will always be 16.
+
+Answer: A)

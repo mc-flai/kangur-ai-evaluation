@@ -1,0 +1,12 @@
+Razonamiento:
+Para obtener la suma más grande de los números tapados, necesitamos que la pieza cubra los números más grandes del cuadrado.
+- Se calcula la suma de los números para cada pieza, considerando todas las posibles posiciones rotadas:
+*   Pieza A: Puede tapar 2+7+4 = 13
+*   Pieza B: Puede tapar 1+9+6=16.
+*   Pieza C: Puede tapar 2+1+7+8 = 18.
+*   Pieza D: Puede tapar 7+8+5+3 = 23
+*   Pieza E: Puede tapar 9+6+3=18
+
+La pieza que cubre la suma más alta es la pieza D.
+
+Respuesta: D)

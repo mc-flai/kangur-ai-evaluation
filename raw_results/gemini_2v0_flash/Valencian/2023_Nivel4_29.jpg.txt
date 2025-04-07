@@ -1,0 +1,22 @@
+Raonament: Primer, hem d'entendre el patró.
+Pas 0: A B C D E
+Pas 1: B C A D E (A es mou al mig)
+Pas 2: B C E A D (E es mou al mig)
+Pas 3: C E B A D (B es mou al mig)
+Pas 4: C E D B A (D es mou al mig)
+Pas 5: E D C B A (C es mou al mig)
+Pas 6: E D A C B (A es mou al mig)
+Pas 7: D A E C B (E es mou al mig)
+Pas 8: D A B E C (B es mou al mig)
+Pas 9: A B D E C (D es mou al mig)
+Pas 10: A B C D E (C es mou al mig)
+Pas 11: B C A D E (A es mou al mig)
+
+El patró es repeteix cada 10 passos. Per tant, cada 10 passos tornem a l'estat original (A B C D E).
+
+Volem trobar l'estat al pas 2020. Com que el patró es repeteix cada 10 passos, podem trobar el residu de 2020 dividit per 10.
+2020 % 10 = 0.
+Per tant, el pas 2020 és equivalent al pas 0.
+La configuració al pas 0 és A B C D E, i la carta al centre és C.
+
+Resposta: C)

@@ -1,0 +1,43 @@
+Raonament: Siguin $x_i$ el nombre de passatgers al vagó $i$, per $i = 1, 2, \dots, 18$. Sabem que
+$$ \sum_{i=1}^{18} x_i = 700 $$
+També sabem que per a qualsevol bloc de cinc vagons adjacents, la suma del nombre de passatgers és 199. En altres paraules, per $i = 1, 2, \dots, 14$ tenim
+$$ x_i + x_{i+1} + x_{i+2} + x_{i+3} + x_{i+4} = 199 $$
+Els dos vagons del mig del tren són els vagons 9 i 10. Volem trobar $x_9 + x_{10}$.
+
+Considerem la suma de tots els vagons dividida en blocs de 5:
+$$ \sum_{i=1}^{18} x_i = (x_1 + x_2 + x_3 + x_4 + x_5) + (x_6 + x_7 + x_8 + x_9 + x_{10}) + (x_{11} + x_{12} + x_{13} + x_{14} + x_{15}) + x_{16} + x_{17} + x_{18} = 700 $$
+Alternativament, podem sumar el nombre de passatgers en 3 blocs consecutius de 5 vagons, començant des del vagó 1 fins al 15 i després el bloc de vagons 14 a 18:
+$$ x_1 + x_2 + \dots + x_5 = 199 \\ x_2 + x_3 + \dots + x_6 = 199 \\ \vdots \\ x_{14} + x_{15} + x_{16} + x_{17} + x_{18} = 199 $$
+Considerem els següents blocs:
+$1, 2, 3, 4, 5$ i $2, 3, 4, 5, 6$. Restant-los obtenim $x_1 = x_6$. En general $x_i = x_{i+5}$.
+Això significa que els vagons estan repetint-se cada 5 vagons.
+$700 = \sum_{i=1}^{18} x_i = 3 \times 199 + x_{16} + x_{17} + x_{18} + x_{1} + x_{2} + x_{3} $
+$$ \sum_{i=1}^{15} x_i = 3 \cdot 199 = 597 $$
+També,
+$700 = 3(x_1 + x_2 + \dots + x_5) + x_{16} + x_{17} + x_{18} = 597 + x_{16} + x_{17} + x_{18}$
+$x_{16} + x_{17} + x_{18} = 700 - 597 = 103$
+Com que $x_i = x_{i+5}$, tenim $x_{16} = x_{11}, x_{17} = x_{12}, x_{18} = x_{13}$.
+
+Dividim els 18 vagons en grups de 5 vagons.
+Tenim 3 grups de 5 vagons (15 vagons) i 3 vagons que queden.
+$x_1 + x_2 + x_3 + x_4 + x_5 = 199$
+$x_6 + x_7 + x_8 + x_9 + x_{10} = 199$
+$x_{11} + x_{12} + x_{13} + x_{14} + x_{15} = 199$
+$\sum_{i=1}^{15} x_i = 597$.
+$ \sum_{i=1}^{18} x_i = 700 $
+$ x_{16} + x_{17} + x_{18} = 700 - 597 = 103 $
+$ x_i = x_{i+5} = x_{i+10} = x_{i+15} $.
+$ x_{16} + x_{17} + x_{18} = x_1 + x_2 + x_3 = 103 $
+
+$ x_1 + x_2 + x_3 + x_4 + x_5 = 199 $
+$ x_1 + x_2 + x_3 = 103 $
+$ x_4 + x_5 = 199 - 103 = 96 $
+
+Considerem vagons 4 a 8, 5 a 9, etc. Com que es repeteix cada 5, vol dir que $x_{4}$ és el mateix que $x_{9}$ i $x_{5}$ és el mateix que $x_{10}$.
+
+$x_9 + x_{10} = x_4 + x_5 = 96 $
+
+Resposta: D)
+Raonament: El problema dona la suma dels passatgers en cada bloc de 5 vagons consecutius. Utilitzem aquesta informació per deduir una relació entre els passatgers dels vagons. La clau és adonar-se que $x_i = x_{i+5}$ i usar aquesta propietat per trobar la solució.
+
+Resposta: D)

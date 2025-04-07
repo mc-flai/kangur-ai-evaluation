@@ -1,0 +1,28 @@
+Reasoning:
+The question is asking how many times kangaroos will change places with each other. Since the kangaroos are facing each other, they can switch places only if they are next to each other. We can manually count the number of possible changes. Let's assume the kangaroos are facing each other if they are next to each other. We have 8 kangaroos, so there are 7 places where they can change places.
+Now, we consider the given condition where kangaroos facing each other change places. Looking at the picture in the question, all the kangaroos face the same direction. There are no kangaroos facing each other. As such, they cannot change places.
+This problem requires careful understanding. Since all kangaroos are facing the same direction, no two kangaroos are looking at each other. According to the condition in the problem, only kangaroos facing each other change position. Therefore, no kangaroos will ever change positions. The phrasing of the question makes this very tricky. The number of times the place changes is zero. But there is no zero option available. Since kangaroos must face each other to change places, the initial state where all kangaroos face in the same direction implies that NO change can ever occur based on the conditions in the problem. However, looking at the illustration, we can see that initially 3 kangaroos on the left are facing right and the remaining 5 are facing left.
+
+Let's denote kangaroos facing right as R and left as L. Then initial setup is RRRLLLLL
+1. RRRLLLLL -> RRLLRLLL (1)
+2. RRLLRLLL -> RRLLLRLL (2)
+3. RRLLLRLL -> RRLLLLRL (3)
+4. RRLLLLRL -> RRLLLLLR (4)
+5. RRLRLLLL -> RLLRLLLL (5)
+6. RLLRLLLL -> RLLLLRLL (6)
+7. RLLLLRLL -> RLLLLLLR (7)
+8. RLRLLLLL -> LRRLLLLL (8)
+9. LRRLLLLL -> LRLLRLLL (9)
+10. LRLLRLLL -> LRLLLRLL (10)
+11. LRLLLRLL -> LRLLLLRL (11)
+12. LRLLLLRL -> LRLLLLLR (12)
+The process where facing kangaroos swap places continues until there are no kangaroos facing each other. If we assume that the first three kangaroos face right and the next five face left then the number of swaps is 3*5 = 15. But if they can hop over each other then total swaps should be 3+2+1 = 6 which is also incorrect.
+
+Let n be number of kangaroos facing right and m be the number facing left. The number of changes of places will be n*m. Here n = 3, m = 5 so number of changes = 15. Since 16 is very close to 15, E looks correct.
+However, upon further reflection, the kangaroos can change places more than once. Initially, it is RRRLLLLL. We can change the first R and L. Then RRLLRLLL. We swap the second L with the R on the right. Then RRLLLRLL. Then RRLLLLRL and then RRLLLLLR. Then we swap the R with L to the left of it RRLRLLLL. Then RLLRLLLL, etc. This becomes too complex for the time alloted. But there will be 3 rows with increasing numbers and the top most row with numbers 1, 2, 3, 4, 5. It looks a lot closer to 13.
+
+Reasoning:
+Considering each kangaroo swap as an event and noting that the kangaroos change position until no more jumps are possible, we recognize a pattern relating to permutation. If we consider that we are ordering or sorting the kangaroos based on the direction they are facing. The number of possible interchanges until all kangaroos facing the same direction are grouped is roughly calculated by n*m where n is number of kangaroo facing right and m is number of kangaroo facing left.
+The pattern resembles 1+2+3+4+5 = 15 swaps. The closest available option is (E) 16.
+
+Answer: E)

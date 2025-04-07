@@ -1,0 +1,12 @@
+Razonamiento:
+1. **Calcular los votos iniciales:** El padre tiene 36 votos, el primer hijo 13 votos, el segundo 6 votos y el tercero 4 votos. El total de votos de los hijos es 13 + 6 + 4 = 23 votos.
+2. **Establecer la condición para ganar:** Los hijos deben tener más votos que el padre, por lo que necesitan más de 36 votos.
+3. **Determinar el aumento mínimo de votos necesario:** Los hijos actualmente tienen 23 votos, entonces necesitan 36 + 1 = 37 votos para ganar. 37 - 23 = 14, por lo que necesitan 14 votos más entre los tres hijos.
+4. **Analizar la diferencia de edad:** El problema pregunta "como mínimo". El niño de 13 años es el que crece más rápido en cantidad de votos, y el niño de 4 años es el que crece menos rápido.
+5. **Calcular los años que deben pasar:** El niño de 13 años debe aumentar en edad. Para ganar, el niño de 13 años, el de 6 y el de 4 deben aumentar. El de 13 debe crecer para que el padre no gane. Después de 14 años, el niño de 13 tendrá 27, el niño de 6 tendrá 20, y el niño de 4 tendrá 18, lo cual suma 27 + 20 + 18 = 65, lo que es mayor a los 36 votos del padre.
+6. **Verificar si es el mínimo:** Si pasan 13 años, los hijos tendrían: 26 + 19 + 17 = 62 votos (mayor a los 36 del padre)
+7. **Revisar con 6 años:** Después de 6 años, las edades serían: Padre 42, niños 19, 12, 10. Suma de votos hijos: 19 + 12 + 10 = 41. El padre tiene 42, por lo que todavía no ganan los hijos.
+8. **Verificar con 7 años:**  Después de 7 años, las edades serían: Padre 43, niños 20, 13, 11. Suma de votos hijos: 20 + 13 + 11 = 44. El padre tiene 43, por lo que los hijos ganan.
+9. **Revisar con 5 años:**  Después de 5 años, las edades serían: Padre 41, niños 18, 11, 9. Suma de votos hijos: 18 + 11 + 9 = 38. El padre tiene 41, por lo que no ganan los hijos.
+
+Respuesta: C)

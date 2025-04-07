@@ -1,0 +1,17 @@
+Reasoning:
+Let the radii of the three circles be $r_1, r_2, r_3$ respectively. We are given that $r_1 = 1$.
+Since the gray areas are equal, we have:
+Area of the smallest gray sector = Area of the intermediate gray sector = Area of the largest gray sector.
+Since the gray areas are equal, then the area of a quarter circle of radius 1 is the same as the area of the gray sector between the circles of radii $r_2$ and $r_1=1$ and between the circles of radii $r_3$ and $r_2$.
+So we have:
+$\frac{1}{4}\pi (r_1^2) = \frac{1}{4}\pi(1^2)$
+$\frac{1}{4}\pi (r_2^2 - r_1^2) = \frac{1}{4}\pi(r_2^2-1^2)$
+$\frac{1}{4}\pi (r_3^2 - r_2^2)$
+Since $\frac{1}{4}\pi (r_1^2) = \frac{1}{4}\pi (r_2^2 - r_1^2) = \frac{1}{4}\pi (r_3^2 - r_2^2)$
+$1^2 = r_2^2 - 1^2 = r_3^2 - r_2^2$
+$1 = r_2^2 - 1 \implies r_2^2 = 2 \implies r_2 = \sqrt{2}$
+$1 = r_3^2 - r_2^2 = r_3^2 - 2 \implies r_3^2 = 3 \implies r_3 = \sqrt{3}$
+The radii are $r_1 = 1, r_2 = \sqrt{2}, r_3 = \sqrt{3}$.
+The product of the radii is $r_1 r_2 r_3 = 1 \cdot \sqrt{2} \cdot \sqrt{3} = \sqrt{6}$.
+
+Answer: A)

@@ -1,0 +1,55 @@
+Reasoning:
+We are given that it is a direct elimination tournament with matches from the quarter-finals, semi-finals, and the final. There are 6 results given and we want to know the missing one. The given results are:
+1. Téa a battu Sam
+2. Uzi a battu Vic
+3. Yin a battu Zoé
+4. Yin a battu Uzi
+5. Uzi a battu Téa
+6. Wan a battu Xiu
+The players involved are Téa, Sam, Uzi, Vic, Yin, Zoé, Wan, Xiu. In a direct elimination tournament, if there are matches from the quarter finals, semi finals and final, there are a total of 7 matches (for an 8 player tournament). Since 6 matches are given and we're looking for the 7th, we want to find which of the options would make sense for a tournament bracket.
+Let's analyze the tournament bracket:
+- Téa beat Sam
+- Uzi beat Vic
+- Yin beat Zoé
+- Wan beat Xiu
+These are the quarter final matches (4 matches). Then,
+- Yin beat Uzi.
+- Uzi beat Téa
+
+If Yin beat Uzi, Uzi can't beat Téa. This is a direct contradiction and suggests that we have to look at possible winners from the quarter finals to continue on to the next rounds.
+Possible pairings for semi finals based on the listed wins in the quarter finals:
+Téa vs Uzi, Yin vs Wan.
+Based on the given info, Uzi beat Téa, and Yin beat Uzi. Hence, the first pairing resulted in Uzi winning.
+Wan beat Xiu and Yin beat Zoé, then Yin might play Wan in the second semi final.
+The semi final pairing resulted in Yin winning against Wan.
+
+So now, we have that Uzi and Yin are the finalists. Yin beat Uzi.
+The possible final result among the options is that Yin beat Wan.
+We examine the elimination tree.
+
+Quarter-finals:
+Téa beat Sam
+Uzi beat Vic
+Yin beat Zoé
+Wan beat Xiu
+
+Semi-finals:
+Uzi beat Téa (implying Uzi and Téa were in the same side of the bracket)
+Yin beat Wan (implying Yin and Wan were on the same side of the bracket)
+
+Final:
+Yin beat Uzi
+The given information includes : Téa beat Sam, Uzi beat Vic, Yin beat Zoé, Yin beat Uzi, Uzi beat Téa, Wan beat Xiu
+The proposed result we're considering: Yin beat Wan.
+The missing result is then: Yin beat Wan.
+So we are looking for the semi final round. After winning in the quarter finals round:
+Téa, Uzi, Yin, Wan.
+Semi finals match: Yin vs Wan and Téa vs Uzi
+Semi finals result: Yin beat Wan and Uzi beat Téa
+Finals match: Yin vs Uzi
+Finals result: Yin beat Uzi.
+
+So Yin beat Wan should fit in the semi final round.
+
+Answer: E)
+Final Answer: E)

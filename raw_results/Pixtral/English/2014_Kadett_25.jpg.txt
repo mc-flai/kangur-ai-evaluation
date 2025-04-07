@@ -1,0 +1,32 @@
+### Reasoning:
+David cycles from Edinburgh to his aunt's place and wants to arrive at exactly 15:00 hours. After 2/3 of his planned travel time, he has covered 3/4 of the way. This means he cycles slower for the remaining part of the journey to ensure he arrives on time.
+
+Let's denote the total planned travel time as T and the total distance as D.
+
+1. In the first 2/3 of the time, he covers 3/4 of the distance.
+2. In the remaining 1/3 of the time, he covers the remaining 1/4 of the distance.
+
+Let's denote the speed in the first part of the journey as V1 and in the second part as V2.
+
+From the given information:
+- Time taken for the first part of the journey: (2/3)T
+- Distance covered in the first part of the journey: (3/4)D
+- Time taken for the second part of the journey: (1/3)T
+- Distance covered in the second part of the journey: (1/4)D
+
+We can write the speeds as:
+- V1 = (3/4)D / (2/3)T
+- V2 = (1/4)D / (1/3)T
+
+Simplifying V1:
+V1 = (3/4)D / (2/3)T = (3/4) * (3/2) * (D/T) = (9/8) * (D/T)
+
+Simplifying V2:
+V2 = (1/4)D / (1/3)T = (1/4) * (3/1) * (D/T) = (3/4) * (D/T)
+
+Now, we find the ratio of V1 to V2:
+V1 / V2 = (9/8) * (D/T) / (3/4) * (D/T) = (9/8) / (3/4) = (9/8) * (4/3) = 27/24 = 9/8
+
+Therefore, the ratio of the average speeds of the two sections of his journey is 9:8.
+
+### Answer: C

@@ -1,0 +1,16 @@
+
+La pregunta 11 nos dice que David tiene un collar de botones. Cada botón en el collar tiene un nombre que es la suma de los nombres de dos botones que cuestan lo mismo. Los botones comienzan con los números 1 y 2. La pregunta nos pide cuántos botones usará David como mínimo.
+
+Para resolver esto, debemos entender que cada botón tiene un nombre que es la suma de los nombres de dos botones que cuestan lo mismo. Esto significa que cada botón es una suma de dos números que son iguales en términos de costo. Dado que los botones comienzan con los números 1 y 2, los posibles nombres de los botones que cuestan lo mismo son 1+1=2, 1+2=3, y 2+2=4.
+
+Para encontrar el mínimo número de botones que David usará, debemos considerar la menor cantidad de botones que cumplan con esta condición. Los botones posibles son 1, 2, 3 y 4. Si cada botón es una suma de dos botones que cuestan lo mismo, entonces necesitamos al menos dos botones para formar cada suma. Por lo tanto, necesitamos al menos dos botones para cada suma posible.
+
+- Para el botón con el nombre 2, necesitamos dos botones con el nombre 1.
+- Para el botón con el nombre 3, necesitamos un botón con el nombre 1 y un botón con el nombre 2.
+- Para el botón con el nombre 4, necesitamos dos botones con el nombre 2.
+
+Sumando estos botones, obtenemos 2 (para el nombre 2) + 2 (para el nombre 3) + 2 (para el nombre 4) = 6 botones.
+
+Por lo tanto, el mínimo número de botones que David usará es 6.
+
+**Respuesta: D)**

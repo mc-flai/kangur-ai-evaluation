@@ -1,0 +1,77 @@
+Reasoning:
+Let's denote the colors as V, R, J, B. We know that every 5 consecutive tokens contain exactly one R, one J, and one B. Also, the token after a red one is always yellow. The tokens 2, 20, and 202 are green.
+
+Let's look at the pattern modulo 5. Let's assume token 1 is some color X.
+Token 2 is V.
+Then tokens 1, 2, 3, 4, 5 contain R, J, B, V and X.
+The position of R, J, and B are constrained within these 5. Also R must be followed by J.
+
+The tokens are numbered 1 to 2021.
+Token 2 is V, token 20 is V, and token 202 is V.
+We can deduce that 202 - 20 = 182 and 202 - 2 = 200.
+Since 202 = 2 + 200, and 20 is green, and 202 is green, the distance must be a multiple of something that can repeat. Let the repeating length be 'x'. Then
+x must divide 182 = 2 * 7 * 13
+x must divide 200 = 2^3 * 5^2
+The common divisors of 182 and 200 are 1 and 2. Since we have 4 colors, and every 5 consecutive tokens contain 1 R, 1 J, 1 B, the repeating unit cannot be 2, it has to be bigger than 2.
+Let's assume there is a pattern which has length of something.
+However, since every 5 consecutive tokens contain exactly one of each color R, J, and B, the repeating unit must be 4 or more.
+Let n be the repeating unit of length. Token n+2 is V. Token 2n+2 is V.
+In general, k*n + 2 is V, where k is integer.
+We are interested in 2021, so 2021 = kn + 2 for some integer k. Then kn = 2019.
+Factors of 2019 = 3 * 673. So n can be 3 or 673. If n=3, then the sequence is V V V, which violates the condition that every 5 tokens contains R, J, and B.
+The length of 5 consecutive is not enough to form the repeating pattern.
+
+Consider a sequence: V R J B.
+Since the token after R is always J, we have a sequence like V R J. It repeats.
+
+However, we know that every consecutive 5 tokens will have exactly one red, one yellow and one blue.
+
+2021 = 5 * 404 + 1.
+Let's consider a sequence of length 5: G R J B X
+If X is green, then this works.
+G R J B G
+Then the 6th one must be green. 2+5k are all green. 20= 2+ 5*3.6; so 20 is not 2 mod 5. 20 is 0 mod 5. 202 = 2 + 5k; 200 = 5k; 40=k;
+Thus token 2 is green, token 20 is green, and token 202 is green.
+
+Let the sequence be V x y z. We need R J B.
+The repeating unit must be 4 or 5.
+So the colors will be V, R, J, B and the sequence is periodic of length 4.
+
+2021 = 4*505 + 1
+Since 2 is V, 6 is V, and so on, any number of the form 4n+2 is V.
+2021 = 4(504) + 5 = 4(504)+4+1 = 4(505)+1
+Thus, 2021 is V, since 2021 is in the form 4n+1, just before the V.
+
+Reasoning:
+The key is to use the given fact that tokens 2, 20, and 202 are green.  This strongly suggests a repeating pattern, since 20-2 = 18 and 202-20 = 182 are both multiples of a potential pattern length.  The requirement of R,J, and B within any 5 tokens is a constraint. 2021 is the 2020th number to calculate.
+
+We know token 2 is Green.
+2021-2 = 2019
+
+Reasoning: Let's consider a cycle of 4 V, R, J, B
+If token 2 is V then token 1 is either R, J, or B. We need R to be followed by J.
+
+Let us say V R J B V R J B V R J B..
+Token 1 is V. Token 2 is V.
+Token 20 is V.
+Token 202 is V.
+
+2021 divided by 4 is 505 with a remainder of 1. So the 2021st is color 1 which is V.
+
+Reasoning:
+Since 2, 20, 202 are green, it suggests periodicity. Let period be n. Then 2+kn is green. 2021 = 2 + k n for some k. Also, 2021-1 is the 2020.
+Let's consider x consecutive tokens. The number of Red, yellow, and blue is 1 respectively. So, among 5 consecutive tokens there is 1 red, 1 yellow and 1 blue. Token that follows red is always yellow. Therefore, token 2021 will be either green, red, yellow or blue. We can find repeating sequence.
+
+The differences between 2, 20, and 202 are 18 and 182 respectively. The repeating pattern has to be a factor of 18 and 182. Then, 2021 is color 1, thus green
+
+Reasoning: Given that every 5 consecutive coins, have one Red, Yellow, Blue.
+
+If coin 1 is V, 2 is V, 20 is V, 202 is V
+The length of repetition must be 4. If token 2 is V, 20 is V, 202 is V, it will be the nth. Therefore,
+
+Token 2021's color can be calculated based on the periodicity of the length 4.
+2021 Mod 4 = 1. Therefore token 2021 will be Green.
+1) V, 2) Green.
+2021 is congruent to 1 Mod 4
+
+Answer: A)

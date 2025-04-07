@@ -1,0 +1,14 @@
+**Reasoning:**
+To determine James' score, let's analyze the scoring rules provided:
+
+- Each boy scored three points if neither of the other boys had the same word.
+- Each boy scored one point if only one of the other boys had the same word.
+- No points were awarded for words which all three boys had.
+
+Given that Sam had the smallest score of 19 points, let's assume the total points scored by each boy for each word. Knowing the scoring rules, the minimum points any boy can score per word is 0 points (if all three had the same word) and the maximum is 3 points (if neither of the other two boys had the same word).
+
+To achieve the smallest possible score of 19, Sam must have scored 3 points for at least 6 words and 1 point for 4 words (since 6*3 + 4*1 = 18 + 1 = 19). This means, for 6 words, neither of the other boys had the same word, and for 4 words, one of the other boys had the same word.
+
+Since Sam's score is the smallest, James must have scored either 3 points or 1 point for each word, but more 3-point words than Sam to achieve a higher score. James could score 3 points for 7 words and 1 point for 3 words to achieve a score of 24 (7*3 + 3*1 = 21 + 3 = 24), making his score 24 points.
+
+**Answer:** D)

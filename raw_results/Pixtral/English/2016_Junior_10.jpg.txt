@@ -1,0 +1,23 @@
+### Reasoning:
+Sven writes five different single-digit positive whole numbers on a board. We need to determine which number he definitely wrote on the board, given that no sum of two of these numbers equals 10.
+
+First, let's list all possible single-digit positive whole numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9.
+
+Next, we need to ensure that no pair of these numbers sums to 10. We can check each pair:
+
+- 1 + 9 = 10
+- 2 + 8 = 10
+- 3 + 7 = 10
+- 4 + 6 = 10
+
+From the pairs above, we see that 1 and 9, 2 and 8, 3 and 7, and 4 and 6 all sum to 10. Therefore, none of these numbers can be on the board.
+
+Since 1 and 9 are excluded, we need to check the remaining numbers to see if any pair sums to 10:
+
+- 2 + 8 = 10 (excluded)
+- 3 + 7 = 10 (excluded)
+- 4 + 6 = 10 (excluded)
+
+The remaining numbers are 5, which does not form a pair that sums to 10 with any other number.
+
+### Answer: E

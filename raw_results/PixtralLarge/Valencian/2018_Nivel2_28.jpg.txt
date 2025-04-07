@@ -1,0 +1,21 @@
+**Raonament**:
+Per determinar quants divisors naturals té el nombre 4242, primer descomponem 4242 en factors primers.
+
+4242 = 2 × 3 × 11 × 67
+
+Els divisors naturals d'un nombre es troben multiplicant totes les combinacions possibles dels seus factors primers.
+
+El nombre total de divisors naturals es calcula utilitzant la fórmula:
+
+Si un nombre \( n = p_1^{e1} × p_2^{e2} × ... × p_k^{ek} \), on \( p_1, p_2, ..., p_k \) són factors primers i \( e1, e2, ..., ek \) són els seus exponents, llavors el nombre total de divisors és:
+\( (e1 + 1) × (e2 + 1) × ... × (ek + 1) \)
+
+Per al nombre 4242:
+4242 = \( 2^1 × 3^1 × 11^1 × 67^1 \)
+
+Aplicant la fórmula:
+\( (1+1) × (1+1) × (1+1) × (1+1) = 2 × 2 × 2 × 2 = 16 \)
+
+Per tant, el nombre 4242 té 16 divisors naturals.
+
+**Resposta**: A)

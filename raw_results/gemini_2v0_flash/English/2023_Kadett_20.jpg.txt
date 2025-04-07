@@ -1,0 +1,15 @@
+Reasoning: Let the 2023 consecutive integers be $n, n+1, n+2, \dots, n+2022$. The sum of these integers is given as 2023. So, we have
+$$ n + (n+1) + (n+2) + \dots + (n+2022) = 2023 $$
+The sum of an arithmetic series is given by the number of terms times the average of the first and last term.
+$$ \frac{2023}{2}(n + n + 2022) = 2023 $$
+$$ \frac{2023}{2}(2n + 2022) = 2023 $$
+Divide both sides by 2023:
+$$ \frac{1}{2}(2n + 2022) = 1 $$
+$$ 2n + 2022 = 2 $$
+$$ 2n = 2 - 2022 = -2020 $$
+$$ n = -1010 $$
+The integers are $-1010, -1009, \dots, 0, \dots, 1011, 1012$.
+The biggest number is $n + 2022 = -1010 + 2022 = 1012$.
+The sum of the digits of 1012 is $1 + 0 + 1 + 2 = 4$.
+
+Answer: A)

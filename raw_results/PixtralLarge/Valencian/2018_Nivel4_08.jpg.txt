@@ -1,0 +1,32 @@
+Raonament: Per trobar el valor de la suma \( a + b + c \), primer necessitem identificar els valors de \( a \), \( b \) i \( c \) a partir de les equacions donades:
+
+1. \( a \cdot b = 6 \)
+2. \( b \cdot c = 15 \)
+3. \( a \cdot c = 10 \)
+
+Per resoldre aquestes equacions, podem expressar \( a \), \( b \) i \( c \) en termes d'un d'ells i després resoldre.
+
+Primer, expressam \( b \) en termes de \( a \) utilitzant la primera equació:
+\[ b = \frac{6}{a} \]
+
+Després, expressam \( c \) en termes de \( b \) utilitzant la segona equació:
+\[ c = \frac{15}{b} \]
+
+Substituim \( b \) de la primera equació en aquesta expressió:
+\[ c = \frac{15}{\frac{6}{a}} = \frac{15a}{6} = \frac{5a}{2} \]
+
+Ara, utilitzam la tercera equació per trobar \( a \):
+\[ a \cdot \frac{5a}{2} = 10 \]
+\[ \frac{5a^2}{2} = 10 \]
+\[ 5a^2 = 20 \]
+\[ a^2 = 4 \]
+\[ a = 2 \] (ja que \( a \) és un nombre positiu)
+
+Ara, trobam \( b \) i \( c \) utilitzant \( a = 2 \):
+\[ b = \frac{6}{2} = 3 \]
+\[ c = \frac{5 \cdot 2}{2} = 5 \]
+
+Finalment, sumam \( a \), \( b \) i \( c \):
+\[ a + b + c = 2 + 3 + 5 = 10 \]
+
+Resposta: B)

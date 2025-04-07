@@ -1,0 +1,18 @@
+Reasoning:
+A) 2017 -> 2710: Swap 0 and 7. Possible
+B) 2017 -> 0127: Swap 2 and 0. Possible
+C) 2017 -> 1027: Swap 2 and 1. Possible
+D) 2017 -> 0217: Swap 2 and 0. Possible
+E) 2017 -> 2071: Swap 1 and 7. Possible
+
+Since I made a mistake in the first pass, let's try again.
+We need to find the order which is impossible to obtain by swapping two cards only.
+A) 2710: To obtain 2710, we would need to swap '0' and '7'. Since '1' is in the wrong spot, we would require more than one swap. It is thus not possible.
+B) 0127: To obtain 0127, we would need to swap '2' and '0'.
+C) 1027: To obtain 1027, we would need to swap '2' and '1'.
+D) 0217: To obtain 0217, we would need to swap '2' and '0'.
+E) 2071: To obtain 2071, we would need to swap '1' and '7'.
+
+Reasoning: Swapping any two elements can only change the position of those two numbers. In option A, the digits 1 and 0 have been moved from their original locations, which necessitates at least two swaps. Therefore, option A cannot be achieved by swapping only two digits.
+
+Answer: A)

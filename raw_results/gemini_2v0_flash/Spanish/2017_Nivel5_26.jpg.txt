@@ -1,0 +1,10 @@
+Razonamiento:
+La suma de los ángulos interiores de un polígono convexo de *n* lados es (n-2) * 180°.  Por lo tanto, la suma de los ángulos es un múltiplo de 180.  Dado que la suma de los ángulos, menos un ángulo desconocido *x*, es 2017°, entonces la suma total de los ángulos del polígono debe ser 2017° + *x*, lo cual debe ser un múltiplo de 180°. En otras palabras,  2017° + *x* =  180° * *n* para algún entero *n*.  Esto implica que  2017 + *x*  debe ser divisible por 180.  Probaremos cada una de las opciones para *x* para ver cuál cumple esta condición.
+*   A)  2017 + 37 = 2054.  2054/180 = 11.41 (no entero)
+*   B)  2017 + 53 = 2070.  2070/180 = 11.5 (no entero)
+*   C)  2017 + 97 = 2114.  2114/180 = 11.74 (no entero)
+*   D)  2017 + 127 = 2144.  2144/180 = 11.91 (no entero)
+*   E)  2017 + 143 = 2160.  2160/180 = 12 (entero)
+La opción E resulta en un número entero. Por lo tanto, la respuesta es 143.
+
+Respuesta: E)

@@ -1,0 +1,16 @@
+**Reasoning**:
+1. We start with 2020 coins all showing "head" facing up.
+2. Each move consists of flipping exactly three coins from "head" to "tail".
+3. To determine the smallest number of moves to get all coins to show "tails", we need to figure out how many sets of 3 flips are required to flip all 2020 coins.
+4. Since each move flips 3 coins, we divide the total number of coins by 3:
+
+   \[
+   2020 \div 3 = 673 \text{ remainder } 1
+   \]
+
+5. The remainder indicates that when we perform 673 moves, 1 coin will still be left with "head" facing up.
+6. Therefore, it is not possible to turn all coins to "tails" with 673 moves.
+7. Since the question asks for the smallest number of moves, and there are options for 672, 673, 674, 675, we need to consider if there's another way to reach the conclusion.
+8. Considering that flipping 3 coins cannot change the parity (odd/even nature) of the number of "head" coins, then after any number of moves, the number of "head" coins will always be odd. Since 2020 is even, it's impossible to have all coins as "tails" through flipping exactly 3 coins per move.
+
+**Answer**: E) It is not possible to make all the "tails" face up.

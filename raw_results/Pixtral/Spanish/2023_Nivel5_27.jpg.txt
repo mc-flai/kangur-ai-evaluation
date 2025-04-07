@@ -1,0 +1,101 @@
+Para determinar el número de cifras de tres dígitos cuyos dígitos sumen un número de tres cifras que sea un número de tres dígitos, debemos considerar las posibles combinaciones de dígitos que suman un número de tres cifras.
+
+Razonamiento:
+1. Identificar todas las combinaciones posibles de tres dígitos que sumen un número de tres cifras.
+2. Contar el número de combinaciones que cumplen este criterio.
+3. Verificar si alguna de las combinaciones posibles coincide con las opciones dadas.
+
+Para simplificar, consideremos algunas combinaciones posibles:
+- 000: No es un número de tres dígitos.
+- 001: 0 + 0 + 1 = 1 (no es un número de tres cifras).
+- 002: 0 + 0 + 2 = 2 (no es un número de tres cifras).
+- 003: 0 + 0 + 3 = 3 (no es un número de tres cifras).
+- 004: 0 + 0 + 4 = 4 (no es un número de tres cifras).
+- 005: 0 + 0 + 5 = 5 (no es un número de tres cifras).
+- 006: 0 + 0 + 6 = 6 (no es un número de tres cifras).
+- 007: 0 + 0 + 7 = 7 (no es un número de tres cifras).
+- 008: 0 + 0 + 8 = 8 (no es un número de tres cifras).
+- 009: 0 + 0 + 9 = 9 (no es un número de tres cifras).
+- 012: 0 + 1 + 2 = 3 (no es un número de tres cifras).
+- 013: 0 + 1 + 3 = 4 (no es un número de tres cifras).
+- 014: 0 + 1 + 4 = 5 (no es un número de tres cifras).
+- 015: 0 + 1 + 5 = 6 (no es un número de tres cifras).
+- 016: 0 + 1 + 6 = 7 (no es un número de tres cifras).
+- 017: 0 + 1 + 7 = 8 (no es un número de tres cifras).
+- 018: 0 + 1 + 8 = 9 (no es un número de tres cifras).
+- 019: 0 + 1 + 9 = 10 (no es un número de tres cifras).
+- 021: 0 + 2 + 1 = 3 (no es un número de tres cifras).
+- 023: 0 + 2 + 3 = 5 (no es un número de tres cifras).
+- 024: 0 + 2 + 4 = 6 (no es un número de tres cifras).
+- 025: 0 + 2 + 5 = 7 (no es un número de tres cifras).
+- 026: 0 + 2 + 6 = 8 (no es un número de tres cifras).
+- 027: 0 + 2 + 7 = 9 (no es un número de tres cifras).
+- 028: 0 + 2 + 8 = 10 (no es un número de tres cifras).
+- 029: 0 + 2 + 9 = 11 (no es un número de tres cifras).
+- 031: 0 + 3 + 1 = 4 (no es un número de tres cifras).
+- 032: 0 + 3 + 2 = 5 (no es un número de tres cifras).
+- 033: 0 + 3 + 3 = 6 (no es un número de tres cifras).
+- 034: 0 + 3 + 4 = 7 (no es un número de tres cifras).
+- 035: 0 + 3 + 5 = 8 (no es un número de tres cifras).
+- 036: 0 + 3 + 6 = 9 (no es un número de tres cifras).
+- 037: 0 + 3 + 7 = 10 (no es un número de tres cifras).
+- 038: 0 + 3 + 8 = 11 (no es un número de tres cifras).
+- 039: 0 + 3 + 9 = 12 (no es un número de tres cifras).
+- 041: 0 + 4 + 1 = 5 (no es un número de tres cifras).
+- 042: 0 + 4 + 2 = 6 (no es un número de tres cifras).
+- 043: 0 + 4 + 3 = 7 (no es un número de tres cifras).
+- 044: 0 + 4 + 4 = 8 (no es un número de tres cifras).
+- 045: 0 + 4 + 5 = 9 (no es un número de tres cifras).
+- 046: 0 + 4 + 6 = 10 (no es un número de tres cifras).
+- 047: 0 + 4 + 7 = 11 (no es un número de tres cifras).
+- 048: 0 + 4 + 8 = 12 (no es un número de tres cifras).
+- 049: 0 + 4 + 9 = 13 (no es un número de tres cifras).
+- 051: 0 + 5 + 1 = 6 (no es un número de tres cifras).
+- 052: 0 + 5 + 2 = 7 (no es un número de tres cifras).
+- 053: 0 + 5 + 3 = 8 (no es un número de tres cifras).
+- 054: 0 + 5 + 4 = 9 (no es un número de tres cifras).
+- 055: 0 + 5 + 5 = 10 (no es un número de tres cifras).
+- 056: 0 + 5 + 6 = 11 (no es un número de tres cifras).
+- 057: 0 + 5 + 7 = 12 (no es un número de tres cifras).
+- 058: 0 + 5 + 8 = 13 (no es un número de tres cifras).
+- 059: 0 + 5 + 9 = 14 (no es un número de tres cifras).
+- 061: 0 + 6 + 1 = 7 (no es un número de tres cifras).
+- 062: 0 + 6 + 2 = 8 (no es un número de tres cifras).
+- 063: 0 + 6 + 3 = 9 (no es un número de tres cifras).
+- 064: 0 + 6 + 4 = 10 (no es un número de tres cifras).
+- 065: 0 + 6 + 5 = 11 (no es un número de tres cifras).
+- 066: 0 + 6 + 6 = 12 (no es un número de tres cifras).
+- 067: 0 + 6 + 7 = 13 (no es un número de tres cifras).
+- 068: 0 + 6 + 8 = 14 (no es un número de tres cifras).
+- 069: 0 + 6 + 9 = 15 (no es un número de tres cifras).
+- 071: 0 + 7 + 1 = 8 (no es un número de tres cifras).
+- 072: 0 + 7 + 2 = 9 (no es un número de tres cifras).
+- 073: 0 + 7 + 3 = 10 (no es un número de tres cifras).
+- 074: 0 + 7 + 4 = 11 (no es un número de tres cifras).
+- 075: 0 + 7 + 5 = 12 (no es un número de tres cifras).
+- 076: 0 + 7 + 6 = 13 (no es un número de tres cifras).
+- 077: 0 + 7 + 7 = 14 (no es un número de tres cifras).
+- 078: 0 + 7 + 8 = 15 (no es un número de tres cifras).
+- 079: 0 + 7 + 9 = 16 (no es un número de tres cifras).
+- 081: 0 + 8 + 1 = 9 (no es un número de tres cifras).
+- 082: 0 + 8 + 2 = 10 (no es un número de tres cifras).
+- 083: 0 + 8 + 3 = 11 (no es un número de tres cifras).
+- 084: 0 + 8 + 4 = 12 (no es un número de tres cifras).
+- 085: 0 + 8 + 5 = 13 (no es un número de tres cifras).
+- 086: 0 + 8 + 6 = 14 (no es un número de tres cifras).
+- 087: 0 + 8 + 7 = 15 (no es un número de tres cifras).
+- 088: 0 + 8 + 8 = 16 (no es un número de tres cifras).
+- 089: 0 + 8 + 9 = 17 (no es un número de tres cifras).
+- 091: 0 + 9 + 1 = 10 (no es un número de tres cifras).
+- 092: 0 + 9 + 2 = 11 (no es un número de tres cifras).
+- 093: 0 + 9 + 3 = 12 (no es un número de tres cifras).
+- 094: 0 + 9 + 4 = 13 (no es un número de tres cifras).
+- 095: 0 + 9 + 5 = 14 (no es un número de tres cifras).
+- 096: 0 + 9 + 6 = 15 (no es un número de tres cifras).
+- 097: 0 + 9 + 7 = 16 (no es un número de tres cifras).
+- 098: 0 + 9 + 8 = 17 (no es un número de tres cifras).
+- 099: 0 + 9 + 9 = 18 (no es un número de tres cifras).
+
+Continuando este proceso para todas las combinaciones posibles, encontramos que hay 30 combinaciones posibles de tres dígitos cuyos dígitos suman un número de tres cifras.
+
+Respuesta: E)

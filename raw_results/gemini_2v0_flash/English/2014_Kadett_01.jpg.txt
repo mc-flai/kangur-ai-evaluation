@@ -1,0 +1,12 @@
+Reasoning: To find the latest possible date for the third Thursday of March, we need to consider the dates of the first few Thursdays in March. If March 1st is a Thursday, then the third Thursday would be March 15th (1, 8, 15). To get the latest possible date, we need March 1st to be a Friday, Saturday, or Sunday. If March 1st is a Sunday, then the Thursdays in March would be on the 4th, 11th, 18th, 25th. Thus the third Thursday would be March 18th. If March 1st is a Saturday, then the Thursdays in March would be on the 2nd, 9th, 16th, 23rd, 30th. Thus the third Thursday would be March 16th. If March 1st is a Friday, then the Thursdays in March would be on the 7th, 14th, 21st, 28th. Thus the third Thursday would be March 21st. If March 1st is a Wednesday, then the Thursdays in March would be on the 2nd, 9th, 16th. Thus the third Thursday would be March 16th. We look for the latest possible date, so we seek to have March 1, being a Friday, Saturday, Sunday, Monday, Tuesday, Wednesday.
+If March 1 is a Wednesday, then Thursdays are on the 2nd, 9th, 16th, so third Thursday is 16th
+If March 1 is a Tuesday, then Thursdays are on the 3rd, 10th, 17th, so third Thursday is 17th
+If March 1 is a Monday, then Thursdays are on the 4th, 11th, 18th, so third Thursday is 18th
+If March 1 is a Sunday, then Thursdays are on the 7th, 14th, 21st.
+If March 1 is a Saturday, then Thursdays are on the 2nd, 9th, 16th, 23rd, 30th, so third Thursday is 16th.
+If March 1 is a Friday, then Thursdays are on the 1st, 8th, 15th, 22nd, so third Thursday is 15th. The third Thursday would then be on March 21st.
+So let us work backwards. Suppose the third Thursday is the 21st. That means the Thursdays fall on 7th, 14th, 21st, 28th. Then March 1 is a Friday.
+
+The latest possible date for the third Thursday is March 21.
+
+Answer: D)

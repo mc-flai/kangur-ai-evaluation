@@ -1,0 +1,42 @@
+Raonament:
+Tenim quatre pots.
+Sigui x el nombre de pots amb 1 caramel, llavors el primer pot té x caramels.
+Sigui y el nombre de pots amb 2 caramels, llavors el segon pot té y caramels.
+Sigui z el nombre de pots amb 3 caramels, llavors el tercer pot té z caramels.
+Sigui w el nombre de pots amb 0 caramels, llavors el quart pot té w caramels.
+Tenim que x+y+z+w = 4, ja que tenim 4 pots.
+
+A més, sabem que el nombre de caramels en el primer pot és x, en el segon és y, en el tercer és z, i en el quart és w.
+Així doncs, el nombre total de caramels és x + y + z + w.
+
+Per tant, el nombre total de caramels és x + y + z + w.
+Però x és el nombre de pots amb 1 caramel.
+y és el nombre de pots amb 2 caramels.
+z és el nombre de pots amb 3 caramels.
+w és el nombre de pots amb 0 caramels.
+x, y, z, i w són enters no negatius i sumen 4.
+
+L'objectiu és trobar la suma total de caramels, que és x+y+z+w. Però ja sabem que x+y+z+w = 4.
+Per tant el nombre de caramels total és: 1*x + 2*y + 3*z + 0*w.
+A més sabem que x+y+z+w = 4
+El nombre de pots amb un caramel = x = Nombre de caramels en el primer pot.
+El nombre de pots amb dos caramels = y = Nombre de caramels en el segon pot.
+El nombre de pots amb tres caramels = z = Nombre de caramels en el tercer pot.
+El nombre de pots amb zero caramels = w = Nombre de caramels en el quart pot.
+
+Ara hem de trobar x+y+z+w i 1*x+2*y+3*z+0*w que siguin el mateix valor.
+
+Considerem w=1, de manera que x+y+z=3. El quart pot té 1 caramel, ja que hi ha 1 pot amb 0 caramels.
+
+Però x+y+z+w = 4, llavors x+y+z = 4-w. El total de caramels serà la suma de x+2y+3z+0w.
+Una possible solució es x=1, y=1, z=1, w=1.
+Nombre total de caramels = 1 + 2 + 3 + 0 = 6.
+Total de pots 1+1+1+1=4.
+1 pot té 1 caramel
+1 pot té 2 caramels
+1 pot té 3 caramels
+1 pot té 0 caramels
+
+Així que hem posat 6 caramels en total.
+
+Resposta: E)

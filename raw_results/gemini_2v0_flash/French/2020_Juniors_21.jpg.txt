@@ -1,0 +1,27 @@
+Reasoning:
+Let $d$ be the distance from the starting point where the hare changed direction, and $x$ be the distance from the arrival to the point where the hare changed direction. The hare runs 5 times faster than the turtle.
+The turtle travels a distance of 5 km. Let $v_t$ be the turtle's speed. The time it takes for the turtle to reach the finish line is $t = \frac{5}{v_t}$.
+The hare travels a distance $d$ perpendicularly to the correct route, and then a distance $\sqrt{x^2+d^2}$ to the finish line. The hare's speed is $5v_t$. The total distance the hare travels is $d+\sqrt{x^2+d^2}$. The time it takes for the hare is $\frac{d+\sqrt{x^2+d^2}}{5v_t}$.
+Since they arrive at the same time, $\frac{5}{v_t} = \frac{d+\sqrt{x^2+d^2}}{5v_t}$.
+Therefore, $25 = d+\sqrt{x^2+d^2}$, so $25-d = \sqrt{x^2+d^2}$.
+Squaring both sides, we have $(25-d)^2 = x^2+d^2$, so $625 - 50d + d^2 = x^2 + d^2$.
+Then $625 - 50d = x^2$.
+Since $x+d \ge 5$ and $x,d > 0$, $x = 5-d$. We made mistake to assume $x<5$. So we correct that.
+The distance on the correct route where the hare changed the direction is $5-x$.  Then $x$ is the distance from the turning point to the arrival.
+We have $d+\sqrt{d^2+x^2} = 25$.  So we also know $625 - 50d = x^2$.  We can calculate how far along the 5km route the hare has ran perpendicularly. The coordinates are (d, 5-x).  Then the final part of the race is length sqrt(x^2 + d^2).
+
+Let $5-x = y$ be how much distance the hare should have ran perpendicularly.  Since the tortoise runs 5 km in a given time, the hare has run d, then distance sqrt(x^2+d^2) = 25-d in the same amount of time as the tortoise.  sqrt(x^2+d^2) = 25-d implies x^2+d^2 = (25-d)^2.  So x^2+d^2 = 625 -50d + d^2.  Then x^2 = 625 -50d.
+We have $x=12, d=13, \sqrt{144+169}$
+
+However, this problem seems to only have integer solutions for x, so we can test the numbers.
+If x=11 km, $121 = 625 - 50d$. $50d = 504$, $d = 10.08$ which makes no sense.
+If x=12 km, $144 = 625 - 50d$. $50d = 481$, $d = 9.62$ no.
+If x=13 km, $169 = 625 - 50d$. $50d = 456$, $d = 9.12$ no.
+If x=14 km, $196 = 625 - 50d$. $50d = 429$, $d = 8.58$ no.
+If x=15 km, $225 = 625 - 50d$. $50d = 400$, $d = 8$, then we get the correct answer.
+
+Reasoning:
+Let x be the distance of the point from the arrival. The hare runs perpendicularly for a distance d, then to the arrival over $\sqrt{d^2+x^2}$. Hare ran five times faster than the tortoise for 5 km, so the hare ran d + $\sqrt{x^2+d^2}$ = 25. Then $\sqrt{x^2+d^2}$ = 25-d, so $x^2+d^2$ = $625+d^2 -50d$ and thus $x^2$ = 625-50d. Only for x=15 this can work, where $d$ = 8.
+
+Answer: E)
+Final Answer: E)

@@ -1,0 +1,10 @@
+**Reasoning**:
+The problem asks for the number of points on a plane surface that are exactly 1 cm away from two corner points of a square with side lengths of 1 cm.
+
+To be exactly 1 cm away from two corner points of a square, a point must lie on the circle with a radius of 1 cm centered at each of those corner points. For two points to be exactly 1 cm away from two corner points, they must lie at the intersections of these circles.
+
+Since the side length of the square is 1 cm, the circles centered at the corners will intersect exactly at the midpoints of the sides of the square. Each side of the square will have one such intersection point for each pair of adjacent corners.
+
+A square has four corners and four sides. Each side will have one intersection point that is exactly 1 cm away from the two corner points at the ends of that side. Therefore, there will be a total of 4 such points.
+
+**Answer**: A)

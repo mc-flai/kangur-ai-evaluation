@@ -1,0 +1,22 @@
+Reasoning:
+First, we need to find the prime factorization of 2020.
+$2020 = 2^2 \times 5 \times 101$.
+The divisors of 2020 are 1, 2, 4, 5, 10, 20, 101, 202, 404, 505, 1010, 2020. There are 12 divisors.
+We are looking for two divisors a and b such that a is not a divisor of b and b is not a divisor of a. This means a $\ne$ b.
+We can create a chain of divisors: 1, 2, 4, 20, 404, 2020. In this set, each element divides the next. In general, if we have a set of divisors where each divides the next, then no two elements will satisfy the given condition.
+Consider the set of divisors of the form $2^a 5^b 101^c$ where $0 \le a \le 2$, $0 \le b \le 1$, $0 \le c \le 1$.
+Let's list the divisors in increasing order:
+1, 2, 4, 5, 10, 20, 101, 202, 404, 505, 1010, 2020.
+The longest chain where each number divides the next is 1, 2, 4, 20, 404, 2020.
+However, we are looking for two numbers that do not divide each other.
+Consider taking the divisors that are close to $\sqrt{2020} \approx 44.9$. We have 20, 101.
+Suppose we take all divisors that are multiples of 1 (i.e., all). This will result in a set of divisors that do divide each other.
+A sequence where each divides the next is: 1, 2, 4, 20, 404, 2020. In this case, we can choose at most one divisor from the set. We have 6 divisors in this chain.
+If we pick 7 divisors, at least one of those must not be in that sequence. We have to make sure that a is not a divisor of b, and b is not a divisor of a.
+Consider picking the smallest 6 divisors: 1, 2, 4, 5, 10, 20. Then any pair satisfies the given condition.
+If we pick 5 divisors such that each divides the other, such as 1, 2, 4, 20, 2020, then there aren't two numbers that don't divide each other.
+Consider the chain of divisors 1, 2, 4, 20, 404, 2020. The remaining divisors are 5, 10, 101, 202, 505, 1010. Pick 5, 101, 202, 505, 1010. None divide each other. So you can have 6 divisors.
+If we have chosen 7 divisors, we must have two numbers that do not divide each other.
+So the minimum number of cards that must be taken out is 7.
+
+Answer: C)

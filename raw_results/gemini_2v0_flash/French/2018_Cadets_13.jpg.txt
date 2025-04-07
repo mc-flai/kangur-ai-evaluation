@@ -1,0 +1,16 @@
+Reasoning:
+Let the 11 points be $x_1, x_2, ..., x_{11}$ in increasing order.
+The sum of distances between the first point and all other points is
+$S_1 = \sum_{i=2}^{11} (x_i - x_1) = (x_2 - x_1) + (x_3 - x_1) + ... + (x_{11} - x_1) = 2018$.
+The sum of distances between the second point and all other points is
+$S_2 = \sum_{i=1, i \ne 2}^{11} |x_i - x_2| = (x_2 - x_1) + \sum_{i=3}^{11} (x_i - x_2) = (x_2 - x_1) + (x_3 - x_2) + (x_4 - x_2) + ... + (x_{11} - x_2) = 2000$.
+$S_1 = (x_2 - x_1) + (x_3 - x_1) + ... + (x_{11} - x_1) = 2018$
+$S_2 = (x_2 - x_1) + (x_3 - x_2) + ... + (x_{11} - x_2) = 2000$
+$S_1 - S_2 = [(x_3 - x_1) - (x_3 - x_2)] + [(x_4 - x_1) - (x_4 - x_2)] + ... + [(x_{11} - x_1) - (x_{11} - x_2)]$
+$S_1 - S_2 = (x_2 - x_1) + (x_2 - x_1) + ... + (x_2 - x_1)$ (9 times)
+$2018 - 2000 = 9(x_2 - x_1)$
+$18 = 9(x_2 - x_1)$
+$x_2 - x_1 = \frac{18}{9} = 2$
+The distance between the first point and the second point is 2.
+
+Answer: B)

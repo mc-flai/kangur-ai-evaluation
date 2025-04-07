@@ -1,0 +1,8 @@
+Razonamiento:
+Un número de la forma "abab" tiene la estructura 1000a + 100b + 10a + b = 1010a + 101b.  Como 'a' y 'b' son dígitos y a != b:
+- 'a' puede ser cualquier dígito de 1 a 9 (no puede ser 0, ya que sería un número de 3 cifras). Esto da 9 opciones.
+- 'b' puede ser cualquier dígito de 0 a 9, pero diferente de 'a'.  Esto da 9 opciones (10 dígitos menos el valor de 'a').
+El número total de números "interesantes" es el producto de las opciones para 'a' y 'b'.
+Por lo tanto, el número de números es 9 * 9 = 81.
+
+Respuesta: B)

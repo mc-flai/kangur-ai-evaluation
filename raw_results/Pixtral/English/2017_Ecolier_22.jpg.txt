@@ -1,0 +1,20 @@
+### Reasoning:
+Susi wants to visit exactly two of the animals, but she does not want to start with the lion. The animals she can visit are a giraffe, an elephant, and a turtle. We need to calculate the number of different possibilities for visiting two animals one after the other, excluding the lion as the starting animal.
+
+1. If Susi starts with the giraffe, she can then visit either the elephant or the turtle.
+2. If Susi starts with the elephant, she can then visit either the giraffe or the turtle.
+3. If Susi starts with the turtle, she can then visit either the giraffe or the elephant.
+
+Let's list the possibilities:
+- Giraffe → Elephant
+- Giraffe → Turtle
+- Elephant → Giraffe
+- Elephant → Turtle
+- Turtle → Giraffe
+- Turtle → Elephant
+
+Counting these, we have 6 possibilities. However, we need to consider that the order in which she visits the two animals matters (e.g., Giraffe → Elephant is different from Elephant → Giraffe).
+
+Therefore, the total number of different possibilities is 6.
+
+### Answer: B)

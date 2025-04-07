@@ -1,0 +1,16 @@
+Razonamiento:
+Tenemos que $\frac{a}{5} = \frac{7}{b}$. Podemos reescribir esto como $a \cdot b = 5 \cdot 7 = 35$.
+Dado que $a$ y $b$ son números enteros positivos, buscamos los pares de factores positivos de 35.
+Los factores de 35 son 1, 5, 7, 35.
+Los pares de factores son (1, 35), (5, 7), (7, 5), (35, 1).
+De $\frac{a}{5} = \frac{7}{b}$, obtenemos $ab = 35$.
+Entonces los posibles pares (a, b) son:
+\begin{itemize}
+    \item Si $a = 1$, $b = 35$, entonces $\frac{1}{5} = \frac{7}{35}$, lo cual es cierto.
+    \item Si $a = 5$, $b = 7$, entonces $\frac{5}{5} = \frac{7}{7}$, lo cual es cierto.
+    \item Si $a = 7$, $b = 5$, entonces $\frac{7}{5} = \frac{7}{5}$, lo cual es cierto.
+    \item Si $a = 35$, $b = 1$, entonces $\frac{35}{5} = \frac{7}{1}$, que es $7 = 7$, lo cual es cierto.
+\end{itemize}
+Todos estos pares son soluciones válidas, por lo tanto hay 4 pares de soluciones (a, b) distintas.
+
+Respuesta: E)

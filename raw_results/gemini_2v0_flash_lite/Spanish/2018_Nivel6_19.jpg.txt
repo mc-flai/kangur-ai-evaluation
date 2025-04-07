@@ -1,0 +1,17 @@
+Razonamiento:
+1. **Identificar los valores de las cartas:** Las cartas tienen los valores 3, 4, 5, 6 y 7.
+2. **Entender la condición:** Nadia tiene 3 cartas y Raúl tiene 2.  La suma de los productos de los valores de sus cartas debe ser un número primo.
+3. **Probar diferentes combinaciones:** Probaremos diferentes combinaciones de cartas para Nadia y Raúl, calculando los productos y su suma, y verificando si la suma es un número primo.
+    *   **Caso 1:** Nadia: 3, 4, 5. Producto: 3 * 4 * 5 = 60. Raúl: 6, 7. Producto: 6 * 7 = 42.  Suma: 60 + 42 = 102 (no primo).
+    *   **Caso 2:** Nadia: 3, 4, 6. Producto: 3 * 4 * 6 = 72. Raúl: 5, 7. Producto: 5 * 7 = 35. Suma: 72 + 35 = 107 (primo). Suma de las cartas de Nadia: 3 + 4 + 6 = 13
+    *   **Caso 3:** Nadia: 3, 4, 7. Producto: 3 * 4 * 7 = 84. Raúl: 5, 6. Producto: 5 * 6 = 30. Suma: 84 + 30 = 114 (no primo).
+    *   **Caso 4:** Nadia: 3, 5, 6. Producto: 3 * 5 * 6 = 90. Raúl: 4, 7. Producto: 4 * 7 = 28. Suma: 90 + 28 = 118 (no primo).
+    *   **Caso 5:** Nadia: 3, 5, 7. Producto: 3 * 5 * 7 = 105. Raúl: 4, 6. Producto: 4 * 6 = 24. Suma: 105 + 24 = 129 (no primo).
+    *   **Caso 6:** Nadia: 3, 6, 7. Producto: 3 * 6 * 7 = 126. Raúl: 4, 5. Producto: 4 * 5 = 20. Suma: 126 + 20 = 146 (no primo).
+    *   **Caso 7:** Nadia: 4, 5, 6. Producto: 4 * 5 * 6 = 120. Raúl: 3, 7. Producto: 3 * 7 = 21. Suma: 120 + 21 = 141 (no primo).
+    *   **Caso 8:** Nadia: 4, 5, 7. Producto: 4 * 5 * 7 = 140. Raúl: 3, 6. Producto: 3 * 6 = 18. Suma: 140 + 18 = 158 (no primo).
+    *   **Caso 9:** Nadia: 4, 6, 7. Producto: 4 * 6 * 7 = 168. Raúl: 3, 5. Producto: 3 * 5 = 15. Suma: 168 + 15 = 183 (no primo).
+    *   **Caso 10:** Nadia: 5, 6, 7. Producto: 5 * 6 * 7 = 210. Raúl: 3, 4. Producto: 3 * 4 = 12. Suma: 210 + 12 = 222 (no primo).
+4. **Encontrar la respuesta:** La única combinación que resulta en un número primo es con Nadia teniendo las cartas 3, 4, 6, cuya suma es 13.
+
+Respuesta: B)

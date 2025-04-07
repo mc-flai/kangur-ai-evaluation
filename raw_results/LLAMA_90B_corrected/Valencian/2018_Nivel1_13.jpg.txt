@@ -1,0 +1,12 @@
+Raonament: 1.  **Anàlisi de la pregunta i del tipus de problema**: 
+Analitzarem el funcionament de la imatge. Hi ha dos qudrats, un dins l'altre. La pregunta es refereix a l'àrea dels quabdats. Per tant, resolarem un problema d'àrea.
+
+2.  **Desenvolupament de la solució**:
+*   Hem de trobar les lletres que coincideixen amb l'àrea màxima, ja que cadascun dels quadrats és la quarta part de l'àrea de cada quadrat original.
+*   Cal que primer trobem l'àrea del quadrat original que envolta els dos qudrats interactuants. Tindrem en compte que, per obtenir-ne l'àrea, ho multipliquem per quatre, ja que representa la quarta part de quatre quadrats interactuants.
+*   Hem de trobar la mateixa lògica per trobar el quadrat sense interaccionar. Per tant, donats dos qudrats interactuants, podríem analitzar només una part dels qudrats interactuants compressent cap al centre fins a arribar a un quadrat no interaccionant. Ja en tenim una idea, però hem d'afegir els valors correctes fins a saber esn qual n'és el correcte.
+*   Per començar, provarem si és el quadrat interaccionat i el multipliquem per quatre: $2018\ m^2\times4=8072\ m^2$.
+*   Ara, provarem amb el no interaccionat i també el multipliquem per quatre: $3027\times4=12\-infinitm^2$
+*   Ara entra el tipus famós de càlcul binari. Tenim l'elecció A) 504,5 cm², B) 1010 cm², C) 2018 cm², D) 3027 cm² i E) 3530 cm². A banda de tenir totes les seves quatre vértexs en l'eix x positiva o allà on vagen a acabar, lamentably els càlculs no absorşquen els resultats de totes elles
+
+Resposta: No Answer

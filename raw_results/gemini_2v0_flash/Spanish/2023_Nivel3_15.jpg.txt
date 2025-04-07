@@ -1,0 +1,9 @@
+Razonamiento:
+Primero, visualizo un cuadrado con lados de 1 cm. Necesito encontrar puntos que estén a 1 cm de distancia de exactamente dos vértices.
+
+*   **Lados del cuadrado:** Para cada lado del cuadrado, podemos construir un punto fuera del cuadrado que está a 1 cm de cada uno de los dos vértices que definen ese lado. Esto nos da 4 puntos.
+*   **Diagonales:** Para cada par de vértices opuestos (es decir, los que definen una diagonal), no podemos construir un punto que esté a 1 cm de ambos vértices. La distancia entre vértices opuestos es la diagonal, que es $\sqrt{2}$ cm, y no hay un punto en el plano que esté simultáneamente a 1 cm de ambos.
+*   **Otro análisis:** Cada lado del cuadrado tiene dos vértices. La distancia entre los vértices es 1. Si tomo el lado izquierdo del cuadrado, puedo formar un triángulo equilátero con base en ese lado. De igual manera, para cada uno de los cuatro lados puedo formar triángulos equiláteros afuera del cuadrado.
+*   **Revisión** Al final, tenemos los 4 puntos exteriores del cuadrado, formados con los lados.
+
+Respuesta: A)

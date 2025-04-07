@@ -1,0 +1,21 @@
+
+The problem involves finding the hidden number under the black card in a row of numbers where the sum of three numbers in the row equals the number to the right of the row. The options given are 6, 8, 10, 12, and 14.
+
+**Reasoning:**
+The numbers provided in the row to the right are 34, 32, and 26. Let's analyze the rows:
+1. The sum of the three hidden numbers in the first row equals 34.
+2. The sum of the three hidden numbers in the second row equals 32.
+3. The sum of the three hidden numbers in the third row equals 26.
+
+To find the hidden number under the black card, we need to identify which number fits correctly into the sums of these rows.
+
+Given that the sum of the third row is 26, and assuming two of the numbers in the third row are the same (as per the problem statement), we can test the options:
+- If the hidden number is 6, then 6 + x + x = 26 implies 2x = 20, so x = 10. This does not fit the other sums.
+- If the hidden number is 8, then 8 + x + x = 26 implies 2x = 18, so x = 9. This does not fit the other sums.
+- If the hidden number is 10, then 10 + x + x = 26 implies 2x = 16, so x = 8. This fits the other sums.
+- If the hidden number is 12, then 12 + x + x = 26 implies 2x = 14, so x = 7. This does not fit the other sums.
+- If the hidden number is 14, then 14 + x + x = 26 implies 2x = 12, so x = 6. This does not fit the other sums.
+
+Therefore, the hidden number under the black card must be 10, as it fits the sums correctly.
+
+**Answer:** C).

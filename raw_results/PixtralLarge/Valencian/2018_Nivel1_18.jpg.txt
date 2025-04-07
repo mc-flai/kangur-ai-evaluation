@@ -1,0 +1,59 @@
+**Raonament**: Per trobar la quantitat mínima de dígits que es poden canviar per obtenir una suma final de 987, hem de mirar quina de les xifres 222, 333, 444 o 555 és la més propera a 987.
+
+Primera revisem les possibles sumes:
+- 222 + 333 + 444 + 555 = 1554
+- 987 és menor que 1554.
+
+Per aconseguir que la suma sigui 987 hem de reduir la suma total (1554) en 567 (1554 - 987 = 567).
+
+Trobem quines xifres canviar per reduir la suma en 567:
+- Canviem un 5 per un 0 en 555: 555 - 500 = 55
+- Canviem un 4 per un 0 en 444: 444 - 400 = 44
+- Canviem un 3 per un 0 en 333: 333 - 300 = 33
+- Canviem un 2 per un 0 en 222: 222 - 200 = 22
+
+Sumem aquestes reduccions per veure si sumen 567:
+500 + 400 + 300 + 200 = 1400 (això és massa, així que no és correcte).
+
+Provem una altra combinació:
+- Canviem un 4 per un 0 en 444: 444 - 400 = 44
+- Canviem un 3 per un 0 en 333: 333 - 300 = 33
+- Canviem un 5 per un 0 en 555: 555 - 500 = 55
+
+Sumem aquestes reduccions:
+400 + 300 + 500 = 1200 (encara és massa).
+
+Provem amb més combinacions:
+- Canviem un 5 per un 0 en 555: 555 - 500 = 55
+- Canviem un 4 per un 1 en 444: 444 - 400 + 1 = 45
+- Canviem un 3 per un 0 en 333: 333 - 300 = 33
+
+Sumem aquestes reduccions:
+500 + 400 + 300 = 1200 (és massa).
+
+Finalment, trobem una combinació que funcioni:
+- Canviem un 5 per un 0 en 555: 555 - 500 = 55
+- Canviem un 4 per un 0 en 444: 444 - 400 = 44
+- Canviem un 3 per un 0 en 333: 333 - 300 = 33
+
+Sumem aquestes reduccions:
+500 + 400 + 300 = 1200 (és massa).
+
+Però, si canviem:
+- 5 per 0 en 555: 555 - 500 = 55
+- 4 per 0 en 444: 444 - 400 = 44
+- 3 per 0 en 333: 333 - 300 = 33
+
+Aquestes reduccions sumen:
+500 + 400 + 300 = 1200 (és massa).
+
+Finalment, trobem que:
+- Canviem un 5 per 0 en 555: 555 - 500 = 55
+- Canviem un 4 per 0 en 444: 444 - 400 = 44
+
+Sumem aquestes reduccions:
+500 + 400 = 900 (correcte, ja que 1554 - 567 = 987).
+
+Per tant, la quantitat mínima de dígits que cal canviar és 2.
+
+**Resposta**: B) 4

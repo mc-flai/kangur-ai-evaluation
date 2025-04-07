@@ -1,0 +1,19 @@
+Raonament:
+1.  **Identificar les condicions:** Hem de trobar quatre nombres enters positius diferents.
+2.  **Organitzar la quadrícula:** Els nombres de la primera fila han de multiplicar-se per donar 6. Els de la segona fila han de multiplicar-se per donar 8. Els de la primera columna han de multiplicar-se per donar 4, i els de la segona columna, per donar 12.
+3.  **Trobar les combinacions:**
+    *   Per a 6: 1 i 6 o 2 i 3.
+    *   Per a 8: 1 i 8 o 2 i 4.
+    *   Per a 4: 1 i 4 o 2 i 2.
+    *   Per a 12: 2 i 6 o 3 i 4.
+4.  **Combinar-les:**
+    *   Si posem 2 i 3 en la primera fila, i 4 i 2 en la segona fila (per a 8), no funciona perquè 3x4 no pot ser 4 (columna).
+    *   Si posem 1 i 6 en la primera fila, i 2 i 4 en la segona fila (per a 8), la primera columna necessita que tinga 1 i 2, i la segona, 6 i 4. Aleshores, en la primera fila 1*6=6, en la segona 2*4=8, en la primera columna 1*2=2, en la segona columna 6*4=24. Això no és vàlid.
+    *   Si posem 2 i 3 a la primera fila (per a 6) i 2 i 4 a la segona fila (per a 8). Si posem 2 i 2 en la primera columna (per a 4), i 3 i 4 a la segona columna (per a 12). Això no és vàlid perquè no pot ser 2 i 2.
+    *   Si posem 2 i 3 a la primera fila (per a 6) i 4 i 2 a la segona fila (per a 8). Si posem 2 i 4 a la primera columna (per a 8), i 3 i 2 a la segona columna (per a 6). Això no és vàlid perquè no pot ser 3 i 2 en la segona columna.
+    *   Si posem 2 i 3 a la primera fila (per a 6) i 4 i 2 a la segona fila (per a 8). Necessitem 1 i 4 per a la primera columna i 3 i 4 per a la segona columna. Si posem 1 i 3, i 4 i 2, necessitem que 1*4=4 i 3*4=12. Aleshores els nombres són 1, 3, 4 i 2. 1*3=3; 4*2=8; 1*4=4; 3*2=6.
+    *   Si posem 1 i 6 en la primera fila (per a 6) i 4 i 2 en la segona fila (per a 8). 1*4=4 i 6*2=12.
+    *   Els nombres són 1, 6, 4 i 2. 1+6+2+4=13.
+5.  **Sumar els nombres:** La suma dels quatre nombres és 1 + 2 + 4 + 6 = 13.
+
+Resposta: D)

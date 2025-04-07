@@ -1,0 +1,4 @@
+Reasoning: The problem describes a scenario where comparing any two pairs of coins on a balance scale reveals the heaviest of the four. To minimize the weight of the heaviest coin, we should consider the powers of 2. With eight coins, the comparison process can be seen as a binary tree. If we have the weights as 1, 2, 4, 8, 16, 32, 64, and 128. The heaviest of four coin is 128, and two coins can be on one side of the balance and two on the other, and the condition is always held. Now let's check 8 coins.
+The coins have different positive integer weights. If we think of it in terms of a binary tree, to ensure that the heaviest of the four coins is always on the heavier side, we can assign weights based on powers of 2. So the weights can be 1, 2, 4, 8, 16, 32, 64, 128. We can compare any two coins with any other two coins. The heaviest of those four will always be on the heavier side. The weight of the heaviest coin is 128.
+
+Answer: D)

@@ -1,0 +1,20 @@
+Raonament:
+Sigui a, b, c les longituds dels tres costats d'un triangle. Per la desigualtat triangular, la suma de dos costats qualssevol ha de ser més gran que el tercer costat. Així, a + b > c, a + c > b i b + c > a. També, sabem que a + b + c = 20. Com que a + b > c, tenim 20 - c > c, així que 20 > 2c i c < 10. Per la simetria, això significa que els tres costats han de ser més petits que 10.
+A més, suposem a >= b >= c. Així, la suma dels dos costats més petits ha de ser més gran que el costat més gran: b + c > a. També, a + b + c = 20. Com que a >= b >= c, sabem que 3a >= a + b + c = 20, així a >= 20/3 = 6.666... Per tant, a >= 7.
+Ara enumerem els possibles valors de a, b i c tals que a >= b >= c, a + b + c = 20 i a < b + c.
+- a = 9: b + c = 11. Les possibilitats per (b,c) són (9,2), (8,3), (7,4), (6,5). Totes compleixen b >= c. Necessitem b + c > a, que és 11 > 9, cert.
+- a = 8: b + c = 12. Les possibilitats per (b,c) són (8,4), (7,5), (6,6). Necessitem b + c > a, que és 12 > 8, cert.
+- a = 7: b + c = 13. Les possibilitats per (b,c) són (7,6). Necessitem b + c > a, que és 13 > 7, cert.
+
+Així, els triangles possibles són:
+(9,9,2)
+(9,8,3)
+(9,7,4)
+(9,6,5)
+(8,8,4)
+(8,7,5)
+(8,6,6)
+(7,7,6)
+Hi ha 8 triangles diferents.
+
+Resposta: C)

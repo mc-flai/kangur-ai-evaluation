@@ -1,0 +1,18 @@
+Raonament: Sigui $A(\triangle ABC)$ l'àrea del triangle $ABC$. Tenim que els quatre triangles formats tenen la mateixa àrea, per tant $A(\triangle CBF) = A(\triangle BFE) = A(\triangle AED) = A(\triangle CFE) = \frac{1}{4} A(\triangle ABC)$.
+L'àrea del triangle $CBF$ és $\frac{1}{4} A(\triangle ABC)$, i com els triangles $CBF$ i $CBA$ comparteixen l'altura respecte als vèrtexs $C$, la relació entre les seves àrees és igual a la relació entre les seves bases: $\frac{A(\triangle CBF)}{A(\triangle CBA)} = \frac{BF}{BA} = \frac{1}{4}$. Així, $BF = \frac{1}{4}BA$, i $FA = BA - BF = BA - \frac{1}{4} BA = \frac{3}{4} BA$.
+
+L'àrea del triangle $CFE$ és $\frac{1}{4}A(\triangle ABC)$. Els triangles $CFE$ i $CAE$ tenen la mateixa altura respecte al vèrtex $E$, per tant $\frac{A(\triangle CFE)}{A(\triangle CAE)} = \frac{CF}{CA}$. L'àrea del triangle $CAE = A(\triangle ABC) - (A(\triangle CBF) + A(\triangle BFE)) = A(\triangle ABC) - \frac{1}{4} A(\triangle ABC) - \frac{1}{4} A(\triangle ABC) = \frac{1}{2} A(\triangle ABC)$. Per tant $\frac{1}{4} A(\triangle ABC) / \frac{1}{2} A(\triangle ABC) = \frac{CF}{CA} = \frac{1}{2}$. Llavors, $CF = \frac{1}{2} CA$.
+
+L'àrea del triangle $AED$ és $\frac{1}{4}A(\triangle ABC)$, i l'àrea del triangle $ABC$ és $\frac{1}{2} \cdot AB \cdot h_C = A$, on $h_C$ és l'altura relativa a $C$.
+Aleshores, $\frac{A(\triangle AED)}{A(\triangle ABC)} = \frac{\frac{1}{2} AD \cdot h'}{\frac{1}{2} AB \cdot h} = \frac{AD}{AB} \cdot \frac{h'}{h} = \frac{1}{4}$. Assumint que l'altura dels triangles $AED$ i $ABC$ sobre la base $AB$ és la mateixa, llavors $h' = h$ i $\frac{AD}{AB} = \frac{1}{4}$. Llavors $BD = AB - AD = AB - \frac{1}{4} AB = \frac{3}{4} AB$.
+Tenim $AF = \frac{3}{4} AB$ i $BD = \frac{3}{4} AB$, per tant $\frac{AF}{BD} = \frac{\frac{3}{4}AB}{\frac{3}{4}AB} = 1$.
+
+Raonament:
+Siguin els triangles $CBF, FBE, EDA$ i $FEC$ amb àrea $A$. Llavors, $\text{area}(ABC) = 4A$.
+$\frac{BF}{BA} = \frac{A(CBF)}{A(CBA)} = \frac{A}{4A} = \frac{1}{4}$.
+$BF = \frac{1}{4} BA$. Així $AF = BA - BF = BA - \frac{1}{4}BA = \frac{3}{4}BA$.
+$\frac{AD}{AB} = \frac{A(AED)}{A(AEB)}$ és incorrecte. $\frac{AD}{AB} = \frac{A(ADE)}{A(ABC)} = \frac{A}{4A} = \frac{1}{4}$. Llavors $AD = \frac{1}{4}AB$.
+$BD = AB - AD = AB - \frac{1}{4}AB = \frac{3}{4}AB$.
+$\frac{AF}{DB} = \frac{\frac{3}{4}AB}{\frac{3}{4}AB} = 1$.
+
+Resposta: A)

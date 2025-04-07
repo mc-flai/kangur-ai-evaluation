@@ -1,0 +1,23 @@
+Reasoning:
+Let's first calculate the original expression: 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 2 - (0+1+5+2+0+1+5+2+0+1+5) = 2 - 22 = -20.
+We want to reach 0, so we need to add 20. By changing a "-" sign to a "+", we are essentially adding twice the number following that sign.
+
+A) If we change 1 sign, say the first '-', we have 2 + 0 - 1 - 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 2 + 0 - 21 = -19.
+If we change 2 - 0, we have 2 + 0 - 1 - 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 2+0-21 = -19.
+If we change -1, we have 2 - 0 + 1 - 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 3-21 = -18.
+If we change -5, we have 2 - 0 - 1 + 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 6-16 = -10.
+
+Let n be the number of "-" we change to "+".
+If we change n "-" signs, we are adding twice each of the corresponding numbers. So we want to find the minimum n such that -20 + 2*(sum of chosen numbers) = 0, or sum of chosen numbers = 10.
+
+If we change the first -5, 2 - 0 - 1 + 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = -20 + 2*5 = -10.
+
+The numbers after the minus signs are 0, 1, 5, 2, 0, 1, 5, 2, 0, 1, 5.
+Let's look for a combination that adds up to 10:
+5+5=10. So we change two -5. Then 2 - 0 - 1 + 5 - 2 - 0 - 1 - 5 - 2 - 0 - 1 + 5 = 2 + 5 - 2 - 1 - 5 - 2 - 0 - 1 - 5 = -20 + 2*5 + 2*5=0.
+So, 2 changes are required.
+
+Reasoning:
+The original expression evaluates to -20. We need to change some minus signs to plus signs so the expression equals 0. Changing a minus to a plus adds twice the number. We need a sum of 10 from the numbers after the minus signs: 0, 1, 5, 2, 0, 1, 5, 2, 0, 1, 5. We can achieve 10 by selecting 5 and 5.
+
+Answer: B)

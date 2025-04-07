@@ -1,0 +1,25 @@
+Primer, analitzem els requisits del problema:
+
+- Totes les cares del cub han de tenir una lletra diferent.
+- Hi ha un total de 8 cares, i cada lletra ha de tenir 2 cares oposades.
+- Les cares oposades no poden tenir la mateixa lletra.
+
+Observem el cub:
+
+- La cara superior és \(C\).
+- La cara inferior és \(C\).
+- La cara dreta és \(D\).
+- La cara esquerra és \(B\).
+- La cara frontal és \(A\).
+- La cara del darrere és \(B\).
+
+Podem deduir les cares restants:
+- La cara oposada a la frontal (\(A\)) és la cara del darrere, que ja sabem que és \(B\).
+- La cara oposada a la dreta (\(D\)) és la cara esquerra, que ja sabem que és \(B\).
+- La cara oposada a la superior (\(C\)) és la cara inferior, que ja sabem que és \(C\).
+
+Per tant, la lletra que falta per a la cara que no es veu (la cara posterior) ha de ser diferent de les lletres \(A\), \(B\), \(C\) i \(D\). L'única lletra que queda és \(D\).
+
+Raonament: La cara posterior, que és la cara oposada a la cara frontal (\(A\)), no pot ser \(A\), \(B\), \(C\) o \(D\). L'única lletra que queda és \(D\).
+
+Resposta: D).

@@ -1,0 +1,24 @@
+La pregunta 9 presenta una operación definida entre números reales llamada «⊙», definida por \( x ⊙ y = y - x \). Se nos pide determinar si se cumplen ciertas relaciones entre \( a \), \( b \) y \( c \) bajo la operación \( ⊙ \).
+
+Para resolver esto, primero debemos entender cómo funciona la operación \( ⊙ \). La definición es \( x ⊙ y = y - x \). Esto significa que la operación \( ⊙ \) resta \( x \) de \( y \).
+
+Ahora, consideremos la expresión \( (a ⊙ b) ⊙ c \) y \( a ⊙ (b ⊙ c) \):
+
+1. \( (a ⊙ b) ⊙ c \):
+   \[
+   (a ⊙ b) ⊙ c = (b - a) ⊙ c = c - (b - a) = c - b + a
+   \]
+
+2. \( a ⊙ (b ⊙ c) \):
+   \[
+   a ⊙ (b ⊙ c) = a ⊙ (c - b) = (c - b) - a = c - b - a
+   \]
+
+Comparando ambas expresiones:
+\[
+(c - b + a) \neq (c - b - a)
+\]
+
+Por lo tanto, las relaciones no son necesariamente ciertas bajo la operación \( ⊙ \).
+
+**Respuesta: D)**

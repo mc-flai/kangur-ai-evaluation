@@ -1,0 +1,109 @@
+Razonamiento:
+Dado que los tres dados son iguales, la suma de los números en las caras opuestas es constante. En el primer dado vemos que las caras visibles son 34, 22 y 8. En el segundo dado vemos que las caras visibles son 5, 8 y 13. En el tercer dado vemos que las caras visibles son 17, 13 y 22.
+
+Dado 8 está visible en los dos primeros dados, podemos ver las caras opuestas a 34, 22, 5 y 13. Si llamamos x, y, z a las caras que tocan la mesa, tenemos que encontrar x + y + z. Las caras que tocan la mesa deben ser opuestas a las caras visibles.
+
+Dado 1: x (oculta) es opuesta a 34, 22 o 8
+Dado 2: y (oculta) es opuesta a 5, 8 o 13
+Dado 3: z (oculta) es opuesta a 17, 13 o 22
+
+Dado que los dados son idénticos, la suma de los números en las caras opuestas es la misma para cada dado. Analizando los dados,
+El primer dado muestra 34, 22, 8
+El segundo dado muestra 5, 8, 13
+El tercer dado muestra 17, 13, 22
+Observamos que 8 y 13 están presentes en los 3 dados, entonces las caras opuestas a ellas deben ser 17, 34, 5 y 22.
+Llamemos a las caras ocultas x, y, z. Queremos saber la suma de x + y + z.
+Los números que faltan son 5, 17 y 34. Es posible que x = 5, y = 17 y z = 34.
+
+La cara opuesta a 34 es 5.
+La cara opuesta a 8 es 17.
+La cara opuesta a 22 es 13.
+5+17+13+22+8+34 = 99
+
+Si x es opuesta a 34, entonces x = 5.
+Si y es opuesta a 5, entonces y = 34.
+Si z es opuesta a 17, entonces z = 8.
+
+Tenemos que 34 + 5 = 39
+22 + 13 = 35
+8 + 17 = 25
+
+Es posible que la suma de las caras opuestas sea constante. Es posible que la suma sea 39.
+Cara opuesta a 34 es 5.
+Cara opuesta a 5 es 34.
+Cara opuesta a 17 es 22 = 39.
+Cara opuesta a 22 es 17.
+Cara opuesta a 8 es 31.
+Cara opuesta a 13 es 26.
+
+Si la suma de caras opuestas es 39:
+Cara opuesta a 34 es 5
+Cara opuesta a 5 es 34
+Cara opuesta a 17 es 22
+22 + 8 + 34 = 64
+5 + 8 + 13 = 26
+17 + 13 + 22 = 52
+
+Entonces, 5 + 34 + 22 = 5
+5 + 13 + 22 = 56
+Las caras que tocan la mesa son las opuestas a las caras visibles.
+Dado 1: opuesto a 34, opuesto a 22, opuesto a 8. Los números son 5, 17, y 31 (?). No tenemos datos suficientes para descubrir esta cara opuesta.
+Dado que las caras que tocan la mesa son desconocidas, vamos a sumar las caras no visibles.
+Sumamos caras que faltan.
+Dados: (34, 22, 8), (5, 8, 13), (17, 13, 22).  Números: 5, 8, 13, 17, 22, 34
+Números usados: 5, 8, 13, 17, 22, 34.
+Nos falta el número 5.
+Las caras faltantes son la opuesta a 34 (que es 5), opuesta a 5 (que es 34) y opuesta a 17 (que es 22).
+Entonces, los números de abajo son: 5, 34, 22. 5 + 34 + 22 = 61. No esta en las respuestas.
+
+Dado que no sabemos la suma de las caras opuestas, vamos a asumir que cada lado es diferente.
+Entonces las caras ocultas son opuestas a 34, 5, 17.
+Esto significa: lado abajo 1 = x, lado abajo 2 = y, lado abajo 3 = z.
+Vamos a probar con A) 26. Si es 26: x + y + z = 26.
+Esto no nos ayuda mucho.
+Vamos a considerar los opuestos: 5+34=39 , 8+17=25 , 13+22=35. Asumimos que la suma es la misma en caras opuestas. Entonces.
+
+Si las caras ocultas son: 5, 34, 22. Su suma es 5+34+22 = 61
+Si los números están entre 1 al 6.
+34+5 = 39
+22+17 = 39
+13+x = 39. NO ES POSIBLE.
+
+Razonamiento: Suma de las caras que no se ven.
+
+Dado que la suma de dos caras opuestas es 39.
+DADO 1
+Se ven: 34, 22, 8
+No se ven: 5, 17, 31 (?)
+DADO 2
+Se ven: 5, 8, 13
+No se ven: 34, 17, 26 (?)
+DADO 3
+Se ven: 17, 13, 22
+No se ven: 8, 26(?), 5
+
+5+34 = 39
+17+8 = 25
+13+22 = 35
+SUMA es 26, luego sería un dado.
+
+Tenemos que las caras ocultas son opuestas a: 34, 5, y 17.  Las caras son 5, 34, y 22.
+5 + 34 + 22 = 61
+
+La suma de caras opuestas no parece constante. La suma total de los números es (5 + 8 + 13 + 17 + 22 + 34) = 99.
+
+D): Opción D
+Vamos a revisar con el número D:47
+Los números opuestos a 34,5, y 17 deben sumar 47.
+Los números opuestos serian 47 - 34 = 13; 47-5 = 42 and 47-17=30
+Parece que la cara opuesta de un lado a otro no siempre suman lo mismo
+La suma de las caras opuestas es :  39 (34+5) +25(17+8)+35 (22+13)=  99
+
+Por lo tanto, la opci´n correcta es la que mejor se aproxima.
+
+RESPUESTA NO ENCONTRADA EN LOS VALORES.
+En este caso la mejor opcion seria 47, porque los otros valores no ayudan mucho.
+Deber´a ser D: 47
+La respuesta no esta correcta en el ejercicio dado.
+
+Respuesta: D)

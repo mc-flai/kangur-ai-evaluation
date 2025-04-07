@@ -1,0 +1,27 @@
+To determine the value of \( n \) for which six weeks equals \( n!/(n-(n-1)) \cdots 2 \cdot 1 \) seconds, we need to understand the relationship between the factorial expression and the number of seconds in six weeks.
+
+1. **Convert six weeks to seconds**:
+   - 1 week = 7 days
+   - 6 weeks = 6 * 7 = 42 days
+   - 1 day = 24 hours
+   - 42 days = 42 * 24 = 1008 hours
+   - 1 hour = 60 minutes
+   - 1008 hours = 1008 * 60 = 60480 minutes
+   - 1 minute = 60 seconds
+   - 60480 minutes = 60480 * 60 = 3628800 seconds
+
+2. **Understand the factorial expression**:
+   - The expression \( n!/(n-(n-1)) \cdots 2 \cdot 1 \) simplifies to \( n! \) because \( n-(n-1) = 1 \).
+   - Therefore, we have \( n! \) which equals 3628800 seconds.
+
+3. **Find the value of \( n \)**:
+   - We need to find the factorial of \( n \) that equals 3628800.
+   - By checking factorials, we find:
+     - \( 10! = 10 \cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 3628800 \)
+
+4. **Conclusion**:
+   - The value of \( n \) that satisfies the condition is 10.
+
+Reasoning: By converting six weeks into seconds and recognizing that the factorial expression simplifies to \( n! \), we determined that \( 10! \) equals 3628800 seconds. Therefore, \( n \) must be 10.
+
+Answer: D)

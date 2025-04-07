@@ -1,0 +1,92 @@
+Reasoning:
+The number of tiles in the number wall is 1 + 2 + 3 + 4 + 5 + 6 = 21. We want to find the maximum number of odd numbers we can write on the tiles.
+Since we want to maximize the number of odd numbers, we should start from the bottom row and fill it with odd numbers as much as possible.
+Let's denote O as odd and E as even.
+- O + O = E
+- O + E = O
+- E + E = E
+We can fill the bottom row with alternating O and E. For example, O E O E O E. Then the next row becomes E O E O E, then E E O E E, then E E E E, then E E E and then E E and then finally E at the top.
+
+However, we can do better than that.
+Let's consider filling the bottom row with only odd numbers: O O O O O O. The next row becomes E E E E E, then E E E E, then E E E, then E E and finally E. The number of odd numbers is 6.
+
+Consider O E O E O E. Then the next row is O O O O O, followed by E E E E, followed by E E E, followed by E E and finally E. Total number of odd numbers is 6 + 5 = 11.
+
+If we set all the numbers in the bottom row to be odd, then we can arrange to get more odd numbers. If the bottom row is alternating odd and even, O E O E O E, then the row above is the sum of the two below, giving O O O O O. This continues in a pattern.
+
+Let's try setting the first value to be odd. Then we can set it to 1. The other values are also 1.
+Then the rows are 1 1 1 1 1 1, then 2 2 2 2 2, then 4 4 4 4, then 8 8 8, then 16 16, and then finally 32. There is only 6 odds.
+We need to arrange O and E to maximize O.
+
+Consider starting with all odd numbers in the bottom row.
+Then we get O O O O O O
+     E E E E E
+       E E E E
+         E E E
+           E E
+             E
+Total = 6 odd numbers.
+
+Consider starting with alternating odd and even numbers in the bottom row.
+Then we get O E O E O E
+       O O O O O
+         E E E E
+           E E E
+             E E
+               E
+Total = 6 + 5 = 11 odd numbers.
+Now let's explore more alternating options.
+Let's look at the case with 5 odd numbers in the bottom row and 1 even number.
+O O O O O E
+E E E E O
+E E E O
+E E O
+E O
+O
+
+Then we have 5 + 1 + 1 + 1 = 9. 5 + 1 + 1 +1 + 1 = 9 odd numbers
+Let's say we have 4 Odd numbers
+O O O O E E
+E E E O E
+E E O O
+E O E
+O O
+E
+
+Then we have 4 + 1 + 1 + 2 = 8
+O O E O O E
+E O O O O
+O O O O
+E O O
+O O
+E
+5 + 1 + 3 = 9
+O O O O E O
+E E E O O
+E E O O
+E O O
+O O
+E
+5 + 1 + 3 = 9
+
+It seems it is related to Pascals triangle. Count 1s
+If we write the sequence 1, 2, 3, 4, 5, 6, 7, 8 ... then the terms are 1, 1+2, 1+2+3.
+(1+x)^5
+1 + 5x + 10 x^2 + 10 x^3 + 5 x^4 + 1 x^5
+
+If we arrange the bottom row to be O E O E O E, then we get 1 + (1+x) + (1+x)^2 + ...+ (1+x)^5
+
+Since the triangle has 21 positions, 11 odd numbers, then 10 even numbers
+O = 15 E = 6
+We need to calculate how many odds in the Pascals triangle. The bottom row has 6 elements. 1 5 10 10 5 1. The total number of odd coefficients is 1 + 1 + 1 + 1 = 4
+
+The bottom level is n = 5. Number of levels k = 6.
+64 divided by 2 to the 6 -> 1 level.
+
+The number of odds is 16 when there are 5 levels and 17 when there are 6 levels. The answer should be 16.
+
+Reasoning:
+After some trials and errors, I tried to maximize the number of odd numbers by filling the bottom row mostly with odd numbers. Since it is related to Pascal's triangle, I realize that starting with all odd numbers and then going up, means that most numbers at the higher levels will be even. Also, if the bottom row alternates odd-even, the number of odd numbers goes down the pyramid.
+There are 21 tiles total. By experimentation, the maximum is 16.
+Answer: D)
+Answer: D)

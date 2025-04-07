@@ -1,0 +1,13 @@
+Per respondre a aquesta pregunta, hem de considerar el problema del ratolí que pot triar entre diferents camins en un laberint. En aquest cas, el ratolí pot passar més d'una vegada per la mateixa celda (més d'una vegada).
+
+Això es coneix com a camins en què no hi ha restriccions de revisitar nodes o arestes.
+
+Analitzant el laberint es pot observar que hi ha molts camins possibles que permeten al ratolí sortir del laberint. Però, la pregunta especifica sobre quants camins hi ha que no passen per la mateixa porta més d'una vegada.
+
+Observant el diagrama, ens adonem que hi ha diverses interseccions on el ratolí pot prendre diferents camins. Per aquest problema, comptem els camins possibles des de l'entrada fins a la sortida sense passar dues vegades per la mateixa porta.
+
+Per aquest laberint en concret, si observem cada camí i cada possibilitat de no revisitar nodes i arestes, arribem a la conclusió que hi ha 6 camins diferents que no passen més d'una vegada per la mateixa porta.
+
+Raonament: Contant tots els camins possibles en el laberint i assegurant-nos que no hi ha cap camí que passi més d'una vegada per la mateixa porta, arribem a la conclusió que hi ha 6 camins possibles.
+
+Resposta: D) 6.

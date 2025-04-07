@@ -1,0 +1,18 @@
+Reasoning: Let $m$ be the number of goals Michael scored. Since Michael scored the fewest number of goals, the other three players must have scored more than $m$ goals. Let the number of goals the other three players scored be $x, y, z$ respectively. Then we must have $x > m, y > m, z > m$, and $x+y+z = 20$. Also, $x, y, z$ must be different.
+We want to maximize $m$, so we want to minimize $x, y, z$.
+We can set $x = m+1, y = m+2, z = m+3$. Then $x+y+z = (m+1) + (m+2) + (m+3) = 3m + 6 = 20$.
+Then $3m = 14$, so $m = \frac{14}{3} = 4.666\dots$. Since $m$ must be an integer, we can try $m = 4$. Then $x = 5, y = 6, z = 7$. And $5+6+7 = 18$, which is less than 20. So we can't have $m=4$.
+If $m = 2$, then we want $x+y+z = 20$ with $x, y, z > 2$ and different. We can have $x=6, y=7, z=7$, but $y$ and $z$ must be different. We can have $x = 5, y = 7, z = 8$. Then $5+7+8 = 20$. This works.
+Let's try $m = 5$. Then we have $x > 5, y > 5, z > 5$.
+$x, y, z$ must be different. So $x=6, y=7, z=8$. Then $6+7+8 = 21 > 20$, so we can't have $m=5$.
+$x=6, y=7, z=7$. No, $y$ and $z$ must be different.
+Let $m=4$. Then we want $x+y+z = 20$ with $x > 4, y > 4, z > 4$ and $x, y, z$ are different.
+We can let $x = 5, y = 6, z = 9$. Then $5+6+9 = 20$. This works. So Michael can score 4 goals.
+Try $m=5$. We need $x, y, z > 5$, $x, y, z$ distinct, and $x+y+z = 20$. We can choose $x=6, y=7, z=7$, but we can't have $y=z$. So we have $x=6, y=7, z=8$. $6+7+8 = 21$. No. We need the other 3 to score at least $6+7+8 = 21$, so this doesn't work.
+If Michael scored 5 goals, then the minimum goals that the others can score is $6, 7, 8$, so the minimum is $6+7+8 = 21$. Since they only score 20, Michael can score at most 4.
+So the maximum number of goals Michael could have scored is 4.
+
+Reasoning: To maximize the number of goals Michael scored, we need to minimize the number of goals the other three players scored. Since they all scored a different number of goals and each scored more than Michael, the minimum number of goals the other three scored are $m+1$, $m+2$, and $m+3$, where $m$ is the number of goals Michael scored. Thus, $(m+1) + (m+2) + (m+3) \le 20$, so $3m + 6 \le 20$, which means $3m \le 14$, so $m \le \frac{14}{3} = 4\frac{2}{3}$. Since $m$ must be an integer, the maximum value for $m$ is 4.
+We need to check that this works. If Michael scored 4 goals, the other three could have scored 5, 6, and 9 goals. Then $4+5+6+9 = 24$. So $5+6+9 = 20$ so this works.
+
+Answer: C)

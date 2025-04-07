@@ -1,0 +1,15 @@
+Reasoning: The final shape has to be a large triangle consisting of smaller triangles.
+The number of small triangles that make up a larger triangle follows the sequence 1, 4, 9, 16, 25, ... i.e. n^2, where n is the number of small triangles on each side of the large triangle.
+
+Let's count the number of triangles present in the given image: There are 8 small triangles shown in the image.
+The big triangle has to consist of 4x4 small triangles, therefore it has to have a total of 16 small triangles.
+So the number of triangles that needs to be added is 16-8 = 8.
+The big triangle has to consist of 5x5 small triangles, therefore it has to have a total of 25 small triangles.
+So the number of triangles that needs to be added is 25-8 = 17.
+The options are 5, 9, 12, 15, 19.
+The number of small triangles should be the square of an integer, which is 1, 4, 9, 16, 25...
+The diagram shows 8 small triangles
+Looking at the available options, 9 is the only possible answer which produces a sum equal to an integer squared (8 + 9 = 16).
+In this instance a large triangle can be formed from n = 4, where n is the number of smaller triangles for each side of the bigger triangle.
+
+Answer: B)

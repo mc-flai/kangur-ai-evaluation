@@ -1,0 +1,29 @@
+Per resoldre la pregunta, hem de completar el diagrama de manera que cada casella tingui el valor del producte de les dues caselles que té baix. Comencem per la casella més alta, que té el valor 720, i anem cap avall.
+
+1. **Determineu els valors possibles per a les caselles immediatament inferiors a 720:**
+    - 720 és el producte de les dues caselles.
+    - Decomposició en factors primers: 720 = 2^4 * 3^2 * 5.
+
+2. **Identifiqueu els parells de factors que dóna 720:**
+    - Els parells possibles són: (2^2 * 3 * 5) i (2^2 * 3), (2 * 3^2 * 5) i (2^3 * 3), (2^3 * 5) i (2 * 3^2), entre d'altres.
+
+3. **Esculliu el parell que té un nombre enter positiu per a "n":**
+    - Si escollim (2^2 * 3 * 5) = 60 i (2^2 * 3) = 12, això no encaixa amb la casella inferior dreta.
+    - Si escollim (2^3 * 3) = 24 i (2 * 3^2) = 18, això tampoc encaixa.
+    - Si escollim (2^2 * 3) = 12 i (2^2 * 3 * 5) = 60, i el valor de la casella inferior dreta és 6, llavors:
+        - La casella inferior dreta és 6.
+        - La casella inferior esquerra és 2.
+        - La casella inferior dreta es divideix en 2 i 3.
+
+4. **Verifiqueu la casella inferior dreta:**
+    - La casella inferior dreta és 6, que és el producte de 2 i 3.
+    - La casella inferior esquerra és 2.
+    - La casella inferior dreta és 3.
+
+5. **Determineu el valor de "n":**
+    - La casella inferior dreta és 3.
+    - Per tant, "n" és 3.
+
+Raonament: Hem determinat els valors de les caselles inferiors basant-nos en el valor de la casella superior i hem verificat que els valors encaixen amb els productes de les caselles inferiors.
+
+Resposta: C).

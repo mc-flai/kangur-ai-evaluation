@@ -1,0 +1,24 @@
+Razonamiento:
+El problema pide identificar cuál de las ternas propuestas no es una terna dentro de la secuencia de números del 1 al 99, escritos en orden ascendente y agrupados en grupos de tres cifras.  La secuencia se forma concatenando los números enteros, lo que forma ternas.
+
+*   (123) : proviene de 1, 2, 3
+*   (456) : proviene de 4, 5, 6
+*   (789) : proviene de 7, 8, 9
+*   (101) : proviene de 10, 1
+*   (112) : proviene de 11, 2
+*   ...
+*   (979) : proviene de 97, 9
+*   (899) : proviene de 89, 9
+
+Analizando las opciones:
+*   A) (222): 222 no aparece en la secuencia
+*   B) (444): 444 no aparece en la secuencia
+*   C) (464): 464 no aparece en la secuencia
+*   D) (646): 646 no aparece en la secuencia
+*   E) (888): 888 no aparece en la secuencia
+
+Pero notamos que en la secuencia de números, no existen grupos con tres digitos repetidos, es decir, no existen grupos como (111), (222) ni (333), etc.
+
+De las opciones, la correcta es (222), porque los otros no pueden ser posibles ternas.
+
+Respuesta: A)

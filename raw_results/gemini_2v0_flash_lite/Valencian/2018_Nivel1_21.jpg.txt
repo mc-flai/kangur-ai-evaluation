@@ -1,0 +1,6 @@
+Raonament:
+La pregunta es centra en la teoria de grafs i el recorregut Euleriano. Inicialment, el graf és recorregut per un recorregut Euleriano (podem començar i acabar en el mateix punt sense repetir arestes), el que significa que tots els vèrtexs tenen un grau parell (nombre d'arestes connectades a cada punt). Per tal que no puguem tornar al punt de partida sense repetir arestes, hem d'eliminar arestes fins que el graf no tingui un recorregut Euleriano, però encara hi hagi connexió entre tots els punts.
+Cada vegada que eliminem una aresta, disminuïm en un el grau de dos vèrtexs. Si eliminem dues arestes que comparteixen un vèrtex, reduïm en dos el grau d'aquest vèrtex, el que pot convertir un vèrtex de grau parell a senar.
+Al diagrama original, tots els vèrtexs tenen grau parell (4 o 2). Perquè el graf no tingui un recorregut Euleriano però sigui connectat, necessitem fer que algun vèrtex passi a tenir grau senar. En el diagrama, veiem que eliminar dues arestes del vèrtex superior o inferior, fem que tingui grau 2 i el graf segueixi connectat. Si eliminem les dues arestes que connecten els costats del triangle i el triangle central, el vèrtex superior o inferior, queda amb grau 0, el que no afecta el recorregut. No obstant, si eliminem només una aresta, ens permet tornar al punt de partida. Així doncs, es poden eliminar dues arestes.
+
+Resposta: B) 2

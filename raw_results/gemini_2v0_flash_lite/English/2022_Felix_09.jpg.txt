@@ -1,0 +1,12 @@
+Reasoning: The kangaroo starts at the bottom left and needs to reach the koala at the top right. The kangaroo cannot jump through water. We can eliminate options by checking if the paths go through water.
+
+*   **A)** The path starts ok, goes right, right, up, up, up, up, right, right, right, so it's correct.
+*   **B)** The path goes up, up, up, up. This appears ok.
+*   **C)** The path starts ok, goes right, right, up, up, up, right, right, right. It's correct.
+*   **D)** The path moves towards the right but has a change of direction toward left.
+*   **E)** The path seems okay too.
+
+Comparing to the starting field and the water squares, we can verify that, based on the position of the water, A is incorrect because of the change of direction, and the kangaroo would go through water in some fields. E is incorrect because there are also changes of direction and the kangaroo also would have to jump over water.
+B and C are correct.
+
+Answer: B)

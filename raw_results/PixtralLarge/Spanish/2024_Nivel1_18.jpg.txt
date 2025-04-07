@@ -1,0 +1,38 @@
+Para determinar cuántos alumnos tienen un chaleco reflectante amarillo y una mochila naranja, sigamos estos pasos:
+
+1. **Identificar el patrón de las secuencias de colores**:
+   - El patrón de los chalecos reflectantes es "amarillo, verde" y se repite.
+   - El patrón de las mochilas es "rojo, marrón, naranja" y se repite.
+
+2. **Determinar la longitud de cada ciclo**:
+   - El ciclo de chalecos reflectantes es de longitud 2: amarillo, verde.
+   - El ciclo de mochilas es de longitud 3: rojo, marrón, naranja.
+
+3. **Calcular el número de repeticiones de cada ciclo en 60 alumnos**:
+   - Para los chalecos reflectantes: 60 / 2 = 30 ciclos.
+   - Para las mochilas: 60 / 3 = 20 ciclos.
+
+4. **Determinar la frecuencia de cada color dentro de los ciclos**:
+   - En cada ciclo de 2 chalecos, hay 1 chaleco amarillo y 1 chaleco verde.
+   - En cada ciclo de 3 mochilas, hay 1 mochila rojo, 1 mochila marrón y 1 mochila naranja.
+
+5. **Calcular la frecuencia de cada color en 60 alumnos**:
+   - Chalecos amarillos: 30 ciclos * 1 chaleco amarillo por ciclo = 30 chalecos amarillos.
+   - Mochilas naranjas: 20 ciclos * 1 mochila naranja por ciclo = 20 mochilas naranjas.
+
+6. **Determinar cuántos alumnos tienen un chaleco amarillo y una mochila naranja**:
+   - Dado que los ciclos se repiten independientemente, debemos encontrar la intersección de los ciclos.
+   - Para cada ciclo de 6 alumnos (el mínimo común múltiplo de 2 y 3), la secuencia de colores sería:
+     - Chalecos: amarillo, verde, amarillo, verde, amarillo, verde.
+     - Mochilas: rojo, marrón, naranja, rojo, marrón, naranja.
+   - En cada ciclo de 6 alumnos, el tercer y sexto alumno tienen chaleco amarillo y mochila naranja.
+
+7. **Calcular el número de ciclos de 6 alumnos en 60 alumnos**:
+   - 60 / 6 = 10 ciclos.
+
+8. **Calcular el número de alumnos con chaleco amarillo y mochila naranja**:
+   - En cada ciclo de 6 alumnos, hay 2 alumnos con chaleco amarillo y mochila naranja.
+   - 10 ciclos * 2 alumnos por ciclo = 20 alumnos.
+
+Razonamiento: Al analizar los patrones de repetición de los colores de los chalecos y las mochilas, y encontrar la intersección de estos patrones, determinamos que 20 alumnos tienen un chaleco reflectante amarillo y una mochila naranja.
+Respuesta: E).

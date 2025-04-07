@@ -1,0 +1,47 @@
+
+La pregunta 18 busca un número positivo \( n \) que cumpla con cuatro condiciones específicas:
+
+1. \( n \) es un número de dos dígitos.
+2. \( n \) es par.
+3. \( n \) es primo.
+4. \( n \) es el cuadrado de un número entero, es decir, \( n = k^2 \) para algún entero \( k \).
+5. \( n \) es menor que 50.
+
+Para encontrar \( n \), debemos buscar un número que cumpla con todas estas condiciones.
+
+**Raonamiento:**
+
+1. **Número de dos dígitos:** \( n \) debe estar entre 10 y 49.
+2. **Número par:** \( n \) debe ser divisible por 2.
+3. **Número primo:** \( n \) debe ser un número primo.
+4. **Cuadrado de un número entero:** \( n \) debe ser \( k^2 \) para algún entero \( k \).
+5. **Menor que 50:** \( n \) debe ser menor que 50.
+
+Vamos a verificar los números primos pares entre 10 y 49:
+
+- 10 no es primo.
+- 12 no es primo.
+- 14 no es primo.
+- 16 no es primo.
+- 18 no es primo.
+- 20 no es primo.
+- 22 no es primo.
+- 24 no es primo.
+- 26 no es primo.
+- 28 no es primo.
+- 30 no es primo.
+- 32 no es primo.
+- 34 no es primo.
+- 36 no es primo.
+- 38 no es primo.
+- 40 no es primo.
+- 42 no es primo.
+- 44 no es primo.
+- 46 no es primo.
+- 48 no es primo.
+
+El único número primo par en este rango es 2. Sin embargo, 2 no es el cuadrado de un número entero.
+
+Por lo tanto, no hay ningún número \( n \) que cumpla con todas las condiciones dadas.
+
+**Respuesta:** Ninguna de las opciones A) 10, B) 11, C) 12, D) 13, E) 14.

@@ -1,0 +1,22 @@
+Per resoldre la pregunta 29, hem de comprendre el patró de moviment de les cartes:
+
+1. **Esquerra a dreta:** La carta de l'esquerra (mig) passa al centre.
+2. **Dreta a esquerra:** La carta de la dreta (mig) passa al centre.
+
+Apliquem aquest patró a l'ordre inicial de les cartes (A, B, C, D, E):
+
+1. **Primer pas:**
+   - La carta de l'esquerra mig és la B.
+   - La carta de l'esquerra mig passa al centre: B passa al centre.
+   - Ara l'ordre és: A, C, B, D, E.
+
+2. **Segon pas:**
+   - La carta de la dreta mig és la D.
+   - La carta de la dreta mig passa al centre: D passa al centre.
+   - Ara l'ordre és: A, C, E, B, D.
+
+Per tant, després de dos moviments, l'ordre de les cartes és A, C, E, B, D. La carta que està al centre en el pas 2020 és la E.
+
+**Raonament:** En analitzar el patró de moviment de les cartes, hem vist que després de dos moviments, la carta que està al centre és la E.
+
+**Resposta:** E).

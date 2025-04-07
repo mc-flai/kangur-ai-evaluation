@@ -1,0 +1,31 @@
+Per resoldre el problema, primer hem de calcular les sumes de les files i les columnes per verificar quin número falta a la cel·la marcada amb el signe d'interrogació.
+
+### Raonament:
+
+1. **Sumes de les columnes donades**:
+   - Columna 1: 4 + 1 = 5
+   - Columna 2: 10 + 7 = 17
+   - Columna 3: 6 + 18 = 24
+   - Columna 4: 22 + 3 = 25
+
+2. **Sumes totals de les columnes**:
+   - Suma total de les columnes:
+     - 1a columna: 20
+     - 2a columna: 30
+     - 3a columna: 10
+
+3. **Calcular el valor de la cel·la marcada**:
+   - Per la 1a columna: 20 - 5 = 15
+   - Per la 2a columna: 30 - 17 = 13
+   - Per la 3a columna: 10 - 7 = 3
+
+4. **Verificar les sumes de les files**:
+   - Fila 1: 4 + 10 + 6 + 22 = 42 (correcte)
+   - Fila 2: 1 + 7 + 3 + 18 = 29 (correcte)
+   - Fila 3: 15 + 13 + 3 + x = 30 (falta calcular x)
+
+5. **Calcular el valor de x**:
+   - x = 30 - (15 + 13 + 3) = 30 - 31 = -1
+
+### Resposta:
+A) 20

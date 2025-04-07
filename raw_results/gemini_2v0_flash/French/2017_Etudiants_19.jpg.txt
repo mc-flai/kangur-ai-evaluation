@@ -1,0 +1,10 @@
+Reasoning: The area of the hexagon is $A_h = \frac{3\sqrt{3}}{2} a^2$, where $a=1$. Therefore $A_h = \frac{3\sqrt{3}}{2}$. The flower is constructed by drawing arcs of circles with radius 1, whose centers are the vertices of the hexagon. The angle of each sector is $2\pi/6 = \pi/3$, and the radius is 1. There are 6 such sectors. The area of each sector is $A_s = \frac{1}{2} r^2 \theta = \frac{1}{2} (1)^2 (\pi/3) = \pi/6$. Thus the area of the 6 sectors is $6 \times \pi/6 = \pi$.
+The area of the flower can be found by summing up the areas of the 6 sectors, and then subtracting the area of the hexagon. We want the area of the "flower", which is $A_f$.
+We notice that the region inside the hexagon can be divided into six equilateral triangles each having side length of 1. The area of each equilateral triangle is $\frac{\sqrt{3}}{4}$. Then the area of the hexagon is $6 \frac{\sqrt{3}}{4} = \frac{3\sqrt{3}}{2}$.
+Let's consider one 'petal' shape of the flower. This shape is formed by two arcs.
+Consider an equilateral triangle with side 1. The area is $\frac{\sqrt{3}}{4}$. The sector area subtended at each vertex is $\pi/6$. Summing up the sector areas from each vertex gives $3 \times \frac{\pi}{6} = \frac{\pi}{2}$. Therefore the area of the petal shape is $2 \cdot \frac{\pi}{6} - \frac{\sqrt{3}}{4} = \frac{\pi}{3} - \frac{\sqrt{3}}{4}$.
+The area of the flower consists of 6 such petals and 6 such triangles at the centre of the hexagon. The total is equal to $6 \times (\text{area of circular segment} \times 2 - \text{equilateral triangle})$. The area of the flower should be equal to $2\pi - 3\sqrt{3}$.
+We consider the area of 6 circular sectors, which is $\pi$. The area of the hexagon is $\frac{3\sqrt{3}}{2}$. The required area is $2\pi - 3\sqrt{3}$
+
+Reasoning: By observation and deduction based on geometry and available area formulas.
+Answer: E)

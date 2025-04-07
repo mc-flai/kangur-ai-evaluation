@@ -1,0 +1,17 @@
+To answer question 10, we need to determine which sum Toni will not be able to make by rolling a die with the six smallest odd natural numbers and adding the numbers three times. The six smallest odd natural numbers are 1, 3, 5, 7, 9, and 11.
+
+Since Toni rolls the die three times, we need to consider the range of possible sums:
+- The minimum sum occurs when the lowest number (1) is rolled three times: 1 + 1 + 1 = 3.
+- The maximum sum occurs when the highest number (11) is rolled three times: 11 + 11 + 11 = 33.
+
+Thus, the possible sums range from 3 to 33. Now, we evaluate which of these sums cannot be made:
+- 3: Possible (1 + 1 + 1)
+- 19: Possible (1 + 9 + 9)
+- 21: Possible (1 + 11 + 9 or 3 + 9 + 9)
+- 29: Possible (7 + 11 + 11)
+- 35: Not possible since the maximum sum is 33.
+
+Therefore, the sum that Toni will not be able to make is 35.
+
+Reasoning: The sums range from 3 to 33, and since 35 is greater than 33, it cannot be made by rolling the die three times.
+Answer: E)

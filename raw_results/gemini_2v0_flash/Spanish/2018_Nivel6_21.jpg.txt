@@ -1,0 +1,41 @@
+Razonamiento:
+Let the six vertices be labeled 1, 2, 3, 4, 5, 6.
+The sum of the vertices of each square is the same.
+Let the sum be S.
+Let the vertices of the top triangle be x, a, b. The vertices of the bottom triangle are 1, 5, c. The sides of the prism are squares with the same sum S.
+Square 1 has vertices x, 1, a, 5. Thus, x + 1 + a + 5 = S or x + a + 6 = S.
+Square 2 has vertices a, b, 5, c. Thus, a + b + 5 + c = S.
+Square 3 has vertices x, b, 1, c. Thus, x + b + 1 + c = S.
+
+We have the numbers 1, 2, 3, 4, 5, 6.
+From the first square, x + a = S - 6.
+From the second square, a + b + 5 + c = S.
+From the third square, x + b + 1 + c = S.
+
+Since we are using the numbers 1 to 6, the sum of the numbers is 1+2+3+4+5+6 = 21.
+The sum of the triangles is x + a + b + 1 + 5 + c = 21. Thus, x + a + b + c = 15.
+
+From x + a + 6 = S and a + b + 5 + c = S and x + b + 1 + c = S,
+x + a = S - 6
+a + b + c = S - 5
+x + b + c = S - 1
+x + a + b + c = 15.
+Substituting x + a = S - 6, we have S - 6 + b + c = 15, so b + c = 21 - S.
+Substituting a + b + c = S - 5, we have x + S - 5 = 15, so x = 20 - S.
+Substituting x + b + c = S - 1, we have a + S - 1 = 15, so a = 16 - S.
+x + a = S - 6, so 20 - S + 16 - S = S - 6, 36 - 2S = S - 6, 42 = 3S, so S = 14.
+x = 20 - 14 = 6.
+a = 16 - 14 = 2.
+b + c = 21 - 14 = 7. Thus, either b = 3, c = 4 or b = 4, c = 3.
+
+The vertices are 1, 2, 3, 4, 5, 6.
+So the vertices are x = 6, a = 2, b = 3 or 4, c = 4 or 3.
+
+Let us verify.
+Square 1: x + a + 1 + 5 = 6 + 2 + 1 + 5 = 14.
+Square 2: a + b + 5 + c = 2 + 3 + 5 + 4 = 14.
+Square 3: x + b + 1 + c = 6 + 3 + 1 + 4 = 14.
+
+The number at vertex x is 6.
+
+Respuesta: D)

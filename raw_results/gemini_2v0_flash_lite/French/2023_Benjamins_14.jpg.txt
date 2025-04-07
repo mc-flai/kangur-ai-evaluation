@@ -1,0 +1,22 @@
+Raisonnement :
+Il y a 5 rectangles et 3 couleurs possibles. Deux rectangles adjacents ne peuvent pas avoir la même couleur.
+Commençons par le rectangle en haut à gauche. Il peut être coloré de 3 façons différentes.
+Le rectangle en haut au milieu peut avoir 2 couleurs.
+Le rectangle en haut à droite peut avoir 2 couleurs.
+Le rectangle en bas à gauche peut avoir 2 couleurs.
+Le rectangle en bas à droite peut avoir 2 couleurs.
+Nombre total de coloriages = 3 * 2 * 2 * 2 * 2 = 48. Mais tous les rectangles ne sont pas adjacents.
+Si nous considérons les deux rectangles en haut et les deux en bas comme des rectangles adjacents.
+Commençons par le rectangle en haut à gauche : 3 choix de couleurs.
+Le rectangle en haut au milieu : 2 choix.
+Le rectangle en haut à droite : 2 choix.
+Le rectangle en bas à gauche : 2 choix.
+Le rectangle en bas à droite : 2 choix.
+Donc, 3 * 2 * 2 * 2 * 2 = 48
+Si le haut est tous la même couleur. 3 choix. Les bas doivent être différents du haut. 2 choix.
+Si le haut est deux couleurs : on a deux cas : 3 choix pour le premier, 2 pour le second, et le troisième doit être de la même couleur que le premier.
+On a donc 3*2*1*2*2 = 24.
+On a donc 3*2*2 = 12.
+Nombre total de coloriages = 3*2*1*2*1 = 12
+
+Réponse : E)

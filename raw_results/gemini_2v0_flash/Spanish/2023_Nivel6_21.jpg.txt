@@ -1,0 +1,18 @@
+Razonamiento:
+Tenemos el sistema de ecuaciones:
+1)  f(x) + 2g(1-x) = x²
+2)  f(1-x) - g(x) = x²
+
+Queremos encontrar la expresión para f(x). Primero, reemplazamos x por (1-x) en la ecuación (2):
+f(1-(1-x)) - g(1-x) = (1-x)²
+f(x) - g(1-x) = (1-x)²
+g(1-x) = f(x) - (1-x)²
+
+Sustituimos esta expresión para g(1-x) en la ecuación (1):
+f(x) + 2[f(x) - (1-x)²] = x²
+f(x) + 2f(x) - 2(1 - 2x + x²) = x²
+3f(x) - 2 + 4x - 2x² = x²
+3f(x) = 3x² - 4x + 2
+f(x) = x² - (4/3)x + (2/3)
+
+Respuesta: A)

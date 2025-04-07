@@ -1,0 +1,88 @@
+Reasoning:
+Let $S$ be the sum of the numbers on each pair of opposite faces. Since the numbers written on the faces are distinct integers from 1 to 9, we have six numbers $n_1, n_2, n_3, n_4, n_5, n_6$ such that $\{n_1, n_2, n_3, n_4, n_5, n_6\} \subset \{1, 2, 3, 4, 5, 6, 7, 8, 9\}$.
+We have three pairs of opposite faces, so $n_1 + n_2 = n_3 + n_4 = n_5 + n_6 = S$. Thus, $n_1 + n_2 + n_3 + n_4 + n_5 + n_6 = 3S$. The sum of all the numbers on the cube must be a multiple of 3. Let $x$ be the number on the opposite side of 8.
+If $x=3$, the sum of numbers on the cube is $8+3 + a+b+c+d = 11 + a+b+c+d$, where $a,b,c,d \in \{1,2,4,5,6,7,9\}$. Then $3S = 11 + a+b+c+d$.
+If $x=5$, the sum of numbers on the cube is $8+5 + a+b+c+d = 13 + a+b+c+d$, where $a,b,c,d \in \{1,2,3,4,6,7,9\}$. Then $3S = 13 + a+b+c+d$.
+If $x=6$, the sum of numbers on the cube is $8+6 + a+b+c+d = 14 + a+b+c+d$, where $a,b,c,d \in \{1,2,3,4,5,7,9\}$. Then $3S = 14 + a+b+c+d$.
+If $x=7$, the sum of numbers on the cube is $8+7 + a+b+c+d = 15 + a+b+c+d$, where $a,b,c,d \in \{1,2,3,4,5,6,9\}$. Then $3S = 15 + a+b+c+d$.
+If $x=9$, the sum of numbers on the cube is $8+9 + a+b+c+d = 17 + a+b+c+d$, where $a,b,c,d \in \{1,2,3,4,5,6,7\}$. Then $3S = 17 + a+b+c+d$.
+
+Consider the case $x=6$. The numbers are 1, 2, 3, 4, 5, 7, 8, 6, 9. The available numbers are 1, 2, 3, 4, 5, 7, 9.
+We need to choose 4 numbers from this set such that $14 + a+b+c+d = 3S$.
+If we choose 1, 2, 3, 4, 5, 6, 7, 8, 9, their sum is 45. Then we have 45 - (8+x) = a+b+c+d. Thus $a+b+c+d = 45 - (8+x)$.
+$3S = 8 + x + 45 - (8+x) = 45$, so $S = 15$.
+If 8 is paired with 7, $S = 15$. Then we need to select 4 distinct integers from {1, 2, 3, 4, 5, 6, 9} such that they can be grouped into two pairs whose sum is 15.
+Possible numbers left: 1, 2, 3, 4, 5, 6, 9.
+We can have 6 + 9 = 15, and 5 + x = 15.
+Since $S=15$, 8+7 = 15. Also 9+6 = 15, and 5+4 = 9. Nope.
+We need numbers like $a+b+c+d$, with $a+b=c+d=S$.
+
+Let us try $S=15$. So, one pair is 8+7=15. Then use the remaining digits: {1, 2, 3, 4, 5, 6, 9}.  Possible combinations of 2 to get sum=15 don't work here.
+Let the six numbers be $1, 2, 3, 4, 5, 6$. Sum is 21. 21 cannot be $3S$.
+Try the six numbers 1,2,3,4,5,7.  Then x can be 6, the set becomes 1,2,3,4,5,7,8,6 (6). Then 1+9 not allowed.
+We must pick six numbers from the set {1, 2, 3, 4, 5, 6, 7, 8, 9}. Let x=6, so $S = 8+6 = 14$.
+$14 = a+b=c+d$. We need $\{1, 2, 3, 4, 5, 7, 9\}$. Sum is 31.
+$\{1, 2, 3, 4, 5, 6, 8, 9\}$.
+
+If $x=7$, $S=15$. Available values are 1, 2, 3, 4, 5, 6, 9. Pick numbers which add up to 30.
+8+7=15. Pick 6+9=15, and 1+2 impossible.
+
+Reasoning:
+Since the sum of numbers on each pair of opposite faces is the same, $S$, and there are 3 pairs, the sum of all six numbers is $3S$. The sum of the numbers from 1 to 9 is 45. If we remove 3 numbers to form the cube, then the sum of the remaining numbers should be $3S$.
+So, $45 - x - y - z = 3S$ for some integers $x,y,z$.
+
+Consider the numbers on the cube shown: 4, 5, 8.
+Since opposite faces have the same sum, 4 and 5 can't be on opposite sides.
+Consider x=6. The six numbers are chosen from 1 to 9 without repetition. 6 is opposite 8. So sum S=14. The remaining faces must add to 14. So x=6 is a possible solution.
+The numbers on the die are (1, 2, 3, 4, 5, 7, 9, 6, 8). Possible solution? We need to find pairs from the remaining such that they each sum to 14.
+One side has the numbers (4, 5, 8), so this doesn't work.
+
+The numbers available must be such that their sum is divisible by 3. 1-9 the sum of each number = 45. 45 - the sum of what's missing must be divisible by 3.
+Missing can be x, y, z which can be what's on the opposite faces: x is the opposite face of 8, y = 4's opposite face and z=5's opposite face.
+Each pair sums to S so x+8 = 4+y = 5+z
+We need to determine possible values for x such that the numbers 4,5,8,x,y,z can be the number 1-9 w/out repetition.
+Consider x=7, then 45 - (4+5+8+7+y+z) = 45 - (24+y+z).
+8+7=15. Possible solution.
+If we want a number from the answers, the answer is 7, and each opposite set has to add to 15.
+So x=7. y has to add to 15 with 4, so y=11 which is not allowed.
+If total 1,2,3,4,5,6 =21 doesn't work. 1,2,3,4,5,7 x=6 21+x=21+6
+If S=15 with 8, so 1, 2, 3, 4, 5, 6, 9. 8,7, 1,14 no
+Let x=6; if S=14 with 8, so 1,2,3,4,5,7,9. So a=15, b=14. Need the correct answers
+Total num = 45 - 8 = a
+
+Answer: A)
+Reasoning:
+If the 6 numbers are 1,2,3,4,5,6
+x = 6. Sum =45, then x=21. 45
+Total sum 1+9=45.
+Since = 45
+4,5,8
+so x=45 - z=8
+Since 8,x add up to same amount s then 45 -=
+
+Answer: D)
+Reasoning:
+Let x be the number on the opposite side with the number 8. Let the constant sum of opposite faces be S. Then 8 + x = S. The integers written are from 1 to 9. We are using 6 integers from these 9 integers. The sum of these integers is 3S.
+
+Also we have 4, 5 and their opposites numbers which contribute to the set of 6 numbers. Thus, S is an integer. Since we can't determine S exactly, we shall resort to try different answers.
+A) If x=3, S = 8 + 3 = 11. Remaining 4 numbers have sum of 3S-(8+3) = 33 - 11 = 22.
+Also 4+y=11 => y = 7.
+Also 5+z=11 => z = 6. Remaining 4 numbers 1,2,4,5,6,7,8,3 => 1,2,4,5,6,7,8,9 -3,6,7 = 1,2,4,5,8,9
+4,5,8, 3, 6,7 => so total is 33. 1,2,4,5,9. Total is 33.
+numbers are 1,2,9
+
+If x=3, y=7, z=6 - Then {3,6,7} have the set {1,2,4,5,8,9)
+
+The numbers we selected: 1,2,4,5,3,6,7 can be the solution. NO!
+Reason
+This won't equal.
+So the only possible answe
+6+9 , 5+ 1
+8, x , we select x+2(same)=4. y 4,
+Therefore d since this adds up
+4+
+the
+and 5, the
+So x must equal
+
+Answer: D)

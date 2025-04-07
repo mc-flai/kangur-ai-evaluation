@@ -1,0 +1,10 @@
+Reasoning:
+The sum of the interior angles of a pentagon is (5-2) * 180 = 3 * 180 = 540 degrees.
+If the pentagon has 0 right angles, the sum of the remaining 5 angles must be 540. It is possible to construct a convex pentagon with all angles less than 180 and no right angles.
+If the pentagon has 1 right angle, the sum of the remaining 4 angles is 540 - 90 = 450.  It is possible to construct such a pentagon with each of the remaining 4 angles less than 180.
+If the pentagon has 2 right angles, the sum of the remaining 3 angles is 540 - 2*90 = 540 - 180 = 360. It is possible to construct such a pentagon with each of the remaining 3 angles less than 180. For example, three angles of 120 degrees.
+If the pentagon has 3 right angles, the sum of the remaining 2 angles is 540 - 3*90 = 540 - 270 = 270. It is possible to construct such a pentagon with each of the remaining 2 angles less than 180.
+If the pentagon has 4 right angles, the sum of the remaining angle is 540 - 4*90 = 540 - 360 = 180.  But since the pentagon must be convex, all its internal angles must be less than 180. Thus, it is impossible to construct such a pentagon.
+Therefore, the number of right angles can be 0, 1, 2, or 3.
+
+Answer: C)

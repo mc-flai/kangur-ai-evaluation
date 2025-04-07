@@ -1,0 +1,72 @@
+### Reasoning:
+
+We are given the following equations involving real numbers \(a\), \(b\), \(c\), and \(d\):
+
+1. \(a + 5 = b^2 - 1\)
+2. \(b^2 - 1 = c^2 + 3\)
+3. \(c^2 + 3 = d - 4\)
+
+From these equations, we can deduce the following relationships:
+
+1. \(a + 5 = c^2 + 3\)
+2. \(a + 5 = d - 4\)
+
+Let's solve for \(a\), \(c\), and \(d\):
+
+From \(a + 5 = c^2 + 3\):
+
+\[ a = c^2 + 3 - 5 \]
+\[ a = c^2 - 2 \]
+
+From \(a + 5 = d - 4\):
+
+\[ a = d - 9 \]
+
+Equating the two expressions for \(a\):
+
+\[ c^2 - 2 = d - 9 \]
+\[ c^2 - d = 11 \]
+
+Now, let's solve for \(b\):
+
+From \(b^2 - 1 = c^2 + 3\):
+
+\[ b^2 = c^2 + 4 \]
+\[ b^2 = (c + 2)(c - 2) \]
+
+Since \(b\) is a real number, \(c + 2\) and \(c - 2\) must both be non-negative or non-positive. This implies \(c\) is between -2 and 2.
+
+Given \(c^2 - d = 11\), we can find the range of \(d\):
+
+\[ d = c^2 - 11 \]
+
+Since \(c\) is between -2 and 2, \(c^2\) is between 0 and 4. Therefore, \(d\) is between -7 and 3.
+
+Now, let's find the range of \(a\):
+
+\[ a = c^2 - 2 \]
+
+Since \(c^2\) is between 0 and 4, \(a\) is between -2 and 2.
+
+Next, let's find the range of \(b\):
+
+\[ b^2 = (c + 2)(c - 2) \]
+
+Since \(c\) is between -2 and 2, \((c + 2)(c - 2)\) is between 0 and 16. Therefore, \(b\) is between -4 and 4.
+
+Finally, let's find the range of \(d\):
+
+\[ d = c^2 - 11 \]
+
+Since \(c^2\) is between 0 and 4, \(d\) is between -7 and -7.
+
+Comparing the ranges:
+
+- \(a\) is between -2 and 2.
+- \(b\) is between -4 and 4.
+- \(c\) is between -2 and 2.
+- \(d\) is between -7 and -7.
+
+Clearly, \(d\) is the smallest number.
+
+### Answer: D

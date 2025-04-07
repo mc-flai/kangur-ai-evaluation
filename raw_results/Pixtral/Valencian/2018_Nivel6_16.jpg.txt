@@ -1,0 +1,52 @@
+
+La pregunta 16 nos pide calcular el número de soluciones reales distintas para la ecuación dada:
+
+\[ (x^2 - 4x + 5)^{x^2 + x - 30} = 1. \]
+
+Para resolver esto, debemos considerar las condiciones bajo las cuales una expresión de la forma \( a^b = 1 \) tiene soluciones reales distintas.
+
+### Paso 1: Condiciones para \( a^b = 1 \)
+
+Para que \( a^b = 1 \), \( a \) debe ser igual a 1 o \( b \) debe ser un múltiplo entero de \( 2\pi i \) (en el caso complejo). Sin embargo, dado que estamos buscando soluciones reales, nos centraremos en \( a = 1 \).
+
+### Paso 2: Resolviendo \( x^2 - 4x + 5 = 1 \)
+
+Primero, simplificamos la ecuación:
+
+\[ x^2 - 4x + 5 = 1 \]
+
+\[ x^2 - 4x + 4 = 0 \]
+
+\[ (x - 2)^2 = 0 \]
+
+Esto nos da una sola solución real:
+
+\[ x = 2 \]
+
+### Paso 3: Resolviendo \( x^2 + x - 30 = k \) para \( k \) entero
+
+Ahora, consideramos la ecuación \( x^2 + x - 30 = k \) donde \( k \) es un entero. Reescribimos la ecuación:
+
+\[ x^2 + x - 30 = k \]
+
+\[ x^2 + x - k - 30 = 0 \]
+
+Usamos la fórmula cuadrática para resolver para \( x \):
+
+\[ x = \frac{-1 \pm \sqrt{1 + 4(k + 30)}}{2} \]
+
+\[ x = \frac{-1 \pm \sqrt{4k + 121}}{2} \]
+
+Para que \( x \) sea real, el discriminante \( 4k + 121 \) debe ser un número perfecto cuadrado. Esto significa que \( 4k + 121 \) debe ser un cuadrado de un número entero.
+
+### Paso 4: Contando las soluciones
+
+Para encontrar el número de soluciones reales distintas, debemos contar los valores enteros de \( k \) que hacen que \( 4k + 121 \) sea un cuadrado perfecto. Esto es una tarea numérica que generalmente requiere cálculo o prueba de valores específicos.
+
+### Conclusión
+
+Dado que la pregunta se centra en el número de soluciones reales distintas, y considerando la complejidad de la ecuación, la respuesta correcta es:
+
+**Respuesta: E) Infinito**
+
+Raonament: La ecuación \( x^2 + x - 30 = k \) tiene infinitas soluciones reales distintas porque hay infinitos valores enteros de \( k \) que pueden hacer que \( 4k + 121 \) sea un cuadrado perfecto.

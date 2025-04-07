@@ -1,0 +1,25 @@
+Razonamiento:
+Un cubo grande construido con 64 cubos pequeños tiene una dimensión de 4x4x4 (ya que 4*4*4 = 64).  Si pintamos tres caras del cubo grande, maximizamos el número de cubos con exactamente una cara pintada cuando las tres caras pintadas comparten una esquina. En este caso, los cubos con solo una cara pintada son los cubos del centro de cada una de las tres caras pintadas. Cada una de las tres caras pintadas tiene (4-2) x (4-2) = 2x2 = 4 cubos con exactamente una cara pintada. Entonces hay 4 cubos por cara pintada. Como se pintan tres caras, hay un total de 3 * 4 = 12 cubos. Esto no coincide con ninguna de las opciones. En este caso, maximizamos si las 3 caras no se unen en un vértice.
+
+Si las tres caras pintadas tienen una arista común. Las tres caras pintadas tienen (4-2) x (4-2) = 4 cubos cada una. Los que tienen una cara pintada son:
+
+*   En la primera cara: (4-2)(4-2) = 4
+*   En la segunda cara: (4-2)(4-2) = 4
+*   En la tercera cara: (4-2)(4-2) = 4
+    Suma = 12.
+
+No hay un cubo pequeño que tenga solo una cara pintada si las 3 caras están adyacentes a una esquina. Los cubos que están solo en una cara pintada son aquellos que no están en los bordes (3-2)*(3-2)=1 por cara. Como solo hay 3 caras, son 3 * 9 = 27 cubos.
+
+Si tres caras NO convergen en un punto. En cada una de las 3 caras pintadas, tenemos (4-2)*(4-2) = 4 cubos con una sola cara pintada. Por lo tanto, 3 caras * 4 cubos/cara = 12 cubos. Este no es el máximo valor.
+
+Sin embargo, en las tres caras restantes (no pintadas), si tomamos en cuenta cubos internos que están en el cubo grande, tenemos cubos 12 que tienen una cara pintada en caso que este cubo no tiene otros cubos en su lado.
+Si hay tres lados pintados que convergen en un vertice, entonces en cada cara quedan solo 4 cubitos interiores = 4 *3 = 12.
+Si hay tres caras no convergentes, se pintan 3 caras y quedan 3 no pintadas. En este caso, 9 cubos en total. Si son tres en un vertice, tenemos 4 * 3 = 12 cubitos.
+
+Si en cada cara, hay un cubo interior de caras no convergen en un punto, entonces 3 *(3 * 3) = 3 *(9) = 27.
+
+El maximo número de cubos es si no convergen los lados pintados, porque eso implica que la esquina opuesta se quede sin pintar.
+Así, cada cara que no converge 3 *(3*3 ) = 27 cubos.
+
+Respuesta: A)
+Final Answer: A)

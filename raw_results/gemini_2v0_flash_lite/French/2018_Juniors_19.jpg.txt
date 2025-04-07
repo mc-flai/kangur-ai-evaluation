@@ -1,0 +1,28 @@
+Raisonnement : The question asks for the number of integers, between 2 and 6, whose sum and product equal 2018, and one of these integers is 2018 itself.
+If there are two numbers, and one is 2018, then the other number would have to be 0 since the sum of the two numbers is 2018 and their product is 2018.  2018 + 0 = 2018, but 2018 * 0 = 0, which does not equal 2018.
+If there are three numbers, and one is 2018, let the other two be x and y. We know that x*y*2018 = 2018. So, x*y = 1. Also, x + y + 2018 = 2018, thus x + y = 0. This implies that y = -x.  Substituting this into the equation x*y = 1 gives x*-x = 1, or -x^2 = 1. This has no real solution.
+If there are four numbers, and one is 2018, let the others be x, y and z. We know 2018 + x + y + z = 2018 and 2018*x*y*z = 2018.
+Then x + y + z = 0 and x*y*z = 1/2018. Since the values are integers, this case does not give an integer solution.
+In general, with more numbers and 2018 as one of them, their product will not equal to 2018.
+However, the question does not mention the numbers must be integers, the question says "entiers relatifs", so we can consider the fact that we need the sum and the product to be 2018. If we consider only 2 integers, then the equation is the following: a + 2018 = 2018 and 2018*a = 2018. This gives a = 1, and a + 2018 = 2019 != 2018, therefore this solution is wrong.
+
+Consider the case where we only have two numbers:  2018 and x.
+Their sum is 2018 + x = 2018, implying x = 0.
+Their product is 2018 * x = 2018 * 0 = 0, which is not 2018.  Therefore there must be more than 2 numbers.
+So, since we need the sum and product to be 2018, and one number is 2018.
+2018 + x + y + z... = 2018, so x+y+z... must be zero
+2018 * x * y * z... = 2018, so x*y*z... = 1
+This is a contradiction so we must have more than 2 numbers.  Let's try to have 3 numbers, 2018, x, y
+2018 + x + y = 2018 => x + y = 0 => y = -x
+2018 * x * y = 2018 => x * y = 1 => x * (-x) = 1 => -x^2 = 1 => no real solution.
+Thus with more than 3 numbers we need more than 4 since if they are 2018, x, y and z, x+y+z = 0 and x*y*z = 1/2018, impossible with integer.
+If we have five integers:  2018, a, b, c, and d
+2018 + a + b + c + d = 2018  =>  a + b + c + d = 0
+2018 * a * b * c * d = 2018 => a*b*c*d = 1
+So, a,b,c,d = 1, 1, -1 and -1
+Their sum is 1 + 1 - 1 - 1 = 0
+And the product is 1 * 1 * (-1) * (-1) = 1
+So the numbers can be 2018, 1, 1, -1, -1.
+Hence we can have 5 such numbers.
+
+Réponse : D)

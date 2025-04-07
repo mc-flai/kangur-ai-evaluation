@@ -1,0 +1,12 @@
+Raonament: The problem states that a group of $n$ friends receives a discount of $n\%$ on each entry.  However, the maximum discount for the entire group should be the price of 4 entries.  Let $P$ be the normal price of one entry.  The discount on one entry is $n\% \times P = \frac{n}{100}P$.  The total discount for the group is the discount per entry multiplied by the number of entries. Since the maximum total discount is 4 entries, the maximum discount is $4P$.
+The total discount for a group of $n$ friends (where each friend gets an entry), each with a $n\%$ discount, can be determined by multiplying the discount per entry to each person, such as $n \times \frac{n}{100}P$.
+The total discount for the group cannot exceed the price of 4 entries.
+Therefore, $n \times \frac{n}{100}P \le 4P$.  Divide both sides by $P$:
+$n \times \frac{n}{100} \le 4$
+$\frac{n^2}{100} \le 4$
+$n^2 \le 400$
+$n \le \sqrt{400}$
+$n \le 20$
+Therefore, the maximum number of people is 20.
+
+Resposta: B)

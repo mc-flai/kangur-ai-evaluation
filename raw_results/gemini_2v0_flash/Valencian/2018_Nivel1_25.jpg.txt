@@ -1,0 +1,9 @@
+Raonament: Hem de comptar els minuts en un període de 24 hores on el rellotge mostra exactament 3 zeros. El format del rellotge és HH:MM.
+Els casos possibles són:
+- Hores: 00, minuts: 01, 02, 03, 04, 05, 06, 07, 08, 09 -> 9 minuts
+- Hores: 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 20, minuts: 00 -> 11 hores * 1 minut/hora = 11 minuts
+- Hores: 00, minuts: 10, 20, 30, 40, 50 -> Cap perquè hi ha 2 zeros
+- Hores: 10, 20, minuts: 01, 02, 03, 04, 05, 06, 07, 08, 09 -> cap
+Per tant, 9 + 11 = 20 minuts.
+
+Resposta: D)

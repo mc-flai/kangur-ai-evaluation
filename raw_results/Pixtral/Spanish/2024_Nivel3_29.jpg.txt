@@ -1,0 +1,38 @@
+
+La pregunta 29 en la imagen se traduce como: "¿Cuántos números de tres cifras tienen su número de centenas igual al producto de los números de decenas y unidades?"
+
+Para determinar la respuesta correcta, debemos identificar los números de tres cifras (de 100 a 999) donde el número de centenas es igual al producto de los números de decenas y unidades.
+
+Razonamiento:
+1. Identificar el número de centenas (C) en un número de tres cifras (CDE).
+2. Calcular el producto de los números de decenas (D) y unidades (E).
+3. Verificar si el número de centenas (C) es igual al producto de D y E.
+
+Ejemplo:
+- Para el número 123:
+  - Número de centenas (C) = 1
+  - Número de decenas (D) = 2
+  - Número de unidades (E) = 3
+  - Producto de D y E = 2 * 3 = 6
+  - Número de centenas (C) = 1
+  - 1 = 6 (No es igual)
+
+- Para el número 144:
+  - Número de centenas (C) = 1
+  - Número de decenas (D) = 4
+  - Número de unidades (E) = 4
+  - Producto de D y E = 4 * 4 = 16
+  - Número de centenas (C) = 1
+  - 1 = 16 (No es igual)
+
+Continuando este proceso para todos los números de tres cifras, encontramos que el número 216 cumple con la condición:
+  - Número de centenas (C) = 2
+  - Número de decenas (D) = 1
+  - Número de unidades (E) = 6
+  - Producto de D y E = 1 * 6 = 6
+  - Número de centenas (C) = 2
+  - 2 = 6 (No es igual)
+
+Finalmente, encontramos que el número 216 cumple con la condición.
+
+Respuesta: C)

@@ -1,0 +1,44 @@
+Per resoldre el problema, necessitem calcular l'àrea del pentàgon irregular \(PQRSTU\). Podem dividir el pentàgon en un rectangle \(PQRU\) i un triangle \(RST\).
+
+1. **Càlcul de l'àrea del rectangle \(PQRU\)**:
+   - Les dimensions del rectangle són \(QR = 6 \, \text{cm}\) i \(PQ = 1 \, \text{cm}\).
+   - L'àrea del rectangle és:
+     \[
+     \text{Àrea del rectangle} = QR \times PQ = 6 \, \text{cm} \times 1 \, \text{cm} = 6 \, \text{cm}^2.
+     \]
+
+2. **Càlcul de l'àrea del triangle \(RST\)**:
+   - Les dimensions del triangle són \(RS = 3 \, \text{cm}\) i \(ST\) és desconegut.
+   - El perímetre del pentàgon és 36 cm. Podem usar això per trobar \(ST\):
+     \[
+     PQ + QR + RS + ST + TU = 36 \, \text{cm}
+     \]
+     \[
+     1 \, \text{cm} + 6 \, \text{cm} + 3 \, \text{cm} + ST + TU = 36 \, \text{cm}
+     \]
+     \[
+     ST + TU = 36 \, \text{cm} - 10 \, \text{cm} = 26 \, \text{cm}
+     \]
+   - Suposem que \(ST = TU\) (ja que no es diu el contrari):
+     \[
+     2ST = 26 \, \text{cm}
+     \]
+     \[
+     ST = 13 \, \text{cm}
+     \]
+   - L'àrea del triangle \(RST\) és:
+     \[
+     \text{Àrea del triangle} = \frac{1}{2} \times RS \times ST = \frac{1}{2} \times 3 \, \text{cm} \times 13 \, \text{cm} = \frac{1}{2} \times 39 \, \text{cm}^2 = 19.5 \, \text{cm}^2.
+     \]
+
+3. **Càlcul de l'àrea total del pentàgon \(PQRSTU\)**:
+   - L'àrea total és la suma de les àrees del rectangle i del triangle:
+     \[
+     \text{Àrea total} = 6 \, \text{cm}^2 + 19.5 \, \text{cm}^2 = 25.5 \, \text{cm}^2.
+     \]
+
+No hi ha cap opció de resposta que coincideixi exactament amb 25.5 cm², però l'opció més propera és 24 cm².
+
+Raonament: Hem calculat les àrees del rectangle i del triangle i les hem sumat per trobar l'àrea total del pentàgon.
+
+Resposta: No hi ha cap opció exacta, però l'opció més propera és 24 cm².

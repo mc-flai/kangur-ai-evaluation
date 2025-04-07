@@ -1,0 +1,17 @@
+Raonament: Per resoldre aquest problema, hem d'identificar quins nombres no poden estar en els vèrtexs d'un octàgon on la suma de cada parell adjacent és un múltiple de 3. L'octàgon té vuit vèrtexs, i Cristina té dotze cartes numerades de l'1 al 12. Això significa que quatre nombres no s'utilitzen.
+
+Els nombres de l'1 al 12 es poden classificar en tres grups basats en el seu residu en dividir-los per 3:
+*   Residu 0: 3, 6, 9, 12
+*   Residu 1: 1, 4, 7, 10
+*   Residu 2: 2, 5, 8, 11
+
+Perquè la suma de dos nombres sigui un múltiple de 3, les seves restes en dividir per 3 ha de sumar un múltiple de 3 (0, 3, o 6). Això significa que podem connectar nombres de la mateixa classe de residu (per exemple, 3 + 6 = 9) o nombres de diferents classes que sumin un múltiple de 3, en aquest cas residu 1 amb residu 2 (per exemple, 1 + 2 = 3, 4 + 5 = 9, etc.).
+
+Per formar un octàgon, necessitem vuit nombres. Si algun nombre no està present en un octàgon, el seu residu corresponent no podrà ser utilitzat en l'octàgon. Analitzem les opcions:
+*   A) 1, 4, 7, 10: Tots els nombres tenen residu 1. Si no utilitzem aquests nombres, podem formar un octàgon usant els nombres que tenen residu 0 i 2.
+*   B) 3, 5, 7, 9: Tenim dos nombres amb residu 0, un amb residu 2 i un amb residu 1. Es pot crear un octàgon amb les cartes restants.
+*   C) 1, 2, 11, 12: Tenim nombres amb residu 0, 1 i 2. Es pot crear un octàgon amb les cartes restants.
+*   D) 5, 6, 7, 8: Tenim nombres amb residu 0, 1 i 2. Es pot crear un octàgon amb les cartes restants.
+*   E) 3, 6, 9, 12: Tots els nombres tenen residu 0. Si no utilitzem aquests nombres, no podem formar un octàgon perquè no tenim nombres que siguin múltiples de 3. L'octàgon ha de tenir nombres amb residu 1 i residu 2 per formar sumes que siguin múltiples de 3.
+
+Resposta: E)

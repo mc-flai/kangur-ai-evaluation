@@ -1,0 +1,7 @@
+Raonament: La pregunta demana el nombre màxim de cordes que es poden dibuixar, unint parelles de punts en una circumferència, sense que s'intersequen a l'interior del cercle. Per tal de maximitzar el nombre de cordes sense interseccions, podem unir cada punt amb el punt següent de la circumferència. En un cercle, cada punt està definit per dos coordenades, una X i una Y, i per cada parell de punts podem dibuixar una corda, per tant, el nombre de cordes no interseccants en aquest cas és de (n-1), on n és el nombre de punts. En aquest cas, com tenim 2016 punts, el nombre màxim de cordes és 2016. No obstant això, la resposta ha de ser una de les ofertes, i cap de les ofertes coincideix amb el nombre de cordes que es poden dibuixar, per tant, he de pensar una altra estratègia.
+Una altra manera de resoldre aquest problema seria considerar que per a cada punt podem unir-lo amb un altre punt qualsevol, la qual cosa significa que cada punt es pot connectar amb 2015 altres punts, resultant en 2016 * 2015 possibles connexions. Però, com cada corda connecta 2 punts, cada connexió s'ha de dividir entre 2, el que dona 2016 * 2015 / 2 = 2031120 / 2 = 2031120.
+La resposta correcta es troba calculant el nombre de possibles parells de punts. Això es pot calcular utilitzant la fórmula combinatòria per a la selecció de 2 punts de 2016, que és n * (n-1) / 2 on n és el nombre de punts.
+Aplicant la fórmula: 2016 * (2016 - 1) / 2 = 2016 * 2015 / 2 = 2031120 / 2 = 2031120
+Error de càlcul a la pregunta, a partir d'aquí ja no he aconseguit resoldre la pregunta.
+
+Resposta: E)

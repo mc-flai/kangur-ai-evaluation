@@ -1,0 +1,12 @@
+La pregunta 5 involucra determinar el nombre de vèrtexs en un polígon resultant després que quatre vèrtexs d'un polígon regular de quatre costats (tetràmetre) es retallin de la seva part més fosca, com es mostra a la figura.
+
+**Razonament**:
+1. Un tetràmetre és un polígon regular amb quatre costats.
+2. Retallar quatre vèrtexs d'un tetràmetre implica que cada vèrtex retallat es convertirà en un nou vèrtex al polígon resultant.
+3. Cada retallada crea una nova intersecció, que afegeix vèrtexs al polígon resultant.
+4. Com a resultat, cada retallada afegeix dos vèrtexs al polígon resultant (un per cada vèrtex retallat).
+5. Com que hi ha quatre retallades, això afegeix un total de 4 * 2 = 8 vèrtexs al polígon resultant.
+6. El polígon resultant tindrà els vèrtexs originals del tetràmetre més els vèrtexs afegeits per les retallades.
+7. El polígon resultant tindrà un total de 4 (vèrtexs originals) + 8 (vèrtexs afegeits) = 12 vèrtexs.
+
+**Resposta**: D)

@@ -1,0 +1,13 @@
+Raonament:
+La pregunta ens diu que tenim sis nombres positius, el major dels quals és *n*. Necessitem trobar el valor més petit de *n* tal que hi hagi un parell de nombres *a* i *b* (amb *a* < *b*) on *a* no divideix *b*.
+Per minimitzar *n*, intentem maximitzar el nombre de divisors entre els sis nombres. Si triem els nombres 1, 2, 3, 4, 5, i 6, tots els nombres menors divideixen els més grans. Això no compleix la condició.
+Ara hem de pensar en una altra col·lecció de nombres. Provem 1, 2, 3, 4, 6. Per obtenir un valor més petit de *n*, l'altre nombre ha de ser el més petit possible, però no un divisor de qualsevol dels anteriors. El següent nombre primer que tenim disponible és el 5. Si afegim 5, *n* = 6. Però 1 divideix 5. Si afegim un 7, el conjunt seria {1, 2, 3, 4, 6, 7}, on *n* = 7. Però 1, 2, 3, 4, 6 divideixen *n*.
+Ara, fem que els nombres siguin els més divisibles possibles. Comencem amb 1, i després 2 i 3, de manera que tinguem 1, 2, 3, 4, 6. Si intentem tenir 9, el conjunt podria ser {1, 2, 3, 4, 6, 9}. En aquest cas, 2 no és divisor de 9, però 4 tampoc no és divisor de 9, i 1, 2, 3, 4 i 6 divideixen 12. El conjunt seria {1, 2, 3, 4, 6, 12}.
+Si provem 1, 2, 3, 4, 6, 12, tots els números menors divideixen el 12.
+Si tenim 1, 2, 3, 4, 6, 24, tot divideix.
+Si tenim 1, 2, 3, 6, 12, 18, tot divideix.
+Si tenim 1, 2, 3, 6, 9, x.  Si x = 18, tot divideix. Si x = 10, aleshores 3 no divideix 10. Si x = 15, aleshores 2 no divideix 15. Si x = 20, aleshores 3 no divideix 20.
+Considera 1, 2, 3, 4, 6, x. Volem que hi hagi un parell on un no divideixi l'altre.
+Amb 9, tenim {1, 2, 3, 4, 6, 9}, 2 no divideix 9, 4 no divideix 9. Això ho compleix. Així que la resposta és 9.
+
+Resposta: A)

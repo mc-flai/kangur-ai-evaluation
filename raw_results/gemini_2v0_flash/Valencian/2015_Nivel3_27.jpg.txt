@@ -1,0 +1,21 @@
+Raonament: Observem el patró en la seqüència de signes: +, +, -, -, +, +, -, -,... El que podem fer és agrupar els números en grups de quatre:
+(1 + 2 - 3 - 4) = -4
+(5 + 6 - 7 - 8) = -4
+(9 + 10 - 11 - 12) = -4
+Veiem que cada grup de quatre suma -4.
+Ara, hem de trobar quants grups de quatre hi ha fins a 2012, ja que 2015 no pertany a cap grup de quatre complet. 2012 / 4 = 503. Així que hi ha 503 grups de -4.
+Per tant, la suma fins a 2012 serà 503 * (-4) = -2012.
+Ara, hem de sumar els números restants, que són 2013, 2014 i 2015. En realitat, l'expressió original és:
+1 + 2 - 3 - 4 + 5 + 6 - 7 - 8 + ... + 2013 + 2014 - 2015.
+Des de 1 a 2012, la suma val -2012.
+Per tant, hem de sumar -2012 + 2013 + 2014 - 2015 = -2012 + 2013 + 2014 - 2015 = 1 + 2014 - 2015 = 2015 - 2015 = 0.
+Ens hem equivocat, el patró és + + - -. Per tant, si agrupem els nombres de 4 en 4:
+(1 + 2 - 3 - 4) = -4
+(5 + 6 - 7 - 8) = -4
+...
+Com que 2012/4 = 503, els nombres de l'1 al 2012 formen 503 grups de -4, és a dir, -4 * 503 = -2012
+Els nombres restants són: 2013 + 2014 - 2015 = 2012
+Així doncs, -2012 + 2013 + 2014 - 2015 = -2012 + 2012 = 0.
+Per tant, la suma total és 0.
+
+Resposta: A)

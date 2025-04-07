@@ -1,0 +1,9 @@
+Raonament:
+1. **Calculate the total points of the first 34 players:** 34 players * 9 points/player = 306 points.
+2. **Calculate the total points of all 40 players:** 40 players * 8.9 points/player = 356 points.
+3. **Calculate the total points of the last 6 players:** 356 points (total) - 306 points (first 34) = 50 points.
+4. **Minimum points for the last 6 players:** The problem states each of the last 6 players has at least 7 points, so they have a minimum of 6 * 7 = 42 points.
+5. **Remaining points to be distributed:** The total points of the last 6 players is 50, and their minimum score is 42, which leaves 50 - 42 = 8 points to be distributed.
+6. **Calculate how many of these 6 players could have scored 10 points:** Since the maximum score is 10, and we have 8 points left to distribute. Since we want to maximize the number of players with 10 points we can only use 8 points. Therefore, 8/10 points cannot be used for a player to have 10 points, therefore, only one player can score up to a maximum of 10. Since the question requests the maximum number of players scoring 10 points, we can only maximize the possible outcome.
+
+Resposta: B) 2

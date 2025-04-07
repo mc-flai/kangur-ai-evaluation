@@ -1,0 +1,23 @@
+Reasoning: The large cube is made of 64 smaller cubes, so the side length of the large cube is 4 small cubes (since 4x4x4 = 64). When the initial large cube is painted red, all the outside faces are red. After dismantling and reassembling the cube so all the white faces are on the outside, the cube is painted red again. This means the outside faces of the cubes are red and the internal faces are still white.
+The number of cubes with no painted faces (which are completely white) is (4-2)x(4-2)x(4-2) = 2x2x2 = 8. Each of these 8 small cubes will have 6 white faces. That is 8 x 6 = 48.
+The cubes with 1 red face and 5 white faces: there are 6x(2x2) = 24 such cubes, each cube contributing 5 white faces.
+That is 24 x 5 = 120 white faces.
+Cubes with 2 red faces and 4 white faces: There are 12 such cubes * 4 = 48. Each of these contributes 4 white faces: 48 * 4 = 192 white faces
+Cubes with 3 red faces and 3 white faces: There are 8 such cubes, each with 3 white faces.
+Cubes with 3 red faces and 3 white faces: There are 8 such cubes. 8 x 3 = 24
+Total number of cubes: 64
+The total number of white faces:
+The cube has 6 faces, and each face contains 4x4 = 16 little cubes.
+In the second instance, the reassembled cube has all white faces visible. The white faces of the little cubes that will remain white are all the inner cubes.
+The inner cube will be a 2x2x2 cube. This has 8 small cubes, each having six white faces, so that would be 8 cubes * 6 white faces = 48 white faces
+Each of the side cubes that are at the center of the edges of each face, will contribute 4 white faces. The number of such cubes = 12
+So, there will be 12 edge cubes, each with 4 white faces, which is 12*4 = 48.
+Each of the faces will have 4 side cubes with 3 faces, hence the total is 4*4 = 16.
+The number of corner cubes will be 8. All of these were 8. Total White faces will then be 48+4*16 = 112 + 3 white faces from each of the corner pieces i.e. 24 white faces.
+Each face will contribute the 4 edges: Total number of edges 12. These edges have 4x4=16 faces. The other faces would be painted. Therefore 8 * 3 = 24 white faces.
+The faces will be painted.
+Total number of faces is 4 * 5 = 120. Total number of white faces remains as 48+5*24+3*8= 192
+48+120+24=192
+The total white faces remaining is 192.
+
+Answer: E)

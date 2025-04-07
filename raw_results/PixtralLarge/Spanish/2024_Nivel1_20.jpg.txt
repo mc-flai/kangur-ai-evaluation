@@ -1,0 +1,57 @@
+Para resolver este problema, primero necesitamos identificar los valores representados por cada figura.
+
+De acuerdo a las sumas dadas:
+1. Dos triángulos verdes son iguales a un cuadrado azul y un círculo rojo.
+2. Un círculo rojo más un triángulo verde es igual a dos cuadrados azules.
+
+**Razonamiento**:
+1. Representemos los valores de las figuras como:
+   - Triángulo verde: T
+   - Círculo rojo: C
+   - Cuadrado azul: Q
+
+2. De la primera suma:
+   T + T = Q + C
+   Simplificando:
+   2T = Q + C
+
+3. De la segunda suma:
+   C + T = Q + Q
+   Simplificando:
+   C + T = 2Q
+
+4. Ahora tenemos dos ecuaciones:
+   - Ecuación 1: 2T = Q + C
+   - Ecuación 2: C + T = 2Q
+
+5. Resolvamos el sistema de ecuaciones:
+   - De la Ecuación 1: 2T = Q + C
+     T = (Q + C) / 2
+   
+   - De la Ecuación 2: C + T = 2Q
+     Sustituyendo T:
+     C + (Q + C) / 2 = 2Q
+     Multiplicando por 2 para eliminar la fracción:
+     2C + Q + C = 4Q
+     3C + Q = 4Q
+     3C = 3Q
+     C = Q
+
+   - Sustituyendo C = Q en la Ecuación 1:
+     2T = Q + Q
+     2T = 2Q
+     T = Q
+
+6. Por lo que cada figura tiene el mismo valor:
+   - T = Q
+   - C = Q
+
+7. El producto de un triángulo verde y un círculo rojo es:
+   T * C = Q * Q = Q^2
+
+8. Dado que cada figura tiene un valor de Q, el producto de T * C es igual a Q^2, lo que se representa como 1 cuadrado azul (ya que Q = cuadrado azul).
+
+9. Por lo tanto, la respuesta correcta es:
+   30 (opción E).
+
+**Respuesta**: E)

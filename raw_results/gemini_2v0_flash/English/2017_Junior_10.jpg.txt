@@ -1,0 +1,4 @@
+Reasoning:
+We want to find the minimum number of students who have to take a button such that at least three buttons have the same color. In the worst-case scenario, we pick two red, two white, and two blue buttons. That's 2 + 2 + 2 = 6 buttons. The next button picked (the 7th button) will be either red, white, or blue, and will ensure that at least three buttons of the same color have been picked.
+
+Answer: C)

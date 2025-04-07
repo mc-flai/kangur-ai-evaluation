@@ -1,0 +1,8 @@
+Raonament: Sigui el nombre de tres xifres ABC, on A, B i C són dígits. Llavors, el nombre es pot expressar com 100A + 10B + C. Si eliminem el primer dígit (A), obtenim el nombre de dues xifres BC, que es pot expressar com 10B + C. Segons l'enunciat, 7*(10B + C) = 100A + 10B + C. Per tant, 70B + 7C = 100A + 10B + C, que es simplifica a 60B + 6C = 100A, o 30B + 3C = 50A, o 3(10B + C) = 50A. Per tant, 10B + C = (50/3)A. Com que 10B + C és un enter, A ha de ser un múltiple de 3. A més, com que A és la primera xifra d'un nombre de tres xifres, pot ser 1, 2, 3, 4, 5, 6, 7, 8 o 9. Per tant, A ha de ser 3, 6 o 9.
+- Si A = 3, llavors 10B + C = (50/3)*3 = 50. Per tant, B = 5 i C = 0. El nombre original seria 350. 7 * 50 = 350.
+- Si A = 6, llavors 10B + C = (50/3)*6 = 100. Això és impossible ja que 10B + C és un nombre de dues xifres i, per tant, ha de ser menor que 100.
+- Si A = 9, llavors 10B + C = (50/3)*9 = 150. De nou, això és impossible ja que 10B + C és un nombre de dues xifres.
+
+Per tant, l'única solució possible és A = 3, B = 5 i C = 0. La xifra que hem llevat és 3.
+
+Resposta: C)

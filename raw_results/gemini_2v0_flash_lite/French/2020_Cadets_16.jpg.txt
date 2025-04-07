@@ -1,0 +1,24 @@
+Raisonnement :
+La question porte sur le nombre maximal de faces entièrement rouges d'un grand cube construit à partir de 27 petits cubes. Chaque petit cube a deux faces adjacentes rouges et quatre faces blanches. Pour maximiser le nombre de faces rouges du grand cube, on doit placer les petits cubes de manière à ce que le plus grand nombre de faces rouges soient à l'extérieur.  Un grand cube composé de 27 petits cubes est une structure 3x3x3.
+
+*   **Cubes des coins** : Il y a 8 cubes aux coins. Chacun peut avoir 1 face rouge sur la face du grand cube.  Total : 1 x 8 = 8 faces rouges.
+*   **Cubes des arêtes (pas les coins)** : Il y a 12 arêtes. Chaque arête a un cube au milieu, donc il y a 12 cubes en milieu d'arête. Chaque cube d'arête peut avoir une face rouge exposée. Le cube du milieu d'une arête a 2 faces rouges. Pour maximiser les faces rouges, la face rouge du cube du milieu de l'arête doit être tournée vers l'extérieur. Total : 12 cubes d'arête * 1 face rouge = 12 faces rouges.
+*   **Cubes centraux des faces**: Il y a 6 faces, chaque face a 1 cube central. Chaque cube central de face ne montre que 1 face rouge.  Total : 6 faces * 1 face rouge = 6 faces rouges.
+*  **Cube central:** Le cube central n'aura aucune face rouge exposée.
+
+Le nombre maximum de faces rouges sur le grand cube sera donc composé des cubes des coins (8 faces rouges) et des cubes des arêtes (12 faces rouges) et des cubes centraux des faces (6 faces rouges). Toutefois, on ne peut compter que les faces complètes.
+
+*   Considérons la disposition du grand cube 3x3x3.
+*   Les 8 cubes aux coins peuvent chacun avoir 1 face rouge visible.
+*   Les 12 cubes sur les arêtes (mais pas les coins) peuvent avoir 1 face rouge visible.
+*   Les 6 cubes au centre des faces peuvent avoir 0 face rouge visible.
+*   Le cube central ne possède aucune face rouge visible.
+Si on veut maximiser les faces rouges sur le grand cube, on doit utiliser les cubes qui ont le plus de faces rouges. Les 8 cubes des coins peuvent chacun avoir 1 face rouge vers l'extérieur. Donc 1 face rouge x 8 cubes = 8 faces rouges. Les 12 cubes des arêtes peuvent aussi avoir 1 face rouge vers l'extérieur. Donc 1 face rouge x 12 cubes = 12 faces rouges. Les 6 cubes au centre des faces peuvent avoir 0 faces rouges. Le cube central est entièrement caché. On ne compte que les faces rouges entières.
+
+Le grand cube a 6 faces au total. Chaque petite cube a 2 faces rouges. Donc il y a au total (27 cubes x 2 faces rouges) = 54 faces rouges. Si chaque face du grand cube a un maximum de faces rouges on aurait:
+- 1 coin: 1 face rouge (on peut les placer)
+- 12 faces qui font le milieu d'une arrête et chaque cube fait face à une face rouge.
+- 6 faces rouges.
+Donc, si le grand cube est placé de manière à ce qu'un maximum de faces rouges soient sur les faces extérieures, on peut avoir 6 faces rouges.
+
+Réponse : E)

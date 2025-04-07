@@ -1,0 +1,11 @@
+Raonament: The equation is $2 - |x| = ax$. We can analyze this graphically. The left side, $2 - |x|$, is a V-shaped graph with its vertex at (0, 2), opening downwards. The right side, $ax$, is a line passing through the origin with a slope of $a$. For the equation to have exactly two solutions, the line must intersect the V-shaped graph at two points.
+
+If $a=0$, then the equation becomes $2 - |x| = 0$, which yields $|x|=2$, so $x = 2$ or $x = -2$, giving two solutions.
+If $a=1$, we have $2-|x| = x$. For $x \ge 0$, $2-x = x$, so $2=2x$ and $x=1$. For $x < 0$, $2 - (-x) = x$, or $2 + x = x$, which implies $2 = 0$, no solution. Thus, with $a=1$ we get a single solution.
+If $a=-1$, we have $2-|x| = -x$. For $x \ge 0$, $2-x=-x$, which gives $2=0$, no solution.  For $x<0$, $2 - (-x) = -x$, or $2+x=-x$, so $2=-2x$, meaning $x=-1$.  Thus, with $a=-1$ we get one solution.
+If $a$ is between -1 and 1, but not equal to 0, the line will intersect the V-shaped graph at two points. For example when a = 0.5, the equation $2 - |x| = 0.5x$ gives two solutions.
+If $a<-1$ or $a>1$, we will either have no solutions or just one solution.
+
+Therefore the only value of $a$ that gives exactly two solutions is $a = 0$. If $-1<a<1$ but $a \ne 0$, then there will be two solutions, but the question asks for the set of all values of $a$.
+
+Resposta: D)

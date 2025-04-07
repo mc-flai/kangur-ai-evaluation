@@ -1,0 +1,20 @@
+**Raisonnement** :
+La question demande de trouver le carré obtenu en inversant le gris et le blanc. Cela signifie que les petites cases grises dans le carré d'origine doivent devenir blanches, et les petites cases blanches doivent devenir grises.
+
+En observant le carré d'origine dans le coin supérieur droit de l'image, nous avons :
+
+```
+Grise | Blanche
+Blanche | Grise
+```
+
+En inversant les couleurs, nous obtenons :
+
+```
+Blanche | Grise
+Grise | Blanche
+```
+
+La seule option correspondant à cette disposition est l'option D).
+
+**Réponse** : D).

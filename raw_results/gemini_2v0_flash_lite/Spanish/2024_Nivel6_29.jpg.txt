@@ -1,0 +1,12 @@
+Razonamiento:
+Para formar un ángulo de 45 grados en un triángulo inscrito en una circunferencia, uno de los lados del triángulo debe ser un arco que subtiende un ángulo central de 90 grados. Como los 12 puntos son equidistantes, el ángulo central entre dos puntos consecutivos es 360/12 = 30 grados. Por lo tanto, para formar un ángulo central de 90 grados, necesitamos 90/30 = 3 puntos en el arco. Para formar un triángulo, necesitamos otros dos puntos.
+1. Elige un punto, llamémoslo P1.
+2.  Elige el segundo punto P2.  P2 debe estar a 3 arcos de distancia de P1 (90 grados).
+3.  Elige el tercer punto, P3. P3 puede ser cualquiera de los 12 - 2 = 10 puntos restantes (sin incluir P1 y P2).
+4.  Hay 12 posibles elecciones para P1.
+5. Una vez que se elige P1, hay 2 posibles puntos para P2, ya que el arco se puede formar en ambas direcciones.
+6.  Luego, hay 10 puntos para la elección de P3.
+7.  Por lo tanto, el número total de triángulos posibles es (12 * 2 * 10)/2 = 120. Divide por 3 porque el orden de selección de los puntos no importa.
+8. Pero si el ángulo debe ser de 45 grados, uno de los lados del triángulo debe formar un arco de 90 grados (90 grados). Para formar un ángulo de 45 grados, necesitamos 3 espacios entre los puntos. Con 12 puntos, cada punto puede ser el vértice de 2 * (12-4) = 16 triángulos. Por lo tanto, el número de triángulos es (12*8)/2=48.
+
+Respuesta: A)

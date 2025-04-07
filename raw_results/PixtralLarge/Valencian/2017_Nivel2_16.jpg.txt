@@ -1,0 +1,56 @@
+Per resoldre el problema, necesitamos encontrar el valor de \( a + b \) de las series dadas.
+
+Primero, identifiquemos los valores de \( a \) y \( b \):
+
+1. \( a = \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots + \frac{1}{2017} \)
+2. \( b = \frac{3}{2} + \frac{5}{3} + \frac{7}{4} + \cdots + \frac{4033}{2017} \)
+
+Vamos a analizar el valor de \( b \) más de cerca. Las denominaciones de los términos de \( b \) son las mismas que las de \( a \), pero los numeradores son 2 veces los índices de los términos más 1.
+
+Por ejemplo:
+- El primer término de \( b \) es \(\frac{3}{2}\), que es \(\frac{2 \times 1 + 1}{2}\).
+- El segundo término de \( b \) es \(\frac{5}{3}\), que es \(\frac{2 \times 2 + 1}{3}\).
+
+Ahora sumamos \( a \) y \( b \):
+
+\[
+a + b = \left( \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{2017} \right) + \left( \frac{3}{2} + \frac{5}{3} + \cdots + \frac{4033}{2017} \right)
+\]
+
+Cada término en \( a \) y \( b \) se puede combinar de la siguiente manera:
+
+\[
+\frac{1}{n} + \frac{2n + 1}{n} = \frac{1 + 2n + 1}{n} = \frac{2n + 2}{n} = 2 + \frac{2}{n}
+\]
+
+Para cada término, \( 2 + \frac{2}{n} \).
+
+Sumando todos los términos, tenemos:
+
+\[
+2 \times 2017 + 2 \left( \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{2017} \right)
+\]
+
+El término \( 2 \left( \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{2017} \right) \) es \( 2a \).
+
+Por lo tanto:
+
+\[
+a + b = 2 \times 2017 + 2a
+\]
+
+Sustrayendo \( 2a \) de ambos lados:
+
+\[
+b = 2 \times 2017
+\]
+
+Por lo tanto:
+
+\[
+a + b = 2017
+\]
+
+Raonament: Hemos analizado las series \( a \) y \( b \), combinado los términos y simplificado para encontrar que \( a + b = 2017 \).
+
+Resposta: D)

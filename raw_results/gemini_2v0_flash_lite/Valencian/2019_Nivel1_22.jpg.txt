@@ -1,0 +1,10 @@
+Raonament:
+1. **Identificar els elements fora de lloc:** Primer, observem l'ordre actual de la seqüència: 4, 2, 3, 9, 8, 1, 7, 5, 6. Veiem que molts números no estan en la posició correcta.
+2. **Optimitzar els intercanvis:** Calculem el mínim nombre d'intercanvis per ordenar-los:
+    *   Intercanvi 4 i 1: 1, 2, 3, 9, 8, 4, 7, 5, 6
+    *   Intercanvi 9 i 6: 1, 2, 3, 6, 8, 4, 7, 5, 9
+    *   Intercanvi 8 i 5: 1, 2, 3, 6, 5, 4, 7, 8, 9
+    *   Intercanvi 6 i 4: 1, 2, 3, 4, 5, 6, 7, 8, 9
+3. **Comptar els intercanvis:** Comptem els intercanvis que hem fet: 4 intercanvis.
+
+Resposta: A)

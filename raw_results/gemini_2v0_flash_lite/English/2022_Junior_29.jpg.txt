@@ -1,0 +1,28 @@
+Reasoning:
+1.  Calculate the total number of games: With 8 teams, each playing every other team once, the number of games is 8 * 7 / 2 = 28 games.
+2.  Calculate the maximum possible points from wins: In each game, either 3 points are awarded (win) or 2 points (draw). So, the maximum possible points if all games resulted in a win is 28 * 3 = 84 points.
+3.  Analyze the actual points: The total points awarded are 61. The difference between the possible maximum points and the actual points is 84 - 61 = 23 points. This "missing" points come from draws.
+4.  Deduce the number of draws: For each draw, 2 points are "missing" from the maximum possible points. Therefore, the number of draws is 23 / 2 = 11.5. Since the number of draws must be an integer, this means some games are decided with a win (3 points). So, let's deduce the real number of draws that occurred.
+5.  Let's call 'd' the number of draws and 'w' the number of wins. Then:
+    - d + w = 28 (total games)
+    - d * 2 + w * 3 = 61 (total points)
+6.  Solving this system of equations, we get:
+    - Substitute w = 28 - d into the second equation:
+       2d + 3(28 - d) = 61
+       2d + 84 - 3d = 61
+       -d = -23
+       d = 23
+    - Now, find w: w = 28 - 23 = 5
+7.  Maximum score scenarios: Consider the best-case scenario for the team with the highest score. They have a total of 61, and 23 draws.
+8.  Maximize the points for the leading team: Assume the team with the maximum score participated in all the wins.  In the 5 wins, the team wins all, earning 5 * 3 = 15 points.
+9.  Let's consider the maximum score based on wins and draws.
+10. The leading team won 5 games, earning 15 points. The leading team was involved in all the 23 draw games, and earned 23 point. So the team total is 15+23 = 38.
+11. Check total points against the others: 61 points total. If the leading team has 38 points, there are 61-38 = 23 points left for the remaining 7 teams. The games from the leading teams' wins were not accounted for, so there are 5*2 = 10 points to account for since they lost 5 times.
+12. So the max of the leading team is smaller. Consider all draws: 23*1 = 23 + 5*3 = 15 = 38
+13. Try to find the maximum number of points the leading team could have earned.
+14. Let's see if a point of 21 could be the answer, if we have 5 wins in his favor, with 15 points. 61-15=46 point remaining. 46/7 is not possible so 21 is not the max.
+15. Let's assume the leading team plays only the draws. 23 draws are equal to 23 points for a leading team. 61-23 = 38 points left. 38/3 is not an integer.
+16. Let's assume the max team has 19. Then 61-19 = 42. Since 19 = 3w + d ( 3 * 6 + 1 = 19), then the team wins 6 games and draws 1, that's 6*3 + 1*1=19. Remaining games: 28-7 =21 games. Total points for other teams = 61-19 = 42.
+17. The max is 61/8, which is less than 19.
+
+Answer: B)

@@ -1,0 +1,19 @@
+Razonamiento:
+A es el menor número con 100 dígitos, por lo tanto, A = 10^99 = 1 seguido de 99 ceros.
+B es el mayor número con 100 dígitos, por lo tanto, B = 10^100 - 1 = 99...9 (100 nueves).
+Luego, A + B = 10^99 + 10^100 - 1 = 100...01 - 1 = 100...0 (99 ceros) + 99...9 (100 nueves) = 10^99 + (10^100 - 1) = 10^100 + 10^99 - 1.
+
+A + B = 100...0 (100 ceros) + 10...0 (99 ceros) - 1 = 110...0 (99 ceros) - 1 = 1099...9 (99 nueves)
+El número resultante es 10 con 99 nueves.
+
+Para encontrar el resto de (A+B) / 5, podemos usar la propiedad de que el resto de la división de una suma es igual a la suma de los restos.
+El resto de A al dividir por 5 es el resto de 10^99 / 5, que es 0.
+El resto de B al dividir por 5 es el resto de (10^100 - 1) / 5.  Como 10^100 es divisible por 5, su resto es 0, y 10^100 - 1 termina en 9. El resto de 9 al dividir por 5 es 4.
+Por lo tanto, (A+B) mod 5 = (0+4) mod 5 = 4.
+
+Alternatively, we can directly analyze the value A + B = 10^99 + (10^100-1) = 1099...9, which can be written as 10 * (10^99 + 1) - 1 = 10 * X -1 where X ends on digit one, so 10*X ends on 0, and therefore 10*X-1 ends on 9, thus when divided by 5 the reminder is 4.
+
+Razonamiento:
+A is 1 followed by 99 zeros. B is 99 nines. A+B is a 1 followed by 98 zeros and a 99 nines: 1099999...999. To find the remainder of the division by 5, we only need to check the last digit which is 9. 9 divided by 5 has remainder 4.
+
+Respuesta: D)

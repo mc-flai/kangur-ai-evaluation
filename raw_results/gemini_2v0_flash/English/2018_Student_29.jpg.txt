@@ -1,0 +1,25 @@
+Reasoning: Let $b$ be the number of boys and $g$ be the number of girls in the class.
+Given that there are 40% more girls than boys, so $g = b + 0.4b = 1.4b = \frac{7}{5}b$.
+The total number of students is $n = b + g = b + \frac{7}{5}b = \frac{12}{5}b$.
+The probability of selecting one girl and one boy is $\frac{\binom{b}{1} \binom{g}{1}}{\binom{n}{2}} = \frac{bg}{\frac{n(n-1)}{2}} = \frac{2bg}{n(n-1)}$.
+We are given that this probability is $\frac{1}{2}$. Therefore,
+$\frac{2bg}{n(n-1)} = \frac{1}{2}$
+$4bg = n(n-1)$
+$4b(\frac{7}{5}b) = \frac{12}{5}b(\frac{12}{5}b - 1)$
+$\frac{28}{5}b^2 = \frac{12}{5}b(\frac{12b-5}{5})$
+$\frac{28}{5}b^2 = \frac{12}{25}b(12b-5)$
+Since $b \neq 0$, we can divide both sides by $b$:
+$\frac{28}{5}b = \frac{12}{25}(12b-5)$
+$28 \cdot 5 b = 12(12b-5)$
+$140b = 144b - 60$
+$4b = 60$
+$b = 15$
+Then $g = \frac{7}{5}b = \frac{7}{5}(15) = 21$
+$n = b + g = 15 + 21 = 36$
+
+Now we check the probability:
+$n = 36$, $b = 15$, $g = 21$.
+$P(\text{one boy and one girl}) = \frac{2 \times 15 \times 21}{36 \times 35} = \frac{630}{1260} = \frac{1}{2}$.
+
+Reasoning: We set up the equation based on the given information, solved for the number of boys, calculated the number of girls, and then verified the total number of students.
+Answer: C)

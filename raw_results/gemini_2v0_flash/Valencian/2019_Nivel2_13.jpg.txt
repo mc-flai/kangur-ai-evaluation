@@ -1,0 +1,13 @@
+Raonament:
+El trencaclosques té 75 peces en total. Cada columna té 5 peces.
+Siguem *n* el nombre de peces per fila i *m* el nombre de files.
+Aleshores, *n* * *m* = 75.
+Les peces de la vora ja estan col·locades. El nombre de peces a la vora és el perímetre del rectangle, però hem de restar les peces que estan als cantons, ja que s'han comptat dues vegades.
+
+Sigui *x* el nombre de columnes. Llavors, hi ha *x* columnes i 5 files.
+El nombre total de peces és 75, per tant 5 * *x* = 75, el que significa que *x* = 15.
+Hi ha 15 columnes i 5 files.
+El nombre de peces del perímetre és 2 * 15 + 2 * 5 - 4 = 30 + 10 - 4 = 36.
+El nombre de peces que queden per col·locar és el total de peces menys les peces del perímetre, que és 75 - 36 = 39.
+
+Resposta: D)

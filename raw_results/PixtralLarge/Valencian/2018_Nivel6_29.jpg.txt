@@ -1,0 +1,16 @@
+Per resoldre el problema 29, hem de determinar quin és el mínim percentatge de reducció que permetria que les reserves de petroli no s'esgotessin en 50 anys.
+
+**Raonament**:
+1. Si la despesa anual de petroli es manté constant, les reserves s'esgotaran en 50 anys. Això vol dir que les reserves inicials són prou per cobrir la despesa anual durant 50 anys.
+2. Perquè les reserves no s'esgotin mai, la despesa anual ha de ser igual o inferior al que es regenera cada any.
+3. Si proposen un acord internacional per reduir la despesa un cert percentatge cada any, hem de trobar el mínim percentatge de reducció perquè la despesa sigui igual o inferior a la regeneració anual.
+4. La reducció ha de ser prou gran perquè, en 50 anys, la despesa anual sigui igual o inferior a la regeneració anual.
+5. Considerant que la reducció és un percentatge fix, la despesa anual es redueix cada any, i després de 50 anys, la despesa serà una fracció de la despesa inicial.
+6. Si la despesa inicial és \( D \), després de 50 anys, la despesa serà \( D \times (1 - r)^{50} \), on \( r \) és el percentatge de reducció.
+7. Perquè les reserves no s'esgotin mai, aquesta despesa ha de ser igual o inferior a la regeneració anual, que és \( \frac{D}{50} \).
+8. Per tant, hem de resoldre \( D \times (1 - r)^{50} \leq \frac{D}{50} \).
+9. Simplificant, obtenim \( (1 - r)^{50} \leq \frac{1}{50} \).
+10. Això es pot resoldre per \( r \) utilitzant logaritmes: \( 50 \log(1 - r) \leq \log(\frac{1}{50}) \).
+11. Utilitzant una calculadora, trobem que \( r \approx 0.02 \) o el 2%.
+
+**Resposta**: D) 2 %.

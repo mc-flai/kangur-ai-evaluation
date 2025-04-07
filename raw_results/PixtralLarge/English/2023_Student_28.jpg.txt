@@ -1,0 +1,43 @@
+To determine the number written in the hexagon with the question mark, we need to use the rule that the sums of the three numbers in three hexagons with a common bold point are always equal.
+
+1. Let's denote the hexagons as follows:
+   - Hexagon 1 (4)
+   - Hexagon 2 (?)
+   - Hexagon 3 (11)
+   - Hexagon 4 (b)
+   - Hexagon 5 (left of 11)
+   - Hexagon 6 (right of 11)
+
+2. We know the sums of the numbers in three hexagons with a common bold point are equal. Consider the common bold point between Hexagon 1, Hexagon 4, and Hexagon 5.
+
+   Sum 1 = 4 + b + (number in Hexagon 5)
+
+3. Now consider the common bold point between Hexagon 2, Hexagon 4, and Hexagon 6.
+
+   Sum 2 = ? + b + (number in Hexagon 6)
+
+4. Since Sum 1 = Sum 2, we have:
+   4 + b + (number in Hexagon 5) = ? + b + (number in Hexagon 6)
+
+5. From the image, we can see that one such sum involving Hexagon 3 (11) and Hexagon 6 must also be equal. Let's denote the number in Hexagon 6 as c.
+
+   Sum 3 = 11 + (number in Hexagon 5) + c
+
+6. Since Sum 1 = Sum 3, we have:
+   4 + b + (number in Hexagon 5) = 11 + (number in Hexagon 5) + c
+
+7. Simplifying the equation, we get:
+   4 + b = 11 + c
+
+8. Since Sum 2 = Sum 3, we have:
+   ? + b + c = 11 + (number in Hexagon 5) + c
+
+9. Simplifying the equation, we get:
+   ? + b = 11 + (number in Hexagon 5)
+
+10. Since 4 + b = 11 + c and ? + b = 11 + (number in Hexagon 5), we can see that to maintain the equality, ? must be equal to the number in Hexagon 5, which is 4.
+
+Therefore, the number written in the hexagon with the question mark is 4.
+
+Reasoning: By comparing the sums of the numbers in the hexagons with common bold points, we determine that the number in the hexagon with the question mark must be 4 to maintain the equality.
+Answer: B)

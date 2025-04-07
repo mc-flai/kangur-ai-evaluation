@@ -1,0 +1,8 @@
+Raonament: La pregunta demana la suma de tots els nombres de tres xifres que es poden formar utilitzant només dígits imparells. Els dígits imparells són 1, 3, 5, 7 i 9. Per tant, hi ha 5 opcions per a cada una de les tres posicions del nombre (centenes, desenes i unitats). Això significa que hi ha un total de 5 * 5 * 5 = 125 nombres possibles.
+
+En cada posició (centenes, desenes, unitats), cada dígit imparell apareix 125/5 = 25 vegades. Per tant, la suma dels dígits a la posició de les unitats és 25 * (1 + 3 + 5 + 7 + 9) = 25 * 25 = 625. De la mateixa manera, la suma dels dígits a la posició de les desenes és també 625, i la suma dels dígits a la posició de les centenes és també 625.
+
+Per tant, la suma total de tots aquests nombres és:
+625 * 1 (unitats) + 625 * 10 (desenes) + 625 * 100 (centenes) = 625 + 6250 + 62500 = 69375.
+
+Resposta: A)

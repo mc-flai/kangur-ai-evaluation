@@ -1,0 +1,33 @@
+Per resoldre aquest problema, hem de trobar l'àrea de la regió sombreada, que és la intersecció de dos cercles de radi 4 amb centres en B i D. Els cercles es tallen en els punts P i Q.
+
+**Raonament:**
+
+1. **Identificar les característiques del rectangle:**
+   - Es tracta d'un quadrat de costat 4, ja que tots els costats són iguals i la diagonal BD és igual a 4√2 (pel teorema de Pitàgores).
+
+2. **Identificar els cercles i les seves interseccions:**
+   - Els dos cercles tenen el mateix radi de 4 i els seus centres són B i D.
+   - La distància entre els centres B i D és 4√2, que és menor que la suma dels radis (4 + 4 = 8), per la qual cosa els cercles es tallen en dos punts, P i Q.
+
+3. **Calcular l'àrea de la intersecció:**
+   - Cada cercle té un radi de 4, i per tant, l'àrea de cada cercle és πr² = π(4)² = 16π.
+   - La intersecció és simètrica i es pot calcular fàcilment notant que la diagonal del quadrat és 4√2 i divideix el quadrat en dos triangles rectangles d'hipotenusa 4√2.
+
+4. **Calcular l'àrea de la part sombreada:**
+   - L'àrea de la intersecció dels dos cercles es pot calcular com: 
+     
+     Àrea de la intersecció = 2 * (Àrea del segment del cercle d'angle 90°)
+     
+     Per al segment d'angle 90°:
+     
+     Àrea del segment = (πr²/4) - (1/2 * r²)
+     
+     Substituint r = 4:
+     
+     Àrea del segment = (16π/4) - (1/2 * 16) = 4π - 8
+     
+     Doncs, l'àrea total de la intersecció és:
+     
+     Àrea total = 2 * (4π - 8) = 8π - 16
+
+**Resposta:** C) 8π - 16

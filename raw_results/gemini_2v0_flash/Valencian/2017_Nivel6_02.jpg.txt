@@ -1,0 +1,19 @@
+Raonament:
+Hem de trobar totes les combinacions de tres nombres naturals a, b i c que sumin 12 (a + b + c = 12), i que compleixin la desigualtat triangular: la suma de dos costats ha de ser major que el tercer costat (a + b > c, a + c > b, b + c > a).
+Llistem totes les combinacions possibles de nombres naturals (sense ordre) que sumen 12 i verifiquem la desigualtat triangular:
+1. 1, 1, 10 (1 + 1 < 10, no compleix)
+2. 1, 2, 9 (1 + 2 < 9, no compleix)
+3. 1, 3, 8 (1 + 3 < 8, no compleix)
+4. 1, 4, 7 (1 + 4 < 7, no compleix)
+5. 1, 5, 6 (1 + 5 = 6, no compleix)
+6. 2, 2, 8 (2 + 2 < 8, no compleix)
+7. 2, 3, 7 (2 + 3 < 7, no compleix)
+8. 2, 4, 6 (2 + 4 = 6, no compleix)
+9. 2, 5, 5 (2 + 5 > 5, compleix)
+10. 3, 3, 6 (3 + 3 = 6, no compleix)
+11. 3, 4, 5 (3 + 4 > 5, compleix)
+12. 4, 4, 4 (4 + 4 > 4, compleix)
+
+Per tant, només hi ha tres combinacions que compleixen la desigualtat triangular: (2, 5, 5), (3, 4, 5) i (4, 4, 4).
+
+Resposta: C)

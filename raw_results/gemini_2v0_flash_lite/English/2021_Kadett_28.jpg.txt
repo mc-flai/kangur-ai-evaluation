@@ -1,0 +1,51 @@
+Reasoning:
+Let's analyze the situation.
+Total pairs: 1010
+Total people: 2020
+Knights: 21
+Knaves: 2000
+Called knights: 2000
+Called knaves: 20
+If a knight is paired with a knight, both call each other knights.
+If a knight is paired with a knave, the knight calls the knave a knave, and the knave calls the knight a knight.
+If a knave is paired with a knave, both call each other knights.
+Let x be the number of pairs of two knights.
+Let y be the number of pairs of a knight and a knave.
+Let z be the number of pairs of two knaves.
+Then x + y + z = 1010 (total pairs)
+The total number of people called knights is 2x + y = 2000
+The total number of people called knaves is y + 2z = 20
+Also, we know x, y, z must be integers and non-negative.
+
+From y + 2z = 20, we have y = 20 - 2z.
+Substitute into 2x + y = 2000:
+2x + (20 - 2z) = 2000
+2x - 2z = 1980
+x - z = 990
+x = 990 + z
+Substitute x and y into x + y + z = 1010
+(990 + z) + (20 - 2z) + z = 1010
+990 + z + 20 - 2z + z = 1010
+1010 = 1010, which does not give a specific value to z.
+Consider total people. 2000 people were called knights and 20 people were called knaves.  There were 21 knights and 2000 knaves.
+Since y + 2z = 20 and y cannot exceed 21 (knights) * 1 = 21 which means y needs to have a value.
+We know that the number of knaves is 2000, and there are 20 that were called knaves. These 20 have to be knaves that are calling the other person a knave. Since there are 20 knaves called knaves, and the total number of knaves is 2000, there must be 20 people called knaves, so the knaves must call the other person a knight in all other combinations. So knaves in the pairs must have called knights. So only knaves are getting paired up.
+y = 20 - 2z
+Since a knight and a knave are paired, and there are 20 knaves being called knaves, there must be 2000 knights being called knights.
+y = 20, 20 knights are calling a knave
+x=990+z.
+Knights=21 so x must be less then the number of knights,
+x = 990 + z, and since y = 20 - 2z
+x + y + z = 1010, total number of pairs
+y=20-2z is the knight paired with knave pairs.  
+x = pairs of knights
+z=pairs of knaves.
+21 knights, so we need 20 knights paired with knaves.
+We have 1010 pairs.  Then x+y+z=1010, and 2x+y=2000 and y+2z=20.
+Solving, we find
+z=990.
+x=0, y=20, z=990 so number of pairs with two knaves is 990.
+
+Answer: C)
+Reasoning: We can set up a system of equations to represent the relationships between the pairs of knights, knaves, and the numbers of people called knights and knaves. Analyzing these equations and the constraints of the problem leads to the solution.
+Answer: C)

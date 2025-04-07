@@ -1,0 +1,22 @@
+Reasoning:
+The question asks for the set of all numbers of the form a + b where a is in A and b is in B.
+A = ]0,1[ ∪ ]2,3[ and B = ]1,2[ ∪ ]3,4[
+We need to find the smallest and largest values of a + b, and then identify all the intervals that this spans.
+
+*   Smallest a: 0 (approaches, but isn't equal to zero)
+*   Smallest b: 1
+*   Smallest possible a+b is > 0 + 1 = 1
+
+*   Largest a: 3 (approaches, but isn't equal to three)
+*   Largest b: 4
+*   Largest possible a+b is < 3 + 4 = 7.
+
+Now let's find the values a+b can take:
+*   a in ]0,1[ and b in ]1,2[  => a+b in ]1,3[
+*   a in ]0,1[ and b in ]3,4[ => a+b in ]3,5[
+*   a in ]2,3[ and b in ]1,2[ => a+b in ]3,5[
+*   a in ]2,3[ and b in ]3,4[ => a+b in ]5,7[
+
+Therefore, the result should be ]1,3[ ∪ ]3,5[ ∪ ]5,7[
+
+Answer: D)

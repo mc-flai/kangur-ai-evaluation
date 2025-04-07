@@ -1,0 +1,23 @@
+
+Reasoning: The sequence starts with 2 and 3. The next digit is the unit digit of the product of the two previous digits. Let's calculate the sequence step-by-step:
+
+1. The first two digits are 2 and 3.
+2. The product of 2 and 3 is 6, so the next digit is 6.
+3. The product of 3 and 6 is 18, so the next digit is 8.
+4. The product of 6 and 8 is 48, so the next digit is 8.
+5. The product of 8 and 8 is 64, so the next digit is 4.
+6. The product of 8 and 4 is 32, so the next digit is 2.
+7. The product of 8 and 2 is 16, so the next digit is 6.
+8. The product of 8 and 6 is 48, so the next digit is 8.
+9. The product of 8 and 8 is 64, so the next digit is 4.
+10. The product of 8 and 4 is 32, so the next digit is 2.
+11. The product of 8 and 2 is 16, so the next digit is 6.
+12. The product of 8 and 6 is 48, so the next digit is 8.
+
+Continuing this pattern, we see that the sequence becomes periodic with a cycle of 4: 8, 4, 2, 6. To find the 2017th digit, we need to determine its position within this cycle. Since the cycle length is 4, we calculate the remainder when 2017 is divided by 4:
+
+2017 mod 4 = 1.
+
+This means the 2017th digit corresponds to the first digit in the cycle, which is 8.
+
+Answer: E)

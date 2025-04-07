@@ -1,0 +1,10 @@
+Razonamiento:
+1.  **Visualización:** Imagina un cuadrado ABCD y un triángulo equilátero AEC.
+2.  **Ángulos del cuadrado:** Los ángulos internos del cuadrado son de 90 grados.  El ángulo ABC es de 90 grados.
+3.  **Ángulos del triángulo equilátero:** Los ángulos internos del triángulo equilátero son de 60 grados. Por tanto, el ángulo CAE y ACE son 60 grados.
+4.  **Cálculo del ángulo CBE:** El ángulo CBE es la diferencia entre el ángulo ABC (90 grados) y el ángulo ABE.  Para encontrar el ángulo ABE, necesitamos considerar el ángulo interno del triángulo equilátero en el vértice A y el ángulo del cuadrado. Los puntos B, A, and E forman the corner of two shapes: a square and a triangle. El ángulo BAE es la suma del ángulo del cuadrado (BAD, 90 grados) y la mitad de la suma del ángulo BAC y CAE (60 grados).
+5.  **Cálculo del ángulo ABE:** El ángulo ABC = 90° , el ángulo EAB = 90 + 60 = 150°. Como AE = AB el ángulo ABE = (180-150)/2 = 15°.  el angulo CBE= 90° - 15°= 75°
+6.  **Error de enfoque**: El problema es la orientación de los vértices. Ya que E se encuentra en el interior del cuadrado, el ángulo ABE debe calcularse. Como el triángulo es equilátero, AE = AC. En el cuadrado, AB = BC. Como AE = AB y AB=BC, entonces AE = AB. El angulo BAC = 45°. el angulo CAE = 60°. Entonces el angulo BAE = 90 - 60 = 30. Como AB=AE entonces el triangulo ABE es isósceles. El angulo ABE = (180-150)/2 = 15°. El angulo CBE = 90° - (60-45) = 45°.
+7. **Final Calculation**: The problem is the orientation, as E lies inside the square. The angle ABE should be calculated. Since AEC is an equilateral triangle, AE = AC, and as ABCD is a square, AB = BC. Since AE = AC and AB = BC, AB is not equal to AE. The angle BAC is 45°. The angle CAE is 60°. The angle BAE should be: 45 + 60 = 105°.  The remaining two angles of triangle ABE are (180 - 105)/2 = 37.5.  The Angle CBE = 90 + 30 - 60 + 45,  Angle CBE = 45.
+
+Respuesta: B)

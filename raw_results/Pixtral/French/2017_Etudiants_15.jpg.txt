@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. Julia a 1009 pions noirs et 1009 pions blancs.
+2. Elle place une rangée de pions noirs dans une pièce de monnaie, avec un pion noir en haut à gauche et une alternance de noir et de blanc dans les lignes et les colonnes suivantes.
+3. Pour déterminer le plus grand carré possible de pions de la même couleur, nous devons examiner les configurations possibles de pions noirs et blancs.
+4. Si nous considérons un carré de 40 pions de chaque couleur, nous devons vérifier si cela correspond à la configuration donnée.
+5. En vérifiant les options :
+   - A) 40 de chaque couleur : Cela ne correspond pas à la configuration donnée.
+   - B) 40 noirs et 41 blancs : Cela ne correspond pas à la configuration donnée.
+   - C) Aucun : Cela ne correspond pas à la configuration donnée.
+   - D) 41 de chaque couleur : Cela ne correspond pas à la configuration donnée.
+   - E) 40 blancs et 41 noirs : Cela ne correspond pas à la configuration donnée.
+
+En considérant la configuration et les nombres donnés, la seule option qui correspond à la configuration donnée est 40 pions de chaque couleur.
+
+Réponse : A)

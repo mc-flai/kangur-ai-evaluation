@@ -1,0 +1,22 @@
+Raonament:
+Sigui x el nombre d'habitacions triples i y el nombre d'habitacions quàdruples abans de la reconstrucció.
+L'hotel podia allotjar 500 persones, per tant, 3x + 4y = 500.
+Després de la reconstrucció, totes les habitacions es van convertir en dobles i l'hotel podia allotjar 300 persones. Això significa que hi havia 300/2 = 150 habitacions en total.
+Per tant, x + y = 150.
+Ara tenim un sistema de dues equacions amb dues variables:
+1) 3x + 4y = 500
+2) x + y = 150
+
+Podem resoldre aquest sistema. De l'equació (2), podem aïllar x: x = 150 - y.
+Substituïm x a l'equació (1):
+3(150 - y) + 4y = 500
+450 - 3y + 4y = 500
+y = 500 - 450
+y = 50
+
+Per tant, hi havia 50 habitacions quàdruples abans de la reconstrucció.
+x = 150-50=100. 100 habitacions triples.
+Comprobació:
+3*100 + 4*50 = 300+200 = 500.
+
+Resposta: B)

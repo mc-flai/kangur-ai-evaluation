@@ -1,0 +1,22 @@
+Raonament: Analitzem les possibles combinacions de colors per als triangles sense color definits, tenint en compte que els triangles adjacents no poden tenir el mateix color:
+- Triangle 1: Està adjacent a dos triangles blaus (B) i a un triangle 5. Per tant, no pot ser blau.
+- Triangle 2: Està adjacent a dos triangles blaus (B) i a un triangle 3. Per tant, no pot ser blau.
+- Triangle 3: Està adjacent a un triangle verd (V), un triangle groc (G) i un triangle 2.
+- Triangle 4: Està adjacent a un triangle verd (V) i un triangle groc (G).
+- Triangle 5: Està adjacent a un triangle groc (G), un triangle blau (B) i un triangle 1. Per tant, no pot ser ni groc ni blau.
+Ara, analitzem les opcions:
+- A) 1 és groc i 3 és verd: Si 1 és groc, 5 ha de ser verd. Si 3 és verd, llavors 2 ha de ser groc o blau. Si 2 és blau, no compleix amb les regles. Si 2 és groc, llavors tot és possible.
+- B) 1 és blau i 2 és verd: Hem dit que 1 no pot ser blau.
+- C) 1 i 3 són verds: Si 1 és verd, 5 no pot ser verd. Si 3 és verd, 2 no pot ser verd. 
+- D) 5 és verd i 2 és groc: Si 5 és verd, 1 pot ser groc. Si 2 és groc, 3 ha de ser blau o verd. Com que tenim tres triangles blaus, grocs i verds, i els que es coneixen són V, G, B, B, podem completar el restant, per tant és possible.
+- E) 1 i 3 són tots dos grocs: Si 1 és groc, 5 no pot ser groc. Si 3 és groc, 2 no pot ser groc.
+
+La hipòtesi correcta serà:
+Si la resposta és D), vol dir que:
+5 = verd, 1 = groc, 2 = groc, 3 = blau.
+Ara, mirem si la resposta és A):
+1 = groc, 3 = verd, 2 = blau.
+
+La resposta correcta és A.
+
+Resposta: A)

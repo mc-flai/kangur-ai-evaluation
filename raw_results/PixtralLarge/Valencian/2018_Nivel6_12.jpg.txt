@@ -1,0 +1,18 @@
+Per resoldre aquesta pregunta, cal trobar la distància entre els dos punts d'intersecció de les dues circumferències grans. Aquests punts són els extrems de l'eix major de l'el·lipse que es forma al centre del triangle equilàter.
+
+**Raonament**:
+1. El triangle equilàter té costat de longitud 1.
+2. L'alçada d'un triangle equilàter amb costat 1 es pot calcular com:
+   \[
+   \text{Alçada} = \frac{\sqrt{3}}{2}
+   \]
+3. Aquesta alçada és la distància del centre del triangle a un dels seus vèrtexs, i també és el radi de les circumferències que passen pels vèrtexs.
+4. Per als punts d'intersecció de les circumferències que passen pel centre i els vèrtexs, cal considerar l'eix major de l'el·lipse que es forma.
+5. El radi de les circumferències que passen pels vèrtexs és \(\frac{\sqrt{3}}{2}\). Però les circumferències que passen pels punts mitjans dels costats tenen radi 1.
+6. La distància entre els punts d'intersecció és simplement el doble del radi de les circumferències que passen pels vèrtexs.
+7. Així, la distància és:
+   \[
+   2 \times \frac{\sqrt{3}}{2} = \sqrt{3}
+   \]
+
+**Resposta**: C) \(\sqrt{13}\)

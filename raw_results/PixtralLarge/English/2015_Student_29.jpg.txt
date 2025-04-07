@@ -1,0 +1,20 @@
+**Reasoning**: To determine which number the last person says, we need to consider the elimination process for the 96 members. The counting starts with 1 and continues, but members are eliminated when they say an even number. This means odd numbers remain. We need to track how many rounds are needed until only one member remains.
+
+1. Initially, there are 96 members.
+2. In the first round, all even numbers (multiples of 2) are eliminated, leaving us with the odd numbers (1, 3, 5, ..., 95). This eliminates half of the members.
+3. After the first round, we are left with 48 members (the odd numbers).
+4. In the second round, the counting starts from 97, which is odd, and continues with the next odd numbers. The even-positioned members are eliminated again.
+5. This pattern continues, with half of the members being eliminated each round.
+
+We need to continue this process until only one member remains. Let's calculate the number of rounds needed:
+
+- After the first round: 48 members remain.
+- After the second round: 24 members remain.
+- After the third round: 12 members remain.
+- After the fourth round: 6 members remain.
+- After the fifth round: 3 members remain.
+- After the sixth round: 1 member remains.
+
+The last member standing is from round one, and the number they said must be an odd number, as even numbers are always eliminated. Since the last person to remain is from round one and odd numbers between 1 and 96 are considered, the last number said must be 95, the highest odd number less than 96.
+
+**Answer**: E)

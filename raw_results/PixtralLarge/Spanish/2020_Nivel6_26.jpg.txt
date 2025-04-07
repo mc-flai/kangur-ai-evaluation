@@ -1,0 +1,12 @@
+**Razonamiento**:
+1. Inicialmente hay 71 canicas en la caja.
+2. Un juego consiste en sacar 30 canicas y luego, si las hay, se añaden 18 canicas.
+3. Para determinar si se puede jugar indefinidamente, necesitamos entender el ciclo de las canicas.
+4. Después de cada juego, el número de canicas en la caja cambia en -30 + 18 = -12 canicas.
+5. Esto significa que cada juego reduce la cantidad de canicas en 12.
+6. Para saber si se puede jugar indefinidamente, necesitamos encontrar la menor cantidad de canicas que quede en la caja en algún momento.
+7. Si la cantidad de canicas es múltiplo de 12, podremos repetir este ciclo indefinidamente.
+8. De lo contrario, el juego terminará cuando no haya suficientes canicas para realizar un juego.
+9. Dividiendo 71 por 12, obtenemos 71 = 5 * 12 + 11. Esto significa que la menor cantidad de canicas que puede quedar en la caja es 11.
+
+**Respuesta**: E).

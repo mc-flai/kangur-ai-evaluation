@@ -1,0 +1,23 @@
+Raonament: Per a que la línia poligonal divideixi el quadrat en dues parts d'igual àrea, la línia poligonal ha de passar pel centre del quadrat. El centre del quadrat està en la intersecció de les diagonals, o en el punt mitjà del segment que uneix B i C, o del segment que uneix A i E.
+Com la línia poligonal ha de començar a A i acabar a E i els vèrtexs intermedis han de ser B, C i D, les possibles línies poligonals són les permutations dels punts B, C i D. Hi ha 3! = 6 combinacions possibles. Nomes podem utilitzar segments de línia recta per unir els punts.
+
+1. A-B-C-D-E: Aquesta línia divideix el quadrat en àrees desiguals.
+2. A-B-D-C-E: Aquesta línia sembla que divideix el quadrat en àrees desiguals.
+3. A-C-B-D-E: Aquesta línia sembla que divideix el quadrat en àrees desiguals.
+4. A-C-D-B-E: Aquesta línia sembla que divideix el quadrat en àrees desiguals.
+5. A-D-B-C-E: Aquesta línia sembla que divideix el quadrat en àrees desiguals.
+6. A-D-C-B-E: Aquesta línia sembla que divideix el quadrat en àrees desiguals.
+
+Però podem tenir els següents casos:
+1) A, B, C, E: La línia A-B-C-E no divideix el quadrat a la meitat
+2) A, B, D, E: La línia A-B-D-E no divideix el quadrat a la meitat
+3) A, C, D, E: La línia A-C-D-E no divideix el quadrat a la meitat
+
+Considerant les línies poligonals que divideixen el quadrat per la meitat:
+1. A-B-E: Aquesta línia pot dividir el quadrat a la meitat. No podem usar C i D
+2. A-C-E: Aquesta línia pot dividir el quadrat a la meitat. No podem usar B i D
+3. A-D-E: Aquesta línia pot dividir el quadrat a la meitat. No podem usar B i C
+
+Hi ha 3 maneres per a la línia de passar pel centre del quadrat.
+
+Resposta: D)

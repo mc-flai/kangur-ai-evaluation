@@ -1,0 +1,21 @@
+Raonament: The series can be grouped in sets of four: (1+2-3-4) + (5+6-7-8) + (9+10-11-12) + ... + (2013+2014-2015).
+Each set of four sums to -4.
+The total number of terms is 2015. There are 2015/4=503.75 sets. Since 2015 is not a multiple of 4, the last term can not be included, so we are left with 2013 + 2014 - 2015 = 2012. Since 2015=4x503+3, we are left with three numbers, namely, 2013, 2014, and -2015.
+We will consider groups of four terms:
+1+2-3-4 = -4.
+5+6-7-8 = -4.
+And so on.
+There are 2012/4 = 503 groups of four terms. Each group sums to -4.
+The total sum of those groups is 503*(-4) = -2012.
+The final terms are added: 2013 + 2014 - 2015 = 2012.
+Sum = -2012 + 2012 = 0.
+But is not correct because the series is not divisible by 4.
+Let's rewrite the series. The general formula of groups of four is:
+4n+1 + 4n+2 - (4n+3) - (4n+4) = 4n+1 + 4n+2 - 4n-3 - 4n-4 = -4.
+2015 can be represented like 4n+3, so n = 503.
+So, we have 503 sets summing -4 each.
+Total sum: 503*(-4)=-2012
+Remaining: 2013 + 2014 - 2015 = 2012
+The result would be -2012+2012 = 0.
+
+Resposta: A)

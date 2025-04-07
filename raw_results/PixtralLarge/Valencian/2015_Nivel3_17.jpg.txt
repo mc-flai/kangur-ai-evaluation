@@ -1,0 +1,22 @@
+Per resoldre aquest problema, hem de determinar quantes triangles rectangles es poden construir utilitzant com a màxim un dels punts A, B, C i D, i les vores del quadrat.
+
+1. **Identificació dels elements**:
+   - Tenim un quadrat amb centre O.
+   - Dues rectes perpendiculars que passen per O però no pels vèrtexs del quadrat.
+
+2. **Triangles rectangles**:
+   - Un triangle rectangle es forma quan una de les seves vores és perpendicular a una altra.
+   - Cada costat del quadrat pot formar triangles rectangles amb les rectes perpendiculars que passen per O.
+
+3. **Anàlisi dels punts**:
+   - Els punts A, B, C i D són als costats del quadrat.
+   - Cada punt pot formar dos triangles rectangles diferents utilitzant les dues rectes perpendiculars.
+
+4. **Càlcul del nombre de triangles rectangles**:
+   - Cada punt pot formar dos triangles rectangles.
+   - Tenim quatre punts (A, B, C i D).
+   - Per tant, el nombre total de triangles rectangles és 4 punts x 2 triangles per punt = 8 triangles rectangles.
+
+Raonament: Cada punt als costats del quadrat pot formar dos triangles rectangles amb les rectes perpendiculars que passen per O. Com que hi ha quatre punts, el total de triangles rectangles és 8.
+
+Resposta: A)

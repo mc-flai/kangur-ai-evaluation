@@ -1,0 +1,24 @@
+La pregunta 6 solicita encontrar el código PIN de una tarjeta de crédito que consta de cuatro dígitos diferentes cuya suma es 8. El producto de los dos primeros dígitos es igual al número de dígitos formados por el tercio y el cuarto dígito. Se pregunta cuántos códigos PIN cumplen estas condiciones.
+
+Para resolver esto, necesitamos identificar los posibles dígitos que suman 8 y luego verificar si el producto de los dos primeros dígitos es igual al número formado por el tercio y el cuarto dígito.
+
+1. Identificar los dígitos que suman 8:
+   - Los posibles pares de dígitos que suman 8 son: (0, 8), (1, 7), (2, 6), (3, 5), (4, 4).
+
+2. Verificar las condiciones para cada par:
+   - Para (0, 8): El producto de 0 y 8 es 0, que no es un número de dos dígitos.
+   - Para (1, 7): El producto de 1 y 7 es 7, que es un número de un solo dígito.
+   - Para (2, 6): El producto de 2 y 6 es 12, que es un número de dos dígitos.
+   - Para (3, 5): El producto de 3 y 5 es 15, que es un número de dos dígitos.
+   - Para (4, 4): El producto de 4 y 4 es 16, que es un número de dos dígitos.
+
+3. Contar los pares que cumplen las condiciones:
+   - (2, 6) cumple las condiciones.
+   - (3, 5) cumple las condiciones.
+   - (4, 4) cumple las condiciones.
+
+Hay 3 códigos PIN que cumplen las condiciones.
+
+Razonamiento: Identificamos los pares de dígitos que suman 8 y verificamos si el producto de los dos primeros dígitos es igual al número formado por el tercio y el cuarto dígito. Contamos los pares que cumplen las condiciones.
+
+Respuesta: C

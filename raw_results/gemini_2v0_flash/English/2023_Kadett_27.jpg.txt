@@ -1,0 +1,45 @@
+Reasoning:
+We want to write 2023 as a sum of numbers that are made up of only the digit 7.
+The numbers we can use are 7, 77, 777, 7777, etc.
+We are given that we must use the digit 7 exactly 19 times.
+We want to find the number of times we use the number 77. Let that be x.
+Let a be the number of times we use 777. Let b be the number of times we use 77. Let c be the number of times we use 7.
+
+We want to find the number of times we have to use 77, so let's call that x.
+So we want to write 2023 as a sum of 777s, 77s, and 7s. Let the number of 777s be 'a', the number of 77s be 'x', and the number of 7s be 'c'.
+777a + 77x + 7c = 2023
+a + x + c = 19 (where x is the number of 77s and 19 is the total number of 7s)
+From the second equation, c = 19 - a - 2x (This is incorrect, the second equation gives total number of 7's, so 3a+2x+c = 19)
+Substituting c = 19 - a - x into the first equation:
+777a + 77x + 7(19 - a - x) = 2023
+777a + 77x + 133 - 7a - 7x = 2023
+770a + 70x = 1890
+77a + 7x = 189
+11a + x = 27
+x = 27 - 11a
+Since x and a must be non-negative integers, we can test values for 'a' to see if we get an integer for x:
+If a = 0, x = 27. Then c = 19 - 0 - 27 = -8 which is not possible
+If a = 1, x = 27 - 11 = 16. Then c = 19 - 1 - 16 = 2. This gives us 777(1) + 77(16) + 7(2) = 777 + 1232 + 14 = 2023. The number of 7s = 3(1) + 2(16) + 2 = 3+32+2 = 37 which is too many 7s.
+
+Let the number of 777s be 'a', the number of 77s be 'x', and the number of 7s be 'c'.
+777a + 77x + 7c = 2023
+3a + 2x + c = 19
+c = 19 - 3a - 2x
+777a + 77x + 7(19 - 3a - 2x) = 2023
+777a + 77x + 133 - 21a - 14x = 2023
+756a + 63x = 1890
+12a + x = 30
+x = 30 - 12a
+
+If a = 0, x = 30. Then c = 19 - 2(30) = -41, impossible.
+If a = 1, x = 30 - 12 = 18. Then c = 19 - 3 - 36 = -20, impossible.
+If a = 2, x = 30 - 24 = 6. Then c = 19 - 6 - 12 = 1.
+777(2) + 77(6) + 7(1) = 1554 + 462 + 7 = 2023.
+Total number of 7s = 3(2) + 2(6) + 1 = 6 + 12 + 1 = 19.
+
+So, the number of 77s we have to use is 6.
+
+Reasoning: We need to write 2023 as a sum of numbers made up of only 7's (7, 77, 777, etc.) using exactly 19 7's in total. We want to find how many times we use the number 77. Let 'a' be the number of 777's, 'x' be the number of 77's, and 'c' be the number of 7's. We have two equations: 777a + 77x + 7c = 2023 (1) and 3a + 2x + c = 19 (2). Solving for c in (2) gives c = 19 - 3a - 2x. Substituting this into (1) we have 777a + 77x + 7(19 - 3a - 2x) = 2023. Simplifying, we get 756a + 63x = 1890. Dividing by 63, we have 12a + x = 30, so x = 30 - 12a. Since x and a are non-negative integers, a can be 0, 1, or 2. When a = 0, x = 30, c = 19 - 0 - 60 = -41 (not possible). When a = 1, x = 18, c = 19 - 3 - 36 = -20 (not possible). When a = 2, x = 6, c = 19 - 6 - 12 = 1.
+So we have 2(777) + 6(77) + 1(7) = 1554 + 462 + 7 = 2023. The number of 7's used is 2(3) + 6(2) + 1 = 6 + 12 + 1 = 19. Therefore, we must use the number 77 six times.
+
+Answer: E)

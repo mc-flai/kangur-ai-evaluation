@@ -1,0 +1,36 @@
+Per determinar el residu de dividir \( 20! + 520 \) entre \( 2^9 \), primer hem de calcular \( 20! \) i després sumar-li 520.
+
+1. **Calcular \( 20! \)**:
+   \( 20! \) és el factorial de 20, que és el producte de tots els nombres enters positius des de 1 fins a 20.
+   \[
+   20! = 1 \times 2 \times 3 \times \cdots \times 20
+   \]
+
+2. **Determinar el residu de \( 20! \) entre \( 2^9 \)**:
+   \( 2^9 = 512 \). Per trobar el residu de \( 20! \) entre \( 512 \), hem de considerar els factors de 2 presents en \( 20! \).
+   - El nombre de factors de 2 en \( 20! \) es calcula com:
+     \[
+     \left\lfloor \frac{20}{2} \right\rfloor + \left\lfloor \frac{20}{4} \right\rfloor + \left\lfloor \frac{20}{8} \right\rfloor + \left\lfloor \frac{20}{16} \right\rfloor = 10 + 5 + 2 + 1 = 18
+     \]
+   - Per tant, \( 20! \) té 18 factors de 2.
+
+3. **Calcular \( 20! \mod 512 \)**:
+   Ja que \( 20! \) té 18 factors de 2, podem escriure:
+   \[
+   20! = 2^{18} \times k
+   \]
+   on \( k \) és un nombre impar. Ara, \( 2^{18} \) és:
+   \[
+   2^{18} = 2^9 \times 2^9 = 512 \times 512
+   \]
+   Per tant, \( 20! \) és un múltiple de \( 512 \), i el residu de \( 20! \) entre \( 512 \) és 0.
+
+4. **Sumar 520 a \( 20! \) i trobar el residu**:
+   \[
+   (20! + 520) \mod 512 = (0 + 520) \mod 512 = 520 \mod 512 = 8
+   \]
+
+Per tant, el residu de \( 20! + 520 \) entre \( 2^9 \) és 8.
+
+Raonament: El residu de \( 20! \) entre \( 512 \) és 0, i sumant 520 a 0 i trobant el residu entre 512 dona 8.
+Resposta: B) 8.

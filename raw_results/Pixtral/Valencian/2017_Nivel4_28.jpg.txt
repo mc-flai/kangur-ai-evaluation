@@ -1,0 +1,15 @@
+
+El problema involucra un triangle rectángulo amb catets de longituds \(a\) i \(b\). Es demana el diàmetre de la circumferència inscrita (\(d\)) i el diàmetre de la circumferència circumscrita (\(D\)). La suma dels diàmetres (\(d + D\)) és igual a una de les opcions donades.
+
+**Razonament:**
+1. Per a un triangle rectángulo, la circumferència inscrita és la circumferència que passa per les tres vores del triangle i té el seu centre al punt mitjà de l'hipotenusa.
+2. El diàmetre de la circumferència inscrita (\(d\)) és igual a la meitat de la longitud de l'hipotenusa (\(c\)).
+3. La longitud de l'hipotenusa (\(c\)) en un triangle rectángulo es pot trobar utilitzant el Teorema de Pitagores: \(c = \sqrt{a^2 + b^2}\).
+4. Per tant, el diàmetre de la circumferència inscrita (\(d\)) és \(\frac{c}{2} = \frac{\sqrt{a^2 + b^2}}{2}\).
+5. La circumferència circumscrita és la circumferència que passa per tots els vèrtexs del triangle.
+6. El diàmetre de la circumferència circumscrita (\(D\)) és igual a la longitud de l'hipotenusa (\(c\)).
+7. Per tant, el diàmetre de la circumferència circumscrita (\(D\)) és \(\sqrt{a^2 + b^2}\).
+8. La suma dels diàmetres (\(d + D\)) és \(\frac{\sqrt{a^2 + b^2}}{2} + \sqrt{a^2 + b^2}\).
+9. Simplificant aquesta expressió, obtenim \(\frac{\sqrt{a^2 + b^2}}{2} + \frac{2\sqrt{a^2 + b^2}}{2} = \frac{3\sqrt{a^2 + b^2}}{2}\).
+
+**Resposta:** E)

@@ -1,0 +1,13 @@
+Raisonnement :
+1. **Identifier les relations :** Tim, Pim et Jim sont des triplés, donc ils ont le même âge. Jerry est 3 ans plus jeune qu'eux.
+2. **Représenter les âges :** Soit l'âge de Tim, Pim et Jim égal à 'x'. L'âge de Jerry est alors 'x - 3'.
+3. **Exprimer la somme des âges :** La somme des âges des quatre frères est x + x + x + (x - 3) = 4x - 3.
+4. **Tester les options :** On va tester chaque option pour voir si elle peut être exprimée sous la forme 4x - 3, où x est un entier.
+   * A) 52 = 4x - 3  =>  4x = 55  =>  x = 13.75 (Non entier, donc impossible)
+   * B) 53 = 4x - 3  =>  4x = 56  =>  x = 14 (Entier, possible)
+   * C) 54 = 4x - 3  =>  4x = 57  =>  x = 14.25 (Non entier, donc impossible)
+   * D) 55 = 4x - 3  =>  4x = 58  =>  x = 14.5 (Non entier, donc impossible)
+   * E) 56 = 4x - 3  =>  4x = 59  =>  x = 14.75 (Non entier, donc impossible)
+5. **Conclure :** Seule l'option B) donne un âge possible pour les triplés (14 ans). L'âge de Jerry serait alors 11 ans.
+
+Réponse : B)

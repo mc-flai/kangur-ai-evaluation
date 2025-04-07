@@ -1,0 +1,37 @@
+Razonamiento:
+Let's analyze the problem statement for question 21. We have seven natural numbers a, b, c, d, e, f, g. The sum of all these numbers is 2017. Any two consecutive numbers differ by ±1. We need to determine which of the numbers can be equal to 286.
+
+Since consecutive numbers can only differ by ±1, the numbers form an arithmetic sequence.  Let's express the numbers in terms of 'd':
+
+a = d - 3x
+b = d - 2x
+c = d - x
+d = d
+e = d + x
+f = d + 2x
+g = d + 3x
+
+Where x can be either 1 or -1
+
+Sum of all numbers = a+b+c+d+e+f+g = 2017
+
+Substituting the expressions in terms of d, we get
+
+(d-3x) + (d-2x) + (d-x) + d + (d+x) + (d+2x) + (d+3x) = 2017
+7d = 2017
+d = 2017/7
+d ≈ 288.14
+
+Since all the values should be integers, let's consider an approximate value close to the average.
+
+Assume d=286, then the numbers will be close to 286 and the sum will be close to 7*286 = 2002
+If the middle value is equal to 286, then d=286. 2017-2002 = 15.
+To get 15, we can add 15/7≈2 to each of the values.
+If the central number 'd' is 286, then consider one solution set in which d-3 = a = 283. Then b=284, c=285, d=286, e=287, f=288, g=289. The sum of these numbers will be 7*286 = 2002
+2017-2002 = 15. So this is not a valid solution.
+Let's assume one of the end elements (a or g) equals 286.
+We know that neighboring numbers must differ by 1. So, it makes sense that it will be one of a or g.
+
+Therefore either only the first (a) or the last (g) term can be equal to 286.
+
+Respuesta: A)

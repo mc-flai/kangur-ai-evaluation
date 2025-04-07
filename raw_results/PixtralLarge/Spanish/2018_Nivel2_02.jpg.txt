@@ -1,0 +1,21 @@
+Para resolver la pregunta 2, necesitamos determinar cuántos años volverá a ocurrir por primera vez que la suma de las cifras del año sea un número primo, después de 2018.
+
+**Razonamiento**:
+
+1. Primero, calculemos la suma de las cifras de 2018:
+   2 + 0 + 1 + 8 = 11
+   La suma de las cifras de 2018 es 11, que es un número primo.
+
+2. Ahora, necesitamos encontrar el próximo año en el que la suma de sus cifras sea un número primo. Comenzamos desde el año siguiente, 2019:
+   - 2019: 2 + 0 + 1 + 9 = 12 (no primo)
+   - 2020: 2 + 0 + 2 + 0 = 4 (no primo)
+   - 2021: 2 + 0 + 2 + 1 = 5 (primo)
+
+3. La suma de las cifras de 2021 es 5, que es un número primo. Por lo tanto, 2021 es el próximo año después de 2018 en el que la suma de las cifras es un número primo.
+
+4. Calculamos la diferencia entre 2021 y 2018:
+   2021 - 2018 = 3
+
+Por lo tanto, la respuesta correcta es C) 3.
+
+**Respuesta**: C)

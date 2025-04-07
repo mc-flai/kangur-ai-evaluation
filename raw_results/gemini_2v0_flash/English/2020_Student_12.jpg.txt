@@ -1,0 +1,12 @@
+Reasoning: We start with 2020 coins facing "heads" up. Each move turns exactly 3 coins. We want all coins to face "tails" up, which means we want to flip each coin once. Therefore we want to perform an odd number of flips to each coin. Since each move affects 3 coins, after n moves, there will be 3n flips.
+Since there are 2020 coins and each one must be flipped, the number of flips must equal 2020. The number of moves, n, must be such that 3n is equal to 2020. Thus, n = 2020/3. Since 2020 is not divisible by 3, this will not result in a whole number. This means that it is impossible to flip all 2020 coins using groups of 3.
+
+Another way to look at it is that if all 2020 coins are initially heads, we need to perform an odd number of flips on each to get them all to tails. In total we need 2020 odd numbers.
+Each move involves 3 coins, therefore each move involves an odd number of coins. To get to an even number of coins with odd number of flips (2020), it would require an even number of moves (because even * odd = even, and odd * odd = odd, so two odd numbers equal an even number). 2020 is an even number, and three flips at a time are always odd flips. So that means an even number of moves in an even number * odd, equals an even number. However it is not a multiple of 3. But this reasoning seems odd.
+
+The important part is to look at the number of coins flipped and look at if they are divisible.
+Since 2020 divided by 3 yields 673 with a remainder of 1, and 2020 divided by 2 yields 1010. So, it won't always be possible.
+
+Reasoning: Since we must turn three coins at a time, the total number of turns must be a multiple of 3. However, the total number of coins is 2020, which is not a multiple of 3. Therefore, it is not possible to make all the coins "tails" face up.
+
+Answer: E)

@@ -1,0 +1,16 @@
+
+La pregunta 21 solicita encontrar el menor valor posible de las medianas de los ángulos de un triángulo que tiene ángulos distintos. La suma de las medianas de un triángulo es igual a la suma de sus ángulos mayores.
+
+Razonamiento:
+1. La suma de los ángulos en cualquier triángulo es siempre 180 grados.
+2. Las medianas de los ángulos en un triángulo son las sumas de sus ángulos adyacentes.
+3. Para encontrar el menor valor posible de las medianas, debemos minimizar la suma de los ángulos adyacentes.
+4. Dado que los ángulos son distintos, el menor valor posible de las medianas se obtendrá al minimizar los ángulos más grandes.
+5. Evaluemos las opciones:
+   - A) 61°: No es posible porque la suma de los ángulos en un triángulo no puede exceder 180°.
+   - B) 90°: Es posible porque la suma de los ángulos más grandes puede ser 90° (por ejemplo, 30°, 60°, 90°).
+   - C) 91°: Es posible porque la suma de los ángulos más grandes puede ser 91° (por ejemplo, 30°, 61°, 90°).
+   - D) 120°: Es posible porque la suma de los ángulos más grandes puede ser 120° (por ejemplo, 30°, 60°, 90°).
+   - E) 121°: No es posible porque la suma de los ángulos en un triángulo no puede exceder 180°.
+
+Respuesta: C)

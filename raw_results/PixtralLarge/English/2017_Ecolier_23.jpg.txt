@@ -1,0 +1,17 @@
+**Reasoning**:
+
+Kate has four flowers with petal counts of 6, 7, 8, and 11 respectively. She tears off one petal from each of three different flowers until it is no longer possible to do so. We need to find the minimum number of petals left over.
+
+Let's start by tearing off petals from the flowers with 6, 7, and 8 petals:
+
+- Initial petal counts: 6, 7, 8, 11.
+- After one round of tearing: 5, 6, 7, 11.
+- After another round: 4, 5, 6, 11.
+- After another round: 3, 4, 5, 11.
+- After another round: 2, 3, 4, 11.
+- After another round: 1, 2, 3, 11.
+- After another round: 0, 1, 2, 11.
+
+At this point, it is no longer possible to tear off one petal from each of three different flowers because one flower has zero petals. So, the petal counts are 0, 1, and 2 for the three flowers. The minimum number of petals left over is 1.
+
+**Answer**: A).

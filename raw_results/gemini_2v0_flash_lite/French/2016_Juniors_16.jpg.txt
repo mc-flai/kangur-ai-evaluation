@@ -1,0 +1,11 @@
+Raisonnement : Pour résoudre ce problème, nous devons trouver le nombre minimal de couleurs nécessaires pour colorier une grille 3x3 de sorte que chaque ligne, chaque colonne et chaque diagonale contienne trois couleurs différentes. Une grille de Sudoku est un exemple d'une telle grille, mais ici, nous devons seulement nous assurer que chaque ligne, colonne et diagonale contiennent 3 couleurs différentes.
+
+Nous pouvons commencer par remplir la première ligne avec trois couleurs différentes. Ensuite, nous devons nous assurer que la deuxième et la troisième ligne ont également trois couleurs différentes, et que les colonnes ne sont pas non plus répétitives. Nous pouvons utiliser un motif simple pour remplir la grille afin de minimiser le nombre de couleurs nécessaires. Dans une grille 3x3, nous pouvons utiliser 3 couleurs pour chaque ligne, colonne et diagonale, en nous assurant que chaque élément de la grille a une couleur différente des autres dans la même ligne, la même colonne et la même diagonale. Par exemple, la grille pourrait ressembler à ceci :
+
+1 2 3
+2 3 1
+3 1 2
+
+Dans cette grille, chaque ligne, colonne et diagonale contient les trois couleurs différentes.
+
+Réponse : A) 3

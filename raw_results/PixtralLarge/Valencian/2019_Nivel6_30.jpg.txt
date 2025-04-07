@@ -1,0 +1,19 @@
+Raonament: Per resoldre aquesta pregunta, hem de tenir en compte la suma dels nombres en cadascuna de les tres àrees vorejades amb traç gruixut. Aquestes àrees es troben al voltant de l'àrea central de la matriu i tenen els següents valors:
+
+- Àrea superior: conté els números 1, 2 i 4.
+- Àrea esquerra: conté els números 4 i 5.
+- Àrea inferior: conté els números 1, 4, 3 i 5.
+
+Sumem els valors de cadascuna d'aquestes àrees:
+
+- Àrea superior: 1 + 2 + 4 = 7
+- Àrea esquerra: 4 + 5 = 9
+- Àrea inferior: 1 + 4 + 3 + 5 = 13
+
+La suma total de les tres àrees és 7 + 9 + 13 = 29.
+
+Ara, observem que la cantonada inferior dreta ja té el número 2. Per tant, hem de restar aquest valor de 29 per trobar el valor del número que queda en la cantonada superior esquerra:
+
+29 - 2 = 27
+
+Resposta: E) 5.

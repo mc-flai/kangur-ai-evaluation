@@ -1,0 +1,15 @@
+
+La pregunta 28 trata sobre una cabra que se mueve a lo largo de la frontera de un triángulo de tierra con un área de \( A \) y un perímetro de \( P \). La cabra puede moverse una distancia máxima \( d \) desde la frontera del triángulo hacia una distancia eléctrica que viaja a través del cuello que porta. La pregunta solicita el área total de la zona por la que la cabra puede pasar.
+
+Para determinar el área total, debemos considerar el área adicional que la cabra puede alcanzar debido a la distancia \( d \). Esta distancia adicional forma una capa alrededor del triángulo.
+
+**Razonamiento:**
+1. El área adicional que la cabra puede alcanzar se puede visualizar como una capa alrededor del triángulo.
+2. Esta capa se puede considerar como un triángulo más pequeño con un perímetro reducido en \( 2d \) (ya que la cabra puede moverse \( d \) desde cada lado).
+3. El área de un triángulo puede ser calculada usando la fórmula \( \text{Área} = \frac{1}{2} \times \text{base} \times \text{altura} \). Sin embargo, en este caso, podemos usar una aproximación basada en el perímetro y la distancia adicional.
+4. El área adicional se puede aproximar considerando el perímetro del triángulo original \( P \) y la distancia adicional \( d \).
+5. El área adicional es proporcional a \( d \) y puede ser aproximada como \( \pi d^2 \).
+
+Por lo tanto, el área total de la zona por la que la cabra puede pasar es el área original \( A \) más el área adicional \( \pi d^2 \).
+
+**Respuesta:** C) \( A + dP + \pi d^2 \)

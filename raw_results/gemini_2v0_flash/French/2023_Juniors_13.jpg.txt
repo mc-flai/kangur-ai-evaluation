@@ -1,0 +1,21 @@
+Reasoning:
+Let the side length of the equilateral triangle IJK be $s$. Therefore, $3s = p$, or $s = p/3$.
+Since triangles IHF, GFH, and FGK are isosceles with equal sides, let the equal sides be $x$.
+The four triangles GFK, GFH, IHF, and IJK have the same perimeter $p$.
+For triangle IJK, each side is $s = p/3$.
+For triangle GFH, sides are $x, x, FH$. Perimeter: $2x + FH = p$.
+For triangle IHF, sides are $x, x, IF$. Perimeter: $2x + IF = p$.
+For triangle FGK, sides are $x, x, FK$. Perimeter: $2x + FK = p$.
+Also $IF=FJ=FK=s = p/3$.
+So $2x + s = p$
+$2x + p/3 = p$
+$2x = 2p/3$
+$x = p/3$
+The sides of pentagon GHIJK are GH, HI, IJ, JK, KG.
+$IJ = JK = KI = p/3$
+Since IHF and GFH and FGK are isosceles with equal sides and perimeter p, we have x = p/3, so IH = HG = GK = p/3.
+The perimeter of pentagon GHIJK is GH + HI + IJ + JK + KG = x + x + s + s + x = 3x + 2s
+= 3(p/3) + 2(p/3)
+= p + 2p/3 = 5p/3
+
+Answer: A)

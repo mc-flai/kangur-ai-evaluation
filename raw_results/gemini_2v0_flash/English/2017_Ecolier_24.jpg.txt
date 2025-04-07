@@ -1,0 +1,20 @@
+Reasoning: Let's analyze the grid step-by-step, marking the boxes that must have smileys or cannot have them.
+1. Consider the '1' at the bottom. Its neighbors must have one smiley among them.
+2. Consider the '2' in the middle. It has to be surrounded by 2 smileys in the surrounding 8 boxes.
+3. Consider the '3' at the top. It has to be surrounded by 3 smileys in the surrounding 8 boxes.
+Now, let's deduce the positions of the smileys based on the numbers provided.
+-The square marked 1 at the bottom must have one smiley around it.
+-The top square marked 3 indicates 3 smileys around it.
+
+After careful considerations, we mark X in the place where there's a Smiley.
+
+```
+X X 3
+2 X X X
+X 2 X
+1 X
+```
+
+Therefore, 5 Smileys must be hidden.
+
+Answer: B)

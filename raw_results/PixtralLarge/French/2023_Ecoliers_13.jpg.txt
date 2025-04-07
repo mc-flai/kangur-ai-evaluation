@@ -1,0 +1,16 @@
+Pour déterminer combien de couleurs sont nécessaires pour colorier les 7 disques de telle sorte que deux disques reliés par un trait soient de couleurs différentes, nous pouvons utiliser la théorie des graphes. Le graphe représenté est un graphe complet avec 7 sommets (K7).
+
+**Raisonnement :**
+
+1. **Compréhension du problème** :
+   - Nous avons 7 disques (sommets) et chaque disque est connecté à tous les autres disques par un trait (arêtes).
+   - Nous devons colorier ces disques de manière à ce que deux disques reliés par un trait aient des couleurs différentes.
+
+2. **Application de la théorie des graphes** :
+   - Pour un graphe complet \( K_n \) (où chaque sommet est connecté à tous les autres), le nombre chromatique (le nombre minimum de couleurs nécessaires) est égal à \( n \).
+   - Dans ce cas, \( n = 7 \), donc le nombre chromatique de \( K_7 \) est 7.
+
+3. **Conclusion** :
+   - Pour colorier les 7 disques de manière à ce que deux disques reliés par un trait aient des couleurs différentes, nous avons besoin de 7 couleurs.
+
+**Réponse : E).**

@@ -1,0 +1,24 @@
+Razonamiento:
+
+La pregunta 19 pide saber cuántos triángulos isósceles tienen lados de longitudes enteras y perímetro igual a 58. Para responder esta pregunta, podemos suponer que los triángulos isósceles tienen dos lados iguales y un lado adicional que es diferente. Denotemos las longitudes de los lados iguales como $x$ y la longitud del lado adicional como $y$.
+
+Como el perímetro es 58, podemos escribir la siguiente ecuación:
+
+$$2x + y = 58$$
+
+Ahora, debemos considerar las posibilidades para $x$ y $y$. Debido a que los lados deben tener longitudes enteras, $x$ y $y$ deben ser números enteros positivos.
+
+Al enumerar los posibles pares de longitudes de lados enteras para $x$ y $y$, podemos ver que:
+
+*   Si $x = 1$, entonces $y = 57$, lo que hace que la hipotenusa sea mayor que la suma de las otras dos longitudes, lo cual es incorrecto.
+*   Si $x = 2$, entonces $y = 54$ o $y = 56$, ambos los cuales son correctos.
+*   Si $x = 3$, entonces $y = 52$ o $y = 53$, ambos son correctos, pero la forma del triángulo cambiará (se convertirá en un triángulo 45-45-90 con uno de sus lados adicional).
+*   Si $x = 4$, entonces $y = 50$ o $y = 51$, ambos son correctos, pero la forma del triángulo cambiará (también se convertirá en un triángulo 45-45-90 con iPad adicional).
+*   Si $x = 5$, entonces no hay solución, ya que $y$ no es un número entero.
+*   De manera similar, si $x \ge 6$, entonces $y$ tampoco será un número entero.
+
+Teniendo en cuenta estas consideraciones y considerando las restricciones impuestas por el hecho de que los triángulos de un lado adicional deben tener una longitud entera y más de 58, podemos enumerar los sí conjugados para $x$ y $y$:
+
+*   (2,54)
+
+Respuesta: No Answer

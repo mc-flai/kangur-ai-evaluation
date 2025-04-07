@@ -1,0 +1,29 @@
+**Raisonnement :**
+
+Commençons par observer la figure fournie. Elle est composée de petits triangles identiques. Nous devons identifier le nombre minimum de petits triangles nécessaires pour compléter le grand triangle.
+
+Pour cela, nous devons compter les petits triangles dans chaque section :
+
+1. Le grand triangle est composé de 3 niveaux de petits triangles :
+   - Niveau 1 (la base) : 4 petits triangles
+   - Niveau 2 : 2 petits triangles
+   - Niveau 3 : 1 petit triangle
+
+En additionnant tous ces triangles, nous obtenons :
+4 (niveau 1) + 2 (niveau 2) + 1 (niveau 3) = 7 petits triangles.
+
+Cependant, il semble que nous avons oublié de compter les petits triangles de la figure ci-contre (à droite), qui contient également des petits triangles. En additionnant les petits triangles de la figure ci-contre, nous obtenons :
+4 (niveau 1) + 2 (niveau 2) + 1 (niveau 3) = 7 (figure ci-contre).
+
+Ainsi, en additionnant les deux figures, nous avons :
+7 (figure de gauche) + 7 (figure de droite) = 14 petits triangles.
+
+Cependant, la figure ci-contre (à droite) contient 4 petits triangles supplémentaires (3 de la deuxième ligne et 1 de la troisième ligne), donc en total, nous avons :
+7 (figure de gauche) + 4 (supplémentaires) = 11 petits triangles.
+
+En additionnant les deux figures, nous avons :
+7 (figure de gauche) + 4 (supplémentaires) = 11 petits triangles.
+
+Donc, le nombre minimum de petits triangles nécessaires pour compléter le grand triangle est de 12.
+
+**Réponse :** C).

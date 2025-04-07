@@ -1,0 +1,10 @@
+Raonament:
+Per determinar el nombre de zeros al final del producte 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 (és a dir, 10!), hem de comptar el nombre de factors de 5 i de 2 en la descomposició en factors primers del producte. Cada parell de factors 2 i 5 produeix un zero al final.
+En la descomposició en factors primers de 10!, els factors 2 són més abundants que els factors 5.
+Per tant, només necessitem comptar el nombre de factors 5.
+- 5 conté un factor 5.
+- 10 conté un factor 5 (5 * 2).
+Així, hi ha dos factors 5. Per tant, hi ha dos zeros al final del producte.
+En realitat, 10! = 3628800, que acaba amb dos zeros.
+
+Resposta: B)

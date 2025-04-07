@@ -1,0 +1,12 @@
+Raonament:
+1.  **Considerations**: We have 4 letters (A, B, C, and D) and we need to fill a 2x4 grid. Each letter can only appear once in each row and once in each 2x2 square.
+
+2.  **Filling the first 2x2 square**:  We have 4 choices for the top-left cell. Then 3 choices for the cell to its right, 2 choices for the cell below the top-left cell. The last cell (bottom right) is determined. So, there are 4 * 3 * 2 * 1 = 24 ways to fill the first 2x2 square. Let's assume, we have filled the first square.
+
+3.  **Filling the second 2x2 square**: For the second 2x2 square, we can place one of the remaining 2 letters on the first free cell of the first row. The letter on the other cell must be the remaining one. We have two options for the second row: two remaining letter, which means 2 ways to fill the second 2x2 square.
+
+4.  **Filling the third 2x2 square**: The letters in the third 2x2 square can be arranged in 2 ways.
+
+5.  **Calculating possibilities:** So in the end the possible combinations will be 24 * 2 = 48
+
+Resposta: C)

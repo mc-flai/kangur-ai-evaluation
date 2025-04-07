@@ -1,0 +1,7 @@
+Raisonnement :
+1.  **Comprendre les actions des machines** : La machine R fait tourner le papier de 90 degrés dans le sens des aiguilles d'une montre. La machine T imprime un trèfle.
+2.  **Analyser l'ordre du processus inverse** : On part du résultat final, le trèfle avec le coin noir.  Le trèfle a été imprimé par la machine T, donc la dernière étape est toujours T. Le coin noir dans le trèfle indique que le papier a été tourné.
+3. **Déterminer le processus inverse**: La machine T est le dernier résultat, qui est toujours le trèfle. Avant cela, il y a eu une rotation.  Le coin noir a commencé en bas à gauche, et dans le résultat final, le coin noir est en bas à droite. Cela signifie qu'il y a eu 3 rotations avec R avant T (3 * 90 = 270 degree rotation).
+4.  **Déduire l'ordre des machines**: Ainsi, l'ordre des machines doit être RRR T.
+
+Réponse : D)

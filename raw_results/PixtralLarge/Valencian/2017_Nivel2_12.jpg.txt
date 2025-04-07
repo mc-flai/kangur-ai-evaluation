@@ -1,0 +1,19 @@
+**Raonament**:
+La pregunta demana quants nombres de tres xifres tenen el producte de totes les xifres igual a 9. Per resoldre això, hem de trobar els nombres de tres xifres (de 100 a 999) on el producte de les seves xifres és 9.
+
+Per exemple, si considerem el nombre 133:
+- El producte de les seves xifres és 1 * 3 * 3 = 9, per tant és un nombre vàlid.
+
+Hem de comprovar tots els nombres de tres xifres possibles i trobar aquells on el producte de les seves xifres és 9.
+
+Considerem les possibles combinacions de xifres que donen un producte de 9:
+1. 1 * 1 * 9 = 9 (per exemple, 119, 191, 911)
+2. 1 * 3 * 3 = 9 (per exemple, 133, 313, 331)
+
+No hi ha més combinacions possibles de xifres de tres dígits que donen un producte de 9. Per tant, comptem les combinacions vàlides:
+- 119, 191, 911
+- 133, 313, 331
+
+En total, hi ha 6 nombres de tres xifres que compleixen la condició.
+
+**Resposta**: E)

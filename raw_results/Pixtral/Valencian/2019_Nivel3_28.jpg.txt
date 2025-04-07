@@ -1,0 +1,29 @@
+**Pregunta:** Alguns equips de tres jugadors participen en un torneig d'escaacs. Cada equip juga exactament una vegada contra tots els equips dels altres altres equips. Per motius d'organització, no es poden jugar més de 250 partides en total. Com a màxim, quants equips poden participar en el torneig?
+
+**Opcions:**
+A) 11
+B) 10
+C) 9
+D) 8
+E) 7
+
+**Raonament:**
+1. Cada equip juga contra tots els altres equips exactament una vegada.
+2. Si hi ha \( n \) equips, cada equip juga \( n-1 \) partides (una contra cada altre equip).
+3. El nombre total de partides \( P \) és donat per la fórmula combinatòria \( P = \frac{n(n-1)}{2} \).
+4. Sabem que \( P \) no pot ser més de 250.
+5. Resolvam l'igualitat \( \frac{n(n-1)}{2} = 250 \).
+6. Multipliquem ambdós costats per 2: \( n(n-1) = 500 \).
+7. Resolvam aquesta igualitat quadràtica.
+8. Reordeneu: \( n^2 - n - 500 = 0 \).
+9. Utilitzeu la fórmula quadratèrica per resoldre \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), on \( a = 1 \), \( b = -1 \), i \( c = -500 \).
+10. Calculeu el discriminant: \( b^2 - 4ac = 1 + 2000 = 2001 \).
+11. Calculeu \( n \): \( n = \frac{1 \pm \sqrt{2001}}{2} \).
+12. Com que \( \sqrt{2001} \) és aproximadament 44.7, les solucions són \( n = \frac{1 + 44.7}{2} \) i \( n = \frac{1 - 44.7}{2} \).
+13. Les solucions són \( n \approx 22.85 \) i \( n \approx -21.85 \).
+14. Com que \( n \) ha de ser un nombre enter positiu, \( n = 23 \).
+15. Verifiquem: \( \frac{23 \times 22}{2} = 253 \), que és més gran que 250, per tant, no és possible.
+16. Prova amb \( n = 22 \): \( \frac{22 \times 21}{2} = 231 \), que és acceptable.
+17. Per tant, el màxim nombre d'equips és 22.
+
+**Resposta:** B)

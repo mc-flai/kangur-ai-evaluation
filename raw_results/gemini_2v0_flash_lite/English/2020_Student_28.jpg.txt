@@ -1,0 +1,12 @@
+Reasoning:
+1. Find the prime factorization of 2020: 2020 = 2^2 * 5 * 101
+2. The divisors of 2020 are all possible combinations of the prime factors.
+3. The divisors are: 1, 2, 4, 5, 10, 20, 101, 202, 404, 505, 1010, 2020.
+4. To guarantee that we have two numbers where neither divides the other, we consider the pairs.
+5. We can pick divisors in increasing order. For example, {1,2,4,5,10,20,101...}.
+6. If we pick all divisors of the form 2^x, then we would have a set of 1, 2, 4.  Also, 5 and 10. If we continue to pick until we pick the largest possible subset where all elements are pairwise divisors of each other we'd have a set like {1, 2, 4, 5, 10, 20}.
+7. Consider this set: {1, 2, 4, 5, 10}.  If we add 20, it divides 10, and if we also select 101, then neither 101 divides 20, nor 20 divides 101. So we need to pick one more, at least 7 cards to achieve this.
+8. Consider the divisors 1, 2, 4, 5, 10, 20. Here, 1 divides all, 2 divides 4, 10, 20, and 5 divides 10, 20. Therefore, if we take 7 cards, the seventh card must be either 101, 202, 404, 505, 1010, 2020.  If we take 101, then we can have 5 and 101. The conditions are satisfied. 101 doesn't divide 5 and 5 doesn't divide 101. So, we must have picked at least one of these. Then, consider the set {1, 2, 4, 5, 10, 20, 101}. Any choice of 2 elements from the list satisfies the condition of none of the items dividing the other, when 101 is chosen.  We need 7 cards. However, picking 6 may still not give us a pair.
+9. If we choose the smallest numbers as long as they are dividing each other: 1, 2, 4, 5, 10, 20. Taking the 7th card, will give a number which does not have any divisor relation to previous six.
+
+Answer: C)

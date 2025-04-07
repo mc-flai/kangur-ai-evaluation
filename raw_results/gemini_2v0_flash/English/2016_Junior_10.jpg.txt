@@ -1,0 +1,37 @@
+Reasoning:
+The single-digit positive whole numbers are {1, 2, 3, 4, 5, 6, 7, 8, 9}. We need to choose 5 such numbers such that no two add up to 10. The pairs that sum to 10 are (1, 9), (2, 8), (3, 7), (4, 6), and (5, 5).
+Since the numbers must be different, we can eliminate 5 from the list.
+We can consider the sets of numbers that can be selected without summing to 10. We need to pick 5 numbers.
+Let us analyze the options given and if including the number leads to a contradiction.
+If Sven definitely wrote 6, then he cannot write 4.
+If Sven definitely wrote 7, then he cannot write 3.
+If Sven definitely wrote 8, then he cannot write 2.
+If Sven definitely wrote 9, then he cannot write 1.
+The largest possible set would consist of either only the smaller numbers (1, 2, 3, 4, 5) or the larger numbers (5, 6, 7, 8, 9).
+Consider the set {1, 2, 3, 4, 5}. 1+9=10, 2+8=10, 3+7=10, 4+6=10, so we cannot have both numbers in these pairs.
+If we take 6, 7, 8, 9, we need to choose one more number. If we choose 1, 2, 3, 4, 5. Notice that if Sven includes 5, the other numbers cannot include 5.
+
+However, the smallest number we can create this set with is: {1, 2, 3, 4} and we need one more, but cannot pick {9, 8, 7, 6}.
+Consider 1, 2, 3, 4 as the numbers. No two add to 10. So there would need to be an additional.
+The other set would be {6, 7, 8, 9}. The numbers that cannot be with them are 4, 3, 2, 1.
+
+If we consider the minimum number. if we consider picking the numbers {1, 2, 3, 4, 5}. The sums are: 1+9=10, 2+8=10, 3+7=10, 4+6=10. Since he picks 5 different numbers. then we consider the case {6, 7, 8, 9, x}.
+If 5 were one of the values.
+
+Let's try to construct a set *without* a 5, and with any of {1, 2, 3, 4} specifically missing. For example if we did NOT have the number 1, we could have {2,3,4,6,8}. However 2+8=10, so this isn't the case.
+
+We must include 5.
+Reasoning:
+If 5 is NOT in the list, the possible numbers are {1, 2, 3, 4, 6, 7, 8, 9}. If we pick 1, then we cannot pick 9. If we pick 2, we cannot pick 8. If we pick 3, we cannot pick 7. If we pick 4, we cannot pick 6. Let's say we pick 1. If we don't pick 5, then 6, 7, 8, and 9 must be picked, but 1 cannot be in this set.
+{6, 7, 8, 9}. But then this set needs one more. Which makes the conditions. So we have {6, 7, 8, 9}. The only condition is one of 1, 2, 3, 4, 5, then it follows.
+Pick {1, 2, 3, 4, x}. x cannot be 6, 7, 8, 9. It is one of 5, so {1, 2, 3, 4, 5} is possible.
+This shows 5 does not need to be on it.
+
+If instead we said {6, 7, 8, 9, x}. Where x can be 1, 2, 3, 4. If {6, 7, 8, 9, 1} then no two add up to 10. So that means no numbers has been written.
+
+But it says one number MUST be written on it.
+Pick 1, you have to ignore 9. {1, x, x, x, x}. Pick {1, 2, 3, 4} which forces exclusion of 6, 7, 8.
+
+If Sven wrote 5, we only need 4 other different integers, which is what the question says. This shows that the number that Sven definitely wrote is 5.
+
+Answer: E)

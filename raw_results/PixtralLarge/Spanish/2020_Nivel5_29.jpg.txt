@@ -1,0 +1,24 @@
+Para responder esta pregunta, primero debemos entender cómo se comporta la línea en zig-zag a medida que se mueve a lo largo de la semicircunferencia.
+
+La línea en zig-zag comienza en el punto A y avanza a través de la semicircunferencia formando ángulos iguales a α entre cada segmento y el diámetro AB.
+
+Dado que la semicircunferencia tiene cuatro vértices después del punto A, la línea en zig-zag debe terminar en el cuarto vértice después del punto A.
+
+Para determinar el ángulo α, observamos que el ángulo total de una semicircunferencia es de 180 grados. Dado que la línea forma ángulos iguales entre cada vértice y el diámetro, podemos dividir 180 grados por el número de segmentos en zig-zag (que es 5, incluyendo los puntos A y B):
+
+\[ \alpha = \frac{180^\circ}{5} = 36^\circ \]
+
+Sin embargo, en la imagen se observa que hay cuatro vértices adicionales, lo que suma un total de 5 ángulos iguales a α. Por lo tanto:
+
+\[ 5\alpha = 180^\circ \]
+\[ \alpha = \frac{180^\circ}{5} = 36^\circ \]
+
+Pero la pregunta pide el ángulo α entre la línea en zig-zag y el diámetro AB en el punto B. Dado que la línea en zig-zag termina en el cuarto vértice y el ángulo total es de 180 grados, el ángulo en el punto B será:
+
+\[ 80^\circ \]
+
+Por lo tanto, la respuesta correcta es:
+
+**Razonamiento**: La línea en zig-zag forma ángulos iguales a α entre cada vértice y el diámetro AB. Dado que hay cuatro vértices adicionales, el ángulo total de la semicircunferencia es 180 grados, y el ángulo en el punto B es 80 grados.
+
+**Respuesta**: D) 80°.

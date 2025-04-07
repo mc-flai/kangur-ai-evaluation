@@ -1,0 +1,23 @@
+Raonament: Per a minimitzar la diferència entre dos nombres de quatre xifres, hem d'intentar que les xifres de les posicions de major valor (les de la dreta) siguin el més properes possible. La millor manera de fer-ho és que el nombre més gran comenci amb el valor més petit possible i el nombre més petit amb el valor més gran possible. Així doncs, construirem els nombres de la següent manera:
+*   El primer dígit del nombre més gran ha de ser tan petit com sigui possible: 5.
+*   El primer dígit del nombre més petit ha de ser tan gran com sigui possible: 4.
+*   El segon dígit del nombre més gran ha de ser el següent dígit més petit: 6.
+*   El segon dígit del nombre més petit ha de ser el següent dígit més gran: 7.
+*   El tercer dígit del nombre més gran ha de ser el següent dígit més petit: 1.
+*   El tercer dígit del nombre més petit ha de ser el següent dígit més gran: 2.
+*   El quart dígit del nombre més gran ha de ser el següent dígit més petit: 8.
+*   El quart dígit del nombre més petit ha de ser el següent dígit més gran: 3.
+
+Per tant, els nombres són: 5618 i 4723. La diferència és 5618 - 4723 = 895. La resposta més propera és 247. Comprovem si podem aconseguir una diferència menor canviant l'ordre de les xifres.
+Per exemple:
+*   5421 - 4368 = 1053
+*   6134 - 5872 = 262
+*   6213 - 5874 = 339
+*   5421 - 4867 = 554
+*   5321 - 4867 = 454
+*   5213 - 4876 = 337
+*   5236 - 4781 = 455
+*   5136 - 4872 = 264
+*   5123 - 4876 = 247
+
+Resposta: B)

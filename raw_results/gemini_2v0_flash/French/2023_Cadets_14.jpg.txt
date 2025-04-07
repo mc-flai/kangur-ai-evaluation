@@ -1,0 +1,5 @@
+Reasoning:
+We have 3 hares and the hares cannot be next to each other. Three kangaroos are next to each other. To minimize the number of kangaroos, we must place the three hares so they are separated by the group of three kangaroos and two individual kangaroos. This gives a configuration such as H K K K H K H K, where H is a hare and K is a kangaroo. In this way, there are 5 kangaroos.
+The order matters: H, K, K, K, H, K, H, K. The minimum number of kangaroos is then 5.
+
+Answer: C)

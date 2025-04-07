@@ -1,0 +1,8 @@
+Razonamiento: El problema describe una situación que se repite 5 veces. Para encontrar la cantidad original de bolas, debemos trabajar hacia atrás.
+* Al final de la quinta vez, quedan 3 bolas. Antes de la quinta vez, había una cantidad de bolas tal que, al sacar la mitad y agregar 1, quedaban 3.  Si llamamos 'x' a la cantidad de bolas antes del quinto paso, entonces x/2 + 1 = 3.  Resolviendo para x: x/2 = 2, entonces x = 4.
+* Repetimos el proceso para encontrar la cantidad antes del cuarto paso. Si llamamos 'y' a la cantidad de bolas antes del cuarto paso, entonces y/2 + 1 = 4.  Resolviendo para y: y/2 = 3, entonces y = 6.
+* Repetimos para el tercer paso. Si llamamos 'z' a la cantidad antes del tercer paso, entonces z/2 + 1 = 6.  Resolviendo para z: z/2 = 5, entonces z = 10.
+* Repetimos para el segundo paso. Si llamamos 'w' a la cantidad antes del segundo paso, entonces w/2 + 1 = 10. Resolviendo para w: w/2 = 9, entonces w = 18.
+* Repetimos para el primer paso (que es la cantidad original). Si llamamos 'v' a la cantidad original, entonces v/2 + 1 = 18. Resolviendo para v: v/2 = 17, entonces v = 34.
+
+Respuesta: C)

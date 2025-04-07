@@ -1,0 +1,16 @@
+Reasoning:
+Let $g$ be the number of boys and $f$ be the number of girls.
+We are given that $g + f = 20$.
+The students are sitting in pairs. Let $p$ be the number of pairs. Then $2p = 20$, so $p = 10$.
+Let $g_f$ be the number of boys sitting next to a girl, and $f_g$ be the number of girls sitting next to a boy.
+We are given that $g_f = \frac{1}{3} g$ and $f_g = \frac{1}{2} f$.
+Also, we have $g_f = f_g$ since each pair contains one boy and one girl.
+Therefore, $\frac{1}{3} g = \frac{1}{2} f$, so $2g = 3f$.
+We have $g + f = 20$, so $f = 20 - g$.
+Substituting this into $2g = 3f$, we have $2g = 3(20 - g) = 60 - 3g$.
+Thus $5g = 60$, so $g = 12$.
+Then $f = 20 - 12 = 8$.
+We can check our answer. $\frac{1}{3} g = \frac{1}{3} (12) = 4$, and $\frac{1}{2} f = \frac{1}{2} (8) = 4$.
+So we have 4 boys sitting next to a girl and 4 girls sitting next to a boy. There are 12 boys in the class.
+
+Answer: B)

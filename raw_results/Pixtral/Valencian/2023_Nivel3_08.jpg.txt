@@ -1,0 +1,34 @@
+
+La pregunta 8 en la imagen dice: "Joan va menjar 50 galetes. Si cada dia en va menjar cinc més que el dia anterior, quantes galetes va menjar el darrer dia?"
+
+Para determinar cuántas galletas Joan comió el último día, necesitamos entender el patrón de consumo de galletas. Joan come 5 galletas más cada día en comparación con el día anterior. Esto significa que el número de galletas que come cada día sigue una progresión aritmética.
+
+1. El primer día come 50 galletas.
+2. El segundo día come 50 + 5 = 55 galletas.
+3. El tercer día come 55 + 5 = 60 galletas.
+4. Continuamos de esta manera hasta el último día.
+
+Para encontrar el número de galletas que come el último día, necesitamos calcular el número de días y luego usar la fórmula para el término general de una progresión aritmética.
+
+La fórmula para el término general de una progresión aritmética es:
+\[ a_n = a_1 + (n - 1) \cdot d \]
+donde:
+- \( a_n \) es el término general,
+- \( a_1 \) es el primer término,
+- \( n \) es el número de términos,
+- \( d \) es la diferencia común.
+
+En este caso:
+- \( a_1 = 50 \) (primer día),
+- \( d = 5 \) (diferencia común).
+
+Queremos encontrar \( a_n \) para el último día, que es el 10º día (ya que el primer día es el 1º día).
+
+\[ a_{10} = 50 + (10 - 1) \cdot 5 \]
+\[ a_{10} = 50 + 9 \cdot 5 \]
+\[ a_{10} = 50 + 45 \]
+\[ a_{10} = 95 \]
+
+Por lo tanto, Joan come 95 galletas el último día.
+
+**Respuesta: E)**

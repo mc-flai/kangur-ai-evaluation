@@ -1,0 +1,31 @@
+Reasoning:
+Let's analyze the signs of the given expressions. Since n is a positive whole number, 2n+3, 2n+2, 2n-1, 3n+2, 4n+1, 2n+5, and 3n-4 will be integers.
+
+1.  Sign of (-2)^(2n+3): Since 2n+3 can be odd or even. If n is even, then 2n+3 is odd, and thus (-2)^(2n+3) is negative. If n is odd, then 2n+3 is odd and thus (-2)^(2n+3) is negative. Thus, the sign is always negative.
+2.  Sign of (-3)^(2n+2): Since 2n+2 is always even, the expression is always positive.
+
+The two expressions have the same sign. So, we can write:
+(-2)^(2n+3) * a^(2n+2) * b^(2n-1) * c^(3n+2) and (-3)^(2n+2) * a^(4n+1) * b^(2n+5) * c^(3n-4).
+
+Since (-2)^(2n+3) is negative and (-3)^(2n+2) is positive, the signs of a^(2n+2) * b^(2n-1) * c^(3n+2) must be the opposite of  a^(4n+1) * b^(2n+5) * c^(3n-4).
+
+If a is positive or negative:
+Since 2n+2 and 4n+1 + (even number) will be positive.
+2n+2 is always even.
+If a is negative, then a^(2n+2) is positive, and a^(4n+1) is negative.
+
+2n-1 and 2n+5
+
+Since 2n+2 and 4n+1 the power of a is even and odd.
+
+Consider a:  If a is negative, then a^(2n+2) will be positive and a^(4n+1) will be negative.
+
+b: b^(2n-1) and b^(2n+5). If b < 0, then b^(2n-1) negative and b^(2n+5) also negative. Then the two b terms cancel each other in sign. If b > 0, the b^(2n-1) is positive and b^(2n+5) positive.
+c: c^(3n+2) and c^(3n-4). If c > 0, c^(3n+2) > 0 and c^(3n-4) >0. If c < 0.
+If b < 0, a>0.
+
+So if b is negative, that's the case and b<0
+If a>0, b<0 and c>0
+
+Answer: E)
+Answer: E)

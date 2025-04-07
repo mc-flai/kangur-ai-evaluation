@@ -1,0 +1,14 @@
+Reasoning:
+We are given a five-digit number where each digit has a shape associated with it, and different digits have different shapes. The same digit has the same shape.
+Looking at the shapes, the heart, diamond, club, and spade shapes are all different, and a single shape appears in three positions. This means we are looking for a number where one digit is repeated three times.
+
+Now we look through the options:
+(A) 34426 - The digit 4 is repeated twice. This is incorrect.
+(B) 34526 - The digit 6 is repeated twice. This is incorrect.
+(C) 34423 - The digit 4 is repeated twice and 3 repeated twice. This is incorrect.
+(D) 34424 - The digit 4 is repeated three times. Also, there are five digits: 3, 4, 2, and 4. So all of the conditions are met.
+(E) 32446 - The digit 4 is repeated twice. This is incorrect.
+
+Therefore, option D is the correct answer.
+
+Answer: D)

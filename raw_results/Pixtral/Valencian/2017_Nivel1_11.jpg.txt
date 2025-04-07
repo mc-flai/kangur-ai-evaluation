@@ -1,0 +1,20 @@
+
+La pregunta 11 nos dice que en un programa de preguntas, cada participante comienza con 10 puntos y tiene 10 preguntas. Cada respuesta correcta suma un punto y cada respuesta incorrecta resta un punto. Aitana ha conseguido 14 puntos. Se nos pide que determinemos cuántas respuestas incorrectas ha dado.
+
+Para resolver esto, usamos la siguiente lógica:
+
+1. Comenzamos con 10 puntos.
+2. Cada respuesta correcta suma 1 punto, por lo que cada respuesta correcta aumenta el total en 1 punto.
+3. Cada respuesta incorrecta resta 1 punto, por lo que cada respuesta incorrecta disminuye el total en 1 punto.
+4. Si Aitana ha terminado con 14 puntos, podemos calcular el número de respuestas incorrectas restando los puntos iniciales y finales y dividiendo por 2 (ya que cada respuesta incorrecta resta 1 punto y cada respuesta correcta suma 1 punto).
+
+Calculamos:
+- Puntos iniciales: 10
+- Puntos finales: 14
+- Diferencia de puntos: 14 - 10 = 4
+
+Esto significa que Aitana ha dado 4 respuestas incorrectas (ya que cada respuesta incorrecta resta 1 punto y ha habido un total de 4 puntos añadidos por respuestas correctas).
+
+Raonament: Comenzamos con 10 puntos y terminamos con 14 puntos. La diferencia es de 4 puntos. Cada respuesta correcta suma 1 punto y cada respuesta incorrecta resta 1 punto. Por lo tanto, Aitana ha dado 4 respuestas incorrectas.
+
+Resposta: B)

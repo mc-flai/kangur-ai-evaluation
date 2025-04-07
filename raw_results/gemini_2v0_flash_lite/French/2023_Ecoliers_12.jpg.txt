@@ -1,0 +1,12 @@
+Raisonnement :
+La question nous indique que la balance est équilibrée, c'est-à-dire que le poids total d'un côté est égal au poids total de l'autre côté. Rose a utilisé 3 objets sur un plateau et 1 objet sur l'autre. Cela signifie qu'elle a utilisé 4 objets au total sur les 5 disponibles.  Nous devons trouver la combinaison de 4 objets qui permet à la balance de s'équilibrer avec les masses restantes (12, 15, 27, 29 et 56).
+
+1.  **Calcul de la masse totale :** 12 + 15 + 27 + 29 + 56 = 139 g.
+
+2.  **Puisque les plateaux s'équilibrent, les deux plateaux ont la même masse.**  La masse totale doit donc être divisée en deux parties égales. Donc 139/2 = 69.5 g. Ce résultat est non-entier donc le résultat est faux. Donc on doit faire des tests.
+
+3.  **Tests par élimination**. On test avec la masse de 56 g.
+    *   Si 56 g sont seuls sur un plateau, les 3 autres objets doivent faire la même masse. On teste les autres possibilités.
+    *   On remarque que 12+15+29= 56. Donc 27g est l'objet resté.
+
+Réponse : C) 27 g

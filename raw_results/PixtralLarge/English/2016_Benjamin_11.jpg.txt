@@ -1,0 +1,15 @@
+**Reasoning**: 
+1. There are 5 days in a week from Monday to Friday.
+2. Each day, exactly two people are working.
+3. Mona works 3 times a week, and Asma works 4 times a week.
+4. The total number of workdays accounted for by Mona and Asma is: 3 (Mona's workdays) + 4 (Asma's workdays) = 7 workdays.
+5. Since there are only 5 workdays in a week, the remaining workdays must be filled by Nadja.
+6. The number of workdays filled by Mona and Asma is 7, which exceeds the total available workdays (5). This indicates that some of the workdays are shared.
+7. We need to find out how many times Nadja works per week. Given the constraints, if we subtract the total workdays filled by Mona and Asma from the total available workdays multiplied by 2 (since 2 people work each day), we get:
+   Number of Nadja's workdays = (Total workdays * 2) - (Mona's workdays + Asma's workdays)
+   = (5 * 2) - 7
+   = 10 - 7
+   = 3.
+8. Therefore, Nadja works 3 times per week.
+
+**Answer**: C).

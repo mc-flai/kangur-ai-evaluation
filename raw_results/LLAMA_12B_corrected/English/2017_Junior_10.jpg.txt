@@ -1,0 +1,9 @@
+Reasoning: 
+
+To find the minimum number of students required to take a button so that each student definitely has one button of each color, we need to consider the worst-case scenario. The worst case would be when students only take one button of the same color as someone else has already chosen.
+
+Since there are three different colors (red, white, and blue) and 28 buttons in total, each color can have at most 9 buttons (28/3 = 9) before any student has to take two buttons of the same color. This is because if a student takes a second button of the same color, it means that color has been chosen twice, and any further choices will not result in all colors being taken.
+
+Therefore, the minimum number of students needed to guarantee that each person takes one button of each color is the number of buttons per color, which is 9, multiplied by the number of colors, which is 3.
+
+Answer: C) 27

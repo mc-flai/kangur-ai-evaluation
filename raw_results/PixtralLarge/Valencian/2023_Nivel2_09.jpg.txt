@@ -1,0 +1,31 @@
+Per determinar quantos zeros hi ha al final del producte 1·2·3·4·5·6·7·8·9·10, hem de comptar els factors de 2 i 5, ja que un zero al final d'un número es genera per un parell de factors de 2 i 5.
+
+**Raonament**:
+1. Llistem els factors de cada número de l'1 al 10:
+   - 1: 1
+   - 2: 2
+   - 3: 3
+   - 4: 2^2
+   - 5: 5
+   - 6: 2·3
+   - 7: 7
+   - 8: 2^3
+   - 9: 3^2
+   - 10: 2·5
+
+2. Compte dels factors de 2:
+   - 2: 1 factor de 2
+   - 4: 2 factors de 2
+   - 6: 1 factor de 2
+   - 8: 3 factors de 2
+   - 10: 1 factor de 2
+   - Total factors de 2: 1 + 2 + 1 + 3 + 1 = 8 factors de 2
+
+3. Compte dels factors de 5:
+   - 5: 1 factor de 5
+   - 10: 1 factor de 5
+   - Total factors de 5: 1 + 1 = 2 factors de 5
+
+4. Els zeros finals en el producte s'obtenen pel nombre més petit de factors de 2 i 5. En aquest cas, tenim 2 factors de 5, que és el límit.
+
+**Resposta**: D)

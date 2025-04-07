@@ -1,0 +1,14 @@
+Raonament:
+1.  **Pàgines 1-9**: Necessitem 9 dígits (1 per pàgina).
+2.  **Pàgines 10-99**: Necessitem 90 * 2 = 180 dígits (2 per pàgina).
+3.  **Pàgines 100-999**: Necessitem 900 * 3 = 2700 dígits (3 per pàgina).
+4.  **Pàgines 1000 i més**: Necessitem 4 dígits per pàgina.
+
+Càlculs:
+1.  Dígits totals: 11381
+2.  Dígits utilitzats fins a la pàgina 999: 9 + 180 + 2700 = 2889
+3.  Dígits restants per a les pàgines de 4 dígits: 11381 - 2889 = 8492
+4.  Nombre de pàgines amb 4 dígits: 8492 / 4 = 2123
+5.  Última pàgina: 999 + 2123 = 3122
+
+Resposta: B)

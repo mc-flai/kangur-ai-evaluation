@@ -1,0 +1,39 @@
+**Pregunta:** Els segments són trios de longituds de segments. Amb quin dels trios no es pot construir un triangle?
+
+A) (2,3,4)
+B) (5,2,8)
+C) (10,1,10)
+D) (2,2,2)
+E) (38,17,23)
+
+**Racionalització:**
+Per determinar si un trio de longituds de segments pot formar un triangle, podem utilitzar el Teorema de Triangle. El Teorema de Triangle diu que per a qualsevol triangle, la suma de les longituds de dos costats qualssevol ha de ser més gran que la longitud del tercer costat. En altres paraules, per a longituds a, b i c, els següents criteris han de ser verdaders:
+1. a + b > c
+2. a + c > b
+3. b + c > a
+
+Vam a verificar cada trio per veure si satisfà el Teorema de Triangle.
+
+A) (2, 3, 4)
+- 2 + 3 = 5 (no > 4)
+- No forma un triangle.
+
+B) (5, 2, 8)
+- 5 + 2 = 7 (no > 8)
+- No forma un triangle.
+
+C) (10, 1, 10)
+- 10 + 1 = 11 (no > 10)
+- No forma un triangle.
+
+D) (2, 2, 2)
+- 2 + 2 = 4 (no > 2)
+- No forma un triangle.
+
+E) (38, 17, 23)
+- 38 + 17 = 55 (si > 23)
+- 38 + 23 = 61 (si > 17)
+- 17 + 23 = 40 (si > 38)
+- Sí forma un triangle.
+
+**Resposta:** E)

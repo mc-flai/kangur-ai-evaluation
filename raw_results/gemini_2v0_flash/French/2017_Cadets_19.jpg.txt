@@ -1,0 +1,18 @@
+Reasoning:
+The tram leaves every 3 minutes and takes 60 minutes to reach the city center. The car starts at the same time as a tram, and it takes 35 minutes to reach the city center. We want to find how many trams the car passes, not counting the tram the car started with.
+
+First, find out how many trams leave the airport during the 35 minutes that the car travels. Since a tram departs every 3 minutes, the number of trams departing is 35 / 3 = 11.66. Since we can only have whole trams, we round down to 11 trams that depart after the car.
+The car leaves at the same time as a tram. So, we want to find how many trams that have left before the car have not yet reached the city center.
+The last of the 11 trams leaves at the time 35 min. The tram which leaves at time t will be at time 35 minutes away from the airport, so the distance between the tram and the airport is proportional to 35-t.
+Since the car leaves at time 0, the total number of trams on the road is 60/3=20.
+The number of trams on the road is 20, and these trams have left during time -60 to 0, so when we reach minute 35, the number of trams in operation is 20.
+
+Let's consider trams that left before the car. These trams have been on the road more than 35 minutes, so the car did not pass them.
+Each of the 11 trams that left after the car has not yet reached the city center, so the car passes the trams on the way.
+The tram that leaves at time t=0 and travels for 60 minutes, and the car leaves at time t=0, then it takes 35 minutes.
+Since the car travels to the city center in 35 minutes, the trams that departed after the car had left before the car reached the city center are those that left within 35 minutes of the starting time of the car, 0.
+Since trams depart every 3 minutes, floor(35/3)=11 trams leave after the car. Thus, the car passes 11 trams (excluding the one the car started with).
+
+Reasoning about relative speeds and positions is complex. Let's consider the trams the car has passed *at* the 35 minute mark. The car has reached the city center. The last tram that left the airport before the car is 57 minutes -60+3= the tram left 3 minutes before the car or simultaneously. Since this tram went the whole distance after the car was already out of the game, this does not count. The one after that left 6 minutes before the car. In the 35 minutes after car left the airport, 35/3 trams left or approximately 11 trams. We also exclude the initial tram as instructed, so the result is 11 trams.
+
+Answer: D)

@@ -1,0 +1,34 @@
+Per resoldre el problema, hem de trobar l'àrea del quadrilàter PRLK. Les dades claus són:
+
+- PR = 3 cm
+- AE és dividit en quatre parts iguals.
+- BR = RN = NL = LE
+
+Primer, observem que els segments AP, PM, MK, i KE són iguals, i cada segment és 1/4 de AE. Això significa que cada part de AE és igual a AE/4.
+
+Com que BR = RN = NL = LE, volem determinar la longitud de cada segment.
+
+El triangle LRN és un triangle equilàter amb costats iguals, i PR és 3 cm.
+
+En un triangle equilàter, l'altura (h) pot ser trobada amb la fórmula:
+
+\[ h = \frac{\sqrt{3}}{2} \times \text{costat} \]
+
+Aquí, el costat és 3 cm, per tant:
+
+\[ h = \frac{\sqrt{3}}{2} \times 3 \approx 2.6 \text{ cm} \]
+
+L'àrea del triangle equilàter LRN és:
+
+\[ \text{Àrea del triangle} = \frac{1}{2} \times \text{base} \times \text{altura} \]
+\[ \text{Àrea del triangle} = \frac{1}{2} \times 3 \times 2.6 \approx 3.9 \text{ cm}^2 \]
+
+L'àrea del quadrilàter PRLK és el doble de l'àrea del triangle LRN:
+
+\[ \text{Àrea del quadrilàter} = 2 \times 3.9 = 7.8 \text{ cm}^2 \]
+
+Per tant, l'opció correcta és la més propera a 7.8 cm².
+
+Raonament: Utilitzant la propietat del triangle equilàter i la informació donada, vam calcular l'àrea del quadrilàter PRLK.
+
+Resposta: D) 5,5 cm².

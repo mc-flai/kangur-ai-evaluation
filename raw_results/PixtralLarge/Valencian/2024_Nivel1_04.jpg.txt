@@ -1,0 +1,10 @@
+Per resoldre la pregunta sobre quantes vegades hem de tirar un dau amb les cares numerades de l'1 al 6 per estar segurs que algun dels nombres haurà eixit repetit, hem de considerar el principi del palomar (o principi de les caselles). Aquest principi estableix que si tenim més objectes que caselles on posar-los, almenys una casella s'ha d'omplir més d'una vegada.
+
+Aplicant això al nostre problema:
+1. Hi ha 6 cares numerades en un dau.
+2. Si tirem el dau 6 vegades, és possible que cada cara surti una vegada, i no hagi repetició.
+3. Però, si tirem el dau una vegada més, és a dir, 7 vegades, segons el principi del palomar, almenys una de les cares haurà de sortir més d'una vegada, ja que només hi ha 6 cares diferents.
+
+**Raonament**: El principi del palomar garanteix que si tirem el dau 7 vegades, una de les cares haurà de repetir-se.
+
+**Resposta**: C)

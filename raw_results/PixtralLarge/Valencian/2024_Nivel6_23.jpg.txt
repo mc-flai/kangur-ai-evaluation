@@ -1,0 +1,17 @@
+**Raonament:**
+
+El problema ens demana trobar la longitud més menuda que pot tenir el segment XY en una tira de paper de 12 cm de longitud i 2 cm d'amplada quan es doblega de manera que els dos trossos formen un angle rectangle de 45 graus.
+
+Per resoldre aquest problema, pensem en el triangle XY que es forma per la tira de paper, on l'angle entre X i Y és de 45 graus. Com que l'angle és de 45 graus, aquest és un triangle rectangle isòsceles amb els dos catets iguals.
+
+La longitud del segment XY és la hipotenusa d'aquest triangle. Per un triangle rectangle isòsceles, les longituds dels catets (c) es poden expressar com:
+
+c = longitud de la tira / 2 = 12 cm / 2 = 6 cm
+
+En un triangle rectangle isòsceles on l'angle és de 45 graus, la hipotenusa (h) és:
+
+h = c * sqrt(2) = 6 * sqrt(2)
+
+Per tant, la longitud més menuda de XY és 6 * sqrt(2), que correspon a la opció E).
+
+**Resposta:** E) 6 + sqrt(2)

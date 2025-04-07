@@ -1,0 +1,8 @@
+Raonament:
+1. **Identificar el Patró:** Observo que la sèrie mostra rectangles amb àrees creixents. El primer rectangle té 1 quadrat, el segon 4, el tercer 9, el quart 16 i el cinquè 25. És clar que el nombre de quadrats en cada rectangle correspon al quadrat de la posició del rectangle en la sèrie (1^2, 2^2, 3^2, 4^2, 5^2).
+2. **Aplicar el Patró al 10è Rectangle:** Per determinar el nombre de quadrats al 10è rectangle, aplico el patró: 10^2 = 100.
+3. **Contrastar amb les Opcions:** Comparo el resultat (100) amb les opcions donades. Cap d'elles coincideix exactament, però l'opció més propera seria la D) 110, ja que 100 està proper d'aquest valor. El meu raonament podria no ser correcte, pel que calcularem la suma dels quadrats de 1 a 10.
+4. **Calcul Sumatori:** L'enunciat diu "la sèrie continua" pel que hem de sumar les àrees dels rectangles. La fórmula per sumar quadrats consecutius és: n(n+1)(2n+1) / 6. Per n=10, seria (10 * 11 * 21) / 6 = 385. Cap opció coincideix.
+5. **Tornar a Avaluar el Patró:** En analitzar novament les formes, veig que la pregunta podria estar buscant la suma de totes les àrees fins al 10è rectangle. En aquest cas hauríem de sumar 1^2 + 2^2 + 3^2... + 10^2.
+
+Resposta: D)

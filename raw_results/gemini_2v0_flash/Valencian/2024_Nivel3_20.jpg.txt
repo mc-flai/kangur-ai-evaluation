@@ -1,0 +1,26 @@
+Raonament: Analitzem les dades:
+Hi ha 30 monedes en total.
+Només un pirata diu la veritat en totes les seves respostes, i els altres menteixen en tot.
+Primer hem de trobar els totals que donen 30.
+Tom: 9 (or) + 11 (plata) + X (bronze) = 30, llavors bronze = 10.
+Al: 7 (or) + X (plata) + 12 (bronze) = 30, llavors plata = 11.
+Pit: 10 (or) + 10 (plata) + X (bronze) = 30, llavors bronze = 10.
+Jim: 9 (or) + 10 (plata) + X (bronze) = 30, llavors bronze = 11.
+
+Ara mirem les opcions.
+Si Tom digués la veritat, llavors hi hauria 9 or, 11 plata i 10 bronze. En aquest cas, Al menteix en l'or (7 en comptes de 9), Pit menteix en or i plata (10 i 10 en comptes de 9 i 11 respectivament) i Jim menteix en or i bronze (9 i 11, en comptes de 9 i 10). Per tant, Tom podria ser correcte.
+Si Al digués la veritat, llavors hi hauria 7 or, 11 plata i 12 bronze. En aquest cas, Tom menteix en l'or i plata (9 i 11 en comptes de 7 i 11 respectivament), Pit menteix en or i plata (10 i 10 en comptes de 7 i 11 respectivament) i Jim menteix en or i bronze (9 i X en comptes de 7 i 12). Per tant, Al podria ser correcte.
+Si Pit digués la veritat, llavors hi hauria 10 or, 10 plata i 10 bronze. En aquest cas, Tom menteix en l'or i plata (9 i 11 en comptes de 10 i 10 respectivament), Al menteix en or i plata (7 i X en comptes de 10 i 10 respectivament) i Jim menteix en or i bronze (9 i X en comptes de 10 i 10). Per tant, Pit podria ser correcte.
+Si Jim digués la veritat, llavors hi hauria 9 or, 10 plata i 11 bronze. En aquest cas, Tom menteix en l'or i plata (9 i 11 en comptes de 9 i 10 respectivament), Al menteix en l'or i bronze (7 i 12 en comptes de 9 i 11 respectivament), Pit menteix en l'or i plata (10 i 10 en comptes de 9 i 10 respectivament). En aquest cas, Pit diu que hi ha 10 plata i 10 or, llavors no menteix del tot en or. Per tant, Jim no pot ser el correcte.
+Avaluem Tom. Si Tom diu la veritat (9, 11, 10), Al diria 7, X, 12, mentiria en or i per tant plata seria 11. Pit diria 10, 10, X mentiria en tot, Jim diria 9, 10, X mentiria en bronze. Si Al digués la veritat, la plata hauria de ser 11, llavors Pit hauria de dir 10 i 10 que serien la veritat en plata.
+
+Analitzem les afirmacions sobre la plata, ja que la informació sobre el bronze no és visible. Si Tom digués la veritat i hi hagués 11 monedes de plata, llavors Al hauria de dir una altra quantitat, Pit hauria de dir una altra quantitat, i Jim hauria de dir una altra quantitat.
+Si Tom menteix en la plata i hi ha 11 monedes de plata, llavors Tom no pot dir 11.
+
+Si només un diu la veritat, llavors no poden haver dos pirates que diguin la mateixa quantitat de plata. Els pirates que diuen la quantitat de plata son: Tom (11), Al (desconegut), Pit (10) i Jim (10). Per tant, o Pit o Jim menteixen.
+Si Pit diu la veritat i hi ha 10 monedes de plata, Tom, Al i Jim han de mentir en les seves afirmacions.
+Si Jim diu la veritat i hi ha 10 monedes de plata, Tom, Al i Pit han de mentir en les seves afirmacions.
+
+Si només un pot dir la veritat, per eliminació Pit ha de ser el correcte.
+
+Resposta: C)

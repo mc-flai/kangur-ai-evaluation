@@ -1,0 +1,14 @@
+Raonament: Analitzem el patró de colors:
+1: Roig
+2: Blau
+3: Verd
+4: Roig
+5: Blau
+6: Verd
+7: Roig
+El patró es repeteix cada 3 números (Roig, Blau, Verd). Llavors, els números roigs són de la forma 3n + 1, els blaus són de la forma 3n + 2, i els verds són de la forma 3n.
+
+Si sumem un nombre roig (3n + 1) i un nombre blau (3m + 2), obtenim: (3n + 1) + (3m + 2) = 3n + 3m + 3 = 3(n + m + 1).
+Aquesta suma és sempre un múltiple de 3, per tant, és sempre un número verd.
+
+Resposta: C)

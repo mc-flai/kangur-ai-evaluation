@@ -1,0 +1,36 @@
+**Raonament:**
+
+Primer, analitzem les dades del problema. Pere va eixir de casa i va caminar durant el matí fins a arribar a una font al cap d'unes quantes hores. Va descansar durant una hora i va tornar a casa.
+
+Quan estava cansat, el camí de tornada el va fer més lentament i cada hora va recórrer una distància que era, de mitjana, un cinc més curta que en el camí d'anada. Això vol dir que cada hora en el camí de tornada va recórrer 4/5 de la distància que recorria cada hora en el camí d'anada.
+
+Denotem:
+- \(d\) com la distància total que Pere va recórrer en el camí d'anada.
+- \(t\) com el temps en hores que Pere va trigar a recórrer aquesta distància en el camí d'anada.
+- \(d_r\) com la distància total que Pere va recórrer en el camí de tornada.
+- \(t_r\) com el temps en hores que Pere va trigar a recórrer aquesta distància en el camí de tornada.
+
+Sabem que \(d = d_r\) perquè va recórrer la mateixa distància en el camí d'anada i de tornada.
+
+En el camí d'anada, Pere va recórrer \(d/t\) cada hora.
+En el camí de tornada, Pere va recórrer \(4/5 \times (d/t) = 4d/5t\) cada hora.
+
+Per trobar el temps de tornada \(t_r\), podem usar la relació:
+\[ d = t_r \times (4d/5t) \]
+\[ d = (4d/5t) \times t_r \]
+\[ d = (4d/5t) \times t_r \]
+\[ 1 = (4/5t) \times t_r \]
+\[ t_r = 5t/4 \]
+
+Com que Pere va descansar durant una hora, el temps total que va estar fora de casa és la suma del temps del camí d'anada, el temps de descans i el temps del camí de tornada:
+\[ t + 1 + 5t/4 = t + 1 + 1.25t = 2.25t + 1 \]
+
+Com que sabem que Pere va estar fora de casa durant 9 hores:
+\[ 2.25t + 1 = 9 \]
+\[ 2.25t = 8 \]
+\[ t = 8 / 2.25 \]
+\[ t = 3.56 \]
+
+Per tant, Pere va estar fora de casa durant 9 hores des que va eixir fins que hi va arribar de nou.
+
+**Resposta:** D) 9

@@ -1,0 +1,34 @@
+Para determinar el dígito de las unidades del producto \((5^5 + 1)(5^{10} + 1)(5^{15} + 1)\), debemos analizar los términos involucrados y cómo se combinan.
+
+1. **Evaluar los términos individuales**:
+   - \(5^5 = 3125\)
+   - \(5^{10} = (5^5)^2 = 3125^2\)
+   - \(5^{15} = (5^5)^3 = 3125^3\)
+
+2. **Agregar 1 a cada término**:
+   - \(5^5 + 1 = 3125 + 1 = 3126\)
+   - \(5^{10} + 1 = 3125^2 + 1\)
+   - \(5^{15} + 1 = 3125^3 + 1\)
+
+3. **Determinar el dígito de las unidades del producto**:
+   - Para encontrar el dígito de las unidades del producto, solo necesitamos considerar el dígito de las unidades de cada término y cómo se combinan.
+   - El dígito de las unidades de \(5^5\) es 5.
+   - El dígito de las unidades de \(5^{10}\) es 5 (ya que \(3125^2\) termina en 25).
+   - El dígito de las unidades de \(5^{15}\) es 5 (ya que \(3125^3\) termina en 25).
+
+4. **Multiplicar los dígitos de las unidades**:
+   - El dígito de las unidades de \(3126\) es 6.
+   - El dígito de las unidades de \(3125^2 + 1\) termina en 25 + 1 = 26, por lo que el dígito de las unidades es 6.
+   - El dígito de las unidades de \(3125^3 + 1\) termina en 25 + 1 = 26, por lo que el dígito de las unidades es 6.
+
+5. **Calcular el producto de los dígitos de las unidades**:
+   - \(6 \times 6 = 36\)
+
+6. **Determinar el dígito de las unidades del producto final**:
+   - El dígito de las unidades de 36 es 6.
+
+Por lo tanto, el dígito de las unidades del producto \((5^5 + 1)(5^{10} + 1)(5^{15} + 1)\) es 6.
+
+Razonamiento: Evaluamos los términos individuales, agregamos 1 a cada término, determinamos los dígitos de las unidades de cada término, multiplicamos los dígitos de las unidades y encontramos el dígito de las unidades del producto final.
+
+Respuesta: E)

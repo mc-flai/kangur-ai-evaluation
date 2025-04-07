@@ -1,0 +1,30 @@
+**Reasoning**:
+
+1. Analyze the given information: A square with an area of 20 cm² has one side over the side of the rectangle and two vertices over the circle.
+2. To determine the side length of this square, we calculate the square root of the area:
+   \[
+   \text{Side length} = \sqrt{20 \text{ cm}^2} = \sqrt{4 \times 5} \text{ cm} = 2\sqrt{5} \text{ cm}
+   \]
+3. Since the square's side is also a side of the rectangle, the length of one side of the rectangle is \(2\sqrt{5} \text{ cm}\).
+4. The circle passes through two vertices of the rectangle, which implies that the rectangle's length equals the diameter of the circle. The diameter of the circle can be calculated using the right-angled triangle formed by the circle's vertices and the square's side.
+5. The diameter of the circle is the hypotenuse of a right-angled triangle where both legs are equal to the side length of the square:
+   \[
+   \text{Diameter} = \sqrt{(2\sqrt{5})^2 + (2\sqrt{5})^2} = \sqrt{20 + 20} = \sqrt{40} = 2\sqrt{10} \text{ cm}
+   \]
+6. The area of the rectangle is therefore the product of its side lengths:
+   \[
+   \text{Area} = 2\sqrt{5} \times 2\sqrt{10} = 4\sqrt{50} = 4 \times 5\sqrt{2} = 20\sqrt{2} \approx 28.28 \text{ cm}^2
+   \]
+7. The closest option to this calculated area is 30 cm². This area is not listed among the provided options, hence the closest listed option is 55 cm², but it appears we need to reconsider the problem setup.
+
+Upon reconsideration:
+- The circle being tangent to one side of the rectangle and passing through two vertices means the diameter is simply twice the side length of the square:
+\[
+\text{Diameter} = 2 \times 2\sqrt{5} = 4\sqrt{5} \text{ cm}
+\]
+- Therefore, the area of the rectangle is:
+\[
+\text{Area} = 2\sqrt{5} \times 4\sqrt{5} = 8 \times 5 = 40 \text{ cm}^2
+\]
+
+**Answer**: A) 40 cm²

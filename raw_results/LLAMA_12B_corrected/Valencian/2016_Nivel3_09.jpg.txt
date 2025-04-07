@@ -1,0 +1,25 @@
+Raonament: The information in the image is:
+
+* A question in Spanish (translated to English):
+  "9. Si N=5^2 . 3^4 . 2, quin és el menor nombre enter, K, amb la propietat que K . N és un cub perfecte?"
+* Five possible answer options:
+  A) 9
+  B) 20
+  C) 90
+  D) 120
+  E) 180
+  To find the correct answer, we need to find a value of K such that the product of K and N is a perfect cube.
+
+    K . N = K . (5^2 . 3^4 . 2)
+        For K . N to be a perfect cube, K . (5 . 5 . 3 . 3 . 3 . 2) must be a perfect cube.
+        The prime factors of 5^2 . 3^4 . 2 are 5, 5, 3, 3, 3, 2.
+        A perfect cube of 2 would be 2^3, and a perfect cube of 5 would be 5^3, while a perfect cube of 3 would be 3^3.
+        Thus, for K . (5 . 5 . 3 . 3 . 3 . 2) to be a perfect cube, we need 5 more factors of 3.
+        
+        Since there are 3 factors of 3, we need to multiply K by 5 to make 5 more factors of 3, so K = 5 * 3^2 = 9 * 5 = 45.
+        We check if this is a perfect cube and find that 45 * 2 * 3 * 3 * 3 * 5 = 405 which is 9^3 which is binomial.
+
+    But N = 5^2 . 3^4 . 2 = 2 * 3 * 5^2 * 3 * 3 * 3 = 2^2 * 3^5 * 5^2.
+
+        This results in N = 2^0 * 3^3 * 5^2. However, we already have a whole multiple of 3^3, which we can do after adding a couple factors of 2 and already tota of 3's, distribute constituents equally and reach our goal of minimum Overall couples
+Resposta: No Answer

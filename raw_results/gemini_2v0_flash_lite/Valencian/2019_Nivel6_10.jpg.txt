@@ -1,0 +1,17 @@
+Raonament:
+Tenim un interval de nombres enters entre 2^10 i 2^13, ambdós inclosos. Busquem quants d'aquests nombres són divisibles per 2^10.
+El primer nombre divisible per 2^10 dins de l'interval és 2^10.
+El següent nombre divisible per 2^10 és 2 * 2^10 = 2^11.
+El següent és 4 * 2^10 = 2^12.
+L'últim és 8 * 2^10 = 2^13.
+Així tenim 2^10, 2^11, 2^12 i 2^13.
+En termes de multiples de 2^10:
+2^10 = 1 * 2^10
+2^11 = 2 * 2^10
+2^12 = 4 * 2^10
+2^13 = 8 * 2^10
+Per trobar el nombre de termes:
+El nombre d'elements en la seqüència és 8-1+1 = 8
+O el nombre de multiples és (2^13/2^10) - (2^10/2^10) +1 = 8-1+1=8.
+
+Resposta: D)

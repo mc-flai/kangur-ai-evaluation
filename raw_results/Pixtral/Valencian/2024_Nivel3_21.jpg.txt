@@ -1,0 +1,23 @@
+
+La pregunta 21 involucra una taula de nombres que va del 1 al 9, excloent alguns nombres. Cada persona (Àlexia, Bru, Clara i Diana) dona una pista sobre els nombres que no estan en la taula. Les pistes són:
+
+- Àlexia: "Els meus noms sumen 6".
+- Bru: "La diferència entre els meus noms és 5".
+- Clara: "El producte dels meus noms és 18".
+- Diana: "Un dels meus noms és el doble de l'altre".
+
+La pregunta és: Quina és la suma dels nombres que no estan en la taula?
+
+**Razonament:**
+
+1. **Àlexia:** Els seus noms sumen 6. Els nombres del 1 al 9 sumen 45. Si excloïm 3 nombres, la suma dels nombres restants seria 45 - 6 = 39. Els nombres que sumen 6 són 1, 2, 3. Per tant, els nombres excloïts són 1, 2, 3.
+
+2. **Bru:** La diferència entre els seus noms és 5. Els nombres que sumen 6 (1, 2, 3) no tenen una diferència de 5. Els nombres que sumen 6 i tenen una diferència de 5 són 2, 3, 4. Per tant, els nombres excloïts són 2, 3, 4.
+
+3. **Clara:** El producte dels seus noms és 18. Els nombres que sumen 6 i tenen un producte de 18 són 2, 3, 6. Per tant, els nombres excloïts són 2, 3, 6.
+
+4. **Diana:** Un dels seus noms és el doble de l'altre. Els nombres que sumen 6 i tenen un dels nombres com a doble de l'altre són 1, 2, 4. Per tant, els nombres excloïts són 1, 2, 4.
+
+Comprovant els nombres excloïts per cada persona, trobem que els nombres excloïts són 1, 2, 3. La suma d'aquests nombres és 1 + 2 + 3 = 6.
+
+**Resposta: A)**

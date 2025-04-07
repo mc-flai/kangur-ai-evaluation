@@ -1,0 +1,23 @@
+Raonament: Sigui el costat del quadrat $s$. Atès que l'àrea del quadrat és 1, tenim $s^2 = 1$, per tant, $s = 1$.
+$M$ és el punt mitjà de $AB$, així que $AM = MB = \frac{1}{2}$.
+
+Considerem els dos triangles: $\triangle ADC$ i $\triangle BDC$. L'àrea de cada triangle és $\frac{1}{2}$.
+Considerem el triangle $\triangle AMC$ i $\triangle BMC$. La seva base és $\frac{1}{2}$, i l'altura és 1. L'àrea de $\triangle AMC$ és $\frac{1}{2} \times \frac{1}{2} \times 1 = \frac{1}{4}$. Anàlogament, l'àrea de $\triangle BMC$ és $\frac{1}{4}$.
+Considerem ara la línia $DM$ i $AC$. Trobarem la intersecció entre $DM$ i $AC$, diguem-ne $P$. Similarment, trobem la intersecció entre $CM$ i $BD$, diguem-ne $Q$. Llavors, l'àrea ombrejada és el quadrilàter $MQCP$. Degut a la simetria, podem considerar només la meitat del quadrilàter, diguem el triangle $MPC$, i multiplicar la seva àrea per 2.
+
+Vegem les coordenades dels punts: $A(0,0)$, $B(1,0)$, $C(1,1)$, $D(0,1)$, $M(1/2, 0)$.
+La recta $DM$ passa per $D(0,1)$ i $M(\frac{1}{2}, 0)$. La seva equació és $y = -2x + 1$.
+La recta $AC$ passa per $A(0,0)$ i $C(1,1)$. La seva equació és $y = x$.
+Intersecció $DM$ i $AC$, $y = x$, $y = -2x + 1$, per tant $x = -2x + 1$, $3x = 1$, $x = \frac{1}{3}$, $y = \frac{1}{3}$. Per tant, $P = (\frac{1}{3}, \frac{1}{3})$.
+Area triangle $AMC = 1/4$.
+Ara, àrea $\triangle AMP = \frac{1}{2} \times \text{base} \times \text{altura} = \frac{1}{2} \times \frac{1}{2} \times \frac{1}{3} = \frac{1}{12}$.
+Area $\triangle PMC$ serà l'àrea $\triangle AMC$ menys àrea $\triangle AMP = \frac{1}{4} - \frac{1}{12} = \frac{3}{12} - \frac{1}{12} = \frac{2}{12} = \frac{1}{6}$.
+Com que l'àrea ombrejada és el doble, $\frac{2}{6} = \frac{1}{3}$.
+Aquest raonament és incorrecte.
+
+Però, hi ha un patró a la imatge.
+Podem dividir el quadrat en quadrats més petits.
+A ull, l'àrea ombrejada sembla ser 1/12 de l'àrea total.
+Ara, si el quadrat té àrea 1.
+
+Resposta: A)

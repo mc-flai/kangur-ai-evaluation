@@ -1,0 +1,36 @@
+La pregunta 26 solicita encontrar un número natural N cuyo cuadrado y el cuadrado de su cifra sumen un valor que no sea cero.
+
+Para resolver esto, necesitamos encontrar un número natural N y su cifra N tal que N + N² no sea cero.
+
+1. Identificar posibles valores de N: Comenzamos probando números naturales pequeños.
+2. Calcular N y N²: Para cada número N, calculamos su cuadrado y la cifra de N.
+3. Sumar N y N²: Sumamos N y su cuadrado para ver si el resultado es cero.
+4. Verificar las opciones: Comparamos los resultados con las opciones dadas.
+
+Probemos algunos números:
+
+- Para N = 9:
+  - N² = 81
+  - N + N² = 9 + 81 = 90
+
+- Para N = 99:
+  - N² = 9801
+  - N + N² = 99 + 9801 = 9900
+
+- Para N = 100:
+  - N² = 10000
+  - N + N² = 100 + 10000 = 10100
+
+- Para N = 101:
+  - N² = 10201
+  - N + N² = 101 + 10201 = 10302
+
+- Para N = 102:
+  - N² = 10404
+  - N + N² = 102 + 10404 = 10506
+
+De las opciones dadas, ninguna de las sumas es cero. Sin embargo, la opción que más se acerca a cero es 100.
+
+Razonamiento: Al probar varios números, encontramos que la opción más cercana a cero es 100.
+
+Respuesta: C)

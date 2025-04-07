@@ -1,0 +1,37 @@
+
+La pregunta 7 en la imagen se traduce al inglés como: "Ahí a la mit Joan es va adormir a les 20.30 hores i hui s’ha despertat a les 6.15 hores. Quantes hores ha dormit?"
+
+Para determinar cuántas horas ha dormido Joan, necesitamos calcular la diferencia entre las horas en que se durmió y las horas en que se despertó.
+
+1. Joan se durmió a las 20:30 horas.
+2. Joan se despertó a las 6:15 horas.
+
+Para encontrar la diferencia en horas, podemos usar la siguiente fórmula:
+\[ \text{Diferencia en horas} = (\text{Hora de despertar} - \text{Hora de dormir}) \mod 24 \]
+
+Primero, convertimos las horas a minutos para facilitar los cálculos:
+- 20:30 horas es igual a 20 * 60 + 30 = 1230 minutos.
+- 6:15 horas es igual a 6 * 60 + 15 = 375 minutos.
+
+Ahora, calculamos la diferencia en minutos:
+\[ \text{Diferencia en minutos} = 375 - 1230 = -855 \]
+
+Para obtener una diferencia positiva, sumamos 1440 minutos (un día completo):
+\[ \text{Diferencia en minutos} = -855 + 1440 = 585 \]
+
+Convertimos los minutos de diferencia de nuevo a horas:
+\[ \text{Diferencia en horas} = \frac{585}{60} = 9.75 \]
+
+Por lo tanto, Joan ha dormido aproximadamente 9.75 horas.
+
+Revisando las opciones:
+- A) \(\frac{25}{4} = 6.25\)
+- B) \(\frac{27}{4} = 6.75\)
+- C) \(\frac{37}{4} = 9.25\)
+- D) \(\frac{39}{4} = 9.75\)
+- E) 13
+
+La opción que más se acerca a 9.75 horas es D) \(\frac{39}{4} = 9.75\).
+
+Raonament: Calculamos la diferencia entre las horas en que Joan se durmió y se despertó, convertimos los minutos a horas y comparamos con las opciones dadas.
+Resposta: D)

@@ -1,0 +1,43 @@
+Per resoldre aquesta pregunta, hem de comprendre els conceptes de suma i producte de divisors.
+
+**Raonament:**
+
+1. **Suma de divisors positius de 1024**: Per trobar la suma de tots els divisors positius d'un nombre, podem utilitzar la fórmula que s'aplica als nombres que es poden expressar com una potència d'un nombre primer. 1024 és \(2^{10}\), per tant, la suma dels seus divisors es calcula com:
+
+   \[
+   a = \sum_{i=0}^{10} 2^i = 2^0 + 2^1 + 2^2 + \cdots + 2^{10}
+   \]
+
+   Aquesta és una suma geomètrica amb el primer terme \(a_1 = 1\) i raó \(r = 2\). La suma d'una sèrie geomètrica es calcula com:
+
+   \[
+   S_n = \frac{a_1 (r^n - 1)}{r - 1}
+   \]
+
+   Aplicant els valors:
+
+   \[
+   a = \frac{1 (2^{11} - 1)}{2 - 1} = 2^{11} - 1 = 2047
+   \]
+
+2. **Producte de divisors positius de 1024**: Per al producte de tots els divisors positius de 1024, utilitzem el fet que si un nombre té \(d(n)\) divisors, llavors el producte de tots els divisors és \(n^{d(n)/2}\). Per a 1024:
+
+   El nombre de divisors de 1024 és \(10 + 1 = 11\). Per tant, el producte dels divisors és:
+
+   \[
+   b = 1024^{11/2} = (2^{10})^{11/2} = 2^{55}
+   \]
+
+Ara comprovem les opcions:
+
+A) \((a - 1)^5 = 2046^5\), que no és igual a \(2^{55}\).
+
+B) \((a + 1)^5 = 2048^5\), que és igual a \(2^{55}\) perquè \(2048 = 2^{11}\) i \(2048^5 = (2^{11})^5 = 2^{55}\).
+
+C) \(a^5 = 2047^5\), que no és igual a \(2^{55}\).
+
+D) \(a^5 - 1 = 2047^5 - 1\), que no és igual a \(2^{55}\).
+
+E) \(a^5 + 1 = 2047^5 + 1\), que no és igual a \(2^{55}\).
+
+**Resposta:** B)

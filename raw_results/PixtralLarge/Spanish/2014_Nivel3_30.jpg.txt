@@ -1,0 +1,17 @@
+Para resolver este problema, primero debemos entender la estructura del cuadrado 5x5. Un cuadrado 5x5 está formado por 25 cuadrados 1x1.
+
+Según el problema, dos cuadrados adyacentes cualesquiera tienen el mismo color a ambos lados del lado compartido. Esto implica que los cuadrados están coloreados de manera alternada, como un tablero de ajedrez. Por lo tanto, en el cuadrado grande de 5x5, los cuadrados en las posiciones impares de las filas impares y en las posiciones pares de las filas pares serán de un color, y los demás serán del otro color.
+
+El perímetro del cuadrado grande está formado por segmentos negros y grises, y cada segmento tiene una longitud de 1.
+
+Para encontrar el menor número posible de segmentos unitarios de color negro, debemos contar los segmentos del perímetro. El perímetro de un cuadrado de 5x5 está compuesto por 4 lados, cada uno de 5 unidades de longitud. Esto da un total de 20 unidades.
+
+Sin embargo, dado que los cuadrados adyacentes tienen el mismo color a ambos lados del lado compartido, los segmentos del perímetro que son compartidos por dos cuadrados adyacentes serán negros. Esto significa que los segmentos en las esquinas serán grises, y los segmentos intermedios serán negros.
+
+Por lo tanto, cada lado del cuadrado tiene 3 segmentos negros y 2 segmentos grises. Como hay 4 lados, el número total de segmentos negros es:
+
+3 segmentos negros por lado * 4 lados = 12 segmentos negros.
+
+Razonamiento: El perímetro del cuadrado 5x5 está compuesto por 20 unidades, con 3 segmentos negros por lado y 4 lados, resultando en 12 segmentos negros.
+
+Respuesta: E) 12.

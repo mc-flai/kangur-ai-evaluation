@@ -1,0 +1,26 @@
+**Raisonnement :**
+
+1. **Analyse des règles du tournoi :**
+   - Chaque match gagné rapporte 3 points.
+   - Chaque match nul rapporte 1 point à chaque équipe.
+   - Chaque match perdu rapporte 0 point.
+
+2. **Calcul du nombre de matchs :**
+   - Trois équipes participent au tournoi. Chaque équipe joue contre les deux autres équipes, donc il y a 3 matchs au total.
+
+3. **Points possibles par équipe :**
+   - Une équipe peut gagner au maximum 2 matchs (3 points chacun) et faire 1 match nul (1 point).
+   - Donc, le maximum de points qu'une équipe peut obtenir est 3 + 3 + 1 = 7 points.
+
+4. **Évaluation des options proposées :** 
+   - A) 1 : Impossible car même avec 2 défaites et 1 match nul, l'équipe aura 1 point.
+   - B) 2 : Possible si l'équipe fait 2 défaites et 1 match nul.
+   - C) 4 : Possible si l'équipe gagne 1 match et fait 1 match nul.
+   - D) 5 : Possible si l'équipe gagne 1 match et perd 1 match.
+   - E) 6 : Possible si l'équipe gagne 2 matchs.
+
+5. **Conclusion :**
+   - Les options B), C), D) et E) sont toutes possibles pour une équipe.
+   - L'équipe ne peut pas obtenir 1 point (option A est incorrecte).
+
+**Réponse :** E)

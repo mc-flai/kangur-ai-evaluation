@@ -1,0 +1,16 @@
+Raisonnement :
+Soit T, J et L les âges de Tom, Jean et Léo respectivement. Nous avons le système d'équations suivant :
+1. T + J = 23
+2. J + L = 24
+3. T + L = 25
+On additionne les trois équations :
+2T + 2J + 2L = 23 + 24 + 25 = 72
+2(T + J + L) = 72
+T + J + L = 36
+Maintenant, on peut trouver l'âge de chaque personne :
+L = (T + J + L) - (T + J) = 36 - 23 = 13 ans
+T = (T + J + L) - (J + L) = 36 - 24 = 12 ans
+J = (T + J + L) - (T + L) = 36 - 25 = 11 ans
+Le plus âgé est Léo avec 13 ans.
+
+Réponse : C)

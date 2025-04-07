@@ -1,0 +1,11 @@
+Reasoning:
+Let the three-digit number be $abc$, which can be represented as $100a + 10b + c$. When the digits are reversed, the number becomes $cba$, which can be represented as $100c + 10b + a$.
+According to the problem, $100c + 10b + a = 100a + 10b + c + 99$.
+Simplifying the equation, we get:
+$100c + a = 100a + c + 99$
+$99c - 99a = 99$
+$c - a = 1$
+So, $c = a + 1$. Since $a$ and $c$ are digits, $a$ can take values from 1 to 8, and $c$ will be $a+1$. The digit $b$ can take any value from 0 to 9, so there are 10 choices for $b$.
+Since $a$ can take 8 values (1 to 8), and $b$ can take 10 values (0 to 9), the total number of such three-digit numbers is $8 \times 10 = 80$.
+
+Answer: D)

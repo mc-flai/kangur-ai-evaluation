@@ -1,0 +1,17 @@
+Pour déterminer le nombre total d'itinéraires différents de K à L en suivant les flèches, nous devons examiner chaque chemin possible sur la figure.
+
+1. **Identification des itinéraires** :
+   - Départ de K : K a deux flèches sortantes menant à deux points intermédiaires distincts.
+   - Chaque point intermédiaire a trois options possibles menant à L.
+
+2. **Calcul des itinéraires possibles** :
+   - Pour chaque flèche sortante de K, il y a trois itinéraires possibles.
+   - Puisque K a deux chemins initiaux possibles, le nombre total d'itinéraires est :
+     2 (de K aux points intermédiaires) × 3 (de chaque point intermédiaire à L) = 2 × 3 = 6.
+
+3. **Conclusion** :
+   - Il y a donc 6 itinéraires différents possibles pour aller de K à L.
+
+Raisonnement : En analysant les flèches de la figure et en multipliant les possibilités pour chaque choix de chemin, on trouve qu'il existe 6 itinéraires différents pour aller de K à L.
+
+Réponse : A)

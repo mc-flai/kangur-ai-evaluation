@@ -1,0 +1,11 @@
+Reasoning:
+We want to find the number of integers between $\sqrt{N^2+N+1}$ and $\sqrt{9N^2+N+1}$.
+Since N is a positive integer, $N^2 < N^2 + N + 1 < N^2 + 2N + 1 = (N+1)^2$, so $N < \sqrt{N^2+N+1} < N+1$.
+
+Also, since $9N^2 < 9N^2 + N + 1 < 9N^2 + 6N + 1 = (3N+1)^2$ for $N > 0$, we have $3N < \sqrt{9N^2+N+1} < 3N+1$.
+
+The integers strictly between $\sqrt{N^2+N+1}$ and $\sqrt{9N^2+N+1}$ are $N+1, N+2, \ldots, 3N$. The number of integers is $3N - (N+1) + 1 = 3N - N = 2N$.
+
+Reasoning: Since we have $N < \sqrt{N^2+N+1} < N+1$ and $3N < \sqrt{9N^2+N+1} < 3N+1$, the integers strictly between $\sqrt{N^2+N+1}$ and $\sqrt{9N^2+N+1}$ are $N+1, N+2, ..., 3N$. The number of integers in the list is $3N - (N+1) + 1 = 3N - N = 2N$.
+
+Answer: C)

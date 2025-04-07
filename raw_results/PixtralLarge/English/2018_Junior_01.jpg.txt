@@ -1,0 +1,19 @@
+**Reasoning**: To determine the minimum number of children in the family, we need to satisfy the condition that every child has at least two brothers and at least one sister.
+
+1. **Considering 3 children**: If there are 3 children, the possible gender combinations are:
+   - 3 boys (0 sisters)
+   - 2 boys and 1 girl (1 sister)
+   - 1 boy and 2 girls (2 sisters)
+   - 3 girls (0 brothers)
+
+   Out of these combinations, only the 2 boys and 1 girl scenario satisfies the condition of having at least two brothers and one sister. In this scenario:
+   - The two boys each have one brother and one sister.
+   - The girl has two brothers.
+
+   Hence, 3 children satisfy the condition.
+
+2. **Considering fewer than 3 children**: If there are fewer than 3 children, it would be impossible to have at least two brothers and at least one sister simultaneously.
+
+Therefore, the minimum number of children required to satisfy the given conditions is 3.
+
+**Answer**: A)

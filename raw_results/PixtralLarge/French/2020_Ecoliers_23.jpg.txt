@@ -1,0 +1,37 @@
+Pour résoudre la question 23, nous devons déterminer le nombre caché par un disque sur le tableau.
+
+1. **Addition des nombres cachés par les triangles** :
+   - La somme des nombres cachés par les 4 triangles est 10.
+
+2. **Addition des nombres cachés par les carrés** :
+   - La somme des nombres cachés par les 3 carrés est 20.
+
+3. **Calcul de la somme des nombres de 1 à 8** :
+   - Les nombres de 1 à 8 forment une suite de nombres consécutifs.
+   - La somme des nombres de 1 à 8 peut être calculée comme suit :
+     \[
+     \text{Somme} = \frac{8 \times (8 + 1)}{2} = \frac{8 \times 9}{2} = 36
+     \]
+
+4. **Détermination du nombre caché par le disque** :
+   - Soit \( x \) le nombre caché par le disque.
+   - La somme des nombres de 1 à 8 est 36.
+   - Les nombres non cachés (triangles et carrés) sont 10 et 20 respectivement.
+   - L'équation devient donc :
+     \[
+     x + 10 + 20 = 36
+     \]
+   - Résolvons pour \( x \) :
+     \[
+     x + 30 = 36
+     \]
+     \[
+     x = 36 - 30
+     \]
+     \[
+     x = 6
+     \]
+
+Raisonnement : Le nombre caché par le disque est 6, car c'est la seule valeur qui satisfait l'équation obtenue en soustrayant les sommes des nombres cachés par les triangles et les carrés de la somme totale des nombres de 1 à 8.
+
+Réponse : D)

@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. La machine R tourne de 90 degrés dans le sens des aiguilles d'une montre et transporte le papier.
+2. La machine T imprime un motif (tige et bas) sur le papier.
+3. Pour obtenir le résultat montré, nous devons déterminer l'ordre dans lequel les machines sont utilisées.
+
+Analysons chaque option :
+- A) TRRR : La machine T est utilisée trois fois, ce qui n'est pas logique car elle n'est pas nécessairement utilisée trois fois pour obtenir le motif.
+- B) TRRT : La machine T est utilisée deux fois et la machine R deux fois. Cela pourrait être possible, mais nous devons vérifier si cela correspond au motif.
+- C) TRTR : La machine T est utilisée deux fois et la machine R deux fois. Cela pourrait être possible, mais nous devons vérifier si cela correspond au motif.
+- D) RRRT : La machine R est utilisée trois fois et la machine T une fois. Cela semble peu probable car la machine T est nécessaire pour imprimer le motif.
+- E) RTRR : La machine R est utilisée trois fois et la machine T une fois. Cela semble peu probable car la machine T est nécessaire pour imprimer le motif.
+
+En comparant les options, l'ordre TRRT semble le plus logique car il utilise les deux machines de manière équilibrée et permet d'imprimer le motif correctement.
+
+Réponse : B

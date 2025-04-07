@@ -1,0 +1,47 @@
+Per resoldre aquest problema, primer hem de determinar el valor de la paraula "ONE". Per fer-ho, utilitzem la igualtat donada:
+
+\[ ONE + ONE + ... + ONE = 2331 \]
+
+Aquesta igualtat suggereix que la paraula "ONE" es repeteix diverses vegades i la suma total és 2331. Primer, determinem quants cops es repeteix la paraula "ONE":
+
+1. Com que la paraula "ONE" té tres lletres, cada suma de "ONE" suma tres dígits al total. 
+2. A més, el nombre 2331 té quatre dígits.
+3. Per tant, si "ONE" es repeteix diverses vegades, el nombre total de dígits ha de ser múltiple de tres. 
+4. Calcula quants dígits té 2331: 2331 té quatre dígits.
+5. Si sumem un dígit per cada "ONE" que sumem, el total de dígits ha de ser 2331 + (nombre de vegades que es suma "ONE") = número total de dígits. 
+6. Això implica que el nombre total de dígits ha de ser múltiple de tres. 
+
+Per tant, el nombre de vegades que es repeteix "ONE" és:
+
+\[ 2331 + n = 3k \]
+
+on \( n \) és el nombre de vegades que es repeteix "ONE" i \( k \) és un nombre enter.
+
+Per trobar \( n \), fem:
+
+\[ 2331 + n = 3k \]
+\[ n = 3k - 2331 \]
+
+Per trobar \( k \), fem:
+
+\[ 2331 \mod 3 = 0 \]
+\[ 2331 \div 3 = 777 \]
+
+Per tant, \( k = 777 \) i \( n = 0 \).
+
+Això significa que "ONE" es repeteix 777 vegades, i la suma de "ONE" és:
+
+\[ ONE \times 777 = 2331 \]
+
+Per tant, el valor de "ONE" és:
+
+\[ ONE = \frac{2331}{777} = 3 \]
+
+Per verificar, multipliquem "ONE" per 777:
+
+\[ 3 \times 777 = 2331 \]
+
+Per tant, el valor de "ONE" és 3, i la paraula "ONE" apareix 777 vegades.
+
+Raonament: El valor de "ONE" és 3, i la paraula "ONE" apareix 777 vegades.
+Resposta: C) 7

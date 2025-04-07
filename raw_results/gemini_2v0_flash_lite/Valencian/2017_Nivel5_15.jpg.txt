@@ -1,0 +1,20 @@
+Raonament:
+Per maximitzar la suma de les mitjanes de parelles de nombres veïns, volem que els nombres més grans estiguin junts.  En altres paraules, hem d'ordenar els nombres 1, 2, 3, 4, 5, 6, 7, 8 i 9 de manera que els nombres grans estiguin a prop l'un de l'altre.  Una manera d'aconseguir-ho és ordenar-los alternativament, és a dir, en ordre creixent i decreixent, o al revés.  Per exemple, podríem tenir l'ordre 1, 9, 2, 8, 3, 7, 4, 6, 5.
+En aquest cas, les mitjanes serien: (1+9)/2, (9+2)/2, (2+8)/2, (8+3)/2, (3+7)/2, (7+4)/2, (4+6)/2, (6+5)/2, que és 5, 5.5, 5, 5.5, 5, 5.5, 5, 5.5.  La suma seria 5 + 5.5 + 5 + 5.5 + 5 + 5.5 + 5 + 5.5 = 42.5.
+Una altra estratègia seria ordenar els números de major a menor, per tant, 9,8,7,6,5,4,3,2,1. Les mitjanes serien 8.5, 7.5, 6.5, 5.5, 4.5, 3.5, 2.5, 1.5, suma = 40.
+Un altre seria 1,2,3,4,5,6,7,8,9, mitjanes 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, suma = 40.
+Si ordenem com 5,6,7,8,9,1,2,3,4, les mitjanes seran 5.5, 6.5, 7.5, 5, 5, 1.5, 2.5, 3.5, suma = 40,
+Si ordenem 1,9,2,8,3,7,4,6,5, mitjanes 5, 5.5, 5, 5.5, 5, 5.5, 5, 5.5, suma = 42.5.
+
+Considerem l'ordre 1, 2, 3, 4, 5, 6, 7, 8, 9. Les mitjanes són 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5. La suma és 40.
+Considerem l'ordre 9, 1, 8, 2, 7, 3, 6, 4, 5. Les mitjanes són 5, 4.5, 5, 5, 5, 4.5, 5, 4.5. La suma és 38.5.
+Considerem l'ordre 1, 9, 2, 8, 3, 7, 4, 6, 5. Les mitjanes són 5, 5.5, 5, 5.5, 5, 5.5, 5, 5.5. La suma és 42.5.
+
+Una altra opció pot ser 5, 6, 7, 8, 9, 1, 2, 3, 4. Les mitjanes serien 5.5, 6.5, 7.5, 5, 1.5, 2.5, 3.5, 4.5, la suma seria 40.
+En general, si tenim una permutació de 1 a 9 i calculem les mitjanes, la suma serà la mateixa.
+Aleshores tenim que la suma és 1.5 + 2.5 + ... + 8.5 = 40. Això és el que passa si tenim una ordenació creixent.
+Un altre exemple: 1, 9, 2, 8, 3, 7, 4, 6, 5.  Suma de les mitjanes = 5 + 5.5 + 5 + 5.5 + 5 + 5.5 + 5 + 5.5 = 42.5
+Intentem 9, 8, 7, 6, 5, 4, 3, 2, 1.  Suma de les mitjanes = 8.5 + 7.5 + 6.5 + 5.5 + 4.5 + 3.5 + 2.5 + 1.5 = 40
+Si volem el valor màxim, l'ordre que ens dóna el valor més alt és 1, 9, 2, 8, 3, 7, 4, 6, 5, la suma de les mitjanes és 42.5.
+
+Resposta: C)

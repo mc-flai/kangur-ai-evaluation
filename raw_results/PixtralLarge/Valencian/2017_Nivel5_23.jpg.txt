@@ -1,0 +1,42 @@
+**Raonament**: Per trobar quantes parelles ordenades {x, y} de nombres enters positius hi ha tals que \(x^2 - y^2 = 105\), podem fer servir la identitat algebraica \(x^2 - y^2 = (x + y)(x - y)\). Això ens permet descompondre el problema en trobar parelles de factors de 105.
+
+Primer, factoritzem 105:
+\[ 105 = 3 \times 5 \times 7 \]
+
+Ara busquem parelles de factors que satisfacin \(x + y\) i \(x - y\):
+
+1. \( (x + y) = 105 \) i \( (x - y) = 1 \)
+   - \( x + y = 105 \)
+   - \( x - y = 1 \)
+   - Sumant i restant aquestes equacions:
+     \[ 2x = 106 \implies x = 53 \]
+     \[ 2y = 104 \implies y = 52 \]
+   - Parella: {53, 52}
+
+2. \( (x + y) = 35 \) i \( (x - y) = 3 \)
+   - \( x + y = 35 \)
+   - \( x - y = 3 \)
+   - Sumant i restant aquestes equacions:
+     \[ 2x = 38 \implies x = 19 \]
+     \[ 2y = 32 \implies y = 16 \]
+   - Parella: {19, 16}
+
+3. \( (x + y) = 21 \) i \( (x - y) = 5 \)
+   - \( x + y = 21 \)
+   - \( x - y = 5 \)
+   - Sumant i restant aquestes equacions:
+     \[ 2x = 26 \implies x = 13 \]
+     \[ 2y = 16 \implies y = 8 \]
+   - Parella: {13, 8}
+
+4. \( (x + y) = 15 \) i \( (x - y) = 7 \)
+   - \( x + y = 15 \)
+   - \( x - y = 7 \)
+   - Sumant i restant aquestes equacions:
+     \[ 2x = 22 \implies x = 11 \]
+     \[ 2y = 8 \implies y = 4 \]
+   - Parella: {11, 4}
+
+Per tant, hi ha 4 parelles ordenades {x, y} que satisfan \(x^2 - y^2 = 105\).
+
+**Resposta**: E)

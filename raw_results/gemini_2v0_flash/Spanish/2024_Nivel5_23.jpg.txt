@@ -1,0 +1,48 @@
+Razonamiento:
+Sea S(N) la suma de los dígitos de N.
+La condición dada es S(N) = 3 * S(N+1). Necesitamos encontrar el valor mínimo posible para S(N).
+Si N termina en 9, entonces al sumar 1, varios 9s se convierten en 0 y el dígito anterior aumenta en 1. Esto disminuye la suma de los dígitos.
+Consideremos el caso donde S(N+1) = 1. Esto significa que N+1 = 10, 100, 1000,... Entonces N = 9, 99, 999,...
+Para N=9, S(N) = 9 y S(N+1) = S(10) = 1. Tenemos S(N) = 3 * S(N+1), o 9 = 3 * 1, que no es cierto.
+Para N=99, S(N) = 18 y S(N+1) = S(100) = 1. Tenemos S(N) = 3 * S(N+1), o 18 = 3 * 1, que no es cierto.
+Para N=999, S(N) = 27 y S(N+1) = S(1000) = 1. Tenemos S(N) = 3 * S(N+1), o 27 = 3 * 1. Esto es cierto! Entonces el valor mínimo posible de S(N) es 27.
+Veamos si hay soluciones más pequeñas.
+Si S(N+1) = 2, N+1 = 2, 11, 20. Entonces N = 1, 10, 19.
+- N=1, S(N) = 1. 1 = 3*2, falso.
+- N=10, S(N) = 1. 1 = 3*2, falso.
+- N=19, S(N) = 10. 10 = 3*2 = 6, falso.
+Si S(N+1) = 3, N+1 = 3, 12, 21, 30. Entonces N = 2, 11, 20, 29.
+- N=2, S(N) = 2. 2 = 3*3 = 9, falso.
+- N=11, S(N) = 2. 2 = 3*3 = 9, falso.
+- N=20, S(N) = 2. 2 = 3*3 = 9, falso.
+- N=29, S(N) = 11. 11 = 3*3 = 9, falso.
+Dado que necesitamos minimizar S(N), buscamos N de la forma 99...9.
+En ese caso, S(N) = 9k para algún entero k. Luego S(N+1) = 1. Entonces 9k = 3 * 1. Esto implica k = 1/3, lo cual no es un entero.
+Consideremos N = 18. Entonces S(N) = 9. N+1 = 19, S(N+1) = 10. 9 = 3*10, falso.
+Consideremos N = 27. Entonces S(N) = 9. N+1 = 28, S(N+1) = 10. 9 = 3*10, falso.
+
+Probemos con los casos dados:
+A) 3: S(N)=3. S(N+1) = 1. N=2, S(N)=2, S(N+1) = 3. 2!=3*1
+B) 9: S(N)=9. N=999, S(N+1)=1. S(N) no es 3*S(N+1). N=9999...
+C) 12:
+D) 15:
+E) 27: N=999, S(N)=27, S(N+1) = 1. 27 = 3*9 = 3*3*3. 27=3*1.  S(N)=3S(N+1).  So N=999, S(N)=27, S(N+1)=S(1000) = 1.  Then 27=3*1=3.  Contradiction.   Let's find a number where S(N) = 27.  27=3*9.  Say N+1 has sum of 9: Say N+1=9.  Then N=8, S(N) = 8!=27.
+Consider the case where N ends in several 9's. For example N = 199, S(N)=19. N+1=200, S(N+1)=2. 19 != 3*2.
+N = 299, S(N) = 20, N+1=300, S(N+1) = 3.
+N=399, S(N)=21, N+1=400, S(N+1) = 4. 21 != 3*4
+Consider N=18, S(N) = 9, N+1=19, S(N+1)=10, 9!=3*10.  N=27 -> N=999, S(N) = 27, N+1=1000, S(N+1)=1.  27=3*9.
+
+Razonamiento:
+El número debe terminar en una secuencia de 9 para que al sumarle 1 la suma de sus dígitos disminuya considerablemente. Digamos que N termina con k nueves. Al sumarle uno, esos k nueves se convierten en k ceros y el dígito anterior se incrementa en 1. Esto reduce significativamente la suma de los dígitos.
+
+Consideramos que S(N)=27. Una posibilidad para N es 999. En este caso, N+1=1000 y S(N+1)=1. Como 27=3*9 y no 27=3*1, vemos que S(N) no es tres veces S(N+1).
+N=99, S(N)=18. N+1=100, S(N+1)=1. Entonces 18 no es igual a tres veces 1.
+Si N es el número 1079, entonces la suma de sus dígitos es 1+0+7+9=17. Si S(N)=27 y la suma de N+1=9
+Si N=1008, entonces S(N)=9. N+1 = 1009, entonces S(N+1)=10. So we cannot have a solution.
+
+Consider S(N)=9. N+1 can have digit sum of 3. This doesnt imply N is 1
+
+Consider B.
+Consider S(N)=3, 6, and 27 and compare their N's to see if it exists
+The minimum is 27
+Respuesta: E)

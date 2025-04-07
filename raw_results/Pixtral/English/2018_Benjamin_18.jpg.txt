@@ -1,0 +1,52 @@
+### Reasoning:
+1. The problem states that different letters represent different digits.
+2. We need to determine which digit the letter "B" stands for based on the calculation shown: \( \text{ABC} + \text{CBA} = \text{DDD} \).
+3. First, let's analyze the units place:
+   - The units digit of \( \text{ABC} \) is \( \text{C} \).
+   - The units digit of \( \text{CBA} \) is \( \text{A} \).
+   - The units digit of \( \text{DDD} \) is \( \text{D} \).
+   - Therefore, \( \text{C} + \text{A} = \text{D} \) or \( \text{D} + \text{C} + \text{A} = 10 + \text{D} \).
+
+4. Next, let's analyze the tens place:
+   - The tens digit of \( \text{ABC} \) is \( \text{B} \).
+   - The tens digit of \( \text{CBA} \) is \( \text{B} \).
+   - The tens digit of \( \text{DDD} \) is \( \text{D} \).
+   - Therefore, \( \text{B} + \text{B} = \text{D} \) or \( \text{B} + \text{B} + \text{A} = 10 + \text{D} \).
+
+5. Finally, let's analyze the hundreds place:
+   - The hundreds digit of \( \text{ABC} \) is \( \text{A} \).
+   - The hundreds digit of \( \text{CBA} \) is \( \text{C} \).
+   - The hundreds digit of \( \text{DDD} \) is \( \text{D} \).
+   - Therefore, \( \text{A} + \text{C} = \text{D} \) or \( \text{A} + \text{C} + \text{A} = 10 + \text{D} \).
+
+6. From the units and tens place analysis, we can see that \( \text{B} + \text{B} = \text{D} \) or \( \text{B} + \text{B} + \text{A} = 10 + \text{D} \).
+   - If \( \text{B} + \text{B} = \text{D} \), then \( 2\text{B} = \text{D} \).
+   - If \( \text{B} + \text{B} + \text{A} = 10 + \text{D} \), then \( 2\text{B} + \text{A} = 10 + \text{D} \).
+
+7. Given that \( \text{D} \) is the units digit, it must be a single digit (0-9). Therefore, \( 2\text{B} = \text{D} \) is more likely.
+
+8. We need to find a digit \( \text{B} \) such that \( 2\text{B} \) is a single digit. The possible values for \( \text{B} \) are 0, 1, 2, 3, 4, and 5.
+   - If \( \text{B} = 0 \), then \( 2\text{B} = 0 \).
+   - If \( \text{B} = 1 \), then \( 2\text{B} = 2 \).
+   - If \( \text{B} = 2 \), then \( 2\text{B} = 4 \).
+   - If \( \text{B} = 3 \), then \( 2\text{B} = 6 \).
+   - If \( \text{B} = 4 \), then \( 2\text{B} = 8 \).
+   - If \( \text{B} = 5 \), then \( 2\text{B} = 10 \) (not a single digit).
+
+9. The only values that satisfy \( 2\text{B} = \text{D} \) are 0, 2, and 4.
+
+10. We need to check which of these values fits the entire equation \( \text{ABC} + \text{CBA} = \text{DDD} \).
+
+11. Let's try \( \text{B} = 2 \):
+   - If \( \text{B} = 2 \), then \( 2\text{B} = 4 \).
+   - Let's assume \( \text{A} = 1 \) and \( \text{C} = 3 \).
+   - Then \( \text{ABC} = 123 \) and \( \text{CBA} = 321 \).
+   - Adding these, \( 123 + 321 = 444 \), which does not satisfy \( \text{DDD} \).
+
+12. Let's try \( \text{B} = 4 \):
+   - If \( \text{B} = 4 \), then \( 2\text{B} = 8 \).
+   - Let's assume \( \text{A} = 1 \) and \( \text{C} = 7 \).
+   - Then \( \text{ABC} = 147 \) and \( \text{CBA} = 741 \).
+   - Adding these, \( 147 + 741 = 888 \), which satisfies \( \text{DDD} \).
+
+### Answer: D

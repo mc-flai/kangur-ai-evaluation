@@ -1,0 +1,13 @@
+**Razonamiento**: Para determinar cuántos triángulos con tres vértices en cualquier cara de un cubo no están en la misma cara del cubo, primero debemos entender que un cubo tiene 6 caras. Cada cara del cubo es un cuadrado, y cada cuadrado tiene 4 vértices.
+
+Cada vértice del cubo está compartido por tres caras adyacentes. Para formar un triángulo con vértices que no están en la misma cara, debemos seleccionar tres vértices de diferentes caras adyacentes.
+
+Consideremos un vértice del cubo. Este vértice es común a tres caras adyacentes. Para formar un triángulo con vértices que no están en la misma cara, podemos seleccionar dos vértices adicionales de las otras dos caras adyacentes.
+
+Cada vértice del cubo puede ser parte de exactamente un triángulo de este tipo, ya que cualquier otro triángulo que incluya este vértice tendría al menos dos vértices en la misma cara.
+
+Dado que un cubo tiene 8 vértices, y cada vértice puede ser parte de exactamente un triángulo de este tipo, el número total de tales triángulos es 8.
+
+Por lo tanto, la respuesta correcta es la que corresponde a 8 triángulos.
+
+**Respuesta**: B) 24.

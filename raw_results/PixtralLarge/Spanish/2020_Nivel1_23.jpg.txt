@@ -1,0 +1,20 @@
+**Razonamiento**: Para determinar el menor número de jugadas para que todas las fichas muestren el mismo color, debemos considerar las posibles combinaciones de fichas que se pueden obtener al voltear 3 fichas cada vez.
+
+1. **Identificar la configuración inicial**:
+   - Tenemos 3 fichas blancas (caras) y 3 fichas negras (cruces).
+
+2. **Entender el efecto de voltear 3 fichas**:
+   - Al voltear 3 fichas, cada ficha cambia de color (blanco a negro o negro a blanco).
+   - Para que todas las fichas muestren el mismo color, debemos lograr que todas sean blancas o todas sean negras.
+
+3. **Calcular el número de jugadas necesarias**:
+   - En una jugada, podemos voltear 3 fichas.
+   - Si volteamos 3 fichas, cambiamos el color de esas 3 fichas.
+   - Si en una jugada volteamos 3 fichas blancas, tendremos 3 fichas negras y 3 fichas blancas (no cambia la configuración general).
+   - Si en una jugada volteamos 3 fichas negras, tendremos 6 fichas blancas (todas blancas).
+
+4. **Determinar el menor número de jugadas**:
+   - En la primera jugada, podemos voltear 3 fichas negras para que todas las fichas sean blancas.
+   - Por lo tanto, solo necesitamos 1 jugada para que todas las fichas muestren el mismo color.
+
+**Respuesta**: A).

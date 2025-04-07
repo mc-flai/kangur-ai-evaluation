@@ -1,0 +1,26 @@
+Reasoning:
+Since BC = 10 cm and M is the midpoint of BC, BM = MC = 5 cm. Since AMDE is a square, AM = MD = DE = EA.
+Since ABC is a triangle with sides 6, 8 and 10, it is a right-angled triangle with angle BAC = 90 degrees (6^2 + 8^2 = 36+64=100=10^2).
+The area of triangle ABC = 0.5 * 6 * 8 = 24 cm^2.
+Let the side of square be 's'. Then AM = s. Also, area of triangle ABC = area of triangle ABM + area of triangle AMC = area of triangle ABM + area of triangle AMD + area of triangle MDC.
+Let the height of triangle ABM on BM be h1.
+Then 0.5 * BM * h1 + area of AMD + area of MDC = area of ABC.
+So, 0.5 * 5 * h1 + 0.5 * s^2 + area MDC = 24.
+In right angled triangle ABM, AM^2 = AB^2 + BM^2.
+So, s^2 = 6^2 + 5^2 = 36+25=61. Thus s=sqrt(61)
+Since area of AMD = 0.5*s^2 = 0.5*s*s
+Now, let AD = x. The coordinates of A, C are A=(0,0) and C=(8,0).
+Equation of line BC: y = m(x-8). Here B coordinates can be calculated using cosine rule:
+cos(C) = (10^2+8^2-6^2)/(2*10*8) = (100+64-36)/160 = (128)/160 = 4/5
+So, B has x=0.5 => y= -0.6/0.8. Then area of AMC + ABM = 0.5 * (AM)^2
+AM = 4.8
+Area of ABC = 0.5 * 6 * 8 = 24. Area of ABC = area ABM + area AMC.
+Let AM=x.  Area ABM= 1/2 (5)(h). Area AMDE= 5/8*8^2 = Area ADME = side of square * AM; AMDE= AD^2 =x^2
+Let AE = AD=x
+Area of ABC = 24; since area AMDE = AD^2
+Area AFDE = x^2
+Since triangle ABC is similar to AFE. AF/AC = AE/BC. AF/8 = x/10, and AM=MC
+so, triangles ABM=AMC. Area ADC = MD * MC = Area square / 4
+Area = 125/8
+
+Answer: B)

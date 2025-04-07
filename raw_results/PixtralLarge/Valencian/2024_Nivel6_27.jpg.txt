@@ -1,0 +1,18 @@
+**Raonament**:
+Per resoldre el problema, observem les condicions donades:
+
+1. Hi ha 8 quadrats en total.
+2. Inicialment, un quadrat té el número 0.
+3. Cada moviment consisteix en 4 quadrats consecutius i s'afegix una unitat a cada quadrat elegit.
+
+En la figura següent, veiem els nombres en alguns quadrats: 30, 42, 36 i 14.
+
+Primer, verifiquem els nombres donats per entendre els moviments:
+- El quadrat amb el número 30 podria haver estat tocat per un moviment que afegís 30 unitats.
+- El quadrat amb el número 42 podria haver estat tocat per un moviment que afegís 42 unitats.
+- El quadrat amb el número 36 podria haver estat tocat per un moviment que afegís 36 unitats.
+- El quadrat amb el número 14 podria haver estat tocat per un moviment que afegís 14 unitats.
+
+Ara, busquem el quadrat que s'ha tocat amb l'interrogant (?). Observant la figura, el quadrat amb l'interrogant està entre els quadrats amb 36 i 14. Els nombres són consecutius, per la qual cosa el quadrat amb l'interrogant hauria de tenir el número 48, ja que 36 + 12 = 48.
+
+**Resposta**: D).

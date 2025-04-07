@@ -1,0 +1,15 @@
+La pregunta 24 se refiere a la probabilidad de que tres puntos de una figura adyacente estén alineados. La figura muestra puntos dispuestos en una cuadrícula.
+
+**Razonamiento**:
+1. Para determinar la probabilidad de que tres puntos estén alineados, primero contamos el número total de combinaciones posibles de tres puntos en la cuadrícula.
+2. La cuadrícula tiene 5 filas y 5 columnas, lo que da un total de 25 puntos.
+3. El número de combinaciones posibles de tres puntos de una cuadrícula de 5x5 se puede calcular usando la fórmula para combinar sin repetición: C(n, k) = n! / (k!(n-k)!), donde n es el número total de puntos y k es el número de puntos que queremos seleccionar.
+4. Aquí, n = 25 y k = 3.
+5. C(25, 3) = 25! / (3!(25-3)!) = 2300 combinaciones posibles de tres puntos.
+6. Ahora, contamos el número de combinaciones de tres puntos que están alineados. En una cuadrícula de 5x5, hay 5 filas y 5 columnas, lo que da 10 líneas posibles (5 filas + 5 columnas).
+7. Cada línea puede tener combinaciones de tres puntos alineados. Hay 3 combinaciones posibles de tres puntos en cada línea (por ejemplo, el primer, segundo y tercer punto de la línea).
+8. Por lo tanto, el número total de combinaciones de tres puntos alineados es 10 líneas * 3 combinaciones por línea = 30 combinaciones.
+9. La probabilidad de que tres puntos estén alineados es el número de combinaciones alineadas dividido por el número total de combinaciones posibles: 30 / 2300.
+10. Simplificando esta fracción, obtenemos 30 / 2300 = 1 / 76.5 ≈ 1 / 11.
+
+**Respuesta**: B)

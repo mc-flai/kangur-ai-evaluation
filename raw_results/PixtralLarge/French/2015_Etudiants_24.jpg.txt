@@ -1,0 +1,32 @@
+Pour répondre à la question 24, nous devons déterminer combien de rectangles bleus existent dans une famille de rectangles où exactement 7 rectangles sont des carrés. Nous avons l'information suivante :
+- Il y a trois rectangles rouges de plus que de carrés bleus.
+- Il y a deux carrés rouges de plus que de rectangles bleus.
+
+Analysons les informations fournies :
+
+1. Soit \( R_b \) le nombre de rectangles bleus.
+2. Soit \( C_b \) le nombre de carrés bleus.
+3. Soit \( R_r \) le nombre de rectangles rouges.
+4. Soit \( C_r \) le nombre de carrés rouges.
+
+D'après les conditions :
+- \( R_r = C_b + 3 \)
+- \( C_r = R_b + 2 \)
+- \( C_r + C_b = 7 \)
+
+Nous devons trouver \( R_b \).
+
+En utilisant les équations :
+\[ C_r = R_b + 2 \]
+\[ C_r + C_b = 7 \]
+
+Substituons \( C_r \) dans la deuxième équation :
+\[ (R_b + 2) + C_b = 7 \]
+\[ R_b + C_b + 2 = 7 \]
+\[ R_b + C_b = 5 \]
+
+Nous devons donc choisir la réponse qui correspond à \( R_b = 5 \).
+
+Raisonnement : En utilisant les équations données, nous avons déterminé que le nombre de rectangles bleus \( R_b \) est 5.
+
+Réponse : C)

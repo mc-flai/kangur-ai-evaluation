@@ -1,0 +1,12 @@
+Razonamiento:
+La pregunta busca la pieza que, al ser colocada sobre el cuadrado de números (permitiendo rotaciones), maximiza la suma de los números cubiertos. Es necesario analizar cada pieza y considerar sus rotaciones para determinar la suma máxima posible.
+
+*   **Pieza A:** Puede cubrir 2+7+4+5 = 18 o 1+8+5+3 = 17 o 9+6+5+3 = 23 o 2+1+7+8=18 . Max 23
+*   **Pieza B:** Puede cubrir 2+7+1+8=18 o 1+8+9+6 = 24 o 9+6+5+8= 28 o 2+7+4+5=18. Max 28
+*   **Pieza C:** Puede cubrir 1+8+5+6=20 o 7+8+6+5 = 26 o 2+7+8+1 =18. Max 26
+*   **Pieza D:** Puede cubrir 7+1+8+6=22 o 2+8+1+5 = 16 o 1+8+9+6 = 24. Max 24
+*   **Pieza E:** Puede cubrir 2+7+1+8= 18 o 1+8+9+6 =24. Max 24
+
+Pieza B ofrece la mayor suma posible: 28.
+
+Respuesta: B)

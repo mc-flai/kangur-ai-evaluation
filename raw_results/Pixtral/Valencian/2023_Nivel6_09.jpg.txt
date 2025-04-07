@@ -1,0 +1,21 @@
+### Raonament:
+
+Per determinar el nombre de polinomis de grau 5 amb coeficients 1 o -1 que tenen 1 com a arrel, podem utilitzar el teorema de Bézout. Aquest teorema ens diu que el nombre de solucions d'una equació polinòmica \( P(x) = 0 \) és al màxim igual al grau del polinomio.
+
+Per a un polinomio de grau 5, el màxim nombre de solucions és 5. No obstant això, si el polinomio té coeficients 1 o -1, això limita les possibles formes del polinomio. Un polinomio de grau 5 amb coeficients 1 o -1 que té 1 com a arrel pot ser escrit en la forma:
+
+\[ P(x) = (x - 1)Q(x) \]
+
+on \( Q(x) \) és un polinomio de grau 4. Els coeficients de \( Q(x) \) també poden ser 1 o -1. Per simplificar, considerem els polinomis de la forma:
+
+\[ P(x) = (x - 1)(x^4 + a_3x^3 + a_2x^2 + a_1x + a_0) \]
+
+on \( a_i \) és 1 o -1. El nombre de combinacions possibles per a cada \( a_i \) és 2 (1 o -1). Com que hi ha 4 coeficients \( a_i \), el nombre total de combinacions és:
+
+\[ 2^4 = 16 \]
+
+Així doncs, el nombre de polinomis de grau 5 amb coeficients 1 o -1 que tenen 1 com a arrel és 16.
+
+### Resposta:
+
+D)

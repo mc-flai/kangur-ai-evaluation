@@ -1,0 +1,41 @@
+
+La pregunta 22 describe una secuencia de cajas numeradas y los pilotos que se introducen en cada caja. La tarea es determinar en qué caja habrá un piloto con el número 2018.
+
+**Opciones:**
+A) 50
+B) 53
+C) 60
+D) 64
+E) 70
+
+**Razonamiento:**
+1. En la caja número 1, se introduce un piloto con el número 1.
+2. En la caja número 2, se introducen dos pilotos con los números 2 y 3.
+3. En la caja número 3, se introducen tres pilotos con los números 4, 5 y 6.
+
+Para encontrar en qué caja habrá un piloto con el número 2018, debemos determinar cuántos pilotos se habrán introducido en cada caja cuando el número del piloto sea 2018.
+
+4. Cada caja introduce un número adicional de pilotos que es igual a su número de caja:
+   - Caja 1: 1 piloto
+   - Caja 2: 2 pilotos
+   - Caja 3: 3 pilotos
+   - Caja 4: 4 pilotos
+   - Caja 5: 5 pilotos
+   - Caja 6: 6 pilotos
+   - Y así sucesivamente.
+
+Para encontrar la caja que contiene el piloto número 2018, sumamos los números de los pilotos introducidos en cada caja hasta llegar al piloto número 2018.
+
+5. La fórmula para encontrar la caja es:
+   Caja = (número del piloto - 1) / número de pilotos por caja
+
+6. Para el piloto número 2018:
+   Caja = (2018 - 1) / 1
+   Caja = 2017 / 1
+   Caja = 2017
+
+7. Sin embargo, dado que la caja 2017 no está en las opciones, debemos considerar que la caja correcta es la que contiene el piloto número 2018.
+
+8. Revisando las opciones, la caja correcta es la opción D) 64.
+
+**Respuesta: D)**

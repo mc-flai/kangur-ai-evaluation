@@ -1,0 +1,39 @@
+**Raonament**:
+
+1. La pregunta diu que \( N \) pomes es reparteixen de manera equitativa en parts iguals.
+2. Si hi ha \( N-2 \) pomes, a cadascuna li corresponen una poma més.
+3. Si hi ha \( N-3 \) pomes, cadascuna té dues pomes més que les inicials.
+
+Aquesta informació suggereix que estem parlant d'un nombre de pomes que, quan es reparteix equitativament, té certes propietats quan es redueix en 2 o 3.
+
+Per resoldre això, considerem \( N \) com el nombre total de pomes. Si hi ha \( N-2 \) pomes, cadascuna té una poma més, el que implica que la quantitat inicial de pomes per persona és \((N-2)/N\). Si hi ha \( N-3 \) pomes, cadascuna té dues pomes més, el que implica que la quantitat inicial de pomes per persona és \((N-3)/N\).
+
+Ara, analitzem les opcions donades:
+- A) 6
+- B) 8
+- C) 9
+- D) 10
+- E) 12
+
+Provem cada opció:
+- Per \( N = 6 \):
+  - \( N-2 = 4 \), \((N-2)/N = 4/6 = 2/3 \)
+  - \( N-3 = 3 \), \((N-3)/N = 3/6 = 1/2 \)
+- Per \( N = 8 \):
+  - \( N-2 = 6 \), \((N-2)/N = 6/8 = 3/4 \)
+  - \( N-3 = 5 \), \((N-3)/N = 5/8 \)
+- Per \( N = 9 \):
+  - \( N-2 = 7 \), \((N-2)/N = 7/9 \)
+  - \( N-3 = 6 \), \((N-3)/N = 6/9 = 2/3 \)
+- Per \( N = 10 \):
+  - \( N-2 = 8 \), \((N-2)/N = 8/10 = 4/5 \)
+  - \( N-3 = 7 \), \((N-3)/N = 7/10 \)
+- Per \( N = 12 \):
+  - \( N-2 = 10 \), \((N-2)/N = 10/12 = 5/6 \)
+  - \( N-3 = 9 \), \((N-3)/N = 9/12 = 3/4 \)
+
+La resposta correcta ha de satisfer les condicions que hi ha una diferència de 1 i 2 pomes quan es redueix en 2 i 3, respectivament. L'opció que millor s'ajusta a aquestes condicions és \( N = 12 \), ja que:
+- \( N-2 = 10 \), \((N-2)/N = 10/12 = 5/6 \)
+- \( N-3 = 9 \), \((N-3)/N = 9/12 = 3/4 \)
+
+**Resposta**: E)

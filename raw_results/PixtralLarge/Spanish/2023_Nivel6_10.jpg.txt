@@ -1,0 +1,21 @@
+Para resolver la pregunta, necesitamos determinar el dígito de las unidades del producto \((5^5 + 1)(5^{10} + 1)(5^{15} + 1)\).
+
+**Razonamiento:**
+
+1. **Determinar el dígito de las unidades de cada término:**
+   - \(5^5\) tiene un dígito de las unidades de 5 (ya que \(5^n\) siempre termina en 5 para cualquier \(n\)).
+   - \(5^{10}\) tiene un dígito de las unidades de 5.
+   - \(5^{15}\) tiene un dígito de las unidades de 5.
+
+2. **Sumar 1 a cada uno de estos términos:**
+   - \(5^5 + 1\) tiene un dígito de las unidades de 6.
+   - \(5^{10} + 1\) tiene un dígito de las unidades de 6.
+   - \(5^{15} + 1\) tiene un dígito de las unidades de 6.
+
+3. **Multiplicar los términos:**
+   - El dígito de las unidades de \(6 \times 6 = 36\) es 6.
+   - El dígito de las unidades de \(6 \times 6 \times 6 = 216\) es 6.
+
+Por lo tanto, el dígito de las unidades del producto \((5^5 + 1)(5^{10} + 1)(5^{15} + 1)\) es 6.
+
+**Respuesta**: E).

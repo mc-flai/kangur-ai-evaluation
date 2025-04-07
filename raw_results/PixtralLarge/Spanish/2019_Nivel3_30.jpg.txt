@@ -1,0 +1,32 @@
+**Razonamiento**:
+El tren está formado por 18 vagones. Nos dicen que si cualquier bloque de cinco vagones adyacentes tiene un total de 199 pasajeros, necesitamos averiguar cuántos pasajeros hay en los dos vagones centrales de dicho bloque.
+
+1. Primero, consideremos un bloque de cinco vagones adyacentes, es decir, cinco vagones consecutivos.
+2. Sea \( P_{i} \) el número de pasajeros en el vagón \( i \).
+3. Dado que el bloque de cinco vagones tiene 199 pasajeros en total, podemos denotarlo como:
+   \[
+   P_{i} + P_{i+1} + P_{i+2} + P_{i+3} + P_{i+4} = 199
+   \]
+4. Para encontrar el número de pasajeros en los dos vagones centrales (\( P_{i+1} + P_{i+2} \)), restamos el número de pasajeros en los tres vagones restantes (\( P_{i} + P_{i+3} + P_{i+4} \)) del total de los cinco vagones.
+
+5. Ahora, sabemos que el total de los cinco vagones es 199 y el total de los 18 vagones es 700. Calculamos el número de pasajeros en cualquier bloque de tres vagones consecutivos:
+   \[
+   \frac{700}{18} \approx 38.89
+   \]
+   Por lo tanto, el número de pasajeros en tres vagones consecutivos es aproximadamente 39.
+
+6. Entonces, la cantidad de pasajeros en los dos vagones centrales será:
+   \[
+   199 - 39 = 160
+   \]
+   Pero esto no corresponde a ninguna de las opciones dadas en el problema.
+
+7. Sin embargo, si consideramos la suma de pasajeros en los dos vagones centrales como la mitad del total menos los pasajeros en los tres vagones restantes:
+   \[
+   \frac{199}{2} \approx 99.5
+   \]
+   Redondeando al entero más cercano, obtenemos 100 pasajeros.
+
+8. Por lo tanto, la respuesta más cercana a 100 entre las opciones proporcionadas es 96.
+
+**Respuesta**: D)

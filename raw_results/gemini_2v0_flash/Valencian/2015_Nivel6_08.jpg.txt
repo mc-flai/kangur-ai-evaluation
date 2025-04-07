@@ -1,0 +1,47 @@
+Raonament:
+Siguem A el nombre format per 2015 xifres iguals a 1. Volem calcular la suma de les xifres del nombre A*2015.
+Podem expressar A com A = (10^2015 - 1)/9. Aleshores, A*2015 = 2015 * (10^2015 - 1)/9 = (2015 * 10^2015 - 2015) / 9.
+Observem que 2015 * 10^2015 = 2015000...000, on hi ha 2015 zeros.
+Aleshores, 2015 * 10^2015 - 2015 = 2014999...9997985, on hi ha 2011 9's.
+Ara, dividim aquest nombre per 9. El resultat serà 223888...888665, on hi ha 2011 8's.
+La suma de les xifres és 2 + 2 + 3 + 8*2011 + 6 + 6 + 5 = 10 + 8*2011 + 12 = 22 + 16088 = 16110.
+Així, A * 2015 = 11111...111 * 2015 = 225666....6665
+Intentarem amb un nombre petit per trobar un patró.
+Si A = 11, A * 2015 = 22165, suma de xifres = 16.
+Si A = 111, A * 2015 = 223665, suma de xifres = 24.
+Si A = 1111, A * 2015 = 2238665, suma de xifres = 30
+Si A = 11111, A * 2015 = 22388665, suma de xifres = 38.
+Si A = 111111, A * 2015 = 223888665, suma de xifres = 46
+Si A = 111...1 (2015 xifres), aleshores
+A * 2015 = 22388...8665, on el nombre 8 apareix 2011 vegades.
+La suma de les xifres és 2 + 2 + 3 + 2011*8 + 6 + 6 + 5 = 24 + 16088 + 2 = 22 + 16088 = 16110.
+Error en el càlcul.
+Calculadora. A * 2015 = 225666....6665
+Fem un altre intent.
+Considerem A = 1. A * 2015 = 2015, Suma = 8.
+Considerem A = 11. A * 2015 = 22165, Suma = 16.
+Considerem A = 111. A * 2015 = 223665, Suma = 24.
+Considerem A = 1111. A * 2015 = 2238665, Suma = 30.
+Considerem A = 11111. A * 2015 = 22388665, Suma = 38.
+Considerem A = 111111. A * 2015 = 223888665, Suma = 46.
+Patró: 8, 16, 24, 30, 38, 46
+Diferències: 8, 8, 6, 8, 8
+Sembla que la suma de les xifres es pot aproximar per 2015 * (2+0+1+5) = 2015 * 8 = 16120.
+
+Raonament:
+A = 111...1 (2015 ones). Multiplicar per 2015.
+A * 2015 = (10^2015 - 1)/9 * 2015 = (2015 * 10^2015 - 2015) / 9
+= (2015 * 10^2015 - 2015) / 9
+= (2015000...000 - 2015) / 9.
+201500...0 - 2015 = 20149999...97985. El nombre de nous és 2015 - 4 = 2011.
+Suma = 2 + 0 + 1 + 4 + 9 * 2011 + 7 + 9 + 8 + 5 = 21 + 18099 = 18120.
+Dividir per 9.
+Per la regla del 9, la suma de les xifres ha de ser divisible per 9. Només les opcions A, B, C i E podrien funcionar.
+El resultat sembla més proper a E).
+
+Raonament:
+Hem trobat un patró en els càlculs per nombres més petits: 8, 16, 24, 30, 38, 46.
+A*2015 = (10^(n)-1)/9 * 2015. Suma = 8*n + algo petit.
+Per n = 2015, Suma = 8*2015 = 16120. El resultat deu ser proper a aquest.
+
+Resposta: E)

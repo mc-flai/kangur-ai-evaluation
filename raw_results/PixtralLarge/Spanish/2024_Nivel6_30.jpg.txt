@@ -1,0 +1,27 @@
+**Razonamiento**:
+
+Para resolver la pregunta 30, debemos analizar la ecuación dada:
+\[ abcd = a^a + b^b + c^c + d^d \]
+
+Dado que \(abcd\) es un número de cuatro dígitos, cada letra \(a, b, c, d\) representa un dígito del 1 al 9. La ecuación nos dice que la suma de cada dígito elevado a sí mismo debe ser igual al número formado por esos dígitos.
+
+Vamos a evaluar cada dígito elevado a sí mismo:
+- \(1^1 = 1\)
+- \(2^2 = 4\)
+- \(3^3 = 27\)
+- \(4^4 = 256\)
+- \(5^5 = 3125\)
+
+Observando estos valores, podemos ver que \(5^5 = 3125\) es mucho mayor que cualquier número de cuatro dígitos que podamos formar. Por lo tanto, el dígito 5 no puede ser parte de la solución.
+
+Ahora, evaluemos los otros dígitos:
+- \(1 + 2^2 + 3^3 + 4^4 = 1 + 4 + 27 + 256 = 288\)
+
+Este número es mayor que cualquier número de cuatro dígitos que podamos formar con los dígitos 1, 2, 3 y 4. Por lo tanto, el dígito 4 tampoco puede ser parte de la solución.
+
+Ahora, consideremos los dígitos restantes:
+- \(1 + 2^2 + 3^3 = 1 + 4 + 27 = 32\)
+
+Este número es un número de cuatro dígitos que podemos formar con los dígitos 1, 2 y 3. Por lo tanto, el dígito correcto es 3.
+
+**Respuesta**: B)

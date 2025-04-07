@@ -1,0 +1,41 @@
+Razonamiento:
+El problema dice que las sumas de las caras opuestas son iguales. Sabemos los números de 5 caras del dado.
+Para encontrar el número en la sexta cara, necesitamos encontrar el número que hace que la suma de las caras opuestas sea igual.  Dado que no tenemos la información de los números opuestos, se debe asumir que todos los números dados son de caras diferentes, por lo que podemos sumar todos los números dados y dividirlo por 3 para determinar la suma total.
+La suma de los números dados es: 5 + 6 + 9 + 11 + 14 = 45
+Dividimos la suma entre tres para obtener la suma de cada par de caras opuestas: 45 / 3 = 15
+Luego, para encontrar el número faltante, sumamos los números dados y restamos el resultado de la suma total de 15.
+Así, 5 + 6 + 9 + 11 + 14 = 45. La suma total de las caras debe ser 15 * 3 = 45.
+Para la última cara: 45 - (5 + 6 + 9 + 11) = 14. El numero opuesto a 14 será un número que sumado a 14 nos de 15. Por lo tanto 15-14=1, pero la opción A) dice 4, la B) dice 7, C) dice 8, D) 13, E) 15.
+Si elegimos el 13,  la suma de las caras es 5+6+9+11+13+14=58. Si dividimos por tres, la suma sería 58/3=19,33.
+Ahora probemos con el 14, la suma de las caras es 5+6+9+11+14+X, la cara opuesta a 5 tiene que ser X
+Si el número que falta fuera 7, la suma total de las caras seria 5+6+9+11+14+7=52, luego 52/3=17,33.
+Debemos buscar un número que sumado a los anteriores de 15x3.
+Intentaremos con 8.
+5+6+9+11+14+8=53, 53/3=17.66.
+Intentaremos con 4.
+5+6+9+11+14+4=49, 49/3=16.33
+Si la suma de los números que hay en las caras opuestas son iguales. Entonces la sexta cara es 7.
+Si la sexta cara es 7, entonces 5+10=15, 6+9=15, 11+4=15, 14+1=15
+Así que si sumamos todos los números 5+6+9+11+14+7=52, entonces 52/3 no es exacto.
+
+El número de la sexta cara debe ser tal que cada par de caras opuestas sumen la misma cantidad. Necesitamos encontrar ese valor. La suma de los números dados es 5+6+9+11+14 = 45. Tenemos 6 caras, por lo que 3 pares de caras opuestas.
+La pregunta indica que la suma de las caras opuestas son iguales. Por lo tanto, cada par de caras opuestas debe sumar la misma cantidad.
+Intentaremos con 8.
+Si la sexta cara fuera 8.  La suma total de todas las caras sería 5+6+8+9+11+14 = 53. Si cada par de caras opuestas suma 15, entonces:
+Si 5 + 10 = 15. La suma no está en el ejercicio.
+Si 6 + 9 = 15.
+Si 8 + 7 = 15
+Si 11 + 4 = 15
+Si 14 + 1 = 15.
+Si 7 es el número que está en la sexta cara.
+Entonces 7+8=15
+Si la sexta cara es 7, 5+6+9+11+14+7= 52, 52/3 no es exacto
+Tenemos 3 pares de caras.
+Tenemos que encontrar un número para cada par de caras que sume lo mismo.
+Si la suma de cada par de caras opuestas es igual a 24, entonces los valores deben ser
+5+19, 6+18, 9+15, 11+13, 14+10.
+Sin embargo, los valores deben ser menores de 15.
+5+x=6+y=9+z=11+a=14+b
+La única respuesta correcta es 7.
+
+Respuesta: B)

@@ -1,0 +1,26 @@
+Reasoning: The temperature values for Fri, Sat, Sun, Mon, Tue, Wed, and Thu are -1, -4, 0, 0, 3, -3, and -5, respectively. We need to look for the graph that corresponds to this sequence of temperatures.
+A) Temperatures are increasing, then decreasing, which doesn't match the data.
+B) Temperatures decreasing, then increasing, then decreasing again. This appears plausible.
+C) Temperatures increasing, then constant, then decreasing. This is plausible as well.
+D) Temperatures decreasing, then increasing, then decreasing again. This is plausible as well.
+E) Temperatures decreasing, then increasing, then decreasing again. This is plausible as well.
+
+Let's consider the actual values.
+Fri: -1, Sat: -4, Sun: 0, Mon: 0, Tue: 3, Wed: -3, Thu: -5
+
+B) -1, -4, 0, 0, 3, -3, -5 corresponds accurately
+C) -1, -4, 0, 0, 3, -3, -5 corresponds accurately
+D) -1, -4, 0, 0, 3, -3, -5 corresponds accurately
+E) -1, -4, 0, 0, 3, -3, -5 corresponds accurately
+
+Let's check how the temperatures increase/decrease between days.
+Fri to Sat: -1 to -4 (decrease of 3)
+Sat to Sun: -4 to 0 (increase of 4)
+Sun to Mon: 0 to 0 (constant)
+Mon to Tue: 0 to 3 (increase of 3)
+Tue to Wed: 3 to -3 (decrease of 6)
+Wed to Thu: -3 to -5 (decrease of 2)
+
+The correct answer is (B) because it shows an initial decrease from Friday (-1°C) to Saturday (-4°C), then increases from Saturday to Sunday (0°C) and stays constant on Monday (0°C), then increases to Tuesday (3°C) and decreases from Tuesday to Wednesday (-3°C) and decreases from Wednesday to Thursday (-5°C).
+
+Answer: B)

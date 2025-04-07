@@ -1,0 +1,20 @@
+Razonamiento: Dado que a + 2 = b - 2 = 2c = d/2, podemos expresar cada variable en términos de las otras.
+1. a + 2 = b - 2  =>  b = a + 4
+2. a + 2 = 2c  =>  c = (a + 2) / 2
+3. a + 2 = d/2  =>  d = 2(a + 2) = 2a + 4
+Ahora comparemos a, b, c y d.
+b = a + 4
+c = (a + 2) / 2 = a/2 + 1
+d = 2a + 4
+
+Dado que a es un entero positivo, a > 0.
+Comparando b y d: b = a + 4 y d = 2a + 4.  Como a > 0, entonces 2a > a, por lo tanto 2a + 4 > a + 4, lo que significa d > b.
+Comparando b y c: b = a + 4 y c = a/2 + 1. b - c = a + 4 - (a/2 + 1) = a + 4 - a/2 - 1 = a/2 + 3. Dado que a > 0, a/2 + 3 > 0, por lo tanto b > c.
+Comparando d y c: d = 2a + 4 y c = a/2 + 1. d - c = 2a + 4 - (a/2 + 1) = 2a + 4 - a/2 - 1 = 3a/2 + 3. Dado que a > 0, 3a/2 + 3 > 0, por lo tanto d > c.
+También, d = 2a + 4 y b = a + 4.  Como a > 0, 2a > a, por lo tanto 2a + 4 > a + 4, lo que implica que d > b.
+Además, b = a + 4. Como a > 0, b > a.
+Finalmente, d = 2a + 4. Como a > 0, 2a > a, por lo tanto 2a + 4 > a, lo que implica que d > a.
+
+Ya que d > b, d > c, d > a, entonces d es el número mayor.
+
+Respuesta: D)

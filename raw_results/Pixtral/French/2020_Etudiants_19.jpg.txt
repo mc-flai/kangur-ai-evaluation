@@ -1,0 +1,23 @@
+
+La question 19 demande de parier sur les 2020 premiers termes d'une suite définie par \( u_1 = 1 \), \( u_2 = 3 \), et \( u_{n+2} = u_n + u_{n+1} \) pour tout \( n \geq 1 \). Nous devons déterminer quelle combinaison de paires parmi les options proposées est correcte.
+
+Raisonnement :
+1. La suite donnée est une suite de Fibonacci, où chaque terme est la somme des deux termes précédents.
+2. Les 20 premiers termes de cette suite sont : 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765.
+3. Nous devons vérifier quelles combinaisons de paires parmi les options proposées correspondent à ces termes.
+
+Options :
+- A) 673
+- B) 674
+- C) 1010
+- D) 1011
+- E) 1347
+
+En vérifiant les termes de la suite de Fibonacci, nous trouvons que :
+- 673 n'apparaît pas dans les 20 premiers termes.
+- 674 n'apparaît pas dans les 20 premiers termes.
+- 1010 est le 17ème terme.
+- 1011 n'apparaît pas dans les 20 premiers termes.
+- 1347 est le 20ème terme.
+
+Réponse : E)

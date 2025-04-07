@@ -1,0 +1,9 @@
+Reasoning:
+First, count the number of positions from "Start" to "Ziel". It's 17 positions.
+Beaver: Moves 1 position per jump. Needs 17 jumps.
+Rabbit: Moves 2 positions per jump. Needs 17/2 = 8.5 jumps. Since the jump must be exact, Rabbit takes 8 jumps to move 16 steps, then 1 jump to move 1 position. A total of 9 jumps to reach the 17th position.
+Kangaroo: Moves 3 positions per jump. Needs 17/3 = 5.67 jumps. Kangaroo takes 5 jumps to move 15 steps, then 1 jump to move 2 positions. A total of 6 jumps to reach the 17th position.
+Comparing the number of jumps, we have: Beaver (17 jumps), Rabbit (9 jumps) and Kangaroo (6 jumps).
+Therefore, the Kangaroo wins.
+
+Answer: C)

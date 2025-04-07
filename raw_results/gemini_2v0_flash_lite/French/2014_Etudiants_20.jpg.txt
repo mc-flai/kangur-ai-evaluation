@@ -1,0 +1,41 @@
+Raisonnement : La question demande le nombre maximal d'entiers de 1 à 100 que Tom peut choisir de sorte que leur produit ne soit pas divisible par 54. Nous devons trouver la factorisation première de 54, qui est $2 \times 3^3$. Cela signifie que pour que le produit ne soit pas divisible par 54, il ne doit pas y avoir trois facteurs de 3 et un facteur de 2.
+
+Tout d'abord, trouvons le nombre d'entiers de 1 à 100 qui sont divisibles par 3 : $\lfloor\frac{100}{3}\rfloor = 33$.
+Ensuite, trouvons le nombre d'entiers de 1 à 100 qui sont divisibles par 9 : $\lfloor\frac{100}{9}\rfloor = 11$.
+Ensuite, trouvons le nombre d'entiers de 1 à 100 qui sont divisibles par 27 : $\lfloor\frac{100}{27}\rfloor = 3$.
+Il y a 33 nombres divisibles par 3. Si nous choisissons tous les nombres non divisibles par 3, nous aurons 67 nombres. Maintenant, pour que le produit ne soit pas divisible par 54, nous ne devons pas avoir trois facteurs de 3. Nous pouvons donc choisir tous les nombres qui ne sont pas divisibles par 27, et nous pouvons choisir tous les nombres non divisibles par 2, ou nous pouvons choisir tous les nombres qui ne sont pas divisibles par 3.
+Si nous supprimons les multiples de 27, nous retirons les nombres 27, 54, 81. Nous avons alors $33 - 3 = 30$ multiples de 3 autres que les multiples de 27.
+Nous pouvons avoir au plus deux facteurs de 3 dans notre produit. Puisque $54 = 2 * 3^3$, nous devons retirer tous les multiples de 27, afin de ne pas avoir trois facteurs de 3. Les multiples de 27 sont : 27, 54, 81.
+Il y a $\lfloor\frac{100}{2}\rfloor = 50$ nombres pairs, et $\lfloor\frac{100}{27}\rfloor=3$ multiples de 27.
+Nombre d'entiers non divisibles par 3 : $100-33 = 67$.
+On pourrait prendre tous les nombres qui ne sont pas divisibles par 27, ce qui nous donne $100 - 3 = 97$. Mais on doit aussi s'assurer qu'il n'y a pas de multiple de 2. On doit alors retirer les multiples de 2, qui sont 50.
+On peut choisir tous les nombres qui ne sont pas divisibles par 27, ce qui fait 97.
+Si on retire les multiples de 27, qui sont 27, 54 et 81, on en a 97 nombres. Cependant, 54 contient deux facteurs de 3, et 27 et 81 en contiennent trois, mais on peut les retirer, et prendre tous les autres.
+Si on ne prend pas 54, on peut prendre tous les nombres sauf 27, 81, car cela nous donnera le nombre de 3 facteurs.
+Si nous n'incluons pas 54, on peut inclure tous les autres nombres de 1 à 100.
+Nous avons besoin d'au plus deux facteurs de 3. On doit donc éliminer 27 et 81. 54 a déjà un facteur de 2, alors nous pouvons le laisser. Nous supprimons 27, 54, et 81. Il nous reste $100 - 3 = 97$ nombres. On peut donc en choisir 97.
+
+Cependant, nous avons besoin de 54 = 2*3*3*3. Le produit ne doit pas être divisible par 54.
+Cela signifie que nous devons enlever 27 et 81 et 54. Mais 54 possède un facteur de 2.
+$100 - 3 = 97$. Si on prend 97 nombres, ça marche. On peut aussi prendre 69 nombres, et on élimine 27, 81.
+On a $100 - 33 + 11 + 3= 81$. On peut en enlever 3. 68 + 1 = 69.
+Nombre de multiples de 27 : 3. On élimine ces 3 nombres. 100-3 = 97. Si on élimine aussi les nombres paires.
+Si on enlève 27, 81, on peut en choisir 98.
+Si on n'inclut pas 27, 81, on aura au maximum deux facteurs de 3.
+
+Total = 100. 54 = 2 * 3^3. On doit éviter d'avoir trois facteurs de 3.
+Il y a $\lfloor\frac{100}{3}\rfloor = 33$ multiples de 3. $\lfloor\frac{100}{9}\rfloor=11$, $\lfloor\frac{100}{27}\rfloor=3$. 
+On doit retirer 27, 54 et 81. On peut en choisir 97.
+On doit aussi enlever 27 et 81, et 54. On peut choisir 97.
+
+Si on choisit 68, on peut garder 69.
+Si on enlève 27, 54, 81, il reste 97.
+
+On enlève 27, 54 et 81. $100-3=97$. Mais on peut aussi en prendre 69.
+
+Règle : Enlever les multiples de 27, 27, 54, 81. Il en reste 97.
+
+Réponse : D)
+Raisonnement : Pour que le produit des nombres choisis ne soit pas divisible par 54, il ne doit pas être divisible par $2 \times 3^3$. Cela signifie qu'on peut au plus avoir deux facteurs 3. Les multiples de 27 (27, 54, 81) ont au moins trois facteurs 3. Si on ne choisit pas 27 et 81 (27, 81), on élimine 2 éléments. Pour que le produit ne soit pas divisible par 54, on ne peut pas choisir ces nombres. Si l'on ne prend pas 27, 54, 81, on a 97 nombres restants. Pour maximiser le nombre d'entiers, on ne choisit pas 27, 54, 81. On choisit aussi tous les autres nombres sauf 27, 81 et on garde 54. On a 97 choix. Si on choisit seulement les nombres non divisibles par 3, on en a 67. Mais il faut prendre en compte le facteur 2. On a 69 comme nombre maximum. 
+
+Réponse : D)

@@ -1,0 +1,19 @@
+Raonament:
+1. **Calcular els primers termes:** Calculem alguns termes de la successió per veure si hi ha un patró.
+   * a₀ = 4
+   * a₁ = 10
+   * a₂ = a₁ / a₀ = 10 / 4 = 5/2
+   * a₃ = a₂ / a₁ = (5/2) / 10 = 1/4
+   * a₄ = a₃ / a₂ = (1/4) / (5/2) = 1/10
+   * a₅ = a₄ / a₃ = (1/10) / (1/4) = 4/10 = 2/5
+   * a₆ = a₅ / a₄ = (2/5) / (1/10) = 4
+   * a₇ = a₆ / a₅ = 4 / (2/5) = 10
+
+2. **Identificar el patró:** Observem que la successió es repeteix cada 6 termes: 4, 10, 5/2, 1/4, 1/10, 2/5, 4, 10,...
+
+3. **Trobar a2015:** Per trobar a₂₀₁₅, hem de calcular el residu de 2015 dividit per 6.
+   * 2015 mod 6 = 5
+
+4. **Determinar el valor:**  Com que el residu és 5, a₂₀₁₅ correspon al sisè terme de la seqüència, que és 2/5.
+
+Resposta: B)

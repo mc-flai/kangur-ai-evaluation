@@ -1,0 +1,11 @@
+Reasoning: Let's analyze the signs of the given expressions. Since $n$ is a positive whole number, $2n+3$ and $2n+2$ are positive integers. Also $a$, $b$, and $c$ are non-zero real numbers.
+The two numbers are $(-2)^{2n+3}a^{2n+2}b^{2n-1}c^{3n+2}$ and $(-3)^{2n+2}a^{4n+1}b^{2n+5}c^{3n-4}$. Since they have the same sign, their product is positive. That is,
+$$ (-2)^{2n+3}a^{2n+2}b^{2n-1}c^{3n+2} \cdot (-3)^{2n+2}a^{4n+1}b^{2n+5}c^{3n-4} > 0$$
+$$ (-2)^{2n+3}(-3)^{2n+2}a^{6n+3}b^{4n+4}c^{6n-2} > 0$$
+Since $(-3)^{2n+2}$ is always positive, and $(-2)^{2n+3}$ is always negative since $2n+3$ is odd. Therefore,
+$$ -(a^{6n+3}b^{4n+4}c^{6n-2}) > 0 $$
+or $a^{6n+3}b^{4n+4}c^{6n-2} < 0$.
+We know that $b^{4n+4} > 0$ since $4n+4$ is an even integer. Therefore, $a^{6n+3}c^{6n-2} < 0$.
+Also, since $6n-2$ is even, $c^{6n-2} > 0$. Thus, $a^{6n+3}$ must be negative. This implies that $a < 0$ since $6n+3$ is odd.
+
+Answer: D)

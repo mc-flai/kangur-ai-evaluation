@@ -1,0 +1,55 @@
+
+**Pregunta:** Troba el nombre de solucions de l'equació \( x^2 + x - 7 = 0 \) i calcula el valor de \( 3a^2 + 4b^2 + 2a + 3b + 1 \).
+
+**Opcions:**
+A) 54
+B) 51
+C) \( 10\sqrt{20} \)
+D) -29
+E) -32
+
+**Racionalització:**
+1. **Determinar el nombre de solucions de l'equació \( x^2 + x - 7 = 0 \):**
+   - L'equació quadratica és de la forma \( ax^2 + bx + c = 0 \), on \( a = 1 \), \( b = 1 \), i \( c = -7 \).
+   - El nombre de solucions d'una equació quadràtica es pot determinar utilitzant el discrimant, que es calcula com \( b^2 - 4ac \).
+   - Aquí, \( b^2 = 1^2 = 1 \), \( 4ac = 4 \cdot 1 \cdot (-7) = -28 \).
+   - El discrimant és \( 1 - (-28) = 29 \).
+   - Com el discrimant és positiu (\( 29 > 0 \)), l'equació té dues solucions reals i diferents.
+
+2. **Calcular el valor de \( 3a^2 + 4b^2 + 2a + 3b + 1 \):**
+   - D'acord amb l'enunciat, \( a \) i \( b \) són les solucions de l'equació \( x^2 + x - 7 = 0 \).
+   - Les solucions són \( a \) i \( b \).
+   - Substituint \( a \) i \( b \) en l'expressió \( 3a^2 + 4b^2 + 2a + 3b + 1 \), obtenim:
+     \[
+     3a^2 + 4b^2 + 2a + 3b + 1
+     \]
+   - Com \( a \) i \( b \) són les solucions de l'equació quadràtica, podem expressar-les en termes de les arrels quadrades:
+     \[
+     a = \frac{-1 \pm \sqrt{29}}{2}, \quad b = \frac{-1 \mp \sqrt{29}}{2}
+     \]
+   - Substituint aquestes arrels quadrades en l'expressió, obtenim:
+     \[
+     3\left(\frac{-1 + \sqrt{29}}{2}\right)^2 + 4\left(\frac{-1 - \sqrt{29}}{2}\right)^2 + 2\left(\frac{-1 + \sqrt{29}}{2}\right) + 3\left(\frac{-1 - \sqrt{29}}{2}\right) + 1
+     \]
+   - Simplificant aquesta expressió, obtenim:
+     \[
+     3\left(\frac{1 - 2\sqrt{29} + 29}{4}\right) + 4\left(\frac{1 + 2\sqrt{29} + 29}{4}\right) + \frac{-2 + 2\sqrt{29}}{2} + \frac{-2 - 2\sqrt{29}}{2} + 1
+     \]
+     \[
+     = \frac{3(30 - 2\sqrt{29}) + 4(30 + 2\sqrt{29}) - 2 + 2\sqrt{29} - 2 - 2\sqrt{29} + 4}{4}
+     \]
+     \[
+     = \frac{90 - 6\sqrt{29} + 120 + 8\sqrt{29} - 4}{4}
+     \]
+     \[
+     = \frac{216 + 2\sqrt{29}}{4}
+     \]
+     \[
+     = \frac{216 + 2\sqrt{29}}{4}
+     \]
+     \[
+     = 54 + \frac{\sqrt{29}}{2}
+     \]
+   - Com \( \sqrt{29} \) és aproximadament 5.385, el valor és aproximadament 54.1925.
+
+**Resposta:** A)

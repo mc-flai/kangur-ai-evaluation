@@ -1,0 +1,44 @@
+Per determinar quantes dels 6 darrers jugadors van obtenir 10 punts, hem de seguir els següents passos:
+
+1. **Calcular el total de punts necessaris**:
+   - Hi ha 40 jugadors en total.
+   - Els primers 34 jugadors tenen cada un 9 punts.
+   - La mitjana de punts dels 40 jugadors és de 8,9 punts.
+
+   Per tant, el total de punts és:
+   \[
+   40 \times 8,9 = 356 \text{ punts}
+   \]
+
+2. **Calcular els punts dels primers 34 jugadors**:
+   - Els primers 34 jugadors tenen cada un 9 punts.
+   \[
+   34 \times 9 = 306 \text{ punts}
+   \]
+
+3. **Calcular els punts dels 6 darrers jugadors**:
+   - Els punts dels darrers 6 jugadors són:
+   \[
+   356 - 306 = 50 \text{ punts}
+   \]
+
+4. **Determinar la distribució dels punts dels darrers 6 jugadors**:
+   - Sabem que 5 dels darrers 6 jugadors han obtingut almenys 7 punts cada un.
+   - Per tant, els 5 darrers jugadors han de tenir almenys:
+   \[
+   5 \times 7 = 35 \text{ punts}
+   \]
+
+5. **Calcular els punts restants**:
+   - Els punts restants per al sisè jugador són:
+   \[
+   50 - 35 = 15 \text{ punts}
+   \]
+
+6. **Determinar quantes dels darrers 6 jugadors han aconseguit 10 punts**:
+   - Com que un jugador pot obtenir com a màxim 10 punts, i tenim 15 punts restants, això significa que un jugador ha de tenir 10 punts i els altres 5 restants han de tenir 5 punts.
+   - Per tant, només 1 dels darrers 6 jugadors ha aconseguit 10 punts.
+
+Raonament: Hem calculat el nombre total de punts requerit i després determinat la distribució dels punts entre els darrers 6 jugadors, el que ens mostra que només un d'ells pot haver aconseguit 10 punts.
+
+Resposta: A)

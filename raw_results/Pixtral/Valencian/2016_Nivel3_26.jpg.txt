@@ -1,0 +1,14 @@
+
+La pregunta 26 se refiere a un problema de repetición de una secuencia de manzanas y peras. La secuencia se repite cada tres elementos, comenzando con una manzana y terminando con una pera. El problema pregunta cuál es el valor de N si hay N-2 manzanas tocando una pomá més a cadascú y N-3 manzanas tocando dues pomá més a cadascú.
+
+Para resolver esto, debemos entender la secuencia y cómo se repite. La secuencia es: manzana, pera, manzana (M, P, M). Cada secuencia tiene 3 elementos.
+
+1. Si hay N-2 manzanas tocando una pomá més a cadascú, esto significa que cada manzana está tocando a una manzana adyacente en la secuencia. Por lo tanto, N-2 debe ser divisible por 3 (ya que cada secuencia tiene 3 elementos).
+
+2. Si hay N-3 manzanas tocando dues pomá més a cadascú, esto significa que cada manzana está tocando a dos manzanas adyacentes en la secuencia. Esto también implica que N-3 debe ser divisible por 3.
+
+Dado que N-2 y N-3 deben ser divisibles por 3, N debe ser un múltiplo de 3 más 2 y un múltiplo de 3 más 3, respectivamente. El valor más pequeño de N que satisface ambas condiciones es 9 (ya que 7 es divisible por 3 y 6 es divisible por 3).
+
+Por lo tanto, el valor de N es 9.
+
+**Respuesta: C)**

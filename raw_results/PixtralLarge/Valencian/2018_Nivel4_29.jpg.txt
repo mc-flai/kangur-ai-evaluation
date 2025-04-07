@@ -1,0 +1,20 @@
+**Raonament**: Per resoldre aquesta pregunta, necessitem calcular el nombre d'anells que podem formar amb els radis donats.
+
+1. El cercle exterior té un radi de 8 cm i el cercle interior té un radi de 2 cm.
+2. La distància entre dos cercles concèntrics consecutius és la mateixa.
+3. L'àrea de cada anell ha de ser igual a l'àrea del cercle interior.
+
+Primer, calculem l'àrea del cercle interior:
+- L'àrea del cercle interior, \( A_{interior} \), es calcula com:
+\[ A_{interior} = \pi \times (2 \, \text{cm})^2 = 4\pi \, \text{cm}^2 \]
+
+Després, calculem l'àrea total del cercle exterior:
+- L'àrea del cercle exterior, \( A_{exterior} \), es calcula com:
+\[ A_{exterior} = \pi \times (8 \, \text{cm})^2 = 64\pi \, \text{cm}^2 \]
+
+Ara, el nombre d'anells és el quocient de l'àrea total del cercle exterior entre l'àrea del cercle interior:
+\[ \text{Nombre d'anells} = \frac{A_{exterior}}{A_{interior}} = \frac{64\pi \, \text{cm}^2}{4\pi \, \text{cm}^2} = 16 \]
+
+Però s'ha de tenir en compte que aquest nombre inclou el cercle interior. Per tant, el nombre d'anells és igual a 16 - 1 = 15.
+
+**Resposta**: E) 15

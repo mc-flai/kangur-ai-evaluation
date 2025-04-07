@@ -1,0 +1,17 @@
+Razonamiento:
+1. **Entender la regla:** La suma de los tres números alrededor de cada punto negro debe ser la misma.
+2. **Identificar los puntos con números conocidos:** Observamos que los números 6, 4 y 11 ya están colocados.
+3. **Determinar la suma para los puntos con números conocidos:**
+    *   El punto negro inferior izquierdo tiene como vecinos 4 y otro número que no conocemos.
+    *   El punto negro inferior derecho tiene como vecinos 11 y otro número que no conocemos.
+    *   El punto negro superior izquierdo tiene como vecinos 6 y otro número que no conocemos.
+4.  **Punto negro inferior izquierdo:** 4 + ? + x = S (S: suma)
+5.  **Punto negro inferior derecho:** 11 + ? + y = S
+6.  **Punto negro superior izquierdo:** 6 + ? + z = S
+7. **El número en la posición del signo de interrogación:** debe estar adyacente al 6 y al 11, y debe ser común a los puntos negros superior derecho e inferior central. Probando las opciones, se deduce que el número es 7, y la suma es 21.
+    * 6+ 8 + 7= 21
+    * 7 + 6 + 8 = 21
+    * 7 + 11 + 3 = 21
+    * 3 + 4 + 14 = 21
+
+Respuesta: C)

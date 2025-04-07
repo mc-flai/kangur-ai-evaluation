@@ -1,0 +1,21 @@
+
+La pregunta 21 trata sobre una bolsa que contiene 50 bolas, de las cuales 10 son blancas y 4 son verdes. Se pregunta cuál es el mayor número de bolas que se pueden traer de una sola vez, de manera que no haya tres bolas seguidas del mismo color.
+
+Para resolver esto, consideremos el problema paso a paso:
+
+1. **Identificar las restricciones**: No se pueden tener tres bolas seguidas del mismo color.
+2. **Distribución de bolas**: Hay 10 bolas blancas y 4 bolas verdes, lo que hace un total de 14 bolas que no son verdes.
+3. **Distribución de bolas verdes**: Para maximizar el número de bolas traídas, queremos distribuir las bolas verdes de manera que no haya tres bolas verdes seguidas.
+4. **Distribución de bolas blancas**: Las bolas blancas pueden estar intercaladas entre las bolas verdes sin restricciones adicionales.
+
+Para maximizar el número de bolas traídas:
+- Podemos colocar las bolas verdes en posiciones alternadas con las bolas blancas.
+- Por ejemplo, si colocamos una bola verde y luego dos bolas blancas, repetimos este patrón.
+
+El patrón óptimo sería algo como esto: Verde, Blanca, Blanca, Verde, Blanca, Blanca, Verde, Blanca, Blanca, Verde, Blanca, Blanca, Verde, Blanca, Blanca.
+
+Este patrón nos permite traer 14 bolas en total (10 blancas y 4 verdes) sin tener tres bolas seguidas del mismo color.
+
+Por lo tanto, el mayor número de bolas que se pueden traer de una sola vez es 14.
+
+**Respuesta: A)**

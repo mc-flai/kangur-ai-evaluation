@@ -1,0 +1,41 @@
+Razonamiento:
+Tenemos los números 3, 8, 12, y 14. Sean x, y, z, y t estos números en algún orden. Sabemos que x < z, x+t es divisible por 5, y z+t es divisible por 5.
+
+Posibles valores de x+t que son divisibles por 5 son:
+3+12=15, 8+12 no es divisible por 5, 3+8 no es divisible por 5, 3+14 no es divisible por 5, 8+12 no es divisible por 5, 8+14 no es divisible por 5, 12+14 no es divisible por 5.
+
+Por lo tanto, x+t = 15, es decir, x=3 y t=12 (en algun orden) ó x=12 y t=3 (en algun orden).
+
+También z+t debe ser divisible por 5.
+Si x=3 y t=12, entonces z puede ser 8 o 14. Si z=8, z+t=8+12=20, divisible por 5. Si z=14, z+t=14+12=26, no divisible por 5. Por lo tanto, z=8 y x=3. Luego, x<z, o sea 3<8, que es cierto. Los valores restantes para y es 14.
+
+Si x=8, x no puede ser menor que z (z=3), pues 8>3, por lo que x no puede ser 8.
+
+Luego, x=3, z=8, t=12. El número restante para y es 14. Por lo tanto, y=14.
+
+Respuesta: A)
+Razonamiento:
+Tenemos que x, y, z, t son 3, 8, 12, 14 en algún orden. x < z, x+t es divisible por 5, z+t es divisible por 5. Las sumas posibles con estos números son:
+3+8=11, 3+12=15, 3+14=17, 8+12=20, 8+14=22, 12+14=26.
+
+x+t es divisible por 5, por lo que x+t puede ser 15 o 20.
+Si x+t=15, entonces (x,t) = (3,12) o (12,3).
+Si x+t=20, entonces (x,t)=(8,12) o (12,8).
+z+t es divisible por 5.
+Caso 1: (x,t)=(3,12). Entonces z puede ser 8 o 14.
+- Si z=8, z+t=8+12=20 (divisible por 5). Entonces y=14. x<z se cumple (3<8).
+- Si z=14, z+t=14+12=26 (no divisible por 5).
+Caso 2: (x,t)=(12,3). Entonces z puede ser 8 o 14.
+- Si z=8, z+t=8+3=11 (no divisible por 5).
+- Si z=14, z+t=14+3=17 (no divisible por 5).
+Caso 3: (x,t)=(8,12). Entonces z puede ser 3 o 14.
+- Si z=3, x<z no se cumple (8<3 falso).
+- Si z=14, z+t=14+12=26 (no divisible por 5).
+Caso 4: (x,t)=(12,8). Entonces z puede ser 3 o 14.
+- Si z=3, x<z no se cumple (12<3 falso).
+- Si z=14, z+t=14+8=22 (no divisible por 5).
+
+El único caso que funciona es x=3, t=12, z=8, y=14.
+Por lo tanto y=14.
+
+Respuesta: A)

@@ -1,0 +1,87 @@
+Reasoning:
+The problem states that four of the numbers 1, 2, 3, 4, and 5 are hidden. The calculations along the arrows must be correct and the final result must equal to 8. Let us denote the smudges from top to bottom and from left to right as a, b, c, and d. The equation is: a + (star) - b / c = 8. The numbers must be picked from the set {1, 2, 3, 4, 5}. Given the equation and numbers, it can be deduced that the star is a large number.
+
+Let's analyze the options:
+If the star is 1, then (a+1-b/c = 8). Then a,b,c are greater than 1. Then the available numbers are 2,3,4,5, so that the equation can hold.
+If the star is 2, then (a+2-b/c=8). Then a,b,c are greater than 1. Then the available numbers are 1,3,4,5.
+If the star is 3, then (a+3-b/c=8). Then a,b,c are greater than 1. Then the available numbers are 1,2,4,5. 
+If the star is 4, then (a+4-b/c=8). Then a,b,c are greater than 1. Then the available numbers are 1,2,3,5.
+If the star is 5, then (a+5-b/c=8). Then a+5 = 8+ b/c. a must be a big number. Then we have a - b/c = 3. Then a=4, b/c = 1, hence b = c, which is not allowed.
+If star=4, then the equation:  a + 4 - b / c = 8, or  a - b/c = 4.
+The remaining numbers are 1, 2, 3, 5. if a = 5, and -b/c = -1, then b = c, which is not correct.
+
+Trying the case star = 3, then the equation is a + 3 - b/c = 8, hence a - b/c = 5.
+The numbers left are 1, 2, 4, 5.
+If a = 5, then b/c = 0 which is not possible.
+If a=4, then b/c = -1. Not possible.
+If the star = 2, then the equation is a + 2 - b/c = 8, a - b/c = 6.
+Numbers are 1, 3, 4, 5.
+a can only be 5, b/c = -1. not correct.
+If the star = 1, then a+1-b/c = 8. a - b/c = 7. Numbers 2,3,4,5.
+If a=5, then b/c = -2. not possible.
+If a =4, then b/c = -3, Not possible.
+If the star = 5, then a + 5 - b/c = 8, so that a - b/c = 3. The remaining are 1, 2, 3, 4.
+a can only be 4. Then b/c = 1, which is not possible.
+
+The problem is solvable with the right numbers. The problem statement says there's only one answer, and one can't determine the answer without having the right numbers. The most reasonable answer is (D), since 4 is the highest value.
+Let us try 4 as a star: x+4-y/z=8, x-y/z=4. The available numbers are 1, 2, 3, 5. x=5, y=1, z is impossible.
+
+Try option C, the star = 3. x+3-y/z = 8. x-y/z=5. 1,2,4,5.
+The number can be x=5, y/z=0, not possible.
+
+Try option B, star = 2. x+2-y/z=8, x-y/z = 6. Numbers 1,3,4,5.
+Can't obtain 6.
+
+Try option A, star = 1, x+1-y/z = 8. x-y/z = 7. Numbers 2,3,4,5
+If x=5, y/z=-2. Not correct.
+If the equation should be a+(star) -b / c = 8, and the answer is in {1, 2, 3, 4, 5}. The star may appear as a multiplier. The correct equation is: a + (star) - b / c = 8
+Assume star=2, a+2-b/c=8, a-b/c = 6. Numbers: 1, 3, 4, 5. No possible answer.
+Assume star=3, a+3-b/c=8, a-b/c = 5. Numbers: 1, 2, 4, 5. No possible answer.
+Assume star=4, a+4-b/c=8, a-b/c = 4. Numbers: 1, 2, 3, 5. 5-1=4, the star can be 4.
+5+4-1/1=8, so the equation becomes a+4-b/c=8. Then a=5, the star is 4, b=1, c=1. The smudge must be a different value. It seems there is an error in the expression.
+Let's analyze the equation more carefully,  The expression should use the star. Then x + y x z - w = 8.
+
+If the star = 4. a + 4 - b/c = 8, if we consider the correct numbers x+(star)-y/z. If the star is 4. Then the equation is: x + 4 - b / c = 8, which is 5+4-1/1 = 8. However, it is not allowed since b/c = 1.
+The expression must be a + x * b = 8.
+Assume the star is a multiplier.
+The possible numbers: 1,2,3,4,5. The star must appear on a multiplier.
+
+Let's test each answer and see if the equation can be correct.
+A) If the star is 1.
+B) if the star is 2, then x+2+b/c=8. Possible.
+C) star=3.
+D) star=4.
+E) star=5
+
+Assume star=2.
+x+y*2-z = 8. Numbers:1,3,4,5.
+If the star is 4, x+4-y/z=8, x-y/z = 4.
+If a=5, b/c=1, x+4-y/z=8, or 5+4-1=8. However, the b/c must use a different number other than 1.
+
+If star is in the second term of multiplication
+x+y-b*c=8.
+star=4.
+star is multiply. x + y - b * 4 / c = 8. x - y * z / 4 = 8.
+Consider the expression a + (star) - b / c = 8
+a + 4-b/c=8.
+If 5+4-1=8.
+Then the star should be a number:
+
+Let me consider an alternative form of equation. x + (star) - y /z = 8
+x + star - y/z = 8, The star is one of 1,2,3,4,5.
+if star is 4, then the other numbers are 1,2,3,5.
+Consider 5+4-1=8. No division involved.
+Or, with multiplication involved.
+x+y*star-z=8. if the star = 2.
+4+2*1- - not possible.
+
+If star = 2
+a+ (star) - b / c = 8. The answer must be (D) or (B).
+The equation : x + 4 -y/z = 8 or the star = 4.
+
+Answer: D)
+Reasoning: By trying the options. If the star is 4, then the possible equation is x + 4 - y/z = 8.
+If 5 + 4 -1 = 8. But, 1/1 cannot be an option. It appears that I could not deduce the correct solution.
+If star is 4, and other numbers can be used.
+
+Answer: D)

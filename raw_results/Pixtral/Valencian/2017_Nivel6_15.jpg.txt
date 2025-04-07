@@ -1,0 +1,46 @@
+**Pregunta:** En la fracció
+
+\[ A = \frac{1 \cdot 5 \cdot 25 + 2 \cdot 10 \cdot 50 + 3 \cdot 15 \cdot 75 + \cdots}{1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots} \]
+
+tant el numerador com el denominador són sumes de 2017 termes. Si \( A \) és el cub del nombre racional \( X \), quin és el valor de \( X \)?
+
+A) 2.5
+B) 6.25
+C) 15.625
+D) 32
+E) cap de les anteriors
+
+**Razonamiento:**
+
+1. Observa el numerador y el denominador de la fracción. Ambos son sumas de términos que parecen estar relacionados con productos de números enteros.
+
+2. Para simplificar, examinemos los primeros términos del numerador y el denominador:
+   - El primer término del numerador es \( 1 \cdot 5 \cdot 25 \).
+   - El primer término del denominador es \( 1 \cdot 2 \cdot 4 \).
+
+3. Notamos que cada término en el numerador es el producto de tres números enteros consecutivos, mientras que cada término en el denominador es el producto de tres números enteros consecutivos, multiplicados por 2.
+
+4. Podemos factorizar el denominador para ver si hay una relación clara:
+   - El denominador puede ser escrito como \( 2 \cdot (1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots) \).
+
+5. Ahora, consideremos el numerador:
+   - El numerador es \( (1 \cdot 5 \cdot 25 + 2 \cdot 10 \cdot 50 + 3 \cdot 15 \cdot 75 + \cdots) \).
+
+6. Si multiplicamos el denominador por 5, obtenemos:
+   - \( 2 \cdot 5 \cdot (1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots) = 10 \cdot (1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots) \).
+
+7. Ahora, el numerador es 5 veces el denominador:
+   - \( A = \frac{5 \cdot (1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots)}{1 \cdot 2 \cdot 4 + 2 \cdot 4 \cdot 8 + 3 \cdot 6 \cdot 12 + \cdots} \).
+
+8. Simplificando, obtenemos:
+   - \( A = 5 \).
+
+9. Si \( A \) es el cubo de \( X \), entonces \( A = X^3 \):
+   - \( 5 = X^3 \).
+
+10. Resolviendo para \( X \):
+    - \( X = \sqrt[3]{5} \).
+
+11. Dado que \( \sqrt[3]{5} \) no es una de las opciones proporcionadas, la respuesta correcta es que no se encuentra entre las opciones dadas.
+
+**Respuesta:** E) ninguna de las anteriores.

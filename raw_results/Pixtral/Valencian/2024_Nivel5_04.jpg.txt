@@ -1,0 +1,20 @@
+### Raonament:
+La pregunta descriu un patró de quadrats alternants entre quadrats salats i quadrats buits. Cada quadrat salat és seguit per dos quadrats buits, i després per dos quadrats amb dos quadrats buits. El patró continua així, amb cada quadrat salat indicant que s'han extret 48 quadrats. La pregunta demana quants quadrats s'han d'extraure per trobar el seu quadrat buit.
+
+Per resoldre això, primer cal identificar el patró i el nombre de quadrats en cada secció. Cada secció del patró té un quadrat salat seguit de dos quadrats buits, després dos quadrats amb dos quadrats buits. Aquest patró repeteix per cada quadrat salat.
+
+Per calcular el nombre de quadrats buits, primer cal determinar el nombre total de quadrats en un cicle complet del patró. Cada cicle complet té 1 quadrat salat, 2 quadrats buits, i 2 quadrats amb dos quadrats buits, que suma 5 quadrats.
+
+Dintre d'aquests 5 quadrats, 3 són quadrats buits (2 quadrats buits i 1 quadrat amb dos quadrats buits).
+
+Per trobar el quadrat buit corresponent al 48è quadrat salat, primer cal determinar quants cicles complets conté el 48è quadrat salat. Com que cada cicle té 1 quadrat salat, podem dividir 48 per 1:
+
+48 / 1 = 48
+
+Com que cada cicle té 3 quadrats buits, multiplicar el nombre de cicles complets per 3 donarà el nombre de quadrats buits:
+
+48 * 3 = 144
+
+Per tant, el nombre de quadrats buits corresponents al 48è quadrat salat és 144.
+
+### Resposta: E)

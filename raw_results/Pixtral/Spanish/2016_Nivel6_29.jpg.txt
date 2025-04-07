@@ -1,0 +1,42 @@
+La pregunta 29 se traduce como:
+«Alige un número entero positivo \( n \) y escribe la suma de todos los números enteros positivos desde 1 hasta \( n \). Un número primo \( p \) divide a la suma, pero no a ninguno de los sumandos. ¿Cuál de los siguientes puede ser \( n + p \)?»
+
+Para resolver esto, necesitamos entender la suma de los primeros \( n \) números enteros positivos, que se puede expresar como:
+\[ S = 1 + 2 + 3 + \ldots + n = \frac{n(n + 1)}{2} \]
+
+Dado que \( p \) es un número primo que divide a \( S \) pero no a ninguno de los sumandos, \( p \) debe ser un factor de \( \frac{n(n + 1)}{2} \) pero no de \( n \) ni de \( n + 1 \).
+
+Para encontrar \( n \) y \( p \) que cumplan estas condiciones, consideremos los números primos más pequeños y veamos si \( \frac{n(n + 1)}{2} \) es divisible por \( p \):
+
+1. Para \( n = 2 \):
+   \[ S = 1 + 2 = 3 \]
+   Aquí, \( p = 3 \) divide a \( S \) y no a \( n \) ni a \( n + 1 \). Entonces, \( n + p = 2 + 3 = 5 \).
+
+2. Para \( n = 3 \):
+   \[ S = 1 + 2 + 3 = 6 \]
+   Aquí, \( p = 3 \) divide a \( S \) y no a \( n \) ni a \( n + 1 \). Entonces, \( n + p = 3 + 3 = 6 \).
+
+3. Para \( n = 4 \):
+   \[ S = 1 + 2 + 3 + 4 = 10 \]
+   Aquí, \( p = 5 \) divide a \( S \) y no a \( n \) ni a \( n + 1 \). Entonces, \( n + p = 4 + 5 = 9 \).
+
+4. Para \( n = 5 \):
+   \[ S = 1 + 2 + 3 + 4 + 5 = 15 \]
+   Aquí, \( p = 5 \) divide a \( S \) y no a \( n \) ni a \( n + 1 \). Entonces, \( n + p = 5 + 5 = 10 \).
+
+5. Para \( n = 6 \):
+   \[ S = 1 + 2 + 3 + 4 + 5 + 6 = 21 \]
+   Aquí, \( p = 3 \) divide a \( S \) y no a \( n \) ni a \( n + 1 \). Entonces, \( n + p = 6 + 3 = 9 \).
+
+De las opciones dadas:
+- A) 217
+- B) 221
+- C) 229
+- D) 245
+- E) 269
+
+Ninguna de estas opciones coincide con los valores calculados anteriormente. Sin embargo, la opción más cercana es 221, que es un número primo y podría ser un candidato.
+
+Razonamiento: Al examinar los primeros valores de \( n \) y sus respectivas sumas, encontramos que \( n + p \) puede ser un número primo. La opción 221 es un número primo y podría ser un candidato.
+
+Respuesta: B)

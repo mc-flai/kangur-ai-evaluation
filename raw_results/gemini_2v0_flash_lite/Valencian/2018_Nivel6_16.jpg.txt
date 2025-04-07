@@ -1,0 +1,24 @@
+Raonament:
+Per resoldre l'equació (x² - 4x + 5)^(x²+x-30) = 1, considerem tres casos possibles:
+
+1.  La base és igual a 1:
+    x² - 4x + 5 = 1
+    x² - 4x + 4 = 0
+    (x - 2)² = 0
+    x = 2
+
+2.  L'exponent és igual a 0 i la base és diferent de 0:
+    x² + x - 30 = 0
+    (x + 6)(x - 5) = 0
+    x = -6, x = 5
+    Per x=-6: x²-4x+5 = 36+24+5 = 65 ≠ 0
+    Per x=5: x²-4x+5 = 25-20+5 = 10 ≠ 0
+
+3.  La base és igual a -1 i l'exponent és parell:
+    x² - 4x + 5 = -1
+    x² - 4x + 6 = 0
+    Aquest cas no té solucions reals perquè el discriminant (b² - 4ac) = 16 - 4(1)(6) = -8, que és negatiu.
+
+Per tant, les solucions reals són x = 2, x = -6 i x = 5. Hi ha tres solucions diferents.
+
+Resposta: B)

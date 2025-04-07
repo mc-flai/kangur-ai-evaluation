@@ -1,0 +1,13 @@
+Reasoning:
+First, we can factor the expression:
+18^2017 + 18^2018 = 18^2017(1 + 18) = 18^2017(19)
+Now we analyze each option to see if they are factors of 18^2017 * 19:
+A) 8 = 2^3. Since 18 = 2 * 9, then 18^2017 = 2^2017 * 9^2017. Thus 8 is a factor of 18^2017.
+B) 18 is a factor of 18^2017.
+C) 28 = 4 * 7 = 2^2 * 7. Since 18 = 2 * 9, then 18^2017 = 2^2017 * 9^2017. Thus 2^2 is a factor. We need to see if 7 is a factor. Since 18^2017 * 19 does not contain a factor of 7, then 28 is not a factor.
+D) 38 = 2 * 19. Since 18 = 2 * 9, then 18^2017 = 2^2017 * 9^2017. And we have 19. Thus 38 is a factor.
+E) 48 = 16 * 3 = 2^4 * 3. Since 18 = 2 * 3^2, then 18^2017 = 2^2017 * (3^2)^2017 = 2^2017 * 3^4034. Thus, 2^4 and 3 are factors. Therefore 48 is a factor.
+
+The number that is not a factor is 28.
+
+Answer: C)

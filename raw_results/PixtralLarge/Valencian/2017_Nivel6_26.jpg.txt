@@ -1,0 +1,56 @@
+Per resoldre aquesta pregunta, hem de determinar el valor del producte \( xy \) sabent que \( x \) i \( y \) són dos nombres diferents de manera que es compleixen les següents equacions:
+
+\[ 2017 + x = y^2 \]
+\[ 2017 + y = x^2 \]
+
+Raonament:
+
+1. Restem la segona equació de la primera per obtenir una equació que relacioni \( x \) i \( y \):
+
+\[ (2017 + x) - (2017 + y) = y^2 - x^2 \]
+
+2. Simplifiquem l'equació:
+
+\[ x - y = y^2 - x^2 \]
+
+3. Sabem que \( y^2 - x^2 \) pot ser factoritzat com \( (y - x)(y + x) \):
+
+\[ x - y = (y - x)(y + x) \]
+
+4. Ja que \( x \neq y \), podem dividir ambdós costats per \( y - x \):
+
+\[ \frac{x - y}{y - x} = y + x \]
+
+5. Això es simplifica a:
+
+\[ -1 = y + x \]
+
+6. Per tant, \( x + y = -1 \).
+
+7. Ara, per trobar el valor del producte \( xy \), tornem a les equacions originals i utilitzem \( x + y = -1 \).
+
+8. Substituïm \( y = -1 - x \) en la primera equació:
+
+\[ 2017 + x = (-1 - x)^2 \]
+
+9. Simplifiquem el quadrat:
+
+\[ 2017 + x = x^2 + 2x + 1 \]
+
+10. Reorganitzem l'equació:
+
+\[ x^2 + x + 2018 = 0 \]
+
+11. Aquesta és una equació quadràtica que no és fàcil de resoldre directament, però ja sabem que \( x + y = -1 \).
+
+12. Per trobar el producte \( xy \), utilitzem el fet que les arrels de l'equació quadràtica \( ax^2 + bx + c = 0 \) són \( x \) i \( y \), i el producte de les arrels és \( \frac{c}{a} \).
+
+13. En aquest cas, \( a = 1 \) i \( c = 2018 \), per tant:
+
+\[ xy = 2018 \]
+
+14. Però com que les arrels són nombres diferents i la suma és -1, el producte ha de ser negatiu, per tant:
+
+\[ xy = -1 \]
+
+Resposta: D) -1.

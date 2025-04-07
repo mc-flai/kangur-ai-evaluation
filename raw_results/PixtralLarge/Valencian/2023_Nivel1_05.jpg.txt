@@ -1,0 +1,27 @@
+Per determinar quants nombres entre 100 i 200 són divisibles per 2 i també per 3, hem de seguir aquests passos:
+
+1. **Identificar els nombres parells (divisibles per 2) entre 100 i 200**:
+   - Els nombres parells en aquest rang són: 100, 102, 104, ..., 200.
+   - Aquests nombres formen una seqüència aritmètica amb el primer terme a1 = 100, l'últim terme an = 200 i raó r = 2.
+   - El nombre de termes n en la seqüència es pot trobar usant la fórmula de la seqüència aritmètica:
+     an = a1 + (n-1)r
+     200 = 100 + (n-1)2
+     100 = (n-1)2
+     n-1 = 50
+     n = 51
+   - Per tant, hi ha 51 nombres parells entre 100 i 200.
+
+2. **Identificar quins d'aquests nombres parells són també divisibles per 3**:
+   - Un nombre que és divisible per 2 i per 3 és divisible per 6 (LCM de 2 i 3).
+   - Els nombres entre 100 i 200 que són divisibles per 6 són: 102, 108, 114, ..., 198.
+   - Aquests nombres formen una seqüència aritmètica amb el primer terme a1 = 102, l'últim terme an = 198 i raó r = 6.
+   - El nombre de termes n en la seqüència es pot trobar usant la fórmula de la seqüència aritmètica:
+     an = a1 + (n-1)r
+     198 = 102 + (n-1)6
+     96 = (n-1)6
+     n-1 = 16
+     n = 17
+   - Per tant, hi ha 17 nombres entre 100 i 200 que són divisibles per 2 i per 3.
+
+Raonament: Hem identificat els nombres parells entre 100 i 200 i després hem determinat quins d'aquests són també divisibles per 3. La solució és trobar els nombres divisibles per 6 en aquest rang, i hem trobat que n'hi ha 17.
+Resposta: C)

@@ -1,0 +1,16 @@
+Raonament:
+La probabilitat d'obtenir un 1 és 1/2, un 2 és 1/3 i un 3 és 1/6. Això significa que hi ha 3 cares amb el número 1, 2 cares amb el número 2 i 1 cara amb el número 3. Per tant, per ser una vista vàlida d'aquest dau, la vista no pot tenir més d'una cara amb un 3.
+* A) Té cares amb 1, 2 i 3 punts, possible.
+* B) Té cares amb 1 i 2 punts, possible.
+* C) Té cares amb 2 i 3 punts, possible.
+* D) Té cares amb 1, 2 i 3 punts, possible.
+* E) Té cares amb 1, 2 i 3 punts, possible.
+Ara, considerem les combinacions de cares. En qualsevol vista del dau, la suma de la probabilitat de cada nombre visible ha de ser menor o igual a 1. A la figura A, podem veure 1, 2 i 3. Això vol dir que hi ha, com a màxim, 3 cares amb 1, 2 cares amb 2 i una cara amb 3.
+La figura A mostra un 1, un 2 i un 3. Aquesta és una possible vista.
+La figura B mostra dues cares amb 1 i una amb 2. Aquesta és una possible vista.
+La figura C mostra dues cares amb 2 i una amb 3. Aquesta és una possible vista.
+La figura D mostra dues cares amb 3, una amb 2 i una amb 1. Això és impossible perquè només hi ha una cara amb 3.
+La figura E mostra una cara amb 1, una amb 2 i una amb 3. Aquesta és una possible vista.
+La figura D mostra dues cares amb 3 punts, cosa que és impossible, ja que només hi ha una cara amb 3 punts.
+
+Resposta: D)

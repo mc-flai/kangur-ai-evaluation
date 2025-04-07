@@ -1,0 +1,63 @@
+Per resoldre la pregunta 15, necessitem trobar els valors de \( w \) i \( x \) que satisfan les equacions \( w + x = 3 \) i \( \frac{1}{w} + \frac{1}{x} = 1 \). A continuació, necessitem determinar el valor de \( x + \frac{x}{w} \).
+
+**Raonament**:
+
+1. **Equacions inicials**:
+   \[
+   w + x = 3
+   \]
+   \[
+   \frac{1}{w} + \frac{1}{x} = 1
+   \]
+
+2. **Manipulació de la segona equació**:
+   \[
+   \frac{1}{w} + \frac{1}{x} = 1 \implies \frac{x + w}{wx} = 1 \implies x + w = wx
+   \]
+
+3. **Substitució de la primera equació a la modificada**:
+   \[
+   x + w = 3
+   \]
+   \[
+   3 = wx
+   \]
+
+4. **Resolució de \( wx = 3 \)**:
+   \[
+   w = \frac{3}{x}
+   \]
+
+5. **Substitució de \( w = \frac{3}{x} \) a la primera equació**:
+   \[
+   \frac{3}{x} + x = 3
+   \]
+   \[
+   3 + x^2 = 3x
+   \]
+   \[
+   x^2 - 3x + 3 = 0
+   \]
+
+6. **Resolució de l'equació quadràtica \( x^2 - 3x + 3 = 0 \)**:
+   Utilitzem la fórmula quadràtica \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \):
+   \[
+   a = 1, \, b = -3, \, c = 3
+   \]
+   \[
+   x = \frac{3 \pm \sqrt{(-3)^2 - 4 \cdot 1 \cdot 3}}{2 \cdot 1} = \frac{3 \pm \sqrt{9 - 12}}{2} = \frac{3 \pm \sqrt{-3}}{2}
+   \]
+
+   Ja que \(\sqrt{-3}\) no és un nombre real, no hi ha solucions reals per a \( x \).
+
+7. **Valor de \( x + \frac{x}{w} \)**:
+   Per a les solucions reals possibles (no hi ha en aquest cas), necessitaríem:
+   \[
+   x + \frac{x}{w} = \frac{x^2 + x}{w} = \frac{x(x+1)}{w}
+   \]
+
+   Però com no hi ha solucions reals, no podem procedir més enllà.
+
+**Resposta**: No hi ha solucions reals per a \( x \) i \( w \), per tant no podem determinar el valor de \( x + \frac{x}{w} \).
+
+Fins aquí, no es pot seleccionar cap de les opcions donades A), B), C), D) o E) directament, ja que no hi ha solucions reals.

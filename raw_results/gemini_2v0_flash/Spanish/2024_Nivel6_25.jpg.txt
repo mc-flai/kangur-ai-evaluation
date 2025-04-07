@@ -1,0 +1,20 @@
+Razonamiento:
+La suma de los coeficientes de un polinomio P(x) se obtiene evaluando P(1). Por lo tanto, necesitamos encontrar P(1). Sustituimos x = 0 en la ecuación dada:
+P(0 + 1) = 0^2 - 0 + 2P(6)
+P(1) = 2P(6)
+
+Ahora necesitamos encontrar P(6). Para esto, sustituimos x = 5 en la ecuación dada:
+P(5 + 1) = 5^2 - 5 + 2P(6)
+P(6) = 25 - 5 + 2P(6)
+P(6) = 20 + 2P(6)
+P(6) - 2P(6) = 20
+-P(6) = 20
+P(6) = -20
+
+Ahora podemos sustituir el valor de P(6) en la ecuación P(1) = 2P(6):
+P(1) = 2(-20)
+P(1) = -40
+
+Por lo tanto, la suma de los coeficientes de P es -40.
+
+Respuesta: A)

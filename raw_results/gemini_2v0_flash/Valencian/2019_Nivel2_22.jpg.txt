@@ -1,0 +1,18 @@
+Raonament: Siguem *x* el primer nombre.
+*   Segon nombre: *x* + 1
+*   Tercer nombre: *x* + 2
+*   Quart nombre: 3(*x* + 2) = 3*x* + 6
+*   Cinquè nombre: 3*x* + 6 + 2 = 3*x* + 8
+*   Sisè nombre: 2(3*x* + 8) = 6*x* + 16
+
+El quart nombre, 3*x* + 6, sempre serà divisible per 3. Examinem el casos:
+
+*   Si *x* = 1: 1, 2, 3, 9, 11, 22. Divisibles per 3: 3 i 9. N'hi ha dos.
+*   Si *x* = 2: 2, 3, 4, 12, 14, 28. Divisibles per 3: 3 i 12. N'hi ha dos.
+*   Si *x* = 3: 3, 4, 5, 15, 17, 34. Divisibles per 3: 3 i 15. N'hi ha dos.
+*   Si *x* = 4: 4, 5, 6, 18, 20, 40. Divisibles per 3: 6 i 18. N'hi ha dos.
+*   Si *x* = 5: 5, 6, 7, 21, 23, 46. Divisibles per 3: 6 i 21. N'hi ha dos.
+
+Per tant, la resposta correcta és que hi ha sempre dos nombres divisibles per 3.
+
+Resposta: C)

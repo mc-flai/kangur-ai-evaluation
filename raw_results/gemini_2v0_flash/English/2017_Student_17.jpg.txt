@@ -1,0 +1,14 @@
+Reasoning:
+The problem states that Julia has 1009 black discs and 1008 white discs. She wants to make the biggest square possible, alternating the colors. Let $n$ be the side length of the square.
+The total number of discs needed is $n^2$. Since the total number of discs available is $1009+1008=2017$, we want to find the largest $n$ such that $n^2 \le 2017$.
+Since $44^2 = 1936$ and $45^2 = 2025$, the largest square she can make has side length 44.
+So she uses $44^2 = 1936$ discs. The number of discs left is $2017-1936 = 81$.
+Now we need to determine how many of each color were used.
+Since the square has side length 44, it has an even side length. Thus, the number of black and white discs used are equal.
+$1936 / 2 = 968$.
+So she used 968 black discs and 968 white discs.
+The number of black discs remaining is $1009 - 968 = 41$.
+The number of white discs remaining is $1008 - 968 = 40$.
+Therefore, there are 41 black discs and 40 white discs left.
+
+Answer: E)

@@ -1,0 +1,21 @@
+Razonamiento:
+Una fecha sorprendente tiene 8 dígitos diferentes en el formato DD.MM.YYYY. Estamos buscando el primer mes, a partir de ahora, en el que esto puede ocurrir. Necesitamos dígitos diferentes para el día, mes y año. El año debe ser 2016, 2017, 2018, 2019, etc.
+Para marzo, podemos tener fechas como 04.03.2017, pero el 0 y 3 se repiten.
+Para junio, podemos tener 01.06.2345. El año 2345 hace que todos los digitos sean diferentes.
+Para julio, podemos tener 01.07.2345.
+Para agosto, podemos tener 01.08.2345.
+Para diciembre, podemos tener 03.12.4567.
+Examinemos las opciones dadas:
+A) Marzo: 04.03.2017 - 0 y 3 se repiten
+B) Junio: 01.06.2345 - todos los dígitos son diferentes.
+C) Julio: 01.07.2345 - todos los dígitos son diferentes.
+D) Agosto: 01.08.2345 - todos los dígitos son diferentes.
+E) Diciembre: 03.12.4567 - todos los dígitos son diferentes.
+Tenemos que encontrar la fecha sorprendente *más cercana en el tiempo*. La fecha actual debe ser alrededor de septiembre de 2024 (año en que se está respondiendo). Entonces, el primer mes en tener una fecha sorprendente, a partir de ahora (septiembre 2024), será en el año 2345. Todos los meses pueden tener esa fecha, pero tenemos que considerar que la fecha más temprana en el calendario será el mes más temprano.
+B) Junio (01.06.2345)
+C) Julio (01.07.2345)
+D) Agosto (01.08.2345)
+E) Diciembre (03.12.4567)
+Por lo tanto, el primer mes sería Junio.
+
+Respuesta: B)

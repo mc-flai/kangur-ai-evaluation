@@ -1,0 +1,15 @@
+Raonament: Siga el costat del quadrat $s$. Aleshores, l'àrea del quadrat és $s^2$.
+L'àrea del triangle ombrejat $PQR$ es pot calcular restant de l'àrea del quadrat les àrees dels triangles no ombrejats $PAR$, $RBQ$ i $PBQ$.
+L'àrea del triangle $PAR$ és $\frac{1}{2} \cdot PA \cdot AR = \frac{1}{2} \cdot \frac{s}{2} \cdot \frac{s}{2} = \frac{s^2}{8}$.
+L'àrea del triangle $RBQ$ és $\frac{1}{2} \cdot RB \cdot BQ = \frac{1}{2} \cdot \frac{s}{2} \cdot \frac{s}{2} = \frac{s^2}{8}$.
+L'àrea del triangle $PBQ$ és $\frac{1}{2} \cdot AB \cdot h = \frac{1}{2} \cdot s \cdot \frac{s}{2} = \frac{s^2}{4}$.
+La suma de les àrees dels triangles no ombrejats és $\frac{s^2}{8} + \frac{s^2}{8} + \frac{s^2}{4} = \frac{s^2}{4} + \frac{s^2}{4} = \frac{2s^2}{4} = \frac{s^2}{2}$.
+Per tant, l'àrea del triangle ombrejat és $s^2 - \frac{s^2}{2} = \frac{s^2}{2}$.
+L'àrea dels triangles no ombrejats són: $APR, RBQ$. L'àrea del triangle $APR$ és $\frac{1}{2} \times \frac{s}{2} \times \frac{s}{2} = \frac{s^2}{8}$.
+L'àrea del triangle $QBC$ és $\frac{1}{2} \times \frac{s}{2} \times s = \frac{s^2}{4}$.
+L'àrea del triangle $RCD$ és $\frac{1}{2} \times \frac{s}{2} \times s = \frac{s^2}{4}$.
+L'àrea total dels triangles no ombrejats és $\frac{s^2}{8} + \frac{s^2}{4} + \frac{s^2}{4} = \frac{s^2}{8} + \frac{2s^2}{8} + \frac{2s^2}{8} = \frac{5s^2}{8}$.
+L'àrea ombrejada és $s^2 - \frac{5s^2}{8} = \frac{3s^2}{8}$.
+La fracció de l'àrea del quadrat ombrejada és $\frac{3s^2/8}{s^2} = \frac{3}{8}$.
+
+Resposta: E)

@@ -1,0 +1,44 @@
+Per resoldre aquesta pregunta, hem de determinar l'àrea de la flor dibuixada en un hexàgon regular amb costats de longitud 1 i arcs de circumferència de radi 1, centrats en els vèrtexs de l'hexàgon.
+
+### Raonament:
+
+1. **Entenem la figura**:
+   - L'hexàgon regular té 6 costats, cada un de longitud 1.
+   - Cada arc de circumferència és centrat en els vèrtexs de l'hexàgon i té un radi de 1.
+
+2. **Calculem l'àrea de l'hexàgon**:
+   - L'àrea d'un hexàgon regular de costat \( a \) és donada per la fórmula:
+     \[
+     A_{\text{hexàgon}} = \frac{3\sqrt{3}}{2} a^2
+     \]
+   - Per a \( a = 1 \):
+     \[
+     A_{\text{hexàgon}} = \frac{3\sqrt{3}}{2} \times 1^2 = \frac{3\sqrt{3}}{2}
+     \]
+
+3. **Calculem l'àrea dels sectors circulars**:
+   - Cada sector circular té un radi de 1 i un angle de 60 graus (ja que l'hexàgon regular té angles interns de 120 graus).
+   - L'àrea d'un sector circular és:
+     \[
+     A_{\text{sector}} = \frac{\theta}{360} \times \pi r^2
+     \]
+   - Per a \(\theta = 60\) graus i \( r = 1 \):
+     \[
+     A_{\text{sector}} = \frac{60}{360} \times \pi \times 1^2 = \frac{1}{6} \pi
+     \]
+   - Com que hi ha 6 sectors:
+     \[
+     A_{\text{sectors}} = 6 \times \frac{1}{6} \pi = \pi
+     \]
+
+4. **Calculem l'àrea de la flor dibuixada**:
+   - L'àrea de la flor dibuixada és l'àrea de l'hexàgon menys l'àrea dels sectors:
+     \[
+     A_{\text{flor}} = A_{\text{hexàgon}} - A_{\text{sectors}} = \frac{3\sqrt{3}}{2} - \pi
+     \]
+
+### Resposta:
+
+La resposta correcta és:
+
+C) \( 4\sqrt{3} - \pi \)

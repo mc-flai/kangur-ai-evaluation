@@ -1,0 +1,19 @@
+Raonament:
+1. **Identificar la informació clau:** La suma de tres cel·les veïnes (horitzontal, vertical o diagonal) ha de ser 12. Hem d'esbrinar la suma dels nombres de la segona fila.
+2. **Analitzar la segona fila:** La segona fila té un 6 i un 2. Per tant, la suma dels tres nombres ha de ser 12.
+3. **Càlculs:** 6 + 2 = 8. Per tant, la cel·la restant a la segona fila ha de ser 12 - 8 = 4. La suma de la segona fila és 6 + 2 + 4 = 12.
+4. **Considerar les opcions:** Hem de trobar una resposta correcta. Ara que la segona fila suma 12, necessitem saber quina suma de tres cel·les fa 12.
+    *   La suma de la primera columna ja té 5+6 = 11. Per tant, el valor de la casella de sota del 2 ha de ser 1.
+    *   La suma de la tercera columna és 1+2 = 3. Per tant, el valor de la casella superior ha de ser 12-3 = 9.
+    *   Com que la primera fila ha de sumar 12, el valor de la primera casella ha de ser 12-5-9 = -2. Això no és possible, perquè només poden haver nombres positius.
+    *   El nombre de la casella restant de la segona fila és 4, i tenim que la segona fila té 6 i 2.
+    *   La tercera fila suma 2+1+9=12
+    *   La primera fila suma 5+4+3=12
+    *   La segona fila suma 6+4+2=12
+5. **Calcula la suma de tots els nombres:**
+    *   Primera fila: 5+4+3 = 12
+    *   Segona fila: 6+4+2 = 12
+    *   Tercera fila: 9+1+2 = 12
+    *   Suma de la graella: 12+12+12 = 36
+
+Resposta: B)

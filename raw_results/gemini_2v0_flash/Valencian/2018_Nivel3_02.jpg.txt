@@ -1,0 +1,44 @@
+Raonament: Estem buscant el valor més gran possible que es pot obtenir sumant les xifres del dia i del mes de l'any 2018. Hem de considerar que el dia pot anar de l'1 al 31, i el mes de l'1 al 12.
+Si prenem el dia més gran, 31, tenim que les xifres són 3 i 1. Si prenem el mes més gran, 12, tenim que les xifres són 1 i 2.
+Per tant, hem de buscar una combinació de dia i mes que maximitzi la suma de les xifres.
+Provem amb el mes 9 (09): per al 29/09/2018, tindríem 2 + 9 + 0 + 9 = 20.
+Provem amb el mes 10 (10): per al 29/10/2018, tindríem 2 + 9 + 1 + 0 = 12.
+Provem amb el dia 29 i el mes 9: 29/09/2018 -> 2+9+0+9 = 20
+Provem amb el dia 19 i el mes 9: 19/09/2018 -> 1+9+0+9 = 19
+Provem amb el dia 9 i el mes 19 (impossible)
+Analitzem el dia 29. El mes podria ser 9, 10, 11 o 12:
+- 29/09 -> 2+9+0+9 = 20
+- 29/10 -> 2+9+1+0 = 12
+- 29/11 -> 2+9+1+1 = 13
+- 29/12 -> 2+9+1+2 = 14
+Ara provem amb el dia 19. El mes podria ser 9, 10, 11 o 12:
+- 19/09 -> 1+9+0+9 = 19
+- 19/10 -> 1+9+1+0 = 11
+- 19/11 -> 1+9+1+1 = 12
+- 19/12 -> 1+9+1+2 = 13
+Ara provem amb el dia 31. El mes podria ser 9, 10, 11 o 12:
+- 31/09 -> 3+1+0+9 = 13
+- 31/10 -> 3+1+1+0 = 5
+- 31/11 -> 3+1+1+1 = 6
+- 31/12 -> 3+1+1+2 = 7
+Considerant el dia 29 del mes de setembre (29/09), la suma és 2+9+0+9 = 20.
+Considerant el dia 9 del mes de desembre (09/12), la suma és 0+9+1+2 = 12.
+Però el dia 19 del mes de setembre (19/09), la suma és 1+9+0+9 = 19.
+
+Anem a analitzar el dia 9 i el mes 9, així: 09/09 -> 0+9+0+9 = 18
+Anem a analitzar el dia 29 del mes 9, així: 29/09 -> 2+9+0+9 = 20.
+Anem a analitzar el dia 29 del mes 12, així: 29/12 -> 2+9+1+2 = 14
+Anem a analitzar el dia 19 del mes 9, així: 19/09 -> 1+9+0+9 = 19
+Anem a analitzar el dia 9 del mes 29 (impossible)
+Anem a analitzar el dia 29 del mes 09, així: 29/09 -> 2+9+0+9 = 20
+Anem a analitzar el dia 09/12 així: 09/12 -> 0+9+1+2=12.
+Provem 30 de setembre: 30/09 = 3+0+0+9 = 12
+Provem 31 d'agost: 31/08 = 3+1+0+8 = 12
+Provem 29 de juny: 29/06 = 2+9+0+6 = 17
+Provem 29 de setembre: 29/09 = 2+9+0+9 = 20
+Provem el màxim possible al mes de novembre, el 19/11 = 1+9+1+1 = 12
+Provem el 9 de desembre = 09/12 = 0+9+1+2 = 12
+
+El màxim possible és 20, que correspon a la data 29/09.
+
+Resposta: B)

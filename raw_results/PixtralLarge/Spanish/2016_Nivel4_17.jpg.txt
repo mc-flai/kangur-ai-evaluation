@@ -1,0 +1,15 @@
+Para resolver este problema, necesitamos determinar el número de coronas circulares medianas que dividen un círculo de radio 8 cm en circunferencias concéntricas con una distancia de 2 cm entre cada circunferencia.
+
+1. **Determinar el radio del círculo más pequeño**: El radio del círculo más pequeño es 2 cm, ya que la menor de las circunferencias tiene 2 cm de radio.
+
+2. **Calcular los radios de las circunferencias concéntricas**: Cada circunferencia siguiente tendrá un radio 2 cm mayor que la anterior. Los radios serían:
+   - Radio del primer círculo: 2 cm
+   - Radio del segundo círculo: 4 cm
+   - Radio del tercer círculo: 6 cm
+   - Radio del cuarto círculo: 8 cm
+
+3. **Contar las coronas circulares**: El número de coronas circulares es el número de espacios entre estas circunferencias concéntricas. Entre el círculo de radio 2 cm y el de radio 8 cm hay 3 espacios (cada uno de 2 cm de ancho).
+
+Razonamiento: Al determinar los radios de las circunferencias concéntricas, vemos que hay 4 círculos (con radios 2 cm, 4 cm, 6 cm y 8 cm). El número de coronas circulares es el número de espacios entre estos círculos, que es 3.
+
+Respuesta: C)

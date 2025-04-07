@@ -1,0 +1,9 @@
+Raonament: Si 3/4 dels homes estan ballant amb 4/5 de les dones, aleshores el nombre d'homes que ballen ha de ser igual al nombre de dones que ballen. Siguin $h$ el nombre d'homes presents i $d$ el nombre de dones presents. Llavors, tenim que (3/4) * h = (4/5) * d. El nombre total de persones és menor o igual a 50, per tant h + d <= 50.
+Podem reescriure l'equació com $h = \frac{4}{5} \cdot \frac{4}{3} d = \frac{16}{15} d$.
+Com que el nombre d'homes i dones ha de ser enters, $d$ ha de ser múltiple de 15. Per tant, $d=15k$ per algun enter $k$. Aleshores $h = \frac{16}{15} \cdot 15k = 16k$.
+També, $h+d \le 50$, de manera que $16k+15k \le 50$ o $31k \le 50$. Això implica que $k=1$.
+Així, tenim $d=15$ i $h=16$.
+El nombre d'homes ballant és (3/4)*16 = 12 i el nombre de dones ballant és (4/5)*15 = 12. Per tant, hi ha 12 parelles ballant.
+El nombre total de persones ballant és 12 homes + 12 dones = 24 persones.
+
+Resposta: B)

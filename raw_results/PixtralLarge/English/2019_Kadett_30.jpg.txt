@@ -1,0 +1,19 @@
+**Reasoning**: The question states that there are 18 carriages in total on the train and 700 passengers. Additionally, it is mentioned that every five successive carriages have exactly 199 passengers in total.
+
+To find out how many passengers are in two middle carriages, we need to calculate the number of passengers in one middle carriage first and then multiply it by 2.
+
+Since every five successive carriages have 199 passengers, we need to find out how many carriages are left out when calculating the middle carriages. The train has 18 carriages, and the problem focuses on the two middle carriages, which means we need to look at a set of 5 carriages where the two middle carriages are in the middle of these 5.
+
+If every 5 carriages have 199 passengers, we can assume a uniform distribution of passengers across these carriages. Therefore, each carriage in the set of 5 will have 199/5 passengers.
+
+199 / 5 = 39.8 passengers per carriage
+
+Since there are two middle carriages, we multiply this number by 2:
+
+39.8 * 2 = 79.6
+
+Since the number of passengers must be an integer, we round 79.6 to the nearest whole number, which is 78.
+
+Thus, the number of passengers in the two middle carriages is 78.
+
+**Answer**: C)

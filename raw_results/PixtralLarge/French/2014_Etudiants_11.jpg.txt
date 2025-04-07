@@ -1,0 +1,17 @@
+### Raisonnement :
+
+Pour répondre à cette question, nous devons déterminer quel paramètre d'une boîte rectangulaire (a, b ou c) doit être augmenté pour maximiser l'augmentation du volume. 
+
+Le volume d'une boîte rectangulaire est donné par la formule \( V = a \times b \times c \).
+
+Si l'on augmente l'une des dimensions \( a \), \( b \), ou \( c \) d'une quantité donnée positive, l'augmentation du volume sera proportionnelle au produit des deux autres dimensions.
+
+- Si on augmente \( a \), l'augmentation de volume est \( \Delta V = \Delta a \times b \times c \).
+- Si on augmente \( b \), l'augmentation de volume est \( \Delta V = a \times \Delta b \times c \).
+- Si on augmente \( c \), l'augmentation de volume est \( \Delta V = a \times b \times \Delta c \).
+
+Puisque \( a < b < c \), l'augmentation de volume sera la plus grande lorsque l'augmentation est appliquée à la plus petite dimension, car les autres dimensions multiplient cette augmentation.
+
+**Donc, l'augmentation de volume est la plus grande si on augmente \( a \).**
+
+### Réponse : A) on augmente \( a \).

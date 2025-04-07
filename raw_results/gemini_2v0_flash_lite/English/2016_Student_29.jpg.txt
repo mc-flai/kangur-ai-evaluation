@@ -1,0 +1,5 @@
+Reasoning: The target coloring is a chessboard pattern. Notice that each move flips three adjacent fields in a row or column. Analyzing the pattern to be obtained, we can notice that to get this coloring, we will need to flip fields in the first, third, and fifth columns of the grid. This means that the final chessboard colouring can be obtained. By inverting adjacent columns, we can see that five moves would achieve this chessboard coloring.
+
+Consider flipping the three cells in the first column. Then in the first column we get three black cells. We can repeat this in columns 3 and 5. Therefore, the coloring is possible. Since we can produce this coloring in 5 moves, then 10 moves are not the least number of moves, and 12 is not the least number of moves, and more than 12 are not the least number of moves. The minimal solution is close to 5 but the target is with alternating patterns. We can see the minimum number of moves is less than 10, as one can achieve chessboard coloring by repeating the inversion of 3 adjacent cells in the row and column.
+
+Answer: A)

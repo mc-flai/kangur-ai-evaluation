@@ -1,0 +1,29 @@
+Let's analyze the given problem step-by-step.
+
+We have five balls, initially with values 10, 9, 3, 7, and 20, moving in opposite directions. When two balls collide, the larger ball will swallow the smaller ball and increase its value by the smaller ball's value. The larger ball will continue to move in its original direction.
+
+We can follow the order of collisions by noting the starting positions and movements:
+- Balls 10 and 9 will collide first.
+- Balls 3 and 7 will collide next.
+- The ball resulting from the collision of 3 and 7 will collide with 20.
+- Finally, the remaining balls will collide.
+
+Let's calculate each collision step-by-step:
+
+1. Ball 10 (moving left) collides with Ball 9 (moving right):
+    - 10 + 9 = 19 (moving left)
+
+2. Ball 3 (moving left) collides with Ball 7 (moving right):
+    - 7 + 3 = 10 (moving right)
+
+3. Ball 10 (moving right) collides with Ball 20 (moving left):
+    - 20 + 10 = 30 (moving left)
+
+4. Ball 19 (moving left) collides with Ball 30 (moving left):
+    - 30 + 19 = 49 (moving left)
+
+So, the final value of the ball after all collisions is 49.
+
+Reasoning: By following the rules of collisions and calculating the values step-by-step, we find that the final value of the ball after all collisions is 49.
+
+Answer: C)

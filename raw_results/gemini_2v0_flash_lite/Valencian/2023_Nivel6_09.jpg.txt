@@ -1,0 +1,5 @@
+Raonament:
+Un polinomi de grau 5 té la forma a₅x⁵ + a₄x⁴ + a₃x³ + a₂x² + a₁x + a₀, on els coeficients (a₀, a₁, a₂, a₃, a₄, a₅) són 1 o -1. Si 1 és una arrel del polinomi, aleshores la suma dels seus coeficients és igual a 0. Això vol dir que la suma dels coeficients és: a₅ + a₄ + a₃ + a₂ + a₁ + a₀ = 0. Com que cada coeficient pot ser 1 o -1, necessitem un nombre igual de coeficients 1 i -1. Com que tenim 6 coeficients, no és possible tenir un nombre igual de 1s i -1s que sumin a 0. Per exemple, per tenir una suma de 0 amb 6 coeficients, hi hauria d'haver 3 1s i 3 -1s.
+Així, hi hauria d'haver 3 coeficients que valguessin 1 i 3 coeficients que valguessin -1. El nombre de maneres de triar 3 posicions per als coeficients 1 entre 6 posicions és donada per la combinació ⁶C₃ = 6!/(3!3!) = (6*5*4)/(3*2*1) = 20.
+
+Resposta: D)

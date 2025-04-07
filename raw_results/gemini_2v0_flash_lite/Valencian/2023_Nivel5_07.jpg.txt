@@ -1,0 +1,2 @@
+Raonament: Primer, simplify the expression. We have 2^57 * 3^4 * 5^53 * 4 = 2^57 * 81 * 5^53 * 4 = 2^59 * 81 * 5^53 = 2^6 * 81 * (2*5)^53 = 64 * 81 * 10^53. Since we're looking for the last non-zero digit, we can ignore the 10^53 part.  We calculate 64*81 = 5184. Thus the last non-zero digit is 4.
+Resposta: C)

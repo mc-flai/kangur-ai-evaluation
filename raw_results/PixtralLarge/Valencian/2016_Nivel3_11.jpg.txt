@@ -1,0 +1,23 @@
+**Raonament**:
+
+Per determinar el resultat de l'operació \(1 - 2 + 3 - 4 + 5 - \cdots + 2015 - 2016\), podem observar que la seqüència està formada per parelles de números seguits:
+
+\[
+(1 - 2) + (3 - 4) + (5 - 6) + \cdots + (2015 - 2016)
+\]
+
+Cada parell de la forma \((n - (n+1))\) és igual a \(-1\), ja que:
+
+\[
+n - (n + 1) = n - n - 1 = -1
+\]
+
+Ara, calculem quantes parelles hi ha. La primera parella és \((1 - 2)\) i l'última parella és \((2015 - 2016)\). Això significa que hi ha \(2016 / 2 = 1008\) parelles.
+
+Com que cada parell suma \(-1\), el resultat total és:
+
+\[
+1008 \text{ parelles} \times -1 = -1008
+\]
+
+**Resposta**: B)

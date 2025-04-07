@@ -1,0 +1,31 @@
+Raonament:
+Let 'P' be the total number of apples. Let 'N' be the number of children. Initially, each child gets P/N apples.
+If there were N-2 children, each would get P/(N-2) apples, which is one more than the initial amount:
+P/(N-2) = P/N + 1    (Equation 1)
+If there were N-3 children, each would get P/(N-3) apples, which is two more than the initial amount:
+P/(N-3) = P/N + 2    (Equation 2)
+From Equation 1:
+P/(N-2) - P/N = 1
+PN - P(N-2) = N(N-2)
+PN - PN + 2P = N^2 - 2N
+2P = N^2 - 2N     (Equation 3)
+From Equation 2:
+P/(N-3) - P/N = 2
+PN - P(N-3) = 2N(N-3)
+PN - PN + 3P = 2N^2 - 6N
+3P = 2N^2 - 6N   (Equation 4)
+Multiply Equation 3 by 3/2:
+3P = (3/2)N^2 - 3N   (Equation 5)
+Equate Equation 4 and Equation 5:
+2N^2 - 6N = (3/2)N^2 - 3N
+(1/2)N^2 - 3N = 0
+N^2 - 6N = 0
+N(N - 6) = 0
+N = 0 or N = 6
+Since the number of children can't be 0, N = 6.
+Let's test this: If N=6, then 2P = 36 - 12 = 24, so P=12
+Initially, each gets 12/6 = 2 apples.
+If there were 6-2 = 4 children, each gets 12/4 = 3 apples, which is 1 more.
+If there were 6-3 = 3 children, each gets 12/3 = 4 apples, which is 2 more.
+
+Resposta: A)

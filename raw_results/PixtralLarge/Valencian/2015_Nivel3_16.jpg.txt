@@ -1,0 +1,54 @@
+Per resoldre aquesta pregunta, hem de trobar els valors de \(a\), \(b\), \(c\), \(d\) i \(e\) que satisfan les següents igualtats:
+
+\[ a - 2 = b + 3 \]
+\[ b + 3 = c - 4 \]
+\[ c - 4 = d + 5 \]
+\[ d + 5 = e - 6 \]
+
+Primer, observem que totes les equacions comparteixen la següent relació:
+
+\[ a - 2 = b + 3 = c - 4 = d + 5 = e - 6 \]
+
+Doncs, totes les expressions tenen el mateix valor.
+
+Comencem igualant les expressions en parelles:
+
+1. \(a - 2 = b + 3\)
+   \[ a = b + 5 \]
+
+2. \(b + 3 = c - 4\)
+   \[ b + 3 = c - 4 \]
+   \[ b = c - 7 \]
+
+3. \(c - 4 = d + 5\)
+   \[ c - 4 = d + 5 \]
+   \[ c = d + 9 \]
+
+4. \(d + 5 = e - 6\)
+   \[ d + 5 = e - 6 \]
+   \[ d = e - 11 \]
+
+Ara, observem que:
+
+\[ a - 2 = e - 6 \]
+\[ a = e - 4 \]
+
+Aleshores, tenim les següents relacions:
+
+- \(a = e - 4\)
+- \(b = c - 7\)
+- \(c = d + 9\)
+- \(d = e - 11\)
+
+De les relacions anteriors, podem trobar la relació directa entre cada variable i \(e\):
+
+- \(a = e - 4\)
+- \(b = (e - 11) + 9 - 7 = e - 9\)
+- \(c = e - 11 + 9 = e - 2\)
+- \(d = e - 11\)
+
+Per tant, el més gran d'aquests valors és \(c\), ja que \(e - 2\) és més gran que \(e - 4\), \(e - 9\), \(e - 11\).
+
+Raonament: El més gran dels nombres \(a\), \(b\), \(c\), \(d\), i \(e\) és \(c\).
+
+Resposta: C)

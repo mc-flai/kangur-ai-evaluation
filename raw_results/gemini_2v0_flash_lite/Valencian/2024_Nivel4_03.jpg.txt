@@ -1,0 +1,11 @@
+Raonament:
+To solve this problem, we need to determine how many unique 4-digit numbers can be formed using the digits 3, 5, 3, and 3.  The repeated digit is 3 (appears three times), and the other digit is 5. We can calculate the possibilities by thinking about the placement of the 5, since the rest of the digits are 3.
+
+*   **5XXX:** 5333
+*   **35XX:** 3533
+*   **335X:** 3353
+*   **3335:** 3335
+
+Therefore, there are 4 different 4-digit numbers possible.
+
+Resposta: B)

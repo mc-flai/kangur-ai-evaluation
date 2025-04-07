@@ -1,0 +1,26 @@
+Raonament:
+Siga $n$ el nombre de persones en el grup.
+El descompte per a cada persona és $n\%$, per tant cada persona paga $100\% - n\% = (100-n)\%$ del preu normal.
+El màxim descompte total per al grup és el preu de 4 entrades normals. Això vol dir que el preu que paga el grup és el preu de $n$ entrades menys el descompte, i això ha de ser igual al preu de $n-4$ entrades (en cas que $n > 4$). Si $n <= 4$, aleshores pagarien 0.
+
+El preu total amb descompte per a un grup de $n$ persones és $n \cdot (100-n)\% = n \cdot \frac{100-n}{100}$.
+Si el preu d'una entrada és $p$, el preu total amb descompte ha de ser major o igual que $(n-4)p$.
+Això vol dir que $n \frac{100-n}{100} \cdot p \geq (n-4)p$, o bé que el descompte sigui com a molt el preu de 4 entrades, és a dir, $n - n \frac{100-n}{100} = 4$
+$n - \frac{100n - n^2}{100} = 4$
+$\frac{100n - 100n + n^2}{100} = 4$
+$\frac{n^2}{100} = 4$
+$n^2 = 400$
+$n = \sqrt{400} = 20$.
+
+Per tant, la promoció s'hauria de limitar a grups de, com a màxim, 20 persones.
+Si hi ha 20 persones, el descompte és del 20% per persona, per tant cada persona paga el 80% del preu normal.
+Aleshores el preu total que paguen les 20 persones és $20 \cdot 0.8 = 16$ entrades normals, de manera que el descompte total és de 4 entrades.
+
+Si hi ha 21 persones, el descompte és del 21% per persona, per tant cada persona paga el 79% del preu normal.
+Aleshores el preu total que paguen les 21 persones és $21 \cdot 0.79 = 16.59$ entrades normals, de manera que el descompte total és de 4.41 entrades, que supera el límit de 4 entrades.
+
+Raonament: Considerem que el preu d'una entrada és 1. El màxim descompte que pot fer el gimnàs és el preu de 4 entrades, per tant 4.
+Un grup de n persones té un descompte de n% per entrada. Això vol dir que el descompte total del grup és n% del preu de n entrades, o seja, n * (n/100) = n^2 / 100.
+Aquest descompte no pot ser major de 4, per tant, n^2 / 100 <= 4, n^2 <= 400, n <= 20.
+
+Resposta: B)

@@ -1,0 +1,10 @@
+Reasoning:
+Let the side length of the smallest square be $s_1$. Since its area is 1, $s_1 = \sqrt{1} = 1$.
+Let the side length of the square to the left of the smallest square be $s_2$. Then $s_2 = s_1 + s_1 = 2s_1 = 2(1) = 2$.
+Let the side length of the square below the smallest square be $s_3$. Then $s_3 = s_1 + s_2 = 1 + 2 = 3$.
+The side length of the largest square is $s_2 + s_3 = 2 + 3 = 5$.
+The side length of the square above the largest square on the right is $s_1 = 1$.
+
+The value of $h$ is the difference between the side of the square to the right, which is 5, and the side length of the smaller square on top, which is 1. Thus $h = 5 - 1 = 4$.
+
+Answer: C)

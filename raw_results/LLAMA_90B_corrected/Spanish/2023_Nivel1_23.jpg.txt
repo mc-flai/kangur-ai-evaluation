@@ -1,0 +1,28 @@
+Razonamiento: 
+
+1.  **Análisis Preliminar**: Se proporciona información sobre bloques existentes y la expansión que se realizará. Contamos con una mesa original hecha de 1 bloques numerados del 1 al 50, colocados.
+
+2.  **Suposición Inicial**: El bloque número 49 es el bloque que se toma como base para la nueva torre. 
+
+3.  **Cuenta y Gráfico**: La nueva torre va a tener el patrón de bloques:
+
+    *   Bloques de la parte superior, del 1 al 49.
+    *   Bloque base: número 50.
+    *   Opción de elección de el bloque superior de la nueva torre determinante, el cual se colocará encima del bloque 50: 49.
+
+4.  **Exploración de Opciones**: Como se enuncia la pregunta estas opciones son: 1, 2, 3, 4. Allí es donde identificamos las sumas acarreadas a la nueva torre si ponemos el bloque 49 como extremo y 4 restados, súmenos 3, sumas 2, dojo.
+
+    *   Diferencia entre bloques superior existente e inferior nuevos será de 1.
+    *   Diferencia entre bloque superior existente e inferior nuevos con 1 menos de él será de 2.
+    *   Diferencia entre bloque superior existente e inferior nuevos con 2 menos de él será de 3.
+    *   Diferencia entre el bloque superior existente e inferior nuevos con 3 menos de él será de 4.
+
+5.  **Elegir Esquema Correcto**:
+
+    *   Opción a) Posee o tendrá bloques que renowned 1 por cada tanto que caiga.
+    *   Opción b) Posee o tendrá bloques que restan 1 menos de cada tanto por lo tanto 2.
+    *   Opción c) Posee o tendrá bloques que restan 1 menos de cada tanto por lo tanto 3.
+    *   Opción d) Posee o tendrá bloques que restan 1 menos de cada tanto por lo tanto 4.
+    *   Opción e) Ilegal.
+
+Respuesta: D)

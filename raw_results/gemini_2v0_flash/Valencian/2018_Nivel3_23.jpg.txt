@@ -1,0 +1,9 @@
+Raonament: Primer, hem de calcular quants punts hi ha en total en 7 daus. Cada dau té 6 cares i la suma dels punts en cares oposades és sempre 7 (1+6, 2+5, 3+4). Així, la suma de punts en un dau és 1+2+3+4+5+6 = 21. Per tant, 7 daus tenen un total de 7 * 21 = 147 punts.
+
+A continuació, hem de determinar quantes cares s'han encolat. Hi ha 7 daus i, per tant, 6 unions. Cada unió implica que dues cares deixen de ser exteriors. Així, hi ha 6 unions * 2 cares/unió = 12 cares que no estan a l'exterior.
+
+L'enunciat diu que en cada parella de cares encolades hi ha el mateix nombre de punts. Per tant, cada parella de cares encolades suma 7. Així, els 12 punts en cares encolades sumen 6 * 7 = 42 punts.
+
+Finalment, per a calcular el nombre de punts a les cares exteriors, restem els punts de les cares encolades del total de punts dels daus: 147 - 42 = 105.
+
+Resposta: C)

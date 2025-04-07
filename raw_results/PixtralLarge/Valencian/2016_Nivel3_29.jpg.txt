@@ -1,0 +1,31 @@
+Per determinar l'àrea del rectangle \( ACQP \), hem de seguir aquests passos:
+
+1. **Identificar les dimensions del rectangle \( ABCD \)**:
+   - D'acord amb el problema, l'àrea del rectangle \( ABCD \) és 1.
+   - Les longituds dels costats \( AB \) i \( BC \) es poden determinar a partir de les opcions donades.
+   - \( AB = \sqrt{2} \)
+   - \( BC = 1 \)
+
+2. **Calcular les dimensions del rectangle \( ACQP \)**:
+   - El rectangle \( ACQP \) comparteix el costat \( AC \) amb el rectangle \( ABCD \).
+   - La longitud del costat \( AC \) es calcula utilitzant el teorema de Pitàgores en el triangle rectangle \( ABC \):
+     \[
+     AC = \sqrt{AB^2 + BC^2} = \sqrt{(\sqrt{2})^2 + 1^2} = \sqrt{2 + 1} = \sqrt{3}
+     \]
+
+3. **Determinar la longitud del costat \( AQ \)**:
+   - \( AQ \) és la mateixa que \( AD \) en el rectangle \( ACQP \).
+   - \( AD = 1 + \sqrt{2} \)
+
+4. **Calcular l'àrea del rectangle \( ACQP \)**:
+   - L'àrea del rectangle \( ACQP \) es calcula multiplicant les longituds dels costats \( AC \) i \( AQ \):
+     \[
+     \text{Àrea de } ACQP = AC \times AQ = \sqrt{3} \times (1 + \sqrt{2})
+     \]
+
+5. **Comparar amb les opcions donades**:
+   - L'àrea del rectangle \( ACQP \) és \( 1 + \sqrt{2} \).
+
+Raonament: Hem calculat les dimensions del rectangle \( ACQP \) utilitzant el teorema de Pitàgores i les longituds dels costats donats. L'àrea del rectangle \( ACQP \) és \( 1 + \sqrt{2} \).
+
+Resposta: D) \( 1 + \sqrt{2} \).

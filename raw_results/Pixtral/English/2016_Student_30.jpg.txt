@@ -1,0 +1,47 @@
+### Reasoning:
+
+1. We are given that the positive whole number \( N \) has exactly six different (positive) factors including 1 and \( N \).
+2. The product of five of these factors is 648.
+3. To find the sixth factor, we need to determine \( N \) itself.
+
+Let's denote the six factors of \( N \) as \( f_1, f_2, f_3, f_4, f_5, \) and \( f_6 \), where \( f_1 = 1 \) and \( f_6 = N \).
+
+Given that the product of five of these factors is 648:
+\[ f_1 \cdot f_2 \cdot f_3 \cdot f_4 \cdot f_5 = 648 \]
+
+Since \( f_1 = 1 \), we have:
+\[ 1 \cdot f_2 \cdot f_3 \cdot f_4 \cdot f_5 = 648 \]
+\[ f_2 \cdot f_3 \cdot f_4 \cdot f_5 = 648 \]
+
+To find \( N \), we need to determine the sixth factor \( f_6 \). We know that:
+\[ N = f_6 \]
+
+We need to find the factors of 648 that multiply to give 648 and include \( N \) as one of them.
+
+First, let's factorize 648:
+\[ 648 = 2^3 \times 3^4 \]
+
+The factors of 648 are:
+\[ 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 27, 36, 54, 72, 108, 144, 216, 324, 648 \]
+
+We need to find a set of five factors whose product is 648 and determine the sixth factor. Let's try different combinations:
+
+- \( 1 \times 2 \times 3 \times 4 \times 9 = 54 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 6 \times 9 = 54 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 8 \times 9 = 144 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 12 \times 9 = 72 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 18 \times 6 = 216 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 24 \times 4 = 144 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 27 \times 4 = 216 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 36 \times 3 = 72 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 54 \times 2 = 324 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 72 \times 3 = 432 \) (This is not 648)
+- \( 1 \times 2 \times 3 \times 108 \times 2 = 648 \) (This is correct)
+
+So, the factors are:
+\[ 1, 2, 3, 6, 108, \text{and} 216 \]
+
+Thus, \( N = 216 \).
+
+### Answer:
+C) 9

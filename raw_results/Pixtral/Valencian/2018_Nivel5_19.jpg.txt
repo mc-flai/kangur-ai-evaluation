@@ -1,0 +1,28 @@
+**Pregunta:** Considerem el conjunt de tots els nombres naturals entre 1 i 17, aquests dos inclosos. D'aquí conjuctelegim tots els subconjunts de 5 elements de manera que quan n'ordenem de manera creixent els elements es forma una progressió aritmètica (per exemple, {1, 2, 3, 4, 5} o {5, 8, 11, 14, 17}). Quants subconjunts d'aquest tipus podem trobar?
+
+**Opcions:**
+A) 14
+B) 16
+C) 20
+D) 26
+E) 28
+
+**Razonamiento:**
+1. Identifiquemos los elementos posibles del conjunto {1, 2, ..., 17}.
+2. Para formar una progresión aritmética (PA) con 5 términos, necesitamos encontrar una secuencia donde la diferencia común (r) sea constante.
+3. La fórmula para la n-ésima término de una PA es a_n = a_1 + (n-1)d, donde a_1 es el primer término y d es la diferencia común.
+4. Dado que el conjunto tiene 17 elementos, el último término de la PA con 5 elementos no puede ser mayor que 17.
+5. Calculamos el último término posible para diferentes diferencias comunes (d):
+   - Si d = 1, el último término es 1 + 4(1) = 5.
+   - Si d = 2, el último término es 2 + 4(2) = 10.
+   - Si d = 3, el último término es 3 + 4(3) = 13.
+   - Si d = 4, el último término es 4 + 4(4) = 16.
+6. Por lo tanto, las diferencias comunes posibles son 1, 2, 3 y 4.
+7. Para cada d, calculamos el número de progresiones posibles:
+   - Para d = 1, el primer término puede ser de 1 a 13 (13 progresiones).
+   - Para d = 2, el primer término puede ser de 1 a 9 (9 progresiones).
+   - Para d = 3, el primer término puede ser de 1 a 7 (7 progresiones).
+   - Para d = 4, el primer término puede ser de 1 a 5 (5 progresiones).
+8. Sumamos todas las progresiones posibles: 13 + 9 + 7 + 5 = 34.
+
+**Respuesta:** E)

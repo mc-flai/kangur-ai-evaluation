@@ -1,0 +1,11 @@
+Raisonnement : Il faut déterminer quel chemin est le plus court pour aller du point X au centre. Pour cela, il faut observer chacun des chemins et comparer leur longueur.
+
+*   **A)** : Il y a 1 segment vertical extérieur + 1 segment vertical intérieur + 1 segment horizontal du rayon intérieur
+*   **B)** : Il y a 1 segment vertical extérieur + 1 arc de cercle intérieur + 1 segment horizontal du rayon intérieur
+*   **C)** : Il y a 1 segment vertical extérieur + 1 segment horizontal
+*   **D)** : Il y a 1 segment vertical extérieur + 1 arc de cercle intérieur + 1 segment horizontal du rayon intérieur
+*   **E)** : Il y a 1 segment vertical extérieur + 1 segment horizontal + 1 arc de cercle intérieur
+
+Le chemin le plus court est celui qui utilise le moins de segments ou arcs de cercle. Les chemins C et E semblent les plus courts. En analysant les longueurs, le chemin E est le plus court car il a le moins de sections.
+
+Réponse : E)

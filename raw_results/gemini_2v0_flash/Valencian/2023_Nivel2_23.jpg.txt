@@ -1,0 +1,7 @@
+Raonament: El problema descriu un triangle rectangle ABC amb l'angle recte a B. Es dona la longitud de AB (12 dm) i AC (20 dm). D és el punt mitjà de AB, per tant AD = DB = 6 dm. DE és paral·lela a BC. Llavors, el triangle ADE és similar al triangle ABC. Per tant, AD/AB = DE/BC. El problema demana trobar la longitud de DE.
+Primer trobem la longitud de BC mitjançant el teorema de Pitàgores en el triangle ABC: AC^2 = AB^2 + BC^2. Per tant, BC^2 = AC^2 - AB^2 = 20^2 - 12^2 = 400 - 144 = 256. Per tant, BC = sqrt(256) = 16 dm.
+Ara, ja que AD/AB = DE/BC, tenim 6/12 = DE/16. Per tant, DE = (6/12) * 16 = (1/2) * 16 = 8 dm.
+Com que les opcions es donen en cm, convertim 8 dm a cm: 8 dm = 80 cm. Però aquesta resposta no està a les opcions.
+Sembla que hi ha un error a les opcions, ja que donen unitats en cm, però les longituds de AB i AC s'han donat en dm. Així, si suposem que les longituds es donen en cm i no en dm, llavors AB = 12 cm i AC = 20 cm. BC = sqrt(20^2 - 12^2) = sqrt(400 - 144) = sqrt(256) = 16 cm. Si D és el punt mitjà de AB, AD = 6 cm. Per tant, AD/AB = DE/BC, així 6/12 = DE/16. DE = (6/12)*16 = 8 cm.
+
+Resposta: B)

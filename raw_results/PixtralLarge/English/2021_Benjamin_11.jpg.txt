@@ -1,0 +1,41 @@
+To determine the smallest sum Julian can get by adding three numbers obtained from cutting the number 5021972970 in half, we need to consider the possible combinations.
+
+First, we split the number 5021972970 into three parts by cutting it twice. Possible cuts could be:
+- 502, 197, 2970
+- 5021, 972, 970
+- 50, 2197, 2970
+- 5021, 9729, 70
+- etc.
+
+We need to find the combination that yields the smallest sum.
+
+By inspecting the various combinations, we observe that the smallest numbers are achieved by splitting the number as follows:
+- 50, 2197, 2970
+
+This gives us the numbers 50, 2197, and 2970.
+
+Now, we calculate the sum:
+50 + 2197 + 2970 = 4217
+
+However, we notice that this is not the smallest possible sum. Let's try another combination:
+- 5021, 972, 970
+
+Summing these numbers:
+5021 + 972 + 970 = 6963
+
+Let's try another combination:
+- 50, 2197, 2970
+
+Summing these numbers:
+50 + 2197 + 2970 = 5217
+
+Another possible combination that gives a lower sum is:
+- 502, 1972, 970
+
+Summing these numbers:
+502 + 1972 + 970 = 3444
+
+This appears to be the smallest sum possible.
+
+Reasoning: The smallest sum obtained by adding the three numbers from the given splits is 3444.
+Answer: B)

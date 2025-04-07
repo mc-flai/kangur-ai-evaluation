@@ -1,0 +1,28 @@
+
+Raisonnement :
+1. Marius peut acheter des ballons dans des sachets de 5, 10 et 25.
+2. Nous devons déterminer combien de sachets il peut acheter pour atteindre exactement 70 ballons.
+3. Essayons différentes combinaisons de sachets pour voir laquelle totalise 70 ballons.
+
+   - Combinaison 1 : 14 sachets de 5 ballons chacun.
+     14 * 5 = 70 ballons.
+   - Combinaison 2 : 7 sachets de 10 ballons chacun.
+     7 * 10 = 70 ballons.
+   - Combinaison 3 : 2 sachets de 25 ballons chacun.
+     2 * 25 = 50 ballons (ce n'est pas suffisant).
+   - Combinaison 4 : 1 sachet de 25 ballons et 1 sachet de 10 ballons.
+     1 * 25 + 1 * 10 = 35 ballons (ce n'est pas suffisant).
+   - Combinaison 5 : 1 sachet de 25 ballons et 2 sachets de 10 ballons.
+     1 * 25 + 2 * 10 = 45 ballons (ce n'est pas suffisant).
+   - Combinaison 6 : 1 sachet de 25 ballons et 3 sachets de 10 ballons.
+     1 * 25 + 3 * 10 = 55 ballons (ce n'est pas suffisant).
+   - Combinaison 7 : 1 sachet de 25 ballons et 4 sachets de 10 ballons.
+     1 * 25 + 4 * 10 = 65 ballons (ce n'est pas suffisant).
+   - Combinaison 8 : 1 sachet de 25 ballons et 5 sachets de 10 ballons.
+     1 * 25 + 5 * 10 = 75 ballons (ce n'est pas suffisant).
+   - Combinaison 9 : 1 sachet de 25 ballons et 6 sachets de 10 ballons.
+     1 * 25 + 6 * 10 = 80 ballons (ce n'est pas suffisant).
+
+4. Les combinaisons possibles sont 14 sachets de 5 ballons chacun ou 7 sachets de 10 ballons chacun.
+
+Réponse : C

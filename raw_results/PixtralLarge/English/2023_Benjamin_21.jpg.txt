@@ -1,0 +1,30 @@
+To determine which two bricks lie on top of each other when Bob is finished with the re-arrangement, we follow the process described in the problem step-by-step.
+
+1. **Initial Setup**: The tower is initially made up of bricks labeled from 1 to 50 from bottom to top.
+
+2. **First Step**: Bob takes the two topmost bricks (50 and 49) off the old tower and places them down on top of the new tower without changing their order. The new configuration of the top of the tower is:
+   - New top: 49, 50
+   - Remaining bricks in old tower: 1 to 48 (topmost being 48)
+
+3. **Second Step**: Bob takes the next two topmost bricks (48 and 47) off the old tower and places them on top of the new tower. The new configuration of the top of the tower is:
+   - New top: 47, 48, 49, 50
+   - Remaining bricks in old tower: 1 to 46 (topmost being 46)
+
+4. **Third Step**: Bob takes the next two topmost bricks (46 and 45) off the old tower and places them on top of the new tower. The new configuration of the top of the tower is:
+   - New top: 45, 46, 47, 48, 49, 50
+   - Remaining bricks in old tower: 1 to 44 (topmost being 44)
+
+5. Continue this process until the last steps:
+
+6. **Second-Last Step**: When there are only 4 bricks left (4, 3, 2, 1), he will take bricks 4 and 3 off the old tower and place them on the new tower. The configuration of the top of the new tower will be:
+   - New top: 3, 4, 5, ..., 50
+   - Remaining bricks in old tower: 2, 1
+
+7. **Final Step**: Bob takes the last two bricks (2 and 1) off the old tower and places them on the top of the new tower. The final configuration of the top of the new tower will be:
+   - New top: 1, 2, 3, 4, ..., 50
+
+From the process above, the two bricks that lie on top of each other when Bob is finished with the re-arrangement are 29 and 28.
+
+Reasoning: Following the steps of the process described, we track the position of the bricks as they are moved from the old tower to the new tower. The sequence shows that bricks 29 and 28 will be the last pair to be placed on top of each other.
+
+Answer: A)

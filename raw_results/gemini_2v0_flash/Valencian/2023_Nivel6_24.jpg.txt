@@ -1,0 +1,15 @@
+Raonament: Siguin $p$ el nombre de nombres positius i $n$ el nombre de nombres negatius al conjunt. El nombre de zeros al conjunt és $50-p-n$.
+El nombre de multiplicacions que donen un nombre negatiu és el producte entre el nombre de positius i el nombre de negatius: $p \cdot n = 522$.
+Volem maximitzar $50 - p - n$. Donat que $p \cdot n = 522$, llavors $n = 522/p$. La suma $p+n$ és $p+522/p$. Per tant, volem trobar enters $p$ i $n$ tal que $p \cdot n = 522$ i $p+n$ sigui mínim.
+La factorització de 522 és $2 \cdot 3^2 \cdot 29$.
+Possible combinacions de $p$ i $n$ són:
+$p=1$, $n=522$, $p+n=523$
+$p=2$, $n=261$, $p+n=263$
+$p=3$, $n=174$, $p+n=177$
+$p=6$, $n=87$, $p+n=93$
+$p=9$, $n=58$, $p+n=67$
+$p=18$, $n=29$, $p+n=47$
+Si $p+n=47$, el nombre de zeros és $50-47=3$.
+En aquest cas, el nombre de zeros al conjunt és $50 - (p+n) = 50 - 47 = 3$.
+
+Resposta: B)

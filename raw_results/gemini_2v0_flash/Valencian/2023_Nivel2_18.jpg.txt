@@ -1,0 +1,71 @@
+Raonament: Siguin els cinc números a, b, c, d, i e.
+Tenim les següents equacions:
+a + b + c = 100
+b + c + d = 200
+c + d + e = 300
+Volem trobar el valor de c, que és el nombre al centre de la llista.
+Restem la primera equació de la segona:
+(b + c + d) - (a + b + c) = 200 - 100
+d - a = 100
+Restem la segona equació de la tercera:
+(c + d + e) - (b + c + d) = 300 - 200
+e - b = 100
+
+Ara sumem les tres equacions:
+(a + b + c) + (b + c + d) + (c + d + e) = 100 + 200 + 300
+a + 2b + 3c + 2d + e = 600
+També tenim d - a = 100 i e - b = 100, de manera que d = a + 100 i e = b + 100.
+Substituïm a la equació combinada:
+a + 2b + 3c + 2(a+100) + (b+100) = 600
+a + 2b + 3c + 2a + 200 + b + 100 = 600
+3a + 3b + 3c = 300
+3(a+b+c) = 300
+a+b+c = 100 (que ja sabem)
+Usem les equacions originals:
+a + b + c = 100
+b + c + d = 200
+c + d + e = 300
+Sumem les tres equacions:
+a + 2b + 3c + 2d + e = 600
+Sumem les tres equacions amb la resta de la primera a la segona i la segona a la tercera.
+Aïllem c de la segona equació:
+c = 200 - b - d
+També: a = d - 100 i e = b + 100
+Substituïm:
+(d-100) + b + c = 100
+b + c + d = 200
+c + d + (b+100) = 300
+c + d + b = 200
+c = 200 - d - b
+Si fem b + c + d = 200 i multipliquem per 2, 2b + 2c + 2d = 400
+i a + 2b + 3c + 2d + e = 600
+Subtraiem:
+(a + 2b + 3c + 2d + e) - (2b + 2c + 2d) = 600 - 400
+a + c + e = 200
+substituïm e = b + 100 i a = d - 100
+d - 100 + c + b + 100 = 200
+d + b + c = 200
+c = 200 - d - b
+
+Ara sabem que c = 200 - b - d, i també que b + c + d = 200.
+Per tant, la resposta és 100.
+
+Raonament: Siguin a, b, c, d, i e els 5 números. Es coneix que: a+b+c=100, b+c+d=200, i c+d+e=300. Volem conèixer el valor de c.
+(a+b+c) + (c+d+e) - (b+c+d) = 100 + 300 - 200
+a+b+c + c+d+e - b - c - d = 200
+a+c+e = 200. L'equació a+b+c=100 implica que b=100-a-c. L'equació c+d+e=300 implica que d=300-c-e.
+Si substituïm a l'equació b+c+d=200, obtenim 100-a-c+c+300-c-e=200 que simplifica a 400-a-c-e=200, o que a+c+e=200.
+Com b+c+d=200, tenim que c=200-b-d. Restant la primera i la tercera equació de la segona ens dona c.
+Restem (a+b+c) + (c+d+e) de 2(b+c+d)
+200*2 - 100 -300 = 0
+2b + 2c + 2d - a - b - c - c - d - e = 0
+b + d - a - e = 0
+d - a = e - b
+
+(b+c+d)-(a+b+c) = 200-100 => d-a = 100
+(c+d+e)-(b+c+d) = 300-200 => e-b = 100
+a+b+c + b+c+d + c+d+e = 100+200+300 = 600
+a+2b+3c+2d+e=600
+El número al centre de la llista és c=100.
+
+Resposta: C)

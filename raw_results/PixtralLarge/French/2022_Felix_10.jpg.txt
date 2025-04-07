@@ -1,0 +1,27 @@
+Pour déterminer quel nombre Carl a caché, nous devons analyser les indices fournis:
+
+1. Carl écrit un nombre à cinq chiffres.
+2. Il place différentes formes sur des chiffres différents et la même forme sur les mêmes chiffres.
+3. Les formes dans l'image sont : cœur, losange, losange, trèfle, pique.
+
+**Raisonnement :**
+
+1. Nous savons qu'il y a cinq chiffres et cinq formes distinctes.
+2. Les formes sont : cœur, losange, losange, trèfle, pique.
+3. Comme le losange est répété, cela signifie que le chiffre associé au losange apparaît deux fois dans le nombre.
+4. Les autres chiffres ont des formes différentes, donc ils apparaissent une seule fois.
+
+**Analyse des options :**
+- (A) 34426 : Le chiffre 4 apparaît deux fois (losange), les autres chiffres sont 3, 2 et 6.
+- (B) 34526 : Tous les chiffres sont différents.
+- (C) 34423 : Le chiffre 4 apparaît deux fois (losange), les autres chiffres sont 3, 2.
+- (D) 34424 : Le chiffre 4 apparaît trois fois (losange), ce qui n'est pas possible.
+- (E) 32446 : Le chiffre 4 apparaît deux fois (losange), les autres chiffres sont 3, 2 et 6.
+
+**Réponse :**
+
+Le nombre qui satisfait les conditions est (A) 34426.
+
+**Format final :**
+Raisonnement : Carl a utilisé les mêmes formes pour les mêmes chiffres. Le losange apparaît deux fois, ce qui signifie que le chiffre 4 apparaît deux fois. Les autres chiffres doivent être différents et correspondre aux formes restantes. Le nombre 34426 a le chiffre 4 deux fois et les autres chiffres (3, 2, 6) apparaissent une seule fois.
+Réponse : A).

@@ -1,0 +1,16 @@
+Reasoning:
+We are given that only one child is lying. Let's analyze each child's statement and see what happens if that child is the liar:
+
+*   **If Alex is lying:** It means Alex *did* eat the cake. Then Bartek, Cora, and Dani are telling the truth, meaning Bartek ate the cake, Emil did *not* eat the cake, and Dani did *not* eat the cake. This is impossible since we are told only one person ate the cake, and it cannot be both Alex and Bartek.
+
+*   **If Bartek is lying:** It means Bartek did *not* eat the cake. Then Alex, Cora, Dani, and Emil are telling the truth, meaning Alex did *not* eat the cake, Emil did *not* eat the cake, Dani did *not* eat the cake, and Emil claims Alex ate the cake. Since everyone except Bartek is telling the truth, this contradicts Emil's statement.
+
+*   **If Cora is lying:** It means Emil *did* eat the cake. Alex, Bartek, Dani, and Emil are telling the truth. Thus, Alex did not eat the cake, Bartek ate the cake, Dani did not eat the cake, and Emil says Alex ate the cake. Since only one person ate the cake, Bartek ate the cake, meaning Alex, Dani, and Emil's statements must be false, which is a contradiction.
+
+*   **If Dani is lying:** It means Dani *did* eat the cake. Then Alex, Bartek, Cora, and Emil are telling the truth. Thus, Alex did not eat the cake, Bartek ate the cake, Cora says Emil did not eat the cake, and Emil says Alex ate the cake. Again, having both Bartek and Dani eating the cake is a contradiction.
+
+*   **If Emil is lying:** It means Alex did *not* eat the cake. Then Alex, Bartek, Cora, and Dani are telling the truth. Thus, Alex did not eat the cake, Bartek ate the cake, Cora says Emil did not eat the cake, and Dani did not eat the cake. Since only one ate the cake, and that is Bartek.
+
+Therefore, only when Emil is lying can we have a consistent solution.
+
+Answer: B)

@@ -1,0 +1,24 @@
+Raonament:
+Siga h l'altura del trapezi. L'àrea del trapezi és A = (3+7)h/2 = 5h. Els dos triangles blancs són semblants amb raó 3/7. Sigui h1 l'altura del triangle blanc petit i h2 l'altura del triangle blanc gran. Aleshores h1+h2 = h i h1/h2 = 3/7, de manera que 7h1 = 3h2 = 3(h-h1) => 10h1 = 3h => h1 = 0.3h. L'àrea del triangle blanc petit és (3 * 0.3h)/2 = 0.45h. L'àrea del triangle blanc gran és (7 * 0.7h)/2 = 2.45h. L'àrea total de la zona blanca és 0.45h + 2.45h = 2.9h. El percentatge de la zona blanca és (2.9h)/(5h) * 100 = 2.9/5 * 100 = 58%. Però el triangles blancs no estan sobreposats entre sí. La suma de les àrees dels dos triangles és 2.9h.
+(Àrea total del trapezi) = ((base major + base menor)* altura)/2.
+Ratio of similarity = 3/7. ratio of areas = (3/7)^2 = 9/49.
+Let T1 and T2 be triangles with sides of length 3 and 7
+area of T1 = A1 = (1/2) * 3 * h1
+area of T2 = A2 = (1/2) * 7 * h2
+A1/A2 = 9/49.  so (3h1)/(7h2) = 9/49  ===> h1/h2 = (9/49) * (7/3) = (3/7)
+h1 + h2 = total height (h)   h1 = (3/7) h2
+(3/7) h2 + h2 = h   (10/7) h2 = h  h2 = (7/10)h
+A2 = 1/2 * 7 * (7/10) h = (49/20) h
+h1 = (3/10)h
+A1 = 1/2 * 3 * (3/10) h = (9/20) h
+A1 + A2 = (49/20)h + (9/20) h = (58/20) h
+Atotal = (3+7) h / 2 = 5h = (100/20) h
+(58/20)/(100/20) = 58/100 = 58%  There is no possible answer.
+
+Let's analyze the similarity of the triangles. The ratio of areas should be the square of the ratio of the side lengths. Let $A_1$ be the area of the top triangle with base 3, and $A_2$ the area of the bottom triangle with base 7. If h is the height of the trapezoid, the heights of the smaller and larger triangles sum to h.  Also, $h_1/h_2 = 3/7$ implies $h_1 = 3h/10$ and $h_2=7h/10$. Thus $A_1 = \frac{1}{2} (3)(\frac{3h}{10}) = \frac{9h}{20}$ and $A_2 = \frac{1}{2} (7)(\frac{7h}{10}) = \frac{49h}{20}$. The area of the trapezoid is $\frac{1}{2} (3+7) h = 5h = \frac{100h}{20}$. The percentage of the area that is white is $(\frac{A_1+A_2}{5h})(100) = (\frac{\frac{58h}{20}}{5h})100 = \frac{58h}{20}\frac{1}{5h}100 = \frac{58}{100}100 = 58$.
+
+The area that is shaded is then 100-58 = 42 percent. The question asks for the percentage represented by the white area, so this calculation will not give the desired answer.
+
+The answer is 42 is not an option
+
+Resposta: E)

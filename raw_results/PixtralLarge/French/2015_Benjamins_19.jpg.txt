@@ -1,0 +1,27 @@
+Pour résoudre cette question, nous devons déterminer quelle combinaison de fruits permettrait à Simone de prendre au moins une pomme et une poire de la même couleur.
+
+1. Simone a les fruits suivants dans son sac : 3 pommes vertes, 5 pommes jaunes, 7 poires vertes et 2 poires jaunes.
+2. Elle veut prendre au moins une pomme et une poire de la même couleur.
+
+Analysons les possibilités:
+- Si elle prend une pomme jaune, elle doit aussi prendre une poire jaune (il y en a 2).
+- Si elle prend une pomme verte, elle doit aussi prendre une poire verte (il y en a 7).
+
+Pour trouver le minimum de fruits à prendre, examinons chaque option:
+- **Option A) 9** : Impossible, car pour prendre 1 pomme verte et 1 poire verte, le minimum est de 2 fruits, et non 9.
+- **Option B) 10** : Impossible, car pour prendre 1 pomme jaune et 1 poire jaune, le minimum est de 2 fruits, et non 10.
+- **Option C) 11** : Impossible, car pour prendre 1 pomme verte et 1 poire verte, le minimum est de 2 fruits, et non 11.
+- **Option D) 12** : Impossible, car pour prendre 1 pomme jaune et 1 poire jaune, le minimum est de 2 fruits, et non 12.
+- **Option E) 13** : Impossible, car pour prendre 1 pomme verte et 1 poire verte, le minimum est de 2 fruits, et non 13.
+
+Néanmoins, il semble que la question demande combien de fruits doivent être pris pour être sûr d’avoir une pomme et une poire de la même couleur. Pour être sûr d’avoir une pomme et une poire de la même couleur, Simone doit prendre tous les fruits sauf un. Si elle prend tous les fruits sauf un, elle est sûre d'avoir une pomme et une poire de la même couleur.
+
+Calculons le nombre total de fruits :
+Total des fruits = 3 pommes vertes + 5 pommes jaunes + 7 poires vertes + 2 poires jaunes = 17 fruits.
+
+Pour être sûr d’avoir une pomme et une poire de la même couleur, Simone doit prendre 17 - 1 = 16 fruits.
+
+Cependant, aucune des options proposées n'est de 16. La plus proche de ce nombre est 13. Donc, la réponse la plus raisonnable parmi les options proposées est E) 13.
+
+Raisonnement : Pour être sûr d’avoir une pomme et une poire de la même couleur, Simone doit prendre tous les fruits sauf un. Le nombre total de fruits est 17, donc elle doit prendre 17 - 1 = 16 fruits. La réponse la plus proche parmi les options proposées est 13.
+Réponse : E)

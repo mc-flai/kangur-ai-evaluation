@@ -1,0 +1,28 @@
+Reasoning:
+Susi can visit two animals, but cannot start with the lion. The animals are giraffe (G), elephant (E), lion (L), and turtle (T). The possibilities for visits are:
+1.  G followed by E
+2.  G followed by T
+3.  E followed by G
+4.  E followed by T
+5.  T followed by G
+6.  T followed by E
+7.  G followed by L (lion is excluded from starting)
+8.  E followed by L (lion is excluded from starting)
+9.  T followed by L (lion is excluded from starting)
+10. L followed by G (Invalid)
+11. L followed by E (Invalid)
+12. L followed by T (Invalid)
+So, the valid combinations are GE, GT, EG, ET, TG, TE. There are 6 valid combinations.
+The question asks for 'to visit the two animals *one after the other*', meaning the order matters.
+The possible pairings where Lion is not the starting animal are:
+*   Giraffe first: Giraffe-Elephant, Giraffe-Turtle
+*   Elephant first: Elephant-Giraffe, Elephant-Turtle
+*   Turtle first: Turtle-Giraffe, Turtle-Elephant
+*   Giraffe second: Elephant-Giraffe, Turtle-Giraffe
+*   Elephant second: Giraffe-Elephant, Turtle-Elephant
+*   Turtle second: Giraffe-Turtle, Elephant-Turtle
+
+Total is 6.
+If the order matters, we have 6 combinations.
+
+Answer: B)

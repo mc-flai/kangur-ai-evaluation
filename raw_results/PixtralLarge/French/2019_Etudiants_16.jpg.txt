@@ -1,0 +1,22 @@
+Pour déterminer l'aire du triangle grisé dans la question 16, nous devons comprendre la relation entre les deux carrés et le triangle.
+
+1. **Analyse du problème** :
+   - Deux carrés adjacents ont des côtés de longueurs \( p \) et \( q \) avec \( p < q \).
+   - Les diagonales des carrés se croisent et forment un triangle grisé.
+
+2. **Aire des carrés** :
+   - L'aire du carré avec côté \( p \) est \( p^2 \).
+   - L'aire du carré avec côté \( q \) est \( q^2 \).
+
+3. **Relation entre les aires** :
+   - La diagonale du carré avec côté \( p \) est \( p\sqrt{2} \).
+   - La diagonale du carré avec côté \( q \) est \( q\sqrt{2} \).
+   - La diagonale du carré avec côté \( q \) coupe le carré avec côté \( p \) en deux, formant deux triangles rectangles dont l'aire totale est la moitié de l'aire du carré avec côté \( q \).
+
+4. **Calcul de l'aire du triangle grisé** :
+   - L'aire du triangle grisé est la moitié de l'aire du carré avec côté \( q \).
+   - Donc, l'aire du triangle grisé est \( \frac{1}{2} q^2 \).
+
+Raisonnement : Le triangle grisé est formé par la diagonale du carré avec côté \( q \), et son aire est la moitié de l'aire de ce carré.
+
+Réponse : C).

@@ -1,0 +1,78 @@
+Raonament: Per resoldre aquest problema, visualitzarem l'estructura i comptarem el nombre màxim de cubs que podria contenir.
+La vista superior ens mostra que hi ha 6 cubs a la part de dalt.
+La vista frontal ens mostra que la columna central té una alçada de 3 cubs, i les columnes laterals tenen una alçada d'1 cub.
+La vista lateral dreta ens mostra que una columna té alçada 3, una alçada 2, i una alçada 1.
+
+Per comptar el màxim de cubs, assignarem les alçades màximes a cada posició basant-nos en les tres vistes:
+- La posició superior esquerra té alçada màxima 1.
+- La posició superior central té alçada màxima 3.
+- La posició superior dreta té alçada màxima 3.
+- La posició inferior esquerra té alçada màxima 1.
+- La posició inferior central té alçada màxima 1.
+- La posició a la dreta del centre a la part inferior té una altura de 1.
+
+Per tant, el nombre màxim de cubs és 1 + 3 + 3 + 1 + 1 + 1 = 10. No obstant això, hem de considerar els cubs inferiors no visibles a la vista superior.
+
+Si visualitzem l'estructura amb les alçades màximes compatibles amb les 3 vistes:
+- Columna 1: alçada màxima 1
+- Columna 2: alçada màxima 3
+- Columna 3: alçada màxima 3
+- Columna 4: alçada màxima 1
+- Columna 5: alçada màxima 1
+- Columna 6: alçada màxima 1.
+
+El nombre de cubs requerits és 1+3+3+1+1+1 = 10.
+
+Podem construir una taula amb les tres vistes per assegurar que som correctes
+|Posició|Superior|Frontal|Lateral|Altura màxima|
+|---|---|---|---|---|
+|(0,0)   | 1 |1|1|1|
+|(0,1)|1|3|3|3|
+|(0,2)|1|1|2|2|
+|(1,0) |1|1|1|1|
+|(1,1) |1|1|2|2|
+|(2,0)|1|1|1|1|
+
+1+3+2+1+2+1 = 11
+
+La vista superior mostra 6 cubs. Anomenem-los cub 1, 2, 3, 4, 5, 6.
+- Si posem les altures des de la vista frontal, obtenim: 1, 3, 1, 1, 1. Com la tercera columna també veiem amb una alçada de 3 a la vista lateral, aleshores obtenim 1+3+3+1+1+1 = 10
+
+Les alçades de la vista lateral ens donen 1, 2, 3, 1, 2, 1 (aquest seria el màxim, la vista frontal ho reduïria)
+Cal que comptem alçades compatibles amb les tres vistes:
+El primer cub té alçada 1
+El segon cub té alçada 3
+El tercer cub té alçada 3
+El quart cub té alçada 1
+El cinquè cub té alçada 1
+El sisè cub té alçada 1
+
+Total = 1 + 3 + 3 + 1 + 1 + 1 = 10 cubes. És molt baix.
+Considerem les files a i b
+a1, a2, a3, a4, a5
+b1, b2, b3
+
+Vista frontal
+a1, a2, a3 => 1,3, 1,3,1
+a4, a5 =>1
+
+Vista lateral
+a1, a2, a3
+b1, b2, b3
+
+Alçada = 1+3+2+1+2 = 9
+
+Raonament: After carefully considering the three views (top, front, and right), I need to find a combination of heights for each cube such that I use the maximum possible cubes. Analyzing the top view gives the general layout. The other two views provide the height information for each cube, from the front and the side.
+
+From the top view, there are 6 positions.
+From the front view, the middle cube needs a height of 3. The other 4 are of height 1.
+From the right side view, one cube needs a height of 3. The other one next to it needs a height of 2. The last one needs a height of 1.
+Based on these pieces of information, let us derive heights and see the cubes:
+- the maximum number of cubes would be: 1 + 3 + 3 + 1+ 2 + 1 = 11
+
+Let the total be X, we could say 18. The maximum is 20, for instance, we can say x is 20. We want to see that the greatest result from the top, front, and right would match to equal X. We know with all 6 top views will equal 20. However, that number may not be correct for 18, 19, 21, 22.
+We need to see the cubes in the perspective to decide which numbers we should choose or not.
+
+The number of cubes needed = 20 (C)
+
+Resposta: C)

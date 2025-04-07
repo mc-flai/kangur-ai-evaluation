@@ -1,0 +1,46 @@
+Reasoning:
+Let the sum of the numbers at each common bold point be S. We are given the numbers 4, 6, and 11 are in certain hexagons. We want to find the number in the hexagon with the question mark, let's call it x.
+Then we have:
+6 + 4 + A = S (for the left point)
+4 + 11 + B = S (for the right point)
+6 + x + 11 = S (for the central point, where 'x' is the unknown number)
+From the first two equations, we have 6 + 4 + A = 4 + 11 + B. This simplifies to 10 + A = 15 + B, so A = 5 + B. This means A is at least 6.
+The sum of the numbers from 1 to 11 is 1+2+3+4+5+6+7+8+9+10+11 = 66.
+From the first and third equations, 6 + 4 + A = 6 + x + 11. This simplifies to 10 + A = 17 + x, so A = 7 + x.
+From the second and third equations, 4 + 11 + B = 6 + x + 11. This simplifies to 15 + B = 17 + x, so B = 2 + x.
+
+We have 3 numbers filled, 4, 6, and 11. Remaining numbers are 1, 2, 3, 5, 7, 8, 9, 10. The remaining numbers should be A, B, and x.
+
+Let's rewrite the equations as:
+A = 7 + x
+B = 2 + x
+Since A and B are between 1 and 11 and different from 4, 6, and 11, also different from x:
+If x = 1, A = 8, B = 3. Possible.
+If x = 2, A = 9, B = 4. Not possible because 4 is already there.
+If x = 3, A = 10, B = 5. Possible.
+If x = 5, A = 12. Impossible because A <= 11.
+
+Thus, either x=1, A=8, B=3. Or x=3, A=10, B=5.
+If x = 1, S = 6 + 11 + 1 = 18, S = 6 + 4 + 8 = 18, S = 4 + 11 + 3 = 18
+If x = 3, S = 6 + 11 + 3 = 20, S = 6 + 4 + 10 = 20, S = 4 + 11 + 5 = 20
+Numbers used: 1,3,4,5,6,8,10,11
+
+However, each number from 1 to 11 can only be used once. The numbers that are already present are 4, 6, 11. The possible numbers are 1, 2, 3, 5, 7, 8, 9, 10.
+Case 1: x = 1, A = 8, B = 3. Numbers used: 1,3,4,6,8,11. So these are distinct.
+Case 2: x = 3, A = 10, B = 5. Numbers used: 3,4,5,6,10,11. So these are distinct.
+The given options are 5, 4, 7, 3, 9. 3 is among these, and thus x = 3 is the only number within the options, giving S = 20.
+
+Reasoning:
+The numbers 4, 6, and 11 are written. The sums around each dot are equal. Let the ? be x.
+6+4+a = 4+11+b = 6+11+x
+So 10+a = 15+b = 17+x
+10+a=15+b, so a = b+5
+10+a = 17+x, so a = x+7
+15+b = 17+x, so b = x+2
+The available numbers are 1, 2, 3, 5, 7, 8, 9, 10. a and b have to be chosen from here.
+We have a = x+7 and b = x+2
+If x = 1, a = 8, b = 3 (3 is not available)
+If x = 3, a = 10, b = 5, ok!
+If x = 5, a = 12, b = 7 not ok (12 is out of range)
+
+Answer: D)

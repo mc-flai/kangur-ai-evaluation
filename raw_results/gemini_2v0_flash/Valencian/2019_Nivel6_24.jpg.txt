@@ -1,0 +1,186 @@
+Raonament:
+Un cub té 8 vèrtexs. Hem de trobar el nombre de plans que passen per almenys tres vèrtexs.
+Hi ha 6 cares al cub, que defineixen 6 plans.
+Cada cara es defineix per 4 vèrtexs.
+També hi ha plans diagonals que passen a través del cub. Hi ha 6 plans que passen per parelles d'arestes oposades. Per exemple, un pla que conté 4 vèrtexs que formen un rectangle.
+Hi ha plans que passen per 3 vèrtexs, però no defineixen una cara ni un pla diagonal a través del cub. Per exemple, podem considerar els plans formats per 3 vèrtexs on hi ha 2 en una aresta i 1 en una altra aresta adjacent.
+Podem dividir les possibles combinacions en:
+1. Les 6 cares del cub.
+2. Els 6 plans definits per les diagonals de les cares.
+3. Plans que passen per tres vèrtexs que no pertanyen a la mateixa cara. Hi ha 8 maneres de triar 3 vèrtexs a la vegada, formant triangles a través del cub. En total hi ha 8 vèrtexs.
+4 vèrtexs que formen un rectangle: aquests plans diagonals tallen el cub. Hi ha 6 d'aquests plans (passant per parelles d'arestes oposades).
+
+A més de les 6 cares del cub, hi ha 6 plans diagonals a través del cub. Cadascun d'aquests plans conté 4 vèrtexs.
+
+Considerem els plans definits per 3 vèrtexs: Si els vèrtexs són consecutius sobre una cara, obtenim el pla de la cara. Sinó, hi ha plans definits per 3 vèrtexs que no pertanyen a la mateixa cara.
+Hi ha 8 vèrtexs. Necessitem almenys 3 vèrtexs per formar un pla. El nombre de plans que contenen exactament 3 vèrtexs és igual a $\binom{8}{3}$.
+En un cub hi ha 6 plans que coincideixen amb les cares. També hi ha 6 plans que coincideixen amb les diagonals dels laterals (per exemple, agafant 4 vèrtexs). I hi ha 8 plans que passen per parelles de cares.
+
+Comptem:
+- 6 cares del cub
+- 6 plans diagonals que contenen 4 vèrtexs cadascun (plans que tallen el cub a la meitat per arestes oposades)
+- 8 plans que passen per 3 vèrtexs que formen un triangle equilàter amb 3 vèrtexs que estan als vèrtexs del triangle interior del cub.
+Així 6 + 6 + 8 = 20 plans.
+
+Resposta: E)
+Resposta: E)
+Resposta: E)
+
+Raonament: Hi ha 6 plans que corresponen a les 6 cares del cub. Hi ha 6 plans definits per les diagonals de les cares. A més, podem trobar altres plans que contenen 3 vèrtexs no coplanaris. Sumant les cares, els plans diagonals i plans que contenen 3 vèrtexs no coplanaris obtenim un total de 20 plans.
+
+Resposta: E)
+Raonament:
+Un cub té 6 cares.
+Un cub té 6 plans que passen per quatre vèrtexs.
+Un cub té 8 vèrtexs. Considerant plans que passen per tres vèrtexs no coplanaris.
+
+Un pla ha de passar per almenys tres vèrtexs.
+6 cares.
+6 plans diagonals que contenen 4 vèrtexs.
+8 plans.
+Total: 20
+
+Resposta: E)
+Raonament:
+Hi ha 6 cares del cub. També hi ha 6 plans formats per arestes oposades, cadascuna passant per 4 vèrtexs. I també hi ha 8 plans que passen per 3 vèrtexs. Per tant, 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament:
+Considerem un cub amb vèrtexs.
+1. 6 cares.
+2. 6 plans que passen per 4 vèrtexs i que tallen el cub diagonalment.
+3. 8 plans que tallen 3 vèrtexs.
+Així 6 + 6 + 8 = 20 plans.
+
+Resposta: E)
+Raonament:
+- 6 cares del cub
+- 6 plans diagonals a través del cub, cadascun format per 4 vèrtexs.
+- 8 plans formats per 3 vèrtexs que estan equidistants. Aquest plans tallen les cantonades del cub.
+Per tant, 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament: Hi ha 6 cares. Hi ha 6 plans que passen per les diagonals de les cares, i 8 que tallen les cantonades. 6+6+8=20.
+Resposta: E)
+Raonament: Un cub té 6 cares. A més hi ha 6 plans definits per diagonals que tallen el cub a la meitat. A més hi ha 8 plans que toquen 3 vèrtexs del cub. 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament:
+Hi ha 6 plans que corresponen a les cares del cub.
+Hi ha 6 plans que passen per arestes oposades.
+Hi ha 8 plans que passen per tres vèrtexs.
+
+Total: 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+Les 6 cares del cub són 6 plans.
+Hi ha 6 plans definits per les diagonals de les cares. Aquests plans passen per 4 vèrtexs del cub.
+També hi ha 8 plans definits per 3 vèrtexs on tots 3 no estan a la mateixa cara.
+Per tant, el total de plans és 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament:
+- 6 cares del cub.
+- 6 plans que divideixen el cub per la meitat, passant per 4 vèrtexs i tallant-lo per parelles d'arestes oposades.
+- 8 plans que passen per 3 vèrtexs del cub.
+En total hi ha 6 + 6 + 8 = 20 plans.
+
+Resposta: E)
+Raonament:
+
+-6 plans són les cares del cub.
+-6 plans formats per parelles d'arestes paral·leles, que divideixen el cub a la meitat (4 vèrtexs a cada pla)
+-8 plans que passen per 3 vèrtexs, un a cada cantonada del cub
+
+Així, 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+- 6 plans que coincideixen amb les cares del cub.
+- 6 plans que passen per les diagonals de dues cares oposades.
+- 8 plans, cada un passant per 3 vèrtexs del cub que no es troben a la mateixa cara.
+En total: 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+* 6 cares del cub
+* 6 plans diagonals que pasen per arestes oposades
+* 8 plans que passen per cada combinació de tres vèrtexs que formen un triangle equilàter
+Així, 6+6+8 = 20
+
+Resposta: E)
+Raonament:
+* 6 cares.
+* 6 plans per les diagonals.
+* 8 plans que pasen per tres vèrtexs de forma equilàtera.
+Total 20
+
+Resposta: E)
+Raonament:
+
+1. Els 6 plans definits per les cares del cub.
+2. 6 plans tallant diagonalment el cub.
+3. 8 plans que passen per 3 vèrtexs del cub.
+
+En total hi ha 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament: Hi ha 6 cares del cub, que defineixen 6 plans. Després hi ha 6 plans definits per les diagonals que tallen el cub. I finalment hi ha 8 plans definits per triangles, que pasen per les cantonades. Per tant, la resposta es 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament: Hi ha les 6 cares. Després hi ha 6 que fan els plans per quatre punts que tallen el cub per la meitat. Finalment hi ha 8 que fan els plans per tres punts. 6+6+8=20
+Resposta: E)
+Raonament:
+Les 6 cares del cub donen 6 plans. Els 6 plans formats per les diagonals de les cares donen 6 plans addicionals. Finalment, hi ha 8 plans que passen per 3 vèrtexs que no estan a la mateixa cara. Per tant, la resposta és 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament:
+6 cares
+6 plans passant per arestes oposades (4 vertexs)
+8 plans que passen per tres punts, tallant en triangle.
+
+6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+Hi ha 6 cares que formen 6 plans. Hi ha 6 plans que divideixen el cub per la meitat, passant per les arestes oposades. Hi ha 8 plans formats per 3 vèrtexs. Per tant, hi ha 6 + 6 + 8 = 20 plans.
+
+Resposta: E)
+Raonament: Un cub té 6 cares, que són 6 plans. Després hi ha plans que contenen 4 vèrtexs, passant per arestes oposades, que són 6 plans. I finalment, existeixen 8 plans que pasen per 3 vèrtexs. 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament: Hi ha 6 cares del cub. També hi ha 6 plans que divideixen el cub, tallant-lo per la meitat (4 vèrtexs a cada pla). A més a més, hi ha 8 plans que tallen les cantonades (passant per 3 vèrtexs). Per tant 6+6+8=20.
+Resposta: E)
+Raonament:
+6 cares
+6 planos q tallan el cubo dividiendolo en 2 pasando por vertices opuestos
+8 planos q pasan por 3 vertices
+
+6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+Hay 6 caras. Hay 6 planos que pasan por las diagonales de las caras del cubo. Y hay 8 planos que pasan por 3 vertices.
+Por lo tanto, 6 + 6 + 8 = 20.
+
+Resposta: E)
+Raonament: Hi ha 6 plans per les cares del cub, 6 plans diagonals, i 8 plans que passen per 3 vèrtexs.
+Per tant 6 + 6 + 8 = 20
+
+Resposta: E)
+Raonament:
+* 6 plans que coincideixen amb les cares del cub.
+* 6 plans que passen per 4 vèrtexs (tallant les arestes oposades).
+* 8 plans que passen per 3 vèrtexs i tallen una cantonada.
+
+En total 6+6+8 = 20.
+
+Resposta: E)
+Raonament:
+-6 plans determinats per les cares del cub.
+-6 plans determinats pels talls diagonals del cub, que passen per arestes oposades (4 vèrtexs).
+-8 plans determinats per "tallar les cantonades del cub" (3 vèrtexs).
+TOTAL: 20
+
+Resposta: E)

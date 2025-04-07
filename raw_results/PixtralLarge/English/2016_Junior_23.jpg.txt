@@ -1,0 +1,48 @@
+To solve this problem, we need to determine the minimum number of moves required to achieve the chessboard coloring pattern shown in the diagram. The chessboard pattern alternates colors, so every adjacent square (horizontally or vertically) must be a different color.
+
+1. **Initial Setup**:
+   We start with a 5x5 grid where all fields are white.
+
+2. **Pattern Analysis**:
+   The desired chessboard pattern looks like this (where 'W' denotes white and 'B' denotes black):
+   ```
+   W B W B W
+   B W B W B
+   W B W B W
+   B W B W B
+   W B W B W
+   ```
+
+3. **Move Analysis**:
+   In each move, two adjacent fields are changed to the opposite color. This means each move can switch two fields from white to black or from black to white.
+
+4. **Counting Moves**:
+   We need to count the number of moves to change the initial all-white grid to the desired chessboard pattern.
+
+   - **First Row**: Swap the first two white fields to black: 1 move.
+   - **Second Row**: Swap the first and third white fields to black: 1 move.
+   - **Third Row**: Swap the first and third white fields to black: 1 move.
+   - **Fourth Row**: Swap the first and third white fields to black: 1 move.
+   - **Fifth Row**: Swap the first and third white fields to black: 1 move.
+
+   However, this will not be efficient. Let's see if we can optimize it further:
+
+   - **First Row**: Swap the first two white fields to black: 1 move.
+   - **Second Row**: Swap the first and third white fields to black: 1 move.
+   - **Third Row**: Swap the first and third white fields to black: 1 move.
+   - **Fourth Row**: Swap the first and third white fields to black: 1 move.
+   - **Fifth Row**: Swap the first and third white fields to black: 1 move.
+
+   This still doesn't achieve the desired pattern. We need to consider a more efficient strategy:
+
+   - **First Column**: Swap the first and third white fields to black: 1 move.
+   - **Second Column**: Swap the second and fourth white fields to black: 1 move.
+   - **Third Column**: Swap the third and fifth white fields to black: 1 move.
+   - **Fourth Column**: Swap the fourth and second white fields to black: 1 move.
+   - **Fifth Column**: Swap the fifth and third white fields to black: 1 move.
+
+   This strategy achieves the desired pattern in 5 moves.
+
+**Reasoning**: The smallest number of moves needed to obtain the chessboard coloring is 14, as each move can only change two fields, and we need to change 28 fields in total (14 pairs).
+
+**Answer**: D)

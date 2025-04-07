@@ -1,0 +1,19 @@
+Raonament:
+1. **Divisibilitat per 99:** Un nombre és divisible per 99 si ho és per 9 i per 11.
+2. **Divisibilitat per 9:** Un nombre és divisible per 9 si la suma de les seves xifres és divisible per 9.
+3. **Suma de xifres imparell:** La suma de les xifres ha de ser un nombre imparell.
+4. **Combinació de les regles:** Si la suma de les xifres és imparell i divisible per 9, la suma de les xifres ha de ser almenys 9.
+5. **Divisibilitat per 11:** Un nombre és divisible per 11 si la diferència entre la suma de les xifres en les posicions senars i la suma de les xifres en les posicions parells és 0 o un múltiple d'11.
+6. **Cercar el nombre més petit:**
+   - Per complir la suma de les xifres imparell més petita (9), podríem pensar en 99 (suma de xifres = 18, parell, no serveix) o 189 (suma de xifres = 18, parell, no serveix)
+   - Si el nombre es divisible per 9 i la suma de les xifres és un nombre imparell, llavors la suma de les xifres ha de ser 9, 27, 45, etc. Perquè la suma de les xifres sigui 9, busquem el nombre més petit:
+     - Per tenir la suma de les xifres 9, i que sigui imparell, intentem 999.
+     - El nombre més petit amb 3 xifres no pot ser divisible per 99 (999/99 = 10.09).
+     - Busquem nombres amb una suma de xifres 9, i divisibles per 99, per ex. 99, 189, 279, 369. Cap d'aquests nombres compleix el requisit de suma de xifres imparell.
+     - El nombre més petit que compleix les condicions és 99999, perquè 9+9+9+9+9 = 45, que és imparell i 99999 / 99 = 1010.1, no és divisible, i 1089/99 = 11. La suma de les xifres de 1089 és 18 que no és imparell.
+     - Per tant, provarem amb nombres amb 5 xifres.
+     - El nombre 10989 / 99 = 111. La suma de les xifres és 1+0+9+8+9 = 27, i per 11, (1+9+9) - (0+8) = 11.
+     - Veiem que 10989 és divisible per 99, i que la suma de les seves xifres és 27 (imparell).
+7. **Nombre de xifres:** 10989 té 5 xifres.
+
+Resposta: C)

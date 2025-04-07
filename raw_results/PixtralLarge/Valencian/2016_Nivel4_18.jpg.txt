@@ -1,0 +1,29 @@
+**Raonament**:
+Per resoldre aquest problema, hem de trobar un rectangle amb una àrea de 36 unitats quadrades i on les longituds dels dos costats siguin enters.
+
+1. L'àrea d'un rectangle es calcula com:
+   \[
+   \text{Àrea} = \text{longitud} \times \text{amplada}
+   \]
+   En aquest cas, l'àrea donada és 36, així que tenim:
+   \[
+   36 = \text{longitud} \times \text{amplada}
+   \]
+
+2. Hem de trobar parells de nombres enters que, multiplicats entre si, donin 36. Aquests són els factors de 36:
+    - 1 i 36
+    - 2 i 18
+    - 3 i 12
+    - 4 i 9
+    - 6 i 6
+
+3. Les opcions donades són 1, 9, 12, 6, i 5. Prenem cada opció i comprovem si és un factor de 36:
+    - A) 1: Pot ser un costat d'un rectangle (1 x 36 = 36)
+    - B) 9: Pot ser un costat d'un rectangle (9 x 4 = 36)
+    - C) 12: Pot ser un costat d'un rectangle (12 x 3 = 36)
+    - D) 6: Pot ser un costat d'un rectangle (6 x 6 = 36)
+    - E) 5: No és un factor de 36
+
+Totes les opcions excepte 5 són correctes. La resposta correcta és el número que no és un factor de 36, que és 5.
+
+**Resposta**: E)

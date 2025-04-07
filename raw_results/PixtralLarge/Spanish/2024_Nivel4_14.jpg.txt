@@ -1,0 +1,39 @@
+La pregunta 14 describe una situación en la que la pingüina Paula pesca dos peces diariamente para dos polluelos. De estos dos peces, le da al primer polluelo siete peces y al segundo cinco peces, que se comen. En los últimos días, un polluelo ha comido 44 peces. Se requiere determinar cuántos peces se ha comido el otro polluelo.
+
+Para resolver esto, debemos entender que cada día los polluelos comen un total de 12 peces (7 para el primer polluelo y 5 para el segundo polluelo). Si un polluelo ha comido 44 peces en los últimos días, el otro polluelo debe haber comido el resto. 
+
+Dado que el total de peces comidos por ambos en estos días será proporcional a sus consumos diarios, digamos que \(x\) es el número de días y \(y\) son los peces comidos por el otro polluelo:
+
+\[ 
+7x + 5x = 12x 
+\]
+
+Esto nos dice que el total de peces comidos en \(x\) días es:
+
+\[ 
+12x = 44 + y 
+\]
+
+Descomponiendo, encontramos que:
+
+\[ 
+7x = 44 \quad \text{y por lo tanto} \quad 5x = y 
+\]
+
+Ahora, resolvemos para \(x\):
+
+\[ 
+x = \frac{44}{7} = 6.2857 \quad \text{y redondeando} \quad x \approx 6 \quad días 
+\]
+
+Así que ahora encontramos \(y\):
+
+\[ 
+5x = 5 \times 6 = 30 \quad peces 
+\]
+
+Por lo tanto, el segundo polluelo ha comido 30 peces.
+
+Razonamiento: El polluelo que ha comido 44 peces consumió su parte durante 6 días. En consecuencia, el otro polluelo, que come 5 peces por día, debe haber comido 30 peces.
+
+Respuesta: A) 34.

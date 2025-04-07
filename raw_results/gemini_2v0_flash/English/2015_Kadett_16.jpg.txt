@@ -1,0 +1,26 @@
+Reasoning:
+Let $x$ be the number of twigs with 5 leaves, and $y$ be the number of twigs with 2 leaves.
+We know that $x + y = 10$, since there are 10 twigs in total.
+The total number of leaves is $5x + 2y$. We want to find which of the given numbers can be expressed in the form $5x + 2y$, where $x$ and $y$ are non-negative integers and $x + y = 10$.
+
+We can rewrite the equation $x + y = 10$ as $y = 10 - x$. Substituting this into the expression for the total number of leaves, we get:
+$5x + 2(10 - x) = 5x + 20 - 2x = 3x + 20$
+Now we need to find an integer value of $x$ such that $0 \le x \le 10$ and $3x + 20$ equals one of the given options.
+
+(A) If $3x + 20 = 45$, then $3x = 25$, so $x = \frac{25}{3}$, which is not an integer.
+(B) If $3x + 20 = 39$, then $3x = 19$, so $x = \frac{19}{3}$, which is not an integer.
+(C) If $3x + 20 = 37$, then $3x = 17$, so $x = \frac{17}{3}$, which is not an integer.
+(D) If $3x + 20 = 31$, then $3x = 11$, so $x = \frac{11}{3}$, which is not an integer.
+
+Since none of the options (A), (B), (C), or (D) can be expressed in the form $3x + 20$ for an integer $x$, the correct answer is (E).
+
+Reasoning: Let $x$ be the number of twigs with 5 leaves, and $y$ the number of twigs with 2 leaves. We have $x + y = 10$. The total number of leaves is $5x + 2y$. Substituting $y = 10 - x$, we get $5x + 2(10 - x) = 5x + 20 - 2x = 3x + 20$. We want to find a value of $x$ between 0 and 10 (inclusive) such that $3x + 20$ is one of the options.
+
+If $3x + 20 = 45$, $3x = 25$, $x = 25/3$, not an integer.
+If $3x + 20 = 39$, $3x = 19$, $x = 19/3$, not an integer.
+If $3x + 20 = 37$, $3x = 17$, $x = 17/3$, not an integer.
+If $3x + 20 = 31$, $3x = 11$, $x = 11/3$, not an integer.
+
+Since none of the first four answers works, the answer is E.
+
+Answer: E)

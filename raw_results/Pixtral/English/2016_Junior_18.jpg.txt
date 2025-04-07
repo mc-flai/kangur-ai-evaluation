@@ -1,0 +1,57 @@
+### Reasoning:
+1. **Identify the total sum of all the numbers on the cards**:
+   The numbers on the cards are 1, 2, 4, 8, 16, 32, 64, and 128. The sum of these numbers is:
+   \[
+   1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
+   \]
+
+2. **Determine the difference between the sums of the envelopes chosen by Eva and Ali**:
+   According to the problem, Eva's sum is 31 greater than Ali's sum. Let \( E \) be the sum of the numbers chosen by Eva and \( A \) be the sum of the numbers chosen by Ali. We have:
+   \[
+   E = A + 31
+   \]
+
+3. **Express the total sum in terms of \( E \) and \( A \)**:
+   Since the total sum of all numbers is 255, we can write:
+   \[
+   E + A = 255
+   \]
+
+4. **Substitute the relationship between \( E \) and \( A \) into the total sum equation**:
+   Substituting \( E = A + 31 \) into \( E + A = 255 \), we get:
+   \[
+   (A + 31) + A = 255
+   \]
+   Simplifying this, we get:
+   \[
+   2A + 31 = 255
+   \]
+
+5. **Solve for \( A \)**:
+   \[
+   2A = 255 - 31
+   \]
+   \[
+   2A = 224
+   \]
+   \[
+   A = 112
+   \]
+
+6. **Determine the number of envelopes chosen by Eva**:
+   Since \( E = A + 31 \), we have:
+   \[
+   E = 112 + 31 = 143
+   \]
+
+7. **Calculate the number of envelopes chosen by Eva**:
+   The total number of envelopes is 8. If Ali takes the remaining envelopes, the number of envelopes chosen by Eva is:
+   \[
+   8 - \text{number of envelopes chosen by Ali}
+   \]
+   Since \( A = 112 \), the number of envelopes chosen by Ali is 4 (because 112 is not a sum of the given numbers). Therefore, Eva must have chosen:
+   \[
+   8 - 4 = 4
+   \]
+
+### Answer: C

@@ -1,0 +1,18 @@
+**Reasoning:**
+- When Luigi sets out his tables individually with 4 chairs each, he is 6 chairs short. This means the total number of chairs needed is a multiple of 4 plus 6.
+- When he puts two tables together to create a bigger table with 6 chairs, he has 4 chairs left over. This means the total number of chairs he has is a multiple of 6 minus 4.
+- Let's denote the number of tables as T. The total number of chairs needed is 4T. If he has 6 chairs left over when combining tables, then 4T = 6k + 4, where k is the number of times he combines two tables.
+- Let's denote the total number of chairs as C. We know that C = 4T + 6.
+
+We need to find a number of tables T such that 4T + 6 is a multiple of 6 minus 4.
+
+Let's check the options:
+- If T = 8, then 4T + 6 = 32 + 6 = 38 (not a multiple of 6)
+- If T = 10, then 4T + 6 = 40 + 6 = 46 (not a multiple of 6)
+- If T = 12, then 4T + 6 = 48 + 6 = 54 (this is a multiple of 6)
+- If T = 14, then 4T + 6 = 56 + 6 = 62 (not a multiple of 6)
+- If T = 16, then 4T + 6 = 64 + 6 = 70 (not a multiple of 6)
+
+Only when T = 12 does 4T + 6 equal a multiple of 6 (54).
+
+**Answer: C)**

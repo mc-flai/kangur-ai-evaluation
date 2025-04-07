@@ -1,0 +1,28 @@
+Reasoning:
+Let the four consecutive positive whole numbers be $n, n+1, n+2, n+3$. The possible sums of three of these numbers are:
+\begin{itemize}
+    \item $n + (n+1) + (n+2) = 3n+3 = 3(n+1)$
+    \item $n + (n+1) + (n+3) = 3n+4$
+    \item $n + (n+2) + (n+3) = 3n+5$
+    \item $(n+1) + (n+2) + (n+3) = 3n+6 = 3(n+2)$
+\end{itemize}
+Since none of these sums is a prime number, they must be composite numbers. Also, since $3(n+1)$ and $3(n+2)$ are divisible by 3, they must be greater than 3 and therefore are composite numbers. So, we only need to check $3n+4$ and $3n+5$.
+Let's consider the choices:
+\begin{itemize}
+    \item If $n=3$, then the numbers are 3, 4, 5, 6. The sums are $3(3+1) = 12$, $3(3+2) = 15$, $3(3)+4 = 13$, $3(3)+5 = 14$. Since 13 is a prime, $n=3$ is not a solution.
+    \item If $n=6$, then the numbers are 6, 7, 8, 9. The sums are $3(6+1) = 21$, $3(6+2) = 24$, $3(6)+4 = 22$, $3(6)+5 = 23$. Since 23 is a prime, $n=6$ is not a solution.
+    \item If $n=7$, then the numbers are 7, 8, 9, 10. The sums are $3(7+1) = 24$, $3(7+2) = 27$, $3(7)+4 = 25$, $3(7)+5 = 26$. None of these are primes, so $n=7$ is a solution.
+\end{itemize}
+Since we are looking for the smallest number, $n=7$.
+
+Reasoning: We test the given options.
+If we start with $n=3$, the numbers are 3, 4, 5, 6. The possible sums are $3+4+5=12$, $3+4+6=13$, $3+5+6=14$, $4+5+6=15$. 13 is prime, so 3 doesn't work.
+If we start with $n=6$, the numbers are 6, 7, 8, 9. The possible sums are $6+7+8=21$, $6+7+9=22$, $6+8+9=23$, $7+8+9=24$. 23 is prime, so 6 doesn't work.
+If we start with $n=7$, the numbers are 7, 8, 9, 10. The possible sums are $7+8+9=24$, $7+8+10=25$, $7+9+10=26$, $8+9+10=27$. None of these are prime. So 7 works.
+If we start with $n=10$, the numbers are 10, 11, 12, 13. The possible sums are $10+11+12=33$, $10+11+13=34$, $10+12+13=35$, $11+12+13=36$. None of these are prime. So 10 works.
+If we start with $n=12$, the numbers are 12, 13, 14, 15. The possible sums are $12+13+14=39$, $12+13+15=40$, $12+14+15=41$, $13+14+15=42$. 41 is prime, so 12 doesn't work.
+
+Reasoning:
+The smallest is $n=7$.
+
+Answer: C)

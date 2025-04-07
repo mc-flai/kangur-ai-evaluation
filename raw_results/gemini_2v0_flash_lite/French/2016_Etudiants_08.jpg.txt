@@ -1,0 +1,21 @@
+Raisonnement :
+Pour que les huit sommes de trois nombres écrits aux sommets de petits triangles soient égales, on observe que le cercle central est inclus dans chaque triangle. De plus, chaque cercle en périphérie est présent dans exactement deux triangles, sauf les cercles d'angle, qui sont présents dans un seul triangle.
+Si l'on appelle 'a' le nombre au centre et 'b', 'c', 'd', 'e', 'f', 'g', 'h' les nombres autour du centre (dans cet ordre), les sommes des triangles sont :
+- a + b + c
+- a + c + d
+- a + d + e
+- a + e + f
+- a + f + g
+- a + g + h
+- a + h + b
+- b + d + g = triangle non centré, donc il n'y a pas de triangle non centré
+Chaque nombre extérieur doit être le même :
+- a + b + c = a + c + d  => b = d
+- a + c + d = a + d + e  => c = e
+- a + d + e = a + e + f  => d = f
+- a + e + f = a + f + g  => e = g
+- a + f + g = a + g + h  => f = h
+- a + g + h = a + h + b  => g = b
+En conclusion b = d = f = h et c = e = g.  Il ne peut y avoir au maximum que trois nombres différents: l'entier du centre et deux autres nombres qui alternent sur les cercles extérieurs.
+
+Réponse : C) 3

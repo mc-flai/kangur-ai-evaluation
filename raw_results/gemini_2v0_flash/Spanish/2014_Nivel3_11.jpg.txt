@@ -1,0 +1,13 @@
+Razonamiento:
+Let $w$ be the number of weeks that have passed.
+A has 2 lessons per week, so A has $2w$ lessons in $w$ weeks.
+B has 1 lesson in alternate weeks. So, B has a lesson every two weeks. Thus, B has approximately $w/2$ lessons. More precisely, if $w$ is even, then B has $w/2$ lessons. If $w$ is odd, then B has $(w-1)/2$ lessons.
+
+We are given that A has 15 more lessons than B.
+Case 1: $w$ is even. Then $2w - w/2 = 15$, so $4w - w = 30$, which implies $3w = 30$, and $w = 10$.
+Case 2: $w$ is odd. Then $2w - (w-1)/2 = 15$, so $4w - w + 1 = 30$, which implies $3w = 29$, so $w = 29/3$.
+Since $w$ must be an integer, we have $w=10$. Then A has $2(10) = 20$ lessons, and B has $10/2 = 5$ lessons. The difference is $20-5 = 15$ lessons.
+If $w=10$, then $w$ is even and A has 20 lessons. B has $10/2 = 5$ lessons. $20 - 5 = 15$ lessons.
+Therefore the answer is 10.
+
+Respuesta: E)

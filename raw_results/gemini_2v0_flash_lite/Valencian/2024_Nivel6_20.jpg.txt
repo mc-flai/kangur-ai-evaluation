@@ -1,0 +1,24 @@
+Raonament:
+Let's denote the initial length of the candles as L. Let x be the time in hours the candles have been burning.
+
+Candle 1 burns in 4 hours, so its burn rate is L/4 per hour.
+Candle 2 burns in 5 hours, so its burn rate is L/5 per hour.
+
+After x hours:
+Length of Candle 1: L - (L/4) * x = L(1 - x/4)
+Length of Candle 2: L - (L/5) * x = L(1 - x/5)
+
+We want the longer candle's length (the one with the slower burning rate) to be three times the length of the shorter candle.  Since candle 1 burns faster, it is the shorter candle. We have two possible cases:
+Case 1: Candle 2 is three times the length of candle 1.
+L(1 - x/5) = 3 * L(1 - x/4)
+1 - x/5 = 3 - 3x/4
+3x/4 - x/5 = 2
+(15x - 4x) / 20 = 2
+11x/20 = 2
+x = 40/11
+
+Case 2: Candle 1 is three times the length of candle 2. This is not possible, because candle 1 burns quicker than candle 2.
+
+So, x = 40/11
+
+Resposta: A)

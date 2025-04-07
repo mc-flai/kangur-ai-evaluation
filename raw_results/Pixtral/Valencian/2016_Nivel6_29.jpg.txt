@@ -1,0 +1,32 @@
+**Pregunta:** Un robot troba a l'origen del pla cartesià. Llancen alhora dos daus, un vermell i un blau. Si el nom del dau vermell és parell, el robot avança una unitat cap a la dreta, i si és senar, cap a l'esquerra. Si el nom del dau blau és parell, el robot avança una unitat cap amunt, i si és senar, cap avall. Quina és la probabilitat que el robot torni a l'origen després de llançar dues vegades els daus?
+
+**Opcions:**
+A) 1/2
+B) 1/3
+C) 1/9
+D) 1/6
+E) 1/4
+
+**Racionalització:**
+1. Identifiquem els resultats possibles per al moviment del robot:
+   - El robot pot moure's una unitat cap a la dreta (D) o una unitat cap a l'esquerra (E) si el dau vermell és respectivament parell o senar.
+   - El robot pot moure's una unitat cap amunt (U) o una unitat cap avall (A) si el dau blau és respectivament parell o senar.
+
+2. Calculem les possibilitats de cada moviment:
+   - Cada llançament de dau té 2 resultats possibles (parell o senar).
+   - Hi ha 4 resultats possibles en total (D, E, U, A).
+
+3. Determinem els resultats que porten el robot de nou a l'origen:
+   - Per tornar a l'origen, el robot ha de fer un nombre igual de moviments cap a la dreta i cap a l'esquerra, i un nombre igual de moviments cap amunt i cap avall.
+   - Els moviments possibles que porten el robot de nou a l'origen són:
+     - D, E (un pas cap a la dreta i un pas cap a l'esquerra)
+     - U, A (un pas cap amunt i un pas cap avall)
+
+4. Calculem la probabilitat de cada parella de resultats:
+   - Cada parella de resultats (D, E) o (U, A) té una probabilitat de 1/4.
+   - Hi ha 2 parelles de resultats possibles que porten el robot de nou a l'origen.
+
+5. Calculem la probabilitat total:
+   - La probabilitat que el robot torni a l'origen després de dos llançaments és 2/16 = 1/8.
+
+**Resposta:** E) 1/4

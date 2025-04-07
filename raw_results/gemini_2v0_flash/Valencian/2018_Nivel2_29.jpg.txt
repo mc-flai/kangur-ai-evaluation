@@ -1,0 +1,8 @@
+Raonament: Sigui $v_M$ la velocitat de Mar i $v_A$ la velocitat de Alba. Se sap que $v_A = 5v_M$. Considerem que la longitud de la pista circular és $L$. Volem trobar el nombre de vegades que es troben, és a dir, el nombre de punts en que coincideixen.
+Considerem que Mar ha recorregut una distancia $d_M$ i Alba ha recorregut una distancia $d_A$. Quan es troben, $d_A - d_M = nL$, on $n$ és un enter.
+Com que comencen al mateix temps, $t = \frac{d_M}{v_M} = \frac{d_A}{v_A}$. Per tant, $d_A = \frac{v_A}{v_M}d_M = 5d_M$.
+Substituint $d_A$ per $5d_M$, tenim $5d_M - d_M = nL$, per tant, $4d_M = nL$, i $d_M = \frac{nL}{4}$.
+Com que $d_M$ ha de ser menor que $L$ (la longitud de la pista), $0 < d_M \le L$. Així, $0 < \frac{nL}{4} \le L$, el que implica $0 < n \le 4$. Així, $n$ pot ser 1, 2, 3 o 4.
+Per cada valor de $n$ hi ha un punt en la pista on es troben. Per tant, hi ha 4 punts en la pista on Mar i Alba coincideixen.
+
+Resposta: B)

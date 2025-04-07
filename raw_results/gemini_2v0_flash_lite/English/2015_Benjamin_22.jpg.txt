@@ -1,0 +1,13 @@
+Reasoning:
+Let 'x' be the number of compartments in each carriage.
+Mike is in the 18th compartment and in the 3rd carriage. So, the first 2 carriages have 2*x compartments, and his compartment (18th) is in the 3rd carriage. Therefore, 2*x < 18 <= 3*x.
+Joanna is in the 50th compartment and in the 7th carriage. So, the first 6 carriages have 6*x compartments, and her compartment (50th) is in the 7th carriage. Therefore, 6*x < 50 <= 7*x.
+From Mike's information:
+Dividing the inequalities gives: 18/3 <= x, or 6 <= x.
+From Joanna's information:
+Dividing the inequalities gives: 50/7 <= x, or approximately 7.14 <= x.
+Also, from Mike's information: 18/2 > x, so x < 9.
+From Joanna's information: 50/6 > x, so approximately 8.33 > x.
+Considering both Mike and Joanna's locations, we have 7.14 <= x < 8.33 and x>=6 and x<9. The only integer that satisfies these constraints is 8.
+
+Answer: B)

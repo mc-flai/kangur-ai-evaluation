@@ -1,0 +1,14 @@
+Raonament: Siguin $p, q, r$ els tres nombres primers. Volem trobar quan $pqr = 5(p+q+r)$.
+Sense pèrdua de generalitat, suposem $p \le q \le r$.
+Si $p, q, r \ge 5$, llavors $pqr \ge 25r$ i $5(p+q+r) \le 5(3r) = 15r$. Per tant $pqr > 5(p+q+r)$.
+Això implica que almenys un dels nombres ha de ser 2 o 3.
+Si $p=2$, llavors $2qr = 5(2+q+r)$, per tant $2qr = 10 + 5q + 5r$, així $4qr = 20 + 10q + 10r$, i $4qr - 10q - 10r + 25 = 45$, així $(2q-5)(2r-5) = 45 = 3 \cdot 15 = 5 \cdot 9$.
+Si $2q-5 = 3$ i $2r-5 = 15$, llavors $2q=8$ i $2r=20$, de manera que $q=4$ i $r=10$. Però $4$ i $10$ no són primers.
+Si $2q-5 = 5$ i $2r-5 = 9$, llavors $2q=10$ i $2r=14$, de manera que $q=5$ i $r=7$. Així obtenim el conjunt $\{2, 5, 7\}$. Comprovem: $2 \cdot 5 \cdot 7 = 70$ i $5(2+5+7) = 5(14) = 70$. Aquesta és una solució.
+Si $p=3$, llavors $3qr = 5(3+q+r)$, per tant $3qr = 15 + 5q + 5r$, així $9qr = 45 + 15q + 15r$, i $9qr - 15q - 15r + 25 = 70$, així $(3q-5)(3r-5) = 70 = 2 \cdot 35 = 5 \cdot 14 = 7 \cdot 10$.
+Si $3q-5 = 2$ i $3r-5 = 35$, llavors $3q=7$ i $3r=40$, de manera que $q=7/3$ i $r=40/3$. No són enters.
+Si $3q-5 = 5$ i $3r-5 = 14$, llavors $3q=10$ i $3r=19$, de manera que $q=10/3$ i $r=19/3$. No són enters.
+Si $3q-5 = 7$ i $3r-5 = 10$, llavors $3q=12$ i $3r=15$, de manera que $q=4$ i $r=5$. Però $4$ no és primer.
+Per tant, la única solució és $\{2, 5, 7\}$.
+
+Resposta: B)

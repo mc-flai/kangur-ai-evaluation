@@ -1,0 +1,18 @@
+**Raonament**: Per resoldre aquesta pregunta, hem d'entendre el comportament de la funció \( f(xy) \) en relació amb la informació que es dóna.
+
+La funció \( f(xy) \) és igual a \( f(x + y) \). Això significa que per a qualsevol valor dels enters \( x \) i \( y \), la funció \( f \) es comporta de manera que \( f(x \cdot y) \) i \( f(x + y) \) són iguals.
+
+La informació donada és que \( f(9) = 18 \). A partir d'aquesta informació, podem trobar altres valors de la funció.
+
+En particular, busquem el valor de \( f(2020) \).
+
+Considerem els valors de \( x \) i \( y \) tals que \( x \cdot y = 2020 \) i també \( x + y = 9 \). Una manera d'això és triant \( x = 2 \) i \( y = 2020 \), perquè \( 2 \cdot 2020 = 4040 \) i \( 2 + 2020 = 2022 \).
+
+Però, si considerem \( x = 1 \) i \( y = 2019 \), tenim \( 1 \cdot 2019 = 2019 \) i \( 1 + 2019 = 2020 \).
+
+Ara, aplicant la propietat de la funció:
+\[ f(2020) = f(1 \cdot 2019) = f(1 + 2019) = f(2020) = f(9) = 18 \]
+
+Així, el valor de \( f(2020) \) és 18.
+
+**Resposta**: B) 18.

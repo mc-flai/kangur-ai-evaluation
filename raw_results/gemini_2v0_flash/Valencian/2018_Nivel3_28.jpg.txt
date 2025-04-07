@@ -1,0 +1,32 @@
+Raonament:
+Primer, identifiquem que el triangle ABC és isòsceles perquè AB = AC. Per tant, els angles a la base són iguals, és a dir, l'angle BAC és igual a l'angle ABC. Anomenem aquests angles x. Com que la suma dels angles d'un triangle és 180º, tenim que angle ACB = 180 - 2x.
+A més, tenim que DC = BC, per tant el triangle DBC és isòsceles i els angles CDB i DBC són iguals. L'angle DBC és x. Per tant, l'angle DCB és 180 - 2x.
+Com que AD = DC, el triangle ADC és isòsceles i els angles DAC i DCA són iguals. Anomenem aquest angle y. Per tant, angle DAC = angle DCA = y, així que y = x.
+Aleshores, angle ADC = 180 - 2y = 180 - 2x. Per tant, l'angle CDB és suplementari a l'angle ADC, així que l'angle CDB = 180 - (180 - 2x) = 2x.
+En el triangle DBC, la suma dels angles és 180:
+angle DCB + angle DBC + angle CDB = 180
+angle DCB + x + 2x = 180
+angle DCB = 180 - 3x.
+A més, angle ACB = angle DCA + angle DCB
+180 - 2x = x + angle DCB
+angle DCB = 180 - 3x.
+En realitat, per resoldre aquest problema utilitzarem que ABC és isòsceles i ACD i BCD també. Aleshores ∠BAC = ∠ABC = x. Aleshores ∠ACD = x. També ∠CDB = ∠CBD = x. Llavors ∠ADC = 180 - ∠CDB = 180 - x. Però el triangle ADC és isòsceles, amb ∠DAC = ∠DCA = x.
+Llavors ∠ADC = 180 - 2x. Però 180 - x = 180 - 2x. Llavors x= 0 que no és possible.
+Com AB = AC, llavors els angles ABC = ACB. Sigui x aquest angle.
+DC = BC llavors CDB = DBC = x
+AD = DC llavors DAC = DCA = a. A més DAC = BAC.
+En el triangle ABC, x + x + a+DCA = 180. Així 2x + x+DCA = 180
+En el triangle BCD, BCD + x+ x = 180
+En el triangle ACD,  a + a + ADC = 180
+
+Com que la suma dels angles dels triangles ADC, DBC i ABC és 180, podem resoldre el problema.
+∠A = a, ∠ABC = x, ∠ACB = a + ∠BCD
+a = ∠BAC = ∠ABC = x, per tant, ∠ACB = x + ∠BCD.
+Però  ABC isòsceles fa 2x + ∠ACB = 180, llavors 2x + (x + ∠BCD) = 180. 3x+∠BCD = 180
+DBC és isòsceles llavors ∠BCD + 2x = 180
+3x+∠BCD = ∠BCD + 2x
+Per tant, X ha de ser 0, cosa que no és possible.
+
+Per tant la resposta és que no es pot calcular.
+
+Resposta: E)

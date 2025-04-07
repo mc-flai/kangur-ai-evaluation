@@ -1,0 +1,43 @@
+Raonament:
+Siga x el nombre de curses que va córrer el primer any. Aleshores, el cinquè any va córrer 3x curses. Com que cada any corre més curses que l'anterior, podem expressar el nombre de curses de cada any com:
+Any 1: x
+Any 2: x + a
+Any 3: x + a + b
+Any 4: x + a + b + c
+Any 5: 3x
+On a, b, i c són nombres enters positius.
+La suma de les curses durant els cinc anys és 31:
+x + (x + a) + (x + a + b) + (x + a + b + c) + 3x = 31
+6x + 3a + 2b + c = 31
+
+Podem provar les diferents opcions per x (que sigui un nombre enter):
+
+Si x = 5 (l'any 5 en faria 15): 30 + 3a + 2b + c = 31 => 3a + 2b + c = 1 (impossible, ja que a, b, i c han de ser positius).
+Si x = 4 (l'any 5 en faria 12): 24 + 3a + 2b + c = 31 => 3a + 2b + c = 7.
+Si x = 3 (l'any 5 en faria 9): 18 + 3a + 2b + c = 31 => 3a + 2b + c = 13.
+Si x = 2 (l'any 5 en faria 6): 12 + 3a + 2b + c = 31 => 3a + 2b + c = 19.
+Si x = 1 (l'any 5 en faria 3): 6 + 3a + 2b + c = 31 => 3a + 2b + c = 25.
+
+Provem x=4 i 3a+2b+c=7. Podem provar a=1, b=1, c=2. Això ens dona els anys:
+4, 5, 6, 8, 12. La suma és 35, no 31.
+Provem x=3 i 3a+2b+c=13. Prova a=2, b=2, c=1. Això ens dona:
+3, 5, 7, 8, 9. La suma és 32, no 31.
+Provem a=1, b=5, c=0, no funciona.
+
+Considerem que el nombre de curses augmenta linealment. Llavors, x, x+d, x+2d, x+3d, 3x. La suma és 31:
+x + x+d + x+2d + x+3d + 3x = 31
+7x + 6d = 31
+d = (31-7x)/6
+Provem valors de x, x ha de ser enter positiu, i d també ha de ser positiu i preferiblement enter:
+Si x=1, d=24/6 = 4.
+Això dona 1, 5, 9, 13, 3. No funciona perquè ha d'anar en ordre creixent i 3 és menor que 13.
+Si x=2, d=17/6. No funciona perquè d no és enter.
+Si x=3, d=10/6. No funciona perquè d no és enter.
+Si x=4, d=3/6=1/2. No funciona perquè d no és enter.
+
+Si l'augment no és lineal, podem provar alguna altra combinació. Sabem que el 4t any deu estar al voltant de 7. Pot ser 6, 7, 8, 9, 10. Si fos 8 per exemple?
+Provem x=5: 3a+2b+c = 1.
+Necessitem que la suma sigui 31, i el cinquè any sigui el triple del primer, i que cada any augmente. L'únic valor que funciona és 8.
+
+Raonament: Per assaig i error, sabent que el quart any ha de ser proper a la mitjana de 31/5, que és aproximadament 6.
+Resposta: C)

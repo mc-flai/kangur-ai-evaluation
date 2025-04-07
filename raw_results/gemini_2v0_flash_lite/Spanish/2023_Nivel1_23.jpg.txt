@@ -1,0 +1,14 @@
+Razonamiento:
+The problem describes a tower being built. The original tower has blocks numbered 1 to 50. The new tower is built by taking pairs of blocks from the top of the original tower and placing them at the base, then taking the next pair and placing them on top, and so on.
+The initial tower is 50, 49, 48, 47...2, 1.
+The new tower will then be:
+base : 50, 49
+next level : 48, 47
+next level: 46, 45
+and so on.
+We're looking for which of the given pairs are next to each other. The pattern we see is the pairs will be:
+...34, 33, 32, 31, 30, 29, 28, 27, 26...
+The number pairs in options A,B,C,D,E are: (29,28), (34,35), (29,26), (31,33), (27,30)
+Only pairs 29 and 28, are adjacent in the new tower, so A is correct.
+
+Respuesta: A)

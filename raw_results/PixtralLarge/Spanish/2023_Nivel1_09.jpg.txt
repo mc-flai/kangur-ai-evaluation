@@ -1,0 +1,32 @@
+Para determinar cuántos pasos visibles hay en la torre cilíndrica, primero identificamos la cantidad de pasos que son visibles desde abajo hasta arriba en la imagen.
+
+Al observar la imagen, vemos claramente que hay 9 pasos visibles. Sin embargo, la pregunta pregunta cuántos pasos no son visibles. Para responder esto, necesitamos determinar el total de pasos y luego restar los visibles.
+
+Observando de nuevo la imagen, notamos que los pasos visibles forman una secuencia que incluye espacios entre ellos. Al analizar la imagen cuidadosamente, podemos ver que la torre comienza con un paso en la parte inferior, seguido de un espacio, otro paso, otro espacio, y así sucesivamente, hasta el tope. Esto significa que la secuencia de pasos visibles y espacios es la siguiente:
+
+- Paso
+- Espacio
+- Paso
+- Espacio
+- Paso
+- Espacio
+- Paso
+- Espacio
+- Paso
+
+Esto nos da un total de 9 pasos visibles y 8 espacios entre ellos. La secuencia completa termina con un paso en la parte superior.
+
+Dado que hay 9 pasos visibles y la secuencia completa incluye 8 espacios, esto sugiere que hay un total de 9 + 8 = 17 pasos. Sin embargo, la pregunta no solicita el número total de pasos, sino cuántos pasos no son visibles.
+
+Para encontrar los pasos no visibles, restamos los pasos visibles del total de pasos:
+- Número total de pasos: 17
+- Pasos visibles: 9
+
+Entonces, los pasos no visibles son:
+17 - 9 = 8
+
+Por lo tanto, hay 8 pasos no visibles.
+
+Razonamiento: La imagen muestra 9 pasos visibles en una secuencia alterna con espacios. Contando los pasos visibles y los espacios, determinamos que hay un total de 17 pasos. Restando los pasos visibles del total, encontramos que hay 8 pasos no visibles.
+
+Respuesta: D).

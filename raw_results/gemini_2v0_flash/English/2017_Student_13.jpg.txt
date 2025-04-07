@@ -1,0 +1,14 @@
+Reasoning:
+Let $V_A$ and $V_B$ be the volumes of cylinders A and B, respectively. Let $r_A$ and $r_B$ be their respective radii, and $h_A$ and $h_B$ be their respective heights.
+We are given that $V_A = V_B$. Also, we know that $r_B = r_A + 0.1r_A = 1.1r_A$.
+The volume of a cylinder is given by $V = \pi r^2 h$. Thus, we have:
+$V_A = \pi r_A^2 h_A$ and $V_B = \pi r_B^2 h_B$
+Since $V_A = V_B$, we have $\pi r_A^2 h_A = \pi r_B^2 h_B$.
+Substituting $r_B = 1.1r_A$, we get:
+$\pi r_A^2 h_A = \pi (1.1r_A)^2 h_B$
+$r_A^2 h_A = (1.1)^2 r_A^2 h_B$
+$h_A = (1.1)^2 h_B = 1.21 h_B$
+$h_A = 1.21 h_B = h_B + 0.21 h_B$
+This means $h_A$ is 21% greater than $h_B$.
+
+Answer: E)

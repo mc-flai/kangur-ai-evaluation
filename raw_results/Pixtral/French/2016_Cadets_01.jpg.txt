@@ -1,0 +1,12 @@
+
+Raisonnement : Pour trouver le nombre de noms entre 17,03 et 20,16, nous devons comprendre combien de noms peuvent être inclus dans cette plage. Les noms sont généralement listés dans l'ordre alphabétique. Si nous supposons que les noms sont répartis uniformément entre 17,03 et 20,16, nous devons compter combien de noms peuvent être inclus dans cette plage.
+
+1. Convertissons les valeurs en nombres entiers pour simplifier le calcul. Par exemple, 17,03 pourrait être approximé par 17 et 20,16 par 20.
+2. Compter les noms entre 17 et 20 dans une liste alphabétique :
+   - Entre 17 et 18 : 17,04, 17,05, 17,06, 17,07, 17,08, 17,09, 17,10, 17,11, 17,12, 17,13, 17,14, 17,15, 17,16 (16 noms)
+   - Entre 18 et 19 : 18,01, 18,02, 18,03, 18,04, 18,05, 18,06, 18,07, 18,08, 18,09, 18,10, 18,11, 18,12, 18,13, 18,14, 18,15, 18,16 (19 noms)
+   - Entre 19 et 20 : 19,01, 19,02, 19,03, 19,04, 19,05, 19,06, 19,07, 19,08, 19,09, 19,10, 19,11, 19,12, 19,13, 19,14, 19,15, 19,16 (20 noms)
+
+En additionnant ces valeurs, nous obtenons 16 + 19 + 20 = 55 noms.
+
+Réponse : E)

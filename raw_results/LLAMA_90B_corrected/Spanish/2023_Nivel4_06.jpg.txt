@@ -1,0 +1,18 @@
+Razonamiento: Para encontrar el número de códigos PIN de tarjetas de crédito que consisten de cuatro dígitos diferentes cuya suma es 8, podemos utilizar combinaciones con repetición.
+
+Es importante notar la especificación de "dígitos diferentes", ya que eso nos realmente da la posibilidad de números solo en 0, 1, 2, 3, 4, 5, 6, 7, ya que en la primera digitización un número puede ser 0 pero en la última condición suma 8 los números permitidos van de 0 a 7 porque es la única forma en la que podemos sumar 4 números distintos que sean iguales a 8.
+
+Sin embargo, si todas las posibilidades pueden ser usados las 4 combinaciones posibles que suman 8 son las siguientes: 
+
+*   (0, 0, 2, 6)  =>  órdenes 24
+*   (0, 0, 4, 4)  =>  órdenes 4
+*   (0, 1, 1, 6)  =>  órdenes 24
+*   (0, 1,2,5)    =>  órdenes 24
+
+La primera condición, digito 0 no puede ser el primero, será eliminado del conteo final de todas las variantes donde ente la posicion 0. 
+
+Lo mismo aplicara para la condición de que el primero y último dígito es igual, igualemos 0,1,2. Se eliminaran los Ordenes con esas posiciones. 
+
+Sumamos el total de combinaciones permitidas con las condiciones dadas: 4 + 12 + 4 = 20.
+
+Respuesta: E)

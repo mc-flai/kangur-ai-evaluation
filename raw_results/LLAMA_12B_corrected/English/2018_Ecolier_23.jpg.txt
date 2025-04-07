@@ -1,0 +1,15 @@
+Reasoning: To solve this question, we need to understand the constraints given for writing numbers in the fields of a figure.
+
+**Property to determine:** What numbers can be written into the field with the question mark?
+
+**Available data:**
+
+*   The numbers 1 to 7 should be written in every field.
+*   Two consecutive numbers are not allowed to be in adjacent fields.
+*   Two fields are adjacent if they have one edge or one corner in common.
+
+Looking at the figure, we see that the top two fields can only contain either 1 or 7, as they are the starting points and cannot have any adjacent consecutive numbers. If we put 1 in the top left field, the number 2 cannot be in any of the adjacent fields, so it also limits our options for the top right field. Therefore, we can write 1 into the top left field, which means the top right field can only be 7.
+
+Based on this reasoning, the correct answer is A) all 7 numbers, or B) only odd numbers. Since only odd numbers were mentioned, it is more likely that they only considered odd numbers.
+
+Answer: B)

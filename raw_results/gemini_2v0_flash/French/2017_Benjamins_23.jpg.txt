@@ -1,0 +1,52 @@
+Reasoning: Let's analyze the possible combinations to maximize the number of odd numbers in the pyramid. The pyramid has 1+2+3+4+5 = 15 boxes. Let's denote O for odd and E for even numbers.
+
+The sum of two odd numbers is even (O+O=E).
+The sum of two even numbers is even (E+E=E).
+The sum of an odd and an even number is odd (O+E=O).
+
+To maximize the number of odd numbers, we should try to place odd and even numbers in the bottom row.
+Consider alternating odd and even in the bottom row: O E O E O.
+The second row is then: O+E, E+O, O+E, E+O = O O O O
+The third row is then: O+O, O+O, O+O = E E E
+The fourth row is then: E+E, E+E = E E
+The top row is: E+E = E
+
+In this case, the number of odd numbers is 5+4 = 9. However, we are only allowed to put integers.
+O E O E O: The second row is O O O O; the third row is E E E; the fourth row is E E; the fifth row is E.
+Let's consider putting all odds in the bottom row: O O O O O.
+The second row: E E E E. The third row: E E E. The fourth row: E E. The fifth row: E. Only 5 odds.
+
+Let's analyze the general case.  There are 5 numbers at the bottom. If we set k of them to be odd, then the number of odds in the row above would be 5-k.
+If we set 3 of them to be odd, then the number of odds in the row above would be 2.
+
+We try to alternate 1 0 1 0 1
+O E O E O -> O O O O -> E E E -> E E -> E (5+4=9? Something is wrong)
+1 0 1 0 1 -> 1 1 1 1 -> 0 0 0 -> 0 0 -> 0 (We just assign odd to 1 and even to 0)
+odd+odd=even, even+even=even, odd+even=odd
+
+If you set the bottom row to be all odd (1 1 1 1 1) then the sum would have less odd numbers. So consider the maximum number of odd number you can place at the base is 3 (odd, even, odd, even, odd) or (even, odd, even, odd, even).
+
+O E O E O => O O O O => E E E => E E => E (5+4=9) Wrong, we add the numbers from the rows, not the ones we set at the base. OOOO should add up like this.
+
+Let the bottom row be 1 0 1 0 1.
+The bottom row gives 3 odd numbers.
+Second row is 1 1 1 1, four odd numbers.
+Third row is 0 0 0, zero odd numbers.
+Fourth row is 0 0, zero odd numbers.
+Fifth row is 0, zero odd numbers.
+3 + 4 = 7. So you can have at max 7 odd numbers.
+
+Reasoning:
+The key here is to alternate odd and even integers as much as possible to maximize odd number appearance in subsequent rows. Let's start with assigning "1" to odd and "0" to even integers. Consider alternating these values.
+
+Start with O E O E O (1 0 1 0 1)
+The total odd integers are 3 from the first level.
+
+Second level becomes: 1 1 1 1
+Third level becomes: 0 0 0
+Fourth level becomes: 0 0
+Fifth level becomes: 0
+
+The number of odds is 3 + 4 = 7.
+
+Answer: D)

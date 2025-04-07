@@ -1,0 +1,7 @@
+Reasoning:
+Let $S$ be the number of squares and $T$ be the number of triangles.
+We are given that $S = 6$.
+Each square borders 4 triangles, so the total number of square-triangle adjacencies is $4S$. Each triangle borders 3 squares, so the total number of square-triangle adjacencies is $3T$. Therefore, $4S = 3T$.
+We have $4(6) = 3T$, so $24 = 3T$. Dividing by 3 gives $T = 8$.
+
+Answer: D)

@@ -1,0 +1,21 @@
+To determine how many pieces Carl gets when he cuts the piece of wire at every mark made by Simon and Barbara, we need to consider the total number of cuts made by both Simon and Barbara.
+
+1. Simon wants to cut the wire into 9 equally long pieces, so he makes 8 marks (since 9 pieces require 8 cuts).
+2. Barbara wants to cut the wire into 8 equally long pieces, so she makes 7 marks (since 8 pieces require 7 cuts).
+
+When Carl cuts the wire at every mark made by Simon and Barbara, he will be cutting at each of the 8 marks from Simon and each of the 7 marks from Barbara. However, we need to consider that some of these marks may overlap.
+
+Since Simon and Barbara are cutting the same piece of wire into different numbers of equally long pieces, their marks will overlap at the ends of the wire but not in between. Therefore, the total number of unique marks will be the sum of the individual marks minus any overlaps.
+
+Total marks = Simon's marks + Barbara's marks - overlapping marks at the ends
+Total marks = 8 + 7 - 1 (since the first mark of each overlaps at one end of the wire)
+Total marks = 14
+
+Since Carl cuts at every mark, the number of pieces he gets will be one more than the number of marks (since each cut creates an additional piece).
+
+Total pieces = Total marks + 1
+Total pieces = 14 + 1
+Total pieces = 15
+
+Reasoning: Simon makes 8 marks, Barbara makes 7 marks, and considering one overlapping mark at the end, Carl makes a total of 14 cuts, resulting in 15 pieces.
+Answer: A)

@@ -1,0 +1,18 @@
+
+La pregunta 21 se refiere a Jack y su movimiento desde el punto S al punto F en una cuadrícula. El problema describe que Jack salta en diagonal hacia arriba a la derecha desde S hasta un cuadrado en la fila inmediata superior. Luego, salta al punto A, y desde A, puede saltar al punto B o al punto C, que están en la figura lateral.
+
+Para determinar el número de saltos diferentes (campos) que Jack puede hacer desde el punto S al punto F, debemos considerar el patrón de movimiento descrito.
+
+Razonamiento:
+1. Jack salta en diagonal hacia arriba a la derecha desde S.
+2. Esto implica que cada salto aumenta tanto la fila como la columna en una unidad.
+3. El punto A es el siguiente en la secuencia de saltos.
+4. Desde A, Jack puede saltar a B o C, que están en la figura lateral.
+
+Dado que cada salto aumenta tanto la fila como la columna en una unidad, podemos calcular el número de saltos necesarios para llegar de S a F:
+- El punto S está en la fila 2 y la columna 3.
+- El punto F está en la fila 4 y la columna 6.
+
+Para llegar de S (2, 3) a F (4, 6), Jack debe moverse 2 filas hacia arriba y 3 columnas hacia la derecha. Esto requiere un total de 2 + 3 = 5 saltos.
+
+Respuesta: D)

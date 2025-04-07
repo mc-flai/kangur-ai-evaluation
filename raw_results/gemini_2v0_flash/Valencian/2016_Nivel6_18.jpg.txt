@@ -1,0 +1,6 @@
+Raonament:
+Primer, calculem el nombre total de permutacions de les lletres de la paraula CANGUR. Hi ha 6 lletres, per tant, hi ha 6! = 720 permutacions.
+Ara, calculem el nombre de permutacions on les dues vocals (A i U) estan juntes. Considerem les dues vocals com un sol bloc (AU o UA). Aleshores, tenim 5 "lletres" per ordenar: C, N, G, R, (AU). Hi ha 5! = 120 maneres d'ordenar-les. Com que les vocals A i U poden estar en l'ordre AU o UA, hi ha 2 * 120 = 240 permutacions on les vocals estan juntes.
+Finalment, restem el nombre de permutacions on les vocals estan juntes del nombre total de permutacions per obtenir el nombre de permutacions on les vocals no estan juntes: 720 - 240 = 480.
+
+Resposta: E)

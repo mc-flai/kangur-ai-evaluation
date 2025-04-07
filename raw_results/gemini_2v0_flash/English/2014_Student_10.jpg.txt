@@ -1,0 +1,79 @@
+Reasoning:
+We need to find the last year before 2014 where all the digits are distinct and the last digit is greater than the sum of the other three digits.
+We will start searching backwards from 2013.
+
+-2013: 2+0+1 = 3 < 3 No
+-2012: 2+0+1 = 3 < 2 No
+-2010: 2+0+1 = 3 < 0 No
+-2009: digits not distinct
+-2008: digits not distinct
+-2007: digits not distinct
+-2006: digits not distinct
+-2005: digits not distinct
+
+Let's check the 1900s:
+We're looking for a year 1abc where a+b+c < c, where a, b, and c are all distinct.
+This simplifies to a+b < 0, which is not possible.
+
+Let's check the 1800s:
+-1876: 1+8+7 = 16 > 6 No
+-1875: 1+8+7 = 16 > 5 No
+...
+-1800s. Let's try lower numbers.
+
+-1700s
+-1789: 1+7+8 = 16 > 9 No
+-1769: 1+7+6 = 14 > 9 No
+-1759: 1+7+5 = 13 > 9 No
+
+-1600s
+-1679: 1+6+7 = 14 > 9 No
+
+-1500s
+-1589: 1+5+8 = 14 > 9 No
+
+Let's try 1000s
+
+-1023: 1+0+2 = 3 < 3 No
+
+Checking 1000s is useless, since the first digit is 1.
+
+Let's consider when the first digit is 1.
+If the digits are 1abc, and they must be distinct, and 1+a+b < c. Also, a, b, c must be different and can range from 0 to 9.
+Let's rewrite this. 1+a+b < c
+
+We should consider low numbers.
+Consider 102_: There are three numbers higher: 3.
+1023 works since 1+0+2=3 < 3 Nope
+Consider 12__:
+Consider 123_. 1+2+3 = 6. Therefore the last digit could be: 7, 8, 9
+
+1237: is a distinct number 1237
+
+2014-1237 = 777 years ago. None of the options fit with this answer.
+Let's consider 100s
+
+-100s- 990s and below will require the numbers to add to a number greater than 9 for this to hold.
+
+Let's look at the smallest example that can exist: 012_:
+1+2 = 3 so the number must be > 3
+0124 - yes 0 + 1 + 2 = 3 < 4.
+2014-0124 = 1890
+The digits must all be different. Let's list the potential answers.
+Years ago was it last the case?
+Let's look at what we have found:
+
+1abc where 1+a+b < c. Let a=0, b=2. C = 3, 4, 5, 6, 7, 8, 9.
+1023 : NO
+Let's use high numbers, and make the leading digit smaller:
+0abc: We can ignore the leading digit for comparison sake.
+abc, a+b < c
+We want to check until we fail to find one.
+Let's guess 1609: 1+6+0 = 7 < 9: Yes!
+2014-1609 = 405.
+
+Reasoning:
+After analyzing various years, I'm finding that no answers are giving accurate deductions. There is a huge amount of possible solutions until we go back 400 years,
+Based on previous calculations, my answer is estimated.
+
+Answer: D)

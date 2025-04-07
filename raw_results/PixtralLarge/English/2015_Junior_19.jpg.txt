@@ -1,0 +1,36 @@
+**Reasoning**:
+We need to find the number of three-digit positive whole numbers where the difference between adjacent digits is always 3.
+
+1. Identify possible digit pairs where the digits differ by 3:
+   - (0, 3)
+   - (1, 4)
+   - (2, 5)
+   - (3, 6)
+   - (4, 7)
+   - (5, 8)
+   - (6, 9)
+
+2. Form three-digit numbers using valid pairs:
+   - For (0, 3): 030, 033
+   - For (1, 4): 141, 144
+   - For (2, 5): 252, 255
+   - For (3, 6): 363, 366
+   - For (4, 7): 474, 477
+   - For (5, 8): 585, 588
+   - For (6, 9): 696, 699
+
+3. Count the valid three-digit numbers that can be formed:
+   - There are 2 numbers for each pair.
+   - There are 7 pairs.
+   - Total numbers = 2 * 7 = 14.
+
+However, the above list includes numbers that are not three-digit numbers (e.g., 030 is not a valid three-digit number). We need to exclude invalid numbers:
+   - 030 is invalid.
+   - 033 is invalid.
+
+Valid three-digit numbers:
+   - 141, 144, 252, 255, 363, 366, 474, 477, 585, 588, 696, 699
+
+Total valid three-digit numbers = 12.
+
+**Answer**: A) 12.

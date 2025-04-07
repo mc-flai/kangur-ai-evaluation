@@ -1,0 +1,20 @@
+**Razonamiento**: Para determinar la longitud total del recorrido del insecto, necesitamos identificar el punto que minimiza la distancia total entre las aristas del cubo. Dado que un cubo tiene 12 aristas y el insecto puede viajar a lo largo de cualquiera de ellas, comenzamos por identificar los puntos de partida y llegada.
+
+El insecto comienza en la arista 1 (una de las aristas del cubo) y debe llegar al punto de partida de la hormiga, que es la arista opuesta. En un cubo, la distancia más corta entre dos aristas opuestas puede ser calculada considerando la diagonal de una de las caras del cubo.
+
+En un cubo con aristas de longitud 1, la distancia más corta entre dos aristas opuestas puede ser calculada como la diagonal de una cara del cubo. La diagonal de una cara del cubo se calcula usando el teorema de Pitágoras. La longitud de la diagonal \( d \) de una cara del cubo es:
+
+\[ d = \sqrt{1^2 + 1^2} = \sqrt{2} \approx 1.41 \]
+
+Por lo tanto, la longitud total del recorrido del insecto es aproximadamente 1.41.
+
+Revisando las opciones dadas:
+A) 12
+B) 14
+C) 15
+D) 16
+E) 20
+
+La opción más cercana a 1.41 es 14, pero dado que 1.41 no es una de las opciones exactas, debemos considerar la opción más razonable en términos de distancia en un cubo. La opción C) 15 es la más cercana a la distancia calculada.
+
+**Respuesta**: C).

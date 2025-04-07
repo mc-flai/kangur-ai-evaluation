@@ -1,0 +1,28 @@
+Per analitzar la pregunta 23, hem de considerar els següents aspectes:
+
+1. **Definició de l'enunciat**: L'enunciat diu que la suma dels dígits del nombre N és tres vegades la suma dels dígits del nombre (N+1).
+2. **Exemples possibles**:
+   - Si N és 19, llavors N+1 és 20.
+     - Suma dels dígits de 19: 1 + 9 = 10.
+     - Suma dels dígits de 20: 2 + 0 = 2.
+     - Aquí, 10 no és tres vegades 2, per tant, aquest no és un exemple vàlid.
+   - Si N és 99, llavors N+1 és 100.
+     - Suma dels dígits de 99: 9 + 9 = 18.
+     - Suma dels dígits de 100: 1 + 0 + 0 = 1.
+     - Aquí, 18 no és tres vegades 1, per tant, aquest no és un exemple vàlid.
+   - Així, hem de trobar una condició general per determinar la menor suma possible.
+
+3. **Condició general**:
+   - Si N és un nombre amb dígits que sumen S, llavors N+1 tindrà una suma de dígits de S/3.
+   - Per trobar el N més petit, hem de considerar els dígits que compleixin aquesta condició.
+
+4. **Anàlisi de les opcions**:
+   - A) 3: No és possible perquè la suma dels dígits de 3 és 3, i la suma dels dígits de 4 és 4, que no compleix la condició.
+   - B) 9: No és possible perquè la suma dels dígits de 9 és 9, i la suma dels dígits de 10 és 1, que no compleix la condició.
+   - C) 12: No és possible perquè la suma dels dígits de 12 és 3, i la suma dels dígits de 13 és 4, que no compleix la condició.
+   - D) 15: No és possible perquè la suma dels dígits de 15 és 6, i la suma dels dígits de 16 és 7, que no compleix la condició.
+   - E) 27: És possible perquè la suma dels dígits de 27 és 9, i la suma dels dígits de 28 és 10, que compleix la condició (9 és tres vegades 3).
+
+**Raonament**: La suma dels dígits del nombre N ha de ser tres vegades la suma dels dígits del nombre (N+1). Analitzant les opcions, la més petita suma possible dels dígits de N que compleix aquesta condició és 27.
+
+**Resposta**: E)

@@ -1,0 +1,13 @@
+Reasoning:
+1. **Fixed Positions:** The red cube is at one end and the yellow cube is at the other. There are two possible arrangements: Red...Yellow or Yellow...Red. This gives us a starting factor of 2.
+2. **Groups:** The 3 red cubes are together, and the 4 green cubes are together. The tenth cube is blue.
+3. **Cube Counts and Fixed Positions**:
+    *   Red (3) + Green (4) + Blue (3) + Yellow (2) = 12 total cubes.
+    *   If the arrangement starts with red: RRR _ _ _ _ _ _ _ Y Y; the 10th cube being blue means that there is the arrangement RRR GGGG B B B Y Y.
+    *   If the arrangement starts with yellow: Y Y _ _ _ _ _ _ _ RRR; the 10th cube being blue means that there is the arrangement Y Y B B B GGGG RRR.
+4. **Placement and Arrangement:**
+    *   Scenario 1: RRR, GGGG, BBB, YY. The tenth cube is blue. The arrangement is fixed.
+    *   Scenario 2: YY, BBB, GGGG, RRR. The tenth cube is blue. The arrangement is fixed.
+5. **Total Arrangements:**  Each scenario only allows for one possible sequence, but there are 2 possibilities for starting with Red or Yellow. So, 1 * 2= 2.
+
+Answer: A)

@@ -1,0 +1,3 @@
+Razonamiento: Necesitamos encontrar cuántas combinaciones de tres discos se pueden formar de un conjunto de cinco, donde el orden de los discos es importante porque el tamaño importa. Esto es un problema de combinaciones. Se puede resolver con la fórmula nCr = n! / (r! * (n-r)!), donde n es el número total de elementos y r es el número de elementos que se eligen. En este caso, n = 5 y r = 3. Sin embargo, también debemos considerar que cada combinación de 3 discos puede ordenarse de una única manera (de mayor a menor). Usando la fórmula, 5C3 = 5! / (3! * 2!) = 10.
+
+Respuesta: D)

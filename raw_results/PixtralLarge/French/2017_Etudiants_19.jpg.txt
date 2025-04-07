@@ -1,0 +1,39 @@
+La question demande de déterminer l'aire de la fleur dessinée en gris dans un hexagone régulier de côté 1, où la fleur est constituée d'arcs de cercles de rayon 1 centrés aux sommets de l'hexagone.
+
+### Raisonnement :
+1. **Décomposition de l'hexagone** :
+   - L'hexagone régulier peut être divisé en 6 triangles équilatéraux de côté 1.
+   - L'aire d'un triangle équilatéral de côté 1 est donnée par la formule :
+     \[
+     A_{\text{triangle}} = \frac{\sqrt{3}}{4}
+     \]
+   - Donc, l'aire totale de l'hexagone est :
+     \[
+     A_{\text{hexagone}} = 6 \times \frac{\sqrt{3}}{4} = \frac{3\sqrt{3}}{2}
+     \]
+
+2. **Aire des arcs de cercles** :
+   - Chaque arc de cercle de rayon 1 forme un secteur de 60 degrés (ou \(\frac{\pi}{3}\) radians) car chaque angle interne de l'hexagone est de 120 degrés et les arcs sont centrés aux sommets.
+   - L'aire d'un secteur de cercle de rayon 1 et d'angle \(\frac{\pi}{3}\) est donnée par :
+     \[
+     A_{\text{secteur}} = \frac{1}{2} \times 1^2 \times \frac{\pi}{3} = \frac{\pi}{6}
+     \]
+   - Il y a 6 tels secteurs dans la fleur, donc l'aire totale des secteurs est :
+     \[
+     A_{\text{secteurs}} = 6 \times \frac{\pi}{6} = \pi
+     \]
+
+3. **Aire de la fleur** :
+   - L'aire de la fleur est l'aire de l'hexagone moins l'aire des secteurs :
+     \[
+     A_{\text{fleur}} = A_{\text{hexagone}} - A_{\text{secteurs}} = \frac{3\sqrt{3}}{2} - \pi
+     \]
+   - En simplifiant :
+     \[
+     A_{\text{fleur}} = \frac{3\sqrt{3}}{2} - \pi
+     \]
+
+4. **Comparaison avec les options** :
+   - L'option C) est \(2\sqrt{3} - \pi\), ce qui correspond à notre calcul.
+
+### Réponse : C)

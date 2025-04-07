@@ -1,0 +1,31 @@
+Per resoldre la pregunta 30, analitzem el problema passo a passo.
+
+L'expressió donada és:
+\[ A = \frac{1.5.25 + 2.10.50 + 3.15.75 + \dots}{1.2.4 + 2.4.8 + 3.6.12 + \dots} \]
+
+1. **Identificar el patró en el numerador i el denominador**:
+   El numerador té termes de la forma \(n.a.b\) on \(n\) és un nombre enter començant per 1, \(a\) és una seqüència aritmètica creixent, i \(b\) és una altra seqüència aritmètica creixent.
+   El denominador té termes de la forma \(n.c.d\) on \(n\) és un nombre enter començant per 1, \(c\) és una seqüència aritmètica creixent, i \(d\) és una altra seqüència aritmètica creixent.
+
+2. **Escriure els termes del numerador i el denominador en una forma més clara**:
+   - Numerador: \(1.5.25, 2.10.50, 3.15.75, \dots\)
+   - Denominador: \(1.2.4, 2.4.8, 3.6.12, \dots\)
+
+3. **Simplificar els termes**:
+   - Numerador: \(1.5.25 = 5^2 \cdot 5^2 = 25^2\), \(2.10.50 = 2 \cdot 5 \cdot 2 \cdot 5 \cdot 5^2 = 10^2 \cdot 5^2 = 50^2\), \(3.15.75 = 3 \cdot 5 \cdot 3 \cdot 5 \cdot 5^2 = 15^2 \cdot 5^2 = 75^2\)
+   - Denominador: \(1.2.4 = 2^2 \cdot 2^2 = 4^2\), \(2.4.8 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2^2 = 4^2 \cdot 2^2 = 8^2\), \(3.6.12 = 3 \cdot 2 \cdot 3 \cdot 2 \cdot 2^2 = 6^2 \cdot 2^2 = 12^2\)
+
+4. **Observar el patró en els termes simplificats**:
+   - Numerador: \(25^2, 50^2, 75^2, \dots\)
+   - Denominador: \(4^2, 8^2, 12^2, \dots\)
+
+5. **Identificar que cada terme del numerador i del denominador és un quadrat perfecte**:
+   - Numerador: \(25^2, 50^2, 75^2, \dots\)
+   - Denominador: \(4^2, 8^2, 12^2, \dots\)
+
+6. **Concloure que \(A\) és el quoc de dos nombres racionals, i per tant, \(A\) també és un nombre racional**:
+   - El numerador i el denominador són sumes de quadrats perfectes, el que significa que \(A\) és un nombre racional.
+
+**Raonament**: El numerador i el denominador són sumes de quadrats perfectes, i el quoc de dos nombres racionals és també un nombre racional.
+
+**Resposta**: D) 15,625

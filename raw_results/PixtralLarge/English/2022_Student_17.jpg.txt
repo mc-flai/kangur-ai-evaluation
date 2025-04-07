@@ -1,0 +1,15 @@
+**Reasoning**: To solve this problem, we need to determine the probability of Martina reaching the final.
+
+1. **First Round**: Since there are 8 participants and Martina is one of the two best players, she will definitely win her first round match. Therefore, the probability that Martina wins her first round match is 1.
+
+2. **Second Round**: Martina will face the winner of another first-round match. Since Anita is also guaranteed to win her first match, she will be one of the opponents in the second round. Since the pairings are random, Martina could face Anita or another player. There are 3 other players (excluding herself and Anita) who can win their first matches. The probability that Martina does not face Anita in the second round is 3/4. If Martina does not face Anita, she will win her second round match. Thus, the probability that Martina wins her second round match is 3/4.
+
+3. **Final Round**: Martina will play in the final round if she wins the second round. Since there are two matches in the second round and only the winners proceed to the final, the probability that Martina wins the final, given that she is one of the two best players, is 1 (since she is guaranteed to win against any other player except Anita).
+
+Combining these probabilities, the overall chance that Martina gets to the final is the product of the probabilities of her winning the first and second rounds:
+
+\[ \text{Overall probability} = 1 \times \frac{3}{4} = \frac{3}{4} \]
+
+However, the correct probability should be the chance that she faces a weaker opponent and wins, which is 2/3 (since there are 3 players, and she can face any of the 2 remaining non-Anita players).
+
+**Answer**: C)

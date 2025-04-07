@@ -1,0 +1,45 @@
+
+El problema implica que Anna, Maria i Rosa han estat apostats sobre els resultats d'una cursa en la qual quatre corredors participen, etiquetats com A, B, C i D. Cada persona ha fet una declaració sobre els resultats de la cursa. Les declaracions són:
+
+- Anna: "Guanyarà A i B quedarà segon."
+- Maria: "C quedarà segon i D quedarà quart."
+- Rosa: "A quedarà segon i D quedarà tercer."
+
+S'ha de determinar quina de les classificacions següents és correcta:
+
+A) ABCD
+B) ABDC
+C) ACBD
+D) BADC
+E) DCBA
+
+### Raonament:
+
+1. **Declaració d'Anna**: "Guanyarà A i B quedarà segon."
+   - Si A guanya, B ha de quedar segon.
+   - Si B guanya, A ha de quedar segon.
+
+2. **Declaració de Maria**: "C quedarà segon i D quedarà quart."
+   - Si C queda segon, D ha de quedar quart.
+   - Si D queda quart, C ha de quedar segon.
+
+3. **Declaració de Rosa**: "A quedarà segon i D quedarà tercer."
+   - Si A queda segon, D ha de quedar tercer.
+   - Si D queda tercer, A ha de quedar segon.
+
+Combinant aquestes declaracions, hem de trobar una classificació que satisfagi totes les declaracions.
+
+- Si A guanya, B ha de quedar segon. Això no coincideix amb la declaració de Maria, ja que C no queda segon.
+- Si B guanya, A ha de quedar segon. Això no coincideix amb la declaració de Rosa, ja que D no queda tercer.
+- Si C guanya, D ha de quedar segon. Això no coincideix amb la declaració de Rosa, ja que D no queda tercer.
+- Si D guanya, C ha de quedar segon. Això no coincideix amb la declaració de Rosa, ja que D no queda tercer.
+
+Dintre de les opcions donades, la classificació que coincideix amb les declaracions és:
+
+- **A) ABCD**: No coincideix amb cap declaració.
+- **B) ABDC**: Coincideix amb la declaració de Maria (C segon, D quart).
+- **C) ACBD**: No coincideix amb cap declaració.
+- **D) BADC**: No coincideix amb cap declaració.
+- **E) DCBA**: No coincideix amb cap declaració.
+
+### Resposta: B)

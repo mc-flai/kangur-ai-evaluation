@@ -1,0 +1,36 @@
+Raonament: Siguin $a, b, c, d$ els nombres de fora i $x$ el del centre.
+Llavors, $a+x$, $b+x$, $c+x$ i $d+x$ han de ser divisibles per 4.
+Això vol dir que $a+x \equiv 0 \pmod{4}$, $b+x \equiv 0 \pmod{4}$, $c+x \equiv 0 \pmod{4}$ i $d+x \equiv 0 \pmod{4}$.
+Així, $a \equiv b \equiv c \equiv d \pmod{4}$.
+Com que els nombres del 1 al 9 han d'estar tots utilitzats, hem de triar quatre nombres congruents entre ells mòdul 4.
+Els nombres són {1, 2, 3, 4, 5, 6, 7, 8, 9}. Les possibles congruències mòdul 4 són:
+1: {1, 5, 9}
+2: {2, 6}
+3: {3, 7}
+0: {4, 8}
+Per tant, no podem tenir quatre nombres de congruència 2, 3 o 0.
+Si el nombre del centre és 1, els nombres que queden són {2, 3, 4, 5, 6, 7, 8, 9}. Per poder elegir 4 nombres que siguin congruents entre ells mòdul 4, podem agafar {5, 9}, però necessitem 4. No funciona.
+Si el nombre del centre és 5, els nombres que queden són {1, 2, 3, 4, 6, 7, 8, 9}. Podem agafar {1, 9}, però necessitem 4. No funciona.
+Si el nombre del centre és 9, els nombres que queden són {1, 2, 3, 4, 5, 6, 7, 8}. Podem agafar {1, 5}, però necessitem 4. No funciona.
+Per tant, hem d'escollir 4 nombres congruents entre ells mòdul 4 d'un conjunt més gran.
+Considerem que el nombre del centre és 5. Els altres nombres són 1,2,3,4,6,7,8,9. Les quatre sumes $a+5, b+5, c+5, d+5$ han de ser divisibles per 4. Aleshores $a,b,c,d$ han de ser iguals mòdul 4. Els restants són
+{1, 9} $\equiv$ 1 mod 4
+{2, 6} $\equiv$ 2 mod 4
+{3, 7} $\equiv$ 3 mod 4
+{4, 8} $\equiv$ 0 mod 4
+
+Considerem que podem tenir només 1, 5 o 9. Si agafem el 5 com a nombre del centre, aleshores hem d'aconseguir que $a+5, b+5, c+5, d+5$ siguin múltiples de 4. Per tant $a, b, c, d$ han de ser congruents.
+1,9 són 1 (mod 4). 2,6 són 2 (mod 4), 3,7 són 3(mod 4), 4,8 són 0 (mod 4).
+No es pot escollir 4 congruents entre ells.
+
+Si $x = 1$, necessitem 4 congruents mòdul 4.
+Si $x = 5$, necessitem 4 congruents mòdul 4.
+Si $x = 9$, necessitem 4 congruents mòdul 4.
+
+Considerem el cas que el nombre central és 5. Llavors $a+5$, $b+5$, $c+5$ i $d+5$ han de ser divisibles per 4. Llavors $a,b,c,d \equiv 3 \pmod{4}$.
+$a+b+c+d = 1+2+3+4+6+7+8+9$. El problema imposa que tots els números del 1 al 9 han d'utilitzar-se. Per tant, aquesta no és la resposta.
+Finalment, notem que $1 + 2 + \dots + 9 = 45$, i $a+x + b+x + c+x + d+x = 45 - (a+b+c+d) \equiv 0 \pmod{4}$, així $a \equiv b \equiv c \equiv d$.
+
+Raonament: El nombre del centre ha de ser el 5.
+
+Resposta: D)

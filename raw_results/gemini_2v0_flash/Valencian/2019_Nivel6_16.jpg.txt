@@ -1,0 +1,11 @@
+Raonament:
+La pregunta ens demana quants enters positius $n$ compleixen que el seu divisor més gran, excloent $n$, és igual a $n-6$.
+Si $n-6$ és el divisor més gran de $n$, excloent $n$, llavors $n-6$ ha de dividir $n$. Per tant, $n = k(n-6)$ per algun enter $k$. Però com que $n-6$ és el divisor més gran de $n$, excepte $n$, llavors tenim $n-6 | n$, la qual cosa implica que $n-6 | n-(n-6)$, així que $n-6 | 6$.
+Per tant, $n-6$ és un divisor de 6. Els divisors de 6 són 1, 2, 3, i 6.
+Si $n-6 = 1$, llavors $n = 7$. Els divisors de 7 són 1 i 7. El divisor més gran de 7, excloent 7, és 1. Per tant, $n-6 = 7-6 = 1$, que és el divisor més gran de 7 excloent 7. Així $n=7$ és una solució.
+Si $n-6 = 2$, llavors $n = 8$. Els divisors de 8 són 1, 2, 4, i 8. El divisor més gran de 8, excloent 8, és 4. Per tant, $n-6 = 8-6 = 2$, que no és 4. Així $n=8$ no és una solució.
+Si $n-6 = 3$, llavors $n = 9$. Els divisors de 9 són 1, 3, i 9. El divisor més gran de 9, excloent 9, és 3. Per tant, $n-6 = 9-6 = 3$, que és el divisor més gran de 9 excloent 9. Així $n=9$ és una solució.
+Si $n-6 = 6$, llavors $n = 12$. Els divisors de 12 són 1, 2, 3, 4, 6, i 12. El divisor més gran de 12, excloent 12, és 6. Per tant, $n-6 = 12-6 = 6$, que és el divisor més gran de 12 excloent 12. Així $n=12$ és una solució.
+Per tant, hi ha 3 enters positius que satisfan la condició: $n=7, n=9, n=12$.
+
+Resposta: C)

@@ -1,0 +1,13 @@
+Razonamiento:
+Cada persona es o un caballero (dice la verdad) o un escudero (miente).  Las 7 personas dicen "Estoy sentado entre dos escuderos".
+*   Si alguien dice la verdad (es caballero), entonces hay dos escuderos.
+*   Si alguien miente (es escudero), entonces no hay dos escuderos (es decir, hay 0 o 1 escuderos).
+Si hubiera 3 o más escuderos, cada escudero diría "Estoy sentado entre dos escuderos", lo cual es una mentira. Pero, el número de escuderos no puede ser mayor que 3 porque sino existiría más escuderos que los que dice cada uno de ellos, esto implicaría una contradicción.
+Si hay 0 escuderos, entonces los 7 estarían diciendo la verdad (caballeros), lo que no puede ser, ya que cada persona se estaría sentando entre dos escuderos.
+Si hay 1 escudero, entonces el escudero diría una mentira, mientras que los 6 caballeros dirían la verdad. Esto no es posible ya que el escudero está sentado entre 0 escuderos, lo que es una mentira.
+Si hay 2 escuderos, entonces los 2 escuderos mienten (dicen que hay 2 escuderos, pero no es verdad) mientras que los 5 caballeros dicen la verdad (hay 2 escuderos sentados entre ellos).
+Si hay 3 escuderos, entonces cada escudero estaría sentado entre dos escuderos, lo cual implicaría que el escudero está diciendo la verdad, lo que no puede ser porque el escudero siempre miente. Por lo tanto, no es posible.
+Si hay 4 escuderos, entonces cada escudero estaría mintiendo. Los caballeros estarían sentados entre 2 escuderos, lo que sería verdad, y los escuderos, al estar sentados entre 2 escuderos, estarían mintiendo. No existe contradicción.
+Si hay 5 o más escuderos, entonces cada escudero estaría mintiendo, lo que no puede ser, ya que el escudero diría que está sentado entre dos escuderos, y no es cierto.
+Sin embargo, la respuesta debe ser la misma para todos, por lo que podemos deducir que la respuesta correcta es 4 escuderos. Esto implicaría que cada persona está mintiendo, por lo tanto, la respuesta correcta es 4.
+Respuesta: B)

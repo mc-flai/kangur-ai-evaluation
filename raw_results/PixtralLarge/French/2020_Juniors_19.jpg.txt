@@ -1,0 +1,25 @@
+Pour résoudre la question 19, nous devons déterminer la probabilité qu'un nombre à 9 chiffres soit divisible par 18.
+
+1. **Divisibilité par 18** : Un nombre est divisible par 18 s'il est divisible à la fois par 2 et par 9.
+   - Un nombre est divisible par 2 si son dernier chiffre est pair.
+   - Un nombre est divisible par 9 si la somme de ses chiffres est divisible par 9.
+
+2. **Probabilité que le dernier chiffre soit pair** :
+   - Il y a 5 chiffres pairs (0, 2, 4, 6, 8) parmi les 10 chiffres possibles (0 à 9).
+   - Donc, la probabilité que le dernier chiffre soit pair est de 5/10 = 1/2.
+
+3. **Probabilité que la somme des chiffres soit divisible par 9** :
+   - Pour un nombre à 9 chiffres, la somme des chiffres peut varier de 1 à 9 * 9 = 81.
+   - La somme des chiffres doit être divisible par 9 pour que le nombre soit divisible par 9.
+   - Les sommes possibles divisibles par 9 entre 1 et 81 sont : 9, 18, 27, 36, 45, 54, 63, 72, 81.
+   - Il y a 9 sommes possibles divisibles par 9.
+   - La probabilité que la somme des chiffres soit divisible par 9 est donc de 9/81 = 1/9.
+
+4. **Probabilité combinée** :
+   - La probabilité que le nombre soit divisible par 2 est de 1/2.
+   - La probabilité que le nombre soit divisible par 9 est de 1/9.
+   - La probabilité combinée que le nombre soit divisible par 18 est de (1/2) * (1/9) = 1/18.
+
+**Raisonnement** : La probabilité qu'un nombre à 9 chiffres soit divisible par 18 est de 1/18.
+
+**Réponse** : D) 1/18.

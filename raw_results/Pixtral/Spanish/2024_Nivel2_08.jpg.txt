@@ -1,0 +1,21 @@
+Para determinar la cantidad mínima de pesos necesarios para equilibrar la balanza, necesitamos calcular el peso total del paquete y luego encontrar la combinación más pequeña de pesos que sumen ese total.
+
+1. El peso total del paquete es de 445 g.
+2. Los pesos disponibles son: 500 g, 200 g, 200 g, 100 g, 50 g, 20 g, 20 g y 5 g.
+3. Para encontrar la combinación más pequeña, comenzamos con el peso más grande y disminuimos gradualmente.
+
+   - Comenzamos con 500 g: 500 g > 445 g (demasiado grande).
+   - Luego, probamos 200 g: 445 g - 200 g = 245 g.
+   - Luego, probamos 100 g: 245 g - 100 g = 145 g.
+   - Luego, probamos 50 g: 145 g - 50 g = 95 g.
+   - Luego, probamos 20 g: 95 g - 20 g = 75 g.
+   - Luego, probamos 20 g: 75 g - 20 g = 55 g.
+   - Finalmente, probamos 5 g: 55 g - 5 g = 50 g.
+
+4. La combinación más pequeña de pesos que suman 445 g es: 200 g + 100 g + 50 g + 20 g + 20 g + 5 g.
+
+5. La cantidad mínima de pesos necesarios es 6.
+
+Razonamiento: Al calcular el peso total del paquete y probando combinaciones de pesos disponibles, encontramos que se necesitan 6 pesos para equilibrar la balanza.
+
+Respuesta: E)

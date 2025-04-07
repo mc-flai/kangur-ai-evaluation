@@ -1,0 +1,16 @@
+Razonamiento:
+Let $s$ be the side length of the original square. The area of the original square is $s^2$. The area of the remaining shape is $s^2/2$. The areas of the four squares that are cut out are $1^2 = 1$, $2^2 = 4$, $3^2 = 9$, and $6^2 = 36$. Thus, $s^2 - (1+4+9+36) = s^2/2$, so $s^2 - 50 = s^2/2$, which means $s^2/2 = 50$, so $s^2 = 100$ and $s = 10$.
+The perimeter of the remaining shape is the perimeter of the original square minus the sides of the removed squares, plus the added sides. The perimeter of the original square is $4s = 4(10) = 40$.
+The lengths of the sides are 1, 2, 3, 6.
+Each time we remove a square, we are removing one side of the square from the original side and adding two sides to the perimeter.
+The perimeter of the original square is $4s = 40$.
+The new sides are 1+1, 2+2, 3+3, 6+6, which is $2+4+6+12 = 24$.
+We subtract the removed sides 1, 2, 3, 6 from the original perimeter. Thus we subtract a total length of $1+2+3+6 = 12$.
+So, the new perimeter is $40 - 12 + 24 = 40 + 12 = 52$.
+
+Alternatively, the outer sides remain, so those sides of the square contribute 40. Each corner removal contributes two new edges. The perimeters of the small squares contribute 2*1 + 2*2 + 2*3 + 2*6 = 2 + 4 + 6 + 12 = 24.
+The perimeter is 40 - (1+2+3+6) + (1+1 + 2+2 + 3+3 + 6+6) = 40 - (12) + (2+4+6+12) = 40 - 12 + 24 = 52.
+
+Razonamiento: El perímetro del cuadrado original es 4s. Al cortar cada cuadrado, quitamos un lado del cuadrado grande y agregamos dos lados del cuadrado pequeño. Entonces el perímetro aumenta en la longitud de un lado del cuadrado pequeño por cada esquina. La longitud total que quitamos es 1+2+3+6 = 12, mientras que la longitud total que añadimos es 2+4+6+12 = 24. Entonces el perímetro final es 4s - (1+2+3+6) + (2*1+2*2+2*3+2*6). La suma de las áreas de los cuadrados es 1+4+9+36 = 50. Como el área restante es la mitad del área original, el área original es 100, por lo que el lado del cuadrado original es 10. Por lo tanto, el perímetro del cuadrado original es 4*10 = 40. El nuevo perímetro es 40 + 1+2+3+6 = 40 + 12 = 52.
+
+Respuesta: E)

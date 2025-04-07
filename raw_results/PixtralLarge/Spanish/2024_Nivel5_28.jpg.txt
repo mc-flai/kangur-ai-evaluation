@@ -1,0 +1,26 @@
+Para resolver la pregunta 28, necesitamos determinar cuántas cuerdas se pueden trazar que conecten pares de puntos en una circunferencia de 20 puntos, de modo que sean más largas que el radio del círculo pero más cortas que su diámetro.
+
+**Razonamiento:**
+
+1. **Identificar las longitudes críticas:**
+   - El radio del círculo es la distancia desde el centro hasta cualquier punto en la circunferencia.
+   - El diámetro del círculo es el doble del radio.
+
+2. **Entender el problema:**
+   - Necesitamos encontrar cuerdas que sean más largas que el radio pero más cortas que el diámetro.
+   - Esto significa que las cuerdas deben ser más largas que el radio pero menos largas que el diámetro.
+
+3. **Determinar las posibles longitudes de las cuerdas:**
+   - En una circunferencia con 20 puntos equidistantes, las cuerdas que conectan pares de puntos pueden tener longitudes que varían dependiendo de la distancia entre los puntos.
+   - Las cuerdas más largas serán aquellas que conecten puntos que están más alejados entre sí, pero no directamente opuestos (ya que eso sería el diámetro).
+
+4. **Contar las cuerdas válidas:**
+   - Para cada punto en la circunferencia, hay varios puntos a los que puede conectar que cumplirán con la condición de ser más largas que el radio pero más cortas que el diámetro.
+   - En una circunferencia de 20 puntos, cada punto puede conectar con 8 puntos que cumplen esta condición (ni directamente adyacentes ni directamente opuestos).
+
+5. **Calcular el número total de cuerdas:**
+   - Para cada uno de los 20 puntos, hay 8 cuerdas válidas.
+   - Sin embargo, cada cuerda se cuenta dos veces (una vez desde cada extremo), por lo que debemos dividir por 2.
+   - Total de cuerdas válidas = (20 * 8) / 2 = 80.
+
+**Respuesta:** D) 140.

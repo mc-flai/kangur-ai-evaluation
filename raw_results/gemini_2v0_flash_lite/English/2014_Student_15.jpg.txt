@@ -1,0 +1,9 @@
+Reasoning: The problem states that six weeks are equal to n! seconds. First, we calculate the number of seconds in six weeks. There are 7 days in a week, 24 hours in a day, 60 minutes in an hour, and 60 seconds in a minute. So, six weeks is equal to 6 * 7 * 24 * 60 * 60 = 3,628,800 seconds. Therefore, we need to find a value of n such that n! = 3,628,800.  We can calculate the factorials of the provided options:
+*   6! = 6 \* 5 \* 4 \* 3 \* 2 \* 1 = 720
+*   7! = 7 \* 6 \* 5 \* 4 \* 3 \* 2 \* 1 = 5040
+*   8! = 8 \* 7 \* 6 \* 5 \* 4 \* 3 \* 2 \* 1 = 40320
+*   9! = 9 \* 8 \* 7 \* 6 \* 5 \* 4 \* 3 \* 2 \* 1 = 362880
+*   10! = 10 \* 9 \* 8 \* 7 \* 6 \* 5 \* 4 \* 3 \* 2 \* 1 = 3,628,800
+Since we are given the equation: "Six weeks are n! (= n(n-1)...2.1) seconds. n = ?", the correct answer is the one that matches our calculation, which is n=10.
+
+Answer: D)

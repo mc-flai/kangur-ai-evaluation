@@ -1,0 +1,11 @@
+Razonamiento: Let's represent a three-digit number as "abc", where a, b, and c are digits. The problem states that "abc" - (a + b + c) = "ddd", where d is a digit from 1 to 9. We can rewrite "abc" as 100a + 10b + c.  Also, "ddd" can be written as 111d. Thus, the equation is: 100a + 10b + c - (a + b + c) = 111d, which simplifies to 99a + 9b = 111d. Dividing by 9, we have 11a + b = 37d/3.  Since a and b are integers and d is also an integer, then 37d/3 must be an integer. Thus d has to be a multiple of 3. The values can be d=3, d=6, or d=9. Now we can calculate a and b.
+
+If d=3, then 11a + b = 37. The only integer solution with a being a single digit and a not being 0 is a=3, and b = 37-33 = 4. The number is 34c, where c can be any digit from 0-9. The sum of digits is 3+4+0 to 3+4+9. Thus we have 340. 340 - (3+4+0) = 333. So, 340 works. Similarly, for any other values of c will work. so, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349 (10 numbers)
+
+If d=6, 11a + b = 74. a=6 and b = 8. The number is 68c, where c can be any digit from 0-9. The sum of the digits of the number is 6+8+0 to 6+8+9. So 680, 681, 682, 683, 684, 685, 686, 687, 688, 689 (10 numbers)
+
+If d=9, 11a + b = 111. The only integer solutions where 'a' is a single-digit and is not zero are a=9 and b = 111-99 = 12, which is impossible since 'b' must be a single digit. Thus, it cannot happen when d=9.
+
+We see that there are 10 cases with d = 3 and 10 cases with d=6, then, total of cases are 10+10=20.
+
+Answer: D)

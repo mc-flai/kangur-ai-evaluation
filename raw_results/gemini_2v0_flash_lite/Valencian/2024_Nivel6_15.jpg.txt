@@ -1,0 +1,10 @@
+Raonament:
+1.  **Identificar les formes i àrees:** Tenim un quadrat, un semicercle i un quart de cercle. L'àrea de les zones grises és la que busquem. El costat del quadrat és de 6 cm. El diàmetre del semicercle i el radi del quart de cercle també són de 6 cm.
+2.  **Calcular àrees parcials:**
+    *   Àrea del quadrat: 6 cm * 6 cm = 36 cm²
+    *   Àrea del semicercle: (π * (6/2)^2) / 2 = (π * 9) cm²
+    *   Àrea del quart de cercle: (π * 6^2) / 4 = (π * 36) / 4 = 9π cm²
+3.  **Àrea de la zona no grisa:** El triangle blanc a la part superior dret del quadrat té una àrea de (6 * 6) / 2 = 18 cm². La suma de les àrees del semicercle i el quart de cercle és  (9π/2 + 9π) = 27π/2 .
+4.  **Calcul de l'àrea grisa:** Per calcular l'àrea grisa, es poden restar les àrees blanques (el triangle i la porció de cercle no grisa). L'àrea d'un triangle dins del semicercle és (6/2)*(6/2)/2 = 9/2 = 4.5 i 18 - 4.5 = 13.5, 18-9=9 cm². La meitat de l'àrea de cercle està en la part grisa, llavors tenim 9π/2 -9. Per a l'altre part tenim el quart de cercle i restem la part blanca per tant la zona és 9π-18+9 = 9π/4 - 9. Per la simetria de la figura, l'àrea de la zona grisa és 9.
+
+Resposta: A)

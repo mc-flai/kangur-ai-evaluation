@@ -1,0 +1,25 @@
+Para determinar cuántas semanas han pasado, primero debemos entender la frecuencia de las clases de piano de ambos estudiantes.
+
+- A tiene clases dos veces por semana.
+- B tiene clases en semanas alternas.
+
+A ha tenido 15 lecciones más que B. 
+
+Supongamos que \(n\) es el número de semanas desde que ambos empezaron sus clases. Por cada semana, A tiene 2 clases, por lo tanto, el número de clases de A es \(2n\). B tiene una clase en semanas alternas, por lo tanto, el número de clases de B es \(\frac{n}{2}\).
+
+Dado que A tiene 15 clases más que B, podemos escribir la siguiente ecuación:
+\[ 2n = \frac{n}{2} + 15 \]
+
+Para resolver esta ecuación, primero multiplicamos todos los términos por 2 para eliminar la fracción:
+\[ 4n = n + 30 \]
+
+Luego, restando \(n\) de ambos lados:
+\[ 3n = 30 \]
+
+Finalmente, dividiendo ambos lados por 3:
+\[ n = 10 \]
+
+Por lo tanto, han pasado 10 semanas.
+
+Razonamiento: A tiene 15 clases más que B. A tiene dos clases por semana y B tiene una clase en semanas alternas. Resolviendo la ecuación \(2n = \frac{n}{2} + 15\), encontramos que \(n = 10\).
+Respuesta: E).

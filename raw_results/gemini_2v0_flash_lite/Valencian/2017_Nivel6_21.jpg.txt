@@ -1,0 +1,49 @@
+Raonament:
+1. Calculem alguns termes de la successió per buscar un patró:
+   * a0 = 1
+   * a1 = 2
+   * a2 = a0 + (a1)^2 = 1 + 2^2 = 5
+   * a3 = a1 + (a2)^2 = 2 + 5^2 = 27
+   * a4 = a2 + (a3)^2 = 5 + 27^2 = 734
+2. Calculem els residus mòdul 7:
+   * a0 ≡ 1 (mod 7)
+   * a1 ≡ 2 (mod 7)
+   * a2 ≡ 5 (mod 7)
+   * a3 ≡ 27 ≡ 6 (mod 7)
+   * a4 ≡ 734 ≡ 734 - 700 - 28 + 4 ≡ 4 (mod 7)
+   * a5 = a3 + (a4)^2 = 27 + 734^2.  a5 ≡ 6 + 4^2 ≡ 6 + 16 ≡ 22 ≡ 1 (mod 7)
+   * a6 = a4 + (a5)^2, a6 ≡ 4 + 1^2 ≡ 5 (mod 7)
+   * a7 = a5 + (a6)^2, a7 ≡ 1 + 5^2 ≡ 1+25 ≡ 26 ≡ 5 (mod 7)
+   * a8 = a6 + (a7)^2, a8 ≡ 5 + 5^2 ≡ 5 + 25 ≡ 30 ≡ 2 (mod 7)
+   * a9 = a7 + (a8)^2, a9 ≡ 5 + 2^2 ≡ 5 + 4 ≡ 9 ≡ 2 (mod 7)
+   * a10 ≡ 2 + 2^2 = 6 (mod 7)
+   * a11 ≡ 2 + 6^2 = 2 + 36 = 38 ≡ 3 (mod 7)
+   * a12 ≡ 6 + 3^2 = 6 + 9 = 15 ≡ 1 (mod 7)
+   * a13 ≡ 3 + 1^2 = 4 (mod 7)
+   * a14 ≡ 1 + 4^2 = 17 ≡ 3 (mod 7)
+3. No hi ha un patró fàcilment discernible.  Si intentem buscar un patró, notem que a0 = 1, a1 = 2, a5 = 1. Els valors de l'exponencial creixen ràpidament.
+4. Intentem veure si hi ha un patró en els residus.  Si no, podem calcular a2017. És impràctic. Pot ser que hi hagi un error.  Repeteixo uns càlculs:
+a0=1; a1=2; a2=1+4 = 5; a3=2+25 = 27; a4=5+27^2 = 5+729=734; a5=27+734^2.
+Residus mod 7: 1, 2, 5, 6, 4, 1, 5, 5, 2, 2, 6, 3, 1, 4, 3. No sembla que hi hagi un patró fàcilment identificable.
+5. Considerem la successió mòdul 7:
+   * a0 = 1
+   * a1 = 2
+   * a2 = a0 + a1^2 = 1 + 4 = 5 (mod 7)
+   * a3 = a1 + a2^2 = 2 + 25 = 2 + 4 = 6 (mod 7)
+   * a4 = a2 + a3^2 = 5 + 36 = 5 + 1 = 6 (mod 7)
+   * a5 = a3 + a4^2 = 6 + 36 = 6 + 1 = 0 (mod 7)
+   * a6 = a4 + a5^2 = 6 + 0 = 6 (mod 7)
+   * a7 = a5 + a6^2 = 0 + 36 = 1 (mod 7)
+   * a8 = a6 + a7^2 = 6 + 1 = 0 (mod 7)
+   * a9 = a7 + a8^2 = 1 + 0 = 1 (mod 7)
+   * a10 = a8 + a9^2 = 0 + 1 = 1 (mod 7)
+   * a11 = a9 + a10^2 = 1 + 1 = 2 (mod 7)
+   * a12 = a10 + a11^2 = 1 + 4 = 5 (mod 7)
+   * a13 = a11 + a12^2 = 2 + 25 = 2 + 4 = 6 (mod 7)
+   * a14 = a12 + a13^2 = 5 + 36 = 5+1=6 (mod 7)
+El patró aparent és 1,2,5,6,6,0,6,1,0,1,1,2,5,6,6,... La successió es repeteix a partir de a11.
+El període és 1,2,5,6,6,0,6,1,0,1,1,2,5,6,6,...  A partir d'a11, el patró es repeteix cada 1,2,5,6,6,0,6,1,0,1,... Cada 10 termes es repeteix.
+2017-11 = 2006. 2006 = 200*10 + 6. Per tant, a2017 és el mateix que a11+6 = a17 = a6 = 6
+6. a2017 ≡ a_11+6 ≡ 6 (mod 7).
+
+Resposta: E)

@@ -1,0 +1,26 @@
+**Raisonnement** :
+
+La question nous demande de déterminer le nombre de coups de sifflet nécessaires pour que le cœur et la flèche se retrouvent ensemble sur une même case.
+
+- Le cœur se déplace de 3 cases à chaque coup de sifflet.
+- La flèche se déplace de 4 cases à chaque coup de sifflet.
+
+Pour trouver le moment où ils se retrouvent ensemble, nous devons trouver le plus petit nombre de coups de sifflet pour lequel les positions du cœur et de la flèche sont les mêmes.
+
+Soit \( n \) le nombre de coups de sifflet nécessaires. 
+
+Pour le cœur : \( 3n \mod 12 \)
+Pour la flèche : \( 4n \mod 12 \)
+
+Nous cherchons le plus petit \( n \) tel que :
+\( 3n \equiv 4n \mod 12 \)
+Ce qui revient à :
+\( 3n - 4n \equiv 0 \mod 12 \)
+\( -n \equiv 0 \mod 12 \)
+\( n \equiv 0 \mod 12 \)
+
+Le plus petit \( n \) qui satisfait cette condition est \( n = 12 \).
+
+Mais 12 n'est pas dans les options proposées. En vérifiant les options, nous voyons que la question a été mal formulée ou que l'option correcte est E). Cela ne se produira jamais avec les options données.
+
+**Réponse** : E)

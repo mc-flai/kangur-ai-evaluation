@@ -1,0 +1,61 @@
+### Raonament:
+
+La pregunta nos pide encontrar la suma de los dígitos del número \( N \) que es tres veces mayor que la suma de los dígitos del número \( (N+1) \). Para resolver esto, debemos considerar los posibles valores de \( N \) y sus correspondientes valores de \( (N+1) \).
+
+1. **Identificar la relación entre \( N \) y \( (N+1) \)**:
+   - Si \( N \) es un número de un solo dígito, entonces \( (N+1) \) también será un número de un solo dígito.
+   - Si \( N \) es un número de dos dígitos, entonces \( (N+1) \) podría ser un número de dos dígitos o de tres dígitos, dependiendo del valor de \( N \).
+
+2. **Calcular la suma de los dígitos**:
+   - Para cada valor de \( N \), calculamos la suma de sus dígitos.
+   - Para cada valor de \( (N+1) \), calculamos la suma de sus dígitos.
+
+3. **Verificar la condición**:
+   - Comparamos si la suma de los dígitos de \( N \) es tres veces mayor que la suma de los dígitos de \( (N+1) \).
+
+### Respuesta:
+
+La opción correcta es:
+
+**Respuesta: C)**
+
+### Explicación:
+
+Para cada opción, calculamos la suma de los dígitos de \( N \) y \( (N+1) \):
+
+- **A) 3**:
+  - \( N = 3 \)
+  - \( (N+1) = 4 \)
+  - Suma de los dígitos de \( N = 3 \)
+  - Suma de los dígitos de \( (N+1) = 4 \)
+  - \( 3 \neq 3 \times 4 \)
+
+- **B) 9**:
+  - \( N = 9 \)
+  - \( (N+1) = 10 \)
+  - Suma de los dígitos de \( N = 9 \)
+  - Suma de los dígitos de \( (N+1) = 1 + 0 = 1 \)
+  - \( 9 \neq 3 \times 1 \)
+
+- **C) 12**:
+  - \( N = 12 \)
+  - \( (N+1) = 13 \)
+  - Suma de los dígitos de \( N = 1 + 2 = 3 \)
+  - Suma de los dígitos de \( (N+1) = 1 + 3 = 4 \)
+  - \( 3 = 3 \times 4 \)
+
+- **D) 15**:
+  - \( N = 15 \)
+  - \( (N+1) = 16 \)
+  - Suma de los dígitos de \( N = 1 + 5 = 6 \)
+  - Suma de los dígitos de \( (N+1) = 1 + 6 = 7 \)
+  - \( 6 \neq 3 \times 7 \)
+
+- **E) 27**:
+  - \( N = 27 \)
+  - \( (N+1) = 28 \)
+  - Suma de los dígitos de \( N = 2 + 7 = 9 \)
+  - Suma de los dígitos de \( (N+1) = 2 + 8 = 10 \)
+  - \( 9 \neq 3 \times 10 \)
+
+Por lo tanto, la opción correcta es **C) 12**.

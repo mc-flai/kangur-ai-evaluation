@@ -1,0 +1,21 @@
+Raonament: Siguin $b$ el nombre inicial de nois i $g$ el nombre inicial de noies.
+Aquest any, el nombre de nois és $1.2b$ i el nombre de noies és $0.8g$.
+La suma total d'estudiants aquest any és $1.2b + 0.8g$.
+Se'ns diu que $1.2b + 0.8g = b + g + 1$, o $0.2b - 0.2g = 1$, o $b - g = 5$.
+El nombre total d'estudiants abans era $b + g$. El nombre total d'estudiants ara és $b + g + 1$.
+Així, el nombre d'estudiants ara és $b + g + 1$. Sabem que $b = g + 5$, per tant $b + g + 1 = g + 5 + g + 1 = 2g + 6$.
+Per tant, el nombre actual d'estudiants ha de ser $2g + 6$ per a algun enter $g \ge 0$.
+Això vol dir que el nombre actual d'estudiants ha de ser un nombre parell més 6.
+Això significa que el nombre ha de ser parell.
+Dels números proporcionats, 22, 26, 29, 31, 34, només 22, 26 i 34 són parells.
+A més, $1.2b$ i $0.8g$ han de ser nombres enters, així que tant $b$ com $g$ han de ser múltiples de 5.
+Així, $b = 5x$ i $g = 5y$ per a enters positius $x$ i $y$.
+Llavors $5x - 5y = 5$ implica $x - y = 1$, així que $x = y + 1$.
+El nombre actual d'estudiants és $1.2(5x) + 0.8(5y) = 6x + 4y = 6(y+1) + 4y = 10y + 6$.
+El nombre ha d'acabar en 6. Per tant, de les opcions proporcionades, la resposta és 26.
+Si 26 és el nombre actual d'estudiants, llavors $10y + 6 = 26$, així que $10y = 20$, i $y = 2$.
+Si $y = 2$, llavors $g = 5y = 10$, i $b = g + 5 = 15$.
+Així que el nombre inicial d'estudiants era $15 + 10 = 25$.
+El nombre actual d'estudiants és $1.2(15) + 0.8(10) = 18 + 8 = 26$, que és un més que abans.
+
+Resposta: B)

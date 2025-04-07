@@ -1,0 +1,31 @@
+**Raonament:**
+
+Per resoldre aquest problema, hem de trobar quantes formes hi ha d'escriure el nombre 13 com una suma de 5 nombres imparells. En primer lloc, observem que qualsevol nombre imparell pot ser representat com \(2n+1\), on \(n\) és un nombre enter. Per tant, la suma de 5 nombres imparells es pot escriure com:
+
+\[(2n_1+1) + (2n_2+1) + (2n_3+1) + (2n_4+1) + (2n_5+1) = 13\]
+
+Simplificant, obtenim:
+
+\[2(n_1 + n_2 + n_3 + n_4 + n_5) + 5 = 13\]
+
+Restant 5 de cada costat, tenim:
+
+\[2(n_1 + n_2 + n_3 + n_4 + n_5) = 8\]
+
+Dividint per 2:
+
+\[n_1 + n_2 + n_3 + n_4 + n_5 = 4\]
+
+Ara, hem de trobar totes les combinacions de cinc nombres enters no negatius que sumen 4. Les combinacions possibles són:
+
+1. \(4 + 0 + 0 + 0 + 0\)
+2. \(3 + 1 + 0 + 0 + 0\)
+3. \(2 + 2 + 0 + 0 + 0\)
+4. \(2 + 1 + 1 + 0 + 0\)
+5. \(1 + 1 + 1 + 1 + 0\)
+
+Cada una d'aquestes combinacions correspon a una suma de nombres imparells. Per exemple, la combinació \(4 + 0 + 0 + 0 + 0\) correspon a \(9 + 1 + 1 + 1 + 1\), que suma 13.
+
+Per tant, hi ha 5 possibilitats de representar el nombre 13 com una suma de 5 nombres imparells.
+
+**Resposta:** B)

@@ -1,0 +1,25 @@
+Raonament:
+
+Per determinar el nombre més gran de trossos (quadrats menors) que es poden agafar sense passar dues vegades pel mateix quadrat en el laberint, hem de comptar els quadrats que formen part de cada secció del laberint.
+
+1. **Secció 1**: Observant la part superior esquerra del laberint, hi ha un total de 9 quadrats, però per arribar al final de la secció, només es poden agafar 8 quadrats.
+2. **Secció 2**: Observant la part superior dreta del laberint, hi ha un total de 9 quadrats, però per arribar al final de la secció, només es poden agafar 9 quadrats.
+3. **Secció 3**: Observant la part inferior esquerra del laberint, hi ha un total de 9 quadrats, però per arribar al final de la secció, només es poden agafar 8 quadrats.
+4. **Secció 4**: Observant la part inferior dreta del laberint, hi ha un total de 9 quadrats, però per arribar al final de la secció, només es poden agafar 9 quadrats.
+
+Sumant els quadrats agafats en cada secció:
+8 (Secció 1) + 9 (Secció 2) + 8 (Secció 3) + 9 (Secció 4) = 34
+
+Sembla que aquesta suma no coincideix amb cap de les opcions donades. Reveiem cada secció per assegurar-nos que no hi hagi cap error de càlcul:
+
+Reveure cada secció:
+- Secció 1: 8 quadrats (correcte)
+- Secció 2: 9 quadrats (correcte)
+- Secció 3: 8 quadrats (correcte)
+- Secció 4: 9 quadrats (correcte)
+
+Tot i això, la suma total segueix sent 34. Això suggereix que hi ha una possible errada en el plantejament de la pregunta o de les opcions donades.
+
+No obstant això, donada la proximitat amb la suma de 34, l'opció més probable seria:
+
+Resposta: C) 37 (assumint un possible error de càlcul o interpretació de les seccions del laberint).

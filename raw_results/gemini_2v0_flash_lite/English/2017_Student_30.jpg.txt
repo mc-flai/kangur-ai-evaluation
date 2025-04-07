@@ -1,0 +1,45 @@
+Reasoning:
+Let N be the number of noblemen and L be the number of liars.
+The total number of people is 2017, so N + L = 2017.
+Each person says "Of my two neighbors, one is a liar and one is a nobleman."
+If a nobleman says this, it means their neighbors are a liar and a nobleman (N L N).
+If a liar says this, it means their neighbors are either both noblemen (N N) or both liars (L L).
+To maximize the number of noblemen, the arrangement around the table should be as much as possible (L N L N L N...). This means that no two noblemen can be next to each other. Also, no two liars can be next to each other. Therefore, the arrangement is alternating.
+If there are N noblemen, there will be N liars if N is even or N-1 or N+1 liars if N is odd. Since the island has 2017 people, we can have a maximum of 2017/3 noblemen.
+
+Case 1: N is even. In this case, if the arrangement is L N L N L N ...., then the statement is true. But the statement is not always true. If N and L alternate, they cannot be adjacent.
+So the arrangement will be (N L) or (L N).
+For a nobleman, the neighbors must be L, and for a liar, neighbors must be N.
+Arrangement should be L N L N L N ... (N is even) or N L N L N ... (N is odd).
+Since each person claims to have one liar and one nobleman as neighbors, we must have alternating neighbors.
+Let's assume there are N noblemen. Then there must be an arrangement where N is maximum. In the maximum case, the noblemen are separated by liars. So the arrangement can be:
+L N L N L N .... or N L N L N L ....
+
+So the maximum number of noblemen occurs when the arrangement is as close to L N L N L N...
+If N is even, then N = 2k. So number of liars will also be 2k.
+If N is odd, we arrange the pattern so that the total number of people is 2017. The configuration becomes L N L N .... L N L N or N L N L .... N L N L or N L N L ..... N L.
+If the arrangement is L N L N... , the number of people can be described as N + L = 2017, so the number of noblemen can be approximately 2017/3.
+N + L = 2017. Let N be the number of noblemen and L the number of liars. Then the arrangement should be L N L N .... or N L N L N ....
+When there is an L N L N L N..., if there are N noblemen, there must be at most N+1 or N-1 liars.
+If the arrangement is L N L N L N ..., then N can be close to 2017/3.
+Then the number of noblemen can be N, and number of liars can be L. So N+ L = 2017
+The configuration will be:
+L N L N L N ... or N L N L N L ...
+If we have N noblemen, at least N liars, at most N+1 liars. So L can be N or N+1.
+If N noblemen, then N + L = 2017, and L = N or L=N+1.
+Consider N and L, so we can have 2N <= 2017, then N = 1008 or 1009.
+However, the statement said, "one is a liar and one is a nobleman." which is only true if we have L N L N L N. So we must have N and L as close as possible.
+So the arrangement must be L N L N L ...
+Let there be x groups of L N. So each group contains 2.
+2x = 2017, so we can not have 2x.
+If we have L N L ... and the number of people = 2017, then N = 1008 and L = 1009 (or vice versa).
+So L = N, and N is the maximum number of noblemen.
+If N is even, and L is odd, then there will be L = N+1 or N-1.
+Since N and L cannot be adjacent, let the configuration be L N L N ... or N L N L ...
+The arrangement must be L N L N ...
+Then N must be close to 2/3 * 2017 ~ 1344
+Then the maximum number of noblemen must be 1344.
+If we have 1344 N. Then the remaining must be 673.
+So we will have 1344 noblemen, and 673 liars.
+
+Answer: D)

@@ -1,0 +1,10 @@
+La pregunta 24 involucra un problema de conteo en un quadrat de 4x4, on cada cel·la té una moneda, amb la condició que si una cel·la està buida, llavors les cel·les adjacents (aquelles que comparteixen un costat) també han de ser buides. Ens demana el nombre més gran de monedes que Carles pot necessitar.
+
+**Razonament**:
+1. Comencem per comprendre la disposició i les condicions donades. Tenim un quadrat de 4x4, que en total té 16 cel·les.
+2. La condició especifica que si una cel·la està buida, llavors les cel·les adjacents també han de ser buides.
+3. Per maximitzar el nombre de monedes, hem de minimitzar el nombre de cel·les buides i garantir que no es veiïn afectades les monedes adjacents.
+4. Una forma d'aconseguir això és posar una moneda en cada cel·la del quadrat, ja que cada cel·la és independent i no té cel·les adjacents buides que la afectin.
+5. Per tant, si cada cel·la té una moneda, el nombre màxim de monedes que Carles pot necessitar és 16.
+
+**Resposta**: E)

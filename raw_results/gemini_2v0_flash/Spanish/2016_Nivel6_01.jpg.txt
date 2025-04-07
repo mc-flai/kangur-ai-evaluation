@@ -1,0 +1,37 @@
+Razonamiento: Sea $d_1, d_2, d_3, d_4, d_5, d_6$ los divisores de N. Sabemos que el producto de los primeros cinco divisores es 648, es decir, $d_1 \cdot d_2 \cdot d_3 \cdot d_4 \cdot d_5 = 648$. También sabemos que $d_6 = N$. El producto de todos los seis divisores es $d_1 \cdot d_2 \cdot d_3 \cdot d_4 \cdot d_5 \cdot d_6 = 648 \cdot N$. Por otra parte, el producto de todos los divisores de un número N es $N^{n/2}$ donde n es el número de divisores, en este caso n=6. Por lo tanto, $648 \cdot N = N^{6/2} = N^3$, de donde $648 = N^2$, lo que implica que $N = \sqrt{648} = 18\sqrt{2}$. Pero N debe ser entero, entonces hay un error.
+
+El producto de todos los divisores de N es $N^{n/2} = N^{6/2} = N^3$.
+Por lo tanto, $648 \cdot d_6 = N^3$. Además $d_6 = N$, por lo que $648N = N^3$, o $N^2=648$. De aquí $N = \sqrt{648}$ que no es un entero. Debemos considerar que $1$ y $N$ están entre los divisores.
+
+Considerando $N$ como $p^5$ o $p^2q$, donde $p, q$ son primos distintos.
+
+Caso 1: $N = p^5$, los divisores son $1, p, p^2, p^3, p^4, p^5$. Entonces $1*p*p^2*p^3*p^4=p^{10}=648$, pero $\sqrt[10]{648}$ no es un entero.
+
+Caso 2: $N = p^2q$, los divisores son $1, p, q, p^2, pq, p^2q$. Su producto es $p^5q^3 = 648x$, donde x es el divisor que falta.
+Entonces, $N=p^2q$ y $N=72$.
+Si N=72, los divisores son 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72 (12 divisores).
+$N=36$, los divisores son 1, 2, 3, 4, 6, 9, 12, 18, 36. (9 divisores).
+$N=24$, los divisores son 1, 2, 3, 4, 6, 8, 12, 24. (8 divisores).
+$N=28$, los divisores son 1, 2, 4, 7, 14, 28 (6 divisores). El producto de 5 es 1*2*4*7*14 = 784. El sexto es 28.
+$N=27$, los divisores son 1, 3, 9, 27.
+$N=p^5$. Luego N debe ser de la forma $N = p^2q$.
+$N=28 = 2^2*7$. Los divisores son 1, 2, 4, 7, 14, 28. Si quito el 28, el producto es 392. Si quito el 14, el producto es 224. Si quito el 7, el producto es 112. Si quito el 4, el producto es 56. Si quito el 2, el producto es 28. Si quito el 1, el producto es 2.
+Por lo tanto el sexto divisor es 7.
+
+$648 = 2^3 \cdot 3^4$. Sus divisores son $1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 27, 36, 54, 72, 81, 108, 162, 216, 324, 648$.
+Los 6 divisores son 1, p, p^2, q, pq, p^2q. Su producto es $p^5 q^3 = N^3 / N = N^2$
+
+Razonamiento: Let the six divisors of $N$ be $d_1, d_2, d_3, d_4, d_5, d_6$. We are given that $d_1 d_2 d_3 d_4 d_5 = 648$, and we are looking for $d_6$. We know that $N$ must be of the form $p^5$ or $p^2 q$, where $p$ and $q$ are distinct primes. The product of the divisors is $N^{\frac{6}{2}} = N^3$.
+Thus, $d_1 d_2 d_3 d_4 d_5 d_6 = N^3$, which means $648 d_6 = N^3$. Since $d_6$ is a divisor of $N$, $d_6$ must be in $\{4, 8, 9, 12, 24\}$.
+
+If $d_6=4$, $N^3=648(4) = 2592 = 2^5 3^4$. Then $N = (2^5 3^4)^{\frac{1}{3}} = 2^{\frac{5}{3}} 3^{\frac{4}{3}}$, not integer.
+If $d_6=8$, $N^3=648(8) = 5184 = 2^6 3^4$. Then $N = (2^6 3^4)^{\frac{1}{3}} = 2^2 3^{\frac{4}{3}}$, not integer.
+If $d_6=9$, $N^3=648(9) = 5832 = 2^3 3^6$. Then $N = (2^3 3^6)^{\frac{1}{3}} = 2^1 3^2 = 18$. Divisors of 18: 1, 2, 3, 6, 9, 18.
+$1\cdot 2 \cdot 3 \cdot 6 \cdot 18 = 648$, so $d_6=9$.
+If $d_6=12$, $N^3=648(12) = 7776 = 2^5 3^5$. Then $N = (2^5 3^5)^{\frac{1}{3}} = 2^{\frac{5}{3}} 3^{\frac{5}{3}}$, not integer.
+If $d_6=24$, $N^3=648(24) = 15552 = 2^6 3^5$. Then $N = (2^6 3^5)^{\frac{1}{3}} = 2^2 3^{\frac{5}{3}}$, not integer.
+
+If $N=18$, the divisors are 1, 2, 3, 6, 9, 18.
+If we remove 9, the product of the remaining divisors is $1\cdot 2\cdot 3\cdot 6\cdot 18 = 648$. Then $d_6=9$.
+
+Respuesta: C)

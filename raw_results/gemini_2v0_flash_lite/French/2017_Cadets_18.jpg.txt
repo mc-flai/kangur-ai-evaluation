@@ -1,0 +1,12 @@
+Raisonnement :
+1. **Comprendre la règle:** La somme des nombres dans chaque paire de cases adjacentes (avec un côté commun) doit être la même.
+2. **Déterminer la somme de la première paire:** Les nombres 2 et 3 sont adjacents, donc la somme est 2 + 3 = 5.
+3. **Remplir le tableau:**
+   * La case en dessous de 2 doit être 3, pour que leur somme soit 5.
+   * La case à droite de 3 doit être 2, pour que leur somme soit 5.
+   * La case en dessous de 3 (à droite) doit être 2, pour que leur somme soit 5.
+   * La case à gauche de 2 (en bas) doit être 3, pour que leur somme soit 5.
+   * La case en bas à gauche sera 3, pour que leur somme soit 5.
+4. **Calculer la somme totale:**  La somme des nombres dans le tableau est 2 + 3 + 2 + 3 + 2 + 3 + 3 + 2 + 3 = 23.
+
+Réponse : E)

@@ -1,0 +1,17 @@
+**Raonament:**
+
+1. El problema demana quantes gotes de goma d'apegar són necessàries per construir un cub de 5x5x5 amb cubs de mida mitja.
+2. Cada cara d'un cub de 5x5x5 té un total de 25 cares (5x5 = 25).
+3. Un cub té 6 cares.
+4. Cada cara de mida mitja necessita una gota de goma d'apegar.
+5. Però cal tenir en compte que cada gota d'apegar es col·loca entre dues cares adjacents, de manera que una gota és compartida per dues cares.
+6. El nombre total de cares d'un cub de 5x5x5 és 6 x 25 = 150 cares.
+7. No obstant, com cada gota d'apegar es comparteix entre dues cares, el nombre total de gotes necessàries és 150/2 = 75 gotes.
+8. Com que cada cara de mida mitja necessita una gota de goma d'apegar, s'ha de multiplicar per 2 perquè els cubs tenen dues cares que necessiten una gota de goma d'apegar.
+9. Per tant, el nombre total de gotes necessàries és 75 x 2 = 150 gotes.
+10. No obstant, cada carena interna del cub (no visibles) no necessiten goma d'apegar, així que el càlcul correcte és considerant només les cares visibles.
+11. Cada cub de mida mitja té 6 cares visibles (4 cares laterals i 2 cares superior i inferior).
+12. Per tant, el nombre total de gotes necessàries és 125 x 6 = 750 gotes.
+13. No obstant, cal considerar que cada gota d'apegar és compartida per dues cares, de manera que el nombre total de gotes necessàries és 750/2 = 375 gotes.
+
+**Resposta:** E) 375

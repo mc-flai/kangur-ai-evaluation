@@ -1,0 +1,13 @@
+### Reasoning:
+
+1. **Initial Setup**: We start with a 5x5 grid of 25 white fields.
+2. **Target Pattern**: The goal is to achieve a chessboard pattern where alternating fields are black and white.
+3. **Move Mechanics**: Each move changes the color of two adjacent fields (horizontally or vertically).
+4. **Minimum Moves Calculation**:
+   - To achieve the chessboard pattern, we need to flip the color of half of the fields (12 fields out of 25).
+   - Each move flips two fields, so the minimum number of moves required is 12 / 2 = 6 moves.
+   - However, this is the theoretical minimum. In practice, we need to consider the arrangement and ensure that each move effectively contributes to the pattern.
+
+### Answer:
+
+C) 13

@@ -1,0 +1,42 @@
+Raonament:
+La graella de 4x4 es divideix en quatre quadrats de 2x2. Cada fila, cada columna i cada quadrat de 2x2 ha de contenir les quatre lletres A, B, C i D.
+Primer, considerem la primera fila. Hi ha 4! = 24 maneres de disposar les lletres A, B, C i D en aquesta fila.
+Ara, considerem la segona fila. Si la primera fila és ABCD, la segona fila ha de ser un reordenament de ABCD tal que cada quadrat de 2x2 conté les quatre lletres. Per tant, la segona fila podria ser BADC o CDAB o DABC o CBAD, etc.
+Anem a triar una configuració per a la primera fila: A B C D
+Ara considerem la primera columna. Hi ha 4! = 24 maneres d'ordenar A B C D.
+A B C D
+B A D C
+C D A B
+D C B A
+
+A B C D
+B C D A
+C D A B
+D A B C
+Hi ha dues possibles disposicions per a la primera fila.
+Per a la primera fila ABCD, la segona fila ha de tenir una permutació que assegure que cada quadrat de 2x2 conté A, B, C i D.
+Podem tenir A B C D. Les combinacions per a la segona fila han de complir que cada quadrat conté quatre lletres diferents.
+Comencem amb la primera fila ABCD. Si fixem la primera fila, llavors per les altres files, la possible combinació pot ser
+A B C D
+B A D C
+C D A B
+D C B A
+En aquest cas tenim un quadrat llatí.
+Ara triem les quatre primeres columnes de 4x4.
+Hi ha 4! = 24 formes d'ordenar la primera fila. Llavors hi ha dues formes diferents per les següents.
+24 * 24 = 576. Hi ha dues maneres per a les files i columnes de 2x2.
+Per a la primera fila, hi ha 4! = 24 disposicions possibles. Si fixem la primera fila, llavors hi ha només dues disposicions possibles per a la resta de files. En total, 24 * 2 = 48.
+Ara hi ha dues formes d'ordenar la primera fila.
+Per a la resta de files, podem tenir només dues disposicions.
+24 * 24 * 1 * 1 = 576
+
+Podem triar la primera fila de 4! = 24 maneres.
+Podem triar la primera columna de 4! = 24 maneres.
+
+A B C D
+C D A B
+B A D C
+D C B A
+En total hi ha 576 configuracions possibles.
+
+Resposta: E)

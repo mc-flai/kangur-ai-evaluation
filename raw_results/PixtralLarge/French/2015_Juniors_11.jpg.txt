@@ -1,0 +1,31 @@
+**Raisonnement :**
+
+Pour déterminer la distance minimale à parcourir pour aller du point "Départ" au point "Arrivée" en se déplaçant uniquement le long des côtés ou des diagonales des carrés, il est important de noter que la distance la plus courte entre deux points est généralement une ligne droite.
+
+1. La figure est composée de 4 carrés disposés en ligne, et chaque carré a un côté de longueur 1.
+2. Pour aller de "Départ" à "Arrivée", on doit traverser 3 carrés horizontaux et 3 côtés de carrés verticaux.
+3. En se déplaçant uniquement le long des côtés des carrés, la distance totale serait la somme des longueurs des côtés traversés.
+
+Pour calculer cette distance :
+- Horizontalement, on traverse 3 côtés : 3 * 1 = 3
+- Verticalement, on traverse 3 côtés : 3 * 1 = 3
+
+Donc, la distance totale en se déplaçant uniquement le long des côtés serait 3 + 3 = 6.
+
+Cependant, la question mentionne également la possibilité de se déplacer le long des diagonales des carrés. La diagonale d'un carré de côté 1 est égale à √2.
+
+4. Si l'on se déplace le long des diagonales des carrés, on doit parcourir :
+   - 3 diagonales (chaque diagonale mesure √2)
+   - 3 côtés (chaque côté mesure 1)
+
+Donc, la distance totale en utilisant les diagonales serait 3√2 + 3.
+
+En comparant les deux distances :
+- Distance le long des côtés seulement : 6
+- Distance utilisant les diagonales : 3√2 + 3
+
+Puisque √2 est approximativement 1.41, alors 3√2 est environ 4.23, donc 3√2 + 3 est environ 7.23.
+
+La distance minimale est donc 6, car elle est inférieure à 7.23.
+
+**Réponse :** E) 6

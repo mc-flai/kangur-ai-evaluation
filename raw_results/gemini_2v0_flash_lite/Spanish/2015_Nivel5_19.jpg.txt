@@ -1,0 +1,74 @@
+Razonamiento:
+La pregunta solicita encontrar números de tres cifras donde la diferencia entre dígitos adyacentes sea 3. Consideremos los posibles casos:
+
+*   **Caso 1:** El primer dígito es 1. Los dígitos adyacentes deben diferir en 3. Por lo tanto, los dígitos siguientes pueden ser 4. El número sería 141, 147.
+*   **Caso 2:** El primer dígito es 2. Los dígitos siguientes podrían ser 5. El número podría ser 252, 258.
+*   **Caso 3:** El primer dígito es 3. Los dígitos siguientes podrían ser 0 o 6. Los números podrían ser 303, 363, 306, 360.
+*   **Caso 4:** El primer dígito es 4. Los dígitos siguientes podrían ser 1 o 7. Los números podrían ser 414, 474, 417, 471.
+*   **Caso 5:** El primer dígito es 5. Los dígitos siguientes podrían ser 2 o 8. Los números podrían ser 525, 585, 528, 582.
+*   **Caso 6:** El primer dígito es 6. Los dígitos siguientes podrían ser 3 o 9. Los números podrían ser 636, 696, 639, 693.
+*   **Caso 7:** El primer dígito es 7. Los dígitos siguientes podrían ser 4. El número podría ser 741, 747.
+*   **Caso 8:** El primer dígito es 8. Los dígitos siguientes podrían ser 5. El número podría ser 852, 858.
+*   **Caso 9:** El primer dígito es 9. Los dígitos siguientes podrían ser 6. El número podría ser 963, 969.
+
+Hay 2 + 2 + 4 + 4 + 4 + 4 + 2 + 2 + 2 = 28.  Hay 16 números válidos.
+Vamos a revisar con más detalle:
+
+Si el primer dígito es *a*, el segundo es *a+3* o *a-3*. Si el segundo dígito es *b*, el tercero es *b+3* o *b-3*.
+Por lo tanto, las posibilidades serían:
+
+*   Primer dígito: 1, 2, 3, 4, 5, 6, 7, 8, 9
+    *   Si el segundo dígito es mayor, el segundo dígito es igual al primer dígito + 3.
+    *   Si el segundo dígito es menor, el segundo dígito es igual al primer dígito - 3.
+
+Si el primer digito es 1.  Entonces el segundo digito es 4,  y el tercer digito debe ser 1,7. (141, 147)
+Si el primer digito es 2. Entonces el segundo digito es 5,  y el tercer digito debe ser 2,8 (252, 258)
+Si el primer digito es 3. Entonces el segundo digito es 0,6, y el tercer digito debe ser 3, 3, 3, 9, 0, 6, 6, 0 (303, 306, 363, 369).
+Si el primer digito es 4. Entonces el segundo digito es 1, 7, y el tercer digito debe ser 4, 4, 4, 1, 4, 7, 7, 4. (414, 417, 474, 471).
+Si el primer digito es 5. Entonces el segundo digito es 2, 8, y el tercer digito debe ser 5, 5, 5, 2, 5, 8, 8, 5. (525, 528, 585, 582).
+Si el primer digito es 6. Entonces el segundo digito es 3, 9, y el tercer digito debe ser 6, 6, 6, 3, 6, 9, 9, 6. (636, 639, 696, 693).
+Si el primer digito es 7. Entonces el segundo digito es 4,  y el tercer digito debe ser 7, 1. (741, 747).
+Si el primer digito es 8. Entonces el segundo digito es 5,  y el tercer digito debe ser 8, 2. (852, 858).
+Si el primer digito es 9. Entonces el segundo digito es 6,  y el tercer digito debe ser 9, 3. (963, 969).
+Total de números = 2 + 2 + 4 + 4 + 4 + 4 + 2 + 2 + 2 = 28
+Esto es incorrecto.
+
+Analicemos los posibles casos:
+
+*   **Dígitos alternos:** Si el primer dígito es *x*, entonces el segundo es *x+3* o *x-3*. El tercero, entonces, debe ser *x*.
+    *   Ejemplos: 141, 252, 303, 363, 414, 474, 525, 585, 636, 696, 747, 858, 969 (13 números)
+*   **Incremento o decremento constante:**
+    *   Si el primer dígito es *x*, el segundo es *x+3*, el tercero es *x+6*.  Los posibles números son 147.
+    *   Si el primer dígito es *x*, el segundo es *x-3*, el tercero es *x-6*. No hay números que cumplan esto.
+    *   Si el primer dígito es *x*, el segundo es *x-3*, el tercero es *x*. Los posibles numeros son 363.
+    *   Si el primer dígito es *x*, el segundo es *x+3*, el tercero es *x+6*.  Los posibles números son: 147
+    *   Si el primer dígito es *x*, el segundo es *x+3*, el tercero es *x* - 3. Los posibles números son 474
+
+Números del tipo *aba*:
+Hay 9 posibles valores para a (1-9). El valor de b depende de a, ya que la diferencia es 3.
+Si a=1, b=4. El número es 141.
+Si a=2, b=5. El número es 252.
+Si a=3, b=0,6. Los números son 303, 363.
+Si a=4, b=1,7. Los números son 414, 474.
+Si a=5, b=2,8. Los números son 525, 585.
+Si a=6, b=3,9. Los números son 636, 696.
+Si a=7, b=4. El número es 747.
+Si a=8, b=5. El número es 858.
+Si a=9, b=6. El número es 969.
+Total: 13
+
+Numeros del tipo *abc*:
+El primero y el segundo deben diferir en 3 y el segundo y el tercero deben diferir en 3.  (147)
+Números del tipo abc:
+Hay 1, 4, 7: 147.
+Hay 7, 4, 1: 741
+Hay 4, 1, 4: 414
+Hay 4, 7, 4: 474
+Hay 3, 0, 3: 303.
+Hay 3, 6, 3: 363.
+Hay 6, 9, 6: 696
+Hay 6, 3, 6: 636.
+
+Hay 20 números.
+
+Respuesta: D)

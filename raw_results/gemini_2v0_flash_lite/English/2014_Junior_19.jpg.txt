@@ -1,0 +1,10 @@
+Reasoning: Let 'w' be the number of wins, 'd' be the number of draws, and 'l' be the number of losses. We have three equations:
+1. w + d + l = 40 (total matches)
+2. w + (1/2)d + 0l = 25 (total points)
+3. We want to find w - l (wins minus losses)
+
+From equation 2, multiply by 2: 2w + d = 50
+From equation 1, d = 40 - w - l
+Substitute for d in 2w+d=50: 2w + 40 - w - l = 50, so w - l = 10.
+
+Answer: C)

@@ -1,0 +1,12 @@
+Razonamiento:
+1. **Entender el problema:** El problema describe un rectángulo con un perímetro de 40 metros y cuyos lados tienen longitudes que son números primos.  Se pide la superficie máxima posible.
+2. **Ecuaciones:** El perímetro de un rectángulo es 2*longitud + 2*ancho = 40, o bien longitud + ancho = 20. La superficie es longitud * ancho.
+3. **Encontrar números primos:** Necesitamos encontrar dos números primos que sumen 20.
+4. **Posibilidades y cálculo de la superficie:**  Probemos diferentes combinaciones de números primos:
+    * 3 + 17 = 20. Área = 3 * 17 = 51
+    * 7 + 13 = 20. Área = 7 * 13 = 91
+    * 11 + 9 = 20 (pero 9 no es primo, descartado)
+    * 2 + 18 = 20 (pero 18 no es primo, descartado)
+5. **Determinar la respuesta:** La mayor superficie es 91 m².
+
+Respuesta: C)

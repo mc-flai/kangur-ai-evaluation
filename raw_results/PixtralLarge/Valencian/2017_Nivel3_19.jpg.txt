@@ -1,0 +1,49 @@
+Per resoldre aquest problema, hem de calcular el preu per metre de tela tenint en compte el cost inicial i el benefici que obté el comerciant.
+
+1. El comerciant va comprar la setmana passada un rotlle de tela per 576 €.
+2. Durant la setmana, ha venut la meitat de la tela per un total de 336 € i això li ha donat un benefici de 2 € per metre.
+
+Primer, calculem el cost total per metre de tela inicialment:
+
+- Suposem que el rotlle de tela té "m" metres.
+- El comerciant va vendre la meitat del rotlle, és a dir, "m/2" metres.
+- Va rebre 336 € per vendre "m/2" metres.
+
+Podem establir l'equació següent per a la venda:
+336 € = (m/2) * (preu per metre + 2 €)
+
+Podem simplificar aquesta equació:
+336 € = (m/2) * (preu per metre + 2 €)
+
+Per aïllar el preu per metre, primer divideix 336 € entre "m/2":
+(336 €) / (m/2) = preu per metre + 2 €
+
+Això es simplifica a:
+(336 € * 2) / m = preu per metre + 2 €
+(720 €) / m = preu per metre + 2 €
+
+Per aïllar el preu per metre, restem 2 € dels dos costats de l'equació:
+(720 €) / m - 2 € = preu per metre
+
+Sabem que el preu total del rotlle és 576 €, per tant el preu per metre és 576 € / m. Substituïm aquesta expressió en l'equació anterior:
+(720 €) / m - 2 € = 576 € / m
+
+Multipliquem tots dos costats de l'equació per "m" per eliminar la fracció:
+720 € - 2m = 576 €
+
+Aïllant "m", restem 576 € dels dos costats de l'equació:
+720 € - 576 € = 2m
+144 € = 2m
+
+Dividim per 2:
+m = 72 metres
+
+Ara, sabem que el rotlle de tela té 72 metres. El preu per metre que el comerciant va pagar és:
+576 € / 72 metres = 8 € per metre
+
+Però el comerciant hi afegeix un benefici de 2 € per metre, per tant el preu final de venda és:
+8 € + 2 € = 10 € per metre
+
+Raonament: Hem calculat el preu per metre de tela inicialment i hi hem afegit el benefici per determinar el preu de venda final per metre.
+
+Resposta: C) 10 €

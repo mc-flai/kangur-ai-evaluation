@@ -1,0 +1,19 @@
+**Reasoning**: We need to determine which child has eaten the cake based on their statements.
+
+- **Alex**: Claims he did not eat the cake.
+- **Bartek**: Claims he ate the cake.
+- **Cora**: Claims Emil did not eat the cake.
+- **Dani**: Claims she did not eat the cake.
+- **Emil**: Claims Alex ate the cake.
+
+If we assume that one child is lying, let's evaluate each statement:
+
+1. If **Alex** is lying, then he has eaten the cake. However, this would make Bartek’s statement that he ate the cake false, which means two people would be lying, which contradicts the given condition.
+2. If **Bartek** is lying, then he did not eat the cake, which is consistent because it would mean only one person is lying.
+3. If **Cora** is lying, then Emil has eaten the cake. This would contradict Dani’s statement that she did not eat the cake because there would be no need for Alex to have eaten the cake.
+4. If **Dani** is lying, then she has eaten the cake. But this would contradict Emil’s statement that Alex ate the cake.
+5. If **Emil** is lying, then Alex did not eat the cake, which means Bartek’s statement is true.
+
+Given this logic, if Bartek is the one lying, it fits the condition that only one child is lying, and Bartek did not eat the cake. This would mean that Cora, Dani, and Emil's statements are consistent.
+
+**Answer**: B)

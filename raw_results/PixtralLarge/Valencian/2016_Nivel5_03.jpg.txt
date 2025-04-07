@@ -1,0 +1,15 @@
+Per determinar el resultat de \(\sqrt{ \sqrt{\sqrt{x}} }\), hem de seguir un procés d'escomptar els arrels quadrades pas a pas.
+
+1. Comencem amb l'expressió \(\sqrt{ \sqrt{\sqrt{x}} }\).
+2. Per primer, escomptem l'arrel quadrada més interior:
+   \(\sqrt{\sqrt{x}}\) = \((\sqrt{x})^{1/2}\) = \(x^{1/4}\).
+3. Ara, escomptem l'arrel quadrada exterior de \(x^{1/4}\):
+   \(\sqrt{x^{1/4}} = (x^{1/4})^{1/2} = x^{(1/4)*(1/2)} = x^{1/8}\).
+4. Finalment, escomptem l'arrel quadrada restant:
+   \(\sqrt{x^{1/8}} = (x^{1/8})^{1/2} = x^{(1/8)*(1/2)} = x^{1/16}\).
+5. L'expressió simplificada de \(\sqrt{ \sqrt{\sqrt{x}} }\) és \(x^{1/16}\), que s'escriu com \(\sqrt[16]{x}\).
+
+D'aquesta manera, la resposta correcta és:
+
+Raonament: \(\sqrt{ \sqrt{\sqrt{x}} } = x^{1/16} = \sqrt[16]{x}\).
+Resposta: C).

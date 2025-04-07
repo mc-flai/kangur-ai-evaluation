@@ -1,0 +1,17 @@
+Reasoning:
+The question says that F is a linear function, thus F(x) = ax + b, for constants a and b. F(2) = 1342. We want to find the value of F(3).
+Assume the linear function is of the form F(x) = kx where k is some constant.
+Then F(2) = 2k = 1342, which implies k = 671.
+So F(x) = 671x and then F(3) = 671 * 3 = 2013.
+Alternative approach.
+Since F is linear, let F(x) = ax + b.
+F(2) = 2a + b = 1342.
+Then F(3) = 3a + b.
+F(3) - F(2) = 3a + b - (2a + b) = a.
+So F(3) = F(2) + a.
+Without knowing a or b, we can only assume that F(x) = ax.
+If we say that F(0) = 0 then b = 0.
+2a = 1342 so a = 671.
+Thus F(3) = 3a = 3(671) = 2013.
+
+Answer: B)

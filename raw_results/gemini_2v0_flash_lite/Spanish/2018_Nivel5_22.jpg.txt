@@ -1,0 +1,129 @@
+Razonamiento:
+Sea los cuatro números a, b, c y d.  Las ecuaciones son:
+(a+b+c)/3 + d = 17
+(a+b+d)/3 + c = 21
+(a+c+d)/3 + b = 23
+(b+c+d)/3 + a = 29
+Sumando todas las ecuaciones:
+(a+b+c+d) + (a+b+c+d)/3 = 90
+(4/3)(a+b+c+d) = 90
+a+b+c+d = 90 * 3 / 4 = 67.5
+La suma de los 3 numeros mas pequeños es a+b+c. a+b+c= 17 * 3 - 2d.
+Reemplazando:
+(a+b+c)/3 + d = 17
+(67.5 - d -d)/3 + d = 17
+67.5 - 2d + 3d = 51
+d = -16.5
+(a+b+d)/3 + c = 21
+(67.5 - c -c)/3 + c = 21
+67.5 - 2c + 3c = 63
+c = -4.5
+(a+c+d)/3 + b = 23
+(67.5 - b -b)/3 + b = 23
+67.5 - 2b + 3b = 69
+b = 1.5
+(b+c+d)/3 + a = 29
+(67.5 - a -a)/3 + a = 29
+67.5 - 2a + 3a = 87
+a = 19.5
+Los números son 1.5, -4.5, -16.5, 19.5
+Entonces debemos volver a interpretar el problema. La pregunta original no es correcta, porque los numeros deben ser positivos, entonces la media aritmetica, la obtenemos de la suma de los numeros, divididos entre 3.
+Si sumamos las 4 ecuaciones:
+(a+b+c+d) + (a+b+c+d)/3 = 17+21+23+29 = 90
+(a+b+c+d)(4/3) = 90
+a+b+c+d = 67.5
+Ahora, si a, b, c, d son los números y x < y < z < w
+(x+y+z)/3 + w = 17
+(x+y+w)/3 + z = 21
+(x+z+w)/3 + y = 23
+(y+z+w)/3 + x = 29
+Sumamos las 4 ecuaciones, resultando
+(x+y+z+w) + (x+y+z+w)/3 = 17+21+23+29
+(4/3)(x+y+z+w) = 90
+x+y+z+w = 67.5
+Ahora, el menor debe estar en la ecuación que de un número más grande
+(y+z+w)/3 + x = 29,
+y+z+w = 3(29 - x), pero y+z+w = 67.5 - x.
+3(29-x) = 67.5 - x
+87 - 3x = 67.5 - x
+19.5 = 2x
+x = 9.75
+(x+y+z)/3 + w = 17
+(67.5 - w)/3 + w = 17
+67.5 - w + 3w = 51
+2w = -16.5
+w = -8.25
+
+Si en lugar de una media aritmetica, es una suma entre 3
+a+b+c+d = 67.5
+Si asumimos que el valor mas grande se suma con el valor mas pequeno.
+b + c + d = 17
+a + c + d = 21
+a + b + d = 23
+a + b + c = 29
+Sumando las 4 ecuaciones:
+3a + 3b + 3c + 3d = 90
+a + b + c + d = 30
+Entonces: d = 30 - 29 = 1;  c = 30 - 23 = 7; b = 30 - 21 = 9; a = 30 - 17 = 13
+El mayor es 13
+Pero: 13+9+7+1 = 30
+1+9+7 = 17
+13 + 7 + 1 = 21
+13 + 9 + 1 = 23
+13+9+7 = 29
+El mayor es 13, pero no está en las opciones.
+
+Si la media es la suma:
+a+b+c+d= 67.5
+Si el resultado mas grande es cuando sumamos los tres menores, entonces:
+a+b+c + d = 67.5
+Si a, b, c son los menores:
+a+b+c = 17 - d
+(a+b+c)/3 + d = 17
+Si a, b, d son los menores:
+a+b+d = 21 - c
+(a+b+d)/3 + c = 21
+Si a, c, d son los menores:
+a+c+d = 23 - b
+(a+c+d)/3 + b = 23
+Si b, c, d son los menores:
+b+c+d = 29 - a
+(b+c+d)/3 + a = 29
+
+Si asumimos que los tres números que sumamos son a, b, c.
+entonces a < b < c
+El resultado más grande será (b+c+d)/3 + a
+b+c+d = 3a+29
+a+b+c = 17+3d
+a+c+d = 23+3b
+a+b+d = 21+3c
+a+b+c+d= 67.5
+
+Si tomamos el resultado mas grande, que es 29, el numero a debe ser el menor.
+Entonces, b+c+d = 29
+a+29 = 67.5
+a= 38.5
+
+Si la ecuación es:
+(a+b+c)/3 + d = 17
+(a+b+d)/3 + c = 21
+(a+c+d)/3 + b = 23
+(b+c+d)/3 + a = 29
+
+(a+b+c)/3 + d = 17 -> a+b+c + 3d = 51
+(a+b+d)/3 + c = 21 -> a+b+d + 3c = 63
+(a+c+d)/3 + b = 23 -> a+c+d + 3b = 69
+(b+c+d)/3 + a = 29 -> b+c+d + 3a = 87
+
+Sumando todas las ecuaciones:
+6(a+b+c+d) = 270
+a+b+c+d = 45
+Sustituyendo
+45-d+3d= 51 -> 2d = 6 -> d=3
+45-c+3c = 63 -> 2c = 18 -> c=9
+45-b+3b= 69 -> 2b = 24 -> b=12
+45-a+3a= 87 -> 2a= 42 -> a=21
+Los números son: 3, 9, 12, 21
+El mayor número es 21
+
+Respuesta: C)

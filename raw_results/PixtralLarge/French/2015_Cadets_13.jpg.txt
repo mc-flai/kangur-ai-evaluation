@@ -1,0 +1,45 @@
+Pour résoudre cette question, nous devons examiner l'égalité donnée et déterminer combien de changements de signes minimaux sont nécessaires pour qu'elle devienne vraie. 
+
+L'égalité fausse donnée est :
+\[ 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = 0 \]
+
+Analysons l'égalité terme par terme :
+- 2 (positif)
+- -0 (neutre)
+- -1 (négatif)
+- -5 (négatif)
+- -2 (négatif)
+- -0 (neutre)
+- -1 (négatif)
+- -5 (négatif)
+
+Pour obtenir une égalité vraie, le total doit être égal à 0.
+
+Pour simplifier, nous pouvons regrouper les termes et observer leur somme :
+\[ 2 - 0 - 1 - 5 - 2 - 0 - 1 - 5 = -12 \]
+
+L'objectif est de transformer \(-12\) en \(0\). Chaque changement de signe transforme un terme négatif en positif ou vice versa. 
+
+Analysons les options pour corriger l'égalité :
+
+1. Changer le signe de \(-1\) en \(+1\) :
+\[ 2 - 0 + 1 - 5 - 2 - 0 - 1 - 5 = -10 \]
+2. Changer le signe de \(-5\) en \(+5\) :
+\[ 2 - 0 - 1 + 5 - 2 - 0 - 1 - 5 = -2 \]
+3. Changer le signe de \(-2\) en \(+2\) :
+\[ 2 - 0 - 1 - 5 + 2 - 0 - 1 - 5 = -10 \]
+4. Changer le signe de \(-1\) en \(+1\) et de \(-5\) en \(+5\) :
+\[ 2 - 0 + 1 + 5 - 2 - 0 - 1 - 5 = -2 \]
+5. Changer le signe de \(-5\) en \(+5\) et de \(-2\) en \(+2\) :
+\[ 2 - 0 - 1 - 5 + 2 - 0 - 1 + 5 = 2 \]
+
+Pour obtenir une somme de 0, nous devons faire les changements suivants de manière minimale :
+1. Changer le signe de \(-1\) en \(+1\)
+2. Changer le signe de \(-5\) en \(+5\)
+3. Changer le signe de \(-1\) en \(+1\)
+4. Changer le signe de \(-5\) en \(+5\)
+
+Donc, 4 changements sont nécessaires.
+
+Raisonnement : En analysant chaque changement de signe, nous avons déterminé que 4 changements de signes sont nécessaires pour rendre l'égalité vraie.
+Réponse : D)

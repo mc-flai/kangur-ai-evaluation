@@ -1,0 +1,20 @@
+**Razonamiento**:
+Para resolver esta pregunta, necesitamos identificar cuántas maneras se pueden organizar los números 1, 2, 3, 4 y 5 en las cinco casillas de la figura de modo que un número sea inmediatamente debajo y a la derecha del número que le sigue. Esto significa que, para cada número, debe existir otro número en la fila y columna anterior que sea un número menor.
+
+Primero, observemos la figura. Tiene 5 casillas con una disposición en forma de L:
+- La casilla superior izquierda (SI) debe contener el número más pequeño, que es 1, porque no hay otra casilla a su izquierda o arriba.
+- La casilla superior derecha (SD) debe contener el número 2, ya que es la siguiente más pequeña y debe estar a la derecha del 1.
+- La casilla inferior izquierda (II) debe contener el número 3, ya que debe estar debajo del 1.
+- La casilla inferior central (IC) debe contener el número 4, ya que debe estar a la derecha del 3.
+- La casilla inferior derecha (ID) debe contener el número 5, ya que debe estar a la derecha del 4.
+
+Por lo tanto, la única manera de llenar las casillas cumpliendo con las condiciones dadas es de la siguiente forma:
+- SI: 1
+- SD: 2
+- II: 3
+- IC: 4
+- ID: 5
+
+Dado que solo hay una manera de cumplir con las condiciones descritas, la respuesta correcta es:
+
+**Respuesta**: A) 3.

@@ -1,0 +1,6 @@
+Razonamiento:
+La regla es que polígonos vecinos, incluso aquellos que comparten un solo vértice, no pueden tener el mismo color. Analizando la figura, podemos identificar regiones que se tocan y por lo tanto, deben tener colores diferentes. 
+Cada cuadrado y triángulo comparten un vértice con al menos otros dos polígonos. Para el cuadrado central, vemos que está rodeado por triángulos, estos triángulos deben tener colores diferentes entre sí. El cuadrado central puede tener otro color que no sea alguno de los que usen los triángulos adyacentes, pero si usamos el mismo color que el triángulo opuesto, se cumple la regla. El patrón de colores se repite en toda la figura.
+Por tanto, necesitamos 3 colores.
+
+Respuesta: A)

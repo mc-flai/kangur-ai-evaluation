@@ -1,0 +1,17 @@
+To ensure Sebastian has at least one apple and one pear of the same color, we need to consider the worst-case scenario where he picks fruits of different colors until he is forced to pick the same color.
+
+1. Sebastian starts by picking one green apple (1 piece).
+2. He then picks one yellow apple (2 pieces).
+3. Next, he picks one green pear (3 pieces).
+4. He picks one yellow pear (4 pieces).
+5. Now, he picks another green apple (5 pieces).
+6. He picks another yellow pear (6 pieces).
+7. He picks another green pear (7 pieces).
+8. He picks another yellow pear (8 pieces).
+9. He picks another green apple (9 pieces).
+
+At this point, Sebastian has picked 9 pieces of fruit, and all of them are of different colors. The next piece he picks must be either a green apple or a green pear, ensuring he has at least one apple and one pear of the same color.
+
+Reasoning: By picking 9 pieces of fruit, Sebastian ensures that the 10th piece will be either an apple or a pear of the same color as one of the previous pieces he has picked.
+
+Answer: B

@@ -1,0 +1,366 @@
+Para determinar cuántos números de 2 cifras cumplen la condición de que un número N de 2 cifras tiene un múltiplo significativo de los números N+1 y N-1, donde uno es primo y el otro es un cuadrado perfecto, podemos seguir estos pasos:
+
+1. Identificar los números de 2 cifras posibles: Los números de 2 cifras van desde 10 a 99.
+2. Para cada número N de 2 cifras, verificar si N+1 y N-1 cumplen las condiciones dadas.
+3. Verificar si N+1 es un cuadrado perfecto.
+4. Verificar si N-1 es un número primo.
+
+Razonamiento:
+- Comenzamos con N = 10.
+- N+1 = 11 y N-1 = 9.
+  - 11 es un número primo.
+  - 9 no es un cuadrado perfecto.
+- Continuamos con N = 11.
+- N+1 = 12 y N-1 = 10.
+  - 12 no es un número primo.
+  - 10 no es un cuadrado perfecto.
+- Continuamos con N = 12.
+- N+1 = 13 y N-1 = 11.
+  - 13 es un número primo.
+  - 11 no es un cuadrado perfecto.
+- Continuamos con N = 13.
+- N+1 = 14 y N-1 = 12.
+  - 14 no es un número primo.
+  - 12 es un cuadrado perfecto.
+- Continuamos con N = 14.
+- N+1 = 15 y N-1 = 13.
+  - 15 no es un número primo.
+  - 13 no es un cuadrado perfecto.
+- Continuamos con N = 15.
+- N+1 = 16 y N-1 = 14.
+  - 16 es un cuadrado perfecto.
+  - 14 no es un número primo.
+- Continuamos con N = 16.
+- N+1 = 17 y N-1 = 15.
+  - 17 es un número primo.
+  - 15 no es un cuadrado perfecto.
+- Continuamos con N = 17.
+- N+1 = 18 y N-1 = 16.
+  - 18 no es un número primo.
+  - 16 es un cuadrado perfecto.
+- Continuamos con N = 18.
+- N+1 = 19 y N-1 = 17.
+  - 19 es un número primo.
+  - 17 no es un cuadrado perfecto.
+- Continuamos con N = 19.
+- N+1 = 20 y N-1 = 18.
+  - 20 no es un número primo.
+  - 18 no es un cuadrado perfecto.
+- Continuamos con N = 20.
+- N+1 = 21 y N-1 = 19.
+  - 21 no es un número primo.
+  - 19 no es un cuadrado perfecto.
+- Continuamos con N = 21.
+- N+1 = 22 y N-1 = 20.
+  - 22 no es un número primo.
+  - 20 no es un cuadrado perfecto.
+- Continuamos con N = 22.
+- N+1 = 23 y N-1 = 21.
+  - 23 es un número primo.
+  - 21 no es un cuadrado perfecto.
+- Continuamos con N = 23.
+- N+1 = 24 y N-1 = 22.
+  - 24 no es un número primo.
+  - 22 no es un cuadrado perfecto.
+- Continuamos con N = 24.
+- N+1 = 25 y N-1 = 23.
+  - 25 es un cuadrado perfecto.
+  - 23 es un número primo.
+- Continuamos con N = 25.
+- N+1 = 26 y N-1 = 24.
+  - 26 no es un número primo.
+  - 24 no es un cuadrado perfecto.
+- Continuamos con N = 26.
+- N+1 = 27 y N-1 = 25.
+  - 27 no es un número primo.
+  - 25 no es un cuadrado perfecto.
+- Continuamos con N = 27.
+- N+1 = 28 y N-1 = 26.
+  - 28 no es un número primo.
+  - 26 no es un cuadrado perfecto.
+- Continuamos con N = 28.
+- N+1 = 29 y N-1 = 27.
+  - 29 es un número primo.
+  - 27 no es un cuadrado perfecto.
+- Continuamos con N = 29.
+- N+1 = 30 y N-1 = 28.
+  - 30 no es un número primo.
+  - 28 no es un cuadrado perfecto.
+- Continuamos con N = 30.
+- N+1 = 31 y N-1 = 29.
+  - 31 es un número primo.
+  - 29 no es un cuadrado perfecto.
+- Continuamos con N = 31.
+- N+1 = 32 y N-1 = 30.
+  - 32 es un cuadrado perfecto.
+  - 30 no es un número primo.
+- Continuamos con N = 32.
+- N+1 = 33 y N-1 = 31.
+  - 33 no es un número primo.
+  - 31 no es un cuadrado perfecto.
+- Continuamos con N = 33.
+- N+1 = 34 y N-1 = 32.
+  - 34 no es un número primo.
+  - 32 es un cuadrado perfecto.
+- Continuamos con N = 34.
+- N+1 = 35 y N-1 = 33.
+  - 35 no es un número primo.
+  - 33 no es un cuadrado perfecto.
+- Continuamos con N = 35.
+- N+1 = 36 y N-1 = 34.
+  - 36 es un cuadrado perfecto.
+  - 34 no es un número primo.
+- Continuamos con N = 36.
+- N+1 = 37 y N-1 = 35.
+  - 37 es un número primo.
+  - 35 no es un cuadrado perfecto.
+- Continuamos con N = 37.
+- N+1 = 38 y N-1 = 36.
+  - 38 no es un número primo.
+  - 36 es un cuadrado perfecto.
+- Continuamos con N = 38.
+- N+1 = 39 y N-1 = 37.
+  - 39 no es un número primo.
+  - 37 no es un cuadrado perfecto.
+- Continuamos con N = 39.
+- N+1 = 40 y N-1 = 38.
+  - 40 no es un número primo.
+  - 38 no es un cuadrado perfecto.
+- Continuamos con N = 40.
+- N+1 = 41 y N-1 = 39.
+  - 41 es un número primo.
+  - 39 no es un cuadrado perfecto.
+- Continuamos con N = 41.
+- N+1 = 42 y N-1 = 40.
+  - 42 no es un número primo.
+  - 40 no es un cuadrado perfecto.
+- Continuamos con N = 42.
+- N+1 = 43 y N-1 = 41.
+  - 43 es un número primo.
+  - 41 no es un cuadrado perfecto.
+- Continuamos con N = 43.
+- N+1 = 44 y N-1 = 42.
+  - 44 no es un número primo.
+  - 42 no es un cuadrado perfecto.
+- Continuamos con N = 44.
+- N+1 = 45 y N-1 = 43.
+  - 45 no es un número primo.
+  - 43 no es un cuadrado perfecto.
+- Continuamos con N = 45.
+- N+1 = 46 y N-1 = 44.
+  - 46 no es un número primo.
+  - 44 no es un cuadrado perfecto.
+- Continuamos con N = 46.
+- N+1 = 47 y N-1 = 45.
+  - 47 es un número primo.
+  - 45 no es un cuadrado perfecto.
+- Continuamos con N = 47.
+- N+1 = 48 y N-1 = 46.
+  - 48 no es un número primo.
+  - 46 no es un cuadrado perfecto.
+- Continuamos con N = 48.
+- N+1 = 49 y N-1 = 47.
+  - 49 es un cuadrado perfecto.
+  - 47 es un número primo.
+- Continuamos con N = 49.
+- N+1 = 50 y N-1 = 48.
+  - 50 no es un número primo.
+  - 48 no es un cuadrado perfecto.
+- Continuamos con N = 50.
+- N+1 = 51 y N-1 = 49.
+  - 51 no es un número primo.
+  - 49 no es un cuadrado perfecto.
+- Continuamos con N = 51.
+- N+1 = 52 y N-1 = 50.
+  - 52 no es un número primo.
+  - 50 no es un cuadrado perfecto.
+- Continuamos con N = 52.
+- N+1 = 53 y N-1 = 51.
+  - 53 es un número primo.
+  - 51 no es un cuadrado perfecto.
+- Continuamos con N = 53.
+- N+1 = 54 y N-1 = 52.
+  - 54 no es un número primo.
+  - 52 no es un cuadrado perfecto.
+- Continuamos con N = 54.
+- N+1 = 55 y N-1 = 53.
+  - 55 no es un número primo.
+  - 53 no es un cuadrado perfecto.
+- Continuamos con N = 55.
+- N+1 = 56 y N-1 = 54.
+  - 56 no es un número primo.
+  - 54 no es un cuadrado perfecto.
+- Continuamos con N = 56.
+- N+1 = 57 y N-1 = 55.
+  - 57 no es un número primo.
+  - 55 no es un cuadrado perfecto.
+- Continuamos con N = 57.
+- N+1 = 58 y N-1 = 56.
+  - 58 no es un número primo.
+  - 56 no es un cuadrado perfecto.
+- Continuamos con N = 58.
+- N+1 = 59 y N-1 = 57.
+  - 59 es un número primo.
+  - 57 no es un cuadrado perfecto.
+- Continuamos con N = 59.
+- N+1 = 60 y N-1 = 58.
+  - 60 no es un número primo.
+  - 58 no es un cuadrado perfecto.
+- Continuamos con N = 60.
+- N+1 = 61 y N-1 = 59.
+  - 61 es un número primo.
+  - 59 no es un cuadrado perfecto.
+- Continuamos con N = 61.
+- N+1 = 62 y N-1 = 60.
+  - 62 no es un número primo.
+  - 60 no es un cuadrado perfecto.
+- Continuamos con N = 62.
+- N+1 = 63 y N-1 = 61.
+  - 63 no es un número primo.
+  - 61 no es un cuadrado perfecto.
+- Continuamos con N = 63.
+- N+1 = 64 y N-1 = 62.
+  - 64 es un cuadrado perfecto.
+  - 62 no es un número primo.
+- Continuamos con N = 64.
+- N+1 = 65 y N-1 = 63.
+  - 65 no es un número primo.
+  - 63 no es un cuadrado perfecto.
+- Continuamos con N = 65.
+- N+1 = 66 y N-1 = 64.
+  - 66 no es un número primo.
+  - 64 es un cuadrado perfecto.
+- Continuamos con N = 66.
+- N+1 = 67 y N-1 = 65.
+  - 67 es un número primo.
+  - 65 no es un cuadrado perfecto.
+- Continuamos con N = 67.
+- N+1 = 68 y N-1 = 66.
+  - 68 no es un número primo.
+  - 66 no es un cuadrado perfecto.
+- Continuamos con N = 68.
+- N+1 = 69 y N-1 = 67.
+  - 69 no es un número primo.
+  - 67 no es un cuadrado perfecto.
+- Continuamos con N = 69.
+- N+1 = 70 y N-1 = 68.
+  - 70 no es un número primo.
+  - 68 no es un cuadrado perfecto.
+- Continuamos con N = 70.
+- N+1 = 71 y N-1 = 69.
+  - 71 es un número primo.
+  - 69 no es un cuadrado perfecto.
+- Continuamos con N = 71.
+- N+1 = 72 y N-1 = 70.
+  - 72 no es un número primo.
+  - 70 no es un cuadrado perfecto.
+- Continuamos con N = 72.
+- N+1 = 73 y N-1 = 71.
+  - 73 es un número primo.
+  - 71 no es un cuadrado perfecto.
+- Continuamos con N = 73.
+- N+1 = 74 y N-1 = 72.
+  - 74 no es un número primo.
+  - 72 no es un cuadrado perfecto.
+- Continuamos con N = 74.
+- N+1 = 75 y N-1 = 73.
+  - 75 no es un número primo.
+  - 73 no es un cuadrado perfecto.
+- Continuamos con N = 75.
+- N+1 = 76 y N-1 = 74.
+  - 76 no es un número primo.
+  - 74 no es un cuadrado perfecto.
+- Continuamos con N = 76.
+- N+1 = 77 y N-1 = 75.
+  - 77 no es un número primo.
+  - 75 no es un cuadrado perfecto.
+- Continuamos con N = 77.
+- N+1 = 78 y N-1 = 76.
+  - 78 no es un número primo.
+  - 76 no es un cuadrado perfecto.
+- Continuamos con N = 78.
+- N+1 = 79 y N-1 = 77.
+  - 79 es un número primo.
+  - 77 no es un cuadrado perfecto.
+- Continuamos con N = 79.
+- N+1 = 80 y N-1 = 78.
+  - 80 no es un número primo.
+  - 78 no es un cuadrado perfecto.
+- Continuamos con N = 80.
+- N+1 = 81 y N-1 = 79.
+  - 81 es un cuadrado perfecto.
+  - 79 no es un cuadrado perfecto.
+- Continuamos con N = 81.
+- N+1 = 82 y N-1 = 80.
+  - 82 no es un número primo.
+  - 80 no es un cuadrado perfecto.
+- Continuamos con N = 82.
+- N+1 = 83 y N-1 = 81.
+  - 83 es un número primo.
+  - 81 es un cuadrado perfecto.
+- Continuamos con N = 83.
+- N+1 = 84 y N-1 = 82.
+  - 84 no es un número primo.
+  - 82 no es un cuadrado perfecto.
+- Continuamos con N = 84.
+- N+1 = 85 y N-1 = 83.
+  - 85 no es un número primo.
+  - 83 no es un cuadrado perfecto.
+- Continuamos con N = 85.
+- N+1 = 86 y N-1 = 84.
+  - 86 no es un número primo.
+  - 84 no es un cuadrado perfecto.
+- Continuamos con N = 86.
+- N+1 = 87 y N-1 = 85.
+  - 87 no es un número primo.
+  - 85 no es un cuadrado perfecto.
+- Continuamos con N = 87.
+- N+1 = 88 y N-1 = 86.
+  - 88 no es un número primo.
+  - 86 no es un cuadrado perfecto.
+- Continuamos con N = 88.
+- N+1 = 89 y N-1 = 87.
+  - 89 es un número primo.
+  - 87 no es un cuadrado perfecto.
+- Continuamos con N = 89.
+- N+1 = 90 y N-1 = 88.
+  - 90 no es un número primo.
+  - 88 no es un cuadrado perfecto.
+- Continuamos con N = 90.
+- N+1 = 91 y N-1 = 89.
+  - 91 no es un número primo.
+  - 89 no es un cuadrado perfecto.
+- Continuamos con N = 91.
+- N+1 = 92 y N-1 = 90.
+  - 92 no es un número primo.
+  - 90 no es un cuadrado perfecto.
+- Continuamos con N = 92.
+- N+1 = 93 y N-1 = 91.
+  - 93 no es un número primo.
+  - 91 no es un cuadrado perfecto.
+- Continuamos con N = 93.
+- N+1 = 94 y N-1 = 92.
+  - 94 no es un número primo.
+  - 92 no es un cuadrado perfecto.
+- Continuamos con N = 94.
+- N+1 = 95 y N-1 = 93.
+  - 95 no es un número primo.
+  - 93 no es un cuadrado perfecto.
+- Continuamos con N = 95.
+- N+1 = 96 y N-1 = 94.
+  - 96 no es un número primo.
+  - 94 no es un cuadrado perfecto.
+- Continuamos con N = 96.
+- N+1 = 97 y N-1 = 95.
+  - 97 es un número primo.
+  - 95 no es un cuadrado perfecto.
+- Continuamos con N = 97.
+- N+1 = 98 y N-1 = 96.
+  - 98 no es un número primo.
+  - 96 no es un cuadrado perfecto.
+- Continuamos con N = 98.
+- N+1 = 99 y N-1 = 97.
+  - 99 no es un número primo.
+  - 97 es un número primo.
+
+Respuesta: D)

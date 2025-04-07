@@ -1,0 +1,15 @@
+Razonamiento:
+Let d be the distance the tortoise travels, which is 5 km. Let v_t be the speed of the tortoise. Then the time the tortoise takes is t = d/v_t = 5/v_t.
+The hare is 5 times faster than the tortoise, so its speed is v_h = 5v_t.
+Let x be the distance the hare runs perpendicularly to the route. Let y be the distance the hare runs directly to the final point.
+Since the hare arrives at the same time as the tortoise, the time the hare takes is t = x/v_h + y/v_h = 5/v_t.
+Substituting v_h = 5v_t, we get t = x/(5v_t) + y/(5v_t) = (x+y)/(5v_t) = 5/v_t.
+Multiplying both sides by 5v_t, we get x+y = 25.
+By the Pythagorean theorem, x^2 + 5^2 = y^2, so x^2 + 25 = y^2. Thus y^2 - x^2 = 25.
+We have x+y = 25 and y^2 - x^2 = (y-x)(y+x) = 25. Substituting x+y = 25, we get (y-x) * 25 = 25. So y-x = 1.
+Now we have two equations: x+y = 25 and y-x = 1.
+Adding the two equations, we get 2y = 26, so y = 13.
+Subtracting the two equations, we get 2x = 24, so x = 12.
+The question asks for the distance between the point where the hare realized the error and the final point, which is y. Thus, the answer is 13 km.
+
+Respuesta: C)

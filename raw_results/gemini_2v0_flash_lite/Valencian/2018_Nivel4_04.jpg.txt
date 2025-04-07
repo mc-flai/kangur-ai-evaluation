@@ -1,0 +1,9 @@
+Raonament: The question asks how many of the numbers following the pattern $n^{2018} + (n+1)^{2017}$ are even.
+Notice that $n^{2018}$ will be even if $n$ is even, and odd if $n$ is odd.
+Also, $(n+1)^{2017}$ will be odd if $n+1$ is odd (i.e. if $n$ is even), and even if $n+1$ is even (i.e. if $n$ is odd).
+Thus, when $n$ is even, $n^{2018}$ is even and $(n+1)^{2017}$ is odd, so their sum is odd.
+When $n$ is odd, $n^{2018}$ is odd and $(n+1)^{2017}$ is even, so their sum is odd.
+So, for all $n$, $n^{2018} + (n+1)^{2017}$ is odd.
+Since we are looking for even numbers, and there are no even numbers among the 100 numbers, the answer is "Cap".
+
+Resposta: A)

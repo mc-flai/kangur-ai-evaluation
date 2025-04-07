@@ -1,0 +1,38 @@
+Reasoning: Let's analyze the figure. The innermost and outermost regions do not touch each other, so they can have the same color. The regions between these touch each other, and the regions that touch each other need to have different colors. There are 3 colors available.
+1.  Innermost region can have any of 3 colors.
+2.  The next region can have only 2 colors, because it has to be a different color than the innermost region.
+3.  The next region can have only 2 colors, because it must be a different color than the previous region.
+4.  The next region can have only 2 colors, because it must be a different color than the previous region.
+5.  The next region can have only 2 colors, because it must be a different color than the previous region.
+6. The outermost region can share the color with the innermost or can be any of the remaining 2 colors.
+There are 3 options for the first region and 2 options for the second region.  The innermost and outer regions do not share any boundaries with each other so, they could be the same color.  The rest of the spaces are nested between the inner and outer spaces, meaning they have to be different colors than the space before and after.
+
+We can break this down:
+*   Innermost region: 3 choices.
+*   Next region: 2 choices.
+*   Next region: 2 choices.
+*   Next region: 2 choices.
+*   Next region: 2 choices.
+*   Outermost Region: if same as the first region, then 1 choice. If different than the first region, then 2 choices.
+
+The best answer is going to be a number less than the theoretical 96, and because the inner and outer circles don't share any border with each other, then they could be painted the same color, and all other spaces painted with alternating colors of the two remaining ones.
+
+Let's start with the 3 colors (R, B, Y):
+*   Inner region: 3 choices.
+*   Region 2: 2 choices.
+*   Region 3: 2 choices.
+*   Region 4: 2 choices.
+*   Region 5: 2 choices.
+*   Outer Region: has two options, being either the same color as the Inner region or a different color.
+If the inner region and outer region are the same color, then all the nested regions must alternate color.
+If the inner region and outer region have different colors, then all the nested regions must alternate color.
+So, we need to consider this:  (3 choices) * (2 choices) = 6
+
+For 2 options: Red/Blue:  R, B, R, B, R, B.
+Red/Yellow:  R, Y, R, Y, R, Y.
+Blue/Yellow: B, Y, B, Y, B, Y.
+
+For 3 options: R, B, R, B, R, Y.
+So the total number of ways will be 6.
+
+Answer: E)

@@ -1,0 +1,28 @@
+**Raonament**:
+
+Per resoldre aquesta pregunta, hem de determinar l'àrea del quadrilàter format per les interseccions dels segments \(AN\) i \(MB\) dins del triangle isòsceles \(ABC\).
+
+1. El triangle \(ABC\) és isòsceles amb \(AB = AC\).
+2. Els segments \(AN\) i \(MB\) divideixen el triangle \(ABC\) en tres triangles més petits, tots amb la mateixa àrea.
+
+Primer, calculem l'àrea del triangle \(ABC\).
+
+- La base \(AB\) és de 6 unitats.
+- L'altura des de \(C\) fins a \(AB\) és 3 unitats (ja que \(CM = MN\) i cada segment és de 3 unitats).
+
+L'àrea del triangle \(ABC\) és:
+\[
+\text{Àrea de } \triangle ABC = \frac{1}{2} \times \text{base} \times \text{altura} = \frac{1}{2} \times 6 \times 3 = 9
+\]
+
+Els segments \(AN\) i \(MB\) divideixen el triangle \(ABC\) en tres triangles més petits, cada un amb una àrea de:
+\[
+\text{Àrea de cada triangle petit} = \frac{9}{3} = 3
+\]
+
+El quadrilàter format per les interseccions dels segments \(AN\) i \(MB\) és un paral·lelogram que inclou dos d'aquests triangles més petits. Per tant, l'àrea del quadrilàter és:
+\[
+\text{Àrea del quadrilàter} = 2 \times 3 = 6
+\]
+
+**Resposta**: D) 6

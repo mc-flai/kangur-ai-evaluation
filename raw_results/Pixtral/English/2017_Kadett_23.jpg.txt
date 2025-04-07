@@ -1,0 +1,49 @@
+
+Reasoning: Diana adds either 2 or 5 to every whole number from 1 to 9. To determine the minimum number of different sums she can achieve, we need to consider the unique combinations of adding 2 or 5 to each number in the range.
+
+Let's analyze the sums:
+
+- Starting with 1:
+  - 1 + 2 = 3
+  - 1 + 5 = 6
+
+- Starting with 2:
+  - 2 + 2 = 4
+  - 2 + 5 = 7
+
+- Starting with 3:
+  - 3 + 2 = 5
+  - 3 + 5 = 8
+
+- Starting with 4:
+  - 4 + 2 = 6
+  - 4 + 5 = 9
+
+- Starting with 5:
+  - 5 + 2 = 7
+  - 5 + 5 = 10
+
+- Starting with 6:
+  - 6 + 2 = 8
+  - 6 + 5 = 11
+
+- Starting with 7:
+  - 7 + 2 = 9
+  - 7 + 5 = 12
+
+- Starting with 8:
+  - 8 + 2 = 10
+  - 8 + 5 = 13
+
+- Starting with 9:
+  - 9 + 2 = 11
+  - 9 + 5 = 14
+
+Now, let's count the unique sums:
+- 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+
+There are 12 unique sums. However, we need to find the minimum number of different sums. To achieve the minimum, we should consider the overlap of sums. For example, 6 can be obtained from both 1 + 5 and 4 + 2. We need to identify the sums that are unique without overlap.
+
+By carefully analyzing, we find that the sums 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14 are all unique. Therefore, the minimum number of different sums Diana can obtain is 12.
+
+Answer: E)

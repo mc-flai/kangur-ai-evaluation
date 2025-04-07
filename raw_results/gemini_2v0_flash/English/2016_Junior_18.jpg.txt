@@ -1,0 +1,16 @@
+Reasoning:
+Let S be the sum of all the numbers on the cards. S = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255.
+Let Eva's sum be E and Ali's sum be A.
+We are given that E = A + 31. Also, we know that E + A = S = 255.
+Substituting E = A + 31 into E + A = 255, we get (A + 31) + A = 255, which means 2A + 31 = 255.
+So, 2A = 255 - 31 = 224. Therefore, A = 224 / 2 = 112.
+Now we can find Eva's sum: E = A + 31 = 112 + 31 = 143.
+We need to find which combination of numbers from the set {1, 2, 4, 8, 16, 32, 64, 128} adds up to 143.
+We can use a greedy approach:
+128 + 15 = 143. We need to find numbers that sum to 15.
+8 + 4 + 2 + 1 = 15.
+So the combination is 128 + 8 + 4 + 2 + 1 = 143.
+There are 5 numbers in this combination.
+Therefore, Eva has chosen 5 envelopes.
+
+Answer: D)

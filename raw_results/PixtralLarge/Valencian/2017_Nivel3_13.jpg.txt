@@ -1,0 +1,30 @@
+Per analitzar l'expressió 111 - 110 - 109 + 108 + 107 - 106 - 105 + 104 + 103 - ... + 4 + 3 - 2 - 1, observem el patró de sumes i restes:
+
+1. Els termes es sumen i resten alternativament.
+2. Els termes parells es sumen i els termes senars es resten.
+
+Agrupem els termes en parells:
+
+(111 - 110) + (109 + 108) + (107 - 106) + (105 + 104) + (103 - 102) + ... + (5 + 4) + (3 - 2) + (1)
+
+Cada parell de termes de la forma (n - (n-1)) dona com a resultat 1, i cada parell de la forma (n + (n-1)) dona com a resultat 0, ja que:
+(111 - 110) = 1
+(107 - 106) = 1
+...
+(3 - 2) = 1
+
+El terme final (1) no té un segon terme amb el qual sumar-se o restar-se.
+
+Sumem els resultats dels parells i afegim el terme final:
+
+1 + 0 + 1 + 0 + 1 + ... + 1 + 1
+
+Hi ha 51 parells de la forma (n - (n-1)) que donen 1, i 50 parells de la forma (n + (n-1)) que donen 0, més el terme final 1.
+
+Sumem tots els 1:
+51 * 1 + 1 = 52
+
+Per tant, el valor de l'expressió és 52, que és més gran que 1.
+
+Raonament: El valor de l'expressió és un nombre més gran que 1.
+Resposta: E)

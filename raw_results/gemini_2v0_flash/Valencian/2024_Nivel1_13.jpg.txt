@@ -1,0 +1,18 @@
+Raonament:
+Siguin a, b, c i d els pesos dels quatre paquets, ordenats de forma creixent. Sabem que a < b < c < d, i que c = 8. També sabem que a + b + c + d = 20. Per tant, a + b + 8 + d = 20, així que a + b + d = 12.
+Com que a < b < 8 < d, els pesos a, b i d han de ser nombres enters diferents. També sabem que a i b són menors que 8 i d és més gran que 8. Si b=2, llavors a=1 i d=9, així a+b+d=1+2+9 = 12. Això podria funcionar.
+Si b=3, llavors a=1 o a=2. Si a=1, d=8 (no pot ser perquè d>8), si a=2, d=7 (no pot ser perquè d>8).
+Si b=4, llavors a=1, 2 o 3. Si a=1, d=7 (no pot ser). Si a=2, d=6 (no pot ser). Si a=3, d=5 (no pot ser).
+Si b=5, llavors a=1, 2, 3 o 4. Si a=1, d=6 (no pot ser). Si a=2, d=5 (no pot ser).
+Si b=6, llavors a=1, 2, 3, 4 o 5. Si a=1, d=5.
+Si b=7, llavors a=1, 2, 3, 4, 5 o 6. Si a=1, d=4.
+Com que a<b<8<d i a+b+d=12, intentem els valors donats per b.
+Si b=2, llavors a pot ser 1, i d=9. La suma és 1+2+8+9=20, i la condició es compleix.
+Si b=3, llavors a pot ser 1 o 2. Si a=1, llavors d=8, però d>8, així que no pot ser. Si a=2, llavors d=7, però d>8, així que no pot ser.
+Si b=4, llavors a pot ser 1, 2 o 3. Si a=1, llavors d=7, impossible. Si a=2, llavors d=6, impossible. Si a=3, llavors d=5, impossible.
+Si b=5, llavors a pot ser 1, 2, 3 o 4. Si a=1, llavors d=6, impossible.
+Si b=6, llavors a pot ser 1, 2, 3, 4 o 5. Si a=1, llavors d=5, impossible.
+Si b=7, llavors a pot ser 1, 2, 3, 4, 5 o 6. Si a=1, llavors d=4, impossible.
+Per tant, la única opció és que b=2, i per tant a=1 i d=9.
+
+Resposta: A)

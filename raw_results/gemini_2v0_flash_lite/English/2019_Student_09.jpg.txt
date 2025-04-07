@@ -1,0 +1,26 @@
+Reasoning:
+The probabilities of rolling a 1, 2, and 3 are 1/2, 1/3, and 1/6 respectively.  This means that if we look at all possible faces of the die we should have an equal number of sides of a single roll multiplied by the probability to result to the total probability of 1. Therefore, we can assume that we have a total of 6 sides, and that the amount of each of the faces is as follows:
+1s appear on 3 sides (3 * 1/2 = 3/6 = 1/2)
+2s appear on 2 sides (2 * 1/3 = 2/6 = 1/3)
+3s appear on 1 side (1 * 1/6 = 1/6)
+Looking at the options:
+A. 3, 1, 2 can work
+B. 1, 2, can work
+C. 2, 3, 3 can work
+D. 1, 2, 1 can work
+E. 3, 2, 2 can work
+
+But, any other combination of 3, 2, 1 that has an equal amount of sides cannot be correct because one side has to appear on 3 sides, one side has to appear on 2, and one side has to appear on 1.
+If we count the number of unique numbers on each option:
+A has 3 different sides, and 3, 2, 1, is 1
+B has 2 different sides, and 1, 2, is 1
+C has 2 different sides, 2, 3, 3
+D has 2 different sides, 1, 2, 1, 1
+E has 2 different sides, 3, 2, 2,
+
+C is a scenario with the given probabilities.
+We are asked for the one that *cannot* be a picture of this die.
+The options contain faces with 1, 2, and 3 dots. Each die has a different combination of 1, 2, or 3 as faces.
+Option C has two faces showing 3 dots, which would mean that the probability of rolling a 3 is 2/6, which is not 1/6.
+
+Answer: C)

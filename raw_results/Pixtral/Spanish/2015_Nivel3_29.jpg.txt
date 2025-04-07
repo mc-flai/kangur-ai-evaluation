@@ -1,0 +1,22 @@
+
+La pregunta 29 en la imagen dice: "María divide 2015 por 1, 2, 3, etc., hasta llegar a 1000 inclusivo y escribe el resto de la división. ¿Cuál es el mayor de esos restos?"
+
+Para determinar la respuesta correcta, evaluemos cada opción:
+
+- A) 15
+- B) 215
+- C) 671
+- D) 1007
+- E) otro valor
+
+Razonamiento:
+1. María está dividiendo 2015 por cada número entero desde 1 hasta 1000 y registra el resto de cada división.
+2. El resto de una división es el residuo que queda después de la división. Por ejemplo, el resto de 2015 dividido por 1 es 0, el resto de 2015 dividido por 2 es 1, y así sucesivamente.
+3. Para encontrar el mayor resto, necesitamos identificar el residuo más grande posible cuando 2015 se divide por un número entero menor que 1000.
+4. El mayor resto posible ocurre cuando el divisor es lo más cercano posible a 2015, pero aún menor que 1000.
+5. El número más cercano a 2015 que es menor que 1000 es 1000.
+6. El resto de 2015 dividido por 1000 es 2015 - (2015 // 1000) * 1000, donde // representa la división entera.
+7. 2015 // 1000 es 2, y 2 * 1000 es 2000.
+8. Por lo tanto, el resto es 2015 - 2000 = 15.
+
+Respuesta: A)

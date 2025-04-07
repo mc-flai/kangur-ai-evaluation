@@ -1,0 +1,24 @@
+
+La pregunta 21 nos pide determinar cuántas maneras hay de llenar una tabla de 2x4 casillas con las letras A, B, C y D, donde cada fila debe tener dos letras diferentes y cada columna debe tener tres cuadrados de 2x2 casillas, cada uno con una letra diferente.
+
+Para resolver esto, primero identificamos las letras disponibles: A, B, C y D. Cada fila debe tener dos letras diferentes y cada columna debe tener tres cuadrados de 2x2 casillas con letras diferentes.
+
+**Razonamiento:**
+1. Cada fila debe tener dos letras diferentes. Hay 4 letras disponibles, por lo que el número de maneras de seleccionar dos letras diferentes para cada fila es:
+   \[
+   4 \times 3 = 12
+   \]
+   Esto se debe a que para la primera posición de la fila, hay 4 opciones, y para la segunda posición, hay 3 opciones restantes.
+
+2. Cada columna debe tener tres cuadrados de 2x2 casillas con letras diferentes. Para cada columna, hay 4 maneras de seleccionar tres letras diferentes para los cuadrados de 2x2 casillas:
+   \[
+   4 \times 3 \times 2 = 24
+   \]
+   Esto se debe a que para la primera posición del cuadrado de 2x2 casillas, hay 4 opciones, para la segunda posición hay 3 opciones restantes y para la tercera posición hay 2 opciones restantes.
+
+3. El número total de maneras de llenar la tabla es el producto de las maneras de llenar las filas y las columnas:
+   \[
+   12 \times 24 = 288
+   \]
+
+**Respuesta:** E)

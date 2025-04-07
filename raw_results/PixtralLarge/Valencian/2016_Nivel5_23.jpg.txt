@@ -1,0 +1,25 @@
+Per resoldre el problema, hem de trobar el mínim nombre de preguntes que cal fer per saber si el meu nombre pertany a un conjunt de nombres o no.
+
+1. **Entendre l'abast del problema**:
+   - Tinc un nombre entre 1 i 15 (inclusivament).
+   - Tinc un conjunt de nombres.
+   - He de saber si el meu nombre pertany a aquest conjunt de nombres fent el mínim nombre de preguntes de sí o no.
+
+2. **Estratègia de divisió binària**:
+   - La manera més eficient de trobar un nombre en un rang és mitjançant el mètode de divisió binària (bisecció).
+   - Aquest mètode redueix l'abast de possibles respostes a la meitat cada vegada que fem una pregunta.
+
+3. **Preguntes necessàries amb divisió binària**:
+   - Per a un rang de 1 a 15, les preguntes necessàries es calculen de la següent manera:
+     - Nombre de nombres possibles (N) = 15.
+     - Nombre mínim de preguntes per resoldre un rang de N nombres = log₂(N) arrodonit cap amunt.
+     - log₂(15) ≈ 3.91
+     - Arrodonit cap amunt, log₂(15) = 4
+
+4. **Explicació**:
+   - Fent 4 preguntes, podem dividir el rang de 1 a 15 en parts cada vegada més petites fins que només ens quedi un sol nombre possible.
+   - Cada pregunta divideix el rang actual en dos, reduint el nombre de possibles respostes a la meitat cada vegada.
+
+Raonament: Utilitzant el mètode de divisió binària, necessitem 4 preguntes per determinar si un nombre entre 1 i 15 pertany a un conjunt de nombres.
+
+Resposta: D)

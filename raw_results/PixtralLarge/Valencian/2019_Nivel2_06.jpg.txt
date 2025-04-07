@@ -1,0 +1,22 @@
+Per determinar el nombre total d'arbres en un hort on els arbres estan situats de manera que a les vores del quadrat n'hi ha un total de 24, hem de seguir aquest raonament:
+
+1. **Determinar el nombre d'arbres a les vores**:
+   Cada vora del quadrat té 6 arbres (com es mostra en la figura).
+
+2. **Calcular el nombre total d'arbres en les vores**:
+   Com que un quadrat té 4 vores, el nombre total d'arbres en les vores és:
+   \[
+   4 \times 6 = 24
+   \]
+   Això confirma que el nombre total d'arbres en les vores és 24, que és correcte segons la informació donada.
+
+3. **Calcular el nombre total d'arbres en l'hort**:
+   En un quadrat de n x n arbres, el nombre total d'arbres és \( n^2 \).
+   Com que cada vora té 6 arbres, el nombre total d'arbres en l'hort és:
+   \[
+   6^2 = 36
+   \]
+
+**Raonament**: El nombre total d'arbres en l'hort és 36, ja que cada vora té 6 arbres i el quadrat és de 6x6.
+
+**Resposta**: C)

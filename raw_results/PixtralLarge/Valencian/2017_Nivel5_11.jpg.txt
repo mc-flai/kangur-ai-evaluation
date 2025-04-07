@@ -1,0 +1,68 @@
+Per analitzar la pregunta i trobar la resposta correcta, hem de seguir els següents passos:
+
+1. **Entendre les dades donades**:
+   - Tenim un triangle isòsceles \(ABC\) amb \(AB = AC\).
+   - \(D\) és un punt en la base \(BC\) tal que \(BD = AC\).
+   - S'ens diu que \(\angle ABD = 20^\circ\).
+
+2. **Identificar els angles en el triangle isòsceles**:
+   - En un triangle isòsceles \(ABC\), els angles en la base són iguals. És a dir, \(\angle ABC = \angle ACB\).
+
+3. **Utilitzar el fet que \(BD = AC\)**:
+   - Ja que \(BD = AC\) i \(AB = AC\), els triangles \(ABD\) i \(ACD\) són isòsceles.
+
+4. **Determinar els angles en el triangle \(ABD\)**:
+   - Com que \(ABD\) és isòsceles amb \(AB = BD\), els angles \(\angle BAD\) i \(\angle BDA\) són iguals.
+   - L'angle \(\angle ABD\) és de 20°.
+
+5. **Calcular els altres angles del triangle \(ABD\)**:
+   - La suma dels angles en un triangle és 180°. Per tant, en el triangle \(ABD\):
+     \[
+     \angle BAD + \angle BDA + \angle ABD = 180^\circ
+     \]
+     \[
+     \angle BAD + \angle BDA + 20^\circ = 180^\circ
+     \]
+     \[
+     \angle BAD + \angle BDA = 160^\circ
+     \]
+   - Ja que \(\angle BAD = \angle BDA\), podem escriure:
+     \[
+     2 \angle BAD = 160^\circ
+     \]
+     \[
+     \angle BAD = 80^\circ
+     \]
+
+6. **Determinar l'angle \(\angle ACB\)**:
+   - En el triangle \(ABC\), els angles en la base són iguals, i la suma dels angles és 180°.
+   - L'angle \(\angle BAC\) és un angle extern al triangle \(ABD\), i és igual a la suma dels angles no adjacents al vèrtex \(A\), que són \(\angle BAD\) i \(\angle BDA\):
+     \[
+     \angle BAC = \angle BAD + \angle BDA = 80^\circ + 80^\circ = 160^\circ
+     \]
+     \[
+     \angle BAC = 160^\circ
+     \]
+   - La suma dels angles en el triangle \(ABC\) és:
+     \[
+     \angle ABC + \angle ACB + \angle BAC = 180^\circ
+     \]
+     \[
+     \angle ABC + \angle ACB + 160^\circ = 180^\circ
+     \]
+     \[
+     \angle ABC + \angle ACB = 20^\circ
+     \]
+   - Ja que \(\angle ABC = \angle ACB\), podem escriure:
+     \[
+     2 \angle ACB = 20^\circ
+     \]
+     \[
+     \angle ACB = 10^\circ
+     \]
+
+Per tant, l'angle \(\angle ACB\) és de 10°. La resposta correcta és la que correspon a 10°.
+
+Raonament: Utilitzant les propietats dels triangles isòsceles i la suma dels angles en un triangle, hem determinat que l'angle \(\angle ACB\) és de 10°.
+
+Resposta: B)

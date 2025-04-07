@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. La question demande la somme des 91 termes de la forme \( p(10) + p(11) + p(12) + \ldots + p(99) + p(100) \).
+2. Le produit \( p(N) \) est défini comme le produit des chiffres d'un entier positif \( N \).
+3. Par exemple, \( p(23) = 2 \times 3 = 6 \).
+4. Pour trouver la somme des termes \( p(10) \) à \( p(100) \), nous devons calculer le produit des chiffres pour chaque nombre de 10 à 100.
+5. Les produits des chiffres pour les nombres de 10 à 100 peuvent être simplifiés en groupes de nombres ayant des propriétés similaires.
+6. Par exemple, les nombres de 10 à 19 ont tous \( p(N) = 1 \) (car ils se terminent par 0).
+7. Les nombres de 20 à 29 ont tous \( p(N) = 2 \) (car ils se terminent par 0).
+8. En généralisant, les nombres de 10k à 10k+9 ont \( p(N) = k \).
+9. Il y a 10 groupes de nombres de 10 à 100, chacun avec un produit des chiffres constant.
+10. La somme de ces produits est \( 10 \times (1 + 2 + 3 + \ldots + 9) \).
+11. La somme des nombres de 1 à 9 est \( \frac{9 \times 10}{2} = 45 \).
+12. Donc, la somme totale est \( 10 \times 45 = 450 \).
+
+Réponse : B

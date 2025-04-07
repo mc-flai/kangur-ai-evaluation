@@ -1,0 +1,30 @@
+Raonament: L'única manera de tenir un únic 6 és obtenir el nombre 26. Suposem que els dos números son $\mathbf{a}=10a_1+a_2$ i  $\mathbf{b}=10b_1+b_2$
+
+En el cas que la variable dels dos nombres sigui un 2, el nombre resultarà ser major de 26 i, per tant, no serà possible obtenir  un nombre menor de 26. De la mateixa forma, la variable del segon nombre no pot ser més gran que 1. Per tant, perquè la variable del segon nombre sigui menor o igual a 1:
+
+$$
+\begin{equation}
+\frac{5}{16}<a_1<\frac{6}{16}\tag{1}
+\end{equation}
+$$
+
+i perquè el segon nombre no siga major de 6:
+
+$$
+\begin{equation}
+\frac{1}{6}<b_2<\frac{2}{6}\tag{2}
+\end{equation}
+$$
+
+Les múltiples per recomplir l'equació (1) són  dirigir N múltiples d'un cinquè de la progressió [0, 6].
+Les múltiples per recomplir l'equació (2) són elegir $g\in G$.
+
+Per tant, el total de possibilitats que compleixen les variables és
+
+$$
+\begin{equation}
+\left(\frac{5}{16}\right)\left(\frac{1}{6}\right)=\boxed{\frac{5}{96}}
+\end{equation}
+$$
+
+Resposta: No Answer

@@ -1,0 +1,43 @@
+
+Raonament:
+1. La equació donada és \(\tan x + \cot x = \pi\).
+2. Sabem que \(\tan x = \frac{\sin x}{\cos x}\) i \(\cot x = \frac{\cos x}{\sin x}\).
+3. Combinant aquestes definicions, obtenim:
+   \[
+   \frac{\sin x}{\cos x} + \frac{\cos x}{\sin x} = \pi
+   \]
+4. Multipliquem amb \(\sin x \cos x\) en ambdós costats per eliminar els denominadors:
+   \[
+   \sin^2 x + \cos^2 x = \pi \sin x \cos x
+   \]
+5. Utilitzant l'identitat trigonomètrica \(\sin^2 x + \cos^2 x = 1\), substituïm:
+   \[
+   1 = \pi \sin x \cos x
+   \]
+6. Resollem per \(\sin x \cos x\):
+   \[
+   \sin x \cos x = \frac{1}{\pi}
+   \]
+7. Ara, tornem a la nostra equació original:
+   \[
+   \tan x + \cot x = \pi
+   \]
+8. Utilitzant les definicions de \(\tan x\) i \(\cot x\), substituïm:
+   \[
+   \frac{\sin x}{\cos x} + \frac{\cos x}{\sin x} = \pi
+   \]
+9. Multipliquem amb \(\sin x \cos x\) en ambdós costats:
+   \[
+   \sin^2 x + \cos^2 x = \pi \sin x \cos x
+   \]
+10. Sabem que \(\sin^2 x + \cos^2 x = 1\), així:
+    \[
+    1 = \pi \cdot \frac{1}{\pi}
+    \]
+11. Això simplifica a:
+    \[
+    1 = 1
+    \]
+12. Això confirma que la solució és correcta.
+
+Resposta: D)

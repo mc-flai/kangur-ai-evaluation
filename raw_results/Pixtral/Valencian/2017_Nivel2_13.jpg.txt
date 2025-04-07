@@ -1,0 +1,22 @@
+La pregunta 13 en la imatge diu:
+
+"13. Sis cavalls del rei Artur estan asseguts al voltant d'una taula rodona. Els cavalls veïns s'odeien entre si, però els cavalls que no són veïns són amics. Volen triar una parella de cavalls que siguin amics. Quantes possibilitats hi ha?
+
+A) 3
+B) 6
+C) 9
+D) 12
+E) 18"
+
+**Raonament**:
+1. Hi ha 6 cavalls que no són veïns d'un altre cavall.
+2. Cada parella de cavalls que no són veïns pot ser una parella d'amics.
+3. Per trobar el nombre de parelles d'amics, podem usar la fórmula de combinacions: \( \binom{n}{k} = \frac{n!}{k!(n-k)!} \), on \( n \) és el nombre total d'elements i \( k \) és el nombre d'elements a triar.
+4. Aquí, \( n = 6 \) (cavalls que no són veïns) i \( k = 2 \) (cavalls per parella).
+5. Calculem \( \binom{6}{2} \):
+
+\[ \binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6 \times 5}{2 \times 1} = 15 \]
+
+6. Com que hi ha 6 cavalls que no són veïns i cada parella de cavalls que no són veïns pot ser una parella d'amics, el nombre total de parelles d'amics és 6.
+
+**Resposta**: B)

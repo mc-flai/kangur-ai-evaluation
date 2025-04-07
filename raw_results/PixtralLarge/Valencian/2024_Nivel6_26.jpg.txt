@@ -1,0 +1,52 @@
+Per determinar quina de les igualtats següents és certa, hem de substituir els valors donats \(2^x = 3\), \(2^y = 7\) i \(6^z = 7\) en cada opció i verificar si la igualtat és veritable.
+
+1. **Opció A) \(z = \frac{y}{1 + x}\)**
+   - Substituïm \(2^x = 3\) i \(2^y = 7\).
+   - \(2^x\) implica \(x = \log_2 3\).
+   - \(2^y\) implica \(y = \log_2 7\).
+   - \(z = \log_6 7\).
+   - Substituïm en \(z = \frac{y}{1 + x}\):
+     \[
+     \log_6 7 = \frac{\log_2 7}{1 + \log_2 3}
+     \]
+   - Això no és veritable, ja que les bases de logaritmes no són compatibles directament.
+
+2. **Opció B) \(z = \frac{x}{y} + 1\)**
+   - Substituïm \(x = \log_2 3\) i \(y = \log_2 7\).
+   - \(z = \log_6 7\).
+   - Substituïm en \(z = \frac{x}{y} + 1\):
+     \[
+     \log_6 7 = \frac{\log_2 3}{\log_2 7} + 1
+     \]
+   - Això no és veritable.
+
+3. **Opció C) \(z = \frac{y}{x} - 1\)**
+   - Substituïm \(x = \log_2 3\) i \(y = \log_2 7\).
+   - \(z = \log_6 7\).
+   - Substituïm en \(z = \frac{y}{x} - 1\):
+     \[
+     \log_6 7 = \frac{\log_2 7}{\log_2 3} - 1
+     \]
+   - Això no és veritable.
+
+4. **Opció D) \(z = \frac{x}{y - 1}\)**
+   - Substituïm \(x = \log_2 3\) i \(y = \log_2 7\).
+   - \(z = \log_6 7\).
+   - Substituïm en \(z = \frac{x}{y - 1}\):
+     \[
+     \log_6 7 = \frac{\log_2 3}{\log_2 7 - 1}
+     \]
+   - Això no és veritable.
+
+5. **Opció E) \(z = \frac{y - 1}{x}\)**
+   - Substituïm \(x = \log_2 3\) i \(y = \log_2 7\).
+   - \(z = \log_6 7\).
+   - Substituïm en \(z = \frac{y - 1}{x}\):
+     \[
+     \log_6 7 = \frac{\log_2 7 - 1}{\log_2 3}
+     \]
+   - Això és veritable.
+
+Raonament: Hem verificat cada opció substituint els valors donats i comprovant si la igualtat és veritable. L'única opció que és veritable és l'opció E).
+
+Resposta: E).

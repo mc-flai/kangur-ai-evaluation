@@ -1,0 +1,54 @@
+**Razonamiento**:
+Para encontrar el resultado de la operación \(100000 - 44444\), sigue estos pasos:
+
+1. Alinea los números para la sustracción:
+   ```
+   100000
+  - 44444
+   ```
+
+2. Realiza la sustracción columna por columna desde la derecha (las unidades) hasta la izquierda (las decenas de miles):
+
+   - En la columna de las unidades: \(0 - 4\) no es posible, así que prestamos 10 de la columna de las decenas.
+     ```
+     100000
+    - 44444
+     -----
+       99996
+     ```
+
+   - En la columna de las decenas: \(0 - 4\) no es posible, así que prestamos 10 de la columna de las centenas.
+     ```
+     100000
+    - 44444
+     -----
+       99996
+     ```
+
+   - En la columna de las centenas: \(0 - 4\) no es posible, así que prestamos 10 de la columna de los miles.
+     ```
+     100000
+    - 44444
+     -----
+       99996
+     ```
+
+   - En la columna de los miles: \(0 - 4\) no es posible, así que prestamos 10 de la columna de las decenas de miles.
+     ```
+     100000
+    - 44444
+     -----
+       99996
+     ```
+
+   - En la columna de las decenas de miles: \(10 - 4 = 6\).
+     ```
+     100000
+    - 44444
+     -----
+       55556
+     ```
+
+Por lo tanto, el resultado de \(100000 - 44444\) es \(55556\).
+
+**Respuesta**: D)

@@ -1,0 +1,32 @@
+**Razonamiento**:
+1. Primero, recordemos que \(\log_b a\) es puede expresar en términos de logaritmos decimales usando la fórmula:
+   \[
+   \log_b a = \frac{\log_{10} a}{\log_{10} b}
+   \]
+
+2. Dado el problema, queremos expresar \(20 \log 16 - 6 \log 4\) en términos de logaritmos decimales.
+
+3. Primero, simplifiquemos cada término por separado:
+   \[
+   \log 16 = \log (2^4) = 4 \log 2
+   \]
+   \[
+   \log 4 = \log (2^2) = 2 \log 2
+   \]
+
+4. Sustituyendo estos valores en la expresión original:
+   \[
+   20 \log 16 - 6 \log 4 = 20 (4 \log 2) - 6 (2 \log 2)
+   \]
+
+5. Simplificando dentro de los paréntesis:
+   \[
+   20 (4 \log 2) - 6 (2 \log 2) = 80 \log 2 - 12 \log 2
+   \]
+
+6. Finalmente, combinamos los términos:
+   \[
+   80 \log 2 - 12 \log 2 = 68 \log 2
+   \]
+
+**Respuesta**: D)

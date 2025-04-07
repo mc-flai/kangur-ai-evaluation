@@ -1,0 +1,23 @@
+
+La pregunta 10 solicita el número de ceros después del nombre \(2^{12} \cdot 3^{13} \cdot 5^{15} \cdot 7^{17}\).
+
+Para determinar el número de ceros, necesitamos contar el número de factores de 10 en el producto. Un factor de 10 se compone de un 2 y un 5. Por lo tanto, debemos contar el número de factores de 5 en el producto.
+
+1. **Contar los factores de 5 en \(2^{12}\)**:
+   \(2^{12}\) no contiene factores de 5, por lo que contribuye 0 factores de 5.
+
+2. **Contar los factores de 5 en \(3^{13}\)**:
+   \(3^{13}\) no contiene factores de 5, por lo que contribuye 0 factores de 5.
+
+3. **Contar los factores de 5 en \(5^{15}\)**:
+   \(5^{15}\) contiene 15 factores de 5.
+
+4. **Contar los factores de 5 en \(7^{17}\)**:
+   \(7^{17}\) no contiene factores de 5, por lo que contribuye 0 factores de 5.
+
+Sumando estos factores de 5, obtenemos:
+\[ 0 + 0 + 15 + 0 = 15 \]
+
+Por lo tanto, el número de ceros después del nombre \(2^{12} \cdot 3^{13} \cdot 5^{15} \cdot 7^{17}\) es 15.
+
+**Respuesta: C)**

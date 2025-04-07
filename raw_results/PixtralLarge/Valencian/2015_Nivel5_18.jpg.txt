@@ -1,0 +1,36 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar l'àrea del triangle acutàngulo donades les longituds dels costats, que són 6, 7 i 8. Per això, hem d'utilitzar la fórmula d'Heró, que és una fórmula per calcular l'àrea d'un triangle quan se'n coneixen els costats:
+
+1. Calculem el semiperímetre (s) del triangle:
+   \[
+   s = \frac{a + b + c}{2} = \frac{6 + 7 + 8}{2} = 10.5
+   \]
+
+2. Utilitzem la fórmula d'Heró per calcular l'àrea (A):
+   \[
+   A = \sqrt{s(s-a)(s-b)(s-c)}
+   \]
+   Substituint els valors:
+   \[
+   A = \sqrt{10.5(10.5-6)(10.5-7)(10.5-8)}
+   \]
+   \[
+   A = \sqrt{10.5 \times 4.5 \times 3.5 \times 2.5}
+   \]
+
+3. Simplifiquem l'expressió:
+   \[
+   A = \sqrt{10.5 \times 4.5 \times 3.5 \times 2.5} = \sqrt{\left(\frac{21}{2}\right) \times \left(\frac{9}{2}\right) \times \left(\frac{7}{2}\right) \times \left(\frac{5}{2}\right)}
+   \]
+   \[
+   A = \sqrt{\frac{21 \times 9 \times 7 \times 5}{16}} = \frac{\sqrt{6615}}{4}
+   \]
+
+4. Simplificant la constant:
+   \[
+   A = \frac{\sqrt{252 \times 26 + 117}}{4} = \frac{\sqrt{6615}}{4}
+   \]
+   Per tant, l'àrea del triangle és \(\frac{\sqrt{6615}}{4}\).
+
+**Resposta**: A) \(3(\sqrt{28} - \sqrt{13})\)

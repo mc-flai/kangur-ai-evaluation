@@ -1,0 +1,72 @@
+Raisonnement :
+1. **Analyser les informations de Tom et Pierre:** Tom a marqué 46 points et Pierre 34 points, avec 6 fléchettes chacun.
+2. **Comptabiliser les points par couronne :** On observe que Tom a 3 fléchettes dans la couronne extérieure et 3 dans la couronne intérieure. Pierre a 4 fléchettes dans la couronne extérieure et 2 dans la couronne intérieure. L'écart de points entre Tom et Pierre est de 46-34 = 12 points. La différence de fléchettes dans la couronne extérieure est de 1, donc la couronne extérieure vaut 12 points. Tom a 3 x 0 + 3 x 4 = 46, donc la couronne intérieure vaut 4 points. On voit alors que la couronne intérieure vaut 4 points, et la couronne extérieure vaut 12/3=4 points.
+3. **Calculer les points de Lily:** Lily a 4 fléchettes dans la couronne intérieure et 2 dans la couronne extérieure, donc 4 * 4 + 2 * (12/3) = 16 + 8 = 24 points.
+
+4. **Revoir le calcul des points des couronnes :** Tom a 3 dans une couronne et 3 dans l'autre.  Pierre a 4 dans l'une et 2 dans l'autre. L'écart de points est 12. L'écart de fléchettes est de 1 dans la couronne intérieure et 1 dans l'autre, qui correspond à la couronne extérieure. On ne peut pas déterminer combien valent exactement les couronnes. Si la couronne intérieure vaut x points, la couronne extérieure vaut y points. On a 3y+3x = 46 et 4y+2x = 34. Si on multiplie la seconde équation par 1.5, cela donne 6y+3x = 51. On peut alors soustraire la première équation de cette dernière, et obtenir 3y = 5, ce qui donne y = 15/3, ce qui est impossible.
+
+5. **Nouvelle tentative avec la méthode graphique :** Tom a 3 fléchettes dans une couronne et 3 dans l'autre pour 46 points. Pierre a 4 dans l'une et 2 dans l'autre pour 34 points. Lily a 2 dans l'une et 4 dans l'autre. Si la couronne intérieure vaut x et l'extérieure y, on a :
+    *   Tom : 3x + 3y = 46
+    *   Pierre : 4x + 2y = 34
+    *   Lily : 2x + 4y = ?
+    On peut diviser par 2 la deuxième équation : 2x + y = 17 -> y = 17 - 2x
+    Remplaçons y dans la première équation : 3x + 3(17-2x) = 46
+    3x + 51 - 6x = 46
+    -3x = -5
+    x = 5/3
+    y = 17 - 10/3 = 41/3
+    On obtient alors 2*5/3 + 4*41/3 = (10+164)/3 = 174/3 = 58.
+    On a aussi une possibilité que l'intérieur vaille y et l'extérieur x.
+    *   3x + 3y = 46
+    *   2x + 4y = 34
+    En divisant par 2 : x + 2y = 17, x = 17-2y
+    Remplaçons x dans la première équation : 3(17-2y) + 3y = 46
+    51 - 6y + 3y = 46
+    -3y = -5
+    y = 5/3
+    x = 17 - 10/3 = 41/3.
+
+Si les couronnes sont inversées, on a :
+Lily : 4*5/3 + 2*41/3 = 10/3 + 82/3 = 92/3 = 30.6666
+On doit reprendre les calculs car ce n'est pas possible.
+Tom : 3x+3y = 46
+Pierre : 4x+2y = 34
+Lily : 2x+4y = ?
+
+Multiplions la deuxième équation par 1.5 : 6x + 3y = 51.
+Soustraire la première : 3x = 5, x=5/3.
+Alors : 4(5/3) + 2y = 34. 2y = 34-20/3 = 102/3 - 20/3 = 82/3. y=41/3.
+Alors pour Lily : 2(5/3)+4(41/3) = 10/3 + 164/3 = 174/3 = 58. Impossible.
+
+On essaie avec l'autre configuration.
+Tom: 3y + 3x = 46.
+Pierre : 2y + 4x = 34.
+Lily : 4y + 2x = ?
+
+Divisons la deuxième équation par 2 : y + 2x = 17 -> y = 17-2x
+3(17-2x)+3x = 46
+51-6x+3x=46
+-3x = -5, x = 5/3.
+y = 17 - 10/3 = 41/3
+Lily = 4(41/3) + 2(5/3) = (164+10)/3 = 174/3= 58.
+
+On observe qu'il doit y avoir une erreur dans le texte car on ne trouve pas la bonne réponse. Lily a 4 fléchettes dans l'intérieur et 2 fléchettes dans l'extérieur ou le contraire, on ne sait pas ce qui rapporte le plus.
+Si Lily avait le même nombre de fléchettes qu'un autre, on aurait la réponse.
+
+Si on compte les points :
+3 fléchettes dans une couronne et 3 dans l'autre pour Tom = 46 points
+On trouve 3x + 3y = 46, impossible de calculer x et y.
+4x+2y = 34
+2x+4y = ?
+Avec les valeurs données, il n'y a pas d'entiers.
+Si on imagine qu'on a 3 fléchettes dans une zone et 3 dans l'autre pour 46 points. 4 fléchettes dans une et 2 dans l'autre pour 34. On change la disposition.
+4 fléchettes dans une couronne, on ne peut pas savoir si c'est l'intérieur ou l'extérieur.
+
+Le nombre de points est proportionnel au nombre de fléchettes. On calcule des moyennes.
+Tom : 46/6 = 7.6666
+Pierre : 34/6 = 5.66666
+Lily : 2x+4y.
+Si la moyenne de Lily est la moyenne de Tom+Pierre / 2. (7.66+5.66) / 2 = 6.66
+6.  66 * 6 = 40 points.
+
+Réponse : D)

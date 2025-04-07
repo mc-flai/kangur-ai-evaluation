@@ -1,0 +1,31 @@
+**Razonamiento:**
+1. Identificamos que un número positivo \( N \) es divisible por 6.
+2. El residuo de la división de \( N \) por 6 es 5.
+3. Calculamos \( N^2 \) y verificamos si es divisible por 12.
+
+Para encontrar \( N \):
+\[ N \equiv 5 \pmod{6} \]
+
+Esto significa que \( N \) puede ser escrito como:
+\[ N = 6k + 5 \]
+donde \( k \) es un entero.
+
+Calculamos \( N^2 \):
+\[ N^2 = (6k + 5)^2 \]
+\[ N^2 = 36k^2 + 60k + 25 \]
+\[ N^2 = 6(6k^2 + 10k) + 25 \]
+
+Ahora, verificamos si \( N^2 \) es divisible por 12:
+\[ 6(6k^2 + 10k) + 25 \equiv 0 \pmod{12} \]
+
+Para que esto sea cierto, el término \( 25 \) debe ser divisible por 12, lo cual no es posible. Por lo tanto, necesitamos encontrar un valor de \( k \) tal que \( 25 \equiv 0 \pmod{12} \).
+
+El residuo de 25 al dividirlo por 12 es:
+\[ 25 \equiv 1 \pmod{12} \]
+
+Por lo tanto, necesitamos que:
+\[ 6(6k^2 + 10k) \equiv -1 \pmod{12} \]
+
+Esto es imposible porque \( 6(6k^2 + 10k) \) es siempre divisible por 6 y no puede dar un residuo de -1 módulo 12.
+
+**Respuesta:** E) cap dels anteriors

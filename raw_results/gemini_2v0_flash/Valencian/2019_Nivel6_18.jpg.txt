@@ -1,0 +1,21 @@
+Raonament: L'àrea del triangle és (1/2) * base * altura. En aquest cas, la base del triangle és a + b, i l'altura és b. Llavors, l'àrea és (1/2) * (a+b) * b = (1/2) * (ab + b^2). Però aquesta no és una de les opcions donades.
+
+Un altre enfocament. El triangle gran format per la base, l'altura total fins el punt més alt dels quadrats tindrà una àrea de (1/2)(a+b)(a+b) = (1/2)(a^2 + 2ab + b^2). A aquest triangle hem de restar-li l'àrea d'un triangle de base a i altura a, és a dir (1/2)a^2 i un altre triangle de base b i altura b. En realitat estem restant a la base una àrea equivalent a dos triangles rectangles, de costats (a, a) i (b,b).
+àrea dels quadrats - àrea de l'àrea dels triangles rectangles.
+Si a l'àrea del rectangle gran, formada per (a+b)(a+b) hi restem l'àrea dels dos triangles rectangles format pels catets (a,a) i (b,b) ens dona un altre resultat:
+(a+b)^2 - 1/2 a^2 - 1/2 b^2 = a^2 + b^2 + 2ab - 1/2 a^2 - 1/2 b^2 = 1/2 a^2 + 1/2 b^2 + 2ab
+
+Per a trobar l'àrea del triangle ombrejat, podem calcular l'àrea total del trapezi format per la base, els costats verticals dels quadrats i la línia superior, i restar l'àrea del triangle petit no ombrejat de la part superior.
+L'àrea del trapezi és (1/2) * (a+b) * (a+b). Aquesta àrea es forma amb els triangles (a,a), (b,b) i el nostre.
+L'àrea del trapezi (a,a) i (b,b) és 1/2 (suma de bases)*h=(a+b)/2*(a+b)
+àrea del trapezi: (1/2) (a+b) * (a+b)= (1/2)(a^2+2ab+b^2)
+L'àrea del triangle blanc és 1/2ab
+
+Finalment hem de calcular la suma total de l'àrea dels dos quadrats, menys el triangle (a,a).
+L'àrea del triangle rectangle és : (1/2)(a+b)(b) i restem la del triangle rectangle que no ens interessa: 1/2a^2 =1/2(ab+b^2).
+Si restem aquest valor al triangle (a,a) la resposta és (1/2) b^2
+En realitat estem mirant l'opció E) (1/2)*(a^2+b^2)
+
+Resposta: C)
+Raonament: La base del triangle ombrejat és b. L'altura és b, ja que és un dels quadrats. L'àrea és 1/2 base x altura = 1/2 x b x b = 1/2 b^2
+Resposta: C)

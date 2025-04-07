@@ -1,0 +1,32 @@
+Per resoldre aquesta pregunta, hem de determinar quants nombres enters entre \(2^{10}\) i \(2^{13}\) són divisibles per \(2^{10}\).
+
+**Raonament:**
+1. Primero, calculemos \(2^{10}\) i \(2^{13}\):
+   \[
+   2^{10} = 1024
+   \]
+   \[
+   2^{13} = 8192
+   \]
+
+2. Ara, busquem els nombres enters entre 1024 i 8192 que són divisibles per 1024. Aquests nombres es poden expressar com:
+   \[
+   1024k
+   \]
+   on \(k\) és un nombre enter.
+
+3. Hem de trobar els valors de \(k\) tals que:
+   \[
+   1024 \leq 1024k \leq 8192
+   \]
+
+4. Dividint tota l'inequalitat per 1024, obtenim:
+   \[
+   1 \leq k \leq 8
+   \]
+
+5. Per tant, els valors de \(k\) que satisfan aquesta condició són: 1, 2, 3, 4, 5, 6, 7, 8.
+
+6. Hi ha 8 valors possibles per \(k\).
+
+**Resposta:** D) 8.

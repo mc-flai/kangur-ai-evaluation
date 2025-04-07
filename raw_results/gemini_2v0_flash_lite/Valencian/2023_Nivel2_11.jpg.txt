@@ -1,0 +1,76 @@
+Raonament:
+1.  Comencem amb 45.
+2.  Necessitem arribar a 200.
+3.  Les operacions possibles són: multiplicar per 2, dividir per 3, elevar al quadrat.
+4.  Intentarem trobar el camí més eficient per arribar a 200 a partir de 45.
+5.  Intentem dividir 45 entre 3: 45 / 3 = 15. Això és una jugada.
+6.  Elevem al quadrat 15: 15^2 = 225. Això és una altra jugada (2 jugades en total).
+7.  Dividim entre 3. No funciona.
+8. Multipliquem per 2, no funciona, ens hem de quedar per sota.
+9. Podem probar amb una altra opció, 45 * 2 = 90 (1 jugada).
+10. No podem elevar al quadrat, 45^2 = 2025.
+11. 90 * 2 = 180 (2 jugades)
+12. 180 * 2 = 360.
+13. Dividim entre 3, 45/3 = 15, 15^2=225, 225-25 = 200.
+14. Aquest camí no ens serveix per minimitzar jugades.
+15. 45/3=15
+16. 15*2 = 30
+17. 30^2 = 900
+18. 15*2*2 = 60
+19. 45/3 = 15
+20. 15*2*2*2...
+21. Dividim per 3: 45 / 3 = 15 (1 jugada). Elevar 15^2 = 225 (2 jugades)
+22. Això necessitaria una jugada a prop de 200, per tant 200 / 225.
+23. Si fem 45*2 = 90,  i llavors 90*2 = 180. Necessitaríem un nombre més gran. Si dividim entre 3,
+24. 45 / 3 = 15 (1 jugada). 15 * 2 = 30 (2 jugades). 30^2 = 900, necessitaríem reduir 700...
+25. 45^2, no ens serveix.
+26. Si comencem elevant al quadrat i dividim entre 3, no ens serveix.
+
+Comencem intentant apropar-nos:
+45 / 3 = 15 (1)
+15 * 2 = 30 (2)
+30 * 2 = 60 (3)
+60 * 2 = 120 (4)
+120 * 2 = 240 (5)
+Dividim per 3, no funciona.
+En aquest cas, si estem a 240, dividim entre 3, i no ens dona 200.
+Si tenim 15, 15*2 = 30, 30^2 = 900.
+27. Provant una altra vegada, 45 * 2 = 90 (1)
+28. 90 / 3 = 30 (2)
+29. 30 * 2 = 60 (3)
+30. 60 * x = 200.
+Intentem una altra vegada: 45 * 2 = 90
+90 * 2 = 180
+Necessitem pujar una mica.
+
+31. 45 / 3 = 15 (1)
+15 * 2 = 30 (2)
+30^2 = 900.
+Provar una altra opció.
+45 * 2 = 90 (1)
+90 / 3 = 30 (2)
+No podem obtenir 200.
+
+Tornem al principi, dividir per 3
+45 / 3 = 15 (1)
+15 * 2 = 30 (2)
+30 * 2 = 60 (3)
+60 * 2 = 120 (4)
+120 * 2 = 240
+240 / 3.
+Provant altres combinacions, dividim entre 3, 45/3 = 15 (1 jugada), elevem al quadrat, 15^2 = 225, 225.
+Provant 45 * 2 = 90.
+90 / 3 = 30, 30 al quadrat, no ens serveix.
+
+Un altre intent.
+45 / 3 = 15 (1)
+15^2 = 225. No es la millor eleccio.
+45 * 2 = 90. 90 / 3 = 30. 30*2, 60.
+
+Necessito un altra manera.
+45/3=15, 15*2=30, 30^2 = 900
+45*2=90
+90/3=30. 30 no dona resultat
+Pot ser amb 5 jugades.
+
+Resposta: D)

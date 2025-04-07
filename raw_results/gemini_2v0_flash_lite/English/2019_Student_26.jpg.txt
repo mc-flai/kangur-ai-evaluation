@@ -1,0 +1,15 @@
+Reasoning: We need to find integer values of *n* for which  |n² - 2n - 3| is a prime number. Let's factor the quadratic: n² - 2n - 3 = (n-3)(n+1).  Therefore, we need to analyze |(n-3)(n+1)|.
+
+We can test some integer values for *n*:
+
+*   n = -2: |(-2-3)(-2+1)| = |-5 * -1| = 5 (Prime)
+*   n = -1: |(-1-3)(-1+1)| = | -4 \* 0 | = 0 (Not Prime)
+*   n = 0: |(0-3)(0+1)| = |-3 \* 1| = 3 (Prime)
+*   n = 1: |(1-3)(1+1)| = |-2 \* 2| = 4 (Not Prime)
+*   n = 2: |(2-3)(2+1)| = |-1 \* 3| = 3 (Prime)
+*   n = 3: |(3-3)(3+1)| = |0 \* 4| = 0 (Not Prime)
+*   n = 4: |(4-3)(4+1)| = |1 \* 5| = 5 (Prime)
+
+The integer values of *n* for which the expression yields a prime number are: -2, 0, 2, and 4.
+
+Answer: D)

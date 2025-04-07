@@ -1,0 +1,15 @@
+**Raonament**:
+
+Per resoldre el problema, hem de determinar quantes quadratetes formen un quadrat més gran de manera que totes les quadratetes estan etiquetades amb un "10". Sabem que el quadrat més gran està format per 121 quadratetes, ja que 121 és 11 × 11.
+
+L'etiquetatge segueix un patró:
+- El primer quadrat té un "1".
+- El segon quadrat té quatre "2"s.
+- El tercer quadrat té nou "3"s.
+- Així successivament.
+
+Per tant, el número total de quadratetes en el n-èsim quadrat és n². Per això, l'etiqueta de cada quadrat següent és un número més gran, i el nombre de quadratetes amb aquesta etiqueta és el quadrat del número de l'etiqueta.
+
+Per a l'etiqueta "10", el número de quadratetes amb aquesta etiqueta és 10² = 100.
+
+**Resposta**: D) 25.

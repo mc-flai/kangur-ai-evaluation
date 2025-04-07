@@ -1,0 +1,13 @@
+To determine the largest common divisor of \(2^{2021} + 2^{2022}\) and \(3^{2021} + 3^{2022}\), let's analyze the expressions.
+
+First, factor out the common terms:
+\[ 2^{2021} + 2^{2022} = 2^{2021}(1 + 2) = 2^{2021} \cdot 3 \]
+\[ 3^{2021} + 3^{2022} = 3^{2021}(1 + 3) = 3^{2021} \cdot 4 \]
+
+Next, observe that \(2^{2021}\) and \(3^{2021}\) are powers of 2 and 3, respectively, and thus they are coprime (their greatest common divisor is 1).
+
+Since \(2^{2021} \cdot 3\) and \(3^{2021} \cdot 4\) have no common factors other than 1, the largest common divisor of the sums is 1.
+
+Reasoning: The largest common divisor of \(2^{2021} + 2^{2022}\) and \(3^{2021} + 3^{2022}\) is 1 because the factored forms are coprime.
+
+Answer: B).

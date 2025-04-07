@@ -1,0 +1,18 @@
+Reasoning:
+Let the side length of equilateral triangle ABC be $x$. Then the perimeter of triangle $ABC = 3x$.
+Since the perimeter of all four triangles are the same, the perimeter of triangle $ABC$ is the same as the perimeter of triangles $AEF$, $DFE$ and $CDF$.
+Let $AE = AF = a$ and $EF = b$. Since AEF is isosceles, we have $2a+b=3x$.
+Also triangles AEF, DFE and CDF are congruent, therefore $AE = AF = DF = CF = a$ and $EF = DE = CD = b$.
+Perimeter of pentagon $ABCDE$ is $AB + BC + CD + DE + EA = x + x + b + b + a = 2x + 2b + a$.
+From $2a+b=3x$, we can write $b = 3x-2a$. Substituting this into the pentagon perimeter expression:
+Pentagon Perimeter = $2x + 2(3x-2a) + a = 2x + 6x - 4a + a = 8x - 3a$.
+In triangle AEF, since AF and AE equal a, and since the triangle perimeter is the same as the perimeter of ABC, we have AF + AE + EF = AB + BC + CA, so 2a + EF = 3x.
+Since AEF is congruent to CDF, then FD = a, and DC = EF = b.
+The perimeter of CDF = CD + DF + CF = b + a + a = b + 2a.
+Also the perimeter of DFE = DF + FE + ED = a + b + b = a + 2b.
+Since all perimeters are same and equal to 3x, we have 2a + b = a + 2b, which gives a = b.
+Substituting a = b into 2a + b = 3x, we have 3a = 3x, thus a = x.
+Perimeter of pentagon $ABCDE = 2x + 2b + a = 2x + 2x + x = 5x$.
+So the ratio of the perimeter of the pentagon to the perimeter of the triangle $ABC$ is $\frac{5x}{3x} = \frac{5}{3}$.
+
+Answer: D)

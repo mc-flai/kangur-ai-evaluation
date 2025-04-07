@@ -1,0 +1,32 @@
+Pour résoudre cette question, nous devons déterminer combien d'élèves sont dans la classe en tenant compte des deux conditions mentionnées.
+
+### Raisonnement :
+
+1. Nous avons deux conditions à remplir :
+   - Il n'y a pas deux garçons nés le même jour de la semaine.
+   - Il n'y a pas deux filles nées le même mois de l'année.
+
+2. Pour qu'une de ces conditions ne soit plus vraie, il faut qu'un ou une élève supplémentaire arrive pour qu'une de ces conditions ne soit plus respectée.
+
+3. Commençons par la condition des garçons :
+   - Les jours de la semaine sont au nombre de 7.
+   - Si chaque jour de la semaine a un garçon unique, cela fait 7 garçons.
+   - Si un 8ème garçon arrive, il devra partager un jour de la semaine avec un autre garçon, ce qui violerait la première condition.
+
+4. Maintenant, considérons la condition des filles :
+   - Les mois de l'année sont au nombre de 12.
+   - Si chaque mois a une fille unique, cela fait 12 filles.
+   - Si une 13ème fille arrive, elle devra partager un mois avec une autre fille, ce qui violerait la deuxième condition.
+
+5. Actuellement, la classe doit avoir un nombre d'élèves tel que les deux conditions soient respectées.
+   - Le nombre maximal de garçons est 7.
+   - Le nombre maximal de filles est 12.
+   - Donc, le nombre total d'élèves est 7 garçons + 12 filles = 19 élèves.
+
+6. Un élève supplémentaire (quel que soit son genre) rendra une des conditions non vraie.
+   - Si un garçon supplémentaire arrive, il y aura 8 garçons, donc deux garçons nés le même jour de la semaine.
+   - Si une fille supplémentaire arrive, il y aura 13 filles, donc deux filles nées le même mois.
+
+Conclusion : La classe a 19 élèves.
+
+### Réponse : B) 19

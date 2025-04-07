@@ -1,0 +1,15 @@
+Per resoldre el problema, hem de calcular el valor de l'expressió \( A = (2017-1)(2016-2)(2015-3)\cdots(3-2015)(2-2016)(1-2017) \).
+
+**Raonament**:
+
+1. Observa que cada terme de l'expressió és de la forma \( (x - y) \), on \( x \) i \( y \) són nombres naturals.
+2. Nota que cada terme \( (x - y) \) és un número negatiu, ja que \( x \) és menor que \( y \).
+3. Això significa que cada terme de l'expressió és un nombre negatiu.
+4. El producte de dos nombres negatius és positiu, i el producte de un nombre positiu amb un nombre negatiu és negatiu.
+5. Com que hi ha un nombre parell de termes (2017 termes en total), el producte final serà positiu.
+6. Ara, considera els valors absoluts dels termes. Cada terme és de la forma \( (x - y) \), on \( x \) i \( y \) són nombres grans, resultant en valors grans.
+7. El producte de nombres grans donarà un nombre molt gran, però com que tots els termes són negatius, el producte final serà un nombre gran positiu.
+8. Observa que \( 1009! \) és un nombre molt gran, i \( 2^{1009} \) també és un nombre molt gran.
+9. Per tant, el producte final serà un nombre gran positiu, però no serà exactament \( 1009! \cdot 2^{1009} \) ni \( -(1009!)^2 \).
+
+**Resposta**: A) A = 1.

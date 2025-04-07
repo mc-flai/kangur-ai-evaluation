@@ -1,0 +1,12 @@
+Raonament:
+Un cub gros de dimensió *n* x *n* x *n* està compost de *n*<sup>3</sup> cubs petits.
+- Els cubs menuts amb una sola cara pintada es troben al centre de cada cara del cub gros. Hi ha 6 cares, i cada cara té (n-2)<sup>2</sup> cubs amb una sola cara pintada. Així que el nombre de cubs amb una sola cara pintada és 6(n-2)<sup>2</sup>.
+- Els cubs menuts sense cap cara pintada formen un cub interior de dimensió (n-2) x (n-2) x (n-2). Així que hi ha (n-2)<sup>3</sup> cubs sense cap cara pintada.
+
+Segons l'enunciat, el nombre de cubs amb una sola cara pintada és igual al nombre de cubs sense cap cara pintada. Per tant, tenim l'equació:
+6(n-2)<sup>2</sup> = (n-2)<sup>3</sup>
+Dividim ambdós costats per (n-2)<sup>2</sup> (considerant que n>2):
+6 = n - 2
+n = 8
+
+Resposta: D)

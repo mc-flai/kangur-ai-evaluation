@@ -1,0 +1,22 @@
+To determine the biggest number that can be written on the topmost cube, we need to calculate the values for each cube based on the given rules.
+
+The pyramid consists of multiple layers, with the bottom layer containing 9 cubes, the second layer containing 4 cubes, the third layer containing 1 cube.
+
+1. **Bottom Layer Calculation:**
+   - The sum of the numbers on the bottom layer (9 cubes) is given as 50.
+
+2. **Second Layer Calculation:**
+   - Each cube in the second layer (4 cubes) is the sum of the numbers of the four cubes directly underneath it.
+   - Since the sum of the bottom 9 cubes is 50, each cube in the second layer should be the sum of 4 of these cubes.
+   - Given that the sum of 9 cubes is 50, the total sum of the 4 cubes closest to any middle cube in the second layer would be a part of that 50.
+   - Thus, the value for each cube in the second layer would be 50 (sum of 9 cubes) divided by 2 (since each cube in the second layer covers 4 cubes from the bottom layer and there are 2 such cubes in the bottom layer contributing to each second layer cube).
+   - Therefore, each cube in the second layer = 50 / 2 = 25.
+
+3. **Topmost Cube Calculation:**
+   - The value on the topmost cube is the sum of the four cubes directly underneath it in the second layer.
+   - Since each cube in the second layer has a value of 25, the topmost cube would be the sum of four such cubes.
+   - Therefore, the value on the topmost cube = 25 * 4 = 100.
+
+**Reasoning:** The values in the second layer are derived from the sum of the bottom layer, and the topmost cube is the sum of the second layer cubes. The value on the topmost cube is 100.
+
+**Answer:** D)

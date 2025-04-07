@@ -1,0 +1,24 @@
+Pour répondre à cette question, nous devons identifier combien de nombres entiers compris entre \(2^{10}\) et \(2^{13}\) (inclus) sont divisibles par \(2^{10}\).
+
+**Raisonnement** :
+
+1. Calcul des bornes :
+   - \(2^{10} = 1024\)
+   - \(2^{13} = 8192\)
+
+2. Les nombres qui sont divisibles par \(2^{10}\) doivent être de la forme \(k \times 2^{10}\), où \(k\) est un entier.
+
+3. Pour que ces nombres soient compris entre 1024 et 8192, nous devons trouver les valeurs de \(k\) telles que :
+   \[
+   1024 \leq k \times 1024 \leq 8192
+   \]
+   Ce qui simplifie en :
+   \[
+   1 \leq k \leq 8
+   \]
+
+4. Les valeurs possibles de \(k\) sont donc 1, 2, 3, 4, 5, 6, 7, et 8.
+
+5. Il y a donc 8 valeurs possibles pour \(k\), ce qui signifie qu'il y a 8 nombres entiers compris entre 1024 et 8192 qui sont divisibles par 1024.
+
+**Réponse** : D)

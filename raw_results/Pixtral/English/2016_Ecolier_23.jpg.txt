@@ -1,0 +1,16 @@
+### Reasoning:
+Leo starts with a stick of 27 building blocks. He splits the stick into two pieces such that one piece is twice as long as the other. This means the lengths of the pieces after the first split are 1 and 2 blocks, respectively.
+
+In the next step, he takes the longer piece (2 blocks) and splits it again into two pieces where one is twice the length of the other. This results in pieces of 1 and 2 blocks.
+
+This process continues, where each time a piece is split, one of the resulting pieces is half the length of the other. This means the lengths of the pieces will always be in the form of 2^n and 2^(n-1), where n is the number of splits.
+
+Let's analyze the given options:
+- (A) 2 blocks: This is possible after the first split.
+- (B) 4 blocks: This is possible after the second split.
+- (C) 6 blocks: This is not a power of 2, so it cannot be achieved by this method.
+- (D) 8 blocks: This is possible after the third split.
+- (E) 10 blocks: This is not a power of 2, so it cannot be achieved by this method.
+
+### Answer:
+C), E)

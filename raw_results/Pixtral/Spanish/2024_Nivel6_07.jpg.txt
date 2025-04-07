@@ -1,0 +1,25 @@
+La pregunta 7 solicita determinar el menor número de colores necesarios para colorear los cuadrados y triángulos en la figura de modo que no haya dos polígonos vecinos que compartan el mismo color, incluyendo los cuadrados que comparten un solo vértice, que se ven del mismo color.
+
+Para resolver esto, consideremos los requisitos y la disposición de la figura:
+
+1. **Identificación de Polígonos Vecinos**: En la figura, cada cuadrado comparte al menos un lado con otro cuadrado, y cada triángulo comparte un vértice con otro polígono.
+
+2. **Condición de Colores**: Debemos asegurarnos de que no haya dos polígonos vecinos que compartan el mismo color. Esto significa que cada polígono debe tener un color diferente de sus polígonos vecinos.
+
+3. **Análisis de Colores**:
+   - Si usamos 3 colores, algunos polígonos vecinos tendrán que compartir el mismo color, lo que no cumple con el requisito.
+   - Si usamos 4 colores, podemos asignar los colores de manera que cada polígono vecino tenga un color diferente.
+
+4. **Verificación**:
+   - Asignemos los colores de la siguiente manera:
+     - Color 1: Polígonos en la fila superior.
+     - Color 2: Polígonos en la fila del medio.
+     - Color 3: Polígonos en la fila inferior.
+     - Color 4: Polígonos en la esquina inferior izquierda y superior derecha.
+   - Verificamos que cada polígono vecino tenga un color diferente.
+
+Por lo tanto, el menor número de colores necesarios es 4.
+
+Razonamiento: Al analizar la disposición y las condiciones de coloración, determinamos que 4 colores son suficientes y necesarios para cumplir con el requisito de que no haya dos polígonos vecinos que compartan el mismo color.
+
+Respuesta: C

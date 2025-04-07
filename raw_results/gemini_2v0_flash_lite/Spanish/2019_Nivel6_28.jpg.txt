@@ -1,0 +1,27 @@
+Razonamiento:
+Para que un número sea la media aritmética de los otros dos, la suma de los tres números debe ser divisible por 3. En el conjunto {1, 2, 3, ..., 10}, podemos analizar los posibles casos.
+
+1.  **Total de posibles combinaciones:** Hay 10 números y se eligen 3, por lo tanto, el número total de combinaciones es (10 * 9 * 8) / (3 * 2 * 1) = 120
+
+2.  **Casos favorables:** Los casos en que la suma es divisible por 3:
+    *   Si un número es 1, el otro debe ser 2, 5, 8.
+    *   Si un número es 2, el otro debe ser 1, 4, 7, 10.
+    *   Si un número es 3, el otro debe ser 3, 6, 9.
+    *   Si un número es 4, el otro debe ser 2, 5, 8.
+    *   Si un número es 5, el otro debe ser 1, 4, 7, 10.
+    *   Si un número es 6, el otro debe ser 3, 6, 9.
+    *   Si un número es 7, el otro debe ser 2, 5, 8.
+    *   Si un número es 8, el otro debe ser 1, 4, 7, 10.
+    *   Si un número es 9, el otro debe ser 3, 6, 9.
+    *   Si un número es 10, el otro debe ser 2, 5, 8.
+    *   Los números que suman múltiplos de 3: (1, 2, 3), (1, 2, 6), etc.
+    *   Una forma eficiente es agrupar por el resto al dividir por 3:
+        *   Resto 0: {3, 6, 9}
+        *   Resto 1: {1, 4, 7, 10}
+        *   Resto 2: {2, 5, 8}
+    *   Combinaciones de tres números con la misma congruencia módulo 3: 3C3 + 4C3 + 3C3 = 1 + 4 + 1 = 6
+    *   Combinaciones de tres números con diferentes congruencias: 4 * 3 * 3 = 36
+    *   Combinaciones totales: 6+36 = 42
+3.  **Cálculo de la probabilidad:** Probabilidad = (Casos favorables) / (Casos totales) = 30 / 120 = 1/4
+
+Respuesta: C)

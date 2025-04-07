@@ -1,0 +1,21 @@
+
+La pregunta solicita determinar cuántos cubos de 1x1x1 se necesitan para formar un cubo de 3x3x3, eliminando los cubos de las esquinas centrales (el rincón que va del frente al fondo, el que va de la esquina a la derecha y el que va de la parte superior a la parte inferior).
+
+Para resolver esto, primero calculamos el número total de cubos en un cubo de 3x3x3:
+- Un cubo de 3x3x3 tiene 3 capas.
+- Cada capa es una cuadrícula de 3x3, lo que da un total de 9 cubos por capa.
+- Por lo tanto, el cubo de 3x3x3 tiene 3 * 9 = 27 cubos.
+
+Luego, eliminamos los cubos de las esquinas centrales:
+- Hay 3 esquinas centrales en total (una en cada capa).
+- Cada esquina central contiene 1 cubo.
+- Por lo tanto, eliminamos 3 cubos.
+
+Finalmente, calculamos el número de cubos restantes:
+- 27 cubos totales - 3 cubos eliminados = 24 cubos restantes.
+
+Sin embargo, la pregunta especifica que queremos el número de cubos de 1x1x1 que se necesitan para formar el cubo grande, no el número de cubos restantes después de eliminar las esquinas centrales. Por lo tanto, el número correcto de cubos de 1x1x1 necesarios para formar el cubo grande es 27.
+
+**Razonamiento:** Calculamos el número total de cubos en un cubo de 3x3x3, eliminamos los cubos de las esquinas centrales y luego determinamos el número de cubos de 1x1x1 necesarios para formar el cubo grande.
+
+**Respuesta:** E)

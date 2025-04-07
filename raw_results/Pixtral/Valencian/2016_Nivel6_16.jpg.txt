@@ -1,0 +1,18 @@
+**Pregunta:** Jo trie un nombre enter entre 1 i 15 (ambdós compresos). Tu has de pensar un conjunt de nombres i preguntar-me si el meu nombre pertany a aquest conjunt o no. Jo semble et contestaré la veritat («si» o «no»). Quin és el mínim nombre de preguntes amb què pots estar segur que podràs deduir quin és el meu nombre?
+
+**Opcions:**
+A) 1
+B) 2
+C) 3
+D) 4
+E) 14
+
+**Raonament:**
+1. Per determinar el mínim nombre de preguntes necessàries per assegurar que es pugui deduir el meu nombre entre 1 i 15, podem utilitzar el principi de la informació mínima.
+2. Hi ha 15 nombres possibles (del 1 al 15).
+3. Cada pregunta que responi «si» o «no» elimina la meitat dels nombres possibles.
+4. Per reduir 15 nombres a 1, caldrà un nombre mínim de preguntes que sigui un logaritme en base 2 de 15.
+5. Calculem el logaritme: log₂(15) ≈ 3.91.
+6. Com que no podem fer una fracció de preguntes, arrodonim a l'arriba, el que ens dona 4 preguntes.
+
+**Resposta:** D)

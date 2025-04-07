@@ -1,0 +1,13 @@
+Raonament:
+1. **Identificar les formes**: El quadrilàter gris (MBND) es pot dividir en un rectangle (AMND) i un triangle (MBN).
+2. **Calcular l'àrea del rectangle**: L'àrea d'un rectangle és base * altura. En aquest cas, la base és AM = AB - MB = (DA + MB) = 4 i l'altura és AD = 4. Per tant, l'àrea del rectangle és (4 + 6) * 4 = 10 * 4 = 40, el que no es correcte. L'àrea d'AMND es calcula com a AM * AD. AM = AB - MB = (AD + MB) - MB = 4. Per tant, l'àrea d'AMND = 4 * 4 = 16. El quadrilàter ABCD es pot dividir en un triangle ADN, un rectangle AMCD, i un triangle MBC. L'area del triangle ADN = 1/2 * AD * ND = 1/2 * 4 * 2 = 4. L'àrea del triangle MBC = 1/2 * MB * BC = 1/2 * 6 * 8 = 24. L'àrea del rectangle AMCD = AM * AD, on AM = AB - MB = 10 - 6 = 4. L'àrea del rectangle AMCD = 4 * 4 = 16.
+3. **Càlcul del àrea del triangle**: MB = 6 cm, BC = 8 cm. L'àrea del triangle MBC = (1/2) * MB * BC = (1/2) * 6 * 8 = 24 cm².
+4. **Calcular l'àrea del quadrilàter**:
+   - Podem restar l'àrea del triangle ADN de l'àrea total del triangle MBC.
+    - L'àrea del triangle ADN és (1/2) * AD * ND = (1/2) * 4 * 2 = 4 cm².
+    - L'àrea del quadrilàter MBND és l'àrea total de l'ABCD menys l'àrea del triangle ADN i l'àrea del triangle MBC = àrea rectangle AMCD + area triangle MBC = 16 + 24 = 40 cm².
+    - O directament: àrea MBND = area rectangle AMCD + area MBC - area ADN = 4 * 4 + (6*8)/2 - (4*2)/2 = 16 + 24 - 4 = 36.
+    - L'àrea del quadrilàter MBND = àrea del triangle MBC + area del quadrilàter AMND - area ADN = 24 + (6+4)*4 /2 - 4 = 24 + 20 - 4 = 40
+    - Àrea MBND = Àrea MBC + Àrea del triangle ADN + AM x AD = 24 + 4+ (6+4)/2 *4 = 24 + 4 + 20 = 48 - 4 = 36 cm^2
+
+Resposta: E)

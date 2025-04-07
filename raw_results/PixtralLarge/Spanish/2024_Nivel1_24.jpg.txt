@@ -1,0 +1,23 @@
+Para determinar el número máximo de monedas que podemos colocar en las celdas del rectángulo de 4x5, donde cada moneda está centrada en una celda y no deben haber cuatro monedas que formen un rectángulo, sigamos estos pasos:
+
+1. **Calcular el número total de celdas**:
+   El rectángulo de 4x5 tiene un total de 20 celdas.
+
+2. **Condiciones para colocar las monedas**:
+   - Cada moneda debe estar centrada en una celda.
+   - No deben haber cuatro monedas que formen un rectángulo.
+
+3. **Estrategia de colocación**:
+   - Para evitar que cuatro monedas formen un rectángulo, podemos colocar una moneda en una celda de tal manera que impida la formación de un rectángulo de 2x2 en cualquier parte del rectángulo.
+   - Una forma efectiva es colocar las monedas en una disposición que maximice el número de monedas sin formar rectángulos.
+
+4. **Colocación óptima**:
+   - Podemos colocar una moneda en cada fila y columna de manera que no haya dos monedas en la misma fila y columna. Esto se puede hacer colocando una moneda en cada fila en una posición diferente.
+   - Por ejemplo, si colocamos una moneda en la primera celda de la primera fila, la segunda celda de la segunda fila, la tercera celda de la tercera fila, y así sucesivamente, evitamos la formación de rectángulos.
+
+5. **Verificación**:
+   - Al colocar una moneda en cada fila y columna de manera que no haya dos monedas en la misma fila y columna, podemos colocar un total de 10 monedas sin formar rectángulos.
+
+Razonamiento: Al colocar una moneda en cada fila y columna de manera que no haya dos monedas en la misma fila y columna, podemos colocar un total de 10 monedas sin formar rectángulos.
+
+Respuesta: C) 10

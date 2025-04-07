@@ -1,0 +1,13 @@
+Raisonnement :
+Le problème demande le nombre de chiffres de N, où N est le nombre de chiffres de 2022^2022.
+2022^2022 est un nombre très grand. Pour trouver le nombre de chiffres de N, on peut estimer le nombre de chiffres de 2022^2022 en utilisant des logarithmes base 10.
+Le nombre de chiffres de 2022^2022 est égal à floor(log10(2022^2022)) + 1.
+log10(2022^2022) = 2022 * log10(2022).
+log10(2022) est proche de log10(2000), qui est log10(2) + log10(1000) = log10(2) + 3.
+log10(2) est proche de 0.3, donc log10(2022) est environ 3.3.
+Donc, 2022 * log10(2022) est environ 2022 * 3.3, soit environ 6672.6.
+Le nombre de chiffres de 2022^2022 est donc environ 6673.
+N = 6673.
+N a 4 chiffres.
+
+Réponse : A)

@@ -1,0 +1,9 @@
+Raonament: Hem de trobar l'última xifra no nul·la de $2^{57} \cdot 3^4 \cdot 5^{53} \cdot 4$.
+Primer, reescrivim l'expressió com $2^{57} \cdot 3^4 \cdot 5^{53} \cdot 2^2 = 2^{59} \cdot 3^4 \cdot 5^{53} = 2^6 \cdot (2^{53} \cdot 5^{53}) \cdot 3^4 = 2^6 \cdot 10^{53} \cdot 3^4 = 2^6 \cdot 3^4 \cdot 10^{53}$.
+Com que volem l'última xifra no nul·la, podem ignorar el factor $10^{53}$. Així, necessitem trobar l'última xifra de $2^6 \cdot 3^4$.
+$2^6 = 64$ i $3^4 = 81$.
+Per tant, $2^6 \cdot 3^4 = 64 \cdot 81$.
+L'última xifra de $64 \cdot 81$ és la mateixa que l'última xifra de $4 \cdot 1 = 4$.
+Per tant, l'última xifra no nul·la del nombre és 4.
+
+Resposta: C)

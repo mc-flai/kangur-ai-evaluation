@@ -1,0 +1,19 @@
+Per resoldre la pregunta, necessitem comptar els troncs d'arbre a la pila de la dreta i comparar-los amb la pila de l'esquerra.
+
+**Raonament:**
+1. Comptem els troncs d'arbre a la pila de l'esquerra:
+   - Fila inferior: 3 troncs
+   - Fila mitjana: 2 troncs
+   - Fila superior: 1 tronc
+   - Total: 3 + 2 + 1 = 6 troncs
+
+2. Comptem els troncs d'arbre a la pila de la dreta:
+   - Fila inferior: 4 troncs
+   - Fila mitjana: 3 troncs
+   - Fila superior: 2 troncs
+   - Total: 4 + 3 + 2 = 9 troncs
+
+3. Comparem els troncs de la pila de la dreta amb els de l'esquerra:
+   - Diferència: 9 - 6 = 3 troncs
+
+**Resposta: A)**

@@ -1,0 +1,32 @@
+**Razonamiento:**
+1. Primero, evaluamos la expresión dentro de los paréntesis más internos:
+   \[
+   (2017 - 1) = 2016
+   \]
+2. Luego, evaluamos el siguiente par de paréntesis:
+   \[
+   (2016 - 2) = 2014
+   \]
+3. Continuamos evaluando el siguiente par de paréntesis:
+   \[
+   (2015 - 3) = 2012
+   \]
+4. Evaluamos el siguiente par de paréntesis:
+   \[
+   (3 - 2015) = -2012
+   \]
+5. Evaluamos el siguiente par de paréntesis:
+   \[
+   (2 - 2016) = -2014
+   \]
+6. Evaluamos el par de paréntesis más externo:
+   \[
+   (1 - 2017) = -2016
+   \]
+7. Finalmente, multiplicamos todos estos resultados:
+   \[
+   A = 2016 \times 2014 \times 2012 \times (-2012) \times (-2014) \times (-2016)
+   \]
+8. Observamos que hay muchos factores negativos, lo que significa que el producto total será negativo.
+
+**Respuesta:** E) \( A = - (1009!)^2 \)

@@ -1,0 +1,45 @@
+**Razonamiento**:
+Para determinar en qué mes se dará una fecha sorprendente por primera vez con al menos 8 dígitos diferentes, analizaremos las fechas en formato DD.MM.YYYY y verificaremos cuándo se alcanzarán los 8 dígitos diferentes.
+
+Las fechas se escriben en formato DD.MM.YYYY, es decir:
+- Dos dígitos para el día (DD)
+- Dos dígitos para el mes (MM)
+- Cuatro dígitos para el año (YYYY)
+
+Listado de dígitos disponibles en el año 2016:
+- 2, 0, 1, 6
+
+Necesitamos dígitos adicionales de los días y los meses para llegar a 8 dígitos diferentes.
+
+Dígitos ya disponibles: 2, 0, 1, 6 (total: 4 dígitos)
+
+Faltan 4 dígitos más para alcanzar los 8 diferentes. Los meses van de 01 a 12, por lo que los dígitos de los meses son 0 y 1 (ya contados). Los dígitos de los días van de 01 a 31, añadiendo los dígitos 3, 4, 5, 7, 8 y 9.
+
+Ahora, observamos los dígitos faltantes:
+- 3, 4, 5, 7, 8, 9
+
+Necesitamos encontrar la primera combinación de día y mes que incluya estos dígitos adicionales.
+
+Para Marzo (03.03.2016):
+- Dígitos: 0, 3, 0, 3, 2, 0, 1, 6
+- Dígitos diferentes: 0, 1, 2, 3, 6 (solo 5 dígitos diferentes)
+
+Para Junio (06.06.2016):
+- Dígitos: 0, 6, 0, 6, 2, 0, 1, 6
+- Dígitos diferentes: 0, 1, 2, 6 (solo 4 dígitos diferentes)
+
+Para Julio (07.07.2016):
+- Dígitos: 0, 7, 0, 7, 2, 0, 1, 6
+- Dígitos diferentes: 0, 1, 2, 6, 7 (solo 5 dígitos diferentes)
+
+Para Agosto (08.08.2016):
+- Dígitos: 0, 8, 0, 8, 2, 0, 1, 6
+- Dígitos diferentes: 0, 1, 2, 6, 8 (solo 5 dígitos diferentes)
+
+Para Diciembre (05.12.2016):
+- Dígitos: 0, 5, 1, 2, 2, 0, 1, 6
+- Dígitos diferentes: 0, 1, 2, 5, 6 (solo 5 dígitos diferentes)
+
+Revisando las fechas, la primera fecha que contiene 8 dígitos diferentes es el 17.03.2016.
+
+**Respuesta**: E) Diciembre

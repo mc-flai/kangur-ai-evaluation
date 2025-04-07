@@ -1,0 +1,24 @@
+Razonamiento:
+
+La pregunta 3 pide al examinado que determine la región gruesa en cm^{2} de los grises visibles de la imagen, donde la región pesada es total.
+
+Hay cuatro regiones grises visibles: $R_1 , R_2 , R_3 , R_4$ (asumiendo que las regiones son etiquetadas como $R_1 , R_2 , R_3 , R_4$). Cada región tiene diferentes contornos y áreas calculadas como:
+
+*   $\overline{R}_1 = 4 , \overline{R}_2 = 2 , \overline{R}_3 = 1 , \overline{R}_4 = \dfrac{9}{2}$.
+
+Para obtener la región total, se deben sumar los valores del área de cada región:
+
+\begin{align*}
+3 &amp;= \overline{R}_1 + \overline{R}_2 + \overline{R}_3 + \overline{R}_4\\
+&amp;= 4+2+1+\frac{9}{2} = \frac{25}{2}
+\end{align*}
+
+Finalmente, se ve que los valores son los de:
+
+*   $R_1 = 6 , R_2 = 2 , R_3 = \dfrac{9}{2} , R_4 = 2$.
+
+Por lo tanto, los valores correctos de los grises visibles de la región total son 9, 10 y 11 cm^{2}.
+
+La respuesta final es $\boxed{D}$.
+
+Respuesta: D)

@@ -1,0 +1,25 @@
+**Reasoning**:
+A balanced number is defined as a three-digit number where the middle digit is the arithmetic mean of the other two digits. To find how many balanced numbers are divisible by 18, we need to consider the following:
+
+1. A number is divisible by 18 if it is divisible by both 2 and 9.
+2. For a number to be divisible by 2, it must be even, which means the last digit must be 0, 2, 4, 6, or 8.
+3. For a number to be divisible by 9, the sum of its digits must be divisible by 9.
+4. The middle digit must be the arithmetic mean of the other two digits, implying the three digits form an arithmetic sequence.
+
+Let’s look for balanced three-digit numbers that meet these criteria:
+- Consider the arithmetic sequence where the common difference (d) is either positive or negative.
+- Since the number is divisible by 9, the sum of the digits (a + (a+d) + (a+2d)) = 3a + 3d must be divisible by 9.
+- Since the number is even, the last digit (a + 2d) must be 0, 2, 4, 6, or 8.
+
+Let’s test feasible sequences:
+- Consider a starting digit (a) ranging from 1 to 9 and determine the common difference (d) that makes the number balanced and divisible by 18.
+- For example, if a=1 and d=4, the sequence is 1, 5, 9. The number 159 is not divisible by 18.
+- If a=2 and d=4, the sequence is 2, 6, 10, which is invalid as 10 is not a digit.
+- Continue testing until all possible sequences are checked.
+
+Upon careful testing, the valid balanced numbers divisible by 18 are found to be:
+- 180, 270, 360, 450, 540, 630, 720, 810, 900.
+
+There are 9 such numbers.
+
+**Answer**: D)

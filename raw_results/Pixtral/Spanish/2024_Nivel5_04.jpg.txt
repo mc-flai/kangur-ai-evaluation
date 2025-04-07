@@ -1,0 +1,25 @@
+
+La pregunta 4 describe un juego de saltos que representa un patrón específico de pasos. El patrón es: un paso hacia adelante, luego entre el pie izquierdo, luego ambos pies, el pie derecho, ambos pies, el pie izquierdo, ambos pies, y así sucesivamente. María realiza este patrón durante 48 pasos, comenzando con el pie izquierdo.
+
+Para determinar cuántos pasos ha dado María cuando termina su pie izquierdo, debemos analizar el patrón:
+- Paso 1: Pie derecho
+- Paso 2: Entre el pie izquierdo
+- Paso 3: Ambos pies
+- Paso 4: Pie derecho
+- Paso 5: Ambos pies
+- Paso 6: Pie izquierdo
+- Paso 7: Ambos pies
+
+El patrón se repite cada 6 pasos. Para encontrar el número de pasos en el pie izquierdo, contamos los pasos en el patrón:
+- Paso 2: Entre el pie izquierdo
+- Paso 6: Pie izquierdo
+- Paso 7: Ambos pies (este es el primer paso del siguiente ciclo)
+
+Cada ciclo de 6 pasos tiene un paso en el pie izquierdo. Para encontrar el número de ciclos en 48 pasos, dividimos 48 por 6:
+48 / 6 = 8 ciclos
+
+Cada ciclo tiene 1 paso en el pie izquierdo, por lo que 8 ciclos significan 8 pasos en el pie izquierdo.
+
+Razonamiento: El patrón se repite cada 6 pasos, y cada ciclo incluye un paso en el pie izquierdo. Dividiendo 48 pasos por 6, obtenemos 8 ciclos, lo que significa que María ha dado 8 pasos en el pie izquierdo.
+
+Respuesta: D)

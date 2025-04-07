@@ -1,0 +1,76 @@
+**Razonamiento:**
+
+Para encontrar la expresión de la función \( f \), necesitamos resolver el sistema de ecuaciones dado:
+
+\[
+\begin{cases}
+f(x) + 2g(1-x) = x^2 \\
+f(1-x) - g(x) = x^2
+\end{cases}
+\]
+
+Primero, despejamos \( g(x) \) de la segunda ecuación:
+
+\[
+f(1-x) - g(x) = x^2 \implies g(x) = f(1-x) - x^2
+\]
+
+Ahora, sustituimos \( g(x) \) en la primera ecuación:
+
+\[
+f(x) + 2(f(1-(1-x)) - (1-x)^2) = x^2
+\]
+
+Simplificamos \( f(1-(1-x)) \):
+
+\[
+f(1-(1-x)) = f(x)
+\]
+
+Sustituimos:
+
+\[
+f(x) + 2(f(x) - (1-x)^2) = x^2
+\]
+
+Simplificamos \( (1-x)^2 \):
+
+\[
+(1-x)^2 = 1 - 2x + x^2
+\]
+
+Sustituimos:
+
+\[
+f(x) + 2(f(x) - (1 - 2x + x^2)) = x^2
+\]
+
+Simplificamos:
+
+\[
+f(x) + 2f(x) - 2(1 - 2x + x^2) = x^2
+\]
+
+\[
+3f(x) - 2 + 4x - 2x^2 = x^2
+\]
+
+\[
+3f(x) - 2x^2 + 4x - 2 = x^2
+\]
+
+\[
+3f(x) = 3x^2 - 4x + 2
+\]
+
+\[
+f(x) = x^2 - \frac{4}{3}x + \frac{2}{3}
+\]
+
+Por lo tanto, la expresión correcta de la función \( f \) es:
+
+\[
+f(x) = x^2 - \frac{4}{3}x + \frac{2}{3}
+\]
+
+**Respuesta:** C) \(-x^2 - \frac{4}{3}x + \frac{2}{3}\)

@@ -1,0 +1,12 @@
+Raonament:
+1. **Descompondre 1024 en factors primers:**  1024 = 2^10.
+2. **Trobar els divisors:** Els divisors de 1024 són 2^0, 2^1, 2^2, ..., 2^10.
+3. **Calcular *a* (suma dels divisors):**  a = 1 + 2 + 4 + 8 + ... + 1024. Aquesta és una sèrie geomètrica. La fórmula per a la suma d'una sèrie geomètrica és: S = a1 * (1 - r^n) / (1 - r), on a1 és el primer terme, r és la raó, i n és el nombre de termes. En aquest cas, a1 = 1, r = 2, i n = 11. Llavors, a = 1 * (1 - 2^11) / (1 - 2) = (1 - 2048) / (-1) = 2047.
+4. **Calcular *b* (producte dels divisors):** Els divisors de 1024 són: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. El producte *b* és 1 * 2 * 4 * 8 * ... * 1024. També podem calcular-lo com: 1024 ^ (nombre de divisors / 2) = 1024^(11/2) = (2^10)^ (11/2) = 2^55. També podem utilitzar la fórmula general: b = n^(d/2) on n és el nombre, i d és el nombre de divisors, llavors, b = 1024^(11/2), en realitat b = sqrt(1024)^11, també pot ser expressat com a:  b = 2^55.
+5. **Relacionar *a* i *b*:**  Tenim que a = 2047 i b = 2^55. Intentem relacionar-los amb les opcions:
+   * Si provem l'opció C), a^5 = 2047^5, aquest número seria enorme i mai podria ser igual a b = 2^55.
+   * Per l'opció D), a^5 - 1 = 2047^5 -1 i tampoc no seria mai igual a b.
+   * Notem que 2047 = 2^11 -1 = a, b = 2^55 = (2^11)^5 = (a+1)^5 , llavors, a+1 = 2048, i (a+1)^5 = (2048)^5
+   * En revisar les opcions, cap d'elles sembla encaixar perfectament amb la relació calculada. Podem analitzar la relació entre a = 2^11 -1 i b = 2^55 per trobar la correcta. 2^55 = (2^11)^5 = (a+1)^5 = b.
+
+Resposta: B)

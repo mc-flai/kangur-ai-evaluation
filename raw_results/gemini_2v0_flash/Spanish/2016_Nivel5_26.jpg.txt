@@ -1,0 +1,14 @@
+Razonamiento: Sea A el área del triángulo, y a, b, c las longitudes de los lados correspondientes a las alturas h_a = 10, h_b = 11, h_c. Entonces A = (1/2) a * h_a = (1/2) b * h_b = (1/2) c * h_c.  De esto se deduce que 10a = 11b = h_c * c, y a = A/5, b = A/(11/2), c = A/(h_c/2) = 2A/h_c.  Como las longitudes de los lados de un triángulo deben satisfacer la desigualdad triangular, a < b + c, b < a + c, c < a + b.
+a = A/5, b = 2A/11, c = 2A/h_c, tenemos que A/5 < 2A/11 + 2A/h_c, 2A/11 < A/5 + 2A/h_c, y 2A/h_c < A/5 + 2A/11.
+Eliminando A, tenemos 1/5 < 2/11 + 2/h_c, 2/11 < 1/5 + 2/h_c, y 2/h_c < 1/5 + 2/11.
+La última desigualdad implica 2/h_c < 11/55 + 10/55 = 21/55, o h_c > 2(55)/21 = 110/21 ≈ 5.238. Así que h_c > 5.238
+La primera desigualdad implica 1/5 - 2/11 < 2/h_c, (11-10)/55 < 2/h_c, 1/55 < 2/h_c, h_c < 110.
+La segunda desigualdad implica 2/11 - 1/5 < 2/h_c, (10-11)/55 < 2/h_c, -1/55 < 2/h_c, lo cual es siempre cierto.
+
+De esto deducimos que 5.238 < h_c < 110. La única opción que no cumple con esta condición es h_c = 5, o h_c = 100 no es la respuesta. De las opciones dadas, h_c = 5 está fuera del rango.
+
+Razonamiento: Como dos alturas miden 10 y 11, si la tercera altura es demasiado larga el lado sobre el cual cae será muy corto y no podrá formar un triángulo. Si la tercera altura es muy corta, el lado sobre el cual cae será muy largo y no podrá formar un triángulo. Entonces, la longitud de la tercera altura debe estar entre las longitudes de las otras dos.
+
+Considerando que si la longitud de la tercera altura es 100 cm, el área del triángulo sería constante, lo que implicaría que la longitud del lado correspondiente a esa altura sería muy pequeña. Esto haría difícil construir el triángulo.
+
+Respuesta: E)

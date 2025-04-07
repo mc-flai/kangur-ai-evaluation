@@ -1,0 +1,39 @@
+
+La pregunta 26 nos da tres ecuaciones y nos pide determinar cuál de las igualdades dadas es cierta.
+
+Las ecuaciones dadas son:
+1. \(2^x = 3\)
+2. \(2^y = 7\)
+3. \(6^z = 7\)
+
+Las igualdades dadas son:
+A) \(z = \frac{y}{1+x}\)
+B) \(z = x + 1\)
+C) \(z = y - 1\)
+D) \(z = \frac{x}{y-1}\)
+E) \(z = y - \frac{1}{x}\)
+
+### Raonament:
+
+1. Primero, evaluamos las ecuaciones dadas:
+   - \(2^x = 3\) implica que \(x\) es el logaritmo en base 2 de 3.
+   - \(2^y = 7\) implica que \(y\) es el logaritmo en base 2 de 7.
+   - \(6^z = 7\) implica que \(z\) es el logaritmo en base 6 de 7.
+
+2. Evaluamos cada igualdad dada para ver si se ajusta a las ecuaciones dadas:
+   - A) \(z = \frac{y}{1+x}\):
+     - No hay una relación directa entre \(y\) y \(1+x\) que se derive de las ecuaciones dadas.
+   - B) \(z = x + 1\):
+     - No hay una relación directa entre \(x\) y \(z\) que se derive de las ecuaciones dadas.
+   - C) \(z = y - 1\):
+     - No hay una relación directa entre \(y\) y \(z\) que se derive de las ecuaciones dadas.
+   - D) \(z = \frac{x}{y-1}\):
+     - No hay una relación directa entre \(x\) y \(y-1\) que se derive de las ecuaciones dadas.
+   - E) \(z = y - \frac{1}{x}\):
+     - Evaluamos \(y = 7\) y \(x = \log_2 3\). Entonces, \(y - \frac{1}{x} = 7 - \frac{1}{\log_2 3}\).
+     - \(6^z = 7\) implica que \(z = \log_6 7\).
+     - Usamos la relación de cambio de base: \(\log_6 7 = \frac{\log_2 7}{\log_2 6} = \frac{7}{1 + \log_2 3} = 7 - \frac{1}{\log_2 3}\).
+     - Esto coincide con \(z = y - \frac{1}{x}\).
+
+### Respuesta:
+E) \(z = y - \frac{1}{x}\)

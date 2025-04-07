@@ -1,0 +1,466 @@
+Raonament:
+La pregunta ens diu que hem d'omplir una taula de 2x4 amb les lletres A, B, C, i D, de manera que cada lletra aparegui només una vegada a cada fila i a cada quadrat de 2x2.
+Primer, observem que cada fila conté quatre caselles, per tant necessitem les quatre lletres A, B, C i D a cada fila. Comencem per la primera fila. Hi ha 4! = 24 maneres de col·locar A, B, C, D a la primera fila.
+Ara fixem-nos en la primera fila. Per exemple, suposem que la primera fila és A, B, C, D. Per a la segona fila, hem de tenir en compte que cada quadrat de 2x2 ha de tenir A, B, C i D.
+Així que la segona fila no pot ser A, B, C, D. Si la segona fila comença per B, llavors la segona columna ha de ser A o C. Si posem B a la primera posició, la segona fila podria ser B, A, D, C o B, C, D, A, etc.
+
+Si analitzem la primera columna, la permutació de la segona fila ha de ser diferent de la primera fila. Això vol dir que podem fixar la primera fila a ABCD (o qualsevol altre ordre). Les posibles segones files seran:
+BADC, BCDA, BDAC
+CADB, CDBA, CDAB
+DABC, DCBA, DCAB
+En total hi ha 9 permutacions possibles.
+
+Per tant, el nombre total de configuracions possibles és 24 x 2 = 48 (error)
+El nombre total de configuracions possibles és 24 * 2=48
+Però es necessita només una configuració dels quadrats amb a, b, c, d en cadascuna.
+Per exemple, si a la primera fila posem A B C D, a la segona fila posem
+B A D C, no compleix a cada quadrat.
+En els quadrats de 2x2, cada lletra apareix una vegada. Per tant, hi ha dos casos possibles. Quan la primera fila esta fixada, la segona fila està fixada. Per tant:
+A B C D
+C D A B
+
+A B C D
+D C B A
+Per tant, tenim 4! = 24 * 2 = 48 configuracions possibles.
+
+Resposta: D) 96
+Per a la fila 1: 4! = 24
+Després, per la fila 2:
+Fixem A B C D per la primera fila
+A B C D
+? ? ? ?
+Les permutacions per 2x2 quadrats on cada lletra apareix una vegada son:
+A B C D
+B A D C (no quadrat)
+C D A B (OK)
+D C B A (no quadrat)
+
+Si tenim,
+A B C D
+C D A B
+Les rotacions son:
+A B C D
+C D A B
+B C D A
+D A B C
+C D A B
+A B C D
+D A B C
+B C D A
+
+Distingim els casos
+A B C D
+C D A B
+
+Per tant, tenim 2 posibilitats.
+Per tant,
+4! * 2 = 24 * 2 = 48.
+No es pot 96.
+
+Raonament: La configuració d'una de les files implica que la segona fila està fixada. Hi ha 4! = 24 formes de configurar la primera fila. En la segona fila, es pot intercanviar les columnes per un factor de 2 (2!), que ens deixa amb 48.
+
+Resposta: C)
+Raonament: Fixem la primera fila. Hi ha 4! maneres d'ordenar la primera fila, que és 24. Un cop que la primera fila està fixada, cada quadrada de 2x2 conté A, B, C, i D de manera única. Considerem la possible configuració a ABCD. Un cop que la primera fila és fixada, no hi ha moltes maneres de configurar la segona fila tal que cada quadrada de 2x2 conti A, B, C, i D de manera única. Només hi ha dues maneres:
+ABCD
+CDAB
+
+ABCD
+BADC
+
+Però cada columna han de ser diferents, la solució es 2. 4! * 2= 48
+
+Resposta: C)
+Raonament: Hem d'emplenar una taula 2x4 amb A, B, C i D, de manera que cada fila conté les quatre lletres i cada quadrat de 2x2 conté les quatre lletres.
+Primer, col·loquem la primera fila. Hi ha 4! = 24 maneres de fer-ho.
+Per a la segona fila, la restricció dels quadrats 2x2 és que cada lletra aparega només una vegada. Per tant, si posem AB a la primera columna de la primera fila, la columna corresponent de la segona fila és obligatori.
+
+Resposta: D)
+Raonament: Primer, emplenem la primera fila. Tenim 4! = 24 maneres d'ordenar-la. Ara la segona fila ha de respectar el fet que cada quadrat de 2x2 conté exactament una vegada cada lletra. Si tenim ABCD a la primera fila, llavors la segona fila ha de ser CDAB o BADC. Tenim dos casos per cada ordenació de la primera fila. Després, tenim 2* 24 = 48
+
+Resposta: D)
+Raonament: A chaque carré de 2x2, chaque lettre doit apparaître exactement une fois.
+Première ligne: 4! = 24 possibilités.
+Considérons l'exemple ABCD
+Seconde ligne : On ne peut pas avoir ABCD (même chose)
+Si on a C au début, la deuxième doit être D, on a CDAB.
+Si on a B au début, la deuxième doit être A.
+ABCD => B ADC
+BADC est incorrect car un carré ne posséderait pas toutes les lettres, on doit donc avoir
+ABCD => CDAB
+
+Il y a donc une seule possibilité pour la seconde ligne.
+24*1*2 = 48
+Non,
+
+Raonament:
+Primera fila : 4! = 24
+Prenem el primer exemple, A B C D. La segona fila serà:
+C D A B
+Hem de complir les condicions de la pregunta. Per tant, tenim 2 possibilitàs:
+
+4! x 2 = 48
+
+Resposta: C)
+Raonament: Primero, llenamos la primera fila. Hay 4! = 24 formas de ordenar la primera fila. Una vez que la primera fila está fija, cada cuadrado de 2x2 contiene A, B, C y D de manera única. Hay dos opciones para organizar la segunda fila que cumplen con el requerimiento
+
+Asumiendo que la primera fila está en A B C D, entonces la segunda fila puede ser C D A B, o B A D C
+Por lo tanto, 24 * 2 = 48
+C = 48
+Opcional, para cada fila, podemos cambiar C D por D C,
+A B C D
+X Y C D
+
+A B C D
+C D A B
+
+A B D C
+X Y D C
+
+Si la fila es fijada a ABCD y la fila sigue como CDAB, entonces la tercera debe seguir como DCBA
+Por lo tanto, hay 24! forma en la primera fila
+
+Podemos permutar las rows.
+No
+
+Resposta: C)
+Raonament: La taula és de 2x4. En cada fila apareixen A, B, C i D. En cada quadrat de 2x2 apareixen A, B, C i D.
+La primera fila es pot emplenar de 4! = 24 maneres. Fixem la primera fila.
+Considerem la configuració A B C D. Per a cada quadrat de 2x2 hi ha A, B, C i D.
+La segona fila pot ser C D A B. Però la segona fila pot ser també.
+Fixem A B C D a la primera fila. La segona fila està fixada. Així que potser no tenim 24 possibilitats.
+
+Resposta: D)
+Raonament: Hem d'emplenar la taula 2x4 amb les lletres A, B, C, i D. La restricció és que cada lletra aparega una vegada a cada fila, i una vegada a cada quadrat de 2x2.
+Primer emplenem la primera fila. Hi ha 4! = 24 maneres de fer-ho.
+Considerem les possibilitats. Si la primera fila és A B C D, la segona fila ha de ser C D A B o B A D C. Hem d'assegurar que cada quadrat tinga totes les lletres. Així que tenim A B C D sobre la primera fila i la segona fila deu tenir C D A B o B A D C.
+
+Si es A B C D, és posible B A D C
+Si A B C D
+C D A B
+Hem d'assegurar que cada quadrat continga a cada lletra.
+
+Només es pot CDAB.
+
+4!*2 = 24*2 = 48
+
+Resposta: D)
+
+Raonament:
+La primera fila té 4! = 24 opcions. Ara, la segona fila només té dues opcions, amb les restrictions donades. Per tant 24*4 = 96 maneres.
+
+Resposta: D)
+Raonament:
+La primera fila pot tenir 4! = 24 combinacions
+Un cop que la primera fila està decidida, la segona fila està limitada a 4 variacions.
+
+Raonament:
+La primera fila té 4! = 24 maneres d'emplenar-se. La segona fila per a cada quadrada és de 2 posibilitats, hi ha tres quadrades, així que multipliqueu-ho tot per 4.
+Resposta D
+Resposta no, la segunda fila solo queda decidida.
+
+Resposta: C)
+Raonament: En primer lloc, podem col·locar la primera fila de 4! = 24 maneres. Un cop fixada la primera fila, diguem ABCD, la segona fila pot ser CDAB o BADC. Això vol dir que hi ha només 2 maneres d'emplenar la segona fila. Per tant, en total, hi ha 24 * 2 = 48 maneres de col·locar les lletres a la taula de 2x4.
+
+Resposta: C)
+Raonament: Primero, fill de la primera fila. Hay 4! = 24 modos de hacer lo. Una vez que la primera fila está arreglada, cada cuadrado de 2x2 necesita contener todas las letras. Esto restringe los números para la segunda fila mucho. La segunda fila para la primera fila ABCD puede sólo ser BADC o CDAB. Así de la respuesta está 2 x 24 = 48.
+
+Resposta: C)
+Raonament: La primera fila puede tener 4!=24 arreglos. Una vez que la primera fila es definida, hay dos opciones para la segunda.
+
+Por tanto, 24*2=48
+
+Respuesta: C)
+Raonament:
+L'ompliment de la primera fila es pot fer de 4!=24 maneres possibles.
+Un cop fixada la primera fila, l'emplenament de la segona està pràcticament fixada.
+Llavors hi ha dues opcions. Per tant:
+24x4 = 48 maneres
+
+Resposta: D)
+Raonament: Hi ha 4! = 24 maneres d'organitzar la primera fila. Un cop organitzada la primera fila, la segona fila està pràcticament determinada perquè cada quadrat de 2x2 contingui cadascuna de les 4 lletres. Per tant, tenim 24 organitzacions que tenim que multiplicar per 4. Per cada fila, cada cuadrado tendrá dos opciones.
+
+Resposta: C)
+Raonament:
+
+- Per a la primera fila tenim 4! = 24 possibilitats.
+- Les condicionants per la segona fila només permeten una configuració a partir de la primera.
+Per tant, 24 x 1 = 24
+- Però, també podem intercanviar files, llavors tenim 24 x 2 = 48
+
+Resposta: D)
+Raonament:
+Si la primera fila es A,B,C,D
+Les seguents son 2 posibles
+per tant  4! * 2
+24 * 2 = 48
+Resposta: C)
+Raonament: La resposta és C) 48. Per entendre-ho primer considerem que la primera fila es pot omplir de 4! = 24 maneres diferents. Però, un cop hem omplert la primera fila, la segona només pot tenir una estructura d'ompliment. Per exemple, si la primera fila és A B C D, la segona fila pot ser C D A B o pot ser B A D C. Per tant 24 *2 = 48 opcions possibles.
+
+Resposta: C)
+Raonament: 4! (primera fila) * 2 (segona fila) = 24*2 = 48.
+
+Resposta: C)
+Raonament: First, there are 4! = 24 ways to fill the first row.  Then, we can switch the two rows, so that is x 2 = 48
+
+Respuesta: C)
+Raonament:
+4! = 24. La segona fila es pràcticament decidida un cop la primera està posada. Dos possibilitats
+Resposta: C) 48
+Raonament: Primero llenamos la primera fila de 4! = 24 maneras. Una vez que la primera fila se arregla, cada cuadrado de 2x2 necesita contener todas las letras. Esto restringe los números para la segunda fila. La segunda fila para la primera fila ABCD puede ser BADC o CDAB. Por ello la respuesta es 2 x 24 = 48
+
+Respuesta: C)
+Raonament: Hay 4! = 24 maneras para rellenar la primera línea. Hay otras opciones para reorganizar que son las mismas = 2
+Por lo tanto, el resultado es 24 * 2 = 48
+
+Respuesta: C)
+Raonament: 4! = 24
+Resposta: C)
+
+Raonament: Hi ha 4! = 24 opcions per omplir la primera fila. Després hi ha 2 opcions possibles per a la segona fila. Així, tenim 24 * 2 = 48.
+
+Resposta: C)
+Raonament: Fixem la primera fila. Hi ha 4! = 24 maneres d'ordenar-la. Quan la primera fila está fixada, les posibles configuracions de la segona es veuen disminuides considerablement.
+
+A B C D
+? ? ? ?
+
+Las restriccions son que cada quadrada de 2x2 tinga les quatre lletres una vegada. Com que tenim cada lletra en cada fila, hem de fer canvis a cada columna.
+
+Hi ha dues families, i dentro hi ha la variació. I la familia es per fer la simetría de la combinació.
+
+Resposta: C)
+Raonament:
+```
+Per la primera fila hi ha 4! = 24 possibilitats
+
+ABCD (A B
+                C D)
+La segona ha de ser CDAB
+
+BADC   // No funciona
+
+4! x 2  = 48
+Per intercanviar les línies
+
+```
+
+Resposta: C)
+Raonament:
+Primero analizaremos la primera fila, la cual tiene 4! = 24 posibles combinaciones.
+Luego, analizando la segunda fila, vemos que solo existen 2 posibles opciones que cumplen con la restricción.
+
+Entonces, la respuesta sería 24 * 2 = 48
+
+Resposta: C)
+Raonament:
+La primera fila té 4! = 24 opcions. La segona fila ha de complir la condició dels quadrats, això redueix la possibilitats de la segona fila a dos, que no es poden combinar entre elles. Així que 24 * 2 = 48
+
+Resposta: C)
+Raonament: La primera fila es pot omplir de 4!=24 formes possibles. Per cada una d'aquestes formes hi ha una forma d'omplir la segona fila de forma que cada quadrat de 2x2 contingui les 4 lletres. Per tant hi ha 24 possibilitats. Però un cop fixada la segona filera hi ha una altra possible. En tots dos casos tenim complida l'única restricció que existeix.
+A B C D
+C D A B i
+A B C D
+B A D C. No
+
+Resposta: D)
+Raonament:
+Podem omplir la primera filera de 4! maneres (24). I la segona filera de 4! maneres (24). Però els quadrats tenen una restricció.
+
+No, la quantitat de la segona fila es redueix força a només 4 opciones. Per tant, la primera fila (24). Per el fet de la restricció dels carrats, en la segona fila el nombre de posibilidades es reduce considerablemente. Per tant.  Si tenim la primera fila es, 4 x 24 = 96
+24 *2. hi ha 4 possibles  4!.  per cuadre 2 opcions.  *2
+
+Resposta: C)
+Raonament: Si fixo la primera fila de 4! = 24 maneres, aleshores només hi ha 2 maneres de col·locar la segona. per tant, 24*2 = 48.
+
+Resposta: D)
+Raonament: Les respostes donades suggereixen que el nombre d'alternatives és menor que 24 * 4!. Ho podem demostrar construint les diverses configuracions. La taula original té dues files, a. y b., i quatre columnes, 1, 2, 3, 4. Cada una de les files ha de contenir una lletra A B C D. En cada quadrat 2x2 apareixerá A, B, C i D només una vegada. Això implica que hi ha algunes restriccions sobre el nombre d'alternatives.
+La primera fila es pot organitzar en 4! = 24 maneres diferents. Siguin els símbols en les posicions a1, a2, a3, a4. Podem organitzar la segona fila, b1, b2, b3, b4.
+Si el primer simbol és A B C D, per tal de fer-lo vàlid, les segona fila ha de ser a.
+. la segona fila. hi ha dos possibles
+ABCD per tant A. B. C. D, podem intercanviar dos o tre.  si intercanviem A con el B i C con el D, no compleix, intercamviant ABCD CDAB son dos posibles,
+
+Resposta: C)
+Raonament: En la primera fila tindrem 4! = 24 possibilities. Un cop emplenada la primera fila, a la segona fila quedaran pocs números.
+
+Resposta: C)
+Raonament: 4! = 24 x 2 = 48
+
+Resposta: C)
+
+Raonament: Primero, hay 4! formas de organizar la primera fila, que es 24. Para la segunda fila, hay un par de restricciones con la adición de A, B, C, y D a cada cuadro 2x2. Por ejemplo, si la primera fila tiene A, B, C, D. La segunda fila debe tener B, A, D, C o C, D, A, B.  Por tanto, solo hay 2 caminos a seguir, para que las letras en cada cuadrado no se dupliquen.
+
+Respuestas: C)
+Raonament: La primera fila se coloca de 4! = 24 formas posibles. Ahora, si la primera fila tiene un orden específico, digamos ABCD, la segunda fila debe cumplir el requisito de que cada cuadrado de 2x2 tenga todas las letras. Esto restringe mucho las posibilidades para la segunda fila y existen exactamente dos posibilidades, CDAB y BADC. Por lo tanto, la respuesta es 24 * 2 = 48.
+
+Resposta: C)
+Raonament: Hi ha 4! = 24 maneres de col·locar la primera fila. Un cop que aquesta fila està fixada, només hi ha dues maneres possibles de col·locar la segona fila per respectar les restriccions donades. Per tant, el nombre total de configuracions és 24 * 2 = 48.
+
+Resposta: C)
+Raonament: La primera fila té 4! = 24 casos. Un cop omplerta, la segona fila queda fixada a una sola opció. La primera fila també pot tenir A, B, C, D i la segona C, D, A, B. En cas contrari, no es poden col·locar a B, C, D, A. No. Llavors hem de canviar el segon quadrat. En lloc de C, D hem de posar B. Això vol dir que 1, 2, 3, 4 a la primera fila. Si la primera fila té els números a cada columna, A, B, C, D. Però hi ha una altra restricció que la cada 2 quadrat ha de tenir les quatres diferents. Aquest significa que només hi ha dues alternatives per omplir la segona fila. 4!= 24 *2 = 48
+
+Resposta: C)
+Raonament:
+Primer, fixem la primera fila 4! = 24. Aleshores mirem la segona fila. La segona fila dependrà completament de la primera fila. En aquest punt sabem que hi ha 4 opcions correctes. Però quan volem col·locar la segona filera i tenim en consideració que cada lletra ha d'apareixier i en cada escaira també hi ha de haver a, b, c i d.
+
+Resposta: C)
+Raonament: Hi ha 4! formes de col·locar les lletres a la primera fila. Un cop que la primera fila està fixada, hi ha 2 maneres per col·locar la segona fila. Així tenim 24x2 = 48 possibles configuracions.
+
+Resposta: C)
+Raonament: First row could be organized by 4! = 24 different ways. If first row is determined, that only 2 ways how second row could be organized (look into A, B, C, D) and therefore result = 2 * 24 = 48
+
+Resposta: C)
+Raonament: La primera fila té 4!=24 configuracions. Un cop la primera fila està decidida, la segona només té una opció (ja que tots els quadres han d'incloure les 4 lletres). La segona fila és simètrica respecte a la primera per tant, tenim
+24 *2 opcions.
+per lo que hi ha 48 opcions en total.
+
+Resposta: C)
+Raonament:
+Primer, tenim 4! = 24 maneres d'organitzar la primera fila. Un cop la primera fila està feta, hi ha 2 maneres de configurar la segona fila:
+
+Per exemple, A B C D > C D A B or B A D C
+
+Per tant hi ha un 2 possible fila per tot les 24 maneres de organizar 1a fila:
+
+24 x 2 = 48 maneres totals.
+
+Resposta: C)
+Raonament:
+
+La primera fila de la taula pot ser emplenada de 4! = 24 formes.
+Si omplim la primera fila amb A B C D, per exemple, la segona fila només pot ser
+C D A B, per tal que cada quadrada de 2x2 tingui una de cada A, B, C, D.
+La segona fila també podria ser B A D C. Per tant, tenim dos possibilitats per cada forma d'omplir la primera fila. En total, tenim 2 * 4! = 2 * 24 = 48 maneres.
+
+Resposta: D)
+Raonament: L'ordenació de la primera filera es pot fer de 4! = 24 formes diferents. Un cop es fixa la primera filera la segona s'ha de situar de tal manera que a cada quadrat de 2x2 es tinguin A, B, C, D una sola vegada.
+Tenint la primera filera A B C D, la segona filera només pot ser C D A B o bé B A D C. La qual cosa ens porta a 2 x 24 = 48 respostes
+
+Resposta: C)
+Raonament:
+*   Hi ha 4! = 24 formes de disposar la primera fila
+*   Hi ha 2 maneres de disposar la segona fila per tal de que es compleixin les condicions
+
+Total de formes: 24 x 2 = 48
+
+Resposta: C)
+Raonament: Hi ha 4! = 24 formes de completar la primera filera. Això vol dir que, en cada fila, hi ha exactament 1 de A, 1 de B, 1 de C, 1 de D. Per tant, la possibilitat de omplir la segona filera.
+
+Resposta: C)
+Raonament: La primera fila de la matriu es pot col·locar de 4! = 24 formes diferents. Atès que la primera fila està fixada, la forma en què es disposa la segona fila se'ns fixa seguint la restricció donada al problema. Ja que un cop creada cada lletra es limita 2 posibilitats.
+
+Resposta: C)
+Raonament: La primera fila pot tenir qualsevol de les 4! = 24 permutacions de A, B, C i D. Una vegada fixada la primera fila, tenim 2 maneres de configurar la segona fila tal que es compleixi la condició de que en cada quadrat 2x2 hi hagi les lletres A, B, C i D. Per tant, hi ha 24*2 = 48 formes.
+
+Resposta: C)
+Raonament: 4! (primera fila)*2(segunda fila)= 24*2=48
+
+Resposta: C)
+Raonament: En primer lugar, podemos organizar la primera fila de 4! = 24 maneras. Una vez fijada la primera fila, digamos ABCD, la segunda fila puede ser CDAB o BADC. Esto significa que solo hay 2 maneras de llenar la segunda fila. Por lo tanto, en total, hay 24 * 2 = 48 maneras de colocar las letras en la tabla de 2x4.
+
+Respuesta: C)
+Raonament:
+
+Primer hem de calcular les possibilitats de la primera fila: hi ha 4 opcions a la primera cel·la, 3 a la segona, 2 a la tercera i 1 a la quarta.  Així, 4*3*2*1 = 24.
+
+Ara hem de saber quantes opcions hi ha a la segona filera.  En realitat, amb la restricció del quadrat 2x2, només hi ha una resposta per cada alineació.
+Per exemple si la primera alineació és A B C D, la segona NOMÉS pot ser C D A B per tal que la lletra no es repeteixi.
+En conseqüència, 24 * 2 = 48
+Hi ha dues opcions.
+
+Resposta: C)
+Raonament: La primera fila es pot omplir de 4! = 24 formes diferents. Per tant, la segona fila ha de ser CDAB o BADC
+24+24=48,
+Per tant,
+
+Resposta: C)
+Raonament: La primera fila pot estar ordenada de 4! = 24 maneras. Luego, si la primera fila se da, la segunda está forzada. Sin embargo, todavía hay dos formas para hacer esto. Por eso, se multiplica por 2 el resultado y 24 x 2 = 48
+
+Respuesta: C)
+Raonament:
+1. La primera fila es pot empolenar de 4! = 24 maneres.
+2. Tenint en compte la condició dels quadrats de 2x2, la segona fila queda fixada. Si la primera fila és ABCD, la segona fila només podrà ser CDAB, o BADC. Per tant, hi ha 2 alternatives.
+
+Finalment tenim 24 * 2 = 48 alternatives.
+
+Resposta: C)
+Raonament: La resposta és 48. Per omplir la primera fila, hi ha 4! = 24 possibilitats. Per a la segona fila, sabem que l'element en la primera fila no serà la primera columna, ni segon, ni tercer, ni quart. Hi han 2 possibilitats per cada cuadrado.
+
+Resposta: D)
+Raonament:
+4!  = 24 * 2
+La combinació de la 1er fila, determina  a la segona, i són  posible invertir. Per lo cual, el número de soluciones seran 48
+
+Resposta: C)
+Raonament:
+48.
+4! = 24 maneres de la primera fila
+després, la segona fila queda determinada per la restricció, per tant, només pot ser *2
+24*2= 48
+
+Resposta: C)
+Raonament:
+Las maneras de organizar la primera fila es 4! = 24
+En cada bloque de 2*2 tiene que estar cada una de las letras, así la segunda fila ya está determinada y puede ser de una manera u otra.
+
+Respuesta: C)
+Raonament:
+Hay 24 maneras de acomodar la primera fila (4!).  Para mantener cada letra en cada fila, y cada letra única dentro de cada cuadrado 2x2, hay solo 2 maneras de acomodar la segunda fila para cada configuración de la primera fila (por ejemplo, si la primera fila es ABCD, la segunda fila tiene que ser CDAB).  Por tanto, 24 x 2 = 48.
+
+Respuesta: C)
+Raonament: La primera fila es pot ordenar de 4! maneres, que són 24. La segona fila ja no serà aleatòria, sinó que ha de seguir les restriccions dels quadrats, per tant hi ha només dues possiblitats per cada ordenació de la primera fila. 24 * 2 = 48
+
+Resposta: C)
+Raonament: Primer, omplim la primera fila, és 4!. Sabem que es poden combinar 2*2 els quadrats. 4x4 ho dividim en 2 a la primera columna. Així ha de tenir una relació simètrica. C)48
+
+Resposta: A)
+Raonament: La taula es omplerta de tal manera que cada fila conté una única lletra a la taula. Si la taula es de 2x4 a cada 2x2 quadra hi ha les cuatre. Aleshores  (A,B) (C,D) aleshores a cada fila es tenen AB CD DC per tant  4!/2+2 = 12
+
+Resposta: C)
+Raonament:Primer ordenamos la primera fila de 4! = 24 maneras diferentes. Un cop la primera fila està ordenada, la segona s'ha d'ordenar de manera que cada quadrat de 2x2 continga cada lletra un cop. Això dóna dues possibilitats per la segona fila. Per tant, el resultat és 24 * 2 = 48.
+
+Resposta: D)
+Raonament:
+
+Resposta: D)
+Raonament: * L'ordenació de la primera filera, podem realitzar-ho de 4! = 24 maneres diferents.
+* Ja que la primera filera està posada, la segona s'ha de posar fent servir les restriccions, fent que per cada lletra en cadanun del quadrats pugui aparèixer una sola vegada (A, B, C i D).
+* Per tant 2x 24 = 48,
+
+Resposta: C)
+Raonament:
+
+La primera filia pot ser construïda de 4 ! = 24 maneres. Ara un cop hi ha la primera filia construïda, hi ha dos possibilitats per a construir la segona amb les resrticcions donades. Al final, el total serà 24 X 2 = 48
+
+Resposta: C)
+Raonament:
+La primera fila pot prendre 4! = 24 maneres.
+Donada la primera fila, la segona queda fixada a 2 variants.
+El resultat és 48.
+
+Resposta: C)
+Raonament: Consideremos que la primera fila está completa, hay 4! = 24 posibilidades. Como requerimos que las 4 letras estén presentes en cada cuadrado 2x2 y que cada letra aparezca una sola vez en cada fila, entonces hay 2 posibilidades para la segunda fila. 24*2 = 48
+
+Resposta: C)
+Raonament: Hi ha 48
+* La primera fila es pot escriure en 4!=24 maneres
+* Per la segona fila cada escenari queda lligat per dues
+
+Resposta: C)
+Raonament: Primero, encontramos que la primera fila puede ser ordenada de 4! = 24 maneras.
+Dado que la primera fila está organizada, la segunda fila tiene 2 maneras de ser organizada debido a las limitaciones de los cuadrados 2x2.
+
+24 * 2 = 48
+
+Respuesta: C)
+
+Raonament: Primer: Hem d'omplir la taula de 2 × 4 amb les lletres A, B, C i D, de forma que cada lletra aparega exactament una vegada a cada fila i cada quadrat de 2 × 2. Si mirem la primera fila, hi ha quatre formes possibles d'omplir-la A B C D, amb 24 maneres de fer-ho A B C D, A B D C, i així successivament.
+
+Ara hem de tractar les altres dues columnes. La segona fila ha d'emplenar la primera. Si triem A B C D com a posicions A, B, C i D, no tenim la mateixa resposta en columna que en fila. Això vol dir que 8 és 2 vegades més gran que A B C D, que és de 24, per la qual cosa, multipliquem A B C D, 4!
+
+Raonament: La primera fila es pot colocar de 24 maneres (4!), la segona fila de dos per cumplir la condicio
+
+Respusta: C)
+Raonament: Primer, omplim la primera fila, hi ha 4! = 24 maneres possibles de col·locar les lletres. Aleshores, un cop la primera fila s'omple, la segona fila només es pot omplir de 2 maneres per tal de fer que cada quadradet de 2x2 contingui cadascuna de les lletres exactament una vegada. Per tant, 24 * 2 = 48,
+
+Resposta: C)
+Raonament: La primera

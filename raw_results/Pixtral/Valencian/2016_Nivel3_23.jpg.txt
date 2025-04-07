@@ -1,0 +1,22 @@
+### Pregunta 23:
+En la graella quadrada de la dreta tenim destacats cinc punts \( A, B, C, D \) i \( E \). Quantes línies poligonals d'extrems \( A \) i \( E \), formades per quatre segments que tinguin els altres tres vertex en els punts \( B, C \) i \( D \), divideixen el quadrat en dues parts d'igual àrea?
+
+Opcions:
+A) 0
+B) 1
+C) 2
+D) 3
+E) 4
+
+### Raonament:
+1. **Identificació dels punts**: Els punts \( A, B, C, D \) i \( E \) són els vertexs d'un quadrat.
+2. **Línies poligonals**: Una línia poligonal d'extrems \( A \) i \( E \) que passa per quatre segments i té els altres tres vertex en \( B, C \) i \( D \) és essencialment una ruta que connecta \( A \) a \( E \) passant per \( B, C \) i \( D \) en aquest ordre o en un ordre permutat.
+3. **Divisió del quadrat**: Per dividir el quadrat en dues parts d'igual àrea, la línia poligonal ha de passar per la meitat del quadrat.
+4. **Punts de divisió**: Els punts \( B, C \) i \( D \) són els vertexs intermediaris que divideixen el quadrat en parts d'igual àrea.
+5. **Càlcul de les línies**: Hi ha exactament tres línies poligonals que compleixen aquesta condició:
+   - \( A \rightarrow B \rightarrow C \rightarrow D \rightarrow E \)
+   - \( A \rightarrow B \rightarrow D \rightarrow C \rightarrow E \)
+   - \( A \rightarrow D \rightarrow B \rightarrow C \rightarrow E \)
+
+### Resposta:
+D) 3

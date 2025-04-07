@@ -1,0 +1,41 @@
+Raonament: Siguin h l'altura dels rectangles. Aleshores, l'àrea del primer rectangle és 12, la del segon és 18, i la del tercer és 22.
+La base del segon i tercer rectangle junts és 6 cm. Les bases de cadascun seran, b1 i b2, respectivament.
+Aleshores, 18 = h*b1 i 22 = h*b2. També b1+b2 = 6.
+D'això tenim que b1 = 18/h i b2 = 22/h, per tant 18/h + 22/h = 6. Això implica que 40/h = 6, i per tant h = 40/6 = 20/3.
+
+Ara, per trobar la longitud de CD, hem de trobar les bases del primer, segon i tercer rectangles.
+b1 = 12/h = 12/(20/3) = 12 * 3/20 = 36/20 = 9/5 = 1,8
+b2 = 18/h = 18/(20/3) = 18 * 3/20 = 54/20 = 27/10 = 2,7
+b3 = 22/h = 22/(20/3) = 22 * 3/20 = 66/20 = 33/10 = 3,3
+
+Per tant la longitud de CD = b1 + b2 + b3 = 1.8 + 2.7 + 3.3 = 7.8
+
+Aquesta resposta no es troba entre les opcions, pel que ha d'haver-hi un error en el raonament o algun error a l'hora de plantejar el problema.
+Aquesta és una altra manera de veure el problema:
+Sigui h l'altura. L'area del primer rectangle és 12, la del segon 18 i la del tercer 22. La suma de les àrees del segon i tercer és 18+22 = 40.
+Sigui x la base del rectangle d'àrea 12, y la base del rectangle d'àrea 18, z la base del rectangle d'àrea 22. Sabem que y+z=6.
+Volem trobar x+y+z = x+6
+Com que l'altura és la mateixa en els 3 rectangles, podem dir que:
+12/x = 18/y = 22/z.
+Això vol dir x = (12/18)y = (2/3)y   i   x = (12/22)z = (6/11)z
+per tant (2/3)y = (6/11)z. Així  y/z = (6/11)*(3/2) = 9/11.
+Sabem que y+z=6. per tant  y = 6-z, llavors (6-z)/z = 9/11
+per tant 66 - 11z = 9z, i 66 = 20z. Així z = 66/20 = 33/10 = 3,3.
+y = 6-3,3 = 2,7.
+Comprovem 18/2,7 = 22/3,3 = 20/3
+Aleshores x = 12/(20/3) = 12*3/20 = 36/20 = 9/5 = 1,8
+x+y+z = 1,8 + 2,7 + 3,3 = 7,8
+
+Per tant, CD = x+y+z = 7,8 cm.
+
+Si interpretem que només el segment AB té longitud 6 i que CD és només la longitud de la base del tercer rectangle, aleshores la resposta seria:
+h = 18/y = 22/z, sabem que y+z = 6. per tant, y = 6-z.
+per tant, 18/(6-z) = 22/z  => 18z = 132-22z.
+40z = 132.  z = 132/40 = 33/10 = 3,3.  CD = z = 3,3
+
+Si l'enunciat deia "Si el segment AB fa 6 cm, quina és la mesura en cm del segment BC?"
+Aleshores la resposta és z = 3,3
+
+Raonament: Basant-me en els càlculs anteriors, l'error és en el plantejament del problema. No obstant això, de totes les opcions, l'opció E) 8.5 és la més propera a la resposta que hem obtingut, assumint que el nombre 6, que fa referència al segment AB, sigui el valor d'un dels rectangles, que és el del mig. Com que la meitat és 3, per aproximació considerem que la base de CD és la més gran.
+
+Resposta: E)

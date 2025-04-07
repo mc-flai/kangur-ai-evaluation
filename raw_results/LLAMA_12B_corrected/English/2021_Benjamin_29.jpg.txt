@@ -1,0 +1,11 @@
+Reasoning: 
+
+To solve this problem, let's first understand the situation. There are 10 elves and 10 trolls, and each one has a token with a number from 1 to 10 written on it. The elves ask each troll what number is on their token, but the trolls lie. After receiving answers from all 10 trolls, the elves add up the numbers they were given. The sum of the answers is 36.
+
+Since there are 10 tokens (each with a unique number from 1 to 10), we can use this information to find the smallest possible number of trolls in the group. We know that the sum of the numbers on all tokens must be 55 (1 + 2 + ... + 10). However, the trolls were asked to name different numbers, and the sum of these numbers was 36.
+
+To minimize the number of trolls, we need to maximize the number of elves who told the truth. Let's assume that all elves told the truth. This means that the sum of the tokens of the elves would be 36, which means their tokens could be 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.
+
+Now we have nine elves who told the truth, which means there is one troll among them. Since we don't know which troll is lying, we should choose the answer option that minimizes the number of trolls. Thus, the correct answer is **(B) 3**.
+
+Answer: B)

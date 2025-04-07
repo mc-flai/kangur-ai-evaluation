@@ -1,0 +1,51 @@
+Razonamiento: Let's trace all the possible paths to read BANANA. We can start only with the B in the top left.
+- B (1)
+- BA: We can move to the right or down, giving us 2 options.
+- BAN: From each A, we can move to the N to the right or the N below. Total paths: 2*2 = 4
+- BANA: From the 2 Ns on the second row, we can only move to the A on the third row. From the other 2 Ns on the last row, we can only move up to the A on the second row. Thus, a total of 4
+- BANAN: From the As above and below, each can move to one N on the corner next to it. From the middle A, we can go to the N to the left or to the right. So, there are a total of 2+2+2+2=8
+- BANANA: From the Ns we get 2+2+2+2 = 4.
+So, the total number of ways to read BANANA is 4+4+8+8 = 84 if we calculate as if 2 Ns are different. But each N is the same.
+Start with B: 1 option
+Move to A: 2 options (right or down)
+Move to N: 4 options
+Move to A: 8 options
+Move to N: 16 options
+Move to A: 14 options
+Start with the initial B.
+B -> 2 options (A)
+A -> Two of the A have 2 (2). The middle only have 1+1.
+So, we need to be careful to ensure that we can only read the path when the new word shares the word before on the corners next to the previous word.
+The number of possible paths is 1 * 2 * 2 * 2 * 2 * 2 = 64
+Start on B(1): 1 path
+A: 2 paths
+N: N2,N3 : 2*2=4
+A: A4, A5, A6, A7 A8 : =8 (2 from the corner N.
+N
+A: 2+2 +8 2*2 8 = 14
+B: 1
+A:2
+N:4
+A:8
+N:8
+A:8
+Total:1+2+4+8+8+8
+
+B - 1 way
+A - 2 ways
+N - 2x2 = 4 ways
+A - 2x4 = 8 ways
+N - 2x4 = 8 ways
+A - 2x4 = 8 ways
+
+Therefore: 1*2*2*2*2*2 = 32
+It is not possible to get 56. The number is 84 if we can move across the path
+B ->1
+A->2
+N->4
+A->8
+N->8
+A->4+4 = 8 1*2*2*2*2*2 = 64/ 2= 32
+1*2*2*2*2*2 = 84
+
+Respuesta: D)

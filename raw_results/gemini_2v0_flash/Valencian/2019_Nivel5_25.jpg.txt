@@ -1,0 +1,33 @@
+Raonament: La formiga comença al vèrtex A.
+Després d'un moviment, només pot estar a un dels tres vèrtexs veïns de A. Observem que els vèrtexs estan com disposats en capes. El vèrtex A es troba a la capa més alta. Per tant, després d'un moviment, la formiga es trobarà a un dels vèrtexs de la capa immediatament inferior a A.
+Després de dos moviments, la formiga podria haver tornat a A, o haver anat a un vèrtex dos nivells per sota de A.
+Observem que després d'un nombre parell de moviments, la formiga es trobarà sempre a un vèrtex que està a un nivell "parell" respecte de A. Per exemple, si ho definim com a distància de A, els vèrtexs als quals pot arribar la formiga amb un nombre parell de moviments són aquells la distància dels quals a A és parella.
+Anàlogament, si la formiga fa un nombre imparell de moviments, sempre es trobarà a un vèrtex la distància del qual a A és senar.
+En aquest cas, la formiga fa 2019 moviments, que és un nombre senar.
+Calcularem la distància a A dels vèrtexs P, Q, R, S i T:
+- Distància(A, P) = 3
+- Distància(A, Q) = 4
+- Distància(A, R) = 5
+- Distància(A, S) = 4
+- Distància(A, T) = 2
+Com que la formiga farà un nombre senar de moviments (2019), només podrà estar en vèrtexs que es troben a una distància senar de A. Per tant, només podrà estar a P o a R.
+En un graf bipartit, si partim d'un node, després d'un nombre parell de passos som a un dels conjunts del graf, i després d'un nombre senar, en un altre.
+Però aqui tenim triangles. A, després 1 move, pot anar a 3 nodes, despres 2, i pot tornar a A o anar dos nodes avall, i aixi successivament. Si surt de A, 2019 moviments, els nodes imparells estaran disponibles.
+Comprova-ho movent-te en el graf, i veuràs que pots arribar a P i a R en un nombre senar de passos, i mai a Q, S, o T.
+La opció A diu "Només a P, Ro S. No aQniaT". Aquest es incorrecte perquè no pot ser a S.
+La opció B diu "Només a P, R, S o T. No a Q". Això tampoc pot ser perquè no pot anar a S i ni a T.
+L'opció E és incorrecta perquè la formiga no pot ser a qualsevol dels vèrtexs.
+
+La meva anàlisi inicial és incorrecta, ja que assumeix que la distància del vèrtex de partida influeix en la paritat dels passos.
+
+Després d'un moviment, la formiga pot estar en 3 vèrtexs, si estigués en un graf bipartit, podria estar a qualsevol vèrtex de l'altre conjunt després d'un nombre impar de passos. L'important és si hi ha un cicle de longitud senar, la formiga pot arribar a qualsevol node després d'un nombre gran de passos. En aquest cas, tot i que hi hagi diversos triangles, la formiga es pot moure sense fer voltes, i a un pas des de A, no té més opció que fer moviments consecutius a un dels 3 vèrtexs adjacents. No sembla que la paritat canviï gaire. Per exemple, a A hi puc arribar en 2 o 4 pasos. I a P en 3, 5 o més passos. Es pot observar que si comencem per la capa de sobre del graf, i baixem, els nodes Q, S, T tenen nivell parell des de A.
+A la resta de vèrtexs (P, R), hi puc arribar amb un nivell senar. Per tant, la formiga estarà a un nivell senar, i no podra estar a Q, S, T després d'un nombre imparell de passos. Si la formiga es queda a una cadena, pot arribar a tot arreu en passos imparells.
+
+Resposta: B)
+Raonament: Després de 2019 moviments, que és un nombre senar, la formiga pot estar només en vèrtexs que es troben a una "distància senar" de A. Aquests són P i R. Per tant la formiga no podrà estar ni a Q, ni a S ni a T. Llavors, l'única resposta possible es A, que es incorrecta.
+
+Després de fer moviments petits en el graf, es pot veure que la formiga MAI arriba al vèrtex Q. I des d'A, sempre necessita un número parell de passos per arribar-hi.
+
+Resposta: B)
+Raonament: La formiga comença a A. Després d'un pas pot estar en 3 vèrtexs. I el vèrtex Q està en una posició tal que per arribar-hi necessita un nombre parell de passos.
+Resposta: B)

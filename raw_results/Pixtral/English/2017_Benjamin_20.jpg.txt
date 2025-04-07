@@ -1,0 +1,24 @@
+### Reasoning:
+1. We know that Michael scored the fewest number of goals.
+2. The total number of goals scored by the other players is 20.
+3. To find the maximum number of goals Michael could have scored, we need to consider the minimum possible goals scored by the other players.
+
+Let's denote the number of goals scored by the other players as \( x_1, x_2, \ldots, x_n \), where \( x_i \) represents the goals scored by the \( i \)-th player. Since Michael scored the fewest goals, let's denote his goals as \( x \).
+
+Given that the total number of goals scored by the other players is 20, we have:
+\[ x_1 + x_2 + \ldots + x_n = 20 \]
+
+Since Michael scored the fewest goals, let's assume the other players scored \( x, x+1, x+2, \ldots \). To maximize Michael's goals, we need to minimize the goals scored by the other players.
+
+If we assume the other players scored 1, 2, 3, and 4 goals respectively, the sum would be:
+\[ 1 + 2 + 3 + 4 = 10 \]
+
+This leaves 10 goals for Michael. However, we need to ensure the total is 20. If we assume the other players scored 4, 5, 6, and 7 goals respectively, the sum would be:
+\[ 4 + 5 + 6 + 7 = 22 \]
+
+This exceeds the total of 20 goals. Therefore, we need to adjust the numbers to ensure the total is 20. The correct distribution would be:
+\[ 4 + 5 + 6 + 5 = 20 \]
+
+This means the other players scored 4, 5, 6, and 5 goals respectively, leaving 10 goals for Michael.
+
+### Answer: D)

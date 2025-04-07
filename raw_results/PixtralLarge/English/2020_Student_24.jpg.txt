@@ -1,0 +1,28 @@
+**Reasoning**:
+
+1. A positive integer \( N \) is divisible by all integers from 2 to 11, except for two numbers.
+2. The pairs of integers given are:
+   - (6, 7)
+   - (7, 8)
+   - (8, 9)
+   - (9, 10)
+   - (10, 11)
+
+3. To find the correct pair, consider the properties of numbers:
+   - If \( N \) is divisible by all integers from 2 to 11 except two, then \( N \) must be divisible by the least common multiple (LCM) of the remaining numbers.
+   - The LCM of 2 to 11 is the product of the highest powers of all prime numbers within that range.
+
+4. Evaluate each pair:
+   - (6, 7): \( N \) must be divisible by the LCM of {2, 3, 4, 5, 8, 9, 10, 11}.
+   - (7, 8): \( N \) must be divisible by the LCM of {2, 3, 4, 5, 6, 9, 10, 11}.
+   - (8, 9): \( N \) must be divisible by the LCM of {2, 3, 4, 5, 6, 7, 10, 11}.
+   - (9, 10): \( N \) must be divisible by the LCM of {2, 3, 4, 5, 6, 7, 8, 11}.
+   - (10, 11): \( N \) must be divisible by the LCM of {2, 3, 4, 5, 6, 7, 8, 9}.
+
+5. Consider the prime factorization:
+   - The LCM of all numbers from 2 to 11 excluding 10 and 11 is manageable because 10 and 11 have significant prime factors (5 and 11) that aren't shared by any of the other numbers in the set.
+   - Excluding 10 and 11, the LCM can be calculated as: \( 2^3 \times 3^2 \times 5 \times 7 \), which is simpler compared to excluding other pairs.
+
+6. Therefore, the pair (10, 11) makes it feasible for \( N \) to be divisible by the rest of the numbers from 2 to 9.
+
+**Answer**: E).

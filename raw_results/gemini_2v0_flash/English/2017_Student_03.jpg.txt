@@ -1,0 +1,17 @@
+Reasoning: To prevent connection from A to B, we need to find the minimum number of bridges we must remove such that there is no path between A and B. One way to do it is to identify all the paths from A to B and figure out how many bridges must be removed to eliminate all of them. In this case, there are three distinct paths from A to B. The first path goes directly, requiring one cut. The second path loops around to the left, needing two cuts to disconnect. The third path loops around to the right, needing two cuts to disconnect. If we cut the direct bridge, the lower two, and the bridge adjacent to A in that case, there is no way. However, if we cut one bridge from A and one from B, but then a bridge somewhere in the middle we are also good. The direct bridge from A to B would have to be removed. Then there is a path that branches upward, goes around, and ends to the right of B before linking up to B. Another path branches downward and to the right from A, circles around, then attaches at the left of B. After careful inspection, three cuts should be enough to disconnect.
+
+Path 1: Direct bridge between A and B (1 bridge)
+Path 2: A -> top island -> top-right island -> island to the left of B -> B (3 bridges)
+Path 3: A -> bottom-left island -> bottom-right island -> island to the left of B -> B (3 bridges)
+
+To break Path 1, we must remove the bridge directly between A and B. To break Path 2 and Path 3, we need to remove at least 2 bridges. There is a path from A to the island left of B of 3 bridges. Then, one more to B. To completely separate A and B, we have to remove all the paths.
+
+1. Remove direct A to B (1)
+2. There are two other distinct paths. A connects to an island on the upper left and another on the lower left. Both connect to another island, which connects to the island connecting to B on the left. From there you can get to B. To block A, remove the bridge to the top left island. The bottom left cannot be blocked by the same bridge.
+If you block the main path and the direct bridge. There are two bridges each forming a new way to get to B. Remove the two bridges at the bottom near B.
+
+A bridge from A to the island left of B is on both paths. There are two distinct paths after that. Then A needs two cuts.
+
+After careful consideration, removing the bridge directly connecting A and B and then bridges at the other distinct paths by 3 bridges seems optimal to prevent travel.
+
+Answer: C)

@@ -1,0 +1,26 @@
+Pour résoudre la question 18, nous devons déterminer quelle carreau peut être ajouté pour que l'aire en gris soit égale à l'aire en noir dans la figure.
+
+**Raisonnement :**
+1. Observons la figure donnée : il y a six carrés avec des aires noires et grises réparties.
+2. Calculons les aires actuelles :
+   - Aire totale de la figure = 6 carrés.
+   - Aire noire actuelle = 3 carrés (chaque carré noir est complet).
+   - Aire grise actuelle = 2 carrés (chaque carré gris étant un demi-carré, il y a 4 demi-carrés gris).
+3. Pour que l'aire en gris soit égale à l'aire en noir, il faut que :
+   - Aire noire = 3 carrés
+   - Aire grise = 3 carrés
+4. Ajoutons un carré pour atteindre l'équilibre :
+   - Aire noire = 3 carrés
+   - Aire grise = 2 carrés (actuellement) + l'aire du nouveau carré.
+5. Pour égaliser les aires, le nouveau carré doit avoir 1 carré d'aire grise.
+
+En regardant les options proposées :
+- A) Un carré entièrement gris (1 carré d'aire grise)
+- B) Un carré entièrement noir (1 carré d'aire noire)
+- C) Un carré moitié-gris, moitié-noir (0,5 carré d'aire grise + 0,5 carré d'aire noire)
+- D) Un carré moitié-gris, moitié-noir (0,5 carré d'aire grise + 0,5 carré d'aire noire)
+- E) Un carré entièrement noir (1 carré d'aire noire)
+
+La seule option qui ajoute exactement 1 carré d'aire grise est l'option A.
+
+**Réponse :** A)

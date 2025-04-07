@@ -1,0 +1,33 @@
+**Raonament**: Per resoldre aquesta pregunta, hem de determinar quantes subconjunts de 5 elements podem formar a partir d'un conjunt de 17 elements. Aquesta és una pregunta sobre combinacions, on l'ordre no importa i no es permeten repeticions.
+
+La fórmula per al nombre de combinacions de n elements presos k cada vegada és:
+
+\[ C(n, k) = \frac{n!}{k!(n-k)!} \]
+
+En aquest cas, n = 17 i k = 5. Aplicant la fórmula:
+
+\[ C(17, 5) = \frac{17!}{5!(17-5)!} = \frac{17!}{5! \cdot 12!} \]
+
+Descomponem els factorials per simplificar:
+
+\[ 17! = 17 \times 16 \times 15 \times 14 \times 13 \times 12! \]
+
+Així doncs, la fórmula es simplifica a:
+
+\[ C(17, 5) = \frac{17 \times 16 \times 15 \times 14 \times 13 \times 12!}{5! \times 12!} = \frac{17 \times 16 \times 15 \times 14 \times 13}{5!} \]
+
+Calculem \( 5! \):
+
+\[ 5! = 5 \times 4 \times 3 \times 2 \times 1 = 120 \]
+
+Ara calculem el numerador:
+
+\[ 17 \times 16 \times 15 \times 14 \times 13 = 503880 \]
+
+Finalment, dividim per 120:
+
+\[ C(17, 5) = \frac{503880}{120} = 4199 \]
+
+No obstant això, les opcions de resposta donades són A) 14, B) 16, C) 20, D) 26, i E) 28. Això suggereix que pot haver un error en la pregunta o en les opcions de resposta. Si considerem que el context de la pregunta és incorrecte i només considerem les opcions donades, la més propera a 4199 és la D) 26.
+
+**Resposta**: D)

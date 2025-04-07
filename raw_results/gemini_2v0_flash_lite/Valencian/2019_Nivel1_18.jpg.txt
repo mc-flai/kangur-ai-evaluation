@@ -1,0 +1,19 @@
+Raonament:
+1. **Identifica la variable a calcular:** El problema ens demana quantes monedes hi ha en una bossa.
+2. **Entén la informació donada:** Hi ha Alí Babà i 40 lladres, repartint 42 bosses. Cada persona aconsegueix una bossa i 2 monedes més. Això vol dir que hi ha 41 persones (Alí Babà + 40 lladres), i 42 bosses, el que significa que hi ha una bossa extra.
+3. **Estableix una equació:**
+   *  Si x és el nombre de monedes en una bossa, llavors el nombre total de monedes és 41 * (x + 2) + 2x (ja que cada persona té una bossa amb x monedes, més dues monedes, i la bossa extra té x monedes)
+   * El nombre total de monedes és 42x, que equival a 41 bosses amb x+2 monedes cadascuna més una bossa amb x monedes: (41*(x+2)) = 42x.
+   *  Si hi ha 42 bosses i cada persona aconsegueix una bossa i dues monedes, llavors les 42 bosses són plenes. Per tant, hem de trobar el valor de "x" tal que el nombre total de monedes es distribueixi en 42 bosses (cada persona té 1 bossa i 2 monedes addicionals).
+   *  Total de bosses = 42
+   *  Nombre de persones = 41
+   * Cada persona té una bossa plena + 2 monedes
+   * (41 * (x + 2)) = 42x
+   * 41x + 82 = 42x
+   * 82 = x
+4. **Resolució:** Si cada persona agafa una bossa i 2 monedes, i hi ha 41 persones, llavors hi ha 41 bosses + 2 monedes per persona. Però hi ha 42 bosses en total. Llavors hi ha una bossa amb el mateix nombre de monedes.
+   * 41 persones * 2 monedes = 82 monedes addicionals.
+   * Hi ha una bossa extra, llavors les 42 bosses tenen un nombre de monedes que fa que cada persona en tingui una, més les dues monedes addicionals. Això vol dir que el nombre de monedes a la bossa extra, coincideix amb el nombre de monedes que tenen les persones.
+   * Per tant, cada bossa té 82 monedes.
+
+Resposta: C)

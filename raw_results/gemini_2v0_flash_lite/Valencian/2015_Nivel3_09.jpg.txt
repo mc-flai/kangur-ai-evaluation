@@ -1,0 +1,21 @@
+Raonament: Analitzem les opinions de cada jugador per determinar el capità triat per tots:
+
+*   **A:** No tria C ni E.
+*   **B:** No tria C ni D.
+*   **C:** Prefereix A a B, D i E.
+*   **D:** Prefereix A o C.
+*   **E:** Prefereix C a B, i A a D.
+
+Podem deduir el següent:
+* C mai serà triat (A i B no el trien).
+* A pot ser triat (D i E el trien).
+* B pot ser triat (C i E no el trien).
+* D no triarà E.
+* E no triarà D.
+
+Si analitzem les opcions, veiem que només la A pot ser el capità triat, ja que:
+*   C no és triat per A i B.
+*   D no és triat per B.
+*   E no és triat per A.
+
+Resposta: A)

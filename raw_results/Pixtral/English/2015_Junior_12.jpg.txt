@@ -1,0 +1,15 @@
+
+Reasoning: To find the shortest path from "Start" to "Ziel" on a grid of squares with side lengths of 1, we need to consider the most direct route. Moving along the sides and diagonals of the squares, the shortest path will be a straight line from the starting point to the target point. Since the grid is a 3x3 grid, the shortest path will be a diagonal from one corner to the opposite corner.
+
+Steps:
+1. Identify the starting point and the target point.
+2. Determine the number of squares the path must cross diagonally.
+3. Calculate the total distance covered by the diagonal path.
+
+The grid is 3x3, so the shortest path will be a diagonal from one corner to the opposite corner, crossing through two squares diagonally.
+
+Distance calculation:
+- The diagonal of a square with side length 1 can be calculated using the Pythagorean theorem: diagonal = √(side^2 + side^2) = √(1^2 + 1^2) = √2.
+- The total distance for the diagonal path crossing through two squares is 2 * √2.
+
+Answer: C

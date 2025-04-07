@@ -1,0 +1,154 @@
+Raonament:
+Tenim dues equacions:
+1) 2017 + x = y^2
+2) 2017 + y = x^2
+Restem la segona equació de la primera:
+(2017 + x) - (2017 + y) = y^2 - x^2
+x - y = y^2 - x^2
+x - y = (y - x)(y + x)
+x - y = -(x - y)(x + y)
+Com que x i y són diferents, x - y ≠ 0, per tant podem dividir per x - y:
+1 = -(x + y)
+x + y = -1
+Ara substituïm y = -1 - x en la primera equació:
+2017 + x = (-1 - x)^2
+2017 + x = 1 + 2x + x^2
+x^2 + x - 2016 = 0
+Resolent aquesta equació quadràtica per a x, tenim:
+x = (-1 ± √(1 + 4 * 2016)) / 2
+x = (-1 ± √(8065)) / 2
+Llavors, a partir de x + y = -1, y = -1 - x.
+Multipliquem les dues equacions originals per obtenir una nova equació:
+(2017+x)(2017+y) = y^2 * x^2
+2017^2 + 2017x + 2017y + xy = (xy)^2
+2017^2 + 2017(x+y) + xy = (xy)^2
+Sabem que x+y = -1
+2017^2 + 2017(-1) + xy = (xy)^2
+2017^2 - 2017 + xy = (xy)^2
+4068289 - 2017 + xy = (xy)^2
+4066272 + xy = (xy)^2
+Considerant x + y = -1, podem reescriure les equacions originals com:
+x - y^2 = -2017
+y - x^2 = -2017
+Igualant les dues expressions:
+x - y^2 = y - x^2
+x - y = y^2 - x^2
+x - y = (y-x)(y+x)
+Si x != y, llavors x + y = -1
+A partir de 2017 + x = y^2 i 2017 + y = x^2
+2017+x=y^2
+2017+y=x^2
+Subtracting the equations we get:
+x-y = y^2-x^2
+x-y = (y-x)(y+x)
+Since x != y:
+x-y != 0
+Dividing by x-y we get:
+1 = -(x+y)
+x+y=-1
+Then x = -1-y.
+Substitute into the equation 2017+x = y^2
+2017 - 1 - y = y^2
+2016 - y = y^2
+y^2 + y - 2016 = 0
+But then x - y^2 = -2017 and y - x^2 = -2017, we can substract the two equations:
+x - y - y^2 + x^2 = 0
+Since x + y = -1, we substitute x = -1 -y
+(-1-y) - y - y^2 + (-1-y)^2 = 0
+-1-y-y-y^2 + 1+2y+y^2 = 0
+-1 - 2y + 1 + 2y = 0
+This doesn't help.
+Since x + y = -1, y = -1-x. Then the product xy will be:
+xy = x(-1-x) = -x-x^2
+Then 2017 + x = (-1-x)^2 = 1 + 2x + x^2, or x^2 + x - 2016 = 0.
+So x = (-1 +/- sqrt(1+4*2016))/2
+Multiply the equations:
+(2017+x)(2017+y) = x^2 y^2
+2017^2 + 2017x + 2017y + xy = x^2 y^2
+2017^2 + 2017(x+y) + xy = x^2 y^2
+x+y=-1,
+2017^2 - 2017 + xy = x^2y^2.
+(xy)^2 - xy - 2017*2016=0
+xy(xy-1) = 2017*2016.
+But we know x+y = -1. Then
+(x+y)^2 = 1 = x^2+2xy+y^2
+and we also have y^2 - x = 2017, x^2 - y = 2017
+So, y^2-x = x^2-y, and x^2 - y^2 = y-x,
+and (x-y)(x+y) = -(x-y) so either x=y or x+y = -1. Since x and y are different, x+y=-1.
+Also, x, y are roots of equation t^2+t+k=0
+x+y = -1, so x = -1-y,
+Then x = -1-y, and y = -1-x
+Then xy is a root of x+y=-1
+2017 + x = y^2
+2017 + y = x^2
+subtracting y^2 - x^2 = x-y
+(y-x)(y+x) = x-y
+(y-x)(y+x) + (y-x) = 0
+(y-x)(y+x+1) = 0. since y is not x, y+x+1 = 0 or y+x = -1
+x+y=-1
+2017+x = y^2.
+x=y^2-2017.
+Substituting to x+y=-1 gives
+y^2-2017+y = -1
+y^2+y-2016=0.
+y(y+1) = 2016,
+xy+x = -x
+2017+x=y^2
+y^2+x-2016=0
+xy = -2016
+y = -1-x
+x(-1-x)=xy
+-x-x^2=xy.
+Since x+y=-1, y=-x-1.
+2017 + x = y^2
+2017 + x = (-1-x)^2 = 1 + 2x + x^2
+x^2 + x - 2016 = 0.
+y = -1-x
+xy = -x - x^2
+y^2=2017+x
+so x = -1-y. Then x+y=-1
+Then x+y = -1. And x=y^2-2017, x^2 - y = 2017.
+xy=-x-x^2
+x + y = -1. Then y = -x-1
+2017 + x = (-1-x)^2 = 1 + 2x + x^2
+x^2 + x - 2016 = 0.
+xy = x(-1-x) = -x-x^2.
+2017 + x = y^2, so x=y^2-2017
+x^2 = 2017+y
+From x+y=-1 -> y=-1-x
+2017+(-1-x)
+x(y) = -x-x^2.
+The result should be -2016
+From x+y = -1, y = -1 -x
+xy = x(-1-x) = -x-x^2
+From 2017 + x = y^2, so y^2-x=2017
+From 2017 + y = x^2.
+Since x+y=-1. Then x=y^2-2017
+x^2 = 2017 + y. 2017+y = x^2. y=-1-x
+x^2=2017+(-1-x)
+x^2=2016-x
+x^2+x-2016=0. x=(-1+-sqrt(1+4*2016))/2
+2017 + x = y^2, 2017+y = x^2
+x-y=y^2-x^2
+x-y = (y-x)(y+x)
+x-y= - (x-y)(x+y)
+Since x!= y, x+y=-1.
+x=-1-y
+2017 + x = y^2
+2017 + (-1-y) = y^2
+2016-y = y^2
+y^2+y-2016=0
+y = (-1+-sqrt(1+4*2016))/2
+xy = -x-x^2
+So, from the first and the second equation:
+x + y = -1
+2017 + x = y^2, 2017 + y = x^2
+Then we have, xy=x(-1-x)
+2017 + x = y^2, y = -1-x
+So 2017 + x = (-1-x)^2 = 1 + 2x + x^2
+0=x^2 + x - 2016
+xy = -x-x^2. We know that x^2 = 2016 - x
+So xy=-x- (2016-x)
+=-2016
+
+Resposta: B)

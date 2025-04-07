@@ -1,0 +1,26 @@
+Reasoning:
+Let $T$ be the total number of students in the class.
+We are given that $\frac{3}{8}$ of the students swim. We are also given that 5 students do both swimming and dancing.
+The students who swim are those who only swim and those who swim and dance. Let $S$ be the number of students who only swim.
+Then the number of students who swim is $S + 5$.
+So, $\frac{3}{8}T = S + 5$.
+We also know that $T$ must be a multiple of 8 since $\frac{3}{8}T$ is the number of students who swim, which must be an integer. The possible values for $T$ from the options are 16, 24, 32, 40, 48.
+
+If $T=16$, then $\frac{3}{8}T = \frac{3}{8}(16) = 6$. Then $S + 5 = 6$, so $S = 1$.
+The students are those who swim only, dance only, and swim and dance. If $D$ is the number of students who only dance, then $T = S + D + 5$. Since $T = 16$ and $S = 1$, we have $16 = 1 + D + 5$, so $D = 10$. This works.
+
+If $T=24$, then $\frac{3}{8}T = \frac{3}{8}(24) = 9$. Then $S + 5 = 9$, so $S = 4$.
+$T = S + D + 5$, so $24 = 4 + D + 5$, so $D = 15$. This also works.
+
+If $T=32$, then $\frac{3}{8}T = \frac{3}{8}(32) = 12$. Then $S + 5 = 12$, so $S = 7$.
+$T = S + D + 5$, so $32 = 7 + D + 5$, so $D = 20$. This also works.
+
+If $T=40$, then $\frac{3}{8}T = \frac{3}{8}(40) = 15$. Then $S + 5 = 15$, so $S = 10$.
+$T = S + D + 5$, so $40 = 10 + D + 5$, so $D = 25$. This also works.
+
+If $T=48$, then $\frac{3}{8}T = \frac{3}{8}(48) = 18$. Then $S + 5 = 18$, so $S = 13$.
+$T = S + D + 5$, so $48 = 13 + D + 5$, so $D = 30$. This also works.
+
+The question asks for at least how many students are in class, so we should choose the smallest possible number of students. The smallest possible number of students in the class is 16.
+
+Answer: A)

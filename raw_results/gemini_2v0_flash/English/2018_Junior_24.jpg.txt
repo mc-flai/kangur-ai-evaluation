@@ -1,0 +1,7 @@
+Reasoning:
+Let $R$ be the radius of the outer circle and $r$ be the radius of the inner circle, so $R=9$ and $r=1$. Let $\rho$ be the radius of one of the $n$ circles. Since this circle touches both the inner and outer circles, its center must lie on a circle with radius $\frac{R+r}{2} = \frac{9+1}{2} = 5$. The radius $\rho$ of the inner circles satisfies $\rho = \frac{R-r}{2} = \frac{9-1}{2} = 4$.
+
+If we have $n$ circles inside the annulus, each with radius $\rho = 4$, then the centers of the circles are located on a circle of radius 5. Let $\theta$ be the angle between the centers of two adjacent circles. Then the distance between the two centers is $2\rho = 8$. The distance can also be expressed as $2(5) \sin(\theta/2)$. Thus we have $8 = 10\sin(\theta/2)$, so $\sin(\theta/2) = 4/5$. Since $\theta/2 = \arcsin(4/5)$, then $\theta = 2\arcsin(4/5)$.
+The sum of the angles between the centers must be less than or equal to $2\pi$. Thus, $n\theta \le 2\pi$, so $n(2\arcsin(4/5)) \le 2\pi$, so $n \le \frac{\pi}{\arcsin(4/5)}$. Since $\arcsin(4/5) \approx 0.927$, we have $n \le \frac{\pi}{0.927} \approx \frac{3.14}{0.927} \approx 3.38$. Since $n$ must be an integer, the maximum value of $n$ is 3.
+
+Answer: C)

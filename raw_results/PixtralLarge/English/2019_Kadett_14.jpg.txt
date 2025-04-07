@@ -1,0 +1,21 @@
+The problem states that each pair of people who know each other shake hands exactly once. Given this, we know the following:
+
+- Anna shakes hands once.
+- Bella shakes hands twice.
+- Claire shakes hands three times.
+- Dora shakes hands four times.
+
+To determine how many people Erika shakes hands with, we need to look at the total number of handshakes and who shook hands with whom.
+
+Given that each person shakes hands with everyone else exactly once and knowing the number of handshakes each person participated in, we can deduce the following:
+
+- Anna has only one handshake, which must be with someone who has more handshakes.
+- Bella has two handshakes. One of these must be with Anna and the other with someone else.
+- Claire has three handshakes. One with Anna, one with Bella, and one with someone else.
+- Dora has four handshakes. One with Anna, one with Bella, one with Claire, and one with someone else.
+
+Since Erika is the only person left, she must have shaken hands with Anna, Bella, Claire, and Dora. This means Erika also has four handshakes.
+
+**Reasoning**: Erika must have shaken hands with each of the four other attendees at the party since each person shakes hands with every other person exactly once.
+
+**Answer**: D)

@@ -1,0 +1,23 @@
+Razonamiento:
+Actualmente, el padre tiene 36 votos y los hijos tienen 13 + 6 + 4 = 23 votos. Para que los hijos ganen una votación con el padre votando en contra, necesitan tener más de 36 votos en total.
+Sea *x* el número de años que deben pasar. Después de *x* años, el padre tendrá 36 + *x* votos y los hijos tendrán 13 + *x* , 6 + *x*, 4 + *x* votos respectivamente. El total de votos de los hijos será (13 + *x*) + (6 + *x*) + (4 + *x*) = 23 + 3*x*.
+Queremos encontrar el valor mínimo de *x* tal que 23 + 3*x* > 36.
+Restamos 23 de ambos lados de la desigualdad:
+3*x* > 36 - 23
+3*x* > 13
+Dividimos ambos lados por 3:
+*x* > 13/3
+*x* > 4.333...
+Dado que *x* debe ser un entero, el valor mínimo de *x* es 5.
+En 5 años:
+Padre: 36+5 = 41
+Hijos: 13+5 + 6+5 + 4+5 = 18+11+9 = 38
+Después de 5 años, los hijos no ganan la votación, porque con el padre en contra (0 votos) la votación sería 38>0, pero no es la ganancia, dado que necesita ser más de 41, que sería el voto si el padre votase a favor de sí mismo, sin embargo, si el padre vota en contra, la votación debe ser mayor de 0. El padre no está votando, sino que los hijos ganen la votación en contra del padre, deben ser más de 36.
+Después de 5 años, el padre tiene 36+5=41 votos. Los hijos tiene 13+5+6+5+4+5 = 18+11+9=38 votos. Aquí 38<41, pero los hijos necesitan tener más de 36 para ganar si el padre vota en contra.
+Si *x*=6, Padre tiene 36+6=42, hijos tienen 13+6+6+6+4+6 = 19+12+10=41. No se gana la votación.
+Si *x*=7, Padre tiene 36+7=43, hijos tienen 13+7+6+7+4+7 = 20+13+11=44. Los hijos ganan con una votación de 44-43. Dado que estamos considerando el padre votando en contra, si el padre no vota la votación de los hijos debe ser más grande que el padre, entonces 44 > 36.
+Si *x*=5, entonces, padre=36+5=41. hijos: 13+5+6+5+4+5= 18+11+9=38.
+Si *x*=6, padre=36+6=42, hijos: 13+6+6+6+4+6= 19+12+10=41.
+Si *x*=7, padre=36+7=43, hijos: 13+7+6+7+4+7= 20+13+11=44. 44>36.
+
+Respuesta: C)

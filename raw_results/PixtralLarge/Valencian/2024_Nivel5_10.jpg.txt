@@ -1,0 +1,33 @@
+Per resoldre aquesta pregunta, hem de trobar l'àrea màxima d'un paral·lelogram rectangle amb un perímetre de 40 metres, on les longituds dels costats són nombres primers.
+
+**Raonament:**
+
+1. El perímetre d'un paral·lelogram rectangle es dona per:
+
+\[ P = 2(a + b) \]
+
+on \( a \) i \( b \) són els costats del paral·lelogram. Tots dos costats han de ser nombres primers.
+
+2. Donat que el perímetre és 40 metres:
+
+\[ 2(a + b) = 40 \]
+\[ a + b = 20 \]
+
+3. Hem de trobar parelles de nombres primers que sumin 20. Els nombres primers menors de 20 són: 2, 3, 5, 7, 11, 13, 17, 19.
+
+4. Provem les combinacions de sumes d'aquests nombres primers per trobar una parella que sumi 20:
+   - 3 + 17 = 20
+   - 7 + 13 = 20
+
+5. Calculem l'àrea per cada parella:
+   - Per \(a = 3\) i \(b = 17\):
+
+\[ \text{Àrea} = a \times b = 3 \times 17 = 51 \, \text{m}^2 \]
+
+   - Per \(a = 7\) i \(b = 13\):
+
+\[ \text{Àrea} = a \times b = 7 \times 13 = 91 \, \text{m}^2 \]
+
+6. De les parelles calculades, la màxima àrea és 91 m².
+
+**Resposta:** C)

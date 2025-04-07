@@ -1,0 +1,49 @@
+**Reasoning**: 
+The problem gives us the following relations:
+
+1. An apple and an orange weigh as much as a pear and a peach.
+2. An apple and a pear weigh less than an orange and a peach.
+3. A pear and an orange weigh less than an apple and a peach.
+
+Let's denote the weights of the fruits as follows:
+- Apple: A
+- Orange: O
+- Pear: P
+- Peach: H
+
+From the given relations:
+1. A + O = P + H
+2. A + P < O + H
+3. P + O < A + H
+
+We need to determine which fruit is the heaviest. To solve this, we can start by analyzing the inequalities.
+
+From the first relation, we get:
+A + O = P + H
+
+From the second relation, we get:
+A + P < O + H
+Replacing A from the first relation, we get:
+P + H - O + P < O + H
+2P < O + H + O
+2P < 2O + H
+P < O + H
+
+From the third relation, we get:
+P + O < A + H
+Replacing A from the first relation, we get:
+P + O < P + H - O + H
+O < H
+
+We already know from the second relation:
+A + P < O + H
+Replacing O from the previous inequality, we get:
+A + P < H + H
+A + P < 2H
+A < 2H - P
+
+Since P < O + H and O < H, it suggests that the peach (H) is the fruit with the greatest weight.
+
+**Answer**: C)
+
+**Note**: The reasoning assumes that the weights of the fruits are distinct and the relations are consistent.

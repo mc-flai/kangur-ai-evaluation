@@ -1,0 +1,28 @@
+Reasoning:
+Let's denote the weight of each fruit with the first letter of its name. We are given the following information:
+1.  A + O = P + C
+2.  A + P < O + C
+3.  P + O < A + C
+
+From (2), A + P < O + C, and from (1), O + C = A + O - P + O + C, A + P < A + O, thus P < O
+From (3), P + O < A + C, and from (1), A + C = A + O - P + A + C, therefore P + O < A + O - P + A + C, which simplifies to P < A + C - P, which means that 2P < A + C
+From (2), A + P < O + C, and from (3), P + O < A + C,  Combining these two inequalities we can deduce that A+P+P+O < A+C+O+C which is the same as 2P < 2C which is the same as P < C
+Using the equation (1) we can rearrange it and obtain:
+A + O = P + C
+A = P + C - O.
+Replacing A in the equation (2) :
+A + P < O + C
+P + C - O + P < O + C
+2P < 2O
+P < O
+Then we have from (3) that P + O < A + C, we can do some substitution. From (1) A = P + C - O, P + O < P + C - O + C,
+2O < 2C,
+O < C
+Thus combining all equations:
+P < O < C,
+
+From equation (2), apple and pear < orange and peach. Since pear is the least heavy, then orange is less heavy than peach.
+From equation (3), pear and orange < apple and peach.
+The order of weights is pear < orange. Apple is heavier than pear but comparing apple and peach is not direct. However, from A + O = P + C and P < O < C. This implies that A > P and the heaviest can be peach. So, peach is the heaviest.
+
+Answer: C)

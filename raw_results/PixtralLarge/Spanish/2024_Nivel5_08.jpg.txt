@@ -1,0 +1,24 @@
+**Instrucciones**:
+  
+Para resolver la pregunta, necesitamos encontrar el número palíndromo de tres cifras de la forma 'aba', donde a y b son iguales o diferentes, y la suma de los dígitos del mayor palíndromo de tres cifras que es múltiplo de 6.
+
+1. **Encuentra el mayor palíndromo de tres cifras que es múltiplo de 6**:
+   - Un número palíndromo de tres cifras tiene la forma 'aba'.
+   - Para que sea múltiplo de 6, debe ser divisible tanto por 2 como por 3.
+   - Dado que 'a' debe ser par para que el número sea divisible por 2, los posibles valores de 'a' son 2, 4, 6 u 8.
+   - Para que sea divisible por 3, la suma de los dígitos (a + b + a) debe ser divisible por 3.
+
+2. **Determina el mayor palíndromo**:
+   - Comenzamos con el mayor valor posible de 'a', que es 8.
+   - El número será de la forma '8b8'.
+   - La suma de los dígitos es 8 + b + 8 = 16 + b.
+   - Para que sea divisible por 3, 16 + b debe ser divisible por 3.
+   - El valor más alto de b que satisface esta condición y mantiene el número como palíndromo es 2 (ya que 16 + 2 = 18, que es divisible por 3).
+   - Por lo tanto, el mayor palíndromo de tres cifras que es múltiplo de 6 es 828.
+
+3. **Calcula la suma de los dígitos de 828**:
+   - La suma de los dígitos es 8 + 2 + 8 = 18.
+
+**Razonamiento**: El mayor palíndromo de tres cifras que es múltiplo de 6 es 828, y la suma de sus dígitos es 18.
+
+**Respuesta**: B).

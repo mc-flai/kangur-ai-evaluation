@@ -1,0 +1,24 @@
+Per resoldre la pregunta, hem de determinar el nombre mínim de pals negres que s'han d'utilitzar per complir la condició que cada quadrat d'1x1 dins de la quadrícula de 3x3 tingui quatre costats de colors diferents.
+
+1. **Identificació dels colors i els costats**:
+   - Cada quadrat d'1x1 té quatre costats.
+   - Els colors disponibles són blau, vermell, verd i negre.
+   - Per complir la condició, cada quadrat d'1x1 ha de tenir un costat de cada color.
+
+2. **Distribució dels colors**:
+   - Si considerem una quadrícula de 3x3, hi ha 9 quadrats d'1x1.
+   - Cada quadrat d'1x1 necessita un costat negre, i cada costat ha de ser compartit amb un altre quadrat d'1x1.
+
+3. **Compartició dels costats**:
+   - Cada costat negre pot ser compartit per dos quadrats d'1x1 adjacents.
+   - Per tant, el nombre mínim de pals negres necessaris és la meitat del nombre total de quadrats d'1x1.
+
+4. **Càlcul**:
+   - Total de quadrats d'1x1: 9.
+   - Cada costat negre és compartit per dos quadrats, per tant, necessitem 9/2 = 4.5.
+   - Com no podem tenir mitja bastoneta, arrodonim cap amunt a 5.
+
+Per tant, el nombre mínim de pals negres que s'han d'utilitzar és 5.
+
+Raonament: Cada quadrat d'1x1 necessita un costat negre, i cada costat negre és compartit per dos quadrats, per tant, el nombre mínim de pals negres necessaris és 5.
+Resposta: C)

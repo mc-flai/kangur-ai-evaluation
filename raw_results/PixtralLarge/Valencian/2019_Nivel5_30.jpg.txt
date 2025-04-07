@@ -1,0 +1,22 @@
+Per resoldre aquest problema, hem de determinar la propietat dels nombres dins del conjunt {1000, 1001, 1002, 1003, ..., 1998, 1999} quan eliminem una xifra qualsevol.
+
+**Raonament**:
+
+1. **Identificar els nombres dins del conjunt**:
+   Els nombres dins del conjunt tenen com a mínim quatre xifres i com a màxim quatre xifres (de 1000 a 1999).
+
+2. **Eliminar una xifra qualsevol**:
+   Si eliminem una xifra qualsevol d'aquests nombres, obtenim un nombre de tres xifres.
+
+3. **Determinar la propietat**:
+   Quan eliminem una xifra qualsevol, el nombre resultant serà sempre un divisor del nombre original? Per respondre a aquesta pregunta, considerem un exemple.
+
+   - Suposant que el nombre original és 1000. Si eliminem la xifra 0, obtenim 100.
+   - 100 no és un divisor de 1000.
+
+   Això demostra que no tots els nombres resultants són divisors del nombre original.
+
+4. **Conclusió**:
+   La propietat que s'està buscant és la de no ser un divisor del nombre original quan s'elimina una xifra qualsevol.
+
+**Resposta**: E) Cap.

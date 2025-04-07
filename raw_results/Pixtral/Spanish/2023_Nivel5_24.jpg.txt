@@ -1,0 +1,25 @@
+
+Razonamiento: Primero, identifiquemos los tiempos dados:
+- El teléfono de Melisa está completamente cargado.
+- Se usa durante 32 horas en total.
+- Se usa 20 horas para Internet.
+- Se usa 80 horas sin usar Internet.
+
+El teléfono tiene tres modos de uso: en el tren, en Internet por teléfono y sin usar Internet. El tiempo total de uso es 32 horas. El tiempo total sin usar Internet es 80 horas. El tiempo en Internet por teléfono y el tiempo de uso general deben sumar 32 horas.
+
+Sea T el tiempo en el tren, I el tiempo en Internet por teléfono e N el tiempo sin usar Internet. Entonces, tenemos:
+T + I + N = 32 horas
+N = 80 horas
+
+De la segunda ecuación, podemos encontrar el tiempo en Internet por teléfono:
+I = 32 horas - T
+
+El tiempo total de uso es 32 horas, y el tiempo sin usar Internet es 80 horas. Por lo tanto, el tiempo en el tren debe ser:
+T = 32 horas - 80 horas = -48 horas
+
+Esto no es posible, por lo que debemos revisar nuestras ecuaciones. El tiempo en el tren debe ser positivo y menor que el tiempo total de uso. Revisando, encontramos que el tiempo en el tren debe ser:
+T = 32 horas - 80 horas = 48 horas
+
+Por lo tanto, el tiempo en el tren es 48 horas.
+
+Respuesta: C)

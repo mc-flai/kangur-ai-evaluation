@@ -1,0 +1,15 @@
+Razonamiento:
+Let the numbers in the circles be $x_1, x_2, x_3, x_4, x_5, x_6, x_7$ in clockwise order, starting from 3. So, $x_1=3$ and $x_4=5$. The condition states that each number is the sum of its two neighbors.
+So,
+$x_1 = x_7 + x_2 \implies 3 = x_7 + x_2$
+$x_2 = x_1 + x_3 \implies x_2 = 3 + x_3$
+$x_3 = x_2 + x_4 \implies x_3 = x_2 + 5$
+$x_4 = x_3 + x_5 \implies 5 = x_3 + x_5$
+$x_5 = x_4 + x_6 \implies x_5 = 5 + x_6$
+$x_6 = x_5 + x_7 \implies x_6 = x_5 + x_7$
+$x_7 = x_6 + x_1 \implies x_7 = x_6 + 3$
+From these equations we have:
+$x_3 = x_2 + 5$ and $x_2 = 3 + x_3$.
+Substituting $x_2$ in the first equation, we have $x_3 = 3 + x_3 + 5$, so $0=8$, which is a contradiction. Therefore, it is not possible to find such numbers.
+
+Respuesta: E)

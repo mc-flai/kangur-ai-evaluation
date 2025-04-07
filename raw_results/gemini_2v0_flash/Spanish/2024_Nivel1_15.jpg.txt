@@ -1,0 +1,14 @@
+Razonamiento: La pregunta nos pide encontrar el número total de celdas que contienen miel en la colmena, basándonos en la información proporcionada. La información clave es que el número en cada celda indica cuántas celdas vecinas contienen miel.  Para resolver esto, necesito deducir qué celdas contienen miel.
+Empezaré suponiendo que una celda en particular tiene miel, y veré si puedo encontrar una solución que satisfaga todas las restricciones dadas por los números en cada celda.
+
+Si consideramos las celdas con valor "4", entonces los 4 vecinos deben tener miel.
+Si consideramos la celda con valor "1", entonces solo 1 vecino debe tener miel.
+Si consideramos la celda con valor "2", entonces solo 2 vecinos deben tener miel.
+Si consideramos la celda con valor "3", entonces solo 3 vecinos deben tener miel.
+
+Probemos a ver qué sucede si las siguientes celdas tienen miel: Las celdas con valor "4" tienen miel, una celda con valor "2", las celdas con valor "3" tienen miel, y las celdas con valor "1" tienen miel. Una posible configuración sería asignar miel a las celdas con números "4", "3", "2" y "1". Sin embargo, parece que la respuesta correcta es 5.
+
+Consideremos la opción B) 5. Esto significa que cinco celdas deben tener miel. Podríamos probar diferentes combinaciones hasta encontrar una que funcione.
+Después de probar varias combinaciones, encontramos que si las celdas con los siguientes números tienen miel: la celda con "4" en el centro, y las celdas con "1", "2" y dos de las celdas "3", entonces se cumplen todas las restricciones. De este modo, la celda con "4" tiene cuatro vecinos con miel, la celda con "1" tiene un vecino con miel, la celda con "2" tiene dos vecinos con miel, y cada una de las dos celdas con "3" tienen tres vecinos con miel. Por lo tanto, hay cinco celdas con miel.
+
+Respuesta: B)

@@ -1,0 +1,31 @@
+Para resolver este problema, debemos seguir los pasos dados en la pregunta:
+
+1. Diana piensa en un número entero positivo menor que 10.
+2. Luego, lo multiplica por 5.
+3. Luego, suma otro número entero positivo menor que 5 y duplica el resultado.
+
+El valor final dado es 46. Necesitamos encontrar la suma de los números que Diana pensó.
+
+Razonamiento:
+1. Sea el número que Diana pensó \( x \).
+2. Multiplicó \( x \) por 5, por lo que el resultado intermedio es \( 5x \).
+3. Luego, sumó otro número entero positivo menor que 5, llamémoslo \( y \), y duplicó el resultado. Por lo tanto, el valor final es \( 2(5x + y) \).
+
+Dado que el valor final es 46, podemos escribir la ecuación:
+\[ 2(5x + y) = 46 \]
+
+Resolviendo para \( 5x + y \):
+\[ 5x + y = \frac{46}{2} \]
+\[ 5x + y = 23 \]
+
+Para encontrar \( x \) y \( y \), necesitamos números que sumen 23 y sean menores que 5. Los números posibles para \( y \) son 1, 2, 3 y 4.
+
+Pruebe cada valor de \( y \):
+- Si \( y = 1 \), entonces \( 5x = 23 - 1 = 22 \), pero 22 no es divisible por 5.
+- Si \( y = 2 \), entonces \( 5x = 23 - 2 = 21 \), pero 21 no es divisible por 5.
+- Si \( y = 3 \), entonces \( 5x = 23 - 3 = 20 \), y \( x = \frac{20}{5} = 4 \), que es menor que 10.
+- Si \( y = 4 \), entonces \( 5x = 23 - 4 = 19 \), pero 19 no es divisible por 5.
+
+Por lo tanto, \( x = 4 \) y \( y = 3 \).
+
+Respuesta: C)

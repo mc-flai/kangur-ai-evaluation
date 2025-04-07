@@ -1,0 +1,28 @@
+Raonament: Intentem trobar un nombre que compleixi les condicions.
+- a és múltiple de 1 (això sempre és cert)
+- a+1 és múltiple de 2 (a és imparell)
+- a+2 és múltiple de 3
+- a+3 és múltiple de 4
+- a+4 és múltiple de 5 (a acaba en 1 o en 6)
+- a+5 no és múltiple de 6
+
+Com a ha de ser imparell, i ha d'acabar en 1 o 6, llavors a acaba en 1. Per tant, a = 10k+1.
+
+a+2 = 10k+3 ha de ser múltiple de 3, així que 10k+3 = 3n, per tant 10k ha de ser múltiple de 3 (ja que 3n és múltiple de 3). Això implica que k és múltiple de 3. Així doncs, k = 3m.
+
+a = 10(3m)+1 = 30m+1.
+a+3 = 30m+4 ha de ser múltiple de 4. 30m+4 = 4l, per tant, 30m ha de ser múltiple de 4. Això implica que 15m ha de ser múltiple de 2, per tant m ha de ser parell, m = 2p.
+
+a = 30(2p)+1 = 60p+1
+a+4 = 60p+5 ha de ser múltiple de 5 (sempre es compleix)
+
+a+5 = 60p+6 no ha de ser múltiple de 6. Si p=0, a=1, llavors a+5 = 6, que SÍ és múltiple de 6, per tant p no pot ser 0. Si p=1, a=61, llavors a+5 = 66, que SÍ és múltiple de 6, per tant p no pot ser 1.
+Si p=2, a=121, llavors a+5=126, que SÍ és múltiple de 6.
+Si p=3, a=181, llavors a+5=186, que SÍ és múltiple de 6.
+Si p=4, a=241, llavors a+5=246, que SÍ és múltiple de 6.
+Si p=5, a=301, llavors a+5=306, que SÍ és múltiple de 6.
+
+Aparentment hi ha un patró. a+5 = 60p+6 = 6(10p+1). Sembla que sempre serà múltiple de 6.
+Per tant, la resposta és que no existeix tal nombre.
+
+Resposta: A)

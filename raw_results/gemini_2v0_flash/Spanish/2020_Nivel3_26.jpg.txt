@@ -1,0 +1,29 @@
+Razonamiento: Dado que se trata de triángulos rectángulos isósceles, dos de estos triángulos pueden formar un cuadrado. Por lo tanto, podemos formar un cuadrado con 2, 4, 6, ..., 52 triángulos. Necesitamos encontrar cuántos números pares hay entre 2 y 52 (inclusive). Esto es equivalente a dividir cada número por 2 y contar cuántos números hay entre 1 y 26. Hay 26 números en este rango. Sin embargo, cada cuadrado está formado por 2n triángulos, donde n es un entero. Entonces necesitamos encontrar los valores de n tales que 2n <= 52 o n <= 26.
+
+La cantidad de triángulos necesarios para formar un cuadrado deben ser un número par. El menor número de triángulos es 2, el siguiente es 4, luego 8, 16, etc. La cantidad de triángulos requeridos para formar un cuadrado debe ser de la forma 2k, donde k es un entero. Queremos encontrar cuántos valores diferentes de k existen tal que 2k <= 52. Los posibles valores son k = 1, 2, 3, 4, 5. Luego 21 = 2, 22 = 4, 23 = 8, 24 = 16, 25 = 32. Podemos también formar un cuadrado de 50 triángulos, y otro de 52 triángulos.
+Si usas n triángulos, como cada par de triángulos forma un cuadrado, y cada cuadrado está hecho de cuatro triángulos, el número de triángulos disponibles (52) debe poder dividirse por 4. Por lo tanto podemos tener cuadrados con número de triángulos igual a 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52. Esto implica 13 posibles diferentes tamaños de cuadrados si cada uno de ellos es formado por cuatro triángulos.
+
+Sin embargo, se pueden crear cuadrados uniendo dos triángulos para formar un cuadrado, y luego uniendo estos cuadrados más pequeños para hacer cuadrados más grandes. Así que, para tener un cuadrado de lado 1, se necesitan 2 triángulos. Para un cuadrado de lado 2, se necesitan 8 triángulos. Para un cuadrado de lado 3, 18 triángulos y así.
+Si tenemos x triángulos pequeños, el cuadrado mayor posible está formado de x triángulos pequeños. Si el cuadrado mayor posible usa 4n triángulos pequeños, entonces tenemos que encontrar el número de enteros positivos n tales que 4n <=52 or n<=13. De igual forma, si usamos 2n triángulos pequeños para formar el cuadrado mayor, entonces 2n<=52 or n<=26. Los enteros entre 1 y 26 son 26 en número, y el cuadrado máximo posible con 52 triángulos es 52. En este sentido, el número de cuadrados diferentes posibles serían n, donde n es el número de triángulos usados, entre 2 y 52.
+
+Los tamaños de cuadrados diferentes posibles serían:
+2, 4, 8, 10, 16, 18, 20, 32, 34, 36, etc. El número de posibles cuadrados es 26. Sin embargo, se pueden formar cuadrados más grandes con otros más pequeños. Para determinar el número correcto, encontramos los números pares n tales que 2n<=52 or n<=26. Entonces n=26. Los posibles valores del número de cuadrados son 2, 4, 6, ... ,52. Entonces 2k<=52 or k<=26. Entonces 26 valores diferentes de k son posibles.
+
+Los factores de 52 son 1, 2, 4, 13, 26, 52. Entonces hay 6 factores. Posibles cuadrados se forman uniendo dos triángulos, es como unir cuadrados de 2n triángulos. Entonces número de triangles requeridos son 4, 8, 12,..., 52.
+La cantidad de diferentes tamaños de cuadrados corresponden a encontrar todos los números enteros n tal que 2*n <= 52.
+La solucion es n <=26. So, n: 1,2,3, ...,26,
+
+Los tamaños de cuadrado que puede tener son aquellos que se forman de 2 triangulos, de 4 triangulos, de 6, de 8, 10, etc hasta 52. De este modo,  hay que encontrar los numeros pares hasta el 52, es decir la mitad de ese numero. 52/2 = 26 posibles cuadrados.
+
+Los posibles tamaños de cuadrado que puedo construir es con 2 triángulos, con 4, 6, 8,... hasta 52. Es decir, numeros pares desde 2 hasta 52. Entonces hay (52-2)/2 + 1 = 50/2+1= 25+1=26.
+Estos posibles cuadrados son 2k triangulos tales que k pertenece a los Naturales.
+El número de triángulos requeridos para formar cuadrados con 2, 4, 8, 16 y 32 triángulos es 5. Además, puedo hacer un cuadrado que requiere cualquier número par de triángulos hasta 52. 52/2 = 26.
+
+Razonamiento: Podemos formar cuadrados utilizando un número par de triángulos entre 2 y 52. La cantidad de valores diferentes posibles es la cantidad de números pares de 2 a 52. Es equivalente a (52-2)/2 + 1 = 25 + 1 = 26/2=26. De igual forma, se pueden formar cuadrados de tamaño 4 con una combinación de 2, de 8 con una combinación de 4, etc...
+
+Razonamiento: Cada cuadrado necesita un número par de triángulos. Por lo tanto, podemos formar cuadrados usando 2, 4, 6, ..., 52 triángulos. Para determinar cuántos tamaños diferentes son posibles, dividimos cada número entre 2 y contamos cuántos enteros hay entre 1 y 26. Por lo tanto, hay 26 tamaños diferentes posibles. Si formamos los cuadrados con 4 triángulos, entonces podemos crear diferentes cuadrados con 4, 8, 12, 16... 52. Entonces, hay 52/4 = 13 tamanos distintos
+Debido a que son isoceles, los podemos agrupar en pares y crear diferentes cuadrados con numeros pares de triangulos.
+
+Razonamiento: Para formar un cuadrado, necesitamos un número par de triángulos. Tenemos 52 triángulos en total, así que podemos usar 2, 4, 6, 8,... 52 triángulos. Esto quiere decir, que vamos de dos en dos. Si dividimos todos estos por 2, obtendremos una lista de 1 a 26. Por lo tanto, hay 26 números posibles de triángulos que pueden formar un cuadrado. Por lo tanto, hay varios posibles cuadrados de triángulos en 26.
+
+Respuesta: A)

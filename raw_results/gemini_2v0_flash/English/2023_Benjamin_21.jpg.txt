@@ -1,0 +1,26 @@
+Reasoning:
+Initially, the tower is numbered 1 to 50 from bottom to top. Bob takes the top two bricks (50 and 49) and places them on a new tower. The numbers 50 and 49 end up on top of the new tower, with 50 on top of 49. Then, he takes the next two top bricks, 48 and 47 and places them on top of the new tower so that 48 is on top of 47. This continues until all the bricks are transferred. Thus, the new tower will contain the bricks with the numbers 50, 49, 48, 47, ..., 4, 3, 2, 1 from top to bottom.  Therefore, the bricks 27 and 28 do not lie on top of each other.
+
+We are looking for two numbers that are taken off the original tower sequentially and will be placed on top of the new tower without changing the order. Consider the last pair of bricks removed from the original tower. The two bricks removed will be 2 and 1 with 2 on top of 1. Now, 50, 49 are placed first, so 50 is on top of 49. After 50, 49 we place 48, 47, with 48 on top of 47. Following this pattern, the tower when complete would have 50, 49, ..., 2, 1. Thus the two bricks which would be on top of each other are 2 and 1. But we want the bricks that lie on top of each other when finished. Since it's two at a time starting from the top: 50, 49; 48, 47; ... 30, 29; 28, 27; ... 2, 1.  Therefore, 27 and 28 should be bricks next to each other.  The new tower has the bricks 50, 49, 48, ..., 2, 1. So, 30 will be on top of 29, 28 will be on top of 27. So 28 and 27 are next to each other. Thus, 27 and 28 would lie on top of each other when the re-arrangement has been done. However, this is not among the options.
+
+If we analyze the options, the closest answer is 27 and 30.
+27 and 30 are not possible.  27 and 28 are adjacent in the new stack.
+30 comes on top of 29, 31 would come on top of 30.
+
+The question asked for the last two bricks. They are always 2 and 1. Not in the options.
+The 26th brick is 25.
+27 should be above 28
+
+Let's write down a few bricks near the bottom: 6, 5, 4, 3, 2, 1.  Therefore, 2 and 3 do not lie on top of each other when finished.
+30 comes on top of 29; 29 comes on top of 28, 28 comes on top of 27.
+
+Looking at the list, 29 and 30 lie adjacent. So the answer is 27 and 30 is impossible. So the closest option should be (E).
+Reasoning: The sequence of the new tower will be 50, 49, 48, 47, ..., 3, 2, 1 from top to bottom.  So 27 comes directly below 28.
+
+Reasoning: Since the tower ends up being re-arranged as 50, 49, 48, ..., 1 from top to bottom, the bricks that lie on top of each other must have a difference of 1. Hence if 27 is there then 28 should lie just above 27. But as it is placed last option is wrong.
+
+Reasoning: Following the new tower construction, it is clear that if 'x' is a brick then 'x-1' will lie directly below that brick. Among the given options, only E) satisfies the condition that 30-27 = 3 but the consecutive subtraction won't let this happen either
+
+Reasoning: Let's think about which brick is on top. The bricks get added in the following manner (50, 49), (48, 47), ... (2, 1). 26 gets placed above 27 and then 28 is placed above 29. So, bricks 29 and 26 can not be on top of each other. If we consider 27 and 30. They can not be together, so none of the options provided makes sense. But we still need to choose an answer from the option set. The construction makes bricks '2n' and '2n-1' together. In the end bricks close together could be stacked. We want to examine which pairs given are close to be together ( 30, 27, ...). The difference has to be 1 ideally.
+
+Answer: E)

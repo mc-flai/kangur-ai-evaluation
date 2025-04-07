@@ -1,0 +1,7 @@
+Raisonnement :
+1. **Calcul de la taille du carré le plus grand possible** : Le carré est constitué de pions noirs et blancs alternés.  Le nombre total de pions est 2017. On cherche le plus grand entier *n* tel que *n*² <= 2017. On a 44² = 1936 et 45² = 2025. Donc, le carré le plus grand possible a 44 pions par côté, ce qui fait 1936 pions.
+2. **Calcul du nombre de pions restants** :  Il reste 2017 - 1936 = 81 pions.
+3. **Calcul du nombre de pions noirs et blancs dans le carré** : Dans un carré 44x44, il y aura un nombre égal de pions noirs et blancs ou une différence d'un au maximum. Le coin supérieur gauche est noir. Dans le carré, il y aura 1936/2 = 968 pions noirs et 968 pions blancs s'il y a un nombre pair de rangées.  Puisqu'il y a 44 rangées, le nombre de pions noirs et blancs seront égaux.
+4. **Calcul du nombre de pions noirs et blancs restants** : Le nombre de pions noirs était de 1009, et on en a utilisé 968 dans le carré. Il reste donc 1009 - 968 = 41 pions noirs restants. Le nombre de pions blancs était 2017 - 1009 = 1008. On a utilisé 968 pions blancs dans le carré. Il reste donc 1008 - 968 = 40 pions blancs.
+
+Réponse : E) 40 blancs et 41 noirs

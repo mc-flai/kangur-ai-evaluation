@@ -1,0 +1,14 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre màxim de parts en les que un cercle i un quadrilàter poden dividir un pla.
+
+**Raonament:**
+1. **Cercle:** Un cercle divideix el pla en 2 parts (interior i exterior).
+2. **Quadrilàter:** Un quadrilàter, per si mateix, divideix el pla en 2 parts (interior i exterior).
+3. **Combinació:** Quan un cercle i un quadrilàter s'intersecten, cadascuna de les parts creades pel cercle pot ser dividida pel quadrilàter.
+   - Considerem els punts d'intersecció del cercle amb els costats del quadrilàter.
+   - El cercle pot intersectar fins a 4 costats del quadrilàter, creant 4 punts d'intersecció addicionals.
+   - Això genera una combinació de parts internes i externes.
+4. **Màxim de parts:** La combinació d'un cercle i un quadrilàter pot dividir el pla en un màxim de 8 parts.
+
+Per tant, el nombre màxim de parts en què el pla pot ser dividit per un cercle i un quadrilàter és 8.
+
+**Resposta:** D)

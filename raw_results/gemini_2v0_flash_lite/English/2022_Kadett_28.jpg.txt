@@ -1,0 +1,45 @@
+Reasoning:
+Let's analyze the statements.
+*   **The Bear:** Lies on Monday, Tuesday, Wednesday. Speaks the truth on Thursday, Friday, Saturday, Sunday.
+*   **The Panther:** Lies on Thursday, Friday, Saturday. Speaks the truth on Sunday, Monday, Tuesday, Wednesday.
+
+The conversation happened on a day when both the bear and the panther lied.
+The bear's statement: "Yesterday was one of my lying days."
+The panther's statement: "Yesterday was also one of my lying days."
+
+Let's examine each day as the current day:
+
+*   **Thursday:** Bear tells the truth. The bear lied on Wednesday. The panther lies. The panther lied on Wednesday. This fits.
+*   **Friday:** Bear tells the truth. The bear lied on Thursday. Panther lies. The panther lied on Thursday. This fits.
+*   **Saturday:** Bear tells the truth. The bear lied on Friday. Panther lies. The panther lied on Friday. This fits.
+*   **Sunday:** Bear tells the truth. The bear told the truth on Saturday. Panther tells the truth. Panther told the truth on Saturday. Doesn't fit.
+*   **Monday:** Bear lies. Bear lied on Sunday. Panther tells the truth. Panther told the truth on Sunday. Doesn't fit.
+*   **Tuesday:** Bear lies. Bear lied on Monday. Panther tells the truth. Panther told the truth on Monday. Doesn't fit.
+*   **Wednesday:** Bear lies. Bear lied on Tuesday. Panther tells the truth. Panther told the truth on Tuesday. Doesn't fit.
+
+From Thursday to Saturday the bear and the panther would both have been lying the previous day. Let's consider the day following the statements:
+*If Thursday then the bear and the panther lied on Wednesday. This is one of the bears lying days so it's true, the panther also lied. This fits.
+*If Friday then the bear lied on Thursday and the panther also lied. This fits.
+*If Saturday then the bear lied on Friday and the panther also lied. This fits.
+
+However the question asks for the day the conversation took place.
+
+If the conversation took place on Thursday:
+* The bear: "Yesterday was one of my lying days." (Wednesday, the bear lies). True
+* The panther: "Yesterday was also one of my lying days." (Wednesday, the panther tells the truth). False. This is not consistent since the bear lied.
+
+If the conversation took place on Friday:
+* The bear: "Yesterday was one of my lying days." (Thursday, the bear tells the truth). True.
+* The panther: "Yesterday was also one of my lying days." (Thursday, the panther lied). True.
+The panther lied on Thursday. This fits.
+
+If the conversation took place on Saturday:
+*   The bear says: "Yesterday was one of my lying days." (Friday, bear tells the truth). True.
+*   The panther says: "Yesterday was also one of my lying days." (Friday, panther lied). True.
+The panther lied on Friday. This fits.
+
+If the conversation took place on Sunday, the bear tells the truth. The panther tells the truth. Then the bear said "Saturday was one of my lying days" and it's false. If the conversation took place on Monday, then the bear lies, and the panther tells the truth.
+
+Only Friday satisfies both lying the previous day. Therefore the question is Friday.
+
+Answer: B)

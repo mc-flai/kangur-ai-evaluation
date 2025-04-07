@@ -1,0 +1,24 @@
+Reasoning:
+We need to find the number of three-digit numbers $ABC$ such that $(A+B)^C$ is a three-digit power of 2.
+The three-digit powers of 2 are $2^7=128$, $2^8=256$, and $2^9=512$. Thus, $(A+B)^C$ can be 128, 256, or 512.
+
+Case 1: $(A+B)^C = 128 = 2^7$.
+Since $A$ and $B$ are digits from 0 to 9, $1 \le A \le 9$ and $0 \le B \le 9$.
+$A+B$ can range from 1 to 18. Since $C$ is a digit, $C$ must be 7.
+$A+B = 2$. Possible values for A and B are (1,1) and (2,0).
+Thus, we have two solutions here: 117 and 207.
+
+Case 2: $(A+B)^C = 256 = 2^8 = 4^4 = 16^2$.
+If $C=8$, then $A+B=2$. We get 118 and 208.
+If $C=4$, then $A+B=4$. Possible values for A and B are (1,3), (2,2), (3,1), and (4,0). We get 134, 224, 314, and 404.
+If $C=2$, then $A+B=16$. Possible values for A and B are (7,9), (8,8), and (9,7). We get 792, 882, and 972.
+So, in this case we have 2+4+3 = 9 solutions.
+
+Case 3: $(A+B)^C = 512 = 2^9 = 8^3$.
+If $C=9$, then $A+B=2$. We get 119 and 209.
+If $C=3$, then $A+B=8$. Possible values for A and B are (1,7), (2,6), (3,5), (4,4), (5,3), (6,2), (7,1), (8,0). We get 173, 263, 353, 443, 533, 623, 713, and 803.
+So, in this case we have 2+8=10 solutions.
+
+Total number of solutions is 2 + 9 + 10 = 21.
+
+Answer: E)

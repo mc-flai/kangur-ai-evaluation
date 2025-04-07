@@ -1,0 +1,51 @@
+Reasoning:
+First, list the powers of 2: 1, 2, 4, 8, 16, 32, 64, 128,...
+We are looking for sums of exactly six different powers of 2 that result in a two-digit number (10 to 99).
+The smallest sum of six different powers of two is 1 + 2 + 4 + 8 + 16 + 32 = 63.
+The next smallest would be 1 + 2 + 4 + 8 + 16 + 64 = 95.
+Next smallest would be 1 + 2 + 4 + 8 + 32 + 64 = 111.
+We need the sum to be between 10 and 99.
+We have:
+1 + 2 + 4 + 8 + 16 + 32 = 63
+1 + 2 + 4 + 8 + 16 + 64 = 95
+1 + 2 + 4 + 8 + 32 + 64 = 111 (too big)
+1 + 2 + 4 + 16 + 32 + 64 = 119 (too big)
+1 + 2 + 8 + 16 + 32 + 64 = 123 (too big)
+1 + 4 + 8 + 16 + 32 + 64 = 125 (too big)
+2 + 4 + 8 + 16 + 32 + 64 = 126 (too big)
+
+The largest power of 2 we can use is 64, so if we use 64, we need to find five more powers of 2 that sum to be less than 99 - 64 = 35.
+We could have: 64 + 1 + 2 + 4 + 8 + 16 = 95
+We could replace the 16 with a bigger power, but it will exceed 35.
+If we don't use 64:
+We need to find six powers of 2 that sum to at least 10. The powers of 2 available are: 1, 2, 4, 8, 16, 32. The largest power of 2 we can use is 32.
+The sums of six powers of two are of the form 2^a + 2^b + 2^c + 2^d + 2^e + 2^f, where a, b, c, d, e, f are distinct non-negative integers.
+
+Possible combinations are:
+1+2+4+8+16+32 = 63
+1+2+4+8+16+64 = 95
+
+Thus, there are two such numbers: 63 and 95.
+
+Answer: C)
+Reasoning: We are seeking the number of two-digit numbers that can be expressed as the sum of exactly six distinct powers of two. Listing the powers of two as 1, 2, 4, 8, 16, 32, 64, 128, we need to find sums of six of these, which lie between 10 and 99 inclusive. The smallest sum of six distinct powers of two is 1+2+4+8+16+32 = 63. The next smallest is 1+2+4+8+16+64 = 95. Any other combination exceeds 99. Therefore, there are two such numbers, 63 and 95.
+Answer: C)
+Reasoning: Let's find combinations of six different powers of 2 that result in a two-digit number (10-99).
+The powers of 2 are: 1, 2, 4, 8, 16, 32, 64, 128,...
+
+1+2+4+8+16+32 = 63 (two-digit number)
+1+2+4+8+16+64 = 95 (two-digit number)
+1+2+4+8+32+64 = 111 (three-digit number, too big)
+If we exclude 1: 2+4+8+16+32+64 = 126 (too big)
+So, only 63 and 95 meet the requirement. There are 2 such numbers.
+
+Answer: C)
+Reasoning: The question asks how many two-digit numbers can be written as the sum of exactly six different powers of two. Let's list some powers of 2: 1, 2, 4, 8, 16, 32, 64, 128, ... We need six distinct powers of 2 to sum to a two-digit number (10-99). The smallest sum of six distinct powers of 2 is 1 + 2 + 4 + 8 + 16 + 32 = 63. Another possible sum is 1 + 2 + 4 + 8 + 16 + 64 = 95. If we replace 32 with 64 in the first sum, we get 1 + 2 + 4 + 8 + 16 + 64 = 95. If we try 1 + 2 + 4 + 8 + 32 + 64 = 111, which is larger than 99. Thus, only 63 and 95 are valid. Therefore, there are two such numbers.
+Answer: C)
+Reasoning: We want to find the number of two-digit numbers that can be written as the sum of exactly six distinct powers of 2. The powers of 2 are 1, 2, 4, 8, 16, 32, 64, 128, etc. We need a sum between 10 and 99.
+Let's start with the smallest six powers of 2: 1+2+4+8+16+32 = 63. This is a two-digit number.
+Let's try replacing 32 with the next power of 2, 64: 1+2+4+8+16+64 = 95. This is also a two-digit number.
+Let's try replacing 16 with 64: 1+2+4+8+64+32 = 111 > 99.
+If we don't include 1, the sum will be 2+4+8+16+32+64 = 126 > 99. So we must include 1.
+The only two numbers we found are 63 and 95. There are two numbers.
+Answer: C)

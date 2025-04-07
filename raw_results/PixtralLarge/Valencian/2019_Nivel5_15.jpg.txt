@@ -1,0 +1,35 @@
+Per resoldre aquesta pregunta, hem de determinar quina de les imatges dels daus no pot ser una vista d'un dau marcat amb 1, 2 o 3 punts.
+
+**Raonament:**
+
+1. **Probabilitats i Configuracions**:
+   - La probabilitat d'obtenir un 1 és 1/2.
+   - La probabilitat d'obtenir un 2 és 1/3.
+   - La probabilitat d'obtenir un 3 és 1/6.
+
+2. **Distribució dels Punts**:
+   - Un dau amb 1, 2 i 3 punts té un total de 6 punts.
+   - Si la probabilitat d'obtenir un 1 és 1/2, significa que hi ha dues cares amb 1 punt.
+   - Si la probabilitat d'obtenir un 2 és 1/3, significa que hi ha dues cares amb 2 punts (ja que 2/6 = 1/3).
+   - Si la probabilitat d'obtenir un 3 és 1/6, significa que hi ha una cara amb 3 punts.
+
+3. **Configuració de les Cares**:
+   - Dues cares amb 1 punt.
+   - Dues cares amb 2 punts.
+   - Una cara amb 3 punts.
+   - Una cara restant sense punts (ja que la suma de les cares ha de ser 6).
+
+4. **Anàlisi de les Opcions**:
+   - **A)**: Dues cares amb 1 punt.
+   - **B)**: Dues cares amb 1 punt.
+   - **C)**: Dues cares amb 1 punt.
+   - **D)**: Una cara amb 1 punt i una cara amb 2 punts.
+   - **E)**: Dues cares amb 2 punts.
+
+   Les opcions A), B) i C) mostren dues cares amb 1 punt, el que és possible.
+   L'opció D) mostra una cara amb 1 punt i una cara amb 2 punts, el que també és possible.
+   L'opció E) mostra dues cares amb 2 punts, el que és possible.
+
+   No obstant això, cap de les opcions mostra una combinació que inclogui una cara amb 3 punts, que és necessària segons la distribució de les probabilitats. Per tant, cap de les opcions pot ser una vista d'un dau amb aquesta configuració.
+
+**Resposta**: No hi ha cap opció que sigui incorrecta basant-se en la distribució de les probabilitats i les configuracions de les cares.

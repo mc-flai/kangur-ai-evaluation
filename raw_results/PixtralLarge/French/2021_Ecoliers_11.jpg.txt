@@ -1,0 +1,36 @@
+Pour résoudre la question 11, nous devons identifier la série de cinq cartes où les cartes représentant le même fruit sont les unes à côté des autres. Nina doit choisir deux cartes et échanger leurs places pour que cela soit possible.
+
+**Raisonnement:**
+
+1. **Série A)**
+   - Distribution actuelle : Pomme, Pomme, Raisin, Cerise, Cerise.
+   - Si nous échangeons la deuxième Pomme avec le Raisin, nous obtenons : Pomme, Pomme, Cerise, Cerise, Raisin.
+   - Les pommes et les cerises sont maintenant groupées, mais les raisins ne le sont pas.
+   - Ceci n'est pas la bonne série.
+
+2. **Série B)**
+   - Distribution actuelle : Pomme, Cerise, Pomme, Raisin, Cerise.
+   - Si nous échangeons la deuxième Pomme avec le Raisin, nous obtenons : Pomme, Cerise, Cerise, Raisin, Pomme.
+   - Les cerises sont maintenant groupées, mais les pommes et les raisins ne le sont pas.
+   - Ceci n'est pas la bonne série.
+
+3. **Série C)**
+   - Distribution actuelle : Pomme, Raisin, Pomme, Cerise, Cerise.
+   - Si nous échangeons la deuxième Pomme avec le Raisin, nous obtenons : Pomme, Pomme, Cerise, Cerise, Raisin.
+   - Les pommes, les cerises et les raisins sont maintenant groupées.
+   - Ceci est la bonne série.
+
+4. **Série D)**
+   - Distribution actuelle : Cerise, Cerise, Pomme, Raisin, Cerise.
+   - Si nous échangeons la deuxième Cerise avec le Raisin, nous obtenons : Cerise, Cerise, Pomme, Cerise, Raisin.
+   - Les cerises sont maintenant groupées, mais les pommes et les raisins ne le sont pas.
+   - Ceci n'est pas la bonne série.
+
+5. **Série E)**
+   - Distribution actuelle : Pomme, Cerise, Raisin, Raisin, Pomme.
+   - Si nous échangeons la deuxième Pomme avec le Raisin, nous obtenons : Pomme, Pomme, Cerise, Raisin, Raisin.
+   - Les pommes et les raisins sont maintenant groupées, mais les cerises ne le sont pas.
+   - Ceci n'est pas la bonne série.
+
+**Réponse :**
+C)

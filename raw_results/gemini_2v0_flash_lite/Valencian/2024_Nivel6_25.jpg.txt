@@ -1,0 +1,7 @@
+Raonament:
+1. **Entendre la pregunta:** Ens demanen la suma dels coeficients del polinomi `p`. La suma dels coeficients d'un polinomi s'obté avaluant el polinomi en `x=1`.
+2. **Substitució en l'equació:** Substituïm `x=0` a l'equació `p(x+1) = x² - x + 2 * p(6)` per trobar una relació: `p(0+1) = 0² - 0 + 2 * p(6)`, que simplificat és `p(1) = 2 * p(6)`.
+3. **Trobar p(6):** Substituïm `x=5` a l'equació `p(x+1) = x² - x + 2 * p(6)` per trobar una altra relació: `p(5+1) = 5² - 5 + 2 * p(6)`, que simplificat és `p(6) = 20 + 2 * p(6)`. Resolem per p(6): `-p(6) = 20`, per tant, `p(6) = -20`.
+4. **Trobar p(1):** Utilitzem el resultat anterior en l'equació `p(1) = 2 * p(6)`: `p(1) = 2 * (-20) = -40`.
+
+Resposta: A)

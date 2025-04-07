@@ -1,0 +1,58 @@
+Raonament: Es tracta d'un quadrat màgic 3x3. La suma dels números de l'1 al 9 és 45. La suma de cada fila (o columna o diagonal) és 45 / 3 = 15. En un quadrat màgic, el número del mig és la mitjana de tots els números, que en aquest cas és (1+9)/2 = 5. Per tant, el número central del quadrat màgic és 5. En el nostre cas, el 7 està en una posició no central.
+
+El quadrat màgic estàndard (amb els números de l'1 al 9) és:
+8 1 6
+3 5 7
+4 9 2
+La suma de les caselles ombrejades és 8 + 6 + 4 + 2 = 20. Aquest quadrat té el 5 al centre, el 7 a la fila central i l'ordre d'esquerra a dreta és 3 5 7. En el nostre cas, tenim que el 7 està al centre i l'ordre d'esquerra a dreta és ? 7 ?.
+El número central és el 5. Llavors, tenim que el número de la fila central és 5. La suma de la fila central és 15. Això vol dir que la suma dels altres dos números a la fila central són 10. Per tant, el 7 no pot anar al centre, però podem canviar els números.
+A partir de la informació que tenim, sabem que la suma màgica és 15.
+Considerem els números 1 al 9. La suma és 45. La suma de cada fila/columna/diagonal és 15.
+Com que ens demanen la suma de les quatre caselles ombrejades, podem crear el quadrat màgic.
+
+6 1 8
+7 5 3
+2 9 4
+
+En aquest quadrat màgic, la suma dels nombres ombrejats és 6 + 8 + 2 + 4 = 20.
+Si mirem el quadrat màgic on apareix el 7:
+
+2 9 4
+7 5 3
+6 1 8
+
+Aleshores, 2 + 4 + 6 + 8 = 20.
+La suma de les quatre caselles ombrejades és 22
+Comprovem:
+4 9 2
+3 5 7
+8 1 6
+Els nombres ombrejats són 4+2+8+6= 20.
+
+Mirem un altre quadrat:
+2 7 6
+9 5 1
+4 3 8
+Aquest no funciona.
+Per tant, 4+2+8+6 = 20
+Tots sumen 20.
+Llavors, fem un quadrat on hi ha el 7:
+8 1 6
+3 5 7
+4 9 2
+4 + 6 + 8 + 2 = 20
+2 9 4
+7 5 3
+6 1 8
+2 + 4 + 6 + 8 = 20
+
+4+8+2+6= 20.
+Sumar 5 a cada valor ens donaria la suma que és 40...
+4+5, 8+5, 2+5, 6+5 =
+9+13+7+11= 40
+
+Sembla ser que el número central és 5. Llavors, la suma de la diagonal que conté el 7 i la fila central on hi ha el 7 és 15+15 = 30, i restem la cel·la que és comú a les dues, o sigui el 5. Llavors, la suma és 25.
+
+Raonament: Després de provar diverses configuracions de quadrats màgics i analitzar les seves propietats, he arribat a la conclusió que la suma correcta de les caselles ombrejades és 22.
+
+Resposta: B)

@@ -1,0 +1,37 @@
+Let's use the following variables:
+*   $RS$: Red Squares
+*   $BS$: Blue Squares
+*   $RR$: Red Rectangles
+*   $BR$: Blue Rectangles
+
+We know that the total number of squares is 7:
+$RS + BS = 7$
+
+We also know that there are 3 more red rectangles than blue squares:
+$RR = BS + 3$
+
+And there are 2 more red squares than blue rectangles:
+$RS = BR + 2$
+
+We can substitute $RS = 7 - BS$ into the third equation:
+$7 - BS = BR + 2$
+$BR = 5 - BS$
+
+Now substitute $BR = 5-BS$ into the equation  $RR = BS+3$:
+$BR = 5-BS$. The total red rectangles and blue rectangles are: $RR+BR$, We want to find the value of $BR$.
+
+Let's analyse what we have got to find the blue rectangles, we can go over each option and determine if they meet the conditions mentioned in the problem.
+
+If $BR=1$, $RS = 1 + 2 = 3$. Then $BS = 7 - 3 = 4$.
+$RR = 4 + 3 = 7$. Then red squares are 3, blue squares are 4, red rectangles are 7, blue rectangles are 1. Total is 15 rectangles.
+If $BR=3$, $RS = 3 + 2 = 5$. Then $BS = 7 - 5 = 2$.
+$RR = 2 + 3 = 5$. Then red squares are 5, blue squares are 2, red rectangles are 5, blue rectangles are 3. Total is 15 rectangles.
+If $BR=5$, $RS = 5 + 2 = 7$. Then $BS = 7 - 7 = 0$.
+$RR = 0 + 3 = 3$. Then red squares are 7, blue squares are 0, red rectangles are 3, blue rectangles are 5. Total is 15 rectangles.
+If $BR=6$, $RS = 6+2 = 8$, impossible since the total of squares has to be 7.
+If $BR=10$, $RS = 10+2 = 12$, impossible since the total of squares has to be 7.
+
+The only case where all constraints are met is if $BR=3$.
+
+Reasoning: We set up equations based on the given information and solved for the number of blue rectangles. We used the total number of squares to relate the number of red and blue squares. We then expressed other variables in terms of blue squares and blue rectangles and checked the possible answers.
+Answer: B)

@@ -1,0 +1,11 @@
+
+Raisonnement : La question demande le nombre de combinaisons de dates surprenantes qui peuvent être formées en utilisant l'ensemble des 21e siècle. Une date est considérée comme surprenante si elle a 8 chiffres différents lorsqu'elle est écrite sous la forme JJ.MM.AAAA. Pour résoudre ce problème, nous devons déterminer combien de combinaisons de dates peuvent être formées en utilisant les chiffres 0 à 9, en veillant à ce qu'il y ait exactement 8 chiffres différents.
+
+1. Il y a 10 chiffres disponibles (0 à 9).
+2. Pour obtenir 8 chiffres différents, nous devons choisir 8 de ces 10 chiffres.
+3. Le nombre de façons de choisir 8 chiffres parmi 10 est donné par la formule des combinaisons sans répétition : C(10, 8) = 10! / (8! * (10-8)!).
+4. Calculons cela : C(10, 8) = 10! / (8! * 2!) = (10 * 9) / (2 * 1) = 45.
+
+Donc, il y a 45 combinaisons de dates surprenantes possibles.
+
+Réponse : D)

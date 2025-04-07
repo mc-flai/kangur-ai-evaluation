@@ -1,0 +1,22 @@
+Per resoldre la suma següent, hem de calcular cada fracció individualment i després sumar-les.
+
+La suma és:
+\[ \frac{1}{\sqrt{2} + \sqrt{1}} + \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \cdots + \frac{1}{\sqrt{2016} + \sqrt{2015}} \]
+
+Per simplificar cada fracció, podem usar la propietat de racionalització:
+\[ \frac{1}{\sqrt{n+1} + \sqrt{n}} = \frac{\sqrt{n+1} - \sqrt{n}}{(\sqrt{n+1} + \sqrt{n})(\sqrt{n+1} - \sqrt{n})} = \frac{\sqrt{n+1} - \sqrt{n}}{(n+1) - n} = \sqrt{n+1} - \sqrt{n} \]
+
+Aplicant aquesta propietat a cada terme de la suma, obtenim:
+\[ (\sqrt{2} - \sqrt{1}) + (\sqrt{3} - \sqrt{2}) + (\sqrt{4} - \sqrt{3}) + \cdots + (\sqrt{2016} - \sqrt{2015}) \]
+
+Observem que tots els termes intermedis es cancel·len, deixant només:
+\[ \sqrt{2016} - \sqrt{1} \]
+
+Això és igual a:
+\[ \sqrt{2016} - 1 \]
+
+Per tant, la resposta correcta és:
+\[ \boxed{E} \]
+
+Raonament: Hem simplificat cada fracció usant la racionalització i després sumat els termes resultants, notant que els termes intermedis es cancel·len.
+Resposta: \( E \).

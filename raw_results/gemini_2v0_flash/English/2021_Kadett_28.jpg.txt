@@ -1,0 +1,41 @@
+Reasoning:
+Let $K$ be the number of knights and $N$ be the number of knaves. We are given that $K = 21$ and $N = 2000$.
+The total number of people is $21+2000=2021$.
+We are considering 2020 people who are divided into 1010 pairs. Let $n_{KK}$ be the number of pairs of knights, $n_{NN}$ be the number of pairs of knaves, and $n_{KN}$ be the number of knight-knave pairs. Then $n_{KK} + n_{NN} + n_{KN} = 1010$.
+
+In a pair of knights, both will call the other a knight, so 2 knights are named.
+In a pair of knaves, both will lie and call the other a knight, so 2 knights are named.
+In a knight-knave pair, the knight will call the knave a knave, and the knave will call the knight a knight. So one knight and one knave are named.
+
+We are given that 2000 people are called knights and 20 people are called knaves.
+Thus, we have $2n_{KK} + 2n_{NN} + n_{KN} = 2000$ (number of people called knights) and $n_{KN} = 20$ (number of people called knaves).
+Substituting $n_{KN}=20$ into the first equation, we get $2n_{KK} + 2n_{NN} + 20 = 2000$, so $2n_{KK} + 2n_{NN} = 1980$, and $n_{KK} + n_{NN} = 990$.
+We have $n_{KK} + n_{NN} + n_{KN} = 1010$, and $n_{KN} = 20$, so $n_{KK} + n_{NN} + 20 = 1010$, which means $n_{KK} + n_{NN} = 990$.
+We are looking for $n_{NN}$. We know that $n_{KK} + n_{NN} = 990$.
+Also, we are given that 2020 people are divided into pairs. The number of knights in the pairs must be at most 21.
+The number of knaves in the pairs must be at most 2000.
+Let $k$ be the number of knights involved in the pairing, and $n$ be the number of knaves involved in the pairing. Then $k+n=2020$. Also, $k \le 21$ and $n \le 2000$.
+Let $k_k$ be the number of knights in $n_{KK}$, $k_n$ be the number of knights in $n_{KN}$, $n_k$ be the number of knaves in $n_{KN}$, and $n_n$ be the number of knaves in $n_{NN}$. Then
+$2n_{KK} + n_{KN} = k$ and $2n_{NN} + n_{KN} = n$.
+Since $n_{KN} = 20$, $2n_{KK} + 20 = k$ and $2n_{NN} + 20 = n$.
+Also $k+n = 2020$, so $2n_{KK} + 20 + 2n_{NN} + 20 = 2020$, so $2(n_{KK} + n_{NN}) + 40 = 2020$, so $2(n_{KK} + n_{NN}) = 1980$, and $n_{KK} + n_{NN} = 990$. Since $n_{KK} + n_{NN} + n_{KN} = 1010$, we have $990 + n_{KN} = 1010$, so $n_{KN} = 20$.
+
+We want to find $n_{NN}$, the number of pairs of two knaves.
+$n_{KK} + n_{NN} = 990$.
+$k = 2n_{KK} + n_{KN} \le 21$, so $2n_{KK} + 20 \le 21$, $2n_{KK} \le 1$, so $n_{KK} \le \frac{1}{2}$.
+Since $n_{KK}$ is an integer, $n_{KK} = 0$. Thus, $n_{NN} = 990$.
+
+Reasoning:
+Let $KK$ be the number of pairs of knights, $KN$ be the number of pairs of a knight and a knave, and $NN$ be the number of pairs of knaves. Then $KK+KN+NN = 1010$.
+If the pair is $KK$, then both call the other a knight.
+If the pair is $KN$, then the knight calls the knave a knave and the knave calls the knight a knight.
+If the pair is $NN$, then both lie and call the other a knight.
+So the number of people called knights is $2KK + KN + 2NN = 2000$.
+The number of people called knaves is $KN = 20$.
+Then $2KK + 20 + 2NN = 2000$, so $2KK + 2NN = 1980$, and $KK + NN = 990$.
+Since $KK + KN + NN = 1010$, we have $KK+20+NN=1010$, so $KK+NN = 990$.
+The total number of knights is 21. Thus $2KK+KN \le 21$, so $2KK+20 \le 21$, $2KK \le 1$, so $KK=0$.
+Therefore, $NN=990$.
+
+Answer: (C)
+Final Answer: C)

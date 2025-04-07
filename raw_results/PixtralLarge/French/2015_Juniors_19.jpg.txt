@@ -1,0 +1,22 @@
+**Raisonnement :**
+
+Mme Castor demande à 5 de ses élèves de parler d'un état au lycée qu'ils aiment. Les réponses sont les suivantes :
+- Luc : "aucun"
+- Marc : "1 seul"
+- Nina : "2, ni plus, ni moins"
+- Olga : "3 exactement"
+- Prune : "4"
+
+Mme Castor précise qu'il y a deux élèves qui ne disent pas la vérité et donc trois qui disent la vérité.
+
+Nous devons trouver la combinaison de réponses où exactement trois des réponses sont vraies.
+
+1. Si Luc dit la vérité ("aucun"), alors les autres réponses doivent être fausses, ce qui n'est pas possible car trois réponses doivent être vraies. Donc, Luc ne dit pas la vérité.
+2. Si Marc dit la vérité ("1 seul"), alors une seule autre réponse peut être vraie, ce qui n'est pas possible non plus. Donc, Marc ne dit pas la vérité.
+3. Si Nina dit la vérité ("2, ni plus, ni moins"), alors deux autres réponses doivent être vraies. Cela laisse Olga et Prune comme possibles menteurs, ce qui est cohérent.
+4. Si Olga dit la vérité ("3 exactement"), cela signifie que Nina, Luc et Marc doivent mentir, ce qui n'est pas possible car trois réponses doivent être vraies. Donc, Olga ne dit pas la vérité.
+5. Si Prune dit la vérité ("4"), alors les autres réponses doivent être fausses, ce qui n'est pas possible car trois réponses doivent être vraies. Donc, Prune ne dit pas la vérité.
+
+Ainsi, les élèves qui disent la vérité sont Nina, Olga et Prune, ce qui signifie qu'il y a 3 élèves qui aiment exactement le lycée.
+
+**Réponse :** D) 3

@@ -1,0 +1,25 @@
+**Raonament**:
+
+1. Denotem com a \( x \) el nombre de caramels que hem posat en total.
+2. Segons el problema, tenim quatre pots, i el nombre de caramels en cada pot està relacionat amb el nombre total de pots.
+3. El primer pot té un sol caramel: \( 1 \) caramel.
+4. El segon pot té dos caramels: \( 2 \) caramels.
+5. El tercer pot té tres caramels: \( 3 \) caramels.
+6. El quart pot té el nombre de caramels que no tenen cap caramel: \( 4 - x \) caramels (perquè són els pots que no tenen cap caramel, i hi ha 4 pots en total).
+7. La suma dels caramels en tots els pots ha de ser igual a \( x \):
+   \[
+   1 + 2 + 3 + (4 - x) = x
+   \]
+8. Resolent l'equació:
+   \[
+   6 - x = x
+   \]
+   \[
+   6 = 2x
+   \]
+   \[
+   x = 3
+   \]
+9. Per tant, el nombre total de caramels en tots els pots és 6.
+
+**Resposta**: E) 6.

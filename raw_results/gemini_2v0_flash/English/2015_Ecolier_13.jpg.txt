@@ -1,0 +1,43 @@
+Reasoning: Let's denote the toys as follows: C - car, T - teddy bear, S - ship, B - ball.
+We are given that the ship must be next to the car, and the teddy bear must be next to the car. This means the car must be between the ship and teddy bear.
+So, the order must be T-C-S or S-C-T.
+
+Case 1: T-C-S
+Then we can place the ball in the following ways:
+B-T-C-S
+T-B-C-S
+T-C-B-S
+T-C-S-B
+
+Case 2: S-C-T
+Then we can place the ball in the following ways:
+B-S-C-T
+S-B-C-T
+S-C-B-T
+S-C-T-B
+
+But we must have the ship and teddy bear beside the car. So let's consider blocks of toys. The car must be next to the ship, and the car must be next to the teddy bear. That is the order either has TCS or SCT.
+Case 1: TCS
+Possible arrangement are
+BTCS, TBBCS, TCBS, TCSB
+4
+
+Case 2: SCT
+BSCT, SBCT, SCBT, SCTB
+4
+
+Let's consider TCS as a fixed unit. There are two options with the block: TCS and SCT.
+The order can be TCSB or BTCS or SCTB or BSCT
+Now for the two between positions, if the fixed unit is TCS, it could be in 2nd and 3rd place. if the fixed unit is SCT, it could be in 2nd and 3rd place.
+Consider TCS as one single object, so we have a fixed order for TCS. Then this is one object plus the ball as the other object. So it can be TCS-B or B-TCS.
+Consider SCT as one single object, so we have a fixed order for SCT. The we can have SCT-B or B-SCT.
+
+Consider all possible arrangements:
+TCSB
+BTCS
+SCTB
+BSCT
+
+So there are 4 different ways.
+
+Answer: B)

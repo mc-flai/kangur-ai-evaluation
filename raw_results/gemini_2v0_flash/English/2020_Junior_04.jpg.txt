@@ -1,0 +1,31 @@
+Reasoning: We want to find four integers whose product is 9, and minimize their sum S. Since we want to minimize S, we should try to include as many negative numbers as possible.
+First, let's consider factors of 9. 9 = 3*3*1*1. In this case, the sum is 3+3+1+1 = 8.
+9 = 9*1*1*1. In this case, the sum is 9+1+1+1 = 12.
+To make the sum as small as possible, let's consider negative factors. Since we need the product to be positive, we must include an even number of negative numbers. Let's try two negative numbers:
+9 = (-3)*(-3)*1*1. In this case, the sum is -3 + (-3) + 1 + 1 = -4.
+9 = (-1)*(-1)*3*3. In this case, the sum is -1 + (-1) + 3 + 3 = 4.
+9 = (-1)*(-1)*9*1. In this case, the sum is -1 + (-1) + 9 + 1 = 8.
+9 = (-9)*(-1)*1*1. In this case, the sum is -9 + (-1) + 1 + 1 = -8.
+
+So far, we found a sum of -8. Can we do better by using four negative numbers? No, the product of four negative numbers is positive.
+The factors are (-3)*(-1)*(-1)*(-3)=9 and -3 -1 -1 -3 = -8
+But 9 can also be written as 3*1*3*1. 3+1+3+1 = 8
+We need a pair of negative integers, say (-1) and (-1) whose product is +1, which is part of the product 9.
+(-1)*(-1) = 1 so the other two integers product must be 9. i.e., 3*3. Therefore the product is (-1)*(-1)*3*3. Their sum = -1-1+3+3=4.
+Factors of 9: 9 = 3 * 3 * 1 * 1. Sum = 8
+9 = 9 * 1 * 1 * 1. Sum = 12
+Try negative integers:
+9 = (-1) * (-1) * 3 * 3. Sum = 4
+9 = (-1) * (-1) * 9 * 1. Sum = 8
+9 = (-3) * (-3) * 1 * 1. Sum = -4
+Also, we know 9 = (1)(1)(1)(9). So, 1+1+1+9 = 12
+Also, we know 9 = (-1)(-1)(1)(9). So, -1-1+1+9 = 8
+9 = (-1)(-1)(3)(3). So, -1-1+3+3 = 4
+9 = (-3)(-3)(1)(1). So, -3-3+1+1 = -4
+Consider 9 = (-1) * (-1) * 1 * 9 sum is 8.
+Consider 9 = (-1) * (-1) * 3 * 3 sum is 4.
+Also 9= (-1) * (-3) * (-1) * (3) sum is -2.
+Consider (-9)(-1)(1)(1) sum is -8.
+The smallest sum is -8
+
+Answer: C)

@@ -1,0 +1,39 @@
+Reasoning: We need to determine which ice cream and topping combination is possible, given the quantities available.
+- Vanilla (4) + Umbrellas (4) = 4 combinations possible
+- Chocolate (3) + Cherries (3) = 3 combinations possible
+- Lemon (2) + Wafers (2) = 2 combinations possible
+- Mango (1) + Chocolate Gum (1) = 1 combination possible
+Based on the available quantities, we can confirm which combination is possible.
+(A) Chocolate and chocolate gum: Chocolate (3), Chocolate Gum (1). Possible.
+(B) Mango and cherry: Mango (1), Cherries (3). Possible.
+(C) Lemon and wafer: Lemon (2), Wafers (2). Possible.
+(D) Mango and wafer: Mango (1), Wafers (2). Possible.
+(E) Lemon and cherry: Lemon (2), Cherries (3). Possible.
+
+Let's consider the constraint "Since they don't want two ice creams the same."
+That means we must use all of our flavor and topping combinations.
+We have the following flavors and toppings and their quantities.
+Vanilla (4), Chocolate (3), Lemon (2), Mango (1)
+Umbrellas (4), Cherries (3), Wafers (2), Chocolate Gum (1)
+We can form:
+Vanilla+Umbrella(4)
+Chocolate+Cherry(3)
+Lemon+Wafer(2)
+Mango+Chocolate Gum(1)
+
+Option A: Chocolate + Chocolate gum. Cannot happen.
+Option B: Mango + cherry. Cannot happen.
+Option C: Lemon + wafer. Can happen.
+Option D: Mango + wafer. Cannot happen.
+Option E: Lemon + cherry. Cannot happen.
+
+Reasoning: After analyzing all combinations, it is clear that each ice cream has a specific topping.
+If we examine the pairings again, we should have the following pairings:
+Vanilla and Umbrella (4 pairs)
+Chocolate and Cherry (3 pairs)
+Lemon and Wafer (2 pairs)
+Mango and Chocolate Gum (1 pair)
+
+We need to figure out which combination is possible, which essentially means the correct pairing. This can only be Lemon and wafer.
+
+Answer: C)

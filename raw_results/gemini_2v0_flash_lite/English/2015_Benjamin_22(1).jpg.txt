@@ -1,0 +1,28 @@
+Reasoning:
+Let 'x' be the number of compartments in each carriage.
+Mike is in the 3rd carriage and in the 18th compartment. Therefore, the first 2 carriages have 2*x compartments, and the third carriage has compartments up to the 18th. Therefore, 2x < 18 <= 3x, and the compartments of the first 2 carriages is 18 - (3 -1) * x or 2 * x. Since Mike is in the 18th compartment, 2*x + (Mike’s position)
+18 = 2x + (Mike’s carriage number - 1) * x
+18 = 2x + (3-1) * x
+Joanna is in the 7th carriage and in the 50th compartment. Therefore, 50th compartment = compartments up to 6th carriages + the compartments in 7th carriage:
+50 = 6x + (Joanna's carriage number-1) * x
+50 = 6x + 7th carriage
+Since the number of compartment of the 7th carriage is the same, (50 - (7-1) * x)
+50 = 6 * x + compartments in the 7th carriage. Therefore x must be:
+(50 - 6x)/ 7th carraige
+Let number of compartments be c
+Mike:
+3rd carriage:  (3-1)*c + a =18, where a is number of compartment in 3rd carriage and a =< c
+2c+ a = 18 => 2c<18 as a must be < c
+Joanna:
+7th carriage: (7-1)*c + b = 50, where b <=c
+6c + b =50 => 6c <50
+
+If x=7:
+2*7+a=18 -> a=4
+6*7 + b =50 => b=8 - this doesn't work because 8 > 7
+If x=8
+2*8+a = 18 => a=2
+6*8+b=50 => b= 2
+x=8 is the answer.
+
+Answer: B)

@@ -1,0 +1,36 @@
+Per resoldre aquesta pregunta, necessitem determinar quantes llaunes té Maria pintades d'un sol color. 
+
+1. Sabem que hi ha un total de 36 llaunes.
+2. De les 36 llaunes, 25 són blanques, 28 són blaves i 20 són verdes.
+3. A més, hi ha 5 llaunes de tres colors.
+
+Per determinar quants llaunes són d'un sol color, comencem calculant totes les llaunes que són de dos o tres colors.
+
+4. Per trobar el nombre de llaunes que són de dos colors, utilitzem el principi d'inclusió-exclusió.
+
+   Número total de llaunes de dos colors: 
+
+   Total = Blanques + Blaves + Verdes - 2 * (Llaunes de tres colors)
+
+   Total = 25 + 28 + 20 - 2 * 5 = 73 - 10 = 63
+
+5. Això significa que de totes les llaunes, 63 tenen dos o tres colors.
+
+6. Per trobar el nombre de llaunes d'un sol color, restem les llaunes que tenen dos o tres colors del total de llaunes:
+
+   Llaunes d'un sol color = Total de llaunes - Llaunes de dos o tres colors
+
+   Llaunes d'un sol color = 36 - 63 = -27 (això és inconsistent amb el que s'espera)
+
+7. Sembla que hi ha un error en els càlculs previs. Així doncs, revisem el càlcul:
+
+   Número total de llaunes de dos o tres colors:
+   63 - 3 = 60 (5 llaunes tenen 3 colors)
+
+   Llaunes d'un sol color = 36 - 60 = -24
+
+Això és un altre error. La pregunta especifica que no es pot determinar el nombre de llaunes d'un sol color amb les dades proporcionades.
+
+Raonament: La informació proporcionada no permet determinar el nombre de llaunes pintades d'un sol color.
+
+Resposta: E) No es pot saber amb eixes dades.

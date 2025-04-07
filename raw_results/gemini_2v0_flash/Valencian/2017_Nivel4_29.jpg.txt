@@ -1,0 +1,13 @@
+Raonament: Volem trobar quants enters $a$ entre 1 i 25 fan que $a(a+1)(a+2)$ sigui un múltiple de 84. Això significa que $a(a+1)(a+2)$ és divisible per $84 = 2^2 \cdot 3 \cdot 7$. Com que tenim tres enters consecutius, un d'ells ha de ser divisible per 3. Per tant, necessitem que $a(a+1)(a+2)$ sigui divisible per 4 i per 7.
+Considerem els casos quan $a=5, a(a+1)(a+2)=5 \cdot 6 \cdot 7 = 210$, que no és divisible per 4, de manera que no és divisible per 84.
+Considerem els casos quan $a=6, a(a+1)(a+2)=6 \cdot 7 \cdot 8 = 336=4 \cdot 84$, per tant és múltiple de 84.
+Considerem els casos quan $a=7, a(a+1)(a+2)=7 \cdot 8 \cdot 9 = 504=6 \cdot 84$, per tant és múltiple de 84.
+Considerem els casos quan $a=12, a(a+1)(a+2)=12 \cdot 13 \cdot 14 = 2184=26 \cdot 84$, per tant és múltiple de 84.
+Considerem els casos quan $a=13, a(a+1)(a+2)=13 \cdot 14 \cdot 15 = 2730$, no és divisible per 84.
+Considerem els casos quan $a=14, a(a+1)(a+2)=14 \cdot 15 \cdot 16 = 3360=40 \cdot 84$, per tant és múltiple de 84.
+Considerem els casos quan $a=20, a(a+1)(a+2)=20 \cdot 21 \cdot 22 = 9240=110 \cdot 84$, per tant és múltiple de 84.
+Considerem els casos quan $a=21, a(a+1)(a+2)=21 \cdot 22 \cdot 23 = 10626$, no és divisible per 84.
+Considerem els casos quan $a=22, a(a+1)(a+2)=22 \cdot 23 \cdot 24 = 12144=144 \cdot 84$, per tant és múltiple de 84.
+Els valors de $a$ que fan que $a(a+1)(a+2)$ sigui un múltiple de 84 són: 6, 7, 12, 14, 20, 22. Per tant, hi ha 6 valors.
+
+Resposta: E)

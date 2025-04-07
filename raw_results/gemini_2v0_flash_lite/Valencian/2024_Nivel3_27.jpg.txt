@@ -1,0 +1,65 @@
+Raonament:
+1.  **Comprendre la condició:** Després de la venda, la quantitat d'ous de gallina és el doble de la quantitat d'ous d'ànec.
+2.  **Identificar les cistelles possibles:** Considerem les cistelles amb una quantitat diferent d'ous. Volem trobar una combinació que ens deixi una quantitat d'ous de gallina que sigui el doble de la quantitat d'ous d'ànec.
+3.  **Provar les opcions:**
+    *   Si el client compra 4 ous, queden 6, 12, 13, 22 i 29. No es compleix la condició.
+    *   Si el client compra 6 ous, queden 4, 12, 13, 22 i 29. No es compleix la condició.
+    *   Si el client compra 12 ous, queden 4, 6, 13, 22 i 29. No es compleix la condició.
+    *   Si el client compra 13 ous, queden 4, 6, 12, 22 i 29. No es compleix la condició.
+    *   Si el client compra 22 ous, queden 4, 6, 12, 13 i 29. No es compleix la condició.
+    *   Si el client compra 29 ous, queden 4, 6, 12, 13 i 22. No es compleix la condició.
+4.  **Considerar els casos on queden una combinació que compleix la condició:**
+    *   Si el client compra 4+6+12+13 = 35, queden 22 i 29. no funciona.
+    *   Si el client compra 4+6+12 = 22. queden 13 i 29. no funciona.
+    *   Si el client compra 4+6 = 10. queden 12+13+22+29 = 76, no funciona.
+    *   Si el client compra 4+12 = 16. queden 6+13+22+29=70, no funciona.
+    *   Si el client compra 4+13 = 17, queden 6+12+22+29 = 69, no funciona.
+    *   Si el client compra 4+22 = 26. queden 6+12+13+29 = 60, no funciona.
+    *   Si el client compra 4+29 = 33. queden 6+12+13+22 = 53, no funciona.
+    *   Si el client compra 6+12+13 = 31, queden 4+22+29=55, no funciona
+    *   Si el client compra 4+6+22+29=61. queden 12+13 =25, no funciona
+    *   Si el client compra 13 + 6 + 22=41, queden 4 + 12+29 = 45, no funciona.
+
+    *   Si al final queda 4 ous de gallina i 2 ous d'ànec, abans hi havia 8 d'ànec.
+    *   Si la pregunta fos "Quants ous d'una cistella ha comprat el client?", la resposta seria 13 perquè 29-13= 16.
+    *   Si al final queden 12 ous de gallina i 6 ous d'ànec, abans hi havia 12+13+6 =31.
+    *   Si al final queden 22 ous de gallina i 11 ous d'ànec, abans hi havia 12+13= 25, no funciona
+    *   Si al final queden 12 gallina i 6 d'ànec. 12 d'una cistella 6 d'una altra.
+    *   Si al final queden 29 i 13, no hi ha cap que compleixi la condició.
+    *   Si el client compra 29 + 13 = 42.  queden 4+6+12+22=44 no es cumpleix.
+    *   Si el client compra 29+22= 51.  queden 4+6+12+13=35.
+    *   Si el client compra 29+12 = 41, queden 4+6+13+22=45 no es cumpleix.
+    *   Si el client compra 29+6 =35, queden 4+12+13+22=51 no es cumpleix.
+    *   Si el client compra 13+22 = 35. queden 4+6+12+29 = 51. no es cumpleix.
+    *   Si el client compra 13 + 4 =17, queden 6+12+22+29 = 69.
+    *   Si el client compra 29+6+13=48, queden 4+12+22=38.
+    *   Si el client compra 29 +13+6=48. quedan 4+12+22=38
+    *   Si el client compra 4+6+13+22=45, queda 12+29.
+    *   Si el client compra 6 + 13 = 19 , queden 4+12+22+29 = 67.
+    *   Si el client compra 13+22+29 = 64. queden 4+6+12= 22
+    *   Si el client compra 6+13+22+29=70. queda 4+12 = 16
+    *   Si el client compra 4+6+12=22. queda 13+22+29=64.
+    *   Si al final queden 29 ous de gallina i 13 d'ànec, no funciona.
+    *   Si queden 29 de gallina i 14.5 d'ànec.
+    *   Si queden 4 ous de gallina, hi ha d'haver 2 d'ànec. Aleshores, ha comprat 6+12+13+22+29= 82 ous.
+    *   Si al final queden 6 ous de gallina, ha d'haver 3 d'ànec.
+    *   Si al final queden 12 ous de gallina, ha d'haver 6 d'ànec.
+    *   Si al final queden 13 ous de gallina. ha de haver 6,5 d'ànec, no pot ser.
+    *   Si al final queden 22 ous de gallina, ha de haver 11 d'ànec.
+    *   Si al final queden 29 ous de gallina. Ha de haver 14,5 d'ànec.
+
+5.  **Trobem la combinació:**
+    *   Si el client compra 4+6+13 =23, queden 12, 22 i 29. No es pot donar perquè no es pot tenir el doble.
+    *   Si el client compra 6+12+13=31, queden 4, 22, 29. No es pot donar perquè no es pot tenir el doble.
+    *   Si el client compra 4 + 6 + 12 + 13 = 35, queden 22 i 29.
+    *   Si el client compra 13. Queden 4, 6, 12, 22, 29. No es pot donar.
+    *   Si el client compra 22. Queden 4, 6, 12, 13, 29. No es pot donar.
+    *   Si el client compra 29. queden 4, 6, 12, 13, 22. No es pot donar.
+
+6.  **Revisió**: Cap de les opcions sembla complir la condició especificada. Potser hi ha un error en la redacció o la pregunta no té una resposta correcta entre les opcions. No obstant això, revisarem les opcions per veure si podem apropar-nos.
+
+7.  **Aproximació:** Si el client compra 13, llavors les possibilitats serien 4,6,12,22,29. No es compleix la condició.
+
+8.   **Revisió final**. Sembla que no hi ha una solució clara amb les opcions donades.
+
+Resposta: C)

@@ -1,0 +1,3 @@
+Reasoning: I can try to color the circles with the minimum number of colors. If I use only two colors, I can color the bottom row with alternating colors. Then the circles above these must be a third color. Therefore, two colors are not sufficient. If I start by coloring the leftmost bottom circle with color 1, the adjacent circle with color 2. Then the middle circle connected to these two must be color 3. Now I can continue coloring the remaining circles. Starting at the top-left corner, I can use color 1. The next top right corner will have color 2, and so on. Three colors are needed.
+
+Answer: B)

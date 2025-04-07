@@ -1,0 +1,9 @@
+Raonament: Per resoldre aquest problema, hem de trobar el màxim comú divisor (MCD) de les quantitats de roses blanques, grogues i roges (42, 66 i 78). El MCD ens donarà el nombre màxim de rams que podem fer amb un nombre igual de roses de cada color a cada ram. La pregunta ens demana quantes roses grogues hi haurà a cada ram. Primer calculem el MCD de 42, 66 i 78.
+- Factors de 42: 1, 2, 3, 6, 7, 14, 21, 42
+- Factors de 66: 1, 2, 3, 6, 11, 22, 33, 66
+- Factors de 78: 1, 2, 3, 6, 13, 26, 39, 78
+
+El MCD de 42, 66 i 78 és 6. Això significa que podem fer 6 rams.
+Ara trobem el nombre de roses grogues a cada ram: 66 roses grogues / 6 rams = 11 roses grogues per ram.
+
+Resposta: D)

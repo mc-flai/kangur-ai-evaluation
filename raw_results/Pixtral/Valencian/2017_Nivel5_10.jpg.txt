@@ -1,0 +1,21 @@
+La pregunta 10 en la imagen se traduce al inglés como: "What is the probability that the sum of the two numbers is 3?"
+
+Para determinar la respuesta correcta, primero debemos identificar las posibles combinaciones de dos números que sumen 3. Las combinaciones posibles son:
+- 1 + 2
+- 2 + 1
+
+Ahora, determinamos la probabilidad de cada combinación. Si asumimos que estamos seleccionando dos números de un conjunto de números, la probabilidad de seleccionar cualquier par específico de números es 1/ (n * (n-1)), donde n es el número total de opciones.
+
+Para simplificar, consideremos que estamos seleccionando dos números de un conjunto de números del 1 al 6. La probabilidad de seleccionar cualquier par específico de números es 1/ (6 * 5) = 1/30.
+
+Dado que hay dos combinaciones posibles (1+2 y 2+1) que suman 3, la probabilidad total de seleccionar un par que sumen 3 es 2 * (1/30) = 2/30 = 1/15.
+
+Por lo tanto, la probabilidad de que la suma de los dos números sea 3 es 1/15.
+
+**Respuesta: C)**
+
+**Raonamiento:**
+1. Identificar las combinaciones posibles de dos números que sumen 3.
+2. Calcular la probabilidad de cada combinación.
+3. Sumar las probabilidades de todas las combinaciones posibles.
+4. Determinar la opción que corresponde a esta probabilidad.

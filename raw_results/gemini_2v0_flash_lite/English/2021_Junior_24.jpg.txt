@@ -1,0 +1,35 @@
+Reasoning: Let the scores of the three boys be S, M, and J, where S is the smallest, M is the middle score, and J is the highest score. We are given that S = 19. The scores must be different integers. Each word can earn either 0, 1, or 3 points. The total number of words is 10. If a word earns 3 points, it is unique. If a word earns 1 point, two boys had the same word. If a word earns 0 points, all three boys had the same word.
+
+The scores are different and the total score for each word is 3 points at most.
+Since Sam has the smallest score, S = 19. Then the maximum score is the highest score for James, so we have 19, M, J, and J > M > 19.
+The total score for each word is a maximum of 3 points. The score must be an integer.
+Since James has the highest score, we need to find a possible value for James' score.
+Let x, y, and z be the scores.
+The scores can be constructed by 3x + y = score.
+Possible scores for one player:
+If a player gets all 3 points, the score is 30
+If a player gets all 1 points, the score is 10
+If a player gets all 0 points, the score is 0
+If a player has 19 points, the minimum could be 19 = 6*3 + 1*1. Then there must be x*3 + y = score.
+Sam has 19 points.
+James has the largest.
+The possible scores are 19, x, and y where x<y.
+19 < x < y.
+Try 20. Then 20 = 6(3) + 2(1)
+Try 21. Then 21 = 7(3)
+Try 23. Then 23 = 7(3) + 2(1)
+24. Then 24 = 8(3)
+25. Then 25 = 8(3) + 1(1)
+The possible values for the scores are 19, 23, 24 is also a possibility. The scores are 19, 20, 21 is not possible.
+We need to find if it is possible to have these.
+So, try 19, 23, 24.
+Total score 19 + 23 + 24 = 66.
+Total score 19 + 21 + x = 60.
+
+We can have 19, 23, 24.
+If Sam has 19 = 6(3) + 1(1), then score of Sam is 19.
+If another player gets all 3 points, it has 30 points. Since James has the highest and scores are different, so let James has 24.
+So consider 19, 23, and 24. So 19 < 23 < 24.
+19, 23, 24 is possible. So James has 24.
+
+Answer: D)

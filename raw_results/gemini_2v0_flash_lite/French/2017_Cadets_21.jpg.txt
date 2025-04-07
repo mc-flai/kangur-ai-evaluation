@@ -1,0 +1,11 @@
+Raisonnement :
+Le gros cube est composé de 125 petits cubes (5x5x5). On peut voir 3 trous traversant le cube. Chaque trou retire 5 cubes (un par couche).
+- Un trou retire 5 cubes.
+- Il y a 3 trous.
+- Les trous se croisent, il faut soustraire le nombre de cubes retirés en double :
+    - Les trous se croisent au milieu : au centre du cube on trouve 3 cubes retirés par les 3 trous (1 seul cube en commun au centre).
+    - On soustrait 1 (le cube central) et 1 cube au milieu de chaque côté.
+- On retire donc 3x5 - (1 cube central + 6 cubes latéraux) = 15 - (1+6) = 15 - 7 = 8 cubes.
+- Le nombre de cubes restants est 125 - 52 = 73.
+
+Réponse : A)

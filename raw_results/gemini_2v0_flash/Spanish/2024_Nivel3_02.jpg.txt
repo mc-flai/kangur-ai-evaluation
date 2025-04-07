@@ -1,0 +1,12 @@
+Razonamiento: Contamos las posibles rutas desde A al vértice B siguiendo las flechas:
+1. Izquierda, izquierda
+2. Izquierda, centro
+3. Centro, izquierda
+4. Centro, centro
+5. Centro, derecha
+6. Derecha, derecha
+
+Sin embargo, la pregunta se refiere a ir del vértice A al vértice B en un cubo. Viendo el diagrama, hay un camino al lado izquierdo, uno al centro y otro al lado derecho. Cada uno de estos caminos tiene dos posibles subcaminos, pero todos los subcaminos convergen al vértice B. Por lo tanto, hay 3 * 2 = 6 caminos. Sin embargo, notamos que el vertice B está en el último piso de la pirámide y, por lo tanto, la pregunta realmente pregunta de cuántas formas podemos llegar al piso inferior. Las posibles rutas son: A a la izquierda (1), A al medio (1), A a la derecha (1). De cada uno de estos, vamos a la izquierda (2), centro (2) o derecha (2).
+Así, tenemos izquierda, izquierda; izquierda, centro; centro, izquierda; centro, derecha; derecha, centro; derecha, derecha. Hay 6 formas.
+
+Respuesta: C)

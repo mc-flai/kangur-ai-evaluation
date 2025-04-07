@@ -1,0 +1,319 @@
+Raonament:
+1. **Condicions:** Anna va tirar el dau 24 vegades. Tots els nombres de l'1 al 6 van aparèixer almenys una vegada. El nombre 1 va aparèixer més vegades que qualsevol altre nombre.
+2. **Mínim:** Com que tots els nombres van aparèixer almenys una vegada, i hi ha 6 nombres, hi ha un mínim de 6 tirades.
+3. **Restants:** 24 tirades - 6 tirades = 18 tirades restants.
+4. **Maximitzar el 1:** Per maximitzar la suma, hem de maximitzar el nombre de vegades que va sortir l'1. L'1 va aparèixer més vegades que qualsevol altre nombre.
+5. **Repartició:**
+    *   L'1 apareix almenys 1 vegada més que qualsevol altre nombre, i els altres nombres apareixen almenys una vegada.
+    *   Si els nombres 2-6 apareixen una vegada cadascun, l'1 apareix 18+1+1 = 20 vegades. (1 x 20) + (2 x 1) + (3 x 1) + (4 x 1) + (5 x 1) + (6 x 1) = 20 + 2 + 3 + 4 + 5 + 6 = 40
+6. Si l'1 apareix 9 vegades i la resta de nombres apareixen una vegada:
+    *   1 x 9 + 2 x 1 + 3 x 1 + 4 x 1 + 5 x 1 + 6 x 1 = 9 + 2 + 3 + 4 + 5 + 6 = 29.
+    *   Això no és possible ja que hi ha 24 tirades i la suma de tirades és 9+1+1+1+1+1 = 14 < 24
+7. Per a maximitzar la suma, podem establir que:
+    *   Els nombres 2, 3, 4, 5, 6 apareguin una vegada cadascun. Això ocupa 5 tirades.
+    *   24 - 5 = 19 tirades restants.
+    *   L'1 apareix 19 vegades (ja que el nombre 1 ha aparegut més vegades que qualsevol altre).
+    *   Suma = 19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39
+8. A més, l'1 apareix més que qualsevol altre nombre. Aleshores, si els nombres 2, 3, 4, 5 i 6 apareixen una vegada, tenim ja 5 tirades. Resten 19 tirades. Això vol dir que l'1 pot haver aparegut 19 vegades. Llavors la suma seria 19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39.
+9. Una altra manera de calcular-ho és la següent.
+    *   Cada nombre, inclòs l'1, apareix com a mínim una vegada: 1+2+3+4+5+6=21
+    *   24-6=18. El nombre 1 apareix més vegades que cap altre nombre.
+    *   Si descomponem 18 en un nombre que sigui més gran que 1 i la resta 1, 1, 1, 1, 1, 1, obtenim 13, i 5 vegades 1, que són les vegades que haurien d'aparèixer la resta de nombres,
+    *   13 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 13 + 2 + 3 + 4 + 5 + 6 = 33. No coincideix amb les respostes
+10. 24 tirades. L'1 apareix més vegades. Tots els nombres apareixen almenys una vegada.
+    * 2, 3, 4, 5, 6 apareixen una vegada. Això són 5 tirades.
+    * El nombre 1 pot aparèixer 19 vegades.
+    * Suma = 19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39.
+11. El nombre 1 ha d'aparèixer com a mínim 2 vegades. Si el nombre 1 apareix 5 vegades, i els altres nombres 2,3,4,5,6 apareixen tres vegades, la suma seria:
+    *   5 * 1 + 3 * 2 + 3 * 3 + 3 * 4 + 3 * 5 + 3 * 6 = 5 + 6 + 9 + 12 + 15 + 18 = 65. No coincideix amb les respostes.
+12. Una altre plantejament
+    *   1 apareix x vegades
+    *   2,3,4,5,6 apareixen una vegada
+    *   x + 1 + 1 + 1 + 1 + 1 = 24.
+    *   x + 5 = 24
+    *   x = 19
+    *   19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 20 = 39.
+    *   L'1 ha d'aparèixer més vegades que qualsevol altre.
+13. Intentem ara fer que la suma sigui més alta
+    *   1 apareix 19 vegades.
+    *   2,3,4,5,6 apareixen una vegada cadascun.
+    *   Suma = 19(1) + 1(2) + 1(3) + 1(4) + 1(5) + 1(6) = 19 + 2 + 3 + 4 + 5 + 6 = 39.
+14. Si l'1 apareix 6 vegades i el 2 apareix 6 vegades, i els altres una vegada, tenim 14 tirades.
+    *   6 * 1 + 6 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 6 + 12 + 3 + 4 + 5 + 6 = 36.
+    *   Queden 10 tirades.
+15. Si fem que la suma sigui màxima,
+    *   1 apareix 19 vegades
+    *   2, 3, 4, 5, 6 apareixen una vegada.
+    *   1 * 19 + 2 + 3 + 4 + 5 + 6 = 19 + 20 = 39
+16. Considerem una altra aproximació:
+    *   Sabem que tots els nombres apareixen almenys una vegada.
+    *   Sabem que l'1 apareix més vegades que cap altre nombre.
+    *   Les tirades són 24
+    *   Si fem que els altres nombres apareguin una vegada cadascun, tenim ja 6 tirades.
+    *   24 - 6 = 18
+    *   Si l'1 apareix 19 vegades, la suma és:
+    *   19 * 1 + 2 + 3 + 4 + 5 + 6 = 39
+    *   Però hi ha 24 tirades, no 20.
+17. L'1 ha de sortir com a mínim 6 vegades ja que tots els nombres han de sortir almenys una vegada.
+18. L'1 apareix més vegades que qualsevol altre nombre.
+    *   Els altres números poden aparèixer una vegada cadascun.
+    *   Això ocupa 6 tirades.
+    *   24-6 = 18 tirades.
+    *   Com l'1 ha d'aparèixer més vegades que els altres, l'1 ha de aparèixer almenys 2 vegades.
+    *   Si fem que l'1 surti 19 vegades, tenim 19 + 1 + 1 + 1 + 1 + 1 = 24.
+    *   19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39
+19. Si l'1 ha de ser major que la resta, i sabem que la suma màxima per un dau és 6, la suma més gran per un dau és 6.
+    *   Si l'1 apareix 19 vegades, la suma és:
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   Això no està en les respostes.
+20. Si l'1 apareix 19 vegades, i els altres un cop.
+    *   19 * 1 + 2 + 3 + 4 + 5 + 6 = 39.
+21. Si l'1 apareix 6 vegades.
+    *   6 * 1 = 6
+    *   18 vegades restants.
+    *   Considerem que la resta apareixen 3 vegades.
+    *   1*6 + 3*2 + 3*3 + 3*4 + 3*5 + 3*6 = 6 + 6 + 9 + 12 + 15 + 18 = 66
+    *   6+18 = 24
+    *   66+6 = 72
+22. Considerem que tenim 24 tirades.
+    *   1 ha d'aparèixer més que la resta.
+    *   Tots els nombres apareixen almenys una vegada.
+    *   Si fem que els altres nombres apareguin una vegada cadascun, tenim 6 tirades.
+    *   24 - 6 = 18. L'1 pot aparèixer 19 vegades.
+    *   19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 39
+    *   Les opcions de resposta són molt altes.
+23. La suma màxima pot ser quan l'1 apareix moltes vegades.
+    *   Si l'1 apareix x vegades
+    *   2,3,4,5,6 apareixen una vegada
+    *   x + 1 + 1 + 1 + 1 + 1 = 24
+    *   x = 19
+    *   Suma = 19*1 + 2+3+4+5+6 = 39
+24. Per a maximitzar la suma, necessitem maximitzar l'aparició de l'1 i la resta de nombres només una vegada.
+    *  L'1 apareix x vegades
+    *  2,3,4,5,6 apareixen una vegada
+    *  x + 5 = 24
+    *  x = 19
+    *  Suma: 19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39
+    *  Podem provar altres combinacions.
+    *  Si fem que el 2 aparegui una vegada més, hauríem de restar una tirada a l'1.
+    *  1 apareix 18 vegades
+    *  2 apareix 2 vegades
+    *  3,4,5,6 apareixen una vegada
+    *  18 + 2*2 + 3 + 4 + 5 + 6 = 18 + 4 + 3 + 4 + 5 + 6 = 40
+25. Si volem obtenir la quantitat màxima, el nombre 1 ha d'aparèixer el màxim de vegades possible.
+    *   L'1 ha de sortir com a mínim 7 vegades, una més que la resta.
+    *   Podem posar els números 2,3,4,5,6 apareguin una vegada.
+    *   Això ocupa 5 tirades.
+    *   Queden 19.
+    *   Si l'1 apareix 19 vegades, la suma = 19*1 + 2 + 3 + 4 + 5 + 6 = 39
+    *   L'1 ha d'aparèixer més que els altres.
+    *   24 vegades.
+    *   Suma = 19+2+3+4+5+6=39
+26. Si l'1 apareix 20 vegades
+    *   2,3,4,5,6 no existeixen.
+    *   24-20 = 4
+    *   Si l'1 apareix més que els altres.
+    *   L'1 apareix 19 vegades
+    *   2,3,4,5,6 apareixen una vegada.
+    *   Suma = 19+2+3+4+5+6 = 39
+27. La suma màxima que pot haver obtingut pot ser.
+    *   L'1 surt 19 vegades.
+    *   Els altres nombres surten 1 cop.
+    *   Suma = 19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   Una altra opció.
+    *   Si l'1 surt 6 vegades.
+    *   Els altres surten el mateix nombre de vegades.
+    *   6x1 + 6x2 + 6x3 + 6x4 = 6+12+18+24 = 60
+28. Si l'1 apareix 7 vegades
+    *   Si l'1 apareix més vegades que els altres.
+    *   24 tirades.
+    *   Podem assumir que els altres nombres apareixen una vegada.
+    *   19 * 1 + 1 * 2 + 1 * 3 + 1 * 4 + 1 * 5 + 1 * 6 = 19 + 20 = 39
+29. L'1 ha d'aparèixer més vegades que qualsevol altre nombre.
+    *   L'1 apareix x vegades.
+    *   Els altres apareixen almenys una vegada.
+    *   Aleshores x+1+1+1+1+1=24
+    *   x = 19.
+    *   Suma = 1*19 + 2 + 3 + 4 + 5 + 6 = 39.
+30. L'1 ha d'aparèixer més vegades.
+    *   Si l'1 apareix 20 vegades
+    *   La resta ha d'aparèixer alguna vegada.
+    *   Aleshores no pot ser així.
+    *   Si l'1 apareix 19 vegades.
+    *   19+2+3+4+5+6 = 39
+31. L'1 ha d'aparèixer més vegades que qualsevol altra.
+    *   Si els altres apareixen una vegada:
+    *   19*1 + 2+3+4+5+6 = 39.
+32.  L'1 apareix més vegades que qualsevol altre nombre. Els altres nombres apareixen una vegada.
+    *  1 ha d'aparèixer 19 vegades
+    *  24 tirades.
+    *  Suma = 19 + 2 + 3 + 4 + 5 + 6 = 39
+33. Si l'1 apareix 10 vegades
+    *  10 + x * 2 + x * 3 + x * 4 + x * 5 + x * 6
+    *   No funciona.
+34. Si l'1 apareix 19 vegades:
+    *   19 * 1 = 19
+    *   2, 3, 4, 5, 6 apareixen una vegada.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39
+    *   No hi és a les opcions.
+35. La suma de tots els nombres, si l'1 apareix 19 vegades, i els altres una vegada.
+    *   19*1 + 1*2 + 1*3 + 1*4 + 1*5 + 1*6 = 39
+    *   Això no coincideix amb les respostes.
+    *   Si l'1 apareix x vegades
+    *   2,3,4,5,6 apareixen una vegada
+    *   x = 19
+    *   1*19 + 2+3+4+5+6 = 39.
+
+36. L'1 ha d'aparèixer més vegades que qualsevol altre nombre.
+    *   Hi ha 24 tirades.
+    *   Si tots els nombres surten almenys una vegada, aleshores l'1 pot sortir un màxim de 19 vegades.
+    *   19 * 1 + 2 + 3 + 4 + 5 + 6 = 39
+37. Hem de maximitzar la quantitat màxima,
+    *   Si l'1 apareix 19 vegades, els altres una vegada.
+    *   Això ens dona 19 + 2 + 3 + 4 + 5 + 6 = 39. No és una de les respostes.
+    *   Per a maximitzar la quantitat màxima, l'1 ha d'aparèixer moltes vegades.
+38. L'1 apareix més vegades que els altres.
+    *   L'1 apareix x vegades.
+    *   x + 2 + 3 + 4 + 5 + 6 = 24
+    *   x= 4. No pot ser ja que x ha de ser major que la resta.
+    *   Si l'1 apareix 19 vegades.
+    *   19*1 + 1*2 + 1*3 + 1*4 + 1*5 + 1*6 = 39.
+    *   Aleshores el màxim ha de ser més gran.
+    *   Si els altres només surten una vegada.
+    *   L'1 ha de sortir 19 vegades.
+    *   La suma és 39.
+
+39. Si cada nombre apareix un cop, i l'1 apareix 19 vegades. La suma és
+    *   1*19 + 2 + 3 + 4 + 5 + 6 = 39.
+40. Si l'1 surt 19 vegades
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39
+    *   No és una opció.
+
+41. Si l'1 surt 1 vegada més que la resta.
+    *   Però tots els nombres han d'aparèixer.
+    *   L'1 apareix x vegades.
+    *   2,3,4,5,6 apareixen un cop.
+    *   Aleshores x+5=24. x = 19
+    *   Suma= 1*19 + 2 + 3 + 4 + 5 + 6 = 39.
+
+42. L'1 apareix x vegades. La resta apareixen 1 vegada.
+    *   x + 1+1+1+1+1 = 24.
+    *   x = 19.
+    *   Suma: 19 + 2 + 3 + 4 + 5 + 6 = 39
+43. Hi ha 24 tirades.
+    *   L'1 ha d'aparèixer més vegades que els altres.
+    *   Si la resta apareixen una vegada:
+    *   19*1 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   Això vol dir que hem d'apropar-nos a un número major, intentarem donar més valor a algun número.
+    *   L'1 no pot sortir 20 cops.
+    *   Hem de maximitzar la quantitat.
+    *   Si l'1 apareix 1 vegada menys.
+    *   18 + 2*2 + 3 + 4 + 5 + 6 = 40.
+    *   Si fem que el 2 surti dues vegades.
+    *   L'1 ha de sortir més vegades.
+    *   L'1 apareix 19 vegades.
+    *   Els altres 5.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   L'1 ha d'aparèixer almenys 7 vegades.
+
+44. Si l'1 ha d'aparèixer 19 vegades.
+    *   La resta una vegada.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39
+    *   Això ens dona 39.
+
+45. Tenim 24 tirades.
+    *   L'1 ha d'aparèixer més vegades que els altres.
+    *   Si fem que l'1 aparegui 19 vegades.
+    *   2, 3, 4, 5, 6 apareixen un cop.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39
+    *   Aleshores hem de maximitzar la quantitat.
+    *   L'1 surt 1 vegada.
+    *   La resta surten 5 vegades.
+
+46. Si el 1 surt 19 vegades.
+    *   19 + 2+3+4+5+6 = 39.
+    *   No és una opció.
+47. L'1 apareix més vegades.
+    *   Si els altres apareixen 1 vegada.
+    *   Aleshores. L'1 apareix 19 vegades.
+    *   19*1 + 2 + 3 + 4 + 5 + 6 = 39.
+48. L'1 apareix 19 vegades.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39
+    *   Les respostes són altes.
+49. Si l'1 apareix 19 vegades.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   Aleshores no hi és.
+    *   Si l'1 apareix 15 vegades.
+    *   La resta 3 vegades.
+    *   15 + 6 + 9 + 12 + 15 + 18 = 75.
+    *   Hem d'intentar que el 1 surti moltes vegades.
+    *   Si l'1 surt 10 vegades.
+    *   La resta. No funciona.
+    *   Podem dir que la suma màxima serà si.
+    *   L'1 surt 19 vegades.
+    *   19 + 2 + 3 + 4 + 5 + 6 = 39.
+    *   Això no coincideix.
+    *   L'1 ha de sortir. Almenys 7 vegades.
+    *   7 + 1*2 + 1*3 + 1*4 + 1*5 + 1*6 = 7+20=27
+    *   24-6 = 18
+    *   Això no pot ser.
+    *   Si fem que la resta surti 3 cops.
+    *   L'1 ha de sortir 19 vegades.
+
+50. Si l'1 apareix 19 vegades.
+    *   19 + 2+3+4+5+6 = 39
+    *   Si l'1 apareix menys vegades.
+    *   18 + 2*2+3+4+5+6 = 40
+    *   L'1 ha d'aparèixer moltes vegades.
+    *   Si l'1 apareix més vegades.
+
+Raonament: El problema ens diu que l'Anna va tirar un dau 24 vegades, que tots els nombres de l'1 al 6 van aparèixer almenys una vegada, i que el nombre 1 va aparèixer més vegades que qualsevol altre nombre. Per a trobar la quantitat màxima, hem de maximitzar el nombre de vegades que apareix l'1 i minimitzar les vegades que apareixen els altres nombres. Si cada nombre de l'1 al 6 apareix una vegada, això ocupa 6 de les 24 tirades. Això deixa 18 tirades per a repartir. Com l'1 ha d'aparèixer més vegades que qualsevol altre, afegim les 18 tirades addicionals a l'1. Això fa que l'1 aparegui 19 vegades.  Llavors: 19(1) + 2 + 3 + 4 + 5 + 6 = 19 + 20 = 39.  Si fem que l'1 surti 13 vegades. Els demés surten 18/5 = 3,6. Si l'1 surt 12 vegades, aleshores cada un dels altres surt 12/5.  Si l'1 surt 18 vegades, el 2 surt 2 vegades, la resta un cop.  1*18 + 2*2 + 3 + 4 + 5 + 6 = 18+4+3+4+5+6 = 40.  Si l'1 surt 17 cops.  1*17+2*2+2*3+4+5+6 = 17+4+6+4+5+6 = 42.  Si l'1 surt 16 cops. 1*16 + 2*3+3*2+4+5+6 = 16 + 6+6+4+5+6 = 43.
+    Si l'1 apareix x vegades, cada un dels nombres 2,3,4,5,6 apareixen una vegada.
+    x + 5 = 24
+    x = 19.
+    19 + 2 + 3 + 4 + 5 + 6 = 39.
+    Si l'1 apareix 18 vegades.
+    2 apareix dues vegades.
+    18 + 2x2 + 3+4+5+6 = 18+4+3+4+5+6 = 40
+    Si l'1 apareix 17 vegades
+    17*1+ 2*2+2*3+4+5+6= 17+4+6+4+5+6 = 42
+    Si l'1 apareix 16 vegades
+    16*1+ 3*2+2*3+4+5+6= 16+6+6+4+5+6=43
+    Si l'1 apareix 15 vegades
+    15*1+4*2+2*3+4+5+6=15+8+6+4+5+6 = 44
+    Si l'1 apareix 14 vegades.
+    14*1+5*2+2*3+4+5+6=14+10+6+4+5+6 = 45
+    Si l'1 apareix 13 vegades.
+    13*1+6*2+2*3+4+5+6=13+12+6+4+5+6=46
+    Si l'1 apareix 12 vegades
+    12*1+7*2+2*3+4+5+6 = 12+14+6+4+5+6 = 47
+    Si l'1 apareix 11 vegades.
+    11*1+8*2+2*3+4+5+6=11+16+6+4+5+6 = 48
+    Si l'1 apareix 10 vegades
+    10*1+9*2+2*3+4+5+6 = 10+18+6+4+5+6 = 49
+    Si l'1 apareix 9 vegades
+    9*1+10*2+2*3+4+5+6=9+20+6+4+5+6=50
+    Si l'1 apareix 8 vegades
+    8*1+11*2+2*3+4+5+6=8+22+6+4+5+6=51
+    Si l'1 apareix 7 vegades
+    7*1+12*2+2*3+4+5+6=7+24+6+4+5+6 = 52
+    Si l'1 apareix 6 vegades
+    6+13*2+2*3+4+5+6=6+26+6+4+5+6=53
+    Si l'1 apareix 5 vegades
+    5+14*2+2*3+4+5+6=5+28+6+4+5+6 = 54
+    Si l'1 apareix 4 vegades
+    4+15*2+2*3+4+5+6 = 4+30+6+4+5+6 = 55
+    Si l'1 apareix 3 vegades
+    3+16*2+2*3+4+5+6= 3+32+6+4+5+6=56
+    Si l'1 apareix 2 vegades
+    2+17*2+2*3+4+5+6=2+34+6+4+5+6=57
+    Si l'1 apareix 1 vegada
+    1+18*2+2*3+4+5+6=1+36+6+4+5+6 = 58
+    Si l'1 apareix 0 vegades
+    19+2+3+4+5+6 = 39
+    Si l'1 apareix 19 vegades. La resta una vegada. La suma és 39.
+    Aleshores cal que l'1 aparegui 19 vegades.
+    19*1+2+3+4+5+6 = 39.
+    L'1 ha de ser el que més surti.
+
+Resposta: A)

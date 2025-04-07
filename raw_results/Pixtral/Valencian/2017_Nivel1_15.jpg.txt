@@ -1,0 +1,15 @@
+La pregunta 15 se refiere a una figura formada por 18 palets idénticos, de los cuales se pueden trazar 13 triángulos. Se pregunta cuál es el número máximo de triángulos que pueden ser considerados "destruidos" si se elimina un solo palet exactamente.
+
+Para resolver esto, primero debemos entender cómo se forman los triángulos con los palets. Cada triángulo se forma utilizando tres palets. Si eliminamos un solo palet, queremos determinar cuántos triángulos que lo involucran se verían afectados.
+
+1. **Identificar los triángulos involucrados**: Cada palet puede ser parte de múltiples triángulos. En una figura de 18 palets, cada palet puede formar parte de varios triángulos, dependiendo de su posición.
+
+2. **Determinar el impacto de eliminar un palet**: Si eliminamos un palet, todos los triángulos que involucran ese palet se consideran "destruidos". Por lo tanto, el número máximo de triángulos destruidos es igual al número de triángulos que involucran al palet eliminado.
+
+3. **Calcular el número máximo de triángulos destruidos**: En una configuración óptima, cada palet puede formar parte de varios triángulos. Sin embargo, dado que hay 13 triángulos en total, y cada triángulo utiliza 3 palets, el número máximo de triángulos destruidos al eliminar un palet es limitado por el número de triángulos que pueden involucrar ese palet.
+
+4. **Evaluar las opciones**: Dado que cada palet puede formar parte de múltiples triángulos, y considerando que hay 13 triángulos en total, el número máximo de triángulos destruidos al eliminar un solo palet es 4, ya que cada palet puede formar parte de varios triángulos, pero no todos los triángulos pueden involucrar al mismo palet.
+
+Por lo tanto, el número máximo de triángulos que pueden ser considerados "destruidos" al eliminar un solo palet es 4.
+
+**Respuesta: D)**

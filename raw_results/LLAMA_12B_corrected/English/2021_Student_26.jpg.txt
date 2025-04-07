@@ -1,0 +1,10 @@
+Reasoning: To solve this question, we need to understand the properties of a circle and its relation to triangles formed by connecting points. There are 15 points equally spaced on a circle. The criteria given are that we can form triangles by joining any 3 of these points, and congruent triangles, by rotation or reflection, are counted as only one triangle. To calculate the number of triangles, we can use the combination formula because the order in which the points are chosen does not matter (i.e., ABC forms the same triangle as CAB). The formula for combinations is C(n, k) = n!] / [k!(n-k)!], where n is the total number of items, k is the number of items to choose, and "!" denotes factorial, which is the product of all positive integers up to that number. For our case, n=15 (the 15 points), and k=3 (since we're forming triangles). 
+
+\[C(15, 3) = \frac{15\,!}{3\,!(15-3)\,!} = \frac{15\,!}{3\,! \cdot 12\,!} = \frac{15 \times 14 \times 13}{3 \times 2 \times 1}\]
+
+**Calculation:**
+
+\[= \frac{2730}{6} = 455\]
+
+So, there are 455 different triangles that can be drawn using any 3 of the 15 points on the circle. 
+Answer: E) 455

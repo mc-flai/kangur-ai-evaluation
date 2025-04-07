@@ -1,0 +1,13 @@
+Reasoning:
+We need to find the sum of the digits of the number $10^{2022} + 10^{22}$.
+$10^{2022}$ is a 1 followed by 2022 zeros.
+$10^{22}$ is a 1 followed by 22 zeros.
+Adding these two numbers, we get a number that looks like this:
+100...0100...0, where there are 2022 zeros in $10^{2022}$ and 22 zeros in $10^{22}$.
+$10^{2022} = 1\underbrace{00...0}_{2022}$
+$10^{22} = 1\underbrace{00...0}_{22}$
+$10^{2022} + 10^{22} = 1\underbrace{00...0}_{2000}1\underbrace{00...0}_{22}$
+The digits are a 1, followed by 2000 zeros, followed by a 1, followed by 22 zeros.
+So the sum of the digits is $1 + 0 + ... + 0 + 1 + 0 + ... + 0 = 1 + 1 = 2$.
+
+Answer: B)

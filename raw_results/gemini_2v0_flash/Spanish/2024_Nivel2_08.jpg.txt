@@ -1,0 +1,11 @@
+Razonamiento: El problema nos dice que Pedro tiene un paquete de 445 g y quiere equilibrar la balanza usando las pesas disponibles. Se nos pide encontrar la cantidad mínima de pesas necesarias para equilibrar la balanza. Para esto, debemos buscar la combinación de pesas que sumen 445 g, usando la menor cantidad posible.
+
+Empezamos buscando la pesa más grande menor o igual que 445 g. Esta es la pesa de 200 g. Si usamos dos pesas de 200 g, tenemos 400 g.  Necesitamos completar los 45 g restantes.
+
+Podemos usar la pesa de 50 g, pero eso nos pasaría de 445 g.  Luego, la pesa de 100 es demasiado grande.
+Si usamos dos pesas de 200 g (400 g) y dos pesas de 20 g (40 g), nos faltarían 5 g que podemos completar con la pesa de 5 g. En total, usaríamos 200 + 200 + 20 + 20 + 5, es decir, 5 pesas.
+
+Probemos otra opción. Una pesa de 200, una de 100, dan 300.  Nos faltan 145.  Si añadimos 50, obtenemos 350.  Nos faltan 95. Usamos 4 x 20 y nos pasamos, por lo que no es una buena alternativa.
+La forma de utilizar la menor cantidad es dos de 200, dos de 20 y una de 5.
+
+Respuesta: D)

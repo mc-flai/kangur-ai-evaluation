@@ -1,0 +1,32 @@
+### Raonament
+
+Per trobar la xifra unitat de la suma \(S=1^{2}+2^{2}+3^{2}+...+2017^{2}\), analitzem les xifres unitats dels nombres \(n^{2}\) per a diferents \(n\).
+
+Per \(n\) natural, les xifres unitats de \(n^{2}\) segueixen un patró cíclic pel conjunt \(\{0,1,4,5,6,9\}\). Si \(n\) acaba en:
+
+*   0, la xifra unitat és 0
+*   1, la xifra unitat és 1
+*   2, la xifra unitat és 4
+*   3, la xifra unitat és 9
+*   4, la xifra unitat és 6
+*   5, la xifra unitat és 5
+*   6, la xifra unitat és 6
+*   7, la xifra unitat és 9
+*   8, la xifra unitat és 6
+*   9, la xifra unitat és 1
+
+Observem que l'ordre dels elements en el patró cíclic és:
+
+\((0)\rightarrow 6\rightarrow 5\rightarrow 6\rightarrow 9\rightarrow 4\rightarrow 1\rightarrow 0\)
+
+Per comprondre com es repeteix el cicle, observem si el conjunt de números \(n\) des de 0 fins a 9 cobreix tots els elements del cicle:
+
+*   n = 0,6,5,6,9,4,1 donaます 6+5+6+9+4+1+3+6+5+4+9+1 = 55 que deixem en 6
+
+Les xifres unitats de els quares de tots els numbers dels 6 n la llitada comprenen el cicle, i aquesta sèrie es repeteix fins a acabar el demarcatge de les següents potències.
+
+### Calculo de la suma
+
+Alert1 : L'avaluación795da una xifra unitat capital AM
+
+### Resposta: No Answer

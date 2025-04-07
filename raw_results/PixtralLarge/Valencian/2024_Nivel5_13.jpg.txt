@@ -1,0 +1,40 @@
+**Raonament**:
+
+Per resoldre aquest problema, observem les dues figures i comparem les àrees de les regions negres visibles amb l'àrea del cercle blanc.
+
+1. **Primera Figura**:
+   - El cercle blanc petit està completament dins del cercle negre més gran.
+   - L'àrea de la regió negra visible és l'àrea del cercle negre més gran menys l'àrea del cercle blanc petit.
+
+2. **Segona Figura**:
+   - El cercle blanc és tangent al cercle negre més gran i al cercle negre mitjà.
+   - L'àrea de la regió negra visible és l'àrea del cercle negre més gran menys l'àrea del cercle blanc i l'àrea del cercle negre mitjà.
+
+Per calcular la proporció entre les àrees de les regions negres visibles:
+
+- **Primera Figura**:
+  - Denotem l'àrea del cercle negre més gran com \( A_1 \) i l'àrea del cercle blanc petit com \( A_2 \).
+  - L'àrea de la regió negra visible és \( A_1 - A_2 \).
+
+- **Segona Figura**:
+  - Denotem l'àrea del cercle negre més gran com \( A_1 \), l'àrea del cercle negre mitjà com \( A_3 \) i l'àrea del cercle blanc com \( A_2 \).
+  - L'àrea de la regió negra visible és \( A_1 - A_2 - A_3 \).
+
+Assumim que els cercles tenen les següents relacions de mida:
+
+- \( A_1 = 7^2\pi = 49\pi \)
+- \( A_2 = 3^2\pi = 9\pi \)
+- \( A_3 = 5^2\pi = 25\pi \)
+
+Per la primera figura:
+- \( A_1 - A_2 = 49\pi - 9\pi = 40\pi \)
+
+Per la segona figura:
+- \( A_1 - A_2 - A_3 = 49\pi - 9\pi - 25\pi = 15\pi \)
+
+La proporció entre les àrees de les regions negres visibles és:
+- \( \frac{40\pi}{15\pi} = \frac{40}{15} = \frac{8}{3} \)
+
+Això correspon a la proporció 7:6.
+
+**Resposta**: D)

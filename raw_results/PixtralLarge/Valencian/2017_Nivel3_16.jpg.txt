@@ -1,0 +1,27 @@
+Per resoldre aquesta pregunta, hem de considerar la suma dels dígits dels números de l'1 al 9 que es poden situar en cada segment del cercle del diagrama. La condició és que la suma dels dígits de cada conjunt de tres números units per segments alineats ha de ser divisible per 4.
+
+Observant el diagrama, veiem que hi ha quatre alineacions de tres números cadascuna. Per tant, les sumes dels dígits d'aquests tres conjunts han de ser divisibles per 4.
+
+Les opcions donades són:
+A) Hi pot anar qualsevol dels 9 nombres.
+B) Només hi poden anar l'1, el 5 o el 9.
+C) Només hi pot anar el 9.
+D) Només hi pot anar el 5.
+E) Només hi pot anar l'1.
+
+Analitzem les opcions:
+
+1. Si hi pot anar qualsevol dels 9 nombres (A), no és correcte perquè no tots els números permetran que la suma de les alineacions sigui divisible per 4.
+2. Si només hi poden anar l'1, el 5 o el 9 (B), comprovem amb els números:
+   - Per exemple, si al centre hi ha un 9, els números adjacents poden ser 4 i 7, perquè 9+4+7=20 que és divisible per 4.
+   - Si al centre hi ha un 5, els números adjacents poden ser 2 i 7, perquè 5+2+7=14 que és divisible per 4.
+   - Si al centre hi ha un 1, els números adjacents poden ser 3 i 6, perquè 1+3+6=10 que és divisible per 4.
+
+3. Si només hi pot anar el 9 (C), no és correcte perquè pot haver-hi altres números que compleixin la condició.
+4. Si només hi pot anar el 5 (D), no és correcte perquè pot haver-hi altres números que compleixin la condició.
+5. Si només hi pot anar l'1 (E), no és correcte perquè pot haver-hi altres números que compleixin la condició.
+
+Per tant, l'única opció que permet que la suma de cada alineament de tres números siga divisible per 4 és l'opció B.
+
+Raonament: L'opció B és l'única que permet que la suma de cada alineament de tres números sigui divisible per 4, ja que l'1, el 5 i el 9 són els únics possibles que permeten formar conjunts de tres números amb sumes divisibles per 4.
+Resposta: B)

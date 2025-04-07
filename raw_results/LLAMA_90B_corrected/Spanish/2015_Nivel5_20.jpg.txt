@@ -1,0 +1,18 @@
+### Razonamiento
+
+Para resolver este problema, conviene armar un sistema de ecuaciones. Inicialmente, se define cada uno de los números n-2, n y n+2 como "x+2", "x" y "x-2" respectivamente.
+
+Con estos valores, las sumas se convierten en:
+( x - 2 ) + ( x ) + ( x + 2 ) = 3x.
+Las diferencias quedarán de la siguiente manera:
+( x - (x - 2) ) + ( x - ( x + 2 ) ) + ( ( x + 2 ) - x ) = 4.
+
+El resultado de la operación inversa, que es la que tiene que ser prima, es 29.
+
+Finalmente, si se igualan las sumas de las ecuaciones con el producto, se llega a:
+3x = 4(29), lo cual se simplifica a x = 38.
+La respuesta es n = x o n = 38.
+
+### Respuesta
+
+No Answer

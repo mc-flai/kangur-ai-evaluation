@@ -1,0 +1,32 @@
+Razonamiento:
+1.  **Visualizar los caminos:** Jack starts at S and moves diagonally upwards. We need to find all possible diagonal paths to reach F.
+2.  **Count the paths:**
+    *   From S, Jack has two possible moves.
+    *   Next steps, each spot has 2 possible moves.
+    *   The number of ways to arrive at F :
+        *   Path 1: S -> 1st up, 2nd Right -> F
+        *   Path 2: S -> 1st Right, 2nd up -> F
+        *   Path 3: S -> 1st up, 2nd up
+        *   Path 4: S -> 1st Right, 2nd Right -> F
+        *   Path 5: S -> 1st Right, middle move, right
+        *   Path 6: S -> 1st up, middle move, up
+        *   Path 7: S -> 1st up, middle move, right
+        *   Path 8: S -> 1st Right, middle move, up
+
+        *   These eight are not all viable, because of the board size.
+
+    *   Starting from the bottom left point S, Jack goes up.
+    *   Then, up, then he can go up right, or up left to reach F = 4.
+    *   Starting from the bottom right point S, Jack goes up.
+    *   Then, up, then he can go up right, or up left to reach F = 4.
+
+    *    Paths:
+        1. S -> one space up and one right -> F (3 jumps)
+        2. S -> up, up, then right and up (3 jumps)
+        3. S -> right, up, then right and up (3 jumps)
+        4. S -> one space up and one left-> F (3 jumps)
+        5. S -> right, one space up and one left-> F (3 jumps)
+
+3.  **Total:** There are 6 different paths.
+
+Respuesta: D)

@@ -1,0 +1,11 @@
+**Razonamiento:**
+1. El problema nos dice que un ramader puede dividir su rebaño en corrales con una capacidad de 15 ovejas cada uno. Esto significa que el número de ovejas debe ser divisible por 15.
+2. También se nos dice que el número de ovejas puede ser dividido en corrales con una capacidad de 16 ovejas cada uno. Esto significa que el número de ovejas debe ser divisible por 16.
+3. Por lo tanto, el número de ovejas debe ser divisible tanto por 15 como por 16.
+4. El número más pequeño que es divisible por ambos 15 y 16 es el mínimo común múltiplo (mcm) de 15 y 16.
+5. El mcm de 15 y 16 es 240 (ya que 15 = 3 × 5 y 16 = 2^4, y el mcm se obtiene tomando el mayor exponente de cada primo que aparece en los factores primos de ambos números).
+6. Ahora, necesitamos encontrar un número que sea tres veces un número entero y seis veces otro número entero.
+7. El número que es divisible por 240 y puede ser representado como tres veces un número entero y seis veces otro número entero es 720 (ya que 720 = 3 × 240 y también 720 = 6 × 120).
+8. Por lo tanto, el número de ovejas es 720.
+
+**Respuesta:** E)

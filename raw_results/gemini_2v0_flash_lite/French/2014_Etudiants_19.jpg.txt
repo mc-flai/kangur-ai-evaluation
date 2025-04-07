@@ -1,0 +1,16 @@
+Raisonnement :
+1. **Analyse des inégalités :** Nous avons les inégalités  1 < p < n < m  et  1/m + 1/n + 1/p > 1.  Puisque p, n, et m sont des entiers et 1 < p < n < m, les valeurs minimales possibles pour p, n et m sont 2, 3 et 4 respectivement.
+2. **Test de la solution minimale :** Vérifions la solution (m, n, p) = (4, 3, 2) :  1/4 + 1/3 + 1/2 = (3+4+6)/12 = 13/12 > 1. Donc, cette solution est valide.
+3. **Recherche d'autres solutions:**  Si on change m, n ou p de telle sorte que l'une des valeurs augmente, la somme 1/m + 1/n + 1/p diminuera. On pourrait alors trouver d'autres triplets. Il faut noter que p est toujours égal à 2.
+4. **Test de la solution minimal:**
+    *   Si p = 2, n = 3, m = 4, alors 1/m + 1/n + 1/p = 1/4 + 1/3 + 1/2 = 13/12 > 1.
+    *   Si p = 2, n = 3, m = 5, alors 1/m + 1/n + 1/p = 1/5 + 1/3 + 1/2 = 31/30 > 1.
+    *   Si p = 2, n = 4, m = 5, alors 1/m + 1/n + 1/p = 1/5 + 1/4 + 1/2 = 19/20 < 1. Donc, cette solution est invalide.
+5. **Vérification du triplet (5,3,2)** 1/5+1/3+1/2=31/30 > 1
+6.  **Vérification du triplet (6,3,2)** 1/6+1/3+1/2=1
+
+Puisque p est toujours égal à 2, on cherche des valeurs de m et n pour trouver les autres solutions.
+
+    *   Si p=2, n=3, on a 1/m + 1/3 + 1/2 > 1, 1/m > 1 - 5/6, 1/m > 1/6.  m < 6. On a donc m = 4, 5.  On a deux solutions (4,3,2) et (5,3,2).
+
+Réponse : D) 3

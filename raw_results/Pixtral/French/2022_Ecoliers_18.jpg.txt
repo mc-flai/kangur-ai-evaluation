@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. Chaque équipe participe à un tournoi.
+2. Chaque équipe joue un total de trois matchs.
+3. Pour chaque match gagné, l'équipe gagnante marque 3 points, tandis que l'équipe perdante marque 0 point.
+4. En plus de cela, chaque équipe marque 1 point pour chaque match nul.
+5. Pour trouver le score total d'une équipe à la fin du tournoi, nous devons additionner les points de chaque match gagné, les points pour les matchs nuls et les points pour les matchs perdus.
+
+Supposons que l'équipe gagne 1 match, fasse 1 match nul et perde 1 match :
+- Points pour le match gagné : 3 points
+- Points pour le match nul : 1 point
+- Points pour le match perdu : 0 point
+
+Total des points = 3 (gagné) + 1 (nul) + 0 (perdu) = 4 points
+
+Réponse : C

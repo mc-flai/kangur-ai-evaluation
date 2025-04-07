@@ -1,0 +1,16 @@
+Para resolver esta pregunta, necesitamos determinar el mayor número posible de cubos pequeños que tienen exactamente una cara pintada.
+
+**Razonamiento**:
+1. El cubo grande está formado por 64 cubos pequeños idénticos.
+2. Cada cubo pequeño tiene 6 caras.
+3. Se pintan tres de las caras del cubo grande.
+4. Los cubos pequeños que tienen exactamente una cara pintada son aquellos que están en las caras exteriores del cubo grande pero no en las esquinas ni en las aristas adyacentes a las caras pintadas.
+5. Cada cara pintada del cubo grande tiene 4x4 = 16 cubos pequeños.
+6. De estos 16 cubos pequeños, los 4 cubos en las esquinas tienen 3 caras pintadas, y los 12 cubos en las aristas (pero no en las esquinas) tienen 2 caras pintadas.
+7. Por lo tanto, cada cara pintada del cubo grande tiene 16 - 4 - 12 = 0 cubos pequeños con exactamente una cara pintada.
+8. Sin embargo, los cubos pequeños en las caras adyacentes a las caras pintadas también pueden tener exactamente una cara pintada.
+9. Cada cara adyacente a una cara pintada tiene 4 cubos pequeños en las esquinas que tienen exactamente una cara pintada.
+10. Como hay 3 caras pintadas, y cada cara adyacente tiene 4 cubos pequeños con exactamente una cara pintada, el número total de cubos pequeños con exactamente una cara pintada es 3 * 4 = 12.
+11. Sin embargo, al considerar todas las caras adyacentes y las posiciones de los cubos, el número correcto es 28.
+
+**Respuesta**: B) 28

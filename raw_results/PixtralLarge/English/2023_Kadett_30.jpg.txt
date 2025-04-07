@@ -1,0 +1,12 @@
+**Reasoning**:
+1. First, determine the average points scored in the first six games. According to the problem, it is less than 22 points.
+2. The total points scored in the first six games must be less than 6 * 22 = 132 points.
+3. Now, sum the points scored in the 7th, 8th, and 9th games to find the total points scored after nine games: 24 + 17 + 25 = 66 points.
+4. The total points for the first six games must be such that the average after nine games is higher than the average after six games, and the total points after nine games must be less than 132 + 66 = 198 points.
+5. After ten games, the average is more than 22 points. Thus, the total points after ten games must be more than 10 * 22 = 220 points.
+6. Therefore, the points scored in the 10th game must be such that the total points exceed 220 points. Since the total points after nine games are less than 198 points, the points scored in the 10th game must be greater than 220 - 198 = 22 points.
+
+Given these calculations, the minimum number of points they have scored in their 10th game must be:
+25 points.
+
+**Answer**: D)

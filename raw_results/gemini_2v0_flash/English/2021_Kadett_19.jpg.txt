@@ -1,0 +1,15 @@
+Reasoning: Let $a$ be the number of apples and $p$ be the number of pears. We know that $a = 2p$. Let $c_a$ and $c_p$ be the number of apples and pears Christy took, and $l_a$ and $l_p$ be the number of apples and pears Lily took. We have $c_a + l_a = a$ and $c_p + l_p = p$. Also, Christy had twice as many pieces of fruit as Lily, so $c_a + c_p = 2(l_a + l_p)$.
+
+We can express $l_a$ and $l_p$ as $l_a = a - c_a$ and $l_p = p - c_p$. Substituting these into the equation $c_a + c_p = 2(l_a + l_p)$, we get $c_a + c_p = 2(a - c_a + p - c_p)$. This simplifies to $c_a + c_p = 2a - 2c_a + 2p - 2c_p$. Thus, $3c_a + 3c_p = 2a + 2p$. Since $a = 2p$, we have $3c_a + 3c_p = 2(2p) + 2p = 4p + 2p = 6p$. Dividing by 3 gives $c_a + c_p = 2p$.
+Since $a = 2p$, we can write $p = a/2$. So $c_a + c_p = 2p = a$. We also know that $c_a + l_a = a$. Therefore, $c_a + c_p = c_a + l_a$, which implies $c_p = l_a$. This means the number of pears Christy took is equal to the number of apples Lily took.
+
+Now, we analyze the options:
+A) Christy took at least one pear. Not always true.
+B) Christy took twice as many apples as pears. Not always true.
+C) Christy took twice as many apples as Lily. Not always true.
+D) Christy took as many apples as Lily got pears. Not always true.
+E) Christy took as many pears as Lily got apples. This is equivalent to $c_p = l_a$, which we found to be true.
+
+Answer: E)
+Reasoning: We are given that the total number of apples is twice the number of pears. Also, Christy has twice as many pieces of fruit as Lily. We can write down equations to represent the relationships between the number of apples and pears each person has. After substituting and simplifying the equations, we can conclude that the number of pears Christy has is the same as the number of apples Lily has.
+Answer: E)

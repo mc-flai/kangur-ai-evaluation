@@ -1,0 +1,14 @@
+Para resolver la pregunta 22, necesitamos determinar cuántos segmentos deben ser añadidos para asegurar que cada uno de los siete puntos tenga el mismo número de conexiones directas con los demás puntos.
+
+**Razonamiento**:
+1. Cada punto debe conectarse con los otros 6 puntos.
+2. Esto significa que cada punto debe tener 6 conexiones.
+3. La figura actual muestra 7 puntos.
+4. Dado que cada punto debe tener conexiones directas con los otros 6 puntos, en total, se requerirán:
+   \( \text{Total de conexiones} = 7 \times 6 / 2 = 21 \) conexiones.
+5. Debemos contar el número de conexiones existentes en la figura actual.
+6. Observamos que hay 12 conexiones actualmente presentes en la figura.
+7. Por lo tanto, el número de conexiones adicionales requeridas es:
+   \( 21 - 12 = 9 \).
+
+**Respuesta**: D).

@@ -1,0 +1,8 @@
+**Reasoning**:
+1. Consider the white triangles: the sum of the numbers in the corner points of each white triangle must be divisible by 3.
+2. We know that three of the points are already labeled as 0, 0, and 2. Let's denote the inner point by \( x \).
+3. The sum of the corner points in the white triangle which includes the point labeled 0, the point labeled 0, and the inner point \( x \) must be divisible by 3. Therefore, \( 0 + 0 + x \equiv x \equiv 0 \pmod{3} \).
+4. This means \( x \) must be divisible by 3. The possible values for \( x \) are 0, 1, or 2. Among these, only 0 is divisible by 3.
+5. Therefore, the inner point can only be labeled 0.
+
+**Answer**: A).

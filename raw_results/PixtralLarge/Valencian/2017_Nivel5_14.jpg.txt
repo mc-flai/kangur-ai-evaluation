@@ -1,0 +1,57 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de trobar un nombre \( x \) tal que, després de restar-li 1 i multiplicar el resultat per 2, el resultat pugui ser escrit com \( a \cdot x + b \). Això significa que hem de resoldre l'equació següent:
+
+\[ 2(x - 1) = a \cdot x + b \]
+
+Per simplificar l'equació, primer desenvolupem el parèntesi:
+
+\[ 2x - 2 = a \cdot x + b \]
+
+Seguidament, aïllem \( x \) en un terme de l'equació:
+
+\[ 2x - a \cdot x = b + 2 \]
+
+\[ x(2 - a) = b + 2 \]
+
+Ara, hem de trobar els valors de \( a \) i \( b \) que facin que aquesta equació tingui solució.
+
+1. Si \( a = 2 \), l'equació es converteix en:
+
+\[ x \cdot 0 = b + 2 \]
+
+El que vol dir que \( b = -2 \). Però això no és una de les nostres opcions donades.
+
+2. Si \( a \neq 2 \), podem dividir ambdós costats entre \( 2 - a \):
+
+\[ x = \frac{b + 2}{2 - a} \]
+
+Hem de verificar quines de les opcions donades satisfan aquesta condició.
+
+A) \( a = 10, b = -10 \):
+
+\[ x = \frac{-10 + 2}{2 - 10} = \frac{-8}{-8} = 1 \]
+
+B) \( a = 100, b = -110 \):
+
+\[ x = \frac{-110 + 2}{2 - 100} = \frac{-108}{-98} = \frac{54}{49} \approx 1.10 \]
+
+C) \( a = 256, b = -256 \):
+
+\[ x = \frac{-256 + 2}{2 - 256} = \frac{-254}{-254} = 1 \]
+
+D) \( a = 1000, b = -2016 \):
+
+\[ x = \frac{-2016 + 2}{2 - 1000} = \frac{-2014}{-998} = \frac{1007}{499} \approx 2.018 \]
+
+E) \( a = 1024, b = -2046 \):
+
+\[ x = \frac{-2046 + 2}{2 - 1024} = \frac{-2044}{-1022} = \frac{1022}{511} \approx 2 \]
+
+Les opcions que donen un \( x \) enter són:
+
+A) \( x = 1 \)
+C) \( x = 1 \)
+E) \( x = 2 \)
+
+**Resposta**: E)

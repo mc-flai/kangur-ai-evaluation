@@ -1,0 +1,50 @@
+Pour analyser la question 19, nous devons comprendre le contexte du problème et les informations données :
+
+1. Il y a 8 cases, et deux des cases voisines ont leur somme égale à S ou S+1.
+2. Le nombre 2021 apparaît dans les première et dernière cases.
+
+L'objectif est de déterminer combien vaut S.
+
+Pour cela, observons les cases :
+- 2021 est dans les première et dernière cases.
+- Les cases voisines ont leur somme égale à S ou S+1.
+
+Disons que les cases sont représentées par les valeurs suivantes : 
+
+[2021, a, b, c, d, e, f, 2021]
+
+Les paires voisines possibles sont :
+- (2021, a)
+- (a, b)
+- (b, c)
+- (c, d)
+- (d, e)
+- (e, f)
+- (f, 2021)
+
+Pour que la somme des cases voisines soit égale à S ou S+1, nous devons vérifier les sommes possibles :
+
+- 2021 + a = S ou S+1
+- a + b = S ou S+1
+- b + c = S ou S+1
+- c + d = S ou S+1
+- d + e = S ou S+1
+- e + f = S ou S+1
+- f + 2021 = S ou S+1
+
+Puisque 2021 apparaît deux fois, nous devons diviser 2021 par 2 pour obtenir une approximation de S :
+
+2021 / 2 = 1010.5
+
+Donc, S doit être proche de 1010.5. Les options proposées sont :
+A) 4041
+B) 4042
+C) 4043
+D) 4044
+E) 4045
+
+La seule option proche de 1010.5 est 4042, car 4042 / 2 = 2021.
+
+Raisonnement : En divisant 2021 par 2, nous obtenons 1010.5, ce qui est proche de la valeur de S. La seule option qui correspond à cette valeur est 4042.
+
+Réponse : B).

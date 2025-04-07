@@ -1,0 +1,16 @@
+Raonament: Estem buscant el valor més petit possible per a la suma de dues fraccions, on els numeradors i denominadors són nombres diferents del conjunt {1, 2, ..., 10}. Per a obtenir la suma més petita, hem de fer que cada fracció siga el més petita possible. Això vol dir que hem de posar els nombres més petits possibles als numeradors i els nombres més grans possibles als denominadors.
+
+Comencem provant amb els dos nombres més petits (1 i 2) com a numeradors i els dos nombres més grans (9 i 10) com a denominadors. Podríem tenir 1/10 + 2/9 o 1/9 + 2/10. Calculem aquestes sumes:
+1/10 + 2/9 = 9/90 + 20/90 = 29/90
+1/9 + 2/10 = 10/90 + 18/90 = 28/90 = 14/45
+
+Ara comparem els valors donats a les opcions:
+A) 2/10 = 1/5 = 18/90
+B) 3/19 ≈ 0.1579 ≈ 14.2/90
+C) 14/45 = 28/90
+D) 29/90
+E) 25/72 ≈ 0.3472 ≈ 31.25/90
+
+Sembla que la nostra hipòtesi d'usar els nombres més petits com a numeradors i els més grans com a denominadors ens ha dut a una de les opcions donades, concretament 14/45 = 28/90, que és el valor més petit entre les opcions.
+
+Resposta: C)

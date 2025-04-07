@@ -1,0 +1,30 @@
+
+La pregunta 18 involucra un cuadrilátero ABCD que es un cuadrado de costado 4. Nos piden que doblem los arcos de circunferencia de los círculos de radio 4 con centros en B y D. La diagonal BD pasa por los puntos P y Q. Se nos pregunta por el valor del área sombreada.
+
+Para resolver esto, debemos seguir estos pasos:
+
+1. **Identificar las dimensiones del cuadrado**: El cuadrado ABCD tiene un lado de longitud 4.
+2. **Ubicar los círculos**: Los círculos tienen un radio de 4 y sus centros están en B y D.
+3. **Determinar los puntos P y Q**: La diagonal BD pasa por los puntos P y Q.
+4. **Calcular el área de la región sombreada**: La región sombreada es el área de la intersección de los dos círculos.
+
+Para calcular el área de la intersección de dos círculos, utilizamos la fórmula:
+\[ \text{Área de la intersección} = \frac{1}{2} \times \sqrt{(a+b+c+d)(a+b-c-d)(-a+b+c-d)(a-b+c+d)} \]
+donde \( a, b, c, \) y \( d \) son las distancias entre los centros de los círculos y los puntos de intersección.
+
+En este caso, los círculos se intersectan en la diagonal del cuadrado, y la diagonal de un cuadrado de lado 4 es \( 4\sqrt{2} \). La distancia entre los centros de los círculos es también \( 4\sqrt{2} \).
+
+5. **Simplificar el problema**: Dado que los círculos son iguales y están alineados a lo largo de la diagonal, el área de la intersección es simplemente el área de un segmento de círculo.
+
+6. **Calcular el área del segmento de círculo**: El área del segmento de círculo es:
+\[ \text{Área del segmento} = \frac{1}{2} \times r^2 \times \theta \]
+donde \( r \) es el radio del círculo y \( \theta \) es el ángulo central del segmento.
+
+En este caso, el ángulo central es \( \frac{\pi}{2} \) (90 grados), ya que los puntos P y Q están en la diagonal.
+
+7. **Sustituir los valores**:
+\[ \text{Área del segmento} = \frac{1}{2} \times 4^2 \times \frac{\pi}{2} = \frac{1}{2} \times 16 \times \frac{\pi}{2} = 8\pi \]
+
+Por lo tanto, el área de la región sombreada es \( 8\pi \).
+
+**Respuesta**: C) \( 8\pi - 16 \)

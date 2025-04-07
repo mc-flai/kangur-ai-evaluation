@@ -1,0 +1,23 @@
+Para resolver la pregunta 21, debemos determinar el número mínimo de cerillas que Alicia debe usar para rodear cada una de las celdas y conectar la última cerilla con la primera, formando un cuadrado.
+
+**Razonamiento:**
+
+1. **Concepto General:**
+   - Cada celda en la cuadrícula tiene cuatro lados.
+   - Dado que la cuadrícula es contigua, algunos lados de las celdas se comparten entre las celdas adyacentes.
+   - El número total de celdas en la figura es 4 (2 celdas en la parte superior y 2 celdas en la parte inferior).
+
+2. **Cálculo del Número Total de Lados:**
+   - Cada celda tiene 4 lados.
+   - 4 celdas * 4 lados por celda = 16 lados.
+
+3. **Lados Compartidos:**
+   - En una cuadrícula 2x2, hay 4 lados compartidos (entre las celdas adyacentes).
+   - Estos lados compartidos se cuentan una vez, por lo que se restan 4 lados.
+   - 16 lados totales - 4 lados compartidos = 12 lados.
+
+4. **Contando las Cerillas Necesarias:**
+   - Para rodear las celdas, necesitamos una cerilla por lado.
+   - Por lo tanto, el número mínimo de cerillas necesarias es 12.
+
+**Respuesta:** A) 12.

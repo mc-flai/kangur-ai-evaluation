@@ -1,0 +1,26 @@
+Let $t$ be the number of tables and $c$ be the number of chairs.
+From the first condition, if Luigi sets out the tables individually with 4 chairs each, he is 6 chairs short. So,
+$4t = c + 6$ (1)
+From the second condition, if Luigi puts two tables together to create a bigger table with 6 chairs, then he has 4 chairs left over. Let $n$ be the number of pairs of tables. Then $t = 2n$ if $t$ is even, or $t = 2n+1$ if $t$ is odd, but since tables are always in pairs in the second scenario then it is always even $t=2n$. The number of "big tables" is $n$, where $n = t/2$. The number of chairs needed for these bigger tables is $6n$, and since he has 4 chairs left over, we have
+$6n + 4 = c$ (2)
+Substituting $n = t/2$ into (2), we get
+$6(t/2) + 4 = c$
+$3t + 4 = c$ (3)
+Now we have two equations with two variables:
+(1) $4t = c + 6$
+(3) $3t + 4 = c$
+Substituting (3) into (1), we get:
+$4t = (3t + 4) + 6$
+$4t = 3t + 10$
+$4t - 3t = 10$
+$t = 10$
+The number of tables is 10. Let's verify the number of chairs:
+Using (3), $c = 3(10) + 4 = 30 + 4 = 34$
+Using (1), $4(10) = c + 6$, so $40 = c + 6$, and $c = 40 - 6 = 34$
+So, we have 10 tables and 34 chairs.
+In the first case, we need $4 \times 10 = 40$ chairs, but we only have 34, so we are 6 chairs short.
+In the second case, we have $10/2 = 5$ tables combined. So we need $5 \times 6 = 30$ chairs. We have 34 chairs, so we have 4 chairs left over.
+
+Reasoning: Set up two equations based on the information provided in the problem. The first equation relates the number of tables and chairs when the tables are set individually. The second equation relates the number of tables and chairs when the tables are set in pairs. Solve the system of equations to find the number of tables.
+
+Answer: B)

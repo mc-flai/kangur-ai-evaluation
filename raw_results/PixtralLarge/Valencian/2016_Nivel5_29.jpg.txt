@@ -1,0 +1,29 @@
+**Raonament**:
+
+Per resoldre el problema, hem d'usar les condicions que es donen i aplicar les propietats de les arrels cúbiques.
+
+Es dona:
+1. \( a + b = 4 \)
+2. \( a^2 + b^2 = 6 \)
+
+Primer, calculem \( ab \) usant la identitat:
+\[ (a+b)^2 = a^2 + 2ab + b^2 \]
+
+Substituint els valors coneguts:
+\[ 4^2 = 6 + 2ab \]
+\[ 16 = 6 + 2ab \]
+\[ 2ab = 16 - 6 \]
+\[ 2ab = 10 \]
+\[ ab = 5 \]
+
+Ara, utilitzem la identitat per trobar \( a^3 + b^3 \):
+\[ a^3 + b^3 = (a+b)(a^2 - ab + b^2) \]
+
+Substituint els valors coneguts:
+\[ a^3 + b^3 = 4(6 - 5) \]
+\[ a^3 + b^3 = 4 \times 1 \]
+\[ a^3 + b^3 = 4 \]
+
+Per tant, el valor de \( a^3 + b^3 \) és 4.
+
+**Resposta**: A)

@@ -1,0 +1,48 @@
+
+La pregunta 6 se refiere a una reunión de amigos que lleva una cantidad específica de tiempo y se pregunta cuántos amigos tienen que haber salido para que el número total de amigos haya disminuido a la mitad.
+
+Para resolver esto, consideremos el problema paso a paso:
+
+1. **Definir Variables**:
+   - Sea \( n \) el número total de amigos.
+   - Sea \( x \) el número de amigos que tienen que salir para que el número total de amigos se reduzca a la mitad.
+
+2. **Formular la Relación**:
+   - El número total de amigos después de que \( x \) amigos salgan es \( n - x \).
+   - Queremos que este número sea la mitad del número total de amigos original, es decir, \( \frac{n}{2} \).
+
+3. **Establecer la Igualdad**:
+   - \( n - x = \frac{n}{2} \)
+
+4. **Resolver para \( x \)**:
+   - Reorganizando la ecuación, obtenemos:
+     \[
+     n - x = \frac{n}{2}
+     \]
+     \[
+     n - \frac{n}{2} = x
+     \]
+     \[
+     \frac{n}{2} = x
+     \]
+     \[
+     x = \frac{n}{2}
+     \]
+
+5. **Determinar el Número Total de Amigos**:
+   - Dado que \( x = \frac{n}{2} \), el número total de amigos \( n \) debe ser un número par para que \( x \) sea un número entero.
+   - El problema menciona que el número total de amigos se reduce a la mitad, lo que implica que \( n \) es un número par.
+
+6. **Evaluar las Opciones**:
+   - Las opciones dadas son 20, 24, 30, 40 y 60.
+   - Dado que \( n \) es un número par, las opciones posibles son 20, 24, 40 y 60.
+
+7. **Verificar la Opción Correcta**:
+   - Si \( n = 40 \), entonces \( x = \frac{40}{2} = 20 \).
+   - Si \( n = 60 \), entonces \( x = \frac{60}{2} = 30 \).
+
+Dado que el problema no proporciona un valor específico para \( n \), pero se puede inferir que \( n \) es un número par, la opción más razonable es 40, ya que es la opción par más cercana a la mitad de los valores posibles.
+
+**Respuesta Final**:
+   - Respuesta: D)
+   - Raonamiento: El número total de amigos \( n \) debe ser un número par para que el número de amigos que salen \( x \) sea un número entero. La opción 40 es la más razonable entre las opciones dadas.

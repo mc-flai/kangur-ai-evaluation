@@ -1,0 +1,13 @@
+Reasoning:
+Let $R$ be the number of red marbles and $G$ be the number of green marbles. The total number of marbles is $R+G$.
+The first statement says that if one randomly takes out five marbles, there is at least one red one. This implies that there are at most 4 green marbles. So, $G \le 4$.
+The second statement says that if one randomly takes out six marbles, there is at least one green one. This implies that there are at most 5 red marbles. So, $R \le 5$.
+The total number of marbles is $R+G$.
+The maximum number of marbles is $5+4=9$.
+
+Reasoning:
+The first condition states that if you take out 5 marbles, there must be at least one red marble. This means that the number of green marbles is at most 4. If there were 5 green marbles, you could potentially take out 5 green marbles and not have any red.
+The second condition states that if you take out 6 marbles, there must be at least one green marble. This means that the number of red marbles is at most 5. If there were 6 red marbles, you could potentially take out 6 red marbles and not have any green.
+The total number of marbles is $R + G$. Since $R \le 5$ and $G \le 4$, the maximum number of marbles in the bag is $5 + 4 = 9$.
+
+Answer: C)

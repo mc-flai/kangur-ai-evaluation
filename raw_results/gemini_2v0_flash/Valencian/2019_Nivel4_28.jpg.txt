@@ -1,0 +1,65 @@
+Raonament:
+Hi ha 4 bosses amb un total de 100 boles. Les bosses estan ordenades d'esquerra a dreta, de la més plena a la més buida. La primera bossa té 40 boles i l'última té 4 boles. No hi ha dues bosses amb el mateix nombre de boles. M és el nombre més gran de boles que hi pot haver a la segona bossa i m és el nombre més petit. Hem de trobar el valor de M - m.
+
+Per a M (el nombre més gran a la segona bossa), les bosses serien: 40, M, x, 4. Per maximitzar M, les bosses x i 4 han de tenir la menor quantitat de boles possible. Com que han de ser diferents i menors que M, els valors de x i 4 han de ser x = 5 i 4 = 4.
+La suma de les boles és 100, així que 40 + M + 5 + 4 = 100, d'on M = 100 - 49 = 51. Però M ha de ser menor que 40, per tant el nombre mínim de boles per la bossa número 3 i 4, ha de ser 5 i 4 respectivament.
+
+Per a m (el nombre més petit a la segona bossa), les bosses serien: 40, m, x, 4. Per minimitzar m, les bosses x i 4 han de tenir la major quantitat de boles possible però menors que m. Per tant, x pot ser m-1. La condició és que les bosses tenen diferente número de boles. El número de boles a la bosa 3 ha de ser el més gran possible per minimitzar m. x = m - 1. 4 és 4.
+La suma de les boles és 100, així que 40 + m + (m-1) + 4 = 100, d'on 2m + 43 = 100, d'on 2m = 57, d'on m = 28.5. Com que hem d'utilitzar números sencers m = 29.
+No obstant això m ha de ser menor que 40, per tant x valdrà 39. Com que les boles totals han de ser 100, es compleix que: 40+m+39+4=100 d'on m=100-83=17. Per tant, m ha de ser major que 4 i menor que 40, i no pot haver un nombre igual a 40.
+En aquest cas, el nombre màxim de boles a la segona bossa, serà quan les altres dues bosses, tinguin el mínim valor possible. Per tant M serà 40 >M>5>4.
+Per tant, M <40, així que agafem M com a 39 i X com a 5.
+Per tant M=51 no es pot. Per tant, x i 4 han de ser tan petits com sigui possible.  x pot ser 5 i 4 és 4.
+40+M+5+4 = 100, M = 100-40-5-4, M= 51 -> M < 40 (No es pot)
+En canvi, considerem que x=5 i el nombre de boles en la segona bossa és M, M ha de ser el més petit possible. Si la tercera bossa ha de tindre un nombre de boles superior a la cuarta (4), i inferior a la segona bossa, x pot ser 5. Per tant:
+Per maximitzar M, M < 40. X<M.
+Tenim que m < M. Hem de trobar el mínim valor que pot tenir la segona bossa, m. Quan més augmenten X, major serà el número m. Així doncs, si X val el màxim possible, per exemple 39, on m=17.
+40+M+X+4=100
+Si m val el menor valor, X valdrà 5. Per tant 40+m+5+4=100, m=100-40-5-4 = 51. Si apliquem el mètode de que m ha de ser inferior a la bossa anterior, per tant m<40, no seria factible.
+
+El nombre més gran que pot ser la segona bossa és: 40, 39, 5, 4. 100-40-5-4= 51 > 39. No és possible. Per tant X > 5, y < 39.
+m serà inferior a M.
+M ha de ser el número més gran. M < 40. Per tant 39.
+40+M+X+4=100, per minimitzar X, fem X=5
+40+39+5+4 = 88. (Falta boles). Si M és el nombre més gran M serà inferior a 37.
+
+Si minimitzem: 40+17+39+4 = 100;
+M = 39-17 = 22. Però en aquest cas M i m están definits com el màxim i el mínim que pot haver a la bossa 2. I ens demanen restar-los.
+
+Nombre màxim de boles per la segona bossa:
+M = 39
+
+Nombre mínim:
+x ha de ser superior a 4. x val 5.
+40+m+5+4=100
+m = 51. NO.
+m ha de ser superior a 4 y menor que 40. m = X-1+41 = 100
+m = 17
+40+17+39+4 = 100
+
+M-m = 39-17 = 22
+
+Resposta: No trobo cap de les respostes. Si hem de fer un calcul amb les dades donades a la pregunta, caldria veure com s'interpreten. Si per exemple fossim a 40,30,26 i 4
+40+m+(m-1)+4=100
+m+ (m-1) = 56. (56+1)/2
+
+Resposta: D)
+Raonament:
+Considerant que M (el nombre més gran) i m (el nombre més petit) puguin ser a la segona bossa:
+La suma total ha de ser 100. 40 + M + x + 4 = 100, M = 56 - x
+Per maximitzar M, x ha de ser el valor més petit possible, però x>4 (i x!=40 i x!=M). Així doncs x = 5. M = 56 - 5 = 51. Però M < 40. Per tant 37.
+Tenim: 40, M,x,4. i No hi ha dues bosses amb la mateixa quantitat. i M>x>4. 40+M+x+4=100, => 40,36,10,14 per exemple
+Anem a provar 40+ 37+ x=100, Això NO es compleix
+Si la segona bossa ha de ser menor a la primera, llavors, M < 40, 40, M, x, 4 Per M és el nombre més gran:
+40+39+5+4=88. x val el màxim possible que no sigui superior a 39 i el minim que sigui superior a 4
+Per la bosa M, l'altra bossa X, val 36+X
+La variable m, x>4, i x ha de ser diferent de 40, m.
+Per tal que la tercera bossa, la disminumim.
+Si la tercera i ultima bosa siguin la mes plena: on hi ha 40, on hi ha 31,on hi ha 25 i en conté 4. (on hi ha 45 ja excedim)
+m =53. No cal. m el minim.
+Resposta: D)
+Raonament: Considerant 40+x+5+4 = 100; x= 51. Que la segona bossa té per valor màxim 31. I la tercera 25+5=30.
+Com la quantitat total es manté, la diferencia es reduiex a valor mínim: 31
+Resposta: D)
+
+Resposta: D)

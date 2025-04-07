@@ -1,0 +1,30 @@
+**Razonamiento:**
+1. Identifica el problema: Quatre rectes diferents passen per l'origen de coordenades i es intersecten en el paràbola \( y = x^2 - 2 \). Es demana el producte dels seus coordenades \( x \) d'aquests punts d'intersecció.
+
+2. Comprèn la forma del paràbola: La equació del paràbola és \( y = x^2 - 2 \). Això implica que els punts d'intersecció amb les rectes són solucions de l'equació \( y = kx \) (on \( k \) és la pendent de la recta) i \( y = x^2 - 2 \).
+
+3. Resol les equacions simultànies:
+   \[
+   kx = x^2 - 2
+   \]
+   Reordena per a \( x \):
+   \[
+   x^2 - kx - 2 = 0
+   \]
+   Aquesta és una equació quadràtica de la forma \( ax^2 + bx + c = 0 \) on \( a = 1 \), \( b = -k \), i \( c = -2 \).
+
+4. Utilitza la fórmula de Vieta per a una equació quadràtica \( ax^2 + bx + c = 0 \):
+   - La suma dels producte de les arrels és \( -\frac{b}{a} \).
+   - La suma de les arrels és \( -\frac{b}{a} \).
+
+   Aquí, \( a = 1 \) i \( b = -k \):
+   \[
+   \text{Suma de les arrels} = -\frac{-k}{1} = k
+   \]
+   \[
+   \text{Producte de les arrels} = \frac{c}{a} = \frac{-2}{1} = -2
+   \]
+
+5. Conclou que el producte dels valors \( x \) dels punts d'intersecció és \( -2 \).
+
+**Respuesta:** D)

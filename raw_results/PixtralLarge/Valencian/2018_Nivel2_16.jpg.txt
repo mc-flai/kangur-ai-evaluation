@@ -1,0 +1,16 @@
+**Raonament**:
+
+Per resoldre aquest problema, hem de determinar quantes vegades es troben dos trens que es mouen en sentits oposats durant un viatge de 2 hores i 30 minuts.
+
+Primer, convertim el temps total de viatge en minuts:
+2 hores i 30 minuts = (2 * 60) + 30 = 120 + 30 = 150 minuts.
+
+Els trens es troben cada vegada que han recorregut el temps total del viatge. En altres paraules, es troben cada 150 minuts. Ara, hem de determinar quantes vegades es troben durant tot el viatge.
+
+Donat que el viatge dura exactament 150 minuts, els trens es troben en els següents intervals:
+- En el punt de partida (t = 0 minuts)
+- Al final del viatge (t = 150 minuts)
+
+Per tant, els trens es troben en sentit oposat un total de dues vegades durant el viatge.
+
+**Resposta**: A) 2

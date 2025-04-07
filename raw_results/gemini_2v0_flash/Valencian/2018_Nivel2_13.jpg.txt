@@ -1,0 +1,25 @@
+Raonament:
+1. El triangle gran és 1 triangle.
+2. El triangle gran està dividit en 4 triangles per la línia vertical.
+3. La línia que va des de la base esquerra fins al costat dret del triangle el divideix en 3 triangles a la part inferior (2 petits i 1 mitjà).
+4. La línia que va des de la base dreta fins al costat esquerre del triangle el divideix en 3 triangles a la part inferior (2 petits i 1 mitjà).
+5. Els triangles que hi ha a la part superior són 4.
+
+Per tant, 1 (triangle gran) + 2 (triangle superior al costat esquerre) + 2 (triangle superior al costat dret) + 2 (triangle inferior al costat esquerre) + 2 (triangle inferior al costat dret) + 4 (superior) = 4 + 8 = 12. Aquesta resposta no és correcta, ja que falta el més evident.
+
+El triangle gran és 1 triangle. Si dividim el triangle gran per la línia vertical, tenim 2 triangles grans. Si dividim el triangle gran per la línia que surt de la base esquerra fins al costat oposat, tenim 2 triangles grans. Si dividim el triangle gran per la línia que surt de la base dreta fins al costat oposat, tenim 2 triangles grans.
+
+Per tant, contem els triangles:
+1 triangle gran.
+2 triangles superiors petits.
+2 triangles laterals a l'esquerra de la línia vertical.
+2 triangles laterals a la dreta de la línia vertical.
+2 triangles inferiors a la línia esquerra.
+2 triangles inferiors a la línia dreta.
+Els 2 triangles grans que surten al partir el triangle gran per la línia vertical.
+Els 2 triangles grans que surten al partir el triangle gran per la línia esquerra.
+Els 2 triangles grans que surten al partir el triangle gran per la línia dreta.
+
+Això ens dona 1 + 2 + 2 + 2 + 2 + 2 + 2 = 16.
+
+Resposta: D)

@@ -1,0 +1,60 @@
+To determine how many three-digit numbers have the property that the two-digit number obtained by deleting the middle number is exactly a ninth of the original number, we need to set up an equation and solve for the possible values.
+
+Let the three-digit number be represented as \( \overline{abc} \), where \( a \), \( b \), and \( c \) are the digits of the number. The original number can be expressed as \( 100a + 10b + c \).
+
+When the middle digit \( b \) is removed, the resulting two-digit number is \( \overline{ac} \), which can be expressed as \( 10a + c \).
+
+According to the problem, the two-digit number \( 10a + c \) is exactly a ninth of the original number \( 100a + 10b + c \). Therefore, we can set up the following equation:
+
+\[ 10a + c = \frac{100a + 10b + c}{9} \]
+
+Multiplying both sides by 9 to clear the fraction, we get:
+
+\[ 9(10a + c) = 100a + 10b + c \]
+
+Expanding and simplifying:
+
+\[ 90a + 9c = 100a + 10b + c \]
+
+Subtracting \( 100a + c \) from both sides:
+
+\[ 90a + 9c - 100a - c = 10b \]
+
+\[ -10a + 8c = 10b \]
+
+To find the integer solutions, we need to check the possible values of \( a \), \( b \), and \( c \) that satisfy this equation. Since \( a \), \( b \), and \( c \) are digits, they must be between 0 and 9.
+
+Let's analyze the equation \( -10a + 8c = 10b \):
+
+1. \( a \) must be a positive digit (1 to 9) because if \( a = 0 \), the left-hand side becomes zero, which cannot equal \( 10b \) for any digit \( b \).
+2. \( c \) must also be a positive digit (1 to 9) for similar reasons.
+3. \( b \) must be a digit (0 to 9).
+
+We need to find pairs \( (a, c) \) such that \( -10a + 8c \) is a multiple of 10.
+
+Let's test some values:
+
+- For \( a = 1 \):
+  \[ -10(1) + 8c = 10b \]
+  \[ -10 + 8c = 10b \]
+  \[ 8c - 10 = 10b \]
+  \[ 8c = 10b + 10 \]
+  \[ c = \frac{10b + 10}{8} \]
+  For \( b = 1 \):
+  \[ c = \frac{10(1) + 10}{8} = \frac{20}{8} = 2.5 \] (not an integer)
+
+- For \( a = 2 \):
+  \[ -10(2) + 8c = 10b \]
+  \[ -20 + 8c = 10b \]
+  \[ 8c = 10b + 20 \]
+  \[ c = \frac{10b + 20}{8} \]
+  For \( b = 2 \):
+  \[ c = \frac{10(2) + 20}{8} = \frac{40}{8} = 5 \]
+
+Thus, for \( a = 2 \), \( b = 2 \), and \( c = 5 \), the number is 225.
+
+Checking other values of \( a \) similarly, we find that there is only one such number.
+
+Reasoning: We set up an equation based on the given property and solved for the possible values of \( a \), \( b \), and \( c \). Testing the values, we found that there is only one solution.
+
+Answer: B

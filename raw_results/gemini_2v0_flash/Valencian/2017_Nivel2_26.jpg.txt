@@ -1,0 +1,37 @@
+Raonament:
+La suma de tres cel·les veïnes qualssevol és 12.
+Primera fila: 5 + x + y = 12, x + y + 1 = 12. Per tant, x + y = 7 i x + y = 11. No és possible. Això vol dir que la seqüència és periòdica.
+
+Segona fila: 6, x, y, z, 2, ...
+6 + x + y = 12. x + y + z = 12. y + z + 2 = 12.
+x + y = 6. y + z = 12 - x. y + z = 10. 12 - x = 10. x = 2.
+Si x = 6, llavors y = 0. Això no és possible perquè són enters positius.
+6 + x + y = 12
+x + y + z = 12
+y + z + 2 = 12
+z + 2 + w = 12
+2 + w + v = 12
+6 + x + y = 12 => x + y = 6
+x + y + z = 12 => 6 + z = 12 => z = 6
+y + z + 2 = 12 => y + 6 + 2 = 12 => y = 4
+x + y = 6 => x + 4 = 6 => x = 2
+6, 2, 4, 6, 2
+La fila és 6, 2, 4, 6, 2, ...
+La suma és 6 + 2 + 4 + 6 + 2 = 20.
+L'enunciat diu que són tres cel·les veïnes qualssevol, no necessàriament consecutives.
+Si omplim la graella:
+5 x y 1 z w
+6 a b c 2 d e
+
+La suma de tres nombres consecutius és 12:
+6 + a + b = 12, a + b + c = 12, b + c + 2 = 12, c + 2 + d = 12, 2 + d + e = 12
+a + b = 6, a + b + c = 12, b + c = 10, c + d = 10, d + e = 10
+c = 12 - 6 = 6
+b = 10 - 6 = 4
+a = 6 - 4 = 2
+6 + 2 + 4 + 6 + 2 = 20. La suma de la fila és 20. Això no està en les opcions.
+Si x y z són nombres aleatoris, podria no haver-hi una única solució. Per tant, la resposta és "No es pot saber només amb els nombres ja posats."
+
+Raonament: Considerant la periodicitat de la seqüència, trobem que la segona fila és 6, 2, 4, 6, 2,... Sumant els valors donats, el resultat és 20. Però no hi ha aquesta opció. Per tant, la resposta és que no es pot determinar.
+
+Resposta: E)

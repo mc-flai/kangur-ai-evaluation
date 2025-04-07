@@ -1,0 +1,16 @@
+**Razonamiento:**
+1. Comencemos con el total inicial de cajas blancas, que es 16.
+2. Cada caja grande puede contener 3 cajas blancas. Por lo tanto, el número máximo de cajas blancas que pueden contenerse en una caja grande es 3.
+3. Cada caja grande puede contener 2 cajas rojas. Por lo tanto, el número máximo de cajas rojas que pueden contenerse en una caja grande es 2.
+4. Necesitamos encontrar el número máximo de cajas verdes que pueden obtenerse.
+
+Para encontrar el número máximo de cajas verdes, consideramos el número máximo de cajas blancas y rojas que pueden contenerse en las cajas grandes.
+
+- Cada caja grande puede contener 3 cajas blancas.
+- Cada caja grande puede contener 2 cajas rojas.
+
+Por lo tanto, el número máximo de cajas blancas y rojas en una caja grande es 3 + 2 = 5.
+
+Dado que hay 16 cajas blancas y 16 cajas grandes, el número máximo de cajas verdes que pueden obtenerse es 16 - 5 = 11.
+
+**Respuesta: D)**

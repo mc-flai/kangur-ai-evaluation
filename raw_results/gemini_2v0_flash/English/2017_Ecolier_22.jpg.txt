@@ -1,0 +1,12 @@
+Reasoning:
+Susi can visit two animals one after the other. She doesn't want to start with the lion. So, the first animal can be the giraffe, the elephant, or the turtle (3 choices).
+If she starts with the giraffe, the second animal can be the elephant, the lion, or the turtle (3 choices).
+If she starts with the elephant, the second animal can be the giraffe, the lion, or the turtle (3 choices).
+If she starts with the turtle, the second animal can be the giraffe, the lion, or the elephant (3 choices).
+So, we have a total of 3*3 = 9 possibilities.
+Alternatively, let G, E, L, and T represent the giraffe, elephant, lion, and turtle, respectively. The possible pairs are:
+GE, GL, GT, EG, EL, ET, TG, TE, TL.
+Since she does not want to start with the lion, the valid options are:
+GE, GL, GT, EG, EL, ET, TG, TE, TL. There are 9 valid options.
+
+Answer: D)

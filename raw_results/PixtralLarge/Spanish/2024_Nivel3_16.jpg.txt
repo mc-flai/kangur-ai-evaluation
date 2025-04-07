@@ -1,0 +1,58 @@
+Para determinar cuántos números de dos cifras existen en los que el producto de sus cifras es mayor que el número mismo, debemos descomponer el problema paso a paso.
+
+### Razonamiento:
+1. **Identificación de números de dos cifras**: Los números de dos cifras van desde 10 hasta 99.
+2. **Condición a cumplir**: El producto de las dos cifras debe ser mayor que el número mismo.
+3. **Definición de variables**: Sea el número de dos cifras \( \overline{ab} \), donde \( a \) es el dígito de las decenas y \( b \) es el dígito de las unidades. Por lo tanto, el número es \( 10a + b \).
+4. **Condición en términos matemáticos**: Necesitamos que \( a \times b > 10a + b \).
+5. **Simplificación de la condición**:
+   \[
+   a \times b > 10a + b
+   \]
+   \[
+   a \times b - b > 10a
+   \]
+   \[
+   b(a - 1) > 10a
+   \]
+   \[
+   b > \frac{10a}{a - 1}
+   \]
+6. **Evaluación de posibles valores de \( a \)**:
+   - Para \( a = 2 \):
+     \[
+     b > \frac{20}{1} = 20 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 3 \):
+     \[
+     b > \frac{30}{2} = 15 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 4 \):
+     \[
+     b > \frac{40}{3} \approx 13.33 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 5 \):
+     \[
+     b > \frac{50}{4} = 12.5 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 6 \):
+     \[
+     b > \frac{60}{5} = 12 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 7 \):
+     \[
+     b > \frac{70}{6} \approx 11.67 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 8 \):
+     \[
+     b > \frac{80}{7} \approx 11.43 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+   - Para \( a = 9 \):
+     \[
+     b > \frac{90}{8} = 11.25 \quad \text{(No es posible porque b debe ser un dígito)}
+     \]
+
+Dado que ningún valor de \( a \) permite que \( b \) sea un dígito válido, no existen números de dos cifras que cumplan la condición.
+
+### Respuesta:
+A) 0

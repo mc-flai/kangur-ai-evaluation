@@ -1,0 +1,24 @@
+Let's break down the problem step by step:
+
+1. There are twelve girls.
+2. On average, they ate 1.5 muffins each.
+3. This means the total number of muffins eaten by the twelve girls is 12 * 1.5 = 18 muffins.
+4. None of the girls ate more than two muffins, and two of the girls ate nothing.
+5. So, the number of muffins eaten by the girls who ate nothing is 0.
+6. The total number of muffins eaten by the girls who ate something is 18.
+7. If two girls ate nothing, then ten girls ate the 18 muffins.
+8. The remaining 18 muffins must be distributed among the ten girls who ate something, and none ate more than two.
+9. To find out how many girls ate exactly two muffins, consider the following:
+   - Let x be the number of girls who ate two muffins.
+   - Then, 10 - x girls ate one muffin each.
+   - The total muffins eaten is then 2x (from the girls who ate two muffins) + (10 - x) (from the girls who ate one muffin).
+   - This gives us the equation: 2x + 10 - x = 18
+10. Simplify the equation to find x:
+    - 2x + 10 - x = 18
+    - x + 10 = 18
+    - x = 8
+
+Therefore, eight girls ate two muffins.
+
+Reasoning: Based on the calculations and logical deductions provided, eight girls must have eaten two muffins each.
+Answer: E)

@@ -1,0 +1,20 @@
+Raonament: Per resoldre aquesta pregunta, hem de trobar la diferència entre la suma dels 10 primers múltiples positius de 10 i la suma dels 10 primers múltiples positius de 9.
+
+Primer, calculem la suma dels 10 primers múltiples positius de 10:
+10, 20, 30, ..., 100.
+Aquests són 10 termes d’una progressió aritmètica on el primer terme \(a = 10\) i la raó \(d = 10\).
+La suma \(S_n\) d’una progressió aritmètica es dona per:
+\[ S_n = \frac{n}{2} \times (2a + (n-1)d) \]
+Amb \(n = 10\), \(a = 10\), i \(d = 10\):
+\[ S_{10} = \frac{10}{2} \times (2 \times 10 + (10-1) \times 10) = 5 \times (20 + 90) = 5 \times 110 = 550 \]
+
+Ara calculem la suma dels 10 primers múltiples positius de 9:
+9, 18, 27, ..., 90.
+Aquests són 10 termes d’una progressió aritmètica on el primer terme \(a = 9\) i la raó \(d = 9\).
+Usant la mateixa fórmula:
+\[ S_{10} = \frac{10}{2} \times (2 \times 9 + (10-1) \times 9) = 5 \times (18 + 81) = 5 \times 99 = 495 \]
+
+Finalment, calculem la diferència entre les dues sumes:
+\[ 550 - 495 = 55 \]
+
+Resposta: E) 55

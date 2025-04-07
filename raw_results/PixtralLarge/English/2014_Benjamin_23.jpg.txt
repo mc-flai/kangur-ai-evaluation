@@ -1,0 +1,35 @@
+**Reasoning**:
+1. Mia writes three single-digit numbers on the board.
+2. Ali adds these numbers and gets 15. This means the sum of the three numbers is 15.
+3. Ali then deletes one of the three numbers and replaces it with the number 3.
+4. Resi multiplies these three numbers and obtains 36.
+
+To determine which number Ali could have deleted, we need to consider the numbers that sum up to 15 and, after replacing one of them with 3, result in a product of 36.
+
+Let's denote the three numbers as a, b, and c such that:
+a + b + c = 15
+
+After replacing one number with 3, we get:
+(a or b or c) * 3 * (remaining number) = 36
+
+We need to find suitable values for a, b, and c.
+
+Possible combinations of three single-digit numbers that sum to 15:
+- 6, 6, 3
+- 6, 5, 4
+- 7, 4, 4
+- 7, 5, 3
+- 8, 4, 3
+
+We need to check which combination, after replacing one number with 3, results in a product of 36.
+
+Checking each combination:
+- 6, 6, 3: Replacing 6 with 3 gives 3, 6, 3. Multiplying these gives 3 * 6 * 3 = 54 (not 36).
+- 6, 5, 4: Replacing 6 with 3 gives 3, 5, 4. Multiplying these gives 3 * 5 * 4 = 60 (not 36).
+- 7, 4, 4: Replacing 7 with 3 gives 3, 4, 4. Multiplying these gives 3 * 4 * 4 = 48 (not 36).
+- 7, 5, 3: Replacing 7 with 3 gives 3, 5, 3. Multiplying these gives 3 * 5 * 3 = 45 (not 36).
+- 8, 4, 3: Replacing 8 with 3 gives 3, 4, 3. Multiplying these gives 3 * 4 * 3 = 36 (correct).
+
+Therefore, the only combination that works is 8, 4, 3, where Ali deletes 8 and replaces it with 3.
+
+**Answer**: E)

@@ -1,0 +1,14 @@
+Raonament:
+El rellotge de l'esquerra marca les 11:00. El rellotge de la dreta marca la 1:00. El rellotge mostra les dotze en punt tres vegades. Per tant, significa que Anna va estar fora de casa durant més de 24 hores.
+Si Anna va eixir a les 11:00 i va tornar a la 1:00, hi ha dues opcions:
+1. Anna va eixir a les 11:00 del matí i va tornar a la 1:00 del migdia del dia següent. En aquest cas, va estar fora 26 hores. Però el rellotge ha mostrat les 12 en punt només una vegada.
+2. Anna va eixir a les 11:00 del matí i va tornar a la 1:00 del migdia del dia següent. En aquest cas, el rellotge va marcar les 12:00 al migdia, a la mitjanit i al migdia de nou. Això fa 26 hores.
+Considerem un altre escenari. Anna va eixir a les 11:00 d'un dia. El rellotge va marcar les 12:00 al migdia i a la mitjanit. Anna va tornar a l'endemà a la 1:00. Això fa 26 hores. Això no compleix la condició que les 12 en punt es mostren tres vegades. Això només passa si el període és superior a 24 hores.
+Perquè l'hora sigui de 11:00 a 1:00 i les dotze en punt es mostrin tres vegades, han de passar més de 24 hores. Per a ser precís, el rellotge mostra les 11:00, passa el migdia (12:00), passa la mitjanit (12:00), i passa el migdia següent (12:00), i finalment arriba a la 1:00. Aquest requereix el següent nombre d'hores: De les 11:00 a les 12:00 són 1 h. De les 12:00 a les 12:00 són 12 h. De les 12:00 a les 12:00 són 12 h. De les 12:00 a la 1:00 són 1 h. Això fa 1 + 12 + 12 + 1 = 26 hores.
+Perquè les dotze es mostrin tres vegades, Anna ha d'estar fora de casa almenys més d'un dia. Suposem que Anna es va trobar a casa a la 1:00 del segon dia. En aquest cas, el rellotge va marcar les 12:00 tres vegades (dia 1, dia 1 i dia 2). En total, ha estat fora (24 + 2) + (11:00-12:00) = 24 + 2 + 1 = 26 hores.
+Si Anna es va trobar fora durant 26 hores, el rellotge va mostrar el migdia i la mitjanit (dues vegades) i ha de superar 24 hores més 1 hora extra.
+Perquè les 12 en punt es mostrin tres vegades, Anna va deixar casa a les 11:00, va estar fora durant el migdia, la mitjanit i l'endemà a la 1:00. Això fa 13+12=25 hores + 1 hora a les 12:00 = 26.
+Si Anna va estar fora durant 36 hores, el rellotge mostrarà les 12:00 quatre vegades: dues vegades cada dia.
+Perquè el rellotge mostri les 12:00 tres vegades, Anna ha d'estar fora entre 24 i 36 hores. A partir de les 11:00. Això significa 1 hora fins a les 12:00, 12 hores fins a les 12:00, 12 hores fins a les 12:00 i 1 hora fins a la 1:00. L'hora és igual a 26 hores.
+
+Resposta: B)

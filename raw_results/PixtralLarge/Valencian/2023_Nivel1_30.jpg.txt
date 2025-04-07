@@ -1,0 +1,20 @@
+**Raonament**:
+Per resoldre aquesta pregunta, cal entendre el significat de les desigualtats que es donen a la taula i determinar quin número natural del 1 al 9 compleix totes les condicions per a la lletra E. Les condicions per a la lletra E són les següents:
+- E < F
+- E < D
+
+A partir d'aquestes condicions, podem deduir que el número associat amb la lletra E ha de ser menor que els números associats amb les lletres F i D. A més, com que els números disponibles són de l'1 al 9, hem de trobar un número que sigui menor que els dos números associats amb F i D.
+
+Primera condició: E < F
+Segona condició: E < D
+
+Si miram les possibles opcions:
+- Si E = 1, llavors F i D han de ser majors que 1.
+- Si E = 2, llavors F i D han de ser majors que 2.
+- Si E = 3, llavors F i D han de ser majors que 3.
+- Si E = 4, llavors F i D han de ser majors que 4, però això faria que la lletra D també fos 5, el que no és possible perquè D és 4.
+- Si E = 5, llavors F i D han de ser majors que 5, però això no és possible perquè no hi ha més números disponibles per a F i D en aquest rang.
+
+Per tant, l'única opció possible és que E = 5, ja que és l'únic número que compleix totes les condicions donades.
+
+**Resposta**: E) 5

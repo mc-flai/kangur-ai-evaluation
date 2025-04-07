@@ -1,0 +1,36 @@
+### Pregunta 27:
+Un camí \( DEFB \) amb \( DE \perp EF \) i també \( EF \perp FB \) és una troba a l'interior del quadrat \( ABCD \), com es mostra a la figura. Si \( DE = 5 \), \( EF = 1 \) i \( FB = 2 \), quin és la longitud del costat del quadrat?
+
+Opcions:
+A) \( 3\sqrt{2} \)
+B) \( \frac{7\sqrt{2}}{2} \)
+C) \( \frac{11}{2} \)
+D) \( 5\sqrt{2} \)
+E) 5
+
+### Raonament:
+1. El camí \( DEFB \) és una troba a l'interior del quadrat \( ABCD \) amb \( DE \perp EF \) i \( EF \perp FB \).
+2. Els valors donats són \( DE = 5 \), \( EF = 1 \) i \( FB = 2 \).
+3. Com que \( DEFB \) és una troba, els costats \( DE \), \( EF \) i \( FB \) són perpendiculars entre si.
+4. La longitud total del costat del quadrat \( ABCD \) és la suma dels costats de la troba \( DEFB \) i dels segments \( DF \) i \( FC \).
+5. Per trobar \( DF \) i \( FC \), notem que \( DF \) i \( FC \) són iguals perquè el quadrat té costats iguals.
+6. La longitud del costat del quadrat és \( DE + EF + FB + DF + FC \).
+7. Com que \( DF = FC \), podem escriure la longitud del costat del quadrat com \( DE + EF + FB + 2 \cdot DF \).
+8. Sabem que \( DE = 5 \), \( EF = 1 \) i \( FB = 2 \).
+9. Llavors, la longitud del costat del quadrat és \( 5 + 1 + 2 + 2 \cdot DF \).
+10. Per trobar \( DF \), usem el teorema de Pitàgor en el triangle rectángul \( DEF \):
+    \[
+    DF^2 = DE^2 - EF^2 = 5^2 - 1^2 = 25 - 1 = 24
+    \]
+    \[
+    DF = \sqrt{24} = 2\sqrt{6}
+    \]
+11. Ara, substituïm \( DF \) en la longitud del costat del quadrat:
+    \[
+    \text{Longitud del costat} = 5 + 1 + 2 + 2 \cdot 2\sqrt{6} = 8 + 4\sqrt{6}
+    \]
+12. Per simplificar, notem que \( 4\sqrt{6} = 2 \cdot 2\sqrt{6} \).
+13. Revisem les opcions per trobar la que coincideixi amb la longitud calculada.
+
+### Resposta:
+D) \( 5\sqrt{2} \)

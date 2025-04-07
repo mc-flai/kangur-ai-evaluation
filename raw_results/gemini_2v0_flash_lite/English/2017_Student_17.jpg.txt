@@ -1,0 +1,9 @@
+Reasoning: The largest possible square pattern is the largest square number less than or equal to 2017. The square root of 2017 is approximately 44.9. Therefore, the largest square possible is a 44x44 square, which means 44*44 = 1936 discs are used. The remaining discs are 2017 - 1936 = 81.
+In a 44x44 square where the top left disc is black, the number of black discs would be (44*44+1)/2 if it is an odd number, and otherwise the same. If it is even, then the number of black discs would be (44*44)/2=968. White discs would be (44*44)/2=968, if 44*44 is an even number.
+If we assume the top left disc is black, then, the number of black and white discs are:
+Number of Black Discs = (44*44 + 1) / 2 = 969
+Number of White Discs = (44*44 - 1) / 2 = 967
+Remaining black discs = 1009 - 969 = 40
+Remaining white discs = 1008 - 967 = 41
+
+Answer: (C)

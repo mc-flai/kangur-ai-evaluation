@@ -1,0 +1,49 @@
+Per resoldre aquest problema, necessitem determinar quantes persones viatgen en el sisè vagó d'un tren que té 11 vagons i 350 passatgers en total. Sabem que cada tres vagons consecutius tenen 99 passatgers.
+
+1. El total de passatgers en el tren és 350.
+2. Cada tres vagons consecutius tenen 99 passatgers.
+3. Necessitem determinar quantes persones viatgen en el sisè vagó.
+
+Primer, determinem quants passatgers viatgen en els primers tres vagons:
+
+\[ 99 \text{ passatgers} \]
+
+Ara determinem el nombre de passatgers en els tres vagons següents (vagons 4, 5 i 6):
+
+\[ 99 \text{ passatgers} \]
+
+Com que el total de passatgers en els 11 vagons és 350, i sabem que els tres primers vagons tenen 99 passatgers, el nombre de passatgers en els tres següents també són 99.
+
+A continuació, determinem el nombre de passatgers en els tres vagons següents (vagons 7, 8 i 9):
+
+\[ 99 \text{ passatgers} \]
+
+Igualment, determinem el nombre de passatgers en els tres darrers vagons (vagons 10, 11 i 12):
+
+\[ 99 \text{ passatgers} \]
+
+No obstant això, com que el tren només té 11 vagons, cal redistribuir els passatgers de manera que sumin 350. Per tant, sumant els passatgers en els primers tres vagons i els següents tres vagons, obtenim 198 passatgers.
+
+Per tant, el nombre de passatgers en els primers sis vagons és:
+
+\[ 99 \text{ (primer grup de tres vagons)} + 99 \text{ (segon grup de tres vagons)} = 198 \text{ passatgers} \]
+
+El nombre de passatgers en els cinc vagons restants és:
+
+\[ 350 - 198 = 152 \text{ passatgers} \]
+
+Ara, com que cada tres vagons consecutius tenen 99 passatgers, el nombre de passatgers en els vagons 7, 8 i 9 és:
+
+\[ 99 \text{ passatgers} \]
+
+Per tant, el nombre de passatgers en els vagons 10 i 11 és:
+
+\[ 152 - 99 = 53 \text{ passatgers} \]
+
+Finalment, com que el nombre de passatgers en els vagons 7, 8 i 9 és 99, i sabem que el nombre de passatgers en el sisè vagó és igual al nombre de passatgers en el setè vagó, el nombre de passatgers en el sisè vagó és:
+
+\[ 53 \text{ passatgers} \]
+
+Raonament: Sumant els passatgers en cada grup de tres vagons i redistribuint els passatgers en els vagons restants.
+
+Resposta: E) 53

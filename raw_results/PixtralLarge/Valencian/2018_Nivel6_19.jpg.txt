@@ -1,0 +1,34 @@
+Per resoldre el problema, hem de determinar quin valor s'ha d'assignar al punt central de la figura perquè la suma dels nombres dels vèrtexs de cada triangle de color blanc sigui divisible per 3 i la suma dels nombres dels vèrtexs de cada triangle de color negre no ho sigui.
+
+**Raonament**:
+1. Identifica els valors dels vèrtexs dels triangles de color blanc i negre.
+2. Calcula la suma dels nombres dels vèrtexs de cada triangle i determina les condicions perquè sigui divisible per 3.
+3. Tria el valor que s'ajusta a les condicions establertes.
+
+El triangle de color negre té els vèrtexs amb els valors 0, 2 i el punt central desconegut (x). La suma d'aquests valors és:
+0 + 2 + x = 2 + x
+
+Perquè aquesta suma no sigui divisible per 3, x ha de ser tal que 2 + x no sigui múltiple de 3.
+
+El triangle de color blanc té els vèrtexs amb els valors 2, 2 i el punt central desconegut (x). La suma d'aquests valors és:
+2 + 2 + x = 4 + x
+
+Perquè aquesta suma sigui divisible per 3, x ha de ser tal que 4 + x sigui múltiple de 3.
+
+Ara analitzem els possibles valors de x (0, 1, 2):
+
+- Si x = 0:
+  - Triangle negre: 2 + 0 = 2 (no divisible per 3)
+  - Triangle blanc: 4 + 0 = 4 (no divisible per 3)
+
+- Si x = 1:
+  - Triangle negre: 2 + 1 = 3 (divisible per 3)
+  - Triangle blanc: 4 + 1 = 5 (no divisible per 3)
+
+- Si x = 2:
+  - Triangle negre: 2 + 2 = 4 (no divisible per 3)
+  - Triangle blanc: 4 + 2 = 6 (divisible per 3)
+
+L'únic valor de x que compleix ambdues condicions és x = 2.
+
+**Resposta**: C)

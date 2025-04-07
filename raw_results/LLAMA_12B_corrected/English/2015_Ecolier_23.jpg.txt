@@ -1,0 +1,24 @@
+Reasoning: 
+
+To determine the number of different animals that Thomas can make, we need to consider how many cuts he can make into the animal and how many different shapes or combinations of shapes he can create.
+
+Thomas is cutting a pig and a shark into three pieces each. He takes one of the two heads, one of the two middle sections, and one of the two tails. This means he has three pieces from each animal, giving him a total of six pieces.
+
+However, these pieces are not independent; each piece must come from either the pig or the shark. Therefore, the combinations of pieces are limited to the following:
+
+*   One head from the pig and one middle section from the shark
+*   One head from the shark and one middle section from the pig
+*   Two heads from the same animal (either pig or shark)
+*   One head from the pig or shark and one tail from the other animal
+*   Two tails from the same animal (either pig or shark)
+
+Considering the possible combinations, we can count:
+
+*   1 combination for one head from each and one middle section from each
+*   2 combinations for two heads from one animal (either pig or shark)
+*   2 combinations for one head and one tail from an animal from the other species
+*   2 combinations for two tails from one animal (either pig or shark)
+
+This gives us a total of 1 + 2 + 2 + 2 = **7** possible combinations of pieces.
+
+Answer: No Answer.

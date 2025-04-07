@@ -1,0 +1,37 @@
+To determine which ball is the heaviest, we need to analyze the given information about the weights of the balls in pairs.
+
+1. We know the following from the problem:
+   - B + D = 1200
+   - C + E = 2100
+   - B + E = 800
+   - B + C = 900
+   - A + E = 700
+
+2. From these equations, we can deduce some inequalities:
+   - Since B + D = 1200 and B + E = 800, we can see that D is greater than E by 400g (D = E + 400).
+   - From B + C = 900 and B + E = 800, we can see that C is greater than E by 100g (C = E + 100).
+   - From C + E = 2100 and B + E = 800, we can see that C is greater than B by 1300g (C = B + 1300).
+
+3. Now, let's compare each ball:
+   - Since A + E = 700, we have A = 700 - E.
+   - C + E = 2100 means E can't be more than 1000g, hence the highest possible value for E is 1000g.
+   - If E is 1000g, then C = 2100 - E = 2100 - 1000 = 1100g.
+   - If E is 1000g, B + E = 800 implies B = -200g which is not possible because the mass cannot be negative. So E < 1000g.
+
+4. Since C + E = 2100, and B + C = 900, C must be significantly larger than B.
+   - If E is less than 1000g, then C is more than 1100g.
+
+5. From B + D = 1200 and B + E = 800, D is greater than E by 400g.
+   - So, D is at least 1400g.
+
+6. Comparing all the values:
+   - D is more than 1400g.
+   - C is more than 1100g.
+   - B is less than 900g.
+   - A is less than 700g.
+   - E is less than 1000g.
+
+From these comparisons, we can conclude that D is the heaviest ball.
+
+Reasoning: D is the heaviest because all the given equations and inequalities show that D has the highest weight compared to the other balls.
+Answer: (D) D.

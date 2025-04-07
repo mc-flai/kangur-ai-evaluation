@@ -1,0 +1,17 @@
+Per determinar la quantitat mínima de triangles petits necessaris per a construir el triangle gran mostrat a la figura, hem de calcular el nombre dels triangles petits que s'encaixen en el triangle gran.
+
+1. **Identifica el patró dels triangles petits**: Observa que cada triangle petit és de la mateixa mida i formen el triangle gran.
+2. **Compta els triangles petits**: La figura mostra que el triangle gran està format per triangles petits que es poden agrupar en fileres.
+3. **Compta les fileres de triangles petits**:
+   - La primera filera (la més superior) té 1 triangle petit.
+   - La segona filera té 2 triangles petits.
+   - La tercera filera té 3 triangles petits.
+   - La quarta filera té 4 triangles petits.
+   - La cinquena filera té 5 triangles petits.
+
+4. **Suma els triangles petits de cada filera**:
+   - 1 + 2 + 3 + 4 + 5 = 15
+
+Raonament: El triangle gran està format per 15 triangles petits, ja que la suma dels triangles petits de cada filera és 15.
+
+Resposta: D)

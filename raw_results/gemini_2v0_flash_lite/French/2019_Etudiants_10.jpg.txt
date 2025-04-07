@@ -1,0 +1,15 @@
+Raisonnement : Le nombre d'adhérents l'an dernier était compris entre 31 et 37. L'effectif a augmenté de 20%. Nous devons calculer le nombre d'adhérents cette année.
+Prenons le nombre minimum (31) et calculons une augmentation de 20%. 31 * 0.20 = 6.2. 31 + 6.2 = 37.2.
+Prenons le nombre maximum (37) et calculons une augmentation de 20%. 37 * 0.20 = 7.4. 37 + 7.4 = 44.4.
+Comme nous ne pouvons pas avoir une fraction de personnes, nous devons vérifier les options proposées dans cette plage.
+33 est trop petit.
+37 est trop petit.
+38 n'est pas dans la plage.
+42 est dans la plage.
+44 est dans la plage.
+Cependant, comme l'énoncé dit que l'augmentation est *exactement* de 20%, on peut aussi supposer qu'il y a des valeurs exactes dans la fourchette initiale qui, une fois augmentées de 20%, donneront des entiers.
+Si le nombre initial est 35, l'augmentation de 20% donne : 35 * 0.20 = 7.  35+7 = 42. 42 est une des réponses.
+Si le nombre initial est 30, l'augmentation de 20% donne : 30 * 0.20 = 6. 30+6 = 36. Ce n'est pas dans la plage.
+Si le nombre initial est 35, l'augmentation de 20% donne : 35 * 0.20 = 7.  35+7 = 42. 42 est une des réponses.
+
+Réponse : D)

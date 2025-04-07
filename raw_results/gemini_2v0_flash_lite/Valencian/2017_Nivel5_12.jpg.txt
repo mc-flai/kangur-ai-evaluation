@@ -1,0 +1,43 @@
+Raonament:
+1. **Expressió de les equacions**:
+    Tenim les següents equacions:
+    *   600/y + x/5 = 11
+    *   600/x + y/5 = 44
+2. **Aïllar x de la primera equació**:
+    x/5 = 11 - 600/y
+    x = 5 * (11 - 600/y)
+    x = 55 - 3000/y
+3. **Substitució en la segona equació**:
+    600 / (55 - 3000/y) + y/5 = 44
+    600y / (55y - 3000) + y/5 = 44
+    600y / (55y - 3000) = 44 - y/5
+    Multipliquem tots els termes per 5(55y - 3000):
+    3000y = 5(44)(55y - 3000) - y(55y - 3000)
+    3000y = 220(55y - 3000) - 55y^2 + 3000y
+    3000y = 12100y - 660000 - 55y^2 + 3000y
+    0 = 12100y - 660000 - 55y^2
+    55y^2 - 12100y + 660000 = 0
+    Dividim per 55:
+    y^2 - 220y + 12000 = 0
+4. **Resoldre per y**:
+    Utilitzem la fórmula quadràtica per resoldre per y:
+    y = (-b ± √(b² - 4ac)) / 2a
+    y = (220 ± √(220² - 4 * 1 * 12000)) / 2
+    y = (220 ± √(48400 - 48000)) / 2
+    y = (220 ± √400) / 2
+    y = (220 ± 20) / 2
+    y1 = (220 + 20) / 2 = 240 / 2 = 120
+    y2 = (220 - 20) / 2 = 200 / 2 = 100
+    Necessitem el valor mínim de y.
+
+5. **Comprovació**:
+    Si y=100:
+    x = 55 - 3000/100 = 55 - 30 = 25
+    600/100 + 25/5 = 6 + 5 = 11
+    600/25 + 100/5 = 24 + 20 = 44
+    Si y=120:
+    x = 55 - 3000/120 = 55 - 25 = 30
+    600/120 + 30/5 = 5 + 6 = 11
+    600/30 + 120/5 = 20 + 24 = 44
+
+Resposta: E)

@@ -1,0 +1,26 @@
+Pour déterminer l'ordre correct des longueurs des courbes \(a\), \(b\) et \(c\), nous devons mesurer chaque segment sur le quadrillage.
+
+1. Mesure de \(a\) :
+   - \(a\) commence à (0, 1) et descend à (0, 0), puis va jusqu'à (2, 0).
+   - Longueur de \(a\) = 1 (descente) + 2 (horizontal) = 3.
+
+2. Mesure de \(b\) :
+   - \(b\) commence à (4, 0) et monte à (4, 2), puis descend à (4, 1) et va jusqu'à (6, 1).
+   - Longueur de \(b\) = 2 (montée) + 1 (descente) + 2 (horizontal) = 5.
+
+3. Mesure de \(c\) :
+   - \(c\) commence à (8, 0) et descend à (8, -1), puis monte à (8, 0), puis va jusqu'à (10, 0) et monte à (10, 1).
+   - Longueur de \(c\) = 1 (descente) + 1 (montée) + 2 (horizontal) + 1 (montée) = 5.
+
+Comparons maintenant les longueurs :
+
+- \(a = 3\)
+- \(b = 5\)
+- \(c = 5\)
+
+D'après les mesures, \(a < b\) et \(a < c\). Ensuite, \(b\) et \(c\) ont la même longueur, donc \(b = c\).
+
+En conclusion, l'ordre correct des longueurs est \(a < b = c\).
+
+Raisonnement : Nous avons mesuré chaque segment des courbes a, b et c sur le quadrillage et comparé les longueurs obtenues.
+Réponse : B) \(a < c < b\)

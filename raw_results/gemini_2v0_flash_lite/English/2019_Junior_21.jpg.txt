@@ -1,0 +1,27 @@
+Reasoning:
+Let's analyze this problem systematically. We are looking for two-digit numbers (10-99) where removing either digit results in a factor of the original number.
+1. **Analyze the possible scenarios**:  Let the two-digit number be 'ab', which represents 10a + b, where 'a' and 'b' are digits (a != 0). Removing 'a' gives 'b', and removing 'b' gives 'a'. We need both 'a' and 'b' to be factors of 10a + b.
+2. **Test some numbers**:
+   - Consider 12: Removing 1 gives 2, and 12/2=6. Removing 2 gives 1, and 12/1=12. 1 and 2 are factors, so 12 works.
+   - Consider 24: Removing 2 gives 4, and 24/4=6. Removing 4 gives 2, and 24/2=12. This works.
+   - Consider 10: Removing 1 gives 0 which can't divide 10. Removing 0 gives 1 which is a factor. But we should eliminate any case that contains 0
+3. **Systematic Approach**:
+   - We can create a list of two-digit numbers that satisfy the condition:
+     - 12 (1,2,12): works
+     - 15 (1,5,15): works
+     - 24 (2,4,24): works
+     - 36 (3,6,36): works
+     - 48 (4,8,48): works
+     - 11. 1 is a factor. It works.
+     - 22: 2 is a factor. It works
+     - 33: 3 is a factor. It works
+     - 44: 4 is a factor. It works
+     - 55: 5 is a factor. It works
+     - 66: 6 is a factor. It works
+     - 77: 7 is a factor. It works
+     - 88: 8 is a factor. It works
+     - 99: 9 is a factor. It works
+
+So, there are 5 numbers with the form ab where b divides 10a+b, and a divides 10a+b which are: 12, 15, 24, 36, 48.  Also, we have 11, 22, 33, 44, 55, 66, 77, 88, and 99, these work. Total 14.
+
+Answer: C)

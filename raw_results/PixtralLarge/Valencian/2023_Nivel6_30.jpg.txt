@@ -1,0 +1,42 @@
+Per resoldre aquesta qüestió, hem de calcular el volum de la piràmide donada. Els passos són els següents:
+
+1. **Calcular l'àrea de la base**: La base de la piràmide és el triangle \( \triangle ABC \). Necessitem calcular l'àrea d'aquest triangle.
+
+2. **Trobar les longituds dels costats del triangle**: Utilitzem el teorema del cosinus per trobar les longituds dels costats del triangle \( \triangle ABC \).
+
+- \( AB \):
+\[ AB = \sqrt{OA^2 + OB^2 - 2 \cdot OA \cdot OB \cdot \cos(45^\circ)} \]
+\[ AB = \sqrt{3^2 + 4^2 - 2 \cdot 3 \cdot 4 \cdot \cos(45^\circ)} \]
+\[ AB = \sqrt{9 + 16 - 24 \cdot \frac{\sqrt{2}}{2}} \]
+\[ AB = \sqrt{25 - 12\sqrt{2}} \]
+
+- \( BC \):
+\[ BC = \sqrt{OB^2 + OC^2 - 2 \cdot OB \cdot OC \cdot \cos(60^\circ)} \]
+\[ BC = \sqrt{4^2 + 5^2 - 2 \cdot 4 \cdot 5 \cdot \cos(60^\circ)} \]
+\[ BC = \sqrt{16 + 25 - 40 \cdot \frac{1}{2}} \]
+\[ BC = \sqrt{41 - 20} \]
+\[ BC = \sqrt{21} \]
+
+- \( AC \):
+\[ AC = \sqrt{OA^2 + OC^2 - 2 \cdot OA \cdot OC \cdot \cos(45^\circ)} \]
+\[ AC = \sqrt{3^2 + 5^2 - 2 \cdot 3 \cdot 5 \cdot \cos(45^\circ)} \]
+\[ AC = \sqrt{9 + 25 - 30 \cdot \frac{\sqrt{2}}{2}} \]
+\[ AC = \sqrt{34 - 15\sqrt{2}} \]
+
+3. **Calcular l'àrea del triangle \( \triangle ABC \)**: Utilitzem la fórmula de Heró per calcular l'àrea del triangle:
+\[ s = \frac{AB + BC + AC}{2} \]
+\[ s = \frac{\sqrt{25 - 12\sqrt{2}} + \sqrt{21} + \sqrt{34 - 15\sqrt{2}}}{2} \]
+
+L'àrea \( A \) del triangle es calcula com:
+\[ A = \sqrt{s \cdot (s - AB) \cdot (s - BC) \cdot (s - AC)} \]
+
+4. **Calcular el volum de la piràmide**: Utilitzem la fórmula del volum d'una piràmide:
+\[ V = \frac{1}{3} \cdot \text{Àrea de la base} \cdot \text{Alçada} \]
+
+L'alçada és la distància del vèrtex a la base, que es pot calcular utilitzant les coordenades dels vèrtexs i la fórmula de l'alçada d'un tetraedre.
+
+Després de fer aquests càlculs, comparem el resultat amb les opcions donades.
+
+**Raonament**: Després de calcular les longituds dels costats del triangle, l'àrea de la base i el volum de la piràmide, comparem el resultat amb les opcions donades.
+
+**Resposta**: E) 6

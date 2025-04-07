@@ -1,0 +1,39 @@
+To determine which of the numbers \(a\), \(b\), \(c\), \(d\) is the biggest, we need to analyze the given equations:
+
+1. \(a + 5 = b^2 - 1\)
+2. \(b^2 - 1 = c^2 + 3\)
+3. \(c^2 + 3 = d - 4\)
+
+Let's analyze the relationships between the variables step-by-step:
+
+1. From \(a + 5 = b^2 - 1\):
+   \[
+   a = b^2 - 6
+   \]
+   Since \(b^2\) is always non-negative, the smallest value \(b^2\) can take is 0 (when \(b = 0\)). Therefore, the smallest value \(a\) can take is \(-6\), and it can be as large as \(b^2\) increases.
+
+2. From \(b^2 - 1 = c^2 + 3\):
+   \[
+   b^2 - c^2 = 4
+   \]
+   Rearrange to:
+   \[
+   (b - c)(b + c) = 4
+   \]
+   This implies that \(b\) and \(c\) could be close but \(b\) must be slightly larger than \(c\) for the equation to hold true.
+
+3. From \(c^2 + 3 = d - 4\):
+   \[
+   d = c^2 + 7
+   \]
+   Since \(c^2\) is always non-negative, the smallest value of \(d\) is 7 (when \(c = 0\)). Therefore, \(d\) is always greater than or equal to 7.
+
+Combining all the information:
+- \(a \geq -6\)
+- \(b > c\)
+- \(d \geq 7\)
+
+Since \(d\) is always greater than or equal to 7, and considering the values \(a\), \(b\), and \(c\) can take, \(d\) will always be the largest number among \(a\), \(b\), \(c\), and \(d\).
+
+Reasoning: \(d\) is always greater than or equal to 7, which makes it the largest number among \(a\), \(b\), \(c\), and \(d\).
+Answer: D)

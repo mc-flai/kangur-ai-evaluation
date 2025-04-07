@@ -1,0 +1,28 @@
+Raisonnement :
+On cherche les entiers positifs n tels que le plus grand diviseur de n (excluant n) soit n-6. Cela signifie que n-6 doit diviser n. On peut écrire n = k(n-6) pour un entier k > 1.
+Réarranger l'équation donne : n = kn - 6k, ou n(k-1) = 6k, ou n = 6k/(k-1).
+Puisque n est un entier, 6k/(k-1) doit être entier. On peut réécrire l'expression comme:
+n = 6(k-1+1)/(k-1) = 6 + 6/(k-1).
+Puisque n est un entier, 6/(k-1) doit être un entier. Cela signifie que k-1 doit être un diviseur de 6. Les diviseurs de 6 sont 1, 2, 3, 6, -1, -2, -3, -6. Donc, k-1 peut être égal à 1, 2, 3, 6, -1, -2, -3, -6. Les valeurs correspondantes de k sont 2, 3, 4, 7, 0, -1, -2, -5.
+Comme n est positif et k > 1, k peut être 2, 3, 4, 7.
+Si k = 2, alors n = 6*2/(2-1) = 12, et le plus grand diviseur de 12 (autre que 12) est 6 = 12-6.
+Si k = 3, alors n = 6*3/(3-1) = 9, et le plus grand diviseur de 9 (autre que 9) est 3 != 9-6.
+Si k = 4, alors n = 6*4/(4-1) = 8, et le plus grand diviseur de 8 (autre que 8) est 4 = 8-4.
+Si k = 7, alors n = 6*7/(7-1) = 7, and the greatest divisor is 1!= 7-6.
+Si k=0, n=0, impossible.
+Si k=-1, n=6*(-1)/(-2)=3, and the greatest divisor is 1 != 3-6
+Si k=-2, n=6*(-2)/(-3)=4, and the greatest divisor is 2 != 4-6.
+Si k=-5, n=6*(-5)/(-6)=5, and the greatest divisor is 1 != 5-6.
+Il y a une erreur dans mon raisonnement car 8-6=2.
+On cherche donc n tel que n-6 soit le plus grand diviseur de n (autre que n). Donc n-6 doit diviser n.
+n = (n-6) *k pour un certain k > 1
+n = k*n - 6k
+n(k-1) = 6k
+n = 6k/(k-1)
+n = 6(k-1+1)/(k-1) = 6 + 6/(k-1)
+Si k=2, n=6+6=12, et le plus grand diviseur de 12 est 6, et 12-6=6. Donc 12 est une solution.
+Si k=3, n=6+3=9, les diviseurs de 9 sont 1,3. 9-6=3, et le plus grand diviseur est 3, donc 9 est une solution.
+Si k=4, n=6+2=8, les diviseurs de 8 sont 1,2,4. 8-6=2, le plus grand diviseur est 4 ! donc 8 est pas solution
+Si k=7, n=6+1=7, les diviseurs de 7 sont 1. 7-6=1, donc 7 est une solution.
+Donc il y a 3 entiers. 7,9,12
+Réponse : C)

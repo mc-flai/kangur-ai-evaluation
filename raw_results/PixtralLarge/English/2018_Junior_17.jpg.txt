@@ -1,0 +1,58 @@
+**Reasoning**:
+To solve this problem, we need to identify three-digit numbers where deleting the middle digit results in a two-digit number that is exactly one-ninth of the original number.
+
+Let's denote the three-digit number as \(ABC\), where \(A\), \(B\), and \(C\) are the digits of the number. The original number can be represented as \(100A + 10B + C\).
+
+Deleting the middle digit \(B\) gives us the two-digit number \(AC\), which can be represented as \(10A + C\).
+
+According to the problem, this two-digit number \(AC\) is exactly one-ninth of the original three-digit number \(ABC\). Therefore, we have:
+
+\[ 10A + C = \frac{1}{9}(100A + 10B + C) \]
+
+Multiplying both sides by 9 to clear the fraction, we get:
+
+\[ 9(10A + C) = 100A + 10B + C \]
+
+Simplifying, we obtain:
+
+\[ 90A + 9C = 100A + 10B + C \]
+
+Rearranging terms, we get:
+
+\[ 10A + 8C = 10B \]
+
+Since \(A\), \(B\), and \(C\) are digits (0-9), we need to find combinations of \(A\), \(B\), and \(C\) that satisfy this equation.
+
+Let's analyze the possible values for \(A\), \(B\), and \(C\):
+
+1. \(A = 1\):
+   \[ 10(1) + 8C = 10B \]
+   \[ 10 + 8C = 10B \]
+   \[ 8C = 10B - 10 \]
+   \[ 8C = 10(B - 1) \]
+
+   For \(8C\) to be a multiple of 10, \(C\) must be 5 (since \(8 \times 5 = 40\)). Substituting \(C = 5\):
+
+   \[ 40 = 10(B - 1) \]
+   \[ B - 1 = 4 \]
+   \[ B = 5 \]
+
+   So, one valid number is 155.
+
+2. \(A = 2\):
+   \[ 10(2) + 8C = 10B \]
+   \[ 20 + 8C = 10B \]
+   \[ 8C = 10B - 20 \]
+   \[ 8C = 10(B - 2) \]
+
+   For \(8C\) to be a multiple of 10, \(C\) must be 0 or 5. However, \(C = 0\) does not work because it would make \(B = 2\), which does not satisfy the equation. Therefore, \(C = 5\):
+
+   \[ 40 = 10(B - 2) \]
+   \[ B - 2 = 4 \]
+   \[ B = 6 \]
+
+   So, another valid number is 265.
+
+Thus, the valid three-digit numbers are 155 and 265. There are 2 such numbers.
+
+**Answer**: B) 2

@@ -1,0 +1,27 @@
+**Raonament:**
+
+Per trobar el nombre de zeros a la fi de la xifra 100!, hem de comptar quants factors de 10 hi ha en aquest nombre factorial. Cada factor de 10 és el producte de 2 i 5, per tant, hem de comptar quants factors de 5 hi ha en 100!, ja que sempre hi haurà més factors de 2 que de 5.
+
+Per comptar el nombre de factors de 5 en 100!:
+
+1. Cada múltiple de 5 contribueix amb almenys un factor de 5.
+2. Cada múltiple de 25 contribueix amb un factor addicional de 5, ja que 25 = 5^2.
+3. Cada múltiple de 125 contribueix amb dos factors addicionals de 5, ja que 125 = 5^3.
+
+Calculem-ho pas a pas:
+
+1. Múltiples de 5 a 100:
+   - 100/5 = 20
+
+2. Múltiples de 25 a 100:
+   - 100/25 = 4
+
+3. Múltiples de 125 a 100:
+   - 100/125 = 0 (ja que 125 és més gran que 100, no hi ha cap múltiple de 125 dins de 100!)
+
+Sumem els factors de 5:
+- Total de factors de 5 = 20 (múltiples de 5) + 4 (múltiples de 25) = 24
+
+Per tant, el nombre de zeros a la fi de 100! és 24.
+
+**Resposta:** D)

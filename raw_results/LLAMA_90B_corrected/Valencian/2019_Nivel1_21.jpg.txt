@@ -1,0 +1,19 @@
+**Raonament:** 
+Com que ja sabem que la pregunta pot tenir una resposta indicada amb una lletra per cada opció demostrem el nostre raonament.
+
+Prenem com parc inicial els 15 animals mencionats en la pregunta, el valor quantitatiu més alt. Tenim dos subconjunts: els vaques (un subconjunt \( \text{V} \) ) i els cangurs (un subconjunt \( \text{C} \) ).
+
+Les condicions que indiquen els subconjunts tenen relació directa amb l'Aplicació del Principi d'Inclusió-Exclusió:
+
+*   La condició 10 no són vaques es tradueix com \( | \text{V} | \leq 5 \); és a dir, que el nombre de vaques és menor o igual a cinc.
+*   La condició 8 no són gats es tradueix com \( | \text{C} | \leq 7 \); és a dir, que el nombre de cangurs v és menor o igual a set.
+
+*   Com que no és possible ser vaques i gats alhora, podem concloure que \( |\text{V} \cap \text{C}| =0 \), en aquest cas, amb la Teoria de Conjunts, podem aplicar \( |\text{V} \cup \text{C}| = |\text{V}| + |\text{C}| - |\text{V} \cap \text{C}| = |\text{V}| + |\text{C}|\) . Usant el valor del conjunto universal (que és els 15 animals del parc en total myths), esdevé així que \( n = 15|\text{V}| + |\text{C}| = 15\)
+
+Aplicant la Informació donada per les condicions permet extreure els valors definitius en els apartats precedents en aquesta pregunta.
+
+* Per a \( |\text{V}| = 5\) aleshores  \( |\text{C}| = 10 \) 
+
+*   |V|+ |C| = 13 explodes una solució plena circum constició donada en la pregunta IIIRa
+
+Resposta: No Answer

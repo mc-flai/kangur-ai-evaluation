@@ -1,0 +1,10 @@
+Reasoning:
+The problem describes how machines R (rotates 90 degrees clockwise) and S (prints) operate on a square piece of paper with a marking. We need to find the order in which the machines are used to get the final image. The final image is a clover shape on the paper. Let's trace the changes from the starting square (marking in the bottom-left corner) by going backward:
+1.  **S** - The printing machine prints a clover shape, so the previous step must be to put in machine S to print.
+2.  **R** - To orient the square paper before putting it into machine S. The clover's marking is in the bottom-right corner. That means the marking from the original square paper in the bottom-left corner must be rotated once by machine R.
+3. **R** - The original square paper in the bottom-left corner must be rotated again.
+4.  **S** - To put it into the print.
+
+Therefore, the order is SRRS.
+
+Answer: E)

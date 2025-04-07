@@ -1,0 +1,20 @@
+
+La pregunta es: "Una pirámide tiene 24 caras. ¿Cuántas aristas tiene esta pirámide?"
+
+Para resolver esto, necesitamos entender la estructura de una pirámide. Una pirámide tiene una base y varias caras triangulares que se unen en un vértice superior. Cada cara de la pirámide comparte un borde con las caras adyacentes, y estos bordes se llaman aristas.
+
+1. Identificar el número de caras: La pregunta nos dice que la pirámide tiene 24 caras.
+2. Determinar el número de aristas: Para una pirámide, el número de aristas se puede encontrar usando la fórmula para una pirámide con una base de n lados. La fórmula es: n (número de lados de la base) + 3(n - 1) (aristas que se unen en el vértice superior).
+
+Para una pirámide con una base cuadrada (n = 4), la fórmula se simplifica a:
+   - 4 (lados de la base) + 3(4 - 1) aristas = 4 + 9 = 13 aristas.
+
+Sin embargo, dado que la pregunta no especifica el tipo de base, debemos considerar una generalización. Para una pirámide con 24 caras, cada cara comparte bordes con las caras adyacentes. La fórmula general para el número de aristas en una pirámide con m caras es:
+   - m - 1 (ya que cada cara comparte bordes con las caras adyacentes).
+
+3. Aplicar la fórmula: Para 24 caras, el número de aristas es:
+   - 24 - 1 = 23 aristas.
+
+Raonament: La fórmula para el número de aristas en una pirámide con m caras es m - 1. Aplicando esta fórmula a 24 caras, obtenemos 23 aristas.
+
+Resposta: A)

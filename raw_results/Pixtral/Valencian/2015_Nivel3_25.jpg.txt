@@ -1,0 +1,12 @@
+
+La pregunta 25 trata sobre determinar el número de formas posibles de organizar 6 cilindres de polvo en una fila, donde hay 3 cilindros de color azul, 2 de color verde y 1 de color gris. El objetivo es calcular cuántas combinaciones diferentes se pueden formar considerando que los colores deben estar en el orden de los colores de los cilindros en los cajones.
+
+**Razonamiento:**
+1. Primero, identificamos los colores disponibles: azul (3), verde (2) y gris (1).
+2. Queremos encontrar el número de permutaciones posibles de estos 6 cilindros.
+3. El número de permutaciones de n elementos se calcula usando la fórmula factorial: n!.
+4. Aquí, n = 6, por lo que el número de permutaciones posibles es 6!.
+5. Calculamos 6!:
+   6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.
+
+**Respuesta:** A)

@@ -1,0 +1,26 @@
+To determine which statement is definitely true given that the numbers \((-2)^{2n+3} \times a^{2n+2} \times b^{2n-1} \times c^{2n+2}\) and \((-3)^{2n+2} \times a^{4n+1} \times b^{2n+5} \times c^{3n-4}\) have the same sign, we need to analyze the expressions.
+
+First, let's simplify the expressions by examining the sign of each term:
+
+1. \((-2)^{2n+3}\): Since \(2n+3\) is always odd (because \(n\) is a positive whole number), \((-2)^{2n+3}\) is always negative.
+2. \(a^{2n+2}\): Since \(2n+2\) is always even, \(a^{2n+2}\) is always positive (because \(a\) is a real number and any real number raised to an even power is positive).
+3. \(b^{2n-1}\): Since \(2n-1\) is always odd, \(b^{2n-1}\) has the same sign as \(b\).
+4. \(c^{2n+2}\): Since \(2n+2\) is always even, \(c^{2n+2}\) is always positive (because \(c\) is a real number and any real number raised to an even power is positive).
+
+So, the sign of \((-2)^{2n+3} \times a^{2n+2} \times b^{2n-1} \times c^{2n+2}\) is determined by the sign of \(b\).
+
+Next, let's analyze the second expression:
+
+1. \((-3)^{2n+2}\): Since \(2n+2\) is always even, \((-3)^{2n+2}\) is always positive.
+2. \(a^{4n+1}\): Since \(4n+1\) is always odd, \(a^{4n+1}\) has the same sign as \(a\).
+3. \(b^{2n+5}\): Since \(2n+5\) is always odd, \(b^{2n+5}\) has the same sign as \(b\).
+4. \(c^{3n-4}\): Since \(3n-4\) is always odd, \(c^{3n-4}\) has the same sign as \(c\).
+
+So, the sign of \((-3)^{2n+2} \times a^{4n+1} \times b^{2n+5} \times c^{3n-4}\) is determined by the sign of \(a \times b \times c\).
+
+For the two expressions to have the same sign, the product \(a \times b \times c\) must be negative (since the first expression is negative and the second expression is positive).
+
+Therefore, \(b\) must be negative for the two expressions to have the same sign.
+
+Reasoning: The sign of the first expression is determined by \(b\), and for the two expressions to have the same sign, \(b\) must be negative.
+Answer: E).

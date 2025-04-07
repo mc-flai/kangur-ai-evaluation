@@ -1,0 +1,41 @@
+Per determinar la xifra de les unitats del nombre \( S \) donat per \( S = 1^2 + 2^2 + 3^2 + \ldots + 2017^2 \), hem d'analitzar la xifra de les unitats de cada terme en la suma.
+
+Primer, observem els patrons de les xifres de les unitats dels quadrats dels nombres:
+- \(1^2 = 1\)  (unitat: 1)
+- \(2^2 = 4\)  (unitat: 4)
+- \(3^2 = 9\)  (unitat: 9)
+- \(4^2 = 16\) (unitat: 6)
+- \(5^2 = 25\) (unitat: 5)
+- \(6^2 = 36\) (unitat: 6)
+- \(7^2 = 49\) (unitat: 9)
+- \(8^2 = 64\) (unitat: 4)
+- \(9^2 = 81\) (unitat: 1)
+- \(10^2 = 100\) (unitat: 0)
+- \(11^2 = 121\) (unitat: 1)
+- \(12^2 = 144\) (unitat: 4)
+- \(13^2 = 169\) (unitat: 9)
+- \(14^2 = 196\) (unitat: 6)
+- \(15^2 = 225\) (unitat: 5)
+- \(16^2 = 256\) (unitat: 6)
+- \(17^2 = 289\) (unitat: 9)
+- \(18^2 = 324\) (unitat: 4)
+- \(19^2 = 361\) (unitat: 1)
+- \(20^2 = 400\) (unitat: 0)
+
+Observem que el patró de les xifres de les unitats es repeteix cada 10 nombres. Així, podem determinar la xifra de les unitats de cada grup de 10 nombres:
+
+- Per als primers 10 nombres: \( 1 + 4 + 9 + 6 + 5 + 6 + 9 + 4 + 1 + 0 = 45 \)
+- Per als següents 10 nombres: \( 1 + 4 + 9 + 6 + 5 + 6 + 9 + 4 + 1 + 0 = 45 \)
+- I així successivament.
+
+Com que \( 2017 = 201 \times 10 + 7 \), tenim 201 grups de 10 nombres i un grup addicional de 7 nombres.
+
+Per als 201 grups de 10 nombres: \( 201 \times 45 = 9045 \)
+Per als 7 nombres restants: \( 1 + 4 + 9 + 6 + 5 + 6 + 9 = 40 \)
+
+Sumant els dos resultats: \( 9045 + 40 = 9085 \)
+
+La xifra de les unitats de 9085 és 5.
+
+Raonament: La xifra de les unitats de la suma dels quadrats dels nombres de 1 a 2017 és 5.
+Resposta: B)

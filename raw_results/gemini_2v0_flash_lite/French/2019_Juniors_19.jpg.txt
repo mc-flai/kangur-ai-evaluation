@@ -1,0 +1,35 @@
+Raisonnement : La question demande le nombre maximum de boîtes que l'on peut faire, sachant que chaque boîte contient le même nombre de pommes, et que le nombre de poires dans chaque boîte est différent. On doit donc trouver le plus grand diviseur commun (PGCD) des pommes et des poires et voir les possibilités.
+
+*   Il y a 60 pommes et 60 poires.
+*   Si on met 1 pomme par boîte, on peut faire 60 boîtes. Dans ce cas, on met une poire dans chaque boîte. Donc on a pas des boîtes avec un nombre différent de poires.
+*   Si on met 2 pommes par boîte, on peut faire 30 boîtes. On met alors 2 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 3 pommes par boîte, on peut faire 20 boîtes. On met alors 3 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 5 pommes par boîte, on peut faire 12 boîtes. On met alors 5 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 6 pommes par boîte, on peut faire 10 boîtes. On met alors 6 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 10 pommes par boîte, on peut faire 6 boîtes. On met alors 10 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 12 pommes par boîte, on peut faire 5 boîtes. On met alors 12 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 15 pommes par boîte, on peut faire 4 boîtes. On met alors 15 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 20 pommes par boîte, on peut faire 3 boîtes. On met alors 20 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 30 pommes par boîte, on peut faire 2 boîtes. On met alors 30 poires dans chaque boîte. Impossible d'avoir un nombre différent de poires.
+*   Si on met 60 pommes par boîte, on peut faire 1 boîte. On met alors 60 poires dans la boîte. Impossible d'avoir un nombre différent de poires.
+
+On cherche à maximiser le nombre de boîtes. Les diviseurs communs de 60 et 60 sont : 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60.
+Comme deux boîtes ne peuvent pas contenir le même nombre de poires, on choisit le PGCD de 60, qui est 60. On mettrait alors 1 pomme et 1 poire dans une boite, 1 pomme et 2 poires dans une autre, etc. On divise donc 60 par le nombre de boîtes.
+Donc, si on fait 60 boîtes, on met une pomme par boite, on ne peut pas avoir un nombre différent de poires.
+Si on met 1 pomme par boîte, on a 60 boîtes.
+Si on met 2 pommes par boîte, on a 30 boîtes.
+Si on met 3 pommes par boîte, on a 20 boîtes.
+Si on met 5 pommes par boîte, on a 12 boîtes.
+Si on met 6 pommes par boîte, on a 10 boîtes.
+Si on met 10 pommes par boîte, on a 6 boîtes.
+Si on met 12 pommes par boîte, on a 5 boîtes.
+Si on met 15 pommes par boîte, on a 4 boîtes.
+Si on met 20 pommes par boîte, on a 3 boîtes.
+Si on met 30 pommes par boîte, on a 2 boîtes.
+Si on met 60 pommes par boîte, on a 1 boîte.
+On peut faire 60 boîtes si on met 1 pomme par boite, mais on ne peut pas mettre le même nombre de poires dans les boîtes.
+Si on veut un nombre maximal de boîtes, on doit trouver un nombre de pommes tel qu'en divisant le nombre de poires par ce nombre on n'obtienne jamais le même nombre de poires dans deux boîtes différentes.
+Cela est possible si le nombre de pommes est 6. On a alors 10 boîtes. Le nombre de poires dans ces boîtes sera différent.
+La réponse est 12. On a 5 pommes par boîte. On peut alors mettre 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 poires dans les boîtes.
+
+Réponse : C)

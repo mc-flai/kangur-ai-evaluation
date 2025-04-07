@@ -1,0 +1,21 @@
+### Reasoning:
+
+To determine how many quadratic functions \( y = ax^2 + bx + c \) (with \( a \neq 0 \)) have graphs that go through at least 3 of the marked points, we need to consider the properties of quadratic functions and how they intersect points.
+
+1. **Intersection Points**: A quadratic function can pass through at most 2 points. This is because a quadratic function is a parabola, which can intersect a line at most twice.
+
+2. **Combination of Points**: To pass through at least 3 points, the quadratic function must pass through at least one point twice. This means we need to find combinations of points where one point is repeated.
+
+3. **Possible Combinations**: We need to count the number of ways to choose 3 points such that one point is repeated. This can be calculated using combinations:
+   \[
+   \binom{n}{k} = \frac{n!}{k!(n-k)!}
+   \]
+   where \( n \) is the total number of points and \( k \) is the number of points we are choosing.
+
+4. **Calculations**:
+   - If we have 6 points, the number of ways to choose 3 points such that one point is repeated is:
+     \[
+     \binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6 \times 5}{2 \times 1} = 15
+     \]
+
+### Answer: B)

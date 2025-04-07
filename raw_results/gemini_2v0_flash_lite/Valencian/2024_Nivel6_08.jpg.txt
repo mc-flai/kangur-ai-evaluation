@@ -1,0 +1,20 @@
+Raonament: Inicialment, tenim 6 gots cap amunt. En cada moviment, podem canviar l'estat de 4 gots.
+
+1.  **Moviment 1:** Girem 4 gots. Ara tenim 2 gots cap amunt i 4 cap avall.
+2.  **Moviment 2:** Girem els 4 gots que estan cap avall. Ara tenim 6 gots cap amunt.
+3.  **Moviment 3:** Girem 4 gots, triant 2 dels que estaven amunt i 2 dels que estaven avall (els que hem girat al pas anterior). Ara tenim 4 gots cap avall i 2 cap amunt.
+4.  **Moviment 4:** Girem 4 gots, triant els 2 que estan amunt i 2 dels que estan avall. Ara tenim 6 cap avall.
+
+Però, hi ha una manera de fer-ho amb menys moviments:
+1.  **Moviment 1:** Girem 4 gots. Això ens deixa amb 2 gots cap amunt i 4 cap avall.
+2.  **Moviment 2:** Girem 4 gots, triant els dos que estan amunt i 2 dels que estan avall. Això ens deixa amb 4 gots cap avall i 2 cap amunt.
+3.  **Moviment 3:** Girem els 4 que estan cap avall. Tenim 2 cap amunt i 4 cap avall.
+
+Podem pensar-ho així:
+*   Inicialment: 6 amunt.
+*   Moviment 1: 4 girem. Ara tenim 2 amunt, 4 avall.
+*   Moviment 2: Girem 4, incloent els dos que estan amunt. Ara tenim 0 amunt, 6 avall.
+
+Per tant, necessitem 3 moviments.
+
+Resposta: B)

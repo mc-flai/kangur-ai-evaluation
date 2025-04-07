@@ -1,0 +1,12 @@
+Razonamiento:
+Sea `r` el número de canicas rojas que tiene Lorena y `a` el número de canicas azules que tiene Lorena.
+Según el problema, Lorena tiene el doble de canicas azules que rojas, entonces `a = 2r`.
+Juan y Lorena juntos tienen 8 canicas rojas y 10 azules.
+Entonces, el número de canicas rojas de Juan es `8 - r` y el número de canicas azules de Juan es `10 - a`.
+Además, Juan y Lorena tienen 9 canicas cada uno.
+Entonces, `r + a = 9` para Lorena, y `(8-r) + (10-a) = 9` para Juan.
+De `r + a = 9` y `a = 2r`, tenemos `r + 2r = 9`, por lo que `3r = 9`, entonces `r = 3`.
+Luego, `a = 2r = 2 * 3 = 6`.
+Ahora podemos calcular el número de canicas azules de Juan: `10 - a = 10 - 6 = 4`.
+
+Respuesta: B)

@@ -1,0 +1,19 @@
+
+Reasoning:
+1. We need to find a year where all digits are different and the last digit is greater than the sum of the other three digits.
+2. Let's denote the year as 20ab, where a, b are the digits.
+3. The condition is that the last digit (b) must be greater than the sum of the first three digits (2, 0, a).
+4. We start by checking the smallest possible value for a and b that satisfies the condition.
+
+   - For a = 0, b must be greater than 2 (sum of 2, 0).
+   - The smallest b that satisfies this is 3.
+
+   - Year: 2003
+   - Check: 3 > 2 + 0 + 0 (which is 2)
+
+   This condition is satisfied for the year 2003.
+
+5. We need to determine how many years ago 2003 was from 2014.
+   - 2014 - 2003 = 11 years.
+
+Answer: D

@@ -1,0 +1,38 @@
+Per resoldre aquesta pregunta, hem de determinar els angles del triangle $BCD$ que es forma quan s'allarga el costat $AB$ del triangle $ABC$ fins al punt $D$ on la prolongació és tangent al cercle en el qual està inscrit el triangle $ABC$.
+
+Primer, recordem que en un triangle inscrit en un cercle, l'angle inscrit que té com a costat la tangent en el punt de tangència és igual a l'angle que subtendeix la mateixa corda és al voltant del cercle oposat a aquest costat.
+
+**Raonament**:
+
+1. El triangle $ABC$ està inscrit en un cercle, i sabem que $\hat{A} = 50^\circ$ i $\hat{B} = 70^\circ$.
+2. L'angle $\hat{C}$ del triangle $ABC$ es pot trobar utilitzant la propietat que la suma dels angles interns d'un triangle és $180^\circ$:
+   \[
+   \hat{C} = 180^\circ - \hat{A} - \hat{B} = 180^\circ - 50^\circ - 70^\circ = 60^\circ
+   \]
+3. L'angle $\hat{BDC}$ és igual a l'angle $\hat{BAC}$ per ser angles inscrits que subtendeixen el mateix arc $BC$. En aquest cas,
+   \[
+   \hat{BAC} = \hat{A} = 50^\circ
+   \]
+4. L'angle $\hat{DBC}$ és igual a l'angle $\hat{BAC}$ (ja que $BD$ és tangent al cercle en $C$), per tant,
+   \[
+   \hat{DBC} = \hat{BAC} = 50^\circ
+   \]
+5. L'angle restant $\hat{BDC}$ es pot trobar utilitzant la propietat que la suma dels angles interns d'un triangle és $180^\circ$:
+   \[
+   \hat{BDC} = 180^\circ - \hat{DBC} - \hat{BCD} = 180^\circ - 50^\circ - 60^\circ = 70^\circ
+   \]
+
+Per tant, els angles del triangle $BCD$ són $60^\circ$, $50^\circ$ i $70^\circ$.
+
+**Resposta**:
+
+Analitzant les opcions donades:
+A) 120°, 20°, 40°
+B) 95°, 35°, 50°
+C) 110°, 50°, 20°
+D) 110°, 40°, 30°
+E) 100°, 10°, 70°
+
+La resposta correcta és:
+
+**Resposta**: E) 100°, 10°, 70°

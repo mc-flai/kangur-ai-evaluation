@@ -1,0 +1,14 @@
+**Reasoning**: To solve this problem, we need to count the numbers that can be formed using only the digits 1, 2, or 3, and lie between 10 and 32.
+
+1. Start by listing the numbers that fit the criteria:
+   - Single-digit numbers are not considered because they are not greater than 10.
+   - Two-digit numbers between 10 and 32 can be: 11, 12, 13, 21, 22, 23, 31, 32.
+
+2. Verify if these numbers meet the criteria:
+   - All these numbers use only the digits 1, 2, or 3.
+   - They are all greater than 10 and smaller than 32.
+
+3. Count the numbers:
+   - There are 8 such numbers.
+
+**Answer**: E).

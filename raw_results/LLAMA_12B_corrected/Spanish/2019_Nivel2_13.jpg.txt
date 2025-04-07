@@ -1,0 +1,11 @@
+Razonamiento: 
+
+*   El problema pide identificar el mayor número de páginas en un libro con estados numerados del 1 al 5.
+*   Un ciclo de 15 empezará en cualquier tiempo inicial. Por ejemplo, si el ciclo empieza en el Instante 1, pasará los estados 1, 2, 3, 4, 5 y regresará al Instante 1.
+*   Al finalizar la los quince estados, el libro también regresará en el Estado 1.
+*   Tomando el número de pasos de 15, se busca encontrar el resto cuando el número de paginas son divididas por 15:
+    *   La diferencia entre 109 (128 - 15) y 15 (el menor número divisible por 15) da el resto que es 109 - 15 = 94.
+    *   El resto se obtiene de la diferencia.
+*   Por lo tanto, $\boxed{C)$ 124} $ es correcta.
+
+Respuesta: C) 124

@@ -1,0 +1,31 @@
+Raonament:
+Joan va menjar 50 galetes en total, i cada dia va menjar 5 galetes més que el dia anterior. Això significa que tenim una progressió aritmètica on la suma dels termes és 50 i la diferència comuna és 5. Hem de determinar quants dies va menjar galetes (n) i quantes galetes va menjar l'últim dia.
+
+Si considerem que va menjar galetes durant 2 dies:
+Primer dia: x
+Segon dia: x + 5
+x + x + 5 = 50
+2x = 45
+x = 22.5 (no és un nombre enter, així que 2 dies no és correcte).
+
+Si considerem que va menjar galetes durant 3 dies:
+Primer dia: x
+Segon dia: x + 5
+Tercer dia: x + 10
+x + x + 5 + x + 10 = 50
+3x + 15 = 50
+3x = 35
+x = 35/3 (no és un nombre enter, així que 3 dies no és correcte).
+
+Si considerem que va menjar galetes durant 4 dies:
+Primer dia: x
+Segon dia: x + 5
+Tercer dia: x + 10
+Quart dia: x + 15
+x + x + 5 + x + 10 + x + 15 = 50
+4x + 30 = 50
+4x = 20
+x = 5
+L'últim dia va menjar x + 15 = 5 + 15 = 20 galetes.
+
+Resposta: A)

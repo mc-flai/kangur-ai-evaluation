@@ -1,0 +1,30 @@
+Per resoldre el problema, hem de seguir aquests passos:
+
+1. **Identificar les caselles ombrejades**: El problema indica que la casella amb el número 7 està ombrejada. També indica que el 7 està en la fila horitzontal central i que hi ha un altre número ombrejat en la diagonal de la cantonada superior dreta.
+
+2. **Determinar les altres caselles ombrejades**: Les altres dues caselles ombrejades han de ser en la mateixa fila i columna que la casella amb el 7.
+
+3. **Determinar la posició de les altres caselles ombrejades**:
+   - La casella amb el 7 està en la fila central i la columna central.
+   - La casella ombrejada en la diagonal de la cantonada superior dreta ha de ser la cantonada inferior esquerra.
+   - Les altres dues caselles ombrejades han de ser les cantonades de la mateixa fila i columna que la casella amb el 7.
+
+Per tant, les caselles ombrejades són:
+- La casella amb el 7.
+- La cantonada superior dreta.
+- La cantonada inferior esquerra.
+- La cantonada inferior dreta.
+
+4. **Sumar els números de les caselles ombrejades**:
+   - La casella amb el 7 té el valor 7.
+   - Les altres tres caselles són les cantonades de la mateixa fila i columna que la casella amb el 7, per la qual cosa els seus valors han de ser iguals als valors de les cantonades de la mateixa fila i columna.
+   - Com que els números de 1 a 9 es repeteixen sense cap repetició, les cantonades de la mateixa fila i columna han de ser 1, 3 i 9.
+
+5. **Calcular la suma**:
+   - Sumem els números de les caselles ombrejades: 7 + 1 + 3 + 9 = 20.
+
+Raonament: Les caselles ombrejades són la casella amb el 7, la cantonada superior dreta, la cantonada inferior esquerra i la cantonada inferior dreta. La suma dels números de les caselles ombrejades és 7 + 1 + 3 + 9 = 20.
+
+Resposta: No hi ha una opció que coincideixi amb 20, però la resposta més propera és:
+
+Resposta: B) 22

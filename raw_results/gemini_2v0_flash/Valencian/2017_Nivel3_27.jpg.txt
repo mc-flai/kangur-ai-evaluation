@@ -1,0 +1,8 @@
+Raonament: Cada cub té els números 0, 1, 3, 4, 5 i 9. Per al primer cub, veiem els números 1, 3 i 4. Per tant, la cara inferior ha de ser un dels números 0, 5 o 9. Per al segon cub, veiem els números 0, 4 i 9. Per tant, la cara inferior ha de ser un dels números 1, 3 o 5. Per al tercer cub, veiem els números 1, 5 i 6. Per tant, la cara inferior ha de ser un dels números 0, 3 o 4. No podem deduir els números exactes de les cares inferiors de cada cub amb la informació proporcionada. No obstant això, sabem que els possibles valors per a la suma de les cares inferiors serien:
+cub 1: {0, 5, 9}
+cub 2: {1, 3, 5}
+cub 3: {0, 3, 4}
+A més, sabem que cada número es troba en una cara del cub, per tant 0+1+3+4+5+9=22. En els tres dibuixos es veuen els números 1+3+4 + 0+4+9 + 1+5+6=33. Com que tenim sis números en cada cub, i hi ha 3 cubs, el total dels números en les cares visibles i ocultes de cada cub seria 3 * (0+1+3+4+5+9) = 3 * 22 = 66. Les cares que es veuen sumen 3+1+4 + 4+0+9 + 1+5+9 = 36. Per tant, les cares inferiors sumen 66 - 36 = 10.
+Per contra, sumem 3+1+4=8, 4+0+9=13, 1+5+9=15. Les sumes de les cares visibles son 8+13+15=36. Per tant, les cares inferiors sumen 66 - 36 = 10.
+
+Resposta: D)

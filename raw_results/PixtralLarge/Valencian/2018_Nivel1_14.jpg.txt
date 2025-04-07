@@ -1,0 +1,16 @@
+**Raonament**:
+Laia està jugant un joc on ha de moure un cangur per quadres. En cada torn, el cangur pot moure's 7 o 8 quadrats endavant o 2 quadrats enrere. El cangur té 34 quadrats en una fila.
+
+Inicialment, el cangur està al quadre número 1 i ha de moure's fins al quadre 34.
+
+1. Calculem el nombre mínim de torns necessaris per cobrir la distància màxima de 33 quadrats (34 - 1 = 33).
+
+2. Si el cangur mou 8 quadrats en cada salt endavant, el nombre de torns necessaris seria 33 / 8 = 4.125 torns. Això significa que necessitaria 5 torns, ja que no es poden fer fraccions de torns.
+
+3. Però, podem considerar una combinació de moviments de 7 o 8 quadrats i 2 quadrats enrere per optimitzar els moviments.
+   - Si el cangur mou 8 quadrats en 4 torns, cobreix 32 quadrats.
+   - Llavors necessitaria moure's 1 quadrat més, i pot moure's 2 quadrats enrere i després 3 quadrats endavant per cobrir aquest últim quadrat.
+
+4. Per tant, el nombre mínim de torns necessaris és 4 torns endavant de 8 quadrats i 1 torn enrere de 2 quadrats, més 1 torn endavant de 3 quadrats, total 6 torns.
+
+**Resposta**: C)

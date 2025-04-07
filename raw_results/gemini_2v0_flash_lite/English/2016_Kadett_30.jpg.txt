@@ -1,0 +1,19 @@
+Reasoning:
+1. **Count Black and White Cubes:** The total number of cubes is 3 x 3 x 3 = 27. The cube has 15 black and 12 white unit cubes.
+2. **Analyze Visible Faces:** Examine the five visible faces of the cube and count the number of black and white cubes on each face.
+   - Face 1: 5 black, 4 white
+   - Face 2: 5 black, 4 white
+   - Face 3: 5 black, 4 white
+   - Face 4: 4 black, 5 white
+   - Face 5: 6 black, 3 white
+   - Total from visible faces: 25 black, 20 white.
+
+3. **Check for Cube count consistency:**
+    - Sum of all black cubes must equal 15, so there are 25 - 15 = 10 missing black cubes from the face hidden from view. This means that there must be 10 white cubes and no black cubes to fill the other face. 
+4. **Determine Missing Face:** Count number of white and black cubes for the hidden face by subtracting. The remaining total needs to be equal to 15 black and 12 white cubes.
+     - Total White Cubes = 12.
+     - Remaining white cubes to complete missing face = 12-1 = 2.
+     - Remaining black cubes for the missing face = 15-9 = 6.
+5. **Match to Option:** The missing face must have 6 white and 3 black cubes. This matches option (B).
+
+Answer: B)

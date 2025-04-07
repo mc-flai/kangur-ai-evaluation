@@ -1,0 +1,16 @@
+Raonament:
+
+1. El problema demana determinar quants números hi ha en una propietat amb tres xifres que compleixin amb la condició que si eliminate la primera xifra obteniu un quadrat perfecte i si eliminate l'última xifra obteniu un altre quadrat perfecte.
+2. Els quadrats perfectes amb una xifra són: 1, 4, 9.
+3. Els quadrats perfectes amb dues xifres són: 16, 25, 36, 49, 64, 81.
+4. Necessitem trobar els números de tres xifres tals que, al eliminar la primera xifra, el resultat sigui un quadrat perfecte de dues xifres i al eliminar l'última xifra, el resultat sigui un quadrat perfecte d'una xifra.
+5. Provem amb els quadrats perfectes de dues xifres:
+    - 16: No funciona, perquè no hi ha cap quadrat perfecte d'una xifra que comenci per 16.
+    - 25: No funciona, perquè no hi ha cap quadrat perfecte d'una xifra que comenci per 25.
+    - 36: No funciona, perquè no hi ha cap quadrat perfecte d'una xifra que comenci per 36.
+    - 49: No funciona, perquè no hi ha cap quadrat perfecte d'una xifra que comenci per 49.
+    - 64: Funciona, perquè 6 és un quadrat perfecte i 4 és un quadrat perfecte.
+    - 81: Funciona, perquè 8 és un quadrat perfecte i 1 és un quadrat perfecte.
+6. Per tant, els números de tres xifres que satisfan la condició són 64 i 81, és a dir, hi ha 2 números que compleixen aquesta propietat.
+
+Resposta: A)

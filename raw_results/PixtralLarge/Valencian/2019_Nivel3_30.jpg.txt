@@ -1,0 +1,47 @@
+**Raonament**:
+El problema ens diu que un tren està format per 18 vagons i que té un total de 700 passatgers. També ens diu que en cada bloc de cinc vagons adjacents hi ha 199 passatgers en total.
+
+Per trobar el nombre de passatgers als dos vagons del mig del tren, hem d’entendre que els dos vagons del mig són el novè i el desè vagó (ja que el tren té 18 vagons). Aquests dos vagons pertanyen a dos blocs de cinc vagons diferents:
+
+- El novè vagó forma part del bloc que va del setè al onzè vagó.
+- El desè vagó forma part del bloc que va del sisè al desè vagó.
+
+Cada bloc de cinc vagons té 199 passatgers, i els dos vagons del mig són presents en tots dos blocs.
+
+Per trobar el nombre de passatgers en els dos vagons del mig, sumem el nombre de passatgers dels dos blocs i substraïm el nombre de passatgers dels altres tres vagons que formen part de cada bloc.
+
+Calculant:
+- Els dos blocs junts tenen 199 + 199 = 398 passatgers.
+- Cada bloc conté tres vagons més a part dels dos vagons del mig, el que significa que tenen sis vagons addicionals en total.
+- Cada vagó té el mateix nombre de passatgers, anomenem-lo x. Com que un bloc té 199 passatgers, i hi ha tres vagons que no són els del mig, els tres vagons restants tenen 3x passatgers.
+- Per tant, els sis vagons restants (tres de cada bloc) tenen 6x passatgers.
+
+El nombre de passatgers en els dos vagons del mig és:
+398 - 6x = 2x (ja que els dos vagons del mig tenen el doble del nombre de passatgers d'un vagó, x)
+
+Rearranjat:
+398 = 8x
+x = 398 / 8
+x = 49,75
+
+Com que x és el nombre de passatgers per vagó, els dos vagons del mig tenen 2x passatgers:
+2x = 2 * 49,75 = 99,5
+
+Com que no podem tenir una fracció de passatger, aquesta situació és irreal. Així que hem de revisar el càlcul:
+
+Una altra manera de resoldre-ho és observar que els dos vagons del mig pertanyen a dos blocs de cinc vagons:
+- Els 199 passatgers del bloc que conté els vagons 7, 8, 9, 10, 11.
+- Els 199 passatgers del bloc que conté els vagons 6, 7, 8, 9, 10.
+
+Sumant aquests dos blocs obtenim 398 passatgers, però el vagó 9 es compta dues vegades en aquest total. Per tant, si restem el nombre de passatgers d'un vagó (el 9), obtenim el total de passatgers dels vagons 8 i 10.
+
+El nombre de passatgers en un bloc és 199, per tant, els dos vagons del mig tenen 2x passatgers.
+
+Dividim 398 entre 3 (ja que hi ha tres vagons que es compten dues vegades: el 6, 7 i 8):
+398 / 3 = 132,67
+
+Els dos vagons del mig tenen 199 - 132,67 = 66,33
+
+Per tant, l’opció més propera és la resposta D.
+
+Resposta: D)

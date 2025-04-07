@@ -1,0 +1,34 @@
+Pour répondre à la question 18, analysons l'inégalité donnée :
+
+\[ |2m - 2023| + |2n - m| \leq 1 \]
+
+Pour vérifier cette inégalité, nous devons nous assurer qu'elle est satisfaite pour les couples d'entiers \( (m, n) \).
+
+### Raisonnement :
+
+1. **Comprendre l'inégalité** :
+   - L'inégalité implique que la somme de deux valeurs absolues est inférieure ou égale à 1.
+   - Pour que cela soit vrai, chaque terme de la somme doit être très petit, car la somme de deux nombres positifs est toujours plus grande que chacun des nombres individuels.
+
+2. **Analyser les termes** :
+   - Le premier terme \( |2m - 2023| \) doit être très petit.
+   - Le deuxième terme \( |2n - m| \) doit également être très petit.
+
+3. **Tester des valeurs** :
+   - Pour \( |2m - 2023| \) : si \( m = 1011 \) ou \( m = 1012 \), alors \( 2m - 2023 \) sera très proche de zéro.
+   - Pour \( |2n - m| \) : si \( n \) est très proche de \( m/2 \), alors \( 2n - m \) sera très proche de zéro.
+
+4. **Vérifier les couples** :
+   - Si \( m = 1011 \) et \( n = 505 \), alors \( |2m - 2023| = |2 \cdot 1011 - 2023| = |2022 - 2023| = |-1| = 1 \).
+   - Et \( |2n - m| = |2 \cdot 505 - 1011| = |1010 - 1011| = |-1| = 1 \).
+   - Donc, \( 1 + 1 = 2 \), ce qui ne satisfait pas l'inégalité.
+
+   - Si \( m = 1012 \) et \( n = 506 \), alors \( |2m - 2023| = |2 \cdot 1012 - 2023| = |2024 - 2023| = |1| = 1 \).
+   - Et \( |2n - m| = |2 \cdot 506 - 1012| = |1012 - 1012| = |0| = 0 \).
+   - Donc, \( 1 + 0 = 1 \), ce qui satisfait l'inégalité.
+
+### Conclusion :
+
+Le couple \( (m, n) = (1012, 506) \) satisfait l'inégalité \( |2m - 2023| + |2n - m| \leq 1 \).
+
+Réponse : E) 4.

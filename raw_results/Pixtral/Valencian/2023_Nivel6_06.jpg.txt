@@ -1,0 +1,31 @@
+### Raonament:
+
+1. Els punts \( A = (0,0) \) i \( B = (1,0) \) estan en coordenades cartesianes, i representen dos punts en una línia recta horizontal.
+2. Estem buscant les afirmacions correctes sobre els segments que són correctes per a qualsevol punt \((x, y)\) que pertany a una circumferència que passa per \( A \) i \( B \).
+3. Una circumferència que passa per dos punts \( A \) i \( B \) té un radi que és la distància entre \( A \) i \( B \), que és 1 unitat.
+4. La circumferència que passa per \( A \) i \( B \) té un centre que és el punt mitjà entre \( A \) i \( B \), que és \( \left(\frac{0+1}{2}, \frac{0+0}{2}\right) = \left(\frac{1}{2}, 0\right) \).
+5. La distància del centre \( \left(\frac{1}{2}, 0\right) \) a qualsevol punt \((x, y)\) en la circumferència és 1 unitat.
+6. Per satisfer aquesta condició, el punt \((x, y)\) ha de estar a una distància de 1 unitat del centre \( \left(\frac{1}{2}, 0\right) \).
+7. La fórmula de la distància entre dos punts \((x_1, y_1)\) i \((x_2, y_2)\) és \( \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \).
+8. Substituint el centre \( \left(\frac{1}{2}, 0\right) \) i qualsevol punt \((x, y)\), obtenim:
+   \[
+   \sqrt{\left(x - \frac{1}{2}\right)^2 + y^2} = 1
+   \]
+9. quadratant ambdues parts de l'equació:
+   \[
+   \left(x - \frac{1}{2}\right)^2 + y^2 = 1
+   \]
+10. Expandint el quadrat:
+    \[
+    x^2 - x + \frac{1}{4} + y^2 = 1
+    \]
+11. Reorganitzant termes:
+    \[
+    x^2 - x + y^2 = \frac{3}{4}
+    \]
+12. D'aquí, veiem que \( y^2 \) ha de ser igual a \( \frac{3}{4} - x^2 + x \).
+13. Les afirmacions que descriuen correctament aquesta situació són aquelles que descriuen el punt \((x, y)\) dins d'aquesta circumferència.
+
+### Resposta:
+
+D) \( y \neq 0 \)

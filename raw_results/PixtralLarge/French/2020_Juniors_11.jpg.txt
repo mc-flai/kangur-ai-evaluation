@@ -1,0 +1,19 @@
+Pour résoudre la question 11, nous devons déterminer quels nombres ne peuvent pas être égaux au produit \( pqrs \) où \( pq = 2rs \).
+
+**Raisonnement :**
+
+1. **Décomposition de \( pq = 2rs \) :**
+   - Cette équation signifie que \( pq \) est deux fois \( rs \).
+   - Par exemple, si \( pq = 10 \) et \( rs = 5 \), alors \( 10 = 2 \times 5 \).
+
+2. **Calcul du produit \( pqrs \) :**
+   - Puisque \( pq = 2rs \), le produit \( pqrs \) peut être réécrit comme \( 2rs \times rs = 2rs^2 \).
+
+3. **Analyse des options :**
+   - **A) 50 :** Peut être \( pqrs \) si \( pq = 10 \) et \( rs = 5 \) (car \( 10 \times 5 = 50 \)).
+   - **B) 100 :** Peut être \( pqrs \) si \( pq = 10 \) et \( rs = 10 \) (car \( 10 \times 10 = 100 \)).
+   - **C) 200 :** Peut être \( pqrs \) si \( pq = 20 \) et \( rs = 10 \) (car \( 20 \times 10 = 200 \)).
+   - **D) 450 :** Peut être \( pqrs \) si \( pq = 30 \) et \( rs = 15 \) (car \( 30 \times 15 = 450 \)).
+   - **E) 800 :** Ne peut pas être \( pqrs \) car \( 800 = 2 \times 400 \) et \( 400 \) n'est pas un produit de deux chiffres (car \( rs \) doit être un produit de deux chiffres et 400 ne peut pas être décomposé en deux chiffres).
+
+**Réponse :** E).

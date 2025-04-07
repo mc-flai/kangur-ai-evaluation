@@ -1,0 +1,19 @@
+Raonament: Segons la descripció:
+- A la caixa número 1 hi ha una pilota amb el número 1.
+- A la caixa número 2 hi ha dues pilotes amb els números 2 i 3.
+- A la caixa número 3 hi ha tres pilotes amb els números 4, 5 i 6.
+
+Aquests números estan distribuïts de manera successiva. Per trobar la pilota amb el número 2018, hem de determinar la caixa corresponent. Per fer-ho, observem que cada caixa conté un nombre cada vegada més gran de pilotes.
+
+El nombre de pilotes en cada caixa forma una seqüència triangular (1, 3, 6, 10, 15, 21, ...). La n-èsima caixa conté n pilotes, i el nombre total de pilotes en les n caixes és n(n+1)/2.
+
+Per trobar la caixa que conté el número 2018, busquem el màxim n tal que n(n+1)/2 ≤ 2018.
+
+- n(n+1)/2 = 2018
+- n^2 + n - 4036 = 0
+
+Resolent aquesta equació quadràtica, trobem que n = 62 (ja que arrodonim cap amunt).
+
+A la caixa 62, el primer número és 62 * 61 / 2 + 1 = 1891. Per tant, el número 2018 està en la caixa 63, que té pilotes numerades de 1892 a 2016, i el número 2018 està en la caixa 64, que comença en el número 2017.
+
+Resposta: D)

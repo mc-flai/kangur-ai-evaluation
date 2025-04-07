@@ -1,0 +1,13 @@
+Para determinar qué número de cuatro cifras es "interesante" y tiene la forma abab con un dígito diferente b, debemos identificar un patrón específico en los números de cuatro cifras. El patrón dado es abab, donde 'a' y 'b' son dígitos diferentes.
+
+Razonamiento:
+1. Un número de cuatro cifras en la forma abab significa que el primer y el cuarto dígito son iguales (a), y el segundo y el tercer dígito son iguales (b).
+2. Dado que 'a' y 'b' son diferentes, debemos considerar todas las combinaciones posibles de 'a' y 'b' donde 'a' y 'b' son dígitos del 0 al 9.
+3. Evaluemos las opciones dadas:
+   - A) 90: No es de la forma abab.
+   - B) 81: No es de la forma abab.
+   - C) 80: No es de la forma abab.
+   - D) 72: Es de la forma abab (7272).
+   - E) 70: No es de la forma abab.
+
+Respuesta: D)

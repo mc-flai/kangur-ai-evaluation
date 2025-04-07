@@ -1,0 +1,28 @@
+### Razonamiento
+
+La pregunta 7 pide colorear los cuadrados y triángulos en el forma de modo que no haya dos polígonos vecinos, incluso aquellos que comparten un solo vértice, que sean del mismo color.
+
+Al observar estos cuadrados y triángulos, podemos ver que:
+
+*   Habrá 4 cuadrados en total, por lo que los colores de los cuadrados no tienen una coordinación entre sí.
+*   Existen 7 líneas con un solo triángulo en ellos, indicando que hay 7 triángulos en total.
+
+Dado que hay 2 cuadrados por fila y 3 filas, y 3 triángulos por fila y 3 filas, en total se tendrán 2 x 3 + 3 x 3 = 6 + 9 = 15 figuras planas, 3 de estos son cuadrados y 12 son triángulos.
+
+Para que sea exclusivo y no exista ningún vértice coincide su color:
+
+*   Se pueden elegir de dos maneras los colores.
+
+Para dicha combinación sólo dos respuestas cumplen con los requisitos anteriores:
+
+(manifieste un poco por favor): todas son correctas pero NO
+
+será E), consideramos que los triángulos tienen un color verificado ya que los colores coinciden, empero separan sus vectores como un cuadrado mientras el cuadrado es el que divide ese color más dos vértices.
+
+### Extensión y respuesta
+
+Por tanto, mi respuesta es E)FileSystem.
+
+### Respuesta
+
+E)

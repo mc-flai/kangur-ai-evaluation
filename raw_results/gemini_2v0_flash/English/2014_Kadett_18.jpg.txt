@@ -1,0 +1,10 @@
+Reasoning:
+Let the rectangle be $ABCD$, with $AB = CD = 11$ and $AD = BC = 6$. We select side $AB$.
+Let the angle bisectors of $\angle A$ and $\angle B$ intersect $CD$ at points $E$ and $F$, respectively. We want to find the lengths of $CE, EF, FD$.
+Since $\angle A = 90^\circ$, the angle bisector of $\angle A$ makes an angle of $45^\circ$ with $AB$. Thus, $\angle EAB = 45^\circ$. Also $\angle AED = 90^\circ - 45^\circ = 45^\circ$.
+So $\triangle ADE$ is an isosceles right triangle with $AD = DE = 6$. Similarly, $\triangle BCF$ is an isosceles right triangle with $BC = CF = 6$.
+Now $CD = CE + EF + FD = 11$. We have $CE = CD - DE = 11 - 6 = 5$. Similarly, $DF = CD - CF = 11 - 6 = 5$.
+Then $EF = CD - CE - DF = 11 - 5 - 5 = 1$.
+Therefore, the lengths of the three pieces are 5 cm, 1 cm, and 5 cm.
+
+Answer: E)

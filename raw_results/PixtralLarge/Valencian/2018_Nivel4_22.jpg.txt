@@ -1,0 +1,19 @@
+Per a determinar la suma de les xifres del nombre \(10^{103} - 88\), primer hem de comprendre l'estructura del nombre.
+
+1. \(10^{103}\) és una unitat seguida de 103 zeros.
+2. Restem 88 a \(10^{103}\):
+   - Això canvia els dos últims dígits de \(10^{103}\) de 00 a 12 (ja que 100 - 88 = 12).
+   - La resta dels dígits romanen sense canviar.
+
+Per tant, \(10^{103} - 88\) és un nombre amb una unitat seguida de 101 zeros i després 12.
+
+3. Sumem les xifres d'aquest nombre:
+   - La xifra de les unitats és 1.
+   - Hi ha 101 zeros, que no contribueixen a la suma.
+   - Les dues últimes xifres són 1 i 2.
+
+   Sumant aquestes xifres:
+   \(1 + 1 + 2 = 4\)
+
+Raonament: La suma de les xifres del nombre \(10^{103} - 88\) és 4.
+Resposta: E) 21

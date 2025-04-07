@@ -1,0 +1,23 @@
+Reasoning:
+Let $K$ be the number of kiwis and $P$ be the number of pears.
+From the first sentence, we know $K = 2P$.
+Let $R_K$ and $R_P$ be the number of kiwis and pears that Rita has, respectively.
+Let $L_K$ and $L_P$ be the number of kiwis and pears that Lily has, respectively.
+We have $R_K + L_K = K$ and $R_P + L_P = P$.
+The second sentence tells us that Rita has twice as many fruits as Lily, so $R_K + R_P = 2(L_K + L_P)$.
+We can rewrite the first equation as $R_K + R_P = 2(K - R_K + P - R_P)$.
+We know $K = 2P$, so $R_K + R_P = 2(2P - R_K + P - R_P)$.
+$R_K + R_P = 2(3P - R_K - R_P) = 6P - 2R_K - 2R_P$.
+$3R_K + 3R_P = 6P$.
+$R_K + R_P = 2P$.
+Since $R_K + R_P = 2(L_K + L_P)$, we have $2P = 2(L_K + L_P)$, which means $P = L_K + L_P$.
+We also know that $R_P + L_P = P$. Therefore, $R_P + L_P = L_K + L_P$, implying $R_P = L_K$.
+We are looking for a statement that is always true.
+A) Rita a deux fois plus de poires que Lily: $R_P = 2 L_P$. This is not always true since we have $R_P = L_K$.
+B) Rita a deux fois plus de kiwis que de poires: $R_K = 2R_P$. This is not always true.
+C) Rita a deux fois plus de kiwis que Lily: $R_K = 2L_K$. $R_K = 2R_P$. This is not always true.
+D) Rita a autant de poires que Lily a de kiwis: $R_P = L_K$. This is what we found.
+E) Rita a autant de kiwis que Lily a de poires: $R_K = L_P$. This is not necessarily true.
+The correct answer is D.
+
+Answer: D)

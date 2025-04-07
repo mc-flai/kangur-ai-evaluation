@@ -1,0 +1,13 @@
+Raonament:
+1. **Calculate the total sum:** The sum of the elements in the set {1, 2, 3, 4, 5, 6, 7} is 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28.
+2. **Determine the sum for each subset:** Since we want to divide the set into two subsets with equal sums, each subset must have a sum of 28 / 2 = 14.
+3. **Find possible combinations:** Now, we need to find different combinations of elements that add up to 14.
+    *   {7, 6, 1} and {2, 3, 4, 5}  (This is the example shown in the problem which does not have the sum of 14, therefore it is wrong)
+    *   {7, 5, 2} and {1, 3, 4, 6} -> Subset 1 sums to 14 and subset 2 sums to 14
+    *   {7, 6, 1} and {2, 3, 4, 5} -> Subset 1 sums to 14 and subset 2 sums to 14
+    *   {7, 4, 3} and {1, 2, 5, 6} -> Subset 1 sums to 14 and subset 2 sums to 14
+    *   {7, 5, 2} and {1, 3, 4, 6} -> Subset 1 sums to 14 and subset 2 sums to 14
+    *   {7, 6, 1} and {2, 3, 4, 5}
+4. The problem mentions that we want the SUM to be equal, so, there are 4 different combination that would work.
+
+Resposta: D)

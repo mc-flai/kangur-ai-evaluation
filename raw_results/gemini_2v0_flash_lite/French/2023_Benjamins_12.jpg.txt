@@ -1,0 +1,18 @@
+Raisonnement :
+1. **Identifier les paires de nombres:** On nous donne les produits de paires de nombres consécutifs : 30, 15, 42, 28.
+2. **Trouver les facteurs:** On peut décomposer chaque produit en facteurs.
+    *   30 = 5 * 6
+    *   15 = 3 * 5
+    *   42 = 6 * 7
+    *   28 = 4 * 7
+3. **Reconstruire la séquence:** On remarque que 5 est un facteur commun de 30 et 15. Donc, nous pouvons avoir 5 dans une case adjacente à un 6 (30) et un 3 (15).  La séquence pourrait être : 6, 5, 3.  Ensuite, le facteur 6 correspond à 6. De l'autre côté, 42 = 6 * 7 et 28 = 4 * 7, et 7 est un facteur commun. Donc la séquence est 3, 5, 6, 7, 4.
+4. **Vérifier la séquence:** Les produits consécutifs sont : 3*5=15, 5*6=30, 6*7=42, 7*4=28. La séquence est donc 3, 5, 6, 7, 4.
+5. **Calculer la somme:** La somme des nombres est 3 + 5 + 6 + 7 + 4 = 25.  Cependant, aucune des options ne correspond à ce résultat. Nous pouvons aussi arranger les nombres pour que 4 et 7 soient les derniers. La suite serait alors 4, 7, 6, 5, 3. 4*7=28, 7*6=42, 6*5=30, 5*3=15. La somme est 4+7+6+5+3=25. Aucune option ne correspond à cela.
+6. **Revoir l'approche:** Il y a un problème d'interprétation. Je dois considerer que le produit de deux cases consécutives est le nombre indiqué. On peut reconstruire la séquence à partir du produit 15. Les facteurs de 15 sont 3 et 5. Les produits associés à ces nombres sont 30, 15, 42, 28.
+        * Donc on peut commencer avec les nombres 6 et 5 (6x5=30). Ensuite, 5 et 3 (5x3=15).
+        * Nous avons la suite partielle : 6, 5, 3. Les 42 et 28 doivent encore être pris en compte.
+        *  Ensuite, on va trouver la suite: 3, 5, 6, 7, 4. 5*3=15, 6*5=30, 6*7=42, 7*4=28. La somme est 3+5+6+7+4=25.
+        *  On essaye une autre suite : 4, 7, 6, 5, 3. 4*7=28, 7*6=42, 6*5=30, 5*3=15.
+        *   La somme est toujours 25. L'erreur est dans les options.
+
+Réponse : E)

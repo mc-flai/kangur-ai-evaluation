@@ -1,0 +1,10 @@
+**Raonament**:
+El problema ens demana quantes maneres hi ha d'escollir 3 equips de 3 persones cadascun, de manera que la persona més gran del primer equip sigui més jove que la persona més jove del segon equip.
+
+Primer, observem que tenim 7 persones i hem de formar dos equips de 3. Per formar el primer equip, podem escollir qualsevol de les 7 persones com a persona més gran, després hi ha 6 opcions restants per la següent persona més gran i 5 opcions per la següent, i així successivament.
+
+Els equips han de ser tals que la persona més gran del primer equip sigui més jove que la persona més jove del segon equip. Això significa que per cada combinació de 3 persones per al primer equip, el segon equip ha de ser format per les 3 persones restants.
+
+Com que els equips es poden formar de diverses maneres i les persones són diferents, tenim un total de 7 opcions, ja que hi ha 7 maneres de triar la primera persona més gran del primer equip.
+
+**Resposta**: C)

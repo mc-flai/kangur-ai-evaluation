@@ -1,0 +1,9 @@
+Raonament:
+El problema ens diu que hi ha un total de 144 caixes (no més de 144). Se'ns diu que 7 caixes tenen exactament 130 taronges i que hi ha 7 conjunts de 6 caixes on cada caixa conté el mateix nombre de taronges. Aquest últim significa que hi ha 7 * 6 = 42 caixes. En total, hi ha 7 + 42 = 49 caixes de les quals tenim informació. Per tant, el nombre màxim de caixes és 144. Necessitem saber quants viatges necessitem si el camió pot carregar 42 caixes per viatge.
+
+Per tant, necessitem calcular el nombre de viatges per al nombre màxim de caixes, que és 144.
+Nombre de viatges = ceil(nombre total de caixes / capacitat del camió per viatge) = ceil(144 / 42) = ceil(3.428) = 4.
+
+Per tant, el nombre de viatges és 4.
+
+Resposta: D)

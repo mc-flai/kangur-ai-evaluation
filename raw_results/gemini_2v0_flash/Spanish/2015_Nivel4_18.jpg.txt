@@ -1,0 +1,18 @@
+Razonamiento: Un número capicúa se lee igual de izquierda a derecha que de derecha a izquierda. Un número primo es aquel que solo es divisible por 1 y por sí mismo. Los números capicúa entre 1000 y 2015 son de la forma 1XX1, donde X son dígitos del 0 al 1. Buscamos que sean primos, revisando los números 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991, 2002, 2112.
+
+1001 = 7 * 11 * 13 (no primo)
+1111 = 11 * 101 (no primo)
+1221 = 3 * 11 * 37 (no primo)
+1331 = 11 * 11 * 11 = 11^3 (no primo)
+1441 = 11 * 131 (no primo)
+1551 = 3 * 7 * 73 (no primo)
+1661 = 11 * 151 (no primo)
+1771 = 11 * 161 (no primo)
+1881 = 3 * 627 (no primo)
+1991 = 11 * 181 (no primo)
+2002 - no cumple la condición de estar entre 1000 y 2015
+2112 - no cumple la condición de estar entre 1000 y 2015.
+
+Ninguno de los números capicúa es primo. Por lo tanto, la respuesta correcta es 0.
+
+Respuesta: A)

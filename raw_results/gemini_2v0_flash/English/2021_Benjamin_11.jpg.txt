@@ -1,0 +1,33 @@
+Reasoning: To minimize the sum, we need to have smaller numbers. We should try to cut the number such that the resulting 3 numbers are as small as possible. Let's consider some possible cuts:
+
+1. 50 + 2197 + 2970 = 5217
+2. 502 + 197 + 2970 = 3669
+3. 5021 + 97 + 2970 = 8088
+4. 5 + 021 + 972970 = 972996
+5. 50219 + 7 + 2970 = 53196
+6. 502 + 19 + 72970 = 73591
+7. 5021972 + 9 + 70 = 5021951
+8. 502 + 1972 + 970 = 3444
+9. 50 + 21 + 972970 = 973041
+
+From these examples, we can see that 502 + 1972 + 970 = 3444 gives us the smallest sum among the calculated cuts. Checking if we can find a smaller one. 50 + 219 + 72970 = 73239. Another way to minimize is by having three 3-digit numbers or a 3, 3 and 4-digit number.
+
+The number is 5021972970. Let's consider splitting this into 502 + 1972 + 970 = 3444
+50 + 2197 + 2970 = 5217
+5021 + 97 + 2970 = 8088
+
+502 + 197 + 2970 = 3669
+The options are 3244, 3444, 5172, 5217, 5444. Out of these, the smallest is 3244. However, we need to make sure we can get this number by cutting the original number.
+Try to get close to one thousands, then the others can be two thousands. If we let first number be 502, we get 502 + 1972 + 970 = 3444.
+Try 502+197+2970 = 3669
+Try 50+219+72970 = 73239
+Let's try to get 3244. We would want the numbers to be small so it must be split from left to right.
+5+021+972970 is very big
+50+21+972970 is very big
+502+19+72970 is very big.
+502+1972+970 is 3444.
+
+Reasoning: Through testing possible cuts, we have found a split that gives a sum of 3444. Let's consider if we can get smaller splits. We would need the first split to be in the hundreds, and subsequent splits to be smaller in digits.
+The answer 3244 requires splits that lead to numbers of approximately 1000 each which doesn't seem feasible given there is a 5, then a 0 then a 2. The other answers seem like the smallest sum we could make is 3444.
+
+Answer: B)

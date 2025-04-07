@@ -1,0 +1,37 @@
+Pour déterminer qui est le plus grand parmi les quatre kangourous, nous devons analyser les affirmations de chacun :
+
+1. A dit : « je ne suis ni le plus grand ni le plus petit ». 
+   - Si A n'est ni le plus grand ni le plus petit, il est soit le deuxième plus grand, soit le troisième plus grand.
+
+2. B dit : « je ne suis pas le plus petit ».
+   - Cela signifie que B est soit le plus grand, soit le deuxième plus grand, soit le troisième plus grand.
+
+3. C dit : « je suis le plus grand ».
+   - C prétend explicitement être le plus grand.
+
+4. D dit : « je suis le plus petit ».
+   - D prétend explicitement être le plus petit.
+
+Nous savons qu'un des kangourous a menti et les trois autres ont dit la vérité.
+
+**Analyse :**
+- Si D est le plus petit (D dit la vérité), alors C ne peut pas être le plus grand (C mentirait), et ça laisserait A et B comme les deux autres kangourous qui disent la vérité.
+- Si C est le plus grand (C dit la vérité), alors D ne peut pas être le plus petit (D mentirait), et ça laisserait A et B comme les deux autres kangourous qui disent la vérité.
+  
+Pour que trois affirmations soient vraies et une fausse, nous devons valider les combinaisons possibles :
+
+- Si C est le plus grand et A n'est ni le plus grand ni le plus petit, alors B doit être le deuxième plus grand et D le plus petit. Mais cela signifierait que D dit la vérité, ce qui est impossible car il doit y avoir un menteur.
+
+- Si D est le plus petit, alors C ne peut pas être le plus grand car cela ferait de lui un menteur, et nous aurions besoin d'un autre menteur, ce qui n'est pas possible.
+
+La seule configuration qui fonctionne est que **C** soit le menteur, ce qui signifie que les autres disent la vérité :
+
+- A n'est ni le plus grand ni le plus petit.
+- B n'est pas le plus petit.
+- D est le plus petit.
+
+Donc, si C est le menteur, le plus grand est **A**.
+
+Raisonnement : En analysant chaque affirmation et en validant les combinaisons possibles, nous avons déterminé que si C est le menteur, alors A est le plus grand.
+
+Réponse : A)

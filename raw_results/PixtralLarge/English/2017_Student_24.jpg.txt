@@ -1,0 +1,39 @@
+To solve this problem, we need to understand how removing the four vertices of a regular tetrahedron affects its volume.
+
+1. **Volume of a Regular Tetrahedron**:
+   The volume \( V \) of a regular tetrahedron with side length \( a \) is given by:
+   \[
+   V = \frac{a^3 \sqrt{2}}{12}
+   \]
+   Given the volume is 1, we need to solve for \( a \).
+
+2. **Volume Reduction**:
+   When the vertices are cut off by planes passing through the midpoints of the respective edges, each cut will create smaller tetrahedrons and pyramids at the vertices.
+
+3. **Volume of Each Small Tetrahedron**:
+   Each small tetrahedron formed by cutting off a vertex will have a side length of \(\frac{a}{2}\). The volume \( V' \) of each small tetrahedron is:
+   \[
+   V' = \frac{\left(\frac{a}{2}\right)^3 \sqrt{2}}{12} = \frac{a^3 \sqrt{2}}{96}
+   \]
+
+4. **Total Volume Removed**:
+   There are four such small tetrahedrons removed, so the total volume removed is:
+   \[
+   4 \times \frac{a^3 \sqrt{2}}{96} = \frac{a^3 \sqrt{2}}{24}
+   \]
+
+5. **Remaining Volume**:
+   The remaining volume is the original volume minus the volume removed:
+   \[
+   V_{\text{remaining}} = 1 - \frac{a^3 \sqrt{2}}{24}
+   \]
+   Since \( V = \frac{a^3 \sqrt{2}}{12} = 1 \), we have \( a^3 \sqrt{2} = 12 \). Thus:
+   \[
+   V_{\text{remaining}} = 1 - \frac{12}{24} = 1 - \frac{1}{2} = \frac{1}{2}
+   \]
+
+6. **Conclusion**:
+   The remaining volume is \(\frac{1}{2}\), which corresponds to option (D).
+
+Reasoning: The volume of the remaining solid after cutting off the vertices of a regular tetrahedron with volume 1 is \(\frac{1}{2}\).
+Answer: D)

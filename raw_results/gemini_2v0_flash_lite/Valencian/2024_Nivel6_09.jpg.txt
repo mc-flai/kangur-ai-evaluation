@@ -1,0 +1,10 @@
+Raonament:
+The question states that Blai starts with 1 and repeatedly multiplies by 6 or 10. This can be written as $1 * 6^a * 10^b$, where a and b are non-negative integers. This will result in a number with the prime factors 2, 3, and 5. The prime factorization will be in the form $2^{a+b} * 3^a * 5^b$. We must determine which of the given options does not fit this pattern.
+
+A) $2^{100} * 3^{20} * 5^{80}$. Here, $a = 20$ and $b=80$. So, the exponent of 2 should be $a+b = 20+80=100$. This option is possible.
+B) $2^{90} * 3^{20} * 5^{80}$. Here, $a=20$ and $b=80$. The exponent of 2 should be $a+b=20+80=100$, but it's 90. This one is not possible.
+C) $2^{90} * 3^{20} * 5^{70}$. Here, $a = 20$ and $b = 70$. So the exponent of 2 should be $a+b = 20+70 = 90$. This option is possible.
+D) $2^{110} * 3^{80} * 5^{30}$. Here, $a = 80$ and $b = 30$. The exponent of 2 should be $a+b=80+30=110$. This option is possible.
+E) $2^{50} * 5^{50}$. This could be $2^{50} * 3^0 * 5^{50}$. Here, $a=0$ and $b=50$. The exponent of 2 should be $a+b=0+50=50$. This option is possible.
+
+Resposta: B)

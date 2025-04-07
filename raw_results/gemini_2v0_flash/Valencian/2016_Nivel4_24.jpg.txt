@@ -1,0 +1,42 @@
+Raonament:
+Aquest és un problema d'inclusió-exclusió amb tres conjunts. El principi d'inclusió-exclusió per a tres conjunts és:
+|A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|
+
+On:
+|A ∪ B ∪ C| és el nombre total d'elements a la unió dels tres conjunts
+|A|, |B|, |C| són el nombre d'elements en cada conjunt individual
+|A ∩ B|, |A ∩ C|, |B ∩ C| són el nombre d'elements a la intersecció de cada parell de conjunts
+|A ∩ B ∩ C| és el nombre d'elements a la intersecció dels tres conjunts
+
+En aquest cas, tenim:
+Total = 36 (total de llaunes)
+Blanc = 25
+Blau = 28
+Verd = 20
+Blanc ∩ Blau ∩ Verd = 5
+
+Volem trobar el nombre de llaunes amb un sol color. Sigui S el nombre de llaunes amb un sol color.
+36 = 25 + 28 + 20 - (Blanc ∩ Blau) - (Blanc ∩ Verd) - (Blau ∩ Verd) + 5
+36 = 73 + 5 - (Blanc ∩ Blau) - (Blanc ∩ Verd) - (Blau ∩ Verd)
+(Blanc ∩ Blau) + (Blanc ∩ Verd) + (Blau ∩ Verd) = 78 - 36 = 42
+
+Sigui B2 el nombre de llaunes amb exactament dos colors. Sigui B1 el nombre de llaunes amb exactament un color. Sigui B3 el nombre de llaunes amb exactament tres colors.
+Sabem que B3 = 5
+36 = B1 + B2 + B3
+B1 + B2 = 36 - 5 = 31
+També tenim:
+25 = (nombre de llaunes amb només blanc) + (nombre de llaunes amb blanc i blau) + (nombre de llaunes amb blanc i verd) + 5
+28 = (nombre de llaunes amb només blau) + (nombre de llaunes amb blanc i blau) + (nombre de llaunes amb blau i verd) + 5
+20 = (nombre de llaunes amb només verd) + (nombre de llaunes amb blanc i verd) + (nombre de llaunes amb blau i verd) + 5
+Sumant aquestes equacions:
+25 + 28 + 20 = (nombre de llaunes amb només blanc) + (nombre de llaunes amb només blau) + (nombre de llaunes amb només verd) + 2*(nombre de llaunes amb blanc i blau) + 2*(nombre de llaunes amb blanc i verd) + 2*(nombre de llaunes amb blau i verd) + 15
+73 = B1 + 2*(Blanc ∩ Blau + Blanc ∩ Verd + Blau ∩ Verd) + 15
+73 = B1 + 2*(42-3*5) + 15
+73 = B1 + 2*(42) - (Blanc ∩ Blau + Blanc ∩ Verd + Blau ∩ Verd- 5) +15
+73 = B1 + 2 * (42-15) + 15
+
+73 = B1 + 84 -30 + 15
+73 = B1 + 69
+B1=4
+
+Resposta: B)

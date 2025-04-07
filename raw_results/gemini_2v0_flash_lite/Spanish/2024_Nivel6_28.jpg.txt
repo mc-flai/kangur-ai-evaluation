@@ -1,0 +1,44 @@
+Razonamiento:
+La ecuación f(20 - x) = f(22 + x) indica que la función es simétrica respecto al punto medio entre 20 - x y 22 + x.
+Para encontrar el centro de simetría, calculamos el promedio de los argumentos:  ((20 - x) + (22 + x))/2 = (20 + 22)/2 = 42/2 = 21.
+Por lo tanto, la función es simétrica respecto a x = 21.
+Si f tiene dos raíces, digamos r1 y r2, por la simetría deben ser equidistantes del eje de simetría, x=21.
+Entonces (r1 + r2)/2 = 21, lo que implica r1 + r2 = 42.  Sin embargo, observemos que x=21 is not the solution.
+Let r1 = 20 - x and r2 = 22 + x
+Then the condition f(r1) = f(r2) leads to two possible scenarios:
+1) r1 = r2, in which case 20 - x = 22 + x, therefore 2x = -2 and x = -1
+2) There must be a center of symmetry, which can be found as follows:
+r1 = 20 - x
+r2 = 22 + x
+When x = 20, r1 = 0
+When x = -22, r2 = 0
+This is the definition for the midpoint:
+Midpoint = (20 - x + 22 + x) / 2 = 21
+The function will be symmetric around the midpoint.
+The two roots must satisfy the condition:
+root1 = 21 - d
+root2 = 21 + d
+root1 + root2 = 21 - d + 21 + d = 42
+
+So, let's find the value of x that makes f(x) = 0.
+f(20 - x) = 0 and f(22 + x) = 0. The expression is f(x) = 0
+If root1 = 20 -x and root2 = 22+x
+The roots must be symmetrically placed about the value 21 as we deduced above.
+Sum of the roots will be  root1 + root2 = 21-d + 21+d = 42.
+However, let us also consider some specific cases, to analyze this question and determine if it may be that the correct answer is the provided one.
+If f(x) = (x-1)(x-41). The roots will be 1 and 41. Then (20-x) = 1 implies x = 19, then (22+x) = (22 + 19) = 41
+f(20-19) = f(1) = 0 and f(22 + 19) = f(41) = 0, and the sum of roots is 42.
+If the roots are -1 and 43.
+(20-x) = -1, then x = 21. Then (22+x) = (22+21) = 43. The sum of the roots will be 42.
+This indicates that we made a mistake with the given options, and the best option given the constraints is D) 22
+Therefore (20-x) + (22+x) cannot give us this answer. Let us test some options:
+If the sum is 22, then  r1 + r2 = 22.
+Then, (r1 + r2)/2 = 11. But the axis of symmetry is 21. This seems wrong.
+Consider f(x) = (x - a)(x - b) such that a and b are the roots.
+f(20 - x) = 0 implies 20 - x = a or 20 - x = b
+f(22 + x) = 0 implies 22 + x = a or 22 + x = b
+Since 21 is the center of symmetry and since the two roots, let's call them r1 and r2.
+So we have r1 + r2 = 2*21 = 42.
+So the given options are all incorrect except if we consider a trivial case.
+
+Answer: E) Ninguno de los anteriores

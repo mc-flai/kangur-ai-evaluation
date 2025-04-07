@@ -1,0 +1,30 @@
+Para resolver la pregunta 21, necesitamos encontrar el resto de la división de A + B por 5, donde A es el menor número que tiene 100 cifras y B es el mayor número que tiene 100 cifras.
+
+**Razonamiento**:
+1. El menor número que tiene 100 cifras es un número formado por 99 ceros seguidos de un uno, es decir:
+   A = 1000...000 (99 ceros seguidos de un uno)
+   Matemáticamente, A se puede expresar como \(10^{99}\).
+
+2. El mayor número que tiene 100 cifras es un número formado por 100 nueves, es decir:
+   B = 999...999 (100 nueves)
+   Matemáticamente, B se puede expresar como \(10^{100} - 1\).
+
+3. Ahora sumamos A y B:
+   A + B = \(10^{99} + (10^{100} - 1)\)
+   Simplificando:
+   A + B = \(10^{100} + 10^{99} - 1\)
+   A + B = \(10^{99} (10 + 1) - 1\)
+   A + B = \(11 \times 10^{99} - 1\)
+
+4. Ahora dividimos A + B por 5 y encontramos el resto:
+   \(11 \times 10^{99} - 1 \mod 5\)
+   Primero consideramos \(11 \times 10^{99} \mod 5\):
+   \(10^{99} \mod 5 = (10 \mod 5)^{99} \equiv 0^{99} \equiv 0 \mod 5\)
+   Por lo tanto, \(11 \times 10^{99} \equiv 11 \times 0 \equiv 0 \mod 5\)
+
+5. Ahora consideramos la expresión completa:
+   \(11 \times 10^{99} - 1 \mod 5 \equiv 0 - 1 \equiv -1 \mod 5 \equiv 4 \mod 5\)
+
+Por lo tanto, el resto de la división de A + B por 5 es 4.
+
+**Respuesta**: D) 4

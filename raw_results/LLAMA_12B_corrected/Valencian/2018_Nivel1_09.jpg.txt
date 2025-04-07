@@ -1,0 +1,23 @@
+**Raonament**:
+The question involves a mathematical relationship between a specific sum of years and the sum of their natural logarithms. In other words, we are asked to find a year that matches this relationship, given the data.
+
+We can express the problem as follows:
+
+$$L(x) = \sum_{i=1}^{k} \ln x_i$$
+
+$$\textrm{Where } k \textrm{ is the chosen period.}$$
+
+To solve this problem, we must find a year $x$ such that the following equation holds:
+
+$$L(x) = 11 \times ln(2018)$$
+
+To do this, we can use the approximation provided by the question: $L(x) \simeq \sum_{i=1}^{11} \ln (2018-i)$. 
+
+To compare these, we compute the value of $L(2018)$ many times while gradually decreasing $i$ in $L(x)$:
+- By calculating the natural logarithms of the numbers from 2018 to 2018 - 11, we find that all values approximate naturally log 2018 - 11n, for any integer n from 0 to 11.
+- As we continue with $i+1$, we find that the logarithms' difference between $L(i)$ and $L(i+1)$ for i = 1 to 10 approaches 0.
+- Therefore, when $k$ is greater than or equal to 1, $L(x) \le 11\log 265$ for $x < 2009$ if we select  B).
+- As the value approaches 11ln 265, $x > 2009$, since ln 265 < ln 2018 < ln 2019, since the gradient of each range appears flat between the linear and logarithmic functions herein. Therefore, $x > 2018$ since there are 9 numbers remaining other than 2018 and thus 11 more than a decision.
+- But B) does not satisfy if P equals 1, where $v$out gives $P=1$ given My mothers
+
+Resposta: No Answer

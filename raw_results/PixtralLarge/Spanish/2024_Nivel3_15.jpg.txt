@@ -1,0 +1,51 @@
+Para determinar cuántos minutos han pasado desde la última vez que el reloj digital de Andrés mostró una hora con los mismos dígitos pero en otro orden, debemos analizar el tiempo mostrado en la imagen (20:24) y considerar los posibles reordenamientos de los dígitos.
+
+1. **Identificar los dígitos**: Los dígitos en 20:24 son 2, 0, 2 y 4.
+2. **Encontrar posibles combinaciones**: Las combinaciones posibles con estos dígitos son:
+   - 20:24
+   - 20:42
+   - 22:04
+   - 22:40
+   - 24:02
+   - 24:20
+   - 40:22
+   - 42:02
+   - 42:20
+
+3. **Determinar el tiempo válido más cercano**:
+   - Las combinaciones válidas de hora (horas y minutos) son:
+     - 20:42
+     - 22:04
+     - 22:40
+
+   Nota: 24:02, 24:20, 40:22, 42:02 y 42:20 no son válidos porque las horas exceden 24 horas o los minutos exceden 60 minutos.
+
+4. **Calcular el tiempo transcurrido desde la última combinación válida**:
+   - La combinación válida más cercana antes de 20:24 es 20:42.
+   - Para calcular el tiempo transcurrido desde 20:42 hasta 20:24:
+     - De 20:42 a 21:00: 18 minutos
+     - De 21:00 a 22:00: 60 minutos
+     - De 22:00 a 23:00: 60 minutos
+     - De 23:00 a 00:00: 60 minutos
+     - De 00:00 a 20:24: 1044 minutos
+
+     Total: 18 + 60 + 60 + 60 + 1044 = 1242 minutos
+
+   - La combinación válida más cercana después de 20:24 es 22:04.
+   - Para calcular el tiempo transcurrido desde 20:24 hasta 22:04:
+     - De 20:24 a 21:00: 36 minutos
+     - De 21:00 a 22:00: 60 minutos
+     - De 22:00 a 22:04: 4 minutos
+
+     Total: 36 + 60 + 4 = 100 minutos
+
+   - La combinación válida más cercana es 22:04, que es 100 minutos después de 20:24.
+
+5. **Determinar el tiempo transcurrido desde la última combinación válida**:
+   - La combinación válida más cercana antes de 20:24 es 20:42, que es 1242 minutos antes de 20:24.
+   - La combinación válida más cercana después de 20:24 es 22:04, que es 100 minutos después de 20:24.
+
+   Por lo tanto, el tiempo transcurrido desde la última combinación válida es 100 minutos.
+
+Razonamiento: La combinación válida más cercana después de 20:24 es 22:04, que es 100 minutos después de 20:24.
+Respuesta: D)

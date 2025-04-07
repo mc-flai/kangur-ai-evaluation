@@ -1,0 +1,16 @@
+Raonament:
+La pregunta planteja un problema de distribució de pomes entre un grup de xics. Podem plantejar les equacions basant-nos en la informació donada. Siguin P el nombre total de pomes i N el nombre de xics. Si cada xic rep x pomes, tenim:
+P = N * x
+Si hi haguessin N-2 xics, cada un rep x+1 pomes:
+P = (N-2) * (x+1)
+Si hi haguessin N-3 xics, cada un rep x+2 pomes:
+P = (N-3) * (x+2)
+Podem utilitzar les equacions per resoldre el problema. Substituint la primera equació en les altres dues:
+N * x = (N-2) * (x+1) -> Nx = Nx + N - 2x - 2 -> N - 2x - 2 = 0 -> N = 2x + 2
+N * x = (N-3) * (x+2) -> Nx = Nx + 2N - 3x - 6 -> 2N - 3x - 6 = 0
+Substituïm N = 2x + 2 en la segona equació:
+2 * (2x + 2) - 3x - 6 = 0 -> 4x + 4 - 3x - 6 = 0 -> x - 2 = 0 -> x = 2
+Ara substituïm x = 2 en l'equació N = 2x + 2:
+N = 2 * 2 + 2 = 4 + 2 = 6
+
+Resposta: A)

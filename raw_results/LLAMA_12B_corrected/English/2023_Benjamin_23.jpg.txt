@@ -1,0 +1,43 @@
+Reasoning: To solve this question, we need to understand the operations of two machines: R (rotate 90 degrees in a clockwise direction) and S (rotate 90 degrees in the opposite direction). The problem presents a sequence of squares that are transformed by these machines.
+
+**Initial Setup:**
+
+- Arrange the squares in a single column:
+  - A
+  - B
+  - C
+  - D
+  - E
+
+**Machine R Operation:**
+
+- R rotates 90 degrees clockwise.
+- After applying R:
+  - B → A (new top becomes old right)
+  - D → C (new middle becomes old bottom)
+  - F → E (new bottom becomes old left)
+
+**Machine S Operation:**
+
+- S rotates 90 degrees counterclockwise.
+- After applying S:
+  - B → D (new top becomes old left)
+  - F → C (new middle becomes old bottom)
+  - H → E (new bottom becomes old right)
+
+**Complete Transformation:**
+
+The complete transformation is achieved by combining machine R and S operations:
+- (SRR)
+  - Rotates 90 degrees counterclockwise (S)
+  - Rotate 90 degrees clockwise (R)
+  - Rotate 90 degrees clockwise (R)
+
+**Final Parameters:**
+
+After applying (SRR), the squares are arranged such that they form a circle when opened out.
+
+**Conclusion:**
+
+The correct option is: C) SRRS
+Answer: C)

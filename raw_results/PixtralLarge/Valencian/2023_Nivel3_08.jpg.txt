@@ -1,0 +1,62 @@
+**Raonament**:
+
+Joan té 50 galetes i cada dia en menja cinc més que el dia anterior. Això significa que cada dia les galetes que menja formen una progressió aritmètica on la diferència entre els termes successius és 5.
+
+Designem com a \(a_1\) el nombre de galetes que Joan menja el primer dia.
+
+La suma dels primers \(n\) termes d'una progressió aritmètica es dona per:
+\[ S_n = \frac{n}{2} \left(2a_1 + (n-1)d\right) \]
+
+En aquest cas, sabem que la suma total de galetes és 50, i la diferència \(d\) és 5.
+
+\[ S_n = 50 \]
+\[ \frac{n}{2} \left(2a_1 + (n-1) \cdot 5\right) = 50 \]
+
+Per trobar \(a_1\), necessitem la quantitat de termes \(n\). Això ho trobarem resolent la progressió.
+
+Però primer, utilitzem la fórmula general per a la suma dels primers \(n\) termes d'una progressió aritmètica:
+
+\[ S_n = \frac{n}{2} \left(2a_1 + (n-1) \cdot 5\right) = 50 \]
+
+Aïllant \(a_1\), tenim:
+
+\[ 2a_1 + 5(n-1) = \frac{100}{n} \]
+
+Anem a provar amb diferents valors de \(n\) per veure quin compleix la condició.
+
+Per \(n = 2\):
+
+\[ 2a_1 + 5(2-1) = \frac{100}{2} \]
+\[ 2a_1 + 5 = 50 \]
+\[ 2a_1 = 45 \]
+\[ a_1 = 22,5 \]
+
+Això no és possible perquè \(a_1\) ha de ser un nombre sencer.
+
+Per \(n = 3\):
+
+\[ 2a_1 + 5(3-1) = \frac{100}{3} \]
+\[ 2a_1 + 10 = \frac{100}{3} \]
+\[ 2a_1 = \frac{100}{3} - 10 \]
+\[ 2a_1 = \frac{70}{3} \]
+\[ a_1 = \frac{35}{3} \]
+
+Això tampoc és possible perquè \(a_1\) ha de ser un nombre sencer.
+
+Per \(n = 4\):
+
+\[ 2a_1 + 5(4-1) = \frac{100}{4} \]
+\[ 2a_1 + 15 = 25 \]
+\[ 2a_1 = 10 \]
+\[ a_1 = 5 \]
+
+Això és possible. Per tant, \(a_1 = 5\).
+
+Per tant, l'últim dia menja \(a_n\) galetes, que és:
+
+\[ a_n = a_1 + (n-1) \cdot 5 \]
+\[ a_n = 5 + (4-1) \cdot 5 \]
+\[ a_n = 5 + 15 \]
+\[ a_n = 20 \]
+
+**Resposta**: A) 20.

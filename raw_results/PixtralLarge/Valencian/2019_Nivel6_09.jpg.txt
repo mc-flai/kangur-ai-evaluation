@@ -1,0 +1,34 @@
+**Raonament**:
+La operació ◇ es defineix com \( x ◇ y = y - x \).
+
+Per verificar si \( (a ◇ b) ◇ c = a ◇ (b ◇ c) \) per tots \( a, b, c \) complexos, primer calcularem els dos costats de la igualtat.
+
+Primer, calculem \( (a ◇ b) ◇ c \):
+\[
+(a ◇ b) = b - a
+\]
+\[
+(b - a) ◇ c = c - (b - a) = c - b + a
+\]
+
+Ara, calculem \( a ◇ (b ◇ c) \):
+\[
+(b ◇ c) = c - b
+\]
+\[
+a ◇ (c - b) = (c - b) - a = c - b - a
+\]
+
+Comparant els dos resultats, tenim:
+\[
+(a ◇ b) ◇ c = c - b + a
+\]
+\[
+a ◇ (b ◇ c) = c - b - a
+\]
+
+Perquè els dos costats siguin iguals, \( c - b + a \) ha de ser igual a \( c - b - a \). Això és possible només si \( a = 0 \), que és una condició específica i no necessàriament certa per a tot \( a, b, c \) complexos.
+
+Per tant, no es compleix la igualtat \( (a ◇ b) ◇ c = a ◇ (b ◇ c) \) per a tot \( a, b, c \) complexos.
+
+**Resposta**: D) a = 0

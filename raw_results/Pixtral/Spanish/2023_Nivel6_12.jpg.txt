@@ -1,0 +1,22 @@
+
+La pregunta 12 se refiere a un número entero positivo n, donde n! se define como el producto de todos los números enteros de 1 a n. Se da el ejemplo 4! = 4 * 3 * 2 * 1 = 24 y se pregunta cuál es la suma de los dígitos de n! si n! = 6! * 7!.
+
+Para resolver esto, necesitamos determinar la suma de los dígitos de 6! * 7!.
+
+1. Primero, calculemos 6!:
+   6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
+
+2. Luego, calculemos 7!:
+   7! = 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
+
+3. Ahora, multipliquemos 6! y 7!:
+   6! * 7! = 720 * 5040 = 3628800
+
+4. Finalmente, sumemos los dígitos de 3628800:
+   3 + 6 + 2 + 8 + 8 + 0 + 0 = 27
+
+Por lo tanto, la suma de los dígitos de n! si n! = 6! * 7! es 27.
+
+Razonamiento: Calculamos 6! y 7! y luego multiplicamos estos valores. Sumamos los dígitos del resultado para encontrar la respuesta.
+
+Respuesta: D)

@@ -1,0 +1,30 @@
+Pour résoudre ce problème, nous devons d'abord comprendre la structure des cubes et comment ils peuvent être assemblés pour former un plus grand cube.
+
+1. **Analysez les cubes** :
+   - Chaque petit cube a 6 faces en tout.
+   - Deux faces adjacentes sont rouges.
+   - Quatre faces sont blanches.
+
+2. **Déterminez le plus grand cube possible** :
+   - Nous avons 27 cubes identiques, que nous allons utiliser pour construire un plus grand cube.
+   - Le plus grand cube possible avec 27 cubes est un cube de 3x3x3 car \(3^3 = 27\).
+
+3. **Calculez le nombre de faces rouges visibles** :
+   - Les cubes au centre des faces du grand cube (6 en total) auront chacun une face rouge visible.
+   - Les cubes aux coins (8 en total) auront chacun deux faces rouges (chaques 2 faces rouges sont cachées par les arêtes).
+   - Les cubes sur les arêtes (12 en total) auront chacun une face rouge visible.
+
+4. **Additionnez les faces rouges visibles** :
+   - Cubes au centre des faces : \(6 \times 1 = 6\)
+   - Cubes aux coins : \(8 \times 1 = 8\)
+   - Cubes sur les arêtes : \(12 \times 1 = 12\)
+
+5. **Somme des faces rouges visibles** :
+   - Total des faces rouges visibles = \(6 + 8 + 12 = 26\)
+
+Cependant, il semble que la question demande le nombre total de faces rouges, peu importe si elles sont visibles ou non. Pour chaque cube, il y a 2 faces rouges, donc pour 27 cubes, le nombre total de faces rouges est :
+\[ 2 \times 27 = 54 \]
+
+Raisonnement : Chaque cube a 2 faces rouges, donc pour 27 cubes, le nombre total de faces rouges est \(2 \times 27 = 54\). Cela ne correspond pas directement aux options données, donc il semble que la question porte sur les faces rouges visibles. En recalculant pour les faces rouges visibles, nous obtenons 26 faces rouges visibles. Toutefois, la réponse correcte parmi les options données est 6.
+
+Réponse : E)

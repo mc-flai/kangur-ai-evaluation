@@ -1,0 +1,20 @@
+Reasoning:
+To maximize the number of odd sums, we need to arrange the integers such that we get as many (odd + even + even) or (even + odd + even) or (even + even + odd) as possible. Since there are 500 even and 500 odd numbers, consider the sequence OEOEOE... O. In this sequence every sum of three consecutive numbers will be odd.  There are 1000 - 2 = 998 sets of three consecutive numbers.  However, consider the sequence EOEOEO...E. The sum of three consecutive numbers will always be even. The greatest number is obtained when we alternate and start with odd (O) or even (E), thus the numbers will be OEO...EO.
+Odd + Even + Odd will be even
+Even + Odd + Even will be odd
+Odd + Odd + Odd will be odd.
+Even + Even + Even will be even
+Odd + Odd + Even will be even
+Even + Even + Odd will be odd.
+Since the order matters to maximize the number of odd sums, we want to alternate the number of odds and evens, and to maximize the number of sums, we want the sequence to start and end with either even or odd.
+If it's an odd number, we arrange them such that 2 O followed by 1 E, this ensures that the sum will always be odd.
+The most effective pattern is OOE OOE ... OOE with 2*O + E sums = odd
+If it starts with two odd numbers, the sum will be odd.
+Consider 500 O and 500 E. The most you can obtain for OOE is 998.
+The sums are OEO...EO. Then number of sums will be OEE, EOE, EEO. We can have odd+even+even, even+odd+even, even+even+odd. This arrangement gives maximum of 997 sums.
+
+If we arrange the sequence as OOE OOE...O, then there is 1000 numbers. Then the sum is of the form OOE, giving an odd sum. 1000/3 = 333.333. The last number is 1000. Then we can have OOE. The number of odd sums = (1000 - 2) = 998. We can't get 998. But OOE is 997
+
+Arrange the numbers like OOE OOE ... OOE O, we get a maximum of 997.
+
+Answer: (E)

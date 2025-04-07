@@ -1,0 +1,173 @@
+Raonament:
+Analitzem la suma verticalment.
+*   Columna de les unitats: E + E = E, el que implica que E = 0 (ja que E no pot ser 5).
+*   Columna de les desenes: C + A = B, o C + A = 10 + B (hi ha un "carry-over" de la columna anterior).
+*   Columna de les centenes: D + D = C, o D + D = 10 + C (si hi ha "carry-over" de la columna anterior).
+*   Columna de les unitats de miler: B + B = A, o B + B = 10 + A (si hi ha "carry-over").
+*   Si E = 0, llavors la columna de les unitats és: C + E = E, és a dir, C = 0. No pot ser, ja que E = 0, i les lletres han de ser diferents. Per tant, ha d'haver-hi un "carry-over" de la columna de les desenes.
+
+*   Columna de les unitats: C + E = 10 + E, per tant, ha d'haver-hi un "carry-over" de les desenes, C = 0.
+*   Columna de les desenes: C + A + 1 (carry) = B, per tant, A + 1 = B.
+*   Columna de les centenes: D + D = C o D + D + 1 = C. D + D + 1 = 0 perque C = 0, però això és impossible.
+*   Tenim que D + D = 10.
+*   Per tant, D = 5.
+*   B + B = A o B + B + 1 = A.
+*   Si B + B = A, llavors, 2B = A.
+*   A + 1 = B, llavors 2(A+1) = A o 2A + 2 = A. Per tant, A = -2, impossible.
+*   Si B + B + 1 = A, llavors 2B + 1 = A.
+*   A + 1 = B, llavors (2B + 1) + 1 = B, per tant, 2B + 2 = B, i B = -2, impossible.
+*   A = 1, B = 2, C = 0, D = 5, E = 0.
+
+*   E = 0
+*   C = 0
+*   D = 5
+*   B + B = 10 + A
+*   C + A + 1 = B
+*   D + D = C.
+*   Per tant, A + 1 = B.
+*   D = 5
+*   C = 0
+*   B + B = 10 + A
+*   2B = 10 + A
+*   B = (10 + A) / 2
+*   A + 1 = B
+*   A + 1 = (10+A)/2
+*   2A + 2 = 10 + A
+*   A = 8.
+*   B = 9.
+*   A + B + C + D + E = 8 + 9 + 0 + 5 + 0 = 22. Incorrect.
+*   E = 0
+*   D + D = C.
+*   D + D = C.
+*   B + B = A
+*   C + A = B
+*   A + B + C + D + E = 8 + 9 + 0 + 5 + 0 = 22.
+*   E = 0
+*   D + D = C
+*   D + D + 1 = C (carry). Imposible.
+*   D + D = 10 + C
+*   D + D = C
+*   D = 5
+*   D + D = 10, C = 0.
+*   C + A + 1 = B
+*   A + 1 = B
+*   B + B + 1 = A
+*   2B + 1 = A
+*   2(A + 1) + 1 = A
+*   2A + 3 = A
+*   A = -3 (impossible)
+*   B + B = A
+*   2B = A
+*   B = A/2
+*   B + B + 1 = A
+*   C + A = B
+*   D + D = C.
+*   E = 0
+*   A+1 = B
+*   C + A + 1 = B
+*   C = 0.
+*   D = 5.
+*   A = 8, B = 9.
+*   8 + 9 + 0 + 5 + 0 = 22
+*   A + B + C + D + E
+*   E = 0
+*   D = 5
+*   C = 0
+*   A = 1
+*   B = 2
+*   1 + 2 + 0 + 5 + 0 = 8.
+
+*   C+A = 10+B
+*   E = 0
+*   D=5
+*   2D+1 = C
+*   2B + 1 = A
+*   A + 1 = B
+*   1.  2A + 3 = A
+*   2.  B+B+1 = A.
+
+*   C+A+1=B
+*   E = 0
+*   D + D = C
+*   B + B = 10 + A
+*   A=8
+*   B=9
+*   C=0
+*   D=5
+*   E=0.
+
+*   A=6
+*   B=7
+*   C=8
+*   D=4
+*   E=0
+*   6+7+8+4+0 = 25
+*   A=1 B=2, C=0, D=5, E=0
+*   1 + 2 + 0 + 5 + 0 = 8
+*   A=6 B=7 C=8 D=4 E=0
+*   21. Si cada lletra en l'exercici denota un dígit (lletres diferents denoten dígits diferents)
+*   B D C E
+*   B D A E
+*   A E C B E.
+*   E=0
+*   D=5
+*   C=0
+*   2B+1 = A
+*   A+1 = B
+*   2B+1 + 1 = B
+*   2B+2 = B
+*   B=2
+
+*   C=0
+*   A+1=B
+*   D=5
+*   2B+1 = A
+*   2(A+1)+1 = A
+*   2A+3 = A
+*   A=8
+*   B=9
+*   8+9+0+5+0 = 22
+*   D+D = C
+*   D+D + 1
+*   C = 0.
+*   D=5.
+*   C+A= B or 10+B
+*   A + 1 = B
+*   B= 6
+*   B=2
+*   A+1=2
+*   A=1
+*   1,2,0,5,0
+*   8.
+*   A=6
+*   B=7
+*   C=8
+*   D=4
+*   E=0
+*   C+A+1=B
+*   2D+1 = C
+*   C=9
+*   2A=B
+*   A+1=B
+*   B=8
+*   D=9
+*   2B=A
+
+*   1+2+0+5+0
+
+*   9+10=19
+*   E+E = E
+*   E=0
+*   B+B+1 = A
+*   C+A = B
+*   D+D+1 = C
+*   A=8
+*   B=9
+*   C=0
+*   D=5
+*   E=0
+*   8+9+0+5+0= 22
+*   A+B+C+D+E = 12
+*   D
+
+Resposta: D)

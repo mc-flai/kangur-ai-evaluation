@@ -1,0 +1,34 @@
+To solve this problem, we need to understand the geometric relationships in the rectangle \(ABCD\) and use the given information to find the angle \(\angle CAX\).
+
+1. **Understanding the Problem**:
+   - We are given a rectangle \(ABCD\).
+   - The side \(BC\) is exactly half the length of the diagonal \(\overline{AC}\).
+   - \(X\) is a point on \(\overline{CD}\) such that \(|AX| = |XC|\).
+   - We need to find the measure of the angle \(\angle CAX\).
+
+2. **Analyzing the Geometry**:
+   - In a rectangle \(ABCD\), let \(AB = l\) and \(BC = w\).
+   - The diagonal \(AC\) can be calculated using the Pythagorean theorem: \(AC = \sqrt{l^2 + w^2}\).
+   - Given that \(BC = \frac{AC}{2}\), we have \(w = \frac{\sqrt{l^2 + w^2}}{2}\).
+
+3. **Point \(X\) on \(\overline{CD}\)**:
+   - Since \(X\) is on \(\overline{CD}\) and \(|AX| = |XC|\), \(X\) is the midpoint of \(\overline{CD}\).
+   - This implies \(AX\) and \(CX\) are both equal to half of \(\overline{AC}\).
+
+4. **Angle Calculation**:
+   - Since \(X\) is the midpoint of \(\overline{CD}\) and \(\overline{AC}\) is a diagonal, \(\triangle AXC\) is an isosceles triangle with \(AX = XC\).
+   - In an isosceles triangle, the base angles are equal. Therefore, \(\angle CAX = \angle AXC\).
+   - The sum of angles in a triangle is \(180^\circ\). Therefore, \(\angle CAX + \angle AXC + \angle ACA = 180^\circ\).
+   - Since \(\angle CAX = \angle AXC\), let \(\angle CAX = \theta\). Then, \(2\theta + \angle ACA = 180^\circ\).
+
+5. **Finding \(\angle ACA\)**:
+   - \(\angle ACA\) is the angle at the vertex \(C\) of the rectangle, which is \(90^\circ\) because it is a right angle in the rectangle.
+   - Therefore, \(2\theta + 90^\circ = 180^\circ\).
+   - Solving for \(\theta\), we get \(2\theta = 90^\circ\), so \(\theta = 45^\circ\).
+
+6. **Conclusion**:
+   - The angle \(\angle CAX\) is \(45^\circ\).
+
+Reasoning: The angle \(\angle CAX\) in the isosceles triangle \(\triangle AXC\) with \(AX = XC\) and \(\angle ACA = 90^\circ\) is \(45^\circ\).
+
+Answer: D).

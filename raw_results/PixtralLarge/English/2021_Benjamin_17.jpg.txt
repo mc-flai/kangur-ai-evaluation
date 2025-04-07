@@ -1,0 +1,17 @@
+The problem states that Ronja and Wanja each have four tokens, white and grey respectively. Ronja places her first token first. The question asks which pair of piles they could not create.
+
+**Reasoning**:
+1. Ronja has 4 white tokens; Wanja has 4 grey tokens.
+2. Since Ronja places the first token, the piles that start with a white token on the bottom are possible.
+3. The piles that start with a grey token on the bottom cannot be created since Ronja always places the first token.
+
+Let's analyze the options one by one:
+- (A) Grey on the bottom, white on top: This is not possible because Ronja places the first token, and it must be white.
+- (B) White on the bottom, grey on top: This is possible because Ronja can place white first, and Wanja can place grey on top.
+- (C) Two whites on bottom, two greys on top: This is possible because Ronja can place two whites first, and Wanja can place two greys on top.
+- (D) One white and one grey on bottom, one grey and one white on top: This is possible because Ronja can place white first, and Wanja can place grey, then Ronja places another white, and Wanja places another grey.
+- (E) Two greys on the bottom, two whites on top: This is not possible because Ronja places the first token, and it must be white.
+
+Based on the reasoning above, the pair of piles they could not create is:
+
+**Answer**: A)

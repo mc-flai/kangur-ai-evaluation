@@ -1,0 +1,72 @@
+Para resolver este problema, necesitamos encontrar los valores de \(a\), \(b\), \(c\) y \(d\) que satisfacen las ecuaciones dadas:
+
+\[ a + 2 = b - 2 \]
+\[ b - 2 = 2c \]
+\[ 2c = \frac{d}{2} \]
+
+Dado que \(a\), \(b\), \(c\) y \(d\) son números enteros positivos, podemos proceder de la siguiente manera:
+
+1. Comenzamos con la tercera ecuación:
+\[ 2c = \frac{d}{2} \]
+Multiplicamos ambos lados por 2:
+\[ 4c = d \]
+
+2. Ahora usamos la segunda ecuación:
+\[ b - 2 = 2c \]
+Sustituimos \(d\) de la tercera ecuación en la segunda:
+\[ b - 2 = 2 \left( \frac{d}{4} \right) \]
+\[ b - 2 = \frac{d}{2} \]
+
+3. Usamos la primera ecuación:
+\[ a + 2 = b - 2 \]
+Sustituimos \(b\) de la segunda ecuación en la primera:
+\[ a + 2 = \frac{d}{2} - 2 \]
+
+4. Simplificamos la ecuación:
+\[ a + 4 = \frac{d}{2} \]
+
+5. Multiplicamos ambos lados por 2 para despejar \(d\):
+\[ 2a + 8 = d \]
+
+6. Ahora tenemos dos ecuaciones:
+\[ 4c = d \]
+\[ 2a + 8 = d \]
+
+7. Sustituimos \(d\) de la primera ecuación en la segunda:
+\[ 2a + 8 = 4c \]
+
+8. Simplificamos para despejar \(c\):
+\[ c = \frac{2a + 8}{4} \]
+\[ c = \frac{a + 4}{2} \]
+
+9. Dado que \(c\) debe ser un número entero positivo, \(a + 4\) debe ser un número par. Por lo tanto, \(a\) debe ser un número impar.
+
+10. Pruebe con valores de \(a\):
+    - Si \(a = 1\):
+      \[ c = \frac{1 + 4}{2} = 2.5 \] (No es un número entero)
+    - Si \(a = 3\):
+      \[ c = \frac{3 + 4}{2} = 3.5 \] (No es un número entero)
+    - Si \(a = 5\):
+      \[ c = \frac{5 + 4}{2} = 4.5 \] (No es un número entero)
+    - Si \(a = 7\):
+      \[ c = \frac{7 + 4}{2} = 5.5 \] (No es un número entero)
+    - Si \(a = 9\):
+      \[ c = \frac{9 + 4}{2} = 6.5 \] (No es un número entero)
+    - Si \(a = 11\):
+      \[ c = \frac{11 + 4}{2} = 7.5 \] (No es un número entero)
+
+11. Continuamos probando valores hasta encontrar un número entero para \(c\):
+    - Si \(a = 13\):
+      \[ c = \frac{13 + 4}{2} = 8 \]
+
+12. Ahora tenemos \(a = 13\), \(c = 8\):
+    \[ d = 4c = 4 \times 8 = 32 \]
+    \[ b = \frac{d}{2} + 2 = \frac{32}{2} + 2 = 16 + 2 = 18 \]
+
+Por lo tanto, los valores son:
+\[ a = 13 \]
+\[ b = 18 \]
+\[ c = 8 \]
+\[ d = 32 \]
+
+Respuesta: A)

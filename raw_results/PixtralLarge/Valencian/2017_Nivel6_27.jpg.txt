@@ -1,0 +1,28 @@
+Raonament:
+Considerem les propietats de la funció \( f \) que es descriuen en l'enunciat:
+
+1. \( f \) és estrictament creixent.
+2. \( f(m) > f(n) \) si \( m > n \).
+3. \( f(f(k)) \leq f(k+1) \) per a cada \( k \) en \( \mathbb{Z} \).
+4. \( f(1000) = 1000 \).
+
+Ara analitzem les opcions:
+
+A) \( f(2017) = 2017 \):
+- Si la funció \( f \) és estrictament creixent i \( f(1000) = 1000 \), podem deduir que \( f(2017) \) ha de ser major o igual a 2017 perquè \( 2017 > 1000 \). A més, si \( f \) és estrictament creixent, \( f(2017) \) no pot ser igual a 2017, ja que 2017 és un valor dins el domini.
+
+B) \( f(2017) < 2017 \):
+- Si \( f \) és estrictament creixent i \( f(1000) = 1000 \), \( f(2017) \) ha de ser major que 2017. Així que aquesta opció no és vàlida.
+
+C) \( f(2017) > 2017 \):
+- Aquesta opció és coherent amb la propietat que \( f \) és estrictament creixent i \( f(1000) = 1000 \), perquè \( f(2017) \) hauria de ser major que 2017.
+
+D) No es pot determinar \( f(2017) \); però només es pot valdre 2017 o 2018.
+- Aquesta opció suggereix certesa en el valor de \( f(2017) \) en ser 2017 o 2018, però no és consistent amb la propietat de ser estrictament creixent.
+
+E) Una funció així no pot existir.
+- Aquesta opció no és vàlida perquè les propietats descrites són possibles per a una funció estrictament creixent.
+
+Per tant, la única opció coherent amb les propietats donades és C).
+
+Resposta: C).

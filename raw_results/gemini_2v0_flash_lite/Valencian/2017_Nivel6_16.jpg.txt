@@ -1,0 +1,31 @@
+Raonament:
+The problem states that we have a set S with n elements. From this set, we can form 7 subsets, each containing 3 elements. Also, any two elements of S must appear together in exactly one of the subsets. Let's use the following facts:
+
+1.  Each subset has 3 elements.
+2.  Each pair of elements of S appears in exactly one subset.
+
+Let n be the number of elements in S. Then we have $\binom{n}{2}$ pairs of elements. Every subset of 3 elements contains $\binom{3}{2}=3$ pairs. Since there are 7 such subsets, we will have 7*3 pairs. Therefore, the number of pairs of elements in S must equal the number of pairs formed by the subsets:
+$\binom{n}{2} = \frac{7 * \binom{3}{2}}{1}$,
+where $\binom{n}{2}$ is the number of pairs possible in the set of n elements, $\binom{3}{2}$ is the number of pairs in each subset and the division by 1 means the number of times each pair appears.
+
+So, we have $\binom{n}{2} = 7*3/3=7$.
+$n(n-1)/2=7*3/3=7$.
+$n(n-1)=14$.
+Then, $n^2-n-14 = 0$. But, let's look at it another way.
+The number of pairs of elements in the set S is $\binom{n}{2}$. Each subset contains $\binom{3}{2} = 3$ pairs. We are told that any pair of elements appears exactly in one subset of 3 elements.
+Let's consider any element 'x'.  The number of subsets containing 'x' must be some value, let's say k. Each of these k subsets will have 2 more elements in each subset. Total number of subsets is 7. If 'x' is in some number of the total 7 subsets, this element forms pairs with the remaining elements. The number of pairs will depend on n.
+The total number of subsets is 7, where each subset has 3 elements. Take one element from the set S, say x. It is included in, say, k of these 7 subsets. Each such subset will have two more elements.  So, for any other element y in S, then the pair x,y should be in exactly one subset. Then the number of possible pairs from any element should be equal to the number of subsets to which any element belongs to. Let us consider the element 'x', there should exist (n-1) other pairs in which this appears, and these n-1 elements are with other elements in the 7 subsets.
+Let's consider element x. Each of the 7 subsets contains 3 elements, and therefore $\binom{3}{2}=3$ possible pairs can be formed. Any element is involved in certain subsets. The element should have n-1 pair with others. Thus, each element will belong to k subsets.
+From x, there will be n-1 pairs. From the element x, let's consider that it is present in k subsets. k*2 other elements in the subsets. So the total is $n-1=k*2$.
+Let's try values for n:
+If n = 5: $\binom{5}{2}$ = 10. Since each subset has 3 elements, and hence 3 pairs, 7 subsets contain 7\*3 = 21 pairs. So, $10 = 21/x$ (number of times, no).
+If n = 6: Then, the number of pairs formed would be $\binom{6}{2}=15$. Each of 7 subsets has 3 elements. and forms 3 pairs.
+$15/3!=7*3$ pairs
+We have 7 subsets with 3 elements. The number of pairs is $\binom{3}{2}=3$. Total pairs=7\*3=21. Since we have 15 different pairs in a set of size 6, the number of pairs is $n(n-1)/2$. Then any pair appears once.
+$\frac{n(n-1)}{2}=7$. The only condition fulfilled is if $n=7$. $\binom{7}{3}=35$ and $7$ subsets $\binom{3}{2}=3$ pairs. The total number of pairs that can be formed is:  7*3=21  and for n=6: 6(5)/2=15.  $\binom{6}{2}=15$.
+We need $\frac{n(n-1)}{2}$. If each pair must appear once, then we have n=7, which will not work either since n must be 6.  Let's derive a relationship.  We have 7 subsets.  Each subset has 3 elements. $\binom{3}{2} = 3$ pairs.  Let $k_i$ be the number of subsets containing element i. Then $\sum k_i = 7 * 3$. $7 * \binom{3}{2}$. $\frac{n(n-1)}{2}$
+
+Let's test n = 7: $\binom{7}{2} = 21$
+The number of pairs of elements is $\binom{n}{2}$, and the total number of pairs in the 7 subsets is $7 * \binom{3}{2} = 7 * 3 = 21$. Then n=7.
+
+Resposta: E)

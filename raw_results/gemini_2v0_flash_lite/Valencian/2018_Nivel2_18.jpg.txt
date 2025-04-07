@@ -1,0 +1,19 @@
+Raonament:
+1.  **Condicions:** The number n must satisfy four out of five given conditions. The conditions are:
+    *   (1) n is a two-digit number.
+    *   (2) n is even.
+    *   (3) n is prime.
+    *   (4) n is the square of an integer.
+    *   (5) n is greater than 50.
+
+2.  **Deductions:**
+    *   Conditions (2) and (3) (even and prime) can't both be true at the same time unless n=2. However, n must be a two-digit number. Thus, conditions (2) and (3) cannot occur together.
+    *   If n is a square and greater than 50, then the smallest possibility for n is 64 (8 squared).
+    *   The possible values for n that fulfill condition (4) and (5) are: 64, 81, etc...
+    *   Since the square root is an integer, if we chose 64, conditions (1), (2), (4), and (5) are satisfied.
+    *   With n=64 the sum of the digits is 6+4=10.
+
+3.  **Check the other options:**
+    *   If n is a prime number then, it is not a square number, it is an odd number and not greater than 50, or is not a two digit number.
+
+Resposta: A)

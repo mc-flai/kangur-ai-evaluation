@@ -1,0 +1,19 @@
+Raonament: When the bat leaves the cave, the clock reads 20:20. When the bat returns to the cave hanging upside down, the clock reads 20:20. The digits are the same so the clock time is 20:20. However, the time shown is a result of the numbers being inverted, this means that the time has to be inverted to know the correct time. If you turn the numbers on the clock upside down you will get a different time. If you turn the time the bat left the cave (20:20) upside down, you'd get 02:02. To calculate the time the bat was out of the cave we need to calculate the difference between the departure time (02:02) and the returning time (20:20). 20:20 - 02:02 = 18:18. However, 02:02 and 20:20 were given in the 24h clock format, so it's easier to convert the time into minutes, calculate the difference, and then convert again into hours and minutes.
+Departure time: 02:02 -> (2*60) + 2 = 122 minutes
+Arrival time: 20:20 -> (20*60) + 20 = 1220 minutes
+Difference: 1220 - 122 = 1098 minutes
+1098 minutes -> 1098/60 = 18 hours and 18 minutes.
+But that's not the answer. We need to invert the clock again.
+Departure time: 20:20
+Inverted time: 02:02
+Arrival time: 20:20
+To find the difference, we need to consider the time after the clock was turned upside down.
+When the bat left the cave, the clock shows 20:20
+When the bat returns to the cave, the clock shows 20:20, after inverting the clock (02:02).
+So, the bat left at 20:20 and came back at 02:02.
+To know the time the bat stayed out we need to calculate:
+24:00 - 20:20 + 02:02
+24:00 - 20:20 = 03:40
+03:40 + 02:02 = 05:42
+
+Resposta: B)

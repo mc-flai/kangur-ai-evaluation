@@ -1,0 +1,25 @@
+To determine the maximum number of baskets Maria can fill with the same amount of apples, peaches, and cherries, we need to find the greatest common divisor (GCD) of the three quantities of fruit.
+
+1. **List the quantities of each fruit**:
+   - Apples: 42
+   - Peaches: 60
+   - Cherries: 90
+
+2. **Find the GCD of the three numbers**:
+   - First, find the GCD of 42 and 60:
+     - Prime factors of 42: 2, 3, 7
+     - Prime factors of 60: 2, 2, 3, 5
+     - Common prime factors: 2, 3
+     - Therefore, GCD(42, 60) = 2 * 3 = 6
+
+   - Next, find the GCD of the result (6) and 90:
+     - Prime factors of 6: 2, 3
+     - Prime factors of 90: 2, 3, 3, 5
+     - Common prime factors: 2, 3
+     - Therefore, GCD(6, 90) = 2 * 3 = 6
+
+3. **The GCD of 42, 60, and 90 is 6**. This means Maria can divide the fruit into baskets such that each basket has the same amount of apples, peaches, and cherries, and she can fill a maximum of 6 baskets this way.
+
+Reasoning: By finding the greatest common divisor of the quantities of apples, peaches, and cherries, we determine that Maria can fill a maximum of 6 baskets with an equal distribution of fruit.
+
+Answer: B)

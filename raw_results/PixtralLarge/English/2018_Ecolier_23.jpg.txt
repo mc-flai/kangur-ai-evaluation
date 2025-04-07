@@ -1,0 +1,20 @@
+To solve question 23, we need to determine which numbers Lea can write in the field with the question mark. The rules are:
+1. Only one number is allowed in every field.
+2. Two consecutive numbers are not allowed to be in adjacent fields.
+3. Two fields are adjacent if they have one edge or one corner in common.
+
+The given figure has a question mark in the central field. Let's analyze the numbers that can go there by considering the numbers around it.
+
+- The central field is adjacent to four other fields.
+- We need to ensure that the number in the central field is not consecutive to any of the numbers in the adjacent fields.
+
+Since the problem states that the numbers 1 to 7 must be used, let's consider the possible placements:
+- If we place 1 in one of the adjacent fields, the central field cannot have 2.
+- If we place 2 in one of the adjacent fields, the central field cannot have 1 or 3.
+- This logic applies to all numbers from 1 to 7.
+
+Given that the central field is surrounded by four other fields, it cannot have a number that is consecutive to any of the numbers in those fields. The only number that can satisfy this condition is 4, as it is not consecutive to any of the numbers 1, 2, 3, 5, 6, or 7.
+
+Reasoning: The central field cannot have a number that is consecutive to any of the numbers in the adjacent fields. The only number that satisfies this condition is 4.
+
+Answer: D)

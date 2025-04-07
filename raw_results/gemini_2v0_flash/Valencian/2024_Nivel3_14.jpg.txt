@@ -1,0 +1,11 @@
+Raonament: Una cria ha rebut 44 peixos. Cada dia, una cria rep 7 peixos i l'altra rep 5. Per tant, la cria que va rebre 44 peixos va ser o bé sempre la primera (rebent sempre 7 peixos) o no sempre la primera.
+
+Suposem que la cria que va rebre 44 peixos sempre va rebre 7 peixos. Això significaria que va haver-hi 44/7 dies. Però 44/7 no és un nombre sencer, per tant, no sempre va rebre 7 peixos.
+
+Per tant, sigui *x* el nombre de dies que la cria va rebre 7 peixos i *y* el nombre de dies que la cria va rebre 5 peixos. Tenim l'equació 7*x* + 5*y* = 44. Les possibles solucions enteres positives són:
+- x = 2, y = 6 (2 dies rebent 7, i 6 dies rebent 5: 2 * 7 + 6 * 5 = 14 + 30 = 44)
+- x = 7, y = -1. Aquesta solució no és vàlida perquè y ha de ser positiu.
+
+Per tant, x = 2, y = 6. Això vol dir que hi ha hagut 8 dies. Durant aquests 8 dies, la primera cria va rebre 7 peixos 2 dies, i la segona cria va rebre 5 peixos 6 dies, o bé que va ser a l'inrevés, i 6 dies la primera va rebre 7 i 2 la segona va rebre 5. L'altra cria, per tant, va rebre 6 dies 7 peixos i 2 dies 5 peixos. Llavors la quantitat de peixos rebuda per l'altra cria serà 6*7 + 2*5 = 42 + 10 = 52.
+
+Resposta: D)

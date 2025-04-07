@@ -1,0 +1,19 @@
+Raonament:
+The question asks to calculate `a + b + c + d` given that `a = b+1 = c+2 = d+3 = a + b + c + d + 4`.
+From the last part of the equation, we can derive:
+`a = a + b + c + d + 4`
+`0 = b + c + d + 4`
+`-4 = b + c + d`
+Also, `a = b + 1`, `b = a - 1`.
+`a = c + 2`, `c = a - 2`.
+`a = d + 3`, `d = a - 3`.
+Now, `a + b + c + d = a + (a - 1) + (a - 2) + (a - 3)`
+`a + b + c + d = 4a - 6`
+Using `-4 = b + c + d = (a-1) + (a-2) + (a-3)`,
+`-4 = 3a - 6`
+`2 = 3a`
+`a = 2/3`
+Substituting `a` in the expression for `a+b+c+d`, we have
+`a + b + c + d = 4a - 6 = 4(2/3) - 6 = 8/3 - 18/3 = -10/3`
+
+Resposta: C)

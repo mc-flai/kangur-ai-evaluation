@@ -1,0 +1,17 @@
+Razonamiento:
+Let $c$ be the number in the central cell. Let $a_1, a_2, \dots, a_8$ be the numbers in the cells on the circumference.
+The sum of the eight numbers on the circumference is 40.
+We have four diameters, and the sum of the three numbers in each diameter is 13.
+Thus, we have:
+$a_1 + c + a_5 = 13$
+$a_2 + c + a_6 = 13$
+$a_3 + c + a_7 = 13$
+$a_4 + c + a_8 = 13$
+Adding these four equations, we have:
+$a_1 + a_2 + a_3 + a_4 + a_5 + a_6 + a_7 + a_8 + 4c = 13 \times 4 = 52$
+Since $a_1 + a_2 + \dots + a_8 = 40$, we have:
+$40 + 4c = 52$
+$4c = 52 - 40 = 12$
+$c = \frac{12}{4} = 3$
+
+Respuesta: A)

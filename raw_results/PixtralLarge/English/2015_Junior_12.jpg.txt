@@ -1,0 +1,34 @@
+To determine the shortest path from "Start" to "Ziel" on a grid where each side of the small squares has a length of 1, and you can move along the sides and diagonals of the squares, we need to consider both horizontal/vertical and diagonal movements.
+
+First, let's break down the grid:
+
+- The grid is 5 squares wide and 3 squares tall.
+- Moving along the sides corresponds to the Manhattan distance (sum of horizontal and vertical distances).
+- Moving along the diagonals corresponds to the Euclidean distance but must be calculated discretely.
+
+The shortest path often involves a combination of both movements.
+
+### Reasoning:
+1. **Manhattan Distance Calculation**:
+   - To move from "Start" to "Ziel" horizontally: 5 squares.
+   - To move from "Start" to "Ziel" vertically: 3 squares.
+   - Total Manhattan distance: 5 + 3 = 8.
+
+2. **Diagonal Movements**:
+   - Diagonal movements can reduce the total distance but must be calculated carefully.
+   - For simplicity, consider potential diagonals and their impact on the path length.
+
+3. **Optimal Path Calculation**:
+   - By analyzing the grid, the shortest path involves moving diagonally where possible.
+   - The optimal path involves moving diagonally twice (each diagonal move covers a distance of √2) and then moving horizontally and vertically.
+
+4. **Calculation of the Shortest Path**:
+   - Two diagonal moves: 2 * √2.
+   - Remaining horizontal moves: 1 (since two diagonals cover 4 squares horizontally).
+   - Remaining vertical moves: 1 (since two diagonals cover 2 squares vertically).
+   - Total distance: 2 * √2 + 1 + 1 = 2√2 + 2.
+
+This matches option (C).
+
+### Answer:
+C) 2 + 2√2

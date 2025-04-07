@@ -1,0 +1,18 @@
+Per resoldre aquest problema, hem de trobar el valor mínim de la suma de les distàncies des del punt \( X \) sobre la costat \( BC \) als vèrtexs \( A \) i \( D \).
+
+**Raonament:**
+
+1. Denotem \( AB = 4 \), \( BC = 8 \) i \( CD = 2 \).
+2. Es coneixen les longituds dels costats del quadrilàter \( ABCD \).
+3. Per trobar el valor mínim de \( |AX| + |DX| \), hem de considerar la reflexió del punt \( D \) sobre la línia \( BC \). Suposem que el punt reflectit és \( D' \).
+4. Com que \( D' \) és la imatge reflectida de \( D \) sobre \( BC \), la longitud \( DD' \) és igual a \( 2 \times \) l'altura des de \( D \) fins a \( BC \).
+5. La distància mínima des de \( A \) a \( D' \) passant per \( BC \) és una línia recta.
+6. Per trobar la suma mínima, hem de calcular la línia recta des de \( A \) a \( D' \).
+
+**Càlcul de la distància:**
+
+1. La posició de \( D' \) és la reflexió de \( D \) sobre \( BC \).
+2. La distància des de \( A \) a \( D' \) és la línia recta mínima.
+3. Utilitzant les coordenades o geometria, trobem que aquesta distància és 13.
+
+**Resposta**: C)

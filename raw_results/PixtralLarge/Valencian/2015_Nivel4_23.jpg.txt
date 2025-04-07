@@ -1,0 +1,29 @@
+**Raonament**: Per resoldre aquest problema, necessitem determinar quants conjunts de set més petits que 50 donen com a resultat de la seva multiplicació un nombre que acaba en 00.
+
+1. Un nombre que acaba en 00 té dos zeros al final, el que significa que és divisible per 100.
+2. Podem obtenir un nombre divisible per 100 si els nombres que multipliquem inclouen almenys dos factors de 2 i dos factors de 5, ja que 100 = 2^2 * 5^2.
+3. Per tant, necessitem que almenys dos dels set números tinguin almenys dos factors de 2 i dos factors de 5.
+
+Ara, considerem els nombres naturals més petits:
+- Els nombres que tenen almenys dos factors de 2 i dos factors de 5 són: 25, 50, 75, 100, etc.
+- Com que el problema especifica que els números han de ser més petits que 50, els nombres possibles són: 25 i 50.
+
+4. Necessitem trobar combinacions d'aquests nombres que, quan es multipliquen, donin un nombre que acaba en 00.
+5. Considerem les combinacions possibles:
+   - Si escollim 25 i 50, la seva multiplicació és 25 * 50 = 1250, que acaba en 00.
+   - Si escollim altres combinacions que inclouen 25 o 50 amb altres nombres que no tenen factors de 2 o 5, no obtindrem un nombre que acaba en 00.
+
+6. Per tant, les combinacions possibles són aquelles que inclouen 25 i 50.
+
+7. Ara, calculem el nombre de combinacions possibles:
+   - Si escollim 25 i 50, ens queden 5 llocs per omplir amb qualsevol nombre més petit que 50.
+   - El nombre de combinacions possibles és el nombre de maneres de triar 5 nombres de 48 possibles (50 - 2 = 48).
+
+8. El nombre de combinacions de triar 5 nombres de 48 és donat per la fórmula de combinacions:
+   - C(48, 5) = 48! / (5! * (48-5)!) = 48! / (5! * 43!) = (48 * 47 * 46 * 45 * 44) / (5 * 4 * 3 * 2 * 1) = 1,712,304.
+
+9. Per tant, el nombre de combinacions possibles és 1,712,304.
+
+10. Comparant aquest resultat amb les opcions donades, la resposta correcta és la més propera a 1,712,304.
+
+**Resposta**: A) 16

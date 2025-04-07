@@ -1,0 +1,21 @@
+Raonament: La condició clau és que a + 3b + c ha de ser un múltiple de 3. Notem que 3b sempre és un múltiple de 3. Per tant, a + c ha de ser un múltiple de 3.
+*   'a' pot prendre valors de 1 a 9 (9 opcions).
+*   'b' pot prendre valors de 0 a 9 (10 opcions), però no afecta l'equació ja que 3b sempre serà divisible per 3.
+*   'c' pot prendre valors de 0 a 9 (10 opcions).
+Perquè a + c sigui múltiple de 3, per a cada valor de 'a', hi haurà 3 o 4 valors de 'c' que compliran la condició.
+*   Si a = 1, c pot ser 2, 5, 8 (3 opcions).
+*   Si a = 2, c pot ser 1, 4, 7 (3 opcions).
+*   Si a = 3, c pot ser 0, 3, 6, 9 (4 opcions).
+*   Si a = 4, c pot ser 2, 5, 8 (3 opcions).
+*   Si a = 5, c pot ser 1, 4, 7 (3 opcions).
+*   Si a = 6, c pot ser 0, 3, 6, 9 (4 opcions).
+*   Si a = 7, c pot ser 2, 5, 8 (3 opcions).
+*   Si a = 8, c pot ser 1, 4, 7 (3 opcions).
+*   Si a = 9, c pot ser 0, 3, 6, 9 (4 opcions).
+Llavors, tenim 3 * 3 + 3 * 4 + 3 * 3 + 3 * 4 = 9+12+12+12=33 + 30= 30.
+Els 33 valors de 'a' i 'c' per als quals es satisfà la condició de divisibilitat per 3.
+El valor de b no afecta la divisibilitat per 3, de manera que hi ha 10 opcions per a b (0 a 9).
+Per tant, el nombre total de nombres és (3 + 3 + 4 + 3 + 3 + 4 + 3 + 3 + 4) * 10 = 30 * 10 = 300.
+També, si a+c és múltiple de 3. Sabem que a va de 1 a 9 i b de 0 a 9 i c de 0 a 9, hi ha 9 * 10 * 10 = 900 possibles nombres de tres dígits si no tinguéssim la restricció de la divisibilitat. Per a cada 3 possibles nombres, hi ha un que és un múltiple de 3. Per tant, el resultat esperat és de 900/3 = 300.
+
+Resposta: B)

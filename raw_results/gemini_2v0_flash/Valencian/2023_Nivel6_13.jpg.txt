@@ -1,0 +1,14 @@
+Raonament: Primer, calculem quantes pàgines va llegir el primer dia: 630 / 3 = 210 pàgines. Ara, calculem quantes pàgines va llegir en total: 1+2+3...+n = 4410. n(n+1)/2=4410, de manera que, n^2+n-8820 = 0. El valor positiu d'aquesta equació quadràtica és aproximadament 93.5. Per tant, calculem quantes pàgines queden per llegir: 630 - 210 - 93 = 327.
+
+Si la suma de pàgines que va llegir és 4410. Després del primer dia va començar en la següent pàgina que seria la 211. Per tant si sabem la suma 211+...+x = 4410 => Suma inicial 1+2+...+x = 1+2+...+210+4410, x(x+1)/2 = 22155+22155, x(x+1) = 44310 -> x ~ 210, per tant pàgines que quedarien per llegir 630 - 210 - (210-210) => 630 - 420 = 210. 630-210 =420.
+
+Va llegir 210 pàgines el primer dia. En quedaven 630-210 = 420 per llegir. Com que la suma de les pàgines que va llegir a l'endemà és 4410, i no sabem quantes pàgines va llegir a l'endemà, no podem saber quantes pàgines li queden per llegir.
+Tanmateix, el problema es pot interpretar de la següent manera: Quant val n tals que la suma de pàgines entre 1+...n= 4410.
+
+El primer dia es van llegir 210 pàgines. En queden 630-210 = 420.
+La suma de les pàgines a l'endemà va ser 4410. Per tant 211+...+x=4410.
+La suma 1+2+...+210+211+...+x = 1+2+...+210 + 4410
+x(x+1)/2 = 210(211)/2+4410 = 22155+4410 = 26565
+x(x+1) = 53130. x és aproximadament 230. Quant li queden per llegir? 630 - 230 = 400.
+
+Resposta: E)

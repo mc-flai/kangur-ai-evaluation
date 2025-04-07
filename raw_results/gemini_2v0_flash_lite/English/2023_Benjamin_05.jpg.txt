@@ -1,0 +1,7 @@
+Reasoning: Anna has 5 discs, and she needs to choose 4 of them to build a tower. The order in which she arranges the discs matters because a smaller disc must be on top of a bigger one. Therefore, we need to find the number of permutations of 4 discs chosen from 5. The number of ways to arrange the discs is the number of permutations of 4 discs.
+This can be found using the formula:
+nPr = n! / (n-r)! where n is the total number of items and r is the number of items chosen.
+First, we need to select 4 out of 5 discs.  This can be done in 5C4 ways which is 5. Now we have to arrange the selected 4 discs. Since there are 4 discs, there are 4! ways to arrange the 4 discs.  4! = 4 * 3 * 2 * 1 = 24. But given the constraint "She always has to place a smaller one on top of a bigger one",  for any selection of 4 discs, the arrangement is already determined (largest to smallest). Each selection of 4 has only one way.
+The number of ways to choose 4 discs is 5C4 = 5.
+Alternatively, since the size of the disc matters, there are 5 different discs, and any selection of 4 determines the order: largest on bottom, smallest on top. Thus we are picking which one will be left out which is simply 5 ways
+Answer: B)

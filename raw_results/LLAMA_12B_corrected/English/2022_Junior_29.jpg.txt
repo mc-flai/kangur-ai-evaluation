@@ -1,0 +1,29 @@
+Reasoning:
+
+To solve this problem, we need to understand the scoring system and the requirements for a team's maximum points. The tournament consists of eight teams playing each other exactly once. Each game's winner gets 3 points, and the loser gets no points. In case of a draw, both teams get 1 point. The total points among all teams should be 61.
+
+Let's consider the possibilities:
+
+*   If all games end in a draw, there will be a total of 8 teams * 8 points per team = 64 points. This exceeds the target of 61 points, so this scenario is not possible.
+*   If one team wins all its games and the other seven teams win one game each, the total points would be: 
+    *   One team with 7 wins (7 * 3 = 21 points)
+    *   Seven teams with 1 win (7 * 1 = 7 points)
+    *   Total points = 21 + 7 = 28 points
+*   If two teams win all their games and the other six teams win one game each, the total points would be:
+    *   Two teams with 7 wins (2 * 7 = 14 points * 3 = 42 points)
+    *   Six teams with 1 win (6 * 1 = 6 points)
+    *   Total points = 42 + 6 = 48 points
+*   If three teams win all their games and the other five teams win one game each, the total points would be:
+    *   Three teams with 7 wins (3 * 7 = 21 points * 3 = 63 points)
+    *   Five teams with 1 win (5 * 1 = 5 points)
+    *   Total points = 63 + 5 = 68 points
+Regarding the number of points required for a team to surpass others in terms of maximum points gained:
+
+*   The maximum number of points a team can achieve is 21 when they win all their games.
+*   Option A) 21 is the maximum number of points possible if the other seven teams draw all their games.
+*   Option B) 19 is a possible scenario but less than the maximum.
+*   Option C) 18 is also a possible scenario but still less than the maximum.
+*   Option D) 17 is a lower number but which scenario allows for it?
+*   Option E
+
+Answer: No Answer

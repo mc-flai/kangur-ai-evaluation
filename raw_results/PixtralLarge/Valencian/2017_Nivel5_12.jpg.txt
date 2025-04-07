@@ -1,0 +1,75 @@
+**Raonament**:
+Per trobar el valor mínim de \( y \) que verifica les següents relacions:
+
+\[ \frac{600}{y} + \frac{x}{5} = 11 \]
+\[ \frac{600}{x} + \frac{y}{5} = 44 \]
+
+Multipliquem totes dues equacions per 5 per eliminar els denominadors:
+
+\[ 5 \left( \frac{600}{y} + \frac{x}{5} \right) = 5 \cdot 11 \]
+\[ 5 \left( \frac{600}{x} + \frac{y}{5} \right) = 5 \cdot 44 \]
+
+Això ens dona:
+
+\[ \frac{3000}{y} + x = 55 \]
+\[ \frac{3000}{x} + y = 220 \]
+
+Sumem les dues equacions resultants:
+
+\[ \frac{3000}{y} + x + \frac{3000}{x} + y = 55 + 220 \]
+\[ \frac{3000}{y} + \frac{3000}{x} + x + y = 275 \]
+
+Per minimitzar \( y \), busquem els valors de \( x \) i \( y \) que satisfan les equacions. Resolem el sistema d'equacions:
+
+\[ \frac{3000}{y} + x = 55 \]
+\[ \frac{3000}{x} + y = 220 \]
+
+Provem diferents valors de \( x \) i \( y \):
+- Si \( y = 20 \):
+  \[ \frac{3000}{20} + x = 55 \]
+  \[ 150 + x = 55 \]
+  \[ x = 55 - 150 \]
+  \[ x = -95 \] (No és vàlid ja que \( x \) i \( y \) han de ser positius)
+
+- Si \( y = 40 \):
+  \[ \frac{3000}{40} + x = 55 \]
+  \[ 75 + x = 55 \]
+  \[ x = 55 - 75 \]
+  \[ x = -20 \] (No és vàlid ja que \( x \) i \( y \) han de ser positius)
+
+- Si \( y = 60 \):
+  \[ \frac{3000}{60} + x = 55 \]
+  \[ 50 + x = 55 \]
+  \[ x = 55 - 50 \]
+  \[ x = 5 \]
+
+  Verifiquem que aquest valor és vàlid en la segona equació:
+  \[ \frac{3000}{5} + 60 = 220 \]
+  \[ 600 + 60 = 220 \]
+  \[ 660 \neq 220 \] (No és vàlid)
+
+- Si \( y = 80 \):
+  \[ \frac{3000}{80} + x = 55 \]
+  \[ 37.5 + x = 55 \]
+  \[ x = 55 - 37.5 \]
+  \[ x = 17.5 \]
+
+  Verifiquem que aquest valor és vàlid en la segona equació:
+  \[ \frac{3000}{17.5} + 80 = 220 \]
+  \[ 171.43 + 80 = 220 \]
+  \[ 251.43 \approx 220 \] (No és vàlid)
+
+- Si \( y = 100 \):
+  \[ \frac{3000}{100} + x = 55 \]
+  \[ 30 + x = 55 \]
+  \[ x = 55 - 30 \]
+  \[ x = 25 \]
+
+  Verifiquem que aquest valor és vàlid en la segona equació:
+  \[ \frac{3000}{25} + 100 = 220 \]
+  \[ 120 + 100 = 220 \]
+  \[ 220 = 220 \] (Vàlid)
+
+Per tant, el valor mínim de \( y \) és 100.
+
+**Resposta**: E) 100

@@ -1,0 +1,18 @@
+Per resoldre aquesta pregunta, hem de trobar la longitud d'un fil que envolta un cilindre des de la base fins a la part superior, fent un gir complet al voltant del cilindre. Donat que el cilindre té un radi d'1 metre i una altura de 4 metres, el fil forma una hèlix.
+
+Primer, desenvolupem l'hèlix en un triangle rectangle on una de les catetus és l'altura del cilindre (4 metres) i la hipotenusa és la longitud del fil. L'altre catet és la circumferència de la base del cilindre, que es calcula com:
+
+\[ C = 2\pi r = 2\pi \times 1 = 2\pi \, \text{metres} \]
+
+La longitud del fil és la hipotenusa d'un triangle rectangle amb catets de 4 metres i \(2\pi\) metres. Utilitzem el teorema de Pitàgores per trobar la longitud del fil:
+
+\[ \text{Longitud del fil} = \sqrt{(2\pi)^2 + 4^2} \]
+\[ = \sqrt{4\pi^2 + 16} \]
+\[ = \sqrt{4(\pi^2 + 4)} \]
+\[ = 2\sqrt{\pi^2 + 4} \]
+
+Com es pot observar, la longitud del fil és \(2\sqrt{\pi^2 + 4}\).
+
+**Raonament**: Hem desenvolupat el fil en un triangle rectangle i hem aplicat el teorema de Pitàgores per trobar la longitud del fil.
+
+**Resposta**: D) \( 2\sqrt{\pi^2 + 4} \)

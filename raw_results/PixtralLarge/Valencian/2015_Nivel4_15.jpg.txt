@@ -1,0 +1,32 @@
+Per determinar el preu del segon concert, hem de calcular com afecten les modificacions en el nombre d'espectadors i en els preus del concert anterior.
+
+1. **Nombre d'espectadors incrementat en un 50%**:
+   - Si el nombre inicial d'espectadors és \( x \), aleshores amb un increment del 50%, el nombre nou d'espectadors serà:
+   \[
+   1.5x = x + 0.5x
+   \]
+
+2. **Preus dels bitllets reduïts en un 20%**:
+   - Si el preu inicial del bitllet és 9 €, aleshores amb una reducció del 20%, el nou preu del bitllet serà:
+   \[
+   9 \, \text{€} - 0.2 \times 9 \, \text{€} = 9 \, \text{€} - 1.8 \, \text{€} = 7.2 \, \text{€}
+   \]
+
+3. **Càlcul de l'ingrés total**:
+   - L'ingrés total del concert anterior era \( 9 \, \text{€} \times x \).
+   - L'ingrés total del següent concert amb el nou preu i el nombre d'espectadors serà:
+   \[
+   7.2 \, \text{€} \times 1.5x = 10.8 \, \text{€} \times x
+   \]
+   - Això indica que l'ingrés total ha augmentat.
+
+4. **Comprovació de les opcions**:
+   - A) 7,50 €: Incorrecte, ja que 7.50 € no és el nou preu calculat.
+   - B) 4,50 €: Incorrecte, ja que 4.50 € no és el nou preu calculat.
+   - C) 6 €: Incorrecte, ja que 6 € no és el nou preu calculat.
+   - D) 7,20 €: Correcte, ja que 7.20 € és el nou preu calculat.
+   - E) 6,50 €: Incorrecte, ja que 6.50 € no és el nou preu calculat.
+
+Raonament: Hem determinat que el preu dels bitllets ha de ser 7.20 € perquè el preu inicial de 9 € es redueix un 20%.
+
+Resposta: D)

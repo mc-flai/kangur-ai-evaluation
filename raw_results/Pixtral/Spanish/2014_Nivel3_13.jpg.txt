@@ -1,0 +1,16 @@
+
+Razonamiento: El problema nos dice que la suma de las edades de una abuela, su hija y su nieta es de 100 años. Además, las tres edades son múltiplos de 2. Para encontrar la edad de la nieta, podemos usar el proceso de eliminación y la lógica de múltiplos de 2.
+
+1. Supongamos que la nieta tiene 1 año (opción A). Entonces, las edades de la abuela y la hija serían 99 años en total. Sin embargo, 99 no es un múltiplo de 2, lo que viola la condición de que todas las edades sean múltiplos de 2. Por lo tanto, la nieta no puede tener 1 año.
+
+2. Supongamos que la nieta tiene 2 años (opción B). Entonces, las edades de la abuela y la hija serían 98 años en total. Sin embargo, 98 no es un múltiplo de 2, lo que viola la condición de que todas las edades sean múltiplos de 2. Por lo tanto, la nieta no puede tener 2 años.
+
+3. Supongamos que la nieta tiene 4 años (opción C). Entonces, las edades de la abuela y la hija serían 96 años en total. 96 es un múltiplo de 2, pero no podemos determinar inmediatamente si esto satisface la condición de que todas las edades sean múltiplos de 2 sin más información.
+
+4. Supongamos que la nieta tiene 8 años (opción D). Entonces, las edades de la abuela y la hija serían 92 años en total. 92 es un múltiplo de 2, pero no podemos determinar inmediatamente si esto satisface la condición de que todas las edades sean múltiplos de 2 sin más información.
+
+5. Supongamos que la nieta tiene 16 años (opción E). Entonces, las edades de la abuela y la hija serían 84 años en total. 84 es un múltiplo de 2. Si la abuela tiene 68 años y la hija tiene 16 años, todas las edades son múltiplos de 2 y suman 100 años.
+
+Por lo tanto, la edad de la nieta debe ser 16 años.
+
+Respuesta: E)

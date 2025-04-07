@@ -1,0 +1,35 @@
+Raonament: El problema es basa en el principi del colomar. Hi ha 2016 habitants i cap d'ells té més de 49 anys, per tant, les possibles edats són 0, 1, 2, ..., 49. Això fa un total de 50 possibles edats. Per assegurar que n habitants tenen la mateixa edat, considerem el pitjor escenari on les edats estan el més uniformement distribuïdes possible. Si dividim 2016 per 50, obtenim 40.32. Això significa que podria haver-hi 40 persones de cada edat. Però 0.32 representa un excés, significat que, a priori, hi ha, almenys, una edat repetida 41 vegades.
+Si tenim 40 persones de cada edat, necessitem una persona extra per una edat addicional perquè 40 x 50 = 2000 i 2016-2000 = 16 > 1.
+Si tenim 2016 persones en total, i 50 edats possibles, si dividim 2016 per 50 tenim 40.32, per tant, com a mínim hi ha 41 persones amb la mateixa edat.
+Per assegurar que n persones tenen la mateixa edat, hem de trobar el menor n tal que 50*(n-1) < 2016. Per tant n-1 = 40,32, n = 41,32, per tant, per força n ha de ser superior.
+
+2016/50 = 40.32
+Això vol dir que, com a mínim, hi ha 41 persones amb la mateixa edat.
+
+Si hi haguessin 41 persones per edat, serien un total de 2050 habitants, el que és impossible.
+
+Si hi haguessin 40 persones per edat, serien 40*50=2000 habitants.
+2016-2000=16. Per tant, hi ha 16 edats que tenen 41 persones i 34 que tenen 40.
+
+Si hi hagués 41 habitants en un rang d'edat, aleshores podriem garantir que almenys 41 persones tenen la mateixa edat.
+Si en haguessin 42, aleshores ja en podriem treure les conclusions que fossin necessàries.
+Per tant la resposta correcta és:
+Al menys 41, però a priori no podem dir que siguen 42 o més.
+
+Perquè podem assegurar al menys 41 persones de la mateixa edat però no 42.
+
+Raonament: Hi ha 50 edats possibles. Si hi hagués 41 persones per edat, serien un total de 50 x 41 = 2050 > 2016. Per tant, no podem assegurar que hi hagi 41 persones amb la mateixa edat.
+
+Considerem el pitjor cas: 40 persones per a cada edat. Això significa que hi ha 40 x 50 = 2000 persones. Queden 2016 - 2000 = 16 persones. Si distribuïm aquestes 16 persones a les edats existents, llavors hi haurà 16 edats que tenen 41 persones i 34 edats que tenen 40 persones. Per tant, podem assegurar que hi ha 41 persones amb la mateixa edat.
+
+Però si col·loquem una persona addicional a cada edat, obtindrem que hi ha, com a mínim, una edat amb 42 habitants.
+
+2016 = 41*49 + 7
+7 edats tenen 42 i la resta 41
+
+Resposta: C)
+Raonament:
+Hi ha 50 edats possibles (0 a 49). Si dividim el nombre total de habitants (2016) entre el número total de edats possibles (50), 2016 / 50 = 40.32. Això significa que hi ha, com a mínim, 41 habitants que tenen la mateixa edat. Si hi hagués 40 habitants per a cadascuna de les 50 edats, només hi hauria 2000 habitants. Però tenim 2016 habitants, així que hi ha almenys una edat que té 41 habitants.
+Si poguéssim assegurar que com a mínim 42 persones tenen la mateixa edat, necessitaríem com a mínim 42*50 = 2100 persones. Però com que 2100 > 2016, no ho podem assegurar. Així que la resposta correcta és que podem assegurar com a mínim 41 persones de la mateixa edat, però a priori no en podem dir que siguen 42.
+
+Resposta: C)

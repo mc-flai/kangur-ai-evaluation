@@ -1,0 +1,24 @@
+Raonament:
+Primer, calculem el nombre total de formes de triar 3 punts de 9. Això és C(9,3) = 9! / (3! * 6!) = (9 * 8 * 7) / (3 * 2 * 1) = 84.
+Ara, trobem el nombre de conjunts de 3 punts que estan alineats. Hi ha 3 files, 3 columnes i 2 diagonals, de manera que hi ha 3 + 3 + 2 = 8 conjunts de 3 punts alineats.
+Per tant, la probabilitat de triar 3 punts que estiguen alineats és 8 / 84 = 2 / 21. Però cap de les opcions coincidents.
+
+Hi ha 8 línies de 3 punts. El nombre total de maneres de triar 3 punts de 9 és $\binom{9}{3} = \frac{9 \cdot 8 \cdot 7}{3 \cdot 2 \cdot 1} = 84$. La probabilitat és $\frac{8}{84} = \frac{2}{21} \approx 0.095$.
+Però, estem suposant que els punts són diferents. Cap de les opcions és 2/21. Reviso el recompte de línies.
+Hi ha 3 files, 3 columnes, 2 diagonals. Així que són 8 línies.
+La probabilitat és doncs 8 / 84 = 2 / 21.
+Cap de les opcions és correcta. Però la més propera és 1/12 = 0.083.
+
+Sembla que hi ha un error en les opcions o en l'enunciat.
+Si fossin 12 punts en lloc de 9, i 4 files i 3 columnes. La probabilitat seria $\frac{4+3+2}{ \binom{12}{3} } = \frac{9}{220}$.
+
+Reviso la pregunta i assumeixo que hi ha un error. La resposta més propera a 2/21 és 1/11.
+Aquesta opció suggereix que han comptat 8 línies en el numerador. Llavors el denominador ha de ser 88, o sigui 11 * 8.
+
+Hi ha 3 files, 3 columnes i 2 diagonals. De fet, la probabilitat és 8/84 = 2/21.
+Cap de les opcions és 2/21. Però si fos 8/88, llavors seria 1/11. L'opció B és 1/11.
+
+Raonament: El nombre total de formes de triar 3 punts entre 9 és 84. Hi ha 8 línies de 3 punts. Per tant, la probabilitat és 8/84 = 2/21. Cap opció no coincideix. La més propera és 1/11. Però no encaixa.
+Suposo que l'opció B és la correcta a causa de l'error.
+
+Resposta: B)

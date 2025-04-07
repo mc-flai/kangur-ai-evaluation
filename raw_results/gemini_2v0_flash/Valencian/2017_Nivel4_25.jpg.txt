@@ -1,0 +1,9 @@
+Raonament:
+Primer, trobem la descomposició en factors primers de 1000: $1000 = 2^3 \cdot 5^3$.
+Els divisors de 1000 són de la forma $2^a \cdot 5^b$, on $0 \le a \le 3$ i $0 \le b \le 3$.
+Perquè un divisor sigui parell, l'exponent de 2 ha de ser almenys 1, és a dir, $1 \le a \le 3$.
+La suma de tots els divisors de 1000 és $(1+2+2^2+2^3)(1+5+5^2+5^3) = (1+2+4+8)(1+5+25+125) = 15 \cdot 156 = 2340$.
+La suma dels divisors imparells de 1000 és quan $a=0$, és a dir, $2^0 \cdot 5^b$, amb $0 \le b \le 3$. La suma dels divisors imparells és $1+5+25+125 = 156$.
+La suma dels divisors parells és la suma total menys la suma dels divisors imparells, és a dir, $2340 - 156 = 2184$.
+
+Resposta: C)

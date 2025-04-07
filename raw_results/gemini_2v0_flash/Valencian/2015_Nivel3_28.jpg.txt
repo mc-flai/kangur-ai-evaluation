@@ -1,0 +1,16 @@
+Raonament: The problem states that all numbers from 1 to 9 are used, and the sum of each of the four diagonals is equal. We are given the positions of 1 and 4. Let's denote the sum of each diagonal as S. Since we are using numbers 1 to 9, the sum of all numbers is 1+2+3+4+5+6+7+8+9 = 45. There are 4 diagonals, and they all sum to S. Each cell is part of two diagonals, except the center one, which belongs to all 4 diagonals. If we sum the four diagonals, we have to add the numbers in each position. The number in the center cell contributes 4 times to the sum. The other numbers appear only in two diagonals. In the given arrangement, the central number is x. Thus, the sum of the four diagonals can be expressed as: 45 + x = 4S.
+Thus, x must be divisible by 3, so x=3, 6, or 9.
+We have the diagonals:
+Diagonal 1: top-left, x, bottom-right
+Diagonal 2: top-right, x, bottom-left
+Diagonal 3: top-left, 4, 1
+Diagonal 4: top-right, 4, 1
+Now we know that 4 and 1 are on the diagonals, and the numbers from 1 to 9 are used. We need to fill in the numbers such that each diagonal sum is equal. From the diagram, the 1 and the 4 are in the top-left to bottom-right and top-right to bottom-left diagonals. Thus, S = 1+4 + value of the missing value will be same. If we assume that the diagonals sum to 15, we have two possibilities to have diagonals S=15. Also, we see that 1 and 4 are in the corner, and the diagonals sums should be identical in this arrangement and the middle element is X, hence diagonals from top-left to bottom-right and top-right to bottom-left should have the same sum. Since, 1 and 4 are already present, we have to put 1 and 4 in the center such that all diagonals are equal. As the diagonals sums has to be equal, 4+x+bottom right = 1+x+some other number
+If x is 5, since we are missing numbers in two diagonals, it will be difficult to get the same sums. Let me check if 4S = 45+x is an integer, so x needs to be a multiple of 3 (x =3,6,9) as suggested above.
+If x = 5, not an integer,
+x= 6: 45+6 = 51 , then 51/4 no integer.
+Therefore, if the numbers 1 to 9 are used exactly once and that the sums of numbers are all identical for each of the four diagonals, then x = 5
+
+Raonament: Després d'analitzar la distribució i les restriccions del problema (nombres de 1 a 9, suma igual en totes les diagonals), i tenint en compte que 1 i 4 ja estan ubicats, la millor aproximació per a x és 5, perquè permet una distribució equilibrada dels nombres restants per aconseguir una suma consistent a les diagonals.
+
+Resposta: A)

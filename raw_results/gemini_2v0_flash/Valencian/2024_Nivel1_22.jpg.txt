@@ -1,0 +1,39 @@
+Raonament:
+Sigui A el pes de l'albercoc, M el pes de la mandarina, N el pes de la nespra i P el pes de la pera.
+Les dades ens diuen:
+1. A + M = N + P
+2. A + N < M + P
+3. N + M < A + P
+
+De la primera equació, A + M = N + P, podem aïllar P: P = A + M - N
+Substituïm P a la segona inequació: A + N < M + (A + M - N)  => A + N < A + 2M - N  => 2N < 2M  => N < M
+Substituïm P a la tercera inequació: N + M < A + (A + M - N)  => N + M < 2A + M - N  => 2N < 2A  => N < A
+
+Sabem que N < M i N < A. Això vol dir que la nespra és la més lleugera de moment.
+
+Ara, de la primera equació A + M = N + P, aïllem N: N = A + M - P
+Substituïm N a la segona inequació: A + (A + M - P) < M + P  => 2A + M - P < M + P  => 2A < 2P  => A < P
+Substituïm N a la tercera inequació: (A + M - P) + M < A + P  => A + 2M - P < A + P  => 2M < 2P  => M < P
+
+Sabem que A < P i M < P. Per tant la pera és més pesant que l'albercoc i la mandarina.
+
+Sabem que N < A i A + M = N + P. Tenim N < A, per tant A és més gran que N. També M < P, per tant P és més gran que M. La nespra és més lleugera que l'albercoc i la mandarina és més lleugera que la pera.
+Si sumem les inequacions, N + M < A + P
+Comparant aquesta inequació amb A + M = N + P, no ens aporta res de nou.
+
+Fem una combinació d'inequacions per veure si podem derivar alguna altra cosa:
+A + N < M + P i N + M < A + P. Sumant les dues inequacions: A + N + N + M < M + P + A + P => 2N + A + M < A + M + 2P => 2N < 2P => N < P. Ja sabíem això.
+
+Mirem una altra combinació:
+A + M = N + P.
+A + N < M + P => A - M < P - N
+N + M < A + P => N - A < P - M
+A + M = N + P => A = N + P - M
+Substituint A a A + N < M + P => N + P - M + N < M + P => 2N < 2M => N < M
+Substituint A a N + M < A + P => N + M < N + P - M + P => 2M < 2P => M < P
+
+Per tant, sabem que N < A, N < M i que M < P, A < P.
+
+No podem deduir si A > M o viceversa amb la informació que tenim, però P > N, A, M
+
+Resposta: C)

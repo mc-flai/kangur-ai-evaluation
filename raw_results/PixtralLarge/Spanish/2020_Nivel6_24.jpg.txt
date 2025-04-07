@@ -1,0 +1,22 @@
+La pregunta nos indica que un número \( N \) es divisible por todos los enteros del 2 al 11, excepto por dos de ellos. Debemos identificar las posibles parejas de números que pudieran ser la excepción.
+
+**Razonamiento**:
+
+1. Primero, debemos entender que la división por todos los números del 2 al 11 significa que \( N \) debe ser divisible por el mínimo común múltiplo (MCM) de estos números.
+
+2. Los números de 2 a 11 son: 2, 3, 4, 5, 6, 7, 8, 9, 10 y 11.
+
+3. Si \( N \) no es divisible por dos de estos números, significa que estos dos números no deben ser parte de los factores primos de \( N \).
+
+4. Observando las opciones:
+   - A) 2 y 3: Si \( N \) no es divisible por 2 y 3, entonces \( N \) no es divisible por 6 (ya que 6 = 2*3).
+   - B) 4 y 5: Si \( N \) no es divisible por 4 y 5, entonces \( N \) no es divisible por 20 (ya que 20 = 4*5).
+   - C) 6 y 7: Si \( N \) no es divisible por 6 y 7, entonces \( N \) no es divisible por 42 (ya que 42 = 6*7).
+   - D) 7 y 8: Si \( N \) no es divisible por 7 y 8, entonces \( N \) no es divisible por 56 (ya que 56 = 7*8).
+   - E) 10 y 11: Si \( N \) no es divisible por 10 y 11, entonces \( N \) no es divisible por 110 (ya que 110 = 10*11).
+
+5. Todas las opciones mencionadas parecen adecuadas en el sentido de que podrían ser las parejas de números exceptuados.
+
+6. Observamos que todas las parejas son válidas, ya que ninguna pareja está formada por un número que es múltiplo de otro número de la lista.
+
+**Respuesta**: E).

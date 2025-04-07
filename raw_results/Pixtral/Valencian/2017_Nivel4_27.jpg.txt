@@ -1,0 +1,17 @@
+**Razonamiento:**
+1. Identifiquemos el número de participantes que resolvieron al menos el tercer problema. Sabemos que 70 participantes resolvieron el tercer problema.
+2. Identifiquemos el número de participantes que resolvieron al menos el cuarto problema. Sabemos que 60 participantes resolvieron el cuarto problema.
+3. Para encontrar el número de participantes que resolvieron tanto el tercer como el cuarto problema, utilizamos el principio de inclusión-exclusión.
+
+   - Sumamos el número de participantes que resolvieron el tercer problema y el número de participantes que resolvieron el cuarto problema:
+     \[
+     70 + 60 = 130
+     \]
+   - Restamos el número de participantes que resolvieron ambos problemas (ya que se han contado dos veces):
+     \[
+     130 - 60 = 70
+     \]
+
+   Por lo tanto, el número de participantes que resolvieron tanto el tercer como el cuarto problema es 70.
+
+**Respuesta:** D) 30

@@ -1,0 +1,21 @@
+La pregunta 26 pregunta sobre quantos triangles diferents es poden formar si les longituds dels seus costats són nombres naturals i el perímetre és igual a 20. Són exemples de triangles amb costats de longituds respectives 3, 4, 5 i triangles amb costats de longituds respectives 3, 5, 4.
+
+**Razonamiento:**
+1. Identifiquemos los posibles conjuntos de longitudes de los lados que suman 20.
+2. Consideremos los ejemplos dados:
+   - El primer ejemplo es un triángulo con lados de longitudes 3, 4, 5.
+   - El segundo ejemplo es un triángulo con lados de longitudes 3, 5, 4.
+3. Estos ejemplos muestran que los mismos conjuntos de longitudes pueden formar diferentes triángulos si los lados están en un orden diferente.
+4. Por lo tanto, necesitamos contar cuántos órdenes diferentes de los lados podemos formar con las longitudes que suman 20.
+5. Calculamos el número de permutaciones de los números 3, 4, 5, que es 3! (3 factorial), que es igual a 6.
+6. Sin embargo, dado que los triángulos requieren que la suma de las longitudas de dos lados sea mayor que la longitud del tercer lado (condición del triángulo), algunas de estas permutaciones no formarán triángulos válidos.
+7. Verificamos las permutaciones posibles:
+   - (3, 4, 5) es válido.
+   - (3, 5, 4) es válido.
+   - (4, 3, 5) es válido.
+   - (4, 5, 3) es válido.
+   - (5, 3, 4) es válido.
+   - (5, 4, 3) es válido.
+8. Todas estas permutaciones son válidas, por lo que el número total de triángulos diferentes es 6.
+
+**Respuesta:** D) 10

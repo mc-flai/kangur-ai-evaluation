@@ -1,0 +1,14 @@
+Razonamiento:
+Primero, considera la primera fila. Podemos colocar las letras A, B, C, y D en 4! = 24 maneras diferentes.
+
+Ahora, considera la primera columna. Hay 2 opciones para la primera columna.
+_ _ _ _
+_ _ _ _
+
+Considera la primera 2x2 matriz. Podemos colocar las letras en la primera fila en 4! = 24 maneras diferentes. Luego, hay 2 maneras de completar la primera 2x2 matriz.
+Por ejemplo, si la primera fila es ABCD, la segunda fila tiene que ser BACD.
+Si la primera fila es ABCD, la segunda fila tiene que ser BADC, CADB.
+Considerando las filas y las columnas, podemos ver que hay 96 maneras de llenar la matriz.
+El número de maneras de colocar las letras en la tabla es 96.
+
+Respuesta: D)

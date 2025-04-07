@@ -1,0 +1,26 @@
+Per resoldre aquest problema, analitzem els moviments d'Ariadna i Baldiri.
+
+1. Ariadna i Baldiri comencen al punt A i al punt B, respectivament, i es mouen cap al punt contrari.
+2. La velocitat d'Ariadna és el triple de la velocitat de Baldiri.
+3. Viatgen per la mateixa carretera i amb velocitats constants, per tant, tots dos es mouen al llarg del mateix camí.
+4. Per la primera vegada, es troben 15 minuts després de començar. Això significa que el punt de trobada és a una distància que tots dos cobreixen en 15 minuts.
+5. Per la segona vegada, ambdós han d'anar des del punt on han tornat fins a l'altre punt. Com que Ariadna té una velocitat tres vegades més gran que la de Baldiri, ella torna al punt A en menys temps que Baldiri al punt B.
+
+Ara, calculem el temps que trigaran a trobar-se per segona vegada:
+- Ariadna torna al punt A en \( \frac{1}{3} \) del temps que Baldiri torna al punt B.
+- Per tant, quan Ariadna torna al punt A, Baldiri no ha tornat al punt B encara.
+- En el segon viatge, Ariadna trigarà el mateix temps a trobar-se amb Baldiri com en el primer viatge, ja que les velocitats i distàncies són constants.
+- Ariadna triga 15 minuts a la primera trobada.
+- Per tant, Ariadna trigarà altre cop 15 minuts a la segona trobada.
+
+Com que Ariadna torna al punt A en 15 minuts, Baldiri encara trigarà 3 vegades més, és a dir, 45 minuts.
+
+Sumant els temps d'ambdós:
+- Ariadna: 15 minuts (primer viatge) + 15 minuts (segon viatge) = 30 minuts.
+- Baldiri: 15 minuts (primer viatge) + 30 minuts (segon viatge) = 45 minuts.
+
+Per tant, la segona trobada ocorrerà 45 minuts després de començar.
+
+Raonament: Ariadna i Baldiri es troben cada 45 minuts.
+
+Resposta: E) 45 min.

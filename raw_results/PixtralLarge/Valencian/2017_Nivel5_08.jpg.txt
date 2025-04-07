@@ -1,0 +1,19 @@
+Per resoldre aquesta pregunta, hem de determinar la probabilitat que totes les preguntes de l'examen siguin dels temes que l'estudiant ha estudiat.
+
+1. En primer lloc, l'estudiant ha estudiat 5 temes dels 10 possibles.
+2. L'examen té 3 preguntes, i cada pregunta és d'un tema diferent.
+3. Hem de calcular la probabilitat que totes tres preguntes siguin dels 5 temes estudiats.
+
+Per fer-ho, considerem el següent:
+
+1. La probabilitat que la primera pregunta sigui d'un dels temes estudiats és 5/10 = 1/2.
+2. Un cop seleccionat el primer tema, queden 4 temes estudiats dels 9 restants. La probabilitat que la segona pregunta sigui d'un dels temes estudiats és 4/9.
+3. Un cop seleccionats els dos primers temes, queden 3 temes estudiats dels 8 restants. La probabilitat que la tercera pregunta sigui d'un dels temes estudiats és 3/8.
+
+Per tant, la probabilitat total que totes tres preguntes siguin dels temes estudiats és el producte de les probabilitats individuals:
+
+Probabilitat total = (5/10) * (4/9) * (3/8) = (1/2) * (4/9) * (3/8) = 1/2 * 1/3 * 1/2 = 1/12.
+
+Raonament: La probabilitat que totes les preguntes siguin dels temes estudiats és el producte de les probabilitats individuals de cada pregunta, que és (1/2) * (1/3) * (1/2) = 1/12.
+
+Resposta: A) 1/12.

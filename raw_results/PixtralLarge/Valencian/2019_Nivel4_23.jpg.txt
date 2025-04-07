@@ -1,0 +1,29 @@
+**Raonament**: Per resoldre aquesta pregunta, hem de determinar el valor de \( a + b \) per al nombre \(\overline{a a a b b b}\). El nombre \(\overline{a a a b b b}\) es pot expressar com:
+
+\[ a \times 10^5 + a \times 10^4 + a \times 10^3 + b \times 10^2 + b \times 10^1 + b \times 10^0 \]
+
+Això es simplifica a:
+
+\[ a \times 111000 + b \times 111 \]
+
+Per trobar la suma de les xifres de \(\overline{a a a b b b}\), sumem cada xifra individualment:
+
+\[ a + a + a + b + b + b = 3a + 3b \]
+
+Això es simplifica a:
+
+\[ 3(a + b) \]
+
+Perquè aquesta suma sigui igual al nombre de dues xifres \( a + b \), hi ha una contradicció perquè \( 3(a + b) \) sempre serà un múltiple de 3 i no pot ser igual a \( a + b \) a menys que \( a + b = 0 \), que no és possible perquè \( a \) i \( b \) són dígits d'un nombre.
+
+Però si interpretem la pregunta com a trobar el valor de \( a + b \) que satisfà l'equació \( 3(a + b) = a + b \), llavors:
+
+\[ 3(a + b) = a + b \]
+
+Dividint ambdós costats per \( a + b \) (assumint que \( a + b \neq 0 \)):
+
+\[ 3 = 1 \]
+
+Això és una contradicció, per tant, no hi ha cap valor de \( a + b \) que satisfaci l'equació donada.
+
+**Resposta**: Cap de les opcions donades és correcta.

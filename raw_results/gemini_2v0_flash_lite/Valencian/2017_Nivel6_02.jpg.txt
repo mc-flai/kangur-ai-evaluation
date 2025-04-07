@@ -1,0 +1,16 @@
+Raonament:
+Per resoldre aquest problema, hem de trobar les combinacions de nombres naturals que poden formar els costats d'un triangle amb un perímetre de 12. També hem d'assegurar-nos que es compleixi la desigualtat triangular (la suma de les longituds de dos costats qualssevol ha de ser major que la longitud del tercer costat).
+
+Si el costat més llarg és 6: (6, 3, 3)
+Si el costat més llarg és 5: (5, 5, 2) i (5, 4, 3)
+Si el costat més llarg és 4: (4, 4, 4)
+
+Això dóna un total de 4 triangles possibles.  No obstant això, cap de les opcions correspon a 4. L'enunciat podria ser incorrecte.
+Si considerem els triplets de nombres naturals que sumen 12 i que formen un triangle:
+*   (2, 5, 5)
+*   (3, 4, 5)
+*   (4, 4, 4)
+
+Aquests són els 3 possibles triangles.
+
+Resposta: C) 3

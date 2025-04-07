@@ -1,0 +1,23 @@
+Per resoldre aquesta pregunta, hem de determinar el màxim nombre de boletes que podem obtenir d'un grup de 50 boletes, de les quals 10 són blanques i 4 són verdes, sense obtenir tres boletes seguides del mateix color.
+
+Per resoldre-ho, hem de considerar les següents restriccions:
+1. Tenim 50 boletes en total.
+2. De les 50, 10 són blanques i 4 són verdes.
+3. La resta són grogues: 50 - (10 + 4) = 36 boletes grogues.
+4. Hem de garantir que no hi hagi tres boletes seguides del mateix color.
+
+Per maximitzar el nombre de boletes sense obtenir tres boletes seguides del mateix color, hem de distribuir les boletes de manera que les grogues no estiguin tres juntes.
+
+En primer lloc, observem que podem col·locar les 36 boletes grogues en grups de 2, ja que no podem tenir 3 boletes grogues juntes. Això ens dona 36/2 = 18 parelles de boletes grogues.
+
+A continuació, podem distribuir les 10 boletes blanques i les 4 boletes verdes entre les parelles de boletes grogues. Podem col·locar una boleta blanca o verda entre cada parella de boletes grogues per evitar que hi hagi tres boletes seguides del mateix color.
+
+Per tant, podem col·locar 14 parelles de boletes grogues (28 boletes grogues) i entre elles podem col·locar les 10 boletes blanques i les 4 boletes verdes, de manera que no hi hagi tres boletes seguides del mateix color. Això ens dona un total de 28 (groga) + 10 (blanca) + 4 (verda) = 42 boletes.
+
+Però encara podem afegir una parella més de boletes grogues, fent un total de 15 parelles de boletes grogues (30 boletes grogues) i entre elles podem col·locar les 10 boletes blanques i les 4 boletes verdes, de manera que no hi hagi tres boletes seguides del mateix color. Això ens dona un total de 30 (groga) + 10 (blanca) + 4 (verda) = 44 boletes.
+
+Finalment, si intentem afegir més boletes grogues, no podrem distribuir les boletes blanques i verdes sense obtenir tres boletes seguides del mateix color.
+
+Raonament: Podem distribuir les 36 boletes grogues en 18 parelles i col·locar les 10 boletes blanques i les 4 boletes verdes entre elles per evitar tres boletes seguides del mateix color, obtenint un total de 44 boletes.
+
+Resposta: C) 44

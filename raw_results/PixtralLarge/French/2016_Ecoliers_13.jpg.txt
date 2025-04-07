@@ -1,0 +1,24 @@
+Pour résoudre cette question, nous devons établir le nombre minimum de fois que la souris doit passer par la même portion de passage pour atteindre le fromage. 
+
+1. **Comprendre le Problème** :
+   - Il y a plusieurs chemins possibles dans le labyrinthe et des intersections où la souris peut passer.
+   - La souris doit trouver le chemin le plus court, mais peut passer deux fois maximum par la même portion de passage.
+
+2. **Visualiser le Labyrinthe** :
+   - Le labyrinthe présenté a des chemins interconnectés, des intersections et des boucles.
+   - Nous devons identifier le chemin le plus court qui permet d'atteindre le fromage sans passer plus de deux fois par la même portion de passage.
+
+3. **Analyser les Chemins** :
+   - En observant le point de départ et le point d'arrivée (le fromage), nous pouvons tracer les chemins possibles.
+   - Nous devons vérifier si les chemins les plus courts impliquent de passer plus de deux fois par une portion de passage.
+
+4. **Calculer le Nombre de Passages** :
+   - En traçant les chemins possibles, on s'aperçoit que certains passages doivent être utilisés plusieurs fois pour atteindre le fromage.
+   - Par exemple, certains chemins nécessitent de revenir en arrière, ce qui augmente le nombre de passages par une même portion.
+
+5. **Déduire la Réponse** :
+   - Après avoir analysé les chemins et compté les passages, nous pouvons déterminer le nombre minimum de passages nécessaires.
+
+**Raisonnement** : En analysant le labyrinthe et traçant les chemins possibles pour atteindre le fromage, nous trouvons qu'il est nécessaire de passer au moins 5 fois par la même portion de passage pour atteindre le fromage en suivant le chemin le plus court.
+
+**Réponse** : C).

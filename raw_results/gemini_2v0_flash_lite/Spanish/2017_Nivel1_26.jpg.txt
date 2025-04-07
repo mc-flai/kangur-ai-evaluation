@@ -1,0 +1,6 @@
+Razonamiento: Para resolver este problema, debemos considerar los peores escenarios.
+*   **Si elegimos 5 fichas cualesquiera, al menos una es roja:** Esto implica que el mayor número de fichas verdes es 4, porque si tuviéramos 5 verdes, esta condición no se cumpliría.
+*   **Si elegimos 6 fichas cualesquiera, al menos una es verde:** Esto implica que el mayor número de fichas rojas es 5, porque si tuviéramos 6 rojas, esta condición no se cumpliría.
+*   Por lo tanto, el número máximo de fichas en la caja debe ser la suma de la cantidad máxima de fichas verdes y rojas: 4 (verdes) + 5 (rojas) = 9.
+
+Respuesta: C)

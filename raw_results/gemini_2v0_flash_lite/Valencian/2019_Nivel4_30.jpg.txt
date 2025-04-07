@@ -1,0 +1,164 @@
+Raonament:
+1. **Calculate the total number of trios:** Numbers from 1 to 99 have 99 digits.  Each trio consists of 3 digits. Thus, there are 99 / 3 = 33 trios.
+2. **Identify trios containing the digit 4:**
+   *   Numbers 1-9: 4 appears once in the trio (4__).
+   *   Numbers 10-19: 4 appears once in the trio (14_).
+   *   Numbers 20-29: 4 appears once in the trio (24_).
+   *   Numbers 30-39: 4 appears once in the trio (34_).
+   *   Numbers 40-49: 4 appears in the trio (40_, 41_, 42_, 43_, 44_, 45_, 46_, 47_, 48_, 49_).  Note 10 trios here, but many of them are '4xx'.
+   *   Numbers 50-59: 4 appears once in the trio (54_).
+   *   Numbers 60-69: 4 appears once in the trio (64_).
+   *   Numbers 70-79: 4 appears once in the trio (74_).
+   *   Numbers 80-89: 4 appears once in the trio (84_).
+   *   Numbers 90-99: 4 appears once in the trio (94_).
+    Consider the numbers to be concatenated to form trios: 123456789101112...979899
+    Trios containing '4':
+    *   456
+    *   145, 146, 147, 148, 149
+    *   245, 246, 247, 248, 249
+    *   345, 346, 347, 348, 349
+    *   401, 402, 403, 404, 405, 406, 407, 408, 409
+    *   410, 411, 412, 413, 414, 415, 416, 417, 418, 419
+    *   420, 421, 422, 423, 424, 425, 426, 427, 428, 429
+    *   430, 431, 432, 433, 434, 435, 436, 437, 438, 439
+    *   440, 441, 442, 443, 444, 445, 446, 447, 448, 449
+    *   450, 451, 452, 453, 454, 455, 456, 457, 458, 459
+    *   460, 461, 462, 463, 464, 465, 466, 467, 468, 469
+    *   470, 471, 472, 473, 474, 475, 476, 477, 478, 479
+    *   480, 481, 482, 483, 484, 485, 486, 487, 488, 489
+    *   490, 491, 492, 493, 494, 495, 496, 497, 498, 499
+    *   545, 546, 547, 548, 549
+    *   645, 646, 647, 648, 649
+    *   745, 746, 747, 748, 749
+    *   845, 846, 847, 848, 849
+    *   945, 946, 947, 948, 949
+    The groups of trios that contain a 4 are:
+    * 456
+    * 145, 146, 147, 148, 149
+    * 245, 246, 247, 248, 249
+    * 345, 346, 347, 348, 349
+    * 401, 402, ..., 409, 410, ..., 419, 420, ..., 429, 430, ..., 439, 440, ..., 449,
+    * 545, 546, 547, 548, 549
+    * 645, 646, 647, 648, 649
+    * 745, 746, 747, 748, 749
+    * 845, 846, 847, 848, 849
+    * 945, 946, 947, 948, 949
+    Counting the occurrences, we will remove 10 triples with 4X(for X from 0 to 9) and 9 triples with X4Y (for X from 1 to 9 and Y from 0 to 9) and X and Y never equal to 4, and 1 triple with 4. In total there are 10+9+1=33 triples with 4.
+    But after removing 40-49 and 140-149, etc, will not form trios. Thus, the groups containing a 4 must be removed: 456, 145 146 147 148 149, 245 246 247 248 249, 345 346 347 348 349, 401 402 403 405 406 407 408 409, 410 411 412 413 415 416 417 418 419, 420 421 422 423 425 426 427 428 429, 430 431 432 433 435 436 437 438 439, 445 446 447 448 449, 450 451 452 453 455 456 457 458 459, 460 461 462 463 465 466 467 468 469, 470 471 472 473 475 476 477 478 479, 480 481 482 483 485 486 487 488 489, 490 491 492 493 495 496 497 498 499, 545 546 547 548 549, 645 646 647 648 649, 745 746 747 748 749, 845 846 847 848 849, 945 946 947 948 949.
+    Then total triples containing '4': 456, 145, 146, ..., 949, in total is 15 triples containing 4.
+3. **Calculate the remaining trios:**  Total trios - trios with 4 = 33 - 15 = 18. There's an issue with the number of total trios.
+    There are 99 digits from 1-99. So, we have:
+    1-9: 9 digits
+    10-99: 90 digits
+    Total: 9 + 90 = 99 digits.
+
+    From 1-99 we can make the following trios:
+    123 456 789 101 112 123 ... 979 899
+    Thus from 1-9 to 99 digits.  So we have total trios: 99/3 = 33 trios.
+
+    Now, let's find out how many trios contain the digit 4.
+    *   4XX: The number 4, appears in trio 456
+    *   14X, 24X, 34X, 54X, 64X, 74X, 84X, 94X = 9.
+    *   X4X.
+        *   401, 402, 403, 405, 406, 407, 408, 409
+        *   410, 411, 412, 413, 415, 416, 417, 418, 419
+        *   420, 421, 422, 423, 425, 426, 427, 428, 429
+        *   430, 431, 432, 433, 435, 436, 437, 438, 439
+        *   440, ..., 449.
+        Trios containing 4:
+        *   456
+        *   145, 146, 147, 148, 149
+        *   245, 246, 247, 248, 249
+        *   345, 346, 347, 348, 349
+        *   401, 402, 403, 405, 406, 407, 408, 409
+        *   410, 411, 412, 413, 415, 416, 417, 418, 419
+        *   420, 421, 422, 423, 425, 426, 427, 428, 429
+        *   430, 431, 432, 433, 435, 436, 437, 438, 439
+        *   454, 455, 457, 458, 459
+        *   460, 461, 462, 463, 465, 466, 467, 468, 469
+        *   470, 471, 472, 473, 475, 476, 477, 478, 479
+        *   480, 481, 482, 483, 485, 486, 487, 488, 489
+        *   490, 491, 492, 493, 495, 496, 497, 498, 499
+        *   545, 546, 547, 548, 549
+        *   645, 646, 647, 648, 649
+        *   745, 746, 747, 748, 749
+        *   845, 846, 847, 848, 849
+        *   945, 946, 947, 948, 949
+    1+9 = 10 + (1+9) + (1+9) + (1+9) = 1+9+9+9+1 = 39.
+    15 is too less.
+    How many numbers from 1 to 99 contain at least a '4'?
+
+    There are 19. Thus 19 * 3 = 57. But if we concat, then it would be 1+10=10
+
+    Total Trios - Trios with 4 = 33- ( 10) = 23
+    4 is the first digit. So 456.
+    4 is in the second digit, 14_ to 94_. So 9.
+    4 is in the third digit.
+    101, 112, 123, 134, 145, 156, 167, 178, 189
+    401, 402, 403, ...
+    4xx: 456
+    x4x: 145, 146, 147, 148, 149...
+    xx4: not possible.
+
+    456,
+    145, 146, 147, 148, 149 (5)
+    245, 246, 247, 248, 249 (5)
+    345, 346, 347, 348, 349 (5)
+    545, 546, 547, 548, 549 (5)
+    645, 646, 647, 648, 649 (5)
+    745, 746, 747, 748, 749 (5)
+    845, 846, 847, 848, 849 (5)
+    945, 946, 947, 948, 949 (5)
+    401, 402, 403... (1+9=10)
+    410, 411, 412, 413, 414, 415, 416, 417, 418, 419
+    Total 5+5+5+5+5+5+5+10 = 43
+
+    Total trios = 33
+    Trios with 4:
+    456
+    14_ (5)
+    24_ (5)
+    34_ (5)
+    54_ (5)
+    64_ (5)
+    74_ (5)
+    84_ (5)
+    94_ (5)
+    401, 402...499
+    401, 402, 403, 405, 406, 407, 408, 409
+    410, 411, 412, 413, 414, 415, 416, 417, 418, 419
+    ....
+
+    Total trios = 33.
+
+    Trios containing a 4:
+    4xx = 1 trio: 456
+    x4x = 10 triples (with first digit), 040 to 949 = 9*5. So 10
+    xx4 = 0
+    Total number of triples: 456
+    145, 146, 147, 148, 149, ...
+    So total Trios containing '4' are 15:
+    456 (1)
+    145, 146...149 (5)
+    24_ (5)
+    ...
+    94_ (5)
+    Then total = 1 + 9*5 = 46.
+
+    1+5+5+5+5+5+5+5+5 = 1+45=46
+
+    Total number of trios with 4: 15
+    Total remaining triples = 33-15 = 18
+    10 triples.
+    33
+    10
+
+    Total trios: 33
+    4xx: 1 trio. 456
+    x4x = 9
+    xx4
+    140, 141, 142, 143, 144, ...
+
+    Total = 43.
+
+Resposta: A)

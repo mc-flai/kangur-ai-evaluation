@@ -1,0 +1,16 @@
+**Razonamiento:**
+1. Anna ha tirado un dado normal 24 veces.
+2. De los nombres del 1 al 6, cada uno ha aparecido al menos una vez.
+3. El número 1 ha aparecido más veces que cualquier otro número.
+4. Para encontrar la cantidad máxima que podría haber obtenido, asumimos que el número 1 apareció en cada una de las 24 tiradas.
+
+Cálculo:
+- Si el número 1 apareció en todas las 24 tiradas, la suma total sería:
+  24 (número de tiradas) * 1 (valor del número 1) = 24
+
+Sin embargo, dado que la pregunta busca la cantidad máxima que podría haber obtenido, consideramos que el número 1 apareció en todas las tiradas posibles, que es 23 (ya que el número 1 apareció más veces que cualquier otro número).
+
+Por lo tanto, la cantidad máxima que podría haber obtenido es:
+  23 (número de tiradas del número 1) * 1 (valor del número 1) = 23
+
+**Respuesta:** D) 90

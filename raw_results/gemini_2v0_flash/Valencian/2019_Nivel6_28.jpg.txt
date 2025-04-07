@@ -1,0 +1,14 @@
+Raonament: Primer hem d'entendre la successió. Tenim a_1 = 49, a_2 = (4+9+1)^2 = 14^2 = 196.
+Ara calculem a_3: a_3 = (1+9+6+1)^2 = 17^2 = 289.
+Ara calculem a_4: a_4 = (2+8+9+1)^2 = 20^2 = 400.
+Ara calculem a_5: a_5 = (4+0+0+1)^2 = 5^2 = 25.
+Ara calculem a_6: a_6 = (2+5+1)^2 = 8^2 = 64.
+Ara calculem a_7: a_7 = (6+4+1)^2 = 11^2 = 121.
+Ara calculem a_8: a_8 = (1+2+1)^2 = 4^2 = 16.
+Ara calculem a_9: a_9 = (1+6+1)^2 = 8^2 = 64.
+A partir d'aquí, veiem que la successió es torna periòdica. Com que a_6 = 64 i a_9 = 64, es repetirà cada 3 termes.
+Així doncs, tenim a_6 = a_9 = a_12 = ... = 64.
+Estem buscant a_2019. Com que la successió es repeteix cada 3 termes a partir d'a_6, hem de mirar el residu de (2019-6) quan el dividim per 3.
+2019 - 6 = 2013. 2013 / 3 = 671, amb residu 0. Per tant, a_2019 és el mateix que a_6, que és 64.
+
+Resposta: C)

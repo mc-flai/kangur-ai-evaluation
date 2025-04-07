@@ -1,0 +1,15 @@
+
+Reasoning: Thomas has a pig and a shark, each cut into three pieces: head, middle section, and tail. To determine how many different animals he can make by combining one head, one middle section, and one tail from the two animals, we need to consider the possible combinations of these pieces.
+
+1. Pig head, pig middle, pig tail: This forms a complete pig.
+2. Pig head, pig middle, shark tail: This forms a new animal.
+3. Pig head, shark middle, pig tail: This forms a new animal.
+4. Pig head, shark middle, shark tail: This forms a new animal.
+5. Shark head, pig middle, pig tail: This forms a new animal.
+6. Shark head, pig middle, shark tail: This forms a new animal.
+7. Shark head, shark middle, pig tail: This forms a new animal.
+8. Shark head, shark middle, shark tail: This forms a complete shark.
+
+Thus, there are 8 different animals that can be formed.
+
+Answer: E)

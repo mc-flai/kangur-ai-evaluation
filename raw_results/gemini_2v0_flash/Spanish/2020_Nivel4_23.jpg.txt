@@ -1,0 +1,14 @@
+Razonamiento:
+La condición dada es que `b = (a+c)/2`, lo que significa que `b` es el promedio de `a` y `c`. Esto implica que `a + c = 2b`. Ya que `a`, `b` y `c` son elementos del conjunto `S = {1, 2, 3, ..., 15}`, deben ser enteros. Para que `a + c` sea par, `a` y `c` deben ser ambos pares o ambos impares.
+
+Caso 1: `a` y `c` son pares.
+Los números pares en `S` son {2, 4, 6, 8, 10, 12, 14}. Hay 7 números pares.
+Para cada par de números pares `a` y `c` con `a != c`, podemos encontrar un `b` tal que `b = (a+c)/2`. El número de formas de elegir dos números pares distintos es `7C2 = 7 * 6 / 2 = 21`.
+
+Caso 2: `a` y `c` son impares.
+Los números impares en `S` son {1, 3, 5, 7, 9, 11, 13, 15}. Hay 8 números impares.
+Para cada par de números impares `a` y `c` con `a != c`, podemos encontrar un `b` tal que `b = (a+c)/2`. El número de formas de elegir dos números impares distintos es `8C2 = 8 * 7 / 2 = 28`.
+
+El número total de subconjuntos `K` es la suma de los dos casos: `21 + 28 = 49`.
+
+Respuesta: C)

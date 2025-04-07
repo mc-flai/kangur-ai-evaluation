@@ -1,0 +1,20 @@
+**Razonamiento**:
+1. El problema implica convertir cada letra en un número, sumando el doble del número correspondiente al número 9.
+2. Las letras se mapean a los números de la siguiente manera:
+   - A = 01
+   - B = 02
+   - C = 03
+   - ...
+   - Z = 26
+3. El número 9 se convierte en 18 (ya que el doble de 9 es 18).
+4. El mensaje original se convierte en una sucesión numérica donde cada letra se reemplaza por su valor numérico correspondiente.
+5. El mensaje que Alicia envía a Pere es una sucesión numérica.
+6. Pere recibe el mensaje 25-39-45-38 y debe descifrarlo.
+7. Para encontrar el mensaje original, debemos revertir el proceso de codificación:
+   - 25 se convierte en Y (ya que 25 es el valor de Y).
+   - 39 se convierte en O (ya que 39 es el doble de 19, y 19 es el valor de S).
+   - 45 se convierte en I (ya que 45 es el doble de 22, y 22 es el valor de V).
+   - 38 se convierte en R (ya que 38 es el doble de 19, y 19 es el valor de S).
+8. Por lo tanto, el mensaje original que Alicia envió a Pere es "HORA".
+
+**Respuesta**: A) HORA

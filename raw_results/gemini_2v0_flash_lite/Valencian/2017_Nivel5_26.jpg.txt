@@ -1,0 +1,14 @@
+Raonament:
+1. **Entendre la pregunta:** La pregunta pregunta per quin nombre el producte de les edats de les tortugues *no* serà divisible en un any.
+2. **Calcular el producte actual:** El producte actual de les edats és 2^2 * 3^3 * 11 = 4 * 27 * 11 = 1188.
+3. **Considerar les edats en un any:** Sigui *x* i *y* les edats actuals de les tortugues.  Aleshores, x*y = 1188. En un any, les seves edats seran *x+1* i *y+1*. El producte de les seves edats en un any serà (x+1)*(y+1) = xy + x + y + 1 = 1188 + x + y + 1 = 1189 + x + y.
+4. **Analitzar les opcions:**
+    * **A) 18:**  18 = 2 * 3^2.  Si el producte de les edats en un any fos divisible per 18, hauria de ser divisible per 2 i per 9.  El producte actual és divisible per 2 però necessitem saber els valors de x i y per determinar si x+y+1 és divisible per 9. No podem saber amb certesa.
+    * **B) 5:** El producte actual no és divisible per 5. Si el producte de les edats en un any no fos divisible per 5, hauria de ser que (x+1)*(y+1) no contingués un factor 5.  Com que cap dels factors primers originals (2, 3, 11) son 5, si x o y fossin divisibles per 5, el producte de les edats seria divisible per 5, i per tant, per 5. Si cap de les edats x, y no són divisibles per 5, entonces cap de les edats x+1 o y+1 no serà divisible per 5.  Per tant, el producte no serà divisible per 5.
+    * **C) 6:** 6 = 2 * 3. El producte actual es divisible per 6. L'edat en un any serà 1189+x+y. Potser sigui divisible per 6, potser no.
+    * **D) 22:** 22 = 2 * 11.  El producte actual es divisible per 22.
+    * **E) 37:** El producte actual no és divisible per 37.  En un any, el producte serà 1189 + x + y.  Perquè sigui divisible per 37, cal que 1189 + x + y sigui divisible per 37.  Podem determinar si 1189 és divisible per 37: 1189 / 37 ≈ 32.1.  Per tant, és possible que la resposta sigui 37.
+
+5. **Buscar la resposta que sempre funciona:** En un any, el producte (x+1)(y+1) = 1189+x+y. La pregunta és per quin nombre *no* serà divisible. 5 no apareix com un factor prim de 1188.  Per tant, la resposta és 5.
+
+Resposta: B)

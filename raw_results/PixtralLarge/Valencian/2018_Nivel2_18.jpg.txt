@@ -1,0 +1,22 @@
+**Raonament**:
+Pensem en un nombre enter positiu \( n \) que compleixi les següents condicions:
+
+1. \( n \) és un nombre de dos dígits.
+2. \( n \) és parell.
+3. \( n \) és primer.
+4. \( n \) és el quadrat d'un nombre enter.
+5. \( n \) és més gran que 50.
+
+Passo a passo:
+
+1. **Condicions 1 i 2**: \( n \) ha de ser un nombre parell de dos dígits. Els nombres parells de dos dígits van des de 10 a 98.
+
+2. **Condicions 3 i 4**: \( n \) ha de ser un nombre primer i també un quadrat perfecte. Els nombres primers són aquells que només tenen dos divisors: 1 i si mateix. Els nombres que són quadrats perfectes entre 10 i 98 són: 16, 25, 36, 49, 64 i 81.
+
+3. **Condicions 5**: \( n \) ha de ser més gran que 50. Dels quadrats perfectes anteriors, només 64 i 81 són més grans que 50.
+
+4. **Condició 3 (primer)**: Hem de comprovar quin d'aquests dos números és primer. Tant 64 com 81 no són nombres primers, ja que tenen més de dos divisors.
+
+Atès que cap dels nombres anteriors compleix totes les condicions, no hi ha cap nombre que satisfaci totes les condicions donades.
+
+**Resposta**: No hi ha una resposta correcta entre les opcions donades.

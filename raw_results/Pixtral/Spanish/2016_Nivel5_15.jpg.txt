@@ -1,0 +1,24 @@
+Para resolver el problema de la pregunta 15, debemos identificar el número que se puede colocar en la casilla marcada con un signo de interrogación en la cuadrícula mágica multiplicativa. La cuadrícula mágica multiplicativa implica que los productos de los números situados en cada fila, columna y diagonal deben ser iguales.
+
+1. **Identificar los productos de las filas, columnas y diagonales**:
+   - La cuadrícula tiene los números 1, 2, 4, 5, 10, 20, 25, 50 y 100.
+   - Los productos de las filas, columnas y diagonales deben ser iguales.
+
+2. **Calcular el producto de las filas, columnas y diagonales**:
+   - Producto de la primera fila: 20 * 1 = 20
+   - Producto de la segunda fila: 1 * 25 = 25
+   - Producto de la tercera fila: 4 * 10 = 40
+   - Producto de la primera columna: 20 * 1 = 20
+   - Producto de la segunda columna: 1 * 25 = 25
+   - Producto de la tercera columna: 4 * 10 = 40
+   - Producto de la diagonal principal: 20 * 1 * 4 = 80
+   - Producto de la diagonal secundaria: 1 * 25 * 4 = 100
+
+3. **Determinar el número correcto**:
+   - El número que se puede colocar en la casilla marcada con un signo de interrogación debe hacer que los productos de las filas, columnas y diagonales sean iguales.
+   - El producto de la diagonal principal es 80, y el producto de la diagonal secundaria es 100.
+   - Para hacer que los productos sean iguales, el número en la casilla marcada debe ser 25, ya que 20 * 1 * 25 = 500, que es igual al producto de la diagonal secundaria.
+
+Razonamiento: El número que se puede colocar en la casilla marcada con un signo de interrogación debe hacer que los productos de las filas, columnas y diagonales sean iguales. El producto de la diagonal principal es 80, y el producto de la diagonal secundaria es 100. Para hacer que los productos sean iguales, el número en la casilla marcada debe ser 25.
+
+Respuesta: E)

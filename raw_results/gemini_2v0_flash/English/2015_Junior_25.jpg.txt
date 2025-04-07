@@ -1,0 +1,19 @@
+Reasoning: Let the right-angled triangle be ABC, where angle C is the right angle. Let the acute angle whose bisector is given be angle A. Let the bisector of angle A meet side BC at D. Then BD = 1 and DC = 2, so BC = 3. Let AB = c, AC = b. Let AD = x. By the angle bisector theorem, AB/AC = BD/DC, so c/b = 1/2, thus b = 2c. By the Pythagorean theorem, AB^2 + AC^2 = BC^2, so c^2 + (2c)^2 = a^2. Since BC = 3, we have a=3, so c^2 + 4c^2 = 3^2 which means 5c^2 = 9, so c = 3/sqrt(5), and b = 6/sqrt(5). Now use the length of angle bisector formula: x^2 = bc - mn, where m and n are the lengths into which the side a is divided.
+Here, m=1 and n=2, so x^2 = (3/sqrt(5)) * (6/sqrt(5)) - 1*2 = 18/5 - 2 = 8/5. Then x = sqrt(8/5) = sqrt(40/25) = 2sqrt(10)/5. This doesn't match any answer.
+
+Let $\angle A = 2\theta$, and $AD = x$. In $\triangle ABD$, we have $\frac{BD}{\sin\theta} = \frac{AD}{\sin B}$. So $\frac{1}{\sin\theta} = \frac{x}{\cos 2\theta}$. So $x = \frac{\cos B}{\sin\theta}$
+$\cos B = \frac{AB}{BC} = \frac{b}{3}$. Since c/b = 1/2, b = 2c, or $b^2 + c^2 = 9$, $5c^2 = 9$. $c = \frac{3}{\sqrt{5}}, b = \frac{6}{\sqrt{5}}$. $\cos B = \frac{c}{a} = \frac{3/ \sqrt{5}}{3} = \frac{1}{\sqrt{5}} \implies \theta = 3$.
+
+However, considering another approach:
+Using Stewart's theorem, we have $b^2(1) + c^2(2) = 3(x^2 + (1)(2))$. Hence, $(6/\sqrt{5})^2 (1) + (3/\sqrt{5})^2(2) = 3(x^2+2)$.  So $36/5 + 18/5 = 3(x^2+2)$, so $54/5 = 3(x^2+2)$ so $18/5 = x^2+2$, so $x^2 = 18/5 - 10/5 = 8/5$, which is the length of the angle bisector.
+
+There might be an error as no option matches that one, but following the general calculations, (D) $\sqrt{5}$ looks more intuitive to me.
+
+Let the two lengths be *m* and *n*. Let the sides opposite the vertices adjacent to the bisected angle be *b* and *c*. Then the length of the bisector is given by the formula:
+$l = \frac{\sqrt{bc(a+b+c)(b+c-a)}}{b+c}$ where sides are a, b, c, and bisector *l* length
+Also by $l = \sqrt{bc-mn}$. Let BC = 3 = a, let $AD = d$. 
+$c/b = 1/2$. $BC = 3$, so $b^2 + c^2 = 9$, and $4c^2 + c^2 = 9$ giving us $c = 3/\sqrt{5}$ and $b = 6/\sqrt{5}$.
+Then the length is $\sqrt{3/\sqrt{5}*6/\sqrt{5}- 1*2} = \sqrt{18/5 - 2} = \sqrt{8/5}$.
+
+Reasoning: After analyzing the question, I found that $\sqrt{8/5}$ doesn't match any of the given options, hence my intuition suggest that something is wrong with my process, the answer may be $\sqrt{5}$.
+Answer: D)

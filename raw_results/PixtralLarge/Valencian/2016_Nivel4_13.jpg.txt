@@ -1,0 +1,32 @@
+Per determinar quins dels nombres donats no es poden escriure com el producte d'un nombre primer per dos nombres compostos, hem de revisar cada opció i descompondre-la en factors.
+
+**Raonament**:
+
+A) \(2^5\):
+- \(2^5 = 2 \times 2 \times 2 \times 2 \times 2\).
+- Tots els factors són 2, que és un nombre primer.
+- No compleix la condició.
+
+B) \(2 \cdot 3 \cdot 4 \cdot 5\):
+- \(2 \cdot 3 \cdot 4 \cdot 5 = 2 \cdot 3 \cdot (2 \cdot 2) \cdot 5 = 2 \cdot 2 \cdot 2 \cdot 3 \cdot 5\).
+- Els nombres 2, 3 i 5 són primers, però el 4 és compost (2 \times 2).
+- Compleix la condició.
+
+C) \(2 \cdot 3^2 \cdot 5\):
+- \(2 \cdot 3^2 \cdot 5 = 2 \cdot (3 \cdot 3) \cdot 5 = 2 \cdot 3 \cdot 3 \cdot 5\).
+- Els nombres 2, 3 i 5 són primers.
+- No compleix la condició.
+
+D) \(6 \cdot 12\):
+- \(6 \cdot 12 = (2 \cdot 3) \cdot (2 \cdot 2 \cdot 3) = 2 \cdot 2 \cdot 2 \cdot 3 \cdot 3\).
+- Els nombres 2 i 3 són primers.
+- No compleix la condició.
+
+E) \(1000\):
+- \(1000 = 2^3 \cdot 5^3 = (2 \cdot 2 \cdot 2) \cdot (5 \cdot 5 \cdot 5)\).
+- Els nombres 2 i 5 són primers.
+- No compleix la condició.
+
+D'aquestes opcions, només \(2 \cdot 3 \cdot 4 \cdot 5\) compleix la condició de poder-se escriure com el producte d'un nombre primer per dos nombres compostos.
+
+**Resposta**: B)

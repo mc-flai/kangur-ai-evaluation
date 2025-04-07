@@ -1,0 +1,85 @@
+Pour déterminer la valeur de \( a \) dans la fonction \( f : \mathbb{R} \rightarrow \mathbb{R}, x \mapsto f(x) = ax + b \), nous devons utiliser les informations fournies : \( f(f(1)) = 21 \) et \( f(f(0)) = 5 \).
+
+1. **Calcul de \( f(0) \)**:
+   \[
+   f(0) = a \cdot 0 + b = b
+   \]
+
+2. **Utilisation de \( f(f(0)) = 5 \)**:
+   \[
+   f(f(0)) = f(b) = ab + b = 5
+   \]
+   \[
+   b(a + 1) = 5 \quad \text{(1)}
+   \]
+
+3. **Calcul de \( f(1) \)**:
+   \[
+   f(1) = a \cdot 1 + b = a + b
+   \]
+
+4. **Utilisation de \( f(f(1)) = 21 \)**:
+   \[
+   f(f(1)) = f(a + b) = a(a + b) + b = a^2 + ab + b = 21
+   \]
+   \[
+   a^2 + ab + b = 21 \quad \text{(2)}
+   \]
+
+5. **Substitution de \( b \) de l'équation (1) dans l'équation (2)**:
+   De l'équation (1), nous avons :
+   \[
+   b = \frac{5}{a + 1}
+   \]
+   Substituons dans l'équation (2) :
+   \[
+   a^2 + a \left( \frac{5}{a + 1} \right) + \frac{5}{a + 1} = 21
+   \]
+   \[
+   a^2 + \frac{5a}{a + 1} + \frac{5}{a + 1} = 21
+   \]
+   \[
+   a^2 + \frac{5a + 5}{a + 1} = 21
+   \]
+   \[
+   a^2 + 5 = 21
+   \]
+   \[
+   a^2 = 16
+   \]
+   \[
+   a = \pm 4
+   \]
+
+6. **Vérification des solutions**:
+   - Si \( a = 4 \):
+     \[
+     b = \frac{5}{4 + 1} = 1
+     \]
+     Vérifions \( f(f(1)) \):
+     \[
+     f(1) = 4 \cdot 1 + 1 = 5
+     \]
+     \[
+     f(5) = 4 \cdot 5 + 1 = 21
+     \]
+     Cela fonctionne.
+
+   - Si \( a = -4 \):
+     \[
+     b = \frac{5}{-4 + 1} = -\frac{5}{3}
+     \]
+     Vérifions \( f(f(1)) \):
+     \[
+     f(1) = -4 \cdot 1 + \left( -\frac{5}{3} \right) = -\frac{17}{3}
+     \]
+     \[
+     f\left( -\frac{17}{3} \right) = -4 \left( -\frac{17}{3} \right) - \frac{5}{3} = \frac{68}{3} - \frac{5}{3} = \frac{63}{3} = 21
+     \]
+     Cela fonctionne également.
+
+Cependant, comme \( a \) doit être positif pour que \( f \) soit croissante, nous choisissons \( a = 4 \).
+
+Raisonnement : Nous avons résolu les équations pour trouver \( a \) et vérifié les solutions possibles. La valeur de \( a \) qui satisfait les conditions est \( a = 4 \).
+
+Réponse : D)

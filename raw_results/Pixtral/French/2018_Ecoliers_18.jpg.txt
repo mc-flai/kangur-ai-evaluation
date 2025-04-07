@@ -1,0 +1,41 @@
+
+Raisonnement :
+1. Le capitaine Crochet navigue entre quatre îles : Pâques, Déserte, Fleurie et Volcanique.
+2. La distance totale du voyage est de 100 km.
+3. Il y a 18 km entre Déserte et Fleurie.
+4. Il y a un double trajet entre Pâques et Déserte.
+5. Il y a un aller-retour entre Fleurie et Volcanique.
+
+Pour trouver la distance entre Volcanique et Pâques, nous devons utiliser les informations fournies :
+
+- La distance totale du voyage est de 100 km.
+- La distance entre Déserte et Fleurie est de 18 km.
+- Il y a un double trajet entre Pâques et Déserte.
+- Il y a un aller-retour entre Fleurie et Volcanique.
+
+Nous devons soustraire les distances connues de la distance totale pour trouver la distance entre Volcanique et Pâques.
+
+- Distance totale = 100 km
+- Distance entre Déserte et Fleurie = 18 km
+- Distance entre Pâques et Déserte (allée et retour) = 2 * x
+- Distance entre Fleurie et Volcanique (allée et retour) = 2 * y
+
+Nous savons que :
+2x + 18 + 2y = 100
+
+Pour simplifier, nous devons estimer les valeurs de x et y. En supposant que x et y soient égaux pour la symétrie, nous pouvons essayer différentes combinaisons.
+
+Si nous supposons que x = y, alors :
+2x + 18 + 2x = 100
+4x + 18 = 100
+4x = 82
+x = 20.5
+
+Donc, la distance entre Pâques et Déserte est de 41 km (20.5 km aller et retour), et la distance entre Fleurie et Volcanique est également de 41 km (20.5 km aller et retour).
+
+En soustrayant ces distances de la distance totale :
+100 km - 41 km - 41 km = 18 km
+
+La distance entre Volcanique et Pâques est donc de 18 km.
+
+Réponse : D)

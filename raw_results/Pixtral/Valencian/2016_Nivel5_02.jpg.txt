@@ -1,0 +1,9 @@
+**Razonamiento:**
+1. Cada equipo enfrenta a otros cuatro equipos en un torneo de fútbol.
+2. Cada encuentro entre dos equipos se juega en un campo, y cada campo puede albergar tres puntos: tres puntos si gana el equipo local, un punto si hay un empate y cero puntos si pierde el equipo local.
+3. Los equipos obtienen los siguientes puntos: 10, 7, 5, 4 y 1 punto.
+4. Para encontrar el número total de partidos que se juegan en el torneo, consideramos que cada equipo juega contra cuatro equipos diferentes.
+5. El número total de partidos se puede calcular usando la fórmula del número de combinaciones: \( \frac{n \times (n-1)}{2} \), donde \( n \) es el número de equipos.
+6. Para 5 equipos, el número total de partidos es \( \frac{5 \times (5-1)}{2} = \frac{5 \times 4}{2} = 10 \).
+
+**Respuesta:** D

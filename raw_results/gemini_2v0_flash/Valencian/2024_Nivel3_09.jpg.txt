@@ -1,0 +1,28 @@
+Raonament:
+Sigui a, b, c, i d els quatre nombres enters positius diferents que Joan ha d'escriure a la quadrícula. Segons l'enunciat, tenim la quadrícula següent:
+
+| a | b | = 6
+| c | d | = 8
+=4 =12
+
+Per tant:
+a * b = 6
+c * d = 8
+a * c = 4
+b * d = 12
+
+Podem deduir les següents combinacions a partir dels productes:
+De a * b = 6: (1, 6), (2, 3), (3, 2), (6, 1)
+De c * d = 8: (1, 8), (2, 4), (4, 2), (8, 1)
+De a * c = 4: (1, 4), (2, 2), (4, 1)
+De b * d = 12: (1, 12), (2, 6), (3, 4), (4, 3), (6, 2), (12, 1)
+
+Ara hem de trobar una combinació de a, b, c, i d que compleixi totes les condicions:
+Si a=1, b=6. Si a=1, c=4. Aleshores, d = 3 (ja que b*d=12, 6*3=12).
+Així c*d = 4*2 = 8, això no funciona.
+
+Si a=2, b=3. Si a=2, c=2. No pot ser ja que tots els nombres han de ser diferents.
+
+Si a=1 i c=4, llavors com que a*b=6, llavors b=6, i com que c*d=8, llavors d=2. b*d= 6*2=12, que és correcte. Per tant, a=1, b=6, c=4, d=2. La suma d'aquests números és 1+6+4+2 = 13.
+
+Resposta: D)

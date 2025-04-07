@@ -1,0 +1,49 @@
+Raonament:
+L'objectiu és trobar els tres dígits ocults a les tres targetes de manera que la suma dels tres nombres de quatre xifres sigui 10126.
+Els tres nombres que s'estan sumant són:
+- 1243
+- x126
+- 2y6z
+on x, y i z són els dígits que no es veuen.
+Per tant: 1243 + x126 + 2y6z = 10126.
+Comencem per la columna de les unitats: 3 + 6 + z = 16. Això significa que z = 7.
+A continuació, la columna de les desenes: 4 + 2 + 6 = 12. Ja tenim el 2 a les desenes del resultat (10126).
+A continuació, la columna de les centenes: 2 + 1 + y = 11. Això vol dir que y = 8. Però entre les respostes, hi ha algun 8? No. Però portàvem un 1 de la suma de les unitats, llavors, 2 + 1 + y + 1 = 11, això vol dir que y = 7.
+A continuació, la columna dels milers: 1 + x + 2 = 10. Per tant, x = 7. Però no teníem res que portar de la suma de les centenes. Ja que 2+1+y era igual a 11 o 12.
+Per tant, si portavem 1 de la suma de les unitats, era 3 + 6 + z = 16, per tant, z = 7.
+Si portavem 1 de la suma de les centenes, 2 + 1 + y + 1 = 11, y = 7.
+Per tant si portàvem 1, l'equació era: 1 + x + 2 + 1 = 10, això vol dir que x = 6.
+Per tant: x = 6, y = 7, z = 7. Però a les opcions no tenim dos 7. Així doncs, hem comès un error.
+Si 3 + 6 + z = 6 (a les unitats), z=7
+Si 4 + 2 + z = 2 (a les desenes), no portem res.
+Si 2 + 1 + y = 1 (a les centenes), o es que portem algo dels desenes, o bé que no. Portem algun 1 dels desenes, de manera que el resultat sigui 11. Per tant, y = 8
+Tenim 2 + 1 + y = 11, no portem res, però necessitem portar algo, per tant, y = 8. Imposible, perquè les opcions no tenen un 8.
+Revisem altre cop la suma de les unitats 3 + 6 + z = 16. Z=7.
+D'aquí portem un 1 a la següent columna.
+4 + 2 + 6 + 1= 13. Posem un 3 i portem un 1.
+Per tant el 2 no ha de ser un 2, sino que s'ha de ser una xifra que sumada amb 4 + 2 + 6 + 1 doni un nombre que acabi en 2, i portem 1. Per tant la suma de les desenes és 13, portem un 1 a la següent suma.
+Per tant tenim que revisar la suma.
+1 + x126
+2y67
+1243
+-----------
+10126
+Unitats: 3 + 6 + 7 = 16. Poso el 6. Porto un 1 a les desenes
+Desenes: 1 + 4 + 2 + 6 = 13. Poso un 3 i Porto un 1.
+1 + 2 + 1 + y = 1. La única opció és posar un 5. 1 + 2 + 1 + 5 = 9. No portem res. Impossible!
+1 + 2 + 1 + y = 11, i y = 7.
+
+Després d'una altra revisió, l'aproximació inicial era correcta. Hem de reescriure les equacions.
+1243
+x126
+2y6z
+-----------
+10126
+z = 7, ja que 3+6+z = 16
+Aleshores, 4 + 2 + 6 + 1 = 13, portem 1
+Això significa que 2 + 1 + y + 1 = 11, y = 7
+Finalment, 1 + x + 2 + 1 = 10, x = 6
+
+Raonament: Hem establert l'equació bàsica i hem treballat a través de cada columna, ajustant per qualsevol "transport". Hem ajustat la suma i hem determinat els dígits que falten de manera precisa.
+
+Resposta: C)

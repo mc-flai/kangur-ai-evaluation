@@ -1,0 +1,20 @@
+Razonamiento:
+Let's denote the diameter of the red circle as r, the diameter of the blue circle as b, and the diameter of the green circle as g. According to the problem:
+r = b/3
+g = b/2
+
+The total length of the semicircles is 90 cm. Looking at the diagram, we have: 2 semicircles with diameter b, 2 semicircles with diameter g, and 3 semicircles with diameter r.
+The length of a semicircle is π * (diameter/2). Since all the values are multiplied by Pi/2, and we're only looking for ratios to determine the answer, then the problem simplifies to finding diameter sums
+π*(b/2) + π*(b/2) + π*(g/2) + π*(g/2) + π*(r/2) + π*(r/2) + π*(r/2) = 90  which can be simplified to :
+
+b + b/2 + b/2 + b/6 + b/6 + b/6 = 90.
+b + g + 3r = 90 / (π/2) which simplifies to 2b + 2g + 3r = 180/π
+b + g + 3r = 90
+b + b/2 + 3*(b/3) = 90
+b + b/2 + b = 90
+5b/2 = 90
+b = 36
+
+So, the diameter of the blue circle is 36 cm.
+
+Answer: E)

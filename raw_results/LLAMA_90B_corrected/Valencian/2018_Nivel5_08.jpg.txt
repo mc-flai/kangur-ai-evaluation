@@ -1,0 +1,19 @@
+# Raonament
+
+Per resoldre aquest problema necessitem utilitzar les operacions d'suma i divisió, concretament el més gran divisor comú.
+
+Podem resoldre'l seguint aquests passos:
+
+1. Cercar elnombre màxim de ram és que puguem formar servint totes les roses.
+
+2. Sumar els números de roses blanques i grogues: roses total \(_{blanques}+\) roses \({ }_{grogues}= 42+66 = 108\)
+
+3. Cercar els màxims divisors comuns entre el número de roses blanques i rosa grogues. En el cas dels divisors de 60 la seqüència és: \(1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60\). 
+
+4. Comprovar-ho amb el de les roses blanques (\(\textbf{42}\)): 2, 3, 6, 7, 14, 21 i 42. 
+
+5. Es veu que el-founded-ra PL,maxim vàlidsos .\(\textit{gmcm}_{grocbe} = 6\).
+
+6. Distribuir el grups de roses. Prenem el menor seguint divisir - divident, que seria 12 i el màxim és 15 el que em quedaria és l’únic valid. Cada ram tindrà \( \textbf{De 15 a 21 roses}\). . la resposta correcte és **C).**
+
+Resposta: C)

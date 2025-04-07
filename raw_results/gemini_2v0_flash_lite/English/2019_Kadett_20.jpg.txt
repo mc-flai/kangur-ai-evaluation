@@ -1,0 +1,32 @@
+Reasoning:
+The diagram provides information about the number of sides of each square that have matches on them. To find the minimum number of matches, we sum up the numbers present in each square.
+Sum = 2 + 2 + 1 + 0 + 3 + 0 + 3 = 11.
+However, the question states that the path is continuous, meaning each match that shares a side with the neighboring square must be counted. In this case we need to see how many of the matches must be used to connect these squares.
+The numbers give the number of matches on the sides of each small square. We need to see the minimum to connect it, meaning how many times do we need to place a side to connect to the next.
+Let's trace the path the match makes.
+The first match has the number 2 meaning 2 sides will have matches.
+The second match has the number 2 meaning 2 sides will have matches.
+The third match has the number 1 meaning 1 side has matches.
+The fourth match has the number 0 meaning 0 sides has matches.
+The fifth match has the number 3 meaning 3 sides have matches.
+The sixth match has the number 0 meaning 0 sides has matches.
+The seventh match has the number 3 meaning 3 sides have matches.
+We add the number of sides that match the numbers.
+So, it's 2 + 2 + 1 + 0 + 3 + 0 + 3 = 11.
+But, if we look closely the numbers indicate how many sides of *each square* the match lies on. The numbers are 2, 2, 1, 0, 3, 0, and 3.  Summing those yields a total of 11 matches along the edges. We also have the outer edges which are implicitly matches for the first and last matches.
+The diagram shows that the matches must form a closed path. So, the minimum amount should be the sum from above (11) plus the shared side.
+There are connections:
+*   2 and 2: 1 match is shared, for a total of 3 sides.
+*   2 and 1: 1 match is shared, for a total of 2 sides.
+*   1 and 0: 1 match is shared, for a total of 1 side.
+*   0 and 3: 1 match is shared, for a total of 3 sides.
+*   0 and 3: 1 match is shared, for a total of 3 sides.
+So it's a sum of all the sides given which is 2+2+1+0+3+0+3 = 11
+Then plus the shared sides, each has 1 shared side, then there are 11.
+
+11 matches are used.
+Add up all sides in each cell which gives 2 + 2 + 1 + 3 + 3 = 11. But we have to create a path where the end leads to the start of the match.
+From 2->2 we have 1 edge. 2->1 we have 1 edge, 1->3 is another.
+The total will be 11 + 3 = 14 matches in total.
+
+Answer: B)

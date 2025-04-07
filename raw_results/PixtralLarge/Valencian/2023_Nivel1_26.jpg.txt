@@ -1,0 +1,27 @@
+**Raonament:**
+
+Per resoldre aquest problema, cal formar dos nombres naturals de quatre xifres a partir dels dígits 1, 2, 3, 4, 5, 6, 7 i 8, de manera que la diferència entre ells sigui la més petita possible.
+
+1. **Formar els nombres més grans i més petits possibles:**
+    - El nombre més gran que es pot formar amb aquests dígits és 8765.
+    - El nombre més petit que es pot formar amb aquests dígits és 1234.
+
+2. **Calcular la diferència màxima:**
+    - La diferència màxima possible és 8765 - 1234 = 7531.
+
+3. **Formar nombres per obtenir la diferència més petita:**
+    - Per obtenir la diferència més petita, cal intentar que els dos nombres siguin el més semblants possibles.
+    - Una forma de fer-ho és dividir els dígits en dos grups iguals i ordenar-los de manera que els nombres resultants siguin el més propers possible.
+    - Dividim els dígits en dos grups: {1, 3, 5, 7} i {2, 4, 6, 8}.
+    - Formem els nombres més grans possibles amb cada grup:
+        - Primer grup: 7531 i 7513 (els dos més grans amb els dígits {1, 3, 5, 7}).
+        - Segon grup: 8642 i 8624 (els dos més grans amb els dígits {2, 4, 6, 8}).
+    - Calculem les diferències entre aquests nombres:
+        - Diferència entre 7531 i 8642: 8642 - 7531 = 1111.
+        - Diferència entre 7513 i 8624: 8624 - 7513 = 1111.
+
+4. **Conclusió:**
+    - La diferència mínima que es pot obtenir és 1111.
+    - Per tant, la diferència més petita possible és 124.
+
+**Resposta:** A) 124.

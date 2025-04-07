@@ -1,0 +1,55 @@
+Raonament:
+Siga el costat del quadrat igual a 2. Aleshores, l'àrea del quadrat ABCD és 2*2=4.
+El triangle ombrejat té vèrtexs a R, A i B. La base del triangle és AB, que té longitud 2. L'altura del triangle, des de R fins a AB, és la mateixa que la longitud del costat del quadrat, que és 2 - RC = 2-1 = 1.
+L'àrea del triangle ombrejat és (1/2) * base * altura = (1/2) * 2 * (AD - DP) = (1/2) * 2 * 1 = 1.
+No obstant això, l'altura del triangle és 1.
+L'altura del triangle AB amb vèrtex a R és CR, per la qual cosa la longitud és 1. Per tant, l'àrea del triangle ARB és (1/2) * base * altura = (1/2) * 2 * 1 = 1.
+
+El punt on es creuen les línies AQ i BP és el centre del triangle ombrejat.
+Si el costat del quadrat és 2, aleshores AP = AQ = 1. L'àrea del triangle APB + àrea triangle CBQ + àrea triangle DCR + àrea triangle ADR = (1/2)*1*2 + (1/2)*1*2 + (1/2)*1*2 + (1/2)*1*2 = 1+1+1+1 = 4
+L'àrea del triangle ADR = (1/2)*AD*DR = (1/2)*2*1 = 1. Hi ha un total de 4 triangles similars.
+La resta de l'àrea ombrejada és el quadrat menys els 4 triangles.
+Àrea ombrejada = 4 - 4(1) = 4 - 4 = 0.
+Però evidentment no és 0.
+Per tant, podem calcular l'àrea dels triangles blancs que no estan ombrejats. Àrea triangles blancs APB i ABQ.
+Àrea triangle APB = (1/2)*AB*AP = (1/2)*2*1 = 1.
+Àrea triangle ABQ = (1/2)*AB*BQ = (1/2)*2*1 = 1.
+Area triangle CBR = 1
+Area triangle ADR = 1
+L'àrea del triangle ombrejat és igual a la suma de les àrees de cada triangle: APB + ABQ + BRC + CRA = 1 + 1 + 1 + 1 = 4 - (area del square) = 0
+Àrea del triangle ombrejat és (4 - noombrejada)
+El triangle té base de longitud 2, i altura longitud 1. Area=(1/2)(2)(1) = 1.
+
+Fem servir coordenades. Siga A=(0,0), B=(2,0), C=(2,2) i D=(0,2). Aleshores P=(0,1), Q=(2,1) i R=(1,2).
+La recta AQ és y = x/2. La recta BP és y = -x + 2. La intersecció és x/2 = -x+2 => (3/2)x=2 => x=4/3 i y=2/3.
+Àrea del triangle amb vèrtexs (0,0), (2,0) i (1,2) és 2.
+La recta BP és y - 0 = (1-0)/(0-2)*(x-2) => y = (-1/2)(x-2) => y = -x/2 + 1
+Area(quadrilatero) = 2 - 2 * Area(triangle pequeno)
+Quina és la fracció ombrejada?
+(4-Area(triangulos))/4 = (4-triangulos)/4
+Area = 3/8.
+Aquesta resposta no és correcta.
+La resposta és 3/8.
+
+Raonament:
+Siga el costat del quadrat igual a 2. Per tant, l'àrea del quadrat és 4. Els punts P, Q i R són els punts mitjos dels costats AD, BC i CD respectivament.
+L'àrea ombrejada consisteix en el triangle ARB. La base és AB=2 i l'altura des de R a AB és CR = 1. Per tant, l'àrea del triangle ARB és (1/2)*2*1 = 1. Per simetria, l'àrea del triangle BQA és igual a l'area del triangle ARB, etc.
+Les línies AP i BQ es tallen i les àrees resultants s'han de considerar acuradament.
+
+Considerem que l'àrea del quadrat és 1. L'àrea del triangle RAB és 1/2. L'àrea del triangle RCD és 1/8
+Sembla que la proporció és 5/8. Però aquesta solució no és necessàriament correcta.
+
+Raonament:
+Siga el quadrat ABCD de costat 1, per tant, la seva àrea és 1.
+P, Q, R són els punts mitjans dels costats DA, BC i CD, respectivament. Llavors DP = PA = BQ = QC = CR = RD = 1/2.
+L'àrea de la regió ombrejada = àrea(quadrat) - àrea(triangles blancs).
+Area(ADP) = Area(ABQ) = Area(BCR) = Area(CDR) = (1/2) * 1 * (1/2) = 1/4
+Area(ADR) = (1/2)*1(1/2)=1/4
+Àrea de tres triangles = 3*(1/4) = 3/8. Però no en trec res.
+L'àrea de ADR es pot considerar sense pintar i és equal = a 1/4.
+Consider the area of the square is equal to 1, so area(ABC)=1. the triangles in non shaded regions ADRA and similar.
+The shaded Area is 3/8
+Consider square ABCD side length s. Area = s^2. Area ARB = s* s/2 * 0.5=s^2/4. And 2 such shaded Area.
+
+Final Answer: The final answer is $\boxed{E}$
+Resposta: E)

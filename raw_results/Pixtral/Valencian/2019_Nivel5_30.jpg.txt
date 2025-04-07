@@ -1,0 +1,16 @@
+
+La pregunta 30 pregunta cuántos números en el conjunto {1000, 1001, 1002, 1003, ..., 1998, 1999} tienen la propiedad de que, si se suprime una cifra, el número resultante es un divisor del número original.
+
+Para resolver esto, necesitamos identificar un patrón en los números que cumplan con esta propiedad. Consideremos el proceso paso a paso:
+
+1. **Identificar el patrón**: Si eliminamos una cifra de un número, el número resultante debe ser un divisor del número original. Esto significa que el número original debe ser un múltiplo del número resultante.
+
+2. **Ejemplo de prueba**: Tomemos el número 1000. Si eliminamos la cifra 1, obtenemos 100. Ahora, comprobamos si 100 es un divisor de 1000. De hecho, 1000 ÷ 100 = 10, lo que indica que 100 es un divisor de 1000.
+
+3. **Generalización**: Este patrón se aplica a cualquier número en el rango dado donde la eliminación de una cifra resulte en un número que es un divisor del número original. Esto generalmente ocurre con números que son múltiplos de 100, ya que al eliminar una cifra, el resultado es un número que es un divisor del número original.
+
+4. **Contar los números**: En el rango de 1000 a 1999, los números que son múltiplos de 100 son 1000, 1100, 1200, ..., 1900. Hay 100 números en este rango que son múltiplos de 100.
+
+Por lo tanto, el número de números en el conjunto que cumplen con la propiedad es 100.
+
+**Respuesta: C)**

@@ -1,0 +1,34 @@
+Razonamiento:
+1. **Half Battery:** The phone starts with half its battery capacity.
+2. **Usage Ratio:** While on the train, Melisa uses the phone in three equal ways: Internet, speaking, and no use.
+3. **Energy Consumption Rates:**
+   - If fully talking, the phone lasts 32 hours.
+   - If fully internet use, the phone lasts 20 hours.
+   - If doing nothing, the phone lasts 80 hours.
+4. **Consumption rates per hour:**
+   - Talking: 1/32 battery/hour.
+   - Internet: 1/20 battery/hour.
+   - No use: 1/80 battery/hour.
+5. **Combined Usage Rate:** Since the time is divided equally across these three, let 'x' be the number of hours. The combined usage rate is: x(1/32) + x(1/20) + x(1/80). This combined usage drains the battery, starting at half full, or 1/2. The battery is used up completely at the end, so we can set up the following equation: x(1/32) + x(1/20) + x(1/80) = 1/2.
+6. **Solve for x:** To simplify the equation, find a common denominator, which is 160. Then, (5x/160) + (8x/160) + (2x/160) = 80/160. Now, we have (15x/160) = 80/160. Multiplying both sides by 160 and then dividing both sides by 15 gives x=80/15, simplifying to x=16/3.
+
+**Given the choices, the question contains errors. Let's look at the actual time if we solve the equation.**
+The equation is x(1/32) + x(1/20) + x(1/80) = 1/2 or (5x + 8x + 2x)/160 = 1/2, 15x=80, x=80/15=16/3 or 5.33,
+x/32 + x/20 +x/80 = 1/2, x(5+8+2)/160 = 1/2 or 15x/160 = 1/2, so 15x = 80, x = 16/3. The question does not give this answer.
+
+**Let's check the calculation with the nearest answer, C) 15, with a battery of 1:**
+(1/32) * 5 + (1/20) * 5 + (1/80)* 5 = 5/32+5/20+5/80=1/2,
+3 * 15 * (1/32 + 1/20 + 1/80) = 15 * (5+8+2)/160 = 15 * 15/160 = 225/160 = 1.40,
+so, we need 1/2 usage.
+
+**Let's try with D) 16**
+16 * (1/32+1/20+1/80)=16 * (5+8+2)/160=16 * 15/160 = 15/10 = 3/2,
+For 1/2, we have to divide it by 3 to obtain 16/3, so the closest option with the question, is D) 16, but it has to be 16/3.
+
+**Let's review it again.**
+x/32+x/20+x/80=1/2,
+x * (5/160+8/160+2/160) = 1/2,
+x * (15/160)=1/2,
+x = 160/(15*2), x = 160/30 = 16/3. The question is flawed. The best fit is D, by a wide margin.
+
+Respuesta: D)

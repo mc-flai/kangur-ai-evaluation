@@ -1,0 +1,31 @@
+Primer, analitzem les condicions donades:
+
+1. \( a \) és un múltiple de 1.
+2. \( a + 1 \) és un múltiple de 2.
+3. \( a + 2 \) és un múltiple de 3.
+4. \( a + 3 \) és un múltiple de 4.
+5. \( a + 4 \) és un múltiple de 5.
+6. \( a + 5 \) no és un múltiple de 6.
+
+Per trobar \( a \), hem de complir totes aquestes condicions. Proceïm de manera sistemàtica:
+
+1. Si \( a \) és un múltiple de 1, això és trivial, ja que qualsevol nombre és múltiple de 1.
+
+2. \( a + 1 \) és un múltiple de 2 implica que \( a \) ha de ser un nombre imparell (ja que un nombre imparell més 1 és parell).
+
+3. \( a + 2 \) és un múltiple de 3 implica que \( a \) ha de ser 1 més un múltiple de 3. Això es pot escriure com \( a \equiv 1 \pmod{3} \).
+
+4. \( a + 3 \) és un múltiple de 4 implica que \( a \) ha de ser 1 més un múltiple de 4. Això es pot escriure com \( a \equiv 1 \pmod{4} \).
+
+5. \( a + 4 \) és un múltiple de 5 implica que \( a \) ha de ser 1 més un múltiple de 5. Això es pot escriure com \( a \equiv 1 \pmod{5} \).
+
+6. \( a + 5 \) no és un múltiple de 6. Per tant, \( a \) no ha de ser 1 més un múltiple de 6. Això es pot escriure com \( a \not\equiv 1 \pmod{6} \).
+
+Com que \( a \equiv 1 \pmod{3} \), \( a \equiv 1 \pmod{4} \) i \( a \equiv 1 \pmod{5} \), el mínim nombre \( a \) que compleix aquestes condicions és el mínim comú múltiple de 3, 4 i 5, que és 60. 
+
+Però \( a + 5 \) no ha de ser un múltiple de 6. Si \( a = 60 \), aleshores \( a + 5 = 65 \), que no és múltiple de 6. Això satisfà totes les condicions.
+
+Per tant, el menor nombre \( a \) que satisfà totes aquestes condicions és 60, que té exactament tres xifres.
+
+Raonament: El nombre més petit que satisfà totes les condicions donades és 60, que té tres xifres.
+Resposta: C)

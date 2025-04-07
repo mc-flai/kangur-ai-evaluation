@@ -1,0 +1,18 @@
+Razonamiento:
+Let's denote the number of toys that Blanca, Carmen, and Ana brought as B, C, and A respectively. We have the following relationships:
+*   A = B + 5
+*   A = C + 9
+*   B >= 1
+*   C >= 1
+
+We want to minimize A + B + C.
+Since A = B + 5 and A = C + 9, we can write B = A - 5 and C = A - 9.
+The total number of toys is A + B + C = A + (A - 5) + (A - 9) = 3A - 14.
+To minimize the total, we need to find the smallest possible value for A.
+Since B >= 1, then A - 5 >= 1, which means A >= 6.
+Since C >= 1, then A - 9 >= 1, which means A >= 10.
+Thus, the smallest possible value for A is 10. If A = 10, then B = 10 - 5 = 5 and C = 10 - 9 = 1.
+In this case, A + B + C = 10 + 5 + 1 = 16.
+Therefore, the minimum number of toys they brought is 16.
+
+Respuesta: E)

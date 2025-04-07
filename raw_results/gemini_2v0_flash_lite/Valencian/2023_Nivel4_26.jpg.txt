@@ -1,0 +1,13 @@
+Raonament:
+1. **Considera la graella:** Pensa en una graella de 3x3. L'element central és crucial.
+2. **Producte de files i columnes:** Cada fila i columna ha de tenir un producte d'1. Això significa que els números de la graella han de ser recíprocs entre si.
+3. **Producte de sub-graelles 2x2:** Qualsevol sub-graella de 2x2 ha de tenir un producte de 1.
+
+Així, el nombre central ha d'estar elevat al quadrat i ha de donar 1. Això només és possible amb 1. Si el número del centre es un valor X, cada qualsevol quadre de 2x2 multiplicat ha de donar 1, per tant, el nombre del centre al quadrat multiplicat per altres dos termes, ha de ser 1.
+Per tant, X * (alguna cosa) * (alguna cosa) = 1. Aleshores, X ha de ser 1.
+Un exemple per a que es compleixi la condició del producte de cada 2x2 = 1 seria la següent graella, que compleix amb les condicions de l'enunciat:
+2 1/2 1
+1/2 1 2
+1 2 1/2
+
+Resposta: C) 4

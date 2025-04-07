@@ -1,0 +1,29 @@
+Raonament: La pregunta 2 mostra una seqüència d’estrelles que tenen una perímetria cada cop més gran: de sis puntes (A), 12 puntes (B), 18 puntes (C) i 24 puntes (D). El martell que es troba en D indica que és la pregunta. Hem de trobar l’estrella que es correspon amb el martell. Per fer-ho, hem d’estendre la seqüència lògica tot buscant l’estrella amb la perímetria de 30 puntes. La seqüència lògica de perímetries es defineix així: 
+$$
+    \begin{equation*}
+        (A) – \textrm{6 puntes} = 2 \cdot 3 \cdot \left(2^0 + 1\right) = 6
+        \end{equation*}
+$$
+$$
+    \begin{equation*}
+        (B) – \textrm{12 puntes} = 2 \cdot 3 \cdot 2 = 12
+        \end{equation*}
+$$
+$$
+    \begin{equation*}
+        (C) – \textrm{18 puntes} = 2 \cdot 3 \cdot \left(2^2 + 1\right) = 18
+        \end{equation*}
+$$
+$$
+    \begin{equation*}
+        (D) – \textrm{24 puntes} = 2 \cdot 3 \cdot 2^2 = 24
+        \end{equation*}
+$$
+$$
+    \begin{equation*}
+        (E) – \textrm{?} = 2 \dot 3 \cdot 2^3 = ?
+        \end{equation*}
+$$
+Segons la seqüència es pot veure que es segueix un patró de multiplicacions i potències amb 2 i un cicle entre potència 0 i 3, per tant, el perímetre de l’estrella (E) és: 2 \cdot 3 \cdot 2^3 = 2^4 \cdot 3 \Rightarrow 48. Lògicament, la resposta correcta d’ 
+
+Resposta: No Answer.

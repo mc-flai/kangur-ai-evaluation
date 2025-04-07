@@ -1,0 +1,17 @@
+**Reasoning:**
+
+To find the minimum number of girls in the nursery group, we need to consider two scenarios:
+1. If more than half of the group goes for a walk, then all boys go for a walk since they are a minority.
+2. If exactly half of the group goes for a walk, then equal numbers of boys and girls go.
+
+Since there are 14 girls and 12 boys in total, there are 26 children in the group. If exactly half go for a walk, then the number of children on the walk is 13.
+
+Scenario 1: All boys go for a walk (12 boys).
+Minimum number of girls = Total number of children - Number of boys = 26 - 12 = 14
+
+Scenario 2: Equal numbers of boys and girls go for a walk (13 boys and 13 girls).
+Minimum number of girls = Total number of girls - Number of girls on the walk = 14 - 13 = 1
+
+Comparing the results, the minimum number of girls required in the group is **1**.
+
+**Answer: E)**

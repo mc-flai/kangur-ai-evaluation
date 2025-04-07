@@ -1,0 +1,28 @@
+Pour résoudre la question 9, nous devons déterminer le nombre de chiffres de l'écriture décimale du produit \((2^{22})^5 \times (5^{55})^2\).
+
+**Raisonnement :**
+
+1. Simplifions d'abord les expressions \((2^{22})^5\) et \((5^{55})^2\) :
+   \[
+   (2^{22})^5 = 2^{22 \times 5} = 2^{110}
+   \]
+   \[
+   (5^{55})^2 = 5^{55 \times 2} = 5^{110}
+   \]
+
+2. Maintenant, multiplions ces deux résultats :
+   \[
+   2^{110} \times 5^{110}
+   \]
+
+3. En utilisant la propriété des puissances, nous pouvons les combiner :
+   \[
+   2^{110} \times 5^{110} = (2 \times 5)^{110} = 10^{110}
+   \]
+
+4. Le nombre \(10^{110}\) est un 1 suivi de 110 zéros.
+
+5. Le nombre de chiffres dans l'écriture décimale de \(10^{110}\) est donc 111 (le 1 plus les 110 zéros).
+
+**Réponse :**
+E) 111

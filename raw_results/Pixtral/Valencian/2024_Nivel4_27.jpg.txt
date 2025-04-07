@@ -1,0 +1,12 @@
+
+La pregunta 27 se refiere a la construcción de un cubo grande utilizando \( n^3 \) cubos más pequeños idénticos. La pregunta busca determinar el valor de \( n \) si el número de cubos más pequeños es igual al número de capas en la superficie exterior del cubo grande.
+
+**Razonamiento:**
+1. Primero, entendamos la estructura del cubo grande. Un cubo grande construido de \( n^3 \) cubos más pequeños tendrá \( n \) capas en cada dimensión (largo, ancho y alto).
+2. La superficie exterior de un cubo grande tiene 6 caras. Cada cara del cubo grande tendrá \( n \times n \) cubos más pequeños.
+3. Por lo tanto, el número total de cubos más pequeños en la superficie exterior es \( 6 \times n^2 \).
+4. Según la pregunta, el número de cubos más pequeños es igual al número de capas en la superficie exterior. Por lo tanto, \( n^3 = 6 \times n^2 \).
+5. Simplificando la ecuación, obtenemos \( n^3 = 6n^2 \).
+6. Dividiendo ambos lados por \( n^2 \), obtenemos \( n = 6 \).
+
+**Respuesta:** B)

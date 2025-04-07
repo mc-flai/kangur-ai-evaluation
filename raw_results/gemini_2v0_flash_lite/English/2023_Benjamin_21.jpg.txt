@@ -1,0 +1,13 @@
+Reasoning: Let's analyze the process. Bob repeatedly takes the top two bricks and puts them on top. This means the tower essentially gets "flipped" in pairs. So, the bricks will be arranged in the following way: (49, 50) at the bottom, then (47, 48) then (45, 46), and so on. Eventually we will have the final arrangement on top, which we can obtain by pairing the numbers. We can visualize this by pairing the numbers (1, 2), (3, 4), (5, 6), ... (49, 50).  The question asks which two bricks lie on top of each other. If we list the pairs of top bricks, they would be (2,1), (4,3), (6,5), etc., and in the next step, they become (1,2), (3,4), (5,6), and so on, so the final state will involve paired numbers. So let's check which answer options include the pairings.
+The final order of the bricks from bottom to top is 49, 50, 47, 48, ..., 3, 4, 1, 2. That means that 1 and 2 will be at the top. In this order, when Bob rearranges, we have pairs of (1,2), (3,4), and so on until (49,50). Bob is finished when the new tower is created. When he places the brick from old tower to the top of the new tower, without any change in order. Then Bob will take the 2,1 as two top bricks of the new tower, and they will be on top of each other after several steps of rearrangement. In the next step, Bob will take 4,3 and place them on top and so on until he gets the end bricks. Finally, the position on top of each other means 1 is on top of 2.
+
+Let's analyze the options.
+A) 29 and 28 -> After rearranging, these bricks will be next to each other and on top of each other.
+B) 34 and 35 -> After rearranging, these bricks will be next to each other and on top of each other.
+C) 29 and 26 -> These bricks are not in order and there should be a number between them.
+D) 31 and 33 -> These bricks are not in order and there should be a number between them.
+E) 27 and 30 -> These bricks are not in order and there should be numbers between them.
+
+We are looking for bricks that would be paired up as the pairs of bricks are put on the top in sequence. Given that it is 50 bricks total, the numbers 1,2 are on top of each other, 3,4 are on top of each other, etc. And after rearrangement, 2,1, 4,3, 6,5 ... etc. Then they are paired. So finally we will get 29,28, so the bricks on top of each other are 29,28, which are next to each other.
+
+Answer: A)

@@ -1,0 +1,18 @@
+Reasoning: We are given the combined weights of different pairs of balls. Let's use these equations to determine which ball is the heaviest.
+1. B + D = 1200
+2. C + E = 2100
+3. B + E = 800
+4. B + C = 900
+5. A + E = 700
+
+From equation 3, we have B + E = 800, and from equation 4, we have B + C = 900. Since the sum of B and C is greater than B and E, it implies that C > E.
+From equation 2: C + E = 2100. Since C > E, C must be significantly larger than E, so C is very likely the largest.
+
+From equation 5, A + E = 700 and B + E = 800. Since E is in both, B > A.
+We also have, B + C = 900. Combining B + E = 800 and A + E = 700, the difference is B - A = 100, thus B > A.
+
+Combining the inequalities, we have C > B > A or E. Since C + E = 2100, C is likely to be very heavy. Now consider C + E = 2100 and from equation 3, B + E = 800, and equation 1 B + D = 1200. So, C+E is the heaviest since C is the heaviest.
+
+From equation 4, B + C = 900. From equation 1, B+D=1200, and from equation 3, B+E=800. From equation 2, C + E = 2100. Thus, C + E = 2100 and C is definitely heavier than the others.
+
+Answer: C)

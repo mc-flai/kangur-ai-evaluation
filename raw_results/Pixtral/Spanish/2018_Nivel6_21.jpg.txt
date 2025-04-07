@@ -1,0 +1,35 @@
+
+La pregunta 21 trata sobre un problema de gráficos y números en los vértices de un tetraedro. Los vértices están numerados del 1 al 6, y se nos dice que la suma de los cuatro vértices de cada cuadrilátero debe ser la misma para los tres cuadriláteros. Los números 1 y 5 ya están presentes. Se nos pregunta qué número debe estar en el vértice etiquetado con x.
+
+Para resolver esto, debemos encontrar un número que, cuando se suma a 1 y 5, dé una suma que sea consistente con los otros dos cuadriláteros.
+
+1. Primero, calculemos la suma total de los números del 1 al 6:
+   \[
+   1 + 2 + 3 + 4 + 5 + 6 = 21
+   \]
+
+2. Dado que hay cuatro vértices en cada cuadrilátero, la suma total de los vértices en los tres cuadriláteros debe ser:
+   \[
+   3 \times 21 = 63
+   \]
+
+3. La suma de los vértices en cada cuadrilátero debe ser:
+   \[
+   \frac{63}{3} = 21
+   \]
+
+4. Ya tenemos los números 1 y 5 en el vértice etiquetado con x. Sumemos estos dos números:
+   \[
+   1 + 5 = 6
+   \]
+
+5. Para que la suma total sea 21, el número en el vértice etiquetado con x debe ser:
+   \[
+   21 - (1 + 5) = 21 - 6 = 15
+   \]
+
+Por lo tanto, el número que debe estar en el vértice etiquetado con x es 15.
+
+Razonamiento: Calculamos la suma total de los números del 1 al 6 y luego determinamos la suma necesaria para cada cuadrilátero. Sumando los números ya dados (1 y 5), encontramos el número restante que debe ser 15.
+
+Respuesta: D)

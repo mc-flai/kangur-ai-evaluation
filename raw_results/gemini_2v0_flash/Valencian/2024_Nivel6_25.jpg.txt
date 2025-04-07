@@ -1,0 +1,18 @@
+Raonament:
+La suma dels coeficients d'un polinomi p(x) s'obté evaluant el polinomi en x=1, és a dir, p(1).
+
+Donat que p(x+1) = x^2 - x + 2*p(6), evaluarem en x=0,
+p(0+1) = 0^2 - 0 + 2*p(6)
+p(1) = 2*p(6)
+
+Ara evaluarem l'expressió p(x+1) en x=5:
+p(5+1) = 5^2 - 5 + 2*p(6)
+p(6) = 25 - 5 + 2*p(6)
+p(6) = 20 + 2*p(6)
+p(6) - 2*p(6) = 20
+-p(6) = 20
+p(6) = -20
+
+Aleshores, p(1) = 2*p(6) = 2*(-20) = -40
+
+Resposta: A)

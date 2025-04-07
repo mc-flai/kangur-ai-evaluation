@@ -1,0 +1,5 @@
+Raonament: The problem asks for the minimum number of coins needed to cover a 4x4 grid such that any empty cell has a neighboring cell with a coin. We can solve this by strategic placement of the coins. Let's analyze the placement:
+1.  Place coins at positions (1,2), (1,4), (2,1), (2,3), (3,2), (3,4), (4,1) and (4,3). This placement guarantees that every empty cell will have a neighbor cell with a coin.
+2. Now, we count the number of coins, which is 8. Alternatively we can observe a pattern by placing coins on the grid. We can place a coin in cells like (1,2), (1,4), (2,1), (2,3), (3,2), (3,4), (4,1), (4,3). With this we cover all neighboring empty cells, so we have a total of 8 coins.
+
+Resposta: E)

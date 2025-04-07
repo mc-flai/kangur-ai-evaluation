@@ -1,0 +1,31 @@
+**Raonament**:
+Aquest problema es refereix als números cardinals integrals de l’1 al 6. Per buscar seqüències específiques, fem còmput amb el principi de comptabilitat i l =>'Multiplicació:
+
+És a dir, hi ha sis oportunitats per a la primera tirada i cinc per a la segona, ja que les tirades successives en una seqüència queden determinades respecte la tirada immediatament anterior, per tal d’evitar comptar repetidament cada tirada.
+
+Per tant, existeixen $6\cdot5 = 30$ tirades possibles diferents.
+
+Ara hem de calcular tirades possibles diferents amb les següents condicions:
+
+La segona tirada de l’1 al 6 és diferent a la primera.
+
+Les segones tirades dels 2 al 6 no poden ser la tirada immediatament anterior.
+
+Aquest és el problemeatge el nostre problema, donat que comencem a la segona tirada i considerem cadascun dels 6 números de l’1 al 6 a apartir de la segona tirada.
+
+Per exemple:
+
+* 1: Podria provenir de qualsevol dels 6 números. Donat que hi ha una probabilitat, anomès les agruparem en una subseqüència de números: 1-5.
+* 2: També podria provenir de qualsevol dels 6 números. Comuniem els de la mateixa subseqüència 1-5.
+* 3: El mateix raonament.
+* 4: També.
+* 5: També.
+* 6: Si ar系统em en 1 serà inevitablement la fins i caldrebaugh1-6
+
+Per donar solució definitiva: Agrupem les tirades i partim de les tirades que competeixen entre si, amb espai números de candidatura equilibrats 1-6.
+
+masculine molt útil. Fem la lògica abstracció com si tot fins avui fos una única seqüència de probabilitat:
+
+Disposem 5 tirades comunus en un sol comptat té accelerategi per unes tirades bas roman insist
+
+**Resposta**: No Answer

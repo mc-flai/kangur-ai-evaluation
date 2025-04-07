@@ -1,0 +1,5 @@
+Reasoning:
+The octahedron can be viewed as two square pyramids glued together at their bases. The vertices of the octahedron are at the midpoints of the faces of the cube.
+Let the vertices of the cube be (0,0,0), (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (1,1,1). Then the vertices of the octahedron are (1/2, 0, 1/2), (0, 1/2, 1/2), (1/2, 1, 1/2), (1, 1/2, 1/2), (1/2, 1/2, 0), (1/2, 1/2, 1). The side length of the square at the base is sqrt((1/2)^2+(1/2)^2)=1/sqrt(2). Thus, the area of the square is (1/sqrt(2))^2 = 1/2. The height of each pyramid is 1/2. The volume of one pyramid is (1/3)*(base area)*height = (1/3)*(1/2)*(1/2) = 1/12. Thus the volume of the octahedron is 2*(1/12) = 1/6.
+
+Answer: D)

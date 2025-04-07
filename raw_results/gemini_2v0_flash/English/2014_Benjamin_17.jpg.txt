@@ -1,0 +1,13 @@
+Reasoning:
+Let $n$ be the number of marbles Lea has.
+We are given that when she divides the marbles into groups of 3, there are 2 left over. This means $n \equiv 2 \pmod{3}$.
+We are also given that when she divides the marbles into groups of 5, there are 2 left over. This means $n \equiv 2 \pmod{5}$.
+From these two congruences, we can say that $n$ leaves a remainder of 2 when divided by both 3 and 5. Therefore, $n \equiv 2 \pmod{\text{lcm}(3,5)}$. Since $\text{lcm}(3,5) = 15$, we have $n \equiv 2 \pmod{15}$. This means that $n$ can be written in the form $n = 15k + 2$ for some integer $k$.
+
+We want to find the smallest number of marbles $x$ that Lea needs to add so that the total number of marbles is divisible by both 3 and 5. In other words, we want $n+x$ to be divisible by both 3 and 5, which means $n+x$ must be divisible by 15. So $n+x \equiv 0 \pmod{15}$.
+Since $n \equiv 2 \pmod{15}$, we have $2 + x \equiv 0 \pmod{15}$. This means that $x \equiv -2 \pmod{15}$, which is equivalent to $x \equiv 13 \pmod{15}$.
+Since we want the smallest number of marbles Lea needs, we can take $x = 13$.
+For example, if $k = 0$, then $n = 2$. Adding 13 marbles, we get 15 marbles, which is divisible by both 3 and 5.
+If $k = 1$, then $n = 17$. Adding 13 marbles, we get 30 marbles, which is divisible by both 3 and 5.
+
+Answer: E)

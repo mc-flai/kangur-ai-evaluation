@@ -1,0 +1,6 @@
+Raonament: To find the minimum value of |AX| + |DX|, we can reflect point D across the line BC to a point D'. The segment DX is equal to D'X. Then, the problem becomes finding the minimum value of |AX| + |XD'|. The minimum distance between two points is a straight line.
+|BC| = 8, |AB| = 4, |CD| = 2.
+The distance from B to D' will be 8, |CD'| = 2. Thus, we can calculate the length of AD'. AD' forms a right triangle with sides AB + CD' and BC. Then AD' = sqrt((AB + CD)^2 + BC^2) = sqrt((4+2)^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10.
+Therefore the minimum value is AD' = 10.
+
+Resposta: D)

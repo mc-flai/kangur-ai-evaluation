@@ -1,0 +1,15 @@
+**Reasoning**:
+
+1. An octahedron is inscribed into a die (cube) with a side length of 1 unit.
+2. The vertices of the octahedron are the midpoints of the faces of the cube.
+3. To find the volume of the octahedron, we need to find the length of the edges of the octahedron.
+4. The edge length of the octahedron can be calculated using the Pythagorean theorem in 3D space. The distance between the centers of two adjacent faces of the cube (which are the vertices of the octahedron) is √(1/2)² + (1/2)² = √(1/2).
+5. The volume of a regular octahedron with edge length 'a' is given by the formula: Volume = (1/3) * (√2) * a³.
+6. Substituting a = √(1/2) into the formula, we get:
+   Volume = (1/3) * (√2) * (√(1/2))³
+   Volume = (1/3) * (√2) * (1/2)³/²
+   Volume = (1/3) * (√2) * (1/8) * √2
+   Volume = (1/3) * 2 * (1/8)
+   Volume = 1/12
+
+**Answer**: D)

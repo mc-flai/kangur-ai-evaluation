@@ -1,0 +1,13 @@
+### Reasoning:
+Mike has 125 small cubes and he creates one large cube with exactly nine tunnels going straight through it. Each tunnel removes a certain number of cubes from the large cube. Since the tunnels go straight through the cube, each tunnel will remove 10 cubes (1 for each layer it passes through, assuming the cube is 3x3x3).
+
+To find out how many cubes are not used, we need to calculate the total number of cubes removed by the tunnels and subtract that from the total number of cubes.
+
+1. Calculate the total number of cubes removed by the tunnels:
+   Each tunnel removes 10 cubes, and there are 9 tunnels.
+   Total cubes removed = 9 tunnels * 10 cubes/tunnel = 90 cubes.
+
+2. Calculate the number of cubes not used:
+   Total cubes - cubes removed = 125 cubes - 90 cubes = 35 cubes.
+
+### Answer: D

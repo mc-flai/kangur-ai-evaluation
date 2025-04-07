@@ -1,0 +1,40 @@
+Reasoning:
+Let the distance from home to school be $d$.
+Let the speed by bike be $v_b$ and the speed by foot be $v_f$.
+Time taken by bike to go from home to school and back = 20 minutes.
+So, $\frac{2d}{v_b} = 20$, which gives $\frac{d}{v_b} = 10$ (1)
+Time taken by foot to go from home to school and back = 60 minutes.
+So, $\frac{2d}{v_f} = 60$, which gives $\frac{d}{v_f} = 30$ (2)
+Let the distance from home to Eva's house be $x$.
+Yesterday:
+- Bike to Eva's house: time = $\frac{x}{v_b}$
+- Foot from Eva's house to school: time = $\frac{d-x}{v_f}$
+- Foot from school to Eva's house: time = $\frac{d-x}{v_f}$
+- Bike from Eva's house to home: time = $\frac{x}{v_b}$
+Total time = 52 minutes.
+So, $\frac{x}{v_b} + \frac{d-x}{v_f} + \frac{d-x}{v_f} + \frac{x}{v_b} = 52$
+$2(\frac{x}{v_b}) + 2(\frac{d-x}{v_f}) = 52$
+$\frac{x}{v_b} + \frac{d-x}{v_f} = 26$
+$\frac{x}{v_b} + \frac{d}{v_f} - \frac{x}{v_f} = 26$
+$x(\frac{1}{v_b} - \frac{1}{v_f}) + \frac{d}{v_f} = 26$
+From (1), $v_b = \frac{d}{10}$ and from (2), $v_f = \frac{d}{30}$.
+$x(\frac{10}{d} - \frac{30}{d}) + \frac{d}{30} = 26$
+$x(-\frac{20}{d}) + \frac{d}{30} = 26$
+$-\frac{20x}{d} = 26 - \frac{d}{30}$
+$\frac{x}{d} = \frac{1}{2} \times \frac{52 - \frac{2d}{30}}{10} = \frac{30 \times 26 - d}{10 \times (-20)} = \frac{30(26) - d}{(-20) \times 10/30}$
+$x(\frac{10}{d} - \frac{30}{d}) = 26-\frac{d}{30}$
+$-\frac{20x}{d} = 26-\frac{d}{30}$
+Let $\frac{x}{d} = f$ which is the fraction of the journey covered by bike.
+$\frac{x}{v_b} + \frac{d-x}{v_f} + \frac{d-x}{v_f} + \frac{x}{v_b} = 52$
+Using equations (1) and (2) we have:
+$2(\frac{x}{v_b}) + 2(\frac{d-x}{v_f}) = 52$
+$2(\frac{x}{d/10}) + 2(\frac{d-x}{d/30}) = 52$
+$2(\frac{10x}{d}) + 2(\frac{30(d-x)}{d}) = 52$
+$2(\frac{10x}{d}) + 2(\frac{30d - 30x}{d}) = 52$
+$\frac{20x + 60d - 60x}{d} = 52$
+$60d - 40x = 52d$
+$8d = 40x$
+$\frac{x}{d} = \frac{8}{40} = \frac{1}{5}$
+The journey covered by bike = $\frac{1}{5}$.
+
+Answer: B)

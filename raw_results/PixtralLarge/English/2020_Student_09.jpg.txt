@@ -1,0 +1,12 @@
+**Reasoning**: To find the probability that the result will be two faces with different colors when rolling two equal dice with two red faces, two blue, and two green each, we need to consider the following steps:
+
+1. **Total Outcomes**: Each die has 6 faces, so there are a total of 6 x 6 = 36 possible outcomes when rolling two dice.
+2. **Different Colors Outcomes**: We need outcomes where the two faces have different colors. 
+   - If the first die shows red, the second die can show blue or green (2 choices).
+   - If the first die shows blue, the second die can show red or green (2 choices).
+   - If the first die shows green, the second die can show red or blue (2 choices).
+   - Therefore, for each color on the first die, there are 2 choices for the second die, leading to 2 x 2 x 2 = 8 outcomes with different colors.
+3. **Probability Calculation**: The probability is the number of favorable outcomes (8) divided by the total number of outcomes (36).
+   - Probability = 8 / 36 = 2 / 9.
+
+**Answer**: D).

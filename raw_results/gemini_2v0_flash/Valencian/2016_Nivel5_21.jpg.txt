@@ -1,0 +1,9 @@
+Raonament: Sigui $m$ el nombre inicial. Com que $m$ és parell però no divisible per 4, $m=2p$ per algun enter imparell $p$.
+A la primera iteració, el robot retorna $m + \frac{m}{2} = m + p = 2p+p=3p = \frac{3}{2}m$.
+A la segona iteració, el robot té el nombre $\frac{3}{2}m = 3p$. El major divisor de $3p$ és $p$ o $3$. Si $p=1$, $m=2$ que no és divisible per 4. llavors el resultat seria $3p+p = 4p$, i si $p=3$ és $3p+1 = 10$. L'alternativa és que el màxim divisor és $p$, i per tant el resultat és $3p+p=4p=2m$.
+A la tercera iteració, el robot té el nombre $2m=4p$. Llavors el major divisor de $4p$ és $2p$, per tant el robot retorna $4p+2p=6p=3m$.
+A la quarta iteració, el robot té el nombre $3m=6p$. El major divisor de $6p$ és $3p$, per tant el robot retorna $6p+3p=9p=\frac{9}{2}m$.
+A la cinquena iteració, el robot té el nombre $\frac{9}{2}m = 9p$. El major divisor de $9p$ és $3p$, per tant el robot retorna $9p+3p=12p=6m$.
+A la sisena iteració, el robot té el nombre $6m=12p$. El major divisor de $12p$ és $6p$, per tant el robot retorna $12p+6p=18p=9m$.
+
+Resposta: D)

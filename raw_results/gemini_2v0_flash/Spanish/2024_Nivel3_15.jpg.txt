@@ -1,0 +1,12 @@
+Razonamiento:
+La hora actual es 20:24. Queremos encontrar la última vez que el reloj mostró los mismos dígitos (2, 0, 2, 4) en otro orden. Necesitamos encontrar una hora anterior a 20:24 que use los mismos dígitos. Las posibles horas anteriores son: 02:24, 02:42, 04:22, 20:04, 20:42, 22:04, 22:40, 24:02, 24:20.
+La hora más reciente antes de 20:24 que usa los mismos dígitos es 20:04. La diferencia entre 20:24 y 20:04 es 20 minutos. Esta no es una opción.
+Sin embargo, necesitamos considerar horas más tempranas. La siguiente hora más cercana es 04:22.
+La diferencia entre 20:24 y 04:22 es 16 horas y 2 minutos = 16 * 60 + 2 = 960 + 2 = 962 minutos.
+Otra posible hora es 22:04, pero esta es posterior a 20:24.
+La siguiente posible hora anterior a 20:24 que usa los mismos dígitos es 02:42.
+La diferencia entre 20:24 y 02:42 es 17 horas y 42 minutos. 17 * 60 + 42 = 1020 + 42 = 1062. Esta no es una opción.
+La siguiente hora anterior es 02:24. La diferencia entre 20:24 y 02:24 es 18 horas. 18 * 60 = 1080. No está en las opciones.
+La anterior posible hora es 04:22, cuya diferencia en tiempo es 962 minutos.
+
+Respuesta: D)

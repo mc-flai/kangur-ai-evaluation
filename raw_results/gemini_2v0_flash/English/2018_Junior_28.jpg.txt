@@ -1,0 +1,30 @@
+Reasoning:
+The set {1, 2, 3, 4, 5, 6} has a sum of 21. For each row to be divisible by 3, it needs to sum to 3, 6, 9, 12, 15, or 18.
+The possible row sums that are divisible by 3 are 6, 9, 12, and 15. If one row is x then other row sum must be 21-x.
+x = 6, 21-x = 15;
+x = 9, 21-x = 12;
+If rows sum to 6,15 -> choose 2 numbers sum 6: {1,5}, {2,4}, {3,3}
+If rows sum to 9,12 -> choose 2 numbers sum 9: {1,8}, {2,7}, {3,6}, {4,5}
+Since the columns must each sum to a multiple of 3, the numbers in each column must either sum to 3, 6, or 9.
+To solve this problem, first group the numbers into those congruent to 0, 1, and 2 mod 3.
+0 mod 3: {3, 6}
+1 mod 3: {1, 4}
+2 mod 3: {2, 5}
+Each column must contain numbers that sum to a multiple of 3. That means each column must be one of the following combinations: {0, 0}, {1, 2}, {0, 1, 2}. Since the numbers in our set are 1 to 6, we can only have each column as sum of two numbers.
+The valid columns are:
+3 = 1+2
+6 = 1+5 = 2+4 = 3+3
+9 = 3+6 = 4+5
+12 = 6+6 (not possible)
+
+Total = 1+2+3+4+5+6 = 21.
+Since each row must add to a multiple of 3, it must be 6, 9, 12, or 15.
+If first row is 6, other row is 15. 1+2+3 = 6.
+If first row is 9, other row is 12. 1+2+6 = 9.
+If first row is 12, other row is 9. 4+2+6 = 12.
+If first row is 15, other row is 6. 4+5+6 = 15.
+We need to divide the numbers 1 to 6 into two rows of three such that both the row sums and the column sums are divisible by 3.
+
+The number of ways is 42.
+
+Answer: B)

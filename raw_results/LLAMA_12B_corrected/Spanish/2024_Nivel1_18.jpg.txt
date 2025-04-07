@@ -1,0 +1,13 @@
+Razonamiento:
+
+La pregunta 18 se refiere a estudiantes que viajan en un viaje y cuántos de ellos tienen una chaqueta reflectante amarilla y una mochila naranja.
+
+Debemos utilizar el principio de conteo incluido-excluido, que establece que la cantidad de elementos que tienen dos características diferentes puede calcularse sumando el número de elementos que tienen la primera característica y el número de elementos que tienen la segunda característica, y luego restando el número de elementos que tienen ambas características.
+
+En este caso, el número de estudiantes que tienen una chaqueta reflectante amarilla es 3 y el número de estudiantes que tienen una mochila naranja es 10. Sin embargo, si consideramos en lugar de esto la pregunta de "¿Cuántos alumnos tienen una chaqueta reflectante amarillo y una mochila naranja?" como pregunta de odds, entonces tenemos 18 - 3 (ya que 3 estudiantes de reflectante amarillo) - 10 (9 son naranja) + 1 = 6.
+
+Entonces, el cálculo sería así:
+     Como la primera pregunta se refería a tener una chaqueta amarilla y una mochila naranja, después de suprimir las cadenas de reflexión amarilla y las cadenas naranja se nos darían 60 - 14 (reflejante amarillo - 14 cadenas naranja) = 40 cadenas.
+
+Respuesta:
+D) por encima

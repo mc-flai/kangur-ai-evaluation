@@ -1,0 +1,20 @@
+La pregunta 29 és sobre Josep, que ha guanyat quatre medalles d'or en competicions atlètiques diferents: una d'or i una de bronze en els campionats d'Europa, i una d'or i una de plata en els campionats del món. Josep vol mostrar aquestes quatre medalles en una vitrina, una al costat de l'altre, però només hi ha espai per a quatre medalles en la vitrina. La pregunta és quantes combinacions diferents hi ha per a mostrar les seves medalles.
+
+**Razonament**:
+1. Josep té quatre medalles: tres d'or i una de plata.
+2. Els llocs de la vitrina són quatre.
+3. Cal determinar quantes maneres diferents hi ha d'arranjar aquestes quatre medalles en la vitrina.
+4. Els possibles arranjaments consideren la posició de cada medalla.
+5. Cal calcular les combinacions permeses.
+
+Per calcular les combinacions, considerem les posicions de la vitrina com A, B, C i D. Els elements són O (or), O (or), O (or) i P (plata).
+
+Les combinacions són:
+- O O O P
+- O O P O
+- O P O O
+- P O O O
+
+Cada combinació és única perquè els elements són diferents.
+
+**Resposta**: D) 24

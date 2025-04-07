@@ -1,0 +1,15 @@
+Reasoning:
+The question states that among any five consecutive balls there is exactly one red, one yellow and one blue ball. Since the sequence has green, red, yellow, and blue, and there is exactly one of each color in every 5 consecutive balls, we can determine the pattern. Also, after any red ball the next ball is yellow. Balls 2, 20, and 202 are green. We can try to find a pattern with modulo 5 to find the answer.
+2021 modulo 5 = 1. Since the sequence has green, red, yellow and blue, and knowing that ball 2 is green, ball 20 is green and ball 202 is green, we know that ball number 1 has to be blue, since the other colors that are a multiple of 5 plus 2 are green. Thus we can determine the following pattern:
+* Ball 1 is blue.
+* Ball 2 is green.
+* Ball 3 is red.
+* Ball 4 is yellow.
+* Ball 5 is blue.
+* Ball 6 is green.
+* Ball 7 is red.
+* Ball 8 is yellow.
+The pattern has a cycle of 4, so we determine 2021 with modulo 4:
+2021 modulo 4 = 1. So ball 2021 is the same color as ball 1, which is blue.
+
+Answer: D)

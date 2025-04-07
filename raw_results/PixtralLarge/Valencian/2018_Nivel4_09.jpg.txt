@@ -1,0 +1,25 @@
+Per resoldre aquesta pregunta, hem de determinar quants números diferents pot escriure Eva amb els seus caràcters. Volem trobar el nombre total de possibilitats que pot crear Eva utilitzant les lletres majúscules i minúscules per als tres primers llocs i els números per als tres últims llocs.
+
+Passos:
+1. Els tres primers caràcters poden ser qualsevol de les lletres majúscules o minúscules.
+   - Hi ha 26 lletres majúscules i 26 lletres minúscules.
+   - Així, hi ha 52 possibilitats per cada lloc.
+   - Per als tres primers caràcters, el nombre total de combinacions és \( 52^3 \).
+
+2. Els tres últims caràcters han de ser números.
+   - Hi ha 10 possibilitats per cada lloc (0-9).
+   - Per als tres últims caràcters, el nombre total de combinacions és \( 10^3 \).
+
+3. Combinem els dos resultats per obtenir el total de possibilitats:
+   - \( 52^3 \times 10^3 \).
+
+Càlculs:
+- \( 52^3 = 52 \times 52 \times 52 = 140,608 \).
+- \( 10^3 = 10 \times 10 \times 10 = 1,000 \).
+- \( 140,608 \times 1,000 = 140,608,000 \).
+
+Així, el nombre total de possibilitats és 140,608,000.
+
+Raonament: Hem calculat el total de possibilitats combinant les lletres majúscules i minúscules amb els números, multiplicant les combinacions dels primers tres caràcteres per les dels últims tres caràcters.
+
+Resposta: E) 24000

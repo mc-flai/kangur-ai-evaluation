@@ -1,0 +1,15 @@
+Reasoning: The problem describes a collision process. Balls moving in opposite directions collide and the larger ball absorbs the smaller ball's value.
+1. **Initial state:**  We have balls with values: 10, 9, 3, 7, 20.
+2. **Collisions:**
+    *   20 collides with 7. 20 + 7 = 27. Ball now has a value of 27, moves left.
+    *   27 collides with 3. 27 + 3 = 30. Ball now has a value of 30, moves left.
+    *   10 collides with 9. 10 + 9 = 19. Ball now has a value of 19, moves right.
+    *   30 and 19 moving in opposite directions collide. 30 - 19 = 11
+    * the direction of the remaining ball will follow the bigger number 30, so the direction is left and the remaining number is 11
+        *The previous description is wrong, and it is an addition of the two numbers: 30 + 19 = 49.
+
+* The direction follows the bigger number so the direction must be left.
+*   The final result will be a single ball with the number 49, moving to the left.
+3. **Final State:** A single ball of value 49 moving to the left.
+
+Answer: C)

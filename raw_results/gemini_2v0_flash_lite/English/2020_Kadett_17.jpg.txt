@@ -1,0 +1,20 @@
+Reasoning:
+1. The large square has an area of 81 cm², so its side length is √81 = 9 cm.
+2. The square formed by the diagonals of the rectangles has an area of 64 cm², so its side length is √64 = 8 cm.
+3. The diagonals of the rectangles form the sides of the inner square. Since the diagonals of the rectangles form a square, each diagonal has a length of 8 cm.
+4.  The side length of the large square can be broken down into:  'width of rectangle' + 'diagonal of rectangle * sin(45)' + 'width of rectangle'  where 'diagonal of rectangle * sin(45)' is effectively the length of half of the diagonal of the square formed by the diagonals of the rectangles which equals 8/sqrt(2) =  4 * sqrt(2)
+5. From the diagram, the side of the large square is equal to the length of the central square's side plus twice the short side of a rectangle.
+6. The four identical rectangles make the area of the square equal to 81cm², so the side of the square is 9cm. The side of the square created by the diagonals is 8cm.
+7. The diagonal is not on the edge of the square but within it. The 8cm diagonal and the length of the central square are the key components of the square's side.
+8. The central square's side can be calculated by looking at the side of the larger square, which can also be thought of as 'rectangle's short side' + 'half-diagonal square's side' + 'rectangle's short side'. The diagonal gives rise to the sides of the square around the center, while the difference between the side of the large square and half of the diagonal square can give us the short side of the rectangle.
+9.  Thus, the central square's side = side of large square - diagonal square's side = 9cm - 8cm = 1cm.
+10. The side of the central square =  side of square - ( 8 / sqrt(2) ). Note: sqrt(2) / 2 * diagonal. Therefore, side of the square = 9cm; diagonal = 8cm.  We see 9cm.  The large square's side is equal to the rectangle's width (x) plus the diagonal square's side which is equal to 4 * sqrt(2) = 8/sqrt(2)   plus the rectangle's width x.
+11. The central square's side is also the area of square - 2*short side. Thus, side of the larger square = 9cm. The diagonal square side = 8cm. Thus (9cm)^2 = central square area + (4 area of the rectangle) and 8cm^2 = 2x^2+2y^2. The small square side = (9cm-8cm)
+12. Side of large square = Rectangle Width + diagonal/sqrt(2) + Rectangle Width. Diagonal = sqrt(64). 9 =  x + 8/sqrt(2) + x.  9-8/sqrt(2) /2 = x.  This is where I got confused.
+13.  We are given the area of the square is 81 and the square created by diagonals is 64, so the side is sqrt(81) = 9 and sqrt(64) = 8. Let a,b be dimensions of the rectangle. Then the central square would be a-b. Diagonal of the rectangle is sqrt(a^2+b^2), since there are 4 identical, then area of square = 81 = 4ab + (a-b)^2.
+14. We know the four identical rectangles cover the area of the square. Then the side of the large square = 9, area = 81. Also the area of the square made by diagonals is 64. Diagonal of rectangles are 8.
+15. From the diagram, we have (a+b)^2 = 81, and 8 is a diagonal. a^2 + b^2 = 64.
+16. Side of central square = | a-b | . (a-b)^2 = a^2 + b^2 - 2ab. a+b =9.
+17.  4ab + (a-b)^2 = 81 => 4ab + a^2 + b^2 -2ab = 81,   a^2 + b^2 + 2ab = 81; a^2 + b^2 = 64; 64 + 2ab = 81 => 2ab = 17. Thus, the central sq side is a -b, (a-b)^2 = a^2 + b^2 -2ab = 64-17 = 47. Thus central sq area would be 47 cm2.
+
+Answer: D)

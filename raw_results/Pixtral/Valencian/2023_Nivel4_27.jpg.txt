@@ -1,0 +1,38 @@
+
+La pregunta 27 nos pide determinar el máximo número posible de signos `+` que pueden aparecer en la expresión \(1 + 2 + 3 + 4 + \ldots + 64 + 65 + 66\) para que el resultado de la nueva expresión sea 2020.
+
+**Razonamiento:**
+1. Primero, calculamos el resultado de la suma sin ningún signo `+`:
+   \[
+   1 + 2 + 3 + \ldots + 66
+   \]
+   Esta es una serie aritmética con 66 términos. La suma de los primeros \(n\) números naturales es dada por la fórmula:
+   \[
+   S = \frac{n(n + 1)}{2}
+   \]
+   Sustituyendo \(n = 66\):
+   \[
+   S = \frac{66 \cdot 67}{2} = 2211
+   \]
+
+2. Ahora, consideramos la posibilidad de reemplazar algunos signos `+` con signos `-`. Cada reemplazo de `+` con `-` disminuye el resultado en 2 veces el número correspondiente. Por ejemplo, reemplazar el signo `+` después del 1 reduce el resultado en 2, después del 2 en 4, y así sucesivamente.
+
+3. Para que el resultado sea 2020, necesitamos calcular cuántos signos `+` deben ser reemplazados por signos `-`:
+   \[
+   2211 - 2020 = 191
+   \]
+   Esto significa que necesitamos reducir el resultado en 191.
+
+4. Cada reemplazo de `+` con `-` reduce el resultado en 2 veces el número correspondiente. Por lo tanto, necesitamos encontrar el número de términos que suman 191 cuando multiplicados por 2:
+   \[
+   191 = 2 \cdot 95.5
+   \]
+   Esto no es posible porque no podemos tener un número fraccionario de términos. Por lo tanto, necesitamos encontrar la combinación más cercana de términos que sumen 191.
+
+5. La combinación más cercana es:
+   \[
+   191 = 2 \cdot 95 + 1 \cdot 93 + 1 \cdot 91 + 1 \cdot 89 + 1 \cdot 87 + 1 \cdot 85 + 1 \cdot 83 + 1 \cdot 81 + 1 \cdot 79 + 1 \cdot 77 + 1 \cdot 75 + 1 \cdot 73 + 1 \cdot 71 + 1 \cdot 69 + 1 \cdot 67
+   \]
+   Esto suma 16 términos, lo que significa que necesitamos reemplazar 16 signos `+` con signos `-`.
+
+**Respuesta:** E) No es posible alcanzar el que se demanda el enunciado

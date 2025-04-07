@@ -1,0 +1,15 @@
+
+Razonamiento: El problema nos dice que la suma de las edades de una abuela, su hija y su nieta es 100. Además, se nos informa que las tres edades son potencias de 2. Las potencias de 2 son 1, 2, 4, 8, 16, 32 y 64. Necesitamos encontrar tres números de esta lista que sumen 100.
+
+Prueba diferentes combinaciones:
+- 1 + 4 + 64 = 69 (no funciona)
+- 2 + 4 + 32 = 38 (no funciona)
+- 2 + 8 + 16 = 26 (no funciona)
+- 2 + 16 + 32 = 50 (no funciona)
+- 4 + 8 + 16 = 28 (no funciona)
+- 4 + 16 + 32 = 52 (no funciona)
+- 4 + 32 + 64 = 100 (funciona)
+
+Por lo tanto, las edades son 4, 16 y 64.
+
+Respuesta: D)

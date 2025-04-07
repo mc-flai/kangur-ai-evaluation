@@ -1,0 +1,7 @@
+Raonament: Per a la primera fila, hi ha 4! = 24 maneres de disposar les lletres A, B, C i D.
+Un cop fixada la primera fila, considerem el primer quadrat de 2x2. Si la primera fila del quadrat és A B, la segona fila ha de ser C D o D C. Similarment, si la primera fila del quadrat és A C, la segona fila ha de ser B D o D B. Per tant, per a cada primera fila del quadrat, hi ha 2 possibles segones files.
+Considerem una possible disposició de la primera fila, per exemple, A B C D. El primer quadrat 2x2 és A B / ? ? i l'últim quadrat 2x2 és C D / ? ? Si la primera fila és A B C D, la segona fila podria ser C D A B o D C B A. Notem que no pot ser C D B A o D C A B perquè aleshores el tercer quadrat 2x2 contenira la mateixa lletra dues vegades.
+
+Analitzem un cas: si tenim la primera fila A B C D, la segona fila només pot ser C D A B o D C B A. Si la primera fila fos A B D C, la segona fila podria ser C D B A o D C A B. En general, una vegada fixada la primera fila, hi ha només dues configuracions possibles per a la segona fila que compleixen la condició dels quadrats 2x2. Per tant, el nombre total de maneres és 24 * 2 = 48.
+
+Resposta: C)

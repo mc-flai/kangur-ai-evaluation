@@ -1,0 +1,16 @@
+**Razonamiento**:
+Para resolver este problema, necesitamos determinar cuántos triángulos con un ángulo de 45 grados pueden formarse con doce puntos equidistantes en una circunferencia.
+
+1. Cada triángulo equilátero en una circunferencia tiene ángulos de 60 grados.
+2. Un triángulo con un ángulo de 45 grados se puede formar utilizando tres puntos de manera que uno de los ángulos sea de 45 grados, y los otros dos ángulos sumen 135 grados.
+3. En una circunferencia con doce puntos equidistantes, cualquier selección de tres puntos formará un triángulo. Sin embargo, no todos estos triángulos tendrán un ángulo de 45 grados.
+4. Para formar un triángulo con un ángulo de 45 grados, los puntos deben estar posicionados de tal manera que el ángulo central correspondiente sea de 90 grados (ya que el ángulo inscrito es la mitad del ángulo central).
+5. En una circunferencia con doce puntos, los ángulos centrales entre puntos adyacentes son de 30 grados (360 grados / 12 puntos).
+6. Para obtener un ángulo central de 90 grados, necesitamos seleccionar puntos que estén separados por tres segmentos de 30 grados (3 * 30 grados = 90 grados).
+7. Hay doce puntos, y cada punto puede ser el vértice de un ángulo de 90 grados con otros dos puntos que están a tres segmentos de distancia.
+8. Por lo tanto, cada punto puede formar un triángulo con un ángulo de 45 grados de dos maneras diferentes (una hacia la derecha y otra hacia la izquierda).
+9. Como hay doce puntos, y cada punto puede formar dos triángulos de esta manera, el total de triángulos es 12 * 2 = 24.
+10. Sin embargo, cada triángulo se ha contado dos veces (una vez desde cada vértice), por lo que el número total de triángulos es 24 / 2 = 12.
+11. Pero también debemos considerar que cada triángulo se ha contado tres veces (una vez desde cada vértice), por lo que el número correcto de triángulos es 24 / 3 = 8.
+
+**Respuesta**: D) 84

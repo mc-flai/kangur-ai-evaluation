@@ -1,0 +1,15 @@
+Raonament:
+1. **Analitzar la suma**: La suma vertical proporciona les equacions següents:
+   *   D + C + B + A = 1 (mòdul 10, és a dir, la xifra de les unitats de la suma és 1). Això implica que no hi ha transport de la columna anterior.
+   *   C + B + A = 2 (la xifra de les desenes de la suma és 2).
+   *   B + A = 3 (la xifra de les centenes és 3).
+   *   A = 4 (la xifra de les milers és 4).
+2. **Resoldre les equacions**:
+   *   Sabem A = 4.
+   *   Substituïm A en la tercera equació: B + 4 = 3.  Però això és impossible ja que les xifres són diferents i diferents de 0. Això vol dir que ha d'haver-hi un transport a la columna de les centenes. Així, B + A = 13, per tant B + 4 = 13, la qual cosa implica B = 9.
+   *   Substituïm A i B en la segona equació: C + 9 + 4 = 12 (ja que hi ha un transport a la columna de les centenes, el resultat ha de ser 12). Per tant, C + 13 = 12, és a dir C + 1 = 2, de manera que C= 0, però les xifres han de ser totes diferents de 0. Per tant hi ha hagut un transport de la columna de les desenes a les centenes i el valor de la segona equació és C+B+A+1 = 13.
+   *   Així doncs C + 9 + 4 + 1 = 2, C = 2 - 14 que no és possible. Per tant C+B+A= 2+10, és a dir C + 9 + 4 = 12, C = 12 - 13 = 0.
+   *   D + C + B + A = 1, és a dir, D + C + B + A = 21, D + 9 + 4 = 21, és a dir D + 13 = 21, per tant D = 8.
+3.  **Calcular la suma**:  A + B + C + D = 4 + 9 + 0 + 8 = 21
+
+Resposta: B)

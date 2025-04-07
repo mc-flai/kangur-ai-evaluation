@@ -1,0 +1,23 @@
+**Razonamiento**: La pregunta pide cuántas veces debe aparecer el término \(2018^2\) dentro de la raíz cuadrada para que la igualdad se mantenga. La ecuación dada es:
+
+\[
+\sqrt{2018^2 + 2018^2 + \cdots + 2018^2} = 2018^{10}
+\]
+
+Primero, recordemos que \(2018^{10}\) se puede escribir como:
+
+\[
+2018^{10} = (2018^2)^5
+\]
+
+Esto implica que el lado derecho de la ecuación es igual a \(2018^2\) elevado a la quinta potencia. Por lo tanto, dentro de la raíz cuadrada, debe haber \(2018^2\) cinco veces para que la igualdad se mantenga.
+
+Así, tenemos:
+
+\[
+\sqrt{2018^2 + 2018^2 + 2018^2 + 2018^2 + 2018^2} = \sqrt{5 \cdot 2018^2} = \sqrt{(2018^2) \cdot 5} = 2018 \cdot \sqrt{5}
+\]
+
+Para que esto sea igual a \(2018^{10}\), el término dentro de la raíz cuadrada debe ser \(5 \cdot 2018^2\). 
+
+**Respuesta**: A) 5

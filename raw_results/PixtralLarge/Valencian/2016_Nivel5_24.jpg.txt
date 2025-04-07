@@ -1,0 +1,31 @@
+Per determinar la probabilitat que tres punts escollits aleatòriament de la figura adjunta estiguin alineats, hemos de considerar les següents passos:
+
+1. **Identificar els punts total**:
+   La figura mostra un total de 9 punts.
+
+2. **Calcular el nombre total de formes de triar tres punts de 9**:
+   El nombre de combinacions possibles per escollir 3 punts de 9 és donat per la fórmula de combinacions:
+   \[
+   C(9, 3) = \frac{9!}{3!(9-3)!} = \frac{9!}{3! \cdot 6!} = 84
+   \]
+
+3. **Identificar les combinacions de 3 punts que estan alineats**:
+   Els punts estan alineats si els tres punts estan en una mateixa recta. En aquesta figura, les línies són:
+   - Horitzontals (3 línies amb 3 punts cadascuna): 3 línies
+   - Verticals (3 línies amb 3 punts cadascuna): 3 línies
+   - Diagonals (2 línies amb 3 punts cadascuna): 2 línies
+
+   Això fa un total de:
+   \[
+   3 + 3 + 2 = 8 \text{ línies alineades}
+   \]
+
+4. **Calcular la probabilitat que tres punts estiguin alineats**:
+   La probabilitat és el nombre de combinacions alineades dividit pel nombre total de combinacions:
+   \[
+   \text{Probabilitat} = \frac{8}{84} = \frac{1}{10.5} = \frac{1}{12}
+   \]
+
+Raonament: Hem identificat els punts totals i les possibles alineacions de tres punts, després hem calculat la probabilitat usant combinacions.
+
+Resposta: A) \(\frac{1}{12}\)

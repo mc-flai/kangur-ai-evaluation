@@ -1,0 +1,25 @@
+Razonamiento:
+Sea la distancia a la que la liebre se da cuenta del error como "d". La tortuga recorre 5 km. La liebre es 5 veces más rápida, por lo tanto, el tiempo que tarda la tortuga en recorrer 5 km es el mismo tiempo que la liebre tardaría en recorrer 25 km.
+La liebre corre perpendicularmente y luego regresa en línea recta al punto final. La liebre y la tortuga llegan al mismo tiempo, por lo tanto, el tiempo de la tortuga es igual al tiempo de la liebre.
+Tiempo tortuga = 5/velocidad tortuga
+Tiempo liebre = (distancia perpendicular + distancia regreso) / velocidad liebre = (d + distancia regreso) / (5 * velocidad tortuga)
+Tiempo tortuga = Tiempo liebre
+5 / velocidad tortuga = (d + distancia regreso) / (5 * velocidad tortuga)
+25 = d + distancia regreso
+Si la liebre recorrió "d" kilómetros perpendicularmente, la distancia de regreso forma un triángulo rectángulo con una hipotenusa que es la distancia de regreso, y los lados que son la distancia "d" y 5 km.
+Entonces, d² + 5² = (distancia regreso)²
+La pregunta es la distancia entre el punto donde la liebre se percato del error y el punto final.
+Como sabemos la tortuga recorre 5 km, por lo tanto, 5 km es uno de los catetos del triángulo rectángulo.
+Si la distancia que recorre la liebre es igual a x, entonces x/5 es la distancia que recorre la tortuga, ya que la liebre es 5 veces más rápida.
+El tiempo que tardan es el mismo, por lo tanto, si la liebre corre x perpendicularmente, el tiempo que tarda es d/5v, y el tiempo de regreso, usando el teorema de pitágoras es sqrt(x^2+5^2)/5v.
+El tiempo de la tortuga es 5/v.
+Por lo tanto: 5/v = x/5v + sqrt(x^2+5^2)/5v
+25 = x + sqrt(x^2+25)
+25 - x = sqrt(x^2+25)
+(25-x)^2 = x^2+25
+625 - 50x + x^2 = x^2+25
+600 = 50x
+x = 12
+Usando el teorema de Pitágoras, la distancia es sqrt(12^2+5^2) = sqrt(144+25) = sqrt(169) = 13
+
+Respuesta: C)

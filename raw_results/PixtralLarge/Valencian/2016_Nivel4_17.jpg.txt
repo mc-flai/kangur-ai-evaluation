@@ -1,0 +1,75 @@
+**Raonament**:
+
+1. Es tracta d'un triangle isòsceles amb \( AB = AC \).
+2. La bisectriu de l'angle \( \angle C \) talla el costat \( AB \) en el punt \( D \) de manera que \( CD = CB \).
+
+Per resoldre aquest problema, hem de tenir en compte les propietats d'un triangle isòsceles i les propietats de la bisectriu d'un angle.
+
+3. En un triangle isòsceles \( ABC \) amb \( AB = AC \), els angles a la base (\( \angle B \) i \( \angle C \)) són iguals.
+4. La bisectriu de l'angle \( \angle C \) divideix l'angle en dos angles iguals. Sigui \( x \) l'angle \( \angle BCD \) i \( \angle DCA \).
+
+5. Donat que \( CD \) és la bisectriu de \( \angle C \), tenim:
+   \[
+   \angle BCD = \angle DCA = x
+   \]
+
+6. A més, com \( D \) és un punt en el costat \( AB \) i \( CD = CB \), el triangle \( BCD \) és isòsceles amb \( CD = CB \).
+
+7. En un triangle isòsceles, els angles oposats als costats iguals són iguals, per tant:
+   \[
+   \angle BDC = \angle BCD = x
+   \]
+
+8. El triangle \( BCD \) és isòsceles amb \( D \) com a vèrtex oposat a la base \( BC \), per tant:
+   \[
+   \angle BDC = 180^\circ - 2x
+   \]
+
+9. D'altra banda, com \( \angle B \) i \( \angle C \) són iguals en el triangle isòsceles \( ABC \), tenim:
+   \[
+   \angle B = \angle C = 2x
+   \]
+
+10. A més, sabem que la suma dels angles en el triangle \( ABC \) és:
+    \[
+    \angle A + \angle B + \angle C = 180^\circ
+    \]
+
+11. Substituint \( \angle B \) i \( \angle C \) per \( 2x \):
+    \[
+    \angle A + 2x + 2x = 180^\circ
+    \]
+    \[
+    \angle A + 4x = 180^\circ
+    \]
+    \[
+    \angle A = 180^\circ - 4x
+    \]
+
+12. Com \( AD \) és la bisectriu de \( \angle C \), l'angle \( \angle ACD \) és:
+    \[
+    \angle ACD = x
+    \]
+
+13. Per tant, l'angle \( \angle CDA \) és:
+    \[
+    \angle CDA = 180^\circ - \angle ACD - \angle ADC
+    \]
+    \[
+    \angle CDA = 180^\circ - x - (180^\circ - 4x)
+    \]
+    \[
+    \angle CDA = 180^\circ - x - 180^\circ + 4x
+    \]
+    \[
+    \angle CDA = 3x
+    \]
+
+14. Donat que \( \angle C = 2x \), tenim:
+    \[
+    \angle CDA = 3x = 108^\circ
+    \]
+
+Per tant, l'angle \( \angle CDA \) és de 108 graus.
+
+**Resposta**: C).

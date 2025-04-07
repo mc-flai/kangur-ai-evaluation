@@ -1,0 +1,32 @@
+To solve this problem, we need to determine how many positive whole numbers \( n \) have the property that exactly one of the two numbers \( n \) and \( n+20 \) has four digits.
+
+**Reasoning**:
+
+1. **Identify the range**:
+   - A four-digit number ranges from 1000 to 9999.
+   - For \( n \) to have four digits, \( n \) must be between 1000 and 9999.
+   - For \( n+20 \) to have four digits, \( n \) must be between 9980 and 9999 (since \( n+20 \) must be less than or equal to 9999).
+
+2. **Determine the conditions**:
+   - If \( n \) has four digits, then \( n \) must be between 1000 and 9999.
+   - If \( n+20 \) has four digits, then \( n \) must be between 9980 and 9999.
+   - We need exactly one of these conditions to be true.
+
+3. **Analyze the ranges**:
+   - If \( n \) is between 1000 and 9979, \( n \) has four digits, but \( n+20 \) does not.
+   - If \( n \) is between 9980 and 9999, \( n+20 \) has four digits, but \( n \) does not.
+
+4. **Count the valid numbers**:
+   - For \( n \) between 1000 and 9979, there are \( 9979 - 1000 + 1 = 8980 \) numbers.
+   - For \( n \) between 9980 and 9999, there are \( 9999 - 9980 + 1 = 20 \) numbers.
+
+5. **Total valid numbers**:
+   - The total number of valid \( n \) is \( 8980 + 20 = 9000 \).
+
+However, upon reevaluating, the correct interpretation should focus on the transition points where exactly one of \( n \) or \( n+20 \) crosses into a four-digit number:
+   - \( n \) ranges from 9980 to 9999 (20 numbers).
+   - \( n \) ranges from 1000 to 1019 (20 numbers).
+
+Thus, the correct count is \( 20 + 20 = 40 \).
+
+**Answer**: E).

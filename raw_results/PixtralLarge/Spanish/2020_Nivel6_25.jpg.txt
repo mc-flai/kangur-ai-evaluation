@@ -1,0 +1,21 @@
+**Razonamiento**:
+Para resolver esta pregunta, necesitamos calcular la cantidad de combinaciones posibles de tres sabores que Belén puede elegir entre los 16 sabores disponibles en la heladería.
+
+Paso 1: Determinar el número de combinaciones posibles de elegir 3 sabores entre 16.
+Para esto, utilizamos la fórmula de combinaciones:
+\[ C(n, k) = \frac{n!}{k!(n-k)!} \]
+donde \( n \) es el número total de elementos (en este caso, 16 sabores) y \( k \) es el número de elementos a elegir (en este caso, 3 sabores).
+
+Paso 2: Sustituir los valores en la fórmula:
+\[ C(16, 3) = \frac{16!}{3!(16-3)!} = \frac{16!}{3! \cdot 13!} \]
+
+Paso 3: Simplificar el factorial:
+\[ \frac{16!}{13!} = 16 \times 15 \times 14 \]
+\[ 3! = 3 \times 2 \times 1 = 6 \]
+
+Paso 4: Realizar la división:
+\[ C(16, 3) = \frac{16 \times 15 \times 14}{6} = \frac{3360}{6} = 560 \]
+
+Por lo tanto, la cantidad de combinaciones posibles de sabores es 560.
+
+**Respuesta**: D) 5.

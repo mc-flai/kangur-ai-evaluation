@@ -1,0 +1,17 @@
+Pour déterminer combien de petits carrés grisés Morgan peut griser au maximum, nous devons suivre une stratégie pour éviter de former un carré de quatre petits carrés grisés.
+
+1. **Analyse de la figure** : La figure est composée de 25 petits carrés. Chaque carré peut être identifié par ses coordonnées (colonne, ligne).
+
+2. **Formation de carrés de quatre petits carrés grisés** : Un carré de quatre petits carrés grisés est formé lorsque quatre petits carrés adjacents sont grisés, formant un carré 2x2.
+
+3. **Stratégie pour éviter la formation d'un carré de quatre petits carrés grisés** :
+   - Morgan doit éviter de griser quatre petits carrés qui forment un carré 2x2.
+   - Pour maximiser le nombre de carrés grisés sans former un carré de quatre petits carrés, Morgan peut griser des carrés en suivant un motif qui évite les formations 2x2.
+
+4. **Calcul du nombre maximum de carrés grisés** :
+   - En observant la figure, nous pouvons voir que la figure peut être divisée en plusieurs sections où des carrés peuvent être grisés sans former un carré 2x2.
+   - En grisant des carrés de manière stratégique, Morgan peut griser jusqu'à 21 carrés sans former un carré de quatre petits carrés grisés.
+
+**Raisonnement** : En divisant la figure en sections et en grisant des carrés de manière à éviter la formation de carrés 2x2, Morgan peut griser 21 carrés au maximum.
+
+**Réponse** : D) 21.

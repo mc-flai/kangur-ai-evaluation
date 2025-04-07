@@ -1,0 +1,26 @@
+### Reasoning:
+1. **Understanding the Problem**: We are given an isosceles triangle ABC with base AC. Points K and L are added on sides AB and BC respectively such that AK = KL = LB and KB = AC.
+
+2. **Analyzing the Conditions**:
+   - Since AK = KL = LB, triangle AKL is isosceles with AK = KL.
+   - Since KB = AC, triangle KBC is isosceles with KB = BC.
+
+3. **Calculating the Angle**:
+   - In triangle AKL, since AK = KL, the angles at K and L are equal.
+   - In triangle KBC, since KB = BC, the angles at B and C are equal.
+   - The total angle around point K in triangle AKL is 180 degrees.
+   - The total angle around point B in triangle KBC is 180 degrees.
+
+4. **Determining the Angle ∠ABC**:
+   - Since AK = KL = LB, the angle ∠AKL is split equally between ∠AKL and ∠KLB.
+   - Similarly, since KB = BC, the angle ∠KBC is split equally between ∠KBC and ∠BKC.
+   - The sum of the angles in triangle ABC must be 180 degrees.
+   - Given the isosceles nature, the base angles ∠BAC and ∠BCA are equal.
+   - Let the base angles be x. Then, ∠ABC = 180 - 2x.
+   - The angle ∠AKL and ∠KLB each contribute to the angle ∠ABC.
+
+5. **Solving for ∠ABC**:
+   - Since AK = KL = LB, ∠AKL = ∠KLB = 36 degrees (as each is half of 72 degrees).
+   - Therefore, ∠ABC = 36 degrees.
+
+### Answer: C

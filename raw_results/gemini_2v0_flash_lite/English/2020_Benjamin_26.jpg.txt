@@ -1,0 +1,19 @@
+Reasoning: A number is divisible by 18 if it is divisible by both 2 and 9.
+For a number to be balanced, let the digits be a, b, c. Then b = (a+c)/2, which means (a+c) must be even, since 2b is an integer. This also means that a and c are either both even or both odd.
+For the number to be divisible by 2, c must be even. Thus, a must also be even.
+For the number to be divisible by 9, the sum of the digits must be divisible by 9, which is a+b+c = a + (a+c)/2 + c = (3a+3c)/2 = (3/2)*(a+c). Since the expression must be an integer, and a+c is always even, we get the condition that a+c must be a multiple of 6. Since the middle digit is b, which is the mean of a and c, then 2b = a+c. Since a+c needs to be multiple of 6, it can be 6, 12, or 18.
+When a+c = 6, (a,c) = (2,4), (4,2), (6,0), (0,6). b = 3 for all these four cases, and we have four balanced numbers. The numbers are 234, 432, 630, 036 (not a 3 digit number)
+When a+c = 12, (a,c) = (4,8), (8,4), (6,6). b = 6 for all these three cases. and we have three balanced numbers. The numbers are 468, 864, 666.
+When a+c = 18, (a,c) = (9,9), which gives us the balanced number 999. Then b = 9.
+Now, check which numbers are divisible by 18.
+234/18 = 13,
+432/18 = 24,
+630/18 = 35,
+468/18 = 26,
+864/18 = 48,
+666/18 = 37,
+999/18 = 55.5 (not divisible by 18)
+Therefore, we have 234, 432, 630, 468, 864, and 666 as the balanced numbers that are divisible by 18. The numbers are 234, 432, 630, 468, 864, 666.
+The number of balanced numbers is 6.
+
+Answer: C)

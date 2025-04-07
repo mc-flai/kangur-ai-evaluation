@@ -1,0 +1,42 @@
+Razonamiento:
+Sea $a_1, a_2, \ldots, a_{18}$ los números en los vértices del polígono de 18 lados. Tenemos que $a_i = a_{i-1} + a_{i+1}$ para todo $i$ (entendiendo que $a_0 = a_{18}$ y $a_{19} = a_1$).
+Sean $a_1 = 20$, $a_2 = 18$ y $a_3 = a$. Entonces tenemos:
+$a_2 = a_1 + a_3$, es decir, $18 = 20 + a$, entonces $a = 18 - 20 = -2$.
+$a_4 = a_2 - a_1 = 18 - 20 = -2$
+$a_5 = a_3 - a_2 = -2 - 18 = -20$
+$a_6 = a_4 - a_3 = -2 - (-2) = 0$
+$a_7 = a_5 - a_4 = -20 - (-2) = -18$
+$a_8 = a_6 - a_5 = 0 - (-20) = 20$
+$a_9 = a_7 - a_6 = -18 - 0 = -18$
+$a_{10} = a_8 - a_7 = 20 - (-18) = 38$
+$a_{11} = a_9 - a_8 = -18 - 20 = -38$
+$a_{12} = a_{10} - a_9 = 38 - (-18) = 56$
+$a_{13} = a_{11} - a_{10} = -38 - 38 = -76$
+$a_{14} = a_{12} - a_{11} = 56 - (-38) = 94$
+$a_{15} = a_{13} - a_{12} = -76 - 56 = -132$
+$a_{16} = a_{14} - a_{13} = 94 - (-76) = 170$
+$a_{17} = a_{15} - a_{14} = -132 - 94 = -226$
+$a_{18} = a_{16} - a_{15} = 170 - (-132) = 302$
+Esta no parece ser la forma de resolver este problema.
+
+Si $a_1 = 20$ y $a_2 = 18$, entonces $a_3 = A$. Dado que $a_2 = a_1 + a_3$, tenemos $18 = 20 + A$, entonces $A = -2$. El patrón que sigue es $20, 18, -2, -20, -18, 2, 20, 18, ...$
+Entonces $a_n = a_{n+6}$
+Como queremos $a_{10}$, calculamos $a_4 = -2, a_5 = -20, a_6 = -18, a_7 = 2, a_8 = 20, a_9 = 18, a_{10} = -2, a_{11} = -20, a_{12} = -18$, etc.
+Como los vértices están numerados cíclicamente, tenemos $a_{i} = a_{i+18}$ para todo $i$.
+Sean los números en los vértices $a_1, a_2, \ldots, a_{18}$. Entonces $a_i = a_{i-1} + a_{i+1}$.
+Si definimos los números $a_1 = 20, a_2 = 18$, queremos calcular $a_{10}$.
+También tenemos $a_i = a_{i+6}$ y $a_{i+12} = a_i$.
+Sea $A$ el número en el vértice $A$. Entonces $A = a_3 = a_1 + a_5$
+Los números se repiten cada 6 posiciones. Si $a_1 = 20, a_2 = 18$, entonces $a_7 = 20, a_8 = 18, \ldots$
+
+Si hacemos una secuencia con $a_1 = x, a_2 = y$. Entonces $a_3 = a, \dots$
+Entonces $a = y-x, a_4 = -x, a_5 = -y+x, a_6 = -y, a_7 = x-y, a_8 = x, a_9 = y, a_{10} = -38$
+Asumiendo que la secuencia de 6 números $20, 18, -2, -20, -18, 2$ se repite, entonces $a_3=-2$.
+$a_3 = -2, a_4 = -20, a_5 = -18$. entonces $a = a_1+a_5=20-18 =2$. $a=2$. $A=18$
+$a_2=20+A$
+
+Entonces $a_n = A$ is a linear combination.
+
+Considerando que cada número es la suma de los dos adyacentes, podemos suponer que $20+18=38$, then $A_3$ is $20+18=38$. So the answer should be $38$.
+
+Respuesta: D)

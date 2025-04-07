@@ -1,0 +1,77 @@
+Razonamiento: El número 1 debe estar en la casilla de abajo a la izquierda. Luego tenemos que analizar las posibilidades para el resto de los números. Si ponemos el 2 encima del 1, tendremos las siguientes opciones:
+1 2
+3 4 5
+que cumplen la condición. Otra opción es:
+1 3
+2 4 5
+que cumplen la condición. Otra opción es:
+1 4
+2 3 5
+que no cumplen la condición. Y finalmente:
+1 5
+2 3 4
+que no cumplen la condición. Luego el numero 5 sólo puede estar arriba a la derecha.
+Considerando las posibles ubicaciones para 2, 3, 4 y 5 y recordando que los números deben aumentar de izquierda a derecha y de abajo hacia arriba, podemos construir las siguientes combinaciones válidas:
+1. 1-2-3-4-5 -> Bottom left: 1, Middle left: 2, Top left: 3, Top middle: 4, Top right: 5
+2. 1-2-3-5-4 -> Bottom left: 1, Middle left: 2, Top left: 3, Top middle: 5, Top right: 4 (Invalid)
+3. 1-2-4-3-5 -> Bottom left: 1, Middle left: 2, Top left: 4, Top middle: 3, Top right: 5 (Invalid)
+4. 1-2-4-5-3 -> Bottom left: 1, Middle left: 2, Top left: 4, Top middle: 5, Top right: 3 (Invalid)
+5. 1-2-5-3-4 -> Bottom left: 1, Middle left: 2, Top left: 5, Top middle: 3, Top right: 4 (Invalid)
+6. 1-2-5-4-3 -> Bottom left: 1, Middle left: 2, Top left: 5, Top middle: 4, Top right: 3 (Invalid)
+7. 1-3-2-4-5 -> Bottom left: 1, Middle left: 3, Top left: 2, Top middle: 4, Top right: 5 (Invalid)
+8. 1-3-4-2-5 -> Bottom left: 1, Middle left: 3, Top left: 4, Top middle: 2, Top right: 5 (Invalid)
+9. 1 4
+   2 3 5
+Esto no funciona.
+10.
+11. Las combinaciones posibles son:
+
+    1 2 3 4 5
+    1 2 3 5 4 (invalid)
+    1 2 4 3 5 (invalid)
+    1 3 4 5   x
+    1 3 2 4 5 (invalid)
+    1 2 4 5 x
+
+Considerando la forma, podemos llenar las casillas de la siguiente manera:
+* 1 siempre va en la casilla inferior izquierda.
+* 5 siempre va en la casilla superior derecha.
+Esto nos deja con 3 casillas para los números 2, 3 y 4. Si ponemos 2 en el medio, nos quedará: 1 2. Entonces los números en las casillas de arriba deben ser 3, 4 y 5.
+Las combinaciones serían:
+1-3-4-5.  1-3-5-x, 1-4-x, 1-2-4-5-6, 1-2-5-4-3
+Finalmente las opciones serían:
+1) 1, 2, 3, 4, 5
+2) 1, 2, 3, 5, 4 x
+3) 1, 2, 4, 3, 5 x
+4) 1, 3, 2, 4, 5 x
+5) 1, 4
+
+1) 1 2 3
+         4 5
+2) 1 2 4
+         3 5
+3) 1 3 4
+         2 5
+4) 1 3 5 x
+         2 4
+5) 1 4 5  x
+         2 3
+Por lo tanto, las opciones correctas son:
+1 2
+3 4 5
+
+1 3
+2 4 5
+
+1 4
+2 3 5 (no)
+
+1 2 5 x
+
+4 opciones.
+Si el 5 va a la derecha entonces el resto puede variar.
+
+Razonamiento: Analizando las restricciones, el 1 debe ir en la casilla inferior izquierda y el 5 debe ir en la casilla superior derecha.  Luego tengo que acomodar 2, 3 y 4 de manera que los números aumenten hacia arriba y hacia la derecha.
+Después de probar distintas combinaciones encuentro que hay 5 formas posibles de acomodar los números cumpliendo las condiciones.
+
+Respuesta: C)

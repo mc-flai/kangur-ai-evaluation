@@ -1,0 +1,13 @@
+Raonament:
+La Fina té cistelles amb 4, 6, 12, 13, 22 i 29 ous. El client compra una cistella. Després de la venda, el nombre d'ous de gallina és el doble del nombre d'ous d'ànec. Volem determinar quina de les opcions donades pot ser el nombre d'ous que el client va comprar.
+El total d'ous és 4 + 6 + 12 + 13 + 22 + 29 = 86
+Si el client compra la cistella amb 4 ous, queden 86 - 4 = 82 ous. Llavors 2a + a = 82. 3a = 82, que no és un nombre enter.
+Si el client compra la cistella amb 6 ous, queden 86 - 6 = 80 ous. Llavors 2a + a = 80. 3a = 80, que no és un nombre enter.
+Si el client compra la cistella amb 12 ous, queden 86 - 12 = 74 ous. Llavors 2a + a = 74. 3a = 74, que no és un nombre enter.
+Si el client compra la cistella amb 13 ous, queden 86 - 13 = 73 ous. Llavors 2a + a = 73. 3a = 73, que no és un nombre enter.
+Si el client compra la cistella amb 22 ous, queden 86 - 22 = 64 ous. Llavors 2a + a = 64. 3a = 64, que no és un nombre enter.
+Si el client compra la cistella amb 29 ous, queden 86 - 29 = 57 ous. Llavors 2a + a = 57. 3a = 57, a = 19.
+En aquest cas, hi hauria 19 ous d'ànec i 2*19 = 38 ous de gallina.
+Així, la cistella que va comprar el client tenia 29 ous.
+
+Resposta: E)

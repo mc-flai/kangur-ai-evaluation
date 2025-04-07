@@ -1,0 +1,21 @@
+Raonament: Els nombres corresponents a la cel·la ombrejada en el triangle numèric són:
+
+El triangle numèric està construït segons les instruccions següents:
+
+1 · Instruccions
+{x}, {y}, {x + y}.
+
+Aquestes instruccions indiquen que la cel·la superior esquerra tindrà un contingut igual a x, la superior dreta serà y, i la cel·la inferior contindrà la suma de x + y.
+
+Per trobar el valor de la cel·la ombrejada, cal trobar els números que satisfan les instruccions donades en cada nivell, en aquest cas, la primera fila i la segona.
+
+En el cas de la primera fila del triangle numèric, les tres cel·les d'aquesta fila tenen el valor de 2015, 1789, 3764, aquest últim obtenint com el resultat de sumar els dos anteriors, 2015 + 1789. Això proporciona pistes de com s'han generat els números de futures fileres. Per comprovar, ho podem aplicar als números propers:
+
+1ª la segona fila: 20, 15, 35. I és igual que la quantitat és assignada en x, y, x+y respectivament. 
+
+Raonament:  amb aquests nombres satisfem el mètode de generar el triangle numèric de les instruccions:
+
+1. primer nivell: x=20, y=15
+2. segon nivell: x=1572, y=1407 i la posició 3764 no. resumim.
+
+Resposta: A)

@@ -1,0 +1,25 @@
+Reasoning: The four points are approximately at (1,1), (2,1), (4,2), (1.5,5). There are four possible triangles that can be formed by choosing 3 points from 4. The largest area will likely be formed by the three points that are furthest from being collinear. If we draw a rectangle bounding the four points, we see that we can calculate the area of the bounding rectangle and subtract the area of the triangles between the vertices and sides of the rectangle. Or, we can use the determinant method. Another option is to take one side as the base and calculate the altitude of the triangle.
+
+Triangle 1: (1,1), (2,1), (4,2)
+Base = 1, Height = 1, Area = 0.5
+
+Triangle 2: (1,1), (2,1), (1.5,5)
+Base = 1, Height = 4, Area = 2
+
+Triangle 3: (1,1), (4,2), (1.5,5)
+Shoelace Theorem:
+Area = 0.5 * |(1*2 + 4*5 + 1.5*1) - (1*4 + 2*1.5 + 5*1)|
+Area = 0.5 * |(2 + 20 + 1.5) - (4 + 3 + 5)|
+Area = 0.5 * |23.5 - 12|
+Area = 0.5 * 11.5 = 5.75
+
+Triangle 4: (2,1), (4,2), (1.5,5)
+Shoelace Theorem:
+Area = 0.5 * |(2*2 + 4*5 + 1.5*1) - (1*4 + 2*1.5 + 5*2)|
+Area = 0.5 * |(4 + 20 + 1.5) - (4 + 3 + 10)|
+Area = 0.5 * |25.5 - 17|
+Area = 0.5 * 8.5 = 4.25
+
+We observe that Triangle 3 with vertices (1,1), (4,2), (1.5,5) has the largest area (5.75). The closest answer to this is 5.5.
+
+Answer: D)

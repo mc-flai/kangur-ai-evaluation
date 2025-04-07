@@ -1,0 +1,15 @@
+Raisonnement :
+1. **Définir les variables :**
+    * Soit l'âge de Tim, Tom et Jim = x
+    * L'âge de John et James = x - 3
+2. **Calculer la somme des âges :**
+    * Somme des âges = x + x + x + (x - 3) + (x - 3) = 5x - 6
+3. **Tester les options :** On cherche un nombre parmi les options qui, lorsqu'on lui ajoute 6, est divisible par 5.
+    * A) 86 + 6 = 92 (non divisible par 5)
+    * B) 87 + 6 = 93 (non divisible par 5)
+    * C) 88 + 6 = 94 (non divisible par 5)
+    * D) 89 + 6 = 95 (divisible par 5, 95/5 = 19, donc x=19)
+    * E) 90 + 6 = 96 (non divisible par 5)
+4. **Vérification :** Si x=19, alors les triplés ont 19 ans et les jumeaux ont 16 ans. La somme des âges est donc 19+19+19+16+16 = 89.
+
+Réponse : D)

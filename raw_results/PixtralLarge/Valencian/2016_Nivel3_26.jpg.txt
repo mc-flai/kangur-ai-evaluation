@@ -1,0 +1,40 @@
+Per resoldre aquesta pregunta, hem de determinar el nombre total de xiclets (N) que tenien inicialment els nens, basant-nos en les condicions descrites.
+
+Raonament:
+1. Si hi ha N xiclets, i es reparteixen un munt de pomes sense trencar-ne cap i sense que ningú sobri cap poma, volem dir que N és divisible per 2.
+2. Si hi ha N-2 xiclets, tocaria una poma més a cadascú, això vol dir que N-2 és divisible per 3.
+3. Si hi ha N-3 xiclets, tocaven dues pomes més a cadascú, això vol dir que N-3 és divisible per 4.
+
+Per tant, hem de trobar un valor de N que compleixi:
+- N és divisible per 2.
+- N-2 és divisible per 3.
+- N-3 és divisible per 4.
+
+Provem les opcions:
+
+A) N = 6
+- 6 és divisible per 2 (verd).
+- 6 - 2 = 4, i 4 és divisible per 3 (fals).
+- 6 - 3 = 3, i 3 és divisible per 4 (fals).
+
+B) N = 8
+- 8 és divisible per 2 (verd).
+- 8 - 2 = 6, i 6 és divisible per 3 (verd).
+- 8 - 3 = 5, i 5 no és divisible per 4 (fals).
+
+C) N = 9
+- 9 no és divisible per 2 (fals).
+
+D) N = 10
+- 10 és divisible per 2 (verd).
+- 10 - 2 = 8, i 8 és divisible per 3 (fals).
+- 10 - 3 = 7, i 7 no és divisible per 4 (fals).
+
+E) N = 12
+- 12 és divisible per 2 (verd).
+- 12 - 2 = 10, i 10 no és divisible per 3 (fals).
+- 12 - 3 = 9, i 9 no és divisible per 4 (fals).
+
+Només la opció B) N = 8 compleix les condicions per a N-2 i N-3.
+
+Resposta: B)

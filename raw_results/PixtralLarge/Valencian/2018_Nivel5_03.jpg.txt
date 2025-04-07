@@ -1,0 +1,35 @@
+Per resoldre aquest problema, seguirem els passos indicats:
+
+1. **Subtract 1 from the number**: If the initial number is \( x \), then after subtracting 1, we get \( x - 1 \).
+2. **Add 2 to the result**: Adding 2 to the previous result gives us \( (x - 1) + 2 = x + 1 \).
+3. **Divide the result by 3**: Dividing the previous result by 3 gives us \( \frac{x + 1}{3} \).
+4. **Subtract 4 from the quotient**: Subtracting 4 from the quotient gives us \( \frac{x + 1}{3} - 4 \).
+5. **Multiply the result by 4 and add 56**: Multiplying the previous result by 4 and adding 56 gives us \( 4 \left( \frac{x + 1}{3} - 4 \right) + 56 \).
+
+Now, let's simplify the expression step by step:
+
+\[ 4 \left( \frac{x + 1}{3} - 4 \right) + 56 \]
+\[ = 4 \left( \frac{x + 1 - 12}{3} \right) + 56 \]
+\[ = 4 \left( \frac{x - 11}{3} \right) + 56 \]
+\[ = \frac{4(x - 11)}{3} + 56 \]
+\[ = \frac{4x - 44}{3} + 56 \]
+\[ = \frac{4x - 44 + 168}{3} \]
+\[ = \frac{4x + 124}{3} \]
+
+For the final result to be an integer, \( 4x + 124 \) must be divisible by 3.
+
+We need to check which of the given options, when substituted for \( x \), makes \( 4x + 124 \) divisible by 3.
+
+- **A) 36**: \( 4(36) + 124 = 144 + 124 = 268 \) (268 is not divisible by 3)
+- **B) 37**: \( 4(37) + 124 = 148 + 124 = 272 \) (272 is not divisible by 3)
+- **C) 38**: \( 4(38) + 124 = 152 + 124 = 276 \) (276 is divisible by 3)
+- **D) 41**: \( 4(41) + 124 = 164 + 124 = 288 \) (288 is divisible by 3)
+- **E) 43**: \( 4(43) + 124 = 172 + 124 = 296 \) (296 is not divisible by 3)
+
+Both options C) 38 and D) 41 make \( 4x + 124 \) divisible by 3. However, the problem asks for the initial number, and since both options are valid, we need to check which one fits the context of the problem better.
+
+Given the context of the problem, the correct answer is:
+
+Raonament: After following the steps and checking divisibility, we found that both 38 and 41 make the final result an integer. However, the problem asks for the initial number, and since both options are valid, we need to choose the one that fits the context better.
+
+Resposta: C)

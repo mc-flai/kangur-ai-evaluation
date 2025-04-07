@@ -1,0 +1,22 @@
+
+Raisonnement :
+Pour déterminer la somme des chiffres du nombre \(10^{2022} + 10^{22}\), nous devons d'abord comprendre la structure du nombre.
+
+1. Le nombre \(10^{2022}\) est un 1 suivi de 2022 zéros.
+2. Le nombre \(10^{22}\) est un 1 suivi de 21 zéros.
+
+Lorsque nous additionnons ces deux nombres, nous obtenons :
+\[ 10^{2022} + 10^{22} = 1000...000 (2022 zéros) + 1000...0 (21 zéros) \]
+
+Cette addition résulte en :
+\[ 10^{2022} + 10^{22} = 1000...0210 \]
+
+Les chiffres de ce nombre sont 1, 0, 0, ..., 0, 0, 2, 1, 0.
+
+3. La somme des chiffres est donc :
+\[ 1 + 0 + 0 + ... + 0 + 2 + 1 + 0 \]
+
+Il y a 2020 zéros, donc la somme des chiffres est :
+\[ 1 + 0 + 0 + ... + 0 + 2 + 1 + 0 = 1 + 2 + 1 = 4 \]
+
+Réponse : A)

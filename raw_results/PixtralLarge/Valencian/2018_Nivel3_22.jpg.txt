@@ -1,0 +1,59 @@
+Per resoldre la pregunta 22, hem de calcular l'àrea de la part grisa de la figura, que és la diferència entre l'àrea del polígon de 8 costats i l'àrea del cercle inscrit.
+
+**Raonament**:
+1. **Calcular l'àrea del polígon de 8 costats (octàgon regular)**:
+   - L'octàgon està inscrit en un cercle de radi 5 (ja que el punt (3,5) està en el cercle).
+   - Utilitzem la fórmula de l'àrea d'un polígon regular inscrit en un cercle:
+     \[
+     A_{\text{octàgon}} = \frac{1}{2} \times n \times r^2 \times \sin\left(\frac{2\pi}{n}\right)
+     \]
+     on \( n = 8 \) i \( r = 5 \).
+   - Substituint els valors:
+     \[
+     A_{\text{octàgon}} = \frac{1}{2} \times 8 \times 5^2 \times \sin\left(\frac{2\pi}{8}\right)
+     \]
+     \[
+     A_{\text{octàgon}} = 4 \times 25 \times \sin\left(\frac{\pi}{4}\right)
+     \]
+     \[
+     A_{\text{octàgon}} = 100 \times \frac{\sqrt{2}}{2}
+     \]
+     \[
+     A_{\text{octàgon}} = 50\sqrt{2}
+     \]
+
+2. **Calcular l'àrea del cercle inscrit**:
+   - El radi del cercle és 3 (ja que el punt (3,3) està en el cercle).
+   - Utilitzem la fórmula de l'àrea d'un cercle:
+     \[
+     A_{\text{cercle}} = \pi r^2
+     \]
+     on \( r = 3 \).
+   - Substituint els valors:
+     \[
+     A_{\text{cercle}} = \pi \times 3^2
+     \]
+     \[
+     A_{\text{cercle}} = 9\pi
+     \]
+
+3. **Calcular l'àrea de la part grisa**:
+   - L'àrea de la part grisa és la diferència entre l'àrea de l'octàgon i l'àrea del cercle:
+     \[
+     A_{\text{grisa}} = A_{\text{octàgon}} - A_{\text{cercle}}
+     \]
+     \[
+     A_{\text{grisa}} = 50\sqrt{2} - 9\pi
+     \]
+
+4. **Comparar amb les opcions donades**:
+   - La resposta correcta és la que coincideix amb \( 50\sqrt{2} - 9\pi \).
+   - Observant les opcions:
+     - A) \( 4(7 - \pi) \)
+     - B) \( 4(8 - \pi) \)
+     - C) \( 5(7 - \pi) \)
+     - D) \( 6(8 - \pi) \)
+     - E) \( 8(6 - \pi) \)
+   - La forma correcta és \( 8(6 - \pi) \), ja que \( 50\sqrt{2} \approx 70.71 \) i \( 9\pi \approx 28.27 \), per tant \( 50\sqrt{2} - 9\pi \approx 42.44 \), que és molt proper a \( 8(6 - \pi) = 48 - 8\pi \approx 42.64 \).
+
+**Resposta**: E)

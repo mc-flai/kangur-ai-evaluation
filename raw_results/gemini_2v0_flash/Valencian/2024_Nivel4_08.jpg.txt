@@ -1,0 +1,32 @@
+Raonament: Per resoldre aquest problema hem de tenir en compte que les dates es representen en format DD/MM. Analitzem la freqüència d'aparició de cada dígit:
+- 0: pot aparèixer al dia (01, 02, ..., 09, 10, 20, 30) i al mes (10).
+- 1: pot aparèixer al dia (1, 10, 11, 12, ..., 19, 21, 31) i al mes (01, 11, 12).
+- 2: pot aparèixer al dia (2, 12, 20, 21, 22, ..., 29) i al mes (02, 12).
+- 3: pot aparèixer al dia (3, 13, 23, 30, 31) i al mes (03).
+- 4: pot aparèixer al dia (4, 14, 24).
+- 5: pot aparèixer al dia (5, 15, 25).
+- 6: pot aparèixer al dia (6, 16, 26).
+- 7: pot aparèixer al dia (7, 17, 27).
+- 8: pot aparèixer al dia (8, 18, 28).
+- 9: pot aparèixer al dia (9, 19, 29).
+
+El dia més gran que es pot mostrar és el 31, i el mes més gran és el 12. Hem d'assegurar que tenim suficients imants per poder representar totes les dates.
+Per als dies, necessitem representar el número 1 almenys 13 vegades (1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 31).
+Necessitem un 0 almenys 9 vegades (01, 02, ..., 09, 10, 20, 30).
+Necessitem un 2 almenys 11 vegades (2, 12, 20, 21, 22, ..., 29).
+Necessitem un 3 almenys 5 vegades (3, 13, 23, 30, 31).
+
+Per als mesos, necessitem el 1 dues vegades (10, 11, 12).
+El 0 apareix 9 vegades (01, 02, 03, 04, 05, 06, 07, 08, 09, 10).
+El 2 apareix en 02 i 12.
+Els números que necessitem amb més freqüència són 1 i 2. Si considerem només aquests dos, necessitarem:
+1: 13 (dies) + 3 (mesos) = 4 (dies) + 2 (mesos)= 16 imants.
+0: 9 (dies) + 10 (mesos) = 19 imants.
+
+Analitzant les dates que necessiten la major quantitat de repeticions de dígits, podem deduir el nombre mínim d'imants necessaris:
+
+- El dígit "1" apareix a les dates 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 31 i els mesos 01, 11, 12. Això fa un total de 13+3=4 (dies) + 3 (mesos) + 5 (dies) + 2 (mesos) = 17.  El dígit "1" apareix 8 vegades al nombre del dia (1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 31) i a cada mes un 1 a 01, 11, 12. Així que hi ha 13+10 = 23. Aquest és el valor que necessitem.
+
+Raonament: Tenint en compte la distribució de les xifres a les dates, analitzem quina xifra es repeteix més. El '1' és el més repetit: apareix al dia 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 31, i al mes 01, 11, 12. Per tant, hem de comptar el número d'1 que necessitem com a mínim. Necessitem 13 per als dies i 3 per als mesos, cosa que fa un total de 13 imants per al día i dos 1 per cada mes(1-3+1+2) =3. El 2 es el següent mes repetit, pero aquest esta cobert per el nombre de 1.
+
+Resposta: D)

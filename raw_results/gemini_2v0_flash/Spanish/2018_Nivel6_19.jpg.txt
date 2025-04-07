@@ -1,0 +1,11 @@
+Razonamiento:
+Primero, identificamos los valores de las cinco cartas: 3, 4, 5, 6, 7. La suma de estos valores es 3+4+5+6+7 = 25.
+
+Ahora, vamos a considerar todas las posibles combinaciones de tres cartas para Nadia. Para cada combinación, calcularemos el producto de los valores de las cartas de Nadia y el producto de los valores de las cartas restantes de Raúl.  Luego, sumaremos estos dos productos y verificaremos si la suma es un número primo.  Finalmente, si encontramos una combinación que cumpla esta condición, calcularemos la suma de los valores de las cartas de Nadia y verificaremos si coincide con alguna de las opciones dadas.
+
+*   **Caso 1:** Nadia: 3, 4, 5.  Producto de Nadia: 3*4*5 = 60. Raúl: 6, 7. Producto de Raúl: 6*7 = 42. Suma: 60+42 = 102 (no primo)
+*   **Caso 2:** Nadia: 3, 4, 6. Producto de Nadia: 3*4*6 = 72. Raúl: 5, 7. Producto de Raúl: 5*7 = 35. Suma: 72+35 = 107 (primo).  Suma de los valores de las cartas de Nadia: 3+4+6 = 13.
+
+Dado que encontramos una combinación donde la suma de los productos es un número primo (107) y la suma de los valores de las cartas de Nadia (13) coincide con una de las opciones, podemos detenernos aquí.
+
+Respuesta: B)

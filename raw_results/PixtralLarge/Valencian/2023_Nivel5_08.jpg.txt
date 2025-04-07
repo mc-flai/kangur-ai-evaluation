@@ -1,0 +1,30 @@
+**Raonament**:
+
+Per resoldre l'expressió \( 2^{2^2} \cdot 2^{2^{2^2}} : \left( \left( 2^2 \right)^2 \right)^2 \), primer hem de calcular els diferents termes involucrats.
+
+1. Calculem \( 2^{2^2} \):
+   \[
+   2^{2^2} = 2^4 = 16
+   \]
+
+2. Calculem \( 2^{2^{2^2}} \):
+   \[
+   2^{2^{2^2}} = 2^{2^4} = 2^{16}
+   \]
+
+3. Calculem \( \left( \left( 2^2 \right)^2 \right)^2 \):
+   \[
+   \left( \left( 2^2 \right)^2 \right)^2 = \left( \left( 4 \right)^2 \right)^2 = \left( 16 \right)^2 = 256
+   \]
+
+4. Agora multipliquem els dos primers termes:
+   \[
+   2^{2^2} \cdot 2^{2^{2^2}} = 2^4 \cdot 2^{16} = 2^{4+16} = 2^{20}
+   \]
+
+5. Finalment, dividim per l'últim terme:
+   \[
+   2^{20} : 256 = \frac{2^{20}}{2^8} = 2^{20-8} = 2^{12}
+   \]
+
+**Resposta**: D) \( 2^{12} \).

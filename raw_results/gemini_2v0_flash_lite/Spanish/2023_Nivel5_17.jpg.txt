@@ -1,0 +1,7 @@
+Razonamiento:
+1. **Identificar el patrón:** Cada tercer escalón es negro. Ana alterna su pie derecho e izquierdo.
+2. **Determinar los escalones negros pisados con el pie derecho:** Si Ana comienza con el pie derecho, el primer escalón negro (el tercero) lo pisa con el pie izquierdo, el siguiente escalón negro (el sexto) lo pisa con el pie derecho, luego el siguiente (el noveno) con el pie izquierdo, y así sucesivamente. Esto significa que los escalones negros pisados con el pie derecho son los escalones negros que tienen número par.
+3. **Calcular el número total de escalones negros:** El número total de escalones negros es 2023 / 3 = 674 con un residuo de 1. Es decir, hay 674 escalones negros.
+4. **Calcular el número de escalones negros pisados con el pie derecho:** Como la mitad de los escalones negros con número par y la otra mitad con impar, y Ana comienza con el pie derecho, el número de escalones negros que pisa con el pie derecho es 674 / 2 = 337.
+
+Respuesta: D)

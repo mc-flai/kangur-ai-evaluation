@@ -1,0 +1,7 @@
+Raisonnement : Soit l'aire du carré $A_c$ et l'aire du pentagone $A_p$. On sait que $A_c$ et $A_p$ sont des entiers consécutifs, donc $|A_c - A_p| = 1$. L'aire du pentagone est l'aire du carré moins l'aire du triangle rectangle formé par le pliage. Si on appelle $x$ le côté du carré, l'aire du carré est $x^2$. Le triangle formé par le pliage est un triangle rectangle isocèle avec une hypoténuse de $x$, donc les côtés du triangle rectangle isocèle valent $\frac{x}{\sqrt{2}}$. L'aire du triangle est donc $\frac{1}{2} (\frac{x}{\sqrt{2}})^2 = \frac{x^2}{4}$. L'aire du pentagone est $x^2 - \frac{x^2}{4} = \frac{3x^2}{4}$.
+On a donc deux cas :
+*   $A_c - A_p = 1$, donc $x^2 - \frac{3x^2}{4} = 1$, ce qui donne $\frac{x^2}{4} = 1$, donc $x^2 = 4$, ce qui correspond à $A_c = 4$ et $A_p = 3$.
+*   $A_p - A_c = 1$, donc $\frac{3x^2}{4} - x^2 = 1$, ce qui donne $-\frac{x^2}{4} = 1$, ce qui est impossible car l'aire ne peut être négative.
+Par conséquent, l'aire du carré est 4.
+
+Réponse : B)

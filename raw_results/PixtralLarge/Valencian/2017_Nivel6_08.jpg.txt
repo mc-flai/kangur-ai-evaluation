@@ -1,0 +1,23 @@
+**Raonament**:
+
+La pregunta demana trobar el valor de \(\sin x \cdot \cos x\) donada la condició que \(\tan x + \cot x = \pi\).
+
+A partir de la identitat fonamental de la trigonometria, sabem que:
+\[ \tan x = \frac{\sin x}{\cos x} \]
+\[ \cot x = \frac{\cos x}{\sin x} \]
+
+Per tant:
+\[ \tan x + \cot x = \frac{\sin x}{\cos x} + \frac{\cos x}{\sin x} = \frac{\sin^2 x + \cos^2 x}{\sin x \cos x} \]
+
+D'acord amb la identitat pitagòrica:
+\[ \sin^2 x + \cos^2 x = 1 \]
+
+Per tant:
+\[ \frac{\sin^2 x + \cos^2 x}{\sin x \cos x} = \frac{1}{\sin x \cos x} = \pi \]
+
+Això implica que:
+\[ \sin x \cos x = \frac{1}{\pi} \]
+
+Per tant, el valor de \(\sin x \cdot \cos x\) és \( \frac{1}{\pi} \).
+
+**Resposta**: D) \(1/\pi\).

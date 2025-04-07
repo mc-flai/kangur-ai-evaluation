@@ -1,0 +1,50 @@
+Reasoning: Let's denote the numbers in the circles starting from 3 going clockwise as follows: 3, x, 5, y, z, and the circle with the "?".  We are given that each number is the sum of its neighbors.  This gives us the following equations:
+*   x = 3 + 5 = 8
+*   5 = x + y => 5 = 8 + y => y = -3
+*   y = 5 + z => -3 = 5 + z => z = -8
+*   ? = y + z => ? = -3 + (-8) = -11
+*   3 = z + ? => 3 = -8 + ? => ? = 11
+
+However, this is not a correct sequence, as it doesn't meet the conditions.  The correct way to write equations are:
+* x = 3 + 5 = 8
+* 5 = x + y => 5 = 8 + y => y = -3
+* y = 5 + ?
+* 3 = ? + x => 3 = ? + 8 => ? = -5.
+
+Now we can check our work and substitute the solutions:
+* 8 = 3 + 5 (True)
+* 5 = 8 + (-3) (True)
+* -3 = 5 + -8 (False)
+
+We can rewrite the equations:
+* x = 3 + 5 = 8.
+* 5 = 8 + y, thus y = -3.
+* ? + y = 5.
+* 3 = x + ?.
+* 3 = 8 + ?.
+From here, let us find "?".
+? + y = 5
+? - 3 = 5, so ? = 8
+* ? + y = 5, therefore ? = 5 - y, ? = -8
+* 3 = x + ?, thus ? = 3 - x, ? = 3-5=3 - 8 = -5.
+* Thus y = 5 + -8 , then y = 5 + ?
+* ? = y + z
+*  Let ? = n
+* x = 8
+* y = -3
+* 5 = 8 + y => y = -3
+* y = 5 + z. Thus, -3 = 5 + z, and z = -8.
+* z + n = 3,  => -8 + n = 3, n=11.
+* n + x = 3 => n + 8 = 3. no solution.
+* x = 3 + 5
+* ? = -5
+
+Reasoning: Start with the known values. The number in the circle next to 3 and 5 must be 8. The number next to 5 must be -3. The question mark must therefore be -5 (because the number must be equal to sum of neighbors). The equation becomes:
+*   8 = 3 + 5
+*   5 = 8 + (-3)
+*   -3 = 5 + (?) => (?) = -8
+*   (?) = -3 + (?) => ??? = 3
+*   3 = -8 + (?) => ??? = 11,
+*   So the answer is -5.
+
+Answer: A)

@@ -1,0 +1,31 @@
+**Raonament:**
+
+1. Dons dos quadrats amb longituds de costats 6 i 10. L'àrea d'un quadrat es calcula com \( \text{Àrea} = \text{Costat}^2 \).
+   - Àrea del primer quadrat: \( 6^2 = 36 \)
+   - Àrea del segon quadrat: \( 10^2 = 100 \)
+
+2. Els dos quadrats estan dibuixats de manera que un costat de cada quadrat està en contat amb un costat de l'altre, formant un triangle rectangle amb la hipotenusa com la diagonal del rectangle format pels dos quadrats.
+
+3. Segons el teorema de Pitàgores, la hipotenusa (la diagonal del rectangle) es calcula com:
+   \[
+   c = \sqrt{a^2 + b^2}
+   \]
+   on \( a \) i \( b \) són els costats del rectangle.
+
+4. En aquest cas, \( a = 6 \) i \( b = 10 \):
+   \[
+   c = \sqrt{6^2 + 10^2} = \sqrt{36 + 100} = \sqrt{136}
+   \]
+
+5. L'àrea del triangle rectangle es calcula com:
+   \[
+   \text{Àrea del triangle} = \frac{1}{2} \times \text{Base} \times \text{Altura}
+   \]
+   Aquí, el base i l'altura són els costats dels quadrats, és a dir, 6 i 10:
+   \[
+   \text{Àrea del triangle} = \frac{1}{2} \times 6 \times 10 = 30
+   \]
+
+6. Per tant, l'àrea del triangle ombrat és 30.
+
+**Resposta:** C) 50.

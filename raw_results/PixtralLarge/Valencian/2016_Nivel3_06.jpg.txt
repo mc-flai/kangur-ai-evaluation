@@ -1,0 +1,18 @@
+1. **Analitzant la pregunta**:
+   La imatge mostra un rectangle superposat sobre un hexàgon regular, dividint el paper en quatre regions. Es demana el nombre més gran de regions disjuntes que es poden obtenir superposant un hexàgon regular i un rectangle.
+
+2. **Identificació de les regions**:
+   Observant la imatge, les regions estan numerades de l'1 al 4. Cadascuna d'aquestes regions és disjunta, és a dir, no comparteixen cap punt intern.
+
+3. **Raonament**:
+   Per determinar el nombre més gran de regions disjuntes possibles:
+   - Observem que l'hexàgon i el rectangle tenen costats que s'intersecten creant regions disjuntes.
+   - Cada costat del rectangle pot crear una regió disjunta.
+   - L'hexàgon té 6 costats interiors que també poden crear regions disjuntes.
+   - Considerant que el rectangle i l'hexàgon estan superposats de manera que es creïn el màxim nombre de regions disjuntes, cada costat del rectangle i de l'hexàgon contribueix a una regió disjunta.
+
+4. **Conclusió**:
+   Cada costat del rectangle (4 costats) i cada costat de l'hexàgon (6 costats) poden crear regions disjuntes. El nombre total de regions disjuntes que es poden obtenir és la suma de les regions creades per cada costat del rectangle i de l'hexàgon, que és 10.
+
+Raonament: Cada costat del rectangle i de l'hexàgon pot contribuir a crear una regió disjunta, resultant en un total de 10 regions disjuntes.
+Resposta: D)

@@ -1,0 +1,27 @@
+Reasoning:
+The large square has a side length of 30 cm, and it is divided into 9 equal squares. Each of these smaller squares has a side length of 30/3 = 10 cm. Thus, the area of each small square is 10 * 10 = 100 cm².
+
+There are 5 squares shaded in grey. This has an area of 5 * 100 = 500 cm².
+
+We need to subtract the area of the quarter circle in the bottom right square, which has a radius of 5 cm. The area of this quarter circle is (1/4) * π * (5²) = (25π)/4 cm².
+We also need to subtract the area of the full circle on the top left square with radius 4 cm. The area of the circle is π * (4^2) = 16π.
+We also need to subtract the area of the full circle on the top right square with radius 3 cm. The area of the circle is π * (3^2) = 9π.
+Total area of shaded regions is 500- (25π)/4 - 16π - 9π = 500 - (25π)/4 - 25π = 500 - 25π/4 - 100π/4 = 500 - 125π/4
+
+None of the answer choices match this. Let's consider just the 5 shaded squares. The large circle on the bottom right square has radius 5cm, with area 25π. A quarter of the circle is in the white region so we need to remove that area.
+The circle on the top left has radius 4cm, with area 16π. Since it's in the white region, subtract this.
+The circle on the top right has radius 3cm, with area 9π. Since it's in the white region, subtract this.
+Therefore the shaded area is 500 - (25/4 + 16 + 9)π = 500 - (25/4 + 100/4)π = 500 - (125/4)π.
+Again, none of the solutions match. But notice that only one square contains circles, leaving two fully shaded squares plus one half shaded square. This gives us 2 full squares + one half full squares fully shaded. Area of each square is 100. 2.5 * 100 = 250 + 200. Area of the shaded square is 2 squares plus a full square.
+
+Let's look at the bottom left square with radius 5 cm (25π). The area is equal to ¼(π*5²). We need to subtract this area from the 500 cm². Thus:
+500 - ¼(π*5²) = 500 - ¼(25π) = 500 - 25π/4. This is none of the given solutions.
+
+Let's analyze answer choice (E) 500-25π. It's not perfect, but probably the closest to the actual answer.
+
+Reasoning: After re-evaluating the problem, let's simplify and focus on the key geometrical areas involved and relate them to the given answer choices.
+Area of the big square = 30*30 = 900. Area of each small square = 100. Area of 5 shaded squares = 500.
+
+Bottom right has a quarter circle with area 25π/4 subtracted. The closest value could be when we remove the entire bottom right square of 100 minus the area of ¼ of a circle of radius 5cm. That area is (10^2-1/4π5^2). Area of 5 *10*10 is 500. (E) seems like the most plausible answer because there is shading in 5 squares and circles being subtracted.
+
+Answer: E)

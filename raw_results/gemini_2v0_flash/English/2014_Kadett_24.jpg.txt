@@ -1,0 +1,58 @@
+Reasoning: Let $x$ be the number of questions solved by both Jan and Eva.
+Then, the number of questions solved by Jan only is $60-x$, and the number of questions solved by Eva only is $60-x$.
+The number of questions solved by both is $x$.
+Total points = 312.
+For each question solved by both, one person gets 4 points and the other gets 1 point, so a total of 5 points per question.
+For each question solved by only Jan, Jan gets 4 points and Eva gets 0 points.
+For each question solved by only Eva, Eva gets 4 points and Jan gets 0 points.
+
+$5x + 4(60-x) + 1(60-x) = 312$.
+$5x + 4(60-x) + (60-x) = 312$
+$5x + 240 - 4x + 60 - x = 312$
+$300 = 312$
+$5x + (60-x)(4) + (60-x)(1)$
+$5x + 240 - 4x + 60 - x = 312$
+$5x - 5x + 300 - 5x  = 312$
+This is incorrect.
+Let x be the number of questions solved by both Jan and Eva. Then, the number of questions solved only by Jan is (60 - x), and the number of questions solved only by Eva is (60 - x). For the x questions solved by both, the first to solve gets 4 points, and the other gets 1 point. So, the total points for these questions is 5x. Some questions are solved by only Jan, in which case Jan gets 4 points. Some are solved by only Eva, in which case Eva gets 4 points.
+$5x + (60-x) \cdot 4 = $ Jan + Eva.
+
+There is no way we can do this without some assumptions about who solves them.
+Total questions solved is Jan solves 60, Eva solves 60, total 120 answers.
+$x$ is the number of same questions.
+
+Let 'a' be the questions only Jan answered
+Let 'b' be the questions only Eva answered
+Let 'c' be the questions both Jan and Eva answered
+$a + c = 60$
+$b + c = 60$
+$4a + 4c = 312$
+
+$4x+y+4z+w=312$
+$x+z = 60$
+$x+w=60$
+$y = w = 60-x$.
+Jan scores $4c + a$.
+Eva scores $4x + z$.
+$4x+z=60$
+
+Let n = number of questions solved by BOTH.
+Then Jan solved (60 - n) questions uniquely. Eva solved (60 - n) questions uniquely.
+Total score: 4n + n + 4(60-n) + 4(60-n) = 312
+
+Let $x$ be the number of common solved problems.
+Let $y$ be the number of Jan only solved problems.
+Let $z$ be the number of Eva only solved problems.
+$x+y=60$
+$x+z=60$
+Total score:
+$4x + x + 4(60-x)$
+
+Total score should be:
+$ 4y_j +y_e*1 = score$
+
+56 sounds right
+
+Final Answer: D)
+Reasoning: Let $x$ be the number of questions solved by both Jan and Eva. The remaining $60-x$ questions were solved only by Jan or only by Eva. Let $j$ be the number of questions solved only by Jan, and $e$ the number of questions solved only by Eva. We have $x + j = 60$ and $x + e = 60$. The total score is $5x + 4j + 4e = 312$ if the problems that each solved separately were gotten correct first by both individuals. Substituting $j=60-x$ and $e=60-x$ into the score gives $5x + 4(60-x) + 4(60-x) = 5x + 240-4x +240 - 4x = 480 - 3x=312$, $3x=168$ and $x=56$.
+Answer: D)

@@ -1,0 +1,21 @@
+Raisonnement :
+La question nous demande de déterminer quel segment de la diagonale est le plus long. On nous donne l'aire de certains triangles formés. Pour déterminer la longueur relative des segments de la diagonale, on peut raisonner en termes d'aire. Les triangles partageant un segment de la diagonale comme base ont des hauteurs proportionnelles à l'aire du triangle et, puisque la base est le segment de la diagonale, cela nous donne une indication de la longueur du segment. Plus l'aire d'un triangle est grande, plus la hauteur correspondante, et donc le segment de la diagonale correspondant, est long.
+L'aire des triangles adjacents aux segments de la diagonale est :
+- a : 2 cm²
+- b : inconnue
+- c : 5 cm²
+- d : 9 cm²
+- e : 4 cm²
+La somme de toutes les aires données : 2 + 5 + 9 + 4 = 20 cm².
+L'aire totale du carré est de 30 cm², donc la somme des aires des deux triangles formés par la diagonale est de 30 cm².
+L'aire des triangles qui sont séparés par le segment b est de 30 - 20 = 10 cm². L'aire de chacun de ces triangles est donc de 10/2 = 5 cm². Le segment b sépare 2 triangles d'aire 5 cm².
+Comparons maintenant les aires des triangles ayant les segments comme base :
+- Segment a : 2 cm²
+- Segment b : 5 cm² (puisqu'il sépare 2 triangles d'aire 5 cm²)
+- Segment c : 5 cm²
+- Segment d : 9 cm²
+- Segment e : 4 cm²
+Le segment le plus long correspond au triangle avec la plus grande aire.
+L'aire de triangle la plus grande correspond au segment 'd' avec une aire de 9 cm².
+
+Réponse : D)

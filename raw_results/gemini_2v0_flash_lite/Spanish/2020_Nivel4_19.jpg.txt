@@ -1,0 +1,10 @@
+Razonamiento:
+La operación ⊗ se define como n ⊗ m = (n-1) * (n-2) * ... * (n-m).  En este caso, tenemos 8 ⊗ x = 210. Esto significa que debemos encontrar el producto de x números consecutivos, comenzando desde 8-1 = 7, tal que el producto sea 210.
+
+Probamos con las opciones:
+*   Si x=2, entonces 7 * (7 -1) = 7 * 6 = 42  (No es 210)
+*   Si x=3, entonces (8-1) * (8-2) * (8-3) = 7 * 6 * 5 = 210.
+
+Por lo tanto, la respuesta correcta es x = 3.
+
+Respuesta: B)

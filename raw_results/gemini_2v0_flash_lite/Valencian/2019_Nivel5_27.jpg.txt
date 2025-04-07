@@ -1,0 +1,69 @@
+Raonament:
+Per minimitzar la suma, cal intentar que els nombres siguin tan petits com sigui possible.
+La condició diu que els nombres connectats per un costat han de ser múltiples l'un de l'altre, i els connectats per la diagonal no.
+Això significa que si tenim els nombres a, b, c i d en un quadrat en ordre, a i b han de ser múltiples l'un de l'altre; b i c, també; c i d, també; i d i a, també. A més, a i c no han de ser múltiples l'un de l'altre, ni b i d.
+Una solució possible per a minimitzar la suma és usar nombres prims diferents per als vèrtexs no adjacents, i el producte d'aquests nombres per als adjacents.
+Llavors, podríem tenir 2 i 3 a la diagonal i 6 a la diagonal oposada i 6. Però la suma seria 2+6+3+6=17. 12 ja no és una opció. Però a i c no poden ser múltiples l'un de l'altre, ni b i d.
+Per tant, haurem de canviar això.
+Si fem a=1, b=2, c=3 i d=4, aleshores tenim: 1-2 (múltiple), 2-3 (no múltiple), 3-4 (no múltiple) i 4-1 (múltiple). Això no funciona.
+Si posem 2 i 3 en diagonal i 6, tenim 2 i 3 no són múltiples i 6 és múltiple de 2 i 3 i, per tant, hem de posar un nombre que sigui múltiples de 2 i de 3.
+Podem posar 2, 6, 3, 6 (2-6-3-6). Però a i c no pot ser múltiple.
+Si posem 2, 6, 3, 4, no funciona.
+Si posem 2, 6, 3, 12, funciona. Però no pot ser múltiple.
+Si tenim els nombres 2, 3, 5, i 7. Llavors hem de canviar aquests nombres, ja que no pot ser múltiple per a nombres diagonals.
+Per tant, si tenim 1, 2, 4, i 8, 1+8 no és múltiple, i 2 i 4 són múltiples.
+1, 2, 3, 6.
+2, 6, 3, 9.
+Provem 2, 6, 5, 15
+2, 6, 10, 30, llavors la suma és 48.
+Si posem a=6, b=2, c=15, d=5. Llavors 6-2 sí, 2-15 no, 15-5 sí, 5-6 no. La suma seria 28. Això no és possible.
+Si utilitzem 2, 3, 5, 7,
+Podríem posar 6, 2, 10, 15.
+6-2, 2-15, 15-10, 10-6. No funciona.
+Si poso 2, 6, 3, x, 2-6, 6-x, x-3, 3-2.
+2, 6, 3, x, 6 és múltiple de 2 i 3 no.
+Aleshores la resposta es basa en la diagonal no múltiple, per tant, 2, 3 en la diagonal.
+Aleshores els laterals han de ser múltiples de 2 i de 3, el 6. Llavors haurien de ser 6, 2, 6, 3.
+El 12 no funcionarà.
+Si tinc un nombre prim, i un altre nombre prim, i el seu múltiple, i un altre múltiple.
+Per tant, tenim 2, 3, 4, 6, 2+3+4+6 = 15.
+10, 6, 15, x.
+Si utilitzo 6, 10, 15, no funciona.
+
+Si tenim 5, 6, 10, 3, la suma és 24.
+5, 6 no és múltiple, però 6, 10 no, però 10-3, no, però 3-5 no.
+Si tenim 1, 2, 3, 4, no funciona.
+Si tenim 2, 6, 3, 12, 6 és múltiple de 2 i 3, però 2, 3 no són múltiples.
+Si fem 10, 6, 15, 9. No funciona.
+2, 6, 3, 5. No funciona.
+Provem 2, 10, 3, 15.
+Si tenim 6, 10, 15, 3, 6 és múltiple de 3, i 10-15 no i 6 i 15 no funciona.
+6-15
+6+3+10+15=34.
+Provem 10, 15, 6, 3.
+2, 3, 5, 7.
+2+3=5
+6, 10, 15, x.
+10 i 15 no són múltiples. Però 6 és múltiple de 3 i 15 és múltiple de 3.
+Si tenim 6, 10, 15, 3. No funciona.
+30 funciona: 6, 10, 15, 15, 6.
+El 30 podria funcionar.
+Però si és 6, 10, 15, 3.
+
+2, 6, 3, 9
+2-6, 6-9 no, 9-3 si, 3-2 no.
+La suma és 20.
+Si ho fem 1, 2, 3, 6, 12.
+2, 6, 3, 12. 2+6+3+12 = 23.
+Però els diagonals no són múltiples.
+2-6, 6-3 no, 3-12 si, 12-2 no.
+2, 6, 3, 1.
+Suma: 12.
+1, 2, 4, 8. 1-2-4-8.
+Això no pot ser.
+6, 10, 15, 3.
+24.
+6, 3, 10, 15. 6-3-15-10.
+La resposta ha de ser 30.
+
+Resposta: C)

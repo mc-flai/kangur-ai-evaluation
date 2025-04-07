@@ -1,0 +1,17 @@
+Raonament:
+La quantitat total de diners a la butxaca de Dani és una combinació lineal de 2 i 5, és a dir, pot expressar-se com 2x + 5y, on x + y = 21 (nombre total de monedes). Per tant, x = 21 - y, i la quantitat total seria 2(21 - y) + 5y = 42 - 2y + 5y = 42 + 3y. Com que y és un nombre enter no negatiu entre 0 i 21, podem verificar si cada una de les opcions donades pot expressar-se d'aquesta forma.
+A) 45 = 42 + 3y => 3y = 3 => y = 1. Aquesta opció és possible.
+B) 60 = 42 + 3y => 3y = 18 => y = 6. Aquesta opció és possible.
+C) 70 = 42 + 3y => 3y = 28. y no és enter. Però si 70 és possible, llavors 70 = 5x + 2y, amb x + y = 21. Això és 5x + 2(21 - x) = 5x + 42 - 2x = 3x + 42 = 70, llavors 3x = 28, x no és enter, per tant 70 no és possible.
+D) 81 = 42 + 3y => 3y = 39 => y = 13. Aquesta opció és possible.
+E) 102 = 42 + 3y => 3y = 60 => y = 20. Aquesta opció és possible.
+
+Alternativament, com que tenim 21 monedes, la suma sempre té la mateixa paritat. Si totes les monedes fossin de 2 cèntims, la suma seria de 42 cèntims, que és parell. Per canviar una moneda de 2 cèntims per una de 5 cèntims, augmentem la suma en 3 cèntims. Per tant, la suma sempre serà del tipus 42 + 3y, que sempre serà parell + parell/imparell = parell o imparell segons y és parell o imparell.
+A) 45 (imparell). El nombre de monedes de 5 cèntims seria imparell
+B) 60 (parell). El nombre de monedes de 5 cèntims seria parell.
+C) 70 (parell). El nombre de monedes de 5 cèntims seria parell.
+D) 81 (imparell). El nombre de monedes de 5 cèntims seria imparell.
+E) 102 (parell). El nombre de monedes de 5 cèntims seria parell.
+Com que 70 = 3x + 42, => 3x = 28, x no és enter. Per tant, 70 no és possible.
+
+Resposta: C)

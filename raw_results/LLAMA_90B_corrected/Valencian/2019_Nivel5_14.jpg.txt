@@ -1,0 +1,11 @@
+Raonament: Desenvolupament pla d'un octàedre simplement connectat, com en la il·lustració, consisteix a retallar les costures del políedre per obtenir l'esquema en 2D. L'enunciat del Problema 14 indica que una correcta construcció del dibuix hauria de permetre la concordança entre el segment indicat amb la lletra *x* amb 2, 3, 4 o 5 traçant una línia contínua sobre el polígon. 
+
+Sigui *x* la recta que uneix els segments que volem analitzar. Una opció correcta hauria de tenir la línia *x*, senyalada a la imatge, perpendicular a l'eix de simetria, on es representen els dos segments d'arribada (esquematitzats amb la mateixa coloració a la imatge): compartint un vèrtex (carreuet indiquen segments adjacents).
+
+ *a*: No compleix aquest requeriment; no comparteix vèrtex amb cap segment.
+ *b*: Compartíu sense intersecció, viola la condició.
+ *c*: Té però no comparteix vèrtex amb cap segment.
+ *d*: Aquest correctament senyalat i localitzat en el eix perpendicular amb els segments finals, compleix ambdós criteris.
+
+Per això La resposta correcta és: **D**). 
+Resposta: D)

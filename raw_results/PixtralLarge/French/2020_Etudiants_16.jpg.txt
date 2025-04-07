@@ -1,0 +1,38 @@
+Pour déterminer quelles valeurs peuvent être celles de \( T \) parmi les propositions données, nous devons comprendre l'expression \( T = (x-y)^{2}+(y-z)^{2}+(z-x)^{2} \).
+
+### Raisonnement
+
+Nous savons que \( x, y \) et \( z \) sont des entiers. Considérons les valeurs possibles de \( T \) en utilisant des entiers.
+
+1. **Vérification de \( T = 0 \)**:
+   - \( T = 0 \) si et seulement si \( (x-y)^{2} = 0 \), \( (y-z)^{2} = 0 \) et \( (z-x)^{2} = 0 \).
+   - Cela implique que \( x = y = z \).
+   - Par exemple, si \( x = y = z = 0 \), alors \( T = 0 \).
+
+2. **Vérification de \( T = 1 \)**:
+   - Pour \( T = 1 \), une des valeurs parmi \( (x-y)^{2} \), \( (y-z)^{2} \), ou \( (z-x)^{2} \) doit être égal à 1, et les autres à 0.
+   - Cependant, \( (x-y)^{2} \), \( (y-z)^{2} \), et \( (z-x)^{2} \) sont des carrés d'entiers. Les seuls carrés possibles pour les entiers sont 0, 1, 4, 9, etc.
+   - Si \( (x-y)^{2} = 1 \), alors \( x \) et \( y \) diffèrent de 1, mais cela rend les autres termes non nuls, donc \( T \neq 1 \).
+
+3. **Vérification de \( T = 2 \)**:
+   - Pour \( T = 2 \), deux des valeurs parmi \( (x-y)^{2} \), \( (y-z)^{2} \), ou \( (z-x)^{2} \) doivent être égales à 1, et l'autre à 0.
+   - Cependant, comme expliqué précédemment, \( (x-y)^{2} = 1 \) implique que \( x \) et \( y \) diffèrent de 1, rendant les autres termes non nuls.
+   - Donc, \( T \neq 2 \).
+
+4. **Vérification de \( T = 6 \)**:
+   - Pour \( T = 6 \), les valeurs possibles pour \( (x-y)^{2} \), \( (y-z)^{2} \), et \( (z-x)^{2} \) doivent être des combinaisons de 0, 1, 4, 9, etc.
+   - Par exemple, si \( x = 0 \), \( y = 1 \), et \( z = 2 \), alors \( (x-y)^{2} = 1 \), \( (y-z)^{2} = 1 \), et \( (z-x)^{2} = 4 \).
+   - Donc, \( T = 1 + 1 + 4 = 6 \).
+
+5. **Vérification de \( T = 8 \)**:
+   - Pour \( T = 8 \), les valeurs possibles pour \( (x-y)^{2} \), \( (y-z)^{2} \), et \( (z-x)^{2} \) doivent être des combinaisons de 0, 1, 4, 9, etc.
+   - Par exemple, si \( x = 0 \), \( y = 2 \), et \( z = 4 \), alors \( (x-y)^{2} = 4 \), \( (y-z)^{2} = 4 \), et \( (z-x)^{2} = 16 \).
+   - Cependant, \( 4 + 4 + 16 = 24 \neq 8 \).
+   - Donc, \( T \neq 8 \).
+
+### Conclusion
+
+La seule valeur possible parmi les propositions données est \( T = 6 \).
+
+Raisonnement : Décris le processus de réflexion qui t'a conduit à ta réponse.
+Réponse : D).

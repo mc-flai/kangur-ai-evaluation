@@ -1,0 +1,4 @@
+Raisonnement : La question demande le plus petit entier possible qui peut être obtenu comme la moyenne de cinq nombres premiers distincts. Pour minimiser la moyenne, on doit utiliser les plus petits nombres premiers distincts. Les cinq premiers nombres premiers sont 2, 3, 5, 7 et 11. Calculons leur moyenne : (2 + 3 + 5 + 7 + 11) / 5 = 28 / 5 = 5.6, qui n'est pas un entier.
+On ne peut pas utiliser 2 comme la moyenne, car 2 est le plus petit nombre premier.
+Essayons différentes combinaisons pour que la somme soit divisible par 5. Si on remplace le 11 par un autre nombre premier, on obtient 2, 3, 5, 7, 13. La somme est 30, la moyenne est 6. C'est un entier.
+Réponse : C)

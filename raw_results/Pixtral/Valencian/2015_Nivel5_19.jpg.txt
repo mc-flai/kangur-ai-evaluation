@@ -1,0 +1,40 @@
+
+La pregunta solicita el valor de \( x \) para el que el área de un triángulo rectángulo isósceles es igual al área de un triángulo equilátero con un lado de longitud 1.
+
+Para resolver esto, primero necesitamos entender las fórmulas de área para ambos triángulos.
+
+1. **Área del triángulo rectángulo isósceles:**
+   - Un triángulo rectángulo isósceles tiene dos lados iguales y un ángulo recto.
+   - Si \( x \) es la longitud de los dos lados iguales, el área del triángulo es:
+     \[
+     \text{Área} = \frac{1}{2} x^2 \sin(60^\circ)
+     \]
+   - Sabemos que \( \sin(60^\circ) = \frac{\sqrt{3}}{2} \), por lo que:
+     \[
+     \text{Área} = \frac{1}{2} x^2 \cdot \frac{\sqrt{3}}{2} = \frac{\sqrt{3}}{4} x^2
+     \]
+
+2. **Área del triángulo equilátero:**
+   - Un triángulo equilátero tiene tres lados iguales.
+   - Si el lado es 1, el área del triángulo es:
+     \[
+     \text{Área} = \frac{\sqrt{3}}{4} \cdot 1^2 = \frac{\sqrt{3}}{4}
+     \]
+
+3. **Igualar las áreas:**
+   - Para que las áreas sean iguales:
+     \[
+     \frac{\sqrt{3}}{4} x^2 = \frac{\sqrt{3}}{4}
+     \]
+   - Simplificando, obtenemos:
+     \[
+     x^2 = 1
+     \]
+   - Tomando la raíz cuadrada de ambos lados:
+     \[
+     x = \sqrt{1} = 1
+     \]
+
+Por lo tanto, el valor de \( x \) es \( 1 \).
+
+**Respuesta: A) \( 2^{1/2} \)**

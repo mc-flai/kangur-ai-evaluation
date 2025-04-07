@@ -1,0 +1,20 @@
+**Razonamiento**
+
+Se nos da la función $f$ que cumple con la condición de que 
+\[ f(n) = f(n - 1) - f(n - 2) \] para todo el conjunto de números enteros. También tenemos los valores específicos de $f(0) = 1$ y $f(1) = 2$. Necesitamos encontrar el valor de $f(2024)$ basado en esta información. 
+
+Para poder encontrar el valor de $f(2024)$, debemos entender el comportamiento de la función definida por la recursividad dada. Podemos observar que la función depende de los valores de $f(n - 1)$ y $f(n - 2)$ para calcular $f(n)$. Esto indica que los valores de $f$ dependen de los valores anteriores, creando una secuencia.
+
+Dado que $f(0) = 1$ y $f(1) = 2$, podemos calcular secuencialmente los valores de $f(2)$, $f(3)$, $f(4)$, y así sucesivamente, hasta encontrar un patrón utilizando la función recursiva. Al observar estos valores, notamos que están formando una secuencia de Fibonacci con un desplazamiento ya que los primeros dos términos son uno y dos al inicio de la secuencia.
+
+La secuencia de Fibonacci se define por la relación de recurrencia 
+\[ F(n) = F(n - 1) + F(n - 2) \] Donde $F(0) = 0$ y $F(1) = 1$. Observando que los valores con los que trabajamos empiezan en dos y uno al inicio en vez de empezar en 0 consiste en el cambio $F(0) - 1$ ingresado en $F(2)$ y el cambio de $F(1) - 2$ en $F(3)$.
+
+Razonando sobre los valores dados: 
+
+Observando nuestros cálculos:
+- Si $F(0)=0$ y $F(1) = 1$ para la función de Fibonacci 'con la recursividad' tenemos que:
+\[ F(1) = 0 + 1 =1   \]
+\[ F(2)=F(1)+F(0)    =
+
+**Respuesta:** No Answer

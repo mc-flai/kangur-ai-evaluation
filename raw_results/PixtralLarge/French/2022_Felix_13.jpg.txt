@@ -1,0 +1,48 @@
+**Raisonnement :**
+
+Le problème indique que les chiffres dans les cinq cercles autour de chaque maison s'additionnent pour donner 20. Les maisons partagent des cercles adjacents.
+
+Analysons les chiffres connus et déterminons le chiffre manquant.
+
+Pour la maison de gauche (avec les cercles 2, 6, 5, et deux inconnus, notons-les X) :
+2 + 6 + 5 + X + X = 20
+13 + 2X = 20
+2X = 7
+X = 3,5
+
+Or, les chiffres doivent être des entiers. Cela signifie que le cercle avec le chiffre manquant (?) ne peut pas être partagé avec ce X mais doit être une autre combinaison.
+
+Pour la maison de droite (avec les cercles 3, ?, 1 et deux inconnus, notons-les Y) :
+3 + ? + 1 + Y + Y = 20
+4 + ? + 2Y = 20
+? + 2Y = 16
+
+Maintenant, observons le cercle central (qui est partagé entre les deux maisons) :
+Le cercle central est le même pour les deux maisons, donc X = Y.
+
+Puisque le total des chiffres autour de chaque maison doit être 20, et que nous savons que X = Y, nous pouvons utiliser la maison de gauche pour trouver X.
+
+2 + 6 + 5 + X + X = 20
+13 + 2X = 20
+2X = 7 (ce qui est incorrect car X doit être un entier)
+
+Il semble que nous avons fait une erreur dans nos suppositions. Reprenons la maison de droite:
+
+3 + ? + 1 + 4 + 4 = 20
+8 + ? + 8 = 20
+? = 14 - 8
+? = 6
+
+Vérifions :
+3 + 6 + 1 + 4 + 4 = 18 
+Nous devons ajuster les chiffres pour chaque maison.
+
+Reprenons :
+? = 14 - 8
+? = 6
+
+3 + 6 + 1 + 4 + 6 = 20
+
+Cela semble correct. Le chiffre manquant est donc 6.
+
+**Réponse :** (C) 7.

@@ -1,0 +1,23 @@
+
+La pregunta 7 en la imagen es: "¿Cuál es el último dígito del número \(2^{57} \cdot 3^4 \cdot 5^{53} \cdot 4\)?"
+
+Para determinar el último dígito del número dado, podemos usar propiedades de los números y sus potencias.
+
+**Razonamiento:**
+1. Identifiquemos el último dígito de cada factor:
+   - \(2^{57}\): El último dígito de \(2^n\) es cíclico con un patrón de 2, 4, 8, 6. Dado que \(57 \mod 4 = 1\), el último dígito de \(2^{57}\) es 2.
+   - \(3^4\): El último dígito de \(3^n\) es cíclico con un patrón de 3, 9, 7, 1. Dado que \(4 \mod 4 = 0\), el último dígito de \(3^4\) es 1.
+   - \(5^{53}\): El último dígito de \(5^n\) es siempre 5.
+   - \(4\): El último dígito de 4 es 4.
+
+2. Multipliquemos los últimos dígitos de cada factor:
+   - \(2 \cdot 1 \cdot 5 \cdot 4\)
+
+3. Calculamos el producto:
+   - \(2 \cdot 1 = 2\)
+   - \(2 \cdot 5 = 10\)
+   - \(10 \cdot 4 = 40\)
+
+4. El último dígito del producto es 0.
+
+**Respuesta:** C)

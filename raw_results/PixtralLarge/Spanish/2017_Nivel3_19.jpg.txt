@@ -1,0 +1,23 @@
+**Razonamiento**:
+
+La pregunta plantea un escenario donde Toni prepara un horario para salir a correr, y se menciona que corre exactamente dos veces por semana, y los mismos días cada semana. Sin embargo, no se especifica en qué días consecutivos corre, lo que implica que hay varias combinaciones posibles de días para correr.
+
+Para determinar cuántos horarios distintos existen, debemos escoger 2 días de una semana de 7 días, lo cual puede calcularse como una combinación (sin importar el orden):
+
+\[ \text{Número de combinaciones} = \binom{7}{2} = \frac{7!}{2!(7-2)!} = \frac{7 \times 6}{2 \times 1} = 21 \]
+
+Sin embargo, en el contexto de la pregunta, parece que se están preguntando sobre las características de los horarios, no simplemente las combinaciones de días.
+
+Revisemos las opciones:
+
+A) 16
+B) 14
+C) 12
+D) 10
+E) 8
+
+Como estamos buscando cuántos horarios distintos se pueden formar al elegir 2 días en una semana de 7 días, la respuesta correcta debe ser 21, lo que no se ajusta a ninguna de las opciones dadas. Por lo tanto, parece que hay un error en el planteamiento de las opciones.
+
+No obstante, revisando las opciones dadas, la opción más próxima a una combinación válida considerando restricciones adicionales (por ejemplo, no correr días consecutivos) sería 12, ya que esto puede reflejar combinaciones válidas (no consecutivas) de días.
+
+**Respuesta**: C).

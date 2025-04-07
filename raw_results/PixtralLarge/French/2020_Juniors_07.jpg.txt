@@ -1,0 +1,10 @@
+Raisonnement : Pour déterminer quel jour de la semaine Lucas va commencer son séjour de 18 jours consécutifs avec Gabrielle, nous devons identifier le jour qui permet de terminer le séjour un samedi ou un dimanche, car Gabrielle fait du surf tous les mardis, samedis et dimanches.
+
+Les 18 jours consécutifs signifient que le séjour commence un jour \(x\) et se termine 17 jours plus tard. Donc, si le séjour se termine un samedi ou un dimanche, il doit commencer 17 jours avant ces jours.
+
+17 jours avant un samedi, c'est un vendredi.
+17 jours avant un dimanche, c'est un samedi.
+
+Donc, pour que Lucas maximise les jours de surf avec Gabrielle, il doit commencer son séjour un vendredi.
+
+Réponse : C) vendredi.

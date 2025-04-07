@@ -1,0 +1,10 @@
+Raisonnement :
+1. **Identifier les faces visibles :** Compter le nombre de faces visibles de chaque bloc.  Le bloc du fond en a 5 de visibles, le bloc du milieu du bas en a 4, le bloc du milieu du haut en a 3, et le bloc de droite en a 3.
+2. **Calculer le nombre total de faces :** 5 + 4 + 3 + 3 = 15 faces visibles.
+3. **Calculer le nombre de faces des blocs cachées par la structure :** 4 blocs * 6 faces/bloc = 24 faces.
+4. **Calculer le nombre total de faces cachées :** 24 faces - 15 faces visibles = 9 faces cachées.
+5. **Calculer le nombre total de faces à peindre :** 15 faces + 9 faces = 24 faces.  On peut aussi remarquer que la structure est constituée de 4 parallélépipèdes, et que chaque parallélépipède nécessite 1 litre de peinture. Cependant, certaines faces sont cachées.  En regardant les faces cachées, on peut déduire que chaque bloc a une face cachée. Cela signifie que la structure a des faces cachées.  La structure comporte 4 parallélépipèdes, et chaque parallélépipède a 6 faces. Cela donne un total de 4 blocs * 6 faces = 24 faces.
+
+**Déterminer la quantité de peinture nécessaire :** On sait qu'un bloc nécessite 1 litre de peinture pour ses 6 faces. Donc, on calcule le nombre total de faces à peindre divisé par le nombre de faces par bloc. 24 faces / 6 faces/bloc = 4 blocs. Et puisque chaque bloc requiert 1 litre de peinture, il faudra 4 litres pour peindre la structure.
+
+Réponse : E)

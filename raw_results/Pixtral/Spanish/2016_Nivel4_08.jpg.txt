@@ -1,0 +1,14 @@
+Para determinar la menor área total posible de un sólido con 8 cubos de arista 1 cm, necesitamos considerar la forma del sólido y cómo se pueden organizar los cubos.
+
+Razonamiento:
+1. Un cubo individual tiene un área superficial de 6 cm² (2 cm² por cada cara).
+2. Si tenemos 8 cubos, el área total de las superficies de los cubos es 48 cm² (8 cubos * 6 cm² por cubo).
+3. Para minimizar el área total, los cubos deben estar organizados de manera que compartan tantas caras como sea posible.
+4. La configuración más eficiente es una línea recta de cubos, donde cada cubo comparte una cara con los cubos adyacentes.
+5. En una línea recta de 8 cubos, cada cubo (excepto los extremos) comparte dos caras con los cubos adyacentes, reduciendo el área total visible.
+6. Calculamos el área total visible en una línea recta de 8 cubos:
+   - 2 cubos en los extremos tienen 2 cm² cada uno (1 cara visible por cada extremo).
+   - 6 cubos en el medio tienen 4 cm² cada uno (2 caras visibles por cada cubo en el medio).
+7. Por lo tanto, el área total visible es 2 * 2 cm² + 6 * 4 cm² = 4 cm² + 24 cm² = 28 cm².
+
+Respuesta: D)

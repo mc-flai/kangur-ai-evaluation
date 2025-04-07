@@ -1,0 +1,10 @@
+Raonament:
+This is a classic binary search problem.  Since there are 15 possible numbers, we can use binary search to efficiently determine the number. Each question can eliminate about half the possibilities.
+
+1.  **First Question:** Divide the range (1-15) into two roughly equal halves.  Ask if the number is between 1 and 7 (inclusive).  This divides the possibilities into two groups.
+2.  **Second Question:** Depending on the first answer (sí or no), reduce the range to either the low half (1-7) or the high half (8-15).  Ask a question about the new range (e.g., is the number between 1 and 3 or 8 and 11).
+3.  **Third Question:** Repeat the halving.
+4.  **Fourth Question:** After 4 questions the possible values left will be reduced to one possible answer.
+We need to find the smallest integer *n* such that 2<sup>n</sup> ≥ 15. 2<sup>3</sup> = 8, 2<sup>4</sup> = 16, so 4 is the smallest integer.
+
+Resposta: D)

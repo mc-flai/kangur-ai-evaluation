@@ -1,0 +1,23 @@
+To determine how many more children are needed to form six equally big teams, we first need to calculate the total number of children required for six teams.
+
+1. Calculate the total number of children currently registered:
+   13 (initially registered) + 19 (joined later) = 32 children.
+
+2. Determine the total number of children needed for six equally big teams. Since the number of children per team must be an integer, let \( x \) be the number of children per team. Then:
+   6 teams × \( x \) children per team = 6\( x \) children.
+
+3. Find the smallest integer \( x \) such that 6\( x \) is greater than or equal to 32. We start by dividing 32 by 6 to find the minimum \( x \):
+   \[
+   \frac{32}{6} \approx 5.33
+   \]
+   This means each team should ideally have approximately 5.33 children. Since the number of children per team must be an integer, we round up to the next whole number, which is 6.
+
+4. Therefore, the total number of children needed for six teams is:
+   6 teams × 6 children per team = 36 children.
+
+5. Calculate the number of additional children needed:
+   36 (needed) - 32 (current) = 4 children.
+
+Reasoning: By determining the number of children per team and the total number of children needed, we find that 4 more children are required to form six equally big teams.
+
+Answer: D).

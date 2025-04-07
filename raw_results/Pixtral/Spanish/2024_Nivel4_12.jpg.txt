@@ -1,0 +1,21 @@
+Para determinar el número mínimo de cuadrados que deben ser pintados de negro para que al menos un cuadrado negro toque a un lado de la cuadrícula de 2x7, podemos seguir estos pasos:
+
+1. **Identificar el problema**: Necesitamos encontrar el número mínimo de cuadrados negros que deben ser pintados para que al menos uno toque un borde de la cuadrícula.
+
+2. **Evaluar las opciones**:
+   - **A) 3**: Pintar 3 cuadrados negros no garantiza que uno toque un borde.
+   - **B) 4**: Pintar 4 cuadrados negros no garantiza que uno toque un borde.
+   - **C) 5**: Pintar 5 cuadrados negros no garantiza que uno toque un borde.
+   - **D) 6**: Pintar 6 cuadrados negros garantiza que al menos uno toque un borde.
+   - **E) 7**: Pintar 7 cuadrados negros garantiza que al menos uno toque un borde.
+
+3. **Verificación**:
+   - Con 3, 4 o 5 cuadrados negros, es posible que todos estén en el centro sin tocar un borde.
+   - Con 6 cuadrados negros, es imposible colocar todos los cuadrados negros sin que al menos uno toque un borde.
+   - Con 7 cuadrados negros, es seguro que al menos uno toque un borde.
+
+Por lo tanto, el número mínimo de cuadrados negros que deben ser pintados para que al menos uno toque un borde es 6.
+
+**Razonamiento**: Al considerar las configuraciones posibles, encontramos que con 6 cuadrados negros, es imposible evitar que al menos uno toque un borde.
+
+**Respuesta**: D)

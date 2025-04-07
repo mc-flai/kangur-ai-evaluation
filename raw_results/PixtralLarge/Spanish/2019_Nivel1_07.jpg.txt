@@ -1,0 +1,27 @@
+Para resolver la pregunta 7, necesitamos determinar cuántas posibilidades tiene Laura de sombrear un cuadrado 2x2 de la figura adjunta.
+
+La figura adjunta es una cuadrícula de 3x3, y un cuadrado 2x2 ocupa 4 casillas contiguas. Para encontrar todas las posibilidades, necesitamos contar todas las configuraciones posibles de un cuadrado 2x2 dentro de la cuadrícula de 3x3.
+
+1. Comenzamos desde la esquina superior izquierda y movemos el cuadrado 2x2 hacia la derecha y hacia abajo, asegurándonos de que siempre esté dentro de los límites de la cuadrícula de 3x3.
+
+2. Las posibles posiciones del cuadrado 2x2 son:
+   - Esquina superior izquierda.
+   - Movimiento 1 casilla a la derecha desde la esquina superior izquierda.
+   - Movimiento 1 casilla hacia abajo desde la esquina superior izquierda.
+   - Movimiento 1 casilla a la derecha y 1 casilla hacia abajo desde la esquina superior izquierda.
+   - Esquina superior derecha.
+   - Esquina inferior izquierda.
+   - Movimiento 1 casilla a la derecha desde la esquina inferior izquierda.
+   - Esquina inferior derecha.
+   - Centro de la cuadrícula.
+
+3. Contamos todas las posiciones posibles:
+   - (1,1) a (2,2)
+   - (1,2) a (2,3)
+   - (2,1) a (3,2)
+   - (2,2) a (3,3)
+   - Es decir, hay 4 posiciones posibles.
+
+Razonamiento: Al contar todas las posiciones posibles de un cuadrado 2x2 dentro de una cuadrícula de 3x3, encontramos que hay 4 posiciones posibles.
+
+Respuesta: B)

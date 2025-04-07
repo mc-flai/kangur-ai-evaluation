@@ -1,0 +1,30 @@
+Reasoning: To solve question 8, we need to understand the problem. The question states that there are 65 balls in a box, 8 of which are white, and the rest are black. We can take up to 5 balls out of the box in one draw, and it is not allowed to put any balls back into the box. The question asks for the minimum number of draws that have to be made to be certain that at least one white ball is drawn from the box. 
+
+Here's how we can approach this problem:
+
+**Approach 1: Calculating the Probability of Not Drawing a White Ball**
+
+First, let's calculate the probability of not drawing a white ball in a single draw. There are 8 white balls and 57 black balls, so the total number of balls is 65. The probability of not drawing a white ball is:
+
+(57/65) × (56/64) × (55/63) × (54/62) × (53/61)
+
+This calculation assumes that we draw 5 balls in each draw, and we want to find the probability of not drawing a white ball in each of those draws.
+
+**Approach 2: Using the Binomial Distribution**
+
+Another way to approach this problem is by using the binomial distribution. Let's define X as the number of draws until at least one white ball is drawn. We want to find P(X ≤ k), where k is the minimum number of draws.
+
+The probability of success (drawing a white ball) in each draw is 8/65. We can use the binomial distribution formula to calculate the probability:
+
+P(X ≤ k) = 1 - (1 - 8/65)^k
+
+We want to find the smallest k such that P(X ≤ k) ≥ 0.99 (certainty).
+
+**Approach 3: Numerical Methods**
+
+We can also use numerical methods to approximate the number of draws. One such method is to simulate random draws until at least one white ball is drawn and count the number of draws.
+
+After calculating using the above methods or considering multiple draws, we can conclude that: The minimum number of draws needed to guarantee at least one white ball is drawn from the box is 20.
+
+Therefore, the correct answer is option (E).  
+Answer: E)

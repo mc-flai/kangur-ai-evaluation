@@ -1,0 +1,29 @@
+### Reasoning:
+
+Jakob writes down four consecutive positive whole numbers and calculates all possible sums of three of those numbers. None of these sums is a prime number. To find the smallest number Jakob could have written down, we need to consider the properties of prime numbers and consecutive numbers.
+
+1. **Consecutive Numbers**: If Jakob writes down four consecutive numbers, let's denote them as \( n, n+1, n+2, n+3 \).
+
+2. **Sums of Three Numbers**: The possible sums of three of these numbers are:
+   - \( n + (n+1) + (n+2) = 3n + 3 \)
+   - \( n + (n+1) + (n+3) = 3n + 4 \)
+   - \( n + (n+2) + (n+3) = 3n + 6 \)
+   - \( (n+1) + (n+2) + (n+3) = 3n + 6 \)
+
+3. **Prime Numbers**: None of these sums should be a prime number. Prime numbers are natural numbers greater than 1 that have no positive divisors other than 1 and themselves.
+
+4. **Smallest Number**: To find the smallest number Jakob could have written down, we need to start with the smallest possible set of consecutive numbers and check if any of the sums are prime.
+
+Let's start with the smallest set of consecutive numbers:
+
+- If Jakob writes down \( 3, 4, 5, 6 \):
+  - Sums: \( 3+4+5 = 12 \), \( 3+4+6 = 13 \), \( 3+5+6 = 14 \), \( 4+5+6 = 15 \)
+  - All sums are composite numbers (not prime).
+
+- If Jakob writes down \( 2, 3, 4, 5 \):
+  - Sums: \( 2+3+4 = 9 \), \( 2+3+5 = 10 \), \( 2+4+5 = 11 \), \( 3+4+5 = 12 \)
+  - The sum \( 2+3+5 = 10 \) is composite, but \( 2+4+5 = 11 \) is prime.
+
+Therefore, the smallest number Jakob could have written down is \( 2 \), which is the first number in the set \( 2, 3, 4, 5 \).
+
+### Answer: D

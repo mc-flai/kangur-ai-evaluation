@@ -1,0 +1,18 @@
+Razonamiento:
+Tenemos que colocar los números 1, 2, 3 y 4 en la cuadrícula de forma que se cumplan las desigualdades indicadas con los símbolos < y >. Además, cada número sólo puede aparecer una vez por fila y columna.
+En la tercera fila hay un 3. La celda a la izquierda de 3 tiene que ser menor que 3. La celda a la derecha de 3 tiene que ser mayor que 3. Por lo tanto, la celda a la derecha de 3 sólo puede ser un 4.
+En la columna de 3 (la tercera) no se pueden repetir los numeros. Por lo tanto, solo quedan disponibles 1, 2, 4. En la columna de 3, la celda arriba tiene que ser mayor. Entonces puede ser 4.
+La celda buscada esta en la primera columna y en la cuarta fila, y la columna de esta celda es el numero 4.
+En la columna uno, tenemos que ver que numero puede ir en la parte superior, sin repetir en la segunda fila el número 3, puede ser 1, 2, 4. Si ponemos un 1 en la primera fila y primera columna, la columna de la celda en la parte superior quedaria completa.
+En la segunda fila, primera columna, el número tiene que ser menor que 3 y que el numero superior, puede ser 1 o 2. En la tercera fila, primera columna, el numero tiene que ser mayor que el de la columna 2, o sea, mayor que 3. Y todos los números son menores a 3. Y no podemos tener un numero repetido en cada fila.
+Considerando que el valor a la izquierda del 3 debe ser menor que 3, las opciones serían 1 o 2. Si colocamos el número 2 en la celda de la segunda fila y segunda columna, la celda del círculo gris podría ser el 4. Ya que es un número no usado en la columna.
+Ahora, teniendo en cuenta que cada fila debe contener números distintos, si suponemos que en la segunda fila, en la primera columna va un 1, en la segunda columna va un 2 y un 3 ya está dado, y en la tercera columna va un 4.
+Por lo tanto, los números que faltan en la columna son los numeros 1, 2 y 4. El número 1 y el número 2 no pueden ir en la celda gris ya que la celda gris es el numero mas grande que el numero arriba de ella (donde hay un 3).
+Si arriba del círculo gris va un número menor que 3, en la celda gris puede ir un número mayor que 3.
+Entonces, los valores posibles para el circulo gris serían 1, 2 o 4. El valor de la opción E dice: 1 o 3.
+Con lo anterior, no se puede concluir que en la celda gris va el número 4.
+En la columna del tres no puede ir un 3 en la parte superior, ni puede ir un 1 o un 2 ya que la columna tiene que ser superior.
+
+Considerando la fila donde está el "3", y teniendo en cuenta que el número a su derecha es mayor que 3 (por ende es 4) y el número a su izquierda es menor que 3 (por ende es 1 o 2), y que la columna donde esta el "3" no puede repetir ningún valor, vemos que la opción correcta es el número 4.
+
+Respuesta: D)

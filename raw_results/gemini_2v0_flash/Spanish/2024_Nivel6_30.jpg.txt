@@ -1,0 +1,19 @@
+Razonamiento:
+La pregunta 30 establece la ecuación `abcd = a^a + b^b + c^c + d^d`, donde `abcd` representa un número de cuatro dígitos. Tenemos que encontrar el valor del dígito `a`. Esto significa que el número `abcd` está entre 1000 y 9999, inclusive.
+
+Probemos las opciones dadas para el valor de `a`.
+
+Si `a=2`, tenemos `2bcd = 2^2 + b^b + c^c + d^d = 4 + b^b + c^c + d^d`. El valor de `b^b + c^c + d^d` debería ser alrededor de 2000. Si `b=c=d=9`, entonces `b^b + c^c + d^d = 3 * (9^9)`, que es mucho más grande que 2000.
+
+Si `a=3`, tenemos `3bcd = 3^3 + b^b + c^c + d^d = 27 + b^b + c^c + d^d`. El valor de `b^b + c^c + d^d` debería ser alrededor de 3000.
+
+Si `a=4`, tenemos `4bcd = 4^4 + b^b + c^c + d^d = 256 + b^b + c^c + d^d`. El valor de `b^b + c^c + d^d` debería ser alrededor de 4000.
+
+Si `a=5`, tenemos `5bcd = 5^5 + b^b + c^c + d^d = 3125 + b^b + c^c + d^d`. El valor de `b^b + c^c + d^d` debería ser alrededor de 5000. Si `b=c=d=0`, `5000 = 3125`, lo cual no funciona.
+Probemos con el número 3435.
+3435 = 3^3 + 4^4 + 3^3 + 5^5 = 27 + 256 + 27 + 3125 = 3435.
+La ecuación se cumple cuando `a=3`, `b=4`, `c=3`, `d=5`.
+
+Por lo tanto, el valor de `a` es 3.
+
+Respuesta: B)

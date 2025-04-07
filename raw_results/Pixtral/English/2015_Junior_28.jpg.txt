@@ -1,0 +1,14 @@
+Reasoning:
+1. The ant starts at a vertex of a cube with side length 1.
+2. To walk along each edge of the cube at least once and return to the starting point, the ant must traverse a path that covers all 12 edges of the cube.
+3. The shortest path that covers all edges and returns to the starting point involves walking along three edges to form a closed loop.
+4. Each edge has a length of 1 unit. Therefore, the minimum length of the walk is the sum of the lengths of the three edges.
+
+Calculation:
+- Length of one edge = 1 unit
+- Total number of edges to cover = 12
+- Minimum number of edges to form a closed loop = 3
+
+Minimum possible length of her walk = 3 * 1 unit = 3 units
+
+Answer: A) 12

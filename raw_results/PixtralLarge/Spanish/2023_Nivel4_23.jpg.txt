@@ -1,0 +1,17 @@
+**Razonamiento:**
+
+1. Denotemos las cantidades iniciales de dinero de Andy, Bella y Carlos como A, B y C respectivamente.
+2. Según el problema:
+   - Andy le da a Bella la mitad de sus monedas. Entonces, Andy pasa a tener A/2 monedas y Bella pasa a tener B + A/2 monedas.
+   - Bella le da a Carlos la mitad de sus monedas. Entonces, Bella pasa a tener (B + A/2)/2 monedas y Carlos pasa a tener C + (B + A/2)/2 monedas.
+   - Carlos le da a Andy un tercio de sus monedas. Entonces, Carlos pasa a tener 2/3 * (C + (B + A/2)/2) monedas y Andy pasa a tener A/2 + 1/3 * (C + (B + A/2)/2) monedas.
+3. Según el problema, Andy termina con 22 monedas y Bella con 22 monedas.
+   - Por lo tanto, A/2 + 1/3 * (C + (B + A/2)/2) = 22.
+   - Y (B + A/2)/2 = 22.
+4. Resolviendo estas ecuaciones:
+   - De la segunda ecuación, B + A/2 = 44.
+   - De la primera ecuación, A/2 + 1/3 * (C + 22) = 22.
+   - Sustituyendo A = 2(44 - B) en la primera ecuación: 44 - B + 1/3 * (C + 22) = 22.
+   - Resolviendo para C, obtenemos C = 9.
+
+**Respuesta:** E) 9

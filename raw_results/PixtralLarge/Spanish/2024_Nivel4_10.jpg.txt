@@ -1,0 +1,16 @@
+La pregunta 10 nos pide calcular el número total de puntos que deben haber en el cuadrado dibujado en verde, considerando que la imagen representa el desarrollo de un dado estándar. Un dado estándar tiene seis lados con los puntos 1, 2, 3, 4, 5 y 6.
+
+Para resolver esto:
+1. Identificar los puntos visibles en la imagen: 1, 2, 4 y 5.
+2. Determinar los puntos que faltan: 3 y 6.
+3. Asumiendo que el cuadrado verde es uno de los lados ocultos, las opciones deben contener los puntos 3 o 6.
+4. Los puntos presentes en las opciones proporcionadas son 10, 12, 13, 14 y 15.
+
+Dado que los puntos en los lados opuestos de un dado suman 7:
+- Si el cuadrado verde tiene 3 puntos, el lado opuesto debe tener 4 puntos (ya visible).
+- Si el cuadrado verde tiene 6 puntos, el lado opuesto debe tener 1 punto (ya visible).
+
+Por lo tanto, las únicas opciones válidas para los puntos en el cuadrado verde son 3 o 6. Como ambos casos son posibles y la imagen no especifica cuál de los dos cuadrados ocultos es el verde, la respuesta debe ser una de las dos opciones válidas:
+
+Razonamiento: El cuadrado verde debe contener 3 o 6 puntos para que el total de puntos en los lados opuestos sume 7. Las opciones dadas son 10, 12, 13, 14 y 15, por lo que el cuadrado verde debe tener 6 puntos (la opción 10 no es válida).
+Respuesta: E).

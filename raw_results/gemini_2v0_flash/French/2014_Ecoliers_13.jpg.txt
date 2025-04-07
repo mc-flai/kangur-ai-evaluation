@@ -1,0 +1,104 @@
+Reasoning: We are given a sequence of figures made of black triangles, where each subsequent figure has an additional row of triangles at the bottom. We need to determine the number of black triangles in figure 6.
+Let's count the number of black triangles in the first three figures:
+Figure 1: 1
+Figure 2: 1 + 3 = 4
+Figure 3: 4 + 5 = 9
+The number of triangles added in each step is 3, 5. This looks like adding odd numbers greater than 1 to the previous figure's count. So the pattern is:
+Figure 1: 1
+Figure 2: 1 + 3 = 4
+Figure 3: 4 + 5 = 9
+Figure 4: 9 + 7 = 16
+Figure 5: 16 + 9 = 25
+Figure 6: 25 + 11 = 36
+
+However, this is the count of ALL triangles, and this sequence is the square of the figure number (1, 4, 9, 16, 25, 36). This is not correct, since the question specifically asks about black triangles.
+
+Let's try another method.
+Figure 1: 1 black triangle
+Figure 2: 4 black triangles
+Figure 3: 9 black triangles
+
+Let's analyze the increase in *black* triangles:
+Figure 1 -> Figure 2: +3
+Figure 2 -> Figure 3: +5
+Figure 3 -> Figure 4: +7
+Figure 4 -> Figure 5: +9
+Figure 5 -> Figure 6: +11
+
+So, the number of *black* triangles are:
+Figure 1: 1
+Figure 2: 1 + 3 = 4
+Figure 3: 4 + 5 = 9
+Figure 4: 9 + 7 = 16
+Figure 5: 16 + 9 = 25
+Figure 6: 25 + 11 = 36
+
+We want to find the number of *black* triangles in figure 6.
+Notice that the total number of triangles in figure *n* is *n* squared (n^2).
+The number of black triangles equals to the total number of triangles. Let's rethink.
+
+The series of number of black triangles is 1, 3, 6, 10, 15, ...
+Difference is 1, 4, 9
+Figure 1 = 1
+Figure 2 = 3 black triangles
+Figure 3 = 6 black triangles
+The differences are 2 and 3. Next difference is 4, then 5, then 6.
+Figure 4 = 6 + 4 = 10
+Figure 5 = 10 + 5 = 15
+Figure 6 = 15 + 6 = 21
+However, we miscounted figure 2 and 3. It should be 1, 3, 6, 10.
+
+Now we count the triangles carefully:
+Fig 1: 1
+Fig 2: 1+2 = 3
+Fig 3: 1+2+3 = 6
+Fig 4: 1+3+6 = 10
+Fig 5: 10 + 5
+Figure 1: 1
+Figure 2: 3 (1 + 2)
+Figure 3: 6 (1 + 2 + 3)
+Figure 4: 10 (1+ 3+ 6)
+Figure 5: 10+5
+If we count the *white* triangles in figure n, we have white triangle for every 3rd row. Thus, count all triangles - white triangles = number of black triangles. This is too confusing. Let's continue the series.
+
+Figure 1 has 1 black triangle.
+Figure 2 has 3 black triangles.
+Figure 3 has 6 black triangles.
+
+Figure 2 has an additional row of 2 triangles compared to figure 1. Number of additional black triangles is 2. Total = 1 + 2*1=3
+Figure 3 has an additional row of 3 triangles compared to figure 2. Additional black triangles is 3. Except one of the triangle is white. Number of additional triangles is 3. Number of triangles will be 1+2, then 1+2+3. One is white. The bottom triangles are 1. 2. 3.
+If we count the extra black triangles from the previous figure for each figure:
+Figure 1: 1
+Figure 2: 1+3
+Figure 3: 1+3+5
+Figure 4: 1+3+5+7
+Figure 5: 1+3+5+7+9
+Figure 6: 1+3+5+7+9+11
+
+1+3=4=2^2
+1+3+5=9=3^2
+The *extra* black triangles form sequence 3, 5, 7, 9, 11 ...
+So it can be said that number of black triangles in figure *n* is the square of *n*
+Figure 1:1
+Figure 2: 3, 4-1 =3
+Figure 3:9, 9-3 = 6, incorrect
+
+Going back to looking at figure 4, we have figure 3, which have 6 black triangles, plus add a row of 4 triangles, the figure we have two upside-down triangles between the base of figure 3.
+
+Thus this looks like we add rows of 2. But this does not follow the rule of the numbers of black triangles between each figure.
+So, look at Figure 1, 2, 3. How many triangles per row?
+For n=1, row=1. number of black triangle=1
+For n=2, row=2. black=3 =1+2
+For n=3, row=3, black=6=3+3
+for n=4, row=4,black=6+4-white
+
+Counting the *black* triangles of each figure again carefully:
+Figure 1: 1
+Figure 2: 3
+Figure 3: 6
+Figure 4: 10
+Figure 5: 15
+Figure 6: 21
+
+Reasoning: The number of black triangles follow a pattern: 1, 3, 6, 10, 15, 21... The difference between consecutive terms is 2, 3, 4, 5, 6... Thus, the 6th figure should have 15+6=21 black triangles.
+Answer: D)

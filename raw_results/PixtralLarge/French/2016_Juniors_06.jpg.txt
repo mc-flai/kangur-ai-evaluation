@@ -1,0 +1,11 @@
+Pour résoudre la question 6, analysons la manière de noter les nombres négatifs selon le système de Lucas.
+
+**Raisonnement :**
+
+1. Lucas invente une manière de noter les nombres négatifs en comptant de 1 en 1 en arrière.
+2. La séquence qu'il obtient en commençant par 3 est : 3, 2, 1, 0, 00, 000, 0000, ...
+3. Chaque nombre est obtenu en ajoutant un zéro à la fin du nombre précédent.
+4. Pour obtenir le nombre suivant, nous devons ajouter un zéro à "000".
+5. Donc, "000" + "0000" donne "000000".
+
+**Réponse :** E) 000000000

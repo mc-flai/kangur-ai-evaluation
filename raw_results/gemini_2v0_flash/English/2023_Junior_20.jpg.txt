@@ -1,0 +1,17 @@
+Reasoning: Let the five different prime numbers be $p_1, p_2, p_3, p_4, p_5$. The arithmetic mean of these five prime numbers is given by $\frac{p_1+p_2+p_3+p_4+p_5}{5}$. We want this to be an integer, so the sum $p_1+p_2+p_3+p_4+p_5$ must be divisible by 5. In order to minimize the arithmetic mean, we want to minimize the sum of the five prime numbers.
+Let's start with the smallest five prime numbers: 2, 3, 5, 7, 11. Their sum is $2+3+5+7+11=28$. Since 28 is not divisible by 5, we need to find a different set of five prime numbers. The closest multiple of 5 to 28 is 30. We can achieve a sum of 30 by replacing 2 with 4, but 4 is not prime. If we instead consider the primes 3, 5, 7, 11, 13. The sum is $3+5+7+11+13 = 39$, not divisible by 5.
+We need the sum of the primes to end in either 0 or 5. Since the primes must be different, we consider the following sets:
+- 2, 3, 5, 7, 13. Sum is 30. Mean is 6.
+- 2, 3, 5, 7, 11. Sum is 28.
+- 2, 3, 5, 11, 17. Sum is 38.
+- 2, 3, 7, 13, 15. Invalid because 15 is not prime.
+- 2, 3, 5, 13, 17. Sum is 40. Mean is 8.
+- 3, 5, 7, 11, 14. Invalid because 14 is not prime.
+- 3, 5, 7, 11, 19. Sum is 45. Mean is 9.
+
+Let's see if we can find five primes that sum to 30. 2+3+5+7+13 = 30. The arithmetic mean is 30/5 = 6. So 6 is possible.
+If we were to try to make the arithmetic mean 5, then we would need to find five different primes that sum to 25. The smallest five primes are 2, 3, 5, 7, 11. So the sum is at least 28, so the arithmetic mean cannot be 5.
+
+So, we found the smallest sum to be 30, which gives an arithmetic mean of 6.
+
+Answer: B)

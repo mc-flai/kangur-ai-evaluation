@@ -1,0 +1,19 @@
+Raonament:
+Donat que $a = b+1 = c+2 = d+3$, podem expressar $b$, $c$ i $d$ en funció de $a$:
+$b = a-1$
+$c = a-2$
+$d = a-3$
+També tenim que $a = a+b+c+d+4$. Substituint les expressions de $b$, $c$ i $d$ en aquesta equació, obtenim:
+$a = a + (a-1) + (a-2) + (a-3) + 4$
+$a = 4a - 1 - 2 - 3 + 4$
+$a = 4a - 2$
+$3a = 2$
+$a = \frac{2}{3}$
+Ara podem trobar els valors de $b$, $c$ i $d$:
+$b = a - 1 = \frac{2}{3} - 1 = \frac{2}{3} - \frac{3}{3} = -\frac{1}{3}$
+$c = a - 2 = \frac{2}{3} - 2 = \frac{2}{3} - \frac{6}{3} = -\frac{4}{3}$
+$d = a - 3 = \frac{2}{3} - 3 = \frac{2}{3} - \frac{9}{3} = -\frac{7}{3}$
+Finalment, calculem la suma $a+b+c+d$:
+$a+b+c+d = \frac{2}{3} - \frac{1}{3} - \frac{4}{3} - \frac{7}{3} = \frac{2 - 1 - 4 - 7}{3} = \frac{-10}{3}$
+
+Resposta: C)

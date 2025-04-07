@@ -1,0 +1,25 @@
+Per resoldre la pregunta 23, hem de determinar quantes maneres diferents hi ha de pintar una quadrícula 4x4 amb les següents restriccions:
+
+- Dos dels seus quadrats ja estan pintats de negre.
+- S'ha de pintar dues quadrats més perquè la figura tingui exactament un eix de simetria.
+
+La quadrícula proporcionada a la imatge té els quadrats (2,1) i (3,4) pintats de negre. Per complir la condició de simetria, es necessita pintar dues quadrats més de manera que la figura tingui exactament un eix de simetria.
+
+Analitzem les possibles simetries:
+
+1. Simetria vertical: Si pintem els quadrats (1,2) i (4,3), la figura tindrà simetria vertical.
+2. Simetria horizontal: Si pintem els quadrats (2,4) i (3,1), la figura tindrà simetria horitzontal.
+3. Simetria diagonal (descendent d'esquerra a dreta): Si pintem els quadrats (1,4) i (4,1), la figura tindrà simetria diagonal.
+4. Simetria diagonal (descendent de dreta a esquerra): No es pot aconseguir una simetria diagonal amb els quadrats ja pintats.
+
+Ara, comprovem les combinacions vàlides:
+
+- (1,2) i (4,3): Compliria la simetria vertical.
+- (2,4) i (3,1): Compliria la simetria horitzontal.
+- (1,4) i (4,1): Compliria la simetria diagonal.
+
+Així doncs, hi ha tres maneres diferents de pintar els dos quadrats addicionals per aconseguir exactament un eix de simetria.
+
+Raonament: Hi ha tres maneres diferents de pintar dos quadrats addicionals per aconseguir exactament un eix de simetria: simetria vertical, simetria horitzontal i simetria diagonal.
+
+Resposta: C) 4

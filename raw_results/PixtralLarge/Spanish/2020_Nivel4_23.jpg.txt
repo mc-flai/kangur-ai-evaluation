@@ -1,0 +1,15 @@
+**Razonamiento**: Se nos pide encontrar cuántos subconjuntos \( K = \{a, b, c\} \) de \( S = \{1, 2, 3, \ldots, 14, 15\} \) cumplen la condición \( b = \frac{a+c}{2} \). Esto significa que \( b \) es la media aritmética de \( a \) y \( c \).
+
+Para que \( b \) sea un número entero, \( a \) y \( c \) deben ser ambos pares o ambos impares. Contemos estos casos:
+
+1. **Números pares en \( S \)**: Los números pares en \( S \) son \( 2, 4, 6, 8, 10, 12, 14 \) (7 números pares).
+2. **Números impares en \( S \)**: Los números impares en \( S \) son \( 1, 3, 5, 7, 9, 11, 13, 15 \) (8 números impares).
+
+Para cada par \( (a, c) \), \( b \) será la media aritmética, que también debe estar en \( S \).
+
+- **Pares de números pares**: Podemos elegir 2 números pares de 7. El número de combinaciones es \( \binom{7}{2} = 21 \).
+- **Pares de números impares**: Podemos elegir 2 números impares de 8. El número de combinaciones es \( \binom{8}{2} = 28 \).
+
+Sumando ambos casos, obtenemos \( 21 + 28 = 49 \).
+
+**Respuesta**: C) 49.

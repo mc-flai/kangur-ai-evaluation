@@ -1,0 +1,16 @@
+Raonament:
+1. **Identificar les formes:** La figura grisa és el resultat de restar un cercle a un octàgon. Per tant, hem de calcular l'àrea de l'octàgon i la del cercle, i després restar l'àrea del cercle de l'àrea de l'octàgon.
+2. **Octàgon:**
+    *   Podem dividir l'octàgon en un rectangle i quatre triangles isòsceles.
+    *   Les coordenades donen les longituds dels costats del rectangle (base = 4, altura = 4). L'àrea del rectangle és 4 * 4 = 16
+    *   Els triangles tenen una base i una altura de 1. Així, l'àrea de cada triangle és (1 * 1) / 2 = 0.5. Com que n'hi ha quatre, la seva àrea total és 4 * 0.5 = 2.
+    *   L'àrea total de l'octàgon és 16 + 8 = 24.
+3. **Cercle:**
+    *   El radi del cercle és 2. Així, l'àrea del cercle és πr² = π * 2² = 4π.
+4. **Àrea grisa:**
+    *   L'àrea grisa és l'àrea de l'octàgon menys l'àrea del cercle: 24 - 4π
+5. **Simplificació:**
+    *   Per poder identificar l'opció correcta, observem que es poden agrupar factors comuns de l'expressió 24 - 4π.  Els dos termes són divisibles per 4.
+    *   Així doncs, 24 - 4π = 4 * (6 - π).
+
+Resposta: D)

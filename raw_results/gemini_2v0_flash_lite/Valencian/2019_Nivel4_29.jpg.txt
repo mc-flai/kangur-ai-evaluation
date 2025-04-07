@@ -1,0 +1,26 @@
+Raonament:
+1. Definim les variables: Siguin P l'edat actual de Pere i J l'edat actual de Júlia.
+2. Establim les equacions a partir de la informació donada:
+   * P + J = 91 (La suma de les seves edats és 91)
+   * Siguem x els anys que han passat des que Júlia tenia l'edat actual de Pere. Això significa que actualment Júlia té el doble de l'edat que Pere tenia fa x anys.
+   * J = 2 * (P - x)
+   * També, x = J - P. (x és la diferència d'edat entre Júlia i Pere)
+3. Substituïm x en la segona equació:
+   * J = 2 * (P - (J - P))
+   * J = 2 * (2P - J)
+   * J = 4P - 2J
+   * 3J = 4P
+4. Resolem el sistema d'equacions:
+   * P + J = 91
+   * 3J = 4P  -> P = 3J/4
+   * (3J/4) + J = 91
+   * 7J/4 = 91
+   * 7J = 364
+   * J = 52
+5. Càlcul de P:
+   * P = 91 - 52 = 39
+6. Verificació:
+   * Edat que tenia Pere quan Júlia tenia l'edat actual de Pere (39): 39 - (52-39) = 39-13 = 26
+   * 26 * 2 = 52 (l'edat actual de Júlia)
+
+Resposta: D)

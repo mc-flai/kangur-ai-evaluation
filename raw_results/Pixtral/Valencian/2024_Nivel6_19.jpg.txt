@@ -1,0 +1,15 @@
+### Raonament:
+
+1. El problema implica un cert nombre que es representa com \( N = \overline{pqr.s} \), on \( q \) i \( r \) són dígits decimals.
+2. El nombre resultant de eliminar \( \overline{pqr} \) i \( \overline{s} \) és \( \overline{pq, r.s} \), que és la mitja entre els nombres de dues xifres \( \overline{pq} \) i \( \overline{rs} \).
+3. Per trobar la suma dels dígits de \( N \), primer calculem els dígits individuals de \( N \):
+   - \( p \) i \( q \) són els dígits de \( \overline{pq} \).
+   - \( r \) és el primer dígit decimal.
+   - \( s \) és el segon dígit decimal.
+4. La suma dels dígits de \( N \) és \( p + q + r + s \).
+5. El problema dona opcions de suma dels dígits: 14, 18, 21, 25, i 27.
+6. Comprovem cada opció per veure si es ajusta a la suma dels dígits de \( N \).
+
+### Resposta:
+
+D) 25

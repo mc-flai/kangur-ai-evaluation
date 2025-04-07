@@ -1,0 +1,27 @@
+Per resoldre aquest problema, hem de determinar quantes triangles amb un angle de 45° es poden formar a partir de 12 punts marcats en una circumferència que és dividida en 12 arcs iguals.
+
+**Raonament:**
+
+1. **Determinació dels angles:**
+   - Cada segment entre dos punts adjacents mesura 30° (ja que 360° / 12 = 30°).
+
+2. **Triangles amb un angle de 45°:**
+   - Un triangle que té un angle de 45° necessita tenir els altres dos angles sumant 135° (ja que la suma dels angles en un triangle és 180°).
+   - Una combinació possible d'angles que sumen 135° és 60° i 75°.
+   - Amb angles de 30°, 60° i 75°, podem veure si aquests angles poden ser formats per les divisions dels 12 punts.
+
+3. **Identificació de les combinacions:**
+   - Un angle de 60° es pot formar per dos segments adjacents (30° + 30°).
+   - Un angle de 75° es pot formar per tres segments adjacents (30° + 30° + 15°).
+
+4. **Nombre de combinacions:**
+   - Per a cada punt en la circumferència, podem formar un triangle amb un angle de 45° escollint els altres dos punts de manera que els angles restants siguin 60° i 75°.
+   - Cada punt pot ser un vèrtex d'un triangle que té un angle de 45°.
+   - Per a cada punt, hi ha 12 possibilitats (ja que cada punt pot ser el vèrtex d'un triangle amb un angle de 45°).
+
+5. **Càlcul total:**
+   - Com que hi ha 12 punts i cada punt pot ser el vèrtex d'un triangle amb un angle de 45°, el nombre total de triangles és 12 * 12 = 144.
+   - No obstant això, cada triangle és comptat tres vegades (una per cada vèrtex), per la qual cosa cal dividir per 3.
+   - Total de triangles = 144 / 3 = 48.
+
+**Resposta:** A) 48.

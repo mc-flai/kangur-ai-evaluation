@@ -1,0 +1,13 @@
+
+Reasoning: The problem states that each carriage has the same number of compartments. Mike is sitting in the 18th compartment, which is in the 3rd carriage. Joanna is sitting in the 50th compartment, which is in the 7th carriage. To find out how many compartments are in one carriage, we need to determine the number of compartments between the 3rd and 7th carriages.
+
+First, we calculate the total number of compartments from the 3rd carriage to the 7th carriage. The 3rd carriage is compartment 1 to 18, the 4th carriage is compartment 19 to 36, the 5th carriage is compartment 37 to 54, the 6th carriage is compartment 55 to 72, and the 7th carriage is compartment 73 to 90. The 50th compartment is in the 7th carriage, so we need to count the compartments from the 19th compartment (start of the 4th carriage) to the 50th compartment.
+
+The compartments from the 19th to the 50th are:
+19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50.
+
+There are 32 compartments between the 19th and the 50th. Since these compartments span from the 4th to the 7th carriage, we divide the number of compartments by the number of carriages to find the number of compartments per carriage:
+
+32 compartments / 4 carriages = 8 compartments per carriage.
+
+Answer: B)

@@ -1,0 +1,16 @@
+Reasoning:
+Let the age of the triplets be $t$. Then Tim, Tom, and Jim are all $t$ years old.
+John and James are twins who are 3 years younger than the triplets, so they are each $t-3$ years old.
+The sum of the ages of the five brothers is $t + t + t + (t-3) + (t-3) = 5t - 6$.
+We need to find a value of $t$ such that $5t - 6$ is one of the options.
+Let's test each option:
+A) $5t - 6 = 86 \implies 5t = 92 \implies t = \frac{92}{5} = 18.4$ (not an integer)
+B) $5t - 6 = 87 \implies 5t = 93 \implies t = \frac{93}{5} = 18.6$ (not an integer)
+C) $5t - 6 = 88 \implies 5t = 94 \implies t = \frac{94}{5} = 18.8$ (not an integer)
+D) $5t - 6 = 89 \implies 5t = 95 \implies t = \frac{95}{5} = 19$ (integer)
+E) $5t - 6 = 90 \implies 5t = 96 \implies t = \frac{96}{5} = 19.2$ (not an integer)
+Since $t$ must be an integer, the only option that works is D) with $t=19$.
+If $t=19$, then the ages are 19, 19, 19, 16, 16.
+$19 + 19 + 19 + 16 + 16 = 3(19) + 2(16) = 57 + 32 = 89$.
+
+Answer: D)

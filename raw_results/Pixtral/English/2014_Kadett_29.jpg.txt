@@ -1,0 +1,11 @@
+**Reasoning**:
+1. The frog starts at one of the corners of a 4x4 grid of lily pads.
+2. The frog can only jump to adjacent lily pads either horizontally or vertically.
+3. The frog cannot land on the same lily pad twice.
+4. To determine the maximum number of lily pads the frog can land on, we need to consider the total number of lily pads and the constraints of the frog's movement.
+
+Since the grid is 4x4, it contains a total of 16 lily pads. The frog starts on one of these lily pads, so it can potentially land on a maximum of 16 - 1 = 15 lily pads.
+
+However, the frog cannot jump back to the starting lily pad, and it must jump over at least one lily pad each time. This means the frog can only cover a maximum of 16 - 2 = 14 lily pads (excluding the starting lily pad and the lily pad it jumps back to).
+
+**Answer**: B) 14

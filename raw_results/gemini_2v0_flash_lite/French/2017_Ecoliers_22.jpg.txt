@@ -1,0 +1,19 @@
+Raisonnement :
+1.  **Identify the animals**: The available animals are giraffe, lion, elephant, and turtle.
+2.  **Suzy's choices**: Suzy chooses two animals. She feeds one, and the caretaker feeds the other.
+3.  **Lion's restriction**: Suzy cannot feed the lion.
+4.  **Count possible combinations**:
+    *   **First Animal**: Suzy can choose from the giraffe, elephant, or turtle (3 options).
+    *   **Second Animal**: The remaining animal is fed by the caretaker. Since Suzy already chose one animal and the lion is out of the picture, the caretaker has the following options if Suzy has chosen:
+        *   **If Suzy chose the giraffe:** the caretaker can only feed either the elephant or the turtle (2 options).
+        *   **If Suzy chose the elephant:** the caretaker can only feed either the giraffe or the turtle (2 options).
+        *   **If Suzy chose the turtle:** the caretaker can only feed either the giraffe or the elephant (2 options).
+    *   In total, we have 3 \* 2 = 6 possibilities.
+5.  **If Suzy feeds the elephant first and the caretaker feeds the giraffe second, it's different from the caretaker feeding the elephant first and Suzy feeding the giraffe second.**
+
+    *   If Suzy chose the giraffe first, the choices are: (giraff, elephant), (giraffe, turtle).
+    *   If Suzy chose the elephant first, the choices are: (elephant, giraffe), (elephant, turtle).
+    *   If Suzy chose the turtle first, the choices are: (turtle, giraffe), (turtle, elephant).
+    *   So 6 possibilities.
+
+Réponse : D) 9

@@ -1,0 +1,34 @@
+Raonament: Per resoldre la pregunta, hem de calcular la diferència entre els números 11,11 i 1,111.
+
+1. Comencem amb els números donats:
+   11,11 - 1,111
+
+2. Per fer la resta, alineem els números per la seva posició decimal:
+
+   ```
+   11,11
+   -  1,111
+   ```
+
+3. Realitzem la resta de cada columna, de dreta a esquerra:
+   - Units: 1 - 1 = 0
+   - Desenes: 1 - 1 = 0
+   - Centenes: 1 - 1 = 0
+   - Milers: 1 - 1 = 0
+   - Desenes de miler: 1 - 0 = 1
+   - Unitats de miler: 1 - 0 = 1
+   - Desenes de miler: 1 - 0 = 1
+   - Centenes de miler: 1 - 0 = 1
+   - Milers: 1 - 0 = 1
+   - Desenes de miler: 0 - 0 = 0
+   - Centenes de miler: 0 - 0 = 0
+   - Milers de miler: 0 - 0 = 0
+   - Desenes de miler de miler: 0 - 0 = 0
+   - Centenes de miler de miler: 1 - 0 = 1
+
+4. La resta final ens dona:
+   11,11 - 1,111 = 9,999
+
+Per tant, la resposta correcta és 9,999.
+
+Resposta: D)

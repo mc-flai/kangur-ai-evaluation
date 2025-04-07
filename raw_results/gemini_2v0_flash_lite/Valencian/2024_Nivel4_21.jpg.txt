@@ -1,0 +1,7 @@
+Raonament:
+1. **Considera les files:** En cada fila hi ha 4 caselles, i s'han d'omplir amb les 4 lletres A, B, C, i D. Això pot fer-se de 4! = 24 maneres per fila.
+2. **Primer quadrat de 2x2:** En el primer quadrat de 2x2, hi ha 4 posicions, i cadascuna de les 4 lletres ha d'estar una vegada. Considerant les dos files, les quatre lletres es poden col·locar de dues maneres possibles (intercanviant les dues files). En cada un dels tres quadrats de 2x2 es poden intercanviar les files, que canviaran les posicions de les lletres.
+3. **Quadrats restants:** S'han de considerar els altres dos quadrats de 2x2. Les posicions de les lletres en els altres dos quadrats de 2x2 depenen de la disposició del primer quadrat.
+4. **Càlcul combinatori:** Per al primer quadrat de 2x2, tenim 4! possibles permutacions de les lletres, però només 2 possibles dissenys per a les files (ja que les files són intercanviables) i 2 maneres d'intercanviar les files, la qual cosa dona 24 combinacions. En el segon quadrat de 2x2 tenim 2 maneres de permutar les lletres. Llavors, la resposta és 2x2x2x2x2 = 96.
+
+Resposta: D)

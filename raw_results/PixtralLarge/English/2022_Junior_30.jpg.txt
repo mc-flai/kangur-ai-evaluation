@@ -1,0 +1,18 @@
+To determine the diameter of the holes, we need to consider the geometry of the wooden cube and the hemispheric holes.
+
+1. Each face of the cube has a side length of 2 units.
+2. The holes are hemispheres, and each hole touches each adjacent hemisphere at exactly one point.
+3. The center of each hemisphere will be at the midpoint of the cube's face, which is at (1,1) if we consider the face of the cube as a 2x2 square.
+4. The radius of the hemisphere will extend to the midpoint of the adjacent face.
+5. The distance from the midpoint of one face to the midpoint of an adjacent face (which is the diameter of the hole) can be calculated using the Pythagorean theorem.
+
+Let's calculate the distance between the midpoints of two adjacent faces:
+- The distance between the centers of two adjacent faces is the diagonal of a square with side length 2.
+- The diagonal of a square with side length \(a\) is given by \(a\sqrt{2}\).
+- Therefore, the diagonal of a square with side length 2 is \(2\sqrt{2}\).
+
+Thus, the diameter of the holes is \(2\sqrt{2}\).
+
+Reasoning: The diameter of the holes is calculated based on the distance between the midpoints of two adjacent faces of the cube, which is the diagonal of a square with side length 2.
+
+Answer: C).

@@ -1,0 +1,15 @@
+Razonamiento:
+1. **Calculate the area of the square:** The square has a side of 6 cm, so its area is 6 cm * 6 cm = 36 cm².
+2. **Analyze the shaded area:** The shaded area is composed of two identical sections. Each section is formed by the intersection of the diagonal, a quarter-circle, and a semicircle within the square.
+3. **Consider one of the two shaded areas**: Notice that the two shaded regions, when combined, form a shape which can be found by subtracting from the square two unshaded quarter circles. The radius of the circles is 3cm (half the side of the square).
+4. **Calculate the area of the two quarter-circles**: The area of a quarter circle is (π * r²) / 4. So the area of two quarter circles is 2*((π * 3²)/4) = (18π)/4 = (9π)/2.
+5. **Calculate the area of the diagonal triangle**: The diagonal splits the square into two identical right triangles. The area of each triangle is (1/2) * base * height = (1/2) * 6 * 6 = 18 cm².
+6. **Find the unshaded area in each right triangle**. The unshaded area in the upper right and the lower left triangles is the same. It's the area of the quarter circle minus the area of a triangle with a base and height of 3cm. So the area is (π*3²/4) - (3*3/2) = (9π/4) - (9/2)
+7. **The total unshaded area is the sum of the unshaded areas within each right triangle**: The unshaded areas are equal.
+8. **Area of shaded part = Area of square - unshaded area**. The area of the unshaded part is 36-18. The sum of the shaded region is the area of the square less the area of the semicircle and the area of quarter-circle.
+9. **Alternatively**, the total unshaded area in the two sections can be found by two times the quarter circles.
+10.  The area of the two quarter circles is π*(3²)/2 = (9π)/2.
+11. The total area of the unshaded part is 2*(9π/4) = 9π/2. The shaded area in one triangle is 18 - unshaded area.
+12.  The area of the shaded area is = area of two unshaded shapes which overlap = 2* (area of the square/4 - area of a triangle) = 2* (1/4*36 - 9/2) = 2*(9-9/2) = 2*(9/2) = 9
+
+Respuesta: A)

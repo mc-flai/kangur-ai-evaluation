@@ -1,0 +1,14 @@
+Raonament: Considerem un cercle que passa per (0,0) i (1,0). El centre del cercle ha d'estar a la recta perpendicular a la corda que uneix aquests punts, és a dir, a la recta x=1/2. El cercle tindrà un radi r i el centre serà (1/2, a). L'equació del cercle serà (x-1/2)^2 + (y-a)^2 = r^2. Com que (0,0) pertany al cercle, (0-1/2)^2 + (0-a)^2 = r^2, és a dir, 1/4 + a^2 = r^2. Com que (1,0) pertany al cercle, (1-1/2)^2 + (0-a)^2 = r^2, és a dir, 1/4 + a^2 = r^2.
+Considerem el punt (x,y) que està sobre el cercle. (x-1/2)^2 + (y-a)^2 = 1/4 + a^2.
+x^2 - x + 1/4 + y^2 - 2ay + a^2 = 1/4 + a^2.
+x^2 - x + y^2 - 2ay = 0.
+Podem escriure l'equació com x^2 + y^2 = x + 2ay
+Considerem la recta AB. Un punt (x,y) a la circumferencia que passa per (0,0) i (1,0) no pot tenir y=0, excepte si és el punt (0,0) o el punt (1,0). Per tant, y no pot ser igual a 0.
+Ara, analitzarem les altres respostes.
+A) Podem tenir cercles molt grans amb el centre molt lluny de l'eix x. Si y es fa gran i mantenim x petit, podem tenir punts amb x<0 o x>1. Per exemple, considereu el cercle amb centre (1/2, 100) i radi sqrt(1/4 + 10000), que passa per (0,0) i (1,0). Prenem y=100 en aquest cercle.
+B) Podem tenir punts a la circumferencia on x > y o x < y, així que x=y no és correcta.
+C) y = 0 és fals, ja que ens diuen que (x,y) és diferent d'A i B.
+D) y ≠ 0 és correcta, ja que els únics punts on y=0 són (0,0) i (1,0).
+E) x > y no és sempre correcte. Podem tenir cercles amb el centre a la part superior o inferior.
+
+Resposta: D)

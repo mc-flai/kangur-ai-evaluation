@@ -1,0 +1,11 @@
+**Razonamiento:**
+1. El problema describe un cub de madera con caras pintadas de rojo. Este cub se corta en 27 cubos más pequeños, todos iguales, que se disponen en paralelo a las caras del cub grande, dividiendo cada cara del cub grande en tres partes iguales.
+2. Para encontrar la cantidad de caras pintadas de rojo en los cubos más pequeños, debemos considerar que cada cara del cubo más grande tiene tres caras pintadas de rojo.
+3. Cada uno de los 27 cubos más pequeños tiene 6 caras.
+4. Sin embargo, no todas las caras de los cubos más pequeños estarán pintadas de rojo. Solo las caras que estaban en las caras del cubo grande estarán pintadas de rojo.
+5. Dado que cada cara del cubo grande tiene 3 caras pintadas de rojo y hay 6 caras en cada cubo más pequeño, pero solo las caras que estaban en las caras del cubo grande estarán pintadas de rojo, podemos calcular la cantidad de caras pintadas de rojo en cada cubo más pequeño como sigue:
+   - Cada cubo más pequeño tiene 3 caras pintadas de rojo (una por cada cara del cubo grande que estaba pintada de rojo).
+6. Por lo tanto, la cantidad total de caras pintadas de rojo en los 27 cubos más pequeños es:
+   - 27 cubos * 3 caras pintadas de rojo por cubo = 81 caras pintadas de rojo.
+
+**Respuesta: C)**

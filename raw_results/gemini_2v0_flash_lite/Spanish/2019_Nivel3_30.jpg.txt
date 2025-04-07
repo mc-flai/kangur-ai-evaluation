@@ -1,0 +1,17 @@
+Razonamiento:
+El tren tiene 18 vagones. En cualquier bloque de 5 vagones hay 199 pasajeros.
+Podemos dividir el tren en bloques de 5 vagones.  18 / 5 = 3 bloques con un resto de 3 vagones.
+Los dos vagones centrales están en el bloque central de 5 vagones.
+Hay 3 bloques de 5 vagones.  Estos bloques se superponen. Podemos imaginar los bloques así:
+Vagones: 1 2 3 4 5  6 7 8 9 10 11 12 13 14 15 16 17 18
+Bloques: 1 2 3 4 5, 6 7 8 9 10, 11 12 13 14 15,  
+Los bloques de 5 se dividen en 3, y el resto es 3, estos son los 3 ultimos vagones (16, 17, 18).
+En el segundo bloque los vagones centrales son 8 y 9.
+Como se puede ver, el segundo bloque de 5 contiene los dos vagones centrales.
+Si cada bloque de 5 tiene 199 pasajeros, y se dividen en 3 bloques, podemos decir que el segundo bloque es central.
+Calculamos el número de pasajeros en cada bloque (ya dado):  199 pasajeros.
+Los vagones centrales del tren están en el segundo bloque de 5 vagones.
+La pregunta es: "¿Cuántos pasajeros hay en los dos vagones centrales?"
+Como sabemos que cada bloque de 5 tiene 199 pasajeros, y los dos vagones centrales están en el segundo bloque, los 2 vagones centrales son 77.
+
+Respuesta: B)

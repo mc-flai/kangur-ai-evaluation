@@ -1,0 +1,44 @@
+Raonament:
+Let's trace the operations for the first few iterations. Let the initial number be $m$. Since $m$ is even and not divisible by 4, we can write $m = 2(2k+1)$ for some integer $k$. The largest divisor of $m$ other than $m$ is $k = m/2$. The operation is to compute $n + k$, where $n$ is the number and $k$ is the largest divisor.
+
+1.  $m \to m + m/2 = \frac{3m}{2}$.  Since $m$ is even and not divisible by 4, then $m/2$ is an integer but not even.  $\frac{3m}{2}$ is not an integer, which is impossible according to the problem.
+2. $m = 2x$
+Since m is even and not divisible by 4, it can be written as $m = 2(2k+1)$ for some integer k. The largest divisor of m different from m is $m/2 = 2k+1$.
+Iteration 1: $m \to m + m/2 = 3m/2$.
+Iteration 2: This is not an integer.
+Let's consider a number which is even and not divisible by 4. $m=6$. Its largest divisor other than 6 is 3.
+Iteration 1: $6 \to 6 + 3 = 9$
+Iteration 2: $9 \to 9 + 3 = 12$
+Iteration 3: $12 \to 12 + 6 = 18$
+Iteration 4: $18 \to 18 + 9 = 27$
+Iteration 5: $27 \to 27 + 9 = 36$
+Iteration 6: $36 \to 36 + 18 = 54$
+$m=6$. After 6 iterations, the result is 54. The answer is $9 \times 6 = 54$.
+The sequence must follow $9m$.
+$n \to n + k$. $n$ is an integer. We are given that we start with an even number $m$, but not divisible by $4$, means that $m/2$ is an integer, and odd.
+$m = 2a$
+$2a \to 2a + a = 3a$.
+Then we have $3m/2$. It can't be the answer.
+
+Let $m = 2$.
+$m$ can be written as $2$. The largest divisor is $1$.
+Iteration 1: $2+1 = 3$
+Iteration 2: $3+1=4$
+Iteration 3: $4+2=6$
+Iteration 4: $6+3=9$
+Iteration 5: $9+3=12$
+Iteration 6: $12+6=18$
+If m=2, the answer is 18.
+The closest relation appears to be to multiply m by 9.
+Since $m=2$. $9m = 18$.
+
+Let $m = 6$. Largest divisor is $3$.
+1. $6 \to 6+3=9$
+2. $9 \to 9+3=12$
+3. $12 \to 12+6=18$
+4. $18 \to 18+9=27$
+5. $27 \to 27+9=36$
+6. $36 \to 36+18=54$
+$9m = 9(6) = 54$.
+
+Resposta: D)

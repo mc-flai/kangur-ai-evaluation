@@ -1,0 +1,5 @@
+Reasoning:
+This is an example of the Josephus problem. In the first round, all even numbers are eliminated. Thus, only odd numbers are remaining. There are 96 people in the club, so after the first round 96/2 = 48 people remain. The next number being said is 97, which is said by the person who originally said number 1 in the first round, since all the even numbers are eliminated. We can find an equation for finding the remaining number in the first round. In this case the remaining number is 1. Since, 96/2 is 48, the last number being said in the first round is 95.
+However, if we start from 97 with 48 people, the person who originally said 1 in the first round now says 97. The last person remaining will be the person who said 1 in the first round since it is the lowest value of all given options and will not be eliminated in the first round.
+
+Answer: A)

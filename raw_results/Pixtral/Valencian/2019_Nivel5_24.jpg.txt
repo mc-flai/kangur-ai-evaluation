@@ -1,0 +1,17 @@
+La pregunta 24 pregunta quantos plans pasan por tres vértices de un cub pero no por cuatro.
+
+Para resolver esto, necesitamos entender cómo se pueden trazar planos a través de tres vértices de un cub sin pasar por cuatro vértices.
+
+1. Un cub tiene 8 vértices.
+2. Un plano que pasa por tres vértices de un cub debe ser un plano que corte el cub en dos mitades.
+3. Un plano que corte el cub en dos mitades debe pasar por exactamente tres vértices no colineales.
+
+Para determinar cuántos planos pueden pasar por tres vértices sin pasar por cuatro, consideramos las combinaciones posibles de vértices:
+
+1. Cada plano que pasa por tres vértices puede ser considerado como una combinación de tres vértices de los ocho disponibles.
+2. El número de combinaciones posibles de tres vértices de ocho es calculado por la fórmula combinatoria \( C(n, k) = \frac{n!}{k!(n-k)!} \), donde \( n \) es el número total de vértices y \( k \) es el número de vértices en cada combinación.
+3. En este caso, \( n = 8 \) y \( k = 3 \), por lo que \( C(8, 3) = \frac{8!}{3!(8-3)!} = \frac{8!}{3!5!} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56 \).
+
+Por lo tanto, hay 56 planos que pasan por exactamente tres vértices del cub.
+
+**Respuesta: E)**

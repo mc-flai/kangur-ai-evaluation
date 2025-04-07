@@ -1,0 +1,21 @@
+Per resoldre la pregunta 24, cal determinar quantes triangles equilàters poden veure's en la figura, on cada triangle té els costats dividits en 4 parts iguals i línies paral·leles als costats.
+
+Dividim el triangle gran en triangles més petits:
+- Observem que el triangle més gran es divideix en 4 triangles de la primera fila.
+- Cada triangle de la primera fila es divideix en 3 triangles més petits de la segona fila.
+- Cada triangle de la segona fila es divideix en 2 triangles de la tercera fila.
+
+Així, tenim:
+- 1 triangle gran (tota la figura)
+- 4 triangles en la primera fila
+- 9 triangles en la segona fila
+- 16 triangles en la tercera fila
+
+Sumant tots els triangles:
+1 + 4 + 9 + 16 = 30
+
+Hi ha 30 triangles equilàters.
+
+Raonament: Dividint progressivament el triangle gran en triangles més petits, sumant els triangles de cada fila: 1 + 4 + 9 + 16 = 30.
+
+Resposta: E) una altra resposta

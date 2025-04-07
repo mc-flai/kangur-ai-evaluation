@@ -1,0 +1,38 @@
+Para resolver el problema, primero necesitamos analizar las operaciones que se describen. El Canguro está utilizando el número 12 y multiplicando o dividiendo por 2 o por 3 repetidamente. Nuestra tarea es identificar cuál de las opciones dadas no puede ser obtenida mediante estas operaciones.
+
+**Paso 1: Examinar las operaciones posibles.**
+
+1. Multiplicar por 2: 
+   - 12 x 2 = 24
+   - 24 x 2 = 48
+   - 48 x 2 = 96
+   
+2. Dividir por 2:
+   - 12 / 2 = 6
+   - 6 / 2 = 3
+   - 3 / 2 = 1.5 (no es entero)
+   
+3. Multiplicar por 3:
+   - 12 x 3 = 36
+   - 36 x 3 = 108
+   - 108 x 3 = 324
+   
+4. Dividir por 3:
+   - 12 / 3 = 4
+   - 4 / 3 = 1.33 (no es entero)
+
+**Paso 2: Analizar las opciones dadas.**
+
+- A) 12: Este es el número inicial, así que es posible.
+- B) 18: No se puede obtener con las operaciones indicadas. (12 x 1.5 o 12 / 1.5 no son enteros).
+- C) 36: Se puede obtener multiplicando 12 x 3.
+- D) 72: Se puede obtener multiplicando 12 x 6 (que es 12 x 2 x 3).
+- E) 108: Se puede obtener multiplicando 12 x 3 x 3.
+
+**Conclusión:**
+La única opción que no puede ser obtenida mediante multiplicación o división de 12 por 2 o por 3 es B) 18.
+
+**Razonamiento:** 
+Al analizar las multiplicaciones y divisiones permitidas de 12 por 2 y por 3, encontramos que 18 no puede ser obtenido como un número entero.
+
+**Respuesta:** B)

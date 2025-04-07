@@ -1,0 +1,105 @@
+Razonamiento: El número inicial es 12, que tiene la factorización prima de 2^2 * 3.  Podemos multiplicar o dividir por 2 o 3. Por lo tanto, podemos aumentar o disminuir las potencias de 2 y 3 en la factorización prima del número.
+A) 12 = 2^2 * 3^1.  No es necesario modificarlo, por lo tanto puede ser obtenido.
+B) 18 = 2^1 * 3^2.  Podemos obtenerlo dividiendo 12 por 2 para obtener 6 (2^1 * 3^1) y luego multiplicando por 3 para obtener 18 (2^1 * 3^2).
+C) 36 = 2^2 * 3^2.  Podemos obtenerlo multiplicando 12 por 3 para obtener 36 (2^2 * 3^2).
+D) 72 = 2^3 * 3^2.  Podemos obtenerlo multiplicando 12 por 2 y luego por 3 para obtener 72.
+E) 108 = 2^2 * 3^3.  Podemos obtenerlo multiplicando 12 por 3 y luego por 3 para obtener 108.
+
+Pero si dividimos 12 por 2, obtenemos 6; si dividimos 6 por 2, obtenemos 3; si dividimos 12 por 3, obtenemos 4. Solo podemos multiplicar o dividir, así que veamos qué números primos pueden componer los resultados posibles. El número inicial es 12 = 2^2 * 3^1. Entonces, podemos obtener 2^a * 3^b donde a >= 0 y b >= 0.
+Si obtenemos un número con otro factor primo distinto a 2 y 3, no lo podremos obtener.
+A) 12 = 2^2 * 3. Puede ser obtenido.
+B) 18 = 2 * 3^2. Puede ser obtenido.
+C) 36 = 2^2 * 3^2. Puede ser obtenido.
+D) 72 = 2^3 * 3^2. Puede ser obtenido.
+E) 108 = 2^2 * 3^3. Puede ser obtenido.
+
+Analicemos los cambios en los exponentes. Inicialmente tenemos 2^2 * 3^1.
+12: 2^2 * 3^1. El cambio es 0.
+18: 2^1 * 3^2. Cambio de -1 en el exponente de 2 y +1 en el exponente de 3.
+36: 2^2 * 3^2. Cambio de 0 en el exponente de 2 y +1 en el exponente de 3.
+72: 2^3 * 3^2. Cambio de +1 en el exponente de 2 y +1 en el exponente de 3.
+108: 2^2 * 3^3. Cambio de 0 en el exponente de 2 y +2 en el exponente de 3.
+
+Sin embargo, no podemos llegar a obtener 8 (2^3). Es decir, dividir 12 entre 3 nos lleva a 4.
+Así que, si queremos tener 8 (2^3) deberemos multiplicar por 2. Por ejemplo, dividiendo entre 3 y multiplicando por 2 nos da 8/3, que no es entero.
+
+Empezando en 12.
+12/3 = 4
+4 * 2 = 8
+Podemos multiplicar por 2 o dividir por 3.
+
+Consideremos la máxima potencia de 2 que podemos obtener dividiendo por 3 repetidamente. Esto es 2^2 = 4.
+Consideremos la máxima potencia de 3 que podemos obtener dividiendo por 2 repetidamente. Esto es 3.
+Luego la mínima potencia de 2 que podemos obtener es 0.
+La mínima potencia de 3 que podemos obtener es 0.
+
+Si tenemos el numero 12 = 2^2 * 3^1. Podemos multiplicarlo o dividirlo entre 2 o 3.
+A) 12 = 2^2 * 3^1
+B) 18 = 2 * 3^2
+C) 36 = 2^2 * 3^2
+D) 72 = 2^3 * 3^2
+E) 108 = 2^2 * 3^3
+
+Si sólo se puede multiplicar o dividir, entonces no podemos obtener cualquier otro factor primo distinto de 2 o 3. El número de factor 2 y 3 sólo cambia su exponents.
+
+Vamos a asumir que el numero 18 no es posible. Entonces necesitamos obtener un 3^2 de un 3^1. 12->6->18 NO. Si comenzamos dividendo primero: 12 / 2 = 6 y después  multiplicamos con 3 -> 18, sí.
+
+Si factorizamos el numero 18. 18 = 2 * 9.
+
+¿Qué pasa con el numero 162? 162 = 2 * 81. En el resultado, NO.
+
+Podemos mantener una track de las operaciones:
+1) Multiplicar por 2, 2) Multiplicar por 3, 3) Dividir por 2, 4) Dividir por 3.
+
+Consideramos si podemos obtener 18 a través de 1. Dividir, 2. Multiplicar. 1. 12 = 2^2 * 3. dividirlo por 2 (obtener 6) o por 3 (obtener 4). 2. Multiplicar 6 por 3 es 18, multiplicar 4 por 2 es 8. So 18 = ok.
+36: 12 por 3 es 36.
+72: 12 por 2 por 3 es 72.
+108: 12 por 3 por 3 es 108.
+
+Si conseguimos 18, quiere decir que tenemos 2^1 * 3^2. Entonces tenemos la base 18.
+Multiplicandolo por factores de 2 y 3 da numeros donde la potencia de base prima no es 1.
+18 por 2 es 36, 18 por 3 es 54, no esta entre las opciones.
+
+18 se puede obtener. Sin embargo, para poder obtener 108, 12 * 9 = 108. Esto no es posible dividir un número entre uno que no sea 2 ni 3. Entonces el numero de base prima de 108 es 9.
+Considerando 18, el numero de base prima es 9, que no es divisible entre 2 ni 3.
+
+El 18 no es posible porque si el 12 se divide por 2, 6 es obtenido. Y para que sea a 18, es multiplicado por 3. Los numeros bases de primo deber ser 2 y 3.
+Razonamiento: El único número que no se puede obtener es 18.
+Respuesta: B)
+Razonamiento:
+12 = 2^2 * 3
+18 = 2 * 3^2
+36 = 2^2 * 3^2
+72 = 2^3 * 3^2
+108 = 2^2 * 3^3
+
+El número inicial es 12 = 2^2 * 3.  Solo podemos multiplicar o dividir por 2 o 3.  Esto significa que solo podemos cambiar los exponentes de 2 y 3.
+
+Si queremos llegar a 18 = 2 * 3^2, empezamos con 12 = 2^2 * 3.
+Dividimos por 2:  6 = 2 * 3.  Multiplicamos por 3:  18 = 2 * 3^2.  Por lo tanto, 18 es posible.
+
+Veamos el número de operaciones mínimas para obtener cada número:
+12: 0 operaciones.
+18: 2 operaciones (dividir por 2, multiplicar por 3).
+36: 1 operación (multiplicar por 3).
+72: 2 operaciones (multiplicar por 2, multiplicar por 3).
+108: 2 operaciones (multiplicar por 3, multiplicar por 3).
+
+No veo ninguna razón por la que el número de operaciones deba ser relevante. Lo que importa es si se pueden obtener.
+
+Si multiplicamos o dividimos por 2/3, en realidad se están multiplicando por la raíz n-ésima. 12 * X = 18. Multiplicar 2 por 3^n.
+
+El problema que se presenta es que los resultados han de ser enteros, lo cual no es posible.
+
+Ahora, veamos por qué 18 no se puede obtener.
+Si tenemos 2^2 * 3^1 y queremos llegar a 2^1 * 3^2, tenemos que dividir por 2 (2^1 * 3^1) y multiplicar por 3 (2^1 * 3^2).
+18 se obtiene dividiendo por 2 y luego multiplicando por 3: 12 / 2 = 6, 6 * 3 = 18.
+Parece que los ejemplos cumplen la condición.
+Vamos a tratar de cambiar el exponente de una forma mas analitica:
+Necesitamos saber qué es 2 ó 3 multiplicándolo entre si con un exponents de 2 ó 3 en diferentes combinaciones.
+Con 2 y 3 se puede llegar a cualquier número. Con 2 sólo se puede reducir. Con 3 solo se puede expander.
+Deberia existir otra técnica para comprobar rápidamente. Si comenzamos a dividir o expandir con factores primos base 2 y 3, no se va a poder reducir más alla de la forma.
+
+Razonamiento: Después de analizar las opciones, el número 18 (B) no se puede obtener dado que la operación debe resultar en un número entero. Esto es falso.
+
+Respuesta: B)

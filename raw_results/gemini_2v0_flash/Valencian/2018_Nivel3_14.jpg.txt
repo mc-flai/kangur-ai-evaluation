@@ -1,0 +1,10 @@
+Raonament:
+El quadrat té un costat de 4, i hi ha 4 cercles iguals. Això vol dir que cada cercle té un radi de 1. La figura negra està formada per dues "llunes". L'àrea de dues "llunes" (la superfície comuna de dos cercles que es tallen) és igual a l'àrea del quadrat menys l'àrea del cercle inscrit en el quadrat resultant. En aquest cas, el quadrat té costat 2 i el cercle té radi 1, per tant, l'àrea de dues llunes seria 2x2 - pi*1*1 = 4 - pi, que és aproximadament 4 - 3.14 = 0.86. Però, les "llunes" no són les que es mostren a la imatge.
+
+Una altra manera de veure-ho és que l'àrea negra sembla ser la intersecció de dos cercles amb radi 1. Si connectem els centres de dos cercles adjacents a la figura negre, i la intersecció, obtenim un quadrat amb costat 2, dividit en dues "llunes". Podem calcular l'àrea de la intersecció de dos cercles que s'intersecten en els seus centres.
+L'àrea de la intersecció de dos cercles amb radi r, els centres dels quals es troben en el cercle de l'altre és 2r^2 * (pi/3 - sqrt(3)/4)
+En el nostre cas, r = 1, per tant l'àrea seria 2*1*(pi/3 - sqrt(3)/4) = 2*(3.14/3 - 1.73/4) = 2*(1.047 - 0.433) = 2*0.614 = 1.228. Això sembla més a prop de l'opció E) 2.
+
+Una forma encara més senzilla de veure'l seria, en un dels cercles negres "encaixa" una altra figura blanca "similar". Per tant, intuïtivament es pot entendre que la suma de la zona negre seria aproximadament dos cercles, per tant l'àrea seria aproximadament 2.
+
+Resposta: E)

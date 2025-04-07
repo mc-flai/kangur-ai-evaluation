@@ -1,0 +1,18 @@
+La pregunta 21 solicita el número mínimo de cerillas necesarias para formar los números de 21 a 30 utilizando los segmentos de cerillas en la cuadrícula de la figura. La clave es identificar cuántas cerillas se necesitan para cada número y luego encontrar el mínimo.
+
+Razonamiento:
+1. Identificar el número de cerillas necesarias para cada número del 21 al 30.
+2. Contar las cerillas para cada número:
+   - 21: 5 cerillas (1 para el 2, 2 para el 1)
+   - 22: 5 cerillas (1 para el 2, 2 para el 2)
+   - 23: 5 cerillas (1 para el 2, 2 para el 3)
+   - 24: 5 cerillas (1 para el 2, 2 para el 4)
+   - 25: 5 cerillas (1 para el 2, 2 para el 5)
+   - 26: 6 cerillas (1 para el 2, 2 para el 6)
+   - 27: 6 cerillas (1 para el 2, 2 para el 7)
+   - 28: 6 cerillas (1 para el 2, 2 para el 8)
+   - 29: 6 cerillas (1 para el 2, 2 para el 9)
+   - 30: 6 cerillas (1 para el 3, 2 para el 0)
+3. El número mínimo de cerillas necesarias para formar cualquiera de estos números es 5.
+
+Respuesta: B

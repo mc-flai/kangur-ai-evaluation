@@ -1,0 +1,36 @@
+Per resoldre aquesta pregunta, hem de calcular el nombre de combinacions possibles de 6 cilindres de fusta, considerant que alguns són intercanviables perquè tenen el mateix color.
+
+**Raonament**:
+1. Identifica el nombre total d'objectes: hi ha 6 cilindres.
+2. Identifica els grups d'objectes idèntics:
+   - 3 cilindres blaus
+   - 2 cilindres verds
+   - 1 cilindre gris
+3. Usa la fórmula per al nombre de permutacions de n objectes en què alguns són idèntics:
+   \[
+   \frac{n!}{n_1! \cdot n_2! \cdot \ldots \cdot n_k!}
+   \]
+   on \( n \) és el nombre total d'objectes, i \( n_1, n_2, \ldots, n_k \) són els nombres d'objectes idèntics en cada grup.
+4. Substitueix els valors:
+   \[
+   \frac{6!}{3! \cdot 2! \cdot 1!}
+   \]
+5. Calcula els factorials:
+   \[
+   6! = 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 720
+   \]
+   \[
+   3! = 3 \times 2 \times 1 = 6
+   \]
+   \[
+   2! = 2 \times 1 = 2
+   \]
+   \[
+   1! = 1
+   \]
+6. Substitueix els valors en la fórmula:
+   \[
+   \frac{720}{6 \times 2 \times 1} = \frac{720}{12} = 60
+   \]
+
+**Resposta**: B) 60

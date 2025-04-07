@@ -1,0 +1,20 @@
+To determine how often a change of places occurs, we need to carefully analyze the situation described in the problem.
+
+1. There are eight kangaroos in a row.
+2. Two kangaroos, that are standing next to each other and looking into each other's eyes, are changing places by hopping past each other.
+3. This process is carried out until no more jumps are possible.
+
+Let's consider the sequence of jumps:
+- Initially, each kangaroo is standing next to another kangaroo facing it.
+- For each pair of kangaroos that look into each other's eyes, a single jump occurs where they swap places.
+- After the first swap, the kangaroos that swapped will no longer be facing each other.
+- Therefore, each swap will result in one change of places.
+- This process will continue until all facing pairs have swapped places.
+
+Given that there are 8 kangaroos and they are arranged in such a way that each kangaroo faces another, there will be a total of 7 pairs of kangaroos that will swap places. Each of these 7 pairs will result in one change of place.
+
+Thus, the total number of changes of places is 7. However, none of the provided answer choices is 7. This suggests a potential mistake in the problem setup or the options provided. Based on the information given and the closest logical reasoning, the number of changes should be 7, but this is not an option.
+
+Reasoning: Each pair of facing kangaroos will swap places once, resulting in a total of 7 swaps. Since 7 is not an option, we must reconsider the problem constraints or options provided.
+
+Answer: None of the provided options correctly matches the logical deduction.

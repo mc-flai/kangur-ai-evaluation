@@ -1,0 +1,13 @@
+Raonament: Primer, necessitem trobar el màxim nombre de caixes de manera que totes les caixes tinguin el mateix nombre de pomes. Això significa que el nombre de caixes ha de ser un divisor de 60. Les opcions donades són 20, 15, 12, 10 i 6, que són tots divisors de 60 (60/20 = 3, 60/15 = 4, 60/12 = 5, 60/10 = 6, 60/6 = 10). Per tant, cada caixa tindria el mateix nombre de pomes.
+
+Ara hem de tenir en compte la condició que no hi hagi dues caixes amb la mateixa quantitat de peres. Això significa que en cada caixa hi ha un nombre diferent de peres. Si hi ha N caixes, llavors el nombre total de peres ha de ser almenys la suma dels N primers enters positius: 1 + 2 + 3 + ... + N = N(N+1)/2. Com que tenim 60 peres, hem de trobar el màxim N tal que N(N+1)/2 <= 60.
+
+A) N = 20: 20 * 21 / 2 = 210 > 60. Així que 20 caixes no és possible.
+B) N = 15: 15 * 16 / 2 = 120 > 60. Així que 15 caixes no és possible.
+C) N = 12: 12 * 13 / 2 = 78 > 60. Així que 12 caixes no és possible.
+D) N = 10: 10 * 11 / 2 = 55 <= 60. Així que 10 caixes és possible.
+E) N = 6: 6 * 7 / 2 = 21 <= 60. Així que 6 caixes és possible.
+
+Volem el nombre més gran de caixes, de manera que comparem D) i E). Com que 10 > 6 i les dues opcions són possibles, la resposta correcta és 10.
+
+Resposta: D)

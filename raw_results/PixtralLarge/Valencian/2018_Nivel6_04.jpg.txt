@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de calcular l'àrea de la manta i veure quantes vegades cabria dins de l'àrea d'un calaix.
+
+1. **Calcular l'àrea de la manta**:
+   L'àrea de la manta és \(220 \, \text{cm} \times 240 \, \text{cm}\).
+   \[
+   \text{Àrea de la manta} = 220 \times 240 = 52800 \, \text{cm}^2
+   \]
+
+2. **Calcular l'àrea del calaix**:
+   L'àrea del calaix és \(55 \, \text{cm} \times 40 \, \text{cm}\).
+   \[
+   \text{Àrea del calaix} = 55 \times 40 = 2200 \, \text{cm}^2
+   \]
+
+3. **Calcular quin és el nombre més petit de vegades que hem de plegar la manta perquè quepa al calaix**:
+   Perquè la manta quepa al calaix, l'àrea de la manta plegada ha de ser menor o igual a l'àrea del calaix.
+   \[
+   \text{Àrea de la manta} \leq \text{Àrea del calaix}
+   \]
+   Cada vegada que pleguem la manta, l'àrea es redueix a la meitat. El nombre mínim de vegades que hem de plegar la manta és:
+   \[
+   52800 \div 2200 = 24
+   \]
+   Però, com que la manta pot no encaixar perfectament, hem de plegar-la un nombre de vegades que redueixi l'àrea de la manta a menys de 2200 cm².
+
+   Calculem el nombre de vegades que cal plegar la manta:
+   \[
+   2^n \geq 24 \implies n \geq \log_2{24} \approx 4.58
+   \]
+   Per tant, hem de plegar la manta com a mínim 5 vegades.
+
+Raonament: La manta s'ha de plegar com a mínim 5 vegades perquè l'àrea es redueixi a menys dels 2200 cm² del calaix.
+
+Resposta: D) 5

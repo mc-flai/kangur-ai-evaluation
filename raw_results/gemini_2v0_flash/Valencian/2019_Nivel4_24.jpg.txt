@@ -1,0 +1,15 @@
+Raonament: La pregunta ens demana quantes vegades apareix la paraula *ONE* en la suma *ONE* + *ONE* + ... + *ONE* = 2331. Per tant, hem de trobar un nombre de tres xifres diferents que, repetit un cert nombre de vegades, doni 2331. Si anomenem *x* el valor numèric de la paraula *ONE* i *n* el nombre de vegades que apareix, aleshores *n* * x* = 2331. Per trobar *n*, necessitem determinar els factors de 2331.
+
+Els factors primers de 2331 són 3 i 777. Amb una descomposició més completa, 2331 = 3 * 3 * 7 * 37 = 9 * 7 * 37. Per tant, els factors possibles són 1, 3, 7, 9, 21, 37, 63, 111, 259, 333, 777, 2331.
+Com que *ONE* és un número de tres xifres diferents, hem de mirar factors que també siguin de tres xifres.
+Si *n* = 3, *ONE* = 2331/3 = 777. Però els dígits no són diferents.
+Si *n* = 7, *ONE* = 2331/7 = 333. Però els dígits no són diferents.
+Si *n* = 9, *ONE* = 2331/9 = 259. Els dígits són diferents.
+Si *n* = 21, *ONE* = 2331/21 = 111 (aproximadament).  (2331/21= 111 i la resta és 0). Però els dígits no són diferents.
+Si *n* = 37, *ONE* = 2331/37 = 63. Aquest no és un número de tres xifres.
+Si *n* = 63, *ONE* = 2331/63 = 37. Aquest no és un número de tres xifres.
+Si *ONE* = 259, llavors *n* = 9.
+
+Així, la paraula *ONE* apareix 9 vegades.
+
+Resposta: B)

@@ -1,0 +1,23 @@
+### Reasoning:
+Joseph has four toys: a toy car, a teddy bear, a ball, and a ship. The ship must be next to the car, and the teddy bear must also be next to the car. We need to determine the number of different orders in which he can arrange these toys on the shelf.
+
+Let's denote the toys as follows:
+- T: Toy car
+- B: Teddy bear
+- S: Ship
+- Ba: Ball
+
+Given the constraints:
+- T must be next to S
+- T must be next to B
+
+We can consider T as a single unit with S and T as another single unit with B. Therefore, we have two units to arrange: (T-S) and (T-Ba).
+
+The possible arrangements of these units are:
+1. (T-S) - (T-Ba)
+2. (T-Ba) - (T-S)
+
+Within each unit, the toys are fixed due to the constraints. Therefore, the only variation comes from the arrangement of the two units.
+
+### Answer:
+B

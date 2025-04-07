@@ -1,0 +1,13 @@
+Raonament: Siguin $a$ i $b$ els dos nombres de la segona fila. Llavors $a \cdot b = 720$. Siguin $x$ i $y$ els dos nombres de la fila inferior. Llavors els dos nombres de la segona fila són $x \cdot n$ i $n \cdot y$. Per tant, $(x \cdot n) \cdot (n \cdot y) = 720$, el que implica $n^2 \cdot x \cdot y = 720$, de manera que $n^2$ ha de ser un divisor de 720.
+
+La descomposició en factors primers de 720 és $720 = 2^4 \cdot 3^2 \cdot 5$. Llavors $n^2$ pot ser qualsevol divisor de 720 que sigui un quadrat perfecte. Els possibles valors de $n^2$ són $1, 4, 9, 16, 36 = 4 \cdot 9$. Això significa que $n$ pot ser $1, 2, 3, 4, 6$. Hem de verificar que tots aquests valors de $n$ són possibles.
+
+Si $n=1$, llavors $x \cdot y = 720$. Un possible conjunt és $x=1, y=720$. Llavors els nombres de la fila del mig serien 1 i 720.
+Si $n=2$, llavors $4xy = 720$, de manera que $xy = 180$. Un possible conjunt és $x=1, y=180$. Llavors els nombres de la fila del mig serien 2 i 360.
+Si $n=3$, llavors $9xy = 720$, de manera que $xy = 80$. Un possible conjunt és $x=1, y=80$. Llavors els nombres de la fila del mig serien 3 i 240.
+Si $n=4$, llavors $16xy = 720$, de manera que $xy = 45$. Un possible conjunt és $x=1, y=45$. Llavors els nombres de la fila del mig serien 4 i 180.
+Si $n=6$, llavors $36xy = 720$, de manera que $xy = 20$. Un possible conjunt és $x=1, y=20$. Llavors els nombres de la fila del mig serien 6 i 120.
+
+Per tant, els possibles valors de $n$ són 1, 2, 3, 4, 6. En total hi ha 5 valors diferents per a $n$.
+
+Resposta: C)

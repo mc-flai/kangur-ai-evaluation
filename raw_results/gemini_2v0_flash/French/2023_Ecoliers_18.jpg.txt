@@ -1,0 +1,906 @@
+Reasoning:
+The question asks for the number of different orders Hermione, Margot, and Camille can enter the class given the restrictions: Hermione is never first, Margot is never second, and Camille is never last.
+
+Let's list the possible orders:
+1. Margot, Hermione, Camille
+2. Margot, Camille, Hermione
+3. Camille, Hermione, Margot
+
+Hermione cannot be first: eliminates orders like Hermione, Margot, Camille etc.
+Margot cannot be second: eliminates orders like Hermione, Margot, Camille etc.
+Camille cannot be last: eliminates orders like Margot, Hermione, Camille etc.
+
+Let's enumerate the possible orders without restrictions:
+1. Hermione, Margot, Camille
+2. Hermione, Camille, Margot
+3. Margot, Hermione, Camille
+4. Margot, Camille, Hermione
+5. Camille, Hermione, Margot
+6. Camille, Margot, Hermione
+
+Now apply the restrictions:
+1. Hermione, Margot, Camille - Hermione cannot be first. Eliminate
+2. Hermione, Camille, Margot - Hermione cannot be first. Eliminate
+3. Margot, Hermione, Camille - Camille cannot be last. Eliminate
+4. Margot, Camille, Hermione - Valid
+5. Camille, Hermione, Margot - Valid
+6. Camille, Margot, Hermione - Margot cannot be second. Eliminate
+
+Remaining valid orders are:
+1. Margot, Camille, Hermione
+2. Camille, Hermione, Margot
+
+However, let's consider the condition of Margot not being second, which leaves us with the possibility (C, H, M).
+Consider the cases when Hermione isn't first.
+(M, C, H), (C, H, M), (C, M, H), (M,H,C) are valid.
+
+Then Margot not second allows: (C, H, M), (H,C,M)
+Then, Camille not last gives: (M, C, H)
+(C, H, M)
+(C, M, H)
+(M,H,C)
+So, with H not first, we need to eliminate the other options that break the other 2 rules. 
+If M is first, we get (M,C,H), which follows all rules. If C is first, we get (C,H,M), which follows all rules.
+If H is first, we should disregard since H is not first.
+If M is first, M cannot be second, so (M,C,H) is the option, so (C,H,M) has Camille first then.
+Let Hermione be last. Then the options are: (M,C,H) and (C,M,H). Camille is not last, so we should not end here with C last. Margot second does not work, H should be last. 
+
+Final:
+Margot, Camille, Hermione
+Camille, Hermione, Margot
+
+Therefore, there are 2 possible orders.
+
+Answer: B)
+Reasoning:
+1. List all 6 possible orders: HMC, HCM, MHC, MCH, CHM, CMH
+2. Apply the first restriction (H not first): MHC, MCH, CHM, CMH
+3. Apply the second restriction (M not second): MHC, CHM
+4. Apply the third restriction (C not last): MHC
+Only 2 orders that satisfy are : MCH and CHM. The only one that is valid is CHM.
+
+The valid options are MHC, CHM and MCH.
+Consider the order: MCH = Margot, Camille, Hermione
+Consider the order: CHM = Camille, Hermione, Margot
+Consider the order: MHC = Margot, Hermione, Camille (does not comply to C can't be last rule, not valid).
+So, valid orders are CHM and MCH.
+
+Reasoning:
+
+Total possible orders without restriction are 3! = 6.
+
+Hermione cannot be first. This means the first position can only be filled by Margot or Camille.
+Margot cannot be second.
+Camille cannot be last.
+
+Let's enumerate the possibilities:
+1. Margot is first: M _ _ : Since Margot cannot be second, we can only have M C H. This order meets all the requirements.
+2. Camille is first: C _ _ : Since Camille cannot be last, we have C H M or C M H. But Margot cannot be second, so we can have C H M. This also works.
+Let's say Hermione is first. This violates the first rule.
+3. Hermione is in the middle: C H M and M H C. We already have C H M.
+4. H last: C M H and M C H. (Margot cannot be second, meaning C is the second person. Invalid.
+5. Let Hermione be second. We will see whether the other cases meet the restrictions
+We can have only C H M or M H C
+Total combinations possible: C H M and M C H
+Since H is never first, this rules out 3!/3 = 2
+Since M is never second, then there can be: X H X, where X X X represents the people. so this gets ruled by 2! = 2 orders and not that big for rule to exist on Hermione/Margot/Camille
+
+Therefore, 2 valid orders exists. Margot, Camille, Hermione.
+
+Final Answer:
+Reasoning:
+Let's enumerate all possibilities and eliminate based on the given constraints:
+Total possibilities = 3! = 6
+1. Hermione, Margot, Camille (HMC) - Hermione cannot be first. Invalid.
+2. Hermione, Camille, Margot (HCM) - Hermione cannot be first. Invalid.
+3. Margot, Hermione, Camille (MHC) - Camille cannot be last. Invalid.
+4. Margot, Camille, Hermione (MCH) - Valid.
+5. Camille, Hermione, Margot (CHM) - Valid.
+6. Camille, Margot, Hermione (CMH) - Margot cannot be second. Invalid.
+
+Therefore, only two orders are valid: Margot, Camille, Hermione (MCH) and Camille, Hermione, Margot (CHM).
+
+Answer: B)
+Reasoning:
+Let's analyze each condition:
+1. Hermione not first: Possible combinations - M**, C**
+2. Margot not second: Possible combinations - H** , C**
+3. Camille not last: Possible combinations - **H, **M
+
+Now combine the conditions:
+Possible orders:
+1. MCH (Margot, Camille, Hermione) : Fulfills all conditions
+2. CHM (Camille, Hermione, Margot) : Fulfills all conditions
+
+Therefore there are 2 orders
+
+Answer: B)
+Reasoning:
+Let's list all possible permutations and eliminate based on the rules:
+1. HMC - Hermione can't be first.
+2. HCM - Hermione can't be first.
+3. MHC - Camille can't be last.
+4. MCH - Valid.
+5. CHM - Valid.
+6. CMH - Margot can't be second.
+
+So we have two valid permutations: MCH and CHM.
+
+Answer: B)
+Reasoning:
+List all 6 permutations: HMC, HCM, MHC, MCH, CHM, CMH.
+- Hermione not first: eliminate HMC and HCM leaving MHC, MCH, CHM, CMH.
+- Margot not second: eliminate CMH leaving MHC, MCH, CHM.
+- Camille not last: eliminate MHC leaving MCH, CHM.
+
+Thus, two orders are possible: MCH and CHM.
+
+Answer: B)
+Reasoning:
+There are a total of 3! = 6 permutations of the three people.
+1. Hermione can't be first.
+2. Margot can't be second.
+3. Camille can't be last.
+Let's enumerate the 6 possibilities and eliminate based on these rules:
+1. HMC - invalid (Hermione is first)
+2. HCM - invalid (Hermione is first)
+3. MHC - invalid (Camille is last)
+4. MCH - valid
+5. CHM - valid
+6. CMH - invalid (Margot is second)
+
+Therefore there are only 2 possible orders
+
+Answer: B)
+Reasoning:
+Total permutations = 3! = 6
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Rules:
+Hermione cannot be first
+Margot cannot be second
+Camille cannot be last
+
+HMC = Invalid (Hermione first)
+HCM = Invalid (Hermione first)
+MHC = Invalid (Camille last)
+MCH = Valid
+CHM = Valid
+CMH = Invalid (Margot second)
+
+Therefore, only 2 possible orders.
+
+Answer: B)
+Reasoning:
+Possible orderings are:
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Hermione can't be first eliminates HMC, HCM
+Margot can't be second eliminates CMH
+Camille can't be last eliminates MHC
+
+This leaves us with MCH and CHM or 2 possible orderings
+
+Answer: B)
+Reasoning:
+There are 3! = 6 possible orderings. We can remove orderings that break one of the three conditions to get our answer.
+
+1. Hermione can't be first: eliminates HMC, HCM
+2. Margot can't be second: eliminates CMH
+3. Camille can't be last: eliminates MHC
+
+What is left are MCH and CHM.
+
+Therefore there are 2 valid orderings.
+
+Answer: B)
+Reasoning:
+First list all permutations:
+Hermione, Margot, Camille (HMC)
+Hermione, Camille, Margot (HCM)
+Margot, Hermione, Camille (MHC)
+Margot, Camille, Hermione (MCH)
+Camille, Hermione, Margot (CHM)
+Camille, Margot, Hermione (CMH)
+
+Then filter based on the rules:
+Hermione never first, so HMC and HCM are not possible.
+Margot never second, so CMH is not possible.
+Camille never last, so MHC is not possible.
+
+The possible combinations are therefore MCH and CHM. So there are 2.
+
+Answer: B)
+Reasoning:
+Let us represent the 3 persons as H, M, C
+The total possible arrangement of people without restriction is 3! = 6
+The first restriction is that H cannot be the first one
+The second restriction is that M cannot be the second one
+The third restriction is that C cannot be the last one
+
+Let's list the arrangements:
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Apply 1st restriction, we are left with : MHC, MCH, CHM, CMH
+Apply 2nd restriction, we are left with : MHC, CHM
+The valid permutations are {MCH, CHM}
+
+There are only 2 possible orders
+
+Answer: B)
+Reasoning:
+There are 3! = 6 possible orderings, these are: HMC, HCM, MHC, MCH, CHM, CMH.
+We know:
+1. Hermione can't be first. This eliminates HMC and HCM.
+2. Margot can't be second. This eliminates CMH.
+3. Camille can't be last. This eliminates MHC.
+
+The only orderings left are MCH and CHM.
+Therefore, there are 2 orderings.
+
+Answer: B)
+Reasoning:
+The total possible permutations are 3! = 6
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Hermione is never first:  eliminate HMC and HCM, leaving MHC, MCH, CHM, CMH
+Margot is never second: eliminate CMH, leaving MHC, MCH, CHM
+Camille is never last: eliminate MHC, leaving MCH, CHM
+
+The possible orders are MCH and CHM, hence 2.
+
+Answer: B)
+Reasoning:
+There are 3! = 6 permutations.
+1. HMC - H can't be first
+2. HCM - H can't be first
+3. MHC - C can't be last
+4. MCH - Valid
+5. CHM - Valid
+6. CMH - M can't be second
+
+Therefore only 2
+
+Answer: B)
+Reasoning:
+The three conditions are: H cant be first. M cant be 2nd. C cant be last. The possible orders are: 
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+So we eliminate all options which break the conditions. 
+H cant be first: HMC is invalid. HCM is invalid. 
+M cant be 2nd: CMH is invalid.
+C cant be last: MHC is invalid. 
+MCH is valid. CHM is valid. 
+So the only valid options are: MCH and CHM. 
+There are 2 possible orderings
+
+Answer: B)
+Reasoning:
+List the permutations of the three names.
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Now apply the constraints
+H not first. So no HMC, no HCM
+M not second. So no CMH
+C not last. So no MHC
+
+Only MCH and CHM are remaining.
+Therefore, the answer is 2.
+
+Answer: B)
+Reasoning:
+Total permutations = 3! = 6
+
+HMC (Hermione, Margot, Camille) - invalid, H first
+HCM (Hermione, Camille, Margot) - invalid, H first
+MHC (Margot, Hermione, Camille) - invalid, C last
+MCH (Margot, Camille, Hermione) - valid
+CHM (Camille, Hermione, Margot) - valid
+CMH (Camille, Margot, Hermione) - invalid, M second
+
+The answer is 2.
+
+Answer: B)
+Reasoning:
+Total possible permutations = 3! = 6
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+1. Hermione not first => MHC, MCH, CHM, CMH
+2. Margot not second => MHC, CHM
+3. Camille not last => CHM
+Possible errors in process/ thought. start from fresh
+
+Since M and C have positions in question, we have:
+MC...
+MH
+CM...
+CH
+.HC
+.MC
+
+M** C cannot be last, MCH
+C** can't be second H. => CH. M then CHM
+
+So MCH and CHM, hence 2
+
+Answer: B)
+Reasoning:
+There are six permutations total of the order in which the three people can enter. These are HMC, HCM, MHC, MCH, CHM, and CMH.
+We know:
+Hermione cannot be first: This eliminates HMC and HCM. We are left with MHC, MCH, CHM, and CMH.
+Margot cannot be second: This eliminates CMH. We are left with MHC, MCH, and CHM.
+Camille cannot be last: This eliminates MHC. We are left with MCH and CHM.
+Therefore there are two possible orders: MCH and CHM
+
+Answer: B)
+Reasoning:
+We have three people, Hermione (H), Margot (M), and Camille (C).
+The total possible arrangements without any restrictions is 3! = 6
+They are: HMC, HCM, MHC, MCH, CHM, CMH
+1. Hermione cannot be first. This eliminates HMC and HCM. Remaining orders are MHC, MCH, CHM, CMH.
+2. Margot cannot be second. This eliminates CMH. Remaining orders are MHC, MCH, CHM.
+3. Camille cannot be last. This eliminates MHC. Remaining orders are MCH, CHM.
+
+The possible orders are Margot, Camille, Hermione (MCH) and Camille, Hermione, Margot (CHM).
+Therefore the number of different orders is 2.
+
+Answer: B)
+Reasoning:
+
+Let the total possible orders be 3! = 6
+HMC, HCM, MHC, MCH, CHM, CMH
+
+1. H cannot be first. - Removes HMC and HCM
+Remaining are: MHC, MCH, CHM, CMH
+
+2. M cannot be second - Removes CMH
+Remaining are: MHC, MCH, CHM
+
+3. C cannot be last - Removes MHC
+Remaining are: MCH, CHM
+
+There are two possible arrangements that satisfies the given conditions.
+
+Answer: B)
+Reasoning:
+Total possible combinations without constraint = 3! = 6
+These are:
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Now applying constraints
+1. H cannot be first
+2. M cannot be second
+3. C cannot be last
+
+Eliminating all invalid entries we get
+1. HMC = invalid (H first)
+2. HCM = invalid (H first)
+3. MHC = invalid (C last)
+4. MCH = valid
+5. CHM = valid
+6. CMH = invalid (M second)
+
+Valid combinations = MCH and CHM
+Total valid combinations = 2
+
+Answer: B)
+Reasoning:
+Let's list all possible permutations of the three girls:
+
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Now apply the restrictions.
+
+H can't be first: This eliminates HMC, HCM
+
+M can't be second: This eliminates CMH
+
+C can't be last: This eliminates MHC
+
+So, we are left with MCH and CHM, a total of 2 possible orderings.
+
+Answer: B)
+Reasoning:
+Let's list all the possible combinations of the orders :
+HMC, HCM, MHC, MCH, CHM, CMH.
+Now applying the constraints to the above listed orders :
+H can't be first : Thus HMC, HCM is invalid. We are left with MHC, MCH, CHM, CMH
+M can't be second : Thus CMH is invalid. We are left with MHC, MCH, CHM
+C can't be last : Thus MHC is invalid. We are left with MCH, CHM
+Therefore there are two possible orders i.e. MCH and CHM
+
+Answer: B)
+Reasoning:
+Total Possible Orders: HMC HCM MHC MCH CHM CMH
+Conditions: H can not be first; M can not be second; C can not be last
+Applying Conditions:
+HMC not valid
+HCM not valid
+MHC not valid
+MCH valid
+CHM valid
+CMH not valid
+The remaining valid orders: MCH CHM
+There are 2 valid orders.
+
+Answer: B)
+Reasoning:
+Total number of arrangements = 3! = 6
+Let us list them down
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Condition 1: H cannot be first, that implies: MHC, MCH, CHM, CMH
+
+Condition 2: M cannot be second, that implies: MHC, CHM
+
+Condition 3: C cannot be last, that implies: MHC
+
+By going by each step there are 2 ways by considering C cannot be last in the other 3 orders. Therefore only B remains.
+
+Lets consider the conditions as following:
+Hermione can not be first.
+Margot can not be second.
+Camille can not be last.
+
+Now these are MCH, CHM
+
+Therefore Answer = 2
+
+Answer: B)
+Reasoning:
+Total combinations 3! = 6
+
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Now use conditions:
+1: Hermione cant be first: Eliminate HMC & HCM.
+Remaining: MHC, MCH, CHM, CMH
+
+2: Margot cant be second: Eliminate CMH
+Remaining: MHC, MCH, CHM
+
+3: Camille cant be last: Eliminate MHC
+Remaining: MCH, CHM
+
+Possible combinations are 2:
+
+Answer: B)
+Reasoning:
+There are 3! = 6 total possible orderings:
+HMC, HCM, MHC, MCH, CHM, CMH
+
+1.  H cannot be first. This eliminates HMC and HCM.  Leaves MHC, MCH, CHM, CMH.
+2.  M cannot be second. This eliminates CMH.  Leaves MHC, MCH, CHM.
+3.  C cannot be last. This eliminates MHC. Leaves MCH, CHM.
+
+There are two valid orderings, therefore the answer is B.
+
+Answer: B)
+Reasoning:
+The 3 names can be ordered in 3! = 6 different ways.
+
+1) Hermione, Margot, Camille (HMC) - invalid, Hermione is first
+2) Hermione, Camille, Margot (HCM) - invalid, Hermione is first
+3) Margot, Hermione, Camille (MHC) - invalid, Camille is last
+4) Margot, Camille, Hermione (MCH) - valid
+5) Camille, Hermione, Margot (CHM) - valid
+6) Camille, Margot, Hermione (CMH) - invalid, Margot is second
+
+Therefore, only MCH and CHM satisfy all the rules, so there are 2 possible orders.
+
+Answer: B)
+Reasoning:
+Possible arrangements: HMC, HCM, MHC, MCH, CHM, CMH.
+
+Eliminate Hermione being first:
+MHC, MCH, CHM, CMH
+
+Eliminate Margot being second:
+MHC, CHM
+
+Eliminate Camille being last:
+MCH, CHM
+
+Therefore there are 2 possible orders.
+
+Answer: B)
+Reasoning:
+Total permutations are 3! = 6
+Permutations: HMC, HCM, MHC, MCH, CHM, CMH
+
+Restrictions:
+Hermione (H) can't be first: eliminate HMC, HCM
+Margot (M) can't be second: eliminate CMH
+Camille (C) can't be last: eliminate MHC
+
+Therefore the possible orderings are MCH and CHM. Total = 2.
+
+Answer: B)
+Reasoning:
+The total arrangements are: 3!= 6 arrangements. They are HMC, HCM, MHC, MCH, CHM, CMH.
+
+1. Restrictions: H cannot be first, thus eliminate HMC and HCM leaving: MHC, MCH, CHM, CMH
+2. M can not be second, thus eliminate CMH leaving: MHC, MCH, CHM
+3. C can not be last, thus eliminate MHC leaving: MCH, CHM
+
+Therefore, the answer is 2.
+
+Answer: B)
+Reasoning:
+We can find the number of valid permutations by listing all permutations and eliminating the invalid ones.
+There are 3! = 6 total permutations:
+1. HMC: Hermione cannot be first. Invalid.
+2. HCM: Hermione cannot be first. Invalid.
+3. MHC: Camille cannot be last. Invalid.
+4. MCH: Valid.
+5. CHM: Valid.
+6. CMH: Margot cannot be second. Invalid.
+
+The only valid permutations are MCH and CHM. Therefore, there are 2 possible orderings.
+
+Answer: B)
+Reasoning:
+All possible orders of entering are:
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Now we apply the conditions:
+Hermione isn't first: -> MHC, MCH, CHM, CMH
+Margot isn't second: -> MHC, CHM
+Camille isn't last: -> MCH, CHM
+
+Possible: MCH and CHM: There are two.
+
+Answer: B)
+Reasoning:
+Total permutations = 3! = 6
+Possible permutations: HMC HCM MHC MCH CHM CMH
+
+Hermione not first: MHC MCH CHM CMH (remove HMC HCM)
+Margot not second: MHC CHM (remove CMH)
+Camille not last: MCH CHM (remove MHC)
+
+Possible answers: MCH CHM
+
+Therefore 2 possible arrangements
+
+Answer: B)
+Reasoning:
+List all permutations: HMC, HCM, MHC, MCH, CHM, CMH
+-H can't be first: removes HMC, HCM. Remaining: MHC, MCH, CHM, CMH
+-M can't be second: removes CMH. Remaining: MHC, MCH, CHM
+-C can't be last: removes MHC. Remaining: MCH, CHM
+
+Therefore, the final answer is 2.
+
+Answer: B)
+Reasoning:
+Let H, M, and C represent Hermione, Margot, and Camille respectively.
+Total possible permutations of the three girls is 3! = 6: HMC, HCM, MHC, MCH, CHM, CMH
+
+Now, we apply the restrictions:
+1. Hermione cannot be first. So, we eliminate HMC and HCM. This leaves: MHC, MCH, CHM, CMH.
+2. Margot cannot be second. So, we eliminate CMH. This leaves: MHC, MCH, CHM.
+3. Camille cannot be last. So, we eliminate MHC. This leaves: MCH, CHM.
+
+The possible orders are MCH and CHM, which gives us a total of 2.
+
+Answer: B)
+Reasoning:
+Total number of ways the 3 people can enter is 3! = 6
+Permutations are: HMC, HCM, MHC, MCH, CHM, CMH
+
+Restrictions are: H cannot be first. M cannot be second. C cannot be last
+Applying the restrictions one by one:
+1. H cannot be first. This removes HMC and HCM giving MHC, MCH, CHM, CMH
+2. M cannot be second. This removes CMH from the list, leaving MHC, MCH, CHM
+3. C cannot be last. This removes MHC from the list, leaving MCH, CHM
+So, the total possible ways of entering are just 2
+
+Answer: B)
+Reasoning:
+Total Permutations: 3! = 6
+
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+- H can't be first
+Remaining: MHC, MCH, CHM, CMH
+- M can't be second
+Remaining: MHC, CHM
+- C can't be last
+Remaining: MCH, CHM - Oops... I messed that up
+Okay restart... list total number of ways it could happen without considering restrictions.
+3 ways to pick first element. 2 ways to pick second. 1 way to pick last
+Total arrangements (no restriction) = 6
+Restrictions
+H cant be first
+M cant be second
+C cant be last
+1. What are arrangements where Hermione isn't first?
+MCH, CHM, MHC, CMH
+2. Remove all that have Margot in second
+MCH, CHM
+3. Remove all that have Camille in last
+MCH, CHM
+
+Answer: B)
+Reasoning:
+Total permutations: 3! = 6
+They are: HMC, HCM, MHC, MCH, CHM, CMH.
+
+1. H not first: 6 permutations drop to 4 i.e. MHC, MCH, CHM, CMH
+2. M not second: 4 permutations drop to 3: MHC, CHM (CMH is invalid for above)
+3. C not last: 3 permutations drop to 2: MCH, CHM (MHC is invalid)
+
+Hence, only 2 permutations are valid.
+The combinations are 2.
+
+Answer: B)
+Reasoning:
+3!=6 possible outcomes, HMC HCM MHC MCH CHM CMH
+1. H not first: MHC, MCH, CHM, CMH
+2. M not second: MHC, CHM, MCH, CHM
+3. C not last: MCH CHM
+
+So, the possible outcomes are 2
+
+Answer: B)
+Reasoning:
+First, consider all possible orderings of the three people:
+HMC, HCM, MHC, MCH, CHM, CMH
+
+Next, consider that H cannot be first. This means we can eliminate HMC and HCM. This leaves:
+MHC, MCH, CHM, CMH
+
+Now, consider that M cannot be second. This means we can eliminate CMH. This leaves:
+MHC, MCH, CHM
+
+Finally, consider that C cannot be last. This means we can eliminate MHC. This leaves:
+MCH, CHM
+
+Therefore, there are 2 possible orderings that satisfy these conditions.
+
+Answer: B)
+Reasoning:
+Let us list down all the possible orders without any restrictions.
+Hermione, Margot, Camille (HMC)
+Hermione, Camille, Margot (HCM)
+Margot, Hermione, Camille (MHC)
+Margot, Camille, Hermione (MCH)
+Camille, Hermione, Margot (CHM)
+Camille, Margot, Hermione (CMH)
+
+Condition 1: Hermione cannot be first. This eliminates HMC and HCM.
+Remaining options are: MHC, MCH, CHM, CMH
+Condition 2: Margot cannot be second. This eliminates CMH.
+Remaining options are: MHC, MCH, CHM
+Condition 3: Camille cannot be last. This eliminates MHC.
+Remaining options are: MCH, CHM
+The possible combinations = 2
+
+Answer: B)
+Reasoning:
+Total possible permutations are 3! = 6.
+These are: HMC, HCM, MHC, MCH, CHM, CMH
+1.  H can't be first -> Remove HMC and HCM. The remaining orders are: MHC, MCH, CHM, CMH
+2.  M can't be second -> Remove CMH. The remaining orders are: MHC, MCH, CHM
+3.  C can't be last -> Remove MHC. The remaining orders are: MCH, CHM
+Thus, the remaining combinations = 2
+
+Answer: B)
+Reasoning:
+Here are all possible scenarios:
+
+Hermione, Margot, Camille (HMC)
+Hermione, Camille, Margot (HCM)
+Margot, Hermione, Camille (MHC)
+Margot, Camille, Hermione (MCH)
+Camille, Hermione, Margot (CHM)
+Camille, Margot, Hermione (CMH)
+
+Here are the constraints:
+Hermione cannot be the first, which leaves us with:
+Margot, Hermione, Camille (MHC)
+Margot, Camille, Hermione (MCH)
+Camille, Hermione, Margot (CHM)
+Camille, Margot, Hermione (CMH)
+
+Margot cannot be second, which leaves us with:
+Margot, Hermione, Camille (MHC)
+Camille, Hermione, Margot (CHM)
+
+Camille cannot be last, which leaves us with:
+Margot, Camille, Hermione (MCH)
+Camille, Hermione, Margot (CHM)
+
+Therefore, the two possible scenarios are: MCH and CHM
+So the answer is 2.
+
+Answer: B)
+Reasoning:
+There are 3! = 6 possible orderings, let's denote them by HMC, HCM, MHC, MCH, CHM, CMH.
+- H can't be first, so HMC and HCM are not possible. Then, possible orderings are MHC, MCH, CHM, CMH.
+- M can't be second, so CMH is not possible. Then, possible orderings are MHC, MCH, CHM.
+- C can't be last, so MHC is not possible. Then, possible orderings are MCH, CHM.
+So there are 2 possibilities.
+
+Answer: B)
+Reasoning:
+1. Total orders without restriction: 3! = 6
+HMC, HCM, MHC, MCH, CHM, CMH.
+2. H cannot be first: MHC, MCH, CHM, CMH
+3. M cannot be second: MHC, CHM
+4. C cannot be last: MHC
+
+So the answer is 2
+
+Reasoning: 
+There are 6 ways to arrange the 3 people. We must eliminate all scenarios that violate any of the rules, so let’s start listing the orders: HMC, HCM, MHC, MCH, CHM, CMH 
+
+- Hermione cannot be first: this removes HMC and HCM leaving MHC MCH CHM CMH
+- Margot cannot be second: this removes CMH leaving MHC MCH CHM
+- Camille cannot be last: this removes MHC leaving MCH CHM
+The answer is 2 
+
+Answer: B)
+Reasoning:
+Let us analyze each permutation of the 3 names one by one and see what survives
+
+HMC - Invalid since Hermione enters first
+HCM - Invalid since Hermione enters first
+MHC - Invalid since Camille enters last
+MCH - Valid
+CHM - Valid
+CMH - Invalid since Margot enters second
+
+Only MCH and CHM are valid. Therefore there are 2 valid permutations.
+
+Answer: B)
+Reasoning:
+The total permutations are: HMC, HCM, MHC, MCH, CHM, CMH
+Hermione cannot be first => MHC, MCH, CHM, CMH
+Margot cannot be second => MHC, CHM
+Camille cannot be last => MCH, CHM
+
+Hence, there are two possible permutations (MCH, CHM).
+
+Answer: B)
+Reasoning:
+First list out the possible combinations of entrants.
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Next we consider each of the constraints:
+H cannot be first. This cancels HMC and HCM.
+M cannot be second. This cancels CMH.
+C cannot be last. This cancels MHC.
+
+This leaves MCH and CHM which gives us 2.
+
+Answer: B)
+Reasoning:
+Total number of possible arrangements=3!=6
+HMC, HCM, MHC, MCH, CHM, CMH
+Restriction 1: H can't be first - MHC, MCH, CHM, CMH
+Restriction 2: M can't be second -MHC, CHM
+Restriction 3: C can't be last -MCH CHM.
+
+So 2 ways
+
+Answer: B)
+Reasoning:
+
+There are 3! = 6 total permutations for the order in which they enter the class:
+
+HMC - H can't be first
+HCM - H can't be first
+MHC - C can't be last
+MCH - Possible
+CHM - Possible
+CMH - M can't be second
+
+Thus, the only 2 that work are MCH and CHM. Therefore, the answer is 2.
+
+Answer: B)
+Reasoning:
+1.  Total possible arrangements are 3! = 6
+2.  Listing them are:
+HMC, HCM, MHC, MCH, CHM, CMH
+3.  Apply the constraints:
+    * Hermione is never the first, so, HMC, and HCM are invalidated
+    * Margot is never the second, so CMH is invalidated
+    * Camille is never the last, so MHC is invalidated
+4.  Remaining are MCH, CHM
+So the answer is 2
+
+Answer: B)
+Reasoning:
+Let's start with the basic permutations of the three girls (H = Hermione, M = Margot, C = Camille)
+Total possible permutations = 3! = 6
+These are:
+HMC
+HCM
+MHC
+MCH
+CHM
+CMH
+
+Now we have the following restrictions:
+1. Hermione (H) cannot be first. This eliminates HMC and HCM.
+2. Margot (M) cannot be second. This eliminates CMH.
+3. Camille (C) cannot be last. This eliminates MHC.
+
+Thus, only MCH and CHM fulfill all the requirements.
+Hence, the answer is 2.
+
+Answer: B)
+Reasoning:
+First, list all possible permutations:
+1. HMC
+2. HCM
+3. MHC
+4. MCH
+5. CHM
+6. CMH
+
+Restrictions:
+1. H can't be first: exclude 1, 2 --> MHC, MCH, CHM, CMH
+2. M can't be second: exclude 6 --> MHC, MCH, CHM
+3. C can't be last: exclude 3 --> MCH, CHM
+
+So only two are valid.
+
+Answer: B)
+Reasoning:
+The possible arrangements are as follows:
+HMC, HCM, MHC, MCH, CHM, CMH
+Condition 1: Hermione is not the first to enter (remove HMC and HCM):
+MHC, MCH, CHM, CMH
+Condition 2: Margot is not the second to enter (remove CMH):
+MHC, MCH, CHM
+Condition 3: Camille is not the last to enter (remove MHC):
+MCH, CHM
+
+There are 2 arrangements remaining.
+
+Answer: B)
+Reasoning:
+Total possible orders without constraints: 3! = 6
+HMC, HCM, MHC, MCH, CHM,

@@ -1,0 +1,51 @@
+Reasoning:
+Ahmad needs to climb 8 steps, but he cannot use the 6th step. This means he needs to avoid step 6.
+1.  **From step 5 to 7:** From step 5, Ahmad can only go to step 7 (taking 2 steps).
+2.  **Steps before the hole (step 6):** Let's analyze the combinations to reach step 5.
+    *   Since he cannot use step 6, if he reaches step 5, he has the following options:
+        *   1+1+1+1+1 (5 steps of 1, not possible to reach step 5, because he can only take 1 or 2 steps).
+        *   1+1+1+2 (4 steps, and he can reach step 5) (4 arrangements)
+        *   1+2+2 (3 steps) (3 arrangements)
+        *   2+1+2 (3 steps) (3 arrangements)
+        *   2+2+1 (3 steps) (3 arrangements)
+        *   2+2+1
+        *   1+1+2
+        *   2+1+1
+        *   1+2+1
+        *   2+2+1 (3 arrangements).
+        So the possibilities to reach step 5 are
+        *   1+1+1+2 (4 ways)
+        *   1+2+2 (3 ways)
+    *   Reach step 5: 4+3 = 7 ways.
+3.  **Steps to reach step 8** From step 5, Ahmad needs to reach step 8. He can reach step 7 (taking 2 steps). After that, he can go to step 8 (taking 1 step). He cannot take the step 6.
+
+    *   To reach step 5 in different ways:
+        *   We know that step 5 is not possible, because step 6 is not possible.
+    *   To reach step 7 in different ways:
+        *   1+2 (2 arrangements).
+        *   2+1 (2 arrangements)
+        *   Ahmad goes to step 7.
+    *   Ahmad reaches step 8.
+    *   If we use the first path to reach step 5 by going up either 1 or 2 steps.
+
+        *   1,1,1,2 - From step 5 -> 1+1=6 (Invalid) 1+2=7 (Valid) 1+1+2 = 7
+        *   1,2,2 = From step 5 -> 1+1+2 =7  (1 arrangement).
+        *   2,1,2 = From step 5 -> 2+1= 3 ways to reach step 5.
+        *   2,2,1= From step 5 -> 2+1= 3 ways to reach step 5.
+        So from step 5, the path to step 7 is 1 way (2 steps).
+    *   Step 7 to step 8: Ahmad can reach step 7 through step 5.
+    *   Thus, to reach 8, Ahmad can follow steps 5->7 and 7->8.
+    *   Thus, 7 ways + Step 7 = 1. So the total is 7.
+    *   Ways to reach 8 = 7
+
+4.  **Reaching step 8:**
+    *   He reaches step 7 (2 steps from 5). Then 7 to 8 (1 step)
+
+    *   reaching step 5 has 7 ways.
+    *   Reaching Step 8: Step 5 -> 7
+        *    2 steps
+        *    Step 7 -> 8
+            *   1 step
+    *   Thus it has the same 7 ways to reach 8 step.
+
+Answer: (B)

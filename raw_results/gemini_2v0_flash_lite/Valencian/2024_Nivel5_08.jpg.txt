@@ -1,0 +1,12 @@
+Raonament:
+1. **Comprendre el problema:** Necessitem trobar el capicua (nombre que es llegeix igual de dreta a esquerra que d'esquerra a dreta) més gran de tres dígits (de la forma *aba*) que és divisible per 6. Després, hem de sumar les xifres del capicua.
+2. **Divisibilitat per 6:** Un nombre és divisible per 6 si és divisible tant per 2 com per 3.
+   * **Divisibilitat per 2:** Un nombre és divisible per 2 si l'últim dígit és parell. En el nostre cas, 'a' ha de ser parell.
+   * **Divisibilitat per 3:** Un nombre és divisible per 3 si la suma de les seves xifres és divisible per 3. En el nostre cas, a + b + a = 2a + b ha de ser divisible per 3.
+3. **Trobar el capicua més gran:** Volem maximitzar el nombre, per tant, comencem provant amb el valor més gran possible per 'a'.
+   * 'a' ha de ser parell, així que provem a = 8. El capicua seria 8b8. Ara hem de trobar un valor per a 'b' que faci 2a + b = 16 + b divisible per 3.
+     * Si b = 2, 16 + 2 = 18, que és divisible per 3. El capicua seria 828.
+     * 828 és divisible per 6 (828/6=138).
+4. **Sumar les xifres:** 8 + 2 + 8 = 18
+
+Resposta: B) 18

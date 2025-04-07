@@ -1,0 +1,39 @@
+**Raonament:**
+
+Per resoldre aquest problema, hem de calcular l'àrea de la figura marcada amb un interrogant dins del rectangle ABCD.
+
+1. **Identificar les longituds dels costats del rectangle:**
+   Del dibuix, podem veure que la longitud del costat AB és 2 i la longitud del costat BC és 3.
+
+2. **Calcular l'àrea del rectangle ABCD:**
+   L'àrea d'un rectangle es calcula com el producte de les longituds dels seus costats.
+   \[
+   \text{Àrea del rectangle} = AB \times BC = 2 \times 3 = 6
+   \]
+
+3. **Identificar les àrees dels tres triangles dins del rectangle:**
+   - El triangle 1 és un triangle rectangle amb costats 1 i 2.
+     \[
+     \text{Àrea del triangle 1} = \frac{1}{2} \times 1 \times 2 = 1
+     \]
+   - El triangle 2 és un triangle rectangle amb costats 1 i 3.
+     \[
+     \text{Àrea del triangle 2} = \frac{1}{2} \times 1 \times 3 = 1.5
+     \]
+   - El triangle 3 és un triangle rectangle amb costats 2 i 3.
+     \[
+     \text{Àrea del triangle 3} = \frac{1}{2} \times 2 \times 3 = 3
+     \]
+
+4. **Sumar les àrees dels tres triangles:**
+   \[
+   \text{Àrea total dels tres triangles} = 1 + 1.5 + 3 = 5.5
+   \]
+
+5. **Calcular l'àrea de la figura marcada amb un interrogant:**
+   L'àrea de la figura marcada amb un interrogant és l'àrea del rectangle menys l'àrea total dels tres triangles.
+   \[
+   \text{Àrea de la figura marcada} = 6 - 5.5 = 0.5
+   \]
+
+**Resposta:** D) 6

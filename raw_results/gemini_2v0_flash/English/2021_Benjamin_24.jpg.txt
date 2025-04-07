@@ -1,0 +1,27 @@
+Reasoning:
+Let's use variables to represent the weights of each fruit: A (apple), O (orange), P (pear), and Pe (peach). We can translate the given statements into inequalities:
+
+1. A + O = P + Pe
+2. A + P < O + Pe
+3. P + O < A + Pe
+
+From equation 1, we can rewrite it as A = P + Pe - O. Substitute this into inequality 2:
+(P + Pe - O) + P < O + Pe
+2P < 2O
+P < O
+
+Similarly, from equation 1, we can rewrite it as O = P + Pe - A. Substitute this into inequality 3:
+P + (P + Pe - A) < A + Pe
+2P < 2A
+P < A
+
+Now we know P < O and P < A. We want to find the heaviest fruit.
+Let's analyze inequality 2: A + P < O + Pe. Since P < O, it suggests that to satisfy this inequality, Pe must be greater than A. However, we have A = P + Pe - O, thus Pe = A + O - P
+Substitute this into inequality 3: P + O < A + (A + O - P)
+2P < 2A
+P < A, which is already known.
+
+From the given equations, we can not isolate any individual fruit and determine it's weight relative to each other fruit to be able to determine which is the heaviest fruit.
+
+Reasoning:
+Answer: E)

@@ -1,0 +1,64 @@
+Reasoning:
+To have a product that is a square number, we need the prime factors to have even powers. Let's prime factorize the numbers in the set:
+10 = 2 * 5
+20 = 2^2 * 5
+30 = 2 * 3 * 5
+40 = 2^3 * 5
+50 = 2 * 5^2
+60 = 2^2 * 3 * 5
+70 = 2 * 5 * 7
+80 = 2^4 * 5
+90 = 2 * 3^2 * 5
+
+Let's analyze the powers of each prime factor:
+2: 1+2+1+3+1+2+1+4+1 = 16 (even)
+3: 1+1+2 = 4 (even)
+5: 1+1+1+1+2+1+1+1+1 = 10 (even)
+7: 1 (odd)
+
+To make the product a square, we need the prime factors to have even powers. The prime factor that causes the product to not be a square number is 7. The factor 7 appears only in 70. So we must remove 70 to get rid of the odd power of 7.
+Removing 70, we have:
+10 = 2 * 5
+20 = 2^2 * 5
+30 = 2 * 3 * 5
+40 = 2^3 * 5
+50 = 2 * 5^2
+60 = 2^2 * 3 * 5
+80 = 2^4 * 5
+90 = 2 * 3^2 * 5
+Now analyze the powers of each prime factor:
+2: 1+2+1+3+1+2+4+1 = 15 (odd)
+3: 1+1+2 = 4 (even)
+5: 1+1+1+1+2+1+1+1 = 9 (odd)
+Remove an element to make the powers of 2 and 5 even.
+The options for the elements to remove are:
+Removing 10: 2: 14, 5: 8
+Removing 20: 2: 13, 5: 8
+Removing 30: 2: 14, 5: 8, 3: 2
+Removing 40: 2: 12, 5: 8
+Removing 50: 2: 14, 5: 7
+Removing 60: 2: 13, 5: 8, 3: 2
+Removing 80: 2: 11, 5: 8
+Removing 90: 2: 14, 5: 8, 3: 2
+
+If we remove 10, the remaining elements are 20, 30, 40, 50, 60, 80, 90
+20 = 2^2*5
+30 = 2*3*5
+40 = 2^3*5
+50 = 2*5^2
+60 = 2^2*3*5
+80 = 2^4*5
+90 = 2*3^2*5
+2: 2+1+3+1+2+4+1 = 14
+3: 1+1+2 = 4
+5: 1+1+2+1+1+1 = 8
+Removing 50 and 70.
+If we remove 10 and 50
+2: 14
+3: 4
+5: 8
+7: 0.
+The number of elements removed is 2.
+The minimum is 2. Removing 70 and one of {10,20,30,40,50,60,80,90}.
+
+Answer: B)

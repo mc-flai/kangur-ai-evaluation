@@ -1,0 +1,23 @@
+Razonamiento:
+1. Adrián sabe el color, Belén sabe la forma.
+2. Adrián dice: "No conozco la figura favorita de Carlos y sé que Belén tampoco puede conocerla". Esto significa que el color que sabe Adrián está asociado con más de una forma. Si el color solo estuviera asociado con una forma, Belén lo sabría inmediatamente.
+3. Belén dice: "Al principio no conocía la figura favorita de Carlos, pero ahora ya lo sé". Esto implica que después de la declaración de Adrián, Belén puede identificar la forma. Esto significa que la forma de la figura favorita de Carlos debe estar asociada inicialmente con más de un color, pero después de Adrián haber dicho que Belén tampoco puede conocerla, Belén ahora sabe que Carlos tiene una única forma asociada al color que tiene Adrián.
+4. Adrián dice: "Ahora también yo lo sé". Esto significa que después de la declaración de Belén, Adrián puede identificar la figura. Esto implica que de las posibilidades que Adrián tenía antes, solo una es compatible con la elección de Belén.
+
+Analizando las figuras, tenemos:
+- Estrella negra (A)
+- Cuadrado blanco (B)
+- Triángulo gris (C)
+- Cuadrado negro (D)
+- Círculo gris (E)
+
+Si Adrián supiera que el color es negro, entonces habría dos posibilidades: estrella negra (A) y cuadrado negro (D). Si Adrián supiera que Belén no lo sabe, entonces Belén debería saber que el color es una figura entre estrella, triangulo, circulo y cuadrado.
+
+La figura es el círculo gris (E).
+Si Belén supiera que la forma es círculo, habría dos opciones: círculo gris (E) y hexágono gris.
+Si Belén al principio no lo sabía, entonces Adrián sabe que al principio hay más de una opción, es decir, no puede ser cuadrado blanco. Al decir Adrián "Sé que Belén tampoco puede conocerla", implica que el color que sabe Adrián es el gris. Porque el gris tiene dos opciones.
+Luego, Belén dice "Ahora ya lo sé", esto implica que después de la declaración de Adrián (el color es gris), Belén lo sabe. Por lo tanto, Belén sabe que la forma es el círculo (E) o el triángulo (C) (ya que son los de color gris). Al principio, no lo sabía, entonces significa que entre el triangulo y circulo, hay alguna coincidencia de color.
+Como el gris tiene dos opciones (Círculo gris (E) y Triángulo gris(C)), si Belén sabe la forma y dice que ahora lo sé, entonces la forma debe estar asociada con más de un color, antes de la deducción de Adrián. Por lo que ahora Belén sabe que Carlos tiene una única forma, que será el círculo gris.
+Luego, Adrián deduce "Ahora también yo lo sé".
+
+Respuesta: E)

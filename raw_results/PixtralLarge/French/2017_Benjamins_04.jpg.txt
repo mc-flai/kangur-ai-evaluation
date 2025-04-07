@@ -1,0 +1,8 @@
+La question 4 demande de déterminer le nombre minimum de ponts nécessaires pour relier deux îles spécifiques, S et T, dans une figure représentant un lac avec 10 îles et 12 ponts.
+
+**Raisonnement :**
+Pour résoudre ce problème, il faut comprendre qu'une solution optimale serait de trouver le chemin le plus court ou le nombre minimum de ponts nécessaires pour atteindre l'île T à partir de l'île S. En observant le lac comme un graphe où les îles sont les nœuds et les ponts sont les arêtes, nous devons trouver le chemin le plus court entre les nœuds S et T.
+
+En général, pour trouver le chemin le plus court dans un graphe, on peut utiliser l'algorithme de Dijkstra ou l'algorithme de Bellman-Ford. Cependant, pour cette question, nous pouvons simplement essayer de compter le nombre de ponts nécessaires pour aller de S à T en suivant le chemin le plus direct. La figure montre clairement un chemin de 3 ponts pour aller de S à T. 
+
+**Réponse : C)**

@@ -1,0 +1,9 @@
+Raisonnement : Un dé standard a des valeurs de 1 à 6.  Pour maximiser le nombre de 6, on doit trouver combien de 6 peut-on avoir tout en respectant que la somme totale soit 19.
+Si Julie a obtenu 4 six, cela fait 4*6 = 24. Cela dépasse 19, donc on ne peut pas avoir 4 six.
+Si Julie a obtenu 3 six, cela fait 3*6 = 18. Il faut ajouter un autre nombre afin d'obtenir 19. Dans ce cas, il nous faut un 1. Cela est possible.
+Si Julie a obtenu 2 six, cela fait 2*6 = 12. Il faut ajouter 7, mais la valeur maximale du dé est 6.  Impossible.
+Si Julie a obtenu 1 six, cela fait 1*6 = 6. Il faut ajouter 13, mais la valeur maximale du dé est 6. Impossible.
+Si Julie a obtenu 0 six, il faut obtenir 19 avec les 5 lancers. Cela est possible.
+Donc on peut obtenir au maximum 3 six.
+
+Réponse : D)

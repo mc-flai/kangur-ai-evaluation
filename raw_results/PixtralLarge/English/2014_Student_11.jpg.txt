@@ -1,0 +1,37 @@
+To determine which option results in the biggest increase in volume when the measurements of a cuboid-shaped box are increased, we need to analyze the effect of increasing each dimension \(a\), \(b\), and \(c\) by 5 cm.
+
+1. **Volume Formula**: The volume \(V\) of a cuboid is given by \(V = a \times b \times c\).
+
+2. **Increasing Dimensions**: 
+   - If \(a\) is increased by 5 cm, the new volume is \((a + 5) \times b \times c\).
+   - If \(b\) is increased by 5 cm, the new volume is \(a \times (b + 5) \times c\).
+   - If \(c\) is increased by 5 cm, the new volume is \(a \times b \times (c + 5)\).
+
+3. **Comparing Increases**:
+   - Increasing \(a\) by 5 cm:
+     \[
+     \text{New Volume} = (a + 5) \times b \times c = ab \times c + 5b \times c
+     \]
+     \[
+     \text{Increase} = 5bc
+     \]
+   - Increasing \(b\) by 5 cm:
+     \[
+     \text{New Volume} = a \times (b + 5) \times c = a \times b \times c + a \times 5 \times c
+     \]
+     \[
+     \text{Increase} = 5ac
+     \]
+   - Increasing \(c\) by 5 cm:
+     \[
+     \text{New Volume} = a \times b \times (c + 5) = a \times b \times c + a \times b \times 5
+     \]
+     \[
+     \text{Increase} = 5ab
+     \]
+
+4. **Conclusion**: Given that \(a < b < c\), the term \(5bc\) will be larger than both \(5ac\) and \(5ab\) because it involves the product of the two largest dimensions.
+
+Reasoning: Increasing the smallest dimension \(a\) by 5 cm results in the largest increase in volume because it maximizes the product of the other two larger dimensions \(b\) and \(c\).
+
+Answer: A)

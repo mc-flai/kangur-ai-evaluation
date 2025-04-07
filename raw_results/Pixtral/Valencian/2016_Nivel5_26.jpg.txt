@@ -1,0 +1,35 @@
+La pregunta 26 involucra determinar el valor de l'expressió que té 2016 termes, que és la suma dels seus signes alternats, començant amb el signe més (+) i després canviant a menys (-) després d'un nombre fix de termes.
+
+L'expressió és:
+\[ 1 + 2 - 3 + 4 + 5 - 6 + 7 + 8 - 9 + \ldots + 2014 + 2015 - 2016 \]
+
+Per resoldre això, primer notem que la seqüència alterna entre signes més (+) i menys (-). Per determinar el nombre de termes que tenen un signe més (+) i el nombre de termes que tenen un signe menys (-), podem observar que els termes positius i negatius alternen.
+
+El nombre total de termes és 2016. Els termes positius són:
+\[ 1, 2, 4, 5, 7, 8, \ldots, 2015 \]
+
+Per determinar el nombre de termes positius, notem que cada parella de termes alternats (un terme positiu i un terme negatiu) consta de 2 termes. Com a resultat, el nombre de termes positius és:
+\[ \frac{2016}{2} = 1008 \]
+
+Per tant, el nombre de termes negatius és:
+\[ 2016 - 1008 = 1008 \]
+
+Ara, sumem els termes positius i negatius:
+\[ 1 + 2 + 4 + 5 + 7 + 8 + \ldots + 2015 \]
+
+Per simplificar, notem que els termes negatius són:
+\[ -3, -6, -9, \ldots, -2016 \]
+
+La suma dels termes negatius és:
+\[ - (1 + 2 + 3 + 4 + 5 + 6 + \ldots + 2015) \]
+
+La suma dels termes positius és:
+\[ 1 + 2 + 3 + 4 + 5 + 6 + \ldots + 2015 \]
+
+Com a resultat, la suma total de l'expressió és:
+\[ (1 + 2 + 3 + 4 + 5 + 6 + \ldots + 2015) - (1 + 2 + 3 + 4 + 5 + 6 + \ldots + 2015) = 0 \]
+
+Per tant, la resposta correcta és:
+\[ \text{Resposta: D) } 2013 \cdot 2016 \]
+
+Raonament: La suma dels termes positius i negatius en l'expressió alternada és zero, ja que cada terme negatiu és simplement el seu terme positiu corresponent negat.

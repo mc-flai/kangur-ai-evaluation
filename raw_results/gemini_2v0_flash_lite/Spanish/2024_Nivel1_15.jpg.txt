@@ -1,0 +1,37 @@
+Razonamiento: The numbers in each cell indicate how many neighboring cells have honey. Therefore, the total number of cells with honey can be counted by adding 1 to the number indicated in each cell.
+- The numbers 1, 2, 3, and 4 will indicate the number of cells with honey.
+- Cell 1 has 3 neighbors, so 1 cell with honey + 3 neighbors = 4 cells with honey.
+- Cell 2 has 1 neighbor, so 1 cell with honey + 1 neighbor = 2 cells with honey.
+- Cell 3 has 4 neighbors, so 1 cell with honey + 4 neighbors = 5 cells with honey.
+- Cell 4 has 2 neighbors, so 1 cell with honey + 2 neighbors = 3 cells with honey.
+- Cell 5 has 3 neighbors, so 1 cell with honey + 3 neighbors = 4 cells with honey.
+- Cell 6 has 2 neighbors, so 1 cell with honey + 2 neighbors = 3 cells with honey.
+- The total number of cells with honey is the number of cells with honey.
+- So, we need to count cells with honey that correspond to each number in the figure.
+- Cell 1 means that this cell + 3 neighbors have honey = 4.
+- Cell 2 means that this cell + 1 neighbor have honey = 2.
+- Cell 3 means that this cell + 4 neighbors have honey = 5.
+- Cell 4 means that this cell + 2 neighbors have honey = 3.
+- Cells 5 and 6 means that this cell + 3 neighbors have honey = 4.
+- The total number of cells that have honey is calculated by adding the total numbers: 4 + 2 + 5 + 3 + 4 + 3 = 21. This approach is incorrect since we are asked how many cells have honey, and the numbers show the number of neighbors with honey. We have to think like this: if we add one cell to any of the cells, we will have the total cells with honey. Therefore, we can add the numbers present: 1 + 1 + 3 + 2 + 3 + 4 + 4 + 2 = 20. This approach is also incorrect, because the numbers refer to adjacent cells with honey.
+The cell with the number 1 shows that its neighbor has honey, so there is 1 + 1 = 2 cells.
+The cell with the number 2 shows that its 2 neighbors have honey, so there are 1 + 2 = 3 cells.
+The cell with the number 3 shows that its 3 neighbors have honey, so there are 1 + 3 = 4 cells.
+The cell with the number 4 shows that its 4 neighbors have honey, so there are 1 + 4 = 5 cells.
+Now we must count the cells with honey: 1+1+1+1+1+1+1+1+1 = 9 cells.
+And the neighbors with honey: 1+2+3+3+4+4+2+3 = 22
+Let's try to count cells based on the neighbours. We can count them by adding 1 to each number of the cell. 1+1+1+1+1+1+1+1 = 9
+Count based on each cell that has honey:
+1(cell) + 3(neighbors) = 4
+1(cell) + 1(neighbor) = 2
+1(cell) + 3(neighbors) = 4
+1(cell) + 2(neighbors) = 3
+1(cell) + 4(neighbors) = 5
+1(cell) + 2(neighbors) = 3
+The total number of cells with honey will be 4+2+4+3+5+3= 21 (INCORRECT)
+
+We have to see how many cells have honey, which is 7. Since 2 of the cells are not showing any number it means they also contain honey. So we can count how many cells are there in total. There are 7 cells where we have honey.
+
+There are 7 cells with numbers and it means they have honey. The answer should be 7.
+
+Answer: D)

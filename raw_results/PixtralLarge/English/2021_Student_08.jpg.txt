@@ -1,0 +1,11 @@
+**Reasoning**: To determine how many 3-digit numbers formed using only the digits 1, 3, and 5 are divisible by 5, we need to consider the properties of numbers divisible by 5. A number is divisible by 5 if its last digit is either 0 or 5. Since we can only use the digits 1, 3, and 5, the last digit must be 5.
+
+For a 3-digit number of the form ABC, where A, B, and C are digits, C must be 5 to be divisible by 5. The first two digits (A and B) can be any of the digits 1, 3, or 5. Therefore:
+- A can be 1, 3, or 5 (3 choices).
+- B can be 1, 3, or 5 (3 choices).
+- C must be 5 (1 choice).
+
+The total number of 3-digit numbers is the product of the number of choices for A, B, and C:
+- Total numbers = 3 (choices for A) * 3 (choices for B) * 1 (choice for C) = 9.
+
+**Answer**: C)

@@ -1,0 +1,27 @@
+
+La question 18 demande quel nombre, formé en utilisant les chiffres de 1 à 9 chacun une seule fois, a la somme des chiffres la plus proche de la somme des chiffres du nombre donné.
+
+Pour résoudre cette question, nous devons d'abord trouver la somme des chiffres de chaque option donnée.
+
+1. Calculons la somme des chiffres pour chaque option :
+   - A) 1500 : 1 + 5 + 0 + 0 = 6
+   - B) 1512 : 1 + 5 + 1 + 2 = 9
+   - C) 1521 : 1 + 5 + 2 + 1 = 9
+   - D) 1575 : 1 + 5 + 7 + 5 = 18
+   - E) 2016 : 2 + 0 + 1 + 6 = 9
+
+2. Calculons la somme des chiffres des nombres de 1 à 9 :
+   - 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
+
+3. Comparons la somme des chiffres des options avec la somme des chiffres des nombres de 1 à 9 (45) :
+   - A) 6 (différence = 39)
+   - B) 9 (différence = 36)
+   - C) 9 (différence = 36)
+   - D) 18 (différence = 27)
+   - E) 9 (différence = 36)
+
+La différence la plus petite est de 27, ce qui correspond à l'option D) 1575.
+
+Raisonnement : En calculant la somme des chiffres pour chaque option et en comparant ces sommes à la somme des chiffres des nombres de 1 à 9, nous trouvons que l'option D) 1575 a la somme des chiffres la plus proche de 45.
+
+Réponse : D)

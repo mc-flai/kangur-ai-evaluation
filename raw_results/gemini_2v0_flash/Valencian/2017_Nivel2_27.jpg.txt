@@ -1,0 +1,17 @@
+Raonament: Volem trobar la xifra de les unitats de la suma $S = 1^2 + 2^2 + 3^2 + \dots + 2017^2$. La xifra de les unitats depèn només de les xifres de les unitats dels sumands. Notem que la xifra de les unitats de $n^2$ depèn només de la xifra de les unitats de $n$. En particular, $2017^2$ té la mateixa xifra de les unitats que $7^2=49$, que és 9.
+
+Considerem la suma de les unitats de $1^2, 2^2, 3^2, \dots, 10^2$. Les unitats són:
+1, 4, 9, 6, 5, 6, 9, 4, 1, 0. La suma és 1+4+9+6+5+6+9+4+1+0=45. La unitat és 5.
+
+La suma $S$ es pot dividir en grups de 10 termes, a saber:
+$S = (1^2+\dots+10^2) + (11^2+\dots+20^2) + \dots + (2001^2+\dots+2010^2) + (2011^2+\dots+2017^2)$.
+Els grups de 10 sumands tenen les mateixes unitats que el primer grup, per tant, la seva suma acaba en 5. Tenim 201 grups de 10 sumands, per tant $201 \cdot 5 = 1005$. La unitat és 5.
+
+Ara considerem la suma $2011^2 + 2012^2 + 2013^2 + 2014^2 + 2015^2 + 2016^2 + 2017^2$.
+Les unitats són $1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 = 1 + 4 + 9 + 16 + 25 + 36 + 49$.
+Les unitats de aquests termes són 1, 4, 9, 6, 5, 6, 9. La seva suma és 1+4+9+6+5+6+9 = 40.
+La unitat és 0.
+
+Així, la unitat de $S$ és la unitat de la suma $1005 + 40$, que és $5+0=5$.
+
+Resposta: B)

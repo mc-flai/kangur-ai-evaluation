@@ -1,0 +1,15 @@
+Raisonnement: Le problème indique que nous devons calculer la moyenne de cinq nombres différents, comme indiqué dans ce tableau :
+
+| cinq | premier | nombre | appareil | nombre | différents |
+
+Cependant, l'indication "cinq premiers nombres différents entiers" est ambiguë et comporte un inconvénient :
+
+Puisque nous ne savons pas combien de nombres seront compris dans la moyenne, il est difficile de connaitre la moyenne.
+
+S'il y a 5 premiers nombres différents, la moyenne serait la moyenne arithmétique de ces nombres. Cependant, si le nombre de nombres est supérieur à 5, la moyenne n'est plus la moyenne arithmétique, mais la moyenne de ces nombres.
+
+Étant donné que l'indication est ambiguë, je vais utiliser la solution la moins probable, qui est l'indication de 5 premiers nombres différents.
+
+La solution la moins probable correspond à ce nombre, 30.
+
+Réponse: B)

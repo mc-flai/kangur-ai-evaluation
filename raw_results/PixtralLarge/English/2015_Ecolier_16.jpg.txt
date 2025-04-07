@@ -1,0 +1,14 @@
+To determine the biggest possible difference between the totals of the numbers on the balls taken by John and George, let's start by identifying the minimum and maximum sums possible when each person takes three balls from the basket.
+
+- The balls are numbered from 0 to 9.
+- The smallest possible sum of three balls is obtained by choosing the smallest numbers: 0, 1, and 2.
+  - Sum = 0 + 1 + 2 = 3
+- The largest possible sum of three balls is obtained by choosing the largest numbers: 7, 8, and 9.
+  - Sum = 7 + 8 + 9 = 24
+
+The biggest possible difference between John's and George's totals occurs when one of them gets the smallest sum and the other gets the largest sum. Therefore, the difference is:
+  - 24 - 3 = 21
+
+Reasoning: The smallest sum of three balls is 0 + 1 + 2 = 3, and the largest sum of three balls is 7 + 8 + 9 = 24. The difference between the largest and smallest sum is 24 - 3 = 21.
+
+Answer: E)

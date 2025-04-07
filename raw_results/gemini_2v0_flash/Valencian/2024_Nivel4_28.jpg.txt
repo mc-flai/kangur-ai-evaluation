@@ -1,0 +1,10 @@
+Raonament: Per a minimitzar el nombre, volem tenir tantes xifres com siga possible, i les xifres han de ser el més xicotetes possible.  Comencem descomponent 2^2024 en factors.  Com que volem el nombre més petit possible, hem d'utilitzar el major nombre possible de digits, i els digits menors possibles. Comencem pel digit més gran possible menor que 10 i que divideix a una potència de 2, que és 8.
+$2^{2024} = 8^k \times 4^m \times 2^n$, on k, m, n són enters no negatius.
+
+Observem que $8 = 2^3$, $4=2^2$, $2=2^1$. Per a minimitzar el nombre de xifres, volem maximitzar el número de dígits que siguin el més grans possible.
+$2^{2024} = 8^k 4^m 2^n$.  Si utilitzem només 8 com a xifra, aleshores $2024 = 3k$, o $k=2024/3 = 674.66666$, així que k pot ser 674.
+$2^{2024} = 8^{674} \times 2^2 = 8^{674} \times 4$, per tant tindrem 674 dígits iguals a 8 i un digit 4.
+
+Com que ens demanen el nombre de xifres i $2^{2024} = 8^{674} \cdot 4$, necessitem 674 "8" i un "4". La quantitat de xifres que necessitem es 674+1=675
+
+Resposta: C)

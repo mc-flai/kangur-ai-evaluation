@@ -1,0 +1,86 @@
+Reasoning:
+Let's use a state diagram or consider the possible sequences of points won. A needs to win 2 more points to win the game. B needs to win 4 more points to win the game.
+Let P(A wins) be the probability that A wins the game.
+If A wins the next point (probability 1/2), A is 2 points ahead, then needs 1 more point. If B wins next point (1/2) then A is 1 ahead, again.
+If A wins the next two points, A wins. Probability is (1/2)*(1/2) = 1/4.
+If A wins then B wins, then A wins: (1/2)*(1/2)*(1/2)=1/8
+If B wins then A wins then A wins: (1/2)*(1/2)*(1/2) = 1/8
+Probability A wins = (1/2)^2 + 2*(1/2)*(1/2)*(1/2) = 1/4 + 2/8 = 1/2.
+However, we can consider that A is one point ahead. Then A wins if A wins 2 points before B wins 4 points.
+Consider the possible outcomes. A wins the next point. If A wins the next point, A wins (probability 1/4). If B wins the next point, they are back at the 1 point lead.
+Let p be the probability that A wins the game, given that A is 1 point ahead.
+p = (1/2) + (1/2) * (1/2) + (1/2)*(1/2)p
+p = 1/4 + 1/4 + 1/2p
+p = (1/2)(A wins 2 points) + (1/4)(A wins 1, B wins 1) + (1/8)(A wins 1, B wins 2)...
+Let's approach it another way.
+A is ahead by 1 point.  A needs 2 more points to win.  B needs 3 more points to win.
+The game ends when A wins 2 more points or B wins 3 more points.
+A wins the game if AA, ABA, BAA, BBAA, ABBA...
+Ways A wins: AA (1/4), BAB (1/8), ABAB (1/8)
+Ways B wins: BBB, ABBB, BABB, BBAA
+Using a tree diagram:
+A wins the first, then A wins the second, probability = 1/4.
+A wins the first, B wins the second, A wins the third, probability = 1/8
+B wins the first, A wins the second, A wins the third, probability = 1/8
+A wins first, B wins second, B wins third (A down 1, B 2),
+Prob(A wins) = 1/4 + 1/8 + 1/8 = 4/8 = 1/2
+Alternative solution
+A needs to be 3 points ahead. If A wins next point, A is 2 points ahead. If A wins next point, A wins.
+If A loses the next one, it is back to 1 point ahead. If A wins next point, A is 2 ahead.
+P(A wins) = (1/2)(A wins 2 points).
+If A wins the first point. Probability of A winning the game after that is
+(1/2) * 1 + (1/2) * P(A wins if A is 1 ahead).
+A needs to win the game, 2 more to win.
+If A is 1 up, P(A wins) = 3/4.  If A wins, then A wins. If A loses, A is one down.
+
+Consider the states where the difference is 1, 2, 3...
+Let p(1) be the probability A wins when A is 1 ahead.
+p(1) = (1/2)p(2) + (1/2)p(0)
+p(2) = (1/2)(1) + (1/2)p(1)
+p(0) = (1/2)p(1) + (1/2)p(-1)
+p(-1) = ...
+
+Answer: C)
+Let x be the probability that A wins.
+When A is 1 point ahead, there are two more scenarios:
+A wins next point (A wins) with probability 1/2.
+B wins next point. Then A is 1 ahead. Prob = 1/2 * x
+x = (1/2) + (1/2) * (1/2 + (1/2)x)
+If A gets a 2 point lead, 1/2 * x + 1/2
+
+x= (1/2) * (1 + (1/2)x)
+When A is one ahead, then A wins if A wins next 2 or A wins, B wins, A wins.
+Let x = prob A wins given A is 1 ahead.
+x = (1/2)(1) + (1/2)[(1/2)(1) + (1/2)x]
+x= 3/4
+
+x = (1/2) + (1/2) * x
+x = 3/4
+
+Answer: C)
+
+Reasoning: Let the probability of A winning be x. When A is 1 point ahead, we consider these scenarios:
+- A wins next point (probability 1/2), then A is 2 points ahead. Now, to win, either A wins the next point (1/2) to reach 3 points ahead, or B wins next point (1/2) bringing the score to 1 ahead, at which point the probability A wins is x. Therefore, the probability is (1/2)*(1) + (1/2)x.
+- B wins next point (probability 1/2), then A is still 1 ahead so the probability is x.
+
+x= 1/2(1) + 1/2(x) x = (1/2)(A wins next) + 1/2(B wins next)
+x = 1/2 + 1/2.x  x = (1/2 * 1) + (1/2 x x) or 2 ahead = 1, next step is (1/2+1/4)
+Or x = 1/2 + 1/2*x
+If A is ahead by 1. x, must take at least 1 win 3 points. (1/2+ (1/2 * x)) x=1/2 +1/2x.
+A is ahead by 1. x = 1/2 (Probability of getting 2 pts)
+x= 1/4 + 1/8
+If A is 2 pts up: (A, A) x (A wins) = (1/2)(1/2) = 1/4 A wins
+A (A, B or B, A) = 1/8 + 1/8 = 1/4 A wins
+B and A wins.
+A needs to win 2 games out of 3. A B A, B A A. or A wins, B then A
+A is ahead by 1 point, it needs 2 more points to win.
+If A wins. A is 2 ahead
+The prob that A wins = 3/4
+If A loses 1 point. A wins if A wins A wins, or B wins A wins or A wins B
+(1/2)
+Prob of A win at 2 pts ahead. If A wins next, A wins, B is back. x
+
+Probability
+1 = 1/4 + 2/8
+
+Answer: C)

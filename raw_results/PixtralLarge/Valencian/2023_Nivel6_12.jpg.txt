@@ -1,0 +1,69 @@
+Per resoldre aquest problema, necessitem entendre les propietats dels triangles i els angles.
+
+**Raonament:**
+
+1. El triangle \(ABC\) és isòsceles amb \(AB = AC\).
+2. Considerem un punt \(D\) sobre el costat \(BC\) de manera que \(AD = BD\).
+3. L'angle \(\angle DAC\) és de \(39^\circ\).
+
+Sabem que en un triangle isòsceles, els angles en la base són iguals. Per tant, \(\angle BAC = \angle BCA\).
+
+Com que \(AD = BD\), el triangle \(ABD\) també és isòsceles, i per tant \(\angle BAD = \angle BDA\).
+
+L'angle \(\angle DAC\) és de \(39^\circ\). Aquest angle és part del triangle \(ADC\).
+
+En el triangle \(ADC\), la suma dels angles és \(180^\circ\). Per tant, tenim:
+
+\[
+\angle DAC + \angle ACD + \angle CDA = 180^\circ
+\]
+
+Sabem que \(\angle DAC = 39^\circ\). Com que el triangle \(ADC\) és isòsceles, \(\angle ACD = \angle CDA\).
+
+Sigui \(x\) l'angle \(\angle ACD\) i \(\angle CDA\). Per tant, tenim:
+
+\[
+39^\circ + x + x = 180^\circ
+\]
+
+Simplificant, obtenim:
+
+\[
+39^\circ + 2x = 180^\circ
+\]
+
+\[
+2x = 141^\circ
+\]
+
+\[
+x = 70.5^\circ
+\]
+
+Per tant, \(\angle ACD = \angle CDA = 70.5^\circ\).
+
+Ara, en el triangle \(ABD\), la suma dels angles és \(180^\circ\). Per tant, tenim:
+
+\[
+\angle BAD + \angle BDA + \angle ABD = 180^\circ
+\]
+
+Sabem que \(\angle BDA = 70.5^\circ\) i \(\angle ABD = 70.5^\circ\). Per tant, tenim:
+
+\[
+\angle BAD + 70.5^\circ + 70.5^\circ = 180^\circ
+\]
+
+Simplificant, obtenim:
+
+\[
+\angle BAD + 141^\circ = 180^\circ
+\]
+
+\[
+\angle BAD = 39^\circ
+\]
+
+Per tant, la mesura de l'angle \(\angle BAD\) és \(49^\circ\).
+
+**Resposta:** D)

@@ -1,0 +1,33 @@
+Reasoning: To obtain the biggest possible sum, the largest digit (9) should be used in the hundreds place. Next, the second largest digit (2 or 1) should be used in the tens place. Then, the remaining largest digit from 0, 1, and 2 should be the one to add to the three-digit number. In other words, we want to use the smallest numbers as addends. So, we choose the single-digit number to be either 0 or 1 since 2 is too big and then 91_ is larger than 90_.
+912 + 0 = 912 and 902+1 = 903.
+
+Reasoning: Consider placing digits into the hundreds, tens, and ones places. We want the largest number in the hundreds place, so put 9 there. Next, we want the next highest numbers to be in the tens and ones place. Therefore the ones place should be 0 or 1 or 2 because we are aiming for largest results, the smallest number should be in the single box to add.
+
+Reasoning: To maximize the result, we want the largest digits in the hundreds and tens places of the three-digit number. Therefore, the smallest remaining digit should be in the single-digit number. The smallest available digits are 0, 1, and 2. Therefore, we either need 0 or 1 to be in the single box.
+
+Reasoning: To make the biggest sum, we need the largest possible three-digit number. So, we want 9 to be in the hundreds place. Next, we want the largest digits in the tens place (either 2 or 1), and then we want the remaining largest digit from {0, 1, 2} in the single digit number. So if we make the three-digit number 92_, we have either 0 or 1 left. Or if we make the three-digit number 91_, we have either 0 or 2 left. So we need to use the remaining 0 or 1, to maximize the sum.
+
+Reasoning: We are trying to maximize the sum of a three digit number and a one digit number, using the digits 0, 1, 2, and 9. To do this, we need to place 9 in the hundreds place. Next, we need the largest possible digit in the tens place, which is either a 2 or a 1. We then need to choose the last remaining digits that we have, and use it as a single-digit number. Whichever of the last two available digits yields the highest value should be the correct single-digit answer.
+
+Reasoning: Let's try to maximize the three-digit number. We want the largest digit, 9, in the hundreds place. Then the next largest, 2 or 1 in the tens place. Then we have remaining single digit options of the ones that weren't selected. Let's assume we put 2 in the tens place, leaving 0 and 1 for the single digit number. Let's assume we put 1 in the tens place, leaving 0 and 2 for the single digit number. Therefore the last single digit could be a 0 or a 1.
+
+Reasoning: To maximize the sum, we need to create the largest possible 3 digit number.
+*   The largest digit, 9, should be in the hundreds place.
+*   The next largest available digit, either 1 or 2, should be in the tens place.
+*   The single digit should be the smallest available remaining digit. The smaller of the remaining digits would contribute less to the sum compared to placing a larger digit.
+
+If the tens place is 1, then 0 and 2 are available as single digits. Since adding 2 would be more than adding 0, we would pick 2.
+If the tens place is 2, then 0 and 1 are available as single digits. Since adding 1 would be more than adding 0, we would pick 1.
+
+This is a problem as it doesn't lead to one answer.
+We want to test the possible sums.
+920 + 1 = 921
+910 + 2 = 912
+901 + 2 = 903
+902 + 1 = 903
+Since we're trying to obtain the largest possible result, the answer should be either 0 or 1.
+
+Answer: A)
+Reasoning: To maximize the overall result, we want to maximize the three-digit number. We use 9 in the hundreds place, then either 1 or 2 in the tens place. The single digit number should be the smallest of the available digits. Since 0, 1, and 2 are our choices, we must use 0 or 1 for the single-digit number.
+
+Answer: A)

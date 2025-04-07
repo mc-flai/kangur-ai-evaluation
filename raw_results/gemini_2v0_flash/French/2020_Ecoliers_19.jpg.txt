@@ -1,0 +1,14 @@
+Reasoning: Let $x$ be the number of teams with 5 members and $y$ be the number of teams with 6 members. We have the equation $5x + 6y = 43$. We want to find $x + y$. We can test values of $y$ from 0 up to $\lfloor \frac{43}{6} \rfloor = 7$.
+
+If $y = 0$, then $5x = 43$, which has no integer solution for $x$.
+If $y = 1$, then $5x = 43 - 6 = 37$, which has no integer solution for $x$.
+If $y = 2$, then $5x = 43 - 12 = 31$, which has no integer solution for $x$.
+If $y = 3$, then $5x = 43 - 18 = 25$, so $x = 5$. In this case, $x + y = 5 + 3 = 8$.
+If $y = 4$, then $5x = 43 - 24 = 19$, which has no integer solution for $x$.
+If $y = 5$, then $5x = 43 - 30 = 13$, which has no integer solution for $x$.
+If $y = 6$, then $5x = 43 - 36 = 7$, which has no integer solution for $x$.
+If $y = 7$, then $5x = 43 - 42 = 1$, which has no integer solution for $x$.
+
+The only integer solution is $x = 5$ and $y = 3$, so $x + y = 5 + 3 = 8$. Therefore, there are 8 teams.
+
+Answer: D)

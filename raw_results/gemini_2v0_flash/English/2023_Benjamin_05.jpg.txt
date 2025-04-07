@@ -1,0 +1,111 @@
+Reasoning:
+Question 5: Anna has 5 discs of different sizes and needs to choose 4 to build a tower, always placing a smaller one on top of a bigger one. This means we are choosing a subset of 4 discs from the 5 available, and once we choose the 4 discs, there is only one way to arrange them in a tower (from largest to smallest). Therefore, we just need to find the number of ways to choose 4 discs out of 5. This is given by the combination formula 5C4 (5 choose 4), which is calculated as 5! / (4! * (5-4)!) = 5! / (4! * 1!) = (5 * 4 * 3 * 2 * 1) / ((4 * 3 * 2 * 1) * 1) = 5.
+
+Question 6: The ribbons are wrapped around a box, and we need to determine the order in which they were wrapped. By examining the image, we can see the order based on which ribbons are on top of the others.
+- Ribbon N is on top of the ribbon P
+- Ribbon M is on top of the ribbon N
+- Ribbon Q is on top of the ribbon P
+- Ribbon N is on top of the ribbon Q
+
+Analyzing the image, M seems to be the outermost ribbon and thus the one that wrapped last. N is inside M, and so on. Based on the diagram, we can see that:
+Q is on the outermost layer (it covers P partially and N).
+N covers P.
+M covers Q, P and N.
+P is on the innermost layer.
+The ribbons from inner to outer layer are: P, Q, N, M.
+Therefore, from outermost to innermost we are wrapping the ribbons Q,N,M,P.
+So it can be Q, N, M, P.
+
+Reasoning:
+Question 5: We need to find the number of ways to choose 4 discs out of 5. This is a combination problem.  5 choose 4 is 5C4 = 5! / (4! * 1!) = 5.
+Question 6: Determine the order in which the ribbons M, N, P, and Q were wrapped around the box by looking at which ribbons are on top of others in the diagram. From outermost to innermost wrap: Q, N, M, P.
+
+Answer: B)
+Reasoning: To solve question 5, we need to calculate the number of ways to choose 4 discs from 5. Since the order matters (smaller on top of bigger), this is a combination problem.
+nCr = n! / (r! * (n-r)!)
+5C4 = 5! / (4! * 1!) = 5.
+To solve question 6, we observe the overlaps in the diagram to see which ribbons cover other ribbons, and thus came later in the wrapping process. From the image, we observe: Q, N, M, P.
+
+Answer: B)
+Reasoning:
+Question 5 asks for the number of ways to choose 4 discs out of 5, where the order matters (smaller discs must be on top of larger discs). This means once we choose the 4 discs, there's only one way to arrange them. Thus, we're calculating 5 choose 4, which is 5!/(4!1!) = 5.
+
+Question 6 asks for the order in which ribbons M, N, P, and Q are wrapped around the box.
+- M covers N, Q, and P.
+- N covers Q and P
+- Q covers P
+
+Thus, the order in which they were wrapped (outermost to innermost) is Q, N, M, P.
+
+Answer: B)
+Reasoning:
+Question 5: Since the order of the discs matters (smaller must be on top of larger), we're finding the number of ways to choose 4 discs out of 5. This is a combination, 5C4 = 5! / (4! * 1!) = 5.
+
+Question 6: Look at the diagram to see which ribbon is on top of the others. M is on top of N, Q, and P. N is on top of Q and P. Q is on top of P. Thus the correct order from outer to inner layer is Q, N, M, P.
+
+Answer: B)
+Reasoning:
+Question 5 asks for the number of ways to choose 4 discs out of 5 to form a tower where the order matters due to size constraints. Once 4 discs are chosen, there's only one arrangement. So, the number of ways is 5 choose 4, which is 5!/(4!1!) = 5.
+
+Question 6 asks for the order in which the ribbons M, N, P, and Q were wrapped. By observing the overlaps in the provided diagram, we have these coverings:
+- Ribbon M covers ribbons N, P, and Q.
+- Ribbon N covers ribbon P and ribbon Q partially.
+- Ribbon Q covers ribbon P.
+Therefore the ribbons were applied in the order Q, N, M, P, from inner to outer
+
+Answer: B)
+Reasoning:
+Question 5: This is a combination problem because once the 4 discs are chosen, there is only one way to arrange them in order of size. The formula for combinations is nCr = n! / (r!(n-r)!). In this case, n = 5 and r = 4, so 5C4 = 5! / (4!(5-4)!) = 5! / (4!1!) = (5*4*3*2*1) / ((4*3*2*1)(1)) = 5.
+
+Question 6: By carefully examining the provided diagram, one can see that Q is wrapped first, followed by N, then M, then P. But we must return the order the ribbons were wrapped around in from outside to the inside. We can visually confirm by looking which one covers what. M covers the most.
+
+Answer: B)
+Reasoning:
+
+*   **Question 5:** Anna has 5 discs and wants to choose 4. The order matters (smaller on top of larger). This is a combination: 5C4 = 5! / (4! * 1!) = 5
+
+*   **Question 6:** Observing the diagram to determine the order of the ribbons. We deduce by the overlaying position of the ribbons the order Q,N,M,P
+    Order: Q, N, M, P
+
+Answer: B)
+Reasoning:
+
+**Question 5**
+Since the smaller disc should always go on top of a bigger disc, we only need to consider the combination of choosing 4 discs out of 5 since the order is already determined.
+nCr = n!/(r!(n-r)!)
+5C4 = 5!/(4!*1!) = 5
+Thus, there are 5 ways to build the tower.
+
+**Question 6**
+Analyzing the diagram we can see:
+M covers N, Q and P
+N covers Q and P
+Q covers P
+So from outer to inner, it is Q, N, M, P.
+
+Answer: B)
+Reasoning:
+Question 5: We need to find the number of combinations of choosing 4 discs out of 5. Since the discs must be stacked in order of size, there's only one way to arrange any given set of 4 discs. Thus, 5C4 = 5!/(4!1!) = 5.
+
+Question 6: By observing the diagram, we can trace the order in which the ribbons must have been wrapped. From outermost to innermost: Q, N, M, P.
+Q is wrapped first; N wraps over it; M wraps over N and Q; and P is what is innermost.
+
+Answer: B)
+Reasoning:
+
+**Question 5:**
+Anna has 5 discs and wants to select 4. The order in which she stacks them matters (smallest on top). Since order matters we should use permutation.
+
+The number of permutation for 5 objects taking 4 at a time is: nPr = n!/(n-r)! => 5P4 = 5!/(5-4)! = 5! / 1! = 120
+However, since the smaller disc has to be at the top we consider combinations rather than permutation so, 5C4 = 5!/(4!(5-4)!) = 5!/(4!*1!) = 5.
+
+**Question 6:**
+Analyzing the diagram, the relative positions of the ribbons indicate the order.
+Based on the image, the overlapping is:
+
+*   M covers the rest (meaning it's last).
+*   N covers Q and P
+*   Q covers P (implying Q comes before P)
+  So, the order of wrapping from the outside layer to the inside layers is: Q,N,M,P
+
+Answer: B)

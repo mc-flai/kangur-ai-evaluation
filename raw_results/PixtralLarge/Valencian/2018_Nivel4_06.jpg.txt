@@ -1,0 +1,22 @@
+Per resoldre aquesta pregunta, hem de determinar quants nombres capicua hi ha entre 1 i 99 que tenen 2 o 3 dígits. Els nombres capicua són aquells que es llegeixen igual de dret a esquerra i d'esquerra a dreta.
+
+**Raonament**:
+
+1. **Nombres capicua de 2 dígits**:
+   - Aquests són els nombres del 11 al 99 que es llegeixen igual de dret a esquerra i d'esquerra a dreta.
+   - Els nombres capicua de 2 dígits són: 11, 22, 33, 44, 55, 66, 77, 88, 99.
+   - N'hi ha 9 en total.
+
+2. **Nombres capicua de 3 dígits**:
+   - Aquests són els nombres del 100 al 999 que es llegeixen igual de dret a esquerra i d'esquerra a dreta.
+   - Els nombres capicua de 3 dígits són: 101, 111, 121, ..., 989, 999.
+   - Per trobar-ne el nombre total, observem que per a cada dígit central (0-9), hi ha 10 possibilitats (1X1, 2X2, ..., 9X9).
+   - Això dona un total de 10 possibilitats per cada dígit central, i hi ha 10 dígits centrals possibles.
+   - Per tant, hi ha 10 * 10 = 100 nombres capicua de 3 dígits.
+
+3. **Total de nombres capicua**:
+   - Sumant els nombres capicua de 2 dígits i els de 3 dígits: 9 + 100 = 109.
+   - Tanmateix, la pregunta demana només els nombres capicua de 2 o 3 dígits, i l'opció correcta ha de ser una de les donades.
+   - L'opció correcta és la que inclou tots els nombres capicua de 2 o 3 dígits, que és l'opció E) 100.
+
+**Resposta**: E)

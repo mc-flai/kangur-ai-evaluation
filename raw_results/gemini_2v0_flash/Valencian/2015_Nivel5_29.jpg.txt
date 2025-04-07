@@ -1,0 +1,26 @@
+Raonament: L'àrea ombrejada es pot calcular com la suma infinita de les àrees dels cercles ombrejats. Els radis dels cercles segueixen una progressió geomètrica, on el radi del cercle més gran és 10, el següent és 10/2 = 5, el següent és 5/2 = 10/4 = 2.5, i així successivament. L'àrea d'un cercle és πr^2. Les àrees dels cercles ombrejats són:
+- Cercle gran: π(10)^2 = 100π
+- Segon cercle: π(5/2)^2 = π(2.5)^2 = 6.25π
+- Tercer cercle: π(5/8)^2 = π(1.25/2)^2 = pi(1.5625)
+i així successivament.
+L'àrea total ombrejada es pot calcular com: Àrea cercle gran - Àrea cercle blanc + Area següent cercle ombrejat - .....
+Àrea ombrejada = π(10^2 - 5^2 + (5/2)^2 - (5/4)^2 + ...)
+Àrea ombrejada = π[100 - 25 + 6.25 - 1.5625 + ...]
+Àrea ombrejada = π100 - pi25 + pi 6.25
+
+Siga A_n = l'àrea ombrejada = π r_1^2 - π r_2^2 + π r_3^2
+r_1 = 10
+r_2 = 10/2 = 5
+r_3 = 10/4 = 2.5
+
+r_n = r_1 / 2^(n-1)
+La suma dels termes parells és una progressió geomètrica amb r = 1/4. I la dels imparells també amb r=1/4
+Àrea = pi*100-pi25+pi6.25-... -> PG suma és a/(1-r)=100pi/(1-1/4) = 100pi/(3/4) = (400/3)pi
+-pi25+pi6.25...->PG suma és (-25)pi/(1-1/4) =(-25pi)/(3/4) = (-100/3)pi
+Per tant (400/3)pi-(100/3)pi = 300pi/3 = 100 pi- 25 pi = 75 pi
+
+Raonament: Es pot calcular la suma de les àrees ombrejades com:  π(10^2) - π(5^2) + π(2.5^2) -π(1.25^2) ... = π(100 - 25 + 6.25 - 1.5625 + ...).  Aquesta és una sèrie geomètrica alternant. Però a la fórmula de l'àrea total, es pot expressar  π(10^2 - (10/2)^2 + (10/4)^2 - (10/8)^2 +...) =π (100 - 25 + 6.25 -1.5625 ... )  = 100 π / (1+1/4)= 100 π /(5/4) = 100π * (4/5) = 80π
+A = π10^2 [1 - 1/4 + 1/16 - 1/64...] = 100π *( 1/(1+1/4))
+=100π *(4/5) = 80π
+
+Resposta: B)

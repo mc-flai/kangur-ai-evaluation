@@ -1,0 +1,17 @@
+Raonament:
+Els nombres segueixen una seqüència aritmètica amb una diferència de 4. Podem veure que els nombres a cada fila segueixen un patró.
+Fila 1: 4, 28, ... (múltiples de 4)
+Fila 2: 8, 24, 32, ... (múltiples de 4 que no estan a la fila 1, es pot veure que són 8+16n)
+Fila 3: 12, 20, ... (múltiples de 4)
+Fila 4: 16, ... (múltiples de 4)
+Si dividim 1000 per 4 obtenim 250, que és un nombre enter. Això significa que 1000 és múltiple de 4.
+Si busquem el patró per determinar la fila, podem veure el següent:
+1000/4 = 250.
+Si 250 mòdul 4 és 0, aleshores fila 4
+Si 250 mòdul 4 és 1, aleshores fila 1
+Si 250 mòdul 4 és 2, aleshores fila 2
+Si 250 mòdul 4 és 3, aleshores fila 3
+250 mòdul 4 = 2
+Per tant, 1000 estarà a la fila 2.
+
+Resposta: B)

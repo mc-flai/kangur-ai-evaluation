@@ -1,0 +1,31 @@
+Raonament:
+1. **Identificar els cercles grisos:** Hi ha vuit cercles grisos.
+2. **Relació entre els nombres:** El nombre dins de cada quadrat és el producte dels nombres als quatre vèrtexs del quadrat.
+3. **Càlculs:**
+   *   Un quadrat té els nombres 4. Aleshores, els dos nombres grisos que comparteixen el quadrat amb el 4 són 4/x, on x és el número del tercer cercle gris.
+   *   Un altre quadrat té 6, i hi ha dos cercles grisos en aquests.
+   *   El quadrat amb el 10, té dos cercles grisos.
+   *   El quadrat amb 24, té 2 cercles grisos.
+   *   Per resoldre això, si els cercles grisos són a,b,c,d,e,f,g,h.  
+   *   El primer quadrat té 10, aleshores a\*b\*x\*y=10
+   *   El segon quadrat té 4, aleshores a\*g\*x\*z=4
+   *   El tercer quadrat té 6, aleshores b\*f\*y\*m=6
+   *   El quart quadrat té 24, aleshores c\*d\*z\*m=24
+   *   Per solucionar els grisos es calculen amb: 4 \* 6 \* 10 \* 24 = 5760, i es multipliquen les respectives arrels quadrades
+   *   En realitat, podem calcular les arrels quadrades dels resultats, i ens dona:
+        * sqrt(4)=2
+        * sqrt(6)=?
+        * sqrt(10)=?
+        * sqrt(24)=?
+   *  Si 4 = a*b, 10 = a*c, 6 = b*d, 24= c*d.  Tenim: a=2, b=2, c=5, d=3. El producte dels nombres grisos és 2*2*5*3=60.
+   *  Observem que la figura és simètrica. Les solucions als números grisos son 2,2,5,3,2,2,5,3. Aleshores el resultat de la multiplicació dels grisos és 3600. Però hi ha una restricció que diu que cada quadrat, es pot deduir de 4 números grisos, per exemple 4=2\*x\*y\*z.
+   *  Així doncs, podem dir que els números grisos son 2, 5, 2, 3, 2, 5, 2, 3. Per tant, el producte és 2\*2\*2\*2\*3\*3\*5\*5 = 3600.
+   *  Si fos 20, el producte seria 2\*2\*5.
+   *  Si fossin 80, 2\*5\*2\*2\*2.
+   *  **Per tant, podem deduir que, 2\*2\*5\*3=60, però no hi ha cap resposta.**
+
+4. **Revisió de la pregunta.** El producte dels nombres dels huit cercles grisos?
+5. **Revisió de les respostes.** No hi ha cap resposta adequada.
+6. **Revisió del diagrama.**
+
+Resposta: E)

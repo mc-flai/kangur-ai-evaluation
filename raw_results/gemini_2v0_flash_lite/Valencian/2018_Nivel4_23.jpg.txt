@@ -1,0 +1,9 @@
+Raonament:
+1. **Identify the smallest two numbers:** The product of the two smallest numbers is 16.  Since the numbers are distinct positive integers, the possibilities are (1, 16) or (2, 8).
+2. **Identify the largest two numbers:** The product of the two largest numbers is 225.  Since the numbers are distinct positive integers, possible pairs are (1, 225), (3, 75), (5, 45), (9, 25), (15, 15).  Since we know all the numbers must be distint, then 15, 15 is not valid.
+3. **Consider the overlaps:** The two smallest numbers must be less than the two largest.
+4. **Consider the overlap between the two smallest number and largest numbers:**
+    *   If the two smallest numbers are (1, 16), then 1 and 16 must be less than the other two numbers. The other two numbers can be 9 and 25. The set is (1, 9, 16, 25), the product of the two smallest numbers is not 16, so we need to try others options.
+    *   If the two smallest numbers are (2, 8), then 2 and 8 must be less than the other two numbers.  The two other numbers can be 9 and 25.  The numbers are 2, 8, 9, and 25. The product of the two smallest numbers is 2 \* 8 = 16 and the product of the two largest number is 9 \* 25 = 225. The sum is 2 + 8 + 9 + 25 = 44.
+
+Resposta: C)

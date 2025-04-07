@@ -1,0 +1,19 @@
+1. **Raonament**:
+   - La figura és una mosaic fet amb rajoles quadrades blanques i negres originades a partir de la matriu de la mateixa.
+   - Cada rajola blanca té totes les seves arestes senceres.
+   - Les rajoles negres s'han tallat i algunes de les seves arestes no són senceres.
+   - Per determinar el mínim nombre de rajoles negres que poden haver estat utilitzades, cal observar el patró de la figura.
+   - El patró sembla consistir en una alternança de rajoles blanques i negres.
+   - En la figura, hi ha 9 rajoles visibles: 5 blanques i 4 negres.
+   - A més, un costat del mosaic es completa amb una rajola blanca i una negra.
+   - Basant-nos en aquesta observació, el mínim nombre de rajoles negres que es poden utilitzar per completar el patró serà la suma de les rajoles negres visibles en la fila superior i les visibles en la columna esquerra.
+   - L'observació indica que hi ha 4 rajoles negres visibles en la fila superior i 5 rajoles negres visibles en la columna esquerra.
+   - Per tant, el total de rajoles negres seria 4 (fila superior) + 5 (columna esquerra) - 1 (rajola negra comptada dues vegades) = 8 rajoles negres.
+   - No obstant això, això no coincideix amb cap de les opcions donades. Revisem el càlcul.
+   - Si considerem que cada fila i columna alterna entre blanques i negres, la mida del mosaic és de 4x4 rajoles.
+   - En un mosaic de 4x4, hi ha 16 rajoles en total.
+   - Si les rajoles negres són les que s'alternen amb les blanques, hi haurà 8 rajoles negres (la meitat de 16).
+   - Això coincideix amb la suma de rajoles negres necessàries per formar el patró.
+   - Per tant, el mínim nombre de rajoles negres utilitzades seria 16.
+
+**Resposta**: B) 16

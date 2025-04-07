@@ -1,0 +1,48 @@
+**Pregunta:** Escriu els números 4, 8, 12, 16, ... en ziga-zaga, amb els més a continuació:
+
+```
+fila 1    4
+fila 2    8
+fila 3    12
+fila 4    16
+```
+
+En quin fil t'ha ha el número 1000?
+
+A) fila 1
+B) fila 2
+C) fila 3
+D) fila 4
+E) No es pot determinar.
+
+**Razonamiento:**
+1. Observa el patrón de los números en las filas:
+   - Fila 1: 4
+   - Fila 2: 8
+   - Fila 3: 12
+   - Fila 4: 16
+
+2. Cada número en la fila siguiente es 4 más grande que el número en la fila anterior.
+
+3. Para encontrar el número 1000, calcula cuántos pasos de 4 son necesarios para llegar a 1000 a partir de 4:
+   - 1000 - 4 = 996
+   - 996 / 4 = 249
+
+4. Esto significa que el número 1000 está en la fila 250.
+
+5. Dado que los números se escriben en ziga-zaga, cada fila alterna entre números pares e impares:
+   - Fila 1: 4 (par)
+   - Fila 2: 8 (par)
+   - Fila 3: 12 (par)
+   - Fila 4: 16 (par)
+   - Fila 5: 20 (impar)
+   - Fila 6: 24 (impar)
+   - Fila 7: 28 (par)
+   - Fila 8: 32 (par)
+   - ...
+
+6. La fila 250 es una fila par, ya que 250 es un número par.
+
+7. Por lo tanto, el número 1000 está en la fila 250, que es una fila par.
+
+**Respuesta:** D) fila 4

@@ -1,0 +1,15 @@
+Reasoning:
+Let C be the number of correct answers, W be the number of wrong answers, and B be the number of blank answers.
+We know that C + W + B = 20 (total number of questions).
+We also know that 7C - 4W + 0B = 100 (total score).
+We can test each of the possible values for B and see if we can find integer solutions for C and W.
+
+If B = 0, then C + W = 20 and 7C - 4W = 100. Multiply the first equation by 4: 4C + 4W = 80. Add this to the second equation: 11C = 180, so C = 180/11, which is not an integer.
+If B = 1, then C + W = 19 and 7C - 4W = 100. Multiply the first equation by 4: 4C + 4W = 76. Add this to the second equation: 11C = 176, so C = 16. Then W = 19 - 16 = 3. This is a valid solution.
+If B = 2, then C + W = 18 and 7C - 4W = 100. Multiply the first equation by 4: 4C + 4W = 72. Add this to the second equation: 11C = 172, so C = 172/11, which is not an integer.
+If B = 3, then C + W = 17 and 7C - 4W = 100. Multiply the first equation by 4: 4C + 4W = 68. Add this to the second equation: 11C = 168, so C = 168/11, which is not an integer.
+If B = 4, then C + W = 16 and 7C - 4W = 100. Multiply the first equation by 4: 4C + 4W = 64. Add this to the second equation: 11C = 164, so C = 164/11, which is not an integer.
+
+The only integer solution is B = 1, C = 16, W = 3.
+
+Answer: B)

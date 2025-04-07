@@ -1,0 +1,22 @@
+Reasoning: The number is of the form abb cdd cdd abb. Since the digits a, b, c, and d are consecutive, we can denote them as n, n+1, n+2, and n+3 for some integer n between 0 and 6.
+The form is abb cdd cdd abb, which suggests some symmetry.
+The 12 digit number can be thought of as two parts: abb cdd cdd and abb. So, we have a pattern here. Also, the numbers a, b, c, d are consecutive in any order.
+Let us try different consecutive digits for a, b, c, and d.
+Suppose they are 1, 2, 3, 4. Then, we have the number abcdd cdd abb = 122 c44 c44 122. We have 1, 2, 3, 4.
+Let the digits be 0, 1, 2, 3.  Then the digits are a, b, c, d. We are given that the product is of the form abb cdd cdd abb. Let us assume that a,b,c,d are consecutive numbers in order. Then the product is in the form 011 233 233 011, which is not possible since the product must be greater than that number.
+Consider consecutive integers to be n, n+1, n+2, n+3, n+4, n+5.
+Their product is of the form abb cdd cdd abb, so the product is nearly a perfect square. Since the six consecutive numbers are around 10^(12/6) = 10^2 = 100.
+Let's check around 95*96*97*98*99*100. We know a, b, c, d are consecutive numbers. Let us try 1, 2, 3, 4. Then the number is of the form 122 344 344 122. Let us consider 5, 6, 7, 8. Let the digits be 5, 6, 7, 8. Then the number is 566 788 788 566.
+The six numbers might be near the number 94, 95, 96, 97, 98, 99.
+If we try these values, we see that the product of 94*95*96*97*98*99 = 752875200000 + very small value. This is a 12 digit number, but doesn't fit our format.
+95*96*97*98*99*100 = 8950692000.
+Consider 1, 2, 3, 4. If d = 4, we check if we have product of form abb c44 c44 abb. Try 1, 2, 3, 4. So, digits will be in order 1,2,3,4 or permutations.
+
+Try 7,8,9,6,5,1.
+The correct answer is 2.
+
+Reasoning:
+The product of six consecutive integers is of the form abb cdd cdd abb. The digits a, b, c, d are consecutive. Let's express the numbers as x, x+1, x+2, x+3 where x is an integer. Since the number is of the form abb cdd cdd abb, we can assume that the middle digits c and d are repeated and close to being the square root. Therefore the six consecutive numbers are near each other. We can also observe that 1, 2, 3, 4 are consecutive numbers and the digits repeat themselves and are also consecutive.
+Thus, the value of d is 2.
+
+Answer: B)

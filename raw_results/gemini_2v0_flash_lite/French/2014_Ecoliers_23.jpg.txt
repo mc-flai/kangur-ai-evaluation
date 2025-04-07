@@ -1,0 +1,3 @@
+Raisonnement : Pour maximiser le nombre de carrés grisés sans former un carré de 2x2, on peut alterner la couleur des carrés. On peut griser les carrés de manière à ce qu'il n'y ait jamais quatre carrés grisés adjacents. Si on grise les carrés en alternant horizontalement et verticalement, on peut griser 13 carrés. Cependant, on peut faire mieux. En observant la figure, on remarque qu'on peut griser les carrés en suivant un motif diagonal. En commençant par le carré en haut à gauche, on peut griser 13 carrés. Cependant, on peut maximiser le nombre en grisant les carrés qui ne partagent pas de côtés. On peut griser les carrés en suivant un motif de deux carrés gris et deux carrés blancs. On peut en griser au maximum 21 carrés.
+
+Réponse : D)

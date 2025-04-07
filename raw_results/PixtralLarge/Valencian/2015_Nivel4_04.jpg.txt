@@ -1,0 +1,21 @@
+**Raonament**:
+
+El problema diu que tres diumenges cauen en un dia amb nombre parell en un mateix mes. Per determinar quin dia de la setmana és el dia 20 d'aquell mes, hem de tenir en compte la següent informació:
+
+1. En un mes, els diumenges cauen cada set dies.
+2. Perquè tres diumenges cauguin en dies parells, aquests dies han de ser parells i estar separats per un interval de set dies. Per exemple, si un diumenge cau en un dia parell, els altres dos diumenges també cauran en dies parells.
+
+Considerem els possibles dies parells en un mes: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30.
+
+Si un diumenge cau el dia 2, els altres dos diumenges cauran el dia 9 i el dia 16. Però el dia 9 és imparell, per tant no és possible.
+Si un diumenge cau el dia 4, els altres dos diumenges cauran el dia 11 i el dia 18. Però el dia 11 és imparell, per tant no és possible.
+Si un diumenge cau el dia 6, els altres dos diumenges cauran el dia 13 i el dia 20. Però el dia 13 és imparell, per tant no és possible.
+Si un diumenge cau el dia 8, els altres dos diumenges cauran el dia 15 i el dia 22. Però el dia 15 és imparell, per tant no és possible.
+Si un diumenge cau el dia 10, els altres dos diumenges cauran el dia 17 i el dia 24. Però el dia 17 és imparell, per tant no és possible.
+Si un diumenge cau el dia 12, els altres dos diumenges cauran el dia 19 i el dia 26. Però el dia 19 és imparell, per tant no és possible.
+Si un diumenge cau el dia 14, els altres dos diumenges cauran el dia 21 i el dia 28. Però el dia 21 és imparell, per tant no és possible.
+Si un diumenge cau el dia 16, els altres dos diumenges cauran el dia 23 i el dia 30. Tots són parells, per tant és possible.
+
+Per tant, els diumenges cauen el dia 16, 23 i 30. Això significa que el dia 20 és un dijous.
+
+**Resposta**: D) Dijous

@@ -1,0 +1,10 @@
+Reasoning: Let the sum of the numbers deleted by the first player be $S_1$ and the sum of the numbers deleted by the second player be $S_2$. We are given that $S_1 = 2S_2$ or $S_2 = 2S_1$. Also, there are 7 numbers initially and the game ends when one number remains. Thus a total of 6 numbers are deleted. If $S_1 = 2S_2$, the first player deletes 4 numbers, and the second player deletes 2 numbers. If $S_2 = 2S_1$, then the first player deletes 2 numbers and the second player deletes 4 numbers. The sum of all the numbers is $1+2+7+9+10+15+19 = 63$. If the number that remains is $x$, then either $S_1 + S_2 + x = 63$. If $S_1 = 2S_2$, then $2S_2 + S_2 + x = 63$ so $3S_2 + x = 63$. If $S_2 = 2S_1$, then $S_1 + 2S_1 + x = 63$ so $3S_1 + x = 63$. In either case, $63 - x$ is divisible by 3.  The possible values for $x$ are 1, 2, 7, 9, 10, 15, and 19.  For $x=7$, $63-7=56$ not divisible by 3. For $x=9$, $63-9=54$. This is divisible by 3, so we could have $S_2 = 18$ and $S_1=36$.  For $x=10$, $63-10=53$. not divisible by 3.  For $x=15$, $63-15=48$. This is divisible by 3, so we could have $S_2 = 16$ and $S_1 = 32$.  For $x=19$, $63-19=44$. not divisible by 3. Let's see if we can make the sums.
+If the number that remains is 9. The deleted numbers sum to $63-9 = 54$. If $S_1 = 36$ and $S_2=18$. Then $S_1$ can be $1+2+7+x$, but doesn't work. If $S_2=18$, we can have $2+10+6$. Doesn't work. $7+9+2$ also don't have 6.
+If the number that remains is 15. The deleted numbers sum to $63-15 = 48$. If $S_1 = 32$ and $S_2 = 16$. $1+2+7+x$ won't work. Also, if we take 1, 2, 7, 9, 10, 19. The first player has 1, 2, 19, 10, 15, 7, 9.
+If the number remaining is 10, then $S_1+S_2 = 53$
+If the number remaining is 7, then $S_1+S_2 = 56$
+If the number remaining is 15, then $S_1+S_2 = 48$, so $S_2 = 16$ and $S_1=32$ or $S_1 = 16$, $S_2=32$. Then $1+2+x+y = 16$, and $1+2+7+9+10+19=48$, so the players can chose 1, 2, 10, 19 and 7, 9, and $1+2+10+19=32$ and $7+9 = 16$. So 15 remains.
+If 9 remains, then $63-9 = 54$. $3S_1 = 54$ so $S_1 = 18$, and $36$ is also $S_2 = 18$, and $S_1 = 36$. 9 remains. Then choose 7 and 2.
+So we choose 15 to remain.
+
+Answer: D)

@@ -1,0 +1,13 @@
+**Razonamiento:**
+Para resolver este problema, debemos determinar cuál es el mayor número de fichas de un mismo color que pueden estar en la caja.
+- La caja contiene fichas rojas y verdes.
+- Si elegimos 5 fichas cualesquiera, al menos una es roja. Esto implica que no hay más de 4 fichas verdes.
+- Si elegimos 6 fichas cualesquiera, al menos una es verde. Esto implica que no hay más de 5 fichas rojas.
+
+Combinando estas dos condiciones:
+1. No puede haber más de 4 fichas verdes.
+2. No puede haber más de 5 fichas rojas.
+
+Por lo tanto, el número máximo de fichas de un mismo color que puede haber en la caja es el mayor número entre 4 y 5, que es 5.
+
+**Respuesta:** B)

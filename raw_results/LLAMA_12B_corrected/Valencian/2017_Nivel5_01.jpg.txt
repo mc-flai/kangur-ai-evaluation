@@ -1,0 +1,27 @@
+Raonament: The information in the image is:
+
+* Two segments $AB$ and $AC$ are perpendicular, forming a right angle.
+* The midpoint of segment $BC$ is closer to segment $AB$ than to segment $AC$.
+* The question asks which of the five given statements (AB < AC < BC < B) is true.
+* The five statements are:
+	+ A) AB < AC < BC < B
+	+ B) AC < BC < AB < B
+	+ C) BC < AB < AC < B
+	+ D) AC < AB < BC < B
+	+ E) AB < BC < AC < B 
+## Step 1
+Consider the triangle $ABC$. Because $AB$ and $AC$ are perpendicular, $ABC$ must be a right-angled triangle.
+
+## Step 2
+Given that the midpoint of $BC$ is closer to $AB$ than to $AC$, it indicates that $\triangle ABC$ is not an isosceles right triangle, as it means the sides $AB$ and $BC$ or $AC$ and $BC$ cannot be equal.
+
+## Step 3
+This also tells us that since the midpoint is closer to $AB$, $BC$ must be longer (since being perpendicular, if one side was equal to the other and shorter than $BC$, it wouldn't be closer to $AB$).
+
+## Step 4
+Now, knowing $BC > AB$, from the given diagram, it's clear that $AB < AC < BC$ because $AC > AB$ (due to $ABC$ forming a right-angled triangle and $AB < BC$).
+
+## Step 5
+Therefore, the correct sequence should start with the shortest side ($AB$), followed by the next shortest ($AC$), and then the longest side ($BC$).
+
+Resposta: D)

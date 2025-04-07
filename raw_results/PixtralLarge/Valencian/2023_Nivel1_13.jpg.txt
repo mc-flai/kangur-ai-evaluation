@@ -1,0 +1,34 @@
+**Raonament**: Per determinar quins dels tríos de longituds de segments no es poden construir un triangle, hem de recordar el teorema del triangle. El teorema del triangle diu que tres segments de longituds \(a\), \(b\) i \(c\) poden formar un triangle si i només si es compleix que la suma de les longituds de qualsevol dos costats ha de ser major que la longitud del tercer costat. Això es pot expressar com:
+
+\[ a + b > c \]
+\[ a + c > b \]
+\[ b + c > a \]
+
+Apliquem aquest teorema a cada una de les opcions donades:
+
+A) (2,3,4):
+\[ 2 + 3 = 5 > 4 \]
+\[ 2 + 4 = 6 > 3 \]
+\[ 3 + 4 = 7 > 2 \]
+
+B) (5,2,8):
+\[ 5 + 2 = 7 \] que no és major que 8
+
+C) (10,1,10):
+\[ 10 + 1 = 11 > 10 \]
+\[ 10 + 10 = 20 > 1 \]
+\[ 1 + 10 = 11 > 10 \]
+
+D) (2,2,2):
+\[ 2 + 2 = 4 > 2 \]
+\[ 2 + 2 = 4 > 2 \]
+\[ 2 + 2 = 4 > 2 \]
+
+E) (38,17,23):
+\[ 38 + 17 = 55 > 23 \]
+\[ 38 + 23 = 61 > 17 \]
+\[ 17 + 23 = 40 > 38 \]
+
+Podem veure que el tríos (2,3,4), (10,1,10), (2,2,2) i (38,17,23) compleixen les condicions del teorema del triangle, mentre que el trío (5,2,8) no ho fa. Per tant, no es pot construir un triangle amb les longituds (5,2,8).
+
+**Resposta**: B)

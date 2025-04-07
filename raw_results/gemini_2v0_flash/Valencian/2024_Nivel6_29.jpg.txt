@@ -1,0 +1,8 @@
+Raonament:
+Primer, cal comprendre que un angle de 45° en un triangle inscrit en una circumferència implica que l'arc subtès per aquest angle és de 90° (ja que l'angle central és el doble de l'angle inscrit). Com que la circumferència està dividida en 12 arcs iguals, cada arc fa 360°/12 = 30°. Per tant, un arc de 90° correspon a 90°/30° = 3 arcs.
+
+Ara, hem de comptar quants triangles podem formar amb almenys un angle de 45°. Per a això, hem de seleccionar un costat del triangle que abasti exactament 3 arcs. Si fixem un vèrtex A del triangle, hi ha 2 vèrtexs (B i C) que disten 3 arcs de A.
+Per cada vèrtex A, tenim un parell de punts B i C a 3 arcs de distància. Per cada parella A-B, el tercer vèrtex C pot ser qualsevol dels 8 punts restants (els altres dos queden determinats per A i B). Hi ha 12 vèrtexs possibles per A, i 2 vèrtexs possibles per B, formant una distància de 3 arcs de A. Hi ha 8 opcions per C.
+Per tant, tindriem 12 (opcions per A) * 2 (opcions per formar l'angle de 45º) * 8(opcions restants). Però, a la hora de comptar, comptem cada triangle dues vegades, perquè podem prendre A o el vèrtex C que forma l'angle de 45 graus amb A i B. A més, hem de tenir en compte que l'angle de 45º pot trobar-se a qualsevol dels tres vèrtexs del triangle. Tenim doncs 12 * 8 = 96 triangles que contenen almenys un angle de 45º.
+
+Resposta: E)

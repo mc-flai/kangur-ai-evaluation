@@ -1,0 +1,22 @@
+Per determinar quin nombre entre 1 i 50 té més divisors, seguirem uns passos lògics.
+
+**Raonament**:
+
+1. Els divisors d'un nombre són els nombres enters que divideixen exactament el nombre sense deixar romanent.
+2. Els nombres que tenen més divisors tendeixen a ser nombres amb factors primers petits i repetits.
+3. Els nombres altament compostos (nombres amb més divisors que qualsevol altre nombre més petit) són els que busquem.
+4. Entre els nombres de 1 a 50, els nombres altament compostos són:
+   - 12 (divisors: 1, 2, 3, 4, 6, 12)
+   - 24 (divisors: 1, 2, 3, 4, 6, 8, 12, 24)
+   - 36 (divisors: 1, 2, 3, 4, 6, 9, 12, 18, 36)
+   - 48 (divisors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48)
+
+5. Compara el nombre de divisors de cada nombre:
+   - 12 té 6 divisors.
+   - 24 té 8 divisors.
+   - 36 té 9 divisors.
+   - 48 té 10 divisors.
+
+6. El nombre 48 té més divisors entre els nombres de l'1 al 50.
+
+**Resposta**: D).

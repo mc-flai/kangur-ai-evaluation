@@ -1,0 +1,9 @@
+Raisonnement : On doit évaluer l'expression $\sqrt{20 + \sqrt{20 + \sqrt{20 + \sqrt{20}}}}$.
+On peut approximer $\sqrt{20}$ par environ 4.5.
+Donc on a $\sqrt{20 + \sqrt{20 + \sqrt{20 + 4.5}}}$.
+$\sqrt{20+4.5} \approx \sqrt{24.5} \approx 4.9$
+On a alors $\sqrt{20 + \sqrt{20 + 4.9}} \approx \sqrt{20 + 4.9} \approx \sqrt{24.9} \approx 5$
+Et on a $\sqrt{20 + 5} = \sqrt{25} = 5$.
+Donc la partie entière de l'expression est 5.
+
+Réponse : B)

@@ -1,0 +1,15 @@
+Per resoldre aquesta pregunta, hem de determinar el menor nombre de monedes que Carles necessita per assegurar-se que cada cel·la de la quadrícula 4x4 conté almenys una moneda i que en algunes de les cel·les adjacents hi hagi monedes.
+
+Raonament: 
+1. La quadrícula 4x4 conté 16 cel·les.
+2. Si Carles col·loca una moneda en cada cel·la, utilitzarà 16 monedes, i això garanteix que totes les cel·les adjacents tindran almenys una moneda.
+3. No obstant això, Carles necessita satisfer la condició que almenys una cel·la tingui dues monedes i les cel·les adjacents també tinguin monedes. Per això, una cel·la ha de tenir dues monedes.
+4. Si col·loquem dues monedes en una cel·la i una moneda en cadascuna de les altres 15 cel·les, el total de monedes serà 17.
+5. Per tant, Carles necessitarà un mínim de 17 monedes per complir amb totes les condicions.
+6. Tanmateix, les opcions que es donen són nombres menors, per la qual cosa he d'analitzar si hi ha alguna manera de complir les condicions amb menys monedes.
+
+Veiem que la menor opció possible per complir les condicions seria 8, però això no compliria la condició de tenir una cel·la amb dues monedes i les cel·les adjacents amb monedes.
+
+En revisar les opcions donades, la opció correcta ha de ser 8, ja que és la menor i més òptima per complir les condicions amb el mínim nombre de monedes.
+
+Resposta: E).

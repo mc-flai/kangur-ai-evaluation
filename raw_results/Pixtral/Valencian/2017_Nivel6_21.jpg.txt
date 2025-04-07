@@ -1,0 +1,37 @@
+**Pregunta:** Defineix una successió d'enters que compleixi la regla \(a_0 = 1\), \(a_1 = 2\), \(a_{n+2} = a_n + (a_{n+1})^2\) per a \(n \geq 0\). Què és el residu de la divisió entera de \(a_{2017}\) per 7?
+
+**Opcions:**
+A) 0
+B) 1
+C) 2
+D) 5
+E) 6
+
+**Racionalització:**
+1. Comencem amb els valors inicials donats: \(a_0 = 1\) i \(a_1 = 2\).
+2. Calculem els següents termes de la successió utilitzant la fórmula \(a_{n+2} = a_n + (a_{n+1})^2\):
+   - \(a_2 = a_0 + (a_1)^2 = 1 + 2^2 = 1 + 4 = 5\)
+   - \(a_3 = a_1 + (a_2)^2 = 2 + 5^2 = 2 + 25 = 27\)
+   - \(a_4 = a_2 + (a_3)^2 = 5 + 27^2 = 5 + 729 = 734\)
+3. Observem els residus de la divisió entera per 7 dels primers termes:
+   - \(a_0 \mod 7 = 1 \mod 7 = 1\)
+   - \(a_1 \mod 7 = 2 \mod 7 = 2\)
+   - \(a_2 \mod 7 = 5 \mod 7 = 5\)
+   - \(a_3 \mod 7 = 27 \mod 7 = 6\)
+4. Per determinar el residu de \(a_{2017} \mod 7\), podem buscar un patró en els residus dels termes anteriors.
+5. Comprovem els residus de més termes per veure si hi ha un patró:
+   - \(a_5 \mod 7 = 734 \mod 7 = 6\)
+   - \(a_6 \mod 7 = 734 + 734 \mod 7 = 1468 \mod 7 = 6\)
+6. Observem que els residus comencen a repetir-se després de alguns termes. Per simplificar, podem comprovar els residus dels termes inicials i veure si hi ha un patró periòdic.
+7. Comprovem els residus dels termes inicials:
+   - \(a_0 \mod 7 = 1\)
+   - \(a_1 \mod 7 = 2\)
+   - \(a_2 \mod 7 = 5\)
+   - \(a_3 \mod 7 = 6\)
+   - \(a_4 \mod 7 = 6\)
+   - \(a_5 \mod 7 = 6\)
+8. Comprovem si hi ha un patró periòdic en els residus. Observem que els residus es repetien després de alguns termes.
+9. Comprovem el residu de \(a_{2017} \mod 7\) utilitzant el patró observat.
+10. Comprovem el residu de \(a_{2017} \mod 7\) utilitzant el patró observat.
+
+**Resposta:** D) 5

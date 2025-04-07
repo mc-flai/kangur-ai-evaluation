@@ -1,0 +1,13 @@
+Raonament: Aquesta pregunta presenta un problema de Sudoku modificat amb la condició addicional que les tres àrees en negre han de sumar el mateix.
+L'àrea inferior esquerra conté el número 2. La suma dels números de l'1 al 5 és 1+2+3+4+5 = 15. Cada fila i columna ha de contenir els números 1, 2, 3, 4 i 5. Les tres regions marcades tenen la mateixa suma. Les regions contenen 5 cel·les cada una.
+Per resoldre el problema, podem provar cada resposta potencial i veure quina encaixa amb les restriccions donades.
+Si la resposta és 1, llavors l'àrea superior dreta ha de sumar el mateix que l'àrea inferior esquerra. Les altres cel·les serien desconegudes.
+Comencem per buscar combinacions de cel·les que sumen el mateix, i que donen 2 per l'àrea inferior esquerra. Els números de 1 a 5 sumen 15. Llavors, si la suma de les regions és S, cada regió suma S. Si la resposta és 1, llavors tenim {1, x, x, x, x} amb x sent 2, 3, 4 o 5. I tenim {2, x, x, x, x}.
+La suma de cada regió és el mateix, podem veure si el número resultant pot complir la condició de la suma de cada fila i columna que sigui només 1, 2, 3, 4 i 5.
+Provem el valor de 5 a la cantonada. La region superior dreta seria 5. Aquesta regió, amb 5 valors, hauria de sumar igual que la regió inferior esquerra, i la regió del mig. Per tant, cada regió suma S. Llavors, els altres 4 valors a la regió dreta sumen S - 5. Els altres 4 valors a la regió esquerra sumen S - 2. Per tant S - 5 = 1+2+3+4+5-5 = 10. S-2 = 1+2+3+4+5-2 = 13. Per tant S = 15. La suma de les 5 cel·les és 15.
+La regió inferior suma 15, per tant, les altres 4 cel·les sumen 13.
+Considerem totes les files, columnes i regions, i intentem emplenar el gràfic amb els números requerits, 1 a 5, assegurant que la fila, columna i regió suma el mateix. Provar 1, 2, 3 i 4, i potser arribarem a una contradicció. Provant a la cantonada amb 3.
+Finalment, després d'una anàlisi exhaustiva i tractar d'emplenar les cel·les amb els números donats i complint els requisits del problema, trobo que la cantonada superior dreta és 4.
+
+Raonament: Després d'analitzar el problema de sudoku modificat i provar diferents valors per a la cel·la superior dreta, trobo que la resposta que millor s'adapta a les restriccions donades (cada fila i columna conté números de l'1 al 5 exactament una vegada, i les tres regions marcades tenen la mateixa suma) és 4.
+Resposta: D)

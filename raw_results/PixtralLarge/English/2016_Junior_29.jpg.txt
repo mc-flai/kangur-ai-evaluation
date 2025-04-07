@@ -1,0 +1,15 @@
+**Reasoning**: A "surprising" date is defined as one where all eight digits within the date notation (DD.MM.YYYY) are different. To find the next surprising date, we need to ensure that each digit from 0 to 9 is used exactly once.
+
+Currently, the date is 17.03.2016, which is not surprising since the digits 0, 1, 2, 3, 6, and 7 are already used, leaving the digits 4, 5, 8, and 9 to be used.
+
+Let's consider the possible months:
+
+- **March (03)**: The digits 0 and 3 are already used.
+- **June (06)**: The digits 0 and 6 are already used.
+- **July (07)**: The digits 0 and 7 are already used.
+- **August (08)**: The digit 0 is already used, but 8 is not.
+- **December (12)**: The digits 1 and 2 are already used.
+
+Since the digit 8 has not been used yet, the next surprising date could occur in August. The date in August with all distinct digits would be 29.08.2017 (next surprising month being August), as all digits (2, 9, 0, 8, 2, 0, 1, 7) are distinct.
+
+**Answer**: D)

@@ -1,0 +1,13 @@
+Raisonnement :
+1.  **Déterminer la durée totale d'un cycle complet :** Additionner les durées de toutes les chansons : 3 min + 2 min 30 s + 2 min + 1 min 30 s + 4 min = 13 minutes.
+2.  **Calculer le nombre de cycles complets écoulés :** Andy est revenu une heure (60 minutes) après son départ. Diviser la durée totale par la durée d'un cycle : 60 minutes / 13 minutes/cycle ≈ 4,6 cycles. Cela signifie qu'il y a eu 4 cycles complets et une partie d'un cycle.
+3.  **Calculer le temps restant dans le cycle incomplet :** Calculer le reste de la division : 60 minutes - (4 cycles * 13 minutes/cycle) = 8 minutes.
+4.  **Identifier la chanson en cours à ce moment-là :**  Déterminer quelle chanson était jouée après 8 minutes depuis le début d'un cycle (A, B, C, D, E).
+    *   Chanson A: 3 minutes (0-3 min)
+    *   Chanson B: 2 min 30 s (3-5.5 min)
+    *   Chanson C: 2 minutes (5.5-7.5 min)
+    *   Chanson D: 1 min 30 s (7.5-9 min)
+    *   Chanson E: 4 minutes (9-13 min)
+    Après 8 minutes, la chanson D était en cours.
+
+Réponse : D) la D

@@ -1,0 +1,35 @@
+Reasoning:
+The question asks for the minimum number of fruits that Simon needs to take to be sure that he has an apple and a pear of the same color.
+The bag contains:
+- 3 green apples
+- 5 yellow apples
+- 7 green pears
+- 2 yellow pears
+Consider the worst-case scenario. Simon first takes all the apples. That is 3 green apples + 5 yellow apples = 8 apples. Then Simon picks all the green pears which are 7.
+So now he has 8 apples and 7 green pears.
+If he picks one more fruit, then the last fruit will be a yellow pear, giving him an apple and a pear of the same color.
+So the total number of fruits taken is 8 + 7 + 1 = 16.
+
+Alternatively, think of the worst-case scenario: Simon picks all the apples first (3 green + 5 yellow = 8), and then all the green pears (7). The next fruit he picks MUST be a yellow pear, meaning he will finally have a yellow apple and a yellow pear.
+So the total number of fruits he picks is 8 + 7 + 1 = 16. This is not among the possible answers.
+
+Let's analyze again in terms of minimizing our picks:
+Worst-case: pick all of one type of fruit before picking the other type: so we could pick all the apples: 3+5 = 8
+Then, consider what colors we could have.
+We want the minimum fruits to ensure a pair of same color apple and pear.
+Worst-case: we picked 8 apples.
+Then we pick all 7 green pears.
+The next pick HAS to be a yellow pear.
+So 8 + 7 + 1 = 16. However, since 16 isn't an answer, let's think through this again.
+
+Total number of fruits: 3+5+7+2 = 17
+If we take 9 fruits, we can't say for sure that we have an apple and a pear of the same color. (ex: 5 yellow apples, 4 green pears)
+If we take 10 fruits, we can't say for sure that we have an apple and a pear of the same color. (ex: 5 yellow apples, 5 green pears)
+If we take 11 fruits, we can't say for sure that we have an apple and a pear of the same color. (ex: 5 yellow apples, 6 green pears)
+Let's assume the worst case: Simon picks the 5 yellow apples and the 7 green pears. That's 12 fruits. Then he *must* pick either a green apple (making a green apple and pear pair), or a yellow pear (making a yellow apple and pear pair). Thus, the answer is 12 + 1 = 13.
+
+Reasoning:
+The question is asking for the *minimum* number of fruits needed to *guarantee* a matching apple and pear color. We consider the worst-case scenario.
+Simon could pick all 5 yellow apples and then pick all 7 green pears, that is 5+7 = 12 fruits, but then we would not have a matched color. So Simon must pick *one* more fruit from the bag. Either a green apple or a yellow pear. That would ensure we would have a matched color.
+
+Answer: E)

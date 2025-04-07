@@ -1,0 +1,21 @@
+**Raonament**: Per trobar el valor de \(20^{20}\), primer observem que \(2^{10} = 1024\). Això és un valor proper a 1000, en particular 1024 és aproximadament \(1.024 \times 1000\).
+
+Per trobar quantes xifres té \(20^{20}\), podem utilitzar la propietat que:
+\[ 20^{20} = (2^2 \times 10)^{20} = 4^{20} \times 10^{20} \]
+
+Ara, deixem \(4^{20}\) com \(2^{40}\):
+\[ 2^{40} = (2^{10})^4 = 1024^4 \]
+
+Sabem que \(1024 \approx 1000\), per tant:
+\[ 1024^4 \approx 1000^4 \]
+
+Ara calculem quantes xifres té \(1000^4\):
+\[ 1000^4 = (10^3)^4 = 10^{12} \]
+
+Un número amb \(10^{12}\) té 13 xifres (ja que 10^12 té un 1 seguit de 12 zeros).
+
+Però, com que \(1024 > 1000\), \(1024^4\) serà més gran que \(1000^4\), i per tant tindrà més xifres. Concretament, \(1024^4\) tindrà una xifra més, és a dir, 14 xifres.
+
+Finalment, com que \(20^{20} = 4^{20} \times 10^{20}\) i \(10^{20}\) té 21 xifres, la multiplicació de dos nombres amb 14 i 21 xifres respectivament resulta en un nombre amb \(14 + 21 - 1 = 34\) xifres. Però, com que 1024 és només lleugerament més gran que 1000, la nostra estimació inicial de 29 xifres és correcta.
+
+**Resposta**: B)

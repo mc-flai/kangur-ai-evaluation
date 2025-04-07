@@ -1,0 +1,60 @@
+**Razonamiento:**
+1. Identificamos las ecuaciones dadas:
+   - \( a \cdot b = 6 \)
+   - \( b \cdot c = 15 \)
+   - \( a \cdot c = 10 \)
+
+2. Queremos encontrar el valor de la suma \( a + b + c \).
+
+3. Usamos la identidad de los cuadrados de los sumandos:
+   \[
+   (a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)
+   \]
+
+4. Calculamos \( a^2 + b^2 + c^2 \):
+   \[
+   a^2 + b^2 + c^2 = (a \cdot a) + (b \cdot b) + (c \cdot c)
+   \]
+
+5. Calculamos \( 2(ab + bc + ca) \):
+   \[
+   2(ab + bc + ca) = 2(a \cdot b + b \cdot c + a \cdot c)
+   \]
+
+6. Sustituimos los valores dados:
+   \[
+   ab = 6 \implies 2 \cdot 6 = 12
+   \]
+   \[
+   bc = 15 \implies 2 \cdot 15 = 30
+   \]
+   \[
+   ca = 10 \implies 2 \cdot 10 = 20
+   \]
+
+7. Sumamos estos valores:
+   \[
+   2(ab + bc + ca) = 12 + 30 + 20 = 62
+   \]
+
+8. Sumamos \( a^2 + b^2 + c^2 \) y \( 2(ab + bc + ca) \):
+   \[
+   (a + b + c)^2 = a^2 + b^2 + c^2 + 62
+   \]
+
+9. Calculamos \( a^2 + b^2 + c^2 \) usando las identidades:
+   \[
+   a^2 + b^2 + c^2 = (a \cdot a) + (b \cdot b) + (c \cdot c)
+   \]
+
+10. Sumamos los valores:
+    \[
+    (a + b + c)^2 = 62 + 62 = 124
+    \]
+
+11. Tomamos la raíz cuadrada de ambos lados:
+    \[
+    a + b + c = \sqrt{124} = 11
+    \]
+
+**Respuesta:** C)

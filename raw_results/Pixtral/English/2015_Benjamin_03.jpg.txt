@@ -1,0 +1,38 @@
+To determine the minimum number of squares Sam must paint over so that no two squares sharing a side have the same color, we need to consider the arrangement and the requirement that no two adjacent squares share the same color.
+
+1. **Understanding the Problem**:
+   - There are 9 small squares arranged in a 3x3 grid.
+   - Sam can paint these squares either white, grey, or black.
+   - The goal is to ensure that no two adjacent squares (sharing a side) have the same color.
+
+2. **Initial Configuration**:
+   - Let's start by assuming a simple pattern where each square is painted in a different color. For example:
+     ```
+     W G B
+     B W G
+     G B W
+     ```
+   - Here, W = White, G = Grey, B = Black.
+   - This configuration satisfies the condition since no two adjacent squares share the same color.
+
+3. **Minimum Overpaint**:
+   - If we start with all squares being one color (e.g., all white), we need to change the color of at least one square in each row and each column to ensure no two adjacent squares share the same color.
+   - In a 3x3 grid, we need to ensure that each row and each column has at least one square of each of the other two colors.
+
+4. **Calculation**:
+   - To achieve this, we need to paint over at least one square in each row and each column.
+   - Since there are 3 rows and 3 columns, we need to paint over at least 3 squares to ensure no two adjacent squares share the same color.
+
+5. **Verification**:
+   - Let's verify with an example:
+     ```
+     W G B
+     B W G
+     G B W
+     ```
+   - Here, each row and each column has at least one square of each of the other two colors.
+   - This configuration satisfies the condition with a minimum of 3 squares being painted over.
+
+Reasoning: By ensuring that each row and each column has at least one square of each of the other two colors, we can achieve the condition that no two adjacent squares share the same color. This requires painting over at least 3 squares.
+
+Answer: B

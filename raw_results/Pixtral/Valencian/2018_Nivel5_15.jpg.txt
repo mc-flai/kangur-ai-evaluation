@@ -1,0 +1,41 @@
+
+La pregunta 15 nos pide encontrar el valor de \( \frac{w}{x} + \frac{x}{w} \) para los números \( w \) y \( x \) que satisfacen las ecuaciones \( w + x = 3 \) y \( \frac{1}{w} + \frac{1}{x} = 1 \).
+
+Para resolver esto, sigamos estos pasos:
+
+1. **Simplificar la segunda ecuación**:
+   \[
+   \frac{1}{w} + \frac{1}{x} = 1
+   \]
+   Multiplicamos ambos lados por \( w \cdot x \):
+   \[
+   x + w = wx
+   \]
+   Dado que \( w + x = 3 \), podemos sustituir:
+   \[
+   3 = wx
+   \]
+
+2. **Calcular \( \frac{w}{x} + \frac{x}{w} \)**:
+   \[
+   \frac{w}{x} + \frac{x}{w}
+   \]
+   Podemos usar la identidad:
+   \[
+   \frac{w}{x} + \frac{x}{w} = \frac{w^2 + x^2}{wx}
+   \]
+   Sabemos que \( w^2 + x^2 = (w + x)^2 - 2wx \):
+   \[
+   w^2 + x^2 = 3^2 - 2 \cdot 3 = 9 - 6 = 3
+   \]
+   Entonces:
+   \[
+   \frac{w^2 + x^2}{wx} = \frac{3}{3} = 1
+   \]
+
+3. **Verificar las opciones**:
+   La opción correcta es la que corresponde a 1.
+
+Raonament: Hemos simplificado la ecuación dada y utilizado la identidad para encontrar el valor de \( \frac{w}{x} + \frac{x}{w} \).
+
+Resposta: B)

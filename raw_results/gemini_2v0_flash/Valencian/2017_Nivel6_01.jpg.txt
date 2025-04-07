@@ -1,0 +1,12 @@
+Raonament: Siguin els tres nombres enters x, y i z. Sabem que x * y * z = 140. També sabem que y = 7x i que z < y. Substituint y en l'equació del producte obtenim x * (7x) * z = 140, el que simplifica a 7x^2 * z = 140, o x^2 * z = 20.
+
+Ara busquem factors de 20 que ens puguin ajudar a trobar x, y i z.
+Si x = 1, llavors z = 20. Per tant, y = 7x = 7. Aquí, z > y, que no compleix la condició donada.
+Si x = 2, llavors z = 20 / (2^2) = 20 / 4 = 5. Per tant, y = 7x = 14. Aquí, z < y, que compleix la condició donada. Els nombres serien x = 2, y = 14, z = 5. La suma seria 2 + 14 + 5 = 21.
+
+Ara analitzem les altres possibilitats per si de cas:
+Si x és més gran que 2, x^2 és més gran que 4 i com que z és un enter, z hauria de ser més petit que 5. A més, y seria major que 14 i z ha de ser menor que y, és a dir, més petit que 14.
+
+La suma és 2 + 14 + 5 = 21, que coincideix amb l'opció B.
+
+Resposta: B)

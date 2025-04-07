@@ -1,0 +1,12 @@
+Reasoning: The tree trunk floats with the stream's current. The speed of the tree trunk is equal to the speed of the current. The time taken by the motorboat to go downstream is 4 hours, and upstream is 6 hours. The speed of the boat in still water and the speed of the current can be calculated using these times. However, the question asks for the time for the tree trunk to go from X to Y, which only depends on the speed of the current and the distance between X and Y. The tree trunk will take the same time as the boat if the boat only uses the stream's current which will be the harmonic mean of 4 and 6.  Therefore, the distance is the same and time for the tree trunk will be proportional to the average speed of the boat downstream (4 hrs) and upstream (6 hrs). The speed of the current can be used to determine the tree trunk's speed. The distance is the same, so: distance = speed * time.
+Let 'b' be the speed of the boat in still water and 'c' the speed of the current.
+Downstream:  distance = (b + c) * 4
+Upstream: distance = (b - c) * 6
+Since the distance is the same: (b + c) * 4 = (b - c) * 6
+4b + 4c = 6b - 6c
+10c = 2b
+b = 5c
+Now use either equation for the distance.  distance = (5c + c) * 4 = 24c. The tree trunk's speed is 'c'.
+Time for the tree trunk = distance / speed = 24c / c = 24 hours.
+
+Answer: E)

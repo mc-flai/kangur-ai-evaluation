@@ -1,0 +1,52 @@
+**Reasoning**: Let's denote the numbers in the boxes as follows:
+
+```
+A B
+C D
+```
+
+Given numbers:
+- A = 1
+- B = 2
+- C = 3
+- D = 6
+
+We know that the sums of the numbers in each row and each column are equal. Let's denote this common sum as S.
+
+Sum of the first row: A + B = 1 + 2 = 3
+Sum of the first column: A + C = 1 + 3 = 4
+
+Since the sums must be equal, we have:
+S = 3 (from the first row sum)
+S = 4 (from the first column sum)
+
+This is a contradiction, so we need to reconsider the problem. Juca remembers that there are no three numbers repeated. 
+
+Given that the numbers in the rows and columns must sum to the same value and considering there are no three repeated numbers, we need to identify the number that fits in the center box (D) such that the sums of the rows and columns are equal.
+
+To find the missing number in the center box, let's consider the sums:
+Sum of the first row: A + B = 1 + 2 = 3
+Sum of the second row: C + D = 3 + D
+Sum of the first column: A + C = 1 + 3 = 4
+Sum of the second column: B + D = 2 + D
+
+Since the sums must be equal:
+3 = 3 + D
+4 = 2 + D
+
+Solving for D:
+- From the second equation: 4 = 2 + D => D = 2
+
+This does not seem right as it would mean the sums are not equal. Let's recheck the sums:
+Sum of the first row: 1 + 2 = 3
+Sum of the second row: 3 + 6 = 9
+Sum of the first column: 1 + 3 = 4
+Sum of the second column: 2 + 6 = 8
+
+The consistent sum for both rows and columns should be 9 (as the second row and second column sums are both 9). Therefore, the missing number in the center box must make the sums of the rows and columns equal to 9.
+
+Sum of the first row: 1 + 2 + D = 9 => D = 6
+
+This means the number in the center box (D) is 6.
+
+**Answer**: E) 6

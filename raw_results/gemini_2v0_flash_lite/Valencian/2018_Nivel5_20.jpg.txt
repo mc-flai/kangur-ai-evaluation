@@ -1,0 +1,38 @@
+Raonament: Primer calculem els dos productes.
+2016 * 2018 = 4070336
+2017 * 2019 = 4072323
+Volem saber quants nombres naturals són majors que 4070336 i menors que 4072323.
+El primer nombre natural major que 4070336 és 4070337.
+El nombre natural més gran menor que 4072323 és 4072322.
+La quantitat de nombres en aquest rang es calcula com: (4072322 - 4070337) + 1 = 1986.
+Cap de les respostes donades sembla ser la correcta, hi ha un error en la meua anàlisi.
+Revisem de nou:
+2016 * 2018 = 4070336
+2017 * 2019 = 4072323
+Els nombres naturals més grans que 4070336 són 4070337, 4070338, ...
+Els nombres naturals menors que 4072323 són ..., 4072321, 4072322.
+Així, volem comptar els nombres de 4070337 fins a 4072322, ambdós inclosos.
+Nombre de nombres = 4072322 - 4070337 + 1 = 1986.
+De fet, cap de les respostes és correcta. Hi ha un error en la meua anàlisi.
+
+Revisem de nou:
+2016 * 2018 = 4070336
+2017 * 2019 = 4072323
+Els nombres naturals que són més grans que 2016 * 2018, però més petits que 2017 * 2019:
+Són els nombres entre 4070336 i 4072323.
+El primer és 4070337
+L'últim és 4072322
+El nombre de nombres és 4072322 - 4070337 + 1 = 1986.
+No hi ha cap resposta correcta. Hi ha un error en la meua anàlisi.
+Veiem la seqüència.
+Tenim 2016 * 2018 < n < 2017 * 2019
+4070336 < n < 4072323
+El primer nombre enter és 4070337
+El següent és 4070338
+El següent és 4072322
+Llavors el nombre de nombres és 4072322 - 4070337 + 1 = 1986.
+No hi ha cap resposta correcta.
+
+Raonament: Hem de trobar el nombre d'enters que són majors que el producte de 2016 i 2018, però menors que el producte de 2017 i 2019.  Calcula els dos productes: 2016 * 2018 = 4070336 i 2017 * 2019 = 4072323.  Aleshores, hem de trobar el nombre d'enters entre 4070336 i 4072323 (exclosos).  L'enter més petit més gran que 4070336 és 4070337.  L'enter més gran menor que 4072323 és 4072322. Per tant, necessitem comptar els enters de 4070337 a 4072322. El nombre d'enters és 4072322 - 4070337 + 1 = 1986. Cap de les opcions donades sembla ser la correcta.
+
+Resposta: No es pot determinar amb la informació donada.

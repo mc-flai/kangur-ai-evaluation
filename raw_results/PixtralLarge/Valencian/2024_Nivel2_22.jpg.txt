@@ -1,0 +1,29 @@
+Per resoldre el problema, necessitem trobar el nombre més gran de números bons consecutius que poden formar un nombre de tres xifres on la xifra central és més gran que la suma de les altres dues xifres.
+
+### Raonament:
+
+1. **Defineix els números bons consecutius**:
+   - Els números "bons" són aquells que, quan es col·loquen en un nombre de tres xifres, la xifra central és més gran que la suma de les altres dues xifres.
+
+2. **Considera les xifres possibles**:
+   - Les xifres possibles per a la xifra central han de ser més grans que la suma de les altres dues xifres. Per exemple, si la xifra central és 5, les altres dues xifres han de ser menors de 3 (ja que 5 > 2 + 2).
+
+3. **Analitza els números bons consecutius**:
+   - Suposem que comencem amb el nombre més gran possible per a la xifra central i disminuïm progressivament.
+   - Si la xifra central és 9, les altres dues xifres han de ser menors de 5 (ja que 9 > 4 + 4).
+   - Si la xifra central és 8, les altres dues xifres han de ser menors de 4 (ja que 8 > 3 + 3).
+   - Si la xifra central és 7, les altres dues xifres han de ser menors de 3 (ja que 7 > 3 + 3).
+   - Si la xifra central és 6, les altres dues xifres han de ser menors de 3 (ja que 6 > 2 + 2).
+
+4. **Determina la quantitat de números bons consecutius**:
+   - Si la xifra central és 9, els números bons consecutius són 9, 8, 7, 6, 5, 4, 3, 2, 1.
+   - Si la xifra central és 8, els números bons consecutius són 8, 7, 6, 5, 4, 3, 2, 1.
+   - Si la xifra central és 7, els números bons consecutius són 7, 6, 5, 4, 3, 2, 1.
+   - Si la xifra central és 6, els números bons consecutius són 6, 5, 4, 3, 2, 1.
+   - Si la xifra central és 5, els números bons consecutius són 5, 4, 3, 2, 1.
+
+5. **Conclou la quantitat més gran**:
+   - La quantitat més gran de números bons consecutius que podem trobar és quan la xifra central és 9, que són 9 números bons consecutius: 9, 8, 7, 6, 5, 4, 3, 2, 1.
+
+### Resposta:
+A) 9

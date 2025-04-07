@@ -1,0 +1,11 @@
+
+Raisonnement :
+1. La question demande de déterminer quelle face d'un pion doit être posée sur une face verte après que le pion a été tourné autour d'une de ses arêtes.
+2. Le pion a une face verte et des faces blanches. La face verte est initialement posée sur le côté X du plateau de jeu.
+3. Le pion a une base triangulaire, ce qui signifie que lorsqu'il est tourné autour d'une arête, la face qui était en bas se déplace vers le haut.
+4. Pour déterminer la nouvelle face qui sera en bas après la première rotation, nous devons identifier la face qui était adjacente à la face X.
+5. En examinant les options, nous voyons que la face X est entourée des faces A, B, C, D et E.
+6. En tournant le pion autour d'une arête, la face adjacente à X devient la nouvelle face en bas.
+7. En comparant les options, nous trouvons que la face adjacente à X est la face D.
+
+Réponse : D

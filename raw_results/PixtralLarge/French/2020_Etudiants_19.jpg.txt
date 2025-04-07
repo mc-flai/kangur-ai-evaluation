@@ -1,0 +1,17 @@
+Pour résoudre la question 19, nous devons déterminer combien de termes de la suite définie par \( u_1 = 1 \), \( u_2 = 3 \), et \( u_{n+2} = u_{n+1} + u_n \) sont pairs parmi les 2020 premiers termes. Cette suite est la suite de Fibonacci, où les termes alternent entre pairs et impairs.
+
+**Raisonnement :**
+
+1. La suite de Fibonacci commence par \( u_1 = 1 \) (impair) et \( u_2 = 3 \) (impair).
+2. Les termes suivants sont calculés comme suit :
+   - \( u_3 = u_2 + u_1 = 3 + 1 = 4 \) (pair)
+   - \( u_4 = u_3 + u_2 = 4 + 3 = 7 \) (impair)
+   - \( u_5 = u_4 + u_3 = 7 + 4 = 11 \) (impair)
+   - \( u_6 = u_5 + u_4 = 11 + 7 = 18 \) (pair)
+   - Et ainsi de suite.
+
+3. On observe que les termes pairs apparaissent tous les trois termes : 4, 18, ...
+4. Pour trouver combien de termes pairs il y a parmi les 2020 premiers termes, nous devons déterminer combien de fois 3 divise 2020.
+5. \( 2020 \div 3 = 673.33 \). Puisque nous ne comptons que les entiers, nous prenons la partie entière : 673.
+
+**Réponse :** A) 673

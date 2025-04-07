@@ -1,0 +1,17 @@
+Raonament: Per resoldre aquest problema, necessitem analitzar les relacions d'ordre donades. Sabem que:
+1. Lluís va acabar abans que Maria (L > M)
+2. Víctor va arribar darrere de Joana (J > V)
+3. Maria va arribar abans que Joana (M > J)
+4. Edu va acabar abans que Víctor (E > V)
+
+Combinant (2) i (3), obtenim M > J > V.
+Com que L > M, llavors L > M > J > V.
+I com que E > V, això només ens diu que Edu va acabar abans que Víctor, però no sabem la seva relació amb els altres.
+
+Reescrivint les desigualtats amb >, tenim l'ordre parcial:
+L > M > J > V
+E > V
+
+Això vol dir que Víctor va arribar l'últim.
+
+Resposta: A)

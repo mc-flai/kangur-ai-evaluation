@@ -1,0 +1,29 @@
+Pour résoudre cette question, nous devons d'abord comprendre que Carine soustrait un même nombre secret à chacun des trois nombres donnés: 24, 13 et 7. La somme de ces trois nombres est 50. Nous devons déterminer quel nombre secret a été soustrait.
+
+**Raisonnement** :
+
+1. Calculons la somme des trois nombres donnés:
+   \[ 24 + 13 + 7 = 44 \]
+
+2. Nous savons que la somme de ces trois nombres après soustraction du même nombre secret est 50. 
+   \[ 44 - 3 \times (\text{nombre secret}) = 50 \]
+
+3. Isolons le nombre secret.
+   \[ 3 \times (\text{nombre secret}) = 44 - 50 \]
+   \[ 3 \times (\text{nombre secret}) = -6 \]
+
+4. Divisons par 3 pour trouver le nombre secret.
+   \[ \text{nombre secret} = \frac{-6}{3} \]
+   \[ \text{nombre secret} = -2 \]
+
+5. Maintenant, soustrayons -2 de chacun des nombres donnés:
+   \[ 24 - (-2) = 24 + 2 = 26 \]
+   \[ 13 - (-2) = 13 + 2 = 15 \]
+   \[ 7 - (-2) = 7 + 2 = 9 \]
+
+6. Vérifions si la somme de ces nouveaux nombres est 50:
+   \[ 26 + 15 + 9 = 50 \]
+
+Donc, l'un des nouveaux nombres est 9.
+
+**Réponse** : A).

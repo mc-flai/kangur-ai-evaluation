@@ -1,0 +1,13 @@
+Reasoning: The problem asks for the number of different colors. Since marbles with the same digit sum have the same color, we need to find the range of possible digit sums for the numbers 1 to 2015.
+*   The smallest sum occurs for 1, which is 1.
+*   The largest sum occurs for 1999, which is 1+9+9+9 = 28, or 2009 whose sum is 11.
+
+*   The sums range from 1 to 28.
+*   The marbles in 2015 have a sum of 2+0+1+5 = 8
+    Thus, we need to find the max sum:
+    1999 -> 1+9+9+9 = 28
+    The minimum sum is 1.
+    The maximum sum is 28.
+    The number of possible sums is 28 (from 1 to 28).
+
+Answer: C)

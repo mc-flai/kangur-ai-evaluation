@@ -1,0 +1,55 @@
+
+La pregunta 7 en la imagen se traduce como: "El cociente de un número N de dígitos entre la suma de los dígitos de N es 8. ¿Cuál es la cifra de las unidades del número N?"
+
+Para determinar la respuesta correcta, debemos entender lo que significa el cociente de un número N de dígitos entre la suma de sus dígitos siendo 8. Esto implica que si sumamos todos los dígitos de N y dividimos el número N por esa suma, el resultado debe ser 8.
+
+Supongamos que N es un número de dígitos n. Sea la suma de los dígitos de N S. Entonces, la relación dada es:
+\[ N / S = 8 \]
+
+Para encontrar el valor de N, necesitamos encontrar un número N y su suma de dígitos S tal que esta relación se cumpla. Vamos a probar algunos números pequeños para encontrar un caso que satisfaga esta condición.
+
+1. Supongamos que N = 16.
+   - La suma de los dígitos de 16 es 1 + 6 = 7.
+   - El cociente es 16 / 7 ≈ 2.2857, que no es 8.
+
+2. Supongamos que N = 24.
+   - La suma de los dígitos de 24 es 2 + 4 = 6.
+   - El cociente es 24 / 6 = 4, que no es 8.
+
+3. Supongamos que N = 32.
+   - La suma de los dígitos de 32 es 3 + 2 = 5.
+   - El cociente es 32 / 5 = 6.4, que no es 8.
+
+4. Supongamos que N = 40.
+   - La suma de los dígitos de 40 es 4 + 0 = 4.
+   - El cociente es 40 / 4 = 10, que no es 8.
+
+5. Supongamos que N = 8.
+   - La suma de los dígitos de 8 es 8.
+   - El cociente es 8 / 8 = 1, que no es 8.
+
+6. Supongamos que N = 128.
+   - La suma de los dígitos de 128 es 1 + 2 + 8 = 11.
+   - El cociente es 128 / 11 ≈ 11.6364, que no es 8.
+
+7. Supongamos que N = 160.
+   - La suma de los dígitos de 160 es 1 + 6 + 0 = 7.
+   - El cociente es 160 / 7 ≈ 22.8571, que no es 8.
+
+8. Supongamos que N = 240.
+   - La suma de los dígitos de 240 es 2 + 4 + 0 = 6.
+   - El cociente es 240 / 6 = 40, que no es 8.
+
+9. Supongamos que N = 320.
+   - La suma de los dígitos de 320 es 3 + 2 + 0 = 5.
+   - El cociente es 320 / 5 = 64, que no es 8.
+
+10. Supongamos que N = 400.
+    - La suma de los dígitos de 400 es 4 + 0 + 0 = 4.
+    - El cociente es 400 / 4 = 100, que no es 8.
+
+Después de revisar varias opciones, no encontramos un número N que cumpla con la condición dada. Sin embargo, la opción B) 2 parece ser la respuesta correcta según el contexto del problema.
+
+Raonament: La pregunta se refiere a la cifra de las unidades del número N, no al número N mismo. Por lo tanto, la opción correcta debe ser la cifra que representa la unidad en el número N que cumple con la condición dada.
+
+Resposta: B)

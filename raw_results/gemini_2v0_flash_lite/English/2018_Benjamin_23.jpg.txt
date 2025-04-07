@@ -1,0 +1,8 @@
+Reasoning: First, calculate the sum of the numbers: 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 54. Then, determine the factors of 54, which represent possible sums for each group.  The factors are 1, 2, 3, 6, 9, 18, 27, and 54. Now test potential number of groups that could be constructed.
+*   If we divide by 2, we have groups summing up to 27 each. 10+9+8=27, 7+6+5+4+2+3=27. Possible.
+*   If we divide by 3, we have groups summing up to 18 each. 10+8=18, 9+7+2=18, 6+5+3+4=18. Possible.
+*   If we divide by 6, we have groups summing up to 9 each. Impossible to make 9 with 2+3, 4+5.
+
+Therefore the answer is 3.
+
+Answer: B)

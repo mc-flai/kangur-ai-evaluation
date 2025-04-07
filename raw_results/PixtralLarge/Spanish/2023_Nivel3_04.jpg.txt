@@ -1,0 +1,17 @@
+**Razonamiento**:
+
+Para resolver esta pregunta, necesitamos encontrar un número que se ubique en la intersección de los dos vértices de cada uno de los lados del rombo dado en la figura. El rombo tiene los valores 8, 9 y 13 en tres de sus vértices. 
+
+1. Calcula la suma de los números en los dos vértices de cada uno de los lados del rombo:
+   - Para el lado entre los vértices con valores 8 y 9: \(8 + 9 = 17\)
+   - Para el lado entre los vértices con valores 9 y 13: \(9 + 13 = 22\)
+   - Para el lado entre los vértices con valores 13 y el valor desconocido (?): \(13 + x = 22\) (donde \(x\) es el valor desconocido)
+   - Para el lado entre los vértices con valores 8 y el valor desconocido (?): \(8 + x = 17\)
+
+2. Resuelve para \(x\):
+   - De \(8 + x = 17\) se obtiene \(x = 17 - 8\), por lo tanto, \(x = 9\).
+   - Verifica la consistencia con \(13 + x = 22\): \(13 + 9 = 22\), lo que confirma que \(x = 9\) es correcto.
+
+Por lo tanto, el número en la intersección de los dos vértices de cada uno de los lados del rombo es 9.
+
+**Respuesta**: B) 12

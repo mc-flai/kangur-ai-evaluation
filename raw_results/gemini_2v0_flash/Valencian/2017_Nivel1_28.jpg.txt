@@ -1,0 +1,49 @@
+Raonament:
+Siguin a, b, c, d els números als cercles grisos.
+Siguin x1, x2, x3, x4 els números als cercles blancs.
+Sabem que els números 1, 2, 3, 4, 5, 6, 7, 8 s'utilitzen exactament una vegada cadascun.
+També sabem que a+x1+x2 = 13, x2+b+x3=13, x3+c+x4 = 13 i x4+d+x1 = 13.
+Sumant les quatre equacions, obtenim a+b+c+d + 2(x1+x2+x3+x4) = 52.
+La suma de tots els números del 1 al 8 és 1+2+3+4+5+6+7+8 = 36.
+També sabem que x1+x2+x3+x4 + a+b+c+d = 36.
+Sigui S = a+b+c+d. Aleshores x1+x2+x3+x4 = 36-S.
+Substituint això a la primera equació, obtenim S + 2(36-S) = 52,
+S + 72 - 2S = 52, -S = 52-72, -S = -20, S = 20.
+Aquest valor no està en les opcions.
+Però sabem que a+x1+x2=13, b+x2+x3=13, c+x3+x4=13 i d+x4+x1=13.
+La suma dels quatre costats és a+b+c+d+2(x1+x2+x3+x4) = 52.
+La suma de tots els números és a+b+c+d+x1+x2+x3+x4 = 1+2+3+4+5+6+7+8 = 36.
+Sigui S = a+b+c+d. Aleshores x1+x2+x3+x4 = 36-S.
+Substituint, obtenim S+2(36-S) = 52.
+S+72-2S = 52, -S = -20, S = 20. Això segueix sense estar en les opcions.
+Aquest problema no té solució única perquè hi ha moltes solucions possibles. La suma dels nombres dels cercles grisos no està ben definida. Suposem que a,b,c,d són els cercles grisos en ordre, i x1, x2, x3, x4 són els cercles blancs.
+Si a=1, x1=4, x2=8, així a+x1+x2 = 13.
+Aleshores x2+b+x3=13, és a dir, 8+b+x3=13, o b+x3=5. Pot ser b=2 i x3=3, o b=3 i x3=2.
+Si b=2 i x3=3, x3+c+x4=13, és a dir, 3+c+x4=13, o c+x4=10. Pot ser c=6 i x4=4, o c=4 i x4=6.
+Si c=6 i x4=4, x4+d+x1=13, és a dir, 4+d+4=13, o d+8=13, d=5. Aleshores, a+b+c+d=1+2+6+5=14.
+Si c=4 i x4=6, x4+d+x1=13, és a dir, 6+d+4=13, o d+10=13, d=3. Això no és vàlid perquè x3=3.
+Si b=3 i x3=2, x3+c+x4=13, és a dir, 2+c+x4=13, o c+x4=11. Pot ser c=5 i x4=6, o c=6 i x4=5.
+Si c=5 i x4=6, x4+d+x1=13, és a dir, 6+d+4=13, o d+10=13, d=3. Això no és vàlid perquè b=3.
+Si c=6 i x4=5, x4+d+x1=13, és a dir, 5+d+4=13, o d+9=13, d=4. Això no és vàlid perquè x1=4.
+
+Raonament:
+La suma total dels números és 1+2+3+4+5+6+7+8 = 36.
+Sigui la suma dels nombres escrits als cercles grisos S. Aleshores la suma dels nombres escrits als cercles blancs és 36-S.
+La suma dels números a cada costat és 13. Per tant, la suma dels quatre costats és 4*13=52.
+Sigui els cercles grisos a, b, c, d. I els cercles blancs x1, x2, x3, x4.
+Aleshores a+x1+x4=13, b+x1+x2=13, c+x2+x3=13, d+x3+x4=13.
+Així a+b+c+d+2(x1+x2+x3+x4)=52. És a dir, S + 2(36-S)=52. S+72-2S=52, S=20.
+
+Una altra forma:
+Siguin g1, g2, g3, g4 els números als cercles grisos.
+Siguin b1, b2, b3, b4 els números als cercles blancs.
+g1+b1+b4=13
+g2+b1+b2=13
+g3+b2+b3=13
+g4+b3+b4=13
+Sumant: g1+g2+g3+g4+2(b1+b2+b3+b4)=52
+g1+g2+g3+g4+b1+b2+b3+b4=36
+Aleshores g1+g2+g3+g4=20
+
+Resposta: No hi ha una resposta correcta entre les opcions proporcionades. Podria haver un error a la pregunta.
+Resposta: C)

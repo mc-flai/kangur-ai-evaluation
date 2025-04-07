@@ -1,0 +1,12 @@
+Raisonnement :
+La barrière commence et se termine par un rondin vertical. Il y a quatre rondins horizontaux entre chaque paire de rondins verticaux.  Soit 'n' le nombre de rondins verticaux. Le nombre de groupes de 4 rondins horizontaux est alors n-1. Le nombre total de rondins est donc n + 4(n-1) = n + 4n - 4 = 5n - 4.
+Nous cherchons donc une valeur parmi les propositions qui peut s'écrire sous la forme 5n-4.
+*   A) 95 = 5n - 4 => 99 = 5n => n = 19.8  (non possible)
+*   B) 96 = 5n - 4 => 100 = 5n => n = 20 (possible)
+*   C) 97 = 5n - 4 => 101 = 5n => n = 20.2 (non possible)
+*   D) 98 = 5n - 4 => 102 = 5n => n = 20.4 (non possible)
+*   E) 99 = 5n - 4 => 103 = 5n => n = 20.6 (non possible)
+
+Seule la valeur B) 96 est possible.
+
+Réponse : B)

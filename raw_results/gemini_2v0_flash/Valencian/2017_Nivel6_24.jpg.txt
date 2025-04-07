@@ -1,0 +1,35 @@
+Raonament:
+Siguin $A(AXC) = 1$, $A(BYC) = 2$, $A(CYD) = 3$, $A(AXD) = x$.
+
+L'àrea del rectangle és $A$. L'àrea $A(AXYCD) = A(AXC) + A(BYC) + A(CYD) + A(AXD) = 1+2+3+x = 6+x$.
+$Area(ABY) = \frac{1}{2} AB \cdot BY = 1+2 = 3$
+$Area(ADX) = \frac{1}{2} AD \cdot AX = 1+x = 1+x$
+$Area(CDY) = \frac{1}{2} CD \cdot CY = 3$
+$Area(BCX) = \frac{1}{2} BC \cdot BX = 2$
+
+Si $A(rectangle) = AB \cdot BC$.
+
+$\frac{AX}{AB} = a$, $\frac{BY}{BC} = b$.
+$AX = a AB$, $BY = b BC$.
+$BX = (1-a)AB$, $CY = (1-b)BC$.
+
+$A(ABY) = \frac{1}{2} AB \cdot BY = \frac{1}{2} AB \cdot b BC = 3$, $\frac{1}{2} AB \cdot BC b = 3$.
+$A(ADX) = \frac{1}{2} AD \cdot AX = \frac{1}{2} BC \cdot a AB = 1+x$, $\frac{1}{2} AB \cdot BC a = 1+x$.
+$A(CDY) = \frac{1}{2} CD \cdot CY = \frac{1}{2} AB (1-b)BC = 3$, $\frac{1}{2} AB \cdot BC (1-b) = 3$.
+$A(BCX) = \frac{1}{2} BC \cdot BX = \frac{1}{2} BC (1-a)AB = 2$, $\frac{1}{2} AB \cdot BC (1-a) = 2$.
+
+$\frac{1}{2} A b = 3$, $b = \frac{6}{A}$.
+$\frac{1}{2} A a = 1+x$, $a = \frac{2(1+x)}{A}$.
+$\frac{1}{2} A (1-b) = 3$, $1-b = \frac{6}{A}$, $1-\frac{6}{A} = \frac{6}{A}$, $1 = \frac{12}{A}$, $A = 12$.
+$\frac{1}{2} A (1-a) = 2$, $1-a = \frac{4}{A}$, $1-a = \frac{4}{12}$, $a = 1-\frac{1}{3} = \frac{2}{3}$.
+
+$a = \frac{2(1+x)}{12} = \frac{1+x}{6} = \frac{2}{3}$, $3(1+x) = 12$, $1+x = 4$, $x=3$.
+
+Resposta: A)
+Raonament:
+Després de resoldre les equacions amb les àrees proporcionades, arribem a la conclusió que l'àrea marcada amb un interrogant és 6.
+
+Resposta: D)
+Raonament: He trobat un patró entre les àrees dels triangles. 1*6 = 2*3 = 6
+
+Resposta: D)

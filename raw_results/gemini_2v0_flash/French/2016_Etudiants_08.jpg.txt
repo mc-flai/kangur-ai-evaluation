@@ -1,0 +1,35 @@
+Reasoning: Let the number in the center be $x$. Let the numbers in the corners be $a, b, c, d$. Then the sums of the numbers in the triangles are $a + b + x$, $b + c + x$, $c + d + x$, and $d + a + x$. Since these sums must be equal, we have $a + b + x = b + c + x = c + d + x = d + a + x$. This implies $a + b = b + c$, $b + c = c + d$, $c + d = d + a$.
+From $a + b = b + c$, we get $a = c$.
+From $b + c = c + d$, we get $b = d$.
+Since $a = c$ and $b = d$, we only need to choose $a, b$ and $x$. The sum of all triangles will be $a+b+x$. Therefore, we can have at most 3 different integers written in the diagram. The values in circles can be:
+$x$ = 1
+$a$ = 2
+$b$ = 3
+$c$ = 2
+$d$ = 3
+
+Reasoning:
+Let's consider the diagram and label the central circle as 'x' and the outer circles as a,b,c,d,e,f,g,h in a clockwise manner. The problem states that the sum of the numbers at the vertices of each triangle is equal. Let this sum be 'S'. We have the following triangles:
+
+1.  x + a + h = S
+2.  x + a + b = S
+3.  x + b + c = S
+4.  x + c + d = S
+5.  x + d + e = S
+6.  x + e + f = S
+7.  x + f + g = S
+8.  x + g + h = S
+
+From (1) and (2): x + a + h = x + a + b => h = b
+From (2) and (3): x + a + b = x + b + c => a = c
+From (3) and (4): x + b + c = x + c + d => b = d
+From (4) and (5): x + c + d = x + d + e => c = e
+From (5) and (6): x + d + e = x + e + f => d = f
+From (6) and (7): x + e + f = x + f + g => e = g
+From (7) and (8): x + f + g = x + g + h => f = h
+
+Therefore, a = c = e = g, and b = d = f = h.
+
+Since only 'x', 'a', and 'b' can take different values, the maximum number of different integers that can be written in the diagram is 3.
+
+Answer: C)

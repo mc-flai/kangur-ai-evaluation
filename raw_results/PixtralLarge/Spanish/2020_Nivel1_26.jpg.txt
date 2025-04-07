@@ -1,0 +1,31 @@
+**Razonamiento**:
+Para resolver este problema, necesitamos encontrar la mayor cantidad de números "agradables" consecutivos, donde un número "agradable" es tal que la cifra del medio es mayor que la suma de las otras dos cifras.
+
+- Para un número de 3 cifras (XYZ), la condición es que Y > X + Z.
+- Analicemos cada opción:
+
+  A) 5: No puede ser "agradable" ya que no es un número de 3 cifras.
+
+  B) 6: Los números de 3 cifras que comienzan con 6 y son "agradables":
+     - 6XY donde Y > 6 + X.
+     - Por ejemplo, 604, 615, etc. (pero ninguno de estos sigue la regla)
+     - No cumple, solo puede ser un número 6XY agradable.
+
+  C) 7: Los números de 3 cifras que comienzan con 7 y son "agradables":
+     - 7XY donde Y > 7 + X.
+     - Por ejemplo, 703, 714, etc.
+     - Puede haber varios números agradables consecutivos que cumplan la condición.
+
+  D) 8: Los números de 3 cifras que comienzan con 8 y son "agradables":
+     - 8XY donde Y > 8 + X.
+     - Por ejemplo, 802, 813, etc.
+     - Puede haber varios números agradables consecutivos que cumplan la condición.
+
+  E) 9: Los números de 3 cifras que comienzan con 9 y son "agradables":
+     - 9XY donde Y > 9 + X.
+     - Por ejemplo, 901, 912, etc.
+     - Puede haber varios números agradables consecutivos que cumplan la condición.
+
+De todas las opciones, 7, 8 y 9 pueden tener más de una secuencia de números "agradables" consecutivos, pero el mayor número es 9, por lo que E) 9 es la opción con la mayor cantidad de números "agradables" consecutivos.
+
+**Respuesta**: E)

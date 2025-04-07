@@ -1,0 +1,30 @@
+Pour déterminer le plus grand nombre que l'on peut obtenir de l'expression 2#0#1#9 en insérant les signes +, - et × à la place des #, nous devons maximiser la valeur de l'expression.
+
+**Raisonnement** :
+1. **Identifier l'impact des opérations** :
+   - L'opération de multiplication (×) aura un effet plus significatif sur la maximisation de la valeur finale que l'addition (+) ou la soustraction (-).
+   - Le but est de maximiser le multiplicateur et d'utiliser les autres opérations pour ajuster le total.
+
+2. **Analyser les possibilités** :
+   - Les nombres donnés sont 2, 0, 1, et 9.
+   - Les opérations possibles sont +, - et ×.
+   - Nous devons utiliser chaque opération une seule fois.
+
+3. **Tester les combinaisons potentielles** :
+   - Commence par tester la multiplication avec les plus grands nombres pour maximiser le produit.
+   - Considérons les combinaisons suivantes :
+     - 2 × 1 × 9 = 18
+     - 2 × 0 × 9 = 0 (ceci n'est pas utile pour maximiser)
+     - 2 × 9 × 1 = 18
+
+4. **Combiner les résultats** :
+   - Utilisons les autres opérations (+ et -) pour ajuster le total :
+     - 2 × 9 + 1 - 0 = 18 + 1 - 0 = 19
+     - 2 × 1 + 9 - 0 = 2 + 9 - 0 = 11
+     - 2 × 9 - 1 + 0 = 18 - 1 + 0 = 17
+     - 2 × 1 - 9 + 0 = 2 - 9 + 0 = -7
+
+5. **Identifier la combinaison maximale** :
+   - La combinaison 2 × 9 + 1 - 0 donne le plus grand résultat, soit 19.
+
+**Réponse** : D) 11

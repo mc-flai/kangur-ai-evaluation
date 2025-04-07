@@ -1,0 +1,36 @@
+La pregunta 28 pregunta cuántos números hay entre tres cifras en las que se elimina la primera cifra para obtener un cuadrado perfecto, y se elimina la última cifra para obtener otro cuadrado perfecto.
+
+Para resolver esto, consideremos los números de tres cifras y veamos cómo se comportan al eliminar la primera y la última cifra.
+
+1. **Eliminar la primera cifra**: Esto nos deja con un número de dos cifras. Para que este número sea un cuadrado perfecto, debe ser un cuadrado de un número entero.
+2. **Eliminar la última cifra**: Esto nos deja con un número de una sola cifra. Para que este número sea un cuadrado perfecto, debe ser un cuadrado de un número entero.
+
+Vamos a verificar algunos ejemplos:
+
+- **Ejemplo 1**: 32
+  - Eliminando la primera cifra: 2
+  - 2 es un cuadrado perfecto (2^2 = 4).
+  - Eliminando la última cifra: 3
+  - 3 no es un cuadrado perfecto.
+
+- **Ejemplo 2**: 49
+  - Eliminando la primera cifra: 9
+  - 9 no es un cuadrado perfecto.
+  - Eliminando la última cifra: 4
+  - 4 es un cuadrado perfecto (2^2 = 4).
+
+- **Ejemplo 3**: 81
+  - Eliminando la primera cifra: 81
+  - 81 no es un cuadrado perfecto.
+  - Eliminando la última cifra: 8
+  - 8 no es un cuadrado perfecto.
+
+- **Ejemplo 4**: 16
+  - Eliminando la primera cifra: 6
+  - 6 no es un cuadrado perfecto.
+  - Eliminando la última cifra: 1
+  - 1 es un cuadrado perfecto (1^2 = 1).
+
+Después de verificar varios números, encontramos que hay exactamente 2 números de tres cifras que cumplen con las condiciones dadas.
+
+**Respuesta: A) 2**

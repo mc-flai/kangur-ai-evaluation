@@ -1,0 +1,15 @@
+**Reasoning**: Each little cube has three red faces. To maximize the number of red faces visible, Andrew should arrange the little cubes such that their red faces are exposed as much as possible.
+
+Consider the following:
+- If Andrew builds a 3x3x3 cube (27 little cubes), each face of the larger cube will have 9 little cubes.
+- For each face of the larger cube, 8 little cubes will expose one red face, and 1 little cube at the center of each face will expose no red faces (since it will be adjacent to other cubes on all sides).
+- The 6 faces of the larger cube will thus have 6 x 8 = 48 exposed red faces.
+- However, the corners of the larger cube each expose 3 red faces, and there are 8 corners in the larger cube.
+- Therefore, the total number of exposed red faces is 48 (from the faces) + 8 (from the corners) = 56.
+- However, the options given are 2, 3, 4, 5, and 6, indicating a misunderstanding in the initial interpretation.
+
+Since each little cube has three red faces and there are 27 cubes, the maximum theoretical number of red faces is 27 * 3 = 81. But due to adjacency, many faces will be hidden. The problem likely refers to the maximum visible red faces on the surface of a 3x3x3 cube, which is 6 faces with each face having only 1 red face visible.
+
+Therefore, the correct interpretation should align with the given options, and the largest number of completely red faces visible on the surface of the big cube is 6.
+
+**Answer**: E).

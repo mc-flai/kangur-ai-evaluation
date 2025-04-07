@@ -1,0 +1,30 @@
+Raonament:
+Primer, resolem cada desigualtat per trobar els rangs de x:
+A) x < -3
+B) x + 3 > 0  => x > -3
+C) 1 - x < 7 => -x < 6 => x > -6
+D) 3x > -6 => x > -2
+E) -2x < 5 => x > -5/2 => x > -2.5
+
+Ara considerem un valor de x que satisfà quatre de les desigualtats però no una.  Observem que si x = -2.75, llavors satisfà A, C, D i E però no B.  També, observem que si x=0, satisfà B, C, D i E, però no A. Això suggereix que A és l'opció correcta.
+
+Per confirmar això, observem que si un nombre satisfà B, C, D i E, aleshores x > -3, x > -6, x > -2 i x > -2.5. Això significa que x ha de ser més gran que -2. Però si x < -3, aleshores no pot satisfer B, C, D ni E. Però per contra, si x > -3, pot satisfer C, D i E. Per exemple, x = -2.75 satisfaria A, C, D i E. Per tant, B és la resposta correcta.
+
+Considerem A, B, C, D i E.
+A: x < -3
+B: x > -3
+C: x > -6
+D: x > -2
+E: x > -2.5
+
+Si A és l'excepció, aleshores x > -3, x > -6, x > -2, x > -2.5. L'intersecció d'aquests rangs és x > -2. Un nombre que satisfà x > -2 però no x < -3 és x = 0. Llavors satisfà B, C, D, E però no A.
+Si B és l'excepció, aleshores x < -3, x > -6, x > -2, x > -2.5. No hi ha intersecció d'aquests rangs.
+Si C és l'excepció, aleshores x < -3, x > -3, x > -2, x > -2.5. No hi ha intersecció d'aquests rangs.
+Si D és l'excepció, aleshores x < -3, x > -3, x > -6, x > -2.5. No hi ha intersecció d'aquests rangs.
+Si E és l'excepció, aleshores x < -3, x > -3, x > -6, x > -2. No hi ha intersecció d'aquests rangs.
+
+Per tant, A és l'excepció.
+
+Resposta: A)
+Raonament: Després de resoldre cada desigualtat i buscar una intersecció de 4, vaig veure que A és la desigualtat que no s'ajusta a la intersecció.
+Resposta: A)

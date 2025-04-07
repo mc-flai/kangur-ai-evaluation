@@ -1,0 +1,35 @@
+**Reasoning:**
+
+To solve this problem, we need to understand the concept of permutations and the formula for calculating permutations.
+
+The problem states that John throws 150 coins onto a table, with 60 of them showing "head" and the rest showing "tail". We are asked to find the number of coins that need to be turned over so that the same amount of coins show "head" as "tail".
+
+Let's assume there are x coins that need to be turned over.
+
+Since there are 60 coins showing "head", after turning over x coins, we want to have 60 coins showing "head" again. This means we want to have 60 + x coins showing "head".
+
+Similarly, since there are 90 coins showing "tail", after turning over x coins, we want to have 90 - x coins showing "tail".
+
+We can set up an equation using the fact that the total number of coins is 150:
+
+60 + x + 90 - x = 150
+
+Simplifying the equation, we get:
+
+150 = 150
+
+This means that our initial assumption about the number of coins that need to be turned over is correct. All 60 coins showing "head" already satisfy the condition, so no coins need to be turned over.
+
+However, this seems too simple and counterintuitive. Let's reconsider the problem.
+
+Another approach is to think about the problem in terms of permutations. If we want to have the same number of "heads" and "tails", we can choose any x coins from the 150 coins to turn over.
+
+The number of ways to choose x coins from 150 coins is given by the combination formula:
+
+C(150, x) = 150!/((150-x)! * x!)
+
+We can calculate this value for different values of x.
+
+**Answer:**
+
+No Answer.

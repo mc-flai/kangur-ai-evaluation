@@ -1,0 +1,30 @@
+Reasoning:
+Let PQ = x and QR = y. Since T is the midpoint of RS, RT = x/2. In triangle PQR, PR = sqrt(x^2 + y^2).
+Since QT is perpendicular to PR, triangles PQR and RTQ are similar. Therefore, we have the ratio RT/QR = QR/PR, or (x/2)/y = y/sqrt(x^2 + y^2).
+This gives x/2 = y^2 / sqrt(x^2 + y^2), or x * sqrt(x^2 + y^2) = 2 * y^2. Squaring both sides, we get x^2(x^2 + y^2) = 4y^4, or x^4 + x^2y^2 = 4y^4.
+Dividing by y^4, we have (x/y)^4 + (x/y)^2 = 4. Let z = (x/y)^2. Then z^2 + z - 4 = 0. Using the quadratic formula, z = (-1 +/- sqrt(1 + 16)) / 2 = (-1 +/- sqrt(17)) / 2. Since z must be positive, we take z = (-1 + sqrt(17)) / 2.
+Therefore, x/y = sqrt((-1 + sqrt(17)) / 2). This value is approximately equal to sqrt(1.56) ≈ 1.25.
+None of the options give a ratio close to 1.25. I must have made a mistake.
+The triangles PQR and QTR are similar, so QR/PR = RT/QT and PQ/PR = QT/QR.
+Also, triangles PQR and PTQ are similar, so PQ/PR = PT/PQ.
+Therefore, PQ^2 = PR * PT.
+QT is perpendicular to PR, so angle PTQ = 90 degrees.
+Let PQ = x and QR = y. Then PR = sqrt(x^2 + y^2). Since triangles PQR and QTR are similar, we have
+RT / QR = QR / PR
+(x/2) / y = y / sqrt(x^2 + y^2)
+x * sqrt(x^2 + y^2) = 2y^2
+x^2 (x^2 + y^2) = 4y^4
+x^4 + x^2 y^2 = 4y^4
+(x/y)^4 + (x/y)^2 - 4 = 0
+Let u = (x/y)^2
+u^2 + u - 4 = 0
+u = (-1 + sqrt(17)) / 2
+x/y = sqrt( (-1 + sqrt(17)) / 2)
+x/y = sqrt(1.56155...)
+x/y = 1.24962
+The closest answer to this ratio is 5/4 = 1.25
+
+Answer: E)
+Reasoning:
+The ratio of sides PQ:QR can be found by considering similar triangles formed within the rectangle. Triangle RTQ is similar to triangle PQR because both are right triangles and they share angle RQT which is complementary to angle PRQ. Let PQ = x and QR = y. Then RT = x/2. Using similar triangles RTQ and PQR, we have: RT/QR = QR/PR --> (x/2)/y = y/sqrt(x^2+y^2). This yields x*sqrt(x^2+y^2) = 2y^2 --> x^2(x^2+y^2) = 4y^4 --> x^4 + x^2y^2 - 4y^4 = 0. Divide by y^4: (x/y)^4 + (x/y)^2 - 4 = 0. Letting u = (x/y)^2, we have u^2 + u - 4 = 0, which gives u = (-1 + sqrt(17))/2. Thus x/y = sqrt((-1+sqrt(17))/2) which is approximately 1.249. Therefore PQ:QR is approximately 1.25:1 or 5:4
+Answer: E)

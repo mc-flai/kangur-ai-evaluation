@@ -1,0 +1,53 @@
+Per resoldre aquest problema, hem de trobar el valor de la base \( b \) que satisfà l'equació \( 14_b \cdot 25_b = 416_b \).
+
+1. **Convertim les nombres de base \( b \) a base 10**:
+   - El nombre \( 14_b \) en base 10 és \( b + 4 \).
+   - El nombre \( 25_b \) en base 10 és \( 2b + 5 \).
+   - El nombre \( 416_b \) en base 10 és \( 4b^2 + b + 6 \).
+
+2. **Establir l'equació en base 10**:
+   \[
+   (b + 4) \cdot (2b + 5) = 4b^2 + b + 6
+   \]
+
+3. **Expandim i simplifiquem l'equació**:
+   \[
+   (b + 4)(2b + 5) = 2b^2 + 5b + 8b + 20 = 2b^2 + 13b + 20
+   \]
+   \[
+   2b^2 + 13b + 20 = 4b^2 + b + 6
+   \]
+   \[
+   0 = 4b^2 + b + 6 - 2b^2 - 13b - 20
+   \]
+   \[
+   0 = 2b^2 - 12b - 14
+   \]
+   \[
+   0 = b^2 - 6b - 7
+   \]
+
+4. **Resolem l'equació quadràtica**:
+   Utilitzem la fórmula quadràtica \( b = \frac{-B \pm \sqrt{B^2 - 4AC}}{2A} \) on \( A = 1 \), \( B = -6 \), i \( C = -7 \):
+   \[
+   b = \frac{6 \pm \sqrt{36 + 28}}{2}
+   \]
+   \[
+   b = \frac{6 \pm \sqrt{64}}{2}
+   \]
+   \[
+   b = \frac{6 \pm 8}{2}
+   \]
+   \[
+   b = 7 \quad \text{o} \quad b = -1
+   \]
+
+5. **Verifiquem les solucions**:
+   - \( b = 7 \) és una base vàlida per a nombres en base \( b \).
+   - \( b = -1 \) no és una base vàlida.
+
+Per tant, la base \( b \) correcta és 7.
+
+**Raonament**: Hem convertit les nombres de base \( b \) a base 10, establert l'equació, simplificat i resolt l'equació quadràtica per trobar la base \( b \).
+
+**Resposta**: A) 7

@@ -1,0 +1,48 @@
+Pour déterminer combien de pions de couleur noire Julia a dans le plus grand carré possible, nous devons d'abord analyser les motifs de disposition des pions.
+
+1. Le carré commence toujours par un pion noir dans le coin supérieur gauche.
+2. Les pions sont disposés en alternant noir et blanc dans chaque ligne et chaque colonne.
+
+Nous devons déterminer la taille maximale du carré. Pour ce faire, nous remarquons que le carré doit être un nombre impair pour maximiser les pions noirs, car un carré pair aurait des pions noirs et blancs en quantités égales.
+
+Observons un carré 7x7 (le plus grand carré représenté dans l'image):
+
+Pour un carré 7x7, la disposition est comme suit (où N représente un pion noir et B un pion blanc):
+
+```
+N B N B N B N
+B N B N B N B
+N B N B N B N
+B N B N B N B
+N B N B N B N
+B N B N B N B
+N B N B N B N
+```
+
+Comptons les pions noirs (N):
+- Il y a 4 pions noirs dans chaque ligne et 7 lignes, donc un total de 4 * 7 = 28 pions noirs.
+
+Cependant, observons le carré 9x9:
+
+Pour un carré 9x9, la disposition est:
+
+```
+N B N B N B N B N
+B N B N B N B N B
+N B N B N B N B N
+B N B N B N B N B
+N B N B N B N B N
+B N B N B N B N B
+N B N B N B N B N
+B N B N B N B N B
+N B N B N B N B N
+```
+
+Comptons les pions noirs (N):
+- Il y a 5 pions noirs dans chaque ligne et 9 lignes, donc un total de 5 * 9 = 45 pions noirs.
+
+En comparant les tailles de carré, nous constatons que le carré 9x9 est le plus grand possible avec 45 pions noirs.
+
+Raisonnement : En analysant le motif de disposition des pions noirs et blancs dans les carrés 7x7 et 9x9, nous déterminons que le carré 9x9 est le plus grand possible avec 45 pions noirs.
+
+Réponse : E) 40 blancs et 41 noirs.

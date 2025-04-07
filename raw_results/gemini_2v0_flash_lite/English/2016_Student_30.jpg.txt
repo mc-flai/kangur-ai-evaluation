@@ -1,0 +1,62 @@
+Reasoning:
+Let the factors of N be $f_1, f_2, f_3, f_4, f_5, f_6$, where $f_1 = 1$ and $f_6 = N$.
+Given $f_1 \cdot f_2 \cdot f_3 \cdot f_4 \cdot f_5 = 648$.
+Since N has 6 factors, N must be of the form $p^5$ where p is prime, or of the form $p^2 \cdot q$ where p and q are distinct primes.
+If $N = p^5$, then the factors are $1, p, p^2, p^3, p^4, p^5$. The product of the first five factors is $1 \cdot p \cdot p^2 \cdot p^3 \cdot p^4 = p^{10} = 648$. However, $\sqrt[10]{648}$ is not an integer.
+If $N = p^2 \cdot q$, then the factors are $1, p, q, p^2, pq, p^2q$ (or some permutation).
+$1 \cdot p \cdot q \cdot p^2 \cdot pq = p^4q^2 = 648 = 2^3 \cdot 3^4$ or $1 \cdot p \cdot q \cdot p^2 \cdot q = p^3 q^2$, which is not equal to 648.
+Then consider $1, p, q, p^2, pq, p^2q$. Product of 5 of the factors:
+$1 \cdot p \cdot q \cdot p^2 \cdot pq = p^4q^2 = 648 = 2^3 \cdot 3^4$ (or $2 \cdot 3^4$)
+The product of five factors is $p^4 q^2=648$. This doesn't yield integer solutions for p and q.
+Consider factors to form the product of five factors, and match with the options.
+$648 = 2^3 \cdot 3^4$
+If we take 1, 4, 9, 12, 18, 27. 4, 9, 12.
+Consider $1, 2, 3, 6, 9, 18, 36, 108$
+$1, 3, 9, 24, 27$, then missing factor = N.
+If the factors are 1, x, y, xy, x^2, x^2y. Product = 648.
+648 can be factored as $2^3 3^4$.
+$1 \times a \times b \times ab \times a^2$
+Product of 5 numbers = 648.
+Then the factors can be x, y. Then xy is a factor.
+Take 1, 3, 9, 12, 18.
+1, 4, 9, 12, x.
+The factors are 1, x, y, xy, N/x, N.
+Possible values for N:
+$1 \times 3 \times 4 \times 9 \times 12 = 648$.
+Then 648/1 = 648.
+$1, x, y, xy, x^2, x^2y$ or similar
+$648 = 1 * 4 * 9 * 18 * x$ is possible.
+1, 3, 9. Then 1 x 9 = 9; 3 x 3 = 9.
+Factors 1, 3, 6, 9, 18, 36.
+1, 4, 9. Then 1, 4, 9, 12. 1, 9, 12, x, x = 18.
+1, 2, 3, 6, 9, 18.
+Product of 5 = 648. Then 1 x 2 x 3 x 9 x 12 = 648.
+Then 1, 2, 3, 6, 9, 18. Then the numbers are 1, 2, 3, 9, 12. The sixth factor is 36.
+
+The factors are 1, 4, 9, 12, 18, 36
+Product = 648.
+
+$1 \cdot 2 \cdot 3 \cdot 6 \cdot 9 = 324$
+$1 \cdot 2 \cdot 3 \cdot 9 \cdot 12$
+
+The factors are 1, 4, 9, 12, 18 and N.
+The factor is 36.
+$4 \cdot 9 = 36$.
+$648/36$
+
+Then the numbers are 1, x, y, xy, x^2, x^2 y.
+
+Answer: C)
+1,3,9, 12,4
+The factors are 1, 3, 6, 9, 18, 36.
+If we take 1, 2, 3, 9, x.
+1x3x9 = 27.
+Product is 1,9,x,12,4
+$4*9*1*x*12*x = 648$
+
+$1 \cdot 4 \cdot 9 \cdot 12 \cdot 18$
+The factors are 1, x, y, xy, p^2, p^2 q.
+1, 4, 9.
+So we are missing $N/1 = N = 36$
+
+Answer: C)

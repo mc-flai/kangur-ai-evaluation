@@ -1,0 +1,13 @@
+Reasoning:
+1. **Games 7-9 points:** We know the points scored in games 7, 8, and 9 are 24, 17, and 25 respectively.
+2. **Average after 9 games higher than after 6:** This information is given, but doesn't give us a specific value to use.
+3. **Average after 10 games more than 22:** The average of all 10 games must be greater than 22. Let 'x' be the points scored in the 10th game.
+4. **Set up an inequality:** The total points after 10 games is (Sum of games 1-6) + 24 + 17 + 25 + x.  The average is the total points divided by 10. So ((Sum of games 1-6) + 66 + x)/10 > 22.
+5. **Determine the minimum sum of games 1-6:** The average of the first 6 games must be less than the average of the 9 games.
+6. **Calculate the maximum of the sum of games 1-6.** We know the average of the 9 games is (sum of games 1-6) + 66 / 9.
+7. **Calculate the minimum points for game 10**: Solve for x using the average > 22 inequality, where we maximize (sum of games 1-6) to get the minimum of x.
+8. **Solve for x:** ((Sum of games 1-6) + 66 + x) / 10 > 22 so (Sum of games 1-6) + 66 + x > 220
+9. To maximize the sum of games 1-6 (so as to get the *minimum* needed for game 10), we need to consider when the 9-game average is just slightly higher than the 6-game average. So, (Sum of games 1-6) / 6 < ( (Sum of games 1-6) + 66) / 9, so 9*(Sum of games 1-6) < 6*(Sum of games 1-6) + 396, or 3*(Sum of games 1-6) < 396, then sum of games 1-6 < 132. But because average after 9 games is *higher* than average of first 6 games, not equal, sum must be slightly under 132. Using Sum of games 1-6 = 131, 131 + 66 + x > 220, so x > 220 - 197, and x > 23. So minimum integer number of points in game 10 is 24.
+10. **Checking the answer:** If points in the 10th game are 24, and sum of first 6 games is 131, then avg of all 10 games = (131 + 66 + 24)/10 = 221/10 = 22.1, which is just above 22.
+
+Answer: C)

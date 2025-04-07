@@ -1,0 +1,19 @@
+
+Raisonnement :
+1. Nous devons trouver la somme des nombres entiers compris entre \(2^{10}\) et \(2^{13}\) (2^{10} et 2^{13} inclus) qui sont divisibles par \(2^{10}\).
+2. Les nombres compris entre \(2^{10}\) et \(2^{13}\) sont \(2^{10}, 2^{11}, 2^{12}, 2^{13}\).
+3. Les nombres qui sont divisibles par \(2^{10}\) dans cette plage sont \(2^{10}, 2^{11}, 2^{12}, 2^{13}\).
+4. Calculons la somme de ces nombres :
+   \[
+   2^{10} + 2^{11} + 2^{12} + 2^{13}
+   \]
+5. Convertissons chaque terme en base 10 :
+   \[
+   2^{10} = 1024, \quad 2^{11} = 2048, \quad 2^{12} = 4096, \quad 2^{13} = 8192
+   \]
+6. Additionnons ces valeurs :
+   \[
+   1024 + 2048 + 4096 + 8192 = 15360
+   \]
+
+Réponse : E)

@@ -1,0 +1,20 @@
+Razonamiento:
+1. El área del cuadrado original es 84.
+2. Cada vez que el cuadrado se divide en cuatro cuadrados, el cuadrado superior izquierdo se colorea de negro.
+3. Este proceso se repite infinitamente, por lo que el área coloreada de negro en cada iteración es 1/4 del área del cuadrado original.
+4. El área total coloreada de negro se puede calcular como una suma infinita de áreas:
+
+   Área total coloreada de negro = (1/4) * 84 + (1/4)^2 * 84 + (1/4)^3 * 84 + ...
+
+5. Esta es una serie geométrica infinita con el primer término a = (1/4) * 84 y la razón r = 1/4.
+6. La suma de una serie geométrica infinita se calcula con la fórmula:
+
+   S = a / (1 - r)
+
+7. Sustituyendo los valores:
+
+   S = ((1/4) * 84) / (1 - 1/4) = 21 / (3/4) = 21 * 4/3 = 28
+
+8. Por lo tanto, el área del cuadrado original coloreada de negro es 28.
+
+Respuesta: B) 28

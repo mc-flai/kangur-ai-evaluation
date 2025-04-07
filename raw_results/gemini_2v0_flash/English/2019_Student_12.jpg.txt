@@ -1,0 +1,40 @@
+Let $b$ be the number of boys last year and $g$ be the number of girls last year.
+The total number of students last year is $b+g$.
+This year the number of boys is $1.2b$ and the number of girls is $0.8g$.
+The total number of students this year is $1.2b + 0.8g$.
+We are given that $1.2b + 0.8g = (b+g) + 1$, which simplifies to $0.2b - 0.2g = 1$, or $2b - 2g = 10$, or $b-g = 5$.
+Therefore, $b = g+5$.
+The current number of students is $1.2b + 0.8g = 1.2(g+5) + 0.8g = 1.2g + 6 + 0.8g = 2g + 6$.
+The current number of students can be written as $2g + 6$, where $g$ is an integer. This means the number must be even.
+Of the given choices, only 22, 26 and 34 are even. We can check if any of these numbers could be $2g+6$:
+If $2g+6 = 22$, then $2g = 16$, so $g=8$. Then $b = g+5 = 8+5=13$. Last year, we had $b+g = 13+8 = 21$ students. This year we have $1.2(13)+0.8(8) = 15.6+6.4 = 22$, which is an integer.
+If $2g+6 = 26$, then $2g = 20$, so $g=10$. Then $b=g+5=10+5=15$. Last year, we had $b+g = 15+10=25$ students. This year we have $1.2(15)+0.8(10) = 18+8 = 26$, which is an integer.
+If $2g+6 = 34$, then $2g = 28$, so $g=14$. Then $b=g+5=14+5=19$. Last year, we had $b+g=19+14=33$ students. This year we have $1.2(19)+0.8(14) = 22.8 + 11.2 = 34$, which is an integer.
+
+Since $1.2b$ and $0.8g$ must be integers, $b$ must be a multiple of 5 and $g$ must be a multiple of 5.
+Since $b=g+5$, both $b$ and $g$ can be written as $5k$ for some integer $k$, so $b = 5m$ and $g = 5n$ for some integers $m$ and $n$. Then $5m - 5n = 5$, so $m-n = 1$, or $m = n+1$. Then $b=5(n+1) = 5n+5$, and $g=5n$.
+Then the number of students this year is $2g+6 = 2(5n) + 6 = 10n+6$.
+When $n=2$, $10n+6 = 10(2)+6 = 26$.
+When $n=1$, $10n+6 = 10(1)+6 = 16$, which is not in the list.
+When $n=3$, $10n+6 = 10(3)+6 = 36$, which is not in the list.
+The number of students this year must have a ones digit of 6. Thus, the answer must be 26.
+
+Reasoning: Let b = number of boys last year and g = number of girls last year.
+1.  2b + 0.  8g = b + g + 1, so 0.2b - 0.2g = 1, so b - g = 5.
+Thus b = g + 5.
+Number of students this year is 1.2b + 0.8g = 1.2(g+5) + 0.8g = 1.2g + 6 + 0.8g = 2g + 6.
+Since the increase of the number of boys is 20%, b must be a multiple of 5. Since the decrease of the number of girls is 20%, g must be a multiple of 5. The increase of the number of boys = 0.2b, must be an integer. Also the decrease in the number of girls, 0.2g, must be an integer. 1.2b must be an integer and 0.8g must be an integer. Then b = 5m and g = 5n. So $1.2(5m)$ is integer and $0.8(5n)$ is an integer. 2g + 6. Since g is an integer, 2g must be even, so 2g + 6 must be even. Among the options 22, 26, 34 are even.
+
+Try A:
+2g+6=22, g=8, b=g+5=13, not multiple of 5, invalid
+Try B:
+2g+6=26, g=10, b=g+5=15, is multiple of 5
+Thus, $b = 15$, $g = 10$. 
+The number of boys this year $1.2(15) = 18$. 
+The number of girls this year is $0.8(10)=8$. 
+The number of students is $18+8=26$.
+Last year, $b+g = 10+15=25$, the new class is $26$, which is 1 more than before. 
+Since the boys increased 20%, $1.2b$ must be an integer. 
+$b-g=5$, both must be multiples of 5. Try $g=10$ and $b = 15$ so $g=10$, $0.8g=0.8(10)=8$.
+
+Answer: B)

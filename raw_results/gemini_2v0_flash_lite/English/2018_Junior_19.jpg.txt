@@ -1,0 +1,15 @@
+Reasoning:
+The expression can be simplified as follows:
+(1/9) * 10^2018 * (10^2018 - 1) = (1/9) * 10^2018 * (999...9)  (2018 nines)
+= (1/9) * (999...9000...0)   (2018 nines, 2018 zeros)
+= 111...1000...0  (2018 ones, 2018-1 = 2017 zeros). This division results in the alternating pattern of 1s.
+= 111...1 (2018 ones) * 10^2017
+The number will have 2018 ones followed by 2017 zeros
+The result of (1/9)*(10^2018 - 1) is a number with 2018 digits all of which are 1.
+When this result is multiplied by 10^2018, the digits of the result will be 2018 ones followed by 2018 zeros.
+Then, divide the above result by 9.
+(1/9)* 10^2018 * (10^2018-1) simplifies to 11...1 * 10^2017
+So the calculation involves a string of 2018 ones followed by 2017 zeros.
+This number has 2018+2017 = 4035 digits.
+
+Answer: C)

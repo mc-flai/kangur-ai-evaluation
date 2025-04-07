@@ -1,0 +1,62 @@
+Reasoning: Let the dimensions of the brick be $x, y, z$. The surface area of the brick is $2(xy+yz+zx)$.
+
+Case 1: Bricks are stacked on top of each other, sharing a face with area $xy$. The surface area of the combined cuboid is $2(xy+2yz+2zx)=72$.
+Case 2: Bricks are placed side by side, sharing a face with area $yz$. The surface area is $2(2xy+yz+2zx)=96$.
+Case 3: Bricks are placed side by side, sharing a face with area $xz$. The surface area is $2(2xy+2yz+xz)=102$.
+
+Let $xy=a$, $yz=b$, $zx=c$. Then
+$2(a+2b+2c) = 72 \implies a+2b+2c = 36$ (1)
+$2(2a+b+2c) = 96 \implies 2a+b+2c = 48$ (2)
+$2(2a+2b+c) = 102 \implies 2a+2b+c = 51$ (3)
+
+Subtract (1) from (2): $a-b = 12 \implies a = b+12$
+Subtract (1) from (3): $a+b-c = 15 \implies c = a+b-15 = 2b-3$
+
+Substitute in (1): $b+12+2b+2(2b-3) = 36$
+$7b + 6 = 36 \implies 7b = 30$
+However, we have a mistake in the initial assumptions.
+Let's consider the surface area equations. The surface area of one brick is $2(xy+yz+zx)$.
+From the three different arrangements:
+1. $2(xy+2yz+2xz) = 72$
+2. $2(2xy+yz+2xz) = 96$
+3. $2(2xy+2yz+xz) = 102$
+Let $xy=a, yz=b, xz=c$.
+Then we have:
+$a+2b+2c=36$
+$2a+b+2c=48$
+$2a+2b+c=51$
+Subtracting first two, $a-b=12$ or $a=12+b$
+Subtracting last two, $b-c=-3$ or $c=3+b$
+Substituting, $12+b+2b+2(3+b)=36 \implies 5b+18=36$ or $5b=18$. This is not an integer, so we made a mistake.
+
+Instead:
+Case 1: $2xy + 4yz + 4xz - 2xy = 72$
+$2(xy + 2xz + 2yz) = 72$, so $xy + 2xz + 2yz = 36$.
+Case 2: $4xy + 2yz + 4xz = 96$, so $2xy + yz + 2xz = 48$.
+Case 3: $4xy + 4yz + 2xz = 102$, so $2xy + 2yz + xz = 51$.
+
+Surface area of a brick $= 2(xy + yz + xz)$. Let this area be $S$.
+$S_1 = 2(xy + 2yz + 2xz) = 72$
+$S_2 = 2(2xy + yz + 2xz) = 96$
+$S_3 = 2(2xy + 2yz + xz) = 102$
+Let $A=xy$, $B=yz$, $C=xz$. Then
+$A + 2B + 2C = 36$
+$2A + B + 2C = 48$
+$2A + 2B + C = 51$
+Subtracting the first equation from the second, $A-B = 12$. So $A = B+12$.
+Subtracting the first equation from the third, $A + B - C = 15$.
+Substitute $A = B+12$, $B+12 + B - C = 15 \implies 2B-C = 3$. So $C = 2B-3$.
+Substituting into $A + 2B + 2C = 36$: $B+12 + 2B + 2(2B-3) = 36$
+$7B+6 = 36$, $7B = 30$.
+Wrong!
+The area of one brick = $(72+96+102)/3 - (xy+yz+xz)$.
+$2(xy+2yz+2xz) = 72$
+$2(2xy+yz+2xz) = 96$
+$2(2xy+2yz+xz) = 102$
+Add all three:
+$2(5xy+5yz+5xz) = 270$
+$5(xy+yz+xz) = 135$
+$xy+yz+xz = 27$
+Then the surface area of a brick $2(xy+yz+xz) = 2(27) = 54$
+
+Answer: D)

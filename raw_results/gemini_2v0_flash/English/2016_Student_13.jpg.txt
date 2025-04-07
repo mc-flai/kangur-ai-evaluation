@@ -1,0 +1,7 @@
+We are given the recursive formula $x_{n+1} = x_n^{x_n}$ with $x_1 = 2$. We want to find $x_4$.
+$x_2 = x_1^{x_1} = 2^2 = 4$.
+$x_3 = x_2^{x_2} = 4^4 = (2^2)^4 = 2^{2 \cdot 4} = 2^8$.
+$x_4 = x_3^{x_3} = (2^8)^{2^8} = 2^{8 \cdot 2^8} = 2^{2^3 \cdot 2^8} = 2^{2^{3+8}} = 2^{2^{11}}$.
+
+Reasoning: We calculate $x_2$, $x_3$, and then $x_4$ using the recursive formula and the initial value $x_1=2$. We express the result as a power of 2 to match one of the answer choices.
+Answer: C)

@@ -1,0 +1,28 @@
+
+Raisonnement :
+1. Les âges des quatre cousins sont donnés comme 3, 8, 12 et 14 ans.
+2. Les âges ne sont pas nécessairement dans l'ordre.
+3. La somme des âges de Zoé et Emma est divisible par 5.
+4. La différence des âges de Raja et Zoé est également divisible par 5.
+5. Nous devons déterminer l'âge de Yves.
+
+Pour déterminer l'âge de Yves, nous devons vérifier la somme des âges de Zoé et Emma et la différence des âges de Raja et Zoé pour voir si elles sont divisibles par 5.
+
+- Si Zoé a 3 ans, alors Emma doit avoir 11 ans (11 + 3 = 14, divisible par 5).
+- Si Zoé a 8 ans, alors Emma doit avoir 7 ans (7 + 8 = 15, divisible par 5).
+- Si Zoé a 12 ans, alors Emma doit avoir 13 ans (13 + 12 = 25, divisible par 5).
+- Si Zoé a 14 ans, alors Emma doit avoir 9 ans (9 + 14 = 23, non divisible par 5).
+
+Pour la différence des âges de Raja et Zoé :
+- Si Zoé a 3 ans, alors Raja doit avoir 8 ans (8 - 3 = 5, divisible par 5).
+- Si Zoé a 8 ans, alors Raja doit avoir 12 ans (12 - 8 = 4, non divisible par 5).
+- Si Zoé a 12 ans, alors Raja doit avoir 3 ans (12 - 12 = 0, divisible par 5).
+- Si Zoé a 14 ans, alors Raja doit avoir 8 ans (14 - 14 = 0, divisible par 5).
+
+En vérifiant les options :
+- Si Yves a 14 ans, alors les âges sont 3, 8, 12 et 14. La somme de Zoé et Emma (3 + 11 = 14) est divisible par 5, et la différence de Raja et Zoé (8 - 3 = 5) est divisible par 5.
+- Si Yves a 12 ans, alors les âges sont 3, 8, 12 et 14. La somme de Zoé et Emma (8 + 7 = 15) est divisible par 5, mais la différence de Raja et Zoé (12 - 8 = 4) n'est pas divisible par 5.
+- Si Yves a 8 ans, alors les âges sont 3, 8, 12 et 14. La somme de Zoé et Emma (12 + 3 = 15) est divisible par 5, et la différence de Raja et Zoé (12 - 12 = 0) est divisible par 5.
+- Si Yves a 3 ans, alors les âges sont 3, 8, 12 et 14. La somme de Zoé et Emma (14 + 3 = 17) n'est pas divisible par 5, et la différence de Raja et Zoé (14 - 3 = 11) n'est pas divisible par 5.
+
+Réponse : A

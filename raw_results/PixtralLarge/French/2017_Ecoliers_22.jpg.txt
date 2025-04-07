@@ -1,0 +1,13 @@
+Pour déterminer le nombre de manières dont Suzy peut choisir deux animaux parmi la girafe, le lion, l'éléphant et la tortue, tout en s'assurant qu'elle ne choisit pas le lion, nous devons utiliser les combinaisons.
+
+### Raisonnement:
+1. **Total d'animaux sans le lion**: Il y a 4 animaux en tout (girafe, lion, éléphant, tortue). Suzy ne peut pas choisir le lion, donc il reste 3 animaux (girafe, éléphant, tortue).
+2. **Combinaisons possibles**: Suzy doit choisir 2 animaux parmi ces 3 animaux restants.
+3. **Formule de combinaison**: La formule pour le nombre de combinaisons de \( n \) éléments pris \( k \) à la fois est donnée par \( C(n, k) = \frac{n!}{k!(n-k)!} \).
+4. **Calcul**: Ici \( n = 3 \) et \( k = 2 \). Donc,
+   \[
+   C(3, 2) = \frac{3!}{2!(3-2)!} = \frac{3 \times 2 \times 1}{2 \times 1 \times 1} = \frac{6}{2} = 3
+   \]
+
+### Réponse:
+A) 3

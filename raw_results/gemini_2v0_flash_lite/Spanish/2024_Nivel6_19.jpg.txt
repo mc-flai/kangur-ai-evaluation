@@ -1,0 +1,9 @@
+Razonamiento:
+1. **Traducción de la ecuación**: El problema dice que `pq,rs = (pq + rs) / 2`.  Esto lo podemos reescribir como:  `10*pq + rs = pq + rs`, donde pq es el número de dos cifras que empieza con la cifra 'p' y 'q', y rs es el número de dos cifras que empieza con la cifra 'r' y 's'.
+2. **Expresando los números**: Podemos expresar `pq,rs` como `pq + rs/100`. La condición del problema nos dice que `pq,rs` es la media de `pq` y `rs`, es decir, `pq + rs/100 = (pq + rs)/2`.
+3. **Resolviendo la ecuación**:  Multiplicando ambos lados de la ecuación `pq + rs/100 = (pq + rs)/2` por 2, obtenemos: `2pq + rs/50 = pq + rs`, o bien `pq = rs - rs/50` que simplifica a `pq = 49rs/50`.  Esto significa que `pq` debe ser un entero, por lo tanto, `rs` debe ser un múltiplo de 50. Como `rs` es un número de dos dígitos y los dígitos son diferentes de cero,  `rs` puede ser 50, pero `rs` puede ser cualquier múltiplo de 50 de dos dígitos (50).
+4. **Resolviendo para pq**: Si `rs = 50`, entonces `pq = (49 * 50)/50 = 49`.
+5. **Encontrando el número N**: El número original `N` es `pqrs`. Como `pq = 49` y `rs = 50`, entonces `N = 4950`.
+6. **Calculando la suma de los dígitos**: La suma de los dígitos de `N` es `4 + 9 + 5 + 0 = 18`.
+
+Respuesta: B)

@@ -1,0 +1,29 @@
+**Raisonnement** :
+
+Pour déterminer de combien de manières l'entier 1001 peut être écrit comme la somme de deux nombres premiers, nous devons trouver des paires de nombres premiers dont la somme est 1001.
+
+1. Nous commençons par vérifier les nombres premiers inférieurs à 1001/2, car si un nombre premier x est plus grand que 500, son complément (1001 - x) sera inférieur à 500, et il suffit de vérifier les nombres premiers jusqu'à 500.
+
+2. Nous vérifions les nombres premiers jusqu'à 500 :
+   - Si nous prenons le nombre premier 3, alors 1001 - 3 = 998, mais 998 n'est pas un nombre premier.
+   - Si nous prenons le nombre premier 5, alors 1001 - 5 = 996, mais 996 n'est pas un nombre premier.
+   - Continuons ainsi jusqu'à 17:
+     - 1001 - 17 = 984, qui n'est pas un nombre premier.
+     - Continuons jusqu'à 29:
+       - 1001 - 29 = 972, qui n'est pas un nombre premier.
+       - Continuons jusqu'à 59:
+         - 1001 - 59 = 942, qui n'est pas un nombre premier.
+         - Continuons jusqu'à atteindre le nombre premier 73:
+           - 1001 - 73 = 928, qui n'est pas un nombre premier.
+           - Continuons jusqu'à atteindre le nombre premier 197:
+             - 1001 - 197 = 804, qui n'est pas un nombre premier.
+             - Continuons jusqu'à atteindre le nombre premier 467:
+               - 1001 - 467 = 534, qui n'est pas un nombre premier.
+               - Continuons jusqu'à atteindre le nombre premier 601:
+                 - 1001 - 601 = 400, qui n'est pas un nombre premier.
+
+3. En continuant cette vérification pour tous les nombres premiers jusqu'à 500, nous découvrons qu'aucun d'entre eux ne donne une somme de 1001 avec un autre nombre premier.
+
+En conclusion, il n'y a aucune façon d'écrire 1001 comme la somme de deux nombres premiers.
+
+**Réponse** : A) aucune.

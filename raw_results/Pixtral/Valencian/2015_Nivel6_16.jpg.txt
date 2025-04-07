@@ -1,0 +1,31 @@
+**Pregunta:** Al punt (7, 2) se li aplica una rotació de centre l'origen de coordenades i amplitud 45° en el sentit antihorari. Després de la rotació, quines són les seves coordenades?
+
+A) \(\left(\frac{5 \sqrt{2}}{2}, \frac{9 \sqrt{2}}{2}\right)\)
+B) \(\left(\frac{9 \sqrt{2}}{2}, \frac{5 \sqrt{2}}{2}\right)\)
+C) \(\left(-\frac{5 \sqrt{2}}{2}, -\frac{9 \sqrt{2}}{2}\right)\)
+D) \(\left(\frac{9 \sqrt{2}}{2}, -\frac{5 \sqrt{2}}{2}\right)\)
+E) \(\left(\frac{9 \sqrt{2}}{2}, \frac{5 \sqrt{2}}{2}\right)\)
+
+**Razonamiento:**
+1. El punt inicial és (7, 2).
+2. Una rotació de 45° en el sentit antihorari afecta les coordenades (x, y) mitjançant les fórmules:
+   \[
+   x' = x \cos(45°) - y \sin(45°)
+   \]
+   \[
+   y' = x \sin(45°) + y \cos(45°)
+   \]
+3. Com 45° és un angle especial, sabem que:
+   \[
+   \cos(45°) = \sin(45°) = \frac{\sqrt{2}}{2}
+   \]
+4. Substituint les coordenades originals (7, 2) en les fórmules:
+   \[
+   x' = 7 \cdot \frac{\sqrt{2}}{2} - 2 \cdot \frac{\sqrt{2}}{2} = \frac{7\sqrt{2}}{2} - \frac{2\sqrt{2}}{2} = \frac{5\sqrt{2}}{2}
+   \]
+   \[
+   y' = 7 \cdot \frac{\sqrt{2}}{2} + 2 \cdot \frac{\sqrt{2}}{2} = \frac{7\sqrt{2}}{2} + \frac{2\sqrt{2}}{2} = \frac{9\sqrt{2}}{2}
+   \]
+5. Les noves coordenades després de la rotació són \(\left(\frac{5 \sqrt{2}}{2}, \frac{9 \sqrt{2}}{2}\right)\).
+
+**Respuesta:** A) \(\left(\frac{5 \sqrt{2}}{2}, \frac{9 \sqrt{2}}{2}\right)\)

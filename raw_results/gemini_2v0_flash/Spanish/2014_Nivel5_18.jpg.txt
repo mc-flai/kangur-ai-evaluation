@@ -1,0 +1,15 @@
+Razonamiento:
+Sea $g$ el número de partidas ganadas, $e$ el número de partidas empatadas y $p$ el número de partidas perdidas.
+Tenemos las siguientes ecuaciones:
+\begin{itemize}
+    \item $g + e + p = 40$ (total de partidas)
+    \item $1g + 0.5e + 0p = 25$ (total de puntos)
+\end{itemize}
+Multiplicando la segunda ecuación por 2, tenemos $2g + e = 50$.
+De la primera ecuación, $e = 40 - g - p$. Sustituyendo esto en la ecuación anterior, obtenemos:
+$2g + (40 - g - p) = 50$
+$g - p = 10$
+La pregunta es ¿Cuántas más partidas ganó que perdió? Esto es $g - p$.
+Entonces, la respuesta es 10.
+
+Respuesta: C)

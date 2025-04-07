@@ -1,0 +1,77 @@
+Per respondre a la pregunta, hem de determinar l'interval de valors de \( a \) de manera que les desigualtats \(|a+b| \leq 1\) i \(|a-3b| \leq 2\) es compleixin per a tot nombre real \( b \).
+
+Comencem analitzant les desigualtats individualment:
+
+1. **Primer desigualtat**: \(|a+b| \leq 1\)
+
+   Aquesta desigualtat es pot dividir en dues parts:
+   \[
+   -1 \leq a + b \leq 1
+   \]
+
+   D'aquí, podem extreure:
+   \[
+   -1 - b \leq a \leq 1 - b
+   \]
+
+2. **Segon desigualtat**: \(|a - 3b| \leq 2\)
+
+   Aquesta desigualtat es pot dividir en dues parts:
+   \[
+   -2 \leq a - 3b \leq 2
+   \]
+
+   D'aquí, podem extreure:
+   \[
+   -2 + 3b \leq a \leq 2 + 3b
+   \]
+
+Per a trobar l'interval de \( a \) que satisfà ambdues desigualtats per tot \( b \), hem de trobar els valors de \( a \) que es troben dins de les interseccions dels intervals obtinguts en les dues desigualtats.
+
+De la primera desigualtat:
+\[
+-1 - b \leq a \leq 1 - b
+\]
+
+De la segona desigualtat:
+\[
+-2 + 3b \leq a \leq 2 + 3b
+\]
+
+Per a trobar l'interval que satisfà totes dues desigualtats per tot \( b \), hem de considerar els valors extrems de \( a \) en aquestes desigualtats.
+
+Per la primera desigualtat, els valors extrems de \( a \) són:
+\[
+a_{min} = -1 - b \quad \text{i} \quad a_{max} = 1 - b
+\]
+
+Per la segona desigualtat, els valors extrems de \( a \) són:
+\[
+a_{min} = -2 + 3b \quad \text{i} \quad a_{max} = 2 + 3b
+\]
+
+Per a trobar l'interval que satisfà ambdues desigualtats, hem de trobar els valors de \( a \) que es troben dins de les interseccions d'aquests intervals.
+
+Considerem els valors extrems de \( b \):
+\[
+b = -\infty \quad \text{i} \quad b = +\infty
+\]
+
+Per \( b = -\infty \):
+\[
+a_{min} = -1 - (-\infty) = +\infty \quad \text{i} \quad a_{max} = 1 - (-\infty) = +\infty
+\]
+
+Per \( b = +\infty \):
+\[
+a_{min} = -1 - (+\infty) = -\infty \quad \text{i} \quad a_{max} = 1 - (+\infty) = -\infty
+\]
+
+Per tant, l'interval de \( a \) que satisfà ambdues desigualtats per tot \( b \) és:
+\[
+-\infty < a < +\infty
+\]
+
+Raonament: Hem analitzat les desigualtats i trobat els intervals de \( a \) que satisfan ambdues desigualtats per tot \( b \). L'interval resultant és \(-\infty < a < +\infty\).
+
+Resposta: E)

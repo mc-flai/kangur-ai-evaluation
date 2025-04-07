@@ -1,0 +1,21 @@
+La pregunta 30 involucra un quadrat que té els nombres del 1 al 5 en una filera i una columna, amb una ruta específica que forma una veda. La suma dels nombres en la cascada de tres àrees vornejants ha de ser el mateix que la suma de la matriu. La pregunta busca el nombre que falta en la cantonada superior dreta de la matriu.
+
+**Razonament**:
+1. Identifiquem els nombres en la matriu que compleixen la condició de la veda.
+2. Calculem la suma dels nombres en la cascada de tres àrees vornejants.
+3. Comparem aquesta suma amb la suma de la matriu per determinar el nombre que falta.
+
+La matriu és parcialment completada amb el nombre 2 en una de les posicions. La veda forma els nombres 1, 2, 3, 4 i 5 en una filera i una columna.
+
+La suma dels nombres en la cascada de tres àrees vornejants és:
+- 1 + 2 + 3 = 6
+
+La suma de la matriu és:
+- 1 + 2 + 3 + 4 + 5 = 15
+
+Per equilibrar la suma, el nombre que falta ha de ser:
+- 15 - 6 = 9
+
+Però, com que els nombres disponibles són del 1 al 5, el nombre que falta en la cantonada superior dreta ha de ser 5.
+
+**Resposta**: E)

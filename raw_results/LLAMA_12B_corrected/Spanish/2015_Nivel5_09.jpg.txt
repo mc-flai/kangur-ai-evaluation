@@ -1,0 +1,2 @@
+Razonamiento: Para resolver este problema, usamos solo los primeros 9 valores $(1$ a 9$)$ donde todos tenemos la misma respuesta. Actualizamos el valor actual sumando 10 solo a los valores en el primer dígito: $(11$ trở lên)$. Los múltiplos de 3 se tienen: - 3 - 6 - 9 - 12 - 15. Calculamos el número de múltiplos del cubo entre 1$ y 9$: $(3, 6, 9)$. Sumando todos los múltiplos que se encuentran entre los dos conjuntos $(6$ a 9$)$ y $(9$ trở lên)$e tengo un total de $3 + 3 + 2 = 8$ valores. $$8 \mbox{ cero's} - 9 \mbox { cero's} = -1 \rightarrow 117$$
+Respuesta: C)

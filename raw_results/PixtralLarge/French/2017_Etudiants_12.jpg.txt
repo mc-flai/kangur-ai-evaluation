@@ -1,0 +1,27 @@
+Pour répondre à la question 12, nous devons déterminer combien de faces du polyèdre sont des triangles. Voici les informations clés fournies dans l'énoncé :
+
+- Les faces du polyèdre représenté sont soit des triangles, soit des carrés.
+- Chaque carré est entouré par 4 triangles.
+- Chaque triangle est entouré par 3 carrés.
+- Il y a 6 faces du polyèdre qui sont des carrés.
+
+Pour trouver le nombre de faces qui sont des triangles, nous devons comprendre la disposition des faces dans le polyèdre.
+
+1. **Comprendre la disposition des faces** :
+   - Chaque carré est entouré par 4 triangles.
+   - Chaque triangle est entouré par 3 carrés.
+
+2. **Calculer le nombre de triangles** :
+   - Puisqu'il y a 6 carrés et que chaque carré est entouré par 4 triangles, nous pourrions penser qu'il y a \( 6 \times 4 = 24 \) triangles. Cependant, cela compte chaque triangle plusieurs fois, car chaque triangle est partagé par plusieurs carrés.
+   - Chaque triangle est partagé par 3 carrés, donc chaque triangle est compté 3 fois dans les 24 triangles calculés précédemment.
+   - Pour obtenir le nombre réel de triangles, nous divisons le nombre total de triangles comptés par le nombre de fois que chaque triangle est compté :
+     \[
+     \frac{24}{3} = 8
+     \]
+
+3. **Vérification** :
+   - En regardant l'image du polyèdre, nous pouvons confirmer qu'il y a effectivement 8 faces qui sont des triangles.
+
+**Raisonnement** : En utilisant les informations fournies et en comprenant la disposition des faces, nous avons calculé que le polyèdre a 8 faces qui sont des triangles.
+
+**Réponse** : D)

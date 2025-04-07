@@ -1,0 +1,6 @@
+Reasoning:
+There are 7 points, and each needs to connect to the same number of other points. Since the total degree of each node is the same, let's say 'k'. The total number of lines in a complete graph is N(N-1)/2 where N is the number of vertices.  Since 7 is an odd number, the sum of the degrees of all vertices must be an even number, 7 * k.  Therefore, k must be an even number. We can try different possible values of k.
+If k = 0, no lines are added. But the question asks for the minimum number of lines to draw.
+If k = 2, draw lines such that each of the points connects to two others. If we have 7 points and want each to have a degree of 2, we can think of them as points on a circle connected by lines. In that scenario, we can connect point 1 to points 2 and 7, point 2 to 1 and 3, point 3 to 2 and 4, point 4 to 3 and 5, point 5 to 4 and 6, point 6 to 5 and 7, and point 7 to 6 and 1. This creates a shape similar to a heptagon with 7 edges. The minimum number of lines to draw is therefore 5 (the initial graph has 2 lines that can be part of the final solution, and we need 7 - 2 = 5 more to draw) . The initial graph has 2 edges, meaning that 5 additional edges must be added so that each point has the same number of lines connected to it.
+
+Answer: B)

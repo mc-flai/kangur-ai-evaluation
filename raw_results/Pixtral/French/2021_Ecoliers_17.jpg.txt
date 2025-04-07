@@ -1,0 +1,10 @@
+
+La question 17 demande combien de tasses sont disposées après 10 coups dans un jeu où trois tasses sont alignées sur une table et une tasse est déplacée à chaque coup selon un schéma spécifique.
+
+**Raisonnement :**
+1. À chaque coup, la tasse la plus à gauche est déplacée à la position de la tasse du milieu, la tasse du milieu est déplacée à la position de la tasse de droite, et la tasse de droite est déplacée à l'endroit où était la tasse de gauche.
+2. En observant le schéma, nous voyons que chaque coup implique le déplacement d'une tasse à une nouvelle position.
+3. Après 10 coups, chaque tasse aura changé de position trois fois (puisque trois tasses sont impliquées dans chaque coup).
+4. Par conséquent, après 10 coups, les positions des tasses auront été complètement permutées trois fois, ce qui ramène les tasses à leurs positions initiales.
+
+**Réponse :** A

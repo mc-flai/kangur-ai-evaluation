@@ -1,0 +1,25 @@
+
+La pregunta 26 nos pide determinar cuáles de los tauleres (gráficos) pueden ser reconstruidos a partir de tres cuadrados de 6x6 con agujeros en ellos. Los agujeros son rectángulos de 1x2 de manera que cada cuadrado tiene exactamente dos cuadrados del agujero y no hay agujeros que se superpongan.
+
+Para resolver esto, debemos analizar cada opción y determinar si los tauleres pueden ser reconstruidos de acuerdo con las reglas dadas.
+
+**Opción A: Només l'(1)**
+- El primer tauler tiene un agujero en la esquina superior izquierda. Este agujero puede ser reconstruido con un rectángulo de 1x2 de manera que no se superponga con otros agujeros.
+
+**Opción B: Només el (2)**
+- El segundo tauler tiene dos agujeros que no se superponen. Sin embargo, uno de los agujeros está en la parte superior y el otro en la parte inferior, lo que hace difícil reconstruirlo con un rectángulo de 1x2 sin superposición.
+
+**Opción C: Només el (3)**
+- El tercer tauler tiene dos agujeros que se superponen. Esto hace imposible reconstruirlo con un rectángulo de 1x2 sin superposición.
+
+**Opción D: L'(1) i el (3) però no el (2)**
+- El primer tauler puede ser reconstruido, pero el segundo y el tercero no pueden ser reconstruidos debido a la superposición de agujeros.
+
+**Opción E: El (2) i el (3) però no l'(1)**
+- El segundo y el tercer tauler no pueden ser reconstruidos debido a la superposición de agujeros, mientras que el primer tauler puede ser reconstruido.
+
+**Resposta Final:**
+La opción correcta es D) L'(1) i el (3) però no el (2).
+
+**Raonament:**
+El primer tauler puede ser reconstruido porque tiene un agujero que puede ser cubierto con un rectángulo de 1x2 sin superposición. Los segundos y terceros tauleres no pueden ser reconstruidos porque tienen agujeros que se superponen, lo que hace imposible cubrirlos con un rectángulo de 1x2 sin superposición.

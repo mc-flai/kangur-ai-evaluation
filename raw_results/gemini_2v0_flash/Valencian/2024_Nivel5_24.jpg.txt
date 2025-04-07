@@ -1,0 +1,34 @@
+Raonament: Un cub de 3x3x3 té 27 cubs. La superfície d'un cub de 3x3x3 està formada per 6 cares, cadascuna de 3x3=9 quadradets. Per tant, hi ha 6x9 = 54 quadradets. Un terç d'aquests quadradets ha de ser negre, un terç gris i un terç blanc. Per tant, hi ha 54/3 = 18 quadradets de cada color. Per minimitzar el nombre de cubs negres, s'ha de maximitzar el nombre de cubs negres que tenen 3 cares pintades de negre, 2 cares pintades de negre, 1 cara pintada de negre i 0 cares pintades de negre.
+* Cubs de la cantonada (8): poden tenir fins a 3 cares negres.
+* Cubs de l'aresta (12): poden tenir fins a 2 cares negres.
+* Cubs de la cara central (6): poden tenir fins a 1 cara negra.
+* Cub central (1): pot tenir 0 cares negres.
+
+Mínim: Volem minimitzar el nombre de cubs negres. Intentem col·locar la major quantitat possible de cares negres als cubs que tenen 3 cares a l'exterior. Si els 8 cubs de cantonada fossin negres, tindríem 3x8=24 cares negres. Necessitem només 18.
+Suposem que utilitzem només 1 cub negre. El màxim de cares negres que pot aportar és 3. Aleshores hem de pintar cares blanques.
+Si tenim tots els cubs blans i volem posar 18 cares negres, hem de tenir el mínim de cubs negres.
+1. La solució ha de tenir exactament 18 cares negres, 18 cares blanques i 18 cares grises.
+
+El nombre mínim de cubs negres és 7, i el màxim és 10. Per tant, M-m = 10-7 = 3.
+Si posem 6 cubs a les cares, tenim 6 cares. Aleshores tenim 8 + 0+ 0. El màxim és col·locar els negres al centre, i el mínim a les cantonades.
+
+Si m és el mínim i M el màxim, trobem que m=6 i M=10, per tant M-m = 10-6 = 4. Això no és una opció.
+
+M és el màxim nombre de cubs negres que podem tenir.
+Considerem que la suma de les cares és 54. Si volem un terç negre, ha de ser 18.
+Si tots els cubs negres estan a l'interior, el màxim que podem posar són 9 cubs (27/3 = 9).
+Si tenim 9 cubs negres, el màxim és 10.
+Si cada cub exterior és negre (27-1=26). No té sentit.
+Suposem que tots els cubs tenen cares negres.
+Si cada cub té dos colors, pot tenir exactament una cara exterior de cada color.
+
+El nombre mínim de cubs negres és 6, i el màxim és 12. Per tant, M-m = 12-6 = 6.
+
+Resposta: B)
+Raonament: El nombre total de cares visibles és 3x3x6 = 54. Per tant, hi ha 54/3 = 18 cares negres, 18 cares grises i 18 cares blanques. Per maximitzar el nombre de cubs negres (M), hem de minimitzar el nombre de cares negres que cada cub mostra. Considerem els cubs que no estan a la vora. Hi ha 1 cub al centre, 6 als centres de les cares, 12 als centres de les arestes i 8 a les cantonades. El cub central no mostra cap cara, els de les cares tenen 1 cara visible, els de les arestes 2 i els de les cantonades 3.
+Per minimitzar el nombre de cubs negres (m), posem els cubs negres als centres de les cares i arestes, maximitzant les cares negres que hi ha a la superfície. Necessitem 18 cares negres, un cub negre a cada cara del centre són 6.
+Per tant, la resta 18-6=12. Amb aquestes 12 cares negres podem emplenar cubs centrals que tinguin 0 cares a la superfície. Així que necesitamos solo 6 cubos.
+Para maximizar los cubos negres, colocamos 8 a la esquina, así que obtenemos 8 x 3 caras negres=24>18, entonces M debe ser 10.
+La diferencia entre la colocación máxima y mínima es: 10-7=3.
+
+Resposta: B)

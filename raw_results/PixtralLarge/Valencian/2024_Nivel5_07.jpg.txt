@@ -1,0 +1,15 @@
+Per resoldre aquest problema, hem de determinar el nombre mínim de cubs necessaris per omplir una figura específica. Veiem que la primera construcció té dos pisos i té cinc cubs que amaguen les cares visibles del cub inicial. La segona construcció té tres pisos i segueix el mateix criteri de construcció, cobrint totes les cares dels cubs que hi ha sota.
+
+Per trobar el nombre mínim de cubs necessaris per a la segona construcció:
+
+1. La primera capa (superior) necessita 1 cub.
+2. La segona capa necessita 4 cubs per amagar les cares visibles de la primera capa.
+3. La tercera capa necessita 9 cubs per amagar les cares visibles de la segona capa.
+
+Sumant els cubs de cada capa:
+1 (primer pis) + 4 (segon pis) + 9 (tercer pis) = 14 cubs
+
+Per tant, el nombre mínim de cubs necessaris per a la segona construcció és 14.
+
+Raonament: Sumant el nombre de cubs necessaris per a cada pis, obtenim 14 cubs per a la segona construcció.
+Resposta: D) 13

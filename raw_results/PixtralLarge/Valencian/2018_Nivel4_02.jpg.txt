@@ -1,0 +1,22 @@
+**Raonament:**
+
+Per trobar l'àrea de la regió grisa, hem de calcular l'àrea del rectangle i restar-li l'àrea dels dos cercles.
+
+1. **Àrea del rectangle ABCD**:
+   - La longitud del costat AB és de 10 cm.
+   - La longitud del costat AD és la mateixa que la longitud del costat AB, és a dir, 10 cm.
+   - L'àrea del rectangle és \( \text{longitud} \times \text{amplada} = 10 \times 10 = 100 \, \text{cm}^2 \).
+
+2. **Àrea dels cercles**:
+   - El diàmetre de cada cercle és igual a la longitud del costat del rectangle, que és 10 cm.
+   - El radi de cada cercle és \( \frac{10}{2} = 5 \, \text{cm} \).
+   - L'àrea d'un cercle és \( \pi r^2 = \pi \times 5^2 = 25\pi \, \text{cm}^2 \).
+   - L'àrea total dels dos cercles és \( 2 \times 25\pi = 50\pi \, \text{cm}^2 \).
+
+3. **Àrea de la regió grisa**:
+   - L'àrea de la regió grisa és l'àrea del rectangle menys l'àrea dels dos cercles:
+   \[
+   \text{Àrea de la regió grisa} = 100 - 50\pi \, \text{cm}^2
+   \]
+
+**Resposta:** C) \(\frac{50 - 25\pi}{4} \, \text{cm}^2\).

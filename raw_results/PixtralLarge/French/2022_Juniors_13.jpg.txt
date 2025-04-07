@@ -1,0 +1,28 @@
+Pour résoudre ce problème, nous devons déterminer combien de temps le lapin attendra jusqu'à ce que le hérisson arrive à son point de départ après avoir fait un demi-tour.
+
+**Raisonnement** :
+
+1. **Déterminer le temps nécessaire pour que le lapin et le hérisson se rencontrent** :
+   - Le lapin court à une vitesse de 10 m/s et le hérisson à 1 m/s.
+   - Ils partent en même temps mais dans des directions opposées.
+   - La vitesse relative totale (somme des vitesses) = 10 m/s + 1 m/s = 11 m/s.
+   - Le circuit a une longueur de 550 m.
+   - Pour une première rencontre, le temps nécessaire = \(\frac{550 \text{ m}}{11 \text{ m/s}}\) = 50 s.
+
+2. **Temps pour le hérisson pour faire un demi-tour** :
+   - Le hérisson fait demi-tour et court derrière le lapin.
+   - Le lapin est déjà à 500 m du point de départ.
+   - Le hérisson doit parcourir 550 m pour revenir au point de départ, mais il doit aussi rattraper le lapin qui est maintenant à 500 m.
+
+3. **Temps nécessaire pour que le hérisson rattrape le lapin** :
+   - À ce moment, le lapin est à 500 m.
+   - Le hérisson doit parcourir 50 m (550 m - 500 m).
+   - La vitesse du hérisson est 1 m/s.
+   - Temps nécessaire = \(\frac{50 \text{ m}}{1 \text{ m/s}}\) = 50 s.
+
+4. **Temps total attendu par le lapin** :
+   - Le lapin a attendu 50 s pour rencontrer le hérisson.
+   - Le hérisson a mis 50 s pour revenir à son point de départ.
+   - Le temps total attendu par le lapin = 50 s + 50 s = 100 s.
+
+**Réponse : D) 100 s**

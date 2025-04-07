@@ -1,0 +1,31 @@
+Reasoning: To be sure of having at least one apple and one pear of the same color, we need to consider the worst-case scenario.
+1. He could pick all the apples (3 green + 5 yellow = 8).
+2. Then he could pick all the pears of one color (7 green).
+3. The next piece of fruit he picks (either an apple or a pear) must match a fruit already picked.  If he picked an apple, it would match an apple and if he picked a pear, it would match a pear.
+So the total number of pieces needed is 8 (apples) + 7 (green pears) + 1 (apple or pear) = 16. However, the only fruit he can take out is either an apple or a pear. So to find the worst case scenario:
+1. Consider all apples (3 green + 5 yellow = 8).
+2. Then pick the most pears (7 green pears).
+3. That is 8 + 7 = 15. But the problem says to get at least one apple and one pear of the same colour. So:
+    If he gets all the apples (3 green + 5 yellow = 8), then to get a pear of the same colour as the apple he must take one apple and one pear of the same colour and also to take one apple and one pear of the same colour, so 8 + 1 + 1 = 10, which is one apple and one pear of the same colour.
+    If he takes pears instead of apples: 7 + 2 + 1 + 1 = 11.
+So, he needs to account for all fruits and colors.
+Worst case scenario: picks all apples of one colour, picks all pears of the same colour, then must take a pear to have an apple and a pear of the same colour.
+*   Pick all apples of one colour (5 yellow). Then pick all other fruits and then the next fruit he picks should match what he has.
+*   Then pick all green pears(7). Then pick 1 apple.
+*   Total: 5 + 7 + 1 = 13.
+*   Another case : picks all pears of one colour (7). Then pick all apples(3 + 5 = 8). Then the last pear should have the colour match.
+*   Total: 7 + 8 + 1 = 16.
+*   Worst case is 5 yellow apples, 7 green pears. To ensure having at least one apple and one pear of the same colour, one additional apple or one additional pear should be chosen. So he can take 5 (yellow apples) + 7 (green pears) + 1 (apple or pear to create the same colour match) which is 13.
+    Therefore, the worst case scenario involves drawing all the apples of one colour and all the pears of a colour.
+The calculation could also be as follows:
+    1. All apples of one color = 5 yellow apples
+    2. All pears of one color = 7 green pears
+    3. Either apple or pear that is same color as item already selected.
+        5+ 7 +1=13.
+    Alternative solution can be :
+    1. Total number of apples (8)
+    2. Total number of pears (9).
+    If the selected fruits are all yellow apples (5) and all green pears (7), then he takes 1 apple to match, 5+7+1=13.
+    or all yellow apples (5), all yellow pears (2), then he takes a green pear 5 + 2 + 1=8
+
+Answer: E)

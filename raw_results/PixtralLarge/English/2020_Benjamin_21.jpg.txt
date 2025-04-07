@@ -1,0 +1,27 @@
+To solve this problem, we need to determine the area of the gray square that is not covered by the white squares. 
+
+First, note that the area of the entire gray square is given as 81 square units.
+
+The white squares inside the gray square represent areas of 9, 4, and another unknown area denoted by "?". Let's denote the area of the unknown white square as X.
+
+Now, the total area covered by the white squares is the sum of the areas of all three white squares:
+
+\[ 9 + 4 + X \]
+
+Next, we need to determine the value of X. Since the sides of the white squares are parallel to the sides of the gray square, we can infer that the unknown white square is formed by the remaining area uncovered by the known white squares.
+
+The unknown white square has sides parallel to those of the gray square, indicating that it must fill the remaining space within the gray square. Given that the white square with area 9 has a side length of 3 units (since \( 3^2 = 9 \)), and the white square with area 4 has a side length of 2 units (since \( 2^2 = 4 \)), we can deduce that the missing square must have a side length of 1 unit (since \( 1^2 = 1 \)).
+
+Therefore, the area of the unknown white square is 1.
+
+The total area covered by the white squares is:
+
+\[ 9 + 4 + 1 = 14 \]
+
+Finally, the area of the gray area not covered by the white squares is:
+
+\[ 81 - 14 = 67 \]
+
+Reasoning: The area of the gray square is 81, and the total area covered by the white squares is 14. Therefore, the area of the gray area not covered by the white squares is 67 square units.
+
+Answer: D)

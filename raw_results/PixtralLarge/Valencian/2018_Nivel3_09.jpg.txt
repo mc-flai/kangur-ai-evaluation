@@ -1,0 +1,53 @@
+Raonament:
+
+Per determinar la col·locació final dels ciclistes a la carrera, primer hem de desxifrar les prediccions fetes per cada persona:
+
+- Sergi: CDBEA
+- Pere: ABDEC
+- Joana: EADBC
+- Maria: CEADB
+- Jordi: DAECB
+- Lluïsa: BACED
+
+Cada ciclista ha de comparar la seva predicció amb les fetes per altres ciclistes per trobar quins tenen almenys dues coincidències en les primeres lletres.
+
+Primera coincidència:
+- Comparació de Sergi (CDBEA) amb les altres prediccions:
+  - Pere: ABDEC (1 coincidència)
+  - Joana: EADBC (1 coincidència)
+  - Maria: CEADB (2 coincidències)
+  - Jordi: DAECB (1 coincidència)
+  - Lluïsa: BACED (1 coincidència)
+
+Maria té dues coincidències amb la predicció de Sergi.
+
+Segona coincidència:
+- Comparació de Maria (CEADB) amb les altres prediccions:
+  - Pere: ABDEC (1 coincidència)
+  - Joana: EADBC (2 coincidències)
+  - Jordi: DAECB (1 coincidència)
+  - Lluïsa: BACED (1 coincidència)
+
+Joana té dues coincidències amb la predicció de Maria.
+
+Tercera coincidència:
+- Comparació de Joana (EADBC) amb les altres prediccions:
+  - Pere: ABDEC (1 coincidència)
+  - Jordi: DAECB (2 coincidències)
+  - Lluïsa: BACED (1 coincidència)
+
+Jordi té dues coincidències amb la predicció de Joana.
+
+Quarta coincidència:
+- Comparació de Jordi (DAECB) amb les altres prediccions:
+  - Pere: ABDEC (1 coincidència)
+  - Lluïsa: BACED (2 coincidències)
+
+Lluïsa té dues coincidències amb la predicció de Jordi.
+
+Finalment, comprovem la predicció de Lluïsa (BACED) amb les altres:
+- Pere: ABDEC (2 coincidències)
+
+Per tant, la col·locació final dels ciclistes és BACED.
+
+Resposta: E) AECDB

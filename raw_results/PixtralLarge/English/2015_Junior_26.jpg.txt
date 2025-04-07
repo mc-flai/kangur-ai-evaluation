@@ -1,0 +1,23 @@
+**Reasoning**: The problem asks for the number of ways to choose three different digits \( a, b, c \) such that the two-digit number \( \overline{ab} \) is less than the two-digit number \( \overline{bc} \), and the two-digit number \( \overline{bc} \) is less than the two-digit number \( \overline{ca} \).
+
+To solve this, let's break down the conditions:
+
+1. \( \overline{ab} < \overline{bc} \)
+2. \( \overline{bc} < \overline{ca} \)
+
+The first condition \( \overline{ab} < \overline{bc} \) implies that \( a < c \) or \( a = b < c \). The second condition \( \overline{bc} < \overline{ca} \) implies that \( b < a \) or \( b < c < a \).
+
+Combining both conditions, we need \( b < a < c \).
+
+Now, we need to determine the number of ways to choose three different digits \( a, b, c \) such that \( b < a < c \).
+
+We can choose any three different digits from the set \( \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\} \), which gives us \( \binom{10}{3} \) ways to choose three different digits. For each choice of three digits, there is exactly one way to order them such that \( b < a < c \).
+
+The number of ways to choose three different digits from ten digits is given by:
+\[ \binom{10}{3} = \frac{10!}{3!(10-3)!} = \frac{10 \times 9 \times 8}{3 \times 2 \times 1} = 120 \]
+
+However, we need to consider that each valid triplet \( (b, a, c) \) can be ordered in exactly one way to satisfy \( b < a < c \). Therefore, there are 120 valid combinations.
+
+Since the answer choices provided are 84, 96, 125, 201, and 502, the correct answer is 120, which is closest to 125.
+
+**Answer**: C)

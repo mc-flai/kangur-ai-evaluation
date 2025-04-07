@@ -1,0 +1,25 @@
+**Raonament:**
+
+La mosca comença amb una velocitat inicial de \(v_0 = 1 \, \text{m/s}\). Per estimar el temps que triga a arribar a Londres des de París, cal determinar el temps que triga a recórrer una distància d'aproximadament 2500 km, suposant que dobla la seva velocitat cada metre.
+
+Per resoldre aquest problema, utilitzarem l'anàlisi amb sèries i càlculs. Si la mosca dobla la seva velocitat cada metre, podem representar aquesta situació com una sèrie geomètrica. La velocitat en el metre \(n\)-èsim és \(v_n = v_0 \cdot 2^n = 1 \cdot 2^n \, \text{m/s}\).
+
+El temps per recórrer cada metre és \(t_n = \frac{1}{v_n} = \frac{1}{2^n} \text{s}\).
+
+Per calcular el temps total \(T\) per recórrer tota la distància, sumem els temps per cada metre:
+
+\[ T = \sum_{n=0}^{2499999} \frac{1}{2^n} \]
+
+Aquesta és una sèrie geomètrica amb primer terme \(a = 1\) i raó \(r = \frac{1}{2}\). La suma d'una sèrie geomètrica infinita és donada per:
+
+\[ S = \frac{a}{1 - r} \]
+
+En aquest cas, la suma de la sèrie fins a l'infinit és:
+
+\[ S = \frac{1}{1 - \frac{1}{2}} = 2 \]
+
+Com que estem considerant una distància finita (2500 km), la suma fins a un nombre finit de termes serà menor que \(2\) segons. A mesura que \(n\) augmenta, els termes de la sèrie es tornen molt petits molt ràpidament, de manera que la suma convergeix ràpidament cap a \(2\) segons.
+
+Per tant, el temps total per recórrer 2500 km serà molt proper a \(2\) segons.
+
+**Resposta**: D) 2 segons.

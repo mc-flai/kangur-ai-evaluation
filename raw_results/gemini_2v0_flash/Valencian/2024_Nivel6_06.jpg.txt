@@ -1,0 +1,12 @@
+Raonament:
+Hem de trobar una expressió equivalent a 16^15 + 16^15 + 16^15 + 16^15. Això és el mateix que 4 * 16^15.
+Podem escriure 4 com a 2^2 i 16 com a 2^4, per tant l'expressió és 2^2 * (2^4)^15 = 2^2 * 2^(4*15) = 2^2 * 2^60 = 2^(2+60) = 2^62.
+Ara hem de trobar l'opció que és igual a 2^62.
+A) 16^19 = (2^4)^19 = 2^(4*19) = 2^76. No és igual a 2^62.
+B) 4^31 = (2^2)^31 = 2^(2*31) = 2^62. És igual a 2^62.
+C) 4^60 = (2^2)^60 = 2^(2*60) = 2^120. No és igual a 2^62.
+D) 16^60 = (2^4)^60 = 2^(4*60) = 2^240. No és igual a 2^62.
+E) 4^122 = (2^2)^122 = 2^(2*122) = 2^244. No és igual a 2^62.
+Per tant, l'expressió equivalent és 4^31.
+
+Resposta: B)

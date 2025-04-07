@@ -1,0 +1,38 @@
+Raonament: La cel·la inferior és la suma de les dues cel·les superiors. Si anomenem x al valor de la cel·la ombrejada, aleshores tenim:
+- La cel·la de sota la cel·la de 15 i la cel·la ombrejada és: 1789
+- La cel·la de sota 1789 i l'anterior és: 2015
+Per tant: 1789 + (20 + 15 + x) = 2015. D'això, 35 + x = 2015 - 1789. llavors 35 + x = 226. Així x = 226 - 35, que és 191.
+Ara bé, tenim també que: 15 + x = 1789. Aleshores, x = 1789 - 15 = 1774.
+
+Sembla que en la part inferior del triangle, en comptes de sumar-se les cel·les superiors, s'ha realitzat una resta (almenys, aparentment, amb la informació disponible). En aquest cas, tenim:
+2015 = 1789 + valor que està a la cel·la a l'esquerra de 1789
+Aleshores, valor a l'esquerra de 1789 és 2015 - 1789 = 226.
+
+A la fila superior, la que conté la cel·la ombrejada, tenim que 20 + 15 + valor a la cel·la ombrejada + valor de la cel·la a la dreta de la cel·la ombrejada = 226.
+D'aquesta manera, cal conéixer el valor a la cel·la a la dreta de la cel·la ombrejada. Però no ho coneixem.
+
+Però la instrucció ens diu clarament que la cel·la inferior és la suma de les dues superiors. Aleshores, la cel·la inferior a 15 i la cel·la ombrejada, és 1789. Això vol dir que 15 + cel·la ombrejada = 1789.
+cel·la ombrejada = 1789 - 15 = 1774. Sembla que les opcions de resposta donades són errònies. Refarem els càlculs.
+
+Si ens fixem en les instruccions que ens donen, la cel·la de sota és x+y. En aquest cas, 20 + 15 = 35. El següent valor seria 15 + la cel·la ombrejada. En les opcions de resposta no existeix cap valor que sumat a 15 ens doni un valor que sumat a 1789 ens doni 2015.
+
+El valor de la cel·la anterior a 1789 és 2015 - 1789 = 226. L'anterior seria la suma de 20 + 15 + la cel·la ombrejada = 226. Per tant, la cel·la ombrejada és 226 - 35 = 191. Tampoc està en les opcions.
+
+Com que la cel·la de sota és x+y, llavors (20 + 15) + cel·la ombrejada = 1789. NO, això no funciona.
+
+Si ens fixem, en la cel·la de sota, que és 2015, la suma seria 1789 + una cel·la buida. Aquesta cel·la buida val 226.
+En la part superior, la cel·la que està a la sota d'1789 és la suma de 15 i la cel·la ombrejada, i val 1789. Aleshores la cel·la ombrejada val 1789 - 15 = 1774.
+
+Si la cel·la abans de 1789 és 226, llavors a la part superior tindríem la suma de 20 + 15 + x = 226. Això vol dir que x = 191.
+Així doncs, sembla que hi ha una errada en les possibles respostes a la pregunta.
+
+Raonament: La instrucció és x + y.
+A) L'anterior a 1789 a la fila és 2015-1789 = 226. Llavors: 20 + 15 + x = 226, x=191
+B) 1789 - 15 = 1774. Llavors NO encaixa.
+C) 1789 + x = 2015 --> x = 226 --> La celda és 226-(20+15) = 191.
+
+Raonament: Si la regla és que la suma de dos nombres superiors dóna el nombre inferior, llavors, si anem cap amunt en el triangle, els valors es resten. El número immediatament a l'esquerra de 1789 és 2015 - 1789 = 226. El valor ombrejat és per tant 226 - (20 + 15) = 226 - 35 = 191. Cap de les respostes és correcta. Però, si suposem que he d'elegir entre les opcions, miraria si hi ha alguna possible errada en el plantejament del triangle.
+Si considerem 1572 - 1789 ens dóna -217. No té sentit.
+Provaré un altre camí. Perquè es produís 1789, vol dir que hi ha un nombre a la dreta del 15 que sumats donen 1789. Llavors, 1789 - 15 = 1774. Ho seguim.
+
+Resposta: B)

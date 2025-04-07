@@ -1,0 +1,11 @@
+Reasoning: There are 8 participants. In the first round, 4 games are played, so 4 winners advance.  In the second round, 2 games are played, so 2 winners advance to the final. For Martina to reach the final, she must win her first round game and her second-round game. If Martina and Anita are in different halves of the initial bracket, Martina can reach the final, and the probability of this is the same as Martina winning two games in a row.
+*   Probability of winning first game: 1/2 since there are 8 players and Martina is one of them. She needs to be in a different match-up with Anita.
+*   Probability of winning the second game, considering that Martina is not playing Anita: The 4 winners from round 1 face each other to produce 2 winners. This means there are 3 other players, which are not Anita. Martina must win a match against one of them to go to the final.
+*   If Martina and Anita were on the same half of the bracket, there would be no final for Martina.
+*   The probability of Martina avoiding Anita and going to the final is the probability that Martina wins both her matches and does not meet Anita. The chance of Martina winning in each round is 1/2. Then, in the second round, there are 3 opponents other than Anita, so she will win by chance 1/3.
+
+The probability that Martina gets to the final is equal to the probability of her winning first match (1/2) and then winning the second match against any other players except Anita (3/7).
+If Martina is in the top half, there are 3 opponents to play, probability of winning the second match is 3/7.
+The probability Martina gets to the final: 1/2 * (3/7) = 3/14. Considering each player has an equal chance of winning the first round and reaching the semi-finals, the chance Martina meets any other player from the other half is 3/7. Therefore her chance is 3/7.
+
+Answer: D)

@@ -1,0 +1,13 @@
+
+Reasoning: To determine the maximum number of odd numbers Paul can write on the tiles, we need to understand the structure of the number wall and how the numbers are formed. Each tile in the number wall represents a number that is the sum of the two numbers directly below it. The sum of two odd numbers is even, and the sum of two even numbers is even. Therefore, to maximize the number of odd numbers, we need to ensure that the numbers at the base of the pyramid are odd. Starting with odd numbers at the base and following the pattern of summing two numbers below, we can calculate the number of odd numbers in each row.
+
+1. The base of the pyramid has 1 tile, which can be odd.
+2. The next row has 2 tiles, both of which can be odd (sum of two odd numbers is even).
+3. The row above that has 3 tiles, but only the middle one can be odd (sum of two even numbers is even).
+4. The next row has 4 tiles, but only the two middle ones can be odd.
+5. The row above that has 5 tiles, but only the middle one can be odd.
+6. The top row has 6 tiles, but none can be odd.
+
+Summing the odd numbers from each row: 1 + 2 + 1 + 2 + 1 = 7.
+
+Answer: D

@@ -1,0 +1,6 @@
+Raisonnement :
+1.  **Déterminer les marches noires:** Les marches noires se trouvent tous les 3 marches. Le nombre total de marches est 2023. On divise 2023 par 3 pour savoir combien de marches noires il y a : 2023 / 3 = 674 avec un reste de 1. Donc, il y a 674 marches noires.
+2.  **Identifier les marches où le pied droit est posé:** Quentin alterne les pieds droit et gauche. Si on considère qu'il commence avec le pied droit, il pose le pied droit sur les marches 1, 3, 5, etc. Les marches noires sont les 3ème, 6ème, 9ème etc. Il posera donc son pied droit sur les marches noires.
+3.  **Calculer le nombre de marches noires avec le pied droit:** Pour chaque bloc de trois marches (1, 2, 3), il y a une marche noire. Pour chaque marche noire, Quentin pose son pied droit ou son pied gauche. Les marches noires sont à la position 3, 6, 9, ... qui sont des multiples de 3. Dans un groupe de 3 marches, il y a une marche noire et il pose une fois le pied droit et une fois le pied gauche. Si Quentin commence sur le pied droit, il pose le pied droit sur la marche noire. Donc, on doit trouver la moitié de la marche noire si le nombre de marches noires est pair et une moitié plus 0.5 si le nombre de marches noires est impair. 674 marches noires, donc il va poser son pied droit sur la moitié des marches noires (674 / 2) = 337.
+
+Réponse : D) 337

@@ -1,0 +1,10 @@
+Raonament:
+El cub gran té dimensions n x n x n. Els cubs petits amb una sola cara pintada estan situats al centre de cada cara del cub gran. Hi ha 6 cares al cub, i cada cara té (n-2)^2 cubs petits amb una sola cara pintada. Per tant, el nombre total de cubs petits amb una sola cara pintada és 6(n-2)^2.
+Els cubs petits sense cap cara pintada estan situats a l'interior del cub gran, formant un cub de dimensions (n-2) x (n-2) x (n-2). Per tant, el nombre de cubs petits sense cap cara pintada és (n-2)^3.
+Segons l'enunciat, aquests dos nombres són iguals:
+6(n-2)^2 = (n-2)^3
+Dividim ambdós costats per (n-2)^2 (assumint n > 2):
+6 = n-2
+n = 8
+
+Resposta: D)

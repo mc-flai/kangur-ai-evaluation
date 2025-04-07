@@ -1,0 +1,35 @@
+
+La pregunta 29 trata sobre una casa que tiene una gran cantidad de agujeros de cerámica de 20 cm de diámetro y una gruesa de 1 cm. Se pregunta cuántos agujeros de cerámica de 20 cm de diámetro se necesitan para hacer una bola sólida del mismo diámetro.
+
+Para resolver esto, necesitamos entender cómo se calcula el volumen de una esfera y cómo se relaciona con el volumen de los agujeros de cerámica.
+
+1. **Volumen de una esfera**: El volumen \( V \) de una esfera de diámetro \( d \) se puede calcular usando la fórmula:
+   \[
+   V = \frac{4}{3} \pi \left( \frac{d}{2} \right)^3
+   \]
+   Para una esfera de diámetro 20 cm:
+   \[
+   V = \frac{4}{3} \pi \left( \frac{20}{2} \right)^3 = \frac{4}{3} \pi (10)^3 = \frac{4}{3} \pi (1000) = \frac{4000}{3} \pi \approx 1333.33 \pi \, \text{cm}^3
+   \]
+
+2. **Volumen de un agujero de cerámica**: El volumen de un agujero de cerámica de diámetro 20 cm y gruesa 1 cm se puede calcular considerando el volumen de un cilindro de diámetro 20 cm y altura 1 cm:
+   \[
+   V_{\text{agujero}} = \pi \left( \frac{20}{2} \right)^2 \times 1 = \pi (10)^2 \times 1 = 100 \pi \, \text{cm}^3
+   \]
+
+3. **Número de agujeros necesarios**: Para formar una esfera sólida del mismo diámetro, el volumen total de los agujeros de cerámica debe ser igual al volumen de la esfera. Por lo tanto, necesitamos resolver:
+   \[
+   n \times 100 \pi = 1333.33 \pi
+   \]
+   Dividiendo ambos lados por \( \pi \):
+   \[
+   n \times 100 = 1333.33
+   \]
+   Dividiendo ambos lados por 100:
+   \[
+   n = \frac{1333.33}{100} = 13.3333
+   \]
+
+Dado que no podemos tener una fracción de agujeros, redondeamos al número entero más cercano, que es 13.
+
+**Respuesta: C)**

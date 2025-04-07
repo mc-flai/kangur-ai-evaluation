@@ -1,0 +1,9 @@
+Raonament:
+L'hexàgon està format per 6 triangles equilàters de costat 1.
+L'àrea d'un triangle equilàter de costat 1 és $\frac{\sqrt{3}}{4}$. Per tant, l'àrea de l'hexàgon és $6 \times \frac{\sqrt{3}}{4} = \frac{3\sqrt{3}}{2}$.
+Els sectors circulars tenen radi 1 i angle $\frac{\pi}{3}$ (60 graus), ja que és l'angle intern d'un hexàgon regular. L'àrea d'un sector circular és $\frac{1}{2}r^2\theta = \frac{1}{2}(1)^2\frac{\pi}{3} = \frac{\pi}{6}$. Hi ha 6 sectors circulars, per tant l'àrea total dels sectors és $6 \times \frac{\pi}{6} = \pi$.
+Aleshores l'àrea de la flor serà la suma de les àrees dels 6 sectors menys l'àrea de l'hexàgon.  És a dir, l'àrea de la flor = $6 \times \frac{\pi}{6} - (6 -3)* (\text{area triangle inside})= \pi$. Però aquest càlcul seria la suma de les àrees d'una intersecció, si considerem que no es superposen les zones.
+
+Si considerem que les 6 àrees son la suma total de la intersecció, calculem l'area total dels 6 sectors: $\pi$. Si restem l'area del hexàgon obtenim un resultat negatiu, cosa que ens diu que la regió central, per exemple, l'àrea intersecada entre 3 sectors centrals s'ha restat massa. En aquest cas l'àrea de cada fulla és $\frac{\pi}{3}-\frac{\sqrt{3}}{2}$. Per tant, la suma total de l'area seria $6(\frac{\pi}{3}-\frac{\sqrt{3}}{2})= 2\pi - 3\sqrt{3}$.
+
+Resposta: E)

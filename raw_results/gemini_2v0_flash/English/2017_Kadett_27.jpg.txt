@@ -1,0 +1,37 @@
+Reasoning:
+The large cube is made of 125 small cubes, so it is a 5x5x5 cube.
+There are 9 tunnels. Each tunnel goes through 5 cubes.
+The tunnels are parallel to the sides of the cube. Since it is a cube and there are 9 tunnels, there are 3 tunnels in each direction (x, y, z).
+Each tunnel removes 5 cubes. So, 9 tunnels remove 9*5 = 45 cubes.
+However, some cubes are part of multiple tunnels. The intersection of each pair of tunnels has a single cube in common.
+Since the tunnels are in 3 directions, there are 3 pairs of tunnels that intersect.
+(T1, T2), (T1, T3), (T2, T3). In this case there are three different sets. Each group has 3 tunnels.
+
+When the 9 tunnels intersect, they intersect at the very middle cube. The center cube lies on 3 tunnels. So there are other intersection areas that intersect.
+The total number of cubes used in the tunnels is 3 rows x 5 length + 3 rows x 5 length + 3 rows x 5 length.
+So there are 3 x 3 x 5 = 45 cubes. There are 3 intersections of different sets in each row. So, the total of the 45 - 3 intersections = 42.
+
+The tunnels go all the way through the cube, so the big cube is a 5x5x5 cube, and the number of small cubes is 125.
+The number of cubes used is 125 - 'cubes he is not using'. We must find how many cubes are actually being used for the actual cube.
+
+There are 3 sets of holes.
+A 5x5x5 cube uses 125 cubes.
+The horizontal hole will go straight 5. Another set of 5. And another. So 3 sets of cubes (5x3). Each set of holes is 5 cubes long. So, 5x3 length horizontally. The next group is vertical, 5x3 length. And the third is depth-wise at 5x3. Since the sets of holes are overlapping, you can say the cube is made of 5 blocks wide and 5 blocks long at any given angle.
+
+If the tunnel is along the z-axis, and is along y axis, and along x axis.
+So there are 9 tunnels.
+5 * 9 = 45 cubes are used in the tunnels. But, there are intersections.
+
+If the horizontal holes are running through the cube through the center axis, then there's three planes. The intersection is that middle 1 axis for all the holes. The number of cube used is 125 - cubes not using.
+Then the actual amount of cube used is 125 - X. So X is cubes not being used.
+If there's 9 holes made. 1 hole takes 5 cubes. The center cube is the intersection, then how many not using?
+
+Solid cubes forming the bigger cube is 125-x.
+Cubes used making the tunnel is y. So, there's a way to represent y, 125-x = y.
+Tunnel going all the way through, so the amount going through each hole is 5. So the amount for 9 tunnels is 45, but there's some intersect. In the middle the horizontal and vertical intersect. 3 tunnels going through. So intersect each other. How many is intersect? 45 - number intersect, so 125 - 45 + intersect.
+
+Cubes left used is (5x5x5) - (5x3) - (5x3) - (5x3) + intersection.
+125 - 45 + 6 = 86. Cube left is 86
+Used is 86.  Cubes not using, 125-86 is not using. Number not using is 39.
+
+Answer: D)

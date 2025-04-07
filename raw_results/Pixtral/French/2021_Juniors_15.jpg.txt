@@ -1,0 +1,22 @@
+
+Raisonnement :
+1. Il y a cinq voitures participant à une course, chacune partant dans un ordre spécifique.
+2. Chaque fois qu'une voiture dépasse une autre, un point est marqué.
+3. L'ordre de départ des voitures est : I, II, III, IV, V.
+4. L'ordre d'arrivée des voitures est : III, V, I, IV, II.
+5. Pour déterminer le nombre total de points marqués, nous devons comparer l'ordre de départ et l'ordre d'arrivée.
+6. Comparons chaque voiture de l'ordre de départ à l'ordre d'arrivée :
+   - Voiture I (partie 1ère) dépasse les voitures II, III, IV, et V (4 dépassements).
+   - Voiture II (partie 2ème) dépasse les voitures III, IV, et V (3 dépassements).
+   - Voiture III (partie 3ème) dépasse les voitures IV et V (2 dépassements).
+   - Voiture IV (partie 4ème) dépasse la voiture V (1 dépassement).
+   - Voiture V (partie 5ème) ne dépasse personne (0 dépassement).
+7. Additionnons tous les points :
+   - Voiture I : 4 points
+   - Voiture II : 3 points
+   - Voiture III : 2 points
+   - Voiture IV : 1 point
+   - Voiture V : 0 point
+8. Le total des points est donc 4 + 3 + 2 + 1 + 0 = 10 points.
+
+Réponse : A)

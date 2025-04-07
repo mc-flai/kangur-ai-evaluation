@@ -1,0 +1,4 @@
+Reasoning:
+The top view shows where cubes exist in each column of the "city". The side view shows the height of each column. To minimize the number of cubes, we want to assume the side view columns correspond to the first, second, and third columns of the top view from left to right. The heights of the columns in the side view are 2, 1, and 2. The second column in the top view has only one block. The first and the third columns in the top view have two cubes each. So, we can say first column has 2 cubes, second column has 1 cube and the third column has 2 cubes. The last column in the side view has one cube. The second cube in the third column will hide another cube. So, adding cubes from the views we will have: the number of cubes will be 2+1+2+2+1+1+2 = 11. Thus the only possible answer would be 13.
+
+Answer: C)

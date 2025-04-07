@@ -1,0 +1,82 @@
+Raonament: Per minimitzar la diferència entre dos nombres de quatre xifres formats amb els dígits 1, 2, 3, 4, 5, 6, 7 i 8, hem de construir dos nombres que siguin el més propers possible. Això significa que les seves xifres de milers han de ser el més properes possibles. Així que volem que un comenci amb 4 i l'altre amb 5. Aleshores, intentarem que les xifres següents siguin el més properes possibles.
+
+Per exemple, podem provar de construir els nombres 4123 i 5876 o 4167 i 5832. Un enfocament millor seria construir nombres de la forma 4 _ _ _ i 5 _ _ _ on els dígits restants minimitzin la diferència. Volem construir nombres com 48xx i 51xx on les xx consisteixen en els dígits restants. Per exemple, podem formar els nombres 4812 i 5763 o 4761 i 5123.
+
+En lloc d'això, potser podem provar de construir 48xx i 51xx. Considerem els nombres 4812 i 5763. La diferència és 5763 - 4812 = 951. Això és massa gran.
+
+Provant de fer els dos nombres propers, considerem els nombres 47xx i 51xx o 48xx i 51xx.
+Intentem 4812 i 5763. No.
+Intentem 4176 i 5832. No.
+Si provem 4123 i 5678 o 48xx i 51xx, obtindrem una diferència més gran que les opcions donades.
+Considerem construir 47xx i 48xx o 51xx.
+
+Construïm els números 48xx i 51xx. Amb els números 2,3,6,7 podem fer 4823 i 5167 or 4867 i 5123.
+4823 i 5167 --> diferència = 344
+4867 i 5123 --> diferència = 256
+
+Construïm números més propers 47xx i 48xx.
+4712 i 5638
+Fem 4812 i 5123 -> No és possible.
+Fem 47xx i 48xx-> no és possible.
+Considerem 47xx i 51xx.
+4712 i 5136. No.
+Considerem fer els nombres com propers entre sí com 43xx i 45xx.
+Podem provar 43xx i 45xx
+Aproximació:
+Si usem els digits petits com 1,2,3,4, construim 4123 i 5678 per minimitzar la diferencia entre numeros
+Usant 4 i 5 per la primer xifra com:
+41XX i 58XX. NO es minimitza.
+A més important és que les xifres que seleccionem maximitzin numero més petit i que es minimitzin numero més gran.
+
+Volem crear els nombres amb la primera xifra 4 i 5, respectivament. Considerem 48xx i 51xx
+Podriem fer 4812 i 5136. Calculem la diferència és 5136-4812 =324
+Calculem amb 4812 i 5763
+Aproximacio amb 48xx i 51xx
+
+Intentar generar números propers als 4000 i 5000, és incorrecte. Millor agafar 4xx i 5xx
+41xx i 5xxx No.
+
+Fem una combinacio 4716 i 4823. --> incorrecte ja que 4 repetida
+
+Fem la resta dels nombres més a prop entre ells.
+41XX i 5XXX
+
+Considerem 4123 i 5678. NO
+La combinació que permet el nombre més petit i el nombre més gran possible.
+Intentem 4xxx i 5xxx.
+
+Els nombre han d'està el més propers possible,
+4816 -5723 --> La diff es 907
+
+Raonem construir 41XX i 5XXX - Incorrecto.
+Prova de combinació de 4 números que estiguin el més propers.
+Construim els numeros de la forma 48XY i 51XY
+4812 i 5136
+Construir los números mas cercanos.
+
+La millor estratègia es provar les opcions més petites.
+Provem 124 --> 4xxx i 5xxx es impossible
+Provem 247 --> 4xxx i 5xxx es impossible
+
+Provem a construir números de la forma 4356 i 4172 --> impossible
+
+Els numeros que construim són: 4123 i 5678. Aquesta aproximació NO és correcta, perquè els numeros s'allunyen massa.
+Provant de trobar nombres mes a prop.
+4123 i 4123. No pot repetir.
+La pregunta es minimitza la diferència entre ells. La pregunta busca números similars a 4000. Però necessitem la millor combinació. Per tant es cerca combinar 47XX y 5XXX.
+4716 y 5123 or 5128
+4716 y 5123 --> diff es 407
+Diferencia aproximada és entre 300 y 400
+
+En la imagen, C) es 358.
+
+Raonament: Per trobar la menor diferència possible entre dos nombres naturals de quatre xifres formats pels dígits 1, 2, 3, 4, 5, 6, 7 i 8, hem de construir dos nombres tan propers com sigui possible. Podem aconseguir-ho fent que les seves xifres de milers siguin consecutives, per exemple, 4 i 5. Després, minimitzem la diferència entre els centenars, les desenes i les unitats.
+Considerem els nombres 4812 i 5136. La diferència és 5136 - 4812 = 324.
+Considerem els nombres 4812 i 5163. La diferència és 5163 - 4812 = 351.
+Considerem els nombres 4812 i 5637.
+Considerem els nombres 4812 i 5736.
+Si posem 4 i 5 com a xifres milers, llavors el primer nombre es converteix en 4716 i el segon nombre es converteix en 5123, la diferència es converteix en 407. Si el primer nombre és 4612 i el segon nombre es converteix en 4718, però això és incorrecte.
+Un exemple millor seria la combinació 4821 i 5136. En aquest cas, diferència és 5136 - 4821 = 315.
+
+Resposta: C)
+Final Answer: C)

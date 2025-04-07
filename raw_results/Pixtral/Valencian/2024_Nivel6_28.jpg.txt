@@ -1,0 +1,19 @@
+
+La pregunta 28 nos pide determinar la suma de las soluciones exactas de la ecuación \( f(x) = 0 \) dada la condición \( f(20 - x) = f(22 + x) \).
+
+### Raonament:
+1. **Identificar la condición**: La condición \( f(20 - x) = f(22 + x) \) implica que los valores \( 20 - x \) y \( 22 + x \) deben ser puntos simétricos con respecto a algún valor central.
+2. **Determinar el valor central**: Para que \( f(20 - x) = f(22 + x) \), los argumentos deben ser iguales cuando se evalúan en \( f \). Esto significa que el valor central debe ser la media de 20 y 22.
+   \[
+   \text{Valor central} = \frac{20 + 22}{2} = 21
+   \]
+3. **Simetría en la función**: La simetría alrededor de \( x = 21 \) implica que si \( x_0 \) es una solución, entonces \( 21 - x_0 \) también lo es.
+4. **Suma de las soluciones**: Dado que \( x_0 \) y \( 21 - x_0 \) son soluciones, su suma es:
+   \[
+   x_0 + (21 - x_0) = 21
+   \]
+
+### Respuesta:
+La suma de las soluciones exactas de la ecuación \( f(x) = 0 \) es 21.
+
+Respuesta: C)

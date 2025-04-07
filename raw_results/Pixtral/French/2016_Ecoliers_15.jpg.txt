@@ -1,0 +1,25 @@
+
+La question demande quelle pièce ne peut pas être utilisée pour former un carré en accolant quatre des cinq pièces données.
+
+Raisonnement :
+1. Examinons les dimensions de chaque pièce :
+   - A : 1x1
+   - B : 1x2
+   - C : 2x3
+   - D : 3x3
+   - E : 1x3
+2. Pour former un carré, nous devons trouver une combinaison de quatre pièces dont les longueurs totales des côtés sont égales.
+3. Calculons les longueurs totales des côtés pour chaque combinaison possible :
+   - Combinaison A, B, C, D :
+     - Longueur totale des côtés = 1 + 1 + 2 + 3 = 7
+   - Combinaison A, B, C, E :
+     - Longueur totale des côtés = 1 + 1 + 2 + 3 = 7
+   - Combinaison A, B, D, E :
+     - Longueur totale des côtés = 1 + 1 + 3 + 3 = 8
+   - Combinaison B, C, D, E :
+     - Longueur totale des côtés = 1 + 2 + 3 + 3 = 9
+4. Un carré a des côtés de longueur égale, donc la longueur totale des côtés doit être divisible par 4.
+5. Parmi les combinaisons ci-dessus, seule la combinaison A, B, D, E a une longueur totale des côtés divisible par 4 (8).
+6. Par conséquent, la pièce C ne peut pas être utilisée pour former un carré avec les autres pièces.
+
+Réponse : C

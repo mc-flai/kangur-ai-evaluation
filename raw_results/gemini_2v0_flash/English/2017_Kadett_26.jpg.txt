@@ -1,0 +1,11 @@
+Reasoning:
+Let's generate the sequence and see if there is a pattern:
+2, 3, 6, 8, 8, 4, 2, 8, 6, 8, 8, 4, 2, 8, 6, 8, 8, 4, 2, 8,...
+The sequence repeats every 6 terms, starting from the 3rd term. The repeating sequence is 6, 8, 8, 4, 2, 8.
+We want to find the 2017th digit of the sequence. Since the first two digits are given, we want to find the (2017 - 2) = 2015th term of the repeating sequence.
+To find which term in the repeating sequence corresponds to the 2015th term, we divide 2015 by 6.
+2015 ÷ 6 = 335 with a remainder of 5.
+The remainder of 5 means that the 2015th term in the repeating sequence is the 5th term in the repeating sequence, which is 2.
+Thus the 2017th term of the sequence is 2.
+
+Answer: A)

@@ -1,0 +1,20 @@
+Reasoning:
+Let the given equation be
+$$f(x) + 2f(\frac{2015}{x}) = 4x$$
+We want to find $f(5)$. Substitute $x=5$ into the equation:
+$$f(5) + 2f(\frac{2015}{5}) = 4(5)$$
+$$f(5) + 2f(403) = 20$$
+Now, substitute $x = 403$ into the given equation:
+$$f(403) + 2f(\frac{2015}{403}) = 4(403)$$
+Since $\frac{2015}{403} = 5$, we have
+$$f(403) + 2f(5) = 1612$$
+So we have a system of two equations with two unknowns $f(5)$ and $f(403)$:
+$$f(5) + 2f(403) = 20$$
+$$f(403) + 2f(5) = 1612$$
+From the first equation, we have $2f(403) = 20 - f(5)$, so $f(403) = 10 - \frac{1}{2}f(5)$.
+Substitute this into the second equation:
+$$10 - \frac{1}{2}f(5) + 2f(5) = 1612$$
+$$\frac{3}{2}f(5) = 1602$$
+$$f(5) = \frac{2}{3}(1602) = 2(534) = 1068$$
+
+Answer: C)

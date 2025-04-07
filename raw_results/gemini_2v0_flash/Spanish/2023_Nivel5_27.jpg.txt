@@ -1,0 +1,22 @@
+Razonamiento: Sea el número de tres cifras abc, donde a, b y c son sus dígitos. El número puede representarse como 100a + 10b + c. Queremos encontrar los números tales que (100a + 10b + c) - (a + b + c) = kkk, donde kkk representa un número de tres cifras cuyos dígitos son iguales, es decir, 111k, y k puede tomar valores desde 1 hasta 9. Simplificando la ecuación:
+99a + 9b = 111k
+11a + b = (111/9)k = (37/3)k
+33a + 3b = 37k
+Como a y b son dígitos, a y b son enteros entre 0 y 9. Además, a no puede ser 0 porque abc es un número de tres cifras. Por lo tanto, 1 <= a <= 9 y 0 <= b <= 9.  También, 37k debe ser divisible por 3, lo que implica que k debe ser divisible por 3. Por lo tanto, k puede ser 3, 6, o 9.
+Caso k = 3:
+33a + 3b = 37 * 3 = 111
+11a + b = 37
+Como 1 <= a <= 9 y 0 <= b <= 9, tenemos que a = 3 y b = 4. Así, el número es 34c, y 34c - (3 + 4 + c) = 333. Entonces 340 + c - (7 + c) = 333. 333 = 333. Esto se cumple para cualquier c (0 al 9). Esto nos da 10 números.
+
+Caso k = 6:
+33a + 3b = 37 * 6 = 222
+11a + b = 74
+Como 1 <= a <= 9 y 0 <= b <= 9, tenemos que a = 6 y b = 8. Así, el número es 68c, y 68c - (6 + 8 + c) = 666. Entonces 680 + c - (14 + c) = 666. 666 = 666. Esto se cumple para cualquier c (0 al 9). Esto nos da 10 números.
+
+Caso k = 9:
+33a + 3b = 37 * 9 = 333
+11a + b = 111
+Como 1 <= a <= 9 y 0 <= b <= 9, tenemos que a = 9 y b = 12. Esto no es posible ya que b debe estar entre 0 y 9.
+En resumen, tenemos 10 números en el caso k=3 y 10 números en el caso k=6, lo cual da un total de 20 números.
+
+Respuesta: D)

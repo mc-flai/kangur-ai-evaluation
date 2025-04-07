@@ -1,0 +1,13 @@
+Reasoning: To find the smallest sum, we should try to create three numbers that are as small as possible. Consider the hundreds digit. Since there is an 8 in the hundreds digit and 5 in the thousands digit, breaking the paper to include the "1953764" as one of the numbers isn't a good choice since that number would be very large. Therefore, we need to break the original number in such a way that all three resulting numbers are small in magnitude. The key is to select cuts that allow for small hundreds, tens, and units digits for all three numbers. For example, a good configuration to start with may be 258 + 1953 + 764 = 2975. Let us try another configuration: 25 + 81 + 953764. This will not lead to smallest number. Also, 2581 + 953 + 764 = 4298. Another good option to test is 258195 + 37 + 64 = 258296. So we want the hundreds digits to be small if possible.
+* 258 + 1953 + 764 = 2975
+* 25 + 81 + 953764 (This is large!)
+* 2581 + 953 + 764 = 4298
+* 258195 + 37 + 64 = 258296 (This is large!)
+* 2 + 5 + 81953764 (Too Large)
+* 25 + 8 + 1953764 (Too Large)
+The best candidate we've found so far is 2975. We will need to exhaustively consider all options to be certain but the next one is 25 + 819 + 53764 (Too Large).
+How about 2581953 + 7 + 64 is clearly greater. 25 + 8195 + 3764 is also greater. 258 + 19 + 53764 is greater. 2 + 58 + 1953764 is far too large. 2581 + 953 + 764 = 4298.
+
+It seems that placing the cuts at 258 + 1953 + 764 results in the smallest sum.
+
+Answer: B)

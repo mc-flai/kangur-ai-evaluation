@@ -1,0 +1,25 @@
+Reasoning:
+Let $S_n$ be the sum of the first $n$ integers, which is given by $S_n = \frac{n(n+1)}{2}$.
+Let $x$ be the number that was crossed out, where $1 \le x \le n$.
+The sum of the remaining numbers is $S_n - x = \frac{n(n+1)}{2} - x$.
+The number of remaining integers is $n-1$.
+The average of the remaining numbers is given as 4.75, so
+$\frac{\frac{n(n+1)}{2} - x}{n-1} = 4.75$
+$\frac{n(n+1)}{2} - x = 4.75(n-1)$
+$n(n+1) - 2x = 9.5(n-1)$
+$n^2 + n - 2x = 9.5n - 9.5$
+$n^2 - 8.5n + 9.5 = 2x$
+$2n^2 - 17n + 19 = 4x$
+Since $1 \le x \le n$, we have $4 \le 4x \le 4n$, so $4 \le 2n^2 - 17n + 19 \le 4n$.
+First consider $2n^2 - 17n + 19 \ge 4$, which gives $2n^2 - 17n + 15 \ge 0$, or $(2n-15)(n-1) \ge 0$. Since $n>1$, $n \ge \frac{15}{2} = 7.5$.
+Next consider $2n^2 - 17n + 19 \le 4n$, which gives $2n^2 - 21n + 19 \le 0$, or $(2n-19)(n-1) \le 0$. Since $n>1$, $n \le \frac{19}{2} = 9.5$.
+Therefore, $7.5 \le n \le 9.5$, which implies $n=8$ or $n=9$.
+If $n=8$, $2(8^2) - 17(8) + 19 = 128 - 136 + 19 = 11$. Then $4x = 11$, so $x = \frac{11}{4} = 2.75$, which is not an integer, so this is not possible.
+If $n=9$, $2(9^2) - 17(9) + 19 = 162 - 153 + 19 = 28$. Then $4x = 28$, so $x = 7$. Since $1 \le x \le n$, we have $1 \le 7 \le 9$, which is valid.
+Thus, $n=9$ and $x=7$.
+
+Reasoning:
+$n=9$, $x=7$
+$\frac{1+2+3+4+5+6+8+9}{8} = \frac{38}{8} = 4.75$
+
+Answer: B)

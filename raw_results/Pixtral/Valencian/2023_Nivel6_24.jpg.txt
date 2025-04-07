@@ -1,0 +1,10 @@
+**Razonamiento**:
+1. El problema nos dice que tenemos un conjunto de 50 números de manera que exactamente 522 multiplicaciones de los números del conjunto dan un número negativo.
+2. Esto implica que hay al menos un par de números negativos en el conjunto, ya que solo los números negativos multiplicados entre sí pueden dar un resultado negativo.
+3. Para encontrar el número de ceros en el conjunto, debemos considerar que los ceros no afectan el resultado de la multiplicación. Es decir, multiplicar cualquier número por cero siempre da cero.
+4. Si hay 50 números en el conjunto y necesitamos exactamente 522 multiplicaciones negativas, esto sugiere que hay más números negativos que ceros.
+5. Dado que necesitamos 522 multiplicaciones negativas, y cada par de números negativos da una multiplicación negativa, podemos inferir que hay al menos 104 pares de números negativos.
+6. Si consideramos que cada par de números negativos requiere dos números negativos, entonces necesitamos al menos 104 números negativos.
+7. Si restamos estos 104 números negativos de los 50 números totales, nos quedan 50 - 104 = -54 números. Esto significa que hay 54 ceros en el conjunto para equilibrar el número total de números en el conjunto.
+
+**Respuesta**: D)

@@ -1,0 +1,9 @@
+Reasoning:
+The question asks how many integers between 2^10 and 2^13 (inclusive) are divisible by 2^10.
+The smallest number in the range is 2^10, which is divisible by 2^10.
+The largest number in the range is 2^13 = 2^(10+3) = 2^10 * 2^3 = 2^10 * 8, which is divisible by 2^10.
+So we are looking for numbers of the form k * 2^10, where k is an integer.
+The smallest k is 1, and the largest k is 8.
+Therefore, the possible values of k are 1, 2, 3, 4, 5, 6, 7, 8. There are 8 values.
+
+Answer: D)

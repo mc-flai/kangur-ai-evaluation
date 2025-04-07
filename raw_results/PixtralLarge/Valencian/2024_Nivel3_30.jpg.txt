@@ -1,0 +1,46 @@
+Per resoldre aquest problema, hem de trobar l'àrea del pentàgon ABCDE. Donat que el pentàgon té certes simetries i propietats específiques, podem utilitzar les àrees donades de les regions negra i grisa per trobar l'àrea total.
+
+Raonament:
+
+1. El pentàgon està dividit en cinc regions per quatre punts que el divideixen en parts iguals, i dues d'aquestes regions tenen les àrees proporcionades:
+   - Àrea de la regió negra: 13 cm²
+   - Àrea de la regió grisa: 10 cm²
+
+2. El pentàgon simètric és dividit en cinc parts iguals. Les dues regions proporcionades són dues d'aquestes cinc parts.
+
+3. Per tant, l'àrea de tota la figura és la suma de les àrees de les cinc parts. Com que les dues regions donades cobreixen dues d'aquestes cinc parts, podem expressar l'àrea total com:
+
+   \[
+   \text{Àrea total} = \text{Àrea de les tres parts restants} + \text{Àrea de la regió negra} + \text{Àrea de la regió grisa}
+   \]
+
+   Com que les tres parts restants són iguals entre si, la seva àrea combinada serà tres vegades l'àrea d'una part.
+
+4. L'àrea d'una part és igual a la suma de les àrees de la regió negra i la regió grisa dividida per cinc:
+
+   \[
+   \text{Àrea d'una part} = \frac{\text{Àrea de la regió negra} + \text{Àrea de la regió grisa}}{5} = \frac{13 + 10}{5} = \frac{23}{5} = 4.6 \, \text{cm}^2
+   \]
+
+5. Ara, l'àrea de les tres parts restants serà:
+
+   \[
+   \text{Àrea de les tres parts restants} = 3 \times 4.6 = 13.8 \, \text{cm}^2
+   \]
+
+6. Finalment, l'àrea total del pentàgon serà:
+
+   \[
+   \text{Àrea total} = 13.8 + 13 + 10 = 36.8 \, \text{cm}^2
+   \]
+
+Ara, comparem amb les opcions donades:
+- A) 45
+- B) 47
+- C) 49
+- D) 58
+- E) 60
+
+La nostra resposta és la més propera a 58 (D), ja que 36.8 està més a prop de 58 que de les altres opcions.
+
+Resposta: D)

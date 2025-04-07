@@ -1,0 +1,20 @@
+Raonament:
+La suma correcta està feta amb dos nombres de dues xifres cadascun. Les xifres disponibles són 2, 3, 6, 7, 8 i 9. Hem de trobar dos nombres de dues xifres, un per cada sumand, utilitzant aquestes xifres (sense repetir-les), i buscar quin és el resultat d'aquesta suma.
+Per intentar trobar la suma, volem maximitzar la suma. Aleshores hem de maximitzar les desenes. Podem provar combinacions com ara 90 + 80. Això ens permetrà usar xifres més baixes per a les unitats.
+Podem provar 9+8 per a les desenes, que és 17. Les unitats podrien ser 7+6, que és 13. Això sembla massa gran. Però les desenes de dos nombres sumats donarien una suma que sigui 67, 68, 69, 76, 97. La suma de dues xifres a les desenes (entre 2, 3, 6, 7, 8, 9) ha de donar un resultat amb una desena 6, 7 o 9. Si triem 2 i 3, és massa baix. Si triem 2 i 6, segueix sent baix. Per tant, hem de triar una parella gran. 9+8=17.
+
+Podem intentar la següent suma, que faci servir les xifres donades i que doni un dels resultats possibles:
+23 + 45 no funciona (el 4 i 5 no són a la llista)
+23+67 = 90 (no)
+23+68 no (no podem)
+23+76 = 99 (no)
+Podem provar una altra cosa. Podem pensar que una de les xifres que tenim és incorrecta. Si pensem que la suma era més petita, podria ser 39+28 = 67
+Provem de fer combinacions de desenes. Podem sumar 2 i 3, 2 i 6, 2 i 7, 2 i 8, 2 i 9, 3 i 6, 3 i 7, 3 i 8, 3 i 9, 6 i 7, 6 i 8, 6 i 9, 7 i 8, 7 i 9, 8 i 9.
+
+Provem amb el resultat que més es repeteix.
+39+28=67
+
+Per tant, la resposta correcta és 67.
+Raonament: La suma de dos nombres de dues xifres amb les xifres 2, 3, 6, 7, 8 i 9, sense repetir-les, pot ser obtinguda amb 39 + 28 = 67 (amb les xifres correctament posicionades).
+
+Resposta: A)

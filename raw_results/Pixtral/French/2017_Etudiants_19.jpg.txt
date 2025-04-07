@@ -1,0 +1,16 @@
+
+Raisonnement :
+1. La figure représente un hexagone régulier avec un côté de longueur 1.
+2. La fleur dessinée est composée des arcs de cercles de rayon 1, dont les centres ne sont pas les sommets de l'hexagone.
+3. Pour trouver l'aire de la fleur, nous devons déterminer comment les arcs de cercles interagissent pour former la fleur.
+4. L'aire de la fleur peut être trouvée en soustrayant l'aire des parties non désirées (les angles) de l'aire totale des cercles.
+
+Calculons l'aire de la fleur :
+- L'aire totale des cercles est donnée par \( \pi \times (rayon)^2 = \pi \times 1^2 = \pi \).
+- Les angles de l'hexagone régulier sont \( \frac{2\pi}{3} \) chacun.
+- Il y a 6 angles dans l'hexagone, donc l'aire totale des angles est \( 6 \times \frac{1}{2} \times (côté)^2 \times \sin(\frac{2\pi}{3}) = 6 \times \frac{1}{2} \times 1^2 \times \frac{\sqrt{3}}{2} = 3 \times \frac{\sqrt{3}}{2} \).
+
+Aire de la fleur :
+\[ \text{Aire de la fleur} = \pi - 3 \times \frac{\sqrt{3}}{2} \]
+
+Réponse : E)

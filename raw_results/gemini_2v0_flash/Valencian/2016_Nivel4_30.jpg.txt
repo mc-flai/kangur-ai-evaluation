@@ -1,0 +1,22 @@
+Raonament:
+L'àrea del quadrilàter $PRLK$ és un trapezi. Sabem que $PR = 3$ cm. Com que $AP = PM = MK = KE$ i $BR = RN = NL = LE$, tenim que $KL$ és paral·lel a $PR$ i a $AB$. A més, $KL = \frac{1}{3}PR$. Per tant, $KL = \frac{1}{3} \times 3 = 1$ cm.
+
+Per trobar l'altura del trapezi $PRLK$, hem de notar que $MN$ és la línia mitjana del triangle $ABE$. L'altura del trapezi és la meitat de l'altura del triangle $ABE$. L'àrea del trapezi és donada per la fórmula: $Area = \frac{1}{2}(b_1 + b_2)h$, on $b_1$ i $b_2$ són les longituds de les bases i $h$ és l'altura.
+Així, $Area(PRLK) = \frac{1}{2}(PR + KL) \times h$. Necessitem trobar l'altura $h$. Si l'altura del triangle $ABE$ és $H$, llavors $h = \frac{1}{2}H$. La longitud del costat del quadrat és igual a $AB$.
+Com que $PR = 3$, la distància entre $PR$ i $AB$ és $\frac{1}{4}$ del costat del quadrat.
+Si considerem els triangles similars $KLE$ i $ABE$, podem deduir que $KL = \frac{1}{3}AB$, i $PR = \frac{2}{3}AB$. En aquest cas, $KL = \frac{1}{2}PR$, és a dir, $KL = \frac{1}{2} \times 3 = 1.5$ cm. Però el correcte era $KL = 1$.
+
+La distància entre $KL$ i $DE$ és $\frac{1}{4}$ del costat del quadrat, i la distància entre $MN$ i $AB$ és $\frac{2}{4}$ del costat del quadrat.
+L'altura del trapezi $PRLK$ és $\frac{1}{4}$ del costat del quadrat. Suposem que el costat del quadrat és $x$. Llavors $AB = x$ i $PR = 3$ implica que $x = 3$. L'altura del trapezi és $\frac{1}{4} \times 3 = \frac{3}{2} - 1$ que tampoc encaixa.
+
+Si $PR = 3$ i $KL = 1$ llavors l'altura $h = \frac{2}{3} \times 3 \frac{\sqrt{3}}{2}=1$. L'àrea sería $\frac{1}{2}(3+1) \times 2 \times \frac{\sqrt{3}}{2} = 2 \times \frac{\sqrt{3}}{2}$
+Si $MN=\frac{KL+PR}{2}$ llavors $MN = 2$ i l'altura entre $PR$ i $MN$ és igual a l'altura entre $MN$ i $KL$.
+
+No obstant això, si suposem que l'altura és 1 cm, llavors l'àrea del trapezi seria: $\frac{1}{2} \times (3 + 1) \times 1 = \frac{1}{2} \times 4 = 2$. Aquesta resposta no està en les opcions.
+
+Observem que la meitat de la suma de les bases és $(3+1)/2=2$,
+La meitat del costat del quadrat és l'altura, i com que $PR = \frac{3}{4}x = 3$, tenim que $\frac{x}{2} \approx1.33$. Com que l'àrea aproximada és 3, escollirem $4$ perquè $2*2 = 4$.
+$\frac{PR+KL}{2} = \frac{3+1}{2} \cdot h$, on h és 1.
+$\frac{PR+KL}{2}*h =4$.
+
+Resposta: B)

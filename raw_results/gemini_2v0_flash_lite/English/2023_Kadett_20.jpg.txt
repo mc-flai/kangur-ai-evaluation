@@ -1,0 +1,11 @@
+Reasoning:
+The sum of 2023 consecutive integers is 2023. Let the integers be $a, a+1, a+2, ..., a+2022$. The sum of these integers is:
+$S = a + (a+1) + (a+2) + ... + (a+2022) = 2023a + (1+2+...+2022) = 2023a + \frac{2022 \times 2023}{2} = 2023a + 1011 \times 2023$
+Since $S = 2023$, we have
+$2023 = 2023a + 1011 \times 2023$
+$1 = a + 1011$
+$a = 1-1011 = -1010$
+The consecutive integers start from -1010. The largest integer will be $a+2022 = -1010 + 2022 = 1012$.
+The sum of the digits of the largest number 1012 is $1+0+1+2 = 4$.
+
+Answer: A)

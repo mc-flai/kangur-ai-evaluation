@@ -1,0 +1,55 @@
+Reasoning:
+We are given two equations:
+1. |x| + x + y = 5
+2. x + |y| - y = 10
+
+We need to find the value of x+y.
+
+Case 1: x >= 0 and y >= 0.
+Then |x| = x and |y| = y.
+The equations become:
+1. x + x + y = 5  => 2x + y = 5
+2. x + y - y = 10 => x = 10
+Substitute x = 10 into equation 1:
+2(10) + y = 5 => 20 + y = 5 => y = -15.
+This contradicts the assumption that y >= 0.
+
+Case 2: x < 0 and y >= 0.
+Then |x| = -x and |y| = y.
+The equations become:
+1. -x + x + y = 5 => y = 5
+2. x + y - y = 10 => x = 10
+This contradicts the assumption that x < 0.
+
+Case 3: x >= 0 and y < 0.
+Then |x| = x and |y| = -y.
+The equations become:
+1. x + x + y = 5 => 2x + y = 5
+2. x - y - y = 10 => x - 2y = 10
+
+Now we have a system of two linear equations:
+1. 2x + y = 5
+2. x - 2y = 10
+
+Multiply equation 1 by 2:
+4x + 2y = 10
+Add this to equation 2:
+4x + 2y + x - 2y = 10 + 10
+5x = 20 => x = 4
+
+Substitute x = 4 into equation 1:
+2(4) + y = 5 => 8 + y = 5 => y = -3
+
+Since x = 4 >= 0 and y = -3 < 0, this case is valid.
+x + y = 4 + (-3) = 1
+
+Case 4: x < 0 and y < 0.
+Then |x| = -x and |y| = -y.
+The equations become:
+1. -x + x + y = 5 => y = 5
+2. x - y - y = 10 => x - 2y = 10
+Since y = 5, this contradicts the assumption that y < 0.
+
+Therefore, the only valid solution is x = 4 and y = -3, and x + y = 1.
+
+Answer: A)

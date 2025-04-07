@@ -1,0 +1,29 @@
+**Raonament:**
+
+1. El problema diu que Joan havia de sumar els nombres positius de l'1 fins a un cert nombre \( n \) i ha sumat dues vegades un nombre.
+2. La suma total obtinguda és 857.
+3. La suma dels nombres de l'1 fins a \( n \) es pot calcular amb la fórmula de la suma d'una sèrie aritmètica:
+   \[
+   S = \frac{n(n+1)}{2}
+   \]
+4. Joan ha sumat dues vegades un nombre, de manera que l'equació esdevé:
+   \[
+   S + x = 857
+   \]
+   on \( x \) és el nombre que ha sumat dues vegades.
+5. Per trobar el valor de \( n \), hem de resoldre la següent equació:
+   \[
+   \frac{n(n+1)}{2} + x = 857
+   \]
+   per a valors de \( n \).
+6. Provem diferents valors de \( n \) per veure quin encaixa amb la condició que \( x \) sigui un nombre positiu.
+7. Per \( n = 40 \):
+   \[
+   \frac{40 \times 41}{2} = 820
+   \]
+   \[
+   820 + x = 857 \implies x = 37
+   \]
+   El nombre que ha sumat dues vegades és 37.
+
+**Resposta:** D) 37.

@@ -1,0 +1,16 @@
+
+La pregunta 30 nos pide determinar cuántas maneras diferentes podemos colocar los números 1, 2, 3 y 4 en las caras de un cubo de tal manera que los números en las caras adyacentes sean diferentes.
+
+**Razonamiento:**
+1. Un cubo tiene 6 caras.
+2. Queremos colocar los números 1, 2, 3 y 4 en estas caras.
+3. Cada cara debe tener un número diferente.
+4. Primero, colocamos el número 1 en una cara. Hay 6 opciones para esto.
+5. Luego, colocamos el número 2 en una cara adyacente al número 1. Hay 4 opciones para esto (ya que una cara está ocupada por el número 1 y dos caras adyacentes a esta están bloqueadas).
+6. Luego, colocamos el número 3 en una cara adyacente al número 2. Hay 3 opciones para esto (ya que dos caras están ocupadas por los números 1 y 2).
+7. Finalmente, colocamos el número 4 en la última cara restante. Hay 2 opciones para esto (ya que dos caras están ocupadas por los números 1, 2 y 3).
+
+Por lo tanto, el número total de maneras de colocar los números es el producto de estas opciones:
+\[ 6 \times 4 \times 3 \times 2 = 144 \]
+
+**Respuesta: E) Es imposible**

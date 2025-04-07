@@ -1,0 +1,15 @@
+Raonament: Sigui $N = \overline{pqrs}$ un nombre de quatre xifres.
+Llavors, podem escriure $N = 100 \cdot \overline{pq} + \overline{rs}$.
+També sabem que $\overline{pq,rs}$ és la mitjana entre $\overline{pq}$ i $\overline{rs}$. Per tant, $\overline{pq,rs} = \frac{\overline{pq} + \overline{rs}}{2}$.
+Multiplicant per 100, tenim $\overline{pqrs} = \frac{100 \overline{pq} + 100 \overline{rs}}{2}$.
+Però $\overline{pqrs} = 100 \overline{pq} + \overline{rs}$.
+Així que $100 \overline{pq} + \overline{rs} = \frac{100 \overline{pq} + 100 \overline{rs}}{2}$.
+Multiplicant per 2, obtenim $200 \overline{pq} + 2 \overline{rs} = 100 \overline{pq} + 100 \overline{rs}$.
+Restant termes, $100 \overline{pq} = 98 \overline{rs}$.
+Dividint per 2, $50 \overline{pq} = 49 \overline{rs}$.
+Com que 50 i 49 són coprimers, $\overline{pq}$ ha de ser múltiple de 49 i $\overline{rs}$ ha de ser múltiple de 50.
+Però $\overline{pq}$ i $\overline{rs}$ són nombres de dues xifres, així que $\overline{pq} = 49$ i $\overline{rs} = 50$.
+Llavors, $N = 4950$.
+La suma dels dígits de N és $4+9+5+0=18$.
+
+Resposta: B)

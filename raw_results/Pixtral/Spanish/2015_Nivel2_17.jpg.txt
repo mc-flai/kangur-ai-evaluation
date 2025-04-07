@@ -1,0 +1,24 @@
+La pregunta 17 en la imagen dice: "Cayeron 1700 gotas de lluvia en un nuevo día de 230 páginas. De estas 1700 gotas, cada una cayó en una página diferente de los libros, y 5 de los salarios fueron destruidos. Empieza a leer en el domingo. ¿Qué día de la semana será la última página de la semana siguiente?"
+
+Para determinar el día de la semana de la última página, necesitamos seguir estos pasos:
+
+1. **Calcular el número de páginas restantes después de que 1700 gotas cayeron en páginas diferentes:**
+   - Si cada gota cayó en una página diferente, entonces 1700 páginas fueron afectadas.
+   - Restar estas páginas del total de páginas disponibles: 230 páginas - 1700 páginas = -1470 páginas.
+   - Esto indica que no es posible ya que no puede haber más páginas que las disponibles.
+
+2. **Determinar el día de la semana después de 1700 gotas cayeron:**
+   - El problema menciona que 5 salarios fueron destruidos, pero esto no afecta directamente el día de la semana.
+   - El problema comienza en domingo y pregunta por el día de la semana después de 1700 gotas.
+
+3. **Identificar el día de la semana después de 1700 gotas:**
+   - Si comenzamos en domingo y avanzamos 1700 días, podemos usar el módulo para encontrar el día de la semana.
+   - 1700 % 7 = 4 (ya que 1700 es divisible por 7, pero nos interesa el residuo).
+   - Esto significa que 1700 días después de domingo es el cuarto día de la semana, que es miércoles.
+
+4. **Determinar el día de la semana de la última página:**
+   - Si el miércoles es el día después de 1700 gotas, entonces la última página de la semana siguiente será el miércoles.
+
+Por lo tanto, el día de la semana de la última página es miércoles.
+
+**Respuesta: D)**

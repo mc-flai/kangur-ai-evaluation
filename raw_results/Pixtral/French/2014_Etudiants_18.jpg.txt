@@ -1,0 +1,54 @@
+Pour déterminer la valeur de \( a \) dans la fonction \( f(x) = ax + b \), nous devons utiliser les informations fournies sur les valeurs de \( f(f(1)) \) et \( f(f(0)) \).
+
+1. **Évaluation de \( f(f(1)) \)** :
+   - \( f(1) = a \cdot 1 + b = a + b \)
+   - \( f(f(1)) = f(a + b) = a(a + b) + b \)
+   - Nous savons que \( f(f(1)) = 21 \)
+   - Donc, \( a(a + b) + b = 21 \)
+
+2. **Évaluation de \( f(f(0)) \)** :
+   - \( f(0) = a \cdot 0 + b = b \)
+   - \( f(f(0)) = f(b) = ab + b \)
+   - Nous savons que \( f(f(0)) = 5 \)
+   - Donc, \( ab + b = 5 \)
+
+3. **Système d'équations** :
+   - \( a(a + b) + b = 21 \)
+   - \( ab + b = 5 \)
+
+   En simplifiant le second équation, nous obtenons :
+   - \( b(a + 1) = 5 \)
+   - Donc, \( b = \frac{5}{a + 1} \)
+
+   En substituant \( b \) dans la première équation :
+   - \( a \left( \frac{5}{a + 1} \right) + \frac{5}{a + 1} = 21 \)
+   - \( \frac{5a + 5}{a + 1} = 21 \)
+   - \( 5a + 5 = 21(a + 1) \)
+   - \( 5a + 5 = 21a + 21 \)
+   - \( 5a - 21a = 21 - 5 \)
+   - \( -16a = 16 \)
+   - \( a = -1 \)
+
+   Cependant, nous devons vérifier si \( b \) est un nombre entier. En utilisant \( b = \frac{5}{a + 1} \) :
+   - \( b = \frac{5}{-1 + 1} \) est indéterminé, ce qui signifie que \( a \) ne peut pas être -1.
+
+   Reconsidérons les valeurs possibles de \( a \) parmi les options données.
+
+   Si \( a = 1 \) :
+   - \( b = \frac{5}{1 + 1} = \frac{5}{2} \) (non entier)
+
+   Si \( a = 2 \) :
+   - \( b = \frac{5}{2 + 1} = \frac{5}{3} \) (non entier)
+
+   Si \( a = 3 \) :
+   - \( b = \frac{5}{3 + 1} = \frac{5}{4} \) (non entier)
+
+   Si \( a = 4 \) :
+   - \( b = \frac{5}{4 + 1} = \frac{5}{5} = 1 \) (entier)
+
+   Si \( a = 5 \) :
+   - \( b = \frac{5}{5 + 1} = \frac{5}{6} \) (non entier)
+
+   Donc, \( a = 4 \) est la seule valeur qui rend \( b \) entier.
+
+**Réponse : D)**

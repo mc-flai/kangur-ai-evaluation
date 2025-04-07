@@ -1,0 +1,16 @@
+Raisonnement : On nous donne les distances VL, LS et LG. On nous demande laquelle des distances VS est impossible. Nous pouvons schématiser les villages sur une ligne droite. Puisque la distance LG est de 20km et la distance VG de 75km, on peut supposer plusieurs configurations possibles pour l'ordre des villages. Par exemple, V-G-L avec une distance GL de 20km, ce qui implique une distance VL de 55km. On sait que LS = 45km. On peut envisager plusieurs configurations possibles, en partant du principe que la distance entre V et G est de 75 km, la distance entre L et S est de 45 km, et la distance entre L et G est de 20 km. Pour éliminer les possibilités, on peut tenter de positionner les points et calculer VS.
+
+Si on a V-G-L, alors GL = 20 km et donc VL = VG + GL = 75 + 20 = 95km, et donc comme LS = 45km, la distance VS peut être de 50 km (VL - LS) ou 140km (VL + LS).
+Si on a G-V-L, alors GL = 20km et donc VL = 75km, donc comme LS = 45km, la distance VS peut être de 50 km (VL - LS) ou 120km (VL + LS).
+Si on a L-G-V, alors GL = 20 km et donc VL = VG - GL = 75 - 20 = 55 km. LS = 45km, donc VS peut être 100 km ou 10km.
+
+En regardant les réponses proposées, on se rend compte qu'il n'y a pas de réponse évidente.
+On peut voir aussi que si on calcule la distance entre V et S, on peut avoir :
+* VS = VG + GL + LS = 75 + 20 + 45 = 140
+* VS = |VG - (LS + LG)| = |75 - (45 + 20)| = 10
+* VS = |VG - (LS - LG)| = |75 - (45-20)| = 50
+* VS = |VG - LS| = |75 - 45| = 30  (mais G, L, S, V ou V, S, L, G)
+
+En faisant un schéma, on peut constater que la distance de 80km est impossible.
+
+Réponse : C)

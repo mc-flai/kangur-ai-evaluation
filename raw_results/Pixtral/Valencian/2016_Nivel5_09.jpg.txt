@@ -1,0 +1,48 @@
+La pregunta 9 nos pide determinar la diferencia entre las áreas de las dos partes blancas de dos círculos que se intersectan, dados sus radios de 4 y 6 unidades.
+
+Para resolver esto, necesitamos calcular el área de cada círculo y luego encontrar el área de la intersección. Finalmente, encontraremos la diferencia entre las áreas de las dos partes blancas.
+
+1. **Área del círculo A (radio = 4):**
+   \[
+   \text{Área de A} = \pi \times 4^2 = 16\pi
+   \]
+
+2. **Área del círculo B (radio = 6):**
+   \[
+   \text{Área de B} = \pi \times 6^2 = 36\pi
+   \]
+
+3. **Área de la intersección (A ∩ B):**
+   Para dos círculos que se intersectan, la fórmula general para el área de la intersección es:
+   \[
+   \text{Área de la intersección} = r_1^2 \cos^{-1}\left(\frac{d^2 + r_1^2 - r_2^2}{2d r_1}\right) + r_2^2 \cos^{-1}\left(\frac{d^2 + r_2^2 - r_1^2}{2d r_2}\right) - \frac{1}{2} \sqrt{(-d + r_1 + r_2)(d + r_1 - r_2)(d - r_1 + r_2)(d + r_1 + r_2)}
+   \]
+   Donde \( r_1 \) y \( r_2 \) son los radios de los círculos y \( d \) es la distancia entre los centros de los círculos.
+
+   Sin embargo, dado que no se proporciona la distancia entre los centros, asumiremos que los círculos se intersectan de tal manera que la intersección es simétrica y la fórmula simplificada para el área de la intersección es:
+   \[
+   \text{Área de la intersección} \approx \frac{1}{4} \pi (r_1 + r_2)^2
+   \]
+   Sustituyendo los valores:
+   \[
+   \text{Área de la intersección} \approx \frac{1}{4} \pi (4 + 6)^2 = \frac{1}{4} \pi (10)^2 = 25\pi
+   \]
+
+4. **Área de las partes blancas:**
+   - Para el círculo A:
+     \[
+     \text{Área blanca de A} = 16\pi - 25\pi = -9\pi
+     \]
+   - Para el círculo B:
+     \[
+     \text{Área blanca de B} = 36\pi - 25\pi = 11\pi
+     \]
+
+5. **Diferencia entre las áreas blancas:**
+   \[
+   \text{Diferencia} = 11\pi - (-9\pi) = 11\pi + 9\pi = 20\pi
+   \]
+
+**Respuesta: D**
+
+Raonament: Calculamos las áreas de los círculos y la intersección, luego encontramos las áreas blancas y finalmente la diferencia entre estas áreas.

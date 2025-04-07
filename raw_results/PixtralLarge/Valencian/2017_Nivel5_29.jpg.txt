@@ -1,0 +1,51 @@
+Per resoldre aquesta pregunta, primer hem de calcular el volum de la bola sòlida amb un diàmetre de 20 cm.
+
+1. **Calcular el radi de la bola:**
+   El diàmetre de la bola és de 20 cm, per tant el radi (r) és:
+   \[
+   r = \frac{20}{2} = 10 \text{ cm}
+   \]
+
+2. **Calcular el volum de la bola:**
+   El volum (V) d'una esfera es calcula utilitzant la fórmula:
+   \[
+   V = \frac{4}{3} \pi r^3
+   \]
+   Substituint el valor del radi:
+   \[
+   V = \frac{4}{3} \pi (10)^3 = \frac{4}{3} \pi (1000) = \frac{4000}{3} \pi \text{ cm}^3
+   \]
+
+3. **Calcular el volum de les boles buides:**
+   Les boles buides tenen una gruixada de paret de 1 cm, per tant el radi intern és 9 cm.
+   El volum intern (V_intern) és:
+   \[
+   V_{\text{intern}} = \frac{4}{3} \pi (9)^3 = \frac{4}{3} \pi (729) = 972 \pi \text{ cm}^3
+   \]
+   El volum total (V_total) és:
+   \[
+   V_{\text{total}} = \frac{4}{3} \pi (10)^3 = \frac{4000}{3} \pi \text{ cm}^3
+   \]
+   El volum de la gruixada de la bola (V_gruixada) és:
+   \[
+   V_{\text{gruixada}} = V_{\text{total}} - V_{\text{intern}} = \frac{4000}{3} \pi - 972 \pi = \frac{4000}{3} \pi - \frac{2916}{3} \pi = \frac{1084}{3} \pi \text{ cm}^3
+   \]
+
+4. **Calcular el nombre de boles buides necessàries:**
+   El volum de la bola sòlida és:
+   \[
+   \frac{4000}{3} \pi \text{ cm}^3
+   \]
+   El volum de cada bola buida és:
+   \[
+   \frac{1084}{3} \pi \text{ cm}^3
+   \]
+   El nombre de boles buides necessàries (n) és:
+   \[
+   n = \frac{\frac{4000}{3} \pi}{\frac{1084}{3} \pi} = \frac{4000}{1084} \approx 3.69
+   \]
+   Com que no podem tenir una fracció de bola, arrodonim cap amunt a 4 boles buides.
+
+**Raonament:** Hem calculat el volum de la bola sòlida i el volum de la gruixada de les boles buides. Després, hem determinat el nombre de boles buides necessàries per igualar el volum de la bola sòlida.
+
+**Resposta:** B) 4

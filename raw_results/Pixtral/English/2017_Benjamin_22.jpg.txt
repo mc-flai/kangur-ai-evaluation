@@ -1,0 +1,21 @@
+### Reasoning:
+1. We need to determine which key corresponds to the padlock with the question mark.
+2. Each letter on a padlock represents a unique digit, and the same letters mean the same digits.
+3. We are given the following padlocks and their corresponding keys:
+   - Padlock DAD with key 124
+   - Padlock BHD with key 184
+   - Padlock ABD with key ?
+   - Padlock AHD with key ?
+   - Padlock HAB with key ?
+4. By comparing the keys, we can deduce the digits represented by each letter:
+   - D = 1 (from DAD and 124)
+   - A = 2 (from DAD and 124)
+   - H = 8 (from BHD and 184)
+   - B = 1 (from BHD and 184)
+5. Using these values, we can determine the digits for the remaining padlocks:
+   - ABD: A = 2, B = 1, D = 1 → 211
+   - AHD: A = 2, H = 8, D = 1 → 281
+   - HAB: H = 8, A = 2, B = 1 → 821
+6. The key with the question mark must match the digits of the padlock ABD, which is 211.
+
+### Answer: B

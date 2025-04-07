@@ -1,0 +1,12 @@
+Raonament:
+L'equació donada és A * B = 10 + A.
+Podem reorganitzar l'equació com A * B - A = 10, o A * (B - 1) = 10.
+Com que A i B són dígits diferents, hem de trobar factors de 10, on A i (B-1) són dígits.
+Els factors de 10 són 1 i 10, o 2 i 5.
+Cas 1: Si A = 1, llavors B - 1 = 10, que dóna B = 11, però B ha de ser un dígit, així que no és vàlid.
+Cas 2: Si A = 2, llavors B - 1 = 5, que dóna B = 6. Això funciona perquè A i B són dígits diferents (2 i 6).
+Cas 3: Si A = 5, llavors B - 1 = 2, que dóna B = 3. Això funciona perquè A i B són dígits diferents (5 i 3).
+Cas 4: Si A = 10, llavors B - 1 = 1, que dóna B = 2. Però A no pot ser 10 perquè és un dígit.
+Per tant, hi ha dos possibles valors de B: 6 i 3.
+
+Resposta: C)

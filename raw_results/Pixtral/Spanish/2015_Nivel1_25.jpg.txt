@@ -1,0 +1,22 @@
+La pregunta 25 en la imagen solicita que ordenemos las cifras ABCD en un orden creciente de izquierda a derecha, dado que el mayor valor posible para la diferencia entre las cifras DB y AC es 25.
+
+Para resolver esto, debemos identificar qué valores pueden asignarse a las letras A, B, C y D para que la diferencia DB - AC sea exactamente 25.
+
+Razonamiento:
+1. La diferencia DB - AC debe ser 25.
+2. DB debe ser mayor que AC.
+3. DB puede ser representado como 10D + B y AC como 10A + C.
+4. DB - AC = 10D + B - (10A + C) = 25.
+5. Simplificando, obtenemos 10D + B - 10A - C = 25.
+6. Reorganizando términos, obtenemos 10(D - A) + (B - C) = 25.
+7. D - A debe ser un número entero positivo porque DB es mayor que AC.
+8. B - C debe ser un número entero positivo porque DB es mayor que AC.
+9. La mayor diferencia posible con números de una sola cifra es 9 (por ejemplo, 9 - 0).
+10. Por lo tanto, D - A debe ser 2 (ya que 10 * 2 = 20 y 20 + 5 = 25).
+11. D debe ser 2 más que A.
+12. B - C debe ser 5 (para que la ecuación se mantenga).
+13. Si A es 0, entonces D es 2.
+14. Si B es 5 más que C, y C es la mayor cifra posible menor que B, entonces C es 4 y B es 9.
+15. Por lo tanto, las cifras son A = 0, B = 9, C = 4, D = 2.
+
+Respuesta: E)

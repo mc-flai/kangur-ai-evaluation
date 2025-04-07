@@ -1,0 +1,22 @@
+To determine which of the given numbers cannot be the sum of three three-digit numbers built using the digits 1 to 9 (with each digit used exactly once), let's analyze the possible range of sums.
+
+**Reasoning**:
+1. The smallest three-digit number using digits 1 to 9 is 123.
+2. The largest three-digit number using digits 1 to 9 is 987.
+3. Summing the smallest three numbers:
+   - 123 + 456 + 789 = 1368
+4. Summing the largest three numbers:
+   - 129 + 348 + 576 = 1053
+
+Now, we need to check which of the provided options falls outside the possible range of sums (1368 to 1053). We quickly realize that 1053 is incorrect based on the sum calculation above.
+
+5. Checking each option:
+   - (A) 1500: This is larger than the maximum possible sum of 1368.
+   - (B) 1503: This is larger than the maximum possible sum of 1368.
+   - (C) 1512: This is larger than the maximum possible sum of 1368.
+   - (D) 1521: This is larger than the maximum possible sum of 1368.
+   - (E) 1575: This is larger than the maximum possible sum of 1368.
+
+All given options are larger than the maximum possible sum of three such numbers, thus they all cannot be the sum. However, the options provided are all invalid. If we must choose one option, we can select any, as all options are incorrect.
+
+**Answer**: A).

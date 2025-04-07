@@ -1,0 +1,45 @@
+Razonamiento:
+1.  **Draw the square and points**: Draw a square ABCD with side length 6 cm. Mark the points M, N, P, and Q on the sides as described: MB = 1 cm, BN = 3 cm, DQ = 4 cm, and P is the midpoint of CD (CP=PD=3 cm).
+2.  **Identify the shape**: We are asked to find the area of the quadrilateral MNPQ. The sides of this quadrilateral can be determined as follows:
+    *   AM = AB - MB = 6 - 1 = 5 cm
+    *   MC = BC - BN = 6 - 3 = 3 cm
+    *   QD = AD - AQ = 6 - 4 = 2 cm
+    *   PC = 3 cm
+    *   Calculate the lengths of MN, NP, PQ, and QM:
+        *   MN = sqrt(MB^2 + BN^2) = sqrt(1^2+3^2) = sqrt(10)
+        *   NP = sqrt(PC^2 + CN^2) = sqrt(3^2 + 3^2) = sqrt(18)
+        *   QP = sqrt(QD^2 + DP^2) = sqrt(4^2+3^2) = sqrt(25)=5
+        *   MQ = sqrt(AM^2 + AQ^2) = sqrt(5^2 + 4^2) = sqrt(41)
+3.  **Divide the quadrilateral and calculate the area**: Since the shape doesn't appear to be a regular polygon, compute the area by splitting the quadrilateral into two triangles (e.g., MNP and MPQ):
+    *   Area of triangle MBC = 1/2 \* MB \* BC = 1/2 \* 1 \* 6 = 3
+    *   Area of triangle NDCP = 1/2 \* ND \* PC = 1/2 \* 3 \* 3 = 4.5
+    *   Area of triangle PDQ = 1/2 \* PD \* DQ = 1/2 \* 3 \* 4 = 6
+    *   Area of triangle AMQ = 1/2 \* AM \* AQ = 1/2 \* 5 \* 4 = 10
+    *   Area of square ABCD = 6 \* 6 = 36 cm²
+    *   Area of MNPQ = Area of ABCD - Area of MBC - Area of PCN - Area of PDQ - Area of MAQ
+    *   Area of MNPQ = 36 - 3 - 4.5 - 6 - 10= 12.5
+
+Area(MNPQ) = Area(triangle MBN) + Area(triangle PCN) + Area(triangle PDQ) + Area(triangle MAQ)
+Area(triangle MBN) = (1/2)*1*3=1.5
+Area(triangle PCN) = (1/2)*3*3=4.5
+Area(triangle PDQ) = (1/2)*3*4=6
+Area(triangle MAQ) = (1/2)*5*4=10
+Area(MNPQ) = 36 - 1.5 - 4.5 - 6 - 10= 14
+
+A more direct approach involves the formula for area of a quadrilateral with vertices on the sides of a square
+Area of MNPQ = (1/2) * |(x1-x3)(y2-y4) - (x2-x4)(y1-y3)|
+Let A = (0, 6), B = (0, 0), C = (6, 0), D = (6, 6).
+Coordinates:
+M = (1, 0)
+N = (6, 3)
+P = (3, 6)
+Q = (6, 4)
+Area = 1/2 * |(1-3)(3-4) - (6-6)(0-6)|= 1/2 | (-2)(-1) - 0 | = 1/2 * 2= 1
+Area MNPQ = 36 - 1.5 - 4.5 - 6 - 10 = 14
+
+4.  Area(MNPQ) = Area(ABCD) - Area(AMQ) - Area(MBN) - Area(PCN) - Area(PDQ)
+    = 36 - (1/2)(5)(4) - (1/2)(1)(3) - (1/2)(3)(3) - (1/2)(3)(4)
+    = 36 - 10 - 1.5 - 4.5 - 6 = 14
+
+Answer: C)
+Response: C)

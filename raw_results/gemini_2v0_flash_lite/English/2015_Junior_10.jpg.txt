@@ -1,0 +1,15 @@
+Reasoning: A pentagon has 5 angles. Each angle of a convex pentagon is less than 180 degrees. A right angle is 90 degrees.  The sum of the interior angles of a pentagon is (5-2)*180 = 540 degrees.
+If there are 'n' right angles, the remaining 5-n angles must sum to 540 - 90n.
+Since each of the 5-n angles must be less than 180 degrees, then
+540 - 90n < (5-n)*180.
+540 - 90n < 900 - 180n
+90n < 360
+n < 4.
+We also know that at least some angles might be zero. Since the angles must be less than 180 degrees, the smallest possible value for n is 0. For n = 0, then we have 540 degrees divided among 5 angles, and since the angles must be less than 180, then n=0 is possible (540/5=108 <180).
+If n = 1, then the remaining 4 angles sum to 450 degrees (540-90). 450/4 = 112.5 < 180, thus n=1 is possible.
+If n = 2, then the remaining 3 angles sum to 360 degrees (540-180). 360/3=120 < 180, thus n=2 is possible.
+If n = 3, then the remaining 2 angles sum to 270 degrees (540-270). 270/2=135 < 180, thus n=3 is possible.
+If n = 4, then the remaining 1 angle sums to 180 degrees (540-360). But it cannot be 180. Thus n=4 is not possible.
+Thus, the possible values for n are 0, 1, 2, and 3.
+
+Answer: C)

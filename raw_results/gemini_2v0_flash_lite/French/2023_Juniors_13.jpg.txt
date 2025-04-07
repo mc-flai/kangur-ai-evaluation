@@ -1,0 +1,16 @@
+Raisonnement :
+1. On nous dit que le pentagone GHIJK est divisé en quatre triangles de même périmètre.
+2. Le triangle IJK est équilatéral. Si le périmètre de IJK est p, alors chaque côté de IJK est p/3.
+3. Puisque les trois triangles IHF, GFH et FGK sont isocèles et ont des côtés égaux, alors les côtés IH, GF et FK sont égaux et donc IH = GF = FK = p/3.
+4. Le périmètre du pentagone GHIJK est la somme des longueurs de ses côtés. Donc périmètre(GHIJK) = GH + HI + IJ + JK + KG = GF + HI + IJ + JK + FK = p/3 + p/3 + p/3 + p/3 + p/3 + p = 5 * p/3 + p/3 + 2*p/3 = 5p/2 + 2p/3. Non, une erreur dans le dernier calcul, mais il est clair que l'on a deux p/3 et on le déduit avec les longueurs des côtés. On cherche donc GH + HI + IJ + JK + KG = GF + HI + IJ + JK + FK.
+5. Le triangle IJK a un périmètre de p, et IJK = IJ = JK = p/3. Les trois autres triangles ont des côtés qui se chevauchent avec le triangle IJK.
+6. On sait aussi que les trois triangles IHF, GFH, et FGK ont leurs côtés égaux et sont isocèles.
+7. On peut donc déduire que HI=GF et FK=FG.
+8. Les côtés du pentagone sont GH, HI, IJ, JK, KG. Donc GH = GF, et KG = FK.
+9. On sait que IJK a un périmètre de p. Donc IJ=JK=IK=p/3.
+10. Le périmètre du pentagone = GH + HI + IJ + JK + KG.
+11. Puisque HI = GF, et FG = GH et KG = FK, on peut réécrire ça comme GF+HI+IJ+JK+FK
+12. Puisque les triangles ont le même périmètre, et que IJK est un triangle équilatéral de périmètre p, les autres triangles doivent avoir le même périmètre. Donc GFH = p, donc GF + FH + HG= p, mais vu que FG=GH=HI=FK et IJK=IK=IJ=JK, on peut dire que HI = GF = FK = p/3.
+13.  Le périmètre du pentagone est p/3 + p/3 + p/3 + p/3 + p = 5p/2.
+
+Réponse : E)

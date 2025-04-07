@@ -1,0 +1,19 @@
+1. **Identificar el tipus de triangle**:
+   - El quadrat $ABCD$ té costats que mesuren 2.
+   - Els punts $E$ i $F$ són els punts mitjans dels segments $AB$ i $AD$, respectivament.
+   - $G$ és un punt en $CF$ de manera que $3CG = 2GF$.
+   - El triangle $BEG$ és un triangle rectangle, ja que $BE$ i $EG$ són perpendiculars (els punts mitjans en un quadrat formen línies perpendiculars).
+
+2. **Calcular les longituds dels segments**:
+   - $BE = \frac{2}{2} = 1$ (ja que $E$ és el punt mitjà de $AB$).
+   - $EG = \frac{2}{2} = 1$ (ja que $G$ és el punt mitjà de $CF$).
+   - $CG = \frac{2}{3} \times 2 = \frac{4}{3}$ (ja que $3CG = 2GF$ i $CG + GF = 2$).
+
+3. **Calcular l'àrea del triangle $BEG$**:
+   - L'àrea d'un triangle rectangle és $\frac{1}{2} \times \text{base} \times \text{altura}$.
+   - Aquí, la base és $BE = 1$ i l'altura és $EG = 1$.
+   - Per tant, l'àrea del triangle $BEG$ és $\frac{1}{2} \times 1 \times 1 = \frac{1}{2}$.
+
+**Raonament**: El triangle $BEG$ és un triangle rectangle amb base i altura iguals a 1. L'àrea d'aquest triangle és $\frac{1}{2} \times 1 \times 1 = \frac{1}{2}$.
+
+**Resposta**: B) $\frac{4}{5}$.

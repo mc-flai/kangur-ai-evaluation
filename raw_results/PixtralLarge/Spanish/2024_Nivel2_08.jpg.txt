@@ -1,0 +1,15 @@
+**Razonamiento**:
+- Pedro tiene un paquete de 445 gramos y dispone de las pesas: 500, 200, 200, 100, 50, 20, 20 y 5 gramos.
+- Necesitamos encontrar la cantidad mínima de pesas necesarias para equilibrar la balanza.
+- Primero, intentamos encontrar la combinación que sume 445 gramos utilizando el menor número de pesas.
+
+Pasos:
+1. Probemos usar 500 gramos. Tendríamos que restar 55 gramos del otro lado de la balanza, pero no es posible con las pesas disponibles.
+2. Probemos usar 400 gramos (dos pesas de 200 gramos). Tendríamos que restar 45 gramos del otro lado de la balanza, pero no es posible con las pesas disponibles.
+3. Probemos usar 300 gramos (una pesa de 200 gramos y una pesa de 100 gramos). Tendríamos que restar 145 gramos del otro lado de la balanza, pero no es posible con las pesas disponibles.
+4. Probemos usar 400 gramos (dos pesas de 200 gramos) y agreguemos la pesa de 50 gramos. Tendríamos 450 gramos, por lo que necesitamos restar 5 gramos del otro lado de la balanza.
+5. Utilizamos las pesas de 200, 200, 50 y 5 gramos para obtener 445 gramos.
+
+Usamos 4 pesas: 200, 200, 50 y 5 gramos.
+
+**Respuesta**: C)

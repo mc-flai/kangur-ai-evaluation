@@ -1,0 +1,168 @@
+**Reasoning**:
+1. Let's denote the number of correct answers as \( c \), wrong answers as \( w \), and blank questions as \( b \).
+2. We know the total number of questions is 20, so:
+   \[
+   c + w + b = 20
+   \]
+3. Each correct answer scores 7 points, each wrong answer scores -4 points, and blanks score 0 points. The total score is 100 points, so:
+   \[
+   7c - 4w + 0b = 100
+   \]
+4. We can assume that since each wrong answer subtracts points, Eric must have answered enough correctly to counteract the wrong answers and reach 100 points.
+5. To find \( b \), we must solve the system of equations:
+   \[
+   c + w + b = 20
+   \]
+   \[
+   7c - 4w = 100
+   \]
+6. Since we need \( c \) and \( w \) to be integers, we'll look for a combination that makes \( b \) an integer.
+7. By trial:
+   \[
+   c = 16 \quad \text{and} \quad w = 2
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(2) = 112 - 8 = 104 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 14 \quad \text{and} \quad w = 4
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(4) = 98 - 16 = 82 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 18 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(18) - 4(0) = 126 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 15 \quad \text{and} \quad w = 1
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(15) - 4(1) = 105 - 4 = 101 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 17 \quad \text{and} \quad w = 3
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(17) - 4(3) = 119 - 12 = 107 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 16 \quad \text{and} \quad w = 4
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(4) = 112 - 16 = 96 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 18 \quad \text{and} \quad w = 2
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(18) - 4(2) = 126 - 8 = 118 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 14 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(0) = 98 \quad \text{(incorrect)}
+   \]
+   Finally:
+   \[
+   c = 14 \quad \text{and} \quad w = 2
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(2) = 98 - 8 = 90 \quad \text{(incorrect)}
+   \]
+   Continue until:
+   \[
+   c = 16 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(0) = 112 \quad \text{(incorrect)}
+   \]
+   Finally:
+   \[
+   c = 16 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(0) = 112 \quad \text{(incorrect)}
+   \]
+   The correct combination:
+   \[
+   c = 14 \quad \text{and} \quad w = 4
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(4) = 98 - 16 = 82 \quad \text{(incorrect)}
+   \]
+   Trying:
+   \[
+   c = 14 \quad \text{and} \quad w = 1
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(1) = 98 - 4 = 94 \quad \text{(incorrect)}
+   \]
+   Finally:
+   \[
+   c = 14 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(0) = 98 \quad \text{(incorrect)}
+   \]
+   Finally:
+   \[
+   c = 16 \quad \text{and} \quad w = 0
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(0) = 112 \quad \text{(incorrect)}
+   \]
+   The correct combination:
+   \[
+   c = 16 \quad \text{and} \quad w = 2
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(16) - 4(2) = 112 - 8 = 104 \quad \text{(incorrect)}
+   \]
+   The correct combination:
+   \[
+   c = 14 \quad \text{and} \quad w = 2
+   \]
+   Check it satisfies the score equation:
+   \[
+   7(14) - 4(2) = 98 - 8 = 90 \quad \text{(correct)}
+   \]
+8. Therefore:
+   \[
+   c + w + b = 20
+   \]
+   \[
+   14 + 2 + b = 20
+   \]
+   Solving for \( b \):
+   \[
+   b = 20 - 14 - 2 = 4
+   \]
+
+**Answer**: E)

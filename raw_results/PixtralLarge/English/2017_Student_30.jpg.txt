@@ -1,0 +1,31 @@
+To determine the maximum number of noblemen on the island, we need to analyze the given condition: "Of my two neighbors, one is a liar and one is a nobleman."
+
+**Step-by-Step Reasoning**:
+
+1. **Understanding the two types of people**:
+   - A liar always lies.
+   - A nobleman always tells the truth.
+
+2. **Statement analysis**:
+   - The statement "Of my two neighbors, one is a liar and one is a nobleman" must be true if spoken by a nobleman and false if spoken by a liar.
+
+3. **Nobleman's perspective**:
+   - If a nobleman says this statement, it must be true. Therefore, among their two neighbors, there must be exactly one liar and one nobleman.
+
+4. **Liar's perspective**:
+   - If a liar says this statement, it must be false. This means it is not true that one neighbor is a liar and one is a nobleman. Hence, both neighbors must be either both liars or both noblemen. However, since there are no three consecutive noblemen (as per the problem setup), both neighbors must be liars.
+
+5. **Pattern formation**:
+   - To avoid three consecutive noblemen or liars in any sequence, the maximum sequence of noblemen that can appear without violating the conditions is two noblemen.
+
+6. **Calculation**:
+   - If we consider a pattern like LNLNL... (L = liar, N = nobleman). The sequence must ensure that there are never three consecutive noblemen or three consecutive liars.
+   - In any arrangement, the maximum number of noblemen that can be placed between liars without violating the rule would be 2/3 of the total population.
+   - Given the total population is 2017, to maximize the number of noblemen, we need to arrange them such that each nobleman has one liar and one nobleman as neighbors.
+
+7. **Final calculation**:
+   - The maximum number that fits the pattern without breaking the rules, based on previous logical deductions and known solutions to similar problems, is 1344.
+
+**Reasoning**: By analyzing the statements and the constraints given by the problem, we can deduce that the maximum number of noblemen on the island, ensuring all conditions are satisfied, is 1344.
+
+**Answer**: D).

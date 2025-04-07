@@ -1,0 +1,41 @@
+Raonament:
+1. **Analitzar les condicions de la funció:**
+   - f(1) = 1
+   - f(2n) = f(n) + 1 (si l'argument és parell, aplicam la funció al seu argument dividit per 2 i sumam 1).
+   - f(2n + 1) = f(2n) (si l'argument és senar, aplicam la funció a l'argument menys 1).
+
+2. **Aplicar la funció a f(2017):**
+   - 2017 és senar, per tant, f(2017) = f(2016).
+   - 2016 és parell, per tant, f(2016) = f(1008) + 1.
+   - 1008 és parell, per tant, f(1008) = f(504) + 1.
+   - 504 és parell, per tant, f(504) = f(252) + 1.
+   - 252 és parell, per tant, f(252) = f(126) + 1.
+   - 126 és parell, per tant, f(126) = f(63) + 1.
+   - 63 és senar, per tant, f(63) = f(62).
+   - 62 és parell, per tant, f(62) = f(31) + 1.
+   - 31 és senar, per tant, f(31) = f(30).
+   - 30 és parell, per tant, f(30) = f(15) + 1.
+   - 15 és senar, per tant, f(15) = f(14).
+   - 14 és parell, per tant, f(14) = f(7) + 1.
+   - 7 és senar, per tant, f(7) = f(6).
+   - 6 és parell, per tant, f(6) = f(3) + 1.
+   - 3 és senar, per tant, f(3) = f(2).
+   - 2 és parell, per tant, f(2) = f(1) + 1.
+   - Sabem que f(1) = 1, per tant, f(2) = 1 + 1 = 2.
+   - f(3) = f(2) = 2.
+   - f(6) = f(3) + 1 = 2 + 1 = 3.
+   - f(7) = f(6) = 3.
+   - f(14) = f(7) + 1 = 3 + 1 = 4.
+   - f(15) = f(14) = 4.
+   - f(30) = f(15) + 1 = 4 + 1 = 5.
+   - f(31) = f(30) = 5.
+   - f(62) = f(31) + 1 = 5 + 1 = 6.
+   - f(63) = f(62) = 6.
+   - f(126) = f(63) + 1 = 6 + 1 = 7.
+   - f(252) = f(126) + 1 = 7 + 1 = 8.
+   - f(504) = f(252) + 1 = 8 + 1 = 9.
+   - f(1008) = f(504) + 1 = 9 + 1 = 10.
+   - f(2016) = f(1008) + 1 = 10 + 1 = 11.
+   - f(2017) = f(2016) = 11.
+
+Resposta: D)

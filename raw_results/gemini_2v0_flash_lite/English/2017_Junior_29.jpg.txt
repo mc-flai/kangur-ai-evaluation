@@ -1,0 +1,24 @@
+Reasoning:
+The problem asks for the percentage of distributions where the 106-gram weight is on the right side (heavier side). Since the balance is already dipping to the right, the weight on the right side must be greater than the weight on the left side.  The total weight is 101+102+103+104+105+106 = 611. We can place 3 weights on the left and three on the right. We want the situation where the 106 grams are on the right side. Consider all distributions:
+Total possible distributions: 6C3 = 20
+For 106 on the right, the remaining weights are 101,102,103,104,105. Two other weights on the right side are needed to be greater than the weight on the left side
+The other two weights on the right side can be anything. The remaining weights are on the left side.
+When 106 is on the right, let us calculate all possible outcomes and distributions
+1)  106, 105, 104 vs 101, 102, 103 (Right side = 315, Left side = 306. 315 > 306 )
+2)  106, 105, 103 vs 101, 102, 104 (Right side = 314, Left side = 307. 314 > 307)
+3) 106, 105, 102 vs 101, 103, 104 (Right side = 313, Left side = 308. 313 > 308)
+4) 106, 105, 101 vs 102, 103, 104 (Right side = 312, Left side = 309. 312 > 309)
+5)  106, 104, 103 vs 101, 102, 105 (Right side = 313, Left side = 308. 313 > 308)
+6) 106, 104, 102 vs 101, 103, 105 (Right side = 312, Left side = 309. 312 > 309)
+7) 106, 104, 101 vs 102, 103, 105 (Right side = 311, Left side = 310. 311 > 310)
+8) 106, 103, 102 vs 101, 104, 105 (Right side = 311, Left side = 310. 311 > 310)
+9)  106, 103, 101 vs 102, 104, 105 (Right side = 310, Left side = 311. 310 < 311)
+10) 106, 102, 101 vs 103, 104, 105 (Right side = 309, Left side = 312. 309 < 312)
+So, we can have 8 possible outcomes out of 20 distributions.
+The required percentage = (8/10) * 100 = 80%
+Thus, the question must be answered with the correct distribution.
+With the 106 gram weight on the right side and a configuration which is known to have this weight on the right side,
+The possible values are {101,102,103,104,105} and to get the balance to dip to the right,
+8 possible distributions are there that would make this true.
+
+Answer: B)

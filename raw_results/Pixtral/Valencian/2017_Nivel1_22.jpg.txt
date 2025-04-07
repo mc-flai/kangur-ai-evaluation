@@ -1,0 +1,25 @@
+
+La pregunta 22 trata sobre el temps mínim que faran servir tres passatgers en total a l'altre costat del riu, donades les condicions de la barca i els costos de pas.
+
+**Razonamiento:**
+1. La barca tarda 3 minuts en cada viatge.
+2. Els costos de pas són 40, 90 i 70 quilos, respectivament.
+3. La barca no pot transportar més de 120 quilos en un viatge.
+4. Per determinar el temps mínim, cal calcular el temps total de viatges necessaris per transportar els tres passatgers.
+
+   - El primer passatger paga 40 quilos. La barca pot transportar-lo immediatament.
+   - El segon passatger paga 90 quilos. La barca pot transportar-lo immediatament.
+   - El tercer passatger paga 70 quilos. La barca pot transportar-lo immediatament.
+
+   Combinant els costos, el total és 40 + 90 + 70 = 200 quilos. Això és més del límit de 120 quilos per viatge, així que la barca farà dos viatges.
+
+   - Primer viatge: 40 + 90 = 130 quilos (no és possible, així que el primer passatger i el segon passatger viatgen separadament).
+   - Segon viatge: 70 quilos (tercer passatger).
+
+   Els viatges són:
+   - Primer viatge: 40 quilos (primer passatger) + 90 quilos (segon passatger) = 2 minuts.
+   - Segon viatge: 70 quilos (tercer passatger) = 2 minuts.
+
+   El temps total és 2 + 2 = 4 minuts.
+
+**Respuesta:** A)

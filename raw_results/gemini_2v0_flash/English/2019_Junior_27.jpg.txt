@@ -1,0 +1,24 @@
+Reasoning: A plane is uniquely defined by three non-collinear points. A cube has 8 vertices. Any combination of 3 vertices will define a plane. However, we want planes that go through *exactly* 3 vertices.
+The total number of ways to choose 3 vertices from 8 is $\binom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56$.
+
+We must subtract the number of sets of 3 vertices that lie on the same face. There are 6 faces, and each face has 4 vertices. The number of ways to choose 3 vertices from a face is $\binom{4}{3} = \frac{4 \times 3 \times 2}{3 \times 2 \times 1} = 4$. Since there are 6 faces, there are $6 \times 4 = 24$ sets of 3 vertices that lie on the same face.
+Thus, we subtract 24 from 56: $56 - 24 = 32$. However, this is not one of the answer choices.
+
+The other cases of coplanar points are those on the faces of the cube, or 4 vertices on a rectangular cross-section, etc.
+
+However, we are asked for planes that contain *exactly* three vertices. This means we are counting all the combinations of three vertices that define a plane, except we are excluding those that define the six square faces of the cube, or four collinear points.
+There are 8 vertices. Any 3 will determine a plane. Thus, $\binom{8}{3} = 56$. For each of the 6 faces of the cube, there are $\binom{4}{3} = 4$ groups of three vertices on that face. Thus there are $6 \cdot 4 = 24$ cases of three vertices defining the plane of a face. So we have $56 - 24 = 32$. However, none of the options have this.
+
+A cube has 8 vertices. Each of the 6 faces has 4 vertices.
+We can choose any 3 vertices, but not 4 vertices. There are $\binom{8}{3} = \frac{8 \cdot 7 \cdot 6}{3 \cdot 2 \cdot 1} = 56$ combinations. However, we want to choose exactly 3 vertices.
+If 4 vertices are coplanar, then we need to subtract those from the total number of ways to choose 3 vertices from the 4 vertices. The cube has 6 faces, each with 4 vertices. For each of the 6 faces, there are $\binom{4}{3} = 4$ sets of 3 coplanar vertices. Therefore there are $6 \times 4 = 24$ sets of 3 vertices lying on the plane of a face.
+Thus, $56 - 24 = 32$. There are no more planes containing exactly three vertices.
+It's incorrect.
+
+Consider a vertex. There are 7 other vertices. To form a plane, we need to select two more vertices, which can be any of the remaining 6. The number of choices is $\binom{6}{2} = 15$. Each of these choices will uniquely define a plane through the selected 3 vertices. This works for any of the 8 vertices, so we have $15 \times 8$ planes.
+
+Consider a cube with coordinates (0,0,0), (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (1,1,1).
+The number of planes through exactly three vertices is 8.
+
+Reasoning: There are 8 vertices. Three non-collinear vertices will determine a plane.
+Answer: D)

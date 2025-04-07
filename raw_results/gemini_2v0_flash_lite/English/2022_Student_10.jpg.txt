@@ -1,0 +1,14 @@
+Reasoning: Let's denote the coordinates of points A, B, C and D on the straight line as a, b, c, and d respectively. Given:
+*   |a - c| = 12
+*   |b - d| = 18
+We want to find the distance between the midpoints of AB and CD. The midpoint of AB is (a + b)/2 and the midpoint of CD is (c + d)/2.
+The distance between these midpoints is |(a + b)/2 - (c + d)/2| = |(a + b - c - d)/2|.
+
+Now, let's assume the order of points is A, B, C, D.
+*   AC = 12, meaning |a-c| = 12. Since a is to the left of c, c-a=12, or a = c-12
+*   BD = 18, meaning |b-d| = 18. Since b is to the left of d, d-b = 18 or b = d-18
+
+Then we have distance between midpoints as follows:
+|(a+b-c-d)/2| = |(c-12 + d-18 - c - d)/2| = |(-30)/2| = 15.
+
+Answer: E)

@@ -1,0 +1,14 @@
+Razonamiento:
+1. **Trabajar a la inversa:** El problema nos da el número de bolas al final (3) y las acciones realizadas.  Vamos a invertir el proceso para encontrar el número original.
+2. **Revertir cada paso:** En cada paso, Ana saca la mitad y añade 1 bola.  Revertir esto significa:
+   * Restar 1: Antes de añadir la bola, había X-1 bolas.
+   * Doblar: Antes de sacar la mitad, el número de bolas era 2*(X-1).
+
+3. **Iterar cinco veces:**  Aplicaremos esto a la inversa cinco veces, comenzando con las 3 bolas finales:
+    *   **Paso 5:** 3 bolas. Antes de añadir la bola, había 3-1=2.  Antes de sacar la mitad: 2*2 = 4 bolas.
+    *   **Paso 4:** 4 bolas. Antes de añadir la bola, había 4-1=3. Antes de sacar la mitad: 2*3 = 6 bolas.
+    *   **Paso 3:** 6 bolas. Antes de añadir la bola, había 6-1=5. Antes de sacar la mitad: 2*5 = 10 bolas.
+    *   **Paso 2:** 10 bolas. Antes de añadir la bola, había 10-1=9. Antes de sacar la mitad: 2*9 = 18 bolas.
+    *   **Paso 1:** 18 bolas. Antes de añadir la bola, había 18-1=17. Antes de sacar la mitad: 2*17 = 34 bolas.
+
+Respuesta: C) 34

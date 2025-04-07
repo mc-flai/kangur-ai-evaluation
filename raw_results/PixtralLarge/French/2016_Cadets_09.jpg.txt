@@ -1,0 +1,28 @@
+Pour analyser la question 9, nous devons déterminer combien de parcours possibles existent pour une course cycliste partant de Q et arrivant à S, en passant une fois et une seule par chaque route.
+
+### Raisonnement :
+1. **Déterminer les villages de départ et d'arrivée** :
+   - Départ : Q
+   - Arrivée : S
+
+2. **Identifier les routes possibles** :
+   - Observez la figure et identifiez les connexions entre les villages :
+     - Q peut être connecté à P, R et S.
+     - P est connecté à Q et S.
+     - R est connecté à Q et S.
+     - S est connecté à Q, P et R.
+
+3. **Calculer les parcours possibles** :
+   - La course cycliste doit passer par chaque route une seule fois.
+   - Les chemins possibles de Q à S sont :
+     1. Q -> P -> S
+     2. Q -> R -> S
+     3. Q -> S -> P -> R -> S
+     4. Q -> S -> R -> P -> S
+
+   En comptant tous les parcours possibles, nous obtenons 4 parcours distincts.
+
+### Réponse :
+C) 4
+
+Cette réponse est basée sur l'analyse des connexions possibles et le calcul des parcours distincts.

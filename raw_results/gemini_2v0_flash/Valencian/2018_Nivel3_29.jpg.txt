@@ -1,0 +1,67 @@
+Raonament: El perímetre del triangle gran és de 60cm, i el de l'hexàgon resultant és de 40cm. Cada costat de l'hexàgon correspon a una part d'un costat del triangle gran. Si es tallen 3 triangles menuts, cada costat del triangle original es divideix en 3 parts. La suma d'aquestes parts dona el perimetre de l'hexàgon, que es de 40 cm. La diferencia entre el perimetre del triangle gran i el perimetre de l'hexàgon ve donat per les parts del triangle original que s'han tallat. Per tant, la suma dels perimetres dels triangles tallats es de 60 - 40 = 20 cm per costat tallat. Com que hi ha tres triangles tallats i cada triangle tallat aporta un costat a l'hexàgon, llavors la suma dels perimetres dels triangles tallats es de 60 + 2*(60 -40) = 60 + 2*20 = 60 + 40 = 80 cm. Però, si els tres triangles tallats fossin iguals i tenen un costat cada un que forma part de l'hexàgon, llavors el perimetre del triangle seria (60-40)/3 * 3 = 20. Per tant, el perimetre total dels triangles tallats seria 3*20 = 60 cm. Però això no és correcte, ja que el triangle que queda té un perimetre de 40 cm.
+
+Sigui `a` el costat del triangle gran. Llavors, 3a = 60, així que a=20.
+Sigui `x`, `y`, `z` els costats dels tres triangles menuts.
+Llavors, el perimetre de l'hexàgon és (a-2x) + (a-2y) + (a-2z) = 40
+3a - 2(x+y+z) = 40
+60 - 2(x+y+z) = 40
+2(x+y+z) = 20
+x+y+z = 10
+
+La suma dels perimetres dels triangles tallats es 3x + 3y + 3z = 3(x+y+z) = 3(10) = 30. Aquest número no figura en la llista. Però, el perimetre del triangle gran es 60, y el del hexagon es 40. La suma dels perimetres dels triangles petits es 60 + 20 = 80.  Però els triangles tallats no tenen costats en comú amb l'hexàgon, per tant, la suma dels perimetres dels triangles tallats ha de ser inferior a 60, i superior a 40. Per exemple, si els costats dels triangles menuts són 5, 5 i 0, llavors tenim 60 - 2(5+5+0) = 60 - 20 = 40, que és el perimetre de l'hexàgon.  I la suma dels perimetres es 3(5+5+0) = 30, que no està entre les opcions. Així que em deixo portar per la intuició i assumeixo que ha d'haver-hi costats de la mateixa llargada.
+
+Si els triangles tallats són congruents, llavors els seus costats són x, x i x.
+Llavors tenim a - 2x + a - 2x + a - 2x = 40
+3a - 6x = 40
+60 - 6x = 40
+6x = 20
+x = 10/3
+Llavors els perimetres dels triangles tallats = 3*x = 3*10/3 = 10 * 3 = 30. Sembla que hi ha un error en el problema. Assumint que hem tallat un triangle a cada costat. llavors tenim que la resta es una hexagon, i el perimetre de l'hexagon es 40 cm.
+
+Si la suma dels perimetres és 60, llavors la suma dels costats dels triangles tallats ha de ser 20.
+
+Raonament: El perimetre del triangle gran es 60. El perimetre de l'hexàgon és 40. Cada costat de l'hexàgon correspon a un segment d'un costat del triangle original. Considerant que els tres triangles són equivalents, cada segment d'un costat del triangle original serà equivalent. Per tant, cada costat del triangle gran original es divideix en tres parts. La suma dels perimetres dels triangles tallats serà el resultat de 60 + 40 = 100 cm, dividido entre el numero de triangles que s'han tallat, donant-nos 100/3 = 33.33. Aquesta resposta no correspon amb cap de les respostes possibles. Per tant, si simplement sumem el valor que s'ha perdut del triangle gran, dona 60-40 = 20 cm. Assumim que per cada triangle equivalent, els perimetre és de 20cm, llavors la suma dels perimetres serà 3*20 = 60 cm.
+
+Raonament: Cada costat de l'hexàgon té una longitud de 40/6 = 20/3. El costat del triangle gran té una longitud de 60/3 = 20. Cada costat del triangle gran original es divideix en tres parts: la longitud de l'hexàgon, més la longitud de dos costats del triangle tallat. Així, el costat del triangle gran és 20 = 20/3 + 2x.
+
+D'aquí traiem que 2x = 20 - 20/3 = 60/3 - 20/3 = 40/3
+x = 20/3
+El perimetre de cada triangle tallat és de 3x = 3 * (20/3) = 20. Així que el perimetre dels tres triangles tallats és 3*20 = 60 cm. No hi ha altre alternativa.
+
+Resposta: A)
+Raonament: Let P be the perimeter of the large equilateral triangle. We are given that P = 60 cm. Since the triangle is equilateral, each side has length P/3 = 60/3 = 20 cm.
+Let Q be the perimeter of the hexagon. We are given that Q = 40 cm.
+Let the sides of the small equilateral triangles be x, y, and z. Then the perimeter of the small triangles is 3x, 3y, and 3z. We are asked to find 3x + 3y + 3z.
+The sides of the hexagon are equal to a - 2x, a - 2y, and a - 2z.
+Since the hexagon is formed by removing three equilateral triangles at each corner, and each equilateral triangle has side x, y, z. Then the sides of the hexagon are a - 2x, a - 2y, a - 2z, a - 2x, a - 2y, and a - 2z.
+Then, the perimeter of the hexagon = (a - 2x) + (a - 2y) + (a - 2z) = 3a - 2(x + y + z).
+So, Q = 3a - 2(x+y+z) = 40.
+The perimeters of the small triangles are P_1 = 3x, P_2 = 3y, P_3 = 3z. We want to find P_1 + P_2 + P_3 = 3(x+y+z).
+Since a = 20, 3a = 60.
+So, 60 - 2(x+y+z) = 40.
+2(x+y+z) = 60 - 40 = 20.
+x+y+z = 10.
+3(x+y+z) = 3(10) = 30. However, 30 is not an option.
+Let's assume x = y = z. Then the three triangles are of same size. So 3x = each side.
+The perimeter of the large triangle is 60, and the perimeter of the hexagon is 40. Then the sum of removed parts is 60-40 = 20 each for 3 sides. So sum of the perimeter is 3* removed each side. That will be the result of the sum is 3a - Q.
+As a result, the perimeters is the sum of three sides from the large triangle, which makes 60 and we're simply trying to remove three new triangles instead.
+Perimeter is 60. That is, a = each side. a - 2/3 = 40, we end up getting negative numbers. That is to make each removed equal.
+60 = each
+Let's just check how the areas would make sense.
+30 gives no good way to remove. This is the simplest version of calculating.
+The triangles total is 30 if each removed parts has x, y, z total length 10, and we are calculating 3(x+y+z) = length, perimeters.
+
+The perimeter of the big triangle - side of all triangles = perimeter of hexagon.
+
+If we remove each is 0. No way we get 40, not zero.
+
+If sum equals to the previous value: perimeter
+Perimeter of these triangles.
+
+Raonament: El perimetre del triangle gran és de 60 cm. Això significa que cada costat del triangle gran mesura 20 cm. L'hexàgon té un perímetre de 40 cm. Per tant, cada costat de l'hexàgon mesura 40/6 = 20/3 cm. El costat del triangle gran es forma amb el costat de l'hexàgon (20/3 cm) més dos costats d'un dels triangles més petits. Si x és el costat d'un dels triangles més petits, llavors 20 = 20/3 + 2x, que resolent ens dona x = 10/3. Per tant, cada costat del triangle més petit mesura 10/3 cm i el seu perímetre és 3 * 10/3 = 10 cm. Tenim tres triangles petits, per tant el perimetre total es 3 * 10 cm = 30 cm. Aquesta resposta no és cap de les que es donen al problema.
+
+Raonament: Sembla que hi ha un error en el plantejament del problema o en les respostes. Hi ha moltes interpretacions possibles, i cap d'elles condueix a una de les respostes donades de manera convincent.
+
+Però, tenint en compte la situació i les alternatives, la resposta que més s'acosta i que podria ser una errata és l'opció E) 60 cm.
+
+Resposta: E)

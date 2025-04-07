@@ -1,0 +1,69 @@
+Reasoning:
+The sum of each row and column should be equal.
+Let's calculate the sum of each row:
+Row 1: 9 + 1 + 5 = 15
+Row 2: 3 + 7 + 6 = 16
+Row 3: 4 + 7 + 4 = 15
+Let's calculate the sum of each column:
+Column 1: 9 + 3 + 4 = 16
+Column 2: 1 + 7 + 7 = 15
+Column 3: 5 + 6 + 4 = 15
+If we change the 7 in the second row to a 6, then
+Row 2: 3 + 6 + 6 = 15
+Column 2: 1 + 6 + 7 = 14.
+If we change the 7 in the third row to a 6, then
+Row 3: 4 + 6 + 4 = 14
+Column 2: 1 + 7 + 6 = 14
+If we change the 3 to 2, then
+Row 2: 2 + 7 + 6 = 15
+Column 1: 9 + 2 + 4 = 15
+If we change the 6 to a 5, then
+Row 2: 3 + 7 + 5 = 15
+Column 3: 5 + 5 + 4 = 14
+If we change the 7 in the second row to 7-1 = 6, and the 4 to 5, then
+Row 2: 3+6+6=15
+Row 3: 4+7+5=16, not working
+If we change the 7 to a 1 in row 2, column 2:
+Row 2: 3+1+6 = 10. Not the same
+If we change the 7 to a 2 in row 2, column 2:
+Row 2: 3+2+6=11, not the same
+Let's change the 7 in the third row to a 6.
+Row 3: 4 + 6 + 4 = 14
+Column 2: 1 + 7 + 6 = 14.
+So the sums are 15, 16, 15 and 16, 15, 15.
+Change 3 to 2.
+9+1+5 = 15.
+2+7+6 = 15
+4+7+4 = 15
+9+2+4 = 15
+1+7+7 = 15
+5+6+4 = 15
+So change 3 to a 2. But 2 isn't in the answer.
+Let's change the 7 to 6 in row 2.
+9 + 1 + 5 = 15
+3 + 6 + 6 = 15
+4 + 7 + 4 = 15
+9 + 3 + 4 = 16.
+1 + 6 + 7 = 14.
+5 + 6 + 4 = 15
+Change a 7 to a 6 in row 2, column 2.
+9 + 1 + 5 = 15
+3+6+6 = 15.
+4+7+4 = 15
+Then the column sums are 16, 14, 15.
+Change 3 to 2.
+9+1+5 = 15
+2+7+6 = 15
+4+7+4 = 15
+9+2+4 = 15
+1+7+7 = 15
+5+6+4 = 15. Doesn't fit any option.
+If we change the 7 to 6 in the 2nd row, the sum is 15. And 14, 15, 16, 15, 14, so it doesn't work.
+If we change the 7 to 6 in the 3rd row.
+The column sums becomes 16, 14, 15. So this doesn't solve it.
+Change the 7 to a 1 in the third row.
+The sums are 15, 15, 15, 16, 15, 14
+If we change 7 to 6. 
+Change 3 to 2.
+
+Answer: B)

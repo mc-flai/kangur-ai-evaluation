@@ -1,0 +1,19 @@
+**Pregunta:** Tenim una graella de 2x7 caselles pintades de blanc. Si pintem una casella de negre, hem de pintar de gris totes les caselles veïnes que la toquen per un costat. Quina és la quantitat mínima de caselles que hem de pintar de negre perquè no en quedi cap de blanca?
+
+**Opcions:**
+A) 3
+B) 4
+C) 5
+D) 6
+E) 7
+
+**Racionalització:**
+1. Tenim una graella de 2x7, que conté 14 caselles en total.
+2. Si pintem una casella de negre, hem de pintar de gris totes les caselles veïnes que la toquen per un costat.
+3. Per assegurar-nos que no queden caselles blanques, hem de considerar la forma més eficient de pintar les caselles de negre.
+4. Pintar una casella de negre afectarà les caselles veïnes immediates. En una graella de 2x7, cada casella de negre afectarà al màxim 3 caselles veïnes (una a la seva esquerra, una a la seva dreta i una per damunt o per sota).
+5. Per evitar que quedi alguna casella blanca, hem de considerar la graella completa. Pintar una casella de negre i les seves caselles veïnes de gris cobreixà una àrea significativa.
+6. La millor manera de fer això és pintar una seqüència contínua de caselles de negre que cobreixi la graella completa. Això es pot fer pintant les caselles de negre en una línia diagonal o en una seqüència contínua.
+7. Pintant 7 caselles de negre en una seqüència contínua (per exemple, de la casella superior esquerra a la casella inferior dreta), totes les caselles veïnes es pintaran de gris, assegurant que no quedi cap casella blanca.
+
+**Resposta:** E) 7

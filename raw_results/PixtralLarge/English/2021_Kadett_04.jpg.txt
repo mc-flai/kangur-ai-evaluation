@@ -1,0 +1,20 @@
+To determine how many four-digit numbers have the property that their digits, from left to right, are consecutive and in ascending order, we need to analyze the possible sets of digits.
+
+1. Identify the range of digits:
+   - The digits must be consecutive and in ascending order.
+   - The smallest possible digit is 1, and the largest digit can be up to 9.
+   - There must be exactly four digits.
+
+2. Determine the possible sets of four consecutive digits:
+   - The smallest set is 1, 2, 3, 4.
+   - The next possible set is 2, 3, 4, 5.
+   - Continuing this pattern, the next sets are 3, 4, 5, 6; 4, 5, 6, 7; and so on.
+   - The largest possible set is 6, 7, 8, 9, since 7, 8, 9, 10 is not a valid four-digit number.
+
+3. Count the number of valid sets:
+   - The sets are: 1234, 2345, 3456, 4567, 5678, 6789.
+   - There are 6 such sets.
+
+Reasoning: By identifying the possible sets of four consecutive digits in ascending order, we find that there are 6 valid sets.
+
+Answer: B).

@@ -1,0 +1,21 @@
+### Reasoning:
+1. Each building block consists of 5 little cubes.
+2. There are 6 building blocks in total.
+3. The little cubes are either white or grey and cubes of equal color don’t touch each other.
+
+To determine the number of white cubes:
+- Each block must have at least one white cube and one grey cube.
+- Since cubes of equal color don’t touch each other, each block must have the white and grey cubes arranged in such a way that they are alternated.
+
+Possible arrangements for each block:
+- White, White, Grey, Grey, Grey
+- White, Grey, White, Grey, Grey
+- White, Grey, Grey, White, Grey
+- White, Grey, Grey, Grey, White
+
+Each block has exactly 2 white cubes and 3 grey cubes.
+
+Total number of white cubes:
+- 6 blocks * 2 white cubes per block = 12 white cubes
+
+### Answer: C

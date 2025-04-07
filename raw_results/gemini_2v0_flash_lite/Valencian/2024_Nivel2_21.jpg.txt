@@ -1,0 +1,46 @@
+Raonament: The problem asks for the maximum number of balls that can be drawn without getting three balls of the same color in a row. There are 50 yellow balls, 10 white balls and 4 green balls. The key to maximize the number of draws is to draw the balls from the largest color group first. Also, we have to make sure not to have three balls of same color in a row. Let's prioritize yellow balls. We can do it as follows:
+1.  Two yellow balls.
+2.  One white ball.
+3.  Two yellow balls.
+4.  One white ball.
+This can be done with the 10 white balls.  So we have drawn: 2(Y) + 1(W) + 2(Y) + 1(W) + ... + 2(Y) + 1(W) =  2x + 10.  This allows 10 white balls and 20 yellow balls. We are left with 30 yellow balls and 4 green balls.
+We repeat the same pattern :
+5.  Two yellow balls.
+6.  One green ball.
+7.  Two yellow balls.
+8.  One green ball.
+This can be done with the 4 green balls.  So we have drawn: 2(Y) + 1(G) + 2(Y) + 1(G) = 2x + 4.  This allows 4 green balls and 8 yellow balls.  We are left with 22 yellow balls.
+We repeat pattern :
+2(Y) + 2(Y)
+So far we have drawn 20 + 8 + 4 = 32 balls.
+Then we can continue pulling two yellow balls, 22/2 = 11 groups of two.
+The total number of balls: 20 + 10 + 8 + 4 + 22 = 41 + 10 = 44.
+
+Alternatively: We want to find a pattern where we don't have three balls of the same color in a row. We should try to use up the smallest colors first, and the largest color last.
+The green balls are the smallest, let's use those first. At most, we can pull out all greens, so at least 4. Then at most 2 of any other color before we have to use green.
+The white balls come next, we can have at most all of them. Then at most 2 other colors until we have to use white.
+We can pull out all 4 green and all 10 white.
+We can start with the white balls: W Y W Y W Y W Y W Y W Y W Y W Y ...
+2(Y) + 10(W)
+In this sequence we can pull out a maximum of 2 Y balls before pulling a W ball.  After all W are used, and all G are used we can pick up to 2 Y.
+2(Y) + 1(W)
+G can alternate in between as well.
+We want to maximize the number of balls so we should use the color with more balls to prevent having 3 balls of the same color in a row. In our case, yellow balls are the color to use the most.
+The order is: 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W, 2Y, W
+(2 x 10 + 10) = 30 balls.
+Then we can alternate with the green:
+2Y, G, 2Y, G, 2Y, G, 2Y, G
+(2x4+4)=12.  Total now is 30 + 12 = 42 balls.
+2Y, G, 2Y
+Total 42 + 2 = 44 balls.
+
+Consider 2 yellow, 1 white, 2 yellow, 1 white, ... We can do this until we run out of white.
+So we have 2 yellow, 1 white repeated 10 times. This is 30.
+Now we can use the green: 2 yellow, 1 green.
+So we repeat this until the green is done: 2,1 pattern.
+So 2 yellow, 1 green repeated 4 times = 12.
+So now we have used 30 + 12 = 42 balls.
+Now we can pick 2 yellow more, giving 44 balls.
+
+Answer: C) 44
+Resposta: C)

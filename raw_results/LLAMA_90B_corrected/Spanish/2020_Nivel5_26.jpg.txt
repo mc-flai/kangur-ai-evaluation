@@ -1,0 +1,23 @@
+Razonamiento: En este caso, se trata de construir un cubo usando 64 cubos pequeños.
+
+1.  _Para construir este cubo, se necesita un largo y un ancho de cubos pequeños uniforme._
+2.  _Cada cara debe ser cuadrática._
+3.  _Teniendo en cuenta que cada cubo grande estará formado por 4 cubos pequeños en un lado, el número de cubos en cada lado serán dos._
+
+    *   _Necesitaremos 8 cubos por cada lado del cubo, lo que nos daría 8 x 8 = 64 cubos pequeños._
+
+4.  _Si se requieren un total de 64 cubos pequeños, debemos determinar entre el rango de opciones cuál sería la mejor respuesta._
+
+*   _Se puede crear una cara completa con 64 cubos pequeños, teniendo un total de 6 caras en el cubo y la opción más cercana entre opciones sería 34, que estaría formado de 16 cubos pequeños por 4 lados._
+
+    _Por otro lado, el razonamiento alternativo que conduciría a la misma conclusión es: winner228(xx:_ 
+
+    _1-__En un cubo grande el número de cubos más pequeños en cada cara es igual al ancho y el largo de cubos más pequeños en esa dimensión al cuadrado._
+
+    _2-__Si 64 cubos pequeños forman un cubo más grande, hoy no hay solución para que todos los lados tengan el misma cantidad de cubos._
+
+    _3-__Si al cubo se le elimina un cubo pequeño por cada esquina, tendría en total 8 en cada cara. 60 es de tal forma, cubosaretos soluciones ser de 56, 21 y 9—for ios lados._ 
+
+    _4-__Cuando nos expondríamos posibilidades de tener más de 64_ cubes_los sería para visualizar expondo arbitrario tres angulomes de cubos pequeñomas pequeños y dos grandes en caras cuadráticas de 28 cubos tras extraer 8 de las esquinas._
+
+Respuesta: C).

@@ -1,0 +1,22 @@
+Raonament: Volem trobar l'expressió general per a $n$ tal que $10^n + 1$ sigui múltiple de 11.
+Si $n = 1$, llavors $10^1 + 1 = 11$, que és múltiple de 11.
+Si $n = 2$, llavors $10^2 + 1 = 101$, que no és múltiple de 11.
+Si $n = 3$, llavors $10^3 + 1 = 1001 = 11 \cdot 91$, que és múltiple de 11.
+Si $n = 4$, llavors $10^4 + 1 = 10001$, que no és múltiple de 11.
+Sembla que $10^n + 1$ és múltiple de 11 si $n$ és imparell.
+Si $n = 2m + 1$, llavors $n$ és imparell.
+
+Considerem $10^n + 1 \pmod{11}$. Notem que $10 \equiv -1 \pmod{11}$.
+Aleshores, $10^n + 1 \equiv (-1)^n + 1 \pmod{11}$.
+Perquè $10^n + 1$ sigui múltiple de 11, necessitem $(-1)^n + 1 \equiv 0 \pmod{11}$.
+Això passa quan $n$ és imparell, és a dir, $n = 2m + 1$ per a algun enter $m$.
+
+Vegem les altres opcions:
+A) $n = 2m$: Si $n=2$, $10^2 + 1 = 101$ no és múltiple de 11.
+C) $n = 4m$: Si $n=4$, $10^4 + 1 = 10001$ no és múltiple de 11.
+D) $n = 4m + 1$: Si $n=1$, $10^1 + 1 = 11$ és múltiple de 11. Si $n=5$, $10^5 + 1 = 100001 = 11 \cdot 9091$ és múltiple de 11. Però $n = 2m + 1$ ja cobreix aquest cas.
+E) $n = 4m + 2$: Si $n=2$, $10^2 + 1 = 101$ no és múltiple de 11.
+
+La millor opció és $n = 2m+1$.
+
+Resposta: B)

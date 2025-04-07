@@ -1,0 +1,27 @@
+Reasoning: To solve this question, we need to understand the pattern of removal of tiles and then count the remaining tiles after each set of removals. The pattern is as follows:
+
+1. Adam removes every sixth tile.
+2. Then Beate removes every fifth of the remaining tiles.
+3. Subsequently Cora removes every fourth of the remaining tiles.
+
+Let's calculate the number of tiles left after each set of removals:
+
+**Initial tiles:** 2022
+
+**After Adam's removals (every sixth tile):**
+
+2022 / 6 = 337 tiles remaining
+
+**After Beate's removals (every fifth of the remaining tiles):**
+
+337 / 5 = 67 tiles remaining
+
+**After Cora's removals (every fourth of the remaining tiles):**
+
+67 / 4 = 16.75 tiles remaining
+
+Since you cannot have a fraction of a tile, Cora will remove the remaining tiles, leaving 16 tiles.
+
+Therefore, the number of tiles left is **16**.
+
+Answer: A) 16

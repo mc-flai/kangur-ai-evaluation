@@ -1,0 +1,26 @@
+Reasoning:
+A number is divisible by 18 if it is divisible by both 2 and 9. Divisibility by 2 means the last digit must be even. Divisibility by 9 means the sum of the digits must be divisible by 9.
+Let the three-digit number be $abc$. Since it's balanced, $b = \frac{a+c}{2}$, which means $2b = a+c$. Since it's divisible by 18, $c$ must be even, and $a+b+c$ must be divisible by 9. Substituting $a+c = 2b$, we get $b + 2b = 3b$ is divisible by 9. This implies $b$ must be divisible by 3, so $b$ can be 0, 3, 6, or 9. Since $b$ is the middle digit, $b$ must be one of these numbers.
+If $b=0$, then $a+c = 0$, which means $a=0$ and $c=0$. But $a$ can't be 0 since it's a three-digit number. So $b$ cannot be 0.
+If $b=3$, then $a+c = 6$. Since $c$ must be even, possible values of $c$ are 0, 2, 4, 6. Corresponding values of $a$ are 6, 4, 2, 0. But $a$ can't be 0, so the possible numbers are 630, 432, 234.
+If $b=6$, then $a+c = 12$. Since $c$ must be even, possible values of $c$ are 0, 2, 4, 6, 8. Corresponding values of $a$ are 12, 10, 8, 6, 4. But $a$ must be a single digit, so $a$ can only be 8, 6, 4. This gives us 864, 666, 468.
+If $b=9$, then $a+c = 18$. Since $c$ must be even, possible values of $c$ are 0, 2, 4, 6, 8. Corresponding values of $a$ are 18, 16, 14, 12, 10. But $a$ must be a single digit, so $c$ can only be 8 and $a=10$, so $c$ can only be 0 and the corresponding value of $a = 18-0 = 18 > 9$, no combinations work. The other possibilities for $c$ are: possible values of $c$ are 2, 4, 6, 8. Corresponding values of $a$ are 16, 14, 12, 10. There are also no values for $c = 0, 2, 4, 6, 8, $ such that $a$ is a single digit between 1-9, so this is incorrect.
+We made an error. Possible values for $a$ are 1 through 9. $c = 18 -a$. $c$ must be an even digit between 0 and 8. Then the possible values for $a$ are: 10, 12, 14, 16, none of these work since they must be greater than 9. Then consider $c = 0, 2, 4, 6, 8$
+When c=0, a=18 not possible
+When c=2, a=16 not possible
+When c=4, a=14 not possible
+When c=6, a=12 not possible
+When c=8, a=10 not possible
+There are no values for $b=9$.
+
+So we have 630, 432, 234, 864, 666, 468.
+630 is divisible by 18 (630/18 = 35)
+432 is divisible by 18 (432/18 = 24)
+234 is divisible by 18 (234/18 = 13)
+864 is divisible by 18 (864/18 = 48)
+666 is divisible by 18 (666/18 = 37)
+468 is divisible by 18 (468/18 = 26)
+
+There are 6 such numbers.
+
+Answer: C)

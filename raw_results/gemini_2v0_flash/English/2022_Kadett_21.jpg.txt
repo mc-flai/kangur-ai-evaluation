@@ -1,0 +1,67 @@
+Reasoning: Let the numbers in the 3x3 table be represented as follows:
+a b c
+d e f
+g h i
+We are given a=2, c=4, i=3 and we need to find g.
+The condition states that the sum of four numbers in each 2x2 area is the same. Therefore,
+a+b+d+e = b+c+e+f = d+e+g+h = e+f+h+i
+We are interested in finding 'g'.
+Consider the 2x2 squares in the corners:
+2+b+d+e = 4+b+e+f
+2+d+b+e = 3+h+e+f
+So, we have 2+d+b+e = sum, and we also have g+h+d+e=sum and we want g.
+We also know that the sum of the top right 2x2 is equal to 4+b+e+f, and the bottom right is equal to f+e+3+h. Therefore 4+b+e+f = f+e+3+h, and hence 4+b=3+h. So h = 1+b.
+
+We also know the sum of the top left 2x2 is equal to the bottom right 2x2.
+2+b+d+e = 3+h+e+f, therefore 2+b+d = 3+h+f. And, h = 1+b, and 1+b=h. Therefore 2+b+d=3+1+b+f or d=2+f. Now g=2 because g+h+d+e = 2+b+d+e implies that g=2. Then h = sum-d-e =sum-e-f-2 =1+b and g=sum -h-d-e.  If we consider the fact that a,c, i and g are opposite corners it's worth testing 1 which makes sense as the corners would be 2, 4, 3, 1
+The sums will be 2+b+d+e = 4+b+e+f = 1+d+h+e = 3+h+e+f.
+If we try g=1, let's write a=2, c=4, i=3, g=1.
+We need the sums of each 2x2 to be the same, say S.
+2+b+d+e=S
+4+b+e+f=S
+1+d+h+e=S
+3+h+e+f=S
+
+2+b+d+e=4+b+e+f -> d-f=2
+1+d+h+e=3+h+e+f -> d-f=2
+So d = f+2
+Then 2+b+f+2+e = 4+b+e+f, so b+f+2+e is const. 
+1+f+2+h+e = 3+h+e+f.
+2+4+b+d=4+b+e+f. But b+d - b+f is 2. 
+
+Let's assume b=1. Then h=2. 
+2+1+d+e=S
+4+1+e+f=S
+1+d+2+e=S
+3+2+e+f=S
+
+d+e = S-3
+e+f = S-5
+d+e=S-3
+e+f=S-5
+d-f=2
+Therefore the answer is g=6.
+
+Reasoning: Consider the top left 2x2 square. Its sum is 2 + (top middle) + (left middle) + (center).
+Consider the bottom right 2x2 square. Its sum is (center) + (right middle) + (bottom middle) + 3.
+Consider the top right 2x2 square. Its sum is 4 + (top middle) + (center) + (right middle).
+Consider the bottom left 2x2 square. Its sum is (bottom left) + (left middle) + (center) + (bottom middle).
+Since all these sums must be equal, we can deduce a relationship between the values in the corners.
+Let x be the value in the bottom left corner. We want to find x.
+Notice that in our first and fourth 2x2 squares, (left middle) and (bottom middle) cancel out with (left middle) and (bottom middle)
+So 2 + center = x + center
+=> x=5
+So we have 2 + (top middle) + (left middle) + (center) = 3 + (bottom middle) + (right middle) + (center).
+So 2+2+3+x=constant sum x will be 6.
+
+The corners have to satisfy the below:
+2 + bottom right cell number = 3 + top left cell number
+so 2+3 = x+4
+
+Consider the top left and bottom right 2x2 squares.
+Then 2+b+d+e = 3+h+e+f. Also, consider the top right and bottom left 2x2.
+4+b+e+f = x+d+h+e
+
+Summing up all 2x2 boxes is equal. It could be seen 2+3=x+4. x = 6.
+
+Answer: E)

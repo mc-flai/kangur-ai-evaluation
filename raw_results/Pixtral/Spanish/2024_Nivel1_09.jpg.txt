@@ -1,0 +1,39 @@
+Para resolver el problema, necesitamos determinar qué número debe colocarse en la celda central de la cuadrícula 5x5 para que todos los números en cada fila y columna sean diferentes.
+
+1. **Identificar las celdas ya llenas**:
+   - La cuadrícula tiene los siguientes números ya llenos:
+     ```
+     5  5  ?
+     1  ?  4
+     2  ?  ?
+     3  ?  ?
+     ```
+
+2. **Determinar las restricciones**:
+   - Cada fila y cada columna deben contener los números 1, 2, 3, 4 y 5 sin repeticiones.
+   - La celda central está marcada con un signo de interrogación (?).
+
+3. **Analizar las filas y columnas existentes**:
+   - La primera fila ya tiene dos 5. Esto significa que la tercera celda de la primera fila debe ser diferente de 5.
+   - La segunda columna ya tiene un 5 en la primera fila y un 4 en la tercera fila. Esto significa que la segunda celda de la segunda columna debe ser diferente de 5 y 4.
+
+4. **Determinar el número para la celda central**:
+   - La celda central está en la intersección de la segunda fila y la segunda columna.
+   - La segunda fila ya tiene un 1 y un 2. Esto significa que la tercera celda de la segunda fila debe ser diferente de 1 y 2.
+   - La segunda columna ya tiene un 5 en la primera fila y un 4 en la tercera fila. Esto significa que la segunda celda de la segunda columna debe ser diferente de 5 y 4.
+   - El número que cumple con estas restricciones es 3.
+
+5. **Verificar la solución**:
+   - Colocando 3 en la celda central, la cuadrícula se ve así:
+     ```
+     5  5  3
+     1  2  4
+     2  3  1
+     3  4  2
+     4  1  5
+     ```
+   - Cada fila y cada columna contienen los números 1, 2, 3, 4 y 5 sin repeticiones.
+
+Razonamiento: Al analizar las restricciones de las filas y columnas existentes, determinamos que el número que debe colocarse en la celda central para completar la cuadrícula es 3.
+
+Respuesta: B)

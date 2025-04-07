@@ -1,0 +1,13 @@
+**Reasoning**: 
+1. The 5x5 square has 25 fields, and we need to change the color of three adjacent fields in a horizontal or vertical line in each move.
+2. The desired pattern alternates colors, which means every row and every column needs to have a pattern that alternates between black and white.
+3. Let's break down the moves required:
+   - To achieve this alternating pattern, each row and each column must have 3 adjacent fields changed at a time.
+   - We can start by changing fields in the first row, then proceed to the next rows and columns ensuring alternating colors.
+4. Considering we need to flip fields in a systematic way, we calculate the moves for each row and column.
+5. Since each move affects three fields, we need to change fields in 4 rows and 4 columns.
+6. This totals to 8 moves (4 rows + 4 columns).
+
+However, given the alternating pattern and the constraint of changing exactly three adjacent fields per move, we need at least 12 moves to achieve the desired pattern. This is because we need to flip fields in multiple passes over the rows and columns to ensure proper alternation.
+
+**Answer**: C).

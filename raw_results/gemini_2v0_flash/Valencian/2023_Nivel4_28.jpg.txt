@@ -1,0 +1,29 @@
+Raonament:
+Sigui $l$ el costat del quadrat $ABCD$. Aleshores, $AD = l$ i $AM = \frac{l}{2}$.
+Com que $MN$ és perpendicular a la diagonal $AC$, $\angle MAN = 45^\circ$ i $\angle AMN = 90^\circ$.
+Per tant, $\angle ANM = 45^\circ$, i el triangle $AMN$ és isòsceles rectangle.
+Així, $AM = MN = \frac{l}{2}$.
+L'àrea del triangle $AMN$ és $\frac{1}{2} \cdot AM \cdot MN = \frac{1}{2} \cdot \frac{l}{2} \cdot \frac{l}{2} = \frac{l^2}{8}$.
+El triangle $ADC$ té àrea $\frac{1}{2} \cdot AD \cdot DC = \frac{1}{2} l^2$.
+L'àrea del triangle $ANC$ és $\frac{1}{2} AC \cdot AN \cdot \sin{45} = \frac{1}{2}\cdot AC\cdot AN = \frac{1}{2}\cdot l\sqrt{2} \cdot AN = \frac{l\sqrt{2}}{2}\cdot AN$, on $AN = \frac{AM}{\cos 45^{\circ}} = \frac{l/2}{\sqrt{2}/2} = \frac{l}{\sqrt{2}}$, $AN = \frac{l}{\sqrt{2}}$.
+Sigui $MN$ perpendicular a $AC$ en $P$. Aleshores $\triangle AMP$ és isòsceles rectangle, $AP = \frac{l}{2}\cos{45^\circ}= \frac{l}{2} \frac{\sqrt{2}}{2}=\frac{l\sqrt{2}}{4}$ i $MN= \frac{l}{2} \sin{45} = \frac{l\sqrt{2}}{4}$. Si $AC$ talla $MN$ en $P$ aleshores $MP = \frac{AM \cdot MN}{AC}=\frac{\frac{l}{2} \cdot \frac{l}{2}}{l \sqrt{2}}$. Si $CD=l$, llavors la coordenades dels punts són:
+$A(0,0), M(l/2, 0), C(l,l), D(l, 0)$. L'equació de la línia AC és y=x.  L'equació de MN és $y-0 = -1(x-l/2)$, i $y=-x+l/2$.
+$MN$ i $AC$ intersequen al punt $P$:  $x = -x+l/2$, $2x=l/2, x=l/4=y$.  Així $P=(l/4, l/4)$
+L'àrea del triangle ANC és $\frac{1}{2} AC \cdot NP = \frac{1}{2} l\sqrt{2} \cdot \sqrt{(\frac{l}{2} - \frac{l}{4})^2+ (\frac{l}{4})^2} = \frac{1}{2} \cdot l\sqrt{2} \cdot l/4 \sqrt{2} = \frac{2 l^2}{16}= \frac{1}{8}l^2$
+El trapezi $CDNM = l\cdot l - \frac{l^2}{8} = \frac{7 l^2}{8}$.
+L'àrea de la zona ombrejada és $\frac{1}{2}\frac{l}{2} \frac{\sqrt{2} l}{2} = \frac{\sqrt{2}l^2}{8}$
+
+L'àrea del triangle $AMC = 0.5AM \cdot AD sin90= l^2 / 4.$ Àrea del triangle $NAC = 0.  5*\frac{l\sqrt{2}}{ \sqrt{2} l}*\frac{\sqrt{2}}{2}l^2/sqrt2
+
+Àrea del quadrat és $l^2$. Àrea del triangle $AMN = l^2 /8.$ Però encara cal l'àrea de $CNM$
+
+$\triangle CDMN = AM \cdot CN \cdot sin\theta$
+
+Sia $l = 1$. Coordenades dels punts: $A(0,0), B(1,0), C(1,1), D(0,1), M(0.5,0)$
+
+$N$ està a la recta $x+y = 0.5$ (recta $MN$), on $x^2 + y^2 = AN^2$.
+
+Raonament:
+Sigui el costat del quadrat igual a 2. Llavors l'àrea del quadrat és 4. M és el punt mig de AD, llavors AM = MD = 1. El triangle AMN és isòsceles rectangle, de costat 1. L'àrea del triangle AMN = 1/2. El punt N compleix $y=x$. Per tant AN = raíz(2)*AM raíz(2). L'àrea de la zona ombrejada és = área del quadrat A + MN / area de la trapeza CDNM + el triangle AMN
+
+Resposta: E)

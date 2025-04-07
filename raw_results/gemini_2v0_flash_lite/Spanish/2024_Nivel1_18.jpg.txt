@@ -1,0 +1,6 @@
+Razonamiento:
+1.  **Chalecos:** El patrón de los chalecos es amarillo, verde, amarillo, verde... Este patrón se repite. Dado que hay 60 alumnos, se repite 30 veces (60 alumnos / 2 colores). La mitad de los chalecos serán amarillos, por lo que hay 30 alumnos con chalecos amarillos (60 alumnos / 2 colores).
+2.  **Mochilas:** El patrón de las mochilas es rojo, marrón, naranja, rojo, marrón, naranja... Este patrón se repite. Hay tres colores en el patrón. Para encontrar cuántos alumnos tienen mochilas naranjas, dividimos el número total de alumnos por el número de colores en el patrón: 60 alumnos / 3 colores = 20 alumnos con mochilas naranjas.
+3.  **Combinación:** Para encontrar el número de alumnos con un chaleco amarillo y una mochila naranja, necesitamos analizar la coincidencia de los patrones. El patrón de chalecos tiene amarillo en las posiciones 1, 3, 5, etc. El patrón de mochilas tiene naranja en las posiciones 3, 6, 9, etc. El color naranja de la mochila coincidirá con el color amarillo del chaleco en las posiciones que son múltiplos de 3 y también impares. El patrón de chalecos amarillo coincide con el patrón de mochilas naranja en los múltiplos de 6: 6, 12, 18, 24, 30, 36, 42, 48, 54 y 60. Contando estos múltiplos, se tiene 10 números.
+
+Respuesta: E) 10

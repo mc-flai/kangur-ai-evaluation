@@ -1,0 +1,15 @@
+Raonament: The cube is 5x5x5, which means there are 5 cubes on each edge. To calculate the number of glue drops, we need to find the number of contact faces between the small cubes.
+- Faces in the x-direction: 5 rows x 5 columns = 25 cubes per layer.  Each layer has 4 separations between the cubes, so 4x25 = 100 drops of glue.
+- Faces in the y-direction: 5 rows x 5 columns = 25 cubes per layer.  Each layer has 4 separations between the cubes, so 4x25 = 100 drops of glue.
+- Faces in the z-direction: 5 rows x 5 columns = 25 cubes per layer.  Each layer has 4 separations between the cubes, so 4x25 = 100 drops of glue.
+There are a total of 100+100+50 = 300 drops of glue.
+
+Alternatively, we can calculate as follows:
+The cube is composed of 5x5x5 small cubes. There are 5 layers along each dimension.
+- In the x-direction: 5 layers, there are 4 contacts between adjacent cubes. We have a total of 5x5 cubes in this layer. Therefore, we have 4 x 25 = 100 drops of glue.
+- In the y-direction: 5 layers, there are 4 contacts between adjacent cubes. We have a total of 5x5 cubes in this layer. Therefore, we have 4 x 25 = 100 drops of glue.
+- In the z-direction: 5 layers, there are 4 contacts between adjacent cubes. We have a total of 5x5 cubes in this layer. Therefore, we have 4 x 25 = 100 drops of glue.
+
+Total drops: 100 + 100 + 100 = 300.
+
+Resposta: D)

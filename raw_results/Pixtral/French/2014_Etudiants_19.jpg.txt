@@ -1,0 +1,22 @@
+
+La question 19 demande de vérifier si l'expression \(\frac{1}{m} + \frac{1}{n} + \frac{1}{p} > 1\) est vraie pour les triplets d'entiers \((m, n, p)\) tels que \(1 < p < n < m\).
+
+**Raisonnement :**
+1. Pour que \(\frac{1}{m} + \frac{1}{n} + \frac{1}{p} > 1\) soit vrai, la somme des trois fractions doit être supérieure à 1.
+2. Considérons les valeurs minimales possibles pour \(m\), \(n\) et \(p\) qui satisfont \(1 < p < n < m\).
+3. Les plus petites valeurs possibles pour \(p\), \(n\) et \(m\) qui respectent cette inégalité sont \(p = 2\), \(n = 3\) et \(m = 4\).
+4. Calculons l'expression pour ces valeurs :
+   \[
+   \frac{1}{2} + \frac{1}{3} + \frac{1}{4}
+   \]
+5. Simplifions chaque fraction :
+   \[
+   \frac{1}{2} = 0.5, \quad \frac{1}{3} \approx 0.333, \quad \frac{1}{4} = 0.25
+   \]
+6. Additionnons les fractions :
+   \[
+   0.5 + 0.333 + 0.25 = 1.083
+   \]
+7. Puisque \(1.083 > 1\), l'expression \(\frac{1}{m} + \frac{1}{n} + \frac{1}{p} > 1\) est vraie pour ces valeurs.
+
+**Réponse :** D)

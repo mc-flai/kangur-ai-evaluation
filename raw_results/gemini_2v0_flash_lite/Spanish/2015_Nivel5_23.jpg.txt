@@ -1,0 +1,15 @@
+Razonamiento:
+The question asks how many two-digit numbers can be written as the sum of six (and only six) distinct powers of 2, including 2^0. Powers of 2 are 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16, 2^5=32, 2^6=64, etc.
+Let's consider the smallest sum: 1+2+4+8+16+32=63.
+Since 63 is a two-digit number, there is at least one solution, using the powers 2^0 to 2^5.
+Let's look at another possible set of six distinct powers of 2 that give us a sum within the two-digit range:
+The next lowest sum, must involve one greater power, say 2^6 = 64, which gives 64 + x < 100.
+64 + 1 + 2 + 4 + 8 + 16 = 95. This works.
+The question states that the powers of 2 are distinct, so let's test other combinations:
+The smallest sum is: 1+2+4+8+16+32=63.
+Another possibility is: 1+2+4+8+16+64=95.
+Try to include 32 and 64:
+32+64+1+2+4 = 103, too large.
+No other sums exist.
+
+Respuesta: C) 2

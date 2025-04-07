@@ -1,0 +1,9 @@
+Razonamiento: Sea $r_0$ el radio del círculo más pequeño, que es 2 cm. El área de este círculo es $A_0 = \pi r_0^2 = \pi (2^2) = 4\pi$ cm$^2$. El área de cada corona es igual a $A_0$. Sea $r_n$ el radio del círculo que delimita la corona número $n$, con $r_0 = 2$. El área de la corona número $n$ es $A_n = \pi r_n^2 - \pi r_{n-1}^2$. Como el área de cada corona es igual al área del círculo más pequeño, tenemos $A_n = A_0$, es decir, $\pi r_n^2 - \pi r_{n-1}^2 = 4\pi$. Dividiendo por $\pi$, obtenemos $r_n^2 - r_{n-1}^2 = 4$.
+Para la primera corona (n=1), $r_1^2 - r_0^2 = 4$, con $r_0=2$. Entonces $r_1^2 - 2^2 = 4$, por lo que $r_1^2 = 8$ y $r_1 = \sqrt{8} = 2\sqrt{2}$.
+Para la segunda corona (n=2), $r_2^2 - r_1^2 = 4$, entonces $r_2^2 - 8 = 4$, por lo que $r_2^2 = 12$ y $r_2 = \sqrt{12} = 2\sqrt{3}$.
+Para la tercera corona (n=3), $r_3^2 - r_2^2 = 4$, entonces $r_3^2 - 12 = 4$, por lo que $r_3^2 = 16$ y $r_3 = \sqrt{16} = 4$.
+En general, $r_n^2 = r_{n-1}^2 + 4$. Entonces $r_n^2 = r_0^2 + 4n = 4 + 4n = 4(1+n)$. Por lo tanto, $r_n = \sqrt{4(1+n)} = 2\sqrt{1+n}$.
+Queremos encontrar el valor de $n$ tal que $r_n = 8$. Entonces $8 = 2\sqrt{1+n}$, por lo que $4 = \sqrt{1+n}$ y $16 = 1+n$. Así, $n = 15$.
+Por lo tanto, hay 15 coronas.
+
+Respuesta: E)

@@ -1,0 +1,60 @@
+To determine the number of squares Maria had before making the cuts, we need to consider the properties of the shapes and their vertices.
+
+1. Each square has four vertices.
+2. Each triangle has three vertices.
+3. Let x be the number of squares and y be the number of triangles. Since Maria has ten pieces of paper, we know:
+   \[
+   x + y = 10
+   \]
+4. When Maria cuts each square along one of its diagonals, each square turns into two triangles, increasing the total number of triangles by the number of squares.
+5. The total number of vertices after cutting the squares is given as 48.
+
+Each square contributes 5 vertices after being cut (4 vertices of the original square + 1 vertex shared by the two new triangles). Each triangle contributes 3 vertices.
+
+The equation for the total number of vertices is:
+   \[
+   5x + 3y = 48
+   \]
+
+Using the two equations:
+   \[
+   x + y = 10
+   \]
+   \[
+   5x + 3y = 48
+   \]
+
+We can solve for x and y. First, solve for y in terms of x from the first equation:
+   \[
+   y = 10 - x
+   \]
+
+Substitute y in the second equation:
+   \[
+   5x + 3(10 - x) = 48
+   \]
+   \[
+   5x + 30 - 3x = 48
+   \]
+   \[
+   2x + 30 = 48
+   \]
+   \[
+   2x = 18
+   \]
+   \[
+   x = 9
+   \]
+
+Substitute x back into the first equation to find y:
+   \[
+   y = 10 - 9
+   \]
+   \[
+   y = 1
+   \]
+
+Since x represents the number of squares, Maria had 3 squares before making the cuts.
+
+Reasoning: The calculations show that Maria had 3 squares before cutting them.
+Answer: A).

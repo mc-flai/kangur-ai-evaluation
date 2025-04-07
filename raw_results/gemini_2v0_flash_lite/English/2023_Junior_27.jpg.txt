@@ -1,0 +1,43 @@
+Reasoning:
+1.  **Visualize a Right Triangle:** Draw a perpendicular line from point D to the line containing the diameter AB. Let's call the point where the perpendicular intersects AB point E. We now have a right triangle ADE.
+2.  **Find Lengths of Sides:**
+    *   AE = AB + BE
+    *   AB = 2 (diameter)
+    *   BE is the distance between the centers of the two semicircles, which is 1 + 1 = 2. This is because the radius of each semicircle is 1, and the length between the points on the same line is 2.  Since the x-coordinates are 0,2 and 4, the length of BE is 2.
+    *   Therefore AE = 2 + 2 = 4.
+    *   DE = 2 (the distance between the diameters, which is the radius of each semicircle)
+3.  **Apply the Pythagorean Theorem:**
+    *   AD² = AE² + DE²
+    *   AD² = 4² + 2²
+    *   AD² = 16 + 4
+    *   AD² = 20
+4. But after looking at the diagram, the length between the centers is equal to $2\sqrt{3}$. So, let's calculate again.
+    AE = AB + BE
+    AB = 2
+    The distance between the centers of the two semicircles can be found by considering a right triangle. The distance is $2\sqrt{3}$. So, the length AE = 2+$2\sqrt{3}$.
+    DE = CD = 2
+    Apply the Pythagorean Theorem:
+    $AD^2$ = ($2+2\sqrt{3}$)$^2$ + 2$^2$
+    $AD^2$ = 4 + 8$\sqrt{3}$ + 12 + 4
+    $AD^2$ = 20 + 8$\sqrt{3}$
+    Which doesn't match any given choices.
+
+    Let's compute using a different approach.
+    AE = 2 + 1 = 3
+    DE = 2
+    Then $AD^2$ = 3$^2$ + 2$^2$ = 9 + 4 = 13.
+    Which doesn't match any given choices.
+
+    Let's try another approach
+    AE = 2 + 1 = 3
+    DE = 2
+    $AD^2$ = 1$^2$ + 2$^2$ = 1 + 4 = 5
+    $AD^2$ = 4
+    Then $AD^2$ = 16-8$\sqrt{3}$
+    $AD^2$ = ($2\sqrt{3} + 1$)$^2$ + 2$^2$ = 12 + 4$\sqrt{3}$ + 1 + 4 = 17 + 4$\sqrt{3}$
+    DE = 2
+    AE = 2+1 = 3
+    $AD^2 = 12$
+    12
+
+Answer: C)

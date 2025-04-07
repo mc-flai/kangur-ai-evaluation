@@ -1,0 +1,26 @@
+Para resolver la pregunta 1, necesitamos sumar los múltiplos de 4 que son menores que 2023 y los múltiplos de 3 que son mayores que 2023.
+
+1. Identificar los múltiplos de 4 menores que 2023:
+   - Los múltiplos de 4 son 4, 8, 12, 16, ..., y así sucesivamente.
+   - Para encontrar los múltiplos de 4 menores que 2023, usamos la fórmula \( 4n \) donde \( n \) es un entero.
+   - El mayor múltiplo de 4 menor que 2023 es \( 4 \times 505 = 2020 \).
+   - Por lo tanto, los múltiplos de 4 menores que 2023 son \( 4 + 8 + 12 + \ldots + 2020 \).
+   - La suma de una serie aritmética es dada por \( S = \frac{n}{2} \times (a + l) \), donde \( n \) es el número de términos, \( a \) es el primer término y \( l \) es el último término.
+   - Aquí, \( a = 4 \), \( l = 2020 \), y \( n = 505 \).
+   - Por lo tanto, \( S = \frac{505}{2} \times (4 + 2020) = 252.5 \times 2024 = 509880 \).
+
+2. Identificar los múltiplos de 3 mayores que 2023:
+   - Los múltiplos de 3 son 3, 6, 9, 12, ..., y así sucesivamente.
+   - Para encontrar los múltiplos de 3 mayores que 2023, usamos la fórmula \( 3m \) donde \( m \) es un entero.
+   - El menor múltiplo de 3 mayor que 2023 es \( 3 \times 675 = 2025 \).
+   - Por lo tanto, los múltiplos de 3 mayores que 2023 son \( 2025 + 2028 + 2031 + \ldots \).
+   - La suma de una serie aritmética es dada por \( S = \frac{n}{2} \times (a + l) \), donde \( n \) es el número de términos, \( a \) es el primer término y \( l \) es el último término.
+   - Aquí, \( a = 2025 \), \( l = 2028 \), y \( n = 3 \).
+   - Por lo tanto, \( S = \frac{3}{2} \times (2025 + 2028) = 1.5 \times 4053 = 6079.5 \).
+
+3. Sumar las sumas obtenidas:
+   - \( 509880 + 6079.5 = 515959.5 \).
+
+Razonamiento: Calculamos los múltiplos de 4 menores que 2023 y los múltiplos de 3 mayores que 2023, luego sumamos estos valores.
+
+Respuesta: E)

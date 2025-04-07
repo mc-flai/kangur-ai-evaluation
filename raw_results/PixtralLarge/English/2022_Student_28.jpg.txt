@@ -1,0 +1,26 @@
+
+To analyze question 28, we need to determine the number of integers between \( \sqrt{N^2 + N + 1} \) and \( \sqrt{9N^2 + N + 1} \).
+
+### Reasoning:
+1. **Determine the bounds**:
+   \[
+   \sqrt{N^2 + N + 1}
+   \]
+   Since \( N \) is a positive integer, \( N^2 + N + 1 \) is slightly greater than \( N^2 \), so \( \sqrt{N^2 + N + 1} \) is just above \( N \).
+
+   \[
+   \sqrt{9N^2 + N + 1}
+   \]
+   Similarly, \( 9N^2 + N + 1 \) is slightly greater than \( 9N^2 \), so \( \sqrt{9N^2 + N + 1} \) is just above \( 3N \).
+
+2. **Identify the inclusive range**:
+   The integers between \( \sqrt{N^2 + N + 1} \) and \( \sqrt{9N^2 + N + 1} \) are from \( N+1 \) to \( 3N \).
+
+3. **Count the integers**:
+   The integers in the range \( N+1 \) to \( 3N \) inclusive are:
+   \[
+   3N - (N+1) + 1 = 3N - N = 2N
+   \]
+
+### Answer:
+C).

@@ -1,0 +1,7 @@
+Raonament:
+1.  **Visualització:** Imaginem el procés. Tenim un quadrat de costat 1. Tallem un triangle al llarg d'una diagonal (però no del tot).  Després, imaginem plegar el triangle retallat, encaixant-lo a la part no retallada del quadrat. Això forma un pentàgon.
+2.  **Identificació de costats:**  El pentàgon resultant té quatre costats que provenen del quadrat original. El costat curt del pentàgon serà la línia que hem retallat.
+3.  **Càlcul de la diagonal:**  Si el quadrat té costat 1, la diagonal completa (que inicialment tallàvem, però no del tot) seria √2. La línia que hem retallat és paral·lela a la diagonal, i parteix el quadrat en dues parts, que, quan es dobleguen, fan que la línia retallada del triangle correspongui al costat més curt del pentàgon.
+4.  **Consideracions geomètriques:** La recta que fa el tall és paral·lela a una diagonal, i està a una certa distància d'aquesta.  Si calculem aquesta distància, podrem determinar la longitud del costat més curt del pentàgon. Aquesta distància es pot obtenir mitjançant la semblança de triangles o consideracions trigonomètriques. La línia de tall és paral·lela a una diagonal. Si imaginem la línia de tall, formant part del pentàgon final,  queda clar que el costat curt serà x = 1 - √(2)/2. Si a la línia de tall li diem "x", el costat curt del pentàgon serà 1 - (1 - x) - x = 1 - x - x. Pel teorema de Pitàgores, x² + x² = 1, aleshores, el costat curt és (√2 - 1).
+
+Resposta: A)

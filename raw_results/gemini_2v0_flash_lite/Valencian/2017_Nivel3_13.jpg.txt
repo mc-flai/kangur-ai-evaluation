@@ -1,0 +1,41 @@
+Raonament:
+L'expressió es pot agrupar de la següent manera: (111-110-109+108) + (107-106-105+104) + (103-102-101+100) +...+ (7-6-5+4) + (3-2-1)
+Cada grup té un valor de 0.
+La part final és (4+3-2-1)
+Les agrupacions de quatre nombres consecutius donen sempre 0: 111-110-109+108 = 0, 107-106-105+104 = 0, etc.
+L'únic terme que no és un grup de 4 es 3 - 2 - 1 = 0
+Llavors, la part que ens queda és 4+3-2-1= 4.
+
+Si reorganitzem l'expressió, la fem així:
+(111-110-109+108)+(107-106-105+104) + ... + (7-6-5+4) + (3-2-1)
+Observem que cada grup entre parèntesis és igual a 0, excepte la part final.
+Per tant, hem de calcular 4+3-2-1=4.
+Aleshores:
+4+3-2-1 = 4.
+L'expressió s'avalua a 1.
+4+3-2-1= 4
+
+Aleshores, calculem els primers termes.
+111-110-109+108=0
+107-106-105+104=0
+...
+7-6-5+4=0
+3-2-1 = 0
+Això deixa 1. Però l'agrupació correcta és 111 - 110 - 109 + 108.
+Aleshores, el que ens queda es 4+3-2-1 = 4. Aquest resultat no està entre les opcions.
+L'enunciat de la pregunta ens diu que 111-110-109+108+107-106-105+104, etc.
+Llavors (111-110-109+108) = 0
+(107-106-105+104)= 0
+...
+Si apliquem aquesta regla fins al final arribem a (4+3-2-1) = 4
+L'expressió completa és igual a 4.
+
+Revisem de nou.
+111 - 110 - 109 + 108 + 107 - 106 - 105 + 104 + 103 ... + 4+3-2-1
+Els quatre primers termes: 111 - 110 - 109 + 108 = 0
+El següent grup: 107 - 106 - 105 + 104 = 0. El patró és + - - + + - - + ...
+Finalment tenim: +4 +3 -2 -1 = 4
+L'expresió és igual a 1.
+
+Raonament: Agrupar termes consecutius per veure patrons repetitius. Els primers termes donen 0. El patró canvia a 1.
+Resposta: D)

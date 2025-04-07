@@ -1,0 +1,15 @@
+**Razonamiento**:
+1. El problema describe una secuencia de cubos en el siguiente orden: 3 cubos azules, 2 amarillos, 3 rojos y 4 verdes.
+2. Los cubos rojos están juntos, y los cubos verdes también están juntos.
+3. El décimo cubo desde la izquierda es azul.
+4. Necesitamos determinar el color del sexto cubo desde la izquierda.
+
+Para encontrar el sexto cubo desde la izquierda:
+1. Los primeros 3 cubos son azules.
+2. Los siguientes 2 cubos son amarillos.
+3. Esto nos lleva al quinto cubo, que es el último amarillo.
+4. El sexto cubo desde la izquierda es el primer cubo rojo en el grupo de 3 rojos.
+
+Por lo tanto, el sexto cubo desde la izquierda es rojo.
+
+**Respuesta**: D) rojo

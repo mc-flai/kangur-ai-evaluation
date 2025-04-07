@@ -1,0 +1,21 @@
+Raonament: Volem construir un rectangle amb 30 taules al voltant, deixant el centre buit. Sia *l* la longitud i *w* l'amplada del rectangle, llavors el nombre de taules és 2*(l+w) - 4 = 30. Per tant, l + w = 17. Com que l'amplada i la longitud han de ser enters positius més grans que 1, les possibles combinacions per *l* i *w* són:
+(2, 15), (3, 14), (4, 13), (5, 12), (6, 11), (7, 10), (8, 9), (9, 8), (10, 7), (11, 6), (12, 5), (13, 4), (14, 3), (15, 2).
+Com que les solucions (l, w) i (w, l) donen rectangles essencialment iguals, comptarem només amb l <= w. Així tenim:
+(2, 15), (3, 14), (4, 13), (5, 12), (6, 11), (7, 10), (8, 9).
+Per tant, hi ha 7 maneres. Tanmateix, cap d'aquestes opcions coincideix amb les que es donen a l'enunciat.
+
+Per un rectangle amb 10 taules, tenim 2(l+w)-4=10, per tant l+w=7. Les solucions són (2,5), (3,4).
+Si suposem que les taules del costat han d'estar connectades i formar un únic rectangle, sigui P el perímetre exterior del rectangle i Q el perímetre interior del forat. Llavors P - Q és igual al nombre de taules. Sigui l'amplada del forat w' i l'altura h'. Llavors P = 2l + 2w i Q = 2l' + 2w'. Llavors el nombre de taules és 2(l+w) - 2(l'+w') = 30. En particular, si l'amplada de les taules és 1, llavors l' = l-2 i w' = w-2. En aquest cas, 2(l+w) - 2(l-2+w-2) = 30. Per tant, 2(l+w - l + 2 - w + 2) = 30, llavors 8=30, que no té sentit.
+Si 2(l+w) - 4 = 30, llavors l+w = 17. Les solucions son (1,16), (2,15), (3,14), ..., (8,9). Per tant, n'hi ha 8.
+Si interpretem que són combinacions per fer rectangles diferents amb 30 taules als costats, on les taules formen els costats i el centre és buit, llavors comptem el nombre de parelles (l,w) tals que 2*(l+w)-4 = 30, llavors l+w = 17.
+(1, 16), (2, 15), (3, 14), (4, 13), (5, 12), (6, 11), (7, 10), (8, 9). N'hi ha 8. Com que l'ordre no importa, només ens quedem amb l <= w.
+(1,16), (2,15), (3,14), (4,13), (5,12), (6,11), (7,10), (8,9). Hi ha 8 solucions.
+
+Aquests resultats tampoc coincideixen. Però la que s'hi acosta més és A) 6.
+
+Raonament: Tenim 30 taules per fer un rectangle amb el centre buit. Si l és la longitud i w és l'amplada del rectangle, llavors el perímetre format per les taules és 2l + 2w - 4 (restem 4 perquè els cantons s'han comptat doble). Per tant, 2l + 2w - 4 = 30, llavors l + w = 17. Però no hi ha cap condició sobre els valors de l i w (han de ser iguals o majors que 1, per descomptat).
+(1, 16), (2, 15), (3, 14), (4, 13), (5, 12), (6, 11), (7, 10), (8, 9), (9, 8), (10, 7), (11, 6), (12, 5), (13, 4), (14, 3), (15, 2), (16, 1). Hi ha 16 combinacions possibles, però si assumim que el rectangle (l, w) és el mateix que el rectangle (w, l), llavors hi ha 8 combinacions. Sembla que l'opció més propera és A) 6.
+
+Raonament: Com que l'opció que s'hi acosta més és A) 6 i no veig cap error en el meu raonament, opto per la resposta A.
+
+Resposta: A)

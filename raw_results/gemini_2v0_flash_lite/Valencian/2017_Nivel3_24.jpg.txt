@@ -1,0 +1,27 @@
+Raonament:
+The interior angle of a regular polygon with k sides can only be 90° or 150°. Let's examine the possible values of k:
+*   If the angle is 90°, then all angles are 90°, it is a square, so k = 4.
+*   The interior angle of a regular polygon is given by (k-2)*180/k.
+
+Let's assume all interior angles are 150°. Then, (k-2)*180/k = 150.
+This simplifies to 180k - 360 = 150k, so 30k = 360, and k=12. However, this assumes all interior angles are 150°, if there's at least one angle of 90°, we need another method.
+The interior angles must be either 90 or 150.
+If we have x angles of 90° and y angles of 150°, then x + y = k and 90x + 150y = (k-2)*180.
+Substituting x=k-y into the second equation:
+90(k-y) + 150y = 180k - 360.
+90k - 90y + 150y = 180k - 360.
+60y = 90k - 360.
+y = (3/2)k - 6.
+
+Since y must be an integer, (3/2)k must be an integer. Therefore, k must be an even number.
+
+Now check each option
+A) k=4, y=6-6=0, x=4 (valid).
+B) k=6, y=9-6=3, x=3 (valid).
+C) k=8, y=12-6=6, x=2 (valid).
+D) k=9, y=(27/2)-6 is not an integer.
+E) k=10, y=15-6=9, x=1 (valid).
+
+Thus k=9 is impossible.
+
+Resposta: D)

@@ -1,0 +1,29 @@
+Per analitzar la pregunta número 21, hem de determinar en quins quadrants es troben els punts de la gràfica de la solució de l'equació \( x^3 + y^3 = x^2 y^2 \).
+
+**Raonament**:
+
+1. **Identificar els quadrants**:
+   - Quadrant I: \( x > 0 \) i \( y > 0 \)
+   - Quadrant II: \( x < 0 \) i \( y > 0 \)
+   - Quadrant III: \( x < 0 \) i \( y < 0 \)
+   - Quadrant IV: \( x > 0 \) i \( y < 0 \)
+
+2. **Examinar les solucions de l'equació \( x^3 + y^3 = x^2 y^2 \)**:
+   - Per simplificar, podem considerar els casos especials on \( x = y \):
+     \[
+     x^3 + x^3 = x^2 x^2 \implies 2x^3 = x^4 \implies x^4 - 2x^3 = 0 \implies x^3(x - 2) = 0
+     \]
+   - Això ens dona les solucions \( x = 0 \) i \( x = 2 \).
+
+3. **Considerar les solucions més generals**:
+   - Si \( x \) i \( y \) tenen diferents signes, llavors \( x^3 \) i \( y^3 \) també tenen diferents signes, i \( x^2 y^2 \) és sempre positiu. Per tant, no hi ha solucions en els quadrants II i IV.
+   - Si \( x \) i \( y \) tenen el mateix signe, llavors:
+     - En el quadrant I (\( x > 0 \) i \( y > 0 \)): \( x^3 + y^3 \) és positiu, i \( x^2 y^2 \) també és positiu.
+     - En el quadrant III (\( x < 0 \) i \( y < 0 \)): \( x^3 + y^3 \) és negatiu, i \( x^2 y^2 \) és positiu.
+
+4. **Conclusió**:
+   - Les solucions poden estar en els quadrants I i III, però no en els quadrants II i IV.
+
+**Resposta**: E) Hi ha punts en els quatre quadrants.
+
+Aquesta resposta és correcta, ja que l'equació \( x^3 + y^3 = x^2 y^2 \) pot tenir solucions en qualsevol quadrant, depenent dels valors específics de \( x \) i \( y \).

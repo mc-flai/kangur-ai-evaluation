@@ -1,0 +1,15 @@
+Reasoning:
+1. The original sheet is 10 cm x 20 cm.
+2. When folded, we see a parallelogram formed, which is a part of the original rectangle.
+3. The diagonal of the parallelogram is the diagonal of the rectangle.
+4. The area of the parallelogram can be calculated as base times height. It looks like we need to use the 10 cm side, the 20 cm side and some form of the diagonal. The fold creates a right triangle with legs 5 and 10 and hypotenuse being the diagonal.
+5. Let's calculate the area. When folding the 10 cm side, we can infer that it will create an Isosceles triangle.
+6. By drawing the diagram of the fold we get a parallelogram with the dimensions of the initial rectangle.
+7. The height of the parallelogram is 5 cm, and the adjacent side length is: sqrt(5^2 + 10^2) = sqrt(125) = 5√5.
+8. The base is 10 and height is 20 - sqrt(5^2+10^2) * cos(theta) = 20 - 5/sqrt(5) = 20 - sqrt(5).
+9. The folded parallelogram has the same area as the rectangle.
+10. The area of the parallelogram is half of the rectangle.
+11. The area is therefore: 10 * (5sqrt(5) * 20) = 50√5
+12. Thus the area is 50√5
+
+Answer: B)

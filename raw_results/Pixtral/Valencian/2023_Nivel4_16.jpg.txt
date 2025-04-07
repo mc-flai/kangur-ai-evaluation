@@ -1,0 +1,16 @@
+**Pregunta:** Qué número debe eliminarse del conjunto {1, 2, 3, ..., 8, 9} para que el mínimo común múltiplo de los números restantes sea el mínimo posible?
+
+**Opcions:**
+A) 9
+B) 8
+C) 7
+D) 6
+E) 5
+
+**Racionalització:**
+1. El mínimo común múltiplo (MCM) de un conjunto de números es menor cuando los números en el conjunto son primos entre sí (coprimos). Esto se debe a que los números coprimos no tienen divisores comunes, lo que minimiza el MCM.
+2. Identificamos los números en el conjunto {1, 2, 3, ..., 8, 9}. Los números primos en este conjunto son 2, 3, 5, y 7.
+3. Para minimizar el MCM, queremos eliminar el número que no sea primo con los demás números en el conjunto. El número 9 no es primo con los demás números en el conjunto.
+4. Al eliminar el número 9, el conjunto restante {1, 2, 3, 4, 5, 6, 7, 8} contiene números que no son todos coprimos entre sí, pero el MCM de estos números será menor que si incluimos el número 9.
+
+**Resposta:** A)

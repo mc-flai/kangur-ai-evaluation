@@ -1,0 +1,24 @@
+Here's the solution:
+
+**Reasoning:**
+
+1.  **Total Stars:** The total number of stars is 69.
+2.  **Hotels of 4 stars:** There is more than one hotel with 4 stars, let's call the number of hotels with 4 stars, *x*.
+3.  **Hotels of 3 stars:** The number of hotels with 3 stars is 4 times the number of hotels with 4 stars, so it's 4*x*.
+4.  **Hotels of 1 star:** More than half of the total stars are from 1-star hotels.
+5.  **Equation:** The total number of stars can be represented as: (Number of 1-star hotels) + 2 \* (Number of 2-star hotels) + 3 \* (Number of 3-star hotels) + 4 \* (Number of 4-star hotels) = 69. Which converts to: 1\* (number of 1-star hotels) + 2 \* (number of 2-star hotels) + 3 \* (4 \* x) + 4 \* x = 69.  Simplifies to 1\* (number of 1-star hotels) + 2 \* (number of 2-star hotels) + 16x = 69
+6.  **Deduction:** Let the number of 2-star hotels be *y* and the number of 1-star hotels be *z*. Therefore, our equation is now *z* + 2\*y + 16x = 69
+7.  **Deduction regarding 4-star hotels:** From the equation, we can infer that x can be 1, 2, 3 or 4.
+8.  **Elimination:**
+    *   If x = 1, then z + 2y = 53. The minimum value for x is 4, 5, 6, etc. The number of 1-star hotels has to be more than half of 69, i.e. more than 34.5. The minimum number of 1-star hotels is 35. So we can say that z >=35. From *z* + 2\*y = 53, we can conclude that y must be negative, which is not possible
+    *   If x = 2, then z + 2y = 37. Then, the minimum number of 1-star hotels is 35. Therefore, we can conclude that y must be positive, and the answer is 1. 1\*35 + 2\*1 + 3\*8 + 4\*2= 69
+9.  **Verification:**
+
+    *   4-star hotels: 2 (2 * 4 = 8 stars)
+    *   3-star hotels: 8 (8 * 3 = 24 stars)
+    *   2-star hotels: 1 (1 * 2 = 2 stars)
+    *   1-star hotels: 35 (35 * 1 = 35 stars)
+
+    8 + 24 + 2 + 35 = 69 stars, which confirms the solution.
+
+**Answer:** D) 2

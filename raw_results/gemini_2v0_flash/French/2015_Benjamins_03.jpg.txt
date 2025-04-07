@@ -1,0 +1,77 @@
+Reasoning:
+Question 3 asks to find the minimum number of tiles that need to be changed so that no two adjacent tiles have the same color. The current tile arrangement has 9 tiles. The tiles are arranged in a 3x3 grid. Let's denote the colors as G for gray and W for white. The current arrangement can be written as:
+G G W
+G W G
+W G G
+We can re-arrange to
+G W G
+W G W
+G W G
+In the re-arranged grid no two adjacent tiles have the same color. To convert from the existing tile arrangements to the re-arranged tile arrangement, we can count how many tiles match their location and how many do not.
+G G W -> G W G (2 changes)
+G W G -> W G W (2 changes)
+W G G -> G W G (2 changes)
+Total changes = 2+2+2 = 6. This is not an efficient arrangement.
+We can try a checkerboard-like pattern.
+G W G
+W G W
+G W G
+We can rearrange the existing to a checkerboard arrangement. We want to minimize changes to the existing grid.
+Current:
+G G W
+G W G
+W G G
+
+Checkerboard:
+G W G
+W G W
+G W G
+
+Comparing the grids tile-by-tile:
+(1,1) G G
+(1,2) G W (change)
+(1,3) W G (change)
+(2,1) G W (change)
+(2,2) W G (change)
+(2,3) G W (change)
+(3,1) W G (change)
+(3,2) G W (change)
+(3,3) G G
+Total changes = 6
+
+Checkerboard:
+W G W
+G W G
+W G W
+Current
+G G W
+G W G
+W G G
+
+Comparing the grids tile-by-tile:
+(1,1) W G (change)
+(1,2) G G (change)
+(1,3) W W
+(2,1) G G (change)
+(2,2) W W
+(2,3) G G (change)
+(3,1) W W
+(3,2) G G (change)
+(3,3) W G (change)
+Total changes = 6
+
+Let's look for smaller alternatives:
+We can try to keep the corner colors the same.
+We can alternate the colors in the first row from G G W to G W G (2 changes)
+In the 2nd row we alternate G W G to W G W (2 changes)
+In the 3rd row we alternate W G G to G W G (2 changes)
+Minimum number of changes possible must be greater than 2.
+Let us start by assuming there is a solution with 1 change. This cannot give the required condition.
+Let us try a solution with 2 changes.
+If we change G to W in the 1st row, we get W G W. However, no changes can fix the 2nd and 3rd rows such that no tiles are the same color as their adjacent counterparts.
+
+Consider changing 3 tiles. Start by switching first three tiles to W,G,W. W G W. Then alternate subsequent ones
+
+After observation, we note that minimum number of flips needed is 3.
+
+Answer: C)

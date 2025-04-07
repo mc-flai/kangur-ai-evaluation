@@ -1,0 +1,20 @@
+Reasoning:
+To guarantee at least one white ball is drawn, we need to consider the worst-case scenario, which is drawing all the black balls before drawing a white ball.
+There are 65 total balls, and 8 are white, so there are 65 - 8 = 57 black balls.
+We can take out up to 5 balls in each draw. In the worst case, we keep drawing only black balls until there are less than 5 black balls left. To find the number of draws to remove all the black balls, we can divide the number of black balls by the number of balls taken in each draw:
+Number of draws to take out all black balls = 57 / 5 = 11.4, which means 11 draws. After 11 draws we are left with 2 black balls. This means we have taken out 11 * 5 = 55 black balls, with 2 black balls remaining.
+Now, if we make one more draw, we can take up to 5 balls which will surely contain either 2 black balls or at least one white ball, hence drawing 12 times.
+But we have the limitation of taking only 5 balls in one draw.
+
+Let 'x' be the number of draws. In the worst-case scenario, we draw only black balls until we are forced to draw a white ball. So, we want to find the minimum number of draws 'x' such that we are guaranteed to have drawn at least one white ball. The maximum number of black balls we can draw is 57. Since we draw 5 balls at a time, we need to find how many draws it takes to reduce to 5 black balls.
+
+If in 'x' draws, we are guaranteed to draw a white ball, we calculate the number of balls that will have to be drawn until we are forced to draw a white ball. This would be if after 'x' draws we have drawn all of the 57 black balls and hence we will now have to draw at least one white ball. Thus, x * 5 >= 57.
+If we consider the number of balls that can be drawn we divide 57 by 5 to find number of draws to remove all black balls which is 11.4. Meaning that we need 12 draws to have certainly removed one white ball.
+So after 11 draws we will have removed 55 black balls with two remaining. Thus we will make one final draw where we remove at least one white ball.
+So the number of draws will be 11 + 1 = 12
+Then consider the last two black balls. We can only make one final draw of at most 5 balls in which we are guaranteed to draw the white ball. The solution will then be 12.
+
+Alternatively, let *n* be the number of draws. In each draw, we take out a maximum of 5 balls.  To guarantee we draw at least one white ball, we consider the worst-case scenario where we draw all the black balls first. There are 57 black balls.  If we draw *n* times, we have drawn 5*n* balls.  We want to find the smallest *n* such that 5*n* > 57.  Since 5 * 11 = 55, we have not drawn all the black balls yet.  If we draw one more time, we have made 12 draws and we would draw the remaining 2 black balls and the first white ball.
+So we need to make 12 draws to be certain that we drew at least 1 white ball.
+
+Answer: (B)

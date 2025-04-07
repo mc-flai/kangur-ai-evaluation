@@ -1,0 +1,25 @@
+### Pregunta 24:
+Agnès té uns quants daus de 12 cares numerades de l'1 al 12. En tirar tots els daus alhora, la probabilitat que nomes isca un 12 és igual a la probabilitat que no n'isca cap. Quants daus té l'Agnès?
+
+A) 8
+B) 9
+C) 10
+D) 11
+E) 12
+
+### Raonament:
+Per resoldre aquest problema, primer cal entendre la definició de la probabilitat. La probabilitat que nomes isca un 12 és igual a la probabilitat que no n'isca cap. Això implica que els dos esdeveniments han de ser complementaris, el que significa que la probabilitat de n'iscar un 12 més la probabilitat de no n'iscar cap ha de ser igual a 1.
+
+Si tenim \( n \) daus, la probabilitat de no n'iscar cap 12 és \( \left(\frac{11}{12}\right)^n \). La probabilitat de n'iscar exactament un 12 és \( \binom{n}{1} \left(\frac{1}{12}\right) \left(\frac{11}{12}\right)^{n-1} \).
+
+Per tant, tenim l'igualtat:
+\[ \binom{n}{1} \left(\frac{1}{12}\right) \left(\frac{11}{12}\right)^{n-1} = \left(\frac{11}{12}\right)^n \]
+
+Simplificant, obtenim:
+\[ n \left(\frac{11}{12}\right)^{n-1} = \left(\frac{11}{12}\right)^n \]
+
+Dividint amb \( \left(\frac{11}{12}\right)^{n-1} \), obtenim:
+\[ n = 11 \]
+
+### Resposta:
+D)

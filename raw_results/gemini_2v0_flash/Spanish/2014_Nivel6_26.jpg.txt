@@ -1,0 +1,20 @@
+Razonamiento:
+La pregunta nos dice que tenemos dos polígonos regulares de lado 1 que comparten un lado común AB. Un polígono tiene 15 lados y el otro tiene n lados. Necesitamos encontrar el valor de n tal que la distancia CZ sea igual a 1, donde C es un vértice del polígono de 15 lados y Z es un vértice del polígono de n lados.
+
+Si CZ = 1, entonces el triángulo ABC y el triángulo ABZ son congruentes a ABC. Para que CZ = 1, el ángulo ACB y ABZ deben ser tales que el ángulo ACZ sea un ángulo de un triángulo equilátero. En otras palabras, los ángulos en C y Z forman un ángulo de 60 grados.
+
+El ángulo interior de un polígono regular de 15 lados es (15-2) * 180 / 15 = 13 * 12 = 156 grados. Por lo tanto, el ángulo ABC es 156 grados.
+El ángulo interior de un polígono regular de n lados es (n-2) * 180 / n grados. Entonces el ángulo ABZ es (n-2) * 180 / n grados.
+
+El ángulo CBZ es 360 - 156 - (n-2) * 180 / n = 204 - (n-2) * 180 / n
+Si CZ = 1, tenemos que el ángulo ACB + el ángulo ABZ = 360 - 60 = 300.
+156 + (n-2) * 180 / n = algo y no podemos resolver.
+El ángulo exterior de un polígono de 15 lados es 360/15 = 24 grados.
+El ángulo exterior de un polígono de n lados es 360/n grados.
+Necesitamos que estos ángulos externos sumen 60 grados.
+Por lo tanto 24 + 360/n = 60
+360/n = 36
+n = 360/36 = 10
+Por lo tanto el polígono tiene 10 lados.
+
+Respuesta: A)

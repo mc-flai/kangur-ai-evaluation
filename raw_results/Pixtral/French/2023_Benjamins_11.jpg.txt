@@ -1,0 +1,24 @@
+
+Raisonnement : Pour déterminer quel facteur premier est dans le produit 0,001 × 0,1 × 10 × 100 × 1000, nous devons d'abord simplifier chaque terme en ses facteurs premiers.
+
+- 0,001 peut être écrit comme 1 × 0,001, ce qui est 1 × 10^-3.
+- 0,1 peut être écrit comme 1 × 0,1, ce qui est 1 × 10^-1.
+- 10 peut être écrit comme 2 × 5.
+- 100 peut être écrit comme 2^2 × 5^2.
+- 1000 peut être écrit comme 10^3, ce qui est (2 × 5)^3.
+
+En multipliant tous ces termes ensemble, nous obtenons :
+1 × 10^-3 × 1 × 10^-1 × 2 × 5 × 2^2 × 5^2 × 2^3 × 5^3.
+
+Simplifions cela :
+1 × 10^-3 × 1 × 10^-1 × 2^6 × 5^6.
+
+En combinant les termes de 10, nous avons :
+10^(-3-1) × 2^6 × 5^6 = 10^-4 × 2^6 × 5^6.
+
+En simplifiant davantage, nous obtenons :
+2^6 × 5^6 × 10^-4.
+
+Le facteur premier le plus élevé dans ce produit est 1000, qui est 10^3.
+
+Réponse : E)

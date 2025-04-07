@@ -1,0 +1,27 @@
+Reasoning:
+Let $n$ be the number of blocks in a piece. We split the piece into two pieces such that one part is twice as long as the other. This means we split $n$ into $x$ and $2x$, where $x$ is an integer. Thus, $n = x + 2x = 3x$. Therefore, $n$ must be divisible by 3.
+
+The initial number of blocks is 27, which is divisible by 3. We split it into $x$ and $2x$, so the two pieces have lengths $x$ and $2x$ where $x = 27/3 = 9$. The lengths are 9 and 18.
+
+If we choose the piece of length 9, we split it into pieces of length $9/3 = 3$ and $2(3) = 6$.
+If we choose the piece of length 18, we split it into pieces of length $18/3 = 6$ and $2(6) = 12$.
+
+From 9, we can get 3, 6. From 18, we can get 6, 12.
+From 3, we can get 1, 2.
+From 6, we can get 2, 4.
+From 12, we can get 4, 8.
+
+The question asks which of the following pieces can *never* result. Let's analyze the possible lengths:
+2: We can get 2 from splitting 3.
+4: We can get 4 from splitting 6 or 12.
+6: We can get 6 from splitting 9 or 18.
+8: We can get 8 from splitting 12.
+10: Could we ever get 10? If we had 10, we would have had to split a length of 30.
+In each split, we divide by 3, so we could have had 30, but 30 is not possible because we start with 27 blocks.
+
+The possible sizes are of the form $\frac{27}{3^k} 2^j$ for some integers $k$ and $j$ such that $\frac{27}{3^k} 2^j$ is an integer.
+Possible sizes: 27, 18, 9, 12, 6, 4, 3, 2, 8, 1, ...
+
+Therefore, the number of blocks that can never result is 10.
+
+Answer: E)

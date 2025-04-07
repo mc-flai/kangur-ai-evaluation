@@ -1,0 +1,15 @@
+Razonamiento:
+La serie consta de números que solo utilizan dígitos pares (0, 2, 4, 6, 8).  Esto significa que necesitamos encontrar el número en la posición 100 en esta secuencia especial. Podemos pensar en esta secuencia como números escritos en base 5, donde cada dígito par corresponde a un dígito en base 5: 0=0, 2=1, 4=2, 6=3, 8=4. Entonces, para encontrar el número en la posición 100, primero necesitamos convertir 100 a base 5.
+
+100 / 5 = 20 resto 0
+20 / 5 = 4 resto 0
+4 / 5 = 0 resto 4
+
+Por lo tanto, 100 en base 5 es 400. Ahora, reemplazamos los dígitos de base 5 con los dígitos pares correspondientes:
+4 -> 8
+0 -> 0
+0 -> 0
+
+Así, el número en la posición 100 es 800.
+
+Respuesta: C)

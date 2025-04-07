@@ -1,0 +1,31 @@
+**Razonamiento:**
+1. Identificamos las desigualdades dadas:
+   - \(|a + b| \leq 1\)
+   - \(|a - 3b| \leq 2\)
+
+2. Evaluamos la primera desigualdad \(|a + b| \leq 1\):
+   - Esto implica que \(a + b\) debe estar en el rango \([-1, 1]\).
+   - Por lo tanto, \(b\) debe estar en el rango \([-1 - a, 1 - a]\).
+
+3. Evaluamos la segunda desigualdad \(|a - 3b| \leq 2\):
+   - Esto implica que \(a - 3b\) debe estar en el rango \([-2, 2]\).
+   - Por lo tanto, \(b\) debe estar en el rango \([-1 + \frac{a}{3}, 1 + \frac{a}{3}]\).
+
+4. Combinamos los rangos de \(b\) de ambas desigualdades:
+   - De \(|a + b| \leq 1\), obtenemos \(b \in [-1 - a, 1 - a]\).
+   - De \(|a - 3b| \leq 2\), obtenemos \(b \in [-1 + \frac{a}{3}, 1 + \frac{a}{3}]\).
+
+5. Buscamos el intervalo común para \(b\):
+   - El intervalo común debe satisfacer ambas desigualdades.
+   - El intervalo común para \(a\) se determina comparando los rangos de \(b\).
+
+6. Evaluamos las opciones:
+   - A) \(-\frac{5}{4} \leq a \leq \frac{5}{4}\): Este intervalo parece demasiado estrecho.
+   - B) \(-\frac{5}{4} \leq a < 1\): Este intervalo parece demasiado estrecho.
+   - C) \(0 < a < \frac{5}{4}\): Este intervalo parece razonable.
+   - D) \(-100 < a < 100\): Este intervalo parece demasiado amplio.
+   - E) \(-\infty < a < +\infty\): Este intervalo es demasiado amplio.
+
+7. El intervalo más razonable que satisface ambas desigualdades es \(0 < a < \frac{5}{4}\).
+
+**Respuesta:** C)

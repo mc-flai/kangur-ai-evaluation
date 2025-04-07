@@ -1,0 +1,42 @@
+Reasoning:
+
+To solve this problem, we need to find the number of integers between 2 and 11 (inclusive) that are not divisible by any of the integers from 2 to 11 except two.
+
+We can start by listing all the integers from 2 to 11:
+
+2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+Next, we need to find the multiples of each of these integers:
+
+* Multiples of 2: 2, 4, 6, 8, 10
+* Multiples of 3: 3, 6, 9
+* Multiples of 4: 4, 8
+* Multiples of 5: 5, 10
+* Multiples of 6: 6
+* Multiples of 7: 7
+* Multiples of 8: 8
+* Multiples of 9: 9
+* Multiples of 10: 10
+* Multiples of 11: 11
+
+Now, we can count the number of integers that are multiples of two or more integers from 2 to 11:
+
+* Multiples of 2 and/or 4: 4, 6, 8, 10
+* Multiples of 2 and/or 5: 2, 4, 6, 8, 10
+* Multiples of 2 and/or 6: 2, 4, 6, 8, 10
+* Multiples of 2 and/or 7: 2, 4, 6, 8, 10
+* Multiples of 2 and/or 8: 2, 4, 6, 8, 10
+* Multiples of 2 and/or 9: 0
+* Multiples of 2 and/or 10: 2, 4, 6, 8, 10
+* Multiples of 2 and/or 11: 0
+
+Note that some integers are counted multiple times, so we need to subtract them:
+
+* Counted twice: 3, 6, 9, 10
+* Counted three times: 8
+
+Now, we can subtract the counted integers from the total number of integers to get the number of exception:
+
+24 - 3 = 12​- 6 = 6 - 6
+
+Answer: No Answer

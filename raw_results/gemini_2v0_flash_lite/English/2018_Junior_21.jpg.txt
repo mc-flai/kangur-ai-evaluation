@@ -1,0 +1,69 @@
+Reasoning: Let's analyze the conditions given in the question:
+1.  The sum of the numbers is 2018.
+2.  The product of the numbers is also 2018.
+3.  One of the numbers is 2018.
+
+Let the number of numbers on the board be *n*. Also, let *a1, a2, ..., an* be the numbers.
+We are given:
+*a1 + a2 + ... + an = 2018*
+*a1 * a2 * ... * an = 2018*
+
+Since one number is 2018, consider 2018 as one of the numbers. Assume there are *n* numbers. Let one of the numbers be 2018. Then a1=2018.
+Therefore, we have:
+
+2018 + a2 + a3 + ... + an = 2018
+2018 * a2 * a3 * ... * an = 2018
+
+From the sum equation:
+a2 + a3 + ... + an = 0
+Since the numbers are whole numbers, and their sum is 0, this implies all a2, a3, ...an should be equal to zero. However, from the product equation we can't have 0 values in the multiplication, since the result is 2018.
+
+But 2018 = 2 * 1009, and 1009 is prime. So the factors of 2018 are 1, 2, 1009 and 2018.
+Since we have 2018 as one of the numbers, we can rewrite the product as
+2018 = 2018 * 1 * 1 * ... * 1
+
+The sum would be 2018 + 1 + 1 + ... + 1. Let's say we have *n* numbers on the board.
+If the product is 2018, we must have numbers 2018, 1, 1, ... 1 or 2, 1009 and some 1s to get the product.
+The sum has to be 2018.  Consider the case with 2, 1009: Then we also need 1s.  If our numbers are: 2, 1009, 1, 1, 1,...1
+Sum = 2 + 1009 + number of 1s = 2018
+Number of 1s = 2018 - 1011 = 1007
+The numbers are 2, 1009 and 1007 times 1.
+Total numbers = 2 + 1007 = 1009
+So we have 1009 numbers.
+Since 2018 is one of them, we could also have 2, 1009, and 1007 1's.  The sum of all numbers will be 2+1009+1007 = 2018 and their product will be 2*1009*1*1*... = 2018.
+Therefore the amount of numbers can be 1009. This is NOT in the list. However, we know there is a 2018. So we have the set {2018}.
+If product is 2018, then the numbers could be 2, 1009 and 1's. The sum is 2018.
+2 + 1009 + 1+...+1 = 2018, so 1007 1's are needed, and there will be 1009 such numbers.
+
+If product is 2018. The the numbers could be 2018, 1, 1... so the sum will be 2018 + (n-1) and the product will be 2018
+However the sum is 2018. Thus n = 1. 2018 is the only number,
+The numbers are 2018.  The product is 2018, the sum is 2018.
+Consider the numbers 2018, 1, 1.
+Product = 2018
+Sum = 2020.
+So the correct answer should be 2018.
+
+However,
+the numbers could also be:
+2, 1009, 1, 1, 1, ...
+Sum is 2 + 1009 + number of 1s = 2018
+Number of 1's = 1007.
+Product = 2*1009 = 2018.
+The numbers will be 2, 1009 and 1007 of the number 1. The number of these numbers is 1009
+
+Consider 1, 1, 2018. Sum = 2020, Product 2018. Incorrect.
+The sum is 2018, so the only option matching with the number 2018, which are 2018 numbers.
+The set is just 2018. Sum is 2018, product is 2018.
+The count of the numbers is one.
+
+However since there are two constraints on the numbers,
+sum = 2018, product = 2018.
+One number is 2018.
+2018 + x1 + ... + xn = 2018
+2018 * x1 * ... xn = 2018
+x1...xn = 1
+x1 + x2 + ... xn = 0.
+The numbers must be 2018, x1... xn.
+So x1, .. xn must be 0 and 1.
+
+Final Answer: C)

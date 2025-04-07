@@ -1,0 +1,9 @@
+Raonament: The question asks to multiply three different numbers from the list {-5, -3, -1, 2, 4, 6}. To get the largest possible product, we should consider the following combinations:
+1. Three positive numbers: 2 * 4 * 6 = 48
+2. Two negative numbers and one positive number: (-5) * (-3) * 6 = 90, (-5) * (-1) * 6 = 30, (-3) * (-1) * 6 = 18, (-5) * (-3) * 4 = 60
+3. Three negative numbers: Impossible, since there are only two negative numbers in the list.
+4. One negative number and two positive numbers: (-5) * 2 * 4 = -40, (-3) * 2 * 4 = -24, (-1) * 2 * 4 = -8, (-5) * 2 * 6 = -60
+5. One negative number, we have (-5, 4, 6), (-3, 4, 6), (-1, 4, 6).
+Comparing the results, the greatest product is obtained with (-5)*(-3)*6 = 90.
+
+Resposta: A)

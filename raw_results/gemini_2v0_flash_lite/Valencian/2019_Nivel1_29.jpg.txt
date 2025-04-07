@@ -1,0 +1,12 @@
+Raonament:
+1. **Entendre les condicions:** El problema estableix que en qualsevol grup de tres vagons consecutius, hi ha sempre 99 passatgers.
+2. **Determinar el nombre de grups de tres vagons consecutius que podem formar:** Si tenim 11 vagons, podem formar grups de 3 vagons consecutius. Comencem amb els vagons 1-2-3, 2-3-4, i així successivament. Podem fer grups fins als vagons 9-10-11. Això implica que, el primer vagó, el segon, i el tercer vagó, el quart, el cinquè, el sisè, el setè, el vuitè, el novè, el desè i l'onzè estan coberts per almenys un grup de tres.
+3. **Considerar la superposició:** Notem que un vagó pot pertànyer a múltiples grups de 3. Per exemple, el vagó 2 pertany als grups 1-2-3 i 2-3-4.
+4. **Calcular la quantitat de passatgers en els primers 6 vagons:** Les tres primeres vagons sumen 99 passatgers. Les següents tres vagons (4-5-6) sumen 99 passatgers. Així, els primers 6 vagons tenen 99 + 99 = 198 passatgers.
+5. **Considerar el total de passatgers i calcular la quantitat de passatgers dels últims vagons:** Sabem que hi ha 350 passatgers en total. Llavors, els 5 últims vagons tenen 350-198 = 152 passatgers.
+6. **Cercar la quantitat de passatgers al sisè vagó:** Per calcular la quantitat de passatgers al sisè vagó, necessitem saber la quantitat de passatgers en els vagons anteriors i posteriors. El sisè vagó pertany als grups de vagons 4-5-6, 5-6-7, i 6-7-8. Sabem que els grups 4-5-6 i 5-6-7 sumen 99 passatgers cadascú. La suma de les dues primeres posicions de cada grup de 3 vagons consecutius sempre és igual a 99. Així, els vagons 4-5-6 tenen 99 passatgers. També, els vagons 5-6-7 sumen 99 passatgers. Sabem que els passatgers dels vagons 4-5-6, 5-6-7, 6-7-8 sumen 152 passatgers. Si els vagons 4-5 sumen 99 passatgers i els vagons 5-6-7 també sumen 99 passatgers, llavors:
+Passatgers al vagó 6 = Passatgers vagons 4-5-6 + Passatgers vagons 5-6-7 - (2 * passatgers vagó 5)
+Podem deduir que el 5è vagó no pot tenir 0 passatgers. Podem assumir, que per cada conjunt de tres vagons consecutius, la quantitat de passatgers al sisè vagó és 39.
+7. **Cercar la resposta correcta:** D'acord amb el raonament anterior, la resposta correcta és 39.
+
+Resposta: C)

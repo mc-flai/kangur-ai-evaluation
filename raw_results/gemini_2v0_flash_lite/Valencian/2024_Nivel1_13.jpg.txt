@@ -1,0 +1,7 @@
+Raonament: El problema ens diu que els quatre paquets tenen pesos enters diferents i que el tercer paquet més pesat pesa 8 kg.  Sabem que el pes total dels paquets és de 20 kg. Anem a analitzar les possibilitats, ordenant els pesos de menor a major. El tercer paquet pesa 8 kg, per tant, el quart paquet ha de pesar més de 8 kg. A més, el segon paquet ha de pesar menys de 8 kg.
+Per provar les opcions de resposta, començarem amb la opció A) i B), atès que són les menors.
+
+*   Si el segon paquet pesa 2 kg, el primer ha de pesar 1 kg. El tercer pesa 8 kg. Aleshores, el quart ha de pesar 20 - (1 + 2 + 8) = 9 kg. Aquesta opció és possible: (1, 2, 8, 9).
+*   Si el segon paquet pesa 3 kg, el primer ha de pesar 1 o 2 kg. El tercer pesa 8 kg. Aleshores, el quart ha de pesar 20 - (1+3+8) = 8 kg o 20 - (2 + 3 + 8) = 7 kg. El pes de 8 kg no és possible perquè ja tenim un paquet amb un pes de 8 kg. Aleshores, els pesos serien (2, 3, 8, 7), cosa que no és possible perquè el pes de la seqüència ha d'anar de menor a major. Aleshores, la resposta ha de ser la A).
+
+Resposta: A)

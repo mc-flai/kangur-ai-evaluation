@@ -1,0 +1,15 @@
+Razonamiento:
+The question asks how many three-digit numbers have the property that the hundreds digit is equal to the product of the tens and units digits. We can systematically examine the possibilities:
+If the hundreds digit is 1, then the tens digit and units digit must be 1 and 1. This gives us one possibility: 111.
+If the hundreds digit is 2, then the tens and units digits must be 1 and 2, or 2 and 1. This gives us two possibilities: 212 and 221.
+If the hundreds digit is 3, then the tens and units digits must be 1 and 3, or 3 and 1. This gives us two possibilities: 313 and 331.
+If the hundreds digit is 4, then the tens and units digits can be 1 and 4, 4 and 1, or 2 and 2. This gives us three possibilities: 414, 441, 422.
+If the hundreds digit is 5, then the tens and units digits can be 1 and 5, or 5 and 1. This gives us two possibilities: 515 and 551.
+If the hundreds digit is 6, then the tens and units digits can be 1 and 6, 6 and 1, or 2 and 3, or 3 and 2. This gives us four possibilities: 616, 661, 623, 632.
+If the hundreds digit is 7, then the tens and units digits can be 1 and 7, or 7 and 1. This gives us two possibilities: 717 and 771.
+If the hundreds digit is 8, then the tens and units digits can be 1 and 8, 8 and 1, or 2 and 4, or 4 and 2. This gives us four possibilities: 818, 881, 824, 842.
+If the hundreds digit is 9, then the tens and units digits can be 1 and 9, 9 and 1, or 3 and 3. This gives us three possibilities: 919, 991, 933.
+We cannot have a hundreds digit of 0 since then we won't have a three digit number.
+Total number of such numbers = 1 + 2 + 2 + 3 + 2 + 4 + 2 + 4 + 3 = 23
+
+Respuesta: C)

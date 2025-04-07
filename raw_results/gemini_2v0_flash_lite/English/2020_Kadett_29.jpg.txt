@@ -1,0 +1,6 @@
+Reasoning:
+Let the three consecutive whole numbers on the sides of the triangle be $n-1$, $n$, and $n+1$. The sum of the numbers at each vertex would be $(n-1)+n$, $n+(n+1)$, and $(n-1)+(n+1)$.  Thus, we have the expression $((n-1)+n)(n+(n+1))((n-1)+(n+1)) = 504$. Simplifying, we get $(2n-1)(2n+1)(2n) = 504$.  Thus, $(4n^2-1)(2n) = 504$, so $8n^3 - 2n = 504$.  This simplifies to $4n^3 - n = 252$. We can approximate the value of $n$ by noticing that $4n^3$ must be close to $252$. Then, $n^3$ is close to $\frac{252}{4} = 63$. Since $4^3=64$, we can expect that $n$ should be around 4.
+If $n=4$, the sides are 3, 4, 5. The vertices are 7, 9, 8. The product is $7\cdot 8\cdot 9 = 504$. This confirms $n=4$.
+Therefore, the sides are 3, 4, 5.  The product of the three numbers is $3 \times 4 \times 5 = 60$.
+
+Answer: B)

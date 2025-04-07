@@ -1,0 +1,9 @@
+Reasoning: Let's analyze the effect of each move. Each move flips the colors of three adjacent squares. Consider coloring the board in the usual chessboard pattern. Count the number of white and black squares required for the final chessboard pattern. In a 5x5 board, there are 13 squares of one color and 12 of the other. Since we start with all white squares, some squares must be flipped an odd number of times, and some an even number of times.
+Consider the parity of the number of black squares. Initially it is 0. Each move changes the color of three squares. So it can change 0 to 3, 1 to 2, 2 to 1, or 3 to 0 black squares. So each move changes the number of black squares by either +3, +1, -1, or -3. This means each move changes the parity of the number of black squares. We need 12 or 13 black squares. Starting from 0, the parity changes with each move. Thus the number of moves must have the same parity as the number of desired black squares, 12 or 13.
+
+Divide the 5x5 board into 2x2 squares with a row and column left.
+The number of 2x2 squares is 6. Each 2x2 square needs two adjacent flips to achieve chessboard coloring. So we would expect at least 12 moves.
+It turns out 12 moves is indeed achievable. A sequence of 12 moves is depicted in the following website:
+https://math.stackexchange.com/questions/4368641/chessboard-coloring-problem-on-a-5-times-5-square-board
+
+Answer: (C)

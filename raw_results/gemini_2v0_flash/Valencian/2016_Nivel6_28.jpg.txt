@@ -1,0 +1,23 @@
+Raonament: Considerem un nombre M de 10 dígits, que representa el nombre de vegades que apareix cada número del 0 al 9.
+L'estructura del número M serà així:
+M = a0 a1 a2 a3 a4 a5 a6 a7 a8 a9
+On a0 és la quantitat de 0 que hi ha en M, a1 és la quantitat de 1, etc.
+La suma de tots els dígits de M ha de ser igual a 10, ja que M té 10 dígits.
+a0 + a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 = 10
+Si a6 = 2, significa que hi ha dos 6 en M, i així per cada dígit.
+El número M és 6210001000. Analitzem:
+a0 = 6 (hi ha sis 0)
+a1 = 2 (hi ha dos 1)
+a2 = 1 (hi ha un 2)
+a3 = 0
+a4 = 0
+a5 = 0
+a6 = 1 (hi ha un 6)
+a7 = 0
+a8 = 0
+a9 = 0
+Sumem els dígits: 6 + 2 + 1 + 0 + 0 + 0 + 1 + 0 + 0 + 0 = 10
+Per tant, el nombre M és 6210001000.
+La quantitat de zeros en el nombre M és 6.
+
+Resposta: B)

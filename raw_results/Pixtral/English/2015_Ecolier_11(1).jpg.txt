@@ -1,0 +1,26 @@
+To determine how many small, white cubes Jack has used, we need to analyze the constraints and the structure of the cube.
+
+1. The cube is composed of 27 small cubes.
+2. The small cubes are either grey or white.
+3. No two small cubes of the same color can be placed next to each other.
+
+Given these constraints, we can infer the following:
+
+- The cube must be arranged in such a way that no two adjacent cubes share the same color.
+- This arrangement typically follows a pattern where each cube is surrounded by cubes of the opposite color.
+
+Let's consider the possible arrangements:
+
+- If we start with a white cube at one corner, the adjacent cubes must be grey. This pattern continues around the cube.
+- Following this pattern, we can deduce that the cube will have an alternating color pattern.
+
+Given that the cube has 27 small cubes, we can calculate the number of white cubes:
+
+- If the pattern alternates perfectly, half of the cubes will be white and half will be grey.
+- Therefore, the number of white cubes will be 27 / 2 = 13.5.
+
+However, since we cannot have half a cube, we need to adjust our calculation. The pattern will likely result in a slight imbalance, but the closest integer to 13.5 is 13.
+
+Reasoning: The cube must follow an alternating color pattern to satisfy the constraint that no two adjacent cubes can be the same color. Given 27 cubes, the closest integer to half of 27 is 13.
+
+Answer: C

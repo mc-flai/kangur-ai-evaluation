@@ -1,0 +1,11 @@
+Reasoning:
+The kangaroo starts at the bottom left and the koala is at the top right. The kangaroo cannot jump through a square with water.
+A) right, up, up, up, right, right, right. This does not involve any water
+B) right, up, up, up, right, right, up, up. This path takes the kangaroo through the water at the middle right of the grid. Thus, incorrect.
+C) right, up, up, up, right, right, right, right. This does not involve any water.
+D) right, up, up, up, right, right, up, left, left. This path does not make sense.
+E) right, right, up, up, up, right, right, right, right. This path takes the kangaroo through the water at the middle right of the grid. Thus, incorrect.
+
+A) and C) are both valid paths, however, we should note that in the image we are looking for a path that the kangaroo is allowed to take, which suggests only one correct option. By inspecting A) and C) again, we realize C) matches exactly the position of the koala as its the furthest right route to take.
+
+Answer: C)

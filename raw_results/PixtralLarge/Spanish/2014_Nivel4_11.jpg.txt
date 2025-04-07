@@ -1,0 +1,60 @@
+**Razonamiento**:
+1. A y B juegan de la siguiente manera:
+   - A elige un número positivo \( a \).
+   - B dice el mayor divisor positivo \( b \) de \( a \), donde \( b \neq a \).
+   - Luego, A dice el mayor divisor positivo \( c \) de \( b \), donde \( c \neq b \).
+   - A gana si \( c = 1 \).
+
+2. Para que A gane, necesitamos determinar qué números \( a \) permitirán que esta secuencia termine con \( c = 1 \).
+
+3. Evaluemos las opciones dadas:
+   - A) 128
+   - B) 243
+   - C) 1024
+   - D) 2014
+   - E) Ninguno de los anteriores
+
+4. Evaluemos cada opción:
+   - Para 128:
+     - Los divisores de 128 son 1, 2, 4, 8, 16, 32, 64, 128.
+     - B elegiría 64 (el mayor divisor diferente de 128).
+     - A elegiría 32 (el mayor divisor diferente de 64).
+     - B elegiría 16 (el mayor divisor diferente de 32).
+     - A elegiría 8 (el mayor divisor diferente de 16).
+     - B elegiría 4 (el mayor divisor diferente de 8).
+     - A elegiría 2 (el mayor divisor diferente de 4).
+     - B elegiría 1 (el mayor divisor diferente de 2).
+     - A gana porque \( c = 1 \).
+
+   - Para 243:
+     - Los divisores de 243 son 1, 3, 9, 27, 81, 243.
+     - B elegiría 81 (el mayor divisor diferente de 243).
+     - A elegiría 27 (el mayor divisor diferente de 81).
+     - B elegiría 9 (el mayor divisor diferente de 27).
+     - A elegiría 3 (el mayor divisor diferente de 9).
+     - B elegiría 1 (el mayor divisor diferente de 3).
+     - A gana porque \( c = 1 \).
+
+   - Para 1024:
+     - Los divisores de 1024 son 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
+     - B elegiría 512 (el mayor divisor diferente de 1024).
+     - A elegiría 256 (el mayor divisor diferente de 512).
+     - B elegiría 128 (el mayor divisor diferente de 256).
+     - A elegiría 64 (el mayor divisor diferente de 128).
+     - B elegiría 32 (el mayor divisor diferente de 64).
+     - A elegiría 16 (el mayor divisor diferente de 32).
+     - B elegiría 8 (el mayor divisor diferente de 16).
+     - A elegiría 4 (el mayor divisor diferente de 8).
+     - B elegiría 2 (el mayor divisor diferente de 4).
+     - A elegiría 1 (el mayor divisor diferente de 2).
+     - A gana porque \( c = 1 \).
+
+   - Para 2014:
+     - Los divisores de 2014 son 1, 2, 1007, 2014.
+     - B elegiría 1007 (el mayor divisor diferente de 2014).
+     - A elegiría 1 (el mayor divisor diferente de 1007).
+     - A gana porque \( c = 1 \).
+
+5. Todos los números dados como opciones permiten que A gane, por lo tanto, la respuesta correcta es que ninguno de los anteriores cumple con la condición de que A no puede ganar.
+
+**Respuesta**: E) Ninguno de los anteriores.

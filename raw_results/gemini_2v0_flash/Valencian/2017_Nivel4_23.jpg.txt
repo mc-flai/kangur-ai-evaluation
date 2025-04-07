@@ -1,0 +1,7 @@
+Raonament: Un número palíndrom de sis dígits té la forma abc cba, que es pot escriure com 100000a + 10000b + 1000c + 100c + 10b + a = 100001a + 10010b + 1100c = 11(9091a + 910b + 100c).
+Això demostra que 11 és un factor comú de tots els números palíndroms de sis dígits.
+Ara hem de veure si hi ha un factor comú més gran que 11. Considerem els dos números palíndroms de sis dígits 100001 i 101101.
+100001 = 11 * 9091 i 101101 = 11 * 9191. Com que 9091 i 9191 són nombres primers i la seva diferència és 100, que és igual a 2^2 * 5^2, el seu màxim comú divisor és 1. Per tant, el màxim comú divisor de 100001 i 101101 és 11.
+Això significa que el màxim comú divisor de tots els números palíndroms de sis dígits és 11.
+
+Resposta: D)

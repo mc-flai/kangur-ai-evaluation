@@ -1,0 +1,39 @@
+
+Pregunta 26: Llamamos a un número de 3 cifras «agradable» si la cifra del medio es mayor que la suma de las otras dos. ¿Cuál es la mayor cantidad de números agradables consecutivos?
+
+Opciones:
+A) 5
+B) 6
+C) 7
+D) 8
+E) 9
+
+Razonamiento:
+Para determinar la mayor cantidad de números agradables consecutivos, debemos considerar las restricciones dadas:
+1. La cifra del medio debe ser mayor que la suma de las cifras restantes.
+2. Debemos encontrar la secuencia más larga que cumpla con esta condición.
+
+Comencemos con el número más bajo posible:
+- 101: Aquí, 1 (cifra del medio) es mayor que 1 + 0 = 1.
+- 102: Aquí, 0 (cifra del medio) no es mayor que 1 + 2 = 3.
+- 103: Aquí, 0 (cifra del medio) no es mayor que 1 + 3 = 4.
+- 111: Aquí, 1 (cifra del medio) es mayor que 1 + 1 = 2.
+- 112: Aquí, 1 (cifra del medio) es mayor que 1 + 2 = 3.
+- 113: Aquí, 1 (cifra del medio) es mayor que 1 + 3 = 4.
+- 114: Aquí, 1 (cifra del medio) no es mayor que 1 + 4 = 5.
+- 121: Aquí, 2 (cifra del medio) es mayor que 1 + 1 = 2.
+- 122: Aquí, 2 (cifra del medio) es mayor que 1 + 2 = 3.
+- 123: Aquí, 2 (cifra del medio) es mayor que 1 + 3 = 4.
+- 124: Aquí, 2 (cifra del medio) no es mayor que 1 + 4 = 5.
+- 131: Aquí, 3 (cifra del medio) es mayor que 1 + 1 = 2.
+- 132: Aquí, 3 (cifra del medio) es mayor que 1 + 2 = 3.
+- 133: Aquí, 3 (cifra del medio) es mayor que 1 + 3 = 4.
+- 134: Aquí, 3 (cifra del medio) no es mayor que 1 + 4 = 5.
+- 141: Aquí, 4 (cifra del medio) es mayor que 1 + 1 = 2.
+- 142: Aquí, 4 (cifra del medio) es mayor que 1 + 2 = 3.
+- 143: Aquí, 4 (cifra del medio) es mayor que 1 + 3 = 4.
+- 144: Aquí, 4 (cifra del medio) no es mayor que 1 + 4 = 5.
+
+Continuando este proceso, encontramos que la mayor cantidad de números agradables consecutivos es 7.
+
+Respuesta: C)

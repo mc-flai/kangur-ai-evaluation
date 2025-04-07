@@ -1,0 +1,12 @@
+Razonamiento: La pregunta es cuántos números de dos cifras se pueden escribir como la suma de exactamente seis potencias de 2 distintas, incluyendo 2^0.
+Las potencias de 2 son 1, 2, 4, 8, 16, 32, 64, 128, etc. Como estamos buscando números de dos cifras, el valor máximo de la potencia de 2 que puedo usar es 64, ya que 128 es un número de tres cifras. Como nos pide que una de las potencias sea 2^0 = 1, entonces tenemos que buscar 5 potencias distintas de 2, además de 1, que sumen un número de dos cifras.
+Probemos combinaciones:
+1 + 2 + 4 + 8 + 16 + 32 = 63 (dos cifras)
+1 + 2 + 4 + 8 + 16 + 64 = 95 (dos cifras)
+1 + 2 + 4 + 8 + 32 + 64 = 111 (tres cifras)
+1 + 2 + 4 + 16 + 32 + 64 = 119 (tres cifras)
+1 + 2 + 8 + 16 + 32 + 64 = 123 (tres cifras)
+1 + 4 + 8 + 16 + 32 + 64 = 125 (tres cifras)
+Solo hay dos combinaciones válidas, 63 y 95. Por lo tanto, hay dos números de dos cifras que cumplen con la condición.
+
+Respuesta: C)

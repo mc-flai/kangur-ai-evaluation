@@ -1,0 +1,41 @@
+Raonament:
+Cada pirata diu la veritat en una cosa i menteix en l'altra.
+*   **Pirata 1**: Podria dir la veritat sobre les monedes (8) o sobre els diamants (6).
+*   **Pirata 2**: Podria dir la veritat sobre les monedes (7) o sobre els diamants (4).
+*   **Pirata 3**: Podria dir la veritat sobre les monedes (7) o sobre els diamants (7).
+
+Considerem les possibilitats:
+
+1.  **8 monedes i 6 diamants**. Pirata 1 diu la veritat sobre les monedes i menteix sobre els diamants.
+2.  **7 monedes i 4 diamants**. Pirata 2 diu la veritat sobre les monedes i menteix sobre els diamants.
+3.  **7 monedes i 7 diamants**. Pirata 3 diu la veritat sobre les monedes i menteix sobre els diamants.
+
+Aquesta combinació no és possible ja que dos pirates estarien dient la veritat sobre el nombre de monedes (7 i 7).
+A més, hi hauria dues respostes sobre diamants.
+
+**Alternativa:**
+
+1.  Suposem que Pirata 1 diu la veritat sobre les monedes (8) i Pirata 2 diu la veritat sobre els diamants (4).
+2.  Aleshores Pirata 1 menteix sobre els diamants, i Pirata 2 menteix sobre les monedes.
+3.  Llavors el nombre de monedes ha de ser 8, i el de diamants ha de ser 4.  La suma és 8 + 4 = 12.
+4.  Si els 8 i 4 són correctes, Pirata 3 hauria de mentir sobre les monedes i els diamants.  Això no és possible.
+
+Considerem:
+* Pirata 1: 8 monedes, 6 diamants. Pot ser veritat en un.
+* Pirata 2: 7 monedes, 4 diamants. Pot ser veritat en un.
+* Pirata 3: 7 monedes, 7 diamants. Pot ser veritat en un.
+Suposem que P1 diu la veritat en monedes (8), P2 en diamants (4) i P3 en monedes (7). Això no és possible ja que les respostes sobre monedes no coincideixen (8, 7, 7).
+Suposem que les monedes són 7. P1 mentiria sobre les monedes, i sobre els diamants. P2 ha de dir la veritat sobre les monedes (7), i ha de mentir sobre els diamants. P3 ha de dir la veritat sobre els diamants (7).
+En aquest cas, les monedes són 7 i els diamants són 7. Suma = 14.
+Si hi ha 7 monedes, P1 hauria de mentir sobre les monedes (8), P2 ha de dir la veritat (7), P3 ha de dir la veritat (7). Si hi ha 7 monedes i 4 diamants, la resposta de P2 és correcta, i P3 ha de mentir sobre els diamants, donant un resultat de 7.
+Si hi ha 7 monedes i 7 diamants, les respostes són: P1: monedes 8, diamants 6. P2: monedes 7, diamants 4. P3: monedes 7, diamants 7.
+P3 diu la veritat en el diamant, P2 diu la veritat en les monedes, P1 ment sobre les monedes, 7.
+
+**Solució:**
+Pirata 1: 8 monedes (fals) i 6 diamants (veritat).
+Pirata 2: 7 monedes (veritat) i 4 diamants (fals).
+Pirata 3: 7 monedes (fals) i 7 diamants (veritat).
+Per tant, hi ha 7 monedes i 6 diamants, la qual cosa no és possible, o 7 i 7 que dona 14. Si suposem que els diamants són 6, no hi ha solució.
+Si les monedes són 7: P1 menteix monedes (8) i diu la veritat en diamants (6). P2 diu la veritat en monedes (7) i menteix en diamants (4). P3 menteix en monedes (7) i diu la veritat en diamants (7). Per tant, 7 + 6 = 13.
+
+Resposta: C)

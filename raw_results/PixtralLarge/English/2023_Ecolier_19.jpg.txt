@@ -1,0 +1,28 @@
+**Reasoning**: 
+1. **Understanding the problem**: We have three boys (Hermann, Felix, and Clemens) entering a room in some order. Hermann is not the first, Felix is not the second, and Clemens is not the third. We need to determine the number of different possible orders in which the boys can enter the room given these constraints.
+
+2. **Identifying possible positions**:
+    - **Hermann's possible positions**: Since Hermann is not the first, he can be either second or third.
+    - **Felix's possible positions**: Since Felix is not the second, he can be either first or third.
+    - **Clemens's possible positions**: Since Clemens is not the third, he can be either first or second.
+
+3. **Constructing valid sequences**:
+    - **Case 1: Hermann is second**:
+        - Felix cannot be second or third, so Felix must be first.
+        - Clemens cannot be third, so Clemens must be third.
+        - Sequence: Felix, Hermann, Clemens.
+
+    - **Case 2: Hermann is third**:
+        - Felix cannot be second, so Felix must be first.
+        - Clemens cannot be third, so Clemens must be second.
+        - Sequence: Felix, Clemens, Hermann.
+
+4. **Verifying sequences**:
+    - Both sequences satisfy the given constraints: Hermann is not first, Felix is not second, and Clemens is not third.
+    - The sequences are:
+        - Felix, Hermann, Clemens
+        - Felix, Clemens, Hermann
+
+5. **Counting the sequences**: There are 2 different possible orders in which the boys can enter the room.
+
+**Answer**: B)

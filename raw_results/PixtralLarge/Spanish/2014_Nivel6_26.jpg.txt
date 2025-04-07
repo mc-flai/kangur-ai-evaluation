@@ -1,0 +1,14 @@
+Para resolver esta pregunta, primero debemos entender que estamos tratando con dos polígonos regulares cuyos lados son opuestos entre sí. Uno de los polígonos tiene 15 lados (ABCD...), y el otro tiene n lados (ABZY...). La pregunta pide que calculemos la distancia CZ, que es igual a 1, en términos de n.
+
+1. Observamos que la distancia entre dos vértices opuestos en un polígono regular se puede encontrar usando la fórmula de la longitud de la diagonal.
+2. Para un polígono regular de n lados, la distancia entre dos vértices opuestos (diagonal) se puede expresar como 2 * r * sen(π/n), donde r es el radio del círculo circunscrito.
+3. Dado que CZ debe ser igual a 1, y considerando la relación geométrica entre los dos polígonos, planteamos la ecuación:
+   2 * r * sen(π/n) = 1.
+
+4. Sin embargo, la pregunta pide el valor de n dado que CZ = 1. Teniendo en cuenta que el polígono de 15 lados está opuesto al de n lados, el valor de n debe ser tal que forme un polígono regular que cumpla con la longitud de la diagonal dada.
+
+5. Observamos que los polígonos regulares más comunes que se pueden inscribir en un círculo con lados opuestos que cumplen con las condiciones dadas son los polígonos de 16 lados, ya que las propiedades de los polígonos regulares y la simetría nos llevan a concluir que n = 16 para que CZ sea igual a 1.
+
+Razonamiento: La distancia CZ en un polígono regular se calcula usando la fórmula de la diagonal. Considerando las propiedades de los polígonos regulares y la simetría, deducimos que n debe ser 16 para que CZ sea igual a 1.
+
+Respuesta: D) 16.

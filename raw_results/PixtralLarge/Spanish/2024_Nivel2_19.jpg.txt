@@ -1,0 +1,30 @@
+Para resolver esta pregunta, necesitamos encontrar el perímetro de la figura restante después de que se cortan cuatro cuadrados más pequeños de las esquinas de un cuadrado grande.
+
+1. **Identificar los lados**: En la imagen, los cuatro cuadrados cortados tienen lados de 1, 2, 3 y 6 unidades.
+
+2. **Calcular el lado del cuadrado grande**: La suma de los lados de los cuadrados pequeños cortados es:
+   \[
+   1 + 2 + 3 + 6 = 12
+   \]
+   Esto significa que el lado del cuadrado original es 12 unidades.
+
+3. **Determinar los lados de la figura restante**: La figura restante es un cuadrado con cuatro cuadrados pequeños eliminados de las esquinas. Esto resulta en una figura con los siguientes segmentos de lado:
+   - Dos segmentos de 12 unidades (lados del cuadrado original).
+   - Dos segmentos de 10 unidades (12 - 2 unidades del cuadrado cortado de 2 unidades).
+   - Dos segmentos de 9 unidades (12 - 3 unidades del cuadrado cortado de 3 unidades).
+   - Dos segmentos de 6 unidades (12 - 6 unidades del cuadrado cortado de 6 unidades).
+   - Dos segmentos de 11 unidades (12 - 1 unidad del cuadrado cortado de 1 unidad).
+
+4. **Sumar los segmentos para encontrar el perímetro**:
+   \[
+   2 \times 12 + 2 \times 10 + 2 \times 9 + 2 \times 6 + 2 \times 11 = 24 + 20 + 18 + 12 + 22 = 96
+   \]
+
+5. **División en dos**: La pregunta pide la mitad del perímetro total:
+   \[
+   \frac{96}{2} = 48
+   \]
+
+**Razonamiento**: El perímetro total de la figura restante es 96 unidades, por lo que la mitad del perímetro es 48 unidades.
+
+**Respuesta**: D) 48.

@@ -1,0 +1,26 @@
+Per resoldre aquesta pregunta, hem de determinar la primera xifra de l'esquerra del nombre natural més xicotet que és divisible per tots els nombres naturals de l'1 al 9.
+
+1. **Identificar el concepte**: Hem de trobar el més petit nombre que és divisible per tots els nombres de l'1 al 9. Aquest nombre és conegut com el menor comú múltiple (MCM) dels nombres de l'1 al 9.
+2. **Calcular el MCM**:
+   - Els nombres de l'1 al 9 són: 1, 2, 3, 4, 5, 6, 7, 8, 9.
+   - El MCM d'aquests nombres és el nombre més petit que és divisible per tots ells.
+   - Podem descompondre cada nombre en factors primers:
+     - 1 = 1
+     - 2 = 2
+     - 3 = 3
+     - 4 = 2^2
+     - 5 = 5
+     - 6 = 2 * 3
+     - 7 = 7
+     - 8 = 2^3
+     - 9 = 3^2
+   - El MCM es troba prenent el màxim exponent de cada factor primer:
+     - 2^3 (de 8)
+     - 3^2 (de 9)
+     - 5 (de 5)
+     - 7 (de 7)
+   - Multiplicant aquests factors, obtenim: 2^3 * 3^2 * 5 * 7 = 8 * 9 * 5 * 7 = 2520.
+3. **Identificar la primera xifra de l'esquerra**: La primera xifra de l'esquerra de 2520 és 2.
+
+Raonament: El nombre natural més xicotet que és divisible per tots els nombres de l'1 al 9 és 2520. La primera xifra de l'esquerra d'aquest nombre és 2.
+Resposta: B)

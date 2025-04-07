@@ -1,0 +1,14 @@
+Razonamiento:
+El teléfono está medio cargado, lo que significa que tiene la mitad de la batería.
+Cuando está completamente cargado, la batería dura 32 horas si solo se habla, 20 horas si solo se usa Internet y 80 horas si no se usa.
+La batería medio cargada durará la mitad de ese tiempo en cada caso: 16 horas hablando, 10 horas usando Internet y 40 horas sin usarlo.
+Sea *t* el tiempo que usa Internet, habla y no realiza ninguna acción. Entonces, el tiempo total es 3*t*.
+La cantidad de batería gastada es proporcional al tiempo dividido por la duración total si se usara solo esa función. Entonces, la proporción de batería gastada es: t/32 (hablando) + t/20 (Internet) + t/80 (sin usar) = 1/2 (batería medio cargada).
+Multiplicando la ecuación por el mínimo común múltiplo de 32, 20 y 80 que es 160:
+160(t/32 + t/20 + t/80) = 160(1/2)
+5t + 8t + 2t = 80
+15t = 80
+t = 80/15 = 16/3 horas
+El tiempo total del viaje en tren es 3*t = 3 * (16/3) = 16 horas.
+
+Respuesta: D)

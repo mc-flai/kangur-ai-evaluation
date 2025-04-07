@@ -1,0 +1,405 @@
+Raonament:
+Primer, considerem que els nombres a, b i c tenen la forma xyx, on x i y són dígits i x és diferent de zero. Això vol dir que els nombres estan entre 100 i 999.
+Tenim les equacions:
+b = 2a + 1
+c = 2b + 1
+Substituint b en la segona equació, obtenim:
+c = 2(2a + 1) + 1 = 4a + 3
+Com que a, b i c són nombres de tres xifres i la primera i la tercera xifra són iguals, podem escriure:
+a = 100x1 + 10y1 + x1 = 101x1 + 10y1
+b = 100x2 + 10y2 + x2 = 101x2 + 10y2
+c = 100x3 + 10y3 + x3 = 101x3 + 10y3
+Llavors, tenim:
+101x2 + 10y2 = 2(101x1 + 10y1) + 1 = 202x1 + 20y1 + 1
+101x3 + 10y3 = 4(101x1 + 10y1) + 3 = 404x1 + 40y1 + 3
+Com que 100 <= a, b, c <= 999, podem establir límits superiors i inferiors per a a, b i c.
+100 <= a <= 999
+100 <= 2a + 1 <= 999 => 99 <= 2a <= 998 => 49.5 <= a <= 499 => 100 <= a <= 499
+100 <= 4a + 3 <= 999 => 97 <= 4a <= 996 => 24.25 <= a <= 249 => 100 <= a <= 249
+Això vol dir que 100 <= a <= 249. Ara considerem que la primera i l'última xifra són iguals, per tant, el rang es converteix en:
+101 <= a <= 191 i la 1a xifra es 1
+202 <= a <= 242 i la 1a xifra es 2
+Si considerem els casos on la primera i darrera xifra son iguals podem deduir el següent.
+Comencem amb a=101:
+b = 2(101) + 1 = 203
+c = 2(203) + 1 = 407
+a = 111, b = 223, c = 447
+a = 121, b = 243, c = 487
+a = 131, b = 263, c = 527
+a = 141, b = 283, c = 567
+a = 151, b = 303, c = 607
+a = 161, b = 323, c = 647
+a = 171, b = 343, c = 687
+a = 181, b = 363, c = 727
+a = 191, b = 383, c = 767
+a = 202, b = 405, c = 811
+a = 212, b = 425, c = 851
+a = 222, b = 445, c = 891
+a = 232, b = 465, c = 931
+a = 242, b = 485, c = 971
+En tots aquests casos la primera i darrera xifra han de ser iguals.
+Per a=2a+1, les primeres i últimes xifres de "b" han de ser iguals. El mateix amb el número "c".
+Tenim:
+a=101 => b = 203, c = 407
+a=111 => b = 223, c = 447
+a=121 => b = 243, c = 487
+a=131 => b = 263, c = 527
+a=141 => b = 283, c = 567
+a=151 => b = 303, c = 607
+a=161 => b = 323, c = 647
+a=171 => b = 343, c = 687
+a=181 => b = 363, c = 727
+a=191 => b = 383, c = 767
+a=202 => b = 405, c = 811
+a=212 => b = 425, c = 851
+a=222 => b = 445, c = 891
+a=232 => b = 465, c = 931
+a=242 => b = 485, c = 971
+
+a=303 => b=607, c=1215
+a=313 => b=627, c=1255
+El que importa es que b i c s'escriguin amb la primera i la última xifra iguals.
+Si revisem de nou les condicions tenim b=x2y2x2 i c=x3y3x3
+b = 2a+1
+c = 2b+1
+Com que 2a+1= b, 2a ha de ser parell, per tant a podria ser parell o imparell, aixi que tenim:
+101 => 203
+111 => 223
+121 => 243
+Si provem amb valors més alts no trobarem coincidències entre la primera i l'ultima xifra, Per tant no hi ha valors possibles per a "a".
+
+Resposta: A)
+Raonament:
+Els nombres a, b, c són de la forma xyx (100<=a,b,c<=999), per tant es pot escriure com 101x+10y on x és la primera i tercera xifra.
+A més b=2a+1 i c=2b+1
+Substituint b=2a+1 en c=2b+1, obtenim c=2(2a+1)+1 = 4a+3.
+Si provem amb a=101, b=203, c=407, cap d'aquests cumpleix la condició de que la primera i última xifra siguin iguals.
+
+Resposta: A)
+Raonament:
+Considerem els nombres de la forma `xyx`. Tenim:
+b = 2a + 1
+c = 2b + 1 = 2(2a + 1) + 1 = 4a + 3
+Provarem amb els valors d'a:
+- Si a = 101, b = 203, c = 407. Cap coincideix.
+- Si a = 111, b = 223, c = 447. Cap coincideix.
+...
+Anem provant amb altres rangs:
+a = 202 => b = 405, c = 811
+a = 212 => b = 425, c = 851
+a = 222 => b = 445, c = 891
+...
+A partir d'aqui sembla que no n'hi ha cap.
+Si pensem que la primera i l'última xifra han de ser iguals en els 3 nombres, vol dir que a = 101*x + 10*y, b = 101*z + 10*w, c = 101*u + 10*v, on x, y, z, w, u, v són enters del 0 al 9.
+b = 2a + 1 => 101*z + 10*w = 2(101*x + 10*y) + 1
+c = 4a + 3 => 101*u + 10*v = 4(101*x + 10*y) + 3
+
+Resposta: A)
+Raonament: Els nombres a, b i c han de tenir tres dígits on el primer i l'últim són iguals. Per tant, estan en la forma xyx. A més, sabem que b=2a+1 i c=2b+1. Unint les dues equacions, c=2(2a+1)+1 = 4a+3. Els nombres a, b, i c han d'estar entre 100 i 999. Per tant, 100 <= a,b,c <= 999.
+De la primera equació obtenim 100<=2a+1<=999, resolent obtenim 99<=2a<=998 o 49.5<=a<=499. Per tant a ha d'estar entre 100 i 499.
+De la segona equació obtenim 100<=4a+3<=999, resolent obtenim 97<=4a<=996 o 24.25<=a<=249. Per tant a ha d'estar entre 100 i 249.
+Comencem a provar valors:
+Si a=101, b=203, c=407.
+Si a=111, b=223, c=447.
+Si a=121, b=243, c=487.
+Si a=131, b=263, c=527.
+Si a=141, b=283, c=567.
+Si a=151, b=303, c=607.
+Si a=161, b=323, c=647.
+Si a=171, b=343, c=687.
+Si a=181, b=363, c=727.
+Si a=191, b=383, c=767.
+Si a=202, b=405, c=811.
+Si a=212, b=425, c=851.
+Si a=222, b=445, c=891.
+Si a=232, b=465, c=931.
+Si a=242, b=485, c=971.
+
+Resposta: A)
+Raonament:
+Els números a, b, i c tenen la forma xyx. És a dir, 100x + 10y + x = 101x + 10y. Així que,
+a = 101x1 + 10y1
+b = 101x2 + 10y2
+c = 101x3 + 10y3
+Donat que b = 2a + 1 i c = 2b + 1, tenim que c = 4a + 3. Així doncs:
+101x2 + 10y2 = 2(101x1 + 10y1) + 1
+101x3 + 10y3 = 4(101x1 + 10y1) + 3
+Comencem a probar alguns casos on x1 sigui 1, es a dir, del 101 a 191 on x1 =1
+
+Resposta: A)
+Raonament:
+Tenim a,b,c de la forma xyx.
+b=2a+1
+c=2b+1 = 4a+3
+Si a=101 b=203 c=407
+Si a=111 b=223 c=447
+Si a=121 b=243 c=487
+En cap cas coincideixen les xifres extremes.
+Si provéssim amb a = 202
+b = 405
+c=811
+Es compleix per c, però no per a i b.
+No hi ha cap valor que compleixi.
+
+Resposta: A)
+Raonament:
+a, b i c tenen la forma xyx, on x és la primera i última xifra, que són iguals.
+b = 2a + 1
+c = 2b + 1 = 4a + 3
+Si trobem un a de la forma xyx, aleshores hem de veure si 2a+1 i 4a+3 tenen la mateixa forma. Si no, no hi ha cap valor.
+
+Resposta: A)
+Raonament: Els nombres tenen forma xyx, per tant, a= 101x+10y on x és la primera xifra. b=2a+1 c=4a+3. Provant alguns valors veiem que no és possible
+
+Resposta: A)
+Raonament:
+Els nombres a, b, c són de la forma xyx. Això vol dir que a = 101 * x1 + 10 * y1, b = 101 * x2 + 10 * y2 i c = 101 * x3 + 10 * y3.
+També sabem que b = 2a + 1 i c = 2b + 1 = 4a + 3.
+Substituint a:
+101 * x2 + 10 * y2 = 2 * (101 * x1 + 10 * y1) + 1
+101 * x3 + 10 * y3 = 4 * (101 * x1 + 10 * y1) + 3
+Analitzant les equacions, per x1=1 tindriem que a=101, 111,...,191
+a=101 => b=203, c=407. no compleixen
+...
+a=202, b=405, c=811. no compleixen.
+...
+Així que no existeix cap nombre que ho compleixi.
+
+Resposta: A)
+Raonament:
+Els nombres a, b i c són de tres dígits i tenen la mateixa primera i última xifra. Per tant, podem escriure'ls com xyx, on x és un dígit de l'1 al 9 i y és un dígit del 0 al 9. Això significa que a = 101x_a + 10y_a, b = 101x_b + 10y_b, i c = 101x_c + 10y_c.
+També tenim que b = 2a + 1 i c = 2b + 1 = 4a + 3.
+
+Si provamos a = 101, b = 203, c = 407. Cap d'ells compleix que la primera i última xifra siguin iguals.
+
+Si provamos altres valors de a tampoc s'acompleix mai les condicions.
+
+Resposta: A)
+Raonament:
+Donat que a,b,c tenen la mateixa primera i última xifra, podem expressar-los com 101 * x + 10 * y. També se'ns diu que b = 2a+1 i que c = 2b+1 = 4a+3. Si a= 101*x_a+10*y_a, llavors b = 2*(101*x_a+10*y_a)+1. Perquè es cumpleixi la condició, hem de tenir un b que tb tingui la forma 101*x_b+10*y_b.
+
+Resposta: A)
+Raonament:
+Si els números a, b i c tenen la forma xyx, on x és la primera i última xifra, significa que a = 101x1 + 10y1, b = 101x2 + 10y2 i c = 101x3 + 10y3.
+Tenim les equacions b = 2a + 1 i c = 2b + 1. Substituint obtenim c = 4a + 3.
+A partir d'aquí anem provant i veiem que no es compleix la primera i l'última xifra, i per tant, no hi ha cap número a que compleixi això.
+
+Resposta: A)
+Raonament: Comencem analitzant les condicions. Els nombres a, b i c són de tres xifres i tenen la primera i tercera xifra iguals (per exemple, 121). A més, b = 2a + 1 i c = 2b + 1. Combinant les dues equacions, tenim c = 4a + 3.
+La primera observació és que 100 <= a, b, c <= 999. Això ens dona les següents restriccions:
+* 100 <= a <= 999
+* 100 <= 2a + 1 <= 999, de manera que 49.5 <= a <= 499.
+* 100 <= 4a + 3 <= 999, de manera que 24.25 <= a <= 249.
+Combinant totes les restriccions tenim 100 <= a <= 249.
+Ara anem provant amb algun valor de a. Si a = 101, llavors b = 203 i c = 407. Aquí ja veiem que el nombre b no té la primera i darrera xifra iguals. No cal seguir provant.
+
+Resposta: A)
+Raonament: Els nombres a,b,c són de tres xifres amb la primera i última xifra igual. Per tant, a = 100x + 10y + x = 101x + 10y, amb x entre 1 i 9 i y entre 0 i 9.
+També tenim b=2a+1 i c=2b+1, per tant c=2(2a+1)+1 = 4a+3
+Si provem amb a=101, tenim b=203 i c=407, on ni b ni c tenen les xifres extremes iguals.
+Si provem amb a=111, tenim b=223 i c=447, on ni b ni c tenen les xifres extremes iguals.
+
+Per tant, no hi ha cap valor de a que compleixi la condició.
+
+Resposta: A)
+Raonament:
+
+Els nombres a, b i c tenen tres xifres, on la primera i la tercera són iguals. Podem escriure'ls com a=101x1+10y1, b=101x2+10y2 i c=101x3+10y3, on x1, x2, x3 són les primeres i últimes xifres, i y1, y2, y3 són les xifres del mig.
+A més sabem que b = 2a + 1 i c = 2b + 1, que es pot reescriure com c = 4a + 3.
+Com que a,b i c tenen tres xifres (entre 100 i 999) podem dir:
+
+a = 101x1 + 10y1
+b = 2a+1
+c = 4a+3
+
+com que han de ser tres xifres:
+100<=a<=999
+100<=b<=999
+100<=c<=999
+
+a ha de ser més petit que 250 sino c>999
+101<=a<=242
+
+per que b tingui la forma xyx
+203<=b<=485
+
+i perque c tingui la forma xyx
+407<=c<=971
+
+provem els valors en a
+si a =101; b=203, c=407 cap compleix la forma xyx
+...
+
+provant veiem que mai es compleix les formes xyx en les tres variables, per tan, no tenim cap cas.
+
+Resposta: A)
+Raonament:
+
+Cada nombre te la forma xyx, que es equivalent a dir 101x + 10y
+Per tant,
+a=101x1 + 10y1
+b=101x2 + 10y2 = 2a+1= 2(101x1 + 10y1)+1
+c=101x3 + 10y3 = 2b+1= 4a+3 = 4(101x1 + 10y1)+3
+
+a ha de ser entre 100 y 999
+pero c ha de ser també entre 100 y 999
+això vol dir que 4a+3 <=999, o a<= (999-3)/4 = 249
+per tant, a ha d'estar entre 100 i 249, i tenir les xifres extremes iguals.
+
+Si a=101, b = 203, c = 407 (cap coincideix)
+Si a=111, b = 223, c = 447 (cap coincideix)
+Si a=121, b = 243, c = 487 (cap coincideix)
+Si a=131, b = 263, c = 527 (cap coincideix)
+Si a=141, b = 283, c = 567 (cap coincideix)
+Si a=151, b = 303, c = 607 (b coincideix, pero no c)
+Si a=161, b = 323, c = 647 (cap coincideix)
+Si a=171, b = 343, c = 687 (cap coincideix)
+Si a=181, b = 363, c = 727 (cap coincideix)
+Si a=191, b = 383, c = 767 (cap coincideix)
+Si a=202, b=405, c = 811 (c coincideix, pero no b)
+
+per tant, no hi ha cap valor que coincideixi
+A) Cap
+
+Resposta: A)
+Raonament:
+Els nombres tenen la forma xyx.
+a = 101x + 10y
+b = 2a + 1
+c = 2b + 1 = 4a + 3
+Comencem provant a veure si trobem alguna solució:
+a = 101, b = 203, c = 407 (cap és de la forma xyx)
+
+Resposta: A)
+Raonament: Els nombres a, b i c són de la forma xyx. A més, b=2a+1 i c=2b+1.
+Així, c=2(2a+1)+1 = 4a+3
+Com que 100<= a, b, c <=999, tenim
+100<= a <=999
+100 <= 2a+1 <= 999 -> 99<=2a<=998 -> 49.5<=a<=499
+100<=4a+3<=999 -> 97<=4a<=996 -> 24.25 <=a<=249
+Per tant, 100<=a<=249 i de la forma xyx.
+Provem valors:
+a=101: b=203, c=407 (cap de la forma xyx)
+a=111: b=223, c=447 (cap de la forma xyx)
+a=121: b=243, c=487 (cap de la forma xyx)
+
+Resposta: A)
+Raonament:
+
+*Els nombres a, b, c són de tres dígits amb la primera i última xifra iguals. Per tant, a = 101*x_a + 10*y_a, b = 101*x_b + 10*y_b, i c = 101*x_c + 10*y_c, on x_i són dígits del 1 al 9 i y_i són dígits del 0 al 9.
+*També tenim que b = 2a + 1 i c = 2b + 1 = 4a + 3.
+*Perquè a, b, i c siguin nombres de tres dígits, han de complir que 100 <= a, b, c <= 999.
+*Llavors 100 <= a <= 999, 100 <= 2a+1 <= 999, 100 <= 4a+3 <= 999
+
+Aixi que tenim:
+a >= 100
+a <= (999-1)/2 -> a <= 499
+a <= (999-3)/4 -> a <= 249
+
+Si provem alguns casos...
+* a = 101: b = 203, c = 407 (cap de la forma "xyx")
+* a = 111: b = 223, c = 447 (cap de la forma "xyx")
+
+... Cap dels nombres trobats cumpleixen.
+
+Resposta: A)
+Raonament:
+
+Els nombres a, b, i c són de tres xifres, on la primera i tercera xifra són iguals (forma "xyx"). Així que a=101x + 10y.
+També se'ns diu que b=2a+1 i c=2b+1, el que es pot reescriure com c=4a+3.
+Es a dir, a ha d'estar entre 100 i 999, pero perque c sigui entre 100 i 999, llavors a ha d'estar entre 100 i (999-3)/4 = 249.
+Aleshores provaré valors d'a entre 100 i 249 que tinguin la forma xyx.
+Si a=101, b=203 i c=407. Cap té la primera i última xifra iguals.
+Si a=111, b=223 i c=447. Tampoc.
+Si provem més, a = 232 -> b = 465 -> c = 931
+en cap es compleixen els requisits, per tan la resposta és Cap
+
+Resposta: A)
+Raonament:
+a, b i c tenen la forma xyx, així que són de la forma 101x + 10y on x és un número entre 1 i 9 i y entre 0 i 9.
+Com b = 2a + 1 i c = 2b + 1, aleshores c = 4a + 3.
+Comencem provant a = 101, b = 203, c = 407. No hi ha solució.
+
+Resposta: A)
+Raonament: Si els nombres a,b,i c son nombres de tres xifres entre 100 i 999 amb la primera i tercera xifra iguals, tenim que a=xaxaxa, b=xbxbxb i c=xcxcxc .
+
+A mes tenim b = 2a + 1 i c= 2b+1. substituim b i ens queda c= 4a+3.
+
+si a = 101, b=203 i c= 407. Comprovem que la primera i tercera xifra no son iguals per als tres numeros.
+per tant
+
+Resposta: A)
+Raonament:
+Tenim les següents condicions:
+1. a, b, c són nombres de tres xifres entre 100 i 999.
+2. La primera i la tercera xifra són iguals (forma xyx).
+3. b = 2a + 1
+4. c = 2b + 1
+
+Substituint b en l'equació de c:
+c = 2(2a + 1) + 1 = 4a + 3
+
+Ara provem valors per a i mirem si b i c compleixen les condicions:
+a = 101:
+b = 2(101) + 1 = 203
+c = 4(101) + 3 = 407
+b no té la mateixa primera i tercera xifra.
+
+Com que a=111:
+b= 2(111)+1 =223
+c = 4(111)+3 = 447
+b i c no tenen primera i última xifra iguals.
+
+Per tant, no hi ha cap valor possible per a.
+
+Resposta: A)
+Raonament: Els nombres a, b i c són de la forma xyx, de manera que a= 101x1+10y1, b= 101x2+10y2, c= 101x3+10y3. A més, sabem que b= 2a+1 i c= 2b+1 -> c= 4a+3. Ara provem diferents valors per a, per exemple, a= 101. Això ens dona b= 203 i c= 407. Cap dels nombres té la primera i tercera xifra iguals, de manera que no n'hi ha cap.
+Resposta: A)
+Raonament:
+Els nombres a,b,i c tenen la forma de xyx, per aixo tenen la forma de 100*x +10*y + x = 101*x + 10*y.
+b=2a+1
+c=2b+1= 4a+3
+a <= (1000-3) / 4
+a<250
+Provema:
+a= 101 -> b= 203 -> c=407
+111 -> 223 -> 447
+121 -> 243 -> 487
+
+A) Cap
+Resposta: A)
+Raonament:
+a,b i c son nombres de tres xifres amb la primera i tercera xifra igual (xyx).
+
+per tant
+a = 101x + 10y (x esta entre 1 i 9 i y entre 0 i 9)
+b = 2a + 1
+c = 2b + 1 = 4a+3.
+
+nomes podem trobar a amb les seguents restriccions:
+100 <= a <= 999
+100 <= b <= 999
+100 <= c <= 999
+
+-> 100 <= 4a + 3 <= 999
+->  97 <= 4a <= 996
+-> 24.25 <= a <= 249
+
+Ara podem provar diferents valors de a, comprovar b i c, i veure si hi ha algun cas on la primera i tercera xifra de a, b i c siguin iguals:
+a=101, b = 2a+1 = 203, c = 4a+3 = 407 . cap compleix la regla
+a=111, b = 2a+1 = 223, c = 4a+3 = 447 . cap compleix la regla.
+a=212, b = 425, c = 851.
+
+es obvi que cap compleix la condicio a -> cap
+
+Resposta: A)
+Raonament:
+Les variables a,b,i c són tres nombres de tres xifres que tenen la primera i la tercera xifra igual. Per tant a=100x+10y+x=101x+10y on x es un número entre 1 i 9, i y entre 0 i 9. A més sabem que b=2a+1 i c=2b+1 i per tant c=4a+3. 
+Vegem els valors de a on es cumpleix.
+
+Si a=101, b=203 i c=407 
+Si a=242, b=485 i c=971
+
+en cap d'ells b i c tenen la primera i tercera xifra iguals. 
+
+Resposta: A)

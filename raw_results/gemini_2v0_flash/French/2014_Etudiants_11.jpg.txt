@@ -1,0 +1,13 @@
+Reasoning:
+Let V = a*b*c be the volume of the rectangular box, where a < b < c.
+Let's consider the change in volume when we increase each dimension by a small amount, say 'x'.
+
+If we increase 'a' by 'x', the new volume is (a+x)*b*c = abc + x*b*c. The change in volume is x*b*c.
+If we increase 'b' by 'x', the new volume is a*(b+x)*c = abc + x*a*c. The change in volume is x*a*c.
+If we increase 'c' by 'x', the new volume is a*b*(c+x) = abc + x*a*b. The change in volume is x*a*b.
+
+Since a < b < c, we have a*b < a*c < b*c. Thus, x*a*b < x*a*c < x*b*c.
+The change in volume is largest when we increase 'a' by 'x', and smallest when we increase 'c' by 'x'.
+However, the question asks for the *largest* increase in volume. Since b*c > a*c > a*b, increasing 'a' yields the largest change in volume.
+
+Answer: A)

@@ -1,0 +1,12 @@
+Per resoldre la pregunta 21, hem de determinar quantos dels segments que connecten punts de la figura no es repeteixen en un recorregut en el sentit de les agulles del rellotge amb el mètode descrit.
+
+**Raonament**:
+1. La figura mostra 6 punts i 9 segments que els connecten.
+2. Si anem d'un punt a un altre punt en sentit de les agulles del rellotge tornant al primer sense passar dues vegades per cap segment, cada segment que travessarem s'haurà d'esborrar.
+3. Observem la figura: és un triangle amb subdivisions interiors.
+4. En un recorregut en el sentit de les agulles del rellotge, hauríem de tornar al punt de partida sense repetir cap segment.
+5. Si contem els segments interiors, veiem que alguns d'ells es repetiran en el recorregut per tornar al punt de partida.
+6. Els segments que es repetiran són aquells que formen part de les subdivisions interiors del triangle principal.
+7. Si comptem els segments interiors que es repeteixen, observem que són 3.
+
+**Resposta**: D) 4.

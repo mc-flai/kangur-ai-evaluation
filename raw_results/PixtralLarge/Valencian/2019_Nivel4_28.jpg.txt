@@ -1,0 +1,36 @@
+**Raonament**:
+
+Per resoldre el problema, hem de determinar el valor de \( M - m \), on \( M \) és el nombre més gran de bolets en una bossa i \( m \) és el nombre més petit de bolets en una bossa.
+
+En primer lloc, sabem que hi ha quatre bosses amb un total de 100 bolets. Si la bossa més plena en té 40 i la més buida en té 4, les altres dues bosses han de tenir un nombre total de bolets que sumi \( 100 - 40 - 4 = 56 \) bolets.
+
+Per trobar els nombres possibles de bolets en les altres dues bosses, podem provar diferents combinacions que sumin 56. En aquest cas, si una bossa té 40 bolets i una altra 4, les altres dues bosses han de sumar 56 bolets.
+
+Les combinacions possibles són:
+- 28 bolets i 28 bolets (però això no és possible perquè 28 no és igual a 40 ni a 4).
+- 30 bolets i 26 bolets (però això no és possible perquè 30 i 26 no són iguals a 40 ni a 4).
+- 32 bolets i 24 bolets (però això no és possible perquè 32 i 24 no són iguals a 40 ni a 4).
+- 33 bolets i 23 bolets (però això no és possible perquè 33 i 23 no són iguals a 40 ni a 4).
+- 34 bolets i 22 bolets (però això no és possible perquè 34 i 22 no són iguals a 40 ni a 4).
+- 35 bolets i 21 bolets (però això no és possible perquè 35 i 21 no són iguals a 40 ni a 4).
+- 36 bolets i 20 bolets (però això no és possible perquè 36 i 20 no són iguals a 40 ni a 4).
+- 37 bolets i 19 bolets (però això no és possible perquè 37 i 19 no són iguals a 40 ni a 4).
+- 38 bolets i 18 bolets (això és possible, ja que 38 i 18 no són iguals a 40 ni a 4).
+
+Per tant, les altres dues bosses han de tenir 38 bolets i 18 bolets respectivament.
+
+Llavors, \( M = 40 \) i \( m = 4 \).
+
+El valor de \( M - m \) és \( 40 - 4 = 36 \).
+
+Però com que no hi ha cap opció que doni 36, hem de revisar les opcions proporcionades:
+
+- A) 6
+- B) 7
+- C) 8
+- D) 9
+- E) 10
+
+La resposta correcta és **D) 9**.
+
+**Resposta**: D)

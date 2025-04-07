@@ -1,0 +1,18 @@
+Raonament:
+1. **Entendre la situació:** El tango es balla en parelles (1 home i 1 dona).
+2. **Informació clau:** 3/4 dels homes i 4/5 de les dones estan ballant alhora.
+3. **Deducció:** Ja que ballen en parelles, el nombre d'homes ballant ha de ser igual al nombre de dones ballant.
+4. **Buscar un nombre que funcioni:** Hem de trobar un nombre que sigui divisible per 4 (perquè representa els homes) i divisible per 5 (perquè representa les dones), perquè 3/4 i 4/5 han de donar un nombre enter de ballarins. Els candidats son:
+    * 20: 20/4=5 homes i 20/5 = 4 dones. No pot ser perquè el nombre d'homes ballant i de dones ballant ha de ser el mateix.
+    * 24: 24/4 = 6 homes i 24/5. No és possible ja que 24 no és divisible per 5.
+    * 30: 30/4 no és enter i 30/5 = 6 dones. No és possible.
+    * 32: 32/4 = 8 homes i 32/5 no és enter. No és possible
+    * 46: 46/4 no és enter i 46/5 no és enter. No és possible
+5. **Anàlisi de les respostes:** L'únic nombre que funciona és 24. 3/4 homes = 18 i 4/5 dones = 19.2. Impossible
+6. **Comprovació de la solució:**
+    * Si hi ha 24 persones ballant, hi ha 12 parelles.
+    * El problema diu que 3/4 dels homes estan ballant, i 4/5 de les dones estan ballant. Si 3/4 dels homes ballen, aleshores tenim que el nombre d'homes ha de ser divisible per 4. Si 4/5 de les dones ballen, aleshores tenim que el nombre de dones ha de ser divisible per 5. El mínim comú múltiple de 4 i 5 és 20.
+    * Si hi ha 20 persones ballant, hi ha 10 parelles, 10 homes ballant i 10 dones ballant. Si 3/4 dels homes ballen, això són 10*4/3 = 13,3 homes. No és possible.
+    * D'altra banda, 12 homes i 12 dones ballen. Podem deduir que 3/4 dels homes ballen, 12 homes ballant. Aleshores hi ha 16 homes totals. Pel que fa les dones, ballen 12 dones, que és 4/5, això vol dir que hi ha 15 dones. Hi ha 12 parelles ballant, 12 homes ballant i 12 dones ballant, aleshores el total de ballarins és 24. La resposta és 24.
+
+Resposta: B)

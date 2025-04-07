@@ -1,0 +1,24 @@
+To solve this problem, we need to determine the number of brown kangaroos in the circle of 2020 kangaroos, where each kangaroo says, "One of my neighbors is brown and the other is gray."
+
+First, let's analyze the possible scenarios for any group of three consecutive kangaroos in the circle:
+
+1. If a kangaroo is brown, it must have one brown neighbor and one gray neighbor.
+2. If a kangaroo is gray, it must have one brown neighbor and one gray neighbor.
+
+From this, we can infer that each brown kangaroo must be flanked by one brown and one gray kangaroo, and each gray kangaroo must be flanked by one brown and one gray kangaroo. This arrangement implies that the kangaroos must alternate in a specific pattern to satisfy the condition stated.
+
+To find the number of brown kangaroos, we note that the circle must alternate in a pattern that satisfies the condition for all 2020 kangaroos. This pattern can be BGBGB... (Brown-Gray-Brown-Gray...).
+
+In this alternating pattern:
+- Each brown kangaroo is followed by a gray kangaroo.
+- Each gray kangaroo is followed by a brown kangaroo.
+
+Since the total number of kangaroos is 2020, and they alternate in color:
+- Half of them will be brown.
+- Half of them will be gray.
+
+Thus, the number of brown kangaroos is:
+2020 / 2 = 1010
+
+Reasoning: The kangaroos must alternate in color to satisfy the condition given in the problem. Since there are 2020 kangaroos, half of them will be brown, which is 1010.
+Answer: C)

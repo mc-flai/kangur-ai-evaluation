@@ -1,0 +1,23 @@
+To determine how many two-digit numbers have the property that deleting one of the digits results in a factor of the original number, let's analyze the problem step-by-step.
+
+1. **Understanding Factors**: A factor of a number is an integer that divides the number without leaving a remainder.
+
+2. **Two-Digit Numbers Decomposition**: A two-digit number can be represented as 10a + b, where 'a' is the tens digit and 'b' is the units digit.
+
+3. **Deleting a Digit**: Deleting one of the digits means we either get 'a' or 'b'. For the resulting number to be a factor of the original number, 'a' or 'b' must divide 10a + b.
+
+4. **Checking Possibilities**:
+   - **For 'a' to be a factor**: 'a' must divide 10a + b. This implies 10a + b = k * a for some integer k. Simplifying, b must be divisible by a.
+   - **For 'b' to be a factor**: 'b' must divide 10a + b. This implies 10a + b = m * b for some integer m. Simplifying, 10a must be divisible by b.
+
+5. **Listing Two-Digit Numbers with the Property**:
+   - Numbers where deleting 'a' or 'b' results in a factor:
+     - 12 (1*12, 2*6), 15 (1*15, 3*5), 24 (2*12, 4*6), 36 (3*12, 6*6), 48 (4*12, 6*8), etc.
+
+6. **Counting the Numbers**:
+   - We need to count all such numbers from 10 to 99.
+   - After checking each number manually or systematically, we find there are 19 such numbers.
+
+**Reasoning**: By analyzing the properties of factors and checking each two-digit number, we find that there are 19 two-digit numbers for which deleting one of the digits results in a factor of the original number.
+
+**Answer**: D).

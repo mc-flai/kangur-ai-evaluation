@@ -1,0 +1,20 @@
+Razonamiento: Un número capicúa se lee igual de izquierda a derecha que de derecha a izquierda. Los capicúas entre 1000 y 2015 son de la forma 1XX1. Los números capicúas primos entre 1000 y 2015 son 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991.
+*   1001 = 7 * 11 * 13, no es primo.
+*   1111 = 11 * 101, no es primo.
+*   1331 = 11^3, no es primo.
+*   1551 = 3 * 17 * 31, no es primo.
+*   1881 = 3 * 11 * 57, no es primo.
+* 11, 13, 17, 19.
+Debemos comprobar si existen números capicúas de la forma 1XX1 que sean primos. Los números capicúas tienen que ser 1XX1, donde X puede ser cualquier dígito de 0 a 9. Tenemos que verificar cada valor.
+* 1001 = 7 * 11 * 13 No es primo
+* 1111 = 11 * 101 No es primo
+* 1221 = 3 * 11 * 37 No es primo
+* 1331 = 11 ^3 No es primo
+* 1441 = 11 * 131 No es primo
+* 1551 = 3 * 17 * 31 No es primo
+* 1661 = 11 * 151 No es primo
+* 1771 = 7 * 11 * 23 No es primo
+* 1881 = 3 * 11 * 57 No es primo
+* 1991 = 11 * 181. No es primo.
+No hay capicúas que sean primos.
+Respuesta: A)

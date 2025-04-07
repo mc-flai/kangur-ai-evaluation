@@ -1,0 +1,50 @@
+Reasoning: 
+
+To solve this problem, we need to find the amount of money Janaina had after buying all her toys. The problem states that she bought three toys and spent all her money, with the first two toys costing half of the money she had plus one Real, the third toy costing half of what was left plus three Reais.
+
+Let's assume the amount of money Janaina had initially is x Reais.
+
+For the first toy, she spent half of her money (x/2) plus one Real, so she spent (x/2) + 1 Reais.
+
+For the second toy, she spent half of what was left (x - ((x/2) + 1)) plus two Reais, so she spent ((x - ((x/2) + 1))/2) + 2 Reais.
+
+For the third toy, she spent half of what was left (x - ((x/2) + 1) - ((x - ((x/2) + 1))/2 + 2)) plus three Reais, so she spent (((x - ((x/2) + 1) - ((x - ((x/2) + 1))/2 + 2))/2) + 3).
+
+We can simplify these expressions by combining like terms:
+
+For the first toy, she spent (x/2) + 1 Reais.
+
+For the second toy, she spent (x/2 - 2) + 2 Reais = x/2 Reais.
+
+For the third toy, she spent ((x/2 - 2 + 2)/2) + 3 = (x/4 + 1) + 3 = x/4 + 4 Reais.
+
+Now, let's add up the total amount of money she spent on all three toys:
+
+x/2 + 1 + x/2 + (x - 4) + 4
+
+Combine like terms:
+
+2x + x - 4 + 4
+
+Simplify:
+
+3x
+
+We know that the total amount of money she spent is equal to 100 Reais (option E).
+
+Therefore, we set up the equation:
+
+3x = 100
+
+Now, we can solve for x:
+
+x = 100 / 3
+x = 33.33
+
+Since the amount of money Janaina had must be a whole number, we round it up to the nearest whole number:
+
+x ≈ 34
+
+So, the correct answer is 
+
+Answer: E)

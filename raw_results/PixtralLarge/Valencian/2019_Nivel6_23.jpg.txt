@@ -1,0 +1,27 @@
+**Raonament**:
+
+Per trobar el valor més xicotet possible de la suma \( S \) dels quatre nombres marcats en el quadrat de la xarxa, hem de considerar que cada vèrtex de la xarxa està marcat amb un número de l’1 al 10 i que cada parell de vèrtexs adjacents té un número diferent.
+
+La suma \( S \) de quatre nombres marcats en cada quadrat és la mateixa, perquè cada vèrtex està connectat amb altres vèrtexs, i els valors d'aquests vèrtexs s'han de sumar.
+
+Per minimitzar la suma \( S \), hem de triar els valors més petits disponibles per als nombres marcats. Això significa que els quatre nombres més petits que podem utilitzar són 1, 2, 3 i 4.
+
+Sumant aquests valors:
+\[ S = 1 + 2 + 3 + 4 = 10 \]
+
+Però cal considerar que cada vèrtex està connectat amb altres vèrtexs i tenim un total de 8 nombres (cada quadrat té 4 vèrtexs i hi ha 2 quadrats adjacents que comparteixen 2 vèrtexs). Això significa que hem de sumar el valor dels nombres adjacents a cada quadrat.
+
+Suposem que el quadrat esquerre té els vèrtexs amb els valors 1, 2, 3 i 4. El quadrat dret ha de tenir els vèrtexs amb els valors 5, 6, 7 i 8, perquè cada vèrtex ha de tenir un valor diferent dels adjacents.
+
+Sumant aquests valors:
+\[ S = (1 + 2 + 3 + 4) + (5 + 6 + 7 + 8) = 10 + 26 = 36 \]
+
+Però això no és correcte, ja que estem sumant tots els valors dels vèrtexs en lloc de només els quatre que formen el quadrat. Revisem la suma correcta per als quatre nombres marcats:
+
+Considerant els quadrats adjacents i els valors més petits possibles, la suma correcta és:
+\[ S = 1 + 2 + 3 + 4 = 10 \]
+
+Però això no és correcte, ja que no hem considerat els valors adjacents correctament. La suma correcta és:
+\[ S = 1 + 3 + 6 + 8 = 18 \]
+
+**Resposta**: A) 18

@@ -1,0 +1,35 @@
+**Razonamiento:**
+1. La pregunta nos pide encontrar el número de cifras de los cuadrados de los números de 4 cifras que son múltiplos de 6.
+2. Sabemos que un número es múltiplo de 6 si es múltiplo de 2 y de 3.
+3. Los cuadrados de los números pares siempre son pares, por lo que son múltiplos de 2.
+4. Para que un cuadrado sea múltiplo de 3, el número original debe ser múltiplo de 3.
+5. Por lo tanto, necesitamos encontrar los cuadrados de los números de 4 cifras que son múltiplos de 3.
+6. Los números de 4 cifras van desde 1000 a 9999.
+7. Para encontrar los múltiplos de 3 en este rango, podemos dividir 9999 por 3, lo que nos da aproximadamente 3333.
+8. El primer múltiplo de 3 en este rango es 1002 (1002 es 3 * 334).
+9. El último múltiplo de 3 en este rango es 9996 (9996 es 3 * 3332).
+10. Contamos los múltiplos de 3 entre 1002 y 9996:
+    - 1002, 1005, 1008, ..., 9996.
+11. La secuencia es aritmética con diferencia común de 3.
+12. Usamos la fórmula para el número de términos en una secuencia aritmética: \( a_n = a_1 + (n-1)d \).
+13. Aquí, \( a_1 = 1002 \), \( d = 3 \), y \( a_n = 9996 \).
+14. Resolviendo para \( n \):
+    \[
+    9996 = 1002 + (n-1) \cdot 3
+    \]
+    \[
+    9996 - 1002 = (n-1) \cdot 3
+    \]
+    \[
+    8994 = (n-1) \cdot 3
+    \]
+    \[
+    n-1 = 2998
+    \]
+    \[
+    n = 2999
+    \]
+15. Por lo tanto, hay 2999 números de 4 cifras que son múltiplos de 3.
+16. El número de cifras de 2999 es 4.
+
+**Respuesta:** C)

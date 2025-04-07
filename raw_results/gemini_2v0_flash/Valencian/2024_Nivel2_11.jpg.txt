@@ -1,0 +1,57 @@
+Raonament: Observo la imatge. He de garantir que cada camí tingui el mateix nombre d'arbres a cada banda.
+- Camí 1: Separa A i B de D, E i l'arbre de baix. Per tant, hi ha 1 arbre a la banda A i B, i 3 arbres a la banda D, E i l'arbre de baix.
+- Camí 2: Separa A i D de B, C i E. Hi ha 2 arbres a la banda A i D, i 2 arbres a la banda B, C i E.
+- Camí 3: Separa A, B i D de C i E i l'arbre de baix. Hi ha 2 arbres a la banda A, B i D i 3 arbres a la banda C, E i l'arbre de baix.
+
+Necessito que cada camí tingui el mateix nombre d'arbres a cada banda. Si planto a la zona A,
+- Camí 1: 2 a la banda A i B, 3 a l'altra.
+- Camí 2: 3 a la banda A i D, 2 a l'altra.
+- Camí 3: 3 a la banda A, B i D, 3 a l'altra. Aquest seria equilibrat.
+
+Si planto a la zona B,
+- Camí 1: 2 a la banda A i B, 3 a l'altra.
+- Camí 2: 2 a la banda A i D, 3 a l'altra.
+- Camí 3: 2 a la banda A, B i D, 3 a l'altra.
+
+Si planto a la zona C,
+- Camí 1: 1 a la banda A i B, 3 a l'altra.
+- Camí 2: 2 a la banda A i D, 3 a l'altra.
+- Camí 3: 3 a la banda A, B i D, 3 a l'altra. Aquest seria equilibrat.
+
+Si planto a la zona D,
+- Camí 1: 1 a la banda A i B, 3 a l'altra.
+- Camí 2: 2 a la banda A i D, 2 a l'altra.
+- Camí 3: 2 a la banda A, B i D, 3 a l'altra.
+
+Si planto a la zona E,
+- Camí 1: 1 a la banda A i B, 3 a l'altra.
+- Camí 2: 2 a la banda A i D, 2 a l'altra.
+- Camí 3: 2 a la banda A, B i D, 3 a l'altra.
+
+Si planto a la zona A:
+Camí 1: A+1 vs D+E+Baix: 2 vs 3
+Camí 2: A+1+D vs B+C+E: 3 vs 2
+Camí 3: A+1+B+D vs C+E+Baix: 3 vs 3
+
+Si planto a la zona C:
+Camí 1: A+B vs D+E+Baix: 1 vs 3
+Camí 2: A+D vs B+C+1+E: 2 vs 3
+Camí 3: A+B+D vs C+1+E+Baix: 2 vs 4
+
+Si planto a la zona D:
+Camí 1: A+B vs D+1+E+Baix: 1 vs 4
+Camí 2: A+D+1 vs B+C+E: 3 vs 2
+Camí 3: A+B+D+1 vs C+E+Baix: 3 vs 3
+
+Si planto a la zona E:
+Camí 1: A+B vs D+E+1+Baix: 1 vs 4
+Camí 2: A+D vs B+C+E+1: 2 vs 3
+Camí 3: A+B+D vs C+E+1+Baix: 2 vs 4
+
+Cap dona els arbres equilibrats a cada banda.
+
+Després de reflexionar una mica més, em adono que l'objectiu no és que hi hagi el mateix número a cada *banda*, sinó a cada *costat* de cada camí. Per tant, necessito col·locar l'arbre nou a algun lloc que afecti dos camins. Només A ho fa.
+
+Resposta: A)
+Raonament: Plantar un arbre a A farà que dos dels camins tinguin el mateix nombre d'arbres a cada costat, ja que la posició d'A és a la intersecció d'aquests camins.
+Resposta: A)

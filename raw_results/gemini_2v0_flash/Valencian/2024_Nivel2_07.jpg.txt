@@ -1,0 +1,12 @@
+Raonament: L'objectiu és dividir el nombre 5021972970 en tres parts de tal manera que la suma d'aquestes tres parts sigui la més petita possible. Per aconseguir-ho, volem que els tres números siguin el més petits possible. Una estratègia és intentar fer que els tres números tinguin el menor nombre de dígits possible, tot i que no necessàriament iguals, però evitant que els dígits principals siguin grans.
+Primer intent: 5 + 0 + 21972970 = 21972975 (molt gran)
+Segon intent: 50 + 2 + 1972970 = 1972022 (molt gran)
+Tercer intent: 502 + 1 + 972970 = 973473 (molt gran)
+Quart intent: 5021 + 97 + 2970 = 8088
+Cinquè intent: 5021 + 972 + 970 = 6963
+Sisè intent: 502 + 197 + 2970 = 3669
+Setè intent: 50219 + 7 + 2970 = 53196
+
+Sembla que la combinació que minimitza la suma és 502 + 197 + 2970 = 3669.
+
+Resposta: E)

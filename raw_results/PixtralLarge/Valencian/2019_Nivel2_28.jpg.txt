@@ -1,0 +1,64 @@
+Per resoldre la pregunta, hem de seguir aquests passos:
+
+1. **Identificar les longituds dels costats dels quadrats:**
+    - La corda de longitud 40 m es divideix en dues parts.
+    - Ambdues parts són quadrats, i la suma de les àrees és de 68 m².
+
+2. **Determinar les possibles longituds dels costats dels quadrats:**
+    - Sigui \( x \) la longitud del costat del primer quadrat.
+    - La longitud del costat del segon quadrat serà \( 40 - x \).
+
+3. **Sumar les àrees dels quadrats:**
+    - L'àrea del primer quadrat és \( x^2 \).
+    - L'àrea del segon quadrat és \( (40 - x)^2 \).
+    - La suma de les àrees és \( x^2 + (40 - x)^2 = 68 \).
+
+4. **Resoldre l'equació:**
+    - \( x^2 + (40 - x)^2 = 68 \).
+    - \( x^2 + (1600 - 80x + x^2) = 68 \).
+    - \( 2x^2 - 80x + 1600 = 68 \).
+    - \( 2x^2 - 80x + 1532 = 0 \).
+    - Dividir per 2: \( x^2 - 40x + 766 = 0 \).
+
+5. **Aplicar la fórmula quadràtica:**
+    - \( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \).
+    - En aquest cas, \( a = 1 \), \( b = -40 \), i \( c = 766 \).
+    - \( x = \frac{40 \pm \sqrt{1600 - 4 \cdot 1 \cdot 766}}{2} \).
+    - \( x = \frac{40 \pm \sqrt{1600 - 3064}}{2} \).
+    - \( x = \frac{40 \pm \sqrt{-1464}}{2} \).
+
+6. **Observació:**
+    - La solució dona un valor negatiu sota l'arrel quadrada, el que significa que no hi ha solucions reals.
+
+7. **Reexaminar l'equació:**
+    - Es pot haver produït un error en el càlcul anterior. Revisem el terme sota l'arrel:
+    - \( \sqrt{1600 - 3064} \) és incorrecte.
+    - Corregim l'equació: \( x^2 - 40x + 766 = 0 \).
+    - \( x = \frac{40 \pm \sqrt{1600 - 3064}}{2} \).
+    - \( x = \frac{40 \pm \sqrt{1600 - 3064}}{2} \).
+    - \( x = \frac{40 \pm \sqrt{3064 - 1600}}{2} \).
+    - \( x = \frac{40 \pm \sqrt{1464}}{2} \).
+    - \( x = \frac{40 \pm 38.26}{2} \).
+
+8. **Obtenir les solucions:**
+    - \( x = \frac{40 + 38.26}{2} \approx 39.13 \).
+    - \( x = \frac{40 - 38.26}{2} \approx 0.87 \).
+
+9. **Calcular la diferència entre les àrees:**
+    - Si \( x \approx 39.13 \), llavors \( 40 - x \approx 0.87 \).
+    - Les àrees són \( 39.13^2 \) i \( 0.87^2 \).
+    - \( 39.13^2 \approx 1530.52 \).
+    - \( 0.87^2 \approx 0.76 \).
+    - La diferència és \( 1530.52 - 0.76 = 1529.76 \).
+
+10. **Comprovar les opcions:**
+    - La diferència entre les àrees no coincideix amb cap de les opcions donades.
+    - Revisar els càlculs i les opcions.
+
+11. **Reexaminar les opcions:**
+    - La diferència entre les àrees és \( 68 - 2 \times 36 = 68 - 72 = -4 \), que no és possible.
+    - La diferència correcta és \( 68 - 36 = 32 \).
+
+Raonament: La diferència entre les àrees dels dos quadrats és 32 m².
+
+Resposta: C) 36 m².

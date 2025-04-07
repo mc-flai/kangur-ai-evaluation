@@ -1,0 +1,16 @@
+Reasoning: Let 's' be the number of squares and 't' be the number of triangles.
+We know that s + t = 10.
+Each square has 4 vertices. When a square is cut along the diagonal, we get 2 triangles each with 3 vertices. Therefore, the total number of vertices after cutting a square is 3 + 3 = 6.
+Each triangle has 3 vertices.
+The total number of vertices is 48.
+So, 6s + 3t = 48.
+We also have s + t = 10, which means t = 10 - s.
+Substituting t in the first equation:
+6s + 3(10 - s) = 48
+6s + 30 - 3s = 48
+3s = 48 - 30
+3s = 18
+s = 6
+Therefore, the number of squares is 6.
+
+Answer: D)

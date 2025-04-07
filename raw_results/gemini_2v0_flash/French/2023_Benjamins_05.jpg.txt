@@ -1,0 +1,5 @@
+Reasoning:
+Question 5 is asking about the number of possible towers of 4 disks that can be created from 5 disks of different sizes, where the disks in each tower must be in decreasing order of size from bottom to top. This is a combination problem, since the order in which the disks are selected does not matter. We are choosing 4 disks from a set of 5. The formula for combinations is nCr = n! / (r! * (n-r)!), where n is the total number of items and r is the number of items to choose.
+In this case, n = 5 and r = 4. So the number of possible towers is 5C4 = 5! / (4! * (5-4)!) = 5! / (4! * 1!) = (5 * 4 * 3 * 2 * 1) / ((4 * 3 * 2 * 1) * 1) = 5.
+
+Answer: B)

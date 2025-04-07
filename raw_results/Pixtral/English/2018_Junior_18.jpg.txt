@@ -1,0 +1,37 @@
+### Reasoning:
+
+The problem asks how often the summand \(2018^2\) appears under the root in the equation:
+
+\[
+\sqrt{2018^2 + 2018^2 + ... + 2018^2} = 2018^{10}
+\]
+
+First, let's simplify the left-hand side of the equation:
+
+\[
+\sqrt{2018^2 + 2018^2 + ... + 2018^2} = \sqrt{n \cdot 2018^2}
+\]
+
+This can be rewritten as:
+
+\[
+\sqrt{n \cdot 2018^2} = 2018 \sqrt{n}
+\]
+
+For the equation \(2018 \sqrt{n} = 2018^{10}\) to hold true, \(\sqrt{n}\) must equal \(2018^9\):
+
+\[
+\sqrt{n} = 2018^9
+\]
+
+Squaring both sides gives:
+
+\[
+n = (2018^9)^2 = 2018^{18}
+\]
+
+Therefore, the number of summands \(n\) is \(2018^{18}\).
+
+### Answer:
+
+E) \(2018^{18}\)

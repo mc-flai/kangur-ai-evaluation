@@ -1,0 +1,21 @@
+Raonament:
+Tenim les següents equacions:
+1) f(x) = 2f(x+1)
+2) f(x+y) = f(x) * f(y)
+
+Volem calcular f(1/2016) * f(2015/2016).
+Fem servir la segona equació: f(x+y) = f(x) * f(y)
+Si posem x = 1/2016 i y = 2015/2016, aleshores x+y = 1/2016 + 2015/2016 = 2016/2016 = 1.
+Per tant, f(1) = f(1/2016) * f(2015/2016).
+Així que volem calcular f(1).
+Ara fem servir la primera equació: f(x) = 2f(x+1).
+Si posem x = 0, llavors f(0) = 2f(1). Però el domini no inclou 0.
+En comptes d'això, fem servir f(x+y) = f(x) * f(y).
+Si posem x = 1 i y = 1, llavors f(2) = f(1) * f(1) = f(1)^2.
+Si posem x = 1, en l'equació f(x) = 2f(x+1), llavors f(1) = 2f(2) = 2f(1)^2.
+Per tant, f(1) = 2f(1)^2. Dividint per f(1) (que és diferent de zero ja que f:R* -> R*), tenim:
+1 = 2f(1)
+Així, f(1) = 1/2.
+Per tant, f(1/2016) * f(2015/2016) = f(1) = 1/2.
+
+Resposta: B)

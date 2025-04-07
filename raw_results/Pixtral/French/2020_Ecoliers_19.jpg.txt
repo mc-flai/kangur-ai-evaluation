@@ -1,0 +1,26 @@
+
+Raisonnement :
+1. Le problème indique qu'il y a plusieurs équipes de différentes tailles au camp de Kangourou.
+2. Chaque équipe a soit 5 membres, soit 6 membres.
+3. Le total de toutes les personnes au camp est de 43.
+4. Nous devons déterminer combien d'équipes sont présentes.
+
+Pour trouver le nombre d'équipes, nous devons vérifier les options données pour voir laquelle correspond au total de 43 personnes.
+
+- Si chaque équipe a 5 membres :
+  - 5 équipes : 5 * 5 = 25 personnes
+  - 6 équipes : 6 * 5 = 30 personnes
+  - 7 équipes : 7 * 5 = 35 personnes
+  - 8 équipes : 8 * 5 = 40 personnes
+  - 9 équipes : 9 * 5 = 45 personnes
+
+- Si chaque équipe a 6 membres :
+  - 5 équipes : 5 * 6 = 30 personnes
+  - 6 équipes : 6 * 6 = 36 personnes
+  - 7 équipes : 7 * 6 = 42 personnes
+  - 8 équipes : 8 * 6 = 48 personnes
+  - 9 équipes : 9 * 6 = 54 personnes
+
+En comparant ces résultats au total de 43 personnes, nous voyons que 8 équipes de 5 membres correspondent à 40 personnes, ce qui est le plus proche de 43 sans dépasser.
+
+Réponse : D)

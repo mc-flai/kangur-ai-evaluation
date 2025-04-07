@@ -1,0 +1,9 @@
+Razonamiento:
+La pregunta 3 pide el menor número de puentes que deben cerrarse para que no se pueda ir de A a B. Observando la figura, se pueden ver dos caminos directos de A a B. Si quitamos uno de esos puentes, aún se puede ir de A a B por otro camino, por lo que debe quitarse al menos un puente en cada camino posible.
+En el diagrama, hay 2 caminos desde A a B:
+*   A -> puente -> isla -> puente -> B
+*   A -> puente -> isla -> puente -> isla -> puente -> B
+
+Para bloquear el camino A->B se debe cerrar al menos un puente en cada camino. Por tanto, para que no sea posible ir de A a B, tenemos que cerrar al menos 3 puentes.
+
+Respuesta: C)

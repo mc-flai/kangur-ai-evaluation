@@ -1,0 +1,39 @@
+Pour résoudre la question 18, nous devons déterminer l'ordre correct dans lequel les deux machines doivent être utilisées pour obtenir le résultat illustré.
+
+**Raisonnement :**
+- Le papier initial est un carré avec une flèche pointant vers la gauche.
+- La machine R fait tourner le papier de 90 degrés dans le sens des aiguilles d'une montre.
+    - Si le papier est tourné de 90 degrés dans le sens des aiguilles d'une montre, la flèche pointera vers le haut.
+- La machine T imprime un trèfle sur le papier.
+    - Cette opération ne change pas l'orientation du papier, mais ajoute simplement un trèfle.
+
+En analysant les options proposées :
+- A) TRRR :
+  - T imprime un trèfle.
+  - R tourne le papier de 90 degrés.
+  - R tourne le papier de 90 degrés (180 degrés au total, flèche pointe vers le bas).
+  - R tourne le papier de 90 degrés (270 degrés au total, flèche pointe vers la gauche).
+- B) TRRT :
+  - T imprime un trèfle.
+  - R tourne le papier de 90 degrés.
+  - R tourne le papier de 90 degrés (180 degrés au total, flèche pointe vers le bas).
+  - T imprime un trèfle (pas de changement d'orientation).
+- C) TRTR :
+  - T imprime un trèfle.
+  - R tourne le papier de 90 degrés.
+  - T imprime un trèfle (pas de changement d'orientation).
+  - R tourne le papier de 90 degrés (180 degrés au total, flèche pointe vers le bas).
+- D) RRRT :
+  - R tourne le papier de 90 degrés.
+  - R tourne le papier de 90 degrés (180 degrés au total, flèche pointe vers le bas).
+  - R tourne le papier de 90 degrés (270 degrés au total, flèche pointe vers la gauche).
+  - T imprime un trèfle (pas de changement d'orientation).
+- E) RTRR :
+  - R tourne le papier de 90 degrés.
+  - T imprime un trèfle (pas de changement d'orientation).
+  - R tourne le papier de 90 degrés (180 degrés au total, flèche pointe vers le bas).
+  - R tourne le papier de 90 degrés (270 degrés au total, flèche pointe vers la gauche).
+
+En comparant les résultats avec le papier final montré dans l'image, nous voyons que l'option E) RTRR correspond à la séquence correcte.
+
+**Réponse :** E)

@@ -1,0 +1,12 @@
+
+Razonamiento: La pregunta trata sobre ranas que deciden saltar en un patrón específico en una cuadrícula. Las ranas saltan en cada celda vacía, que es una celda de agua, comparte un lado con una celda vacía. Después de este salto, algunos ranas están en una celda de agua y una celda vacía. La pregunta es cuántas ranas distintas pueden hacer este salto.
+
+Para resolver esto, necesitamos identificar las ranas que pueden hacer este salto específico. Observando la cuadrícula, vemos que hay ranas en las siguientes posiciones:
+- (1, 1)
+- (1, 2)
+- (2, 1)
+- (2, 2)
+
+Cada una de estas ranas puede saltar a una celda adyacente que es tanto agua como vacía. Al contar estas ranas, encontramos que hay 4 ranas distintas que pueden hacer este salto.
+
+Respuesta: D)

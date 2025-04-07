@@ -1,0 +1,29 @@
+**Raonament**: La pregunta demana quants valors diferents poden prendre el seu producte si la suma de sis nombres enters positius distints és 24.
+
+Per resoldre això, hem de considerar els nombres enters positius més petits i com poden sumar fins a 24.
+
+Els nombres enters positius més petits són 1, 2, 3, 4, 5 i 6. A continuació, calculem el producte de diferents combinacions d'aquests nombres que sumen 24:
+
+1. Si utilitzem els nombres 1, 2, 3, 4, 5 i 9:
+   - Suma: 1 + 2 + 3 + 4 + 5 + 9 = 24
+   - Producte: 1 * 2 * 3 * 4 * 5 * 9 = 360
+
+2. Si utilitzem els nombres 1, 2, 3, 4, 6 i 8:
+   - Suma: 1 + 2 + 3 + 4 + 6 + 8 = 24
+   - Producte: 1 * 2 * 3 * 4 * 6 * 8 = 1152
+
+3. Si utilitzem els nombres 1, 2, 3, 5, 6 i 7:
+   - Suma: 1 + 2 + 3 + 5 + 6 + 7 = 24
+   - Producte: 1 * 2 * 3 * 5 * 6 * 7 = 1260
+
+4. Si utilitzem els nombres 1, 2, 4, 5, 6 i 6:
+   - Suma: 1 + 2 + 4 + 5 + 6 + 6 = 24
+   - Producte: 1 * 2 * 4 * 5 * 6 * 6 = 1440
+
+5. Si utilitzem els nombres 1, 3, 4, 5, 5 i 6:
+   - Suma: 1 + 3 + 4 + 5 + 5 + 6 = 24
+   - Producte: 1 * 3 * 4 * 5 * 5 * 6 = 1800
+
+Aquests són els productes possibles que podem obtenir amb diferents combinacions de nombres enters positius distints que sumen 24. Per tant, hi ha 5 valors diferents possibles per al producte.
+
+**Resposta**: E)

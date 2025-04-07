@@ -1,0 +1,27 @@
+Razonamiento:
+El número de fósforos utilizados para escribir cada dígito es:
+0: 6
+1: 2
+2: 5
+3: 5
+4: 4
+5: 5
+6: 6
+7: 3
+8: 7
+9: 6
+
+Debemos encontrar números enteros positivos que puedan escribirse usando exactamente 6 fósforos.
+1. Un número de un solo dígito:
+0, 6, 9 usan 6 fósforos cada uno. Por lo tanto, 0, 6, y 9 se pueden escribir usando exactamente 6 fósforos. Como se pide un entero positivo, 0 no se cuenta. Entonces, 6 y 9 son válidos.
+
+2. Un número de dos dígitos:
+Tenemos que encontrar dos dígitos cuyo número total de fósforos sea 6.
+- 1 y 4: 2 + 4 = 6. Los números son 14 y 41.
+- 4 y 1: 4 + 2 = 6. Los números son 41.
+
+3. Un número de tres dígitos: no es posible obtener 6 fósforos.
+
+El conjunto de los números enteros positivos diferentes es {6, 9, 14, 41}. Por lo tanto, hay 4 números enteros positivos diferentes que pueden escribirse utilizando exactamente 6 fósforos.
+
+Respuesta: B)

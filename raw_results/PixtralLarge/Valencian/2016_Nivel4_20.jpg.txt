@@ -1,0 +1,17 @@
+**Raonament**:
+La xifra d'un nombre és el darrer dígit que se situa a la posició de les unitats. Per trobar la xifra del nombre resultant de sumar 1! + 2! + 3! + 4! + ... + 2016!, hem de considerar la contribució de cada factorial.
+
+Les xifres de les unitats dels factorials de nombres majors o iguals a 5 són sempre 0 perquè contenen almenys un factor de 2 i un de 5 (ja que 5! = 120 té 0 com a dígit de les unitats).
+
+Per tant, només importen les xifres de les unitats de 1!, 2!, 3! i 4!:
+- La xifra de la unitat de 1! és 1.
+- La xifra de la unitat de 2! és 2.
+- La xifra de la unitat de 3! és 6 (ja que 3! = 6).
+- La xifra de la unitat de 4! és 4 (ja que 4! = 24).
+
+Sumem les xifres de les unitats:
+1 + 2 + 6 + 4 = 13.
+
+La xifra de la unitat del resultat de sumar 13 és 3.
+
+**Resposta**: C)

@@ -1,0 +1,34 @@
+La pregunta demana el quocient de la divisió d'un nombre N de dues xifres entre la suma de les seves xifres, i també demana quina és la xifra de les unitats d'aquest nombre N.
+
+Per resoldre aquest problema, considerem un nombre de dues xifres N = 10a + b, on a és la xifra de les desenes i b és la xifra de les unitats.
+
+La suma de les xifres de N és a + b.
+
+El quocient de la divisió de N entre la suma de les seves xifres és:
+(10a + b) / (a + b) = 8
+
+Multipliquem ambdós costats per (a + b) per eliminar la fracció:
+10a + b = 8(a + b)
+
+Desenvolupem l'equació:
+10a + b = 8a + 8b
+
+Restem 8a i b de cada costat:
+2a = 7b
+
+Dividim ambdós costats per 2:
+a = 7b / 2
+
+Perquè a sigui una xifra (un nombre sencer entre 0 i 9), b ha de ser 2 perquè 7b / 2 sigui un nombre sencer. Per tant, b = 2.
+
+Substituïm b = 2 en l'equació a = 7b / 2:
+a = 7 * 2 / 2
+a = 7
+
+Per tant, el nombre N és 72.
+
+La xifra de les unitats de N és 2.
+
+Raonament: Hem resolt l'equació per trobar els valors de a i b que satisfan les condicions del problema i hem determinat que la xifra de les unitats de N és 2.
+
+Resposta: B)

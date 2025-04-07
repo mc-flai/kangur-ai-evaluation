@@ -1,0 +1,78 @@
+**Pregunta:** Si \( U + V = 1 \) i \( U^2 + V^2 = 2 \), quant és \( U^4 + V^4 \)?
+
+**Opcions:**
+A) 4
+B) 8
+C) 1
+D) 3
+E) 3,5
+
+**Razonament:**
+1. Comencem amb les equacions donades:
+   \[
+   U + V = 1
+   \]
+   \[
+   U^2 + V^2 = 2
+   \]
+
+2. Utilitzem la identitat \( (U + V)^2 = U^2 + 2UV + V^2 \). Substituint les equacions donades:
+   \[
+   (U + V)^2 = 1^2 = 1
+   \]
+   \[
+   U^2 + 2UV + V^2 = 2
+   \]
+
+3. Substituint \( U^2 + V^2 = 2 \) en l'identitat:
+   \[
+   2 + 2UV = 1
+   \]
+
+4. Resolent per \( UV \):
+   \[
+   2UV = 1 - 2
+   \]
+   \[
+   2UV = -1
+   \]
+   \[
+   UV = -\frac{1}{2}
+   \]
+
+5. Ara, volem trobar \( U^4 + V^4 \). Utilitzem la identitat \( (U^2 + V^2)^2 = U^4 + V^4 + 2U^2V^2 \). Sabem que \( U^2 + V^2 = 2 \):
+   \[
+   (U^2 + V^2)^2 = 2^2 = 4
+   \]
+   \[
+   U^4 + V^4 + 2U^2V^2 = 4
+   \]
+
+6. Sabem que \( U^2V^2 = (UV)^2 \):
+   \[
+   U^2V^2 = \left(-\frac{1}{2}\right)^2 = \frac{1}{4}
+   \]
+
+7. Substituint \( U^2V^2 \) en l'identitat:
+   \[
+   U^4 + V^4 + 2 \cdot \frac{1}{4} = 4
+   \]
+   \[
+   U^4 + V^4 + \frac{1}{2} = 4
+   \]
+
+8. Resolent per \( U^4 + V^4 \):
+   \[
+   U^4 + V^4 = 4 - \frac{1}{2}
+   \]
+   \[
+   U^4 + V^4 = \frac{8}{2} - \frac{1}{2}
+   \]
+   \[
+   U^4 + V^4 = \frac{7}{2}
+   \]
+   \[
+   U^4 + V^4 = 3.5
+   \]
+
+**Resposta:** E) 3,5

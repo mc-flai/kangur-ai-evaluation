@@ -1,0 +1,12 @@
+Raisonnement : Pour répondre à cette question, je dois déterminer combien de paires de nombres premiers peuvent s'additionner pour donner 1001. Le nombre premier le plus bas est 2. Si on utilise 2, il faut trouver un nombre premier qui, additionné à 2, donne 1001, soit 999. Or, 999 est divisible par 3 et n'est donc pas un nombre premier. Ensuite, comme 1001 est un nombre impair, une des composantes doit être 2, étant le seul nombre premier pair. On cherche donc toutes les paires de nombres premiers qui peuvent s'additionner pour donner 1001.
+
+1001 - 2 = 999, qui n'est pas premier.
+1001 - 3 = 998, qui n'est pas premier.
+1001 - 5 = 996, qui n'est pas premier.
+1001 - 7 = 994, qui n'est pas premier.
+1001 - 11 = 990, qui n'est pas premier.
+1001 - 13 = 988, qui n'est pas premier.
+...
+En continuant ce processus, on remarque que la somme de deux nombres premiers qui donnent un nombre impair nécessitera toujours que l'un des deux nombres soit 2. Puisque 999 n'est pas un nombre premier, il n'y a aucune paire possible.
+
+Réponse : A) aucune

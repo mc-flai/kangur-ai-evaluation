@@ -1,0 +1,6 @@
+Reasoning: The key to this problem is understanding the parity of the moves. Start by coloring the vertices of the graph like a checkerboard. This means A and Q have the same color and all other points have the opposite color. Since the ant starts at A, after one move it must be at a point of opposite color. After two moves it must be at a point of the same color as A, and so on. Thus, after an even number of moves, the ant must be at a point with the same color as A. After an odd number of moves it must be at a point of opposite color. Since 2019 is odd, the ant can only be at a point of opposite color to A, which includes P, R, S, and T. So, the ant cannot be at Q. Also, any of P, R, S, and T can be reached in 1 move.
+Since the number of moves is 2019, which is odd, the ant can only be at vertices with a different coloring from A, which are P, R, S and T.
+After one move, the ant can be at P, R, S, T. After two moves, it can be at Q or A. After three moves, it can be at P, R, S, T.
+Since 2019 is odd, the ant can only be at P, R, S or T.
+
+Answer: B)

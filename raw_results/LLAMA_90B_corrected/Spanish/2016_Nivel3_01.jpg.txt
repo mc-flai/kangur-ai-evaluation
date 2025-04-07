@@ -1,0 +1,13 @@
+Razonamiento: En la pregunta 1 se nos pide que calculemos cuántos números hay entre el 3 y 20, incluidos 16 y 17 en un conjunto de números que ha sido modificado si:
+
+- Si un número es múltiplo de 3 -> el número se multiplica por 2.
+- Si un número es múltiplo de 5 -> el número se divide por 5.
+- Si un número es múltiplo de 3 y 5, se divide por 5.
+
+De 3 a 20, hay 17 números. Los múltiplos de 3 son: 3, 6, 9, 12, 15, 18. Los múltiplos de 5 son: 5, 10, 15, 20. 
+
+Los números 3, 6, 9, 12 y 18 se redondean al doble de su valor para formar los números 6, 12, 18, 24 y 36. Además, los números 5 y 10 se redondean al total de la mitad de sus valores 1 y 2, respectivamente.
+
+Por lo tanto por debajo de 17 y 20 sólo hay 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, lo que representa 14 números en total.
+
+Respuesta: E) 14.

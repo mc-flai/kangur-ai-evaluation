@@ -1,0 +1,35 @@
+Reasoning: To solve this question, we need to find the best way for Nick to split the numbers 2, 3, 4, 5, 6, 7, 8, 9, 10 into some groups so that the sum of the numbers in each group is equally big. 
+
+First, let's try to group the numbers in such a way that each group has the same sum.
+
+Option (A) 2: We can't split the numbers into two groups because the sum of the numbers will not be equally big.
+
+Option (B) 3: We can split the numbers into three groups as follows:
+
+- Group 1: 2, 3, 4 (sum = 9)
+- Group 2: 5, 6 (sum = 11)
+- Group 3: 7, 8, 9, 10 (sum = 34)
+
+However, this is not equally big, so option (B) is not correct.
+
+Option (C) 4: We can split the numbers into four groups as follows:
+
+- Group 1: 2, 3, 4 (sum = 9)
+- Group 2: 5 (sum = 5)
+- Group 3: 6, 7 (sum = 13)
+- Group 4: 8, 9, 10 (sum = 27)
+
+Still, this is not equally big, so option (C) is not correct.
+
+Option (D) 6: We can split the numbers into six groups as follows:
+
+- Group 1: 2 (sum = 2)
+- Group 2: 3 (sum = 3)
+- Group 3: 4 (sum = 4)
+- Group 4: 5, 6 (sum = 11)
+- Group 5: 7, 8 (sum = 15)
+- Group 6: 9, 10 (sum = 19)
+
+The sum of each group is now equally big, so option (D) is correct.
+
+Answer: D)

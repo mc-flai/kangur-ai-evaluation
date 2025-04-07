@@ -1,0 +1,10 @@
+To determine the number of different sizes of squares that can be formed by joining 4 points in the given 3x3 grid of dots, let's analyze the possible square sizes.
+
+**Reasoning**:
+1. The smallest square is formed by joining 4 adjacent points. This is a 1x1 square.
+2. The next possible square is a 2x2 square, which is formed by joining the 4 corner points of the 2x2 grid within the 3x3 grid.
+3. There are no larger squares possible because a 3x3 square would require 4 points at the corners of the entire grid, which is not possible as it would require more than 9 points (a 4x4 grid).
+
+Thus, there are exactly 2 different sizes of squares that can be formed: 1x1 and 2x2.
+
+**Answer**: C)

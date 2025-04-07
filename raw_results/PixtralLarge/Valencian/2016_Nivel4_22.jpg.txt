@@ -1,0 +1,28 @@
+Per resoldre aquest problema, hem de comptar el total de caselles en una quadrícula 21x33 on es pinten les caselles sota dues condicions:
+
+1. Les caselles on el número de fila no és múltiple de 3.
+2. Les caselles on el número de columna és parell.
+
+**Raonament:**
+
+1. **Número de caselles en cada fila que no són múltiples de 3**:
+   - En cada fila, els números de columnes són de l'1 al 21.
+   - Els múltiples de 3 en una fila són: 3, 6, 9, 12, 15, i 18.
+   - Hi ha 6 múltiples de 3 en cada fila.
+   - Per tant, el nombre de caselles que **no** són múltiples de 3 en cada fila és: 21 - 6 = 15.
+
+2. **Número de caselles en cada columna que són parells**:
+   - Les columnes són de l'1 al 21.
+   - Les columnes parelles són: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.
+   - Hi ha 10 columnes parells.
+
+3. **Caselles que no són múltiples de 3 i són columnes parelles**:
+   - Per cada fila: 10 caselles (les caselles en columnes parelles).
+   - Per cada columna: 15 caselles (les caselles que no són múltiples de 3).
+
+4. **Comptar les caselles no múltiples de 3 en columnes parelles**:
+   - En total, hi ha 10 columnes parelles i 33 files.
+   - Les caselles no múltiples de 3 en columnes parelles són: 15 caselles per cada fila en cada una de les 10 columnes parelles.
+   - Per tant, el nombre total de caselles que hem de pintar és: 15 caselles * 10 columnes parelles = 150 caselles.
+
+**Resposta:** B)

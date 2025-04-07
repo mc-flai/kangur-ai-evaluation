@@ -1,0 +1,16 @@
+### Razonamiento:
+Para resolver este problema, necesitamos determinar el mayor número posible de pequeños cubos que pueden extraerse de un cubo grande con 64 pequeños cubos idénticos. El problema especifica que se pintan tres caras del cubo grande.
+
+Primero, entendamos la estructura del cubo grande:
+- Un cubo grande con 64 pequeños cubos idénticos significa que el cubo grande tiene 4 cubos en cada lado (4x4x4).
+
+Cuando se pintan tres caras del cubo grande, cada una de estas caras afecta a un conjunto específico de pequeños cubos. Para maximizar el número de pequeños cubos pintados, necesitamos considerar cómo se distribuyen estos cubos a lo largo de las caras pintadas.
+
+Cada cara del cubo tiene 16 pequeños cubos (4x4). Pintar tres caras significa que estamos pintando 3 * 16 = 48 pequeños cubos. Sin embargo, esto no tiene en cuenta los pequeños cubos que se encuentran en las intersecciones de las caras pintadas.
+
+Para maximizar el número de pequeños cubos pintados, necesitamos considerar los pequeños cubos que se encuentran en las intersecciones de las tres caras pintadas. Cada esquina del cubo está en la intersección de tres caras, y hay 4 esquinas en cada vértice del cubo. Dado que hay 8 vértices en un cubo, hay 8 * 4 = 32 pequeños cubos en las intersecciones de las tres caras pintadas.
+
+Por lo tanto, el número total de pequeños cubos pintados es 48 (de las caras) + 32 (de las intersecciones) = 80.
+
+### Respuesta:
+D)

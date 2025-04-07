@@ -1,0 +1,40 @@
+Here's the solution:
+
+Razonamiento:
+1.  **Rewrite equations**: Let f(x) = f and g(1-x) = g'.
+    Then the equations become:
+    f + 2g' = x²
+    f(1-x) - g(x) = x²
+
+2.  **Substitute x with 1-x**: The second equation can be written as
+    f(1-x) - g(x) = x²
+    If we substitute x with 1-x in the first equation:
+    f(1-x) + 2g(1-(1-x)) = (1-x)²
+    f(1-x) + 2g(x) = (1-x)²
+
+3.  **System of equations**: Now we have a system of equations:
+    f + 2g' = x²
+    f(1-x) + 2g(x) = (1-x)²
+
+4.  **Solve for g(x)** : We have the system:
+    f(1-x) - g(x) = x²
+    f(1-x) + 2g(x) = (1-x)²
+    Subtract the first equation from the second:
+    3g(x) = (1-x)² - x²
+    3g(x) = 1 - 2x + x² - x²
+    3g(x) = 1-2x
+    g(x) = (1-2x)/3
+
+5.  **Substitute back to find f(1-x)**:
+    f(1-x) = x² + g(x)
+    f(1-x) = x² + (1-2x)/3
+    f(1-x) = (3x² + 1 - 2x)/3
+    f(1-x) = x² - (2/3)x + 1/3
+
+6.  **Find f(x)**:  Substitute (1-x) by x, and we have 1-x = y, therefore x = 1-y.
+    f(y) = (1-y)² - (2/3)*(1-y) + 1/3
+    f(y) = 1 - 2y + y² - 2/3 + 2y/3 + 1/3
+    f(y) = y² - (4/3)y + 2/3
+    Then f(x) = x² - (4/3)x + 2/3.
+
+Answer: A)

@@ -1,0 +1,15 @@
+**Reasoning**: 
+The game is won when one player gets 3 points ahead. Player A is currently 1 point ahead. Since each player has an equal probability of winning each point, we can consider the scenarios from A's perspective:
+
+- If A wins the next point, A will be 2 points ahead.
+- If A wins the next two points, A wins the game since A will be 3 points ahead.
+
+We need to calculate the probability of A winning before B wins two consecutive points. 
+
+The probability that A wins the next point is 1/2. If A wins the next point, A will have a 1/2 chance of winning the point after that. Therefore, the probability that A wins the game by winning the next two points is:
+
+\[ \text{Probability} = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4} \]
+
+However, A can also win the game in more steps. We need to consider scenarios where A wins the game in more steps. But the simplest way to win is if A wins the next two points consecutively, which makes up the primary scenario. Therefore, the probability of A winning the game is 3/4. This is because out of the four outcomes (A wins two points, B wins two points, A wins one and B wins one, B wins one and A wins one), three of them result in A winning.
+
+**Answer**: D).

@@ -1,0 +1,33 @@
+Raonament: Per evitar treure tres boles seguides del mateix color, hem d'alternar els colors tant com sigui possible. Comencem amb les boles grogues, ja que hi ha la major quantitat. Podem treure dues boles grogues, després una bola blanca, després dues boles grogues, després una bola blanca, i així successivament fins que s'acabin les boles blanques o les grogues. Si les boles blanques s'acaben primer, continuarem traient només boles grogues i verdes. L'estratègia és posar dues grogues cada vegada.
+Considerem la combinació de dues boles grogues i una blanca (2G, 1B). Tenim 10 boles blanques. Això ens permet fer 10 combinacions (2G, 1B). Això utilitza 20 boles grogues i 10 boles blanques. Queden 30 boles grogues i 4 verdes. Ara alternarem dues grogues amb una verda (2G, 1V). Això ens permet fer 4 combinacions (2G, 1V). Això utilitza 8 boles grogues i 4 boles verdes. Queden 22 boles grogues. Aquestes 22 boles es poden treure totes sense que tres boles siguin del mateix color en seqüència, ja que tenim les alternances anteriors (2G, 1B) i (2G, 1V).
+El total de boles tretes és 20 + 10 + 8 + 4 + 22 = 64.  Però tenim la restricció que no podem tenir 3 boles del mateix color seguides.  Tenim 50 grogues, 10 blanques i 4 verdes.  Puc agafar dues grogues, una blanca, dues grogues, una blanca, etc., fins que acabi les blanques. Això serien 20 grogues i 10 blanques. Després dues grogues i una verda. Això serien 8 grogues i 4 verdes.  Després queden 22 grogues.
+22 no poden sortir seguides! Cada dues, he de treure una bola d'un altre color si encara queden.
+(2G + 1B) 10 cops + (2G + 1V) 4 cops, queda un total de 10 blanques i 4 verdes gastades, 20+8=28 grogues gastades.
+Queden 50-28=22 grogues.
+Necessito almenys 11 objectes dels altres dos colors per poder separar les grogues. Només queden grogues, així que no puc posar dues grogues seguides més de dues vegades. Si hi ha 10 blanques i 4 verdes, podria treure 2 grogues i 1 blanca 10 vegades. Això fa 30 boles. Després 2 grogues i 1 verda 4 vegades. Això fa 12 boles. Quants en queden? 50-20-8 = 22 grogues. S'han tret 10 blanques i 4 verdes. No se'n poden treure tres seguides. Això no vol dir que haguem de maximitzar el nombre de combinacions de 2G+1B i 2G+1V. Només minimitzar boles del mateix color seguides.
+2 grogues, una blanca, 2 grogues, una blanca... (2G+B)*10 = 30 boles
+després, si traiem les 4 verdes entre les grogues, (2G+V)*4 = 12 boles. Per tant hem gastat 38 grogues i queden 12. Llavors no podem treure més d'una groga consecutiva.
+1G + 1B + 1G + 1V
+Si traiem 2 grogues seguides un màxim de cops.
+2g+1b 10 vegades, 2g+1v 4 vegades. Es treuen 10+4=14 objectes amb dos colors
+20+8=28 objectes amb dos grocs. Queden 22 grogues.
+Alternar al màxim els colors minimitza la quantitat de boles del mateix color seguides.
+S'ha fet 14 interrupcions. Quantes boles s'han tret? 30+12=42. I després cal alternar 22 grogues.
+50 = 22 + 28
+10
+4
+2 + 10 + 2 + 4 + 22 = 41.  44 és massa.
+2 grogues, 1 blanca 2 grogues, 1 blanca (repetir 10 vegades)
+2 grogues, 1 verda (4 vegades)
+22 grogues seguides
+
+Raonament: Intentem treure tantes boles com sigui possible.
+* Estratègia 1: Sempre treure dues boles grogues seguides i després canviar a un altre color. D'aquesta manera, treurem 2 grogues + 1 blanca (10 vegades) i 2 grogues + 1 verda (4 vegades). Això serien 20 grogues + 10 blanques + 8 grogues + 4 verdes = 42 boles. Queden 8 grogues a la bossa. Com podem treure les 8 restants sense tenir 3 seguides? Hem de treure màxim 2. Si l'última bola que vaig treure era groga, llavors he de treure una groga.  Queden 22.
+La resposta és 44. Però si traiem 2 grogues, una blanca, 2 grogues, una blanca (10 cops)
+Després 2 grogues i una verda 4 cops, quedarà 10 grogues en lloc de 22 grogues.  Hi ha 42 boles, i es pot treure totes les que queden.
+Si tenim 22 grogues i una verda, podem treure 2 grogues seguides sense problema si l'anterior a la primera bola de la groga no es groga.
+Considerem la sequencia: 2G 1B 2G 1B... 2G 1V 2G 1V...  En aquest cas tindrem 20G + 10B + 8G + 4V. A la bossa queden 22G
+Podem treure (GG) 22/2 = 11, però no tres seguides. Només 1 o 2 boles consecutives i una altra de diferent color.
+41
+
+Resposta: B)

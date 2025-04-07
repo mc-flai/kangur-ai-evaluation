@@ -1,0 +1,24 @@
+Raisonnement :
+Le problème nous dit qu'il y a 43 personnes au total, et que chaque équipe a 5 ou 6 membres. Nous devons trouver le nombre d'équipes.  Nous pouvons examiner chaque option comme le nombre d'équipes et calculer le nombre total de personnes si les équipes ont toutes 5 ou 6 membres.
+*   Si il y a 5 équipes:
+    *   5 équipes * 5 membres = 25 personnes.
+    *   5 équipes * 6 membres = 30 personnes.
+    *   Aucune de ces possibilités ne donne 43 personnes.
+*   Si il y a 6 équipes:
+    *   6 équipes * 5 membres = 30 personnes.
+    *   6 équipes * 6 membres = 36 personnes.
+    *   Aucune de ces possibilités ne donne 43 personnes.
+*   Si il y a 7 équipes:
+    *   Si 6 équipes ont 6 membres (36 personnes), et une équipe a 7 membres, alors: 36 + 7 = 43 personnes.
+    *   Donc cela est possible.
+*   Si il y a 8 équipes:
+    *   8 équipes * 5 membres = 40 personnes
+    *   8 équipes * 6 membres = 48 personnes
+    *   Impossible d'obtenir 43 personnes.
+*   Si il y a 9 équipes:
+    *   9 équipes * 5 membres = 45 personnes
+    *   9 équipes * 6 membres = 54 personnes
+    *   Impossible d'obtenir 43 personnes.
+La seule possibilité est qu'il y ait 7 équipes avec une combinaison d'équipes de 5 et 6 membres.
+
+Réponse : C)

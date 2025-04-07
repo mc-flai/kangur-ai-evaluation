@@ -1,0 +1,120 @@
+Raonament:
+Primer, calculem el nombre de xiques que han demanat pastissos. Com que dues només prenen aigua, hi ha 12 - 2 = 10 xiques que demanen pastissos.
+Sigui *x* el nombre de xiques que demanen 0 pastissos.
+Sigui *y* el nombre de xiques que demanen 1 pastís.
+Sigui *z* el nombre de xiques que demanen 2 pastissos.
+Sabem que *x* + *y* + *z* = 10.
+La mitjana de pastissos per xica (entre les 10 que en demanen) és 1.5. Per tant, el nombre total de pastissos demanats és 10 * 1.5 = 15.
+Això vol dir que 0 * *x* + 1 * *y* + 2 * *z* = 15, o simplificat, *y* + 2 * *z* = 15.
+
+Ara tenim un sistema de dues equacions amb tres variables:
+1. *x* + *y* + *z* = 10
+2. *y* + 2* *z* = 15
+Restant la primera equació de la segona, tenim:
+(*y* + 2 * *z*) - (*x* + *y* + *z*) = 15 - 10
+*z* - *x* = 5
+*z* = *x* + 5
+
+Ara substituïm *z* = *x* + 5 a la primera equació:
+*x* + *y* + (*x* + 5) = 10
+2*x* + *y* = 5
+*y* = 5 - 2*x*
+
+Com que *x* i *y* han de ser nombres enters no negatius, el valor màxim de *x* és 2 (altrament, *y* seria negatiu).
+Llavors:
+Si *x* = 0, llavors *y* = 5 i *z* = 5
+Si *x* = 1, llavors *y* = 3 i *z* = 6
+Si *x* = 2, llavors *y* = 1 i *z* = 7
+
+La pregunta és quantes xiques han demanat dos pastissos, que és el valor de *z*.
+Si mirem les opcions, *z* = 5 no està disponible.
+Si *z* = 6 la resposta és C). Si *z* = 7, la resposta és D).
+
+L'enunciat diu que *cap d'elles pren més de dos pastissos*.
+Això vol dir que *x*, *y* i *z* són el nombre d'alumnes que demanen 0, 1 i 2 pastissos respectivament.
+
+Revisem les dues solucions:
+Si *z* = 6, *y* = 3 i *x* = 1. Comprovem *x* + *y* + *z* = 1 + 3 + 6 = 10. *y* + 2*z* = 3 + 2*6 = 3 + 12 = 15. Aquesta és una solució valida.
+Si *z* = 7, *y* = 1 i *x* = 2. Comprovem *x* + *y* + *z* = 2 + 1 + 7 = 10. *y* + 2*z* = 1 + 2*7 = 1 + 14 = 15. Aquesta és una solució valida.
+
+Si la resposta correcte es *z*=5
+*z*=6
+*z*=7
+
+Resposta C) o D)
+
+Si la mitjana es 1.5
+15/10 = 1.5
+
+Revisar
+
+Raonament:
+
+Tenim 12 xiques. 2 prenen aigua mineral. Per tant, 10 xiques prenen pastissos.
+La mitjana de pastissos és 1.5. Això vol dir que hi ha 10 * 1.5 = 15 pastissos demanats.
+Cap xica pren més de dos pastissos.
+Siguin x, y, i z el nombre de xiques que demanen 0, 1 i 2 pastissos, respectivament.
+Aleshores, x + y + z = 10
+I y + 2z = 15
+Restant les equacions, z - x = 5
+z = x + 5
+Substituint z a l'equació x + y + z = 10, obtenim x + y + x + 5 = 10
+2x + y = 5
+y = 5 - 2x
+Si x = 0, y = 5 i z = 5
+Si x = 1, y = 3 i z = 6
+Si x = 2, y = 1 i z = 7
+Quantos xiques han demanat dos pastissos (z)? La resposta es C) 6.
+Considerant l'equació 2x+y=5
+si x=0.
+z=5
+y=5, el resultat es 5
+2(1) +3=5 y + 2z= 3+2x6=15
+z= 6, y=3, el resultat es 6
+z=7, y=1, el resultat es 7
+z=8,y=?
+com que cada valor és 1.5, 10 de cada grupo.
+la millor opción es la respuesta 5 porque es mayor a 1,5, no es necesario que se divida. 1, 5 o 2.
+5 pasteles
+
+Raonament:
+Tenemos un total de 12 chicas.
+2 solo toman agua mineral, lo que significa que 10 chicas consumieron pasteles.
+La media de pasteles es de 1.5 por persona.
+Por lo tanto, el total de pasteles consumidos es 1.5 * 10 = 15.
+
+Dado que ninguna chica consumió más de dos pasteles, vamos a denotar:
+- x: número de chicas que no comieron pastel (0 pasteles)
+- y: número de chicas que comieron 1 pastel
+- z: número de chicas que comieron 2 pasteles
+
+Sabemos que:
+x + y + z = 10 (el total de chicas que consumieron pasteles)
+0x + 1y + 2z = 15 (el total de pasteles consumidos)
+
+Entonces, tenemos el sistema de ecuaciones:
+1) x + y + z = 10
+2) y + 2z = 15
+
+Despejando y de la primera ecuación: y = 10 - x - z
+Sustituyendo en la segunda ecuación: (10 - x - z) + 2z = 15
+10 - x + z = 15
+z - x = 5
+z = x + 5
+
+Dado que x, y, z deben ser números enteros no negativos, podemos probar valores para x:
+- Si x = 0, z = 5, y = 10 - 0 - 5 = 5
+- Si x = 1, z = 6, y = 10 - 1 - 6 = 3
+- Si x = 2, z = 7, y = 10 - 2 - 7 = 1
+- Si x = 3, z = 8, y = 10 - 3 - 8 = -1 (no posible, ya que y debe ser no negativo)
+
+Las posibles soluciones para (x, y, z) son: (0, 5, 5), (1, 3, 6), (2, 1, 7)
+La pregunta es cuántas chicas consumieron dos pasteles, que es el valor de z.
+
+Si (x, y, z) = (0, 5, 5):  El numero de xicas es 5.
+si (x, y, z) = (1, 3, 6):  El numero de xicas es 6.
+si (x, y, z) = (2, 1, 7):  El numero de xicas es 7.
+
+La respuesta C
+
+Resposta: C)

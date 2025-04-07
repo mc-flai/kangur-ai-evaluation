@@ -1,0 +1,20 @@
+Para determinar cuántos números de 2 cifras cumplen con la condición dada, debemos analizar los números en el rango de 10 a 99 y verificar la propiedad dada: uno de los números \( N+1 \) o \( N-1 \) debe ser primo, y el otro debe ser un cuadrado perfecto.
+
+1. **Identificar los cuadrados perfectos entre 10 y 99**:
+   - Los cuadrados perfectos en este rango son: 16 (4^2), 25 (5^2), 36 (6^2), 49 (7^2), 64 (8^2), y 81 (9^2).
+
+2. **Verificar si \( N+1 \) o \( N-1 \) son primos**:
+   - Para cada cuadrado perfecto \( N \), verificamos si \( N+1 \) o \( N-1 \) son primos:
+     - 16: \( N+1 = 17 \) (primo) y \( N-1 = 15 \) (no primo)
+     - 25: \( N+1 = 26 \) (no primo) y \( N-1 = 24 \) (no primo)
+     - 36: \( N+1 = 37 \) (primo) y \( N-1 = 35 \) (no primo)
+     - 49: \( N+1 = 50 \) (no primo) y \( N-1 = 48 \) (no primo)
+     - 64: \( N+1 = 65 \) (no primo) y \( N-1 = 63 \) (no primo)
+     - 81: \( N+1 = 82 \) (no primo) y \( N-1 = 80 \) (no primo)
+
+3. **Contar los números que cumplen la condición**:
+   - De los cuadrados perfectos analizados, solo 16 y 36 cumplen la condición de que uno de los números \( N+1 \) o \( N-1 \) es primo.
+   - Por lo tanto, hay 2 números de 2 cifras que cumplen la condición.
+
+Razonamiento: Los cuadrados perfectos de 2 cifras son 16, 25, 36, 49, 64 y 81. De estos, solo 16 y 36 cumplen la condición de que uno de los números \( N+1 \) o \( N-1 \) es primo.
+Respuesta: B)

@@ -1,0 +1,27 @@
+**Raonament**: La pregunta demana quin és el valor màxim que pot assolir el més gran d'aquests 14 nombres diferents, si la mitjana d'aquests 14 nombres enters és 12.
+
+Per resoldre-ho, primer calculem la suma total d'aquests 14 nombres:
+
+Suma total = mitjana × nombre de nombres = 12 × 14 = 168.
+
+El valor màxim que pot assolir el més gran d'aquests 14 nombres es donarà quan els altres 13 nombres siguin el més petits possible, és a dir, 1.
+
+En aquest cas, la suma dels 13 nombres més petits serà:
+
+Suma dels 13 nombres més petits = 13 × 1 = 13.
+
+Per tant, el valor màxim que pot assolir el més gran d'aquests 14 nombres serà:
+
+Valor més gran = suma total - suma dels 13 nombres més petits = 168 - 13 = 155.
+
+De les opcions donades, cap coincideix amb aquest valor. Però si considerem que els 13 nombres siguin 1, 2, 3, ..., 13 respectivament. En aquest cas la suma dels 13 nombres serà:
+
+Suma dels 13 nombres = 1 + 2 + 3 + ... + 13 = (13 × 14) / 2 = 91.
+
+Per tant, el valor més gran que pot assolir el més gran d'aquests 14 nombres serà:
+
+Valor més gran = suma total - suma dels 13 nombres = 168 - 91 = 105.
+
+Aquesta última opció sí que coincideix amb les opcions donades.
+
+**Resposta**: E).

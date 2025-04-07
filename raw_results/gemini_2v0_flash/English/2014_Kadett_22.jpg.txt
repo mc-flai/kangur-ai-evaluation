@@ -1,0 +1,98 @@
+Reasoning: We have the following equations:
+1. B + D = 1200
+2. C + E = 2100
+3. B + E = 800
+4. B + C = 900
+5. A + E = 700
+
+We can solve for each variable in terms of B.
+From (3), E = 800 - B
+From (4), C = 900 - B
+From (1), D = 1200 - B
+From (5), A = 700 - E = 700 - (800 - B) = B - 100
+
+Substitute E and C into (2):
+(900 - B) + (800 - B) = 2100
+1700 - 2B = 2100
+-2B = 400
+B = -200 (This doesn't seem right.)
+
+However, the wording "they show some mass over 1000g" means the actual weight is larger than shown.
+So, the scale adds some fixed amount 'x' each time the weight goes over 1000g.
+Then the equations are:
+1. B + D = 1200 + x
+2. C + E = 2100 + x
+3. B + E = 800
+4. B + C = 900
+5. A + E = 700
+
+From (3), E = 800 - B
+From (4), C = 900 - B
+From (5), A = 700 - E = 700 - (800 - B) = B - 100
+Substitute into (2):
+(900 - B) + (800 - B) = 2100 + x
+1700 - 2B = 2100 + x
+-2B = 400 + x
+B = -200 - x/2
+
+Substitute D = 1200+x - B.  We cannot solve this problem directly because of lack of more relationships.
+
+Let's assume, since B,D,C,E are summed to be over 1000, that A < B, and solve. Since balls each weigh less than 1000 grams, and paired results are over 1000 grams, the scale is off.
+Suppose the error amount is k.
+B+D = 1200 + k
+C+E = 2100 + k
+B+E = 800
+B+C = 900
+A+E = 700
+
+If B+C=900 and B+E=800, then C-E = 100, and C=E+100
+Substituting C+E=2100+k, (E+100)+E = 2100+k
+2E = 2000 + k
+E = 1000 + k/2
+Then since balls are each less than 1000, our error hypothesis fails.
+Suppose k=0, A+E=700 --> A=700-E=700-(800-B)=B-100
+B+C=900 --> C = 900-B
+B+D = 1200 --> D = 1200-B
+C+E = 2100 --> (900-B) + (800-B) = 2100 --> 1700-2B=2100 --> -2B=400 --> B=-200 (wrong)
+
+Trying a different approach.
+Solve this in terms of E.
+A = 700-E
+B = 800-E
+C = 900-B = 900-(800-E) = 100 + E
+D = 1200-B = 1200 - (800-E) = 400 + E
+So we have A = 700-E, B = 800-E, C = 100+E, D = 400+E. Since all are less than 1000,
+E < 700, E < 800, E < 900, and 100+E < 1000 (E < 900) and 400+E < 1000 (E < 600). So E < 600.
+The question of scale errors now rests in C+E. We know C+E > 1000, because if C+E were correct,
+(100+E)+E <=1000. 2E <= 900. So E <= 450.
+
+If the scales added x grams: then
+C+E-x = C+E = 100+2E, so 100+2E <= 1000+x, so 2E <= 900+x. E <= 450 + x/2.
+Since we know the weight that tips over is likely 1200 as well as 2100, the amount that scales are adding is likely the same.
+C is heaviest as C = 100+E, and A,B,D = 700-E, 800-E, 400+E.
+Reasoning for why scales are adding the same amount. The scale adds an amount over 1000, so B+D-x =1200.
+C+E-x =2100, and B+D and C+E weight over 1000.
+Since E<600, A = 700-E must be over 100, B = 800-E must be over 200. D = 400+E <1000. And E >0.
+Comparing each weight, with values subtracted
+A = 700-E
+B = 800-E
+C = 100+E.
+D = 400+E.
+E. = E.
+
+Now subtract x.
+(700-E) + (800-E) = 1200+X => 1500-2E+X. A+B = 1200+x? no this does not help with this value.
+Then we just solve to see which value is largest. It can't be A or B, since 100+E (C) compared to values like 700.
+C = 100+E
+D = 400+E.
+
+Now from C+E = 2100+X
+100+2E = 2100+X
+2E = 2000 + X, so E = 1000+x/2. However, one ball must weight less than 1000 so our hypothesis falls apart.
+
+If we say that C is the heaviest,
+Assume C is the heaviest.
+Then E = 800, then
+
+Reasoning:
+Answer: C)

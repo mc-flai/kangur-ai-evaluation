@@ -1,0 +1,26 @@
+Per determinar la última xifra no nul·la del nombre \(2^{57} \cdot 3^4 \cdot 5^{53} \cdot 4\), podem simplificar l'expressió.
+
+1. Primer, simplifiquem \(4\) com \(2^2\):
+   \[
+   2^{57} \cdot 3^4 \cdot 5^{53} \cdot 4 = 2^{57} \cdot 3^4 \cdot 5^{53} \cdot 2^2 = 2^{59} \cdot 3^4 \cdot 5^{53}
+   \]
+
+2. Ara, observem els potències de 2 i 5. Per trobar la última xifra no nul·la, es pot considerar el producte \(2^{59} \cdot 5^{53}\).
+   \[
+   2^{59} \cdot 5^{53} = 2^6 \cdot 2^{53} \cdot 5^{53} = 64 \cdot 10^{53}
+   \]
+   Aquí, \(10^{53}\) és un 1 seguit de 53 zeros, i multiplicant per 64, tindrem un nombre acabat en 4 (ja que 64 acaba en 4).
+
+3. Finalment, multipliquem per \(3^4\):
+   \[
+   3^4 = 81
+   \]
+   Multiplicant 64 per 81, obtenim:
+   \[
+   64 \times 81 = 5184
+   \]
+   La última xifra no nul·la és 4.
+
+Raonament: La última xifra no nul·la del nombre \(2^{57} \cdot 3^4 \cdot 5^{53} \cdot 4\) és 4.
+
+Resposta: C)

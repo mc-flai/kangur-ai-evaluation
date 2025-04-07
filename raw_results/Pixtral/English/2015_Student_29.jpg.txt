@@ -1,0 +1,27 @@
+### Reasoning:
+
+1. The counting starts with 1, 2, 3, etc.
+2. Each person saying an even number steps out of the circle.
+3. The remaining members continue counting from 97.
+4. This process repeats until only one member is left.
+
+To determine which number the last person said in the first round, we need to figure out how many people are eliminated in each round and how the counting progresses.
+
+- In the first round, the even numbers that cause people to step out are 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96.
+- There are 48 even numbers out of the first 96 numbers.
+
+So, 48 people step out in the first round, leaving 48 people.
+
+- In the second round, the counting starts from 97. The even numbers that cause people to step out now are 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148, 150, 152, 154, 156, 158, 160, 162, 164, 166, 168, 170, 172, 174, 176, 178, 180, 182, 184, 186, 188, 190, 192, 194, 196.
+- There are 48 even numbers out of the next 96 numbers.
+
+So, 48 more people step out in the second round, leaving 2 people.
+
+- In the third round, the counting starts from 197. The even numbers that cause people to step out now are 198, 200, 202, 204, 206, 208, 210, 212, 214, 216, 218, 220, 222, 224, 226, 228, 230, 232, 234, 236, 238, 240, 242, 244, 246, 248, 250, 252, 254, 256, 258, 260, 262, 264, 266, 268, 270, 272, 274, 276, 278, 280, 282, 284, 286, 288, 290, 292, 294, 296.
+- There are 48 even numbers out of the next 96 numbers.
+
+So, 48 more people step out in the third round, leaving 1 person.
+
+The last person to be eliminated in the first round said the number just before the next even number, which is 65.
+
+### Answer: D)

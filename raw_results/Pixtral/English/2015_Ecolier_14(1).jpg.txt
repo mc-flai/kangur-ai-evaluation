@@ -1,0 +1,13 @@
+### Reasoning:
+Peter starts at point S and follows the directions of the arrows, turning right at the first crossing, then left at the next, and so on. We need to follow his path step-by-step to determine which crossing he does not reach.
+
+1. Start at S.
+2. Move to the first crossing (turn right) -> Reach point A.
+3. Move to the next crossing (turn left) -> Reach point B.
+4. Move to the next crossing (turn right) -> Reach point C.
+5. Move to the next crossing (turn left) -> Reach point D.
+6. Move to the next crossing (turn right) -> Reach point A again.
+
+Following this sequence, we see that Peter does not reach the crossing labeled E.
+
+### Answer: E

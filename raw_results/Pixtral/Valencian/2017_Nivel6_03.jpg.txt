@@ -1,0 +1,28 @@
+**Razonamiento:**
+1. La ecuación dada es \( n^4 - n^3 - n^2 + 8 = 2017 \).
+2. Para encontrar un valor natural de \( n \), podemos intentar valores enteros positivos y ver si satisfacen la ecuación.
+
+   - Para \( n = 5 \):
+     \[
+     5^4 - 5^3 - 5^2 + 8 = 625 - 125 - 25 + 8 = 483 \neq 2017
+     \]
+
+   - Para \( n = 7 \):
+     \[
+     7^4 - 7^3 - 7^2 + 8 = 2401 - 343 - 49 + 8 = 2017
+     \]
+     Aquí, \( 7^4 - 7^3 - 7^2 + 8 = 2017 \), lo que significa que \( n = 7 \) es una solución.
+
+   - Para \( n = 9 \):
+     \[
+     9^4 - 9^3 - 9^2 + 8 = 6561 - 729 - 81 + 8 = 5741 \neq 2017
+     \]
+
+   - Para \( n = 41 \):
+     \[
+     41^4 - 41^3 - 41^2 + 8 = 2825761 - 705832 - 1681 + 8 = 2120628 \neq 2017
+     \]
+
+3. Dado que \( n = 7 \) satisface la ecuación, no existe otro número natural que satisfaga la ecuación.
+
+**Respuesta:** B)

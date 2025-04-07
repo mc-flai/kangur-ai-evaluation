@@ -1,0 +1,27 @@
+Reasoning:
+The sum of the ages of Carmen, Gerda, and Sabine is 44. We want to find the next time the sum of their ages is a two-digit number with two equal digits. These numbers are 11, 22, 33, 44, 55, 66, 77, 88, and 99.
+Since the current sum is 44, the next number in the list is 55. Each year, each person ages by 1 year. So the sum of their ages will increase by 3 each year.
+We want to find the next time the sum is 55, 66, 77, 88, or 99.
+- To reach 55, it will take (55-44) = 11 years.
+- To reach 66, it will take (66-44) = 22 years.
+- To reach 77, it will take (77-44) = 33 years.
+- To reach 88, it will take (88-44) = 44 years.
+- To reach 99, it will take (99-44) = 55 years.
+The sums will be reached after a number of years divisible by 3 since their ages will increase by 3 each year, we look for the closest to 44 that is divisible by 3. So we can only obtain one of the options and we are looking for the smallest. The increase needs to be divisible by three.
+
+The differences are 11, 22, 33, 44, 55. Which one is divisible by 3? 33. 33 years will occur, for a combined age of 77.
+
+Reasoning: The sum of their ages increases by 3 each year. Start at 44 and keep adding 3 until you reach a two-digit number with two equal digits.
+44+3 = 47
+47+3 = 50
+50+3 = 53
+53+3 = 56
+56+3 = 59
+59+3 = 62
+62+3 = 65
+65+3 = 68
+68+3 = 71
+71+3 = 74
+74+3 = 77
+
+Answer: C)

@@ -1,0 +1,28 @@
+Per determinar quantes solucions reals distintes té l'equació \((x^{2}-4x+5)x^{2}+x-30=1\), primer hem de simplificar-la.
+
+1. Subtraïm 1 de cada costat de l'equació:
+   \[
+   (x^{2}-4x+5)x^{2}+x-30-1=0
+   \]
+   \[
+   (x^{2}-4x+5)x^{2}+x-31=0
+   \]
+
+2. Factoritzem \(x^{2}-4x+5\):
+   \[
+   x^{2}-4x+5 = (x-2)^2 + 1
+   \]
+   Així que l'equació esdevé:
+   \[
+   ((x-2)^2 + 1)x^{2} + x - 31 = 0
+   \]
+
+3. Com que \((x-2)^2 + 1 > 0\) per a tot \(x\) (ja que \((x-2)^2 \geq 0\) i afegir 1 fa que sempre sigui positiu), l'equació no té solucions reals per a \(x^2\).
+
+4. Això implica que no hi ha cap valor de \(x\) que faci que \(((x-2)^2 + 1)x^{2} + x - 31 = 0\).
+
+Per tant, l'equació no té solucions reals distintes.
+
+Raonament: L'equació \(((x-2)^2 + 1)x^{2} + x - 31 = 0\) no té solucions reals distintes perquè \((x-2)^2 + 1\) sempre és positiu.
+
+Resposta: A) 1

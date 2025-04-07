@@ -1,0 +1,20 @@
+**Reasoning**:
+The problem states that \( x_n = x_1^{x_{n-1}} \) for \( n \geq 1 \), and we need to find the value of \( x_4 \) given that \( x_1 = 2 \).
+
+1. Start with the given value: \( x_1 = 2 \).
+2. Calculate \( x_2 \):
+   \[
+   x_2 = x_1^{x_1} = 2^2 = 4
+   \]
+3. Calculate \( x_3 \):
+   \[
+   x_3 = x_1^{x_2} = 2^4 = 16
+   \]
+4. Calculate \( x_4 \):
+   \[
+   x_4 = x_1^{x_3} = 2^{16}
+   \]
+
+So, the value of \( x_4 \) is \( 2^{16} \).
+
+**Answer**: D).

@@ -1,0 +1,27 @@
+**Razonamiento:**
+1. La pregunta solicita la suma de todos los nombres que se pueden escribir con los dígitos 1, 2, 3 y 4, considerando repeticiones.
+2. Primero, identificamos todos los números posibles que se pueden formar con estos dígitos:
+   - Usando 1: 1
+   - Usando 2: 2
+   - Usando 3: 3
+   - Usando 4: 4
+   - Usando 1 y 2: 12
+   - Usando 1 y 3: 13
+   - Usando 1 y 4: 14
+   - Usando 2 y 3: 23
+   - Usando 2 y 4: 24
+   - Usando 3 y 4: 34
+   - Usando 1, 2 y 3: 123
+   - Usando 1, 2 y 4: 124
+   - Usando 1, 3 y 4: 134
+   - Usando 2, 3 y 4: 234
+   - Usando 1, 2, 3 y 4: 1234
+3. Sumamos todos estos números:
+   - 1 + 2 + 3 + 4 = 10
+   - 12 + 13 + 14 + 23 + 24 + 34 = 120
+   - 123 + 124 + 134 + 234 = 614
+   - 1234 = 1234
+4. Sumamos los resultados:
+   - 10 + 120 + 614 + 1234 = 1968
+
+**Respuesta:** D) 1422080

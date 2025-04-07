@@ -1,0 +1,21 @@
+### Raonament:
+
+1. **Entendre el problema**: Estem treballant amb un quadrat de 5x5 dividit en 25 quadrados. Cada quadrat pot ser blanc o negre, i inicialment, la majoria dels quadrados són blancs.
+
+2. **Figura de l'esquerra**: La figura de l'esquerra mostra un quadrat de 5x5 amb la majoria dels quadrados blancs.
+
+3. **Regles de moviment**: Cada jugada consisteix en canviar el color dels quadrados que tenen un costat en comú. Si un quadrat té un costat blanc, el canviarà a negre, i viceversa.
+
+4. **Objetiu**: Necessitem trobar el nombre mínim de jugades per a acolorir el quadrat de manera que es vagi a formar una figura de la dreta, que té una distribució específica de quadrados blancs i negres.
+
+5. **Estratègia de jugades**:
+   - Cada jugada canvia el color de dos quadrados adjacents.
+   - Per a canviar el color de tots els quadrados, caldrà fer una quantitat mínima de jugades.
+
+6. **Calcul de jugades**:
+   - Hi ha 25 quadrados en total.
+   - Cada jugada canvia el color de 2 quadrados.
+   - Per a canviar el color de tots els quadrados, caldrà fer 25/2 = 12,5 jugades.
+   - Com que no podem fer la meitat d'una jugada, arrodonirem al nombre més proper, que és 13 jugades.
+
+### Resposta: C)

@@ -1,0 +1,12 @@
+Raonament:
+La pregunta ens diu que tenim quatre punts A, B, C, i D en una línia recta.
+Les distàncies són:
+*   A a B = 1 cm
+*   B a C = 2 cm
+*   C a D = 3 cm
+*   D a A = 4 cm
+
+Una manera d'interpretar-ho és que la suma total de les distàncies entre els punts en ordre consecutiu és d'1+2+3=6 cm.
+Com D a A és 4 cm, llavors A i D han de ser els extrems. Si A i D no fossin extrems, la distància entre A i D hauria de ser menor que la suma de les distàncies entre els punts intermedis. La suma de les distàncies AB + BC + CD = 1+2+3 = 6 cm, però la distància entre D i A és 4 cm, la qual cosa implica que A i D son els extrems. Si A i D fossin punts interiors, la distància total seria major que la suma de les distàncies individuals donades.
+
+Resposta: A)

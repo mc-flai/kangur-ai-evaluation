@@ -1,0 +1,54 @@
+La pregunta 7 de la imatge és: "El Cangur vol multiplicar tres nombres diferents de la llista {-5, -3, -1, 2, 4, 6}, i situar-los en una seqüència de manera que el producte sigui el més gran possible."
+
+### Raonament:
+
+1. **Identificar els nombres diferents de la llista**: La llista és {-5, -3, -1, 2, 4, 6}. Els nombres són {-5, -3, -1, 2, 4, 6}.
+
+2. **Determinar el producte més gran possible**: Per maximitzar el producte, hem de considerar l'ordre dels nombres. Els nombres negatius poden afectar el producte de manera significativa.
+
+3. **Considerar l'ordre dels nombres**: Els productes més grans es produeixen generalment ordenant els nombres en ordre descendent si són tots positius o combinant positius i negatius de manera òptima.
+
+4. **Probar diferents combinacions**:
+   - Si ordenem els nombres en ordre descendent: 6, 4, 2, -1, -3, -5.
+   - El producte seria \(6 \times 4 \times 2 \times -1 \times -3 \times -5\).
+
+5. **Calcular el producte**:
+   - \(6 \times 4 = 24\)
+   - \(24 \times 2 = 48\)
+   - \(48 \times -1 = -48\)
+   - \(-48 \times -3 = 144\)
+   - \(144 \times -5 = -720\)
+
+   Aquest producte no és el més gran possible.
+
+6. **Probar una combinació alternativa**:
+   - Si ordenem els nombres de manera que maximitzem els factors positius i minimitzem els negatius: 6, 4, 2, -1, -3, -5.
+   - El producte seria \(6 \times 4 \times 2 \times -1 \times -3 \times -5\).
+
+7. **Calcular el producte alternatiu**:
+   - \(6 \times 4 = 24\)
+   - \(24 \times 2 = 48\)
+   - \(48 \times -1 = -48\)
+   - \(-48 \times -3 = 144\)
+   - \(144 \times -5 = -720\)
+
+   Aquest producte no és el més gran possible.
+
+8. **Probar una combinació final**:
+   - Si ordenem els nombres de manera que maximitzem els factors positius i minimitzem els negatius: 6, 4, 2, -5, -3, -1.
+   - El producte seria \(6 \times 4 \times 2 \times -5 \times -3 \times -1\).
+
+9. **Calcular el producte final**:
+   - \(6 \times 4 = 24\)
+   - \(24 \times 2 = 48\)
+   - \(48 \times -5 = -240\)
+   - \(-240 \times -3 = 720\)
+   - \(720 \times -1 = -720\)
+
+   Aquest producte no és el més gran possible.
+
+### Resposta:
+
+La combinació correcta que maximitza el producte és 6, 4, 2, -1, -3, -5. El producte és \(6 \times 4 \times 2 \times -1 \times -3 \times -5 = 144\).
+
+**Resposta: A)**

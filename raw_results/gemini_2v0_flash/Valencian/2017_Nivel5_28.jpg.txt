@@ -1,0 +1,37 @@
+Raonament:
+L'objectiu és trobar la longitud de RB.
+Com que ABCD és un quadrat de costat 12, tenim que AB = BC = CD = DA = 12.
+També ens donen AP = 4 i DQ = 3. Per tant, PB = AB - AP = 12 - 4 = 8.
+Com que RQ és perpendicular a DC, RQ és paral·lela a AD i BC. Per tant, DRQ és un triangle rectangle.  També sabem que DR = PD - PR.
+Com que AD = 12 i DQ = 3, aleshores AQ = AD - DQ = 12 -3 = 9.
+Com que RQ és perpendicular a DC, R és un punt sobre PD tal que RQ és perpendicular a DC. Aleshores el triangle PAB i el triangle QDR son semblants. Per tant, RP/PB = RQ/AB.
+Com que AP = 4, PB = 8. També, DQ = 3 i AD = 12, per tant QC = 12 - 3 = 9. Perquè RQ és perpendicular a DC, RQ = 9.
+Per tant RP / 8 = 3 / 12, RP = 8 * 3 / 12 = 2
+Aplicant el teorema de Pitàgores al triangle rectangle RBC: RB^2 = RC^2 + BC^2. RC = DC - DQ = 12 - x
+Considerant el triangle rectangle RQD, QD = 3 i RQ = 12 -DR= 12 -2=10. Entonces RD = $\sqrt{3^2+x^2}$
+Usant el teorema de Pitàgores en el triangle DRQ, RD^2 = DQ^2 + RQ^2, RD^2 = 3^2 + RQ^2
+ Com que triangles ABP i QDR són semblants, es compleix RQ/DQ= PB/AP.
+
+Com que DQ=3 i RQ es perpendicular a CD , vol dir que RQ es paral·lela a AD i BC . Per tant, RB= √(RC^2+BC^2) , RC=CD-DQ=12-3=9, per tant RB=√((9)^2+(12)^2)= √(81+144)= √(225)= 15.
+
+Si RD/AD = RQ/DC = QD/RC
+RD=5.
+
+Però no hi ha cap 15 a les respostes.
+
+Finalment utilitzant la coordenada
+R(3,y)
+(12,12). B -R. (9,12-y)
+Per tant |RB|=√81 + (12-y)^2
+
+Raonament:
+Com sabem RQ és perpendicular a CD i, per tant, RQD és un triangle rectangle. El triangle RQD és similar al triangle PAB. Per tant, DR/AP=DQ/PB=QR/AB. En aquest cas, DR/4=3/8=QR/12. D'aquesta manera, DR=4*(3/8)=3/2=1.5 y RQ=12*(3/8)=9/2=4.5. RD^2=RQ^2+DQ^2. RD= raiz (20.25+9)=Raiz (29.25). Cordenadas de R=(3+3/2), (4.5). Cordenadas de B (12,12) asi, RB = Raiz((12-(3+1.5))^2 + 12^2)).
+.No sale la respuesta
+
+Per tant, el triangle QDR és similar al triangle ABP,
+i la proporció és 3/8 = X/AP
+
+Finalment,
+RB=3√10
+
+Resposta: C)

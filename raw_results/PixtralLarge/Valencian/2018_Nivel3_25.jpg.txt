@@ -1,0 +1,26 @@
+Per resoldre aquesta pregunta, hem de calcular la relació entre el perímetre de l'hexàgon original i el perímetre de l'hexàgon determinat pels centres dels cercles tangents.
+
+**Raonament**:
+1. **Hexàgon original**:
+   - Suposant que el radi dels cercles tangents és \( r \).
+   - Cada costat de l'hexàgon original amb una mida de 2r (diàmetre del cercle).
+   - L'hexàgon original té 6 costats, per tant, el perímetre de l'hexàgon original és \( 6 \times 2r = 12r \).
+
+2. **Hexàgon format pels centres dels cercles tangents**:
+   - Els centres dels cercles formen un hexàgon més petit.
+   - Cada costat d'aquest hexàgon més petit és igual a la distància entre els centres de dos cercles tangents.
+   - La distància entre els centres de dos cercles tangents és igual a \( 2r \times \sin(30^\circ) = r \sqrt{3} \).
+   - L'hexàgon petit també té 6 costats, per tant, el perímetre és \( 6 \times r \sqrt{3} = 6r \sqrt{3} \).
+
+3. **Relació**:
+   - La relació entre el perímetre de l'hexàgon original i el perímetre de l'hexàgon més petit és:
+     \[
+     \frac{12r}{6r \sqrt{3}} = \frac{12}{6 \sqrt{3}} = \frac{2}{\sqrt{3}}
+     \]
+   - Simplificant, obtenim:
+     \[
+     \frac{2}{\sqrt{3}} \times \frac{\sqrt{3}}{\sqrt{3}} = \frac{2\sqrt{3}}{3}
+     \]
+   - Per tant, la relació és \( \frac{2\sqrt{3}}{3} \).
+
+**Resposta**: A) \( \frac{2\sqrt{3}}{3} \)

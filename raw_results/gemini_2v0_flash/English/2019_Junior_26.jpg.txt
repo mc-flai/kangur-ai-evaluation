@@ -1,0 +1,43 @@
+Reasoning:
+The question is asking us to find which of the given triples is not obtained in the sequence of numbers formed by concatenating the integers from 1 to 99 in ascending order and then dividing the resulting sequence into triples.
+
+We analyze each option:
+(A) (222): The sequence contains '22'. Appending another '2' would require reading the next digit in the sequence. Since we have '223', the triple '222' is not found. It has '223', not '222'.
+(B) (444): The sequence contains '44'. Appending another '4' would require reading the next digit in the sequence. Since we have '444', it could occur. For example, in the sequence '34445', so '444' can be obtained.
+(C) (464): The sequence contains '46'. Appending another '4' would require reading the next digit in the sequence. Since we have '464', it could occur. For example, in the sequence '4647', so '464' can be obtained.
+(D) (646): The sequence contains '64'. Appending another '6' would require reading the next digit in the sequence. Since we have '646', it could occur. For example, in the sequence '6465', so '646' can be obtained.
+(E) (888): The sequence contains '88'. Appending another '8' would require reading the next digit in the sequence. Since we have '888', it could occur. For example, in the sequence '8889', so '888' can be obtained.
+
+The triple '222' requires the sequence to contain '222'. However, the sequence formed from the concatenation contains "223" after concatenating "21" and "22". Hence, '222' is not obtained.
+
+Reasoning:
+We need to find the triple that cannot be obtained.
+Consider the sequence 123456789101112...979899
+Let's look at the triples: (123)(456)(789)(101)(112)(121)(314)(151)(617)(181)(920)(212)(222)(324)...
+(223)(242)(526)...(444)(454)(647)...(464)(654)...(646)(676)...(888)(899)
+
+(A) 222 can occur as the integers 22 and 23 are concatenated, giving 2223
+(B) 444 can occur within the integer 44
+(C) 464 can occur as a result of concatenating integers 46 and 47, for example
+(D) 646 can occur as a result of concatenating integers 64 and 65, for example
+(E) 888 can occur within the integer 88
+
+Reasoning:
+Consider the options in sequence:
+222: From the sequence, we have the integers 22, 23,...  Hence the sequence has the substring "223". Thus, "222" is not possible.
+444: The integer 44 is possible. Thus the substring "444" is possible as it occurs within the number 44.
+464: From 46 and 47, "464" is possible.
+646: From 64 and 65, "646" is possible.
+888: The integer 88 is possible. Thus the substring "888" is possible as it occurs within the number 88.
+
+Reasoning:
+The integers are concatenated as 12345678910111213...979899
+(A) 222: We have 2223. The sequence contains "223" but not "222". Hence it can't be obtained
+(B) 444: The number 44 is concatenated with numbers close by. So we see 44 and 45. So the "44" comes from number 44. And the first 4 matches with the 4 in 44. Then "444" can be found when "44" is followed by a number starting with 4.
+(C) 464: same logic
+(D) 646: same logic
+(E) 888: same logic
+
+Only (A) cannot be obtained.
+
+Answer: A)

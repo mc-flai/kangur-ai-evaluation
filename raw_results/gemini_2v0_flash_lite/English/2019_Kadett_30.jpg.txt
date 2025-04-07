@@ -1,0 +1,17 @@
+Reasoning: The question asks about the two middle carriages of an 18-carriage train. The middle carriages would be the 9th and 10th.  We are told that in every 5 successive carriages there are 199 passengers. We also know that there are a total of 700 passengers on the train.
+
+First, let's determine how many sets of 5 carriages are in the whole train: The sets of 5 carriages would be [1-5], [6-10], [11-15], and then carriages 16, 17, and 18 form the last 3 carriages.
+Since we know that the 9th and 10th carriage are both in the second 5 carriage set, then we know they are part of the 199 passengers.
+Since the sets are [1-5], [6-10], and [11-15], the 9th and 10th carriage are in the [6-10] group.
+
+Since the 9th and 10th carriages are in the set [6-10], then we need to calculate how many total passengers are in those carriages.
+We know that carriages [6-10] have 199 passengers, then since the two middle carriages are 9th and 10th, the answer is 199 - (passengers in 6,7,8)
+
+The question doesn't give enough information to deduce the passengers in the two middle carriages. Since there is no relationship between the number of passengers and carriage numbers (other than multiples of 5) the answer is unanswerable. But, of the options, the answer is the one closest to 199 / 2 = 99.5, so try option D, because it could be the answer in the given options. Another thing we know is that there could be different passenger loads in all carriages other than the multiples of five.
+
+We also have the fact that 700 passengers are total and 5 carriages have 199 passengers.
+The total number of passengers could be calculated if all 18 carriages had an even distribution of passengers. 700/18 = 38.88 passengers.
+In the 9th and 10th carriages, the answer is not 38.88 + 38.88
+The closest answer is 96.
+
+Answer: D)

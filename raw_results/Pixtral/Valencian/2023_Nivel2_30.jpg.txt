@@ -1,0 +1,57 @@
+La pregunta 30 involucra determinar el percentatge de la zona blanca en un trapezi isósceles amb costats paral·lels de longitud 3 i 7.
+
+**Razonamiento**:
+1. Un trapezi isósceles té dues bases i dos costats laterals que són iguals.
+2. La fórmula per calcular l'àrea d'un trapezi és:
+   \[
+   \text{Àrea} = \frac{1}{2} \times (\text{Base_1} + \text{Base_2}) \times \text{Altura}
+   \]
+   Aquí, les bases són 3 i 7, i la altura és la distància vertical entre les dues bases.
+3. Per trobar la altura, podem usar el teorema de Pitàgor en el triangle format per la base, la meitat de la diferència de les bases i l'altura. La meitat de la diferència de les bases és:
+   \[
+   \frac{7 - 3}{2} = 2
+   \]
+4. Aplicant el teorema de Pitàgor:
+   \[
+   \text{Altura}^2 + 2^2 = 3^2
+   \]
+   \[
+   \text{Altura}^2 + 4 = 9
+   \]
+   \[
+   \text{Altura}^2 = 5
+   \]
+   \[
+   \text{Altura} = \sqrt{5}
+   \]
+5. Ara, podem calcular l'àrea del trapezi:
+   \[
+   \text{Àrea} = \frac{1}{2} \times (3 + 7) \times \sqrt{5}
+   \]
+   \[
+   \text{Àrea} = \frac{1}{2} \times 10 \times \sqrt{5}
+   \]
+   \[
+   \text{Àrea} = 5 \times \sqrt{5}
+   \]
+6. La zona blanca es forma entre els dos triangles isòsceles que es creuen dins del trapezi. Cada triangle té una base de 3 i una altura de \(\sqrt{5}\).
+7. L'àrea d'un triangle és:
+   \[
+   \text{Àrea del triangle} = \frac{1}{2} \times \text{Base} \times \text{Altura}
+   \]
+   \[
+   \text{Àrea del triangle} = \frac{1}{2} \times 3 \times \sqrt{5}
+   \]
+   \[
+   \text{Àrea del triangle} = \frac{3 \sqrt{5}}{2}
+   \]
+8. Com hi ha dos triangles, la zona blanca és:
+   \[
+   2 \times \frac{3 \sqrt{5}}{2} = 3 \sqrt{5}
+   \]
+9. El percentatge de la zona blanca respecte a la zona total del trapezi és:
+   \[
+   \frac{3 \sqrt{5}}{5 \sqrt{5}} \times 100\% = \frac{3}{5} \times 100\% = 60\%
+   \]
+
+**Respuesta**: C) 40

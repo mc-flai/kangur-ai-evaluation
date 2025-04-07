@@ -1,0 +1,35 @@
+
+Razonamiento:
+1. Sabemos que hay hoteles con 1, 2, 3 y 4 estrellas en la estación.
+2. El número total de estrellas de todos los hoteles en la estación es 69.
+3. Hay un hotel con 4 estrellas.
+4. El número de estrellas de los hoteles con 1 estrella es la mitad del número de hoteles con 4 estrellas.
+5. El número de hoteles con 3 estrellas es 4 veces el número de hoteles con 2 estrellas.
+
+Para encontrar el número de hoteles con 2 estrellas:
+- Sea x el número de hoteles con 2 estrellas.
+- El número de hoteles con 3 estrellas es 4x.
+- El número de hoteles con 1 estrella es la mitad del número de hoteles con 4 estrellas, que es 1.
+- Por lo tanto, el número de hoteles con 1 estrella es 1.
+
+Sumando todas las estrellas:
+- 1 hotel con 4 estrellas: 4 estrellas.
+- x hoteles con 2 estrellas: 2x estrellas.
+- 4x hoteles con 3 estrellas: 12x estrellas.
+- 1 hotel con 1 estrella: 1 estrella.
+
+La ecuación total es:
+4 + 2x + 12x + 1 = 69
+
+Simplificando:
+17x + 5 = 69
+
+Restando 5 de ambos lados:
+17x = 64
+
+Dividiendo entre 17:
+x = 3.76
+
+Dado que el número de hoteles debe ser un entero, x debe ser 4.
+
+Respuesta: B)

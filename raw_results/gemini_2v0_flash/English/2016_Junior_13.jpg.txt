@@ -1,0 +1,72 @@
+Reasoning:
+There are 8 players: Ann, Bella, Celine, Donna, Emma, Farah, Gina and Holly. We have been given 6 results. We need to determine which result is missing from the provided options.
+Known results:
+1. Bella beats Ann
+2. Celine beats Donna
+3. Gina beats Celine
+4. Celine beats Bella
+5. Gina beats Holly
+6. Emma beats Farah
+
+Let's go through each option:
+A) Gina beats Bella - Celine beats Bella, so Gina beating Bella is possible.
+B) Celine beats Ann - Bella beats Ann, so Celine beating Ann is possible.
+C) Emma beats Celine - We know Gina beats Celine, so Emma beating Celine is possible.
+D) Bella beats Holly - Gina beats Holly, so Bella beating Holly is possible.
+E) Gina beats Emma - We know Emma beats Farah, Gina beats Celine, Celine beats Bella and Bella beats Ann, so Gina beating Emma is possible.
+
+The tournament consists of 7 matches: 4 quarter-finals, 2 semi-finals, and 1 final. In the quarter-finals, the 8 players are reduced to 4. In the semi-finals, the 4 players are reduced to 2, and then 1 winner after the final.
+
+From the given results, we have:
+- Bella, Celine, Gina and Emma all won matches
+- Ann, Donna, Celine, Bella, Holly and Farah lost matches.
+
+Ann, Donna, Farah and Holly have all lost once, which could be the quarter-finals. Bella lost to Celine and then won against Ann so she progressed to Semi-finals. Celine won against Bella and Donna, so they progressed to Semi-finals. Gina won against Holly and Celine, so she progressed to the final. Emma won against Farah, so she progressed to Semi-finals.
+
+We know Emma beats Farah and Celine beats Bella.
+Gina beats Celine and Bella beats Ann
+Celine beats Donna and Gina beats Holly
+
+So we could have:
+Semi finals:
+Emma beats Celine
+Gina beats Bella
+Finals:
+Gina beats Emma
+
+We were told we have four quarter finals, two semi finals and a final, which gives us a total of 7 matches.
+
+Quarter Finals:
+Bella beats Ann
+Celine beats Donna
+Gina beats Holly
+Emma beats Farah
+Semi Finals:
+Celine beats Bella
+Gina beats Celine
+Final:
+Gina beats Emma (This makes Gina the winner)
+
+Based on these matches, we can identify the options:
+A) Gina beats Bella - This is likely the second semi-final. It is missing.
+B) Celine beats Ann - Bella beats Ann in the quarter finals. So Celine beating Ann is highly improbable.
+C) Emma beats Celine - We know Gina beats Celine and Emma beats Farah, this match could happen in the semifinals, but it is likely Gina beats Emma that has the edge, as it can make Gina the winner.
+D) Bella beats Holly - Gina beats Holly in the quarter finals, so Bella could not have played against Holly.
+E) Gina beats Emma - This is likely the final, or the second semi-final.
+
+Analyzing again from the first round, quarter-finals: Ann, Donna, Holly, Farah lose. Semi-finals: Bella loses. Celine loses. Final: Emma loses.
+Bella beats Ann
+Celine beats Donna
+Gina beats Holly
+Emma beats Farah
+Celine beats Bella
+Gina beats Celine
+If Gina beats Emma is the final, then Gina wins.
+
+If the missing match is Gina beats Bella, then the second semi-final, the current six results have been used.
+
+However, if the missing result is Celine beats Ann, then that couldn't be possible.
+
+The best option is (A).
+
+Answer: A)

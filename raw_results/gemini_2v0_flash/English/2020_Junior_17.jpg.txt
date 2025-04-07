@@ -1,0 +1,16 @@
+Reasoning:
+Let the side of the square be $s$. Let the radius of the smaller circle be $r_1$ and the radius of the larger circle be $r_2$. Since the circles are tangent to the sides of the square, the center of the circles are at a distance $r_1$ and $r_2$ from the sides respectively. Since they are also tangent to each other, the distance between their centers is $r_1 + r_2$.
+The diagonal of the square is given by $s\sqrt{2}$.
+The coordinates of the center of the smaller circle with radius $r_1$ can be considered to be $(r_1, r_1)$ and that of the larger circle with radius $r_2$ can be considered to be $(s-r_2, s-r_2)$.
+Thus, we have $r_1 + r_2 = \sqrt{(s-r_2 - r_1)^2 + (s-r_2 - r_1)^2} = (s-r_2 - r_1)\sqrt{2}$.
+Let the center of the smaller circle be $C_1$ and the center of the larger circle be $C_2$. Also let the point A be $A(r_1, 0)$ and B be $(0, r_2)$. The origin $O$ is at $(0,0)$.
+The coordinate of A is $(r_1, s)$, the coordinate of B is $(s, r_2)$, and O is the point of tangency between the two circles.
+Consider the triangle formed by the centers of the two circles and the bottom left corner of the square. Let the bottom left corner of the square be $(0,0)$. Let $r_1$ be the radius of the smaller circle and $r_2$ be the radius of the larger circle. Then the coordinates of the center of the smaller circle are $(r_1, r_1)$ and the coordinates of the center of the larger circle are $(s-r_2, s-r_2)$. Then $s = 2r_1 + 2r_2$ and $r_1+r_2 = (s-r_1-r_2)\sqrt{2}$.
+The angle AOB is 135 degrees since the line from A to the origin of the circles bisects the upper left corner angle of 90 degrees, and the line from B to the origin of the circles bisects the lower right corner angle of 90 degrees. Thus, angle OAB = 45 and angle OBA = 45. Angle AOB = 180 - (45/2 + 45/2) = 135.
+
+Reasoning:
+Let's denote the center of the smaller circle as C1 and the center of the larger circle as C2, and their radii as r1 and r2 respectively. Since the circles are tangent to the sides of the square, we can infer that the coordinates of C1 are (r1, r1) and the coordinates of C2 are (s-r2, s-r2), where s is the side length of the square. The distance between the centers of the circles is r1 + r2. The line connecting the centers of the circles makes a 45-degree angle with the sides of the square. Also, the lines OA and OB bisect the corners of the square. Therefore, angle OAX = 45 and angle OBX = 45, where X is the corner of the square.
+Also, we know that angle AOC1 = 45/2 = 22.5 degrees and angle BOC2 = 45/2 = 22.5 degrees. Then the angle C1OC2 = 90 degrees + 2*theta,
+The angle at the point of tangency O of the circles between lines to A and B must be 135.
+
+Answer: E)

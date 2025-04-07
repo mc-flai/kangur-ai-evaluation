@@ -1,0 +1,59 @@
+Reasoning:
+Let's denote the four regions of the kangaroo as R1, R2, R3, and R4. Joey has 4 colors to choose from.
+- For R1, he can choose any of the 4 colors.
+- For R2, which is adjacent to R1, he can choose any of the remaining 3 colors.
+- For R3, which is adjacent to both R1 and R2, he can choose any of the remaining 2 colors.
+- For R4, which is adjacent to R2 and R3, he can choose from colors different than R2 and R3. If the colors of R2 and R3 are different, there are 2 choices.
+So the number of possible colorings would be $4 \times 3 \times 2 \times 2 = 48$ only if R2 and R3 are colored with a different color. However, we see that R1 and R4 are not adjacent to each other.
+There are 4 colors available. For area 1, we can choose any of 4 colours. Since area 2 is adjacent to area 1, we can choose any of 3 remaining colours. For area 3, which is adjacent to area 1, we can choose any of the 2 remaining colours. Finally, area 4, which is adjacent to areas 2 and 3, but not area 1, can have either of the colours not used for area 2 or 3, so there are 2 choices.
+So, we have: $4 \times 3 \times 2 \times 2 = 48$
+However, area 4 cannot be the same colour as area 1 as they are adjacent. So the number of choices for the colour of area 4 is 2.
+
+Region 1 can have any of the 4 colors.
+Region 2 can have any of the 3 remaining colors.
+Region 3 can have any of the 2 remaining colors.
+For Region 4, it can have any color except those in Region 2 and 3.
+The only regions that touch are:
+R1 with R2 and R3
+R2 with R1 and R4
+R3 with R1 and R4
+R4 with R2 and R3
+
+The color of R1 can be any of the 4 colors.
+The color of R2 can be any of the remaining 3 colors.
+The color of R3 can be any of the remaining 2 colors.
+For R4, it has to be different than the colors used by R2 and R3. Thus it has 2 colors.
+So $4 \times 3 \times 2 \times 2 = 48$.
+So the number of colorings is 48.
+
+Answer: E)
+Reasoning: The kangaroo is divided into 4 regions. Let's denote the regions as R1, R2, R3, and R4, and the available colors as C1, C2, C3, and C4. R1 can be colored in 4 ways. R2, which touches R1, can be colored in 3 ways. R3, which touches R1, can be colored in 2 ways if it is not colored the same as R2 and in 3 ways if it is colored the same as R2. R4 touches R2 and R3, so the color of R4 must be different than that of R2 and R3.
+
+R1 can be colored in 4 ways.
+R2 can be colored in 3 ways.
+R3 can be colored in 2 ways.
+Since R4 touches only R2 and R3, there are two cases:
+1. R2 and R3 have different colors: Then R4 can be colored in 2 ways.
+2. R2 and R3 have the same color: This is not possible since R1, R2 and R3 all touch each other and can't have the same colors.
+So the total number of different colorings is: 4 * 3 * 2 * 2 = 48
+
+Answer: E)
+Reasoning:
+Let's denote the four regions as R1, R2, R3, and R4.
+R1 can be colored in 4 ways.
+R2, which is adjacent to R1, can be colored in 3 ways.
+R3, which is adjacent to R1, can be colored in 2 ways (different from R1 and R2).
+R4, which is adjacent to R2 and R3, can be colored in 2 ways (different from R2 and R3).
+Thus, the total number of different colorings is 4 * 3 * 2 * 2 = 48.
+
+Answer: E)
+Reasoning: I need to consider the constraints of the problem. The kangaroo is divided into four regions, and each region can be colored with one of the four crayons. However, two regions that touch each other cannot be the same color.
+Region 1 can be colored with any of the 4 colors.
+Region 2, which is adjacent to Region 1, can be colored with any of the remaining 3 colors.
+Region 3, which is adjacent to Region 1, can be colored with any of the 2 remaining colors.
+Region 4, which is adjacent to Regions 2 and 3, can be colored with any color different from Regions 2 and 3.
+So, there are 2 colors left.
+
+Total number of colorings = 4 * 3 * 2 * 2 = 48.
+
+Answer: E)

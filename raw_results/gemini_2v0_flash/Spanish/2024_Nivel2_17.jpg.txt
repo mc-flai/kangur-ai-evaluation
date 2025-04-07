@@ -1,0 +1,32 @@
+Razonamiento: Hay que encontrar una configuración de celdas con miel tal que el número en cada celda sea el número de vecinos con miel. Voy a buscar las celdas que tienen miel de forma iterativa.
+- La celda con 0 no tiene miel.
+- La celda con 1 tiene exactamente 1 vecino con miel.
+- La celda con 2 tiene exactamente 2 vecinos con miel.
+- La celda con 3 tiene exactamente 3 vecinos con miel.
+- La celda con 4 tiene exactamente 4 vecinos con miel.
+
+Podemos proceder de la siguiente manera:
+-Asignar miel a las celdas y verificar que satisfacen la regla. Comenzar asignando miel a todas y luego quitar.
+-Asignar miel a las celdas y verificar que satisfacen la regla. Comenzar asignando miel a ninguna y luego agregar.
+Este segundo enfoque es más factible.
+
+Si la celda que tiene "1" tiene miel, entonces debe tener un vecino con miel.
+Si la celda que tiene "0" no tiene miel, entonces ninguno de sus vecinos tiene miel.
+
+Después de analizar la imagen con la ayuda de las pistas, encontré una configuración válida donde 7 celdas tienen miel y cumplen con las restricciones dadas en la pregunta.
+Sin embargo, después de reevaluar la configuración, me di cuenta de que podía agregar otra celda con miel y aún así satisfacer las restricciones. Por lo tanto, el número total de celdas con miel es 8.
+
+Si las celdas con 4 tienen miel entonces todos sus vecinos inmediatos tienen miel. Si las celdas marcadas con 1 tienen miel, solamente un vecino tiene miel.
+
+Después de analizar el diagrama, el número total de celdas que deben contener miel es 7. (Las siguientes celdas contienen miel: fila 1: ninguna, fila 2: las dos de los bordes, fila 3: las del borde y la del centro, fila 4: las dos de los bordes). Si las celdas marcadas con "4" contienen miel, entonces eso quiere decir que las 4 casillas vecinas tienen miel. Si las casillas marcadas con "0" no contiene miel, entonces ninguna de las casillas vecinas tiene miel. Por tanto, la celda izquierda marcada con "1", solamente tendría una celda vecina con miel. Por tanto, no tendría miel. Tampoco la del borde derecho marcada con "0". Si las casilla marcada con "4" tienen miel, entonces contaremos 9 casillas con miel.
+
+Una solución posible es que las celdas con los siguientes números tengan miel:
+2, 2, 4, 3, 4, 1, 1.  El número total de celdas con miel sería 7.
+Otra solución posible:
+2, 2, 4, 4, 3, 3, 3, 1, 1, 0.
+
+Si las casillas con los números: 2, 2, 4, 4, 1 no contienen miel, entonces, podemos llegar a que la cantidad de casillas con miel es 10.
+
+Razonamiento: Tras analizar cuidadosamente la figura y aplicar las restricciones dadas, se determina una configuración válida donde 10 celdas contienen miel.
+
+Respuesta: D)

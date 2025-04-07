@@ -1,0 +1,18 @@
+La imatge mostra una figura composta per diversos triangles units entre ells. Per trobar el mínim nombre de triangles que es poden tallar en aquesta figura de cangur, hem de comptar els triangles visibles.
+
+**Raonament:**
+1. Identifica els triangles de diferents mides en la figura.
+2. Compta tots els triangles individuals.
+3. Suma el total dels triangles comptats.
+
+Observant la figura, veiem:
+- 1 triangle gran.
+- 1 triangle mitjà a l'esquerra dins del triangle gran.
+- 2 triangles petits a l'interior del triangle mitjà.
+- 1 triangle petit en la part superior del triangle mitjà.
+- 1 triangle petit en la part inferior del triangle mitjà.
+- 1 triangle petit en la part inferior del triangle gran.
+
+Sumant tots aquests triangles, obtenim un total de 7 triangles.
+
+**Resposta:** C)

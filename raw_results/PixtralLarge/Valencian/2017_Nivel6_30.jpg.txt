@@ -1,0 +1,11 @@
+Per resoldre el problema, hem de determinar quants quadrats diferents poden completar les quatre lletres (A, B, C i D) de manera que cada columna, cada fila i cada un dels quatre quadrats continguin les quatre lletres.
+
+**Raonament**:
+1. **Comprendre el problema**: Hem de trobar quants quadrats diferents poden completar les lletres A, B, C i D en una quadrícula 4x4 de manera que cada columna, fila i quadrat continguin les quatre lletres.
+2. **Identificar els quadrats**: Cada quadrat 4x4 ha de contenir les lletres A, B, C i D en cada columna, fila i quadrat.
+3. **Considerar les combinacions**: Hem de considerar totes les combinacions possibles de les lletres A, B, C i D que compleixin les condicions.
+4. **Calcular les combinacions**: Per a cada quadrat 4x4, hi ha 4! (factorial de 4) maneres de disposar les lletres A, B, C i D en cada columna i fila. Això és 4! = 24.
+5. **Verificar les combinacions**: Cada quadrat ha de ser únic i ha de complir les condicions de tenir les quatre lletres en cada columna, fila i quadrat.
+6. **Determinar el nombre total de quadrats**: Com que cada quadrat ha de ser únic i ha de complir les condicions, el nombre total de quadrats diferents és 24.
+
+**Resposta**: A) 24.

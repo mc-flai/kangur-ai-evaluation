@@ -1,0 +1,19 @@
+Razonamiento: Se nos pide que encontremos números, cuyos dígitos *intercambiando* el lugar **de forma alguna** formen al menos un número que al concatenar los dos bloques numéricos de la cifra original genere el año dada (2017).
+
+Se hacen los siguientes cálculos: 
+1000a + 100b + 10c + d
+1000d + 100c + 10b + a
+
+Por lo tanto tenemos:
+
+1000 * (a - d) + 100 * (b - c) + 10 * (c - b) + (d - a) = 2017
+
+1000 * (a - d) + 90 * (b - c)  - 2017 = 0
+
+Por prueba y error se sabe que si:
+
+a - d = 2 y b - c = -1
+Se tiene que tanto a como d no son iguales a b o c, por lo que opción D) es correcta.  
+> Razonamiento: <Escriba su razonamiento para llegar a la respuesta>.(Los criterios se aportaron.)
+
+Respuesta: D)

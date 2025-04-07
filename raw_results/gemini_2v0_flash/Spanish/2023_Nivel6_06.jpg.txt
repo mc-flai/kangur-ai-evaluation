@@ -1,0 +1,15 @@
+Razonamiento:
+Tenemos la ecuación x + 2y = 2^10, donde x e y son enteros positivos. Despejamos x:
+x = 2^10 - 2y
+Como x debe ser positivo, tenemos:
+2^10 - 2y > 0
+2^10 > 2y
+2^9 > y
+Como y debe ser positivo, tenemos:
+0 < y < 2^9
+Así, y puede tomar los valores 1, 2, 3, ..., 2^9 - 1.
+Para cada valor de y, podemos calcular x = 2^10 - 2y = 2(2^9 - y). Como y < 2^9, entonces 2^9 - y > 0, lo que significa que x es positivo. Por lo tanto, todos los valores de y entre 1 y 2^9 - 1 nos darán un valor positivo para x.
+
+El número de pares de enteros positivos (x, y) que satisfacen la ecuación es igual al número de valores posibles para y, que es 2^9 - 1.
+
+Respuesta: A)

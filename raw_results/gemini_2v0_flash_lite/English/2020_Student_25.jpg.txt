@@ -1,0 +1,15 @@
+Reasoning:
+Let's denote the number of fruits remaining as 'f' and the number of vegetables remaining as 'v' in the afternoon.
+
+*   Ana's choices: 12 fruits choose 3, and 6 vegetables choose 1, so the total number of choices for Ana are (12C3) \* (6C1) = (220) \* (6) = 1320
+*   Bela's choices: f fruits choose 2, and v vegetables choose 2. The total number of choices for Bela are (fC2) \* (vC2)
+*   We know that the number of possible choices for Bela is a quarter of the number of possible choices for Ana.  So, (fC2) \* (vC2) = 1320/4 = 330
+*   Let's analyze the combinations to get 330:
+    *   If f=11, (11C2) = 55. Then, 55 \* (vC2) = 330, so (vC2) = 6, meaning v=4.
+        *   In this case, if there were 12 fruits, there would be 11 after the sales, so 1 fruit was sold. If there were 6 vegetables and then there were 4, so 2 vegetables were sold. Total sold = 1+2=3
+    *   Let's examine other possibilities like f=10 or f=9. The calculations won't lead to whole number solutions. So let us stick with f=11 and v=4.
+*   In the beginning, we have 12 fruits and 6 vegetables.  After some are sold, we have 11 fruits (12-1) and 4 vegetables (6-2). Hence, one fruit and two vegetables were sold.
+
+Thus, a total of 1+2=3 items were sold.
+
+Answer: C)

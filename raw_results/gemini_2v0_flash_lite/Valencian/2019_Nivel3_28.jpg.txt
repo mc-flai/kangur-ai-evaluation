@@ -1,0 +1,11 @@
+Raonament:
+1. **Formula:** Let 'n' be the number of teams.  Each team has 3 players.  The number of games played can be calculated as follows:  Consider a team A. Each of its 3 players plays against all the players from other teams.  If there are 'n' teams, then there are (n-1) other teams, each having 3 players.  So, each player from team A plays against 3*(n-1) players.  This means that the 3 players of team A play 3 * (3*(n-1)) games. However, this counts each game twice (once for each player). Therefore we have to divide the result by 2 and the total games can be calculated by n*(3 * 3 * (n-1)) / 2 = (9n(n-1))/2
+2. **Inequality:** The total number of games must be less than or equal to 250. Therefore, (9n(n-1))/2 <= 250, which simplifies to  9n(n-1) <= 500.
+3. **Estimation:** We test the given answer choices.
+    *   A) n = 11: 9 * 11 * 10 = 990 > 500. Not a valid answer
+    *   B) n = 10: 9 * 10 * 9 = 810 > 500. Not a valid answer
+    *   C) n = 9: 9 * 9 * 8 = 648 > 500. Not a valid answer
+    *   D) n = 8: 9 * 8 * 7 = 504 > 500. Not a valid answer
+    *   E) n = 7: 9 * 7 * 6 = 378 <= 500. Valid answer.
+
+Resposta: E)

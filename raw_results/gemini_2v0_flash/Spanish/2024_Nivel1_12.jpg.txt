@@ -1,0 +1,88 @@
+Razonamiento: Cada anillo debe sumar 10. Examinemos el anillo de la izquierda, el cual contiene el número 6 y otro número no revelado. El número no revelado debe ser 10 - 6 = 4. Ahora examinemos el anillo de la derecha, el cual contiene el número 3 y otro número no revelado. El número no revelado debe ser 10 - 3 = 7.
+Ahora examinemos el anillo del centro de la izquierda, el cual contiene el número 4 (determinado previamente) y el número bajo el signo de interrogación.
+Ahora examinemos el anillo del centro de la derecha, el cual contiene el número 7 (determinado previamente) y el número bajo el signo de interrogación.
+Por lo tanto, si los números dentro del anillo deben sumar 10 y contienen el número de signo de interrogación, entonces el número debajo del signo de interrogación es 10-4 = 6 y 10-7 = 3. Pero hay dos números iguales en total entonces, en lugar de deducir cuál es la cifra, ya sabemos que los números del 1 al 7 deben ubicarse de manera que cada círculo sume 10, ya tenemos 6 _ _ y _ _ 3.
+Anillo 1: 6 + a + b = 10.
+Anillo 2: a + ? + c = 10.
+Anillo 3: ? + c + d = 10.
+Anillo 4: c + d + 3 = 10.
+Sabemos que los números del 1 al 7 deben utilizarse.
+c + d = 7, por lo tanto, c y d podrían ser 1 y 6, 2 y 5, 3 y 4.
+Podemos probar diferentes combinaciones para ver qué funciona.
+Intentemos a = 1, b = 3.
+6 + 1 + 3 = 10.
+Ahora intentemos ? = 2. Entonces,
+1 + 2 + c = 10, c = 7
+2 + 7 + d = 10, d = 1
+Esto no funciona porque 1 ya se usó.
+
+Intenta a = 2, b = 2.
+6 + 2 + 2 = 10, no funciona.
+
+Si el número buscado es 4, entonces
+a + 4 + c = 10. 4 + c = 10 - a.
+a + ? + c = 10
+
+Considerando el anillo del centro de la izquierda y del centro de la derecha. Si los 4 números alrededor de la carta con el signo de interrogación son a, c, b, y d, donde tenemos el anillo 2: a + ? + c = 10, y el anillo 3: ? + c + d = 10.
+Si restamos ambas ecuaciones,
+(a + ? + c) - (? + c + d) = 10 - 10 = 0.
+Entonces a - d = 0, lo cual significa que a = d.
+
+Si la carta es 1, las opciones son 2, 4, 5, 7. Si la carta es 2, las opciones son 1, 4, 5, 7.
+6 + a + b = 10
+a + ? + c = 10
+? + c + d = 10
+c + d + 3 = 10
+a + b = 4
+a + c = 10 - ?
+c + d = 10 - ?
+c + d = 7
+
+Sin embargo, si resolvemos el primer círculo para el número que falta:
+Anillo 4 tiene dos cartas no especificadas, y deben sumar 7 para lograr el total de 10. c + d = 7. Dado que ya tenemos el 3 y necesitamos sumar 10, c+d = 10 -3, c+d = 7.
+Anillo 1 tiene dos cartas no especificadas, y deben sumar 4. a + b = 4, dado que ya tenemos el 6, requerimos 10 en total.
+a = 1, b = 3
+a = 3, b = 1
+a = 2, b = 2, no posible ya que no existen cartas con números repetidos.
+
+Veamos ahora las opciones.
+Si el número desconocido es 1, entonces requerimos que
+a + c = 9.
+c + d = 9.
+Por lo tanto, si a + c = 9, podemos decir que si a = 1, entonces c=8 no es posible,
+Si a = 3, c=6.
+Veamos.
+a + b = 4.
+a + b = 3 + 1 = 4.
+a + ? + c = 3 + 1 + 6 = 10.
+a + ? + c = 10.
+? = 1
+Entonces, si a = 3, c = 6,
+si c = 6,
+c + d = 7
+6 + d = 7, d = 1. ¡Ya tenemos 1! Imposible
+
+Si el número es 4
+Veamos si podemos encontrar los otros números usando el resto de la información.
+
+Si ? = 2.
+entonces,
+a + b = 4.
+a + 2 + c = 10, a + c = 8.
+2 + c + d = 10, c + d = 8.
+c + d + 3 = 10, c + d = 7. ¡No funciona!
+
+Probemos ? = 5
+a + b = 4.
+a + c = 5, si a=1, c=4. if a = 2 c=3. c + d = 5. c + d= 7 - no possible.
+
+Probemos ? = 4
+a + b = 4
+a + ? + c = 10.
+4 + 6, 3+ 7, o +0, 1+ 7.
+
+La suma de los 7 primeros dígitos es igual a 28.
+
+Razonamiento: Analizando las restricciones impuestas por la suma de cada anillo (que debe ser 10), podemos inferir los valores de las cartas adyacentes a la carta faltante. Observando los anillos que contienen la carta con el signo de interrogación, la suma de los números restantes en esos anillos nos dará información valiosa. Dada la simetría aparente en la disposición y la restricción de usar números del 1 al 7, el número faltante parece ser 4.
+
+Respuesta: C)

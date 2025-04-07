@@ -1,0 +1,29 @@
+Para resolver esta pregunta, debemos encontrar el número de vértices de los 13 trozos de papel obtenidos después de hacer los cortes.
+
+1. **Vértices iniciales**: Cada trozo de papel tiene 4 vértices.
+2. **Cortes diagonales**: Cada corte diagonal en un cuadrado crea 2 nuevos vértices.
+3. **Número de trozos iniciales**: Maria tenía inicialmente 13 trozos de papel (10 cuadrados y 3 triángulos).
+4. **Número de cortes diagonales**: De los 10 cuadrados, se cortan 3 cuadrados en diagonal.
+
+Ahora, calculemos el número total de vértices:
+
+- Los 10 cuadrados inicialmente tienen \(10 \times 4 = 40\) vértices.
+- Los 3 triángulos inicialmente tienen \(3 \times 3 = 9\) vértices.
+- Cada corte diagonal añade 2 vértices, por lo que 3 cortes diagonales añaden \(3 \times 2 = 6\) vértices.
+
+Sumando todos los vértices:
+\[ 40 (cuadrados) + 9 (triángulos) + 6 (cortes) = 55 \]
+
+Sin embargo, se nos dice que el número total de vértices es 42. Esto significa que debe haber un error en la explicación o en el número de cortes diagonales.
+
+Entonces, veamos cuántos cortes diagonales se habrían hecho para obtener exactamente 42 vértices.
+
+- Los 10 cuadrados tienen 40 vértices y los 3 triángulos tienen 9 vértices, sumando 49 vértices.
+- Si necesitamos 42 vértices en total, y ya tenemos 49 vértices, entonces necesitamos que los cortes diagonales disminuyan el número de vértices.
+- Cada corte diagonal en realidad no aumenta el número de vértices porque simplemente se corta un cuadrado en dos triángulos, y cada cuadrado original ya tenía 4 vértices.
+
+Entonces, el número de cortes diagonales no afecta el número total de vértices. Por lo tanto, el número inicial de vértices debe ser correcto.
+
+Razonamiento: El número inicial de vértices de los 10 cuadrados y 3 triángulos es 49. Como el número total de vértices es 42, esto significa que no se hicieron cortes diagonales adicionales que aumenten el número de vértices.
+
+Respuesta: E)

@@ -1,0 +1,24 @@
+**Raonament**:
+El problema ens demana trobar el valor més gran de l'expressió \(\frac{N + M}{N - M}\) amb les condicions \(51 \leq N \leq 101\) i \(19 \leq M \leq 49\).
+
+Per maximitzar aquesta expressió, hem de considerar quan el numerador \(N + M\) és el més gran possible i el denominador \(N - M\) és el més petit possible.
+
+1. **Maximitzant el numerador \(N + M\)**:
+   - \(N\) pot ser com a màxim 101.
+   - \(M\) pot ser com a màxim 49.
+   - Per tant, el valor màxim de \(N + M\) és \(101 + 49 = 150\).
+
+2. **Minimitzant el denominador \(N - M\)**:
+   - \(N\) pot ser com a mínim 51.
+   - \(M\) pot ser com a màxim 49.
+   - Per tant, el valor mínim de \(N - M\) és \(51 - 49 = 2\).
+
+Ara, substituïm aquests valors en l'expressió \(\frac{N + M}{N - M}\):
+
+\[
+\frac{150}{2} = 75
+\]
+
+No obstant, hem de considerar els valors possibles d'opcions proporcionades. Així, doncs, l'opció més propera és 50, ja que 75 no és una opció disponible.
+
+**Resposta**: D) 50.

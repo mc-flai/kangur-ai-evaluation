@@ -1,0 +1,320 @@
+Reasoning:
+Let $n$ be the number of people sitting around the table, so $n = 30$.
+Let $x$ be the number of people who do not wear a hat. These people must speak the truth.
+Let $y$ be the number of people who wear a hat. These people can either speak the truth or lie.
+Since $x+y = 30$, we want to maximize $x$.
+
+If a person does not wear a hat, they must tell the truth, which means at least one of their neighbors wears a hat. So between two people who don't wear hats, there must be a person with a hat.
+
+Let $x$ be the number of people who don't wear hats. They must tell the truth, so at least one of their neighbors wears a hat.
+We can arrange the people such that the number of people without hats is maximized by alternating two hat-wearers between each person who does not wear a hat.
+If the arrangement is HHWNHHWNHHWN... where H is wearing a hat and N is not wearing a hat. For every person who is not wearing a hat, there are two people wearing hats. In a round table, we have a repeating pattern of $NHH$.
+
+The pattern has length 3. Out of 3 people, only 1 does not wear a hat. So the maximum number of people not wearing a hat is $\frac{30}{3} = 10$.
+Consider the case where the people are in the sequence NHHNHHNHH...
+If a person doesn't wear a hat, at least one of their neighbors must wear a hat.
+So, let's say we have the sequence NHHNHHNHH...NHH. This has 10 people who don't wear hats and 20 people who do wear hats. The statement that at least one of the neighbors wears a hat holds true.
+
+Now we need to verify that no sequence can have more than 10 people who don't wear a hat.
+If we assume that we can have 11 people not wearing hats, then there are only 19 people wearing hats.
+Let's arrange the sequence as NNN...
+If we put a hat wearer between two people without hats, the minimum number of hat wearers is 10. But that still leaves $19-10 = 9$ hat wearers unaccounted for.
+Therefore, 10 is indeed the largest number of people who don't wear a hat.
+
+Reasoning:
+If every other person does not wear a hat, then we can have a sequence such as "no hat, hat, no hat, hat, ... ". In this case, there are 15 people without hats. However, in this arrangement, everyone who has a hat is lying because neither of their neighbors has a hat.
+Let $x$ be the number of people who don't wear a hat. Since they must tell the truth, at least one neighbor must wear a hat. Let's imagine a sequence like "hat, no hat, no hat, hat, ...".
+This would only guarantee that at least one neighbor wears a hat for half the no hat people.
+Consider a sequence such as NHHNHHNHH... This is 10 people with no hats. They are telling the truth. And people with hats can either tell the truth or lie.
+So the maximum number of people not wearing a hat must be less than or equal to 10.
+
+If we consider the sequence HHNHHNHHNHHNHHNHHNHHNHHNHH, the people not wearing hats have at least one neighbor who wears a hat. The people wearing hats have at least one neighbor who wears a hat. The people not wearing a hat must be speaking the truth, meaning they have a neighbor who is wearing a hat.
+
+If the sequence is NHHNHH... then 10 people do not wear hats. Everyone making the statement is being truthful.
+
+Answer: B)
+Reasoning:
+Let's consider an arrangement where we have alternating blocks of people with hats and people without hats. Suppose we have $x$ people who do not wear a hat. These people must be truthful. Therefore, each of these $x$ people must have at least one neighbor with a hat. To maximize $x$, we can arrange them such that between every person without a hat, there are two people wearing hats. Thus, the pattern is N, H, H, N, H, H, ..., where N represents a person without a hat, and H represents a person with a hat. In this arrangement, for every person who doesn't wear a hat, there are two people wearing hats. Thus, the ratio of people wearing hats to people not wearing hats is 2:1. Hence, the total number of people is 30. Let $x$ be the number of people without hats. Then $2x$ is the number of people with hats. So $x + 2x = 30$, which gives $3x = 30$, thus $x = 10$. In this arrangement, each person without a hat is telling the truth. The people with hats are also telling the truth because they each have a neighbor who has a hat.
+
+Answer: B)
+Reasoning:
+Let $H$ denote a person wearing a hat and $N$ a person not wearing a hat.
+The statement says that anyone who doesn't wear a hat *must* tell the truth, and what they're saying is that at least one of their neighbors wears a hat.
+The goal is to maximize the number of people without a hat.
+Let's try to create a pattern that maximizes the number of $N$s while satisfying the condition.
+Consider the pattern $NHH$. In this case, the person $N$ is sitting between two $H$s, so they are telling the truth. The $H$s are also telling the truth, since their neighbors wear hats.
+Now if we continue the pattern around the table $NHHNHHNHH...$, then the total number of people is a multiple of 3, and 1/3 are not wearing hats. Since we have 30 people, then we can have $30/3 = 10$ people not wearing hats.
+
+Consider $N N$. Then there must be a $H$ in the middle.
+If we arrange them so that it is HNHNHN... this means 15 people without hats, 15 with hats, but then the people with hats are lying.
+
+Answer: B)
+Reasoning:
+Let $x$ be the number of people without hats, so they tell the truth.
+Let $y$ be the number of people with hats, so they can lie or tell the truth.
+If we arrange it in pairs of "no hat, hat, no hat, hat...", then there are 15 without hats and 15 with hats. However, in this case, people with hats are lying because their neighbors do not wear hats.
+Now consider three in a group "no hat, hat, hat... no hat, hat, hat...". Then number of "no hat" becomes one third of the group.
+The max number of people with no hats is 10.
+
+Answer: B)
+Reasoning:
+The question asks for the maximum number of people who do not wear a hat. Let's denote a person wearing a hat by "H" and a person not wearing a hat by "N". The condition is that everyone has to say "At least one of my neighbouring people wears a hat." People not wearing a hat have to speak the truth. People wearing a hat can speak the truth or lie.
+If we consider the pattern "NHHNHHNHH..." then for every 3 people, 1 person does not wear a hat. In this case the number of people not wearing a hat is $30/3 = 10$. The people not wearing a hat tell the truth, because they each have two neighbours wearing a hat. The people wearing a hat can tell the truth, because they each have a neighbour wearing a hat. Thus, the arrangement "NHHNHHNHH..." satisfies all the conditions.
+
+Answer: B)
+Reasoning:
+Let 'H' denote a person with a hat, and 'N' denote a person without a hat. We are given that a person without a hat must speak the truth, meaning at least one of their neighbors must have a hat. People with hats can either lie or tell the truth. The goal is to maximize the number of people without a hat.
+If we arrange it in the pattern "N H H N H H N H H ...", then every person without a hat has two neighbors with a hat. This arrangement satisfies the condition. Since the pattern repeats every three people, and there are 30 people in total, there can be at most 30 / 3 = 10 people without a hat.
+Answer: B)
+Reasoning:
+Let N represent a person not wearing a hat and H a person with a hat. Since a person without a hat has to speak the truth and claim that at least one of their neighbours is wearing a hat, we can maximize the number of people not wearing a hat by setting them in between those who are. So a possible arrangement would be H H N H H N H H N.....
+There are 30 people, so number of sets of H H N = 30 / 3 = 10. Hence the number of Ns is 10 and that of H is 20.
+Answer: B)
+Reasoning:
+Let $H$ represent a person wearing a hat and $N$ represent a person not wearing a hat.
+The question asks for the largest possible number of $N$. Each $N$ must have a $H$ as a neighbor, as $N$ have to speak the truth.
+A possible arrangement is $NHHNHH...$, which corresponds to 10 $N$ and 20 $H$.
+Answer: B)
+
+Reasoning:
+Let N be a person not wearing a hat and H a person with a hat. We want to maximize the number of people who do not wear a hat, subject to the constraint that each of them tells the truth, so at least one of their neighbors must wear a hat. An arrangement of NHHNHHNHH... satisfies all these conditions. There are 10 "NHH" patterns, so the total number of N is 10.
+
+Answer: B)
+
+Reasoning:
+Let N represent a person who is not wearing a hat, and H a person who is wearing a hat. People who are not wearing a hat must tell the truth, and they all claim "At least one of my two neighbouring people wears a hat.". Those who wear a hat can either speak the truth or lie. To maximize the number of people who do not wear a hat, we can arrange the people around the table in a sequence: H H N H H N H H N... In this way, the number of N is 1/3 of the total number of people. Thus the largest number of people who do not wear a hat is 30 / 3 = 10.
+Answer: B)
+Reasoning:
+Let $H$ be the number of people wearing hats, and $N$ be the number of people not wearing hats. We want to maximize $N$. Since the people without hats must tell the truth and say that at least one neighbour is wearing a hat, the largest number of people without a hat would be achieved if for every 3 people around the table, there are 2 hat-wearing people and one not wearing a hat. Therefore, the proportion would be 2/3 and 1/3, giving $30/3 = 10$.
+
+Answer: B)
+
+Reasoning:
+Let N denote someone who is not wearing a hat, and H denote someone wearing a hat. N's must tell the truth. Everyone claims at least one of their neighbors is wearing a hat. To maximize the number of N's, we can set up groups of 3: N H H. We have ten such groups, so there can be 10 people who don't wear a hat.
+Answer: B)
+
+Reasoning:
+Let $n$ be the number of people sitting around the table. Then $n=30$.
+Let $x$ be the number of people not wearing a hat. Then they must speak the truth, meaning each one must have at least one neighbour who does wear a hat.
+Consider arranging the people such that every person not wearing a hat is flanked by two people wearing hats. This would look like HHNHHNHH....
+In each group of 3 people, 1 does not wear a hat. Therefore, the maximum number of people not wearing a hat is $30/3 = 10$.
+The arrangement with 10 not wearing hats is NHHNHHNHHNHHNHHNHHNHHNHHNHH
+In this arrangement, those without hats are telling the truth.
+
+Answer: B)
+Reasoning:
+Let H be a person wearing a hat and N be a person not wearing a hat. We want to maximize the number of N. N must be between Hs. Consider the sequence HNHNHN. Now we can maximize this to HHNHHNHH. This gives us ratio 2:1. Hence the number of people not wearing hats will be 30/3 which is 10.
+
+Answer: B)
+Reasoning:
+Let H denote the people wearing hats and N the people not wearing hats. The people not wearing hats must be speaking the truth, so they must have a neighboring person who is wearing a hat. We are trying to maximize the number of people who are not wearing hats. An arrangement of the form NHHNHHNHH... will allow 10 people without a hat and 20 people with a hat. Therefore, 10 is the largest possible number.
+
+Answer: B)
+Reasoning:
+Let N represent people not wearing a hat and H represent people with a hat. Those not wearing a hat speak the truth, stating at least one neighbour wears a hat. The maximum people not wearing a hat would be arrangement NHHNHH. Each N has at least one neighbor (2 in fact) wearing a hat. The H's are also telling the truth since they have neighbors with hats.
+There are 30 people in total and this pattern consists of 3 people total. With 3 people with one person not wearing a hat, that leads to a ratio of 1/3. Thus the number of people not wearing a hat is 30/3 = 10.
+Answer: B)
+Reasoning:
+Let N be a person without a hat, and H be a person wearing a hat.
+We want to maximize the number of N, knowing that each N must have at least one H neighbor. We know N speaks the truth, and says that at least one of its neighbours is wearing a hat.
+So if we arrange the people like HHN HHN HHN.... Then the people are telling the truth since on either side they each see an H. This grouping is 3 total people per set, so divide 30 by 3, that gets 10 N's for every 3.
+Therefore there's 10 people not wearing hats.
+
+Answer: B)
+Reasoning:
+Let $N$ be someone not wearing a hat and $H$ someone wearing a hat.  We want to maximize the number of $N$ while ensuring each $N$ is telling the truth, i.e., at least one neighbor has a hat.  Consider the pattern $H H N H H N \ldots$.  This uses a group of 3 in the repeating pattern.  In such a case, out of the group of 3, only 1 does not have a hat.  With 30 total people, this yields $30/3=10$.
+
+Answer: B)
+Reasoning:
+Let H represent wearing a hat and N not wearing a hat. People not wearing a hat must tell the truth.
+"At least one of my two neighboring people wears a hat." So this rules out NN because that is a lie.
+An example layout:
+HNHNHN... H must have a neighbor with a hat. So the neighbors cannot be N's
+To Maximize N: HHN, HHN so for every 3 1 is not wearing hat 2 are wearing
+30 / 3 = 10. So B is the largest number of people that do not wear a hat.
+Answer: B)
+Reasoning:
+Let's use H for people wearing a hat and N for those not wearing a hat. People not wearing a hat must speak the truth, which means they must have at least one neighbor with a hat. To maximize the number of people not wearing a hat, consider arranging them as HHN HHN HHN....
+Here, out of every three, only one is not wearing a hat. Thus, the maximum number would be (30/3) = 10
+
+Answer: B)
+Reasoning:
+If a person is not wearing a hat, they are telling the truth when they say that at least one of their neighbors is wearing a hat. To maximize the number of people not wearing a hat, we want to arrange them so that each person not wearing a hat has exactly one neighbor wearing a hat. However, this is impossible around a circle. Instead, we can arrange them as HHN HHN HHN... In this pattern there are 3N = 30 => N = 10.
+Answer: B)
+
+Reasoning:
+The people who do not wear hats must tell the truth, so at least one neighbor must wear a hat. To maximize the number of people who don't wear hats, we can arrange them in the pattern "HHN", so for every three people, one does not wear a hat. 30/3 = 10.
+
+Answer: B)
+
+Reasoning:
+Let 'H' be wearing a hat, and 'N' be not wearing a hat. Those not wearing hats must have at least one neighbor wearing a hat. Thus, the arrangement NHH maximizes number of "not wearing a hat" people while allowing everyone to tell the truth (or either for hat wearing people). So then in group of 3, we only have one not wearing a hat.
+$30 / 3 = 10$
+
+Answer: B)
+Reasoning:
+Let 'H' represent a person wearing a hat, and 'N' a person not wearing a hat. The people not wearing hats must tell the truth, implying that at least one of their neighbors is wearing a hat.
+To maximize the number of people not wearing a hat, we can arrange the people such that for every person not wearing a hat, there are two neighbors wearing a hat.
+The arrangement then becomes: "NHHNHHNHH..."
+So, for every 3 people, 1 does not wear a hat.
+So, the maximum number of people not wearing a hat $= 30/3 = 10$.
+
+Answer: B)
+Reasoning:
+Let "H" be a person wearing a hat, and "N" a person not wearing a hat. Those without a hat must tell the truth, and those with can either tell the truth or lie. Since the people without hats must be telling the truth that at least one of their neighbors is wearing a hat, we can arrange them as "NHH". Since we want to find the maximum number of people who do not wear a hat, we divide the total number of people (30) by the length of the pattern (3), so 30/3 = 10. Therefore, 10 is the maximum number of people who do not wear a hat.
+
+Answer: B)
+Reasoning:
+Let H represent someone wearing a hat, and N someone not wearing a hat. The problem states that those not wearing a hat must tell the truth, therefore each person with a hat must be neighbors to someone wearing a hat. Therefore the arrangement would ideally be like H H N...H H N for the maximum amount of Ns. Thus there are 3 elements, so if there is 30 people / 3 = 10. so there would be 10 people not wearing hats.
+
+Answer: B)
+Reasoning:
+Let H be the people wearing a hat and N the people not wearing a hat. Given that the people who don't wear a hat have to speak the truth. So one of their neighbours has to wear a hat. To maximise the people not wearing hats the arrangement has to be like: N, H, H, N, H, H... So every three there is only one person not wearing a hat. As the total is 30, 30/3 gives us 10. Therefore, there are 10 people.
+
+Answer: B)
+Reasoning:
+Let "H" be a person wearing a hat, and "N" be a person not wearing a hat. The N must speak the truth (at least one of their neighbors wears a hat). If there are two N next to each other (NN), it can be a problem if their other neighbors don't wear hats. So, the best strategy to maximize N is to have only one N between Hs, i.e., HHN.
+Then we repeat: HHN HHN HHN..., the pattern length is 3. The number of N's is 30 / 3 = 10.
+
+Answer: B)
+Reasoning:
+Let us denote H for a person wearing a hat and N for a person not wearing a hat. We want to maximise the number of people without hats. These people must speak the truth, so at least one neighbour wears a hat. To maximise people not wearing a hat we can arrange them in the following pattern HHN HHN HHN .... The pattern has length 3 so for every 3 people, only one doesn't wear a hat. Therefore 30/3 = 10.
+Answer: B)
+Reasoning:
+Let $H$ denote a person wearing a hat and $N$ a person not wearing a hat. Since those not wearing a hat must tell the truth, it means that at least one of their neighbors wears a hat. We need to find a pattern that will maximize the number of people who don't wear a hat.
+
+Consider $NHH$. This pattern works for any arrangement because N will have two neighbors who are wearing hats. The total number of people is 30, so we divide by 3 which gives 10. Hence, there are 10 people not wearing hats.
+
+Answer: B)
+Reasoning:
+Let $H$ be the people wearing a hat and $N$ be the people not wearing a hat.
+Since a person not wearing a hat has to say the truth, therefore he/she must have a neighbor wearing a hat.
+To maximise people who don't wear hat, the pattern should be NHH. Then for every 3 person, only one person doesn't wear a hat. Thus, total people without hat are $\frac{30}{3}=10$
+Answer: B)
+Reasoning:
+Let H denote someone wearing a hat and N denote someone not wearing a hat. Those not wearing hats must tell the truth. Thus, they must have a neighbor who is wearing a hat. The pattern we can use to maximize people not wearing hats would be NHHNHH... Where it takes 3 spots. We can fit 30/3 = 10 NHH's. Thus the largest amount of people not wearing a hat would be 10.
+Answer: B)
+Reasoning:
+Let's use H for people with hats and N for people without hats. People without hats MUST have at least 1 neighbor with a hat.
+
+Consider the following arrangement around the round table: H H N H H N H H N ...
+Here, out of every 3 people, only one is without a hat.
+Therefore, the maximum number of people who don't have a hat is 30 / 3 = 10.
+Answer: B)
+Reasoning:
+Let $H$ be a person wearing a hat and $N$ a person not wearing a hat. Since people without hats have to tell the truth, at least one of their neighbors must wear a hat. To maximize the number of people without hats, we can have arrangement where there are two people wearing hats next to a person without a hat, so $HHN$. The pattern repeats around the table. So $30 / 3 = 10$.
+
+Answer: B)
+Reasoning:
+Let $H$ represent people wearing a hat, and $N$ represent people not wearing a hat. People who do not wear a hat must tell the truth, which is that one of their neighbors wears a hat. To maximize the number of people without a hat, the arrangement around the table must be NHHNHH... This means 1 out of every 3 people is not wearing a hat. Since there are 30 people, there are 30/3 = 10 people without a hat.
+
+Answer: B)
+Reasoning:
+Let's denote people with hats by 'H' and people without hats by 'N'. People without hats must tell the truth, meaning at least one of their neighbors wears a hat. To maximize the number of people without a hat, let's try the repeating pattern H H N, H H N, H H N,... Since 30 / 3 = 10, there are 10 people without a hat.
+
+Answer: B)
+Reasoning:
+Let H denote someone wearing a hat, and N denote someone not wearing a hat. Since the people without hats *must* tell the truth (at least one neighbor has a hat), and we want to maximize the number of people without a hat, the best arrangement would be "H H N H H N H H N..." Each person wearing a hat can choose to lie or tell the truth. Since this pattern consists of 3 people and it repeats, the number of people without a hat will be the total number of people (30) divided by the length of the repeating pattern (3), which is 10.
+
+Answer: B)
+Reasoning:
+The people who don't wear hats tell the truth, meaning at least one of their neighbors wears a hat. This implies that a pattern like NHHNHHNHH... is valid since each person not wearing a hat has 2 neighbors wearing a hat. This pattern has one person not wearing a hat for every 3 people. Hence the answer is 30 / 3 = 10.
+
+Answer: B)
+Reasoning:
+Let H be the number of people wearing a hat and N be the number of people not wearing a hat. The key here is that the people not wearing a hat MUST tell the truth (at least one neighbor is wearing a hat). So if we try to maximize the people not wearing a hat, we could use a pattern such as NHH, such that a person not wearing a hat will have two people wearing a hat as neighbors. Since there are a total of 30 people, we can divide that by 3 to see how many "NHH" groups we can make and thus how many people are not wearing hats.
+So the answer is 30/3 = 10.
+
+Answer: B)
+Reasoning:
+Let's call people with hats 'H' and people without hats 'N'. Those without hats must tell the truth, which means each person 'N' must have at least one neighbor 'H'. The arrangement 'NN' would mean a lie is being told. To maximise the 'N' we want to do H H N H H N. So for every three people, two wear hats and one does not. Hence for 30 people we divide by 3, so we have 10.
+
+Answer: B)
+Reasoning:
+Let H denote a person wearing a hat and N a person not wearing a hat. The goal is to maximize the number of people who do not wear a hat. If a person does not wear a hat, at least one of his/her neighbors must wear a hat. So a possible pattern is NHHNHHNHH... If this is the case, for every 3 people, only 1 person does not wear a hat, which leads to a maximum of 10 people who do not wear a hat.
+
+Answer: B)
+Reasoning:
+The question says that those who do not wear a hat must tell the truth, so each such person must have at least one neighbor wearing a hat. So we can create the repeating pattern HHN HHN HHN ...  This pattern satisfies the condition that those without hats must be next to those with hats. And for every 3 people, one is without a hat. Thus, the maximum possible is 30 / 3 = 10.
+Answer: B)
+Reasoning:
+Let H denote a person wearing a hat and N denote a person without a hat. Since a person not wearing a hat must tell the truth that at least one neighbor wears a hat, we can try maximizing by placing people in a sequence NHHNHHNHHNHHNHHNHHNHHNHHNHH around the circle. This has a repeated pattern of 3, so the number of people not wearing hats would be 30/3=10
+
+Answer: B)
+Reasoning:
+Let us denote people with hats as 'H' and without hats as 'N'.
+We want to maximize the number of N's. The condition says that if a person doesn't wear a hat, they have to speak the truth: they must have at least one neighbour with a hat.
+
+Consider a pattern like "HHN HHN HHN..." It is valid since each person not wearing a hat (N) does have a neighbour wearing a hat. The length of the pattern is 3, so for every 3 people, there is one N.
+
+Since there are 30 people total, the maximum number of people not wearing a hat is 30/3 = 10.
+Answer: B)
+Reasoning:
+Let's denote wearing a hat as H and not wearing a hat as N. Since each person who doesn't wear a hat needs to be telling the truth, each N needs at least one neighbor wearing a hat (H). The pattern that maximizes the number of people without a hat would be H H N H H N H H N ...
+So, there's a 2:1 ratio of people with hats to people without hats.
+Given a total of 30 people, 30/3 = 10. Therefore, 10 people aren't wearing a hat.
+Answer: B)
+Reasoning:
+Let H represent someone wearing a hat and N someone not wearing a hat.
+Those who don't wear a hat must speak the truth (at least one neighbor is wearing a hat).
+To maximize N, the pattern would be NHH, so it has a pattern of 3.  10 people is the right proportion (1/3).  If we tried 15, that would be half the people, which means N H would be adjacent.  15 would mean that the person with a hat would lie because their neighbor doesn't have one, so the answer isn't C. 10 makes sense and it is the correct answer.
+
+Answer: B)
+Reasoning:
+Let H denote a person with a hat, and N denote a person without a hat. The question requires us to maximize the number of N, knowing that at least one of the two neighbors of N must be a person wearing a hat. The arrangement NHHNHHNHH... seems to be optimal in this case. So, N is 1/3, hence 30/3 = 10.
+
+Answer: B)
+Reasoning:
+Those not wearing a hat must tell the truth, meaning they have a neighbor with a hat. To maximize the number of those without a hat, use a pattern of $HHN$. For every 3 people, one isn't wearing a hat. So, $30/3 = 10$.
+Answer: B)
+Reasoning:
+Let 'H' denote wearing a hat and 'N' denote not wearing a hat. The goal is to maximize N. For all N, at least one of the two neighbors must be wearing a hat.
+So, lets have this layout NHH (the hat-wearing person can speak the truth or lie), so, 1 N to 2 H. With this configuration, it is telling us, for every 3, there is 1 that is not wearing a hat.
+$ 30 / 3 = 10 $
+
+Answer: B)
+Reasoning:
+Let N represent a person who is not wearing a hat, and H represent a person who is wearing a hat.
+We know that the people not wearing a hat must tell the truth, i.e., they must have at least one neighbor wearing a hat. To maximize the number of people not wearing a hat, we arrange the people as: HHN HHN HHN ...
+Here, for every 3 people, only 1 person is not wearing a hat. So out of 30 people, 30 / 3 = 10 people do not wear a hat.
+Answer: B)
+Reasoning:
+Let's use H to represent someone wearing a hat and N for someone not wearing a hat. We are told that someone not wearing a hat has to tell the truth, which is that at least one of their neighbors is wearing a hat.
+To maximize the number of people not wearing hats, we need a sequence where 1 out of 3 people do not wear a hat.
+The sequence is H H N. In the circle it becomes H H N H H N H H N H H N H H N ... So for every three people one is not wearing a hat.
+30/3 = 10
+Answer: B)
+Reasoning:
+Let "H" be a person wearing a hat, and "N" a person not wearing a hat.
+
+We want to maximize "N". Those not wearing a hat speak the truth, so they must have a neighbour wearing a hat. This gives us a repeating sequence HHN. In the sequence there are 3 members and only 1 is N. Therefore to maximise the number of N: 30/3 = 10.
+Answer: B)
+Reasoning:
+Let H be a person wearing a hat and N be a person not wearing a hat. The statement implies that the people without hats have to speak the truth, and those with hats have the option. The largest number of people who do not wear a hat can be achieved in NHHNHH fashion because each N has at least one neighbor who wears a hat. Given 30 people around a round table, 30/3 gives 10.
+Answer: B)
+Reasoning:
+Let N represent someone not wearing a hat and H someone wearing a hat. We want to maximize N. Because people not wearing hats are truthful, then at least one of their neighbors wears a hat. Then a valid group is NHH, which repeats. Then 30/3 = 10.
+
+Answer: B)
+Reasoning:
+Let 'H' represent a person wearing a hat, and 'N' represent a person not wearing a hat.
+Since the people not wearing a hat must tell the truth, we want to maximize their number such that for each person not wearing a hat, at least one neighbor has a hat. We can use a repeating pattern HHN. Every 3 people, one person is without a hat. Thus the largest number of people that do not wear a hat is $30/3 = 10$.
+
+Answer: B)
+Reasoning:
+We can arrange the sequence as H H N H H N ... (every 3 people, one isn't wearing a hat). The people without hats must have a person with a hat next to them. There are 30 people so the maximal number of no hat = 30/3 = 10
+Answer: B)
+Reasoning:
+Let's define H as a person wearing a hat and N as a person not wearing a hat.
+People not wearing a hat must tell the truth: "At least one of my two neighboring people wears a hat.". This means we can't have two Ns next to each other.
+Let's look for a pattern that maximises the N.
+HHN HHN HHN ... HHN
+In this pattern for every 3 people only 1 is not wearing a hat. So 30 people / 3 = 10.
+Answer: B)
+Reasoning:
+Let us denote a person wearing a hat as "H" and a person not wearing a hat as "N." The question states that the people who do not wear a hat MUST tell the truth (which is that at least one of their neighbors is wearing a hat.)
+
+We want to maximize the number of N's, so we will try to find a repeating pattern with the most N's while maintaining that all Ns are adjacent to an H. Consider the repeating pattern "HHN." This satisfies that people who don't wear a hat must be next to a person with a hat. Thus the answer would be 30/3=10.
+Answer: B)
+Reasoning:
+Let $H$ be a person wearing a hat and $N$ a person not wearing a hat. We know that the $N$ has to speak the truth, i.e., at least one of its neighbors has to be $H$. So $N$ has to be neighboring at least one $H$. To maximize the number of people without a hat, we want $NHH$ as the pattern because the person who doesnt wear a hat only neighbors people with hats and is truthful

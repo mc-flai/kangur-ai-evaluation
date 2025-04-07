@@ -1,0 +1,40 @@
+Per a resoldre el problema de la pregunta 21, hem de determinar quants números de pàgines del llibre no són múltiples de 3 i no superen el número 92.
+
+**Raonament:**
+
+1. **Identificar les pàgines que no són múltiples de 3:**
+   Les pàgines múltiples de 3 són: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90.
+   
+2. **Contar les pàgines que són múltiples de 3 fins a la pàgina 92:**
+   Comencem a partir de 3 fins a 90, ja que 92 no és múltiple de 3.
+   La seqüència de múltiples de 3 és una seqüència aritmètica amb primer terme 3 i raó 3.
+   El nombre de termes (n) es pot calcular amb la fórmula de la seqüència aritmètica:
+   \[
+   a_n = a_1 + (n - 1) \cdot r
+   \]
+   on \( a_1 = 3 \), \( a_n = 90 \) i \( r = 3 \).
+
+   Resolent per \( n \):
+   \[
+   90 = 3 + (n - 1) \cdot 3
+   \]
+   \[
+   90 = 3 + 3n - 3
+   \]
+   \[
+   90 = 3n
+   \]
+   \[
+   n = 30
+   \]
+   Així que hi ha 30 pàgines que són múltiples de 3 fins a la pàgina 90.
+
+3. **Calcular el total de pàgines del llibre:**
+   El llibre té 92 pàgines.
+
+4. **Determinar el nombre de pàgines que no són múltiples de 3:**
+   \[
+   \text{Total de pàgines} - \text{Pàgines múltiples de 3} = 92 - 30 = 62
+   \]
+
+**Resposta:** D) 62.

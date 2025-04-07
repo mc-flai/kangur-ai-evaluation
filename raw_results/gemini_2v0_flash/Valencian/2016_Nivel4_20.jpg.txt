@@ -1,0 +1,10 @@
+Raonament:
+Per trobar la xifra de les unitats de la suma de factorials, podem calcular la xifra de les unitats de cada factorial i després sumar-les. A partir de 5!, tots els factorials tindran un 0 com a xifra de les unitats perquè tindran almenys un factor 5 i un factor 2. Per tant, només hem de considerar els primers quatre factorials:
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+La suma de les xifres de les unitats d'aquests factorials és 1 + 2 + 6 + 4 = 13.
+A partir de 5!, tots els factorials acabaran en 0, per tant, no afectaran a la xifra de les unitats de la suma total. Per tant, la xifra de les unitats de la suma 1! + 2! + 3! + 4! + ... + 2016! serà la mateixa que la xifra de les unitats de 1 + 2 + 6 + 24 = 33, que és 3.
+
+Resposta: C)

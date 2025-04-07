@@ -1,0 +1,9 @@
+Raisonnement :
+Le problème est un problème de coloration de graphe. On doit colorier les sommets (disques) de façon que deux sommets adjacents (reliés par une arête) aient des couleurs différentes. On doit trouver le nombre minimal de couleurs nécessaires pour colorier le graphe.
+En observant le graphe, on peut voir que le sommet central est adjacent à tous les autres sommets. Donc, tous les sommets extérieurs doivent avoir une couleur différente de celle du sommet central.
+Le sommet central (1) nécessite une couleur.
+Les 6 sommets extérieurs sont reliés de telle façon qu'on puisse colorer avec 2 couleurs.
+Dans ce cas de figure, on peut colorier le centre avec la couleur 1. Ensuite, colorier les 6 sommets restants avec 2 couleurs (ex: 2 et 3).
+On a donc 3 couleurs au total.
+
+Réponse : B)

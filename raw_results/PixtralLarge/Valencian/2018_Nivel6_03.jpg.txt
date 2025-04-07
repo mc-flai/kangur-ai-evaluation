@@ -1,0 +1,11 @@
+Per resoldre aquesta pregunta, hem de determinar la longitud del costat més curt d'un pentàgon format a partir d'un quadrat en el qual s'ha retallat un triangle isòsceles amb un costat paral·lel a la diagonal.
+
+**Raonament**:
+1. La diagonal del quadrat és la hipotenusa del triangle retallat.
+2. La diagonal d'un quadrat amb costat \(a\) és \(a\sqrt{2}\).
+3. En aquest cas, el costat del quadrat és de 1 dm, per tant la diagonal és \(1\sqrt{2} = \sqrt{2}\) dm.
+4. El triangle és isòsceles i retallat de manera que una aresta és paral·lela a la diagonal, per tant cada costat del triangle és \( \frac{\sqrt{2}}{2} \).
+5. Una vegada retallat, el pentàgon es forma amb dos trams de 1 dm, un tram de \( \frac{\sqrt{2}}{2} \) dm i dos trams de \( \frac{1}{2} \) dm.
+6. El costat més curt del pentàgon és \( \frac{1}{2} \) dm.
+
+**Resposta**: D) \(\frac{1}{3}\).

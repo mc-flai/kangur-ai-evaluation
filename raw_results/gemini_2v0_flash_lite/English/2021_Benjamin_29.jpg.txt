@@ -1,0 +1,16 @@
+Reasoning: Let 't' be the number of trolls and 'e' be the number of elves. We know that t + e = 10. Let's consider the sum of the numbers 1 to 10, which is (10 * 11) / 2 = 55. Each elf tells the truth, so their answers are correct. Each troll lies, and their answer differs from their token's number. The difference between the true sum (55) and the reported sum (36) is 55 - 36 = 19. Each troll's lie contributes to this difference. Since the trolls lie, their answer must be different from their token. For each troll, if the number on their token is 'x', their answer is 'y' (different from x). The difference is |x-y|. In order to minimize the number of trolls, the trolls should lie with the maximum possible difference. Let's denote by d the total difference due to troll's lies.
+Since the sum of the answers is 36, there are at least some trolls.
+Let's assume we have 't' trolls, then e = 10 - t.
+If t=1, the difference will be the difference between the true token and its lie answer. The difference has to be 19, so we will try to figure out a token number and a lie answer such that the difference adds up to 19. But, it will require that the difference between the true token and the lied answer to be 19. But since each answer and each token number ranges from 1 to 10, therefore it's impossible for t=1.
+If t=2, the sum of the difference of lies is 19. Again, for two lies, the maximum difference possible is 9 each, the maximum is 9+9 =18. Thus t!=2.
+If t=3, 3 trolls, let the trolls answer with the smallest possible numbers.
+Since the maximum answer is 10 and minimum answer is 1, the maximum difference between their answers can be 9.
+3 lies, with the total lies sum of 19. Consider three trolls, the total difference is 19. The difference with one lies must be a smaller number. Let us suppose that troll 1's token number is 10. Then the possible lied number can be 1-9, let's suppose it is 1. The difference would be 9. Let's suppose troll 2's number is 9, then let troll 2's lied number is 2. The difference would be 7. The rest of the difference is 19-9-7=3, thus the third troll could be 4, then the lie answer could be 7, then the sum is 3, thus it is not possible. Thus, this assumption does not work.
+If t=4, then let us make the assumptions. The sum of 1 to 10 is 55. The trolls sum is 36. Let's say we have 4 trolls. The difference of 55-36 = 19.
+So the minimum would be, if the trolls have token numbers of 10, 9, 1, 0. Sum of 10, 9, 1 = 20.
+So we assume that the difference would be 19. We know the lies are to be added up.
+We try 4 trolls. Their lies sum is 19. 19/4 is approximately 5.
+If the answers are all in the lie, then, the minimum number of trolls is 4.
+The maximum number of trolls is 7.
+
+Answer: C)

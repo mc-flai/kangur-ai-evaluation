@@ -1,0 +1,24 @@
+Reasoning:
+1.  **Recognize the Pythagorean Triple:** Triangle ABC has sides 6, 8, and 10, which form a Pythagorean triple (3-4-5 scaled by 2), so angle BAC is a right angle.
+2.  **Properties of the Square:** AMDE is a square, therefore all sides are equal. Also, angle EAD is a right angle (90 degrees).
+3.  **Area of the Square:** Let the side of the square be 'x'. Since M is the midpoint of BC, and BC = 10, then BM = MC = 5. Because AMDE is a square, then AM = x. Triangle ABM is a right triangle (ABM is a right angle), with sides 6, 5, x. Therefore ABM can be represented as AM=6.
+4.  **Area of Triangle:** Area of triangle ABC is 0.5 * 6 * 8 = 24
+5.  **Find AF:** Since triangles ADF and CME is similar, AF/AD = AF / AE = AF/6.
+6.  **Area of AFDE:** The area of quadrilateral AFDE can be calculated using the area of triangle ABC, by removing the triangle FDC from the triangle ABC. The area of quadrilateral AFDE = Area(ABC) - Area(FDC)
+
+Area (ABC) = 1/2 * AB * AC = 1/2 * 6 * 8 = 24
+Since AMDE is a square, and M is midpoint and ABC is a right-angled triangle at A, we can say AM = AB^2 + BM^2. AM is not a square, the sides of square is 10*2/5 = 4.8.
+So side of the square = 6*8 /10 = 4.8 = x
+Area of square = x^2 = 4.8 * 4.8 = 23.04
+Area of square = 23.04
+The area of AFDE is the area of the square minus the area of the triangle FDC
+
+Area (AFDE) = Area (square) - Area(FDC)
+Now, the Area(FDC) = 1/2 * CD * CF, and CD=AE.
+Also, since Area(AFDE) = Area(square)-Area(FDC), the quadrilateral Area = 24/10 = 23.04 -0.5(5-4.8)
+
+Area of square = 4.8 * 4.8 = 23.04
+Area of Triangle FDC = 1/2 * (MC-MF) * (FC), where F is intersection between MD and AC.
+Area(AFDE) = 126/8
+
+Answer: C)

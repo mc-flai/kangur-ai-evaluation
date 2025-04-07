@@ -1,0 +1,33 @@
+**Raisonnement** :
+
+Pour résoudre cette question, nous devons identifier les paires de personnes mentionnées dans le problème et déterminer laquelle des paires évite de mentionner l'âge de Boby.
+
+1. Le problème mentionne :
+   - Boby est plus âgé que Zina.
+   - Boby est plus jeune que Lily.
+   - Tom est plus âgé que Boby.
+
+2. Par conséquent, les âges sont ordonnés comme suit :
+   - Zina < Boby < Lily
+   - Boby < Tom
+
+3. Les paires d'âges mentionnées sont :
+   - Zina et Boby
+   - Boby et Lily
+   - Boby et Tom
+
+4. Les paires qui évitent de mentionner l'âge de Boby sont :
+   - Zina et Tom
+   - Tom et Lily
+   - Lily et Zina
+
+5. En examinant les réponses proposées :
+   - A) Zina et Tom (Pas de mention de Boby)
+   - B) Tom et Lily (Pas de mention de Boby)
+   - C) Lily et Zina (Pas de mention de Boby)
+   - D) Boby et Lily (Mentionne Boby)
+   - E) Tom et Boby (Mentionne Boby)
+
+6. Parmi les options, la paire qui évite de mentionner l'âge de Boby est "Lily et Zina".
+
+**Réponse** : C)

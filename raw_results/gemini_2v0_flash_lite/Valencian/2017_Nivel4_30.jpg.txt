@@ -1,0 +1,13 @@
+Raonament:
+1. **Identificació:** El problema ens proporciona un cercle amb el centre O i radi 5. També ens dona l'angle ∠OCB = 45 graus.
+2. **Triangles rellevants:** Les línies AO, BO, i CO son radis del cercle i, per tant, mesuren 5. El triangle COB és isòsceles, donat que CO = BO. Així ∠OBC = ∠OCB = 45 graus i, per tant, ∠COB = 180 - 45 - 45 = 90 graus.
+3. **Càlcul de l'angle central:** L'angle central ∠AOB = 2 * ∠ACB.
+4. **Teorema del cosinus:** Utilitzem el teorema del cosinus en el triangle AOB per calcular la longitud del segment AB: AB^2 = AO^2 + BO^2 - 2 * AO * BO * cos(∠AOB). Per tant, si volem trobar el ∠AOB, primer hem de trobar el ∠ACB.
+5. **Càlcul de l'angle ACB:** En un cercle, l'angle inscrit ACB és la meitat de l'angle central ∠AOB que sosté el mateix arc AB. L'angle ∠ACB = 45.
+6. **Càlcul de l'angle central:** L'angle ∠AOB = 2 * ∠ACB.
+7. **Teorema del cosinus:** Utilitzant l'angle ∠AOB, que seria ∠AOB = 90 graus i que AO = BO = 5,  AB^2 = 5^2 + 5^2 - 2 * 5 * 5 * cos(90)
+AB^2 = 25 + 25 - 0
+AB^2 = 50
+AB = √50 = 5√2
+
+Resposta: B)

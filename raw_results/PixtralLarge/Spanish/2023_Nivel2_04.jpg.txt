@@ -1,0 +1,40 @@
+**Razonamiento**:
+1. Juan y Lorena tienen juntos 9 canicas.
+2. Juntos tienen 8 canicas rojas y 10 canicas azules.
+3. Lorena tiene el doble de canicas azules que de canicas rojas.
+
+Primero, determina cuántas canicas azules y rojas tiene Lorena. Sea \( x \) el número de canicas rojas que tiene Lorena. Entonces, Lorena tiene \( 2x \) canicas azules.
+
+Dado que juntos tienen 10 canicas azules:
+\[ 2x + y = 10 \]
+Dado que juntos tienen 8 canicas rojas:
+\[ x + z = 8 \]
+
+Dado que tienen 9 canicas en total:
+\[ x + 2x = 3x \]
+\[ 3x + y + z = 9 \]
+
+Como \( x + z = 8 \), entonces \( y = 10 - 2x \).
+
+Ahora, resolvemos las ecuaciones.
+
+Primero, de la ecuación \( x + z = 8 \):
+\[ z = 8 - x \]
+
+Sustituimos \( z \) en la ecuación \( 3x + y + z = 9 \):
+\[ 3x + (10 - 2x) + (8 - x) = 9 \]
+\[ 3x + 10 - 2x + 8 - x = 9 \]
+\[ 3x - 2x - x + 18 = 9 \]
+\[ 18 = 9 \]
+\[ 0 = 0 \]
+
+Esto es correcto, entonces resolvemos para \( x \):
+\[ 3x = 9 \]
+\[ x = 3 \]
+
+Entonces, Lorena tiene 3 canicas rojas y 6 canicas azules.
+
+Juan tiene el resto de las canicas azules:
+\[ 10 - 6 = 4 \]
+
+**Respuesta**: B) 4

@@ -1,0 +1,23 @@
+### Razonamiento
+
+Para resolver este problema, considere  un cubo grande cuyo extremo lateral mida $n$ pies y por lo tanto su volumen es $n^3$ pies cúbicos.
+
+Se puede expresar el volumen de $n^3 / 8$ cubos pequeños como:
+
+$$\frac{n^3}{8} = \frac{n \times n \times n}{8}$$
+
+Al reducir  este termino por $8$, se consigue que  debemos buscar un cubo de lados que mida $n/2$, porque $n/2$ multiplicado por si mismo $3$ veces, produce $n^3 / 8$.
+
+El numero de cubos pequeños que cabran a lo largo de una sola cara pintada, es el mismo número de los que no tienen cara pintada, por lo que $n / 2$ debería satisfacer esta condición.
+
+Dado que tenemos que $n^3 = n \times n \times n$ pequeños, deducimos que $n$ debería ser divisible por $2$, es decir, n debe ser un múltiplo de $2$.
+
+Si examinamos las aunque sumistradas, se ve que solamente $8$ satisface esta condición de un cubo de lados $n/2$ con n/2 igual a 4 lados sin costo ni con todos los costados pintados.
+
+Si hacemos $n = 8$, este valor puede satisfacer la ecuación dio el problema con $n^3 / 8 = 64 $, donde hay $64$ cubos de los cuales solamente $4$ se encuentran en las esquinas del lados de $4$ pequeños que existen, cada uno pinte es quina una lado.thalmos si consideramos sus esquinas, if-ffi paint Safe lang.
+
+Con esta información es posible deducir la respuesta de esta interrogante.
+
+### Respuesta:
+
+D) 8

@@ -1,0 +1,8 @@
+Razonamiento:
+1. **Vertices del cubo:** Un cubo tiene 8 vértices.
+2. **Triángulos posibles:** Si elegimos 3 vértices cualesquiera, estos forman un triángulo.
+3. **Cálculo total de triángulos:** El número total de triángulos posibles es 8C3 = (8!)/(3!5!) = (8*7*6)/(3*2*1) = 56.
+4. **Triángulos en la misma cara:** Cada cara tiene 4 vértices. Los triángulos formados con vértices en la misma cara se calculan como 4C3 = (4!)/(3!1!) = 4.  Hay 6 caras, por lo tanto, el número total de triángulos en la misma cara es 6 * 4 = 24.
+5. **Triángulos que NO están en la misma cara:** El número de triángulos que no están en la misma cara es el total de triángulos menos los que están en la misma cara: 56 - 24 = 32.
+
+Respuesta: C)

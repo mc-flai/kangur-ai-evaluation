@@ -1,0 +1,63 @@
+Per resoldre aquesta pregunta, hem de trobar el conjunt més petit de cartes numerades que sumin 100, utilitzant els nombres donats: 3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, i 68.
+
+**Raonament**:
+1. Primer, hem de mirar d'agrupar els nombres per aconseguir la suma més propera a 100.
+2. Tractarem de sumar els nombres més grans primer, ja que això reduirà la quantitat de cartes necessàries.
+3. Sumem els cinc nombres més grans: 68 + 63 + 58 + 53 + 48 = 287.
+4. Provam amb quatre nombres més grans: 68 + 63 + 58 + 53 = 242.
+5. Provam amb tres nombres més grans: 68 + 63 + 58 = 189.
+6. Provam amb dos nombres més grans: 68 + 63 = 131.
+7. Ara, hem de trobar un grup que sumi exactament 100. Provam amb els nombres més petits i els vam sumant:
+   - 68 + 33 = 101. (Excedeix)
+   - 68 + 38 = 106. (Excedeix)
+   - 68 + 43 = 111. (Excedeix)
+   - 68 + 48 = 116. (Excedeix)
+   - 68 + 53 = 121. (Excedeix)
+   - 58 + 43 = 101. (Excedeix)
+   - 58 + 38 = 96. (No arriba)
+   - 58 + 33 = 91. (No arriba)
+   - 53 + 48 = 101. (Excedeix)
+   - 53 + 43 = 96. (No arriba)
+   - 53 + 38 = 91. (No arriba)
+   - 53 + 33 = 86. (No arriba)
+   - 48 + 43 = 91. (No arriba)
+   - 48 + 38 = 86. (No arriba)
+   - 48 + 33 = 81. (No arriba)
+   - 43 + 38 = 81. (No arriba)
+   - 43 + 33 = 76. (No arriba)
+   - 38 + 33 = 71. (No arriba)
+
+8. Provem amb tres nombres:
+   - 68 + 28 + 3 = 99. (No arriba)
+   - 68 + 18 + 13 = 99. (No arriba)
+   - 68 + 8 + 23 = 99. (No arriba)
+   - 63 + 33 + 3 = 99. (No arriba)
+   - 63 + 28 + 8 = 99. (No arriba)
+   - 63 + 18 + 18 = 99. (No arriba)
+   - 58 + 38 + 3 = 99. (No arriba)
+   - 58 + 28 + 13 = 99. (No arriba)
+   - 58 + 18 + 23 = 99. (No arriba)
+   - 53 + 43 + 3 = 99. (No arriba)
+   - 53 + 38 + 8 = 99. (No arriba)
+   - 53 + 28 + 18 = 99. (No arriba)
+   - 48 + 43 + 8 = 99. (No arriba)
+   - 48 + 38 + 13 = 99. (No arriba)
+   - 48 + 28 + 23 = 99. (No arriba)
+   - 43 + 38 + 18 = 99. (No arriba)
+   - 43 + 28 + 28 = 99. (No arriba)
+   - 38 + 33 + 28 = 99. (No arriba)
+
+9. Prova amb quatre nombres:
+   - 68 + 23 + 8 + 3 = 102. (Excedeix)
+   - 63 + 28 + 8 + 3 = 102. (Excedeix)
+   - 58 + 33 + 8 + 3 = 102. (Excedeix)
+   - 53 + 38 + 8 + 3 = 102. (Excedeix)
+   - 48 + 43 + 8 + 3 = 102. (Excedeix)
+   - 43 + 38 + 13 + 3 = 97. (No arriba)
+
+10. Prova amb cinc nombres:
+   - 68 + 13 + 8 + 3 + 8 = 100. (Correcte!)
+
+Per tant, el conjunt més petit de cartes que suma 100 és de 5 cartes.
+
+**Resposta**: D) 5.

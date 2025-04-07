@@ -1,0 +1,21 @@
+
+La pregunta solicita el número de ceros en el producto de los números del 1 al 10.
+
+**Razonamiento:**
+1. Identificar los números en el rango de 1 a 10 que son múltiplos de 10, 5, 2, o cualquier otro número que contribuya a ceros en los factores.
+2. Los números que contribuyen a ceros en los factores son 4, 5, 6, 8, y 10.
+3. Contar los factores de 2 en cada uno de estos números:
+   - 4 = 2^2 (contiene 2 ceros)
+   - 5 = 5^1 (contiene 0 ceros)
+   - 6 = 2^1 * 3^1 (contiene 1 cero)
+   - 8 = 2^3 (contiene 3 ceros)
+   - 10 = 2^1 * 5^1 (contiene 1 cero)
+4. Sumar los ceros de cada número:
+   - 4 contribuye con 2 ceros
+   - 5 contribuye con 0 ceros
+   - 6 contribuye con 1 cero
+   - 8 contribuye con 3 ceros
+   - 10 contribuye con 1 cero
+5. Total de ceros = 2 + 0 + 1 + 3 + 1 = 7
+
+**Respuesta:** C)

@@ -1,0 +1,18 @@
+**Raonament**:
+Per resoldre el problema, hem de determinar a quin punt recallem després d'un seguit de moviments realitzats per un vehicle automàtic:
+
+- Recorrem 1 km cap a la dreta  
+- Recorrem 2 km cap a la dreta i la tornem a girar cap a la dreta
+- Recorrem 3 km cap a la dreta i la tornem a girar cap a la dreta
+- Recorrem 4 km cap a la dreta i la tornem a girar cap a la dreta  
+
+L'últim moviment, posar-se a 4 km a la dreta, es fa jo simple.
+
+Al principi, comencem al punt O, i realitzem la primera acció, que és recórrer 1 km cap a la dreta. Ara ens trobem en el punt A, que té coordinades (1, 0) sobre l'eix x positiu.
+
+Després d'això, recorrem 2 km cap a la dreta, amb el que arribem a les coordenades punk B en (3, 0) de l'eix x positiu. Finalment, també recorrem 3 km cap a la dreta, que ens portarà punt C de posicionada (6, 0) al eix x positiu.  
+
+Per últim, com a darrer pas, duguerem 4 km cap a la dreta, amb el punt D ubicat en (10, 0).  
+
+**Resposta**:
+D) 4

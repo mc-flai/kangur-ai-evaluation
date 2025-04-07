@@ -1,0 +1,16 @@
+Reasoning:
+We are given that $a_k = k + S$ for $1 \le k \le 5$. Thus,
+$a_1 = 1 + S$
+$a_2 = 2 + S$
+$a_3 = 3 + S$
+$a_4 = 4 + S$
+$a_5 = 5 + S$
+
+Also, we know that the sum of the numbers is $S$.
+$S = a_1 + a_2 + a_3 + a_4 + a_5 = (1+S) + (2+S) + (3+S) + (4+S) + (5+S)$
+$S = (1+2+3+4+5) + 5S$
+$S = 15 + 5S$
+$-4S = 15$
+$S = -\frac{15}{4}$
+
+Answer: B)

@@ -1,0 +1,12 @@
+Raonament:
+L'operació consisteix a multiplicar repetidament per 6 o 10.
+6 = 2 * 3
+10 = 2 * 5
+Això significa que partim del nombre 1 (2^0 * 3^0 * 5^0) i anem augmentant els exponents de 2, 3 i 5. Per cada multiplicació, augmentem l'exponent de 2. Si multipliquem per 6, augmentem els exponents de 2 i 3, i si multipliquem per 10, augmentem els exponents de 2 i 5. Per tant, l'exponent de 2 sempre ha de ser major o igual que l'exponent de 3 i l'exponent de 5.
+A) 2^100 * 3^20 * 5^80. L'exponent de 2 és més gran que els de 3 i 5. Pot ser.
+B) 2^90 * 3^20 * 5^80. L'exponent de 2 és més gran que els de 3 i 5. Pot ser.
+C) 2^90 * 3^20 * 5^70. L'exponent de 2 és més gran que els de 3 i 5. Pot ser.
+D) 2^110 * 3^80 * 5^30. L'exponent de 2 és més gran que els de 3 i 5. Pot ser.
+E) 2^50 * 5^50 = 2^50 * 3^0 * 5^50. L'exponent de 2 no és més gran o igual que l'exponent de 5. No pot ser.
+
+Resposta: E)

@@ -1,0 +1,34 @@
+### Reasoning:
+1. A regular tetrahedron has a specific volume formula based on its side length. The volume \( V \) of a regular tetrahedron with side length \( a \) is given by:
+   \[
+   V = \frac{a^3}{6\sqrt{2}}
+   \]
+
+2. When planes cut through the midpoints of the edges, they divide the tetrahedron into smaller tetrahedrons. Each smaller tetrahedron will have a side length that is half of the original tetrahedron's side length.
+
+3. The volume of a smaller tetrahedron with side length \( \frac{a}{2} \) is:
+   \[
+   V_{\text{small}} = \frac{\left(\frac{a}{2}\right)^3}{6\sqrt{2}} = \frac{a^3}{96\sqrt{2}}
+   \]
+
+4. Since the original tetrahedron is divided into four smaller tetrahedrons, the total volume of the smaller tetrahedrons is:
+   \[
+   4 \times \frac{a^3}{96\sqrt{2}} = \frac{a^3}{24\sqrt{2}}
+   \]
+
+5. The remaining volume is the original volume minus the total volume of the smaller tetrahedrons:
+   \[
+   V_{\text{remaining}} = \frac{a^3}{6\sqrt{2}} - \frac{a^3}{24\sqrt{2}} = \frac{4a^3}{24\sqrt{2}} - \frac{a^3}{24\sqrt{2}} = \frac{3a^3}{24\sqrt{2}} = \frac{a^3}{8\sqrt{2}}
+   \]
+
+6. The volume of the remaining solid is thus:
+   \[
+   \frac{a^3}{8\sqrt{2}}
+   \]
+
+7. Comparing this with the given options, we see that the correct answer is:
+   \[
+   \frac{1}{2}
+   \]
+
+### Answer: D

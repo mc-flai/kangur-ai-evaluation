@@ -1,0 +1,5 @@
+Raonament: Primer, observem que 20! és divisible per 2^9 = 512, ja que 20! conté molts factors de 2. En particular, hi ha 10 factors parells (2, 4, 6, ..., 20), 5 múltiples de 4 (4, 8, 12, 16, 20), 2 múltiples de 8 (8, 16) i 1 múltiple de 16 (16). Així, el nombre de factors 2 a 20! és 10+5+2+1 = 18, que és major que 9. Això implica que 20! és divisible per 2^9.
+Per tant, el residu de 20! dividit per 2^9 és 0. Ara, hem de trobar el residu de 520 dividit per 2^9 = 512. Com que 520 = 512 + 8, el residu de 520 dividit per 512 és 8.
+Finalment, el residu de (20! + 520) dividit per 2^9 = 512 és 0 + 8 = 8.
+
+Resposta: B)

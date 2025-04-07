@@ -1,0 +1,27 @@
+**Razonamiento:**
+1. Un rectángulo de 10 x 9 unidades se divide en 90 cuadrados unitarios.
+2. De estos cuadrados unitarios, aquellos que tienen un costo rojo son pintados de rojo.
+3. Aquellos cuadrados unitarios que comparten al menos un lado con los rojos son pintados de verde.
+4. Para encontrar la cantidad de cuadrados unitarios blancos restantes, primero calculamos el total de cuadrados unitarios pintados de rojo y verde.
+
+   - El rectángulo tiene 10 filas y 9 columnas, lo que da un total de 90 cuadrados unitarios.
+   - Los cuadrados unitarios pintados de rojo son aquellos que tienen un costo rojo, que es el 10% del total.
+   - Por lo tanto, hay 90 * 0.10 = 9 cuadrados unitarios pintados de rojo.
+
+5. Ahora, contamos los cuadrados unitarios pintados de verde. Estos son aquellos que comparten al menos un lado con los cuadrados rojos.
+   - Hay 10 filas y 9 columnas, por lo que hay 10 * 9 = 90 cuadrados unitarios en total.
+   - Los cuadrados pintados de verde son aquellos que comparten al menos un lado con los cuadrados rojos.
+   - Hay 9 cuadrados rojos, y cada uno puede tener hasta 4 cuadrados verdes adyacentes (arriba, abajo, izquierda, derecha).
+   - Sin embargo, algunos cuadrados pueden compartir lados con más de un cuadrado rojo, por lo que contamos los cuadrados verdes de manera más precisa.
+
+6. Calculamos los cuadrados verdes:
+   - Hay 9 cuadrados rojos, y cada uno puede tener hasta 4 cuadrados verdes adyacentes.
+   - Sin embargo, algunos cuadrados verdes pueden compartir lados con más de un cuadrado rojo, por lo que contamos los cuadrados verdes de manera más precisa.
+   - Hay 90 cuadrados en total, y 9 de ellos son rojos, por lo que los cuadrados verdes son 90 - 9 = 81 cuadrados.
+
+7. Finalmente, calculamos los cuadrados unitarios blancos restantes:
+   - Hay 90 cuadrados en total.
+   - Hay 9 cuadrados rojos y 81 cuadrados verdes.
+   - Por lo tanto, los cuadrados blancos restantes son 90 - 9 - 81 = 0.
+
+**Respuesta:** D)

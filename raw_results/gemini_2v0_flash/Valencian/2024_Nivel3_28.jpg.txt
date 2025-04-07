@@ -1,0 +1,18 @@
+Raonament:
+L'angle $\alpha$ és l'angle agut d'un triangle rectangle format per un quadrat del reticulat, per tant $\tan(\alpha) = \frac{1}{2}$. L'angle $\beta$ és l'angle d'un triangle rectangle format per un quadrat del reticulat, de manera que $\tan(\beta) = 1$. L'angle $\gamma$ és igual a l'angle $\alpha$. Per tant, $\tan(\gamma) = \frac{1}{2}$.
+
+Els valors dels angles serien:
+$\alpha = \arctan(\frac{1}{2}) \approx 26.57^\circ$
+$\beta = \arctan(1) = 45^\circ$
+$\gamma = \arctan(\frac{1}{2}) \approx 26.57^\circ$
+
+Llavors, $\alpha + \beta + \gamma \approx 26.57^\circ + 45^\circ + 26.57^\circ = 98.14^\circ$
+
+Aquesta suma no coincideix amb cap de les opcions. Però observant la figura, podem veure que l'angle $\alpha$ es pot construir com un angle adjacent a un angle de 45 graus, de forma que l'altre catet és la meitat del catet adjacent. Llavors, si fem servir $\alpha = \arctan(\frac{1}{2}) \approx 26.565$, llavors 2 angles $\alpha = 2 \arctan(\frac{1}{2}) \approx 53.13$ i $\beta = 45$.
+Això significa que la suma $\alpha + \beta + \gamma \approx 98.13$.
+
+Si considerem que l'angle $\beta$ és l'angle que forma la diagonal d'un quadrat, llavors $\beta = 45^{\circ}$. Si els angles $\alpha$ i $\gamma$ són els angles aguts dels triangles rectangles de catets 1 i 2, llavors $\alpha = \gamma = \arctan(\frac{1}{2})$. Així doncs, $\alpha + \beta + \gamma = 45 + 2 \arctan(\frac{1}{2})$. No hi ha una manera directa de simplificar aquesta expressió.
+
+Però, si considerem la recta horitzontal que passa per la base de l'angle $\alpha$, es forma un triangle isòsceles que té un angle igual a $\alpha$ i dos costats iguals, els quals no són iguals als de l'angle $\beta$. Per tant $\beta = 45^\circ$. El resultat serà prop de 90.
+
+Resposta: D)

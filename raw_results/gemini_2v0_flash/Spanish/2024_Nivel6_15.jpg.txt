@@ -1,0 +1,31 @@
+Razonamiento:
+El área sombreada es igual a la suma del área de dos segmentos circulares.
+El área de cada segmento circular es igual al área del sector circular menos el área del triángulo correspondiente.
+El área de la semicircunferencia es $\frac{1}{2} \pi r^2$, donde r es el radio = 3 cm. El área de la semicircunferencia es $\frac{1}{2}\pi (3)^2 = \frac{9\pi}{2}$
+El área del cuarto de circunferencia es $\frac{1}{4}\pi r^2$, donde r es el radio = 6 cm. El área del cuarto de circunferencia es $\frac{1}{4}\pi (6)^2 = \frac{36\pi}{4} = 9\pi$.
+El área del triángulo formado por la diagonal es $\frac{1}{2} (6)^2 = 18$.
+Si calculamos el área del semicírculo menos el área del segmento no sombreado, obtenemos:
+Área de la semicircunferencia es $\frac{1}{2} \pi r^2 = \frac{1}{2} \pi (3^2) = \frac{9\pi}{2}$.
+Área del segmento superior = Área del cuarto de círculo - Área del triángulo = $9\pi - 18$.
+Si dividimos el cuadrado en dos triángulos iguales mediante la diagonal, entonces el área sombreada es la suma del área del semicírculo y el área del cuarto de círculo, menos el área del cuadrado
+Área sombreada = área de semicírculo con radio 3 + área de cuarto de círculo con radio 6 - área del cuadrado con lado 6
+$\frac{9\pi}{2} + 9\pi - 36 = \frac{27\pi}{2} - 36$.
+Otro método:
+Area of one segment = Area of quarter circle of radius 6 cm - Area of triangle with sides 6 cm = $\frac{1}{4} \pi (6^2) - \frac{1}{2} (6 \cdot 6) = 9\pi - 18$.
+The area of the two segments is therefore $2(9\pi - 18) = 18\pi - 36$.
+None of the provided answers matches.
+
+Área de la semicircunferencia de radio 3: $A_1 = \frac{1}{2}\pi (3^2) = \frac{9\pi}{2}$
+Área del sector circular de radio 6 y ángulo $\pi/2$: $A_2 = \frac{1}{4}\pi (6^2) = 9\pi$
+Área del triángulo de base 6 y altura 6: $A_3 = \frac{1}{2}(6)(6) = 18$
+
+El área sombreada superior es el área del sector $A_2$ menos el área del triángulo $A_3$, esto es, $9\pi - 18$.
+El área sombreada inferior es el área de la semicircunferencia $\frac{9\pi}{2}$ menos un área no sombreada que no es fácil de calcular.
+El área sombreada puede también calcularse como el área total del cuadrado menos las áreas no sombreadas.
+Área del cuadrado = 36.
+Área no sombreada = (área del triángulo - área del área sombreada superior) + área por arriba de la diagonal
+Consideremos que la diagonal divide al cuadrado en dos triángulos idénticos de área 18 cada uno.
+La mitad del área sombreada parece ser 3 pi.
+Creo que 6 pi - 9 es la respuesta.
+
+Respuesta: C)

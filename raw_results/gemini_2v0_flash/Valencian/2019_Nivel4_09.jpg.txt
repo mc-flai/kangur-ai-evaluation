@@ -1,0 +1,37 @@
+Raonament:
+Siguin les coordenades dels vèrtexs del rectangle: $A(0,2)$, $D(2,2)$, $N(2,0)$ i $M(0,0)$.
+Com que $B$ és el punt mitjà de $AD$, les coordenades de $B$ són: $B = \left(\frac{0+2}{2}, \frac{2+2}{2}\right) = (1,2)$.
+Com que $C$ és el punt mitjà de $BD$, les coordenades de $C$ són: $C = \left(\frac{1+2}{2}, \frac{2+2}{2}\right) = \left(\frac{3}{2}, 2\right)$.
+
+Ara calculem les àrees dels triangles:
+1. Àrea de $AMN$: $\frac{1}{2} \left| (0(0-0) + 2(0-2) + 0(2-0)) \right| = \frac{1}{2}|-4| = 2$.
+2. Àrea de $BMN$: $\frac{1}{2} \left| (1(0-0) + 2(0-2) + 0(2-0)) \right| = \frac{1}{2}|-4| = 2$. (Hi ha un error aquí, ja que els punts no estan ordenats antihorari). L'area es $\frac{1}{2} \cdot |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)| = \frac{1}{2} | 1(0-0) + 2(0-2) + 0(2-0) | = \frac{1}{2} | -4 | = 2$.
+3. Àrea de $CMN$: $\frac{1}{2} \left| (\frac{3}{2}(0-0) + 2(0-2) + 0(2-0)) \right| = \frac{1}{2}|-4| = 2$.
+4. Àrea de $DMN$: $\frac{1}{2} \left| (2(0-0) + 2(0-2) + 0(2-0)) \right| = \frac{1}{2}|-4| = 2$.
+
+L'àrea del rectangle és $2 \cdot 2 = 4$. L'àrea dels triangles $AMN$, $BMN$, $CMN$ i $DMN$ es poden expressar com:
+$[AMN] = \frac{1}{2} base \cdot altura = \frac{1}{2} (AN) (AM) = \frac{1}{2} (2) (2) = 2$
+$[BMN] = \frac{1}{2} base \cdot altura$. La base és $MN=2$, i l'altura és la distància de $B$ a $MN$, que és $AD=2$. A partir de la posició de $B$, $(1,2)$, l'àrea de $BMN$ és $\frac{1}{2} (2) (2) = 2 \cdot \frac{1}{2} (AD) = 2$ .
+$[CMN] = \frac{1}{2} (MN) (\text{altura}) = \frac{1}{2} (2) (2) = 2 \cdot \frac{1}{2} (AD) = 2$ .
+$[DMN] = \frac{1}{2} (MN) (\text{altura}) = \frac{1}{2} (2) (2) = 2 \cdot \frac{1}{2} (AD) = 2$ .
+
+No obstant, aquestes àrees consideren A,B,C,D en y=2, on està la part superior del rectangle.
+Les àrees del triangles $AMN$, $BMN$, $CMN$ i $DMN$ no són iguals.
+Àrea $AMN$: $\frac{1}{2} * 2*2 = 2$
+Àrea $DMN$: $\frac{1}{2} * 2*2 = 2$
+Área $ABMN$ = área $AMN$ - área $ABM$ = $2 - \frac{1}{2} AD* AB = 2 - \frac{1}{2} * 2 * 1 = 2-1 = 1$
+Àrea $BCMN$ = área $BMN$ - área $BCM$
+
+Considerant que el més petit és BMN,
+Area BMN es més petita que el resto
+
+Resposta: B)
+Raonament: Com que B és el punt mitjà de AD i C és el punt mitjà de BD, els triangles AMN i DMN tenen la mateixa area. El triangle BMN serà més petit que el triangle AMN. El triangle CMN serà més petit que el triangle BMN.
+Resposta: C)
+Raonament: En el triangle ADNM, B és el punt mitjà del costat AD, i C és el punt mitjà del segment BD. El triangle amb l'area més petita será CMN.
+Resposta: C)
+Raonament: C és el punt mitjà de BD. L'àrea del triangle CMN és la més xicoteta.
+Resposta: C)
+
+Raonament: B és el punt mitjà de AD i C el punt mitjà de BD. Per tant, el triangle CMN té l'àrea més xicoteta.
+Resposta: C)

@@ -1,0 +1,3 @@
+Reasoning: We want to find the number of integers $n$ such that $2^{10} \le n \le 2^{13}$ and $2^{10}$ divides $n$. This means that $n$ is a multiple of $2^{10}$. We can write $n = k \cdot 2^{10}$ for some integer $k$. Since $2^{10} \le n \le 2^{13}$, we have $2^{10} \le k \cdot 2^{10} \le 2^{13}$. Dividing by $2^{10}$, we get $1 \le k \le 2^{13-10} = 2^3 = 8$. Therefore, $k$ can take integer values from 1 to 8, which means there are 8 possible values for $k$. Each value of $k$ corresponds to a value of $n$ that is divisible by $2^{10}$. Thus, there are 8 numbers between $2^{10}$ and $2^{13}$ that are divisible by $2^{10}$.
+
+Answer: D)

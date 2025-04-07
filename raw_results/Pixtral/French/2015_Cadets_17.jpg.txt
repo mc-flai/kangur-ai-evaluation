@@ -1,0 +1,32 @@
+### Raisonnement :
+Pour déterminer la hauteur de l'eau dans la piscine, nous devons utiliser la formule de la hauteur de l'eau dans un tuyau en fonction du débit et du diamètre du tuyau. La formule est donnée par :
+
+\[ h = \sqrt{\frac{2Q}{Cdg}} \]
+
+où :
+- \( h \) est la hauteur de l'eau dans la piscine,
+- \( Q \) est le débit d'eau,
+- \( C \) est le diamètre du tuyau,
+- \( d \) est la densité de l'eau (environ 1000 kg/m³),
+- \( g \) est l'accélération due à la gravité (environ 9,81 m/s²).
+
+Dans ce cas, le débit \( Q \) est de 15 litres par mètre carré, ce qui équivaut à 0,015 m³/s (puisque 1 litre = 0,001 m³).
+
+Nous devons trouver \( h \) pour chaque diamètre \( C \) donné et voir lequel correspond à la hauteur de l'eau dans la piscine.
+
+Pour \( C = 150 \) cm (1,5 m) :
+\[ h = \sqrt{\frac{2 \times 0,015}{3,14 \times 1,5 \times 1000 \times 9,81}} \approx 0,015 \text{ m} \]
+
+Pour \( C = 0,15 \) cm (0,015 m) :
+\[ h = \sqrt{\frac{2 \times 0,015}{3,14 \times 0,015 \times 1000 \times 9,81}} \approx 1,5 \text{ m} \]
+
+Pour \( C = 15 \) cm (0,15 m) :
+\[ h = \sqrt{\frac{2 \times 0,015}{3,14 \times 0,15 \times 1000 \times 9,81}} \approx 0,15 \text{ m} \]
+
+Pour \( C = 1,5 \) cm (0,015 m) :
+\[ h = \sqrt{\frac{2 \times 0,015}{3,14 \times 0,015 \times 1000 \times 9,81}} \approx 15 \text{ m} \]
+
+La hauteur de l'eau dans la piscine est donc de 1,5 m.
+
+### Réponse :
+D) 1,5 cm

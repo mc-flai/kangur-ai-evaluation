@@ -1,0 +1,12 @@
+Raonament: Cristina té 12 cartes numerades de l'1 al 12. Col·loca 8 nombres als vèrtexs d'un octàgon de tal manera que la suma de cada parell de nombres adjacents sigui un múltiple de 3. Volem trobar quins nombres no va posar Cristina.
+
+Primer, classifiquem els nombres de l'1 al 12 segons el seu residu mòdul 3:
+- Residu 0: 3, 6, 9, 12
+- Residu 1: 1, 4, 7, 10
+- Residu 2: 2, 5, 8, 11
+
+Perquè la suma de dos nombres sigui un múltiple de 3, han de tenir residus que sumen 0 o 3. Això vol dir que els possibles parells de residus són (0,0), (1,2).
+Per tant, els números que Cristina va posar als vèrtexs de l'octàgon tenen residus alternats com ara 1, 2, 1, 2, 1, 2, 1, 2 o 2, 1, 2, 1, 2, 1, 2, 1.
+Això significa que va posar 4 nombres amb residu 1 i 4 nombres amb residu 2. No va posar cap nombre amb residu 0. Per tant, els números que no va posar són 3, 6, 9 i 12.
+
+Resposta: E)

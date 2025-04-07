@@ -1,0 +1,36 @@
+Per resoldre la pregunta 21, primer cal entendre que l'operació inventada implica multiplicar els nombres i després sumar el resultat de les seves posicions. Aquesta operació és descrita com \( a \diamond b = (a+b+1) \cdot b \).
+
+Desglosem-ho:
+
+1. **Exemple 1**: \( 2 \diamond 3 = (2+1) \cdot 3 = 9 \)
+   - \( 2 + 3 + 1 = 6 \)
+   - \( 6 \cdot 3 = 18 \)
+
+2. **Exemple 2**: \( 4 \diamond 2 = (4+3+2+1) \cdot 2 = 20 \)
+   - \( 4 + 3 = 7 \)
+   - \( 7 + 2 = 9 \)
+   - \( 9 + 1 = 10 \)
+   - \( 10 \cdot 2 = 20 \)
+
+3. **Exemple 3**: \( 3 \diamond 5 = (3+2+1) \cdot 5 = 30 \)
+   - \( 3 + 2 = 5 \)
+   - \( 5 + 1 = 6 \)
+   - \( 6 \cdot 5 = 30 \)
+
+Ara apliquem l'operació \( 6 \diamond 5 \):
+
+\[ 6 \diamond 5 = (6 + 5 + 1) \cdot 5 \]
+
+\[ 6 + 5 = 11 \]
+
+\[ 11 + 1 = 12 \]
+
+\[ 12 \cdot 5 = 60 \]
+
+Per tant, el resultat de \( 6 \diamond 5 \) és 60.
+
+**Raonament**:
+L'operació inventada és \( a \diamond b = (a+b+1) \cdot b \). Aplicant aquesta operació a \( 6 \diamond 5 \), obtenim:
+\[ (6 + 5 + 1) \cdot 5 = 60 \]
+
+**Resposta**: E) 315

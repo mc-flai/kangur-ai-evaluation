@@ -1,0 +1,65 @@
+Raonament:
+Siguin:
+- x el nombre de pots amb 1 caramel. Aleshores, el primer pot té x caramels.
+- y el nombre de pots amb 2 caramels. Aleshores, el segon pot té y caramels.
+- z el nombre de pots amb 3 caramels. Aleshores, el tercer pot té z caramels.
+- w el nombre de pots sense caramels. Aleshores, el quart pot té w caramels.
+
+Sabem que tenim quatre pots, per tant x + y + z + w = 4.
+També sabem:
+- El primer pot té x caramels.
+- El segon pot té y caramels.
+- El tercer pot té z caramels.
+- El quart pot té w caramels.
+
+El nombre total de caramels és x + y + z + w. Però també x + y + z + w = 4.
+A més, x és el nombre de pots amb 1 caramel, y és el nombre de pots amb 2 caramels, z és el nombre de pots amb 3 caramels i w és el nombre de pots sense caramels.
+
+Per tant, el nombre total de caramels que hem posat és x + 2y + 3z + 0w = x + 2y + 3z.
+A més, tenim que el nombre de caramels en el primer pot és igual al nombre de pots amb un sol caramel (x). El mateix passa amb el nombre de caramels en el segon pot (y) i el nombre de caramels en el tercer pot (z). Finalment, el nombre de caramels que hi ha en el quart pot és igual al nombre de pots que no tenen cap caramel (w).
+Per tant, tenim que x + y + z + w = 4. Aleshores, necessitem calcular x + y + z + w de totes les combinacions possibles.
+
+Si w=1: x+y+z=3. Si x=3, y=0, z=0, aleshores els caramels totals serien 3+0+0+1 = 4. Però volem el nombre total de caramels que hem posat és x + 2y + 3z = 3 + 0 + 0 = 3
+Si w=0, x+y+z=4
+Si x=4, y=0, z=0, aleshores tenim 4 caramels en un pot. Hem posat 4 caramels totals. x+2y+3z = 4 + 0 + 0 = 4
+Si x=2, y=1, z=1, aleshores x + 2y + 3z = 2 + 2 + 3 = 7. impossible.
+Si y=2, x=2, z=0, w=0. x+2y+3z=2+4+0 = 6
+Si z=2, x=1,y=1, w=0. x+y+z=4. x+2y+3z = 1+2+6 = 9
+Si x=1, y=1, z=1, w=1 x+2y+3z = 1+2+3+0=6
+Si considerem que la suma de tots el caramels que hem posat en els pots és de 4:
+x+y+z+w=4 i el nombre total de caramels és x+2y+3z=S
+x+y+z=4-w. Podem provar amb valors per x,y,z, i w que sumin 4.
+Si w=1. x=1, y=1, z=1. llavors 1+2+3 = 6.
+Si w=2. x=2, y=0, z=0 llavors nombre total de caramels = 2
+x+2y+3z+w=4, on w és el nombre de pots sense caramel.
+
+La suma del nombre de caramels és 4.
+
+Raonament: Tenim quatre pots.  Si el nombre de caramels en cada pot es igual al nombre de pots amb eixe nombre de caramels. Ex, si posem un caramel en el primer pot, llavors hi ha un pot amb un caramel.  Si posem 2 caramels en el segon pot, llavors hi ha dos pots amb 2 caramels.  i així successivament.
+Si un pot té un caramel, hi ha 1 pot amb un caramel.
+Si un pot té 2 caramels, hi ha 2 pots amb 2 caramels.
+Si un pot té 3 caramels, hi ha 3 pots amb 3 caramels.
+El quart pot te w caramels, que es igual al nombre de pots que no tenen cap caramel.  Així w és zero.
+
+Assumim que tots els pots tenen exactament 1, 2, o 3 caramels.
+Si tenim 1 pot sense cap caramel, aleshores el quart pot té zero caramels.
+Com hem posat en total? Això significa sumar el nombre total de caramels en tot els pots.
+1er pot: x
+2on pot: y
+3er pot: z
+4rt pot: w
+La pregunta es quina es la suma x+y+z+w.
+L'informació addicional es: el nombre de caramels que te el pot es el mateix nombre de pots amb eixe nombre de caramels, x=nº de pots con x caramels, y=nº de pots con y caramels, z= nº de pots con z caramels, w=nº de pots con w=0 caramels. x + y + z + w=4.  La suma total del numero de caramels =  1x+2y+3z
+x + y + z = 4- w
+x + 2y +3 z es el numero de caramels que posem en cada pot. Quina és la suma que obtenim a final?
+x = 1 pot amb 1 caramel. y = 0, z = 0, w = 3 numero de caramels= 1
+x=2 pots 1 caramel. 1+2+1 = 4 2 * 1 caramel
+x=2 un pot de 2, i dos sense caramel, hi han 2 caramels
+tres pots cero.
+S = x *1+ y+ 2 + z+ * + 3, on x+y+z +w =4 numero de pots
+W = nombre de pots * * no tenen* cap caramel.
+Així = x* * , caramel, y,* 2 caramel = * s caramel -  si no tenen caramel
+
+La suma total de caramels = S= x1 + 2y
+
+Resposta: E)

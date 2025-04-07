@@ -1,0 +1,12 @@
+Para resolver la pregunta 6, necesitamos encontrar cuántos números diferentes de cuatro dígitos se pueden formar utilizando los números 1, 5 y 11. Cada número de cuatro dígitos se forma colocando uno de estos números en cada posición de los cuatro dígitos.
+
+Razonamiento:
+1. El primer dígito puede ser 1, 5 o 11. Sin embargo, 11 no puede ser el primer dígito porque un número de cuatro dígitos no puede comenzar con un 1 y un 1. Por lo tanto, tenemos 2 opciones para el primer dígito (1 o 5).
+2. El segundo dígito puede ser cualquiera de los tres números (1, 5 o 11).
+3. El tercer dígito también puede ser cualquiera de los tres números (1, 5 o 11).
+4. El cuarto dígito puede ser cualquiera de los tres números (1, 5 o 11).
+
+Por lo tanto, el número total de combinaciones posibles es:
+\[ 2 \text{ (primer dígito)} \times 3 \text{ (segundo dígito)} \times 3 \text{ (tercer dígito)} \times 3 \text{ (cuarto dígito)} = 2 \times 3 \times 3 \times 3 = 54 \]
+
+Respuesta: E)

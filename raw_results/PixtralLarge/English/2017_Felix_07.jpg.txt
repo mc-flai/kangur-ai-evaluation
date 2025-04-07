@@ -1,0 +1,16 @@
+To solve this problem, we need to determine the pattern of how Alfred turns his building block and then apply this pattern to find the final position after 10 turns.
+
+From the image, we observe the following pattern in the first three turns:
+1. Initial position
+2. Turn 1: Rotate 90 degrees clockwise
+3. Turn 2: Rotate 90 degrees clockwise
+4. Turn 3: Rotate 90 degrees clockwise
+
+We observe that every three turns, the block returns to its original orientation but in a different position. Therefore, after 9 turns, the block will be in the same orientation as in the initial position.
+
+Now we need to figure out what happens on the 10th turn. Since the pattern repeats every three turns, the 10th turn will be similar to the 1st turn (i.e., rotate 90 degrees clockwise from the initial position).
+
+So, the final position of the building block after 10 turns will look like the position after the 1st turn shown in the image.
+
+Reasoning: Analyzing the pattern of the turns, we see that the block returns to its original orientation every three turns. Therefore, the 10th turn will be the same as the 1st turn.
+Answer: B).

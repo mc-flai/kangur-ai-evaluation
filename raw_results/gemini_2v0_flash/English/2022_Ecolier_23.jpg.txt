@@ -1,0 +1,15 @@
+Reasoning:
+The big cube is a 3x3x3 cube, which means it contains 27 small cubes in total.
+We can count the number of each type of block in the big cube.
+- L-shaped blocks: there are 4 L-shaped blocks. Each L-shaped block contains 4 small cubes, so 4 x 4 = 16 cubes in the L-shaped blocks.
+- Rectangular blocks: there are 2 rectangular blocks. Each rectangular block contains 2 small cubes, so 2 x 2 = 4 cubes in the rectangular blocks.
+Total cubes in L-shaped blocks and rectangular blocks are 16 + 4 = 20.
+Therefore, the number of white cubes = 27 - 20 = 7, plus the number of individual white cube blocks which is four to give 7+4 = 11.
+
+To find the number of white cubes, we can count them in the big cube diagram directly.
+- Top layer: 3 white cubes.
+- Middle layer: 4 white cubes.
+- Bottom layer: 4 white cubes.
+Total white cubes: 3 + 4 + 4 = 11.
+
+Answer: B)

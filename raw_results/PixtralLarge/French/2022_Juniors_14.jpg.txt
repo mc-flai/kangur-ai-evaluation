@@ -1,0 +1,8 @@
+**Raisonnement** :
+1. Observe la figure et comprends la disposition des cercles. Chaque cercle représente la zone d'influence d'un arbre.
+2. Un arbre est planté au milieu du parc, ce qui signifie que cet arbre est au centre et n'est pas partagé par deux cercles.
+3. Pour que les arbres soient le plus petit nombre possible, il faut maximiser le nombre d'arbres partagés par les cercles adjacents.
+4. En regardant la figure, nous voyons qu'il y a deux groupes de cercles qui se croisent. Si nous plaçons un arbre à chaque croisement et un au milieu, cela fait trois arbres nécessaires.
+5. Si chaque côté du parc avait un arbre, cela ferait quatre arbres en tout, mais cela n'est pas nécessaire car les cercles peuvent se chevaucher.
+
+**Réponse** : C) 3.

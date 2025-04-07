@@ -1,0 +1,19 @@
+Raonament:
+Sigui $P$ el conjunt de passatgers. Sigui $V_1, V_2, V_3, V_4$ els conjunts de passatgers que van participar en la visita guiada 1, 2, 3 i 4 respectivament.
+Sabem que $|V_1| = |V_2| = |V_3| = |V_4| = 0.8 |P|$.
+Volem trobar el mínim percentatge de passatgers que van participar en les quatre visites guiades, és a dir, $|V_1 \cap V_2 \cap V_3 \cap V_4|$.
+Considerem la primera visita. El 80% dels passatgers hi van participar i, per tant, el 20% no.
+Considerem la segona visita. El 80% dels passatgers hi van participar. Per tal de minimitzar la intersecció amb la primera visita, podem suposar que el 20% que no va participar a la primera visita sí que va participar a la segona. Per tant, el 60% restant va participar en ambdues.
+Considerem la tercera visita. El 80% hi van participar. Per tal de minimitzar la intersecció, suposem que el 40% que no va participar en les dues primeres visites sí que va participar en la tercera visita. Per tant, el 40% restant va participar en les tres visites.
+Considerem la quarta visita. El 80% hi van participar. Per tal de minimitzar la intersecció, suposem que el 60% que no va participar en les tres primeres visites sí que va participar en la quarta visita. Per tant, el 20% restant va participar en les quatre visites.
+Una manera formal de resoldre aquest problema és utilitzar el principi d'inclusió-exclusió.
+$|V_1 \cup V_2 \cup V_3 \cup V_4| = \sum |V_i| - \sum |V_i \cap V_j| + \sum |V_i \cap V_j \cap V_k| - |V_1 \cap V_2 \cap V_3 \cap V_4|$.
+Sabem que $|V_i| = 0.8$. Així, $\sum |V_i| = 4 \times 0.8 = 3.2$.
+A més, sabem que $|V_1 \cup V_2 \cup V_3 \cup V_4| \le 1$.
+Per trobar la intersecció mínima, suposem que $|V_1 \cup V_2 \cup V_3 \cup V_4| = 1$.
+Sigui $x = |V_1 \cap V_2 \cap V_3 \cap V_4|$.
+Aquest problema pot ser tractat utilitzant la desigualtat de Bonferroni:
+$|V_1 \cap V_2 \cap V_3 \cap V_4| \ge \sum_{i=1}^4 |V_i| - (4-1) = 4 \times 0.8 - 3 = 3.2 - 3 = 0.2$.
+Per tant, almenys el 20% dels passatgers van participar en les quatre visites guiades.
+
+Resposta: D)

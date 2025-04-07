@@ -1,0 +1,19 @@
+**Razonamiento**:
+Para resolver este problema, necesitamos determinar la suma de las edades de cuatro niños. Sabemos que el producto de sus edades es 882. Debemos encontrar un conjunto de cuatro números enteros positivos que se multipliquen para dar 882 y cuya suma sea una de las opciones dadas.
+
+Primero, factorizamos 882 para encontrar sus factores primos:
+882 = 2 * 3^2 * 7^2
+
+Ahora, buscamos combinaciones de estos factores primos que resulten en cuatro números enteros positivos. Las combinaciones posibles son:
+- 2, 3, 7 y 63
+- 2, 9, 7 y 21
+- 6, 3, 7 y 11
+
+Calculamos la suma de estas combinaciones:
+- 2 + 3 + 7 + 63 = 75 (no es una opción)
+- 2 + 9 + 7 + 21 = 39 (no es una opción)
+- 6 + 3 + 7 + 11 = 27 (esta es una opción)
+
+Por lo tanto, la suma de las edades de los cuatro niños es 27.
+
+**Respuesta**: C)

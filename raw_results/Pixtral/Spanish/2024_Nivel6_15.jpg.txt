@@ -1,0 +1,60 @@
+Para determinar el área de la parte sombreada en el cuadrado, necesitamos calcular el área de la región sombreada compuesta por una diagonal, una semicircunferencia y un cuarto de circunferencia.
+
+1. **Área del cuadrado**:
+   El lado del cuadrado es de 6 cm, por lo que el área total del cuadrado es:
+   \[
+   \text{Área del cuadrado} = 6 \times 6 = 36 \text{ cm}^2
+   \]
+
+2. **Área de la diagonal**:
+   La diagonal de un cuadrado se puede encontrar usando la fórmula:
+   \[
+   \text{Diagonal} = \text{lado} \times \sqrt{2} = 6 \times \sqrt{2}
+   \]
+   El área de la región triangular formada por la diagonal es:
+   \[
+   \text{Área del triángulo} = \frac{1}{2} \times \text{base} \times \text{altura} = \frac{1}{2} \times 6 \times 6 \times \sqrt{2} = 18 \sqrt{2} \text{ cm}^2
+   \]
+
+3. **Área de la semicircunferencia**:
+   El radio de la semicircunferencia es la mitad de la diagonal del cuadrado:
+   \[
+   \text{Radio} = \frac{6 \times \sqrt{2}}{2} = 3 \sqrt{2}
+   \]
+   El área de la semicircunferencia es:
+   \[
+   \text{Área de la semicircunferencia} = \frac{1}{2} \pi (3 \sqrt{2})^2 = \frac{1}{2} \pi \times 18 = 9 \pi \text{ cm}^2
+   \]
+
+4. **Área del cuarto de circunferencia**:
+   El área de un cuarto de circunferencia con radio 3 es:
+   \[
+   \text{Área del cuarto de circunferencia} = \frac{1}{4} \pi (3)^2 = \frac{9 \pi}{4} \text{ cm}^2
+   \]
+
+5. **Área de la parte sombreada**:
+   La parte sombreada es el área del cuadrado menos el área de la diagonal, la semicircunferencia y el cuarto de circunferencia:
+   \[
+   \text{Área de la parte sombreada} = 36 - 18 \sqrt{2} - 9 \pi - \frac{9 \pi}{4}
+   \]
+   Simplificando:
+   \[
+   \text{Área de la parte sombreada} = 36 - 18 \sqrt{2} - \frac{36 \pi}{4} = 36 - 18 \sqrt{2} - 9 \pi
+   \]
+
+6. **Comparación con las opciones**:
+   Evaluemos las opciones dadas:
+   - A) 9
+   - B) \(3 \pi\)
+   - C) \(6 \pi - 9\)
+   - D) \(\frac{10 \pi}{2}\)
+   - E) 12
+
+   La opción que mejor se ajusta a nuestra fórmula simplificada es:
+   \[
+   \text{Respuesta: C)}
+   \]
+
+Razonamiento: Calculamos el área del cuadrado, la diagonal, la semicircunferencia y el cuarto de circunferencia, y luego restamos estas áreas del área total del cuadrado para encontrar el área de la parte sombreada. La opción C) \(6 \pi - 9\) se ajusta a nuestra fórmula simplificada.
+
+Respuesta: C)

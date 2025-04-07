@@ -1,0 +1,7 @@
+Raonament:
+1. **Visualització:** La figura mostra un hexàgon regular amb diagonals dibuixades (menys les que uneixen vèrtexs oposats). Dins d'aquest hexàgon, s'ha format un hexàgon més petit unint els punts d'intersecció d'aquestes diagonals.
+2. **Relació d'àrees:** L'àrea de l'hexàgon original és més gran que l'àrea de l'hexàgon interior format. La pregunta demana la relació entre l'àrea de l'hexàgon exterior i la interior.
+3. **Descomposició:** Podem dividir l'hexàgon original en sis triangles equilàters. L'hexàgon interior també es pot dividir en sis triangles equilàters, però més petits. La relació entre els costats d'aquests triangles és la clau.
+4. **Càlcul:** Si la llargada del costat de l'hexàgon original és 's', i tenint en compte la figura, el costat de l'hexàgon petit és s/3. Per tant, l'àrea d'un triangle equilàter de l'hexàgon original és proporcional a s^2, i l'àrea del triangle equilàter de l'hexàgon interior es proporcional a (s/3)^2=s^2/9. Com que tots dos hexàgons estan compostos per sis d'aquests triangles, l'àrea total de l'hexàgon exterior és proporcional a 6s^2 i l'àrea de l'hexàgon interior és proporcional a 6(s^2/9) = 2/3 s^2. La relació entre l'àrea de l'hexàgon exterior i la de l'interior és, per tant, 6s^2/(2s^2)=3.
+
+Resposta: A)

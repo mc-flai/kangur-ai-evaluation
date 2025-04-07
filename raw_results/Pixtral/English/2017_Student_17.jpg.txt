@@ -1,0 +1,36 @@
+### Reasoning:
+
+Julia has 1009 black discs and 1008 white discs. She wants to lay the biggest square pattern possible, starting with a black disc in the left upper corner and alternating colors in each row and column.
+
+1. **Determine the size of the square pattern:**
+   - The number of discs in each row and column of the square must be the same.
+   - The total number of discs used must be a multiple of both 1009 and 1008 to ensure no discs are left over.
+
+2. **Find the greatest common divisor (GCD):**
+   - The GCD of 1009 and 1008 is the largest number of discs that can be used to form a complete square.
+   - Using the Euclidean algorithm:
+     - 1009 % 1008 = 11
+     - 1008 % 11 = 0
+   - Therefore, the GCD is 11.
+
+3. **Calculate the number of discs used in the square:**
+   - Each side of the square will have 11 discs.
+   - The total number of discs used is 11 * 11 = 121.
+
+4. **Determine the remaining discs:**
+   - Total discs available: 1009 black + 1008 white = 2017
+   - Discs used in the square: 121
+   - Remaining discs: 2017 - 121 = 1896
+
+5. **Check the remaining discs by color:**
+   - Black discs remaining: 1009 - 121 = 888
+   - White discs remaining: 1008 - 121 = 887
+
+6. **Verify the options:**
+   - Option A: none - Incorrect, as there are remaining discs.
+   - Option B: 40 of each color - Incorrect, as there are 888 black and 887 white discs remaining.
+   - Option C: 40 black and 41 white ones - Incorrect, as there are 888 black and 887 white discs remaining.
+   - Option D: 41 of each color - Correct, as there are 888 black and 887 white discs remaining.
+   - Option E: 40 white and 41 black ones - Incorrect, as there are 888 black and 887 white discs remaining.
+
+### Answer: D

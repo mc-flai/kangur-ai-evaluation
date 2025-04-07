@@ -1,0 +1,20 @@
+Pour déterminer le nombre suivant dans la séquence donnée par les symboles ■, ▲, ♥, ★, ❤, il faut identifier le modèle sous-jacent.
+
+**Raisonnement** :
+1. La séquence donnée est : ■, ▲, ♥, ★, ❤.
+2. Les symboles représentent des chiffres dont l'ordre est inversé à deux reprises.
+   - ■ représente le premier chiffre de la séquence initiale.
+   - ▲ représente le deuxième chiffre de la séquence initiale.
+   - ♥ représente le troisième chiffre de la séquence initiale.
+   - ★ représente le quatrième chiffre de la séquence initiale.
+   - ❤ représente le cinquième chiffre de la séquence initiale.
+3. Les trois premiers nombres sont : ■, ▲, ♥. Cela signifie que nous devons trouver le nombre suivant après ■, ▲, ♥.
+4. Pour identifier le prochain chiffre, nous devons observer le modèle de répétition :
+   - ■ est le premier chiffre.
+   - ▲ est le deuxième chiffre.
+   - ♥ est le troisième chiffre.
+   - ★ est le quatrième chiffre.
+   - ❤ est le cinquième chiffre.
+   - Le nombre suivant est donc le sixième chiffre, qui est ■ (premier chiffre de la séquence répétée).
+
+**Réponse** : A).

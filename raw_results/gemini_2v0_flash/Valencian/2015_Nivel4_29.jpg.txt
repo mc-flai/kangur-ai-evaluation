@@ -1,0 +1,16 @@
+Raonament:
+Siga N = 10x + 6. Aleshores M = 6 * 10^k + x on k és el nombre de digits de x.
+Sabem que M = 4N, aleshores 6 * 10^k + x = 4(10x + 6).
+6 * 10^k + x = 40x + 24.
+6 * 10^k - 24 = 39x
+x = (6 * 10^k - 24) / 39 = (2 * 10^k - 8) / 13
+Provarem valors de k fins que trobem un x enter.
+k = 1: x = (20 - 8)/13 = 12/13 (no enter)
+k = 2: x = (200 - 8)/13 = 192/13 (no enter)
+k = 3: x = (2000 - 8)/13 = 1992/13 = 153.23 (no enter)
+k = 4: x = (20000 - 8)/13 = 19992/13 = 1537.84 (no enter)
+k = 5: x = (200000 - 8)/13 = 199992/13 = 15384 (enter)
+Per tant, x = 15384 i N = 10x + 6 = 153846.
+La suma dels digits de N és 1 + 5 + 3 + 8 + 4 + 6 = 27.
+
+Resposta: D)

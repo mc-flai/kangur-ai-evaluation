@@ -1,0 +1,29 @@
+Per resoldre aquest problema, necessitem trobar el valor de n en què els números 7 i 23 estan igualment espaiats al llarg de la circumferència d'un cercle.
+
+1. **Comprendre l'espaiament igual**:
+   - Si els números estan igualment espaiats en la circumferència, el nombre total de números (n) ha de ser tal que la distància angular entre cada parell de números adjacents sigui la mateixa.
+
+2. **Determinar la distància angular**:
+   - La distància angular entre els números 7 i 23 en el cercle és de 1/n del cercle complet.
+   - En un cercle complet, hi ha 360 graus. Per tant, la distància angular entre cada parell de números adjacents serà 360/n graus.
+
+3. **Calcular la posició dels números**:
+   - Si els números estan igualment espaiats, la distància angular entre el nombre 7 i el nombre 23 serà un múltiple de 360/n graus.
+   - La diferència entre els números 7 i 23 és de 16 posicions (23 - 7 = 16).
+
+4. **Relacionar la diferència amb n**:
+   - La distància angular entre el nombre 7 i el nombre 23 serà de 16 * (360/n) graus.
+   - Aquesta distància angular ha de ser un múltiple de 360/n graus.
+
+5. **Trobar el valor de n**:
+   - Perquè la distància angular entre el nombre 7 i el nombre 23 sigui un múltiple de 360/n graus, n ha de ser un divisor de 360.
+   - Els divisors de 360 són: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120, 180, 360.
+   - D'aquests divisors, necessitem un que permeti que la distància angular entre el nombre 7 i el nombre 23 sigui un múltiple de 360/n graus.
+   - Si n = 36, llavors la distància angular entre cada parell de números adjacents és de 360/36 = 10 graus.
+   - La distància angular entre el nombre 7 i el nombre 23 seria de 16 * 10 = 160 graus, que és un múltiple de 10 graus.
+
+Per tant, el valor de n és 36.
+
+Raonament: El valor de n ha de ser tal que la distància angular entre els números 7 i 23 sigui un múltiple de 360/n graus. En trobar els divisors de 360 i verificar la condició, trobem que n = 36 satisfà aquesta condició.
+
+Resposta: D)

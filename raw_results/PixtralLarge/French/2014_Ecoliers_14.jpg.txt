@@ -1,0 +1,16 @@
+Pour déterminer le nombre minimum de coups nécessaires pour obtenir le mot «KANGOUROU» en échangeant deux cartes quelconques, nous devons examiner comment nous pouvons réarranger les cartes initiales RAGNUUKOO pour former le mot souhaité.
+
+**Raisonnement :**
+
+1. Les cartes initiales sont : R A G N U U K O O.
+2. Le mot cible est : K A N G O U R O U.
+3. Nous devons réarranger les cartes pour obtenir le mot cible. Voici les étapes pour y parvenir :
+
+   - Étape 1 : Échanger R et K. Cela donne : K A G N U U O O R.
+   - Étape 2 : Échanger G et N. Cela donne : K A N G U U O O R.
+   - Étape 3 : Échanger U et O. Cela donne : K A N G O U O R U.
+   - Étape 4 : Échanger O et R. Cela donne : K A N G O U R O U.
+
+Chaque échange de deux cartes compte comme un coup. Nous avons effectué 4 échanges pour obtenir le mot «KANGOUROU».
+
+**Réponse :** C).

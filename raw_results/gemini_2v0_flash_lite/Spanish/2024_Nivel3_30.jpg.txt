@@ -1,0 +1,14 @@
+Razonamiento:
+1. **Área del rombo:** El área de un rombo se calcula como (diagonal1 * diagonal2) / 2.
+2. **Diagonales:** Sabemos que el área del rombo es 6 m^2 y que las diagonales son números naturales.  Por lo tanto, d1 * d2 = 12.  Possible diagonal combinations are: (1,12), (2,6), (3,4).
+3. **Lado del rombo:** El lado del rombo se puede calcular usando el teorema de Pitágoras, ya que las diagonales se bisecan perpendicularmente, creando cuatro triángulos rectángulos. La fórmula es lado = sqrt((d1/2)^2 + (d2/2)^2).
+4. **Aplicación:** Aplicamos la fórmula del lado a cada combinación de diagonales:
+    *   (1, 12): lado = sqrt((0.5)^2 + (6)^2) = sqrt(0.25 + 36) = sqrt(36.25)
+    *   (2, 6): lado = sqrt((1)^2 + (3)^2) = sqrt(1 + 9) = sqrt(10)
+    *   (3, 4): lado = sqrt((1.5)^2 + (2)^2) = sqrt(2.25 + 4) = sqrt(6.25) = 2.5
+5. **Análisis de las opciones:** Buscamos la opción que nos dé 2.5.
+   *  A, B y C no corresponden.
+   *  D) 7/2=3.5, no es la respuesta.
+   *  E) 5/2=2.5
+
+Respuesta: E)

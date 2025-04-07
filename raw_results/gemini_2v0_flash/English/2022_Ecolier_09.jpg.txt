@@ -1,0 +1,514 @@
+Reasoning: Let's track the car order.
+Initially: 1, 2, 3, 4, 5
+1. Last car (5) overtakes two in front: 1, 2, 3, 5, 4
+2. Second to last car (5) overtakes two in front: 1, 2, 5, 3, 4
+3. Middle car (5) overtakes two in front: 1, 5, 2, 3, 4
+Therefore, the final order is 1, 5, 2, 3, 4. None of the provided answer options match this order. However, re-reading the problem, the direction of travel is to the LEFT based on the arrow. Therefore, the car list should be read in reverse order.
+
+Initially: 5, 4, 3, 2, 1
+1. Last car (1) overtakes two in front: 5, 4, 3, 1, 2
+2. Second to last car (1) overtakes two in front: 5, 4, 1, 3, 2
+3. Middle car (1) overtakes two in front: 5, 1, 4, 3, 2
+
+The correct order should be 2, 3, 4, 1, 5. However, this is still wrong.
+
+Let's re-think the problem.
+
+Initially: 1 2 3 4 5
+1. Car 5 overtakes 4 and 3: 1 2 5 4 3
+2. Car 4 overtakes 5 and 2: 1 4 5 2 3
+3. Car 5 overtakes 4 and 1: 5 4 1 2 3
+
+Thus we have 5, 4, 1, 2, 3 from left to right. However, the driving direction is to the left, thus we reverse it: 3, 2, 1, 4, 5.
+But this is not among the given answer either.
+
+Let's follow step-by-step again:
+1. 1, 2, 3, 4, 5 -> 1, 2, 3, 5, 4  (5 overtakes 4 and 3)
+2. 1, 2, 3, 5, 4 -> 1, 2, 5, 3, 4 (5 overtakes 3) since 5 overtakes 3 and 4 so 4 is the 'second last' now.
+3. 1, 2, 5, 3, 4 -> 1, 5, 2, 3, 4 (5 overtakes 2 and 1) since 5 overtakes 2 and 3 so 2 is the middle number.
+
+This also leads to the incorrect final car order that is not from the options.
+
+Therefore there's ambiguity regarding the instruction 'Second to last'.
+Going by the initial understanding, the car to the immediate left of the last car is defined to be second last.
+However, following this method, we have arrived at the final car order that is not from the options.
+
+I'm starting over, treating the problem as a "move two ahead."
+1. 1 2 3 4 5 -> 1 2 3 5 4
+2. 1 2 3 5 4 -> 1 2 5 3 4
+3. The car in the middle is now '5'. So, 1 2 5 3 4 -> 5 1 2 3 4.
+So reading right to left (as per driving direction), final is 4 3 2 1 5 which again is not matching.
+
+Since the problem has stated "In the end the car that is now in the middle...", it should be referring to the car after the 2nd overtaking.
+
+The order after the second overtaking is 1, 2, 5, 3, 4. So the middle one is 5.
+
+The instruction is "overtakes the two in front of it".
+
+So the car arrangement becomes 5, 1, 2, 3, 4.
+However, we need to reverse the order given the driving direction.
+
+So the answer is 4, 3, 2, 1, 5. Again, no matching answer.
+
+So the original list is not the car position, it is the labeling. This is really ambiguous. I misunderstood the car driving direction in that initial list.
+If 5 overtakes two car, it goes to the front (to the left), since that's the direction.
+Initially: 1 2 3 4 5
+Step 1: 5 1 2 3 4
+Step 2: 4 5 1 2 3
+Step 3: 1 4 5 2 3
+However, there's still ambiguity in that should the 5 pass 3 and 4? or should it go to "third last car over two in front of it" since it has become the 'last' one in the sequence.
+
+Reasoning:
+Initially: 1, 2, 3, 4, 5
+1. Last car (5) overtakes the two cars in front: 5, 1, 2, 3, 4
+2. Second to last car (3) overtakes the two cars in front: 3, 5, 1, 2, 4
+3. Middle car (5) overtakes the two cars in front: 5, 3, 1, 2, 4
+Since the movement is against the list (towards front). We would then read 4, 2, 1, 3, 5.
+
+The correct way to visualize this is.
+Initial state = [1, 2, 3, 4, 5]
+Step 1. 5 overtakes 4 and 3: New state = [1, 2, 5, 3, 4]
+Step 2. 3 overtakes 2 and 5: New state = [1, 3, 2, 5, 4]
+Step 3. Middle car now (2) overtakes the 3 and 1: New state = [2, 1, 3, 5, 4]
+
+Answer: C)
+Reasoning: The problem describes a series of overtaking maneuvers of five cars labelled 1 to 5. The cars drive to the LEFT.
+Initial order: 1 2 3 4 5
+1. Car 5 overtakes cars 4 and 3: resulting order: 1 2 5 3 4
+2. The second-to-last car, which is now '3', overtakes cars '5' and '2': 1 3 2 5 4
+3. The middle car, which is now '2', overtakes cars '3' and '1': 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial state: 1 2 3 4 5
+1) 5 overtakes 4 and 3: 1 2 5 3 4
+2) 3 overtakes 5 and 2: 1 3 2 5 4
+3) Now the middle car which is 2 overtakes 3 and 1 to give: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Start: 1 2 3 4 5
+1. 5 overtakes 4 and 3:  1 2 5 3 4
+2. The "now" second to last car is 3. 3 overtakes 5 and 2: 1 3 2 5 4
+3. The car now in the middle is 2. 2 overtakes 3 and 1: 2 1 3 5 4
+Therefore, the final order is 2 1 3 5 4.
+
+Answer: (B)
+Reasoning: Let's trace the steps carefully. The cars drive to the LEFT.
+
+Initially: 1 2 3 4 5
+1. Last car, 5, overtakes the two in front (4 and 3):  1 2 5 3 4
+2. Now the "second to last" car is 3.  3 overtakes the two in front (5 and 2): 1 3 2 5 4
+3. The "middle" car is now 2. 2 overtakes the two in front (3 and 1): 2 1 3 5 4
+
+Answer: (C)
+Reasoning: Let's track the movements of the cars step by step, remembering that "overtaking" means moving to the front (left) in the current context:
+
+1. Initial order: 1 2 3 4 5
+2. Car 5 overtakes 4 and 3: 1 2 5 3 4
+3. The second-to-last car (3) overtakes 5 and 2: 1 3 2 5 4
+4. The middle car (2) overtakes 3 and 1: 2 1 3 5 4
+
+Answer: (C)
+Reasoning:
+1. Starting order: 1, 2, 3, 4, 5
+2. Car 5 overtakes 4 and 3: 1, 2, 5, 3, 4
+3. The second to last car (3) overtakes 5 and 2: 1, 3, 2, 5, 4
+4. Now, the middle car (2) overtakes 3 and 1: 2, 1, 3, 5, 4
+
+Answer: (C)
+Reasoning: The question asks for the order of cars after some overtaking moves.
+Initial order: 1 2 3 4 5.
+1. The last car '5' overtakes two cars in front. So, the order becomes 1 2 5 3 4.
+2. The second to last car (which is now '3') overtakes two in front. So, the order becomes 1 3 2 5 4.
+3. Now the car that is in the middle is '2'. So, '2' overtakes two in front. Hence the final order becomes 2 1 3 5 4.
+
+Answer: C)
+Reasoning: I will follow the overtaking steps. Initially, the order is 1 2 3 4 5.
+1. The last car, 5, overtakes 4 and 3, so the order becomes 1 2 5 3 4.
+2. The new second-to-last car is 3. It overtakes 5 and 2, so the order becomes 1 3 2 5 4.
+3. Now the middle car is 2. It overtakes 3 and 1, so the order becomes 2 1 3 5 4.
+
+Answer: (C)
+Reasoning:
+Start: 1 2 3 4 5
+1. 5 overtakes 4 and 3:  1 2 5 3 4
+2. "now" second to last car is 3. 3 overtakes 5 and 2: 1 3 2 5 4
+3. car now in middle is 2. 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial state: 1 2 3 4 5
+1. 5 moves 2 ahead: 1 2 5 3 4
+2. 3 moves 2 ahead: 1 3 2 5 4
+3. 2 (middle car) moves 2 ahead: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Let's follow the steps:
+
+1. Initial order: 1 2 3 4 5
+
+2. Last car (5) overtakes two cars: 1 2 5 3 4
+
+3. Second to last car (3) overtakes two cars: 1 3 2 5 4
+
+4. Middle car (2) overtakes two cars: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial order: 1 2 3 4 5
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+2. 3 (second-to-last) overtakes 5 and 2: 1 3 2 5 4
+3. 2 (middle) overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Starting with the initial arrangement 1, 2, 3, 4, 5:
+1. 5 overtakes 4 and 3: 1, 2, 5, 3, 4
+2. The "now" second to last car, 3, overtakes 5 and 2: 1, 3, 2, 5, 4
+3. The car now in the middle, 2, overtakes 3 and 1: 2, 1, 3, 5, 4
+
+Answer: C)
+Reasoning:
+The initial car order is 1 2 3 4 5.
+1. The last car (5) overtakes the two in front: 1 2 5 3 4
+2. The second to last car (3) overtakes the two in front: 1 3 2 5 4
+3. The middle car (2) overtakes the two in front: 2 1 3 5 4
+
+The final car order is 2 1 3 5 4.
+
+Answer: C)
+Reasoning:
+Initial state: 1 2 3 4 5
+Step 1: 5 overtakes 4 and 3, resulting in 1 2 5 3 4
+Step 2: "Second to last" is now 3. So 3 overtakes 5 and 2, resulting in 1 3 2 5 4
+Step 3: Now the middle car is 2. So 2 overtakes 3 and 1, resulting in 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+The initial order of the cars is 1 2 3 4 5.
+
+1. Last car, 5, overtakes the two cars in front of it (4 and 3). The order becomes 1 2 5 3 4.
+
+2. The "now" second to last car is 3. 3 overtakes the two cars in front of it (5 and 2). The order becomes 1 3 2 5 4.
+
+3. The "now" middle car is 2. 2 overtakes the two cars in front of it (3 and 1). The order becomes 2 1 3 5 4.
+
+Therefore, the final order of the cars is 2 1 3 5 4.
+
+Answer: C)
+Reasoning: Following each step:
+- Starting order: 1 2 3 4 5
+- 5 overtakes 4 and 3: 1 2 5 3 4
+- 3 overtakes 5 and 2: 1 3 2 5 4
+- 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initially: 1 2 3 4 5
+1. Last overtakes two in front: 1 2 5 3 4
+2. Second to last (3) overtakes two in front: 1 3 2 5 4
+3. Middle (2) overtakes two in front: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Let's meticulously trace the moves:
+* Initially: 1 2 3 4 5
+* 5 overtakes 4 and 3: 1 2 5 3 4
+* 3 overtakes 5 and 2: 1 3 2 5 4
+* 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: The problem specifies a sequence of overtaking actions.
+Start: 1 2 3 4 5.
+1. 5 overtakes 4 and 3: resulting order 1 2 5 3 4.
+2. 3 (second to last) overtakes 5 and 2: resulting order 1 3 2 5 4.
+3. 2 (middle) overtakes 3 and 1: resulting order 2 1 3 5 4.
+
+Answer: C)
+Reasoning: Initial state: 1, 2, 3, 4, 5
+
+1. 5 overtakes 4 and 3: 1, 2, 5, 3, 4
+
+2. second to last (which is 3) overtakes 5 and 2: 1, 3, 2, 5, 4
+
+3. middle which is 2 overtakes 3 and 1: 2, 1, 3, 5, 4
+
+Answer: C)
+Reasoning: The initial order is 1 2 3 4 5.
+1. The last car (5) overtakes 4 and 3: 1 2 5 3 4
+2. The new second-to-last car (3) overtakes 5 and 2: 1 3 2 5 4
+3. The new middle car (2) overtakes 3 and 1: 2 1 3 5 4
+So the final order is 2 1 3 5 4.
+
+Answer: C)
+Reasoning:
+1. Initial order: 1 2 3 4 5
+2. Car 5 overtakes 4 & 3: 1 2 5 3 4
+3. Car 3 overtakes 5 & 2: 1 3 2 5 4
+4. Car 2 overtakes 3 & 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+1. Initial order: 1 2 3 4 5
+2. Last car (5) overtakes two in front (4 and 3): 1 2 5 3 4
+3. Second to last car (3) overtakes two in front (5 and 2): 1 3 2 5 4
+4. Middle car (2) overtakes two in front (3 and 1): 2 1 3 5 4
+Final order: 2 1 3 5 4
+
+Answer: C)
+Reasoning: The steps are:
+1. Initally: 1 2 3 4 5
+2. 5 overtakes 4 & 3 -> 1 2 5 3 4
+3. 3 overtakes 5 & 2 -> 1 3 2 5 4
+4. 2 overtakes 3 & 1 -> 2 1 3 5 4
+
+The correct answer is C.
+
+Answer: C)
+Reasoning: Initial order: 1 2 3 4 5
+1. Last car (5) overtakes 4 and 3. New order: 1 2 5 3 4
+2. Second-to-last car (3) overtakes 5 and 2. New order: 1 3 2 5 4
+3. Middle car (2) overtakes 3 and 1. New order: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Let's follow the steps and see:
+1. Initial state: 1 2 3 4 5
+2. 5 overtakes 4 and 3 : 1 2 5 3 4
+3. 3 overtakes 5 and 2 : 1 3 2 5 4
+4. 2 overtakes 3 and 1 : 2 1 3 5 4
+
+Answer: C)
+Reasoning: The cars drive towards the left. Initial: 1 2 3 4 5.
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+2. 3 overtakes 5 and 2: 1 3 2 5 4
+3. 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+1. Initial Order: 1 2 3 4 5
+2. 5 Overtakes 4 and 3: 1 2 5 3 4
+3. 3 Overtakes 5 and 2: 1 3 2 5 4
+4. 2 Overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial order: 1 2 3 4 5
+1. Last car overtakes 2 cars: 1 2 5 3 4
+2. Second to last car overtakes 2 cars: 1 3 2 5 4
+3. Middle car overtakes 2 cars: 2 1 3 5 4
+
+Answer: C)
+Reasoning: start with 1 2 3 4 5
+first, 5 overtakes 3 and 4 to get 1 2 5 3 4
+then 3 overtakes 5 and 2 to get 1 3 2 5 4
+finally, 2 overtakes 3 and 1 to get 2 1 3 5 4
+
+Answer: C)
+Reasoning: The cars move left:
+Initially: 1 2 3 4 5
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+2. Then second to last, 3, overtakes 5 and 2: 1 3 2 5 4
+3. Finally middle one, 2, overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Initially the order is 1 2 3 4 5.
+1.  The last car (5) overtakes the two cars ahead: 1 2 5 3 4
+2. Now the second to last car (3) overtakes two cars ahead: 1 3 2 5 4
+3. Lastly, the middle car (2) overtakes two cars ahead: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Tracing the steps:
+1. Initial order: 1 2 3 4 5
+2. 5 overtakes 4 and 3: 1 2 5 3 4
+3. Then 3 overtakes 5 and 2: 1 3 2 5 4
+4. Finally 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: The steps are as follow:
+1. Initial Order: 1 2 3 4 5
+2. 5 Overtakes 4 and 3: 1 2 5 3 4
+3. 3 Overtakes 5 and 2: 1 3 2 5 4
+4. 2 Overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Start with order 1 2 3 4 5.
+1. 5 overtakes 3 and 4: 1 2 5 3 4
+2. 3 overtakes 2 and 5: 1 3 2 5 4
+3. 2 overtakes 1 and 3: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Initial: 1 2 3 4 5
+1. 5 overtakes 4, 3: 1 2 5 3 4
+2. 3 overtakes 5, 2: 1 3 2 5 4
+3. 2 overtakes 3, 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Starting position is 1 2 3 4 5.
+Step 1: 5 overtakes 4 and 3, new position is 1 2 5 3 4.
+Step 2: Now second to last car is 3, 3 overtakes 5 and 2, new position is 1 3 2 5 4.
+Step 3: Now middle car is 2, 2 overtakes 3 and 1, new position is 2 1 3 5 4.
+
+Answer: C)
+Reasoning: Given the initial setup is 1 2 3 4 5, working through the problem statement yields:
+
+1. Car 5 overtakes 4 and 3: 1 2 5 3 4
+2. Car 3 overtakes 5 and 2: 1 3 2 5 4
+3. Car 2 overtakes 3 and 1: 2 1 3 5 4
+
+Therefore, the final order is 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial order: 1 2 3 4 5
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+2. 3 overtakes 5 and 2: 1 3 2 5 4
+3. 2 overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Step 1: 5 overtakes 4 and 3, which becomes 1 2 5 3 4.
+Step 2: 3 overtakes 5 and 2, which becomes 1 3 2 5 4.
+Step 3: 2 overtakes 3 and 1, which becomes 2 1 3 5 4.
+
+Answer: C)
+Reasoning:
+The problem states the initial order is: 1 2 3 4 5
+Step 1: The last car overtakes 2: 1 2 5 3 4
+Step 2: The *new* second to last car overtakes 2: 1 3 2 5 4
+Step 3: The *new* middle car overtakes 2: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Let us simulate the steps. Initially, the cars are in the order 1 2 3 4 5.
+1. Car 5 overtakes 4 and 3: 1 2 5 3 4
+2. Now the second to last car, which is 3, overtakes 5 and 2: 1 3 2 5 4
+3. Finally, the middle car, which is 2, overtakes 3 and 1: 2 1 3 5 4.
+
+Answer: C)
+Reasoning: Follow the instructions step by step.
+Initially: 1 2 3 4 5
+1. The last car, 5, overtakes 4 and 3: 1 2 5 3 4
+2. Now the second to last car is 3, which overtakes 5 and 2: 1 3 2 5 4
+3. The car in the middle is now 2, which overtakes 3 and 1: 2 1 3 5 4
+So, the final order is 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial order of cars: 1, 2, 3, 4, 5
+1) 5 overtakes 4 and 3: 1, 2, 5, 3, 4
+2) The *new* second to last car is 3 which overtakes 5 and 2: 1, 3, 2, 5, 4
+3) The middle car, which is *now* 2, overtakes 3 and 1: 2, 1, 3, 5, 4
+
+Answer: C)
+Reasoning: The final answer can be derived by following these instructions and simulating each change in order of the five labeled cars.
+Initally, car order is 1 2 3 4 5
+First change : 5 overtakes 4 and 3 (5 moves 2 ahead): 1 2 5 3 4
+Second change : 3 overtakes 5 and 2 (3 moves 2 ahead): 1 3 2 5 4
+Third change : 2 overtakes 3 and 1 (2 moves 2 ahead): 2 1 3 5 4
+Thus resulting in option: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial Order: 1 2 3 4 5
+
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+
+2. 3 Overtakes 5 and 2: 1 3 2 5 4
+
+3. 2 Overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Initial state: 1 2 3 4 5.
+1. 5 overtakes 4 and 3 -> 1 2 5 3 4
+2. 3 overtakes 5 and 2 -> 1 3 2 5 4
+3. 2 overtakes 3 and 1 -> 2 1 3 5 4
+Therefore, the final order is 2 1 3 5 4.
+
+Answer: C)
+Reasoning: Starting with the list 1 2 3 4 5.
+
+Move 1: The last car (5) overtakes the two cars in front of it (4 and 3).  The new list is 1 2 5 3 4.
+
+Move 2: Now the second to last car (3) overtakes the two cars in front of it (5 and 2).  The new list is 1 3 2 5 4.
+
+Move 3: Finally, the car that is now in the middle (2) overtakes the two cars in front of it (3 and 1). The new list is 2 1 3 5 4.
+
+Answer: C)
+Reasoning:
+Initially: 1 2 3 4 5
+1. 5 overtakes 4 and 3: 1 2 5 3 4
+2. 3 overtakes 5 and 2: 1 3 2 5 4
+3. 2 overtakes 3 and 1: 2 1 3 5 4
+Therefore, the final order is 2 1 3 5 4.
+
+Answer: C)
+Reasoning:
+Initially: 1 2 3 4 5
+Step 1: The last car, 5, overtakes the two cars in front, 4 and 3 --> 1 2 5 3 4
+Step 2: The second to last car, 3, overtakes the two cars in front, 5 and 2 --> 1 3 2 5 4
+Step 3: The car now in the middle is 2, which overtakes the two cars in front, 3 and 1 --> 2 1 3 5 4
+
+Answer: C)
+Reasoning: The order of moves is crucial. We simulate them one at a time.
+
+1.  Initial state: 1 2 3 4 5
+2.  5 overtakes 4 and 3: 1 2 5 3 4
+3.  Second-to-last (3) overtakes 5 and 2: 1 3 2 5 4
+4.  Middle (2) overtakes 3 and 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Following each overtaking in order:
+1. Initially: 1 2 3 4 5
+2. 5 overtakes 4 and 3: 1 2 5 3 4
+3. 3 overtakes 5 and 2: 1 3 2 5 4
+4. 2 overtakes 3 and 1: 2 1 3 5 4
+So, the final order is 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+
+1. Initial Order: 1 2 3 4 5
+2. 5 Overtakes 4 and 3: 1 2 5 3 4
+3. 3 Overtakes 5 and 2: 1 3 2 5 4
+4. 2 Overtakes 3 and 1: 2 1 3 5 4
+
+So the answer is 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+Initial Order: 1 2 3 4 5
+After 1st Overtake (5): 1 2 5 3 4
+After 2nd Overtake (3): 1 3 2 5 4
+After 3rd Overtake (2): 2 1 3 5 4
+
+Answer: C)
+Reasoning: Going through the steps, 1 2 3 4 5 initially. Then,
+*5* overtakes the 4 and the 3 ->  1 2 *5* 3 4
+then 3 overtakes the 5 and the 2 -> 1 *3* 2 *5* 4
+finally 2 overtakes the 3 and the 1 -> *2* 1 3 *5* 4
+
+Answer: C)
+Reasoning: Step by step,
+1. Starting state: 1 2 3 4 5
+2. 5 overtakes 3 and 4: 1 2 5 3 4
+3. 3 overtakes 2 and 5: 1 3 2 5 4
+4. 2 overtakes 1 and 3: 2 1 3 5 4
+
+Answer: C)
+Reasoning: Let's follow the cars as they overtake:
+Initial: 1 2 3 4 5
+1) 5 overtakes 4, 3: 1 2 5 3 4
+2) Now 3 overtakes 5, 2: 1 3 2 5 4
+3) And 2 overtakes 3, 1: 2 1 3 5 4
+
+Answer: C)
+Reasoning:
+
+Initial order = [1, 2, 3, 4, 5]
+5 overtakes 4 and 3 = [1, 2, 5, 3, 4]
+3 overtakes 5 and 2 = [1, 3, 2, 5, 4]
+2 overtakes 3 and 1 = [2, 1, 3, 5, 4]
+
+Answer: C)
+Reasoning: By following the three steps
+1. Initial Order: 1 2 3 4 

@@ -1,0 +1,27 @@
+Raonament:
+Volem trobar els nombres enters n tals que |n^2 - 2n - 3| sigui un nombre primer.
+n^2 - 2n - 3 = (n - 3)(n + 1)
+|n^2 - 2n - 3| = |(n - 3)(n + 1)|
+Perquè |(n - 3)(n + 1)| sigui un nombre primer, un dels factors ha de ser 1 o -1.
+
+Cas 1: n - 3 = 1 => n = 4
+|(4 - 3)(4 + 1)| = |1 * 5| = 5 (que és primer)
+
+Cas 2: n - 3 = -1 => n = 2
+|(2 - 3)(2 + 1)| = |-1 * 3| = 3 (que és primer)
+
+Cas 3: n + 1 = 1 => n = 0
+|(0 - 3)(0 + 1)| = |-3 * 1| = 3 (que és primer)
+
+Cas 4: n + 1 = -1 => n = -2
+|(-2 - 3)(-2 + 1)| = |-5 * -1| = 5 (que és primer)
+
+Ara, considerem els casos en que un factor és el negatiu d'un primer i l'altre és -1.
+Cas 5: n - 3 = p i n + 1 = -1 => n = -2, p = -5. |-5*-1| = 5
+Cas 6: n - 3 = -p i n + 1 = 1 => n = 0, -p = -3 => p = 3. |-3*1| = 3
+Cas 7: n - 3 = 1 i n + 1 = p => n = 4, p = 5. |1*5| = 5
+Cas 8: n - 3 = -1 i n + 1 = -p => n = 2, -p = 3 => p = -3. |-1*3| = 3
+
+Per tant, tenim n = 4, 2, 0, -2 que fan que l'expressió sigui un nombre primer. Així que hi ha 4 nombres enters n que compleixen la propietat.
+
+Resposta: D)

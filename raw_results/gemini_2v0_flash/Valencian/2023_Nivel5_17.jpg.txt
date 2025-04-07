@@ -1,0 +1,9 @@
+Raonament:
+Primer, cal calcular quantes xifres s'utilitzen per numerar les pàgines d'un sol dígit (1-9). Això representa 9 xifres.
+Després, cal calcular quantes xifres s'utilitzen per numerar les pàgines de dos dígits (10-99). Això representa (99-10+1) * 2 = 90 * 2 = 180 xifres.
+Fins ara, s'han utilitzat 9 + 180 = 189 xifres per numerar les pàgines de 1 a 99.
+El nombre total de xifres utilitzades és 231. Per tant, el nombre de xifres utilitzades per numerar les pàgines de tres dígits és 231 - 189 = 42.
+Com que cada pàgina de tres dígits utilitza 3 xifres, el nombre de pàgines de tres dígits és 42 / 3 = 14.
+Per tant, la darrera pàgina numerada és 99 + 14 = 113.
+
+Resposta: B)

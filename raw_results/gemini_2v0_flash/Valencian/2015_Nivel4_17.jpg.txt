@@ -1,0 +1,20 @@
+Raonament:
+Volem trobar quants nombres de tres xifres $abc$ compleixen que $a + 3b + c$ és múltiple de 3. Com que $3b$ sempre és múltiple de 3, la condició és equivalent a que $a + c$ sigui múltiple de 3.
+
+Els nombres de tres xifres van del 100 al 999, per tant $a$ pot prendre valors de l'1 al 9, $b$ de 0 a 9 i $c$ de 0 a 9. Volem que $a + c$ sigui múltiple de 3.
+
+Per a cada valor de $a$ entre 1 i 9, calculem quants valors de $c$ entre 0 i 9 fan que $a + c$ sigui múltiple de 3.
+- Si $a = 1$, llavors $c \in \{2, 5, 8\}$. 3 valors.
+- Si $a = 2$, llavors $c \in \{1, 4, 7\}$. 3 valors.
+- Si $a = 3$, llavors $c \in \{0, 3, 6, 9\}$. 4 valors.
+- Si $a = 4$, llavors $c \in \{2, 5, 8\}$. 3 valors.
+- Si $a = 5$, llavors $c \in \{1, 4, 7\}$. 3 valors.
+- Si $a = 6$, llavors $c \in \{0, 3, 6, 9\}$. 4 valors.
+- Si $a = 7$, llavors $c \in \{2, 5, 8\}$. 3 valors.
+- Si $a = 8$, llavors $c \in \{1, 4, 7\}$. 3 valors.
+- Si $a = 9$, llavors $c \in \{0, 3, 6, 9\}$. 4 valors.
+En total, tenim $6 \times 3 + 3 \times 4 = 18 + 12 = 30$.
+
+Per a cada parell $(a, c)$ que compleix que $a+c$ és múltiple de 3, $b$ pot prendre 10 valors (de 0 a 9). Per tant, el nombre total de nombres de tres xifres $abc$ que compleixen la condició és $30 \times 10 = 300$.
+
+Resposta: B)

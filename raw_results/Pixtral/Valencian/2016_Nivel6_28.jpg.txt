@@ -1,0 +1,29 @@
+**Pregunta:** Existeix un nombre \( M \) de 10 xifres que té una propietat curiosa: si enumerem d'esquerra a dreta el lloc de les xifres de 0 a 9 i en el lloc \( N \) es troba el dígit \( X \), llavors \( M \) té tantes xifres \( N \) com \( X \) assenyala. Açò significa que si en el lloc 9 hi haguera un 2, \( M \) tindria 2 nous, i així amb tots els llocs. Quants zeros té el nombre \( M \)?
+
+**Opcions:**
+A) 8
+B) 6
+C) 7
+D) 5
+E) 4
+
+**Racionalització:**
+1. El nombre \( M \) té 10 xifres.
+2. Cada lloc del nombre de 0 a 9 té un dígit que representa el nombre de vegades que apareix en \( M \).
+3. Si el lloc 9 té un 2, això significa que el nombre 2 apareix 2 vegades en \( M \).
+4. Per satisfer aquesta propietat per a tots els llocs, hem de determinar quants zeros apareixen en \( M \).
+
+Per satisfer la propietat per a tots els llocs:
+- Si el lloc 9 té un 2, el nombre 2 apareix 2 vegades.
+- Si el lloc 8 té un 3, el nombre 3 apareix 3 vegades.
+- Si el lloc 7 té un 4, el nombre 4 apareix 4 vegades.
+- Si el lloc 6 té un 5, el nombre 5 apareix 5 vegades.
+- Si el lloc 5 té un 6, el nombre 6 apareix 6 vegades.
+- Si el lloc 4 té un 7, el nombre 7 apareix 7 vegades.
+- Si el lloc 3 té un 8, el nombre 8 apareix 8 vegades.
+- Si el lloc 2 té un 9, el nombre 9 apareix 9 vegades.
+- Si el lloc 1 té un 0, el nombre 0 apareix 0 vegades.
+
+Per satisfer aquesta propietat, el nombre \( M \) ha de ser format per les xifres 0 a 9 de manera que cada dígit apareix exactament el nombre de vegades que el seu lloc assenyala. Això implica que el nombre 0 apareix 0 vegades.
+
+**Resposta:** E) 4

@@ -1,0 +1,21 @@
+Raonament:
+
+1. **Entendre el problema**: Vint-i-quatre persones assisteixen a una reunió i cada una saluda totes les altres. Si cada salutació dura 30 segons, se'ns pregunta quanta estona duren les salutacions.
+2. **Calcular el nombre total de salutacions**:
+   - Cada persona saluda totes les altres 23 persones (perquè no es saluda a si mateixa).
+   - Això implica que cada parell de persones només es saluda una vegada.
+   - Com que cada salutació es repeteix, el nombre total de salutacions és el nombre de parells possibles en 24 persones.
+   - Això es calcula amb la fórmula de combinacions: C(n, 2) = n(n-1)/2, on n és el nombre de persones.
+3. **Calcular C(24, 2)**:
+   - C(24, 2) = 24 * 23 / 2 = 24 * 12 = 276.
+4. **Calcular el temps total de les salutacions**:
+   - Cada salutació dura 30 segons.
+   - El total de temps és 276 salutacions * 30 segons = 8280 segons.
+5. **Convertir segons a minuts**:
+   - 8280 segons / 60 segons per minut = 138 minuts.
+6. **Convertir minuts a hores i minuts**:
+   - 138 minuts = 2 hores i 18 minuts.
+
+Resposta: D).
+
+Resposta: D) 2 h 18 min.

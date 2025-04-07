@@ -1,0 +1,52 @@
+Reasoning:
+The first scale indicates C + D > A + B
+The second scale indicates E + B < A + C
+The third scale indicates A + D < E + C + B
+The total weight is 30 + 50 + 50 + 50 + 80 = 260
+From the given inequalities, we need to deduce which ball is the lightest and hence weighs 30g.
+From the first inequality, we can say that C and D are likely to be heavier than A and B.
+In the second one, E+B < A+C indicates that the balls E and B together are lighter than A and C.
+From the third inequality, A + D < E + C + B, which makes this inequality even more weighted to the right side.
+Let us assume that balls E and B are 50g each, and ball C is 80g. If the third scale reads A+D < E+C+B then A+D is less than 50+80+50 = 180g. This is possible.
+Consider the weights of A, B, C, D and E to be 30, 50, 50, 50 and 80 in some order.
+Consider E=30.
+Then B+30 < A+C. This is more unlikely since E is lighter
+Consider A = 80. Then it contradicts the third inequality of A+D < E+C+B.
+Let A = 30, B = 50. Then C + D > 80. We know remaining are 50, 50 and 80. Thus, C = 50, D = 80 is okay. E = 50 and we see whether it satisfies other inequalities.
+50+50 < 30+50 --> 100 < 80 wrong
+A+D < E+C+B --> 30+80 < 50+50+50 --> 110 < 150 valid.
+Then consider E=80.
+A+D < 80+50+50 = 180. It fits.
+Consider A=50. Let B=30. Then C+D > 80 and E is unknown (50, 50, 80).
+Then E = 50. C+D > 80, let C=50, D=80 or C=80 and D=50. Since A+D<E+C+B. 50+80<50+50+30 --> 130<130. So this is wrong.
+
+Consider E = 80. Then 80 + B < A + C --> B = 30 < A + C
+A=50, let E=50.
+B+E< A+C --> B < A
+Therefore B=30. And the weights are 50, 50, 50, 80, 30.
+
+C+D > A+B --> 50+50>30+80  wrong
+In the scales we have: A, B, C, D, E
+Consider scale 2 --> B=30.
+E+30<A+C, we can have D and A are larger.  This is impossible. A =30 as well.
+
+Look at the scales where E is involved - E+B<A+C
+A+D<E+C+B.
+Assume A = 30, C=50 D=80. So we test for E = 50 B=50, So E is 80.
+80+50 +50 = 180. C is equal, so let's try C
+If C=30 A=50 E =80
+B= 80
+
+Scale 2 E+B C D
+A = D B E.  So there D< E+D+ B
+
+C=30 means A >E.
+
+Reasoning:
+By looking at the third weighing scale, we have A+D < E+C+B. This indicates that the weights of E, C and B are larger than A and D. To narrow down which of them weighs 30g. E is shown on top on the right most weighing scale.
+If ball A weighs the least, so that implies ball A = 30. Since only letter C is there in the right side and A is in the left side of the second scales, it hints that letter C is the bigger one, so C can't be = 30.
+
+Reasoning:
+From the inequalities and the weights given, E is most likely to be heavier because of its position in the third inequality, implying A is the lightest.
+
+Answer: A)

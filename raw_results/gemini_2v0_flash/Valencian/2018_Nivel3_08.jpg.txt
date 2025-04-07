@@ -1,0 +1,17 @@
+Raonament: La pregunta ens diu que Sílvia dibuixa un rectangle en una quadrícula i pinta els quadradets interiors que toquen els costats del rectangle. Després, hi ha 16 quadradets interiors que no estan pintats. Se'ns demana quants quadradets conté com a màxim el rectangle total. Com que hi ha 16 quadradets interiors sense pintar, podem assumir que aquests formen un rectangle interior de 4x4 quadradets. Per maximitzar la mida del rectangle total, volem que l'amplada de la vora pintada sigui el més petita possible. La vora pintada té almenys un quadradet d'amplada a cada costat. Així, el rectangle total té una mida de (4+2) x (4+2) = 6x6, que té un total de 36 quadradets. Ara intentarem un rectangle interior amb un producte de 16 diferent, per exemple 2x8. En aquest cas, el rectangle exterior serà de 4x10, que té una àrea de 40. Per tant, 36 és una de les opcions, i 40 és un valor més gran que podem obtenir.
+
+Amb una àrea interior de 16 (per exemple, un rectangle de 1x16), tenim un rectangle exterior de 3x18, que dóna una àrea de 54.
+
+Ara considerem l'àrea que ens donen com a resposta.
+A) 25: àrea interior és 25-x (on x són les caselles de vora). Podem tenir un rectangle de 5x5 on l'àrea interior sigui (5-2)x(5-2) = 3x3=9. No és possible obtenir 16 com àrea interior.
+B) 36: àrea interior és 36-x. Amb un rectangle de 6x6 l'àrea interior seria (6-2)x(6-2) = 4x4 = 16.
+C) 40: àrea interior és 40-x. Per exemple, 4x10. Àrea interior seria (4-2)x(10-2) = 2x8 = 16.
+D) 54: àrea interior és 54-x. Per exemple, 6x9. Àrea interior seria (6-2)x(9-2) = 4x7 = 28. No funciona. Amb un rectangle de 3x18, la part interior seria (3-2)x(18-2)=1x16=16.
+E) 64: àrea interior és 64-x. Amb un rectangle de 8x8, l'àrea interior seria (8-2)x(8-2) = 6x6 = 36. No funciona.
+
+Per maximitzar l'àrea total, volem allargar un costat del rectangle interior i escurçar l'altre costat, per exemple, 1 x 16. Això ens dona un rectangle exterior de 3 x 18 = 54.
+Si provessim 5x5=25 no podrem arribar a un rectangle interior de 16 quadradets si pintam els costats.
+
+Per tant, 54 és la millor resposta.
+
+Resposta: D)

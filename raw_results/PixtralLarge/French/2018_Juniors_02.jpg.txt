@@ -1,0 +1,12 @@
+Pour répondre à la question 2, nous devons déterminer le nombre minimum d'enfants dans une famille où chaque enfant a au moins deux frères et sœurs et au moins une sœur.
+
+**Raisonnement :**
+1. Chaque enfant a au moins deux frères et sœurs. Cela signifie que chaque enfant doit avoir au moins deux autres enfants dans la famille, ce qui implique qu'il y a au moins trois enfants.
+2. Chaque enfant a au moins une sœur. Cela signifie qu'il doit y avoir au moins une fille parmi les enfants.
+3. Pour satisfaire ces deux conditions, considérons les cas possibles :
+   - Si nous avons trois enfants, il pourrait y avoir deux garçons et une fille. Cela satisfait les deux conditions (chaque enfant a deux frères et sœurs, et il y a une sœur).
+   - Si nous avons quatre enfants, cela pourrait également satisfaire les conditions, mais ce n'est pas le nombre minimum nécessaire.
+
+Donc, le minimum d'enfants dans la famille pour satisfaire ces conditions est trois.
+
+**Réponse :** A).

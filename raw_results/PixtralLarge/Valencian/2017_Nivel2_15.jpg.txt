@@ -1,0 +1,28 @@
+Per resoldre aquesta pregunta, hem de calcular l'àrea total de la zona ombrejada, que està formada per quatre triangles idèntics. Aquí tenim els passos detallats del procés:
+
+1. **Identificar les dimensions del rectangle**:
+   - La longitud del rectangle és de 30 cm.
+   - L'alçada del rectangle és de 28 cm.
+
+2. **Calcular l'àrea del rectangle**:
+   \[
+   \text{Àrea del rectangle} = \text{longitud} \times \text{alçada} = 30 \, \text{cm} \times 28 \, \text{cm} = 840 \, \text{cm}^2
+   \]
+
+3. **Calcular l'àrea de la zona ombrejada**:
+   - Observem que els quatre triangles idèntics són iguals en àrea per simetria. 
+   - L'àrea del rectangle és l'àrea total que inclou les quatre zones ombrejades més l'àrea central que no està ombrejada.
+   - L'àrea central és un quadrat amb costat igual a l'alçada del rectangle, que és de 28 cm.
+   - Calculem l'àrea del quadrat central:
+     \[
+     \text{Àrea del quadrat central} = 28 \, \text{cm} \times 28 \, \text{cm} = 784 \, \text{cm}^2
+     \]
+
+4. **Calcular l'àrea total de les zones ombrejades**:
+   - L'àrea total de les zones ombrejades és la diferència entre l'àrea del rectangle i l'àrea del quadrat central:
+     \[
+     \text{Àrea de les zones ombrejades} = 840 \, \text{cm}^2 - 784 \, \text{cm}^2 = 56 \, \text{cm}^2
+     \]
+
+Raonament: Hem calculat l'àrea de les zones ombrejades en el rectangle en trobar l'àrea del rectangle i restar l'àrea del quadrat central que no està ombrejat.
+Resposta: D)

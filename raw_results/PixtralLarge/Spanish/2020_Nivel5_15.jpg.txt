@@ -1,0 +1,31 @@
+Para resolver esta pregunta, debemos encontrar un número que cumpla con dos condiciones:
+1. La suma de los tres números en cada uno de los cuatro diamantes es 13.
+2. La suma de los ocho números en la circunferencia es 40.
+
+Primero, calculemos la suma de los números en la circunferencia. La suma de los ocho números en la circunferencia es 40.
+
+Ahora, consideremos los números en los diamantes. Sabemos que cada diamante debe sumar 13.
+
+Supongamos que el número en la celda central es \( x \).
+
+Con 8 números en la circunferencia, tenemos:
+\[ \text{Suma de los números en la circunferencia} = 40 \]
+
+La suma de los tres números en cada diámetro es 13, por lo que:
+\[ \text{Suma de los números en los diamantes} = 13 \]
+
+Dado que hay cuatro diamantes, la suma de todos los números en los diamantes será:
+\[ 4 \times 13 = 52 \]
+
+Sin embargo, tenemos que considerar que el número en la celda central se cuenta cuatro veces (una vez en cada diámetro). Entonces la suma total de todos los números incluyendo el número central cuatro veces es:
+\[ 40 + 3x = 52 \]
+
+Despejando \( x \):
+\[ 3x = 52 - 40 \]
+\[ 3x = 12 \]
+\[ x = 4 \]
+
+Por lo tanto, el número que debe escribirse en la celda central es 4.
+
+**Razonamiento**: La suma de los números en la circunferencia es 40. La suma de los números en cada diámetro es 13. Al considerar que el número central se cuenta cuatro veces, encontramos que el número central debe ser 4.
+**Respuesta**: C) 8.

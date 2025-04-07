@@ -1,0 +1,19 @@
+Let $M$ be the amount of money Janaina had.
+For the first toy, she paid $\frac{M}{2} + 1$. The amount left is $M - (\frac{M}{2} + 1) = \frac{M}{2} - 1$.
+For the second toy, she paid $\frac{1}{2}(\frac{M}{2} - 1) + 2 = \frac{M}{4} - \frac{1}{2} + 2 = \frac{M}{4} + \frac{3}{2}$.
+The amount left after the second toy is $(\frac{M}{2} - 1) - (\frac{M}{4} + \frac{3}{2}) = \frac{M}{4} - \frac{5}{2}$.
+For the third toy, she paid $\frac{1}{2}(\frac{M}{4} - \frac{5}{2}) + 3 = \frac{M}{8} - \frac{5}{4} + 3 = \frac{M}{8} + \frac{7}{4}$.
+Since she spent all her money, the amount left after the third toy is 0.
+$(\frac{M}{4} - \frac{5}{2}) - (\frac{M}{8} + \frac{7}{4}) = 0$
+$\frac{M}{8} - \frac{17}{4} = 0$
+$\frac{M}{8} = \frac{17}{4}$
+$M = \frac{17}{4} \times 8 = 17 \times 2 = 34$.
+
+Let's verify this by working backwards:
+Start with 34 Reais.
+Toy 1: $\frac{34}{2} + 1 = 17 + 1 = 18$. Amount left: $34 - 18 = 16$.
+Toy 2: $\frac{16}{2} + 2 = 8 + 2 = 10$. Amount left: $16 - 10 = 6$.
+Toy 3: $\frac{6}{2} + 3 = 3 + 3 = 6$. Amount left: $6 - 6 = 0$.
+
+Reasoning: We set up equations based on the information given in the question and solved for M, the total amount of money Janaina had. We worked backwards, starting from the last toy she bought to find the answer.
+Answer: A)

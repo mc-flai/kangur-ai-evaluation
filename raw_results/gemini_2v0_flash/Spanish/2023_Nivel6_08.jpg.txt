@@ -1,0 +1,9 @@
+Razonamiento:
+El área del cuadrado original es 84. En el primer paso, el cuadrado superior izquierdo se colorea de negro, lo que representa 1/4 del área total. Luego, el cuadrado inferior derecho (que también tiene un área de 1/4 del cuadrado original) se divide en cuatro, y el cuadrado superior izquierdo de este nuevo cuadrado se colorea de negro, lo que representa 1/4 de 1/4, es decir, 1/16 del área original. Este proceso se repite infinitamente.
+El área total coloreada de negro es la suma de las áreas coloreadas en cada paso:
+Área total = (1/4) * 84 + (1/16) * 84 + (1/64) * 84 + ...
+Esto es una serie geométrica con el primer término a = (1/4) * 84 = 21 y la razón r = 1/4. La suma de una serie geométrica infinita es S = a / (1 - r), donde |r| < 1.
+S = 21 / (1 - 1/4) = 21 / (3/4) = 21 * (4/3) = 7 * 4 = 28
+Por lo tanto, el área total coloreada de negro es 28.
+
+Respuesta: B)

@@ -1,0 +1,93 @@
+Reasoning:
+1. **Understand the pyramid structure:** The pyramid has 14 cubes: 9 in the bottom layer, 4 in the middle, and 1 on top.
+2. **Bottom layer sum:** The sum of the numbers on the bottom 9 cubes is 50. We want to minimize the sum of the middle level cubes to maximize the top cube's value.
+3. **Middle layer:** Each cube in the middle layer has a value equal to the sum of the 4 cubes underneath it from the bottom layer.
+4. **Top layer:** The top cube's value equals the sum of the four middle cubes underneath.
+5. **Maximization strategy:** To maximize the number on the topmost cube, we need to maximize the sum of the middle layer, and therefore we need to assign relatively small values to the 9 bottom cubes, except for the four that contribute to the top value directly.
+6. **Assign Values to the bottom cubes:** Assign values to the bottom layer so that the four cubes directly beneath the middle level cubes contribute as little as possible to the sum of the middle layer cubes.  Let's call the values of the bottom layer cubes a, b, c, d, e, f, g, h, i, and the cubes in the middle layer, A, B, C, and D.
+7. **Minimize A, B, C, and D**: Each middle level cube value (A, B, C, and D) is the sum of four bottom cubes. Since the sum of all bottom cubes is 50, we can minimize their values by choosing values that contribute to A, B, C, and D. If A = a+b+c+d, B = b+c+d+e, C = d+e+f+g, D = e+g+h+i. We want to maximize the sum A+B+C+D.
+8. **Calculations:** Because A, B, C, and D depend on each other, we can not do the same assignment. Also, the value must be unique. Let's focus on the smallest nine different whole positive numbers whose sum adds up to 50, so that we can see the effect of the number of the sum.
+* The sum must add up to 50, and we want to make the middle layer small, we can add all the numbers that are greater than 1, so the smallest the sum can be is 1+2+3+4+5+6+7+8+14 = 50
+* Then let's assign A = 1+2+3+4=10, B=2+3+4+5=14, C=4+5+6+7=22, D = 5+7+8+14 = 34.
+* So, the top will be 10+14+22+34= 80.
+* Let's assign A=1+2+3+6=12, B=2+3+5+6=16, C=3+5+7+8=23, D=6+8+1+7=22.
+* So, top = 12+16+23+22 = 73.
+* Let's make the largest number in the bottom row as 14.
+    * 1+2+3+14=20, 2+3+4+5=14, 3+4+5+6=18, 4+5+6+7=22. Top = 20+14+18+22 = 74.
+    * The sum of A, B, C, and D has to be maximised, so we assign the small value to the A, B, C, D to make this large. Then we get the bottom cubes as: 1, 2, 3, 4, 5, 6, 7, 8, 14.
+    * A = 1+2+3+4 = 10
+    * B = 2+3+4+5 = 14
+    * C = 4+5+6+7 = 22
+    * D = 5+7+8+14 = 34
+    * Top number = 10+14+22+34=80
+* Lets assign the minimum number on the bottom
+    * 1,2,3,4,5,6,7,8,4
+    * A=1+2+3+4 = 10
+    * B=2+3+4+5 = 14
+    * C=3+4+5+6= 18
+    * D=4+5+6+7=22.
+    * Top number: 10+14+18+22=64
+
+9.  Let the bottom numbers be 1, 2, 3, 4, 5, 6, 7, 8, x.  Then 1+2+3+4+5+6+7+8+x = 50, 36+x=50, so x=14.
+    Then the middle cubes are: 1+2+3+4=10, 2+3+4+5=14, 3+4+5+6=18, 4+5+6+7=22. Top=10+14+18+22=64.
+
+Let the nine numbers be: 1,2,3,4,5,6,7,8,9. The sum is 45. Thus we need to find a number where the sum becomes 50, thus 5 extra has to be added. So, 1,2,3,4,5,6,7,8,14
+*   A = 1+2+3+4 = 10
+*   B = 2+3+4+5 = 14
+*   C = 3+4+5+6 = 18
+*   D = 4+5+6+7 = 22
+Top number = 10+14+18+22=64
+
+1, 2, 3, 4, 6, 7, 8, 9, x
+1+2+3+4+6+7+8+9+x=50
+40+x=50
+x=10.
+
+* A=1+2+3+4=10
+* B=2+3+6+7=18
+* C=3+6+7+8=24
+* D=4+7+8+9=28
+Top number = 10+18+24+28 = 80
+Let us change the bottom cubes to 1, 2, 3, 4, 5, 6, 7, 9, 13
+*   A=1+2+3+4=10
+*   B=2+3+4+5=14
+*   C=3+4+5+6=18
+*   D=4+6+7+13=30
+Top number = 10+14+18+30 = 72
+So by the looks, we must try to maximize a+b+c+d and the top becomes a+b+c+d
+*   let a,b,c,d = 1,2,3,4. the rest need to be as small.
+1+2+3+4=10
+2+3+4+5=14
+3+4+5+6=18
+4+5+6+7=22.
+*   1,2,3,6.
+1+2+3+6=12
+2+3+4+5=14
+3+4+6+7=20
+4+5+6+8=23.
+1+2+3+4+5+6+7+8+14=50
+The middle layer has the sum: A+B+C+D=A+B+C+D
+A=10 B=14 C=22 D=34
+*   Try the following assignment in a different way where a+b+c+d is maximised.
+    *   assign 1 to small cube that can't effect A, B, C, D in this way.
+    *   Assign 2 to the rest that won't effect, that is, f
+    *   so, assign 1 to g,
+    *   assign 2 to h
+    *   assign 3 to i.
+    *   Assign 4 to a
+    *   Assign 5 to b
+    *   assign 6 to c
+    *   assign 7 to d
+    *   A = 4+5+6+7
+    *   B= 5+6+7+e
+    *   C= 7+e+2+1
+    *   D= e+2+1+3
+    *   4+5+6+7=22
+    *   A=22
+    *   B=5+6+7+e
+    *   C=10+e
+    *   D=6+e
+    *   bottom = 4+5+6+7+e+2+1+3+1=50 -> e=21
+    *   A=22, B=39, C=31, D=27. Then we get 119.
+
+Final Answer: E)

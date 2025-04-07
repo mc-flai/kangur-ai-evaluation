@@ -1,0 +1,19 @@
+Raisonnement :
+1. **Identifier les nombres possibles :** Les nombres à utiliser sont 1, 2, 3, 4, 5, 6, 7, et 8.
+2. **Analyser le produit de 30 :** Un des segments donne un produit de 30. On cherche 3 nombres parmi les 8 qui donnent un produit de 30. Les facteurs de 30 sont 1, 2, 3, 5. Le nombre 30 peut se décomposer en 2 x 3 x 5. On peut placer 2, 3 et 5 aux sommets du triangle dont le produit est 30.
+3. **Analyser les produits des triangles inférieurs:** On regarde le produit des nombres des trois cercles du bas. On cherche les facteurs pour chacun des produits : 48, 105, 28 et 144.
+    *   48 = 2 x 3 x 8 ou 1 x 6 x 8 (on peut garder 8 car il n'est pas utilisé pour 30, et 2 et 3 sont utilisés) On sait que 2 ou 3 sont dans les trois cercles et que 8 est dans un des cercles. Les nombres restants sont 1, 4, 5, 6, 7. On peut utiliser 2, 3 et 8 (et non pas 6 pour le moment car il faudrait aussi utiliser 1)
+    *   105 = 3 x 5 x 7. On peut donc placer 3, 5 et 7.
+    *   28 = 4 x 7 x 1.
+    *   144 = 4 x 6 x 6 (ceci ne fonctionne pas car on n'utilise qu'une fois le nombre). 144 = 3 x 8 x 6.
+4. **Déterminer les nombres du bas :** On sait que le produit 30 contient 2, 3, 5. On sait que 105 contient 3, 5 et 7. Donc les nombres du milieu sont 3 et 5. Le nombre qui est commun avec le produit de 30. On sait que 48 contient 2 et 3. On sait que 28 contient 7. Le nombre qui est commun avec le produit de 105.
+    *   On peut décomposer les nombres ainsi :
+        *   **30 :** 2, 3, 5
+        *   **48 :** 2, 3, 8
+        *   **105 :** 3, 5, 7
+        *   **28 :** 1, 4, 7
+        *   **144 :** 6, 8, 3
+    *  Le schéma du bas est donc : 8, 7 et 4.
+5. **Calculer la somme :** La somme des nombres inscrits dans les trois cercles du bas est donc 8 + 7 + 4 = 19
+
+Réponse : E)

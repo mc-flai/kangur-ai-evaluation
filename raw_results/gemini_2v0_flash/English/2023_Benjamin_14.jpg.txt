@@ -1,0 +1,35 @@
+Reasoning: First, calculate the sum of the numbers in the grey fields: 1 + 4 + 6 + 8 + 13 = 32. Next, calculate the sum of the numbers in the white fields: 3 + 5 + 2 + 7 + 11 = 28. The difference between the sums is 32 - 28 = 4. To make the sums equal, the difference between the two numbers being swapped needs to be half of this difference: 4 / 2 = 2. Looking at the options, we need to find a pair of numbers where one is in a white field, one is in a gray field, and their difference is 2.
+A) 1 and 11: Difference is 10. Incorrect.
+B) 2 and 8: Difference is 6. Incorrect.
+C) 3 and 7: Difference is 4. Incorrect.
+D) 4 and 13: Difference is 9. Incorrect.
+E) 7 and 13:  Difference is 6, not 2. Incorrect.
+
+However, it is written that the difference between the sums is 32-28=4. Therefore, if we can swap two numbers where one is in a grey field and one is in a white field such that the grey number is bigger than the white number by 2 then that would work because the sum of the grey would be reduced by the grey number and added to the white field while the sum of the white field would have the opposite occur.
+
+For A) 1 and 11: Swap, grey = 4+7+6+8+11=36, white=3+5+2+7+1=18. Diff = 18. Fail.
+For B) 2 and 8: Swap, grey=1+4+6+2+13=26, white=3+5+8+7+11=34. Diff=8. Fail.
+For C) 3 and 7: Swap, grey=1+4+6+8+13=32, white=3+5+2+7+11=28. With the swap, grey sum would be 32-7+3=28 and white sum would be 28-3+7=32. Thus would need the difference to be 4 so, that each side becomes 30 after the swap. Difference between 7 and 3 is 4. Correct choice.
+For D) 4 and 13: Swap, grey=1+13+6+8+13=41, white=3+5+2+7+11=28. Fail.
+For E) 7 and 13: Swap, grey=1+4+6+8+7=26, white=3+5+2+13+11=34. Fail.
+
+Actually the difference is 4. We are searching for the values to swap so that the sums are identical.
+The sum of all numbers is 32+28=60. If the sum of the grey and white must be the same after, they must be equal to 60/2=30. Then the sums need to change from 32 -> 30 which represents a difference of 2, and a change of 28->30 also representing a difference of 2.
+
+The two values will need a difference of 4.
+
+The correct selection is indeed (C).
+
+Reasoning:
+Calculate the sum of numbers in grey fields: 1 + 4 + 6 + 8 + 13 = 32
+Calculate the sum of numbers in white fields: 3 + 5 + 2 + 7 + 11 = 28
+Difference = 32 - 28 = 4. Half of the difference is 2.
+We seek numbers that would give a net difference of 4 (32-x+y = 28+x-y --> 32-28 = 2x-2y, 4 = 2x-2y, 2 = x-y).
+Swapping 3 and 7. Difference is 4. x-y = 3-7= -4; we are swapping them, so this must mean that the one we replace white with must be bigger than the one that's white (y)
+
+Consider the numbers to be: Grey: 1,4,6,8,13  and White 3,5,2,7,11
+32-x+y = 30. where x belongs to the grey fields, and y belongs to white. We can also represent this as 28-y+x = 30. which would have the number swap from sides.
+
+Then we can analyze each of the options using the given information to come up with the correct response by seeing if that occurs after the swap.
+
+Answer: C)

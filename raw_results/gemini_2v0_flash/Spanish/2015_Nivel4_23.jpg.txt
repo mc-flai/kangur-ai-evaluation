@@ -1,0 +1,10 @@
+Razonamiento:
+La pregunta 23 nos dice que Nina puede elegir un cono de helado con dos sabores diferentes de 153 maneras cuando hay 18 sabores disponibles. Luego, nos pregunta de cuántas maneras puede elegir un cono gigante con 16 sabores diferentes. Esto es un problema de combinaciones donde el orden no importa.  La fórmula para combinaciones es nCr = n! / (r! * (n-r)!), donde n es el número total de opciones y r es el número de opciones que elegimos. En este caso, n = 18 y r = 2, y sabemos que 18C2 = 153.
+Ahora, cuando cumple 16 años y compra un cono con 16 bolas de helado con 18 sabores disponibles, queremos encontrar el número de combinaciones de 18 sabores tomados 16 a la vez, que es 18C16.
+18C16 = 18! / (16! * (18-16)!) = 18! / (16! * 2!) = (18 * 17 * 16!) / (16! * 2 * 1) = (18 * 17) / 2 = 9 * 17 = 153. Sin embargo, esto se refiere a un cono con dos bolas de diferentes sabores de 153 maneras.
+Lo que realmente deberíamos hacer es reconocer que cuando r=2, el número de sabores disponibles (n) es 18. Cuando compra un cono gigante, el número de sabores es 16. Por lo tanto, necesitamos hallar 18C16 = 18! / (16! * 2!).
+18C16 = (18 * 17) / 2 = 153. Como el número de maneras de elegir un cono con dos sabores diferentes de 18 sabores es 153, y tenemos 16 sabores diferentes, podemos deducir que el número de maneras en las que se puede elegir un cono gigante con 16 bolas es simplemente el mismo número de maneras de elegir dos bolas, es decir, 18C2.
+
+Calculando la combinación 18C16 = 18! / (16! * (18-16)!) = 18! / (16! * 2!) = (18 * 17) / 2 = 153.
+
+Respuesta: C)

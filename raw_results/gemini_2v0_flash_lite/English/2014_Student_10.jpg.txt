@@ -1,0 +1,61 @@
+Reasoning: The question states that in the year 2014 all digits are different and the last digit (4) is bigger than the sum of the other three digits (2+0+1=3).
+We need to find the previous year that had the same property. Let's move backwards from 2014 and find the earliest year that meets the conditions of different digits and the last digit being greater than the sum of the others:
+*   2013: digits different, 3 > 2+0+1 (True)
+So, the most recent year that meets the criteria is 2013. The question wants to know how many years ago this was from 2014.
+The difference is 2014-2013=1
+The options don't contain 1. Thus, we should be looking at other years.
+
+Let's go back further from 2014:
+1987: 7>1+9+8 =18 (False)
+1986: 6>1+9+8=18 (False)
+1985: 5>1+9+8=18 (False)
+1980's is not possible.
+2000's
+*   2013: 3 > 2 + 0 + 1, true, but this did not happen because 2014 is stated as such.
+*   1986, 1985, 1987, (sum of first 3 digits must be less than last digit).
+
+Now, let's try going backward to find another year:
+From 2013, we go back to 1987.
+1987: 7 > 1 + 9 + 8 = 18 (not true)
+We need the last digit to be the largest. Thus, the greatest we can have is 9. Let's try with a 9 as the last digit, and different digits:
+1890 : 0 < 1+8+9. No
+So let's start counting from the other end: 1234, not valid because the sum must be less than 4. Then, we go to 2013, and move backward to 1986.
+Let's consider a valid year where all the numbers are different.
+If the last digit is 0, then the sum of the other three must be less than 0 (impossible)
+If the last digit is 1, then the sum must be less than 1 (impossible because all other digits are non negative)
+If the last digit is 2, then the sum must be less than 2. The possible case would be 1002, not all different digits.
+If the last digit is 3, sum < 3. 1023 : 1+0+2=3 (not less) , 0123 : 0+1+2<3 No
+We go down to 1986.
+In 2014 the digits are different, and the last digit is bigger. The sum of the digits are 2+0+1<4.
+Then we look for the last instance that fits the rule.
+1986 : 6>1+9+8
+Then how many years ago was it?
+It is asking how many years ago, thus we should look for a year where the last digit is larger than the other 3 digits.
+2013: the sum is 3 < 3. 1986 is no.
+2013 fulfills this. We go backwards and test. 1987 is not possible.
+Therefore the last time was 2013.
+Then how many years before 2014. 2014-2013 = 1
+Therefore, 2013.
+Let's consider the case with the last digit as 9.
+1809: 1+8+0<9, yes.
+If the year is 1809, then the years ago is 2014 - 1809 = 205 years.
+2014 is the first time that fulfills this, as it is given in the problem, meaning that the other years had already passed.
+Let us look for 1809. Is that it?
+2014-1809 is not in the option, so maybe this is incorrect.
+So, the answer is the year before 2014:
+2013 -> no. 2014.
+If the case that satisfies the criteria, the latest year is 2013.
+Therefore, it's 2014-2013=1.
+Let's start working backwards.
+
+1987, 1986, 1985.
+
+1980:
+1809
+then 2014 - 1809 = 205. But this is not an option, so let's try with 1987, then 2014 -1987.
+1809 then 2014-1809.
+
+Reasoning: The question requires finding a previous year where the last digit is greater than the sum of the other three. The problem states that it happened in 2014 (with 2+0+1 < 4). This means we are looking for a year before 2014 with the specified condition fulfilled. 2013 is the year before 2014, the sum of other digits (2+0+1=3) is not less than 3, therefore it can't be 2013. We work our way backwards. The last such year would be 1987, the sum of the first three is 1+9+8=18, is not less than 7, thus not the case. 1809 satisfy the criteria. the other way is to look for years after 2014. We count backwards, from 2014. We subtract 2014. 2014-2013.
+The earliest would be 1987.
+
+Answer: D)

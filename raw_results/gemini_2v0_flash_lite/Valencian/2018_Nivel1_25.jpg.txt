@@ -1,0 +1,32 @@
+Raonament:
+Per a resoldre aquest problema, hem de comptar el nombre de minuts en un dia on el rellotge mostra exactament tres zeros.
+- Hores amb tres zeros: 00:00 (1)
+- Hores amb tres zeros: 00:01 a 00:09 (9)
+- Hores amb tres zeros: 01:00 a 09:00 (9)
+- Hores amb tres zeros: 10:00 (1)
+- Hores amb tres zeros: 20:00 (1)
+
+En total: 1+9+9+1+1 = 21. Per a cadascun d'ells podem veure hores i minuts.
+00:00 - 00:09 (10 minuts)
+01:00 - 09:00 (9 x 1 = 9 minuts)
+10:00 (1 minut)
+20:00 (1 minut)
+Total: 21 minuts
+
+Comprovació d'altres minuts amb 3 zeros:
+00:00, 00:01, 00:02, 00:03, 00:04, 00:05, 00:06, 00:07, 00:08, 00:09 (10 minuts)
+01:00 (1 minut)
+02:00 (1 minut)
+03:00 (1 minut)
+04:00 (1 minut)
+05:00 (1 minut)
+06:00 (1 minut)
+07:00 (1 minut)
+08:00 (1 minut)
+09:00 (1 minut)
+10:00 (1 minut)
+20:00 (1 minut)
+
+Total minuts: 10 + 10 + 1 + 1 = 22
+
+Resposta: C)

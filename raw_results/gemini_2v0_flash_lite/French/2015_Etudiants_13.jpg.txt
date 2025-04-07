@@ -1,0 +1,9 @@
+Raisonnement :
+1.  **Définir les rayons:** Soit r1 = 1 le rayon du plus petit cercle. Soit r2 le rayon du cercle intermédiaire et r3 le rayon du plus grand cercle.
+2.  **Calculer les aires:** L'aire grisée est divisée en trois parties égales. La première partie est un quart de cercle avec le rayon r1, donc son aire est (1/4) * pi * r1^2 = (1/4) * pi * 1^2 = pi/4. L'aire de la deuxième zone grisée est la différence entre un quart du cercle de rayon r2 et un quart du cercle de rayon r1 : (1/4) * pi * r2^2 - (1/4) * pi * r1^2 = (1/4) * pi * (r2^2 - 1). L'aire de la troisième zone grisée est la différence entre un quart du cercle de rayon r3 et un quart du cercle de rayon r2 : (1/4) * pi * r3^2 - (1/4) * pi * r2^2 = (1/4) * pi * (r3^2 - r2^2).
+3.  **Égaliser les aires:** Puisque les trois aires sont égales, nous avons :
+    pi/4 = (1/4) * pi * (r2^2 - 1) => r2^2 - 1 = 1 => r2^2 = 2 => r2 = sqrt(2)
+    pi/4 = (1/4) * pi * (r3^2 - r2^2) => r3^2 - r2^2 = 1 => r3^2 - 2 = 1 => r3^2 = 3 => r3 = sqrt(3)
+4.  **Calculer le produit:** Le produit des trois rayons est r1 * r2 * r3 = 1 * sqrt(2) * sqrt(3) = sqrt(6).
+
+Réponse : A)

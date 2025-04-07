@@ -1,0 +1,17 @@
+**Raonament**: Per determinar la darrera xifra de 4^{2015}, podem utilitzar les propietats de les potències i els cicles de les darreres xifres.
+
+Les darreres xifres de les potències de 4 segueixen un patró cíclic. Examinem les primeres potències de 4:
+- 4^1 = 4 (darrera xifra: 4)
+- 4^2 = 16 (darrera xifra: 6)
+- 4^3 = 64 (darrera xifra: 4)
+- 4^4 = 256 (darrera xifra: 6)
+
+Observem que les darreres xifres segueixen un patró de 2: 4, 6.
+
+Per trobar la darrera xifra de 4^{2015}, hem de determinar la posició de 2015 en aquest cicle de 2. Podem fer-ho dividint 2015 per 2 i observant el residu:
+
+2015 ÷ 2 = 1007 amb residu 1.
+
+Això significa que 2015 és un nombre senar i, per tant, la darrera xifra de 4^{2015} serà la mateixa que la darrera xifra de 4^1, que és 4.
+
+**Resposta**: A)

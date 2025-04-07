@@ -1,0 +1,51 @@
+Pour répondre à la question 11, nous devons identifier le plus grand des cinq entiers strictement positifs \(a\), \(b\), \(c\), \(d\), et \(e\) qui satisfont les équations suivantes :
+
+1. \(\frac{c}{e} = b\)
+2. \(a + b = d\)
+3. \(e - d = a\)
+
+Nous devons manipuler ces équations pour exprimer les entiers en termes d'un seul d'entre eux.
+
+### Étape 1 : Utiliser la première équation
+De \(\frac{c}{e} = b\), nous obtenons :
+\[ c = b \cdot e \]
+
+### Étape 2 : Utiliser la deuxième équation
+De \(a + b = d\), nous obtenons :
+\[ d = a + b \]
+
+### Étape 3 : Utiliser la troisième équation
+De \(e - d = a\), nous obtenons :
+\[ e = d + a \]
+
+### Étape 4 : Substituer \(d\) et \(e\)
+Substituons \(d = a + b\) dans \(e = d + a\) :
+\[ e = (a + b) + a \]
+\[ e = 2a + b \]
+
+### Étape 5 : Substituer \(e\) dans la première équation
+Substituons \(e = 2a + b\) dans \(c = b \cdot e\) :
+\[ c = b \cdot (2a + b) \]
+\[ c = 2ab + b^2 \]
+
+### Étape 6 : Comparaison des valeurs
+Nous avons maintenant les expressions suivantes pour les entiers :
+- \(a\)
+- \(b\)
+- \(c = 2ab + b^2\)
+- \(d = a + b\)
+- \(e = 2a + b\)
+
+Pour déterminer lequel est le plus grand, nous devons comparer ces expressions.
+
+### Étape 7 : Analyse des expressions
+- \(c = 2ab + b^2\) est clairement plus grand que \(a\) et \(b\) puisque \(2ab\) et \(b^2\) sont positifs.
+- \(d = a + b\) est plus petit que \(e = 2a + b\) car \(a\) est positif.
+- \(e = 2a + b\) est plus grand que \(a\) et \(b\).
+
+### Conclusion
+Parmi les expressions, \(c = 2ab + b^2\) est le plus grand car il est composé de termes positifs supplémentaires par rapport aux autres expressions.
+
+Raisonnement : \(c = 2ab + b^2\) est le plus grand entier parmi les cinq entiers \(a\), \(b\), \(c\), \(d\), et \(e\).
+
+Réponse : C)

@@ -1,0 +1,34 @@
+Raonament: La pregunta és sobre camins d'Euler. Un graf té un camí d'Euler si té exactament 0 o 2 vèrtexs amb grau imparell. En aquest cas, A, B, C i D tenen graus 2, 3, 2 i 3 respectivament. Així, hi ha exactament dos vèrtexs amb grau imparell, B i D. Per tant, qualsevol camí d'Euler ha de començar en B o D i acabar en D o B.
+
+Si comencem en B:
+B-A-D-C-B-D
+B-C-D-A-B-D
+B-D-A-B-C-D
+B-D-C-B-A-D
+
+Si comencem en D:
+D-A-B-C-D-B
+D-C-B-A-D-B
+D-B-A-D-C-B
+D-B-C-D-A-B
+
+Només hem de tenir en compte el sentit, és a dir, si B-A-D-C-B-D és vàlid, llavors D-B-C-D-A-B també ho és. Hi ha 4 camins que comencen per B. Cada camí té el seu camí invers que comença per D. Així, hi ha 4 camins i els seus inversos, un total de 8.
+
+Els vèrtexs B i D tenen grau 3 i A i C tenen grau 2. Un camí d'Euler només és possible si hi ha exactament dos vèrtexs amb grau imparell.
+Els vèrtexs de grau imparell han de ser l'inici i el final del camí. El nombre de camins és 4.
+Com que podem començar en B o en D, tenim 4 camins que comencen en B i 4 camins que comencen en D. Llavors, el total de camins és 4 + 4 = 8.
+
+Raonament: Un graf té un camí d'Euler si té exactament dos vèrtexs de grau imparell. En aquest cas, els vèrtexs B i D tenen grau 3 (imparell), i els vèrtexs A i C tenen grau 2 (parell). Això significa que un camí d'Euler ha de començar en un dels vèrtexs B o D, i acabar en l'altre.
+Començant a B:
+B-A-D-C-B-D
+B-C-D-A-B-D
+B-D-A-B-C-D
+B-D-C-B-A-D
+Començant a D:
+D-A-B-C-D-B
+D-C-B-A-D-B
+D-B-A-D-C-B
+D-B-C-D-A-B
+En total hi ha 4 camins possibles des de B i 4 camins possibles des de D, el que fa un total de 8.
+
+Resposta: B)

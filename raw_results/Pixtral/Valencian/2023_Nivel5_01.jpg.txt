@@ -1,0 +1,28 @@
+**Razonamiento:**
+1. Identifica el problema: Necesitamos encontrar el cuadrado del número \( a \), que es igual a \( 2020^{20} \), y luego multiplicarlo por el cubo del número \( 2020^{19} \).
+
+2. Calcula el cuadrado del número \( a \):
+   \[
+   a = 2020^{20}
+   \]
+   Entonces,
+   \[
+   a^2 = (2020^{20})^2 = 2020^{40}
+   \]
+
+3. Calcula el cubo del número \( 2020 \):
+   \[
+   (2020^{19})^3 = 2020^{57}
+   \]
+
+4. Multiplica los resultados obtenidos:
+   \[
+   2020^{40} \times 2020^{57}
+   \]
+
+5. Usa las propiedades de las potencias para sumar los exponentes:
+   \[
+   2020^{40} \times 2020^{57} = 2020^{40 + 57} = 2020^{97}
+   \]
+
+**Respuesta:** C)

@@ -1,0 +1,16 @@
+Raonament: Primer he de determinar quins nombres de tres xifres amb xifres iguals existeixen. Aquests són 111, 222, 333, 444, 555, 666, 777, 888 i 999.
+Després, he d'esbrinar per a quin valor de n la suma dels nombres naturals d'1 a n és igual a un d'aquests nombres. La suma dels nombres naturals d'1 a n es calcula amb la fórmula n(n+1)/2.
+
+* n(n+1)/2 = 111 => n(n+1) = 222. n ≈ 14.89. Provar n=14 i n=15. 14*15/2 = 105, 15*16/2 = 120
+* n(n+1)/2 = 222 => n(n+1) = 444. n ≈ 21.05. Provar n=21 i n=22. 21*22/2 = 231, 22*23/2 = 253
+* n(n+1)/2 = 333 => n(n+1) = 666. n ≈ 25.68. Provar n=25 i n=26. 25*26/2 = 325, 26*27/2 = 351
+* n(n+1)/2 = 444 => n(n+1) = 888. n ≈ 29.31. Provar n=29 i n=30. 29*30/2 = 435, 30*31/2 = 465
+* n(n+1)/2 = 555 => n(n+1) = 1110. n ≈ 33.09. Provar n=33 i n=34. 33*34/2 = 561
+* n(n+1)/2 = 666 => n(n+1) = 1332. n ≈ 36.02. Provar n=36 i n=37. 36*37/2 = 666. Aquesta funciona.
+* n(n+1)/2 = 777 => n(n+1) = 1554. n ≈ 39.11. Provar n=39 i n=40. 39*40/2 = 780
+* n(n+1)/2 = 888 => n(n+1) = 1776. n ≈ 42. n = 41 i 42. 41*42/2 = 861. 42*43/2= 903
+* n(n+1)/2 = 999 => n(n+1) = 1998. n ≈ 44. 46. n = 44 i 45. 44*45/2 = 990. 45*46/2 = 1035.
+
+Només n=36 compleix la condició.
+
+Resposta: B)

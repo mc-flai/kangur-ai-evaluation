@@ -1,0 +1,35 @@
+Raonament: Per trobar l'exponent de 17, hem de determinar per quin nombre hem de multiplicar 17 per tal d'aproximar-nos a 47, que és el número més gran que coneixem en la descomposició factorial. El número que estem buscant és 47!, ja que els factors primers continuen fins a 47.
+Per trobar l'exponent de 17 a la factorització de 47!, hem de calcular quantes vegades apareix el factor 17 als nombres del 1 al 47.
+Això ho podem calcular dividint 47 per 17:
+47 / 17 = 2.76
+Això significa que 17 apareix 2 vegades com a factor (a 17 i a 34).
+Però també hem de comprovar si 17^2 és inferior o igual a 47. 17^2 = 289 > 47, per tant, no hi ha potències de 17 superiors a 17.
+Per tant, l'exponent de 17 és 2 + 0 = 2. Però l'enunciat diu que l'exponent de 13 és 4, per tant 47! és impossible ja que l'exponent de 17 ha de ser superior a 4.
+
+Considerem 17^1 = 17. Si dividim 47/17 = 2.76, per tant 17 apareix dues vegades com a 17 i 34, per tant el mínim és 2.
+Considerem 17^2 = 289. Llavors 47/289 = 0.16. Això vol dir que no apareix cap 17^2.
+Considerem 17^3 = 4913. Llavors 47/4913 = 0.0095. Això vol dir que no apareix cap 17^3.
+La suma sería 2+0+0=2
+Però per alguna raó 13^4 ens indica que aquest número podria ser inferior a 47! i a més ens indica que no ens preocupem del que falta entre el 17 i el 43.
+Podem afirmar que N! no pot ser 47!. Ha de ser un número més petit.
+Si el número N! és més petit, la potència de 17 hauria de ser inferior.
+Si N = 21, la potència de 17 = 1 (ja que només hi ha un número 17).
+Si N = 34, la potència de 17 = 2 (tenim el número 17 i el número 34).
+Si N = 51, la potència de 17 = 3 (tenim el número 17, el número 34 i el número 51).
+
+Considerem 13^4. Això significa que l'exponent de 13 en la descomposició factorial del nombre N! és 4.
+L'exponent de 13 en 13! és 1.
+L'exponent de 13 en 26! és 1+1=2.
+L'exponent de 13 en 39! és 2+1=3.
+L'exponent de 13 en 52! és 3+1=4.
+Això vol dir que N! = 52!.
+Això no concorda amb la resposta ja que llavors 43 i 47 estarien mal colocats. Per tant la única resposta posible es que es hagi calculat fins un numero pequeño donde el exponente de 17 sea 1.
+
+Raonament:
+Basat en la descomposició factorial donada, i tenint en compte la forma en què es calcula l'exponent d'un factor primer en un factorial, intentem trobar un valor de N! compatible.
+
+Comencem amb un exemple, imaginem que N! = 47!, l'exponent de 17 seria 2 (com explicat anteriorment), però l'exponent de 13 seria 3+1=4 ja que 52 = 4*13. Podria ser una altra opció.
+
+Si assumim que l'exponent de 17 és petit i que l'expressió es completa després de 17, llavors N es un numero pequeño, com 17, y su exponente es 1
+
+Resposta: A)

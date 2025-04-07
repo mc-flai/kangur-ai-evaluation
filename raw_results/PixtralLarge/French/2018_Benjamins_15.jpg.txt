@@ -1,0 +1,31 @@
+Pour résoudre la question 15, nous devons déterminer l'ordre des points A, R et I sur le segment [TE] en fonction des distances données.
+
+Les distances sont :
+- TA = (1/4) * TE
+- ER = (1/8) * ET
+- AI = (1/2) * TE
+
+Pour trouver l'ordre des points, analysons chaque distance par rapport au segment total TE.
+
+1. TA = (1/4) * TE
+   - Cela signifie que le point A est situé à un quart de la longueur totale de TE en partant de T.
+
+2. ER = (1/8) * ET
+   - Ici, ER est un huitième de la longueur de ET, en partant de E. Étant donné que TE est divisé en deux parties égales par le point A, ET = TE/2.
+   - Donc, ER = (1/8) * (TE/2) = (1/16) * TE.
+
+3. AI = (1/2) * TE
+   - Cela signifie que le point I est situé à la moitié de la longueur totale de TE en partant de A.
+
+Maintenant, comparons les positions :
+- TA = (1/4) * TE
+- ER = (1/16) * TE
+- AI = (1/2) * TE
+
+Puisque ER est la plus petite distance (1/16 * TE), le point R est situé entre T et A. Le point A est ensuite à (1/4) * TE, et le point I est à (1/2) * TE.
+
+Donc, l'ordre des points est T, A, R, I, E.
+
+**Raisonnement** : En comparant les distances entre les points sur le segment [TE], nous avons déterminé que l'ordre des points est T, A, R, I, E.
+
+**Réponse** : E) TRAIE

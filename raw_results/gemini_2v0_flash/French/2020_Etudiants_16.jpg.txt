@@ -1,0 +1,14 @@
+Reasoning:
+$T = (x-y)^2 + (y-z)^2 + (z-x)^2$
+Since $x, y, z$ are integers, the terms $(x-y)^2$, $(y-z)^2$, and $(z-x)^2$ are non-negative integers and perfect squares. Also, T must be a non-negative integer. We want to find which of the options A) 0, B) 1, C) 2, D) 6, E) 8 cannot be the value of T.
+
+A) If $x=y=z$, then $T = 0^2+0^2+0^2 = 0$. So, $T=0$ is possible.
+B) If $x=1, y=1, z=0$, then $T = (1-1)^2+(1-0)^2+(0-1)^2 = 0+1+1 = 2$. If $x=1, y=0, z=0$, then $T = (1-0)^2 + (0-0)^2 + (0-1)^2 = 1+0+1=2$. Let's try to get $T=1$. Since $T$ is the sum of three squares, to obtain $1$, two of them must be zero and the other one equals to $1$.
+If $(x-y)^2=1$ and $(y-z)^2 = 0$ and $(z-x)^2 = 0$, then $y=z$ and $z=x$ so $x=y=z$, and thus $(x-y)^2=0$, a contradiction.
+Thus $T=1$ is not possible.
+C) If $x=1, y=1, z=0$, then $T=(1-1)^2 + (1-0)^2 + (0-1)^2 = 0+1+1=2$. So, $T=2$ is possible.
+D) If $x=2, y=1, z=0$, then $T=(2-1)^2 + (1-0)^2 + (0-2)^2 = 1+1+4=6$. So, $T=6$ is possible.
+E) If $x=2, y=0, z=0$, then $T=(2-0)^2+(0-0)^2+(0-2)^2 = 4+0+4=8$. So, $T=8$ is possible.
+Therefore, the value that cannot be T is 1.
+
+Answer: B)

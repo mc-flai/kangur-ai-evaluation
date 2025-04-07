@@ -1,0 +1,14 @@
+Raonament:
+Siguin $n_p$ el nombre de salts de pujada i $n_b$ el nombre de salts de baixada.
+Se sap que la longitud dels salts de pujada és 1 metre i la longitud dels salts de baixada és 3 metres.
+També se sap que el nombre total de salts és 2024, per tant $n_p + n_b = 2024$.
+Com que el cangur puja i baixa per la mateixa pista, el nombre de salts de pujada i de baixada estan relacionats.
+Per pujar fa $n_p$ salts, i en baixar fa $n_b$ salts. La distància que recorre en pujar és $n_p \times 1 = n_p$ metres.
+La distància que recorre en baixar és $n_b \times 3 = 3n_b$ metres.
+Com que la distància de pujada és igual a la de baixada, tenim $n_p = 3n_b$.
+Substituïm $n_p$ a l'equació $n_p + n_b = 2024$, obtenint $3n_b + n_b = 2024$, i $4n_b = 2024$.
+Per tant, $n_b = \frac{2024}{4} = 506$ salts.
+Aleshores, $n_p = 3n_b = 3 \times 506 = 1518$ salts.
+La distància total recorreguda és $n_p + 3n_b = 1518 + 3 \times 506 = 1518 + 1518 = 3036$ metres.
+
+Resposta: D)

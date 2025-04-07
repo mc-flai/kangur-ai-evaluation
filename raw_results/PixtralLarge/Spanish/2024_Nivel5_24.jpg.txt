@@ -1,0 +1,27 @@
+Para resolver este problema, primero debemos entender que Julia está construyendo un cubo de 3x3x3 utilizando 27 cubos más pequeños. La superficie del cubo grande tiene 6 caras, y cada cara del cubo grande es un cuadrado de 3x3.
+
+**Paso 1:** Determinar la cantidad de cubos en la superficie del cubo grande.
+- Cada cara del cubo grande tiene 9 cubos pequeños (3x3).
+- Como el cubo tiene 6 caras, la cantidad total de cubos en la superficie es 6 x 9 = 54.
+
+**Paso 2:** Identificar los cubos que pertenecen a las aristas y esquinas.
+- Cada arista del cubo grande tiene 3 cubos pequeños.
+- Un cubo grande tiene 12 aristas.
+- Cada esquina del cubo grande tiene 1 cubo pequeño, y hay 8 esquinas.
+- Los cubos en las aristas se comparten entre dos caras, y los cubos en las esquinas se comparten entre tres caras.
+
+**Paso 3:** Calcular los cubos que pertenecen exclusivamente a una cara.
+- Los cubos en las aristas (no esquinas) son 12 aristas x 1 cubo por arista (centro de la arista) = 12 cubos.
+- Los cubos en las esquinas son 8 x 1 = 8 cubos.
+- La cantidad de cubos que pertenecen exclusivamente a una cara es 54 (total en la superficie) - 12 (aristas) - 8 (esquinas) = 34 cubos.
+
+**Paso 4:** Determinar el menor y mayor número de cubos negros posibles.
+- Para el menor número de cubos negros, suponemos que todos los cubos en las aristas y esquinas son negros: 12 (aristas) + 8 (esquinas) = 20 cubos.
+- Para el mayor número de cubos negros, suponemos que todos los cubos en la superficie son negros: 54 cubos.
+
+**Paso 5:** Calcular la diferencia entre el mayor y menor número de cubos negros posibles.
+- Diferencia = 54 - 20 = 34.
+
+**Razonamiento:** La diferencia entre el mayor y menor número de cubos negros que se pueden utilizar en la construcción del cubo es 34.
+
+**Respuesta:** D) 7.

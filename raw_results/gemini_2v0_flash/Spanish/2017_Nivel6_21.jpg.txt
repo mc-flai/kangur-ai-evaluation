@@ -1,0 +1,13 @@
+Razonamiento:
+Sea el número original *n*. Si borramos la última cifra, obtenemos un número que llamaremos *m*. Entonces *n* se puede expresar como 10*m* + *d*, donde *d* es la última cifra de *n* (0 <= *d* <= 9).
+Según el problema, *m* = *n*/14, por lo tanto, 14*m* = *n*.
+Sustituyendo *n* en la primera ecuación, tenemos 14*m* = 10*m* + *d*.
+Simplificando, 4*m* = *d*.
+Como 0 <= *d* <= 9, tenemos que 0 <= 4*m* <= 9, lo que implica que 0 <= *m* <= 9/4 = 2.25.
+Por lo tanto, los posibles valores enteros de *m* son 0, 1 y 2.
+Si *m* = 0, entonces *d* = 4*0* = 0, y *n* = 14*0* = 0, pero *n* debe ser positivo, por lo que *m* no puede ser 0.
+Si *m* = 1, entonces *d* = 4*1* = 4, y *n* = 14*1* = 14.  Si borramos la última cifra de 14 obtenemos 1, que es igual a 1/14 de 14.
+Si *m* = 2, entonces *d* = 4*2* = 8, y *n* = 14*2* = 28.  Si borramos la última cifra de 28 obtenemos 2, que es igual a 1/14 de 28.
+Por lo tanto, hay dos números enteros positivos que cumplen la condición: 14 y 28.
+
+Respuesta: C)

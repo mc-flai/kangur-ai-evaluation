@@ -1,0 +1,18 @@
+Raonament: La seqüència és 12345678910111213...979899. Mirem si podem trobar cada trio a la seqüència.
+222: apareix a 22, després del 21, així que el trio 222 si que és possible.
+444: apareix a 44, després del 43, així que el trio 444 si que és possible.
+464: apareix a 464, després del 46 i abans del 47, així que el trio 464 si que és possible.
+475: apareix a 475, després del 47 i abans del 48, així que el trio 475 si que és possible.
+888: apareix a 88, després del 87, així que el trio 888 si que és possible.
+
+Hem de formar nombres consecutius de l'1 al 99, i agruparlos de tres en tres.
+123, 456, 789, 101, 112, 131, 415, 161, 718, 192, 021, 222, 232, 425, 262, 728, 293, 031, 323, 333,...
+
+222 apareix.
+444 apareix.
+464 apareix.
+888 apareix.
+475 no apareix.
+
+Raonament: Després de 47 ve 48, per tant tenim 474, i mai tindrem 475.
+Resposta: D)

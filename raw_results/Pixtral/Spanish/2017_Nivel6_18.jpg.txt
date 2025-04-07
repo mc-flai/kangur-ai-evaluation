@@ -1,0 +1,61 @@
+
+La pregunta 18 solicita el menor de los números naturales consecutivos cuyo sumatorio de cifras es uno de los múltiplos de 7. Los números naturales consecutivos se enumeran y sus sumas de cifras se calculan para determinar si son múltiplos de 7.
+
+Razonamiento:
+1. Identificar los números naturales consecutivos: 3, 4, 5, 6, 7.
+2. Calcular la suma de los dígitos para cada número:
+   - Para 3: 3
+   - Para 4: 4
+   - Para 5: 5
+   - Para 6: 6
+   - Para 7: 7
+3. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+   - 3 no es un múltiplo de 7.
+   - 4 no es un múltiplo de 7.
+   - 5 no es un múltiplo de 7.
+   - 6 no es un múltiplo de 7.
+   - 7 no es un múltiplo de 7.
+4. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: 1, 2.
+5. Calcular la suma de los dígitos para 1 y 2:
+   - Para 1: 1
+   - Para 2: 2
+6. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+   - 1 no es un múltiplo de 7.
+   - 2 no es un múltiplo de 7.
+7. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: 0, 1.
+8. Calcular la suma de los dígitos para 0 y 1:
+   - Para 0: 0
+   - Para 1: 1
+9. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+   - 0 no es un múltiplo de 7.
+   - 1 no es un múltiplo de 7.
+10. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: -1, 0.
+11. Calcular la suma de los dígitos para -1 y 0:
+    - Para -1: 1 (considerando el valor absoluto)
+    - Para 0: 0
+12. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+    - 1 no es un múltiplo de 7.
+    - 0 no es un múltiplo de 7.
+13. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: -2, -1.
+14. Calcular la suma de los dígitos para -2 y -1:
+    - Para -2: 2 (considerando el valor absoluto)
+    - Para -1: 1 (considerando el valor absoluto)
+15. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+    - 2 no es un múltiplo de 7.
+    - 3 no es un múltiplo de 7.
+16. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: -3, -2.
+17. Calcular la suma de los dígitos para -3 y -2:
+    - Para -3: 3 (considerando el valor absoluto)
+    - Para -2: 2 (considerando el valor absoluto)
+18. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+    - 3 no es un múltiplo de 7.
+    - 5 no es un múltiplo de 7.
+19. Dado que ninguno de estos sumatorios es un múltiplo de 7, revisar los números consecutivos anteriores: -4, -3.
+20. Calcular la suma de los dígitos para -4 y -3:
+    - Para -4: 4 (considerando el valor absoluto)
+    - Para -3: 3 (considerando el valor absoluto)
+21. Verificar si alguno de estos sumatorios es un múltiplo de 7:
+    - 4 no es un múltiplo de 7.
+    - 7 es un múltiplo de 7.
+
+Respuesta: D)

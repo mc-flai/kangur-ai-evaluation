@@ -1,0 +1,28 @@
+Per resoldre aquest problema, hem de considerar la relació entre les velocitats d'Alicia i Baldiri. La velocitat d'Alicia és el triple de la velocitat de Baldiri. Això significa que, per cada unitat de distància que recorre Baldiri, Alicia recorre tres unitats de distància en el mateix temps.
+
+**Pas a pas:**
+
+1. **Velocitat de Baldiri:**
+   - Suposem que Baldiri triga 15 minuts per a anar del punt A al punt B.
+   - La velocitat de Baldiri es pot expressar com: \( v_{Baldiri} = \frac{d}{15 \text{ min}} \), on \( d \) és la distància entre els punts A i B.
+
+2. **Velocitat d'Alicia:**
+   - La velocitat d'Alicia és el triple de la de Baldiri, per tant: \( v_{Alicia} = 3 \times v_{Baldiri} \).
+   - Substituint la velocitat de Baldiri: \( v_{Alicia} = 3 \times \frac{d}{15 \text{ min}} = \frac{d}{5 \text{ min}} \).
+
+3. **Començant al mateix temps:**
+   - Si Alicia i Baldiri comencen al mateix temps des del punt A i arriben al punt B, Baldiri triga 15 minuts.
+   - Alicia, recorrent tres vegades més ràpid, triga 5 minuts per a anar del punt A al punt B.
+
+4. **Temps de retorn:**
+   - Quan Alicia torna des del punt B al punt A, triga altre cop 5 minuts.
+   - Per tant, el temps total que Alicia necessita per a anar del punt A al punt B i tornar al punt A és de 10 minuts.
+
+5. **Segona vegada:**
+   - Per a la segona vegada, quan Alicia comença al mateix temps que Baldiri des del punt A, Alicia torna a trigar 10 minuts per a anar i tornar del punt B al punt A.
+   - Per tant, en 15 minuts, Baldiri arriba al punt B, i Alicia ja ha anat i tornat al punt A dues vegades (10 minuts per cada vegada).
+
+**Raonament:**
+En 15 minuts, Baldiri arriba al punt B, i Alicia ja ha anat i tornat al punt A dues vegades. Per tant, si Alicia continua aquesta mateixa velocitat, en el següent cicle de 15 minuts, Alicia anirà al punt B i tornarà al punt A una vegada més. En total, Alicia haurà anat i tornat al punt B tres vegades en 45 minuts.
+
+**Resposta:** E) 45 min.

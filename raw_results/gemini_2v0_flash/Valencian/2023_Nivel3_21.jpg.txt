@@ -1,0 +1,14 @@
+Raonament:
+Per maximitzar el nombre de cubs interiors, hem de fer que les dimensions del cuboide exterior s'aproximin el més possible. Hem de trobar tres nombres enters el producte dels quals sigui 2020. L'objectiu és maximitzar el nombre de cubs interiors, que tindrà dimensions (a-2)x(b-2)x(c-2), on a, b i c són les dimensions del cuboide exterior.
+La factorització prima de 2020 és 2 * 2 * 5 * 101. Les possibles dimensions del cuboide exterior són:
+1. 1 x 1 x 2020. Això donaria (-1) x (-1) x 2018, cosa que no és possible ja que les dimensions no poden ser negatives.
+2. 2 x 2 x 505. Això donaria 0 x 0 x 503, que tampoc és possible.
+3. 4 x 5 x 101. Això donaria 2 x 3 x 99 = 594.
+4. 5 x 4 x 101 = 594
+5. 10 x 2 x 101. Això donaria 8 x 0 x 99, que tampoc és possible.
+6. 20 x 1 x 101 Això donaria 18 x -1 x 99, que tampoc és possible.
+7. 10 x 101 x 2.  Això donaria 8 x 99 x 0, que tampoc és possible.
+8. 5 x 202 x 2. Això donaria 3 x 200 x 0, que tampoc és possible.
+L'única combinació vàlida és 4 x 5 x 101. En aquest cas, els cubs interiors tindrien dimensions 2 x 3 x 99, donant un total de 2*3*99 = 6*99 = 594 cubs interiors.
+
+Resposta: E)

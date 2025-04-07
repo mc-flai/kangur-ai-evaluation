@@ -1,0 +1,27 @@
+Raonament: Analitzem cada possible cas per a trobar a la persona que ha menjat les galetes i saber qui menteix.
+
+* **Si Anna menteix:** Anna ha menjat galetes. Per tant, Bàrbara, Carles i Dani diuen la veritat, mentre que Eva menteix, fet que contradiria que només una persona menteix.
+* **Si Bàrbara menteix:** Bàrbara no ha menjat galetes. Anna, Carles i Dani diuen la veritat. Eva menteix, fet que donaria dues persones que menteixen. Aquesta opció queda descartada.
+* **Si Carles menteix:** Eva ha menjat galetes. Anna, Bàrbara i Dani diuen la veritat. Eva diria la veritat, contradient que Carles menteix i que només una persona menteix.
+* **Si Dani menteix:** Dani ha menjat galetes. Anna, Bàrbara i Carles diuen la veritat. Eva també diria la veritat, contradient el fet que Dani menteix i que només una persona menteix.
+* **Si Eva menteix:** Anna no ha menjat galetes (veritat). Bàrbara ha menjat galetes (mentida), Carles diu que Eva no ha menjat galetes (veritat), Dani diu que no ha menjat galetes (veritat). En aquest cas, hi ha una contradicció: Bàrbara menteix, mentre que Anna, Carles, Dani i Eva diuen la veritat.
+
+Aquesta anàlisi mostra un error. Analitzem de nou tenint en compte que només una persona ha menjat les galetes.
+
+* **Si Anna menteix:** Anna ha menjat galetes. Bàrbara menteix també.
+* **Si Bàrbara menteix:** Bàrbara no ha menjat galetes. Tothom diu la veritat excepte Eva.
+* **Si Carles menteix:** Eva ha menjat galetes. Bàrbara diu la veritat i és qui ha menjat les galetes.
+* **Si Dani menteix:** Dani ha menjat galetes. Bàrbara diu la veritat i és qui ha menjat les galetes.
+* **Si Eva menteix:** Anna no ha menjat galetes. Bàrbara diu la veritat i és qui ha menjat les galetes.
+
+Analitzem cada opció:
+
+* **Si Anna va menjar galetes**: Anna menteix, Bàrbara menteix, Carles diu la veritat, Dani diu la veritat, Eva menteix. Això són tres persones que menteixen, no una.
+* **Si Bàrbara va menjar galetes**: Bàrbara diu la veritat. Anna diu la veritat, Carles diu la veritat, Dani diu la veritat, Eva menteix. Només una persona menteix, per tant, Bàrbara és una possibilitat.
+* **Si Carles va menjar galetes**: Anna diu la veritat, Bàrbara menteix, Carles diu la veritat, Dani diu la veritat, Eva diu la veritat. Només Bàrbara menteix, per tant, Carles no ha menjat galetes.
+* **Si Dani va menjar galetes**: Anna diu la veritat, Bàrbara menteix, Carles diu la veritat, Dani menteix, Eva diu la veritat. Això serien dues persones que menteixen, no una.
+* **Si Eva va menjar galetes**: Anna diu la veritat, Bàrbara menteix, Carles menteix, Dani diu la veritat, Eva diu la veritat. Això serien dues persones que menteixen, no una.
+
+Per tant, la resposta correcta és Bàrbara.
+
+Resposta: B)

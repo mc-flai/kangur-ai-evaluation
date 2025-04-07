@@ -1,0 +1,16 @@
+To determine the minimum number of light bulbs that need to be touched to switch on all the light bulbs, we need to analyze the connections and the structure of the network.
+
+Reasoning:
+1. Each light bulb is connected to some other light bulbs.
+2. Touching a light bulb switches it on, and it also switches on all directly adjacent light bulbs.
+3. The goal is to find the smallest number of light bulbs that need to be touched to ensure all bulbs are switched on.
+
+To achieve this, we need to consider the most efficient way to propagate the switch from a few initial touches to all bulbs. By examining the diagram, we can see that the structure is a triangular arrangement with additional connections forming a more complex network.
+
+- If we touch one bulb, it and its directly connected bulbs will switch on.
+- If we touch a second bulb, it and its directly connected bulbs will switch on.
+- We need to ensure that all bulbs are covered by these touches.
+
+By strategically choosing the bulbs to touch, we can minimize the number of touches required. Through trial and error or by analyzing the connections, we find that touching 3 specific bulbs can switch on all the bulbs in the network.
+
+Answer: B

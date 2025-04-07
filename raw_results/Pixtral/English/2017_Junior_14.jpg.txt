@@ -1,0 +1,18 @@
+
+Reasoning: To find the largest of the three consecutive positive whole numbers whose squares sum to 770, we need to consider the sum of squares of three consecutive numbers. Let the middle number be \( n \). Then the three numbers are \( n-1 \), \( n \), and \( n+1 \). The sum of their squares is:
+\[ (n-1)^2 + n^2 + (n+1)^2 \]
+Expanding and simplifying this, we get:
+\[ (n^2 - 2n + 1) + n^2 + (n^2 + 2n + 1) \]
+\[ 3n^2 + 2 \]
+We need this sum to equal 770:
+\[ 3n^2 + 2 = 770 \]
+Subtract 2 from both sides:
+\[ 3n^2 = 768 \]
+Divide by 3:
+\[ n^2 = 256 \]
+Taking the square root of both sides:
+\[ n = \sqrt{256} \]
+\[ n = 16 \]
+So the three numbers are 15, 16, and 17. The largest number is 17.
+
+Answer: C)

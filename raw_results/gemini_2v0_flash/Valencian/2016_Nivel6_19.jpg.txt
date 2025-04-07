@@ -1,0 +1,9 @@
+Raonament: Busquem parelles d'enters (x, y) tals que x > 2, y > 2 i 1/x + 1/y > 1/2.
+Comencem provant amb y = 3. En aquest cas, 1/x + 1/3 > 1/2, per tant, 1/x > 1/2 - 1/3 = 1/6, de manera que x < 6. Com x > 2 i x és enter, x pot ser 3, 4 o 5. Així, tenim les solucions (3, 3), (4, 3) i (5, 3).
+Seguim amb y = 4. En aquest cas, 1/x + 1/4 > 1/2, per tant, 1/x > 1/2 - 1/4 = 1/4, de manera que x < 4. Com x > 2 i x és enter, x pot ser 3. Així, tenim la solució (3, 4).
+Seguim amb y = 5. En aquest cas, 1/x + 1/5 > 1/2, per tant, 1/x > 1/2 - 1/5 = 3/10, de manera que x < 10/3 = 3.33. Com x > 2 i x és enter, x pot ser 3. Així, tenim la solució (3, 5).
+Si y >= 6, llavors 1/y <= 1/6. En aquest cas, 1/x + 1/y > 1/2 implica que 1/x > 1/2 - 1/y >= 1/2 - 1/6 = 1/3, de manera que x < 3. Com x > 2, x només pot ser 3. Així, si x = 3, tenim 1/3 + 1/y > 1/2, de manera que 1/y > 1/2 - 1/3 = 1/6. Per tant, y < 6. No hi ha més solucions perquè vam analitzar els casos y=3,4,5.
+
+Les solucions són (3, 3), (4, 3), (5, 3), (3, 4) i (3, 5). Hi ha 5 solucions en total.
+
+Resposta: B)

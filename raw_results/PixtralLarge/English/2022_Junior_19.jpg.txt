@@ -1,0 +1,11 @@
+To solve question 19, we need to determine the minimum number of additional trees that need to be planted so that there are the same number of trees on either side of each path.
+
+**Reasoning**: 
+1. Consider the paths that intersect and form sections around the central tree.
+2. Observe that each path divides the park into sections. To ensure an equal number of trees on either side of each path, we need to think about the number of sections created by the paths.
+3. Typically, three paths intersecting at a central point would divide the area into six sections.
+4. To have an equal number of trees on each side of a path, we need to ensure that each section formed by the paths has the same number of trees.
+5. Since there is already one tree in the center, we need to plant additional trees in such a way that each of the six sections has the same number of trees.
+6. The minimum number of trees to plant would be one tree in each of the six sections, making a total of 6 trees. However, since we already have one tree in the center, we need to add 5 more trees to balance the sections.
+
+**Answer**: E).

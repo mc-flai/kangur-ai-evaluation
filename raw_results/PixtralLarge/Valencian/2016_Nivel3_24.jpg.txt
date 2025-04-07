@@ -1,0 +1,21 @@
+Per resoldre la pregunta 24, hem de trobar quina és la xifra de les centenes del nombre més gran que sigui múltiple de 6.
+
+**Raonament**:
+1. Identifiquem els nombres de 4 xifres que són múltiples de 6.
+   - Perquè un nombre sigui múltiple de 6, ha de ser divisible per 2 i per 3.
+   - Un nombre és divisible per 2 si la seva última xifra és par.
+   - Un nombre és divisible per 3 si la suma de les seves xifres és divisible per 3.
+
+2. Comencem amb el nombre més gran de 4 xifres, que és 9999, i baixem fins que trobem un nombre que compleixi les condicions.
+   - 9999: No és divisible per 2, ja que la seva última xifra és 9 (impar).
+   - 9998: És divisible per 2 (última xifra és 8, par), però hem de verificar si és divisible per 3.
+     - Suma de les xifres de 9998: 9 + 9 + 9 + 8 = 35, que no és divisible per 3.
+   - 9997: No és divisible per 2.
+   - 9996: És divisible per 2 (última xifra és 6, par). Verifiquem si és divisible per 3.
+     - Suma de les xifres de 9996: 9 + 9 + 9 + 6 = 33, que és divisible per 3.
+
+3. 9996 és el nombre més gran de 4 xifres que és múltiple de 6.
+
+4. La xifra de les centenes de 9996 és 9.
+
+**Resposta**: B) 6

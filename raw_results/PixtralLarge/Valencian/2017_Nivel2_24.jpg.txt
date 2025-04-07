@@ -1,0 +1,27 @@
+Per resoldre aquesta pregunta, hem de seguir aquests passos:
+
+1. **Identificar els números que esborra Aitana**:
+   - Aitana esborra els nombres de l'1 al 100 que tenen algun dígit que aparegui en el 2017.
+   - Els dígitos de 2017 són: 2, 0, 1 i 7.
+   
+2. **Determinar els nombres que no s'esborren**:
+   - Els nombres que no s'esborren són aquells que no contenen cap dels dígitos 2, 0, 1 ni 7.
+   - Per tant, els dígitos disponibles per formar aquests nombres són: 3, 4, 5, 6, 8 i 9.
+   
+3. **Contar els nombres de dos dígitos**:
+   - Els nombres de dos dígitos es formen combinant dos dígitos de l'1 al 9. Com que no podem utilitzar 2, 0, 1 ni 7, ens queden els dígitos 3, 4, 5, 6, 8 i 9.
+   - Això ens dona 6 opcions per a la desena i 6 opcions per a la unitat, cosa que fa 6 * 6 = 36 nombres.
+   
+4. **Contar els nombres d'un dígit**:
+   - Els nombres d'un dígit disponibles són 3, 4, 5, 6, 8 i 9, cosa que fa 6 nombres.
+   
+5. **Calcular el total de nombres que no s'esborren**:
+   - Sumem els nombres de dos dígitos i els d'un dígit: 36 + 6 = 42 nombres.
+   
+6. **Determinar la màxima quantitat de còpies del nombre 2017**:
+   - En aquesta llista de 42 nombres, Quina és la máxima quantitat de còpies que es poden obtenir del nombre 2017.
+   - El màxim de còpies del nombre 2017 que es poden obtenir és el total de nombres que no s'esborren.
+
+Raonament: Aitana no esborra els nombres de l'1 al 100 que contenen algun dels dígitos que apareixen en el 2017. Com que n'hi ha 42, la màxima quantitat de còpies del nombre 2017 que es poden obtenir és 42.
+
+Resposta: E) 10.

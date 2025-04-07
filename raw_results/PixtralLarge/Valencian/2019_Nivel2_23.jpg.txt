@@ -1,0 +1,27 @@
+Per resoldre aquest problema, primer hem de comprendre que hem de trobar el número que, quan es multiplica per 7, dona un nombre de tres xifres. Això significa que el número original que busquem és un nombre de dues xifres.
+
+1. Identifiquem els nombres de tres xifres: Aquests van dels 100 als 999.
+
+2. Dividim aquests nombres per 7 per trobar el número original de dues xifres:
+
+   - 100/7 ≈ 14.29
+   - 999/7 ≈ 142.71
+
+Això significa que el nombre original que busquem està entre 14 i 142, tots dos inclosos.
+
+3. Busquem el nombre més petit de dues xifres que, quan es multiplica per 7, doni un nombre de tres xifres:
+
+   - 14 * 7 = 98 (no és un nombre de tres xifres)
+   - 15 * 7 = 105 (sí és un nombre de tres xifres)
+
+Per tant, el nombre més petit de dues xifres que satisfà la condició és 15.
+
+4. Verifiquem la xifra de les unitats del nombre original:
+
+   - 15 * 7 = 105
+
+La xifra de les unitats del número 15 és 5.
+
+Raonament: El nombre més petit de dues xifres que, quan es multiplica per 7, dona un nombre de tres xifres és 15. La xifra de les unitats d'aquest nombre és 5.
+
+Resposta: E) 5.

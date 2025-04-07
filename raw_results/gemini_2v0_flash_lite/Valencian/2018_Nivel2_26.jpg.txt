@@ -1,0 +1,34 @@
+Raonament:
+1. **Maria:** Maria menja 1/3 de les cireres. Això vol dir que la resta després que Maria menja les cireres ha de ser divisible per 7 (perquè Antoni menja 1/7 de la resta).
+2. **Antoni:** Antoni menja 1/7 de la resta. Això implica que la resta ha de ser un múltiple de 7.
+3. **Calculant enrere:**  Si anem a l'inrevés, les cireres restants després que Antoni menja necessiten ser un múltiple de 7. Després de la resta de les cireres que no es menja Antoni, hi hauria dues terceres parts de les cireres inicials.
+4. **Proves:** Per trobar la resposta correcta, hem de comprovar les opcions donades.  Si sumem les cireres restants, la resta de cireres després de Maria i la quantitat de cireres inicial.
+
+- A) 23: 23 no és un múltiple de 7. No és una resposta possible.
+- B) 24: 24 no és un múltiple de 7. No és una resposta possible.
+- C) 25: 25 no és un múltiple de 7. No és una resposta possible.
+- D) 26: 26 no és un múltiple de 7. No és una resposta possible.
+- E) 27: 27 no és un múltiple de 7. No és una resposta possible.
+
+Per tant, no hi ha cap resposta correcta. Comprovaré millor el problema.
+Sigui *x* el nombre inicial de cireres.
+Maria menja *x*/3.  La resta és *x* - *x*/3 = (2/3)*x.
+Antoni menja (1/7) * (2/3)*x = (2/21)*x.
+La quantitat de cireres restants és (2/3)*x - (2/21)*x = (14/21)*x - (2/21)*x = (12/21)*x = (4/7)*x.
+La quantitat de cireres restants ha de ser un nombre enter. Això implica que *x* ha de ser un múltiple de 7. A més a més, (4/7)*x ha de ser un nombre enter.
+Les respostes potencials han de ser (4/7)*x, on x és l'original.
+També, (2/3)*x ha de ser divisible per 7. Llavors x ha de ser divisible per 21.
+Prova:
+Si x = 21, Maria menja 7, la resta és 14. Antoni menja 2, les restants són 12.
+Si x = 42, Maria menja 14, la resta és 28. Antoni menja 4, les restants són 24.
+Si x = 63, Maria menja 21, la resta és 42. Antoni menja 6, les restants són 36.
+Ara revisem les opcions.
+Diguem que el nombre de cireres restants és *r*.
+*r* = (4/7) * x
+A) 23, 23 = (4/7)*x, x = 40.25, no
+B) 24, 24 = (4/7)*x, x = 42, Sí
+C) 25, 25 = (4/7)*x, x = 43.75, no
+D) 26, 26 = (4/7)*x, x = 45.5, no
+E) 27, 27 = (4/7)*x, x = 47.25, no
+
+Resposta: B)

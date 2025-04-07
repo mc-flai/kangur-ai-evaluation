@@ -1,0 +1,34 @@
+Reasoning: The problem requires us to find which fruit price Bia cannot pay with any three of her coins. Let's analyze the combinations of three coins and their total values:
+*   Two 1 Reais coins (2.00 Reais) and one 0.05 Reais coin = 2.05 Reais.
+*   Two 1 Reais coins (2.00 Reais) and one 0.10 Reais coin = 2.10 Reais.
+*   One 1 Reais coin (1.00 Reais), one 0.50 Reais coin, and one 0.10 Reais coin = 1.60 Reais.
+*   One 1 Reais coin (1.00 Reais), one 0.50 Reais coin, and one 0.05 Reais coin = 1.55 Reais.
+*   One 1 Reais coin (1.00 Reais), one 0.10 Reais coin, and one 0.05 Reais coin = 1.15 Reais.
+*   One 2 Reais coin (2.00 Reais) and one 0.05 Reais coin = 2.05 Reais.
+*   One 2 Reais coin (2.00 Reais) and one 0.10 Reais coin = 2.10 Reais.
+*   One 2 Reais coin (2.00 Reais) and one 0.50 Reais coin = 2.50 Reais.
+*   One 2 Reais coin (2.00 Reais) and one 0.10 Reais coin = 2.10 Reais.
+*   One 2 Reais coin (2.00 Reais) and one 0.05 Reais coin = 2.05 Reais.
+*   One 0.50 Reais coin, one 0.10 Reais coin and one 0.05 Reais coin = 0.65 Reais.
+
+Now let's compare these sums with the fruit prices:
+
+*   A) 1.30 - Not possible to pay with any three coins.
+*   B) 1.35 - Not possible to pay with any three coins.
+*   C) 1.40 - Not possible to pay with any three coins.
+*   D) 1.55 - Can be paid.
+*   E) 1.75 - Not possible to pay with any three coins.
+
+The answer options are:
+A) 1.30
+B) 1.35
+C) 1.40
+D) 1.55
+E) 1.75
+
+From our analysis, she cannot buy fruit at 1.30, 1.35, 1.40 or 1.75. Since only one answer can be selected, we look to see which option of the choices is available, where the prices Bia cannot pay is a value that can only be paid with a combination of four coins.
+The combination is (1.00, 0.50, 0.05, 0.10).
+A, B, C, and E are the only options that she can't buy. The question asks which *one* she cannot buy. The sum of (1.00 + 0.10 + 0.05 = 1.15). The sum of (1.00 + 0.50 + 0.05 = 1.55).
+Therefore, 1.55 is the only value she can buy. The combinations: (1.00 + 0.50 + 0.05 = 1.55), she could buy fruit for 1.55. But looking through the possibilities it appears that A, B, C and E do not have a combination to pay.
+
+Answer: A)

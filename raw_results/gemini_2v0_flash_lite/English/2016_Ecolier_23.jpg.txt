@@ -1,0 +1,17 @@
+Reasoning: The stick starts with 27 blocks. The splitting always produces a piece that is twice as long as the other. This means at each split, the total number of blocks is always divided into two pieces. If one piece has 'x' blocks, the other piece will have '2x' blocks. The possible number of blocks in pieces would be 1/3 of the total (x), or 2/3 of the total (2x) if a particular block is chosen to be split. The total block needs to be divided as such at each stage.
+27 -> 9, 18
+18 -> 6, 12
+12 -> 4, 8
+9 -> 3, 6
+6 -> 2, 4
+4 -> impossible
+2 -> possible
+8 -> possible
+10 -> Impossible
+A) 2 - possible
+B) 4 - possible
+C) 6 - possible
+D) 8 - possible
+E) 10 - Impossible
+
+Answer: E)

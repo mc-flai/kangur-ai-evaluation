@@ -1,0 +1,23 @@
+Raonament:
+Sigui $n$ el número d'equips que participen al torneig. Cada equip té 3 jugadors. Cada jugador d'un equip juga una vegada contra tots els jugadors dels altres equips. Això significa que cada jugador d'un equip juga contra $3(n-1)$ jugadors. Això significa que un equip juga $3 \cdot 3(n-1) = 9(n-1)$ partides.
+Si hi ha $n$ equips, el número total de partides és $n \cdot \frac{9(n-1)}{2}$ si cada partida es juga entre 2 equips. El número total de partides és $n \cdot 3 \cdot 3(n-1)$ si cada equip juga contra els altres $n-1$ equips.
+En la imatge, l'enunciat diu que cada *jugador* d'un equip juga exactament una vegada contra tots els jugadors dels *altres equips*. Per tant, un equip de tres jugadors juga contra els jugadors dels altres $n-1$ equips. Així, el número total de partides és $n \cdot 3 \cdot 3(n-1)/2$. El nombre de partides en total és $9n(n-1)/2$.
+Donat que no es poden jugar més de 250 partides, tenim
+$9n(n-1) \leq 500$
+$n(n-1) \leq 500/9 = 55.55...$
+Si $n=7$, $n(n-1) = 7 \cdot 6 = 42 \leq 55.55$.
+Si $n=8$, $n(n-1) = 8 \cdot 7 = 56 > 55.55$.
+Així doncs, el nombre màxim d'equips que poden participar és 7.
+Cada equip té 3 jugadors.
+Cada jugador d'un equip juga exactament una vegada contra tots els jugadors dels altres equips. El número total de partides no pot ser més gran que 250.
+Si tenim $n$ equips, cada equip juga contra $n-1$ altres equips. Cada jugador d'un equip ha de jugar amb $3(n-1)$ jugadors dels altres equips. El número total de partides que ha de jugar cada equip és $3 \cdot 3(n-1) = 9(n-1)$.
+Si hi ha $n$ equips, el número total de partides és $n \cdot 3 \cdot 3(n-1) = 9n(n-1) /2$.
+El número màxim de partides és 250, per tant
+$9n(n-1) /2 \leq 250$
+$9n(n-1) \leq 500$
+$n(n-1) \leq 500/9 = 55.555$
+Si $n=7$, $7 \cdot 6 = 42$ que és menor que 55.555.
+Si $n=8$, $8 \cdot 7 = 56$ que és més gran que 55.555.
+Per tant, el número màxim d'equips és 7.
+
+Resposta: E)

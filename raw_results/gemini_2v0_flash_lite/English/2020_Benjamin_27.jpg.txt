@@ -1,0 +1,17 @@
+Reasoning: We can solve this problem by working backward. Let's denote the amount of money left after the third purchase as $x$. The third purchase cost half of what was left plus three Reais. Since she spent all her money, and nothing remained after the third purchase, the expression is $(1/2)x + 3 = x$. Solving for $x$ gives $x = 6$ Reais.
+
+Now we can look at the second purchase, we know after the second purchase 6 Reais were left. The second purchase was half of what was left plus two Reais. So we can set up the following equation: $(1/2)y + 2 = 6$, where $y$ is the money before the second purchase. Solving for $y$ gives $y = 8$ Reais. The money before the second purchase $y$ must be such that half of it was left plus 2 reais which became 6 reais. Therefore, the total before the second purchase was $2 \cdot 6 = 12$, which is not $8$, so this seems wrong. Since 6 Reais was left after the second purchase, we have $(1/2)z + 2 = 6$, where $z$ is the amount after the first purchase. Then the amount of money left after the second purchase is $z/2$, which should be 6 reais. Therefore we have $z/2 + 2 = 6$, $z/2 = 4$ and $z=8$. The second purchase consisted of half of the remaining money plus 2, or $z/2 + 2$. Then the amount of money remaining after the second purchase is $z/2 = 6$. So if 6 was the amount of money left after the second purchase, then we have $\frac{1}{2}z + 2 = 6$, where z represents the money left after the first purchase. That means that $\frac{1}{2}z=4$ and $z=8$.
+
+The first purchase was half of the total money plus 1 Real. After the first purchase, Janaína had 8 Reais left. Let $M$ be the initial amount of money. The first purchase was $(1/2)M + 1$.  After the first purchase, the money left was $M - ((1/2)M + 1) = M/2 - 1$. Therefore we know, $M/2 - 1 = 8$. Solving for $M$, we have $M/2 = 9$, and $M = 18$ doesn't make sense because we arrived at 8 Reais after the first purchase and 6 Reais after the second purchase. Let's trace back the third purchase, $M_3/2 + 3 = M_3$ which makes $M_3 = 6$, so $6$ was the total amount used in the last purchase. The second purchase was $(1/2)M_2+2=6$ therefore $(1/2)M_2=4$, which makes $M_2 = 8$. And we have $(1/2)M+1=M-8$, so $8+M/2 = M$, then $M/2 = 8$ so $M=16$ and $M_3=6$, $M_2=8$. Let $x$ be the money initially. Then:
+Toy 1:  (x/2) + 1
+Money left after Toy 1: x - (x/2 + 1) = x/2 - 1
+Toy 2: (x/2 - 1)/2 + 2
+Money left after Toy 2: (x/2 - 1) - ((x/2 - 1)/2 + 2) = (x/2 - 1)/2 - 2 = x/4 - 1/2 - 2 = x/4 - 5/2
+Toy 3: (x/4 - 5/2)/2 + 3
+Money left after Toy 3: (x/4 - 5/2) - ((x/4 - 5/2)/2 + 3) = (x/4 - 5/2)/2 - 3 = x/8 - 5/4 - 3 = x/8 - 17/4
+
+Since she spent all her money: x/8 - 17/4 = 0
+x/8 = 17/4
+x = 17/4 * 8 = 34
+
+Answer: A)

@@ -1,0 +1,38 @@
+Raonament: La seqüència de nombres és 4, 8, 12, 16,... que és la seqüència 4n. Els nombres s'escriuen en ziga-zaga: fila 1 té 4, 28; fila 2 té 8, 24, 32; fila 3 té 12, 20; fila 4 té 16.
+El número de línia n comença amb 4n. Comprovem la diferència entre els dos nombres a la primera fila: 28-4=24, que és 6*4.
+A la segona fila, 24-8=16 que és 4*4, i 32-24 = 8 que és 2*4.
+A la tercera fila, 20-12=8 que és 2*4.
+A la quarta fila, hi ha només un nombre a la part mostrada.
+Observem que les files tenen una forma de "serpentina". L'últim nombre de cada fila és 4(n+3) o 4(n+4) per aproximar la magnitud, si tenim un valor k de la successió 4n, llavors tenim k/4=n. Com que k=1000, llavors n=1000/4=250. Amb aquesta informació, podem calcular quin fila contindrà 1000:
+Si n és senar, n=2m+1; si n és parell, n=2m. Les files imparells contenen dos nombres mentre que les files parells contenen tres nombres.
+Si 1000 està a la fila r, llavors 4r <= 1000. Això significa que r <= 250. El nombre de termes abans de la fila r és r(r+1)/2.
+Considerem la fila número 250. El primer nombre és 4*250=1000. En realitat, l'element 250è de la sèrie.
+Per tant, 1000 estarà a la fila 250.
+
+Si el nombre de la fila és parell, llavors va a la fila 2; altrament va a la fila 1
+L'element 4, 8, 12, 16, 20, 24, 28, 32 pertany a les files:
+1, 2, 3, 4, 3, 2, 1, 2,...
+1, 2, 3, 4, 5, 6, 7, 8,...
+Notem que:
+Fila 1: 1,7
+Fila 2: 2,6,8
+Fila 3: 3,5
+Fila 4: 4
+Després segueix fila 5, fila 6, fila 7, fila 8 i així successivament.
+Siguin $r$ el nombre de la fila. Podem dir que l'element de la seqüència $4n$ es troba a la fila:
+$r$ si $n=r$
+$r$ si $n=S-r+2$
+$S$ = $r$ + $(r+1)$
+si $S$ és imparell, l'índex creixent és des de $r$ a 1.
+si $S$ és parell, l'índex creixent és des de 1 a $r$.
+
+El 1000 és el terme 250 de la successió. Determinar la fila a la qual pertany 1000 (l'índex 250 de la seqüència).
+Per tant la fila de 4n es repeteix de la següent manera:
+1, 2, 3, 4, 3, 2, 1, 2, 3, 4, 5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1, 2,...
+El número 1000 correspon a l'element 250è.
+Cada seqüència ascendent-descendent té una longitud 2(n-1). Llavors els números 1, 2, 3, 4 tornen a començar de nou. Llavors 250=1000/4.
+Per tant, 250.
+Per tant, no es pot determinar.
+Raonament: La seqüència de nombres és 4, 8, 12, 16,... que és la seqüència 4n. Els nombres s'escriuen en ziga-zaga. Notem que els números incrementen de 4 en 4. Volem saber en quina fila es troba 1000. 1000 és divisible per 4. De fet, 1000/4 = 250. Això significa que 1000 és el número 250 de la seqüència. Per tant, no podem determinar en quina fila es troba.
+
+Resposta: E)

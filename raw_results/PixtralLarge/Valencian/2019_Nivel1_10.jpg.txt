@@ -1,0 +1,27 @@
+**Raonament**:
+
+Primer, identifiquem els quadrats ombrats i els nombres en tots els altres quadrats. Els quadrats ombrats representen basses d'aigua, i els nombres indiquen la quantitat de quadrats que Skippy ha de botar en el següent bot.
+
+Veiem que Skippy està en el quadrat número 12 i ha de botar en el següent bot. El quadrat número 12 té un 1, el que significa que Skippy ha de botar un quadrat.
+
+Des del quadrat 12, si bota un quadrat, aterrarà en el quadrat número 13.
+
+Ara, hem d'identificar en quin bot va aterrar Skippy en el quadrat número 12. Per fer això, mirem els quadrats anteriors:
+
+- Quadrat 11: 4
+- Quadrat 10: 1
+- Quadrat 9: 3
+- Quadrat 8: 1
+- Quadrat 7: 4
+- Quadrat 6: 3
+- Quadrat 5: 1
+- Quadrat 4: 2 (ombrat)
+- Quadrat 3: 4
+- Quadrat 2: 1
+- Quadrat 1: 2 (ombrat)
+
+Si Skippy va des del quadrat 8 al 12 (un bot de 4 quadrats), llavors el primer bot des del quadrat 8 va ser de 4 quadrats, i el segon bot va ser d'1 quadrat.
+
+Per tant, el primer bot de Skippy va ser de 4 quadrats.
+
+**Resposta**: B) 3

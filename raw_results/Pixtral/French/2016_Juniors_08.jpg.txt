@@ -1,0 +1,22 @@
+
+La question 8 demande de déterminer la valeur de \( k \) dans l'équation \( 8^k = 2^k \times 2^{12} \).
+
+Raisonnement :
+1. Simplifions l'équation en utilisant les propriétés des puissances :
+   \[ 8^k = 2^k \times 2^{12} \]
+2. Combinons les puissances de 2 du côté droit de l'équation :
+   \[ 8^k = 2^{k + 12} \]
+3. Remarquons que 8 peut être écrit comme une puissance de 2 :
+   \[ 8 = 2^3 \]
+4. Substituons \( 8 \) par \( 2^3 \) dans l'équation :
+   \[ (2^3)^k = 2^{k + 12} \]
+5. Utilisons la propriété des puissances \( (a^m)^n = a^{mn} \) :
+   \[ 2^{3k} = 2^{k + 12} \]
+6. Puisque les bases sont égales, nous pouvons égaler les exponents :
+   \[ 3k = k + 12 \]
+7. Résolvons pour \( k \) :
+   \[ 3k - k = 12 \]
+   \[ 2k = 12 \]
+   \[ k = 6 \]
+
+Réponse : C)

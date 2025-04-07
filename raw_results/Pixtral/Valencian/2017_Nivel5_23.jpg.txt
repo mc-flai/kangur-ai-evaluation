@@ -1,0 +1,29 @@
+
+La pregunta 23 pregunta cuántas parejas ordenadas \((x, y)\) de números enteros positivos cumplen con la ecuación \(x^2 - y^2 = 105\).
+
+Para resolver esto, podemos utilizar la identidad diferencial \(x^2 - y^2 = (x - y)(x + y)\). Por lo tanto, la ecuación se puede reescribir como:
+\[ x^2 - y^2 = (x - y)(x + y) = 105 \]
+
+Dado que 105 es un número impar, ambos factores \((x - y)\) y \((x + y)\) deben ser impares. Además, como \(x\) y \(y\) son números enteros positivos, \(x - y\) y \(x + y\) deben ser números pares (ya que la suma y la diferencia de dos números impares son pares).
+
+Primero, descomponemos 105 en sus factores pares:
+\[ 105 = 5 \times 21 \]
+Dado que ambos factores deben ser pares, buscamos factores pares de 105. Los factores pares de 105 son 2 y 52. Por lo tanto, los factores posibles para \((x - y)\) y \((x + y)\) son:
+\[ (x - y) = 2 \]
+\[ (x + y) = 52 \]
+
+Resolviendo estas ecuaciones:
+\[ x - y = 2 \]
+\[ x + y = 52 \]
+
+Sumando estas dos ecuaciones:
+\[ 2x = 54 \]
+\[ x = 27 \]
+
+Restando la primera ecuación de la segunda:
+\[ 2y = 50 \]
+\[ y = 25 \]
+
+Por lo tanto, la pareja ordenada \((x, y)\) que cumple con la ecuación es \((27, 25)\).
+
+Respuesta: C)

@@ -1,0 +1,14 @@
+Para resolver la pregunta 3, necesitamos determinar el menor número de puentes que deben eliminarse para que no sea posible viajar de la isla A a la isla B a través de puentes.
+
+Razonamiento:
+1. La figura representa 10 islas y 15 puentes.
+2. Para que no sea posible viajar de la isla A a la isla B, necesitamos eliminar suficientes puentes para dividir la red de islas en componentes no conectados.
+3. Un método para encontrar el número mínimo de puentes a eliminar es utilizar el Teorema de Euler para grafos. El Teorema de Euler establece que un grafo es conexo si y solo si tiene 0 o 2 vértices con un grado impar.
+4. En este caso, hay 10 islas, lo que significa que hay 20 grados en total (ya que cada puente contribuye 2 grados, uno para cada isla que conecta).
+5. Para que el grafo no sea conexo, necesitamos eliminar suficientes puentes para que el número de grados impares sea mayor que 2.
+6. Eliminar un puente reduce el número total de grados en 2, por lo que necesitamos eliminar suficientes puentes para que el número de grados impares sea mayor que 2.
+7. Comenzando con 20 grados, necesitamos eliminar puentes hasta que el número de grados impares sea mayor que 2.
+8. Eliminar 4 puentes reducirá el número total de grados en 8, lo que dejará 12 grados impares (20 grados iniciales menos 8 grados).
+9. Con 12 grados impares, el grafo se dividirá en componentes no conectados, lo que hace imposible viajar de A a B.
+
+Respuesta: D

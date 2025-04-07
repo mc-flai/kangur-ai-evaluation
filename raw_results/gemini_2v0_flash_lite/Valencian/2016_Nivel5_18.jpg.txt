@@ -1,0 +1,11 @@
+Raonament:
+1. **Determinar el nombre de combinacions:** Amb 4 xifres diferents, podem crear 4! (4 factorial = 4*3*2*1 = 24) nombres de quatre xifres.
+2. **Càlcul de la suma de cada posició:** En cada posició (unitats, desenes, centenes i milers), cada xifra (1, 2, 3 i 4) apareixerà el mateix nombre de vegades. Això serà 24/4 = 6 vegades.
+3. **Càlcul de la suma per posició:**
+   *   Unitats: 6 * (1 + 2 + 3 + 4) = 6 * 10 = 60
+   *   Desenes: 6 * (10 + 20 + 30 + 40) = 6 * 100 = 600
+   *   Centenes: 6 * (100 + 200 + 300 + 400) = 6 * 1000 = 6000
+   *   Milers: 6 * (1000 + 2000 + 3000 + 4000) = 6 * 10000 = 60000
+4. **Suma total:** 60 + 600 + 6000 + 60000 = 66660
+
+Resposta: A)

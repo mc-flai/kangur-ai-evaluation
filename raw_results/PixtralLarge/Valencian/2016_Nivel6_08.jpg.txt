@@ -1,0 +1,26 @@
+Per determinar quants possibles residus diferents hi ha si fem totes les divisions dels cubs dels nombres naturals per 9, hem de seguir aquests passos:
+
+1. **Definir el problema**: Volem trobar els residus possibles quan dividim els cubs dels nombres naturals per 9.
+2. **Expressar els cubs**: Considerem qualsevol nombre natural \( n \). El seu cub és \( n^3 \).
+3. **Propietats dels cubs**: Recordem que qualsevol nombre natural \( n \) es pot expressar en la forma \( n = 9k + r \), on \( k \) és un nombre enter i \( r \) és el residu quan \( n \) es divideix per 9, amb \( 0 \leq r < 9 \).
+4. **Cubicar l'expressió**: Cubiquem \( n \):
+   \[
+   n^3 = (9k + r)^3 = 9^3k^3 + 3 \cdot 9^2k^2r + 3 \cdot 9k r^2 + r^3
+   \]
+5. **Simplificar l'expressió**: Notem que tots els termes excepte \( r^3 \) són múltiples de 9, per tant, el residu de \( n^3 \) quan es divideix per 9 és el mateix que el residu de \( r^3 \) quan es divideix per 9.
+6. **Calcular els residus**: Calculem \( r^3 \) per cada valor possible de \( r \) (de 0 a 8) i trobem els residus quan es divideixen per 9:
+   - \( 0^3 = 0 \) (residu 0)
+   - \( 1^3 = 1 \) (residu 1)
+   - \( 2^3 = 8 \) (residu 8)
+   - \( 3^3 = 27 \) (residu 0)
+   - \( 4^3 = 64 \) (residu 1)
+   - \( 5^3 = 125 \) (residu 8)
+   - \( 6^3 = 216 \) (residu 0)
+   - \( 7^3 = 343 \) (residu 1)
+   - \( 8^3 = 512 \) (residu 8)
+7. **Identificar residus únics**: Els residus possibles són 0, 1 i 8.
+
+Per tant, hi ha 3 residus possibles diferents.
+
+Raonament: Hem calculat els residus dels cubs dels nombres naturals quan es divideixen per 9 i hem trobat que els residus possibles són 0, 1 i 8.
+Resposta: C)

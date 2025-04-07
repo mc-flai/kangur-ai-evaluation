@@ -1,0 +1,17 @@
+Raonament:
+1.  **Symetry Formula:** The symmetric point (x', y') of a point (x, y) with respect to the line y = mx can be calculated by:
+    x' = (x(1 - m^2) + 2my) / (1 + m^2)
+    y' = (y(m^2 - 1) + 2mx) / (1 + m^2)
+2.  **Application of the formula:** We have (x, y) = (0, 2017), and the line y = mx. So, the symmetric point (x', y') is:
+    x' = (0 + 2m * 2017) / (1 + m^2) = (4034m) / (1 + m^2)
+    y' = (2017(m^2 - 1) + 0) / (1 + m^2) = 2017(m^2 - 1) / (1 + m^2)
+3.  **Integer Condition for x':**
+    For x' to be an integer, (4034m) / (1 + m^2) must be an integer. This means that (1 + m^2) must divide 4034m. Since m is a positive integer, if m = 1, x' = 2017, if m=2, x' = 8068/5 (no integer). Also, we can have values of 'm' equal to 1 and we'll have a integer value of x', so the value of m=1 works.
+4.  **Integer Condition for y':**
+    For y' to be an integer, 2017(m^2 - 1) / (1 + m^2) must be an integer. This implies that (m^2 - 1) / (m^2 + 1) or 1 - 2/(1+m^2) has to be an integer. This only happens when (1+m^2) divides 2.
+     Since m is a positive integer, this condition gives that m = 1. Then y' = 0.
+5. **Only 1 case for m:** By requiring the integer coordinates, we find only when m=1, it is a valid result and meets the condition that both x' and y' are integer coordinates.
+
+Therefore, there is only one value of m that leads to integer coordinates.
+
+Resposta: A)

@@ -1,0 +1,15 @@
+**Reasoning**:
+- Let's denote the number of wins as W, draws as D, and losses as L.
+- The total points gained by the chess player is given by the equation: W + 0.5D + 0L = 25.
+- Since a win gives 1 point and a loss gives 0 points, we can simplify this to W + 0.5D = 25.
+- We also know the total number of matches played is 40, so W + D + L = 40.
+- Since a loss gives 0 points, L does not affect the total points, so we can ignore L in the points equation, but we need to consider it in the total matches equation.
+- From W + D + L = 40 and W + 0.5D = 25, we can solve for W and D.
+- Substituting L = 40 - W - D into the points equation, we get W + 0.5D = 25.
+- To find the difference between wins and losses (W - L), we need to express L in terms of W and D.
+- From W + D + L = 40, we have L = 40 - W - D.
+- Substituting W = 25 - 0.5D into L = 40 - W - D, we get L = 40 - (25 - 0.5D) - D = 15 - 0.5D.
+- Therefore, W - L = (25 - 0.5D) - (15 - 0.5D) = 10.
+- So, the chess player wins 10 more matches than he loses.
+
+**Answer**: C)

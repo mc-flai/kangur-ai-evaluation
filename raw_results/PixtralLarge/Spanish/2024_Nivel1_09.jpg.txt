@@ -1,0 +1,21 @@
+Para resolver el problema de la tabla 5x5, primero debemos asegurarnos de que todos los números en cada fila y columna sean diferentes. La tabla proporcionada ya tiene algunos números llenados. La celda central, marcada con un signo de interrogación (?), debe tener un número que no se repita en su fila ni en su columna.
+
+Analizando las filas y columnas alrededor de la celda central:
+
+- La primera fila tiene los números 5 y 5 (el segundo 5 está en la misma fila).
+- La segunda fila tiene los números 1, 2 y 3.
+- La tercera fila tiene los números 5, 4 y 2.
+- La cuarta fila tiene el número 3.
+- La quinta fila aún no tiene números llenados.
+
+Ahora, consideremos la fila y la columna de la celda central:
+
+- La fila central tiene los números 5, 4 y 2.
+- La columna central tiene los números 5, 1, 2 y 3.
+
+Para la celda central, los números que ya están en su fila y columna son 1, 2, 3, 4 y 5. El número que falta y que no se repite en ninguna de las filas ni columnas es el 3.
+
+Por lo tanto, el número que debe ingresarse en la celda central es el 3.
+
+Razonamiento: La celda central debe contener un número que no se repita en su fila ni en su columna. Los números ya presentes en la fila y columna de la celda central son 1, 2, 3, 4 y 5. El número que falta y que no se repite es el 3.
+Respuesta: B) 3

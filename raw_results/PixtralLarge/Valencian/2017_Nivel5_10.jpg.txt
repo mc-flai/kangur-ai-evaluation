@@ -1,0 +1,24 @@
+Per determinar la probabilitat que en llançar dos daus la suma siga 3, hem de considerar totes les combinacions possibles de resultats en els dos daus i veure quines d'aquestes sumen 3.
+
+1. Els resultats possibles per a un dau són: 1, 2, 3, 4, 5, 6.
+2. Els resultats possibles per a dos daus (considerant totes les combinacions) són:
+   - (1,1), (1,2), (1,3), (1,4), (1,5), (1,6)
+   - (2,1), (2,2), (2,3), (2,4), (2,5), (2,6)
+   - (3,1), (3,2), (3,3), (3,4), (3,5), (3,6)
+   - (4,1), (4,2), (4,3), (4,4), (4,5), (4,6)
+   - (5,1), (5,2), (5,3), (5,4), (5,5), (5,6)
+   - (6,1), (6,2), (6,3), (6,4), (6,5), (6,6)
+
+   Això fa un total de 36 combinacions possibles.
+
+3. D'aquestes combinacions, només dues sumen 3:
+   - (1,2) i (2,1)
+
+4. La probabilitat que en llançar dos daus la suma siga 3 és el nombre de combinacions favorables dividit pel nombre total de combinacions:
+   - Probabilitat = Nombre de combinacions favorables / Nombre total de combinacions
+   - Probabilitat = 2 / 36
+   - Probabilitat = 1 / 18
+
+Raonament: Hem identificat totes les combinacions possibles de resultats en llançar dos daus i hem trobat que només dues d'aquestes sumen 3. La probabilitat és, per tant, 2/36, que es simplifica a 1/18.
+
+Resposta: C)

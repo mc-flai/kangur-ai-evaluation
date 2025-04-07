@@ -1,0 +1,18 @@
+Raonament: La pregunta tracta sobre l'àrea de superfície d'una esfera. Si dues esferes de mercuri es combinen per formar una sola esfera, el volum total es duplica. El volum d'una esfera és proporcional al radi al cub (V ∝ r³), i l'àrea de la superfície és proporcional al radi al quadrat (A ∝ r²).
+
+Sigui r1 el radi de cada esfera menuda, i R el radi de la nova esfera.
+Sigui V1 el volum de cada esfera menuda, i V la volum de la nova esfera.
+Sigui A1 l'àrea superficial de cada esfera menuda, i A l'àrea superficial de la nova esfera.
+
+Tenim:
+V = 2 * V1
+(4/3)πR³ = 2 * (4/3)πr1³
+R³ = 2r1³
+R = r1 * 2^(1/3)
+
+L'àrea superficial d'una esfera és A = 4πr².
+A1 = 4πr1² = 2 mm²
+A = 4πR² = 4π * (r1 * 2^(1/3))² = 4πr1² * 2^(2/3) = A1 * 2^(2/3)
+A = 2 * 2^(2/3) = 2^(1 + 2/3) = 2^(5/3)
+
+Resposta: E)

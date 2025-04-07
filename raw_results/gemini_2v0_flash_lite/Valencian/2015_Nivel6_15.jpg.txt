@@ -1,0 +1,27 @@
+Raonament:
+1.  Ordenem les sumes en ordre ascendent: 22, 48, 50, 55, 57, 83, 89, 91, 117, 124.
+2.  Sabem que la suma més petita és la suma dels dos nombres més petits, i la suma més gran és la suma dels dos nombres més grans.
+3.  Sigui els nombres a, b, c, d, e en ordre ascendent. Llavors: a + b = 22 i d + e = 124.
+4.  Les altres sumes són: a+c, a+d, a+e, b+c, b+d, b+e, c+d, c+e.
+5.  El segon nombre més gran és *d*. Les sumes que contenen *d* són: a+d, b+d, c+d i d+e (que ja coneixem).
+6.  Necessitem trobar *d*. Podem intentar trobar els nombres.
+7.  Si a+b = 22, i les altres sumes estan lluny de 22, llavors a i b han de ser nombres relativament petits.
+8.  Provem a trobar a i b: Si assumim a+c = 48 i b+c = 50, llavors (b+c) - (a+c) = 50 - 48, i b-a = 2. Si a+b=22, i b-a=2, llavors 2b=24, b=12, i a=10.
+9.  Llavors, c = 48-10 = 38.
+10. Si c+d=83 i c=38, llavors d=45.
+11. Si d+e=124, i d=45, e=79.
+12. Ara comprovem si els nombres 10, 12, 38, 45, 79 funcionen amb les sumes donades:
+    * 10+12=22
+    * 10+38=48
+    * 10+45=55
+    * 10+79=89
+    * 12+38=50
+    * 12+45=57
+    * 12+79=91
+    * 38+45=83
+    * 38+79=117
+    * 45+79=124
+13. Per tant, els nombres son 10, 12, 38, 45 i 79.
+14. El segon nombre més gran és 45.
+
+Resposta: A)

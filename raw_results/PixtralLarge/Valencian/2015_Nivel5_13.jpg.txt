@@ -1,0 +1,18 @@
+Per resoldre aquest problema, necessitem determinar quantes cares consecutives ha d'aconseguir la moneda per tal que el 50% de les cares siguin consecutives.
+
+Primer, calculem el nombre total de cares que s'han d'aconseguir en 150 llançaments:
+
+50% de 150 = 0.5 * 150 = 75 cares.
+
+Ens demanen trobar quantes cares consecutives són necessàries perquè aquestes 75 cares es produeixin consecutivament.
+
+Ja sabem que els primers 56 llançaments són cares, per tant, necessitem 75 - 56 = 19 cares més per aconseguir les 75 cares.
+
+Per saber quantes cares consecutives calen, sumem els 56 cares inicials amb les 19 cares necessàries:
+
+56 + 19 = 75 cares consecutives.
+
+Per tant, la resposta correcta és:
+
+Raonament: Necessitem que el 50% de 150 llançaments siguin cares consecutives, el que equival a 75 cares. Ja tenim 56 cares, per tant necessitem 19 cares més. La quantitat total de cares consecutives necessàries és 56 + 19 = 75.
+Resposta: B) 75

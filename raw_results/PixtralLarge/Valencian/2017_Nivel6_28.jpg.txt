@@ -1,0 +1,30 @@
+**Raonament**:
+
+Primerament, necessitem determinar quantes caixes en total hi ha i quants viatges es necessiten per transportar-les.
+
+La informació que tenim és:
+- Cada caixa conté almenys 120 taronges i no més de 144.
+- 7 caixes tenen exactament 130 taronges cadascuna.
+- Hi ha exactament 7 conjunts de 6 caixes per als quals cadascuna de les 6 caixes conté el mateix nombre de taronges.
+- El camió només pot carregar 42 caixes per viatge.
+
+Per resoldre el problema, primer necessitem determinar el nombre mínim i màxim de caixes.
+
+Sabem que 7 caixes tenen 130 taronges cadascuna:
+\[ 7 \text{ caixes} \times 130 \text{ taronges} = 910 \text{ taronges} \]
+
+Cada conjunt de 6 caixes té el mateix nombre de taronges:
+Com que tenim 7 conjunts de 6 caixes, cada conjunt conté:
+\[ 910 \text{ taronges} \div 7 \text{ conjunts} = 130 \text{ taronges per conjunt} \]
+
+Per tant, cada caixa en aquests 7 conjunts de 6 caixes conté 130 taronges.
+
+Ara, sumem totes les caixes:
+\[ 7 \text{ caixes} + 7 \times 6 \text{ caixes} = 7 + 42 = 49 \text{ caixes} \]
+
+El camió pot transportar 42 caixes per viatge. Per saber quantes viatges es necessiten, dividim el nombre total de caixes pel nombre de caixes que el camió pot transportar en un viatge:
+\[ 49 \text{ caixes} \div 42 \text{ caixes per viatge} \approx 1.167 \]
+
+Com que no es poden fer viatges parcials, necessitem arrodonir cap amunt a 2 viatges.
+
+**Resposta**: B) 2.

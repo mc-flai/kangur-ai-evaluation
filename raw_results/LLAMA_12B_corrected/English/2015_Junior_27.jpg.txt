@@ -1,0 +1,35 @@
+Reasoning: **Step 1: Understand the problem**
+
+The question states that if one of the numbers 1, 2, 3, ..., n - 1, n is crossed out, the average of the remaining numbers is 4.75. We need to find out which number was crossed out.
+
+**Step 2: Calculate the sum of all numbers**
+
+To find the sum of all numbers from 1 to n, we can use the formula for the sum of an arithmetic series: 
+
+Sum = (n * (n + 1)) / 2
+
+**Step 3: Calculate the sum of remaining numbers**
+
+If one number is crossed out, the sum of the remaining numbers will be the original sum minus the crossed-out number.
+
+**Step 4: Calculate the average of the remaining numbers**
+
+The average of the remaining numbers is given as 4.75. We can set up an equation using the formula for the average:
+
+(Average) = Sum of remaining numbers / Number of remaining numbers
+
+Since there are n numbers, one of which is crossed out, the number of remaining numbers is (n - 1).
+
+**Step 5: Solve for the number that was crossed out**
+
+Substituting the values into the equation, we get:
+
+4.75 = [(Sum - crossed-out number) / (n - 1)]
+
+We know that the original sum is (n * (n + 1)) / 2. So, we substitute this value for the sum and solve for the crossed-out number.
+
+**Step 6: Choose the correct answer**
+
+After solving the equation, we find that the number that was crossed out is 9.
+
+Answer: D) 9

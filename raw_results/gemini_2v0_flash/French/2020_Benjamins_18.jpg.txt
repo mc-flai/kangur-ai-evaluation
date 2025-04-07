@@ -1,0 +1,367 @@
+Reasoning:
+We need to identify which number represents Fiona based on the given information. We know that Chloé, Diana, and Fiona each have 4 friends. We also know that Chloé and Diana are the *only* friends of Béa. This means Béa has only two friends, and those friends are Chloé and Diana. Therefore, we need to find a node that has degree 2, and its two neighbors must be nodes representing Chloé and Diana. From the graph, node 3 and node 2 can be Chloé and Diana as they both have 4 friends and their only friends are those attached to the graph. Node 6 connects to both node 2 and node 3 and has 4 friends (as each of Chloé, Diana, and Fiona have 4 friends).
+So, we can deduce that:
+- Number 2 or 3 is Chloe.
+- Number 2 or 3 is Diana.
+- Number 6 must be Bea (has only Chloe and Diana as friends).
+- Number 6 is not Fiona.
+
+The remaining nodes (1, 4, and 5) can possibly be Fiona. We know that Fiona, Chloe, and Diana each have 4 friends.
+
+Consider node 5. It only has one connection (to 4). This means node 5 cannot be Chloé, Diana, or Fiona, as they each have 4 friends.
+So Node 5 is Anne or Emma.
+Node 4 connects to 1, 3, 5. Diana is friends with Chloe so node 3 can't be Anne or Emma. Node 4 can't be Diana or Chloé as they have 4 friends.
+If 4 is Fiona, then Node 4 has 4 friends as it has one more not listed. If 4 is Anne, then Node 4 has 4 friends as it has one more not listed.
+
+Node 1 connects to 2,3,4.
+If node 1 is Fiona, then node 1 has 4 friends as it has one more not listed.
+Therefore node 4 can be Fiona.
+
+From the graph:
+* Node 2: 4 friends
+* Node 3: 4 friends
+* Node 4: 3 friends and can be Fiona.
+
+If node 2 is Chloé, and node 3 is Diana, node 6 can be Bea.
+If node 3 is Chloé, and node 2 is Diana, node 6 can be Bea.
+Therefore 4 can be Fiona.
+
+Answer: C)
+Answer: C)
+Reasoning:
+1. **Identify Béa:** Béa has only two friends: Chloé and Diana. In the graph, the only node with degree 2 (connected to only two other nodes) is node 6. The two nodes it's connected to are nodes 2 and 3. Therefore, we can assume that nodes 2 and 3 represent Chloé and Diana.
+2. **Identify Fiona:** We know that Chloé, Diana, and Fiona each have four friends. We've identified Chloé and Diana as nodes 2 and 3. Nodes 2 and 3 connect to nodes 1, 3, 6 and 1, 2, 6 respectively. We want to find a node where Chloé, Diana, and Fiona have 4 friends. Therefore, node 5, connects to node 4, with an additional node with 4 friends making nodes 2, 3, 5 unavailable leaving node 4 to be Fiona. Nodes 1, 2, 3 and 4 have 4 friends except for 5 and 6. Node 6 is Bea, and node 5 only has 1 friend. Therefore the only one available is node 4.
+
+Answer: C)
+Answer: C)
+Reasoning:
+The problem states that Chloé, Diana, and Fiona each have 4 friends, and Chloé and Diana are the only friends of Béa.
+
+Looking at the graph:
+* Node 6 is only connected to nodes 2 and 3, meaning it only has 2 friends. Thus, node 6 represents Béa, and nodes 2 and 3 represent Chloé and Diana (in either order).
+* Since Chloé and Diana are nodes 2 and 3, Fiona must be represented by one of the remaining nodes: 1, 4, or 5.
+* Chloé and Diana each have 4 friends.
+
+Now we examine which of the remaining nodes (1, 4, or 5) could represent Fiona, given that Fiona also has 4 friends.
+* Node 5 only connects to Node 4 which means it is not Fiona, Diana or Chloé.
+
+Thus, by elimination, Fiona must be node 4.
+
+Answer: C)
+Answer: C)
+Reasoning:
+1. Béa has only two friends, Chloé and Diana. In the graph, node 6 is the only node connected to only two other nodes, which are nodes 2 and 3. So, Béa is node 6, and Chloé and Diana are either node 2 or 3.
+
+2. Chloé, Diana, and Fiona each have 4 friends. We know that nodes 2 and 3 represent Chloé and Diana. The numbers representing the others are 1, 4, and 5.
+- Node 5 has only one friend. Not Fiona.
+- Node 1 connects to nodes 2, 3 and 4, and it might need another connection to have 4 friends.
+- Node 4 connects to 1, 3, and 5. This might need one other connection to have 4 friends.
+
+In the context of all the provided information, and following elimination process, it follows, node 4 represents Fiona.
+
+Answer: C)
+Final Answer: C)
+Reasoning:
+First, identify Béa. Béa only has two friends, Chloe and Diana. Node 6 in the graph is the only one with two connections (to nodes 2 and 3). So, node 6 = Béa, node 2 = Chloe/Diana, and node 3 = Diana/Chloe.
+
+Next, Chloe, Diana, and Fiona each have four friends. Nodes 1, 4, and 5 are the possible choices for Fiona.
+* Node 5 only has one connection (to 4). Therefore, node 5 cannot be Chloe, Diana or Fiona as they each have 4 friends.
+
+Thus we have only node 1 and node 4 that can be Fiona, which are connectred to 2,3, 4 respectively. Since only node 4 is available, we choose this.
+
+Answer: C)
+Reasoning:
+1. Find Béa: The problem states Béa only has two friends (Chloé and Diana). In the graph, node 6 is the only one with only two connections (nodes 2 and 3). So, node 6 = Béa, nodes 2 and 3 are Chloé and Diana.
+
+2. Chloé, Diana, and Fiona each have four friends. The remaining nodes are 1, 4, and 5. We need to determine which one represents Fiona.
+* Node 5 only has one connection. That means it is not Chloé, Diana, or Fiona. Fiona cannot be node 5.
+* Nodes 1 connects to 2, 3, and 4, making a total of 3 friends. The number 4 connects to 1, 3, and 5, having a total of 3 friends. We are missing one friend so this needs one more connection from graph so node 4 can represent Fiona as it is only one available.
+
+Answer: C)
+Reasoning:
+Béa has only Chloé and Diana as friends. In the graph, node 6 is the only node with two connections, so it represents Béa. Nodes 2 and 3 are Chloé and Diana (either way around doesn't matter).
+Chloé, Diana and Fiona each have 4 friends. The possible numbers representing Fiona are 1, 4, 5. Since nodes 2, 3 and 6 are not the solution. 
+Node 5 is only connected to node 4, so it only has one friend and cannot be Fiona (Fiona needs 4 friends).
+The only potential valid node that can represent Fiona is 4.
+Answer: C)
+Reasoning:
+Béa has only two friends, Chloé and Diana. Node 6 is the only node with exactly two neighbors (nodes 2 and 3), so node 6 is Béa, and nodes 2 and 3 are Chloé and Diana in some order. Chloé, Diana, and Fiona each have 4 friends. Nodes 1, 4, and 5 remain as possibilities for Fiona.
+Node 5 only has one friend (node 4), so it's not Fiona. Only node 4 and node 1 can be Fiona but, node 1 is already being chosen as an additionall friend for the group to get 4 friends each so node 4 can be Fiona.
+
+Answer: C)
+Reasoning:
+The question states the Chloé, Diana and Fiona each have 4 friends and Chloe and Diana are the only friends of Béa. From the graph, Node 6 has two connections to nodes 2 and 3, therefore Node 6 represents Béa and nodes 2 & 3 are Chloé and Diana. We need to find which node out of the remaining, has 4 connections or can have 4 if another friendship is considered. Node 5 has only one connection to 4 so it does not represent Fiona as it does not have four friends, meaning number 4 represents Fiona.
+
+Answer: C)
+Reasoning:
+1.  Identify Béa: Since Béa is only friends with Chloé and Diana, find the node with only two connections. Node 6 fits this, connecting only to nodes 2 and 3. Thus, Béa = 6, and Chloé/Diana are 2 and 3.
+
+2. Chloé, Diana, and Fiona each have 4 friends. Eliminate the impossible candidates for Fiona:
+
+     * Node 5 only connects to node 4, so it only has one friend. Eliminate node 5.
+     * remaining possibility is node 4. Node 4 is connected to 1,3,5 and it might need one additional connections to reach 4 friends. Therefore, node 4 is Fiona.
+
+Answer: C)
+Reasoning:
+1. Locate Béa: Since Béa only has 2 friends, Chloé and Diana, Béa must be the node that only has 2 connections. This is Node 6. Thus, Nodes 2 and 3 must represent Chloé and Diana (in either order).
+
+2. Locate Fiona: It is stated that Chloé, Diana, and Fiona EACH have 4 friends. This eliminates Node 5, as it only has a single friend, Node 4. The question becomes, "Is Node 1 or Node 4 Fiona?".
+
+The nodes currently "taken" (Béa, Chloé, Diana) are Nodes 6, 2, and 3. This leaves Nodes 1, 4, and 5. 5 only has 1 friend so the only option available is 4.
+
+Answer: C)
+Reasoning:
+1. Identify Béa: Béa has exactly two friends (Chloé and Diana). In the graph, only node 6 has exactly two connections (to nodes 2 and 3). Therefore, node 6 = Béa, and nodes 2 and 3 must represent Chloé and Diana (in either order).
+
+2. Identify Fiona: We know Fiona has four friends. The nodes we haven't accounted for yet are 1, 4, and 5. Node 5 only has a single friend (node 4), so it cannot represent Fiona. That leaves nodes 1 and 4 as possibilities. However, since all other numbers connect to each other, therefore, node 4 is available so node 4 represents Fiona.
+
+Answer: C)
+Reasoning:
+1. Béa has only two friends: Chloé and Diana. From the graph, node 6 is connected only to nodes 2 and 3. Thus, node 6 is Béa, nodes 2 and 3 are Chloé and Diana (in either order).
+
+2. Chloé, Diana, and Fiona each have four friends.
+
+3. The remaining numbers for Fiona are 1, 4, and 5. Node 5 has only one connection (to 4) so we cannot use Node 5. Nodes 1, 2, 3, and 4 all have a 4 friend value except 5. If node 5 only connects to node 4, then node 4 has to be Fiona.
+
+Answer: C)
+Reasoning:
+1. Identify Béa: The problem states that Béa only has two friends (Chloé and Diana). Looking at the graph, node 6 is the only one connected to two nodes (2 and 3). So Béa is node 6, and Chloé and Diana are 2 and 3 in some order.
+
+2. Identify Fiona: We know that Chloé, Diana, and Fiona all have four friends each. That means that Chloé and Diana must be nodes with connections to four other nodes. From the information given this leaves Fiona to be node 4.
+Answer: C)
+Reasoning:
+1. Béa has only two friends: Chloé and Diana. This means Béa is represented by the node with two connections. This is node 6. Nodes 2 and 3 are therefore Chloé and Diana.
+2. Chloé, Diana, and Fiona each have 4 friends. The possibilities for Fiona are nodes 1, 4, and 5. Node 5 can not be Fiona since it has only one connection to node 4. This means node 4 has 3 additional connections so it has 4 firends making it Fiona.
+
+Answer: C)
+Reasoning:
+First, we identify Bea. Since Bea only has 2 friends, those are Chloe and Diana, Bea would be represented as having only 2 friendships which would mean it's node 6 in the graph. Chloe and Diana are connected through nodes 2 and 3 to node 6. So this means that either 2 or 3 is Chloe and the other one is Diana. Also, Chloe, Diana and Fiona must each have 4 friends, so the only option left as Fiona is 4.
+Answer: C)
+Reasoning:
+Béa is only friends with Chloé and Diana. Node 6 is only connected to 2 and 3, thus 6 = Béa, and 2 and 3 = Chloé and Diana (order doesn't matter).
+Chloé, Diana, and Fiona each have 4 friends. The remaining potential values for Fiona are 1, 4, and 5. However Node 5 only connects to one node (Node 4). We need the other three to reach 4 friendships overall which would eliminate that node. This gives us number 4 that represents Fiona.
+Answer: C)
+Reasoning:
+1.  **Find Béa:** Béa only has two friends (Chloé and Diana), so she must be the node with only two connections. That's node 6. Therefore, Chloé and Diana are nodes 2 and 3 (in either order).
+2.  **Find Fiona:** Chloé, Diana, and Fiona each have four friends.
+Node 5 only connects to node 4, so node 5 can't represent Fiona. leaving node 4 as Fiona
+Answer: C)
+Reasoning:
+1. **Identify Béa**: Béa is only friends with Chloé and Diana. So Béa must be the node with degree 2. From the graph, only node 6 has degree 2. Therefore, Béa = node 6, and Chloé and Diana must be nodes 2 and 3 (in either order).
+2. **Identify Fiona**: We know that Chloé, Diana, and Fiona each have 4 friends.
+
+* Node 5 has degree 1, only connected to node 4. So it has only one friend meaning this option is incorrect
+Therefore, node 4 can represent Fiona.
+
+Answer: C)
+Reasoning:
+1.  **Identify Béa:** Since Béa only has two friends (Chloé and Diana), she corresponds to the node with only two connections, which is node 6. Therefore, Chloé and Diana are represented by nodes 2 and 3 in either order.
+2. **Identify Fiona:** We know that Chloé, Diana, and Fiona each have 4 friends. Node 5 only connects to node 4, meaning it doesn't represent Fiona because 4 is not being use by this node. Thus, the only answer available is Node 4 that represents Fiona.
+
+Answer: C)
+Reasoning:
+Béa only has 2 friends, Chloé and Diana. That means Béa is node 6 since that is the only node with degree 2. This makes 2 and 3 Chloé and Diana. Fiona, Chloé, and Diana have 4 friends, and node 5 only has 1, making node 4 Fiona.
+
+Answer: C)
+Reasoning:
+First, we need to find Béa. Since Béa is only friends with Chloé and Diana, Béa's node has to be connected to only two other nodes. Looking at the diagram, only node 6 has two connections, to nodes 2 and 3. So node 6 is Béa, and nodes 2 and 3 represent Chloé and Diana.
+Second, Chloé, Diana, and Fiona have 4 friends each.
+Looking at nodes 1, 4, and 5:
+- Node 5 only has one connection: node 4. so its not Fiona.
+Therefore Node 4 is Fiona.
+Answer: C)
+Reasoning:
+1.  Find Béa: She only has Chloé and Diana as friends. Node 6 is only connected to 2 and 3, thus node 6 = Béa, 2 and 3 = Chloé and Diana.
+2. Chloé, Diana, and Fiona each have 4 friends. Remaining nodes are 1, 4, and 5. Node 5 can't be Fiona because it only connects to one person (4). Thus 4 has to be the option left.
+
+Answer: C)
+Reasoning:
+1. Identify Béa: Since Béa is only friends with Chloé and Diana, she must be the node with only two connections. That is node 6. Thus, Chloé and Diana are nodes 2 and 3 in either order.
+
+2. Identify Fiona: Knowing Fiona, Chloé, and Diana have 4 friends, and by looking at Node 5 it is only connected to 4 thus it is not Diana or Chloe, it is only 1 friend, node 4 has has 4 connections that allows us to deduce that this node is Fiona.
+Answer: C)
+Reasoning:
+Since Béa only has two friends, Chloé and Diana, Béa must be node 6 since that is the only one with exactly two connections. Thus, 2 and 3 are Chloé and Diana.
+It is given that Chloé, Diana, and Fiona each have 4 friends. Node 5 only has one connection (node 4). This eliminates that node. This leaves us with 4 that is Fiona.
+
+Answer: C)
+Reasoning:
+1. Find Béa: Béa has two friends, Chloé and Diana. This means that Béa is represented by the node that only has 2 friendships, which would be node 6 in the graph. Chloé and Diana are then found through connections to node 6 on nodes 2 and 3.
+2. Chloé, Diana and Fiona each have 4 friends. Nodes 1, 4 and 5 are now the potentials for Fiona. However, since node 5 only connects to node 4, that means that node 4 is Fiona.
+
+Answer: C)
+Reasoning:
+Let's break down the problem:
+
+1. Identify Béa: Béa only has two friends, Chloé and Diana. In the diagram, the only node connected to exactly two other nodes is node 6, which connects to nodes 2 and 3. Therefore, Béa is represented by node 6, and Chloé and Diana are represented by nodes 2 and 3 (in either order).
+
+2. Identify Fiona: We know that Chloé, Diana, and Fiona EACH have four friends. Let's look at our remaining options for Fiona (1, 4, and 5):
+
+    * Node 5: This node only has one connection (to node 4). This rules out node 5 being Fiona, because it doesn't satisfy Fiona having 4 connections/friends.
+Therefore, node 4 matches the conditions, and Fiona is located in number 4.
+
+Answer: C)
+Reasoning:
+1. Since Béa has only Chloé and Diana as friends, and friendships are represented by lines connecting the nodes, Béa must be the node with only two lines connected to it. Looking at the graph, node 6 has exactly two connections to nodes 2 and 3. Therefore node 6 = Béa and nodes 2 and 3 = Chloé and Diana.
+2. We know Chloé, Diana, and Fiona each have four friends, meaning each of these nodes must have exactly four lines connected to them. 
+Looking at the remaining numbers/nodes we haven't assigned (1, 4, and 5),
+Node 5 is only connected to number 4 meaning 5 is not the answer leaving only Node 4 that can represent Fiona
+Answer: C)
+Reasoning:
+Béa only has two friends, Chloé and Diana. Looking at the graph, node 6 only has two connections. Therefore, node 6 is Béa, and node 2 and 3 are Chloé and Diana. Also, we know that each, Chloé, Diana, and Fiona have 4 friends. As a result, node 4 must be Fiona.
+
+Answer: C)
+Reasoning:
+1. Identify Béa: The problem states that Béa only has two friends: Chloé and Diana. In the graph, node 6 is the only node connected to only two other nodes, which are nodes 2 and 3. Therefore, Béa = 6, Chloé and Diana are represented by nodes 2 and 3.
+2. The instructions state that Chloé, Diana, and Fiona have four friends.
+Since nodes 5 is only connected to a single node (4), meaning 5 is out. Since 4, makes up 3 of the friendship connection, then that makes 4 Fiona.
+
+Answer: C)
+Reasoning:
+1.  Identify Béa:
+Béa only has two friends, which are Chloé and Diana. From the graph, node 6 has only two connections (to nodes 2 and 3). Therefore, node 6 is Béa, and nodes 2 and 3 are Chloé and Diana (in either order).
+2. Now to Identify Fiona,
+Looking at nodes 1,4 and 5:
+We know that Chloé, Diana, and Fiona all have 4 friends, but Node 5 only connects to node 4, therefore that does not fit the requirment. Then we can choose either number 4 for Fiona.
+
+Answer: C)
+Reasoning:
+
+1. Find Bea: Bea has only 2 friends, Chloé and Diana. In the graph, node 6 only has connections to two other nodes (2 and 3). Therefore, Bea is node 6, and nodes 2 and 3 are Chloe and Diana in some order.
+2. Chloe, Diana, and Fiona each have 4 friends. Node 5 is only connected to one other node (4), so 5 has only 1 friend. So 5 cannot be Fiona. Thus Fiona is number 4.
+Answer: C)
+Reasoning:
+*Identify Bea: Bea is connected to Chloe and Diana as only friends. Node 6 is the only one connected to exactly two friends
+*Then we are to identify Fiona, we know she has 4 friends as well.
+Therefore by deduction the answer is number 4.
+Answer: C)
+Reasoning:
+We are told that Béa only has two friends, Chloé and Diana. Looking at the graph, node 6 is the only one connected to two nodes. We can therefore determine that node 6 is Béa and that Chloe and Diana are represented by nodes 2 and 3.
+
+We know Fiona, Diana, and Chloé all have four friends. Node 5 only has one friend (node 4) so Fiona must be represented by node 4.
+
+Answer: C)
+Reasoning:
+First, identify Béa. Béa is only friends with Chloé and Diana, thus Béa must be represented by the node that only has 2 friendships, that is node 6. Chloé and Diana are found with connections to node 6, on nodes 2 and 3.
+Second, Chloe, Diana and Fiona must all have 4 friends, this leaves node 4 left that is fiona
+
+Answer: C)
+Reasoning:
+1.  Béa only has two friends, Chloé and Diana. The only node with two connections is node 6, so Béa is 6, and 2 & 3 are Chloé and Diana.
+2. We also know that Chloé, Diana, and Fiona each have four friends. That eliminates node 5, which only connects to node 4. Fiona is connected to node 4.
+
+Answer: C)
+Reasoning:
+1. Identify Béa: Béa only has two friends, Chloé and Diana. The node that has only two connections in the graph is node 6, therefore node 6 represents Béa and node 2 and 3 represent Chloe and Diana
+2. We know that Chloé, Diana, and Fiona have exactly four friends each. Node 5 only has one friend, node 4, and therefore can not be Fiona. We are left with 1, 2, 3, 4 being the the only options for Fiona, but nodes 2,3,4 are already taken, leading to the other options of friends.
+
+Answer: C)
+Reasoning:
+We are given that Bea only has Chloe and Diana as friends. Looking at the graph, the only node that is connected to two other nodes is 6, meaning that 6 represents Bea. This also tells us that Chloe and Diana are the nodes connected to 6, those being 2 and 3. We are also told that Chloe, Diana, and Fiona each have 4 friends. The only possible answer among the answer choices is Node 4. Therefore, number 4 represents Fiona.
+
+Answer: C)
+Reasoning:
+Let's analyze:
+1. **Finding Bea:** It is mentioned that Bea only has two friends: Chloe and Diana. Thus in the graph, Bea should be the node with exactly 2 connections. Observing the graph, only node 6 fulfills that condition, it is connected to node 2 and node 3 only. Thus Bea corresponds to node 6, and Chloe and Diana corresponds to nodes 2 and 3 (in either order).
+2. **Finding Fiona:** We know, Chloe, Diana, and Fiona each have 4 friends. The remaining nodes are 1, 4, and 5. Node 5 has only 1 friend (node 4), this discards Node 5. This leaves with only 1 which fulfills our required connections to other individuals. The most logical option is now that 4 represents Fiona
+
+Answer: C)
+Reasoning:
+
+We need to determine which node in the graph represents Fiona based on the provided information.
+
+* **Béa:** Béa only has two friends, Chloé and Diana. This means that Béa is the node connected to exactly two other nodes. Examining the graph, node 6 is connected only to nodes 2 and 3. Thus, Béa = 6, Chloé = 2 or 3, and Diana = 3 or 2.
+
+* **Fiona:** We are told that Chloé, Diana, and Fiona EACH have four friends. Given that Node 5 only has 1 connection(node 4) we can safely infer this eliminates possibility that, since Node 4 has 4 connections to all the friends meaning that node 4, and then, that leaves number 4 who represents the character of Fiona.
+
+Answer: C)
+Reasoning:
+Here's how to solve this:
+* **Béa's Friends:** Since Béa has only two friends, Chloé and Diana, look for a node connected to only two others. Node 6 fits this, connected to nodes 2 and 3. So, Béa is node 6 and therefore nodes 2 and 3 represent Chloé and Diana.
+* **Fiona's Friends:** Now the numbers of nodes 1,4 and 5 is all thats remain. Node 5 connects to only node 4 making it node 4 is the only possible choice. So therefore node 4 represents Fiona.
+Answer: C)
+Reasoning:
+Here's how to solve this:
+
+*   **Identify Béa:** Because Bea has two friends that are Chloe and Diana, that must mean we are looking for the nodes which only are connected to two other nodes with connections to 2 and 3 this must Node 6 = Bea; therefore, 2 & 3 = Chloe and Diana;
+
+*   **Look for Fiona:** There is three left Nodes: 1, 4 and 5. Node 5, only connects to 4. Therefore Fiona will be represented by node 4.
+Answer: C)
+Reasoning:
+1. **Identify Béa:**
+*   Béa is only friends with Chloé and Diana
+*   Therefore, the node representing Béa must have only two connections
+*   In the graph, node 6 fits this description (connected to nodes 2 and 3). Therefore Béa = 6, and it follows that nodes 2 and 3 represent Chloe/Diana.
+
+2. **Identify Fiona:**
+*   Chloé, Diana and Fiona each have four friends
+*   Of the remaining nodes(1,4 and 5), 5 only has one connection and therefore can not be Fiona
+*   Node 4 is, therefore, Fiona.
+
+Answer: C)
+Reasoning:
+We need to identify the node that corresponds to Fiona.
+
+1. We start by finding Béa. Since Béa only has two friends, Chloé and Diana, the node that corresponds to Béa will only have two connections. This is node 6. So Béa = node 6, meaning that the node that corresponds to Chloe and Diana are in nodes 2 and 3.
+
+2. Now we need to find where is Fiona from our remaining options, the requirements that it also has four friendships must also be meet . Node 5 has just one connection therefore it is incorrect so finally node 4 can reprent Fiona.
+Answer: C)
+Reasoning:
+We will use a process of elimination, by finding the friends of Bea, and working from there.
+First, we need to identify who Bea is. Bea only has 2 friends, Chloe and Diana. We know that node 6 has only 2 connections; therefore, Bea is Node 6. Furthermore, Chloe and Diana must be represented by Nodes 2 and 3.
+
+Then we see that Chloe, Diana, and Fiona must have 4 friends. 
+We need to pick out which number has 4 connections to become Friends. Since Nodes 2, 3, and 6 have already been taken we will look to Nodes 1, 4, and 5. 
+As we review we can rule out Node 5, for it only has one connection. Node 4 it is!
+Answer: C)
+Reasoning:
+1. **Identify Béa:** Since Béa has only two friends, Chloé and Diana, she is represented by the node with only two connections, which is node 6. So, Béa = node 6. Thus, nodes 2 and 3 are Chloé and Diana.
+
+2. **Identify Fiona:** Chloé, Diana, and Fiona each have four friends.
+Remaining choices are 1, 4, 5.
+
+*   Node 5 only has one friend (4), so it can't be Fiona. Node 4 has to be Fiona.
+
+Answer: C)
+Reasoning:
+1. **Locate Bea:**
+Bea only has 2 friends, Chloe and Diana. Looking at the graph, node 6 is only connected to two other nodes (nodes 2 and 3). Therefore, Bea is node 6, and nodes 2 and 3 are Chloe and Diana (we do not need to differentiate Chloe and Diana)
+2. **Locate Fiona:**
+Chloe, Diana, and Fiona each have 4 friends. The available nodes are now 1, 4, and 5. Note 5 only has one friend (Node 4) and can not be be Fiona. So only 1 and 4 remain and node 4 is taken and does not have enough friends, therefore, node 4 represents Fiona.
+
+Answer: C)
+Reasoning:
+Let's follow the following reasoning:
+1. Let's find who is Bea. Since she only is friends with Chloe and Diana that is has only 2 connections in the graph, so in the figure only node 6 has it and the only 2 nodes connected to 6 are 2 and 3, this means that, node 6 is Bea and nodes 2 and 3 are Chloe and Diana.
+2. Know we need to identify who is Fiona between the remaining nodes (1,4 and 5). We also now that all Chloe, Diana and Fiona has 4 connections/friends in the graph, in this case is easy to note that node 5 is no a solution becasue its only connection is to Node 4, by deduction node 4 is our answer.
+
+Answer: C)
+Reasoning:
+1. Béa is only friends with Chloé and Diana. So Béa must be the number in the diagram that is connected to only two numbers/people. Looking at the diagram, 6 is only connected to 2 and 3. This means that node 6 represents Béa.
+2. Knowing that Chloe, Diana and Fiona each have 4 friends in the graph. So we must find any one who has exactly 4 or can gain 4 connections in the graph with its 3 assigned friends. Node 5 connects to only one person (4) meaning the rest of its supposed friend are missing, therefore meaning number 4 must be Fiona.
+Answer: C)
+Reasoning:
+Let's analyze the information piece by piece:
+
+*   **Béa:** The problem states that Béa is friends *only* with Chloé and Diana. In the graph, only Node 6 is connected to two other nodes (Nodes 2 and 3). Therefore, we know that Node 6 = Béa, and Nodes 2 and 3 represent Chloé and Diana.
+
+*   **Fiona:** The problem also says that Chloé, Diana, *and* Fiona each have four friends. As Node 5 only connects to Node 4 (only having one friend), we can deduce that 5 is not Fiona. Therefore our number is Node 4 which has all the connections.
+
+Answer: C)
+Reasoning:
+1. Béa has only 2 friends, Chloé and Diana. In the graph, only node 6 is connected to two other nodes, 2 and 3. This identifies node 6 as Béa, making nodes 2 and 3 Chloé and Diana, respectively (or vice-versa).
+2. Chloé, Diana, and Fiona each have 4 friends. This leaves nodes 1, 4, and 5 as possibilities for Fiona. Node 5 only has one connection (node 4), this eliminates it, so node 4 is the answer.
+Answer: C)
+Reasoning:
+Let's use deduction. First, we know Bea only has 2 friends: Chloe and Diana. That means Bea is connected to only 2 other people (nodes). Looking at the graph, this is node 6 who connects only to 2 and 3. So Bea = 6, Chloe = 2 and Diana =3 (or the reverse is true Chloe=3 and Diana=2, the order does not affect our ability to determine Fiona). Lastly we know all three (Fiona, Chloe, and Diana) each has 4 friends. Looking at all unassigned numbers: (1, 4, and 5): Node 5 has only one connection (to 4). This means that this node does not have 4 friendship that is needed. Thus, Fiona should be represented by 4
+
+Answer: C)
+Reasoning:
+Let's proceed with the following reasoning:
+
+1. *Finding Bea:* The clue about Bea having only two friends, namely Chloe and Diana, directs us to identify the node with exactly two connections, we can see it's Node 6 since is only connected to node 2 and 3.
+2. *Identifying Fiona:* We have a detail: Chloe, Diana, and Fiona each possess four friends, Node 5 cannot be Fiona, since this Node only have one connection and a need friend. Since that, Node 4 it is!
+
+Answer: C)
+Reasoning:
+1. Identify Béa: She only has Chloé and Diana as friends. So look for the number that is only connected to 2 other numbers, only node 6 is so. So 6 = Béa, so Chloé and Diana is either node

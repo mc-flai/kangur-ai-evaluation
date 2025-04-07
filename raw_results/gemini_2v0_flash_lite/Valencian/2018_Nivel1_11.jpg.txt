@@ -1,0 +1,49 @@
+Raonament:
+1. **Entendre el problema:** Hi ha 5 pardals en un cable. Cada pardal piula tantes vegades com a pardals veu. Un pardal canvia de direcció i llavors tornen a piular. El nombre total de piulades augmenta. Necessitem trobar quin pardal va canviar de direcció.
+2. **Anàlisi de la situació inicial:**
+   * Pardal 1: Veu 4 pardals. Piula 4 vegades.
+   * Pardal 2: Veu 3 pardals. Piula 3 vegades.
+   * Pardal 3: Veu 2 pardals. Piula 2 vegades.
+   * Pardal 4: Veu 1 pardal. Piula 1 vegada.
+   * Pardal 5: Veu 0 pardals. Piula 0 vegades.
+   * Total de piulades inicials: 4 + 3 + 2 + 1 + 0 = 10 piulades.
+3. **Considerar el canvi de direcció:**
+   * Si el pardal 1 gira:
+     * Pardal 1: Veu 0 pardals. Piula 0 vegades.
+     * Pardal 2: Veu 4 pardals. Piula 4 vegades.
+     * Pardal 3: Veu 3 pardals. Piula 3 vegades.
+     * Pardal 4: Veu 2 pardals. Piula 2 vegades.
+     * Pardal 5: Veu 1 pardal. Piula 1 vegada.
+     * Total de piulades: 0 + 4 + 3 + 2 + 1 = 10 (no augmenta)
+   * Si el pardal 2 gira:
+     * Pardal 1: Veu 4 pardals. Piula 4 vegades.
+     * Pardal 2: Veu 0 pardals. Piula 0 vegades.
+     * Pardal 3: Veu 2 pardals. Piula 2 vegades.
+     * Pardal 4: Veu 1 pardal. Piula 1 vegada.
+     * Pardal 5: Veu 0 pardals. Piula 0 vegades.
+     * Total de piulades: 4 + 0 + 2 + 1 + 0 = 7 (disminueix)
+   * Si el pardal 3 gira:
+     * Pardal 1: Veu 4 pardals. Piula 4 vegades.
+     * Pardal 2: Veu 3 pardals. Piula 3 vegades.
+     * Pardal 3: Veu 0 pardals. Piula 0 vegades.
+     * Pardal 4: Veu 1 pardal. Piula 1 vegada.
+     * Pardal 5: Veu 0 pardals. Piula 0 vegades.
+     * Total de piulades: 4 + 3 + 0 + 1 + 0 = 8 (disminueix)
+   * Si el pardal 4 gira:
+     * Pardal 1: Veu 4 pardals. Piula 4 vegades.
+     * Pardal 2: Veu 3 pardals. Piula 3 vegades.
+     * Pardal 3: Veu 2 pardals. Piula 2 vegades.
+     * Pardal 4: Veu 0 pardals. Piula 0 vegades.
+     * Pardal 5: Veu 1 pardal. Piula 1 vegada.
+     * Total de piulades: 4 + 3 + 2 + 0 + 1 = 10 (no augmenta)
+   * Si el pardal 5 gira:
+     * Pardal 1: Veu 4 pardals. Piula 4 vegades.
+     * Pardal 2: Veu 3 pardals. Piula 3 vegades.
+     * Pardal 3: Veu 2 pardals. Piula 2 vegades.
+     * Pardal 4: Veu 1 pardal. Piula 1 vegada.
+     * Pardal 5: Veu 0 pardals. Piula 0 vegades.
+     * Total de piulades: 4 + 3 + 2 + 1 + 0 = 10 (no augmenta)
+4. **Observacions crucials:** Cap de les opcions descrites augmenta el total de piulades.
+   Això vol dir que la pregunta és incorrecta, o hi ha alguna condició no explicitada o potser el número 1 hauria de girar per provocar un augment. Com que l'única resposta que encaixa amb el plantejament és que cap de les opcions anteriors provoca l'augment requerit, he de triar aquesta.
+
+Resposta: E)

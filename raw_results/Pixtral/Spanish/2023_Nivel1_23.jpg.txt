@@ -1,0 +1,35 @@
+Para resolver esta pregunta, debemos entender cómo se construye la nueva torre y cómo se calculan los pares de dígitos adyacentes en la nueva torre.
+
+1. **Descripción del Problema**:
+   - Tenemos una torre original con bloques numerados del 1 al 50.
+   - Julia construye una nueva torre tomando los bloques de la parte superior de la torre original y colocándolos sobre una mesa.
+   - Luego, continúa tomando los bloques superiores restantes de la torre original y colocándolos en la parte superior de la nueva torre.
+
+2. **Proceso de Pensamiento**:
+   - La nueva torre se construye al tomar los bloques de la parte superior de la torre original y colocándolos sobre una mesa primero, y luego colocando los bloques restantes en la parte superior de la nueva torre.
+   - Los bloques en la parte superior de la nueva torre serán los mismos que los de la parte superior de la torre original.
+   - Los bloques en la parte inferior de la nueva torre serán los mismos que los de la parte inferior de la torre original.
+
+3. **Identificación de los Pares de Dígitos Adyacentes**:
+   - Los bloques en la parte superior de la nueva torre son 50 y 2.
+   - Los bloques en la parte inferior de la nueva torre son 49 y 1.
+   - Los bloques en el medio de la nueva torre son 4, 3, 2, 1 en la parte superior y 48, 47, 50, 49 en la parte inferior.
+
+4. **Cálculo de los Pares de Dígitos Adyacentes**:
+   - Pares en la parte superior de la nueva torre: 50 y 2.
+   - Pares en la parte inferior de la nueva torre: 49 y 1.
+   - Pares en el medio de la nueva torre: 4 y 3, 3 y 2, 2 y 1 en la parte superior; 48 y 47, 47 y 50, 50 y 49 en la parte inferior.
+
+5. **Comparación con las Opciones Dadas**:
+   - A) 29 y 28
+   - B) 34 y 35
+   - C) 29 y 26
+   - D) 31 y 33
+   - E) 27 y 30
+
+   - Los pares de dígitos adyacentes en la nueva torre son 50 y 2, 49 y 1, 4 y 3, 3 y 2, 2 y 1, 48 y 47, 47 y 50, 50 y 49.
+   - La opción que mejor se ajusta a estos pares es D) 31 y 33.
+
+**Respuesta Final**:
+Razonamiento: La nueva torre se construye al tomar los bloques de la parte superior de la torre original y colocándolos sobre una mesa primero, y luego colocando los bloques restantes en la parte superior de la nueva torre. Los pares de dígitos adyacentes en la nueva torre son 50 y 2, 49 y 1, 4 y 3, 3 y 2, 2 y 1, 48 y 47, 47 y 50, 50 y 49. La opción que mejor se ajusta a estos pares es D) 31 y 33.
+Respuesta: D)

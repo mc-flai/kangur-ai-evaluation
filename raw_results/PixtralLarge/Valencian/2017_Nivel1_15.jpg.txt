@@ -1,0 +1,13 @@
+**Raonament**:
+La figura està formada per 18 palets idèntics i conté 13 triangles. Hem d'identificar el nombre màxim de triangles que poden ser destruïts mitjançant l'eliminació d'un sol palet exactament.
+
+Per resoldre aquest problema, cal identificar els triangles i després determinar quin dels palets afecta el major nombre de triangles. Observant la figura:
+
+1. El palet superior és part de 1 triangle.
+2. Cada palet de la segona fila és part de 2 triangles.
+3. Cada palet de la tercera fila és part de 3 triangles.
+4. Cada palet de la quarta fila és part de 4 triangles.
+
+El palet central de la quarta fila (el que està entre els altres dos) és part de 4 triangles. L'eliminació d'aquest palet destruirà 4 triangles i no afectarà la resta de la figura, destruint així el nombre màxim de triangles.
+
+**Resposta**: D) 4.

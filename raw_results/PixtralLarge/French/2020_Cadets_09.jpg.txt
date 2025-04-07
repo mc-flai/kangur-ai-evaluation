@@ -1,0 +1,31 @@
+Pour résoudre ce problème, nous devons trouver le plus petit résultat possible lorsque nous multiplions trois nombres différents parmi les six nombres donnés : -5, -3, -1, 2, 4 et 6.
+
+**Raisonnement** :
+
+1. Pour obtenir le plus petit produit possible, nous devons choisir les combinaisons qui donnent le produit négatif le plus grand en valeur absolue, car un produit négatif sera toujours plus petit qu'un produit positif.
+2. Les nombres possibles sont : -5, -3, -1, 2, 4 et 6.
+3. Essayons les combinaisons possibles de trois nombres :
+   - (-5) * (-3) * (-1) = -15
+   - (-5) * (-3) * 2 = 30
+   - (-5) * (-3) * 4 = 60
+   - (-5) * (-3) * 6 = 90
+   - (-5) * (-1) * 2 = 10
+   - (-5) * (-1) * 4 = 20
+   - (-5) * (-1) * 6 = 30
+   - (-5) * 2 * 4 = -40
+   - (-5) * 2 * 6 = -60
+   - (-5) * 4 * 6 = -120
+   - (-3) * (-1) * 2 = 6
+   - (-3) * (-1) * 4 = 12
+   - (-3) * (-1) * 6 = 18
+   - (-3) * 2 * 4 = -24
+   - (-3) * 2 * 6 = -36
+   - (-3) * 4 * 6 = -72
+   - (-1) * 2 * 4 = -8
+   - (-1) * 2 * 6 = -12
+   - (-1) * 4 * 6 = -24
+   - 2 * 4 * 6 = 48
+
+4. Parmi ces produits, le plus petit (le plus négatif) est -120, obtenu en multipliant -5, 4 et 6.
+
+**Réponse** : B) -120.

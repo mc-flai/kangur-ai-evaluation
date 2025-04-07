@@ -1,0 +1,54 @@
+Per determinar el perímetre de la regió \(PQR\) del cub que té un volum de 64 unitats cúbiques, hem de seguir els següents passos:
+
+1. **Determinar la longitud de l'aresta del cub**:
+   - El volum del cub es dona per \(V = 64\) unitats cúbiques.
+   - La fórmula del volum d'un cub és \(V = a^3\), on \(a\) és la longitud de l'aresta.
+   - Per tant, \(a^3 = 64\).
+   - Resolent per \(a\), obtenim:
+     \[
+     a = \sqrt[3]{64} = 4
+     \]
+
+2. **Identificar les longituds dels segments \(PQ\), \(QR\) i \(RP\)**:
+   - La figura mostra que \(P\), \(Q\) i \(R\) són els punts mitjans de les arestes del cub.
+   - La longitud de cada aresta del cub és 4 unitats.
+   - Com que \(P\), \(Q\) i \(R\) són els punts mitjans, cada segment connecta dos punts mitjans de les arestes adjacents.
+
+3. **Calcular les longituds dels segments**:
+   - Cada segment connecta dos punts mitjans d'arestes adjacents en un cub, formant una distància igual a la meitat de la diagonal de la cara del cub.
+   - La diagonal de la cara del cub es calcula com:
+     \[
+     d = \sqrt{(4^2 + 4^2)} = \sqrt{32} = 4\sqrt{2}
+     \]
+   - La meitat de la diagonal de la cara és:
+     \[
+     \frac{d}{2} = \frac{4\sqrt{2}}{2} = 2\sqrt{2}
+     \]
+   - Però com que \(PQ\) és una diagonal directa que connecta dos punts mitjans de les arestes oposades, la longitud és:
+     \[
+     PQ = 4\sqrt{2}
+     \]
+   - Les longituds de \(QR\) i \(RP\) són:
+     \[
+     QR = 4
+     \]
+     \[
+     RP = 4
+     \]
+
+4. **Calcular el perímetre de la regió \(PQR\)**:
+   - El perímetre és la suma de les longituds de \(PQ\), \(QR\) i \(RP\):
+     \[
+     \text{Perímetre} = PQ + QR + RP = 4\sqrt{2} + 4 + 4 = 4\sqrt{2} + 8
+     \]
+   - Simplificant, obtenim:
+     \[
+     \text{Perímetre} = 4(\sqrt{2} + 2)
+     \]
+
+5. **Comparar amb les opcions donades**:
+   - L'opció correcta és \(12\sqrt{2}\).
+
+Raonament: Hem determinat la longitud de l'aresta del cub, identificat les longituds dels segments \(PQ\), \(QR\) i \(RP\), i calculat el perímetre de la regió \(PQR\).
+
+Resposta: E)

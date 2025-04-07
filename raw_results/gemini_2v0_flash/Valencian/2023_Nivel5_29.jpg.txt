@@ -1,0 +1,18 @@
+Raonament: Primer, podem reescriure l'equació com $a^{2x} - b^{2x} - 2(ab)^x = 0$. Dividim tota l'equació per $b^{2x}$:
+$$ \frac{a^{2x}}{b^{2x}} - 1 - 2\frac{(ab)^x}{b^{2x}} = 0 $$
+$$ \left(\frac{a}{b}\right)^{2x} - 1 - 2\frac{a^x b^x}{b^{2x}} = 0 $$
+$$ \left(\frac{a}{b}\right)^{2x} - 1 - 2\left(\frac{a}{b}\right)^x = 0 $$
+Sigui $y = \left(\frac{a}{b}\right)^x$. L'equació esdevé:
+$$ y^2 - 2y - 1 = 0 $$
+Utilitzem la fórmula quadràtica per trobar $y$:
+$$ y = \frac{-(-2) \pm \sqrt{(-2)^2 - 4(1)(-1)}}{2(1)} = \frac{2 \pm \sqrt{4+4}}{2} = \frac{2 \pm \sqrt{8}}{2} = \frac{2 \pm 2\sqrt{2}}{2} = 1 \pm \sqrt{2} $$
+Com que $a > 1$ i $b > 1$, llavors $\left(\frac{a}{b}\right)^x > 0$, de manera que $y > 0$. Per tant, escollim la solució positiva:
+$$ y = 1 + \sqrt{2} $$
+Ara, hem de trobar $x$:
+$$ \left(\frac{a}{b}\right)^x = 1 + \sqrt{2} $$
+Prendre el logaritme natural d'ambdós costats:
+$$ x \ln\left(\frac{a}{b}\right) = \ln(1 + \sqrt{2}) $$
+$$ x = \frac{\ln(1 + \sqrt{2})}{\ln\left(\frac{a}{b}\right)} $$
+Per tant, la resposta correcta és D.
+
+Resposta: D)

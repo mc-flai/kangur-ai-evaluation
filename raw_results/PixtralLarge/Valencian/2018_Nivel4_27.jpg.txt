@@ -1,0 +1,49 @@
+**Raonament**:
+
+1. L'equació donada és \(\frac{a}{b+1} + \frac{b}{a+1} = 1\).
+
+2. Per trobar l'expressió \(\frac{a}{b} + \frac{b}{a} - \frac{1}{ab}\), comencem per manipular l'equació original per descriure \(a\) i \(b\) en termes de la forma desitjada.
+
+3. Multipliquem per \(b+1\) i \(a+1\):
+   \[
+   \frac{a}{b+1} \cdot (b+1) + \frac{b}{a+1} \cdot (a+1) = 1 \cdot (b+1) \cdot (a+1)
+   \]
+   Simplificant, obtenim:
+   \[
+   a + b = (a+1)(b+1)
+   \]
+
+4. Expandim i simplifiquem:
+   \[
+   a + b = ab + a + b + 1
+   \]
+   \[
+   0 = ab + 1
+   \]
+   \[
+   ab = -1
+   \]
+
+5. Substituïm \(ab = -1\) en l'expressió que volem trobar:
+   \[
+   \frac{a}{b} + \frac{b}{a} - \frac{1}{ab}
+   \]
+
+6. Substituïm \(ab = -1\) en \(\frac{1}{ab}\):
+   \[
+   \frac{1}{ab} = \frac{1}{-1} = -1
+   \]
+
+7. Per tant, l'expressió es torna:
+   \[
+   \frac{a}{b} + \frac{b}{a} + 1
+   \]
+
+8. Notem que \(\frac{a}{b} + \frac{b}{a}\) ha de ser igual a 1, ja que això es deriva directament de l'equació original.
+
+9. Per tant, l'expressió \(\frac{a}{b} + \frac{b}{a} - \frac{1}{ab}\) és igual a 2, ja que:
+   \[
+   \frac{a}{b} + \frac{b}{a} + 1 = 1 + 1 = 2
+   \]
+
+**Resposta**: D) És igual a 2.

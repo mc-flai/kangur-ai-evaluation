@@ -1,0 +1,21 @@
+Razonamiento: La pregunta 19 pide la cantidad de colores distintos que tienen las fichas numeradas del 1 al 2015. Las fichas del mismo color tienen la misma suma de sus dígitos. Por lo tanto, la cantidad de colores distintos es la cantidad de sumas distintas posibles.
+
+La suma mínima es 1 (para el número 1). La suma máxima es 1+9+9+9 = 28 (para el número 1999). Los números del 2000 al 2015 tienen como suma máxima 2+0+1+5 = 8. La suma del número 2015 es 8. Entonces la suma de los dígitos de los números del 1 al 2015 puede variar desde 1 hasta 28.
+
+Consideremos algunos ejemplos:
+1 -> 1
+9 -> 9
+10 -> 1
+11 -> 2
+12 -> 3
+...
+99 -> 18
+100 -> 1
+...
+1999 -> 28
+2000 -> 2
+2015 -> 8
+
+Podemos obtener cualquier suma desde 1 hasta 28. Por lo tanto, la cantidad de colores distintos es 28.
+
+Respuesta: C)

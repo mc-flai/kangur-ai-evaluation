@@ -1,0 +1,12 @@
+Per resoldre la pregunta de quantes colors diferents es necessiten per pintar els vèrtexs d'un cub de manera que cada vèrtex i tots els vèrtexs units a ell per arestes tinguin diferents colors, hem de considerar el grau dels vèrtexs del cub.
+
+Un cub té 8 vèrtexs, i cada vèrtex està connectat a 3 altres vèrtexs. Per tant, cada vèrtex necessita un color diferent dels seus 3 vèrtexs adjacents.
+
+1. Comencem pintant un vèrtex amb el color 1.
+2. Els 3 vèrtexs adjacents a aquest vèrtex han de ser pintats amb colors diferents. Això requereix 3 colors addicionals (colors 2, 3 i 4).
+3. Ara, considerem els vèrtexs restants. Cadascun dels vèrtexs restants està connectat a 3 vèrtexs que ja estan pintats amb colors diferents. Com que cada vèrtex necessita un color diferent dels seus 3 vèrtexs adjacents, i ja tenim 4 colors disponibles, aquests 4 colors són suficients per pintar tots els vèrtexs del cub sense repetir colors en vèrtexs adjacents.
+
+Per tant, el nombre mínim de colors necessaris és 4.
+
+Raonament: Cada vèrtex del cub està connectat a 3 altres vèrtexs, i necessita un color diferent dels seus 3 vèrtexs adjacents. Utilitzant 4 colors, podem assegurar que cada vèrtex i els seus adjacents tinguin colors diferents.
+Resposta: B)

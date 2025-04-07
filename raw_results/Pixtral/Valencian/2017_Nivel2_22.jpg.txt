@@ -1,0 +1,15 @@
+La pregunta 22 pregunta quantes nombres diferents de tres xifres poden representar un producte de tres nombres diferents.
+
+Per resoldre això, primer hem de comprendre quines xifres de tres xifres hi ha. Les xifres de tres xifres van des del 100 al 999. Per tant, hi ha 900 nombres de tres xifres (999 - 100 + 1).
+
+Ara, hem de determinar quants d'aquests nombres de tres xifres poden ser productes de tres nombres diferents. Un producte de tres nombres diferents sempre serà un nombre que es pot descompondre en tres factors diferents. Per exemple, 100 = 1 * 2 * 50.
+
+Però, no tots els nombres de tres xifres poden ser productes de tres nombres diferents. Per exemple, 101 no es pot descompondre en tres nombres diferents (és un nombre primer).
+
+Per simplificar, podem observar que els nombres de tres xifres que són productes de tres nombres diferents són relativament rares. Per exemple, nombres com 108 = 2 * 3 * 18, 120 = 2 * 2 * 30, etc., són productes de tres nombres diferents.
+
+D'altra banda, nombres com 101, 103, 107, etc., són nombres primers i no es poden descompondre en tres nombres diferents.
+
+Per tant, la quantitat de nombres de tres xifres que són productes de tres nombres diferents és relativament petita.
+
+**Resposta: E)**

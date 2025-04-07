@@ -1,0 +1,14 @@
+Raonament: Hem de trobar la fracció més gran possible que compleix dues condicions: la suma del numerador i denominador és menor o igual a 103, i la fracció és menor que 1/3. Comprovem cada opció:
+A) 27/77: 27 + 77 = 104 > 103. No compleix la primera condició.
+B) 26/77: 26 + 77 = 103 <= 103. Compleix la primera condició. 26/77 ≈ 0.3377 < 1/3 ≈ 0.3333. No compleix la segona condició.
+C) 25/76: 25 + 76 = 101 <= 103. Compleix la primera condició. 25/76 ≈ 0.3289 < 1/3 ≈ 0.3333. Compleix la segona condició.
+D) 25/77: 25 + 77 = 102 <= 103. Compleix la primera condició. 25/77 ≈ 0.3247 < 1/3 ≈ 0.3333. Compleix la segona condició.
+E) 26/75: 26 + 75 = 101 <= 103. Compleix la primera condició. 26/75 ≈ 0.3467 > 1/3 ≈ 0.3333. No compleix la segona condició.
+
+Ara comparem les opcions C i D que compleixen ambdues condicions:
+C) 25/76 ≈ 0.3289
+D) 25/77 ≈ 0.3247
+25/76 és més gran que 25/77.
+Per tant, la resposta correcta és C.
+
+Resposta: C)

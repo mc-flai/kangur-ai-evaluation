@@ -1,0 +1,10 @@
+Raisonnement : Nous devons trouver la combinaison d'opérations qui donne le résultat le plus élevé. Nous avons l'expression 2 # 0 # 1 # 9. Les opérations sont +, -, et ×. Pour maximiser le résultat, il est logique de multiplier les plus grands nombres. Plusieurs combinaisons sont possibles, testons-les.
+*   2 + 0 - 1 x 9 = -7
+*   2 + 0 x 1 - 9 = -7
+*   2 - 0 + 1 x 9 = 11
+*   2 - 0 x 1 + 9 = 11
+*   2 x 0 + 1 - 9 = -8
+*   2 x 0 - 1 + 9 = 8
+Parmi ces résultats, le plus grand est 11.
+
+Réponse : D)

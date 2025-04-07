@@ -1,0 +1,24 @@
+Razonamiento:
+Sea el triángulo rectángulo ABC, donde el ángulo recto está en B. Sea A el ángulo agudo cuya bisectriz se traza. Sea AD la bisectriz del ángulo A, donde D está en BC. Entonces BD = 1 y DC = 2. Queremos hallar la longitud de AD.
+Por el teorema de la bisectriz, AB/AC = BD/DC = 1/2. Sea AB = x, entonces AC = 2x.
+Por el teorema de Pitágoras, AB^2 + BC^2 = AC^2, entonces x^2 + (1+2)^2 = (2x)^2.
+Esto implica x^2 + 9 = 4x^2, por lo que 3x^2 = 9, y x^2 = 3, entonces x = sqrt(3). Así AB = sqrt(3) y AC = 2sqrt(3).
+Consideremos el triángulo ABD. Sean a = ángulo BAD = ángulo CAD.
+Por la ley de los cosenos en el triángulo ABD,
+AD^2 = AB^2 + BD^2 - 2 * AB * BD * cos(B)
+AD^2 = AB^2 + BD^2 - 2 * AB * BD * cos(B)
+AD^2 = AB^2 + BD^2 - 2(AB)(BD)cos(B)
+Como tenemos ABD, sabemos AB = sqrt(3) y BD = 1. No sabemos el ángulo B, pero sí sabemos el ángulo A.
+En ABC, sin(A) = BC/AC = 3/(2sqrt(3)) = sqrt(3)/2. A = 60°. Entonces a = 30°.
+Usando la ley de los cosenos en el triángulo ABD, AD^2 = AB^2 + BD^2 - 2(AB)(BD)cos(B).
+Por la ley de senos en el triángulo ABD, AD/sin(B) = BD/sin(a), entonces AD/sin(90°) = 1/sin(a)
+Entonces AD = sqrt(3) + 1 + sqrt(3) + sqrt(4) = BD/Sin(30). AD = sqrt(5);
+O bien, podemos considerar que en el triángulo ABD:
+Aplicamos nuevamente la ley de los cosenos:
+$AD^2 = AB^2 + BD^2 - 2 \cdot AB \cdot BD \cdot \cos B = AB^2 + BD^2$
+$AD^2 = (\sqrt{3})^2 + 1^2 = 3 + 1 = 4$
+Entonces $AD = \sqrt{4} = 2$.
+
+Razonamiento: Consideremos el triangulo rectangulo ABC, con angulo recto en B, y AD la bisectriz del angulo A. Entonces AB/AC = BD/CD = 1/2. Sea AB = x, AC = 2x. Por Pitagoras, x^2 + 3^2 = (2x)^2 => 3x^2=9 => x = sqrt(3). Entonces AB = sqrt(3), AC = 2sqrt(3). En el triangulo ABD, por la ley de cosenos, AD^2 = AB^2 + BD^2 - 2(AB)(BD)cos(B) = AB^2 + BD^2, ya que B=90. AD^2 = 3 + 1 = 4. Entonces AD = 2 = sqrt(4).
+
+Respuesta: C)

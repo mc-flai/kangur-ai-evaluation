@@ -1,0 +1,85 @@
+Reasoning: Let B represent a beaver and K a kangaroo. We have 6 beavers and 2 kangaroos in positions 1 to 8. The constraint is that in any three consecutive animals, there is exactly one kangaroo.
+Let's consider the possible kangaroo positions.
+If the kangaroos are in positions 1 and 4, we have KBBKBBBB, and looking at positions 5,6,7, there are no kangaroos, which is not allowed.
+If the kangaroos are in positions 1 and 5, we have KBBKBXXX where X is B. But BKB means that positions 1,2,3 have exactly one kangaroo, positions 2,3,4 have 0 kangaroos. This is invalid.
+Let's try K in position 2. We must have BKB. Now positions 4,5,6 must have exactly one K. BB could continue as BKB, so BKB BKB BB. The length is 8, 2 Ks and 6Bs, so this is an example of the configuration. So K is at position 2 is a possibility.
+If K is at position 3, we have BBK. Now consider positions 4,5,6, we need 1 K. So BBK BKB. So BBK BKB BB. So K can be at position 3 as in BBK BKB BB.
+If K is at position 4, we have BBBK. Now consider positions 5,6,7. We need one K, so BBBK BKB B, doesn't work.
+If K is at position 5, we have BBBBKB. So we can have BBBK BKB B. But this doesn't work with position 1,2,3. But if we have BBKBKBXB. This doesn't fulfill the condition.
+
+Let us check the options:
+A) 1: KBBKBBBB. Considering positions 5,6,7, no K. Invalid.
+B) 2: BKB BKB BB. Possible.
+C) 3: BBK BKB BB. Possible.
+D) 4: BBBK. We can complete this. BBBKBKB B. Positions 1,2,3: 0 Ks. Invalid.
+E) 5: BBBBKBXB. This is incorrect.
+
+The problem states "On which of THESE numbers". We seek the ONLY possible position.
+Suppose K at 2. Then BKB. Consider BKB BKB BB. Then K at 2 and 5.
+Suppose K at 3. Then BBK. Consider BBK BKB BB. Then K at 3 and 6.
+
+Now, let us analyze the condition for three animals. Positions 1 to 8 are a1,a2,a3,a4,a5,a6,a7,a8. Number of kangaroos=2. Then:
+- positions 1,2,3 -> 1 K
+- positions 2,3,4 -> 1 K
+- positions 3,4,5 -> 1 K
+- positions 4,5,6 -> 1 K
+- positions 5,6,7 -> 1 K
+- positions 6,7,8 -> 1 K
+
+Then we seek K's.
+Suppose 2 is a K. BKB. Then 5 is also a K. Then BKB BKB BB. Then the positions are 2 and 5.
+Suppose 3 is a K. BBK. Then 6 is also a K. BBK BKB BB. Then the positions are 3 and 6.
+Comparing the options: we have 2, 3. So 2 is possible or 3 is possible. Only one position must be correct! Let me double check my configuration. The correct answer has to be among these!
+
+If K at position 2: BKB BKB BB. So K at 2 and 5. This is possible
+If K at position 3: BBK BKB BB. So K at 3 and 6. This is possible.
+
+If K is at positions 3 and 6, 3-4-5 -> BKB.
+Consider positions 1,2,3: If a1=K, KBKBKB. Not allowed.
+Positions 1,2,3 -> BBK - we must have the kangaroos at positions 3 and x. x = {6}. Positions 3 and 6 are a possibility.
+
+Now from the given options determine the numbers:
+Positions 2,5 -> only B is possible
+Positions 3,6 -> only C is possible
+So it is only possible on one of these numbers
+
+Suppose we analyze the possibilities in another order:
+We want the positions for these Kangaroos {a,b} where "a" and "b" are the location values for the kangaroos. Thus, with a<=8 and b<=8. Also given 6 beavers and 2 kangaroos. Let a = 2 then the first 3 elements are:
+1 K position a: * * K where each star element is a B element for beaver.
+
+Looking at the problem carefully the question is "On which of THESE numbers stands a kangaroo?" and not "Which of THESE numbers" as in which is NOT a kangaroo position, since if we follow with any one number, there seems to exist other kangaroos positions as well. So lets consider K in {1,2,3,4,5,6,7,8} each time.
+A- K in 1: KB- then the third element has to be a beaver, 4 elements now we have the condition KBB *, *BB* -> so fifth element is a K or else with *BB elements
+K at location 5 : 5 6 7 : at positions = B B B; -> thus cannot be since exactly 1K, for ANY 3 animals.
+
+Now with two kangaroos there will then result in exactly 6 beavers as well,
+If K locations=2, 5 : total locations = 2 -> {1, ...,  6} -> then exactly 3 places to place it (as per condition.  => NOT applicable.
+
+Reasoning: Analyzing different valid scenarios and constraints, positions 2, 3 are the most suitable, as K at these positions does fit scenario for 3-length of the K at least once. Given options B, and C. I consider B being more plausible
+Answer: B)
+Reasoning: Given the condition that "of three animals in a row there is always exactly one kangaroo," and after considering possible arrangements of beavers (B) and kangaroos (K), the most plausible arrangement places a kangaroo at position 2. This arrangement ensures that any sequence of three consecutive animals contains exactly one kangaroo.
+Answer: B)
+Reasoning: Let's test the possibilities provided. If a kangaroo is at position 1, we have KBBKBBBB. This fails since positions 5, 6, and 7 have no kangaroos. If a kangaroo is at position 2, we have BKB BKB BB. This satisfies the condition. If a kangaroo is at position 3, we have BBK BKB BB. This satisfies the condition. If a kangaroo is at position 4, we have BBBK. This immediately leads to a problem as the first three positions have no kangaroo. If a kangaroo is at position 5, we have BBBKB. However, positions 1,2,3 could have a kangaroo at position 2: but as discussed, it depends and we do NOT know all the locations for our animals!!
+Given only positions 2 or 3 works here. With a closer review, given each possible scenario, if one kangaroo at position 2, it also means another kangaroo at position 5, similarly for position 3 also. so the key here is: what positions CANNOT or "On which of THESE NUMBERS STANDS a kangaroo". Therefore if position is a K at 2 or 3 -> the position is said to exist. Therefore any animal on location 2 = always stands as kangaroo in specific formation sequence.
+Answer: B)
+Reasoning: We are looking for a position where a kangaroo *can* be. If we try position 2, we get BKB. Then, we can continue with BKB BKB BB, which fits the rule. Therefore, position 2 can have a kangaroo. If we try position 3, we get BBK, then BBK BKB BB, which works.
+
+The question asks "On which of THESE numbers stands a kangaroo?" Let's analyze. Option A means the sequence starts with a kangaroo. Option B means the sequence's second entry is a kangaroo. And so on. Option B will satisfy the condition that a kangaroo STANDS on location #2.
+
+Positions 1, 2, and 3 must have exactly one kangaroo. Then either position 1 is K, or 2 is K, or 3 is K. 4 and 5 and 6 must have a kangaroo! And so on
+Answer: B)
+Reasoning:
+Given 6 beavers and 2 kangaroos. In any group of 3, there is exactly one kangaroo.
+Let's represent beaver as B and kangaroo as K.
+A) If 1 is a kangaroo: KBBKBBBB. 5,6,7 => BBB - invalid
+B) If 2 is a kangaroo: BKB BKB BB. 2,5 are kangaroos.
+C) If 3 is a kangaroo: BBK BKB BB. 3,6 are kangaroos.
+D) If 4 is a kangaroo: BBBK. Now the three consecutive integers have to contain 1 kangaroo always. In this case, 1,2,3 positions will not have a kangaroo! - invalid
+E) If 5 is a kangaroo:
+
+Looking at what question is asking "On which of THESE numbers stands a kangaroo?" means that the kangaroo *CAN* be located at these location.
+As such the first three must have exactly one kangaroo in each triplet. So the kangaroo number must be at position 2 or 3, so there is only one kangaroo amongst it.
+Position #2 has been shown.
+
+Answer: B)
+Reasoning: Given that "of three animals in a row there is always exactly one kangaroo", if we place a kangaroo at position 2 (option B), we can construct a valid sequence like "BKB BKB BB." However, if we place a kangaroo at position 4, then we have BBBK and then no kangaroo at positions 1 2 and 3. This violates the question, so 4 cannot be selected. We need to confirm that is 2 *CAN* be assigned and since is there a valid solution available given is: "BKB BKB BB"
+Answer: B)

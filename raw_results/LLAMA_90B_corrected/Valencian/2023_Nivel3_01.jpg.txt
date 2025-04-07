@@ -1,0 +1,26 @@
+### Raonament
+
+La suma de les xifres és un càlcul bàsic:
+
+* Suma el valor de cada dígit.
+
+La pregunta 1 tenen a veure amb:
+
+* El segón xifra (des de l'esquerra) de 22^11.
+
+Per solucionar aquesta pregunta, podem pensar en la següent manera:
+
+1. El valor de cada xifra en 22^n (els múltiples de 22) segueix un patró semicíclic.
+   - Es pot fer una mostra amb alguns valors a mà per veure la següent tendència i predir-ne la xifra a trobar.
+2. Comprova els múltiples fins a arribar al valor específic de 22^11.
+
+#### Anàlisi
+
+Després d'obtenir les xifres des de l'esquerra arribem a:
+
+22^11 = 819,440
+
+A la ubicació de la segona xifra corresponent a '3'.
+
+### Resposta
+C) 3.

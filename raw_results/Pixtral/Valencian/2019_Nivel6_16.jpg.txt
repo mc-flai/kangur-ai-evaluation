@@ -1,0 +1,37 @@
+
+La pregunta 16 en la imagen se traduce al inglés como: "How many positive integers n are there such that their square is equal to n plus 6?" Las opciones dadas son A) 1, B) 2, C) 3, D) 6, y E) Infinitas.
+
+Para resolver esto, necesitamos encontrar valores de n que satisfagan la ecuación \( n^2 = n + 6 \).
+
+1. Reescribimos la ecuación en forma estándar:
+   \[
+   n^2 - n - 6 = 0
+   \]
+
+2. Resolvemos la ecuación cuadrática \( n^2 - n - 6 = 0 \) usando la fórmula cuadrática \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), donde \( a = 1 \), \( b = -1 \), y \( c = -6 \):
+   \[
+   n = \frac{-(-1) \pm \sqrt{(-1)^2 - 4 \cdot 1 \cdot (-6)}}{2 \cdot 1}
+   \]
+   \[
+   n = \frac{1 \pm \sqrt{1 + 24}}{2}
+   \]
+   \[
+   n = \frac{1 \pm \sqrt{25}}{2}
+   \]
+   \[
+   n = \frac{1 \pm 5}{2}
+   \]
+
+3. Calculamos los dos posibles valores de n:
+   \[
+   n = \frac{1 + 5}{2} = 3
+   \]
+   \[
+   n = \frac{1 - 5}{2} = -2
+   \]
+
+4. Dado que estamos buscando números positivos, solo consideramos \( n = 3 \).
+
+Por lo tanto, hay exactamente un número positivo \( n \) que satisface la condición.
+
+**Respuesta: A)**

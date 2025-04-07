@@ -1,0 +1,11 @@
+
+Raisonnement :
+1. Les points H, U, G et O sont alignés dans cet ordre.
+2. Les longueurs des segments HG et UO sont données comme étant 12 cm et 18 cm, respectivement.
+3. Pour trouver la distance entre le milieu de [HU] et le milieu de [GO], nous devons utiliser la propriété des milieux dans un segment.
+4. Le milieu d'un segment est à mi-chemin entre les deux extrémités, donc la distance entre les milieux de deux segments consécutifs est égale à la moitié de la somme des longueurs des segments adjacents.
+5. Les segments adjacents ici sont HU et GO.
+6. La longueur totale des segments adjacents est HG + UO = 12 cm + 18 cm = 30 cm.
+7. La distance entre les milieux est donc la moitié de cette somme : 30 cm / 2 = 15 cm.
+
+Réponse : A)

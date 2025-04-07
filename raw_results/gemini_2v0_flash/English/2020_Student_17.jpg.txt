@@ -1,0 +1,30 @@
+Reasoning: Let $S$ be the sum of any seven consecutive numbers. Since the sum of any seven consecutive numbers is the same, the total sum of the 15 numbers is equal to $\frac{15}{7}S$. Let $T$ be the total sum of the 15 numbers. Then each number is an integer. Since $T$ is the sum of 15 numbers, $T$ must be an integer. Since $T = \frac{15}{7} S$, we have that $7T = 15S$. Since $T$ is an integer, $15S$ must be divisible by 7. Since 15 is not divisible by 7, it follows that $S$ must be divisible by 7. From the choices given, we see that 70 and 105 are multiples of 7.
+Let's check if the options are possible. If $S=70$, then $T = \frac{15}{7} (70) = 150$. If $S=105$, then $T = \frac{15}{7} (105) = 15 \times 15 = 225$.
+Let $a_1, a_2, \dots, a_{15}$ be the numbers written on the wheel, where $a_1 = 10$.
+We have $a_1 + a_2 + \dots + a_7 = S$ and $a_2 + a_3 + \dots + a_8 = S$, so $a_1 = a_8$. Also $a_2 = a_9$, $a_3 = a_{10}$, $a_4 = a_{11}$, $a_5 = a_{12}$, $a_6 = a_{13}$, $a_7 = a_{14}$. Similarly, $a_3+ \dots + a_9 = S$ implies $a_2=a_9$. Therefore, $a_i = a_{i+7}$ for any $i$.
+Also $a_i = a_{i+14}$. Since there are 15 numbers, we have $a_i$ and $a_{i+14}$ and $a_{i-1} = a_{i+13}$. Therefore, we must have $a_i = a_{i+7}$ where the indices are taken modulo 15.
+Since $a_1 = a_8 = a_{15} = 10$, we can assume $a_1 = a_8 = a_2=10$. However, $a_i = a_{i+7}$ must apply to all consecutive terms.
+We are given that $a_1 = 10$. So $a_8 = 10$ and $a_2 = a_9$ and $a_3 = a_{10}$.
+Also, we have $a_1 + a_2 + a_3 + a_4 + a_5 + a_6 + a_7 = a_2 + a_3 + \dots + a_8$.
+Then $a_1 = a_8$, $a_2 = a_9, \dots a_7 = a_{14}$. Therefore we need $a_1, \dots, a_7, a_8$ to repeat twice.
+We have $150 = 10(15)$. We can choose 10 for each number and $7$ consecutive sums to be $70$.
+Now consider $S=105$. We have $T = \frac{15}{7}S$. Since the sum of any 7 consecutive terms is same, we have $a_1 + a_2 + \dots a_7 = a_2 + \dots + a_8$, $a_1 = a_8, a_2 = a_9, \dots a_7 = a_{14}, a_8 = a_1$. Also, $a_9 = a_2$. The sequence repeats every 7 terms. But there are 15 terms, we can assume that the 15 numbers is $a_1, \dots a_{15}$. Then $a_1 = a_8$. Since it has to be multiple of 7. Let the numbers be
+$10, 10, 10, \dots$. Then the sum is $10(7)=70$.
+If the numbers are the same, then we have $10, 10, 10, \dots$. But we also have $150$, which means $\frac{150}{15}=10$.
+
+Reasoning: The sum of every 7 consecutive numbers is constant, so we have:
+1) S must be divisible by 7, so we have 70 and 105
+2) Let S=70. The sum of all numbers is 15/7(70)=150.
+So we have 7 consecutive values sum up to 70, the average is 10. Let 10, 10, 10, ..., 10 be all values. So we have $10(7)=70$ which is consecutive. And the total sum is $15(10)=150$.
+So S=70 works.
+If we take S=105, the average number in the ring must be the average of the 7.
+
+The total sum is $\frac{15}{7} \times S$. Since all the individual values need to sum up to an integer, $S$ must be divisible by $7$. Thus $49$ and $75$, $150$ are not divisible by $7$, so are invalid. Only $70$ and $105$ are divisible by $7$.
+If we set all of the numbers around the circle to 10, then the sum of 7 numbers would be 70, and the total sum around the wheel would be 150. Since we are given that 10 is one of the numbers, this seems possible.
+
+If we take 105, then the sum of the circle would be $\frac{15}{7} 105 = 15(15) = 225$. Thus 225/15=15 average.
+Try 15. Could all the values be 15? Then 7 values is $15 \times 7 = 105$. But if we make one of them is 10, it cannot be done.
+$10 + x_2 ... x_7 = 105.$
+It seems that 70 is a possible answer.
+
+Answer: B)

@@ -1,0 +1,31 @@
+
+La pregunta es: Si \(9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 3^{2016}\), entonces ¿cuál es el valor de \(n\)?
+
+Para resolver esto, sigamos estos pasos:
+
+1. **Simplificar la suma**: Primero, observe que hay siete términos de \(9^n\). Podemos combinarlos en una sola expresión:
+   \[
+   9^n + 9^n + 9^n + 9^n + 9^n + 9^n + 9^n = 7 \cdot 9^n
+   \]
+
+2. **Representar \(9^n\) en términos de potencias de 3**: Sabemos que \(9 = 3^2\), por lo que:
+   \[
+   9^n = (3^2)^n = 3^{2n}
+   \]
+
+3. **Sustituir \(9^n\) en la ecuación**: Sustituyendo \(3^{2n}\) en la ecuación, obtenemos:
+   \[
+   7 \cdot 3^{2n} = 3^{2016}
+   \]
+
+4. **Simplificar la ecuación**: Para que ambos lados de la ecuación sean iguales, los exponentes de 3 deben ser iguales. Por lo tanto, igualamos los exponentes:
+   \[
+   2n = 2016
+   \]
+
+5. **Resolver para \(n\)**: Dividiendo ambos lados por 2, obtenemos:
+   \[
+   n = \frac{2016}{2} = 1008
+   \]
+
+**Respuesta**: E)

@@ -1,0 +1,15 @@
+Let $d$ be the distance between X and Y. Let $v_b$ be the speed of the motorboat in still water and $v_c$ be the speed of the current.
+When the motorboat goes downstream (from X to Y), the effective speed is $v_b + v_c$. The time taken is 4 hours. So, $d = (v_b + v_c) \times 4$.
+When the motorboat goes upstream (from Y to X), the effective speed is $v_b - v_c$. The time taken is 6 hours. So, $d = (v_b - v_c) \times 6$.
+Therefore, $(v_b + v_c) \times 4 = (v_b - v_c) \times 6$.
+$4v_b + 4v_c = 6v_b - 6v_c$
+$10v_c = 2v_b$
+$v_b = 5v_c$
+We want to find the time it takes for a tree trunk to float from X to Y. The speed of the tree trunk is the speed of the current, $v_c$. Let $t$ be the time taken. Then $d = v_c \times t$.
+We know that $d = (v_b + v_c) \times 4$. Substitute $v_b = 5v_c$ into this equation:
+$d = (5v_c + v_c) \times 4 = 6v_c \times 4 = 24v_c$.
+Since $d = v_c \times t$, we have $24v_c = v_c \times t$. Therefore, $t = 24$ hours.
+
+Reasoning: Let $d$ be the distance from X to Y, $v_b$ the speed of the motorboat and $v_c$ the speed of the current. We have $d = 4(v_b + v_c) = 6(v_b - v_c)$. This gives $4v_b + 4v_c = 6v_b - 6v_c$, so $2v_b = 10v_c$ and $v_b = 5v_c$. Thus $d = 4(5v_c + v_c) = 4(6v_c) = 24v_c$. The time taken for a tree trunk to float from X to Y is $\frac{d}{v_c} = \frac{24v_c}{v_c} = 24$ hours.
+
+Answer: E)

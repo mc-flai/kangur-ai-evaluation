@@ -1,0 +1,34 @@
+Per resoldre aquesta pregunta, hem de trobar els nombres de tres xifres \(\overline{abc}\) (amb \(a \neq 0\)) tals que \(a + 3b + c\) sigui múltiple de 3.
+
+Aquí hi ha una possible manera de resoldre-ho:
+
+1. **Condició perquè un nombre sigui múltiple de 3**: Un nombre és múltiple de 3 si la suma dels seus dígits és múltiple de 3.
+
+2. **Suma dels dígits**: Per als nombres de la forma \(\overline{abc}\), la suma dels dígits és \(a + b + c\).
+
+3. **Transformem la suma**: D'acord amb la pregunta, ens demanen que la suma sigui \(a + 3b + c\). Ara hem de veure si aquesta suma és múltiple de 3.
+
+4. **Anàlisi de la condició**: Si \(a + 3b + c\) ha de ser múltiple de 3, llavors \(a + c\) ha de ser múltiple de 3, perquè \(3b\) és sempre múltiple de 3 (ja que 3 és un factor de \(3b\)).
+
+5. **Exemples de nombres que compleixen la condició**:
+   - Si \(a = 1\), \(b = 0\), \(c = 2\), tenim el nombre 102.
+   - Si \(a = 2\), \(b = 1\), \(c = 0\), tenim el nombre 210.
+   - Si \(a = 3\), \(b = 2\), \(c = 1\), tenim el nombre 321.
+
+Tots aquests nombres compleixen que \(a + 3b + c\) és múltiple de 3.
+
+6. **Quants nombres hi ha d'aquesta forma?**:
+   - \(a\) pot ser qualsevol dígit de 1 a 9 (9 opcions).
+   - \(b\) pot ser qualsevol dígit de 0 a 9 (10 opcions).
+   - \(c\) pot ser qualsevol dígit de 0 a 9 (10 opcions).
+
+7. **Càlcul del total de nombres**:
+   - Per a cada valor de \(a\) i \(c\) que compleixen la condició, hi ha 10 opcions per \(b\).
+   - Hi ha 9 opcions per \(a\) i 10 opcions per \(c\), el que dona 9 * 10 = 90 combinacions per parelles (\(a\), \(c\)).
+   - Cada parella (\(a\), \(c\)) té 10 opcions per \(b\).
+
+   Total de nombres: \(90 \times 10 = 900\).
+
+Raonament: Hem analitzat que la suma \(a + 3b + c\) ha de ser múltiple de 3, i hem vist que hi ha 900 nombres que compleixen aquesta condició.
+
+Resposta: E) 990.

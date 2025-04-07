@@ -1,0 +1,27 @@
+To determine which square(s) Nina can remove from the net to still form a cube, we need to consider the structure of the cube and how the squares are connected. A cube has 6 faces, and each face is a square. The net shown has 7 squares, which means one square must be removed to form a net that can be folded into a cube.
+
+Let's analyze the net:
+
+```
+1 2 3
+  4
+5 6 7
+```
+
+- Square 1 is connected to squares 2 and 5.
+- Square 2 is connected to squares 1, 3, and 6.
+- Square 3 is connected to squares 2 and 7.
+- Square 4 is connected to squares 5 and 6.
+- Square 5 is connected to squares 1, 4, and 6.
+- Square 6 is connected to squares 2, 4, 5, and 7.
+- Square 7 is connected to squares 3 and 6.
+
+To form a cube, we need to ensure that the remaining 6 squares can be folded into a cube. This means that each face must be connected properly to form the 3D shape.
+
+- Removing square 4: If we remove square 4, the remaining squares (1, 2, 3, 5, 6, 7) can be folded into a cube.
+- Removing square 7: If we remove square 7, the remaining squares (1, 2, 3, 4, 5, 6) can also be folded into a cube.
+
+Thus, either square 4 or square 7 can be removed to form a cube.
+
+Reasoning: By analyzing the connections of each square in the net, we can determine that removing either square 4 or square 7 will allow the remaining squares to be folded into a cube.
+Answer: E)

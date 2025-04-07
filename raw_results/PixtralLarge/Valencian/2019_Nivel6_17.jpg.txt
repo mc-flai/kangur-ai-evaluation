@@ -1,0 +1,11 @@
+Raonament:
+
+1. **Determinar el total de possibilitats**: La caixa conté 4 peces de xocolata i 1 xiclet de fruites, per tant hi ha 5 elements en total.
+2. **Calcular la probabilitat que Maria guanyi**: Com que Joan i Maria traien torns alternativament, i Joan trau el primer, Maria traurà en segon lloc.
+3. **Probabilitat a cada torn**: Com que cada element de la capsa és igualment probable de ser tret, la probabilitat de treure un determinat objecte és 1/5 en cada torn.
+4. **Probabilitat que Maria guanyi**: Perquè Maria guanyi, ha de treure el xiclet de fruites al segon torn. La probabilitat que el xiclet de fruites encara estigui a la capsa després del primer torn és 4/5 (ja que hi ha 4 elements restants dels que 1 és el xiclet).
+5. **Probabilitat combinada**: La probabilitat que Maria treu el xiclet de fruites al segon torn és la probabilitat que Joan no el treu al primer torn (4/5) multiplicada per la probabilitat que Maria el treu al segon torn (1/4).
+
+   Probabilitat que Maria guanyi = (4/5) * (1/4) = 4/20 = 1/5.
+
+Resposta: B)

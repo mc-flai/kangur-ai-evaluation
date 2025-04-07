@@ -1,0 +1,110 @@
+Raonament: Volem minimitzar el resultat de l'expressió. Per fer-ho, hem de sumar el més petit possible i restar el més gran possible.
+Els nombres disponibles són: 0, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 16.
+Els més petits per sumar són: 0 i 3.
+Els més grans per restar són: 10, 12, 14.
+La resta són 5, 7, 8, 9, 11, 16.
+L'expressió serà: 0 + 3 - 16 - 14 - 12 = 3 - 42 = -39. Això no és possible.
+A cada targeta hem de triar un dels dos nombres. Així, per sumar triem els més petits: 0 i 3.
+Per restar triem els més grans: 16, 14 i 12.
+L'expressió serà: 0 + 3 - 16 - 14 - 12 = 3 - 42 = -39, impossible.
+L'estratègia és maximitzar el que restem i minimitzar el que sumem.
+Sumem 0 i 3. Restem 16, 14, 12. Aquesta combinació no funciona.
+Però, a cada espai blanc hem de posar una carta diferent, és a dir, no es poden repetir números.
+Nombres disponibles: 5, 12, 3, 11, 0, 16, 7, 8, 4, 14, 9, 10.
+Per sumar: 0 + 3 = 3
+Per restar: 16 + 14 + 12 = 42
+Per sumar els nombres més petits serà: 0 + 3 = 3
+Per restar, els més grans serà 16, 14 i 12.
+No els podem utilitzar tots tres, ja que cada targeta ha de ser diferent. Així, el resultat no podrà ser -39.
+Volem sumar el més petit possible i restar el més gran possible.
+Sumar: 0 + 3 = 3
+Restar: 16 + 14 + 12 = 42. Impossible.
+Sumar: 5 + 3 = 8
+Restar: 16 + 14 + 12 = 42. Impossible.
+Sumar 0+3, restar 16,14,12 impossible perquè s'han de fer servir totes les targetes.
+Maximitzar el que restem i minimitzar el que sumem.
+Sumem els nombres petits: 0+3=3. Restem: 16,14,12.
+Però només podem restar.
+Minimitzo els nombres per sumar: 0 + 3 = 3
+Maximitzar els nombres per restar:
+Els parells: (5, 12), (3, 11), (0, 16), (7, 8), (4, 14), (9, 10)
+Per fer un resultat el més petit possible: 5+3 -16-14-12 = 8-42 = -34. Encara no tenim la resposta.
+Provar totes les combinacions és poc pràctic.
+Seleccionar els mínims per la suma i els màxims per la resta.
+0+3 - 16 - 14 - 12 = 3 - (16+14+12) = 3 - 42 = -39 (No possible)
+Seleccionar nombres: 5,3 - 16,14, 12 o 5,3 i 16, 14,11 o...
+
+Si col·loquem una carta diferent (mostrant la cara que vulguem) a cada espai blanc de la figura.
+
+Volem fer l'expressió el més petita possible.
+Sumar els petits: 0+3=3
+Restar els més grans: 16+14+12 = 42. impossible
+Sumar: 0+3
+Restar els grans: 10+11+12 = 33.  0 + 3 -10-11-12= 3 -33 = -30
+
+Sumar: 4+5 = 9
+Restar 16,14,12 = 42. Imposible
+Sumar: 4+5 = 9
+Restar 8,10, 11= -29
+Però podem fer 4+5 -8-10-11= 9-(8+10+11)= 9 -29 = -20
+
+Considerar 0 i 3 als sumands. 0+3
+Llavors a la resta tenim 16, 14,12.
+Imposible posar tots els grans restant perquè cada targeta només hi és una vegada.
+
+Provar amb les respostes.
+Assumir el resultat -27
+I fer "enginyeria inversa" per veure si existeix una combinació que ens dona -27
+
+Finalment l'estratègia correcta és agafar els més petits per la suma i els més grans per la resta. Però a partir d'aqui és probabilitat i error.
+
+0+3 -10 -11 -12 = 3 -33 = -30
+Però hi ha limitacions sobre quins nombres podem fer servir en quina posició.
+
+5+3-16-14-12 = 8-42= -34
+Si provem els més petits i els més grans obtenim -30, -34.
+
+No veig solució.
+Raonament: Després de provar diferents combinacions, es determina que la combinació que minimitza la suma és 3+5 - 16 - 14 - 0 = -22, i és millor maximitzar el que estem restant i minimitzar el que sumem, utilitzant un número de cada parella. Es realitzen diverses proves fins a trobar la resposta.
+Resposta: E)
+Raonament: Volem minimitzar el resultat. Això vol dir que volem sumar el més petit possible i restar el més gran possible.
+Els parells de nombres són: (5, 12), (3, 11), (0, 16), (7, 8), (4, 14) i (9, 10)
+Per tant, podem fer servir: 0+3 - 16-14-12 = 3 - 42 = -39 (això no és possible)
+5 + 3 - 16 -14-10 = 8-40 = -32
+
+Sumant el més petit i restant el més gran:
+5 + 3 - 16 -14-10 = -32
+4 +0-16-14-11=-37.
+La resposta correcta, després de provar amb diferents combinacions possibles, utilitzant una aproximació sistemàtica de provar els menors sumands i els més grans restands, donada les limitacions que hem de utilitzar una targeta de cada parell, és:
+
+3 + 4 - 16 - 11 - 7 = -27
+(3+4)-(16+11+7) = 7 -34 = -27
+
+Raonament: Busquem minimitzar el resultat, per tant maximitzem la resta i minimitzem la suma. Després d'intentar amb diferents combinacions trobem la que ens dona el menor valor possible:
+Resposta: E)
+Raonament: Volem minimitzar el resultat. Per aconseguir-ho, hem de sumar els nombres més petits possibles i restar els nombres més grans possibles.  A més, hem d'assegurar-nos de que fem servir un número de cada parell. Després de provar diferents combinacions, la que dóna el resultat més baix és 3+4-16-11-7 = 7 -34 = -27
+
+Resposta: E)
+Raonament: Volem trobar el nombre més menut. Per tant, volem fer la suma el més petita possible i la resta el més gran possible. Comencem per la suma, intentant posar els dos números més petits possibles a les primeres dues caselles (on hi ha el signe +). A partir d'aquí, provem a maximitzar la resta, tenint en compte que hem de fer servir una carta de cada parell. Les cartes són: (5, 12), (3, 11), (0, 16), (7, 8), (4, 14) i (9, 10).
+Després de provar diferents combinacions obtenim la següent:
+3 + 4 - 16 - 11 - 7 = -27
+
+Resposta: E)
+Raonament: Minimitzar suma i maximitzar resta. Les parelles són (5, 12), (3, 11), (0, 16), (7, 8), (4, 14) i (9, 10). Per tant, hem de agafar un nombre de cada parella.
+Per minimitzar la suma intentem agafar els números més baixos possible. Així intentem agafar el 0, el 3, el 4, el 5, el 7 i el 9.
+Per tant, el primer intent serà agafar el 0, el 3 i llavors intentar agafar els nombres grans per restar.
+0+3-16-14-12 = 3-42 = -39. Això no és possible.
+
+Fem provatures fins a trobar la resposta:
+3+4-16-11-7= 7-34 = -27
+
+Resposta: E)
+Raonament: L'objectiu és minimitzar el resultat, de manera que hem de buscar la forma de maximitzar la part que resta i minimitzar la part que suma. El problema indica que hem de fer servir tots els parells de números, un per a cada carta. La resposta final s'obté després de provar diverses combinacions.
+
+Resposta: E)
+Raonament: Volem el nombre més menut com a resultat. Per això hem d'intentar sumar el més petit i restar el més gran. Comencem per intentar posar a la suma els dos números més petits.
+Però hem de tenir en compte que hem de fer servir una targeta de cada parell.
+Per tant tenim : (5, 12), (3, 11), (0, 16), (7, 8), (4, 14) i (9, 10)
+3+4 - 16 -11 - 7 = -27
+
+Resposta: E)

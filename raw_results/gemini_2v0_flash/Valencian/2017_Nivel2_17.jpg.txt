@@ -1,0 +1,3 @@
+Raonament: Un cercle i un quadrilàter es poden tallar en com a màxim 8 punts. Cada punt d'intersecció crea una nova regió. Un cercle pot tallar un pla en dues parts i un quadrilàter en cinc parts. La màxima intersecció possible crea 8 divisions addicionals. Per tant, el nombre màxim de parts és 2 + 5 + 4 = 11 regions. Un cercle i un quadrilàter poden tenir com a màxim vuit punts d'intersecció. Cada intersecció pot tallar l'altre component, dividint-lo en noves regions. Un cercle sense interseccions divideix el pla en 2 regions. Un quadrilàter sense interseccions divideix el pla en 2 regions, i el quadrilàter divideix el pla en 5 regions quan no està contingut al cercle. Per tant, el nombre màxim de regions que poden crear conjuntament és de 11.
+
+Resposta: A)

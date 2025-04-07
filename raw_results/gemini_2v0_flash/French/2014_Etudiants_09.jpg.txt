@@ -1,0 +1,6 @@
+Reasoning:
+The question asks for the number of digits in the decimal representation of $(2^{22})^5 \times (5^{55})^2$.
+We can rewrite this as $2^{22 \cdot 5} \times 5^{55 \cdot 2} = 2^{110} \times 5^{110} = (2 \times 5)^{110} = 10^{110}$.
+$10^{110}$ is 1 followed by 110 zeros, so it has $110 + 1 = 111$ digits.
+
+Answer: E)

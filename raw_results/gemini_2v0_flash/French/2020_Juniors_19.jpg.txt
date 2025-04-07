@@ -1,0 +1,7 @@
+Reasoning:
+For a number to be divisible by 18, it must be divisible by both 2 and 9. A number is divisible by 2 if its last digit is even. A number is divisible by 9 if the sum of its digits is divisible by 9. The sum of digits from 1 to 9 is 1+2+3+4+5+6+7+8+9 = 45, which is divisible by 9. Therefore, any arrangement of the digits 1 to 9 will be divisible by 9.
+The probability that a number is divisible by 18 is the probability that it's divisible by 2, given it's already divisible by 9.
+Out of the 9 digits (1 to 9), there are four even digits (2, 4, 6, 8).
+Therefore, the probability that the last digit is even is 4/9.
+
+Answer: B)

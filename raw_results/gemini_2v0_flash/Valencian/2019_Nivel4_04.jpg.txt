@@ -1,0 +1,27 @@
+Raonament:
+Siguin els tres números a, b i c tal que a + b + c = 10126.
+Del dibuix es pot deduir que:
+a = 124x
+b = x126
+c = 2x31
+
+Sumant les unitats de cada número tenim x + 6 + 1 = 6 (o 16). Per tant, x = 9 (o 19 - 10), però com que és una xifra només pot valer 9 si hi ha un transport d'una desena. Com que és un transport a la columna de les desenes, tindríem que x = 9.
+Aleshores,
+a = 1249
+b = x126
+c = 2x31
+Ara ja podem sumar les desenes, tenint en compte el transport: 9 + 2 + 3 + 1 = 15. Per tant, la x de les desenes és 5 (el 5 de 15).
+a = 1249
+b = x126
+c = 2531
+Ara sumem les centenes: 2 + 5 + 4 = 10. Per tant, la x de les centenes és 4.
+a = 1249
+b = 4126
+c = 2531
+Finalment sumem els milers: 1 + 4 + 2 = 7. Per tant, la x de les milers és 7.
+
+Sumant els tres números: 1249 + 4126 + 2531 = 7906
+L'enunciat del problema diu que la suma és 10126, per tant, hi ha hagut un error.
+Tenim que les xifres ocultes són 4, 5 i 7. Per tant, la resposta correcta és B).
+
+Resposta: B)

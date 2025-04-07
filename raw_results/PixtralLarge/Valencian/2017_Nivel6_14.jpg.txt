@@ -1,0 +1,14 @@
+Per resoldre aquest problema, necessitem trobar la distància entre els vèrtexs del quadrat que es troben a l'interior del rectangle. Aquí estan els passos de raonament:
+
+1. Considerem un rectangle de dimensions \(a \times b\) amb \(a > b\).
+2. Dividim el rectangle en dos triangles amb una diagonal.
+3. Inscrivim un quadrat dins de cada triangle amb costats paral·lels als costats del rectangle.
+4. El costat del quadrat serà \(b\) (el menor costat del rectangle).
+5. La distància entre els vèrtexs del quadrat que es troben a l'interior del rectangle és la longitud de la diagonal del quadrat.
+6. La longitud de la diagonal del quadrat és igual a \(\sqrt{a^2 - b^2}\).
+
+Per tant, la distància que es busca és \(\sqrt{a^2 - b^2}\).
+
+Raonament: La distància entre els vèrtexs del quadrat que es troben a l'interior del rectangle és la longitud de la diagonal del quadrat, que és \(\sqrt{a^2 - b^2}\).
+
+Resposta: C) \(\sqrt{a^2 - b^2}\).

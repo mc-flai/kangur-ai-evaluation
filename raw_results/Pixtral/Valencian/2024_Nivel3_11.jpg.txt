@@ -1,0 +1,21 @@
+La pregunta 11 involucra una pastisseria amb 10 creus iguals tallades en ella. Una de les creus es col·loca a la seva posició original, i els altres 9 es col·loquen en una figura de manera que els espais entre els extrems de les creus siguin iguals. La pregunta demana quina és l'angles entre els extrems de les creus de la pastisseria consecutius.
+
+**Razonament:**
+1. Comencem per comprendre la configuració. Hi ha 10 creus tallades en la pastisseria, i quan es col·loquen de manera que els espais entre els extrems siguin iguals, això forma un polígon regular.
+2. Un polígon regular amb 10 costats (decàgon) té angles interns que es poden calcular utilitzant la fórmula per l'angle intern d'un polígon regular:
+   \[
+   \text{Angle intern} = \frac{(n-2) \times 180^\circ}{n}
+   \]
+   on \( n \) és el nombre de costats.
+3. Aquí, \( n = 10 \):
+   \[
+   \text{Angle intern} = \frac{(10-2) \times 180^\circ}{10} = \frac{8 \times 180^\circ}{10} = \frac{1440^\circ}{10} = 144^\circ
+   \]
+4. Com que els espais entre els extrems de les creus són iguals, cada angle entre els extrems de les creus consecutives serà una fracció d'aquest angle intern.
+5. Com que hi ha 10 creus, hi haurà 10 angles entre els extrems de les creus consecutives. Per tant, l'angle entre els extrems de les creus consecutives serà:
+   \[
+   \text{Angle entre extrems consecutius} = \frac{144^\circ}{10} = 14.4^\circ
+   \]
+6. Dintre de les opcions donades, la resposta més propera és 14.4°.
+
+**Resposta: E)**

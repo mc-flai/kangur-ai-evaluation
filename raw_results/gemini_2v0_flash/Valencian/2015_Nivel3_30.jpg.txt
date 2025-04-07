@@ -1,0 +1,279 @@
+Raonament: Sigui A el nombre format per 2015 dígits iguals a 1. Volem calcular la suma de les xifres de A * 2015.
+Podem expressar A com (10^2015 - 1) / 9.
+Així, A * 2015 = 2015 * (10^2015 - 1) / 9 = (2015 * 10^2015 - 2015) / 9.
+Ara calculem 2015 * 10^2015 - 2015. Això serà el nombre 2015 seguit de 2015 zeros, menys 2015.
+2015000...000 - 2015 = 2014999...9997985, on hi ha 2011 noves.
+Ara dividim aquest resultat per 9.
+Dividir per 9 és el mateix que multiplicar per 0.111...
+2014999...9997985 / 9 = 223888...888665.0
+El quocient tindrà els següents dígits:
+2015/9 = 223.888...
+En comptes de dividir, podem considerar petits casos.
+Si A = 1, A * 2015 = 2015, suma xifres = 2+0+1+5 = 8.
+Si A = 11, A * 2015 = 22165, suma xifres = 2+2+1+6+5 = 16.
+Si A = 111, A * 2015 = 223665, suma xifres = 2+2+3+6+6+5 = 24.
+Si A = 1111, A * 2015 = 2238665, suma xifres = 2+2+3+8+6+6+5 = 32.
+
+La suma augmenta de 8 en 8 per cada xifra que afegim.
+A * 2015, la suma de les xifres serà 8 * 2015 = 16120.
+
+Resposta: B)
+Raonament: Després d'analitzar alguns casos petits, he notat que la suma de les xifres de A*2015 augmenta en 8 per cada xifra que afegim a A. Per tant, si A té 2015 xifres, la suma de les xifres de A*2015 serà 8 * 2015 = 16120.
+Resposta: B)
+Raonament: Considerem casos més petits:
+A = 1.  A * 2015 = 2015. Suma de les xifres = 2+0+1+5 = 8.
+A = 11. A * 2015 = 22165. Suma de les xifres = 2+2+1+6+5 = 16.
+A = 111. A * 2015 = 223665. Suma de les xifres = 2+2+3+6+6+5 = 24.
+A = 1111. A * 2015 = 2238665. Suma de les xifres = 2+2+3+8+6+6+5 = 32.
+La suma de les xifres augmenta en 8 per cada 1 addicional en A.
+Per tant, si A té 2015 xifres, la suma de les xifres de A * 2015 serà 8 * 2015 = 16120.
+
+Resposta: B)
+Raonament: Hem observat que per cada xifra igual a 1 que té el nombre A, la suma de les xifres del producte A*2015 augmenta en 8. Com A té 2015 xifres iguals a 1, la suma total de les xifres del producte serà 8*2015=16120.
+Resposta: B)
+Raonament: A és un nombre format per 2015 uns.  Quan multipliquem A per 2015 obtenim un nombre la suma de les xifres del qual és 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Veiem que per 1 un, la suma és 8; per 2 uns, la suma és 16; per 3 uns, la suma és 24; per 4 uns, la suma és 32. Així, per n uns, la suma és 8n. En aquest cas, n=2015. Per tant, la suma és 8*2015 = 16120.
+Resposta: B)
+Raonament: Analitzant el patró amb nombres més petits (1, 11, 111, 1111) veiem que la suma de les xifres del resultat de multiplicar aquests nombres per 2015 és 8, 16, 24, 32 respectivament. És a dir, per cada '1' que afegim, la suma augmenta en 8. Per tant, per un nombre amb 2015 '1s', la suma serà 2015 * 8 = 16120.
+Resposta: B)
+Raonament:
+El nombre A és format per 2015 xifres iguals a 1. Volem saber la suma de les xifres del nombre que resulta de multiplicar A per 2015. Analitzem patrons amb nombres més petits:
+
+A = 1 --> 1 * 2015 = 2015. Suma = 2 + 0 + 1 + 5 = 8
+A = 11 --> 11 * 2015 = 22165. Suma = 2 + 2 + 1 + 6 + 5 = 16
+A = 111 --> 111 * 2015 = 223665. Suma = 2 + 2 + 3 + 6 + 6 + 5 = 24
+A = 1111 --> 1111 * 2015 = 2238665. Suma = 2 + 2 + 3 + 8 + 6 + 6 + 5 = 32
+
+Observem que per cada xifra que afegeix A, la suma de les xifres del resultat augmenta en 8. Per tant, la suma serà 2015 * 8 = 16120.
+Resposta: B)
+Raonament: L'exercici ens demana la suma de les xifres del resultat de la multiplicació d'un nombre A format per 2015 uns, per 2015. Després de resoldre casos més senzills (A = 1, A = 11, A = 111...), es pot observar que la suma de les xifres augmenta en 8 per cada '1' que s'afegeix al nombre A. Per tant, la suma buscada és 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament: A és un número format per 2015 xifres iguals a 1. En multiplicar A per 2015, cada xifra igual a 1 contribueix amb una suma de xifres de 8 (ja que 1*2015 = 2015 i 2+0+1+5=8). Llavors, la suma total de les xifres del resultat serà 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Let A be a number consisting of 2015 digits equal to 1. We need to find the sum of digits of the number A * 2015. We can observe a pattern by considering smaller cases:
+If A = 1, A * 2015 = 2015. Sum of digits = 2 + 0 + 1 + 5 = 8.
+If A = 11, A * 2015 = 22165. Sum of digits = 2 + 2 + 1 + 6 + 5 = 16.
+If A = 111, A * 2015 = 223665. Sum of digits = 2 + 2 + 3 + 6 + 6 + 5 = 24.
+If A = 1111, A * 2015 = 2238665. Sum of digits = 2 + 2 + 3 + 8 + 6 + 6 + 5 = 32.
+We can observe that for each additional 1 in A, the sum of digits of the result increases by 8. Therefore, if A has 2015 digits, the sum of the digits of A * 2015 will be 8 * 2015 = 16120.
+Resposta: B)
+Raonament: Considerem casos més petits per veure si podem trobar un patró:
+
+A = 1: A * 2015 = 2015. Suma de les xifres: 2 + 0 + 1 + 5 = 8
+A = 11: A * 2015 = 22165. Suma de les xifres: 2 + 2 + 1 + 6 + 5 = 16
+A = 111: A * 2015 = 223665. Suma de les xifres: 2 + 2 + 3 + 6 + 6 + 5 = 24
+A = 1111: A * 2015 = 2238665. Suma de les xifres: 2 + 2 + 3 + 8 + 6 + 6 + 5 = 32
+
+Per cada xifra igual a 1 que afegim a A, la suma de les xifres del resultat de la multiplicació per 2015 augmenta en 8. Per tant, si A té 2015 xifres iguals a 1, la suma total serà 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament: La suma augmenta en 8 per cada dígit d'1 que afegim al número A, multiplicant per 2015. Per tant, 2015 dígits '1' * 8 = 16120.
+Resposta: B)
+Raonament: El patró és que per cada 1 que afegeixo, la suma augmenta 8. per tant 2015*8 = 16120
+Resposta: B)
+Raonament: Identifiquem el patró. Si A=1, A*2015=2015, la suma de les xifres és 8. Si A=11, A*2015=22165, la suma de les xifres és 16. Si A=111, A*2015=223665, la suma de les xifres és 24. Si A=1111, A*2015=2238665, la suma de les xifres és 32. Per tant, la suma de les xifres és 8 * (nombre d'uns). Com el nombre d'uns és 2015, la suma de les xifres serà 8 * 2015 = 16120.
+Resposta: B)
+Raonament: Multiplicar 2015 per un nombre format per n "1" equival a multiplicar 2015 per (10^n-1)/9. Com la suma augmenta de 8 en 8, 2015 * 8 = 16120
+Resposta: B)
+Raonament: Observem el següent patró quan multipliquem 2015 per un nombre format per n uns:
+
+- 1 * 2015 = 2015 --> suma de dígits = 8
+- 11 * 2015 = 22165 --> suma de dígits = 16
+- 111 * 2015 = 223665 --> suma de dígits = 24
+- 1111 * 2015 = 2238665 --> suma de dígits = 32
+Veiem que per cada 1 que afegim, la suma dels dígits del resultat augmenta en 8. Per tant, per a 2015 uns, la suma serà 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament: El truc està en veure que la suma augmenta 8 per cada 1 afegit al número A. 2015 * 8 = 16120
+Resposta: B)
+Raonament: Observem que al multiplicar per 2015 nombres que comencen amb 1, la suma de les xifres del resultat augmenta en 8:
+1 -> 8
+11 -> 16
+111 -> 24
+1111 -> 32
+Per tant, quan tenim un nombre format per 2015 "1", la suma de les xifres serà 2015*8=16120.
+
+Resposta: B)
+Raonament: Comprovant amb nombres petits de 1, 11, 111, i 1111, es comprova que per cada 1 afegit, la suma dels dígits de la multiplicació per 2015 augmenta en 8. Com que tenim 2015 uns, fem 2015 * 8, que és 16120.
+Resposta: B)
+Raonament: Si fem 2015 * 1 = 2015 la suma de les xifres és 8.
+Si fem 2015 * 11 = 22165 la suma de les xifres és 16.
+Per tant per cada 1 que afegim al nombre A, la suma de les xifres del resultat augmenta en 8.
+Com que A està format per 2015 uns, la suma de les xifres de A*2015 és 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Quan multiplico 2015 per 1 la suma és 8; per 11 la suma és 16; per 111 la suma és 24, per 1111 la suma és 32... la suma augmenta de 8 en 8. Multiplico 2015 per 8 i obtinc 16120.
+Resposta: B)
+Raonament: El nombre de digits de A son 2015, i tots 1.
+Si fem provatures obtenim:
+1*2015 = 2015 (suma = 8)
+11*2015 = 22165 (suma = 16)
+111*2015 = 223665 (suma = 24)
+
+Es veu clarament que per cada 1, la suma augmenta 8, per tant 2015 * 8 = 16120
+Resposta: B)
+Raonament: Veiem que per 1 xifra a 1 el resultat dona 8, per 2 dona 16, per 3 dona 24 i per 4 dona 32. Per tant, la relació és que la suma és 8 vegades el número de xifres a 1. 8 * 2015 = 16120
+Resposta: B)
+Raonament: Hi ha 2015 uns. He fet el càlcul de la suma de les xifres per 1, 2, 3, 4 i he vist que la suma va de 8 en 8. Per tant, 2015 x 8 = 16120.
+Resposta: B)
+Raonament: Busquem un patró amb valors més petits d'uns:
+1 * 2015 = 2015, suma de xifres = 8
+11 * 2015 = 22165, suma de xifres = 16
+111 * 2015 = 223665, suma de xifres = 24
+1111 * 2015 = 2238665, suma de xifres = 32
+
+Es veu que per cada 1 que afegeixo, la suma augmenta 8. Per tant, amb 2015 uns, la suma és 2015 * 8 = 16120.
+Resposta: B)
+Raonament: He probat amb casos petits. Un 1-> 8. Dos 1 -> 16. Tres 1 -> 24. Per tant es tracta de multiplicar el número de 1s per 8. 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Multiplico 2015 per els primers nombres d'uns: 1*2015 = 2015; la suma és 8, 11*2015=22165 la suma és 16; 111*2015 = 223665, la suma és 24. Veig que per cada 1 que afegeixo augmenta 8, per tant multiplico 2015*8 = 16120
+Resposta: B)
+Raonament: La suma augmenta en 8 amb cada 1 que s'afegeix. Per tant, 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Per A=1, A*2015 = 2015, suma de xifres = 8
+Per A=11, A*2015 = 22165, suma de xifres = 16
+Per A=111, A*2015 = 223665, suma de xifres = 24
+S'observa que per cada 1 que afegeixo a A, la suma de les xifres augmenta en 8. Com que hi ha 2015 uns, la suma és 2015*8=16120.
+Resposta: B)
+Raonament: Fem les primeres proves amb nombres formats per 1s:
+1 * 2015 = 2015. Suma de les xifres = 8.
+11 * 2015 = 22165. Suma de les xifres = 16.
+111 * 2015 = 223665. Suma de les xifres = 24.
+1111 * 2015 = 2238665. Suma de les xifres = 32.
+Veiem que per cada 1 que afegim, la suma augmenta en 8. Com que tenim 2015 uns, la suma total serà 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Analitzant la sèrie 1, 11, 111,... veiem que la suma de les xifres de A*2015 és 8, 16, 24... respectivament. Per tant, A * 2015 = 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Analitzant casos més petits, si A=1 -> A*2015 = 2015 i la suma de les xifres = 8. Si A=11 -> A*2015 = 22165 i la suma de les xifres = 16. Per tant, per cada 1 que afegeixo a A, la suma de les xifres del resultat augmenta 8. Com A té 2015 uns, la suma serà 8*2015 = 16120
+Resposta: B)
+Raonament: Observem:
+1 * 2015 = 2015; 2+0+1+5=8
+11 * 2015 = 22165; 2+2+1+6+5=16
+111 * 2015 = 223665; 2+2+3+6+6+5=24
+... La suma augmenta 8 amb cada '1' afegit. Per tant 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Analitzant la sèrie de multiplicar un nombre de '1' per 2015:
+1 * 2015 = 2015 -> Suma 8
+11 * 2015 = 22165 -> Suma 16
+111 * 2015 = 223665 -> Suma 24
+1111 * 2015 = 2238665 -> Suma 32
+
+Es veu que per cada 1 que afegim la suma augmenta 8, per tant 2015*8 = 16120
+Resposta: B)
+Raonament: Es observa un patró a mesura que augmentam les xifres d'1:
+1 * 2015 = 2015 -> Suma = 8
+11 * 2015 = 22165 -> Suma = 16
+111 * 2015 = 223665 -> Suma = 24
+1111 * 2015 = 2238665 -> Suma = 32
+Per cada xifra d'1 que augmentam la suma augmenta 8. Per tant, si tenim 2015 xifres d'1 -> 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Sumem els dígits d'1 fins arribar al nombre de digits necessaris: 1*2015=2015 (8); 11*2015=22165 (16); 111*2015=223665 (24), es mostra clarament que la suma augmenta en 8, de manera que fem: 2015*8=16120
+Resposta: B)
+Raonament: Calculant per petits valors, 1*2015= 2015 suma = 8; 11*2015= 22165 suma = 16, 111*2015= 223665 suma = 24. Per tant, per cada "1" afegit la suma incrementa en 8. 2015 * 8 = 16120
+Resposta: B)
+Raonament: He provat amb diferents valors de "A" i he vist un patró. Amb A=1, la suma és 8. Amb A=11, la suma és 16. Per tant, es tracta de multiplicar el nombre de 1s per 8. 2015 * 8 = 16120
+Resposta: B)
+Raonament: Anàlisi de casos particulars:
+A = 1 --> A*2015 = 2015 --> suma xifres = 8
+A = 11 --> A*2015 = 22165 --> suma xifres = 16
+A = 111 --> A*2015 = 223665 --> suma xifres = 24
+
+Patró: cada 1 que afegeixo la suma augmenta 8 unitats.
+Per tant la suma és 2015*8 = 16120
+Resposta: B)
+Raonament:
+A=1, A*2015=2015, suma de xifres 8
+A=11, A*2015=22165, suma de xifres 16
+A=111, A*2015=223665, suma de xifres 24
+Veiem que per cada 1 la suma augmenta 8, per tant 2015*8=16120
+Resposta: B)
+Raonament: La suma de les xifres del nombre que resulta de multiplicar A per 2015 és 8 * 2015 = 16120.
+Resposta: B)
+Raonament: Veiem el patró amb casos mes petits:
+1 xifra: 1*2015 = 2015 -> suma = 8
+2 xifres: 11*2015 = 22165 -> suma = 16
+3 xifres: 111*2015 = 223665 -> suma = 24
+Per tant, per cada xifra a 1, la suma es multiplica per 8. 8*2015 = 16120
+Resposta: B)
+Raonament: Comprobem el patró amb casos petits:
+- A=1, A*2015 = 2015. Suma = 8
+- A=11, A*2015 = 22165. Suma = 16
+- A=111, A*2015 = 223665. Suma = 24
+
+Observem que la suma augmenta 8 per cada 1 que afegim al nombre A. Com que el nombre A té 2015 xifres iguals a 1, la suma de les xifres del resultat serà 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament:
+A=1 => A*2015=2015 => la suma de les xifres és 8
+A=11 => A*2015=22165 => la suma de les xifres és 16
+A=111 => A*2015=223665 => la suma de les xifres és 24
+
+Veiem que cada 1 que afegim augmenta la suma de les xifres en 8. Llavors la suma total serà 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament: Veiem que per cada 1 que posem al número el resultat augmenta 8, llavors 2015 xifres que valen 1 serà 2015*8=16120
+Resposta: B)
+Raonament: Si mirem per a cada 1 que afegim:
+- 1 * 2015 = 2015 -> 2 + 0 + 1 + 5 = 8
+- 11 * 2015 = 22165 -> 2 + 2 + 1 + 6 + 5 = 16
+- 111 * 2015 = 223665 -> 2 + 2 + 3 + 6 + 6 + 5 = 24
+Veiem que cada cop que augmentem un 1, la suma de les xifres augmenta 8. Per tant, amb 2015 "uns", la suma final serà 2015 * 8 = 16120.
+Resposta: B)
+Raonament: Veiem que la suma de les xifres augmenta en 8 per cada '1' que afegeixo a la xifra inicial, per tant si tenim 2015 '1' i sabem que 2015 * 8 = 16120, tenim que la suma total serà de 16120.
+Resposta: B)
+Raonament: Observamos el patron:
+1 * 2015 = 2015 -> suma dígitos = 8
+11 * 2015 = 22165 -> suma dígitos = 16
+111 * 2015 = 223665 -> suma dígitos = 24
+
+Por tanto, la suma aumenta en 8 por cada "1" que añadimos. La suma total será 2015 * 8 = 16120
+Resposta: B)
+Raonament:
+Si A=1; A*2015 = 2015, suma de xifres=8
+Si A=11; A*2015 = 22165, suma de xifres=16
+Per tant, cada 1 que afegim augmenta la suma de les xifres en 8, per tant la resposta es 2015*8=16120
+Resposta: B)
+Raonament: Calculem alguns casos petits:
+A = 1, A * 2015 = 2015, la suma dels dígits és 8
+A = 11, A * 2015 = 22165, la suma dels dígits és 16
+A = 111, A * 2015 = 223665, la suma dels dígits és 24
+Veiem que per cada 1 que afegim, la suma augmenta 8. Per tant, 2015 * 8 = 16120
+Resposta: B)
+Raonament: Observo el patró amb nombres més petits
+1 * 2015 = 2015 suma dels digits 8
+11 * 2015 = 22165 suma dels digits 16
+111 * 2015 = 223665 suma dels digits 24
+
+Veig que per cada '1' que afegim augmenta 8
+Per tant 2015 * 8 = 16120
+Resposta: B)
+Raonament: Analitzem el patró per petits valors:
+A = 1; A*2015 = 2015; suma de xifres: 2+0+1+5=8
+A = 11; A*2015 = 22165; suma de xifres: 2+2+1+6+5=16
+A = 111; A*2015 = 223665; suma de xifres: 2+2+3+6+6+5=24
+A = 1111; A*2015 = 2238665; suma de xifres: 2+2+3+8+6+6+5=32
+
+Es pot veure que per cada 1 que afegim a A, la suma de les xifres del producte A*2015 augmenta en 8. Per tant, per A format per 2015 uns, la suma serà 2015*8 = 16120.
+Resposta: B)
+Raonament: Després de fer proves amb els primers nombres amb uns (1, 11, 111, 1111), observo que per cada nombre que afegeixo, la suma augmenta en 8, per tant 2015*8 = 16120.
+Resposta: B)
+Raonament: Primer, considerem casos més petits i trobem un patró:
+Si A = 1: A * 2015 = 2015, la suma de les xifres és 2 + 0 + 1 + 5 = 8.
+Si A = 11: A * 2015 = 22165, la suma de les xifres és 2 + 2 + 1 + 6 + 5 = 16.
+Si A = 111: A * 2015 = 223665, la suma de les xifres és 2 + 2 + 3 + 6 + 6 + 5 = 24.
+Si A = 1111: A * 2015 = 2238665, la suma de les xifres és 2 + 2 + 3 + 8 + 6 + 6 + 5 = 32.
+Observem que cada vegada que augmentem un 1 al nombre A, la suma de les xifres augmenta en 8. Per tant, si tenim 2015 uns, la suma de les xifres serà 2015 * 8 = 16120.
+
+Resposta: B)
+Raonament: Fem la multiplicació amb un número petit d'uns, així podem veure el patró
+1 * 2015 = 2015, suma = 8
+11 * 2015 = 22165, suma = 16
+111 * 2015 = 223665, suma = 24
+1111 * 2015 = 2238665, suma = 32
+Per cada 1 que afegim a la multiplicació, la suma augmenta 8, llavors si tenim 2015 vegades el número 1, 2015 * 8 = 16120
+Resposta: B)
+Raonament: Analitzem petits casos:
+A=1, A*2015=2015, suma=8
+A=11, A*2015=22165, suma=16
+A=111, A*2015=

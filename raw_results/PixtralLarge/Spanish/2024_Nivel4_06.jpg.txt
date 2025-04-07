@@ -1,0 +1,25 @@
+Para resolver la pregunta 6, necesitamos determinar cuántos números diferentes de cuatro dígitos se pueden formar con los números 1, 5 y 11.
+
+1. Primero, identificamos los números dados: 1, 5 y 11.
+2. Dividimos los números 1 y 5 en dígitos individuales:
+   - 1
+   - 5
+3. Consideramos el número 11 como un único número de dos dígitos.
+4. Ahora tenemos tres elementos para formar un número de cuatro dígitos: 1, 5 y 11.
+
+Para formar un número de cuatro dígitos usando estos tres elementos, debemos considerar todas las posibles combinaciones en las que cada elemento aparece una vez. La estructura de un número de cuatro dígitos es AAAA, donde A es uno de los tres elementos dados (1, 5, 11).
+
+Dado que 11 ocupa dos lugares, el número de cuatro dígitos tendrá la forma 11XX, donde XX son las combinaciones de los dos dígitos restantes (1 y 5).
+
+Las posibles combinaciones para XX son:
+- 15
+- 51
+
+Por lo tanto, los números de cuatro dígitos que podemos formar son:
+- 1115
+- 1151
+
+Hay solo 2 números diferentes de cuatro dígitos que se pueden formar.
+
+Razonamiento: Al analizar los dígitos y cómo se pueden colocar para formar un número de cuatro dígitos, encontramos que solo hay dos combinaciones posibles (1115 y 1151).
+Respuesta: B)

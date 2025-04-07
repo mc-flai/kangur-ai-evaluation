@@ -1,0 +1,66 @@
+
+La pregunta 22 nos pide determinar la base \( b \) en la que se calculó correctamente la escritura \( 14_b \cdot 25_b = 416_b \).
+
+Para resolver esto, debemos convertir cada número de la base \( b \) al sistema decimal y luego verificar si la multiplicación y la conversión de vuelta a la base \( b \) dan el resultado correcto.
+
+1. **Convertir \( 14_b \) a decimal:**
+   \[
+   14_b = 1 \cdot b + 4 \cdot 1 = b + 4
+   \]
+
+2. **Convertir \( 25_b \) a decimal:**
+   \[
+   25_b = 2 \cdot b + 5 \cdot 1 = 2b + 5
+   \]
+
+3. **Convertir \( 416_b \) a decimal:**
+   \[
+   416_b = 4 \cdot b^2 + 1 \cdot b + 6 \cdot 1 = 4b^2 + b + 6
+   \]
+
+4. **Multiplicar \( 14_b \) y \( 25_b \) en decimal:**
+   \[
+   (b + 4) \cdot (2b + 5)
+   \]
+
+5. **Expandir la multiplicación:**
+   \[
+   (b + 4) \cdot (2b + 5) = b \cdot 2b + b \cdot 5 + 4 \cdot 2b + 4 \cdot 5
+   \]
+   \[
+   = 2b^2 + 5b + 8b + 20
+   \]
+   \[
+   = 2b^2 + 13b + 20
+   \]
+
+6. **Igualar a \( 4b^2 + b + 6 \) y resolver para \( b \):**
+   \[
+   2b^2 + 13b + 20 = 4b^2 + b + 6
+   \]
+   \[
+   0 = 2b^2 - b + 14
+   \]
+   \[
+   0 = b^2 - b - 7
+   \]
+
+7. **Resolver la ecuación cuadrática:**
+   \[
+   b^2 - b - 7 = 0
+   \]
+   \[
+   (b - 4)(b + 2) = 0
+   \]
+   \[
+   b = 4 \quad \text{o} \quad b = -2
+   \]
+
+Dado que \( b \) debe ser positivo, tenemos:
+   \[
+   b = 4
+   \]
+
+Por lo tanto, la base \( b \) es 4.
+
+**Respuesta: A)**

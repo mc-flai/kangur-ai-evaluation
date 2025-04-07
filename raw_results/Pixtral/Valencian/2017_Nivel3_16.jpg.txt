@@ -1,0 +1,43 @@
+
+La pregunta 16 nos pide determinar qué número puede estar en el centro de un diagrama circular donde se colocan los números del 1 al 9, de manera que la suma de las cadencias de los cuatro conjuntos de tres números adyacentes es divisible por 4.
+
+Para resolver esto, debemos considerar las posibles sumas de las cadencias de los conjuntos de tres números adyacentes y ver cuál de los números del 1 al 9 puede estar en el centro para que la suma sea divisible por 4.
+
+**Razonamiento:**
+1. Identificamos los números del 1 al 9.
+2. Calculamos las cadencias de los conjuntos de tres números adyacentes para cada número en el centro.
+3. Verificamos si la suma de las cadencias es divisible por 4.
+
+- Si el número en el centro es 1:
+  - Cadencias posibles: 1, 2, 3, 4, 5, 6, 7, 8, 9
+  - Suma de las cadencias: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
+  - 45 no es divisible por 4.
+
+- Si el número en el centro es 5:
+  - Cadencias posibles: 4, 5, 6, 7, 8, 9, 1, 2, 3
+  - Suma de las cadencias: 4 + 5 + 6 + 7 + 8 + 9 + 1 + 2 + 3 = 45
+  - 45 no es divisible por 4.
+
+- Si el número en el centro es 9:
+  - Cadencias posibles: 8, 9, 1, 2, 3, 4, 5, 6, 7
+  - Suma de las cadencias: 8 + 9 + 1 + 2 + 3 + 4 + 5 + 6 + 7 = 45
+  - 45 no es divisible por 4.
+
+- Si el número en el centro es 3:
+  - Cadencias posibles: 2, 3, 4, 5, 6, 7, 8, 9, 1
+  - Suma de las cadencias: 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 1 = 45
+  - 45 no es divisible por 4.
+
+- Si el número en el centro es 7:
+  - Cadencias posibles: 6, 7, 8, 9, 1, 2, 3, 4, 5
+  - Suma de las cadencias: 6 + 7 + 8 + 9 + 1 + 2 + 3 + 4 + 5 = 45
+  - 45 no es divisible por 4.
+
+- Si el número en el centro es 11:
+  - Cadencias posibles: 10, 11, 12, 13, 1, 2, 3, 4, 5
+  - Suma de las cadencias: 10 + 11 + 12 + 13 + 1 + 2 + 3 + 4 + 5 = 51
+  - 51 no es divisible por 4.
+
+Después de revisar todas las opciones, ninguna de las sumas de las cadencias es divisible por 4.
+
+**Respuesta:** A)
